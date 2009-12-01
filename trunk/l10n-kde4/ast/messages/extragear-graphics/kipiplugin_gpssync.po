@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_gpssync\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-26 06:21+0100\n"
+"POT-Creation-Date: 2009-12-01 06:23+0100\n"
 "PO-Revision-Date: 2009-11-14 20:30+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -69,9 +69,9 @@ msgid "Recent locations"
 msgstr "Xeollocalización"
 
 #: gpseditdialog.cpp:192 gpslistviewcontextmenu.cpp:348
-#: gpslistviewcontextmenu.cpp:380 gpssyncdialog.cpp:272 gpssyncdialog.cpp:354
-#: gpssyncdialog.cpp:362 gpssyncdialog.cpp:491 gpssyncdialog.cpp:501
-#: gpssyncdialog.cpp:512 gpssyncdialog.cpp:541 gpstracklisteditdialog.cpp:135
+#: gpslistviewcontextmenu.cpp:380 gpssyncdialog.cpp:347 gpssyncdialog.cpp:432
+#: gpssyncdialog.cpp:440 gpssyncdialog.cpp:596 gpssyncdialog.cpp:606
+#: gpssyncdialog.cpp:617 gpssyncdialog.cpp:646 gpstracklisteditdialog.cpp:135
 msgid "GPS Sync"
 msgstr "Sincronizar GPS"
 
@@ -79,21 +79,21 @@ msgstr "Sincronizar GPS"
 msgid "A Plugin to edit geographical coordinates"
 msgstr "Un complementu pa editar coordenaes xeográfiques"
 
-#: gpseditdialog.cpp:196 gpssyncdialog.cpp:276
+#: gpseditdialog.cpp:196 gpssyncdialog.cpp:351
 msgid "(c) 2006-2009, Gilles Caulier"
 msgstr "(c) 2006-2009, Gilles Caulier"
 
-#: gpseditdialog.cpp:198 gpssyncdialog.cpp:278 gpstracklisteditdialog.cpp:141
+#: gpseditdialog.cpp:198 gpssyncdialog.cpp:353 gpstracklisteditdialog.cpp:141
 #: kmlexportconfig.cpp:290
 msgid "Gilles Caulier"
 msgstr "Gilles Caulier"
 
-#: gpseditdialog.cpp:199 gpssyncdialog.cpp:279 gpstracklisteditdialog.cpp:142
+#: gpseditdialog.cpp:199 gpssyncdialog.cpp:354 gpstracklisteditdialog.cpp:142
 #: kmlexportconfig.cpp:287 kmlexportconfig.cpp:291
 msgid "Developer and maintainer"
 msgstr "Desendolcador y caltenedor"
 
-#: gpseditdialog.cpp:207 gpssyncdialog.cpp:287 gpstracklisteditdialog.cpp:150
+#: gpseditdialog.cpp:207 gpssyncdialog.cpp:362 gpstracklisteditdialog.cpp:150
 #: kmlexportconfig.cpp:299
 msgid "Handbook"
 msgstr "Manual"
@@ -153,23 +153,23 @@ msgstr "Desaniciáu"
 msgid "Not available"
 msgstr "Non disponible"
 
-#: gpssyncdialog.cpp:121 plugin_gpssync.cpp:78
+#: gpssyncdialog.cpp:135 plugin_gpssync.cpp:78
 msgid "Geolocation"
 msgstr "Xeollocalización"
 
-#: gpssyncdialog.cpp:124
+#: gpssyncdialog.cpp:138
 msgid "Correlate"
 msgstr "Correlativa"
 
-#: gpssyncdialog.cpp:125
+#: gpssyncdialog.cpp:139
 msgid "Edit..."
 msgstr "Editar..."
 
-#: gpssyncdialog.cpp:126
+#: gpssyncdialog.cpp:140
 msgid "Remove"
 msgstr "Desaniciar"
 
-#: gpssyncdialog.cpp:128
+#: gpssyncdialog.cpp:142
 msgid ""
 "Correlate in time and interpolate distance of data from GPX file with all "
 "images on the list."
@@ -177,56 +177,56 @@ msgstr ""
 "Correlacionar en tiempu ya interpolar distancia de los datos del ficheru GPX "
 "con toles imáxenes de la llista."
 
-#: gpssyncdialog.cpp:129
+#: gpssyncdialog.cpp:143
 msgid "Manually edit GPS coordinates of selected images from the list."
 msgstr ""
 "Editar manualmente les coordenaes GPS de les imáxenes esbillaes de la lista."
 
-#: gpssyncdialog.cpp:130
+#: gpssyncdialog.cpp:144
 msgid "Remove GPS coordinates of selected images from the list."
 msgstr "Desaniciar les coordenaes GPS de les imáxenes escoyíes de la llista."
 
-#: gpssyncdialog.cpp:147 gpstracklisteditdialog.cpp:106
+#: gpssyncdialog.cpp:161 gpstracklisteditdialog.cpp:106
 msgid "Date"
 msgstr "Data"
 
-#: gpssyncdialog.cpp:149 gpstracklisteditdialog.cpp:108
+#: gpssyncdialog.cpp:163 gpstracklisteditdialog.cpp:108
 msgid "Latitude"
 msgstr "Llatitú"
 
-#: gpssyncdialog.cpp:151 gpstracklisteditdialog.cpp:110
+#: gpssyncdialog.cpp:165 gpstracklisteditdialog.cpp:110
 msgid "Longitude"
 msgstr "Llonxitú"
 
-#: gpssyncdialog.cpp:153 gpstracklisteditdialog.cpp:112
+#: gpssyncdialog.cpp:167 gpstracklisteditdialog.cpp:112
 msgid "Altitude"
 msgstr "Altitú"
 
-#: gpssyncdialog.cpp:155
+#: gpssyncdialog.cpp:169
 msgid "Status"
 msgstr "Estáu"
 
-#: gpssyncdialog.cpp:168
+#: gpssyncdialog.cpp:182
 msgid "Settings"
 msgstr "Configuración"
 
-#: gpssyncdialog.cpp:171
+#: gpssyncdialog.cpp:185
 msgid "Load GPX File..."
 msgstr "Cargar ficheru GPX..."
 
-#: gpssyncdialog.cpp:173
+#: gpssyncdialog.cpp:187
 msgid "Current GPX file:"
 msgstr "Ficheru GPX actual:"
 
-#: gpssyncdialog.cpp:174
+#: gpssyncdialog.cpp:188
 msgid "No GPX file"
 msgstr "Nun hai ficheru  GPX"
 
-#: gpssyncdialog.cpp:178
+#: gpssyncdialog.cpp:192
 msgid "Max. time gap (sec.):"
 msgstr "Tiempu d'espaciu máx (seg.):"
 
-#: gpssyncdialog.cpp:180
+#: gpssyncdialog.cpp:194
 msgid ""
 "Sets the maximum difference in seconds from a GPS track point to the image "
 "time to be matched. If the time difference exceeds this setting, no match "
@@ -236,11 +236,33 @@ msgstr ""
 "la imaxe pa facela coincidir. Si la diferencia de tiempu y mayor qu'esti "
 "valor, sun s'intenta la coincidencia."
 
-#: gpssyncdialog.cpp:184
-msgid "Time zone:"
+#: gpssyncdialog.cpp:198
+#, fuzzy
+#| msgid "Time zone:"
+msgid "Camera time zone:"
 msgstr "Estaya horaria:"
 
-#: gpssyncdialog.cpp:230
+#: gpssyncdialog.cpp:199
+msgid "Same as system"
+msgstr ""
+
+#: gpssyncdialog.cpp:201
+msgid ""
+"Use this option if the timezone of the camera is the same as the timezone of "
+"this system. The conversion to GMT will be done automatically."
+msgstr ""
+
+#: gpssyncdialog.cpp:204
+msgid "Manual:"
+msgstr ""
+
+#: gpssyncdialog.cpp:206
+msgid ""
+"Use this option if the timezone of the camera is different from this system "
+"and you have to specify the difference to GMT manually."
+msgstr ""
+
+#: gpssyncdialog.cpp:258
 msgid ""
 "<p>Sets the time zone the camera was set to during photo shooting, so that "
 "the time stamps of the images can be converted to GMT to match the GPS time "
@@ -253,11 +275,34 @@ msgstr ""
 "desplazamientos positivos cuenten faza l'este dende la llonxitú cero (GMT); "
 "tán «per delantre nel tiempu».</p>"
 
-#: gpssyncdialog.cpp:236
+#: gpssyncdialog.cpp:265
+msgid "Fine offset (mm:ss):"
+msgstr ""
+
+#: gpssyncdialog.cpp:267
+msgid ""
+"Sets an additional offset in minutes and seconds that is used to correlate "
+"the photos to the GPS track. This can be used for fine tuning to adjust a "
+"wrong camera clock."
+msgstr ""
+
+#: gpssyncdialog.cpp:277
+msgid "Set whether the camera offset is negative or positive."
+msgstr ""
+
+#: gpssyncdialog.cpp:281
+msgid "Minutes to fine tune camera offset."
+msgstr ""
+
+#: gpssyncdialog.cpp:284
+msgid "Seconds to fine tune camera offset."
+msgstr ""
+
+#: gpssyncdialog.cpp:294
 msgid "Interpolate"
 msgstr "Interpolar"
 
-#: gpssyncdialog.cpp:237
+#: gpssyncdialog.cpp:295
 msgid ""
 "Set this option to interpolate GPS track points which are not closely "
 "matched to the GPX data file."
@@ -265,11 +310,11 @@ msgstr ""
 "Afita esta opción pa interpolar puntos de trazáu GPS que nun son mui "
 "coincidentes col ficheru de datos GPX."
 
-#: gpssyncdialog.cpp:240
+#: gpssyncdialog.cpp:298
 msgid "Difference in min.:"
 msgstr "Diferencia en min.:"
 
-#: gpssyncdialog.cpp:242
+#: gpssyncdialog.cpp:300
 msgid ""
 "Sets the maximum time difference in minutes (240 max.) to interpolate GPX "
 "file points to image time data."
@@ -277,42 +322,42 @@ msgstr ""
 "Afita la máxima diferencia horaria en minutos (240 máx) pa interpolar puntos "
 "de ficheru GPX nos datos d'hora de la imaxe."
 
-#: gpssyncdialog.cpp:275
+#: gpssyncdialog.cpp:350
 msgid "A Plugin to synchronize pictures' metadata with a GPS device"
 msgstr "Un complementu pa sincronizar metadatos d'imáxenes con un preséu GPS"
 
-#: gpssyncdialog.cpp:341 kmlexportconfig.cpp:174
+#: gpssyncdialog.cpp:419 kmlexportconfig.cpp:174
 #, kde-format
 msgid "%1|GPS Exchange Format"
 msgstr "%1|Formatu d'intercambéu de GPS"
 
-#: gpssyncdialog.cpp:342 kmlexportconfig.cpp:175
+#: gpssyncdialog.cpp:420 kmlexportconfig.cpp:175
 msgid "Select GPX File to Load"
 msgstr "Escueyi'l ficheru GPX pa cargar"
 
-#: gpssyncdialog.cpp:353 kmlexport.cpp:374
+#: gpssyncdialog.cpp:431 kmlexport.cpp:374
 #, kde-format
 msgid "Cannot parse %1 GPX file."
 msgstr "Nun puede analizase'l ficheru %1 GPX."
 
-#: gpssyncdialog.cpp:361
+#: gpssyncdialog.cpp:439
 #, kde-format
 msgid "The %1 GPX file does not have a date-time track to use."
 msgstr "El ficheru %1 GPX nun tien una pista de data-hora pa usar."
 
-#: gpssyncdialog.cpp:368
+#: gpssyncdialog.cpp:446
 #, kde-format
 msgid "Points parsed: %1"
 msgstr "Puntos analizaos: %1"
 
-#: gpssyncdialog.cpp:408
+#: gpssyncdialog.cpp:486
 #, kde-format
 msgid "1 image from the list is not updated."
 msgid_plural "%1 images from the list are not updated."
 msgstr[0] "Nun s'anovó 1 imaxe de la llista."
 msgstr[1] "Nun s'anovaron %1 imáxenes de la llista."
 
-#: gpssyncdialog.cpp:412
+#: gpssyncdialog.cpp:490
 #, kde-format
 msgid ""
 "<p>%1\n"
@@ -321,12 +366,12 @@ msgstr ""
 "<p>%1\n"
 "¿De verdá quies pesllar esta ventana ensin aplicar los cambeos?</p>"
 
-#: gpssyncdialog.cpp:490
+#: gpssyncdialog.cpp:595
 msgid "Cannot find pictures to correlate with GPX file data."
 msgstr ""
 "Nun se pudieron atopar imáxenes pa correlacionar colos datos del ficheru GPX."
 
-#: gpssyncdialog.cpp:495
+#: gpssyncdialog.cpp:600
 #, kde-format
 msgid "The GPS data of 1 image have been updated using the GPX data file."
 msgid_plural ""
@@ -335,13 +380,13 @@ msgstr[0] "Los datos GPS d'una imaxe anováronse usando'l ficheru de datos GPX"
 msgstr[1] ""
 "Los datos GPS de %1 imáxenes anováronse usando el ficheru de datos GPX"
 
-#: gpssyncdialog.cpp:499
+#: gpssyncdialog.cpp:604
 msgid "Press the Apply button to update the image's metadata."
 msgid_plural "Press the Apply button to update the images' metadata."
 msgstr[0] "Calca'l botón Aplicar p'anovar los metadatos de la imaxe"
 msgstr[1] "Calca'l botón Aplicar p'anovar los metadatos de les imáxenes"
 
-#: gpssyncdialog.cpp:511
+#: gpssyncdialog.cpp:616
 msgid ""
 "Please select at least one image from the list to edit GPS coordinates "
 "manually."
@@ -349,7 +394,7 @@ msgstr ""
 "Escueyi polo menos una imaxe de la llista pa editar manualmente les "
 "coordenaes GPS."
 
-#: gpssyncdialog.cpp:540
+#: gpssyncdialog.cpp:645
 msgid "Please select at least one image from which to remove GPS coordinates."
 msgstr ""
 "Escueyi polo menos una imaxe de la llista pa desaniciar les coordenaes GPS."
