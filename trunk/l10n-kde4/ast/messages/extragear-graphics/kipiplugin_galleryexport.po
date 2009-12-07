@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-04 07:22+0100\n"
+"POT-Creation-Date: 2009-12-04 06:13+0100\n"
 "PO-Revision-Date: 2009-12-06 15:44+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -28,6 +28,9 @@ msgid "URL:"
 msgstr "URL:"
 
 #: galleryconfig.cpp:86
+#, fuzzy
+#| msgid "Username:"
+msgctxt "gallery login settings"
 msgid "Username:"
 msgstr "Nome d'usuariu:"
 
@@ -48,9 +51,7 @@ msgstr "L'URL de la galería ye, seique, incorreutu"
 msgid "Incorrect username or password specified"
 msgstr "Usuariu o contraseña incorreuta"
 
-#: gallerytalker.cpp:526
-#: gallerytalker.cpp:601
-#: gallerytalker.cpp:652
+#: gallerytalker.cpp:526 gallerytalker.cpp:601 gallerytalker.cpp:652
 #: gallerytalker.cpp:708
 msgid "Invalid response received from remote Gallery"
 msgstr "Rempuesta inválida recibida dende la Galería remota"
@@ -103,14 +104,15 @@ msgstr "Redimensionar les semeyes enantes de xubiles"
 msgid "Maximum dimension:"
 msgstr "Tamañu máximu:"
 
-#: gallerywindow.cpp:210
-#: gallerywindow.cpp:215
+#: gallerywindow.cpp:210 gallerywindow.cpp:215
 msgid "Gallery Export"
 msgstr "Esportar galería"
 
 #: gallerywindow.cpp:218
 msgid "A Kipi plugin to export image collections to a remote Gallery server."
-msgstr "Un complementu Kipi pa esportar esbilles d'imáxenes d'un sirvidor Gallery remotu."
+msgstr ""
+"Un complementu Kipi pa esportar esbilles d'imáxenes d'un sirvidor Gallery "
+"remotu."
 
 #: gallerywindow.cpp:219
 msgid ""
@@ -144,8 +146,7 @@ msgstr "Caltenimientu"
 msgid "Andrea Diamantini"
 msgstr "Andrea Diamantini"
 
-#: gallerywindow.cpp:230
-#: gallerywindow.cpp:233
+#: gallerywindow.cpp:230 gallerywindow.cpp:233
 msgid "Developer"
 msgstr "Desendolcador"
 
@@ -173,25 +174,25 @@ msgstr ""
 "\n"
 "¿Quies comprobar la to configuración ya intentalo otra vuelta?"
 
-#: gallerywindow.cpp:417
-#: gallerywindow.cpp:805
-#: plugin_galleryexport.cpp:115
+#: gallerywindow.cpp:417 gallerywindow.cpp:805 plugin_galleryexport.cpp:115
 msgid "Edit Gallery Data"
 msgstr "Editar los datos de la galería"
 
-#: gallerywindow.cpp:474
-#: gallerywindow.cpp:495
+#: gallerywindow.cpp:474 gallerywindow.cpp:495
 msgid "Album"
 msgstr "Álbum"
 
-#: gallerywindow.cpp:526
-#: gallerywindow.cpp:535
+#: gallerywindow.cpp:526 gallerywindow.cpp:535
 msgid "Image"
 msgstr "Imaxe"
 
 #: gallerywindow.cpp:668
-msgid "Sorry, these characters are not allowed in album name: \\ / * ? \" ' & &lt; &gt; | . + # ( ) or spaces"
-msgstr "Perdona, pero estos carauteres nun se permiten nel nome del álbum: \\ / * ? \" ' & < > | . + # ( ) o espacios"
+msgid ""
+"Sorry, these characters are not allowed in album name: \\ / * ? \" ' & &lt; "
+"&gt; | . + # ( ) or spaces"
+msgstr ""
+"Perdona, pero estos carauteres nun se permiten nel nome del álbum: \\ / * ? "
+"\" ' & < > | . + # ( ) o espacios"
 
 #: gallerywindow.cpp:745
 msgid "Uploading file "
@@ -215,43 +216,37 @@ msgstr "Esportar a la &Galeía..."
 
 #. i18n: file: galleryalbumwidget.ui:16
 #. i18n: ectx: property (text), widget (QLabel, header)
-#: rc.cpp:3
-#: rc.cpp:23
+#: rc.cpp:3 rc.cpp:23
 msgid "<h3>Enter New Album Name</h3>"
 msgstr "<h3> Pon el nome del nuevu álbum</h3>"
 
 #. i18n: file: galleryalbumwidget.ui:38
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: rc.cpp:6
-#: rc.cpp:26
+#: rc.cpp:6 rc.cpp:26
 msgid "Title:"
 msgstr "Títulu:"
 
 #. i18n: file: galleryalbumwidget.ui:48
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: rc.cpp:9
-#: rc.cpp:29
+#: rc.cpp:9 rc.cpp:29
 msgid "Name (optional):"
 msgstr "Nome (opcional):"
 
 #. i18n: file: galleryalbumwidget.ui:58
 #. i18n: ectx: property (text), widget (QLabel, captionLabel)
-#: rc.cpp:12
-#: rc.cpp:32
+#: rc.cpp:12 rc.cpp:32
 msgid "Caption (optional):"
 msgstr "Lleenda (opcional):"
 
 #. i18n: file: galleryalbumwidget.ui:113
 #. i18n: ectx: property (text), widget (QPushButton, buttonOk)
-#: rc.cpp:15
-#: rc.cpp:35
+#: rc.cpp:15 rc.cpp:35
 msgid "&OK"
 msgstr "&Aceutar"
 
 #. i18n: file: galleryalbumwidget.ui:129
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
-#: rc.cpp:18
-#: rc.cpp:38
+#: rc.cpp:18 rc.cpp:38
 msgid "&Cancel"
 msgstr "&Encaboxar"
 
@@ -267,4 +262,3 @@ msgstr ",,xandru@softastur.org,"
 
 #~ msgid "albums"
 #~ msgstr "álbumes"
-
