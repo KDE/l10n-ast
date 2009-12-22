@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-29 06:14+0100\n"
+"POT-Creation-Date: 2009-12-07 06:08+0100\n"
 "PO-Revision-Date: 2009-12-21 22:36+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -79,10 +79,8 @@ msgstr "Renomar"
 msgid "Rename <filename>%1</filename> to:"
 msgstr "Renomar <filename>%1</filename> a:"
 
-#: app/documentpanel.cpp:291
-#: app/thumbnailviewpanel.cpp:101
-#: app/mainwindow.cpp:292
-#: lib/documentview/documentview.cpp:123
+#: app/documentpanel.cpp:291 app/thumbnailviewpanel.cpp:105
+#: app/mainwindow.cpp:292 lib/documentview/documentview.cpp:123
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr "Ver"
@@ -98,7 +96,8 @@ msgstr "Descartar cambeos y volver a cargar"
 
 #: app/documentpanel.cpp:484
 msgctxt "@info"
-msgid "This image has been modified. Reloading it will discard all your changes."
+msgid ""
+"This image has been modified. Reloading it will discard all your changes."
 msgstr "Esta imaxe modificóse. Si vuelves a cargala perderánse los cambeos."
 
 #: app/fullscreencontent.cpp:108
@@ -119,64 +118,63 @@ msgid_plural "%1 secs"
 msgstr[0] "%1 seg"
 msgstr[1] "%1 segs"
 
-#: app/thumbnailviewpanel.cpp:103
+#: app/thumbnailviewpanel.cpp:107
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Edit Location"
 msgstr "Editar ubicación"
 
-#: app/thumbnailviewpanel.cpp:107
+#: app/thumbnailviewpanel.cpp:111
 msgctxt "@action:inmenu"
 msgid "Sort By"
 msgstr "Axeitar por"
 
-#: app/thumbnailviewpanel.cpp:108
+#: app/thumbnailviewpanel.cpp:112
 msgctxt "@addAction:inmenu"
 msgid "Name"
 msgstr "Nome"
 
-#: app/thumbnailviewpanel.cpp:110
+#: app/thumbnailviewpanel.cpp:114
 msgctxt "@addAction:inmenu"
 msgid "Date"
 msgstr "Data"
 
-#: app/thumbnailviewpanel.cpp:112
+#: app/thumbnailviewpanel.cpp:116
 msgctxt "@addAction:inmenu"
 msgid "Size"
 msgstr "Tamañu"
 
-#: app/thumbnailviewpanel.cpp:120
+#: app/thumbnailviewpanel.cpp:124
 msgctxt "@action:inmenu"
 msgid "Thumbnail Details"
 msgstr "Detalles de la miniatura"
 
-#: app/thumbnailviewpanel.cpp:131
+#: app/thumbnailviewpanel.cpp:135
 msgctxt "@action:inmenu"
 msgid "Filename"
 msgstr "Nome del ficheru"
 
-#: app/thumbnailviewpanel.cpp:132
+#: app/thumbnailviewpanel.cpp:136
 msgctxt "@action:inmenu"
 msgid "Date"
 msgstr "Data"
 
-#: app/thumbnailviewpanel.cpp:134
+#: app/thumbnailviewpanel.cpp:138
 msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr "Valoración"
 
-#: app/thumbnailviewpanel.cpp:138
-#: app/fileopscontextmanageritem.cpp:197
+#: app/thumbnailviewpanel.cpp:142 app/fileopscontextmanageritem.cpp:197
 #: app/mainwindow.cpp:291
 msgctxt "@title actions category"
 msgid "File"
 msgstr "Ficheru"
 
-#: app/thumbnailviewpanel.cpp:140
+#: app/thumbnailviewpanel.cpp:144
 msgctxt "@action:inmenu"
 msgid "Add Folder to Places"
 msgstr "Amestar carpeta a «Llugares»"
 
-#: app/thumbnailviewpanel.cpp:153
+#: app/thumbnailviewpanel.cpp:157
 #, kde-format
 msgctxt "@label"
 msgid "%1 document"
@@ -274,7 +272,9 @@ msgstr[1] "Nun se pueden guardar %1 documentos:"
 
 #: app/gvcore.cpp:246
 #, kde-format
-msgctxt "@info %1 is the name of the document which failed to save, %2 is the reason for the failure"
+msgctxt ""
+"@info %1 is the name of the document which failed to save, %2 is the reason "
+"for the failure"
 msgid "<filename>%1</filename>: %2"
 msgstr "<filename>%1</filename>: %2"
 
@@ -320,8 +320,7 @@ msgstr "Gwenview nun puede editar esta triba d'imaxe."
 msgid "Gwenview"
 msgstr "Gwenview"
 
-#: app/main.cpp:43
-#: part/gvpart.cpp:120
+#: app/main.cpp:43 part/gvpart.cpp:120
 msgid "An Image Viewer"
 msgstr "Un visor d'imáxenes"
 
@@ -329,15 +328,11 @@ msgstr "Un visor d'imáxenes"
 msgid "Copyright 2000-2009 Aurélien Gâteau"
 msgstr "Copyright 2000-2009 Aurélien Gâteau"
 
-#: app/main.cpp:47
-#: part/gvpart.cpp:124
-#: importer/main.cpp:44
+#: app/main.cpp:47 part/gvpart.cpp:124 importer/main.cpp:44
 msgid "Aurélien Gâteau"
 msgstr "Aurélien Gâteau"
 
-#: app/main.cpp:48
-#: part/gvpart.cpp:125
-#: importer/main.cpp:45
+#: app/main.cpp:48 part/gvpart.cpp:125 importer/main.cpp:45
 msgid "Main developer"
 msgstr "Desendolcador principal"
 
@@ -355,7 +350,8 @@ msgstr "Un ficheru o carpeta d'aniciu"
 
 #: app/infocontextmanageritem.cpp:85
 #, kde-format
-msgctxt "@item:intext %1 is a key, we append a colon to it. A value is displayed after"
+msgctxt ""
+"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
 msgid "%1:"
 msgstr "%1:"
 
@@ -433,19 +429,19 @@ msgstr "Avanzáu"
 msgid "No Plugin"
 msgstr "Ensin complementu"
 
-#: app/startpage.cpp:282
+#: app/startpage.cpp:283
 msgid "Add to Places"
 msgstr "Amestar a Llugares"
 
-#: app/startpage.cpp:283
+#: app/startpage.cpp:284
 msgid "Forget this URL"
 msgstr "Escaecer esti URL"
 
-#: app/startpage.cpp:283
+#: app/startpage.cpp:284
 msgid "Forget this Folder"
 msgstr "Escaecer esta carpeta"
 
-#: app/startpage.cpp:285
+#: app/startpage.cpp:286
 msgid "Forget All"
 msgstr "Escaecer too"
 
@@ -555,8 +551,12 @@ msgid "Edit"
 msgstr "Editar"
 
 #: app/savebar.cpp:84
-msgid "You have modified many images. To avoid memory problems, you should save your changes."
-msgstr "Modificasti abondes imáxenes. Tendríes de guardar los cambeos pa evitar problemes de memoria."
+msgid ""
+"You have modified many images. To avoid memory problems, you should save "
+"your changes."
+msgstr ""
+"Modificasti abondes imáxenes. Tendríes de guardar los cambeos pa evitar "
+"problemes de memoria."
 
 #: app/savebar.cpp:168
 msgid "Current image modified"
@@ -585,8 +585,7 @@ msgstr "Dir a la primer imaxe modificada"
 msgid "Go to it"
 msgstr "Dir a ella"
 
-#: app/savebar.cpp:293
-#: app/savebar.cpp:298
+#: app/savebar.cpp:293 app/savebar.cpp:298
 msgid "Save All"
 msgstr "Grabar too"
 
@@ -604,28 +603,23 @@ msgctxt "@title actions category - means actions changing image"
 msgid "Edit"
 msgstr "Editar"
 
-#: app/imageopscontextmanageritem.cpp:79
-#: lib/transformimageoperation.cpp:49
+#: app/imageopscontextmanageritem.cpp:79 lib/transformimageoperation.cpp:49
 msgid "Rotate Left"
 msgstr "Voltiar a la esquierda"
 
-#: app/imageopscontextmanageritem.cpp:84
-#: lib/transformimageoperation.cpp:46
+#: app/imageopscontextmanageritem.cpp:84 lib/transformimageoperation.cpp:46
 msgid "Rotate Right"
 msgstr "Voltiar a la drecha"
 
-#: app/imageopscontextmanageritem.cpp:89
-#: lib/transformimageoperation.cpp:52
+#: app/imageopscontextmanageritem.cpp:89 lib/transformimageoperation.cpp:52
 msgid "Mirror"
 msgstr "Espeyu"
 
-#: app/imageopscontextmanageritem.cpp:93
-#: lib/transformimageoperation.cpp:55
+#: app/imageopscontextmanageritem.cpp:93 lib/transformimageoperation.cpp:55
 msgid "Flip"
 msgstr "Reflexar"
 
-#: app/imageopscontextmanageritem.cpp:97
-#: lib/resizeimageoperation.cpp:47
+#: app/imageopscontextmanageritem.cpp:97 lib/resizeimageoperation.cpp:47
 msgid "Resize"
 msgstr "Redimensionar"
 
@@ -633,10 +627,8 @@ msgstr "Redimensionar"
 #. i18n: ectx: property (windowTitle), widget (QWidget, CropWidget)
 #. i18n: file: lib/crop/cropwidget.ui:32
 #. i18n: ectx: property (text), widget (QToolButton, cropButton)
-#: app/imageopscontextmanageritem.cpp:101
-#: lib/crop/cropimageoperation.cpp:48
-#: rc.cpp:162
-#: rc.cpp:168
+#: app/imageopscontextmanageritem.cpp:101 lib/crop/cropimageoperation.cpp:48
+#: rc.cpp:162 rc.cpp:168
 msgid "Crop"
 msgstr "Recortar"
 
@@ -789,8 +781,7 @@ msgstr "Amenorgamientu de güeyos bermeyos"
 msgid "Print Image"
 msgstr "Imprentar imaxe"
 
-#: lib/statusbartoolbutton.cpp:118
-#: lib/fullscreenbar.cpp:244
+#: lib/statusbartoolbutton.cpp:118 lib/fullscreenbar.cpp:244
 #, kde-format
 msgctxt "@info:tooltip of custom toolbar button"
 msgid "%1"
@@ -806,15 +797,17 @@ msgid "Fit"
 msgstr "Axustar"
 
 #: lib/documentview/documentview.cpp:136
-msgctxt "@action:button Zoom to original size, shown in status bar, keep it short please"
+msgctxt ""
+"@action:button Zoom to original size, shown in status bar, keep it short "
+"please"
 msgid "100%"
 msgstr "100%"
 
-#: lib/documentview/documentview.cpp:332
+#: lib/documentview/documentview.cpp:335
 msgid "Gwenview does not know how to display this kind of document"
 msgstr "Gwenview nun sabe cómo amosar esta triba de documentu"
 
-#: lib/documentview/documentview.cpp:416
+#: lib/documentview/documentview.cpp:419
 #, kde-format
 msgid "Loading <filename>%1</filename> failed"
 msgstr "Falló la carga de <filename>%1</filename>"
@@ -875,14 +868,22 @@ msgstr "Falló la carga d'una imaxe."
 #: lib/document/documentloadedimpl.cpp:117
 #, kde-format
 msgctxt "@info"
-msgid "Could not open file for writing, check that you have the necessary rights in <filename>%1</filename>."
-msgstr "Nun puede abrise'l ficheru pa escritura. Compruebe que tien los permisos necesarios sobro <filename>%1</filename>."
+msgid ""
+"Could not open file for writing, check that you have the necessary rights in "
+"<filename>%1</filename>."
+msgstr ""
+"Nun puede abrise'l ficheru pa escritura. Compruebe que tien los permisos "
+"necesarios sobro <filename>%1</filename>."
 
 #: lib/document/documentloadedimpl.cpp:127
 #, kde-format
 msgctxt "@info"
-msgid "Could not overwrite file, check that you have the necessary rights to write in <filename>%1</filename>."
-msgstr "Nun puede sobroscribise'l ficheru. Compruebe que tien los permisos necesarios sobro <filename>%1</filename>."
+msgid ""
+"Could not overwrite file, check that you have the necessary rights to write "
+"in <filename>%1</filename>."
+msgstr ""
+"Nun puede sobroscribise'l ficheru. Compruebe que tien los permisos "
+"necesarios sobro <filename>%1</filename>."
 
 #: lib/document/documentloadedimpl.cpp:133
 msgctxt "@info"
@@ -1079,29 +1080,33 @@ msgstr "L'hestorial deshabilitóse."
 msgid "Recent Folders"
 msgstr "Carpetes recientes"
 
-#. i18n: file: app/startpage.ui:61
+#. i18n: file: app/startpage.ui:65
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: rc.cpp:65
 msgid "Recent URLs"
 msgstr "URL recientes"
 
-#. i18n: file: app/startpage.ui:102
+#. i18n: file: app/startpage.ui:109
 #. i18n: ectx: attribute (title), widget (QWidget, placesTab)
 #: rc.cpp:68
 msgid "Places"
 msgstr "Llugares"
 
-#. i18n: file: app/startpage.ui:122
+#. i18n: file: app/startpage.ui:132
 #. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
 #: rc.cpp:71
 msgid "Tags"
 msgstr "Etiquetes"
 
-#. i18n: file: app/startpage.ui:128
+#. i18n: file: app/startpage.ui:138
 #. i18n: ectx: property (text), widget (QLabel, mTagLabel)
 #: rc.cpp:74
-msgid "Browsing by tags is not available. Make sure Nepomuk is properly installed on your computer."
-msgstr "La navegación por etiquetes nun ta disponible. Asegúrese de que Nepomuk ta bien instaláu nel so equipu."
+msgid ""
+"Browsing by tags is not available. Make sure Nepomuk is properly installed "
+"on your computer."
+msgstr ""
+"La navegación por etiquetes nun ta disponible. Asegúrese de que Nepomuk ta "
+"bien instaláu nel so equipu."
 
 #. i18n: file: app/gwenviewui.rc:56
 #. i18n: ectx: Menu (rating)
@@ -1167,8 +1172,7 @@ msgstr "Axu&stes"
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: part/gvpart.rc:15
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:107
-#: rc.cpp:252
+#: rc.cpp:107 rc.cpp:252
 msgid "Main Toolbar"
 msgstr "Barra de ferramientes Principal"
 
@@ -1214,8 +1218,7 @@ msgstr "Restolar"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnlargeSmallerImages)
 #. i18n: file: lib/print/printoptionspage.ui:98
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintEnlargeSmallerImages)
-#: rc.cpp:128
-#: rc.cpp:201
+#: rc.cpp:128 rc.cpp:201
 msgid "Enlarge smaller images"
 msgstr "Agrandar les imáxenes más pequeñes"
 
@@ -1266,10 +1269,14 @@ msgstr "Desaniciar la carpeta de la caché de miniatures al colar"
 #: rc.cpp:152
 msgid ""
 "Enable this option if you do not have a lot of disk space.\n"
-"Be careful: this will delete the folder named <filename>.thumbnails</filename> in your home folder, deleting all thumbnails previously generated by Gwenview and other applications."
+"Be careful: this will delete the folder named <filename>.thumbnails</"
+"filename> in your home folder, deleting all thumbnails previously generated "
+"by Gwenview and other applications."
 msgstr ""
 "Active esta opción si nun dispón d'abondu espaciu en discu.\n"
-"Tenga curiáu: esto desaniciará la carpeta <filename>.thumbnails</filename> esistente na so carpeta personal, desaniciando toles miniatures xeneraes anteriormente por Gwenview y por otres aplicaciones."
+"Tenga curiáu: esto desaniciará la carpeta <filename>.thumbnails</filename> "
+"esistente na so carpeta personal, desaniciando toles miniatures xeneraes "
+"anteriormente por Gwenview y por otres aplicaciones."
 
 #. i18n: file: app/advancedconfigpage.ui:78
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -1472,7 +1479,9 @@ msgstr "Previsualizar:"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:266
 msgid "<i>Type text or click the items below to customize the format</i>"
-msgstr "<i>Escribi testu o calca nos elementos inferiores pa personalizar el formatu</i>"
+msgstr ""
+"<i>Escribi testu o calca nos elementos inferiores pa personalizar el "
+"formatu</i>"
 
 #. i18n: file: importer/progresspage.ui:30
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1508,16 +1517,24 @@ msgstr[1] "Importáronse %1 documentos."
 #: importer/importdialog.cpp:76
 #, kde-format
 msgid "One document has been skipped because it had already been imported."
-msgid_plural "%1 documents have been skipped because they had already been imported."
+msgid_plural ""
+"%1 documents have been skipped because they had already been imported."
 msgstr[0] "Inoróse un documentu porque yá taba importáu."
 msgstr[1] "Inoráronse %1 documentos porque yá taben importaos"
 
 #: importer/importdialog.cpp:84
 #, kde-format
-msgid "One of them has been renamed because another document with the same name had already been imported."
-msgid_plural "%1 of them have been renamed because other documents with the same name had already been imported."
-msgstr[0] "Camudose'l nome d'ún d'ellos porque yá esistía otru documentu col mesmu nome."
-msgstr[1] "Camudáronse los nomes de %1 d'ellos porque yá esistíen otros documentos col mesmu nome."
+msgid ""
+"One of them has been renamed because another document with the same name had "
+"already been imported."
+msgid_plural ""
+"%1 of them have been renamed because other documents with the same name had "
+"already been imported."
+msgstr[0] ""
+"Camudose'l nome d'ún d'ellos porque yá esistía otru documentu col mesmu nome."
+msgstr[1] ""
+"Camudáronse los nomes de %1 d'ellos porque yá esistíen otros documentos col "
+"mesmu nome."
 
 #: importer/importdialog.cpp:93
 #, kde-format
@@ -1534,9 +1551,14 @@ msgstr[0] "¿Desaniciar el documentu inoráu dende'l preséu?"
 msgstr[1] "¿Desaniciar los %1 documentos inoraos dende'l preséu?"
 
 #: importer/importdialog.cpp:104
-#, kde-format
-msgctxt "This sentence is only used if there is at least one imported and one skipped document"
-msgid "Delete the %1 imported and skipped documents from the device?"
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "This sentence is only used if there is at least one imported and one "
+#| "skipped document"
+#| msgid "Delete the %1 imported and skipped documents from the device?"
+#| msgid_plural "Delete the %1 imported and skipped documents from the device?"
+msgctxt "Singular sentence is actually never used."
+msgid "Delete the imported or skipped document from the device?"
 msgid_plural "Delete the %1 imported and skipped documents from the device?"
 msgstr[0] "¿Desaniciar el documentu importáu ya inoráu dende'l preséu?"
 msgstr[1] "¿Desaniciar los %1 documentos importaos ya inoraos dende'l preséu?"
@@ -1657,4 +1679,3 @@ msgstr "Nome de ficheru Orixinal, en minúscules"
 
 #~ msgid "History"
 #~ msgstr "Hestorial"
-
