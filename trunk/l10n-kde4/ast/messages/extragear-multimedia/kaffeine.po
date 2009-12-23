@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-14 07:01+0100\n"
+"POT-Creation-Date: 2009-12-23 07:06+0100\n"
 "PO-Revision-Date: 2009-12-07 17:19+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -281,7 +281,7 @@ msgctxt "submenu of 'Skip'"
 msgid "Skip %1s Forward"
 msgstr "Saltar %1s haza alantre"
 
-#: mediawidget.cpp:337 dvb/dvbepg.cpp:211 playlist/playlistmodel.cpp:116
+#: mediawidget.cpp:337 dvb/dvbepg.cpp:211
 msgid "Title"
 msgstr "Títulu"
 
@@ -298,13 +298,19 @@ msgid "Switch between elapsed and remaining time display"
 msgstr "Camudar ente'l tiempu trescurríu y el restante"
 
 #: mediawidget.cpp:402
-msgctxt "file filter description"
-msgid "Supported media files"
+#, fuzzy
+#| msgctxt "file filter description"
+#| msgid "Supported media files"
+msgctxt "file filter"
+msgid "Supported Media Files"
 msgstr "Ficheros multimedia permitíos"
 
 #: mediawidget.cpp:403
-msgctxt "file filter description"
-msgid "All files"
+#, fuzzy
+#| msgctxt "file filter description"
+#| msgid "All files"
+msgctxt "file filter"
+msgid "All Files"
 msgstr "Tolos ficheros"
 
 #: mediawidget.cpp:613
@@ -378,7 +384,7 @@ msgstr "Circular drecha"
 msgid "Name"
 msgstr "Nome"
 
-#: dvb/dvbchannelui.cpp:240 playlist/playlistmodel.cpp:114
+#: dvb/dvbchannelui.cpp:240
 msgid "Number"
 msgstr "Númberu"
 
@@ -388,8 +394,8 @@ msgid "Edit"
 msgstr "Editar"
 
 #: dvb/dvbchannelui.cpp:587 dvb/dvbrecording.cpp:403 dvb/dvbrecording.cpp:421
-#: dvb/dvbscandialog.cpp:215 playlist/playlisttab.cpp:569
-#: playlist/playlisttab.cpp:590
+#: dvb/dvbscandialog.cpp:215 playlist/playlisttab.cpp:373
+#: playlist/playlisttab.cpp:394
 msgctxt "remove an item from a list"
 msgid "Remove"
 msgstr "Desaniciar"
@@ -784,7 +790,7 @@ msgctxt "dialog"
 msgid "Recording Schedule"
 msgstr "Grabando programación"
 
-#: dvb/dvbrecording.cpp:394 playlist/playlisttab.cpp:580
+#: dvb/dvbrecording.cpp:394 playlist/playlisttab.cpp:384
 msgctxt "add a new item to a list"
 msgid "New"
 msgstr "Nuevu"
@@ -849,7 +855,7 @@ msgstr "SNR"
 msgid "Channels"
 msgstr "Canales"
 
-#: dvb/dvbscandialog.cpp:220 playlist/playlisttab.cpp:573
+#: dvb/dvbscandialog.cpp:220 playlist/playlisttab.cpp:377
 msgctxt "remove all items from a list"
 msgid "Clear"
 msgstr "Llimpiar"
@@ -942,43 +948,87 @@ msgctxt "osd"
 msgid "Instant Record Stopped"
 msgstr "Detúvose la grabación instantánea"
 
-#: playlist/playlisttab.cpp:553
+#: playlist/playlistmodel.cpp:716
+#, fuzzy
+#| msgid "Title"
+msgctxt "playlist track"
+msgid "Title"
+msgstr "Títulu"
+
+#: playlist/playlistmodel.cpp:718
+#, fuzzy
+#| msgid "Atsc"
+msgctxt "playlist track"
+msgid "Artist"
+msgstr "Atsc"
+
+#: playlist/playlistmodel.cpp:720
+msgctxt "playlist track"
+msgid "Album"
+msgstr ""
+
+#: playlist/playlistmodel.cpp:722
+#, fuzzy
+#| msgid "Number"
+msgctxt "playlist track"
+msgid "Track Number"
+msgstr "Númberu"
+
+#: playlist/playlistmodel.cpp:724
+msgctxt "playlist track"
+msgid "Length"
+msgstr ""
+
+#: playlist/playlisttab.cpp:343
+#, fuzzy
+#| msgid "Temporary Playlist"
+msgctxt "playlist browser"
 msgid "Temporary Playlist"
 msgstr "Llista de reproducción temporal"
 
-#: playlist/playlisttab.cpp:556
+#: playlist/playlisttab.cpp:363
 msgctxt "playlist menu"
 msgid "Repeat"
 msgstr "Repetir"
 
-#: playlist/playlisttab.cpp:563
+#: playlist/playlisttab.cpp:368
 msgctxt "playlist menu"
 msgid "Random"
 msgstr "Al debalu"
 
-#: playlist/playlisttab.cpp:585
+#: playlist/playlisttab.cpp:389
 msgctxt "rename an entry in a list"
 msgid "Rename"
 msgstr "Renomar"
 
-#: playlist/playlisttab.cpp:876
+#: playlist/playlisttab.cpp:589
+#, fuzzy
+#| msgid "Playlist"
+msgctxt "playlist browser"
+msgid "Unnamed Playlist"
+msgstr "Llista de reproducción"
+
+#: playlist/playlisttab.cpp:734
+#, fuzzy
+#| msgid ""
+#| "*.m3u|M3U Playlist\n"
+#| "*.pls|PLS Playlist\n"
+#| "*.xspf|XSPF Playlist"
+msgctxt "file filter"
 msgid ""
+"*.xspf|XSPF Playlist\n"
 "*.m3u|M3U Playlist\n"
-"*.pls|PLS Playlist\n"
-"*.xspf|XSPF Playlist"
+"*.pls|PLS Playlist"
 msgstr ""
 "*.m3u|M3U Playlist\n"
 "*.pls|PLS Playlist\n"
 "*.xspf|XSPF Playlist"
 
-#: playlist/playlisttab.cpp:888
-#, kde-format
-msgid "Cannot open %1."
-msgstr "Nun puede abrise %1."
+#~ msgid "Cannot open %1."
+#~ msgstr "Nun puede abrise %1."
 
-#: playlist/playlisttab.cpp:901
-msgid "Unknown playlist format."
-msgstr "Formatu de llista de reproducción desconocíu."
+#~ msgid "Unknown playlist format."
+#~ msgstr "Formatu de llista de reproducción desconocíu."
 
 #~ msgctxt "submenu of skip"
 #~ msgid "Skip 1min Backward"
