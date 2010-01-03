@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-31 06:22+0100\n"
+"POT-Creation-Date: 2010-01-03 06:20+0100\n"
 "PO-Revision-Date: 2009-12-06 18:15+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Español <kde-ye@kybs.de>\n"
@@ -330,24 +330,34 @@ msgid "Uncheck Track"
 msgstr "Deescoyer pista"
 
 #: rip/k3baudiocdview.cpp:224
-msgid "Edit Track cddb Info"
+#, fuzzy
+#| msgid "Edit Track cddb Info"
+msgid "Edit Track CDDB Info"
 msgstr "Editar información CDDB"
 
 #: rip/k3baudiocdview.cpp:227
-msgid "Edit Album cddb Info"
+#, fuzzy
+#| msgid "Edit Album cddb Info"
+msgid "Edit Album CDDB Info"
 msgstr "Editar información CDDB del álbum"
 
 #: rip/k3baudiocdview.cpp:234
-msgid "Query cddb"
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:47
+#, fuzzy
+#| msgid "Query Cddb"
+msgid "Query CDDB"
 msgstr "Guetar CDDB"
 
 #: rip/k3baudiocdview.cpp:237
-msgid "Save Cddb Entry Locally"
+#, fuzzy
+#| msgid "Save Cddb Entry Locally"
+msgid "Save CDDB Entry Locally"
 msgstr "Guardar entrada CDDB llocalmente"
 
 #: rip/k3baudiocdview.cpp:304
-#, kde-format
-msgid "Cddb Track %1"
+#, fuzzy, kde-format
+#| msgid "Cddb Track %1"
+msgid "CDDB Track %1"
 msgstr "Pista CDDB %1"
 
 #: rip/k3baudiocdview.cpp:319 rip/k3baudiocdview.cpp:381
@@ -852,15 +862,15 @@ msgid "Video Size"
 msgstr "Tamañu del vídeo"
 
 #: rip/videodvd/k3bvideodvdrippingwidget.cpp:102
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:80
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:83
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:86
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:180
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:181
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:182
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:264
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:265
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:266
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:64
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:67
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:70
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:164
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:165
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:166
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:248
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:249
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:250
 #, kde-format
 msgid "%1 kbps"
 msgstr "%1 kbps"
@@ -2723,7 +2733,7 @@ msgstr "Abriendo ficheru..."
 msgid "Could not open document."
 msgstr "Nun se pudo abrir el documentu."
 
-#: k3b.cpp:650 ../plugins/encoder/sox/k3bsoxencoder.cpp:324
+#: k3b.cpp:650 ../plugins/encoder/sox/k3bsoxencoder.cpp:326
 msgid "Error"
 msgstr "Fallu"
 
@@ -6017,27 +6027,21 @@ msgstr "Intér&prete:"
 msgid "More Fiel&ds..."
 msgstr "Más campo&s..."
 
-#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:22
-#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup1)
+#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:21
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: rc.cpp:1031
 msgid "File Quality"
 msgstr "Calidá del ficheru"
 
-#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:30
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioQualityLevel)
-#: rc.cpp:1034
-msgid "&Quality level:"
-msgstr "Nivel de &calidá:"
-
-#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:36
+#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:29
 #. i18n: ectx: property (toolTip), widget (QRadioButton, m_radioQualityLevel)
-#: rc.cpp:1037
+#: rc.cpp:1034
 msgid "Controls the quality of the encoded files"
 msgstr "Controla la calidá de los ficheros codificaos"
 
-#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:39
+#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:32
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, m_radioQualityLevel)
-#: rc.cpp:1040
+#: rc.cpp:1037
 msgid ""
 "<p>Vorbis' audio quality is not best measured in kilobits per second, but on "
 "a scale from -1 to 10 called \"quality\". <p>For now, quality -1 is roughly "
@@ -6057,6 +6061,12 @@ msgstr ""
 "qu'a aproximadamente 110kbps, da un tamañu de ficheru menor y una fidelidá "
 "significativamente meyor que la compresión .mp3 a 128kbps. <p><em>Esta "
 "desplicación copióse de la FAQ de www.vorbis.com.</em>"
+
+#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:35
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioQualityLevel)
+#: rc.cpp:1040
+msgid "&Quality level:"
+msgstr "Nivel de &calidá:"
 
 #. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:51
 #. i18n: ectx: property (text), widget (QLabel, m_labelQualityLevel)
@@ -6102,17 +6112,17 @@ msgstr "Tasa de bits má&xima:"
 msgid "Lower &bitrate:"
 msgstr "Tasa de bits &mínima:"
 
-#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:260
+#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:256
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:270
+#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:266
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:280
+#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:276
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rc.cpp:1061 rc.cpp:1064 rc.cpp:1067
 msgid "kbps"
 msgstr "kbps"
 
-#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:298
+#. i18n: file: ../plugins/encoder/ogg/base_k3boggvorbisencodersettingswidget.ui:292
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkBitrateNominal)
 #: rc.cpp:1070
 msgid "&Nominal bitrate:"
@@ -7020,7 +7030,7 @@ msgstr "La pista %1 nun s'atopó na base datos de MusicBrainz."
 
 #: projects/k3baudiotracktrmlookupdialog.cpp:124
 #: projects/k3baudioburndialog.cpp:64
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:69
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:70
 msgid "Audio Project"
 msgstr "Proyeutu d'audio"
 
@@ -9638,7 +9648,7 @@ msgid "Bitrate Lower"
 msgstr "Tasa de bits inferior"
 
 #: ../plugins/decoder/ogg/k3boggvorbisdecoder.cpp:203
-#: ../plugins/encoder/ogg/k3boggvorbisencoder.cpp:412
+#: ../plugins/encoder/ogg/k3boggvorbisencoder.cpp:413
 msgid "Ogg-Vorbis"
 msgstr "Ogg Vorbis"
 
@@ -9689,11 +9699,11 @@ msgstr "MPEG 1 Layer III"
 msgid "Advanced Audio Coding (AAC)"
 msgstr "Advanced Audio Coding (AAC)"
 
-#: ../plugins/encoder/ogg/k3boggvorbisencoderconfigwidget.cpp:70
+#: ../plugins/encoder/ogg/k3boggvorbisencoderconfigwidget.cpp:63
 msgid "Controls the quality of the encoded files."
 msgstr "Controla la calidá de los ficheros codificaos."
 
-#: ../plugins/encoder/ogg/k3boggvorbisencoderconfigwidget.cpp:71
+#: ../plugins/encoder/ogg/k3boggvorbisencoderconfigwidget.cpp:64
 msgid ""
 "<p>Vorbis' audio quality is not best measured in kilobits per second, but on "
 "a scale from -1 to 10 called <em>quality</em>.<p>For now, quality -1 is "
@@ -9714,93 +9724,93 @@ msgstr ""
 "significativamente meyor que la compresión .mp3 a 128kbps. <p><em>Esta "
 "desplicación ta sofitada na FAQ de www.vorbis.com.</em>"
 
-#: ../plugins/encoder/ogg/k3boggvorbisencoderconfigwidget.cpp:119
+#: ../plugins/encoder/ogg/k3boggvorbisencoderconfigwidget.cpp:112
 #, kde-format
 msgid "(targeted VBR of %1)"
 msgstr "(VBR oxetivu de %1)"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:286
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:288
 msgid "Sun AU"
 msgstr "Sun AU"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:288
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:290
 msgid "Amiga 8SVX"
 msgstr "Amiga 8SVX"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:290
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:292
 msgid "AIFF"
 msgstr "AIFF"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:292
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:294
 msgid "Audio Visual Research"
 msgstr "Audio Visual Research"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:294
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:296
 msgid "CD-R"
 msgstr "CD-R"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:296
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:298
 msgid "CVS"
 msgstr "CVS"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:298
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:300
 msgid "Text Data"
 msgstr "Datos de testu"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:300
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:302
 msgid "GSM Speech"
 msgstr "GSM Speech"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:302
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:304
 msgid "Macintosh HCOM"
 msgstr "Macintosh HCOM"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:304
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:306
 msgid "Maud (Amiga)"
 msgstr "Maud (Amiga)"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:306
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:308
 msgid "IRCAM"
 msgstr "IRCAM"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:308
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:310
 msgid "SPHERE"
 msgstr "SPHERE"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:310
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:312
 msgid "Turtle Beach SampleVision"
 msgstr "Turtle Beach SampleVision"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:312
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:314
 msgid "Yamaha TX-16W"
 msgstr "Yamaha TX-16W"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:314
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:316
 msgid "VMS"
 msgstr "VMS"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:316
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:318
 msgid "Sound Blaster VOC"
 msgstr "Sound Blaster VOC"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:318
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:320
 msgid "Wave (Sox)"
 msgstr "Wave (Sox)"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:320
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:322
 msgid "Psion 8-bit A-law"
 msgstr "Psion 8-bit A-law"
 
-#: ../plugins/encoder/sox/k3bsoxencoder.cpp:322
+#: ../plugins/encoder/sox/k3bsoxencoder.cpp:324
 msgid "Raw"
 msgstr "Raw"
 
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:144
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:128
 #, kde-format
 msgid "Constant Bitrate: %1 kbps (%2)"
 msgstr "Tasa de bits constante: %1 kbps (%2)"
 
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:148
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:132
 #, kde-format
 msgid "Variable Bitrate (%1)"
 msgstr "Tasa de bits variable (%1)"
@@ -9901,84 +9911,90 @@ msgstr "Nun pudo atopar el programa '%1'"
 msgid "Invalid command: the command is empty."
 msgstr "Orde inválida: la orde ta balera."
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:115
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:113
 msgid "Rename Pattern"
 msgstr "Patrón de cambéu de nome"
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:121
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:119
 msgid "Scan"
 msgstr "Guetar"
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:126
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:124
 msgid "Found Files"
 msgstr "Ficheros atopaos"
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:130
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:128
 msgid "New Name"
 msgstr "Nome nuevu"
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:130
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:128
 msgid "Old Name"
 msgstr "Nome antiguu"
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:145
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:143
 msgid "Scan for renamable files"
 msgstr "Guetar ficheros a los que camudar el nome"
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:146
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:144
 msgid ""
 "<qt>This specifies how the files should be renamed. Currently only the "
 "special strings <em>%a</em> (Artist), <em>%n</em> (Track number), and <em>%"
 "t</em> (Title) are supported."
 msgstr ""
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:163
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:385
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:161
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:383
 msgid "Rename Audio Files"
 msgstr "Camudar el nome a ficheros d'audio"
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:169
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:167
 msgid "Based on meta info"
 msgstr "Basáu na información meta"
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:189
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:187
 msgid "Please specify a valid pattern."
 msgstr "Por favor especifica un patrón válidu."
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:220
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:218
 msgid "No renameable files found."
 msgstr "Nun s'atopó dengún ficheru al que camudar el nome."
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:268
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:266
 msgid "Please click the Scan button to search for renameable files."
 msgstr ""
 "Por favor clica nel botón Guetar pa guetar ficheros a los que camudar el "
 "nome."
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:282
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:280
 msgid "Done."
 msgstr "Fechu."
 
-#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:386
+#: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:384
 msgid "Rename audio files based on their meta info."
 msgstr "Camudar nome a ficheros d'audio basándose en la to metainformación."
 
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:47
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:69
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:48
+#, fuzzy
+#| msgid "Query a cddb entry for the current audio project."
+msgid "Query a CDDB entry for the current audio project."
+msgstr "Consultar una entrada del CDDB pol actual proyeutu d'audio."
+
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:66
+#, fuzzy
+#| msgid "Please select a non-empty audio project for a cddb query."
+msgid "Please select a non-empty audio project for a CDDB query."
+msgstr "Por favor escueyi un proyeutu d'audio ermu pa consultar la CDDB."
+
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:70
 msgid "Query Cddb"
 msgstr "Guetar CDDB"
 
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:48
-msgid "Query a cddb entry for the current audio project."
-msgstr "Consultar una entrada del CDDB pol actual proyeutu d'audio."
-
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:65
-msgid "Please select a non-empty audio project for a cddb query."
-msgstr "Por favor escueyi un proyeutu d'audio ermu pa consultar la CDDB."
-
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:118
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:119
 msgid "Cddb error"
 msgstr "Fallu Cddb"
+
+#~ msgid "Query cddb"
+#~ msgstr "Guetar CDDB"
 
 #~ msgid "Ripping to single file '%1'."
 #~ msgstr "Sacando a un solo ficheru '%1'."
