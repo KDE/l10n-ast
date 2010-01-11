@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-10 06:22+0100\n"
+"POT-Creation-Date: 2010-01-11 06:27+0100\n"
 "PO-Revision-Date: 2009-12-06 18:15+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Español <kde-ye@kybs.de>\n"
@@ -23,7 +23,7 @@ msgid "Audio Project Conversion"
 msgstr "Conversión de proyeutu d'audio"
 
 #: rip/k3baudioprojectconvertingdialog.cpp:106 rip/k3bvideocdview.cpp:326
-#: rip/k3baudiocdview.cpp:181 rip/k3baudiorippingdialog.cpp:152
+#: rip/k3baudiocdview.cpp:181 rip/k3baudiorippingdialog.cpp:124
 #, kde-format
 msgid "1 track (%2)"
 msgid_plural "%1 tracks (%2)"
@@ -37,13 +37,13 @@ msgid "Filename (relative to base folder)"
 msgstr "Nome del ficheru (relativu al direutoriu base)"
 
 #: rip/k3baudioprojectconvertingdialog.cpp:127 rip/k3bvideocdview.cpp:174
-#: rip/k3baudiorippingdialog.cpp:333 rip/k3baudiotrackmodel.cpp:160
+#: rip/k3baudiorippingdialog.cpp:143 rip/k3baudiotrackmodel.cpp:160
 #: k3bdiskinfoview.cpp:256 k3baudioplayer.cpp:120
 msgid "Length"
 msgstr "Duración"
 
 #: rip/k3baudioprojectconvertingdialog.cpp:128
-#: rip/k3baudiorippingdialog.cpp:333
+#: rip/k3baudiorippingdialog.cpp:144
 #: rip/videodvd/k3bvideodvdrippingwidget.cpp:87 projects/k3bvcdlistview.cpp:92
 msgid "File Size"
 msgstr "Tamañu del ficheru"
@@ -52,8 +52,8 @@ msgstr "Tamañu del ficheru"
 #. i18n: ectx: property (title), widget (Q3GroupBox, m_groupOptions)
 #. i18n: file: ../plugins/encoder/lame/base_k3blameencodersettingswidget.ui:25
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rip/k3baudioprojectconvertingdialog.cpp:136
-#: rip/k3bvideocdrippingdialog.cpp:102 rip/k3baudiorippingdialog.cpp:178
+#: rip/k3baudioprojectconvertingdialog.cpp:145
+#: rip/k3bvideocdrippingdialog.cpp:102 rip/k3baudiorippingdialog.cpp:163
 #: misc/k3bmediacopydialog.cpp:120 misc/k3bimagewritingdialog.cpp:301
 #: misc/k3bimagewritingdialog.cpp:317 misc/k3bmediaformattingdialog.cpp:71
 #: option/k3boptiondialog.cpp:48 rc.cpp:750 rc.cpp:1170
@@ -63,49 +63,39 @@ msgstr "Tamañu del ficheru"
 msgid "Settings"
 msgstr "Configuración"
 
-#: rip/k3baudioprojectconvertingdialog.cpp:142
-#: rip/k3baudiorippingdialog.cpp:184
+#: rip/k3baudioprojectconvertingdialog.cpp:151
+#: rip/k3baudiorippingdialog.cpp:169
 msgid "File Naming"
 msgstr "Nomando ficheru"
 
-#: rip/k3baudioprojectconvertingdialog.cpp:175
-#: rip/k3baudiorippingdialog.cpp:262
+#: rip/k3baudioprojectconvertingdialog.cpp:184
+#: rip/k3baudiorippingdialog.cpp:247
 msgid "Please check the naming pattern. All filenames need to be unique."
 msgstr ""
 "Por favor verifica'l patrón de nomes. Tolos nomes de ficheros tienen de ser "
 "únicos."
 
-#: rip/k3baudioprojectconvertingdialog.cpp:193
-#: rip/k3baudiorippingdialog.cpp:279
+#: rip/k3baudioprojectconvertingdialog.cpp:201
+#: rip/k3baudiorippingdialog.cpp:264
 #: rip/videodvd/k3bvideodvdrippingdialog.cpp:568
 msgid "Do you want to overwrite these files?"
 msgstr "¿Quies sobrescribir estos ficheros?"
 
-#: rip/k3baudioprojectconvertingdialog.cpp:195
-#: rip/k3bvideocdrippingdialog.cpp:175 rip/k3baudiorippingdialog.cpp:281
+#: rip/k3baudioprojectconvertingdialog.cpp:203
+#: rip/k3bvideocdrippingdialog.cpp:175 rip/k3baudiorippingdialog.cpp:266
 #: rip/videodvd/k3bvideodvdrippingdialog.cpp:570
 msgid "Files Exist"
 msgstr "Los ficheros existen"
 
-#: rip/k3baudioprojectconvertingdialog.cpp:276
-#: rip/k3baudioprojectconvertingdialog.cpp:319
+#: rip/k3baudioprojectconvertingdialog.cpp:282
+#: rip/k3baudioprojectconvertingdialog.cpp:321
 #: rip/k3baudioconvertingoptionwidget.cpp:222
 #: rip/k3baudioconvertingoptionwidget.cpp:256 rip/k3bpatternparser.cpp:124
 #: rip/k3bpatternparser.cpp:160 rip/k3bpatternparser.cpp:168
-#: rip/k3baudiorippingdialog.cpp:374 rip/k3baudiorippingdialog.cpp:429
+#: rip/k3baudiorippingdialog.cpp:357 rip/k3baudiorippingdialog.cpp:412
 #: rip/videodvd/k3bvideodvdrippingwidget.cpp:287 k3bdiskinfoview.cpp:299
 msgid "unknown"
 msgstr "desconocíu"
-
-#: rip/k3baudioprojectconvertingdialog.cpp:292
-#: rip/k3baudiorippingdialog.cpp:385
-msgid "Cue-file"
-msgstr "Ficheru Cue"
-
-#: rip/k3baudioprojectconvertingdialog.cpp:338 rip/k3bcddbpatternwidget.cpp:59
-#: rip/k3baudiorippingdialog.cpp:116
-msgid "Playlist"
-msgstr "Llista de reproducción"
 
 #: rip/k3bvideocdrippingdialog.cpp:50
 msgid "Video CD Ripping"
@@ -144,7 +134,7 @@ msgid "Extract XML structure"
 msgstr "Sacar estructura XML"
 
 #: rip/k3bvideocdrippingdialog.cpp:118 rip/k3bvideocdview.cpp:346
-#: rip/k3baudiocdview.cpp:231 rip/k3baudiorippingdialog.cpp:215
+#: rip/k3baudiocdview.cpp:231 rip/k3baudiorippingdialog.cpp:200
 #: rip/videodvd/k3bvideodvdrippingview.cpp:263
 msgid "Start Ripping"
 msgstr "Entamar la extraición"
@@ -522,6 +512,10 @@ msgstr "musica/pistes-extrayíes/%a - %t"
 msgid "%{albumartist} - %{albumtitle}"
 msgstr "%{artistaalbum} - %{tituloalbum}"
 
+#: rip/k3bcddbpatternwidget.cpp:59 rip/k3baudiorippingdialog.cpp:427
+msgid "Playlist"
+msgstr "Llista de reproducción"
+
 #: rip/k3bcddbpatternwidget.cpp:60
 msgid "playlists/%{albumartist}/%{albumtitle    }"
 msgstr "listasdereproducción/%{artistaalbum}/%{titulualbum    }"
@@ -594,15 +588,29 @@ msgstr ""
 "testos especiales, lo que significa que'l X en @X{...} tien de ser un "
 "caráuter d'entre [atnycgATCd]."
 
-#: rip/k3baudiorippingdialog.cpp:151
+#: rip/k3baudiorippingdialog.cpp:123
 msgid "CD Ripping"
 msgstr "Extraición del CD"
+
+#: rip/k3baudiorippingdialog.cpp:142
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:88 k3baudioplayer.cpp:119
+#: projects/k3bvcdlistview.cpp:93 projects/k3baudioprojectmodel.cpp:326
+#: projects/k3bvcdtrackdialog.cpp:373
+msgid "Filename"
+msgstr "Nome del ficheru"
+
+#. i18n: file: option/base_k3bcddboptiontab.ui:262
+#. i18n: ectx: property (text), widget (K3ListView)
+#: rip/k3baudiorippingdialog.cpp:145 k3bdiskinfoview.cpp:250 rc.cpp:411
+#: projects/k3bvcdlistview.cpp:86 projects/k3bvcdburndialog.cpp:394
+msgid "Type"
+msgstr "Triba"
 
 #. i18n: file: option/base_k3bcddboptiontab.ui:421
 #. i18n: ectx: attribute (title), widget (QWidget)
 #. i18n: file: ../plugins/encoder/lame/base_k3blameencodersettingswidget.ui:267
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rip/k3baudiorippingdialog.cpp:192 misc/k3bimagewritingdialog.cpp:347
+#: rip/k3baudiorippingdialog.cpp:177 misc/k3bimagewritingdialog.cpp:347
 #: misc/k3bimagewritingdialog.cpp:888 option/k3boptiondialog.cpp:202
 #: rc.cpp:444 rc.cpp:1197 projects/k3bvcdburndialog.cpp:386
 #: projects/k3bdatapropertiesdialog.cpp:148
@@ -610,33 +618,33 @@ msgstr "Extraición del CD"
 msgid "Advanced"
 msgstr "Avanzáu"
 
-#: rip/k3baudiorippingdialog.cpp:196 projects/k3baudioburndialog.cpp:98
+#: rip/k3baudiorippingdialog.cpp:181 projects/k3baudioburndialog.cpp:98
 msgid "Ignore read errors"
 msgstr "Inorar fallos de llectura"
 
-#: rip/k3baudiorippingdialog.cpp:197
+#: rip/k3baudiorippingdialog.cpp:182
 msgid "Do not read pregaps"
 msgstr ""
 
-#: rip/k3baudiorippingdialog.cpp:199 misc/k3bmediacopydialog.cpp:185
+#: rip/k3baudiorippingdialog.cpp:184 misc/k3bmediacopydialog.cpp:185
 #: projects/k3baudioburndialog.cpp:92
 msgid "Paranoia mode:"
 msgstr "Mou de Paranoia:"
 
-#: rip/k3baudiorippingdialog.cpp:201 misc/k3bmediacopydialog.cpp:169
+#: rip/k3baudiorippingdialog.cpp:186 misc/k3bmediacopydialog.cpp:169
 #: misc/k3bmediacopydialog.cpp:182 projects/k3baudioburndialog.cpp:95
 msgid "Read retries:"
 msgstr "Reintentos de llectura:"
 
-#: rip/k3baudiorippingdialog.cpp:215
+#: rip/k3baudiorippingdialog.cpp:200
 msgid "Starts copying the selected tracks"
 msgstr "Entama la copia de les pistes escoyíes"
 
-#: rip/k3baudiorippingdialog.cpp:224
+#: rip/k3baudiorippingdialog.cpp:209
 msgid "Maximal number of read retries"
 msgstr "Máximu númberu de reintentos de llectura"
 
-#: rip/k3baudiorippingdialog.cpp:225
+#: rip/k3baudiorippingdialog.cpp:210
 msgid ""
 "<p>This specifies the maximum number of retries to read a sector of audio "
 "data from the cd. After that K3b will either skip the sector if the "
@@ -646,11 +654,11 @@ msgstr ""
 "datos d'audio del CD. Darréu, K3b omitirá'l sector o detendrá'l procesu si "
 "la opción <em>Inorar fallos de llectura</em> ta escoyida."
 
-#: rip/k3baudiorippingdialog.cpp:229
+#: rip/k3baudiorippingdialog.cpp:214
 msgid "Do not read the pregaps at the end of every track"
 msgstr "Nun lleer los previos al final de cada pista"
 
-#: rip/k3baudiorippingdialog.cpp:230
+#: rip/k3baudiorippingdialog.cpp:215
 msgid ""
 "<p>If this option is checked K3b will not rip the audio data in the pregaps. "
 "Most audio tracks contain an empty pregap which does not belong to the track "
@@ -660,37 +668,27 @@ msgid ""
 "regenerated.</p>"
 msgstr ""
 
-#: rip/k3baudiorippingdialog.cpp:281
+#: rip/k3baudiorippingdialog.cpp:266
 msgid "Overwrite"
 msgstr "Sobrescribir"
 
-#: rip/k3baudiorippingdialog.cpp:333
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:88 k3baudioplayer.cpp:119
-#: projects/k3bvcdlistview.cpp:93 projects/k3baudioprojectmodel.cpp:326
-#: projects/k3bvcdtrackdialog.cpp:373
-msgid "Filename"
-msgstr "Nome del ficheru"
-
-#. i18n: file: option/base_k3bcddboptiontab.ui:262
-#. i18n: ectx: property (text), widget (K3ListView)
-#: rip/k3baudiorippingdialog.cpp:333 k3bdiskinfoview.cpp:250 rc.cpp:411
-#: projects/k3bvcdlistview.cpp:86 projects/k3bvcdburndialog.cpp:394
-msgid "Type"
-msgstr "Triba"
-
-#: rip/k3baudiorippingdialog.cpp:375 rip/k3baudiorippingdialog.cpp:430
+#: rip/k3baudiorippingdialog.cpp:358 rip/k3baudiorippingdialog.cpp:413
 #: rip/videodvd/k3bvideodvdrippingtitlelistview.cpp:344
 #: rip/videodvd/k3bvideodvdtitlemodel.cpp:313 misc/k3bmediacopydialog.cpp:175
 #: k3bdiskinfoview.cpp:178 projects/k3bvcdtrackdialog.cpp:614
 msgid "Audio"
 msgstr "Audio"
 
-#: rip/k3baudiorippingdialog.cpp:423
+#: rip/k3baudiorippingdialog.cpp:368
+msgid "Cue-file"
+msgstr "Ficheru Cue"
+
+#: rip/k3baudiorippingdialog.cpp:406
 #, kde-format
 msgid "Track%1"
 msgstr "Pista%1"
 
-#: rip/k3baudiorippingdialog.cpp:430 rip/categories.cpp:23
+#: rip/k3baudiorippingdialog.cpp:413 rip/categories.cpp:23
 #: misc/k3bmediacopydialog.cpp:163 k3bdiskinfoview.cpp:190
 msgid "Data"
 msgstr "Datos"
@@ -1941,7 +1939,7 @@ msgstr "ensin interrupción"
 msgid "CD-Text"
 msgstr "CD-Testu"
 
-#: k3bdiskinfoview.cpp:240 projects/k3bdatamultisessionimportdialog.cpp:213
+#: k3bdiskinfoview.cpp:240 projects/k3bdatamultisessionimportdialog.cpp:216
 #, kde-format
 msgid "Session %1"
 msgstr "Sesión %1"
@@ -2194,63 +2192,59 @@ msgstr ""
 msgid "Open the rewritable disk formatting/erasing dialog"
 msgstr ""
 
-#: k3bjobprogressdialog.cpp:108
+#: k3bjobprogressdialog.cpp:109
 msgid "Show Debugging Output"
 msgstr "Amosar salida de depuráu"
 
-#: k3bjobprogressdialog.cpp:152
-msgid "Message"
-msgstr "Mensax"
-
-#: k3bjobprogressdialog.cpp:206
+#: k3bjobprogressdialog.cpp:208
 msgid "Overall progress:"
 msgstr "Progresu global:"
 
-#: k3bjobprogressdialog.cpp:279 k3bjobprogressdialog.cpp:285
+#: k3bjobprogressdialog.cpp:281 k3bjobprogressdialog.cpp:287
 #, kde-format
 msgid "%1 of %2 MB"
 msgstr "%1 de %2 MB"
 
-#: k3bjobprogressdialog.cpp:330 k3bjobprogressdialog.cpp:341
+#: k3bjobprogressdialog.cpp:331 k3bjobprogressdialog.cpp:342
 msgid "Success."
 msgstr "Éxitu."
 
-#: k3bjobprogressdialog.cpp:343
+#: k3bjobprogressdialog.cpp:344
 msgid "Successfully finished."
 msgstr "Completada correutamente."
 
-#: k3bjobprogressdialog.cpp:352 k3bjobprogressdialog.cpp:354
+#: k3bjobprogressdialog.cpp:353 k3bjobprogressdialog.cpp:355
 msgid "Canceled."
 msgstr "Encaboxáu."
 
-#: k3bjobprogressdialog.cpp:357 k3bjobprogressdialog.cpp:359
+#: k3bjobprogressdialog.cpp:358 k3bjobprogressdialog.cpp:360
 msgid "Error."
 msgstr "Fallu."
 
-#: k3bjobprogressdialog.cpp:361
+#: k3bjobprogressdialog.cpp:362
 msgid "Finished with errors"
 msgstr "Terminó con fallos"
 
-#: k3bjobprogressdialog.cpp:455
+#: k3bjobprogressdialog.cpp:456
 msgid "Do you really want to cancel?"
 msgstr "¿De verdá quies encaboxar?"
 
-#: k3bjobprogressdialog.cpp:455
+#: k3bjobprogressdialog.cpp:456
 msgid "Cancel Confirmation"
 msgstr "Confirmación del encaboxamiento"
 
-#: k3bjobprogressdialog.cpp:508
+#: k3bjobprogressdialog.cpp:509
 msgid "Elapsed time"
 msgstr "Tiempu trescurríu"
 
-#: k3bjobprogressdialog.cpp:510 k3bjobprogressdialog.cpp:518
+#: k3bjobprogressdialog.cpp:511 k3bjobprogressdialog.cpp:519
 #, kde-format
 msgid "1 Day"
 msgid_plural "%1 Days"
 msgstr[0] "1 Día"
 msgstr[1] "%1 Díes"
 
-#: k3bjobprogressdialog.cpp:516
+#: k3bjobprogressdialog.cpp:517
 msgid "Remaining"
 msgstr "Queden"
 
@@ -3876,71 +3870,73 @@ msgstr ""
 "K3b a grabar un mediu d'alta velocidá nuna grabadora de baxa velocidá."
 "<p><b>Curiáu:</b> Activar esta opción puede dar lugar a medios tollíos."
 
-#: option/k3bdevicewidget.cpp:61
+#: option/k3bdevicewidget.cpp:56
 msgid "Refresh"
 msgstr "Anovar"
 
-#: option/k3bdevicewidget.cpp:62
+#: option/k3bdevicewidget.cpp:57
 msgid "Rescan the devices"
 msgstr "Volver a guetar preseos"
 
-#: option/k3bdevicewidget.cpp:71
-msgid "CD/DVD Drives"
+#: option/k3bdevicewidget.cpp:66
+#, fuzzy
+#| msgid "CD/DVD Drives"
+msgid "CD/DVD/BD Drives"
 msgstr "Unidaes CD/DVD"
 
-#: option/k3bdevicewidget.cpp:118
+#: option/k3bdevicewidget.cpp:115
 msgid "Writer Drives"
 msgstr "Preseos de grabación"
 
-#: option/k3bdevicewidget.cpp:123
+#: option/k3bdevicewidget.cpp:120
 msgid "Read-only Drives"
 msgstr "Dsicos de sólo llectura"
 
-#: option/k3bdevicewidget.cpp:139
+#: option/k3bdevicewidget.cpp:136
 msgid "System device name:"
 msgstr "Preséu de sistema:"
 
-#: option/k3bdevicewidget.cpp:144
+#: option/k3bdevicewidget.cpp:141
 msgid "Vendor:"
 msgstr "Compañía:"
 
-#: option/k3bdevicewidget.cpp:149
+#: option/k3bdevicewidget.cpp:146
 msgid "Description:"
 msgstr "Descripción:"
 
-#: option/k3bdevicewidget.cpp:154
+#: option/k3bdevicewidget.cpp:151
 msgid "Firmware:"
 msgstr "Firmware:"
 
-#: option/k3bdevicewidget.cpp:162
+#: option/k3bdevicewidget.cpp:159
 msgid "Write Capabilities:"
 msgstr "Capacidaes d'escritura:"
 
-#: option/k3bdevicewidget.cpp:167
+#: option/k3bdevicewidget.cpp:164
 msgid "Read Capabilities:"
 msgstr "Capacidaes de llectura:"
 
-#: option/k3bdevicewidget.cpp:176
+#: option/k3bdevicewidget.cpp:173
 msgid "Buffer Size:"
 msgstr "Tamañu de la memoria intermedia:"
 
-#: option/k3bdevicewidget.cpp:185
+#: option/k3bdevicewidget.cpp:182
 msgid "Supports Burnfree:"
 msgstr "Sofita Burnfree:"
 
-#: option/k3bdevicewidget.cpp:186
+#: option/k3bdevicewidget.cpp:183
 msgid "yes"
 msgstr "sí"
 
-#: option/k3bdevicewidget.cpp:186
+#: option/k3bdevicewidget.cpp:183
 msgid "no"
 msgstr "non"
 
-#: option/k3bdevicewidget.cpp:191
+#: option/k3bdevicewidget.cpp:188
 msgid "Write modes:"
 msgstr "Moos de grabación:"
 
-#: option/k3bdevicewidget.cpp:202 option/k3bdevicewidget.cpp:207
+#: option/k3bdevicewidget.cpp:197 option/k3bdevicewidget.cpp:202
 msgid "none"
 msgstr "dengún"
 
@@ -8135,22 +8131,22 @@ msgstr ""
 msgid "Session Import Warning"
 msgstr "Avisu d'importación de sesión"
 
-#: projects/k3bdatamultisessionimportdialog.cpp:163
+#: projects/k3bdatamultisessionimportdialog.cpp:165
 msgid "Please insert an appendable medium"
 msgstr ""
 
-#: projects/k3bdatamultisessionimportdialog.cpp:208
+#: projects/k3bdatamultisessionimportdialog.cpp:212
 #, kde-format
 msgid "1 audio track"
 msgid_plural "%1 audio tracks"
 msgstr[0] "una pista d'audio"
 msgstr[1] "%1 pistes de soníu"
 
-#: projects/k3bdatamultisessionimportdialog.cpp:268
+#: projects/k3bdatamultisessionimportdialog.cpp:275
 msgid "Session Import"
 msgstr "Importar sesión"
 
-#: projects/k3bdatamultisessionimportdialog.cpp:272
+#: projects/k3bdatamultisessionimportdialog.cpp:279
 msgid "Please select a session to import."
 msgstr "Escueyi una sesión pa importar."
 
@@ -8876,21 +8872,21 @@ msgstr "Desaniciar los elementos importaos d'una sesión anterior"
 msgid "Modify the bootable settings of the current project"
 msgstr "Camudar los axustes del arranque del proyeutu actual"
 
-#: projects/k3bdataviewimpl.cpp:102 projects/k3bdataviewimpl.cpp:104
-#: projects/k3bdataviewimpl.cpp:107 projects/k3bdataviewimpl.cpp:110
+#: projects/k3bdataviewimpl.cpp:105 projects/k3bdataviewimpl.cpp:107
+#: projects/k3bdataviewimpl.cpp:110 projects/k3bdataviewimpl.cpp:113
 #, fuzzy
 #| msgid "1 Folder"
 #| msgid_plural "%1 Folders"
 msgid "New Folder"
 msgstr "una carpeta"
 
-#: projects/k3bdataviewimpl.cpp:103
+#: projects/k3bdataviewimpl.cpp:106
 #, fuzzy
 #| msgid "Please insert the name for the new directory:"
 msgid "Please insert the name for the new folder:"
 msgstr "Por favor, pon el nome del nuevu direutoriu:"
 
-#: projects/k3bdataviewimpl.cpp:108
+#: projects/k3bdataviewimpl.cpp:111
 #, fuzzy
 #| msgid ""
 #| "A file with that name already exists. Please insert the name for the new "
@@ -8902,7 +8898,7 @@ msgstr ""
 "Yá esiste un ficheru con esi nome. Por favor, pon el nome del nuevu "
 "direutoriu:"
 
-#: projects/k3bdataviewimpl.cpp:237
+#: projects/k3bdataviewimpl.cpp:240
 msgid "Edit Boot Images"
 msgstr "Editar imáxenes d'arranque"
 
@@ -9981,6 +9977,9 @@ msgstr "Guetar CDDB"
 #: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:119
 msgid "Cddb error"
 msgstr "Fallu Cddb"
+
+#~ msgid "Message"
+#~ msgstr "Mensax"
 
 #~ msgid "Converting to single file '%1'."
 #~ msgstr "Convirtiendo a un solu ficheru '%1'."
