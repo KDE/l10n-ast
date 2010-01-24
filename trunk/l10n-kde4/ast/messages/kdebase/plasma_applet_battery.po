@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdebase-workspace\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-12 06:42+0100\n"
+"POT-Creation-Date: 2010-01-24 06:12+0100\n"
 "PO-Revision-Date: 2009-09-21 14:57+0000\n"
 "Last-Translator: Iñigo Varela <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -52,7 +52,7 @@ msgstr "Alministración d'Enerxía"
 msgid "Battery:"
 msgstr ""
 
-#: battery.cpp:584 battery.cpp:601
+#: battery.cpp:584
 #, kde-format
 msgid "%1% (charged)"
 msgstr ""
@@ -76,18 +76,26 @@ msgstr ""
 #: battery.cpp:599
 #, fuzzy, kde-format
 msgctxt "Placeholder is the battery ID"
-msgid "<b>Battery %1:</b> "
+msgid "<b>Battery %1:</b>"
 msgstr "<b>Batería %1:</b> %2% (cargando)<br />"
 
+#: battery.cpp:601
+#, fuzzy, kde-format
+msgctxt "state of battery"
+msgid "%1% (charged)"
+msgstr "<b>Batería:</b> %1% (descargando)<br />"
+
 #: battery.cpp:603
-#, kde-format
-msgid "%2% (discharging)"
-msgstr ""
+#, fuzzy, kde-format
+msgctxt "state of battery"
+msgid "%1% (discharging)"
+msgstr "<b>Batería:</b> %1% (descargando)<br />"
 
 #: battery.cpp:605
-#, kde-format
-msgid "%2% (charging)"
-msgstr ""
+#, fuzzy, kde-format
+msgctxt "state of battery"
+msgid "%1% (charging)"
+msgstr "<b>Batería:</b> %1% (descargando)<br />"
 
 #: battery.cpp:609
 msgid "AC Adapter:"
