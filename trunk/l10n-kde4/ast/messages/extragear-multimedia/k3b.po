@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-24 06:19+0100\n"
+"POT-Creation-Date: 2010-01-25 06:21+0100\n"
 "PO-Revision-Date: 2009-12-06 18:15+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Español <kde-ye@kybs.de>\n"
@@ -22,8 +22,8 @@ msgstr ""
 msgid "Audio Project Conversion"
 msgstr "Conversión de proyeutu d'audio"
 
-#: rip/k3baudioprojectconvertingdialog.cpp:106 rip/k3bvideocdview.cpp:326
-#: rip/k3baudiocdview.cpp:181 rip/k3baudiorippingdialog.cpp:124
+#: rip/k3baudioprojectconvertingdialog.cpp:106 rip/k3bvideocdview.cpp:369
+#: rip/k3baudiocdview.cpp:216 rip/k3baudiorippingdialog.cpp:124
 #, kde-format
 msgid "1 track (%2)"
 msgid_plural "%1 tracks (%2)"
@@ -36,7 +36,7 @@ msgstr[1] "%1 pistes (%2)"
 msgid "Filename (relative to base folder)"
 msgstr "Nome del ficheru (relativu al direutoriu base)"
 
-#: rip/k3baudioprojectconvertingdialog.cpp:127 rip/k3bvideocdview.cpp:174
+#: rip/k3baudioprojectconvertingdialog.cpp:127 rip/k3bvideocdview.cpp:202
 #: rip/k3baudiorippingdialog.cpp:143 rip/k3baudiotrackmodel.cpp:160
 #: k3bdiskinfoview.cpp:256 k3baudioplayer.cpp:120
 msgid "Length"
@@ -44,7 +44,7 @@ msgstr "Duración"
 
 #: rip/k3baudioprojectconvertingdialog.cpp:128
 #: rip/k3baudiorippingdialog.cpp:144
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:87 projects/k3bvcdlistview.cpp:92
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:85 projects/k3bvcdlistview.cpp:92
 msgid "File Size"
 msgstr "Tamañu del ficheru"
 
@@ -93,7 +93,7 @@ msgstr "Los ficheros existen"
 #: rip/k3baudioconvertingoptionwidget.cpp:256 rip/k3bpatternparser.cpp:124
 #: rip/k3bpatternparser.cpp:160 rip/k3bpatternparser.cpp:168
 #: rip/k3baudiorippingdialog.cpp:357 rip/k3baudiorippingdialog.cpp:412
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:287 k3bdiskinfoview.cpp:299
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:285 k3bdiskinfoview.cpp:299
 msgid "unknown"
 msgstr "desconocíu"
 
@@ -133,9 +133,9 @@ msgstr "Usar sectores de 2336 bytes pa ficheru d'imaxe"
 msgid "Extract XML structure"
 msgstr "Sacar estructura XML"
 
-#: rip/k3bvideocdrippingdialog.cpp:118 rip/k3bvideocdview.cpp:346
-#: rip/k3baudiocdview.cpp:231 rip/k3baudiorippingdialog.cpp:200
-#: rip/videodvd/k3bvideodvdrippingview.cpp:263
+#: rip/k3bvideocdrippingdialog.cpp:118 rip/k3bvideocdview.cpp:389
+#: rip/k3baudiocdview.cpp:259 rip/k3baudiorippingdialog.cpp:200
+#: rip/videodvd/k3bvideodvdrippingview.cpp:305
 msgid "Start Ripping"
 msgstr "Entamar la extraición"
 
@@ -216,175 +216,187 @@ msgstr "¿Siguir anque la carpeta nun tea vacía?"
 msgid "Wave"
 msgstr "Wave"
 
-#: rip/k3bvideocdview.cpp:172
+#: rip/k3bvideocdview.cpp:200
 msgid "Item Name"
 msgstr "Nome del elementu"
 
-#: rip/k3bvideocdview.cpp:173
+#: rip/k3bvideocdview.cpp:201
 msgid "Extracted Name"
 msgstr "Nome estrayíu"
 
 #. i18n: file: projects/base_k3bbootimageview.ui:74
 #. i18n: ectx: property (text), widget (K3ListView, m_viewImages)
-#: rip/k3bvideocdview.cpp:175 rc.cpp:723
+#: rip/k3bvideocdview.cpp:203 rc.cpp:723
 msgid "Size"
 msgstr "Tamañu"
 
-#: rip/k3bvideocdview.cpp:225 rip/k3bvideocdview.cpp:401
+#: rip/k3bvideocdview.cpp:268 rip/k3bvideocdview.cpp:445
 msgid "Video CD MPEG tracks"
 msgstr "Pistes MPEG de CD de vídeo"
 
-#: rip/k3bvideocdview.cpp:226
+#: rip/k3bvideocdview.cpp:269
 msgid "Video CD DATA track"
 msgstr "Pista de DATOS de CD de vídeo"
 
-#: rip/k3bvideocdview.cpp:244
+#: rip/k3bvideocdview.cpp:287
 #, kde-format
 msgid "Sequence-%1"
 msgstr "Secuencia-%1"
 
-#: rip/k3bvideocdview.cpp:249 rip/k3bvideocdview.cpp:295
-#: rip/k3bvideocdview.cpp:405
+#: rip/k3bvideocdview.cpp:292 rip/k3bvideocdview.cpp:338
+#: rip/k3bvideocdview.cpp:449
 msgid "Files"
 msgstr "Ficheros"
 
-#: rip/k3bvideocdview.cpp:250 rip/k3bvideocdview.cpp:409
+#: rip/k3bvideocdview.cpp:293 rip/k3bvideocdview.cpp:453
 msgid "Segments"
 msgstr "Segmentos"
 
-#: rip/k3bvideocdview.cpp:324 rip/k3bvideocdrippingoptions.h:29
-#: k3bdirview.cpp:246 k3bdirview.cpp:247 projects/k3bvcdburndialog.cpp:72
+#: rip/k3bvideocdview.cpp:367 rip/k3bvideocdrippingoptions.h:29
+#: projects/k3bvcdburndialog.cpp:72
 msgid "Video CD"
 msgstr "CD de vídeo"
 
-#: rip/k3bvideocdview.cpp:338
-msgid "Dese&lect All"
-msgstr "Des&escoyer pista"
+#: rip/k3bvideocdview.cpp:377 rip/k3baudiocdview.cpp:247
+#: rip/videodvd/k3bvideodvdrippingview.cpp:285
+msgid "Check All"
+msgstr "Escoyer toos"
 
-#: rip/k3bvideocdview.cpp:339
-msgid "Select Track"
+#: rip/k3bvideocdview.cpp:380 rip/k3baudiocdview.cpp:249
+#: rip/videodvd/k3bvideodvdrippingview.cpp:290
+msgid "Uncheck All"
+msgstr "Deescoyer toos"
+
+#: rip/k3bvideocdview.cpp:383 rip/k3baudiocdview.cpp:251
+#: rip/videodvd/k3bvideodvdrippingview.cpp:295
+msgid "Check Track"
 msgstr "Escoyer pista"
 
-#: rip/k3bvideocdview.cpp:342
-msgid "Deselect Track"
-msgstr "Desescoyer pista"
+#: rip/k3bvideocdview.cpp:386 rip/k3baudiocdview.cpp:253
+#: rip/videodvd/k3bvideodvdrippingview.cpp:300
+msgid "Uncheck Track"
+msgstr "Deescoyer pista"
 
-#: rip/k3bvideocdview.cpp:417 rip/k3baudiocdview.cpp:283
+#: rip/k3bvideocdview.cpp:392
+#, fuzzy
+#| msgid "Hidden Files"
+msgid "View Files"
+msgstr "Ficheros anubríos"
+
+#: rip/k3bvideocdview.cpp:394
+msgid "View plain data files"
+msgstr ""
+
+#: rip/k3bvideocdview.cpp:461 rip/k3baudiocdview.cpp:304
 msgid "Please select the tracks to rip."
 msgstr "Por favor escueyi les pistes a sacar."
 
-#: rip/k3bvideocdview.cpp:417 rip/k3baudiocdview.cpp:284
+#: rip/k3bvideocdview.cpp:461 rip/k3baudiocdview.cpp:305
 msgid "No Tracks Selected"
 msgstr "Denguna pista escoyida"
 
-#: rip/k3baudiocdview.cpp:127
+#: rip/k3baudiocdview.cpp:153
 msgid "Searching for Artist information..."
 msgstr "Buscando información del artista..."
 
-#: rip/k3baudiocdview.cpp:151
+#: rip/k3baudiocdview.cpp:184
 #, kde-format
 msgid ""
 "Found Cd-Text (%1 - %2). Do you want to use it instead of CDDB (%3 - %4)?"
 msgstr ""
 "Atopóse un Cd de testu (%1 - %2). ¿Quies usalu en vez de CDDB (%3 - %4)?"
 
-#: rip/k3baudiocdview.cpp:156
+#: rip/k3baudiocdview.cpp:189
 msgid "Found Cd-Text"
 msgstr "CD-Testu atopáu"
 
-#: rip/k3baudiocdview.cpp:157
+#: rip/k3baudiocdview.cpp:190
 msgid "Use CD-Text"
 msgstr "Usar CD-Testu"
 
-#: rip/k3baudiocdview.cpp:158
+#: rip/k3baudiocdview.cpp:191
 msgid "Use CDDB"
 msgstr "Usar CDDB"
 
-#: rip/k3baudiocdview.cpp:203 k3bdirview.cpp:259 k3bdirview.cpp:260
+#: rip/k3baudiocdview.cpp:238
 msgid "Audio CD"
 msgstr "CD d'audio"
 
-#: rip/k3baudiocdview.cpp:212 rip/videodvd/k3bvideodvdrippingview.cpp:243
-msgid "Check All"
-msgstr "Escoyer toos"
-
-#: rip/k3baudiocdview.cpp:215 rip/videodvd/k3bvideodvdrippingview.cpp:248
-msgid "Uncheck All"
-msgstr "Deescoyer toos"
-
-#: rip/k3baudiocdview.cpp:218 rip/videodvd/k3bvideodvdrippingview.cpp:253
-msgid "Check Track"
-msgstr "Escoyer pista"
-
-#: rip/k3baudiocdview.cpp:221 rip/videodvd/k3bvideodvdrippingview.cpp:258
-msgid "Uncheck Track"
-msgstr "Deescoyer pista"
-
-#: rip/k3baudiocdview.cpp:224
+#: rip/k3baudiocdview.cpp:255
 #, fuzzy
 #| msgid "Edit Track cddb Info"
 msgid "Edit Track CDDB Info"
 msgstr "Editar información CDDB"
 
-#: rip/k3baudiocdview.cpp:227
+#: rip/k3baudiocdview.cpp:257
 #, fuzzy
 #| msgid "Edit Album cddb Info"
 msgid "Edit Album CDDB Info"
 msgstr "Editar información CDDB del álbum"
 
-#: rip/k3baudiocdview.cpp:234
+#: rip/k3baudiocdview.cpp:261
 #: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:47
 #, fuzzy
 #| msgid "Query Cddb"
 msgid "Query CDDB"
 msgstr "Guetar CDDB"
 
-#: rip/k3baudiocdview.cpp:237
+#: rip/k3baudiocdview.cpp:263
 #, fuzzy
 #| msgid "Save Cddb Entry Locally"
 msgid "Save CDDB Entry Locally"
 msgstr "Guardar entrada CDDB llocalmente"
 
-#: rip/k3baudiocdview.cpp:304
+#: rip/k3baudiocdview.cpp:265
+#, fuzzy
+#| msgid "New &Data Project"
+msgid "Show Data Part"
+msgstr "Proyeutu de &Datos Nuevu"
+
+#: rip/k3baudiocdview.cpp:267
+msgid "Mounts the data part of CD"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:325
 #, fuzzy, kde-format
 #| msgid "Cddb Track %1"
 msgid "CDDB Track %1"
 msgstr "Pista CDDB %1"
 
-#: rip/k3baudiocdview.cpp:319 rip/k3baudiocdview.cpp:381
+#: rip/k3baudiocdview.cpp:340 rip/k3baudiocdview.cpp:402
 msgid "Title:"
 msgstr "Títulu:"
 
-#: rip/k3baudiocdview.cpp:322 rip/k3baudiocdview.cpp:383
+#: rip/k3baudiocdview.cpp:343 rip/k3baudiocdview.cpp:404
 msgid "Artist:"
 msgstr "Artista:"
 
-#: rip/k3baudiocdview.cpp:324 rip/k3baudiocdview.cpp:385
+#: rip/k3baudiocdview.cpp:345 rip/k3baudiocdview.cpp:406
 msgid "Extra info:"
 msgstr "Información extra:"
 
-#: rip/k3baudiocdview.cpp:343
+#: rip/k3baudiocdview.cpp:364
 msgid "Album Cddb"
 msgstr "CDDB del álbum"
 
-#: rip/k3baudiocdview.cpp:387
+#: rip/k3baudiocdview.cpp:408
 msgid "Genre:"
 msgstr "Xéneru:"
 
-#: rip/k3baudiocdview.cpp:389
+#: rip/k3baudiocdview.cpp:410
 msgid "Year:"
 msgstr "Añu:"
 
-#: rip/k3baudiocdview.cpp:392
+#: rip/k3baudiocdview.cpp:413
 msgid "Category:"
 msgstr "Estaya:"
 
-#: rip/k3baudiocdview.cpp:426
+#: rip/k3baudiocdview.cpp:447
 #, kde-format
 msgid "Saved entry in category %1."
 msgstr ""
 
-#: rip/k3baudiocdview.cpp:428 option/k3boptiondialog.cpp:192
+#: rip/k3baudiocdview.cpp:449 option/k3boptiondialog.cpp:192
 msgid "CDDB"
 msgstr "CDDB"
 
@@ -593,7 +605,7 @@ msgid "CD Ripping"
 msgstr "Extraición del CD"
 
 #: rip/k3baudiorippingdialog.cpp:142
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:88 k3baudioplayer.cpp:119
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:86 k3baudioplayer.cpp:119
 #: projects/k3bvcdlistview.cpp:93 projects/k3baudioprojectmodel.cpp:326
 #: projects/k3bvcdtrackdialog.cpp:373
 msgid "Filename"
@@ -831,35 +843,35 @@ msgstr "Pista %1 convertida satisfactoriamente."
 msgid "Converting Audio Tracks From '%1'"
 msgstr "Convirtiendo pistes d'audio dende '%1'"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:70
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:68
 msgid "Keep original dimensions"
 msgstr "Caltener les dimensiones orixinales"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:71
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:69
 msgid "640x? (automatic height)"
 msgstr "¿640x? (altura automática)"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:72
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:70
 msgid "320x? (automatic height)"
 msgstr "¿320x? (altura automática)"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:73
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:71
 #: projects/k3bdataimagesettingswidget.cpp:49
 msgid "Custom"
 msgstr "Personalizar"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:85
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:94
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:83
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:92
 #: rip/videodvd/k3bvideodvdrippingtitlelistview.cpp:341
 #: rip/videodvd/k3bvideodvdtitlemodel.cpp:307 projects/k3bvcdlistview.cpp:85
 msgid "Title"
 msgstr "Títulu"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:86
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:84
 msgid "Video Size"
 msgstr "Tamañu del vídeo"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:102
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:100
 #: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:64
 #: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:67
 #: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:70
@@ -873,12 +885,12 @@ msgstr "Tamañu del vídeo"
 msgid "%1 kbps"
 msgstr "%1 kbps"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:196
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:197
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:194
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:195
 msgid "auto"
 msgstr "auto"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:296
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:294
 msgid ""
 "<p><b>Pattern special strings:</b><p>The following strings will be replaced "
 "with their respective meaning in every track name.<br><p><table border=\"0"
@@ -901,11 +913,11 @@ msgid ""
 "strings. One can, for example, leave out the underscores.</em>"
 msgstr ""
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:349
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:347
 msgid "Video Picture Size"
 msgstr "Tamañu del vídeo"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:353
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:351
 msgid ""
 "<p>Please choose the width and height of the resulting video. If one value "
 "is set to <em>Auto</em> K3b will choose this value depending on the aspect "
@@ -914,18 +926,18 @@ msgid ""
 "performed."
 msgstr ""
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:365
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:366 k3bdatamodewidget.cpp:33
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:363
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:364 k3bdatamodewidget.cpp:33
 #: k3bwriterselectionwidget.cpp:272 k3bwriterselectionwidget.cpp:526
 #: k3bwritingmodewidget.cpp:157 projects/k3bdatamultisessioncombobox.cpp:73
 msgid "Auto"
 msgstr "Auto"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:367
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:365
 msgid "Width"
 msgstr "Anchor:"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:369
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:367
 msgid "Height"
 msgstr "Altor"
 
@@ -1033,15 +1045,27 @@ msgstr ""
 msgid "AC3 Pass-through"
 msgstr "Paso per AC3"
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:109
+#: rip/videodvd/k3bvideodvdrippingview.cpp:79
+#, fuzzy
+#| msgid "no file"
+msgid "Show files"
+msgstr "ensin ficheru"
+
+#: rip/videodvd/k3bvideodvdrippingview.cpp:80
+msgid ""
+"Shows plain Video DVD vob files from the DVD (including decryption) for "
+"further processing with another application"
+msgstr ""
+
+#: rip/videodvd/k3bvideodvdrippingview.cpp:140
 msgid "Please select the titles to rip."
 msgstr "Por favor escueyi los títulos que se van sacar."
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:110
+#: rip/videodvd/k3bvideodvdrippingview.cpp:141
 msgid "No Titles Selected"
 msgstr "Dengún títulu escoyíu"
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:150
+#: rip/videodvd/k3bvideodvdrippingview.cpp:192
 #, kde-format
 msgid ""
 "K3b was unable to unmount device '%1' containing medium '%2'. Video DVD "
@@ -1051,11 +1075,11 @@ msgstr ""
 "estraición del vídeo DVD nun funcionará si'l preséu ta montáu. Por favor, "
 "desmóntalu manualmente."
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:155
+#: rip/videodvd/k3bvideodvdrippingview.cpp:197
 msgid "Unmounting failed"
 msgstr "Fallu al desmontar"
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:165
+#: rip/videodvd/k3bvideodvdrippingview.cpp:207
 msgid ""
 "<p>Unable to read Video DVD contents: Found encrypted Video DVD.<p>Install "
 "<i>libdvdcss</i> to get Video DVD decryption support."
@@ -1063,36 +1087,66 @@ msgstr ""
 "<p>Nun se puede lleer el conteníu del DVD de vídeo: Atopóse un DVD de video "
 "cifráu.<p>Instala <i>libdvdcss</i> pa poder descifrar DVDs de vídeo."
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:176
+#: rip/videodvd/k3bvideodvdrippingview.cpp:218
 msgid "Video DVD"
 msgstr "DVD de video"
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:177
+#: rip/videodvd/k3bvideodvdrippingview.cpp:219
 #, kde-format
 msgid "%1 title"
 msgid_plural "%1 titles"
 msgstr[0] "%1 títulu"
 msgstr[1] "%1 títulos"
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:185
+#: rip/videodvd/k3bvideodvdrippingview.cpp:227
 msgid "K3b uses transcode to rip Video DVDs. Please make sure it is installed."
 msgstr ""
 "K3b usa trescode pa grabar DVD's de vídeo. Favor asegúrate que tea instaláu."
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:199
+#: rip/videodvd/k3bvideodvdrippingview.cpp:241
 msgid ""
 "<p>K3b uses transcode to rip Video DVDs. Your installation of transcode "
 "lacks support for any of the codecs supported by K3b.<p>Please make sure it "
 "is installed properly."
 msgstr ""
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:212
+#: rip/videodvd/k3bvideodvdrippingview.cpp:254
 msgid "Unable to read Video DVD contents."
 msgstr "Nun pudo lleer el conteníu del DVD de vídeo."
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:265
+#: rip/videodvd/k3bvideodvdrippingview.cpp:307
 msgid "Open the Video DVD ripping dialog"
 msgstr "Abrir el diálogu d'extraición de DVD"
+
+#: rip/videodvd/k3bvideodvdrippingview.cpp:308
+#, fuzzy
+#| msgid ""
+#| "<p>You have selected the K3b Video DVD ripping tool.<p>It is intended to "
+#| "<em>rip single titles</em> from a video DVD into a compressed format such "
+#| "as XviD. Menu structures are completely ignored.<p>If you intend to copy "
+#| "the plain Video DVD vob files from the DVD (including decryption) for "
+#| "further processing with another application, please use the following "
+#| "link to access the Video DVD file structure: <a href=\"videodvd:/"
+#| "\">videodvd:/</a><p>If you intend to make a copy of the entire Video DVD "
+#| "including all menus and extras it is recommended to use the K3b DVD Copy "
+#| "tool."
+msgid ""
+"<p>Rips single titles from a video DVD into a compressed format such as "
+"XviD. Menu structures are completely ignored.<p>If you intend to copy the "
+"plain Video DVD vob files from the DVD (including decryption) for further "
+"processing with another application, please use \"Show files\" button.<p>If "
+"you intend to make a copy of the entire Video DVD including all menus and "
+"extras it is recommended to use the K3b Copy tool."
+msgstr ""
+"<p>Escoyiste la ferramienta d'estraición de DVD de vídeo de K3b. <p>Ta "
+"diseñada pa <em>codificar títulos sueltos</em> d'un DVD de vídeo a un "
+"formatu comprimido tal como XviD. La estructura de menús ignórase dafechu."
+"<p>Si intentes copiar los ficheros vob del DVD de vídeo sueltos (incluyendo "
+"la descripción) pa procesalos posteriormente con otra aplicación, por favor "
+"usa'l siguiente enllaz p'acceder a la estructura de ficheros del DVD de "
+"vídeo: <a href=\"videodvd:/\">videodvd:/</a><p>Si intentes facer una copia "
+"completa del DVD de vídeo incluyendo tolos menús y estres recomiéndase usar "
+"la ferramienta de copia de DVD de K3b."
 
 #: rip/videodvd/k3bvideodvdrippingtitlelistview.cpp:48
 #: rip/videodvd/k3bvideodvdtitlemodel.cpp:73
@@ -2092,36 +2146,7 @@ msgid_plural "%1 B"
 msgstr[0] "1 B"
 msgstr[1] "%1 B"
 
-#: k3bdirview.cpp:199
-msgid ""
-"<p>You have selected the K3b Video DVD ripping tool.<p>It is intended to "
-"<em>rip single titles</em> from a video DVD into a compressed format such as "
-"XviD. Menu structures are completely ignored.<p>If you intend to copy the "
-"plain Video DVD vob files from the DVD (including decryption) for further "
-"processing with another application, please use the following link to access "
-"the Video DVD file structure: <a href=\"videodvd:/\">videodvd:/</a><p>If you "
-"intend to make a copy of the entire Video DVD including all menus and extras "
-"it is recommended to use the K3b DVD Copy tool."
-msgstr ""
-"<p>Escoyiste la ferramienta d'estraición de DVD de vídeo de K3b. <p>Ta "
-"diseñada pa <em>codificar títulos sueltos</em> d'un DVD de vídeo a un "
-"formatu comprimido tal como XviD. La estructura de menús ignórase dafechu."
-"<p>Si intentes copiar los ficheros vob del DVD de vídeo sueltos (incluyendo "
-"la descripción) pa procesalos posteriormente con otra aplicación, por favor "
-"usa'l siguiente enllaz p'acceder a la estructura de ficheros del DVD de "
-"vídeo: <a href=\"videodvd:/\">videodvd:/</a><p>Si intentes facer una copia "
-"completa del DVD de vídeo incluyendo tolos menús y estres recomiéndase usar "
-"la ferramienta de copia de DVD de K3b."
-
-#: k3bdirview.cpp:208
-msgid "Video DVD ripping"
-msgstr "Estraición de DVD de vídeo"
-
-#: k3bdirview.cpp:210
-msgid "Open DVD Copy Dialog"
-msgstr "Abrir el cuadru de diálogu de copia de DVD"
-
-#: k3bdirview.cpp:240
+#: k3bdirview.cpp:205
 msgid ""
 "K3b uses vcdxrip from the vcdimager package to rip Video CDs. Please make "
 "sure it is installed."
@@ -2129,42 +2154,23 @@ msgstr ""
 "K3b usa vcdxrip del paquete vcdimager pa codificar CDs de vídeo. Por favor "
 "asegúrate de que ta instaláu."
 
-#: k3bdirview.cpp:245 k3bdirview.cpp:258
-#, kde-format
-msgid ""
-"Found %1. Do you want K3b to mount the data part or show all the tracks?"
-msgstr ""
-"Atopáu %1. ¿Quies que K3b monte la parte de datos o qu'amuese toles pistes?"
-
-#: k3bdirview.cpp:248 k3bdirview.cpp:261
-msgid "Mount CD"
-msgstr "Montar CD"
-
-#: k3bdirview.cpp:249
-msgid "Show Video Tracks"
-msgstr "Amosar pistas de vídeo"
-
-#: k3bdirview.cpp:262
-msgid "Show Audio Tracks"
-msgstr "Amosar pistas de audio"
-
-#: k3bdirview.cpp:296
+#: k3bdirview.cpp:238
 #, kde-format
 msgid "<p>K3b was unable to mount medium <b>%1</b> in device <em>%2 - %3</em>"
 msgstr "<p>K3b nun fue a montar el mediu <b>%1</b> nel preséu <em>%2 - %3</em>"
 
-#: k3bdirview.cpp:300
+#: k3bdirview.cpp:242
 msgid "Mount Failed"
 msgstr "Fallu al montar"
 
-#: k3bdirview.cpp:312
+#: k3bdirview.cpp:254
 #, kde-format
 msgid ""
 "<p>K3b was unable to unmount medium <b>%1</b> in device <em>%2 - %3</em>"
 msgstr ""
 "<p>K3b ye incapaz de desmontar el mediu <b>%1</b> nel preséu <em>%2 - %3</em>"
 
-#: k3bdirview.cpp:316
+#: k3bdirview.cpp:258
 msgid "Unmount Failed"
 msgstr "Fallu al desmontar"
 
@@ -4133,7 +4139,7 @@ msgstr ",,aluminium@softastur.org,malditoastur@gmail.com,,"
 #. i18n: file: rip/base_k3baudiorippingoptionwidget.ui:18
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #. i18n: file: rip/videodvd/base_k3bvideodvdrippingwidget.ui:330
-#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox1)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: rc.cpp:26 rc.cpp:176
 msgid "Filetype"
 msgstr "Triba de ficheru"
@@ -4305,7 +4311,7 @@ msgstr "Grabar ficheru &cue"
 #. i18n: file: rip/base_k3baudiorippingoptionwidget.ui:169
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #. i18n: file: rip/videodvd/base_k3bvideodvdrippingwidget.ui:137
-#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox1_2)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_2)
 #: rc.cpp:83 rc.cpp:143
 msgid "Target Folder"
 msgstr "Carpeta de destín"
@@ -4410,7 +4416,7 @@ msgid "Setti&ngs"
 msgstr "Prefere&ncies"
 
 #. i18n: file: rip/videodvd/base_k3bvideodvdrippingwidget.ui:49
-#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox6)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox6)
 #: rc.cpp:128
 msgid "Video Quality"
 msgstr "Calidá de vídeo"
@@ -4446,7 +4452,7 @@ msgid " kbps"
 msgstr " kbps"
 
 #. i18n: file: rip/videodvd/base_k3bvideodvdrippingwidget.ui:195
-#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox4)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
 #: rc.cpp:158
 msgid "Audio Quality"
 msgstr "Calidá del audio"
@@ -10036,6 +10042,36 @@ msgstr "Guetar CDDB"
 #: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:119
 msgid "Cddb error"
 msgstr "Fallu Cddb"
+
+#~ msgid "Dese&lect All"
+#~ msgstr "Des&escoyer pista"
+
+#~ msgid "Select Track"
+#~ msgstr "Escoyer pista"
+
+#~ msgid "Deselect Track"
+#~ msgstr "Desescoyer pista"
+
+#~ msgid "Video DVD ripping"
+#~ msgstr "Estraición de DVD de vídeo"
+
+#~ msgid "Open DVD Copy Dialog"
+#~ msgstr "Abrir el cuadru de diálogu de copia de DVD"
+
+#~ msgid ""
+#~ "Found %1. Do you want K3b to mount the data part or show all the tracks?"
+#~ msgstr ""
+#~ "Atopáu %1. ¿Quies que K3b monte la parte de datos o qu'amuese toles "
+#~ "pistes?"
+
+#~ msgid "Mount CD"
+#~ msgstr "Montar CD"
+
+#~ msgid "Show Video Tracks"
+#~ msgstr "Amosar pistas de vídeo"
+
+#~ msgid "Show Audio Tracks"
+#~ msgstr "Amosar pistas de audio"
 
 #~ msgid "Start K3b::Setup"
 #~ msgstr "Arrancar K3b::Configuración"
