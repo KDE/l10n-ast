@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-25 06:21+0100\n"
+"POT-Creation-Date: 2010-02-01 06:17+0100\n"
 "PO-Revision-Date: 2009-12-06 18:15+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Español <kde-ye@kybs.de>\n"
@@ -3446,8 +3446,8 @@ msgstr ""
 "aplicaciones nun soporten una grabadora. Nesti casu puédese escoyer "
 "manualmente l'aplicación."
 
-#: k3bwriterselectionwidget.cpp:274 projects/k3bdataurladdingdialog.cpp:383
-#: projects/k3bdataurladdingdialog.cpp:610
+#: k3bwriterselectionwidget.cpp:274 projects/k3bdataurladdingdialog.cpp:412
+#: projects/k3bdataurladdingdialog.cpp:639
 msgid "Ignore"
 msgstr "Inorar"
 
@@ -5777,8 +5777,8 @@ msgstr "Cinta estendida"
 
 #. i18n: file: projects/base_k3bdataimagesettings.ui:184
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboSpaceHandling)
-#: rc.cpp:865 projects/k3bdataurladdingdialog.cpp:377
-#: projects/k3bdataurladdingdialog.cpp:604
+#: rc.cpp:865 projects/k3bdataurladdingdialog.cpp:406
+#: projects/k3bdataurladdingdialog.cpp:633
 msgid "Replace"
 msgstr "Trocar"
 
@@ -7010,28 +7010,28 @@ msgstr "Por favor ten paciencia..."
 msgid "Adding files to project \"%1\"..."
 msgstr "Amestando ficheros al proyeutu \"%1\"..."
 
-#: projects/k3baudiotrackaddingdialog.cpp:81
-#: projects/k3bdataurladdingdialog.cpp:774
+#: projects/k3baudiotrackaddingdialog.cpp:79
+#: projects/k3bdataurladdingdialog.cpp:803
 msgid "Insufficient permissions to read the following files"
 msgstr "Permisos de llectura insuficientes pa lleer los siguientes ficheros"
 
-#: projects/k3baudiotrackaddingdialog.cpp:85
-#: projects/k3bdataurladdingdialog.cpp:778
+#: projects/k3baudiotrackaddingdialog.cpp:83
+#: projects/k3bdataurladdingdialog.cpp:807
 msgid "Unable to find the following files"
 msgstr "Nun pudo atopar los siguientes ficheros"
 
-#: projects/k3baudiotrackaddingdialog.cpp:89
-#: projects/k3bdataurladdingdialog.cpp:782
+#: projects/k3baudiotrackaddingdialog.cpp:87
+#: projects/k3bdataurladdingdialog.cpp:811
 msgid "No non-local files supported"
 msgstr "Nun se permiten ficheros que nun seyan llocales"
 
-#: projects/k3baudiotrackaddingdialog.cpp:93
+#: projects/k3baudiotrackaddingdialog.cpp:91
 msgid "Unable to handle the following files due to an unsupported format"
 msgstr ""
 "Nun se puede trabayar colos ficheros siguientes por tener un formatu nun "
 "soportáu"
 
-#: projects/k3baudiotrackaddingdialog.cpp:94
+#: projects/k3baudiotrackaddingdialog.cpp:92
 msgid ""
 "You may manually convert these audio files to wave using another application "
 "supporting the audio format and then add the wave files to the K3b project."
@@ -7040,12 +7040,12 @@ msgstr ""
 "aplicación que sofite'l so formatu y dempués amestar los .wav al proyeutu "
 "K3b."
 
-#: projects/k3baudiotrackaddingdialog.cpp:100
-#: projects/k3bdataurladdingdialog.cpp:108
+#: projects/k3baudiotrackaddingdialog.cpp:98
+#: projects/k3bdataurladdingdialog.cpp:148
 msgid "Problems while adding files to the project."
 msgstr "Problemes al amestar ficheros al proyeutu."
 
-#: projects/k3baudiotrackaddingdialog.cpp:154
+#: projects/k3baudiotrackaddingdialog.cpp:152
 #, kde-format
 msgid "Analysing file '%1'..."
 msgstr "Analizando ficheru  '%1'..."
@@ -8341,13 +8341,18 @@ msgstr "Deshabilitar normalización"
 msgid "Disable on-the-fly burning"
 msgstr "Desactivar grabación al vuelu"
 
-#: projects/k3bdataurladdingdialog.cpp:76
-#: projects/k3bdataurladdingdialog.cpp:83
+#: projects/k3bdataurladdingdialog.cpp:95
+#, kde-format
+msgid "Moving files to project \"%1\"..."
+msgstr "Moviendo ficheros al proyeutu \"%1\"..."
+
+#: projects/k3bdataurladdingdialog.cpp:117
+#: projects/k3bdataurladdingdialog.cpp:123
 #, kde-format
 msgid "Adding files to project '%1'"
 msgstr "Amestando ficheros al proyeutu '%1'"
 
-#: projects/k3bdataurladdingdialog.cpp:129
+#: projects/k3bdataurladdingdialog.cpp:197
 msgid ""
 "<p>The file you are about to add to the project is an ISO9660 image. As such "
 "it can be burned to a medium directly since it already contains a file "
@@ -8357,80 +8362,75 @@ msgstr ""
 "propia imaxe yá tien un sistema de ficheros, puede grabase direutamente."
 "<br>¿Tas seguru de que quies amestar esti ficheru al proyeutu?"
 
-#: projects/k3bdataurladdingdialog.cpp:133
+#: projects/k3bdataurladdingdialog.cpp:201
 msgid "Adding image file to project"
 msgstr "Añadiendo ficheru de la imaxe al proyeutu"
 
-#: projects/k3bdataurladdingdialog.cpp:134
+#: projects/k3bdataurladdingdialog.cpp:202
 msgid "Add the file to the project"
 msgstr "Amiesta el ficheru al proyeutu"
 
-#: projects/k3bdataurladdingdialog.cpp:135
+#: projects/k3bdataurladdingdialog.cpp:203
 msgid "Burn the image directly"
 msgstr "Grabar la imaxe direutamente"
 
-#: projects/k3bdataurladdingdialog.cpp:182
-#, kde-format
-msgid "Moving files to project \"%1\"..."
-msgstr "Moviendo ficheros al proyeutu \"%1\"..."
-
-#: projects/k3bdataurladdingdialog.cpp:369
-#: projects/k3bdataurladdingdialog.cpp:596
+#: projects/k3bdataurladdingdialog.cpp:398
+#: projects/k3bdataurladdingdialog.cpp:625
 msgid "File already exists"
 msgstr "El ficheru yá esiste"
 
-#: projects/k3bdataurladdingdialog.cpp:370
-#: projects/k3bdataurladdingdialog.cpp:597
+#: projects/k3bdataurladdingdialog.cpp:399
+#: projects/k3bdataurladdingdialog.cpp:626
 #, kde-format
 msgid "<p>File <em>%1</em> already exists in project folder <em>%2</em>."
 msgstr ""
 "<p>El ficheru <em>%1</em> yá esiste na carpeta del proyeutu <em>%2</em>."
 
-#: projects/k3bdataurladdingdialog.cpp:379
-#: projects/k3bdataurladdingdialog.cpp:606
+#: projects/k3bdataurladdingdialog.cpp:408
+#: projects/k3bdataurladdingdialog.cpp:635
 msgid "Replace the existing file"
 msgstr "Camudar el ficheru existente"
 
-#: projects/k3bdataurladdingdialog.cpp:380
-#: projects/k3bdataurladdingdialog.cpp:607
+#: projects/k3bdataurladdingdialog.cpp:409
+#: projects/k3bdataurladdingdialog.cpp:636
 msgid "Replace All"
 msgstr "Camudar toos"
 
-#: projects/k3bdataurladdingdialog.cpp:382
-#: projects/k3bdataurladdingdialog.cpp:609
+#: projects/k3bdataurladdingdialog.cpp:411
+#: projects/k3bdataurladdingdialog.cpp:638
 msgid "Always replace existing files"
 msgstr "Camudar siempre ficheros existentes"
 
-#: projects/k3bdataurladdingdialog.cpp:385
-#: projects/k3bdataurladdingdialog.cpp:612
+#: projects/k3bdataurladdingdialog.cpp:414
+#: projects/k3bdataurladdingdialog.cpp:641
 msgid "Keep the existing file"
 msgstr "Caltener el ficheru existente"
 
-#: projects/k3bdataurladdingdialog.cpp:386
-#: projects/k3bdataurladdingdialog.cpp:613
+#: projects/k3bdataurladdingdialog.cpp:415
+#: projects/k3bdataurladdingdialog.cpp:642
 msgid "Ignore All"
 msgstr "Inorar toos"
 
-#: projects/k3bdataurladdingdialog.cpp:388
-#: projects/k3bdataurladdingdialog.cpp:615
+#: projects/k3bdataurladdingdialog.cpp:417
+#: projects/k3bdataurladdingdialog.cpp:644
 msgid "Always keep the existing file"
 msgstr "Caltener siempre'l ficheru existente"
 
-#: projects/k3bdataurladdingdialog.cpp:389
-#: projects/k3bdataurladdingdialog.cpp:616 projects/k3bdataviewimpl.cpp:44
+#: projects/k3bdataurladdingdialog.cpp:418
+#: projects/k3bdataurladdingdialog.cpp:645 projects/k3bdataviewimpl.cpp:44
 msgid "Rename"
 msgstr "Camudar nome"
 
-#: projects/k3bdataurladdingdialog.cpp:391
-#: projects/k3bdataurladdingdialog.cpp:618
+#: projects/k3bdataurladdingdialog.cpp:420
+#: projects/k3bdataurladdingdialog.cpp:647
 msgid "Rename the new file"
 msgstr "Renomar el ficheru nuevu"
 
-#: projects/k3bdataurladdingdialog.cpp:432
+#: projects/k3bdataurladdingdialog.cpp:461
 msgid "Adding link to folder"
 msgstr "Amestando enllaz a la carpeta"
 
-#: projects/k3bdataurladdingdialog.cpp:433
+#: projects/k3bdataurladdingdialog.cpp:462
 #, kde-format
 msgid ""
 "<p>'%1' is a symbolic link to folder '%2'.<p>If you intend to make K3b "
@@ -8448,49 +8448,49 @@ msgstr ""
 "simbólicos</em> puedes inorar esti avisu y escoyer amestar l'enllaz al "
 "proyeutu.</b>"
 
-#: projects/k3bdataurladdingdialog.cpp:444
+#: projects/k3bdataurladdingdialog.cpp:473
 msgid "Follow link now"
 msgstr "Siguir enllaz agora"
 
-#: projects/k3bdataurladdingdialog.cpp:445
+#: projects/k3bdataurladdingdialog.cpp:474
 msgid "Always follow links"
 msgstr "Siguir enllaces siempres"
 
-#: projects/k3bdataurladdingdialog.cpp:446
+#: projects/k3bdataurladdingdialog.cpp:475
 msgid "Add link to project"
 msgstr "Amestar enllaz al proyeutu"
 
-#: projects/k3bdataurladdingdialog.cpp:447
+#: projects/k3bdataurladdingdialog.cpp:476
 msgid "Always add links"
 msgstr "Siempres amestar enllaces"
 
-#: projects/k3bdataurladdingdialog.cpp:725
+#: projects/k3bdataurladdingdialog.cpp:754
 msgid "Enter New Filename"
 msgstr "Poner nuevu nome de ficheru"
 
-#: projects/k3bdataurladdingdialog.cpp:726
+#: projects/k3bdataurladdingdialog.cpp:755
 msgid "A file with that name already exists. Please enter a new name:"
 msgstr "Yá esiste un ficheru con esi nome. Por favor, pon un nuevu nome:"
 
-#: projects/k3bdataurladdingdialog.cpp:742
+#: projects/k3bdataurladdingdialog.cpp:771
 msgid "Do you also want to add hidden files?"
 msgstr "¿Quies tamién amestar ficheros anubríos?"
 
-#: projects/k3bdataurladdingdialog.cpp:743
+#: projects/k3bdataurladdingdialog.cpp:772
 msgid "Hidden Files"
 msgstr "Ficheros anubríos"
 
-#: projects/k3bdataurladdingdialog.cpp:743
-#: projects/k3bdataurladdingdialog.cpp:759
+#: projects/k3bdataurladdingdialog.cpp:772
+#: projects/k3bdataurladdingdialog.cpp:788
 msgid "Add"
 msgstr "Amestar"
 
-#: projects/k3bdataurladdingdialog.cpp:743
-#: projects/k3bdataurladdingdialog.cpp:759
+#: projects/k3bdataurladdingdialog.cpp:772
+#: projects/k3bdataurladdingdialog.cpp:788
 msgid "Do Not Add"
 msgstr "Nun amestar"
 
-#: projects/k3bdataurladdingdialog.cpp:757
+#: projects/k3bdataurladdingdialog.cpp:786
 msgid ""
 "Do you also want to add system files (FIFOs, sockets, device files, and "
 "broken symlinks)?"
@@ -8498,22 +8498,22 @@ msgstr ""
 "¿Quies tamién amestar los ficheros de sistema (FIFO, sockets, ficheros de "
 "preséu, y enllaces simbólicos rotos)?"
 
-#: projects/k3bdataurladdingdialog.cpp:759
+#: projects/k3bdataurladdingdialog.cpp:788
 msgid "System Files"
 msgstr "Ficheros del sistema"
 
-#: projects/k3bdataurladdingdialog.cpp:786
+#: projects/k3bdataurladdingdialog.cpp:815
 #, kde-format
 msgid "To burn files bigger than %1 please use %2"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:791
+#: projects/k3bdataurladdingdialog.cpp:820
 msgid "Some filenames had to be modified due to limitations in mkisofs"
 msgstr ""
 "Dellos nomes de ficheros tuvieron que modificase por les llimitaciones de "
 "mkisofs"
 
-#: projects/k3bdataurladdingdialog.cpp:795
+#: projects/k3bdataurladdingdialog.cpp:824
 msgid ""
 "The following filenames have an invalid encoding. You may fix this with the "
 "convmv tool"
