@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmplot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-11 06:36+0100\n"
+"POT-Creation-Date: 2010-02-26 20:29+0100\n"
 "PO-Revision-Date: 2009-11-15 17:42+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -49,6 +49,138 @@ msgstr "automático"
 msgid "The function %1 could not be loaded"
 msgstr "La función %1 nun se pudo cargar"
 
+#: parameteranimator.cpp:62
+msgid "Parameter Animator"
+msgstr "Parámetru d'animación"
+
+#: functiontools.cpp:71 functiontools.cpp:78
+msgid "Search between:"
+msgstr "Busca ente:"
+
+#: functiontools.cpp:72
+msgid "Find Minimum Point"
+msgstr "Busca'l puntu mínimu"
+
+#: functiontools.cpp:79
+msgid "Find Maximum Point"
+msgstr "Busca'l puntu máximu"
+
+#: functiontools.cpp:85
+msgid "Calculate the area between:"
+msgstr "Calcula l'área ente:"
+
+#: functiontools.cpp:86
+msgid "Area Under Graph"
+msgstr "Área baxo la gráfica"
+
+#: functiontools.cpp:201
+#, kde-format
+msgid "Minimum is at x = %1, %2(x) = %3"
+msgstr "El mínimu ta en x = %1, %2(x) = %3"
+
+#: functiontools.cpp:215
+#, kde-format
+msgid "Maximum is at x = %1, %2(x) = %3"
+msgstr "El máximu ta en x = %1, %2(x) = %3"
+
+#: functiontools.cpp:234
+#, kde-format
+msgid "Area is %1"
+msgstr "L'área ye %1"
+
+#: coordsconfigdialog.cpp:50
+msgid "Coordinates"
+msgstr "Coordenaes"
+
+#: coordsconfigdialog.cpp:50 coordsconfigdialog.cpp:51
+msgid "Coordinate System"
+msgstr "Sistema de Coordenaes"
+
+#: coordsconfigdialog.cpp:80 coordsconfigdialog.cpp:106
+msgid "The minimum range value must be lower than the maximum range value"
+msgstr "El valor mínimu tien de ser menor que'l valor máximu"
+
+#: parameterswidget.cpp:39
+#, kde-format
+msgid "Slider No. %1"
+msgstr "Barra d'eslizamientu númberu %1"
+
+#: kconstanteditor.cpp:67
+msgid "Constants Editor"
+msgstr "Editor de Constantes"
+
+#: kconstanteditor.cpp:135
+msgid "Check this to have the constant exported when saving."
+msgstr "Marca esto p'algamar les constantes esportaes al guardar."
+
+#: kconstanteditor.cpp:138
+msgid ""
+"Check this to have the constant permanently available between instances of "
+"KmPlot."
+msgstr ""
+"Marca esta caxella pa que les constantes tean disponibles ente les "
+"instancies de KmPlot."
+
+#. i18n: file: qparametereditor.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, QParameterEditor)
+#: kparametereditor.cpp:51 rc.cpp:892 rc.cpp:1851
+msgid "Parameter Editor"
+msgstr "Editor de Parámetros"
+
+#: kparametereditor.cpp:213 kparametereditor.cpp:283
+msgid "*.txt|Plain Text File "
+msgstr "*.txt|Ficheru de testu plano "
+
+#: kparametereditor.cpp:230 kparametereditor.cpp:272
+msgid "An error appeared when opening this file"
+msgstr "Hebo un fallu al abrir esti ficheru"
+
+#: kparametereditor.cpp:259
+#, kde-format
+msgid ""
+"Line %1 is not a valid parameter value and will therefore not be included. "
+"Do you want to continue?"
+msgstr ""
+"La llinia %1 nun ye un valor de parámetru válidu y poro nun s'incluirá. "
+"¿Quies siguir?"
+
+#: kparametereditor.cpp:265
+msgid "Would you like to be informed about other lines that cannot be read?"
+msgstr "¿Quieres informate d'otres llinies que nun pueden lleese?"
+
+#: kparametereditor.cpp:265
+msgid "Get Informed"
+msgstr "Obtien información"
+
+#: kparametereditor.cpp:265
+msgid "Ignore Information"
+msgstr "Inora información"
+
+#: kparametereditor.cpp:287 maindlg.cpp:532 maindlg.cpp:563
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to continue and "
+"overwrite this file?"
+msgstr ""
+"Un ficheru llamáu «%1» yá existe. ¿Tas seguru de que quies siguir y "
+"sobrescribir esti ficheru?"
+
+#: kparametereditor.cpp:287 maindlg.cpp:532 maindlg.cpp:563
+msgid "Overwrite File?"
+msgstr "¿Sobrescribir ficheru?"
+
+#: kparametereditor.cpp:287 maindlg.cpp:532 maindlg.cpp:563
+msgid "&Overwrite"
+msgstr "&Sobrescribir"
+
+#: kparametereditor.cpp:306 kparametereditor.cpp:310 kparametereditor.cpp:332
+msgid "An error appeared when saving this file"
+msgstr "Hebo un fallu al grabar esti ficheru"
+
+#: xparser.cpp:143
+msgid "Error in extension."
+msgstr "Fallu na estensión"
+
 #: ksliderwindow.cpp:37
 #, kde-format
 msgid "Slider %1"
@@ -66,49 +198,206 @@ msgstr ""
 msgid "Sliders"
 msgstr "Barres d'eslizamientu"
 
-#: kprinterdlg.cpp:44
-msgid "KmPlot Options"
-msgstr "Opciones de KmPlot"
+#: calculator.cpp:43 maindlg.cpp:304
+msgid "Calculator"
+msgstr "Calculadora"
 
-#: kprinterdlg.cpp:50
-msgid "Print header table"
-msgstr "Imprentar tabla de testera"
+#: equationeditor.cpp:40
+msgid "Equation Editor"
+msgstr "Editor d'ecuaciones"
 
-#: kprinterdlg.cpp:51
-msgid "Transparent background"
-msgstr "Fondu tresparente"
+#. i18n: file: settingspagegeneral.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsPageGeneral)
+#: maindlg.cpp:210 rc.cpp:1156 rc.cpp:2115
+msgid "General"
+msgstr "Xeneral"
 
-#: kprinterdlg.cpp:60
-msgid "Pixels (1/72nd in)"
-msgstr "Píxeles (1/72plg)"
+#: maindlg.cpp:210
+msgid "General Settings"
+msgstr "Preferencies Xenerales"
 
-#: kprinterdlg.cpp:61
-msgid "Inches (in)"
-msgstr "Pulgaes"
+#. i18n: file: settingspagediagram.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsPageDiagram)
+#: maindlg.cpp:211 rc.cpp:1066 rc.cpp:2025
+msgid "Diagram"
+msgstr "Diagrama"
 
-#: kprinterdlg.cpp:62
-msgid "Centimeters (cm)"
-msgstr "Centímetros"
+#: maindlg.cpp:211
+msgid "Diagram Appearance"
+msgstr "Aspeutu del Diagrama"
 
-#: kprinterdlg.cpp:63
-msgid "Millimeters (mm)"
-msgstr "Milímetros"
+#: maindlg.cpp:212
+msgid "Colors"
+msgstr "Colores"
 
-#: kprinterdlg.cpp:67
-msgid "Width:"
-msgstr "Anchura"
+#: maindlg.cpp:213
+msgid "Fonts"
+msgstr "Fontes"
 
-#: kprinterdlg.cpp:68
-msgid "Height:"
-msgstr "Altor"
+#: maindlg.cpp:242
+msgid "Configure KmPlot..."
+msgstr "Configurar KmPlot..."
 
-#: kprinterdlg.cpp:138
-msgid "Width is invalid"
-msgstr "Anchura non válida"
+#: maindlg.cpp:251
+msgid "E&xport..."
+msgstr "E&sportar..."
 
-#: kprinterdlg.cpp:145
-msgid "Height is invalid"
-msgstr "Altor non válidu"
+#: maindlg.cpp:265
+msgid "&Coordinate System..."
+msgstr "&Sistema de Coordenaes"
+
+#: maindlg.cpp:270
+msgid "&Constants..."
+msgstr "&Constantes"
+
+#: maindlg.cpp:280
+msgid "Zoom &In"
+msgstr "A&cercar"
+
+#: maindlg.cpp:286
+msgid "Zoom &Out"
+msgstr "A&llonxar"
+
+#: maindlg.cpp:292
+msgid "&Fit Widget to Trigonometric Functions"
+msgstr "&Axustar a les funciones trigonométriques"
+
+#: maindlg.cpp:296
+msgid "Reset View"
+msgstr "Reaniciar Vista"
+
+#: maindlg.cpp:309
+msgid "Plot &Area..."
+msgstr "Dibuxa una á&rea"
+
+#: maindlg.cpp:313
+msgid "Find Ma&ximum..."
+msgstr "Gueta'l Má&ximu"
+
+#: maindlg.cpp:318
+msgid "Find Mi&nimum..."
+msgstr "Gueta'l Mí&nimu"
+
+#: maindlg.cpp:326
+msgid "Predefined &Math Functions"
+msgstr "Funciones &Matemátiques Predefiníes"
+
+#: maindlg.cpp:334
+msgid "Cartesian Plot"
+msgstr "Gráfica Cartesiana"
+
+#: maindlg.cpp:340
+msgid "Parametric Plot"
+msgstr "Gráfica Paramétrica"
+
+#: maindlg.cpp:346
+msgid "Polar Plot"
+msgstr "Gráficu Polar"
+
+#: maindlg.cpp:352
+msgid "Implicit Plot"
+msgstr "Gráficu Implícitu"
+
+#: maindlg.cpp:358
+msgid "Differential Plot"
+msgstr "Gráficu Diferencial"
+
+#: maindlg.cpp:368
+msgid "Show Sliders"
+msgstr "Amosar Barres d'eslizamientu"
+
+#. i18n: file: kmplot_part.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: kmplot_part_readonly.rc:9
+#. i18n: ectx: Menu (edit)
+#. i18n: file: kmplot_part.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: kmplot_part_readonly.rc:9
+#. i18n: ectx: Menu (edit)
+#: maindlg.cpp:374 rc.cpp:745 rc.cpp:760
+msgid "&Edit"
+msgstr "&Editar"
+
+#: maindlg.cpp:381
+msgid "&Hide"
+msgstr "&Anubrir"
+
+#: maindlg.cpp:386
+msgid "&Remove"
+msgstr "&Desaniciar"
+
+#: maindlg.cpp:394
+msgid "Animate Plot..."
+msgstr "Animar Gráfica..."
+
+#: maindlg.cpp:478
+msgid ""
+"The plot has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Camudóse'l gráficu.\n"
+"¿Quies grabalu?"
+
+#: maindlg.cpp:508
+msgid ""
+"This file is saved with an old file format; if you save it, you cannot open "
+"the file with older versions of KmPlot. Are you sure you want to continue?"
+msgstr ""
+"El ficheru grabóse con un formatu antiguu; si lu grabes nun vas poder abrilu "
+"con versiones más antigües de Kmplot. ¿Daveres quies siguir?"
+
+#: maindlg.cpp:508
+msgid "Save New Format"
+msgstr "Grabar Nuevu Formatu"
+
+#: maindlg.cpp:522
+msgid ""
+"*.fkt|KmPlot Files (*.fkt)\n"
+"*|All Files"
+msgstr ""
+"*.fkt|Ficheros de KmPlot (*.fkt)\n"
+"*|Tolos ficheros"
+
+#: maindlg.cpp:522
+msgid "Save As"
+msgstr "Grabar como"
+
+#: maindlg.cpp:539
+msgid "The file could not be saved"
+msgstr "El ficheru nun se pudo grabar"
+
+#: maindlg.cpp:552
+msgid ""
+"\n"
+"*.svg|Scalable Vector Graphics"
+msgstr ""
+"\n"
+"*.svg|Gráficos vectoriales escalables"
+
+#: maindlg.cpp:554
+msgid "Export as Image"
+msgstr "Esportar como imaxe"
+
+#: maindlg.cpp:576
+msgid "Sorry, this file format is not supported."
+msgstr "Esti formatu de ficheru nun se permite."
+
+#: maindlg.cpp:627
+#, kde-format
+msgid "Sorry, something went wrong while saving to image \"%1\""
+msgstr "Síentolo bien, hebo dalgún problema al grabar la imaxe «%1»"
+
+#: maindlg.cpp:684
+msgid "Print Plot"
+msgstr "Imprentar gráficu"
+
+#: maindlg.cpp:835
+msgid "KmPlotPart"
+msgstr "KmPlotPart"
+
+#: functioneditor.cpp:60
+msgid "Functions"
+msgstr "Funciones"
 
 #: parser.cpp:676
 msgid "Remove all"
@@ -171,14 +460,191 @@ msgstr "La función tien abondos argumentos"
 msgid "The function does not have the correct number of arguments"
 msgstr "La función nun tien el númberu correutu d'argumentos"
 
-#: parameterswidget.cpp:39
-#, kde-format
-msgid "Slider No. %1"
-msgstr "Barra d'eslizamientu númberu %1"
+#: plotstylewidget.cpp:44
+msgid "Solid"
+msgstr "Sólidu"
 
-#: equationeditor.cpp:40
-msgid "Equation Editor"
-msgstr "Editor d'ecuaciones"
+#: plotstylewidget.cpp:45
+msgid "Dash"
+msgstr "Trazu"
+
+#: plotstylewidget.cpp:46
+msgid "Dot"
+msgstr "Puntu"
+
+#: plotstylewidget.cpp:47
+msgid "Dash Dot"
+msgstr "Raya puntu"
+
+#: plotstylewidget.cpp:48
+msgid "Dash Dot Dot"
+msgstr "Raya puntu puntu"
+
+#: plotstylewidget.cpp:59
+msgid "Advanced..."
+msgstr "Avanzáu..."
+
+#: plotstylewidget.cpp:63
+msgid "Color:"
+msgstr "Color:"
+
+#: plotstylewidget.cpp:73
+msgid "Plot Appearance"
+msgstr "Aspeutu del gráficu"
+
+#: kprinterdlg.cpp:44
+msgid "KmPlot Options"
+msgstr "Opciones de KmPlot"
+
+#: kprinterdlg.cpp:50
+msgid "Print header table"
+msgstr "Imprentar tabla de testera"
+
+#: kprinterdlg.cpp:51
+msgid "Transparent background"
+msgstr "Fondu tresparente"
+
+#: kprinterdlg.cpp:60
+msgid "Pixels (1/72nd in)"
+msgstr "Píxeles (1/72plg)"
+
+#: kprinterdlg.cpp:61
+msgid "Inches (in)"
+msgstr "Pulgaes"
+
+#: kprinterdlg.cpp:62
+msgid "Centimeters (cm)"
+msgstr "Centímetros"
+
+#: kprinterdlg.cpp:63
+msgid "Millimeters (mm)"
+msgstr "Milímetros"
+
+#: kprinterdlg.cpp:67
+msgid "Width:"
+msgstr "Anchura"
+
+#: kprinterdlg.cpp:68
+msgid "Height:"
+msgstr "Altor"
+
+#: kprinterdlg.cpp:138
+msgid "Width is invalid"
+msgstr "Anchura non válida"
+
+#: kprinterdlg.cpp:145
+msgid "Height is invalid"
+msgstr "Altor non válidu"
+
+#: kgradientdialog.cpp:383
+msgid "(Double-click on the gradient to add a stop)"
+msgstr "Calca dos vegaes nel gradiente pa encaxar una parada"
+
+#: kgradientdialog.cpp:384
+msgid "Remove stop"
+msgstr "Desaniciar parada"
+
+#: kgradientdialog.cpp:405
+msgid "Choose a Gradient"
+msgstr "Escoyer un Gradiente"
+
+#: kmplot.cpp:82
+msgid "Could not find KmPlot's part."
+msgstr "KmPlot nun pudo atopar l'elementu"
+
+#: kmplot.cpp:209
+msgid ""
+"*.fkt|KmPlot Files (*.fkt)\n"
+"*.*|All Files"
+msgstr ""
+"*.fkt|Ficheros de KmPlot (*.fkt)\n"
+"*.*|Tolos ficheros"
+
+#: kmplot.cpp:209
+msgid "Open"
+msgstr "Abrir"
+
+#: view.cpp:2422 view.cpp:2423
+msgid "  to  "
+msgstr "  a  "
+
+#. i18n: file: functioneditorwidget.ui:184
+#. i18n: ectx: property (title), widget (ParametersWidget, cartesianParameters)
+#. i18n: file: functioneditorwidget.ui:523
+#. i18n: ectx: property (title), widget (ParametersWidget, parametricParameters)
+#. i18n: file: functioneditorwidget.ui:628
+#. i18n: ectx: property (title), widget (ParametersWidget, polarParameters)
+#. i18n: file: functioneditorwidget.ui:703
+#. i18n: ectx: property (title), widget (ParametersWidget, implicitParameters)
+#. i18n: file: functioneditorwidget.ui:786
+#. i18n: ectx: property (title), widget (ParametersWidget, differentialParameters)
+#. i18n: file: parameterswidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ParametersWidget)
+#. i18n: file: functioneditorwidget.ui:184
+#. i18n: ectx: property (title), widget (ParametersWidget, cartesianParameters)
+#. i18n: file: functioneditorwidget.ui:523
+#. i18n: ectx: property (title), widget (ParametersWidget, parametricParameters)
+#. i18n: file: functioneditorwidget.ui:628
+#. i18n: ectx: property (title), widget (ParametersWidget, polarParameters)
+#. i18n: file: functioneditorwidget.ui:703
+#. i18n: ectx: property (title), widget (ParametersWidget, implicitParameters)
+#. i18n: file: functioneditorwidget.ui:786
+#. i18n: ectx: property (title), widget (ParametersWidget, differentialParameters)
+#. i18n: file: parameterswidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ParametersWidget)
+#. i18n: file: functioneditorwidget.ui:184
+#. i18n: ectx: property (title), widget (ParametersWidget, cartesianParameters)
+#. i18n: file: functioneditorwidget.ui:523
+#. i18n: ectx: property (title), widget (ParametersWidget, parametricParameters)
+#. i18n: file: functioneditorwidget.ui:628
+#. i18n: ectx: property (title), widget (ParametersWidget, polarParameters)
+#. i18n: file: functioneditorwidget.ui:703
+#. i18n: ectx: property (title), widget (ParametersWidget, implicitParameters)
+#. i18n: file: functioneditorwidget.ui:786
+#. i18n: ectx: property (title), widget (ParametersWidget, differentialParameters)
+#. i18n: file: parameterswidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ParametersWidget)
+#. i18n: file: functioneditorwidget.ui:184
+#. i18n: ectx: property (title), widget (ParametersWidget, cartesianParameters)
+#. i18n: file: functioneditorwidget.ui:523
+#. i18n: ectx: property (title), widget (ParametersWidget, parametricParameters)
+#. i18n: file: functioneditorwidget.ui:628
+#. i18n: ectx: property (title), widget (ParametersWidget, polarParameters)
+#. i18n: file: functioneditorwidget.ui:703
+#. i18n: ectx: property (title), widget (ParametersWidget, implicitParameters)
+#. i18n: file: functioneditorwidget.ui:786
+#. i18n: ectx: property (title), widget (ParametersWidget, differentialParameters)
+#. i18n: file: parameterswidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ParametersWidget)
+#: view.cpp:2429 rc.cpp:261 rc.cpp:388 rc.cpp:425 rc.cpp:455 rc.cpp:484
+#: rc.cpp:844 rc.cpp:1478 rc.cpp:1605 rc.cpp:1642 rc.cpp:1672 rc.cpp:1701
+#: rc.cpp:1803
+msgid "Parameters"
+msgstr "Parámetros"
+
+#: view.cpp:2429
+msgid "Plotting Range"
+msgstr "Intervalu de dibuxáu"
+
+#: view.cpp:2429
+msgid "Axes Division"
+msgstr "División d'Exes"
+
+#: view.cpp:2430
+msgid "x-Axis:"
+msgstr "Exe-x:"
+
+#: view.cpp:2431
+msgid "y-Axis:"
+msgstr "Exe-y:"
+
+#: view.cpp:2434
+msgid "Functions:"
+msgstr "Funciones:"
+
+#: view.cpp:3511
+msgid "root"
+msgstr "raíz"
 
 #: main.cpp:42
 msgid "Mathematical function plotter for KDE"
@@ -247,153 +713,6 @@ msgstr "Funciones iniciales pa dibuxar"
 #: main.cpp:72
 msgid "File to open"
 msgstr "Ficheru a abrir"
-
-#: functiontools.cpp:71 functiontools.cpp:78
-msgid "Search between:"
-msgstr "Busca ente:"
-
-#: functiontools.cpp:72
-msgid "Find Minimum Point"
-msgstr "Busca'l puntu mínimu"
-
-#: functiontools.cpp:79
-msgid "Find Maximum Point"
-msgstr "Busca'l puntu máximu"
-
-#: functiontools.cpp:85
-msgid "Calculate the area between:"
-msgstr "Calcula l'área ente:"
-
-#: functiontools.cpp:86
-msgid "Area Under Graph"
-msgstr "Área baxo la gráfica"
-
-#: functiontools.cpp:201
-#, kde-format
-msgid "Minimum is at x = %1, %2(x) = %3"
-msgstr "El mínimu ta en x = %1, %2(x) = %3"
-
-#: functiontools.cpp:215
-#, kde-format
-msgid "Maximum is at x = %1, %2(x) = %3"
-msgstr "El máximu ta en x = %1, %2(x) = %3"
-
-#: functiontools.cpp:234
-#, kde-format
-msgid "Area is %1"
-msgstr "L'área ye %1"
-
-#. i18n: file: qparametereditor.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, QParameterEditor)
-#: kparametereditor.cpp:51 rc.cpp:892 rc.cpp:1851
-msgid "Parameter Editor"
-msgstr "Editor de Parámetros"
-
-#: kparametereditor.cpp:213 kparametereditor.cpp:283
-msgid "*.txt|Plain Text File "
-msgstr "*.txt|Ficheru de testu plano "
-
-#: kparametereditor.cpp:230 kparametereditor.cpp:272
-msgid "An error appeared when opening this file"
-msgstr "Hebo un fallu al abrir esti ficheru"
-
-#: kparametereditor.cpp:259
-#, kde-format
-msgid ""
-"Line %1 is not a valid parameter value and will therefore not be included. "
-"Do you want to continue?"
-msgstr ""
-"La llinia %1 nun ye un valor de parámetru válidu y poro nun s'incluirá. "
-"¿Quies siguir?"
-
-#: kparametereditor.cpp:265
-msgid "Would you like to be informed about other lines that cannot be read?"
-msgstr "¿Quieres informate d'otres llinies que nun pueden lleese?"
-
-#: kparametereditor.cpp:265
-msgid "Get Informed"
-msgstr "Obtien información"
-
-#: kparametereditor.cpp:265
-msgid "Ignore Information"
-msgstr "Inora información"
-
-#: kparametereditor.cpp:287 maindlg.cpp:532 maindlg.cpp:563
-#, kde-format
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to continue and "
-"overwrite this file?"
-msgstr ""
-"Un ficheru llamáu «%1» yá existe. ¿Tas seguru de que quies siguir y "
-"sobrescribir esti ficheru?"
-
-#: kparametereditor.cpp:287 maindlg.cpp:532 maindlg.cpp:563
-msgid "Overwrite File?"
-msgstr "¿Sobrescribir ficheru?"
-
-#: kparametereditor.cpp:287 maindlg.cpp:532 maindlg.cpp:563
-msgid "&Overwrite"
-msgstr "&Sobrescribir"
-
-#: kparametereditor.cpp:306 kparametereditor.cpp:310 kparametereditor.cpp:332
-msgid "An error appeared when saving this file"
-msgstr "Hebo un fallu al grabar esti ficheru"
-
-#: plotstylewidget.cpp:44
-msgid "Solid"
-msgstr "Sólidu"
-
-#: plotstylewidget.cpp:45
-msgid "Dash"
-msgstr "Trazu"
-
-#: plotstylewidget.cpp:46
-msgid "Dot"
-msgstr "Puntu"
-
-#: plotstylewidget.cpp:47
-msgid "Dash Dot"
-msgstr "Raya puntu"
-
-#: plotstylewidget.cpp:48
-msgid "Dash Dot Dot"
-msgstr "Raya puntu puntu"
-
-#: plotstylewidget.cpp:59
-msgid "Advanced..."
-msgstr "Avanzáu..."
-
-#: plotstylewidget.cpp:63
-msgid "Color:"
-msgstr "Color:"
-
-#: plotstylewidget.cpp:73
-msgid "Plot Appearance"
-msgstr "Aspeutu del gráficu"
-
-#: calculator.cpp:43 maindlg.cpp:304
-msgid "Calculator"
-msgstr "Calculadora"
-
-#: kmplot.cpp:82
-msgid "Could not find KmPlot's part."
-msgstr "KmPlot nun pudo atopar l'elementu"
-
-#: kmplot.cpp:209
-msgid ""
-"*.fkt|KmPlot Files (*.fkt)\n"
-"*.*|All Files"
-msgstr ""
-"*.fkt|Ficheros de KmPlot (*.fkt)\n"
-"*.*|Tolos ficheros"
-
-#: kmplot.cpp:209
-msgid "Open"
-msgstr "Abrir"
-
-#: functioneditor.cpp:60
-msgid "Functions"
-msgstr "Funciones"
 
 #. i18n: file: constantseditor.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, ConstantsEditor)
@@ -1249,60 +1568,6 @@ msgid ""
 msgstr ""
 "Pon la llende superior pal intervalu del gráficu. Les espresiones de la "
 "triba 2*pi permítense."
-
-#. i18n: file: functioneditorwidget.ui:184
-#. i18n: ectx: property (title), widget (ParametersWidget, cartesianParameters)
-#. i18n: file: functioneditorwidget.ui:523
-#. i18n: ectx: property (title), widget (ParametersWidget, parametricParameters)
-#. i18n: file: functioneditorwidget.ui:628
-#. i18n: ectx: property (title), widget (ParametersWidget, polarParameters)
-#. i18n: file: functioneditorwidget.ui:703
-#. i18n: ectx: property (title), widget (ParametersWidget, implicitParameters)
-#. i18n: file: functioneditorwidget.ui:786
-#. i18n: ectx: property (title), widget (ParametersWidget, differentialParameters)
-#. i18n: file: parameterswidget.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, ParametersWidget)
-#. i18n: file: functioneditorwidget.ui:184
-#. i18n: ectx: property (title), widget (ParametersWidget, cartesianParameters)
-#. i18n: file: functioneditorwidget.ui:523
-#. i18n: ectx: property (title), widget (ParametersWidget, parametricParameters)
-#. i18n: file: functioneditorwidget.ui:628
-#. i18n: ectx: property (title), widget (ParametersWidget, polarParameters)
-#. i18n: file: functioneditorwidget.ui:703
-#. i18n: ectx: property (title), widget (ParametersWidget, implicitParameters)
-#. i18n: file: functioneditorwidget.ui:786
-#. i18n: ectx: property (title), widget (ParametersWidget, differentialParameters)
-#. i18n: file: parameterswidget.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, ParametersWidget)
-#. i18n: file: functioneditorwidget.ui:184
-#. i18n: ectx: property (title), widget (ParametersWidget, cartesianParameters)
-#. i18n: file: functioneditorwidget.ui:523
-#. i18n: ectx: property (title), widget (ParametersWidget, parametricParameters)
-#. i18n: file: functioneditorwidget.ui:628
-#. i18n: ectx: property (title), widget (ParametersWidget, polarParameters)
-#. i18n: file: functioneditorwidget.ui:703
-#. i18n: ectx: property (title), widget (ParametersWidget, implicitParameters)
-#. i18n: file: functioneditorwidget.ui:786
-#. i18n: ectx: property (title), widget (ParametersWidget, differentialParameters)
-#. i18n: file: parameterswidget.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, ParametersWidget)
-#. i18n: file: functioneditorwidget.ui:184
-#. i18n: ectx: property (title), widget (ParametersWidget, cartesianParameters)
-#. i18n: file: functioneditorwidget.ui:523
-#. i18n: ectx: property (title), widget (ParametersWidget, parametricParameters)
-#. i18n: file: functioneditorwidget.ui:628
-#. i18n: ectx: property (title), widget (ParametersWidget, polarParameters)
-#. i18n: file: functioneditorwidget.ui:703
-#. i18n: ectx: property (title), widget (ParametersWidget, implicitParameters)
-#. i18n: file: functioneditorwidget.ui:786
-#. i18n: ectx: property (title), widget (ParametersWidget, differentialParameters)
-#. i18n: file: parameterswidget.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, ParametersWidget)
-#: rc.cpp:261 rc.cpp:388 rc.cpp:425 rc.cpp:455 rc.cpp:484 rc.cpp:844
-#: rc.cpp:1478 rc.cpp:1605 rc.cpp:1642 rc.cpp:1672 rc.cpp:1701 rc.cpp:1803
-#: view.cpp:2429
-msgid "Parameters"
-msgstr "Parámetros"
 
 #. i18n: file: functioneditorwidget.ui:191
 #. i18n: ectx: property (title), widget (PlotStyleWidget, cartesian_f0)
@@ -2307,18 +2572,6 @@ msgstr ""
 "Si s'amuesen detáis estra, como la tanxente y la normal, al trazar un "
 "gráficu."
 
-#. i18n: file: kmplot_part.rc:13
-#. i18n: ectx: Menu (edit)
-#. i18n: file: kmplot_part_readonly.rc:9
-#. i18n: ectx: Menu (edit)
-#. i18n: file: kmplot_part.rc:13
-#. i18n: ectx: Menu (edit)
-#. i18n: file: kmplot_part_readonly.rc:9
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:745 rc.cpp:760 maindlg.cpp:374
-msgid "&Edit"
-msgstr "&Editar"
-
 #. i18n: file: kmplot_part.rc:19
 #. i18n: ectx: Menu (view)
 #. i18n: file: kmplot_part_readonly.rc:15
@@ -3053,12 +3306,6 @@ msgstr ""
 msgid "Function 1&0:"
 msgstr "Función 1&0:"
 
-#. i18n: file: settingspagediagram.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsPageDiagram)
-#: rc.cpp:1066 rc.cpp:2025 maindlg.cpp:211
-msgid "Diagram"
-msgstr "Diagrama"
-
 #. i18n: file: settingspagediagram.ui:57
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #: rc.cpp:1072 rc.cpp:2031
@@ -3203,12 +3450,6 @@ msgstr "Etiquetes del diagrama:"
 msgid "Axes labels:"
 msgstr "Etiquetes de les exes:"
 
-#. i18n: file: settingspagegeneral.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsPageGeneral)
-#: rc.cpp:1156 rc.cpp:2115 maindlg.cpp:210
-msgid "General"
-msgstr "Xeneral"
-
 #. i18n: file: settingspagegeneral.ui:25
 #. i18n: ectx: property (title), widget (KButtonGroup, kcfg_anglemode)
 #: rc.cpp:1159 rc.cpp:2118
@@ -3340,244 +3581,3 @@ msgid "Your emails"
 msgstr ""
 ",,heinrich.as@hotmail.com,marcos.alvarez.costales@gmail.com,,xuacusk8@gmail."
 "com,riel.lu@softastur.org"
-
-#: xparser.cpp:143
-msgid "Error in extension."
-msgstr "Fallu na estensión"
-
-#: parameteranimator.cpp:62
-msgid "Parameter Animator"
-msgstr "Parámetru d'animación"
-
-#: kconstanteditor.cpp:67
-msgid "Constants Editor"
-msgstr "Editor de Constantes"
-
-#: kconstanteditor.cpp:135
-msgid "Check this to have the constant exported when saving."
-msgstr "Marca esto p'algamar les constantes esportaes al guardar."
-
-#: kconstanteditor.cpp:138
-msgid ""
-"Check this to have the constant permanently available between instances of "
-"KmPlot."
-msgstr ""
-"Marca esta caxella pa que les constantes tean disponibles ente les "
-"instancies de KmPlot."
-
-#: maindlg.cpp:210
-msgid "General Settings"
-msgstr "Preferencies Xenerales"
-
-#: maindlg.cpp:211
-msgid "Diagram Appearance"
-msgstr "Aspeutu del Diagrama"
-
-#: maindlg.cpp:212
-msgid "Colors"
-msgstr "Colores"
-
-#: maindlg.cpp:213
-msgid "Fonts"
-msgstr "Fontes"
-
-#: maindlg.cpp:242
-msgid "Configure KmPlot..."
-msgstr "Configurar KmPlot..."
-
-#: maindlg.cpp:251
-msgid "E&xport..."
-msgstr "E&sportar..."
-
-#: maindlg.cpp:265
-msgid "&Coordinate System..."
-msgstr "&Sistema de Coordenaes"
-
-#: maindlg.cpp:270
-msgid "&Constants..."
-msgstr "&Constantes"
-
-#: maindlg.cpp:280
-msgid "Zoom &In"
-msgstr "A&cercar"
-
-#: maindlg.cpp:286
-msgid "Zoom &Out"
-msgstr "A&llonxar"
-
-#: maindlg.cpp:292
-msgid "&Fit Widget to Trigonometric Functions"
-msgstr "&Axustar a les funciones trigonométriques"
-
-#: maindlg.cpp:296
-msgid "Reset View"
-msgstr "Reaniciar Vista"
-
-#: maindlg.cpp:309
-msgid "Plot &Area..."
-msgstr "Dibuxa una á&rea"
-
-#: maindlg.cpp:313
-msgid "Find Ma&ximum..."
-msgstr "Gueta'l Má&ximu"
-
-#: maindlg.cpp:318
-msgid "Find Mi&nimum..."
-msgstr "Gueta'l Mí&nimu"
-
-#: maindlg.cpp:326
-msgid "Predefined &Math Functions"
-msgstr "Funciones &Matemátiques Predefiníes"
-
-#: maindlg.cpp:334
-msgid "Cartesian Plot"
-msgstr "Gráfica Cartesiana"
-
-#: maindlg.cpp:340
-msgid "Parametric Plot"
-msgstr "Gráfica Paramétrica"
-
-#: maindlg.cpp:346
-msgid "Polar Plot"
-msgstr "Gráficu Polar"
-
-#: maindlg.cpp:352
-msgid "Implicit Plot"
-msgstr "Gráficu Implícitu"
-
-#: maindlg.cpp:358
-msgid "Differential Plot"
-msgstr "Gráficu Diferencial"
-
-#: maindlg.cpp:368
-msgid "Show Sliders"
-msgstr "Amosar Barres d'eslizamientu"
-
-#: maindlg.cpp:381
-msgid "&Hide"
-msgstr "&Anubrir"
-
-#: maindlg.cpp:386
-msgid "&Remove"
-msgstr "&Desaniciar"
-
-#: maindlg.cpp:394
-msgid "Animate Plot..."
-msgstr "Animar Gráfica..."
-
-#: maindlg.cpp:478
-msgid ""
-"The plot has been modified.\n"
-"Do you want to save it?"
-msgstr ""
-"Camudóse'l gráficu.\n"
-"¿Quies grabalu?"
-
-#: maindlg.cpp:508
-msgid ""
-"This file is saved with an old file format; if you save it, you cannot open "
-"the file with older versions of KmPlot. Are you sure you want to continue?"
-msgstr ""
-"El ficheru grabóse con un formatu antiguu; si lu grabes nun vas poder abrilu "
-"con versiones más antigües de Kmplot. ¿Daveres quies siguir?"
-
-#: maindlg.cpp:508
-msgid "Save New Format"
-msgstr "Grabar Nuevu Formatu"
-
-#: maindlg.cpp:522
-msgid ""
-"*.fkt|KmPlot Files (*.fkt)\n"
-"*|All Files"
-msgstr ""
-"*.fkt|Ficheros de KmPlot (*.fkt)\n"
-"*|Tolos ficheros"
-
-#: maindlg.cpp:522
-msgid "Save As"
-msgstr "Grabar como"
-
-#: maindlg.cpp:539
-msgid "The file could not be saved"
-msgstr "El ficheru nun se pudo grabar"
-
-#: maindlg.cpp:552
-msgid ""
-"\n"
-"*.svg|Scalable Vector Graphics"
-msgstr ""
-"\n"
-"*.svg|Gráficos vectoriales escalables"
-
-#: maindlg.cpp:554
-msgid "Export as Image"
-msgstr "Esportar como imaxe"
-
-#: maindlg.cpp:576
-msgid "Sorry, this file format is not supported."
-msgstr "Esti formatu de ficheru nun se permite."
-
-#: maindlg.cpp:627
-#, kde-format
-msgid "Sorry, something went wrong while saving to image \"%1\""
-msgstr "Síentolo bien, hebo dalgún problema al grabar la imaxe «%1»"
-
-#: maindlg.cpp:684
-msgid "Print Plot"
-msgstr "Imprentar gráficu"
-
-#: maindlg.cpp:835
-msgid "KmPlotPart"
-msgstr "KmPlotPart"
-
-#: coordsconfigdialog.cpp:50
-msgid "Coordinates"
-msgstr "Coordenaes"
-
-#: coordsconfigdialog.cpp:50 coordsconfigdialog.cpp:51
-msgid "Coordinate System"
-msgstr "Sistema de Coordenaes"
-
-#: coordsconfigdialog.cpp:80 coordsconfigdialog.cpp:106
-msgid "The minimum range value must be lower than the maximum range value"
-msgstr "El valor mínimu tien de ser menor que'l valor máximu"
-
-#: kgradientdialog.cpp:383
-msgid "(Double-click on the gradient to add a stop)"
-msgstr "Calca dos vegaes nel gradiente pa encaxar una parada"
-
-#: kgradientdialog.cpp:384
-msgid "Remove stop"
-msgstr "Desaniciar parada"
-
-#: kgradientdialog.cpp:405
-msgid "Choose a Gradient"
-msgstr "Escoyer un Gradiente"
-
-#: view.cpp:2422 view.cpp:2423
-msgid "  to  "
-msgstr "  a  "
-
-#: view.cpp:2429
-msgid "Plotting Range"
-msgstr "Intervalu de dibuxáu"
-
-#: view.cpp:2429
-msgid "Axes Division"
-msgstr "División d'Exes"
-
-#: view.cpp:2430
-msgid "x-Axis:"
-msgstr "Exe-x:"
-
-#: view.cpp:2431
-msgid "y-Axis:"
-msgstr "Exe-y:"
-
-#: view.cpp:2434
-msgid "Functions:"
-msgstr "Funciones:"
-
-#: view.cpp:3511
-msgid "root"
-msgstr "raíz"
