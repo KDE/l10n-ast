@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-14 06:34+0100\n"
+"POT-Creation-Date: 2010-03-02 04:18+0100\n"
 "PO-Revision-Date: 2009-12-27 16:55+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -19,31 +19,10 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Language: asturian\n"
 
-#: interfaces/default/interface.cpp:80 interfaces/default/interface.cpp:81
 #: interfaces/quicksand/qs_dialog.cpp:53 interfaces/quicksand/qs_dialog.cpp:54
+#: interfaces/default/interface.cpp:80 interfaces/default/interface.cpp:81
 msgid "Settings"
 msgstr "Axustes"
-
-#: interfaces/default/interface.cpp:115
-msgid "Help"
-msgstr "Aida"
-
-#: interfaces/default/interface.cpp:116
-msgid "Information on using this application"
-msgstr "Información sobro l'usu d'esta aplicación"
-
-#: interfaces/default/interface.cpp:255
-#, fuzzy, kde-format
-#| msgctxt "%1 current item number, %2 total number of items"
-#| msgid "%1 of %2"
-msgctxt "tooltip, shortcut"
-msgid "%1 (%2)"
-msgstr "%1 de %2"
-
-#: interfaces/default/interface.cpp:440
-#, kde-format
-msgid "(From %1, %2)"
-msgstr "(Dende %1, %2)"
 
 #: interfaces/quicksand/qs_dialog.cpp:86
 msgid "Actions"
@@ -80,6 +59,109 @@ msgstr "Nun se dió con dengún resultáu."
 msgctxt "%1 current item number, %2 total number of items"
 msgid "%1 of %2"
 msgstr "%1 de %2"
+
+#: interfaces/default/interface.cpp:115
+msgid "Help"
+msgstr "Aida"
+
+#: interfaces/default/interface.cpp:116
+msgid "Information on using this application"
+msgstr "Información sobro l'usu d'esta aplicación"
+
+#: interfaces/default/interface.cpp:255
+#, fuzzy, kde-format
+#| msgctxt "%1 current item number, %2 total number of items"
+#| msgid "%1 of %2"
+msgctxt "tooltip, shortcut"
+msgid "%1 (%2)"
+msgstr "%1 de %2"
+
+#: interfaces/default/interface.cpp:440
+#, kde-format
+msgid "(From %1, %2)"
+msgstr "(Dende %1, %2)"
+
+#: lock/lockdlg.cc:100
+msgid "<nobr><b>The session is locked</b></nobr><br />"
+msgstr "<nobr><b>La sesión ta bloquiada</b></nobr><br />"
+
+#: lock/lockdlg.cc:101
+#, kde-format
+msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
+msgstr "<nobr><b>La sesión bloquióse por %1</b></nobr><br />"
+
+#: lock/lockdlg.cc:114
+msgid "Unl&ock"
+msgstr "Desbloquiar"
+
+#: lock/lockdlg.cc:116
+msgid "Sw&itch User..."
+msgstr "Cambiar Usuar&iu..."
+
+#: lock/lockdlg.cc:184
+msgid "<b>Unlocking failed</b>"
+msgstr "<b>Fallu al desbloquiar</b>"
+
+#: lock/lockdlg.cc:192
+msgid "<b>Warning: Caps Lock on</b>"
+msgstr "<b>Avisu: Bloquiar Mayúscules activu</b>"
+
+#: lock/lockdlg.cc:429
+#, kde-format
+msgid ""
+"Cannot unlock the session because the authentication system failed to work;\n"
+"you must kill kscreenlocker (pid %1) manually."
+msgstr ""
+"Nun puede desbloquiase la sesión porque'l sistema d'autenticación nun "
+"funciona;\n"
+"Tien de matar kscreenlocker (pid %1) a mano."
+
+#: lock/lockdlg.cc:518
+msgid "&Start New Session"
+msgstr "&Aniciar nueva sesión"
+
+#: lock/lockdlg.cc:526
+#, kde-format
+msgid ""
+"You have chosen to open another desktop session instead of resuming the "
+"current one.\n"
+"The current session will be hidden and a new login screen will be "
+"displayed.\n"
+"An F-key is assigned to each session; F%1 is usually assigned to the first "
+"session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. "
+"Additionally, the KDE Panel and Desktop menus have actions for switching "
+"between sessions."
+msgstr ""
+"Decidió abrir otra sesión d'escritoriu n'arróu de reanudar l'actual.\n"
+"La sesión actual anubriráse y amosaráse una nueva pantalla d'aniciu de "
+"sesión.\n"
+"Asígnase una tecla de función a cada sesión; davezu asígnase F%1 a la primer "
+"sesión, F%2 a la segunda, y asina socesivamente. Puede alternar ente "
+"sesiones calcando simultáneamente Ctrl, Alt y la tecla F afayaíza. "
+"Adicionalmente, el panel de KDE y los menús d'escritoriu disponen "
+"d'aicciones pa pasar d'una sesión a otra."
+
+#: lock/lockdlg.cc:539
+msgid "&Do not ask again"
+msgstr "&Nun entrugar más"
+
+#: lock/lockdlg.cc:595
+msgid "Session"
+msgstr "Sesión"
+
+#: lock/lockdlg.cc:595
+msgid "Location"
+msgstr "Llocalización"
+
+#: lock/lockdlg.cc:623
+msgctxt "session"
+msgid "&Activate"
+msgstr "&Activar"
+
+#: lock/lockdlg.cc:632
+msgid "Start &New Session"
+msgstr "Aniciar una &nueva sesión"
 
 #: lock/autologout.cc:38
 msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
@@ -152,92 +234,6 @@ msgstr ""
 msgid "No appropriate greeter plugin configured."
 msgstr "Nun se configuró un plugin d'accesu afayaízu."
 
-#: lock/lockdlg.cc:100
-msgid "<nobr><b>The session is locked</b></nobr><br />"
-msgstr "<nobr><b>La sesión ta bloquiada</b></nobr><br />"
-
-#: lock/lockdlg.cc:101
-#, kde-format
-msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
-msgstr "<nobr><b>La sesión bloquióse por %1</b></nobr><br />"
-
-#: lock/lockdlg.cc:114
-msgid "Unl&ock"
-msgstr "Desbloquiar"
-
-#: lock/lockdlg.cc:116
-msgid "Sw&itch User..."
-msgstr "Cambiar Usuar&iu..."
-
-#: lock/lockdlg.cc:184
-msgid "<b>Unlocking failed</b>"
-msgstr "<b>Fallu al desbloquiar</b>"
-
-#: lock/lockdlg.cc:192
-msgid "<b>Warning: Caps Lock on</b>"
-msgstr "<b>Avisu: Bloquiar Mayúscules activu</b>"
-
-#: lock/lockdlg.cc:429
-#, kde-format
-msgid ""
-"Cannot unlock the session because the authentication system failed to work;\n"
-"you must kill kscreenlocker (pid %1) manually."
-msgstr ""
-"Nun puede desbloquiase la sesión porque'l sistema d'autenticación nun "
-"funciona;\n"
-"Tien de matar kscreenlocker (pid %1) a mano."
-
-#: lock/lockdlg.cc:521
-msgid "&Start New Session"
-msgstr "&Aniciar nueva sesión"
-
-#: lock/lockdlg.cc:529
-#, kde-format
-msgid ""
-"You have chosen to open another desktop session instead of resuming the "
-"current one.\n"
-"The current session will be hidden and a new login screen will be "
-"displayed.\n"
-"An F-key is assigned to each session; F%1 is usually assigned to the first "
-"session, F%2 to the second session and so on. You can switch between "
-"sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. "
-"Additionally, the KDE Panel and Desktop menus have actions for switching "
-"between sessions."
-msgstr ""
-"Decidió abrir otra sesión d'escritoriu n'arróu de reanudar l'actual.\n"
-"La sesión actual anubriráse y amosaráse una nueva pantalla d'aniciu de "
-"sesión.\n"
-"Asígnase una tecla de función a cada sesión; davezu asígnase F%1 a la primer "
-"sesión, F%2 a la segunda, y asina socesivamente. Puede alternar ente "
-"sesiones calcando simultáneamente Ctrl, Alt y la tecla F afayaíza. "
-"Adicionalmente, el panel de KDE y los menús d'escritoriu disponen "
-"d'aicciones pa pasar d'una sesión a otra."
-
-#: lock/lockdlg.cc:542
-msgid "&Do not ask again"
-msgstr "&Nun entrugar más"
-
-#: lock/lockdlg.cc:598
-msgid "Session"
-msgstr "Sesión"
-
-#: lock/lockdlg.cc:598
-msgid "Location"
-msgstr "Llocalización"
-
-#: lock/lockdlg.cc:626
-msgctxt "session"
-msgid "&Activate"
-msgstr "&Activar"
-
-#: lock/lockdlg.cc:635
-msgid "Start &New Session"
-msgstr "Aniciar una &nueva sesión"
-
-#: ksystemactivitydialog.cpp:39
-msgid "System Activity"
-msgstr "Actividá del sistema"
-
 #: krunnerdialog.cpp:67 krunnerapp.cpp:124
 msgid "Run Command"
 msgstr "Executar Comandu"
@@ -262,6 +258,56 @@ msgstr "Aaron J. Seigo"
 msgid "Author and maintainer"
 msgstr "Autor y caltenimientu"
 
+#: krunnerapp.cpp:129
+msgid "Run Command on clipboard contents"
+msgstr "Executar orde nel conteníu del cartafueyu"
+
+#: krunnerapp.cpp:135
+msgid "Show System Activity"
+msgstr "Amosar l'actividá del sistema"
+
+#: krunnerapp.cpp:148
+msgid "Switch User"
+msgstr "Camudar d'usuariu"
+
+#: krunnerapp.cpp:158
+msgid "Lock Session"
+msgstr "Bloquiar sesión"
+
+#: krunnerapp.cpp:166
+msgid "Log Out"
+msgstr "Desconeutase"
+
+#: krunnerapp.cpp:171
+msgid "Log Out Without Confirmation"
+msgstr "Zarrar ensin confirmación"
+
+#: krunnerapp.cpp:176
+msgid "Halt Without Confirmation"
+msgstr "Apagar ensin confirmación"
+
+#: krunnerapp.cpp:181
+msgid "Reboot Without Confirmation"
+msgstr "Reaniciar ensin confirmación"
+
+#: krunnerapp.cpp:219
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr "Run Command (runner \"%1\" only)"
+
+#: krunnerapp.cpp:397
+msgid ""
+"Could not log out properly.\n"
+"The session manager cannot be contacted. You can try to force a shutdown by "
+"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
+"not be saved with a forced shutdown."
+msgstr ""
+"Nun pudo zarrase la sesión correutamente.\n"
+"Nun pudo contautase col xestor de sesiones. Puede intentar forciar un apagáu "
+"calcando Ctrl+Alt+Retrocesu, pero decátese de que, con un apagáu forzosu, "
+"nun s'atroxará la so sesión."
+
 #: configdialog.cpp:50
 msgid "Plugins"
 msgstr "Complementos"
@@ -273,6 +319,10 @@ msgstr "Interface d'usuariu"
 #: configdialog.cpp:80
 msgid "Available Features"
 msgstr "Funcionalidaes disponibles"
+
+#: ksystemactivitydialog.cpp:39
+msgid "System Activity"
+msgstr "Actividá del sistema"
 
 #. i18n: file: interfaceOptions.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -403,56 +453,6 @@ msgstr ""
 "Davezu, el curiapantalles suspéndese cuando apaez el DPMS,\n"
 "       y nun puede vese un res na pantalla. Sicasí, dalgunos curiapantalles\n"
 "       faen cálculos útiles polo que nun ye deseyable suspendelos."
-
-#: krunnerapp.cpp:129
-msgid "Run Command on clipboard contents"
-msgstr "Executar orde nel conteníu del cartafueyu"
-
-#: krunnerapp.cpp:135
-msgid "Show System Activity"
-msgstr "Amosar l'actividá del sistema"
-
-#: krunnerapp.cpp:148
-msgid "Switch User"
-msgstr "Camudar d'usuariu"
-
-#: krunnerapp.cpp:158
-msgid "Lock Session"
-msgstr "Bloquiar sesión"
-
-#: krunnerapp.cpp:166
-msgid "Log Out"
-msgstr "Desconeutase"
-
-#: krunnerapp.cpp:171
-msgid "Log Out Without Confirmation"
-msgstr "Zarrar ensin confirmación"
-
-#: krunnerapp.cpp:176
-msgid "Halt Without Confirmation"
-msgstr "Apagar ensin confirmación"
-
-#: krunnerapp.cpp:181
-msgid "Reboot Without Confirmation"
-msgstr "Reaniciar ensin confirmación"
-
-#: krunnerapp.cpp:219
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr "Run Command (runner \"%1\" only)"
-
-#: krunnerapp.cpp:397
-msgid ""
-"Could not log out properly.\n"
-"The session manager cannot be contacted. You can try to force a shutdown by "
-"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
-"not be saved with a forced shutdown."
-msgstr ""
-"Nun pudo zarrase la sesión correutamente.\n"
-"Nun pudo contautase col xestor de sesiones. Puede intentar forciar un apagáu "
-"calcando Ctrl+Alt+Retrocesu, pero decátese de que, con un apagáu forzosu, "
-"nun s'atroxará la so sesión."
 
 #~ msgid "KRunner Settings"
 #~ msgstr "Preferencies de KRunner"

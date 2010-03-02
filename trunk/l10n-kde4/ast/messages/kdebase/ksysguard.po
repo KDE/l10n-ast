@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-16 05:59+0100\n"
+"POT-Creation-Date: 2010-03-02 04:18+0100\n"
 "PO-Revision-Date: 2009-08-26 09:22+0000\n"
 "Last-Translator: Xandru Martino <Unknown>\n"
 "Language-Team: Spanish <kde-i18n-doc@kde.org>\n"
@@ -19,82 +19,517 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "First-Translator: Boris Wesslowski <Boris@Wesslowski.com>\n"
 
-#: WorkSheet.cc:88
-#, kde-format
-msgid "Cannot open the file %1."
-msgstr "Nun se puede abrir el ficheru %1."
+#: SensorDisplayLib/FancyPlotter.cc:178
+msgctxt "Largest axis title"
+msgid "99999 XXXX"
+msgstr "99999 XXXX"
 
-#: WorkSheet.cc:96
-#, kde-format
-msgid "The file %1 does not contain valid XML."
-msgstr "El ficheru %1 nun caltién un XML válidu."
+#: SensorDisplayLib/FancyPlotter.cc:281 SensorDisplayLib/DancingBars.cc:96
+msgid "OK"
+msgstr "Aceutar"
 
-#: WorkSheet.cc:103
+#: SensorDisplayLib/FancyPlotter.cc:281 SensorDisplayLib/FancyPlotter.cc:515
+#: SensorDisplayLib/FancyPlotter.cc:585 SensorDisplayLib/DancingBars.cc:96
+msgid "Error"
+msgstr "Fallu"
+
+#: SensorDisplayLib/FancyPlotter.cc:511 SensorDisplayLib/FancyPlotter.cc:574
+#: SensorDisplayLib/FancyPlotter.cc:637
 #, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
+msgctxt "units"
+msgid "%1%"
 msgstr ""
-"El ficheru %1 nun caltién una definición válida de fueya de trabayu, que "
-"tien de caltener un triba de documentu 'KSysGuardWorkSheet'."
 
-#: WorkSheet.cc:127
+#: SensorDisplayLib/FancyPlotter.cc:518
 #, kde-format
-msgid "The file %1 has an invalid worksheet size."
-msgstr "El ficheru %1 tien un tamañu non válidu de fueya de trabayu."
+msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
+msgid "<p><b>%1:</b><br>"
+msgstr "<p><b>%1:</b><br>"
 
-#: WorkSheet.cc:228
+#: SensorDisplayLib/FancyPlotter.cc:582
+#, fuzzy, kde-format
+msgid "%1 of %2%1"
+msgstr "%1 de %2"
+
+#: SensorDisplayLib/FancyPlotter.cc:610
 #, kde-format
-msgid "Cannot save file %1"
-msgstr "Nun se puede guardar el ficheru %1"
+msgctxt "units"
+msgid "%1 TiB"
+msgstr ""
 
-#: WorkSheet.cc:274
-msgid "The clipboard does not contain a valid display description."
-msgstr "El portapapeles nun caltién una descripción válida de pantalla."
+#: SensorDisplayLib/FancyPlotter.cc:613
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB"
+msgstr ""
 
-#: WorkSheet.cc:372
-msgid "Select Display Type"
-msgstr "Escueyi un triba de pantalla"
+#: SensorDisplayLib/FancyPlotter.cc:616
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB"
+msgstr ""
 
-#: WorkSheet.cc:373
-msgid "&Line graph"
-msgstr "Gráfica de &llinies"
+#: SensorDisplayLib/FancyPlotter.cc:619
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB"
+msgstr ""
 
-#: WorkSheet.cc:374
-msgid "&Digital display"
-msgstr "Visor &dixital"
+#: SensorDisplayLib/FancyPlotter.cc:624
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB/s"
+msgstr ""
 
-#: WorkSheet.cc:375
-msgid "&Bar graph"
-msgstr "Gráfica de &barres"
+#: SensorDisplayLib/FancyPlotter.cc:627
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB/s"
+msgstr ""
 
-#: WorkSheet.cc:376
-msgid "Log to a &file"
-msgstr "Rexistrar nun &ficheru"
+#: SensorDisplayLib/FancyPlotter.cc:630
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB/s"
+msgstr ""
 
-#: WorkSheet.cc:525
+#: SensorDisplayLib/FancyPlotter.cc:633
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cc:639
+#, fuzzy, kde-format
+msgctxt "unitless - just a number"
+msgid "%1"
+msgstr "%"
+
+#: SensorDisplayLib/LogFile.cc:92
+msgid "File logging settings"
+msgstr "Preferencies del rexistru en ficheru"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/LogFile.cc:98 rc.cpp:125
+msgid "Foreground color:"
+msgstr "Color del testu:"
+
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:228
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:77
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:64
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:74
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: SensorDisplayLib/LogFile.cc:100 SensorDisplayLib/DancingBarsSettings.cc:176
+#: rc.cpp:86 rc.cpp:101 rc.cpp:113 rc.cpp:128
+msgid "Background color:"
+msgstr "Color del fondu:"
+
+#: SensorDisplayLib/SensorModel.cc:166
+msgid "Host"
+msgstr "Anfitrión"
+
+#: SensorDisplayLib/SensorModel.cc:169
+msgid "Sensor"
+msgstr "Sensor"
+
+#: SensorDisplayLib/SensorModel.cc:172
+msgid "Unit"
+msgstr "Unidá"
+
+#: SensorDisplayLib/SensorModel.cc:175
+msgid "Status"
+msgstr "Estáu"
+
+#: SensorDisplayLib/SensorModel.cc:178
+msgid "Label"
+msgstr "Etiqueta"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:51
 #, fuzzy
-msgid "Remove this display?"
+msgid "Plotter Settings"
+msgstr "Preferencies de la gráfica de señales"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:65
+msgid "General"
+msgstr "Xeneral"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:70
+msgid "Title:"
+msgstr "Títulu:"
+
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:35
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, m_title)
+#: SensorDisplayLib/FancyPlotterSettings.cc:74
+#: SensorDisplayLib/DancingBarsSettings.cc:63 rc.cpp:53
+msgid "Enter the title of the display here."
+msgstr "Pon el títulu de la pantalla equí."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:86
+msgid "Scales"
+msgstr "Escales"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:91
+#, fuzzy
+msgid "Vertical scale"
+msgstr "Escala vertical"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:97
+msgid "Specify graph range:"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:98
+msgid ""
+"Check this box if you want the display range to adapt dynamically to the "
+"currently displayed values; if you do not check this, you have to specify "
+"the range you want in the fields below."
+msgstr ""
+"Marca esta caxella si quies que l'intervalu s'adapte dinámicamente a los "
+"valores amosaos anguaño. Si nun lu marques, tendrás d'especificar "
+"l'intervalu que quies nos campos de más abaxo."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:102
+#: SensorDisplayLib/DancingBarsSettings.cc:73
+msgid "Minimum value:"
+msgstr "Valor mínimu:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:108
+#, fuzzy
+msgid "Enter the minimum value for the display here."
+msgstr "Pon el títulu de la pantalla equí."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:113
+#: SensorDisplayLib/DancingBarsSettings.cc:85
+msgid "Maximum value:"
+msgstr "Valor máximu:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:119
+msgid ""
+"Enter the soft maximum value for the display here. The upper range will not "
+"be reduced below this value, but will still go above this number for values "
+"above this value."
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:126
+#, fuzzy
+msgid "Horizontal scale"
+msgstr "Escala horizontal"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:133
+#, fuzzy
+msgid "Pixels per time period:"
+msgstr "píxeles por periodu de tiempu"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:140
+msgid "Grid"
+msgstr "Rexáu"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:145
+msgid "Lines"
+msgstr "Llinies"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:151
+msgid "Vertical lines"
+msgstr "Llinies verticales"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:152
+msgid "Check this to activate the vertical lines if display is large enough."
+msgstr ""
+"Escueyi esta opción p'activar les llínies verticales si la pantalla es "
+"abondo grande."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:155
+msgid "Distance:"
+msgstr "Distancia:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:161
+msgid "Enter the distance between two vertical lines here."
+msgstr "Pon equí la distancia ente dos llínies verticales."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:165
+msgid "Vertical lines scroll"
+msgstr "Desplazamientu de llinies verticales"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:168
+msgid "Horizontal lines"
+msgstr "Llinies horizontales"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:169
+msgid "Check this to enable horizontal lines if display is large enough."
+msgstr ""
+"Marque esta opción pa habilitar llínies horizontales si la pantalla es "
+"suficientemente grande."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:174
+msgid "Text"
+msgstr "Testu"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:180
+msgid "Show axis labels"
+msgstr "Amosar etiquetas de les exes"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:181
+msgid ""
+"Check this box if horizontal lines should be decorated with the values they "
+"mark."
+msgstr ""
+"Marca esta caxella si les llinies horizontales deberíen tar decoraes colos "
+"valores que marquen."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:184
+#: SensorDisplayLib/DancingBarsSettings.cc:183
+msgid "Font size:"
+msgstr "Tamañu de la fonte:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:199
+#: SensorDisplayLib/DancingBarsSettings.cc:195
+msgid "Sensors"
+msgstr "Sensores"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:224
+msgid "Set Color..."
+msgstr "Fixar color..."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:225
+msgid "Push this button to configure the color of the sensor in the diagram."
+msgstr "Calca esti botón pa configurar el color del sensor nel diagrama."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:232
+#: SensorDisplayLib/DancingBarsSettings.cc:212
+msgid "Delete"
+msgstr "Desaniciar"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:233
+#: SensorDisplayLib/DancingBarsSettings.cc:213
+msgid "Push this button to delete the sensor."
+msgstr "Calca esti botón pa desaniciar el sensor."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:237
+msgid "Move Up"
+msgstr "Xubir"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:242
+msgid "Move Down"
+msgstr "Baxar"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:43
+msgid "Edit BarGraph Preferences"
+msgstr "Editar preferencies de la barra gráfica"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:53
+msgid "Range"
+msgstr "Rangu"
+
+#. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
+#. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
+#: SensorDisplayLib/DancingBarsSettings.cc:58 WorkSheetSettings.cc:51
+#: rc.cpp:89 rc.cpp:104
+msgid "Title"
+msgstr "Títulu"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:68
+msgid "Display Range"
+msgstr "Amosar rangu"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:81
+msgid ""
+"Enter the minimum value for the display here. If both values are 0, "
+"automatic range detection is enabled."
+msgstr ""
+"Pon equí'l valor mínimu pa la pantalla. Si los dos valores son 0 actívase la "
+"deteición automática del intervalu."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:93
+msgid ""
+"Enter the maximum value for the display here. If both values are 0, "
+"automatic range detection is enabled."
+msgstr ""
+"Pon el valor máximu pa la pantalla equí. Si los dos valores son 0 actívase "
+"la deteición automática del intervalu."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:103
+msgid "Alarms"
+msgstr "Alarmes"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:59
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: SensorDisplayLib/DancingBarsSettings.cc:108 rc.cpp:26
+msgid "Alarm for Minimum Value"
+msgstr "Alarma por valor mínimu"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:113
+#: SensorDisplayLib/DancingBarsSettings.cc:136
+msgid "Enable alarm"
+msgstr "Activar alarma"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:71
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:56
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
+#: SensorDisplayLib/DancingBarsSettings.cc:114 rc.cpp:32 rc.cpp:62
+msgid "Enable the minimum value alarm."
+msgstr "Activar l'alarma de valor mínimu."
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:97
+#. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
+#: SensorDisplayLib/DancingBarsSettings.cc:117 rc.cpp:35
+msgid "Lower limit:"
+msgstr "Llende inferior:"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:123
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
+#: SensorDisplayLib/DancingBarsSettings.cc:131 rc.cpp:38
+msgid "Alarm for Maximum Value"
+msgstr "Alarma por valor máximu"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:135
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:115
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
+#: SensorDisplayLib/DancingBarsSettings.cc:137 rc.cpp:44 rc.cpp:71
+msgid "Enable the maximum value alarm."
+msgstr "Activar l'alarma de valor máximu."
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:161
+#. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
+#: SensorDisplayLib/DancingBarsSettings.cc:140 rc.cpp:47
+msgid "Upper limit:"
+msgstr "Llende superior:"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:157
+msgctxt "@title:tab Appearance of the bar graph"
+msgid "Look"
+msgstr "Aspeutu"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:162
+msgid "Normal bar color:"
+msgstr "Color de barra normal:"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:169
+msgid "Out-of-range color:"
+msgstr "Color fuera de rangu:"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:187
+msgid ""
+"This determines the size of the font used to print a label underneath the "
+"bars. Bars are automatically suppressed if text becomes too large, so it is "
+"advisable to use a small font size here."
+msgstr ""
+"Determina'l tamañu de la fonte usada pa imprentar una etiqueta baxo les "
+"barres. Les barres suprímense automáticamente si'l testu se fai mui grande, "
+"de manera que s'aconseya usar una lletra pequeña equí."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:208
+msgid "Edit..."
+msgstr "Editar..."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:209
+msgid "Push this button to configure the label."
+msgstr "Calca esti botón pa configurar la etiqueta."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:367
+msgid "Label of Bar Graph"
+msgstr "Etiqueta del gráficu de barres"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:368
+msgid "Enter new label:"
+msgstr "Poner etiqueta nueva:"
+
+#: SensorDisplayLib/SensorDisplay.cc:118 SensorDisplayLib/SensorLogger.cc:598
+msgid "&Properties"
+msgstr "&Propiedaes"
+
+#: SensorDisplayLib/SensorDisplay.cc:123 SensorDisplayLib/SensorLogger.cc:603
+msgid "&Remove Display"
 msgstr "&Desaniciar pantalla"
 
-#: WorkSheet.cc:526
-#, fuzzy
-msgid "Remove Display"
-msgstr "&Desaniciar pantalla"
-
-#: WorkSheet.cc:567
-msgid "Dummy"
-msgstr ""
-
-#: ksgrd/SensorAgent.cc:109
+#: SensorDisplayLib/SensorDisplay.cc:193
 #, kde-format
-msgctxt "%1 is a host name"
 msgid ""
-"Message from %1:\n"
-"%2"
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
 msgstr ""
-"Mensax de %1:\n"
-"%2"
+"<qt><p>Esto ye'l visor d'un sensor. Pa personalizar el sensor d'un sensor "
+"calca equí'l botón drechu del mur y escueyi la entrada <i>Propiedaes</i> del "
+"menú emerxente. Escueyi <i>Desaniciar</i> pa desaniciar el visor de la fueya "
+"de trabayu.</p>%1</qt>"
+
+#: SensorDisplayLib/SensorLoggerDlg.cc:32 SensorDisplayLib/SensorLogger.cc:431
+msgid "Sensor Logger"
+msgstr "Rexistrador de sensores"
+
+#: SensorDisplayLib/MultiMeterSettings.cc:31
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgid "Multimeter Settings"
+msgstr "Preferencies del multímetru"
+
+#: SensorDisplayLib/SensorLogger.cc:138
+msgid "Logging"
+msgstr "Rexistru"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
+#: SensorDisplayLib/SensorLogger.cc:141 rc.cpp:20
+msgid "Timer Interval"
+msgstr "Intervalu del temporizador"
+
+#: SensorDisplayLib/SensorLogger.cc:144
+msgid "Sensor Name"
+msgstr "Nome del sensor"
+
+#: SensorDisplayLib/SensorLogger.cc:147
+msgid "Host Name"
+msgstr "Nome de máquina"
+
+#: SensorDisplayLib/SensorLogger.cc:150
+msgid "Log File"
+msgstr "Ficheru de rexistru"
+
+#: SensorDisplayLib/SensorLogger.cc:608
+msgid "&Remove Sensor"
+msgstr "Desanicia&r el sensor"
+
+#: SensorDisplayLib/SensorLogger.cc:613
+msgid "&Edit Sensor..."
+msgstr "&Editar el sensor..."
+
+#: SensorDisplayLib/SensorLogger.cc:621
+msgid "St&op Logging"
+msgstr "Parar el rexistr&u"
+
+#: SensorDisplayLib/SensorLogger.cc:624
+msgid "S&tart Logging"
+msgstr "Entamar el rexis&tru"
+
+#: SensorDisplayLib/DummyDisplay.cc:30 SensorDisplayLib/DummyDisplay.cc:38
+msgid "Drop Sensor Here"
+msgstr "Soltar el sensor equí"
+
+#: SensorDisplayLib/DummyDisplay.cc:32
+msgid ""
+"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
+"and drop it here. A sensor display will appear that allows you to monitor "
+"the values of the sensor over time."
+msgstr ""
+"Ésti ye un espaciu en blancu nuna fueya de trabayu. Arrastra un sensor del "
+"restolador de sensores y suéltalu equí. Apaecerá una ventana de sensor que "
+"permita monitorizar los valores del sensor a lo llargo del tiempu."
+
+#: SensorDisplayLib/ListViewSettings.cc:30
+msgid "List View Settings"
+msgstr "Preferencies de la vista de llistes"
+
+#: SensorDisplayLib/SensorLoggerSettings.cc:30
+msgid "Sensor Logger Settings"
+msgstr "Preferencies del rexistru de sensores"
 
 #: ksgrd/SensorShellAgent.cc:126
 #, kde-format
@@ -105,6 +540,30 @@ msgstr "Nun puede executase'l degorriu '%1'."
 #, kde-format
 msgid "The daemon program '%1' failed."
 msgstr "El degorriu '%1' falló."
+
+#: ksgrd/SensorSocketAgent.cc:103
+#, kde-format
+msgid "Connection to %1 refused"
+msgstr "Conexón a %1 refugada"
+
+#: ksgrd/SensorSocketAgent.cc:107
+#, kde-format
+msgid "Host %1 not found"
+msgstr "Máquina %1 non atopada"
+
+#: ksgrd/SensorSocketAgent.cc:111
+#, kde-format
+msgid ""
+"An error occurred with the network (e.g. the network cable was accidentally "
+"unplugged) for host %1."
+msgstr ""
+"Hebo un fallu cola rede (por exemplu, el cable de rede desconeutóse "
+"accidentalmente) de la máquina %1."
+
+#: ksgrd/SensorSocketAgent.cc:115
+#, kde-format
+msgid "Error for host %1: %2"
+msgstr "Fallu de la máquina %1: %2"
 
 #: ksgrd/SensorManager.cc:60
 msgid "Change"
@@ -574,29 +1033,66 @@ msgstr "Valor enteru"
 msgid "Floating Point Value"
 msgstr "Valor coma flotante"
 
-#: ksgrd/SensorSocketAgent.cc:103
+#: ksgrd/SensorAgent.cc:109
 #, kde-format
-msgid "Connection to %1 refused"
-msgstr "Conexón a %1 refugada"
+msgctxt "%1 is a host name"
+msgid ""
+"Message from %1:\n"
+"%2"
+msgstr ""
+"Mensax de %1:\n"
+"%2"
 
-#: ksgrd/SensorSocketAgent.cc:107
+#: Workspace.cc:112
 #, kde-format
-msgid "Host %1 not found"
-msgstr "Máquina %1 non atopada"
+msgid "Sheet %1"
+msgstr "Fueya %1"
 
-#: ksgrd/SensorSocketAgent.cc:111
+#: Workspace.cc:171
 #, kde-format
 msgid ""
-"An error occurred with the network (e.g. the network cable was accidentally "
-"unplugged) for host %1."
+"The tab '%1' contains unsaved data.\n"
+"Do you want to save the tab?"
 msgstr ""
-"Hebo un fallu cola rede (por exemplu, el cable de rede desconeutóse "
-"accidentalmente) de la máquina %1."
+"La fueya de trabayu '%1' caltién datos non guardaos.\n"
+"¿Quies guardar la fueya de trabayu?"
 
-#: ksgrd/SensorSocketAgent.cc:115
+#: Workspace.cc:186
+msgid "*.sgrd|Sensor Files (*.sgrd)"
+msgstr "*.sgrd|Ficheros de sensor (*.sgrd)"
+
+#: Workspace.cc:186
+msgid "Select Tab File to Import"
+msgstr "Escoyer ficheru de fueya de trabayu pa importar"
+
+#: Workspace.cc:214 Workspace.cc:235
+msgid "You do not have a tab that could be saved."
+msgstr "Nun tienes una fueya de trabayu que se pueda guardar."
+
+#: Workspace.cc:242
+msgid "Export Tab"
+msgstr "Esportar fueya de trabayu"
+
+#: Workspace.cc:260
+msgid "There are no tabs that could be deleted."
+msgstr "Nun hai fueyes de trabayu que desaniciar."
+
+#: Workspace.cc:300
 #, kde-format
-msgid "Error for host %1: %2"
-msgstr "Fallu de la máquina %1: %2"
+msgid ""
+"<qt>To propose the current custom tab as a new System Monitor tab, email "
+"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
+"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
+"qt>"
+msgstr ""
+"<qt>Pa proponer la pestaña actual personalizada como nueva pestaña de "
+"monitorización del sistema unvía<br><a href=\"file:%1\">%2</a><br> a <a href="
+"\"mailto:john.tapsell@kde.org?subject='System Monitor Tab'&attach='file://%"
+"2'\">john.tapsell@kde.org</a></qt>"
+
+#: Workspace.cc:300
+msgid "Upload custom System Monitor tab"
+msgstr "Unviar pestaña personalizada de monitorización del sistema"
 
 #: TimerSettings.cc:38
 msgid "Timer Settings"
@@ -612,13 +1108,269 @@ msgstr "Intervalu d'anovamientu:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
 #. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: TimerSettings.cc:59 rc.cpp:23 WorkSheetSettings.cc:95
+#: TimerSettings.cc:59 WorkSheetSettings.cc:95 rc.cpp:23
 msgid " sec"
 msgstr " seg"
 
 #: TimerSettings.cc:62 WorkSheetSettings.cc:101
 msgid "All displays of the sheet are updated at the rate specified here."
 msgstr "Toles pantalles de la fueya anóvense al ritmu especificáu equí."
+
+#: WorkSheet.cc:88
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "Nun se puede abrir el ficheru %1."
+
+#: WorkSheet.cc:96
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "El ficheru %1 nun caltién un XML válidu."
+
+#: WorkSheet.cc:103
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"El ficheru %1 nun caltién una definición válida de fueya de trabayu, que "
+"tien de caltener un triba de documentu 'KSysGuardWorkSheet'."
+
+#: WorkSheet.cc:127
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr "El ficheru %1 tien un tamañu non válidu de fueya de trabayu."
+
+#: WorkSheet.cc:228
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "Nun se puede guardar el ficheru %1"
+
+#: WorkSheet.cc:274
+msgid "The clipboard does not contain a valid display description."
+msgstr "El portapapeles nun caltién una descripción válida de pantalla."
+
+#: WorkSheet.cc:372
+msgid "Select Display Type"
+msgstr "Escueyi un triba de pantalla"
+
+#: WorkSheet.cc:373
+msgid "&Line graph"
+msgstr "Gráfica de &llinies"
+
+#: WorkSheet.cc:374
+msgid "&Digital display"
+msgstr "Visor &dixital"
+
+#: WorkSheet.cc:375
+msgid "&Bar graph"
+msgstr "Gráfica de &barres"
+
+#: WorkSheet.cc:376
+msgid "Log to a &file"
+msgstr "Rexistrar nun &ficheru"
+
+#: WorkSheet.cc:525
+#, fuzzy
+msgid "Remove this display?"
+msgstr "&Desaniciar pantalla"
+
+#: WorkSheet.cc:526
+#, fuzzy
+msgid "Remove Display"
+msgstr "&Desaniciar pantalla"
+
+#: WorkSheet.cc:567
+msgid "Dummy"
+msgstr ""
+
+#: WorkSheetSettings.cc:40
+msgid "Tab Properties"
+msgstr "Propiedaes de la fueya de trabayu"
+
+#: WorkSheetSettings.cc:62
+msgid "Properties"
+msgstr "Propiedaes"
+
+#: WorkSheetSettings.cc:71
+msgid "Rows:"
+msgstr "Fileres:"
+
+#: WorkSheetSettings.cc:80
+msgid "Columns:"
+msgstr "Columnes:"
+
+#: WorkSheetSettings.cc:88
+msgid "Enter the number of rows the sheet should have."
+msgstr "Pon el númberu de columnes que tendría de tener la fueya."
+
+#: WorkSheetSettings.cc:89
+msgid "Enter the number of columns the sheet should have."
+msgstr "Pon el númberu de columnes que tendría de tener la fueya."
+
+#: WorkSheetSettings.cc:102
+msgid "Enter the title of the worksheet here."
+msgstr "Pon el títulu de la fueya de trabayu equí."
+
+#: ksysguard.cc:74
+msgid "KDE System Monitor"
+msgstr "Monitor de sistema KDE"
+
+#: ksysguard.cc:154 ksysguard.cc:530
+msgid "System Monitor"
+msgstr "Monitor del sistema"
+
+#: ksysguard.cc:155
+msgid "&Refresh Tab"
+msgstr ""
+
+#: ksysguard.cc:156
+msgid "&New Tab..."
+msgstr "Nueva fueya de trabayu..."
+
+#: ksysguard.cc:157
+msgid "Import Tab Fr&om File..."
+msgstr "Importar fueya de trabayu de ficheru..."
+
+#: ksysguard.cc:158
+msgid "Save Tab &As..."
+msgstr "Gu&ardar fueya de trabayu como..."
+
+#: ksysguard.cc:159
+msgid "&Close Tab"
+msgstr "&Zarrar fueya de trabayu"
+
+#: ksysguard.cc:160
+msgid "Monitor &Remote Machine..."
+msgstr "Monitorizar una máquina &remota..."
+
+#: ksysguard.cc:161
+msgid "&Download New Tabs..."
+msgstr "&Baxar fueyes de trabayu nueves..."
+
+#: ksysguard.cc:162
+msgid "&Upload Current Tab..."
+msgstr "&Unviar pestaña actual..."
+
+#: ksysguard.cc:164
+msgid "Tab &Properties"
+msgstr "&Propiedaes"
+
+#: ksysguard.cc:359
+#, fuzzy, kde-format
+msgid "1 process1"
+msgid_plural "%1 processes%1"
+msgstr[0] " 1 procesu "
+msgstr[1] " %1 procesos "
+
+#: ksysguard.cc:443
+#, fuzzy, kde-format
+msgid "CPU: %1%%1%"
+msgstr " CPU: %1% "
+
+#: ksysguard.cc:458
+#, kde-format
+msgctxt "Arguments are formatted byte sizes (used/total)"
+msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
+msgstr ""
+
+#: ksysguard.cc:485
+msgid " No swap space available "
+msgstr " Nun hai espaciu d'intercambéu disponible "
+
+#: ksysguard.cc:487
+#, fuzzy, kde-format
+msgctxt "Arguments are formatted byte sizes (used/total)"
+msgid "Swap: %1 / %2Swap: %1%1"
+msgstr " Memoria d'intercambéu: %1 / %2 "
+
+#: ksysguard.cc:532
+msgid "(c) 1996-2008 The KDE System Monitor Developers"
+msgstr "(c) 1996-2008 The KDE System Monitor Developers"
+
+#: ksysguard.cc:533
+msgid "John Tapsell"
+msgstr "John Tapsell"
+
+#: ksysguard.cc:533
+msgid "Current Maintainer"
+msgstr "Mantenedor actual"
+
+#: ksysguard.cc:534
+msgid "Chris Schlaeger"
+msgstr "Chris Schlaeger"
+
+#: ksysguard.cc:534
+msgid "Previous Maintainer"
+msgstr "Encargáu anterior"
+
+#: ksysguard.cc:535
+msgid "Greg Martyn"
+msgstr "Greg Martyn"
+
+#: ksysguard.cc:536
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: ksysguard.cc:537
+msgid "Nicolas Leclercq"
+msgstr "Nicolas Leclercq"
+
+#: ksysguard.cc:538
+msgid "Alex Sanda"
+msgstr "Alex Sanda"
+
+#: ksysguard.cc:539
+msgid "Bernd Johannes Wuebben"
+msgstr "Bernd Johannes Wuebben"
+
+#: ksysguard.cc:540
+msgid "Ralf Mueller"
+msgstr "Ralf Mueller"
+
+#: ksysguard.cc:541
+msgid "Hamish Rodda"
+msgstr "Hamish Rodda"
+
+#: ksysguard.cc:542
+msgid "Torsten Kasch"
+msgstr "Torsten Kasch"
+
+#: ksysguard.cc:542
+msgid ""
+"Solaris Support\n"
+"Parts derived (by permission) from the sunos5\n"
+"module of William LeFebvre's \"top\" utility."
+msgstr ""
+"Sofitu de Solaris\n"
+"Les partes que deriven (con permisu) del módulu de la\n"
+"aplicación \"top\" de William LeFebvre de SunOS5."
+
+#: ksysguard.cc:551
+msgid "Optional worksheet files to load"
+msgstr "Ficheros de fueyes de trabayu opcionales pa cargar"
+
+#: SensorBrowser.cc:117
+msgid "Sensor Browser"
+msgstr "Restolador de sensor"
+
+#: SensorBrowser.cc:473
+msgid "Drag sensors to empty cells of a worksheet "
+msgstr "Arrastrar sensores a caxelles baleres nuna fueya de trabayu "
+
+#: SensorBrowser.cc:474
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they "
+"provide. Click and drag sensors into drop zones of a worksheet. A display "
+"will appear that visualizes the values provided by the sensor. Some sensor "
+"displays can display values of multiple sensors. Simply drag other sensors "
+"on to the display to add more sensors."
+msgstr ""
+"El restolador de sensores amuesa una llista de les máquinas conectaes y de "
+"los sensores que suministren. Calca y arrastra sensores nes estayes de "
+"descarga d'una fueya de trabayu. Apaecerá una pantalla visualizando los "
+"valores apurríos pol sensor. Dalgunes pantalles de sensor pueden amosar "
+"valores de múltiples sensores. A cencielles arrastra otros sensores fasta la "
+"pantalla p'amestar más."
 
 #: HostConnector.cc:44
 msgid "Connect Host"
@@ -707,569 +1459,6 @@ msgstr "Pon la orde qu'executa ksysguardd na máquina que quies monitorizar."
 #: HostConnector.cc:122
 msgid "e.g. ssh -l root remote.host.org ksysguardd"
 msgstr "p.e. ssh -l root maquina.remota.org ksysguardd"
-
-#: Workspace.cc:112
-#, kde-format
-msgid "Sheet %1"
-msgstr "Fueya %1"
-
-#: Workspace.cc:171
-#, kde-format
-msgid ""
-"The tab '%1' contains unsaved data.\n"
-"Do you want to save the tab?"
-msgstr ""
-"La fueya de trabayu '%1' caltién datos non guardaos.\n"
-"¿Quies guardar la fueya de trabayu?"
-
-#: Workspace.cc:186
-msgid "*.sgrd|Sensor Files (*.sgrd)"
-msgstr "*.sgrd|Ficheros de sensor (*.sgrd)"
-
-#: Workspace.cc:186
-msgid "Select Tab File to Import"
-msgstr "Escoyer ficheru de fueya de trabayu pa importar"
-
-#: Workspace.cc:214 Workspace.cc:235
-msgid "You do not have a tab that could be saved."
-msgstr "Nun tienes una fueya de trabayu que se pueda guardar."
-
-#: Workspace.cc:242
-msgid "Export Tab"
-msgstr "Esportar fueya de trabayu"
-
-#: Workspace.cc:260
-msgid "There are no tabs that could be deleted."
-msgstr "Nun hai fueyes de trabayu que desaniciar."
-
-#: Workspace.cc:300
-#, kde-format
-msgid ""
-"<qt>To propose the current custom tab as a new System Monitor tab, email "
-"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
-"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
-"qt>"
-msgstr ""
-"<qt>Pa proponer la pestaña actual personalizada como nueva pestaña de "
-"monitorización del sistema unvía<br><a href=\"file:%1\">%2</a><br> a <a href="
-"\"mailto:john.tapsell@kde.org?subject='System Monitor Tab'&attach='file://%"
-"2'\">john.tapsell@kde.org</a></qt>"
-
-#: Workspace.cc:300
-msgid "Upload custom System Monitor tab"
-msgstr "Unviar pestaña personalizada de monitorización del sistema"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:43
-msgid "Edit BarGraph Preferences"
-msgstr "Editar preferencies de la barra gráfica"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:53
-msgid "Range"
-msgstr "Rangu"
-
-#. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
-#. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
-#: SensorDisplayLib/DancingBarsSettings.cc:58 rc.cpp:89 rc.cpp:104
-#: WorkSheetSettings.cc:51
-msgid "Title"
-msgstr "Títulu"
-
-#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:35
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, m_title)
-#: SensorDisplayLib/DancingBarsSettings.cc:63
-#: SensorDisplayLib/FancyPlotterSettings.cc:74 rc.cpp:53
-msgid "Enter the title of the display here."
-msgstr "Pon el títulu de la pantalla equí."
-
-#: SensorDisplayLib/DancingBarsSettings.cc:68
-msgid "Display Range"
-msgstr "Amosar rangu"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:73
-#: SensorDisplayLib/FancyPlotterSettings.cc:102
-msgid "Minimum value:"
-msgstr "Valor mínimu:"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:81
-msgid ""
-"Enter the minimum value for the display here. If both values are 0, "
-"automatic range detection is enabled."
-msgstr ""
-"Pon equí'l valor mínimu pa la pantalla. Si los dos valores son 0 actívase la "
-"deteición automática del intervalu."
-
-#: SensorDisplayLib/DancingBarsSettings.cc:85
-#: SensorDisplayLib/FancyPlotterSettings.cc:113
-msgid "Maximum value:"
-msgstr "Valor máximu:"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:93
-msgid ""
-"Enter the maximum value for the display here. If both values are 0, "
-"automatic range detection is enabled."
-msgstr ""
-"Pon el valor máximu pa la pantalla equí. Si los dos valores son 0 actívase "
-"la deteición automática del intervalu."
-
-#: SensorDisplayLib/DancingBarsSettings.cc:103
-msgid "Alarms"
-msgstr "Alarmes"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:59
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: SensorDisplayLib/DancingBarsSettings.cc:108 rc.cpp:26
-msgid "Alarm for Minimum Value"
-msgstr "Alarma por valor mínimu"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:113
-#: SensorDisplayLib/DancingBarsSettings.cc:136
-msgid "Enable alarm"
-msgstr "Activar alarma"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:71
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
-#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:56
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cc:114 rc.cpp:32 rc.cpp:62
-msgid "Enable the minimum value alarm."
-msgstr "Activar l'alarma de valor mínimu."
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:97
-#. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: SensorDisplayLib/DancingBarsSettings.cc:117 rc.cpp:35
-msgid "Lower limit:"
-msgstr "Llende inferior:"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:123
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
-#: SensorDisplayLib/DancingBarsSettings.cc:131 rc.cpp:38
-msgid "Alarm for Maximum Value"
-msgstr "Alarma por valor máximu"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:135
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
-#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:115
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cc:137 rc.cpp:44 rc.cpp:71
-msgid "Enable the maximum value alarm."
-msgstr "Activar l'alarma de valor máximu."
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:161
-#. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: SensorDisplayLib/DancingBarsSettings.cc:140 rc.cpp:47
-msgid "Upper limit:"
-msgstr "Llende superior:"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:157
-msgctxt "@title:tab Appearance of the bar graph"
-msgid "Look"
-msgstr "Aspeutu"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:162
-msgid "Normal bar color:"
-msgstr "Color de barra normal:"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:169
-msgid "Out-of-range color:"
-msgstr "Color fuera de rangu:"
-
-#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:228
-#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
-#. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:77
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:64
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:74
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: SensorDisplayLib/DancingBarsSettings.cc:176 SensorDisplayLib/LogFile.cc:100
-#: rc.cpp:86 rc.cpp:101 rc.cpp:113 rc.cpp:128
-msgid "Background color:"
-msgstr "Color del fondu:"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:183
-#: SensorDisplayLib/FancyPlotterSettings.cc:184
-msgid "Font size:"
-msgstr "Tamañu de la fonte:"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:187
-msgid ""
-"This determines the size of the font used to print a label underneath the "
-"bars. Bars are automatically suppressed if text becomes too large, so it is "
-"advisable to use a small font size here."
-msgstr ""
-"Determina'l tamañu de la fonte usada pa imprentar una etiqueta baxo les "
-"barres. Les barres suprímense automáticamente si'l testu se fai mui grande, "
-"de manera que s'aconseya usar una lletra pequeña equí."
-
-#: SensorDisplayLib/DancingBarsSettings.cc:195
-#: SensorDisplayLib/FancyPlotterSettings.cc:199
-msgid "Sensors"
-msgstr "Sensores"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:208
-msgid "Edit..."
-msgstr "Editar..."
-
-#: SensorDisplayLib/DancingBarsSettings.cc:209
-msgid "Push this button to configure the label."
-msgstr "Calca esti botón pa configurar la etiqueta."
-
-#: SensorDisplayLib/DancingBarsSettings.cc:212
-#: SensorDisplayLib/FancyPlotterSettings.cc:232
-msgid "Delete"
-msgstr "Desaniciar"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:213
-#: SensorDisplayLib/FancyPlotterSettings.cc:233
-msgid "Push this button to delete the sensor."
-msgstr "Calca esti botón pa desaniciar el sensor."
-
-#: SensorDisplayLib/DancingBarsSettings.cc:367
-msgid "Label of Bar Graph"
-msgstr "Etiqueta del gráficu de barres"
-
-#: SensorDisplayLib/DancingBarsSettings.cc:368
-msgid "Enter new label:"
-msgstr "Poner etiqueta nueva:"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:51
-#, fuzzy
-msgid "Plotter Settings"
-msgstr "Preferencies de la gráfica de señales"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:65
-msgid "General"
-msgstr "Xeneral"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:70
-msgid "Title:"
-msgstr "Títulu:"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:86
-msgid "Scales"
-msgstr "Escales"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:91
-#, fuzzy
-msgid "Vertical scale"
-msgstr "Escala vertical"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:97
-msgid "Specify graph range:"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:98
-msgid ""
-"Check this box if you want the display range to adapt dynamically to the "
-"currently displayed values; if you do not check this, you have to specify "
-"the range you want in the fields below."
-msgstr ""
-"Marca esta caxella si quies que l'intervalu s'adapte dinámicamente a los "
-"valores amosaos anguaño. Si nun lu marques, tendrás d'especificar "
-"l'intervalu que quies nos campos de más abaxo."
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:108
-#, fuzzy
-msgid "Enter the minimum value for the display here."
-msgstr "Pon el títulu de la pantalla equí."
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:119
-msgid ""
-"Enter the soft maximum value for the display here. The upper range will not "
-"be reduced below this value, but will still go above this number for values "
-"above this value."
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:126
-#, fuzzy
-msgid "Horizontal scale"
-msgstr "Escala horizontal"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:133
-#, fuzzy
-msgid "Pixels per time period:"
-msgstr "píxeles por periodu de tiempu"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:140
-msgid "Grid"
-msgstr "Rexáu"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:145
-msgid "Lines"
-msgstr "Llinies"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:151
-msgid "Vertical lines"
-msgstr "Llinies verticales"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:152
-msgid "Check this to activate the vertical lines if display is large enough."
-msgstr ""
-"Escueyi esta opción p'activar les llínies verticales si la pantalla es "
-"abondo grande."
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:155
-msgid "Distance:"
-msgstr "Distancia:"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:161
-msgid "Enter the distance between two vertical lines here."
-msgstr "Pon equí la distancia ente dos llínies verticales."
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:165
-msgid "Vertical lines scroll"
-msgstr "Desplazamientu de llinies verticales"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:168
-msgid "Horizontal lines"
-msgstr "Llinies horizontales"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:169
-msgid "Check this to enable horizontal lines if display is large enough."
-msgstr ""
-"Marque esta opción pa habilitar llínies horizontales si la pantalla es "
-"suficientemente grande."
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:174
-msgid "Text"
-msgstr "Testu"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:180
-msgid "Show axis labels"
-msgstr "Amosar etiquetas de les exes"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:181
-msgid ""
-"Check this box if horizontal lines should be decorated with the values they "
-"mark."
-msgstr ""
-"Marca esta caxella si les llinies horizontales deberíen tar decoraes colos "
-"valores que marquen."
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:224
-msgid "Set Color..."
-msgstr "Fixar color..."
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:225
-msgid "Push this button to configure the color of the sensor in the diagram."
-msgstr "Calca esti botón pa configurar el color del sensor nel diagrama."
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:237
-msgid "Move Up"
-msgstr "Xubir"
-
-#: SensorDisplayLib/FancyPlotterSettings.cc:242
-msgid "Move Down"
-msgstr "Baxar"
-
-#: SensorDisplayLib/SensorLoggerDlg.cc:32 SensorDisplayLib/SensorLogger.cc:431
-msgid "Sensor Logger"
-msgstr "Rexistrador de sensores"
-
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:281
-msgid "OK"
-msgstr "Aceutar"
-
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:281
-#: SensorDisplayLib/FancyPlotter.cc:515 SensorDisplayLib/FancyPlotter.cc:585
-msgid "Error"
-msgstr "Fallu"
-
-#: SensorDisplayLib/SensorDisplay.cc:118 SensorDisplayLib/SensorLogger.cc:598
-msgid "&Properties"
-msgstr "&Propiedaes"
-
-#: SensorDisplayLib/SensorDisplay.cc:123 SensorDisplayLib/SensorLogger.cc:603
-msgid "&Remove Display"
-msgstr "&Desaniciar pantalla"
-
-#: SensorDisplayLib/SensorDisplay.cc:193
-#, kde-format
-msgid ""
-"<qt><p>This is a sensor display. To customize a sensor display click the "
-"right mouse button here and select the <i>Properties</i> entry from the "
-"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
-"p>%1</qt>"
-msgstr ""
-"<qt><p>Esto ye'l visor d'un sensor. Pa personalizar el sensor d'un sensor "
-"calca equí'l botón drechu del mur y escueyi la entrada <i>Propiedaes</i> del "
-"menú emerxente. Escueyi <i>Desaniciar</i> pa desaniciar el visor de la fueya "
-"de trabayu.</p>%1</qt>"
-
-#: SensorDisplayLib/FancyPlotter.cc:178
-msgctxt "Largest axis title"
-msgid "99999 XXXX"
-msgstr "99999 XXXX"
-
-#: SensorDisplayLib/FancyPlotter.cc:511 SensorDisplayLib/FancyPlotter.cc:574
-#: SensorDisplayLib/FancyPlotter.cc:637
-#, kde-format
-msgctxt "units"
-msgid "%1%"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cc:518
-#, kde-format
-msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
-msgid "<p><b>%1:</b><br>"
-msgstr "<p><b>%1:</b><br>"
-
-#: SensorDisplayLib/FancyPlotter.cc:582
-#, fuzzy, kde-format
-msgid "%1 of %2%1"
-msgstr "%1 de %2"
-
-#: SensorDisplayLib/FancyPlotter.cc:610
-#, kde-format
-msgctxt "units"
-msgid "%1 TiB"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cc:613
-#, kde-format
-msgctxt "units"
-msgid "%1 GiB"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cc:616
-#, kde-format
-msgctxt "units"
-msgid "%1 MiB"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cc:619
-#, kde-format
-msgctxt "units"
-msgid "%1 KiB"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cc:624
-#, kde-format
-msgctxt "units"
-msgid "%1 TiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cc:627
-#, kde-format
-msgctxt "units"
-msgid "%1 GiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cc:630
-#, kde-format
-msgctxt "units"
-msgid "%1 MiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cc:633
-#, kde-format
-msgctxt "units"
-msgid "%1 KiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cc:639
-#, fuzzy, kde-format
-msgctxt "unitless - just a number"
-msgid "%1"
-msgstr "%"
-
-#: SensorDisplayLib/SensorLogger.cc:138
-msgid "Logging"
-msgstr "Rexistru"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
-#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
-#: SensorDisplayLib/SensorLogger.cc:141 rc.cpp:20
-msgid "Timer Interval"
-msgstr "Intervalu del temporizador"
-
-#: SensorDisplayLib/SensorLogger.cc:144
-msgid "Sensor Name"
-msgstr "Nome del sensor"
-
-#: SensorDisplayLib/SensorLogger.cc:147
-msgid "Host Name"
-msgstr "Nome de máquina"
-
-#: SensorDisplayLib/SensorLogger.cc:150
-msgid "Log File"
-msgstr "Ficheru de rexistru"
-
-#: SensorDisplayLib/SensorLogger.cc:608
-msgid "&Remove Sensor"
-msgstr "Desanicia&r el sensor"
-
-#: SensorDisplayLib/SensorLogger.cc:613
-msgid "&Edit Sensor..."
-msgstr "&Editar el sensor..."
-
-#: SensorDisplayLib/SensorLogger.cc:621
-msgid "St&op Logging"
-msgstr "Parar el rexistr&u"
-
-#: SensorDisplayLib/SensorLogger.cc:624
-msgid "S&tart Logging"
-msgstr "Entamar el rexis&tru"
-
-#: SensorDisplayLib/SensorModel.cc:166
-msgid "Host"
-msgstr "Anfitrión"
-
-#: SensorDisplayLib/SensorModel.cc:169
-msgid "Sensor"
-msgstr "Sensor"
-
-#: SensorDisplayLib/SensorModel.cc:172
-msgid "Unit"
-msgstr "Unidá"
-
-#: SensorDisplayLib/SensorModel.cc:175
-msgid "Status"
-msgstr "Estáu"
-
-#: SensorDisplayLib/SensorModel.cc:178
-msgid "Label"
-msgstr "Etiqueta"
-
-#: SensorDisplayLib/LogFile.cc:92
-msgid "File logging settings"
-msgstr "Preferencies del rexistru en ficheru"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cc:98 rc.cpp:125
-msgid "Foreground color:"
-msgstr "Color del testu:"
-
-#: SensorDisplayLib/MultiMeterSettings.cc:31
-msgctxt ""
-"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
-msgid "Multimeter Settings"
-msgstr "Preferencies del multímetru"
-
-#: SensorDisplayLib/ListViewSettings.cc:30
-msgid "List View Settings"
-msgstr "Preferencies de la vista de llistes"
-
-#: SensorDisplayLib/SensorLoggerSettings.cc:30
-msgid "Sensor Logger Settings"
-msgstr "Preferencies del rexistru de sensores"
-
-#: SensorDisplayLib/DummyDisplay.cc:30 SensorDisplayLib/DummyDisplay.cc:38
-msgid "Drop Sensor Here"
-msgstr "Soltar el sensor equí"
-
-#: SensorDisplayLib/DummyDisplay.cc:32
-msgid ""
-"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
-"and drop it here. A sensor display will appear that allows you to monitor "
-"the values of the sensor over time."
-msgstr ""
-"Ésti ye un espaciu en blancu nuna fueya de trabayu. Arrastra un sensor del "
-"restolador de sensores y suéltalu equí. Apaecerá una ventana de sensor que "
-"permita monitorizar los valores del sensor a lo llargo del tiempu."
 
 #. i18n: file: ksysguardui.rc:4
 #. i18n: ectx: Menu (file)
@@ -1465,195 +1654,6 @@ msgstr "Historia de memoria ya intercambéu"
 #: rc.cpp:158
 msgid "Network History"
 msgstr "Historia de rede"
-
-#: WorkSheetSettings.cc:40
-msgid "Tab Properties"
-msgstr "Propiedaes de la fueya de trabayu"
-
-#: WorkSheetSettings.cc:62
-msgid "Properties"
-msgstr "Propiedaes"
-
-#: WorkSheetSettings.cc:71
-msgid "Rows:"
-msgstr "Fileres:"
-
-#: WorkSheetSettings.cc:80
-msgid "Columns:"
-msgstr "Columnes:"
-
-#: WorkSheetSettings.cc:88
-msgid "Enter the number of rows the sheet should have."
-msgstr "Pon el númberu de columnes que tendría de tener la fueya."
-
-#: WorkSheetSettings.cc:89
-msgid "Enter the number of columns the sheet should have."
-msgstr "Pon el númberu de columnes que tendría de tener la fueya."
-
-#: WorkSheetSettings.cc:102
-msgid "Enter the title of the worksheet here."
-msgstr "Pon el títulu de la fueya de trabayu equí."
-
-#: SensorBrowser.cc:117
-msgid "Sensor Browser"
-msgstr "Restolador de sensor"
-
-#: SensorBrowser.cc:473
-msgid "Drag sensors to empty cells of a worksheet "
-msgstr "Arrastrar sensores a caxelles baleres nuna fueya de trabayu "
-
-#: SensorBrowser.cc:474
-msgid ""
-"The sensor browser lists the connected hosts and the sensors that they "
-"provide. Click and drag sensors into drop zones of a worksheet. A display "
-"will appear that visualizes the values provided by the sensor. Some sensor "
-"displays can display values of multiple sensors. Simply drag other sensors "
-"on to the display to add more sensors."
-msgstr ""
-"El restolador de sensores amuesa una llista de les máquinas conectaes y de "
-"los sensores que suministren. Calca y arrastra sensores nes estayes de "
-"descarga d'una fueya de trabayu. Apaecerá una pantalla visualizando los "
-"valores apurríos pol sensor. Dalgunes pantalles de sensor pueden amosar "
-"valores de múltiples sensores. A cencielles arrastra otros sensores fasta la "
-"pantalla p'amestar más."
-
-#: ksysguard.cc:74
-msgid "KDE System Monitor"
-msgstr "Monitor de sistema KDE"
-
-#: ksysguard.cc:154 ksysguard.cc:530
-msgid "System Monitor"
-msgstr "Monitor del sistema"
-
-#: ksysguard.cc:155
-msgid "&Refresh Tab"
-msgstr ""
-
-#: ksysguard.cc:156
-msgid "&New Tab..."
-msgstr "Nueva fueya de trabayu..."
-
-#: ksysguard.cc:157
-msgid "Import Tab Fr&om File..."
-msgstr "Importar fueya de trabayu de ficheru..."
-
-#: ksysguard.cc:158
-msgid "Save Tab &As..."
-msgstr "Gu&ardar fueya de trabayu como..."
-
-#: ksysguard.cc:159
-msgid "&Close Tab"
-msgstr "&Zarrar fueya de trabayu"
-
-#: ksysguard.cc:160
-msgid "Monitor &Remote Machine..."
-msgstr "Monitorizar una máquina &remota..."
-
-#: ksysguard.cc:161
-msgid "&Download New Tabs..."
-msgstr "&Baxar fueyes de trabayu nueves..."
-
-#: ksysguard.cc:162
-msgid "&Upload Current Tab..."
-msgstr "&Unviar pestaña actual..."
-
-#: ksysguard.cc:164
-msgid "Tab &Properties"
-msgstr "&Propiedaes"
-
-#: ksysguard.cc:359
-#, fuzzy, kde-format
-msgid "1 process1"
-msgid_plural "%1 processes%1"
-msgstr[0] " 1 procesu "
-msgstr[1] " %1 procesos "
-
-#: ksysguard.cc:443
-#, fuzzy, kde-format
-msgid "CPU: %1%%1%"
-msgstr " CPU: %1% "
-
-#: ksysguard.cc:458
-#, kde-format
-msgctxt "Arguments are formatted byte sizes (used/total)"
-msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
-msgstr ""
-
-#: ksysguard.cc:485
-msgid " No swap space available "
-msgstr " Nun hai espaciu d'intercambéu disponible "
-
-#: ksysguard.cc:487
-#, fuzzy, kde-format
-msgctxt "Arguments are formatted byte sizes (used/total)"
-msgid "Swap: %1 / %2Swap: %1%1"
-msgstr " Memoria d'intercambéu: %1 / %2 "
-
-#: ksysguard.cc:532
-msgid "(c) 1996-2008 The KDE System Monitor Developers"
-msgstr "(c) 1996-2008 The KDE System Monitor Developers"
-
-#: ksysguard.cc:533
-msgid "John Tapsell"
-msgstr "John Tapsell"
-
-#: ksysguard.cc:533
-msgid "Current Maintainer"
-msgstr "Mantenedor actual"
-
-#: ksysguard.cc:534
-msgid "Chris Schlaeger"
-msgstr "Chris Schlaeger"
-
-#: ksysguard.cc:534
-msgid "Previous Maintainer"
-msgstr "Encargáu anterior"
-
-#: ksysguard.cc:535
-msgid "Greg Martyn"
-msgstr "Greg Martyn"
-
-#: ksysguard.cc:536
-msgid "Tobias Koenig"
-msgstr "Tobias Koenig"
-
-#: ksysguard.cc:537
-msgid "Nicolas Leclercq"
-msgstr "Nicolas Leclercq"
-
-#: ksysguard.cc:538
-msgid "Alex Sanda"
-msgstr "Alex Sanda"
-
-#: ksysguard.cc:539
-msgid "Bernd Johannes Wuebben"
-msgstr "Bernd Johannes Wuebben"
-
-#: ksysguard.cc:540
-msgid "Ralf Mueller"
-msgstr "Ralf Mueller"
-
-#: ksysguard.cc:541
-msgid "Hamish Rodda"
-msgstr "Hamish Rodda"
-
-#: ksysguard.cc:542
-msgid "Torsten Kasch"
-msgstr "Torsten Kasch"
-
-#: ksysguard.cc:542
-msgid ""
-"Solaris Support\n"
-"Parts derived (by permission) from the sunos5\n"
-"module of William LeFebvre's \"top\" utility."
-msgstr ""
-"Sofitu de Solaris\n"
-"Les partes que deriven (con permisu) del módulu de la\n"
-"aplicación \"top\" de William LeFebvre de SunOS5."
-
-#: ksysguard.cc:551
-msgid "Optional worksheet files to load"
-msgstr "Ficheros de fueyes de trabayu opcionales pa cargar"
 
 #, fuzzy
 #~ msgctxt "Units"
