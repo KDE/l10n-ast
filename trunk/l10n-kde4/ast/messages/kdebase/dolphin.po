@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-03 04:40+0200\n"
+"POT-Creation-Date: 2010-04-04 04:37+0200\n"
 "PO-Revision-Date: 2009-12-27 16:14+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -177,7 +177,7 @@ msgctxt "@label:listbox"
 msgid "Preview:"
 msgstr "Previsualizar:"
 
-#: settings/iconsizegroupbox.cpp:109 statusbar/dolphinstatusbar.cpp:345
+#: settings/iconsizegroupbox.cpp:109 statusbar/dolphinstatusbar.cpp:372
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
@@ -780,7 +780,6 @@ msgid "Save search options"
 msgstr ""
 
 #: search/dolphinsearchoptionsconfigurator.cpp:148
-#: statusbar/statusbarmessagelabel.cpp:50
 msgctxt "@action:button"
 msgid "Close"
 msgstr "Zarrar"
@@ -915,16 +914,53 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr ""
 
-#: statusbar/statusbarspaceinfo.cpp:78 statusbar/statusbarspaceinfo.cpp:91
+#: statusbar/statusbarspaceinfo.cpp:80 statusbar/statusbarspaceinfo.cpp:93
 msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "Tamañu desconocíu"
 
-#: statusbar/statusbarspaceinfo.cpp:102
+#: statusbar/statusbarspaceinfo.cpp:104
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 llibre"
+
+#: statusbar/dolphinstatusbar.cpp:269
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Information"
+msgctxt "@action:inmenu"
+msgid "Copy Information Message"
+msgstr "Información"
+
+#: statusbar/dolphinstatusbar.cpp:272
+msgctxt "@action:inmenu"
+msgid "Copy Error Message"
+msgstr ""
+
+#: statusbar/dolphinstatusbar.cpp:279
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show zoom slider"
+msgctxt "@action:inmenu"
+msgid "Show Zoom Slider"
+msgstr "Amosar eslizador de zoom"
+
+#: statusbar/dolphinstatusbar.cpp:283
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show space information"
+msgctxt "@action:inmenu"
+msgid "Show Space Information"
+msgstr "Amosar información d'espaciu"
+
+#: statusbar/statusbarmessagelabel.cpp:53
+#, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Close"
+msgctxt "@info"
+msgid "Close"
+msgstr "Zarrar"
 
 #: filterbar.cpp:41
 msgctxt "@info:tooltip"
