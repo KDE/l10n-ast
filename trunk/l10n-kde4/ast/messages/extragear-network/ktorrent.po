@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-04 04:44+0200\n"
+"POT-Creation-Date: 2010-04-05 04:45+0200\n"
 "PO-Revision-Date: 2009-12-18 18:26+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -679,8 +679,7 @@ msgstr "Disponibilidá"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_5)
 #. i18n: file: plugins/stats/Settings.ui:234
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: plugins/infowidget/peerviewmodel.cpp:311
-#: libbtcore/util/logsystemmanager.cpp:36 ktorrent/view/viewmanager.cpp:598
+#: plugins/infowidget/peerviewmodel.cpp:311 ktorrent/view/viewmanager.cpp:598
 #: rc.cpp:454 rc.cpp:541 rc.cpp:604
 msgid "DHT"
 msgstr "DHT"
@@ -1518,8 +1517,7 @@ msgstr "Guetar por torrents na web."
 
 #: plugins/search/searchenginelist.cpp:192
 #: plugins/ipfilter/convertthread.cpp:67
-#: plugins/ipfilter/convertthread.cpp:167 libbtcore/diskio/cachefile.cpp:94
-#: libbtcore/util/fileops.cpp:325 libbtcore/util/fileops.cpp:367
+#: plugins/ipfilter/convertthread.cpp:167
 #: ktorrent/dialogs/importdialog.cpp:276
 #, kde-format
 msgid "Cannot open %1 : %2"
@@ -1701,9 +1699,6 @@ msgid "Edit an item"
 msgstr "Editar un elementu"
 
 #: plugins/bwscheduler/schedule.cpp:124 plugins/bwscheduler/schedule.cpp:245
-#: libbtcore/torrent/torrentcreator.cpp:124
-#: libbtcore/torrent/torrentcreator.cpp:255
-#: libbtcore/torrent/torrentcreator.cpp:292
 #, kde-format
 msgid "Cannot open file %1: %2"
 msgstr "Nun puede abrise'l ficheru %1: %2"
@@ -1907,481 +1902,6 @@ msgstr "(C) 2009 Joris Guisson"
 #: ktmagnetdownloader/magnetdownloader.cpp:45 ktorrent/main.cpp:140
 msgid "Document to open"
 msgstr "Documentu a abrir"
-
-#: libbtcore/bcodec/bdecoder.cpp:62
-#, kde-format
-msgid "Illegal token: %1"
-msgstr "Elementu nun válidu: %1"
-
-#: libbtcore/bcodec/bdecoder.cpp:125 libbtcore/bcodec/bdecoder.cpp:133
-msgid "Decode error"
-msgstr "Fallu de decodificación"
-
-#: libbtcore/bcodec/bdecoder.cpp:193 libbtcore/bcodec/bdecoder.cpp:238
-msgid "Unexpected end of input"
-msgstr "Fin d'entrada inesperáu"
-
-#: libbtcore/bcodec/bdecoder.cpp:213 libbtcore/bcodec/bdecoder.cpp:247
-#, kde-format
-msgid "Cannot convert %1 to an int"
-msgstr "Nun puede convertise %1 a un enteru"
-
-#: libbtcore/bcodec/bdecoder.cpp:252
-msgid "Torrent is incomplete."
-msgstr "El torrent ta incompletu."
-
-#: libbtcore/diskio/chunkmanager.cpp:207 libbtcore/diskio/chunkmanager.cpp:322
-#, kde-format
-msgid "Cannot open index file %1 : %2"
-msgstr "Nun puede abrise'l ficheru índiz %1: %2"
-
-#: libbtcore/diskio/cachefile.cpp:120 libbtcore/diskio/cachefile.cpp:246
-#: libbtcore/diskio/cachefile.cpp:433 libbtcore/diskio/cachefile.cpp:501
-#, kde-format
-msgid "Cannot open %1 for writing : readonly filesystem"
-msgstr "Nun puede escribise en %1: sistema de ficheros de namái llectura"
-
-#: libbtcore/diskio/cachefile.cpp:127 libbtcore/diskio/cachefile.cpp:439
-#, kde-format
-msgid "Attempting to write beyond the maximum size of %1"
-msgstr ""
-
-#: libbtcore/diskio/cachefile.cpp:131
-#, fuzzy, kde-format
-#| msgid "Insufficient disk space for %1"
-msgid "Not enough free disk space for %1"
-msgstr "Espaciu en discu insuficiente pa %1"
-
-#: libbtcore/diskio/cachefile.cpp:253
-#, kde-format
-msgid ""
-"Cannot expand file %1 : attempting to grow the file beyond the maximum size"
-msgstr ""
-
-#: libbtcore/diskio/cachefile.cpp:257
-#, kde-format
-msgid "Cannot expand file %1 : %2"
-msgstr "Nun puede espandese'l ficheru %1: %2"
-
-#: libbtcore/diskio/cachefile.cpp:399
-#, kde-format
-msgid "Error : Reading past the end of the file %1"
-msgstr "Fallu: Al lleer tres el fin del ficheru %1"
-
-#: libbtcore/diskio/cachefile.cpp:404 libbtcore/diskio/cachefile.cpp:451
-#, kde-format
-msgid "Failed to seek file %1 : %2"
-msgstr "Fallu al desplazase nel ficheru %1: %2"
-
-#: libbtcore/diskio/cachefile.cpp:412
-#, kde-format
-msgid "Error reading from %1"
-msgstr "Fallu al lleer de %1"
-
-#: libbtcore/diskio/cachefile.cpp:455
-#, kde-format
-msgid "Failed to write to file %1 : %2"
-msgstr "Fallu al escribir nel ficheru %1: %2"
-
-#: libbtcore/diskio/cachefile.cpp:522
-#, kde-format
-msgid "Cannot preallocate diskspace : %1"
-msgstr "Nun puede preasignase espaciu en discu: %1"
-
-#: libbtcore/diskio/dndfile.cpp:89
-#, kde-format
-msgid "Cannot create file %1 : %2"
-msgstr "Nun puede criase'l ficheru %1: %2"
-
-#: libbtcore/diskio/dndfile.cpp:137
-#, kde-format
-msgid "Failed to write first chunk to DND file : %1"
-msgstr "Nun pudó escribise'l primer bloque nel ficheru DND: %1"
-
-#: libbtcore/diskio/dndfile.cpp:155
-#, kde-format
-msgid "Failed to write last chunk to DND file : %1"
-msgstr "Nun pudó escribise'l caberu bloque nel ficheru DND: %1"
-
-#: libbtcore/diskio/singlefilecache.cpp:72
-#: libbtcore/diskio/multifilecache.cpp:107
-#, kde-format
-msgid "Failed to open %1 : %2"
-msgstr "Fallu al abrir %1: %2"
-
-#: libbtcore/diskio/singlefilecache.cpp:83
-#: libbtcore/diskio/multifilecache.cpp:134
-#: ktorrent/dialogs/importdialog.cpp:385 ktorrent/dialogs/importdialog.cpp:402
-#, kde-format
-msgid "Failed to create %1 : %2"
-msgstr "Fallu al criar %1: %2"
-
-#: libbtcore/diskio/multifilecache.cpp:725
-#: libbtcore/diskio/multifilecache.cpp:764
-#, kde-format
-msgid "Cannot open file %1 : %2"
-msgstr "Nun puede abrise'l ficheru %1: %2"
-
-#: libbtcore/interfaces/trackerinterface.cpp:58
-msgid "OK"
-msgstr "Aceutar"
-
-#: libbtcore/interfaces/trackerinterface.cpp:59
-msgid "Announcing"
-msgstr "Anunciando"
-
-#: libbtcore/interfaces/trackerinterface.cpp:60
-#: libbtcore/torrent/torrentstats.cpp:85
-#, kde-format
-msgid "Error: %1"
-msgstr "Fallu: %1"
-
-#: libbtcore/migrate/migrate.cpp:45
-#, kde-format
-msgid "The directory %1 does not exist"
-msgstr "El direutoriu %1 nun esiste"
-
-#: libbtcore/peer/peerid.cpp:203
-msgid "Unknown client"
-msgstr "Cliente desconocíu"
-
-#: libbtcore/tracker/httpannouncejob.cpp:140
-msgid "Redirect without a redirect location"
-msgstr "Redirixíu ensin un nuevu allugamientu"
-
-#: libbtcore/tracker/udptracker.cpp:371 libbtcore/tracker/udptracker.cpp:381
-#: libbtcore/tracker/httptracker.cpp:554
-#, kde-format
-msgid "Timeout contacting tracker %1"
-msgstr ""
-
-#: libbtcore/tracker/udptracker.cpp:408
-#, kde-format
-msgid "Unable to resolve hostname %1"
-msgstr "Nun foi posible resolver el nome de máquina %1"
-
-#: libbtcore/tracker/httptracker.cpp:280 libbtcore/tracker/httptracker.cpp:300
-#: libbtcore/tracker/httptracker.cpp:340 libbtcore/tracker/httptracker.cpp:459
-msgid "Invalid response from tracker"
-msgstr "Rempuesta nun válida del llocalizador"
-
-#: libbtcore/tracker/httptracker.cpp:293
-msgid "Invalid data from tracker"
-msgstr "Datos nun válidos del llocalizador"
-
-#: libbtcore/tracker/httptracker.cpp:476
-msgid "Invalid tracker URL"
-msgstr "URL nun válidu del llocalizador"
-
-#: libbtcore/tracker/udptrackersocket.cpp:66
-#, kde-format
-msgid "Cannot bind to udp port %1 or the 10 following ports."
-msgstr ""
-"Nun puede coneutase al puertu UDP %1 nin a los diez puertos siguientes."
-
-#: libbtcore/torrent/torrentcontrol.cpp:534
-#, kde-format
-msgid ""
-"An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
-"torrent is probably corrupt or is not a valid torrent file."
-msgstr ""
-"Hebo un fallu mientres se cargaba'l torrent <b>%1</b>:<br/><b>%2</b><br/"
-">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
-"torrent válidu."
-
-#: libbtcore/torrent/torrentcontrol.cpp:564
-#, kde-format
-msgid ""
-"An error occurred while loading the torrent:<br/><b>%1</b><br/>The torrent "
-"is probably corrupt or is not a valid torrent file."
-msgstr ""
-"Hebo un fallu mientres se cargaba'l torrent:<br/><b>%1</b><br/"
-">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
-"torrent válidu."
-
-#: libbtcore/torrent/torrentcontrol.cpp:575
-#, kde-format
-msgid "Unable to create %1 : %2"
-msgstr "Nun pudo criase %1: %2"
-
-#: libbtcore/torrent/torrentcontrol.cpp:590
-#, kde-format
-msgid ""
-"You are already downloading the torrent <b>%1</b>. The tracker lists from "
-"both torrents have been merged."
-msgstr ""
-
-#: libbtcore/torrent/torrentcontrol.cpp:595
-#, kde-format
-msgid "You are already downloading the torrent <b>%1</b>."
-msgstr ""
-
-#: libbtcore/torrent/torrentstats.cpp:71
-msgid "Not started"
-msgstr "Non aniciáu"
-
-#: libbtcore/torrent/torrentstats.cpp:73
-msgid "Download completed"
-msgstr "Baxada finada"
-
-#: libbtcore/torrent/torrentstats.cpp:75
-msgid "Seeding completed"
-msgstr "Siembra finada"
-
-#: libbtcore/torrent/torrentstats.cpp:77
-msgctxt "Status of a torrent file"
-msgid "Seeding"
-msgstr "Semando"
-
-#: libbtcore/torrent/torrentstats.cpp:79 ktorrent/tools/magnetmodel.cpp:205
-msgid "Downloading"
-msgstr "Baxando"
-
-#: libbtcore/torrent/torrentstats.cpp:81
-msgid "Stalled"
-msgstr "Estancáu"
-
-#: libbtcore/torrent/torrentstats.cpp:83 ktorrent/tools/magnetmodel.cpp:207
-msgid "Stopped"
-msgstr "Deteniu"
-
-#: libbtcore/torrent/torrentstats.cpp:87
-msgid "Allocating diskspace"
-msgstr "Asignando espaciu en discu"
-
-#: libbtcore/torrent/torrentstats.cpp:89
-msgid "Queued for seeding"
-msgstr ""
-
-#: libbtcore/torrent/torrentstats.cpp:89
-msgid "Queued for downloading"
-msgstr ""
-
-#: libbtcore/torrent/torrentstats.cpp:91
-msgid "Checking data"
-msgstr "Verificando los datos"
-
-#: libbtcore/torrent/torrentstats.cpp:93
-msgid "Stopped. No space left on device."
-msgstr "Deteníu. Nun queda espaciu nel preséu."
-
-#: libbtcore/torrent/torrentstats.cpp:95
-msgid "Paused"
-msgstr "Posáu"
-
-#: libbtcore/torrent/torrentcreator.cpp:361
-#, kde-format
-msgid "Cannot create index file: %1"
-msgstr "Nun puede criase'l ficheru índiz: %1"
-
-#: libbtcore/torrent/torrent.cpp:92 libbtcore/torrent/torrent.cpp:166
-#: libbtcore/torrent/torrent.cpp:194 libbtcore/torrent/torrent.cpp:201
-#: libbtcore/torrent/torrent.cpp:209 libbtcore/torrent/torrent.cpp:213
-#: libbtcore/torrent/torrent.cpp:234 libbtcore/torrent/torrent.cpp:305
-msgid "Corrupted torrent."
-msgstr "Torrent tollíu."
-
-#: libbtcore/torrent/torrent.cpp:157
-#, kde-format
-msgid " Unable to open torrent file %1 : %2"
-msgstr " Nun puede abrise'l ficheru torrent %1: %2"
-
-#: libbtcore/torrent/torrent.cpp:287
-msgid "Parse Error"
-msgstr "Fallu d'analís"
-
-#: libbtcore/datachecker/singledatachecker.cpp:49
-#, kde-format
-msgid "Cannot open file : %1 : %2"
-msgstr "Nun puede abrise'l ficheru: %1: %2"
-
-#: libbtcore/download/httpconnection.cpp:37 libbtcore/download/webseed.cpp:49
-#: libbtcore/download/webseed.cpp:93
-msgid "Not connected"
-msgstr "Non conectáu"
-
-#: libbtcore/download/httpconnection.cpp:103
-#, kde-format
-msgid "Resolving proxy %1:%2"
-msgstr "Resolviendo'l «proxy» %1:%2"
-
-#: libbtcore/download/httpconnection.cpp:112
-#, kde-format
-msgid "Resolving hostname %1"
-msgstr "Resolviendo'l nome de máquina %1"
-
-#: libbtcore/download/httpconnection.cpp:125
-#: libbtcore/download/webseed.cpp:321
-msgid "Connection closed"
-msgstr "Zarróse la conexón"
-
-#: libbtcore/download/httpconnection.cpp:132
-#, kde-format
-msgid "Error: request failed: %1"
-msgstr "Fallu: falló la petición: %1"
-
-#: libbtcore/download/httpconnection.cpp:149
-#: libbtcore/download/httpconnection.cpp:213
-msgid "Connected"
-msgstr "Coneutáu"
-
-#: libbtcore/download/httpconnection.cpp:155
-msgid "Error: Failed to connect to webseed"
-msgstr "Fallu: Fallu al coneutase a la semiente web"
-
-#: libbtcore/download/httpconnection.cpp:220
-msgid "Connecting"
-msgstr "Coneutando"
-
-#: libbtcore/download/httpconnection.cpp:231
-msgid "Failed to connect to webseed"
-msgstr "Fallu al coneutase a la semiente web"
-
-#: libbtcore/download/httpconnection.cpp:238
-msgid "Failed to resolve hostname of webseed"
-msgstr "Fallu al resolver el nome de máquina de la semiente web"
-
-#: libbtcore/download/httpconnection.cpp:318
-msgid "Error: failed to connect, server not responding"
-msgstr "Fallu: fallu al coneutase, el sirvidor nun retruca"
-
-#: libbtcore/download/httpconnection.cpp:327
-msgid "Error: request timed out"
-msgstr "Fallu: la petición superó'l tiempu llímite"
-
-#: libbtcore/download/httpconnection.cpp:391
-msgid "Redirected without a new location."
-msgstr "Redirixíu ensin un nuevu allugamientu"
-
-#: libbtcore/download/chunkdownload.cpp:373
-#, kde-format
-msgid "1 peer"
-msgid_plural "%1 peers"
-msgstr[0] "1 collaciu"
-msgstr[1] "%1 collacios"
-
-#: libbtcore/download/webseed.cpp:303 libbtcore/download/webseed.cpp:517
-msgid "Not in use"
-msgstr "Non usáu"
-
-#: libbtcore/util/file.cpp:83
-#, kde-format
-msgid "Cannot write to %1 : %2"
-msgstr "Nun puede escribise en %1: %2"
-
-#: libbtcore/util/file.cpp:97
-#, kde-format
-msgid "Cannot read from %1"
-msgstr "Nun puede lleese de %1"
-
-#: libbtcore/util/log.cpp:115
-#, kde-format
-msgid "Cannot open log file %1 : %2"
-msgstr "Nun puede abrise'l ficheru de rexistru %1: %2"
-
-#: libbtcore/util/fileops.cpp:92
-#, kde-format
-msgid "Cannot create directory %1"
-msgstr "Nun puede criase'l direutoriu %1"
-
-#: libbtcore/util/fileops.cpp:133
-#, kde-format
-msgid "Cannot symlink %1 to %2: %3"
-msgstr "Nun puede criase'l enllaz simbólicu de %1 a %2: %3"
-
-#: libbtcore/util/fileops.cpp:150
-#, kde-format
-msgid "Cannot move %1 to %2: %3"
-msgstr "Nun puede movese %1 a %2: %3"
-
-#: libbtcore/util/fileops.cpp:166 libbtcore/util/fileops.cpp:182
-#, kde-format
-msgid "Cannot copy %1 to %2: %3"
-msgstr "Nun puede copiase %1 a %2: %3"
-
-#: libbtcore/util/fileops.cpp:247
-#, kde-format
-msgid "Cannot delete %1: %2"
-msgstr "Nun puede desaniciase %1: %2"
-
-#: libbtcore/util/fileops.cpp:264
-#, kde-format
-msgid "Cannot create %1: %2"
-msgstr "Nun puede criase %1: %2"
-
-#: libbtcore/util/fileops.cpp:282
-#, kde-format
-msgid "Cannot calculate the filesize of %1: %2"
-msgstr "Nun puede calculase'l tamañu del ficheru %1: %2"
-
-#: libbtcore/util/fileops.cpp:298
-#, kde-format
-msgid "Cannot calculate the filesize : %1"
-msgstr "Nun puede calculase'l tamañu del ficheru: %1"
-
-#: libbtcore/util/fileops.cpp:346 libbtcore/util/fileops.cpp:352
-#: libbtcore/util/fileops.cpp:355 libbtcore/util/fileops.cpp:358
-#, kde-format
-msgid "Cannot expand file: %1"
-msgstr "Nun puede espandese'l ficheru: %1"
-
-#: libbtcore/util/fileops.cpp:388
-#, kde-format
-msgid "Cannot seek in file : %1"
-msgstr "Nun puede guetase nel ficheru: %1"
-
-#: libbtcore/util/functions.cpp:263
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: libbtcore/util/functions.cpp:274
-#, kde-format
-msgid "1 day "
-msgid_plural "%1 days "
-msgstr[0] "1 día "
-msgstr[1] "%1 díes "
-
-#: libbtcore/util/logsystemmanager.cpp:33
-msgid "General"
-msgstr "Xeneral"
-
-#. i18n: file: plugins/stats/Conns.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, ConnsWgt)
-#. i18n: file: plugins/stats/Conns.ui:19
-#. i18n: ectx: property (title), widget (QGroupBox, ConnsGbw)
-#. i18n: file: plugins/stats/DisplaySettings.ui:504
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#. i18n: file: plugins/stats/Settings.ui:140
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#. i18n: file: plugins/stats/Conns.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, ConnsWgt)
-#. i18n: file: plugins/stats/Conns.ui:19
-#. i18n: ectx: property (title), widget (QGroupBox, ConnsGbw)
-#. i18n: file: plugins/stats/DisplaySettings.ui:504
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#. i18n: file: plugins/stats/Settings.ui:140
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: libbtcore/util/logsystemmanager.cpp:34 rc.cpp:448 rc.cpp:451 rc.cpp:514
-#: rc.cpp:595
-msgid "Connections"
-msgstr "Conexones"
-
-#. i18n: file: ktorrent/pref/btpref.ui:123
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: libbtcore/util/logsystemmanager.cpp:35 rc.cpp:1588
-msgid "Tracker"
-msgstr "Llocalizador"
-
-#: libbtcore/util/logsystemmanager.cpp:37
-msgid "Disk Input/Output"
-msgstr "Entrada/Salida de discu"
-
-#: libbtcore/util/logsystemmanager.cpp:38
-#, fuzzy
-#| msgid "UDP"
-msgid "UTP"
-msgstr "UDP"
 
 #: libktupnp/upnprouter.cpp:139
 #, kde-format
@@ -2599,6 +2119,14 @@ msgstr "Desaniciar el torrent"
 #: ktorrent/tools/magnetmodel.cpp:128
 msgid "Magnet Link"
 msgstr ""
+
+#: ktorrent/tools/magnetmodel.cpp:205
+msgid "Downloading"
+msgstr "Baxando"
+
+#: ktorrent/tools/magnetmodel.cpp:207
+msgid "Stopped"
+msgstr "Deteniu"
 
 #: ktorrent/view/scanextender.cpp:40 ktorrent/view/scanextender.cpp:89
 msgid "Checked %v of %m chunks"
@@ -3258,6 +2786,11 @@ msgstr "Nun pueden verificase los datos: %1"
 #, kde-format
 msgid "Cannot load the torrent file : %1"
 msgstr "Nun puede cargase'l ficheru torrent: %1"
+
+#: ktorrent/dialogs/importdialog.cpp:385 ktorrent/dialogs/importdialog.cpp:402
+#, kde-format
+msgid "Failed to create %1 : %2"
+msgstr "Fallu al criar %1: %2"
 
 #. i18n: file: ktorrent/dialogs/pastedlgbase.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, PasteDlgBase)
@@ -5470,6 +5003,26 @@ msgstr ""
 msgid "Type of widget used for chart drawing"
 msgstr ""
 
+#. i18n: file: plugins/stats/Conns.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConnsWgt)
+#. i18n: file: plugins/stats/Conns.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, ConnsGbw)
+#. i18n: file: plugins/stats/DisplaySettings.ui:504
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#. i18n: file: plugins/stats/Settings.ui:140
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: file: plugins/stats/Conns.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConnsWgt)
+#. i18n: file: plugins/stats/Conns.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, ConnsGbw)
+#. i18n: file: plugins/stats/DisplaySettings.ui:504
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#. i18n: file: plugins/stats/Settings.ui:140
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: rc.cpp:448 rc.cpp:451 rc.cpp:514 rc.cpp:595
+msgid "Connections"
+msgstr "Conexones"
+
 #. i18n: file: plugins/stats/Spd.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, SpdWgt)
 #: rc.cpp:457
@@ -7552,6 +7105,12 @@ msgstr ""
 #: rc.cpp:1585 rc.cpp:2743
 msgid "Allow unencrypted connections"
 msgstr "Permitir conexones non cifraes"
+
+#. i18n: file: ktorrent/pref/btpref.ui:123
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:1588
+msgid "Tracker"
+msgstr "Llocalizador"
 
 #. i18n: file: ktorrent/pref/btpref.ui:129
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useCustomIP)
@@ -10094,6 +9653,266 @@ msgstr "Mover les descargues finaes a la carpeta:"
 #: rc.cpp:2761
 msgid "Maximum seed time in hours (0 = no limit)"
 msgstr ""
+
+#~ msgid "Illegal token: %1"
+#~ msgstr "Elementu nun válidu: %1"
+
+#~ msgid "Decode error"
+#~ msgstr "Fallu de decodificación"
+
+#~ msgid "Unexpected end of input"
+#~ msgstr "Fin d'entrada inesperáu"
+
+#~ msgid "Cannot convert %1 to an int"
+#~ msgstr "Nun puede convertise %1 a un enteru"
+
+#~ msgid "Torrent is incomplete."
+#~ msgstr "El torrent ta incompletu."
+
+#~ msgid "Cannot open index file %1 : %2"
+#~ msgstr "Nun puede abrise'l ficheru índiz %1: %2"
+
+#~ msgid "Cannot open %1 for writing : readonly filesystem"
+#~ msgstr "Nun puede escribise en %1: sistema de ficheros de namái llectura"
+
+#, fuzzy
+#~| msgid "Insufficient disk space for %1"
+#~ msgid "Not enough free disk space for %1"
+#~ msgstr "Espaciu en discu insuficiente pa %1"
+
+#~ msgid "Cannot expand file %1 : %2"
+#~ msgstr "Nun puede espandese'l ficheru %1: %2"
+
+#~ msgid "Error : Reading past the end of the file %1"
+#~ msgstr "Fallu: Al lleer tres el fin del ficheru %1"
+
+#~ msgid "Failed to seek file %1 : %2"
+#~ msgstr "Fallu al desplazase nel ficheru %1: %2"
+
+#~ msgid "Error reading from %1"
+#~ msgstr "Fallu al lleer de %1"
+
+#~ msgid "Failed to write to file %1 : %2"
+#~ msgstr "Fallu al escribir nel ficheru %1: %2"
+
+#~ msgid "Cannot preallocate diskspace : %1"
+#~ msgstr "Nun puede preasignase espaciu en discu: %1"
+
+#~ msgid "Cannot create file %1 : %2"
+#~ msgstr "Nun puede criase'l ficheru %1: %2"
+
+#~ msgid "Failed to write first chunk to DND file : %1"
+#~ msgstr "Nun pudó escribise'l primer bloque nel ficheru DND: %1"
+
+#~ msgid "Failed to write last chunk to DND file : %1"
+#~ msgstr "Nun pudó escribise'l caberu bloque nel ficheru DND: %1"
+
+#~ msgid "Failed to open %1 : %2"
+#~ msgstr "Fallu al abrir %1: %2"
+
+#~ msgid "Cannot open file %1 : %2"
+#~ msgstr "Nun puede abrise'l ficheru %1: %2"
+
+#~ msgid "OK"
+#~ msgstr "Aceutar"
+
+#~ msgid "Announcing"
+#~ msgstr "Anunciando"
+
+#~ msgid "Error: %1"
+#~ msgstr "Fallu: %1"
+
+#~ msgid "The directory %1 does not exist"
+#~ msgstr "El direutoriu %1 nun esiste"
+
+#~ msgid "Unknown client"
+#~ msgstr "Cliente desconocíu"
+
+#~ msgid "Redirect without a redirect location"
+#~ msgstr "Redirixíu ensin un nuevu allugamientu"
+
+#~ msgid "Unable to resolve hostname %1"
+#~ msgstr "Nun foi posible resolver el nome de máquina %1"
+
+#~ msgid "Invalid response from tracker"
+#~ msgstr "Rempuesta nun válida del llocalizador"
+
+#~ msgid "Invalid data from tracker"
+#~ msgstr "Datos nun válidos del llocalizador"
+
+#~ msgid "Invalid tracker URL"
+#~ msgstr "URL nun válidu del llocalizador"
+
+#~ msgid "Cannot bind to udp port %1 or the 10 following ports."
+#~ msgstr ""
+#~ "Nun puede coneutase al puertu UDP %1 nin a los diez puertos siguientes."
+
+#~ msgid ""
+#~ "An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/"
+#~ ">The torrent is probably corrupt or is not a valid torrent file."
+#~ msgstr ""
+#~ "Hebo un fallu mientres se cargaba'l torrent <b>%1</b>:<br/><b>%2</b><br/"
+#~ ">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
+#~ "torrent válidu."
+
+#~ msgid ""
+#~ "An error occurred while loading the torrent:<br/><b>%1</b><br/>The "
+#~ "torrent is probably corrupt or is not a valid torrent file."
+#~ msgstr ""
+#~ "Hebo un fallu mientres se cargaba'l torrent:<br/><b>%1</b><br/"
+#~ ">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
+#~ "torrent válidu."
+
+#~ msgid "Unable to create %1 : %2"
+#~ msgstr "Nun pudo criase %1: %2"
+
+#~ msgid "Not started"
+#~ msgstr "Non aniciáu"
+
+#~ msgid "Download completed"
+#~ msgstr "Baxada finada"
+
+#~ msgid "Seeding completed"
+#~ msgstr "Siembra finada"
+
+#~ msgctxt "Status of a torrent file"
+#~ msgid "Seeding"
+#~ msgstr "Semando"
+
+#~ msgid "Stalled"
+#~ msgstr "Estancáu"
+
+#~ msgid "Allocating diskspace"
+#~ msgstr "Asignando espaciu en discu"
+
+#~ msgid "Checking data"
+#~ msgstr "Verificando los datos"
+
+#~ msgid "Stopped. No space left on device."
+#~ msgstr "Deteníu. Nun queda espaciu nel preséu."
+
+#~ msgid "Paused"
+#~ msgstr "Posáu"
+
+#~ msgid "Cannot create index file: %1"
+#~ msgstr "Nun puede criase'l ficheru índiz: %1"
+
+#~ msgid "Corrupted torrent."
+#~ msgstr "Torrent tollíu."
+
+#~ msgid " Unable to open torrent file %1 : %2"
+#~ msgstr " Nun puede abrise'l ficheru torrent %1: %2"
+
+#~ msgid "Parse Error"
+#~ msgstr "Fallu d'analís"
+
+#~ msgid "Cannot open file : %1 : %2"
+#~ msgstr "Nun puede abrise'l ficheru: %1: %2"
+
+#~ msgid "Not connected"
+#~ msgstr "Non conectáu"
+
+#~ msgid "Resolving proxy %1:%2"
+#~ msgstr "Resolviendo'l «proxy» %1:%2"
+
+#~ msgid "Resolving hostname %1"
+#~ msgstr "Resolviendo'l nome de máquina %1"
+
+#~ msgid "Connection closed"
+#~ msgstr "Zarróse la conexón"
+
+#~ msgid "Error: request failed: %1"
+#~ msgstr "Fallu: falló la petición: %1"
+
+#~ msgid "Connected"
+#~ msgstr "Coneutáu"
+
+#~ msgid "Error: Failed to connect to webseed"
+#~ msgstr "Fallu: Fallu al coneutase a la semiente web"
+
+#~ msgid "Connecting"
+#~ msgstr "Coneutando"
+
+#~ msgid "Failed to connect to webseed"
+#~ msgstr "Fallu al coneutase a la semiente web"
+
+#~ msgid "Failed to resolve hostname of webseed"
+#~ msgstr "Fallu al resolver el nome de máquina de la semiente web"
+
+#~ msgid "Error: failed to connect, server not responding"
+#~ msgstr "Fallu: fallu al coneutase, el sirvidor nun retruca"
+
+#~ msgid "Error: request timed out"
+#~ msgstr "Fallu: la petición superó'l tiempu llímite"
+
+#~ msgid "Redirected without a new location."
+#~ msgstr "Redirixíu ensin un nuevu allugamientu"
+
+#~ msgid "1 peer"
+#~ msgid_plural "%1 peers"
+#~ msgstr[0] "1 collaciu"
+#~ msgstr[1] "%1 collacios"
+
+#~ msgid "Not in use"
+#~ msgstr "Non usáu"
+
+#~ msgid "Cannot write to %1 : %2"
+#~ msgstr "Nun puede escribise en %1: %2"
+
+#~ msgid "Cannot read from %1"
+#~ msgstr "Nun puede lleese de %1"
+
+#~ msgid "Cannot open log file %1 : %2"
+#~ msgstr "Nun puede abrise'l ficheru de rexistru %1: %2"
+
+#~ msgid "Cannot create directory %1"
+#~ msgstr "Nun puede criase'l direutoriu %1"
+
+#~ msgid "Cannot symlink %1 to %2: %3"
+#~ msgstr "Nun puede criase'l enllaz simbólicu de %1 a %2: %3"
+
+#~ msgid "Cannot move %1 to %2: %3"
+#~ msgstr "Nun puede movese %1 a %2: %3"
+
+#~ msgid "Cannot copy %1 to %2: %3"
+#~ msgstr "Nun puede copiase %1 a %2: %3"
+
+#~ msgid "Cannot delete %1: %2"
+#~ msgstr "Nun puede desaniciase %1: %2"
+
+#~ msgid "Cannot create %1: %2"
+#~ msgstr "Nun puede criase %1: %2"
+
+#~ msgid "Cannot calculate the filesize of %1: %2"
+#~ msgstr "Nun puede calculase'l tamañu del ficheru %1: %2"
+
+#~ msgid "Cannot calculate the filesize : %1"
+#~ msgstr "Nun puede calculase'l tamañu del ficheru: %1"
+
+#~ msgid "Cannot expand file: %1"
+#~ msgstr "Nun puede espandese'l ficheru: %1"
+
+#~ msgid "Cannot seek in file : %1"
+#~ msgstr "Nun puede guetase nel ficheru: %1"
+
+#~ msgid "%1/s"
+#~ msgstr "%1/s"
+
+#~ msgid "1 day "
+#~ msgid_plural "%1 days "
+#~ msgstr[0] "1 día "
+#~ msgstr[1] "%1 díes "
+
+#~ msgid "General"
+#~ msgstr "Xeneral"
+
+#~ msgid "Disk Input/Output"
+#~ msgstr "Entrada/Salida de discu"
+
+#, fuzzy
+#~| msgid "UDP"
+#~ msgid "UTP"
+#~ msgstr "UDP"
 
 #~ msgid "(C) 2005 - 2008 Joris Guisson and Ivan Vasic"
 #~ msgstr "(C) 2005 - 2008 Joris Guisson e Ivan Vasic"
