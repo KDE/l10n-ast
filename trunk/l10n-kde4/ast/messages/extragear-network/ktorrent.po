@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-05 04:45+0200\n"
+"POT-Creation-Date: 2010-04-06 04:52+0200\n"
 "PO-Revision-Date: 2009-12-18 18:26+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -1140,7 +1140,7 @@ msgstr[1] ""
 "Perderás tolos datos d'estos ficheros. ¿De xuru que quies facer esto?"
 
 #: plugins/infowidget/fileview.cpp:320 plugins/infowidget/fileview.cpp:341
-#: ktorrent/view/view.cpp:338
+#: ktorrent/view/view.cpp:339
 msgid "Select a directory to move the data to."
 msgstr "Escueyi un direutoriu al que mover los datos."
 
@@ -1552,7 +1552,7 @@ msgstr " Motor: "
 #: plugins/search/htmlpart.cpp:94
 #, fuzzy
 #| msgid "Do you want to download or save the torrent?"
-msgid "Do you want to download this magnet link ?"
+msgid "Do you want to download this magnet link?"
 msgstr "¿Quies baxar o guardar el torrent?"
 
 #: plugins/search/htmlpart.cpp:201
@@ -2297,7 +2297,7 @@ msgstr "Torrents (*.torrent)"
 msgid "Columns"
 msgstr "Columnes"
 
-#: ktorrent/view/view.cpp:216
+#: ktorrent/view/view.cpp:217
 #, kde-format
 msgid ""
 "The torrent <b>%1</b> has not finished downloading, do you want to delete "
@@ -2306,24 +2306,24 @@ msgstr ""
 "El torrent <b>%1</b> nun finó de baxase; ¿quies desaniciar tamién los datos "
 "incompletos?"
 
-#: ktorrent/view/view.cpp:221
+#: ktorrent/view/view.cpp:222
 msgid "Remove Download"
 msgstr "Desaniciar la baxada"
 
-#: ktorrent/view/view.cpp:222
+#: ktorrent/view/view.cpp:223
 msgid "Delete Data"
 msgstr "Desaniciar los datos"
 
-#: ktorrent/view/view.cpp:223
+#: ktorrent/view/view.cpp:224
 msgid "Keep Data"
 msgstr "Caltener los datos"
 
-#: ktorrent/view/view.cpp:242
+#: ktorrent/view/view.cpp:243
 msgid ""
 "You will lose all the downloaded data. Are you sure you want to do this?"
 msgstr "Perderás tolos datos baxaos. ¿De xuru que quies facer esto?"
 
-#: ktorrent/view/view.cpp:243
+#: ktorrent/view/view.cpp:244
 msgid "Remove Torrent"
 msgstr "Desaniciar el torrent"
 
@@ -3692,22 +3692,7 @@ msgstr "Alcanzóse'l tiempu máximu de siembra."
 msgid "File"
 msgstr "Ficheru"
 
-#: libktcore/torrent/queuemanager.cpp:110
-#: libktcore/torrent/queuemanager.cpp:173
-msgid ""
-"You don't have enough disk space to download this torrent. Are you sure you "
-"want to continue?"
-msgstr ""
-"Nun tienes suficiente espaciu en discu pa baxar esti torrent. ¿De xuro que "
-"quies siguir?"
-
-#: libktcore/torrent/queuemanager.cpp:110
-#: libktcore/torrent/queuemanager.cpp:173
-#, kde-format
-msgid "Insufficient disk space for %1"
-msgstr "Espaciu en discu insuficiente pa %1"
-
-#: libktcore/torrent/queuemanager.cpp:129
+#: libktcore/torrent/queuemanager.cpp:121
 #, kde-format
 msgid ""
 "The torrent \"%1\" has reached its maximum share ratio and its maximum seed "
@@ -3716,7 +3701,7 @@ msgstr ""
 "El torrent «%1» algamó la so proporción de compartición máxima y el so tiempu "
 "máximu de siembra. ¿Quies inorar el llímite y entamar a semar de toes formes?"
 
-#: libktcore/torrent/queuemanager.cpp:131
+#: libktcore/torrent/queuemanager.cpp:123
 #, kde-format
 msgid ""
 "The torrent \"%1\" has reached its maximum share ratio. Ignore the limit and "
@@ -3725,7 +3710,7 @@ msgstr ""
 "El torrent «%1» algamó la so proporción de compartición máxima. ¿Quies inorar "
 "el llímite y entamar a semar de toes formes?"
 
-#: libktcore/torrent/queuemanager.cpp:133
+#: libktcore/torrent/queuemanager.cpp:125
 #, kde-format
 msgid ""
 "The torrent \"%1\" has reached its maximum seed time. Ignore the limit and "
@@ -3734,11 +3719,24 @@ msgstr ""
 "El torrent «%1» algamó'l so tiempu máximu de siembra. ¿Quies inorar el "
 "llímite y entamar a semar de toes formes?"
 
-#: libktcore/torrent/queuemanager.cpp:135
-msgid "Maximum share ratio limit reached."
-msgstr "Algamóse'l llímite de proporción de compartición."
+#: libktcore/torrent/queuemanager.cpp:129
+msgid "Limits reached."
+msgstr ""
 
-#: libktcore/torrent/queuemanager.cpp:233
+#: libktcore/torrent/queuemanager.cpp:155
+msgid ""
+"You don't have enough disk space to download this torrent. Are you sure you "
+"want to continue?"
+msgstr ""
+"Nun tienes suficiente espaciu en discu pa baxar esti torrent. ¿De xuro que "
+"quies siguir?"
+
+#: libktcore/torrent/queuemanager.cpp:158
+#, kde-format
+msgid "Insufficient disk space for %1"
+msgstr "Espaciu en discu insuficiente pa %1"
+
+#: libktcore/torrent/queuemanager.cpp:248
 msgid ""
 "Not enough disk space for the following torrents. Do you want to start them "
 "anyway ?"
@@ -3746,7 +3744,7 @@ msgstr ""
 "Nun hai suficiente espaciu en discu pa los siguientes torrents. ¿Quies "
 "aniciarlos de toes formes?"
 
-#: libktcore/torrent/queuemanager.cpp:272
+#: libktcore/torrent/queuemanager.cpp:287
 msgid ""
 "The following torrents have reached their maximum seed time. Do you want to "
 "start them anyway ?"
@@ -3754,7 +3752,7 @@ msgstr ""
 "Los siguientes torrents algamaron el so tiempu máximu de siembra. ¿Quies "
 "aniciarlos de toes formes?"
 
-#: libktcore/torrent/queuemanager.cpp:301
+#: libktcore/torrent/queuemanager.cpp:316
 msgid ""
 "The following torrents have reached their maximum share ratio. Do you want "
 "to start them anyway ?"
@@ -3762,17 +3760,17 @@ msgstr ""
 "Los siguientes torrents algamaron la so proporción máxima de compartición. "
 "¿Quies aniciarlos de toes formes?"
 
-#: libktcore/torrent/queuemanager.cpp:728
+#: libktcore/torrent/queuemanager.cpp:743
 #, kde-format
 msgid "Error starting torrent %1 : %2"
 msgstr "Fallu al entamar el torrent %1: %2"
 
-#: libktcore/torrent/queuemanager.cpp:730
-#: libktcore/torrent/queuemanager.cpp:746
+#: libktcore/torrent/queuemanager.cpp:745
+#: libktcore/torrent/queuemanager.cpp:761
 msgid "Error"
 msgstr "Fallu"
 
-#: libktcore/torrent/queuemanager.cpp:744
+#: libktcore/torrent/queuemanager.cpp:759
 #, kde-format
 msgid "Error stopping torrent %1 : %2"
 msgstr "Fallu al parar el torrent %1: %2"
@@ -9653,6 +9651,9 @@ msgstr "Mover les descargues finaes a la carpeta:"
 #: rc.cpp:2761
 msgid "Maximum seed time in hours (0 = no limit)"
 msgstr ""
+
+#~ msgid "Maximum share ratio limit reached."
+#~ msgstr "Algamóse'l llímite de proporción de compartición."
 
 #~ msgid "Illegal token: %1"
 #~ msgstr "Elementu nun válidu: %1"
