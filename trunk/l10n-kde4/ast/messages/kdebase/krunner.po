@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-21 04:36+0200\n"
+"POT-Creation-Date: 2010-05-22 04:46+0200\n"
 "PO-Revision-Date: 2009-12-27 16:55+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -19,38 +19,46 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Language: asturian\n"
 
-#: interfaces/quicksand/qs_dialog.cpp:53 interfaces/quicksand/qs_dialog.cpp:54
+#: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
 #: interfaces/default/interface.cpp:84 interfaces/default/interface.cpp:85
 msgid "Settings"
 msgstr "Axustes"
 
-#: interfaces/quicksand/qs_dialog.cpp:86
+#: interfaces/quicksand/qs_dialog.cpp:108
 msgid "Actions"
 msgstr "Aiciones"
 
-#: interfaces/quicksand/qs_matchview.cpp:175
+#: interfaces/quicksand/qs_dialog.cpp:317 interfaces/default/interface.cpp:253
+#, fuzzy, kde-format
+#| msgctxt "%1 current item number, %2 total number of items"
+#| msgid "%1 of %2"
+msgctxt "tooltip, shortcut"
+msgid "%1 (%2)"
+msgstr "%1 de %2"
+
+#: interfaces/quicksand/qs_matchview.cpp:190
 msgid "Type to search."
 msgstr "Teclee pa guetar."
 
-#: interfaces/quicksand/qs_matchview.cpp:260
+#: interfaces/quicksand/qs_matchview.cpp:273
 #, kde-format
 msgid "1 item"
 msgid_plural "%1 items"
 msgstr[0] "1 elementu"
 msgstr[1] "%1 elementos"
 
-#: interfaces/quicksand/qs_matchview.cpp:262
+#: interfaces/quicksand/qs_matchview.cpp:275
 #, kde-format
 msgid "1 action"
 msgid_plural "%1 actions"
 msgstr[0] "1 aición"
 msgstr[1] "%1 aiciones"
 
-#: interfaces/quicksand/qs_matchview.cpp:347
+#: interfaces/quicksand/qs_matchview.cpp:360
 msgid "Loading..."
 msgstr "Cargando..."
 
-#: interfaces/quicksand/qs_matchview.cpp:431
+#: interfaces/quicksand/qs_matchview.cpp:445
 msgid "No results found."
 msgstr "Nun se dió con dengún resultáu."
 
@@ -67,14 +75,6 @@ msgstr "Aida"
 #: interfaces/default/interface.cpp:107
 msgid "Information on using this application"
 msgstr "Información sobro l'usu d'esta aplicación"
-
-#: interfaces/default/interface.cpp:253
-#, fuzzy, kde-format
-#| msgctxt "%1 current item number, %2 total number of items"
-#| msgid "%1 of %2"
-msgctxt "tooltip, shortcut"
-msgid "%1 (%2)"
-msgstr "%1 de %2"
 
 #: interfaces/default/interface.cpp:403
 #, kde-format
@@ -284,11 +284,11 @@ msgstr "Run Command (runner \"%1\" only)"
 msgid "Plugins"
 msgstr "Complementos"
 
-#: configdialog.cpp:76
+#: configdialog.cpp:81
 msgid "User Interface"
 msgstr "Interface d'usuariu"
 
-#: configdialog.cpp:82
+#: configdialog.cpp:87
 msgid "Available Features"
 msgstr "Funcionalidaes disponibles"
 

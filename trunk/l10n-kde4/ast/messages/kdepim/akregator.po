@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:55+0200\n"
+"POT-Creation-Date: 2010-05-22 04:50+0200\n"
 "PO-Revision-Date: 2009-11-16 18:50+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -114,40 +114,6 @@ msgstr "Didier Hoarau"
 msgid "No Archive"
 msgstr "Ensin ficheru"
 
-#: src/pluginmanager.cpp:165
-msgctxt "Name of the plugin"
-msgid "Name"
-msgstr "Nome"
-
-#: src/pluginmanager.cpp:166
-msgctxt "Library name"
-msgid "Library"
-msgstr "Biblioteca"
-
-#: src/pluginmanager.cpp:167
-msgctxt "Plugin authors"
-msgid "Authors"
-msgstr "Autores"
-
-#: src/pluginmanager.cpp:168
-msgctxt "Plugin authors' emaila addresses"
-msgid "Email"
-msgstr "Corréu-e"
-
-#: src/pluginmanager.cpp:169
-msgctxt "Plugin version"
-msgid "Version"
-msgstr "Versión"
-
-#: src/pluginmanager.cpp:170
-msgctxt "Framework version plugin requires"
-msgid "Framework Version"
-msgstr "Versión del marcu de trabayu"
-
-#: src/pluginmanager.cpp:174
-msgid "Plugin Information"
-msgstr "Información del complementu"
-
 #: src/pageviewer.cpp:101 src/actionmanagerimpl.cpp:569
 msgctxt "Go back in browser history"
 msgid "Back"
@@ -189,9 +155,29 @@ msgstr "Abrir la páxina nun restolador esternu"
 msgid "Add to Konqueror Bookmarks"
 msgstr "Amestar a los marcadores de Konqueror"
 
-#: src/feedlist.cpp:177
-msgid "All Feeds"
-msgstr "Toles fontes"
+#: src/importfeedlistcommand.cpp:64
+msgid "Imported Feeds"
+msgstr "Importar fontes"
+
+#: src/importfeedlistcommand.cpp:96
+msgid "Add Imported Folder"
+msgstr "Amestar una carpeta importada"
+
+#: src/importfeedlistcommand.cpp:97
+msgid "Imported folder name:"
+msgstr "Nome de la carpeta importada:"
+
+#: src/progressmanager.cpp:178
+msgid "Fetch completed"
+msgstr "Obtención completada"
+
+#: src/progressmanager.cpp:188
+msgid "Fetch error"
+msgstr "Fallu na obtención"
+
+#: src/progressmanager.cpp:198
+msgid "Fetch aborted"
+msgstr "Obtención interrumpida"
 
 #: src/akregator_options.h:37 src/akregator_options.h:41
 msgid "Add a feed with the given URL"
@@ -205,17 +191,9 @@ msgstr "Cuando s'amiesten les canales, ponles nesti grupu"
 msgid "Hide main window on startup"
 msgstr "Tapecer la ventana principal nel arranque"
 
-#: src/progressmanager.cpp:178
-msgid "Fetch completed"
-msgstr "Obtención completada"
-
-#: src/progressmanager.cpp:188
-msgid "Fetch error"
-msgstr "Fallu na obtención"
-
-#: src/progressmanager.cpp:198
-msgid "Fetch aborted"
-msgstr "Obtención interrumpida"
+#: src/feedlist.cpp:177
+msgid "All Feeds"
+msgstr "Toles fontes"
 
 #: src/akregator_part.cpp:107
 msgid "Akregator News"
@@ -507,6 +485,17 @@ msgstr "Philipp Droessler"
 #: src/aboutdata.cpp:55
 msgid "Gentoo Ebuild"
 msgstr "Ebuild pa Gentoo"
+
+#: src/trayicon.cpp:63
+msgid "Akregator - Feed Reader"
+msgstr "Akregator - Llector de conteníos"
+
+#: src/trayicon.cpp:120
+#, kde-format
+msgid "Akregator - 1 unread article"
+msgid_plural "Akregator - %1 unread articles"
+msgstr[0] "Akregator - 1 artículu ensin lleer."
+msgstr[1] "Akregator - %1 artículos ensin lleer."
 
 #: src/articleviewer.cpp:135
 msgid "Copy &Link Address"
@@ -800,17 +789,35 @@ msgstr ""
 msgid "Docking in System Tray"
 msgstr "Acoplando na bandexa del sistema"
 
-#: src/importfeedlistcommand.cpp:64
-msgid "Imported Feeds"
-msgstr "Importar fontes"
+#: src/articlemodel.cpp:106
+msgctxt "Articlelist's column header"
+msgid "Title"
+msgstr "Títulu"
 
-#: src/importfeedlistcommand.cpp:96
-msgid "Add Imported Folder"
-msgstr "Amestar una carpeta importada"
+#: src/articlemodel.cpp:108
+msgctxt "Articlelist's column header"
+msgid "Feed"
+msgstr "Canal"
 
-#: src/importfeedlistcommand.cpp:97
-msgid "Imported folder name:"
-msgstr "Nome de la carpeta importada:"
+#: src/articlemodel.cpp:110
+msgctxt "Articlelist's column header"
+msgid "Date"
+msgstr "Data"
+
+#: src/articlemodel.cpp:112
+msgctxt "Articlelist's column header"
+msgid "Author"
+msgstr "Autor"
+
+#: src/articlemodel.cpp:114
+msgctxt "Articlelist's column header"
+msgid "Description"
+msgstr "Descripción"
+
+#: src/articlemodel.cpp:116
+msgctxt "Articlelist's column header"
+msgid "Content"
+msgstr "Conteníu"
 
 #: src/actionmanagerimpl.cpp:76 src/actionmanagerimpl.cpp:253
 msgid "&Fetch Feed"
@@ -1118,46 +1125,39 @@ msgstr[1] "<qt>¿Daveres que quies desaniciar los %1 artículos esbillaos?</qt>"
 msgid "Delete Article"
 msgstr "Desaniciar l'articulu"
 
-#: src/articlemodel.cpp:106
-msgctxt "Articlelist's column header"
-msgid "Title"
-msgstr "Títulu"
+#: src/pluginmanager.cpp:165
+msgctxt "Name of the plugin"
+msgid "Name"
+msgstr "Nome"
 
-#: src/articlemodel.cpp:108
-msgctxt "Articlelist's column header"
-msgid "Feed"
-msgstr "Canal"
+#: src/pluginmanager.cpp:166
+msgctxt "Library name"
+msgid "Library"
+msgstr "Biblioteca"
 
-#: src/articlemodel.cpp:110
-msgctxt "Articlelist's column header"
-msgid "Date"
-msgstr "Data"
+#: src/pluginmanager.cpp:167
+msgctxt "Plugin authors"
+msgid "Authors"
+msgstr "Autores"
 
-#: src/articlemodel.cpp:112
-msgctxt "Articlelist's column header"
-msgid "Author"
-msgstr "Autor"
+#: src/pluginmanager.cpp:168
+msgctxt "Plugin authors' emaila addresses"
+msgid "Email"
+msgstr "Corréu-e"
 
-#: src/articlemodel.cpp:114
-msgctxt "Articlelist's column header"
-msgid "Description"
-msgstr "Descripción"
+#: src/pluginmanager.cpp:169
+msgctxt "Plugin version"
+msgid "Version"
+msgstr "Versión"
 
-#: src/articlemodel.cpp:116
-msgctxt "Articlelist's column header"
-msgid "Content"
-msgstr "Conteníu"
+#: src/pluginmanager.cpp:170
+msgctxt "Framework version plugin requires"
+msgid "Framework Version"
+msgstr "Versión del marcu de trabayu"
 
-#: src/trayicon.cpp:63
-msgid "Akregator - Feed Reader"
-msgstr "Akregator - Llector de conteníos"
-
-#: src/trayicon.cpp:120
-#, kde-format
-msgid "Akregator - 1 unread article"
-msgid_plural "Akregator - %1 unread articles"
-msgstr[0] "Akregator - 1 artículu ensin lleer."
-msgstr[1] "Akregator - %1 artículos ensin lleer."
+#: src/pluginmanager.cpp:174
+msgid "Plugin Information"
+msgstr "Información del complementu"
 
 #: src/loadfeedlistcommand.cpp:72
 #, kde-format
@@ -1871,7 +1871,7 @@ msgstr "Reaniciar el filtru rápidu al camudar de fonte."
 #. i18n: ectx: Menu (edit)
 #. i18n: file: src/akregator_part.rc:14
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:235 rc.cpp:325
+#: rc.cpp:235 rc.cpp:322
 msgid "&Edit"
 msgstr "&Editar"
 
@@ -1879,17 +1879,17 @@ msgstr "&Editar"
 #. i18n: ectx: Menu (view)
 #. i18n: file: src/akregator_part.rc:21
 #. i18n: ectx: Menu (view)
-#: rc.cpp:238 rc.cpp:328
+#: rc.cpp:238 rc.cpp:325
 msgid "&View"
 msgstr "&Ver"
 
 #. i18n: file: src/akregator_shell.rc:21
 #. i18n: ectx: Menu (go)
-#. i18n: file: src/pageviewer.rc:34
-#. i18n: ectx: Menu (go)
 #. i18n: file: src/akregator_part.rc:31
 #. i18n: ectx: Menu (go)
-#: rc.cpp:241 rc.cpp:322 rc.cpp:331
+#. i18n: file: src/pageviewer.rc:34
+#. i18n: ectx: Menu (go)
+#: rc.cpp:241 rc.cpp:328 rc.cpp:349
 msgid "&Go"
 msgstr "&Dir"
 
@@ -1897,7 +1897,7 @@ msgstr "&Dir"
 #. i18n: ectx: Menu (feed)
 #. i18n: file: src/akregator_part.rc:44
 #. i18n: ectx: Menu (feed)
-#: rc.cpp:244 rc.cpp:334
+#: rc.cpp:244 rc.cpp:331
 msgid "Fee&d"
 msgstr "F&onte"
 
@@ -1905,7 +1905,7 @@ msgstr "F&onte"
 #. i18n: ectx: Menu (article)
 #. i18n: file: src/akregator_part.rc:57
 #. i18n: ectx: Menu (article)
-#: rc.cpp:247 rc.cpp:337
+#: rc.cpp:247 rc.cpp:334
 msgid "&Article"
 msgstr "&Artículu"
 
@@ -1913,7 +1913,7 @@ msgstr "&Artículu"
 #. i18n: ectx: Menu (settings)
 #. i18n: file: src/akregator_part.rc:73
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:250 rc.cpp:340
+#: rc.cpp:250 rc.cpp:337
 msgid "&Settings"
 msgstr "Axu&stes"
 
@@ -1921,7 +1921,7 @@ msgstr "Axu&stes"
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: src/akregator_part.rc:84
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:253 rc.cpp:343
+#: rc.cpp:253 rc.cpp:340
 msgid "Main Toolbar"
 msgstr "Barra de ferramientes Principal"
 
@@ -1929,7 +1929,7 @@ msgstr "Barra de ferramientes Principal"
 #. i18n: ectx: ToolBar (browserToolBar)
 #. i18n: file: src/akregator_part.rc:94
 #. i18n: ectx: ToolBar (browserToolBar)
-#: rc.cpp:256 rc.cpp:346
+#: rc.cpp:256 rc.cpp:343
 msgid "Browser Toolbar"
 msgstr "Barra de ferramientas del restolador"
 
@@ -1937,7 +1937,7 @@ msgstr "Barra de ferramientas del restolador"
 #. i18n: ectx: ToolBar (textToSpeechToolBar)
 #. i18n: file: src/akregator_part.rc:102
 #. i18n: ectx: ToolBar (textToSpeechToolBar)
-#: rc.cpp:259 rc.cpp:349
+#: rc.cpp:259 rc.cpp:346
 msgid "Speech Toolbar"
 msgstr "Barra de voz"
 
