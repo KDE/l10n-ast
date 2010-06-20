@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-19 05:07+0200\n"
+"POT-Creation-Date: 2010-06-20 05:03+0200\n"
 "PO-Revision-Date: 2009-12-06 18:15+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Español <kde-ye@kybs.de>\n"
@@ -128,7 +128,7 @@ msgstr "*.cue *.CUE|Ficheros cue"
 msgid "*.toc *.TOC|Cdrdao TOC Files and Cdrecord Clone Images"
 msgstr "*.toc *.TOC|Ficheros TOC Cdrdao y ficheros clon de Cdrecord"
 
-#: misc/k3bimagewritingdialog.cpp:461 k3bfileview.cpp:82 k3b.cpp:1377
+#: misc/k3bimagewritingdialog.cpp:461 k3bfileview.cpp:82 k3b.cpp:1366
 msgid "*|All Files"
 msgstr "*|Tolos ficheros"
 
@@ -427,7 +427,7 @@ msgstr ""
 #: misc/k3bmediacopydialog.cpp:302 misc/k3bmediacopydialog.cpp:311
 #: projects/k3bdataburndialog.cpp:184 projects/k3bvcdburndialog.cpp:552
 #: projects/k3bmovixburndialog.cpp:216 projects/k3bvideodvdburndialog.cpp:171
-#: k3b.cpp:1079 k3bdebuggingoutputdialog.cpp:81
+#: k3b.cpp:1068 k3bdebuggingoutputdialog.cpp:81
 #, kde-format
 msgid "Do you want to overwrite %1?"
 msgstr "¿Quies sobrescribir %1?"
@@ -435,7 +435,7 @@ msgstr "¿Quies sobrescribir %1?"
 #: misc/k3bmediacopydialog.cpp:303 misc/k3bmediacopydialog.cpp:312
 #: projects/k3bdataburndialog.cpp:185 projects/k3bvcdburndialog.cpp:553
 #: projects/k3bmovixburndialog.cpp:217 projects/k3bvideodvdburndialog.cpp:172
-#: k3b.cpp:1080 k3bdebuggingoutputdialog.cpp:82
+#: k3b.cpp:1069 k3bdebuggingoutputdialog.cpp:82
 msgid "File Exists"
 msgstr "El ficheru esiste"
 
@@ -1010,31 +1010,31 @@ msgid "Video"
 msgstr "Vídeo"
 
 #: projects/k3bmixedview.cpp:54
-msgid "Data Section"
-msgstr "Estaya de datos"
-
-#: projects/k3bmixedview.cpp:55
 msgid "Audio Section"
 msgstr "Estaya d'Audio"
 
-#: projects/k3bmixedview.cpp:128
+#: projects/k3bmixedview.cpp:55
+msgid "Data Section"
+msgstr "Estaya de datos"
+
+#: projects/k3bmixedview.cpp:129
 msgid "Please add files and audio titles to your project first."
 msgstr "Por favor, amiesta primero los ficheros y títulos d'audio al proyeutu."
 
-#: projects/k3bmixedview.cpp:129 projects/k3bdataview.cpp:122
+#: projects/k3bmixedview.cpp:130 projects/k3bdataview.cpp:123
 #: projects/k3bview.cpp:92
 msgid "No Data to Burn"
 msgstr "Dengún datu pa grabar"
 
 #: projects/k3bvcdview.cpp:62 projects/k3bmovixview.cpp:64
-#: projects/k3bdataviewimpl.cpp:66 projects/k3baudioviewimpl.cpp:90
+#: projects/k3bdataviewimpl.cpp:74 projects/k3baudioviewimpl.cpp:89
 msgid "Properties"
 msgstr "Propiedaes"
 
 #. i18n: file: ../plugins/encoder/external/base_k3bexternalencoderconfigwidget.ui:81
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
 #: projects/k3bvcdview.cpp:66 projects/k3bmovixview.cpp:67
-#: projects/k3bdataviewimpl.cpp:60 projects/k3baudioviewimpl.cpp:92
+#: projects/k3bdataviewimpl.cpp:68 projects/k3baudioviewimpl.cpp:91
 #: rc.cpp:1092
 msgid "Remove"
 msgstr "Desaniciar"
@@ -1147,92 +1147,92 @@ msgstr "Deshabilitar normalización"
 msgid "Disable on-the-fly burning"
 msgstr "Desactivar grabación al vuelu"
 
-#: projects/k3bfillstatusdisplay.cpp:217 projects/k3bfillstatusdisplay.cpp:613
-#: projects/k3bfillstatusdisplay.cpp:876
+#: projects/k3bfillstatusdisplay.cpp:176 projects/k3bfillstatusdisplay.cpp:569
+#: projects/k3bfillstatusdisplay.cpp:832
 msgid "min"
 msgstr "min"
 
-#: projects/k3bfillstatusdisplay.cpp:225 projects/k3bfillstatusdisplay.cpp:228
-#: projects/k3bfillstatusdisplay.cpp:233 k3bdiskinfoview.cpp:300
+#: projects/k3bfillstatusdisplay.cpp:184 projects/k3bfillstatusdisplay.cpp:187
+#: projects/k3bfillstatusdisplay.cpp:192 k3bdiskinfoview.cpp:300
 #: k3bdiskinfoview.cpp:302 k3bdiskinfoview.cpp:306
 #, kde-format
 msgid "%1 min"
 msgstr "%1 min"
 
-#: projects/k3bfillstatusdisplay.cpp:223
+#: projects/k3bfillstatusdisplay.cpp:182
 #, kde-format
 msgid "Available: %1 of %2"
 msgstr "Disponible: %1 de %2"
 
-#: projects/k3bfillstatusdisplay.cpp:231
+#: projects/k3bfillstatusdisplay.cpp:190
 #, kde-format
 msgid "Capacity exceeded by %1"
 msgstr "Capacidá perpasada en %1"
 
-#: projects/k3bfillstatusdisplay.cpp:435
+#: projects/k3bfillstatusdisplay.cpp:391
 msgid "Minutes"
 msgstr "Minutos"
 
-#: projects/k3bfillstatusdisplay.cpp:437
+#: projects/k3bfillstatusdisplay.cpp:393
 msgid "Megabytes"
 msgstr "Megabytes"
 
-#: projects/k3bfillstatusdisplay.cpp:440
+#: projects/k3bfillstatusdisplay.cpp:396
 msgid "Automatic Size"
 msgstr "Tamañu automáticu"
 
-#: projects/k3bfillstatusdisplay.cpp:442 projects/k3bfillstatusdisplay.cpp:444
-#: projects/k3bfillstatusdisplay.cpp:446 projects/k3bfillstatusdisplay.cpp:526
-#: projects/k3bfillstatusdisplay.cpp:527 projects/k3bfillstatusdisplay.cpp:528
+#: projects/k3bfillstatusdisplay.cpp:398 projects/k3bfillstatusdisplay.cpp:400
+#: projects/k3bfillstatusdisplay.cpp:402 projects/k3bfillstatusdisplay.cpp:482
+#: projects/k3bfillstatusdisplay.cpp:483 projects/k3bfillstatusdisplay.cpp:484
 #, kde-format
 msgid "%1 MB"
 msgstr "%1 MB"
 
-#: projects/k3bfillstatusdisplay.cpp:458
+#: projects/k3bfillstatusdisplay.cpp:414
 msgid "Custom..."
 msgstr "Personalizáu..."
 
-#: projects/k3bfillstatusdisplay.cpp:460
+#: projects/k3bfillstatusdisplay.cpp:416
 msgid "From Medium..."
 msgstr "Dende'l sofitu..."
 
-#: projects/k3bfillstatusdisplay.cpp:478
+#: projects/k3bfillstatusdisplay.cpp:434
 msgid "User Defaults"
 msgstr "Predeterminaos del usuariu"
 
-#: projects/k3bfillstatusdisplay.cpp:481
+#: projects/k3bfillstatusdisplay.cpp:437
 msgid "Save User Defaults"
 msgstr "Guardar opciones"
 
-#: projects/k3bfillstatusdisplay.cpp:485
+#: projects/k3bfillstatusdisplay.cpp:441
 msgid "Why 4.4 instead of 4.7?"
 msgstr "¿Por qué 4.4 en vez de 4.7?"
 
-#: projects/k3bfillstatusdisplay.cpp:489
+#: projects/k3bfillstatusdisplay.cpp:445
 msgid "Show Size In"
 msgstr "Amosar tamañu en"
 
-#: projects/k3bfillstatusdisplay.cpp:495
+#: projects/k3bfillstatusdisplay.cpp:451
 msgid "CD Size"
 msgstr "Tamañu del CD"
 
-#: projects/k3bfillstatusdisplay.cpp:501
+#: projects/k3bfillstatusdisplay.cpp:457
 msgid "DVD Size"
 msgstr "Tamañu del DVD"
 
-#: projects/k3bfillstatusdisplay.cpp:507
+#: projects/k3bfillstatusdisplay.cpp:463
 msgid "Blu-ray Size"
 msgstr "Tamañu Blu-Ray"
 
-#: projects/k3bfillstatusdisplay.cpp:538 projects/k3bfillstatusdisplay.cpp:539
-#: projects/k3bfillstatusdisplay.cpp:540
+#: projects/k3bfillstatusdisplay.cpp:494 projects/k3bfillstatusdisplay.cpp:495
+#: projects/k3bfillstatusdisplay.cpp:496
 #, kde-format
 msgid "unused"
 msgid_plural "%1 minutes"
 msgstr[0] "ensin usar"
 msgstr[1] "%1 minutos"
 
-#: projects/k3bfillstatusdisplay.cpp:598
+#: projects/k3bfillstatusdisplay.cpp:554
 msgid ""
 "<p><b>Why does K3b offer 4.4 GB and 8.0 GB instead of 4.7 and 8.5 like it "
 "says on the media?</b><p>A single layer DVD media has a capacity of "
@@ -1246,19 +1246,19 @@ msgstr ""
 "productores de medios usen 1.000 en vez de 1.024 por razones publicitaries."
 "<br>Esti resultáu en 4,4*1.024<sup>3</sup>/1.000<sup>3</sup> = 4,7 GB."
 
-#: projects/k3bfillstatusdisplay.cpp:611
+#: projects/k3bfillstatusdisplay.cpp:567
 msgid "GB"
 msgstr ""
 
-#: projects/k3bfillstatusdisplay.cpp:612 option/k3badvancedoptiontab.cpp:67
+#: projects/k3bfillstatusdisplay.cpp:568 option/k3badvancedoptiontab.cpp:67
 msgid "MB"
 msgstr "MB"
 
-#: projects/k3bfillstatusdisplay.cpp:626
+#: projects/k3bfillstatusdisplay.cpp:582
 msgid "Custom Size"
 msgstr "Tamañu personalizáu"
 
-#: projects/k3bfillstatusdisplay.cpp:627
+#: projects/k3bfillstatusdisplay.cpp:583
 #, fuzzy
 #| msgid ""
 #| "<p>Please specify the size of the media. Use suffixes <b>gb</b>,<b>mb</"
@@ -1273,15 +1273,15 @@ msgstr ""
 "<b>mb</b> y <b>min</b> pa <em>gigabytes</em>, <em>megabytes</em> y "
 "<em>minutos</em> respeutivamente."
 
-#: projects/k3bfillstatusdisplay.cpp:684
+#: projects/k3bfillstatusdisplay.cpp:640
 msgid "Medium is not empty."
 msgstr "El mediu nun ta baleru."
 
-#: projects/k3bfillstatusdisplay.cpp:687
+#: projects/k3bfillstatusdisplay.cpp:643
 msgid "No usable medium found."
 msgstr "Nun s'atopó un mediu utilizable."
 
-#: projects/k3bfillstatusdisplay.cpp:877
+#: projects/k3bfillstatusdisplay.cpp:833
 msgid "Right click for media sizes"
 msgstr "Calcar nel botón drechu pa tamaños de soportes"
 
@@ -1912,8 +1912,8 @@ msgstr "Nu&mberu del conxuntu del volume:"
 msgid "&Publisher:"
 msgstr "&Editor:"
 
-#: projects/k3bdataview.cpp:121 projects/k3bview.cpp:91
-#: projects/k3baudioviewimpl.cpp:418
+#: projects/k3bdataview.cpp:122 projects/k3bview.cpp:91
+#: projects/k3baudioviewimpl.cpp:417
 msgid "Please add files to your project first."
 msgstr "Por favor, amiesta primero los ficheros al to proyeutu."
 
@@ -1986,67 +1986,67 @@ msgstr "Amestar ficheru de subtítulu..."
 msgid "K3b currently only supports local files."
 msgstr "K3b actualmente solo soporta ficheros llocales."
 
-#: projects/k3bdataviewimpl.cpp:58
+#: projects/k3bdataviewimpl.cpp:66
 #, fuzzy
 #| msgid "1 Folder"
 #| msgid_plural "%1 Folders"
 msgid "New Folder..."
 msgstr "una carpeta"
 
-#: projects/k3bdataviewimpl.cpp:62 projects/k3bdataurladdingdialog.cpp:418
+#: projects/k3bdataviewimpl.cpp:70 projects/k3bdataurladdingdialog.cpp:418
 #: projects/k3bdataurladdingdialog.cpp:645
 msgid "Rename"
 msgstr "Camudar nome"
 
-#: projects/k3bdataviewimpl.cpp:64
+#: projects/k3bdataviewimpl.cpp:72
 #, fuzzy
 #| msgid "Target Folder"
 msgid "Parent Folder"
 msgstr "Carpeta de destín"
 
-#: projects/k3bdataviewimpl.cpp:68
+#: projects/k3bdataviewimpl.cpp:76
 msgid "Open"
 msgstr "Abrir"
 
-#: projects/k3bdataviewimpl.cpp:70
+#: projects/k3bdataviewimpl.cpp:78
 msgid "&Import Session..."
 msgstr "&Importar sesión..."
 
-#: projects/k3bdataviewimpl.cpp:72
+#: projects/k3bdataviewimpl.cpp:80
 msgid "&Clear Imported Session"
 msgstr "&Llimpiar sesión importada"
 
-#: projects/k3bdataviewimpl.cpp:74
+#: projects/k3bdataviewimpl.cpp:82
 msgid "&Edit Boot Images..."
 msgstr "&Editar imáxenes d'arranque..."
 
-#: projects/k3bdataviewimpl.cpp:77
+#: projects/k3bdataviewimpl.cpp:85
 msgid "Import a previously burned session into the current project"
 msgstr "Importar una sesion de grabación previa dientro del proyeutu actual"
 
-#: projects/k3bdataviewimpl.cpp:78
+#: projects/k3bdataviewimpl.cpp:86
 msgid "Remove the imported items from a previous session"
 msgstr "Desaniciar los elementos importaos d'una sesión anterior"
 
-#: projects/k3bdataviewimpl.cpp:79
+#: projects/k3bdataviewimpl.cpp:87
 msgid "Modify the bootable settings of the current project"
 msgstr "Camudar los axustes del arranque del proyeutu actual"
 
-#: projects/k3bdataviewimpl.cpp:141 projects/k3bdataviewimpl.cpp:143
-#: projects/k3bdataviewimpl.cpp:146 projects/k3bdataviewimpl.cpp:149
+#: projects/k3bdataviewimpl.cpp:149 projects/k3bdataviewimpl.cpp:151
+#: projects/k3bdataviewimpl.cpp:154 projects/k3bdataviewimpl.cpp:157
 #, fuzzy
 #| msgid "1 Folder"
 #| msgid_plural "%1 Folders"
 msgid "New Folder"
 msgstr "una carpeta"
 
-#: projects/k3bdataviewimpl.cpp:142
+#: projects/k3bdataviewimpl.cpp:150
 #, fuzzy
 #| msgid "Please insert the name for the new directory:"
 msgid "Please insert the name for the new folder:"
 msgstr "Por favor, pon el nome del nuevu direutoriu:"
 
-#: projects/k3bdataviewimpl.cpp:147
+#: projects/k3bdataviewimpl.cpp:155
 #, fuzzy
 #| msgid ""
 #| "A file with that name already exists. Please insert the name for the new "
@@ -2058,7 +2058,7 @@ msgstr ""
 "Yá esiste un ficheru con esi nome. Por favor, pon el nome del nuevu "
 "direutoriu:"
 
-#: projects/k3bdataviewimpl.cpp:304
+#: projects/k3bdataviewimpl.cpp:312
 msgid "Edit Boot Images"
 msgstr "Editar imáxenes d'arranque"
 
@@ -2650,65 +2650,65 @@ msgstr ""
 "<br>Podríen ocasionase problemes con dellos reproductores antiguos "
 "qu'intenten lleer la pista de datos."
 
-#: projects/k3baudioviewimpl.cpp:72
+#: projects/k3baudioviewimpl.cpp:71
 msgid "Add Silence..."
 msgstr "Amestar Silenciu..."
 
-#: projects/k3baudioviewimpl.cpp:74
+#: projects/k3baudioviewimpl.cpp:73
 msgid "Merge Tracks"
 msgstr "Fusionar pistas"
 
-#: projects/k3baudioviewimpl.cpp:76
+#: projects/k3baudioviewimpl.cpp:75
 msgid "Source to Track"
 msgstr "Orixe a pista"
 
-#: projects/k3baudioviewimpl.cpp:78
+#: projects/k3baudioviewimpl.cpp:77
 msgid "Split Track..."
 msgstr "Dividir pista..."
 
-#: projects/k3baudioviewimpl.cpp:80
+#: projects/k3baudioviewimpl.cpp:79
 msgid "Edit Source..."
 msgstr "Editar orixe..."
 
-#: projects/k3baudioviewimpl.cpp:82
+#: projects/k3baudioviewimpl.cpp:81
 msgid "Play Track"
 msgstr "Reproducir pista"
 
-#: projects/k3baudioviewimpl.cpp:84 projects/k3baudioviewimpl.cpp:87
+#: projects/k3baudioviewimpl.cpp:83 projects/k3baudioviewimpl.cpp:86
 msgid "Musicbrainz Lookup"
 msgstr "Gueta en Musicbrainz"
 
-#: projects/k3baudioviewimpl.cpp:86 projects/k3baudioviewimpl.cpp:89
+#: projects/k3baudioviewimpl.cpp:85 projects/k3baudioviewimpl.cpp:88
 msgid "Try to determine meta information over the Internet"
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:94
+#: projects/k3baudioviewimpl.cpp:93
 msgid "Convert Tracks"
 msgstr "Convertir pistes"
 
-#: projects/k3baudioviewimpl.cpp:188
+#: projects/k3baudioviewimpl.cpp:187
 msgid "Add Silence"
 msgstr "Amestar Silenciu"
 
-#: projects/k3baudioviewimpl.cpp:192
+#: projects/k3baudioviewimpl.cpp:191
 msgid "Length of silence:"
 msgstr "Duración del silenciu:"
 
-#: projects/k3baudioviewimpl.cpp:283
+#: projects/k3baudioviewimpl.cpp:282
 msgid "Edit Audio Track Source"
 msgstr "Editar orixe de la pista d'audio"
 
-#: projects/k3baudioviewimpl.cpp:324
+#: projects/k3baudioviewimpl.cpp:323
 #, fuzzy
 #| msgid "Please select an audio track."
 msgid "Please add an audio track."
 msgstr "Por favor escueyi una pista d'audio."
 
-#: projects/k3baudioviewimpl.cpp:348
+#: projects/k3baudioviewimpl.cpp:347
 msgid "Please select an audio track."
 msgstr "Por favor escueyi una pista d'audio."
 
-#: projects/k3baudioviewimpl.cpp:419
+#: projects/k3baudioviewimpl.cpp:418
 msgid "No tracks to convert"
 msgstr ""
 
@@ -3263,7 +3263,7 @@ msgstr ""
 "nun ye capaz de deteutar la to unidá, necesites camudar los tos permisos pa "
 "dar a K3b accesu d'escritura a tolos preseos."
 
-#: option/k3bdeviceoptiontab.cpp:85 k3b.cpp:1402
+#: option/k3bdeviceoptiontab.cpp:85 k3b.cpp:1391
 #: k3bsystemproblemdialog.cpp:615
 msgid "Unable to start K3b::Setup."
 msgstr "Imposible arrancar  K3b::configuración."
@@ -3488,7 +3488,7 @@ msgstr "Temes"
 msgid "K3b GUI Themes"
 msgstr "Temes de la interfaz de K3b"
 
-#: option/k3boptiondialog.cpp:192 rip/k3baudiocdview.cpp:449
+#: option/k3boptiondialog.cpp:192 rip/k3baudiocdview.cpp:450
 msgid "CDDB"
 msgstr "CDDB"
 
@@ -3835,28 +3835,28 @@ msgstr ""
 msgid "Unable to read Video DVD contents."
 msgstr "Nun pudo lleer el conteníu del DVD de vídeo."
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:285 rip/k3baudiocdview.cpp:247
+#: rip/videodvd/k3bvideodvdrippingview.cpp:285 rip/k3baudiocdview.cpp:248
 #: rip/k3bvideocdview.cpp:374
 msgid "Check All"
 msgstr "Escoyer toos"
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:290 rip/k3baudiocdview.cpp:249
+#: rip/videodvd/k3bvideodvdrippingview.cpp:290 rip/k3baudiocdview.cpp:250
 #: rip/k3bvideocdview.cpp:377
 msgid "Uncheck All"
 msgstr "Deescoyer toos"
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:295 rip/k3baudiocdview.cpp:251
+#: rip/videodvd/k3bvideodvdrippingview.cpp:295 rip/k3baudiocdview.cpp:252
 #: rip/k3bvideocdview.cpp:380
 msgid "Check Track"
 msgstr "Escoyer pista"
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:300 rip/k3baudiocdview.cpp:253
+#: rip/videodvd/k3bvideodvdrippingview.cpp:300 rip/k3baudiocdview.cpp:254
 #: rip/k3bvideocdview.cpp:383
 msgid "Uncheck Track"
 msgstr "Deescoyer pista"
 
 #: rip/videodvd/k3bvideodvdrippingview.cpp:305
-#: rip/k3bvideocdrippingdialog.cpp:118 rip/k3baudiocdview.cpp:259
+#: rip/k3bvideocdrippingdialog.cpp:118 rip/k3baudiocdview.cpp:260
 #: rip/k3bvideocdview.cpp:386 rip/k3baudiorippingdialog.cpp:200
 msgid "Start Ripping"
 msgstr "Entamar la extraición"
@@ -4312,30 +4312,30 @@ msgstr "¿Siguir anque la carpeta nun tea vacía?"
 msgid "Track %1"
 msgstr "Pista %1"
 
-#: rip/k3baudiocdview.cpp:153
+#: rip/k3baudiocdview.cpp:154
 msgid "Searching for Artist information..."
 msgstr "Buscando información del artista..."
 
-#: rip/k3baudiocdview.cpp:184
+#: rip/k3baudiocdview.cpp:185
 #, kde-format
 msgid ""
 "Found Cd-Text (%1 - %2). Do you want to use it instead of CDDB (%3 - %4)?"
 msgstr ""
 "Atopóse un Cd de testu (%1 - %2). ¿Quies usalu en vez de CDDB (%3 - %4)?"
 
-#: rip/k3baudiocdview.cpp:189
+#: rip/k3baudiocdview.cpp:190
 msgid "Found Cd-Text"
 msgstr "CD-Testu atopáu"
 
-#: rip/k3baudiocdview.cpp:190
+#: rip/k3baudiocdview.cpp:191
 msgid "Use CD-Text"
 msgstr "Usar CD-Testu"
 
-#: rip/k3baudiocdview.cpp:191
+#: rip/k3baudiocdview.cpp:192
 msgid "Use CDDB"
 msgstr "Usar CDDB"
 
-#: rip/k3baudiocdview.cpp:216 rip/k3baudioprojectconvertingdialog.cpp:106
+#: rip/k3baudiocdview.cpp:217 rip/k3baudioprojectconvertingdialog.cpp:106
 #: rip/k3bvideocdview.cpp:366 rip/k3baudiorippingdialog.cpp:124
 #, kde-format
 msgid "1 track (%2)"
@@ -4343,88 +4343,88 @@ msgid_plural "%1 tracks (%2)"
 msgstr[0] "una pista (%2)"
 msgstr[1] "%1 pistes (%2)"
 
-#: rip/k3baudiocdview.cpp:238
+#: rip/k3baudiocdview.cpp:239
 msgid "Audio CD"
 msgstr "CD d'audio"
 
-#: rip/k3baudiocdview.cpp:255
+#: rip/k3baudiocdview.cpp:256
 #, fuzzy
 #| msgid "Edit Track cddb Info"
 msgid "Edit Track CDDB Info"
 msgstr "Editar información CDDB"
 
-#: rip/k3baudiocdview.cpp:257
+#: rip/k3baudiocdview.cpp:258
 #, fuzzy
 #| msgid "Edit Album cddb Info"
 msgid "Edit Album CDDB Info"
 msgstr "Editar información CDDB del álbum"
 
-#: rip/k3baudiocdview.cpp:261
+#: rip/k3baudiocdview.cpp:262
 #: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:47
 #, fuzzy
 #| msgid "Query Cddb"
 msgid "Query CDDB"
 msgstr "Guetar CDDB"
 
-#: rip/k3baudiocdview.cpp:263
+#: rip/k3baudiocdview.cpp:264
 #, fuzzy
 #| msgid "Save Cddb Entry Locally"
 msgid "Save CDDB Entry Locally"
 msgstr "Guardar entrada CDDB llocalmente"
 
-#: rip/k3baudiocdview.cpp:265
+#: rip/k3baudiocdview.cpp:266
 #, fuzzy
 #| msgid "New &Data Project"
 msgid "Show Data Part"
 msgstr "Proyeutu de &Datos Nuevu"
 
-#: rip/k3baudiocdview.cpp:267
+#: rip/k3baudiocdview.cpp:268
 msgid "Mounts the data part of CD"
 msgstr ""
 
-#: rip/k3baudiocdview.cpp:304 rip/k3bvideocdview.cpp:452
+#: rip/k3baudiocdview.cpp:305 rip/k3bvideocdview.cpp:452
 msgid "Please select the tracks to rip."
 msgstr "Por favor escueyi les pistes a sacar."
 
-#: rip/k3baudiocdview.cpp:305 rip/k3bvideocdview.cpp:452
+#: rip/k3baudiocdview.cpp:306 rip/k3bvideocdview.cpp:452
 msgid "No Tracks Selected"
 msgstr "Denguna pista escoyida"
 
-#: rip/k3baudiocdview.cpp:325
+#: rip/k3baudiocdview.cpp:326
 #, fuzzy, kde-format
 #| msgid "Cddb Track %1"
 msgid "CDDB Track %1"
 msgstr "Pista CDDB %1"
 
-#: rip/k3baudiocdview.cpp:340 rip/k3baudiocdview.cpp:402
+#: rip/k3baudiocdview.cpp:341 rip/k3baudiocdview.cpp:403
 msgid "Title:"
 msgstr "Títulu:"
 
-#: rip/k3baudiocdview.cpp:343 rip/k3baudiocdview.cpp:404
+#: rip/k3baudiocdview.cpp:344 rip/k3baudiocdview.cpp:405
 msgid "Artist:"
 msgstr "Artista:"
 
-#: rip/k3baudiocdview.cpp:345 rip/k3baudiocdview.cpp:406
+#: rip/k3baudiocdview.cpp:346 rip/k3baudiocdview.cpp:407
 msgid "Extra info:"
 msgstr "Información extra:"
 
-#: rip/k3baudiocdview.cpp:364
+#: rip/k3baudiocdview.cpp:365
 msgid "Album Cddb"
 msgstr "CDDB del álbum"
 
-#: rip/k3baudiocdview.cpp:408
+#: rip/k3baudiocdview.cpp:409
 msgid "Genre:"
 msgstr "Xéneru:"
 
-#: rip/k3baudiocdview.cpp:410
+#: rip/k3baudiocdview.cpp:411
 msgid "Year:"
 msgstr "Añu:"
 
-#: rip/k3baudiocdview.cpp:413
+#: rip/k3baudiocdview.cpp:414
 msgid "Category:"
 msgstr "Estaya:"
 
-#: rip/k3baudiocdview.cpp:447
+#: rip/k3baudiocdview.cpp:448
 #, kde-format
 msgid "Saved entry in category %1."
 msgstr ""
@@ -5142,322 +5142,354 @@ msgstr "Opciones"
 msgid "K3b - The CD and DVD Kreator"
 msgstr "K3b - El Kreador de CD y DVD"
 
-#: k3b.cpp:301
-msgid "Save All"
-msgstr "Grabar toos"
-
-#: k3b.cpp:304
-msgid "Close All"
-msgstr "Zarrar too"
-
-#: k3b.cpp:319
-msgid "&New Project"
-msgstr "&Nuevu proyeutu"
-
-#: k3b.cpp:322
-msgid "New &Audio CD Project"
-msgstr "Nuevu proyeutu de CD d'&audio"
-
-#: k3b.cpp:324
-msgid "New &Data Project"
-msgstr "Proyeutu de &Datos Nuevu"
-
-#: k3b.cpp:326
-msgid "New &Mixed Mode CD Project"
-msgstr "Nuevu proyeutu de CD en mou &mistu"
-
-#: k3b.cpp:328
-msgid "New &Video CD Project"
-msgstr "Nuevu proyeutu de CD de &vídeo"
-
-#: k3b.cpp:330
-msgid "New &eMovix Project"
-msgstr "Proyeutu d'&eMovix Nuevu"
-
-#: k3b.cpp:332
-msgid "New V&ideo DVD Project"
-msgstr "Nuevu proyeutu de DVD de &vídeo"
-
-#: k3b.cpp:334 k3bdevicemenu.cpp:76
-msgid "Continue Multisession Project"
-msgstr "Siguir proyeutu multisesión"
-
-#: k3b.cpp:353
-msgid "&Add Files..."
-msgstr "&Amestar ficheros..."
-
-#: k3b.cpp:356
-msgid "&Clear Project"
-msgstr "&Llimpiar proyeutu"
-
-#: k3b.cpp:360
-msgid "Lock Panels"
-msgstr ""
-
-#: k3b.cpp:365
-msgid "Show Projects Header"
-msgstr ""
-
-#: k3b.cpp:369 k3bdevicemenu.cpp:78
-msgid "&Format/Erase rewritable disk..."
-msgstr "&Formatiar/Desaniciar discu regrabable..."
-
-#: k3b.cpp:376
-msgid "Format"
-msgstr "Formatear"
-
-#: k3b.cpp:379
-msgid "&Burn Image..."
-msgstr "&Grabar Imaxe..."
-
-#: k3b.cpp:388 k3bdevicemenu.cpp:77
-msgid "Copy &Medium..."
-msgstr ""
-
-#: k3b.cpp:395 k3bdebuggingoutputdialog.cpp:46
-msgid "Copy"
-msgstr "Copiar"
-
-#: k3b.cpp:398 k3bdevicemenu.cpp:79
-msgid "Rip Audio CD..."
-msgstr "Estrayer CD de audio..."
-
-#: k3b.cpp:406 k3bdevicemenu.cpp:80
-msgid "Rip Video DVD..."
-msgstr "Estrayer DVD de vídeo..."
-
-#: k3b.cpp:414 k3bdevicemenu.cpp:81
-msgid "Rip Video CD..."
-msgstr "Estrayer CD de vídeo..."
-
-#: k3b.cpp:423
-msgid "System Check"
-msgstr "Comprobar sistema"
-
-#: k3b.cpp:433
-msgid "&Setup System Permissions..."
-msgstr "&Configuración de los permisos del sistema..."
-
-#: k3b.cpp:442
-msgid "Creates a new project"
-msgstr "Cria un nuevu proyeutu"
-
-#: k3b.cpp:444
-msgid "Creates a new data project"
-msgstr ""
-
-#: k3b.cpp:446
-msgid "Creates a new audio CD project"
-msgstr "Cria un nuevu proyeutu de CD d'audio"
-
-#: k3b.cpp:448
-msgid "Creates a new eMovix project"
-msgstr ""
-
-#: k3b.cpp:450
-msgid "Creates a new Video CD project"
-msgstr "Cria un nuevu proyeutu de CD de vídeo"
-
-#: k3b.cpp:452 k3bdevicemenu.cpp:85
-msgid "Open the rewritable disk formatting/erasing dialog"
-msgstr ""
-
-#: k3b.cpp:454
-msgid "Write an Iso9660, cue/bin, or cdrecord clone image to an optical disc"
-msgstr ""
-
-#: k3b.cpp:456 k3bdevicemenu.cpp:83
-msgid "Open the media copy dialog"
-msgstr ""
-
-#: k3b.cpp:458
+#: k3b.cpp:298
 msgid "Opens an existing project"
 msgstr "Abri un proyeutu existente"
 
-#: k3b.cpp:460
+#: k3b.cpp:302
 msgid "Opens a recently used file"
 msgstr "Abri un ficheru usáu hai poco"
 
-#: k3b.cpp:462
+#: k3b.cpp:306
 msgid "Saves the current project"
 msgstr "Guarda'l proyeutu actual"
 
-#: k3b.cpp:464
+#: k3b.cpp:310
 msgid "Saves the current project to a new url"
 msgstr "Guarda'l proyeutu actual nuna nueva url"
 
-#: k3b.cpp:466
+#: k3b.cpp:313
+msgid "Save All"
+msgstr "Grabar toos"
+
+#: k3b.cpp:314
 msgid "Saves all open projects"
 msgstr "Guarda tolos proyeutos abiertos"
 
-#: k3b.cpp:468
+#: k3b.cpp:320
 msgid "Closes the current project"
 msgstr "Zarra el proyeutu actual"
 
-#: k3b.cpp:470
+#: k3b.cpp:323
+msgid "Close All"
+msgstr "Zarrar too"
+
+#: k3b.cpp:324
 msgid "Closes all open projects"
 msgstr "Cierra tolos proyeutos abiertos"
 
-#: k3b.cpp:472
+#: k3b.cpp:330
 msgid "Quits the application"
 msgstr "Zarra l'aplicación"
 
-#: k3b.cpp:474
-msgid "Configure K3b settings"
-msgstr "Configurar axustes de K3b"
+#: k3b.cpp:333
+msgid "New &Audio CD Project"
+msgstr "Nuevu proyeutu de CD d'&audio"
 
-#: k3b.cpp:477
-msgid "Setup the system permissions"
+#: k3b.cpp:334
+msgid "Creates a new audio CD project"
+msgstr "Cria un nuevu proyeutu de CD d'audio"
+
+#: k3b.cpp:339
+msgid "New &Data Project"
+msgstr "Proyeutu de &Datos Nuevu"
+
+#: k3b.cpp:340
+msgid "Creates a new data project"
 msgstr ""
 
-#: k3b.cpp:480
-msgid "Digitally extract tracks from an audio CD"
-msgstr "Saca dixitalmente pistes d'un CD d'audio"
+#: k3b.cpp:345
+msgid "New &Mixed Mode CD Project"
+msgstr "Nuevu proyeutu de CD en mou &mistu"
 
-#: k3b.cpp:482
-msgid "Transcode Video DVD titles"
-msgstr "Trescodificar títulos del DVD de vídeo"
+#: k3b.cpp:346
+#, fuzzy
+#| msgid "Creates a new audio CD project"
+msgid "Creates a new mixed audio/data CD project"
+msgstr "Cria un nuevu proyeutu de CD d'audio"
 
-#: k3b.cpp:484
-msgid "Extract tracks from a Video CD"
-msgstr "Sacar pistes d'un CD de vídeo"
+#: k3b.cpp:351
+msgid "New &Video CD Project"
+msgstr "Nuevu proyeutu de CD de &vídeo"
 
-#: k3b.cpp:486
+#: k3b.cpp:352
+msgid "Creates a new Video CD project"
+msgstr "Cria un nuevu proyeutu de CD de vídeo"
+
+#: k3b.cpp:357
+msgid "New &eMovix Project"
+msgstr "Proyeutu d'&eMovix Nuevu"
+
+#: k3b.cpp:358
+msgid "Creates a new eMovix project"
+msgstr ""
+
+#: k3b.cpp:363
+msgid "New V&ideo DVD Project"
+msgstr "Nuevu proyeutu de DVD de &vídeo"
+
+#: k3b.cpp:364
+#, fuzzy
+#| msgid "Creates a new Video CD project"
+msgid "Creates a new Video DVD project"
+msgstr "Cria un nuevu proyeutu de CD de vídeo"
+
+#: k3b.cpp:369 k3bdevicemenu.cpp:76
+msgid "Continue Multisession Project"
+msgstr "Siguir proyeutu multisesión"
+
+#: k3b.cpp:370
+#, fuzzy
+#| msgid "Continue Multisession Project"
+msgid "Continues multisession project"
+msgstr "Siguir proyeutu multisesión"
+
+#: k3b.cpp:375
+msgid "&New Project"
+msgstr "&Nuevu proyeutu"
+
+#: k3b.cpp:377
+msgid "Creates a new project"
+msgstr "Cria un nuevu proyeutu"
+
+#: k3b.cpp:392
+msgid "&Add Files..."
+msgstr "&Amestar ficheros..."
+
+#: k3b.cpp:393
 msgid "Add files to the current project"
 msgstr "Amestar ficheros al proyeutu actual"
 
-#: k3b.cpp:488
+#: k3b.cpp:398
+msgid "&Clear Project"
+msgstr "&Llimpiar proyeutu"
+
+#: k3b.cpp:399
 msgid "Clear the current project"
 msgstr "Llimpiar el proyeutu actual"
 
-#: k3b.cpp:518
+#: k3b.cpp:404 k3bdevicemenu.cpp:78
+msgid "&Format/Erase rewritable disk..."
+msgstr "&Formatiar/Desaniciar discu regrabable..."
+
+#: k3b.cpp:405
+msgid "Format"
+msgstr "Formatear"
+
+#: k3b.cpp:406 k3bdevicemenu.cpp:85
+msgid "Open the rewritable disk formatting/erasing dialog"
+msgstr ""
+
+#: k3b.cpp:411
+msgid "&Burn Image..."
+msgstr "&Grabar Imaxe..."
+
+#: k3b.cpp:412
+msgid "Write an Iso9660, cue/bin, or cdrecord clone image to an optical disc"
+msgstr ""
+
+#: k3b.cpp:417 k3bdevicemenu.cpp:77
+msgid "Copy &Medium..."
+msgstr ""
+
+#: k3b.cpp:418 k3bdebuggingoutputdialog.cpp:46
+msgid "Copy"
+msgstr "Copiar"
+
+#: k3b.cpp:419 k3bdevicemenu.cpp:83
+msgid "Open the media copy dialog"
+msgstr ""
+
+#: k3b.cpp:424 k3bdevicemenu.cpp:79
+msgid "Rip Audio CD..."
+msgstr "Estrayer CD de audio..."
+
+#: k3b.cpp:425
+msgid "Digitally extract tracks from an audio CD"
+msgstr "Saca dixitalmente pistes d'un CD d'audio"
+
+#: k3b.cpp:430 k3bdevicemenu.cpp:80
+msgid "Rip Video DVD..."
+msgstr "Estrayer DVD de vídeo..."
+
+#: k3b.cpp:431
+msgid "Transcode Video DVD titles"
+msgstr "Trescodificar títulos del DVD de vídeo"
+
+#: k3b.cpp:436 k3bdevicemenu.cpp:81
+msgid "Rip Video CD..."
+msgstr "Estrayer CD de vídeo..."
+
+#: k3b.cpp:437
+msgid "Extract tracks from a Video CD"
+msgstr "Sacar pistes d'un CD de vídeo"
+
+#: k3b.cpp:442
+msgid "Lock Panels"
+msgstr ""
+
+#: k3b.cpp:443
+msgid "Locks/unlocks layout of the main window"
+msgstr ""
+
+#: k3b.cpp:448
+msgid "Show Projects Header"
+msgstr ""
+
+#: k3b.cpp:449
+msgid "Shows/hides title header of projects panel"
+msgstr ""
+
+#: k3b.cpp:460
+msgid "Configure K3b settings"
+msgstr "Configurar axustes de K3b"
+
+#: k3b.cpp:464
+msgid "&Setup System Permissions..."
+msgstr "&Configuración de los permisos del sistema..."
+
+#: k3b.cpp:465
+msgid "Setup the system permissions"
+msgstr ""
+
+#: k3b.cpp:474
+msgid "System Check"
+msgstr "Comprobar sistema"
+
+#: k3b.cpp:475
+#, fuzzy
+#| msgid "&Check system configuration"
+msgid "Checks system configuration"
+msgstr "&Comprobar la configuración del sistema"
+
+#: k3b.cpp:507
 msgid "Projects"
 msgstr ""
 
-#: k3b.cpp:531
+#: k3b.cpp:520
 msgid "Current Projects"
 msgstr "Proyeutos actuales"
 
-#: k3b.cpp:554
+#: k3b.cpp:543
 msgid "Folders"
 msgstr "Carpetes"
 
-#: k3b.cpp:566
+#: k3b.cpp:555
 msgid "Contents"
 msgstr ""
 
-#: k3b.cpp:594
+#: k3b.cpp:583
 #, fuzzy
 #| msgid "Location:"
 msgid "&Location Bar"
 msgstr "Allugamientu:"
 
-#: k3b.cpp:673 k3b.cpp:995 k3b.cpp:1009
+#: k3b.cpp:662 k3b.cpp:984 k3b.cpp:998
 msgid "Opening file..."
 msgstr "Abriendo ficheru..."
 
-#: k3b.cpp:701
+#: k3b.cpp:690
 msgid "Could not open document."
 msgstr "Nun se pudo abrir el documentu."
 
-#: k3b.cpp:701 ../plugins/encoder/sox/k3bsoxencoder.cpp:319
+#: k3b.cpp:690 ../plugins/encoder/sox/k3bsoxencoder.cpp:319
 msgid "Error"
 msgstr "Fallu"
 
-#: k3b.cpp:965
+#: k3b.cpp:954
 #, kde-format
 msgid "%1 has unsaved data."
 msgstr "%1 tien datos ensin guardar."
 
-#: k3b.cpp:966
+#: k3b.cpp:955
 msgid "Closing Project"
 msgstr "Zarrando proyeutu"
 
-#: k3b.cpp:998 k3b.cpp:1067
+#: k3b.cpp:987 k3b.cpp:1056
 msgid "*.k3b|K3b Projects"
 msgstr "*.k3b|Proyeutos de K3b"
 
-#: k3b.cpp:1000
+#: k3b.cpp:989
 msgid "Open Files"
 msgstr "Abrir ficheros"
 
-#: k3b.cpp:1032
+#: k3b.cpp:1021
 msgid "Saving file..."
 msgstr "Guardando ficheru..."
 
-#: k3b.cpp:1042 k3b.cpp:1088
+#: k3b.cpp:1031 k3b.cpp:1077
 msgid "Could not save the current document."
 msgstr ""
 
-#: k3b.cpp:1042 k3b.cpp:1088
+#: k3b.cpp:1031 k3b.cpp:1077
 msgid "I/O Error"
 msgstr "I/O Fallu"
 
-#: k3b.cpp:1059
+#: k3b.cpp:1048
 msgid "Saving file with a new filename..."
 msgstr "Guardando ficheru con otru nome..."
 
-#: k3b.cpp:1068
+#: k3b.cpp:1057
 msgid "Save As"
 msgstr "Grabar como"
 
-#: k3b.cpp:1108
+#: k3b.cpp:1097
 msgid "Closing file..."
 msgstr "Zarrando ficheru..."
 
-#: k3b.cpp:1210
+#: k3b.cpp:1199
 msgid "Creating new Audio CD Project."
 msgstr "Creando nuevu proyeutu de CD d'audio."
 
-#: k3b.cpp:1219
+#: k3b.cpp:1208
 msgid "Creating new Data CD Project."
 msgstr "Creando nuevu proyeutu de CD de datos."
 
-#: k3b.cpp:1235
+#: k3b.cpp:1224
 msgid "Creating new Video DVD Project."
 msgstr "Creando un Proyeutu nuevu de Video DVD"
 
-#: k3b.cpp:1245
+#: k3b.cpp:1234
 msgid "Creating new Mixed Mode CD Project."
 msgstr "Creando nuevu proyeutu de CD en mou mixtu."
 
-#: k3b.cpp:1254
+#: k3b.cpp:1243
 msgid "Creating new Video CD Project."
 msgstr "Creando nuevu proyeutu de CD de vídeo."
 
-#: k3b.cpp:1264
+#: k3b.cpp:1253
 msgid "Creating new eMovix Project."
 msgstr "Creando un Proyeutu nuevu d'eMovix."
 
-#: k3b.cpp:1379
+#: k3b.cpp:1368
 msgid "Select Files to Add to Project"
 msgstr "Escueyi los ficheros a amestar al proyeutu"
 
-#: k3b.cpp:1393
+#: k3b.cpp:1382
 msgid "Please create a project before adding files"
 msgstr "Por favor, crea un proyeutu enantes d'amestar ficheros"
 
-#: k3b.cpp:1393
+#: k3b.cpp:1382
 msgid "No Active Project"
 msgstr "Ensin proyeutu activu"
 
-#: k3b.cpp:1562
+#: k3b.cpp:1551
 msgid "Do you really want to clear the current project?"
 msgstr "¿De verdá quies llimpiar el proyeutu actual?"
 
-#: k3b.cpp:1563
+#: k3b.cpp:1552
 msgid "Clear Project"
 msgstr "Llimpiar proyeutu"
 
-#: k3b.cpp:1588
+#: k3b.cpp:1577
 msgid "Audio CD Rip"
 msgstr "Estraición de CD d'audio"
 
-#: k3b.cpp:1603
+#: k3b.cpp:1592
 msgid "Video DVD Rip"
 msgstr "Estraición de DVD de vídeo"
 
-#: k3b.cpp:1624
+#: k3b.cpp:1613
 msgid "Video CD Rip"
 msgstr "Estraición de CD de vídeo"
 
