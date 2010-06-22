@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-20 05:04+0200\n"
+"POT-Creation-Date: 2010-06-22 06:13+0200\n"
 "PO-Revision-Date: 2009-12-18 18:26+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -135,7 +135,7 @@ msgstr "Aceutar"
 msgid "Announcing"
 msgstr "Anunciando"
 
-#: src/interfaces/trackerinterface.cpp:60 src/torrent/torrentstats.cpp:85
+#: src/interfaces/trackerinterface.cpp:60 src/torrent/torrentstats.cpp:86
 #, kde-format
 msgid "Error: %1"
 msgstr "Fallu: %1"
@@ -177,60 +177,67 @@ msgstr "Datos nun válidos del llocalizador"
 msgid "Invalid tracker URL"
 msgstr "URL nun válidu del llocalizador"
 
-#: src/torrent/torrentstats.cpp:71
+#: src/torrent/torrentstats.cpp:72
 msgid "Not started"
 msgstr "Non aniciáu"
 
-#: src/torrent/torrentstats.cpp:73
+#: src/torrent/torrentstats.cpp:74
 msgid "Download completed"
 msgstr "Baxada finada"
 
-#: src/torrent/torrentstats.cpp:75
+#: src/torrent/torrentstats.cpp:76
 msgid "Seeding completed"
 msgstr "Siembra finada"
 
-#: src/torrent/torrentstats.cpp:77
+#: src/torrent/torrentstats.cpp:78
 msgctxt "Status of a torrent file"
 msgid "Seeding"
 msgstr "Semando"
 
-#: src/torrent/torrentstats.cpp:79
+#: src/torrent/torrentstats.cpp:80
 msgid "Downloading"
 msgstr "Baxando"
 
-#: src/torrent/torrentstats.cpp:81
+#: src/torrent/torrentstats.cpp:82
 msgid "Stalled"
 msgstr "Estancáu"
 
-#: src/torrent/torrentstats.cpp:83
+#: src/torrent/torrentstats.cpp:84
 msgid "Stopped"
 msgstr "Deteniu"
 
-#: src/torrent/torrentstats.cpp:87
+#: src/torrent/torrentstats.cpp:88
 msgid "Allocating diskspace"
 msgstr "Asignando espaciu en discu"
 
-#: src/torrent/torrentstats.cpp:89
+#: src/torrent/torrentstats.cpp:90
 msgid "Queued for seeding"
 msgstr ""
 
-#: src/torrent/torrentstats.cpp:89
+#: src/torrent/torrentstats.cpp:90
 #, fuzzy
 #| msgid "Currently downloading:"
 msgid "Queued for downloading"
 msgstr "Baxando anguaño:"
 
-#: src/torrent/torrentstats.cpp:91
+#: src/torrent/torrentstats.cpp:92
 msgid "Checking data"
 msgstr "Verificando los datos"
 
-#: src/torrent/torrentstats.cpp:93
+#: src/torrent/torrentstats.cpp:94
 msgid "Stopped. No space left on device."
 msgstr "Deteníu. Nun queda espaciu nel preséu."
 
-#: src/torrent/torrentstats.cpp:95
+#: src/torrent/torrentstats.cpp:96
 msgid "Paused"
 msgstr "Posáu"
+
+#: src/torrent/torrentstats.cpp:98
+#, fuzzy
+#| msgctxt "Status of a torrent file"
+#| msgid "Seeding"
+msgid "Superseeding"
+msgstr "Semando"
 
 #: src/torrent/torrentcreator.cpp:124 src/torrent/torrentcreator.cpp:255
 #: src/torrent/torrentcreator.cpp:292
@@ -259,11 +266,11 @@ msgstr " Nun puede abrise'l ficheru torrent %1: %2"
 msgid "Parse Error"
 msgstr "Fallu d'analís"
 
-#: src/torrent/torrentcontrol.cpp:305
+#: src/torrent/torrentcontrol.cpp:307
 msgid "Error writing to disk, do you have enough diskspace ?"
 msgstr ""
 
-#: src/torrent/torrentcontrol.cpp:543
+#: src/torrent/torrentcontrol.cpp:545
 #, kde-format
 msgid ""
 "An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
@@ -273,7 +280,7 @@ msgstr ""
 ">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
 "torrent válidu."
 
-#: src/torrent/torrentcontrol.cpp:573
+#: src/torrent/torrentcontrol.cpp:575
 #, kde-format
 msgid ""
 "An error occurred while loading the torrent:<br/><b>%1</b><br/>The torrent "
@@ -283,19 +290,19 @@ msgstr ""
 ">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
 "torrent válidu."
 
-#: src/torrent/torrentcontrol.cpp:584
+#: src/torrent/torrentcontrol.cpp:586
 #, kde-format
 msgid "Unable to create %1 : %2"
 msgstr "Nun pudo criase %1: %2"
 
-#: src/torrent/torrentcontrol.cpp:599
+#: src/torrent/torrentcontrol.cpp:601
 #, kde-format
 msgid ""
 "You are already downloading the torrent <b>%1</b>. The tracker lists from "
 "both torrents have been merged."
 msgstr ""
 
-#: src/torrent/torrentcontrol.cpp:604
+#: src/torrent/torrentcontrol.cpp:606
 #, fuzzy, kde-format
 #| msgid "How long we have been downloading the torrent"
 msgid "You are already downloading the torrent <b>%1</b>."
@@ -521,6 +528,22 @@ msgstr "La conexón zarróse inesperadamente."
 #: src/upnp/httprequest.cpp:121
 msgid "Timeout occurred"
 msgstr "Superóse'l tiempu llímite"
+
+#: examples/ktcli/main.cpp:40
+#, fuzzy
+#| msgid "Document to open"
+msgid "Torrent to open"
+msgstr "Documentu a abrir"
+
+#: examples/ktcli/main.cpp:41 examples/ktcli/main.cpp:42
+#, fuzzy
+#| msgid "Not in use"
+msgid "Port to use"
+msgstr "Non usáu"
+
+#: examples/ktcli/main.cpp:44
+msgid "ktcli"
+msgstr ""
 
 #, fuzzy
 #~| msgid "UDP"
@@ -1443,9 +1466,6 @@ msgstr "Superóse'l tiempu llímite"
 
 #~ msgid "(C) 2009 Joris Guisson"
 #~ msgstr "(C) 2009 Joris Guisson"
-
-#~ msgid "Document to open"
-#~ msgstr "Documentu a abrir"
 
 #~ msgid "Proxy"
 #~ msgstr "Proxy"
