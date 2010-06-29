@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-26 01:27+0200\n"
+"POT-Creation-Date: 2010-06-29 02:51+0200\n"
 "PO-Revision-Date: 2009-12-18 18:26+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -39,8 +39,8 @@ msgstr "Nun puede convertise %1 a un enteru"
 msgid "Torrent is incomplete."
 msgstr "El torrent ta incompletu."
 
-#: src/diskio/cachefile.cpp:94 src/util/fileops.cpp:325
-#: src/util/fileops.cpp:367
+#: src/diskio/cachefile.cpp:94 src/util/fileops.cpp:327
+#: src/util/fileops.cpp:369
 #, kde-format
 msgid "Cannot open %1 : %2"
 msgstr "Nun puede abrise %1: %2"
@@ -135,7 +135,7 @@ msgstr "Aceutar"
 msgid "Announcing"
 msgstr "Anunciando"
 
-#: src/interfaces/trackerinterface.cpp:60 src/torrent/torrentstats.cpp:85
+#: src/interfaces/trackerinterface.cpp:60 src/torrent/torrentstats.cpp:86
 #, kde-format
 msgid "Error: %1"
 msgstr "Fallu: %1"
@@ -177,60 +177,67 @@ msgstr "Datos nun válidos del llocalizador"
 msgid "Invalid tracker URL"
 msgstr "URL nun válidu del llocalizador"
 
-#: src/torrent/torrentstats.cpp:71
+#: src/torrent/torrentstats.cpp:72
 msgid "Not started"
 msgstr "Non aniciáu"
 
-#: src/torrent/torrentstats.cpp:73
+#: src/torrent/torrentstats.cpp:74
 msgid "Download completed"
 msgstr "Baxada finada"
 
-#: src/torrent/torrentstats.cpp:75
+#: src/torrent/torrentstats.cpp:76
 msgid "Seeding completed"
 msgstr "Siembra finada"
 
-#: src/torrent/torrentstats.cpp:77
+#: src/torrent/torrentstats.cpp:78
 msgctxt "Status of a torrent file"
 msgid "Seeding"
 msgstr "Semando"
 
-#: src/torrent/torrentstats.cpp:79
+#: src/torrent/torrentstats.cpp:80
 msgid "Downloading"
 msgstr "Baxando"
 
-#: src/torrent/torrentstats.cpp:81
+#: src/torrent/torrentstats.cpp:82
 msgid "Stalled"
 msgstr "Estancáu"
 
-#: src/torrent/torrentstats.cpp:83
+#: src/torrent/torrentstats.cpp:84
 msgid "Stopped"
 msgstr "Deteniu"
 
-#: src/torrent/torrentstats.cpp:87
+#: src/torrent/torrentstats.cpp:88
 msgid "Allocating diskspace"
 msgstr "Asignando espaciu en discu"
 
-#: src/torrent/torrentstats.cpp:89
+#: src/torrent/torrentstats.cpp:90
 msgid "Queued for seeding"
 msgstr ""
 
-#: src/torrent/torrentstats.cpp:89
+#: src/torrent/torrentstats.cpp:90
 #, fuzzy
 #| msgid "Currently downloading:"
 msgid "Queued for downloading"
 msgstr "Baxando anguaño:"
 
-#: src/torrent/torrentstats.cpp:91
+#: src/torrent/torrentstats.cpp:92
 msgid "Checking data"
 msgstr "Verificando los datos"
 
-#: src/torrent/torrentstats.cpp:93
+#: src/torrent/torrentstats.cpp:94
 msgid "Stopped. No space left on device."
 msgstr "Deteníu. Nun queda espaciu nel preséu."
 
-#: src/torrent/torrentstats.cpp:95
+#: src/torrent/torrentstats.cpp:96
 msgid "Paused"
 msgstr "Posáu"
+
+#: src/torrent/torrentstats.cpp:98
+#, fuzzy
+#| msgctxt "Status of a torrent file"
+#| msgid "Seeding"
+msgid "Superseeding"
+msgstr "Semando"
 
 #: src/torrent/torrentcreator.cpp:124 src/torrent/torrentcreator.cpp:255
 #: src/torrent/torrentcreator.cpp:292
@@ -259,7 +266,11 @@ msgstr " Nun puede abrise'l ficheru torrent %1: %2"
 msgid "Parse Error"
 msgstr "Fallu d'analís"
 
-#: src/torrent/torrentcontrol.cpp:533
+#: src/torrent/torrentcontrol.cpp:307
+msgid "Error writing to disk, do you have enough diskspace ?"
+msgstr ""
+
+#: src/torrent/torrentcontrol.cpp:545
 #, kde-format
 msgid ""
 "An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
@@ -269,7 +280,7 @@ msgstr ""
 ">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
 "torrent válidu."
 
-#: src/torrent/torrentcontrol.cpp:563
+#: src/torrent/torrentcontrol.cpp:575
 #, kde-format
 msgid ""
 "An error occurred while loading the torrent:<br/><b>%1</b><br/>The torrent "
@@ -279,19 +290,19 @@ msgstr ""
 ">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
 "torrent válidu."
 
-#: src/torrent/torrentcontrol.cpp:574
+#: src/torrent/torrentcontrol.cpp:586
 #, kde-format
 msgid "Unable to create %1 : %2"
 msgstr "Nun pudo criase %1: %2"
 
-#: src/torrent/torrentcontrol.cpp:589
+#: src/torrent/torrentcontrol.cpp:601
 #, kde-format
 msgid ""
 "You are already downloading the torrent <b>%1</b>. The tracker lists from "
 "both torrents have been merged."
 msgstr ""
 
-#: src/torrent/torrentcontrol.cpp:594
+#: src/torrent/torrentcontrol.cpp:606
 #, fuzzy, kde-format
 #| msgid "How long we have been downloading the torrent"
 msgid "You are already downloading the torrent <b>%1</b>."
@@ -358,7 +369,13 @@ msgstr "Fallu: la petición superó'l tiempu llímite"
 msgid "Redirected without a new location."
 msgstr "Redirixíu ensin un nuevu allugamientu"
 
-#: src/download/chunkdownload.cpp:373
+#: src/download/chunkdownload.cpp:118
+#, fuzzy
+#| msgid "Insufficient disk space for %1"
+msgid "Not enough diskspace"
+msgstr "Espaciu en discu insuficiente pa %1"
+
+#: src/download/chunkdownload.cpp:376
 #, kde-format
 msgid "1 peer"
 msgid_plural "%1 peers"
@@ -384,53 +401,53 @@ msgstr "Nun puede lleese de %1"
 msgid "Cannot open log file %1 : %2"
 msgstr "Nun puede abrise'l ficheru de rexistru %1: %2"
 
-#: src/util/fileops.cpp:92
+#: src/util/fileops.cpp:94
 #, kde-format
 msgid "Cannot create directory %1"
 msgstr "Nun puede criase'l direutoriu %1"
 
-#: src/util/fileops.cpp:133
+#: src/util/fileops.cpp:135
 #, kde-format
 msgid "Cannot symlink %1 to %2: %3"
 msgstr "Nun puede criase'l enllaz simbólicu de %1 a %2: %3"
 
-#: src/util/fileops.cpp:150
+#: src/util/fileops.cpp:152
 #, kde-format
 msgid "Cannot move %1 to %2: %3"
 msgstr "Nun puede movese %1 a %2: %3"
 
-#: src/util/fileops.cpp:166 src/util/fileops.cpp:182
+#: src/util/fileops.cpp:168 src/util/fileops.cpp:184
 #, kde-format
 msgid "Cannot copy %1 to %2: %3"
 msgstr "Nun puede copiase %1 a %2: %3"
 
-#: src/util/fileops.cpp:247
+#: src/util/fileops.cpp:249
 #, kde-format
 msgid "Cannot delete %1: %2"
 msgstr "Nun puede desaniciase %1: %2"
 
-#: src/util/fileops.cpp:264
+#: src/util/fileops.cpp:266
 #, kde-format
 msgid "Cannot create %1: %2"
 msgstr "Nun puede criase %1: %2"
 
-#: src/util/fileops.cpp:282
+#: src/util/fileops.cpp:284
 #, kde-format
 msgid "Cannot calculate the filesize of %1: %2"
 msgstr "Nun puede calculase'l tamañu del ficheru %1: %2"
 
-#: src/util/fileops.cpp:298
+#: src/util/fileops.cpp:300
 #, kde-format
 msgid "Cannot calculate the filesize : %1"
 msgstr "Nun puede calculase'l tamañu del ficheru: %1"
 
-#: src/util/fileops.cpp:346 src/util/fileops.cpp:352 src/util/fileops.cpp:355
-#: src/util/fileops.cpp:358
+#: src/util/fileops.cpp:348 src/util/fileops.cpp:354 src/util/fileops.cpp:357
+#: src/util/fileops.cpp:360
 #, kde-format
 msgid "Cannot expand file: %1"
 msgstr "Nun puede espandese'l ficheru: %1"
 
-#: src/util/fileops.cpp:388
+#: src/util/fileops.cpp:390
 #, kde-format
 msgid "Cannot seek in file : %1"
 msgstr "Nun puede guetase nel ficheru: %1"
@@ -471,10 +488,62 @@ msgstr "Entrada/Salida de discu"
 msgid "µTP"
 msgstr ""
 
+#: src/util/signalcatcher.cpp:56
+msgid "Error when writing to disk"
+msgstr ""
+
+#: src/util/signalcatcher.cpp:56
 #, fuzzy
-#~| msgid "Insufficient disk space for %1"
-#~ msgid "Not enough free disk space for %1"
-#~ msgstr "Espaciu en discu insuficiente pa %1"
+#| msgid "Error reading from %1"
+msgid "Error when reading from disk"
+msgstr "Fallu al lleer de %1"
+
+#: src/upnp/upnprouter.cpp:164
+#, kde-format
+msgid "Failed to download %1 : %2"
+msgstr "Fallu al baxar %1: %2"
+
+#: src/upnp/upnprouter.cpp:175
+msgid "Error parsing router description."
+msgstr "Fallu al analizar la descripción del router."
+
+#: src/upnp/upnprouter.cpp:212
+msgid ""
+"Forwarding failed: \n"
+"Device does not have a WANIPConnection or WANPPPConnection."
+msgstr ""
+"El reunvío falló:\n"
+"El preséu nun tien denguna WANIPConnection nin WANPPPConnection"
+
+#: src/upnp/upnprouter.cpp:283 src/upnp/upnprouter.cpp:296
+msgid "Cannot find port forwarding service in the device's description."
+msgstr ""
+"Nun ye posible atopar el serviciu de redirección de puertos na descripción "
+"del preséu."
+
+#: src/upnp/httprequest.cpp:79
+msgid "Connection closed unexpectedly."
+msgstr "La conexón zarróse inesperadamente."
+
+#: src/upnp/httprequest.cpp:121
+msgid "Timeout occurred"
+msgstr "Superóse'l tiempu llímite"
+
+#: examples/ktcli/main.cpp:40
+#, fuzzy
+#| msgid "Document to open"
+msgid "Torrent to open"
+msgstr "Documentu a abrir"
+
+#: examples/ktcli/main.cpp:41 examples/ktcli/main.cpp:42
+#, fuzzy
+#| msgid "Not in use"
+msgid "Port to use"
+msgstr "Non usáu"
+
+#: examples/ktcli/main.cpp:44
+msgid "ktcli"
+msgstr ""
 
 #, fuzzy
 #~| msgid "UDP"
@@ -1397,33 +1466,6 @@ msgstr ""
 
 #~ msgid "(C) 2009 Joris Guisson"
 #~ msgstr "(C) 2009 Joris Guisson"
-
-#~ msgid "Document to open"
-#~ msgstr "Documentu a abrir"
-
-#~ msgid "Failed to download %1 : %2"
-#~ msgstr "Fallu al baxar %1: %2"
-
-#~ msgid "Error parsing router description."
-#~ msgstr "Fallu al analizar la descripción del router."
-
-#~ msgid ""
-#~ "Forwarding failed: \n"
-#~ "Device does not have a WANIPConnection or WANPPPConnection."
-#~ msgstr ""
-#~ "El reunvío falló:\n"
-#~ "El preséu nun tien denguna WANIPConnection nin WANPPPConnection"
-
-#~ msgid "Cannot find port forwarding service in the device's description."
-#~ msgstr ""
-#~ "Nun ye posible atopar el serviciu de redirección de puertos na "
-#~ "descripción del preséu."
-
-#~ msgid "Connection closed unexpectedly."
-#~ msgstr "La conexón zarróse inesperadamente."
-
-#~ msgid "Timeout occurred"
-#~ msgstr "Superóse'l tiempu llímite"
 
 #~ msgid "Proxy"
 #~ msgstr "Proxy"

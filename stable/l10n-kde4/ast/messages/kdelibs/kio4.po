@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4-v1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-23 04:59+0200\n"
+"POT-Creation-Date: 2010-06-29 02:43+0200\n"
 "PO-Revision-Date: 2009-10-09 16:25+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-Language: asturian\n"
 
-#: kio/connection.cpp:211
-#, kde-format
-msgid "Unable to create io-slave: %1"
+#: kio/kimageio.cpp:43
+msgid "All Pictures"
 msgstr ""
 
 #: kio/kscan.cpp:50
@@ -28,6 +27,24 @@ msgstr ""
 
 #: kio/kscan.cpp:99
 msgid "OCR Image"
+msgstr ""
+
+#: kio/connection.cpp:211
+#, kde-format
+msgid "Unable to create io-slave: %1"
+msgstr ""
+
+#: kio/kfileitemdelegate.cpp:236
+#, kde-format
+msgctxt "Items in a folder"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/kfileitemdelegate.cpp:292 kio/kfileitemdelegate.cpp:296
+msgctxt "@info mimetype"
+msgid "Unknown"
 msgstr ""
 
 #: kio/global.cpp:89
@@ -855,8 +872,8 @@ msgstr ""
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr ""
 
-#: kio/global.cpp:664 kio/job.cpp:2099 kio/paste.cpp:64 kio/copyjob.cpp:1326
-#: kio/copyjob.cpp:1897
+#: kio/global.cpp:664 kio/job.cpp:2099 kio/copyjob.cpp:1326
+#: kio/copyjob.cpp:1897 kio/paste.cpp:64
 msgid "File Already Exists"
 msgstr ""
 
@@ -1609,120 +1626,75 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr ""
 
-#: kio/renamedialog.cpp:122
-msgid "Appl&y to All"
+#: kio/fileundomanager.cpp:116
+msgid "Creating directory"
 msgstr ""
 
-#: kio/renamedialog.cpp:123
-msgid ""
-"When this is checked the button pressed will be applied to all subsequent "
-"folder conflicts for the remainder of the current job.\n"
-"Unless you press Skip you will still be prompted in case of a conflict with "
-"an existing file in the directory."
+#: kio/fileundomanager.cpp:117 kio/job.cpp:173
+msgid "Directory"
 msgstr ""
 
-#: kio/renamedialog.cpp:124
-msgid ""
-"When this is checked the button pressed will be applied to all subsequent "
-"conflicts for the remainder of the current job."
+#: kio/fileundomanager.cpp:119
+msgid "Moving"
 msgstr ""
 
-#: kio/renamedialog.cpp:129
-msgid "&Rename"
-msgstr ""
-
-#: kio/renamedialog.cpp:131
-msgid "Suggest New &Name"
-msgstr ""
-
-#: kio/renamedialog.cpp:137
-msgid "&Skip"
-msgstr ""
-
-#: kio/renamedialog.cpp:138
-msgid "Do not copy or move this folder, skip to the next item instead"
-msgstr ""
-
-#: kio/renamedialog.cpp:139
-msgid "Do not copy or move this file, skip to the next item instead"
-msgstr ""
-
-#: kio/renamedialog.cpp:144
-msgctxt "Write files into an existing folder"
-msgid "&Write Into"
-msgstr ""
-
-#: kio/renamedialog.cpp:144
-msgid "&Overwrite"
-msgstr ""
-
-#: kio/renamedialog.cpp:146
-msgid ""
-"Files and folders will be copied into the existing directory, alongside its "
-"existing contents.\n"
-"You will be prompted again in case of a conflict with an existing file in "
-"the directory."
-msgstr ""
-
-#: kio/renamedialog.cpp:151
-msgid "&Resume"
-msgstr ""
-
-#: kio/renamedialog.cpp:160
-#, kde-format
-msgid ""
-"This action would overwrite '%1' with itself.\n"
-"Please enter a new file name:"
-msgstr ""
-
-#: kio/renamedialog.cpp:162
-msgid "C&ontinue"
-msgstr ""
-
-#: kio/renamedialog.cpp:234
-#, kde-format
-msgid "This action will overwrite '%1' with a newer file '%2'."
-msgstr ""
-
-#: kio/renamedialog.cpp:236
-#, kde-format
-msgid "This action will overwrite '%1' with a file of the same age '%2'."
-msgstr ""
-
-#: kio/renamedialog.cpp:238
-#, kde-format
-msgid "This action will overwrite '%1' with an older file '%2'."
-msgstr ""
-
-#: kio/renamedialog.cpp:242
+#: kio/fileundomanager.cpp:120 kio/job.cpp:159 kio/job.cpp:166 kio/job.cpp:191
+msgctxt "The source of a file operation"
 msgid "Source"
 msgstr ""
 
-#: kio/renamedialog.cpp:243
+#: kio/fileundomanager.cpp:121 kio/job.cpp:160 kio/job.cpp:167
+msgctxt "The destination of a file operation"
 msgid "Destination"
 msgstr ""
 
-#: kio/renamedialog.cpp:261
-#, kde-format
-msgid "An older item named '%1' already exists."
+#: kio/fileundomanager.cpp:123
+msgid "Deleting"
 msgstr ""
 
-#: kio/renamedialog.cpp:263
-#, kde-format
-msgid "A similar file named '%1' already exists."
+#: kio/fileundomanager.cpp:124 kio/job.cpp:179 kio/job.cpp:185
+msgid "File"
 msgstr ""
 
-#: kio/renamedialog.cpp:265
-#, kde-format
-msgid "A newer item named '%1' already exists."
+#: kio/fileundomanager.cpp:284
+msgid "Und&o"
 msgstr ""
 
-#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1095
-#: kio/kdirlister.cpp:329
+#: kio/fileundomanager.cpp:288
+msgid "Und&o: Copy"
+msgstr ""
+
+#: kio/fileundomanager.cpp:290
+msgid "Und&o: Link"
+msgstr ""
+
+#: kio/fileundomanager.cpp:292
+msgid "Und&o: Move"
+msgstr ""
+
+#: kio/fileundomanager.cpp:294
+msgid "Und&o: Rename"
+msgstr ""
+
+#: kio/fileundomanager.cpp:296
+msgid "Und&o: Trash"
+msgstr ""
+
+#: kio/fileundomanager.cpp:298
+msgid "Und&o: Create Folder"
+msgstr ""
+
+#: kio/fileundomanager.cpp:764
 #, kde-format
 msgid ""
-"Malformed URL\n"
-"%1"
+"The file %1 was copied from %2, but since then it has apparently been "
+"modified at %3.\n"
+"Undoing the copy will delete the file, and all modifications will be lost.\n"
+"Are you sure you want to delete %4?"
+msgstr ""
+
+#: kio/fileundomanager.cpp:767
+msgid "Undo File Copy Confirmation"
 msgstr ""
 
 #: kio/kdesktopfileactions.cpp:60
@@ -1765,6 +1737,54 @@ msgstr ""
 
 #: kio/kdesktopfileactions.cpp:214
 msgid "Unmount"
+msgstr ""
+
+#: kio/job.cpp:158
+msgctxt "@title job"
+msgid "Moving"
+msgstr ""
+
+#: kio/job.cpp:165
+msgctxt "@title job"
+msgid "Copying"
+msgstr ""
+
+#: kio/job.cpp:172
+msgctxt "@title job"
+msgid "Creating directory"
+msgstr ""
+
+#: kio/job.cpp:178
+msgctxt "@title job"
+msgid "Deleting"
+msgstr ""
+
+#: kio/job.cpp:184
+msgctxt "@title job"
+msgid "Examining"
+msgstr ""
+
+#: kio/job.cpp:190
+msgctxt "@title job"
+msgid "Transferring"
+msgstr ""
+
+#: kio/job.cpp:196
+msgctxt "@title job"
+msgid "Mounting"
+msgstr ""
+
+#: kio/job.cpp:197
+msgid "Device"
+msgstr ""
+
+#: kio/job.cpp:198 kio/job.cpp:204
+msgid "Mountpoint"
+msgstr ""
+
+#: kio/job.cpp:203
+msgctxt "@title job"
+msgid "Unmounting"
 msgstr ""
 
 #: kio/slave.cpp:432
@@ -1891,148 +1911,41 @@ msgid ""
 "KDE System Settings."
 msgstr ""
 
-#: kio/kfileitemdelegate.cpp:236
-#, kde-format
-msgctxt "Items in a folder"
-msgid "1 item"
-msgid_plural "%1 items"
-msgstr[0] ""
-msgstr[1] ""
+#: kio/slavebase.h:266 kio/slavebase.h:286
+msgid "&Yes"
+msgstr "&Sí"
 
-#: kio/kfileitemdelegate.cpp:292 kio/kfileitemdelegate.cpp:296
-msgctxt "@info mimetype"
-msgid "Unknown"
-msgstr ""
+#: kio/slavebase.h:267 kio/slavebase.h:287
+msgid "&No"
+msgstr "&Non"
 
 #: kio/passworddialog.cpp:62
 msgid "Authorization Dialog"
-msgstr ""
-
-#: kio/job.cpp:158
-msgctxt "@title job"
-msgid "Moving"
-msgstr ""
-
-#: kio/job.cpp:159 kio/job.cpp:166 kio/job.cpp:191 kio/fileundomanager.cpp:120
-msgctxt "The source of a file operation"
-msgid "Source"
-msgstr ""
-
-#: kio/job.cpp:160 kio/job.cpp:167 kio/fileundomanager.cpp:121
-msgctxt "The destination of a file operation"
-msgid "Destination"
-msgstr ""
-
-#: kio/job.cpp:165
-msgctxt "@title job"
-msgid "Copying"
-msgstr ""
-
-#: kio/job.cpp:172
-msgctxt "@title job"
-msgid "Creating directory"
-msgstr ""
-
-#: kio/job.cpp:173 kio/fileundomanager.cpp:117
-msgid "Directory"
-msgstr ""
-
-#: kio/job.cpp:178
-msgctxt "@title job"
-msgid "Deleting"
-msgstr ""
-
-#: kio/job.cpp:179 kio/job.cpp:185 kio/fileundomanager.cpp:124
-msgid "File"
-msgstr ""
-
-#: kio/job.cpp:184
-msgctxt "@title job"
-msgid "Examining"
-msgstr ""
-
-#: kio/job.cpp:190
-msgctxt "@title job"
-msgid "Transferring"
-msgstr ""
-
-#: kio/job.cpp:196
-msgctxt "@title job"
-msgid "Mounting"
-msgstr ""
-
-#: kio/job.cpp:197
-msgid "Device"
-msgstr ""
-
-#: kio/job.cpp:198 kio/job.cpp:204
-msgid "Mountpoint"
-msgstr ""
-
-#: kio/job.cpp:203
-msgctxt "@title job"
-msgid "Unmounting"
-msgstr ""
-
-#: kio/fileundomanager.cpp:116
-msgid "Creating directory"
-msgstr ""
-
-#: kio/fileundomanager.cpp:119
-msgid "Moving"
-msgstr ""
-
-#: kio/fileundomanager.cpp:123
-msgid "Deleting"
-msgstr ""
-
-#: kio/fileundomanager.cpp:284
-msgid "Und&o"
-msgstr ""
-
-#: kio/fileundomanager.cpp:288
-msgid "Und&o: Copy"
-msgstr ""
-
-#: kio/fileundomanager.cpp:290
-msgid "Und&o: Link"
-msgstr ""
-
-#: kio/fileundomanager.cpp:292
-msgid "Und&o: Move"
-msgstr ""
-
-#: kio/fileundomanager.cpp:294
-msgid "Und&o: Rename"
-msgstr ""
-
-#: kio/fileundomanager.cpp:296
-msgid "Und&o: Trash"
-msgstr ""
-
-#: kio/fileundomanager.cpp:298
-msgid "Und&o: Create Folder"
-msgstr ""
-
-#: kio/fileundomanager.cpp:764
-#, kde-format
-msgid ""
-"The file %1 was copied from %2, but since then it has apparently been "
-"modified at %3.\n"
-"Undoing the copy will delete the file, and all modifications will be lost.\n"
-"Are you sure you want to delete %4?"
-msgstr ""
-
-#: kio/fileundomanager.cpp:767
-msgid "Undo File Copy Confirmation"
 msgstr ""
 
 #: kio/accessmanagerreply_p.cpp:69
 msgid "Blocked request."
 msgstr ""
 
+#: kio/kemailsettings.cpp:251 kio/kemailsettings.cpp:254
+#: kio/kemailsettings.cpp:261
+msgid "Default"
+msgstr ""
+
 #: kio/pastedialog.cpp:55
 msgid "Data format:"
+msgstr ""
+
+#: kio/skipdialog.cpp:40
+msgid "Information"
+msgstr ""
+
+#: kio/skipdialog.cpp:47
+msgid "Skip"
+msgstr ""
+
+#: kio/skipdialog.cpp:50
+msgid "AutoSkip"
 msgstr ""
 
 #: kio/jobuidelegate.cpp:149 ../kfile/kdiroperator.cpp:815
@@ -2118,80 +2031,6 @@ msgstr ""
 msgid "Permissions:"
 msgstr ""
 
-#: kio/paste.cpp:48 kio/paste.cpp:130
-msgid "Filename for clipboard content:"
-msgstr ""
-
-#: kio/paste.cpp:123
-#, kde-format
-msgid "%1 (%2)"
-msgstr ""
-
-#: kio/paste.cpp:139
-msgid ""
-"The clipboard has changed since you used 'paste': the chosen data format is "
-"no longer applicable. Please copy again what you wanted to paste."
-msgstr ""
-
-#: kio/paste.cpp:210 kio/paste.cpp:277
-msgid "The clipboard is empty"
-msgstr ""
-
-#: kio/paste.cpp:324
-#, kde-format
-msgid "&Paste File"
-msgid_plural "&Paste %1 Files"
-msgstr[0] ""
-msgstr[1] ""
-
-#: kio/paste.cpp:326
-#, kde-format
-msgid "&Paste URL"
-msgid_plural "&Paste %1 URLs"
-msgstr[0] ""
-msgstr[1] ""
-
-#: kio/paste.cpp:328
-msgid "&Paste Clipboard Contents"
-msgstr ""
-
-#: kio/slavebase.h:266 kio/slavebase.h:286
-msgid "&Yes"
-msgstr "&Sí"
-
-#: kio/slavebase.h:267 kio/slavebase.h:287
-msgid "&No"
-msgstr "&Non"
-
-#: kio/kbuildsycocaprogressdialog.cpp:45
-msgid "Updating System Configuration"
-msgstr ""
-
-#: kio/kbuildsycocaprogressdialog.cpp:46
-msgid "Updating system configuration."
-msgstr ""
-
-#: kio/kstatusbarofflineindicator.cpp:52
-msgid "The desktop is offline"
-msgstr ""
-
-#: kio/kemailsettings.cpp:251 kio/kemailsettings.cpp:254
-#: kio/kemailsettings.cpp:261
-msgid "Default"
-msgstr ""
-
-#: kio/skipdialog.cpp:40
-msgid "Information"
-msgstr ""
-
-#: kio/skipdialog.cpp:47
-msgid "Skip"
-msgstr ""
-
-#: kio/skipdialog.cpp:50
-msgid "AutoSkip"
-msgstr ""
-
 #: kio/krun.cpp:126
 #, kde-format
 msgid ""
@@ -2256,6 +2095,14 @@ msgstr ""
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
+#: kio/krun.cpp:1095 kio/renamedialog.cpp:387 kio/paste.cpp:228
+#: kio/kdirlister.cpp:329
+#, kde-format
+msgid ""
+"Malformed URL\n"
+"%1"
+msgstr ""
+
 #: kio/krun.cpp:1128
 #, kde-format
 msgid ""
@@ -2268,13 +2115,165 @@ msgstr ""
 msgid "Could not find the program '%1'"
 msgstr ""
 
-#: kio/kimageio.cpp:43
-msgid "All Pictures"
+#: kio/copyjob.cpp:1326 kio/copyjob.cpp:1897
+msgid "Already Exists as Folder"
 msgstr ""
 
-#: kio/kdbusservicestarter.cpp:76
+#: kio/kbuildsycocaprogressdialog.cpp:45
+msgid "Updating System Configuration"
+msgstr ""
+
+#: kio/kbuildsycocaprogressdialog.cpp:46
+msgid "Updating system configuration."
+msgstr ""
+
+#: kio/kstatusbarofflineindicator.cpp:52
+msgid "The desktop is offline"
+msgstr ""
+
+#: kio/renamedialog.cpp:122
+msgid "Appl&y to All"
+msgstr ""
+
+#: kio/renamedialog.cpp:123
+msgid ""
+"When this is checked the button pressed will be applied to all subsequent "
+"folder conflicts for the remainder of the current job.\n"
+"Unless you press Skip you will still be prompted in case of a conflict with "
+"an existing file in the directory."
+msgstr ""
+
+#: kio/renamedialog.cpp:124
+msgid ""
+"When this is checked the button pressed will be applied to all subsequent "
+"conflicts for the remainder of the current job."
+msgstr ""
+
+#: kio/renamedialog.cpp:129
+msgid "&Rename"
+msgstr ""
+
+#: kio/renamedialog.cpp:131
+msgid "Suggest New &Name"
+msgstr ""
+
+#: kio/renamedialog.cpp:137
+msgid "&Skip"
+msgstr ""
+
+#: kio/renamedialog.cpp:138
+msgid "Do not copy or move this folder, skip to the next item instead"
+msgstr ""
+
+#: kio/renamedialog.cpp:139
+msgid "Do not copy or move this file, skip to the next item instead"
+msgstr ""
+
+#: kio/renamedialog.cpp:144
+msgctxt "Write files into an existing folder"
+msgid "&Write Into"
+msgstr ""
+
+#: kio/renamedialog.cpp:144
+msgid "&Overwrite"
+msgstr ""
+
+#: kio/renamedialog.cpp:146
+msgid ""
+"Files and folders will be copied into the existing directory, alongside its "
+"existing contents.\n"
+"You will be prompted again in case of a conflict with an existing file in "
+"the directory."
+msgstr ""
+
+#: kio/renamedialog.cpp:151
+msgid "&Resume"
+msgstr ""
+
+#: kio/renamedialog.cpp:160
 #, kde-format
-msgid "No service implementing %1"
+msgid ""
+"This action would overwrite '%1' with itself.\n"
+"Please enter a new file name:"
+msgstr ""
+
+#: kio/renamedialog.cpp:162
+msgid "C&ontinue"
+msgstr ""
+
+#: kio/renamedialog.cpp:234
+#, kde-format
+msgid "This action will overwrite '%1' with a newer file '%2'."
+msgstr ""
+
+#: kio/renamedialog.cpp:236
+#, kde-format
+msgid "This action will overwrite '%1' with a file of the same age '%2'."
+msgstr ""
+
+#: kio/renamedialog.cpp:238
+#, kde-format
+msgid "This action will overwrite '%1' with an older file '%2'."
+msgstr ""
+
+#: kio/renamedialog.cpp:242
+msgid "Source"
+msgstr ""
+
+#: kio/renamedialog.cpp:243
+msgid "Destination"
+msgstr ""
+
+#: kio/renamedialog.cpp:261
+#, kde-format
+msgid "An older item named '%1' already exists."
+msgstr ""
+
+#: kio/renamedialog.cpp:263
+#, kde-format
+msgid "A similar file named '%1' already exists."
+msgstr ""
+
+#: kio/renamedialog.cpp:265
+#, kde-format
+msgid "A newer item named '%1' already exists."
+msgstr ""
+
+#: kio/paste.cpp:48 kio/paste.cpp:130
+msgid "Filename for clipboard content:"
+msgstr ""
+
+#: kio/paste.cpp:123
+#, kde-format
+msgid "%1 (%2)"
+msgstr ""
+
+#: kio/paste.cpp:139
+msgid ""
+"The clipboard has changed since you used 'paste': the chosen data format is "
+"no longer applicable. Please copy again what you wanted to paste."
+msgstr ""
+
+#: kio/paste.cpp:210 kio/paste.cpp:277
+msgid "The clipboard is empty"
+msgstr ""
+
+#: kio/paste.cpp:324
+#, kde-format
+msgid "&Paste File"
+msgid_plural "&Paste %1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/paste.cpp:326
+#, kde-format
+msgid "&Paste URL"
+msgid_plural "&Paste %1 URLs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/paste.cpp:328
+msgid "&Paste Clipboard Contents"
 msgstr ""
 
 #: kio/kdirlister.cpp:339
@@ -2284,8 +2283,9 @@ msgid ""
 "%1"
 msgstr ""
 
-#: kio/copyjob.cpp:1326 kio/copyjob.cpp:1897
-msgid "Already Exists as Folder"
+#: kio/kdbusservicestarter.cpp:76
+#, kde-format
+msgid "No service implementing %1"
 msgstr ""
 
 #: kio/chmodjob.cpp:215
@@ -2614,6 +2614,21 @@ msgstr ""
 msgid "*.adr|Opera Bookmark Files (*.adr)"
 msgstr ""
 
+#: kfile/kfilemetadataprovider.cpp:303
+msgctxt "@label"
+msgid "Rating"
+msgstr ""
+
+#: kfile/kfilemetadataprovider.cpp:305
+msgctxt "@label"
+msgid "Tags"
+msgstr ""
+
+#: kfile/kfilemetadataprovider.cpp:307 kfile/knfotranslator.cpp:39
+msgctxt "@label"
+msgid "Comment"
+msgstr ""
+
 #: kfile/kfiledialog.cpp:129
 msgid "*|All files"
 msgstr ""
@@ -2640,6 +2655,30 @@ msgstr ""
 
 #: kfile/kurlrequester.cpp:242
 msgid "Open file dialog"
+msgstr ""
+
+#: kfile/kfilemetainfowidget.cpp:163
+msgid "<Error>"
+msgstr ""
+
+#: kfile/kmetaprops.cpp:57
+msgctxt "@title:window"
+msgid "Configure Shown Data"
+msgstr ""
+
+#: kfile/kmetaprops.cpp:62
+msgctxt "@label::textbox"
+msgid "Configure which data should be shown"
+msgstr ""
+
+#: kfile/kmetaprops.cpp:120
+msgctxt "@action:button"
+msgid "Configure..."
+msgstr ""
+
+#: kfile/kmetaprops.cpp:130
+msgctxt "@title:tab"
+msgid "Information"
 msgstr ""
 
 #: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
@@ -2739,32 +2778,8 @@ msgstr ""
 msgid "Effective"
 msgstr ""
 
-#: kfile/kmetaprops.cpp:57
-msgctxt "@title:window"
-msgid "Configure Shown Data"
-msgstr ""
-
-#: kfile/kmetaprops.cpp:62
-msgctxt "@label::textbox"
-msgid "Configure which data should be shown"
-msgstr ""
-
-#: kfile/kmetaprops.cpp:120
-msgctxt "@action:button"
-msgid "Configure..."
-msgstr ""
-
-#: kfile/kmetaprops.cpp:130
-msgctxt "@title:tab"
-msgid "Information"
-msgstr ""
-
 #: kfile/kdevicelistmodel.cpp:116
 msgid "Device name"
-msgstr ""
-
-#: kfile/kurlrequesterdialog.cpp:59 kfile/kpropertiesdialog.cpp:994
-msgid "Location:"
 msgstr ""
 
 #: kfile/kfilesharedialog.cpp:59
@@ -2834,208 +2849,32 @@ msgid ""
 "Perl script 'fileshareset' is set suid root."
 msgstr ""
 
+#: kfile/kurlrequesterdialog.cpp:59 kfile/kpropertiesdialog.cpp:994
+msgid "Location:"
+msgstr ""
+
 #: kfile/kpreviewprops.cpp:50
 msgid "P&review"
 msgstr ""
 
-#: kfile/knfotranslator.cpp:39 kfile/kfilemetadataprovider.cpp:307
+#: kfile/kcommentwidget.cpp:61
 msgctxt "@label"
-msgid "Comment"
+msgid "Add Comment..."
 msgstr ""
 
-#: kfile/knfotranslator.cpp:40
-msgctxt "@label creation date"
-msgid "Created"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:41
-msgctxt "@label file content size"
-msgid "Size"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:42
-msgctxt "@label file depends from"
-msgid "Depends"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:43
-msgctxt "@label parent directory"
-msgid "Part of"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:44
-msgctxt "@label modified date of file"
-msgid "Modified"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:45
+#: kfile/kcommentwidget.cpp:67
 msgctxt "@label"
-msgid "MIME Type"
+msgid "Change..."
 msgstr ""
 
-#: kfile/knfotranslator.cpp:46
-msgctxt "@label"
-msgid "Content"
+#: kfile/kcommentwidget.cpp:109
+msgctxt "@title:window"
+msgid "Change Comment"
 msgstr ""
 
-#: kfile/knfotranslator.cpp:47
-msgctxt "@label music title"
-msgid "Title"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:48
-msgctxt "@label file URL"
-msgid "Location"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:49
-msgctxt "@label"
-msgid "Creator"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:50
-msgctxt "@label"
-msgid "Average Bitrate"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:51
-msgctxt "@label"
-msgid "Channels"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:52
-msgctxt "@label number of characters"
-msgid "Characters"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:53
-msgctxt "@label"
-msgid "Codec"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:54
-msgctxt "@label"
-msgid "Color Depth"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:55
-msgctxt "@label"
-msgid "Filename"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:56
-msgctxt "@label"
-msgid "Height"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:57
-msgctxt "@label"
-msgid "Interlace Mode"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:58
-msgctxt "@label number of lines"
-msgid "Lines"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:59
-msgctxt "@label"
-msgid "Programming Language"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:60
-msgctxt "@label"
-msgid "Sample Rate"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:61
-msgctxt "@label"
-msgid "Width"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:62
-msgctxt "@label number of words"
-msgid "Words"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:63
-msgctxt "@label EXIF aperture value"
-msgid "Aperture"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:64
-msgctxt "@label EXIF"
-msgid "Exposure Bias Value"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:65
-msgctxt "@label EXIF"
-msgid "Exposure Time"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:66
-msgctxt "@label EXIF"
-msgid "Flash"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:67
-msgctxt "@label EXIF"
-msgid "Focal Length"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:68
-msgctxt "@label EXIF"
-msgid "Focal Length 35 mm"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:69
-msgctxt "@label EXIF"
-msgid "ISO Speed Ratings"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:70
-msgctxt "@label EXIF"
-msgid "Make"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:71
-msgctxt "@label EXIF"
-msgid "Metering Mode"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:72
-msgctxt "@label EXIF"
-msgid "Model"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:73
-msgctxt "@label EXIF"
-msgid "Orientation"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:74
-msgctxt "@label EXIF"
-msgid "White Balance"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:75
-msgctxt "@label music genre"
-msgid "Genre"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:76
-msgctxt "@label music album"
-msgid "Album"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:77
-msgctxt "@label music track number"
-msgid "Track"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:78 kfile/kfilemetadatawidget.cpp:575
-msgctxt "@label file type"
-msgid "Type"
+#: kfile/kcommentwidget.cpp:110
+msgctxt "@title:window"
+msgid "Add Comment"
 msgstr ""
 
 #: kfile/kencodingfiledialog.cpp:50
@@ -3576,51 +3415,199 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr ""
 
-#: kfile/kfilemetadatawidget.cpp:494
-msgctxt "@label"
+#: kfile/knfotranslator.cpp:40
+msgctxt "@label creation date"
+msgid "Created"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:41
+msgctxt "@label file content size"
 msgid "Size"
 msgstr ""
 
-#: kfile/kfilemetadatawidget.cpp:496
-#, fuzzy
-#| msgid "1 Folder"
-#| msgid_plural "%1 Folders"
-msgctxt "@label"
-msgid "Folder"
-msgstr "1 Carpeta"
-
-#: kfile/kfilemetadatawidget.cpp:512
-msgctxt "@label"
-msgid "Total Size"
+#: kfile/knfotranslator.cpp:42
+msgctxt "@label file depends from"
+msgid "Depends"
 msgstr ""
 
-#: kfile/kfilemetadatawidget.cpp:577
-msgctxt "@label"
+#: kfile/knfotranslator.cpp:43
+msgctxt "@label parent directory"
+msgid "Part of"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:44
+msgctxt "@label modified date of file"
 msgid "Modified"
 msgstr ""
 
-#: kfile/kfilemetadatawidget.cpp:578
+#: kfile/knfotranslator.cpp:45
 msgctxt "@label"
-msgid "Owner"
+msgid "MIME Type"
 msgstr ""
 
-#: kfile/kfilemetadatawidget.cpp:579
+#: kfile/knfotranslator.cpp:46
 msgctxt "@label"
-msgid "Permissions"
+msgid "Content"
 msgstr ""
 
-#: kfile/kfilemetadataprovider.cpp:303
-msgctxt "@label"
-msgid "Rating"
+#: kfile/knfotranslator.cpp:47
+msgctxt "@label music title"
+msgid "Title"
 msgstr ""
 
-#: kfile/kfilemetadataprovider.cpp:305
-msgctxt "@label"
-msgid "Tags"
+#: kfile/knfotranslator.cpp:48
+msgctxt "@label file URL"
+msgid "Location"
 msgstr ""
 
-#: kfile/kfilemetainfowidget.cpp:163
-msgid "<Error>"
+#: kfile/knfotranslator.cpp:49
+msgctxt "@label"
+msgid "Creator"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:50
+msgctxt "@label"
+msgid "Average Bitrate"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:51
+msgctxt "@label"
+msgid "Channels"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:52
+msgctxt "@label number of characters"
+msgid "Characters"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:53
+msgctxt "@label"
+msgid "Codec"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:54
+msgctxt "@label"
+msgid "Color Depth"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:55
+msgctxt "@label"
+msgid "Filename"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:56
+msgctxt "@label"
+msgid "Height"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:57
+msgctxt "@label"
+msgid "Interlace Mode"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:58
+msgctxt "@label number of lines"
+msgid "Lines"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:59
+msgctxt "@label"
+msgid "Programming Language"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:60
+msgctxt "@label"
+msgid "Sample Rate"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:61
+msgctxt "@label"
+msgid "Width"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:62
+msgctxt "@label number of words"
+msgid "Words"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:63
+msgctxt "@label EXIF aperture value"
+msgid "Aperture"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:64
+msgctxt "@label EXIF"
+msgid "Exposure Bias Value"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:65
+msgctxt "@label EXIF"
+msgid "Exposure Time"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:66
+msgctxt "@label EXIF"
+msgid "Flash"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:67
+msgctxt "@label EXIF"
+msgid "Focal Length"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:68
+msgctxt "@label EXIF"
+msgid "Focal Length 35 mm"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:69
+msgctxt "@label EXIF"
+msgid "ISO Speed Ratings"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:70
+msgctxt "@label EXIF"
+msgid "Make"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:71
+msgctxt "@label EXIF"
+msgid "Metering Mode"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:72
+msgctxt "@label EXIF"
+msgid "Model"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:73
+msgctxt "@label EXIF"
+msgid "Orientation"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:74
+msgctxt "@label EXIF"
+msgid "White Balance"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:75
+msgctxt "@label music genre"
+msgid "Genre"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:76
+msgctxt "@label music album"
+msgid "Album"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:77
+msgctxt "@label music track number"
+msgid "Track"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:78 kfile/kfilemetadatawidget.cpp:575
+msgctxt "@label file type"
+msgid "Type"
 msgstr ""
 
 #: kfile/kopenwithdialog.cpp:269
@@ -3704,24 +3691,37 @@ msgstr ""
 msgid "'%1' not found, please type a valid program name."
 msgstr ""
 
-#: kfile/kcommentwidget.cpp:61
+#: kfile/kfilemetadatawidget.cpp:494
 msgctxt "@label"
-msgid "Add Comment..."
+msgid "Size"
 msgstr ""
 
-#: kfile/kcommentwidget.cpp:67
+#: kfile/kfilemetadatawidget.cpp:496
+#, fuzzy
+#| msgid "1 Folder"
+#| msgid_plural "%1 Folders"
 msgctxt "@label"
-msgid "Change..."
+msgid "Folder"
+msgstr "1 Carpeta"
+
+#: kfile/kfilemetadatawidget.cpp:512
+msgctxt "@label"
+msgid "Total Size"
 msgstr ""
 
-#: kfile/kcommentwidget.cpp:109
-msgctxt "@title:window"
-msgid "Change Comment"
+#: kfile/kfilemetadatawidget.cpp:577
+msgctxt "@label"
+msgid "Modified"
 msgstr ""
 
-#: kfile/kcommentwidget.cpp:110
-msgctxt "@title:window"
-msgid "Add Comment"
+#: kfile/kfilemetadatawidget.cpp:578
+msgctxt "@label"
+msgid "Owner"
+msgstr ""
+
+#: kfile/kfilemetadatawidget.cpp:579
+msgctxt "@label"
+msgid "Permissions"
 msgstr ""
 
 #: kfile/kfilemetadataconfigurationwidget.cpp:171
@@ -5516,14 +5516,6 @@ msgid ""
 "otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
 
-#: ../kfile/kurlnavigatortogglebutton.cpp:90
-msgid "Click for Location Navigation"
-msgstr ""
-
-#: ../kfile/kurlnavigatortogglebutton.cpp:92
-msgid "Click to Edit Location"
-msgstr ""
-
 #: ../kfile/kdiroperator.cpp:769 ../kfile/kdirselectdialog.cpp:156
 #, kde-format
 msgid "A file or folder named %1 already exists."
@@ -5691,21 +5683,6 @@ msgstr ""
 msgid "&View"
 msgstr ""
 
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:164
-msgctxt "@item:inmenu"
-msgid "Devices"
-msgstr ""
-
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:168
-msgctxt "@item:inmenu"
-msgid "Subversion"
-msgstr ""
-
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:172
-msgctxt "@item:inmenu"
-msgid "Other"
-msgstr ""
-
 #: ../kfile/kdirselectdialog.cpp:128
 msgctxt "folder name"
 msgid "New Folder"
@@ -5747,6 +5724,14 @@ msgstr ""
 #: ../kfile/kdirselectdialog.cpp:351
 msgctxt "@action:inmenu"
 msgid "Properties"
+msgstr ""
+
+#: ../kfile/kurlnavigatortogglebutton.cpp:90
+msgid "Click for Location Navigation"
+msgstr ""
+
+#: ../kfile/kurlnavigatortogglebutton.cpp:92
+msgid "Click to Edit Location"
 msgstr ""
 
 #: ../kfile/kfileplacesview.cpp:569
@@ -5979,4 +5964,19 @@ msgstr ""
 
 #: ../kfile/kfiletreeview.cpp:187
 msgid "Show Hidden Folders"
+msgstr ""
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:164
+msgctxt "@item:inmenu"
+msgid "Devices"
+msgstr ""
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:168
+msgctxt "@item:inmenu"
+msgid "Subversion"
+msgstr ""
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:172
+msgctxt "@item:inmenu"
+msgid "Other"
 msgstr ""

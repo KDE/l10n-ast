@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeadmin-ast\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:55+0200\n"
+"POT-Creation-Date: 2010-06-29 02:37+0200\n"
 "PO-Revision-Date: 2009-12-20 21:07+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -929,10 +929,6 @@ msgstr "Ensin ficheru de rexistru..."
 msgid "Message:"
 msgstr "Mensax:"
 
-#: src/modes/cups/cupsFactory.cpp:58
-msgid "Cups"
-msgstr "Cups"
-
 #: src/modes/cups/cupsPageItemBuilder.h:57
 msgid "Printer:"
 msgstr "Imprentadora:"
@@ -952,6 +948,10 @@ msgstr "Núm. de copies:"
 #: src/modes/cups/cupsPageItemBuilder.h:62
 msgid "Job Billing:"
 msgstr "Facturación de xera:"
+
+#: src/modes/cups/cupsFactory.cpp:58
+msgid "Cups"
+msgstr "Cups"
 
 #: src/modes/cups/cupsAccessLogMode.cpp:39
 msgid "Cups Web Log"
@@ -992,6 +992,25 @@ msgstr "Operación IPP"
 #: src/modes/cups/cupsAccessAnalyzer.h:61
 msgid "IPP Status"
 msgstr "Estáu IPP"
+
+#: src/modes/cups/cupsPdfLogMode.cpp:39
+msgid "Cups PDF Log"
+msgstr "Rexistru de Cups PDF"
+
+#: src/modes/cups/cupsPdfLogMode.cpp:48
+msgid "Display the CUPS PDF log."
+msgstr "Amosar el rexistru de CUPS PDF."
+
+#: src/modes/cups/cupsPdfLogMode.cpp:49
+msgid ""
+"Displays the CUPS PDF log in the current tab. CUPS is the program which "
+"manages printing on your computer. This log saves all requests performed to "
+"the CUPS embedded web server (default: <i>http://localhost:631</i>)."
+msgstr ""
+"Amuesa'l rexistru de CUPS PDF na llingüeta actual. CUPS ye'l programa que "
+"xestiona la imprentación nel to equipu. Esti rexistru guarda toles "
+"peticiones feches al sirvidor web empotráu de CUPS (por omisión: <i>http://"
+"localhost:631</i>)."
 
 #: src/modes/cups/cupsConfigurationWidget.h:45
 #: src/modes/cups/cupsLogMode.cpp:39
@@ -1041,25 +1060,6 @@ msgstr "Rexistru de ficheros PDF de CUPS"
 #: src/modes/cups/cupsConfigurationWidget.h:56
 msgid "Add Cups PDF File..."
 msgstr "Amestar ficheru PDF de CUPS..."
-
-#: src/modes/cups/cupsPdfLogMode.cpp:39
-msgid "Cups PDF Log"
-msgstr "Rexistru de Cups PDF"
-
-#: src/modes/cups/cupsPdfLogMode.cpp:48
-msgid "Display the CUPS PDF log."
-msgstr "Amosar el rexistru de CUPS PDF."
-
-#: src/modes/cups/cupsPdfLogMode.cpp:49
-msgid ""
-"Displays the CUPS PDF log in the current tab. CUPS is the program which "
-"manages printing on your computer. This log saves all requests performed to "
-"the CUPS embedded web server (default: <i>http://localhost:631</i>)."
-msgstr ""
-"Amuesa'l rexistru de CUPS PDF na llingüeta actual. CUPS ye'l programa que "
-"xestiona la imprentación nel to equipu. Esti rexistru guarda toles "
-"peticiones feches al sirvidor web empotráu de CUPS (por omisión: <i>http://"
-"localhost:631</i>)."
 
 #: src/modes/cups/cupsPageLogMode.cpp:39
 msgid "Cups Page Log"
