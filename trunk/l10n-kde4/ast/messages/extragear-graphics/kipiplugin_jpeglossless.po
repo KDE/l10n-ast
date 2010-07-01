@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 05:00+0200\n"
+"POT-Creation-Date: 2010-07-01 05:11+0200\n"
 "PO-Revision-Date: 2009-12-06 16:07+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -18,44 +18,39 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: convert2grayscale.cpp:88 convert2grayscale.cpp:169 imageflip.cpp:79
+#: utils.cpp:84
+msgid "unable to open source file"
+msgstr "Nun puede abrise'l ficheru fonte"
+
+#: utils.cpp:114 utils.cpp:141
+msgid "unable to open temp file"
+msgstr "Nun puede abrise'l ficheru temporal"
+
+#: utils.cpp:128
+msgid "Cannot rotate: unable to open temp file"
+msgstr "Nun puede xirase: nun puede abrise'l ficheru temporal"
+
+#: utils.cpp:190
+#, kde-format
+msgid "Cannot update metadata: %1"
+msgstr "Nun pudieron anovase los metadatos: %1"
+
 #: imagerotate.cpp:80 jpegtransform.cpp:225 jpegtransform.cpp:327
+#: imageflip.cpp:79 convert2grayscale.cpp:88 convert2grayscale.cpp:169
 msgid "Error in opening input file"
 msgstr "Error abriendo'l ficheru d'entrada"
 
-#: convert2grayscale.cpp:94 imageflip.cpp:85 imagerotate.cpp:88
+#: imagerotate.cpp:88 imageflip.cpp:85 convert2grayscale.cpp:94
 msgid "Error in opening temporary file"
 msgstr "Fallu al abrir el ficheru temporal"
 
-#: convert2grayscale.cpp:107
-msgid "Cannot convert to gray scale RAW file"
-msgstr "Nun pudo convertise n'escala de grises el ficheru RAW"
-
-#: convert2grayscale.cpp:131 imageflip.cpp:122 imagerotate.cpp:128
-msgid "Cannot update source image"
-msgstr "Nun pudo anovase la imaxe de la fonte"
-
-#: convert2grayscale.cpp:177 jpegtransform.cpp:243 jpegtransform.cpp:336
-msgid "Error in opening output file"
-msgstr "Fallu al abrir el ficheru de salida"
-
-#: convert2grayscale.cpp:277
-#, kde-format
-msgid "Cannot convert to gray scale: %1"
-msgstr "Nun pudo convertise a escala de grises: %1"
-
-#: imageflip.cpp:98 imagerotate.cpp:101
+#: imagerotate.cpp:101 imageflip.cpp:98
 msgid "Cannot rotate RAW file"
 msgstr "Nun pudo xirase'l ficheru RAW"
 
-#: imageflip.cpp:149 imageflip.cpp:178
-msgid "Nonstandard flip action"
-msgstr "Aición de reflexu non estándar"
-
-#: imageflip.cpp:211
-#, kde-format
-msgid "Cannot flip: %1"
-msgstr "Nun pudo reflexase: %1"
+#: imagerotate.cpp:128 imageflip.cpp:122 convert2grayscale.cpp:131
+msgid "Cannot update source image"
+msgstr "Nun pudo anovase la imaxe de la fonte"
 
 #: imagerotate.cpp:165 imagerotate.cpp:205
 msgid "Nonstandard rotation angle"
@@ -65,6 +60,10 @@ msgstr "Ángulu de xiru non estándar"
 #, kde-format
 msgid "Cannot rotate: %1"
 msgstr "Nun se pudo xirar: %1"
+
+#: jpegtransform.cpp:243 jpegtransform.cpp:336 convert2grayscale.cpp:177
+msgid "Error in opening output file"
+msgstr "Fallu al abrir el ficheru de salida"
 
 #: jpegtransform.cpp:253 jpegtransform.cpp:262
 #, kde-format
@@ -190,19 +189,20 @@ msgstr "Falló'l reflexu de la imaxe"
 msgid "Failed to convert image to Black & White"
 msgstr "Falló la conversión de la imaxe a blancu y negru"
 
-#: utils.cpp:84
-msgid "unable to open source file"
-msgstr "Nun puede abrise'l ficheru fonte"
+#: imageflip.cpp:149 imageflip.cpp:178
+msgid "Nonstandard flip action"
+msgstr "Aición de reflexu non estándar"
 
-#: utils.cpp:114 utils.cpp:141
-msgid "unable to open temp file"
-msgstr "Nun puede abrise'l ficheru temporal"
-
-#: utils.cpp:128
-msgid "Cannot rotate: unable to open temp file"
-msgstr "Nun puede xirase: nun puede abrise'l ficheru temporal"
-
-#: utils.cpp:190
+#: imageflip.cpp:211
 #, kde-format
-msgid "Cannot update metadata: %1"
-msgstr "Nun pudieron anovase los metadatos: %1"
+msgid "Cannot flip: %1"
+msgstr "Nun pudo reflexase: %1"
+
+#: convert2grayscale.cpp:107
+msgid "Cannot convert to gray scale RAW file"
+msgstr "Nun pudo convertise n'escala de grises el ficheru RAW"
+
+#: convert2grayscale.cpp:277
+#, kde-format
+msgid "Cannot convert to gray scale: %1"
+msgstr "Nun pudo convertise a escala de grises: %1"
