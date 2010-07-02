@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-25 05:16+0200\n"
+"POT-Creation-Date: 2010-07-02 04:58+0200\n"
 "PO-Revision-Date: 2009-11-16 01:56+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -10583,16 +10583,6 @@ msgstr ""
 msgid "Export `%1' preset"
 msgstr ""
 
-#: playlistgenerator/constraints/Checkpoint.cpp:59
-msgid "Checkpoint"
-msgstr ""
-
-#: playlistgenerator/constraints/Checkpoint.cpp:60
-#, fuzzy
-#| msgid "Match a certain portion of the playlist to a value."
-msgid "Fixes a track, album, or artist to a certain position in the playlist"
-msgstr "Facer coincidir una parte d'una llista de reproducción con un valor."
-
 #: playlistgenerator/constraints/PlaylistLength.cpp:56
 #, fuzzy
 #| msgid "Playlist"
@@ -10767,6 +10757,57 @@ msgstr "Cabera reproducida"
 #| msgid "Playcount"
 msgid "play count"
 msgstr "Cuntador de reproducciones"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:59
+msgid "Checkpoint"
+msgstr ""
+
+#: playlistgenerator/constraints/Checkpoint.cpp:60
+#, fuzzy
+#| msgid "Match a certain portion of the playlist to a value."
+msgid "Fixes a track, album, or artist to a certain position in the playlist"
+msgstr "Facer coincidir una parte d'una llista de reproducción con un valor."
+
+#: playlistgenerator/constraints/Checkpoint.cpp:169
+#, fuzzy, kde-format
+#| msgctxt "track from source"
+#| msgid "from <b>%1</b>"
+msgid "Checkpoint: %1"
+msgstr "dende <b>%1</b>"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:177
+#: playlistgenerator/constraints/Checkpoint.cpp:185
+#: playlistgenerator/constraints/Checkpoint.cpp:197
+msgid "unassigned"
+msgstr ""
+
+#: playlistgenerator/constraints/Checkpoint.cpp:179
+#, fuzzy, kde-format
+#| msgid "%1 track"
+#| msgid_plural "%1 tracks"
+msgid "\"%1\" (track) by %2"
+msgstr "%1 pista"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:188
+#, fuzzy, kde-format
+#| msgid "Albums by %1"
+msgid "\"%1\" (album) by %2"
+msgstr "Álbumes de %1"
+
+#: playlistgenerator/constraints/Checkpoint.cpp:190
+#, kde-format
+msgid "\"%1\" (album)"
+msgstr ""
+
+#: playlistgenerator/constraints/Checkpoint.cpp:199
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Last part of: Magnatune.com database update complete. Added 3 tracks on 4 "
+#| "albums from 5 artists."
+#| msgid "1 artist."
+#| msgid_plural "%1 artists."
+msgid "\"%1\" (artist)"
+msgstr "1 artista."
 
 #: playlistmanager/PlaylistManager.cpp:221
 msgid "Downloading Playlist"
