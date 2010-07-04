@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-01 05:12+0200\n"
+"POT-Creation-Date: 2010-07-04 05:07+0200\n"
 "PO-Revision-Date: 2009-12-06 18:15+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Español <kde-ye@kybs.de>\n"
@@ -873,7 +873,7 @@ msgstr "Eventu desactiváu"
 msgid "File Info"
 msgstr "Información del ficheru"
 
-#: projects/k3bvcdtrackdialog.cpp:399 projects/k3baudioprojectmodel.cpp:327
+#: projects/k3bvcdtrackdialog.cpp:399 projects/k3baudioprojectmodel.cpp:319
 #: rip/videodvd/k3bvideodvdaudiomodel.cpp:260
 #: rip/k3baudiorippingdialog.cpp:142
 msgid "Filename"
@@ -1019,24 +1019,24 @@ msgstr "Estaya d'Audio"
 msgid "Data Section"
 msgstr "Estaya de datos"
 
-#: projects/k3bmixedview.cpp:129
+#: projects/k3bmixedview.cpp:124
 msgid "Please add files and audio titles to your project first."
 msgstr "Por favor, amiesta primero los ficheros y títulos d'audio al proyeutu."
 
-#: projects/k3bmixedview.cpp:130 projects/k3bdataview.cpp:125
+#: projects/k3bmixedview.cpp:125 projects/k3bdataview.cpp:125
 #: projects/k3bview.cpp:92
 msgid "No Data to Burn"
 msgstr "Dengún datu pa grabar"
 
 #: projects/k3bvcdview.cpp:62 projects/k3bmovixview.cpp:64
-#: projects/k3bdataviewimpl.cpp:104 projects/k3baudioviewimpl.cpp:89
+#: projects/k3bdataviewimpl.cpp:104 projects/k3baudioviewimpl.cpp:94
 msgid "Properties"
 msgstr "Propiedaes"
 
 #. i18n: file: ../plugins/encoder/external/base_k3bexternalencoderconfigwidget.ui:81
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
 #: projects/k3bvcdview.cpp:66 projects/k3bmovixview.cpp:67
-#: projects/k3bdataviewimpl.cpp:87 projects/k3baudioviewimpl.cpp:91
+#: projects/k3bdataviewimpl.cpp:87 projects/k3baudioviewimpl.cpp:96
 #: rc.cpp:1092
 msgid "Remove"
 msgstr "Desaniciar"
@@ -1915,7 +1915,7 @@ msgid "&Publisher:"
 msgstr "&Editor:"
 
 #: projects/k3bdataview.cpp:124 projects/k3bview.cpp:91
-#: projects/k3baudioviewimpl.cpp:419
+#: projects/k3baudioviewimpl.cpp:427
 msgid "Please add files to your project first."
 msgstr "Por favor, amiesta primero los ficheros al to proyeutu."
 
@@ -2064,31 +2064,29 @@ msgstr ""
 msgid "Edit Boot Images"
 msgstr "Editar imáxenes d'arranque"
 
-#: projects/k3baudiotrackplayer.cpp:117 projects/k3baudiotrackplayer.cpp:176
+#: projects/k3baudiotrackplayer.cpp:86
+#, fuzzy, kde-format
+#| msgid "Ripping track %1 (%2 - %3)"
+msgid "Playing track %1: %2 - %3"
+msgstr "Sacando pista %1 (%2 - %3)"
+
+#: projects/k3baudiotrackplayer.cpp:145 projects/k3baudiotrackplayer.cpp:146
 msgid "Play"
 msgstr "Reproducir"
 
-#: projects/k3baudiotrackplayer.cpp:123 projects/k3baudiotrackplayer.cpp:178
+#: projects/k3baudiotrackplayer.cpp:147 projects/k3baudiotrackplayer.cpp:149
 msgid "Pause"
 msgstr "Pausa"
 
-#: projects/k3baudiotrackplayer.cpp:129
-msgid "Play/Pause"
-msgstr "Reproducir/Pausa"
-
-#: projects/k3baudiotrackplayer.cpp:136 projects/k3baudiotrackplayer.cpp:177
+#: projects/k3baudiotrackplayer.cpp:150 projects/k3baudiotrackplayer.cpp:152
 msgid "Stop"
 msgstr "Parar"
 
-#: projects/k3baudiotrackplayer.cpp:142 projects/k3baudiotrackplayer.cpp:179
+#: projects/k3baudiotrackplayer.cpp:153 projects/k3baudiotrackplayer.cpp:155
 msgid "Next"
 msgstr "Siguiente"
 
-#: projects/k3baudiotrackplayer.cpp:148
-msgid "Prev"
-msgstr "Anterior"
-
-#: projects/k3baudiotrackplayer.cpp:180
+#: projects/k3baudiotrackplayer.cpp:156 projects/k3baudiotrackplayer.cpp:158
 msgid "Previous"
 msgstr "Anterior"
 
@@ -2305,25 +2303,25 @@ msgid_plural "%1 Folders"
 msgstr[0] "1 carpeta"
 msgstr[1] "%1 carpetes"
 
-#: projects/k3baudioprojectmodel.cpp:317 rip/k3baudiotrackmodel.cpp:157
+#: projects/k3baudioprojectmodel.cpp:309 rip/k3baudiotrackmodel.cpp:157
 msgctxt "audio track number"
 msgid "No."
 msgstr "Nu."
 
-#: projects/k3baudioprojectmodel.cpp:319
+#: projects/k3baudioprojectmodel.cpp:311
 msgid "Artist (CD-Text)"
 msgstr "Artista (CD-Testu)"
 
-#: projects/k3baudioprojectmodel.cpp:321
+#: projects/k3baudioprojectmodel.cpp:313
 msgid "Title (CD-Text)"
 msgstr "Títulu (CD-Testu)"
 
-#: projects/k3baudioprojectmodel.cpp:323
+#: projects/k3baudioprojectmodel.cpp:315
 msgctxt "audio type like mp3 or whatever"
 msgid "Type"
 msgstr "Triba"
 
-#: projects/k3baudioprojectmodel.cpp:325
+#: projects/k3baudioprojectmodel.cpp:317
 msgctxt "audio track length"
 msgid "Length"
 msgstr "Duración"
@@ -2663,65 +2661,65 @@ msgstr ""
 "<br>Podríen ocasionase problemes con dellos reproductores antiguos "
 "qu'intenten lleer la pista de datos."
 
-#: projects/k3baudioviewimpl.cpp:71
+#: projects/k3baudioviewimpl.cpp:76
 msgid "Add Silence..."
 msgstr "Amestar Silenciu..."
 
-#: projects/k3baudioviewimpl.cpp:73
+#: projects/k3baudioviewimpl.cpp:78
 msgid "Merge Tracks"
 msgstr "Fusionar pistas"
 
-#: projects/k3baudioviewimpl.cpp:75
+#: projects/k3baudioviewimpl.cpp:80
 msgid "Source to Track"
 msgstr "Orixe a pista"
 
-#: projects/k3baudioviewimpl.cpp:77
+#: projects/k3baudioviewimpl.cpp:82
 msgid "Split Track..."
 msgstr "Dividir pista..."
 
-#: projects/k3baudioviewimpl.cpp:79
+#: projects/k3baudioviewimpl.cpp:84
 msgid "Edit Source..."
 msgstr "Editar orixe..."
 
-#: projects/k3baudioviewimpl.cpp:81
+#: projects/k3baudioviewimpl.cpp:86
 msgid "Play Track"
 msgstr "Reproducir pista"
 
-#: projects/k3baudioviewimpl.cpp:83 projects/k3baudioviewimpl.cpp:86
+#: projects/k3baudioviewimpl.cpp:88 projects/k3baudioviewimpl.cpp:91
 msgid "Musicbrainz Lookup"
 msgstr "Gueta en Musicbrainz"
 
-#: projects/k3baudioviewimpl.cpp:85 projects/k3baudioviewimpl.cpp:88
+#: projects/k3baudioviewimpl.cpp:90 projects/k3baudioviewimpl.cpp:93
 msgid "Try to determine meta information over the Internet"
 msgstr ""
 
-#: projects/k3baudioviewimpl.cpp:93
+#: projects/k3baudioviewimpl.cpp:98
 msgid "Convert Tracks"
 msgstr "Convertir pistes"
 
-#: projects/k3baudioviewimpl.cpp:189
+#: projects/k3baudioviewimpl.cpp:192
 msgid "Add Silence"
 msgstr "Amestar Silenciu"
 
-#: projects/k3baudioviewimpl.cpp:193
+#: projects/k3baudioviewimpl.cpp:196
 msgid "Length of silence:"
 msgstr "Duración del silenciu:"
 
-#: projects/k3baudioviewimpl.cpp:284
+#: projects/k3baudioviewimpl.cpp:287
 msgid "Edit Audio Track Source"
 msgstr "Editar orixe de la pista d'audio"
 
-#: projects/k3baudioviewimpl.cpp:325
+#: projects/k3baudioviewimpl.cpp:339
 #, fuzzy
 #| msgid "Please select an audio track."
 msgid "Please add an audio track."
 msgstr "Por favor escueyi una pista d'audio."
 
-#: projects/k3baudioviewimpl.cpp:349
+#: projects/k3baudioviewimpl.cpp:363
 msgid "Please select an audio track."
 msgstr "Por favor escueyi una pista d'audio."
 
-#: projects/k3baudioviewimpl.cpp:420
+#: projects/k3baudioviewimpl.cpp:428
 msgid "No tracks to convert"
 msgstr ""
 
@@ -10109,6 +10107,12 @@ msgstr "Fechu."
 #: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:384
 msgid "Rename audio files based on their meta info."
 msgstr "Camudar nome a ficheros d'audio basándose en la to metainformación."
+
+#~ msgid "Play/Pause"
+#~ msgstr "Reproducir/Pausa"
+
+#~ msgid "Prev"
+#~ msgstr "Anterior"
 
 #~ msgid "%1 track"
 #~ msgid_plural "%1 tracks"
