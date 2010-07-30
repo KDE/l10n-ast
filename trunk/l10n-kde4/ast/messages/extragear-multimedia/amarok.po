@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-29 05:41+0200\n"
+"POT-Creation-Date: 2010-07-30 05:25+0200\n"
 "PO-Revision-Date: 2009-11-16 01:56+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -544,7 +544,7 @@ msgid "Add Position Marker"
 msgstr ""
 
 #: amarokurls/BookmarkModel.cpp:86
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:366
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:376
 msgid "Group"
 msgstr "Grupu"
 
@@ -555,7 +555,7 @@ msgstr "Grupu"
 #. i18n: file: aboutdialog/OcsPersonItem.ui:137
 #. i18n: ectx: property (text), widget (QLabel, m_textLabel)
 #: amarokurls/BookmarkModel.cpp:265
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:365
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:375
 #: playlistgenerator/TreeModel.cpp:67 rc.cpp:1178 rc.cpp:1184 rc.cpp:1190
 msgid "Name"
 msgstr "Nome"
@@ -1170,7 +1170,7 @@ msgstr "Proporción:"
 #. i18n: ectx: property (text), widget (QLabel, label_StrictnessRating)
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:280
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:918
-#: dynamic/biases/EchoNest.cpp:112 rc.cpp:2388 rc.cpp:2453 rc.cpp:2516
+#: dynamic/biases/EchoNest.cpp:110 rc.cpp:2388 rc.cpp:2453 rc.cpp:2516
 #: rc.cpp:2552 rc.cpp:2603 rc.cpp:2633
 msgid "Match:"
 msgstr "Coincidir:"
@@ -1313,60 +1313,6 @@ msgstr "camudáu"
 msgid "Random (modified)"
 msgstr "Al debalu (modificáu)"
 
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:88
-#, fuzzy
-#| msgid "Media Sources"
-msgid "Visible Sources"
-msgstr "Preseos de medios"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:231
-#, fuzzy
-#| msgid "New Folder"
-#| msgid_plural "New Folder (%1)"
-msgctxt "default name for new folder"
-msgid "New Folder"
-msgstr "Carpeta nueva"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:233
-#, fuzzy, kde-format
-#| msgid "New Folder"
-#| msgid_plural "New Folder (%1)"
-msgctxt "default name for new folder"
-msgid "New Folder (%1)"
-msgstr "Carpeta nueva"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:90
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:171
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:216
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Llista de reproducción"
-msgstr[1] "Llista de reproducción"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:367
-msgid "Source"
-msgstr "Fonte"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
-msgid "&Rename Folder..."
-msgstr "&Renomar la carpeta..."
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:39
-msgid "&Delete Folder"
-msgstr "&Desaniciar la carpeta"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:295
-msgid "New name"
-msgstr "Nome nuevu"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:297
-msgctxt "Enter a new name for a folder that already exists"
-msgid "Enter new folder name:"
-msgstr "Pon el nome nuevu de carpeta:"
-
 #: browsers/playlistbrowser/PodcastCategory.cpp:99
 msgid "Podcasts"
 msgstr "Podcasts"
@@ -1432,6 +1378,75 @@ msgstr ""
 msgid "Select OPML file to import"
 msgstr ""
 
+#: browsers/playlistbrowser/UserPlaylistCategory.cpp:58
+msgid "Saved Playlists"
+msgstr "Llistes de reproducción guardaes"
+
+#: browsers/playlistbrowser/UserPlaylistCategory.cpp:59
+msgid "User generated and imported playlists"
+msgstr "Llistes de reproducción xeneraes ya importaes pol usuariu"
+
+#: browsers/playlistbrowser/UserPlaylistCategory.cpp:62
+msgid ""
+"Create, edit, organize and load playlists. Amarok automatically adds any "
+"playlists found when scanning your collection, and any playlists that you "
+"save are also shown here."
+msgstr ""
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:88
+#, fuzzy
+#| msgid "Media Sources"
+msgid "Visible Sources"
+msgstr "Preseos de medios"
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:231
+#, fuzzy
+#| msgid "New Folder"
+#| msgid_plural "New Folder (%1)"
+msgctxt "default name for new folder"
+msgid "New Folder"
+msgstr "Carpeta nueva"
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:233
+#, fuzzy, kde-format
+#| msgid "New Folder"
+#| msgid_plural "New Folder (%1)"
+msgctxt "default name for new folder"
+msgid "New Folder (%1)"
+msgstr "Carpeta nueva"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:90
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:171
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:216
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Llista de reproducción"
+msgstr[1] "Llista de reproducción"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:377
+msgid "Source"
+msgstr "Fonte"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
+msgid "&Rename Folder..."
+msgstr "&Renomar la carpeta..."
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:39
+msgid "&Delete Folder"
+msgstr "&Desaniciar la carpeta"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:295
+msgid "New name"
+msgstr "Nome nuevu"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:297
+msgctxt "Enter a new name for a folder that already exists"
+msgid "Enter new folder name:"
+msgstr "Pon el nome nuevu de carpeta:"
+
 #: browsers/playlistbrowser/PodcastModel.cpp:73
 msgctxt "toggle the \"new\" status of this podcast episode"
 msgid "&New"
@@ -1456,21 +1471,6 @@ msgstr "Amestar podcast"
 
 #: browsers/playlistbrowser/PodcastModel.cpp:357
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
-msgstr ""
-
-#: browsers/playlistbrowser/UserPlaylistCategory.cpp:58
-msgid "Saved Playlists"
-msgstr "Llistes de reproducción guardaes"
-
-#: browsers/playlistbrowser/UserPlaylistCategory.cpp:59
-msgid "User generated and imported playlists"
-msgstr "Llistes de reproducción xeneraes ya importaes pol usuariu"
-
-#: browsers/playlistbrowser/UserPlaylistCategory.cpp:62
-msgid ""
-"Create, edit, organize and load playlists. Amarok automatically adds any "
-"playlists found when scanning your collection, and any playlists that you "
-"save are also shown here."
 msgstr ""
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
@@ -3312,11 +3312,6 @@ msgid_plural " Items"
 msgstr[0] " elementos"
 msgstr[1] " elementos"
 
-#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:389
-#: core/podcasts/PodcastMeta.h:412
-msgid "Podcast"
-msgstr "Podcast"
-
 #: core-impl/podcasts/sql/SqlPodcastProvider.h:50
 msgid "Local Podcasts"
 msgstr "Podcasts llocal"
@@ -3434,6 +3429,11 @@ msgstr "Descargando vídeo/audio encapsuláu «%1»"
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "Nun se puede guardar l'episodiu de podcast en %1"
+
+#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:389
+#: core/podcasts/PodcastMeta.h:412
+msgid "Podcast"
+msgstr "Podcast"
 
 #: core/meta/support/MetaUtility.cpp:355
 msgctxt "The quality of music"
@@ -5218,19 +5218,19 @@ msgstr "Criando llista de reproducción..."
 msgid "Match Type:"
 msgstr "Facer coincidir triba:"
 
-#: dynamic/biases/EchoNest.cpp:52
+#: dynamic/biases/EchoNest.cpp:50
 msgid "Echo Nest Similar Artists"
 msgstr "Artistes asemeyaos d'Echo Nest"
 
-#: dynamic/biases/EchoNest.cpp:115
+#: dynamic/biases/EchoNest.cpp:113
 msgid "Current Track"
 msgstr "Pista actual"
 
-#: dynamic/biases/EchoNest.cpp:116 playlist/PlaylistDock.cpp:45
+#: dynamic/biases/EchoNest.cpp:114 playlist/PlaylistDock.cpp:45
 msgid "Playlist"
 msgstr "Llista de reproducción"
 
-#: dynamic/biases/EchoNest.cpp:122
+#: dynamic/biases/EchoNest.cpp:120
 msgid "Recommendations by Echo Nest."
 msgstr "Recomendaciones d'Echo Nest."
 
@@ -6603,19 +6603,6 @@ msgstr "Cabera reproducida"
 msgid "Mood"
 msgstr "Mood"
 
-#: playlist/PlaylistDock.cpp:73
-msgid "Dynamic Mode Enabled"
-msgstr ""
-
-#: playlist/PlaylistDock.cpp:136
-msgid "&Save Current Playlist"
-msgstr ""
-
-#: playlist/PlaylistDock.cpp:206
-#, kde-format
-msgid "&Save playlist to \"%1\""
-msgstr ""
-
 #: playlist/PlaylistViewUrlGenerator.cpp:82
 #, kde-format
 msgid "Filter %1"
@@ -6647,6 +6634,19 @@ msgstr "Llista de reproducción"
 
 #: playlist/PlaylistActions.cpp:408
 msgid "Too many errors encountered in playlist. Playback stopped."
+msgstr ""
+
+#: playlist/PlaylistDock.cpp:72
+msgid "Dynamic Mode Enabled"
+msgstr ""
+
+#: playlist/PlaylistDock.cpp:135
+msgid "&Save Current Playlist"
+msgstr ""
+
+#: playlist/PlaylistDock.cpp:205
+#, kde-format
+msgid "&Save playlist to \"%1\""
 msgstr ""
 
 #: playlistgenerator/ConstraintGroup.cpp:84
