@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-02 05:05+0200\n"
+"POT-Creation-Date: 2010-08-03 06:14+0200\n"
 "PO-Revision-Date: 2009-12-07 17:19+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -79,19 +79,19 @@ msgstr "Long skip duration:"
 msgid "&File"
 msgstr "&Ficheru"
 
-#: mainwindow.cpp:194 mainwindow.cpp:509
+#: mainwindow.cpp:194 mainwindow.cpp:511
 msgid "Open URL"
 msgstr "Abrir URL"
 
-#: mainwindow.cpp:205 mainwindow.cpp:358
+#: mainwindow.cpp:205 mainwindow.cpp:360
 msgid "Play Audio CD"
 msgstr "Reproducir CD d'audio"
 
-#: mainwindow.cpp:209 mainwindow.cpp:359
+#: mainwindow.cpp:209 mainwindow.cpp:361
 msgid "Play Video CD"
 msgstr "Reproducir CD de vídeo"
 
-#: mainwindow.cpp:213 mainwindow.cpp:360
+#: mainwindow.cpp:213 mainwindow.cpp:362
 msgid "Play DVD"
 msgstr "Reproducir DVD"
 
@@ -128,35 +128,35 @@ msgstr "Llista de reproducción"
 msgid "Television"
 msgstr "Televisión"
 
-#: mainwindow.cpp:357
+#: mainwindow.cpp:359
 msgid "Start in full screen mode"
 msgstr "Aniciar en mou pantalla completa"
 
-#: mainwindow.cpp:361
+#: mainwindow.cpp:363
 msgctxt "command line option"
 msgid "(deprecated option)"
 msgstr "(opción obsoleta)"
 
-#: mainwindow.cpp:362
+#: mainwindow.cpp:364
 msgctxt "command line option"
 msgid "Play TV channel"
 msgstr "Reproducir canal de TV"
 
-#: mainwindow.cpp:363
+#: mainwindow.cpp:365
 msgctxt "command line option"
 msgid "Play last tuned TV channel"
 msgstr "Reproducir caberu canal sintonizáu de TV"
 
-#: mainwindow.cpp:364
+#: mainwindow.cpp:366
 msgctxt "command line option"
 msgid "Dump dvb data (debug option)"
 msgstr "Dump dvb data (debug option)"
 
-#: mainwindow.cpp:365
+#: mainwindow.cpp:367
 msgid "Files or URLs to play"
 msgstr "Ficheros de URL a reproducir"
 
-#: mainwindow.cpp:509
+#: mainwindow.cpp:511
 msgid "Enter a URL:"
 msgstr "Introducir una URL:"
 
@@ -472,7 +472,7 @@ msgstr "Circular esquierda"
 msgid "Circular right"
 msgstr "Circular drecha"
 
-#: dvb/dvbchannelui.cpp:239 dvb/dvbrecording.cpp:233 dvb/dvbscandialog.cpp:182
+#: dvb/dvbchannelui.cpp:239 dvb/dvbrecording.cpp:265 dvb/dvbscandialog.cpp:182
 msgid "Name"
 msgstr "Nome"
 
@@ -480,14 +480,12 @@ msgstr "Nome"
 msgid "Number"
 msgstr "Númberu"
 
-#: dvb/dvbchannelui.cpp:576 dvb/dvbrecording.cpp:650 dvb/dvbrecording.cpp:672
-#: dvb/dvbscandialog.cpp:210
+#: dvb/dvbchannelui.cpp:576 dvb/dvbrecording.cpp:718 dvb/dvbscandialog.cpp:210
 msgid "Edit"
 msgstr "Editar"
 
-#: dvb/dvbchannelui.cpp:589 dvb/dvbrecording.cpp:655 dvb/dvbrecording.cpp:676
-#: dvb/dvbscandialog.cpp:215 playlist/playlisttab.cpp:406
-#: playlist/playlisttab.cpp:427
+#: dvb/dvbchannelui.cpp:589 dvb/dvbrecording.cpp:726 dvb/dvbscandialog.cpp:215
+#: playlist/playlisttab.cpp:406 playlist/playlisttab.cpp:427
 msgctxt "remove an item from a list"
 msgid "Remove"
 msgstr "Desaniciar"
@@ -497,7 +495,7 @@ msgid "Channel Settings"
 msgstr "Configuración de la canal"
 
 #: dvb/dvbchannelui.cpp:633 dvb/dvbconfigdialog.cpp:678
-#: dvb/dvbrecording.cpp:740
+#: dvb/dvbrecording.cpp:796
 msgid "Name:"
 msgstr "Nome:"
 
@@ -842,11 +840,11 @@ msgstr "Vertical LOF (MHz)"
 msgid "LOF (MHz)"
 msgstr "LOF (MHz)"
 
-#: dvb/dvbepg.cpp:230 dvb/dvbrecording.cpp:237
+#: dvb/dvbepg.cpp:230 dvb/dvbrecording.cpp:269
 msgid "Begin"
 msgstr "Aniciu"
 
-#: dvb/dvbepg.cpp:232 dvb/dvbrecording.cpp:239
+#: dvb/dvbepg.cpp:232 dvb/dvbrecording.cpp:271
 msgid "Duration"
 msgstr "Duración"
 
@@ -888,51 +886,65 @@ msgctxt "message box"
 msgid "No available device found."
 msgstr "Nun hai preseos disponibles."
 
-#: dvb/dvbrecording.cpp:235
+#: dvb/dvbrecording.cpp:156
+msgctxt "message box"
+msgid ""
+"Kaffeine is currently recording programs.\n"
+"Do you really want to close the application?"
+msgstr ""
+
+#: dvb/dvbrecording.cpp:166
+msgctxt "message box"
+msgid ""
+"Kaffeine has scheduled recordings.\n"
+"Do you really want to close the application?"
+msgstr ""
+
+#: dvb/dvbrecording.cpp:267
 msgid "Channel"
 msgstr "Canal"
 
-#: dvb/dvbrecording.cpp:639 dvb/dvbtab.cpp:99
+#: dvb/dvbrecording.cpp:694 dvb/dvbtab.cpp:99
 msgctxt "dialog"
 msgid "Recording Schedule"
 msgstr "Grabando programación"
 
-#: dvb/dvbrecording.cpp:646 playlist/playlisttab.cpp:417
+#: dvb/dvbrecording.cpp:711 playlist/playlisttab.cpp:417
 msgctxt "add a new item to a list"
 msgid "New"
 msgstr "Nuevu"
 
-#: dvb/dvbrecording.cpp:731
+#: dvb/dvbrecording.cpp:787
 msgctxt "subdialog of 'Recording Schedule'"
 msgid "Edit Schedule Entry"
 msgstr "Editar la llista d'Entrada"
 
-#: dvb/dvbrecording.cpp:758
+#: dvb/dvbrecording.cpp:814
 msgid "Channel:"
 msgstr "Canal:"
 
-#: dvb/dvbrecording.cpp:768
+#: dvb/dvbrecording.cpp:824
 msgid "Begin:"
 msgstr "Aniciu:"
 
-#: dvb/dvbrecording.cpp:776
+#: dvb/dvbrecording.cpp:832
 msgid "Duration:"
 msgstr "Duración:"
 
-#: dvb/dvbrecording.cpp:785
+#: dvb/dvbrecording.cpp:841
 msgid "End:"
 msgstr "Fin:"
 
-#: dvb/dvbrecording.cpp:789
+#: dvb/dvbrecording.cpp:845
 msgid "Repeat:"
 msgstr "Repetir:"
 
-#: dvb/dvbrecording.cpp:793
+#: dvb/dvbrecording.cpp:849
 msgctxt "button next to the 'Repeat:' label"
 msgid "Never"
 msgstr "Enxamás"
 
-#: dvb/dvbrecording.cpp:797
+#: dvb/dvbrecording.cpp:853
 msgctxt "button next to the 'Repeat:' label"
 msgid "Daily"
 msgstr "Diariamente"
@@ -1041,12 +1053,12 @@ msgctxt "osd"
 msgid "Channel: %1_"
 msgstr "Canal: %1_"
 
-#: dvb/dvbtab.cpp:308
+#: dvb/dvbtab.cpp:313
 msgctxt "osd"
 msgid "Instant Record Started"
 msgstr "Aniciada la grabación instantánea"
 
-#: dvb/dvbtab.cpp:311 dvb/dvbtab.cpp:320
+#: dvb/dvbtab.cpp:316 dvb/dvbtab.cpp:325
 msgctxt "osd"
 msgid "Instant Record Stopped"
 msgstr "Detúvose la grabación instantánea"
