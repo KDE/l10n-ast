@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-27 06:24+0200\n"
+"POT-Creation-Date: 2010-08-06 05:25+0200\n"
 "PO-Revision-Date: 2009-12-18 18:26+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -77,7 +77,13 @@ msgstr[1] ""
 "%2\n"
 "%1peñeres actives"
 
-#: plugins/syndication/feedlist.cpp:177 plugins/scripting/scriptmodel.cpp:178
+#: plugins/syndication/feedlist.cpp:180
+#, fuzzy, kde-format
+#| msgid "<b>%1</b><br/>Preview: %2<br/>Downloaded: %3 %"
+msgid "<b>%1</b><br/><br/>Download failed: <b>%2</b>"
+msgstr "<b>%1</b><br/>Previsualización: %2<br/>Baxando: %3 %"
+
+#: plugins/syndication/feedlist.cpp:182 plugins/scripting/scriptmodel.cpp:178
 #, kde-format
 msgid "<b>%1</b><br/><br/>%2"
 msgstr "<b>%1</b><br/><br/>%2"
@@ -176,7 +182,9 @@ msgid "<b>Not Loaded</b>"
 msgstr "<b>Non cargáu</b>"
 
 #: plugins/syndication/feedwidget.cpp:132
-msgid "<b>Download Failed</b>"
+#, fuzzy, kde-format
+#| msgid "<b>Download Failed</b>"
+msgid "<b>Download Failed: %1</b>"
 msgstr "<b>Baxada fallida</b>"
 
 #: plugins/syndication/feedwidget.cpp:135
@@ -1580,7 +1588,7 @@ msgstr "¿Quies baxar o guardar el torrent?"
 msgid "Download Torrent"
 msgstr "Baxar el torrent"
 
-#. i18n: file: plugins/syndication/feedwidget.ui:125
+#. i18n: file: plugins/syndication/feedwidget.ui:121
 #. i18n: ectx: property (text), widget (KPushButton, m_download)
 #. i18n: file: plugins/stats/Spd.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, DlSpdGbw)
@@ -1590,7 +1598,7 @@ msgstr "Baxar el torrent"
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. i18n: file: plugins/stats/Settings.ui:114
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#. i18n: file: plugins/syndication/feedwidget.ui:125
+#. i18n: file: plugins/syndication/feedwidget.ui:121
 #. i18n: ectx: property (text), widget (KPushButton, m_download)
 #. i18n: file: plugins/stats/Spd.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, DlSpdGbw)
@@ -4371,29 +4379,29 @@ msgstr "filtrar la fonte:"
 msgid "URL:"
 msgstr "URL:"
 
-#. i18n: file: plugins/syndication/feedwidget.ui:57
+#. i18n: file: plugins/syndication/feedwidget.ui:53
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:213
 msgid "Status:"
 msgstr "Estáu:"
 
-#. i18n: file: plugins/syndication/feedwidget.ui:81
+#. i18n: file: plugins/syndication/feedwidget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:217
 msgid "Refresh every:"
 msgstr ""
 
-#. i18n: file: plugins/syndication/feedwidget.ui:88
+#. i18n: file: plugins/syndication/feedwidget.ui:84
 #. i18n: ectx: property (toolTip), widget (QSpinBox, m_refresh_rate)
 #: rc.cpp:220
 msgid "Time between automatic refreshes of the feed."
 msgstr ""
 
-#. i18n: file: plugins/syndication/feedwidget.ui:91
+#. i18n: file: plugins/syndication/feedwidget.ui:87
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_refresh_rate)
 #. i18n: file: plugins/scripting/scripts/auto_resume/auto_resume.ui:51
 #. i18n: ectx: property (suffix), widget (QSpinBox, minutes)
-#. i18n: file: plugins/syndication/feedwidget.ui:91
+#. i18n: file: plugins/syndication/feedwidget.ui:87
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_refresh_rate)
 #. i18n: file: plugins/scripting/scripts/auto_resume/auto_resume.ui:51
 #. i18n: ectx: property (suffix), widget (QSpinBox, minutes)
@@ -4401,19 +4409,19 @@ msgstr ""
 msgid " minutes"
 msgstr " minutos"
 
-#. i18n: file: plugins/syndication/feedwidget.ui:132
+#. i18n: file: plugins/syndication/feedwidget.ui:128
 #. i18n: ectx: property (text), widget (KPushButton, m_refresh)
 #: rc.cpp:229
 msgid "Refresh"
 msgstr "Anovar"
 
-#. i18n: file: plugins/syndication/feedwidget.ui:152
+#. i18n: file: plugins/syndication/feedwidget.ui:148
 #. i18n: ectx: property (text), widget (KPushButton, m_filters)
 #: rc.cpp:232
 msgid "Filters"
 msgstr "Filtros"
 
-#. i18n: file: plugins/syndication/feedwidget.ui:159
+#. i18n: file: plugins/syndication/feedwidget.ui:155
 #. i18n: ectx: property (text), widget (KPushButton, m_cookies)
 #: rc.cpp:235
 #, fuzzy
