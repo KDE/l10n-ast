@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krfb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-18 05:19+0200\n"
+"POT-Creation-Date: 2010-08-22 05:46+0200\n"
 "PO-Revision-Date: 2010-01-16 15:50+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -55,7 +55,7 @@ msgstr "Invitación"
 
 #. i18n: file: invitewidget.ui:125
 #. i18n: ectx: property (text), widget (QPushButton, btnManageInvite)
-#: invitedialog.cpp:72 rc.cpp:61
+#: invitedialog.cpp:72 rc.cpp:63
 #, no-c-format, kde-format
 msgid "&Manage Invitations (%1)..."
 msgstr "Al&ministrar invitaciones (%1)..."
@@ -354,27 +354,37 @@ msgstr ""
 "ta darrera d'un torgafueos, puede que tenga una direición distinta, o nun "
 "seya algamable per otros equipos."
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr " ,Launchpad Contributions:,Iñigo Varela"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ",,malditoastur@gmail.com"
+
 #. i18n: file: configsecurity.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowUninvitedConnections)
-#: rc.cpp:3
+#: rc.cpp:5
 msgid "Allow uninvited connections"
 msgstr "Permitir conexones non invitaes"
 
 #. i18n: file: configsecurity.ui:24
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowDesktopControl)
-#: rc.cpp:6
+#: rc.cpp:8
 msgid "Allow remote connections to control your desktop"
 msgstr "Permitir a conexones remotes remanar el so escritoriu"
 
 #. i18n: file: configsecurity.ui:37
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_askOnConnect)
-#: rc.cpp:9
+#: rc.cpp:11
 msgid "Ask before accepting connections"
 msgstr "Entrugar enantes d'aceutar conexones"
 
 #. i18n: file: configsecurity.ui:50
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:12
+#: rc.cpp:14
 msgid "Uninvited connections password:"
 msgstr "Contraseña de conexones non convidaes:"
 
@@ -382,31 +392,31 @@ msgstr "Contraseña de conexones non convidaes:"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_publishService)
 #. i18n: file: krfb.kcfg:16
 #. i18n: ectx: label, entry (publishService), group (TCP)
-#: rc.cpp:15 rc.cpp:70
+#: rc.cpp:17 rc.cpp:148
 msgid "Announce the service on the local network"
 msgstr "Anunciar el serviciu na rede llocal"
 
 #. i18n: file: configtcp.ui:32
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useDefaultPort)
-#: rc.cpp:18
+#: rc.cpp:20
 msgid "Use default port"
 msgstr "Usar puertu predefiníu"
 
 #. i18n: file: configtcp.ui:50
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:21
+#: rc.cpp:23
 msgid "Listening port:"
 msgstr "Escuchar puertu:"
 
 #. i18n: file: connectionwidget.ui:47
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5)
-#: rc.cpp:24
+#: rc.cpp:26
 msgid "Attention"
 msgstr "Atención"
 
 #. i18n: file: connectionwidget.ui:72
 #. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
-#: rc.cpp:27
+#: rc.cpp:29
 msgid ""
 "Somebody is requesting a connection to your computer. Granting this will "
 "allow the remote user to watch your desktop. "
@@ -416,19 +426,19 @@ msgstr ""
 
 #. i18n: file: connectionwidget.ui:102
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: rc.cpp:30
+#: rc.cpp:32
 msgid "Remote system:"
 msgstr "Sistema remotu:"
 
 #. i18n: file: connectionwidget.ui:118
 #. i18n: ectx: property (text), widget (QLabel, remoteHost)
-#: rc.cpp:33
+#: rc.cpp:35
 msgid "123.234.123.234"
 msgstr "123.234.123.234"
 
 #. i18n: file: connectionwidget.ui:136
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAllowRemoteControl)
-#: rc.cpp:36
+#: rc.cpp:38
 msgid ""
 "If you turn this option on, the remote user can enter keystrokes and use "
 "your mouse pointer. This gives them full control over your computer, so be "
@@ -442,7 +452,7 @@ msgstr ""
 
 #. i18n: file: connectionwidget.ui:139
 #. i18n: ectx: property (text), widget (QCheckBox, cbAllowRemoteControl)
-#: rc.cpp:39
+#: rc.cpp:41
 msgid "Allow remote user to &control keyboard and mouse"
 msgstr "Permitir al usuariu remotu &remanar el tecláu y el mur"
 
@@ -450,13 +460,13 @@ msgstr "Permitir al usuariu remotu &remanar el tecláu y el mur"
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2)
 #. i18n: file: manageinvitations.ui:25
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2)
-#: rc.cpp:42 rc.cpp:91
+#: rc.cpp:44 rc.cpp:69
 msgid "Welcome to KDE Desktop Sharing"
 msgstr "Bienveníu al programa pa compartir l'escritoriu de KDE"
 
 #. i18n: file: invitewidget.ui:50
 #. i18n: ectx: property (text), widget (QLabel, helpLabel)
-#: rc.cpp:45
+#: rc.cpp:47
 msgid ""
 "KDE Desktop Sharing allows you to invite somebody at a remote location to "
 "watch and possibly control your desktop. <a href=\"whatsthis\">More about "
@@ -468,7 +478,7 @@ msgstr ""
 
 #. i18n: file: invitewidget.ui:105
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreateInvite)
-#: rc.cpp:48
+#: rc.cpp:50
 msgid ""
 "Create a new invitation and display the connection data. Use this option if "
 "you want to invite somebody personally, for example, to give the connection "
@@ -480,13 +490,13 @@ msgstr ""
 
 #. i18n: file: invitewidget.ui:108
 #. i18n: ectx: property (text), widget (QPushButton, btnCreateInvite)
-#: rc.cpp:51
+#: rc.cpp:53
 msgid "Create &Personal Invitation..."
 msgstr "Crear una invitación &personal..."
 
 #. i18n: file: invitewidget.ui:115
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnEmailInvite)
-#: rc.cpp:54
+#: rc.cpp:56
 msgid ""
 "This button will start your email application with a pre-configured text "
 "that explains to the recipient how to connect to your computer. "
@@ -496,61 +506,19 @@ msgstr ""
 
 #. i18n: file: invitewidget.ui:118
 #. i18n: ectx: property (text), widget (QPushButton, btnEmailInvite)
-#: rc.cpp:57
+#: rc.cpp:59
 msgid "Invite via &Email..."
 msgstr "Convidar vía corréu-&e..."
 
-#. i18n: file: krfb.kcfg:8
-#. i18n: ectx: label, entry (useDefaultPort), group (TCP)
-#: rc.cpp:64
-msgid "Use the default port for VNC (5900)"
-msgstr "Usar el puertu predetermináu pa VNC (5900)"
-
-#. i18n: file: krfb.kcfg:12
-#. i18n: ectx: label, entry (port), group (TCP)
-#: rc.cpp:67
-msgid "This is the port on which krfb will listen."
-msgstr "Esti ye'l puertu nel que krfb escuchará."
-
-#. i18n: file: krfb.kcfg:22
-#. i18n: ectx: label, entry (allowDesktopControl), group (Security)
-#: rc.cpp:73
-msgid "Allow remote connections to manage the desktop."
-msgstr "Permitir conexones remotes pa xestionar l'escritoriu."
-
-#. i18n: file: krfb.kcfg:26
-#. i18n: ectx: label, entry (askOnConnect), group (Security)
-#: rc.cpp:76
-msgid "Ask before allowing a remote connection."
-msgstr "Entrugar enantes de permitir una conexón remota."
-
-#. i18n: file: krfb.kcfg:30
-#. i18n: ectx: label, entry (allowUninvitedConnections), group (Security)
-#: rc.cpp:79
-msgid "Allow connections without an invitation."
-msgstr "Permitir conexones ensin invitación."
-
-#. i18n: file: krfb.kcfg:34
-#. i18n: ectx: label, entry (uninvitedConnectionPassword), group (Security)
-#: rc.cpp:82
-msgid "Password for uninvited connections."
-msgstr "Contraseña pa conexones ensin invitación."
-
-#. i18n: file: krfb.kcfg:39
-#. i18n: ectx: label, entry (preferredFrameBufferPlugin), group (FrameBuffer)
-#: rc.cpp:85
-msgid "Preferred Frame Buffer Plugin"
-msgstr "Complementu Frame Buffer preferíu"
-
 #. i18n: file: manageinvitations.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, ManageInvitationsDialog)
-#: rc.cpp:88
+#: rc.cpp:66
 msgid "Manage Invitations - Desktop Sharing"
 msgstr "Xestionar invitaciones - Compartir escritoriu"
 
 #. i18n: file: manageinvitations.ui:38
 #. i18n: ectx: property (text), widget (QLabel, helpLabel)
-#: rc.cpp:94
+#: rc.cpp:72
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -576,79 +544,79 @@ msgstr ""
 
 #. i18n: file: manageinvitations.ui:95
 #. i18n: ectx: property (text), widget (QTreeWidget, invitationWidget)
-#: rc.cpp:100
+#: rc.cpp:78
 msgid "Creation Time"
 msgstr "Hora de creación"
 
 #. i18n: file: manageinvitations.ui:100
 #. i18n: ectx: property (text), widget (QTreeWidget, invitationWidget)
-#: rc.cpp:103
+#: rc.cpp:81
 msgid "Expire Time"
 msgstr "Intre nel qu'espira"
 
 #. i18n: file: manageinvitations.ui:124
 #. i18n: ectx: property (toolTip), widget (QPushButton, newPersonalInvitationButton)
-#: rc.cpp:106
+#: rc.cpp:84
 msgid "Create a new personal invitation..."
 msgstr "Crear una invitación personal nueva..."
 
 #. i18n: file: manageinvitations.ui:127
 #. i18n: ectx: property (whatsThis), widget (QPushButton, newPersonalInvitationButton)
-#: rc.cpp:109
+#: rc.cpp:87
 msgid "Click this button to create a new personal invitation."
 msgstr "Calque esti botón pa crear una invitación personal nueva."
 
 #. i18n: file: manageinvitations.ui:130
 #. i18n: ectx: property (text), widget (QPushButton, newPersonalInvitationButton)
-#: rc.cpp:112
+#: rc.cpp:90
 msgid "New &Personal Invitation..."
 msgstr "Nueva invitación &personal..."
 
 #. i18n: file: manageinvitations.ui:137
 #. i18n: ectx: property (toolTip), widget (QPushButton, newEmailInvitationButton)
-#: rc.cpp:115
+#: rc.cpp:93
 msgid "Send a new invitation via email..."
 msgstr "Unviar una invitación nueva per corréu-e..."
 
 #. i18n: file: manageinvitations.ui:140
 #. i18n: ectx: property (whatsThis), widget (QPushButton, newEmailInvitationButton)
-#: rc.cpp:118
+#: rc.cpp:96
 msgid "Click this button to send a new invitation via email."
 msgstr "Calque esti botón pa unviar per corréu-e una invitación nueva."
 
 #. i18n: file: manageinvitations.ui:143
 #. i18n: ectx: property (text), widget (QPushButton, newEmailInvitationButton)
-#: rc.cpp:121
+#: rc.cpp:99
 msgid "&New Email Invitation..."
 msgstr "Invitación per corréu-e &nueva..."
 
 #. i18n: file: manageinvitations.ui:153
 #. i18n: ectx: property (toolTip), widget (QPushButton, deleteAllButton)
-#: rc.cpp:124
+#: rc.cpp:102
 msgid "Delete all invitations"
 msgstr "Desaniciar toles invitaciones"
 
 #. i18n: file: manageinvitations.ui:156
 #. i18n: ectx: property (whatsThis), widget (QPushButton, deleteAllButton)
-#: rc.cpp:127
+#: rc.cpp:105
 msgid "Deletes all open invitations."
 msgstr "Desaniciar toles invitaciones abiertes."
 
 #. i18n: file: manageinvitations.ui:159
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
-#: rc.cpp:130
+#: rc.cpp:108
 msgid "Delete All"
 msgstr "Desaniciar too"
 
 #. i18n: file: manageinvitations.ui:169
 #. i18n: ectx: property (toolTip), widget (QPushButton, deleteOneButton)
-#: rc.cpp:133
+#: rc.cpp:111
 msgid "Delete the selected invitation"
 msgstr "Desaniciar la invitación esbillada"
 
 #. i18n: file: manageinvitations.ui:172
 #. i18n: ectx: property (whatsThis), widget (QPushButton, deleteOneButton)
-#: rc.cpp:136
+#: rc.cpp:114
 msgid ""
 "Delete the selected invitation. The invited person will not be able to "
 "connect using this invitation anymore."
@@ -658,13 +626,13 @@ msgstr ""
 
 #. i18n: file: manageinvitations.ui:175
 #. i18n: ectx: property (text), widget (QPushButton, deleteOneButton)
-#: rc.cpp:139
+#: rc.cpp:117
 msgid "&Delete"
 msgstr "D&esaniciar"
 
 #. i18n: file: personalinvitewidget.ui:47
 #. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
-#: rc.cpp:142
+#: rc.cpp:120
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -696,13 +664,13 @@ msgstr ""
 
 #. i18n: file: personalinvitewidget.ui:81
 #. i18n: ectx: property (text), widget (QLabel, kActiveLabel5)
-#: rc.cpp:149
+#: rc.cpp:127
 msgid "<b>Host:</b>"
 msgstr "<b>Host:</b>"
 
 #. i18n: file: personalinvitewidget.ui:116
 #. i18n: ectx: property (text), widget (QLabel, hostHelpLabel)
-#: rc.cpp:152
+#: rc.cpp:130
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -724,25 +692,57 @@ msgstr ""
 
 #. i18n: file: personalinvitewidget.ui:129
 #. i18n: ectx: property (text), widget (QLabel, kActiveLabel6)
-#: rc.cpp:158
+#: rc.cpp:136
 msgid "<b>Password:</b>"
 msgstr "<b>Contraseña:</b>"
 
 #. i18n: file: personalinvitewidget.ui:161
 #. i18n: ectx: property (text), widget (QLabel, kActiveLabel7)
-#: rc.cpp:161
+#: rc.cpp:139
 msgid "<b>Expiration time:</b>"
 msgstr "<b>Tiempu de caducidá:</b>"
 
-#: rc.cpp:162
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr " ,Launchpad Contributions:,Iñigo Varela"
+#. i18n: file: krfb.kcfg:8
+#. i18n: ectx: label, entry (useDefaultPort), group (TCP)
+#: rc.cpp:142
+msgid "Use the default port for VNC (5900)"
+msgstr "Usar el puertu predetermináu pa VNC (5900)"
 
+#. i18n: file: krfb.kcfg:12
+#. i18n: ectx: label, entry (port), group (TCP)
+#: rc.cpp:145
+msgid "This is the port on which krfb will listen."
+msgstr "Esti ye'l puertu nel que krfb escuchará."
+
+#. i18n: file: krfb.kcfg:22
+#. i18n: ectx: label, entry (allowDesktopControl), group (Security)
+#: rc.cpp:151
+msgid "Allow remote connections to manage the desktop."
+msgstr "Permitir conexones remotes pa xestionar l'escritoriu."
+
+#. i18n: file: krfb.kcfg:26
+#. i18n: ectx: label, entry (askOnConnect), group (Security)
+#: rc.cpp:154
+msgid "Ask before allowing a remote connection."
+msgstr "Entrugar enantes de permitir una conexón remota."
+
+#. i18n: file: krfb.kcfg:30
+#. i18n: ectx: label, entry (allowUninvitedConnections), group (Security)
+#: rc.cpp:157
+msgid "Allow connections without an invitation."
+msgstr "Permitir conexones ensin invitación."
+
+#. i18n: file: krfb.kcfg:34
+#. i18n: ectx: label, entry (uninvitedConnectionPassword), group (Security)
+#: rc.cpp:160
+msgid "Password for uninvited connections."
+msgstr "Contraseña pa conexones ensin invitación."
+
+#. i18n: file: krfb.kcfg:39
+#. i18n: ectx: label, entry (preferredFrameBufferPlugin), group (FrameBuffer)
 #: rc.cpp:163
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ",,malditoastur@gmail.com"
+msgid "Preferred Frame Buffer Plugin"
+msgstr "Complementu Frame Buffer preferíu"
 
 #: trayicon.cpp:39 trayicon.cpp:91
 msgid "Desktop Sharing - disconnected"
