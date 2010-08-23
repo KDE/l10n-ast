@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmplot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-22 05:44+0200\n"
+"POT-Creation-Date: 2010-08-23 05:30+0200\n"
 "PO-Revision-Date: 2009-11-15 17:42+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -1938,7 +1938,13 @@ msgstr "Diagrama"
 
 #. i18n: file: settingspagediagram.ui:20
 #. i18n: ectx: property (title), widget (KButtonGroup, kcfg_GridStyle)
-#: rc.cpp:813
+#. i18n: file: kmplot.kcfg:37
+#. i18n: ectx: label, entry (GridStyle), group (Coordinate System)
+#. i18n: file: settingspagediagram.ui:20
+#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_GridStyle)
+#. i18n: file: kmplot.kcfg:37
+#. i18n: ectx: label, entry (GridStyle), group (Coordinate System)
+#: rc.cpp:813 rc.cpp:1007
 msgid "Grid Style"
 msgstr "Estilu del rexáu"
 
@@ -2249,6 +2255,548 @@ msgstr "Barra eslizadora"
 msgid "<0>"
 msgstr "<0>"
 
+#. i18n: file: kmplot.kcfg:12
+#. i18n: ectx: label, entry (AxesLineWidth), group (Coordinate System)
+#: rc.cpp:977
+msgid "Axis-line width"
+msgstr "Anchor de les llinies d'exa"
+
+#. i18n: file: kmplot.kcfg:13
+#. i18n: ectx: whatsthis, entry (AxesLineWidth), group (Coordinate System)
+#: rc.cpp:980
+msgid "Enter the width of the axis lines."
+msgstr "Escribe'l anchor de les llinies d'exa."
+
+#. i18n: file: kmplot.kcfg:17
+#. i18n: ectx: label, entry (ShowLabel), group (Coordinate System)
+#: rc.cpp:983
+msgid "Checked if labels are visible"
+msgstr "Marcar si les etiquetes son visibles"
+
+#. i18n: file: kmplot.kcfg:18
+#. i18n: ectx: whatsthis, entry (ShowLabel), group (Coordinate System)
+#: rc.cpp:986
+msgid "Check this box if the labels at the tics should be shown."
+msgstr "Marcar esta caxella si les etiquetes de les marques tienen que vese."
+
+#. i18n: file: kmplot.kcfg:22
+#. i18n: ectx: label, entry (ShowAxes), group (Coordinate System)
+#: rc.cpp:989
+msgid "Checked if axes are visible"
+msgstr "Marcar si les exes son visibles"
+
+#. i18n: file: kmplot.kcfg:23
+#. i18n: ectx: whatsthis, entry (ShowAxes), group (Coordinate System)
+#: rc.cpp:992
+msgid "Check this box if axes should be shown."
+msgstr "Marcar esta caxella si les exes tienen que vese."
+
+#. i18n: file: kmplot.kcfg:27
+#. i18n: ectx: label, entry (ShowArrows), group (Coordinate System)
+#: rc.cpp:995
+msgid "Checked if arrows are visible"
+msgstr "Marcar si les fleches son visibles"
+
+#. i18n: file: kmplot.kcfg:28
+#. i18n: ectx: whatsthis, entry (ShowArrows), group (Coordinate System)
+#: rc.cpp:998
+msgid "Check this box if axes should have arrows."
+msgstr "Marcar esta caxella si les exes tienen que tener fleches."
+
+#. i18n: file: kmplot.kcfg:32
+#. i18n: ectx: label, entry (GridLineWidth), group (Coordinate System)
+#: rc.cpp:1001
+msgid "Grid Line Width"
+msgstr "Anchor de la llinia de rexáu"
+
+#. i18n: file: kmplot.kcfg:33
+#. i18n: ectx: whatsthis, entry (GridLineWidth), group (Coordinate System)
+#: rc.cpp:1004
+msgid "Enter the width of the grid lines."
+msgstr "Escribir l'anchor de les llinies del rexáu."
+
+#. i18n: file: kmplot.kcfg:38
+#. i18n: ectx: whatsthis, entry (GridStyle), group (Coordinate System)
+#: rc.cpp:1010
+msgid "Choose a suitable grid style."
+msgstr "Escoyer un estilu de rexáu afayadizu."
+
+#. i18n: file: kmplot.kcfg:42
+#. i18n: ectx: label, entry (TicLength), group (Coordinate System)
+#: rc.cpp:1013
+msgid "Tic length"
+msgstr "Llargor de les marques"
+
+#. i18n: file: kmplot.kcfg:43
+#. i18n: ectx: whatsthis, entry (TicLength), group (Coordinate System)
+#: rc.cpp:1016
+msgid "Enter the length of the tic lines"
+msgstr "Escribir el llargor de les llinies de les marques"
+
+#. i18n: file: kmplot.kcfg:47
+#. i18n: ectx: label, entry (TicWidth), group (Coordinate System)
+#: rc.cpp:1019
+msgid "Tic width"
+msgstr "Anchor de les marques"
+
+#. i18n: file: kmplot.kcfg:48
+#. i18n: ectx: whatsthis, entry (TicWidth), group (Coordinate System)
+#: rc.cpp:1022
+msgid "Enter the width of the tic lines."
+msgstr "Escribir l'anchor de les llinies de les marques"
+
+#. i18n: file: kmplot.kcfg:52
+#. i18n: ectx: label, entry (XMin), group (Coordinate System)
+#: rc.cpp:1025
+msgid "Left boundary"
+msgstr "Llende izquierda"
+
+#. i18n: file: kmplot.kcfg:53
+#. i18n: ectx: whatsthis, entry (XMin), group (Coordinate System)
+#: rc.cpp:1028
+msgid "Enter the left boundary of the plotting area."
+msgstr "Escribe la llende izquierda del área del gráficu."
+
+#. i18n: file: kmplot.kcfg:57
+#. i18n: ectx: label, entry (XMax), group (Coordinate System)
+#: rc.cpp:1031
+msgid "Right boundary"
+msgstr "Llende drecha"
+
+#. i18n: file: kmplot.kcfg:58
+#. i18n: ectx: whatsthis, entry (XMax), group (Coordinate System)
+#: rc.cpp:1034
+msgid "Enter the right boundary of the plotting area."
+msgstr "Escribe la llende drecha del área del gráficu."
+
+#. i18n: file: kmplot.kcfg:62
+#. i18n: ectx: label, entry (YMin), group (Coordinate System)
+#: rc.cpp:1037
+msgid "Lower boundary"
+msgstr "Llende inferior"
+
+#. i18n: file: kmplot.kcfg:63
+#. i18n: ectx: whatsthis, entry (YMin), group (Coordinate System)
+#: rc.cpp:1040
+msgid "Enter the lower boundary of the plotting area."
+msgstr "Escribe la llende inferior del área del gráficu."
+
+#. i18n: file: kmplot.kcfg:67
+#. i18n: ectx: label, entry (YMax), group (Coordinate System)
+#: rc.cpp:1043
+msgid "Upper boundary"
+msgstr "Llende superior"
+
+#. i18n: file: kmplot.kcfg:68
+#. i18n: ectx: whatsthis, entry (YMax), group (Coordinate System)
+#: rc.cpp:1046
+msgid "Enter the upper boundary of the plotting area."
+msgstr "Escribe la llende superior del área del gráficu."
+
+#. i18n: file: kmplot.kcfg:72
+#. i18n: ectx: label, entry (LabelHorizontalAxis), group (Coordinate System)
+#: rc.cpp:1049
+#, fuzzy
+#| msgid "X-axis Range"
+msgid "Label to Horizontal Axis"
+msgstr "Rangu exa-X d'ascises"
+
+#. i18n: file: kmplot.kcfg:73
+#. i18n: ectx: whatsthis, entry (LabelHorizontalAxis), group (Coordinate System)
+#: rc.cpp:1052
+#, fuzzy
+#| msgid "X-axis Range"
+msgid "Label to Horizontal Axis."
+msgstr "Rangu exa-X d'ascises"
+
+#. i18n: file: kmplot.kcfg:77
+#. i18n: ectx: label, entry (LabelVerticalAxis), group (Coordinate System)
+#: rc.cpp:1055
+#, fuzzy
+#| msgid "X-axis Range"
+msgid "Label to Vertical Axis"
+msgstr "Rangu exa-X d'ascises"
+
+#. i18n: file: kmplot.kcfg:78
+#. i18n: ectx: whatsthis, entry (LabelVerticalAxis), group (Coordinate System)
+#: rc.cpp:1058
+#, fuzzy
+#| msgid "X-axis Range"
+msgid "Label to Vertical Axis."
+msgstr "Rangu exa-X d'ascises"
+
+#. i18n: file: kmplot.kcfg:85
+#. i18n: ectx: label, entry (XScalingMode), group (Scaling)
+#. i18n: file: kmplot.kcfg:90
+#. i18n: ectx: label, entry (YScalingMode), group (Scaling)
+#. i18n: file: kmplot.kcfg:85
+#. i18n: ectx: label, entry (XScalingMode), group (Scaling)
+#. i18n: file: kmplot.kcfg:90
+#. i18n: ectx: label, entry (YScalingMode), group (Scaling)
+#: rc.cpp:1061 rc.cpp:1067
+msgid "Whether to use automatic or custom scaling."
+msgstr "Indica si usar escala automática o personalizada."
+
+#. i18n: file: kmplot.kcfg:86
+#. i18n: ectx: whatsthis, entry (XScalingMode), group (Scaling)
+#. i18n: file: kmplot.kcfg:91
+#. i18n: ectx: whatsthis, entry (YScalingMode), group (Scaling)
+#. i18n: file: kmplot.kcfg:86
+#. i18n: ectx: whatsthis, entry (XScalingMode), group (Scaling)
+#. i18n: file: kmplot.kcfg:91
+#. i18n: ectx: whatsthis, entry (YScalingMode), group (Scaling)
+#: rc.cpp:1064 rc.cpp:1070
+msgid "Select whether to use automatic or custom scaling."
+msgstr "Seleiciona si vas usar escala automática o personalizada."
+
+#. i18n: file: kmplot.kcfg:95
+#. i18n: ectx: label, entry (XScaling), group (Scaling)
+#: rc.cpp:1073
+msgid "Width of a unit from tic to tic"
+msgstr "Anchor d'una unidá de marca a marca"
+
+#. i18n: file: kmplot.kcfg:96
+#. i18n: ectx: whatsthis, entry (XScaling), group (Scaling)
+#: rc.cpp:1076
+msgid "Enter the width of a unit from tic to tic."
+msgstr "Escribir l'anchor d'una unidá de marca a marca."
+
+#. i18n: file: kmplot.kcfg:100
+#. i18n: ectx: label, entry (YScaling), group (Scaling)
+#: rc.cpp:1079
+msgid "Height of a unit from tic to tic"
+msgstr "Altor d'una unidá de marca a marca"
+
+#. i18n: file: kmplot.kcfg:101
+#. i18n: ectx: whatsthis, entry (YScaling), group (Scaling)
+#: rc.cpp:1082
+msgid "Enter the height of a unit from tic to tic."
+msgstr "Escribir l'altor d'una unidá de marca a marca."
+
+#. i18n: file: kmplot.kcfg:108
+#. i18n: ectx: label, entry (AxesFont), group (Fonts)
+#: rc.cpp:1085
+msgid "Font of the axis labels"
+msgstr "Tipografía pa les etiquetes de les exes"
+
+#. i18n: file: kmplot.kcfg:109
+#. i18n: ectx: whatsthis, entry (AxesFont), group (Fonts)
+#: rc.cpp:1088
+msgid "Choose a font for the axis labels."
+msgstr "Escueye un tipu de lletra pa les etiquetes de les exes."
+
+#. i18n: file: kmplot.kcfg:113
+#. i18n: ectx: label, entry (HeaderTableFont), group (Fonts)
+#: rc.cpp:1091
+msgid "Font of the printed header table"
+msgstr "Tipografía de la tabla de cabecera impresa"
+
+#. i18n: file: kmplot.kcfg:114
+#. i18n: ectx: whatsthis, entry (HeaderTableFont), group (Fonts)
+#: rc.cpp:1094
+msgid "Choose a font for the table printed at the top of the page."
+msgstr "Escueye un tipu de lletra pa la tabla impresa no cimero de la páxina."
+
+#. i18n: file: kmplot.kcfg:118
+#. i18n: ectx: label, entry (LabelFont), group (Fonts)
+#: rc.cpp:1097
+msgid "Font of diagram labels"
+msgstr "Tipografía de les etiquetes del diagrama"
+
+#. i18n: file: kmplot.kcfg:119
+#. i18n: ectx: whatsthis, entry (LabelFont), group (Fonts)
+#: rc.cpp:1100
+msgid "Choose a font for diagram labels."
+msgstr "Escueye un tipu de lletra pa les etiquetes del diagrama."
+
+#. i18n: file: kmplot.kcfg:126
+#. i18n: ectx: label, entry (AxesColor), group (Colors)
+#: rc.cpp:1103
+msgid "Axis-line color"
+msgstr "Color de la llinia d'exa"
+
+#. i18n: file: kmplot.kcfg:127
+#. i18n: ectx: whatsthis, entry (AxesColor), group (Colors)
+#: rc.cpp:1106
+msgid "Enter the color of the axis lines."
+msgstr "Introduz la color de les llinies d'exes."
+
+#. i18n: file: kmplot.kcfg:131
+#. i18n: ectx: label, entry (GridColor), group (Colors)
+#: rc.cpp:1109
+msgid "Grid Color"
+msgstr "Color del rexáu"
+
+#. i18n: file: kmplot.kcfg:132
+#. i18n: ectx: whatsthis, entry (GridColor), group (Colors)
+#: rc.cpp:1112
+msgid "Choose a color for the grid lines."
+msgstr "Escueye una color pa les llinies del rexáu."
+
+#. i18n: file: kmplot.kcfg:136
+#. i18n: ectx: label, entry (Color0), group (Colors)
+#: rc.cpp:1115
+msgid "Color of function 1"
+msgstr "Color de la función 1"
+
+#. i18n: file: kmplot.kcfg:137
+#. i18n: ectx: whatsthis, entry (Color0), group (Colors)
+#: rc.cpp:1118
+msgid "Choose a color for function 1."
+msgstr "Escueye una color pa la función 1."
+
+#. i18n: file: kmplot.kcfg:141
+#. i18n: ectx: label, entry (Color1), group (Colors)
+#: rc.cpp:1121
+msgid "Color of function 2"
+msgstr "Color de la función 2"
+
+#. i18n: file: kmplot.kcfg:142
+#. i18n: ectx: whatsthis, entry (Color1), group (Colors)
+#: rc.cpp:1124
+msgid "Choose a color for function 2."
+msgstr "Escueye una color pa la función 2."
+
+#. i18n: file: kmplot.kcfg:146
+#. i18n: ectx: label, entry (Color2), group (Colors)
+#: rc.cpp:1127
+msgid "Color of function 3"
+msgstr "Color de la función 3"
+
+#. i18n: file: kmplot.kcfg:147
+#. i18n: ectx: whatsthis, entry (Color2), group (Colors)
+#: rc.cpp:1130
+msgid "Choose a color for function 3."
+msgstr "Escueye una color pa la función 3."
+
+#. i18n: file: kmplot.kcfg:151
+#. i18n: ectx: label, entry (Color3), group (Colors)
+#: rc.cpp:1133
+msgid "Color of function 4"
+msgstr "Color de la función 4"
+
+#. i18n: file: kmplot.kcfg:152
+#. i18n: ectx: whatsthis, entry (Color3), group (Colors)
+#: rc.cpp:1136
+msgid "Choose a color for function 4."
+msgstr "Escueye una color pa la función 4."
+
+#. i18n: file: kmplot.kcfg:156
+#. i18n: ectx: label, entry (Color4), group (Colors)
+#: rc.cpp:1139
+msgid "Color of function 5"
+msgstr "Color de la función 5"
+
+#. i18n: file: kmplot.kcfg:157
+#. i18n: ectx: whatsthis, entry (Color4), group (Colors)
+#: rc.cpp:1142
+msgid "Choose a color for function 5."
+msgstr "Escueye una color pa la función 5."
+
+#. i18n: file: kmplot.kcfg:161
+#. i18n: ectx: label, entry (Color5), group (Colors)
+#: rc.cpp:1145
+msgid "Color of function 6"
+msgstr "Color de la función 6"
+
+#. i18n: file: kmplot.kcfg:162
+#. i18n: ectx: whatsthis, entry (Color5), group (Colors)
+#: rc.cpp:1148
+msgid "Choose a color for function 6."
+msgstr "Escueye una color pa la función 6."
+
+#. i18n: file: kmplot.kcfg:166
+#. i18n: ectx: label, entry (Color6), group (Colors)
+#: rc.cpp:1151
+msgid "Color of function 7"
+msgstr "Color de la función 7"
+
+#. i18n: file: kmplot.kcfg:167
+#. i18n: ectx: whatsthis, entry (Color6), group (Colors)
+#: rc.cpp:1154
+msgid "Choose a color for function 7."
+msgstr "Escueye una color pa la función 7."
+
+#. i18n: file: kmplot.kcfg:171
+#. i18n: ectx: label, entry (Color7), group (Colors)
+#: rc.cpp:1157
+msgid "Color of function 8"
+msgstr "Color de la función 8"
+
+#. i18n: file: kmplot.kcfg:172
+#. i18n: ectx: whatsthis, entry (Color7), group (Colors)
+#: rc.cpp:1160
+msgid "Choose a color for function 8."
+msgstr "Escueye una color pa la función 8."
+
+#. i18n: file: kmplot.kcfg:176
+#. i18n: ectx: label, entry (Color8), group (Colors)
+#: rc.cpp:1163
+msgid "Color of function 9"
+msgstr "Color de la función 9"
+
+#. i18n: file: kmplot.kcfg:177
+#. i18n: ectx: whatsthis, entry (Color8), group (Colors)
+#: rc.cpp:1166
+msgid "Choose a color for function 9."
+msgstr "Escueye una color pa la función 9."
+
+#. i18n: file: kmplot.kcfg:181
+#. i18n: ectx: label, entry (Color9), group (Colors)
+#: rc.cpp:1169
+msgid "Color of function 10"
+msgstr "Color de la función 10"
+
+#. i18n: file: kmplot.kcfg:182
+#. i18n: ectx: whatsthis, entry (Color9), group (Colors)
+#: rc.cpp:1172
+msgid "Choose a color for function 10."
+msgstr "Escueye una color pa la función 10."
+
+#. i18n: file: kmplot.kcfg:189
+#. i18n: ectx: label, entry (anglemode), group (General)
+#: rc.cpp:1175
+msgid "Radians instead of degrees"
+msgstr "Radianes en llugar de graos"
+
+#. i18n: file: kmplot.kcfg:190
+#. i18n: ectx: whatsthis, entry (anglemode), group (General)
+#: rc.cpp:1178
+msgid "Check the box if you want to use radians"
+msgstr "Marca esta caxella si quies usar radianes"
+
+#. i18n: file: kmplot.kcfg:194
+#. i18n: ectx: label, entry (backgroundcolor), group (General)
+#: rc.cpp:1181
+msgid "Background color"
+msgstr "Color de fondu"
+
+#. i18n: file: kmplot.kcfg:195
+#. i18n: ectx: whatsthis, entry (backgroundcolor), group (General)
+#: rc.cpp:1184
+msgid "The background color for the graph"
+msgstr "La color del fondu pal gráficu"
+
+#. i18n: file: kmplot.kcfg:199
+#. i18n: ectx: label, entry (zoomInStep), group (General)
+#: rc.cpp:1187
+msgid "Zoom-in step"
+msgstr "Pasu del aumentu"
+
+#. i18n: file: kmplot.kcfg:200
+#. i18n: ectx: whatsthis, entry (zoomInStep), group (General)
+#: rc.cpp:1190
+msgid "The value the zoom-in tool should use"
+msgstr "El valor que debería usar la lente d'aumentu"
+
+#. i18n: file: kmplot.kcfg:204
+#. i18n: ectx: label, entry (zoomOutStep), group (General)
+#: rc.cpp:1193
+msgid "Zoom-out step"
+msgstr "Pasu del amenorgamientu"
+
+#. i18n: file: kmplot.kcfg:205
+#. i18n: ectx: whatsthis, entry (zoomOutStep), group (General)
+#: rc.cpp:1196
+msgid "The value the zoom-out tool should use"
+msgstr "El valor que debería usar la lente d'amenorgamientu"
+
+#. i18n: file: kmplot.kcfg:209
+#. i18n: ectx: label, entry (DetailedTracing), group (General)
+#: rc.cpp:1199
+msgid "Extra detail when tracing"
+msgstr "Detáis estra durante'l trazáu"
+
+#. i18n: file: kmplot.kcfg:210
+#. i18n: ectx: whatsthis, entry (DetailedTracing), group (General)
+#: rc.cpp:1202
+msgid ""
+"Whether to show extra detail such as the tangent and normal when tracing a "
+"plot."
+msgstr ""
+"Si s'amuesen detáis estra, como la tanxente y la normal, al trazar un "
+"gráficu."
+
+#. i18n: file: kmplot_part.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: kmplot_part_readonly.rc:9
+#. i18n: ectx: Menu (edit)
+#. i18n: file: kmplot_part.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: kmplot_part_readonly.rc:9
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:1205 rc.cpp:1220 maindlg.cpp:374
+msgid "&Edit"
+msgstr "&Editar"
+
+#. i18n: file: kmplot_part.rc:19
+#. i18n: ectx: Menu (view)
+#. i18n: file: kmplot_part_readonly.rc:15
+#. i18n: ectx: Menu (view)
+#. i18n: file: kmplot_part.rc:19
+#. i18n: ectx: Menu (view)
+#. i18n: file: kmplot_part_readonly.rc:15
+#. i18n: ectx: Menu (view)
+#: rc.cpp:1208 rc.cpp:1223
+msgid "&View"
+msgstr "&Ver"
+
+#. i18n: file: kmplot_part.rc:29
+#. i18n: ectx: Menu (tools)
+#. i18n: file: kmplot_part_readonly.rc:26
+#. i18n: ectx: Menu (tools)
+#. i18n: file: kmplot_part.rc:29
+#. i18n: ectx: Menu (tools)
+#. i18n: file: kmplot_part_readonly.rc:26
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:1211 rc.cpp:1226
+msgid "&Tools"
+msgstr "Ferramien&tes"
+
+#. i18n: file: kmplot_part.rc:35
+#. i18n: ectx: Menu (settings)
+#. i18n: file: kmplot_part_readonly.rc:32
+#. i18n: ectx: Menu (settings)
+#. i18n: file: kmplot_shell.rc:13
+#. i18n: ectx: Menu (settings)
+#. i18n: file: kmplot_part.rc:35
+#. i18n: ectx: Menu (settings)
+#. i18n: file: kmplot_part_readonly.rc:32
+#. i18n: ectx: Menu (settings)
+#. i18n: file: kmplot_shell.rc:13
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:1214 rc.cpp:1229 rc.cpp:1238
+msgid "&Settings"
+msgstr "Axu&stes"
+
+#. i18n: file: kmplot_part.rc:41
+#. i18n: ectx: Menu (help)
+#. i18n: file: kmplot_part_readonly.rc:35
+#. i18n: ectx: Menu (help)
+#. i18n: file: kmplot_shell.rc:26
+#. i18n: ectx: Menu (help)
+#. i18n: file: kmplot_part.rc:41
+#. i18n: ectx: Menu (help)
+#. i18n: file: kmplot_part_readonly.rc:35
+#. i18n: ectx: Menu (help)
+#. i18n: file: kmplot_shell.rc:26
+#. i18n: ectx: Menu (help)
+#: rc.cpp:1217 rc.cpp:1232 rc.cpp:1241
+msgid "&Help"
+msgstr "A&ida"
+
+#. i18n: file: kmplot_shell.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:1235
+msgid "&File"
+msgstr "&Ficheru"
+
+#. i18n: file: kmplot_shell.rc:30
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:1244
+msgid "Main Toolbar"
+msgstr "Barra de ferramientes principal"
+
 #: xparser.cpp:143
 msgid "Error in extension."
 msgstr "Fallu na estensión"
@@ -2365,10 +2913,6 @@ msgstr "Gráficu Diferencial"
 #: maindlg.cpp:368
 msgid "Show Sliders"
 msgstr "Amosar Barres d'eslizamientu"
-
-#: maindlg.cpp:374
-msgid "&Edit"
-msgstr "&Editar"
 
 #: maindlg.cpp:381
 msgid "&Hide"
@@ -2703,237 +3247,6 @@ msgstr "Funciones iniciales pa dibuxar"
 #: main.cpp:72
 msgid "File to open"
 msgstr "Ficheru a abrir"
-
-#~ msgid "Axis-line width"
-#~ msgstr "Anchor de les llinies d'exa"
-
-#~ msgid "Enter the width of the axis lines."
-#~ msgstr "Escribe'l anchor de les llinies d'exa."
-
-#~ msgid "Checked if labels are visible"
-#~ msgstr "Marcar si les etiquetes son visibles"
-
-#~ msgid "Check this box if the labels at the tics should be shown."
-#~ msgstr ""
-#~ "Marcar esta caxella si les etiquetes de les marques tienen que vese."
-
-#~ msgid "Checked if axes are visible"
-#~ msgstr "Marcar si les exes son visibles"
-
-#~ msgid "Check this box if axes should be shown."
-#~ msgstr "Marcar esta caxella si les exes tienen que vese."
-
-#~ msgid "Checked if arrows are visible"
-#~ msgstr "Marcar si les fleches son visibles"
-
-#~ msgid "Check this box if axes should have arrows."
-#~ msgstr "Marcar esta caxella si les exes tienen que tener fleches."
-
-#~ msgid "Grid Line Width"
-#~ msgstr "Anchor de la llinia de rexáu"
-
-#~ msgid "Enter the width of the grid lines."
-#~ msgstr "Escribir l'anchor de les llinies del rexáu."
-
-#~ msgid "Choose a suitable grid style."
-#~ msgstr "Escoyer un estilu de rexáu afayadizu."
-
-#~ msgid "Tic length"
-#~ msgstr "Llargor de les marques"
-
-#~ msgid "Enter the length of the tic lines"
-#~ msgstr "Escribir el llargor de les llinies de les marques"
-
-#~ msgid "Tic width"
-#~ msgstr "Anchor de les marques"
-
-#~ msgid "Enter the width of the tic lines."
-#~ msgstr "Escribir l'anchor de les llinies de les marques"
-
-#~ msgid "Left boundary"
-#~ msgstr "Llende izquierda"
-
-#~ msgid "Enter the left boundary of the plotting area."
-#~ msgstr "Escribe la llende izquierda del área del gráficu."
-
-#~ msgid "Right boundary"
-#~ msgstr "Llende drecha"
-
-#~ msgid "Enter the right boundary of the plotting area."
-#~ msgstr "Escribe la llende drecha del área del gráficu."
-
-#~ msgid "Lower boundary"
-#~ msgstr "Llende inferior"
-
-#~ msgid "Enter the lower boundary of the plotting area."
-#~ msgstr "Escribe la llende inferior del área del gráficu."
-
-#~ msgid "Upper boundary"
-#~ msgstr "Llende superior"
-
-#~ msgid "Enter the upper boundary of the plotting area."
-#~ msgstr "Escribe la llende superior del área del gráficu."
-
-#~ msgid "Whether to use automatic or custom scaling."
-#~ msgstr "Indica si usar escala automática o personalizada."
-
-#~ msgid "Select whether to use automatic or custom scaling."
-#~ msgstr "Seleiciona si vas usar escala automática o personalizada."
-
-#~ msgid "Width of a unit from tic to tic"
-#~ msgstr "Anchor d'una unidá de marca a marca"
-
-#~ msgid "Enter the width of a unit from tic to tic."
-#~ msgstr "Escribir l'anchor d'una unidá de marca a marca."
-
-#~ msgid "Height of a unit from tic to tic"
-#~ msgstr "Altor d'una unidá de marca a marca"
-
-#~ msgid "Enter the height of a unit from tic to tic."
-#~ msgstr "Escribir l'altor d'una unidá de marca a marca."
-
-#~ msgid "Font of the axis labels"
-#~ msgstr "Tipografía pa les etiquetes de les exes"
-
-#~ msgid "Choose a font for the axis labels."
-#~ msgstr "Escueye un tipu de lletra pa les etiquetes de les exes."
-
-#~ msgid "Font of the printed header table"
-#~ msgstr "Tipografía de la tabla de cabecera impresa"
-
-#~ msgid "Choose a font for the table printed at the top of the page."
-#~ msgstr ""
-#~ "Escueye un tipu de lletra pa la tabla impresa no cimero de la páxina."
-
-#~ msgid "Font of diagram labels"
-#~ msgstr "Tipografía de les etiquetes del diagrama"
-
-#~ msgid "Choose a font for diagram labels."
-#~ msgstr "Escueye un tipu de lletra pa les etiquetes del diagrama."
-
-#~ msgid "Axis-line color"
-#~ msgstr "Color de la llinia d'exa"
-
-#~ msgid "Enter the color of the axis lines."
-#~ msgstr "Introduz la color de les llinies d'exes."
-
-#~ msgid "Grid Color"
-#~ msgstr "Color del rexáu"
-
-#~ msgid "Choose a color for the grid lines."
-#~ msgstr "Escueye una color pa les llinies del rexáu."
-
-#~ msgid "Color of function 1"
-#~ msgstr "Color de la función 1"
-
-#~ msgid "Choose a color for function 1."
-#~ msgstr "Escueye una color pa la función 1."
-
-#~ msgid "Color of function 2"
-#~ msgstr "Color de la función 2"
-
-#~ msgid "Choose a color for function 2."
-#~ msgstr "Escueye una color pa la función 2."
-
-#~ msgid "Color of function 3"
-#~ msgstr "Color de la función 3"
-
-#~ msgid "Choose a color for function 3."
-#~ msgstr "Escueye una color pa la función 3."
-
-#~ msgid "Color of function 4"
-#~ msgstr "Color de la función 4"
-
-#~ msgid "Choose a color for function 4."
-#~ msgstr "Escueye una color pa la función 4."
-
-#~ msgid "Color of function 5"
-#~ msgstr "Color de la función 5"
-
-#~ msgid "Choose a color for function 5."
-#~ msgstr "Escueye una color pa la función 5."
-
-#~ msgid "Color of function 6"
-#~ msgstr "Color de la función 6"
-
-#~ msgid "Choose a color for function 6."
-#~ msgstr "Escueye una color pa la función 6."
-
-#~ msgid "Color of function 7"
-#~ msgstr "Color de la función 7"
-
-#~ msgid "Choose a color for function 7."
-#~ msgstr "Escueye una color pa la función 7."
-
-#~ msgid "Color of function 8"
-#~ msgstr "Color de la función 8"
-
-#~ msgid "Choose a color for function 8."
-#~ msgstr "Escueye una color pa la función 8."
-
-#~ msgid "Color of function 9"
-#~ msgstr "Color de la función 9"
-
-#~ msgid "Choose a color for function 9."
-#~ msgstr "Escueye una color pa la función 9."
-
-#~ msgid "Color of function 10"
-#~ msgstr "Color de la función 10"
-
-#~ msgid "Choose a color for function 10."
-#~ msgstr "Escueye una color pa la función 10."
-
-#~ msgid "Radians instead of degrees"
-#~ msgstr "Radianes en llugar de graos"
-
-#~ msgid "Check the box if you want to use radians"
-#~ msgstr "Marca esta caxella si quies usar radianes"
-
-#~ msgid "Background color"
-#~ msgstr "Color de fondu"
-
-#~ msgid "The background color for the graph"
-#~ msgstr "La color del fondu pal gráficu"
-
-#~ msgid "Zoom-in step"
-#~ msgstr "Pasu del aumentu"
-
-#~ msgid "The value the zoom-in tool should use"
-#~ msgstr "El valor que debería usar la lente d'aumentu"
-
-#~ msgid "Zoom-out step"
-#~ msgstr "Pasu del amenorgamientu"
-
-#~ msgid "The value the zoom-out tool should use"
-#~ msgstr "El valor que debería usar la lente d'amenorgamientu"
-
-#~ msgid "Extra detail when tracing"
-#~ msgstr "Detáis estra durante'l trazáu"
-
-#~ msgid ""
-#~ "Whether to show extra detail such as the tangent and normal when tracing "
-#~ "a plot."
-#~ msgstr ""
-#~ "Si s'amuesen detáis estra, como la tanxente y la normal, al trazar un "
-#~ "gráficu."
-
-#~ msgid "&View"
-#~ msgstr "&Ver"
-
-#~ msgid "&Tools"
-#~ msgstr "Ferramien&tes"
-
-#~ msgid "&Settings"
-#~ msgstr "Axu&stes"
-
-#~ msgid "&Help"
-#~ msgstr "A&ida"
-
-#~ msgid "&File"
-#~ msgstr "&Ficheru"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "Barra de ferramientes principal"
 
 #~ msgid "Y-axis Range"
 #~ msgstr "Rangu exa-Y d'ordenaes"
