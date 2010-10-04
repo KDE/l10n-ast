@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdebase-workspace\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-21 07:09+0200\n"
+"POT-Creation-Date: 2010-10-04 06:05+0200\n"
 "PO-Revision-Date: 2009-09-21 14:57+0000\n"
 "Last-Translator: Iñigo Varela <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -50,97 +50,101 @@ msgstr ""
 msgid "General"
 msgstr "Xeneral"
 
-#: battery.cpp:494
+#: battery.cpp:514
 #, fuzzy
 #| msgid "Time remaining: <b>%1</b><br />"
 msgctxt "Label for remaining time"
 msgid "Time Remaining:"
 msgstr "Tiempu restante: <b>%1</b><br />"
 
-#: battery.cpp:514
+#: battery.cpp:534
 #, fuzzy
 #| msgid "Power Profile"
 msgid "Power Profile:"
 msgstr "Perfil d'enerxía"
 
-#: battery.cpp:534
+#: battery.cpp:554
 #, fuzzy
 #| msgid "Screen Brightness"
 msgid "Screen Brightness:"
 msgstr "Rellumu de la pantalla"
 
-#: battery.cpp:561
+#: battery.cpp:582
 #, fuzzy
 #| msgid "Sleep"
 msgctxt "Suspend the computer to RAM; translation should be short"
 msgid "Sleep"
 msgstr "Durmir"
 
-#: battery.cpp:568
+#: battery.cpp:589
 #, fuzzy
 #| msgid "Hibernate"
 msgctxt "Suspend the computer to disk; translation should be short"
 msgid "Hibernate"
 msgstr "Ivernar"
 
-#: battery.cpp:575
+#: battery.cpp:596
 #, fuzzy
 msgctxt "tooltip on the config button in the popup"
 msgid "Configure Power Management..."
 msgstr "Alministración d'Enerxía"
 
-#: battery.cpp:589
+#: battery.cpp:610
 msgid "Power Management"
 msgstr "Alministración d'Enerxía"
 
-#: battery.cpp:638
+#: battery.cpp:659
 #, kde-format
 msgid "%1% (charged)"
 msgstr ""
 
-#: battery.cpp:643
+#: battery.cpp:664
 #, fuzzy, kde-format
 msgid "%1% (discharging)"
 msgstr "<b>Batería:</b> %1% (descargando)<br />"
 
-#: battery.cpp:646
+#: battery.cpp:667
 #, kde-format
 msgid "%1% (charging)"
 msgstr ""
 
-#: battery.cpp:649 battery.cpp:698
+#: battery.cpp:670
 msgctxt "Battery is not plugged in"
 msgid "Not present"
 msgstr ""
 
-#: battery.cpp:665
+#: battery.cpp:686 battery.cpp:719
 msgid "Battery:"
 msgstr ""
 
-#: battery.cpp:672
+#: battery.cpp:693
 #, fuzzy, kde-format
 msgctxt "Placeholder is the battery ID"
 msgid "Battery %1:"
 msgstr "<b>Batería %1:</b> %2% (cargando)<br />"
 
-#: battery.cpp:679
-msgid "AC Adapter:"
-msgstr ""
-
-#: battery.cpp:681
-msgid "Plugged in"
-msgstr ""
-
-#: battery.cpp:683
-msgid "Not plugged in"
-msgstr ""
-
-#: battery.cpp:697
+#: battery.cpp:700
 #, fuzzy
-msgid "<b>Battery:</b> "
-msgstr "<b>Batería:</b> non presente<br />"
+#| msgid "<b>AC Adapter:</b> Plugged in"
+msgid "AC Adapter: "
+msgstr "<b>Adautador CA:</b>Coneutáu"
 
-#: battery.cpp:955 battery.cpp:986 battery.cpp:998
+#: battery.cpp:702
+msgid "<b>Plugged in</b>"
+msgstr ""
+
+#: battery.cpp:704
+#, fuzzy
+#| msgid "<b>AC Adapter:</b> Not plugged in"
+msgid "<b>Not plugged in</b>"
+msgstr "<b>Adautador CA:</b>Desconeutáu"
+
+#: battery.cpp:720
+msgctxt "Battery is not plugged in"
+msgid "<b>Not present</b>"
+msgstr ""
+
+#: battery.cpp:979 battery.cpp:1010 battery.cpp:1022
 #, kde-format
 msgctxt "overlay on the battery, needs to be really tiny"
 msgid "%1%"
@@ -163,6 +167,10 @@ msgstr "Amosar &información sobro la carga"
 #: rc.cpp:9
 msgid "Show the state for &each battery present"
 msgstr "Amosar l'es&táu de cada batería"
+
+#, fuzzy
+#~ msgid "<b>Battery:</b> "
+#~ msgstr "<b>Batería:</b> non presente<br />"
 
 #~ msgid "Screen Brightness"
 #~ msgstr "Rellumu de la pantalla"
@@ -204,6 +212,3 @@ msgstr "Amosar l'es&táu de cada batería"
 
 #~ msgid "<b>Battery %1:</b> %2% (discharging)<br />"
 #~ msgstr "<b>Batería %1:</b> %2% (descargando)<br />"
-
-#~ msgid "<b>AC Adapter:</b> Not plugged in"
-#~ msgstr "<b>Adautador CA:</b>Desconeutáu"
