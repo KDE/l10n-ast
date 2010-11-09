@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdegraphics\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:14+0200\n"
+"POT-Creation-Date: 2010-11-09 07:02+0100\n"
 "PO-Revision-Date: 2010-10-18 23:52+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -48,7 +48,7 @@ msgstr ""
 "Esbille un área col mur. Calque la tecla «Intro» pa facer la semeya, o «Esc» "
 "pa encaboxar."
 
-#: kbackgroundsnapshot.cpp:91 ksnapshot.cpp:228
+#: kbackgroundsnapshot.cpp:91 ksnapshot.cpp:239
 msgid "snapshot"
 msgstr "instantánea"
 
@@ -64,25 +64,29 @@ msgstr "KBackgroundSnapshot"
 msgid "(c) 2007, Montel Laurent"
 msgstr "(c) 2007, Montel Laurent"
 
-#: ksnapshot.cpp:98
+#: kipiaction.cpp:49 main.cpp:38
+msgid "KSnapshot"
+msgstr "KSnapshot"
+
+#: ksnapshot.cpp:103
 msgid "Copy"
 msgstr "Copiar"
 
-#: ksnapshot.cpp:99
-msgid "Open With..."
-msgstr "Abrir con..."
+#: ksnapshot.cpp:104
+msgid "Send To..."
+msgstr ""
 
-#: ksnapshot.cpp:128
+#: ksnapshot.cpp:133
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] " segundu"
 msgstr[1] " segundos"
 
-#: ksnapshot.cpp:237
+#: ksnapshot.cpp:248
 msgid "Quick Save Snapshot &As..."
 msgstr "Guardar rápido semeya &como..."
 
-#: ksnapshot.cpp:238
+#: ksnapshot.cpp:249
 msgid ""
 "Save the snapshot to the file specified by the user without showing the file "
 "dialog."
@@ -90,30 +94,42 @@ msgstr ""
 "Guardar la semeya nel ficheru especificáu pol usuariu ensin amosar el "
 "diálogu de ficheru."
 
-#: ksnapshot.cpp:240
+#: ksnapshot.cpp:251
 msgid "Save Snapshot &As..."
 msgstr "Guardar semeya &como..."
 
-#: ksnapshot.cpp:241
+#: ksnapshot.cpp:252
 msgid "Save the snapshot to the file specified by the user."
 msgstr "Guardar la semeya nel ficheru especificáu pol usuariu."
 
-#: ksnapshot.cpp:304
+#: ksnapshot.cpp:315
 msgid "Save As"
 msgstr "Guardar como"
 
-#: ksnapshot.cpp:481
+#: ksnapshot.cpp:506
 msgid "Other Application..."
 msgstr "Otra aplicación..."
 
-#: ksnapshot.cpp:589
+#: ksnapshot.cpp:614
 msgid "The screen has been successfully grabbed."
 msgstr "La pantalla capturóse correutamente"
 
-#: ksnapshot.cpp:762
+#: ksnapshot.cpp:787
 #, kde-format
 msgid "Preview of the snapshot image (%1 x %2)"
 msgstr "Previsualización de la semeya (%1 x %2)"
+
+#: ksnapshotjobtracker.cpp:60
+#, fuzzy
+#| msgid " "
+msgctxt "Used to join urls"
+msgid ", "
+msgstr " "
+
+#: ksnapshotjobtracker.cpp:60
+#, kde-format
+msgid "Done: %1"
+msgstr ""
 
 #: ksnapshotobject.cpp:112
 msgid "File Exists"
@@ -152,10 +168,6 @@ msgstr "Clase de ventana"
 #: main.cpp:34
 msgid "KDE Screenshot Utility"
 msgstr "Utilidá de captura de pantalles de KDE"
-
-#: main.cpp:38
-msgid "KSnapshot"
-msgstr "KSnapshot"
 
 #: main.cpp:40
 msgid ""
@@ -302,15 +314,15 @@ msgstr "Ventana baxo'l cursor"
 #. i18n: file: ksnapshotwidget.ui:129
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
 #: rc.cpp:37
-msgid "Region"
-msgstr "Rexón"
+msgid "Rectangular Region"
+msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:134
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
 #: rc.cpp:40
 #, fuzzy
 #| msgid "Region"
-msgid "Free Region"
+msgid "Freehand Region"
 msgstr "Rexón"
 
 #. i18n: file: ksnapshotwidget.ui:139
@@ -399,8 +411,11 @@ msgid_plural "Snapshot will be taken in %1 seconds"
 msgstr[0] "La semeya tomaráse en 1 segundu"
 msgstr[1] "La semeya tomaráse en %1 segundos"
 
-#~ msgid " "
-#~ msgstr " "
+#~ msgid "Open With..."
+#~ msgstr "Abrir con..."
+
+#~ msgid "Region"
+#~ msgstr "Rexón"
 
 #~ msgid ""
 #~ "Click this button to save the current snapshot. To quickly save the "

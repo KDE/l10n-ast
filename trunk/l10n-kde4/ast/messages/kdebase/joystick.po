@@ -16,8 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: asturian\n"
 
-#: caldialog.cpp:41
-#: joywidget.cpp:390
+#: caldialog.cpp:41 joywidget.cpp:390
 msgid "Calibration"
 msgstr "Calibración"
 
@@ -39,22 +38,44 @@ msgstr "(normalmente Y)"
 
 #: caldialog.cpp:97
 #, kde-format
-msgid "<qt>Calibration is about to check the value range your device delivers.<br /><br />Please move <b>axis %1 %2</b> on your device to the <b>minimum</b> position.<br /><br />Press any button on the device or click on the 'Next' button to continue with the next step.</qt>"
-msgstr "<qt>La calibración consiste en determinar l'intervalu de valores en qu'opera'l preséu.<br /><br />Por favor, muevi les <b>exes %1 %2</b> del preséu a la posición <b>mínima</b>.<br /><br />Primi cualquier botón del preséu pa continuar col siguiente pasu.</qt>"
+msgid ""
+"<qt>Calibration is about to check the value range your device delivers.<br /"
+"><br />Please move <b>axis %1 %2</b> on your device to the <b>minimum</b> "
+"position.<br /><br />Press any button on the device or click on the 'Next' "
+"button to continue with the next step.</qt>"
+msgstr ""
+"<qt>La calibración consiste en determinar l'intervalu de valores en "
+"qu'opera'l preséu.<br /><br />Por favor, muevi les <b>exes %1 %2</b> del "
+"preséu a la posición <b>mínima</b>.<br /><br />Primi cualquier botón del "
+"preséu pa continuar col siguiente pasu.</qt>"
 
 #: caldialog.cpp:114
 #, kde-format
-msgid "<qt>Calibration is about to check the value range your device delivers.<br /><br />Please move <b>axis %1 %2</b> on your device to the <b>center</b> position.<br /><br />Press any button on the device or click on the 'Next' button to continue with the next step.</qt>"
-msgstr "<qt>La calibración consiste en determinar l'intervalu de valores en qu'opera'l preséu.<br /><br />Por favor, muevi les <b>exes %1 %2</b> del preséu a la posición <b>central</b>.<br /><br />Primi cualquier botón del preséu pa continuar col siguiente pasu.</qt>"
+msgid ""
+"<qt>Calibration is about to check the value range your device delivers.<br /"
+"><br />Please move <b>axis %1 %2</b> on your device to the <b>center</b> "
+"position.<br /><br />Press any button on the device or click on the 'Next' "
+"button to continue with the next step.</qt>"
+msgstr ""
+"<qt>La calibración consiste en determinar l'intervalu de valores en "
+"qu'opera'l preséu.<br /><br />Por favor, muevi les <b>exes %1 %2</b> del "
+"preséu a la posición <b>central</b>.<br /><br />Primi cualquier botón del "
+"preséu pa continuar col siguiente pasu.</qt>"
 
 #: caldialog.cpp:131
 #, kde-format
-msgid "<qt>Calibration is about to check the value range your device delivers.<br /><br />Please move <b>axis %1 %2</b> on your device to the <b>maximum</b> position.<br /><br />Press any button on the device or click on the 'Next' button to continue with the next step.</qt>"
-msgstr "<qt>La calibración consiste en determinar l'intervalu de valores en qu'opera'l preséu.<br /><br />Por favor, muevi les <b>exes %1 %2</b> del preséu a la posición <b>máxima</b>.<br /><br />Primi cualquier botón del preséu pa continuar col siguiente pasu.</qt>"
+msgid ""
+"<qt>Calibration is about to check the value range your device delivers.<br /"
+"><br />Please move <b>axis %1 %2</b> on your device to the <b>maximum</b> "
+"position.<br /><br />Press any button on the device or click on the 'Next' "
+"button to continue with the next step.</qt>"
+msgstr ""
+"<qt>La calibración consiste en determinar l'intervalu de valores en "
+"qu'opera'l preséu.<br /><br />Por favor, muevi les <b>exes %1 %2</b> del "
+"preséu a la posición <b>máxima</b>.<br /><br />Primi cualquier botón del "
+"preséu pa continuar col siguiente pasu.</qt>"
 
-#: caldialog.cpp:154
-#: joywidget.cpp:381
-#: joywidget.cpp:416
+#: caldialog.cpp:154 joywidget.cpp:381 joywidget.cpp:416
 msgid "Communication Error"
 msgstr "Fallu de comunicación"
 
@@ -62,8 +83,7 @@ msgstr "Fallu de comunicación"
 msgid "You have successfully calibrated your device"
 msgstr "El preséu calibróse correutamente"
 
-#: caldialog.cpp:158
-#: joywidget.cpp:422
+#: caldialog.cpp:158 joywidget.cpp:422
 msgid "Calibration Success"
 msgstr "Calibración correuta"
 
@@ -89,8 +109,12 @@ msgstr "Nun pue obtenese la versión del controlador del joystick %1: %2"
 
 #: joydevice.cpp:80
 #, kde-format
-msgid "The current running kernel driver version (%1.%2.%3) is not the one this module was compiled for (%4.%5.%6)."
-msgstr "La versión actual del controlador del kernel (%1.%2.%3) nun correspuende cola que s'usó pa compilar el módulu (%4.%5.%6)."
+msgid ""
+"The current running kernel driver version (%1.%2.%3) is not the one this "
+"module was compiled for (%4.%5.%6)."
+msgstr ""
+"La versión actual del controlador del kernel (%1.%2.%3) nun correspuende "
+"cola que s'usó pa compilar el módulu (%4.%5.%6)."
 
 #: joydevice.cpp:92
 #, kde-format
@@ -140,8 +164,31 @@ msgid "(c) 2004, Martin Koller"
 msgstr "(c) 2004, Martin Koller"
 
 #: joystick.cpp:85
-msgid "<h1>Joystick</h1>This module helps to check if your joystick is working correctly.<br />If it delivers wrong values for the axes, you can try to solve this with the calibration.<br />This module tries to find all available joystick devices by checking /dev/js[0-4] and /dev/input/js[0-4]<br />If you have another device file, enter it in the combobox.<br />The Buttons list shows the state of the buttons on your joystick, the Axes list shows the current value for all axes.<br />NOTE: the current Linux device driver (Kernel 2.4, 2.6) can only autodetect<ul><li>2-axis, 4-button joystick</li><li>3-axis, 4-button joystick</li><li>4-axis, 4-button joystick</li><li>Saitek Cyborg 'digital' joysticks</li></ul>(For details you can check your Linux source/Documentation/input/joystick.txt)"
-msgstr "<h1>Joystick</h1>Esti módulu ayuda a comprobar si'l joystick ta furrulando correcho.<br />Si los valores de les exes nun son correutos, pues tratar d'igualo per duana de la calibración.<br />Esti módulu intenta alcontrar tolos joysticks disponibles comprobando /dev/js[0-4] y /dev/input/js[0-4]<br />Si uses otru ficheru de preséu, introdúzlu na llista estenderexable.<br />La llista de botones amuesa l'estáu de los botones del joystick, la llista d'exes amuesa los valores actuales de les exes.<br />NOTA: el preséu de Linux actual (Kernel 2.4, 2.6) namái pue detectar de mou automáticu joysticks de<ul> <li>2 exes y 4 botones</li><li>3 exes y 4 botones</li><li>4 exes y 4 botones</li><li>Saitek Cyborg digital</li></ul>(Si quies tener más detalles, pues consultar el ficheru del códigu fonte de Linux Documentation/input/joystick.txt)"
+msgid ""
+"<h1>Joystick</h1>This module helps to check if your joystick is working "
+"correctly.<br />If it delivers wrong values for the axes, you can try to "
+"solve this with the calibration.<br />This module tries to find all "
+"available joystick devices by checking /dev/js[0-4] and /dev/input/js[0-4]"
+"<br />If you have another device file, enter it in the combobox.<br />The "
+"Buttons list shows the state of the buttons on your joystick, the Axes list "
+"shows the current value for all axes.<br />NOTE: the current Linux device "
+"driver (Kernel 2.4, 2.6) can only autodetect<ul><li>2-axis, 4-button "
+"joystick</li><li>3-axis, 4-button joystick</li><li>4-axis, 4-button "
+"joystick</li><li>Saitek Cyborg 'digital' joysticks</li></ul>(For details you "
+"can check your Linux source/Documentation/input/joystick.txt)"
+msgstr ""
+"<h1>Joystick</h1>Esti módulu ayuda a comprobar si'l joystick ta furrulando "
+"correcho.<br />Si los valores de les exes nun son correutos, pues tratar "
+"d'igualo per duana de la calibración.<br />Esti módulu intenta alcontrar "
+"tolos joysticks disponibles comprobando /dev/js[0-4] y /dev/input/js[0-4]"
+"<br />Si uses otru ficheru de preséu, introdúzlu na llista estenderexable."
+"<br />La llista de botones amuesa l'estáu de los botones del joystick, la "
+"llista d'exes amuesa los valores actuales de les exes.<br />NOTA: el preséu "
+"de Linux actual (Kernel 2.4, 2.6) namái pue detectar de mou automáticu "
+"joysticks de<ul> <li>2 exes y 4 botones</li><li>3 exes y 4 botones</li><li>4 "
+"exes y 4 botones</li><li>Saitek Cyborg digital</li></ul>(Si quies tener más "
+"detalles, pues consultar el ficheru del códigu fonte de Linux Documentation/"
+"input/joystick.txt)"
 
 #: joywidget.cpp:47
 msgid "PRESSED"
@@ -181,15 +228,23 @@ msgid "Calibrate"
 msgstr "Calibrar"
 
 #: joywidget.cpp:230
-msgid "No joystick device automatically found on this computer.<br />Checks were done in /dev/js[0-4] and /dev/input/js[0-4]<br />If you know that there is one attached, please enter the correct device file."
-msgstr "Nun se detectó dengún preséu de joystick nesti equipu.<br />Buscóse en /dev/js[0-4] y /dev/input/js[0-4]<br />Si hai un joystick coneutáu n'otru preséu, por favor indica'l ficheru de preséu correutu."
+msgid ""
+"No joystick device automatically found on this computer.<br />Checks were "
+"done in /dev/js[0-4] and /dev/input/js[0-4]<br />If you know that there is "
+"one attached, please enter the correct device file."
+msgstr ""
+"Nun se detectó dengún preséu de joystick nesti equipu.<br />Buscóse en /dev/"
+"js[0-4] y /dev/input/js[0-4]<br />Si hai un joystick coneutáu n'otru preséu, "
+"por favor indica'l ficheru de preséu correutu."
 
 #: joywidget.cpp:275
 msgid ""
 "The given device name is invalid (does not contain /dev).\n"
 "Please select a device from the list or\n"
 "enter a device file, like /dev/js0."
-msgstr "El nome del preséu nun ye válidu (nun contién /dev).Por favor, seleiciona un preséu de la llista ointroduz un nome de ficheru, como /dev/js0."
+msgstr ""
+"El nome del preséu nun ye válidu (nun contién /dev).Por favor, seleiciona un "
+"preséu de la llista ointroduz un nome de ficheru, como /dev/js0."
 
 #: joywidget.cpp:277
 msgid "Unknown Device"
@@ -208,8 +263,14 @@ msgid "2(y)"
 msgstr "2(y)"
 
 #: joywidget.cpp:386
-msgid "<qt>Calibration is about to check the precision.<br /><br /><b>Please move all axes to their center position and then do not touch the joystick anymore.</b><br /><br />Click OK to start the calibration.</qt>"
-msgstr "<qt>La calibración va comprobar la precisión.<br /><br /><b>Por favor, muevi toles exes a la posición central y nun toques el joystick.</b><br /><br />Primi n'Aceutar p'aniciar la calibración.</qt>"
+msgid ""
+"<qt>Calibration is about to check the precision.<br /><br /><b>Please move "
+"all axes to their center position and then do not touch the joystick anymore."
+"</b><br /><br />Click OK to start the calibration.</qt>"
+msgstr ""
+"<qt>La calibración va comprobar la precisión.<br /><br /><b>Por favor, muevi "
+"toles exes a la posición central y nun toques el joystick.</b><br /><br /"
+">Primi n'Aceutar p'aniciar la calibración.</qt>"
 
 #: joywidget.cpp:421
 #, kde-format
@@ -225,4 +286,3 @@ msgstr "ivarela"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ivarela@softastur.org"
-
