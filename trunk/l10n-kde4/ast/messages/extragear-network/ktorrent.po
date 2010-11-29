@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-21 06:22+0100\n"
+"POT-Creation-Date: 2010-11-29 02:29+0100\n"
 "PO-Revision-Date: 2010-10-19 23:27+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -761,7 +761,7 @@ msgstr "Escueyi un nome de ficheru nel que grabar"
 
 #. i18n: file: ktorrent/pref/advancedpref.ui:174
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_eta)
-#: ktorrent/main.cpp:94 plugins/search/homepage.cpp:118 rc.cpp:548
+#: ktorrent/main.cpp:94 plugins/search/webview.cpp:152 rc.cpp:548
 msgid "KTorrent"
 msgstr "KTorrent"
 
@@ -1190,25 +1190,6 @@ msgstr "Calcular les opciones recomendaes"
 msgid "(= %1/s)"
 msgstr "(= %1/s)"
 
-#: ktorrent/statusbar.cpp:39 ktorrent/statusbar.cpp:71
-#, kde-format
-msgid "Speed down: %1 / up: %2"
-msgstr "Velocidá de baxada: %1 / unvíu: %2"
-
-#: ktorrent/statusbar.cpp:40 ktorrent/statusbar.cpp:82
-#, kde-format
-msgid "Transferred down: %1 / up: %2"
-msgstr "Baxao: %1 / unviao: %2"
-
-#: ktorrent/statusbar.cpp:42 ktorrent/statusbar.cpp:97
-msgid "DHT: off"
-msgstr "DHT: desconeutáu"
-
-#: ktorrent/statusbar.cpp:95
-#, kde-format
-msgid "DHT: %1 nodes, %2 tasks"
-msgstr "DHT: %1 nodos, %2 xeres"
-
 #: ktorrent/tools/magnetmodel.cpp:128
 msgid "Magnet Link"
 msgstr ""
@@ -1307,8 +1288,9 @@ msgstr ""
 "Suelta y arrastra, o usa los botones de xubir y baxar de la drecha pa "
 "camudar l'orde."
 
-#: ktorrent/tools/queuemanagerwidget.cpp:56 plugins/search/homepage.cpp:121
-#: plugins/search/searchplugin.cpp:147 plugins/search/searchtoolbar.cpp:72
+#: ktorrent/tools/queuemanagerwidget.cpp:56
+#: plugins/search/searchactivity.cpp:81 plugins/search/searchtoolbar.cpp:70
+#: plugins/search/webview.cpp:155
 msgid "Search"
 msgstr "Guetar"
 
@@ -1926,6 +1908,25 @@ msgstr ""
 #, kde-format
 msgid "%1<br>Url: <b>%2</b>"
 msgstr "%1<br>URL: <b>%2</b>"
+
+#: ktorrent/statusbar.cpp:39 ktorrent/statusbar.cpp:71
+#, kde-format
+msgid "Speed down: %1 / up: %2"
+msgstr "Velocidá de baxada: %1 / unvíu: %2"
+
+#: ktorrent/statusbar.cpp:40 ktorrent/statusbar.cpp:82
+#, kde-format
+msgid "Transferred down: %1 / up: %2"
+msgstr "Baxao: %1 / unviao: %2"
+
+#: ktorrent/statusbar.cpp:42 ktorrent/statusbar.cpp:97
+msgid "DHT: off"
+msgstr "DHT: desconeutáu"
+
+#: ktorrent/statusbar.cpp:95
+#, kde-format
+msgid "DHT: %1 nodes, %2 tasks"
+msgstr "DHT: %1 nodos, %2 xeres"
 
 #: ktupnptest/main.cpp:40
 msgid "KTUPnPTest"
@@ -3261,69 +3262,6 @@ msgstr ""
 msgid "<b>%1</b><br/><br/>%2"
 msgstr "<b>%1</b><br/><br/>%2"
 
-#: plugins/search/homepage.cpp:117
-msgid "Home"
-msgstr ""
-
-#: plugins/search/homepage.cpp:119
-msgctxt "KDE 4 tag line, see http://kde.org/img/kde40.png"
-msgid "Be free."
-msgstr ""
-
-#: plugins/search/homepage.cpp:120
-msgid "Search the web for torrents."
-msgstr "Guetar por torrents na web."
-
-#: plugins/search/htmlpart.cpp:94
-#, fuzzy
-#| msgid "Do you want to download or save the torrent?"
-msgid "Do you want to download this magnet link?"
-msgstr "¿Quies baxar o guardar el torrent?"
-
-#: plugins/search/htmlpart.cpp:201
-msgid "Do you want to download or save the torrent?"
-msgstr "¿Quies baxar o guardar el torrent?"
-
-#: plugins/search/htmlpart.cpp:202
-msgid "Download Torrent"
-msgstr "Baxar el torrent"
-
-#. i18n: file: plugins/stats/DisplaySettings.ui:26
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#. i18n: file: plugins/stats/DisplaySettings.ui:36
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#. i18n: file: plugins/stats/Settings.ui:114
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#. i18n: file: plugins/stats/Spd.ui:19
-#. i18n: ectx: property (title), widget (QGroupBox, DlSpdGbw)
-#. i18n: file: plugins/syndication/feedwidget.ui:121
-#. i18n: ectx: property (text), widget (KPushButton, m_download)
-#. i18n: file: plugins/stats/DisplaySettings.ui:26
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#. i18n: file: plugins/stats/DisplaySettings.ui:36
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#. i18n: file: plugins/stats/Settings.ui:114
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#. i18n: file: plugins/stats/Spd.ui:19
-#. i18n: ectx: property (title), widget (QGroupBox, DlSpdGbw)
-#. i18n: file: plugins/syndication/feedwidget.ui:121
-#. i18n: ectx: property (text), widget (KPushButton, m_download)
-#: plugins/search/htmlpart.cpp:203 rc.cpp:2377 rc.cpp:2380 rc.cpp:2497
-#: rc.cpp:2536 rc.cpp:2664
-msgid "Download"
-msgstr "Baxada"
-
-#: plugins/search/searchactivity.cpp:44 plugins/search/searchplugin.cpp:67
-#: plugins/search/searchplugin.cpp:90 plugins/search/searchprefpage.cpp:58
-msgctxt "plugin name"
-msgid "Search"
-msgstr "Guetar"
-
-#: plugins/search/searchactivity.cpp:245
-#, kde-format
-msgid "Search for %1"
-msgstr "Guetar %1"
-
 #: plugins/search/searchenginelist.cpp:216
 #, kde-format
 msgid "Failed to parse %1"
@@ -3334,6 +3272,12 @@ msgstr "Falló analís %1"
 #| msgid "Url: <b>%1</b>"
 msgid "URL: <b>%1</b>"
 msgstr "URL: <b>%1</b>"
+
+#: plugins/search/searchprefpage.cpp:58 plugins/search/searchactivity.cpp:47
+#: plugins/search/searchplugin.cpp:65 plugins/search/searchplugin.cpp:83
+msgctxt "plugin name"
+msgid "Search"
+msgstr "Guetar"
 
 #: plugins/search/searchprefpage.cpp:104 plugins/search/searchprefpage.cpp:145
 msgid "Add a Search Engine"
@@ -3363,44 +3307,81 @@ msgstr ""
 msgid "The URL %1 does not contain {searchTerms}."
 msgstr "L'URL %1 nun contién {searchTerms}."
 
-#: plugins/search/searchtoolbar.cpp:68
+#: plugins/search/searchactivity.cpp:246
+#, kde-format
+msgid "Search for %1"
+msgstr "Guetar %1"
+
+#: plugins/search/searchtoolbar.cpp:66
 msgid "Search Text"
 msgstr "Guetar el testu"
 
-#: plugins/search/searchtoolbar.cpp:77
+#: plugins/search/searchtoolbar.cpp:75
 msgid "Search Engine"
 msgstr "Motor de gueta"
 
-#: plugins/search/searchtoolbar.cpp:82
+#: plugins/search/searchtoolbar.cpp:80
 msgid "Search Engine Label"
 msgstr "Etiqueta del motor de gueta"
 
-#: plugins/search/searchtoolbar.cpp:83
+#: plugins/search/searchtoolbar.cpp:81
 msgid " Engine: "
 msgstr " Motor: "
 
-#: plugins/search/searchwidget.cpp:80
+#: plugins/search/searchwidget.cpp:75
 msgid " Engine:"
 msgstr " Motor:"
 
-#: plugins/search/searchwidget.cpp:93
-msgid "Open in New Tab"
-msgstr "Abrir nuna llingüeta nueva"
+#: plugins/search/searchwidget.cpp:225
+msgid "Do you want to download or save the torrent?"
+msgstr "¿Quies baxar o guardar el torrent?"
 
-#: plugins/search/searchwidget.cpp:100
-#, fuzzy
-#| msgid "Copy Torrent URL"
-msgid "Copy URL"
-msgstr "Copiar el URL del torrent"
+#: plugins/search/searchwidget.cpp:226
+msgid "Download Torrent"
+msgstr "Baxar el torrent"
 
-#: plugins/search/searchwidget.cpp:207
+#. i18n: file: plugins/stats/DisplaySettings.ui:26
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: plugins/stats/DisplaySettings.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: file: plugins/stats/Settings.ui:114
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: plugins/stats/Spd.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, DlSpdGbw)
+#. i18n: file: plugins/syndication/feedwidget.ui:121
+#. i18n: ectx: property (text), widget (KPushButton, m_download)
+#. i18n: file: plugins/stats/DisplaySettings.ui:26
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: plugins/stats/DisplaySettings.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: file: plugins/stats/Settings.ui:114
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: plugins/stats/Spd.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, DlSpdGbw)
+#. i18n: file: plugins/syndication/feedwidget.ui:121
+#. i18n: ectx: property (text), widget (KPushButton, m_download)
+#: plugins/search/searchwidget.cpp:227 rc.cpp:2377 rc.cpp:2380 rc.cpp:2497
+#: rc.cpp:2536 rc.cpp:2664
+msgid "Download"
+msgstr "Baxada"
+
+#: plugins/search/webview.cpp:151
+msgid "Home"
+msgstr ""
+
+#: plugins/search/webview.cpp:153
+msgctxt "KDE 4 tag line, see http://kde.org/img/kde40.png"
+msgid "Be free."
+msgstr ""
+
+#: plugins/search/webview.cpp:154
+msgid "Search the web for torrents."
+msgstr "Guetar por torrents na web."
+
+#: plugins/search/webview.cpp:182
 #, kde-format
-msgid "Searching for %1..."
-msgstr "Guetando %1..."
-
-#: plugins/search/searchwidget.cpp:312
-msgid "Search finished"
-msgstr "Gueta finada"
+msgid "Save %1 to"
+msgstr ""
 
 #: plugins/shutdown/shutdowndlg.cpp:29
 msgctxt "@title:window"
@@ -10117,6 +10098,25 @@ msgstr "Durante cuanto tiempu ye válida una sesión (en segundos)."
 #: rc.cpp:2953
 msgid " secs"
 msgstr " segs"
+
+#, fuzzy
+#~| msgid "Do you want to download or save the torrent?"
+#~ msgid "Do you want to download this magnet link?"
+#~ msgstr "¿Quies baxar o guardar el torrent?"
+
+#~ msgid "Open in New Tab"
+#~ msgstr "Abrir nuna llingüeta nueva"
+
+#, fuzzy
+#~| msgid "Copy Torrent URL"
+#~ msgid "Copy URL"
+#~ msgstr "Copiar el URL del torrent"
+
+#~ msgid "Searching for %1..."
+#~ msgstr "Guetando %1..."
+
+#~ msgid "Search finished"
+#~ msgstr "Gueta finada"
 
 #, fuzzy
 #~| msgid "From:"
