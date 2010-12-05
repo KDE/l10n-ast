@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-01 02:26+0100\n"
+"POT-Creation-Date: 2010-12-05 02:26+0100\n"
 "PO-Revision-Date: 2009-12-18 18:26+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -216,8 +216,8 @@ msgid_plural "%1 peers"
 msgstr[0] "1 collaciu"
 msgstr[1] "%1 collacios"
 
-#: src/download/httpconnection.cpp:37 src/download/webseed.cpp:49
-#: src/download/webseed.cpp:93
+#: src/download/httpconnection.cpp:37 src/download/webseed.cpp:51
+#: src/download/webseed.cpp:98
 msgid "Not connected"
 msgstr "Non conectáu"
 
@@ -231,7 +231,7 @@ msgstr "Resolviendo'l «proxy» %1:%2"
 msgid "Resolving hostname %1"
 msgstr "Resolviendo'l nome de máquina %1"
 
-#: src/download/httpconnection.cpp:125 src/download/webseed.cpp:321
+#: src/download/httpconnection.cpp:125 src/download/webseed.cpp:327
 msgid "Connection closed"
 msgstr "Zarróse la conexón"
 
@@ -272,9 +272,10 @@ msgstr "Fallu: la petición superó'l tiempu llímite"
 msgid "Redirected without a new location."
 msgstr "Redirixíu ensin un nuevu allugamientu"
 
-#: src/download/webseed.cpp:303 src/download/webseed.cpp:517
-msgid "Not in use"
-msgstr "Non usáu"
+#: src/download/webseed.cpp:530
+#, kde-format
+msgid "Unused for %1 seconds (Too many connection failures)"
+msgstr ""
 
 #: src/interfaces/trackerinterface.cpp:58
 msgid "OK"
@@ -407,20 +408,20 @@ msgstr ""
 msgid "An error occurred while loading <b>%1</b>:<br/><b>%2</b>"
 msgstr ""
 
-#: src/torrent/torrentcontrol.cpp:586
+#: src/torrent/torrentcontrol.cpp:587
 #, fuzzy, kde-format
 #| msgid "Unable to create %1 : %2"
 msgid "Unable to create %1: %2"
 msgstr "Nun pudo criase %1: %2"
 
-#: src/torrent/torrentcontrol.cpp:601
+#: src/torrent/torrentcontrol.cpp:602
 #, kde-format
 msgid ""
 "You are already downloading the torrent <b>%1</b>. The tracker lists from "
 "both torrents have been merged."
 msgstr ""
 
-#: src/torrent/torrentcontrol.cpp:606
+#: src/torrent/torrentcontrol.cpp:607
 #, fuzzy, kde-format
 #| msgid "How long we have been downloading the torrent"
 msgid "You are already downloading the torrent <b>%1</b>."
@@ -601,6 +602,9 @@ msgstr ""
 #| msgid "Error reading from %1"
 msgid "Error when reading from disk"
 msgstr "Fallu al lleer de %1"
+
+#~ msgid "Not in use"
+#~ msgstr "Non usáu"
 
 #, fuzzy
 #~| msgid "Insufficient disk space for %1"
