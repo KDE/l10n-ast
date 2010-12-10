@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-09 02:25+0100\n"
+"POT-Creation-Date: 2010-12-10 02:33+0100\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -65,7 +65,7 @@ msgstr "Silenciáu"
 msgid "Volume"
 msgstr "Volume"
 
-#: TrayIcon.cpp:155 context/applets/currenttrack/CurrentTrack.cpp:447
+#: TrayIcon.cpp:155 context/applets/currenttrack/CurrentTrack.cpp:448
 #: playlist/PlaylistModel.cpp:892 widgets/SmartPlaylistEditor.cpp:185
 msgid "Score"
 msgstr "Puntuación"
@@ -696,7 +696,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, currentTrackSettings)
 #. i18n: file: context/applets/tabs/TabsSettings.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, TabsSettings)
-#: rc.cpp:309 rc.cpp:492 context/applets/currenttrack/CurrentTrack.cpp:677
+#: rc.cpp:309 rc.cpp:492 context/applets/currenttrack/CurrentTrack.cpp:678
 #, fuzzy
 #| msgid "Current Track"
 msgid "Current Track Settings"
@@ -713,7 +713,7 @@ msgstr "Opciones de clasificación"
 #. i18n: file: context/applets/currenttrack/currentTrackSettings.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, editTrackDetailsCheckBox)
 #: rc.cpp:315 context/applets/albums/AlbumsView.cpp:230
-#: context/applets/currenttrack/CurrentTrack.cpp:782
+#: context/applets/currenttrack/CurrentTrack.cpp:783
 #: playlist/view/PlaylistViewCommon.cpp:230
 msgid "Edit Track Details"
 msgstr ""
@@ -736,7 +736,7 @@ msgstr "meses"
 
 #. i18n: file: context/applets/labels/labelsSettings.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, labelsSettings)
-#: rc.cpp:324 context/applets/labels/LabelsApplet.cpp:664
+#: rc.cpp:324 context/applets/labels/LabelsApplet.cpp:661
 #, fuzzy
 #| msgid "Settings"
 msgid "Labels Settings"
@@ -5004,7 +5004,7 @@ msgstr "Guetar haza &darrera"
 msgid "Update Collection"
 msgstr "Anovar coleición"
 
-#: MainWindow.cpp:810 widgets/MainControlsWidget.cpp:62
+#: MainWindow.cpp:810
 msgid "Previous Track"
 msgstr "Pista anterior"
 
@@ -5025,7 +5025,7 @@ msgstr "&Reemplazar llista de reproducción"
 msgid "Disable Dynamic Playlist"
 msgstr "Llista de reproducción dinámica predeterminada"
 
-#: MainWindow.cpp:833 widgets/MainControlsWidget.cpp:86
+#: MainWindow.cpp:833
 msgid "Next Track"
 msgstr "Pista siguiente"
 
@@ -6339,7 +6339,7 @@ msgid "Settings"
 msgstr "Configuración"
 
 #: context/applets/albums/Albums.cpp:101
-#: context/applets/currenttrack/CurrentTrack.cpp:447
+#: context/applets/currenttrack/CurrentTrack.cpp:448
 #: playlist/ProgressiveSearchWidget.cpp:81
 msgid "Albums"
 msgstr ""
@@ -6361,85 +6361,6 @@ msgstr ""
 msgid "Albums Applet Settings"
 msgstr ""
 
-#: context/applets/currenttrack/CurrentTrack.cpp:103
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:71
-#: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
-#: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
-msgid "Local Collection"
-msgstr "Coleición llocal"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:112
-msgctxt "What artist is this track by"
-msgid "By"
-msgstr ""
-
-#: context/applets/currenttrack/CurrentTrack.cpp:113
-msgctxt "What album is this track on"
-msgid "On"
-msgstr ""
-
-#: context/applets/currenttrack/CurrentTrack.cpp:283
-#, fuzzy
-#| msgid "Not Recently &Played"
-msgid "Recently Played Tracks"
-msgstr "Non re&producíes recién"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:446
-#: playlist/ProgressiveSearchWidget.cpp:74
-#: services/lastfm/biases/LastFmBias.cpp:128
-msgid "Tracks"
-msgstr "Pistes"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:446
-msgid "Play count"
-msgstr ""
-
-#: context/applets/currenttrack/CurrentTrack.cpp:448
-#, fuzzy
-#| msgid "Genre"
-msgid "Genres"
-msgstr "Xéneru"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:448
-msgid "Last Played"
-msgstr "Cabera reproducida"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:805
-#, fuzzy
-#| msgid "Media Sources"
-msgid "Show Album In Media Sources"
-msgstr "Preseos de medios"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:812
-#, fuzzy
-#| msgid "Media Sources"
-msgid "Show Artist In Media Sources"
-msgstr "Preseos de medios"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:817 core/meta/Meta.cpp:527
-#, fuzzy
-#| msgid "Unknown Genre"
-msgid "Unknown Composer"
-msgstr "Xéneru desconocíu"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:819
-#, fuzzy
-#| msgid "Media Sources"
-msgid "Show Composer In Media Sources"
-msgstr "Preseos de medios"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:826
-#, fuzzy
-#| msgid "Media Sources"
-msgid "Show Genre In Media Sources"
-msgstr "Preseos de medios"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:833
-#, fuzzy
-#| msgid "Media Sources"
-msgid "Show Year In Media Sources"
-msgstr "Preseos de medios"
-
 #: context/applets/currenttrack/CurrentTrack.h:38
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
 #: core/meta/Meta.cpp:397
@@ -6451,6 +6372,85 @@ msgstr "Artista desconocíu"
 #: core/meta/Meta.cpp:442
 msgid "Unknown Album"
 msgstr "Álbum desconocíu"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:104
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:71
+#: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
+#: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
+msgid "Local Collection"
+msgstr "Coleición llocal"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:113
+msgctxt "What artist is this track by"
+msgid "By"
+msgstr ""
+
+#: context/applets/currenttrack/CurrentTrack.cpp:114
+msgctxt "What album is this track on"
+msgid "On"
+msgstr ""
+
+#: context/applets/currenttrack/CurrentTrack.cpp:284
+#, fuzzy
+#| msgid "Not Recently &Played"
+msgid "Recently Played Tracks"
+msgstr "Non re&producíes recién"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:447
+#: playlist/ProgressiveSearchWidget.cpp:74
+#: services/lastfm/biases/LastFmBias.cpp:128
+msgid "Tracks"
+msgstr "Pistes"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:447
+msgid "Play count"
+msgstr ""
+
+#: context/applets/currenttrack/CurrentTrack.cpp:449
+#, fuzzy
+#| msgid "Genre"
+msgid "Genres"
+msgstr "Xéneru"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:449
+msgid "Last Played"
+msgstr "Cabera reproducida"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:806
+#, fuzzy
+#| msgid "Media Sources"
+msgid "Show Album In Media Sources"
+msgstr "Preseos de medios"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:813
+#, fuzzy
+#| msgid "Media Sources"
+msgid "Show Artist In Media Sources"
+msgstr "Preseos de medios"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:818 core/meta/Meta.cpp:527
+#, fuzzy
+#| msgid "Unknown Genre"
+msgid "Unknown Composer"
+msgstr "Xéneru desconocíu"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:820
+#, fuzzy
+#| msgid "Media Sources"
+msgid "Show Composer In Media Sources"
+msgstr "Preseos de medios"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:827
+#, fuzzy
+#| msgid "Media Sources"
+msgid "Show Genre In Media Sources"
+msgstr "Preseos de medios"
+
+#: context/applets/currenttrack/CurrentTrack.cpp:834
+#, fuzzy
+#| msgid "Media Sources"
+msgid "Show Year In Media Sources"
+msgstr "Preseos de medios"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:63
 #, fuzzy
@@ -6480,8 +6480,8 @@ msgid "Add to blacklist"
 msgstr "&Amestar a la llista de reproducción"
 
 #: context/applets/labels/LabelsApplet.cpp:87
-#: context/applets/labels/LabelsApplet.cpp:164
-#: context/applets/labels/LabelsApplet.cpp:171
+#: context/applets/labels/LabelsApplet.cpp:165
+#: context/applets/labels/LabelsApplet.cpp:176
 #: context/applets/labels/LabelsApplet.cpp:480
 #: context/applets/labels/LabelsApplet.cpp:490 dialogs/TagDialog.cpp:721
 msgid "Labels"
@@ -6492,7 +6492,7 @@ msgstr "Etiquetes"
 msgid "Reload"
 msgstr "Recargar"
 
-#: context/applets/labels/LabelsApplet.cpp:171
+#: context/applets/labels/LabelsApplet.cpp:176
 #: context/engines/current/CurrentEngine.cpp:125 mac/GrowlInterface.cpp:43
 #: widgets/Osd.cpp:604 EngineController.cpp:1407
 msgid "No track playing"
@@ -6503,7 +6503,6 @@ msgid "Fetching ..."
 msgstr ""
 
 #: context/applets/labels/LabelsApplet.cpp:538
-#: context/applets/labels/LabelsApplet.cpp:628
 #, fuzzy, kde-format
 #| msgid "Track Details: %1 by %2"
 msgid "Labels for %1 by %2"
@@ -7094,36 +7093,6 @@ msgstr "Configuración"
 msgid "Reload Tabs"
 msgstr "Recargar"
 
-#: context/containments/oldcontainment/ColumnContainment.cpp:98
-#: context/toolbar/AppletToolbarAddItem.cpp:71
-msgid "Add Applet..."
-msgstr ""
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:180
-msgid "Remove Widgets..."
-msgstr ""
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:200
-#: context/widgets/ContainmentSelectionLayer.cpp:37
-msgid "Zoom In"
-msgstr "Agrandar"
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:205
-msgid "Zoom Out"
-msgstr ""
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:210
-msgid "Add Widgets..."
-msgstr ""
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:215
-msgid "Next Group"
-msgstr ""
-
-#: context/containments/oldcontainment/ColumnContainment.cpp:220
-msgid "Previous Group"
-msgstr ""
-
 #: context/containments/verticallayout/VerticalToolbarContainment.cpp:180
 msgid ""
 "Please add some applets from the toolbar at the bottom of the context view."
@@ -7134,22 +7103,22 @@ msgstr ""
 msgid "Albums by %1"
 msgstr "Álbumes de %1"
 
-#: context/engines/labels/LabelsEngine.cpp:135
-#: context/engines/labels/LabelsEngine.cpp:202
-#: context/engines/labels/LabelsEngine.cpp:263
-#: context/engines/labels/LabelsEngine.cpp:273
-#: context/engines/labels/LabelsEngine.cpp:307
-#: context/engines/labels/LabelsEngine.cpp:358
+#: context/engines/labels/LabelsEngine.cpp:134
+#: context/engines/labels/LabelsEngine.cpp:197
+#: context/engines/labels/LabelsEngine.cpp:258
+#: context/engines/labels/LabelsEngine.cpp:268
+#: context/engines/labels/LabelsEngine.cpp:302
+#: context/engines/labels/LabelsEngine.cpp:353
 msgid "No labels found on last.fm"
 msgstr ""
 
-#: context/engines/labels/LabelsEngine.cpp:326
+#: context/engines/labels/LabelsEngine.cpp:321
 #, fuzzy
 #| msgid "Unable to retrieve from Flickr.com "
 msgid "Unable to retrieve from last.fm"
 msgstr "Nun se puede obtener información de Flickr.com "
 
-#: context/engines/labels/LabelsEngine.cpp:376
+#: context/engines/labels/LabelsEngine.cpp:371
 msgid "No connection to last.fm"
 msgstr ""
 
@@ -7294,6 +7263,10 @@ msgstr "print() necesita un argumentu"
 msgid "Add Applets..."
 msgstr ""
 
+#: context/toolbar/AppletToolbarAddItem.cpp:71
+msgid "Add Applet..."
+msgstr ""
+
 #: context/toolbar/AppletToolbarConfigItem.cpp:36
 msgid "Configure Applets..."
 msgstr ""
@@ -7403,6 +7376,10 @@ msgctxt ""
 "least one, do not translate install, remove, upgrade nor list"
 msgid "One of install, remove, upgrade or list is required."
 msgstr ""
+
+#: context/widgets/ContainmentSelectionLayer.cpp:37
+msgid "Zoom In"
+msgstr "Agrandar"
 
 #: context/widgets/ToolBoxMenu.cpp:109
 #: context/widgets/appletexplorer/AppletExplorer.cpp:105
@@ -8206,32 +8183,32 @@ msgid "&Export to subscriptions to OPML file"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:323
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:861
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:851
 msgid "&Configure"
 msgstr "&Configurar"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:341
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:879
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:869
 msgid "&Remove Subscription"
 msgstr "&Desaniciar subscripción"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:363
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:900
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:890
 msgid "&Update Channel"
 msgstr "A&novar canal"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:402
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:781
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:771
 msgid "&Delete Downloaded Episode"
 msgstr "&Desaniciar episodiu descargáu"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:414
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:794
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:784
 msgid "&Write Feed Information to File"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:438
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:831
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:821
 msgid "&Download Episode"
 msgstr "&Descargar l'episodiu"
 
@@ -8240,14 +8217,14 @@ msgstr "&Descargar l'episodiu"
 msgid "Already subscribed to %1."
 msgstr "Entá suscritu a %1."
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:601
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:603
 #, fuzzy
 #| msgid "Never"
 msgctxt "prefix to 'x minutes'"
 msgid "every "
 msgstr "Enxamás"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:602
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:604
 #, fuzzy
 #| msgid "Minutes"
 msgid " minute"
@@ -8255,56 +8232,56 @@ msgid_plural " minutes"
 msgstr[0] "Minutos"
 msgstr[1] "Minutos"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:611
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:613
 #, fuzzy
 #| msgid "Local Podcasts"
 msgid "Configure Local Podcasts"
 msgstr "Podcasts llocal"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:662
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:664
 msgid "Select file for OPML export"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:952
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:942
 msgid "Unsubscribe"
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:956
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:946
 msgid "Do you really want to unsubscribe from "
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:963
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:953
 #, fuzzy
 #| msgid "&Delete Downloaded Episode"
 msgid "Delete downloaded episodes"
 msgstr "&Desaniciar episodiu descargáu"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1092
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1077
 msgid "Waiting for Podcast Downloads to Finish"
 msgstr "Esperando que termine la descarga de los podcast"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1093
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1078
 #, kde-format
 msgid "There is still a podcast download in progress"
 msgid_plural "There are still %1 podcast downloads in progress"
 msgstr[0] "Entá hai una descarga de podcast en cursu"
 msgstr[1] "Entá hai %1 descargues de podcast en cursu"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1097
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1082
 msgid "Cancel Download and Quit."
 msgstr ""
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1258
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1241
 msgid "Downloading Podcast Media"
 msgstr "Descargando mediu de Podcast"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1259
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1242
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Descargando vídeo/audio encapsuláu «%1»"
 
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1329
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1478
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1312
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1461
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "Nun se puede guardar l'episodiu de podcast en %1"
@@ -11434,6 +11411,19 @@ msgstr ""
 msgid "Search Preferences"
 msgstr ""
 
+#: playlist/PlaylistDock.cpp:96
+msgid "Dynamic Mode Enabled"
+msgstr ""
+
+#: playlist/PlaylistDock.cpp:160
+msgid "&Save Current Playlist"
+msgstr ""
+
+#: playlist/PlaylistDock.cpp:236
+#, kde-format
+msgid "&Save playlist to \"%1\""
+msgstr ""
+
 #: playlist/PlaylistModel.cpp:237
 #, fuzzy
 #| msgid "No information available for this track"
@@ -11526,19 +11516,6 @@ msgstr "Mood"
 #: playlist/PlaylistModel.cpp:897
 msgid "File Size"
 msgstr "Tamañu del ficheru"
-
-#: playlist/PlaylistDock.cpp:96
-msgid "Dynamic Mode Enabled"
-msgstr ""
-
-#: playlist/PlaylistDock.cpp:160
-msgid "&Save Current Playlist"
-msgstr ""
-
-#: playlist/PlaylistDock.cpp:236
-#, kde-format
-msgid "&Save playlist to \"%1\""
-msgstr ""
 
 #: playlistgenerator/ConstraintGroup.cpp:87
 msgctxt "name of a type of constraint group"
@@ -12945,14 +12922,6 @@ msgstr "Marcadores d'Amarok"
 msgid "Copy Current View Bookmark to Clipboard"
 msgstr ""
 
-#: widgets/MainControlsWidget.cpp:70 ActionClasses.cpp:176
-msgid "Play/Pause"
-msgstr "Reproducir/Pausa"
-
-#: widgets/MainControlsWidget.cpp:78 ActionClasses.cpp:497
-msgid "Stop"
-msgstr ""
-
 #: widgets/MetaQueryWidget.cpp:58 widgets/MetaQueryWidget.cpp:125
 #, fuzzy
 #| msgid "Seconds"
@@ -13649,6 +13618,10 @@ msgstr "Agora reproduciendo"
 msgid "Amarok Menu"
 msgstr "Menú d'Amarok"
 
+#: ActionClasses.cpp:176
+msgid "Play/Pause"
+msgstr "Reproducir/Pausa"
+
 #: ActionClasses.cpp:313
 msgid "Click to change"
 msgstr "Fai clic pa camudar"
@@ -13695,6 +13668,10 @@ msgstr "Llista de reproducción actual"
 #: ActionClasses.cpp:466
 msgid "Selected Tracks"
 msgstr "Pistes seleicionaes"
+
+#: ActionClasses.cpp:497
+msgid "Stop"
+msgstr ""
 
 #: ActionClasses.cpp:549
 msgid "Stop after current Track"
