@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-14 02:46+0100\n"
+"POT-Creation-Date: 2010-12-15 02:29+0100\n"
 "PO-Revision-Date: 2010-10-19 23:27+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -90,7 +90,7 @@ msgstr "Abrir un URL"
 
 #: ktorrent/dialogs/pastedialog.cpp:62
 #: ktorrent/dialogs/torrentcreatordlg.cpp:118
-#: ktorrent/dialogs/fileselectdlg.cpp:433 libktcore/groups/allgroup.cpp:26
+#: ktorrent/dialogs/fileselectdlg.cpp:427 libktcore/groups/allgroup.cpp:26
 msgid "All Torrents"
 msgstr "Tolos torrents"
 
@@ -430,34 +430,34 @@ msgstr "Peñera"
 msgid "Opening %1"
 msgstr "Abriendo %1"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:230
+#: ktorrent/dialogs/fileselectdlg.cpp:224
 msgid ""
 "Some files of this torrent have been found in the completed downloads "
 "directory. Do you want to import these files and use the completed downloads "
 "directory as the location?"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:233
+#: ktorrent/dialogs/fileselectdlg.cpp:227
 msgid ""
 "All files of this torrent have been found in the completed downloads "
 "directory. Do you want to import these files and use the completed downloads "
 "directory as the location?"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:237
+#: ktorrent/dialogs/fileselectdlg.cpp:231
 #, kde-format
 msgid ""
 "The file <b>%1</b> was found in the completed downloads directory. Do you "
 "want to import this file?"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:252
-#: ktorrent/dialogs/fileselectdlg.cpp:269
+#: ktorrent/dialogs/fileselectdlg.cpp:246
+#: ktorrent/dialogs/fileselectdlg.cpp:263
 #, kde-format
 msgid "The directory %1 does not exist, do you want to create it?"
 msgstr "El direutoriu %1 nun esiste. ¿Quies crialu?"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:302
+#: ktorrent/dialogs/fileselectdlg.cpp:296
 msgid ""
 "You have deselected the following existing files. You will lose all data in "
 "these files, are you sure you want to do this?"
@@ -465,15 +465,15 @@ msgstr ""
 "Deseleicionaste los siguientes ficheros esistentes. Perderás tolos datos "
 "d'estos ficheros. ¿De xuru que quies facer esto?"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:306
+#: ktorrent/dialogs/fileselectdlg.cpp:300
 msgid "Yes, delete the files"
 msgstr "Sí, desaniciar los ficheros"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:307
+#: ktorrent/dialogs/fileselectdlg.cpp:301
 msgid "No, keep the files"
 msgstr "Non, caltener los ficheros"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:332
+#: ktorrent/dialogs/fileselectdlg.cpp:326
 #, kde-format
 msgid ""
 "Opening the torrent <b>%1</b>, would share one or more files with the "
@@ -481,38 +481,38 @@ msgid ""
 "Please select a different location."
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:505
+#: ktorrent/dialogs/fileselectdlg.cpp:499
 msgid "<b>Unable to determine free space</b>"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:517
+#: ktorrent/dialogs/fileselectdlg.cpp:511
 #, kde-format
 msgctxt "We are %1 bytes short of what we need"
 msgid "%1 short"
 msgstr "%1 curtiu"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:538
+#: ktorrent/dialogs/fileselectdlg.cpp:532
 msgid "Existing files: <b>None</b>"
 msgstr "Ficheros esistentes: <b>Dengún</b>"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:540
+#: ktorrent/dialogs/fileselectdlg.cpp:534
 msgid "Existing files: <b>All</b>"
 msgstr "Ficheros esistentes: <b>Too</b>"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:542
+#: ktorrent/dialogs/fileselectdlg.cpp:536
 #, kde-format
 msgid "Existing files: <b>%1</b> of <b>%2</b>"
 msgstr "Ficheros esistentes: <b>%1</b> de <b>%2</b>"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:548
+#: ktorrent/dialogs/fileselectdlg.cpp:542
 msgid "Existing file: <b>No</b>"
 msgstr "Ficheru esistente: <b>Non</b>"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:550
+#: ktorrent/dialogs/fileselectdlg.cpp:544
 msgid "Existing file: <b>Yes</b>"
 msgstr "Ficheru esistente: <b>Sí</b>"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:622
+#: ktorrent/dialogs/fileselectdlg.cpp:616
 #, fuzzy
 #| msgid "Clear Search History"
 msgid "Clear History"
@@ -2393,65 +2393,6 @@ msgstr "Velocidá de baxada del trozu"
 msgid "Which files the chunk is located in"
 msgstr "En qué ficheros s'alcuentra'l trozu"
 
-#: plugins/infowidget/fileview.cpp:113
-msgctxt "Open file"
-msgid "Open"
-msgstr "Abrir"
-
-#: plugins/infowidget/fileview.cpp:115
-msgid "Download first"
-msgstr "Baxar el primeru"
-
-#: plugins/infowidget/fileview.cpp:116
-msgid "Download normally"
-msgstr "Baxar normalmente"
-
-#: plugins/infowidget/fileview.cpp:117
-msgid "Download last"
-msgstr "Baxar al final"
-
-#. i18n: file: ktorrent/dialogs/missingfilesdlg.ui:53
-#. i18n: ectx: property (text), widget (KPushButton, m_dnd)
-#: plugins/infowidget/fileview.cpp:119 rc.cpp:159
-msgid "Do Not Download"
-msgstr "Non baxar"
-
-#: plugins/infowidget/fileview.cpp:120
-msgid "Delete File(s)"
-msgstr "Desaniciar los ficheros"
-
-#: plugins/infowidget/fileview.cpp:122
-msgid "Move File"
-msgstr "Mover el ficheru"
-
-#: plugins/infowidget/fileview.cpp:124
-msgid "Collapse Folder Tree"
-msgstr "Contrayer l'árbol de carpetes"
-
-#: plugins/infowidget/fileview.cpp:125
-msgid "Expand Folder Tree"
-msgstr "Espander l'árbol de carpetes"
-
-#: plugins/infowidget/fileview.cpp:129
-msgid "File Tree"
-msgstr ""
-
-#: plugins/infowidget/fileview.cpp:131
-msgid "File List"
-msgstr ""
-
-#: plugins/infowidget/fileview.cpp:141
-msgid "Show Filter"
-msgstr ""
-
-#: plugins/infowidget/fileview.cpp:305
-msgid "You will lose all data in this file, are you sure you want to do this?"
-msgid_plural ""
-"You will lose all data in these files, are you sure you want to do this?"
-msgstr[0] "Perderás tolos datos d'esti ficheru. ¿De xuru que quies facer esto?"
-msgstr[1] ""
-"Perderás tolos datos d'estos ficheros. ¿De xuru que quies facer esto?"
-
 #: plugins/infowidget/infowidgetplugin.cpp:71
 #: plugins/infowidget/iwprefpage.cpp:27
 msgid "Info Widget"
@@ -2825,6 +2766,65 @@ msgstr ""
 msgid "Cannot remove webseed %1, it is part of the torrent."
 msgstr "Nun puede desaniciase la semiente web %1, forma parte del torrent."
 
+#: plugins/infowidget/fileview.cpp:113
+msgctxt "Open file"
+msgid "Open"
+msgstr "Abrir"
+
+#: plugins/infowidget/fileview.cpp:115
+msgid "Download first"
+msgstr "Baxar el primeru"
+
+#: plugins/infowidget/fileview.cpp:116
+msgid "Download normally"
+msgstr "Baxar normalmente"
+
+#: plugins/infowidget/fileview.cpp:117
+msgid "Download last"
+msgstr "Baxar al final"
+
+#. i18n: file: ktorrent/dialogs/missingfilesdlg.ui:53
+#. i18n: ectx: property (text), widget (KPushButton, m_dnd)
+#: plugins/infowidget/fileview.cpp:119 rc.cpp:159
+msgid "Do Not Download"
+msgstr "Non baxar"
+
+#: plugins/infowidget/fileview.cpp:120
+msgid "Delete File(s)"
+msgstr "Desaniciar los ficheros"
+
+#: plugins/infowidget/fileview.cpp:122
+msgid "Move File"
+msgstr "Mover el ficheru"
+
+#: plugins/infowidget/fileview.cpp:124
+msgid "Collapse Folder Tree"
+msgstr "Contrayer l'árbol de carpetes"
+
+#: plugins/infowidget/fileview.cpp:125
+msgid "Expand Folder Tree"
+msgstr "Espander l'árbol de carpetes"
+
+#: plugins/infowidget/fileview.cpp:129
+msgid "File Tree"
+msgstr ""
+
+#: plugins/infowidget/fileview.cpp:131
+msgid "File List"
+msgstr ""
+
+#: plugins/infowidget/fileview.cpp:141
+msgid "Show Filter"
+msgstr ""
+
+#: plugins/infowidget/fileview.cpp:305
+msgid "You will lose all data in this file, are you sure you want to do this?"
+msgid_plural ""
+"You will lose all data in these files, are you sure you want to do this?"
+msgstr[0] "Perderás tolos datos d'esti ficheru. ¿De xuru que quies facer esto?"
+msgstr[1] ""
+"Perderás tolos datos d'estos ficheros. ¿De xuru que quies facer esto?"
+
 #: plugins/ipfilter/convertthread.cpp:72
 msgid "Loading txt file..."
 msgstr "Cargando'l ficheru txt..."
@@ -3050,12 +3050,6 @@ msgstr "Conmutar a/de pantalla completa"
 msgid "Movie player"
 msgstr "Reproductor multimedia"
 
-#: plugins/mediaplayer/mediaview.cpp:53
-#, fuzzy
-#| msgid "Search Engines"
-msgid "Search media files"
-msgstr "Motores de gueta"
-
 #: plugins/mediaplayer/playlist.cpp:91
 #: plugins/syndication/feedwidgetmodel.cpp:82
 msgid "Title"
@@ -3159,6 +3153,12 @@ msgstr "Títulu: <b>%1</b>"
 #: plugins/mediaplayer/videowidget.cpp:214
 msgid "KTorrent is playing a video."
 msgstr ""
+
+#: plugins/mediaplayer/mediaview.cpp:54
+#, fuzzy
+#| msgid "Search Engines"
+msgid "Search media files"
+msgstr "Motores de gueta"
 
 #: plugins/scanfolder/scanfolder.cpp:72 plugins/scanfolder/scanfolder.cpp:73
 #: plugins/scanfolder/scanfolder.cpp:91 plugins/scanfolder/scanfolder.cpp:180
