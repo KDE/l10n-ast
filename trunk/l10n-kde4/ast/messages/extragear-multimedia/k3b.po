@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-06 02:32+0100\n"
+"POT-Creation-Date: 2010-12-21 02:34+0100\n"
 "PO-Revision-Date: 2010-10-19 23:26+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Español <kde-ye@kybs.de>\n"
@@ -1062,46 +1062,46 @@ msgctxt "%1 and %2 are byte sizes formatted via KLocale::formatByteSize"
 msgid "%1 of %2"
 msgstr "%1 de %2 MB"
 
-#: k3bjobprogressdialog.cpp:363 k3bjobprogressdialog.cpp:374
-msgid "Success."
-msgstr "Éxitu."
-
-#: k3bjobprogressdialog.cpp:376
-msgid "Successfully finished."
-msgstr "Completada correutamente."
-
-#: k3bjobprogressdialog.cpp:385 k3bjobprogressdialog.cpp:387
-msgid "Canceled."
-msgstr "Encaboxáu."
-
-#: k3bjobprogressdialog.cpp:390 k3bjobprogressdialog.cpp:392
-msgid "Error."
-msgstr "Fallu."
-
-#: k3bjobprogressdialog.cpp:394
-msgid "Finished with errors"
-msgstr "Terminó con fallos"
-
-#: k3bjobprogressdialog.cpp:488
-msgid "Do you really want to cancel?"
-msgstr "¿De verdá quies encaboxar?"
-
-#: k3bjobprogressdialog.cpp:488
-msgid "Cancel Confirmation"
-msgstr "Confirmación del encaboxamiento"
-
-#: k3bjobprogressdialog.cpp:541
+#: k3bjobprogressdialog.cpp:362
 #, fuzzy, kde-format
 #| msgid "Elapsed time"
-msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
+msgctxt "@info %1 is a duration formatted using KLocale::formatLocaleTime"
 msgid "Elapsed time: %1"
 msgstr "Tiempu trescurríu"
 
-#: k3bjobprogressdialog.cpp:548
+#: k3bjobprogressdialog.cpp:371 k3bjobprogressdialog.cpp:379
+msgid "Success."
+msgstr "Éxitu."
+
+#: k3bjobprogressdialog.cpp:381
+msgid "Successfully finished."
+msgstr "Completada correutamente."
+
+#: k3bjobprogressdialog.cpp:390 k3bjobprogressdialog.cpp:392
+msgid "Canceled."
+msgstr "Encaboxáu."
+
+#: k3bjobprogressdialog.cpp:395 k3bjobprogressdialog.cpp:397
+msgid "Error."
+msgstr "Fallu."
+
+#: k3bjobprogressdialog.cpp:399
+msgid "Finished with errors"
+msgstr "Terminó con fallos"
+
+#: k3bjobprogressdialog.cpp:493
+msgid "Do you really want to cancel?"
+msgstr "¿De verdá quies encaboxar?"
+
+#: k3bjobprogressdialog.cpp:493
+msgid "Cancel Confirmation"
+msgstr "Confirmación del encaboxamiento"
+
+#: k3bjobprogressdialog.cpp:552
 #, fuzzy, kde-format
 #| msgid "Remaining:"
-msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
-msgid "Remaining: %1"
+msgctxt "@info %1 is a duration formatted using KLocale::formatLocaleTime"
+msgid "Remaining time: %1"
 msgstr "Restante:"
 
 #: k3bjobprogressosd.cpp:199
@@ -3041,9 +3041,9 @@ msgstr "Carpeta de destín"
 msgid "Create"
 msgstr "Criar"
 
-#: option/k3bmiscoptiontab.cpp:117 rip/k3baudioprojectconvertingjob.cpp:188
-#: rip/k3baudioprojectconvertingjob.cpp:301 rip/k3baudioripjob.cpp:312
-#: rip/k3baudioripjob.cpp:423
+#: option/k3bmiscoptiontab.cpp:117 rip/k3baudioripjob.cpp:312
+#: rip/k3baudioripjob.cpp:423 rip/k3baudioprojectconvertingjob.cpp:188
+#: rip/k3baudioprojectconvertingjob.cpp:301
 #, fuzzy, kde-format
 #| msgid "Failed to create folder '%1'."
 msgid "Unable to create folder %1"
@@ -5911,77 +5911,10 @@ msgstr "¿Quies sobrescribir estos ficheros?"
 msgid "Files Exist"
 msgstr "Los ficheros existen"
 
-#: rip/k3baudioprojectconvertingjob.cpp:126
-#: rip/k3baudioprojectconvertingjob.cpp:434
-msgid "Converting Audio Tracks"
-msgstr "Convirtiendo pistes d'audio"
-
-#: rip/k3baudioprojectconvertingjob.cpp:144
-#, fuzzy
-#| msgid "Starting digital audio extraction (ripping)."
-msgid "Starting audio conversion."
-msgstr "Entamando la estraición dixital d'audio (sacando)."
-
-#: rip/k3baudioprojectconvertingjob.cpp:173 rip/k3baudioripjob.cpp:186
+#: rip/k3baudioripjob.cpp:186 rip/k3baudioprojectconvertingjob.cpp:173
 #, kde-format
 msgid "Removed partial file '%1'."
 msgstr "Desaniciáu ficheru parcial '%1'."
-
-#: rip/k3baudioprojectconvertingjob.cpp:232
-#: rip/k3baudioprojectconvertingjob.cpp:352 rip/k3baudioripjob.cpp:356
-#: rip/k3baudioripjob.cpp:474
-#, kde-format
-msgid "Unable to open '%1' for writing."
-msgstr "Nun pudo abrir '%1' pa escribir."
-
-#: rip/k3baudioprojectconvertingjob.cpp:240
-#, kde-format
-msgid "Converting track %1 (%2 - %3)"
-msgstr "Convirtiendo pista %1 (%2 - %3)"
-
-#: rip/k3baudioprojectconvertingjob.cpp:245
-#, kde-format
-msgid "Converting track %1"
-msgstr "Convirtiendo pista %1"
-
-#: rip/k3baudioprojectconvertingjob.cpp:274 rip/k3baudioripjob.cpp:388
-#, kde-format
-msgid "Error while encoding track %1."
-msgstr "Fallu al codificar pista %1."
-
-#: rip/k3baudioprojectconvertingjob.cpp:290
-#, kde-format
-msgid "Successfully converted track %1."
-msgstr "Pista %1 convertida satisfactoriamente."
-
-#: rip/k3baudioprojectconvertingjob.cpp:305 rip/k3baudioripjob.cpp:427
-#, kde-format
-msgid "Writing playlist to %1."
-msgstr "Grabando llista de reproducción a %1."
-
-#: rip/k3baudioprojectconvertingjob.cpp:399 rip/k3baudioripjob.cpp:519
-#, kde-format
-msgid "Writing cue file to %1."
-msgstr "Grabando ficheru cue a %1."
-
-#: rip/k3baudioprojectconvertingjob.cpp:436
-#, kde-format
-msgid "Converting Audio Tracks From '%1'"
-msgstr "Convirtiendo pistes d'audio dende '%1'"
-
-#: rip/k3baudioprojectconvertingjob.cpp:443 rip/k3baudioripjob.cpp:563
-#, kde-format
-msgid "1 track (encoding to %2)"
-msgid_plural "%1 tracks (encoding to %2)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rip/k3baudioprojectconvertingjob.cpp:448 rip/k3baudioripjob.cpp:568
-#, kde-format
-msgid "1 track"
-msgid_plural "%1 tracks"
-msgstr[0] "1 pista"
-msgstr[1] "%1 pistes"
 
 #: rip/k3baudioripjob.cpp:198
 msgid "Extracting Digital Audio"
@@ -6008,6 +5941,13 @@ msgstr "Buscando índiz 0 en toles pistes"
 msgid "Starting digital audio extraction (ripping)."
 msgstr "Entamando la estraición dixital d'audio (sacando)."
 
+#: rip/k3baudioripjob.cpp:356 rip/k3baudioripjob.cpp:474
+#: rip/k3baudioprojectconvertingjob.cpp:232
+#: rip/k3baudioprojectconvertingjob.cpp:352
+#, kde-format
+msgid "Unable to open '%1' for writing."
+msgstr "Nun pudo abrir '%1' pa escribir."
+
 #: rip/k3baudioripjob.cpp:363
 #, kde-format
 msgid "Ripping track %1 (%2 - %3)"
@@ -6023,6 +5963,11 @@ msgstr "Sacando pista %1"
 msgid "Successfully ripped track %1 to %2."
 msgstr "Pista %1 sacada perbien a %2."
 
+#: rip/k3baudioripjob.cpp:388 rip/k3baudioprojectconvertingjob.cpp:274
+#, kde-format
+msgid "Error while encoding track %1."
+msgstr "Fallu al codificar pista %1."
+
 #: rip/k3baudioripjob.cpp:404
 #, kde-format
 msgid "Unrecoverable error while ripping track %1."
@@ -6032,6 +5977,16 @@ msgstr "Fallu irrecuperable al sacar la pista %1."
 msgid "Error while initializing audio ripping."
 msgstr "Fallu al entmar la estraición d'audio."
 
+#: rip/k3baudioripjob.cpp:427 rip/k3baudioprojectconvertingjob.cpp:305
+#, kde-format
+msgid "Writing playlist to %1."
+msgstr "Grabando llista de reproducción a %1."
+
+#: rip/k3baudioripjob.cpp:519 rip/k3baudioprojectconvertingjob.cpp:399
+#, kde-format
+msgid "Writing cue file to %1."
+msgstr "Grabando ficheru cue a %1."
+
 #: rip/k3baudioripjob.cpp:554
 msgid "Ripping Audio Tracks"
 msgstr "Sacando pistes d'audio"
@@ -6040,6 +5995,20 @@ msgstr "Sacando pistes d'audio"
 #, kde-format
 msgid "Ripping Audio Tracks From '%1'"
 msgstr "Sacando pistes d'audio dende '%1'"
+
+#: rip/k3baudioripjob.cpp:563 rip/k3baudioprojectconvertingjob.cpp:443
+#, kde-format
+msgid "1 track (encoding to %2)"
+msgid_plural "%1 tracks (encoding to %2)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rip/k3baudioripjob.cpp:568 rip/k3baudioprojectconvertingjob.cpp:448
+#, kde-format
+msgid "1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "1 pista"
+msgstr[1] "%1 pistes"
 
 #: rip/k3baudiorippingdialog.cpp:123
 msgid "CD Ripping"
@@ -6816,6 +6785,37 @@ msgstr "Vista preliminar"
 #: rip/videodvd/k3bvideodvdtitlemodel.cpp:315
 msgid "Subpicture"
 msgstr "Subtítulu"
+
+#: rip/k3baudioprojectconvertingjob.cpp:126
+#: rip/k3baudioprojectconvertingjob.cpp:434
+msgid "Converting Audio Tracks"
+msgstr "Convirtiendo pistes d'audio"
+
+#: rip/k3baudioprojectconvertingjob.cpp:144
+#, fuzzy
+#| msgid "Starting digital audio extraction (ripping)."
+msgid "Starting audio conversion."
+msgstr "Entamando la estraición dixital d'audio (sacando)."
+
+#: rip/k3baudioprojectconvertingjob.cpp:240
+#, kde-format
+msgid "Converting track %1 (%2 - %3)"
+msgstr "Convirtiendo pista %1 (%2 - %3)"
+
+#: rip/k3baudioprojectconvertingjob.cpp:245
+#, kde-format
+msgid "Converting track %1"
+msgstr "Convirtiendo pista %1"
+
+#: rip/k3baudioprojectconvertingjob.cpp:290
+#, kde-format
+msgid "Successfully converted track %1."
+msgstr "Pista %1 convertida satisfactoriamente."
+
+#: rip/k3baudioprojectconvertingjob.cpp:436
+#, kde-format
+msgid "Converting Audio Tracks From '%1'"
+msgstr "Convirtiendo pistes d'audio dende '%1'"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
