@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-06 10:37+0100\n"
+"POT-Creation-Date: 2010-12-21 12:48+0100\n"
 "PO-Revision-Date: 2010-10-25 14:09+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -3044,8 +3044,8 @@ msgid "Create"
 msgstr "Criar"
 
 #: option/k3bmiscoptiontab.cpp:117 rip/k3baudioprojectconvertingjob.cpp:187
-#: rip/k3baudioprojectconvertingjob.cpp:297 rip/k3baudioripjob.cpp:312
-#: rip/k3baudioripjob.cpp:423
+#: rip/k3baudioprojectconvertingjob.cpp:297 rip/k3baudioripjob.cpp:328
+#: rip/k3baudioripjob.cpp:439
 #, fuzzy, kde-format
 #| msgid "Failed to create folder '%1'."
 msgid "Unable to create folder %1"
@@ -5924,14 +5924,14 @@ msgstr "Convirtiendo pistes d'audio"
 msgid "Starting audio conversion."
 msgstr "Entamando la estraición dixital d'audio (sacando)."
 
-#: rip/k3baudioprojectconvertingjob.cpp:172 rip/k3baudioripjob.cpp:186
+#: rip/k3baudioprojectconvertingjob.cpp:172 rip/k3baudioripjob.cpp:202
 #, kde-format
 msgid "Removed partial file '%1'."
 msgstr "Desaniciáu ficheru parcial '%1'."
 
 #: rip/k3baudioprojectconvertingjob.cpp:231
-#: rip/k3baudioprojectconvertingjob.cpp:348 rip/k3baudioripjob.cpp:356
-#: rip/k3baudioripjob.cpp:474
+#: rip/k3baudioprojectconvertingjob.cpp:348 rip/k3baudioripjob.cpp:372
+#: rip/k3baudioripjob.cpp:495
 #, kde-format
 msgid "Unable to open '%1' for writing."
 msgstr "Nun pudo abrir '%1' pa escribir."
@@ -5946,7 +5946,7 @@ msgstr "Convirtiendo pista %1 (%2 - %3)"
 msgid "Converting track %1"
 msgstr "Convirtiendo pista %1"
 
-#: rip/k3baudioprojectconvertingjob.cpp:270 rip/k3baudioripjob.cpp:388
+#: rip/k3baudioprojectconvertingjob.cpp:270 rip/k3baudioripjob.cpp:404
 #, kde-format
 msgid "Error while encoding track %1."
 msgstr "Fallu al codificar pista %1."
@@ -5956,12 +5956,12 @@ msgstr "Fallu al codificar pista %1."
 msgid "Successfully converted track %1."
 msgstr "Pista %1 convertida satisfactoriamente."
 
-#: rip/k3baudioprojectconvertingjob.cpp:301 rip/k3baudioripjob.cpp:427
+#: rip/k3baudioprojectconvertingjob.cpp:301 rip/k3baudioripjob.cpp:443
 #, kde-format
 msgid "Writing playlist to %1."
 msgstr "Grabando llista de reproducción a %1."
 
-#: rip/k3baudioprojectconvertingjob.cpp:395 rip/k3baudioripjob.cpp:519
+#: rip/k3baudioprojectconvertingjob.cpp:395 rip/k3baudioripjob.cpp:540
 #, kde-format
 msgid "Writing cue file to %1."
 msgstr "Grabando ficheru cue a %1."
@@ -5971,77 +5971,19 @@ msgstr "Grabando ficheru cue a %1."
 msgid "Converting Audio Tracks From '%1'"
 msgstr "Convirtiendo pistes d'audio dende '%1'"
 
-#: rip/k3baudioprojectconvertingjob.cpp:439 rip/k3baudioripjob.cpp:563
+#: rip/k3baudioprojectconvertingjob.cpp:439 rip/k3baudioripjob.cpp:584
 #, kde-format
 msgid "1 track (encoding to %2)"
 msgid_plural "%1 tracks (encoding to %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: rip/k3baudioprojectconvertingjob.cpp:444 rip/k3baudioripjob.cpp:568
+#: rip/k3baudioprojectconvertingjob.cpp:444 rip/k3baudioripjob.cpp:589
 #, kde-format
 msgid "1 track"
 msgid_plural "%1 tracks"
 msgstr[0] "1 pista"
 msgstr[1] "%1 pistes"
-
-#: rip/k3baudioripjob.cpp:198
-msgid "Extracting Digital Audio"
-msgstr "Sacando audio dixital"
-
-#: rip/k3baudioripjob.cpp:205
-msgid "Could not load libcdparanoia."
-msgstr "Nun pudo cargar libcdparanoia."
-
-#: rip/k3baudioripjob.cpp:216
-msgid "Reading CD table of contents."
-msgstr "Lleendo la tabla de conteníos del CD."
-
-#: rip/k3baudioripjob.cpp:220
-#, kde-format
-msgid "Could not open device %1"
-msgstr "Nun pudo abrir el preséu %1"
-
-#: rip/k3baudioripjob.cpp:238 rip/k3baudioripjob.cpp:280
-msgid "Searching index 0 for all tracks"
-msgstr "Buscando índiz 0 en toles pistes"
-
-#: rip/k3baudioripjob.cpp:255
-msgid "Starting digital audio extraction (ripping)."
-msgstr "Entamando la estraición dixital d'audio (sacando)."
-
-#: rip/k3baudioripjob.cpp:363
-#, kde-format
-msgid "Ripping track %1 (%2 - %3)"
-msgstr "Sacando pista %1 (%2 - %3)"
-
-#: rip/k3baudioripjob.cpp:368
-#, kde-format
-msgid "Ripping track %1"
-msgstr "Sacando pista %1"
-
-#: rip/k3baudioripjob.cpp:379
-#, kde-format
-msgid "Successfully ripped track %1 to %2."
-msgstr "Pista %1 sacada perbien a %2."
-
-#: rip/k3baudioripjob.cpp:404
-#, kde-format
-msgid "Unrecoverable error while ripping track %1."
-msgstr "Fallu irrecuperable al sacar la pista %1."
-
-#: rip/k3baudioripjob.cpp:411
-msgid "Error while initializing audio ripping."
-msgstr "Fallu al entmar la estraición d'audio."
-
-#: rip/k3baudioripjob.cpp:554
-msgid "Ripping Audio Tracks"
-msgstr "Sacando pistes d'audio"
-
-#: rip/k3baudioripjob.cpp:556
-#, kde-format
-msgid "Ripping Audio Tracks From '%1'"
-msgstr "Sacando pistes d'audio dende '%1'"
 
 #: rip/k3baudiorippingdialog.cpp:123
 msgid "CD Ripping"
@@ -6804,6 +6746,64 @@ msgstr "Vista preliminar"
 #: rip/videodvd/k3bvideodvdtitlemodel.cpp:315
 msgid "Subpicture"
 msgstr "Subtítulu"
+
+#: rip/k3baudioripjob.cpp:214
+msgid "Extracting Digital Audio"
+msgstr "Sacando audio dixital"
+
+#: rip/k3baudioripjob.cpp:221
+msgid "Could not load libcdparanoia."
+msgstr "Nun pudo cargar libcdparanoia."
+
+#: rip/k3baudioripjob.cpp:232
+msgid "Reading CD table of contents."
+msgstr "Lleendo la tabla de conteníos del CD."
+
+#: rip/k3baudioripjob.cpp:236
+#, kde-format
+msgid "Could not open device %1"
+msgstr "Nun pudo abrir el preséu %1"
+
+#: rip/k3baudioripjob.cpp:254 rip/k3baudioripjob.cpp:296
+msgid "Searching index 0 for all tracks"
+msgstr "Buscando índiz 0 en toles pistes"
+
+#: rip/k3baudioripjob.cpp:271
+msgid "Starting digital audio extraction (ripping)."
+msgstr "Entamando la estraición dixital d'audio (sacando)."
+
+#: rip/k3baudioripjob.cpp:379
+#, kde-format
+msgid "Ripping track %1 (%2 - %3)"
+msgstr "Sacando pista %1 (%2 - %3)"
+
+#: rip/k3baudioripjob.cpp:384
+#, kde-format
+msgid "Ripping track %1"
+msgstr "Sacando pista %1"
+
+#: rip/k3baudioripjob.cpp:395
+#, kde-format
+msgid "Successfully ripped track %1 to %2."
+msgstr "Pista %1 sacada perbien a %2."
+
+#: rip/k3baudioripjob.cpp:420
+#, kde-format
+msgid "Unrecoverable error while ripping track %1."
+msgstr "Fallu irrecuperable al sacar la pista %1."
+
+#: rip/k3baudioripjob.cpp:427
+msgid "Error while initializing audio ripping."
+msgstr "Fallu al entmar la estraición d'audio."
+
+#: rip/k3baudioripjob.cpp:575
+msgid "Ripping Audio Tracks"
+msgstr "Sacando pistes d'audio"
+
+#: rip/k3baudioripjob.cpp:577
+#, kde-format
+msgid "Ripping Audio Tracks From '%1'"
+msgstr "Sacando pistes d'audio dende '%1'"
 
 #. i18n: file: k3bdeviceui.rc:4
 #. i18n: ectx: Menu (device)
