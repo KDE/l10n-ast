@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-20 02:18+0100\n"
+"POT-Creation-Date: 2010-12-26 02:58+0100\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -19,26 +19,33 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Language: asturian\n"
 
-#: app/documentpanel.cpp:291 app/thumbnailviewpanel.cpp:108
-#: app/mainwindow.cpp:314 lib/documentview/documentview.cpp:147
+#: app/kipiexportaction.cpp:50
+msgid "Last Used Plugin"
+msgstr ""
+
+#: app/kipiexportaction.cpp:52
+#, fuzzy
+#| msgid "&Plugins"
+msgid "Other Plugins"
+msgstr "Co&mplementos"
+
+#: app/kipiexportaction.cpp:62
+#, fuzzy
+#| msgid "No Plugin"
+msgid "No Plugin Found"
+msgstr "Ensin complementu"
+
+#: app/kipiexportaction.cpp:75
+#, fuzzy
+#| msgid "Square"
+msgid "Share"
+msgstr "Cuadráu"
+
+#: app/thumbnailviewpanel.cpp:108 app/mainwindow.cpp:314
+#: app/documentpanel.cpp:291 lib/documentview/documentview.cpp:147
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr "Ver"
-
-#: app/documentpanel.cpp:294
-msgid "Thumbnail Bar"
-msgstr "Barra de miniatures"
-
-#: app/documentpanel.cpp:482
-msgctxt "@action:button"
-msgid "Discard Changes and Reload"
-msgstr "Descartar cambeos y volver a cargar"
-
-#: app/documentpanel.cpp:484
-msgctxt "@info"
-msgid ""
-"This image has been modified. Reloading it will discard all your changes."
-msgstr "Esta imaxe modificóse. Si vuelves a cargala perderánse los cambeos."
 
 #: app/thumbnailviewpanel.cpp:110
 msgctxt "@action:inmenu Navigation Bar"
@@ -162,9 +169,21 @@ msgstr "Coleiciones"
 msgid "No Plugin"
 msgstr "Ensin complementu"
 
-#: app/imagemetainfodialog.cpp:120
-msgid "Meta Information"
-msgstr "Metainformación"
+#: app/startpage.cpp:278
+msgid "Add to Places"
+msgstr "Amestar a Llugares"
+
+#: app/startpage.cpp:279
+msgid "Forget this URL"
+msgstr "Escaecer esti URL"
+
+#: app/startpage.cpp:279
+msgid "Forget this Folder"
+msgstr "Escaecer esta carpeta"
+
+#: app/startpage.cpp:281
+msgid "Forget All"
+msgstr "Escaecer too"
 
 #: app/fileopscontextmanageritem.cpp:82
 msgctxt "@action:inmenu"
@@ -249,98 +268,6 @@ msgstr "Abrir Con"
 msgid "Other Application..."
 msgstr "Otra aplicación..."
 
-#: app/gvcore.cpp:83
-msgctxt "@info"
-msgid "No image format selected."
-msgstr "Nun s'esbilló dengún formatu d'imaxe."
-
-#: app/gvcore.cpp:96
-#, kde-format
-msgctxt "@info"
-msgid "Gwenview cannot save images as %1."
-msgstr "Gwenview nun puede atroxar imáxenes como %1."
-
-#: app/gvcore.cpp:181
-msgid "Save using another format"
-msgstr "Guardar usando otru formatu"
-
-#: app/gvcore.cpp:184
-#, kde-format
-msgid "Gwenview cannot save images in '%1' format."
-msgstr "Gwenview nun puede guardar imáxenes en formatu «%1»."
-
-#: app/gvcore.cpp:207
-#, kde-format
-msgctxt "@info"
-msgid ""
-"A file named <filename>%1</filename> already exists.\n"
-"Are you sure you want to overwrite it?"
-msgstr ""
-"Yá esiste un ficheru denomáu <filename>%1</filename>.\n"
-"¿Daveres que quier sobroscribilu?"
-
-#: app/gvcore.cpp:238
-#, kde-format
-msgctxt "@info"
-msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
-msgstr "<b>Fallu al guardar <filename>%1</filename>:</b><br>%2"
-
-#: app/gvcore.cpp:256
-msgid "You are now viewing the new document."
-msgstr "Agora tas viendo'l nuevu documentu"
-
-#: app/gvcore.cpp:258
-msgid "Go back to the original"
-msgstr "Volver al orixinal"
-
-#: app/gvcore.cpp:303 lib/document/documentjob.cpp:78
-msgctxt "@info"
-msgid "Gwenview cannot edit this kind of image."
-msgstr "Gwenview nun puede editar esta triba d'imaxe."
-
-#: app/imageopscontextmanageritem.cpp:78
-msgctxt "@title actions category - means actions changing image"
-msgid "Edit"
-msgstr "Editar"
-
-#: app/imageopscontextmanageritem.cpp:80 lib/transformimageoperation.cpp:69
-msgid "Rotate Left"
-msgstr "Voltiar a la esquierda"
-
-#: app/imageopscontextmanageritem.cpp:85 lib/transformimageoperation.cpp:66
-msgid "Rotate Right"
-msgstr "Voltiar a la drecha"
-
-#: app/imageopscontextmanageritem.cpp:90 lib/transformimageoperation.cpp:72
-msgid "Mirror"
-msgstr "Espeyu"
-
-#: app/imageopscontextmanageritem.cpp:94 lib/transformimageoperation.cpp:75
-msgid "Flip"
-msgstr "Reflexar"
-
-#: app/imageopscontextmanageritem.cpp:98 lib/resize/resizeimagedialog.cpp:50
-#: lib/resize/resizeimageoperation.cpp:69
-msgid "Resize"
-msgstr "Redimensionar"
-
-#. i18n: file: lib/crop/cropwidget.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, CropWidget)
-#. i18n: file: lib/crop/cropwidget.ui:32
-#. i18n: ectx: property (text), widget (QToolButton, cropButton)
-#: app/imageopscontextmanageritem.cpp:103 lib/crop/cropimageoperation.cpp:73
-#: rc.cpp:175 rc.cpp:181
-msgid "Crop"
-msgstr "Recortar"
-
-#: app/imageopscontextmanageritem.cpp:108
-msgid "Red Eye Reduction"
-msgstr "Reducción de güeyos bermeyos"
-
-#: app/imageopscontextmanageritem.cpp:135
-msgid "Image Operations"
-msgstr "Operaciones d'imáxenes"
-
 #: app/fileoperations.cpp:72
 msgid "Copy To"
 msgstr "Copiar a"
@@ -400,50 +327,6 @@ msgstr "Renomar"
 #, kde-format
 msgid "Rename <filename>%1</filename> to:"
 msgstr "Renomar <filename>%1</filename> a:"
-
-#: app/main.cpp:111
-msgid "Gwenview"
-msgstr "Gwenview"
-
-#: app/main.cpp:113 part/gvpart.cpp:122
-msgid "An Image Viewer"
-msgstr "Un visor d'imáxenes"
-
-#: app/main.cpp:115 part/gvpart.cpp:124
-msgid "Copyright 2000-2010 Aurélien Gâteau"
-msgstr "Copyright 2000-2010 Aurélien Gâteau"
-
-#: app/main.cpp:117 importer/main.cpp:45 part/gvpart.cpp:126
-msgid "Aurélien Gâteau"
-msgstr "Aurélien Gâteau"
-
-#: app/main.cpp:118 importer/main.cpp:46 part/gvpart.cpp:127
-msgid "Main developer"
-msgstr "Desendolcador principal"
-
-#: app/main.cpp:124
-msgid "Start in fullscreen mode"
-msgstr "Aniciar en mou de pantalla completa"
-
-#: app/main.cpp:125
-msgid "Start in slideshow mode"
-msgstr "Aniciar en mou de presentación"
-
-#: app/main.cpp:126
-msgid "A starting file or folder"
-msgstr "Un ficheru o carpeta d'aniciu"
-
-#: app/configdialog.cpp:69
-msgid "General"
-msgstr "Xeneral"
-
-#: app/configdialog.cpp:90
-msgid "Image View"
-msgstr "Vista d'imaxe"
-
-#: app/configdialog.cpp:95
-msgid "Advanced"
-msgstr "Avanzáu"
 
 #: app/filtercontroller.cpp:124
 msgid "Name contains"
@@ -505,22 +388,6 @@ msgctxt "@action:inmenu"
 msgid "Filter by Tag"
 msgstr "Filtrar por etiqueta"
 
-#: app/startpage.cpp:278
-msgid "Add to Places"
-msgstr "Amestar a Llugares"
-
-#: app/startpage.cpp:279
-msgid "Forget this URL"
-msgstr "Escaecer esti URL"
-
-#: app/startpage.cpp:279
-msgid "Forget this Folder"
-msgstr "Escaecer esta carpeta"
-
-#: app/startpage.cpp:281
-msgid "Forget All"
-msgstr "Escaecer too"
-
 #: app/fullscreencontent.cpp:108
 msgctxt "@info:tooltip"
 msgid "Configure Full Screen Mode"
@@ -538,28 +405,6 @@ msgid "%1 sec"
 msgid_plural "%1 secs"
 msgstr[0] "%1 seg"
 msgstr[1] "%1 segs"
-
-#: app/semanticinfocontextmanageritem.cpp:137
-msgid "Semantic Information"
-msgstr "Información semántica"
-
-#: app/semanticinfocontextmanageritem.cpp:154
-msgid "Description"
-msgstr "Descripción"
-
-#: app/semanticinfocontextmanageritem.cpp:168
-msgctxt "@action"
-msgid "Edit Tags"
-msgstr "Editar etiquetes"
-
-#: app/semanticinfocontextmanageritem.cpp:178
-msgctxt "@action Rating value of zero"
-msgid "Zero"
-msgstr "Cero"
-
-#: app/semanticinfocontextmanageritem.cpp:214
-msgid "Edit"
-msgstr "Editar"
 
 #: app/infocontextmanageritem.cpp:85
 #, kde-format
@@ -613,14 +458,6 @@ msgstr[1] "%1 ficheros"
 msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
 msgid "%1 and %2 selected"
 msgstr "%1 y %2 esbillaos"
-
-#: app/kipiimagecollectionselector.cpp:54
-#, kde-format
-msgctxt "%1 is collection name, %2 is image count in collection"
-msgid "%1 (%2 image)"
-msgid_plural "%1 (%2 images)"
-msgstr[0] "%1 (%2 imaxe)"
-msgstr[1] "%1 (%2 imáxenes)"
 
 #: app/mainwindow.cpp:323
 msgctxt "@action reload the currently viewed image"
@@ -745,6 +582,14 @@ msgstr[1] "Modificáronse %1 imáxenes."
 msgid "If you quit now, your changes will be lost."
 msgstr "Si cueles agora, perderánse los tos cambeos."
 
+#: app/kipiimagecollectionselector.cpp:54
+#, kde-format
+msgctxt "%1 is collection name, %2 is image count in collection"
+msgid "%1 (%2 image)"
+msgid_plural "%1 (%2 images)"
+msgstr[0] "%1 (%2 imaxe)"
+msgstr[1] "%1 (%2 imáxenes)"
+
 #: app/savebar.cpp:85
 msgid ""
 "You have modified many images. To avoid memory problems, you should save "
@@ -784,6 +629,74 @@ msgstr "Dir a ella"
 msgid "Save All"
 msgstr "Grabar too"
 
+#: app/imagemetainfodialog.cpp:120
+msgid "Meta Information"
+msgstr "Metainformación"
+
+#: app/documentpanel.cpp:294
+msgid "Thumbnail Bar"
+msgstr "Barra de miniatures"
+
+#: app/documentpanel.cpp:482
+msgctxt "@action:button"
+msgid "Discard Changes and Reload"
+msgstr "Descartar cambeos y volver a cargar"
+
+#: app/documentpanel.cpp:484
+msgctxt "@info"
+msgid ""
+"This image has been modified. Reloading it will discard all your changes."
+msgstr "Esta imaxe modificóse. Si vuelves a cargala perderánse los cambeos."
+
+#: app/gvcore.cpp:83
+msgctxt "@info"
+msgid "No image format selected."
+msgstr "Nun s'esbilló dengún formatu d'imaxe."
+
+#: app/gvcore.cpp:96
+#, kde-format
+msgctxt "@info"
+msgid "Gwenview cannot save images as %1."
+msgstr "Gwenview nun puede atroxar imáxenes como %1."
+
+#: app/gvcore.cpp:181
+msgid "Save using another format"
+msgstr "Guardar usando otru formatu"
+
+#: app/gvcore.cpp:184
+#, kde-format
+msgid "Gwenview cannot save images in '%1' format."
+msgstr "Gwenview nun puede guardar imáxenes en formatu «%1»."
+
+#: app/gvcore.cpp:207
+#, kde-format
+msgctxt "@info"
+msgid ""
+"A file named <filename>%1</filename> already exists.\n"
+"Are you sure you want to overwrite it?"
+msgstr ""
+"Yá esiste un ficheru denomáu <filename>%1</filename>.\n"
+"¿Daveres que quier sobroscribilu?"
+
+#: app/gvcore.cpp:238
+#, kde-format
+msgctxt "@info"
+msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
+msgstr "<b>Fallu al guardar <filename>%1</filename>:</b><br>%2"
+
+#: app/gvcore.cpp:256
+msgid "You are now viewing the new document."
+msgstr "Agora tas viendo'l nuevu documentu"
+
+#: app/gvcore.cpp:258
+msgid "Go back to the original"
+msgstr "Volver al orixinal"
+
+#: app/gvcore.cpp:303 lib/document/documentjob.cpp:78
+msgctxt "@info"
+msgid "Gwenview cannot edit this kind of image."
+msgstr "Gwenview nun puede editar esta triba d'imaxe."
+
 #: app/saveallhelper.cpp:57
 msgctxt "@info:progress saving all image changes"
 msgid "Saving..."
@@ -809,27 +722,114 @@ msgctxt ""
 msgid "<filename>%1</filename>: %2"
 msgstr "<filename>%1</filename>: %2"
 
-#: app/kipiexportaction.cpp:50
-msgid "Last Used Plugin"
-msgstr ""
+#: app/imageopscontextmanageritem.cpp:78
+msgctxt "@title actions category - means actions changing image"
+msgid "Edit"
+msgstr "Editar"
 
-#: app/kipiexportaction.cpp:52
-#, fuzzy
-#| msgid "&Plugins"
-msgid "Other Plugins"
-msgstr "Co&mplementos"
+#: app/imageopscontextmanageritem.cpp:80 lib/transformimageoperation.cpp:69
+msgid "Rotate Left"
+msgstr "Voltiar a la esquierda"
 
-#: app/kipiexportaction.cpp:62
-#, fuzzy
-#| msgid "No Plugin"
-msgid "No Plugin Found"
-msgstr "Ensin complementu"
+#: app/imageopscontextmanageritem.cpp:85 lib/transformimageoperation.cpp:66
+msgid "Rotate Right"
+msgstr "Voltiar a la drecha"
 
-#: app/kipiexportaction.cpp:75
-#, fuzzy
-#| msgid "Square"
-msgid "Share"
-msgstr "Cuadráu"
+#: app/imageopscontextmanageritem.cpp:90 lib/transformimageoperation.cpp:72
+msgid "Mirror"
+msgstr "Espeyu"
+
+#: app/imageopscontextmanageritem.cpp:94 lib/transformimageoperation.cpp:75
+msgid "Flip"
+msgstr "Reflexar"
+
+#: app/imageopscontextmanageritem.cpp:98 lib/resize/resizeimagedialog.cpp:50
+#: lib/resize/resizeimageoperation.cpp:69
+msgid "Resize"
+msgstr "Redimensionar"
+
+#. i18n: file: lib/crop/cropwidget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, CropWidget)
+#. i18n: file: lib/crop/cropwidget.ui:32
+#. i18n: ectx: property (text), widget (QToolButton, cropButton)
+#: app/imageopscontextmanageritem.cpp:103 lib/crop/cropimageoperation.cpp:73
+#: rc.cpp:175 rc.cpp:181
+msgid "Crop"
+msgstr "Recortar"
+
+#: app/imageopscontextmanageritem.cpp:108
+msgid "Red Eye Reduction"
+msgstr "Reducción de güeyos bermeyos"
+
+#: app/imageopscontextmanageritem.cpp:135
+msgid "Image Operations"
+msgstr "Operaciones d'imáxenes"
+
+#: app/main.cpp:111
+msgid "Gwenview"
+msgstr "Gwenview"
+
+#: app/main.cpp:113 part/gvpart.cpp:122
+msgid "An Image Viewer"
+msgstr "Un visor d'imáxenes"
+
+#: app/main.cpp:115 part/gvpart.cpp:124
+msgid "Copyright 2000-2010 Aurélien Gâteau"
+msgstr "Copyright 2000-2010 Aurélien Gâteau"
+
+#: app/main.cpp:117 importer/main.cpp:45 part/gvpart.cpp:126
+msgid "Aurélien Gâteau"
+msgstr "Aurélien Gâteau"
+
+#: app/main.cpp:118 importer/main.cpp:46 part/gvpart.cpp:127
+msgid "Main developer"
+msgstr "Desendolcador principal"
+
+#: app/main.cpp:124
+msgid "Start in fullscreen mode"
+msgstr "Aniciar en mou de pantalla completa"
+
+#: app/main.cpp:125
+msgid "Start in slideshow mode"
+msgstr "Aniciar en mou de presentación"
+
+#: app/main.cpp:126
+msgid "A starting file or folder"
+msgstr "Un ficheru o carpeta d'aniciu"
+
+#: app/configdialog.cpp:69
+msgid "General"
+msgstr "Xeneral"
+
+#: app/configdialog.cpp:90
+msgid "Image View"
+msgstr "Vista d'imaxe"
+
+#: app/configdialog.cpp:95
+msgid "Advanced"
+msgstr "Avanzáu"
+
+#: app/semanticinfocontextmanageritem.cpp:137
+msgid "Semantic Information"
+msgstr "Información semántica"
+
+#: app/semanticinfocontextmanageritem.cpp:154
+msgid "Description"
+msgstr "Descripción"
+
+#: app/semanticinfocontextmanageritem.cpp:168
+msgctxt "@action"
+msgid "Edit Tags"
+msgstr "Editar etiquetes"
+
+#: app/semanticinfocontextmanageritem.cpp:178
+msgctxt "@action Rating value of zero"
+msgid "Zero"
+msgstr "Cero"
+
+#: app/semanticinfocontextmanageritem.cpp:214
+msgid "Edit"
+msgstr "Editar"
 
 #: importer/importer.cpp:76
 msgid "Could not create destination folder."
@@ -1069,6 +1069,11 @@ msgctxt "@info"
 msgid "Loading image failed."
 msgstr "Falló la carga d'una imaxe."
 
+#: lib/document/loadingjob.cpp:56
+#, kde-format
+msgid "Could not load document %1"
+msgstr "Nun puede unviase'l ficheru %1"
+
 #: lib/document/savejob.cpp:104
 #, kde-format
 msgctxt "@info"
@@ -1088,11 +1093,6 @@ msgid ""
 msgstr ""
 "Nun puede sobroscribise'l ficheru. Compruebe que tien los permisos "
 "necesarios sobro <filename>%1</filename>."
-
-#: lib/document/loadingjob.cpp:56
-#, kde-format
-msgid "Could not load document %1"
-msgstr "Nun puede unviase'l ficheru %1"
 
 #: lib/print/printhelper.cpp:129
 msgid "Print Image"
@@ -1155,6 +1155,10 @@ msgctxt "@title:column"
 msgid "Value"
 msgstr "Valor"
 
+#: lib/transformimageoperation.cpp:80
+msgid "Transform"
+msgstr "Tresformar"
+
 #: lib/jpegcontent.cpp:561
 msgctxt "@info"
 msgid "Could not open file for writing."
@@ -1164,10 +1168,6 @@ msgstr "Nun pudo abrise'l ficheru pa escritura"
 msgctxt "@info"
 msgid "No data to store."
 msgstr "Nun hai datos pa guardar."
-
-#: lib/transformimageoperation.cpp:80
-msgid "Transform"
-msgstr "Tresformar"
 
 #: lib/statusbartoolbutton.cpp:118 lib/fullscreenbar.cpp:254
 #, kde-format
@@ -1199,120 +1199,40 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "malditoastur@gmail.com"
 
-#. i18n: file: app/semanticinfosidebaritem.ui:22
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:5
-msgid "Rating:"
-msgstr "Puntuación:"
-
-#. i18n: file: app/semanticinfosidebaritem.ui:42
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:8
-msgid "Tags:"
-msgstr "Etiquetes:"
-
-#. i18n: file: app/gwenviewui.rc:56
-#. i18n: ectx: Menu (rating)
-#: rc.cpp:11
-msgid "&Rating"
-msgstr "&Puntuación"
-
-#. i18n: file: app/gwenviewui.rc:85
-#. i18n: ectx: Menu (plugins)
-#: rc.cpp:14
-msgid "&Plugins"
-msgstr "Co&mplementos"
-
-#. i18n: file: app/gwenviewui.rc:88
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:17
-msgid "&Settings"
-msgstr "Axu&stes"
-
-#. i18n: file: app/gwenviewui.rc:101
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: part/gvpart.rc:15
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:20 rc.cpp:286
-msgid "Main Toolbar"
-msgstr "Barra de ferramientes Principal"
-
-#. i18n: file: app/generalconfigpage.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:23
-msgid "Background color:"
-msgstr "Color de fondu:"
-
-#. i18n: file: app/generalconfigpage.ui:51
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:26
-msgid "Videos:"
-msgstr "Videos:"
-
-#. i18n: file: app/generalconfigpage.ui:58
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ListVideos)
-#: rc.cpp:29
-msgid "Show videos"
-msgstr "Amosar videos"
-
-#. i18n: file: app/thumbnailviewpanel.ui:64
-#. i18n: ectx: property (text), widget (Gwenview::StatusBarToolButton, mAddFilterButton)
-#: rc.cpp:32
-msgid "Add Filter"
-msgstr "Amestar filtru"
-
-#. i18n: file: app/semanticinfodialog.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, SemanticInfoDialog)
-#: rc.cpp:35
-msgid "Tag Editor"
-msgstr "Editor d'etiquetes"
-
-#. i18n: file: app/semanticinfodialog.ui:31
-#. i18n: ectx: property (text), widget (QPushButton, mPreviousButton)
-#: rc.cpp:38
-msgid "Previous"
-msgstr "Atrás"
-
-#. i18n: file: app/semanticinfodialog.ui:38
-#. i18n: ectx: property (text), widget (QPushButton, mNextButton)
-#: rc.cpp:41
-msgid "Next"
-msgstr "Alantre"
-
 #. i18n: file: app/imageviewconfigpage.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:44
+#: rc.cpp:5
 msgid "Transparent background:"
 msgstr "Fondu tresparente:"
 
 #. i18n: file: app/imageviewconfigpage.ui:35
 #. i18n: ectx: property (text), widget (QRadioButton, checkBoardRadioButton)
-#: rc.cpp:47
+#: rc.cpp:8
 msgid "&Check board"
 msgstr "&Tableru d'axedrez"
 
 #. i18n: file: app/imageviewconfigpage.ui:68
 #. i18n: ectx: property (text), widget (QRadioButton, solidColorRadioButton)
-#: rc.cpp:50
+#: rc.cpp:11
 msgid "&Solid color:"
 msgstr "Color &sólidu:"
 
 #. i18n: file: app/imageviewconfigpage.ui:116
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:53
+#: rc.cpp:14
 msgid "Mouse wheel behavior:"
 msgstr "Comportamientu de la rueda del mur:"
 
 #. i18n: file: app/imageviewconfigpage.ui:128
 #. i18n: ectx: property (text), widget (QRadioButton, mouseWheelScrollRadioButton)
-#: rc.cpp:56
+#: rc.cpp:17
 msgctxt "@option:radio action on mouse wheel"
 msgid "Scroll"
 msgstr "Desplazamientu"
 
 #. i18n: file: app/imageviewconfigpage.ui:155
 #. i18n: ectx: property (text), widget (QRadioButton, mouseWheelBrowseRadioButton)
-#: rc.cpp:59
+#: rc.cpp:20
 msgctxt "@option:radio action on mouse wheel"
 msgid "Browse"
 msgstr "Restolar"
@@ -1321,121 +1241,121 @@ msgstr "Restolar"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnlargeSmallerImages)
 #. i18n: file: lib/print/printoptionspage.ui:98
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintEnlargeSmallerImages)
-#: rc.cpp:62 rc.cpp:214
+#: rc.cpp:23 rc.cpp:214
 msgid "Enlarge smaller images"
 msgstr "Agrandar les imáxenes más pequeñes"
 
 #. i18n: file: app/imageviewconfigpage.ui:233
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:65
+#: rc.cpp:26
 msgid "<b>Thumbnail Bar</b>"
 msgstr "<b>Barra de miniatures</b>"
 
 #. i18n: file: app/imageviewconfigpage.ui:240
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:68
+#: rc.cpp:29
 msgid "Orientation:"
 msgstr "Orientación:"
 
 #. i18n: file: app/imageviewconfigpage.ui:252
 #. i18n: ectx: property (text), widget (QRadioButton, horizontalRadioButton)
-#: rc.cpp:71
+#: rc.cpp:32
 msgid "Horizontal"
 msgstr "Horizontal"
 
 #. i18n: file: app/imageviewconfigpage.ui:276
 #. i18n: ectx: property (text), widget (QRadioButton, verticalRadioButton)
-#: rc.cpp:74
+#: rc.cpp:35
 msgid "Vertical"
 msgstr "Vertical"
 
 #. i18n: file: app/imageviewconfigpage.ui:298
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:77
+#: rc.cpp:38
 msgid "Row count:"
 msgstr "Cuntador de fileres:"
 
-#. i18n: file: app/fullscreenconfigdialog.ui:16
-#. i18n: ectx: property (text), widget (QLabel, mSlideShowTitle)
-#: rc.cpp:80
-msgid "Slideshow"
-msgstr "Amosar Diapositives"
+#. i18n: file: app/gwenviewui.rc:56
+#. i18n: ectx: Menu (rating)
+#: rc.cpp:41
+msgid "&Rating"
+msgstr "&Puntuación"
 
-#. i18n: file: app/fullscreenconfigdialog.ui:26
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:83
-msgid "Interval:"
-msgstr "Intervalu:"
+#. i18n: file: app/gwenviewui.rc:85
+#. i18n: ectx: Menu (plugins)
+#: rc.cpp:44
+msgid "&Plugins"
+msgstr "Co&mplementos"
 
-#. i18n: file: app/fullscreenconfigdialog.ui:72
-#. i18n: ectx: property (text), widget (QCheckBox, mSlideShowLoopCheckBox)
-#: rc.cpp:86
-msgid "Loop"
-msgstr "Bucle"
+#. i18n: file: app/gwenviewui.rc:88
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:47
+msgid "&Settings"
+msgstr "Axu&stes"
 
-#. i18n: file: app/fullscreenconfigdialog.ui:79
-#. i18n: ectx: property (text), widget (QCheckBox, mSlideShowRandomCheckBox)
-#: rc.cpp:89
-msgid "Random"
-msgstr "Al debalu"
+#. i18n: file: app/gwenviewui.rc:101
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: part/gvpart.rc:15
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:50 rc.cpp:286
+msgid "Main Toolbar"
+msgstr "Barra de ferramientes Principal"
 
-#. i18n: file: app/fullscreenconfigdialog.ui:86
-#. i18n: ectx: property (text), widget (QLabel, mMetaDataTitle)
-#: rc.cpp:92
-msgid "Metadata"
-msgstr "Metadatos"
+#. i18n: file: app/startpage.ui:34
+#. i18n: ectx: property (text), widget (QLabel, mHistoryDisabledLabel)
+#: rc.cpp:53
+msgid "History has been disabled."
+msgstr "L'hestorial deshabilitóse."
 
-#. i18n: file: app/fullscreenconfigdialog.ui:98
-#. i18n: ectx: property (text), widget (QPushButton, mConfigureDisplayedInformationButton)
-#: rc.cpp:95
-msgid "Configure Displayed Metadata..."
-msgstr "Configurar los metadatos amosaos..."
+#. i18n: file: app/startpage.ui:51
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:56
+msgid "Recent Folders"
+msgstr "Carpetes recientes"
 
-#. i18n: file: app/fullscreenconfigdialog.ui:120
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:98
-msgid "Appearance"
-msgstr "Aspeutu"
+#. i18n: file: app/startpage.ui:65
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:59
+msgid "Recent URLs"
+msgstr "URL recientes"
 
-#. i18n: file: app/fullscreenconfigdialog.ui:130
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:101
-msgid "Theme:"
-msgstr "Tema:"
+#. i18n: file: app/startpage.ui:109
+#. i18n: ectx: attribute (title), widget (QWidget, placesTab)
+#: rc.cpp:62
+msgid "Places"
+msgstr "Llugares"
 
-#. i18n: file: app/fullscreenconfigdialog.ui:143
-#. i18n: ectx: property (text), widget (QCheckBox, mShowThumbnailsCheckBox)
-#: rc.cpp:104
-msgid "Show thumbnails"
-msgstr "Amosar miniatures"
+#. i18n: file: app/startpage.ui:132
+#. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
+#: rc.cpp:65
+msgid "Tags"
+msgstr "Etiquetes"
 
-#. i18n: file: app/fullscreenconfigdialog.ui:155
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:107
-msgid "Height:"
-msgstr "Altor:"
-
-#. i18n: file: app/fullscreenconfigdialog.ui:223
-#. i18n: ectx: property (text), widget (QPushButton, mCloseButton)
-#: rc.cpp:110
-msgid "Close"
-msgstr "Zarrar"
+#. i18n: file: app/startpage.ui:138
+#. i18n: ectx: property (text), widget (QLabel, mTagLabel)
+#: rc.cpp:68
+msgid ""
+"Browsing by tags is not available. Make sure Nepomuk is properly installed "
+"on your computer."
+msgstr ""
+"La navegación por etiquetes nun ta disponible. Asegúrese de que Nepomuk ta "
+"bien instaláu nel so equipu."
 
 #. i18n: file: app/advancedconfigpage.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:113
+#: rc.cpp:71
 msgid "Cache:"
 msgstr "Caché:"
 
 #. i18n: file: app/advancedconfigpage.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DeleteThumbnailCacheOnExit)
-#: rc.cpp:116
+#: rc.cpp:74
 msgid "Delete thumbnail cache folder on exit"
 msgstr "Desaniciar la carpeta de la caché de miniatures al colar"
 
 #. i18n: file: app/advancedconfigpage.ui:52
 #. i18n: ectx: property (text), widget (QLabel, cacheHelpLabel)
-#: rc.cpp:119
+#: rc.cpp:77
 msgid ""
 "Enable this option if you do not have a lot of disk space.\n"
 "Be careful: this will delete the folder named <filename>.thumbnails</"
@@ -1449,55 +1369,135 @@ msgstr ""
 
 #. i18n: file: app/advancedconfigpage.ui:78
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:123
+#: rc.cpp:81
 msgid "History:"
 msgstr "Hestorial:"
 
 #. i18n: file: app/advancedconfigpage.ui:90
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HistoryEnabled)
-#: rc.cpp:126
+#: rc.cpp:84
 msgid "Remember folders and URLs"
 msgstr "Remembrar carpetes y URL"
 
-#. i18n: file: app/startpage.ui:34
-#. i18n: ectx: property (text), widget (QLabel, mHistoryDisabledLabel)
+#. i18n: file: app/semanticinfosidebaritem.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:87
+msgid "Rating:"
+msgstr "Puntuación:"
+
+#. i18n: file: app/semanticinfosidebaritem.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:90
+msgid "Tags:"
+msgstr "Etiquetes:"
+
+#. i18n: file: app/generalconfigpage.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:93
+msgid "Background color:"
+msgstr "Color de fondu:"
+
+#. i18n: file: app/generalconfigpage.ui:51
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:96
+msgid "Videos:"
+msgstr "Videos:"
+
+#. i18n: file: app/generalconfigpage.ui:58
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ListVideos)
+#: rc.cpp:99
+msgid "Show videos"
+msgstr "Amosar videos"
+
+#. i18n: file: app/thumbnailviewpanel.ui:64
+#. i18n: ectx: property (text), widget (Gwenview::StatusBarToolButton, mAddFilterButton)
+#: rc.cpp:102
+msgid "Add Filter"
+msgstr "Amestar filtru"
+
+#. i18n: file: app/semanticinfodialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, SemanticInfoDialog)
+#: rc.cpp:105
+msgid "Tag Editor"
+msgstr "Editor d'etiquetes"
+
+#. i18n: file: app/semanticinfodialog.ui:31
+#. i18n: ectx: property (text), widget (QPushButton, mPreviousButton)
+#: rc.cpp:108
+msgid "Previous"
+msgstr "Atrás"
+
+#. i18n: file: app/semanticinfodialog.ui:38
+#. i18n: ectx: property (text), widget (QPushButton, mNextButton)
+#: rc.cpp:111
+msgid "Next"
+msgstr "Alantre"
+
+#. i18n: file: app/fullscreenconfigdialog.ui:16
+#. i18n: ectx: property (text), widget (QLabel, mSlideShowTitle)
+#: rc.cpp:114
+msgid "Slideshow"
+msgstr "Amosar Diapositives"
+
+#. i18n: file: app/fullscreenconfigdialog.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:117
+msgid "Interval:"
+msgstr "Intervalu:"
+
+#. i18n: file: app/fullscreenconfigdialog.ui:72
+#. i18n: ectx: property (text), widget (QCheckBox, mSlideShowLoopCheckBox)
+#: rc.cpp:120
+msgid "Loop"
+msgstr "Bucle"
+
+#. i18n: file: app/fullscreenconfigdialog.ui:79
+#. i18n: ectx: property (text), widget (QCheckBox, mSlideShowRandomCheckBox)
+#: rc.cpp:123
+msgid "Random"
+msgstr "Al debalu"
+
+#. i18n: file: app/fullscreenconfigdialog.ui:86
+#. i18n: ectx: property (text), widget (QLabel, mMetaDataTitle)
+#: rc.cpp:126
+msgid "Metadata"
+msgstr "Metadatos"
+
+#. i18n: file: app/fullscreenconfigdialog.ui:98
+#. i18n: ectx: property (text), widget (QPushButton, mConfigureDisplayedInformationButton)
 #: rc.cpp:129
-msgid "History has been disabled."
-msgstr "L'hestorial deshabilitóse."
+msgid "Configure Displayed Metadata..."
+msgstr "Configurar los metadatos amosaos..."
 
-#. i18n: file: app/startpage.ui:51
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: app/fullscreenconfigdialog.ui:120
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:132
-msgid "Recent Folders"
-msgstr "Carpetes recientes"
+msgid "Appearance"
+msgstr "Aspeutu"
 
-#. i18n: file: app/startpage.ui:65
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. i18n: file: app/fullscreenconfigdialog.ui:130
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:135
-msgid "Recent URLs"
-msgstr "URL recientes"
+msgid "Theme:"
+msgstr "Tema:"
 
-#. i18n: file: app/startpage.ui:109
-#. i18n: ectx: attribute (title), widget (QWidget, placesTab)
+#. i18n: file: app/fullscreenconfigdialog.ui:143
+#. i18n: ectx: property (text), widget (QCheckBox, mShowThumbnailsCheckBox)
 #: rc.cpp:138
-msgid "Places"
-msgstr "Llugares"
+msgid "Show thumbnails"
+msgstr "Amosar miniatures"
 
-#. i18n: file: app/startpage.ui:132
-#. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
+#. i18n: file: app/fullscreenconfigdialog.ui:155
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:141
-msgid "Tags"
-msgstr "Etiquetes"
+msgid "Height:"
+msgstr "Altor:"
 
-#. i18n: file: app/startpage.ui:138
-#. i18n: ectx: property (text), widget (QLabel, mTagLabel)
+#. i18n: file: app/fullscreenconfigdialog.ui:223
+#. i18n: ectx: property (text), widget (QPushButton, mCloseButton)
 #: rc.cpp:144
-msgid ""
-"Browsing by tags is not available. Make sure Nepomuk is properly installed "
-"on your computer."
-msgstr ""
-"La navegación por etiquetes nun ta disponible. Asegúrese de que Nepomuk ta "
-"bien instaláu nel so equipu."
+msgid "Close"
+msgstr "Zarrar"
 
 #. i18n: file: importer/importerconfigdialog.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoRename)
@@ -1652,9 +1652,39 @@ msgstr "Pulgaes"
 msgid "Keep ratio"
 msgstr "Caltener proporción"
 
+#. i18n: file: lib/resize/resizeimagewidget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ResizeImageWidget)
+#: rc.cpp:235
+msgid "Image Resizing"
+msgstr "Camudar el tamañu de la imaxe"
+
+#. i18n: file: lib/resize/resizeimagewidget.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:238
+msgid "Enter the new size for this image."
+msgstr "Introduz el nuevu tamañu de la imaxe:"
+
+#. i18n: file: lib/resize/resizeimagewidget.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:241
+msgid "Current size:"
+msgstr "Tamañu actual:"
+
+#. i18n: file: lib/resize/resizeimagewidget.ui:88
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:245
+msgid "New Size:"
+msgstr "Nuevu tamañu:"
+
+#. i18n: file: lib/resize/resizeimagewidget.ui:135
+#. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
+#: rc.cpp:249
+msgid "Keep aspect ratio"
+msgstr "Caltener proporción"
+
 #. i18n: file: lib/gwenviewconfig.kcfg:30
 #. i18n: ectx: whatsthis, entry (PercentageOfMemoryUsageWarning), group (General)
-#: rc.cpp:235
+#: rc.cpp:252
 msgid ""
 "The percentage of memory used by Gwenview before it\n"
 "\t\t\twarns the user and suggest saving changes."
@@ -1664,7 +1694,7 @@ msgstr ""
 
 #. i18n: file: lib/gwenviewconfig.kcfg:38
 #. i18n: ectx: whatsthis, entry (BlackListedExtensions), group (General)
-#: rc.cpp:239
+#: rc.cpp:256
 msgid ""
 "A list of filename extensions Gwenview should not try to\n"
 "\t\t\tload. This is useful to exclude raw files which are recognized as\n"
@@ -1678,63 +1708,33 @@ msgstr ""
 
 #. i18n: file: lib/gwenviewconfig.kcfg:190
 #. i18n: ectx: label, entry (random), group (slide show)
-#: rc.cpp:245
+#: rc.cpp:262
 msgid "Display slide show images in random order"
 msgstr "Amosar les diapositives al debalu"
 
 #. i18n: file: lib/gwenviewconfig.kcfg:194
 #. i18n: ectx: label, entry (fullscreen), group (slide show)
-#: rc.cpp:248
+#: rc.cpp:265
 msgid "Show slideshow in fullscreen mode"
 msgstr "Amosar les diapositives en mou de pantalla completa"
 
 #. i18n: file: lib/gwenviewconfig.kcfg:198
 #. i18n: ectx: label, entry (loop), group (slide show)
-#: rc.cpp:251
+#: rc.cpp:268
 msgid "Loop on images"
 msgstr "Volver a repetir les imáxenes"
 
 #. i18n: file: lib/gwenviewconfig.kcfg:202
 #. i18n: ectx: label, entry (stopAtEnd), group (slide show)
-#: rc.cpp:254
+#: rc.cpp:271
 msgid "Stop at last image of folder"
 msgstr "Parar na cabera imaxe de la carpeta"
 
 #. i18n: file: lib/gwenviewconfig.kcfg:206
 #. i18n: ectx: label, entry (interval), group (slide show)
-#: rc.cpp:257
+#: rc.cpp:274
 msgid "Interval between images (in seconds)"
 msgstr "Intervalu ente imáxenes (en segundos)"
-
-#. i18n: file: lib/resize/resizeimagewidget.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, ResizeImageWidget)
-#: rc.cpp:263
-msgid "Image Resizing"
-msgstr "Camudar el tamañu de la imaxe"
-
-#. i18n: file: lib/resize/resizeimagewidget.ui:20
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:266
-msgid "Enter the new size for this image."
-msgstr "Introduz el nuevu tamañu de la imaxe:"
-
-#. i18n: file: lib/resize/resizeimagewidget.ui:32
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:269
-msgid "Current size:"
-msgstr "Tamañu actual:"
-
-#. i18n: file: lib/resize/resizeimagewidget.ui:88
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:273
-msgid "New Size:"
-msgstr "Nuevu tamañu:"
-
-#. i18n: file: lib/resize/resizeimagewidget.ui:135
-#. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
-#: rc.cpp:277
-msgid "Keep aspect ratio"
-msgstr "Caltener proporción"
 
 #. i18n: file: part/gvpart.rc:4
 #. i18n: ectx: Menu (file)

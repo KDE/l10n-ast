@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackgekit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-22 02:52+0100\n"
+"POT-Creation-Date: 2010-12-26 03:30+0100\n"
 "PO-Revision-Date: 2010-10-25 20:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -26,7 +26,7 @@ msgid "Apper is an Application to Get and Manage Software"
 msgstr ""
 
 #: KPackageKit/main.cpp:38 Settings/SettingsKCM.cpp:56 SmartIcon/main.cpp:38
-#: Updater/UpdateKCM.cpp:66 ApperKCM/ApperKCM.cpp:70
+#: Updater/UpdateKCM.cpp:66 ApperKCM/ApperKCM.cpp:71
 msgid "(C) 2008-2010 Daniel Nicoletti"
 msgstr "(C) 2008-2010 Daniel Nicoletti"
 
@@ -2688,24 +2688,6 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: libkpackagekit/KpkPackageModel.cpp:172
-#, fuzzy
-#| msgid "Architectures"
-msgid "Architecture"
-msgstr "Arquiteutures"
-
-#: libkpackagekit/KpkPackageModel.cpp:174
-msgid "Summary"
-msgstr ""
-
-#: libkpackagekit/KpkPackageModel.cpp:315
-msgid "To be Removed"
-msgstr ""
-
-#: libkpackagekit/KpkPackageModel.cpp:317
-msgid "To be Installed"
-msgstr ""
-
 #: libkpackagekit/KpkReviewChanges.cpp:113
 msgid "Review Change"
 msgid_plural "Review Changes"
@@ -2742,74 +2724,22 @@ msgstr "fallu al instalar el paquete"
 msgid "Failed to remove package"
 msgstr "Fallu al desaniciar el paquete"
 
-#: ApperKCM/ApperKCM.cpp:66
+#: libkpackagekit/KpkPackageModel.cpp:172
 #, fuzzy
-#| msgid "Application"
-msgid "Application Manager"
-msgstr "Aplicación"
+#| msgid "Architectures"
+msgid "Architecture"
+msgstr "Arquiteutures"
 
-#: ApperKCM/ApperKCM.cpp:68
-msgid "KDE interface for managing software"
-msgstr "Interface KDE pa xestionar software"
-
-#: ApperKCM/ApperKCM.cpp:96 ApperKCM/ApperKCM.cpp:263
-msgid "Find"
-msgstr "Guetar"
-
-#: ApperKCM/ApperKCM.cpp:240 ApperKCM/ApperKCM.cpp:241
-#: ApperKCM/ApperKCM.cpp:242 ApperKCM/ApperKCM.cpp:243
-msgid "&Cancel"
-msgstr "&Encaboxar"
-
-#. i18n: file: ApperKCM/ApperKCM.ui:204
-#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
-#: ApperKCM/ApperKCM.cpp:250 rc.cpp:235
-msgid "Find by &name"
-msgstr "Guetar por &nome"
-
-#. i18n: file: ApperKCM/ApperKCM.ui:214
-#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
-#: ApperKCM/ApperKCM.cpp:251 rc.cpp:241
-msgid "Find by f&ile name"
-msgstr "Guetar por nome de &ficheru"
-
-#. i18n: file: ApperKCM/ApperKCM.ui:209
-#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
-#: ApperKCM/ApperKCM.cpp:252 rc.cpp:238
-msgid "Find by &description"
-msgstr "Guetar por descripción"
-
-#: ApperKCM/CategoryModel.cpp:40
-msgid "Installed Software"
+#: libkpackagekit/KpkPackageModel.cpp:174
+msgid "Summary"
 msgstr ""
 
-#: ApperKCM/CategoryModel.cpp:43 ApperKCM/CategoryModel.cpp:51
-#: ApperKCM/CategoryModel.cpp:59 ApperKCM/CategoryModel.cpp:67
-msgid "Lists"
+#: libkpackagekit/KpkPackageModel.cpp:315
+msgid "To be Removed"
 msgstr ""
 
-#: ApperKCM/CategoryModel.cpp:48
-msgid "History"
-msgstr ""
-
-#: ApperKCM/CategoryModel.cpp:56
-#, fuzzy
-#| msgid "Updated"
-msgid "Updates"
-msgstr "Anováu"
-
-#. i18n: file: Settings/SettingsKCM.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsKCM)
-#: ApperKCM/CategoryModel.cpp:64 rc.cpp:135
-msgid "Settings"
-msgstr ""
-
-#: ApperKCM/CategoryModel.cpp:166 ApperKCM/CategoryModel.cpp:348
-msgid "Categories"
-msgstr ""
-
-#: ApperKCM/CategoryModel.cpp:217
-msgid "Groups"
+#: libkpackagekit/KpkPackageModel.cpp:317
+msgid "To be Installed"
 msgstr ""
 
 #: ApperKCM/KpkFiltersMenu.cpp:37
@@ -2989,6 +2919,76 @@ msgstr "Nome d'usuariu"
 #: ApperKCM/TransactionModel.cpp:50
 msgid "Application"
 msgstr "Aplicación"
+
+#: ApperKCM/ApperKCM.cpp:67
+#, fuzzy
+#| msgid "Application"
+msgid "Application Manager"
+msgstr "Aplicación"
+
+#: ApperKCM/ApperKCM.cpp:69
+msgid "KDE interface for managing software"
+msgstr "Interface KDE pa xestionar software"
+
+#: ApperKCM/ApperKCM.cpp:97 ApperKCM/ApperKCM.cpp:264
+msgid "Find"
+msgstr "Guetar"
+
+#: ApperKCM/ApperKCM.cpp:241 ApperKCM/ApperKCM.cpp:242
+#: ApperKCM/ApperKCM.cpp:243 ApperKCM/ApperKCM.cpp:244
+msgid "&Cancel"
+msgstr "&Encaboxar"
+
+#. i18n: file: ApperKCM/ApperKCM.ui:204
+#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
+#: ApperKCM/ApperKCM.cpp:251 rc.cpp:235
+msgid "Find by &name"
+msgstr "Guetar por &nome"
+
+#. i18n: file: ApperKCM/ApperKCM.ui:214
+#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
+#: ApperKCM/ApperKCM.cpp:252 rc.cpp:241
+msgid "Find by f&ile name"
+msgstr "Guetar por nome de &ficheru"
+
+#. i18n: file: ApperKCM/ApperKCM.ui:209
+#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
+#: ApperKCM/ApperKCM.cpp:253 rc.cpp:238
+msgid "Find by &description"
+msgstr "Guetar por descripción"
+
+#: ApperKCM/CategoryModel.cpp:40
+msgid "Installed Software"
+msgstr ""
+
+#: ApperKCM/CategoryModel.cpp:43 ApperKCM/CategoryModel.cpp:51
+#: ApperKCM/CategoryModel.cpp:59 ApperKCM/CategoryModel.cpp:67
+msgid "Lists"
+msgstr ""
+
+#: ApperKCM/CategoryModel.cpp:48
+msgid "History"
+msgstr ""
+
+#: ApperKCM/CategoryModel.cpp:56
+#, fuzzy
+#| msgid "Updated"
+msgid "Updates"
+msgstr "Anováu"
+
+#. i18n: file: Settings/SettingsKCM.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsKCM)
+#: ApperKCM/CategoryModel.cpp:64 rc.cpp:135
+msgid "Settings"
+msgstr ""
+
+#: ApperKCM/CategoryModel.cpp:166 ApperKCM/CategoryModel.cpp:348
+msgid "Categories"
+msgstr ""
+
+#: ApperKCM/CategoryModel.cpp:217
+msgid "Groups"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
