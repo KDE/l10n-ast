@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-29 02:38+0100\n"
+"POT-Creation-Date: 2010-12-30 02:34+0100\n"
 "PO-Revision-Date: 2009-12-18 18:26+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -212,7 +212,7 @@ msgstr "Fallu al abrir %1: %2"
 msgid "Failed to create %1: %2"
 msgstr "Fallu al criar %1: %2"
 
-#: src/diskio/piecedata.cpp:64 src/diskio/piecedata.cpp:103
+#: src/diskio/piecedata.cpp:65 src/diskio/piecedata.cpp:104
 msgid "Unable to write to a piece mapped read only"
 msgstr ""
 
@@ -238,7 +238,7 @@ msgstr "Resolviendo'l «proxy» %1:%2"
 msgid "Resolving hostname %1"
 msgstr "Resolviendo'l nome de máquina %1"
 
-#: src/download/httpconnection.cpp:125 src/download/webseed.cpp:327
+#: src/download/httpconnection.cpp:125 src/download/webseed.cpp:336
 msgid "Connection closed"
 msgstr "Zarróse la conexón"
 
@@ -279,7 +279,13 @@ msgstr "Fallu: la petición superó'l tiempu llímite"
 msgid "Redirected without a new location."
 msgstr "Redirixíu ensin un nuevu allugamientu"
 
-#: src/download/webseed.cpp:530
+#: src/download/downloader.cpp:810
+#, fuzzy
+#| msgid "Displays all the webseeds of a torrent"
+msgid "Disabled because webseed does not match torrent"
+msgstr "Amuesa toles semilles web d'un torrent"
+
+#: src/download/webseed.cpp:544
 #, kde-format
 msgid "Unused for %1 seconds (Too many connection failures)"
 msgstr ""
@@ -560,18 +566,6 @@ msgstr "Nun puede espandese'l ficheru: %1"
 msgid "Cannot seek in file: %1"
 msgstr "Nun puede guetase nel ficheru: %1"
 
-#: src/util/functions.cpp:280
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/util/functions.cpp:291
-#, kde-format
-msgid "1 day "
-msgid_plural "%1 days "
-msgstr[0] "1 día "
-msgstr[1] "%1 díes "
-
 #: src/util/logsystemmanager.cpp:33
 msgid "General"
 msgstr "Xeneral"
@@ -595,6 +589,18 @@ msgstr "Entrada/Salida de discu"
 #: src/util/logsystemmanager.cpp:38
 msgid "µTP"
 msgstr ""
+
+#: src/util/functions.cpp:280
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/util/functions.cpp:291
+#, kde-format
+msgid "1 day "
+msgid_plural "%1 days "
+msgstr[0] "1 día "
+msgstr[1] "%1 díes "
 
 #: src/util/signalcatcher.cpp:57
 msgid "Error when writing to disk"
@@ -1102,9 +1108,6 @@ msgstr "Fallu al lleer de %1"
 
 #~ msgid "Webseeds"
 #~ msgstr "Semilles web"
-
-#~ msgid "Displays all the webseeds of a torrent"
-#~ msgstr "Amuesa toles semilles web d'un torrent"
 
 #~ msgid "Chunk"
 #~ msgstr "Trozu"
