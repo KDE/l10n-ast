@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackgekit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 03:30+0100\n"
+"POT-Creation-Date: 2011-01-04 03:09+0100\n"
 "PO-Revision-Date: 2010-10-25 20:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -958,7 +958,7 @@ msgid "Package"
 msgstr "Paquete"
 
 #: libkpackagekit/KpkSimulateModel.cpp:135
-#: libkpackagekit/KpkPackageModel.cpp:170
+#: libkpackagekit/KpkPackageModel.cpp:174
 msgid "Version"
 msgstr ""
 
@@ -2724,21 +2724,21 @@ msgstr "fallu al instalar el paquete"
 msgid "Failed to remove package"
 msgstr "Fallu al desaniciar el paquete"
 
-#: libkpackagekit/KpkPackageModel.cpp:172
+#: libkpackagekit/KpkPackageModel.cpp:176
 #, fuzzy
 #| msgid "Architectures"
 msgid "Architecture"
 msgstr "Arquiteutures"
 
-#: libkpackagekit/KpkPackageModel.cpp:174
+#: libkpackagekit/KpkPackageModel.cpp:178
 msgid "Summary"
 msgstr ""
 
-#: libkpackagekit/KpkPackageModel.cpp:315
+#: libkpackagekit/KpkPackageModel.cpp:319
 msgid "To be Removed"
 msgstr ""
 
-#: libkpackagekit/KpkPackageModel.cpp:317
+#: libkpackagekit/KpkPackageModel.cpp:321
 msgid "To be Installed"
 msgstr ""
 
@@ -2862,34 +2862,6 @@ msgstr "Namái coleiciones"
 msgid "Hide packages that are not applications"
 msgstr "Los paquetes nun son compatibles"
 
-#: ApperKCM/PackageDetails.cpp:69
-msgid "Display"
-msgstr ""
-
-#: ApperKCM/PackageDetails.cpp:76
-msgid "Description"
-msgstr "Descripción"
-
-#: ApperKCM/PackageDetails.cpp:84
-msgid "Depends On"
-msgstr ""
-
-#: ApperKCM/PackageDetails.cpp:110
-msgid "Required By"
-msgstr ""
-
-#: ApperKCM/PackageDetails.cpp:136
-msgid "File List"
-msgstr ""
-
-#: ApperKCM/PackageDetails.cpp:478
-msgid "No files were found."
-msgstr "Nun s'atopó dengún ficheru."
-
-#: ApperKCM/PackageDetails.cpp:557
-msgid "Applications"
-msgstr ""
-
 #: ApperKCM/ScreenShotViewer.cpp:90
 msgid "Could not find screen shot."
 msgstr ""
@@ -2919,43 +2891,6 @@ msgstr "Nome d'usuariu"
 #: ApperKCM/TransactionModel.cpp:50
 msgid "Application"
 msgstr "Aplicación"
-
-#: ApperKCM/ApperKCM.cpp:67
-#, fuzzy
-#| msgid "Application"
-msgid "Application Manager"
-msgstr "Aplicación"
-
-#: ApperKCM/ApperKCM.cpp:69
-msgid "KDE interface for managing software"
-msgstr "Interface KDE pa xestionar software"
-
-#: ApperKCM/ApperKCM.cpp:97 ApperKCM/ApperKCM.cpp:264
-msgid "Find"
-msgstr "Guetar"
-
-#: ApperKCM/ApperKCM.cpp:241 ApperKCM/ApperKCM.cpp:242
-#: ApperKCM/ApperKCM.cpp:243 ApperKCM/ApperKCM.cpp:244
-msgid "&Cancel"
-msgstr "&Encaboxar"
-
-#. i18n: file: ApperKCM/ApperKCM.ui:204
-#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
-#: ApperKCM/ApperKCM.cpp:251 rc.cpp:235
-msgid "Find by &name"
-msgstr "Guetar por &nome"
-
-#. i18n: file: ApperKCM/ApperKCM.ui:214
-#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
-#: ApperKCM/ApperKCM.cpp:252 rc.cpp:241
-msgid "Find by f&ile name"
-msgstr "Guetar por nome de &ficheru"
-
-#. i18n: file: ApperKCM/ApperKCM.ui:209
-#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
-#: ApperKCM/ApperKCM.cpp:253 rc.cpp:238
-msgid "Find by &description"
-msgstr "Guetar por descripción"
 
 #: ApperKCM/CategoryModel.cpp:40
 msgid "Installed Software"
@@ -2988,6 +2923,75 @@ msgstr ""
 
 #: ApperKCM/CategoryModel.cpp:217
 msgid "Groups"
+msgstr ""
+
+#: ApperKCM/ApperKCM.cpp:67
+#, fuzzy
+#| msgid "Application"
+msgid "Application Manager"
+msgstr "Aplicación"
+
+#: ApperKCM/ApperKCM.cpp:69
+msgid "KDE interface for managing software"
+msgstr "Interface KDE pa xestionar software"
+
+#: ApperKCM/ApperKCM.cpp:97 ApperKCM/ApperKCM.cpp:266
+msgid "Find"
+msgstr "Guetar"
+
+#: ApperKCM/ApperKCM.cpp:243 ApperKCM/ApperKCM.cpp:244
+#: ApperKCM/ApperKCM.cpp:245 ApperKCM/ApperKCM.cpp:246
+msgid "&Cancel"
+msgstr "&Encaboxar"
+
+#. i18n: file: ApperKCM/ApperKCM.ui:204
+#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
+#: ApperKCM/ApperKCM.cpp:253 rc.cpp:235
+msgid "Find by &name"
+msgstr "Guetar por &nome"
+
+#. i18n: file: ApperKCM/ApperKCM.ui:214
+#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
+#: ApperKCM/ApperKCM.cpp:254 rc.cpp:241
+msgid "Find by f&ile name"
+msgstr "Guetar por nome de &ficheru"
+
+#. i18n: file: ApperKCM/ApperKCM.ui:209
+#. i18n: ectx: property (text), widget (KpkCategorizedView, changesView)
+#: ApperKCM/ApperKCM.cpp:255 rc.cpp:238
+msgid "Find by &description"
+msgstr "Guetar por descripción"
+
+#: ApperKCM/PackageDetails.cpp:69
+msgid "Display"
+msgstr ""
+
+#: ApperKCM/PackageDetails.cpp:76
+msgid "Description"
+msgstr "Descripción"
+
+#: ApperKCM/PackageDetails.cpp:84
+msgid "Depends On"
+msgstr ""
+
+#: ApperKCM/PackageDetails.cpp:110
+msgid "Required By"
+msgstr ""
+
+#: ApperKCM/PackageDetails.cpp:136
+msgid "File List"
+msgstr ""
+
+#: ApperKCM/PackageDetails.cpp:478
+msgid "No files were found."
+msgstr "Nun s'atopó dengún ficheru."
+
+#: ApperKCM/PackageDetails.cpp:525
+msgid "Could not fetch software details"
+msgstr ""
+
+#: ApperKCM/PackageDetails.cpp:570
+msgid "Applications"
 msgstr ""
 
 #: rc.cpp:1
