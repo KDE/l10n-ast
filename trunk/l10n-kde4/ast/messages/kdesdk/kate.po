@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 03:02+0100\n"
+"POT-Creation-Date: 2011-01-11 02:46+0100\n"
 "PO-Revision-Date: 2010-10-24 00:11+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -1129,6 +1129,113 @@ msgstr ""
 "Equí puede ver tolos complementos de Kate disponibles. Los que tienen una "
 "marca tán cargados y cargaránse de nuevu la próxima vegada que s'anicie Kate."
 
+#: app/katemwmodonhddialog.cpp:65
+msgid "Documents Modified on Disk"
+msgstr "Documentos modificaos nel discu"
+
+#: app/katemwmodonhddialog.cpp:67
+msgid "&Ignore"
+msgstr "&Inorar"
+
+#: app/katemwmodonhddialog.cpp:69
+msgid "&Reload"
+msgstr "&Volver a cargar"
+
+#: app/katemwmodonhddialog.cpp:76
+msgid ""
+"Removes the modified flag from the selected documents and closes the dialog "
+"if there are no more unhandled documents."
+msgstr ""
+"Desanicia l'indicador de camudáu de los documentos esbillaos y zarra'l "
+"diálogu si nun hai más documentos que xestionar."
+
+#: app/katemwmodonhddialog.cpp:79
+msgid ""
+"Overwrite selected documents, discarding the disk changes and closes the "
+"dialog if there are no more unhandled documents."
+msgstr ""
+"Sobroscribe los documentos esbillaos, descartando los cambeos del discu y "
+"zarra'l diálogu si nun hai más documentos que xestionar."
+
+#: app/katemwmodonhddialog.cpp:82
+msgid ""
+"Reloads the selected documents from disk and closes the dialog if there are "
+"no more unhandled documents."
+msgstr ""
+"Vuelve a cargar el documentu escoyíu dende'l discu y zarra'l diálogu si nun "
+"hai más documentos que xestionar."
+
+#: app/katemwmodonhddialog.cpp:96
+msgid ""
+"<qt>The documents listed below have changed on disk.<p>Select one or more at "
+"once, and press an action button until the list is empty.</p></qt>"
+msgstr ""
+"<qt>Los documentos llistaos más abaxo camudaron nel discu.<p>Escueyi ún o "
+"más al empar y calca sobro un botón d'aición fasta que la llista quede erma."
+"</p></qt>"
+
+#: app/katemwmodonhddialog.cpp:103
+msgid "Filename"
+msgstr "Nome de ficheru"
+
+#: app/katemwmodonhddialog.cpp:103
+msgid "Status on Disk"
+msgstr "Estáu nel discu"
+
+#: app/katemwmodonhddialog.cpp:109
+msgid "Modified"
+msgstr "Camudáu"
+
+#: app/katemwmodonhddialog.cpp:109
+msgid "Created"
+msgstr "Creáu"
+
+#: app/katemwmodonhddialog.cpp:109
+msgid "Deleted"
+msgstr "Desaniciáu"
+
+#: app/katemwmodonhddialog.cpp:124
+msgid "&View Difference"
+msgstr "&Ver diferencia"
+
+#: app/katemwmodonhddialog.cpp:127
+msgid ""
+"Calculates the difference between the editor contents and the disk file for "
+"the selected document, and shows the difference with the default "
+"application. Requires diff(1)."
+msgstr ""
+"Calcula la diferencia ente los conteníos del editor y el ficheru nel discu "
+"pa los documentos esbillaos, y amuesa la diferencia cola aplicación "
+"predeterminada. Requier diff(1)."
+
+#: app/katemwmodonhddialog.cpp:187
+#, kde-format
+msgid ""
+"Could not save the document \n"
+"'%1'"
+msgstr ""
+"Nun pudo guardase'l documentu \n"
+"«%1»"
+
+#: app/katemwmodonhddialog.cpp:285
+msgid ""
+"The diff command failed. Please make sure that diff(1) is installed and in "
+"your PATH."
+msgstr ""
+"La orde «diff» falló. Asegúrese de que diff(1) ta instaláu nel so CAMÍN."
+
+#: app/katemwmodonhddialog.cpp:287
+msgid "Error Creating Diff"
+msgstr "Fallu criando Diff"
+
+#: app/katemwmodonhddialog.cpp:296
+msgid "Besides white space changes, the files are identical."
+msgstr "Los ficheros son idénticos, esceutu por cambeos n'espacios en blanco."
+
+#: app/katemwmodonhddialog.cpp:297
+msgid "Diff Output"
+msgstr "Salida de «diff»"
+
 #: app/katemainwindow.cpp:234
 msgid "Use this command to show or hide the view's statusbar"
 msgstr "Usar esta orde p'amosar o anubrir la vista na barra d'estáu"
@@ -1314,113 +1421,6 @@ msgstr "Aplicación «%1» non atopada."
 msgid "Application not found"
 msgstr "Aplicación non atopada"
 
-#: app/katemwmodonhddialog.cpp:65
-msgid "Documents Modified on Disk"
-msgstr "Documentos modificaos nel discu"
-
-#: app/katemwmodonhddialog.cpp:67
-msgid "&Ignore"
-msgstr "&Inorar"
-
-#: app/katemwmodonhddialog.cpp:69
-msgid "&Reload"
-msgstr "&Volver a cargar"
-
-#: app/katemwmodonhddialog.cpp:76
-msgid ""
-"Removes the modified flag from the selected documents and closes the dialog "
-"if there are no more unhandled documents."
-msgstr ""
-"Desanicia l'indicador de camudáu de los documentos esbillaos y zarra'l "
-"diálogu si nun hai más documentos que xestionar."
-
-#: app/katemwmodonhddialog.cpp:79
-msgid ""
-"Overwrite selected documents, discarding the disk changes and closes the "
-"dialog if there are no more unhandled documents."
-msgstr ""
-"Sobroscribe los documentos esbillaos, descartando los cambeos del discu y "
-"zarra'l diálogu si nun hai más documentos que xestionar."
-
-#: app/katemwmodonhddialog.cpp:82
-msgid ""
-"Reloads the selected documents from disk and closes the dialog if there are "
-"no more unhandled documents."
-msgstr ""
-"Vuelve a cargar el documentu escoyíu dende'l discu y zarra'l diálogu si nun "
-"hai más documentos que xestionar."
-
-#: app/katemwmodonhddialog.cpp:96
-msgid ""
-"<qt>The documents listed below have changed on disk.<p>Select one or more at "
-"once, and press an action button until the list is empty.</p></qt>"
-msgstr ""
-"<qt>Los documentos llistaos más abaxo camudaron nel discu.<p>Escueyi ún o "
-"más al empar y calca sobro un botón d'aición fasta que la llista quede erma."
-"</p></qt>"
-
-#: app/katemwmodonhddialog.cpp:103
-msgid "Filename"
-msgstr "Nome de ficheru"
-
-#: app/katemwmodonhddialog.cpp:103
-msgid "Status on Disk"
-msgstr "Estáu nel discu"
-
-#: app/katemwmodonhddialog.cpp:109
-msgid "Modified"
-msgstr "Camudáu"
-
-#: app/katemwmodonhddialog.cpp:109
-msgid "Created"
-msgstr "Creáu"
-
-#: app/katemwmodonhddialog.cpp:109
-msgid "Deleted"
-msgstr "Desaniciáu"
-
-#: app/katemwmodonhddialog.cpp:124
-msgid "&View Difference"
-msgstr "&Ver diferencia"
-
-#: app/katemwmodonhddialog.cpp:127
-msgid ""
-"Calculates the difference between the editor contents and the disk file for "
-"the selected document, and shows the difference with the default "
-"application. Requires diff(1)."
-msgstr ""
-"Calcula la diferencia ente los conteníos del editor y el ficheru nel discu "
-"pa los documentos esbillaos, y amuesa la diferencia cola aplicación "
-"predeterminada. Requier diff(1)."
-
-#: app/katemwmodonhddialog.cpp:187
-#, kde-format
-msgid ""
-"Could not save the document \n"
-"'%1'"
-msgstr ""
-"Nun pudo guardase'l documentu \n"
-"«%1»"
-
-#: app/katemwmodonhddialog.cpp:285
-msgid ""
-"The diff command failed. Please make sure that diff(1) is installed and in "
-"your PATH."
-msgstr ""
-"La orde «diff» falló. Asegúrese de que diff(1) ta instaláu nel so CAMÍN."
-
-#: app/katemwmodonhddialog.cpp:287
-msgid "Error Creating Diff"
-msgstr "Fallu criando Diff"
-
-#: app/katemwmodonhddialog.cpp:296
-msgid "Besides white space changes, the files are identical."
-msgstr "Los ficheros son idénticos, esceutu por cambeos n'espacios en blanco."
-
-#: app/katemwmodonhddialog.cpp:297
-msgid "Diff Output"
-msgstr "Salida de «diff»"
-
 #: app/katesavemodifieddialog.cpp:92
 #, kde-format
 msgid "Save As (%1)"
@@ -1600,6 +1600,35 @@ msgstr " LLINIA "
 msgid " BLOCK "
 msgstr " BLOQUE "
 
+#: plugins/filetree/katefiletreeplugin.cpp:48
+msgid "Document Tree"
+msgstr ""
+
+#: plugins/filetree/katefiletreeplugin.cpp:48
+msgid "Show open documents in a tree"
+msgstr ""
+
+#: plugins/filetree/katefiletreeplugin.cpp:84
+#: plugins/filetree/katefiletreeconfigpage.cpp:99
+msgid "Tree View"
+msgstr "Vista d'árbol"
+
+#: plugins/filetree/katefiletreeplugin.cpp:92
+msgid "Configure Tree View"
+msgstr "Configurar vista d'árbol"
+
+#: plugins/filetree/katefiletreeplugin.cpp:198
+msgid "&Show Active"
+msgstr ""
+
+#: plugins/filetree/katefiletreeplugin.cpp:204
+msgid "&Prev Document"
+msgstr "&Anterior documentu"
+
+#: plugins/filetree/katefiletreeplugin.cpp:210
+msgid "&Next Document"
+msgstr "&Siguiente documentu"
+
 #: plugins/filetree/katefiletree.cpp:51
 msgid "Close"
 msgstr "Zarrar"
@@ -1653,35 +1682,6 @@ msgstr ""
 #: plugins/filetree/katefiletree.cpp:201
 msgid "Sort By"
 msgstr "Axeitar por"
-
-#: plugins/filetree/katefiletreeplugin.cpp:48
-msgid "Document Tree"
-msgstr ""
-
-#: plugins/filetree/katefiletreeplugin.cpp:48
-msgid "Show open documents in a tree"
-msgstr ""
-
-#: plugins/filetree/katefiletreeplugin.cpp:84
-#: plugins/filetree/katefiletreeconfigpage.cpp:99
-msgid "Tree View"
-msgstr "Vista d'árbol"
-
-#: plugins/filetree/katefiletreeplugin.cpp:92
-msgid "Configure Tree View"
-msgstr "Configurar vista d'árbol"
-
-#: plugins/filetree/katefiletreeplugin.cpp:198
-msgid "&Show Active"
-msgstr ""
-
-#: plugins/filetree/katefiletreeplugin.cpp:204
-msgid "&Prev Document"
-msgstr "&Anterior documentu"
-
-#: plugins/filetree/katefiletreeplugin.cpp:210
-msgid "&Next Document"
-msgstr "&Siguiente documentu"
 
 #: plugins/filetree/katefiletreeconfigpage.cpp:60
 msgid "Background Shading"

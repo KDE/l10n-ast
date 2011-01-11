@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeadmin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:53+0100\n"
+"POT-Creation-Date: 2011-01-11 02:34+0100\n"
 "PO-Revision-Date: 2010-10-19 22:21+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -35,22 +35,6 @@ msgstr ""
 msgctxt "User login: errorMessage"
 msgid "User %1: %2"
 msgstr "Usuariu %1: %2"
-
-#: src/crontablib/ctunit.cpp:172
-msgid ","
-msgstr ","
-
-#: src/crontablib/ctunit.cpp:173 src/crontablib/cttask.cpp:318
-msgid " and "
-msgstr " y "
-
-#: src/crontablib/ctunit.cpp:176 src/crontablib/cttask.cpp:321
-msgid ", "
-msgstr ", "
-
-#: src/crontablib/ctHelper.cpp:22
-msgid "No comment"
-msgstr "Ensin comentariu"
 
 #: src/crontablib/ctdom.cpp:23 src/crontablib/ctdow.cpp:44
 #: src/crontablib/cttask.cpp:266
@@ -181,33 +165,25 @@ msgstr "30ᵁ"
 msgid "31st"
 msgstr "31ᵁ"
 
+#: src/crontablib/ctHelper.cpp:22
+msgid "No comment"
+msgstr "Ensin comentariu"
+
+#: src/crontablib/ctunit.cpp:172
+msgid ","
+msgstr ","
+
+#: src/crontablib/ctunit.cpp:173 src/crontablib/cttask.cpp:318
+msgid " and "
+msgstr " y "
+
+#: src/crontablib/ctunit.cpp:176 src/crontablib/cttask.cpp:321
+msgid ", "
+msgstr ", "
+
 #: src/crontablib/ctGlobalCron.cpp:39
 msgid "All users"
 msgstr "Tolos usuarios"
-
-#: src/crontablib/ctvariable.cpp:126
-msgid "Override default home folder."
-msgstr "Sustituyir la carpeta personal predeteminada."
-
-#: src/crontablib/ctvariable.cpp:129
-msgid "Email output to specified account."
-msgstr "Unviar la salida a la cuenta de corréu-e especificada."
-
-#: src/crontablib/ctvariable.cpp:132
-msgid "Override default shell."
-msgstr "Inorar l'intérprete d'órdenes predeterminaú."
-
-#: src/crontablib/ctvariable.cpp:135
-msgid "Folders to search for program files."
-msgstr "Carpetes au guetar programes."
-
-#: src/crontablib/ctvariable.cpp:138
-msgid "Dynamic libraries location."
-msgstr "Llocalización de biblioteces dinámiques"
-
-#: src/crontablib/ctvariable.cpp:141
-msgid "Local Variable"
-msgstr "Variable llocal"
 
 #: src/crontablib/ctmonth.cpp:23
 msgid "every month"
@@ -262,6 +238,30 @@ msgstr "Payares"
 #: src/crontablib/ctmonth.cpp:33
 msgid "December"
 msgstr "Avientu"
+
+#: src/crontablib/ctvariable.cpp:126
+msgid "Override default home folder."
+msgstr "Sustituyir la carpeta personal predeteminada."
+
+#: src/crontablib/ctvariable.cpp:129
+msgid "Email output to specified account."
+msgstr "Unviar la salida a la cuenta de corréu-e especificada."
+
+#: src/crontablib/ctvariable.cpp:132
+msgid "Override default shell."
+msgstr "Inorar l'intérprete d'órdenes predeterminaú."
+
+#: src/crontablib/ctvariable.cpp:135
+msgid "Folders to search for program files."
+msgstr "Carpetes au guetar programes."
+
+#: src/crontablib/ctvariable.cpp:138
+msgid "Dynamic libraries location."
+msgstr "Llocalización de biblioteces dinámiques"
+
+#: src/crontablib/ctvariable.cpp:141
+msgid "Local Variable"
+msgstr "Variable llocal"
 
 #: src/crontablib/ctdow.cpp:56
 msgid "Mon"
@@ -447,6 +447,47 @@ msgstr "Activada"
 msgid "Disabled"
 msgstr "Desactivada"
 
+#: src/variableEditorDialog.cpp:60
+msgid "Add or modify a variable"
+msgstr "Amestar o camudar una variable"
+
+#: src/variableEditorDialog.cpp:64
+msgctxt "The environmental variable name ie HOME, MAILTO etc"
+msgid "&Variable:"
+msgstr "&Variable:"
+
+#: src/variableEditorDialog.cpp:93
+msgid "Va&lue:"
+msgstr "Va&lor:"
+
+#: src/variableEditorDialog.cpp:102 src/taskEditorDialog.cpp:106
+msgid "&Run as:"
+msgstr "Executa&r como:"
+
+#: src/variableEditorDialog.cpp:120 src/taskEditorDialog.cpp:122
+msgid "Co&mment:"
+msgstr "&Comentariu:"
+
+#: src/variableEditorDialog.cpp:128
+msgid "&Enable this variable"
+msgstr "Activar &esta variable"
+
+#: src/variableEditorDialog.cpp:156
+msgid "<i>This variable will be used by scheduled tasks.</i>"
+msgstr "<i>Esta variable usaráse pa xeres planificaes.</i>"
+
+#: src/variableEditorDialog.cpp:200
+msgid "<i>This variable is disabled.</i>"
+msgstr "<i>Esta variable ta desactivada.</i>"
+
+#: src/variableEditorDialog.cpp:207
+msgid "<i>Please enter the variable name...</i>"
+msgstr "<i>Introduz el nome de la variable...</i>"
+
+#: src/variableEditorDialog.cpp:214
+msgid "<i>Please enter the variable value ...</i>"
+msgstr "<i>Introduz el valor de la variable...</i>"
+
 #: src/variablesWidget.cpp:48
 msgid "<b>Environment Variables</b>"
 msgstr "<b>Variables d'entornu</b>"
@@ -503,47 +544,6 @@ msgstr "D&esaniciar"
 #: src/variablesWidget.cpp:231
 msgid "Delete the selected variable."
 msgstr "Desaniciar la variable esbillada"
-
-#: src/variableEditorDialog.cpp:60
-msgid "Add or modify a variable"
-msgstr "Amestar o camudar una variable"
-
-#: src/variableEditorDialog.cpp:64
-msgctxt "The environmental variable name ie HOME, MAILTO etc"
-msgid "&Variable:"
-msgstr "&Variable:"
-
-#: src/variableEditorDialog.cpp:93
-msgid "Va&lue:"
-msgstr "Va&lor:"
-
-#: src/variableEditorDialog.cpp:102 src/taskEditorDialog.cpp:106
-msgid "&Run as:"
-msgstr "Executa&r como:"
-
-#: src/variableEditorDialog.cpp:120 src/taskEditorDialog.cpp:122
-msgid "Co&mment:"
-msgstr "&Comentariu:"
-
-#: src/variableEditorDialog.cpp:128
-msgid "&Enable this variable"
-msgstr "Activar &esta variable"
-
-#: src/variableEditorDialog.cpp:156
-msgid "<i>This variable will be used by scheduled tasks.</i>"
-msgstr "<i>Esta variable usaráse pa xeres planificaes.</i>"
-
-#: src/variableEditorDialog.cpp:200
-msgid "<i>This variable is disabled.</i>"
-msgstr "<i>Esta variable ta desactivada.</i>"
-
-#: src/variableEditorDialog.cpp:207
-msgid "<i>Please enter the variable name...</i>"
-msgstr "<i>Introduz el nome de la variable...</i>"
-
-#: src/variableEditorDialog.cpp:214
-msgid "<i>Please enter the variable value ...</i>"
-msgstr "<i>Introduz el valor de la variable...</i>"
 
 #: src/taskEditorDialog.cpp:76
 msgid "Add or modify a scheduled task"
