@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-29 02:13+0100\n"
+"POT-Creation-Date: 2011-02-02 03:07+0100\n"
 "PO-Revision-Date: 2010-10-19 22:28+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -19,20 +19,45 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Language: asturian\n"
 
-#: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
+#: configdialog.cpp:52
+msgid "Plugins"
+msgstr "Complementos"
+
+#: configdialog.cpp:81
+msgid "User Interface"
+msgstr "Interface d'usuariu"
+
+#: configdialog.cpp:87
+msgid "Available Features"
+msgstr "Funcionalidaes disponibles"
+
 #: interfaces/default/interface.cpp:85 interfaces/default/interface.cpp:86
+#: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
 msgid "Settings"
 msgstr "Axustes"
 
-#: interfaces/quicksand/qs_dialog.cpp:108
-msgid "Actions"
-msgstr "Aiciones"
+#: interfaces/default/interface.cpp:107
+msgid "Help"
+msgstr "Aida"
 
-#: interfaces/quicksand/qs_dialog.cpp:317 interfaces/default/interface.cpp:259
+#: interfaces/default/interface.cpp:108
+msgid "Information on using this application"
+msgstr "Información sobro l'usu d'esta aplicación"
+
+#: interfaces/default/interface.cpp:259 interfaces/quicksand/qs_dialog.cpp:317
 #, kde-format
 msgctxt "tooltip, shortcut"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
+
+#: interfaces/default/interface.cpp:409
+#, kde-format
+msgid "(From %1, %2)"
+msgstr "(Dende %1, %2)"
+
+#: interfaces/quicksand/qs_dialog.cpp:108
+msgid "Actions"
+msgstr "Aiciones"
 
 #: interfaces/quicksand/qs_matchview.cpp:193
 msgid "Type to search."
@@ -66,18 +91,63 @@ msgctxt "%1 current item number, %2 total number of items"
 msgid "%1 of %2"
 msgstr "%1 de %2"
 
-#: interfaces/default/interface.cpp:107
-msgid "Help"
-msgstr "Aida"
+#: krunnerapp.cpp:128 krunnerdialog.cpp:69
+msgid "Run Command"
+msgstr "Executar Comandu"
 
-#: interfaces/default/interface.cpp:108
-msgid "Information on using this application"
-msgstr "Información sobro l'usu d'esta aplicación"
+#: krunnerapp.cpp:133
+msgid "Run Command on clipboard contents"
+msgstr "Executar orde nel conteníu del cartafueyu"
 
-#: interfaces/default/interface.cpp:409
+#: krunnerapp.cpp:139
+msgid "Show System Activity"
+msgstr "Amosar l'actividá del sistema"
+
+#: krunnerapp.cpp:145
+msgid "Switch User"
+msgstr "Camudar d'usuariu"
+
+#: krunnerapp.cpp:155
+msgid "Lock Session"
+msgstr "Bloquiar sesión"
+
+#: krunnerapp.cpp:195
 #, kde-format
-msgid "(From %1, %2)"
-msgstr "(Dende %1, %2)"
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr "Run Command (runner \"%1\" only)"
+
+#: ksystemactivitydialog.cpp:39
+msgid "System Activity"
+msgstr "Actividá del sistema"
+
+#: lock/autologout.cc:38
+msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
+msgstr "<qt><nobr><b>Zarru automáticu de la sesión</b></nobr></qt>"
+
+#: lock/autologout.cc:39
+msgid ""
+"<qt>To prevent being logged out, resume using this session by moving the "
+"mouse or pressing a key.</qt>"
+msgstr ""
+"<qt>Pa evitar que se zarre la sesión, vuelva a usar esta sesión moviendo'l "
+"mur o calcando una tecla.</qt>"
+
+#: lock/autologout.cc:44
+msgid "Time Remaining:"
+msgstr "Tiempu Restante:"
+
+#: lock/autologout.cc:77
+#, kde-format
+msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
+msgid_plural ""
+"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+msgstr[0] ""
+"<qt><nobr>La so sesión zarraráse automáticamente dientro de 1 segundu</"
+"nobr></qt>"
+msgstr[1] ""
+"<qt><nobr>La so sesión zarraráse automáticamente dientro de %1 segundos</"
+"nobr></qt>"
 
 #: lock/lockdlg.cc:100
 msgid "<nobr><b>The session is locked</b></nobr><br />"
@@ -161,33 +231,24 @@ msgstr "&Activar"
 msgid "Start &New Session"
 msgstr "Aniciar una &nueva sesión"
 
-#: lock/autologout.cc:38
-msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
-msgstr "<qt><nobr><b>Zarru automáticu de la sesión</b></nobr></qt>"
-
-#: lock/autologout.cc:39
-msgid ""
-"<qt>To prevent being logged out, resume using this session by moving the "
-"mouse or pressing a key.</qt>"
+#: lock/lockprocess.cc:830
+msgid "Will not lock the session, as unlocking would be impossible:\n"
 msgstr ""
-"<qt>Pa evitar que se zarre la sesión, vuelva a usar esta sesión moviendo'l "
-"mur o calcando una tecla.</qt>"
+"Nun se va bloquiar la sesión, darréu que nun sedría dable desbloquiala:\n"
 
-#: lock/autologout.cc:44
-msgid "Time Remaining:"
-msgstr "Tiempu Restante:"
+#: lock/lockprocess.cc:834
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "Nun pue aniciase <i>kcheckpass</i>."
 
-#: lock/autologout.cc:77
-#, kde-format
-msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
-msgid_plural ""
-"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
-msgstr[0] ""
-"<qt><nobr>La so sesión zarraráse automáticamente dientro de 1 segundu</"
-"nobr></qt>"
-msgstr[1] ""
-"<qt><nobr>La so sesión zarraráse automáticamente dientro de %1 segundos</"
-"nobr></qt>"
+#: lock/lockprocess.cc:835
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+msgstr ""
+"<i>kcheckpass</i> nun puede funcionar. Dablemente nun tenga el SetUID de "
+"root."
+
+#: lock/lockprocess.cc:898
+msgid "No appropriate greeter plugin configured."
+msgstr "Nun se configuró un plugin d'accesu afayaízu."
 
 #: lock/main.cc:61
 msgid "KDE Screen Locker"
@@ -221,29 +282,6 @@ msgstr "entama cola configuración de plasma desbloquiada"
 msgid "Fork into the background after starting up"
 msgstr ""
 
-#: lock/lockprocess.cc:830
-msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr ""
-"Nun se va bloquiar la sesión, darréu que nun sedría dable desbloquiala:\n"
-
-#: lock/lockprocess.cc:834
-msgid "Cannot start <i>kcheckpass</i>."
-msgstr "Nun pue aniciase <i>kcheckpass</i>."
-
-#: lock/lockprocess.cc:835
-msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
-msgstr ""
-"<i>kcheckpass</i> nun puede funcionar. Dablemente nun tenga el SetUID de "
-"root."
-
-#: lock/lockprocess.cc:898
-msgid "No appropriate greeter plugin configured."
-msgstr "Nun se configuró un plugin d'accesu afayaízu."
-
-#: krunnerdialog.cpp:69 krunnerapp.cpp:128
-msgid "Run Command"
-msgstr "Executar Comandu"
-
 #: main.cpp:38
 msgid "KDE run command interface"
 msgstr "Interface d'execución d'órdenes de KDE"
@@ -263,44 +301,6 @@ msgstr "Aaron J. Seigo"
 #: main.cpp:54
 msgid "Author and maintainer"
 msgstr "Autor y caltenimientu"
-
-#: krunnerapp.cpp:133
-msgid "Run Command on clipboard contents"
-msgstr "Executar orde nel conteníu del cartafueyu"
-
-#: krunnerapp.cpp:139
-msgid "Show System Activity"
-msgstr "Amosar l'actividá del sistema"
-
-#: krunnerapp.cpp:145
-msgid "Switch User"
-msgstr "Camudar d'usuariu"
-
-#: krunnerapp.cpp:155
-msgid "Lock Session"
-msgstr "Bloquiar sesión"
-
-#: krunnerapp.cpp:195
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr "Run Command (runner \"%1\" only)"
-
-#: configdialog.cpp:52
-msgid "Plugins"
-msgstr "Complementos"
-
-#: configdialog.cpp:81
-msgid "User Interface"
-msgstr "Interface d'usuariu"
-
-#: configdialog.cpp:87
-msgid "Available Features"
-msgstr "Funcionalidaes disponibles"
-
-#: ksystemactivitydialog.cpp:39
-msgid "System Activity"
-msgstr "Actividá del sistema"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

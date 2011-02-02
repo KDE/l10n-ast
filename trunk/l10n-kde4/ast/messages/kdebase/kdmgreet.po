@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-11 02:36+0100\n"
+"POT-Creation-Date: 2011-02-02 03:06+0100\n"
 "PO-Revision-Date: 2009-12-27 16:41+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -19,104 +19,78 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Language: asturian\n"
 
-#: themer/kdmlabel.cpp:247
+#: kchooser.cpp:59
+msgctxt "@action:inmenu"
+msgid "&Local Login"
+msgstr "Aniciu de sesión &llocal"
+
+#: kchooser.cpp:63
+msgid "XDMCP Host Menu"
+msgstr "Menú XDMCP pa máquines"
+
+#: kchooser.cpp:73
+msgctxt "@title:column"
+msgid "Hostname"
+msgstr "Nome del equipu"
+
+#: kchooser.cpp:74
+msgctxt "@title:column ... of named host"
+msgid "Status"
+msgstr "Estáu"
+
+#: kchooser.cpp:82
+msgctxt "XDMCP server"
+msgid "Hos&t:"
+msgstr "Má&quina:"
+
+#: kchooser.cpp:84
 msgctxt "@action:button"
-msgid "Lan_guage"
-msgstr "_Llingua"
+msgid "A&dd"
+msgstr "Ames&tar"
 
-#: themer/kdmlabel.cpp:248
+#: kchooser.cpp:93
 msgctxt "@action:button"
-msgid "Session _Type"
-msgstr "_Triba de sesión"
+msgid "&Accept"
+msgstr "&Aceutar"
 
-#: themer/kdmlabel.cpp:249
+#: kchooser.cpp:95
 msgctxt "@action:button"
-msgid "_Menu"
-msgstr "_Menú"
+msgid "&Refresh"
+msgstr "Anova&r"
 
-#. i18n("Actions");
-#: themer/kdmlabel.cpp:250
-msgctxt "@action:button ... from XDMCP server"
-msgid "Disconn_ect"
-msgstr "Descon_eutar"
-
-#: themer/kdmlabel.cpp:251
+#: kchooser.cpp:105 kgreeter.cpp:802
 msgctxt "@action:button"
-msgid "_Quit"
-msgstr "_Colar"
+msgid "&Menu"
+msgstr "&Menú"
 
-#: themer/kdmlabel.cpp:252
-msgctxt "@action:button"
-msgid "Power o_ff"
-msgstr "_Apagar"
+#: kchooser.cpp:203
+msgctxt "hostname or status"
+msgid "<unknown>"
+msgstr "<desconocíu>"
 
-#: themer/kdmlabel.cpp:254
-msgctxt "@action:button"
-msgid "Re_boot"
-msgstr "_Reaniciar"
-
-#: themer/kdmlabel.cpp:255
-msgctxt "@action:button"
-msgid "_Remote login"
-msgstr "Aniciu de sesión &remota"
-
-#: themer/kdmlabel.cpp:256
-msgid "Caps Lock is enabled"
-msgstr "El bloquéu de mayúscules ta habilitáu"
-
-#: themer/kdmlabel.cpp:257
-msgid "User %u will log in in %t"
-msgstr "L'usuariu %u aniciará una sesión en %t"
-
-#: themer/kdmlabel.cpp:258
-msgid "Welcome to %h"
-msgstr "Bienllegáu a %h"
-
-#: themer/kdmlabel.cpp:259
-msgid "_Domain:"
-msgstr "_Dominiu:"
-
-#: themer/kdmlabel.cpp:260
-msgid "_Username:"
-msgstr "Nome d'_usuariu:"
-
-#: themer/kdmlabel.cpp:261
-msgid "_Password:"
-msgstr "_Contraseña:"
-
-#: themer/kdmlabel.cpp:262
-msgctxt "@action:button"
-msgid "_Login"
-msgstr "_Identificación"
-
-#: themer/kdmlabel.cpp:293
+#: kchooser.cpp:242
 #, kde-format
-msgctxt "will login in ..."
-msgid "1 second"
-msgid_plural "%1 seconds"
-msgstr[0] "un segundu"
-msgstr[1] "%1 segundos"
+msgid "Unknown host %1"
+msgstr "Máquina desconocía %1"
 
-#: themer/kdmlabel.cpp:301
-#, no-c-format
-msgctxt "date format"
-msgid "%a %d %B"
-msgstr "%a, %d de %B"
+#: kconsole.cpp:70
+msgid "*** Cannot connect to console log ***"
+msgstr "*** Nun puede abrise'l rexistru de la consola ***"
 
-#: themer/kdmthemer.cpp:67
-#, kde-format
-msgid "Cannot open theme file %1"
-msgstr "Nun puede abrise'l ficheru de tema %1"
+#: kconsole.cpp:154
+msgid ""
+"\n"
+"*** Lost connection with console log ***"
+msgstr ""
+"\n"
+"*** Perdióse la conexón col rexistru de la consola ***"
 
-#: themer/kdmthemer.cpp:72
-#, kde-format
-msgid "Cannot parse theme file %1"
-msgstr "Nun puede analizase'l ficheru de tema %1"
-
-#: themer/kdmthemer.cpp:79
-#, kde-format
-msgid "%1 does not seem to be a correct theme file"
-msgstr "%1 nun paez ser un ficheru de tema correutu"
+#: kdmconfig.cpp:131
+msgctxt ""
+"@item:intext substitution for an undefined %X placeholder wrongly given in "
+"the config file 'kdmrc', telling the user to fix it"
+msgid "[fix kdmrc]"
+msgstr "[iguar kdmrc]"
 
 #: kdmshutdown.cpp:90
 msgid "Root authorization required."
@@ -338,50 +312,6 @@ msgctxt "session (location)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: utils.cpp:87
-#, kde-format
-msgctxt "user: ..."
-msgid "%2: TTY login"
-msgid_plural "%2: %1 TTY logins"
-msgstr[0] "%2: aniciu de sesión TTY"
-msgstr[1] "%2: %1 anicios de sesión TTY"
-
-#: utils.cpp:99
-msgctxt "... session"
-msgid "Unused"
-msgstr "Non usáu"
-
-#: utils.cpp:101
-#, kde-format
-msgctxt "user: session type"
-msgid "%1: %2"
-msgstr "%1: %2"
-
-#: utils.cpp:103
-#, kde-format
-msgctxt "... host"
-msgid "X login on %1"
-msgstr "Aniciu de sesión X en %1"
-
-#: krootimage.cpp:330
-msgid "KRootImage"
-msgstr "KRootImage"
-
-#: krootimage.cpp:331
-msgid "Fancy desktop background for kdm"
-msgstr "Fondu d'escritoriu pa KDM"
-
-#: krootimage.cpp:334
-msgid "Name of the configuration file"
-msgstr "Nome del ficheru de configuración"
-
-#: kdmconfig.cpp:131
-msgctxt ""
-"@item:intext substitution for an undefined %X placeholder wrongly given in "
-"the config file 'kdmrc', telling the user to fix it"
-msgid "[fix kdmrc]"
-msgstr "[iguar kdmrc]"
-
 #: kgreeter.cpp:482
 msgctxt "@item:inlistbox session type"
 msgid "Default"
@@ -431,11 +361,6 @@ msgctxt "@action:button"
 msgid "L&ogin"
 msgstr "&Accesu"
 
-#: kgreeter.cpp:802 kchooser.cpp:105
-msgctxt "@action:button"
-msgid "&Menu"
-msgstr "&Menú"
-
 #: kgreeter.cpp:833 kgreeter.cpp:970
 msgctxt "@title:menu"
 msgid "Session &Type"
@@ -454,67 +379,6 @@ msgstr "Aniciu de sesión &remota"
 #: kgreeter.cpp:921 kgverify.cpp:1085
 msgid "Login failed"
 msgstr "Falló l'accesu"
-
-#: kchooser.cpp:59
-msgctxt "@action:inmenu"
-msgid "&Local Login"
-msgstr "Aniciu de sesión &llocal"
-
-#: kchooser.cpp:63
-msgid "XDMCP Host Menu"
-msgstr "Menú XDMCP pa máquines"
-
-#: kchooser.cpp:73
-msgctxt "@title:column"
-msgid "Hostname"
-msgstr "Nome del equipu"
-
-#: kchooser.cpp:74
-msgctxt "@title:column ... of named host"
-msgid "Status"
-msgstr "Estáu"
-
-#: kchooser.cpp:82
-msgctxt "XDMCP server"
-msgid "Hos&t:"
-msgstr "Má&quina:"
-
-#: kchooser.cpp:84
-msgctxt "@action:button"
-msgid "A&dd"
-msgstr "Ames&tar"
-
-#: kchooser.cpp:93
-msgctxt "@action:button"
-msgid "&Accept"
-msgstr "&Aceutar"
-
-#: kchooser.cpp:95
-msgctxt "@action:button"
-msgid "&Refresh"
-msgstr "Anova&r"
-
-#: kchooser.cpp:203
-msgctxt "hostname or status"
-msgid "<unknown>"
-msgstr "<desconocíu>"
-
-#: kchooser.cpp:242
-#, kde-format
-msgid "Unknown host %1"
-msgstr "Máquina desconocía %1"
-
-#: kconsole.cpp:70
-msgid "*** Cannot connect to console log ***"
-msgstr "*** Nun puede abrise'l rexistru de la consola ***"
-
-#: kconsole.cpp:154
-msgid ""
-"\n"
-"*** Lost connection with console log ***"
-msgstr ""
-"\n"
-"*** Perdióse la conexón col rexistru de la consola ***"
 
 #: kgverify.cpp:187
 msgid "No greeter widget plugin loaded. Check the configuration."
@@ -633,3 +497,139 @@ msgstr "Tema non usable con métodu d'autenticación '%1'."
 msgctxt "@title:window"
 msgid "<qt><b>Changing authentication token</b></qt>"
 msgstr "<qt><b>Camudando la ficha d'autenticación</b></qt>"
+
+#: krootimage.cpp:330
+msgid "KRootImage"
+msgstr "KRootImage"
+
+#: krootimage.cpp:331
+msgid "Fancy desktop background for kdm"
+msgstr "Fondu d'escritoriu pa KDM"
+
+#: krootimage.cpp:334
+msgid "Name of the configuration file"
+msgstr "Nome del ficheru de configuración"
+
+#: themer/kdmlabel.cpp:247
+msgctxt "@action:button"
+msgid "Lan_guage"
+msgstr "_Llingua"
+
+#: themer/kdmlabel.cpp:248
+msgctxt "@action:button"
+msgid "Session _Type"
+msgstr "_Triba de sesión"
+
+#: themer/kdmlabel.cpp:249
+msgctxt "@action:button"
+msgid "_Menu"
+msgstr "_Menú"
+
+#. i18n("Actions");
+#: themer/kdmlabel.cpp:250
+msgctxt "@action:button ... from XDMCP server"
+msgid "Disconn_ect"
+msgstr "Descon_eutar"
+
+#: themer/kdmlabel.cpp:251
+msgctxt "@action:button"
+msgid "_Quit"
+msgstr "_Colar"
+
+#: themer/kdmlabel.cpp:252
+msgctxt "@action:button"
+msgid "Power o_ff"
+msgstr "_Apagar"
+
+#: themer/kdmlabel.cpp:254
+msgctxt "@action:button"
+msgid "Re_boot"
+msgstr "_Reaniciar"
+
+#: themer/kdmlabel.cpp:255
+msgctxt "@action:button"
+msgid "_Remote login"
+msgstr "Aniciu de sesión &remota"
+
+#: themer/kdmlabel.cpp:256
+msgid "Caps Lock is enabled"
+msgstr "El bloquéu de mayúscules ta habilitáu"
+
+#: themer/kdmlabel.cpp:257
+msgid "User %u will log in in %t"
+msgstr "L'usuariu %u aniciará una sesión en %t"
+
+#: themer/kdmlabel.cpp:258
+msgid "Welcome to %h"
+msgstr "Bienllegáu a %h"
+
+#: themer/kdmlabel.cpp:259
+msgid "_Domain:"
+msgstr "_Dominiu:"
+
+#: themer/kdmlabel.cpp:260
+msgid "_Username:"
+msgstr "Nome d'_usuariu:"
+
+#: themer/kdmlabel.cpp:261
+msgid "_Password:"
+msgstr "_Contraseña:"
+
+#: themer/kdmlabel.cpp:262
+msgctxt "@action:button"
+msgid "_Login"
+msgstr "_Identificación"
+
+#: themer/kdmlabel.cpp:293
+#, kde-format
+msgctxt "will login in ..."
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "un segundu"
+msgstr[1] "%1 segundos"
+
+#: themer/kdmlabel.cpp:301
+#, no-c-format
+msgctxt "date format"
+msgid "%a %d %B"
+msgstr "%a, %d de %B"
+
+#: themer/kdmthemer.cpp:67
+#, kde-format
+msgid "Cannot open theme file %1"
+msgstr "Nun puede abrise'l ficheru de tema %1"
+
+#: themer/kdmthemer.cpp:72
+#, kde-format
+msgid "Cannot parse theme file %1"
+msgstr "Nun puede analizase'l ficheru de tema %1"
+
+#: themer/kdmthemer.cpp:79
+#, kde-format
+msgid "%1 does not seem to be a correct theme file"
+msgstr "%1 nun paez ser un ficheru de tema correutu"
+
+#: utils.cpp:87
+#, kde-format
+msgctxt "user: ..."
+msgid "%2: TTY login"
+msgid_plural "%2: %1 TTY logins"
+msgstr[0] "%2: aniciu de sesión TTY"
+msgstr[1] "%2: %1 anicios de sesión TTY"
+
+#: utils.cpp:99
+msgctxt "... session"
+msgid "Unused"
+msgstr "Non usáu"
+
+#: utils.cpp:101
+#, kde-format
+msgctxt "user: session type"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: utils.cpp:103
+#, kde-format
+msgctxt "... host"
+msgid "X login on %1"
+msgstr "Aniciu de sesión X en %1"
