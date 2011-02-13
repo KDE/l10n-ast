@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-11 02:44+0100\n"
+"POT-Creation-Date: 2011-02-13 15:25+0100\n"
 "PO-Revision-Date: 2010-10-19 22:30+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -841,62 +841,6 @@ msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 llibre"
 
-#: views/dolphinview.cpp:500
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "seleicionáu <filename>%1</filename>"
-
-#: views/dolphinview.cpp:501
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr "<filename>%1</filename> seleicionáu (%2)"
-
-#: views/dolphinview.cpp:505
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "1 carpeta seleicionada"
-msgstr[1] "%1 carpetes seleicionaes"
-
-#: views/dolphinview.cpp:506
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "1 ficheru seleicionáu"
-msgstr[1] "%1 ficheros seleicionaos"
-
-#: views/dolphinview.cpp:508
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:511
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:1039
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "Operación d'esborráu finada."
-
-#: views/dolphinview.cpp:1141
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "La ubicación ta erma."
-
-#: views/dolphinview.cpp:1143
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "La ubicación '%1' ye inválida."
-
 #: views/draganddrophelper.cpp:108
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
@@ -950,11 +894,6 @@ msgstr "Carpetes enanchables"
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "Columnes"
-
-#: views/dolphincolumnview.cpp:88
-msgctxt "@info:tooltip"
-msgid "Resize column"
-msgstr ""
 
 #: views/dolphindirlister.cpp:41
 msgctxt "@info:status"
@@ -1088,6 +1027,11 @@ msgstr "Columnes"
 msgctxt "@info"
 msgid "Columns view mode"
 msgstr "Mou de vista de columnes"
+
+#: views/dolphincolumnview.cpp:88
+msgctxt "@info:tooltip"
+msgid "Resize column"
+msgstr ""
 
 #: views/versioncontrol/versioncontrolobserver.cpp:190
 msgctxt "@info:status"
@@ -1330,6 +1274,62 @@ msgstr "Prohibíu"
 msgctxt "@title:group Files and folders by permissions"
 msgid "(User: %1) (Group: %2) (Others: %3)"
 msgstr "(Usuariu: %1) (Grupu: %2) (Otros: %3)"
+
+#: views/dolphinview.cpp:504
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "seleicionáu <filename>%1</filename>"
+
+#: views/dolphinview.cpp:505
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr "<filename>%1</filename> seleicionáu (%2)"
+
+#: views/dolphinview.cpp:509
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 carpeta seleicionada"
+msgstr[1] "%1 carpetes seleicionaes"
+
+#: views/dolphinview.cpp:510
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 ficheru seleicionáu"
+msgstr[1] "%1 ficheros seleicionaos"
+
+#: views/dolphinview.cpp:512
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:515
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1047
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "Operación d'esborráu finada."
+
+#: views/dolphinview.cpp:1149
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "La ubicación ta erma."
+
+#: views/dolphinview.cpp:1151
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "La ubicación '%1' ye inválida."
 
 #: views/selectiontoggle.cpp:132
 msgctxt "@info:tooltip"
@@ -1678,36 +1678,6 @@ msgstr ""
 msgid "Unselect all items matching this pattern:"
 msgstr ""
 
-#: dolphinviewcontainer.cpp:313
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "Cargando carpeta..."
-
-#: dolphinviewcontainer.cpp:324
-msgctxt "@info"
-msgid "Searching..."
-msgstr "Guetando..."
-
-#: dolphinviewcontainer.cpp:344
-msgctxt "@info:status"
-msgid "No items found."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:423
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "Dolphin nun sofita páxines web, arrancóse un restolador"
-
-#: dolphinviewcontainer.cpp:435
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "Dolphin nun sofita esti protocolu, arrancóse Konqueror"
-
-#: dolphinviewcontainer.cpp:442
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "Protocolu non válidu"
-
 #: main.cpp:35
 msgctxt "@title"
 msgid "Dolphin"
@@ -1865,6 +1835,36 @@ msgstr "Mover a la puxarra"
 msgctxt "@action:inmenu"
 msgid "&Delete"
 msgstr "Desaniciar"
+
+#: dolphinviewcontainer.cpp:313
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "Cargando carpeta..."
+
+#: dolphinviewcontainer.cpp:324
+msgctxt "@info"
+msgid "Searching..."
+msgstr "Guetando..."
+
+#: dolphinviewcontainer.cpp:344
+msgctxt "@info:status"
+msgid "No items found."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:423
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "Dolphin nun sofita páxines web, arrancóse un restolador"
+
+#: dolphinviewcontainer.cpp:435
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "Dolphin nun sofita esti protocolu, arrancóse Konqueror"
+
+#: dolphinviewcontainer.cpp:442
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "Protocolu non válidu"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
