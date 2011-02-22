@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:19+0100\n"
+"POT-Creation-Date: 2011-02-22 03:33+0100\n"
 "PO-Revision-Date: 2009-12-18 18:26+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -339,44 +339,6 @@ msgstr " Nun puede abrise'l ficheru torrent %1: %2"
 msgid "Parse Error"
 msgstr "Fallu d'analís"
 
-#: src/torrent/torrentcontrol.cpp:308
-msgid "Error writing to disk, do you have enough diskspace?"
-msgstr ""
-
-#: src/torrent/torrentcontrol.cpp:545
-#, kde-format
-msgid ""
-"An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
-"torrent is probably corrupt or is not a valid torrent file."
-msgstr ""
-"Hebo un fallu mientres se cargaba'l torrent <b>%1</b>:<br/><b>%2</b><br/"
-">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
-"torrent válidu."
-
-#: src/torrent/torrentcontrol.cpp:575
-#, kde-format
-msgid "An error occurred while loading <b>%1</b>:<br/><b>%2</b>"
-msgstr ""
-
-#: src/torrent/torrentcontrol.cpp:586
-#, fuzzy, kde-format
-#| msgid "Unable to create %1 : %2"
-msgid "Unable to create %1: %2"
-msgstr "Nun pudo criase %1: %2"
-
-#: src/torrent/torrentcontrol.cpp:601
-#, kde-format
-msgid ""
-"You are already downloading the torrent <b>%1</b>. The tracker lists from "
-"both torrents have been merged."
-msgstr ""
-
-#: src/torrent/torrentcontrol.cpp:606
-#, fuzzy, kde-format
-#| msgid "How long we have been downloading the torrent"
-msgid "You are already downloading the torrent <b>%1</b>."
-msgstr "Durante cuántu tiempu tuvo baxádose'l torrent"
-
 #: src/torrent/torrentcreator.cpp:361
 #, kde-format
 msgid "Cannot create index file: %1"
@@ -440,25 +402,50 @@ msgstr "Posáu"
 msgid "Superseeding"
 msgstr "Semando"
 
+#: src/torrent/torrentcontrol.cpp:309
+msgid "Error writing to disk, do you have enough diskspace?"
+msgstr ""
+
+#: src/torrent/torrentcontrol.cpp:547
+#, kde-format
+msgid ""
+"An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
+"torrent is probably corrupt or is not a valid torrent file."
+msgstr ""
+"Hebo un fallu mientres se cargaba'l torrent <b>%1</b>:<br/><b>%2</b><br/"
+">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
+"torrent válidu."
+
+#: src/torrent/torrentcontrol.cpp:577
+#, kde-format
+msgid "An error occurred while loading <b>%1</b>:<br/><b>%2</b>"
+msgstr ""
+
+#: src/torrent/torrentcontrol.cpp:588
+#, fuzzy, kde-format
+#| msgid "Unable to create %1 : %2"
+msgid "Unable to create %1: %2"
+msgstr "Nun pudo criase %1: %2"
+
+#: src/torrent/torrentcontrol.cpp:603
+#, kde-format
+msgid ""
+"You are already downloading the torrent <b>%1</b>. The tracker lists from "
+"both torrents have been merged."
+msgstr ""
+
+#: src/torrent/torrentcontrol.cpp:608
+#, fuzzy, kde-format
+#| msgid "How long we have been downloading the torrent"
+msgid "You are already downloading the torrent <b>%1</b>."
+msgstr "Durante cuántu tiempu tuvo baxádose'l torrent"
+
 #: src/tracker/httpannouncejob.cpp:142
 msgid "Redirect without a redirect location"
 msgstr "Redirixíu ensin un nuevu allugamientu"
 
-#: src/tracker/httptracker.cpp:280 src/tracker/httptracker.cpp:300
-#: src/tracker/httptracker.cpp:462
-msgid "Invalid response from tracker"
-msgstr "Rempuesta nun válida del llocalizador"
-
-#: src/tracker/httptracker.cpp:293
-msgid "Invalid data from tracker"
-msgstr "Datos nun válidos del llocalizador"
-
-#: src/tracker/httptracker.cpp:479
-msgid "Invalid tracker URL"
-msgstr "URL nun válidu del llocalizador"
-
-#: src/tracker/httptracker.cpp:557 src/tracker/udptracker.cpp:372
-#: src/tracker/udptracker.cpp:382
+#: src/tracker/udptracker.cpp:372 src/tracker/udptracker.cpp:382
+#: src/tracker/httptracker.cpp:561
 #, kde-format
 msgid "Timeout contacting tracker %1"
 msgstr ""
@@ -467,6 +454,19 @@ msgstr ""
 #, kde-format
 msgid "Unable to resolve hostname %1"
 msgstr "Nun foi posible resolver el nome de máquina %1"
+
+#: src/tracker/httptracker.cpp:284 src/tracker/httptracker.cpp:304
+#: src/tracker/httptracker.cpp:466
+msgid "Invalid response from tracker"
+msgstr "Rempuesta nun válida del llocalizador"
+
+#: src/tracker/httptracker.cpp:297
+msgid "Invalid data from tracker"
+msgstr "Datos nun válidos del llocalizador"
+
+#: src/tracker/httptracker.cpp:483
+msgid "Invalid tracker URL"
+msgstr "URL nun válidu del llocalizador"
 
 #: src/upnp/httprequest.cpp:96
 #, fuzzy
@@ -606,11 +606,11 @@ msgstr "Entrada/Salida de discu"
 msgid "µTP"
 msgstr ""
 
-#: src/util/signalcatcher.cpp:57
+#: src/util/signalcatcher.cpp:62
 msgid "Error when writing to disk"
 msgstr ""
 
-#: src/util/signalcatcher.cpp:57
+#: src/util/signalcatcher.cpp:62
 #, fuzzy
 #| msgid "Error reading from %1"
 msgid "Error when reading from disk"
