@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-07 02:39+0100\n"
+"POT-Creation-Date: 2011-02-23 03:13+0100\n"
 "PO-Revision-Date: 2010-10-19 21:47+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -18,7 +18,46 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: IpodExportDialog.cpp:111 plugin_ipodexport.cpp:87
+#: IpodHeader.cpp:94
+msgid "<p align=\"center\"><b>No iPod was detected</b></p>"
+msgstr "<p align=\"center\"><b>Nun se deteutó l'iPod</b></p>"
+
+#: IpodHeader.cpp:101
+msgid "Refresh"
+msgstr "Refrescar"
+
+#: IpodHeader.cpp:114
+#, kde-format
+msgid ""
+"<p align=\"center\"><b>Your iPod (%1) does not seem to support artwork.</b></"
+"p>"
+msgstr ""
+"<p align=\"center\"><b>El to iPod(%1) nun paez que sofite material gráficu.</"
+"b></p>"
+
+#: IpodHeader.cpp:122
+msgid "Set iPod Model"
+msgstr "Afitar modelu d'iPod"
+
+#: IpodHeader.cpp:138
+#, kde-format
+msgid "<p align=\"center\"><b>iPod %1 detected at: %2</b></p>"
+msgstr "<p align=\"center\"><b>iPod %1 detectáu en: %2</b></p>"
+
+#: IpodHeader.cpp:143
+#, kde-format
+msgid "<p align=\"center\"><b>iPod %1 detected</b></p>"
+msgstr "<p align=\"center\"><b>iPod %1 detectáu</b></p>"
+
+#: IpodListItem.cpp:40
+msgid "Unnamed"
+msgstr "Ensin nome"
+
+#: plugin_ipodexport.cpp:71
+msgid "Export to &iPod..."
+msgstr "Esportar a &iPod..."
+
+#: plugin_ipodexport.cpp:87 IpodExportDialog.cpp:111
 msgid "iPod Export"
 msgstr "Esportación d'iPod"
 
@@ -138,7 +177,7 @@ msgstr "Camudar el nome d'un álbum de semeyes del iPod"
 msgid "New album title:"
 msgstr "Títulu del álbum nuevu:"
 
-#: IpodExportDialog.cpp:821
+#: IpodExportDialog.cpp:819
 #, kde-format
 msgid ""
 "An iPod photo database could not be found on the device mounted at %1. "
@@ -147,52 +186,13 @@ msgstr ""
 "Nun puede atopase una base datos d'iPod nel preséu montáu en %1. ¿Aniciar la "
 "base datos de semeyes d'iPod?"
 
-#: IpodExportDialog.cpp:825
+#: IpodExportDialog.cpp:823
 msgid "Initialize iPod Photo Database?"
 msgstr "¿Aniciar la base datos de semeyes del iPod?"
 
-#: IpodExportDialog.cpp:826
+#: IpodExportDialog.cpp:824
 msgid "&Initialize"
 msgstr "&Anicializar"
-
-#: IpodHeader.cpp:94
-msgid "<p align=\"center\"><b>No iPod was detected</b></p>"
-msgstr "<p align=\"center\"><b>Nun se deteutó l'iPod</b></p>"
-
-#: IpodHeader.cpp:101
-msgid "Refresh"
-msgstr "Refrescar"
-
-#: IpodHeader.cpp:114
-#, kde-format
-msgid ""
-"<p align=\"center\"><b>Your iPod (%1) does not seem to support artwork.</b></"
-"p>"
-msgstr ""
-"<p align=\"center\"><b>El to iPod(%1) nun paez que sofite material gráficu.</"
-"b></p>"
-
-#: IpodHeader.cpp:122
-msgid "Set iPod Model"
-msgstr "Afitar modelu d'iPod"
-
-#: IpodHeader.cpp:138
-#, kde-format
-msgid "<p align=\"center\"><b>iPod %1 detected at: %2</b></p>"
-msgstr "<p align=\"center\"><b>iPod %1 detectáu en: %2</b></p>"
-
-#: IpodHeader.cpp:143
-#, kde-format
-msgid "<p align=\"center\"><b>iPod %1 detected</b></p>"
-msgstr "<p align=\"center\"><b>iPod %1 detectáu</b></p>"
-
-#: IpodListItem.cpp:40
-msgid "Unnamed"
-msgstr "Ensin nome"
-
-#: plugin_ipodexport.cpp:71
-msgid "Export to &iPod..."
-msgstr "Esportar a &iPod..."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
