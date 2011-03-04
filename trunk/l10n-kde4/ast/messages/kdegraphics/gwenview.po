@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-21 03:40+0100\n"
+"POT-Creation-Date: 2011-03-04 03:32+0100\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -1020,22 +1020,6 @@ msgctxt "@info"
 msgid "Gwenview cannot save this kind of documents."
 msgstr "Gwenview nun puede editar esta triba d'imaxe."
 
-#: lib/document/loadingdocumentimpl.cpp:126
-#, kde-format
-msgctxt "@info"
-msgid "Gwenview cannot display documents of type %1."
-msgstr "Gwenview nun puede amosar documentos de triba %1."
-
-#: lib/document/loadingdocumentimpl.cpp:387
-msgctxt "@info"
-msgid "Loading meta information failed."
-msgstr "Falló la carga de metainformación."
-
-#: lib/document/loadingdocumentimpl.cpp:414
-msgctxt "@info"
-msgid "Loading image failed."
-msgstr "Falló la carga d'una imaxe."
-
 #: lib/document/loadingjob.cpp:56
 #, kde-format
 msgid "Could not load document %1"
@@ -1060,6 +1044,30 @@ msgid ""
 msgstr ""
 "Nun puede sobroscribise'l ficheru. Compruebe que tien los permisos "
 "necesarios sobro <filename>%1</filename>."
+
+#: lib/document/loadingdocumentimpl.cpp:126
+#, kde-format
+msgctxt "@info"
+msgid "Gwenview cannot display documents of type %1."
+msgstr "Gwenview nun puede amosar documentos de triba %1."
+
+#: lib/document/loadingdocumentimpl.cpp:299
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Could not open file for writing."
+msgctxt "@info"
+msgid "Could not open file %1"
+msgstr "Nun pudo abrise'l ficheru pa escritura"
+
+#: lib/document/loadingdocumentimpl.cpp:387
+msgctxt "@info"
+msgid "Loading meta information failed."
+msgstr "Falló la carga de metainformación."
+
+#: lib/document/loadingdocumentimpl.cpp:414
+msgctxt "@info"
+msgid "Loading image failed."
+msgstr "Falló la carga d'una imaxe."
 
 #: lib/documentview/documentview.cpp:152
 msgid "Zoom to Fit"

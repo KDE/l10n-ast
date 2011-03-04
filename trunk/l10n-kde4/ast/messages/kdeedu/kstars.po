@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-03 03:33+0100\n"
+"POT-Creation-Date: 2011-03-04 03:31+0100\n"
 "PO-Revision-Date: 2010-10-22 19:48+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -177,7 +177,7 @@ msgstr ""
 "L'esquema nun s'atroxará."
 
 #: colorscheme.cpp:229 colorscheme.cpp:244 kstarsactions.cpp:594
-#: skymap.cpp:1090 tools/modcalcaltaz.cpp:238 tools/modcalcangdist.cpp:128
+#: skymap.cpp:1070 tools/modcalcaltaz.cpp:238 tools/modcalcangdist.cpp:128
 #: tools/modcalcapcoord.cpp:151 tools/modcalcdaylength.cpp:246
 #: tools/modcalceclipticcoords.cpp:203 tools/modcalcgalcoord.cpp:193
 #: tools/modcalcgeodcoord.cpp:232 tools/modcalcjd.cpp:123
@@ -565,7 +565,7 @@ msgstr "Nun camudar"
 msgid "Engage &Tracking"
 msgstr "Activar &seguimientu"
 
-#: kstarsactions.cpp:719 kstars.cpp:149 skymap.cpp:464
+#: kstarsactions.cpp:719 kstars.cpp:149 skymap.cpp:444
 msgid "Stop &Tracking"
 msgstr "Detener &seguimientu"
 
@@ -612,14 +612,14 @@ msgstr "&Coordenaes ecuatoriales"
 msgid "Projection system: %1"
 msgstr "Sistema de proteición: %1"
 
-#: kstars.cpp:158 kstarsinit.cpp:225 more-messages.cpp:16 skymap.cpp:1169
+#: kstars.cpp:158 kstarsinit.cpp:225 more-messages.cpp:16 skymap.cpp:1149
 msgid "Switch to QPainter backend"
 msgstr ""
 
 #. i18n: file: kstars.kcfg:693
 #. i18n: ectx: label, entry (UseGL), group (View)
 #: kstars.cpp:158 kstarsinit.cpp:225 more-messages.cpp:14 rc.cpp:5371
-#: skymap.cpp:1146 skymap.cpp:1153 skymap.cpp:1161
+#: skymap.cpp:1126 skymap.cpp:1133 skymap.cpp:1141
 msgid "Switch to OpenGL backend"
 msgstr ""
 
@@ -25022,7 +25022,7 @@ msgstr "Editar símbolos del campu de visión..."
 msgid " Welcome to KStars "
 msgstr " Bienveníu a KStars "
 
-#: kstarsinit.cpp:590 skymap.cpp:424 widgets/infoboxwidget.cpp:117
+#: kstarsinit.cpp:590 skymap.cpp:404 widgets/infoboxwidget.cpp:117
 msgid "nothing"
 msgstr "res"
 
@@ -25203,14 +25203,14 @@ msgstr "Guardada nel ficheru: %1"
 
 #. i18n: file: kstars.kcfg:694
 #. i18n: ectx: whatsthis, entry (UseGL), group (View)
-#: more-messages.cpp:12 rc.cpp:5374 skymap.cpp:1150
+#: more-messages.cpp:12 rc.cpp:5374 skymap.cpp:1130
 msgid ""
 "This version of KStars comes with new experimental OpenGL support. Our "
 "experience is that OpenGL works much faster on machines with hardware "
 "acceleration. Would you like to switch to OpenGL painting backends?"
 msgstr ""
 
-#: more-messages.cpp:18 skymap.cpp:1160
+#: more-messages.cpp:18 skymap.cpp:1140
 msgid ""
 "Infoboxes will be disabled as they do not work correctly when using OpenGL "
 "backends as of this version"
@@ -29674,7 +29674,7 @@ msgstr "Abre la ventana de Detalles pal oxetu resaltáu."
 
 #. i18n: file: tools/wutdialog.ui:480
 #. i18n: ectx: property (text), widget (KPushButton, DetailButton)
-#: rc.cpp:2391 skymap.cpp:751 dialogs/detaildialog.cpp:80
+#: rc.cpp:2391 skymap.cpp:731 dialogs/detaildialog.cpp:80
 msgid "Object Details"
 msgstr "Detalles d'oxetu"
 
@@ -36003,15 +36003,11 @@ msgstr "Imposible configurar el reló:  Data/Hora inválida."
 msgid "New clock scale: %1 sec"
 msgstr "Nueva escala del reló: %1 seg"
 
-#: skymap.cpp:98 skycomponents/horizoncomponent.cpp:323
-msgid "Unrecognized coordinate projection: "
-msgstr "Proyeición de coordenaes desconocida: "
-
-#: skymap.cpp:446
+#: skymap.cpp:426
 msgid "Requested Position Below Horizon"
 msgstr "Posición solicitada per debaxo del horizonte"
 
-#: skymap.cpp:447
+#: skymap.cpp:427
 msgid ""
 "The requested position is below the horizon.\n"
 "Would you like to go there anyway?"
@@ -36019,15 +36015,15 @@ msgstr ""
 "La posición solicitada ta por debaxo del horizonte.\n"
 "¿Deseya apuntar ehí de toes formes?"
 
-#: skymap.cpp:449
+#: skymap.cpp:429
 msgid "Go Anyway"
 msgstr "Dir de toes formes"
 
-#: skymap.cpp:449
+#: skymap.cpp:429
 msgid "Keep Position"
 msgstr "Caltener posición"
 
-#: skymap.cpp:525
+#: skymap.cpp:505
 msgid ""
 "Digitized Sky Survey image provided by the Space Telescope Science Institute "
 "[public domain]."
@@ -36035,7 +36031,7 @@ msgstr ""
 "Imaxe del Digitized Sky Survey proporcionada pol Space Telescope Science "
 "Institute [dominiu públicu]."
 
-#: skymap.cpp:564
+#: skymap.cpp:544
 msgid ""
 "Sloan Digital Sky Survey image provided by the Astrophysical Research "
 "Consortium [free for non-commercial use]."
@@ -36043,16 +36039,16 @@ msgstr ""
 "Imaxe del Sloan Digital Sky Survey proporcionada pol Astrophysical Research "
 "Consortium [llibre pa usu non comercial]."
 
-#: skymap.cpp:620
+#: skymap.cpp:600
 #, kde-format
 msgid "Angular distance: %1"
 msgstr "Distancia angular: %1"
 
-#: skymap.cpp:751
+#: skymap.cpp:731
 msgid "No object selected."
 msgstr "Dengún oxetu esbilláu."
 
-#: skymap.cpp:1089
+#: skymap.cpp:1069
 msgid ""
 "Custom image-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -36060,7 +36056,7 @@ msgstr ""
 "El ficheru d'enllaces d'imáxenes personalizáu nun puede abrise.\n"
 "Nun s'atroxará l'enllaz pa futures sesiones."
 
-#: skymap.cpp:1108
+#: skymap.cpp:1088
 msgid ""
 "Custom information-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -36068,15 +36064,15 @@ msgstr ""
 "Nun se puede abrir el ficheru d'enllaces d'información personalizados.\n"
 "Nun s'atroxará l'enllaz pa futures sesiones."
 
-#: skymap.cpp:1108
+#: skymap.cpp:1088
 msgid "Could not Open File"
 msgstr "Imposible abrir el ficheru"
 
-#: skymap.cpp:1184
+#: skymap.cpp:1164
 msgid "Xplanet binary path is empty in config panel."
 msgstr ""
 
-#: skymap.cpp:1289
+#: skymap.cpp:1269
 #, kde-format
 msgid "Run : %1"
 msgstr ""
@@ -38773,6 +38769,10 @@ msgstr ""
 #: skycomponents/horizoncomponent.cpp:40
 msgid "Creating horizon"
 msgstr "Creando horizonte"
+
+#: skycomponents/horizoncomponent.cpp:323
+msgid "Unrecognized coordinate projection: "
+msgstr "Proyeición de coordenaes desconocida: "
 
 #: skycomponents/horizoncomponent.cpp:457
 msgctxt "Northeast"
