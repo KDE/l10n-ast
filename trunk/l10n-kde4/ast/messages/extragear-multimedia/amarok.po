@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-04 03:20+0100\n"
+"POT-Creation-Date: 2011-03-05 03:38+0100\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -310,7 +310,7 @@ msgid "Name"
 msgstr "Nome"
 
 #: amarokurls/BookmarkModel.cpp:266
-#: browsers/playlistbrowser/PodcastModel.cpp:336
+#: browsers/playlistbrowser/PodcastModel.cpp:335
 #: playlist/PlaylistModel.cpp:901
 msgid "Type"
 msgstr "Triba"
@@ -1083,71 +1083,6 @@ msgctxt "Enter a new name for a folder that already exists"
 msgid "Enter new folder name:"
 msgstr "Pon el nome nuevu de carpeta:"
 
-#: browsers/playlistbrowser/PodcastCategory.cpp:77
-msgid "Podcasts"
-msgstr "Podcasts"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:78
-msgid "List of podcast subscriptions and episodes"
-msgstr ""
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:81
-msgid ""
-"Manage your podcast subscriptions and browse individual episodes. "
-"Downloading episodes to the disk is also done here, or you can tell Amarok "
-"to do this automatically."
-msgstr ""
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:87
-#, fuzzy
-#| msgid "Add Podcast"
-msgid "&Add Podcast"
-msgstr "Amestar podcast"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:94
-#, fuzzy
-#| msgid "&Update Channel"
-msgid "&Update All"
-msgstr "A&novar canal"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:102
-#: browsers/playlistbrowser/PodcastCategory.cpp:105
-#, fuzzy
-#| msgid "Imported Playlist Files"
-msgid "Import OPML File"
-msgstr "Ficheros de llistes de reproducción importaos"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:159
-msgid "By"
-msgstr ""
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:198
-#, fuzzy
-#| msgid "On"
-msgctxt "Podcast published on date"
-msgid "On"
-msgstr "Prendíu"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:216
-#, fuzzy
-#| msgid "File Size"
-msgid "File Size:"
-msgstr "Tamañu del ficheru"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:228
-#, fuzzy
-#| msgid "&Remove Subscription"
-msgid "Subscription Date:"
-msgstr "&Desaniciar subscripción"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:236
-msgid "Keywords:"
-msgstr ""
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:274
-msgid "Select OPML file to import"
-msgstr ""
-
 #: browsers/playlistbrowser/UserPlaylistCategory.cpp:58
 msgid "Saved Playlists"
 msgstr "Llistes de reproducción guardaes"
@@ -1163,12 +1098,73 @@ msgid ""
 "save are also shown here."
 msgstr ""
 
-#: browsers/playlistbrowser/PodcastModel.cpp:72
+#: browsers/playlistbrowser/PodcastCategory.cpp:78
+msgid "Podcasts"
+msgstr "Podcasts"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:79
+msgid "List of podcast subscriptions and episodes"
+msgstr ""
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:82
+msgid ""
+"Manage your podcast subscriptions and browse individual episodes. "
+"Downloading episodes to the disk is also done here, or you can tell Amarok "
+"to do this automatically."
+msgstr ""
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:88
+#, fuzzy
+#| msgid "Add Podcast"
+msgid "&Add Podcast"
+msgstr "Amestar podcast"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:95
+#, fuzzy
+#| msgid "&Update Channel"
+msgid "&Update All"
+msgstr "A&novar canal"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:103
+#: browsers/playlistbrowser/PodcastCategory.cpp:106
+#, fuzzy
+#| msgid "Imported Playlist Files"
+msgid "Import OPML File"
+msgstr "Ficheros de llistes de reproducción importaos"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:160
+msgid "By"
+msgstr ""
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:199
+#, fuzzy
+#| msgid "On"
+msgctxt "Podcast published on date"
+msgid "On"
+msgstr "Prendíu"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:217
+#, fuzzy
+#| msgid "File Size"
+msgid "File Size:"
+msgstr "Tamañu del ficheru"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:229
+#, fuzzy
+#| msgid "&Remove Subscription"
+msgid "Subscription Date:"
+msgstr "&Desaniciar subscripción"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:237
+msgid "Keywords:"
+msgstr ""
+
+#: browsers/playlistbrowser/PodcastModel.cpp:71
 msgctxt "toggle the \"new\" status of this podcast episode"
 msgid "&New"
 msgstr "&Nuevu"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:267
+#: browsers/playlistbrowser/PodcastModel.cpp:266
 #, fuzzy, kde-format
 #| msgid "&Update Channel"
 msgctxt "number of podcasts from one source"
@@ -1179,7 +1175,7 @@ msgstr[1] "A&novar canal"
 
 #. i18n: file: context/applets/tabs/ReloadEditDialog.ui:86
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: browsers/playlistbrowser/PodcastModel.cpp:337
+#: browsers/playlistbrowser/PodcastModel.cpp:336
 #: core/meta/support/MetaConstants.cpp:105
 #: dialogs/FilenameLayoutDialog.cpp:226 dialogs/FilenameLayoutDialog.cpp:577
 #: musicbrainz/MusicBrainzTags.cpp:358 playlist/PlaylistModel.cpp:889
@@ -1187,15 +1183,15 @@ msgstr[1] "A&novar canal"
 msgid "Title"
 msgstr "Títulu"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:338 dialogs/TagDialog.cpp:548
+#: browsers/playlistbrowser/PodcastModel.cpp:337 dialogs/TagDialog.cpp:548
 msgid "Summary"
 msgstr "Resume"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:358
+#: browsers/playlistbrowser/PodcastModel.cpp:357
 msgid "Add Podcast"
 msgstr "Amestar podcast"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:359
+#: browsers/playlistbrowser/PodcastModel.cpp:358
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr ""
 
@@ -3402,7 +3398,7 @@ msgid "&Configure General Settings"
 msgstr "Configurar les opciones xenerales"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:300
-msgid "&Export to subscriptions to OPML file"
+msgid "&Export subscriptions to OPML file"
 msgstr ""
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:324
@@ -8129,7 +8125,7 @@ msgstr ""
 
 #: services/opmldirectory/OpmlDirectoryModel.cpp:41
 #: services/opmldirectory/OpmlDirectoryModel.cpp:294
-#: services/opmldirectory/OpmlDirectoryService.cpp:144
+#: services/opmldirectory/OpmlDirectoryService.cpp:143
 msgid "Add OPML"
 msgstr ""
 
@@ -8154,10 +8150,16 @@ msgid ""
 "directly from within Amarok."
 msgstr ""
 
-#: services/opmldirectory/OpmlDirectoryService.cpp:135
+#: services/opmldirectory/OpmlDirectoryService.cpp:134
 #: services/gpodder/GpodderService.cpp:177
 msgid "Subscribe"
 msgstr ""
+
+#: services/opmldirectory/OpmlDirectoryService.cpp:168
+#, fuzzy
+#| msgid "Add this filter condition to the list"
+msgid "Add an OPML file to the list."
+msgstr "Amestar esta condición de filtru a la llista"
 
 #: services/scriptable/ScriptableServiceInfoParser.cpp:44
 #: services/scriptable/ScriptableServiceInfoParser.cpp:62
@@ -12243,7 +12245,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, urlLabel)
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:52
 #. i18n: ectx: property (text), widget (QLabel, m_urlLabel)
-#. i18n: file: services/opmldirectory/AddOpmlWidget.ui:68
+#. i18n: file: services/opmldirectory/AddOpmlWidget.ui:65
 #. i18n: ectx: property (text), widget (QLabel, UrlLabel)
 #: rc.cpp:1106 rc.cpp:1169 rc.cpp:2483
 msgid "URL:"
@@ -12738,7 +12740,7 @@ msgstr "Vista previa del destín"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:556
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#. i18n: file: services/opmldirectory/AddOpmlWidget.ui:81
+#. i18n: file: services/opmldirectory/AddOpmlWidget.ui:78
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: rc.cpp:1420 rc.cpp:2486
 #, fuzzy
@@ -14564,14 +14566,14 @@ msgid ""
 "html>"
 msgstr ""
 
-#. i18n: file: services/opmldirectory/AddOpmlWidget.ui:40
+#. i18n: file: services/opmldirectory/AddOpmlWidget.ui:37
 #. i18n: ectx: property (text), widget (QLabel, instructionsLabel)
 #: rc.cpp:2480
 msgid "Add a local or remote OPML file to be included in the list."
 msgstr ""
 
-#. i18n: file: services/opmldirectory/AddOpmlWidget.ui:91
-#. i18n: ectx: property (placeholderText), widget (KLineEdit, titleEdit)
+#. i18n: file: services/opmldirectory/AddOpmlWidget.ui:88
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, titleEdit)
 #: rc.cpp:2489
 msgid "If left blank the title from the OPML will be used."
 msgstr ""
@@ -14775,9 +14777,6 @@ msgstr ""
 #~ "\"OK\" zarrará'l diálogu y aplicará'l filtru definíu. Con esti botón "
 #~ "puede amestar mas d'una condición y criar condiciones de filtráu más "
 #~ "complexes.</p></qt>"
-
-#~ msgid "Add this filter condition to the list"
-#~ msgstr "Amestar esta condición de filtru a la llista"
 
 #~ msgid ""
 #~ "<p>By clicking here you will clear the filter. If you intend to undo the "
