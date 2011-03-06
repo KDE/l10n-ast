@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phononserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-23 03:24+0100\n"
+"POT-Creation-Date: 2011-03-06 03:30+0100\n"
 "PO-Revision-Date: 2010-10-21 20:26+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -17,23 +17,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-Language: asturian\n"
 
-#: audiodeviceaccess.cpp:42
+#: deviceaccess.cpp:67
 msgid "Invalid Driver"
 msgstr "Controlador inválidu"
 
-#: audiodeviceaccess.cpp:44
+#: deviceaccess.cpp:69
 msgid "ALSA"
 msgstr "ALSA"
 
-#: audiodeviceaccess.cpp:46
+#: deviceaccess.cpp:71
 msgid "OSS"
 msgstr "OSS"
 
-#: audiodeviceaccess.cpp:48
+#: deviceaccess.cpp:73
 msgid "Jack"
 msgstr "Jack"
 
-#: audiodevice.cpp:60
+#: deviceaccess.cpp:75
+msgid "Video 4 Linux"
+msgstr ""
+
+#: deviceinfo.cpp:95
 msgid ""
 "<html>This device is currently not available (either it is unplugged or the "
 "driver is not loaded).</html>"
@@ -41,7 +45,7 @@ msgstr ""
 "<html>Esti preséu nun ta disponible anguaño (o ta desconectáu, o el "
 "controlador nun ta cargáu).</html>"
 
-#: audiodevice.cpp:67
+#: deviceinfo.cpp:103
 #, kde-format
 msgctxt ""
 "The first argument is name of the driver/sound subsystem. The second "
@@ -49,7 +53,7 @@ msgctxt ""
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: audiodevice.cpp:71
+#: deviceinfo.cpp:108
 #, kde-format
 msgid ""
 "<html>This will try the following devices and use the first that works: <ol>%"
@@ -58,53 +62,79 @@ msgstr ""
 "<html>Esto probará los preseos darréu y usará'l primeru que funcione: <ol>%"
 "1</ol></html>"
 
-#: phononserver.cpp:226
+#: phononserver.cpp:228
 msgid "Unknown"
 msgstr ""
 
-#: phononserver.cpp:237
+#: phononserver.cpp:239
 #, kde-format
 msgctxt "%1 is the sound card name, %2 is the description in case it exists"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: phononserver.cpp:607
+#: phononserver.cpp:742
 #, kde-format
 msgid "Output: %1"
 msgstr "Salida: %1"
 
-#: phononserver.cpp:608
+#: phononserver.cpp:742
 #, kde-format
 msgid "Capture: %1"
 msgstr "Captura: %1"
 
-#: phononserver.cpp:864
+#: phononserver.cpp:747
+#, kde-format
+msgid "Video: %1"
+msgstr ""
+
+#: phononserver.cpp:1129
 msgid "Removed Sound Devices"
 msgstr "Preseos de soníu quitaos"
 
-#: phononserver.cpp:870
+#: phononserver.cpp:1129
+#, fuzzy
+#| msgid "Removed Sound Devices"
+msgid "Removed Video Devices"
+msgstr "Preseos de soníu quitaos"
+
+#: phononserver.cpp:1135
 msgid "Forget about the sound devices."
 msgstr "Escaecer los preseos de soníu."
 
-#: phononserver.cpp:874
+#: phononserver.cpp:1135
+#, fuzzy
+#| msgid "Forget about the sound devices."
+msgid "Forget about the video devices"
+msgstr "Escaecer los preseos de soníu."
+
+#: phononserver.cpp:1139
 msgctxt ""
 "short string for a button, it opens the Phonon page of System Settings"
 msgid "Manage Devices"
 msgstr "Xestionar preseos"
 
-#: phononserver.cpp:876
+#: phononserver.cpp:1141
+#, fuzzy
+#| msgid ""
+#| "Open the System Settings page for sound device configuration where you "
+#| "can manually remove disconnected devices from the cache."
 msgid ""
-"Open the System Settings page for sound device configuration where you can "
+"Open the System Settings page for device configuration where you can "
 "manually remove disconnected devices from the cache."
 msgstr ""
 "Abrir la páxina de configuración del preséu de soníu en Preferencies del "
 "Sistema, onde puedes desaniciar de mou manual de la caché los preseos "
 "desconectaos."
 
-#: phononserver.cpp:883
-#, kde-format
+#: phononserver.cpp:1148
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><p>KDE detected that one or more internal sound devices were "
+#| "removed.</p><p><b>Do you want KDE to permanently forget about these "
+#| "devices?</b></p><p>This is the list of devices KDE thinks can be removed:"
+#| "<ul><li>%1</li></ul></p></html>"
 msgid ""
-"<html><p>KDE detected that one or more internal sound devices were removed.</"
+"<html><p>KDE detected that one or more internal devices were removed.</"
 "p><p><b>Do you want KDE to permanently forget about these devices?</b></"
 "p><p>This is the list of devices KDE thinks can be removed:<ul><li>%1</li></"
 "ul></p></html>"
@@ -114,6 +144,6 @@ msgstr ""
 "p><p>Esta ye la llista de preseos que KDE cree que pueden desaniciase:"
 "<ul><li>%1</li></ul></p></html>"
 
-#: phononserver.cpp:888
+#: phononserver.cpp:1153
 msgid "Do not ask again for these devices"
 msgstr "Nun volver a entrugar por esos preseos"
