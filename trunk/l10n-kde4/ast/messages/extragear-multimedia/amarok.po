@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-11 03:26+0100\n"
+"POT-Creation-Date: 2011-03-13 03:22+0100\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -2129,7 +2129,7 @@ msgstr ""
 
 #. i18n: file: context/applets/lyrics/lyricsSettings.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, lyricsSettings)
-#: rc.cpp:975 context/applets/lyrics/LyricsApplet.cpp:642
+#: rc.cpp:975 context/applets/lyrics/LyricsApplet.cpp:647
 #, fuzzy
 #| msgid "Settings"
 msgid "Lyrics Settings"
@@ -4988,7 +4988,7 @@ msgstr ""
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
 #: rc.cpp:2446 context/applets/albums/Albums.cpp:334
-#: context/applets/lyrics/LyricsApplet.cpp:418
+#: context/applets/lyrics/LyricsApplet.cpp:423
 #: firstruntutorial/FirstRunTutorialPage.cpp:56
 msgid "Close"
 msgstr "Pesllar"
@@ -6333,10 +6333,10 @@ msgid "Generic"
 msgstr "Xeneral"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:57
-#: context/applets/lyrics/LyricsApplet.cpp:393
-#: context/applets/lyrics/LyricsApplet.cpp:506
-#: context/applets/lyrics/LyricsApplet.cpp:532
-#: context/applets/lyrics/LyricsApplet.cpp:558 dialogs/TagDialog.cpp:550
+#: context/applets/lyrics/LyricsApplet.cpp:398
+#: context/applets/lyrics/LyricsApplet.cpp:511
+#: context/applets/lyrics/LyricsApplet.cpp:537
+#: context/applets/lyrics/LyricsApplet.cpp:563 dialogs/TagDialog.cpp:550
 msgid "Lyrics"
 msgstr "Lletra"
 
@@ -6442,7 +6442,7 @@ msgstr ""
 
 #: context/applets/albums/Albums.cpp:74
 #: context/applets/labels/LabelsApplet.cpp:111
-#: context/applets/lyrics/LyricsApplet.cpp:432
+#: context/applets/lyrics/LyricsApplet.cpp:437
 #: context/applets/photos/PhotosApplet.cpp:76
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:97
 #: context/applets/tabs/TabsApplet.cpp:104
@@ -6660,66 +6660,66 @@ msgstr "Configuración"
 msgid "artist: %1"
 msgstr "Artista «%1»"
 
-#: context/applets/lyrics/LyricsApplet.cpp:179
+#: context/applets/lyrics/LyricsApplet.cpp:181
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Used if the current track has no artist."
 msgid "Unknown"
 msgstr "Desconocíu"
 
-#: context/applets/lyrics/LyricsApplet.cpp:186
+#: context/applets/lyrics/LyricsApplet.cpp:188
 #, kde-format
 msgid ""
 "While you were editing the lyrics of <b>%1 - %2</b> the track has changed. "
 "Do you want to save your changes?"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:193
+#: context/applets/lyrics/LyricsApplet.cpp:195
 #, kde-format
 msgid ""
 "The lyrics of <b>%1 - %2</b> changed while you were editing them. Do you "
 "want to save your changes?"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:404
+#: context/applets/lyrics/LyricsApplet.cpp:409
 msgid "Edit Lyrics"
 msgstr "Editar Lletres"
 
-#: context/applets/lyrics/LyricsApplet.cpp:411
+#: context/applets/lyrics/LyricsApplet.cpp:416
 msgid "Save Lyrics"
 msgstr "Guardar Lletres"
 
-#: context/applets/lyrics/LyricsApplet.cpp:425
+#: context/applets/lyrics/LyricsApplet.cpp:430
 msgid "Reload Lyrics"
 msgstr "Recargar les Lletres"
 
-#: context/applets/lyrics/LyricsApplet.cpp:501
+#: context/applets/lyrics/LyricsApplet.cpp:506
 msgid "Lyrics: No script is running"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:513
+#: context/applets/lyrics/LyricsApplet.cpp:518
 #, fuzzy
 #| msgid "Settings"
 msgid "Lyrics: Fetching ..."
 msgstr "Configuración"
 
-#: context/applets/lyrics/LyricsApplet.cpp:517
+#: context/applets/lyrics/LyricsApplet.cpp:522
 msgid "Lyrics: Fetch error"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:523
+#: context/applets/lyrics/LyricsApplet.cpp:528
 #, fuzzy
 #| msgid "Selected Tracks"
 msgid "Lyrics: Suggested URLs"
 msgstr "Pistes seleicionaes"
 
-#: context/applets/lyrics/LyricsApplet.cpp:565
+#: context/applets/lyrics/LyricsApplet.cpp:570
 #, fuzzy
 #| msgid "Track Information"
 msgid "Lyrics: Not found"
 msgstr "Información de la pista"
 
-#: context/applets/lyrics/LyricsApplet.cpp:605
+#: context/applets/lyrics/LyricsApplet.cpp:610
 #, fuzzy
 #| msgid ""
 #| "Do you really want to initialize this iPod? Its database will be cleared "
@@ -7569,7 +7569,13 @@ msgstr ""
 msgid "Containments"
 msgstr "contién"
 
-#: context/LyricsManager.cpp:170
+#: context/LyricsManager.cpp:135
+#, fuzzy
+#| msgid "Retrieve similar artists"
+msgid "Retrieved lyrics is empty"
+msgstr "Obtener artistes similares"
+
+#: context/LyricsManager.cpp:176
 msgid "Lyrics data could not be parsed"
 msgstr ""
 
