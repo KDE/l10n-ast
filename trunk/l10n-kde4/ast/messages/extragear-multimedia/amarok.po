@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-13 03:22+0100\n"
+"POT-Creation-Date: 2011-03-14 03:25+0100\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -2129,7 +2129,7 @@ msgstr ""
 
 #. i18n: file: context/applets/lyrics/lyricsSettings.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, lyricsSettings)
-#: rc.cpp:975 context/applets/lyrics/LyricsApplet.cpp:647
+#: rc.cpp:975 context/applets/lyrics/LyricsApplet.cpp:639
 #, fuzzy
 #| msgid "Settings"
 msgid "Lyrics Settings"
@@ -6335,8 +6335,7 @@ msgstr "Xeneral"
 #: configdialog/dialogs/ScriptsConfig.cpp:57
 #: context/applets/lyrics/LyricsApplet.cpp:398
 #: context/applets/lyrics/LyricsApplet.cpp:511
-#: context/applets/lyrics/LyricsApplet.cpp:537
-#: context/applets/lyrics/LyricsApplet.cpp:563 dialogs/TagDialog.cpp:550
+#: context/applets/lyrics/LyricsApplet.cpp:555 dialogs/TagDialog.cpp:550
 msgid "Lyrics"
 msgstr "Lletra"
 
@@ -6436,7 +6435,7 @@ msgstr[0] "%1 pista"
 msgstr[1] "%1 pistes"
 
 #: context/applets/albums/Albums.cpp:65
-#: context/engines/current/CurrentEngine.cpp:144
+#: context/engines/current/CurrentEngine.cpp:145
 msgid "Recently added albums"
 msgstr ""
 
@@ -6713,13 +6712,13 @@ msgstr ""
 msgid "Lyrics: Suggested URLs"
 msgstr "Pistes seleicionaes"
 
-#: context/applets/lyrics/LyricsApplet.cpp:570
+#: context/applets/lyrics/LyricsApplet.cpp:562
 #, fuzzy
 #| msgid "Track Information"
 msgid "Lyrics: Not found"
 msgstr "Información de la pista"
 
-#: context/applets/lyrics/LyricsApplet.cpp:610
+#: context/applets/lyrics/LyricsApplet.cpp:602
 #, fuzzy
 #| msgid ""
 #| "Do you really want to initialize this iPod? Its database will be cleared "
@@ -7242,14 +7241,14 @@ msgid ""
 "Please add some applets from the toolbar at the bottom of the context view."
 msgstr ""
 
-#: context/engines/current/CurrentEngine.cpp:213
+#: context/engines/current/CurrentEngine.cpp:214
 #, fuzzy
 #| msgid "Album"
 msgctxt "Header text for current album applet"
 msgid "Albums"
 msgstr "Álbum"
 
-#: context/engines/current/CurrentEngine.cpp:224
+#: context/engines/current/CurrentEngine.cpp:225
 #, kde-format
 msgid "Albums by %1"
 msgstr "Álbumes de %1"
@@ -10316,78 +10315,6 @@ msgstr "Tasa de muestréu"
 msgid "Edit Filter"
 msgstr "Editar filtru"
 
-#: dialogs/TagDialog.cpp:431
-msgid "Filename Layout Chooser"
-msgstr "Seleutor de diseñu de nomes de ficheru"
-
-#: dialogs/TagDialog.cpp:549
-msgid "Tags"
-msgstr "Etiquetes"
-
-#: dialogs/TagDialog.cpp:711 dialogs/TagDialog.cpp:719
-msgctxt "The value for this tag is not known"
-msgid "Unknown"
-msgstr "Desconocíu"
-
-#: dialogs/TagDialog.cpp:756
-#, kde-format
-msgid "Track Details: %1 by %2"
-msgstr "Información de la pista: %1 de %2"
-
-#: dialogs/TagDialog.cpp:762
-#, kde-format
-msgctxt "The amount of tracks being edited"
-msgid "1 Track"
-msgid_plural "Information for %1 Tracks"
-msgstr[0] "1 pista"
-msgstr[1] "Información de %1 pistes"
-
-#: dialogs/TagDialog.cpp:791 dialogs/TagDialog.cpp:801
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr "<b>%1</b> de <b>%2</b>"
-
-#: dialogs/TagDialog.cpp:799
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr "<b>%1</b> de <b>%2</b> en <b>%3</b>"
-
-#: dialogs/TagDialog.cpp:803
-#, kde-format
-msgid "<b>%1</b>"
-msgstr "<b>%1</b>"
-
-#: dialogs/TagDialog.cpp:809
-#, kde-format
-msgid "Editing 1 file"
-msgid_plural "Editing %1 files"
-msgstr[0] "Editando un ficheru"
-msgstr[1] "Editando %1 ficheros"
-
-#: dialogs/TagDialog.cpp:841
-#, fuzzy
-#| msgid "Never"
-msgctxt "When this track first played"
-msgid "Never"
-msgstr "Enxamás"
-
-#: dialogs/TagDialog.cpp:846
-msgctxt "When this track was last played"
-msgid "Never"
-msgstr "Enxamás"
-
-#: dialogs/TagDialog.cpp:850
-msgctxt "The collection this track is part of"
-msgid "None"
-msgstr "Dengún"
-
-#: dialogs/TagDialog.cpp:1369
-msgid ""
-"Writing to file failed. Please check permissions and available disc space."
-msgstr ""
-"Falló la grabación a ficheru. por favor verifica los permisos y l'espaciu "
-"disponible en discu."
-
 #: dialogs/deviceconfiguredialog.cpp:39
 #, kde-format
 msgid "Select Plugin for %1"
@@ -10467,6 +10394,78 @@ msgid "For this feature, a script of type \"Transcode\" has to be running"
 msgstr ""
 "Pa esta carauterística, tien de tar executándose un script de triba "
 "«Transcode»"
+
+#: dialogs/TagDialog.cpp:431
+msgid "Filename Layout Chooser"
+msgstr "Seleutor de diseñu de nomes de ficheru"
+
+#: dialogs/TagDialog.cpp:549
+msgid "Tags"
+msgstr "Etiquetes"
+
+#: dialogs/TagDialog.cpp:711 dialogs/TagDialog.cpp:719
+msgctxt "The value for this tag is not known"
+msgid "Unknown"
+msgstr "Desconocíu"
+
+#: dialogs/TagDialog.cpp:756
+#, kde-format
+msgid "Track Details: %1 by %2"
+msgstr "Información de la pista: %1 de %2"
+
+#: dialogs/TagDialog.cpp:762
+#, kde-format
+msgctxt "The amount of tracks being edited"
+msgid "1 Track"
+msgid_plural "Information for %1 Tracks"
+msgstr[0] "1 pista"
+msgstr[1] "Información de %1 pistes"
+
+#: dialogs/TagDialog.cpp:791 dialogs/TagDialog.cpp:801
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> de <b>%2</b>"
+
+#: dialogs/TagDialog.cpp:799
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> de <b>%2</b> en <b>%3</b>"
+
+#: dialogs/TagDialog.cpp:803
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: dialogs/TagDialog.cpp:809
+#, kde-format
+msgid "Editing 1 file"
+msgid_plural "Editing %1 files"
+msgstr[0] "Editando un ficheru"
+msgstr[1] "Editando %1 ficheros"
+
+#: dialogs/TagDialog.cpp:841
+#, fuzzy
+#| msgid "Never"
+msgctxt "When this track first played"
+msgid "Never"
+msgstr "Enxamás"
+
+#: dialogs/TagDialog.cpp:846
+msgctxt "When this track was last played"
+msgid "Never"
+msgstr "Enxamás"
+
+#: dialogs/TagDialog.cpp:850
+msgctxt "The collection this track is part of"
+msgid "None"
+msgstr "Dengún"
+
+#: dialogs/TagDialog.cpp:1369
+msgid ""
+"Writing to file failed. Please check permissions and available disc space."
+msgstr ""
+"Falló la grabación a ficheru. por favor verifica los permisos y l'espaciu "
+"disponible en discu."
 
 #: dynamic/BiasedPlaylist.cpp:142
 msgid "Generating playlist..."
