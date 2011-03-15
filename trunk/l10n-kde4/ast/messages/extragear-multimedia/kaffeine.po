@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-12 03:22+0100\n"
+"POT-Creation-Date: 2011-03-15 03:32+0100\n"
 "PO-Revision-Date: 2010-10-19 22:11+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -475,8 +475,7 @@ msgstr "Circular esquierda"
 msgid "Circular right"
 msgstr "Circular drecha"
 
-#: dvb/dvbchannel.cpp:736 dvb/dvbrecordingdialog.cpp:185
-#: dvb/dvbscandialog.cpp:206
+#: dvb/dvbchannel.cpp:736 dvb/dvbscandialog.cpp:206
 msgid "Name"
 msgstr "Nome"
 
@@ -484,12 +483,12 @@ msgstr "Nome"
 msgid "Number"
 msgstr "Númberu"
 
-#: dvb/dvbchannel.cpp:988 dvb/dvbrecordingdialog.cpp:64
+#: dvb/dvbchannel.cpp:988
 msgid "Edit"
 msgstr "Editar"
 
-#: dvb/dvbchannel.cpp:997 dvb/dvbrecordingdialog.cpp:72
-#: playlist/playlisttab.cpp:406 playlist/playlisttab.cpp:427
+#: dvb/dvbchannel.cpp:997 playlist/playlisttab.cpp:406
+#: playlist/playlisttab.cpp:427
 msgctxt "remove an item from a list"
 msgid "Remove"
 msgstr "Desaniciar"
@@ -506,7 +505,6 @@ msgid "Channel Settings"
 msgstr "Configuración de la canal"
 
 #: dvb/dvbchannel.cpp:1118 dvb/dvbconfigdialog.cpp:680
-#: dvb/dvbrecordingdialog.cpp:284
 msgid "Name:"
 msgstr "Nome:"
 
@@ -902,6 +900,7 @@ msgid "<font color=#800000>%1 - %2</font><br><br>"
 msgstr "<font color=#800000>%1 - %2</font><br><br>"
 
 #: dvb/dvbepgdialog.cpp:253 dvb/dvbepgdialog.cpp:407
+#: dvb/dvbrecordingdialog.cpp:188
 #, fuzzy
 #| msgid "Channel"
 msgctxt "@title:column tv show"
@@ -915,7 +914,7 @@ msgctxt "@title:column tv show"
 msgid "Start"
 msgstr "Aniciar"
 
-#: dvb/dvbepgdialog.cpp:403
+#: dvb/dvbepgdialog.cpp:403 dvb/dvbrecordingdialog.cpp:192
 #, fuzzy
 #| msgid "Duration"
 msgctxt "@title:column tv show"
@@ -934,60 +933,113 @@ msgctxt "message box"
 msgid "No available device found."
 msgstr "Nun hai preseos disponibles."
 
-#: dvb/dvbrecordingdialog.cpp:40 dvb/dvbtab.cpp:102
-msgctxt "dialog"
+#: dvb/dvbrecordingdialog.cpp:40
+#, fuzzy
+#| msgctxt "dialog"
+#| msgid "Recording Schedule"
+msgctxt "@title:window"
 msgid "Recording Schedule"
 msgstr "Grabando programación"
 
-#: dvb/dvbrecordingdialog.cpp:57 playlist/playlisttab.cpp:417
-msgctxt "add a new item to a list"
+#: dvb/dvbrecordingdialog.cpp:54
+#, fuzzy
+#| msgctxt "add a new item to a list"
+#| msgid "New"
+msgctxt "@action"
 msgid "New"
 msgstr "Nuevu"
 
-#: dvb/dvbrecordingdialog.cpp:187
-msgid "Channel"
-msgstr "Canal"
+#: dvb/dvbrecordingdialog.cpp:61
+#, fuzzy
+#| msgid "Edit"
+msgctxt "@action"
+msgid "Edit"
+msgstr "Editar"
 
-#: dvb/dvbrecordingdialog.cpp:189
+#: dvb/dvbrecordingdialog.cpp:68
+#, fuzzy
+#| msgid "Remove"
+msgctxt "@action"
+msgid "Remove"
+msgstr "Desaniciar"
+
+#: dvb/dvbrecordingdialog.cpp:186
+#, fuzzy
+#| msgid "Name"
+msgctxt "@title:column recording"
+msgid "Name"
+msgstr "Nome"
+
+#: dvb/dvbrecordingdialog.cpp:190
+#, fuzzy
+#| msgid "Begin"
+msgctxt "@title:column tv show"
 msgid "Begin"
 msgstr "Aniciu"
 
-#: dvb/dvbrecordingdialog.cpp:191
-msgid "Duration"
-msgstr "Duración"
-
-#: dvb/dvbrecordingdialog.cpp:275
-msgctxt "subdialog of 'Recording Schedule'"
+#: dvb/dvbrecordingdialog.cpp:280
+#, fuzzy
+#| msgctxt "subdialog of 'Recording Schedule'"
+#| msgid "Edit Schedule Entry"
+msgctxt "@title:window recording"
 msgid "Edit Schedule Entry"
 msgstr "Editar la llista d'Entrada"
 
-#: dvb/dvbrecordingdialog.cpp:297
+#: dvb/dvbrecordingdialog.cpp:288
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label recording"
+msgid "Name:"
+msgstr "Nome:"
+
+#: dvb/dvbrecordingdialog.cpp:301
+#, fuzzy
+#| msgid "Channel:"
+msgctxt "@label tv show"
 msgid "Channel:"
 msgstr "Canal:"
 
-#: dvb/dvbrecordingdialog.cpp:307
+#: dvb/dvbrecordingdialog.cpp:311
+#, fuzzy
+#| msgid "Begin:"
+msgctxt "@label tv show"
 msgid "Begin:"
 msgstr "Aniciu:"
 
-#: dvb/dvbrecordingdialog.cpp:315
+#: dvb/dvbrecordingdialog.cpp:319
+#, fuzzy
+#| msgid "Duration:"
+msgctxt "@label tv show"
 msgid "Duration:"
 msgstr "Duración:"
 
-#: dvb/dvbrecordingdialog.cpp:324
+#: dvb/dvbrecordingdialog.cpp:328
+#, fuzzy
+#| msgid "End:"
+msgctxt "@label tv show"
 msgid "End:"
 msgstr "Fin:"
 
-#: dvb/dvbrecordingdialog.cpp:328
+#: dvb/dvbrecordingdialog.cpp:332
+#, fuzzy
+#| msgid "Repeat:"
+msgctxt "@label recording"
 msgid "Repeat:"
 msgstr "Repetir:"
 
-#: dvb/dvbrecordingdialog.cpp:332
-msgctxt "button next to the 'Repeat:' label"
+#: dvb/dvbrecordingdialog.cpp:336
+#, fuzzy
+#| msgctxt "button next to the 'Repeat:' label"
+#| msgid "Never"
+msgctxt "@action next to 'Repeat:'"
 msgid "Never"
 msgstr "Enxamás"
 
-#: dvb/dvbrecordingdialog.cpp:336
-msgctxt "button next to the 'Repeat:' label"
+#: dvb/dvbrecordingdialog.cpp:340
+#, fuzzy
+#| msgctxt "button next to the 'Repeat:' label"
+#| msgid "Daily"
+msgctxt "@action next to 'Repeat:'"
 msgid "Daily"
 msgstr "Diariamente"
 
@@ -1085,6 +1137,11 @@ msgstr "Guía de programa"
 msgid "OSD"
 msgstr "OSD"
 
+#: dvb/dvbtab.cpp:102
+msgctxt "dialog"
+msgid "Recording Schedule"
+msgstr "Grabando programación"
+
 #: dvb/dvbtab.cpp:109
 msgid "Instant Record"
 msgstr "Grabación instantáneo"
@@ -1172,6 +1229,11 @@ msgstr "Al debalu"
 msgid "Add Subtitle"
 msgstr "Amestar subtítulu"
 
+#: playlist/playlisttab.cpp:417
+msgctxt "add a new item to a list"
+msgid "New"
+msgstr "Nuevu"
+
 #: playlist/playlisttab.cpp:422
 msgctxt "rename an entry in a list"
 msgid "Rename"
@@ -1197,6 +1259,12 @@ msgstr ""
 "*.xspf|XSPF Playlist\n"
 "*.m3u|M3U Playlist\n"
 "*.pls|PLS Playlist"
+
+#~ msgid "Channel"
+#~ msgstr "Canal"
+
+#~ msgid "Duration"
+#~ msgstr "Duración"
 
 #~ msgctxt "program guide"
 #~ msgid "Schedule Program"
