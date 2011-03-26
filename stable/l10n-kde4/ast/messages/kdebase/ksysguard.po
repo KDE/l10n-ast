@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-14 12:42+0100\n"
+"POT-Creation-Date: 2011-03-26 13:12+0100\n"
 "PO-Revision-Date: 2010-10-19 22:35+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Spanish <kde-i18n-doc@kde.org>\n"
@@ -130,12 +130,12 @@ msgstr ""
 "valores de múltiples sensores. A cencielles arrastra otros sensores fasta la "
 "pantalla p'amestar más."
 
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:281
+#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:283
 msgid "OK"
 msgstr "Aceutar"
 
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:281
-#: SensorDisplayLib/FancyPlotter.cc:516 SensorDisplayLib/FancyPlotter.cc:594
+#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:283
+#: SensorDisplayLib/FancyPlotter.cc:519 SensorDisplayLib/FancyPlotter.cc:597
 msgid "Error"
 msgstr "Fallu"
 
@@ -328,6 +328,190 @@ msgstr ""
 "restolador de sensores y suéltalu equí. Apaecerá una ventana de sensor que "
 "permita monitorizar los valores del sensor a lo llargo del tiempu."
 
+#: SensorDisplayLib/ListViewSettings.cc:30
+msgid "List View Settings"
+msgstr "Preferencies de la vista de llistes"
+
+#: SensorDisplayLib/LogFile.cc:92
+msgid "File logging settings"
+msgstr "Preferencies del rexistru en ficheru"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/LogFile.cc:98 rc.cpp:26
+msgid "Foreground color:"
+msgstr "Color del testu:"
+
+#: SensorDisplayLib/MultiMeterSettings.cc:31
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgid "Multimeter Settings"
+msgstr "Preferencies del multímetru"
+
+#: SensorDisplayLib/SensorDisplay.cc:118 SensorDisplayLib/SensorLogger.cc:598
+msgid "&Properties"
+msgstr "&Propiedaes"
+
+#: SensorDisplayLib/SensorDisplay.cc:123 SensorDisplayLib/SensorLogger.cc:603
+msgid "&Remove Display"
+msgstr "&Desaniciar pantalla"
+
+#: SensorDisplayLib/SensorDisplay.cc:193
+#, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
+"<qt><p>Esto ye'l visor d'un sensor. Pa personalizar el sensor d'un sensor "
+"calca equí'l botón drechu del mur y escueyi la entrada <i>Propiedaes</i> del "
+"menú emerxente. Escueyi <i>Desaniciar</i> pa desaniciar el visor de la fueya "
+"de trabayu.</p>%1</qt>"
+
+#: SensorDisplayLib/SensorLogger.cc:138
+msgid "Logging"
+msgstr "Rexistru"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
+#: SensorDisplayLib/SensorLogger.cc:141 rc.cpp:86
+msgid "Timer Interval"
+msgstr "Intervalu del temporizador"
+
+#: SensorDisplayLib/SensorLogger.cc:144
+msgid "Sensor Name"
+msgstr "Nome del sensor"
+
+#: SensorDisplayLib/SensorLogger.cc:147
+msgid "Host Name"
+msgstr "Nome de máquina"
+
+#: SensorDisplayLib/SensorLogger.cc:150
+msgid "Log File"
+msgstr "Ficheru de rexistru"
+
+#: SensorDisplayLib/SensorLogger.cc:431 SensorDisplayLib/SensorLoggerDlg.cc:32
+msgid "Sensor Logger"
+msgstr "Rexistrador de sensores"
+
+#: SensorDisplayLib/SensorLogger.cc:608
+msgid "&Remove Sensor"
+msgstr "Desanicia&r el sensor"
+
+#: SensorDisplayLib/SensorLogger.cc:613
+msgid "&Edit Sensor..."
+msgstr "&Editar el sensor..."
+
+#: SensorDisplayLib/SensorLogger.cc:621
+msgid "St&op Logging"
+msgstr "Parar el rexistr&u"
+
+#: SensorDisplayLib/SensorLogger.cc:624
+msgid "S&tart Logging"
+msgstr "Entamar el rexis&tru"
+
+#: SensorDisplayLib/SensorLoggerSettings.cc:30
+msgid "Sensor Logger Settings"
+msgstr "Preferencies del rexistru de sensores"
+
+#: SensorDisplayLib/SensorModel.cc:166
+msgid "Host"
+msgstr "Anfitrión"
+
+#: SensorDisplayLib/SensorModel.cc:169
+msgid "Sensor"
+msgstr "Sensor"
+
+#: SensorDisplayLib/SensorModel.cc:172
+msgid "Unit"
+msgstr "Unidá"
+
+#: SensorDisplayLib/SensorModel.cc:175
+msgid "Status"
+msgstr "Estáu"
+
+#: SensorDisplayLib/SensorModel.cc:178
+msgid "Label"
+msgstr "Etiqueta"
+
+#: SensorDisplayLib/FancyPlotter.cc:178
+msgctxt "Largest axis title"
+msgid "99999 XXXX"
+msgstr "99999 XXXX"
+
+#: SensorDisplayLib/FancyPlotter.cc:515 SensorDisplayLib/FancyPlotter.cc:586
+#: SensorDisplayLib/FancyPlotter.cc:649
+#, kde-format
+msgctxt "units"
+msgid "%1%"
+msgstr "%1%"
+
+#: SensorDisplayLib/FancyPlotter.cc:523
+#, kde-format
+msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
+msgid "<p><b>%1:</b><br>"
+msgstr "<p><b>%1:</b><br>"
+
+#: SensorDisplayLib/FancyPlotter.cc:594
+#, kde-format
+msgid "%1 of %2%1"
+msgstr "%1 of %2%1"
+
+#: SensorDisplayLib/FancyPlotter.cc:622
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB"
+msgstr "%1 TiB"
+
+#: SensorDisplayLib/FancyPlotter.cc:625
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB"
+msgstr "%1 GiB"
+
+#: SensorDisplayLib/FancyPlotter.cc:628
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB"
+msgstr "%1 MiB"
+
+#: SensorDisplayLib/FancyPlotter.cc:631
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB"
+msgstr "%1 KiB"
+
+#: SensorDisplayLib/FancyPlotter.cc:636
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB/s"
+msgstr "%1 TiB/s"
+
+#: SensorDisplayLib/FancyPlotter.cc:639
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB/s"
+msgstr "%1 GiB/s"
+
+#: SensorDisplayLib/FancyPlotter.cc:642
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB/s"
+msgstr "%1 MiB/s"
+
+#: SensorDisplayLib/FancyPlotter.cc:645
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB/s"
+msgstr "%1 KiB/s"
+
+#: SensorDisplayLib/FancyPlotter.cc:651
+#, kde-format
+msgctxt "unitless - just a number"
+msgid "%1"
+msgstr "%1"
+
 #: SensorDisplayLib/FancyPlotterSettings.cc:51
 #, fuzzy
 msgid "Plotter Settings"
@@ -340,6 +524,17 @@ msgstr "Xeneral"
 #: SensorDisplayLib/FancyPlotterSettings.cc:69
 msgid "Title:"
 msgstr "Títulu:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:77
+msgid "Stack the beams on top of each other"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:78
+msgid ""
+"The beams are stacked on top of each other, and the area is drawn filled in. "
+"So if one beam has a value of 2 and another beam has a value of 3, the first "
+"beam will be drawn at value 2 and the other beam drawn at 2+3=5."
+msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:85
 msgid "Scales"
@@ -457,190 +652,6 @@ msgstr "Xubir"
 #: SensorDisplayLib/FancyPlotterSettings.cc:241
 msgid "Move Down"
 msgstr "Baxar"
-
-#: SensorDisplayLib/ListViewSettings.cc:30
-msgid "List View Settings"
-msgstr "Preferencies de la vista de llistes"
-
-#: SensorDisplayLib/LogFile.cc:92
-msgid "File logging settings"
-msgstr "Preferencies del rexistru en ficheru"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cc:98 rc.cpp:26
-msgid "Foreground color:"
-msgstr "Color del testu:"
-
-#: SensorDisplayLib/MultiMeterSettings.cc:31
-msgctxt ""
-"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
-msgid "Multimeter Settings"
-msgstr "Preferencies del multímetru"
-
-#: SensorDisplayLib/SensorDisplay.cc:118 SensorDisplayLib/SensorLogger.cc:598
-msgid "&Properties"
-msgstr "&Propiedaes"
-
-#: SensorDisplayLib/SensorDisplay.cc:123 SensorDisplayLib/SensorLogger.cc:603
-msgid "&Remove Display"
-msgstr "&Desaniciar pantalla"
-
-#: SensorDisplayLib/SensorDisplay.cc:193
-#, kde-format
-msgid ""
-"<qt><p>This is a sensor display. To customize a sensor display click the "
-"right mouse button here and select the <i>Properties</i> entry from the "
-"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
-"p>%1</qt>"
-msgstr ""
-"<qt><p>Esto ye'l visor d'un sensor. Pa personalizar el sensor d'un sensor "
-"calca equí'l botón drechu del mur y escueyi la entrada <i>Propiedaes</i> del "
-"menú emerxente. Escueyi <i>Desaniciar</i> pa desaniciar el visor de la fueya "
-"de trabayu.</p>%1</qt>"
-
-#: SensorDisplayLib/SensorLogger.cc:138
-msgid "Logging"
-msgstr "Rexistru"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
-#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
-#: SensorDisplayLib/SensorLogger.cc:141 rc.cpp:86
-msgid "Timer Interval"
-msgstr "Intervalu del temporizador"
-
-#: SensorDisplayLib/SensorLogger.cc:144
-msgid "Sensor Name"
-msgstr "Nome del sensor"
-
-#: SensorDisplayLib/SensorLogger.cc:147
-msgid "Host Name"
-msgstr "Nome de máquina"
-
-#: SensorDisplayLib/SensorLogger.cc:150
-msgid "Log File"
-msgstr "Ficheru de rexistru"
-
-#: SensorDisplayLib/SensorLogger.cc:431 SensorDisplayLib/SensorLoggerDlg.cc:32
-msgid "Sensor Logger"
-msgstr "Rexistrador de sensores"
-
-#: SensorDisplayLib/SensorLogger.cc:608
-msgid "&Remove Sensor"
-msgstr "Desanicia&r el sensor"
-
-#: SensorDisplayLib/SensorLogger.cc:613
-msgid "&Edit Sensor..."
-msgstr "&Editar el sensor..."
-
-#: SensorDisplayLib/SensorLogger.cc:621
-msgid "St&op Logging"
-msgstr "Parar el rexistr&u"
-
-#: SensorDisplayLib/SensorLogger.cc:624
-msgid "S&tart Logging"
-msgstr "Entamar el rexis&tru"
-
-#: SensorDisplayLib/SensorLoggerSettings.cc:30
-msgid "Sensor Logger Settings"
-msgstr "Preferencies del rexistru de sensores"
-
-#: SensorDisplayLib/SensorModel.cc:166
-msgid "Host"
-msgstr "Anfitrión"
-
-#: SensorDisplayLib/SensorModel.cc:169
-msgid "Sensor"
-msgstr "Sensor"
-
-#: SensorDisplayLib/SensorModel.cc:172
-msgid "Unit"
-msgstr "Unidá"
-
-#: SensorDisplayLib/SensorModel.cc:175
-msgid "Status"
-msgstr "Estáu"
-
-#: SensorDisplayLib/SensorModel.cc:178
-msgid "Label"
-msgstr "Etiqueta"
-
-#: SensorDisplayLib/FancyPlotter.cc:178
-msgctxt "Largest axis title"
-msgid "99999 XXXX"
-msgstr "99999 XXXX"
-
-#: SensorDisplayLib/FancyPlotter.cc:512 SensorDisplayLib/FancyPlotter.cc:583
-#: SensorDisplayLib/FancyPlotter.cc:646
-#, kde-format
-msgctxt "units"
-msgid "%1%"
-msgstr "%1%"
-
-#: SensorDisplayLib/FancyPlotter.cc:520
-#, kde-format
-msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
-msgid "<p><b>%1:</b><br>"
-msgstr "<p><b>%1:</b><br>"
-
-#: SensorDisplayLib/FancyPlotter.cc:591
-#, kde-format
-msgid "%1 of %2%1"
-msgstr "%1 of %2%1"
-
-#: SensorDisplayLib/FancyPlotter.cc:619
-#, kde-format
-msgctxt "units"
-msgid "%1 TiB"
-msgstr "%1 TiB"
-
-#: SensorDisplayLib/FancyPlotter.cc:622
-#, kde-format
-msgctxt "units"
-msgid "%1 GiB"
-msgstr "%1 GiB"
-
-#: SensorDisplayLib/FancyPlotter.cc:625
-#, kde-format
-msgctxt "units"
-msgid "%1 MiB"
-msgstr "%1 MiB"
-
-#: SensorDisplayLib/FancyPlotter.cc:628
-#, kde-format
-msgctxt "units"
-msgid "%1 KiB"
-msgstr "%1 KiB"
-
-#: SensorDisplayLib/FancyPlotter.cc:633
-#, kde-format
-msgctxt "units"
-msgid "%1 TiB/s"
-msgstr "%1 TiB/s"
-
-#: SensorDisplayLib/FancyPlotter.cc:636
-#, kde-format
-msgctxt "units"
-msgid "%1 GiB/s"
-msgstr "%1 GiB/s"
-
-#: SensorDisplayLib/FancyPlotter.cc:639
-#, kde-format
-msgctxt "units"
-msgid "%1 MiB/s"
-msgstr "%1 MiB/s"
-
-#: SensorDisplayLib/FancyPlotter.cc:642
-#, kde-format
-msgctxt "units"
-msgid "%1 KiB/s"
-msgstr "%1 KiB/s"
-
-#: SensorDisplayLib/FancyPlotter.cc:648
-#, kde-format
-msgctxt "unitless - just a number"
-msgid "%1"
-msgstr "%1"
 
 #: TimerSettings.cc:38
 msgid "Timer Settings"
