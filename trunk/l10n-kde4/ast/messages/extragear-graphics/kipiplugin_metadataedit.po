@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-07 02:39+0100\n"
+"POT-Creation-Date: 2011-04-05 03:36+0200\n"
 "PO-Revision-Date: 2010-10-25 14:22+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -24,37 +24,38 @@ msgid "Edit Image Caption"
 msgstr "Editar el comentariu de la imaxe"
 
 #: comment/commenteditdialog.cpp:97 comment/commentremovedialog.cpp:96
-#: exif/exifeditdialog.cpp:183 iptc/iptceditdialog.cpp:217
-#: xmp/xmpeditdialog.cpp:207
+#: common/metadataedit.cpp:214 exif/exifeditdialog.cpp:183
+#: iptc/iptceditdialog.cpp:217 xmp/xmpeditdialog.cpp:207
 msgid "Edit Metadata"
 msgstr "Editar metadatos"
 
 #: comment/commenteditdialog.cpp:100 comment/commentremovedialog.cpp:99
-#: exif/exifeditdialog.cpp:186 iptc/iptceditdialog.cpp:220
-#: xmp/xmpeditdialog.cpp:210
+#: common/metadataedit.cpp:217 exif/exifeditdialog.cpp:186
+#: iptc/iptceditdialog.cpp:220 xmp/xmpeditdialog.cpp:210
 msgid "A Plugin to edit pictures' metadata."
 msgstr "Un complementu pa editar metadatos d'imáxenes."
 
 #: comment/commenteditdialog.cpp:101 comment/commentremovedialog.cpp:100
-#: exif/exifeditdialog.cpp:187 iptc/iptceditdialog.cpp:221
+#: common/metadataedit.cpp:218 exif/exifeditdialog.cpp:187
+#: iptc/iptceditdialog.cpp:221
 msgid "(c) 2006-2010, Gilles Caulier"
 msgstr "(c) 2006-2010, Gilles Caulier"
 
 #: comment/commenteditdialog.cpp:103 comment/commentremovedialog.cpp:102
-#: exif/exifeditdialog.cpp:189 iptc/iptceditdialog.cpp:223
-#: xmp/xmpeditdialog.cpp:213
+#: common/metadataedit.cpp:220 exif/exifeditdialog.cpp:189
+#: iptc/iptceditdialog.cpp:223 xmp/xmpeditdialog.cpp:213
 msgid "Gilles Caulier"
 msgstr "Gilles Caulier"
 
 #: comment/commenteditdialog.cpp:103 comment/commentremovedialog.cpp:102
-#: exif/exifeditdialog.cpp:189 iptc/iptceditdialog.cpp:223
-#: xmp/xmpeditdialog.cpp:213
+#: common/metadataedit.cpp:220 exif/exifeditdialog.cpp:189
+#: iptc/iptceditdialog.cpp:223 xmp/xmpeditdialog.cpp:213
 msgid "Author and Maintainer"
 msgstr "Autor y responsable"
 
 #: comment/commenteditdialog.cpp:111 comment/commentremovedialog.cpp:110
-#: exif/exifeditdialog.cpp:197 iptc/iptceditdialog.cpp:231
-#: xmp/xmpeditdialog.cpp:221
+#: common/metadataedit.cpp:228 exif/exifeditdialog.cpp:197
+#: iptc/iptceditdialog.cpp:231 xmp/xmpeditdialog.cpp:221
 msgid "Handbook"
 msgstr "Manual"
 
@@ -1003,6 +1004,24 @@ msgstr ""
 "Afita equí l'dentificador del serviciu. Esti campu tien una llende de 10 "
 "carauteres ASCII."
 
+#: common/metadataedit.cpp:123 exif/exifeditdialog.cpp:143
+#: iptc/iptceditdialog.cpp:153 xmp/xmpeditdialog.cpp:149
+msgid "Next"
+msgstr "Siguiente"
+
+#: common/metadataedit.cpp:124 exif/exifeditdialog.cpp:144
+#: iptc/iptceditdialog.cpp:154 xmp/xmpeditdialog.cpp:150
+msgid "Previous"
+msgstr "Anterior"
+
+#: common/metadataedit.cpp:398
+msgid "Edit"
+msgstr ""
+
+#: common/metadataedit.cpp:400 plugin_metadataedit.cpp:82
+msgid "Metadata"
+msgstr "Metadatos"
+
 #: exif/exifadjust.cpp:98
 msgid "Brightness (APEX):"
 msgstr "Brillu (APEX):"
@@ -1694,65 +1713,55 @@ msgid ""
 "equipment."
 msgstr "Afita equí la data na que'l serviciu mandó'l material."
 
-#: exif/exifeditdialog.cpp:143 iptc/iptceditdialog.cpp:153
-#: xmp/xmpeditdialog.cpp:149
-msgid "Next"
-msgstr "Siguiente"
-
-#: exif/exifeditdialog.cpp:144 iptc/iptceditdialog.cpp:154
-#: xmp/xmpeditdialog.cpp:150
-msgid "Previous"
-msgstr "Anterior"
-
-#: exif/exifeditdialog.cpp:151
+#: exif/exifeditdialog.cpp:151 exif/exifeditwidget.cpp:144
 #, fuzzy
 #| msgid "Caption"
 msgctxt "image caption"
 msgid "Caption"
 msgstr "Títulu"
 
-#: exif/exifeditdialog.cpp:152
+#: exif/exifeditdialog.cpp:152 exif/exifeditwidget.cpp:145
 msgid "Caption Information"
 msgstr "Información de la descripción"
 
-#: exif/exifeditdialog.cpp:156
+#: exif/exifeditdialog.cpp:156 exif/exifeditwidget.cpp:149
 msgid "Date & Time"
 msgstr "Data y hora"
 
-#: exif/exifeditdialog.cpp:157
+#: exif/exifeditdialog.cpp:157 exif/exifeditwidget.cpp:150
 msgid "Date and Time Information"
 msgstr "Información de data y hora"
 
-#: exif/exifeditdialog.cpp:161
+#: exif/exifeditdialog.cpp:161 exif/exifeditwidget.cpp:154
 msgid "Lens"
 msgstr "Oxetivu"
 
-#: exif/exifeditdialog.cpp:162
+#: exif/exifeditdialog.cpp:162 exif/exifeditwidget.cpp:155
 msgid "Lens Settings"
 msgstr "Axustes d'oxetivu"
 
-#: exif/exifeditdialog.cpp:166
+#: exif/exifeditdialog.cpp:166 exif/exifeditwidget.cpp:159
 msgid "Device"
 msgstr "Preséu"
 
-#: exif/exifeditdialog.cpp:167
+#: exif/exifeditdialog.cpp:167 exif/exifeditwidget.cpp:160
 msgid "Capture Device Settings"
 msgstr "Axustes de captura del preséu"
 
-#: exif/exifeditdialog.cpp:171
+#: exif/exifeditdialog.cpp:171 exif/exifeditwidget.cpp:164
 msgid "Light"
 msgstr "Lluz"
 
-#: exif/exifeditdialog.cpp:172
+#: exif/exifeditdialog.cpp:172 exif/exifeditwidget.cpp:165
 msgid "Light Source Information"
 msgstr "Información de la fonte de lluz"
 
-#: exif/exifeditdialog.cpp:176
+#: exif/exifeditdialog.cpp:176 exif/exifeditwidget.cpp:169
 msgctxt "Picture adjustments"
 msgid "Adjustments"
 msgstr "Axustes"
 
-#: exif/exifeditdialog.cpp:177
+#: exif/exifeditdialog.cpp:177 exif/exifeditwidget.cpp:170
 msgid "Pictures Adjustments"
 msgstr "Axustes de la imaxe"
 
@@ -2336,11 +2345,13 @@ msgstr "Contautu:"
 msgid "Set here the person or organisation to contact."
 msgstr ""
 
-#: iptc/iptceditdialog.cpp:161 xmp/xmpeditdialog.cpp:157
+#: iptc/iptceditdialog.cpp:161 iptc/iptceditwidget.cpp:152
+#: xmp/xmpeditdialog.cpp:157 xmp/xmpeditwidget.cpp:148
 msgid "Content"
 msgstr "Conteníu"
 
-#: iptc/iptceditdialog.cpp:162 xmp/xmpeditdialog.cpp:158
+#: iptc/iptceditdialog.cpp:162 iptc/iptceditwidget.cpp:153
+#: xmp/xmpeditdialog.cpp:158 xmp/xmpeditwidget.cpp:149
 #, fuzzy
 #| msgid ""
 #| "<qt>Category Information<br/><i>Use this panel to record categories "
@@ -2352,11 +2363,13 @@ msgstr ""
 "<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
 "de la imaxe</i></qt>"
 
-#: iptc/iptceditdialog.cpp:167 xmp/xmpeditdialog.cpp:163
+#: iptc/iptceditdialog.cpp:167 iptc/iptceditwidget.cpp:158
+#: xmp/xmpeditdialog.cpp:163 xmp/xmpeditwidget.cpp:154
 msgid "Origin"
 msgstr "Orixe"
 
-#: iptc/iptceditdialog.cpp:168 xmp/xmpeditdialog.cpp:164
+#: iptc/iptceditdialog.cpp:168 iptc/iptceditwidget.cpp:159
+#: xmp/xmpeditdialog.cpp:164 xmp/xmpeditwidget.cpp:155
 #, fuzzy
 #| msgid ""
 #| "<qt>Category Information<br/><i>Use this panel to record categories "
@@ -2368,11 +2381,13 @@ msgstr ""
 "<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
 "de la imaxe</i></qt>"
 
-#: iptc/iptceditdialog.cpp:173 xmp/xmpeditdialog.cpp:169
+#: iptc/iptceditdialog.cpp:173 iptc/iptceditwidget.cpp:164
+#: xmp/xmpeditdialog.cpp:169 xmp/xmpeditwidget.cpp:160
 msgid "Credits"
 msgstr "Créditos"
 
-#: iptc/iptceditdialog.cpp:174 xmp/xmpeditdialog.cpp:170
+#: iptc/iptceditdialog.cpp:174 iptc/iptceditwidget.cpp:165
+#: xmp/xmpeditdialog.cpp:170 xmp/xmpeditwidget.cpp:161
 #, fuzzy
 #| msgid ""
 #| "<qt>Category Information<br/><i>Use this panel to record categories "
@@ -2384,11 +2399,13 @@ msgstr ""
 "<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
 "de la imaxe</i></qt>"
 
-#: iptc/iptceditdialog.cpp:179 xmp/xmpeditdialog.cpp:175
+#: iptc/iptceditdialog.cpp:179 iptc/iptceditwidget.cpp:170
+#: xmp/xmpeditdialog.cpp:175 xmp/xmpeditwidget.cpp:166
 msgid "Subjects"
 msgstr "Temes"
 
-#: iptc/iptceditdialog.cpp:180 xmp/xmpeditdialog.cpp:176
+#: iptc/iptceditdialog.cpp:180 iptc/iptceditwidget.cpp:171
+#: xmp/xmpeditdialog.cpp:176 xmp/xmpeditwidget.cpp:167
 #, fuzzy
 #| msgid ""
 #| "<qt>Status Information<br/><i>Use this panel to record workflow "
@@ -2400,11 +2417,13 @@ msgstr ""
 "<qt>Información d'estáu<br/><i>Usa esti panel pa rexistrar información del "
 "fluxu de trabayu</i></qt>"
 
-#: iptc/iptceditdialog.cpp:185 xmp/xmpeditdialog.cpp:181
+#: iptc/iptceditdialog.cpp:185 iptc/iptceditwidget.cpp:176
+#: xmp/xmpeditdialog.cpp:181 xmp/xmpeditwidget.cpp:172
 msgid "Keywords"
 msgstr "Pallabres clave"
 
-#: iptc/iptceditdialog.cpp:186 xmp/xmpeditdialog.cpp:182
+#: iptc/iptceditdialog.cpp:186 iptc/iptceditwidget.cpp:177
+#: xmp/xmpeditdialog.cpp:182 xmp/xmpeditwidget.cpp:173
 msgid ""
 "<qt>Keyword Information<br/><i>Use this panel to record keywords relevant to "
 "the image</i></qt>"
@@ -2412,11 +2431,13 @@ msgstr ""
 "<qt>Información de clave<br/><i>Usa esti panel pa grabar claves relevantes "
 "de la imaxe</i></qt>"
 
-#: iptc/iptceditdialog.cpp:191 xmp/xmpeditdialog.cpp:187
+#: iptc/iptceditdialog.cpp:191 iptc/iptceditwidget.cpp:182
+#: xmp/xmpeditdialog.cpp:187 xmp/xmpeditwidget.cpp:178
 msgid "Categories"
 msgstr "Estayes"
 
-#: iptc/iptceditdialog.cpp:192 xmp/xmpeditdialog.cpp:188
+#: iptc/iptceditdialog.cpp:192 iptc/iptceditwidget.cpp:183
+#: xmp/xmpeditdialog.cpp:188 xmp/xmpeditwidget.cpp:179
 msgid ""
 "<qt>Category Information<br/><i>Use this panel to record categories relevant "
 "to the image</i></qt>"
@@ -2424,11 +2445,13 @@ msgstr ""
 "<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
 "de la imaxe</i></qt>"
 
-#: iptc/iptceditdialog.cpp:197 xmp/xmpeditdialog.cpp:193
+#: iptc/iptceditdialog.cpp:197 iptc/iptceditwidget.cpp:188
+#: xmp/xmpeditdialog.cpp:193 xmp/xmpeditwidget.cpp:184
 msgid "Status"
 msgstr "Estáu"
 
-#: iptc/iptceditdialog.cpp:198 xmp/xmpeditdialog.cpp:194
+#: iptc/iptceditdialog.cpp:198 iptc/iptceditwidget.cpp:189
+#: xmp/xmpeditdialog.cpp:194 xmp/xmpeditwidget.cpp:185
 msgid ""
 "<qt>Status Information<br/><i>Use this panel to record workflow information</"
 "i></qt>"
@@ -2436,11 +2459,13 @@ msgstr ""
 "<qt>Información d'estáu<br/><i>Usa esti panel pa rexistrar información del "
 "fluxu de trabayu</i></qt>"
 
-#: iptc/iptceditdialog.cpp:203 xmp/xmpeditdialog.cpp:199
+#: iptc/iptceditdialog.cpp:203 iptc/iptceditwidget.cpp:194
+#: xmp/xmpeditdialog.cpp:199 xmp/xmpeditwidget.cpp:190
 msgid "Properties"
 msgstr "Propiedaes"
 
-#: iptc/iptceditdialog.cpp:204 xmp/xmpeditdialog.cpp:200
+#: iptc/iptceditdialog.cpp:204 iptc/iptceditwidget.cpp:195
+#: xmp/xmpeditdialog.cpp:200 xmp/xmpeditwidget.cpp:191
 msgid ""
 "<qt>Status Properties<br/><i>Use this panel to record workflow properties</"
 "i></qt>"
@@ -2448,11 +2473,11 @@ msgstr ""
 "<qt>Información d'estáu<br/><i>Usa esti panel pa rexistrar les propiedaes "
 "del fluxu de trabayu</i></qt>"
 
-#: iptc/iptceditdialog.cpp:209
+#: iptc/iptceditdialog.cpp:209 iptc/iptceditwidget.cpp:200
 msgid "Envelope"
 msgstr "Envoltura"
 
-#: iptc/iptceditdialog.cpp:210
+#: iptc/iptceditdialog.cpp:210 iptc/iptceditwidget.cpp:201
 msgid ""
 "<qt>Envelope Information<br/><i>Use this panel to record editorial details</"
 "i></qt>"
@@ -4140,10 +4165,6 @@ msgid ""
 msgstr ""
 "Afita equí'l Nome únicu del Indicador d'oxetu. Esti campu tien una llende de "
 "80 carauteres ASCII."
-
-#: plugin_metadataedit.cpp:82
-msgid "Metadata"
-msgstr "Metadatos"
 
 #: plugin_metadataedit.cpp:86
 msgid "Edit EXIF..."
