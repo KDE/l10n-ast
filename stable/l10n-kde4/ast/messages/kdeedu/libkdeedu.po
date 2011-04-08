@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkdeedu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-17 05:59+0200\n"
+"POT-Creation-Date: 2011-04-08 14:38+0200\n"
 "PO-Revision-Date: 2010-10-25 19:27+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -34,53 +34,9 @@ msgstr "Referencies"
 msgid "Go to '%1'"
 msgstr "Dir a '%1'"
 
-#: keduvocdocument/keduvoctext.h:25
-msgid "Not Practiced Yet"
-msgstr "Entá nun se practicó"
-
-#: keduvocdocument/keduvoctext.h:28
-msgid "Level 1"
-msgstr "Nivel 1"
-
-#: keduvocdocument/keduvoctext.h:31
-msgid "Level 2"
-msgstr "Nivel 2"
-
-#: keduvocdocument/keduvoctext.h:34
-msgid "Level 3"
-msgstr "Nivel 3"
-
-#: keduvocdocument/keduvoctext.h:37
-msgid "Level 4"
-msgstr "Nivel 4"
-
-#: keduvocdocument/keduvoctext.h:40
-msgid "Level 5"
-msgstr "Nivel 5"
-
-#: keduvocdocument/keduvoctext.h:43
-msgid "Level 6"
-msgstr "Nivel 6"
-
-#: keduvocdocument/keduvoctext.h:46
-msgid "Level 7"
-msgstr "Nivel 7"
-
-#: keduvocdocument/keduvocwqlreader.cpp:50
-msgid "This does not appear to be a (K)WordQuiz file"
-msgstr "Esti nun paez ser un ficheru de (K)WordQuiz"
-
-#: keduvocdocument/keduvocwqlreader.cpp:57
-msgid "Only files created by WordQuiz 5.x or later can be opened"
-msgstr "Sólo pueden abrise los ficheros fechos con WordQuiz 5.x o posterior"
-
-#: keduvocdocument/keduvocwqlreader.cpp:61
-msgid "Error while reading file"
-msgstr "Error al lleer el ficheru"
-
-#: keduvocdocument/keduvocwqlreader.cpp:142
-#: keduvocdocument/keduvocpaukerreader.cpp:130
 #: keduvocdocument/keduvoccsvreader.cpp:58
+#: keduvocdocument/keduvocpaukerreader.cpp:130
+#: keduvocdocument/keduvocwqlreader.cpp:142
 msgid "Vocabulary"
 msgstr "Vocabulariu"
 
@@ -94,37 +50,147 @@ msgctxt "@item:intable the author will be written here"
 msgid "Author:"
 msgstr "Autor:"
 
-#: keduvocdocument/keduvockvtmlreader.cpp:58
-#: keduvocdocument/keduvockvtml2reader.cpp:59
-msgid "This is not a KDE Vocabulary document."
-msgstr "Esti nun ye un documentu de vocabulariu KDE"
+#: keduvocdocument/keduvocdocument.cpp:115
+msgctxt ""
+"The top level lesson which contains all other lessons of the document."
+msgid "Document Lesson"
+msgstr "Lleición del documentu"
 
-#: keduvocdocument/keduvockvtmlreader.cpp:906
+#: keduvocdocument/keduvocdocument.cpp:118
+msgid "Word types"
+msgstr "Tipos de pallabra"
+
+#: keduvocdocument/keduvocdocument.cpp:123
+msgid "Leitner Box"
+msgstr "Caxa de Leitner"
+
+#: keduvocdocument/keduvocdocument.cpp:132
+#: keduvocdocument/keduvocdocument.cpp:280
+#: keduvocdocument/keduvocdocument.cpp:291
+#: keduvocdocument/keduvocdocument.cpp:302
+#: keduvocdocument/keduvocdocument.cpp:323
+msgid "Untitled"
+msgstr "Ensin títulu"
+
+#: keduvocdocument/keduvocdocument.cpp:253
 #, kde-format
-msgctxt "A generic name for a new lesson and its number."
-msgid "Lesson %1"
-msgstr "Lleición %1"
+msgid "<qt>Cannot open file<br /><b>%1</b></qt>"
+msgstr "<qt>Nun puede abrise'l ficheru<br /><b>%1</b></qt>"
 
-#: keduvocdocument/keduvockvtmlreader.cpp:946
-msgid "Data for original language missing"
-msgstr "Datos pa la llingua orixinal que falta"
-
-#: keduvocdocument/keduvockvtmlreader.cpp:1087
-msgid "Ambiguous definition of language code"
-msgstr "Definición ambigua del códigu de llingua"
-
-#: keduvocdocument/keduvocvokabelnreader.cpp:154
+#: keduvocdocument/keduvocdocument.cpp:294
+#: keduvocdocument/keduvocdocument.cpp:326
 #, kde-format
-msgid "Lesson %1"
-msgstr "Lleición %1"
+msgid ""
+"Parse error at line %1, column %2:\n"
+"%3"
+msgstr ""
+"Error d'analís na llinia %1, columna %2:\n"
+"%3"
 
-#: keduvocdocument/keduvocxdxfreader.cpp:43
-msgid "This is not a XDXF document"
-msgstr "Esti nun ye un documentu XDXF"
+#: keduvocdocument/keduvocdocument.cpp:342
+#, kde-format
+msgid ""
+"Could not open or properly read \"%1\"\n"
+"(Error reported: %2)"
+msgstr ""
+"Nun pudo abrise o lleese correutamente «%1»\n"
+"(Error informáu: %2)"
+
+#: keduvocdocument/keduvocdocument.cpp:343
+msgid "Error Opening File"
+msgstr "Error abriendo ficheru"
+
+#: keduvocdocument/keduvocdocument.cpp:380
+#, kde-format
+msgid "Cannot write to file %1"
+msgstr "Nun puede escribise nel ficheru %1"
+
+#: keduvocdocument/keduvocdocument.cpp:706
+msgctxt ""
+"The name of the first language/column of vocabulary, if we have to guess it."
+msgid "Original"
+msgstr "Orixinal"
+
+#: keduvocdocument/keduvocdocument.cpp:708
+#, kde-format
+msgctxt ""
+"The name of the second, third ... language/column of vocabulary, if we have "
+"to guess it."
+msgid "Translation %1"
+msgstr "Torna %1"
+
+#: keduvocdocument/keduvocdocument.cpp:868
+msgid "KDE Vocabulary Document"
+msgstr "Documentu de vocabulariu de KDE"
+
+#: keduvocdocument/keduvocdocument.cpp:869
+msgid "KWordQuiz Document"
+msgstr "Documentu de KWordQuiz"
+
+#: keduvocdocument/keduvocdocument.cpp:870
+msgid "Pauker Lesson"
+msgstr "Lleición Pauker"
+
+#: keduvocdocument/keduvocdocument.cpp:871
+msgid "Vokabeltrainer"
+msgstr "Vokabeltrainer"
+
+#: keduvocdocument/keduvocdocument.cpp:872
+msgid "XML Dictionary Exchange Format"
+msgstr "Formatu d'intercambéu de diccionarios XML"
+
+#: keduvocdocument/keduvocdocument.cpp:873
+msgid "Comma Separated Values (CSV)"
+msgstr "Valores separtaos por comes (CSV)"
+
+#: keduvocdocument/keduvocdocument.cpp:887
+msgid "All supported documents"
+msgstr "Tolos documentos sofitaos"
+
+#: keduvocdocument/keduvocdocument.cpp:896
+msgid "No error found."
+msgstr "Nun s'alcontró dengún error."
+
+#: keduvocdocument/keduvocdocument.cpp:899
+msgid "Invalid XML in document."
+msgstr "XML inválidu nel documentu."
+
+#: keduvocdocument/keduvocdocument.cpp:901
+msgid "Unknown file type."
+msgstr "Tipu de ficheru desconocíu."
+
+#: keduvocdocument/keduvocdocument.cpp:903
+msgid "File is not writeable."
+msgstr "El ficheru nun ye escribible."
+
+#: keduvocdocument/keduvocdocument.cpp:905
+msgid "File writer failed."
+msgstr "L'escritor de ficheros falló."
+
+#: keduvocdocument/keduvocdocument.cpp:907
+msgid "File is not readable."
+msgstr "El ficheru nun ye lleíble"
+
+#: keduvocdocument/keduvocdocument.cpp:909
+msgid "The file reader failed."
+msgstr "El llector de ficheros falló."
+
+#: keduvocdocument/keduvocdocument.cpp:911
+msgid "The file does not exist."
+msgstr "El ficheru nun esiste."
+
+#: keduvocdocument/keduvocdocument.cpp:914
+msgid "Unknown error."
+msgstr "Error desconocíu."
 
 #: keduvocdocument/keduvockvtml2reader.cpp:43
 msgid "file must be opened first"
 msgstr "primero hai que abrir el ficheru"
+
+#: keduvocdocument/keduvockvtml2reader.cpp:59
+#: keduvocdocument/keduvockvtmlreader.cpp:58
+msgid "This is not a KDE Vocabulary document."
+msgstr "Esti nun ye un documentu de vocabulariu KDE"
 
 #: keduvocdocument/keduvockvtml2reader.cpp:164
 msgid "missing identifier elements from identifiers tag"
@@ -141,10 +207,6 @@ msgstr "falta id nel identificador"
 #: keduvocdocument/keduvockvtml2reader.cpp:288
 msgid "entry missing id"
 msgstr "falta id de la entrada"
-
-#: keduvocdocument/keduvocpaukerreader.cpp:44
-msgid "This is not a Pauker document"
-msgstr "Esti nun ye un documentu Pauker"
 
 #: keduvocdocument/keduvockvtmlcompability.cpp:48
 msgctxt "@item:inlistbox The grammatical type of a word"
@@ -372,138 +434,76 @@ msgctxt "The grammatical type of an entry"
 msgid "Question"
 msgstr "Entruga"
 
-#: keduvocdocument/keduvocdocument.cpp:115
-msgctxt ""
-"The top level lesson which contains all other lessons of the document."
-msgid "Document Lesson"
-msgstr "Lleición del documentu"
-
-#: keduvocdocument/keduvocdocument.cpp:118
-msgid "Word types"
-msgstr "Tipos de pallabra"
-
-#: keduvocdocument/keduvocdocument.cpp:123
-msgid "Leitner Box"
-msgstr "Caxa de Leitner"
-
-#: keduvocdocument/keduvocdocument.cpp:132
-#: keduvocdocument/keduvocdocument.cpp:280
-#: keduvocdocument/keduvocdocument.cpp:291
-#: keduvocdocument/keduvocdocument.cpp:302
-#: keduvocdocument/keduvocdocument.cpp:323
-msgid "Untitled"
-msgstr "Ensin títulu"
-
-#: keduvocdocument/keduvocdocument.cpp:253
+#: keduvocdocument/keduvockvtmlreader.cpp:906
 #, kde-format
-msgid "<qt>Cannot open file<br /><b>%1</b></qt>"
-msgstr "<qt>Nun puede abrise'l ficheru<br /><b>%1</b></qt>"
+msgctxt "A generic name for a new lesson and its number."
+msgid "Lesson %1"
+msgstr "Lleición %1"
 
-#: keduvocdocument/keduvocdocument.cpp:294
-#: keduvocdocument/keduvocdocument.cpp:326
+#: keduvocdocument/keduvockvtmlreader.cpp:946
+msgid "Data for original language missing"
+msgstr "Datos pa la llingua orixinal que falta"
+
+#: keduvocdocument/keduvockvtmlreader.cpp:1087
+msgid "Ambiguous definition of language code"
+msgstr "Definición ambigua del códigu de llingua"
+
+#: keduvocdocument/keduvocpaukerreader.cpp:44
+msgid "This is not a Pauker document"
+msgstr "Esti nun ye un documentu Pauker"
+
+#: keduvocdocument/keduvoctext.h:25
+msgid "Not Practiced Yet"
+msgstr "Entá nun se practicó"
+
+#: keduvocdocument/keduvoctext.h:28
+msgid "Level 1"
+msgstr "Nivel 1"
+
+#: keduvocdocument/keduvoctext.h:31
+msgid "Level 2"
+msgstr "Nivel 2"
+
+#: keduvocdocument/keduvoctext.h:34
+msgid "Level 3"
+msgstr "Nivel 3"
+
+#: keduvocdocument/keduvoctext.h:37
+msgid "Level 4"
+msgstr "Nivel 4"
+
+#: keduvocdocument/keduvoctext.h:40
+msgid "Level 5"
+msgstr "Nivel 5"
+
+#: keduvocdocument/keduvoctext.h:43
+msgid "Level 6"
+msgstr "Nivel 6"
+
+#: keduvocdocument/keduvoctext.h:46
+msgid "Level 7"
+msgstr "Nivel 7"
+
+#: keduvocdocument/keduvocvokabelnreader.cpp:154
 #, kde-format
-msgid ""
-"Parse error at line %1, column %2:\n"
-"%3"
-msgstr ""
-"Error d'analís na llinia %1, columna %2:\n"
-"%3"
+msgid "Lesson %1"
+msgstr "Lleición %1"
 
-#: keduvocdocument/keduvocdocument.cpp:342
-#, kde-format
-msgid ""
-"Could not open or properly read \"%1\"\n"
-"(Error reported: %2)"
-msgstr ""
-"Nun pudo abrise o lleese correutamente «%1»\n"
-"(Error informáu: %2)"
+#: keduvocdocument/keduvocwqlreader.cpp:50
+msgid "This does not appear to be a (K)WordQuiz file"
+msgstr "Esti nun paez ser un ficheru de (K)WordQuiz"
 
-#: keduvocdocument/keduvocdocument.cpp:343
-msgid "Error Opening File"
-msgstr "Error abriendo ficheru"
+#: keduvocdocument/keduvocwqlreader.cpp:57
+msgid "Only files created by WordQuiz 5.x or later can be opened"
+msgstr "Sólo pueden abrise los ficheros fechos con WordQuiz 5.x o posterior"
 
-#: keduvocdocument/keduvocdocument.cpp:380
-#, kde-format
-msgid "Cannot write to file %1"
-msgstr "Nun puede escribise nel ficheru %1"
+#: keduvocdocument/keduvocwqlreader.cpp:61
+msgid "Error while reading file"
+msgstr "Error al lleer el ficheru"
 
-#: keduvocdocument/keduvocdocument.cpp:706
-msgctxt ""
-"The name of the first language/column of vocabulary, if we have to guess it."
-msgid "Original"
-msgstr "Orixinal"
-
-#: keduvocdocument/keduvocdocument.cpp:708
-#, kde-format
-msgctxt ""
-"The name of the second, third ... language/column of vocabulary, if we have "
-"to guess it."
-msgid "Translation %1"
-msgstr "Torna %1"
-
-#: keduvocdocument/keduvocdocument.cpp:868
-msgid "KDE Vocabulary Document"
-msgstr "Documentu de vocabulariu de KDE"
-
-#: keduvocdocument/keduvocdocument.cpp:869
-msgid "KWordQuiz Document"
-msgstr "Documentu de KWordQuiz"
-
-#: keduvocdocument/keduvocdocument.cpp:870
-msgid "Pauker Lesson"
-msgstr "Lleición Pauker"
-
-#: keduvocdocument/keduvocdocument.cpp:871
-msgid "Vokabeltrainer"
-msgstr "Vokabeltrainer"
-
-#: keduvocdocument/keduvocdocument.cpp:872
-msgid "XML Dictionary Exchange Format"
-msgstr "Formatu d'intercambéu de diccionarios XML"
-
-#: keduvocdocument/keduvocdocument.cpp:873
-msgid "Comma Separated Values (CSV)"
-msgstr "Valores separtaos por comes (CSV)"
-
-#: keduvocdocument/keduvocdocument.cpp:887
-msgid "All supported documents"
-msgstr "Tolos documentos sofitaos"
-
-#: keduvocdocument/keduvocdocument.cpp:896
-msgid "No error found."
-msgstr "Nun s'alcontró dengún error."
-
-#: keduvocdocument/keduvocdocument.cpp:899
-msgid "Invalid XML in document."
-msgstr "XML inválidu nel documentu."
-
-#: keduvocdocument/keduvocdocument.cpp:901
-msgid "Unknown file type."
-msgstr "Tipu de ficheru desconocíu."
-
-#: keduvocdocument/keduvocdocument.cpp:903
-msgid "File is not writeable."
-msgstr "El ficheru nun ye escribible."
-
-#: keduvocdocument/keduvocdocument.cpp:905
-msgid "File writer failed."
-msgstr "L'escritor de ficheros falló."
-
-#: keduvocdocument/keduvocdocument.cpp:907
-msgid "File is not readable."
-msgstr "El ficheru nun ye lleíble"
-
-#: keduvocdocument/keduvocdocument.cpp:909
-msgid "The file reader failed."
-msgstr "El llector de ficheros falló."
-
-#: keduvocdocument/keduvocdocument.cpp:911
-msgid "The file does not exist."
-msgstr "El ficheru nun esiste."
-
-#: keduvocdocument/keduvocdocument.cpp:914
-msgid "Unknown error."
-msgstr "Error desconocíu."
+#: keduvocdocument/keduvocxdxfreader.cpp:43
+msgid "This is not a XDXF document"
+msgstr "Esti nun ye un documentu XDXF"
 
 #: libscience/psetables.cpp:168
 msgid "Classic Periodic Table"
