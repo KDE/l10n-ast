@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_gpssync\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-25 03:36+0200\n"
+"POT-Creation-Date: 2011-04-26 03:42+0200\n"
 "PO-Revision-Date: 2010-10-25 14:21+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -396,7 +396,7 @@ msgstr ""
 msgid "Toggle the visibility of the search results on the map."
 msgstr ""
 
-#: searchwidget.cpp:172 gpslistviewcontextmenu.cpp:89
+#: searchwidget.cpp:172 gpslistviewcontextmenu.cpp:102
 msgid "Copy coordinates"
 msgstr "Copiar coordenaes"
 
@@ -412,7 +412,7 @@ msgstr ""
 msgid "Select which service you would like to use."
 msgstr ""
 
-#: searchwidget.cpp:202 gpslistviewcontextmenu.cpp:119
+#: searchwidget.cpp:202 gpslistviewcontextmenu.cpp:136
 msgid "Bookmarks"
 msgstr "Marcadores"
 
@@ -440,6 +440,90 @@ msgid "1 image moved to '%2'"
 msgid_plural "%1 images moved to '%2'"
 msgstr[0] ""
 msgstr[1] ""
+
+#: gpslistviewcontextmenu.cpp:104
+msgid "Paste coordinates"
+msgstr "Apegar coordenaes"
+
+#: gpslistviewcontextmenu.cpp:106
+#, fuzzy
+#| msgid "Remove Coordinates..."
+msgid "Remove coordinates"
+msgstr "Desaniciar coordenaes..."
+
+#: gpslistviewcontextmenu.cpp:107
+#, fuzzy
+#| msgid "Latitude"
+msgid "Remove altitude"
+msgstr "Llatitú"
+
+#: gpslistviewcontextmenu.cpp:108
+msgid "Remove uncertainty"
+msgstr ""
+
+#: gpslistviewcontextmenu.cpp:109 gpslistviewcontextmenu.cpp:618
+#, fuzzy
+#| msgid "Remove"
+msgid "Remove speed"
+msgstr "Desaniciar"
+
+#: gpslistviewcontextmenu.cpp:110
+msgid "Look up missing altitude values"
+msgstr ""
+
+#: gpslistviewcontextmenu.cpp:398
+msgid ""
+"Found more than one point on the clipboard - can only assign one point at a "
+"time."
+msgstr ""
+"Atopóse más d'un puntu nel cartafueyu - sólo se puede asignar ún cada vegada."
+
+#: gpslistviewcontextmenu.cpp:399 gpslistviewcontextmenu.cpp:456
+#: gpssyncdialog.cpp:399
+msgid "GPS Sync"
+msgstr "Sincronizar GPS"
+
+#: gpslistviewcontextmenu.cpp:456
+msgid "Could not find any coordinates on the clipboard."
+msgstr "Nun se pueden atopar coordenaes nel cartafueyu."
+
+#: gpslistviewcontextmenu.cpp:460
+#, fuzzy
+#| msgid "Copy coordinates"
+msgid "Coordinates pasted"
+msgstr "Copiar coordenaes"
+
+#: gpslistviewcontextmenu.cpp:491
+#, fuzzy
+#| msgid "Bookmarks"
+msgid "Bookmark selected"
+msgstr "Marcadores"
+
+#: gpslistviewcontextmenu.cpp:595
+#, fuzzy
+#| msgid "Remove Coordinates..."
+msgid "Remove coordinates information"
+msgstr "Desaniciar coordenaes..."
+
+#: gpslistviewcontextmenu.cpp:600
+msgid "Remove altitude information"
+msgstr ""
+
+#: gpslistviewcontextmenu.cpp:607
+msgid "Remove uncertainty information"
+msgstr ""
+
+#: gpslistviewcontextmenu.cpp:667
+#, fuzzy
+#| msgid "Longitude"
+msgid "Looking up altitudes"
+msgstr "Llonxitú"
+
+#: gpslistviewcontextmenu.cpp:706
+#, fuzzy
+#| msgid "Altitude"
+msgid "Altitude looked up"
+msgstr "Altitú"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -704,74 +788,6 @@ msgstr ""
 msgid "Details changed"
 msgstr ""
 
-#: gpslistviewcontextmenu.cpp:91
-msgid "Paste coordinates"
-msgstr "Apegar coordenaes"
-
-#: gpslistviewcontextmenu.cpp:93
-#, fuzzy
-#| msgid "Remove Coordinates..."
-msgid "Remove coordinates"
-msgstr "Desaniciar coordenaes..."
-
-#: gpslistviewcontextmenu.cpp:94
-#, fuzzy
-#| msgid "Latitude"
-msgid "Remove altitude"
-msgstr "Llatitú"
-
-#: gpslistviewcontextmenu.cpp:95
-msgid "Remove uncertainty"
-msgstr ""
-
-#: gpslistviewcontextmenu.cpp:96 gpslistviewcontextmenu.cpp:557
-#, fuzzy
-#| msgid "Remove"
-msgid "Remove speed"
-msgstr "Desaniciar"
-
-#: gpslistviewcontextmenu.cpp:342
-msgid ""
-"Found more than one point on the clipboard - can only assign one point at a "
-"time."
-msgstr ""
-"Atopóse más d'un puntu nel cartafueyu - sólo se puede asignar ún cada vegada."
-
-#: gpslistviewcontextmenu.cpp:343 gpslistviewcontextmenu.cpp:396
-#: gpssyncdialog.cpp:399
-msgid "GPS Sync"
-msgstr "Sincronizar GPS"
-
-#: gpslistviewcontextmenu.cpp:396
-msgid "Could not find any coordinates on the clipboard."
-msgstr "Nun se pueden atopar coordenaes nel cartafueyu."
-
-#: gpslistviewcontextmenu.cpp:400
-#, fuzzy
-#| msgid "Copy coordinates"
-msgid "Coordinates pasted"
-msgstr "Copiar coordenaes"
-
-#: gpslistviewcontextmenu.cpp:432
-#, fuzzy
-#| msgid "Bookmarks"
-msgid "Bookmark selected"
-msgstr "Marcadores"
-
-#: gpslistviewcontextmenu.cpp:534
-#, fuzzy
-#| msgid "Remove Coordinates..."
-msgid "Remove coordinates information"
-msgstr "Desaniciar coordenaes..."
-
-#: gpslistviewcontextmenu.cpp:539
-msgid "Remove altitude information"
-msgstr ""
-
-#: gpslistviewcontextmenu.cpp:546
-msgid "Remove uncertainty information"
-msgstr ""
-
 #: rgtagmodel.cpp:93
 msgid "{Country}"
 msgstr ""
@@ -978,50 +994,50 @@ msgstr ""
 msgid "Developer"
 msgstr ""
 
-#: gpssyncdialog.cpp:570
+#: gpssyncdialog.cpp:582
 msgid "Loading metadata - %p%"
 msgstr ""
 
-#: gpssyncdialog.cpp:745
+#: gpssyncdialog.cpp:757
 #, kde-format
 msgid "You have 1 modified image."
 msgid_plural "You have %1 modified images."
 msgstr[0] ""
 msgstr[1] ""
 
-#: gpssyncdialog.cpp:751
+#: gpssyncdialog.cpp:763
 #, kde-format
 msgid "%1 Would you like to save the changes you made to them?"
 msgstr ""
 
-#: gpssyncdialog.cpp:752
+#: gpssyncdialog.cpp:764
 msgid "Unsaved changes"
 msgstr ""
 
-#: gpssyncdialog.cpp:753
+#: gpssyncdialog.cpp:765
 msgid "Save changes"
 msgstr ""
 
-#: gpssyncdialog.cpp:754
+#: gpssyncdialog.cpp:766
 msgid "Close and discard changes"
 msgstr ""
 
-#: gpssyncdialog.cpp:963
+#: gpssyncdialog.cpp:975
 #, kde-format
 msgid "1 image moved"
 msgid_plural "%1 images moved"
 msgstr[0] ""
 msgstr[1] ""
 
-#: gpssyncdialog.cpp:996
+#: gpssyncdialog.cpp:1008
 msgid "Saving changes - %p%"
 msgstr ""
 
-#: gpssyncdialog.cpp:1034
+#: gpssyncdialog.cpp:1046
 msgid "Failed to save some information:"
 msgstr ""
 
-#: gpssyncdialog.cpp:1034
+#: gpssyncdialog.cpp:1046
 msgid "Error"
 msgstr ""
 
