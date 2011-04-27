@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-26 03:48+0200\n"
+"POT-Creation-Date: 2011-04-27 03:39+0200\n"
 "PO-Revision-Date: 2010-10-19 23:26+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Español <kde-ye@kybs.de>\n"
@@ -397,6 +397,693 @@ msgstr "Estraición de DVD de vídeo"
 msgid "Video CD Rip"
 msgstr "Estraición de CD de vídeo"
 
+#: k3bappdevicemanager.cpp:55
+msgid "Media &Info"
+msgstr "&Información de mediu"
+
+#: k3bappdevicemanager.cpp:57
+msgid "&Unmount"
+msgstr "&Desmontar"
+
+#: k3bappdevicemanager.cpp:59
+msgid "&Mount"
+msgstr "&Desmontar"
+
+#: k3bappdevicemanager.cpp:61 k3bemptydiscwaiter.cpp:277
+#: k3bemptydiscwaiter.cpp:370 k3bemptydiscwaiter.cpp:456
+#: k3bemptydiscwaiter.cpp:520 k3bemptydiscwaiter.cpp:580
+msgid "&Eject"
+msgstr "&Sacar"
+
+#: k3bappdevicemanager.cpp:63
+msgid "L&oad"
+msgstr "C&argar"
+
+#: k3bappdevicemanager.cpp:69
+msgid "Set Read Speed..."
+msgstr "Afitar la velocidá de llectura..."
+
+#: k3bappdevicemanager.cpp:72
+msgid "Display generic medium information"
+msgstr "Amosar información xenérica del mediu"
+
+#: k3bappdevicemanager.cpp:74
+msgid "Unmount the medium"
+msgstr "Desmontar el mediu"
+
+#: k3bappdevicemanager.cpp:76
+msgid "Mount the medium"
+msgstr "Montar el mediu"
+
+#: k3bappdevicemanager.cpp:78
+msgid "Eject the medium"
+msgstr "Sacar el mediu"
+
+#: k3bappdevicemanager.cpp:80
+msgid "(Re)Load the medium"
+msgstr "(Re)Cargar el mediu"
+
+#: k3bappdevicemanager.cpp:82
+msgid "Force the drive's read speed"
+msgstr "Forzar la velocidá de llectura del preséu"
+
+#: k3bappdevicemanager.cpp:288
+msgid "CD Read Speed"
+msgstr "Velocidá de llectura de CD"
+
+#: k3bappdevicemanager.cpp:289
+#, kde-format
+msgid ""
+"<p>Please enter the preferred read speed for <b>%1</b>. This speed will be "
+"used for the currently mounted medium.<p>This is especially useful to slow "
+"down the drive when watching movies which are read directly from the drive "
+"and the spinning noise is intrusive.<p>Be aware that this has no influence "
+"on K3b since it will change the reading speed again when copying CDs or DVDs."
+msgstr ""
+"<p>Por favor, pon la velocidá de llectura preferida pa <b>%1</b>. Esta "
+"velocidá usaráse pal mediu montáu actualmente. <p>Esto ye especialmente útil "
+"pa baxar la velocidá del llector cuando se tán viendo vídeos que se lleen "
+"direutamente de la unidá. <p>Ten en cuenta qu'esto nun afecta a K3b yá que "
+"volverá a camudar la velocidá de llectura cuando se copie CD o DVD."
+
+#: k3bappdevicemanager.cpp:307
+msgid "Setting the read speed failed."
+msgstr "Falló al afitar la velocidá de llectura."
+
+#: k3bdirview.cpp:206
+msgid ""
+"K3b uses vcdxrip from the vcdimager package to rip Video CDs. Please make "
+"sure it is installed."
+msgstr ""
+"K3b usa vcdxrip del paquete vcdimager pa codificar CDs de vídeo. Por favor "
+"asegúrate de que ta instaláu."
+
+#: k3bdirview.cpp:240
+msgid "Mount Failed"
+msgstr "Fallu al montar"
+
+#: k3bdirview.cpp:241
+#, kde-format
+msgid "<p>K3b was unable to mount medium <b>%1</b> in device <em>%2 - %3</em>"
+msgstr "<p>K3b nun fue a montar el mediu <b>%1</b> nel preséu <em>%2 - %3</em>"
+
+#: k3bdirview.cpp:256
+msgid "Unmount Failed"
+msgstr "Fallu al desmontar"
+
+#: k3bdirview.cpp:257
+#, kde-format
+msgid ""
+"<p>K3b was unable to unmount medium <b>%1</b> in device <em>%2 - %3</em>"
+msgstr ""
+"<p>K3b ye incapaz de desmontar el mediu <b>%1</b> nel preséu <em>%2 - %3</em>"
+
+#: k3bburnprogressdialog.cpp:39
+msgid "Estimated writing speed:"
+msgstr "Velocidá de grabación estimada:"
+
+#: k3bburnprogressdialog.cpp:51
+msgid "Software buffer:"
+msgstr "Buffer software:"
+
+#: k3bburnprogressdialog.cpp:52
+msgid "Device buffer:"
+msgstr "Buffer del preséu:"
+
+#: k3bburnprogressdialog.cpp:89
+#, kde-format
+msgid "Writer: %1 %2"
+msgstr "Grabadora: %1 %2"
+
+#: k3bburnprogressdialog.cpp:92 k3bburnprogressdialog.cpp:93
+#: k3bburnprogressdialog.cpp:94
+msgid "no info"
+msgstr "ensin información"
+
+#: k3bdatamodewidget.cpp:33 k3bwriterselectionwidget.cpp:270
+#: k3bwriterselectionwidget.cpp:523 k3bwritingmodewidget.cpp:163
+#: projects/k3bdatamultisessioncombobox.cpp:73
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:356
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:357
+msgid "Auto"
+msgstr "Auto"
+
+#: k3bdatamodewidget.cpp:34
+msgid "Mode1"
+msgstr "Mou1"
+
+#: k3bdatamodewidget.cpp:35
+msgid "Mode2"
+msgstr "Mou2"
+
+#: k3bdatamodewidget.cpp:37
+msgid "Select the mode for the data-track"
+msgstr "Escoyi'l mou pa la pista de datos"
+
+#: k3bdatamodewidget.cpp:38
+msgid ""
+"<p><b>Data Mode</b><p>Data tracks may be written in two different modes:</"
+"p><p><b>Auto</b><br>Let K3b select the best suited data mode.</p><p><b>Mode "
+"1</b><br>This is the <em>original</em> writing mode as introduced in the "
+"<em>Yellow Book</em> standard. It is the preferred mode when writing pure "
+"data CDs.</p><p><b>Mode 2</b><br>To be exact <em>XA Mode 2 Form 1</em>, but "
+"since the other modes are rarely used it is common to refer to it as "
+"<em>Mode 2</em>.</p><p><b>Be aware:</b> Do not mix different modes on one "
+"CD. Some older drives may have problems reading mode 1 multisession CDs."
+msgstr ""
+"<p>Les pistes de datos pueden grabase de dos maneres estremaes:</p> "
+"<p><b>Mou 1</b><br> Esti ye'l mou de grabación <em>orixinal</em> tal como se "
+"punxo na norma del <em>llibru mariellu</em>. Ye'l mou preferíu cuando se "
+"graben CD sólo de datos.</p> <p><b>Mou 2</b><br> Pa ser exautu <em>XA Mou 2 "
+"Formatu 1</em>, pero dende que los otros moos son raramente usaos, ye normal "
+"referire a elli como <em>mou 2</em>.</p> <p><b>Auto</b><br> Permite a K3b "
+"escoyear el meyor mou de datos.</p> <p><br>Ten en cuenta:</b> nun mezas "
+"estremaos moos nun CD. Delles unidaes antigües pueden tener problemes al "
+"lleer CD multisesión en mou 1."
+
+#: k3bdebuggingoutputdialog.cpp:42
+msgid "Debugging Output"
+msgstr "Depurando salida"
+
+#: k3bdebuggingoutputdialog.cpp:47
+msgid "Save to file"
+msgstr "Guardar a ficheru"
+
+#: k3bdebuggingoutputdialog.cpp:48
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
+
+#: k3bdebuggingoutputdialog.cpp:90
+#, kde-format
+msgid "Could not open file %1"
+msgstr "Nun pudo abrir el ficheru %1"
+
+#: k3bdiroperator.cpp:48
+msgid "K3b Bookmarks"
+msgstr "Marcadores de K3b"
+
+#: k3bdiroperator.cpp:51
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+#: k3bdiroperator.cpp:55 k3bfiletreeview.cpp:96
+msgid "&Add to Project"
+msgstr "&Amestar al proyeutu"
+
+#: k3bdiskinfoview.cpp:80
+msgid "No medium present"
+msgstr "Dengún mediu presente"
+
+#: k3bdiskinfoview.cpp:101
+msgid "Medium"
+msgstr "Mediu"
+
+#: k3bdiskinfoview.cpp:105
+msgid "ISO9660 Filesystem Info"
+msgstr "Información del sistema de ficheros ISO9660"
+
+#: k3bdiskinfoview.cpp:110
+msgid "Tracks"
+msgstr "Pistes"
+
+#: k3bdiskinfoview.cpp:178 misc/k3bmediacopydialog.cpp:175
+#: projects/k3bvcdtrackdialog.cpp:607 rip/k3baudiorippingdialog.cpp:358
+#: rip/k3baudiorippingdialog.cpp:413
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:313
+msgid "Audio"
+msgstr "Audio"
+
+#: k3bdiskinfoview.cpp:182
+msgid "Data/Mode1"
+msgstr "Datos/mou1"
+
+#: k3bdiskinfoview.cpp:184
+msgid "Data/Mode2"
+msgstr "Datos/mou2"
+
+#: k3bdiskinfoview.cpp:186
+msgid "Data/Mode2 XA Form1"
+msgstr "Datos/mou2 XA formatu1"
+
+#: k3bdiskinfoview.cpp:188
+msgid "Data/Mode2 XA Form2"
+msgstr "Datos/mou2 XA formatu2"
+
+#: k3bdiskinfoview.cpp:190 misc/k3bmediacopydialog.cpp:163
+#: rip/categories.cpp:23 rip/k3baudiorippingdialog.cpp:413
+msgid "Data"
+msgstr "Datos"
+
+#: k3bdiskinfoview.cpp:197
+msgid "copy"
+msgstr "copiar"
+
+#: k3bdiskinfoview.cpp:197
+msgid "no copy"
+msgstr "nun copiar"
+
+#: k3bdiskinfoview.cpp:199
+msgid "preemp"
+msgstr "preemp"
+
+#: k3bdiskinfoview.cpp:199
+msgid "no preemp"
+msgstr "nun preemp"
+
+#: k3bdiskinfoview.cpp:200
+msgid "incremental"
+msgstr "incremental"
+
+#: k3bdiskinfoview.cpp:200
+msgid "uninterrupted"
+msgstr "ensin interrupción"
+
+#: k3bdiskinfoview.cpp:227 projects/k3baudioburndialog.cpp:72
+#: projects/k3baudiocdtextwidget.cpp:40 projects/k3bmixedburndialog.cpp:71
+msgid "CD-Text"
+msgstr "CD-Testu"
+
+#: k3bdiskinfoview.cpp:240 projects/k3bdatamultisessionimportdialog.cpp:214
+#, kde-format
+msgid "Session %1"
+msgstr "Sesión %1"
+
+#. i18n: file: option/base_k3bcddboptiontab.ui:254
+#. i18n: ectx: property (text), widget (K3ListView)
+#: k3bdiskinfoview.cpp:250 rc.cpp:67 projects/k3bvcdburndialog.cpp:394
+#: rip/k3baudiorippingdialog.cpp:145
+msgid "Type"
+msgstr "Triba"
+
+#: k3bdiskinfoview.cpp:252
+msgid "Attributes"
+msgstr "Atributos"
+
+#: k3bdiskinfoview.cpp:254
+msgid "First-Last Sector"
+msgstr "Primer-caberu sector"
+
+#: k3bdiskinfoview.cpp:256 rip/k3baudioprojectconvertingdialog.cpp:126
+#: rip/k3baudiorippingdialog.cpp:143 rip/k3bvideocdview.cpp:210
+#: rip/k3baudiotrackmodel.cpp:165
+msgid "Length"
+msgstr "Duración"
+
+#: k3bdiskinfoview.cpp:296
+msgid "Unknown (probably CD-ROM)"
+msgstr "Desconocíu (probablemente CD-ROM)"
+
+#: k3bdiskinfoview.cpp:297 projects/k3bdatapropertiesdialog.cpp:86
+#: projects/k3bvcdtrackdialog.cpp:601 projects/k3bvcdtrackdialog.cpp:642
+msgid "Type:"
+msgstr "Triba:"
+
+#: k3bdiskinfoview.cpp:299
+msgid "Media ID:"
+msgstr "ID Mediu:"
+
+#: k3bdiskinfoview.cpp:299 rip/k3baudioconvertingoptionwidget.cpp:222
+#: rip/k3baudioconvertingoptionwidget.cpp:256
+#: rip/k3baudioprojectconvertingdialog.cpp:275
+#: rip/k3baudioprojectconvertingdialog.cpp:314
+#: rip/k3baudiorippingdialog.cpp:357 rip/k3baudiorippingdialog.cpp:412
+#: rip/k3bpatternparser.cpp:124 rip/k3bpatternparser.cpp:160
+#: rip/k3bpatternparser.cpp:168 rip/videodvd/k3bvideodvdrippingwidget.cpp:277
+msgid "unknown"
+msgstr "desconocíu"
+
+#: k3bdiskinfoview.cpp:300
+msgid "Capacity:"
+msgstr "Capacidá:"
+
+#: k3bdiskinfoview.cpp:300 k3bdiskinfoview.cpp:302 k3bdiskinfoview.cpp:306
+#: projects/k3bfillstatusdisplay.cpp:188 projects/k3bfillstatusdisplay.cpp:191
+#: projects/k3bfillstatusdisplay.cpp:196
+#, kde-format
+msgid "%1 min"
+msgstr "%1 min"
+
+#: k3bdiskinfoview.cpp:302
+msgid "Used Capacity:"
+msgstr "Capacidá usada:"
+
+#: k3bdiskinfoview.cpp:306
+msgid "Remaining:"
+msgstr "Restante:"
+
+#: k3bdiskinfoview.cpp:307
+msgid "Rewritable:"
+msgstr "Regrabable:"
+
+#: k3bdiskinfoview.cpp:307 k3bdiskinfoview.cpp:308 k3bdiskinfoview.cpp:309
+msgctxt "Availability"
+msgid "yes"
+msgstr "sí"
+
+#: k3bdiskinfoview.cpp:307 k3bdiskinfoview.cpp:308 k3bdiskinfoview.cpp:309
+msgctxt "Availability"
+msgid "no"
+msgstr "non"
+
+#: k3bdiskinfoview.cpp:308
+msgid "Appendable:"
+msgstr "Amestable:"
+
+#: k3bdiskinfoview.cpp:309
+msgid "Empty:"
+msgstr "Baleru:"
+
+#: k3bdiskinfoview.cpp:311
+msgctxt "Number of layers on an optical medium"
+msgid "Layers:"
+msgstr "Capes:"
+
+#: k3bdiskinfoview.cpp:317
+msgid "not formatted"
+msgstr "non formateáu"
+
+#: k3bdiskinfoview.cpp:320
+msgid "incomplete"
+msgstr "incompletu"
+
+#: k3bdiskinfoview.cpp:323
+msgid "in progress"
+msgstr "en progresu"
+
+#: k3bdiskinfoview.cpp:326
+msgid "complete"
+msgstr "completu"
+
+#: k3bdiskinfoview.cpp:329
+msgid "unknown state"
+msgstr "estáu desconocíu"
+
+#: k3bdiskinfoview.cpp:332
+msgid "Background Format:"
+msgstr "Formatu de fondu:"
+
+#: k3bdiskinfoview.cpp:335
+msgid "Sessions:"
+msgstr "Sesiones:"
+
+#: k3bdiskinfoview.cpp:357
+msgid "Supported writing speeds:"
+msgstr "Velocidaes de grabación permitíes:"
+
+#: k3bdiskinfoview.cpp:370 misc/k3bimagewritingdialog.cpp:197
+msgid "System Id:"
+msgstr "ID de sistema:"
+
+#: k3bdiskinfoview.cpp:371 misc/k3bimagewritingdialog.cpp:205
+msgid "Volume Id:"
+msgstr "ID del volume:"
+
+#: k3bdiskinfoview.cpp:372 misc/k3bimagewritingdialog.cpp:213
+msgid "Volume Set Id:"
+msgstr "ID del conxuntu de volúmenes:"
+
+#: k3bdiskinfoview.cpp:373 misc/k3bimagewritingdialog.cpp:221
+msgid "Publisher Id:"
+msgstr "ID del editor:"
+
+#: k3bdiskinfoview.cpp:374 misc/k3bimagewritingdialog.cpp:229
+msgid "Preparer Id:"
+msgstr "ID del preparador:"
+
+#: k3bdiskinfoview.cpp:375 misc/k3bimagewritingdialog.cpp:236
+msgid "Application Id:"
+msgstr "ID de la aplicación:"
+
+#: k3bdiskinfoview.cpp:376 misc/k3bimagewritingdialog.cpp:187
+msgid "Volume Size:"
+msgstr "Tamañu del Volume:"
+
+#: k3bdiskinfoview.cpp:379
+#, kde-format
+msgctxt "Size of one block, always 2048"
+msgid "%1 B"
+msgstr "%1 B"
+
+#: k3bdiskinfoview.cpp:380
+#, kde-format
+msgctxt "Number of blocks (one block has 2048 bytes)"
+msgid "1 block"
+msgid_plural "%1 blocks"
+msgstr[0] "1 bloque"
+msgstr[1] "%1 bloques"
+
+#: k3bdiskinfoview.cpp:381
+#, kde-format
+msgid "1 B"
+msgid_plural "%1 B"
+msgstr[0] "1 B"
+msgstr[1] "%1 B"
+
+#: k3bemptydiscwaiter.cpp:89
+msgid "Waiting for Disk"
+msgstr "Esperando'l discu"
+
+#: k3bemptydiscwaiter.cpp:94
+msgid "Eject"
+msgstr "Expulsar"
+
+#: k3bemptydiscwaiter.cpp:96
+msgid "Load"
+msgstr "Cargar"
+
+#: k3bemptydiscwaiter.cpp:118
+msgid "Found medium:"
+msgstr "Atopóse'l mediu:"
+
+#: k3bemptydiscwaiter.cpp:271 k3bemptydiscwaiter.cpp:363
+#: k3bemptydiscwaiter.cpp:449
+#, kde-format
+msgid "Found %1 medium in %2 - %3. Should it be overwritten?"
+msgstr ""
+
+#: k3bemptydiscwaiter.cpp:275 k3bemptydiscwaiter.cpp:368
+#: k3bemptydiscwaiter.cpp:454 k3bemptydiscwaiter.cpp:518
+#, kde-format
+msgid "Found %1"
+msgstr "Atopáu %1"
+
+#: k3bemptydiscwaiter.cpp:336
+msgid "Preformatting DVD+RW"
+msgstr "Pre-formateando DVD+RW"
+
+#: k3bemptydiscwaiter.cpp:513
+#, kde-format
+msgid "Found %1 medium in %2 - %3. Should it be formatted?"
+msgstr ""
+
+#: k3bemptydiscwaiter.cpp:519
+msgid "&Format"
+msgstr "&Formatu"
+
+#: k3bemptydiscwaiter.cpp:541
+msgid "Formatting DVD-RW"
+msgstr "Formateando DVD-RW"
+
+#: k3bemptydiscwaiter.cpp:576
+#, kde-format
+msgid "Found rewritable medium in %1 - %2. Should it be erased?"
+msgstr ""
+
+#: k3bemptydiscwaiter.cpp:578
+msgid "Found Rewritable Disk"
+msgstr "Atopáu un discu regrabable"
+
+#: k3bemptydiscwaiter.cpp:579
+msgid "E&rase"
+msgstr "De&saniciar"
+
+#: k3bemptydiscwaiter.cpp:586
+msgid "Erasing CD-RW"
+msgstr "Desaniciando CD-RW"
+
+#: k3bemptydiscwaiter.cpp:654
+msgid "Waiting for Medium"
+msgstr "Esperando pol mediu"
+
+#: k3bemptydiscwaiter.cpp:719
+msgid "Erasing failed."
+msgstr "Fallu al desaniciar."
+
+#: k3bfileview.cpp:76
+msgid "Filter:"
+msgstr "Peñera:"
+
+#: k3bfileview.cpp:83
+msgid "audio/x-mp3 audio/x-wav application/x-ogg |Sound Files"
+msgstr "audio/x-mp3 audio/x-wav application/x-ogg |Ficheros de soníu"
+
+#: k3bfileview.cpp:84
+msgid "audio/x-wav |Wave Sound Files"
+msgstr "audio/x-wav |Ficheros de soníu wave"
+
+#: k3bfileview.cpp:85
+msgid "audio/x-mp3 |MP3 Sound Files"
+msgstr "audio/x-mp3 |Ficheros de soníu MP3"
+
+#: k3bfileview.cpp:86
+msgid "application/x-ogg |Ogg Vorbis Sound Files"
+msgstr "application/x-ogg |Ficheros de soníu Ogg Vorbis"
+
+#: k3bfileview.cpp:87
+msgid "video/mpeg |MPEG Video Files"
+msgstr "video/mpeg |Ficheros de vídeo MPEG"
+
+#: k3bfileview.cpp:90
+#, fuzzy
+#| msgid "Bookmarks"
+msgid "Show Bookmarks"
+msgstr "Marcadores"
+
+#. i18n: file: rip/base_k3baudiorippingoptionwidget.ui:47
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#. i18n: file: ../plugins/encoder/external/base_k3bexternalencodereditwidget.ui:109
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: file: ../plugins/encoder/lame/base_k3blameencodersettingswidget.ui:317
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: k3bfileview.cpp:93 rc.cpp:840 rc.cpp:1107 rc.cpp:1175
+msgid "Options"
+msgstr "Opciones"
+
+#: k3binteractiondialog.cpp:85
+msgid "Load default settings"
+msgstr "Cargar la configuración predeterminada"
+
+#: k3binteractiondialog.cpp:86
+msgid "Load saved settings"
+msgstr "Cargar configuración guardada"
+
+#: k3binteractiondialog.cpp:87
+msgid "Load last used settings"
+msgstr "Cargar la cabera configuración usada"
+
+#: k3binteractiondialog.cpp:110 projects/k3bprojectburndialog.cpp:151
+msgid "Start"
+msgstr "Entamar"
+
+#: k3binteractiondialog.cpp:111
+msgid "Start the task"
+msgstr "Entamar la xera"
+
+#: k3binteractiondialog.cpp:201
+msgid "Load default or saved settings"
+msgstr "Carga la configuración predeterminada o guardada"
+
+#: k3binteractiondialog.cpp:202
+msgid "Save current settings to reuse them later"
+msgstr "Guardar configuración actual pa reutilizar dempués"
+
+#: k3binteractiondialog.cpp:206
+msgid ""
+"<p>Load a set of settings either from the default K3b settings, settings "
+"saved before, or the last used ones."
+msgstr ""
+"<p>cargar un xuegu de configuraciones o de la configuración por defeutu de "
+"K3b, configuraciones guardaes anteriormente o les últimes usaes."
+
+#: k3binteractiondialog.cpp:208
+msgid ""
+"<p>Saves the current settings of the action dialog.<p>These settings can be "
+"loaded with the <em>Load saved settings</em> button.<p><b>The K3b defaults "
+"are not overwritten by this.</b>"
+msgstr ""
+"<p>Guarda la configuración actual del diálogu d'aiciones.<p>Esta "
+"configuración tamién puede cargase col botón <em>Cargar configuración "
+"guardada</em>. <p><b>Les opciones predeterminaes de K3b nun se sobrescriben."
+"</b>"
+
+#: k3binteractiondialog.cpp:286
+msgid "Action Dialog Settings"
+msgstr "Configuración del diálogu d'aiciones"
+
+#: k3binteractiondialog.cpp:287
+msgid ""
+"<p>K3b handles three sets of settings in action dialogs: the defaults, the "
+"saved settings, and the last used settings. Please choose which of these "
+"sets should be loaded if an action dialog is opened again.<p><em>Be aware "
+"that this choice can always be changed from the K3b configuration dialog.</"
+"em>"
+msgstr ""
+"<p>K3b tien tres sistemes de configuración nos cuadros de diálogu: por "
+"defeuto, los axustes guardaos y los últimos axustes usaos. Por favor, "
+"escueyi cuál d'ellos se cargará si se vuelve a abrir un cuadru de diálogu."
+"<p><em>Ten en cuenta que puedes camudar siempre esta escoyeta nel cuadru de "
+"configuración de K3b.</em>"
+
+#: k3binteractiondialog.cpp:296 option/k3bmiscoptiontab.cpp:48
+msgid "Default Settings"
+msgstr "Configuración predeterminada"
+
+#: k3binteractiondialog.cpp:297 option/k3bmiscoptiontab.cpp:51
+msgid "Saved Settings"
+msgstr "Configuración guardada"
+
+#: k3binteractiondialog.cpp:298 option/k3bmiscoptiontab.cpp:54
+msgid "Last Used Settings"
+msgstr "Cabera configuración usada"
+
+#: k3bjobprogressdialog.cpp:109
+msgid "Show Debugging Output"
+msgstr "Amosar salida de depuráu"
+
+#: k3bjobprogressdialog.cpp:208
+msgid "Overall progress:"
+msgstr "Progresu global:"
+
+#: k3bjobprogressdialog.cpp:273 k3bjobprogressdialog.cpp:284
+#: k3bjobprogressdialog.cpp:295 k3bjobprogressdialog.cpp:306
+#, fuzzy, kde-format
+#| msgid "%1 of %2 MB"
+msgctxt "%1 and %2 are byte sizes formatted via KLocale::formatByteSize"
+msgid "%1 of %2"
+msgstr "%1 de %2 MB"
+
+#: k3bjobprogressdialog.cpp:352
+#, fuzzy, kde-format
+#| msgid "Elapsed time"
+msgctxt "@info %1 is a duration formatted using KLocale::formatLocaleTime"
+msgid "Elapsed time: %1"
+msgstr "Tiempu trescurríu"
+
+#: k3bjobprogressdialog.cpp:361
+msgid "Success."
+msgstr "Éxitu."
+
+#: k3bjobprogressdialog.cpp:368
+msgid "Successfully finished."
+msgstr "Completada correutamente."
+
+#: k3bjobprogressdialog.cpp:377
+msgid "Canceled."
+msgstr "Encaboxáu."
+
+#: k3bjobprogressdialog.cpp:380
+msgid "Error."
+msgstr "Fallu."
+
+#: k3bjobprogressdialog.cpp:382
+msgid "Finished with errors"
+msgstr "Terminó con fallos"
+
+#: k3bjobprogressdialog.cpp:466
+msgid "Do you really want to cancel?"
+msgstr "¿De verdá quies encaboxar?"
+
+#: k3bjobprogressdialog.cpp:466
+msgid "Cancel Confirmation"
+msgstr "Confirmación del encaboxamiento"
+
+#: k3bjobprogressdialog.cpp:525
+#, fuzzy, kde-format
+#| msgid "Remaining:"
+msgctxt "@info %1 is a duration formatted using KLocale::formatLocaleTime"
+msgid "Remaining time: %1"
+msgstr "Restante:"
+
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -520,13 +1207,6 @@ msgstr "Remotu"
 msgid "Server:"
 msgstr "Sirvidor:"
 
-#. i18n: file: option/base_k3bcddboptiontab.ui:254
-#. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:67 k3bdiskinfoview.cpp:250 projects/k3bvcdburndialog.cpp:394
-#: rip/k3baudiorippingdialog.cpp:145
-msgid "Type"
-msgstr "Triba"
-
 #. i18n: file: option/base_k3bcddboptiontab.ui:265
 #. i18n: ectx: property (text), widget (K3ListView)
 #: rc.cpp:70
@@ -611,172 +1291,15 @@ msgstr "Camín:"
 msgid "Manual CGI path"
 msgstr "Camín cgi manual"
 
-#. i18n: file: option/base_k3bmiscoptiontab.ui:12
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:115 option/k3boptiondialog.cpp:132
-#: projects/k3bdataburndialog.cpp:170 projects/k3bmixedburndialog.cpp:96
-#: projects/k3bmixedburndialog.cpp:139 projects/k3bmovixburndialog.cpp:113
-#: projects/k3bvcdburndialog.cpp:366
-msgid "Misc"
-msgstr "Dellos"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:18
-#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkSaveOnExit)
-#: rc.cpp:118
-msgid "Ask to save modified projects on exit"
-msgstr "Entrugar si se graba'l proyeutu camudáu al colar"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:21
-#. i18n: ectx: property (text), widget (QCheckBox, m_checkSaveOnExit)
-#: rc.cpp:121
-msgid "&Ask to save projects on exit"
-msgstr "Entrug&ar si se graben proyeutos al colar"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:30
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:124
-msgid "Default Temporary Directory:"
-msgstr "Direutoriu temporal predetermináu:"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:40
-#. i18n: ectx: property (toolTip), widget (KUrlRequester, m_editTempDir)
-#: rc.cpp:127
-msgid "The directory where K3b stores temporary files"
-msgstr "El direutoriu onde K3b guarda los ficheros temporales"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:43
-#. i18n: ectx: property (whatsThis), widget (KUrlRequester, m_editTempDir)
-#: rc.cpp:130
-msgid ""
-"<p>This is the default temporary directory. This is where K3b will store "
-"temporary files such as iso images or decoded audio files.<p>Be aware that "
-"the temporary directory may also be changed in every project burn dialog."
-msgstr ""
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:55
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
-#: rc.cpp:133
-msgid "System"
-msgstr "Sistema"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:61
-#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkSystemConfig)
-#: rc.cpp:136
-msgid "Check system Configuration"
-msgstr "Comprobar la configuración del sistema"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:64
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkSystemConfig)
-#: rc.cpp:139
-msgid ""
-"<p>If this option is checked K3b will check the system configuration for any "
-"problems on startup and when the user changes the settings."
-msgstr ""
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:67
-#. i18n: ectx: property (text), widget (QCheckBox, m_checkSystemConfig)
-#: rc.cpp:142
-msgid "&Check system configuration"
-msgstr "&Comprobar la configuración del sistema"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:77
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:145
-msgid "GUI Settings"
-msgstr "Configuración de la interfaz gráfica"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:83
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkShowProgressOSD)
-#: rc.cpp:148
-msgid ""
-"<p>If this option is checked K3b will display the progress in an OSD which "
-"always stays on top of all other windows."
-msgstr ""
-"<p>Si s'escoyó esta opción, K3b amosará gráficamente'l progresu nuna estaya "
-"de visualización que siempre tará penriba de les demás ventanes."
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:86
-#. i18n: ectx: property (text), widget (QCheckBox, m_checkShowProgressOSD)
-#: rc.cpp:151
-msgid "Show progress &OSD"
-msgstr "Amosar &OSD de progresu"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:93
-#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkHideMainWindowWhileWriting)
-#: rc.cpp:154
-msgid "Hide the main window while displaying the progress window"
-msgstr "Anubrir la ventana principal mentanto s'amuesa la ventana de progresu"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:96
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkHideMainWindowWhileWriting)
-#: rc.cpp:157
-msgid ""
-"<p>If this option is checked K3b will hide the main window while displaying "
-"the progress dialog."
-msgstr ""
-"<p>Si s'escoyó esta opción, K3b anubrirá la ventana principal mentanto "
-"s'amuesa'l diálogu de progresu."
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:99
-#. i18n: ectx: property (text), widget (QCheckBox, m_checkHideMainWindowWhileWriting)
-#: rc.cpp:160
-msgid "Hide &main window while writing"
-msgstr "&Anubrir la ventana principal na grabación"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:106
-#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkShowSplash)
-#: rc.cpp:163
-msgid "Show the splash screen when K3b starts"
-msgstr "Amosar logo al aniciu n'arrnacando K3b"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:109
-#. i18n: ectx: property (text), widget (QCheckBox, m_checkShowSplash)
-#: rc.cpp:166
-msgid "Show splash screen"
-msgstr "Amosar logo al aniciu"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:116
-#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkKeepDialogsOpen)
-#: rc.cpp:169
-msgid "Do not close action dialogs after finishing the process"
-msgstr "Nun zarrar los diálogos d'aiciones darréu d'acabar el procesu"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:119
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkKeepDialogsOpen)
-#: rc.cpp:172
-msgid ""
-"<p>If this option is checked K3b will not close action dialogs such as the "
-"CD Copy dialog after the process has been finished. It will be kept open to "
-"start a new process, for instance, copying another CD."
-msgstr ""
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:122
-#. i18n: ectx: property (text), widget (QCheckBox, m_checkKeepDialogsOpen)
-#: rc.cpp:175
-msgid "&Keep action dialogs open"
-msgstr "&Caltener los diálogos de aición abiertos"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:131
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: rc.cpp:178
-msgid "&Default action dialog settings:"
-msgstr "Configuración predeterminada de los diáologos d'aición:"
-
-#. i18n: file: option/base_k3bmiscoptiontab.ui:144
-#. i18n: ectx: property (toolTip), widget (K3b::IntMapComboBox, m_comboActionDialogSettings)
-#: rc.cpp:181
-msgid "Settings to load when opening an action dialog"
-msgstr "Configuraciones a cargar cuando s'abre un dialogu d'aición"
-
 #. i18n: file: option/base_k3bpluginoptiontab.ui:21
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonConfigure)
-#: rc.cpp:184
+#: rc.cpp:115
 msgid "Configure..."
 msgstr "Configurar..."
 
 #. i18n: file: option/base_k3bpluginoptiontab.ui:47
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:187 option/k3bpluginoptiontab.cpp:40
+#: rc.cpp:118 option/k3bpluginoptiontab.cpp:40
 msgid ""
 "<p>Here all <em>K3b Plugins</em> may be configured. Be aware that this does "
 "not include the <em>KPart Plugins</em> which embed themselves in the K3b "
@@ -788,33 +1311,195 @@ msgstr ""
 
 #. i18n: file: option/base_k3bthemeoptiontab.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
-#: rc.cpp:190
+#: rc.cpp:121
 msgid "Theme Selection"
 msgstr "Escoyeta de tema"
 
 #. i18n: file: option/base_k3bthemeoptiontab.ui:37
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox5)
-#: rc.cpp:193 rip/videodvd/k3bvideodvdtitlemodel.cpp:309
+#: rc.cpp:124 rip/videodvd/k3bvideodvdtitlemodel.cpp:309
 msgid "Preview"
 msgstr "Vista preliminar"
 
 #. i18n: file: option/base_k3bthemeoptiontab.ui:70
 #. i18n: ectx: property (text), widget (QLabel, m_centerPreviewLabel)
-#: rc.cpp:196
+#: rc.cpp:127
 msgid "No theme selected"
 msgstr "Dengún tema escoyíu"
 
 #. i18n: file: option/base_k3bthemeoptiontab.ui:119
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonInstallTheme)
-#: rc.cpp:199
+#: rc.cpp:130
 msgid "Install New Theme..."
 msgstr "Instalar nuevu tema..."
 
 #. i18n: file: option/base_k3bthemeoptiontab.ui:126
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemoveTheme)
-#: rc.cpp:202
+#: rc.cpp:133
 msgid "Remove Theme"
 msgstr "Desaniciar tema"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:136 option/k3boptiondialog.cpp:132
+#: projects/k3bdataburndialog.cpp:170 projects/k3bmixedburndialog.cpp:96
+#: projects/k3bmixedburndialog.cpp:139 projects/k3bmovixburndialog.cpp:113
+#: projects/k3bvcdburndialog.cpp:366
+msgid "Misc"
+msgstr "Dellos"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:26
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkSaveOnExit)
+#: rc.cpp:139
+msgid "Ask to save modified projects on exit"
+msgstr "Entrugar si se graba'l proyeutu camudáu al colar"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:29
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkSaveOnExit)
+#: rc.cpp:142
+msgid "&Ask to save projects on exit"
+msgstr "Entrug&ar si se graben proyeutos al colar"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:38
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:145
+msgid "Default Temporary Directory:"
+msgstr "Direutoriu temporal predetermináu:"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:48
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, m_editTempDir)
+#: rc.cpp:148
+msgid "The directory where K3b stores temporary files"
+msgstr "El direutoriu onde K3b guarda los ficheros temporales"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:51
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, m_editTempDir)
+#: rc.cpp:151
+msgid ""
+"<p>This is the default temporary directory. This is where K3b will store "
+"temporary files such as iso images or decoded audio files.<p>Be aware that "
+"the temporary directory may also be changed in every project burn dialog."
+msgstr ""
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:63
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:154
+msgid "System"
+msgstr "Sistema"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:69
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkSystemConfig)
+#: rc.cpp:157
+msgid "Check system Configuration"
+msgstr "Comprobar la configuración del sistema"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:72
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkSystemConfig)
+#: rc.cpp:160
+msgid ""
+"<p>If this option is checked K3b will check the system configuration for any "
+"problems on startup and when the user changes the settings."
+msgstr ""
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:75
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkSystemConfig)
+#: rc.cpp:163
+msgid "&Check system configuration"
+msgstr "&Comprobar la configuración del sistema"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:85
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:166
+msgid "GUI Settings"
+msgstr "Configuración de la interfaz gráfica"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:91
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkShowProgressOSD)
+#: rc.cpp:169
+#, fuzzy
+#| msgid ""
+#| "<p>If this option is checked K3b will display the progress in an OSD "
+#| "which always stays on top of all other windows."
+msgid ""
+"<p>If this option is checked K3b will display the progress in KDE "
+"notification area. If K3b is run outside KDE environment a separate progress "
+"window may be shown instead.</p>"
+msgstr ""
+"<p>Si s'escoyó esta opción, K3b amosará gráficamente'l progresu nuna estaya "
+"de visualización que siempre tará penriba de les demás ventanes."
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:94
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkShowProgressOSD)
+#: rc.cpp:172
+msgid "Show &progress in notification area"
+msgstr ""
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:101
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkHideMainWindowWhileWriting)
+#: rc.cpp:175
+msgid "Hide the main window while displaying the progress window"
+msgstr "Anubrir la ventana principal mentanto s'amuesa la ventana de progresu"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:104
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkHideMainWindowWhileWriting)
+#: rc.cpp:178
+msgid ""
+"<p>If this option is checked K3b will hide the main window while displaying "
+"the progress dialog."
+msgstr ""
+"<p>Si s'escoyó esta opción, K3b anubrirá la ventana principal mentanto "
+"s'amuesa'l diálogu de progresu."
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:107
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkHideMainWindowWhileWriting)
+#: rc.cpp:181
+msgid "Hide &main window while writing"
+msgstr "&Anubrir la ventana principal na grabación"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:114
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkShowSplash)
+#: rc.cpp:184
+msgid "Show the splash screen when K3b starts"
+msgstr "Amosar logo al aniciu n'arrnacando K3b"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:117
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkShowSplash)
+#: rc.cpp:187
+msgid "Show splash screen"
+msgstr "Amosar logo al aniciu"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:124
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkKeepDialogsOpen)
+#: rc.cpp:190
+msgid "Do not close action dialogs after finishing the process"
+msgstr "Nun zarrar los diálogos d'aiciones darréu d'acabar el procesu"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:127
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkKeepDialogsOpen)
+#: rc.cpp:193
+msgid ""
+"<p>If this option is checked K3b will not close action dialogs such as the "
+"CD Copy dialog after the process has been finished. It will be kept open to "
+"start a new process, for instance, copying another CD."
+msgstr ""
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:130
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkKeepDialogsOpen)
+#: rc.cpp:196
+msgid "&Keep action dialogs open"
+msgstr "&Caltener los diálogos de aición abiertos"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:139
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:199
+msgid "&Default action dialog settings:"
+msgstr "Configuración predeterminada de los diáologos d'aición:"
+
+#. i18n: file: option/base_k3bmiscoptiontab.ui:152
+#. i18n: ectx: property (toolTip), widget (K3b::IntMapComboBox, m_comboActionDialogSettings)
+#: rc.cpp:202
+msgid "Settings to load when opening an action dialog"
+msgstr "Configuraciones a cargar cuando s'abre un dialogu d'aición"
 
 #. i18n: file: projects/base_k3badvanceddataimagesettings.ui:18
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_3)
@@ -2157,16 +2842,6 @@ msgstr "Triba de ficheru"
 msgid "Configure Plugin"
 msgstr "Configurando Módulu Complementariu"
 
-#. i18n: file: rip/base_k3baudiorippingoptionwidget.ui:47
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
-#. i18n: file: ../plugins/encoder/external/base_k3bexternalencodereditwidget.ui:109
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#. i18n: file: ../plugins/encoder/lame/base_k3blameencodersettingswidget.ui:317
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:840 rc.cpp:1107 rc.cpp:1175 k3bfileview.cpp:93
-msgid "Options"
-msgstr "Opciones"
-
 #. i18n: file: rip/base_k3baudiorippingoptionwidget.ui:53
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkCreatePlaylist)
 #: rc.cpp:843
@@ -3276,680 +3951,6 @@ msgstr "Pallabres de 16 bit"
 #: rc.cpp:1355
 msgid "32-bit Words"
 msgstr "Pallabres de 32 bit"
-
-#: k3bappdevicemanager.cpp:55
-msgid "Media &Info"
-msgstr "&Información de mediu"
-
-#: k3bappdevicemanager.cpp:57
-msgid "&Unmount"
-msgstr "&Desmontar"
-
-#: k3bappdevicemanager.cpp:59
-msgid "&Mount"
-msgstr "&Desmontar"
-
-#: k3bappdevicemanager.cpp:61 k3bemptydiscwaiter.cpp:277
-#: k3bemptydiscwaiter.cpp:370 k3bemptydiscwaiter.cpp:456
-#: k3bemptydiscwaiter.cpp:520 k3bemptydiscwaiter.cpp:580
-msgid "&Eject"
-msgstr "&Sacar"
-
-#: k3bappdevicemanager.cpp:63
-msgid "L&oad"
-msgstr "C&argar"
-
-#: k3bappdevicemanager.cpp:69
-msgid "Set Read Speed..."
-msgstr "Afitar la velocidá de llectura..."
-
-#: k3bappdevicemanager.cpp:72
-msgid "Display generic medium information"
-msgstr "Amosar información xenérica del mediu"
-
-#: k3bappdevicemanager.cpp:74
-msgid "Unmount the medium"
-msgstr "Desmontar el mediu"
-
-#: k3bappdevicemanager.cpp:76
-msgid "Mount the medium"
-msgstr "Montar el mediu"
-
-#: k3bappdevicemanager.cpp:78
-msgid "Eject the medium"
-msgstr "Sacar el mediu"
-
-#: k3bappdevicemanager.cpp:80
-msgid "(Re)Load the medium"
-msgstr "(Re)Cargar el mediu"
-
-#: k3bappdevicemanager.cpp:82
-msgid "Force the drive's read speed"
-msgstr "Forzar la velocidá de llectura del preséu"
-
-#: k3bappdevicemanager.cpp:288
-msgid "CD Read Speed"
-msgstr "Velocidá de llectura de CD"
-
-#: k3bappdevicemanager.cpp:289
-#, kde-format
-msgid ""
-"<p>Please enter the preferred read speed for <b>%1</b>. This speed will be "
-"used for the currently mounted medium.<p>This is especially useful to slow "
-"down the drive when watching movies which are read directly from the drive "
-"and the spinning noise is intrusive.<p>Be aware that this has no influence "
-"on K3b since it will change the reading speed again when copying CDs or DVDs."
-msgstr ""
-"<p>Por favor, pon la velocidá de llectura preferida pa <b>%1</b>. Esta "
-"velocidá usaráse pal mediu montáu actualmente. <p>Esto ye especialmente útil "
-"pa baxar la velocidá del llector cuando se tán viendo vídeos que se lleen "
-"direutamente de la unidá. <p>Ten en cuenta qu'esto nun afecta a K3b yá que "
-"volverá a camudar la velocidá de llectura cuando se copie CD o DVD."
-
-#: k3bappdevicemanager.cpp:307
-msgid "Setting the read speed failed."
-msgstr "Falló al afitar la velocidá de llectura."
-
-#: k3bdirview.cpp:206
-msgid ""
-"K3b uses vcdxrip from the vcdimager package to rip Video CDs. Please make "
-"sure it is installed."
-msgstr ""
-"K3b usa vcdxrip del paquete vcdimager pa codificar CDs de vídeo. Por favor "
-"asegúrate de que ta instaláu."
-
-#: k3bdirview.cpp:240
-msgid "Mount Failed"
-msgstr "Fallu al montar"
-
-#: k3bdirview.cpp:241
-#, kde-format
-msgid "<p>K3b was unable to mount medium <b>%1</b> in device <em>%2 - %3</em>"
-msgstr "<p>K3b nun fue a montar el mediu <b>%1</b> nel preséu <em>%2 - %3</em>"
-
-#: k3bdirview.cpp:256
-msgid "Unmount Failed"
-msgstr "Fallu al desmontar"
-
-#: k3bdirview.cpp:257
-#, kde-format
-msgid ""
-"<p>K3b was unable to unmount medium <b>%1</b> in device <em>%2 - %3</em>"
-msgstr ""
-"<p>K3b ye incapaz de desmontar el mediu <b>%1</b> nel preséu <em>%2 - %3</em>"
-
-#: k3bburnprogressdialog.cpp:39
-msgid "Estimated writing speed:"
-msgstr "Velocidá de grabación estimada:"
-
-#: k3bburnprogressdialog.cpp:51
-msgid "Software buffer:"
-msgstr "Buffer software:"
-
-#: k3bburnprogressdialog.cpp:52
-msgid "Device buffer:"
-msgstr "Buffer del preséu:"
-
-#: k3bburnprogressdialog.cpp:89
-#, kde-format
-msgid "Writer: %1 %2"
-msgstr "Grabadora: %1 %2"
-
-#: k3bburnprogressdialog.cpp:92 k3bburnprogressdialog.cpp:93
-#: k3bburnprogressdialog.cpp:94
-msgid "no info"
-msgstr "ensin información"
-
-#: k3bdatamodewidget.cpp:33 k3bwriterselectionwidget.cpp:270
-#: k3bwriterselectionwidget.cpp:523 k3bwritingmodewidget.cpp:163
-#: projects/k3bdatamultisessioncombobox.cpp:73
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:356
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:357
-msgid "Auto"
-msgstr "Auto"
-
-#: k3bdatamodewidget.cpp:34
-msgid "Mode1"
-msgstr "Mou1"
-
-#: k3bdatamodewidget.cpp:35
-msgid "Mode2"
-msgstr "Mou2"
-
-#: k3bdatamodewidget.cpp:37
-msgid "Select the mode for the data-track"
-msgstr "Escoyi'l mou pa la pista de datos"
-
-#: k3bdatamodewidget.cpp:38
-msgid ""
-"<p><b>Data Mode</b><p>Data tracks may be written in two different modes:</"
-"p><p><b>Auto</b><br>Let K3b select the best suited data mode.</p><p><b>Mode "
-"1</b><br>This is the <em>original</em> writing mode as introduced in the "
-"<em>Yellow Book</em> standard. It is the preferred mode when writing pure "
-"data CDs.</p><p><b>Mode 2</b><br>To be exact <em>XA Mode 2 Form 1</em>, but "
-"since the other modes are rarely used it is common to refer to it as "
-"<em>Mode 2</em>.</p><p><b>Be aware:</b> Do not mix different modes on one "
-"CD. Some older drives may have problems reading mode 1 multisession CDs."
-msgstr ""
-"<p>Les pistes de datos pueden grabase de dos maneres estremaes:</p> "
-"<p><b>Mou 1</b><br> Esti ye'l mou de grabación <em>orixinal</em> tal como se "
-"punxo na norma del <em>llibru mariellu</em>. Ye'l mou preferíu cuando se "
-"graben CD sólo de datos.</p> <p><b>Mou 2</b><br> Pa ser exautu <em>XA Mou 2 "
-"Formatu 1</em>, pero dende que los otros moos son raramente usaos, ye normal "
-"referire a elli como <em>mou 2</em>.</p> <p><b>Auto</b><br> Permite a K3b "
-"escoyear el meyor mou de datos.</p> <p><br>Ten en cuenta:</b> nun mezas "
-"estremaos moos nun CD. Delles unidaes antigües pueden tener problemes al "
-"lleer CD multisesión en mou 1."
-
-#: k3bdebuggingoutputdialog.cpp:42
-msgid "Debugging Output"
-msgstr "Depurando salida"
-
-#: k3bdebuggingoutputdialog.cpp:47
-msgid "Save to file"
-msgstr "Guardar a ficheru"
-
-#: k3bdebuggingoutputdialog.cpp:48
-msgid "Copy to clipboard"
-msgstr "Copiar al portapapeles"
-
-#: k3bdebuggingoutputdialog.cpp:90
-#, kde-format
-msgid "Could not open file %1"
-msgstr "Nun pudo abrir el ficheru %1"
-
-#: k3bdiroperator.cpp:48
-msgid "K3b Bookmarks"
-msgstr "Marcadores de K3b"
-
-#: k3bdiroperator.cpp:51
-msgid "Bookmarks"
-msgstr "Marcadores"
-
-#: k3bdiroperator.cpp:55 k3bfiletreeview.cpp:96
-msgid "&Add to Project"
-msgstr "&Amestar al proyeutu"
-
-#: k3bdiskinfoview.cpp:80
-msgid "No medium present"
-msgstr "Dengún mediu presente"
-
-#: k3bdiskinfoview.cpp:101
-msgid "Medium"
-msgstr "Mediu"
-
-#: k3bdiskinfoview.cpp:105
-msgid "ISO9660 Filesystem Info"
-msgstr "Información del sistema de ficheros ISO9660"
-
-#: k3bdiskinfoview.cpp:110
-msgid "Tracks"
-msgstr "Pistes"
-
-#: k3bdiskinfoview.cpp:178 misc/k3bmediacopydialog.cpp:175
-#: projects/k3bvcdtrackdialog.cpp:607 rip/k3baudiorippingdialog.cpp:358
-#: rip/k3baudiorippingdialog.cpp:413
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:313
-msgid "Audio"
-msgstr "Audio"
-
-#: k3bdiskinfoview.cpp:182
-msgid "Data/Mode1"
-msgstr "Datos/mou1"
-
-#: k3bdiskinfoview.cpp:184
-msgid "Data/Mode2"
-msgstr "Datos/mou2"
-
-#: k3bdiskinfoview.cpp:186
-msgid "Data/Mode2 XA Form1"
-msgstr "Datos/mou2 XA formatu1"
-
-#: k3bdiskinfoview.cpp:188
-msgid "Data/Mode2 XA Form2"
-msgstr "Datos/mou2 XA formatu2"
-
-#: k3bdiskinfoview.cpp:190 misc/k3bmediacopydialog.cpp:163
-#: rip/categories.cpp:23 rip/k3baudiorippingdialog.cpp:413
-msgid "Data"
-msgstr "Datos"
-
-#: k3bdiskinfoview.cpp:197
-msgid "copy"
-msgstr "copiar"
-
-#: k3bdiskinfoview.cpp:197
-msgid "no copy"
-msgstr "nun copiar"
-
-#: k3bdiskinfoview.cpp:199
-msgid "preemp"
-msgstr "preemp"
-
-#: k3bdiskinfoview.cpp:199
-msgid "no preemp"
-msgstr "nun preemp"
-
-#: k3bdiskinfoview.cpp:200
-msgid "incremental"
-msgstr "incremental"
-
-#: k3bdiskinfoview.cpp:200
-msgid "uninterrupted"
-msgstr "ensin interrupción"
-
-#: k3bdiskinfoview.cpp:227 projects/k3baudioburndialog.cpp:72
-#: projects/k3baudiocdtextwidget.cpp:40 projects/k3bmixedburndialog.cpp:71
-msgid "CD-Text"
-msgstr "CD-Testu"
-
-#: k3bdiskinfoview.cpp:240 projects/k3bdatamultisessionimportdialog.cpp:214
-#, kde-format
-msgid "Session %1"
-msgstr "Sesión %1"
-
-#: k3bdiskinfoview.cpp:252
-msgid "Attributes"
-msgstr "Atributos"
-
-#: k3bdiskinfoview.cpp:254
-msgid "First-Last Sector"
-msgstr "Primer-caberu sector"
-
-#: k3bdiskinfoview.cpp:256 rip/k3baudioprojectconvertingdialog.cpp:126
-#: rip/k3baudiorippingdialog.cpp:143 rip/k3bvideocdview.cpp:210
-#: rip/k3baudiotrackmodel.cpp:165
-msgid "Length"
-msgstr "Duración"
-
-#: k3bdiskinfoview.cpp:296
-msgid "Unknown (probably CD-ROM)"
-msgstr "Desconocíu (probablemente CD-ROM)"
-
-#: k3bdiskinfoview.cpp:297 projects/k3bdatapropertiesdialog.cpp:86
-#: projects/k3bvcdtrackdialog.cpp:601 projects/k3bvcdtrackdialog.cpp:642
-msgid "Type:"
-msgstr "Triba:"
-
-#: k3bdiskinfoview.cpp:299
-msgid "Media ID:"
-msgstr "ID Mediu:"
-
-#: k3bdiskinfoview.cpp:299 rip/k3baudioconvertingoptionwidget.cpp:222
-#: rip/k3baudioconvertingoptionwidget.cpp:256
-#: rip/k3baudioprojectconvertingdialog.cpp:275
-#: rip/k3baudioprojectconvertingdialog.cpp:314
-#: rip/k3baudiorippingdialog.cpp:357 rip/k3baudiorippingdialog.cpp:412
-#: rip/k3bpatternparser.cpp:124 rip/k3bpatternparser.cpp:160
-#: rip/k3bpatternparser.cpp:168 rip/videodvd/k3bvideodvdrippingwidget.cpp:277
-msgid "unknown"
-msgstr "desconocíu"
-
-#: k3bdiskinfoview.cpp:300
-msgid "Capacity:"
-msgstr "Capacidá:"
-
-#: k3bdiskinfoview.cpp:300 k3bdiskinfoview.cpp:302 k3bdiskinfoview.cpp:306
-#: projects/k3bfillstatusdisplay.cpp:188 projects/k3bfillstatusdisplay.cpp:191
-#: projects/k3bfillstatusdisplay.cpp:196
-#, kde-format
-msgid "%1 min"
-msgstr "%1 min"
-
-#: k3bdiskinfoview.cpp:302
-msgid "Used Capacity:"
-msgstr "Capacidá usada:"
-
-#: k3bdiskinfoview.cpp:306
-msgid "Remaining:"
-msgstr "Restante:"
-
-#: k3bdiskinfoview.cpp:307
-msgid "Rewritable:"
-msgstr "Regrabable:"
-
-#: k3bdiskinfoview.cpp:307 k3bdiskinfoview.cpp:308 k3bdiskinfoview.cpp:309
-msgctxt "Availability"
-msgid "yes"
-msgstr "sí"
-
-#: k3bdiskinfoview.cpp:307 k3bdiskinfoview.cpp:308 k3bdiskinfoview.cpp:309
-msgctxt "Availability"
-msgid "no"
-msgstr "non"
-
-#: k3bdiskinfoview.cpp:308
-msgid "Appendable:"
-msgstr "Amestable:"
-
-#: k3bdiskinfoview.cpp:309
-msgid "Empty:"
-msgstr "Baleru:"
-
-#: k3bdiskinfoview.cpp:311
-msgctxt "Number of layers on an optical medium"
-msgid "Layers:"
-msgstr "Capes:"
-
-#: k3bdiskinfoview.cpp:317
-msgid "not formatted"
-msgstr "non formateáu"
-
-#: k3bdiskinfoview.cpp:320
-msgid "incomplete"
-msgstr "incompletu"
-
-#: k3bdiskinfoview.cpp:323
-msgid "in progress"
-msgstr "en progresu"
-
-#: k3bdiskinfoview.cpp:326
-msgid "complete"
-msgstr "completu"
-
-#: k3bdiskinfoview.cpp:329
-msgid "unknown state"
-msgstr "estáu desconocíu"
-
-#: k3bdiskinfoview.cpp:332
-msgid "Background Format:"
-msgstr "Formatu de fondu:"
-
-#: k3bdiskinfoview.cpp:335
-msgid "Sessions:"
-msgstr "Sesiones:"
-
-#: k3bdiskinfoview.cpp:357
-msgid "Supported writing speeds:"
-msgstr "Velocidaes de grabación permitíes:"
-
-#: k3bdiskinfoview.cpp:370 misc/k3bimagewritingdialog.cpp:197
-msgid "System Id:"
-msgstr "ID de sistema:"
-
-#: k3bdiskinfoview.cpp:371 misc/k3bimagewritingdialog.cpp:205
-msgid "Volume Id:"
-msgstr "ID del volume:"
-
-#: k3bdiskinfoview.cpp:372 misc/k3bimagewritingdialog.cpp:213
-msgid "Volume Set Id:"
-msgstr "ID del conxuntu de volúmenes:"
-
-#: k3bdiskinfoview.cpp:373 misc/k3bimagewritingdialog.cpp:221
-msgid "Publisher Id:"
-msgstr "ID del editor:"
-
-#: k3bdiskinfoview.cpp:374 misc/k3bimagewritingdialog.cpp:229
-msgid "Preparer Id:"
-msgstr "ID del preparador:"
-
-#: k3bdiskinfoview.cpp:375 misc/k3bimagewritingdialog.cpp:236
-msgid "Application Id:"
-msgstr "ID de la aplicación:"
-
-#: k3bdiskinfoview.cpp:376 misc/k3bimagewritingdialog.cpp:187
-msgid "Volume Size:"
-msgstr "Tamañu del Volume:"
-
-#: k3bdiskinfoview.cpp:379
-#, kde-format
-msgctxt "Size of one block, always 2048"
-msgid "%1 B"
-msgstr "%1 B"
-
-#: k3bdiskinfoview.cpp:380
-#, kde-format
-msgctxt "Number of blocks (one block has 2048 bytes)"
-msgid "1 block"
-msgid_plural "%1 blocks"
-msgstr[0] "1 bloque"
-msgstr[1] "%1 bloques"
-
-#: k3bdiskinfoview.cpp:381
-#, kde-format
-msgid "1 B"
-msgid_plural "%1 B"
-msgstr[0] "1 B"
-msgstr[1] "%1 B"
-
-#: k3bemptydiscwaiter.cpp:89
-msgid "Waiting for Disk"
-msgstr "Esperando'l discu"
-
-#: k3bemptydiscwaiter.cpp:94
-msgid "Eject"
-msgstr "Expulsar"
-
-#: k3bemptydiscwaiter.cpp:96
-msgid "Load"
-msgstr "Cargar"
-
-#: k3bemptydiscwaiter.cpp:118
-msgid "Found medium:"
-msgstr "Atopóse'l mediu:"
-
-#: k3bemptydiscwaiter.cpp:271 k3bemptydiscwaiter.cpp:363
-#: k3bemptydiscwaiter.cpp:449
-#, kde-format
-msgid "Found %1 medium in %2 - %3. Should it be overwritten?"
-msgstr ""
-
-#: k3bemptydiscwaiter.cpp:275 k3bemptydiscwaiter.cpp:368
-#: k3bemptydiscwaiter.cpp:454 k3bemptydiscwaiter.cpp:518
-#, kde-format
-msgid "Found %1"
-msgstr "Atopáu %1"
-
-#: k3bemptydiscwaiter.cpp:336
-msgid "Preformatting DVD+RW"
-msgstr "Pre-formateando DVD+RW"
-
-#: k3bemptydiscwaiter.cpp:513
-#, kde-format
-msgid "Found %1 medium in %2 - %3. Should it be formatted?"
-msgstr ""
-
-#: k3bemptydiscwaiter.cpp:519
-msgid "&Format"
-msgstr "&Formatu"
-
-#: k3bemptydiscwaiter.cpp:541
-msgid "Formatting DVD-RW"
-msgstr "Formateando DVD-RW"
-
-#: k3bemptydiscwaiter.cpp:576
-#, kde-format
-msgid "Found rewritable medium in %1 - %2. Should it be erased?"
-msgstr ""
-
-#: k3bemptydiscwaiter.cpp:578
-msgid "Found Rewritable Disk"
-msgstr "Atopáu un discu regrabable"
-
-#: k3bemptydiscwaiter.cpp:579
-msgid "E&rase"
-msgstr "De&saniciar"
-
-#: k3bemptydiscwaiter.cpp:586
-msgid "Erasing CD-RW"
-msgstr "Desaniciando CD-RW"
-
-#: k3bemptydiscwaiter.cpp:654
-msgid "Waiting for Medium"
-msgstr "Esperando pol mediu"
-
-#: k3bemptydiscwaiter.cpp:719
-msgid "Erasing failed."
-msgstr "Fallu al desaniciar."
-
-#: k3bfileview.cpp:76
-msgid "Filter:"
-msgstr "Peñera:"
-
-#: k3bfileview.cpp:83
-msgid "audio/x-mp3 audio/x-wav application/x-ogg |Sound Files"
-msgstr "audio/x-mp3 audio/x-wav application/x-ogg |Ficheros de soníu"
-
-#: k3bfileview.cpp:84
-msgid "audio/x-wav |Wave Sound Files"
-msgstr "audio/x-wav |Ficheros de soníu wave"
-
-#: k3bfileview.cpp:85
-msgid "audio/x-mp3 |MP3 Sound Files"
-msgstr "audio/x-mp3 |Ficheros de soníu MP3"
-
-#: k3bfileview.cpp:86
-msgid "application/x-ogg |Ogg Vorbis Sound Files"
-msgstr "application/x-ogg |Ficheros de soníu Ogg Vorbis"
-
-#: k3bfileview.cpp:87
-msgid "video/mpeg |MPEG Video Files"
-msgstr "video/mpeg |Ficheros de vídeo MPEG"
-
-#: k3bfileview.cpp:90
-#, fuzzy
-#| msgid "Bookmarks"
-msgid "Show Bookmarks"
-msgstr "Marcadores"
-
-#: k3binteractiondialog.cpp:85
-msgid "Load default settings"
-msgstr "Cargar la configuración predeterminada"
-
-#: k3binteractiondialog.cpp:86
-msgid "Load saved settings"
-msgstr "Cargar configuración guardada"
-
-#: k3binteractiondialog.cpp:87
-msgid "Load last used settings"
-msgstr "Cargar la cabera configuración usada"
-
-#: k3binteractiondialog.cpp:110 projects/k3bprojectburndialog.cpp:151
-msgid "Start"
-msgstr "Entamar"
-
-#: k3binteractiondialog.cpp:111
-msgid "Start the task"
-msgstr "Entamar la xera"
-
-#: k3binteractiondialog.cpp:201
-msgid "Load default or saved settings"
-msgstr "Carga la configuración predeterminada o guardada"
-
-#: k3binteractiondialog.cpp:202
-msgid "Save current settings to reuse them later"
-msgstr "Guardar configuración actual pa reutilizar dempués"
-
-#: k3binteractiondialog.cpp:206
-msgid ""
-"<p>Load a set of settings either from the default K3b settings, settings "
-"saved before, or the last used ones."
-msgstr ""
-"<p>cargar un xuegu de configuraciones o de la configuración por defeutu de "
-"K3b, configuraciones guardaes anteriormente o les últimes usaes."
-
-#: k3binteractiondialog.cpp:208
-msgid ""
-"<p>Saves the current settings of the action dialog.<p>These settings can be "
-"loaded with the <em>Load saved settings</em> button.<p><b>The K3b defaults "
-"are not overwritten by this.</b>"
-msgstr ""
-"<p>Guarda la configuración actual del diálogu d'aiciones.<p>Esta "
-"configuración tamién puede cargase col botón <em>Cargar configuración "
-"guardada</em>. <p><b>Les opciones predeterminaes de K3b nun se sobrescriben."
-"</b>"
-
-#: k3binteractiondialog.cpp:286
-msgid "Action Dialog Settings"
-msgstr "Configuración del diálogu d'aiciones"
-
-#: k3binteractiondialog.cpp:287
-msgid ""
-"<p>K3b handles three sets of settings in action dialogs: the defaults, the "
-"saved settings, and the last used settings. Please choose which of these "
-"sets should be loaded if an action dialog is opened again.<p><em>Be aware "
-"that this choice can always be changed from the K3b configuration dialog.</"
-"em>"
-msgstr ""
-"<p>K3b tien tres sistemes de configuración nos cuadros de diálogu: por "
-"defeuto, los axustes guardaos y los últimos axustes usaos. Por favor, "
-"escueyi cuál d'ellos se cargará si se vuelve a abrir un cuadru de diálogu."
-"<p><em>Ten en cuenta que puedes camudar siempre esta escoyeta nel cuadru de "
-"configuración de K3b.</em>"
-
-#: k3binteractiondialog.cpp:296 option/k3bmiscoptiontab.cpp:48
-msgid "Default Settings"
-msgstr "Configuración predeterminada"
-
-#: k3binteractiondialog.cpp:297 option/k3bmiscoptiontab.cpp:51
-msgid "Saved Settings"
-msgstr "Configuración guardada"
-
-#: k3binteractiondialog.cpp:298 option/k3bmiscoptiontab.cpp:54
-msgid "Last Used Settings"
-msgstr "Cabera configuración usada"
-
-#: k3bjobprogressdialog.cpp:109
-msgid "Show Debugging Output"
-msgstr "Amosar salida de depuráu"
-
-#: k3bjobprogressdialog.cpp:208
-msgid "Overall progress:"
-msgstr "Progresu global:"
-
-#: k3bjobprogressdialog.cpp:283 k3bjobprogressdialog.cpp:294
-#: k3bjobprogressdialog.cpp:305 k3bjobprogressdialog.cpp:316
-#, fuzzy, kde-format
-#| msgid "%1 of %2 MB"
-msgctxt "%1 and %2 are byte sizes formatted via KLocale::formatByteSize"
-msgid "%1 of %2"
-msgstr "%1 de %2 MB"
-
-#: k3bjobprogressdialog.cpp:362
-#, fuzzy, kde-format
-#| msgid "Elapsed time"
-msgctxt "@info %1 is a duration formatted using KLocale::formatLocaleTime"
-msgid "Elapsed time: %1"
-msgstr "Tiempu trescurríu"
-
-#: k3bjobprogressdialog.cpp:371 k3bjobprogressdialog.cpp:379
-msgid "Success."
-msgstr "Éxitu."
-
-#: k3bjobprogressdialog.cpp:381
-msgid "Successfully finished."
-msgstr "Completada correutamente."
-
-#: k3bjobprogressdialog.cpp:390 k3bjobprogressdialog.cpp:392
-msgid "Canceled."
-msgstr "Encaboxáu."
-
-#: k3bjobprogressdialog.cpp:395 k3bjobprogressdialog.cpp:397
-msgid "Error."
-msgstr "Fallu."
-
-#: k3bjobprogressdialog.cpp:399
-msgid "Finished with errors"
-msgstr "Terminó con fallos"
-
-#: k3bjobprogressdialog.cpp:493
-msgid "Do you really want to cancel?"
-msgstr "¿De verdá quies encaboxar?"
-
-#: k3bjobprogressdialog.cpp:493
-msgid "Cancel Confirmation"
-msgstr "Confirmación del encaboxamiento"
-
-#: k3bjobprogressdialog.cpp:552
-#, fuzzy, kde-format
-#| msgid "Remaining:"
-msgctxt "@info %1 is a duration formatted using KLocale::formatLocaleTime"
-msgid "Remaining time: %1"
-msgstr "Restante:"
-
-#: k3bjobprogressosd.cpp:199
-msgid "Hide OSD"
-msgstr "Anubrir OSD"
 
 #: k3blsofwrapperdialog.cpp:45
 msgid "Device in use"
@@ -8570,77 +8571,19 @@ msgstr "Grabando ficheru cue a %1."
 msgid "Converting Audio Tracks From '%1'"
 msgstr "Convirtiendo pistes d'audio dende '%1'"
 
-#: rip/k3baudioprojectconvertingjob.cpp:443 rip/k3baudioripjob.cpp:584
+#: rip/k3baudioprojectconvertingjob.cpp:443 rip/k3baudioripjob.cpp:585
 #, kde-format
 msgid "1 track (encoding to %2)"
 msgid_plural "%1 tracks (encoding to %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: rip/k3baudioprojectconvertingjob.cpp:448 rip/k3baudioripjob.cpp:589
+#: rip/k3baudioprojectconvertingjob.cpp:448 rip/k3baudioripjob.cpp:590
 #, kde-format
 msgid "1 track"
 msgid_plural "%1 tracks"
 msgstr[0] "1 pista"
 msgstr[1] "%1 pistes"
-
-#: rip/k3baudioripjob.cpp:214
-msgid "Extracting Digital Audio"
-msgstr "Sacando audio dixital"
-
-#: rip/k3baudioripjob.cpp:221
-msgid "Could not load libcdparanoia."
-msgstr "Nun pudo cargar libcdparanoia."
-
-#: rip/k3baudioripjob.cpp:232
-msgid "Reading CD table of contents."
-msgstr "Lleendo la tabla de conteníos del CD."
-
-#: rip/k3baudioripjob.cpp:236
-#, kde-format
-msgid "Could not open device %1"
-msgstr "Nun pudo abrir el preséu %1"
-
-#: rip/k3baudioripjob.cpp:254 rip/k3baudioripjob.cpp:296
-msgid "Searching index 0 for all tracks"
-msgstr "Buscando índiz 0 en toles pistes"
-
-#: rip/k3baudioripjob.cpp:271
-msgid "Starting digital audio extraction (ripping)."
-msgstr "Entamando la estraición dixital d'audio (sacando)."
-
-#: rip/k3baudioripjob.cpp:379
-#, kde-format
-msgid "Ripping track %1 (%2 - %3)"
-msgstr "Sacando pista %1 (%2 - %3)"
-
-#: rip/k3baudioripjob.cpp:384
-#, kde-format
-msgid "Ripping track %1"
-msgstr "Sacando pista %1"
-
-#: rip/k3baudioripjob.cpp:395
-#, kde-format
-msgid "Successfully ripped track %1 to %2."
-msgstr "Pista %1 sacada perbien a %2."
-
-#: rip/k3baudioripjob.cpp:420
-#, kde-format
-msgid "Unrecoverable error while ripping track %1."
-msgstr "Fallu irrecuperable al sacar la pista %1."
-
-#: rip/k3baudioripjob.cpp:427
-msgid "Error while initializing audio ripping."
-msgstr "Fallu al entmar la estraición d'audio."
-
-#: rip/k3baudioripjob.cpp:575
-msgid "Ripping Audio Tracks"
-msgstr "Sacando pistes d'audio"
-
-#: rip/k3baudioripjob.cpp:577
-#, kde-format
-msgid "Ripping Audio Tracks From '%1'"
-msgstr "Sacando pistes d'audio dende '%1'"
 
 #: rip/k3baudiorippingdialog.cpp:123
 msgid "CD Ripping"
@@ -9586,6 +9529,64 @@ msgstr "Añu:"
 msgid "Category:"
 msgstr "Estaya:"
 
+#: rip/k3baudioripjob.cpp:214
+msgid "Extracting Digital Audio"
+msgstr "Sacando audio dixital"
+
+#: rip/k3baudioripjob.cpp:221
+msgid "Could not load libcdparanoia."
+msgstr "Nun pudo cargar libcdparanoia."
+
+#: rip/k3baudioripjob.cpp:232
+msgid "Reading CD table of contents."
+msgstr "Lleendo la tabla de conteníos del CD."
+
+#: rip/k3baudioripjob.cpp:236
+#, kde-format
+msgid "Could not open device %1"
+msgstr "Nun pudo abrir el preséu %1"
+
+#: rip/k3baudioripjob.cpp:254 rip/k3baudioripjob.cpp:296
+msgid "Searching index 0 for all tracks"
+msgstr "Buscando índiz 0 en toles pistes"
+
+#: rip/k3baudioripjob.cpp:271
+msgid "Starting digital audio extraction (ripping)."
+msgstr "Entamando la estraición dixital d'audio (sacando)."
+
+#: rip/k3baudioripjob.cpp:379
+#, kde-format
+msgid "Ripping track %1 (%2 - %3)"
+msgstr "Sacando pista %1 (%2 - %3)"
+
+#: rip/k3baudioripjob.cpp:384
+#, kde-format
+msgid "Ripping track %1"
+msgstr "Sacando pista %1"
+
+#: rip/k3baudioripjob.cpp:395
+#, kde-format
+msgid "Successfully ripped track %1 to %2."
+msgstr "Pista %1 sacada perbien a %2."
+
+#: rip/k3baudioripjob.cpp:420
+#, kde-format
+msgid "Unrecoverable error while ripping track %1."
+msgstr "Fallu irrecuperable al sacar la pista %1."
+
+#: rip/k3baudioripjob.cpp:427
+msgid "Error while initializing audio ripping."
+msgstr "Fallu al entmar la estraición d'audio."
+
+#: rip/k3baudioripjob.cpp:575
+msgid "Ripping Audio Tracks"
+msgstr "Sacando pistes d'audio"
+
+#: rip/k3baudioripjob.cpp:577
+#, kde-format
+msgid "Ripping Audio Tracks From '%1'"
+msgstr "Sacando pistes d'audio dende '%1'"
+
 #: ../plugins/decoder/ffmpeg/k3bffmpegwrapper.cpp:208
 msgid "Windows Media v1"
 msgstr "Windows Media v1"
@@ -10050,6 +10051,12 @@ msgstr "Guetar CDDB"
 #: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:125
 msgid "Cddb error"
 msgstr "Fallu Cddb"
+
+#~ msgid "Show progress &OSD"
+#~ msgstr "Amosar &OSD de progresu"
+
+#~ msgid "Hide OSD"
+#~ msgstr "Anubrir OSD"
 
 #~ msgid ""
 #~ "Found Cd-Text (%1 - %2). Do you want to use it instead of CDDB (%3 - %4)?"
