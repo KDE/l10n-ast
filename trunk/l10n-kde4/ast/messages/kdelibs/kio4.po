@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4-v1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-28 04:09+0200\n"
+"POT-Creation-Date: 2011-04-29 04:08+0200\n"
 "PO-Revision-Date: 2009-10-09 16:25+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -58,7 +58,7 @@ msgid "Select Folder"
 msgstr ""
 
 #: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:132
-#: ../kfile/knewfilemenu.cpp:1013
+#: ../kfile/knewfilemenu.cpp:1015
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr ""
@@ -4294,19 +4294,6 @@ msgstr ""
 msgid "Mail service"
 msgstr ""
 
-#: misc/kpac/discovery.cpp:121
-msgid "Could not find a usable proxy configuration script"
-msgstr ""
-
-#: misc/kpac/script.cpp:750
-msgid "Could not find 'FindProxyForURL' or 'FindProxyForURLEx'"
-msgstr ""
-
-#: misc/kpac/script.cpp:761
-#, kde-format
-msgid "Got an invalid reply when calling %1"
-msgstr ""
-
 #: misc/kpac/downloader.cpp:87
 #, kde-format
 msgid ""
@@ -4318,18 +4305,31 @@ msgstr ""
 msgid "Could not download the proxy configuration script"
 msgstr ""
 
-#: misc/kpac/proxyscout.cpp:186
+#: misc/kpac/discovery.cpp:111
+msgid "Could not find a usable proxy configuration script"
+msgstr ""
+
+#: misc/kpac/proxyscout.cpp:196
 #, kde-format
 msgid ""
 "The proxy configuration script is invalid:\n"
 "%1"
 msgstr ""
 
-#: misc/kpac/proxyscout.cpp:287
+#: misc/kpac/proxyscout.cpp:310
 #, kde-format
 msgid ""
 "The proxy configuration script returned an error:\n"
 "%1"
+msgstr ""
+
+#: misc/kpac/script.cpp:752
+msgid "Could not find 'FindProxyForURL' or 'FindProxyForURLEx'"
+msgstr ""
+
+#: misc/kpac/script.cpp:763
+#, kde-format
+msgid "Got an invalid reply when calling %1"
 msgstr ""
 
 #: misc/ksendbugmail/main.cpp:43
@@ -5059,7 +5059,7 @@ msgstr ""
 msgid "Connected to host %1"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:402
+#: ../kioslave/ftp/ftp.cpp:425
 #, kde-format
 msgid ""
 "%1.\n"
@@ -5067,11 +5067,11 @@ msgid ""
 "Reason: %2"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:431
+#: ../kioslave/ftp/ftp.cpp:454
 msgid "Sending login information"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:484
+#: ../kioslave/ftp/ftp.cpp:516
 #, kde-format
 msgid ""
 "Message sent:\n"
@@ -5082,24 +5082,24 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:492 ../kioslave/http/http.cpp:3321
+#: ../kioslave/ftp/ftp.cpp:524 ../kioslave/http/http.cpp:3321
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:494 ../kioslave/http/http.cpp:3323
+#: ../kioslave/ftp/ftp.cpp:526 ../kioslave/http/http.cpp:3323
 msgid "Site:"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:495
+#: ../kioslave/ftp/ftp.cpp:527
 #, kde-format
 msgid "<b>%1</b>"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:578
+#: ../kioslave/ftp/ftp.cpp:625
 msgid "Login OK"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:607
+#: ../kioslave/ftp/ftp.cpp:654
 #, kde-format
 msgid "Could not login to %1."
 msgstr ""
@@ -5875,81 +5875,6 @@ msgstr ""
 msgid "Click to Edit Location"
 msgstr ""
 
-#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:870
-msgid "Sorry"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:377
-#, kde-format
-msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:396
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:398
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:401
-msgid "Create hidden directory?"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:405
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:407
-msgid "Do not ask again"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:498 ../kfile/knewfilemenu.cpp:556
-msgid "File name:"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:501
-msgid "Create Symlink"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:560
-msgid "Create link to URL"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:880
-msgid ""
-"Basic links can only point to local files or directories.\n"
-"Please use \"Link to Location\" for remote URLs."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:945
-msgid "Create New"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:958
-msgid "Link to Device"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:1003
-#, fuzzy
-#| msgid "1 Folder"
-#| msgid_plural "%1 Folders"
-msgctxt "Default name for a new folder"
-msgid "New Folder"
-msgstr "1 Carpeta"
-
-#: ../kfile/knewfilemenu.cpp:1017
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-
 #: ../kfile/kurlnavigator.cpp:429
 msgid "Copy"
 msgstr ""
@@ -6215,6 +6140,81 @@ msgstr ""
 #| msgid_plural "%1 Files"
 msgid "All Files"
 msgstr "1 File"
+
+#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:872
+msgid "Sorry"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:377
+#, kde-format
+msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:396
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:398
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:401
+msgid "Create hidden directory?"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:405
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:407
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:558
+msgid "File name:"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:503
+msgid "Create Symlink"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:562
+msgid "Create link to URL"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:882
+msgid ""
+"Basic links can only point to local files or directories.\n"
+"Please use \"Link to Location\" for remote URLs."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:947
+msgid "Create New"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:960
+msgid "Link to Device"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:1005
+#, fuzzy
+#| msgid "1 Folder"
+#| msgid_plural "%1 Folders"
+msgctxt "Default name for a new folder"
+msgid "New Folder"
+msgstr "1 Carpeta"
+
+#: ../kfile/knewfilemenu.cpp:1019
+#, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
 
 #, fuzzy
 #~| msgid "1 Folder"
