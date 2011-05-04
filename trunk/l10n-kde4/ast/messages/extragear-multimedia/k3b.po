@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-02 03:40+0200\n"
+"POT-Creation-Date: 2011-05-04 03:40+0200\n"
 "PO-Revision-Date: 2010-10-19 23:26+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Español <kde-ye@kybs.de>\n"
@@ -607,9 +607,9 @@ msgid "Tracks"
 msgstr "Pistes"
 
 #: k3bdiskinfoview.cpp:178 misc/k3bmediacopydialog.cpp:175
-#: projects/k3bvcdtrackdialog.cpp:607 rip/k3baudiorippingdialog.cpp:358
-#: rip/k3baudiorippingdialog.cpp:413
+#: projects/k3bvcdtrackdialog.cpp:607
 #: rip/videodvd/k3bvideodvdtitlemodel.cpp:313
+#: rip/k3baudiorippingdialog.cpp:358 rip/k3baudiorippingdialog.cpp:413
 msgid "Audio"
 msgstr "Audio"
 
@@ -683,9 +683,9 @@ msgstr "Atributos"
 msgid "First-Last Sector"
 msgstr "Primer-caberu sector"
 
-#: k3bdiskinfoview.cpp:256 rip/k3baudioprojectconvertingdialog.cpp:126
-#: rip/k3baudiorippingdialog.cpp:143 rip/k3bvideocdview.cpp:210
-#: rip/k3baudiotrackmodel.cpp:165
+#: k3bdiskinfoview.cpp:256 rip/k3bvideocdview.cpp:210
+#: rip/k3baudiotrackmodel.cpp:165 rip/k3baudioprojectconvertingdialog.cpp:126
+#: rip/k3baudiorippingdialog.cpp:143
 msgid "Length"
 msgstr "Duración"
 
@@ -702,13 +702,14 @@ msgstr "Triba:"
 msgid "Media ID:"
 msgstr "ID Mediu:"
 
-#: k3bdiskinfoview.cpp:299 rip/k3baudioprojectconvertingdialog.cpp:275
-#: rip/k3baudioprojectconvertingdialog.cpp:314
-#: rip/k3baudiorippingdialog.cpp:357 rip/k3baudiorippingdialog.cpp:412
-#: rip/k3bpatternparser.cpp:124 rip/k3bpatternparser.cpp:160
-#: rip/k3bpatternparser.cpp:168 rip/videodvd/k3bvideodvdrippingwidget.cpp:277
+#: k3bdiskinfoview.cpp:299 rip/k3bpatternparser.cpp:124
+#: rip/k3bpatternparser.cpp:160 rip/k3bpatternparser.cpp:168
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:277
 #: rip/k3baudioconvertingoptionwidget.cpp:223
 #: rip/k3baudioconvertingoptionwidget.cpp:257
+#: rip/k3baudioprojectconvertingdialog.cpp:275
+#: rip/k3baudioprojectconvertingdialog.cpp:314
+#: rip/k3baudiorippingdialog.cpp:357 rip/k3baudiorippingdialog.cpp:412
 msgid "unknown"
 msgstr "desconocíu"
 
@@ -1053,6 +1054,77 @@ msgstr "Confirmación del encaboxamiento"
 msgctxt "@info %1 is a duration formatted using KLocale::formatLocaleTime"
 msgid "Remaining time: %1"
 msgstr "Restante:"
+
+#: k3blsofwrapperdialog.cpp:45
+msgid "Device in use"
+msgstr "Preséu n'usu"
+
+#: k3blsofwrapperdialog.cpp:49
+msgid "Quit the other applications"
+msgstr "Zarrar les otres aplicaciones"
+
+#: k3blsofwrapperdialog.cpp:50 k3blsofwrapperdialog.cpp:82
+msgid "Check again"
+msgstr "Comprobar otra vuelta"
+
+#: k3blsofwrapperdialog.cpp:51
+msgid "Continue"
+msgstr "Siguir"
+
+#: k3blsofwrapperdialog.cpp:73
+#, kde-format
+msgid ""
+"<p>Device <b>'%1'</b> is already in use by other applications (<em>%2</em>)."
+"<p>It is highly recommended to quit those before continuing. Otherwise K3b "
+"might not be able to fully access the device.<p><em>Hint: Sometimes shutting "
+"down an application does not happen instantly. In that case you might have "
+"to use the '%3' button."
+msgstr ""
+"<p>El preséu <b>'%1'</b> yá ta n'usu por otres aplicaciones  (<em>%2</em>)."
+"<p>Ye mui recomendable colar d'elles enantes de siguir. De lo contrario "
+"puede que K3b no seya quien a acceder dafechu al preséu.<p><em>Conseyu: a "
+"vegaes zarrar una aplicación nun se fai darréu. Nesi casu puede que tengas "
+"qu'usar el botón '%3'."
+
+#: k3blsofwrapperdialog.cpp:101
+msgid "<p>Do you really want K3b to kill the following processes: <em>"
+msgstr "<p>De verdá quies que K3b termine los siguientes procesos: <em>"
+
+#: k3bmediaselectiondialog.cpp:34
+msgid "Medium Selection"
+msgstr "Escoyeta del mediu"
+
+#: k3bmediaselectiondialog.cpp:40
+msgid "Please select a medium:"
+msgstr "Por favor escueyi un mediu:"
+
+#: k3bmediumdelegate.cpp:141
+#, fuzzy, kde-format
+#| msgid "%1 track"
+#| msgid_plural "%1 tracks"
+msgid "%1 in 1 track"
+msgid_plural "%1 in %2 tracks"
+msgstr[0] "%1 pista"
+msgstr[1] "%1 pistes"
+
+#: k3bmediumdelegate.cpp:145
+#, kde-format
+msgid " and %1 session"
+msgid_plural " and %1 sessions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: k3bmediumdelegate.cpp:158
+#, fuzzy, kde-format
+#| msgid "Free space in directory:"
+msgid "Free space: %1"
+msgstr "Espaciu llibre nel direutoriu:"
+
+#: k3bmediumdelegate.cpp:170
+#, fuzzy, kde-format
+#| msgid "Capacity:"
+msgid "Capacity: %1"
+msgstr "Capacidá:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2112,8 +2184,9 @@ msgstr "Dengún"
 #: projects/k3baudioburndialog.cpp:79 projects/k3bdatapropertiesdialog.cpp:148
 #: projects/k3bprojectburndialog.cpp:268 projects/k3bvcdburndialog.cpp:415
 #: projects/k3bvcdburndialog.cpp:447 projects/k3bvcdtrackdialog.cpp:456
+#: rip/k3bvideocdrippingdialog.cpp:102
 #: rip/k3baudioprojectconvertingdialog.cpp:144
-#: rip/k3baudiorippingdialog.cpp:163 rip/k3bvideocdrippingdialog.cpp:102
+#: rip/k3baudiorippingdialog.cpp:163
 msgid "Settings"
 msgstr "Configuración"
 
@@ -3922,77 +3995,6 @@ msgstr "Pallabres de 16 bit"
 msgid "32-bit Words"
 msgstr "Pallabres de 32 bit"
 
-#: k3blsofwrapperdialog.cpp:45
-msgid "Device in use"
-msgstr "Preséu n'usu"
-
-#: k3blsofwrapperdialog.cpp:49
-msgid "Quit the other applications"
-msgstr "Zarrar les otres aplicaciones"
-
-#: k3blsofwrapperdialog.cpp:50 k3blsofwrapperdialog.cpp:82
-msgid "Check again"
-msgstr "Comprobar otra vuelta"
-
-#: k3blsofwrapperdialog.cpp:51
-msgid "Continue"
-msgstr "Siguir"
-
-#: k3blsofwrapperdialog.cpp:73
-#, kde-format
-msgid ""
-"<p>Device <b>'%1'</b> is already in use by other applications (<em>%2</em>)."
-"<p>It is highly recommended to quit those before continuing. Otherwise K3b "
-"might not be able to fully access the device.<p><em>Hint: Sometimes shutting "
-"down an application does not happen instantly. In that case you might have "
-"to use the '%3' button."
-msgstr ""
-"<p>El preséu <b>'%1'</b> yá ta n'usu por otres aplicaciones  (<em>%2</em>)."
-"<p>Ye mui recomendable colar d'elles enantes de siguir. De lo contrario "
-"puede que K3b no seya quien a acceder dafechu al preséu.<p><em>Conseyu: a "
-"vegaes zarrar una aplicación nun se fai darréu. Nesi casu puede que tengas "
-"qu'usar el botón '%3'."
-
-#: k3blsofwrapperdialog.cpp:101
-msgid "<p>Do you really want K3b to kill the following processes: <em>"
-msgstr "<p>De verdá quies que K3b termine los siguientes procesos: <em>"
-
-#: k3bmediaselectiondialog.cpp:34
-msgid "Medium Selection"
-msgstr "Escoyeta del mediu"
-
-#: k3bmediaselectiondialog.cpp:40
-msgid "Please select a medium:"
-msgstr "Por favor escueyi un mediu:"
-
-#: k3bmediumdelegate.cpp:141
-#, fuzzy, kde-format
-#| msgid "%1 track"
-#| msgid_plural "%1 tracks"
-msgid "%1 in 1 track"
-msgid_plural "%1 in %2 tracks"
-msgstr[0] "%1 pista"
-msgstr[1] "%1 pistes"
-
-#: k3bmediumdelegate.cpp:145
-#, kde-format
-msgid " and %1 session"
-msgid_plural " and %1 sessions"
-msgstr[0] ""
-msgstr[1] ""
-
-#: k3bmediumdelegate.cpp:158
-#, fuzzy, kde-format
-#| msgid "Free space in directory:"
-msgid "Free space: %1"
-msgstr "Espaciu llibre nel direutoriu:"
-
-#: k3bmediumdelegate.cpp:170
-#, fuzzy, kde-format
-#| msgid "Capacity:"
-msgid "Capacity: %1"
-msgstr "Capacidá:"
-
 #: k3bapplication.cpp:161
 msgid "K3b is busy"
 msgstr "K3b ta ocupáu"
@@ -5758,9 +5760,8 @@ msgstr "Carpeta de destín"
 msgid "Create"
 msgstr "Criar"
 
-#: option/k3bmiscoptiontab.cpp:117 rip/k3baudioprojectconvertingjob.cpp:188
-#: rip/k3baudioprojectconvertingjob.cpp:301 rip/k3baudioripjob.cpp:328
-#: rip/k3baudioripjob.cpp:439
+#: option/k3bmiscoptiontab.cpp:117 rip/k3bmassaudioencodingjob.cpp:257
+#: rip/k3bmassaudioencodingjob.cpp:372
 #, fuzzy, kde-format
 #| msgid "Failed to create folder '%1'."
 msgid "Unable to create folder %1"
@@ -6092,8 +6093,8 @@ msgid "Length"
 msgstr "Duración"
 
 #: projects/k3baudioprojectmodel.cpp:310 projects/k3bvcdtrackdialog.cpp:399
-#: rip/k3baudiorippingdialog.cpp:142
 #: rip/videodvd/k3bvideodvdaudiomodel.cpp:260
+#: rip/k3baudiorippingdialog.cpp:142
 msgid "Filename"
 msgstr "Nome del ficheru"
 
@@ -8442,190 +8443,6 @@ msgstr "Rock"
 msgid "Soundtrack"
 msgstr "Soundtrack"
 
-#: rip/k3baudioprojectconvertingdialog.cpp:104
-msgid "Audio Project Conversion"
-msgstr "Conversión de proyeutu d'audio"
-
-#: rip/k3baudioprojectconvertingdialog.cpp:105
-#: rip/k3baudiorippingdialog.cpp:124 rip/k3bvideocdview.cpp:366
-#: rip/k3baudiocdview.cpp:184
-#, kde-format
-msgid "1 track (%2)"
-msgid_plural "%1 tracks (%2)"
-msgstr[0] "una pista (%2)"
-msgstr[1] "%1 pistes (%2)"
-
-#: rip/k3baudioprojectconvertingdialog.cpp:125
-#, fuzzy
-#| msgid "Filename (relative to base directory)"
-msgid "Filename (relative to base folder)"
-msgstr "Nome del ficheru (relativu al direutoriu base)"
-
-#: rip/k3baudioprojectconvertingdialog.cpp:127
-#: rip/k3baudiorippingdialog.cpp:144
-#: rip/videodvd/k3bvideodvdaudiomodel.cpp:259
-msgid "File Size"
-msgstr "Tamañu del ficheru"
-
-#: rip/k3baudioprojectconvertingdialog.cpp:150
-#: rip/k3baudiorippingdialog.cpp:169
-msgid "File Naming"
-msgstr "Nomando ficheru"
-
-#: rip/k3baudioprojectconvertingdialog.cpp:177
-#: rip/k3baudiorippingdialog.cpp:247
-msgid "Please check the naming pattern. All filenames need to be unique."
-msgstr ""
-"Por favor verifica'l patrón de nomes. Tolos nomes de ficheros tienen de ser "
-"únicos."
-
-#: rip/k3baudioprojectconvertingdialog.cpp:194
-#: rip/k3baudiorippingdialog.cpp:264
-#: rip/videodvd/k3bvideodvdrippingdialog.cpp:516
-msgid "Do you want to overwrite these files?"
-msgstr "¿Quies sobrescribir estos ficheros?"
-
-#: rip/k3baudioprojectconvertingdialog.cpp:196
-#: rip/k3baudiorippingdialog.cpp:266 rip/k3bvideocdrippingdialog.cpp:175
-#: rip/videodvd/k3bvideodvdrippingdialog.cpp:518
-msgid "Files Exist"
-msgstr "Los ficheros existen"
-
-#: rip/k3baudioprojectconvertingjob.cpp:126
-#: rip/k3baudioprojectconvertingjob.cpp:434
-msgid "Converting Audio Tracks"
-msgstr "Convirtiendo pistes d'audio"
-
-#: rip/k3baudioprojectconvertingjob.cpp:144
-#, fuzzy
-#| msgid "Starting digital audio extraction (ripping)."
-msgid "Starting audio conversion."
-msgstr "Entamando la estraición dixital d'audio (sacando)."
-
-#: rip/k3baudioprojectconvertingjob.cpp:173 rip/k3baudioripjob.cpp:202
-#, kde-format
-msgid "Removed partial file '%1'."
-msgstr "Desaniciáu ficheru parcial '%1'."
-
-#: rip/k3baudioprojectconvertingjob.cpp:232
-#: rip/k3baudioprojectconvertingjob.cpp:352 rip/k3baudioripjob.cpp:372
-#: rip/k3baudioripjob.cpp:495
-#, kde-format
-msgid "Unable to open '%1' for writing."
-msgstr "Nun pudo abrir '%1' pa escribir."
-
-#: rip/k3baudioprojectconvertingjob.cpp:240
-#, kde-format
-msgid "Converting track %1 (%2 - %3)"
-msgstr "Convirtiendo pista %1 (%2 - %3)"
-
-#: rip/k3baudioprojectconvertingjob.cpp:245
-#, kde-format
-msgid "Converting track %1"
-msgstr "Convirtiendo pista %1"
-
-#: rip/k3baudioprojectconvertingjob.cpp:274 rip/k3baudioripjob.cpp:404
-#, kde-format
-msgid "Error while encoding track %1."
-msgstr "Fallu al codificar pista %1."
-
-#: rip/k3baudioprojectconvertingjob.cpp:290
-#, kde-format
-msgid "Successfully converted track %1."
-msgstr "Pista %1 convertida satisfactoriamente."
-
-#: rip/k3baudioprojectconvertingjob.cpp:305 rip/k3baudioripjob.cpp:443
-#, kde-format
-msgid "Writing playlist to %1."
-msgstr "Grabando llista de reproducción a %1."
-
-#: rip/k3baudioprojectconvertingjob.cpp:399 rip/k3baudioripjob.cpp:540
-#, kde-format
-msgid "Writing cue file to %1."
-msgstr "Grabando ficheru cue a %1."
-
-#: rip/k3baudioprojectconvertingjob.cpp:436
-#, kde-format
-msgid "Converting Audio Tracks From '%1'"
-msgstr "Convirtiendo pistes d'audio dende '%1'"
-
-#: rip/k3baudioprojectconvertingjob.cpp:443 rip/k3baudioripjob.cpp:585
-#, kde-format
-msgid "1 track (encoding to %2)"
-msgid_plural "%1 tracks (encoding to %2)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rip/k3baudioprojectconvertingjob.cpp:448 rip/k3baudioripjob.cpp:590
-#, kde-format
-msgid "1 track"
-msgid_plural "%1 tracks"
-msgstr[0] "1 pista"
-msgstr[1] "%1 pistes"
-
-#: rip/k3baudiorippingdialog.cpp:123
-msgid "CD Ripping"
-msgstr "Extraición del CD"
-
-#: rip/k3baudiorippingdialog.cpp:182
-msgid "Do not read pregaps"
-msgstr ""
-
-#: rip/k3baudiorippingdialog.cpp:200 rip/k3bvideocdrippingdialog.cpp:118
-#: rip/k3bvideocdview.cpp:386 rip/videodvd/k3bvideodvdrippingview.cpp:347
-#: rip/k3baudiocdview.cpp:235
-msgid "Start Ripping"
-msgstr "Entamar la extraición"
-
-#: rip/k3baudiorippingdialog.cpp:200
-msgid "Starts copying the selected tracks"
-msgstr "Entama la copia de les pistes escoyíes"
-
-#: rip/k3baudiorippingdialog.cpp:209
-msgid "Maximal number of read retries"
-msgstr "Máximu númberu de reintentos de llectura"
-
-#: rip/k3baudiorippingdialog.cpp:210
-msgid ""
-"<p>This specifies the maximum number of retries to read a sector of audio "
-"data from the cd. After that K3b will either skip the sector if the "
-"<em>Ignore Read Errors</em> option is enabled or stop the process."
-msgstr ""
-"<p>Esto especifica'l máximu númberu de reintentos de llectura d'un sector de "
-"datos d'audio del CD. Darréu, K3b omitirá'l sector o detendrá'l procesu si "
-"la opción <em>Inorar fallos de llectura</em> ta escoyida."
-
-#: rip/k3baudiorippingdialog.cpp:214
-msgid "Do not read the pregaps at the end of every track"
-msgstr "Nun lleer los previos al final de cada pista"
-
-#: rip/k3baudiorippingdialog.cpp:215
-msgid ""
-"<p>If this option is checked K3b will not rip the audio data in the pregaps. "
-"Most audio tracks contain an empty pregap which does not belong to the track "
-"itself.</p><p>Although the default behavior of nearly all ripping software "
-"is to include the pregaps for most CDs, it makes more sense to ignore them. "
-"In any case, when creating a K3b audio project, the pregaps will be "
-"regenerated.</p>"
-msgstr ""
-
-#: rip/k3baudiorippingdialog.cpp:266
-msgid "Overwrite"
-msgstr "Sobrescribir"
-
-#: rip/k3baudiorippingdialog.cpp:368
-msgid "Cue-file"
-msgstr "Ficheru Cue"
-
-#: rip/k3baudiorippingdialog.cpp:406
-#, kde-format
-msgid "Track%1"
-msgstr "Pista%1"
-
-#: rip/k3baudiorippingdialog.cpp:427 rip/k3bcddbpatternwidget.cpp:59
-msgid "Playlist"
-msgstr "Llista de reproducción"
-
 #: rip/k3bcddbpatternwidget.cpp:53
 #, fuzzy
 #| msgid "%A - %T/%n - !a='%A'{%a - }%t"
@@ -8649,6 +8466,10 @@ msgstr "musica/pistes-extrayíes/%a - %t"
 #: rip/k3bcddbpatternwidget.cpp:58
 msgid "%{albumartist} - %{albumtitle}"
 msgstr "%{artistaalbum} - %{tituloalbum}"
+
+#: rip/k3bcddbpatternwidget.cpp:59 rip/k3baudiorippingdialog.cpp:427
+msgid "Playlist"
+msgstr "Llista de reproducción"
 
 #: rip/k3bcddbpatternwidget.cpp:60
 msgid "playlists/%{albumartist}/%{albumtitle    }"
@@ -8872,6 +8693,12 @@ msgstr "Usar sectores de 2336 bytes pa ficheru d'imaxe"
 msgid "Extract XML structure"
 msgstr "Sacar estructura XML"
 
+#: rip/k3bvideocdrippingdialog.cpp:118 rip/k3bvideocdview.cpp:386
+#: rip/videodvd/k3bvideodvdrippingview.cpp:347 rip/k3baudiocdview.cpp:235
+#: rip/k3baudiorippingdialog.cpp:200
+msgid "Start Ripping"
+msgstr "Entamar la extraición"
+
 #: rip/k3bvideocdrippingdialog.cpp:118
 msgid "Starts extracting the selected VideoCd tracks"
 msgstr "Entama la estraición de les pistes escoyíes del CD de vídeo"
@@ -8935,6 +8762,13 @@ msgstr ""
 msgid "Continue although the folder is not empty?"
 msgstr "¿Siguir anque la carpeta nun tea vacía?"
 
+#: rip/k3bvideocdrippingdialog.cpp:175
+#: rip/videodvd/k3bvideodvdrippingdialog.cpp:518
+#: rip/k3baudioprojectconvertingdialog.cpp:196
+#: rip/k3baudiorippingdialog.cpp:266
+msgid "Files Exist"
+msgstr "Los ficheros existen"
+
 #: rip/k3bvideocdview.cpp:208
 msgid "Item Name"
 msgstr "Nome del elementu"
@@ -8964,6 +8798,15 @@ msgstr "Ficheros"
 #: rip/k3bvideocdview.cpp:292 rip/k3bvideocdview.cpp:445
 msgid "Segments"
 msgstr "Segmentos"
+
+#: rip/k3bvideocdview.cpp:366 rip/k3baudiocdview.cpp:184
+#: rip/k3baudioprojectconvertingdialog.cpp:105
+#: rip/k3baudiorippingdialog.cpp:124
+#, kde-format
+msgid "1 track (%2)"
+msgid_plural "%1 tracks (%2)"
+msgstr[0] "una pista (%2)"
+msgstr[1] "%1 pistes (%2)"
 
 #: rip/k3bvideocdview.cpp:374
 msgid "Check All"
@@ -9034,6 +8877,12 @@ msgstr "Títulu"
 msgid "Video Size"
 msgstr "Tamañu del vídeo"
 
+#: rip/videodvd/k3bvideodvdaudiomodel.cpp:259
+#: rip/k3baudioprojectconvertingdialog.cpp:127
+#: rip/k3baudiorippingdialog.cpp:144
+msgid "File Size"
+msgstr "Tamañu del ficheru"
+
 #: rip/videodvd/k3bvideodvdrippingdialog.cpp:278
 #, no-c-format, kde-format
 msgctxt "Ch is short for Channels"
@@ -9067,6 +8916,12 @@ msgstr ""
 #: rip/videodvd/k3bvideodvdrippingdialog.cpp:501
 msgid "AC3 Pass-through"
 msgstr "Paso per AC3"
+
+#: rip/videodvd/k3bvideodvdrippingdialog.cpp:516
+#: rip/k3baudioprojectconvertingdialog.cpp:194
+#: rip/k3baudiorippingdialog.cpp:264
+msgid "Do you want to overwrite these files?"
+msgstr "¿Quies sobrescribir estos ficheros?"
 
 #: rip/videodvd/k3bvideodvdrippingjob.cpp:110
 msgid "Ripping Video DVD Titles"
@@ -9507,67 +9362,212 @@ msgstr "Añu:"
 msgid "Category:"
 msgstr "Estaya:"
 
-#: rip/k3baudioripjob.cpp:214
-msgid "Extracting Digital Audio"
-msgstr "Sacando audio dixital"
+#: rip/k3baudioconvertingoptionwidget.cpp:174
+msgid "Wave"
+msgstr "Wave"
 
-#: rip/k3baudioripjob.cpp:221
-msgid "Could not load libcdparanoia."
-msgstr "Nun pudo cargar libcdparanoia."
+#: rip/k3baudioprojectconvertingdialog.cpp:104
+msgid "Audio Project Conversion"
+msgstr "Conversión de proyeutu d'audio"
 
-#: rip/k3baudioripjob.cpp:232
-msgid "Reading CD table of contents."
-msgstr "Lleendo la tabla de conteníos del CD."
+#: rip/k3baudioprojectconvertingdialog.cpp:125
+#, fuzzy
+#| msgid "Filename (relative to base directory)"
+msgid "Filename (relative to base folder)"
+msgstr "Nome del ficheru (relativu al direutoriu base)"
 
-#: rip/k3baudioripjob.cpp:236
+#: rip/k3baudioprojectconvertingdialog.cpp:150
+#: rip/k3baudiorippingdialog.cpp:169
+msgid "File Naming"
+msgstr "Nomando ficheru"
+
+#: rip/k3baudioprojectconvertingdialog.cpp:177
+#: rip/k3baudiorippingdialog.cpp:247
+msgid "Please check the naming pattern. All filenames need to be unique."
+msgstr ""
+"Por favor verifica'l patrón de nomes. Tolos nomes de ficheros tienen de ser "
+"únicos."
+
+#: rip/k3baudioprojectconvertingjob.cpp:56
+#: rip/k3baudioprojectconvertingjob.cpp:65
+msgid "Converting Audio Tracks"
+msgstr "Convirtiendo pistes d'audio"
+
+#: rip/k3baudioprojectconvertingjob.cpp:58
 #, kde-format
-msgid "Could not open device %1"
-msgstr "Nun pudo abrir el preséu %1"
+msgid "Converting Audio Tracks From '%1'"
+msgstr "Convirtiendo pistes d'audio dende '%1'"
 
-#: rip/k3baudioripjob.cpp:254 rip/k3baudioripjob.cpp:296
-msgid "Searching index 0 for all tracks"
-msgstr "Buscando índiz 0 en toles pistes"
-
-#: rip/k3baudioripjob.cpp:271
-msgid "Starting digital audio extraction (ripping)."
+#: rip/k3baudioprojectconvertingjob.cpp:66
+#, fuzzy
+#| msgid "Starting digital audio extraction (ripping)."
+msgid "Starting audio conversion."
 msgstr "Entamando la estraición dixital d'audio (sacando)."
 
-#: rip/k3baudioripjob.cpp:379
+#: rip/k3baudioprojectconvertingjob.cpp:93
 #, kde-format
-msgid "Ripping track %1 (%2 - %3)"
-msgstr "Sacando pista %1 (%2 - %3)"
+msgid "Converting track %1 (%2 - %3)"
+msgstr "Convirtiendo pista %1 (%2 - %3)"
 
-#: rip/k3baudioripjob.cpp:384
+#: rip/k3baudioprojectconvertingjob.cpp:98
 #, kde-format
-msgid "Ripping track %1"
-msgstr "Sacando pista %1"
+msgid "Converting track %1"
+msgstr "Convirtiendo pista %1"
 
-#: rip/k3baudioripjob.cpp:395
+#: rip/k3baudioprojectconvertingjob.cpp:104
 #, kde-format
-msgid "Successfully ripped track %1 to %2."
-msgstr "Pista %1 sacada perbien a %2."
+msgid "Successfully converted track %1."
+msgstr "Pista %1 convertida satisfactoriamente."
 
-#: rip/k3baudioripjob.cpp:420
+#: rip/k3baudioripjob.cpp:98
+msgid "Error while initializing audio ripping."
+msgstr "Fallu al entmar la estraición d'audio."
+
+#: rip/k3baudioripjob.cpp:140
 #, kde-format
 msgid "Unrecoverable error while ripping track %1."
 msgstr "Fallu irrecuperable al sacar la pista %1."
 
-#: rip/k3baudioripjob.cpp:427
-msgid "Error while initializing audio ripping."
-msgstr "Fallu al entmar la estraición d'audio."
-
-#: rip/k3baudioripjob.cpp:575
+#: rip/k3baudioripjob.cpp:194
 msgid "Ripping Audio Tracks"
 msgstr "Sacando pistes d'audio"
 
-#: rip/k3baudioripjob.cpp:577
+#: rip/k3baudioripjob.cpp:196
 #, kde-format
 msgid "Ripping Audio Tracks From '%1'"
 msgstr "Sacando pistes d'audio dende '%1'"
 
-#: rip/k3baudioconvertingoptionwidget.cpp:174
-msgid "Wave"
-msgstr "Wave"
+#: rip/k3baudioripjob.cpp:226
+msgid "Extracting Digital Audio"
+msgstr "Sacando audio dixital"
+
+#: rip/k3baudioripjob.cpp:233
+msgid "Could not load libcdparanoia."
+msgstr "Nun pudo cargar libcdparanoia."
+
+#: rip/k3baudioripjob.cpp:244
+msgid "Reading CD table of contents."
+msgstr "Lleendo la tabla de conteníos del CD."
+
+#: rip/k3baudioripjob.cpp:248
+#, kde-format
+msgid "Could not open device %1"
+msgstr "Nun pudo abrir el preséu %1"
+
+#: rip/k3baudioripjob.cpp:261
+msgid "Searching index 0 for all tracks"
+msgstr "Buscando índiz 0 en toles pistes"
+
+#: rip/k3baudioripjob.cpp:265
+msgid "Starting digital audio extraction (ripping)."
+msgstr "Entamando la estraición dixital d'audio (sacando)."
+
+#: rip/k3baudioripjob.cpp:296
+#, kde-format
+msgid "Ripping track %1 (%2 - %3)"
+msgstr "Sacando pista %1 (%2 - %3)"
+
+#: rip/k3baudioripjob.cpp:301
+#, kde-format
+msgid "Ripping track %1"
+msgstr "Sacando pista %1"
+
+#: rip/k3baudioripjob.cpp:307
+#, kde-format
+msgid "Successfully ripped track %1 to %2."
+msgstr "Pista %1 sacada perbien a %2."
+
+#: rip/k3baudiorippingdialog.cpp:123
+msgid "CD Ripping"
+msgstr "Extraición del CD"
+
+#: rip/k3baudiorippingdialog.cpp:182
+msgid "Do not read pregaps"
+msgstr ""
+
+#: rip/k3baudiorippingdialog.cpp:200
+msgid "Starts copying the selected tracks"
+msgstr "Entama la copia de les pistes escoyíes"
+
+#: rip/k3baudiorippingdialog.cpp:209
+msgid "Maximal number of read retries"
+msgstr "Máximu númberu de reintentos de llectura"
+
+#: rip/k3baudiorippingdialog.cpp:210
+msgid ""
+"<p>This specifies the maximum number of retries to read a sector of audio "
+"data from the cd. After that K3b will either skip the sector if the "
+"<em>Ignore Read Errors</em> option is enabled or stop the process."
+msgstr ""
+"<p>Esto especifica'l máximu númberu de reintentos de llectura d'un sector de "
+"datos d'audio del CD. Darréu, K3b omitirá'l sector o detendrá'l procesu si "
+"la opción <em>Inorar fallos de llectura</em> ta escoyida."
+
+#: rip/k3baudiorippingdialog.cpp:214
+msgid "Do not read the pregaps at the end of every track"
+msgstr "Nun lleer los previos al final de cada pista"
+
+#: rip/k3baudiorippingdialog.cpp:215
+msgid ""
+"<p>If this option is checked K3b will not rip the audio data in the pregaps. "
+"Most audio tracks contain an empty pregap which does not belong to the track "
+"itself.</p><p>Although the default behavior of nearly all ripping software "
+"is to include the pregaps for most CDs, it makes more sense to ignore them. "
+"In any case, when creating a K3b audio project, the pregaps will be "
+"regenerated.</p>"
+msgstr ""
+
+#: rip/k3baudiorippingdialog.cpp:266
+msgid "Overwrite"
+msgstr "Sobrescribir"
+
+#: rip/k3baudiorippingdialog.cpp:368
+msgid "Cue-file"
+msgstr "Ficheru Cue"
+
+#: rip/k3baudiorippingdialog.cpp:406
+#, kde-format
+msgid "Track%1"
+msgstr "Pista%1"
+
+#: rip/k3bmassaudioencodingjob.cpp:159
+#, kde-format
+msgid "1 track (encoding to %2)"
+msgid_plural "%1 tracks (encoding to %2)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rip/k3bmassaudioencodingjob.cpp:164
+#, kde-format
+msgid "1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "1 pista"
+msgstr[1] "%1 pistes"
+
+#: rip/k3bmassaudioencodingjob.cpp:236
+#, kde-format
+msgid "Removed partial file '%1'."
+msgstr "Desaniciáu ficheru parcial '%1'."
+
+#: rip/k3bmassaudioencodingjob.cpp:301 rip/k3bmassaudioencodingjob.cpp:426
+#, kde-format
+msgid "Unable to open '%1' for writing."
+msgstr "Nun pudo abrir '%1' pa escribir."
+
+#: rip/k3bmassaudioencodingjob.cpp:340
+#, kde-format
+msgid "Error while encoding track %1."
+msgstr "Fallu al codificar pista %1."
+
+#: rip/k3bmassaudioencodingjob.cpp:376
+#, kde-format
+msgid "Writing playlist to %1."
+msgstr "Grabando llista de reproducción a %1."
+
+#: rip/k3bmassaudioencodingjob.cpp:470
+#, kde-format
+msgid "Writing cue file to %1."
+msgstr "Grabando ficheru cue a %1."
 
 #: ../plugins/decoder/ffmpeg/k3bffmpegwrapper.cpp:208
 msgid "Windows Media v1"
