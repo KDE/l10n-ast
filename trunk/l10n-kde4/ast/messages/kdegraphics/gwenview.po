@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-08 04:11+0200\n"
+"POT-Creation-Date: 2011-05-10 04:19+0200\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -30,95 +30,6 @@ msgstr "Vista d'imaxe"
 #: app/configdialog.cpp:95
 msgid "Advanced"
 msgstr "Avanzáu"
-
-#: app/fileopscontextmanageritem.cpp:82
-msgctxt "@action:inmenu"
-msgid "Paste One Folder"
-msgstr "Apegar Una Carpeta"
-
-#: app/fileopscontextmanageritem.cpp:83
-msgctxt "@action:inmenu"
-msgid "Paste One File"
-msgstr "Apegar Un Ficheru"
-
-#: app/fileopscontextmanageritem.cpp:86
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Paste One Item"
-msgid_plural "Paste %1 Items"
-msgstr[0] "Apegar Un Elementu"
-msgstr[1] "Apegar %1 Elementos"
-
-#: app/fileopscontextmanageritem.cpp:88
-msgctxt "@action:inmenu"
-msgid "Paste Clipboard Contents..."
-msgstr "Apegar los conteníos del Cartafueyu..."
-
-#: app/fileopscontextmanageritem.cpp:92
-msgctxt "@action:inmenu"
-msgid "Paste"
-msgstr "Apegar"
-
-#: app/fileopscontextmanageritem.cpp:191
-msgid "File Operations"
-msgstr "Operaciones con ficheros"
-
-#: app/fileopscontextmanageritem.cpp:200 app/thumbnailviewpanel.cpp:147
-#: app/mainwindow.cpp:312
-msgctxt "@title actions category"
-msgid "File"
-msgstr "Ficheru"
-
-#: app/fileopscontextmanageritem.cpp:201
-#: app/semanticinfocontextmanageritem.cpp:161
-msgctxt "@title actions category"
-msgid "Edit"
-msgstr "Editar"
-
-#: app/fileopscontextmanageritem.cpp:216
-msgctxt "Verb"
-msgid "Copy To..."
-msgstr "Copiar en..."
-
-#: app/fileopscontextmanageritem.cpp:220
-msgctxt "Verb"
-msgid "Move To..."
-msgstr "Mover a..."
-
-#: app/fileopscontextmanageritem.cpp:224
-msgctxt "Verb: create link to the file where user wants"
-msgid "Link To..."
-msgstr "Enllazar a..."
-
-#: app/fileopscontextmanageritem.cpp:228
-msgctxt "Verb"
-msgid "Rename..."
-msgstr "Renomar..."
-
-#: app/fileopscontextmanageritem.cpp:232
-msgctxt "Verb"
-msgid "Trash"
-msgstr "Papelera"
-
-#: app/fileopscontextmanageritem.cpp:237
-msgid "Delete"
-msgstr "Desaniciar"
-
-#: app/fileopscontextmanageritem.cpp:242
-msgid "Properties"
-msgstr "Propiedaes"
-
-#: app/fileopscontextmanageritem.cpp:246
-msgid "Create Folder..."
-msgstr "Crear carpeta..."
-
-#: app/fileopscontextmanageritem.cpp:250
-msgid "Open With"
-msgstr "Abrir Con"
-
-#: app/fileopscontextmanageritem.cpp:410
-msgid "Other Application..."
-msgstr "Otra aplicación..."
 
 #: app/filtercontroller.cpp:124
 msgid "Name contains"
@@ -474,6 +385,12 @@ msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr "Valoración"
 
+#: app/thumbnailviewpanel.cpp:147 app/mainwindow.cpp:312
+#: app/fileopscontextmanageritem.cpp:204
+msgctxt "@title actions category"
+msgid "File"
+msgstr "Ficheru"
+
 #: app/thumbnailviewpanel.cpp:149
 msgctxt "@action:inmenu"
 msgid "Add Folder to Places"
@@ -766,6 +683,12 @@ msgstr "%1 y %2 esbillaos"
 msgid "Semantic Information"
 msgstr "Información semántica"
 
+#: app/semanticinfocontextmanageritem.cpp:161
+#: app/fileopscontextmanageritem.cpp:205
+msgctxt "@title actions category"
+msgid "Edit"
+msgstr "Editar"
+
 #: app/semanticinfocontextmanageritem.cpp:164
 msgctxt "@action"
 msgid "Edit Tags"
@@ -861,6 +784,89 @@ msgstr "Renomar <filename>%1</filename> a:"
 msgctxt "@title:window"
 msgid "Meta Information"
 msgstr "Metainformación"
+
+#: app/fileopscontextmanageritem.cpp:85
+msgctxt "@action:inmenu"
+msgid "Paste One Folder"
+msgstr "Apegar Una Carpeta"
+
+#: app/fileopscontextmanageritem.cpp:86
+msgctxt "@action:inmenu"
+msgid "Paste One File"
+msgstr "Apegar Un Ficheru"
+
+#: app/fileopscontextmanageritem.cpp:89
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste One Item"
+msgid_plural "Paste %1 Items"
+msgstr[0] "Apegar Un Elementu"
+msgstr[1] "Apegar %1 Elementos"
+
+#: app/fileopscontextmanageritem.cpp:91
+msgctxt "@action:inmenu"
+msgid "Paste Clipboard Contents..."
+msgstr "Apegar los conteníos del Cartafueyu..."
+
+#: app/fileopscontextmanageritem.cpp:95
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "Apegar"
+
+#: app/fileopscontextmanageritem.cpp:195
+msgid "File Operations"
+msgstr "Operaciones con ficheros"
+
+#: app/fileopscontextmanageritem.cpp:220
+msgctxt "Verb"
+msgid "Copy To..."
+msgstr "Copiar en..."
+
+#: app/fileopscontextmanageritem.cpp:224
+msgctxt "Verb"
+msgid "Move To..."
+msgstr "Mover a..."
+
+#: app/fileopscontextmanageritem.cpp:228
+msgctxt "Verb: create link to the file where user wants"
+msgid "Link To..."
+msgstr "Enllazar a..."
+
+#: app/fileopscontextmanageritem.cpp:232
+msgctxt "Verb"
+msgid "Rename..."
+msgstr "Renomar..."
+
+#: app/fileopscontextmanageritem.cpp:236
+msgctxt "Verb"
+msgid "Trash"
+msgstr "Papelera"
+
+#: app/fileopscontextmanageritem.cpp:241
+msgid "Delete"
+msgstr "Desaniciar"
+
+#: app/fileopscontextmanageritem.cpp:246
+#, fuzzy
+#| msgid "Retry"
+msgid "Restore"
+msgstr "Volve&r a intentar"
+
+#: app/fileopscontextmanageritem.cpp:249
+msgid "Properties"
+msgstr "Propiedaes"
+
+#: app/fileopscontextmanageritem.cpp:253
+msgid "Create Folder..."
+msgstr "Crear carpeta..."
+
+#: app/fileopscontextmanageritem.cpp:257
+msgid "Open With"
+msgstr "Abrir Con"
+
+#: app/fileopscontextmanageritem.cpp:422
+msgid "Other Application..."
+msgstr "Otra aplicación..."
 
 #: importer/filenameformater.cpp:102
 msgid "Shooting date"
