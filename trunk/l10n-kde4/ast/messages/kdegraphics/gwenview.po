@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 04:21+0200\n"
+"POT-Creation-Date: 2011-05-13 04:08+0200\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -96,24 +96,23 @@ msgctxt "@title actions category - means actions changing image"
 msgid "Edit"
 msgstr "Editar"
 
-#: app/imageopscontextmanageritem.cpp:80 lib/transformimageoperation.cpp:69
+#: app/imageopscontextmanageritem.cpp:80
 msgid "Rotate Left"
 msgstr "Voltiar a la esquierda"
 
-#: app/imageopscontextmanageritem.cpp:85 lib/transformimageoperation.cpp:66
+#: app/imageopscontextmanageritem.cpp:85
 msgid "Rotate Right"
 msgstr "Voltiar a la drecha"
 
-#: app/imageopscontextmanageritem.cpp:90 lib/transformimageoperation.cpp:72
+#: app/imageopscontextmanageritem.cpp:90
 msgid "Mirror"
 msgstr "Espeyu"
 
-#: app/imageopscontextmanageritem.cpp:94 lib/transformimageoperation.cpp:75
+#: app/imageopscontextmanageritem.cpp:94
 msgid "Flip"
 msgstr "Reflexar"
 
 #: app/imageopscontextmanageritem.cpp:98 lib/resize/resizeimagedialog.cpp:50
-#: lib/resize/resizeimageoperation.cpp:69
 msgid "Resize"
 msgstr "Redimensionar"
 
@@ -1171,6 +1170,13 @@ msgstr "Amenorgamientu de güeyos bermeyos"
 msgid "Click on the red eye you want to fix."
 msgstr "Calque sobro'l güeyu bermeyu que quier iguar."
 
+#: lib/resize/resizeimageoperation.cpp:69
+#, fuzzy
+#| msgid "Resize"
+msgctxt "(qtundo-format)"
+msgid "Resize"
+msgstr "Redimensionar"
+
 #: lib/semanticinfo/tagitemdelegate.cpp:65
 msgid "Assign this tag to all selected images"
 msgstr "Asignar esta etiqueta a toles imáxenes esbillaes"
@@ -1184,10 +1190,6 @@ msgstr "Bucle"
 msgctxt "@item:inmenu toggle random order in slideshow"
 msgid "Random"
 msgstr "Al debalu"
-
-#: lib/transformimageoperation.cpp:80
-msgid "Transform"
-msgstr "Tresformar"
 
 #: lib/imagemetainfomodel.cpp:229
 msgctxt "@item:intable Image file name"
@@ -1235,6 +1237,41 @@ msgstr "Propiedá"
 msgctxt "@title:column"
 msgid "Value"
 msgstr "Valor"
+
+#: lib/transformimageoperation.cpp:66
+#, fuzzy
+#| msgid "Rotate Right"
+msgctxt "(qtundo-format)"
+msgid "Rotate Right"
+msgstr "Voltiar a la drecha"
+
+#: lib/transformimageoperation.cpp:69
+#, fuzzy
+#| msgid "Rotate Left"
+msgctxt "(qtundo-format)"
+msgid "Rotate Left"
+msgstr "Voltiar a la esquierda"
+
+#: lib/transformimageoperation.cpp:72
+#, fuzzy
+#| msgid "Mirror"
+msgctxt "(qtundo-format)"
+msgid "Mirror"
+msgstr "Espeyu"
+
+#: lib/transformimageoperation.cpp:75
+#, fuzzy
+#| msgid "Flip"
+msgctxt "(qtundo-format)"
+msgid "Flip"
+msgstr "Reflexar"
+
+#: lib/transformimageoperation.cpp:80
+#, fuzzy
+#| msgid "Transform"
+msgctxt "(qtundo-format)"
+msgid "Transform"
+msgstr "Tresformar"
 
 #: part/gvpart.cpp:73
 msgctxt "@action"
