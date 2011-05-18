@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4-1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-17 04:19+0200\n"
+"POT-Creation-Date: 2011-05-18 04:04+0200\n"
 "PO-Revision-Date: 2010-05-19 18:48+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -6120,7 +6120,7 @@ msgid "Reset Toolbars"
 msgstr "Reaniciar Configurar barres de ferramientes"
 
 #: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2811
-#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1839
+#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1845
 msgid "Reset"
 msgstr "Restablecer"
 
@@ -7873,12 +7873,6 @@ msgctxt "@action"
 msgid "About KDE"
 msgstr "Tocante a KDE"
 
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Send Confirmation"
-msgid "Spell Checking Configuration"
-msgstr "Unviar confirmación"
-
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 msgctxt "@title:window"
@@ -7906,6 +7900,12 @@ msgstr "Correición ortográfica encaboxada."
 #: kdeui/sonnet/dialog.cpp:441 kdeui/sonnet/dialog.cpp:445
 msgid "Spell check complete."
 msgstr "Correición ortográfica completada."
+
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Send Confirmation"
+msgid "Spell Checking Configuration"
+msgstr "Unviar confirmación"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -10518,69 +10518,6 @@ msgstr "Imaxe - %1x%2 píxeles"
 msgid "Done."
 msgstr "Fecho."
 
-#: khtml/test_regression.cpp:619
-msgid "Directory containing tests, basedir and output directories."
-msgstr "Direutoriu que tien les prebes y los direutorios base y de salida."
-
-#: khtml/test_regression.cpp:621
-msgid "Do not suppress debug output"
-msgstr "Nun desaniciar la salida de depuración"
-
-#: khtml/test_regression.cpp:623
-msgid "Regenerate baseline (instead of checking)"
-msgstr "Xenerar otra vuelta la llinia de base (en vez de verificar)"
-
-#: khtml/test_regression.cpp:625
-msgid "Do not show the window while running tests"
-msgstr "Nun amosar la ventana mentanto s'execuenten les prebes"
-
-#: khtml/test_regression.cpp:627
-msgid "Only run a single test. Multiple options allowed."
-msgstr "Executar namái una sola preba. Permítense delles opciones."
-
-#: khtml/test_regression.cpp:628
-msgid "Only run .js tests"
-msgstr "Executar solamente les prebes .js"
-
-#: khtml/test_regression.cpp:629
-msgid "Only run .html tests"
-msgstr "Executar solamente les prebes .html"
-
-#: khtml/test_regression.cpp:632
-#, fuzzy
-#| msgid "Put output in <directory> instead of <base_dir>/output"
-msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
-msgstr ""
-"Poner el resultáu en <direutoriu> en llugar d'en <direutoriu_base>/output"
-
-#: khtml/test_regression.cpp:634
-#, fuzzy
-#| msgid "Use <directory> as reference instead of <base_dir>/baseline"
-msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
-msgstr "Usar <direutoriu> como referencia en vez de <direutoriu_base>/baseline"
-
-#: khtml/test_regression.cpp:635
-msgid ""
-"Directory containing tests, basedir and output directories. Only regarded if "
-"-b is not specified."
-msgstr "Direutoriu que tien les prebes y los direutorios base y de salida."
-
-#: khtml/test_regression.cpp:636
-msgid ""
-"Relative path to testcase, or directory of testcases to be run (equivalent "
-"to -t)."
-msgstr ""
-"Camín relativu a la batería de prebes, o direutoriu de prebes a executar "
-"(equivalente a la opción -t)."
-
-#: khtml/test_regression.cpp:638
-msgid "TestRegression"
-msgstr "TestRegression"
-
-#: khtml/test_regression.cpp:639
-msgid "Regression tester for khtml"
-msgstr "Prebes de regresión pa khtml"
-
 #: khtml/test_regression_gui_main.cpp:34
 msgid "TestRegressionGui"
 msgstr "TestRegressionGui"
@@ -10588,44 +10525,6 @@ msgstr "TestRegressionGui"
 #: khtml/test_regression_gui_main.cpp:35
 msgid "GUI for the khtml regression tester"
 msgstr "Interfaz gráfica pa les prebes de regresión de khtml"
-
-#: khtml/test_regression_gui_window.cpp:76
-msgid "Available Tests: 0"
-msgstr "Prebes disponibles: 0"
-
-#: khtml/test_regression_gui_window.cpp:181
-msgid "Please choose a valid 'khtmltests/regression/' directory."
-msgstr "Escueyi un direutoriu «khtmltests/regression/» válidu."
-
-#: khtml/test_regression_gui_window.cpp:250
-msgid "Please choose a valid 'khtml/' build directory."
-msgstr "Escueyi un direutoriu de compilación «khtml/» válidu."
-
-#: khtml/test_regression_gui_window.cpp:532
-#, kde-format
-msgid "Available Tests: %1 (ignored: %2)"
-msgstr "Prebes disponibles: %1 (ignoraes: %2)"
-
-#: khtml/test_regression_gui_window.cpp:563
-#: khtml/ecma/debugger/debugwindow.cpp:192
-msgid "Continue"
-msgstr "Continuar"
-
-#: khtml/test_regression_gui_window.cpp:632
-msgid "Cannot find testregression executable."
-msgstr "Nun se pudo atopar l'executable de prebes de regresión."
-
-#: khtml/test_regression_gui_window.cpp:1102
-msgid "Run test..."
-msgstr "Executar preba..."
-
-#: khtml/test_regression_gui_window.cpp:1104
-msgid "Add to ignores..."
-msgstr "Amestar a los ignoraos..."
-
-#: khtml/test_regression_gui_window.cpp:1105
-msgid "Remove from ignores..."
-msgstr "Desaniciar de los ignoraos..."
 
 #: khtml/testkhtml.cpp:39
 msgid "URL to open"
@@ -10656,7 +10555,7 @@ msgid "Access Keys activated"
 msgstr "Claves d'accesu activaes"
 
 #: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4764
-#: khtml/html/html_formimpl.cpp:1635 khtml/html/html_formimpl.cpp:1847
+#: khtml/html/html_formimpl.cpp:1641 khtml/html/html_formimpl.cpp:1853
 msgid "Submit"
 msgstr "Unviar"
 
@@ -11105,6 +11004,107 @@ msgstr "Amosar la &notificación de ventana flotante pasiva bloquiada"
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&Configurar les polítiques de nueves ventanes en JavaScript..."
 
+#: khtml/test_regression.cpp:619
+msgid "Directory containing tests, basedir and output directories."
+msgstr "Direutoriu que tien les prebes y los direutorios base y de salida."
+
+#: khtml/test_regression.cpp:621
+msgid "Do not suppress debug output"
+msgstr "Nun desaniciar la salida de depuración"
+
+#: khtml/test_regression.cpp:623
+msgid "Regenerate baseline (instead of checking)"
+msgstr "Xenerar otra vuelta la llinia de base (en vez de verificar)"
+
+#: khtml/test_regression.cpp:625
+msgid "Do not show the window while running tests"
+msgstr "Nun amosar la ventana mentanto s'execuenten les prebes"
+
+#: khtml/test_regression.cpp:627
+msgid "Only run a single test. Multiple options allowed."
+msgstr "Executar namái una sola preba. Permítense delles opciones."
+
+#: khtml/test_regression.cpp:628
+msgid "Only run .js tests"
+msgstr "Executar solamente les prebes .js"
+
+#: khtml/test_regression.cpp:629
+msgid "Only run .html tests"
+msgstr "Executar solamente les prebes .html"
+
+#: khtml/test_regression.cpp:632
+#, fuzzy
+#| msgid "Put output in <directory> instead of <base_dir>/output"
+msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
+msgstr ""
+"Poner el resultáu en <direutoriu> en llugar d'en <direutoriu_base>/output"
+
+#: khtml/test_regression.cpp:634
+#, fuzzy
+#| msgid "Use <directory> as reference instead of <base_dir>/baseline"
+msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
+msgstr "Usar <direutoriu> como referencia en vez de <direutoriu_base>/baseline"
+
+#: khtml/test_regression.cpp:635
+msgid ""
+"Directory containing tests, basedir and output directories. Only regarded if "
+"-b is not specified."
+msgstr "Direutoriu que tien les prebes y los direutorios base y de salida."
+
+#: khtml/test_regression.cpp:636
+msgid ""
+"Relative path to testcase, or directory of testcases to be run (equivalent "
+"to -t)."
+msgstr ""
+"Camín relativu a la batería de prebes, o direutoriu de prebes a executar "
+"(equivalente a la opción -t)."
+
+#: khtml/test_regression.cpp:638
+msgid "TestRegression"
+msgstr "TestRegression"
+
+#: khtml/test_regression.cpp:639
+msgid "Regression tester for khtml"
+msgstr "Prebes de regresión pa khtml"
+
+#: khtml/test_regression_gui_window.cpp:76
+msgid "Available Tests: 0"
+msgstr "Prebes disponibles: 0"
+
+#: khtml/test_regression_gui_window.cpp:181
+msgid "Please choose a valid 'khtmltests/regression/' directory."
+msgstr "Escueyi un direutoriu «khtmltests/regression/» válidu."
+
+#: khtml/test_regression_gui_window.cpp:250
+msgid "Please choose a valid 'khtml/' build directory."
+msgstr "Escueyi un direutoriu de compilación «khtml/» válidu."
+
+#: khtml/test_regression_gui_window.cpp:532
+#, kde-format
+msgid "Available Tests: %1 (ignored: %2)"
+msgstr "Prebes disponibles: %1 (ignoraes: %2)"
+
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
+msgid "Continue"
+msgstr "Continuar"
+
+#: khtml/test_regression_gui_window.cpp:632
+msgid "Cannot find testregression executable."
+msgstr "Nun se pudo atopar l'executable de prebes de regresión."
+
+#: khtml/test_regression_gui_window.cpp:1102
+msgid "Run test..."
+msgstr "Executar preba..."
+
+#: khtml/test_regression_gui_window.cpp:1104
+msgid "Add to ignores..."
+msgstr "Amestar a los ignoraos..."
+
+#: khtml/test_regression_gui_window.cpp:1105
+msgid "Remove from ignores..."
+msgstr "Desaniciar de los ignoraos..."
+
 #: khtml/ecma/kjs_binding.cpp:185
 msgid ""
 "A script on this page is causing KHTML to freeze. If it continues to run, "
@@ -11123,7 +11123,7 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "&Parar script"
 
-#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2174
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2161
 msgid "Confirmation: JavaScript Popup"
 msgstr "Confirmación: Popup Javascript"
 
@@ -11145,11 +11145,11 @@ msgstr ""
 "<qt>Esti sitiu ta solicitando abrir <p>%1</p> nuna ventana del restolador "
 "usando Javascript.<br />¿Das-y permisu?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
 msgid "Allow"
 msgstr "Permitir"
 
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
 msgid "Do Not Allow"
 msgstr "Non permitir"
 
@@ -11188,7 +11188,7 @@ msgstr "Inxertar"
 msgid "Disallow"
 msgstr "Denegar"
 
-#: khtml/ecma/kjs_html.cpp:2176
+#: khtml/ecma/kjs_html.cpp:2163
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -11198,7 +11198,7 @@ msgstr ""
 "usando Javascript.\n"
 "¿Permites l'unvíu de la solicitú?"
 
-#: khtml/ecma/kjs_html.cpp:2179
+#: khtml/ecma/kjs_html.cpp:2166
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -11397,7 +11397,7 @@ msgid_plural "&Send Files"
 msgstr[0] "&Unviar Ficheru"
 msgstr[1] "&Unviar Ficheros"
 
-#: khtml/html/html_formimpl.cpp:2701
+#: khtml/html/html_formimpl.cpp:2717
 msgid "Key Generator"
 msgstr "Xenerador de claves"
 

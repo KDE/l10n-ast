@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-13 04:08+0200\n"
+"POT-Creation-Date: 2011-05-18 03:59+0200\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -143,7 +143,7 @@ msgstr ""
 msgid "Other Plugins"
 msgstr "Co&mplementos"
 
-#: app/kipiexportaction.cpp:62
+#: app/kipiexportaction.cpp:62 app/kipiinterface.cpp:292
 #, fuzzy
 #| msgid "No Plugin"
 msgid "No Plugin Found"
@@ -162,45 +162,6 @@ msgid "%1 (%2 image)"
 msgid_plural "%1 (%2 images)"
 msgstr[0] "%1 (%2 imaxe)"
 msgstr[1] "%1 (%2 imáxenes)"
-
-#: app/kipiinterface.cpp:213
-msgctxt "@title:menu"
-msgid "Images"
-msgstr "Imáxenes"
-
-#: app/kipiinterface.cpp:214
-msgctxt "@title:menu"
-msgid "Effects"
-msgstr "Efeutos"
-
-#: app/kipiinterface.cpp:215
-msgctxt "@title:menu"
-msgid "Tools"
-msgstr "Ferramientes"
-
-#: app/kipiinterface.cpp:216
-msgctxt "@title:menu"
-msgid "Import"
-msgstr "Importar"
-
-#: app/kipiinterface.cpp:217
-msgctxt "@title:menu"
-msgid "Export"
-msgstr "Esportar"
-
-#: app/kipiinterface.cpp:218
-msgctxt "@title:menu"
-msgid "Batch Processing"
-msgstr "Procesamientu por llotes"
-
-#: app/kipiinterface.cpp:219
-msgctxt "@title:menu"
-msgid "Collections"
-msgstr "Coleiciones"
-
-#: app/kipiinterface.cpp:273
-msgid "No Plugin"
-msgstr "Ensin complementu"
 
 #: app/kipiuploadwidget.cpp:42
 #, kde-format
@@ -867,6 +828,48 @@ msgstr "Abrir Con"
 msgid "Other Application..."
 msgstr "Otra aplicación..."
 
+#: app/kipiinterface.cpp:223
+msgctxt "@title:menu"
+msgid "Images"
+msgstr "Imáxenes"
+
+#: app/kipiinterface.cpp:224
+msgctxt "@title:menu"
+msgid "Effects"
+msgstr "Efeutos"
+
+#: app/kipiinterface.cpp:225
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "Ferramientes"
+
+#: app/kipiinterface.cpp:226
+msgctxt "@title:menu"
+msgid "Import"
+msgstr "Importar"
+
+#: app/kipiinterface.cpp:227
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Esportar"
+
+#: app/kipiinterface.cpp:228
+msgctxt "@title:menu"
+msgid "Batch Processing"
+msgstr "Procesamientu por llotes"
+
+#: app/kipiinterface.cpp:229
+msgctxt "@title:menu"
+msgid "Collections"
+msgstr "Coleiciones"
+
+#: app/kipiinterface.cpp:233
+#, fuzzy
+#| msgctxt "@info:progress saving all image changes"
+#| msgid "Saving..."
+msgid "Loading..."
+msgstr "Atroxando..."
+
 #: importer/filenameformater.cpp:102
 msgid "Shooting date"
 msgstr "Data de la captura"
@@ -1051,14 +1054,6 @@ msgstr "Anchor"
 msgid "Height"
 msgstr "Altor"
 
-#: lib/document/document.cpp:230
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "Gwenview cannot edit this kind of image."
-msgctxt "@info"
-msgid "Gwenview cannot save this kind of documents."
-msgstr "Gwenview nun puede editar esta triba d'imaxe."
-
 #: lib/document/loadingjob.cpp:56
 #, kde-format
 msgid "Could not load document %1"
@@ -1107,6 +1102,14 @@ msgstr "Falló la carga de metainformación."
 msgctxt "@info"
 msgid "Loading image failed."
 msgstr "Falló la carga d'una imaxe."
+
+#: lib/document/document.cpp:231
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "Gwenview cannot edit this kind of image."
+msgctxt "@info"
+msgid "Gwenview cannot save this kind of documents."
+msgstr "Gwenview nun puede editar esta triba d'imaxe."
 
 #: lib/documentview/documentview.cpp:360
 msgid "Gwenview does not know how to display this kind of document"
@@ -1846,6 +1849,9 @@ msgstr "&Ficheru"
 #: rc.cpp:280
 msgid "&View"
 msgstr "&Ver"
+
+#~ msgid "No Plugin"
+#~ msgstr "Ensin complementu"
 
 #~ msgid "Copyright 2009 Aurélien Gâteau"
 #~ msgstr "Copyright 2009 Aurélien Gâteau"
