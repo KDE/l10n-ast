@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-23 03:46+0200\n"
+"POT-Creation-Date: 2011-05-24 03:54+0200\n"
 "PO-Revision-Date: 2010-10-19 23:26+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Español <kde-ye@kybs.de>\n"
@@ -718,8 +718,9 @@ msgid "Capacity:"
 msgstr "Capacidá:"
 
 #: k3bdiskinfoview.cpp:300 k3bdiskinfoview.cpp:302 k3bdiskinfoview.cpp:306
-#: projects/k3bfillstatusdisplay.cpp:188 projects/k3bfillstatusdisplay.cpp:191
-#: projects/k3bfillstatusdisplay.cpp:196
+#: projects/k3bfillstatusdisplay.cpp:180 projects/k3bfillstatusdisplay.cpp:188
+#: projects/k3bfillstatusdisplay.cpp:191 projects/k3bfillstatusdisplay.cpp:196
+#: projects/k3bfillstatusdisplay.cpp:849
 #, kde-format
 msgid "%1 min"
 msgstr "%1 min"
@@ -3956,7 +3957,10 @@ msgstr ""
 "qu'usar el botón '%3'."
 
 #: k3blsofwrapperdialog.cpp:101
-msgid "<p>Do you really want K3b to kill the following processes: <em>"
+#, fuzzy, kde-format
+#| msgid "<p>Do you really want K3b to kill the following processes: <em>"
+msgid ""
+"<p>Do you really want K3b to kill the following processes: <em>%1</em>?</p>"
 msgstr "<p>De verdá quies que K3b termine los siguientes procesos: <em>"
 
 #: k3bmediaselectiondialog.cpp:34
@@ -6048,11 +6052,15 @@ msgid "Disable on-the-fly burning"
 msgstr "Desactivar grabación al vuelu"
 
 #: projects/k3baudiodatasourceeditwidget.cpp:38
-msgid "Start Offset"
+#, fuzzy
+#| msgid "Start Offset"
+msgid "Start Offset:"
 msgstr "Entamar en"
 
 #: projects/k3baudiodatasourceeditwidget.cpp:39
-msgid "End Offset"
+#, fuzzy
+#| msgid "End Offset"
+msgid "End Offset:"
 msgstr "Finalizar en"
 
 #: projects/k3baudiodatasourceeditwidget.cpp:62
@@ -6769,6 +6777,12 @@ msgid_plural "%1 Files"
 msgstr[0] "Abrir ficheros"
 msgstr[1] "Abrir ficheros"
 
+#: projects/k3bdatapropertiesdialog.cpp:305
+#, fuzzy
+#| msgid "Files"
+msgid "No Files"
+msgstr "Ficheros"
+
 #: projects/k3bdatapropertiesdialog.cpp:308
 #, fuzzy, kde-format
 #| msgid "1 folder"
@@ -6778,15 +6792,26 @@ msgid_plural "%1 Folders"
 msgstr[0] "1 carpeta"
 msgstr[1] "%1 carpetes"
 
+#: projects/k3bdatapropertiesdialog.cpp:310
+#, fuzzy
+#| msgid "Folders"
+msgid "No Folders"
+msgstr "Carpetes"
+
 #: projects/k3bdataurladdingdialog.cpp:95
 #, kde-format
 msgid "Moving files to project \"%1\"..."
 msgstr "Moviendo ficheros al proyeutu \"%1\"..."
 
 #: projects/k3bdataurladdingdialog.cpp:117
-#: projects/k3bdataurladdingdialog.cpp:123
 #, kde-format
 msgid "Adding files to project '%1'"
+msgstr "Amestando ficheros al proyeutu '%1'"
+
+#: projects/k3bdataurladdingdialog.cpp:123
+#, fuzzy, kde-format
+#| msgid "Adding files to project '%1'"
+msgid "Adding files to project '%1'..."
 msgstr "Amestando ficheros al proyeutu '%1'"
 
 #: projects/k3bdataurladdingdialog.cpp:197
@@ -7034,11 +7059,6 @@ msgstr ""
 msgid "Edit Boot Images"
 msgstr "Editar imáxenes d'arranque"
 
-#: projects/k3bfillstatusdisplay.cpp:180 projects/k3bfillstatusdisplay.cpp:586
-#: projects/k3bfillstatusdisplay.cpp:849
-msgid "min"
-msgstr "min"
-
 #: projects/k3bfillstatusdisplay.cpp:186
 #, kde-format
 msgid "Available: %1 of %2"
@@ -7135,6 +7155,10 @@ msgstr ""
 #: projects/k3bfillstatusdisplay.cpp:584
 msgid "GB"
 msgstr ""
+
+#: projects/k3bfillstatusdisplay.cpp:586
+msgid "min"
+msgstr "min"
 
 #: projects/k3bfillstatusdisplay.cpp:599
 msgid "Custom Size"
@@ -7272,7 +7296,9 @@ msgid "default"
 msgstr "predetermináu"
 
 #: projects/k3bmovixprojectmodel.cpp:296
-msgid " (broken)"
+#, fuzzy, kde-format
+#| msgid " (broken)"
+msgid "%1 (broken)"
 msgstr " (tollíu)"
 
 #: projects/k3bmovixprojectmodel.cpp:313
@@ -8868,8 +8894,8 @@ msgid "%1 (not supported)"
 msgstr "non soportáu"
 
 #: rip/videodvd/k3bvideodvdaudiomodel.cpp:257
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:84
 #: rip/videodvd/k3bvideodvdtitlemodel.cpp:307
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:84
 msgid "Title"
 msgstr "Títulu"
 
@@ -8968,80 +8994,68 @@ msgstr "Valores de recorte inválidos. Nun se realizarán recortes."
 msgid "Failed to determine clipping values for title %1"
 msgstr "Fallu al determinar valores de recorte pal títulu %1"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:66
-msgid "Keep original dimensions"
-msgstr "Caltener les dimensiones orixinales"
-
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:67
-msgid "640x? (automatic height)"
-msgstr "¿640x? (altura automática)"
-
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:68
-msgid "320x? (automatic height)"
-msgstr "¿320x? (altura automática)"
-
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:92
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:64
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:67
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:70
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:164
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:165
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:166
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:248
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:249
-#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:250
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:49
 #, kde-format
-msgid "%1 kbps"
-msgstr "%1 kbps"
+msgid "%1 %2Ch (%3)"
+msgstr "%1 %2Ch (%3)"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:186
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:187
-msgid "auto"
-msgstr "auto"
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:60
+msgid "No audio streams"
+msgstr "Nun hai canales d'audio"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:286
-msgid ""
-"<p><b>Pattern special strings:</b><p>The following strings will be replaced "
-"with their respective meaning in every track name.<br><p><table border=\"0"
-"\"><tr><td></td><td><em>Meaning</em></td><td><em>Alternatives</em></td></"
-"tr><tr><td>%t</td><td>title number</td><td>%{t} or %{title_number}</td></"
-"tr><tr><td>%i</td><td>volume id (mostly the name of the Video DVD)</td><td>%"
-"{i} or %{volume_id}</td></tr><tr><td>%b</td><td>beautified volume id</td><td>"
-"%{b} or %{beautified_volume_id}</td></tr><tr><td>%l</td><td>two chars "
-"language code</td><td>%{l} or %{lang_code}</td></tr><tr><td>%n</"
-"td><td>language name</td><td>%{n} or %{lang_name}</td></tr><tr><td>%a</"
-"td><td>audio format (on the Video DVD)</td><td>%{a} or %{audio_format}</td></"
-"tr><tr><td>%c</td><td>number of audio channels (on the Video DVD)</td><td>%"
-"{c} or %{channels}</td></tr><tr><td>%v</td><td>size of the original video</"
-"td><td>%{v} or %{orig_video_size}</td></tr><tr><td>%s</td><td>size of the "
-"resulting video (<em>Caution: auto-clipping values are not taken into "
-"account.</em>)</td><td>%{s} or %{video_size}</td></tr><tr><td>%r</"
-"td><td>aspect ratio of the original video</td><td>%{r} or %{aspect_ratio}</"
-"td></tr><tr><td>%d</td><td>current date</td><td>%{d} or %{date}</td></tr></"
-"table><p><em>Hint: K3b also accepts slight variations of the long special "
-"strings. One can, for example, leave out the underscores.</em>"
-msgstr ""
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:68
+msgid "Audio Streams"
+msgstr "Pistes d'audio"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:339
-msgid "Video Picture Size"
-msgstr "Tamañu del vídeo"
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:73
+#, kde-format
+msgid "%1 %2Ch (%3<em>%4</em>)"
+msgstr "%1 %2Canales (%3<em>%4</em>)"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:343
-msgid ""
-"<p>Please choose the width and height of the resulting video. If one value "
-"is set to <em>Auto</em> K3b will choose this value depending on the aspect "
-"ratio of the video picture.<br>Be aware that setting both the width and the "
-"height to fixed values will result in no aspect ratio correction being "
-"performed."
-msgstr ""
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:99
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:124
+msgid "RLE"
+msgstr "RLE"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:358
-msgid "Width"
-msgstr "Anchor:"
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:100
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:125
+msgid "Extended"
+msgstr "Estendida"
 
-#: rip/videodvd/k3bvideodvdrippingwidget.cpp:360
-msgid "Height"
-msgstr "Altor"
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:109
+msgid "No Subpicture streams"
+msgstr "Ensin fluxos de gráficos sobreimpresos"
+
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:117
+msgid "Subpicture Streams"
+msgstr "Fluxos de gráficos sobreimpresos"
+
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:227
+msgid "MPEG1"
+msgstr "MPEG1"
+
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:227
+msgid "MPEG2"
+msgstr "MPEG2"
+
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:257
+#, kde-format
+msgid "%1 chapter"
+msgid_plural "%1 chapters"
+msgstr[0] "%1 capítulu"
+msgstr[1] "%1 capítulos"
+
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:267
+msgid "letterboxed"
+msgstr "panorámica"
+
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:269
+msgid "anamorph"
+msgstr "anamórfica"
+
+#: rip/videodvd/k3bvideodvdtitlemodel.cpp:315
+msgid "Subpicture"
+msgstr "Subtítulu"
 
 #: rip/videodvd/k3bvideodvdrippingview.cpp:87
 #, fuzzy
@@ -9086,7 +9100,9 @@ msgstr ""
 "cifráu.<p>Instala <i>libdvdcss</i> pa poder descifrar DVDs de vídeo."
 
 #: rip/videodvd/k3bvideodvdrippingview.cpp:270
-msgid "Video DVD"
+#, fuzzy, kde-format
+#| msgid "Video DVD"
+msgid "%1 (Video DVD)"
 msgstr "DVD de video"
 
 #: rip/videodvd/k3bvideodvdrippingview.cpp:271
@@ -9158,68 +9174,84 @@ msgstr ""
 "completa del DVD de vídeo incluyendo tolos menús y estres recomiéndase usar "
 "la ferramienta de copia de DVD de K3b."
 
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:49
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:66
+msgid "Keep original dimensions"
+msgstr "Caltener les dimensiones orixinales"
+
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:67
+msgid "640x? (automatic height)"
+msgstr "¿640x? (altura automática)"
+
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:68
+msgid "320x? (automatic height)"
+msgstr "¿320x? (altura automática)"
+
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:92
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:64
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:67
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:70
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:164
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:165
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:166
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:248
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:249
+#: ../plugins/encoder/lame/k3blameencoderconfigwidget.cpp:250
 #, kde-format
-msgid "%1 %2Ch (%3)"
-msgstr "%1 %2Ch (%3)"
+msgid "%1 kbps"
+msgstr "%1 kbps"
 
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:60
-msgid "No audio streams"
-msgstr "Nun hai canales d'audio"
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:186
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:187
+msgid "auto"
+msgstr "auto"
 
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:68
-msgid "Audio Streams"
-msgstr "Pistes d'audio"
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:286
+msgid ""
+"<p><b>Pattern special strings:</b><p>The following strings will be replaced "
+"with their respective meaning in every track name.<br><p><table border=\"0"
+"\"><tr><td></td><td><em>Meaning</em></td><td><em>Alternatives</em></td></"
+"tr><tr><td>%t</td><td>title number</td><td>%{t} or %{title_number}</td></"
+"tr><tr><td>%i</td><td>volume id (mostly the name of the Video DVD)</td><td>%"
+"{i} or %{volume_id}</td></tr><tr><td>%b</td><td>beautified volume id</td><td>"
+"%{b} or %{beautified_volume_id}</td></tr><tr><td>%l</td><td>two chars "
+"language code</td><td>%{l} or %{lang_code}</td></tr><tr><td>%n</"
+"td><td>language name</td><td>%{n} or %{lang_name}</td></tr><tr><td>%a</"
+"td><td>audio format (on the Video DVD)</td><td>%{a} or %{audio_format}</td></"
+"tr><tr><td>%c</td><td>number of audio channels (on the Video DVD)</td><td>%"
+"{c} or %{channels}</td></tr><tr><td>%v</td><td>size of the original video</"
+"td><td>%{v} or %{orig_video_size}</td></tr><tr><td>%s</td><td>size of the "
+"resulting video (<em>Caution: auto-clipping values are not taken into "
+"account.</em>)</td><td>%{s} or %{video_size}</td></tr><tr><td>%r</"
+"td><td>aspect ratio of the original video</td><td>%{r} or %{aspect_ratio}</"
+"td></tr><tr><td>%d</td><td>current date</td><td>%{d} or %{date}</td></tr></"
+"table><p><em>Hint: K3b also accepts slight variations of the long special "
+"strings. One can, for example, leave out the underscores.</em>"
+msgstr ""
 
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:73
-#, kde-format
-msgid "%1 %2Ch (%3<em>%4</em>)"
-msgstr "%1 %2Canales (%3<em>%4</em>)"
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:339
+msgid "Video Picture Size"
+msgstr "Tamañu del vídeo"
 
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:99
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:124
-msgid "RLE"
-msgstr "RLE"
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:343
+msgid ""
+"<p>Please choose the width and height of the resulting video. If one value "
+"is set to <em>Auto</em> K3b will choose this value depending on the aspect "
+"ratio of the video picture.<br>Be aware that setting both the width and the "
+"height to fixed values will result in no aspect ratio correction being "
+"performed."
+msgstr ""
 
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:100
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:125
-msgid "Extended"
-msgstr "Estendida"
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:358
+#, fuzzy
+#| msgid "Width"
+msgid "Width:"
+msgstr "Anchor:"
 
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:109
-msgid "No Subpicture streams"
-msgstr "Ensin fluxos de gráficos sobreimpresos"
-
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:117
-msgid "Subpicture Streams"
-msgstr "Fluxos de gráficos sobreimpresos"
-
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:227
-msgid "MPEG1"
-msgstr "MPEG1"
-
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:227
-msgid "MPEG2"
-msgstr "MPEG2"
-
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:257
-#, kde-format
-msgid "%1 chapter"
-msgid_plural "%1 chapters"
-msgstr[0] "%1 capítulu"
-msgstr[1] "%1 capítulos"
-
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:267
-msgid "letterboxed"
-msgstr "panorámica"
-
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:269
-msgid "anamorph"
-msgstr "anamórfica"
-
-#: rip/videodvd/k3bvideodvdtitlemodel.cpp:315
-msgid "Subpicture"
-msgstr "Subtítulu"
+#: rip/videodvd/k3bvideodvdrippingwidget.cpp:360
+#, fuzzy
+#| msgid "Height"
+msgid "Height:"
+msgstr "Altor"
 
 #: rip/k3baudiotrackmodel.cpp:161
 msgid "Artist"

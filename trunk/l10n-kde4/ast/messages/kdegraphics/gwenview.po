@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-23 04:04+0200\n"
+"POT-Creation-Date: 2011-05-24 04:13+0200\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -18,6 +18,73 @@ msgstr ""
 "X-Launchpad-Export-Date: 2009-10-22 22:18+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Language: asturian\n"
+
+#: app/fileopscontextmanageritem.cpp:165
+msgid "File Operations"
+msgstr "Operaciones con ficheros"
+
+#: app/fileopscontextmanageritem.cpp:176 app/thumbnailviewpanel.cpp:147
+#: app/mainwindow.cpp:311
+msgctxt "@title actions category"
+msgid "File"
+msgstr "Ficheru"
+
+#: app/fileopscontextmanageritem.cpp:177
+#: app/semanticinfocontextmanageritem.cpp:161
+msgctxt "@title actions category"
+msgid "Edit"
+msgstr "Editar"
+
+#: app/fileopscontextmanageritem.cpp:192
+msgctxt "Verb"
+msgid "Copy To..."
+msgstr "Copiar en..."
+
+#: app/fileopscontextmanageritem.cpp:196
+msgctxt "Verb"
+msgid "Move To..."
+msgstr "Mover a..."
+
+#: app/fileopscontextmanageritem.cpp:200
+msgctxt "Verb: create link to the file where user wants"
+msgid "Link To..."
+msgstr "Enllazar a..."
+
+#: app/fileopscontextmanageritem.cpp:204
+msgctxt "Verb"
+msgid "Rename..."
+msgstr "Renomar..."
+
+#: app/fileopscontextmanageritem.cpp:208
+msgctxt "Verb"
+msgid "Trash"
+msgstr "Papelera"
+
+#: app/fileopscontextmanageritem.cpp:213
+msgid "Delete"
+msgstr "Desaniciar"
+
+#: app/fileopscontextmanageritem.cpp:218
+#, fuzzy
+#| msgid "Retry"
+msgid "Restore"
+msgstr "Volve&r a intentar"
+
+#: app/fileopscontextmanageritem.cpp:221
+msgid "Properties"
+msgstr "Propiedaes"
+
+#: app/fileopscontextmanageritem.cpp:225
+msgid "Create Folder..."
+msgstr "Crear carpeta..."
+
+#: app/fileopscontextmanageritem.cpp:229
+msgid "Open With"
+msgstr "Abrir Con"
+
+#: app/fileopscontextmanageritem.cpp:419
+msgid "Other Application..."
+msgstr "Otra aplicación..."
 
 #: app/filtercontroller.cpp:124
 msgid "Name contains"
@@ -333,12 +400,6 @@ msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr "Valoración"
 
-#: app/thumbnailviewpanel.cpp:147 app/fileopscontextmanageritem.cpp:219
-#: app/mainwindow.cpp:311
-msgctxt "@title actions category"
-msgid "File"
-msgstr "Ficheru"
-
 #: app/thumbnailviewpanel.cpp:149
 msgctxt "@action:inmenu"
 msgid "Add Folder to Places"
@@ -508,12 +569,6 @@ msgstr "%1 y %2 esbillaos"
 msgid "Semantic Information"
 msgstr "Información semántica"
 
-#: app/semanticinfocontextmanageritem.cpp:161
-#: app/fileopscontextmanageritem.cpp:220
-msgctxt "@title actions category"
-msgid "Edit"
-msgstr "Editar"
-
 #: app/semanticinfocontextmanageritem.cpp:164
 msgctxt "@action"
 msgid "Edit Tags"
@@ -527,81 +582,6 @@ msgstr "Cero"
 #: app/semanticinfocontextmanageritem.cpp:210
 msgid "Edit"
 msgstr "Editar"
-
-#: app/fileoperations.cpp:72
-#, fuzzy
-#| msgid "Copy To"
-msgctxt "@title:window"
-msgid "Copy To"
-msgstr "Copiar a"
-
-#: app/fileoperations.cpp:73
-msgctxt "@action:button"
-msgid "Copy"
-msgstr "Copiar"
-
-#: app/fileoperations.cpp:76
-#, fuzzy
-#| msgid "Move To"
-msgctxt "@title:window"
-msgid "Move To"
-msgstr "Mover a"
-
-#: app/fileoperations.cpp:77
-msgctxt "@action:button"
-msgid "Move"
-msgstr "Mover"
-
-#: app/fileoperations.cpp:80
-#, fuzzy
-#| msgid "Link To"
-msgctxt "@title:window"
-msgid "Link To"
-msgstr "Enllazar a"
-
-#: app/fileoperations.cpp:81
-msgctxt "@action:button"
-msgid "Link"
-msgstr "Enllaz"
-
-#: app/fileoperations.cpp:170
-#, fuzzy
-#| msgid "Create Folder"
-msgctxt "@title:window"
-msgid "Create Folder"
-msgstr "Criar carpeta"
-
-#: app/fileoperations.cpp:171
-msgid "Enter the name of the folder to create:"
-msgstr "Introduza'l nome de la carpeta a crear:"
-
-#: app/fileoperations.cpp:201
-msgid "Move Here"
-msgstr "Mover equí"
-
-#: app/fileoperations.cpp:204
-msgid "Copy Here"
-msgstr "Copiar equí"
-
-#: app/fileoperations.cpp:207
-msgid "Link Here"
-msgstr "Enllazar equí"
-
-#: app/fileoperations.cpp:211
-msgid "Cancel"
-msgstr "Encaboxar"
-
-#: app/fileoperations.cpp:227
-#, fuzzy
-#| msgid "Rename"
-msgctxt "@title:window"
-msgid "Rename"
-msgstr "Renomar"
-
-#: app/fileoperations.cpp:228
-#, kde-format
-msgid "Rename <filename>%1</filename> to:"
-msgstr "Renomar <filename>%1</filename> a:"
 
 #: app/imagemetainfodialog.cpp:120
 #, fuzzy
@@ -651,89 +631,6 @@ msgstr "Coleiciones"
 #| msgid "Saving..."
 msgid "Loading..."
 msgstr "Atroxando..."
-
-#: app/fileopscontextmanageritem.cpp:86
-msgctxt "@action:inmenu"
-msgid "Paste One Folder"
-msgstr "Apegar Una Carpeta"
-
-#: app/fileopscontextmanageritem.cpp:87
-msgctxt "@action:inmenu"
-msgid "Paste One File"
-msgstr "Apegar Un Ficheru"
-
-#: app/fileopscontextmanageritem.cpp:90
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Paste One Item"
-msgid_plural "Paste %1 Items"
-msgstr[0] "Apegar Un Elementu"
-msgstr[1] "Apegar %1 Elementos"
-
-#: app/fileopscontextmanageritem.cpp:92
-msgctxt "@action:inmenu"
-msgid "Paste Clipboard Contents..."
-msgstr "Apegar los conteníos del Cartafueyu..."
-
-#: app/fileopscontextmanageritem.cpp:96
-msgctxt "@action:inmenu"
-msgid "Paste"
-msgstr "Apegar"
-
-#: app/fileopscontextmanageritem.cpp:208
-msgid "File Operations"
-msgstr "Operaciones con ficheros"
-
-#: app/fileopscontextmanageritem.cpp:235
-msgctxt "Verb"
-msgid "Copy To..."
-msgstr "Copiar en..."
-
-#: app/fileopscontextmanageritem.cpp:239
-msgctxt "Verb"
-msgid "Move To..."
-msgstr "Mover a..."
-
-#: app/fileopscontextmanageritem.cpp:243
-msgctxt "Verb: create link to the file where user wants"
-msgid "Link To..."
-msgstr "Enllazar a..."
-
-#: app/fileopscontextmanageritem.cpp:247
-msgctxt "Verb"
-msgid "Rename..."
-msgstr "Renomar..."
-
-#: app/fileopscontextmanageritem.cpp:251
-msgctxt "Verb"
-msgid "Trash"
-msgstr "Papelera"
-
-#: app/fileopscontextmanageritem.cpp:256
-msgid "Delete"
-msgstr "Desaniciar"
-
-#: app/fileopscontextmanageritem.cpp:261
-#, fuzzy
-#| msgid "Retry"
-msgid "Restore"
-msgstr "Volve&r a intentar"
-
-#: app/fileopscontextmanageritem.cpp:264
-msgid "Properties"
-msgstr "Propiedaes"
-
-#: app/fileopscontextmanageritem.cpp:268
-msgid "Create Folder..."
-msgstr "Crear carpeta..."
-
-#: app/fileopscontextmanageritem.cpp:272
-msgid "Open With"
-msgstr "Abrir Con"
-
-#: app/fileopscontextmanageritem.cpp:461
-msgid "Other Application..."
-msgstr "Otra aplicación..."
 
 #: app/configdialog.cpp:69
 msgid "General"
@@ -869,6 +766,70 @@ msgstr[1] "Modificáronse %1 imáxenes."
 #: app/mainwindow.cpp:1353
 msgid "If you quit now, your changes will be lost."
 msgstr "Si cueles agora, perderánse los tos cambeos."
+
+#: app/fileoperations.cpp:57
+#, fuzzy
+#| msgid "Copy To"
+msgctxt "@title:window"
+msgid "Copy To"
+msgstr "Copiar a"
+
+#: app/fileoperations.cpp:58
+msgctxt "@action:button"
+msgid "Copy"
+msgstr "Copiar"
+
+#: app/fileoperations.cpp:61
+#, fuzzy
+#| msgid "Move To"
+msgctxt "@title:window"
+msgid "Move To"
+msgstr "Mover a"
+
+#: app/fileoperations.cpp:62
+msgctxt "@action:button"
+msgid "Move"
+msgstr "Mover"
+
+#: app/fileoperations.cpp:65
+#, fuzzy
+#| msgid "Link To"
+msgctxt "@title:window"
+msgid "Link To"
+msgstr "Enllazar a"
+
+#: app/fileoperations.cpp:66
+msgctxt "@action:button"
+msgid "Link"
+msgstr "Enllaz"
+
+#: app/fileoperations.cpp:159
+msgid "Move Here"
+msgstr "Mover equí"
+
+#: app/fileoperations.cpp:162
+msgid "Copy Here"
+msgstr "Copiar equí"
+
+#: app/fileoperations.cpp:165
+msgid "Link Here"
+msgstr "Enllazar equí"
+
+#: app/fileoperations.cpp:169
+msgid "Cancel"
+msgstr "Encaboxar"
+
+#: app/fileoperations.cpp:188
+#, fuzzy
+#| msgid "Rename"
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "Renomar"
+
+#: app/fileoperations.cpp:189
+#, kde-format
+msgid "Rename <filename>%1</filename> to:"
+msgstr "Renomar <filename>%1</filename> a:"
 
 #: importer/filenameformater.cpp:102
 msgid "Shooting date"
@@ -1849,6 +1810,37 @@ msgstr "&Ficheru"
 #: rc.cpp:280
 msgid "&View"
 msgstr "&Ver"
+
+#, fuzzy
+#~| msgid "Create Folder"
+#~ msgctxt "@title:window"
+#~ msgid "Create Folder"
+#~ msgstr "Criar carpeta"
+
+#~ msgid "Enter the name of the folder to create:"
+#~ msgstr "Introduza'l nome de la carpeta a crear:"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "Apegar Una Carpeta"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One File"
+#~ msgstr "Apegar Un Ficheru"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Item"
+#~ msgid_plural "Paste %1 Items"
+#~ msgstr[0] "Apegar Un Elementu"
+#~ msgstr[1] "Apegar %1 Elementos"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste Clipboard Contents..."
+#~ msgstr "Apegar los conteníos del Cartafueyu..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "Apegar"
 
 #~ msgid "No Plugin"
 #~ msgstr "Ensin complementu"
