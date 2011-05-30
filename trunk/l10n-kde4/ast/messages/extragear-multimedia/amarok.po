@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-29 03:49+0200\n"
+"POT-Creation-Date: 2011-05-30 03:45+0200\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -1746,9 +1746,9 @@ msgid "Generic"
 msgstr "Xeneral"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:57
-#: context/applets/lyrics/LyricsApplet.cpp:428
-#: context/applets/lyrics/LyricsApplet.cpp:556
-#: context/applets/lyrics/LyricsApplet.cpp:600 dialogs/TagDialog.cpp:550
+#: context/applets/lyrics/LyricsApplet.cpp:437
+#: context/applets/lyrics/LyricsApplet.cpp:565
+#: context/applets/lyrics/LyricsApplet.cpp:609 dialogs/TagDialog.cpp:550
 msgid "Lyrics"
 msgstr "Lletra"
 
@@ -1854,7 +1854,7 @@ msgstr ""
 
 #: context/applets/albums/Albums.cpp:74
 #: context/applets/labels/LabelsApplet.cpp:111
-#: context/applets/lyrics/LyricsApplet.cpp:474
+#: context/applets/lyrics/LyricsApplet.cpp:483
 #: context/applets/photos/PhotosApplet.cpp:76
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:97
 #: context/applets/tabs/TabsApplet.cpp:104
@@ -1908,7 +1908,7 @@ msgstr ""
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
 #: context/applets/albums/Albums.cpp:334
-#: context/applets/lyrics/LyricsApplet.cpp:453
+#: context/applets/lyrics/LyricsApplet.cpp:462
 #: firstruntutorial/FirstRunTutorialPage.cpp:56 rc.cpp:2443
 msgid "Close"
 msgstr "Pesllar"
@@ -2103,70 +2103,70 @@ msgstr "Configuración"
 msgid "artist: %1"
 msgstr "Artista «%1»"
 
-#: context/applets/lyrics/LyricsApplet.cpp:188
+#: context/applets/lyrics/LyricsApplet.cpp:192
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Used if the current track has no artist."
 msgid "Unknown"
 msgstr "Desconocíu"
 
-#: context/applets/lyrics/LyricsApplet.cpp:195
+#: context/applets/lyrics/LyricsApplet.cpp:199
 #, kde-format
 msgid ""
 "While you were editing the lyrics of <b>%1 - %2</b> the track has changed. "
 "Do you want to save your changes?"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:202
+#: context/applets/lyrics/LyricsApplet.cpp:206
 #, kde-format
 msgid ""
 "The lyrics of <b>%1 - %2</b> changed while you were editing them. Do you "
 "want to save your changes?"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:439
+#: context/applets/lyrics/LyricsApplet.cpp:448
 msgid "Edit Lyrics"
 msgstr "Editar Lletres"
 
-#: context/applets/lyrics/LyricsApplet.cpp:446
+#: context/applets/lyrics/LyricsApplet.cpp:455
 msgid "Save Lyrics"
 msgstr "Guardar Lletres"
 
-#: context/applets/lyrics/LyricsApplet.cpp:460
+#: context/applets/lyrics/LyricsApplet.cpp:469
 msgid "Scroll automatically"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:467
+#: context/applets/lyrics/LyricsApplet.cpp:476
 msgid "Reload Lyrics"
 msgstr "Recargar les Lletres"
 
-#: context/applets/lyrics/LyricsApplet.cpp:551
+#: context/applets/lyrics/LyricsApplet.cpp:560
 msgid "Lyrics: No script is running"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:563
+#: context/applets/lyrics/LyricsApplet.cpp:572
 #, fuzzy
 #| msgid "Settings"
 msgid "Lyrics: Fetching ..."
 msgstr "Configuración"
 
-#: context/applets/lyrics/LyricsApplet.cpp:567
+#: context/applets/lyrics/LyricsApplet.cpp:576
 msgid "Lyrics: Fetch error"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:573
+#: context/applets/lyrics/LyricsApplet.cpp:582
 #, fuzzy
 #| msgid "Selected Tracks"
 msgid "Lyrics: Suggested URLs"
 msgstr "Pistes seleicionaes"
 
-#: context/applets/lyrics/LyricsApplet.cpp:607
+#: context/applets/lyrics/LyricsApplet.cpp:616
 #, fuzzy
 #| msgid "Track Information"
 msgid "Lyrics: Not found"
 msgstr "Información de la pista"
 
-#: context/applets/lyrics/LyricsApplet.cpp:647
+#: context/applets/lyrics/LyricsApplet.cpp:656
 #, fuzzy
 #| msgid ""
 #| "Do you really want to initialize this iPod? Its database will be cleared "
@@ -2181,7 +2181,7 @@ msgstr ""
 
 #. i18n: file: context/applets/lyrics/lyricsSettings.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, lyricsSettings)
-#: context/applets/lyrics/LyricsApplet.cpp:684 rc.cpp:978
+#: context/applets/lyrics/LyricsApplet.cpp:693 rc.cpp:978
 #, fuzzy
 #| msgid "Settings"
 msgid "Lyrics Settings"
@@ -8547,16 +8547,6 @@ msgctxt "As in, lastfm"
 msgid "Loved Track: %1"
 msgstr "Pista preferida: %1"
 
-#: services/lastfm/LastFmServiceConfig.cpp:143
-msgid "Last.fm credentials"
-msgstr "Credenciales de last.fm"
-
-#: services/lastfm/LastFmServiceConfig.cpp:144
-msgid ""
-"No running KWallet found. Would you like Amarok to save your Last.fm "
-"credentials in plaintext?"
-msgstr ""
-
 #: services/lastfm/LastFmServiceSettings.cpp:100
 msgid "Testing..."
 msgstr "Probando..."
@@ -8597,6 +8587,16 @@ msgstr "Nun se puede obtener información de Flickr.com "
 #. i18n: ectx: property (text), widget (QPushButton, testLogin)
 #: services/lastfm/LastFmServiceSettings.cpp:220 rc.cpp:2318
 msgid "&Test Login"
+msgstr ""
+
+#: services/lastfm/LastFmServiceConfig.cpp:143
+msgid "Last.fm credentials"
+msgstr "Credenciales de last.fm"
+
+#: services/lastfm/LastFmServiceConfig.cpp:144
+msgid ""
+"No running KWallet found. Would you like Amarok to save your Last.fm "
+"credentials in plaintext?"
 msgstr ""
 
 #: services/magnatune/MagnatuneAlbumDownloader.cpp:68
