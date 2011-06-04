@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-31 04:24+0200\n"
+"POT-Creation-Date: 2011-06-04 04:11+0200\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -18,44 +18,6 @@ msgstr ""
 "X-Launchpad-Export-Date: 2009-10-22 22:18+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Language: asturian\n"
-
-#: app/documentpanel.cpp:273
-#, fuzzy
-#| msgctxt "Verb"
-#| msgid "Trash"
-msgid "Trash"
-msgstr "Papelera"
-
-#: app/documentpanel.cpp:274
-#, fuzzy
-#| msgid "Delete"
-msgid "Deselect"
-msgstr "Desaniciar"
-
-#: app/documentpanel.cpp:304 app/documentpanel.cpp:422
-msgid "Synchronize"
-msgstr ""
-
-#: app/documentpanel.cpp:410 app/thumbnailviewpanel.cpp:108
-#: app/mainwindow.cpp:312 lib/documentview/documentviewcontroller.cpp:56
-msgctxt "@title actions category - means actions changing smth in interface"
-msgid "View"
-msgstr "Ver"
-
-#: app/documentpanel.cpp:413
-msgid "Thumbnail Bar"
-msgstr "Barra de miniatures"
-
-#: app/documentpanel.cpp:681
-msgctxt "@action:button"
-msgid "Discard Changes and Reload"
-msgstr "Descartar cambeos y volver a cargar"
-
-#: app/documentpanel.cpp:683
-msgctxt "@info"
-msgid ""
-"This image has been modified. Reloading it will discard all your changes."
-msgstr "Esta imaxe modificóse. Si vuelves a cargala perderánse los cambeos."
 
 #: app/fileoperations.cpp:57
 #, fuzzy
@@ -125,8 +87,8 @@ msgstr "Renomar <filename>%1</filename> a:"
 msgid "File Operations"
 msgstr "Operaciones con ficheros"
 
-#: app/fileopscontextmanageritem.cpp:176 app/thumbnailviewpanel.cpp:147
-#: app/mainwindow.cpp:311
+#: app/fileopscontextmanageritem.cpp:176 app/mainwindow.cpp:311
+#: app/thumbnailviewpanel.cpp:147
 msgctxt "@title actions category"
 msgid "File"
 msgstr "Ficheru"
@@ -240,6 +202,45 @@ msgstr[1] "%1 ficheros"
 msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
 msgid "%1 and %2 selected"
 msgstr "%1 y %2 esbillaos"
+
+#: app/documentpanel.cpp:273
+#, fuzzy
+#| msgctxt "Verb"
+#| msgid "Trash"
+msgid "Trash"
+msgstr "Papelera"
+
+#: app/documentpanel.cpp:274
+#, fuzzy
+#| msgid "Delete"
+msgid "Deselect"
+msgstr "Desaniciar"
+
+#: app/documentpanel.cpp:304 app/documentpanel.cpp:421
+msgid "Synchronize"
+msgstr ""
+
+#: app/documentpanel.cpp:409 app/mainwindow.cpp:312
+#: app/thumbnailviewpanel.cpp:108
+#: lib/documentview/documentviewcontroller.cpp:56
+msgctxt "@title actions category - means actions changing smth in interface"
+msgid "View"
+msgstr "Ver"
+
+#: app/documentpanel.cpp:412
+msgid "Thumbnail Bar"
+msgstr "Barra de miniatures"
+
+#: app/documentpanel.cpp:679
+msgctxt "@action:button"
+msgid "Discard Changes and Reload"
+msgstr "Descartar cambeos y volver a cargar"
+
+#: app/documentpanel.cpp:681
+msgctxt "@info"
+msgid ""
+"This image has been modified. Reloading it will discard all your changes."
+msgstr "Esta imaxe modificóse. Si vuelves a cargala perderánse los cambeos."
 
 #: app/filtercontroller.cpp:124
 msgid "Name contains"
@@ -478,6 +479,129 @@ msgstr "Dir a ella"
 msgid "Save All"
 msgstr "Grabar too"
 
+#: app/mainwindow.cpp:321
+msgctxt "@action reload the currently viewed image"
+msgid "Reload"
+msgstr "Recargar"
+
+#: app/mainwindow.cpp:327
+msgctxt "@action Switch to file list"
+msgid "Browse"
+msgstr "Esplorar"
+
+#: app/mainwindow.cpp:332
+msgctxt "@action Switch to image view"
+msgid "View"
+msgstr "Ver"
+
+#: app/mainwindow.cpp:349
+msgctxt "@action Go back to a more general page (start page <- list <- image)"
+msgid "Back"
+msgstr "Atrás"
+
+#: app/mainwindow.cpp:354
+msgctxt "@action Go to previous image"
+msgid "Previous"
+msgstr "Anterior"
+
+#: app/mainwindow.cpp:355
+msgid "Go to Previous Image"
+msgstr "Dir a la imaxe anterior"
+
+#: app/mainwindow.cpp:360
+msgctxt "@action Go to next image"
+msgid "Next"
+msgstr "Siguiente"
+
+#: app/mainwindow.cpp:361
+msgid "Go to Next Image"
+msgstr "Dir a la imaxe siguiente"
+
+#: app/mainwindow.cpp:365
+msgctxt "@action Go to first image"
+msgid "First"
+msgstr "Primera"
+
+#: app/mainwindow.cpp:366
+msgid "Go to First Image"
+msgstr "Dir a la primer imaxe"
+
+#: app/mainwindow.cpp:370
+msgctxt "@action Go to last image"
+msgid "Last"
+msgstr "Cabera"
+
+#: app/mainwindow.cpp:371
+msgid "Go to Last Image"
+msgstr "Dir a la cabera imaxe"
+
+#: app/mainwindow.cpp:378
+msgctxt "@action"
+msgid "Start Page"
+msgstr "Páxina d'aniciu"
+
+#: app/mainwindow.cpp:385
+msgctxt "@action"
+msgid "Sidebar"
+msgstr "Barra llateral"
+
+#: app/mainwindow.cpp:415
+msgctxt "@title actions category - means actions changing smth in interface"
+msgid "Edit"
+msgstr "Editar"
+
+#: app/mainwindow.cpp:420
+msgid "Redo"
+msgstr "Refacer"
+
+#: app/mainwindow.cpp:427
+msgid "Undo"
+msgstr "Desfacer"
+
+#: app/mainwindow.cpp:473
+msgid "Folders"
+msgstr "Carpetes"
+
+#: app/mainwindow.cpp:479
+msgid "Information"
+msgstr "Información"
+
+#: app/mainwindow.cpp:490
+msgid "Operations"
+msgstr "Operaciones"
+
+#: app/mainwindow.cpp:1278
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Abrir imaxe"
+
+#: app/mainwindow.cpp:1332
+msgid "Stop Slideshow"
+msgstr "Parar presentación"
+
+#: app/mainwindow.cpp:1335
+msgid "Start Slideshow"
+msgstr "Aniciar presentación"
+
+#: app/mainwindow.cpp:1349
+msgid "Save All Changes"
+msgstr "Guardar tolos cambeos"
+
+#: app/mainwindow.cpp:1350
+msgid "Discard Changes"
+msgstr "Descartar los cambeos"
+
+#: app/mainwindow.cpp:1351
+#, kde-format
+msgid "One image has been modified."
+msgid_plural "%1 images have been modified."
+msgstr[0] "Modificóse una imaxe."
+msgstr[1] "Modificáronse %1 imáxenes."
+
+#: app/mainwindow.cpp:1353
+msgid "If you quit now, your changes will be lost."
+msgstr "Si cueles agora, perderánse los tos cambeos."
+
 #: app/startpage.cpp:278
 msgid "Add to Places"
 msgstr "Amestar a Llugares"
@@ -707,129 +831,6 @@ msgstr "Vista d'imaxe"
 #: app/configdialog.cpp:96
 msgid "Advanced"
 msgstr "Avanzáu"
-
-#: app/mainwindow.cpp:321
-msgctxt "@action reload the currently viewed image"
-msgid "Reload"
-msgstr "Recargar"
-
-#: app/mainwindow.cpp:327
-msgctxt "@action Switch to file list"
-msgid "Browse"
-msgstr "Esplorar"
-
-#: app/mainwindow.cpp:332
-msgctxt "@action Switch to image view"
-msgid "View"
-msgstr "Ver"
-
-#: app/mainwindow.cpp:349
-msgctxt "@action Go back to a more general page (start page <- list <- image)"
-msgid "Back"
-msgstr "Atrás"
-
-#: app/mainwindow.cpp:354
-msgctxt "@action Go to previous image"
-msgid "Previous"
-msgstr "Anterior"
-
-#: app/mainwindow.cpp:355
-msgid "Go to Previous Image"
-msgstr "Dir a la imaxe anterior"
-
-#: app/mainwindow.cpp:360
-msgctxt "@action Go to next image"
-msgid "Next"
-msgstr "Siguiente"
-
-#: app/mainwindow.cpp:361
-msgid "Go to Next Image"
-msgstr "Dir a la imaxe siguiente"
-
-#: app/mainwindow.cpp:365
-msgctxt "@action Go to first image"
-msgid "First"
-msgstr "Primera"
-
-#: app/mainwindow.cpp:366
-msgid "Go to First Image"
-msgstr "Dir a la primer imaxe"
-
-#: app/mainwindow.cpp:370
-msgctxt "@action Go to last image"
-msgid "Last"
-msgstr "Cabera"
-
-#: app/mainwindow.cpp:371
-msgid "Go to Last Image"
-msgstr "Dir a la cabera imaxe"
-
-#: app/mainwindow.cpp:378
-msgctxt "@action"
-msgid "Start Page"
-msgstr "Páxina d'aniciu"
-
-#: app/mainwindow.cpp:385
-msgctxt "@action"
-msgid "Sidebar"
-msgstr "Barra llateral"
-
-#: app/mainwindow.cpp:415
-msgctxt "@title actions category - means actions changing smth in interface"
-msgid "Edit"
-msgstr "Editar"
-
-#: app/mainwindow.cpp:420
-msgid "Redo"
-msgstr "Refacer"
-
-#: app/mainwindow.cpp:427
-msgid "Undo"
-msgstr "Desfacer"
-
-#: app/mainwindow.cpp:473
-msgid "Folders"
-msgstr "Carpetes"
-
-#: app/mainwindow.cpp:479
-msgid "Information"
-msgstr "Información"
-
-#: app/mainwindow.cpp:490
-msgid "Operations"
-msgstr "Operaciones"
-
-#: app/mainwindow.cpp:1278
-msgctxt "@title:window"
-msgid "Open Image"
-msgstr "Abrir imaxe"
-
-#: app/mainwindow.cpp:1332
-msgid "Stop Slideshow"
-msgstr "Parar presentación"
-
-#: app/mainwindow.cpp:1335
-msgid "Start Slideshow"
-msgstr "Aniciar presentación"
-
-#: app/mainwindow.cpp:1349
-msgid "Save All Changes"
-msgstr "Guardar tolos cambeos"
-
-#: app/mainwindow.cpp:1350
-msgid "Discard Changes"
-msgstr "Descartar los cambeos"
-
-#: app/mainwindow.cpp:1351
-#, kde-format
-msgid "One image has been modified."
-msgid_plural "%1 images have been modified."
-msgstr[0] "Modificóse una imaxe."
-msgstr[1] "Modificáronse %1 imáxenes."
-
-#: app/mainwindow.cpp:1353
-msgid "If you quit now, your changes will be lost."
-msgstr "Si cueles agora, perderánse los tos cambeos."
 
 #: importer/filenameformater.cpp:102
 msgid "Shooting date"
