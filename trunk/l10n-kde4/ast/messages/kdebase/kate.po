@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-01 03:56+0200\n"
+"POT-Creation-Date: 2011-06-06 04:01+0200\n"
 "PO-Revision-Date: 2010-10-24 00:11+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -1140,12 +1140,12 @@ msgstr ""
 msgid "Close all documents"
 msgstr "Zarrar tolos documentos"
 
-#: app/katemainwindow.cpp:436 app/katedocmanager.cpp:538
+#: app/katemainwindow.cpp:436 app/katedocmanager.cpp:545
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr ""
 "Abrióse un nuevu ficheru cuando trataba de zarrar Kate; encaboxóse'l zarru."
 
-#: app/katemainwindow.cpp:437 app/katedocmanager.cpp:539
+#: app/katemainwindow.cpp:437 app/katedocmanager.cpp:546
 msgid "Closing Aborted"
 msgstr "Zarru encaboxáu"
 
@@ -1335,60 +1335,6 @@ msgstr "Los ficheros son idénticos, esceutu por cambeos n'espacios en blanco."
 msgid "Diff Output"
 msgstr "Salida de «diff»"
 
-#: app/katesavemodifieddialog.cpp:92
-#, kde-format
-msgid "Save As (%1)"
-msgstr "Guardar como (%1)"
-
-#: app/katesavemodifieddialog.cpp:164
-msgid "Save Documents"
-msgstr "Guardar documentos"
-
-#: app/katesavemodifieddialog.cpp:170
-msgid "&Save Selected"
-msgstr "Guardar &esbilláu"
-
-#: app/katesavemodifieddialog.cpp:178
-msgid "Do &Not Close"
-msgstr "&Non zarrar"
-
-#: app/katesavemodifieddialog.cpp:185
-msgid ""
-"<qt>The following documents have been modified. Do you want to save them "
-"before closing?</qt>"
-msgstr ""
-"<qt>Los siguiente documentos camudaron. ¿Quies guardalos enantes de zarrar?</"
-"qt>"
-
-#: app/katesavemodifieddialog.cpp:190
-msgid "Title"
-msgstr "Títulu"
-
-#: app/katesavemodifieddialog.cpp:190
-msgid "Location"
-msgstr "Allugamientu"
-
-#: app/katesavemodifieddialog.cpp:196
-msgid "Projects"
-msgstr "Proyeutos"
-
-#: app/katesavemodifieddialog.cpp:202
-#: plugins/filetree/katefiletreeplugin.cpp:155
-msgid "Documents"
-msgstr "Documentos"
-
-#: app/katesavemodifieddialog.cpp:218
-msgid "Se&lect All"
-msgstr "Se&leicionar too"
-
-#: app/katesavemodifieddialog.cpp:279
-msgid ""
-"Data you requested to be saved could not be written. Please choose how you "
-"want to proceed."
-msgstr ""
-"Los datos que vusté solicitó guardar nun pudieron escribise. Escueyi lo que "
-"quies facer."
-
 #: app/katesession.cpp:269
 msgid ""
 "Internal error: there is more than one instance open for a given session."
@@ -1514,48 +1460,6 @@ msgstr " LLINIA "
 msgid " BLOCK "
 msgstr " BLOQUE "
 
-#: app/katedocmanager.cpp:359
-#, kde-format
-msgid ""
-"The supposedly temporary file %1 has been modified. Do you want to delete it "
-"anyway?"
-msgstr ""
-"El teóricamente ficheru temporal «%1» camudóse. ¿Quies desanicialu de toes "
-"formes?"
-
-#: app/katedocmanager.cpp:361
-msgid "Delete File?"
-msgstr "¿Desaniciar ficheru?"
-
-#: app/katedocmanager.cpp:503
-#, kde-format
-msgid ""
-"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
-"save your changes or discard them?</p>"
-msgstr ""
-"<p>El documentu «%1» camudó, magar que nun s'atroxó.</p><p>¿Quies guardar los "
-"cambeos, o descartalos?</p>"
-
-#: app/katedocmanager.cpp:505
-msgid "Close Document"
-msgstr "Zarrar documentu"
-
-#: app/katedocmanager.cpp:512
-msgid "Save As"
-msgstr "Guardar como"
-
-#: app/katedocmanager.cpp:612
-msgid "Starting Up"
-msgstr "Aniciando"
-
-#: app/katedocmanager.cpp:613
-msgid "Reopening files from the last session..."
-msgstr "Reabriendo ficheros de la cabera sesión..."
-
-#: app/katedocmanager.cpp:819
-msgid "Errors/Warnings while opening documents"
-msgstr "Fallos/avisos al abrir documentos"
-
 #: app/kateviewmanager.cpp:120
 msgid "Split Ve&rtical"
 msgstr "Dixebr&ar verticalmente"
@@ -1633,6 +1537,100 @@ msgstr "Activa la siguiente vista dixebrada."
 #: app/kateviewmanager.cpp:207
 msgid "Open File"
 msgstr "Abrir ficheru"
+
+#: app/katedocmanager.cpp:69
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation."
+msgstr ""
+
+#: app/katedocmanager.cpp:366
+#, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
+msgstr ""
+"El teóricamente ficheru temporal «%1» camudóse. ¿Quies desanicialu de toes "
+"formes?"
+
+#: app/katedocmanager.cpp:368
+msgid "Delete File?"
+msgstr "¿Desaniciar ficheru?"
+
+#: app/katedocmanager.cpp:510
+#, kde-format
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr ""
+"<p>El documentu «%1» camudó, magar que nun s'atroxó.</p><p>¿Quies guardar los "
+"cambeos, o descartalos?</p>"
+
+#: app/katedocmanager.cpp:512
+msgid "Close Document"
+msgstr "Zarrar documentu"
+
+#: app/katedocmanager.cpp:519
+msgid "Save As"
+msgstr "Guardar como"
+
+#: app/katedocmanager.cpp:619
+msgid "Starting Up"
+msgstr "Aniciando"
+
+#: app/katedocmanager.cpp:620
+msgid "Reopening files from the last session..."
+msgstr "Reabriendo ficheros de la cabera sesión..."
+
+#: app/katedocmanager.cpp:826
+msgid "Errors/Warnings while opening documents"
+msgstr "Fallos/avisos al abrir documentos"
+
+#: app/katesavemodifieddialog.cpp:91
+#, kde-format
+msgid "Save As (%1)"
+msgstr "Guardar como (%1)"
+
+#: app/katesavemodifieddialog.cpp:163
+msgid "Save Documents"
+msgstr "Guardar documentos"
+
+#: app/katesavemodifieddialog.cpp:169
+msgid "&Save Selected"
+msgstr "Guardar &esbilláu"
+
+#: app/katesavemodifieddialog.cpp:177
+msgid "Do &Not Close"
+msgstr "&Non zarrar"
+
+#: app/katesavemodifieddialog.cpp:184
+msgid ""
+"<qt>The following documents have been modified. Do you want to save them "
+"before closing?</qt>"
+msgstr ""
+"<qt>Los siguiente documentos camudaron. ¿Quies guardalos enantes de zarrar?</"
+"qt>"
+
+#: app/katesavemodifieddialog.cpp:187
+#: plugins/filetree/katefiletreeplugin.cpp:155
+msgid "Documents"
+msgstr "Documentos"
+
+#: app/katesavemodifieddialog.cpp:187
+msgid "Location"
+msgstr "Allugamientu"
+
+#: app/katesavemodifieddialog.cpp:196
+msgid "Se&lect All"
+msgstr "Se&leicionar too"
+
+#: app/katesavemodifieddialog.cpp:247
+msgid ""
+"Data you requested to be saved could not be written. Please choose how you "
+"want to proceed."
+msgstr ""
+"Los datos que vusté solicitó guardar nun pudieron escribise. Escueyi lo que "
+"quies facer."
 
 #: plugins/filetree/katefiletreeconfigpage.cpp:60
 msgid "Background Shading"
@@ -1769,6 +1767,12 @@ msgstr ""
 #: plugins/filetree/katefiletree.cpp:187
 msgid "Sort By"
 msgstr "Axeitar por"
+
+#~ msgid "Title"
+#~ msgstr "Títulu"
+
+#~ msgid "Projects"
+#~ msgstr "Proyeutos"
 
 #~ msgid "&Go"
 #~ msgstr "&Dir"
