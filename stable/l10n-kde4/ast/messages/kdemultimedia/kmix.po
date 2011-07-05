@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdemultimedia\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-17 04:17+0200\n"
+"POT-Creation-Date: 2011-07-05 05:16+0200\n"
 "PO-Revision-Date: 2010-10-19 22:52+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -233,6 +233,10 @@ msgstr "Canales visibles"
 msgid "Mixer"
 msgstr "Entemecedor"
 
+#: core/mixdevice.cpp:112 backends/mixer_oss.cpp:67 backends/mixer_oss.cpp:68
+msgid "unknown"
+msgstr "desconocíu"
+
 #: core/mixertoolbox.cpp:204
 msgid "Sound drivers supported:"
 msgstr "Controladores de soníu aceutaos:"
@@ -240,10 +244,6 @@ msgstr "Controladores de soníu aceutaos:"
 #: core/mixertoolbox.cpp:205
 msgid "Sound drivers used:"
 msgstr "Controladores de soníu usaos:"
-
-#: core/mixdevice.cpp:112 backends/mixer_oss.cpp:67 backends/mixer_oss.cpp:68
-msgid "unknown"
-msgstr "desconocíu"
 
 #: apps/main.cpp:33
 msgid "KMix - KDE's full featured mini mixer"
@@ -670,6 +670,20 @@ msgstr ""
 msgid "kmix: Unknown error. Please report how you produced this error."
 msgstr "KMix: Fallu desconocíu. Informe sobro cómo se fexo esti fallu."
 
+#: backends/mixer_oss4.cpp:495
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+"On Linux you might need to use 'insmod' to load the driver.\n"
+"Use 'soundon' when using OSS4 from 4front."
+msgstr ""
+"KMix: nun pudo alcontrase l'entemecedor.\n"
+"Compruebe que la tarxeta de soníu ta instalada y el \n"
+"controlador de soníu ta cargáu.\n"
+"En Linux, puede necesitar usar «insmod» pa cargar el controlador.\n"
+"Use «soundon» si ta usando la versión comercial de OSS."
+
 #: backends/mixer_pulse.cpp:318 backends/mixer_pulse.cpp:377
 msgid "Unknown Application"
 msgstr ""
@@ -697,20 +711,6 @@ msgstr ""
 #| msgid "Capture"
 msgid "Capture Streams"
 msgstr "Capturar"
-
-#: backends/mixer_oss4.cpp:495
-msgid ""
-"kmix: Mixer cannot be found.\n"
-"Please check that the soundcard is installed and the\n"
-"soundcard driver is loaded.\n"
-"On Linux you might need to use 'insmod' to load the driver.\n"
-"Use 'soundon' when using OSS4 from 4front."
-msgstr ""
-"KMix: nun pudo alcontrase l'entemecedor.\n"
-"Compruebe que la tarxeta de soníu ta instalada y el \n"
-"controlador de soníu ta cargáu.\n"
-"En Linux, puede necesitar usar «insmod» pa cargar el controlador.\n"
-"Use «soundon» si ta usando la versión comercial de OSS."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

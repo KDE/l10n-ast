@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktouch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-12 04:07+0200\n"
+"POT-Creation-Date: 2011-07-05 04:29+0200\n"
 "PO-Revision-Date: 2010-10-19 22:38+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -1338,7 +1338,7 @@ msgstr "Triba de caráuter"
 #. i18n: ectx: property (text), widget (QRadioButton, correctRadio)
 #. i18n: file: src/ui/ktouchstatuswidget.ui:206
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox12)
-#: rc.cpp:700 rc.cpp:754 src/ktouchstatisticsdialog.cpp:392
+#: rc.cpp:700 rc.cpp:772 src/ktouchstatisticsdialog.cpp:392
 msgid "Correctness"
 msgstr "Correición"
 
@@ -1394,21 +1394,57 @@ msgstr ""
 msgid "Clear History"
 msgstr "Llimpiar hestorial"
 
+#. i18n: file: src/ui/ktouchusersetupdialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, KTouchUserSetupDialog)
+#: rc.cpp:730
+msgid "Setup Users"
+msgstr "Configurar usuarios"
+
+#. i18n: file: src/ui/ktouchusersetupdialog.ui:39
+#. i18n: ectx: property (text), widget (KPushButton, addBtn)
+#: rc.cpp:733
+msgid "&Add"
+msgstr "&Amestar"
+
+#. i18n: file: src/ui/ktouchusersetupdialog.ui:42
+#. i18n: ectx: property (shortcut), widget (KPushButton, addBtn)
+#: rc.cpp:736
+msgid "Ins, Alt+A"
+msgstr "Ins, Alt+A"
+
+#. i18n: file: src/ui/ktouchusersetupdialog.ui:49
+#. i18n: ectx: property (text), widget (KPushButton, removeBtn)
+#: rc.cpp:739
+msgid "&Remove"
+msgstr "&Desaniciar"
+
+#. i18n: file: src/ui/ktouchusersetupdialog.ui:52
+#. i18n: ectx: property (shortcut), widget (KPushButton, removeBtn)
+#: rc.cpp:742
+msgid "Del, Alt+R"
+msgstr "Supr, Alt+R"
+
+#. i18n: file: src/ui/ktouchusersetupdialog.ui:75
+#. i18n: ectx: property (text), widget (KPushButton, closeBtn)
+#: rc.cpp:745
+msgid "&Close"
+msgstr "&Zarrar"
+
 #. i18n: file: src/ui/ktouchstatuswidget.ui:29
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: rc.cpp:730
+#: rc.cpp:748
 msgid "Level"
 msgstr "Nivel"
 
 #. i18n: file: src/ui/ktouchstatuswidget.ui:41
 #. i18n: ectx: property (toolTip), widget (QLCDNumber, levelLCD)
-#: rc.cpp:733
+#: rc.cpp:751
 msgid "Current level"
 msgstr "Nivel actual"
 
 #. i18n: file: src/ui/ktouchstatuswidget.ui:44
 #. i18n: ectx: property (whatsThis), widget (QLCDNumber, levelLCD)
-#: rc.cpp:736
+#: rc.cpp:754
 msgid "This shows which level you are at."
 msgstr "Amuesa en qué nivel s'alcuentra."
 
@@ -1416,25 +1452,25 @@ msgstr "Amuesa en qué nivel s'alcuentra."
 #. i18n: ectx: property (text), widget (QToolButton, levelUpBtn)
 #. i18n: file: src/ui/ktouchstatuswidget.ui:90
 #. i18n: ectx: property (text), widget (QToolButton, levelDownBtn)
-#: rc.cpp:739 rc.cpp:742
+#: rc.cpp:757 rc.cpp:760
 msgid "..."
 msgstr ""
 
 #. i18n: file: src/ui/ktouchstatuswidget.ui:114
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox11)
-#: rc.cpp:745
+#: rc.cpp:763
 msgid "Speed"
 msgstr "Velocidá"
 
 #. i18n: file: src/ui/ktouchstatuswidget.ui:178
 #. i18n: ectx: property (toolTip), widget (QLCDNumber, speedLCD)
-#: rc.cpp:748
+#: rc.cpp:766
 msgid "Characters/Minute"
 msgstr "Carauteres/Minutu"
 
 #. i18n: file: src/ui/ktouchstatuswidget.ui:181
 #. i18n: ectx: property (whatsThis), widget (QLCDNumber, speedLCD)
-#: rc.cpp:751
+#: rc.cpp:769
 msgid ""
 "This shows how fast you are typing. It measures the typing speed in "
 "characters per minute."
@@ -1444,63 +1480,27 @@ msgstr ""
 
 #. i18n: file: src/ui/ktouchstatuswidget.ui:267
 #. i18n: ectx: property (toolTip), widget (QProgressBar, correctnessBar)
-#: rc.cpp:757
+#: rc.cpp:775
 msgid "How much are you typing correctly?"
 msgstr "¿Cuánto tecleó correutamente?"
 
 #. i18n: file: src/ui/ktouchstatuswidget.ui:270
 #. i18n: ectx: property (whatsThis), widget (QProgressBar, correctnessBar)
-#: rc.cpp:760
+#: rc.cpp:778
 msgid "This shows how correctly you are typing."
 msgstr "Amuesa cuán correutamente tecleó."
 
 #. i18n: file: src/ui/ktouchstatuswidget.ui:289
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
-#: rc.cpp:763
+#: rc.cpp:781
 msgid "New Characters in This Level"
 msgstr "Carauteres nuevos nesti nivel"
 
 #. i18n: file: src/ui/ktouchstatuswidget.ui:312
 #. i18n: ectx: property (text), widget (QLabel, newCharsLabel)
-#: rc.cpp:766
+#: rc.cpp:784
 msgid "new characters"
 msgstr "carauteres nuevos"
-
-#. i18n: file: src/ui/ktouchusersetupdialog.ui:13
-#. i18n: ectx: property (windowTitle), widget (QDialog, KTouchUserSetupDialog)
-#: rc.cpp:769
-msgid "Setup Users"
-msgstr "Configurar usuarios"
-
-#. i18n: file: src/ui/ktouchusersetupdialog.ui:39
-#. i18n: ectx: property (text), widget (KPushButton, addBtn)
-#: rc.cpp:772
-msgid "&Add"
-msgstr "&Amestar"
-
-#. i18n: file: src/ui/ktouchusersetupdialog.ui:42
-#. i18n: ectx: property (shortcut), widget (KPushButton, addBtn)
-#: rc.cpp:775
-msgid "Ins, Alt+A"
-msgstr "Ins, Alt+A"
-
-#. i18n: file: src/ui/ktouchusersetupdialog.ui:49
-#. i18n: ectx: property (text), widget (KPushButton, removeBtn)
-#: rc.cpp:778
-msgid "&Remove"
-msgstr "&Desaniciar"
-
-#. i18n: file: src/ui/ktouchusersetupdialog.ui:52
-#. i18n: ectx: property (shortcut), widget (KPushButton, removeBtn)
-#: rc.cpp:781
-msgid "Del, Alt+R"
-msgstr "Supr, Alt+R"
-
-#. i18n: file: src/ui/ktouchusersetupdialog.ui:75
-#. i18n: ectx: property (text), widget (KPushButton, closeBtn)
-#: rc.cpp:784
-msgid "&Close"
-msgstr "&Zarrar"
 
 #. i18n: file: src/ktouch.kcfg:9
 #. i18n: ectx: label, entry (CurrentColorScheme), group (Colors)
@@ -1949,25 +1949,25 @@ msgctxt "Lesson Name"
 msgid "Ukrainian"
 msgstr "Ucranianu"
 
-#. i18n: file: training/german.ktouch.xml:3
-#: rc.cpp:975
-msgctxt "Lesson Name"
-msgid "German (in 9 levels)"
-msgstr "Alemán (en 9 niveles)"
-
-#. i18n: file: training/german.neo2.ktouch.xml:3
-#: rc.cpp:977
-msgctxt "Lesson Name"
-msgid "German (Neo 2 keyboard layout)"
-msgstr "Alemán (Neo 2 keyboard layout)"
-
 #. i18n: file: training/german.dvorak.type2.ktouch.xml:3
-#: rc.cpp:979
+#: rc.cpp:975
 #, fuzzy
 #| msgctxt "Lesson Name"
 #| msgid "German (Neo 2 keyboard layout)"
 msgctxt "Lesson Name"
 msgid "German (Dvorak keyboard layout)"
+msgstr "Alemán (Neo 2 keyboard layout)"
+
+#. i18n: file: training/german.ktouch.xml:3
+#: rc.cpp:977
+msgctxt "Lesson Name"
+msgid "German (in 9 levels)"
+msgstr "Alemán (en 9 niveles)"
+
+#. i18n: file: training/german.neo2.ktouch.xml:3
+#: rc.cpp:979
+msgctxt "Lesson Name"
+msgid "German (Neo 2 keyboard layout)"
 msgstr "Alemán (Neo 2 keyboard layout)"
 
 #. i18n: file: training/german2.ktouch.xml:3
@@ -1988,47 +1988,38 @@ msgctxt "Keyboard Layout Name"
 msgid "Arabic"
 msgstr ""
 
-#. i18n: file: keyboards/bg.keyboard.xml:3
-#: rc.cpp:987
-#, fuzzy
-#| msgctxt "Lesson Name"
-#| msgid "Hungarian (auto-generated)"
-msgctxt "Keyboard Layout Name"
-msgid "Bulgarian"
-msgstr "Húngaru (xeneráu automáticamente)"
-
 #. i18n: file: keyboards/colemak.keyboard.xml:3
-#: rc.cpp:989
+#: rc.cpp:987
 msgctxt "Keyboard Layout Name"
 msgid "English Colemak"
 msgstr "Colemak inglés"
 
 #. i18n: file: keyboards/cs.qwerty.keyboard.xml:3
-#: rc.cpp:991
+#: rc.cpp:989
 msgctxt "Keyboard Layout Name"
 msgid "Czech qwerty"
 msgstr ""
 
 #. i18n: file: keyboards/cs.qwertz.keyboard.xml:3
-#: rc.cpp:993
+#: rc.cpp:991
 msgctxt "Keyboard Layout Name"
 msgid "Czech qwertz"
 msgstr ""
 
 #. i18n: file: keyboards/de.dvorak.type2.keyboard.xml:3
-#: rc.cpp:995
+#: rc.cpp:993
 msgctxt "Keyboard Layout Name"
 msgid "German Dvorak Type II"
 msgstr ""
 
 #. i18n: file: keyboards/de.keyboard.xml:3
-#: rc.cpp:997
+#: rc.cpp:995
 msgctxt "Keyboard Layout Name"
 msgid "German"
 msgstr "Alemán"
 
 #. i18n: file: keyboards/de.neo2.all.keyboard.xml:3
-#: rc.cpp:999
+#: rc.cpp:997
 #, fuzzy
 #| msgctxt "Keyboard Layout Name"
 #| msgid "German"
@@ -2037,7 +2028,7 @@ msgid "German Neo 2"
 msgstr "Alemán"
 
 #. i18n: file: keyboards/de_ch.keyboard.xml:3
-#: rc.cpp:1001
+#: rc.cpp:999
 #, fuzzy
 #| msgctxt "Lesson Name"
 #| msgid "German (in 9 levels)"
@@ -2046,19 +2037,13 @@ msgid "German (Swiss)"
 msgstr "Alemán (en 9 niveles)"
 
 #. i18n: file: keyboards/dk.keyboard.xml:3
-#: rc.cpp:1003
+#: rc.cpp:1001
 msgctxt "Keyboard Layout Name"
 msgid "Danish"
 msgstr "Danés"
 
-#. i18n: file: keyboards/ee.keyboard.xml:3
-#: rc.cpp:1005
-msgctxt "Keyboard Layout Name"
-msgid "Estonian"
-msgstr ""
-
 #. i18n: file: keyboards/el.keyboard.xml:3
-#: rc.cpp:1007
+#: rc.cpp:1003
 #, fuzzy
 #| msgctxt "Keyboard Layout Name"
 #| msgid "English"
@@ -2066,53 +2051,14 @@ msgctxt "Keyboard Layout Name"
 msgid "Greek (English)"
 msgstr "Inglés"
 
-#. i18n: file: keyboards/en.dvorak.keyboard.xml:3
-#: rc.cpp:1009
-msgctxt "Keyboard Layout Name"
-msgid "English Dvorak"
-msgstr "Dvorak inglés"
-
 #. i18n: file: keyboards/en.keyboard.xml:3
-#: rc.cpp:1011
+#: rc.cpp:1005
 msgctxt "Keyboard Layout Name"
 msgid "English"
 msgstr "Inglés"
 
-#. i18n: file: keyboards/en_gb.dvorak.keyboard.xml:3
-#: rc.cpp:1013
-#, fuzzy
-#| msgctxt "Keyboard Layout Name"
-#| msgid "English Dvorak"
-msgctxt "Keyboard Layout Name"
-msgid "English Dvorak (United Kingdom)"
-msgstr "Dvorak inglés"
-
-#. i18n: file: keyboards/en_gb.qwerty.keyboard.xml:3
-#: rc.cpp:1015
-msgctxt "Keyboard Layout Name"
-msgid "English (United Kingdom)"
-msgstr ""
-
-#. i18n: file: keyboards/es.dvorak.keyboard.xml:3
-#: rc.cpp:1017
-#, fuzzy
-#| msgctxt "Keyboard Layout Name"
-#| msgid "English Dvorak"
-msgctxt "Keyboard Layout Name"
-msgid "Spanish Dvorak"
-msgstr "Dvorak inglés"
-
-#. i18n: file: keyboards/es.keyboard.xml:3
-#: rc.cpp:1019
-#, fuzzy
-#| msgctxt "Keyboard Layout Name"
-#| msgid "Danish"
-msgctxt "Keyboard Layout Name"
-msgid "Spanish"
-msgstr "Danés"
-
 #. i18n: file: keyboards/fi.keyboard.xml:3
-#: rc.cpp:1021
+#: rc.cpp:1007
 #, fuzzy
 #| msgctxt "Keyboard Layout Name"
 #| msgid "Swedish Keyboard"
@@ -2120,20 +2066,14 @@ msgctxt "Keyboard Layout Name"
 msgid "Finnish Keyboard"
 msgstr "Tecláu suecu"
 
-#. i18n: file: keyboards/fr.dvorak.keyboard.xml:3
-#: rc.cpp:1023
-msgctxt "Keyboard Layout Name"
-msgid "French Dvorak"
-msgstr "Dvorak francés"
-
 #. i18n: file: keyboards/fr.keyboard.xml:3
-#: rc.cpp:1025
+#: rc.cpp:1009
 msgctxt "Keyboard Layout Name"
 msgid "French"
 msgstr "Francés"
 
 #. i18n: file: keyboards/fr_ch.keyboard.xml:3
-#: rc.cpp:1027
+#: rc.cpp:1011
 #, fuzzy
 #| msgctxt "Keyboard Layout Name"
 #| msgid "French"
@@ -2142,13 +2082,13 @@ msgid "French Swiss"
 msgstr "Francés"
 
 #. i18n: file: keyboards/he.keyboard.xml:3
-#: rc.cpp:1029
+#: rc.cpp:1013
 msgctxt "Keyboard Layout Name"
 msgid "Hebrew"
 msgstr ""
 
 #. i18n: file: keyboards/hu.keyboard.xml:3
-#: rc.cpp:1031
+#: rc.cpp:1015
 #, fuzzy
 #| msgctxt "Lesson Name"
 #| msgid "Hungarian (auto-generated)"
@@ -2157,88 +2097,148 @@ msgid "Hungarian"
 msgstr "Húngaru (xeneráu automáticamente)"
 
 #. i18n: file: keyboards/it.keyboard.xml:3
-#: rc.cpp:1033
+#: rc.cpp:1017
 msgctxt "Keyboard Layout Name"
 msgid "Italian"
 msgstr "Italianu"
 
 #. i18n: file: keyboards/kn.keyboard.xml:3
-#: rc.cpp:1035
+#: rc.cpp:1019
 msgctxt "Keyboard Layout Name"
 msgid "Kannada"
 msgstr ""
 
 #. i18n: file: keyboards/lat.keyboard.xml:3
-#: rc.cpp:1037
+#: rc.cpp:1021
 msgctxt "Keyboard Layout Name"
 msgid "Latinoamerican"
 msgstr ""
 
-#. i18n: file: keyboards/lt.keyboard.xml:3
-#: rc.cpp:1039
-msgctxt "Keyboard Layout Name"
-msgid "Lithuanian standard"
-msgstr ""
-
 #. i18n: file: keyboards/no.keyboard.xml:3
-#: rc.cpp:1041
+#: rc.cpp:1023
 msgctxt "Keyboard Layout Name"
 msgid "Norwegian"
 msgstr "Noruegu"
 
-#. i18n: file: keyboards/pt.br.keyboard.xml:3
-#: rc.cpp:1043
-#, fuzzy
-#| msgctxt "Lesson Name"
-#| msgid "Ukrainian"
-msgctxt "Keyboard Layout Name"
-msgid "Brazilian"
-msgstr "Ucranianu"
-
 #. i18n: file: keyboards/qc.keyboard.xml:3
-#: rc.cpp:1045
+#: rc.cpp:1025
 msgctxt "Keyboard Layout Name"
 msgid "Québec"
 msgstr ""
 
 #. i18n: file: keyboards/ru-winkeys.keyboard.xml:3
 #. i18n: file: keyboards/ru.keyboard.xml:3
-#: rc.cpp:1047 rc.cpp:1049
+#: rc.cpp:1027 rc.cpp:1029
 msgctxt "Keyboard Layout Name"
 msgid "Russian"
 msgstr ""
 
 #. i18n: file: keyboards/sk.qwerty.keyboard.xml:3
-#: rc.cpp:1051
+#: rc.cpp:1031
 msgctxt "Keyboard Layout Name"
 msgid "Slovak qwerty"
 msgstr ""
 
 #. i18n: file: keyboards/sk.qwertz.keyboard.xml:3
-#: rc.cpp:1053
+#: rc.cpp:1033
 msgctxt "Keyboard Layout Name"
 msgid "Slovak qwertz"
 msgstr ""
 
 #. i18n: file: keyboards/sl.keyboard.xml:3
-#: rc.cpp:1055
+#: rc.cpp:1035
 msgctxt "Keyboard Layout Name"
 msgid "Slovenian"
 msgstr "Eslovenu"
 
 #. i18n: file: keyboards/sv.keyboard.xml:3
-#: rc.cpp:1057
+#: rc.cpp:1037
 msgctxt "Keyboard Layout Name"
 msgid "Swedish Keyboard"
 msgstr "Tecláu suecu"
 
 #. i18n: file: keyboards/uk.winkeys.keyboard.xml:3
-#: rc.cpp:1059
+#: rc.cpp:1039
 #, fuzzy
 #| msgctxt "Lesson Name"
 #| msgid "Ukrainian"
 msgctxt "Keyboard Layout Name"
 msgid "Ukrainian (winkeys)"
+msgstr "Ucranianu"
+
+#. i18n: file: keyboards/bg.keyboard.xml:3
+#: rc.cpp:1041
+#, fuzzy
+#| msgctxt "Lesson Name"
+#| msgid "Hungarian (auto-generated)"
+msgctxt "Keyboard Layout Name"
+msgid "Bulgarian"
+msgstr "Húngaru (xeneráu automáticamente)"
+
+#. i18n: file: keyboards/ee.keyboard.xml:3
+#: rc.cpp:1043
+msgctxt "Keyboard Layout Name"
+msgid "Estonian"
+msgstr ""
+
+#. i18n: file: keyboards/en.dvorak.keyboard.xml:3
+#: rc.cpp:1045
+msgctxt "Keyboard Layout Name"
+msgid "English Dvorak"
+msgstr "Dvorak inglés"
+
+#. i18n: file: keyboards/en_gb.dvorak.keyboard.xml:3
+#: rc.cpp:1047
+#, fuzzy
+#| msgctxt "Keyboard Layout Name"
+#| msgid "English Dvorak"
+msgctxt "Keyboard Layout Name"
+msgid "English Dvorak (United Kingdom)"
+msgstr "Dvorak inglés"
+
+#. i18n: file: keyboards/en_gb.qwerty.keyboard.xml:3
+#: rc.cpp:1049
+msgctxt "Keyboard Layout Name"
+msgid "English (United Kingdom)"
+msgstr ""
+
+#. i18n: file: keyboards/es.dvorak.keyboard.xml:3
+#: rc.cpp:1051
+#, fuzzy
+#| msgctxt "Keyboard Layout Name"
+#| msgid "English Dvorak"
+msgctxt "Keyboard Layout Name"
+msgid "Spanish Dvorak"
+msgstr "Dvorak inglés"
+
+#. i18n: file: keyboards/es.keyboard.xml:3
+#: rc.cpp:1053
+#, fuzzy
+#| msgctxt "Keyboard Layout Name"
+#| msgid "Danish"
+msgctxt "Keyboard Layout Name"
+msgid "Spanish"
+msgstr "Danés"
+
+#. i18n: file: keyboards/fr.dvorak.keyboard.xml:3
+#: rc.cpp:1055
+msgctxt "Keyboard Layout Name"
+msgid "French Dvorak"
+msgstr "Dvorak francés"
+
+#. i18n: file: keyboards/lt.keyboard.xml:3
+#: rc.cpp:1057
+msgctxt "Keyboard Layout Name"
+msgid "Lithuanian standard"
+msgstr ""
+
+#. i18n: file: keyboards/pt.br.keyboard.xml:3
+#: rc.cpp:1059
+#, fuzzy
+#| msgctxt "Lesson Name"
+#| msgid "Ukrainian"
+msgctxt "Keyboard Layout Name"
+msgid "Brazilian"
 msgstr "Ucranianu"
 
 #: src/ktouchcoloreditordialog.cpp:101 src/ktouchcoloreditordialog.cpp:153
