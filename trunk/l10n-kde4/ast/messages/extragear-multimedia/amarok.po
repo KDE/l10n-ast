@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-09 03:57+0200\n"
+"POT-Creation-Date: 2011-07-11 04:42+0200\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -6752,7 +6752,7 @@ msgid ""
 "save are also shown here."
 msgstr ""
 
-#: browsers/servicebrowser/ServiceBrowser.cpp:44
+#: browsers/servicebrowser/ServiceBrowser.cpp:40
 msgid ""
 "The Internet browser lets you browse online sources of content that "
 "integrates directly into Amarok. Amarok ships with a number of these "
@@ -6798,10 +6798,6 @@ msgstr "Preseos de medios"
 #: browsers/BrowserBreadcrumbWidget.cpp:62
 msgid "Click For Location Navigation"
 msgstr ""
-
-#: browsers/BrowserCategoryList.cpp:52
-msgid "Filter Music Sources"
-msgstr "Peñerar oríxenes de música"
 
 #: browsers/BrowserDock.cpp:36
 #, fuzzy
@@ -6881,6 +6877,10 @@ msgstr "Añu"
 #: widgets/SmartPlaylistEditor.cpp:197
 msgid "Label"
 msgstr "Etiqueta"
+
+#: browsers/BrowserCategoryList.cpp:52
+msgid "Filter Music Sources"
+msgstr "Peñerar oríxenes de música"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:93
 msgctxt ""
@@ -8323,11 +8323,6 @@ msgstr "Reproduciendo: %1"
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: core-impl/collections/db/ScanResultProcessor.cpp:261
-msgctxt "The genre name for classical music"
-msgid "Classical"
-msgstr ""
-
 #: core-impl/collections/db/ScanManager.cpp:136
 msgid "Database import requested"
 msgstr ""
@@ -8396,6 +8391,11 @@ msgid ""
 msgstr ""
 "<p>Perdona, hebo que parar la esploración de la coleición</p><p>Hebo "
 "demasiaos fallos na esploración.</p>"
+
+#: core-impl/collections/db/ScanResultProcessor.cpp:261
+msgctxt "The genre name for classical music"
+msgid "Classical"
+msgstr ""
 
 #: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:292
 msgid "iPod was not initialized:"
@@ -14118,6 +14118,35 @@ msgstr "Reproducción"
 msgid "Pause"
 msgstr "En pausa"
 
+#: widgets/TrackSelectWidget.cpp:67
+#, fuzzy, kde-format
+#| msgctxt "track from source"
+#| msgid "from <b>%1</b>"
+msgid "Checkpoint: <b>%1</b>"
+msgstr "dende <b>%1</b>"
+
+#: widgets/TrackSelectWidget.cpp:87
+#, fuzzy, kde-format
+#| msgid "Trac&k:"
+msgid "Track: %1"
+msgstr "&Pista:"
+
+#: widgets/TrackSelectWidget.cpp:89
+#, fuzzy, kde-format
+#| msgid "Album:"
+msgid "Album: %1"
+msgstr "Álbum:"
+
+#: widgets/TrackSelectWidget.cpp:91
+#, fuzzy, kde-format
+#| msgid "Artist \"%1\""
+msgid "Artist: %1"
+msgstr "Artista «%1»"
+
+#: widgets/TrackSelectWidget.cpp:95
+msgid "empty"
+msgstr ""
+
 #: widgets/SmartPlaylistEditor.cpp:79
 msgid "Create Smart Playlist"
 msgstr "Criar llista de reproducción intelixente"
@@ -14304,35 +14333,6 @@ msgstr ""
 
 #: widgets/TokenWithLayout.cpp:253
 msgid "[suffix]"
-msgstr ""
-
-#: widgets/TrackSelectWidget.cpp:66
-#, fuzzy, kde-format
-#| msgctxt "track from source"
-#| msgid "from <b>%1</b>"
-msgid "Checkpoint: <b>%1</b>"
-msgstr "dende <b>%1</b>"
-
-#: widgets/TrackSelectWidget.cpp:86
-#, fuzzy, kde-format
-#| msgid "Trac&k:"
-msgid "Track: %1"
-msgstr "&Pista:"
-
-#: widgets/TrackSelectWidget.cpp:88
-#, fuzzy, kde-format
-#| msgid "Album:"
-msgid "Album: %1"
-msgstr "Álbum:"
-
-#: widgets/TrackSelectWidget.cpp:90
-#, fuzzy, kde-format
-#| msgid "Artist \"%1\""
-msgid "Artist: %1"
-msgstr "Artista «%1»"
-
-#: widgets/TrackSelectWidget.cpp:94
-msgid "empty"
 msgstr ""
 
 #: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340 TrayIcon.cpp:142
