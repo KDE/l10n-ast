@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-06 04:31+0200\n"
+"POT-Creation-Date: 2011-07-14 04:13+0200\n"
 "PO-Revision-Date: 2010-10-19 22:50+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <kde-l10n-es@kde.org>\n"
@@ -1290,6 +1290,58 @@ msgctxt "Layouted like: '5 [pages] of 10'"
 msgid "of"
 msgstr "de"
 
+#: ui/presentationwidget.cpp:142
+#, kde-format
+msgctxt "[document title/filename] – Presentation"
+msgid "%1 – Presentation"
+msgstr "%1 – Presentación"
+
+#: ui/presentationwidget.cpp:184
+msgid "Switch Screen"
+msgstr "Camudar pantalla"
+
+#: ui/presentationwidget.cpp:191
+#, kde-format
+msgctxt "%1 is the screen number (0, 1, ...)"
+msgid "Screen %1"
+msgstr "Pantalla %1"
+
+#: ui/presentationwidget.cpp:198
+msgid "Exit Presentation Mode"
+msgstr "Colar del mou de presentación"
+
+#: ui/presentationwidget.cpp:321
+#, kde-format
+msgid "Title: %1"
+msgstr "Títulu: %1"
+
+#: ui/presentationwidget.cpp:325
+#, kde-format
+msgid "Pages: %1"
+msgstr "Páxines: %1"
+
+#: ui/presentationwidget.cpp:326
+msgid "Click to begin"
+msgstr "Calca pa entamar"
+
+#: ui/presentationwidget.cpp:1275
+msgid ""
+"There are two ways of exiting presentation mode, you can press either ESC "
+"key or click with the quit button that appears when placing the mouse in the "
+"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
+msgstr ""
+"Existen dos formes de colar del mou de presentación: puedes calcar la tecla "
+"«Esc» o calcar el botón pa colar qu'aparez al situar el punteru del mur na "
+"esquina superior drecha. En cualisquier momentu puedes restolar a traviés de "
+"les ventanes abiertes (Alt+Tab de forma predeterminada)."
+
+#: ui/presentationwidget.cpp:1397
+msgctxt ""
+"Reason for inhibiting the screensaver activation, when the presentation mode "
+"is active"
+msgid "Giving a presentation"
+msgstr "Finar una presentación"
+
 #: ui/pageview.cpp:350
 msgid "Zoom"
 msgstr "Zoom"
@@ -1448,11 +1500,11 @@ msgstr[1] "Testu (%1 carauteres)"
 msgid "Copy to Clipboard"
 msgstr "Copiar nel cartafueyu"
 
-#: ui/pageview.cpp:2038 ui/pageview.cpp:2148
+#: ui/pageview.cpp:2038 ui/pageview.cpp:2147
 msgid "Copy forbidden by DRM"
 msgstr "Copia prohibida por DRM"
 
-#: ui/pageview.cpp:2041 ui/pageview.cpp:2144
+#: ui/pageview.cpp:2041 ui/pageview.cpp:2143
 msgid "Speak Text"
 msgstr "Falar testu"
 
@@ -1479,113 +1531,61 @@ msgstr "Ficheru non guardáu."
 msgid "Image [%1x%2] saved to %3 file."
 msgstr "Imaxe [%1x%2] guardada nel ficheru %3."
 
-#: ui/pageview.cpp:2141
+#: ui/pageview.cpp:2140
 msgid "Copy Text"
 msgstr "Copiar testu"
 
-#: ui/pageview.cpp:2792 part.cpp:1846
+#: ui/pageview.cpp:2791 part.cpp:1846
 msgid "Fit Width"
 msgstr "Axustar anchor"
 
-#: ui/pageview.cpp:2792
+#: ui/pageview.cpp:2791
 msgid "Fit Page"
 msgstr "Axustar páxina"
 
-#: ui/pageview.cpp:2909
+#: ui/pageview.cpp:2908
 msgid "Hide Forms"
 msgstr "Anubrir formularios"
 
-#: ui/pageview.cpp:2913
+#: ui/pageview.cpp:2912
 msgid "Show Forms"
 msgstr "Amosar formularios"
 
-#: ui/pageview.cpp:2957
+#: ui/pageview.cpp:2956
 #, fuzzy, kde-format
 #| msgid "Searching for %1"
 msgid "Search for '%1' with"
 msgstr "Guetando %1"
 
-#: ui/pageview.cpp:2972
+#: ui/pageview.cpp:2971
 #, fuzzy
 #| msgid "Configure Viewer..."
 msgid "Configure Web Shortcuts..."
 msgstr "Configurar visor..."
 
-#: ui/pageview.cpp:3388
+#: ui/pageview.cpp:3387
 msgid "Welcome"
 msgstr "Bienveníu"
 
-#: ui/pageview.cpp:3488
+#: ui/pageview.cpp:3487
 msgid "Select zooming area. Right-click to zoom out."
 msgstr "Escueyi la zona d'ampliación. Calca col botón drechu p'amenorgar."
 
-#: ui/pageview.cpp:3500
+#: ui/pageview.cpp:3499
 msgid "Draw a rectangle around the text/graphics to copy."
 msgstr "Dibuxa un rectángulu al rodiu del testu o gráficos a copiar."
 
-#: ui/pageview.cpp:3512
+#: ui/pageview.cpp:3511
 msgid "Select text"
 msgstr "Esbillar testu"
 
-#: ui/pageview.cpp:3544
+#: ui/pageview.cpp:3543
 msgid "Annotations author"
 msgstr "Autor de les anotaciones"
 
-#: ui/pageview.cpp:3545
+#: ui/pageview.cpp:3544
 msgid "Please insert your name or initials:"
 msgstr "Introduz el to nome o iniciales:"
-
-#: ui/presentationwidget.cpp:142
-#, kde-format
-msgctxt "[document title/filename] – Presentation"
-msgid "%1 – Presentation"
-msgstr "%1 – Presentación"
-
-#: ui/presentationwidget.cpp:184
-msgid "Switch Screen"
-msgstr "Camudar pantalla"
-
-#: ui/presentationwidget.cpp:191
-#, kde-format
-msgctxt "%1 is the screen number (0, 1, ...)"
-msgid "Screen %1"
-msgstr "Pantalla %1"
-
-#: ui/presentationwidget.cpp:198
-msgid "Exit Presentation Mode"
-msgstr "Colar del mou de presentación"
-
-#: ui/presentationwidget.cpp:321
-#, kde-format
-msgid "Title: %1"
-msgstr "Títulu: %1"
-
-#: ui/presentationwidget.cpp:325
-#, kde-format
-msgid "Pages: %1"
-msgstr "Páxines: %1"
-
-#: ui/presentationwidget.cpp:326
-msgid "Click to begin"
-msgstr "Calca pa entamar"
-
-#: ui/presentationwidget.cpp:1275
-msgid ""
-"There are two ways of exiting presentation mode, you can press either ESC "
-"key or click with the quit button that appears when placing the mouse in the "
-"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
-msgstr ""
-"Existen dos formes de colar del mou de presentación: puedes calcar la tecla "
-"«Esc» o calcar el botón pa colar qu'aparez al situar el punteru del mur na "
-"esquina superior drecha. En cualisquier momentu puedes restolar a traviés de "
-"les ventanes abiertes (Alt+Tab de forma predeterminada)."
-
-#: ui/presentationwidget.cpp:1397
-msgctxt ""
-"Reason for inhibiting the screensaver activation, when the presentation mode "
-"is active"
-msgid "Giving a presentation"
-msgstr "Finar una presentación"
 
 #: shell/main.cpp:48
 msgid "Page of the document to be shown"
