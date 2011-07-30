@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-06 04:34+0200\n"
+"POT-Creation-Date: 2011-07-30 04:16+0200\n"
 "PO-Revision-Date: 2010-10-19 22:57+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -131,24 +131,6 @@ msgstr "(c), 2008 Didier Hoarau"
 msgid "Didier Hoarau"
 msgstr "Didier Hoarau"
 
-#: plugins/onlinesync/onlinesyncplugin.cpp:61
-msgid "Synchronize Feeds"
-msgstr "Sincronizar Feeds"
-
-#: plugins/onlinesync/onlinesyncplugin.cpp:96
-#, kde-format
-msgid "Get from %1"
-msgstr "Consiguir dende %1"
-
-#: plugins/onlinesync/onlinesyncplugin.cpp:105
-#, kde-format
-msgid "Send to %1"
-msgstr "Unviar a %1"
-
-#: plugins/onlinesync/onlinesyncplugin.cpp:114
-msgid "Manage..."
-msgstr "Xestionar..."
-
 #: plugins/onlinesync/sync/feedsync.cpp:161
 msgid ""
 "Some categories and feeds have been marked for removal. Do you want to "
@@ -204,6 +186,24 @@ msgstr "Feeds"
 msgid "Ask"
 msgstr "Entrugar"
 
+#: plugins/onlinesync/onlinesyncplugin.cpp:61
+msgid "Synchronize Feeds"
+msgstr "Sincronizar Feeds"
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:96
+#, kde-format
+msgid "Get from %1"
+msgstr "Consiguir dende %1"
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:105
+#, kde-format
+msgid "Send to %1"
+msgstr "Unviar a %1"
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:114
+msgid "Manage..."
+msgstr "Xestionar..."
+
 #: plugins/sharemicroblog/akregator_config_sharemicroblog.cpp:50
 #, fuzzy
 #| msgid "kcmakrarchiveconfig"
@@ -247,6 +247,48 @@ msgstr ""
 #: plugins/sharemicroblog/sharemicroblogplugin.cpp:165
 msgid "Error during article share"
 msgstr ""
+
+#: src/feedlist.cpp:177
+msgid "All Feeds"
+msgstr "Toles fontes"
+
+#: src/searchbar.cpp:77
+msgctxt "Title of article searchbar"
+msgid "S&earch:"
+msgstr "&Guetar:"
+
+#: src/searchbar.cpp:88
+msgid "Status:"
+msgstr "Estáu:"
+
+#: src/searchbar.cpp:97
+msgid "All Articles"
+msgstr "Tolos artículos"
+
+#: src/searchbar.cpp:98
+msgctxt "Unread articles filter"
+msgid "Unread"
+msgstr "Ensin lleer"
+
+#: src/searchbar.cpp:99
+msgctxt "New articles filter"
+msgid "New"
+msgstr "Nuevu"
+
+#: src/searchbar.cpp:100
+msgctxt "Important articles filter"
+msgid "Important"
+msgstr "Importante"
+
+#: src/searchbar.cpp:102
+msgid "Enter space-separated terms to filter article list"
+msgstr ""
+"Introduza los términos separtaos per espacios pa filtrar los artículos de la "
+"llista"
+
+#: src/searchbar.cpp:103
+msgid "Choose what kind of articles to show in article list"
+msgstr "Escueyi qué tribes d'artículos han d'amosase na llista d'artículos"
 
 #: src/mainwindow.cpp:104
 #, fuzzy, kde-format
@@ -373,33 +415,13 @@ msgstr ""
 msgid "Ask Me Later"
 msgstr ""
 
-#: src/actions.cpp:35 src/pageviewer.cpp:411
-msgid "Open Link in New &Tab"
-msgstr "Abrir l'enllaz nuna lling&üeta nueva"
+#: src/tabwidget.cpp:113
+msgid "Close the current tab"
+msgstr "Zarrar llingüeta actual"
 
-#: src/actions.cpp:44 src/pageviewer.cpp:413
-msgid "Open Link in External &Browser"
-msgstr "A&brir l'enllaz nun restolador esternu"
-
-#. i18n: file: src/addfeedwidgetbase.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::AddFeedWidgetBase)
-#: src/addfeeddialog.cpp:65 rc.cpp:419
-msgid "Add Feed"
-msgstr "Amestar fonte"
-
-#: src/addfeeddialog.cpp:104
-#, kde-format
-msgid "Downloading %1"
-msgstr "Descargando %1"
-
-#: src/addfeeddialog.cpp:123
-#, kde-format
-msgid "Feed not found from %1."
-msgstr "Fonte ensin atopar en %1."
-
-#: src/addfeeddialog.cpp:129
-msgid "Feed found, downloading..."
-msgstr "Fonte atopada, descargando..."
+#: src/articlejobs.cpp:188
+msgid "The feed to be listed was already removed."
+msgstr "La fonte pa llistar yá se desanición"
 
 #: src/akregator_options.h:37 src/akregator_options.h:41
 msgid "Add a feed with the given URL"
@@ -412,6 +434,18 @@ msgstr "Cuando s'amiesten les canales, ponles nesti grupu"
 #: src/akregator_options.h:40
 msgid "Hide main window on startup"
 msgstr "Tapecer la ventana principal nel arranque"
+
+#: src/progressmanager.cpp:177
+msgid "Fetch completed"
+msgstr "Obtención completada"
+
+#: src/progressmanager.cpp:187
+msgid "Fetch error"
+msgstr "Fallu na obtención"
+
+#: src/progressmanager.cpp:197
+msgid "Fetch aborted"
+msgstr "Obtención interrumpida"
 
 #: src/articleviewer.cpp:137
 msgid "Copy &Link Address"
@@ -488,22 +522,6 @@ msgstr "¿Tas seguru de que quies desaniciar esta páxina d'introducción?"
 msgid "Disable Introduction Page"
 msgstr "Desactivar la páxina d'introducción"
 
-#: src/progressmanager.cpp:177
-msgid "Fetch completed"
-msgstr "Obtención completada"
-
-#: src/progressmanager.cpp:187
-msgid "Fetch error"
-msgstr "Fallu na obtención"
-
-#: src/progressmanager.cpp:197
-msgid "Fetch aborted"
-msgstr "Obtención interrumpida"
-
-#: src/articlejobs.cpp:188
-msgid "The feed to be listed was already removed."
-msgstr "La fonte pa llistar yá se desanición"
-
 #: src/articlemodel.cpp:106
 msgctxt "Articlelist's column header"
 msgid "Title"
@@ -579,9 +597,13 @@ msgstr "Desaniciar la fonte"
 msgid "No Archive"
 msgstr "Ensin ficheru"
 
-#: src/feedlist.cpp:177
-msgid "All Feeds"
-msgstr "Toles fontes"
+#: src/actions.cpp:35 src/pageviewer.cpp:411
+msgid "Open Link in New &Tab"
+msgstr "Abrir l'enllaz nuna lling&üeta nueva"
+
+#: src/actions.cpp:44 src/pageviewer.cpp:413
+msgid "Open Link in External &Browser"
+msgstr "A&brir l'enllaz nun restolador esternu"
 
 #: src/feedpropertiesdialog.cpp:71 src/feedpropertiesdialog.cpp:96
 msgid "Minute"
@@ -899,43 +921,25 @@ msgstr "Anexu:"
 msgid "Complete Story"
 msgstr "Historia completa"
 
-#: src/searchbar.cpp:77
-msgctxt "Title of article searchbar"
-msgid "S&earch:"
-msgstr "&Guetar:"
+#. i18n: file: src/addfeedwidgetbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::AddFeedWidgetBase)
+#: src/addfeeddialog.cpp:65 rc.cpp:419
+msgid "Add Feed"
+msgstr "Amestar fonte"
 
-#: src/searchbar.cpp:88
-msgid "Status:"
-msgstr "Estáu:"
+#: src/addfeeddialog.cpp:104
+#, kde-format
+msgid "Downloading %1"
+msgstr "Descargando %1"
 
-#: src/searchbar.cpp:97
-msgid "All Articles"
-msgstr "Tolos artículos"
+#: src/addfeeddialog.cpp:123
+#, kde-format
+msgid "Feed not found from %1."
+msgstr "Fonte ensin atopar en %1."
 
-#: src/searchbar.cpp:98
-msgctxt "Unread articles filter"
-msgid "Unread"
-msgstr "Ensin lleer"
-
-#: src/searchbar.cpp:99
-msgctxt "New articles filter"
-msgid "New"
-msgstr "Nuevu"
-
-#: src/searchbar.cpp:100
-msgctxt "Important articles filter"
-msgid "Important"
-msgstr "Importante"
-
-#: src/searchbar.cpp:102
-msgid "Enter space-separated terms to filter article list"
-msgstr ""
-"Introduza los términos separtaos per espacios pa filtrar los artículos de la "
-"llista"
-
-#: src/searchbar.cpp:103
-msgid "Choose what kind of articles to show in article list"
-msgstr "Escueyi qué tribes d'artículos han d'amosase na llista d'artículos"
+#: src/addfeeddialog.cpp:129
+msgid "Feed found, downloading..."
+msgstr "Fonte atopada, descargando..."
 
 #: src/subscriptionlistjobs.cpp:64
 msgid "Feed list was deleted"
@@ -997,10 +1001,6 @@ msgstr "Total"
 #: src/subscriptionlistview.cpp:181 src/articlelistview.cpp:184
 msgid "Columns"
 msgstr "Columnes"
-
-#: src/tabwidget.cpp:113
-msgid "Close the current tab"
-msgstr "Zarrar llingüeta actual"
 
 #: src/articlelistview.cpp:383
 msgid ""
