@@ -6,17 +6,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-20 04:01+0200\n"
+"POT-Creation-Date: 2011-08-02 05:24+0200\n"
 "PO-Revision-Date: 2010-10-19 22:29+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: alministradores@softastur.org\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ast\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Virtaal 0.5.2\n"
 "X-Poedit-Language: asturian\n"
+
+#: src/konqhistorymodel.cpp:137
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
+"%3<br />Number of times visited: %4</qt>"
+msgstr ""
+"<qt><center><b>%1</b></center><hr />Caberu visitáu: %2<br />Primer visitáu: "
+"%3<br />Númberu de visites: %4</qt>"
+
+#: src/konqhistorymodel.cpp:233
+msgid "Local"
+msgstr "Llocal"
+
+#: src/konqhistorymodel.cpp:236
+msgid "Miscellaneous"
+msgstr "Dellos"
 
 #: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5037
 #: src/konqmainwindow.cpp:5097
@@ -304,118 +321,6 @@ msgstr "Desendolcador (peñera AdBlock)"
 msgid "Eduardo Robles Elvira"
 msgstr "Eduardo Robles Elvira"
 
-#: src/konqframestatusbar.cpp:109
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-"Escoyendo esta caxella en, polo menos, dos vistes éstes queden 'enllazaes'. "
-"De tal manera que cuando se camuda de direutoriu nuna vista, les que tán "
-"enllazaes anóvense p'amosar el direutoriu actual. Esto ye especialmente útil "
-"con estremaes tribes de vistes, como un árbol de direutorios con una vista "
-"d'iconos o una vista detallada y, posiblemente, una ventana d'emulación de "
-"terminal."
-
-#: src/konqframestatusbar.cpp:156
-msgid "Close View"
-msgstr "Zarrar vista"
-
-#: src/konqframestatusbar.cpp:236
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/konqframestatusbar.cpp:238
-msgid "Stalled"
-msgstr "Atascáu"
-
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr "Prev&isualizar en %1"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "Amosar %1"
-
-#: src/konqhistorydialog.cpp:45
-msgctxt "@title:window"
-msgid "History"
-msgstr "Hestorial"
-
-#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "Ordenar"
-
-#: src/konqhistorymodel.cpp:137
-#, kde-format
-msgid ""
-"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
-"3<br />Number of times visited: %4</qt>"
-msgstr ""
-"<qt><center><b>%1</b></center><hr />Caberu visitáu: %2<br />Primer visitáu: %"
-"3<br />Númberu de visites: %4</qt>"
-
-#: src/konqhistorymodel.cpp:233
-msgid "Local"
-msgstr "Llocal"
-
-#: src/konqhistorymodel.cpp:236
-msgid "Miscellaneous"
-msgstr "Dellos"
-
-#: src/konqmain.cpp:96
-#, fuzzy
-#| msgid "Start without a default window"
-msgid "Start without a default window, when called without URLs"
-msgstr "Entamar ensin una ventana predeterminada"
-
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
-msgstr ""
-
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr "Perfil p'abrir"
-
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr "Llistar perfiles disponibles"
-
-#: src/konqmain.cpp:104
-msgid "List available sessions"
-msgstr "Llistar sesiones disponibles"
-
-#: src/konqmain.cpp:106
-msgid "Session to open"
-msgstr "Sesión p'abrir"
-
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr "Triba MIME pa usar con esta URL (p. ej. text/html o inode/directory)"
-
-#: src/konqmain.cpp:109
-msgid "Part to use (e.g. khtml or kwebkitpart)"
-msgstr ""
-
-#: src/konqmain.cpp:111
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-"Pa URLs qu'apunten a ficheros, abri el directorio y escueyi'l ficheru en vez "
-"d'abrir el ficheru en cuestión"
-
-#: src/konqmain.cpp:113
-msgid "Location to open"
-msgstr "Ubicación p'abrir"
-
 #: src/konqtabs.cpp:66
 msgid ""
 "This bar contains the list of currently open tabs. Click on a tab to make it "
@@ -484,17 +389,83 @@ msgstr "&Desfacer: Zarrar ventana"
 msgid "Und&o"
 msgstr "Es&facer"
 
-#: src/konqextensionmanager.cpp:54
-#, fuzzy
-#| msgid "Configure"
+#: src/konqhistorydialog.cpp:45
 msgctxt "@title:window"
-msgid "Configure"
-msgstr "Configurar"
+msgid "History"
+msgstr "Hestorial"
 
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "Estensiones"
+#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Ordenar"
+
+#: src/konqmain.cpp:96
+#, fuzzy
+#| msgid "Start without a default window"
+msgid "Start without a default window, when called without URLs"
+msgstr "Entamar ensin una ventana predeterminada"
+
+#: src/konqmain.cpp:98
+msgid ""
+"Preload for later use. This mode does not support URLs on the command line"
+msgstr ""
+
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr "Perfil p'abrir"
+
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr "Llistar perfiles disponibles"
+
+#: src/konqmain.cpp:104
+msgid "List available sessions"
+msgstr "Llistar sesiones disponibles"
+
+#: src/konqmain.cpp:106
+msgid "Session to open"
+msgstr "Sesión p'abrir"
+
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr "Triba MIME pa usar con esta URL (p. ej. text/html o inode/directory)"
+
+#: src/konqmain.cpp:109
+msgid "Part to use (e.g. khtml or kwebkitpart)"
+msgstr ""
+
+#: src/konqmain.cpp:111
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+"Pa URLs qu'apunten a ficheros, abri el directorio y escueyi'l ficheru en vez "
+"d'abrir el ficheru en cuestión"
+
+#: src/konqmain.cpp:113
+msgid "Location to open"
+msgstr "Ubicación p'abrir"
+
+#: src/konqview.cpp:1203
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+"La páxina que tas intentando visualizar ye resultáu de la petición a un "
+"formulariu. Si reenvíes los datos, cualquier parámetru que'l formulariu "
+"tensportaba (como guetar o mercar en llinia) repetirase. "
+
+#: src/konqview.cpp:1205
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "Avisu"
+
+#: src/konqview.cpp:1205
+msgid "Resend"
+msgstr "Reunviar"
 
 #: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4562
 #: sidebar/web_module/web_module.cpp:61
@@ -548,149 +519,6 @@ msgctxt "@title:window"
 msgid "Clear History?"
 msgstr "¿Desaniciar historial?"
 
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "Profile Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "Configuración de perfil"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "&Renomar perfil"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "Sup&rimir perfil"
-
-#: src/konqsessiondlg.cpp:77
-#, fuzzy
-#| msgid "Manage Sessions"
-msgctxt "@title:window"
-msgid "Manage Sessions"
-msgstr "Alministrar sesiones"
-
-#: src/konqsessiondlg.cpp:81
-msgid "&Open"
-msgstr "&Abrir"
-
-#: src/konqsessiondlg.cpp:175
-#, fuzzy
-#| msgid "Rename Session"
-msgctxt "@title:window"
-msgid "Rename Session"
-msgstr "Renomar sesión"
-
-#: src/konqsessiondlg.cpp:223
-#, fuzzy
-#| msgid "Save Session"
-msgctxt "@title:window"
-msgid "Save Session"
-msgstr "Guardar sesión"
-
-#: src/konqsessiondlg.cpp:247
-#, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr "Yá existe una sesión col nome '%1' , ¿quies sobreescribila?"
-
-#: src/konqsessiondlg.cpp:248
-#, fuzzy
-#| msgid "Session exists. Overwrite?"
-msgctxt "@title:window"
-msgid "Session exists. Overwrite?"
-msgstr "La sesión yá existe. ¿Quies sobrescribila?"
-
-#: src/konqsessionmanager.cpp:330
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr "Konqueror nun se zarró correchamente. ¿Quier restaurar la sesión?"
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Restore Session?"
-msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "¿Restaurar la sesión?"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "Restaurar sesión"
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "Nun restaurar"
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "Preguntar más tarde"
-
-#: src/konqview.cpp:1203
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-"La páxina que tas intentando visualizar ye resultáu de la petición a un "
-"formulariu. Si reenvíes los datos, cualquier parámetru que'l formulariu "
-"tensportaba (como guetar o mercar en llinia) repetirase. "
-
-#: src/konqview.cpp:1205
-#, fuzzy
-#| msgid "Warning"
-msgctxt "@title:window"
-msgid "Warning"
-msgstr "Avisu"
-
-#: src/konqview.cpp:1205
-msgid "Resend"
-msgstr "Reunviar"
-
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"Tienes delles llingüetes abiertes nesta ventana.\n"
-"El cargar un perfil de vista zarraráles."
-
-#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4964
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Confirmación"
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr "Cargar perfil de vista"
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Esta llingüeta caltién cambeos que nun s'unviaron.\n"
-"Cargar un perfil fadrá que se descarten los cambeos."
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1625
-#: src/konqmainwindow.cpp:2352 src/konqmainwindow.cpp:2432
-#: src/konqmainwindow.cpp:2462 src/konqmainwindow.cpp:2504
-#: src/konqmainwindow.cpp:2526 src/konqmainwindow.cpp:4999
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "¿Descartar cambeos?"
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1625
-#: src/konqmainwindow.cpp:2352 src/konqmainwindow.cpp:2432
-#: src/konqmainwindow.cpp:2462 src/konqmainwindow.cpp:2504
-#: src/konqmainwindow.cpp:2527 src/konqmainwindow.cpp:4999
-msgid "&Discard Changes"
-msgstr "&Descartar cambeos"
-
 #: src/konqmainwindow.cpp:574
 msgctxt "@title:tab"
 msgid "Loading..."
@@ -707,6 +535,23 @@ msgid ""
 msgstr ""
 "Esta páxina caltién cambios que nun s'unviaron\n"
 "Si recargues la páxina descartaránse estos cambeos."
+
+#: src/konqmainwindow.cpp:1625 src/konqmainwindow.cpp:2352
+#: src/konqmainwindow.cpp:2432 src/konqmainwindow.cpp:2462
+#: src/konqmainwindow.cpp:2504 src/konqmainwindow.cpp:2526
+#: src/konqmainwindow.cpp:4999 src/konqviewmanager.cpp:1423
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "¿Descartar cambeos?"
+
+#: src/konqmainwindow.cpp:1625 src/konqmainwindow.cpp:2352
+#: src/konqmainwindow.cpp:2432 src/konqmainwindow.cpp:2462
+#: src/konqmainwindow.cpp:2504 src/konqmainwindow.cpp:2527
+#: src/konqmainwindow.cpp:4999 src/konqviewmanager.cpp:1423
+msgid "&Discard Changes"
+msgstr "&Descartar cambeos"
 
 #: src/konqmainwindow.cpp:1735
 msgid "File Management"
@@ -1268,6 +1113,13 @@ msgstr ""
 "Tien abondes llingüetes abiertes nesta ventana, ¿ta seguru de que quies "
 "colar?"
 
+#: src/konqmainwindow.cpp:4964 src/konqviewmanager.cpp:1409
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Confirmación"
+
 #: src/konqmainwindow.cpp:4966
 msgid "C&lose Current Tab"
 msgstr "Zarrar llingüeta actua&l"
@@ -1323,6 +1175,154 @@ msgid ""
 msgstr ""
 "Paez ser un fallu de configuración. Asocieste Konqueror con %1, pero nun "
 "puede remanar esta triba de ficheru."
+
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "Configuración de perfil"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "&Renomar perfil"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "Sup&rimir perfil"
+
+#: src/konqsessiondlg.cpp:77
+#, fuzzy
+#| msgid "Manage Sessions"
+msgctxt "@title:window"
+msgid "Manage Sessions"
+msgstr "Alministrar sesiones"
+
+#: src/konqsessiondlg.cpp:81
+msgid "&Open"
+msgstr "&Abrir"
+
+#: src/konqsessiondlg.cpp:175
+#, fuzzy
+#| msgid "Rename Session"
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "Renomar sesión"
+
+#: src/konqsessiondlg.cpp:223
+#, fuzzy
+#| msgid "Save Session"
+msgctxt "@title:window"
+msgid "Save Session"
+msgstr "Guardar sesión"
+
+#: src/konqsessiondlg.cpp:247
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr "Yá existe una sesión col nome '%1' , ¿quies sobreescribila?"
+
+#: src/konqsessiondlg.cpp:248
+#, fuzzy
+#| msgid "Session exists. Overwrite?"
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr "La sesión yá existe. ¿Quies sobrescribila?"
+
+#: src/konqsessionmanager.cpp:330
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr "Konqueror nun se zarró correchamente. ¿Quier restaurar la sesión?"
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "¿Restaurar la sesión?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "Restaurar sesión"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "Nun restaurar"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "Preguntar más tarde"
+
+#: src/konqframestatusbar.cpp:109
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+"Escoyendo esta caxella en, polo menos, dos vistes éstes queden 'enllazaes'. "
+"De tal manera que cuando se camuda de direutoriu nuna vista, les que tán "
+"enllazaes anóvense p'amosar el direutoriu actual. Esto ye especialmente útil "
+"con estremaes tribes de vistes, como un árbol de direutorios con una vista "
+"d'iconos o una vista detallada y, posiblemente, una ventana d'emulación de "
+"terminal."
+
+#: src/konqframestatusbar.cpp:156
+msgid "Close View"
+msgstr "Zarrar vista"
+
+#: src/konqframestatusbar.cpp:236
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/konqframestatusbar.cpp:238
+msgid "Stalled"
+msgstr "Atascáu"
+
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr "Prev&isualizar en %1"
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "Amosar %1"
+
+#: src/konqviewmanager.cpp:1407
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"Tienes delles llingüetes abiertes nesta ventana.\n"
+"El cargar un perfil de vista zarraráles."
+
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr "Cargar perfil de vista"
+
+#: src/konqviewmanager.cpp:1422
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Esta llingüeta caltién cambeos que nun s'unviaron.\n"
+"Cargar un perfil fadrá que se descarten los cambeos."
+
+#: src/konqextensionmanager.cpp:54
+#, fuzzy
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Configurar"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "Estensiones"
 
 #: sidebar/history_module/history_module.cpp:126
 msgctxt "@action:inmenu Add"
@@ -1380,6 +1380,13 @@ msgstr ""
 #: sidebar/sidebar_part.cpp:28
 msgid "Extended Sidebar"
 msgstr "Panel de navegación estendíu"
+
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+#, fuzzy
+#| msgid "Add Bookmark"
+msgctxt "@title:window"
+msgid "Add Bookmark"
+msgstr "Amestar marcador"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:74
 msgid "&Create New Folder"
@@ -1464,34 +1471,10 @@ msgstr "Nome:"
 msgid "Location:"
 msgstr "Allugamientu:"
 
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-#, fuzzy
-#| msgid "Add Bookmark"
-msgctxt "@title:window"
-msgid "Add Bookmark"
-msgstr "Amestar marcador"
-
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:417
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr "Imposible atopar l'elementu padre %1 nel árbol. Fallu internu."
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Name:"
-msgstr "Nome:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr "Camín de URL:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr "Amestar módulu de carpeta de barra llateral"
 
 #: sidebar/trees/konq_sidebartree.cpp:203
 msgid "&Create New Folder..."
@@ -1523,6 +1506,23 @@ msgstr "Criar nueva carpeta"
 #: sidebar/trees/konq_sidebartree.cpp:956
 msgid "Enter folder name:"
 msgstr "Pon el nome de la carpeta:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Name:"
+msgstr "Nome:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr "Camín de URL:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr "Amestar módulu de carpeta de barra llateral"
 
 #: sidebar/web_module/web_module.cpp:57
 msgid "&Open Link"
@@ -1793,15 +1793,15 @@ msgstr ""
 msgid ""
 "For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
 msgstr ""
-"Pa ver documentación más detallada sobro Konqueror calca <a href=\"%1"
-"\">aquí</a>."
+"Pa ver documentación más detallada sobro Konqueror calca <a href="
+"\"%1\">aquí</a>."
 
 #: about/konq_aboutpage.cc:159
 #, fuzzy, kde-format
 #| msgid ""
 #| "<em>Tuning Tip:</em> If you want the Konqueror web browser to start "
-#| "faster, you can turn off this information screen by clicking <a href=\"%1"
-#| "\">here</a>. You can re-enable it by choosing the Help -> Konqueror "
+#| "faster, you can turn off this information screen by clicking <a href="
+#| "\"%1\">here</a>. You can re-enable it by choosing the Help -> Konqueror "
 #| "Introduction menu option, and then pressing Settings -> Save View Profile "
 #| "\"Web Browsing\"."
 msgid ""
@@ -1858,11 +1858,11 @@ msgstr "Requisitos adicionales*"
 #: about/konq_aboutpage.cc:208
 #, kde-format
 msgid ""
-"<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF=\"%2"
-"\">HTML 4.01</A>"
+"<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF="
+"\"%2\">HTML 4.01</A>"
 msgstr ""
-"<A HREF=\"%1\">DOM</A> (Nivel 1, parcialmente nivel 2) basáu en <A HREF=\"%2"
-"\">HTML 4.01</A>"
+"<A HREF=\"%1\">DOM</A> (Nivel 1, parcialmente nivel 2) basáu en <A HREF="
+"\"%2\">HTML 4.01</A>"
 
 #: about/konq_aboutpage.cc:210 about/konq_aboutpage.cc:212
 #: about/konq_aboutpage.cc:225 about/konq_aboutpage.cc:230
@@ -1911,11 +1911,11 @@ msgstr "Sofitu seguru de <A HREF=\"%1\">Java</A><SUP>&reg;</SUP>"
 #| "JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">Blackdown</A>, <A HREF="
 #| "\"%2\">IBM</A> or <A HREF=\"%3\">Sun</A>)"
 msgid ""
-"JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">IBM</A> or <A HREF=\"%2"
-"\">Sun/Oracle</A>)"
+"JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">IBM</A> or <A HREF="
+"\"%2\">Sun/Oracle</A>)"
 msgstr ""
-"Compatible JDK 1.2.0 (Java 2) VM (<A HREF=\"%1\">Blackdown</A>, <A HREF=\"%2"
-"\">IBM</A>, o <A HREF=\"%3\">Sun</A>)"
+"Compatible JDK 1.2.0 (Java 2) VM (<A HREF=\"%1\">Blackdown</A>, <A HREF="
+"\"%2\">IBM</A>, o <A HREF=\"%3\">Sun</A>)"
 
 #: about/konq_aboutpage.cc:220
 #, kde-format
@@ -1926,8 +1926,8 @@ msgstr "Activar Java (globalmente) <A HREF=\"%1\">equí</A>."
 #, kde-format
 msgid ""
 "Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for "
-"viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF=\"%2"
-"\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
+"viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF="
+"\"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
 "A>Video, etc.)"
 msgstr ""
 "<A HREF=\"%4\">Complementos</A> de Netscape Communicator<SUP>&reg;</SUP> (pa "
