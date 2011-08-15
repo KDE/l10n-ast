@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 06:00+0200\n"
+"POT-Creation-Date: 2011-08-15 04:05+0200\n"
 "PO-Revision-Date: 2010-10-22 19:48+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -88,7 +88,7 @@ msgstr "Ecuador"
 msgid "Ecliptic"
 msgstr "Eclíptica"
 
-#: colorscheme.cpp:64 skycomponents/horizoncomponent.cpp:113
+#: colorscheme.cpp:64 skycomponents/horizoncomponent.cpp:114
 msgid "Horizon"
 msgstr "Horizonte"
 
@@ -143,7 +143,7 @@ msgstr ""
 msgid "Visible Satellites"
 msgstr "Satélites galileanos (HST)"
 
-#: colorscheme.cpp:77 kstarsactions.cpp:398
+#: colorscheme.cpp:77 kstarsactions.cpp:404
 #, fuzzy
 #| msgid "Satellite Track"
 msgid "Satellites"
@@ -155,36 +155,42 @@ msgstr "Rastréu de satélite"
 msgid "Satellites Labels"
 msgstr "Rastréu de satélite"
 
-#: colorscheme.cpp:97
+#: colorscheme.cpp:79 dialogs/finddialog.cpp:47
+#, fuzzy
+#| msgid "Supernova Remnant"
+msgid "Supernovae"
+msgstr "Restu de supernova"
+
+#: colorscheme.cpp:98
 #, kde-format
 msgid "No color named \"%1\" found in color scheme."
 msgstr "Nun s'alcontró dengún esquema de color «%1»."
 
-#: colorscheme.cpp:135 kstarsdata.cpp:938 tools/scriptbuilder.cpp:929
+#: colorscheme.cpp:136 kstarsdata.cpp:938 tools/scriptbuilder.cpp:929
 #: options/opscolors.cpp:58
 msgctxt "use default color scheme"
 msgid "Default Colors"
 msgstr "Colores predeterminaos"
 
-#: colorscheme.cpp:137 kstarsdata.cpp:939 tools/scriptbuilder.cpp:930
+#: colorscheme.cpp:138 kstarsdata.cpp:939 tools/scriptbuilder.cpp:930
 #: options/opscolors.cpp:59
 msgctxt "use 'star chart' color scheme"
 msgid "Star Chart"
 msgstr "Carta estelar"
 
-#: colorscheme.cpp:139 kstarsdata.cpp:940 tools/scriptbuilder.cpp:931
+#: colorscheme.cpp:140 kstarsdata.cpp:940 tools/scriptbuilder.cpp:931
 #: options/opscolors.cpp:60
 msgctxt "use 'night vision' color scheme"
 msgid "Night Vision"
 msgstr "Visión nocherniega"
 
-#: colorscheme.cpp:155 kstarsdata.cpp:957
+#: colorscheme.cpp:156 kstarsdata.cpp:957
 #, kde-format
 msgid "Unable to load color scheme named %1. Also tried %2."
 msgstr ""
 "Nun ye dable cargar l'esquema de color denomáu %1. Tamién s'intentó %2."
 
-#: colorscheme.cpp:230
+#: colorscheme.cpp:231
 msgid ""
 "Local color scheme file could not be opened.\n"
 "Scheme cannot be recorded."
@@ -192,7 +198,7 @@ msgstr ""
 "Nun se puede abrir el ficheru del esquema de color llocal.\n"
 "L'esquema nun s'atroxará."
 
-#: colorscheme.cpp:231 colorscheme.cpp:246 kstarsactions.cpp:603
+#: colorscheme.cpp:232 colorscheme.cpp:247 kstarsactions.cpp:609
 #: skymap.cpp:1010 tools/modcalcaltaz.cpp:238 tools/modcalcangdist.cpp:128
 #: tools/modcalcapcoord.cpp:151 tools/modcalcdaylength.cpp:246
 #: tools/modcalceclipticcoords.cpp:203 tools/modcalcgalcoord.cpp:193
@@ -206,7 +212,7 @@ msgstr ""
 msgid "Could Not Open File"
 msgstr "Imposible abrir el ficheru"
 
-#: colorscheme.cpp:245
+#: colorscheme.cpp:246
 msgid ""
 "Local color scheme index file could not be opened.\n"
 "Scheme cannot be recorded."
@@ -214,7 +220,7 @@ msgstr ""
 "Nun se puede abrir el ficheru d'índices del esquema de color llocal.\n"
 "L'esquema nun s'atroxará."
 
-#: colorscheme.cpp:254
+#: colorscheme.cpp:255
 msgid ""
 "Invalid filename requested.\n"
 "Scheme cannot be recorded."
@@ -222,7 +228,7 @@ msgstr ""
 "Nome de ficheru solicitáu nun válidu.\n"
 "L'esquema nun s'atroxará."
 
-#: colorscheme.cpp:255
+#: colorscheme.cpp:256
 msgid "Invalid Filename"
 msgstr "Nome de ficheru inválidu"
 
@@ -278,13 +284,13 @@ msgstr "Visor d'imáxenes de KStars"
 msgid "Loading of the image %1 failed."
 msgstr "Fallu al cargar la imaxe %1."
 
-#: imageviewer.cpp:226 kstarsactions.cpp:526 tools/scriptbuilder.cpp:1042
+#: imageviewer.cpp:226 kstarsactions.cpp:532 tools/scriptbuilder.cpp:1042
 #: dialogs/addcatdialog.cpp:211 fitsviewer/fitsviewer.cpp:244
 #, kde-format
 msgid "A file named \"%1\" already exists. Overwrite it?"
 msgstr "Yá esiste un ficheru denomáu «%1». ¿Sobroscribir?"
 
-#: imageviewer.cpp:228 kstarsactions.cpp:527 tools/scriptbuilder.cpp:1044
+#: imageviewer.cpp:228 kstarsactions.cpp:533 tools/scriptbuilder.cpp:1044
 #: dialogs/addcatdialog.cpp:213 fitsviewer/fitsviewer.cpp:246
 msgid "Overwrite File?"
 msgstr "¿Sobroscribir ficheru?"
@@ -294,200 +300,206 @@ msgstr "¿Sobroscribir ficheru?"
 msgid "Saving of the image %1 failed."
 msgstr "Fallu al guardar la imaxe %1."
 
-#: kspopupmenu.cpp:78
+#: kspopupmenu.cpp:79
 #, kde-format
 msgid "Rise time: %1"
 msgstr "Orto: %1"
 
-#: kspopupmenu.cpp:79
+#: kspopupmenu.cpp:80
 #, kde-format
 msgctxt "the time at which an object falls below the horizon"
 msgid "Set time: %1"
 msgstr "Orto: %1"
 
-#: kspopupmenu.cpp:82
+#: kspopupmenu.cpp:83
 msgid "No rise time: Circumpolar"
 msgstr "Ensin orto: circumpolar"
 
-#: kspopupmenu.cpp:82
+#: kspopupmenu.cpp:83
 msgid "No set time: Circumpolar"
 msgstr "Ensin ocasu: circumpolar"
 
-#: kspopupmenu.cpp:84
+#: kspopupmenu.cpp:85
 msgid "No rise time: Never rises"
 msgstr "Ensin orto: siempres per debaxo l'horizonte"
 
-#: kspopupmenu.cpp:84
+#: kspopupmenu.cpp:85
 msgid "No set time: Never rises"
 msgstr "Ensin ocasu: siempres per debaxo l'horizonte"
 
-#: kspopupmenu.cpp:93
+#: kspopupmenu.cpp:94
 #, kde-format
 msgid "Transit time: %1"
 msgstr "Tiempu de tránsitu: %1"
 
-#: kspopupmenu.cpp:111 kspopupmenu.cpp:208 skymapevents.cpp:553
+#: kspopupmenu.cpp:112 kspopupmenu.cpp:217 skymapevents.cpp:553
 msgid "Empty sky"
 msgstr "Cielu ermu"
 
-#: kspopupmenu.cpp:112 kspopupmenu.cpp:135 kspopupmenu.cpp:290
+#: kspopupmenu.cpp:113 kspopupmenu.cpp:136 kspopupmenu.cpp:299
 msgctxt "Sloan Digital Sky Survey"
 msgid "Show SDSS Image"
 msgstr "Amosar imaxe SDSS"
 
-#: kspopupmenu.cpp:113 kspopupmenu.cpp:136 kspopupmenu.cpp:291
+#: kspopupmenu.cpp:114 kspopupmenu.cpp:137 kspopupmenu.cpp:300
 msgctxt "Digitized Sky Survey"
 msgid "Show DSS Image"
 msgstr "Amosar imaxe DSS"
 
-#: kspopupmenu.cpp:130 kspopupmenu.cpp:206 kstarsdata.cpp:121
-#: kstarsdata.cpp:122 kstarsinit.cpp:612 tools/observinglist.cpp:497
+#: kspopupmenu.cpp:131 kspopupmenu.cpp:215 kstarsdata.cpp:121
+#: kstarsdata.cpp:122 kstarsinit.cpp:618 tools/observinglist.cpp:497
 #: tools/wutdialog.cpp:268 skycomponents/starcomponent.cpp:446
-#: dialogs/detaildialog.cpp:144 skyobjects/starobject.cpp:489
+#: dialogs/detaildialog.cpp:146 skyobjects/starobject.cpp:489
 #: skyobjects/starobject.cpp:508 skyobjects/starobject.cpp:513
 #: skyobjects/starobject.cpp:516
 msgid "star"
 msgstr "estrella"
 
-#: kspopupmenu.cpp:130
+#: kspopupmenu.cpp:131 kspopupmenu.cpp:206
 #, kde-format
 msgid "%1<sup>m</sup>, %2"
 msgstr "%1<sup>m</sup>, %2"
 
-#: kspopupmenu.cpp:151
+#: kspopupmenu.cpp:152
 msgid "Solar system object"
 msgstr "Oxetu del sistema solar"
 
-#: kspopupmenu.cpp:173
+#: kspopupmenu.cpp:174
 #, fuzzy
 #| msgid "Satellite Track"
 msgid "satellite"
 msgstr "Rastréu de satélite"
 
-#: kspopupmenu.cpp:178
+#: kspopupmenu.cpp:179
 #, kde-format
 msgid "Velocity : %1 km/s"
 msgstr ""
 
-#: kspopupmenu.cpp:179
+#: kspopupmenu.cpp:180
 #, fuzzy, kde-format
 #| msgid "Altitude:"
 msgid "Altitude : %1 km"
 msgstr "Altor:"
 
-#: kspopupmenu.cpp:180
+#: kspopupmenu.cpp:181
 #, kde-format
 msgid "Range : %1 km"
 msgstr ""
 
-#: kspopupmenu.cpp:185 kspopupmenu.cpp:224
+#: kspopupmenu.cpp:186 kspopupmenu.cpp:233
 msgid "Center && Track"
 msgstr "Centrar y siguir"
 
-#: kspopupmenu.cpp:188 kspopupmenu.cpp:227
+#: kspopupmenu.cpp:189 kspopupmenu.cpp:236
 msgid "Angular Distance To...            ["
 msgstr "Distancia angular a...            ["
 
-#: kspopupmenu.cpp:190 kspopupmenu.cpp:229
+#: kspopupmenu.cpp:191 kspopupmenu.cpp:238
 #, fuzzy
 #| msgid "Angular Distance To...            ["
 msgid "Starhop from here to...            "
 msgstr "Distancia angular a...            ["
 
-#: kspopupmenu.cpp:195 kspopupmenu.cpp:238
+#: kspopupmenu.cpp:196 kspopupmenu.cpp:247
 msgid "Remove Label"
 msgstr "Desaniciar etiqueta"
 
-#: kspopupmenu.cpp:197 kspopupmenu.cpp:240
+#: kspopupmenu.cpp:198 kspopupmenu.cpp:249
 msgid "Attach Label"
 msgstr "Axuntar etiqueta"
 
-#: kspopupmenu.cpp:234 obslistpopupmenu.cpp:61
+#: kspopupmenu.cpp:206
+#, fuzzy
+#| msgid "supernova remnant"
+msgid "supernova"
+msgstr "restu de supernova"
+
+#: kspopupmenu.cpp:243 obslistpopupmenu.cpp:61
 msgctxt "Show Detailed Information Dialog"
 msgid "Details"
 msgstr "Detalles"
 
-#: kspopupmenu.cpp:246
+#: kspopupmenu.cpp:255
 msgid "Remove From Observing WishList"
 msgstr "Desaniciar de la llista d'observación deseyada"
 
-#: kspopupmenu.cpp:248
+#: kspopupmenu.cpp:257
 msgid "Add to Observing WishList"
 msgstr "Amestar a la llista d'observación deseyada"
 
-#: kspopupmenu.cpp:254
+#: kspopupmenu.cpp:263
 msgid "Remove Trail"
 msgstr "Desaniciar traza"
 
-#: kspopupmenu.cpp:256
+#: kspopupmenu.cpp:265
 msgid "Add Trail"
 msgstr "Amestar traza"
 
-#: kspopupmenu.cpp:263
+#: kspopupmenu.cpp:272
 msgid "Print Xplanet view"
 msgstr "Imprentar vista de Xplanet"
 
-#: kspopupmenu.cpp:264
+#: kspopupmenu.cpp:273
 msgid "To screen"
 msgstr "A la pantalla"
 
-#: kspopupmenu.cpp:265
+#: kspopupmenu.cpp:274
 msgid "To file..."
 msgstr "A ficheru..."
 
-#: kspopupmenu.cpp:377
+#: kspopupmenu.cpp:386
 msgid "Track Crosshair"
 msgstr "Cruceta de seguimientu"
 
-#: kstarsactions.cpp:157
+#: kstarsactions.cpp:158
 msgid "Refraction effects disabled"
 msgstr ""
 
-#: kstarsactions.cpp:158
+#: kstarsactions.cpp:159
 msgid ""
 "When the horizon is switched off, refraction effects are temporarily "
 "disabled."
 msgstr ""
 
-#: kstarsactions.cpp:396
+#: kstarsactions.cpp:402
 msgid "Catalogs"
 msgstr "Catálogos"
 
-#: kstarsactions.cpp:397 tools/astrocalc.cpp:168 tools/conjunctions.cpp:74
+#: kstarsactions.cpp:403 tools/astrocalc.cpp:168 tools/conjunctions.cpp:74
 #: dialogs/finddialog.cpp:38
 msgid "Solar System"
 msgstr "Sistema Solar"
 
-#: kstarsactions.cpp:399
+#: kstarsactions.cpp:405
 msgid "Guides"
 msgstr "Guíes"
 
-#: kstarsactions.cpp:400
+#: kstarsactions.cpp:406
 msgid "Colors"
 msgstr "Colores"
 
-#: kstarsactions.cpp:404
+#: kstarsactions.cpp:410
 msgid "INDI"
 msgstr "INDI"
 
-#: kstarsactions.cpp:409
+#: kstarsactions.cpp:415
 msgid "Xplanet"
 msgstr "Xplanet"
 
-#: kstarsactions.cpp:412 dialogs/detaildialog.cpp:568
+#: kstarsactions.cpp:418 dialogs/detaildialog.cpp:585
 msgid "Advanced"
 msgstr "Avanzáu"
 
-#: kstarsactions.cpp:492
+#: kstarsactions.cpp:498
 msgid "KStars::slotFind() - Not enough memory for dialog"
 msgstr "KStars::slotFind() - Memoria insuficiente pal diálogu"
 
-#: kstarsactions.cpp:544
+#: kstarsactions.cpp:550
 msgid ""
 "Warning:  You are about to execute a remote shell script on your machine. "
 msgstr "Avisu. Va a executar un guión d'órdenes remotu sobro la so máquina. "
 
-#: kstarsactions.cpp:545
+#: kstarsactions.cpp:551
 msgid ""
 "If you absolutely trust the source of this script, press Continue to execute "
 "the script; "
@@ -495,60 +507,60 @@ msgstr ""
 "Si confía absolutamente nel orixe d'esti guión, calque «Continuar» pa "
 "executalu, "
 
-#: kstarsactions.cpp:546
+#: kstarsactions.cpp:552
 msgid "to save the file without executing it, press Save; "
 msgstr "pa guardar el ficheru ensin executalu, calque «Guardar»; "
 
-#: kstarsactions.cpp:547
+#: kstarsactions.cpp:553
 msgid "to cancel the download, press Cancel. "
 msgstr "pa encaboxar la descarga, calque «Encaboxar». "
 
-#: kstarsactions.cpp:549
+#: kstarsactions.cpp:555
 msgid "Really Execute Remote Script?"
 msgstr "¿Executar el guión remotu?"
 
-#: kstarsactions.cpp:559
+#: kstarsactions.cpp:565
 msgid "Save location is invalid. Try another location?"
 msgstr "El destín nel que guardar nun ye válidu. ¿Intentar otru?"
 
-#: kstarsactions.cpp:560
+#: kstarsactions.cpp:566
 msgid "Invalid Save Location"
 msgstr "Destín d'atroxáu nun válidu"
 
-#: kstarsactions.cpp:560
+#: kstarsactions.cpp:566
 msgid "Try Another"
 msgstr "Intentar otru"
 
-#: kstarsactions.cpp:560 tools/observinglist.cpp:867
+#: kstarsactions.cpp:566 tools/observinglist.cpp:867
 msgid "Do Not Try"
 msgstr "Nun intentar"
 
-#: kstarsactions.cpp:575 kstarsdcop.cpp:510 tools/scriptbuilder.cpp:1072
+#: kstarsactions.cpp:581 kstarsdcop.cpp:510 tools/scriptbuilder.cpp:1072
 #: indi/streamwg.cpp:191
 #, kde-format
 msgid "Could not upload image to remote location: %1"
 msgstr "Imposible cargar imaxe na ubicación remota: %1"
 
-#: kstarsactions.cpp:576 kstarsdcop.cpp:511 tools/scriptbuilder.cpp:1073
+#: kstarsactions.cpp:582 kstarsdcop.cpp:511 tools/scriptbuilder.cpp:1073
 #: indi/streamwg.cpp:192
 msgid "Could not upload file"
 msgstr "Nun se puede cargar el ficheru"
 
-#: kstarsactions.cpp:580
+#: kstarsactions.cpp:586
 msgid "Could not download the file."
 msgstr "Nun se puede descargar el ficheru."
 
-#: kstarsactions.cpp:580 tools/scriptbuilder.cpp:988
+#: kstarsactions.cpp:586 tools/scriptbuilder.cpp:988
 msgid "Download Error"
 msgstr "Fallu de descarga"
 
-#: kstarsactions.cpp:602 kstarsdata.cpp:831 tools/observinglist.cpp:749
+#: kstarsactions.cpp:608 kstarsdata.cpp:831 tools/observinglist.cpp:749
 #: oal/execute.cpp:277
 #, kde-format
 msgid "Could not open file %1"
 msgstr "Imposible abrir el ficheru %1"
 
-#: kstarsactions.cpp:627
+#: kstarsactions.cpp:633
 msgid ""
 "The selected script contains unrecognized elements, indicating that it was "
 "not created using the KStars script builder. This script may not function "
@@ -560,24 +572,24 @@ msgstr ""
 "furrule afayadizamente y puede inclusu contener códigu dañible. ¿Quier "
 "executalu de toes formes?"
 
-#: kstarsactions.cpp:631
+#: kstarsactions.cpp:637
 msgid "Script Validation Failed"
 msgstr "Falló la validación del guión"
 
-#: kstarsactions.cpp:631
+#: kstarsactions.cpp:637
 msgid "Run Nevertheless"
 msgstr "Executar de toes toes"
 
-#: kstarsactions.cpp:636
+#: kstarsactions.cpp:642
 #, kde-format
 msgid "Running script: %1"
 msgstr "Guión n'execución: %1"
 
-#: kstarsactions.cpp:651
+#: kstarsactions.cpp:657
 msgid "Script finished."
 msgstr "Guión fináu."
 
-#: kstarsactions.cpp:660
+#: kstarsactions.cpp:666
 msgid ""
 "You can save printer ink by using the \"Star Chart\" color scheme, which "
 "uses a white background. Would you like to temporarily switch to the Star "
@@ -587,65 +599,65 @@ msgstr ""
 "estelar», qu'usa un fondu blancu. ¿Quier camudar al esquema de color de "
 "carta estelar pa imprentar?"
 
-#: kstarsactions.cpp:665
+#: kstarsactions.cpp:671
 msgid "Switch to Star Chart Colors?"
 msgstr "¿Camudar a colores de carta estelar?"
 
-#: kstarsactions.cpp:666
+#: kstarsactions.cpp:672
 msgid "Switch Color Scheme"
 msgstr "Camudar esquema de color"
 
-#: kstarsactions.cpp:666
+#: kstarsactions.cpp:672
 msgid "Do Not Switch"
 msgstr "Nun camudar"
 
-#: kstarsactions.cpp:729 kstarsinit.cpp:207
+#: kstarsactions.cpp:735 kstarsinit.cpp:207
 msgid "Engage &Tracking"
 msgstr "Activar &seguimientu"
 
-#: kstarsactions.cpp:747 kstars.cpp:153 skymap.cpp:397
+#: kstarsactions.cpp:753 kstars.cpp:153 skymap.cpp:397
 msgid "Stop &Tracking"
 msgstr "Detener &seguimientu"
 
 #. i18n: file: dialogs/newfov.ui:239
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
-#: kstarsactions.cpp:812 rc.cpp:2877
+#: kstarsactions.cpp:818 rc.cpp:2877
 msgid "degrees"
 msgstr "graos"
 
-#: kstarsactions.cpp:815
+#: kstarsactions.cpp:821
 msgid "arcminutes"
 msgstr "minutos d'arcu"
 
-#: kstarsactions.cpp:819
+#: kstarsactions.cpp:825
 msgid "arcseconds"
 msgstr "segundos d'arcu"
 
-#: kstarsactions.cpp:821
+#: kstarsactions.cpp:827
 msgctxt "field of view"
 msgid "FOV"
 msgstr "Campu de visión"
 
-#: kstarsactions.cpp:832
+#: kstarsactions.cpp:838
 msgctxt "The user should enter an angle for the field-of-view of the display"
 msgid "Enter Desired Field-of-View Angle"
 msgstr "Introducir ángulu de campu de visión deseyáu"
 
-#: kstarsactions.cpp:833
+#: kstarsactions.cpp:839
 msgid "Enter a field-of-view angle in degrees: "
 msgstr "Introducir ángulu de campu de visión en graos: "
 
-#: kstarsactions.cpp:853 kstars.cpp:158 kstarsinit.cpp:229
+#: kstarsactions.cpp:859 kstars.cpp:158 kstarsinit.cpp:229
 #, fuzzy
 msgid "Switch to horizonal view (Horizontal &Coordinates)"
 msgstr "&Coordenaes horizontales"
 
-#: kstarsactions.cpp:859 kstars.cpp:158 kstarsinit.cpp:229
+#: kstarsactions.cpp:865 kstars.cpp:158 kstarsinit.cpp:229
 #, fuzzy
 msgid "Switch to star globe view (Equatorial &Coordinates)"
 msgstr "&Coordenaes ecuatoriales"
 
-#: kstarsactions.cpp:879
+#: kstarsactions.cpp:885
 #, kde-format
 msgid "Projection system: %1"
 msgstr "Sistema de proteición: %1"
@@ -654,9 +666,9 @@ msgstr "Sistema de proteición: %1"
 msgid "Switch to QPainter backend"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:688
+#. i18n: file: kstars.kcfg:698
 #. i18n: ectx: label, entry (UseGL), group (View)
-#: kstars.cpp:162 kstarsinit.cpp:235 rc.cpp:5487 skymap.cpp:1066
+#: kstars.cpp:162 kstarsinit.cpp:235 rc.cpp:5499 skymap.cpp:1066
 #: skymap.cpp:1073 skymap.cpp:1081
 msgid "Switch to OpenGL backend"
 msgstr ""
@@ -859,7 +871,7 @@ msgstr "Nun s'alcuentra l'oxetu denomáu %1"
 msgid "Could not set time: %1 / %2 / %3 ; %4:%5:%6"
 msgstr "Nun se puede afitar la hora: %1 / %2 / %3 ; %4:%5:%6"
 
-#: kstarsdata.cpp:1117
+#: kstarsdata.cpp:1118
 #, kde-format
 msgid "Could not set location named %1, %2, %3"
 msgstr "Nun se puede afitar la ubicación denomada %1, %2, %3"
@@ -24952,79 +24964,83 @@ msgstr ""
 msgid "Update asteroids orbital elements"
 msgstr ""
 
-#: kstarsinit.cpp:356
+#: kstarsinit.cpp:354
+msgid "Update Recent Supernovae data"
+msgstr ""
+
+#: kstarsinit.cpp:358
 msgid "Calculator..."
 msgstr "Calculadora..."
 
-#: kstarsinit.cpp:360
+#: kstarsinit.cpp:362
 msgid "Observing List..."
 msgstr "Llista d'observación..."
 
-#: kstarsinit.cpp:365
+#: kstarsinit.cpp:367
 msgid "AAVSO Light Curves..."
 msgstr "Curves de lluminosidá de la AAVSO..."
 
-#: kstarsinit.cpp:369
+#: kstarsinit.cpp:371
 msgid "Altitude vs. Time..."
 msgstr "Altor frente a tiempu..."
 
-#: kstarsinit.cpp:372
+#: kstarsinit.cpp:374
 msgid "What's up Tonight..."
 msgstr "Qué asocede esta nueche..."
 
-#: kstarsinit.cpp:375
+#: kstarsinit.cpp:377
 msgid "Sky Calendar..."
 msgstr "Calendario celeste..."
 
-#: kstarsinit.cpp:384
+#: kstarsinit.cpp:386
 msgid "Script Builder..."
 msgstr "Constructor de guiones..."
 
-#: kstarsinit.cpp:387
+#: kstarsinit.cpp:389
 msgid "Solar System..."
 msgstr "Sistema Solar..."
 
-#: kstarsinit.cpp:390
+#: kstarsinit.cpp:392
 msgid "Jupiter's Moons..."
 msgstr "Llunes de Xúpiter..."
 
-#: kstarsinit.cpp:393
+#: kstarsinit.cpp:395
 msgid "Flags..."
 msgstr "Marques..."
 
-#: kstarsinit.cpp:396
+#: kstarsinit.cpp:398
 msgid "Define Equipment..."
 msgstr ""
 
-#: kstarsinit.cpp:399
+#: kstarsinit.cpp:401
 msgid "Add Observer..."
 msgstr ""
 
-#: kstarsinit.cpp:404
+#: kstarsinit.cpp:406
 msgid "Execute the session Plan..."
 msgstr ""
 
-#: kstarsinit.cpp:412
+#: kstarsinit.cpp:414
 msgid "Telescope Wizard..."
 msgstr "Asistente de telescopiu..."
 
-#: kstarsinit.cpp:415
+#: kstarsinit.cpp:417
 msgid "Device Manager..."
 msgstr "Xestor de preseos..."
 
-#: kstarsinit.cpp:419
+#: kstarsinit.cpp:421
 msgid "Capture Image Sequence..."
 msgstr "Capturar secuencia d'imaxe..."
 
-#: kstarsinit.cpp:423
+#: kstarsinit.cpp:425
 msgid "INDI Control Panel..."
 msgstr "Panel de control de INDI..."
 
-#: kstarsinit.cpp:431
+#: kstarsinit.cpp:433
 msgid "Displays the Tip of the Day"
 msgstr ""
 
-#: kstarsinit.cpp:438
+#: kstarsinit.cpp:440
 msgctxt "Tooltip describing the nature of the time step control"
 msgid ""
 "Use this to set the rate at which time in the simulation flows.\n"
@@ -25034,130 +25050,143 @@ msgid ""
 "of 'X'."
 msgstr ""
 
-#: kstarsinit.cpp:442
+#: kstarsinit.cpp:444
 msgid "Time step control"
 msgstr "Control del paso temporal"
 
-#: kstarsinit.cpp:447
+#: kstarsinit.cpp:449
 msgctxt "Toggle Stars in the display"
 msgid "Stars"
 msgstr "Estrelles"
 
-#: kstarsinit.cpp:449
+#: kstarsinit.cpp:451
 msgid "Toggle stars"
 msgstr "Amosar/Anubrir estrelles"
 
-#: kstarsinit.cpp:451
+#: kstarsinit.cpp:453
 msgctxt "Toggle Deep Sky Objects in the display"
 msgid "Deep Sky"
 msgstr "Cielu profundu"
 
-#: kstarsinit.cpp:453
+#: kstarsinit.cpp:455
 msgid "Toggle deep sky objects"
 msgstr "Amosar/Anubrir oxetos del cielu profundu"
 
-#: kstarsinit.cpp:455
+#: kstarsinit.cpp:457
 msgctxt "Toggle Solar System objects in the display"
 msgid "Solar System"
 msgstr "Sistema Solar"
 
-#: kstarsinit.cpp:457
+#: kstarsinit.cpp:459
 msgid "Toggle Solar system objects"
 msgstr "Amosar/Anubrir oxetos del sistema solar"
 
-#: kstarsinit.cpp:459
+#: kstarsinit.cpp:461
 msgctxt "Toggle Constellation Lines in the display"
 msgid "Const. Lines"
 msgstr "Llinies de constelación"
 
-#: kstarsinit.cpp:461
+#: kstarsinit.cpp:463
 msgid "Toggle constellation lines"
 msgstr "Amosar/Anubrir llinies de constelaciones"
 
-#: kstarsinit.cpp:463
+#: kstarsinit.cpp:465
 msgctxt "Toggle Constellation Names in the display"
 msgid "Const. Names"
 msgstr "Nome de constelación"
 
-#: kstarsinit.cpp:465
+#: kstarsinit.cpp:467
 msgid "Toggle constellation names"
 msgstr "Amosar/Anubrir nomes de constelaciones"
 
-#: kstarsinit.cpp:467
+#: kstarsinit.cpp:469
 msgctxt "Toggle Constellation Boundaries in the display"
 msgid "C. Boundaries"
 msgstr "Llímite de la constelación"
 
-#: kstarsinit.cpp:469
+#: kstarsinit.cpp:471
 msgid "Toggle constellation boundaries"
 msgstr "Amosar/Anubrir berbesos de les constelaciones"
 
-#: kstarsinit.cpp:471
+#: kstarsinit.cpp:473
 msgctxt "Toggle Milky Way in the display"
 msgid "Milky Way"
 msgstr "Carreru Santiago (Vía Lláctea)"
 
-#: kstarsinit.cpp:473
+#: kstarsinit.cpp:475
 msgid "Toggle milky way"
 msgstr "Amosar/Anubrir Carreru de Santiago (Vía Lláctea)"
 
-#: kstarsinit.cpp:475
+#: kstarsinit.cpp:477
 msgctxt "Toggle Coordinate Grid in the display"
 msgid "Coord. grid"
 msgstr "Rexella de coordenaes"
 
-#: kstarsinit.cpp:477
+#: kstarsinit.cpp:479
 msgid "Toggle coordinate grid"
 msgstr "Amosar/Anubrir rexella de coordenaes"
 
-#: kstarsinit.cpp:479
+#: kstarsinit.cpp:481
 msgctxt "Toggle the opaque fill of the ground polygon in the display"
 msgid "Ground"
 msgstr "Suelu"
 
-#: kstarsinit.cpp:481
+#: kstarsinit.cpp:483
 msgid "Toggle opaque ground"
 msgstr "Amosar/Anubrir suelu"
 
-#: kstarsinit.cpp:483
+#: kstarsinit.cpp:485
 msgctxt "Toggle flags in the display"
 msgid "Flags"
 msgstr "Marques"
 
-#: kstarsinit.cpp:485
+#: kstarsinit.cpp:487
 msgid "Toggle flags"
 msgstr "Amosar/anubrir indicadores"
 
-#: kstarsinit.cpp:487
+#: kstarsinit.cpp:489
 #, fuzzy
 #| msgid "Satellite Track"
 msgctxt "Toggle satellites in the display"
 msgid "Satellites"
 msgstr "Rastréu de satélite"
 
-#: kstarsinit.cpp:489
+#: kstarsinit.cpp:491
 #, fuzzy
 #| msgid "Toggle constellation lines"
 msgid "Toggle satellites"
 msgstr "Amosar/Anubrir llinies de constelaciones"
 
-#: kstarsinit.cpp:516
+#: kstarsinit.cpp:493
+#, fuzzy
+#| msgid "Supernova Remnant"
+msgctxt "Toggle supernovae in the display"
+msgid "Supernovae"
+msgstr "Restu de supernova"
+
+#: kstarsinit.cpp:495
+#, fuzzy
+#| msgid "Toggle stars"
+msgid "Toggle supernovae"
+msgstr "Amosar/Anubrir estrelles"
+
+#: kstarsinit.cpp:522
 msgid "Edit FOV Symbols..."
 msgstr "Editar símbolos del campu de visión..."
 
-#: kstarsinit.cpp:522
+#: kstarsinit.cpp:528
 msgid " Welcome to KStars "
 msgstr " Bienveníu a KStars "
 
-#: kstarsinit.cpp:610 skymap.cpp:357 widgets/infoboxwidget.cpp:117
+#: kstarsinit.cpp:616 skymap.cpp:357 widgets/infoboxwidget.cpp:117
 msgid "nothing"
 msgstr "res"
 
-#: kstarsinit.cpp:656
+#: kstarsinit.cpp:662
 msgid "Initial Position is Below Horizon"
 msgstr "La posición inicial ta bajo l'horizonte"
 
-#: kstarsinit.cpp:657
+#: kstarsinit.cpp:663
 msgid ""
 "The initial position is below the horizon.\n"
 "Would you like to reset to the default position?"
@@ -25165,11 +25194,11 @@ msgstr ""
 "La posición solicitada ta por debaxo del horizonte.\n"
 "¿Deseya apuntar cargar la posición predefinida?"
 
-#: kstarsinit.cpp:659
+#: kstarsinit.cpp:665
 msgid "Reset Position"
 msgstr "Reiniciar posición"
 
-#: kstarsinit.cpp:659
+#: kstarsinit.cpp:665
 msgid "Do Not Reset"
 msgstr "Nun reaniciar"
 
@@ -25387,7 +25416,7 @@ msgstr "xandru.martino@softastur.org"
 #. i18n: ectx: attribute (title), widget (QWidget, XplanetTabGeneral)
 #. i18n: file: indi/opsindi.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, generalGroup)
-#: rc.cpp:5 rc.cpp:3343 dialogs/detaildialog.cpp:101
+#: rc.cpp:5 rc.cpp:3343 dialogs/detaildialog.cpp:102
 msgid "General"
 msgstr "Xeneral"
 
@@ -25405,9 +25434,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:53
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetTitle)
-#. i18n: file: kstars.kcfg:871
+#. i18n: file: kstars.kcfg:886
 #. i18n: ectx: whatsthis, entry (XplanetTitle), group (Xplanet)
-#: rc.cpp:14 rc.cpp:5700
+#: rc.cpp:14 rc.cpp:5718
 msgid "Set the window’s title."
 msgstr "Afitar el títulu de la ventana."
 
@@ -25453,9 +25482,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:155
 #. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetPath)
-#. i18n: file: kstars.kcfg:866
+#. i18n: file: kstars.kcfg:881
 #. i18n: ectx: whatsthis, entry (XplanetPath), group (Xplanet)
-#: rc.cpp:41 rc.cpp:5694
+#: rc.cpp:41 rc.cpp:5712
 msgid "Xplanet binary path"
 msgstr "Camín al binariu Xplanet"
 
@@ -25473,17 +25502,17 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:194
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetFOV)
-#. i18n: file: kstars.kcfg:1027
+#. i18n: file: kstars.kcfg:1042
 #. i18n: ectx: whatsthis, entry (XplanetFOV), group (Xplanet)
-#: rc.cpp:50 rc.cpp:5882
+#: rc.cpp:50 rc.cpp:5900
 msgid "If checked, use kstars's FOV."
 msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:197
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetFOV)
-#. i18n: file: kstars.kcfg:1026
+#. i18n: file: kstars.kcfg:1041
 #. i18n: ectx: label, entry (XplanetFOV), group (Xplanet)
-#: rc.cpp:53 rc.cpp:5879
+#: rc.cpp:53 rc.cpp:5897
 msgid "Use kstars's FOV"
 msgstr "Usar el campu de visión de KStars"
 
@@ -25509,11 +25538,11 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_XplanetWaitValue)
 #. i18n: file: xplanet/opsxplanet.ui:222
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetWaitValue)
-#. i18n: file: kstars.kcfg:971
+#. i18n: file: kstars.kcfg:986
 #. i18n: ectx: label, entry (XplanetWaitValue), group (Xplanet)
-#. i18n: file: kstars.kcfg:972
+#. i18n: file: kstars.kcfg:987
 #. i18n: ectx: whatsthis, entry (XplanetWaitValue), group (Xplanet)
-#: rc.cpp:65 rc.cpp:68 rc.cpp:5813 rc.cpp:5816
+#: rc.cpp:65 rc.cpp:68 rc.cpp:5831 rc.cpp:5834
 msgid "Number of seconds to wait before updating"
 msgstr "Númberu de segundos pa esperar enantes d'anovar"
 
@@ -25537,9 +25566,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:257
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetGlare)
-#. i18n: file: kstars.kcfg:937
+#. i18n: file: kstars.kcfg:952
 #. i18n: ectx: whatsthis, entry (XplanetGlare), group (Xplanet)
-#: rc.cpp:80 rc.cpp:5774
+#: rc.cpp:80 rc.cpp:5792
 msgid ""
 "Draw a glare around the sun with with a radius of the specified value larger "
 "than the Sun.  The default value is 28."
@@ -25559,9 +25588,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:280
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetMagnitude)
-#. i18n: file: kstars.kcfg:1002
+#. i18n: file: kstars.kcfg:1017
 #. i18n: ectx: whatsthis, entry (XplanetMagnitude), group (Xplanet)
-#: rc.cpp:89 rc.cpp:5852
+#: rc.cpp:89 rc.cpp:5870
 msgid ""
 "A star of the specified magnitude will have a pixel brightness of 1. The "
 "default value is 10. Stars will be drawn more brightly if this number is "
@@ -25576,9 +25605,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:290
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetStarmap)
-#. i18n: file: kstars.kcfg:1052
+#. i18n: file: kstars.kcfg:1067
 #. i18n: ectx: whatsthis, entry (XplanetStarmap), group (Xplanet)
-#: rc.cpp:95 rc.cpp:5912
+#: rc.cpp:95 rc.cpp:5930
 msgid "If checked, use star map file to draw the background stars."
 msgstr ""
 
@@ -25592,11 +25621,11 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetStarmapPath)
 #. i18n: file: xplanet/opsxplanet.ui:309
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetStarmapPath)
-#. i18n: file: kstars.kcfg:1056
+#. i18n: file: kstars.kcfg:1071
 #. i18n: ectx: label, entry (XplanetStarmapPath), group (Xplanet)
-#. i18n: file: kstars.kcfg:1057
+#. i18n: file: kstars.kcfg:1072
 #. i18n: ectx: whatsthis, entry (XplanetStarmapPath), group (Xplanet)
-#: rc.cpp:101 rc.cpp:104 rc.cpp:5915 rc.cpp:5918
+#: rc.cpp:101 rc.cpp:104 rc.cpp:5933 rc.cpp:5936
 msgid "Star map file path"
 msgstr ""
 
@@ -25608,9 +25637,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:325
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetArcFilePath)
-#. i18n: file: kstars.kcfg:1012
+#. i18n: file: kstars.kcfg:1027
 #. i18n: ectx: whatsthis, entry (XplanetArcFilePath), group (Xplanet)
-#: rc.cpp:110 rc.cpp:5864
+#: rc.cpp:110 rc.cpp:5882
 msgid "Specify an arc file to be plotted against the background stars."
 msgstr ""
 
@@ -25652,9 +25681,9 @@ msgstr "Calidá JPEG"
 
 #. i18n: file: xplanet/opsxplanet.ui:398
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetQuality)
-#. i18n: file: kstars.kcfg:1062
+#. i18n: file: kstars.kcfg:1077
 #. i18n: ectx: whatsthis, entry (XplanetQuality), group (Xplanet)
-#: rc.cpp:131 rc.cpp:5924
+#: rc.cpp:131 rc.cpp:5942
 msgid ""
 "This option is only used when creating JPEG images. The quality can range "
 "from 0 to 100. The default value is 80."
@@ -25698,9 +25727,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:495
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetLabelString)
-#. i18n: file: kstars.kcfg:901
+#. i18n: file: kstars.kcfg:916
 #. i18n: ectx: whatsthis, entry (XplanetLabelString), group (Xplanet)
-#: rc.cpp:153 rc.cpp:5737
+#: rc.cpp:153 rc.cpp:5755
 #, no-c-format
 msgid ""
 "Specify the text of the first line of the label. By default, it says "
@@ -25745,9 +25774,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:532
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetFontSize)
-#. i18n: file: kstars.kcfg:906
+#. i18n: file: kstars.kcfg:921
 #. i18n: ectx: whatsthis, entry (XplanetFontSize), group (Xplanet)
-#: rc.cpp:172 rc.cpp:5743
+#: rc.cpp:172 rc.cpp:5761
 msgid "Specify the point size."
 msgstr "Especificar el tamañu del puntu."
 
@@ -25763,49 +25792,49 @@ msgstr "Color:"
 
 #. i18n: file: xplanet/opsxplanet.ui:546
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_XplanetColor)
-#. i18n: file: kstars.kcfg:910
+#. i18n: file: kstars.kcfg:925
 #. i18n: ectx: label, entry (XplanetColor), group (Xplanet)
-#: rc.cpp:178 rc.cpp:5746
+#: rc.cpp:178 rc.cpp:5764
 msgid "Label color"
 msgstr "Color de la etiqueta"
 
 #. i18n: file: xplanet/opsxplanet.ui:549
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_XplanetColor)
-#. i18n: file: kstars.kcfg:911
+#. i18n: file: kstars.kcfg:926
 #. i18n: ectx: whatsthis, entry (XplanetColor), group (Xplanet)
-#: rc.cpp:181 rc.cpp:5749
+#: rc.cpp:181 rc.cpp:5767
 msgid "Set the color for the label."
 msgstr "Afitar el color de la etiqueta."
 
 #. i18n: file: xplanet/opsxplanet.ui:563
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelTL)
-#. i18n: file: kstars.kcfg:920
+#. i18n: file: kstars.kcfg:935
 #. i18n: ectx: label, entry (XplanetLabelTL), group (Xplanet)
-#: rc.cpp:184 rc.cpp:5759
+#: rc.cpp:184 rc.cpp:5777
 msgid "Top left"
 msgstr "Arriba izquierda"
 
 #. i18n: file: xplanet/opsxplanet.ui:573
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelBL)
-#. i18n: file: kstars.kcfg:932
+#. i18n: file: kstars.kcfg:947
 #. i18n: ectx: label, entry (XplanetLabelBL), group (Xplanet)
-#: rc.cpp:187 rc.cpp:5768
+#: rc.cpp:187 rc.cpp:5786
 msgid "Bottom left"
 msgstr "Abaxo izquierda"
 
 #. i18n: file: xplanet/opsxplanet.ui:587
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelTR)
-#. i18n: file: kstars.kcfg:924
+#. i18n: file: kstars.kcfg:939
 #. i18n: ectx: label, entry (XplanetLabelTR), group (Xplanet)
-#: rc.cpp:190 rc.cpp:5762
+#: rc.cpp:190 rc.cpp:5780
 msgid "Top right"
 msgstr "Arriba drecha"
 
 #. i18n: file: xplanet/opsxplanet.ui:597
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelBR)
-#. i18n: file: kstars.kcfg:928
+#. i18n: file: kstars.kcfg:943
 #. i18n: ectx: label, entry (XplanetLabelBR), group (Xplanet)
-#: rc.cpp:193 rc.cpp:5765
+#: rc.cpp:193 rc.cpp:5783
 msgid "Bottom right"
 msgstr "Abaxo drecha"
 
@@ -25829,9 +25858,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:657
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetLabel)
-#. i18n: file: kstars.kcfg:885
+#. i18n: file: kstars.kcfg:900
 #. i18n: ectx: label, entry (XplanetLabel), group (Xplanet)
-#: rc.cpp:205 rc.cpp:5715
+#: rc.cpp:205 rc.cpp:5733
 msgid "Show label"
 msgstr ""
 
@@ -25849,9 +25878,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:683
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetMarkerFile)
-#. i18n: file: kstars.kcfg:1032
+#. i18n: file: kstars.kcfg:1047
 #. i18n: ectx: whatsthis, entry (XplanetMarkerFile), group (Xplanet)
-#: rc.cpp:214 rc.cpp:5888
+#: rc.cpp:214 rc.cpp:5906
 msgid "If checked, use the specified marker file."
 msgstr ""
 
@@ -25863,9 +25892,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:693
 #. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetMarkerFilePath)
-#. i18n: file: kstars.kcfg:1036
+#. i18n: file: kstars.kcfg:1051
 #. i18n: ectx: label, entry (XplanetMarkerFilePath), group (Xplanet)
-#: rc.cpp:220 rc.cpp:5891
+#: rc.cpp:220 rc.cpp:5909
 msgid "Marker file path"
 msgstr ""
 
@@ -25897,23 +25926,23 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:716
 #. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetMarkerBoundsPath)
-#. i18n: file: kstars.kcfg:1046
+#. i18n: file: kstars.kcfg:1061
 #. i18n: ectx: label, entry (XplanetMarkerBoundsPath), group (Xplanet)
-#: rc.cpp:235 rc.cpp:5903
+#: rc.cpp:235 rc.cpp:5921
 msgid "Marker bounds file path"
 msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:719
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetMarkerBoundsPath)
-#. i18n: file: kstars.kcfg:1047
+#. i18n: file: kstars.kcfg:1062
 #. i18n: ectx: whatsthis, entry (XplanetMarkerBoundsPath), group (Xplanet)
-#: rc.cpp:238 rc.cpp:5906
+#: rc.cpp:238 rc.cpp:5924
 msgid "Write coordinates of the bounding box for each marker to this file."
 msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:747
 #. i18n: ectx: attribute (title), widget (QWidget, XplanetTabPosition)
-#: rc.cpp:241 dialogs/detaildialog.cpp:417
+#: rc.cpp:241 dialogs/detaildialog.cpp:434
 msgid "Position"
 msgstr "Posición"
 
@@ -25925,17 +25954,17 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:767
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_XplanetLatitude)
-#. i18n: file: kstars.kcfg:951
+#. i18n: file: kstars.kcfg:966
 #. i18n: ectx: label, entry (XplanetLatitude), group (Xplanet)
-#: rc.cpp:247 rc.cpp:5789
+#: rc.cpp:247 rc.cpp:5807
 msgid "Latitude in degrees"
 msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:770
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetLatitude)
-#. i18n: file: kstars.kcfg:952
+#. i18n: file: kstars.kcfg:967
 #. i18n: ectx: whatsthis, entry (XplanetLatitude), group (Xplanet)
-#: rc.cpp:250 rc.cpp:5792
+#: rc.cpp:250 rc.cpp:5810
 msgid ""
 "Render the target body as seen from above the specified latitude (in "
 "degrees).  The default value is 0."
@@ -25949,17 +25978,17 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:790
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_XplanetLongitude)
-#. i18n: file: kstars.kcfg:956
+#. i18n: file: kstars.kcfg:971
 #. i18n: ectx: label, entry (XplanetLongitude), group (Xplanet)
-#: rc.cpp:256 rc.cpp:5795
+#: rc.cpp:256 rc.cpp:5813
 msgid "Longitude in degrees"
 msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:793
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetLongitude)
-#. i18n: file: kstars.kcfg:957
+#. i18n: file: kstars.kcfg:972
 #. i18n: ectx: whatsthis, entry (XplanetLongitude), group (Xplanet)
-#: rc.cpp:259 rc.cpp:5798
+#: rc.cpp:259 rc.cpp:5816
 msgid ""
 "Place the observer above the specified longitude (in degrees).  Longitude is "
 "positive going east, negative going west (for the earth and moon), so for "
@@ -25974,17 +26003,17 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:815
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetRandom)
-#. i18n: file: kstars.kcfg:942
+#. i18n: file: kstars.kcfg:957
 #. i18n: ectx: whatsthis, entry (XplanetRandom), group (Xplanet)
-#: rc.cpp:265 rc.cpp:5780
+#: rc.cpp:265 rc.cpp:5798
 msgid "Place the observer above a random latitude and longitude"
 msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:838
 #. i18n: ectx: attribute (title), widget (QWidget, XplanetTabProjection)
-#. i18n: file: kstars.kcfg:961
+#. i18n: file: kstars.kcfg:976
 #. i18n: ectx: label, entry (XplanetProjection), group (Xplanet)
-#: rc.cpp:268 rc.cpp:5801
+#: rc.cpp:268 rc.cpp:5819
 msgid "Projection"
 msgstr ""
 
@@ -26028,9 +26057,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:897
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetBackground)
-#. i18n: file: kstars.kcfg:976
+#. i18n: file: kstars.kcfg:991
 #. i18n: ectx: label, entry (XplanetBackground), group (Xplanet)
-#: rc.cpp:289 rc.cpp:5819
+#: rc.cpp:289 rc.cpp:5837
 msgid "Use background"
 msgstr "Usar fondu"
 
@@ -26060,9 +26089,9 @@ msgstr ""
 
 #. i18n: file: xplanet/opsxplanet.ui:940
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_XplanetBackgroundColorValue)
-#. i18n: file: kstars.kcfg:996
+#. i18n: file: kstars.kcfg:1011
 #. i18n: ectx: label, entry (XplanetBackgroundColorValue), group (Xplanet)
-#: rc.cpp:304 rc.cpp:5843
+#: rc.cpp:304 rc.cpp:5861
 msgid "Background color"
 msgstr ""
 
@@ -27737,7 +27766,7 @@ msgstr "Almanaque"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #: rc.cpp:1074 rc.cpp:1525 rc.cpp:1609 skyglpainter.cpp:210
 #: tools/conjunctions.cpp:92 tools/conjunctions.cpp:276
-#: tools/modcalcplanets.cpp:271 dialogs/finddialog.cpp:171
+#: tools/modcalcplanets.cpp:271 dialogs/finddialog.cpp:172
 #: skyobjects/kssun.cpp:27
 msgid "Sun"
 msgstr "Sol"
@@ -28181,10 +28210,10 @@ msgstr "Cuerpu del sistema solar:"
 #. i18n: file: options/opssolarsystem.ui:181
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMercury)
 #: rc.cpp:1495 rc.cpp:1579 rc.cpp:2246 rc.cpp:4173 skyglpainter.cpp:214
-#: skymapdrawabstract.cpp:140 skyqpainter.cpp:312 tools/conjunctions.cpp:84
+#: skymapdrawabstract.cpp:140 skyqpainter.cpp:313 tools/conjunctions.cpp:84
 #: tools/ksconjunct.cpp:59 tools/modcalcplanets.cpp:268
 #: tools/obslistwizard.cpp:470 tools/obslistwizard.cpp:472
-#: skycomponents/skymapcomposite.cpp:421 skyobjects/ksplanetbase.cpp:152
+#: skycomponents/skymapcomposite.cpp:438 skyobjects/ksplanetbase.cpp:152
 #: skyobjects/ksplanet.cpp:125 skyobjects/ksplanet.cpp:158
 #: skyobjects/ksplanet.cpp:340 skyobjects/ksplanet.cpp:368
 msgid "Mercury"
@@ -28201,7 +28230,7 @@ msgstr "Mercuriu"
 #: rc.cpp:1498 rc.cpp:1582 rc.cpp:2249 rc.cpp:4137 skymapdrawabstract.cpp:141
 #: tools/conjunctions.cpp:85 tools/ksconjunct.cpp:59
 #: tools/modcalcplanets.cpp:268 tools/obslistwizard.cpp:484
-#: tools/obslistwizard.cpp:486 skycomponents/skymapcomposite.cpp:422
+#: tools/obslistwizard.cpp:486 skycomponents/skymapcomposite.cpp:439
 #: skyobjects/ksplanetbase.cpp:152 skyobjects/ksplanet.cpp:128
 #: skyobjects/ksplanet.cpp:160 skyobjects/ksplanet.cpp:343
 #: skyobjects/ksplanet.cpp:370
@@ -28228,10 +28257,10 @@ msgstr "Tierra"
 #. i18n: file: options/opssolarsystem.ui:64
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMars)
 #: rc.cpp:1504 rc.cpp:1588 rc.cpp:2252 rc.cpp:4092 skyglpainter.cpp:212
-#: skymapdrawabstract.cpp:143 skyqpainter.cpp:310 tools/conjunctions.cpp:86
+#: skymapdrawabstract.cpp:143 skyqpainter.cpp:311 tools/conjunctions.cpp:86
 #: tools/ksconjunct.cpp:56 tools/modcalcplanets.cpp:269
 #: tools/obslistwizard.cpp:497 tools/obslistwizard.cpp:499
-#: skycomponents/skymapcomposite.cpp:424 skyobjects/ksplanetbase.cpp:152
+#: skycomponents/skymapcomposite.cpp:441 skyobjects/ksplanetbase.cpp:152
 #: skyobjects/ksplanet.cpp:131 skyobjects/ksplanet.cpp:162
 #: skyobjects/ksplanet.cpp:345 skyobjects/ksplanet.cpp:374
 msgid "Mars"
@@ -28246,10 +28275,10 @@ msgstr "Marte"
 #. i18n: file: options/opssolarsystem.ui:155
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowJupiter)
 #: rc.cpp:1507 rc.cpp:1591 rc.cpp:2255 rc.cpp:4155 skyglpainter.cpp:214
-#: skymapdrawabstract.cpp:144 skyqpainter.cpp:312 tools/conjunctions.cpp:87
+#: skymapdrawabstract.cpp:144 skyqpainter.cpp:313 tools/conjunctions.cpp:87
 #: tools/jmoontool.cpp:119 tools/modcalcplanets.cpp:269
 #: tools/obslistwizard.cpp:510 tools/obslistwizard.cpp:512
-#: skycomponents/skymapcomposite.cpp:425 skyobjects/ksplanetbase.cpp:153
+#: skycomponents/skymapcomposite.cpp:442 skyobjects/ksplanetbase.cpp:153
 #: skyobjects/ksplanet.cpp:134 skyobjects/ksplanet.cpp:164
 #: skyobjects/ksplanet.cpp:347 skyobjects/ksplanet.cpp:376
 msgid "Jupiter"
@@ -28264,9 +28293,9 @@ msgstr "Xúpiter"
 #. i18n: file: options/opssolarsystem.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSaturn)
 #: rc.cpp:1510 rc.cpp:1594 rc.cpp:2258 rc.cpp:4074 skyglpainter.cpp:214
-#: skymapdrawabstract.cpp:145 skyqpainter.cpp:312 tools/conjunctions.cpp:88
+#: skymapdrawabstract.cpp:145 skyqpainter.cpp:313 tools/conjunctions.cpp:88
 #: tools/modcalcplanets.cpp:269 tools/obslistwizard.cpp:524
-#: tools/obslistwizard.cpp:526 skycomponents/skymapcomposite.cpp:426
+#: tools/obslistwizard.cpp:526 skycomponents/skymapcomposite.cpp:443
 #: skyobjects/ksplanetbase.cpp:153 skyobjects/ksplanetbase.cpp:271
 #: skyobjects/ksplanet.cpp:137 skyobjects/ksplanet.cpp:166
 #: skyobjects/ksplanet.cpp:349 skyobjects/ksplanet.cpp:378
@@ -28284,7 +28313,7 @@ msgstr "Saturnu"
 #: rc.cpp:1513 rc.cpp:1597 rc.cpp:2261 rc.cpp:4191 skymapdrawabstract.cpp:146
 #: tools/conjunctions.cpp:89 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:538 tools/obslistwizard.cpp:540
-#: skycomponents/skymapcomposite.cpp:427 skyobjects/ksplanetbase.cpp:153
+#: skycomponents/skymapcomposite.cpp:444 skyobjects/ksplanetbase.cpp:153
 #: skyobjects/ksplanet.cpp:140 skyobjects/ksplanet.cpp:168
 #: skyobjects/ksplanet.cpp:357 skyobjects/ksplanet.cpp:380
 msgid "Uranus"
@@ -28301,7 +28330,7 @@ msgstr "Uranu"
 #: rc.cpp:1516 rc.cpp:1600 rc.cpp:2264 rc.cpp:4182 skymapdrawabstract.cpp:147
 #: tools/conjunctions.cpp:90 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:553 tools/obslistwizard.cpp:555
-#: skycomponents/skymapcomposite.cpp:428 skyobjects/ksplanetbase.cpp:154
+#: skycomponents/skymapcomposite.cpp:445 skyobjects/ksplanetbase.cpp:154
 #: skyobjects/ksplanet.cpp:143 skyobjects/ksplanet.cpp:170
 #: skyobjects/ksplanet.cpp:359 skyobjects/ksplanet.cpp:382
 msgid "Neptune"
@@ -28318,8 +28347,8 @@ msgstr "Neptunu"
 #: rc.cpp:1519 rc.cpp:1603 rc.cpp:2267 rc.cpp:4110 skymapdrawabstract.cpp:148
 #: tools/conjunctions.cpp:91 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:567 tools/obslistwizard.cpp:569
-#: tools/wutdialog.cpp:284 skycomponents/skymapcomposite.cpp:429
-#: dialogs/detaildialog.cpp:196 skyobjects/kspluto.cpp:35
+#: tools/wutdialog.cpp:284 skycomponents/skymapcomposite.cpp:446
+#: dialogs/detaildialog.cpp:198 skyobjects/kspluto.cpp:35
 msgid "Pluto"
 msgstr "Plutón"
 
@@ -29806,7 +29835,7 @@ msgstr "Abre la ventana de Detalles pal oxetu resaltáu."
 
 #. i18n: file: tools/wutdialog.ui:480
 #. i18n: ectx: property (text), widget (KPushButton, DetailButton)
-#: rc.cpp:2415 skymap.cpp:681 dialogs/detaildialog.cpp:84
+#: rc.cpp:2415 skymap.cpp:681 dialogs/detaildialog.cpp:85
 msgid "Object Details"
 msgstr "Detalles d'oxetu"
 
@@ -29969,7 +29998,7 @@ msgstr "Descripción:"
 
 #. i18n: file: dialogs/addlinkdialog.ui:73
 #. i18n: ectx: property (text), widget (QLabel, URLLabel)
-#: rc.cpp:2493 dialogs/detaildialog.cpp:691
+#: rc.cpp:2493 dialogs/detaildialog.cpp:708
 msgid "URL:"
 msgstr "URL:"
 
@@ -31845,11 +31874,11 @@ msgstr "Asistente de telescopiu"
 
 #. i18n: file: indi/telescopewizard.ui:54
 #. i18n: ectx: property (text), widget (QPushButton, helpB)
-#. i18n: file: kstarsui-indi.rc:120
+#. i18n: file: kstarsui-indi.rc:121
 #. i18n: ectx: Menu (help)
-#. i18n: file: kstarsui.rc:114
+#. i18n: file: kstarsui.rc:115
 #. i18n: ectx: Menu (help)
-#. i18n: file: kstarsui-win.rc:114
+#. i18n: file: kstarsui-win.rc:115
 #. i18n: ectx: Menu (help)
 #: rc.cpp:3520 rc.cpp:4617 rc.cpp:4659 rc.cpp:4704
 msgid "&Help"
@@ -33881,11 +33910,11 @@ msgstr "&Ver"
 
 #. i18n: file: fitsviewer.rc:25
 #. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: kstarsui-indi.rc:135
+#. i18n: file: kstarsui-indi.rc:136
 #. i18n: ectx: ToolBar (kstarsToolBar)
-#. i18n: file: kstarsui.rc:129
+#. i18n: file: kstarsui.rc:130
 #. i18n: ectx: ToolBar (kstarsToolBar)
-#. i18n: file: kstarsui-win.rc:129
+#. i18n: file: kstarsui-win.rc:130
 #. i18n: ectx: ToolBar (kstarsToolBar)
 #: rc.cpp:4575 rc.cpp:4620 rc.cpp:4662 rc.cpp:4707
 msgid "Main Toolbar"
@@ -33985,21 +34014,21 @@ msgstr "Barra d'e&stáu"
 msgid "&Updates"
 msgstr "Anovar"
 
-#. i18n: file: kstarsui-indi.rc:116
+#. i18n: file: kstarsui-indi.rc:117
 #. i18n: ectx: Menu (oal)
-#. i18n: file: kstarsui.rc:108
+#. i18n: file: kstarsui.rc:109
 #. i18n: ectx: Menu (oal)
-#. i18n: file: kstarsui-win.rc:110
+#. i18n: file: kstarsui-win.rc:111
 #. i18n: ectx: Menu (oal)
 #: rc.cpp:4614 rc.cpp:4656 rc.cpp:4701
 msgid "&Observation"
 msgstr ""
 
-#. i18n: file: kstarsui-indi.rc:145
+#. i18n: file: kstarsui-indi.rc:146
 #. i18n: ectx: ToolBar (viewToolBar)
-#. i18n: file: kstarsui.rc:139
+#. i18n: file: kstarsui.rc:140
 #. i18n: ectx: ToolBar (viewToolBar)
-#. i18n: file: kstarsui-win.rc:139
+#. i18n: file: kstarsui-win.rc:140
 #. i18n: ectx: ToolBar (viewToolBar)
 #: rc.cpp:4623 rc.cpp:4665 rc.cpp:4710
 msgid "View Toolbar"
@@ -34850,26 +34879,58 @@ msgid "Toggle whether comet name labels are drawn in the sky map."
 msgstr "Amuesa/Anubre los nomes de los cometes nel mapa celeste."
 
 #. i18n: file: kstars.kcfg:357
-#. i18n: ectx: label, entry (ShowCBounds), group (View)
+#. i18n: ectx: label, entry (ShowSupernovae), group (View)
 #: rc.cpp:5100
+#, fuzzy
+#| msgid "Draw Jupiter in the sky map?"
+msgid "Draw supernovae in the sky map?"
+msgstr "¿Amosar Xúpiter nel mapa celeste?"
+
+#. i18n: file: kstars.kcfg:358
+#. i18n: ectx: whatsthis, entry (ShowSupernovae), group (View)
+#: rc.cpp:5103
+#, fuzzy
+#| msgid "Toggle whether asteroids are drawn in the sky map."
+msgid "Toggle whether supernovae are drawn in the sky map."
+msgstr "Amuesa/Anubre los asteroides nel mapa celeste."
+
+#. i18n: file: kstars.kcfg:362
+#. i18n: ectx: label, entry (ShowSupernovaNames), group (View)
+#: rc.cpp:5106
+#, fuzzy
+#| msgid "Label asteroid names in the sky map?"
+msgid "Label Supernova Names in the sky map?"
+msgstr "¿Etiquetar los asteroides nel mapa celeste?"
+
+#. i18n: file: kstars.kcfg:363
+#. i18n: ectx: whatsthis, entry (ShowSupernovaNames), group (View)
+#: rc.cpp:5109
+#, fuzzy
+#| msgid "Toggle whether asteroid name labels are drawn in the sky map."
+msgid "Toggle whether supernova name labels are drawn in the sky map."
+msgstr "Amuesa/Anubre los nomes de los asteroides nel mapa celeste."
+
+#. i18n: file: kstars.kcfg:367
+#. i18n: ectx: label, entry (ShowCBounds), group (View)
+#: rc.cpp:5112
 msgid "Draw constellation boundaries in the sky map?"
 msgstr "¿Anubrir los berbesos de les constelaciones nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:358
+#. i18n: file: kstars.kcfg:368
 #. i18n: ectx: whatsthis, entry (ShowCBounds), group (View)
-#: rc.cpp:5103
+#: rc.cpp:5115
 msgid "Toggle whether constellation boundaries are drawn in the sky map."
 msgstr "Amuesa/Anubre los berbesos de les constelaciones nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:362
+#. i18n: file: kstars.kcfg:372
 #. i18n: ectx: label, entry (ShowHighlightedCBound), group (View)
-#: rc.cpp:5106
+#: rc.cpp:5118
 msgid "Highlight the central constellation boundary in the sky map?"
 msgstr "¿Resaltar el borde de la constelación central nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:363
+#. i18n: file: kstars.kcfg:373
 #. i18n: ectx: whatsthis, entry (ShowHighlightedCBound), group (View)
-#: rc.cpp:5109
+#: rc.cpp:5121
 msgid ""
 "Toggle whether constellation boundary containing the central focus point is "
 "highlighted in the sky map."
@@ -34877,201 +34938,201 @@ msgstr ""
 "Amuesa/Anubre nel mapa celeste el resaltáu del borde de la constelación na "
 "que se alcuentra el centru d'apuntáu."
 
-#. i18n: file: kstars.kcfg:367
+#. i18n: file: kstars.kcfg:377
 #. i18n: ectx: label, entry (ShowCLines), group (View)
-#: rc.cpp:5112
+#: rc.cpp:5124
 msgid "Draw constellation lines in the sky map?"
 msgstr "¿Dibuxar les llinies de les constelaciones nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:368
+#. i18n: file: kstars.kcfg:378
 #. i18n: ectx: whatsthis, entry (ShowCLines), group (View)
-#: rc.cpp:5115
+#: rc.cpp:5127
 msgid "Toggle whether constellation lines are drawn in the sky map."
 msgstr "Amuesa/Anubre les llinies de les constelaciones nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:372
+#. i18n: file: kstars.kcfg:382
 #. i18n: ectx: label, entry (ShowCNames), group (View)
-#: rc.cpp:5118
+#: rc.cpp:5130
 msgid "Draw constellation names in the sky map?"
 msgstr "¿Dibuxar los nomes de les constelaciones nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:373
+#. i18n: file: kstars.kcfg:383
 #. i18n: ectx: whatsthis, entry (ShowCNames), group (View)
-#: rc.cpp:5121
+#: rc.cpp:5133
 msgid "Toggle whether constellation name labels are drawn in the sky map."
 msgstr ""
 "Amuesa/Anubre etiquetes colos nomes de les constelaciones nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:377
+#. i18n: file: kstars.kcfg:387
 #. i18n: ectx: label, entry (ShowDeepSky), group (View)
-#: rc.cpp:5124
+#: rc.cpp:5136
 msgid "Draw \"deep sky\" objects in the sky map?"
 msgstr "¿Dibuxar oxetos del «cielu profundu» nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:378
+#. i18n: file: kstars.kcfg:388
 #. i18n: ectx: whatsthis, entry (ShowDeepSky), group (View)
-#: rc.cpp:5127
+#: rc.cpp:5139
 msgid "Toggle whether deep-sky objects are drawn in the sky map."
 msgstr "Amuesa/Anubre oxetos del cielu profundu nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:382
+#. i18n: file: kstars.kcfg:392
 #. i18n: ectx: label, entry (ShowEcliptic), group (View)
-#: rc.cpp:5130
+#: rc.cpp:5142
 msgid "Draw ecliptic line in the sky map?"
 msgstr "¿Dibuxar la eclíptica nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:383
+#. i18n: file: kstars.kcfg:393
 #. i18n: ectx: whatsthis, entry (ShowEcliptic), group (View)
-#: rc.cpp:5133
+#: rc.cpp:5145
 msgid "Toggle whether the ecliptic line is drawn in the sky map."
 msgstr "Amuesa/Anubre la llinia de la eclíptica nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:387
+#. i18n: file: kstars.kcfg:397
 #. i18n: ectx: label, entry (ShowEquator), group (View)
-#: rc.cpp:5136
+#: rc.cpp:5148
 msgid "Draw equator line in the sky map?"
 msgstr "¿Dibuxar el ecuador nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:388
+#. i18n: file: kstars.kcfg:398
 #. i18n: ectx: whatsthis, entry (ShowEquator), group (View)
-#: rc.cpp:5139
+#: rc.cpp:5151
 msgid "Toggle whether the equator line is drawn in the sky map."
 msgstr "Amuesa/Anubre la llinia del ecuador nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:392
+#. i18n: file: kstars.kcfg:402
 #. i18n: ectx: label, entry (ShowGrid), group (View)
-#: rc.cpp:5142
+#: rc.cpp:5154
 msgid "Draw coordinate grid in the sky map?"
 msgstr "¿Dibuxar la rexella de coordenaes nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:393
+#. i18n: file: kstars.kcfg:403
 #. i18n: ectx: whatsthis, entry (ShowGrid), group (View)
-#: rc.cpp:5145
+#: rc.cpp:5157
 msgid "Toggle whether the coordinate grid is drawn in the sky map."
 msgstr "Amuesa/Anubre la rexella de coordenaes nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:397
+#. i18n: file: kstars.kcfg:407
 #. i18n: ectx: label, entry (ShowGround), group (View)
-#: rc.cpp:5148
+#: rc.cpp:5160
 msgid "Draw opaque ground in the sky map?"
 msgstr "¿Dibuxar el suelu opacu nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:398
+#. i18n: file: kstars.kcfg:408
 #. i18n: ectx: whatsthis, entry (ShowGround), group (View)
-#: rc.cpp:5151
+#: rc.cpp:5163
 msgid "Toggle whether the region below the horizon is opaque."
 msgstr ""
 "Amuesa/Anubre la rexón por debaxo del horizonte como un área opaca nel mapa "
 "celeste."
 
-#. i18n: file: kstars.kcfg:402
+#. i18n: file: kstars.kcfg:412
 #. i18n: ectx: label, entry (ShowHorizon), group (View)
-#: rc.cpp:5154
+#: rc.cpp:5166
 msgid "Draw horizon line in the sky map?"
 msgstr "¿Dibuxar la llinia del horizonte nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:403
+#. i18n: file: kstars.kcfg:413
 #. i18n: ectx: whatsthis, entry (ShowHorizon), group (View)
-#: rc.cpp:5157
+#: rc.cpp:5169
 msgid "Toggle whether the horizon line is drawn in the sky map."
 msgstr "Amuesa/Anubre la llinia del horizonte nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:407
+#. i18n: file: kstars.kcfg:417
 #. i18n: ectx: label, entry (ShowFlags), group (View)
-#: rc.cpp:5160
+#: rc.cpp:5172
 msgid "Draw flags in the sky map?"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:408
+#. i18n: file: kstars.kcfg:418
 #. i18n: ectx: whatsthis, entry (ShowFlags), group (View)
-#: rc.cpp:5163
+#: rc.cpp:5175
 msgid "Toggle whether flags are drawn in the sky map."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:412
+#. i18n: file: kstars.kcfg:422
 #. i18n: ectx: label, entry (ShowIC), group (View)
-#: rc.cpp:5166
+#: rc.cpp:5178
 msgid "Draw IC objects in the sky map?"
 msgstr "¿Amosar oxetos IC nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:413
+#. i18n: file: kstars.kcfg:423
 #. i18n: ectx: whatsthis, entry (ShowIC), group (View)
-#: rc.cpp:5169
+#: rc.cpp:5181
 msgid "Toggle whether IC objects are drawn in the sky map."
 msgstr "Amuesa/Anubre oxetos IC nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:417
+#. i18n: file: kstars.kcfg:427
 #. i18n: ectx: label, entry (ShowNGC), group (View)
-#: rc.cpp:5172
+#: rc.cpp:5184
 msgid "Draw NGC objects in the sky map?"
 msgstr "¿Amosar oxetos NGC nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:418
+#. i18n: file: kstars.kcfg:428
 #. i18n: ectx: whatsthis, entry (ShowNGC), group (View)
-#: rc.cpp:5175
+#: rc.cpp:5187
 msgid "Toggle whether NGC objects are drawn in the sky map."
 msgstr "Amuesa/Anubre oxetos NGC nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:422
+#. i18n: file: kstars.kcfg:432
 #. i18n: ectx: label, entry (ShowMessier), group (View)
-#: rc.cpp:5178
+#: rc.cpp:5190
 msgid "Draw Messier objects in the sky map?"
 msgstr "¿Amosar oxetos Messier nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:423
+#. i18n: file: kstars.kcfg:433
 #. i18n: ectx: whatsthis, entry (ShowMessier), group (View)
-#: rc.cpp:5181
+#: rc.cpp:5193
 msgid "Toggle whether Messier objects are drawn in the sky map."
 msgstr "Amuesa/Anubre los oxetos Messier nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:427
+#. i18n: file: kstars.kcfg:437
 #. i18n: ectx: label, entry (ShowMessierImages), group (View)
-#: rc.cpp:5184
+#: rc.cpp:5196
 msgid "Draw Messier object images in the sky map?"
 msgstr "¿Amosar les imáxenes de los oxetos Messier nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:428
+#. i18n: file: kstars.kcfg:438
 #. i18n: ectx: whatsthis, entry (ShowMessierImages), group (View)
-#: rc.cpp:5187
+#: rc.cpp:5199
 msgid "Toggle whether Messier objects are rendered as images in the sky map."
 msgstr ""
 "Amuesa los oxetos Messier como imáxenes o como puntos nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:432
+#. i18n: file: kstars.kcfg:442
 #. i18n: ectx: label, entry (ShowOther), group (View)
-#: rc.cpp:5190
+#: rc.cpp:5202
 msgid "Draw extra deep-sky objects in the sky map?"
 msgstr "¿Amosar oxetos extra del cielu profundu nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:433
+#. i18n: file: kstars.kcfg:443
 #. i18n: ectx: whatsthis, entry (ShowOther), group (View)
-#: rc.cpp:5193
+#: rc.cpp:5205
 msgid "Toggle whether extra objects are drawn in the sky map."
 msgstr "Amuesa/Anubre oxetos extra nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:437
+#. i18n: file: kstars.kcfg:447
 #. i18n: ectx: label, entry (ShowMilkyWay), group (View)
-#: rc.cpp:5196
+#: rc.cpp:5208
 msgid "Draw Milky Way contour in the sky map?"
 msgstr "¿Amosar el contornu de la Vía Lláctea nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:438
+#. i18n: file: kstars.kcfg:448
 #. i18n: ectx: whatsthis, entry (ShowMilkyWay), group (View)
-#: rc.cpp:5199
+#: rc.cpp:5211
 msgid "Toggle whether the Milky Way contour is drawn in the sky map."
 msgstr "Amuesa/Anubre el contornu de la Vía Lláctea nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:442
+#. i18n: file: kstars.kcfg:452
 #. i18n: ectx: label, entry (FillMilkyWay), group (View)
-#: rc.cpp:5202
+#: rc.cpp:5214
 msgid "Fill Milky Way contour? (false means use outline only)"
 msgstr ""
 "¿Rellenar el contornu de la Vía Lláctea? (Falso significa resaltar namái el "
 "borde)"
 
-#. i18n: file: kstars.kcfg:443
+#. i18n: file: kstars.kcfg:453
 #. i18n: ectx: whatsthis, entry (FillMilkyWay), group (View)
-#: rc.cpp:5205
+#: rc.cpp:5217
 msgid ""
 "Toggle whether the Milky Way contour is filled.  When this option is false, "
 "the Milky Way is shown as an outline."
@@ -35079,15 +35140,15 @@ msgstr ""
 "Rellena o non el contornu de la Vía Lláctea. Cuando esta opción ye falsa la "
 "Vía Lláctea amuésase como un contornu."
 
-#. i18n: file: kstars.kcfg:447
+#. i18n: file: kstars.kcfg:457
 #. i18n: ectx: label, entry (ShowSolarSystem), group (View)
-#: rc.cpp:5208
+#: rc.cpp:5220
 msgid "Meta-option for all planets in the sky map."
 msgstr "Meta opción pa todos lo planetes nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:448
+#. i18n: file: kstars.kcfg:458
 #. i18n: ectx: whatsthis, entry (ShowSolarSystem), group (View)
-#: rc.cpp:5211
+#: rc.cpp:5223
 msgid ""
 "Meta-option to control whether all major planets (and the Sun and Moon) are "
 "drawn in the sky map."
@@ -35095,15 +35156,15 @@ msgstr ""
 "Meta opción pa controlar si tolos planetes mayores (y el Sol y la Lluna) se "
 "muestran nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:452
+#. i18n: file: kstars.kcfg:462
 #. i18n: ectx: label, entry (ShowPlanetImages), group (View)
-#: rc.cpp:5214
+#: rc.cpp:5226
 msgid "Draw planets as images in the sky map?"
 msgstr "¿Amosar los planetes como imáxenes nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:453
+#. i18n: file: kstars.kcfg:463
 #. i18n: ectx: whatsthis, entry (ShowPlanetImages), group (View)
-#: rc.cpp:5217
+#: rc.cpp:5229
 msgid ""
 "Toggle whether major planets (and the Sun and Moon) are rendered as images "
 "in the sky map."
@@ -35111,15 +35172,15 @@ msgstr ""
 "Si se selecciona, los planetes, el Sol y la Lluna se mostrarán como "
 "imáxenes  nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:457
+#. i18n: file: kstars.kcfg:467
 #. i18n: ectx: label, entry (ShowPlanetNames), group (View)
-#: rc.cpp:5220
+#: rc.cpp:5232
 msgid "Label planet names in the sky map?"
 msgstr "¿Etiquetar los planetes nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:458
+#. i18n: file: kstars.kcfg:468
 #. i18n: ectx: whatsthis, entry (ShowPlanetNames), group (View)
-#: rc.cpp:5223
+#: rc.cpp:5235
 msgid ""
 "Toggle whether major planets (and the Sun and Moon) are labeled in the sky "
 "map."
@@ -35127,214 +35188,214 @@ msgstr ""
 "Amuesa/Anubre etiquetes colos nomes de los planetes mayores (y el Sol y la "
 "Lluna) nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:462
+#. i18n: file: kstars.kcfg:472
 #. i18n: ectx: label, entry (ShowSun), group (View)
-#: rc.cpp:5226
+#: rc.cpp:5238
 msgid "Draw Sun in the sky map?"
 msgstr "¿Amosar el Sol nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:463
+#. i18n: file: kstars.kcfg:473
 #. i18n: ectx: whatsthis, entry (ShowSun), group (View)
-#: rc.cpp:5229
+#: rc.cpp:5241
 msgid "Toggle whether the Sun is drawn in the sky map."
 msgstr "Amuesa/Anubre el Sol nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:467
+#. i18n: file: kstars.kcfg:477
 #. i18n: ectx: label, entry (ShowMoon), group (View)
-#: rc.cpp:5232
+#: rc.cpp:5244
 msgid "Draw Moon in the sky map?"
 msgstr "¿Amosar la Lluna nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:468
+#. i18n: file: kstars.kcfg:478
 #. i18n: ectx: whatsthis, entry (ShowMoon), group (View)
-#: rc.cpp:5235
+#: rc.cpp:5247
 msgid "Toggle whether the Moon is drawn in the sky map."
 msgstr "Amuesa/Anubre la Lluna nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:472
+#. i18n: file: kstars.kcfg:482
 #. i18n: ectx: label, entry (ShowMercury), group (View)
-#: rc.cpp:5238
+#: rc.cpp:5250
 msgid "Draw Mercury in the sky map?"
 msgstr "¿Amosar Mercuriu nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:473
+#. i18n: file: kstars.kcfg:483
 #. i18n: ectx: whatsthis, entry (ShowMercury), group (View)
-#: rc.cpp:5241
+#: rc.cpp:5253
 msgid "Toggle whether Mercury is drawn in the sky map."
 msgstr "Amuesa/Anubre Mercuriu nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:477
+#. i18n: file: kstars.kcfg:487
 #. i18n: ectx: label, entry (ShowVenus), group (View)
-#: rc.cpp:5244
+#: rc.cpp:5256
 msgid "Draw Venus in the sky map?"
 msgstr "¿Amosar Venus nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:478
+#. i18n: file: kstars.kcfg:488
 #. i18n: ectx: whatsthis, entry (ShowVenus), group (View)
-#: rc.cpp:5247
+#: rc.cpp:5259
 msgid "Toggle whether Venus is drawn in the sky map."
 msgstr "Amuesa/Anubre Venus nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:482
+#. i18n: file: kstars.kcfg:492
 #. i18n: ectx: label, entry (ShowMars), group (View)
-#: rc.cpp:5250
+#: rc.cpp:5262
 msgid "Draw Mars in the sky map?"
 msgstr "¿Amosar Marte nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:483
+#. i18n: file: kstars.kcfg:493
 #. i18n: ectx: whatsthis, entry (ShowMars), group (View)
-#: rc.cpp:5253
+#: rc.cpp:5265
 msgid "Toggle whether Mars is drawn in the sky map."
 msgstr "Amuesa/Anubre Marte nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:487
+#. i18n: file: kstars.kcfg:497
 #. i18n: ectx: label, entry (ShowJupiter), group (View)
-#: rc.cpp:5256
+#: rc.cpp:5268
 msgid "Draw Jupiter in the sky map?"
 msgstr "¿Amosar Xúpiter nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:488
+#. i18n: file: kstars.kcfg:498
 #. i18n: ectx: whatsthis, entry (ShowJupiter), group (View)
-#: rc.cpp:5259
+#: rc.cpp:5271
 msgid "Toggle whether Jupiter is drawn in the sky map."
 msgstr "Amuesa/Anubre Xúpiter nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:492
+#. i18n: file: kstars.kcfg:502
 #. i18n: ectx: label, entry (ShowSaturn), group (View)
-#: rc.cpp:5262
+#: rc.cpp:5274
 msgid "Draw Saturn in the sky map?"
 msgstr "¿Amosar Saturnu nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:493
+#. i18n: file: kstars.kcfg:503
 #. i18n: ectx: whatsthis, entry (ShowSaturn), group (View)
-#: rc.cpp:5265
+#: rc.cpp:5277
 msgid "Toggle whether Saturn is drawn in the sky map."
 msgstr "Amuesa/Anubre Saturnu nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:497
+#. i18n: file: kstars.kcfg:507
 #. i18n: ectx: label, entry (ShowUranus), group (View)
-#: rc.cpp:5268
+#: rc.cpp:5280
 msgid "Draw Uranus in the sky map?"
 msgstr "¿Amosar Uranu nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:498
+#. i18n: file: kstars.kcfg:508
 #. i18n: ectx: whatsthis, entry (ShowUranus), group (View)
-#: rc.cpp:5271
+#: rc.cpp:5283
 msgid "Toggle whether Uranus is drawn in the sky map."
 msgstr "Amuesa/Anubre Uranu nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:502
+#. i18n: file: kstars.kcfg:512
 #. i18n: ectx: label, entry (ShowNeptune), group (View)
-#: rc.cpp:5274
+#: rc.cpp:5286
 msgid "Draw Neptune in the sky map?"
 msgstr "¿Amosar Neptunu nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:503
+#. i18n: file: kstars.kcfg:513
 #. i18n: ectx: whatsthis, entry (ShowNeptune), group (View)
-#: rc.cpp:5277
+#: rc.cpp:5289
 msgid "Toggle whether Neptune is drawn in the sky map."
 msgstr "Amuesa/Anubre Neptunu nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:507
+#. i18n: file: kstars.kcfg:517
 #. i18n: ectx: label, entry (ShowPluto), group (View)
-#: rc.cpp:5280
+#: rc.cpp:5292
 msgid "Draw Pluto in the sky map?"
 msgstr "¿Amosar Plutón nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:508
+#. i18n: file: kstars.kcfg:518
 #. i18n: ectx: whatsthis, entry (ShowPluto), group (View)
-#: rc.cpp:5283
+#: rc.cpp:5295
 msgid "Toggle whether Pluto is drawn in the sky map."
 msgstr "Amuesa/Anubre Plutón nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:512
+#. i18n: file: kstars.kcfg:522
 #. i18n: ectx: label, entry (ShowStars), group (View)
-#: rc.cpp:5286
+#: rc.cpp:5298
 msgid "Draw stars in the sky map?"
 msgstr "¿Amosar estrelles nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:513
+#. i18n: file: kstars.kcfg:523
 #. i18n: ectx: whatsthis, entry (ShowStars), group (View)
-#: rc.cpp:5289
+#: rc.cpp:5301
 msgid "Toggle whether stars are drawn in the sky map."
 msgstr "Amuesa/Anubre les estrelles nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:517
+#. i18n: file: kstars.kcfg:527
 #. i18n: ectx: label, entry (ShowStarMagnitudes), group (View)
-#: rc.cpp:5292
+#: rc.cpp:5304
 msgid "Label star magnitudes in the sky map?"
 msgstr "¿Etiquetar les magnitúes estelares nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:518
+#. i18n: file: kstars.kcfg:528
 #. i18n: ectx: whatsthis, entry (ShowStarMagnitudes), group (View)
-#: rc.cpp:5295
+#: rc.cpp:5307
 msgid ""
 "Toggle whether star magnitude (brightness) labels are shown in the sky map."
 msgstr ""
 "Amuesa/Anubre etiquetes coles magnitúes (el rellumu) estelares nel mapa "
 "celeste."
 
-#. i18n: file: kstars.kcfg:522
+#. i18n: file: kstars.kcfg:532
 #. i18n: ectx: label, entry (ShowStarNames), group (View)
-#: rc.cpp:5298
+#: rc.cpp:5310
 msgid "Label star names in the sky map?"
 msgstr "¿Etiquetar les estrelles nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:523
+#. i18n: file: kstars.kcfg:533
 #. i18n: ectx: whatsthis, entry (ShowStarNames), group (View)
-#: rc.cpp:5301
+#: rc.cpp:5313
 msgid "Toggle whether star name labels are shown in the sky map."
 msgstr "Amuesa/Anubre etiquetes colos nomes de les estrelles nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:527
+#. i18n: file: kstars.kcfg:537
 #. i18n: ectx: label, entry (ShowDeepSkyMagnitudes), group (View)
-#: rc.cpp:5304
+#: rc.cpp:5316
 msgid "Label deep-sky object magnitudes in the sky map?"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:528
+#. i18n: file: kstars.kcfg:538
 #. i18n: ectx: whatsthis, entry (ShowDeepSkyMagnitudes), group (View)
-#: rc.cpp:5307
+#: rc.cpp:5319
 msgid ""
 "Toggle whether deep-sky object magnitude (brightness) labels are shown in "
 "the sky map."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:532
+#. i18n: file: kstars.kcfg:542
 #. i18n: ectx: label, entry (ShowDeepSkyNames), group (View)
-#: rc.cpp:5310
+#: rc.cpp:5322
 msgid "Label deep-sky objects in the sky map?"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:533
+#. i18n: file: kstars.kcfg:543
 #. i18n: ectx: whatsthis, entry (ShowDeepSkyNames), group (View)
-#: rc.cpp:5313
+#: rc.cpp:5325
 msgid "Toggle whether deep-sky object name labels are shown in the sky map."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:537
+#. i18n: file: kstars.kcfg:547
 #. i18n: ectx: label, entry (SlewTimeScale), group (View)
-#: rc.cpp:5316
+#: rc.cpp:5328
 msgid "Minimum timescale for forced-slewing mode"
 msgstr "Escala temporal mínima pa mou forzado de tránsito."
 
-#. i18n: file: kstars.kcfg:538
+#. i18n: file: kstars.kcfg:548
 #. i18n: ectx: whatsthis, entry (SlewTimeScale), group (View)
-#: rc.cpp:5319
+#: rc.cpp:5331
 msgid "The timescale above which slewing mode is forced on at all times."
 msgstr ""
 "La escala de tiempos por encima de la cual el mou de tránsito ye forzado "
 "siempres."
 
-#. i18n: file: kstars.kcfg:542
+#. i18n: file: kstars.kcfg:552
 #. i18n: ectx: label, entry (BoxBGMode), group (View)
-#: rc.cpp:5322
+#: rc.cpp:5334
 msgid "InfoBoxes Background fill mode"
 msgstr "Mou de relleno del fondu del panel informativu"
 
-#. i18n: file: kstars.kcfg:543
+#. i18n: file: kstars.kcfg:553
 #. i18n: ectx: whatsthis, entry (BoxBGMode), group (View)
-#: rc.cpp:5325
+#: rc.cpp:5337
 msgid ""
 "The background fill mode for the on-screen information boxes: 0=\"no BG\"; 1="
 "\"semi-transparent BG\"; 2=\"opaque BG\""
@@ -35342,51 +35403,51 @@ msgstr ""
 "El mou de rellenu del fondu pa los paneles informativos: 0=«ensin fondu»; "
 "1=«fondu semitresparente»; 2=«fondu opacu»."
 
-#. i18n: file: kstars.kcfg:547
+#. i18n: file: kstars.kcfg:557
 #. i18n: ectx: label, entry (Projection), group (View)
-#: rc.cpp:5328
+#: rc.cpp:5340
 msgid "Mapping projection algorithm"
 msgstr "Algoritmo de proyección."
 
-#. i18n: file: kstars.kcfg:548
+#. i18n: file: kstars.kcfg:558
 #. i18n: ectx: whatsthis, entry (Projection), group (View)
-#: rc.cpp:5331
+#: rc.cpp:5343
 msgid "Algorithm for the mapping projection."
 msgstr "Algoritmo pa la proyección de la esfera celeste en un plano."
 
-#. i18n: file: kstars.kcfg:552
+#. i18n: file: kstars.kcfg:562
 #. i18n: ectx: label, entry (UseAbbrevConstellNames), group (View)
-#: rc.cpp:5334
+#: rc.cpp:5346
 msgid "Use abbreviated constellation names?"
 msgstr "¿Usar nomes abreviaos pa los nomes de les constelaciones?"
 
-#. i18n: file: kstars.kcfg:553
+#. i18n: file: kstars.kcfg:563
 #. i18n: ectx: whatsthis, entry (UseAbbrevConstellNames), group (View)
-#: rc.cpp:5337
+#: rc.cpp:5349
 msgid "Use official IAU abbreviations for constellation names."
 msgstr "Usar les abreviatures de la IAU pa los nomes de les constelaciones."
 
-#. i18n: file: kstars.kcfg:557
+#. i18n: file: kstars.kcfg:567
 #. i18n: ectx: label, entry (UseLatinConstellNames), group (View)
-#: rc.cpp:5340
+#: rc.cpp:5352
 msgid "Use Latin constellation names?"
 msgstr "¿Usar nomes de les constelaciones en llatín?"
 
-#. i18n: file: kstars.kcfg:558
+#. i18n: file: kstars.kcfg:568
 #. i18n: ectx: whatsthis, entry (UseLatinConstellNames), group (View)
-#: rc.cpp:5343
+#: rc.cpp:5355
 msgid "Use Latin constellation names."
 msgstr "Usar nomes de les constelaciones en llatín."
 
-#. i18n: file: kstars.kcfg:562
+#. i18n: file: kstars.kcfg:572
 #. i18n: ectx: label, entry (UseLocalConstellNames), group (View)
-#: rc.cpp:5346
+#: rc.cpp:5358
 msgid "Use localized constellation names?"
 msgstr "¿Usar los nomes traducíos de les constelaciones?"
 
-#. i18n: file: kstars.kcfg:563
+#. i18n: file: kstars.kcfg:573
 #. i18n: ectx: whatsthis, entry (UseLocalConstellNames), group (View)
-#: rc.cpp:5349
+#: rc.cpp:5361
 msgid ""
 "Use localized constellation names (if localized names are not available, "
 "default to Latin names)."
@@ -35394,15 +35455,15 @@ msgstr ""
 "Usar los nomes traducíos de les constelaciones. Si los nomes traducíos nun "
 "tán disponibles, pásase a los nomes llatinos."
 
-#. i18n: file: kstars.kcfg:567
+#. i18n: file: kstars.kcfg:577
 #. i18n: ectx: label, entry (UseAltAz), group (View)
-#: rc.cpp:5352
+#: rc.cpp:5364
 msgid "Use horizontal coordinate system?"
 msgstr "¿Usar el sistema de coordenaes horizontales?"
 
-#. i18n: file: kstars.kcfg:568
+#. i18n: file: kstars.kcfg:578
 #. i18n: ectx: whatsthis, entry (UseAltAz), group (View)
-#: rc.cpp:5355
+#: rc.cpp:5367
 msgid ""
 "Display the sky with horizontal coordinates (when false, equatorial "
 "coordinates will be used)."
@@ -35410,28 +35471,28 @@ msgstr ""
 "Amuesa el mapa celeste en coordenaes horizontales (si ye falso se amuesa en "
 "coordenaes ecuatoriales)."
 
-#. i18n: file: kstars.kcfg:572
+#. i18n: file: kstars.kcfg:582
 #. i18n: ectx: label, entry (UseAutoLabel), group (View)
-#: rc.cpp:5358
+#: rc.cpp:5370
 msgid "Automatically label focused object?"
 msgstr "¿Axuntar etiqueta de nome al oxetu apuntado?"
 
-#. i18n: file: kstars.kcfg:573
+#. i18n: file: kstars.kcfg:583
 #. i18n: ectx: whatsthis, entry (UseAutoLabel), group (View)
-#: rc.cpp:5361
+#: rc.cpp:5373
 msgid ""
 "Toggle whether a centered object automatically gets a name label attached."
 msgstr "Amuesa/Anubre automáticamente la etiqueta del nome del oxetu apuntado."
 
-#. i18n: file: kstars.kcfg:577
+#. i18n: file: kstars.kcfg:587
 #. i18n: ectx: label, entry (UseAutoTrail), group (View)
-#: rc.cpp:5364 tools/scriptbuilder.cpp:854
+#: rc.cpp:5376 tools/scriptbuilder.cpp:854
 msgid "Automatically add trail to centered solar system body?"
 msgstr "¿Amestar traza automáticamente al cuerpu del sistema solar apuntado?"
 
-#. i18n: file: kstars.kcfg:578
+#. i18n: file: kstars.kcfg:588
 #. i18n: ectx: whatsthis, entry (UseAutoTrail), group (View)
-#: rc.cpp:5367
+#: rc.cpp:5379
 msgid ""
 "Toggle whether a centered solar system object automatically gets a trail "
 "attached, as long as it remains centered."
@@ -35439,42 +35500,42 @@ msgstr ""
 "Amuesa/Anubre la traza del oxetu del sistema solar mientres este permaneza "
 "apuntado."
 
-#. i18n: file: kstars.kcfg:582
+#. i18n: file: kstars.kcfg:592
 #. i18n: ectx: label, entry (UseHoverLabel), group (View)
-#: rc.cpp:5370
+#: rc.cpp:5382
 msgid "Add temporary label on mouse hover?"
 msgstr "¿Axuntar etiqueta temporal al mover el mur?"
 
-#. i18n: file: kstars.kcfg:583
+#. i18n: file: kstars.kcfg:593
 #. i18n: ectx: whatsthis, entry (UseHoverLabel), group (View)
-#: rc.cpp:5373
+#: rc.cpp:5385
 msgid ""
 "Toggle whether the object under the mouse cursor gets a transient name label."
 msgstr "Amuesa transitoriamente el nome del oxetu bajo el cursor del mur."
 
-#. i18n: file: kstars.kcfg:587
+#. i18n: file: kstars.kcfg:597
 #. i18n: ectx: label, entry (ObsListSymbol), group (View)
-#: rc.cpp:5376
+#: rc.cpp:5388
 msgid "Use symbols to label observing list objects"
 msgstr "Usar símbolos pa etiquetar les llistes d'oxetos adicaos."
 
-#. i18n: file: kstars.kcfg:588
+#. i18n: file: kstars.kcfg:598
 #. i18n: ectx: whatsthis, entry (ObsListSymbol), group (View)
-#: rc.cpp:5379
+#: rc.cpp:5391
 msgid ""
 "Objects in the observing list will be highlighted with a symbol in the map."
 msgstr ""
 "Los oxetos na llista d'observación se resaltarán con un símbolu nel mapa."
 
-#. i18n: file: kstars.kcfg:592
+#. i18n: file: kstars.kcfg:602
 #. i18n: ectx: label, entry (ObsListText), group (View)
-#: rc.cpp:5382
+#: rc.cpp:5394
 msgid "Use text to label observing list objects"
 msgstr "Usar testu pa etiquetar les llistes d'oxetos adicaos."
 
-#. i18n: file: kstars.kcfg:593
+#. i18n: file: kstars.kcfg:603
 #. i18n: ectx: whatsthis, entry (ObsListText), group (View)
-#: rc.cpp:5385
+#: rc.cpp:5397
 msgid ""
 "Objects in the observing list will be highlighted with a colored name label "
 "in the map."
@@ -35482,21 +35543,21 @@ msgstr ""
 "Los oxetos na llista d'observación se resaltarán con un nome coloreado nel "
 "mapa celeste."
 
-#. i18n: file: kstars.kcfg:597
+#. i18n: file: kstars.kcfg:607
 #. i18n: ectx: label, entry (ObsListSaveImage), group (View)
-#: rc.cpp:5388
+#: rc.cpp:5400
 msgid "Save the DSS/SDSS images to disk"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:602
+#. i18n: file: kstars.kcfg:612
 #. i18n: ectx: label, entry (UseRefraction), group (View)
-#: rc.cpp:5391
+#: rc.cpp:5403
 msgid "Correct positions for atmospheric refraction?"
 msgstr "¿Correxir por refraición atmosférica?"
 
-#. i18n: file: kstars.kcfg:603
+#. i18n: file: kstars.kcfg:613
 #. i18n: ectx: whatsthis, entry (UseRefraction), group (View)
-#: rc.cpp:5394
+#: rc.cpp:5406
 msgid ""
 "Toggle whether object positions are corrected for the effects of atmospheric "
 "refraction (only applies when horizontal coordinates are used)."
@@ -35505,31 +35566,31 @@ msgstr ""
 "refraición atmosférica. Namái ye aplicable cuando s'usen les coordenaes "
 "horizontales."
 
-#. i18n: file: kstars.kcfg:607
+#. i18n: file: kstars.kcfg:617
 #. i18n: ectx: label, entry (UseRelativistic), group (View)
-#: rc.cpp:5397
+#: rc.cpp:5409
 msgid ""
 "Apply relativistic corrections due to the bending of light in sun's "
 "gravitational field"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:608
+#. i18n: file: kstars.kcfg:618
 #. i18n: ectx: whatsthis, entry (UseRelativistic), group (View)
-#: rc.cpp:5400
+#: rc.cpp:5412
 msgid ""
 "Toggle whether corrections due to bending of light around the sun are taken "
 "into account"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:612
+#. i18n: file: kstars.kcfg:622
 #. i18n: ectx: label, entry (UseAntialias), group (View)
-#: rc.cpp:5403
+#: rc.cpp:5415
 msgid "Use antialiasing when drawing the screen?"
 msgstr "¿Usar dondeáu al dibuxar el mapa?"
 
-#. i18n: file: kstars.kcfg:613
+#. i18n: file: kstars.kcfg:623
 #. i18n: ectx: whatsthis, entry (UseAntialias), group (View)
-#: rc.cpp:5406
+#: rc.cpp:5418
 msgid ""
 "Toggle whether the sky is rendered using antialiasing.  Lines and shapes are "
 "smoother with antialiasing, but rendering the screen will take more time."
@@ -35537,66 +35598,66 @@ msgstr ""
 "Amuesa'l mapa celeste emplegando dondeáu. Les llinies y formes son más "
 "dondes con esti mou, pero consume más tiempu nel procesador."
 
-#. i18n: file: kstars.kcfg:617
+#. i18n: file: kstars.kcfg:627
 #. i18n: ectx: label, entry (ZoomFactor), group (View)
-#: rc.cpp:5409
+#: rc.cpp:5421
 msgid "Zoom Factor, in pixels per radian"
 msgstr "Factor d'ampliación, en píxeles por radián."
 
-#. i18n: file: kstars.kcfg:618
+#. i18n: file: kstars.kcfg:628
 #. i18n: ectx: whatsthis, entry (ZoomFactor), group (View)
-#: rc.cpp:5412
+#: rc.cpp:5424
 msgid "The zoom level, measured in pixels per radian."
 msgstr "El nivel d'ampliación (zoom) en píxeles por radián."
 
-#. i18n: file: kstars.kcfg:623
+#. i18n: file: kstars.kcfg:633
 #. i18n: ectx: label, entry (MagLimitAsteroid), group (View)
-#: rc.cpp:5415
+#: rc.cpp:5427
 msgid "Faint limit for asteroids"
 msgstr "Llímite de rellumu p'asteroides"
 
-#. i18n: file: kstars.kcfg:624
+#. i18n: file: kstars.kcfg:634
 #. i18n: ectx: whatsthis, entry (MagLimitAsteroid), group (View)
-#: rc.cpp:5418
+#: rc.cpp:5430
 msgid "The faint magnitude limit for drawing asteroids."
 msgstr "El llímite de magnitú pa amosar asteroides."
 
-#. i18n: file: kstars.kcfg:628
+#. i18n: file: kstars.kcfg:638
 #. i18n: ectx: label, entry (AsteroidLabelDensity), group (View)
-#: rc.cpp:5421
+#: rc.cpp:5433
 msgid "Label density for asteroid names"
 msgstr "Etiquetar densidá pa los nomes d'asteroides."
 
-#. i18n: file: kstars.kcfg:629
+#. i18n: file: kstars.kcfg:639
 #. i18n: ectx: whatsthis, entry (AsteroidLabelDensity), group (View)
-#: rc.cpp:5424
+#: rc.cpp:5436
 msgid "Controls the relative number of asteroid name labels drawn in the map."
 msgstr "Remana'l númberu rellativo de nomes d'asteroides dibuxaos nel mapa."
 
-#. i18n: file: kstars.kcfg:633
+#. i18n: file: kstars.kcfg:643
 #. i18n: ectx: label, entry (MagLimitDrawDeepSky), group (View)
-#: rc.cpp:5427
+#: rc.cpp:5439
 msgid "Faint limit for deep-sky objects"
 msgstr "Llímite de rellumu pa oxetos del cielu profundu."
 
-#. i18n: file: kstars.kcfg:634
+#. i18n: file: kstars.kcfg:644
 #. i18n: ectx: whatsthis, entry (MagLimitDrawDeepSky), group (View)
-#: rc.cpp:5430
+#: rc.cpp:5442
 msgid ""
 "The faint magnitude limit for drawing deep-sky objects, when fully zoomed in."
 msgstr ""
 "La magnitú llímite pa dibuxar oxetos del cielu profundu cuando s'amplía al "
 "máximu el mapa."
 
-#. i18n: file: kstars.kcfg:638
+#. i18n: file: kstars.kcfg:648
 #. i18n: ectx: label, entry (MagLimitDrawDeepSkyZoomOut), group (View)
-#: rc.cpp:5433
+#: rc.cpp:5445
 msgid "Faint limit for deep-sky objects when zoomed out"
 msgstr "Llímite de rellumu pa los oxetos del cielu profundu al amenorgar zoom"
 
-#. i18n: file: kstars.kcfg:639
+#. i18n: file: kstars.kcfg:649
 #. i18n: ectx: whatsthis, entry (MagLimitDrawDeepSkyZoomOut), group (View)
-#: rc.cpp:5436
+#: rc.cpp:5448
 msgid ""
 "The faint magnitude limit for drawing deep-sky objects, when fully zoomed "
 "out."
@@ -35604,53 +35665,53 @@ msgstr ""
 "Llímite de rellumu pa los oxetos del cielu profundu cuando s'amenorga al "
 "máximu el mapa."
 
-#. i18n: file: kstars.kcfg:644
+#. i18n: file: kstars.kcfg:654
 #. i18n: ectx: label, entry (MagLimitDrawStar), group (View)
-#: rc.cpp:5439
+#: rc.cpp:5451
 msgid "Faint limit for stars"
 msgstr "Llímite de rellumu pa les estrelles"
 
-#. i18n: file: kstars.kcfg:645
+#. i18n: file: kstars.kcfg:655
 #. i18n: ectx: whatsthis, entry (MagLimitDrawStar), group (View)
-#: rc.cpp:5442
+#: rc.cpp:5454
 msgid "The faint magnitude limit for drawing stars, when fully zoomed in."
 msgstr ""
 "Magnitú llímite pa dibuxar estrelles cuando s'amplia el mapa al máximu."
 
-#. i18n: file: kstars.kcfg:650
+#. i18n: file: kstars.kcfg:660
 #. i18n: ectx: label, entry (StarDensity), group (View)
-#: rc.cpp:5445
+#: rc.cpp:5457
 msgid "Density of stars in the field of view"
 msgstr "Densidá d'estrelles nel campu de visión"
 
-#. i18n: file: kstars.kcfg:651
+#. i18n: file: kstars.kcfg:661
 #. i18n: ectx: whatsthis, entry (StarDensity), group (View)
-#: rc.cpp:5448
+#: rc.cpp:5460
 msgid "Sets the density of stars in the field of view"
 msgstr "Fixar la densidá d'estrelles nel campu de visión"
 
-#. i18n: file: kstars.kcfg:656
+#. i18n: file: kstars.kcfg:666
 #. i18n: ectx: label, entry (MagLimitDrawStarZoomOut), group (View)
-#: rc.cpp:5451
+#: rc.cpp:5463
 msgid "Faint limit for stars when zoomed out"
 msgstr "Llímite de rellumu pa les estrelles al allonxar zoom"
 
-#. i18n: file: kstars.kcfg:657
+#. i18n: file: kstars.kcfg:667
 #. i18n: ectx: whatsthis, entry (MagLimitDrawStarZoomOut), group (View)
-#: rc.cpp:5454
+#: rc.cpp:5466
 msgid "The faint magnitude limit for drawing stars, when fully zoomed out."
 msgstr ""
 "Magnitú llímite pa dibuxar les estrelles cuando'l mapa s'amenorga al máximu."
 
-#. i18n: file: kstars.kcfg:662
+#. i18n: file: kstars.kcfg:672
 #. i18n: ectx: label, entry (MagLimitHideStar), group (View)
-#: rc.cpp:5457
+#: rc.cpp:5469
 msgid "Faint limit for stars when slewing"
 msgstr "Llímite de rellumu pa estrelles nel tránsitu."
 
-#. i18n: file: kstars.kcfg:663
+#. i18n: file: kstars.kcfg:673
 #. i18n: ectx: whatsthis, entry (MagLimitHideStar), group (View)
-#: rc.cpp:5460
+#: rc.cpp:5472
 msgid ""
 "The faint magnitude limit for drawing stars, when the map is in motion (only "
 "applicable if faint stars are set to be hidden while the map is in motion)."
@@ -35659,103 +35720,103 @@ msgstr ""
 "posición a otra. Namái ye aplicable si s'escoyó anubrir les estrelles "
 "débiles durante'l tránsitu."
 
-#. i18n: file: kstars.kcfg:667
+#. i18n: file: kstars.kcfg:677
 #. i18n: ectx: label, entry (StarLabelDensity), group (View)
-#: rc.cpp:5463
+#: rc.cpp:5475
 msgid "Relative density for star name labels and/or magnitudes"
 msgstr "Densidá rellativa de nomes/magnitúes d'estrelles"
 
-#. i18n: file: kstars.kcfg:668
+#. i18n: file: kstars.kcfg:678
 #. i18n: ectx: whatsthis, entry (StarLabelDensity), group (View)
-#: rc.cpp:5466
+#: rc.cpp:5478
 msgid "The relative density for drawing star name and magnitude labels."
 msgstr ""
 "La densidá rellativa pa dibuxar etiquetes colos nomes d'estrelles y "
 "magnitúes."
 
-#. i18n: file: kstars.kcfg:672
+#. i18n: file: kstars.kcfg:682
 #. i18n: ectx: label, entry (DeepSkyLabelDensity), group (View)
-#: rc.cpp:5469
+#: rc.cpp:5481
 msgid "Relative density for deep-sky object name labels and/or magnitudes"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:673
+#. i18n: file: kstars.kcfg:683
 #. i18n: ectx: whatsthis, entry (DeepSkyLabelDensity), group (View)
-#: rc.cpp:5472
+#: rc.cpp:5484
 msgid ""
 "The relative density for drawing deep-sky object name and magnitude labels."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:677
+#. i18n: file: kstars.kcfg:687
 #. i18n: ectx: label, entry (DeepSkyLongLabels), group (View)
-#: rc.cpp:5475
+#: rc.cpp:5487
 msgid "Show long names in deep-sky object name labels?"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:678
+#. i18n: file: kstars.kcfg:688
 #. i18n: ectx: whatsthis, entry (DeepSkyLongLabels), group (View)
-#: rc.cpp:5478
+#: rc.cpp:5490
 msgid ""
 "If true, long names (common names) for deep-sky objects are shown in the "
 "labels."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:682
+#. i18n: file: kstars.kcfg:692
 #. i18n: ectx: label, entry (MaxRadCometName), group (View)
-#: rc.cpp:5481
+#: rc.cpp:5493
 msgid "Maximum distance from Sun for labeling comets, in AU"
 msgstr "Distancia máxima al Sol pa etiquetar cometes en UA."
 
-#. i18n: file: kstars.kcfg:683
+#. i18n: file: kstars.kcfg:693
 #. i18n: ectx: whatsthis, entry (MaxRadCometName), group (View)
-#: rc.cpp:5484
+#: rc.cpp:5496
 msgid "The maximum solar distance for drawing comets."
 msgstr ""
 "La distancia máxima al Sol pa dibuxar cometes espresada n'unidaes "
 "astronómiques."
 
-#. i18n: file: kstars.kcfg:689
+#. i18n: file: kstars.kcfg:699
 #. i18n: ectx: whatsthis, entry (UseGL), group (View)
-#: rc.cpp:5490 skymap.cpp:1070
+#: rc.cpp:5502 skymap.cpp:1070
 msgid ""
 "This version of KStars comes with new experimental OpenGL support. Our "
 "experience is that OpenGL works much faster on machines with hardware "
 "acceleration. Would you like to switch to OpenGL painting backends?"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:693
+#. i18n: file: kstars.kcfg:703
 #. i18n: ectx: label, entry (RunClock), group (View)
-#: rc.cpp:5493
+#: rc.cpp:5505
 #, fuzzy
 #| msgctxt "City in Michigan USA"
 #| msgid "Hancock"
 msgid "Run clock"
 msgstr "Hancock"
 
-#. i18n: file: kstars.kcfg:694
+#. i18n: file: kstars.kcfg:704
 #. i18n: ectx: whatsthis, entry (RunClock), group (View)
-#: rc.cpp:5496
+#: rc.cpp:5508
 msgid "The state of the clock (running or not)"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:701
+#. i18n: file: kstars.kcfg:711
 #. i18n: ectx: label, entry (ColorSchemeFile), group (Colors)
-#. i18n: file: kstars.kcfg:702
+#. i18n: file: kstars.kcfg:712
 #. i18n: ectx: whatsthis, entry (ColorSchemeFile), group (Colors)
-#: rc.cpp:5499 rc.cpp:5502
+#: rc.cpp:5511 rc.cpp:5514
 #, fuzzy
 msgid "The name of the color scheme"
 msgstr "Introduza un nome pal nuevu esquema de color:"
 
-#. i18n: file: kstars.kcfg:706
+#. i18n: file: kstars.kcfg:716
 #. i18n: ectx: label, entry (DarkAppColors), group (Colors)
-#: rc.cpp:5505
+#: rc.cpp:5517
 msgid "Use Dark colors for KStars windows?"
 msgstr "¿Usar colores escuros pa les ventanes de KStars?"
 
-#. i18n: file: kstars.kcfg:707
+#. i18n: file: kstars.kcfg:717
 #. i18n: ectx: whatsthis, entry (DarkAppColors), group (Colors)
-#: rc.cpp:5508
+#: rc.cpp:5520
 msgid ""
 "If true, then the application window colors will be switched to a dark red "
 "theme, for better night vision."
@@ -35763,15 +35824,15 @@ msgstr ""
 "Si se conseña, los colores de les ventanas dibuxaránse nun tema bermeyu "
 "escuru pa una visión nocherniega más afayaíza."
 
-#. i18n: file: kstars.kcfg:711
+#. i18n: file: kstars.kcfg:721
 #. i18n: ectx: label, entry (StarColorMode), group (Colors)
-#: rc.cpp:5511
+#: rc.cpp:5523
 msgid "Mode for rendering stars"
 msgstr "Mou pa renderizar estrelles"
 
-#. i18n: file: kstars.kcfg:712
+#. i18n: file: kstars.kcfg:722
 #. i18n: ectx: whatsthis, entry (StarColorMode), group (Colors)
-#: rc.cpp:5514
+#: rc.cpp:5526
 msgid ""
 "The method for rendering stars: 0=\"realistic colors\"; 1=\"solid red\"; 2="
 "\"solid black\"; 3=\"solid white\""
@@ -35779,15 +35840,15 @@ msgstr ""
 "El método pa renderizar estrelles: 0=\"colores realistas\"; 1=\"rojo sólido"
 "\"; 2=\"negro sólido\"; 3=\"blanco sólido\""
 
-#. i18n: file: kstars.kcfg:717
+#. i18n: file: kstars.kcfg:727
 #. i18n: ectx: label, entry (StarColorIntensity), group (Colors)
-#: rc.cpp:5517
+#: rc.cpp:5529
 msgid "Saturation level of star colors"
 msgstr "Nivel de saturación de los colores de les estrelles"
 
-#. i18n: file: kstars.kcfg:718
+#. i18n: file: kstars.kcfg:728
 #. i18n: ectx: whatsthis, entry (StarColorIntensity), group (Colors)
-#: rc.cpp:5520
+#: rc.cpp:5532
 msgid ""
 "The color saturation level of stars (only applicable when using \"realistic "
 "colors\" mode)."
@@ -35795,427 +35856,443 @@ msgstr ""
 "Nivel de saturación de los colores de les estrelles (solo aplica cuando se "
 "usa el mou de \"colores realistas\")."
 
-#. i18n: file: kstars.kcfg:723
+#. i18n: file: kstars.kcfg:733
 #. i18n: ectx: label, entry (AngularRulerColor), group (Colors)
-#: rc.cpp:5523
+#: rc.cpp:5535
 msgid "Color of angular distance ruler"
 msgstr "Color de la regla de distancia angular"
 
-#. i18n: file: kstars.kcfg:724
+#. i18n: file: kstars.kcfg:734
 #. i18n: ectx: whatsthis, entry (AngularRulerColor), group (Colors)
-#: rc.cpp:5526
+#: rc.cpp:5538
 msgid "The color for the angular-distance measurement ruler."
 msgstr "El color pa la regla que mide distancies angulares."
 
-#. i18n: file: kstars.kcfg:728
+#. i18n: file: kstars.kcfg:738
 #. i18n: ectx: label, entry (BoxBGColor), group (Colors)
-#: rc.cpp:5529
+#: rc.cpp:5541
 msgid "Background color of InfoBoxes"
 msgstr "Color de fondu de los cuadros informativos"
 
-#. i18n: file: kstars.kcfg:729
+#. i18n: file: kstars.kcfg:739
 #. i18n: ectx: whatsthis, entry (BoxBGColor), group (Colors)
-#: rc.cpp:5532
+#: rc.cpp:5544
 msgid "The background color of the on-screen information boxes."
 msgstr "El color de fondu de los cuadros informativos en pantalla."
 
-#. i18n: file: kstars.kcfg:733
+#. i18n: file: kstars.kcfg:743
 #. i18n: ectx: label, entry (BoxGrabColor), group (Colors)
-#: rc.cpp:5535
+#: rc.cpp:5547
 msgid "Text color of InfoBoxes when grabbed with mouse"
 msgstr "Color del testu de los paneles al cogerlos col mur"
 
-#. i18n: file: kstars.kcfg:734
+#. i18n: file: kstars.kcfg:744
 #. i18n: ectx: whatsthis, entry (BoxGrabColor), group (Colors)
-#: rc.cpp:5538
+#: rc.cpp:5550
 msgid ""
 "The text color for the on-screen information boxes, when activated by a "
 "mouse click."
 msgstr "Color del testu de los paneles al activarlos con un clic del mur."
 
-#. i18n: file: kstars.kcfg:738
+#. i18n: file: kstars.kcfg:748
 #. i18n: ectx: label, entry (BoxTextColor), group (Colors)
-#: rc.cpp:5541
+#: rc.cpp:5553
 msgid "Text color of InfoBoxes"
 msgstr "Color del testu de los cuadros informativos"
 
-#. i18n: file: kstars.kcfg:739
+#. i18n: file: kstars.kcfg:749
 #. i18n: ectx: whatsthis, entry (BoxTextColor), group (Colors)
-#: rc.cpp:5544
+#: rc.cpp:5556
 msgid "The normal text color of the on-screen information boxes."
 msgstr "El color normal del testu de los paneles informativos."
 
-#. i18n: file: kstars.kcfg:743
+#. i18n: file: kstars.kcfg:753
 #. i18n: ectx: label, entry (CBoundColor), group (Colors)
-#: rc.cpp:5547
+#: rc.cpp:5559
 msgid "Color of constellation boundaries"
 msgstr "Color de los berbesos de constelaciones"
 
-#. i18n: file: kstars.kcfg:744
+#. i18n: file: kstars.kcfg:754
 #. i18n: ectx: whatsthis, entry (CBoundColor), group (Colors)
-#. i18n: file: kstars.kcfg:749
+#. i18n: file: kstars.kcfg:759
 #. i18n: ectx: whatsthis, entry (CBoundHighColor), group (Colors)
-#: rc.cpp:5550 rc.cpp:5556
+#: rc.cpp:5562 rc.cpp:5568
 msgid "The color for the constellation boundary lines."
 msgstr "El color de les llinies de los berbesos de les constelaciones."
 
-#. i18n: file: kstars.kcfg:748
+#. i18n: file: kstars.kcfg:758
 #. i18n: ectx: label, entry (CBoundHighColor), group (Colors)
-#: rc.cpp:5553
+#: rc.cpp:5565
 msgid "Color of highlighted constellation boundary"
 msgstr "Color del borde resaltáu de les constelaciones"
 
-#. i18n: file: kstars.kcfg:753
+#. i18n: file: kstars.kcfg:763
 #. i18n: ectx: label, entry (CLineColor), group (Colors)
-#: rc.cpp:5559
+#: rc.cpp:5571
 msgid "Color of constellation lines"
 msgstr "Color de les llinies de les constelaciones"
 
-#. i18n: file: kstars.kcfg:754
+#. i18n: file: kstars.kcfg:764
 #. i18n: ectx: whatsthis, entry (CLineColor), group (Colors)
-#: rc.cpp:5562
+#: rc.cpp:5574
 msgid "The color for the constellation figure lines."
 msgstr "El color de les llinies de les constelaciones."
 
-#. i18n: file: kstars.kcfg:758
+#. i18n: file: kstars.kcfg:768
 #. i18n: ectx: label, entry (CNameColor), group (Colors)
-#: rc.cpp:5565
+#: rc.cpp:5577
 msgid "Color of constellation names"
 msgstr "Color del nome de les constelaciones"
 
-#. i18n: file: kstars.kcfg:759
+#. i18n: file: kstars.kcfg:769
 #. i18n: ectx: whatsthis, entry (CNameColor), group (Colors)
-#: rc.cpp:5568
+#: rc.cpp:5580
 msgid "The color for the constellation names."
 msgstr "El color pal nome de les constelaciones."
 
-#. i18n: file: kstars.kcfg:763
+#. i18n: file: kstars.kcfg:773
 #. i18n: ectx: label, entry (CompassColor), group (Colors)
-#: rc.cpp:5571
+#: rc.cpp:5583
 msgid "Color of cardinal compass labels along horizon"
 msgstr "Color de les etiquetes de la rosa de los vientos nel horizonte"
 
-#. i18n: file: kstars.kcfg:764
+#. i18n: file: kstars.kcfg:774
 #. i18n: ectx: whatsthis, entry (CompassColor), group (Colors)
-#: rc.cpp:5574
+#: rc.cpp:5586
 msgid "The color for the cardinal compass point labels."
 msgstr "El color de les etiquetes de la rosa de los vientos nel horizonte."
 
-#. i18n: file: kstars.kcfg:768
+#. i18n: file: kstars.kcfg:778
 #. i18n: ectx: label, entry (EclipticColor), group (Colors)
-#: rc.cpp:5577
+#: rc.cpp:5589
 msgid "Color of ecliptic line"
 msgstr "Color de la eclíptica"
 
-#. i18n: file: kstars.kcfg:769
+#. i18n: file: kstars.kcfg:779
 #. i18n: ectx: whatsthis, entry (EclipticColor), group (Colors)
-#: rc.cpp:5580
+#: rc.cpp:5592
 msgid "The color for the ecliptic line."
 msgstr "El color de la llinia de la eclíptica."
 
-#. i18n: file: kstars.kcfg:773
+#. i18n: file: kstars.kcfg:783
 #. i18n: ectx: label, entry (EquatorColor), group (Colors)
-#: rc.cpp:5583
+#: rc.cpp:5595
 msgid "Color of equator line"
 msgstr "Color del ecuador"
 
-#. i18n: file: kstars.kcfg:774
+#. i18n: file: kstars.kcfg:784
 #. i18n: ectx: whatsthis, entry (EquatorColor), group (Colors)
-#: rc.cpp:5586
+#: rc.cpp:5598
 msgid "The color for the equator line."
 msgstr "El color de la llinia del ecuador."
 
-#. i18n: file: kstars.kcfg:778
+#. i18n: file: kstars.kcfg:788
 #. i18n: ectx: label, entry (GridColor), group (Colors)
-#: rc.cpp:5589
+#: rc.cpp:5601
 msgid "Color of coordinate grid lines"
 msgstr "Color de la rexella de coordenaes"
 
-#. i18n: file: kstars.kcfg:779
+#. i18n: file: kstars.kcfg:789
 #. i18n: ectx: whatsthis, entry (GridColor), group (Colors)
-#: rc.cpp:5592
+#: rc.cpp:5604
 msgid "The color for the coordinate grid lines."
 msgstr "El color de la rexella de coordenaes."
 
-#. i18n: file: kstars.kcfg:783
+#. i18n: file: kstars.kcfg:793
 #. i18n: ectx: label, entry (SpecialObjectColor), group (Colors)
-#: rc.cpp:5595
+#: rc.cpp:5607
 msgid "Color of objects with extra links available"
 msgstr "Color de los oxetos con enllaces extra disponibles"
 
-#. i18n: file: kstars.kcfg:784
+#. i18n: file: kstars.kcfg:794
 #. i18n: ectx: whatsthis, entry (SpecialObjectColor), group (Colors)
-#: rc.cpp:5598
+#: rc.cpp:5610
 msgid "The color for objects which have extra URL links available."
 msgstr "El color de los oxetos que disponen de enllaces URL extra disponibles."
 
-#. i18n: file: kstars.kcfg:788
+#. i18n: file: kstars.kcfg:798
 #. i18n: ectx: label, entry (HorizonColor), group (Colors)
-#: rc.cpp:5601
+#: rc.cpp:5613
 msgid "Color of horizon line"
 msgstr "Color de la llinia del horizonte"
 
-#. i18n: file: kstars.kcfg:789
+#. i18n: file: kstars.kcfg:799
 #. i18n: ectx: whatsthis, entry (HorizonColor), group (Colors)
-#: rc.cpp:5604
+#: rc.cpp:5616
 msgid "The color for the horizon line and opaque ground."
 msgstr "El color de la llinia del horizonte y del suelu opacu."
 
-#. i18n: file: kstars.kcfg:793
+#. i18n: file: kstars.kcfg:803
 #. i18n: ectx: label, entry (MessierColor), group (Colors)
-#: rc.cpp:5607
+#: rc.cpp:5619
 msgid "Color of Messier objects"
 msgstr "Color de los oxetos Messier"
 
-#. i18n: file: kstars.kcfg:794
+#. i18n: file: kstars.kcfg:804
 #. i18n: ectx: whatsthis, entry (MessierColor), group (Colors)
-#: rc.cpp:5610
+#: rc.cpp:5622
 msgid "The color for Messier object symbols."
 msgstr "El color de los símbolos de los oxetos Messier."
 
-#. i18n: file: kstars.kcfg:798
+#. i18n: file: kstars.kcfg:808
 #. i18n: ectx: label, entry (NGCColor), group (Colors)
-#: rc.cpp:5613
+#: rc.cpp:5625
 msgid "Color of NGC objects"
 msgstr "Color de los oxetos NGC"
 
-#. i18n: file: kstars.kcfg:799
+#. i18n: file: kstars.kcfg:809
 #. i18n: ectx: whatsthis, entry (NGCColor), group (Colors)
-#: rc.cpp:5616
+#: rc.cpp:5628
 msgid "The color for NGC object symbols."
 msgstr "El color de los símbolos de los oxetos NGC."
 
-#. i18n: file: kstars.kcfg:803
+#. i18n: file: kstars.kcfg:813
 #. i18n: ectx: label, entry (ICColor), group (Colors)
-#: rc.cpp:5619
+#: rc.cpp:5631
 msgid "Color of IC objects"
 msgstr "Color de los oxetos IC"
 
-#. i18n: file: kstars.kcfg:804
+#. i18n: file: kstars.kcfg:814
 #. i18n: ectx: whatsthis, entry (ICColor), group (Colors)
-#: rc.cpp:5622
+#: rc.cpp:5634
 msgid "The color for IC object symbols."
 msgstr "El color de los símbolos de los oxetos IC."
 
-#. i18n: file: kstars.kcfg:808
+#. i18n: file: kstars.kcfg:818
 #. i18n: ectx: label, entry (MilkyWayWColor), group (Colors)
-#: rc.cpp:5625
+#: rc.cpp:5637
 msgid "Color of Milky Way contour"
 msgstr "Color del contornu de la Vía Lláctea"
 
-#. i18n: file: kstars.kcfg:809
+#. i18n: file: kstars.kcfg:819
 #. i18n: ectx: whatsthis, entry (MilkyWayWColor), group (Colors)
-#: rc.cpp:5628
+#: rc.cpp:5640
 msgid "The color for the Milky Way contour."
 msgstr "El color del contornu de la Vía Lláctea."
 
-#. i18n: file: kstars.kcfg:813
+#. i18n: file: kstars.kcfg:823
 #. i18n: ectx: label, entry (StarNameColor), group (Colors)
-#: rc.cpp:5631
+#: rc.cpp:5643
 msgid "Color of star name labels"
 msgstr "Color de los nomes de les estrelles"
 
-#. i18n: file: kstars.kcfg:814
+#. i18n: file: kstars.kcfg:824
 #. i18n: ectx: whatsthis, entry (StarNameColor), group (Colors)
-#: rc.cpp:5634
+#: rc.cpp:5646
 msgid "The color for star name labels."
 msgstr "El color de les etiquetes de los nomes de les estrelles."
 
-#. i18n: file: kstars.kcfg:818
+#. i18n: file: kstars.kcfg:828
 #. i18n: ectx: label, entry (DeepSkyNameColor), group (Colors)
-#: rc.cpp:5637
+#: rc.cpp:5649
 msgid "Color of deep-sky object name labels"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:819
+#. i18n: file: kstars.kcfg:829
 #. i18n: ectx: whatsthis, entry (DeepSkyNameColor), group (Colors)
-#: rc.cpp:5640
+#: rc.cpp:5652
 msgid "The color for deep-sky object name labels."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:823
+#. i18n: file: kstars.kcfg:833
 #. i18n: ectx: label, entry (PlanetNameColor), group (Colors)
-#: rc.cpp:5643
+#: rc.cpp:5655
 msgid "Color of planet name labels"
 msgstr "Color de los nomes de los planetes"
 
-#. i18n: file: kstars.kcfg:824
+#. i18n: file: kstars.kcfg:834
 #. i18n: ectx: whatsthis, entry (PlanetNameColor), group (Colors)
-#: rc.cpp:5646
+#: rc.cpp:5658
 msgid "The color for solar system object labels."
 msgstr "El color de les etiquetes de los oxetos del sistema solar."
 
-#. i18n: file: kstars.kcfg:828
+#. i18n: file: kstars.kcfg:838
 #. i18n: ectx: label, entry (PlanetTrailColor), group (Colors)
-#: rc.cpp:5649
+#: rc.cpp:5661
 msgid "Color of planet trails"
 msgstr "Color de los trazes de planetes"
 
-#. i18n: file: kstars.kcfg:829
+#. i18n: file: kstars.kcfg:839
 #. i18n: ectx: whatsthis, entry (PlanetTrailColor), group (Colors)
-#: rc.cpp:5652
+#: rc.cpp:5664
 msgid "The color for solar system object trails."
 msgstr "El color de les trazes de los oxetos del sistema solar."
 
-#. i18n: file: kstars.kcfg:833
+#. i18n: file: kstars.kcfg:843
 #. i18n: ectx: label, entry (SkyColor), group (Colors)
-#: rc.cpp:5655
+#: rc.cpp:5667
 msgid "Color of sky"
 msgstr "Colores del cielu"
 
-#. i18n: file: kstars.kcfg:834
+#. i18n: file: kstars.kcfg:844
 #. i18n: ectx: whatsthis, entry (SkyColor), group (Colors)
-#: rc.cpp:5658
+#: rc.cpp:5670
 msgid "The color for the sky background."
 msgstr "El color del fondu celeste."
 
-#. i18n: file: kstars.kcfg:838
+#. i18n: file: kstars.kcfg:848
 #. i18n: ectx: label, entry (TelescopeTargetColor), group (Colors)
-#: rc.cpp:5661
+#: rc.cpp:5673
 msgid "Color of telescope symbols"
 msgstr "Color de los símbolos del telescopiu"
 
-#. i18n: file: kstars.kcfg:839
+#. i18n: file: kstars.kcfg:849
 #. i18n: ectx: whatsthis, entry (TelescopeTargetColor), group (Colors)
-#: rc.cpp:5664
+#: rc.cpp:5676
 msgid "The color for telescope target symbols."
 msgstr "El color de los símbolos del telescopiu."
 
-#. i18n: file: kstars.kcfg:843
+#. i18n: file: kstars.kcfg:853
 #. i18n: ectx: label, entry (VisibleSatColor), group (Colors)
-#: rc.cpp:5667
+#: rc.cpp:5679
 #, fuzzy
 #| msgid "Color of planet name labels"
 msgid "Color of visible satellites"
 msgstr "Color de los nomes de los planetes"
 
-#. i18n: file: kstars.kcfg:844
+#. i18n: file: kstars.kcfg:854
 #. i18n: ectx: whatsthis, entry (VisibleSatColor), group (Colors)
-#: rc.cpp:5670
+#: rc.cpp:5682
 #, fuzzy
 #| msgid "Color of planet name labels"
 msgid "Color of visible satellites."
 msgstr "Color de los nomes de los planetes"
 
-#. i18n: file: kstars.kcfg:848
+#. i18n: file: kstars.kcfg:858
 #. i18n: ectx: label, entry (SatColor), group (Colors)
-#: rc.cpp:5673
+#: rc.cpp:5685
 #, fuzzy
 #| msgid "Color of constellation lines"
 msgid "Color of invisible satellites"
 msgstr "Color de les llinies de les constelaciones"
 
-#. i18n: file: kstars.kcfg:849
+#. i18n: file: kstars.kcfg:859
 #. i18n: ectx: whatsthis, entry (SatColor), group (Colors)
-#: rc.cpp:5676
+#: rc.cpp:5688
 #, fuzzy
 #| msgid "Color of constellation lines"
 msgid "Color of invisible satellites."
 msgstr "Color de les llinies de les constelaciones"
 
-#. i18n: file: kstars.kcfg:853
+#. i18n: file: kstars.kcfg:863
 #. i18n: ectx: label, entry (SatLabelColor), group (Colors)
-#: rc.cpp:5679
+#: rc.cpp:5691
 #, fuzzy
 #| msgid "Color of planet name labels"
 msgid "Color of satellites labels"
 msgstr "Color de los nomes de los planetes"
 
-#. i18n: file: kstars.kcfg:854
+#. i18n: file: kstars.kcfg:864
 #. i18n: ectx: whatsthis, entry (SatLabelColor), group (Colors)
-#: rc.cpp:5682
+#: rc.cpp:5694
 #, fuzzy
 #| msgid "Color of planet name labels"
 msgid "Color of satellites labels."
 msgstr "Color de los nomes de los planetes"
 
-#. i18n: file: kstars.kcfg:858
+#. i18n: file: kstars.kcfg:868
+#. i18n: ectx: label, entry (SupernovaColor), group (Colors)
+#: rc.cpp:5697
+#, fuzzy
+#| msgid "Color of Messier objects"
+msgid "Color of supernovae"
+msgstr "Color de los oxetos Messier"
+
+#. i18n: file: kstars.kcfg:869
+#. i18n: ectx: whatsthis, entry (SupernovaColor), group (Colors)
+#: rc.cpp:5700
+#, fuzzy
+#| msgid "Color of sky"
+msgid "Color of supernova"
+msgstr "Colores del cielu"
+
+#. i18n: file: kstars.kcfg:873
 #. i18n: ectx: label, entry (UserLabelColor), group (Colors)
-#: rc.cpp:5685
+#: rc.cpp:5703
 msgid "Color of user-added labels"
 msgstr "Color pa les etiquetes del usuariu"
 
-#. i18n: file: kstars.kcfg:859
+#. i18n: file: kstars.kcfg:874
 #. i18n: ectx: whatsthis, entry (UserLabelColor), group (Colors)
-#: rc.cpp:5688
+#: rc.cpp:5706
 msgid "The color for user-added object labels."
 msgstr "El color pa les etiquetes añadidas por el usuariu a los oxetos."
 
-#. i18n: file: kstars.kcfg:865
+#. i18n: file: kstars.kcfg:880
 #. i18n: ectx: label, entry (XplanetPath), group (Xplanet)
-#: rc.cpp:5691
+#: rc.cpp:5709
 msgid "Path to xplanet binary"
 msgstr "Camín al binariu xplanet"
 
-#. i18n: file: kstars.kcfg:870
+#. i18n: file: kstars.kcfg:885
 #. i18n: ectx: label, entry (XplanetTitle), group (Xplanet)
-#: rc.cpp:5697
+#: rc.cpp:5715
 msgid "Window title"
 msgstr "Títulu de la ventana"
 
-#. i18n: file: kstars.kcfg:875
+#. i18n: file: kstars.kcfg:890
 #. i18n: ectx: label, entry (XplanetWidth), group (Xplanet)
-#. i18n: file: kstars.kcfg:876
+#. i18n: file: kstars.kcfg:891
 #. i18n: ectx: whatsthis, entry (XplanetWidth), group (Xplanet)
-#: rc.cpp:5703 rc.cpp:5706
+#: rc.cpp:5721 rc.cpp:5724
 msgid "Width of xplanet window"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:880
+#. i18n: file: kstars.kcfg:895
 #. i18n: ectx: label, entry (XplanetHeight), group (Xplanet)
-#. i18n: file: kstars.kcfg:881
+#. i18n: file: kstars.kcfg:896
 #. i18n: ectx: whatsthis, entry (XplanetHeight), group (Xplanet)
-#: rc.cpp:5709 rc.cpp:5712
+#: rc.cpp:5727 rc.cpp:5730
 msgid "Height of xplanet window"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:886
+#. i18n: file: kstars.kcfg:901
 #. i18n: ectx: whatsthis, entry (XplanetLabel), group (Xplanet)
-#: rc.cpp:5718
+#: rc.cpp:5736
 msgid "If true, display a label in the upper right corner."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:890
+#. i18n: file: kstars.kcfg:905
 #. i18n: ectx: label, entry (XplanetLabelLocalTime), group (Xplanet)
-#. i18n: file: kstars.kcfg:895
+#. i18n: file: kstars.kcfg:910
 #. i18n: ectx: label, entry (XplanetLabelGMT), group (Xplanet)
-#: rc.cpp:5721 rc.cpp:5727
+#: rc.cpp:5739 rc.cpp:5745
 msgid "Show GMT label"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:891
+#. i18n: file: kstars.kcfg:906
 #. i18n: ectx: whatsthis, entry (XplanetLabelLocalTime), group (Xplanet)
-#: rc.cpp:5724
+#: rc.cpp:5742
 msgid "Show local time."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:896
+#. i18n: file: kstars.kcfg:911
 #. i18n: ectx: whatsthis, entry (XplanetLabelGMT), group (Xplanet)
-#: rc.cpp:5730
+#: rc.cpp:5748
 msgid "Show GMT instead of local time."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:900
+#. i18n: file: kstars.kcfg:915
 #. i18n: ectx: label, entry (XplanetLabelString), group (Xplanet)
-#: rc.cpp:5733
+#: rc.cpp:5751
 msgid "Planet string"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:905
+#. i18n: file: kstars.kcfg:920
 #. i18n: ectx: label, entry (XplanetFontSize), group (Xplanet)
-#: rc.cpp:5740
+#: rc.cpp:5758
 msgid "Font Size"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:915
+#. i18n: file: kstars.kcfg:930
 #. i18n: ectx: label, entry (XplanetDateFormat), group (Xplanet)
-#: rc.cpp:5752
+#: rc.cpp:5770
 msgid "Date format"
 msgstr "Formatu de Data"
 
-#. i18n: file: kstars.kcfg:916
+#. i18n: file: kstars.kcfg:931
 #. i18n: ectx: whatsthis, entry (XplanetDateFormat), group (Xplanet)
-#: rc.cpp:5756
+#: rc.cpp:5774
 #, no-c-format
 msgid ""
 "Specify the format for the date/time label.  This format string is passed to "
@@ -36223,249 +36300,249 @@ msgid ""
 "zone in the locale’s appropriate date and time representation."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:936
+#. i18n: file: kstars.kcfg:951
 #. i18n: ectx: label, entry (XplanetGlare), group (Xplanet)
-#: rc.cpp:5771
+#: rc.cpp:5789
 msgid "Sun Glare"
 msgstr "Rescamplu del Sol"
 
-#. i18n: file: kstars.kcfg:941
+#. i18n: file: kstars.kcfg:956
 #. i18n: ectx: label, entry (XplanetRandom), group (Xplanet)
-#: rc.cpp:5777
+#: rc.cpp:5795
 msgid "Random latitude and longitude"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:946
+#. i18n: file: kstars.kcfg:961
 #. i18n: ectx: label, entry (XplanetLatLong), group (Xplanet)
-#: rc.cpp:5783
+#: rc.cpp:5801
 msgid "Latitude-Longitude"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:947
+#. i18n: file: kstars.kcfg:962
 #. i18n: ectx: whatsthis, entry (XplanetLatLong), group (Xplanet)
-#: rc.cpp:5786
+#: rc.cpp:5804
 msgid "Place the observer above the specified longitude and latitude"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:962
+#. i18n: file: kstars.kcfg:977
 #. i18n: ectx: whatsthis, entry (XplanetProjection), group (Xplanet)
-#: rc.cpp:5804
+#: rc.cpp:5822
 msgid ""
 "The default is no projection.  Multiple bodies will not be shown if this "
 "option is specified, although shadows will still be drawn."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:966
+#. i18n: file: kstars.kcfg:981
 #. i18n: ectx: label, entry (XplanetWait), group (Xplanet)
-#: rc.cpp:5807
+#: rc.cpp:5825
 msgid "Update view"
 msgstr "Anovar vista"
 
-#. i18n: file: kstars.kcfg:967
+#. i18n: file: kstars.kcfg:982
 #. i18n: ectx: whatsthis, entry (XplanetWait), group (Xplanet)
-#: rc.cpp:5810
+#: rc.cpp:5828
 msgid "If true, update view."
 msgstr "Si ye cierto, anovar la vista."
 
-#. i18n: file: kstars.kcfg:977
+#. i18n: file: kstars.kcfg:992
 #. i18n: ectx: whatsthis, entry (XplanetBackground), group (Xplanet)
-#: rc.cpp:5822
+#: rc.cpp:5840
 msgid ""
 "Use a file as the background image, with the planet to be superimposed upon "
 "it. This option is only meaningful with the -projection option. A color may "
 "also be supplied."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:981
+#. i18n: file: kstars.kcfg:996
 #. i18n: ectx: label, entry (XplanetBackgroundImage), group (Xplanet)
-#: rc.cpp:5825
+#: rc.cpp:5843
 msgid "Use background image"
 msgstr "Usar imaxe de fondu"
 
-#. i18n: file: kstars.kcfg:982
+#. i18n: file: kstars.kcfg:997
 #. i18n: ectx: whatsthis, entry (XplanetBackgroundImage), group (Xplanet)
-#: rc.cpp:5828
+#: rc.cpp:5846
 msgid "Use a file as the background image."
 msgstr "Usar un ficheru como imaxe de fondu."
 
-#. i18n: file: kstars.kcfg:986
+#. i18n: file: kstars.kcfg:1001
 #. i18n: ectx: label, entry (XplanetBackgroundImagePath), group (Xplanet)
-#: rc.cpp:5831
+#: rc.cpp:5849
 msgid "Background image path"
 msgstr "Camín de la imaxe de fondu"
 
-#. i18n: file: kstars.kcfg:987
+#. i18n: file: kstars.kcfg:1002
 #. i18n: ectx: whatsthis, entry (XplanetBackgroundImagePath), group (Xplanet)
-#: rc.cpp:5834
+#: rc.cpp:5852
 msgid "The path of the background image."
 msgstr "El camín de la imaxe pal fondu."
 
-#. i18n: file: kstars.kcfg:991
+#. i18n: file: kstars.kcfg:1006
 #. i18n: ectx: label, entry (XplanetBackgroundColor), group (Xplanet)
-#: rc.cpp:5837
+#: rc.cpp:5855
 msgid "Use background color"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:992
+#. i18n: file: kstars.kcfg:1007
 #. i18n: ectx: whatsthis, entry (XplanetBackgroundColor), group (Xplanet)
-#: rc.cpp:5840
+#: rc.cpp:5858
 msgid "Use a color as the background."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:997
+#. i18n: file: kstars.kcfg:1012
 #. i18n: ectx: whatsthis, entry (XplanetBackgroundColorValue), group (Xplanet)
-#: rc.cpp:5846
+#: rc.cpp:5864
 msgid "The color of the background."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1001
+#. i18n: file: kstars.kcfg:1016
 #. i18n: ectx: label, entry (XplanetMagnitude), group (Xplanet)
-#: rc.cpp:5849
+#: rc.cpp:5867
 msgid "Base magnitude"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1006
+#. i18n: file: kstars.kcfg:1021
 #. i18n: ectx: label, entry (XplanetArcFile), group (Xplanet)
-#: rc.cpp:5855
+#: rc.cpp:5873
 msgid "Arc file"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1007
+#. i18n: file: kstars.kcfg:1022
 #. i18n: ectx: whatsthis, entry (XplanetArcFile), group (Xplanet)
-#: rc.cpp:5858
+#: rc.cpp:5876
 msgid "If checked, use an arc file to be plotted against the background stars."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1011
+#. i18n: file: kstars.kcfg:1026
 #. i18n: ectx: label, entry (XplanetArcFilePath), group (Xplanet)
-#: rc.cpp:5861
+#: rc.cpp:5879
 msgid "Path to arc file"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1016
+#. i18n: file: kstars.kcfg:1031
 #. i18n: ectx: label, entry (XplanetConfigFile), group (Xplanet)
-#: rc.cpp:5867
+#: rc.cpp:5885
 msgid "Config file"
 msgstr "Ficheru de configuración"
 
-#. i18n: file: kstars.kcfg:1017
+#. i18n: file: kstars.kcfg:1032
 #. i18n: ectx: whatsthis, entry (XplanetConfigFile), group (Xplanet)
-#: rc.cpp:5870
+#: rc.cpp:5888
 msgid "If checked, use a config file."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1021
+#. i18n: file: kstars.kcfg:1036
 #. i18n: ectx: label, entry (XplanetConfigFilePath), group (Xplanet)
-#: rc.cpp:5873
+#: rc.cpp:5891
 msgid "Path to config file"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1022
+#. i18n: file: kstars.kcfg:1037
 #. i18n: ectx: whatsthis, entry (XplanetConfigFilePath), group (Xplanet)
-#: rc.cpp:5876
+#: rc.cpp:5894
 msgid "Use the specified configuration file."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1031
+#. i18n: file: kstars.kcfg:1046
 #. i18n: ectx: label, entry (XplanetMarkerFile), group (Xplanet)
-#: rc.cpp:5885
+#: rc.cpp:5903
 msgid "Use marker file"
 msgstr "Usar un ficheru de trazos"
 
-#. i18n: file: kstars.kcfg:1037
+#. i18n: file: kstars.kcfg:1052
 #. i18n: ectx: whatsthis, entry (XplanetMarkerFilePath), group (Xplanet)
-#: rc.cpp:5894
+#: rc.cpp:5912
 msgid ""
 "Specify a file containing user-defined marker data to display against the "
 "background stars."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1041
+#. i18n: file: kstars.kcfg:1056
 #. i18n: ectx: label, entry (XplanetMarkerBounds), group (Xplanet)
-#: rc.cpp:5897
+#: rc.cpp:5915
 msgid "Write marker bounds"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1042
+#. i18n: file: kstars.kcfg:1057
 #. i18n: ectx: whatsthis, entry (XplanetMarkerBounds), group (Xplanet)
-#: rc.cpp:5900
+#: rc.cpp:5918
 msgid ""
 "If checked, write coordinates of the bounding box for each marker in a file."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1051
+#. i18n: file: kstars.kcfg:1066
 #. i18n: ectx: label, entry (XplanetStarmap), group (Xplanet)
-#: rc.cpp:5909
+#: rc.cpp:5927
 msgid "Star map"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1061
+#. i18n: file: kstars.kcfg:1076
 #. i18n: ectx: label, entry (XplanetQuality), group (Xplanet)
-#: rc.cpp:5921
+#: rc.cpp:5939
 msgid "Output file quality"
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1068
+#. i18n: file: kstars.kcfg:1083
 #. i18n: ectx: label, entry (ShowSatellites), group (Satellites)
-#: rc.cpp:5927
+#: rc.cpp:5945
 #, fuzzy
 #| msgid "Draw satellite tracks in the sky map?"
 msgid "Draw satellites in the sky map?"
 msgstr "¿Dibuxar les trazes de los satélites nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:1069
+#. i18n: file: kstars.kcfg:1084
 #. i18n: ectx: whatsthis, entry (ShowSatellites), group (Satellites)
-#. i18n: file: kstars.kcfg:1074
+#. i18n: file: kstars.kcfg:1089
 #. i18n: ectx: whatsthis, entry (ShowVisibleSatellites), group (Satellites)
-#: rc.cpp:5930 rc.cpp:5936
+#: rc.cpp:5948 rc.cpp:5954
 msgid "Toggle whether satellite tracks are drawn in the sky map."
 msgstr "Amuesa/Anubre les trazes de los satélites nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:1073
+#. i18n: file: kstars.kcfg:1088
 #. i18n: ectx: label, entry (ShowVisibleSatellites), group (Satellites)
-#: rc.cpp:5933
+#: rc.cpp:5951
 #, fuzzy
 #| msgid "Draw satellite tracks in the sky map?"
 msgid "Draw only visible satellites in the sky map"
 msgstr "¿Dibuxar les trazes de los satélites nel mapa celeste?"
 
-#. i18n: file: kstars.kcfg:1078
+#. i18n: file: kstars.kcfg:1093
 #. i18n: ectx: label, entry (DrawSatellitesLikeStars), group (Satellites)
-#. i18n: file: kstars.kcfg:1079
+#. i18n: file: kstars.kcfg:1094
 #. i18n: ectx: whatsthis, entry (DrawSatellitesLikeStars), group (Satellites)
-#: rc.cpp:5939 rc.cpp:5942
+#: rc.cpp:5957 rc.cpp:5960
 msgid ""
 "If selected, satellites will be draw like stars, otherwise, draw satellites "
 "as small colored square."
 msgstr ""
 
-#. i18n: file: kstars.kcfg:1083
+#. i18n: file: kstars.kcfg:1098
 #. i18n: ectx: label, entry (ShowSatellitesLabels), group (Satellites)
-#: rc.cpp:5945
+#: rc.cpp:5963
 #, fuzzy
 #| msgid "Draw constellation names?"
 msgid "Draw satellite labels?"
 msgstr "¿Amosar los nomes de les constelaciones?"
 
-#. i18n: file: kstars.kcfg:1084
+#. i18n: file: kstars.kcfg:1099
 #. i18n: ectx: whatsthis, entry (ShowSatellitesLabels), group (Satellites)
-#: rc.cpp:5948
+#: rc.cpp:5966
 #, fuzzy
 #| msgid "Toggle whether satellite tracks are drawn in the sky map."
 msgid "Toggle whether satellite labels are drawn in the sky map."
 msgstr "Amuesa/Anubre les trazes de los satélites nel mapa celeste."
 
-#. i18n: file: kstars.kcfg:1088
+#. i18n: file: kstars.kcfg:1103
 #. i18n: ectx: label, entry (SelectedSatellites), group (Satellites)
-#: rc.cpp:5951
+#: rc.cpp:5969
 #, fuzzy
 #| msgid "Select all major bodies"
 msgid "Selected satellites."
 msgstr "Esbillar tolos cuerpos mayores"
 
-#. i18n: file: kstars.kcfg:1089
+#. i18n: file: kstars.kcfg:1104
 #. i18n: ectx: whatsthis, entry (SelectedSatellites), group (Satellites)
-#: rc.cpp:5954
+#: rc.cpp:5972
 msgid "List of selected satellites."
 msgstr ""
 
@@ -37872,7 +37949,7 @@ msgstr "Ficheru non válidu"
 
 #: tools/modcalcdaylength.cpp:142 tools/modcalcdaylength.cpp:144
 #: tools/modcalcdaylength.cpp:187 tools/modcalcdaylength.cpp:189
-#: dialogs/detaildialog.cpp:492 dialogs/detaildialog.cpp:493
+#: dialogs/detaildialog.cpp:509 dialogs/detaildialog.cpp:510
 msgid "Circumpolar"
 msgstr "Circumpolar"
 
@@ -38086,7 +38163,7 @@ msgid "observing notes for %1:"
 msgstr "notes d'observación pa %1:"
 
 #: tools/observinglist.cpp:507 tools/observinglist.cpp:722
-#: dialogs/detaildialog.cpp:588 skyobjects/skyobject.cpp:377
+#: dialogs/detaildialog.cpp:605 skyobjects/skyobject.cpp:377
 #, kde-format
 msgid "Record here observation logs and/or data on %1."
 msgstr "Atroxar equí rexistros d'observación y/o información sobro %1."
@@ -38104,12 +38181,12 @@ msgstr ""
 msgid "Select a single object to record notes on it here:"
 msgstr ""
 
-#: tools/observinglist.cpp:608 dialogs/detaildialog.cpp:1003
+#: tools/observinglist.cpp:608 dialogs/detaildialog.cpp:1020
 #, kde-format
 msgid "Telescope %1 is offline. Please connect and retry again."
 msgstr "El telescopiu %1 nun ta coneutáu. Conéutelu ya téntelo otra vegada."
 
-#: tools/observinglist.cpp:620 dialogs/detaildialog.cpp:1015
+#: tools/observinglist.cpp:620 dialogs/detaildialog.cpp:1032
 msgid "KStars did not find any active telescopes."
 msgstr "KStars nun alcontró dengún telescopiu activu."
 
@@ -39290,46 +39367,46 @@ msgstr ""
 msgid "Creating horizon"
 msgstr "Creando horizonte"
 
-#: skycomponents/horizoncomponent.cpp:323
+#: skycomponents/horizoncomponent.cpp:324
 msgid "Unrecognized coordinate projection: "
 msgstr "Proyeición de coordenaes desconocida: "
 
-#: skycomponents/horizoncomponent.cpp:457
+#: skycomponents/horizoncomponent.cpp:458
 msgctxt "Northeast"
 msgid "NE"
 msgstr "NE"
 
-#: skycomponents/horizoncomponent.cpp:458
+#: skycomponents/horizoncomponent.cpp:459
 msgctxt "East"
 msgid "E"
 msgstr "E"
 
-#: skycomponents/horizoncomponent.cpp:459
+#: skycomponents/horizoncomponent.cpp:460
 msgctxt "Southeast"
 msgid "SE"
 msgstr "SE"
 
-#: skycomponents/horizoncomponent.cpp:460
+#: skycomponents/horizoncomponent.cpp:461
 msgctxt "South"
 msgid "S"
 msgstr "S"
 
-#: skycomponents/horizoncomponent.cpp:461
+#: skycomponents/horizoncomponent.cpp:462
 msgctxt "Southwest"
 msgid "SW"
 msgstr "SO"
 
-#: skycomponents/horizoncomponent.cpp:462
+#: skycomponents/horizoncomponent.cpp:463
 msgctxt "West"
 msgid "W"
 msgstr "O"
 
-#: skycomponents/horizoncomponent.cpp:463
+#: skycomponents/horizoncomponent.cpp:464
 msgctxt "Northwest"
 msgid "NW"
 msgstr "NO"
 
-#: skycomponents/horizoncomponent.cpp:464
+#: skycomponents/horizoncomponent.cpp:465
 msgctxt "North"
 msgid "N"
 msgstr "N"
@@ -39369,7 +39446,7 @@ msgstr "Anovar"
 msgid "Update %1 satellites"
 msgstr "Cargando satélites terrestres"
 
-#: skycomponents/skymapcomposite.cpp:453
+#: skycomponents/skymapcomposite.cpp:470
 #, kde-format
 msgid "Could not find custom catalog component named %1."
 msgstr "Imposible alcontrar un componente del catálogu personalizáu denomáu %1"
@@ -39385,6 +39462,10 @@ msgstr "Cargando estrelles"
 #: skycomponents/starcomponent.cpp:147
 msgid "Please wait while re-indexing stars ..."
 msgstr "Por favor, espere mientres se refái l'índiz d'estrelles..."
+
+#: skycomponents/supernovaecomponent.cpp:208
+msgid "Supernova information update failed"
+msgstr ""
 
 #: widgets/dmsbox.cpp:93
 msgid "Angle value in degrees."
@@ -39748,157 +39829,157 @@ msgstr "Non esplorar"
 msgid "Show webpage about "
 msgstr "Amosar páxina web sobro "
 
-#: dialogs/detaildialog.cpp:145 dialogs/detaildialog.cpp:208
-#: dialogs/detaildialog.cpp:272
+#: dialogs/detaildialog.cpp:147 dialogs/detaildialog.cpp:210
+#: dialogs/detaildialog.cpp:241 dialogs/detaildialog.cpp:286
 #, kde-format
 msgctxt "number in magnitudes"
 msgid "%1 mag"
 msgstr "%1 mag"
 
-#: dialogs/detaildialog.cpp:160
+#: dialogs/detaildialog.cpp:162
 msgctxt "larger than 2000 parsecs"
 msgid "> 2000 pc"
 msgstr "> 2000 pc"
 
-#: dialogs/detaildialog.cpp:162 dialogs/detaildialog.cpp:165
-#: dialogs/detaildialog.cpp:168
+#: dialogs/detaildialog.cpp:164 dialogs/detaildialog.cpp:167
+#: dialogs/detaildialog.cpp:170
 #, kde-format
 msgctxt "number in parsecs"
 msgid "%1 pc"
 msgstr "%1 pc"
 
-#: dialogs/detaildialog.cpp:176 dialogs/detaildialog.cpp:179
+#: dialogs/detaildialog.cpp:178 dialogs/detaildialog.cpp:181
 msgctxt "the star is a multiple star"
 msgid "multiple"
 msgstr "múltiple"
 
-#: dialogs/detaildialog.cpp:177 dialogs/detaildialog.cpp:181
+#: dialogs/detaildialog.cpp:179 dialogs/detaildialog.cpp:183
 msgctxt "the star is a variable star"
 msgid "variable"
 msgstr "variable"
 
-#: dialogs/detaildialog.cpp:193
+#: dialogs/detaildialog.cpp:195
 msgid "G5 star"
 msgstr "estrella G5"
 
-#: dialogs/detaildialog.cpp:197
+#: dialogs/detaildialog.cpp:199
 msgid "Dwarf planet"
 msgstr "Planeta nanu"
 
-#: dialogs/detaildialog.cpp:213
+#: dialogs/detaildialog.cpp:215
 #, kde-format
 msgctxt "distance in kilometers"
 msgid "%1 km"
 msgstr "%1 km"
 
-#: dialogs/detaildialog.cpp:216
+#: dialogs/detaildialog.cpp:218
 #, kde-format
 msgctxt "distance in Astronomical Units"
 msgid "%1 AU"
 msgstr "%1 UA"
 
-#: dialogs/detaildialog.cpp:223 dialogs/detaildialog.cpp:280
-#: dialogs/detaildialog.cpp:283
+#: dialogs/detaildialog.cpp:225 dialogs/detaildialog.cpp:294
+#: dialogs/detaildialog.cpp:297
 #, kde-format
 msgctxt "angular size in arcminutes"
 msgid "%1 arcmin"
 msgstr "%1 minutos d'arcu"
 
-#: dialogs/detaildialog.cpp:226
+#: dialogs/detaildialog.cpp:228
 #, kde-format
 msgctxt "angular size in arcseconds"
 msgid "%1 arcsec"
 msgstr "%1 segundos d'arcu"
 
-#: dialogs/detaildialog.cpp:265
+#: dialogs/detaildialog.cpp:279
 #, kde-format
 msgctxt "integrated flux at a frequency"
 msgid "Flux(%1):"
 msgstr ""
 
-#: dialogs/detaildialog.cpp:266
+#: dialogs/detaildialog.cpp:280
 #, kde-format
 msgctxt "integrated flux value"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: dialogs/detaildialog.cpp:411
+#: dialogs/detaildialog.cpp:428
 #, kde-format
 msgctxt ""
 "%1 type of sky object (planet, asteroid etc), %2 name of a constellation"
 msgid "%1 in %2"
 msgstr ""
 
-#: dialogs/detaildialog.cpp:432
+#: dialogs/detaildialog.cpp:449
 #, kde-format
 msgid "RA (%1):"
 msgstr "AR (%1):"
 
-#: dialogs/detaildialog.cpp:433
+#: dialogs/detaildialog.cpp:450
 #, kde-format
 msgid "Dec (%1):"
 msgstr "Dec (%1):"
 
-#: dialogs/detaildialog.cpp:495 dialogs/detaildialog.cpp:496
+#: dialogs/detaildialog.cpp:512 dialogs/detaildialog.cpp:513
 msgid "Never rises"
 msgstr "Siempres per embaxo l'horizonte"
 
-#: dialogs/detaildialog.cpp:499 dialogs/detaildialog.cpp:500
+#: dialogs/detaildialog.cpp:516 dialogs/detaildialog.cpp:517
 msgctxt "Not Applicable"
 msgid "N/A"
 msgstr "N/D"
 
-#: dialogs/detaildialog.cpp:518
+#: dialogs/detaildialog.cpp:535
 msgid "Links"
 msgstr "Enllaces"
 
-#: dialogs/detaildialog.cpp:583
+#: dialogs/detaildialog.cpp:600
 msgid "Log"
 msgstr "Rexistru"
 
-#: dialogs/detaildialog.cpp:655
+#: dialogs/detaildialog.cpp:672
 msgid "Edit Link"
 msgstr "Editar enllaz"
 
-#: dialogs/detaildialog.cpp:778
+#: dialogs/detaildialog.cpp:795
 #, kde-format
 msgid "Are you sure you want to remove the %1 link?"
 msgstr "¿Daveres que quier desaniciar l'enllaz %1?"
 
-#: dialogs/detaildialog.cpp:778 indi/indidriver.cpp:912
+#: dialogs/detaildialog.cpp:795 indi/indidriver.cpp:912
 msgid "Delete Confirmation"
 msgstr "Confirmación d'esborráu"
 
-#: dialogs/finddialog.cpp:58
+#: dialogs/finddialog.cpp:59
 msgid "Find Object"
 msgstr "Guetar oxetu"
 
-#: dialogs/finddialog.cpp:68
+#: dialogs/finddialog.cpp:69
 msgid "Details..."
 msgstr "Detalles..."
 
-#: dialogs/finddialog.cpp:107
+#: dialogs/finddialog.cpp:108
 msgid "Andromeda Galaxy"
 msgstr "Galaxa d'Andrómeda"
 
-#: dialogs/finddialog.cpp:113
+#: dialogs/finddialog.cpp:114
 msgid "Aldebaran"
 msgstr "Aldebarán"
 
-#: dialogs/finddialog.cpp:120
+#: dialogs/finddialog.cpp:121
 msgid "Aaltje"
 msgstr "Aaltje"
 
-#: dialogs/finddialog.cpp:126
+#: dialogs/finddialog.cpp:127
 msgid "Aarseth-Brewington (1989 W1)"
 msgstr "Aarseth-Brewington (1989 W1)"
 
-#: dialogs/finddialog.cpp:297
+#: dialogs/finddialog.cpp:301
 #, kde-format
 msgid "No object named %1 found."
 msgstr "Nun s'alcontró dengún oxetu denomáu %1."
 
-#: dialogs/finddialog.cpp:298
+#: dialogs/finddialog.cpp:302
 msgid "Bad object name"
 msgstr "Nome erróneu d'oxetu"
 
@@ -40725,11 +40806,11 @@ msgstr "Amosar"
 msgid "Cannot write to user log file"
 msgstr "Imposible escribir nel ficheru de rexistru del usuariu"
 
-#: skyobjects/skypoint.cpp:128 skyobjects/skypoint.cpp:131
+#: skyobjects/skypoint.cpp:129 skyobjects/skypoint.cpp:132
 msgid "Coordinate out of range."
 msgstr "Coordenaes fuera de rangu."
 
-#: skyobjects/skypoint.cpp:344
+#: skyobjects/skypoint.cpp:345
 msgid "lat and LST parameters should only be used in KSPlanetBase objects."
 msgstr "Los parámetros lat y LST únicamente deben usase n'oxetos KSPlanetBase."
 
