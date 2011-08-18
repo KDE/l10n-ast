@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-10 03:02+0200\n"
+"POT-Creation-Date: 2011-08-18 02:59+0200\n"
 "PO-Revision-Date: 2010-10-19 23:27+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -871,72 +871,6 @@ msgstr "Mover los datos"
 msgid "Move a torrent to the bottom of the queue"
 msgstr "Mover un torrent al final de la cola"
 
-#. i18n: file: ktorrent/kttorrentactivityui.rc:7
-#. i18n: ectx: Menu (Torrents)
-#. i18n: file: ktorrent/kttorrentactivityui.rc:77
-#. i18n: ectx: ToolBar (TorrentsToolBar)
-#. i18n: file: ktorrent/kttorrentactivityui.rc:7
-#. i18n: ectx: Menu (Torrents)
-#. i18n: file: ktorrent/kttorrentactivityui.rc:77
-#. i18n: ectx: ToolBar (TorrentsToolBar)
-#: ktorrent/torrentactivity.cpp:48 libktcore/interfaces/functions.cpp:186
-#: rc.cpp:476 rc.cpp:497
-msgid "Torrents"
-msgstr "Torrents"
-
-#: ktorrent/torrentactivity.cpp:82
-msgid "Widget to manage the torrent queue"
-msgstr "Elementu gráficu pa xestionar la cola de torrents"
-
-#: ktorrent/torrentactivity.cpp:85
-#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:143
-msgid "Magnet"
-msgstr ""
-
-#: ktorrent/torrentactivity.cpp:86
-#, fuzzy
-#| msgid "Displays all the chunks you are downloading, of a torrent"
-msgid "Displays the currently downloading magnet links"
-msgstr "Amuesa toles partes que tas baxando d'un torrent dáu"
-
-#: ktorrent/torrentactivity.cpp:110
-msgid "Start All"
-msgstr "Entamar too"
-
-#: ktorrent/torrentactivity.cpp:111
-msgid "Start all torrents"
-msgstr "Entamar tolos torrents"
-
-#: ktorrent/torrentactivity.cpp:115
-msgid "Stop All"
-msgstr "Parar too"
-
-#: ktorrent/torrentactivity.cpp:116
-msgid "Stop all torrents"
-msgstr "Detener tolos torrents"
-
-#: ktorrent/torrentactivity.cpp:120
-#, fuzzy
-#| msgid "Pause KTorrent"
-msgid "Suspend Torrents"
-msgstr "Posar KTorrent"
-
-#. i18n: file: plugins/bwscheduler/edititemdlg.ui:109
-#. i18n: ectx: property (text), widget (QCheckBox, m_suspended)
-#: ktorrent/torrentactivity.cpp:122 rc.cpp:1610
-#, fuzzy
-#| msgid "Pause all running torrents"
-msgid "Suspend all running torrents"
-msgstr "Posar tolos torrents n'execución"
-
-#: ktorrent/torrentactivity.cpp:127
-msgid "Group View Visible"
-msgstr ""
-
-#: ktorrent/torrentactivity.cpp:128
-msgid "Show or hide the group view"
-msgstr ""
-
 #: ktorrent/view/scanextender.cpp:46
 msgid "Checked %v of %m chunks"
 msgstr ""
@@ -1096,6 +1030,53 @@ msgstr ""
 msgid "%1<br>Url: <b>%2</b>"
 msgstr "%1<br>URL: <b>%2</b>"
 
+#: ktorrent/view/propertiesdlg.cpp:34
+#, fuzzy
+#| msgid "Torrent files"
+msgid "Torrent Settings"
+msgstr "Ficheros torrent"
+
+#. i18n: file: ktorrent/kttorrentactivityui.rc:70
+#. i18n: ectx: Menu (ColumnsMenu)
+#: ktorrent/view/view.cpp:79 rc.cpp:494
+msgid "Columns"
+msgstr "Columnes"
+
+#: ktorrent/view/view.cpp:232
+#, kde-format
+msgid ""
+"The torrent <b>%1</b> has not finished downloading, do you want to delete "
+"the incomplete data, too?"
+msgstr ""
+"El torrent <b>%1</b> nun finó de baxase; ¿quies desaniciar tamién los datos "
+"incompletos?"
+
+#: ktorrent/view/view.cpp:237
+msgid "Remove Download"
+msgstr "Desaniciar la baxada"
+
+#: ktorrent/view/view.cpp:238
+msgid "Delete Data"
+msgstr "Desaniciar los datos"
+
+#: ktorrent/view/view.cpp:239
+msgid "Keep Data"
+msgstr "Caltener los datos"
+
+#: ktorrent/view/view.cpp:258
+msgid ""
+"You will lose all the downloaded data. Are you sure you want to do this?"
+msgstr "Perderás tolos datos baxaos. ¿De xuru que quies facer esto?"
+
+#: ktorrent/view/view.cpp:259
+msgid "Remove Torrent"
+msgstr "Desaniciar el torrent"
+
+#: ktorrent/view/view.cpp:354 plugins/infowidget/fileview.cpp:338
+#: plugins/infowidget/fileview.cpp:359
+msgid "Select a directory to move the data to."
+msgstr "Escueyi un direutoriu al que mover los datos."
+
 #: ktorrent/view/viewmanager.cpp:563
 #, fuzzy
 #| msgid "Start"
@@ -1241,53 +1222,6 @@ msgstr "Esportar el torrent"
 #: ktorrent/view/viewmanager.cpp:677
 msgid "Set the speed limits of individual torrents"
 msgstr "Afitar los límites de velocidá de los torrents individuales"
-
-#: ktorrent/view/propertiesdlg.cpp:34
-#, fuzzy
-#| msgid "Torrent files"
-msgid "Torrent Settings"
-msgstr "Ficheros torrent"
-
-#. i18n: file: ktorrent/kttorrentactivityui.rc:70
-#. i18n: ectx: Menu (ColumnsMenu)
-#: ktorrent/view/view.cpp:79 rc.cpp:494
-msgid "Columns"
-msgstr "Columnes"
-
-#: ktorrent/view/view.cpp:232
-#, kde-format
-msgid ""
-"The torrent <b>%1</b> has not finished downloading, do you want to delete "
-"the incomplete data, too?"
-msgstr ""
-"El torrent <b>%1</b> nun finó de baxase; ¿quies desaniciar tamién los datos "
-"incompletos?"
-
-#: ktorrent/view/view.cpp:237
-msgid "Remove Download"
-msgstr "Desaniciar la baxada"
-
-#: ktorrent/view/view.cpp:238
-msgid "Delete Data"
-msgstr "Desaniciar los datos"
-
-#: ktorrent/view/view.cpp:239
-msgid "Keep Data"
-msgstr "Caltener los datos"
-
-#: ktorrent/view/view.cpp:258
-msgid ""
-"You will lose all the downloaded data. Are you sure you want to do this?"
-msgstr "Perderás tolos datos baxaos. ¿De xuru que quies facer esto?"
-
-#: ktorrent/view/view.cpp:259
-msgid "Remove Torrent"
-msgstr "Desaniciar el torrent"
-
-#: ktorrent/view/view.cpp:354 plugins/infowidget/fileview.cpp:338
-#: plugins/infowidget/fileview.cpp:359
-msgid "Select a directory to move the data to."
-msgstr "Escueyi un direutoriu al que mover los datos."
 
 #: ktorrent/core.cpp:178
 #, fuzzy, kde-format
@@ -1970,6 +1904,72 @@ msgstr "Velocidá llímite en KiB/s"
 msgid "Unlimited"
 msgstr "Ensin llímite"
 
+#. i18n: file: ktorrent/kttorrentactivityui.rc:7
+#. i18n: ectx: Menu (Torrents)
+#. i18n: file: ktorrent/kttorrentactivityui.rc:77
+#. i18n: ectx: ToolBar (TorrentsToolBar)
+#. i18n: file: ktorrent/kttorrentactivityui.rc:7
+#. i18n: ectx: Menu (Torrents)
+#. i18n: file: ktorrent/kttorrentactivityui.rc:77
+#. i18n: ectx: ToolBar (TorrentsToolBar)
+#: ktorrent/torrentactivity.cpp:48 libktcore/interfaces/functions.cpp:186
+#: rc.cpp:476 rc.cpp:497
+msgid "Torrents"
+msgstr "Torrents"
+
+#: ktorrent/torrentactivity.cpp:82
+msgid "Widget to manage the torrent queue"
+msgstr "Elementu gráficu pa xestionar la cola de torrents"
+
+#: ktorrent/torrentactivity.cpp:85
+#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:143
+msgid "Magnet"
+msgstr ""
+
+#: ktorrent/torrentactivity.cpp:86
+#, fuzzy
+#| msgid "Displays all the chunks you are downloading, of a torrent"
+msgid "Displays the currently downloading magnet links"
+msgstr "Amuesa toles partes que tas baxando d'un torrent dáu"
+
+#: ktorrent/torrentactivity.cpp:110
+msgid "Start All"
+msgstr "Entamar too"
+
+#: ktorrent/torrentactivity.cpp:111
+msgid "Start all torrents"
+msgstr "Entamar tolos torrents"
+
+#: ktorrent/torrentactivity.cpp:115
+msgid "Stop All"
+msgstr "Parar too"
+
+#: ktorrent/torrentactivity.cpp:116
+msgid "Stop all torrents"
+msgstr "Detener tolos torrents"
+
+#: ktorrent/torrentactivity.cpp:120
+#, fuzzy
+#| msgid "Pause KTorrent"
+msgid "Suspend Torrents"
+msgstr "Posar KTorrent"
+
+#. i18n: file: plugins/bwscheduler/edititemdlg.ui:109
+#. i18n: ectx: property (text), widget (QCheckBox, m_suspended)
+#: ktorrent/torrentactivity.cpp:122 rc.cpp:1610
+#, fuzzy
+#| msgid "Pause all running torrents"
+msgid "Suspend all running torrents"
+msgstr "Posar tolos torrents n'execución"
+
+#: ktorrent/torrentactivity.cpp:127
+msgid "Group View Visible"
+msgstr ""
+
+#: ktorrent/torrentactivity.cpp:128
+msgid "Show or hide the group view"
+msgstr ""
+
 #: ktupnptest/main.cpp:40
 msgid "KTUPnPTest"
 msgstr "KTUPnPTest"
@@ -1989,6 +1989,10 @@ msgstr "Alcanzóse la proporción de compartición máxima."
 #: libktcore/dbus/dbustorrent.cpp:325
 msgid "Maximum seed time reached."
 msgstr "Alcanzóse'l tiempu máximu de siembra."
+
+#: libktcore/groups/ungroupedgroup.cpp:27
+msgid "Ungrouped Torrents"
+msgstr "Torrents non agrupaos"
 
 #: libktcore/groups/groupmanager.cpp:100
 msgid "Uploads"
@@ -2037,10 +2041,6 @@ msgstr "Baxaes pasives"
 #: libktcore/groups/groupmanager.cpp:126
 msgid "Passive Uploads"
 msgstr "Unvíos pasivos"
-
-#: libktcore/groups/ungroupedgroup.cpp:27
-msgid "Ungrouped Torrents"
-msgstr "Torrents non agrupaos"
 
 #: libktcore/interfaces/functions.cpp:188
 #: plugins/bwscheduler/scheduleeditor.cpp:141
