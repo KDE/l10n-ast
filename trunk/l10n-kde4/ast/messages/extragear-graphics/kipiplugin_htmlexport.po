@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 04:27+0200\n"
+"POT-Creation-Date: 2011-08-20 02:19+0200\n"
 "PO-Revision-Date: 2010-10-19 22:03+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -18,18 +18,6 @@ msgstr ""
 "X-Launchpad-Export-Date: 2009-10-23 04:31+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#: plugin.cpp:72
-msgid "Export to &HTML..."
-msgstr "Esportar a &HTML..."
-
-#: plugin.cpp:95
-msgid "Generating gallery..."
-msgstr "Xenerando galería..."
-
-#: plugin.cpp:105
-msgid "Finished, but some warnings occurred."
-msgstr "Acabóse, pero con dellos avisos."
 
 #: imagegenerationfunctor.cpp:92
 #, kde-format
@@ -75,6 +63,81 @@ msgstr "Nun pudo abrise'l ficheru «%1» pa escritura"
 #, kde-format
 msgid "Could not save image to file '%1'"
 msgstr "Nun pudo guardase la imaxe nel ficheru «%1»"
+
+#: wizard.cpp:170
+#, kde-format
+msgctxt "'%1' is a label for a theme parameter"
+msgid "%1:"
+msgstr "%1:"
+
+#: wizard.cpp:206
+msgid "Export image collections to HTML pages"
+msgstr "Esportar esbilles d'imáxenes a páxines HTML"
+
+#: wizard.cpp:212
+msgid "HTML Export"
+msgstr "Esportación HTML"
+
+#: wizard.cpp:215
+msgid "A KIPI plugin to export image collections to HTML pages"
+msgstr "Un complementu de KIPI pa esportar esbilles d'imáxenes a páxines HTML"
+
+#: wizard.cpp:216
+msgid ""
+"(c) 2006-2009, Aurelien Gateau\n"
+"(c) 2010, Gianluca Urgese"
+msgstr ""
+"(c) 2006-2009, Aurelien Gateau\n"
+"(c) 2010, Gianluca Urgese"
+
+#: wizard.cpp:220
+msgid "Gianluca Urgese"
+msgstr ""
+
+#: wizard.cpp:221
+#, fuzzy
+#| msgid "Author and Maintainer"
+msgid "Maintainer"
+msgstr "Autor y responsable"
+
+#: wizard.cpp:225
+msgid "Aurelien Gateau"
+msgstr "Aurelien Gateau"
+
+#: wizard.cpp:226
+#, fuzzy
+#| msgid "Author and Maintainer"
+msgid "Former Author and Maintainer"
+msgstr "Autor y responsable"
+
+#: wizard.cpp:234
+msgid "Handbook"
+msgstr "Manual"
+
+#: wizard.cpp:243
+msgid "Collection Selection"
+msgstr "Seleición d'escoyeta"
+
+#: wizard.cpp:248
+msgid "Theme"
+msgstr "Tema"
+
+#: wizard.cpp:253
+msgid "Theme Parameters"
+msgstr "Parámetros del tema"
+
+#: wizard.cpp:255
+msgid "Image Settings"
+msgstr "Axustes d'Imaxe"
+
+#: wizard.cpp:257
+msgid "Output"
+msgstr "Salida"
+
+#: wizard.cpp:313
+#, kde-format
+msgid "Author: %1"
+msgstr "Autor: %1"
 
 #: generator.cpp:136
 #, kde-format
@@ -226,80 +289,17 @@ msgstr "Nun pudo abrise «%1» pa escritura"
 msgid "Could not create folder '%1' in '%2'"
 msgstr "Nun pudo criase la carpeta «%1» en «%2»"
 
-#: wizard.cpp:170
-#, kde-format
-msgctxt "'%1' is a label for a theme parameter"
-msgid "%1:"
-msgstr "%1:"
+#: plugin.cpp:72
+msgid "Export to &HTML..."
+msgstr "Esportar a &HTML..."
 
-#: wizard.cpp:206
-msgid "Export image collections to HTML pages"
-msgstr "Esportar esbilles d'imáxenes a páxines HTML"
+#: plugin.cpp:95
+msgid "Generating gallery..."
+msgstr "Xenerando galería..."
 
-#: wizard.cpp:212
-msgid "HTML Export"
-msgstr "Esportación HTML"
-
-#: wizard.cpp:215
-msgid "A KIPI plugin to export image collections to HTML pages"
-msgstr "Un complementu de KIPI pa esportar esbilles d'imáxenes a páxines HTML"
-
-#: wizard.cpp:216
-msgid ""
-"(c) 2006-2009, Aurelien Gateau\n"
-"(c) 2010, Gianluca Urgese"
-msgstr ""
-"(c) 2006-2009, Aurelien Gateau\n"
-"(c) 2010, Gianluca Urgese"
-
-#: wizard.cpp:220
-msgid "Gianluca Urgese"
-msgstr ""
-
-#: wizard.cpp:221
-#, fuzzy
-#| msgid "Author and Maintainer"
-msgid "Maintainer"
-msgstr "Autor y responsable"
-
-#: wizard.cpp:225
-msgid "Aurelien Gateau"
-msgstr "Aurelien Gateau"
-
-#: wizard.cpp:226
-#, fuzzy
-#| msgid "Author and Maintainer"
-msgid "Former Author and Maintainer"
-msgstr "Autor y responsable"
-
-#: wizard.cpp:234
-msgid "Handbook"
-msgstr "Manual"
-
-#: wizard.cpp:243
-msgid "Collection Selection"
-msgstr "Seleición d'escoyeta"
-
-#: wizard.cpp:248
-msgid "Theme"
-msgstr "Tema"
-
-#: wizard.cpp:253
-msgid "Theme Parameters"
-msgstr "Parámetros del tema"
-
-#: wizard.cpp:255
-msgid "Image Settings"
-msgstr "Axustes d'Imaxe"
-
-#: wizard.cpp:257
-msgid "Output"
-msgstr "Salida"
-
-#: wizard.cpp:313
-#, kde-format
-msgid "Author: %1"
-msgstr "Autor: %1"
+#: plugin.cpp:105
+msgid "Finished, but some warnings occurred."
+msgstr "Acabóse, pero con dellos avisos."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
