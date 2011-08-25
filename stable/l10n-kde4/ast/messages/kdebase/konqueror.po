@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:45+0200\n"
+"POT-Creation-Date: 2011-08-25 11:07+0200\n"
 "PO-Revision-Date: 2010-10-19 22:29+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: alministradores@softastur.org\n"
@@ -30,8 +30,8 @@ msgstr "Configurar"
 msgid "Extensions"
 msgstr "Estensiones"
 
-#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5010
-#: src/konqmainwindow.cpp:5070
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5014
+#: src/konqmainwindow.cpp:5074
 msgid "no name"
 msgstr "ensin nome"
 
@@ -586,6 +586,90 @@ msgstr ""
 msgid "Location to open"
 msgstr "Ubicación p'abrir"
 
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "Configuración de perfil"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "&Renomar perfil"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "Sup&rimir perfil"
+
+#: src/konqsessionmanager.cpp:330
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr "Konqueror nun se zarró correchamente. ¿Quier restaurar la sesión?"
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "¿Restaurar la sesión?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "Restaurar sesión"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "Nun restaurar"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "Preguntar más tarde"
+
+#: src/konqviewmanager.cpp:1411
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"Tienes delles llingüetes abiertes nesta ventana.\n"
+"El cargar un perfil de vista zarraráles."
+
+#: src/konqviewmanager.cpp:1413 src/konqmainwindow.cpp:4941
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Confirmación"
+
+#: src/konqviewmanager.cpp:1414
+msgid "Load View Profile"
+msgstr "Cargar perfil de vista"
+
+#: src/konqviewmanager.cpp:1426
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Esta llingüeta caltién cambeos que nun s'unviaron.\n"
+"Cargar un perfil fadrá que se descarten los cambeos."
+
+#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
+#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
+#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
+#: src/konqmainwindow.cpp:2514 src/konqmainwindow.cpp:4976
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "¿Descartar cambeos?"
+
+#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
+#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
+#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
+#: src/konqmainwindow.cpp:2515 src/konqmainwindow.cpp:4976
+msgid "&Discard Changes"
+msgstr "&Descartar cambeos"
+
 #: src/konqmainwindow.cpp:574
 msgctxt "@title:tab"
 msgid "Loading..."
@@ -602,23 +686,6 @@ msgid ""
 msgstr ""
 "Esta páxina caltién cambios que nun s'unviaron\n"
 "Si recargues la páxina descartaránse estos cambeos."
-
-#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
-#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
-#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2514
-#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "¿Descartar cambeos?"
-
-#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
-#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
-#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2515
-#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
-msgid "&Discard Changes"
-msgstr "&Descartar cambeos"
 
 #: src/konqmainwindow.cpp:1725
 msgid "File Management"
@@ -1173,25 +1240,18 @@ msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr "Mou de &vista"
 
-#: src/konqmainwindow.cpp:4935
+#: src/konqmainwindow.cpp:4939
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 "Tien abondes llingüetes abiertes nesta ventana, ¿ta seguru de que quies "
 "colar?"
 
-#: src/konqmainwindow.cpp:4937 src/konqviewmanager.cpp:1413
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Confirmación"
-
-#: src/konqmainwindow.cpp:4939
+#: src/konqmainwindow.cpp:4943
 msgid "C&lose Current Tab"
 msgstr "Zarrar llingüeta actua&l"
 
-#: src/konqmainwindow.cpp:4968
+#: src/konqmainwindow.cpp:4972
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1199,7 +1259,7 @@ msgstr ""
 "Esta llingüeta caltién cambeos que nun s'unviaron.\n"
 "El zarrar la ventana fadrá que se descarten los cambeos."
 
-#: src/konqmainwindow.cpp:4969
+#: src/konqmainwindow.cpp:4973
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1207,34 +1267,34 @@ msgstr ""
 "Esta pestaña caltién cambeos que nun s'unviaron.\n"
 "El zarrar la ventana fadrá que se descarten los cambeos."
 
-#: src/konqmainwindow.cpp:5137
+#: src/konqmainwindow.cpp:5141
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 "La to barra llateral nun furrula o nun ta disponible. Nun se puede amestar "
 "una nueva entrada."
 
-#: src/konqmainwindow.cpp:5137 src/konqmainwindow.cpp:5144
+#: src/konqmainwindow.cpp:5141 src/konqmainwindow.cpp:5148
 #, fuzzy
 #| msgid "Web Sidebar"
 msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "Panel de navegación de web"
 
-#: src/konqmainwindow.cpp:5142
+#: src/konqmainwindow.cpp:5146
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr "¿Amestar una nueva estensión web \"%1\" al panel de navegación?"
 
-#: src/konqmainwindow.cpp:5144
+#: src/konqmainwindow.cpp:5148
 msgid "Add"
 msgstr "Amestar"
 
-#: src/konqmainwindow.cpp:5144
+#: src/konqmainwindow.cpp:5148
 msgid "Do Not Add"
 msgstr "Nun amestar"
 
-#: src/konqmainwindow.cpp:5457
+#: src/konqmainwindow.cpp:5461
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -1242,66 +1302,6 @@ msgid ""
 msgstr ""
 "Paez ser un fallu de configuración. Asocieste Konqueror con %1, pero nun "
 "puede remanar esta triba de ficheru."
-
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "Profile Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "Configuración de perfil"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "&Renomar perfil"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "Sup&rimir perfil"
-
-#: src/konqsessionmanager.cpp:330
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr "Konqueror nun se zarró correchamente. ¿Quier restaurar la sesión?"
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Restore Session?"
-msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "¿Restaurar la sesión?"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "Restaurar sesión"
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "Nun restaurar"
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "Preguntar más tarde"
-
-#: src/konqviewmanager.cpp:1411
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"Tienes delles llingüetes abiertes nesta ventana.\n"
-"El cargar un perfil de vista zarraráles."
-
-#: src/konqviewmanager.cpp:1414
-msgid "Load View Profile"
-msgstr "Cargar perfil de vista"
-
-#: src/konqviewmanager.cpp:1426
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Esta llingüeta caltién cambeos que nun s'unviaron.\n"
-"Cargar un perfil fadrá que se descarten los cambeos."
 
 #: src/konqview.cpp:1203
 msgid ""
