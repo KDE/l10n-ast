@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-24 03:51+0200\n"
+"POT-Creation-Date: 2011-08-26 03:49+0200\n"
 "PO-Revision-Date: 2010-10-19 22:50+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <kde-l10n-es@kde.org>\n"
@@ -169,6 +169,43 @@ msgid_plural " seconds"
 msgstr[0] " segundu"
 msgstr[1] " segundos"
 
+#: core/chooseenginedialog.cpp:22
+msgid "Backend Selection"
+msgstr "Escoyeta de motor"
+
+#: core/chooseenginedialog.cpp:33
+#, kde-format
+msgid ""
+"<qt>More than one backend found for the MIME type:<br /><b>%1</b> (%2).<br /"
+"><br />Please select which one to use:</qt>"
+msgstr ""
+"<qt>Alcontráronse más d'un motor pa la triba MIME:<br /><b>%1</b> (%2).<br /"
+"><br />Escueyi cuál usar:</qt>"
+
+#: core/sourcereference.cpp:92
+#, kde-format
+msgctxt "'source' is a source file"
+msgid "Source: %1"
+msgstr "Orixe: %1"
+
+#: core/generator.cpp:557
+msgid "Plain &Text..."
+msgstr "&Testu planu..."
+
+#: core/generator.cpp:560
+msgid "PDF"
+msgstr "PDF"
+
+#: core/generator.cpp:565
+msgctxt "This is the document format"
+msgid "OpenDocument Text"
+msgstr "Testu d'Open Office"
+
+#: core/generator.cpp:569
+msgctxt "This is the document format"
+msgid "HTML"
+msgstr "HTML"
+
 #: core/action.cpp:91
 #, kde-format
 msgid "Go to page %1"
@@ -239,36 +276,23 @@ msgstr "Guión JavaScript"
 msgid "Play movie..."
 msgstr "Reproducir película..."
 
-#: core/chooseenginedialog.cpp:22
-msgid "Backend Selection"
-msgstr "Escoyeta de motor"
+#: core/action.cpp:463
+#, fuzzy
+#| msgid "Hide Forms"
+msgid "Reset Forms"
+msgstr "Anubrir formularios"
 
-#: core/chooseenginedialog.cpp:33
-#, kde-format
-msgid ""
-"<qt>More than one backend found for the MIME type:<br /><b>%1</b> (%2).<br /"
-"><br />Please select which one to use:</qt>"
-msgstr ""
-"<qt>Alcontráronse más d'un motor pa la triba MIME:<br /><b>%1</b> (%2).<br /"
-"><br />Escueyi cuál usar:</qt>"
-
-#: core/sourcereference.cpp:92
-#, kde-format
-msgctxt "'source' is a source file"
-msgid "Source: %1"
-msgstr "Orixe: %1"
-
-#: core/document.cpp:167
+#: core/document.cpp:168
 #, kde-format
 msgid "%1 x %2 in"
 msgstr "%1 x %2 in"
 
-#: core/document.cpp:171
+#: core/document.cpp:172
 #, kde-format
 msgid "%1 x %2 mm"
 msgstr "%1 x %2 mm"
 
-#: core/document.cpp:1060
+#: core/document.cpp:1061
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
@@ -276,12 +300,12 @@ msgstr ""
 "Algamóse'l final del documentu.\n"
 "¿Siguir dende l'entamu?"
 
-#: core/document.cpp:1130
+#: core/document.cpp:1131
 #, kde-format
 msgid "No matches found for '%1'."
 msgstr "Nun s'alcontrarón coincidencies pa «%1»."
 
-#: core/document.cpp:1173
+#: core/document.cpp:1174
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the bottom?"
@@ -289,21 +313,21 @@ msgstr ""
 "Algamóse l'entamu del documentu.\n"
 "¿Siguir dende'l final?"
 
-#: core/document.cpp:1600
+#: core/document.cpp:1601
 msgid ""
 "Can not find a plugin which is able to handle the document being passed."
 msgstr "Nun s'atopa un complementu afayaízu pa remanar el documentu pasáu."
 
-#: core/document.cpp:2564
+#: core/document.cpp:2565
 msgid "Search in progress..."
 msgstr "Gueta en progresu..."
 
-#: core/document.cpp:2566
+#: core/document.cpp:2567
 #, kde-format
 msgid "Searching for %1"
 msgstr "Guetando %1"
 
-#: core/document.cpp:2883 core/document.cpp:2891
+#: core/document.cpp:2884 core/document.cpp:2892
 msgid ""
 "The document is trying to execute an external application and, for your "
 "safety, Okular does not allow that."
@@ -311,136 +335,118 @@ msgstr ""
 "El documentu intentó executar una aplicación esterna, aunque Okular nun lo "
 "permitió por motivos de seguridá."
 
-#: core/document.cpp:2904
+#: core/document.cpp:2905
 #, kde-format
 msgid "No application found for opening file of mimetype %1."
 msgstr "Nun s'alcontró denguna aplicación p'abrir ficheros de triba MIME %1."
 
-#: core/document.cpp:3115
+#: core/document.cpp:3165
 #, fuzzy
 #| msgid "Could not open the temporary file for saving."
 msgid "Could not open a temporary file"
 msgstr "Nun pudó abrise'l ficheru temporal pa escritura."
 
-#: core/document.cpp:3117
+#: core/document.cpp:3167
 msgid "Print conversion failed"
 msgstr ""
 
-#: core/document.cpp:3119
+#: core/document.cpp:3169
 msgid "Printing process crashed"
 msgstr ""
 
-#: core/document.cpp:3121
+#: core/document.cpp:3171
 msgid "Printing process could not start"
 msgstr ""
 
-#: core/document.cpp:3123
+#: core/document.cpp:3173
 msgid "Printing to file failed"
 msgstr ""
 
-#: core/document.cpp:3125
+#: core/document.cpp:3175
 msgid "Printer was in invalid state"
 msgstr ""
 
-#: core/document.cpp:3127
+#: core/document.cpp:3177
 #, fuzzy
 #| msgid "Unable to find the Okular component."
 msgid "Unable to find file to print"
 msgstr "Nun s'atopó'l componente Okular."
 
-#: core/document.cpp:3129
+#: core/document.cpp:3179
 msgid "There was no file to print"
 msgstr ""
 
-#: core/document.cpp:3131
+#: core/document.cpp:3181
 msgid ""
 "Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
 "available"
 msgstr ""
 
-#: core/document.cpp:3894
+#: core/document.cpp:3944
 msgid "Title"
 msgstr "Títulu"
 
-#: core/document.cpp:3897
+#: core/document.cpp:3947
 msgid "Subject"
 msgstr "Asuntu"
 
-#: core/document.cpp:3900
+#: core/document.cpp:3950
 msgid "Description"
 msgstr "Descripción"
 
-#: core/document.cpp:3903
+#: core/document.cpp:3953
 msgid "Author"
 msgstr "Autor"
 
-#: core/document.cpp:3906
+#: core/document.cpp:3956
 msgid "Creator"
 msgstr "Criador"
 
-#: core/document.cpp:3909
+#: core/document.cpp:3959
 msgid "Producer"
 msgstr "Productor"
 
-#: core/document.cpp:3912
+#: core/document.cpp:3962
 msgid "Copyright"
 msgstr "Copyright"
 
-#: core/document.cpp:3915
+#: core/document.cpp:3965
 msgid "Pages"
 msgstr "Páxines"
 
-#: core/document.cpp:3918
+#: core/document.cpp:3968
 msgid "Created"
 msgstr "Criáu"
 
-#: core/document.cpp:3921
+#: core/document.cpp:3971
 msgid "Modified"
 msgstr "Camudáu"
 
-#: core/document.cpp:3924
+#: core/document.cpp:3974
 msgid "Mime Type"
 msgstr "Triba MIME"
 
-#: core/document.cpp:3927
+#: core/document.cpp:3977
 msgid "Category"
 msgstr "Categoría"
 
-#: core/document.cpp:3930
+#: core/document.cpp:3980
 msgid "Keywords"
 msgstr "Pallabres clave"
 
-#: core/document.cpp:3933
+#: core/document.cpp:3983
 msgid "File Path"
 msgstr "Camín de Ficheru"
 
-#: core/document.cpp:3936
+#: core/document.cpp:3986
 msgid "File Size"
 msgstr "Tamañu del ficheru"
 
-#: core/document.cpp:3939
+#: core/document.cpp:3989
 msgid "Page Size"
 msgstr "Tamañu de la páxina"
 
-#: core/generator.cpp:557
-msgid "Plain &Text..."
-msgstr "&Testu planu..."
-
-#: core/generator.cpp:560
-msgid "PDF"
-msgstr "PDF"
-
-#: core/generator.cpp:565
-msgctxt "This is the document format"
-msgid "OpenDocument Text"
-msgstr "Testu d'Open Office"
-
-#: core/generator.cpp:569
-msgctxt "This is the document format"
-msgid "HTML"
-msgstr "HTML"
-
-#: ui/annotationmodel.cpp:297 part.cpp:1847
+#: ui/annotationmodel.cpp:297 part.cpp:1848
 #, kde-format
 msgid "Page %1"
 msgstr "Páxina %1"
@@ -460,7 +466,7 @@ msgstr "Abrir n&ota emerxente"
 msgid "&Delete"
 msgstr "&Desaniciar"
 
-#: ui/annotationpopup.cpp:58 ui/propertiesdialog.cpp:49 part.cpp:545
+#: ui/annotationpopup.cpp:58 ui/propertiesdialog.cpp:49 part.cpp:546
 msgid "&Properties"
 msgstr "&Propiedaes"
 
@@ -937,7 +943,7 @@ msgstr "Dir a esti marcador"
 msgid "Rename Bookmark"
 msgstr "Camudar nome del marcador"
 
-#: ui/bookmarklist.cpp:248 part.cpp:1374 part.cpp:1849
+#: ui/bookmarklist.cpp:248 part.cpp:1375 part.cpp:1850
 msgid "Remove Bookmark"
 msgstr "Desaniciar marcador"
 
@@ -996,10 +1002,6 @@ msgstr "Estremar mayúscules"
 #: ui/findbar.cpp:69
 msgid "From current page"
 msgstr "Dende la páxina actual"
-
-#: ui/formwidgets.cpp:350 shell/shell.cpp:262
-msgid "*|All Files"
-msgstr "*|Tolos ficheros"
 
 #: ui/ktreeviewsearchline.cpp:461
 msgid "Search Options"
@@ -1536,7 +1538,7 @@ msgstr "Imaxe [%1x%2] guardada nel ficheru %3."
 msgid "Copy Text"
 msgstr "Copiar testu"
 
-#: ui/pageview.cpp:2797 part.cpp:1853
+#: ui/pageview.cpp:2797 part.cpp:1854
 msgid "Fit Width"
 msgstr "Axustar anchor"
 
@@ -1587,6 +1589,10 @@ msgstr "Autor de les anotaciones"
 #: ui/pageview.cpp:3556
 msgid "Please insert your name or initials:"
 msgstr "Introduz el to nome o iniciales:"
+
+#: ui/formwidgets.cpp:356 shell/shell.cpp:262
+msgid "*|All Files"
+msgstr "*|Tolos ficheros"
 
 #: shell/main.cpp:48
 msgid "Page of the document to be shown"
@@ -1659,170 +1665,170 @@ msgstr ""
 "Esti documentu caltién formularios. Calca'l botón pa interactuar con ellos, "
 "o usa Ver -> Amosar formularios."
 
-#: part.cpp:420
+#: part.cpp:421
 msgctxt "Previous page"
 msgid "Previous"
 msgstr "Anterior"
 
-#: part.cpp:421
+#: part.cpp:422
 msgid "Go back to the Previous Page"
 msgstr "Dir a la páxina anterior"
 
-#: part.cpp:422
+#: part.cpp:423
 msgid "Moves to the previous page of the document"
 msgstr "Va a la páxina anterior del documentu"
 
-#: part.cpp:431
+#: part.cpp:432
 msgctxt "Next page"
 msgid "Next"
 msgstr "Siguiente"
 
-#: part.cpp:432
+#: part.cpp:433
 msgid "Advance to the Next Page"
 msgstr "Avanzar a la páxina siguiente"
 
-#: part.cpp:433
+#: part.cpp:434
 msgid "Moves to the next page of the document"
 msgstr "Va a la páxina siguiente del documentu"
 
-#: part.cpp:443
+#: part.cpp:444
 #, fuzzy
 #| msgid "Reloading the document..."
 msgid "Beginning of the document"
 msgstr "Volviendo a cargar el documentu..."
 
-#: part.cpp:444
+#: part.cpp:445
 #, fuzzy
 #| msgid "Moves to the next page of the document"
 msgid "Moves to the beginning of the document"
 msgstr "Va a la páxina siguiente del documentu"
 
-#: part.cpp:448
+#: part.cpp:449
 #, fuzzy
 #| msgid "Reloading the document..."
 msgid "End of the document"
 msgstr "Volviendo a cargar el documentu..."
 
-#: part.cpp:449
+#: part.cpp:450
 #, fuzzy
 #| msgid "Moves to the next page of the document"
 msgid "Moves to the end of the document"
 msgstr "Va a la páxina siguiente del documentu"
 
-#: part.cpp:460
+#: part.cpp:461
 msgid "Previous Bookmark"
 msgstr "Marcador anterior"
 
-#: part.cpp:462
+#: part.cpp:463
 msgid "Go to the previous bookmarked page"
 msgstr "Dir a l'anterior páxina marcada"
 
-#: part.cpp:466
+#: part.cpp:467
 msgid "Next Bookmark"
 msgstr "Marcador siguiente"
 
-#: part.cpp:468
+#: part.cpp:469
 msgid "Go to the next bookmarked page"
 msgstr "Dir a la páxina siguiente marcada"
 
-#: part.cpp:489
+#: part.cpp:490
 msgid "Save &Copy As..."
 msgstr "Guardar &copia como..."
 
-#: part.cpp:499
+#: part.cpp:500
 msgid "Configure Okular..."
 msgstr "Configurar Okular..."
 
-#: part.cpp:504
+#: part.cpp:505
 msgid "Configure Viewer..."
 msgstr "Configurar visor..."
 
-#: part.cpp:509
+#: part.cpp:510
 msgid "Configure Backends..."
 msgstr "Configurar motores..."
 
-#: part.cpp:518
+#: part.cpp:519
 msgid "Show &Navigation Panel"
 msgstr "Amosar el panel de &restolación"
 
-#: part.cpp:526
+#: part.cpp:527
 msgid "Show &Page Bar"
 msgstr ""
 
-#: part.cpp:532
+#: part.cpp:533
 msgid "&Import PostScript as PDF..."
 msgstr "&Importar PostScript como PDF..."
 
-#: part.cpp:537
+#: part.cpp:538
 msgid "&Get Books From Internet..."
 msgstr "&Algamar llibros d'Internet..."
 
-#: part.cpp:551
+#: part.cpp:552
 msgid "&Embedded Files"
 msgstr "Ficheros &empotraos"
 
-#: part.cpp:557
+#: part.cpp:558
 msgid "P&resentation"
 msgstr "P&resentación"
 
-#: part.cpp:564
+#: part.cpp:565
 msgid "E&xport As"
 msgstr "E&sportar como"
 
-#: part.cpp:574
+#: part.cpp:575
 msgctxt "A document format, Okular-specific"
 msgid "Document Archive"
 msgstr "Ficheru comprimíu del documentu"
 
-#: part.cpp:580
+#: part.cpp:581
 msgid "About Backend"
 msgstr "Tocante al motor"
 
-#: part.cpp:585
+#: part.cpp:586
 msgid "Reloa&d"
 msgstr "R&ecargar"
 
-#: part.cpp:587
+#: part.cpp:588
 msgid "Reload the current document from disk."
 msgstr "Volver a cargar el documentu actual del discu."
 
-#: part.cpp:592
+#: part.cpp:593
 msgid "Close &Find Bar"
 msgstr "Zarrar la barra de &gueta"
 
-#: part.cpp:598
+#: part.cpp:599
 msgid "Switch Blackscreen Mode"
 msgstr "Camudar al mou de pantalla prieta"
 
-#: part.cpp:603
+#: part.cpp:604
 msgid "Toggle Drawing Mode"
 msgstr "Camudar mou de debuxu"
 
-#: part.cpp:607
+#: part.cpp:608
 msgid "Erase Drawings"
 msgstr "Desaniciar debuxos"
 
-#: part.cpp:727
+#: part.cpp:728
 #, fuzzy, kde-format
 #| msgid "Could not open \"%1\" for writing. File was not saved."
 msgid "Could not open '%1'. File does not exist"
 msgstr "Nun pudó abrise «%1» pa escritura. El ficheru nun foi guardáu."
 
-#: part.cpp:762
+#: part.cpp:763
 #, kde-format
 msgid "The loading of %1 has been canceled."
 msgstr ""
 
-#: part.cpp:777
+#: part.cpp:778
 #, kde-format
 msgid "Could not open %1. Reason: %2"
 msgstr "Nun pudó abrise %1. Motivu: %2"
 
-#: part.cpp:809
+#: part.cpp:810
 msgid "Configure Backends"
 msgstr "Configurar motores"
 
-#: part.cpp:900
+#: part.cpp:901
 msgid ""
 "The program \"ps2pdf\" was not found, so Okular can not import PS files "
 "using it."
@@ -1830,15 +1836,15 @@ msgstr ""
 "El programa «ps2pdf» nun foi alcontráu, de mou qu'Okular nun puede importar "
 "ficheros PS usando esti programa."
 
-#: part.cpp:900
+#: part.cpp:901
 msgid "ps2pdf not found"
 msgstr "Nun s'alcontró'l programa «ps2pdf»"
 
-#: part.cpp:919
+#: part.cpp:920
 msgid "Importing PS file as PDF (this may take a while)..."
 msgstr "Importando ficheru PS como PDF (esto tardará un ratu)..."
 
-#: part.cpp:1041
+#: part.cpp:1042
 msgid ""
 "The document requested to be launched in presentation mode.\n"
 "Do you want to allow it?"
@@ -1846,32 +1852,32 @@ msgstr ""
 "El documentu solicitó llanzáse en mou de presentación.\n"
 "¿Quies permitilo?"
 
-#: part.cpp:1043
+#: part.cpp:1044
 msgid "Presentation Mode"
 msgstr "Mou de presentación"
 
-#: part.cpp:1044
+#: part.cpp:1045
 msgid "Allow"
 msgstr "Permitir"
 
-#: part.cpp:1044
+#: part.cpp:1045
 msgid "Allow the presentation mode"
 msgstr "Permitir el mou de presentación"
 
-#: part.cpp:1045
+#: part.cpp:1046
 msgid "Do Not Allow"
 msgstr "Non permitir"
 
-#: part.cpp:1045
+#: part.cpp:1046
 msgid "Do not allow the presentation mode"
 msgstr "Non permitir el mou de presentación"
 
-#: part.cpp:1095
+#: part.cpp:1096
 #, kde-format
 msgid "Could not open %1"
 msgstr "Nun pudó abrise %1"
 
-#: part.cpp:1169
+#: part.cpp:1170
 msgid ""
 "This link points to a close document action that does not work when using "
 "the embedded viewer."
@@ -1879,7 +1885,7 @@ msgstr ""
 "Esti enllaz apunta a una aición de cierre del documentu que nun furrula al "
 "usar el visor empotráu."
 
-#: part.cpp:1175
+#: part.cpp:1176
 msgid ""
 "This link points to a quit application action that does not work when using "
 "the embedded viewer."
@@ -1887,33 +1893,33 @@ msgstr ""
 "Esti enllaz apunta a una aición de salida de l'aplicación que nun furrula al "
 "usar el visor empotráu."
 
-#: part.cpp:1260
+#: part.cpp:1261
 msgid "Reloading the document..."
 msgstr "Volviendo a cargar el documentu..."
 
-#: part.cpp:1422
+#: part.cpp:1423
 msgid "Go to Page"
 msgstr "Dir a la páxina"
 
-#: part.cpp:1437
+#: part.cpp:1438
 msgid "&Page:"
 msgstr "&Páxina:"
 
-#: part.cpp:1614
+#: part.cpp:1615
 msgid "Could not open the temporary file for saving."
 msgstr "Nun pudó abrise'l ficheru temporal pa escritura."
 
-#: part.cpp:1625 part.cpp:1636 part.cpp:1679 part.cpp:2006
+#: part.cpp:1626 part.cpp:1637 part.cpp:1680 part.cpp:2007
 #, kde-format
 msgid "File could not be saved in '%1'. Try to save it to another location."
 msgstr "El ficheru nun puede cargase en «%1». Intenta guardalu n'otru llugar."
 
-#: part.cpp:1629
+#: part.cpp:1630
 #, kde-format
 msgid "File could not be saved in '%1'. %2"
 msgstr "El ficheru nun puede cargase en '%1'. %2"
 
-#: part.cpp:1664
+#: part.cpp:1665
 #, kde-format
 msgid ""
 "Okular cannot copy %1 to the specified location.\n"
@@ -1924,26 +1930,26 @@ msgstr ""
 "\n"
 "El documentu dexó d'esistir."
 
-#: part.cpp:1851
+#: part.cpp:1852
 msgid "Add Bookmark"
 msgstr "Amestar marcador"
 
-#: part.cpp:1868
+#: part.cpp:1869
 msgid "Tools"
 msgstr "Ferramientes"
 
-#: part.cpp:2106
+#: part.cpp:2107
 msgid "Printing this document is not allowed."
 msgstr "Nun se permite la imprentación d'esti documentu."
 
-#: part.cpp:2115
+#: part.cpp:2116
 #, fuzzy
 #| msgid "Could not print the document. Please report to bugs.kde.org"
 msgid ""
 "Could not print the document. Unknown error. Please report to bugs.kde.org"
 msgstr "Nun se pudó imprentar el documentu. Informa del fallu a bugs.kde.org."
 
-#: part.cpp:2119
+#: part.cpp:2120
 #, fuzzy, kde-format
 #| msgid "Could not print the document. Please report to bugs.kde.org"
 msgid ""
@@ -1951,15 +1957,15 @@ msgid ""
 "bugs.kde.org"
 msgstr "Nun se pudó imprentar el documentu. Informa del fallu a bugs.kde.org."
 
-#: part.cpp:2174
+#: part.cpp:2175
 msgid "Go to the place you were before"
 msgstr "Dir al sitiu onde tuviste enantes"
 
-#: part.cpp:2177
+#: part.cpp:2178
 msgid "Go to the place you were after"
 msgstr "Dir al sitiu onde tuviste dempués"
 
-#: part.cpp:2201
+#: part.cpp:2202
 #, kde-format
 msgid ""
 "<qt><strong>File Error!</strong> Could not create temporary file "
@@ -1968,7 +1974,7 @@ msgstr ""
 "<qt><strong>Fallu de ficheru</strong> Nun pudó criase'l ficheru temporal "
 "<nobr><strong>%1</strong></nobr>.</qt>"
 
-#: part.cpp:2219
+#: part.cpp:2220
 #, kde-format
 msgid ""
 "<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</"
@@ -1978,7 +1984,7 @@ msgstr ""
 "<nobr><strong>%1</strong></nobr> pa descomprimilu. El ficheru nun sedrá "
 "cargáu.</qt>"
 
-#: part.cpp:2222
+#: part.cpp:2223
 msgid ""
 "<qt>This error typically occurs if you do not have enough permissions to "
 "read the file. You can check ownership and permissions if you right-click on "
@@ -1990,7 +1996,7 @@ msgstr ""
 "calcando sobro'l ficheru col botón drechu del mur nel xestor de ficheros "
 "Dolphin, seleicionando dempués el menú «Propiedaes».</qt>"
 
-#: part.cpp:2246
+#: part.cpp:2247
 #, kde-format
 msgid ""
 "<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>"
@@ -1999,7 +2005,7 @@ msgstr ""
 "<qt><strong>Fallu de ficheru</strong> Nun pudó descomprimise'l ficheru "
 "<nobr><strong>%1</strong></nobr>. El ficheru nun sedrá cargáu.</qt>"
 
-#: part.cpp:2249
+#: part.cpp:2250
 msgid ""
 "<qt>This error typically occurs if the file is corrupt. If you want to be "
 "sure, try to decompress the file manually using command-line tools.</qt>"
@@ -2008,7 +2014,7 @@ msgstr ""
 "asegurate, intenta descomprimir l'archivu manualmente usando ferramientes na "
 "llinia d'órdenes.</qt>"
 
-#: part.cpp:2278
+#: part.cpp:2279
 msgid "No Bookmarks"
 msgstr "Nun hai marcadores"
 
