@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3bsetup\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:43+0200\n"
+"POT-Creation-Date: 2011-09-01 10:26+0200\n"
 "PO-Revision-Date: 2010-10-18 22:30+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -129,55 +129,93 @@ msgid "Your emails"
 msgstr ""
 "aluminium@softastur.org, malditoastur@gmail.com, xandru.martino@softastur.org"
 
-#~ msgid "Settings"
-#~ msgstr "Configuración"
+#. i18n: file: base_k3bsetup.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:5
+msgid "Settings"
+msgstr "Configuración"
 
-#~ msgid ""
-#~ "<p>If this option is checked, only the users in the specified group will "
-#~ "be able to burn CDs and DVDs, since only they will have access to the "
-#~ "devices and the CD recording programs used by K3b.</p>\n"
-#~ "<p>Otherwise all users on the system have access to the devices and to "
-#~ "all K3b functionality."
-#~ msgstr ""
-#~ "<p>Si esta opción ta seleicionada, namái los usuarios del grupu "
-#~ "especificáu podrán grabar CD y DVD, darréu que namái ellos tendrán accesu "
-#~ "a los preseos y los programes de grabación de CD usaos por K3b.</p>\n"
-#~ "<p>De lo contrario tolos usuarios del sistema tienen accesu a los preseos "
-#~ "y a toles funcionalidaes de K3b."
+#. i18n: file: base_k3bsetup.ui:31
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkUseBurningGroup)
+#: rc.cpp:8
+msgid ""
+"<p>If this option is checked, only the users in the specified group will be "
+"able to burn CDs and DVDs, since only they will have access to the devices "
+"and the CD recording programs used by K3b.</p>\n"
+"<p>Otherwise all users on the system have access to the devices and to all "
+"K3b functionality."
+msgstr ""
+"<p>Si esta opción ta seleicionada, namái los usuarios del grupu especificáu "
+"podrán grabar CD y DVD, darréu que namái ellos tendrán accesu a los preseos "
+"y los programes de grabación de CD usaos por K3b.</p>\n"
+"<p>De lo contrario tolos usuarios del sistema tienen accesu a los preseos y "
+"a toles funcionalidaes de K3b."
 
-#~ msgid "Use burning group:"
-#~ msgstr "Usar grupu de grabación:"
+#. i18n: file: base_k3bsetup.ui:34
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkUseBurningGroup)
+#: rc.cpp:12
+msgid "Use burning group:"
+msgstr "Usar grupu de grabación:"
 
-#~ msgid "burning"
-#~ msgstr "grabando"
+#. i18n: file: base_k3bsetup.ui:44
+#. i18n: ectx: property (text), widget (KLineEdit, m_editBurningGroup)
+#: rc.cpp:15
+msgid "burning"
+msgstr "grabando"
 
-#~ msgid "Users allowed to burn (separated by space):"
-#~ msgstr "Usuarios con permisu pa grabar (separados por espaciu):"
+#. i18n: file: base_k3bsetup.ui:78
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:18
+msgid "Users allowed to burn (separated by space):"
+msgstr "Usuarios con permisu pa grabar (separados por espaciu):"
 
-#~ msgid "Devices"
-#~ msgstr "Preseos"
+#. i18n: file: base_k3bsetup.ui:104
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:21
+msgid "Devices"
+msgstr "Preseos"
 
-#~ msgid "Check the devices whose permissions you want to be changed"
-#~ msgstr "Comprobar los preseos que quies camuda-yos los permisos"
+#. i18n: file: base_k3bsetup.ui:110
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:24
+msgid "Check the devices whose permissions you want to be changed"
+msgstr "Comprobar los preseos que quies camuda-yos los permisos"
 
-#~ msgid "External Programs"
-#~ msgstr "Programes esternos"
+#. i18n: file: base_k3bsetup.ui:133
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:27
+msgid "External Programs"
+msgstr "Programes esternos"
 
-#~ msgid "Found Programs"
-#~ msgstr "Programes atopaos"
+#. i18n: file: base_k3bsetup.ui:143
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:30
+msgid "Found Programs"
+msgstr "Programes atopaos"
 
-#~ msgid "Check the programs whose permissions you want to be changed"
-#~ msgstr "Comprueba los programes que-yos quies camudar los permisos"
+#. i18n: file: base_k3bsetup.ui:149
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:33
+msgid "Check the programs whose permissions you want to be changed"
+msgstr "Comprueba los programes que-yos quies camudar los permisos"
 
-#~ msgid "Search Path"
-#~ msgstr "Camín de gueta"
+#. i18n: file: base_k3bsetup.ui:170
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: base_k3bsetup.ui:176
+#. i18n: ectx: property (title), widget (KEditListBox, m_editSearchPath)
+#: rc.cpp:36 rc.cpp:39
+msgid "Search Path"
+msgstr "Camín de gueta"
 
-#~ msgid ""
-#~ "<qt><b>Hint:</b> to force K3b to use another than the default name for "
-#~ "the executable specify it in the search path.</qt>"
-#~ msgstr ""
-#~ "<qt><b>Conseyu:</b> pa forciar a K3b a usar un nome estremáu del "
-#~ "predetermináu pal executable, especifícalo nel camín de gueta.</qt>"
+#. i18n: file: base_k3bsetup.ui:186
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:42
+msgid ""
+"<qt><b>Hint:</b> to force K3b to use another than the default name for the "
+"executable specify it in the search path.</qt>"
+msgstr ""
+"<qt><b>Conseyu:</b> pa forciar a K3b a usar un nome estremáu del "
+"predetermináu pal executable, especifícalo nel camín de gueta.</qt>"
 
 #~ msgid "Authorization failed."
 #~ msgstr "Falló l'autorización."
