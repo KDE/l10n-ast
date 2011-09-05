@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-03 03:05+0200\n"
+"POT-Creation-Date: 2011-09-05 03:35+0200\n"
 "PO-Revision-Date: 2010-10-19 22:30+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -809,11 +809,6 @@ msgstr "Recargar"
 msgid "Default"
 msgstr "Predetermináu"
 
-#: views/draganddrophelper.cpp:108
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "Una carpeta nun puede arrastrase en sí mesma"
-
 #: views/additionalinfoaccessor.cpp:99
 #, fuzzy
 #| msgctxt "@item::inlistbox"
@@ -877,62 +872,6 @@ msgstr "Documentación"
 msgctxt "@label"
 msgid "Path"
 msgstr "Apegar"
-
-#: views/dolphinview.cpp:479
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "seleicionáu <filename>%1</filename>"
-
-#: views/dolphinview.cpp:480
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr "<filename>%1</filename> seleicionáu (%2)"
-
-#: views/dolphinview.cpp:484
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "1 carpeta seleicionada"
-msgstr[1] "%1 carpetes seleicionaes"
-
-#: views/dolphinview.cpp:485
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "1 ficheru seleicionáu"
-msgstr[1] "%1 ficheros seleicionaos"
-
-#: views/dolphinview.cpp:487
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:490
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:995
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "Operación d'esborráu finada."
-
-#: views/dolphinview.cpp:1047
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "La ubicación ta erma."
-
-#: views/dolphinview.cpp:1049
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "La ubicación '%1' ye inválida."
 
 #: views/renamedialog.cpp:57
 msgctxt "@title:window"
@@ -1107,6 +1046,67 @@ msgctxt "@info"
 msgid "Details view mode"
 msgstr "Mou de vista de detalles"
 
+#: views/dolphinview.cpp:483
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "seleicionáu <filename>%1</filename>"
+
+#: views/dolphinview.cpp:484
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr "<filename>%1</filename> seleicionáu (%2)"
+
+#: views/dolphinview.cpp:488
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 carpeta seleicionada"
+msgstr[1] "%1 carpetes seleicionaes"
+
+#: views/dolphinview.cpp:489
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 ficheru seleicionáu"
+msgstr[1] "%1 ficheros seleicionaos"
+
+#: views/dolphinview.cpp:491
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:494
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1012
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "Operación d'esborráu finada."
+
+#: views/dolphinview.cpp:1064
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "La ubicación ta erma."
+
+#: views/dolphinview.cpp:1066
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "La ubicación '%1' ye inválida."
+
+#: views/draganddrophelper.cpp:50
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "Una carpeta nun puede arrastrase en sí mesma"
+
 #: views/versioncontrol/versioncontrolobserver.cpp:188
 msgctxt "@info:status"
 msgid "Update of version information failed."
@@ -1122,7 +1122,7 @@ msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "Fallu desconocíu"
 
-#: kitemviews/kfileitemmodel.cpp:669
+#: kitemviews/kfileitemmodel.cpp:675
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
