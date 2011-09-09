@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:46+0200\n"
+"POT-Creation-Date: 2011-09-09 11:37+0200\n"
 "PO-Revision-Date: 2010-10-19 22:28+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -91,6 +91,36 @@ msgstr "Nun se dió con dengún resultáu."
 msgctxt "%1 current item number, %2 total number of items"
 msgid "%1 of %2"
 msgstr "%1 de %2"
+
+#: krunnerapp.cpp:128 krunnerdialog.cpp:73
+msgid "Run Command"
+msgstr "Executar Comandu"
+
+#: krunnerapp.cpp:133
+msgid "Run Command on clipboard contents"
+msgstr "Executar orde nel conteníu del cartafueyu"
+
+#: krunnerapp.cpp:139
+msgid "Show System Activity"
+msgstr "Amosar l'actividá del sistema"
+
+#: krunnerapp.cpp:145
+msgid "Switch User"
+msgstr "Camudar d'usuariu"
+
+#: krunnerapp.cpp:155
+msgid "Lock Session"
+msgstr "Bloquiar sesión"
+
+#: krunnerapp.cpp:195
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr "Run Command (runner \"%1\" only)"
+
+#: ksystemactivitydialog.cpp:40
+msgid "System Activity"
+msgstr "Actividá del sistema"
 
 #: lock/autologout.cc:38
 msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
@@ -202,6 +232,25 @@ msgstr "&Activar"
 msgid "Start &New Session"
 msgstr "Aniciar una &nueva sesión"
 
+#: lock/lockprocess.cc:834
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr ""
+"Nun se va bloquiar la sesión, darréu que nun sedría dable desbloquiala:\n"
+
+#: lock/lockprocess.cc:838
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "Nun pue aniciase <i>kcheckpass</i>."
+
+#: lock/lockprocess.cc:839
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+msgstr ""
+"<i>kcheckpass</i> nun puede funcionar. Dablemente nun tenga el SetUID de "
+"root."
+
+#: lock/lockprocess.cc:902
+msgid "No appropriate greeter plugin configured."
+msgstr "Nun se configuró un plugin d'accesu afayaízu."
+
 #: lock/main.cc:61
 msgid "KDE Screen Locker"
 msgstr "Bloquéu de pantalla de KDE"
@@ -234,29 +283,6 @@ msgstr "entama cola configuración de plasma desbloquiada"
 msgid "Fork into the background after starting up"
 msgstr ""
 
-#: lock/lockprocess.cc:834
-msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr ""
-"Nun se va bloquiar la sesión, darréu que nun sedría dable desbloquiala:\n"
-
-#: lock/lockprocess.cc:838
-msgid "Cannot start <i>kcheckpass</i>."
-msgstr "Nun pue aniciase <i>kcheckpass</i>."
-
-#: lock/lockprocess.cc:839
-msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
-msgstr ""
-"<i>kcheckpass</i> nun puede funcionar. Dablemente nun tenga el SetUID de "
-"root."
-
-#: lock/lockprocess.cc:902
-msgid "No appropriate greeter plugin configured."
-msgstr "Nun se configuró un plugin d'accesu afayaízu."
-
-#: ksystemactivitydialog.cpp:40
-msgid "System Activity"
-msgstr "Actividá del sistema"
-
 #: main.cpp:38
 msgid "KDE run command interface"
 msgstr "Interface d'execución d'órdenes de KDE"
@@ -276,32 +302,6 @@ msgstr "Aaron J. Seigo"
 #: main.cpp:54
 msgid "Author and maintainer"
 msgstr "Autor y caltenimientu"
-
-#: krunnerapp.cpp:128 krunnerdialog.cpp:73
-msgid "Run Command"
-msgstr "Executar Comandu"
-
-#: krunnerapp.cpp:133
-msgid "Run Command on clipboard contents"
-msgstr "Executar orde nel conteníu del cartafueyu"
-
-#: krunnerapp.cpp:139
-msgid "Show System Activity"
-msgstr "Amosar l'actividá del sistema"
-
-#: krunnerapp.cpp:145
-msgid "Switch User"
-msgstr "Camudar d'usuariu"
-
-#: krunnerapp.cpp:155
-msgid "Lock Session"
-msgstr "Bloquiar sesión"
-
-#: krunnerapp.cpp:195
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr "Run Command (runner \"%1\" only)"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
