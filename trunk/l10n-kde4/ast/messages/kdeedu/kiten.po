@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kiten\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-09 03:51+0200\n"
+"POT-Creation-Date: 2011-09-15 03:43+0200\n"
 "PO-Revision-Date: 2010-10-19 22:39+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -178,63 +178,6 @@ msgid ""
 "GUI Improvements, Kanji Browser, Bug fixes, Code polishing and simplification"
 msgstr ""
 
-#: app/kiten.cpp:197
-msgid "Radical Selector"
-msgstr "Selector radical"
-
-#. i18n: file: kanjibrowser/kanjibrowserview.ui:26
-#. i18n: ectx: property (windowTitle), widget (QWidget, KanjiBrowserView)
-#: app/kiten.cpp:204 rc.cpp:186
-msgid "Kanji Browser"
-msgstr ""
-
-#. i18n: file: app/kitenui.rc:15
-#. i18n: ectx: Menu (search)
-#: app/kiten.cpp:213 rc.cpp:110
-msgid "S&earch"
-msgstr "G&uetar"
-
-#: app/kiten.cpp:232
-msgid "&Automatically Search Clipboard Selections"
-msgstr "Guetar &automáticamente les selecciones del cartafueyos"
-
-#: app/kiten.cpp:235
-msgid "Search &in Results"
-msgstr "Guetar &nos resultaos"
-
-#: app/kiten.cpp:244
-msgid "Focus result view"
-msgstr "Vista de resultáu del focu"
-
-#: app/kiten.cpp:274
-msgid "Export List"
-msgstr "Esportar llista"
-
-#: app/kiten.cpp:305
-#, fuzzy
-#| msgid "Initialising Dictionaries"
-msgid "Initializing Dictionaries"
-msgstr "Anicializando diccionarios"
-
-#: app/kiten.cpp:320
-msgid "Welcome to Kiten"
-msgstr "Afáyate en Kiten"
-
-#: app/kiten.cpp:421 app/kiten.cpp:485
-msgid "Searching..."
-msgstr "Guetando---"
-
-#: app/kiten.cpp:506
-#, kde-format
-msgid "Found 1 result"
-msgid_plural "Found %1 results"
-msgstr[0] "Alcontróse 1 resultáu"
-msgstr[1] "Alcontráronse %1 resultaos"
-
-#: app/kiten.cpp:510
-msgid "No results found"
-msgstr "Nun s'atoparon resultaos"
-
 #: app/searchstringinput.cpp:47
 msgid "Filter Type"
 msgstr ""
@@ -331,38 +274,66 @@ msgstr "Enfocar el campu d'entrada"
 msgid "Search Bar"
 msgstr "Barra de Restolar"
 
+#: app/kiten.cpp:197
+msgid "Radical Selector"
+msgstr "Selector radical"
+
+#. i18n: file: kanjibrowser/kanjibrowserview.ui:26
+#. i18n: ectx: property (windowTitle), widget (QWidget, KanjiBrowserView)
+#: app/kiten.cpp:204 rc.cpp:186
+msgid "Kanji Browser"
+msgstr ""
+
+#. i18n: file: app/kitenui.rc:15
+#. i18n: ectx: Menu (search)
+#: app/kiten.cpp:213 rc.cpp:110
+msgid "S&earch"
+msgstr "G&uetar"
+
+#: app/kiten.cpp:232
+msgid "&Automatically Search Clipboard Selections"
+msgstr "Guetar &automáticamente les selecciones del cartafueyos"
+
+#: app/kiten.cpp:235
+msgid "Search &in Results"
+msgstr "Guetar &nos resultaos"
+
+#: app/kiten.cpp:244
+msgid "Focus result view"
+msgstr "Vista de resultáu del focu"
+
+#: app/kiten.cpp:274
+msgid "Export List"
+msgstr "Esportar llista"
+
+#: app/kiten.cpp:305
+#, fuzzy
+#| msgid "Initialising Dictionaries"
+msgid "Initializing Dictionaries"
+msgstr "Anicializando diccionarios"
+
+#: app/kiten.cpp:320
+msgid "Welcome to Kiten"
+msgstr "Afáyate en Kiten"
+
+#: app/kiten.cpp:421 app/kiten.cpp:485
+msgid "Searching..."
+msgstr "Guetando---"
+
+#: app/kiten.cpp:506
+#, kde-format
+msgid "Found 1 result"
+msgid_plural "Found %1 results"
+msgstr[0] "Alcontróse 1 resultáu"
+msgstr[1] "Alcontráronse %1 resultaos"
+
+#: app/kiten.cpp:510
+msgid "No results found"
+msgstr "Nun s'atoparon resultaos"
+
 #: lib/DictEdict/dictfilefieldselector.cpp:44
 msgid "&Available Fields:"
 msgstr "&Campos disponibles:"
-
-#: lib/DictEdict/deinflection.cpp:142
-#, fuzzy
-#| msgctxt "This must be a single word"
-#| msgid "Adverb"
-msgid "verb"
-msgstr "Alverbiu"
-
-#: lib/DictEdict/deinflection.cpp:146
-#, fuzzy
-#| msgctxt "This must be a single word"
-#| msgid "Adjective"
-msgid "adjective"
-msgstr "Axetivu"
-
-#: lib/DictEdict/deinflection.cpp:176
-msgid ""
-"Verb deinflection information not found, so verb deinflection cannot be used."
-msgstr ""
-"Nun s'atopa información sobre la desconxugación de verbos, entós nun pue "
-"utilizase."
-
-#: lib/DictEdict/deinflection.cpp:185
-msgid ""
-"Verb deinflection information could not be loaded, so verb deinflection "
-"cannot be used."
-msgstr ""
-"Nun pue cargase la información sobre la desconxugación de verbos, entós nun "
-"pue utilizase."
 
 #: lib/DictEdict/entryedict.cpp:454
 msgctxt "This must be a single word"
@@ -428,6 +399,35 @@ msgstr ""
 #: lib/DictEdict/entryedict.cpp:467
 msgid "Noun (used as a suffix)"
 msgstr ""
+
+#: lib/DictEdict/deinflection.cpp:142
+#, fuzzy
+#| msgctxt "This must be a single word"
+#| msgid "Adverb"
+msgid "verb"
+msgstr "Alverbiu"
+
+#: lib/DictEdict/deinflection.cpp:146
+#, fuzzy
+#| msgctxt "This must be a single word"
+#| msgid "Adjective"
+msgid "adjective"
+msgstr "Axetivu"
+
+#: lib/DictEdict/deinflection.cpp:176
+msgid ""
+"Verb deinflection information not found, so verb deinflection cannot be used."
+msgstr ""
+"Nun s'atopa información sobre la desconxugación de verbos, entós nun pue "
+"utilizase."
+
+#: lib/DictEdict/deinflection.cpp:185
+msgid ""
+"Verb deinflection information could not be loaded, so verb deinflection "
+"cannot be used."
+msgstr ""
+"Nun pue cargase la información sobre la desconxugación de verbos, entós nun "
+"pue utilizase."
 
 #: lib/DictKanjidic/entrykanjidic.cpp:168
 #: kanjibrowser/kanjibrowserview.cpp:347
