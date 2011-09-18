@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-11 03:23+0200\n"
+"POT-Creation-Date: 2011-09-18 03:15+0200\n"
 "PO-Revision-Date: 2009-12-18 18:26+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -221,18 +221,18 @@ msgstr "Media móvil"
 msgid "Cannot open index file %1: %2"
 msgstr "Nun puede abrise'l ficheru índiz %1: %2"
 
-#: src/download/downloader.cpp:809
-#, fuzzy
-#| msgid "Displays all the webseeds of a torrent"
-msgid "Disabled because webseed does not match torrent"
-msgstr "Amuesa toles semilles web d'un torrent"
-
 #: src/download/chunkdownload.cpp:383
 #, kde-format
 msgid "1 peer"
 msgid_plural "%1 peers"
 msgstr[0] "1 collaciu"
 msgstr[1] "%1 collacios"
+
+#: src/download/downloader.cpp:808
+#, fuzzy
+#| msgid "Displays all the webseeds of a torrent"
+msgid "Disabled because webseed does not match torrent"
+msgstr "Amuesa toles semilles web d'un torrent"
 
 #: src/download/httpconnection.cpp:44 src/download/webseed.cpp:51
 #: src/download/webseed.cpp:98
@@ -258,35 +258,35 @@ msgstr "Zarróse la conexón"
 msgid "Error: request failed: %1"
 msgstr "Fallu: falló la petición: %1"
 
-#: src/download/httpconnection.cpp:159 src/download/httpconnection.cpp:223
+#: src/download/httpconnection.cpp:170 src/download/httpconnection.cpp:204
 msgid "Connected"
 msgstr "Coneutáu"
 
-#: src/download/httpconnection.cpp:165
+#: src/download/httpconnection.cpp:181
 msgid "Error: Failed to connect to webseed"
 msgstr "Fallu: Fallu al coneutase a la semiente web"
 
-#: src/download/httpconnection.cpp:230
+#: src/download/httpconnection.cpp:211
 msgid "Connecting"
 msgstr "Coneutando"
 
-#: src/download/httpconnection.cpp:241
+#: src/download/httpconnection.cpp:222
 msgid "Failed to connect to webseed"
 msgstr "Fallu al coneutase a la semiente web"
 
-#: src/download/httpconnection.cpp:248
+#: src/download/httpconnection.cpp:229
 msgid "Failed to resolve hostname of webseed"
 msgstr "Fallu al resolver el nome de máquina de la semiente web"
 
-#: src/download/httpconnection.cpp:328
+#: src/download/httpconnection.cpp:308
 msgid "Error: failed to connect, server not responding"
 msgstr "Fallu: fallu al coneutase, el sirvidor nun retruca"
 
-#: src/download/httpconnection.cpp:339
+#: src/download/httpconnection.cpp:319
 msgid "Error: request timed out"
 msgstr "Fallu: la petición superó'l tiempu llímite"
 
-#: src/download/httpconnection.cpp:404
+#: src/download/httpconnection.cpp:384
 msgid "Redirected without a new location."
 msgstr "Redirixíu ensin un nuevu allugamientu"
 
@@ -399,11 +399,11 @@ msgstr "Posáu"
 msgid "Superseeding"
 msgstr "Semando"
 
-#: src/torrent/torrentcontrol.cpp:308
+#: src/torrent/torrentcontrol.cpp:307
 msgid "Error writing to disk, do you have enough diskspace?"
 msgstr ""
 
-#: src/torrent/torrentcontrol.cpp:554
+#: src/torrent/torrentcontrol.cpp:553
 #, kde-format
 msgid ""
 "An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
@@ -413,25 +413,25 @@ msgstr ""
 ">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
 "torrent válidu."
 
-#: src/torrent/torrentcontrol.cpp:584
+#: src/torrent/torrentcontrol.cpp:583
 #, kde-format
 msgid "An error occurred while loading <b>%1</b>:<br/><b>%2</b>"
 msgstr ""
 
-#: src/torrent/torrentcontrol.cpp:595
+#: src/torrent/torrentcontrol.cpp:594
 #, fuzzy, kde-format
 #| msgid "Unable to create %1 : %2"
 msgid "Unable to create %1: %2"
 msgstr "Nun pudo criase %1: %2"
 
-#: src/torrent/torrentcontrol.cpp:610
+#: src/torrent/torrentcontrol.cpp:609
 #, kde-format
 msgid ""
 "You are already downloading the torrent <b>%1</b>. The tracker lists from "
 "both torrents have been merged."
 msgstr ""
 
-#: src/torrent/torrentcontrol.cpp:615
+#: src/torrent/torrentcontrol.cpp:614
 #, fuzzy, kde-format
 #| msgid "How long we have been downloading the torrent"
 msgid "You are already downloading the torrent <b>%1</b>."
