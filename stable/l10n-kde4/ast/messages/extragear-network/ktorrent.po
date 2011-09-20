@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-12 13:55+0200\n"
+"POT-Creation-Date: 2011-09-20 17:43+0200\n"
 "PO-Revision-Date: 2010-10-18 22:34+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -669,7 +669,7 @@ msgid "Magnet Link"
 msgstr ""
 
 #: ktorrent/tools/magnetmodel.cpp:129 ktorrent/tools/queuemanagermodel.cpp:123
-#: ktorrent/view/viewmodel.cpp:437 ktorrent/trayicon.cpp:153
+#: ktorrent/view/viewmodel.cpp:437 ktorrent/trayicon.cpp:157
 #: plugins/infowidget/webseedsmodel.cpp:127
 #: plugins/infowidget/trackermodel.cpp:148
 msgid "Status"
@@ -1753,141 +1753,6 @@ msgstr ""
 msgid "Show or hide the group view"
 msgstr ""
 
-#: ktorrent/trayicon.cpp:110
-msgid "Set max upload speed"
-msgstr "Afitar la velocidá máxima d'unvíu"
-
-#: ktorrent/trayicon.cpp:112
-msgid "Set max download speed"
-msgstr "Afitar la velocidá máxima de baxada"
-
-#: ktorrent/trayicon.cpp:142
-#, fuzzy, kde-format
-#| msgid ""
-#| "<table cellpadding='2' cellspacing='2' align='center'><tr><td><b>Speed:</"
-#| "b></td><td></td></tr><tr><td>Download: <font color='#1c9a1c'>%1</font></"
-#| "td><td>Upload: <font color='#990000'>%2</font></td></"
-#| "tr><tr><td><b>Transfer:</b></td><td></td></tr><tr><td>Download: <font "
-#| "color='#1c9a1c'>%3</font></td><td>Upload: <font color='#990000'>%4</"
-#| "font></td></tr></table>"
-msgid ""
-"<table><tr><td>Download&nbsp;speed:</td><td><b>%1</b></td></"
-"tr><tr><td>Upload&nbsp;speed:</td><td><b>%2</b></td></tr><tr><td>Received:</"
-"td><td><b>%3</b></td></tr><tr><td>Transmitted:</td><td><b>%4</b></td></tr></"
-"table>"
-msgstr ""
-"<table cellpadding='2' cellspacing='2' align='center'><tr><td><b>Velocidá:</"
-"b></td><td></td></tr><tr><td>Baxada: <font color='#1c9a1c'>%1</font></"
-"td><td>Unvíu: <font color='#990000'>%2</font></td></"
-"tr><tr><td><b>Tresferencies:</b></td><td></td></tr><tr><td>Baxada: <font "
-"color='#1c9a1c'>%3</font></td><td>Unvíu: <font color='#990000'>%4</font></"
-"td></tr></table>"
-
-#: ktorrent/trayicon.cpp:187
-#, kde-format
-msgid "<b>%1</b> has completed downloading.<br>Average speed: %2 DL / %3 UL."
-msgstr "<b>%1</b> finó de baxase.<br>Velocidá media: %2 Baxada / %3 Unvíu."
-
-#: ktorrent/trayicon.cpp:205
-#, kde-format
-msgid ""
-"<b>%1</b> has reached its maximum share ratio of %2 and has been stopped."
-"<br>Uploaded %3 at an average speed of %4."
-msgstr ""
-"<b>%1</b> algamóse la so proporción máxima de compartición de %2 y foi paráu."
-"<br>Unviáu %3 a una velocidá media de %4."
-
-#: ktorrent/trayicon.cpp:224
-#, kde-format
-msgid ""
-"<b>%1</b> has reached its maximum seed time of %2 hours and has been stopped."
-"<br>Uploaded %3 at an average speed of %4."
-msgstr ""
-"<b>%1</b> algamóse'l so tiempu máximu de siema de %2 hores y foi deteníu."
-"<br>Unviáu %3 a una velocidá media de %4."
-
-#: ktorrent/trayicon.cpp:239
-#, kde-format
-msgid "<b>%1</b> has been stopped with the following error: <br>%2"
-msgstr "<b>%1</b> detúvose pol siguiente fallu: <br>%2"
-
-#: ktorrent/trayicon.cpp:250
-#, kde-format
-msgid ""
-"Corrupted data has been found in the torrent <b>%1</b><br>It would be a good "
-"idea to do a data integrity check on the torrent."
-msgstr ""
-"Alcontráronse datos dañaos nel torrent <b>%1</b> <br>Yera bona idega facer "
-"una verificación d'integridá de datos sobro'l torrent."
-
-#: ktorrent/trayicon.cpp:267
-#, kde-format
-msgid ""
-"<b>%1</b> has reached its maximum share ratio of %2 and cannot be enqueued. "
-"<br>Remove the limit manually if you want to continue seeding."
-msgstr ""
-"<b>%1</b> algamóse la so proporción máxima de compartición de %2 y nun puede "
-"encolase.<br>. Desanicia'l llímite manualmente si quies siguir semando."
-
-#: ktorrent/trayicon.cpp:271
-#, kde-format
-msgid ""
-"<b>%1</b> has reached its maximum seed time of %2 hours and cannot be "
-"enqueued. <br>Remove the limit manually if you want to continue seeding."
-msgstr ""
-"<b>%1</b> algamóse'l to tiempu máximu de siema de %2 hores y nun puede "
-"encolase.<br>Desanicia'l llímite manualmente si quies siguir semando."
-
-#: ktorrent/trayicon.cpp:283
-#, fuzzy, kde-format
-#| msgid "Cannot start <b>%1</b> : <br>"
-msgid "Cannot start <b>%1</b>: <br>"
-msgstr "Nun puede entamase <b>%1</b>: <br>"
-
-#: ktorrent/trayicon.cpp:290
-#, kde-format
-msgid "Cannot seed more than 1 torrent. <br>"
-msgid_plural "Cannot seed more than %1 torrents. <br>"
-msgstr[0] "Nun ye posible semar más d'un torrent. <br>"
-msgstr[1] "Nun ye posible semar más de %1 torrents. <br>"
-
-#: ktorrent/trayicon.cpp:295
-#, kde-format
-msgid "Cannot download more than 1 torrent. <br>"
-msgid_plural "Cannot download more than %1 torrents. <br>"
-msgstr[0] "Nun ye posible baxar más d'un torrent. <br>"
-msgstr[1] "Nun ye posible baxar más de %1 torrents. <br>"
-
-#: ktorrent/trayicon.cpp:298
-msgid "Go to Settings -> Configure KTorrent, if you want to change the limits."
-msgstr ""
-"Vete a Preferencies -> Configurar KTorrent si quies camudar los llímites."
-
-#: ktorrent/trayicon.cpp:302
-msgid "There is not enough diskspace available."
-msgstr "Nun hai abondu espaciu disponible en discu."
-
-#: ktorrent/trayicon.cpp:315
-#, kde-format
-msgid ""
-"Your disk is running out of space.<br /><b>%1</b> is being downloaded to "
-"'%2'."
-msgstr ""
-"El to discu ta quedando ensin espaciu.<br /><b>%1</b> ta baxándose a «%2»."
-
-#: ktorrent/trayicon.cpp:318
-msgid "Torrent has been stopped.<br />"
-msgstr "Detúvose'l torrent.<br />"
-
-#: ktorrent/trayicon.cpp:354
-msgid "Speed limit in KiB/s"
-msgstr "Velocidá llímite en KiB/s"
-
-#: ktorrent/trayicon.cpp:356 plugins/bwscheduler/schedulegraphicsitem.cpp:83
-#: plugins/bwscheduler/schedulegraphicsitem.cpp:84
-msgid "Unlimited"
-msgstr "Ensin llímite"
-
 #: ktorrent/gui.cpp:271 ktorrent/gui.cpp:286
 msgid "Open Location"
 msgstr "Abrir allugamientu"
@@ -1947,6 +1812,141 @@ msgstr "Importar tolos torrents de la versión pa KDE3 de KTorrent"
 #: ktorrent/gui.cpp:451
 msgid "Show/Hide KTorrent"
 msgstr "Amosar/Anubrir KTorrent"
+
+#: ktorrent/trayicon.cpp:110
+msgid "Set max upload speed"
+msgstr "Afitar la velocidá máxima d'unvíu"
+
+#: ktorrent/trayicon.cpp:112
+msgid "Set max download speed"
+msgstr "Afitar la velocidá máxima de baxada"
+
+#: ktorrent/trayicon.cpp:146
+#, fuzzy, kde-format
+#| msgid ""
+#| "<table cellpadding='2' cellspacing='2' align='center'><tr><td><b>Speed:</"
+#| "b></td><td></td></tr><tr><td>Download: <font color='#1c9a1c'>%1</font></"
+#| "td><td>Upload: <font color='#990000'>%2</font></td></"
+#| "tr><tr><td><b>Transfer:</b></td><td></td></tr><tr><td>Download: <font "
+#| "color='#1c9a1c'>%3</font></td><td>Upload: <font color='#990000'>%4</"
+#| "font></td></tr></table>"
+msgid ""
+"<table><tr><td>Download&nbsp;speed:</td><td><b>%1</b></td></"
+"tr><tr><td>Upload&nbsp;speed:</td><td><b>%2</b></td></tr><tr><td>Received:</"
+"td><td><b>%3</b></td></tr><tr><td>Transmitted:</td><td><b>%4</b></td></tr></"
+"table>"
+msgstr ""
+"<table cellpadding='2' cellspacing='2' align='center'><tr><td><b>Velocidá:</"
+"b></td><td></td></tr><tr><td>Baxada: <font color='#1c9a1c'>%1</font></"
+"td><td>Unvíu: <font color='#990000'>%2</font></td></"
+"tr><tr><td><b>Tresferencies:</b></td><td></td></tr><tr><td>Baxada: <font "
+"color='#1c9a1c'>%3</font></td><td>Unvíu: <font color='#990000'>%4</font></"
+"td></tr></table>"
+
+#: ktorrent/trayicon.cpp:191
+#, kde-format
+msgid "<b>%1</b> has completed downloading.<br>Average speed: %2 DL / %3 UL."
+msgstr "<b>%1</b> finó de baxase.<br>Velocidá media: %2 Baxada / %3 Unvíu."
+
+#: ktorrent/trayicon.cpp:209
+#, kde-format
+msgid ""
+"<b>%1</b> has reached its maximum share ratio of %2 and has been stopped."
+"<br>Uploaded %3 at an average speed of %4."
+msgstr ""
+"<b>%1</b> algamóse la so proporción máxima de compartición de %2 y foi paráu."
+"<br>Unviáu %3 a una velocidá media de %4."
+
+#: ktorrent/trayicon.cpp:228
+#, kde-format
+msgid ""
+"<b>%1</b> has reached its maximum seed time of %2 hours and has been stopped."
+"<br>Uploaded %3 at an average speed of %4."
+msgstr ""
+"<b>%1</b> algamóse'l so tiempu máximu de siema de %2 hores y foi deteníu."
+"<br>Unviáu %3 a una velocidá media de %4."
+
+#: ktorrent/trayicon.cpp:243
+#, kde-format
+msgid "<b>%1</b> has been stopped with the following error: <br>%2"
+msgstr "<b>%1</b> detúvose pol siguiente fallu: <br>%2"
+
+#: ktorrent/trayicon.cpp:254
+#, kde-format
+msgid ""
+"Corrupted data has been found in the torrent <b>%1</b><br>It would be a good "
+"idea to do a data integrity check on the torrent."
+msgstr ""
+"Alcontráronse datos dañaos nel torrent <b>%1</b> <br>Yera bona idega facer "
+"una verificación d'integridá de datos sobro'l torrent."
+
+#: ktorrent/trayicon.cpp:271
+#, kde-format
+msgid ""
+"<b>%1</b> has reached its maximum share ratio of %2 and cannot be enqueued. "
+"<br>Remove the limit manually if you want to continue seeding."
+msgstr ""
+"<b>%1</b> algamóse la so proporción máxima de compartición de %2 y nun puede "
+"encolase.<br>. Desanicia'l llímite manualmente si quies siguir semando."
+
+#: ktorrent/trayicon.cpp:275
+#, kde-format
+msgid ""
+"<b>%1</b> has reached its maximum seed time of %2 hours and cannot be "
+"enqueued. <br>Remove the limit manually if you want to continue seeding."
+msgstr ""
+"<b>%1</b> algamóse'l to tiempu máximu de siema de %2 hores y nun puede "
+"encolase.<br>Desanicia'l llímite manualmente si quies siguir semando."
+
+#: ktorrent/trayicon.cpp:287
+#, fuzzy, kde-format
+#| msgid "Cannot start <b>%1</b> : <br>"
+msgid "Cannot start <b>%1</b>: <br>"
+msgstr "Nun puede entamase <b>%1</b>: <br>"
+
+#: ktorrent/trayicon.cpp:294
+#, kde-format
+msgid "Cannot seed more than 1 torrent. <br>"
+msgid_plural "Cannot seed more than %1 torrents. <br>"
+msgstr[0] "Nun ye posible semar más d'un torrent. <br>"
+msgstr[1] "Nun ye posible semar más de %1 torrents. <br>"
+
+#: ktorrent/trayicon.cpp:299
+#, kde-format
+msgid "Cannot download more than 1 torrent. <br>"
+msgid_plural "Cannot download more than %1 torrents. <br>"
+msgstr[0] "Nun ye posible baxar más d'un torrent. <br>"
+msgstr[1] "Nun ye posible baxar más de %1 torrents. <br>"
+
+#: ktorrent/trayicon.cpp:302
+msgid "Go to Settings -> Configure KTorrent, if you want to change the limits."
+msgstr ""
+"Vete a Preferencies -> Configurar KTorrent si quies camudar los llímites."
+
+#: ktorrent/trayicon.cpp:306
+msgid "There is not enough diskspace available."
+msgstr "Nun hai abondu espaciu disponible en discu."
+
+#: ktorrent/trayicon.cpp:319
+#, kde-format
+msgid ""
+"Your disk is running out of space.<br /><b>%1</b> is being downloaded to "
+"'%2'."
+msgstr ""
+"El to discu ta quedando ensin espaciu.<br /><b>%1</b> ta baxándose a «%2»."
+
+#: ktorrent/trayicon.cpp:322
+msgid "Torrent has been stopped.<br />"
+msgstr "Detúvose'l torrent.<br />"
+
+#: ktorrent/trayicon.cpp:358
+msgid "Speed limit in KiB/s"
+msgstr "Velocidá llímite en KiB/s"
+
+#: ktorrent/trayicon.cpp:360 plugins/bwscheduler/schedulegraphicsitem.cpp:83
+#: plugins/bwscheduler/schedulegraphicsitem.cpp:84
+msgid "Unlimited"
+msgstr "Ensin llímite"
 
 #: ktupnptest/main.cpp:40
 msgid "KTUPnPTest"
