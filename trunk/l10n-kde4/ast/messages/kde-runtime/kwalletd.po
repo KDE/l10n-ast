@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdebase-runtime\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-08 04:05+0200\n"
+"POT-Creation-Date: 2011-09-27 05:19+0200\n"
 "PO-Revision-Date: 2010-10-19 22:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -55,11 +55,55 @@ msgstr "Fallu de llectura - dablemente contraseña incorreuta."
 msgid "Decryption error."
 msgstr "Descripción de descifráu."
 
-#: kwalletd.cpp:362 kwalletd.cpp:451 kwalletd.cpp:514 kwalletd.cpp:606
-#: kwalletd.cpp:697 kwalletd.cpp:709 kwalletd.cpp:718 kwalletd.cpp:723
-#: kwalletd.cpp:1236 main.cpp:38 main.cpp:39
+#: kwalletwizard.cpp:39
+msgid "KWallet"
+msgstr "KWallet"
+
+#: kwalletwizard.cpp:147
+msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
+msgstr "<qt>La contraseña ta erma.  <b>(Avisu: esto ye inseguro)</b>.</qt>"
+
+#: kwalletwizard.cpp:149
+msgid "Passwords match."
+msgstr "Les contraseñes concasen."
+
+#: kwalletwizard.cpp:152
+msgid "Passwords do not match."
+msgstr "Les contraseñes nun concasen."
+
+#: main.cpp:38 main.cpp:39 kwalletd.cpp:362 kwalletd.cpp:451 kwalletd.cpp:515
+#: kwalletd.cpp:607 kwalletd.cpp:698 kwalletd.cpp:710 kwalletd.cpp:719
+#: kwalletd.cpp:724 kwalletd.cpp:1237
 msgid "KDE Wallet Service"
 msgstr "Serviciu de cartera de KDE"
+
+#: main.cpp:40
+msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+msgstr "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+
+#: main.cpp:41
+msgid "Michael Leupold"
+msgstr "Michael Leupold"
+
+#: main.cpp:41
+msgid "Maintainer"
+msgstr "Caltenimientu"
+
+#: main.cpp:42
+msgid "George Staikos"
+msgstr "George Staikos"
+
+#: main.cpp:42
+msgid "Former maintainer"
+msgstr "Encargáu anterior"
+
+#: main.cpp:43
+msgid "Thiago Maceira"
+msgstr "Thiago Maceira"
+
+#: main.cpp:43
+msgid "D-Bus Interface"
+msgstr "Interface DBus"
 
 #: kwalletd.cpp:444
 #, kde-format
@@ -112,7 +156,7 @@ msgctxt ""
 msgid "Switch to %1"
 msgstr "Camudar a %1"
 
-#: kwalletd.cpp:485 kwalletd.cpp:523
+#: kwalletd.cpp:485 kwalletd.cpp:524
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -121,7 +165,7 @@ msgstr ""
 "<qt>Fallu al abrir la cartera «<b>%1</b>». Téntelo otra vegada. <br />"
 "(Códigu d'error %2: %3)</qt>"
 
-#: kwalletd.cpp:502
+#: kwalletd.cpp:503
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
 "in a secure fashion. Please enter a password to use with this wallet or "
@@ -132,7 +176,7 @@ msgstr ""
 "quier abrilo, o calque «Encaboxar» si quier denegar la petición de "
 "l'aplicación."
 
-#: kwalletd.cpp:504
+#: kwalletd.cpp:505
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -145,7 +189,7 @@ msgstr ""
 "d'esta cartera más abaxo si quier abrila, o encaboxe si quier torgar la "
 "petición de l'aplicación.</qt>"
 
-#: kwalletd.cpp:508
+#: kwalletd.cpp:509
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -156,7 +200,7 @@ msgstr ""
 "contraseña pa esta cartera, o calque «Encaboxar» pa torgar la solicitú de "
 "l'aplicación.</qt>"
 
-#: kwalletd.cpp:510
+#: kwalletd.cpp:511
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -167,16 +211,16 @@ msgstr ""
 "%2</b>». Esbille una contraseña pa esta cartera, o encaboxe pa denegar la "
 "solicitú de l'aplicación.</qt>"
 
-#: kwalletd.cpp:515
+#: kwalletd.cpp:516
 msgid "C&reate"
 msgstr "C&rear"
 
-#: kwalletd.cpp:608
+#: kwalletd.cpp:609
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE solicitó acceder a la cartera «<b>%1</b>», yá abierta.</qt>"
 
-#: kwalletd.cpp:610
+#: kwalletd.cpp:611
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
@@ -185,7 +229,7 @@ msgstr ""
 "<qt>L'aplicación «<b>%1</b>» solicitó acceder a la cartera «<b>%2</b>», yá "
 "abierta.</qt>"
 
-#: kwalletd.cpp:697
+#: kwalletd.cpp:698
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
@@ -193,70 +237,26 @@ msgstr ""
 "Imposible abrir cartera. La cartera tien d'abrise pa poder camudar la "
 "contraseña."
 
-#: kwalletd.cpp:708
+#: kwalletd.cpp:709
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>Escueyi una nueva contraseña pa la cartera «<b>%1</b>».</qt>"
 
-#: kwalletd.cpp:718
+#: kwalletd.cpp:719
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "Fallu al cifrar de nuevu la cartera. La contraseña nun camudó."
 
-#: kwalletd.cpp:723
+#: kwalletd.cpp:724
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "Fallu al reabrir la cartera. Los datos pueden habese perdío."
 
-#: kwalletd.cpp:1236
+#: kwalletd.cpp:1237
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
 "application may be misbehaving."
 msgstr ""
 "Fexéronse dellos intentos fallíos d'accesu a la cartera. Puede qu'heba una "
 "aplicación desbocada."
-
-#: kwalletwizard.cpp:39
-msgid "KWallet"
-msgstr "KWallet"
-
-#: kwalletwizard.cpp:147
-msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
-msgstr "<qt>La contraseña ta erma.  <b>(Avisu: esto ye inseguro)</b>.</qt>"
-
-#: kwalletwizard.cpp:149
-msgid "Passwords match."
-msgstr "Les contraseñes concasen."
-
-#: kwalletwizard.cpp:152
-msgid "Passwords do not match."
-msgstr "Les contraseñes nun concasen."
-
-#: main.cpp:40
-msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
-msgstr "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
-
-#: main.cpp:41
-msgid "Michael Leupold"
-msgstr "Michael Leupold"
-
-#: main.cpp:41
-msgid "Maintainer"
-msgstr "Caltenimientu"
-
-#: main.cpp:42
-msgid "George Staikos"
-msgstr "George Staikos"
-
-#: main.cpp:42
-msgid "Former maintainer"
-msgstr "Encargáu anterior"
-
-#: main.cpp:43
-msgid "Thiago Maceira"
-msgstr "Thiago Maceira"
-
-#: main.cpp:43
-msgid "D-Bus Interface"
-msgstr "Interface DBus"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
