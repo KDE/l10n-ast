@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-01 02:48+0200\n"
+"POT-Creation-Date: 2011-10-25 03:39+0200\n"
 "PO-Revision-Date: 2010-10-25 14:22+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -1153,84 +1153,6 @@ msgstr ""
 "Sincronizar la lleenda IPTC (avisu: llendáu a 2.000 carauteres ASCII "
 "imprentables)"
 
-#: iptc/iptcsubjects.cpp:57
-msgid ""
-"Enter here the Informative Provider Reference. I.P.R is a name registered "
-"with the IPTC/NAA, identifying the provider that provides an indicator of "
-"the content. The default value for the I.P.R is \"IPTC\" if a standard "
-"Reference Code is used. This field is limited to 32 ASCII characters."
-msgstr ""
-
-#: iptc/iptcsubjects.cpp:65
-msgid ""
-"Enter here the Subject Reference Number. Provides a numeric code to indicate "
-"the Subject Name plus optional Subject Matter and Subject Detail Names in "
-"the language of the service. Subject Reference is a number from the range "
-"01000000 to 17999999 and represent a language independent international "
-"reference to a Subject. A Subject is identified by its Reference Number and "
-"corresponding Names taken from a standard lists given by IPTC/NAA. If a "
-"standard reference code is used, these lists are the English language "
-"reference versions. This field is limited to 8 ASCII digit code."
-msgstr ""
-
-#: iptc/iptcsubjects.cpp:80
-#, fuzzy
-#| msgid ""
-#| "Set here the Unique Name of Object identifier. This field is limited to "
-#| "80 ASCII characters."
-msgid ""
-"Enter here the Subject Name. English language is used if you selected a "
-"standard IPTC/NAA reference code. This field is limited to 64 ASCII "
-"characters."
-msgstr ""
-"Afita equí'l Nome únicu del Indicador d'oxetu. Esti campu tien una llende de "
-"80 carauteres ASCII."
-
-#: iptc/iptcsubjects.cpp:87
-#, fuzzy
-#| msgid ""
-#| "Set here the Unique Name of Object identifier. This field is limited to "
-#| "80 ASCII characters."
-msgid ""
-"Enter here the Subject Matter Name. English language is used if you selected "
-"a standard IPTC/NAA reference code. This field is limited to 64 ASCII "
-"characters."
-msgstr ""
-"Afita equí'l Nome únicu del Indicador d'oxetu. Esti campu tien una llende de "
-"80 carauteres ASCII."
-
-#: iptc/iptcsubjects.cpp:94
-#, fuzzy
-#| msgid ""
-#| "Set here the Unique Name of Object identifier. This field is limited to "
-#| "80 ASCII characters."
-msgid ""
-"Enter here the Subject Detail Name. English language is used if you selected "
-"a standard IPTC/NAA reference code. This field is limited to 64 ASCII "
-"characters."
-msgstr ""
-"Afita equí'l Nome únicu del Indicador d'oxetu. Esti campu tien una llende de "
-"80 carauteres ASCII."
-
-#: iptc/iptcsubjects.cpp:98 iptc/iptccategories.cpp:123
-#: iptc/iptccontent.cpp:128 iptc/iptccredits.cpp:147 iptc/iptcenvelope.cpp:269
-#: iptc/iptckeywords.cpp:111 iptc/iptcorigin.cpp:497
-#: iptc/iptcproperties.cpp:239 iptc/iptcstatus.cpp:130
-#, fuzzy
-#| msgid ""
-#| "<b>Note: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> text "
-#| "tags marked by (*) only support printable <b><a href='http://en.wikipedia."
-#| "org/wiki/Ascii'>ASCII</a></b> characters.</b>"
-msgid ""
-"<b>Note: <b><a href='http://en.wikipedia.org/wiki/"
-"IPTC_Information_Interchange_Model'>IPTC</a></b> text tags only support the "
-"printable <b><a href='http://en.wikipedia.org/wiki/Ascii'>ASCII</a></b> "
-"characters and limit string sizes. Use contextual help for details.</b>"
-msgstr ""
-"<b>Nota: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> les "
-"etiquetes de testu marcaes con (*) sólo permiten carauteres imprentables "
-"<b><a href='http://en.wikipedia.org/wiki/Ascii'>ASCII</a></b>.</b>"
-
 #: iptc/iptceditwidget.cpp:140 xmp/xmpeditwidget.cpp:140
 msgid "Content"
 msgstr "Conteníu"
@@ -1400,6 +1322,26 @@ msgstr "&Desaniciar"
 #: xmp/xmpcategories.cpp:104 xmp/xmpkeywords.cpp:93
 msgid "&Replace"
 msgstr "&Trocar"
+
+#: iptc/iptccategories.cpp:123 iptc/iptccontent.cpp:128
+#: iptc/iptccredits.cpp:147 iptc/iptcenvelope.cpp:269
+#: iptc/iptckeywords.cpp:111 iptc/iptcorigin.cpp:497
+#: iptc/iptcproperties.cpp:239 iptc/iptcstatus.cpp:130
+#: iptc/iptcsubjects.cpp:98
+#, fuzzy
+#| msgid ""
+#| "<b>Note: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> text "
+#| "tags marked by (*) only support printable <b><a href='http://en.wikipedia."
+#| "org/wiki/Ascii'>ASCII</a></b> characters.</b>"
+msgid ""
+"<b>Note: <b><a href='http://en.wikipedia.org/wiki/"
+"IPTC_Information_Interchange_Model'>IPTC</a></b> text tags only support the "
+"printable <b><a href='http://en.wikipedia.org/wiki/Ascii'>ASCII</a></b> "
+"characters and limit string sizes. Use contextual help for details.</b>"
+msgstr ""
+"<b>Nota: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> les "
+"etiquetes de testu marcaes con (*) sólo permiten carauteres imprentables "
+"<b><a href='http://en.wikipedia.org/wiki/Ascii'>ASCII</a></b>.</b>"
 
 #: iptc/iptccontent.cpp:97 xmp/xmpcontent.cpp:92
 msgid "Headline:"
@@ -3162,43 +3104,64 @@ msgstr ""
 "Pon equí'l títulu de la imaxe. Esti campu tien una llende de carauteres "
 "ASCII."
 
-#: xmp/xmpsubjects.cpp:55
+#: iptc/iptcsubjects.cpp:57
 msgid ""
 "Enter here the Informative Provider Reference. I.P.R is a name registered "
-"with the XMP/NAA, identifying the provider that provides an indicator of the "
-"content. The default value for the I.P.R is \"XMP\" if a standard Reference "
-"Code is used."
+"with the IPTC/NAA, identifying the provider that provides an indicator of "
+"the content. The default value for the I.P.R is \"IPTC\" if a standard "
+"Reference Code is used. This field is limited to 32 ASCII characters."
 msgstr ""
 
-#: xmp/xmpsubjects.cpp:61
+#: iptc/iptcsubjects.cpp:65
 msgid ""
 "Enter here the Subject Reference Number. Provides a numeric code to indicate "
 "the Subject Name plus optional Subject Matter and Subject Detail Names in "
 "the language of the service. Subject Reference is a number from the range "
 "01000000 to 17999999 and represent a language independent international "
 "reference to a Subject. A Subject is identified by its Reference Number and "
-"corresponding Names taken from a standard lists given by XMP/NAA. If a "
+"corresponding Names taken from a standard lists given by IPTC/NAA. If a "
 "standard reference code is used, these lists are the English language "
-"reference versions. This field is limited to 8 digit code."
+"reference versions. This field is limited to 8 ASCII digit code."
 msgstr ""
 
-#: xmp/xmpsubjects.cpp:74
+#: iptc/iptcsubjects.cpp:80
+#, fuzzy
+#| msgid ""
+#| "Set here the Unique Name of Object identifier. This field is limited to "
+#| "80 ASCII characters."
 msgid ""
 "Enter here the Subject Name. English language is used if you selected a "
-"standard XMP/NAA reference code."
+"standard IPTC/NAA reference code. This field is limited to 64 ASCII "
+"characters."
 msgstr ""
+"Afita equí'l Nome únicu del Indicador d'oxetu. Esti campu tien una llende de "
+"80 carauteres ASCII."
 
-#: xmp/xmpsubjects.cpp:78
+#: iptc/iptcsubjects.cpp:87
+#, fuzzy
+#| msgid ""
+#| "Set here the Unique Name of Object identifier. This field is limited to "
+#| "80 ASCII characters."
 msgid ""
 "Enter here the Subject Matter Name. English language is used if you selected "
-"a standard XMP/NAA reference code."
+"a standard IPTC/NAA reference code. This field is limited to 64 ASCII "
+"characters."
 msgstr ""
+"Afita equí'l Nome únicu del Indicador d'oxetu. Esti campu tien una llende de "
+"80 carauteres ASCII."
 
-#: xmp/xmpsubjects.cpp:82
+#: iptc/iptcsubjects.cpp:94
+#, fuzzy
+#| msgid ""
+#| "Set here the Unique Name of Object identifier. This field is limited to "
+#| "80 ASCII characters."
 msgid ""
 "Enter here the Subject Detail Name. English language is used if you selected "
-"a standard XMP/NAA reference code."
+"a standard IPTC/NAA reference code. This field is limited to 64 ASCII "
+"characters."
 msgstr ""
+"Afita equí'l Nome únicu del Indicador d'oxetu. Esti campu tien una llende de "
+"80 carauteres ASCII."
 
 #: xmp/xmpcategories.cpp:90
 #, fuzzy
@@ -3663,6 +3626,44 @@ msgstr "Afita equí la hora na que'l serviciu mandó'l material."
 
 #: xmp/xmpstatus.cpp:107
 msgid "Enter the editorial usage instructions."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:55
+msgid ""
+"Enter here the Informative Provider Reference. I.P.R is a name registered "
+"with the XMP/NAA, identifying the provider that provides an indicator of the "
+"content. The default value for the I.P.R is \"XMP\" if a standard Reference "
+"Code is used."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:61
+msgid ""
+"Enter here the Subject Reference Number. Provides a numeric code to indicate "
+"the Subject Name plus optional Subject Matter and Subject Detail Names in "
+"the language of the service. Subject Reference is a number from the range "
+"01000000 to 17999999 and represent a language independent international "
+"reference to a Subject. A Subject is identified by its Reference Number and "
+"corresponding Names taken from a standard lists given by XMP/NAA. If a "
+"standard reference code is used, these lists are the English language "
+"reference versions. This field is limited to 8 digit code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:74
+msgid ""
+"Enter here the Subject Name. English language is used if you selected a "
+"standard XMP/NAA reference code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:78
+msgid ""
+"Enter here the Subject Matter Name. English language is used if you selected "
+"a standard XMP/NAA reference code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:82
+msgid ""
+"Enter here the Subject Detail Name. English language is used if you selected "
+"a standard XMP/NAA reference code."
 msgstr ""
 
 #: plugin/plugin_metadataedit.cpp:99
