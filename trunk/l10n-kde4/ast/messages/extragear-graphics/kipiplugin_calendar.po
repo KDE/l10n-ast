@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_calendar\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-26 03:43+0200\n"
+"POT-Creation-Date: 2011-10-27 03:07+0200\n"
 "PO-Revision-Date: 2010-10-19 23:22+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -24,7 +24,7 @@ msgstr "Crear un calendariu..."
 
 #. i18n: file: ui/caltemplate.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, CalTemplate)
-#: wizard/calwizard.cpp:71 rc.cpp:54
+#: wizard/calwizard.cpp:71 rc.cpp:41
 msgid "Create Template for Calendar"
 msgstr "Facer una plantía pal calendariu"
 
@@ -88,9 +88,9 @@ msgstr "Renchi Raju"
 msgid "Handbook"
 msgstr "Manual"
 
-#. i18n: file: ui/calselect.ui:13
+#. i18n: file: ui/calselect.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, CalSelect)
-#: wizard/calwizard.cpp:138 rc.cpp:41
+#: wizard/calwizard.cpp:138 rc.cpp:89
 msgid "Create Calendar"
 msgstr "Crear Calendariu"
 
@@ -225,115 +225,119 @@ msgstr "Páxina actual"
 msgid "Total Pages"
 msgstr "Númberu total de páxines"
 
-#. i18n: file: ui/calselect.ui:19
-#. i18n: ectx: property (title), widget (QGroupBox, yearBox)
-#: rc.cpp:44
-msgid "Select Year"
-msgstr "Esbillar l'añu"
-
-#. i18n: file: ui/calselect.ui:44
-#. i18n: ectx: property (title), widget (QGroupBox, monthBox)
-#: rc.cpp:47
-msgid "Select Images"
-msgstr "Esbillar imáxenes"
-
-#. i18n: file: ui/calselect.ui:54
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:50
-msgid ""
-"Left click on Months to Select Images. Right click to Clear Month.\n"
-"You can also drag and drop images onto the Months"
-msgstr ""
-"Calque col botón esquierdu del mur sobro'l campu «Meses» pa esbillar les "
-"imáxenes.Calque col botón drechu pa reanicializar el campu.Tamién puede "
-"«arrastrar y soltar» direutamente les imáxenes sobro'l campu «Meses»"
-
 #. i18n: file: ui/caltemplate.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, previewGroupBox)
-#: rc.cpp:57
+#: rc.cpp:44
 msgid "Preview"
 msgstr "Entever"
 
 #. i18n: file: ui/caltemplate.ui:41
 #. i18n: ectx: property (title), widget (QGroupBox, settingsGroupBox)
-#: rc.cpp:60
+#: rc.cpp:47
 msgid "Settings"
 msgstr "Preferencies"
 
 #. i18n: file: ui/caltemplate.ui:55
 #. i18n: ectx: property (text), widget (QLabel, paperSizeLabel)
-#: rc.cpp:63
+#: rc.cpp:50
 msgid "Paper Size:"
 msgstr "Tamañu del papel:"
 
 #. i18n: file: ui/caltemplate.ui:63
 #. i18n: ectx: property (text), item, widget (KComboBox, paperSizeCombo)
-#: rc.cpp:66
+#: rc.cpp:53
 msgid "A4"
 msgstr "A4"
 
 #. i18n: file: ui/caltemplate.ui:68
 #. i18n: ectx: property (text), item, widget (KComboBox, paperSizeCombo)
-#: rc.cpp:69
+#: rc.cpp:56
 msgid "US Letter"
 msgstr "US Letter"
 
 #. i18n: file: ui/caltemplate.ui:76
 #. i18n: ectx: property (text), widget (QLabel, resolutionLabel)
-#: rc.cpp:72
+#: rc.cpp:59
 msgid "Resolution:"
 msgstr ""
 
 #. i18n: file: ui/caltemplate.ui:84
 #. i18n: ectx: property (text), item, widget (QComboBox, resolutionCombo)
-#: rc.cpp:75
+#: rc.cpp:62
 msgid "High"
 msgstr ""
 
 #. i18n: file: ui/caltemplate.ui:89
 #. i18n: ectx: property (text), item, widget (QComboBox, resolutionCombo)
-#: rc.cpp:78
+#: rc.cpp:65
 msgid "Low"
 msgstr ""
 
 #. i18n: file: ui/caltemplate.ui:99
 #. i18n: ectx: property (title), widget (KButtonGroup, imagePosButtonGroup)
-#: rc.cpp:81
+#: rc.cpp:68
 msgid "Image Position"
 msgstr "Posición de la imaxe"
 
 #. i18n: file: ui/caltemplate.ui:108
 #. i18n: ectx: property (text), widget (QRadioButton, topRadio)
-#: rc.cpp:84
+#: rc.cpp:71
 msgid "&Top"
 msgstr "&Arriba"
 
 #. i18n: file: ui/caltemplate.ui:115
 #. i18n: ectx: property (text), widget (QRadioButton, leftRadio)
-#: rc.cpp:87
+#: rc.cpp:74
 msgid "&Left"
 msgstr "&Esquierda"
 
 #. i18n: file: ui/caltemplate.ui:122
 #. i18n: ectx: property (text), widget (QRadioButton, rightRadio)
-#: rc.cpp:90
+#: rc.cpp:77
 msgid "&Right"
 msgstr "&Drecha"
 
 #. i18n: file: ui/caltemplate.ui:132
 #. i18n: ectx: property (text), widget (QCheckBox, drawLinesCheckBox)
-#: rc.cpp:93
+#: rc.cpp:80
 msgid "Draw lines on calendar"
 msgstr "Dibuxar llinies nel calendariu"
 
 #. i18n: file: ui/caltemplate.ui:144
 #. i18n: ectx: property (text), widget (QLabel, ratioLabel)
-#: rc.cpp:96
+#: rc.cpp:83
 msgid "Image to text ratio:"
 msgstr "Proporción ente les imáxenes y el testu:"
 
 #. i18n: file: ui/caltemplate.ui:174
 #. i18n: ectx: property (text), widget (QLabel, fontLabel)
-#: rc.cpp:99
+#: rc.cpp:86
 msgid "Font:"
 msgstr "Fonte:"
+
+#. i18n: file: ui/calselect.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, yearBox)
+#: rc.cpp:92
+msgid "Select Year"
+msgstr "Esbillar l'añu"
+
+#. i18n: file: ui/calselect.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, monthBox)
+#: rc.cpp:95
+msgid "Select Images"
+msgstr "Esbillar imáxenes"
+
+#. i18n: file: ui/calselect.ui:55
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:98
+#, fuzzy
+#| msgid ""
+#| "Left click on Months to Select Images. Right click to Clear Month.\n"
+#| "You can also drag and drop images onto the Months"
+msgid ""
+"Left click on a month to select an image, right click to clear an image.\n"
+"You can also drag and drop images onto a month."
+msgstr ""
+"Calque col botón esquierdu del mur sobro'l campu «Meses» pa esbillar les "
+"imáxenes.Calque col botón drechu pa reanicializar el campu.Tamién puede "
+"«arrastrar y soltar» direutamente les imáxenes sobro'l campu «Meses»"
