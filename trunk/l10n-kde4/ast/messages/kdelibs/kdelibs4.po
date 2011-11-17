@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4-1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-01 05:27+0100\n"
+"POT-Creation-Date: 2011-11-17 04:04+0100\n"
 "PO-Revision-Date: 2010-05-19 18:48+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -2749,15 +2749,15 @@ msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr ""
 "Abondes pallabres mal escrites. Igua ortográfica sobro la marcha desactivada."
 
-#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:495
+#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:493
 msgid "Check Spelling..."
 msgstr "Comprobar ortografía..."
 
-#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:498
+#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:496
 msgid "Auto Spell Check"
 msgstr "Correutor ortográficu automáticu"
 
-#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:502
+#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:500
 msgid "Allow Tabulations"
 msgstr "Permitir tabulaciones"
 
@@ -9678,6 +9678,31 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "Predetermináu"
 
+#: kdeui/widgets/ktextedit.cpp:527
+msgid "Speak Text"
+msgstr "Lleer testu"
+
+#: kdeui/widgets/ktextedit.cpp:542
+msgid "Starting Jovie Text-to-Speech Service Failed"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:631
+#, kde-format
+msgid "No suggestions for %1"
+msgstr "Nun hai suxerencies pa %1"
+
+#: kdeui/widgets/ktextedit.cpp:642
+msgid "Ignore"
+msgstr "Inorar"
+
+#: kdeui/widgets/ktextedit.cpp:643
+msgid "Add to Dictionary"
+msgstr "Amestar al diccionariu"
+
+#: kdeui/widgets/ktextedit.cpp:788
+msgid "Nothing to spell check."
+msgstr "Res que comprobar ortográficamente."
+
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "Operaciones d'imáxenes"
@@ -9878,31 +9903,6 @@ msgstr "Superíndiz"
 #: kdeui/widgets/ksqueezedtextlabel.cpp:165
 msgid "&Copy Full Text"
 msgstr "&Copiar tol testu"
-
-#: kdeui/widgets/ktextedit.cpp:526
-msgid "Speak Text"
-msgstr "Lleer testu"
-
-#: kdeui/widgets/ktextedit.cpp:541
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: kdeui/widgets/ktextedit.cpp:630
-#, kde-format
-msgid "No suggestions for %1"
-msgstr "Nun hai suxerencies pa %1"
-
-#: kdeui/widgets/ktextedit.cpp:641
-msgid "Ignore"
-msgstr "Inorar"
-
-#: kdeui/widgets/ktextedit.cpp:642
-msgid "Add to Dictionary"
-msgstr "Amestar al diccionariu"
-
-#: kdeui/widgets/ktextedit.cpp:787
-msgid "Nothing to spell check."
-msgstr "Res que comprobar ortográficamente."
 
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgctxt "Define an area in the time zone, like a town area"
@@ -10179,10 +10179,6 @@ msgstr "Barra de ferramientes"
 msgid "No text"
 msgstr "Ensin testu"
 
-#: kdewebkit/kwebpage.cpp:126 khtml/khtml_ext.cpp:879
-msgid "Overwrite File?"
-msgstr "¿Sobroscribir el ficheru?"
-
 #: kdewidgets/makekdewidgets.cpp:84
 msgid "Builds Qt widget plugins from an ini style description file."
 msgstr ""
@@ -10347,6 +10343,10 @@ msgstr "Introduza la URL:"
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "Yá esiste un ficheru col nome  «%1». ¿Daveres quies trocalu?"
+
+#: khtml/khtml_ext.cpp:879
+msgid "Overwrite File?"
+msgstr "¿Sobroscribir el ficheru?"
 
 #: khtml/khtml_ext.cpp:879
 msgid "Overwrite"
@@ -13726,7 +13726,7 @@ msgstr "-ensin nome-"
 msgid "No service matching the requirements was found"
 msgstr "Nun s'atopó dengún serviciu que coincida colos requisitos"
 
-#: kdecore/services/kservice.h:553
+#: kdecore/services/kservice.h:555
 #, kde-format
 msgid "The service '%1' does not provide an interface '%2' with keyword '%3'"
 msgstr ""
