@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-26 03:27+0100\n"
+"POT-Creation-Date: 2011-11-29 04:55+0100\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -8109,7 +8109,7 @@ msgstr "Mou de datos"
 msgid "Spectrum Analyzer Settings"
 msgstr "Opciones xenerales"
 
-#: context/containments/verticallayout/VerticalToolbarContainment.cpp:180
+#: context/containments/verticallayout/VerticalToolbarContainment.cpp:191
 msgid ""
 "Please add some applets from the toolbar at the bottom of the context view."
 msgstr ""
@@ -13816,13 +13816,6 @@ msgstr "Radio personal de los collacios"
 msgid "Play Similar Artists from Last.fm"
 msgstr "Reproducir artistes asemeyaos de last.fm"
 
-#: services/lastfm/ScrobblerAdapter.cpp:236
-#: services/lastfm/LastFmService.cpp:543
-#, kde-format
-msgctxt "As in, lastfm"
-msgid "Loved Track: %1"
-msgstr "Pista preferida: %1"
-
 #: services/lastfm/LastFmService.cpp:195
 msgid "Last.fm: The social music revolution"
 msgstr "Last.fm: La revolución de la música social"
@@ -13893,6 +13886,13 @@ msgstr "Etiqueta"
 #: services/lastfm/LastFmService.cpp:507
 msgid "User"
 msgstr "Usuariu"
+
+#: services/lastfm/LastFmService.cpp:543
+#: services/lastfm/ScrobblerAdapter.cpp:219
+#, kde-format
+msgctxt "As in, lastfm"
+msgid "Loved Track: %1"
+msgstr "Pista preferida: %1"
 
 #: services/magnatune/MagnatuneCollectionLocation.cpp:42
 msgid "Preview Tracks"
@@ -14404,50 +14404,50 @@ msgid ""
 "MP3 store. Amarok gets a share of the profits made by this service."
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:190
+#: services/amazon/AmazonStore.cpp:191
 #, kde-format
 msgid "<em>%1</em> has been added to your shopping cart."
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:213 services/amazon/AmazonStore.cpp:317
+#: services/amazon/AmazonStore.cpp:214 services/amazon/AmazonStore.cpp:319
 msgid "Error: Unable to write temporary file. :-("
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:275
+#: services/amazon/AmazonStore.cpp:277
 msgid "Select your Amazon locale - Amarok"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:287
+#: services/amazon/AmazonStore.cpp:289
 msgid ""
 "<b>MP3 Music Store</b><br/><br/>Please select a valid country in the "
 "settings to make the store work."
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:402
+#: services/amazon/AmazonStore.cpp:403
 msgid "Select results page to show"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:425
+#: services/amazon/AmazonStore.cpp:426
 #, fuzzy
 #| msgid "&Add to Playlist"
 msgctxt "Add selected item to your shopping cart"
 msgid "Add to Cart"
 msgstr "&Amestar a la llista de reproducción"
 
-#: services/amazon/AmazonStore.cpp:426
+#: services/amazon/AmazonStore.cpp:427
 msgid "Add selected item to your shopping cart"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:433
+#: services/amazon/AmazonStore.cpp:434
 msgctxt "View your shopping cart contents"
 msgid "View Cart"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:434
+#: services/amazon/AmazonStore.cpp:435
 msgid "View your shopping cart contents"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:441
+#: services/amazon/AmazonStore.cpp:442
 #, fuzzy
 #| msgctxt "track from source"
 #| msgid "from <b>%1</b>"
@@ -14455,25 +14455,47 @@ msgctxt "Checkout your shopping cart"
 msgid "Checkout"
 msgstr "dende <b>%1</b>"
 
-#: services/amazon/AmazonStore.cpp:442
+#: services/amazon/AmazonStore.cpp:443
 msgid "Checkout your shopping cart"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:462
+#: services/amazon/AmazonStore.cpp:463
 msgid "Error: Querying MP3 Music Store database failed. :-("
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:497
+#: services/amazon/AmazonStore.cpp:498
 msgid "Error: Received an invalid reply. :-("
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:517
+#: services/amazon/AmazonStore.cpp:518
 msgid "Error: Unable to open temporary file. :-("
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:537
+#: services/amazon/AmazonStore.cpp:538
 msgid "Error: Unable to parse temporary file. :-("
 msgstr ""
+
+#: services/amazon/AmazonItemTreeView.cpp:271
+#, fuzzy
+#| msgid "&Add to Playlist"
+msgid "Add to Cart"
+msgstr "&Amestar a la llista de reproducción"
+
+#: services/amazon/AmazonItemTreeView.cpp:280
+#, fuzzy
+#| msgid "&Add to Playlist"
+msgid "Add Preview to Playlist"
+msgstr "&Amestar a la llista de reproducción"
+
+#: services/amazon/AmazonItemTreeView.cpp:290
+msgid "Load Details..."
+msgstr ""
+
+#: services/amazon/AmazonItemTreeView.cpp:299
+#, fuzzy
+#| msgid "&Search"
+msgid "Search for Album..."
+msgstr "Gu&etar"
 
 #: services/amazon/AmazonItemTreeModel.cpp:108
 #: services/amazon/AmazonItemTreeModel.cpp:129
@@ -14505,28 +14527,6 @@ msgstr "<b>%1</b>"
 #: services/amazon/AmazonItemTreeModel.cpp:171
 msgid "Price"
 msgstr ""
-
-#: services/amazon/AmazonItemTreeView.cpp:271
-#, fuzzy
-#| msgid "&Add to Playlist"
-msgid "Add to Cart"
-msgstr "&Amestar a la llista de reproducción"
-
-#: services/amazon/AmazonItemTreeView.cpp:280
-#, fuzzy
-#| msgid "&Add to Playlist"
-msgid "Add Preview to Playlist"
-msgstr "&Amestar a la llista de reproducción"
-
-#: services/amazon/AmazonItemTreeView.cpp:290
-msgid "Load Details..."
-msgstr ""
-
-#: services/amazon/AmazonItemTreeView.cpp:299
-#, fuzzy
-#| msgid "&Search"
-msgid "Search for Album..."
-msgstr "Gu&etar"
 
 #: statusbar/CompoundProgressBar.cpp:63 statusbar/CompoundProgressBar.cpp:186
 #: statusbar/ProgressBar.cpp:48
@@ -14613,6 +14613,14 @@ msgstr "Calque pa más analizadores"
 msgid "&Visualizations"
 msgstr "&Visualizaciones"
 
+#: widgets/SearchWidget.cpp:51
+msgid "Enter space-separated terms to search."
+msgstr ""
+
+#: widgets/SearchWidget.cpp:71 widgets/SearchWidget.cpp:174
+msgid "Edit filter"
+msgstr ""
+
 #: widgets/PlayPauseButton.cpp:31 widgets/PlayPauseButton.cpp:81
 #, fuzzy
 #| msgid "Playback"
@@ -14652,14 +14660,6 @@ msgstr "Artista «%1»"
 
 #: widgets/TrackSelectWidget.cpp:95
 msgid "empty"
-msgstr ""
-
-#: widgets/SearchWidget.cpp:51
-msgid "Enter space-separated terms to search."
-msgstr ""
-
-#: widgets/SearchWidget.cpp:71 widgets/SearchWidget.cpp:174
-msgid "Edit filter"
 msgstr ""
 
 #: widgets/SmartPlaylistEditor.cpp:79
