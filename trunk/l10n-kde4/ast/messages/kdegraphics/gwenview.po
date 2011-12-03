@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-21 04:41+0100\n"
+"POT-Creation-Date: 2011-12-03 04:05+0100\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -84,90 +84,85 @@ msgstr "Renomar"
 msgid "Rename <filename>%1</filename> to:"
 msgstr "Renomar <filename>%1</filename> a:"
 
-#: app/fileopscontextmanageritem.cpp:165
-msgid "File Operations"
-msgstr "Operaciones con ficheros"
+#: app/browsemainpage.cpp:111 app/mainwindow.cpp:312 app/viewmainpage.cpp:394
+#: lib/documentview/documentviewcontroller.cpp:91
+msgctxt "@title actions category - means actions changing smth in interface"
+msgid "View"
+msgstr "Ver"
 
-#: app/fileopscontextmanageritem.cpp:176 app/mainwindow.cpp:311
-#: app/thumbnailviewpanel.cpp:150
+#: app/browsemainpage.cpp:113
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Edit Location"
+msgstr "Editar ubicación"
+
+#: app/browsemainpage.cpp:117
+msgctxt "@action:inmenu"
+msgid "Sort By"
+msgstr "Axeitar por"
+
+#: app/browsemainpage.cpp:118
+msgctxt "@addAction:inmenu"
+msgid "Name"
+msgstr "Nome"
+
+#: app/browsemainpage.cpp:120
+msgctxt "@addAction:inmenu"
+msgid "Date"
+msgstr "Data"
+
+#: app/browsemainpage.cpp:122
+msgctxt "@addAction:inmenu"
+msgid "Size"
+msgstr "Tamañu"
+
+#: app/browsemainpage.cpp:130
+msgctxt "@action:inmenu"
+msgid "Thumbnail Details"
+msgstr "Detalles de la miniatura"
+
+#: app/browsemainpage.cpp:141
+msgctxt "@action:inmenu"
+msgid "Filename"
+msgstr "Nome del ficheru"
+
+#: app/browsemainpage.cpp:142
+msgctxt "@action:inmenu"
+msgid "Date"
+msgstr "Data"
+
+#: app/browsemainpage.cpp:143
+msgctxt "@action:inmenu"
+msgid "Image Size"
+msgstr "Tamañu de la imaxe"
+
+#: app/browsemainpage.cpp:144
+msgctxt "@action:inmenu"
+msgid "File Size"
+msgstr "Tamañu del ficheru"
+
+#: app/browsemainpage.cpp:146
+msgctxt "@action:inmenu"
+msgid "Rating"
+msgstr "Valoración"
+
+#: app/browsemainpage.cpp:150 app/mainwindow.cpp:311
+#: app/fileopscontextmanageritem.cpp:176
 msgctxt "@title actions category"
 msgid "File"
 msgstr "Ficheru"
 
-#: app/fileopscontextmanageritem.cpp:177
-#: app/semanticinfocontextmanageritem.cpp:162
-msgctxt "@title actions category"
-msgid "Edit"
-msgstr "Editar"
+#: app/browsemainpage.cpp:152
+msgctxt "@action:inmenu"
+msgid "Add Folder to Places"
+msgstr "Amestar carpeta a «Llugares»"
 
-#: app/fileopscontextmanageritem.cpp:192
-msgctxt "Verb"
-msgid "Copy To..."
-msgstr "Copiar en..."
-
-#: app/fileopscontextmanageritem.cpp:196
-msgctxt "Verb"
-msgid "Move To..."
-msgstr "Mover a..."
-
-#: app/fileopscontextmanageritem.cpp:200
-msgctxt "Verb: create link to the file where user wants"
-msgid "Link To..."
-msgstr "Enllazar a..."
-
-#: app/fileopscontextmanageritem.cpp:204
-msgctxt "Verb"
-msgid "Rename..."
-msgstr "Renomar..."
-
-#: app/fileopscontextmanageritem.cpp:208
-msgctxt "Verb"
-msgid "Trash"
-msgstr "Papelera"
-
-#: app/fileopscontextmanageritem.cpp:213
-msgid "Delete"
-msgstr "Desaniciar"
-
-#: app/fileopscontextmanageritem.cpp:218
-#, fuzzy
-#| msgid "Retry"
-msgid "Restore"
-msgstr "Volve&r a intentar"
-
-#: app/fileopscontextmanageritem.cpp:221
-msgid "Properties"
-msgstr "Propiedaes"
-
-#: app/fileopscontextmanageritem.cpp:225
-msgid "Create Folder..."
-msgstr "Crear carpeta..."
-
-#: app/fileopscontextmanageritem.cpp:229
-msgid "Open With"
-msgstr "Abrir Con"
-
-#: app/fileopscontextmanageritem.cpp:419
-msgid "Other Application..."
-msgstr "Otra aplicación..."
-
-#: app/fullscreencontent.cpp:111
-msgctxt "@info:tooltip"
-msgid "Configure Full Screen Mode"
-msgstr "Configurar el mou de pantalla completa"
-
-#: app/fullscreencontent.cpp:277
-msgctxt "@item:intext fullscreen meta info separator"
-msgid ", "
-msgstr ", "
-
-#: app/fullscreencontent.cpp:337
+#: app/browsemainpage.cpp:167
 #, kde-format
-msgctxt "Slideshow interval in seconds"
-msgid "%1 sec"
-msgid_plural "%1 secs"
-msgstr[0] "%1 seg"
-msgstr[1] "%1 segs"
+msgctxt "@label"
+msgid "%1 document"
+msgid_plural "%1 documents"
+msgstr[0] "%1 documentu"
+msgstr[1] "%1 documentos"
 
 #: app/gvcore.cpp:84
 msgctxt "@info"
@@ -351,54 +346,6 @@ msgid_plural "%1 (%2 images)"
 msgstr[0] "%1 (%2 imaxe)"
 msgstr[1] "%1 (%2 imáxenes)"
 
-#: app/kipiinterface.cpp:233
-msgctxt "@title:menu"
-msgid "Images"
-msgstr "Imáxenes"
-
-#: app/kipiinterface.cpp:234
-msgctxt "@title:menu"
-msgid "Effects"
-msgstr "Efeutos"
-
-#: app/kipiinterface.cpp:235
-msgctxt "@title:menu"
-msgid "Tools"
-msgstr "Ferramientes"
-
-#: app/kipiinterface.cpp:236
-msgctxt "@title:menu"
-msgid "Import"
-msgstr "Importar"
-
-#: app/kipiinterface.cpp:237
-msgctxt "@title:menu"
-msgid "Export"
-msgstr "Esportar"
-
-#: app/kipiinterface.cpp:238
-msgctxt "@title:menu"
-msgid "Batch Processing"
-msgstr "Procesamientu por llotes"
-
-#: app/kipiinterface.cpp:239
-msgctxt "@title:menu"
-msgid "Collections"
-msgstr "Coleiciones"
-
-#: app/kipiinterface.cpp:243
-#, fuzzy
-#| msgctxt "@info:progress saving all image changes"
-#| msgid "Saving..."
-msgid "Loading..."
-msgstr "Atroxando..."
-
-#: app/kipiinterface.cpp:303 app/kipiexportaction.cpp:63
-#, fuzzy
-#| msgid "No Plugin"
-msgid "No Plugin Found"
-msgstr "Ensin complementu"
-
 #: app/kipiuploadwidget.cpp:43
 #, kde-format
 msgid ""
@@ -439,13 +386,6 @@ msgstr "Aniciar en mou de presentación"
 #: app/main.cpp:129
 msgid "A starting file or folder"
 msgstr "Un ficheru o carpeta d'aniciu"
-
-#: app/mainwindow.cpp:312 app/documentpanel.cpp:394
-#: app/thumbnailviewpanel.cpp:111
-#: lib/documentview/documentviewcontroller.cpp:60
-msgctxt "@title actions category - means actions changing smth in interface"
-msgid "View"
-msgstr "Ver"
 
 #: app/mainwindow.cpp:321
 msgctxt "@action reload the currently viewed image"
@@ -584,6 +524,198 @@ msgstr[1] "Modificáronse %1 imáxenes."
 msgid "If you quit now, your changes will be lost."
 msgstr "Si cueles agora, perderánse los tos cambeos."
 
+#: app/kipiinterface.cpp:233
+msgctxt "@title:menu"
+msgid "Images"
+msgstr "Imáxenes"
+
+#: app/kipiinterface.cpp:234
+msgctxt "@title:menu"
+msgid "Effects"
+msgstr "Efeutos"
+
+#: app/kipiinterface.cpp:235
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "Ferramientes"
+
+#: app/kipiinterface.cpp:236
+msgctxt "@title:menu"
+msgid "Import"
+msgstr "Importar"
+
+#: app/kipiinterface.cpp:237
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Esportar"
+
+#: app/kipiinterface.cpp:238
+msgctxt "@title:menu"
+msgid "Batch Processing"
+msgstr "Procesamientu por llotes"
+
+#: app/kipiinterface.cpp:239
+msgctxt "@title:menu"
+msgid "Collections"
+msgstr "Coleiciones"
+
+#: app/kipiinterface.cpp:243
+#, fuzzy
+#| msgctxt "@info:progress saving all image changes"
+#| msgid "Saving..."
+msgid "Loading..."
+msgstr "Atroxando..."
+
+#: app/kipiinterface.cpp:303 app/kipiexportaction.cpp:63
+#, fuzzy
+#| msgid "No Plugin"
+msgid "No Plugin Found"
+msgstr "Ensin complementu"
+
+#: app/configdialog.cpp:70
+msgid "General"
+msgstr "Xeneral"
+
+#: app/configdialog.cpp:92
+msgid "Image View"
+msgstr "Vista d'imaxe"
+
+#: app/configdialog.cpp:97
+msgid "Advanced"
+msgstr "Avanzáu"
+
+#: app/viewmainpage.cpp:285 app/viewmainpage.cpp:406
+msgid "Synchronize"
+msgstr ""
+
+#: app/viewmainpage.cpp:397
+msgid "Thumbnail Bar"
+msgstr "Barra de miniatures"
+
+#: app/viewmainpage.cpp:659
+msgctxt "@action:button"
+msgid "Discard Changes and Reload"
+msgstr "Descartar cambeos y volver a cargar"
+
+#: app/viewmainpage.cpp:661
+msgctxt "@info"
+msgid ""
+"This image has been modified. Reloading it will discard all your changes."
+msgstr "Esta imaxe modificóse. Si vuelves a cargala perderánse los cambeos."
+
+#: app/fileopscontextmanageritem.cpp:165
+msgid "File Operations"
+msgstr "Operaciones con ficheros"
+
+#: app/fileopscontextmanageritem.cpp:177
+#: app/semanticinfocontextmanageritem.cpp:162
+msgctxt "@title actions category"
+msgid "Edit"
+msgstr "Editar"
+
+#: app/fileopscontextmanageritem.cpp:192
+msgctxt "Verb"
+msgid "Copy To..."
+msgstr "Copiar en..."
+
+#: app/fileopscontextmanageritem.cpp:196
+msgctxt "Verb"
+msgid "Move To..."
+msgstr "Mover a..."
+
+#: app/fileopscontextmanageritem.cpp:200
+msgctxt "Verb: create link to the file where user wants"
+msgid "Link To..."
+msgstr "Enllazar a..."
+
+#: app/fileopscontextmanageritem.cpp:204
+msgctxt "Verb"
+msgid "Rename..."
+msgstr "Renomar..."
+
+#: app/fileopscontextmanageritem.cpp:208
+msgctxt "Verb"
+msgid "Trash"
+msgstr "Papelera"
+
+#: app/fileopscontextmanageritem.cpp:213
+msgid "Delete"
+msgstr "Desaniciar"
+
+#: app/fileopscontextmanageritem.cpp:218
+#, fuzzy
+#| msgid "Retry"
+msgid "Restore"
+msgstr "Volve&r a intentar"
+
+#: app/fileopscontextmanageritem.cpp:221
+msgid "Properties"
+msgstr "Propiedaes"
+
+#: app/fileopscontextmanageritem.cpp:225
+msgid "Create Folder..."
+msgstr "Crear carpeta..."
+
+#: app/fileopscontextmanageritem.cpp:229
+msgid "Open With"
+msgstr "Abrir Con"
+
+#: app/fileopscontextmanageritem.cpp:419
+msgid "Other Application..."
+msgstr "Otra aplicación..."
+
+#: app/kipiexportaction.cpp:51
+msgid "Last Used Plugin"
+msgstr ""
+
+#: app/kipiexportaction.cpp:53
+#, fuzzy
+#| msgid "&Plugins"
+msgid "Other Plugins"
+msgstr "Co&mplementos"
+
+#: app/kipiexportaction.cpp:76
+#, fuzzy
+#| msgid "Square"
+msgid "Share"
+msgstr "Cuadráu"
+
+#: app/semanticinfocontextmanageritem.cpp:140
+msgid "Semantic Information"
+msgstr "Información semántica"
+
+#: app/semanticinfocontextmanageritem.cpp:165
+msgctxt "@action"
+msgid "Edit Tags"
+msgstr "Editar etiquetes"
+
+#: app/semanticinfocontextmanageritem.cpp:175
+msgctxt "@action Rating value of zero"
+msgid "Zero"
+msgstr "Cero"
+
+#: app/semanticinfocontextmanageritem.cpp:211
+msgid "Edit"
+msgstr "Editar"
+
+#: app/fullscreencontent.cpp:111
+msgctxt "@info:tooltip"
+msgid "Configure Full Screen Mode"
+msgstr "Configurar el mou de pantalla completa"
+
+#: app/fullscreencontent.cpp:277
+msgctxt "@item:intext fullscreen meta info separator"
+msgid ", "
+msgstr ", "
+
+#: app/fullscreencontent.cpp:337
+#, kde-format
+msgctxt "Slideshow interval in seconds"
+msgid "%1 sec"
+msgid_plural "%1 secs"
+msgstr[0] "%1 seg"
+msgstr[1] "%1 segs"
+
 #: app/savebar.cpp:86
 msgid ""
 "You have modified many images. To avoid memory problems, you should save "
@@ -622,155 +754,6 @@ msgstr "Dir a ella"
 #: app/savebar.cpp:301 app/savebar.cpp:306
 msgid "Save All"
 msgstr "Grabar too"
-
-#: app/startpage.cpp:297
-msgid "Add to Places"
-msgstr "Amestar a Llugares"
-
-#: app/startpage.cpp:298
-msgid "Forget this URL"
-msgstr "Escaecer esti URL"
-
-#: app/startpage.cpp:298
-msgid "Forget this Folder"
-msgstr "Escaecer esta carpeta"
-
-#: app/startpage.cpp:300
-msgid "Forget All"
-msgstr "Escaecer too"
-
-#: app/configdialog.cpp:70
-msgid "General"
-msgstr "Xeneral"
-
-#: app/configdialog.cpp:92
-msgid "Image View"
-msgstr "Vista d'imaxe"
-
-#: app/configdialog.cpp:97
-msgid "Advanced"
-msgstr "Avanzáu"
-
-#: app/documentpanel.cpp:285 app/documentpanel.cpp:406
-msgid "Synchronize"
-msgstr ""
-
-#: app/documentpanel.cpp:397
-msgid "Thumbnail Bar"
-msgstr "Barra de miniatures"
-
-#: app/documentpanel.cpp:659
-msgctxt "@action:button"
-msgid "Discard Changes and Reload"
-msgstr "Descartar cambeos y volver a cargar"
-
-#: app/documentpanel.cpp:661
-msgctxt "@info"
-msgid ""
-"This image has been modified. Reloading it will discard all your changes."
-msgstr "Esta imaxe modificóse. Si vuelves a cargala perderánse los cambeos."
-
-#: app/kipiexportaction.cpp:51
-msgid "Last Used Plugin"
-msgstr ""
-
-#: app/kipiexportaction.cpp:53
-#, fuzzy
-#| msgid "&Plugins"
-msgid "Other Plugins"
-msgstr "Co&mplementos"
-
-#: app/kipiexportaction.cpp:76
-#, fuzzy
-#| msgid "Square"
-msgid "Share"
-msgstr "Cuadráu"
-
-#: app/semanticinfocontextmanageritem.cpp:140
-msgid "Semantic Information"
-msgstr "Información semántica"
-
-#: app/semanticinfocontextmanageritem.cpp:165
-msgctxt "@action"
-msgid "Edit Tags"
-msgstr "Editar etiquetes"
-
-#: app/semanticinfocontextmanageritem.cpp:175
-msgctxt "@action Rating value of zero"
-msgid "Zero"
-msgstr "Cero"
-
-#: app/semanticinfocontextmanageritem.cpp:211
-msgid "Edit"
-msgstr "Editar"
-
-#: app/thumbnailviewpanel.cpp:113
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Edit Location"
-msgstr "Editar ubicación"
-
-#: app/thumbnailviewpanel.cpp:117
-msgctxt "@action:inmenu"
-msgid "Sort By"
-msgstr "Axeitar por"
-
-#: app/thumbnailviewpanel.cpp:118
-msgctxt "@addAction:inmenu"
-msgid "Name"
-msgstr "Nome"
-
-#: app/thumbnailviewpanel.cpp:120
-msgctxt "@addAction:inmenu"
-msgid "Date"
-msgstr "Data"
-
-#: app/thumbnailviewpanel.cpp:122
-msgctxt "@addAction:inmenu"
-msgid "Size"
-msgstr "Tamañu"
-
-#: app/thumbnailviewpanel.cpp:130
-msgctxt "@action:inmenu"
-msgid "Thumbnail Details"
-msgstr "Detalles de la miniatura"
-
-#: app/thumbnailviewpanel.cpp:141
-msgctxt "@action:inmenu"
-msgid "Filename"
-msgstr "Nome del ficheru"
-
-#: app/thumbnailviewpanel.cpp:142
-msgctxt "@action:inmenu"
-msgid "Date"
-msgstr "Data"
-
-#: app/thumbnailviewpanel.cpp:143
-msgctxt "@action:inmenu"
-msgid "Image Size"
-msgstr "Tamañu de la imaxe"
-
-#: app/thumbnailviewpanel.cpp:144
-msgctxt "@action:inmenu"
-msgid "File Size"
-msgstr "Tamañu del ficheru"
-
-#: app/thumbnailviewpanel.cpp:146
-msgctxt "@action:inmenu"
-msgid "Rating"
-msgstr "Valoración"
-
-#: app/thumbnailviewpanel.cpp:152
-msgctxt "@action:inmenu"
-msgid "Add Folder to Places"
-msgstr "Amestar carpeta a «Llugares»"
-
-#: app/thumbnailviewpanel.cpp:167
-#, kde-format
-msgctxt "@label"
-msgid "%1 document"
-msgid_plural "%1 documents"
-msgstr[0] "%1 documentu"
-msgstr[1] "%1 documentos"
 
 #: app/filtercontroller.cpp:128
 msgid "Name contains"
@@ -831,6 +814,22 @@ msgstr "Filtrar por puntuación"
 msgctxt "@action:inmenu"
 msgid "Filter by Tag"
 msgstr "Filtrar por etiqueta"
+
+#: app/startmainpage.cpp:297
+msgid "Add to Places"
+msgstr "Amestar a Llugares"
+
+#: app/startmainpage.cpp:298
+msgid "Forget this URL"
+msgstr "Escaecer esti URL"
+
+#: app/startmainpage.cpp:298
+msgid "Forget this Folder"
+msgstr "Escaecer esta carpeta"
+
+#: app/startmainpage.cpp:300
+msgid "Forget All"
+msgstr "Escaecer too"
 
 #: importer/main.cpp:40
 msgid "Gwenview Importer"
@@ -1073,38 +1072,16 @@ msgstr ""
 "Nun puede sobroscribise'l ficheru. Compruebe que tien los permisos "
 "necesarios sobro <filename>%1</filename>."
 
-#: lib/documentview/documentview.cpp:177
-#, fuzzy
-#| msgctxt "Verb"
-#| msgid "Trash"
-msgid "Trash"
-msgstr "Papelera"
-
-#: lib/documentview/documentview.cpp:178
-#, fuzzy
-#| msgid "Delete"
-msgid "Deselect"
-msgstr "Desaniciar"
-
-#: lib/documentview/documentview.cpp:371
-msgid "Gwenview does not know how to display this kind of document"
-msgstr "Gwenview nun sabe cómo amosar esta triba de documentu"
-
-#: lib/documentview/documentview.cpp:467
-#, kde-format
-msgid "Loading <filename>%1</filename> failed"
-msgstr "Falló la carga de <filename>%1</filename>"
-
-#: lib/documentview/documentviewcontroller.cpp:65
+#: lib/documentview/documentviewcontroller.cpp:96
 msgid "Zoom to Fit"
 msgstr "Zoom fasta axustar"
 
-#: lib/documentview/documentviewcontroller.cpp:67
+#: lib/documentview/documentviewcontroller.cpp:98
 msgctxt "@action:button Zoom to fit, shown in status bar, keep it short please"
 msgid "Fit"
 msgstr "Axustar"
 
-#: lib/documentview/documentviewcontroller.cpp:71
+#: lib/documentview/documentviewcontroller.cpp:102
 msgctxt ""
 "@action:button Zoom to original size, shown in status bar, keep it short "
 "please"
@@ -1114,6 +1091,28 @@ msgstr "100%"
 #: lib/documentview/messageviewadapter.cpp:49
 msgid "No document selected"
 msgstr "Nun hai dengún documentu esbilláu"
+
+#: lib/documentview/documentview.cpp:155
+#, fuzzy
+#| msgctxt "Verb"
+#| msgid "Trash"
+msgid "Trash"
+msgstr "Papelera"
+
+#: lib/documentview/documentview.cpp:156
+#, fuzzy
+#| msgid "Delete"
+msgid "Deselect"
+msgstr "Desaniciar"
+
+#: lib/documentview/documentview.cpp:352
+msgid "Gwenview does not know how to display this kind of document"
+msgstr "Gwenview nun sabe cómo amosar esta triba de documentu"
+
+#: lib/documentview/documentview.cpp:442
+#, kde-format
+msgid "Loading <filename>%1</filename> failed"
+msgstr "Falló la carga de <filename>%1</filename>"
 
 #: lib/historymodel.cpp:138
 #, kde-format
@@ -1137,10 +1136,6 @@ msgstr "Imprentar imaxe"
 #: lib/redeyereduction/redeyereductionimageoperation.cpp:76
 msgid "RedEyeReduction"
 msgstr "Amenorgamientu de güeyos bermeyos"
-
-#: lib/redeyereduction/redeyereductiontool.cpp:65
-msgid "Click on the red eye you want to fix."
-msgstr "Calque sobro'l güeyu bermeyu que quier iguar."
 
 #: lib/resize/resizeimageoperation.cpp:70
 #, fuzzy
@@ -1455,57 +1450,39 @@ msgstr "Vertical"
 msgid "Row count:"
 msgstr "Cuntador de fileres:"
 
-#. i18n: file: app/semanticinfodialog.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, SemanticInfoDialog)
-#: rc.cpp:90
-msgid "Tag Editor"
-msgstr "Editor d'etiquetes"
-
-#. i18n: file: app/semanticinfodialog.ui:31
-#. i18n: ectx: property (text), widget (QPushButton, mPreviousButton)
-#: rc.cpp:93
-msgid "Previous"
-msgstr "Atrás"
-
-#. i18n: file: app/semanticinfodialog.ui:38
-#. i18n: ectx: property (text), widget (QPushButton, mNextButton)
-#: rc.cpp:96
-msgid "Next"
-msgstr "Alantre"
-
-#. i18n: file: app/startpage.ui:34
+#. i18n: file: app/startmainpage.ui:34
 #. i18n: ectx: property (text), widget (QLabel, mHistoryDisabledLabel)
-#: rc.cpp:99
+#: rc.cpp:90
 msgid "History has been disabled."
 msgstr "L'hestorial deshabilitóse."
 
-#. i18n: file: app/startpage.ui:51
+#. i18n: file: app/startmainpage.ui:51
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:102
+#: rc.cpp:93
 msgid "Recent Folders"
 msgstr "Carpetes recientes"
 
-#. i18n: file: app/startpage.ui:65
+#. i18n: file: app/startmainpage.ui:65
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:105
+#: rc.cpp:96
 msgid "Recent URLs"
 msgstr "URL recientes"
 
-#. i18n: file: app/startpage.ui:109
+#. i18n: file: app/startmainpage.ui:109
 #. i18n: ectx: attribute (title), widget (QWidget, placesTab)
-#: rc.cpp:108
+#: rc.cpp:99
 msgid "Places"
 msgstr "Llugares"
 
-#. i18n: file: app/startpage.ui:132
+#. i18n: file: app/startmainpage.ui:132
 #. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
-#: rc.cpp:111
+#: rc.cpp:102
 msgid "Tags"
 msgstr "Etiquetes"
 
-#. i18n: file: app/startpage.ui:138
+#. i18n: file: app/startmainpage.ui:138
 #. i18n: ectx: property (text), widget (QLabel, mTagLabel)
-#: rc.cpp:114
+#: rc.cpp:105
 msgid ""
 "Browsing by tags is not available. Make sure Nepomuk is properly installed "
 "on your computer."
@@ -1513,7 +1490,25 @@ msgstr ""
 "La navegación por etiquetes nun ta disponible. Asegúrese de que Nepomuk ta "
 "bien instaláu nel so equipu."
 
-#. i18n: file: app/thumbnailviewpanel.ui:67
+#. i18n: file: app/semanticinfodialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, SemanticInfoDialog)
+#: rc.cpp:108
+msgid "Tag Editor"
+msgstr "Editor d'etiquetes"
+
+#. i18n: file: app/semanticinfodialog.ui:31
+#. i18n: ectx: property (text), widget (QPushButton, mPreviousButton)
+#: rc.cpp:111
+msgid "Previous"
+msgstr "Atrás"
+
+#. i18n: file: app/semanticinfodialog.ui:38
+#. i18n: ectx: property (text), widget (QPushButton, mNextButton)
+#: rc.cpp:114
+msgid "Next"
+msgstr "Alantre"
+
+#. i18n: file: app/browsemainpage.ui:67
 #. i18n: ectx: property (text), widget (Gwenview::StatusBarToolButton, mAddFilterButton)
 #: rc.cpp:117
 msgid "Add Filter"
@@ -1722,17 +1717,19 @@ msgstr "Pulgaes"
 msgid "Keep ratio"
 msgstr "Caltener proporción"
 
-#. i18n: file: lib/redeyereduction/redeyereductionhud.ui:16
+#. i18n: file: lib/redeyereduction/redeyereductionwidget.ui:24
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:225
 msgid "Size"
 msgstr "Tamañu"
 
-#. i18n: file: lib/redeyereduction/redeyereductionhud.ui:43
-#. i18n: ectx: property (text), widget (QToolButton, applyButton)
+#. i18n: file: lib/redeyereduction/redeyereductionwidget.ui:63
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:228
-msgid "Apply"
-msgstr "Aplicar"
+#, fuzzy
+#| msgid "Click on the red eye you want to fix."
+msgid "Click on the red eye you want to fix"
+msgstr "Calque sobro'l güeyu bermeyu que quier iguar."
 
 #. i18n: file: lib/resize/resizeimagewidget.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, ResizeImageWidget)
@@ -1829,6 +1826,9 @@ msgstr "&Ficheru"
 #: rc.cpp:277
 msgid "&View"
 msgstr "&Ver"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
 
 #, fuzzy
 #~| msgid "Create Folder"
