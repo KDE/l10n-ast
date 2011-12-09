@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4-1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-07 10:55+0100\n"
+"POT-Creation-Date: 2011-12-09 11:08+0100\n"
 "PO-Revision-Date: 2010-05-19 18:48+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -829,7 +829,7 @@ msgstr "&Preferencies"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:177
 #. i18n: ectx: Menu (help)
-#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:148
+#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:188
 msgid "&Help"
 msgstr "&Aida"
 
@@ -2447,7 +2447,7 @@ msgstr "(Dengún logo disponible)"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:1044
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:92
-#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:264
+#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:290
 #, kde-format
 msgid "About %1"
 msgstr "Tocante a %1"
@@ -9528,32 +9528,6 @@ msgstr "Mover &arriba"
 msgid "Move &Down"
 msgstr "Mover a&baxo"
 
-#: kdeui/widgets/khelpmenu.cpp:153 kdeui/actions/kstandardaction_p.h:111
-#, kde-format
-msgid "%1 &Handbook"
-msgstr "&Manual de %1"
-
-#: kdeui/widgets/khelpmenu.cpp:162
-msgid "What's &This"
-msgstr "Qué ye &esto"
-
-#: kdeui/widgets/khelpmenu.cpp:173 kdeui/actions/kstandardaction_p.h:114
-msgid "&Report Bug..."
-msgstr "&Informar d'un fallu..."
-
-#: kdeui/widgets/khelpmenu.cpp:183 kdeui/actions/kstandardaction_p.h:115
-msgid "Switch Application &Language..."
-msgstr "Camudar Aplicación de Lli&ngua..."
-
-#: kdeui/widgets/khelpmenu.cpp:194 kdeui/actions/kstandardaction_p.h:116
-#, kde-format
-msgid "&About %1"
-msgstr "&Tocante a %1"
-
-#: kdeui/widgets/khelpmenu.cpp:199 kdeui/actions/kstandardaction_p.h:117
-msgid "About &KDE"
-msgstr "Tocante a &KDE"
-
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
 msgstr "Desaniciar &Historial"
@@ -13905,6 +13879,11 @@ msgstr "Configurar Barr&es de Ferramientes..."
 msgid "Configure &Notifications..."
 msgstr "Configurar &Notificaciones..."
 
+#: kdeui/actions/kstandardaction_p.h:111
+#, kde-format
+msgid "%1 &Handbook"
+msgstr "&Manual de %1"
+
 #: kdeui/actions/kstandardaction_p.h:112
 msgid "What's &This?"
 msgstr "¿Qué ye &esto?"
@@ -13912,6 +13891,23 @@ msgstr "¿Qué ye &esto?"
 #: kdeui/actions/kstandardaction_p.h:113
 msgid "Tip of the &Day"
 msgstr "Trucu del &Día"
+
+#: kdeui/actions/kstandardaction_p.h:114
+msgid "&Report Bug..."
+msgstr "&Informar d'un fallu..."
+
+#: kdeui/actions/kstandardaction_p.h:115
+msgid "Switch Application &Language..."
+msgstr "Camudar Aplicación de Lli&ngua..."
+
+#: kdeui/actions/kstandardaction_p.h:116
+#, kde-format
+msgid "&About %1"
+msgstr "&Tocante a %1"
+
+#: kdeui/actions/kstandardaction_p.h:117
+msgid "About &KDE"
+msgstr "Tocante a &KDE"
 
 #: kross/qts/values_p.h:69
 #, kde-format
@@ -13926,6 +13922,9 @@ msgstr "AM"
 #: kdecore/date/kdatetime.cpp:2991
 msgid "pm"
 msgstr "PM"
+
+#~ msgid "What's &This"
+#~ msgstr "Qué ye &esto"
 
 #, fuzzy
 #~| msgid "&OK"
