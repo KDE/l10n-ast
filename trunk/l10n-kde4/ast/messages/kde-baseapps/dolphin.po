@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-15 03:25+0100\n"
+"POT-Creation-Date: 2011-12-17 03:46+0100\n"
 "PO-Revision-Date: 2010-10-19 22:30+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -24,30 +24,6 @@ msgstr "Anubrir la barra de filtru"
 msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "Filtru:"
-
-#: kitemviews/kfileitemlistview.cpp:558
-msgctxt "@item:intable"
-msgid "items"
-msgstr ""
-
-#: kitemviews/kfileitemlistwidget.cpp:231
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown size"
-msgctxt "@item:intable"
-msgid "Unknown"
-msgstr "Tamañu desconocíu"
-
-#: kitemviews/kfileitemlistwidget.cpp:234
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "%1 item selected"
-#| msgid_plural "%1 items selected"
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "%1 elementu seleicionáu"
-msgstr[1] "%1 elementos seleicionaos"
 
 #: kitemviews/kfileitemmodel.cpp:251
 #, fuzzy
@@ -296,6 +272,30 @@ msgstr "Prohibíu"
 msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(Usuariu: %1) (Grupu: %2) (Otros: %3)"
+
+#: kitemviews/kfileitemlistview.cpp:558
+msgctxt "@item:intable"
+msgid "items"
+msgstr ""
+
+#: kitemviews/kfileitemlistwidget.cpp:231
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Unknown size"
+msgctxt "@item:intable"
+msgid "Unknown"
+msgstr "Tamañu desconocíu"
+
+#: kitemviews/kfileitemlistwidget.cpp:234
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "%1 item selected"
+#| msgid_plural "%1 items selected"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 elementu seleicionáu"
+msgstr[1] "%1 elementos seleicionaos"
 
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
@@ -1161,48 +1161,6 @@ msgstr "Recargar"
 msgid "Default"
 msgstr "Predetermináu"
 
-#: views/renamedialog.cpp:57
-msgctxt "@title:window"
-msgid "Rename Item"
-msgstr "Renomar elementu"
-
-#: views/renamedialog.cpp:58
-msgctxt "@title:window"
-msgid "Rename Items"
-msgstr "Renomar elementos"
-
-#: views/renamedialog.cpp:62
-msgctxt "@action:button"
-msgid "&Rename"
-msgstr "&Renomar"
-
-#: views/renamedialog.cpp:72
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the item <filename>%1</filename> to:"
-msgstr "Renomar l'oxetu <filename>%1</filename> a:"
-
-#: views/renamedialog.cpp:75
-msgctxt "@info:status"
-msgid "New name #"
-msgstr "Nuevu nome #"
-
-#: views/renamedialog.cpp:77
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the %1 selected item to:"
-msgid_plural "Rename the %1 selected items to:"
-msgstr[0] "Camudar el nome del %1 elementu seleicionáu a:"
-msgstr[1] "Camudar el nome de los %1 elementos seleicionaos a:"
-
-#: views/renamedialog.cpp:106
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "(# will be replaced by ascending numbers)"
-msgctxt "@info"
-msgid "# will be replaced by ascending numbers starting with:"
-msgstr "(# trocaráse por númberos ascendentes)"
-
 #: views/versioncontrol/versioncontrolobserver.cpp:204
 msgctxt "@info:status"
 msgid "Update of version information failed."
@@ -1349,13 +1307,13 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "Una carpeta nun puede arrastrase en sí mesma"
 
-#: views/dolphinview.cpp:506
+#: views/dolphinview.cpp:507
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "seleicionáu <filename>%1</filename>"
 
-#: views/dolphinview.cpp:509
+#: views/dolphinview.cpp:510
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -1363,7 +1321,7 @@ msgid_plural "%1 Folders selected"
 msgstr[0] "1 carpeta seleicionada"
 msgstr[1] "%1 carpetes seleicionaes"
 
-#: views/dolphinview.cpp:510
+#: views/dolphinview.cpp:511
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -1371,7 +1329,7 @@ msgid_plural "%1 Files selected"
 msgstr[0] "1 ficheru seleicionáu"
 msgstr[1] "%1 ficheros seleicionaos"
 
-#: views/dolphinview.cpp:514
+#: views/dolphinview.cpp:515
 #, fuzzy, kde-format
 #| msgctxt "@title:group Size"
 #| msgid "Folders"
@@ -1381,7 +1339,7 @@ msgid_plural "%1 Folders"
 msgstr[0] "Carpetes"
 msgstr[1] "Carpetes"
 
-#: views/dolphinview.cpp:515
+#: views/dolphinview.cpp:516
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File"
@@ -1389,33 +1347,75 @@ msgid_plural "%1 Files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/dolphinview.cpp:519
+#: views/dolphinview.cpp:520
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: views/dolphinview.cpp:522
+#: views/dolphinview.cpp:523
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1063
+#: views/dolphinview.cpp:1064
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Operación d'esborráu finada."
 
-#: views/dolphinview.cpp:1138
+#: views/dolphinview.cpp:1139
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "La ubicación ta erma."
 
-#: views/dolphinview.cpp:1140
+#: views/dolphinview.cpp:1141
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "La ubicación '%1' ye inválida."
+
+#: views/renamedialog.cpp:57
+msgctxt "@title:window"
+msgid "Rename Item"
+msgstr "Renomar elementu"
+
+#: views/renamedialog.cpp:58
+msgctxt "@title:window"
+msgid "Rename Items"
+msgstr "Renomar elementos"
+
+#: views/renamedialog.cpp:62
+msgctxt "@action:button"
+msgid "&Rename"
+msgstr "&Renomar"
+
+#: views/renamedialog.cpp:72
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the item <filename>%1</filename> to:"
+msgstr "Renomar l'oxetu <filename>%1</filename> a:"
+
+#: views/renamedialog.cpp:75
+msgctxt "@info:status"
+msgid "New name #"
+msgstr "Nuevu nome #"
+
+#: views/renamedialog.cpp:77
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the %1 selected item to:"
+msgid_plural "Rename the %1 selected items to:"
+msgstr[0] "Camudar el nome del %1 elementu seleicionáu a:"
+msgstr[1] "Camudar el nome de los %1 elementos seleicionaos a:"
+
+#: views/renamedialog.cpp:106
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "(# will be replaced by ascending numbers)"
+msgctxt "@info"
+msgid "# will be replaced by ascending numbers starting with:"
+msgstr "(# trocaráse por númberos ascendentes)"
 
 #: main.cpp:35
 msgctxt "@title"
