@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-23 15:08+0000\n"
+"POT-Creation-Date: 2011-12-19 16:22+0000\n"
 "PO-Revision-Date: 2010-10-30 21:35+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -382,10 +382,10 @@ msgid "Enables the use of bookmarklets"
 msgstr ""
 
 #: konq-plugins/quickprint/text-ada-print.desktop:7
-#: konq-plugins/quickprint/text-c++h-print.desktop:7
-#: konq-plugins/quickprint/text-ch-print.desktop:7
-#: konq-plugins/quickprint/text-c-print.desktop:7
 #: konq-plugins/quickprint/text-c++-print.desktop:7
+#: konq-plugins/quickprint/text-c++h-print.desktop:7
+#: konq-plugins/quickprint/text-c-print.desktop:7
+#: konq-plugins/quickprint/text-ch-print.desktop:7
 #: konq-plugins/quickprint/text-css-print.desktop:7
 #: konq-plugins/quickprint/text-diff-print.desktop:7
 #: konq-plugins/quickprint/text-html-print.desktop:7
@@ -484,11 +484,6 @@ msgctxt "Name"
 msgid "Web Archives"
 msgstr "Ficheros FTP"
 
-#: konqueror/about/konq_aboutpage.desktop:3
-msgctxt "Name"
-msgid "About-Page for Konqueror"
-msgstr "Páxina «Tocante a» pa Konqueror"
-
 #: konqueror/Home.desktop:7
 msgctxt "Name"
 msgid "Home"
@@ -498,6 +493,11 @@ msgstr "Carpeta personal"
 msgctxt "GenericName"
 msgid "Personal Files"
 msgstr "Ficheros personales"
+
+#: konqueror/about/konq_aboutpage.desktop:3
+msgctxt "Name"
+msgid "About-Page for Konqueror"
+msgstr "Páxina «Tocante a» pa Konqueror"
 
 #: konqueror/kfmclient.desktop:10 konqueror/kfmclient_dir.desktop:10
 #: konqueror/kfmclient_html.desktop:9 konqueror/kfmclient_war.desktop:9
@@ -803,8 +803,8 @@ msgid "Configure the way Konqueror reports itself"
 msgstr "Configuración del mou d'autoidentificación de Konqueror"
 
 #: konqueror/settings/konq/fileappearance.desktop:11
-#: konqueror/settings/konqhtml/khtml_appearance.desktop:13
 #: konqueror/settings/konq/webappearance.desktop:12
+#: konqueror/settings/konqhtml/khtml_appearance.desktop:13
 msgctxt "Name"
 msgid "Appearance"
 msgstr "Aspeutu"
@@ -1003,15 +1003,15 @@ msgctxt "Name"
 msgid "KDE Official FTP"
 msgstr "FTP oficial de KDE"
 
-#: konqueror/sidebar/trees/init/remote/web/apps_web.desktop:4
-msgctxt "Name"
-msgid "KDE Applications"
-msgstr "Aplicaciones de KDE"
-
 #: konqueror/sidebar/trees/init/remote/web/.directory:2
 msgctxt "Name"
 msgid "Web Sites"
 msgstr "Sitios web"
+
+#: konqueror/sidebar/trees/init/remote/web/apps_web.desktop:4
+msgctxt "Name"
+msgid "KDE Applications"
+msgstr "Aplicaciones de KDE"
 
 #: konqueror/sidebar/trees/init/remote/web/dot_web.desktop:4
 msgctxt "Name"
@@ -1048,31 +1048,6 @@ msgctxt "Name"
 msgid "Web SideBar Module"
 msgstr "Módulu de la barra llateral de web"
 
-#: lib/konq/directory_bookmarkbar.desktop:3
-msgctxt "Name"
-msgid "Bookmark Toolbar"
-msgstr "Barra de ferramientes de marcadores"
-
-#: lib/konq/favicons/favicons.desktop:3
-msgctxt "Name"
-msgid "Favicons"
-msgstr "Favicons"
-
-#: lib/konq/favicons/favicons.desktop:80
-msgctxt "Comment"
-msgid "Stores website icons"
-msgstr "Almacena iconos de sitios web"
-
-#: lib/konq/konqdndpopupmenuplugin.desktop:4
-msgctxt "Comment"
-msgid "Drag-and-drop plugin for the Konqueror Popup Menu."
-msgstr "Complementu de calcar y arrastrar pal menú emerxente de Konqueror."
-
-#: lib/konq/konqpopupmenuplugin.desktop:4
-msgctxt "Comment"
-msgid "Plugin for the Konqueror Popup Menu"
-msgstr "Complementu pal menú emerxente de Konqueror"
-
 #: lib/konq/Templates/CDROM-Device.desktop:10
 #: lib/konq/Templates/CDWRITER-Device.desktop:10
 #: lib/konq/Templates/DVDROM-Device.desktop:10
@@ -1105,6 +1080,16 @@ msgstr "Ficheru HTML..."
 msgctxt "Comment"
 msgid "Enter HTML filename:"
 msgstr "Introduz el nome del ficheru HTML:"
+
+#: lib/konq/Templates/TextFile.desktop:2
+msgctxt "Name"
+msgid "Text File..."
+msgstr "Ficheru de testu..."
+
+#: lib/konq/Templates/TextFile.desktop:92
+msgctxt "Comment"
+msgid "Enter text filename:"
+msgstr "Introduz el nome del ficheru de testu:"
 
 #: lib/konq/Templates/linkCAMERA.desktop:2
 msgctxt "Name"
@@ -1226,15 +1211,30 @@ msgctxt "Comment"
 msgid "New ZIP Device"
 msgstr "Nueva unidá ZIP"
 
-#: lib/konq/Templates/TextFile.desktop:2
+#: lib/konq/directory_bookmarkbar.desktop:3
 msgctxt "Name"
-msgid "Text File..."
-msgstr "Ficheru de testu..."
+msgid "Bookmark Toolbar"
+msgstr "Barra de ferramientes de marcadores"
 
-#: lib/konq/Templates/TextFile.desktop:92
+#: lib/konq/favicons/favicons.desktop:3
+msgctxt "Name"
+msgid "Favicons"
+msgstr "Favicons"
+
+#: lib/konq/favicons/favicons.desktop:80
 msgctxt "Comment"
-msgid "Enter text filename:"
-msgstr "Introduz el nome del ficheru de testu:"
+msgid "Stores website icons"
+msgstr "Almacena iconos de sitios web"
+
+#: lib/konq/konqdndpopupmenuplugin.desktop:4
+msgctxt "Comment"
+msgid "Drag-and-drop plugin for the Konqueror Popup Menu."
+msgstr "Complementu de calcar y arrastrar pal menú emerxente de Konqueror."
+
+#: lib/konq/konqpopupmenuplugin.desktop:4
+msgctxt "Comment"
+msgid "Plugin for the Konqueror Popup Menu"
+msgstr "Complementu pal menú emerxente de Konqueror"
 
 #: nsplugins/khtml_plugins.desktop:14
 msgctxt "Name"
