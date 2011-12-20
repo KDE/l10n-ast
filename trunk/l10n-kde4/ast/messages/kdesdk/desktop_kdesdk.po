@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdesdk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-19 09:44+0000\n"
+"POT-Creation-Date: 2011-12-20 08:29+0000\n"
 "PO-Revision-Date: 2010-10-22 17:58+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -68,6 +68,16 @@ msgctxt "Name"
 msgid "Subversion"
 msgstr "Subversion"
 
+#: kapptemplate/kapptemplate.desktop:7
+msgctxt "GenericName"
+msgid "KDE Template Generator"
+msgstr "Xenerador de plantíes pa KDE"
+
+#: kapptemplate/kapptemplate.desktop:54
+msgctxt "Name"
+msgid "KAppTemplate"
+msgstr "KAppTemplate"
+
 #: kapptemplate/./templates/C++/akonadiresource/akonadiresource.kdevtemplate:3
 #: kapptemplate/./templates/C++/akonadiserializer/akonadiserializer.kdevtemplate:3
 #: kapptemplate/./templates/C++/flake/flake.kdevtemplate:3
@@ -89,6 +99,16 @@ msgctxt "Comment"
 msgid "Akonadi Resource Template. A template for an Akonadi PIM data resource"
 msgstr "Una plantía pa un recursu de datos PIM d'Akonadi"
 
+#: kapptemplate/templates/C++/akonadiserializer/akonadi_serializer_%{APPNAMELC}.desktop:2
+msgctxt "Name"
+msgid "%{APPNAME} Serializer"
+msgstr "Serializador pa %{APPNAME}"
+
+#: kapptemplate/templates/C++/akonadiserializer/akonadi_serializer_%{APPNAMELC}.desktop:44
+msgctxt "Comment"
+msgid "An Akonadi serializer plugin for %{APPNAMELC}"
+msgstr "Un complementu serializador d'Akonadi pa %{APPNAMELC}"
+
 #: kapptemplate/./templates/C++/akonadiserializer/akonadiserializer.kdevtemplate:23
 #, fuzzy
 #| msgctxt "Comment"
@@ -98,12 +118,43 @@ msgid ""
 "Akonadi Serializer Template. A template for an Akonadi data serializer plugin"
 msgstr "Una plantía para un complementu serializador de datos d'Akonadi"
 
+#: kapptemplate/templates/C++/flake/%{APPNAMELC}shape.desktop:4
+#: kapptemplate/templates/C++/flake/%{APPNAME}shape.desktop:4
+msgctxt "Name"
+msgid "%{APPNAME} Shape"
+msgstr ""
+
+#: kapptemplate/templates/C++/flake/%{APPNAMELC}shape.desktop:42
+#: kapptemplate/templates/C++/flake/%{APPNAME}shape.desktop:42
+msgctxt "Comment"
+msgid "%{APPNAME} Flake Shape"
+msgstr ""
+
 #: kapptemplate/./templates/C++/flake/flake.kdevtemplate:23
 msgctxt "Comment"
 msgid ""
 "KOffice Shape Template (Flake). A KOffice plugin template with a shape, a "
 "tool and a docker (please use ThisFormat for the project name)"
 msgstr ""
+
+#: kapptemplate/./templates/C++/kapp4/kapp4.kdevtemplate:3
+msgctxt "Name"
+msgid "C++ KDE"
+msgstr ""
+
+#: kapptemplate/./templates/C++/kapp4/kapp4.kdevtemplate:21
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid ""
+#| "KDE4 simple template based on CMake, inherits from XMLGuiWindow and "
+#| "demonstrates how to use KConfig XT"
+msgctxt "Comment"
+msgid ""
+"KDE 4 GUI Application. KDE4 simple template based on CMake, inherits from "
+"XMLGuiWindow and demonstrates how to use KConfig XT"
+msgstr ""
+"Cenciella plantía pa KDE 4 basada en CMake, qu'herieda de XMLGuiWindow y "
+"amosa cómo usar KConfig XT"
 
 #: kapptemplate/./templates/C++/kapp4-qml/kapp4-qml.kdevtemplate:3
 #, fuzzy
@@ -127,24 +178,25 @@ msgstr ""
 "Cenciella plantía pa KDE 4 basada en CMake, qu'herieda de XMLGuiWindow y "
 "amosa cómo usar KConfig XT"
 
-#: kapptemplate/./templates/C++/kapp4/kapp4.kdevtemplate:3
+#: kapptemplate/templates/C++/kapp4-qml/src/%{APPNAMELC}.desktop:2
+#: kapptemplate/templates/C++/kapp4/src/%{APPNAMELC}.desktop:2
+#: kapptemplate/templates/C++/kde-simple/src/%{APPNAMELC}.desktop:2
+#: kapptemplate/templates/C++/konqplugin/src/%{APPNAMELC}.desktop:47
+#: kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}.desktop:2
+#: kapptemplate/templates/C++/ktexteditor/ktexteditor_%{APPNAMELC}.desktop:45
+#: kapptemplate/templates/C++/plasmoid/plasma-applet-%{APPNAMELC}.desktop:2
+#: kapptemplate/templates/C++/runner/%{APPNAMELC}.desktop:2
+#: kapptemplate/templates/ruby/kderubyapp/src/%{APPNAMELC}.desktop:2
+#: kapptemplate/templates/ruby/rubykonqplugin/src/%{APPNAMELC}.desktop:50
 msgctxt "Name"
-msgid "C++ KDE"
-msgstr ""
+msgid "%{APPNAME}"
+msgstr "%{APPNAME}"
 
-#: kapptemplate/./templates/C++/kapp4/kapp4.kdevtemplate:21
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid ""
-#| "KDE4 simple template based on CMake, inherits from XMLGuiWindow and "
-#| "demonstrates how to use KConfig XT"
-msgctxt "Comment"
-msgid ""
-"KDE 4 GUI Application. KDE4 simple template based on CMake, inherits from "
-"XMLGuiWindow and demonstrates how to use KConfig XT"
-msgstr ""
-"Cenciella plantía pa KDE 4 basada en CMake, qu'herieda de XMLGuiWindow y "
-"amosa cómo usar KConfig XT"
+#: kapptemplate/templates/C++/kapp4-qml/src/%{APPNAMELC}.desktop:53
+#: kapptemplate/templates/C++/kapp4/src/%{APPNAMELC}.desktop:53
+msgctxt "GenericName"
+msgid "A KDE4 Application"
+msgstr "Una aplicación de KDE4"
 
 #: kapptemplate/./templates/C++/kde-simple/kde-simple.kdevtemplate:3
 msgctxt "Name"
@@ -159,11 +211,24 @@ msgctxt "Comment"
 msgid "A very basic KDE GUI Application in C++"
 msgstr "Aplicación PyKDE4 con interface gráfica"
 
+#: kapptemplate/templates/C++/kde-simple/src/%{APPNAMELC}.desktop:53
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "A KDE4 Application"
+msgctxt "GenericName"
+msgid "A Simple KDE Application"
+msgstr "Una aplicación de KDE4"
+
 #: kapptemplate/./templates/C++/kofficetext/kofficetext.kdevtemplate:23
 msgctxt "Comment"
 msgid ""
 "KOffice Text-Plugin Template. A KOffice plugin template to add new features "
 "for modifying text (use ThisFormat for the project name)"
+msgstr ""
+
+#: kapptemplate/templates/C++/kofficetext/kotext%{APPNAMELC}.desktop:2
+msgctxt "Name"
+msgid "%{APPNAME} plugin"
 msgstr ""
 
 #: kapptemplate/./templates/C++/konqplugin/konqplugin.kdevtemplate:23
@@ -180,6 +245,18 @@ msgstr ""
 "Cenciella plantía pa KDE4 basada en CMake, qu'herieda de XMLGuiWindow y "
 "amuesa cómo usar KPart"
 
+#: kapptemplate/templates/C++/konqplugin/src/%{APPNAMELC}.desktop:16
+msgctxt "Comment"
+msgid "Extended UrlBar Options"
+msgstr ""
+
+#: kapptemplate/templates/C++/konqplugin/src/%{APPNAMELC}.desktop:94
+#: kapptemplate/templates/C++/ktexteditor/ktexteditor_%{APPNAMELC}.desktop:92
+#: kapptemplate/templates/ruby/rubykonqplugin/src/%{APPNAMELC}.desktop:97
+msgctxt "GenericName"
+msgid "%{APPNAME}"
+msgstr "%{APPNAME}"
+
 #: kapptemplate/./templates/C++/kpartapp/kpartapp.kdevtemplate:23
 #, fuzzy
 #| msgctxt "Comment"
@@ -194,6 +271,21 @@ msgstr ""
 "Cenciella plantía pa KDE4 basada en CMake, qu'herieda de XMLGuiWindow y "
 "amuesa cómo usar KPart"
 
+#: kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}.desktop:53
+msgctxt "GenericName"
+msgid "A KDE KPart Application"
+msgstr "Una aplicación KPart de KDE"
+
+#: kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}_part.desktop:2
+msgctxt "Name"
+msgid "%{APPNAME}Part"
+msgstr "%{APPNAME}Part"
+
+#: kapptemplate/templates/C++/ktexteditor/ktexteditor_%{APPNAMELC}.desktop:3
+msgctxt "Comment"
+msgid "%{APPNAME}"
+msgstr "%{APPNAME}"
+
 #: kapptemplate/./templates/C++/ktexteditor/ktexteditor.kdevtemplate:23
 msgctxt "Comment"
 msgid ""
@@ -201,6 +293,11 @@ msgid ""
 "special operations on text in KWrite, Kate, KDevelop etc.  (use ThisFormat "
 "for the project name)"
 msgstr ""
+
+#: kapptemplate/templates/C++/plasmoid/plasma-applet-%{APPNAMELC}.desktop:49
+msgctxt "Comment"
+msgid "Plasma %{APPNAME}"
+msgstr "Plasma %{APPNAME}"
 
 #: kapptemplate/./templates/C++/plasmoid/plasmoid.kdevtemplate:23
 #, fuzzy
@@ -230,6 +327,11 @@ msgid ""
 msgstr ""
 "Xenera una aplicación basada en QMake/Qt4 con interface gráfica d'usuariu "
 "(compatible multiplataforma)"
+
+#: kapptemplate/templates/C++/runner/%{APPNAMELC}.desktop:49
+msgctxt "Comment"
+msgid "%{APPNAME} runner"
+msgstr "Llanzador pa %{APPNAME}"
 
 #: kapptemplate/./templates/C++/runner/runner.kdevtemplate:23
 #, fuzzy
@@ -285,6 +387,11 @@ msgstr ""
 "Cenciella plantía Ruby pa KDE4, qu'herieda de XMLGuiWindow (necesita "
 "korundum4)"
 
+#: kapptemplate/templates/ruby/kderubyapp/src/%{APPNAMELC}.desktop:53
+msgctxt "GenericName"
+msgid "A KDE4 Ruby Application"
+msgstr "Una aplicación Ruby de KDE4"
+
 #: kapptemplate/./templates/ruby/rubykonqplugin/rubykonqplugin.kdevtemplate:22
 #, fuzzy
 #| msgctxt "Comment"
@@ -298,113 +405,6 @@ msgid ""
 msgstr ""
 "Cenciella plantía pa KDE 4 basada en CMake, qu'herieda de XMLGuiWindow y "
 "amosa cómo usar KConfig XT"
-
-#: kapptemplate/kapptemplate.desktop:7
-msgctxt "GenericName"
-msgid "KDE Template Generator"
-msgstr "Xenerador de plantíes pa KDE"
-
-#: kapptemplate/kapptemplate.desktop:54
-msgctxt "Name"
-msgid "KAppTemplate"
-msgstr "KAppTemplate"
-
-#: kapptemplate/templates/C++/akonadiserializer/akonadi_serializer_%{APPNAMELC}.desktop:2
-msgctxt "Name"
-msgid "%{APPNAME} Serializer"
-msgstr "Serializador pa %{APPNAME}"
-
-#: kapptemplate/templates/C++/akonadiserializer/akonadi_serializer_%{APPNAMELC}.desktop:44
-msgctxt "Comment"
-msgid "An Akonadi serializer plugin for %{APPNAMELC}"
-msgstr "Un complementu serializador d'Akonadi pa %{APPNAMELC}"
-
-#: kapptemplate/templates/C++/flake/%{APPNAMELC}shape.desktop:4
-#: kapptemplate/templates/C++/flake/%{APPNAME}shape.desktop:4
-msgctxt "Name"
-msgid "%{APPNAME} Shape"
-msgstr ""
-
-#: kapptemplate/templates/C++/flake/%{APPNAMELC}shape.desktop:42
-#: kapptemplate/templates/C++/flake/%{APPNAME}shape.desktop:42
-msgctxt "Comment"
-msgid "%{APPNAME} Flake Shape"
-msgstr ""
-
-#: kapptemplate/templates/C++/kapp4-qml/src/%{APPNAMELC}.desktop:2
-#: kapptemplate/templates/C++/kapp4/src/%{APPNAMELC}.desktop:2
-#: kapptemplate/templates/C++/kde-simple/src/%{APPNAMELC}.desktop:2
-#: kapptemplate/templates/C++/konqplugin/src/%{APPNAMELC}.desktop:47
-#: kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}.desktop:2
-#: kapptemplate/templates/C++/ktexteditor/ktexteditor_%{APPNAMELC}.desktop:45
-#: kapptemplate/templates/C++/plasmoid/plasma-applet-%{APPNAMELC}.desktop:2
-#: kapptemplate/templates/C++/runner/%{APPNAMELC}.desktop:2
-#: kapptemplate/templates/ruby/kderubyapp/src/%{APPNAMELC}.desktop:2
-#: kapptemplate/templates/ruby/rubykonqplugin/src/%{APPNAMELC}.desktop:50
-msgctxt "Name"
-msgid "%{APPNAME}"
-msgstr "%{APPNAME}"
-
-#: kapptemplate/templates/C++/kapp4-qml/src/%{APPNAMELC}.desktop:53
-#: kapptemplate/templates/C++/kapp4/src/%{APPNAMELC}.desktop:53
-msgctxt "GenericName"
-msgid "A KDE4 Application"
-msgstr "Una aplicación de KDE4"
-
-#: kapptemplate/templates/C++/kde-simple/src/%{APPNAMELC}.desktop:53
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "A KDE4 Application"
-msgctxt "GenericName"
-msgid "A Simple KDE Application"
-msgstr "Una aplicación de KDE4"
-
-#: kapptemplate/templates/C++/kofficetext/kotext%{APPNAMELC}.desktop:2
-msgctxt "Name"
-msgid "%{APPNAME} plugin"
-msgstr ""
-
-#: kapptemplate/templates/C++/konqplugin/src/%{APPNAMELC}.desktop:16
-msgctxt "Comment"
-msgid "Extended UrlBar Options"
-msgstr ""
-
-#: kapptemplate/templates/C++/konqplugin/src/%{APPNAMELC}.desktop:94
-#: kapptemplate/templates/C++/ktexteditor/ktexteditor_%{APPNAMELC}.desktop:92
-#: kapptemplate/templates/ruby/rubykonqplugin/src/%{APPNAMELC}.desktop:97
-msgctxt "GenericName"
-msgid "%{APPNAME}"
-msgstr "%{APPNAME}"
-
-#: kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}.desktop:53
-msgctxt "GenericName"
-msgid "A KDE KPart Application"
-msgstr "Una aplicación KPart de KDE"
-
-#: kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}_part.desktop:2
-msgctxt "Name"
-msgid "%{APPNAME}Part"
-msgstr "%{APPNAME}Part"
-
-#: kapptemplate/templates/C++/ktexteditor/ktexteditor_%{APPNAMELC}.desktop:3
-msgctxt "Comment"
-msgid "%{APPNAME}"
-msgstr "%{APPNAME}"
-
-#: kapptemplate/templates/C++/plasmoid/plasma-applet-%{APPNAMELC}.desktop:49
-msgctxt "Comment"
-msgid "Plasma %{APPNAME}"
-msgstr "Plasma %{APPNAME}"
-
-#: kapptemplate/templates/C++/runner/%{APPNAMELC}.desktop:49
-msgctxt "Comment"
-msgid "%{APPNAME} runner"
-msgstr "Llanzador pa %{APPNAME}"
-
-#: kapptemplate/templates/ruby/kderubyapp/src/%{APPNAMELC}.desktop:53
-msgctxt "GenericName"
-msgid "A KDE4 Ruby Application"
-msgstr "Una aplicación Ruby de KDE4"
 
 #: kapptemplate/templates/ruby/rubykonqplugin/src/%{APPNAMELC}.desktop:18
 msgctxt "Comment"
@@ -447,8 +447,8 @@ msgid "KDED Subversion Module"
 msgstr "Módulu de Subversion de KDED"
 
 #: kioslave/svn/svn+file.protocol:15 kioslave/svn/svn+http.protocol:15
-#: kioslave/svn/svn+https.protocol:15 kioslave/svn/svn+ssh.protocol:15
-#: kioslave/svn/svn.protocol:15
+#: kioslave/svn/svn+https.protocol:15 kioslave/svn/svn.protocol:15
+#: kioslave/svn/svn+ssh.protocol:15
 msgctxt "Description"
 msgid "Subversion ioslave"
 msgstr "El ioslave de Subversion"
@@ -692,14 +692,14 @@ msgctxt "Comment"
 msgid "A test structure for dynamic arrays"
 msgstr ""
 
-#: okteta/kasten/controllers/view/structures/examples/elf-js/elf-js.desktop:9
 #: okteta/kasten/controllers/view/structures/examples/elf/elf.desktop:7
+#: okteta/kasten/controllers/view/structures/examples/elf-js/elf-js.desktop:9
 msgctxt "Name"
 msgid "ELF structure"
 msgstr ""
 
-#: okteta/kasten/controllers/view/structures/examples/elf-js/elf-js.desktop:40
 #: okteta/kasten/controllers/view/structures/examples/elf/elf.desktop:38
+#: okteta/kasten/controllers/view/structures/examples/elf-js/elf-js.desktop:40
 msgctxt "Comment"
 msgid "Structure for Executable and Linkable Format (ELF)"
 msgstr ""
@@ -746,16 +746,6 @@ msgctxt "Comment"
 msgid "Just testing structures defined in JS"
 msgstr ""
 
-#: okteta/kasten/controllers/view/structures/examples/test/test.desktop:7
-msgctxt "Name"
-msgid "Simple test"
-msgstr ""
-
-#: okteta/kasten/controllers/view/structures/examples/test/test.desktop:40
-msgctxt "Comment"
-msgid "A few test structures"
-msgstr ""
-
 #: okteta/kasten/controllers/view/structures/examples/test_2/test_2.desktop:7
 msgctxt "Name"
 msgid "Another simple test"
@@ -764,6 +754,16 @@ msgstr ""
 #: okteta/kasten/controllers/view/structures/examples/test_2/test_2.desktop:40
 msgctxt "Comment"
 msgid "A few more test structures"
+msgstr ""
+
+#: okteta/kasten/controllers/view/structures/examples/test/test.desktop:7
+msgctxt "Name"
+msgid "Simple test"
+msgstr ""
+
+#: okteta/kasten/controllers/view/structures/examples/test/test.desktop:40
+msgctxt "Comment"
+msgid "A few test structures"
 msgstr ""
 
 #: okteta/mobile/program/okteta-mobile.desktop:4
