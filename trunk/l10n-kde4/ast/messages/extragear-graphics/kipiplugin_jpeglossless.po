@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-15 02:44+0100\n"
+"POT-Creation-Date: 2011-12-29 03:36+0100\n"
 "PO-Revision-Date: 2009-12-06 16:07+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -155,39 +155,25 @@ msgstr "Falló'l reflexu de la imaxe"
 msgid "Failed to convert image to Black & White"
 msgstr "Falló la conversión de la imaxe a blancu y negru"
 
-#: transform/convert2grayscale.cpp:96 transform/convert2grayscale.cpp:177
 #: transform/imageflip.cpp:87 transform/imagerotate.cpp:88
 #: transform/jpegtransform.cpp:238 transform/jpegtransform.cpp:341
+#: transform/convert2grayscale.cpp:96 transform/convert2grayscale.cpp:177
 msgid "Error in opening input file"
 msgstr "Error abriendo'l ficheru d'entrada"
 
-#: transform/convert2grayscale.cpp:102 transform/imageflip.cpp:93
-#: transform/imagerotate.cpp:96
+#: transform/imageflip.cpp:93 transform/imagerotate.cpp:96
+#: transform/convert2grayscale.cpp:102
 msgid "Error in opening temporary file"
 msgstr "Fallu al abrir el ficheru temporal"
-
-#: transform/convert2grayscale.cpp:115
-msgid "Cannot convert to gray scale RAW file"
-msgstr "Nun pudo convertise n'escala de grises el ficheru RAW"
-
-#: transform/convert2grayscale.cpp:139 transform/imageflip.cpp:130
-#: transform/imagerotate.cpp:136
-msgid "Cannot update source image"
-msgstr "Nun pudo anovase la imaxe de la fonte"
-
-#: transform/convert2grayscale.cpp:185 transform/jpegtransform.cpp:256
-#: transform/jpegtransform.cpp:350
-msgid "Error in opening output file"
-msgstr "Fallu al abrir el ficheru de salida"
-
-#: transform/convert2grayscale.cpp:285
-#, kde-format
-msgid "Cannot convert to gray scale: %1"
-msgstr "Nun pudo convertise a escala de grises: %1"
 
 #: transform/imageflip.cpp:106 transform/imagerotate.cpp:109
 msgid "Cannot rotate RAW file"
 msgstr "Nun pudo xirase'l ficheru RAW"
+
+#: transform/imageflip.cpp:130 transform/imagerotate.cpp:136
+#: transform/convert2grayscale.cpp:139
+msgid "Cannot update source image"
+msgstr "Nun pudo anovase la imaxe de la fonte"
 
 #: transform/imageflip.cpp:157 transform/imageflip.cpp:186
 msgid "Nonstandard flip action"
@@ -207,7 +193,21 @@ msgstr "Ángulu de xiru non estándar"
 msgid "Cannot rotate: %1"
 msgstr "Nun se pudo xirar: %1"
 
+#: transform/jpegtransform.cpp:256 transform/jpegtransform.cpp:350
+#: transform/convert2grayscale.cpp:185
+msgid "Error in opening output file"
+msgstr "Fallu al abrir el ficheru de salida"
+
 #: transform/jpegtransform.cpp:266 transform/jpegtransform.cpp:275
 #, kde-format
 msgid "The JPEG library reported an error: %1"
 msgstr ""
+
+#: transform/convert2grayscale.cpp:115
+msgid "Cannot convert to gray scale RAW file"
+msgstr "Nun pudo convertise n'escala de grises el ficheru RAW"
+
+#: transform/convert2grayscale.cpp:286
+#, kde-format
+msgid "Cannot convert to gray scale: %1"
+msgstr "Nun pudo convertise a escala de grises: %1"
