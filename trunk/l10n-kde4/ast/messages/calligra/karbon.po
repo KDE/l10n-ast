@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-14 02:40+0100\n"
+"POT-Creation-Date: 2012-01-05 02:58+0100\n"
 "PO-Revision-Date: 2010-06-16 23:25+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -142,6 +142,15 @@ msgstr "Efeutos"
 msgid "View"
 msgstr ""
 
+#: common/KarbonDocument.cpp:280
+msgid "Master Page"
+msgstr ""
+
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:880
+msgctxt "(qtundo-format)"
+msgid "Boolean Operation"
+msgstr ""
+
 #: common/commands/KarbonLayerReorderCommand.cpp:37
 #: common/commands/KarbonLayerReorderCommand.cpp:46
 msgctxt "(qtundo-format)"
@@ -154,13 +163,8 @@ msgctxt "(qtundo-format)"
 msgid "Lower Layer"
 msgstr ""
 
-#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:880
-msgctxt "(qtundo-format)"
-msgid "Boolean Operation"
-msgstr ""
-
-#: common/KarbonDocument.cpp:280
-msgid "Master Page"
+#: main.cpp:43
+msgid "File to open"
 msgstr ""
 
 #: plugins/filtereffects/BlendEffect.cpp:30
@@ -303,9 +307,53 @@ msgstr ""
 msgid "Convolve Matrix"
 msgstr ""
 
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
+msgid "Duplicate"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:44
+msgid "Wrap"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:45
+msgid "None"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:46
+msgid "Edge mode:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:53
+msgid "Kernel size:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:62
+msgid "Target point:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:69
+msgid "Divisor:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:71
+msgid "Bias:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:74
+msgid "Preserve alpha"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:77
+msgid "Edit kernel"
+msgstr ""
+
 #: plugins/filtereffects/FloodEffect.cpp:30
 #: plugins/filtereffects/FloodEffectFactory.cpp:27
 msgid "Flood fill"
+msgstr ""
+
+#: plugins/filtereffects/FloodEffectConfigWidget.cpp:37
+msgid "Flood color"
 msgstr ""
 
 #: plugins/filtereffects/ImageEffect.cpp:35
@@ -359,50 +407,6 @@ msgstr ""
 msgid "dy"
 msgstr ""
 
-#: plugins/filtereffects/FloodEffectConfigWidget.cpp:37
-msgid "Flood color"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
-msgid "Duplicate"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:44
-msgid "Wrap"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:45
-msgid "None"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:46
-msgid "Edge mode:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:53
-msgid "Kernel size:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:62
-msgid "Target point:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:69
-msgid "Divisor:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:71
-msgid "Bias:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:74
-msgid "Preserve alpha"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:77
-msgid "Edit kernel"
-msgstr ""
-
 #: plugins/flattenpath/FlattenPathPlugin.cpp:57
 msgid "&Flatten Path..."
 msgstr ""
@@ -427,6 +431,11 @@ msgctxt "(qtundo-format)"
 msgid "Flatten path"
 msgstr ""
 
+#: plugins/refinepath/KarbonPathRefineCommand.cpp:41
+msgctxt "(qtundo-format)"
+msgid "Refine path"
+msgstr ""
+
 #: plugins/refinepath/RefinePathPlugin.cpp:57
 msgid "&Refine Path..."
 msgstr ""
@@ -437,11 +446,6 @@ msgstr ""
 
 #: plugins/refinepath/RefinePathPlugin.cpp:101
 msgid "Subdivisions:"
-msgstr ""
-
-#: plugins/refinepath/KarbonPathRefineCommand.cpp:41
-msgctxt "(qtundo-format)"
-msgid "Refine path"
 msgstr ""
 
 #: plugins/roundcorners/RoundCornersCommand.cpp:41
@@ -461,6 +465,11 @@ msgstr ""
 #: plugins/roundcorners/RoundCornersPlugin.cpp:112
 #: plugins/whirlpinch/WhirlPinchPlugin.cpp:133
 msgid "Radius:"
+msgstr ""
+
+#: plugins/whirlpinch/KarbonWhirlPinchCommand.cpp:108
+msgctxt "(qtundo-format)"
+msgid "Whirl & pinch"
 msgstr ""
 
 #: plugins/whirlpinch/WhirlPinchPlugin.cpp:62
@@ -487,325 +496,6 @@ msgstr ""
 
 #: plugins/whirlpinch/WhirlPinchPlugin.cpp:127
 msgid "Pinch:"
-msgstr ""
-
-#: plugins/whirlpinch/KarbonWhirlPinchCommand.cpp:108
-msgctxt "(qtundo-format)"
-msgid "Whirl & pinch"
-msgstr ""
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:38
-msgid "Configure"
-msgstr ""
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:43
-#: ui/dialogs/KarbonConfigureDialog.cpp:44
-#: ui/widgets/KarbonConfigInterfacePage.cpp:56
-msgid "Interface"
-msgstr ""
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:48
-#: ui/dialogs/KarbonConfigureDialog.cpp:49
-msgid "Misc"
-msgstr ""
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:53
-#: ui/dialogs/KarbonConfigureDialog.cpp:54
-msgid "Grid"
-msgstr ""
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:60
-msgctxt "@title:tab Document settings page"
-msgid "Document"
-msgstr ""
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:61
-msgid "Document Settings"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:84
-msgid "Layer view"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:95
-msgid "Add a new layer"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:101
-msgid "Delete selected objects"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:107
-msgid "Raise selected objects"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:113
-msgid "Lower selected objects"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:122
-msgid "Minimal View"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:124
-msgid "Detailed View"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:126
-msgid "Thumbnail View"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:136
-msgid "View mode"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:276
-msgid "New Layer"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:277
-msgid "Enter the name of the new layer:"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:278
-msgid "New layer"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:284
-msgctxt "(qtundo-format)"
-msgid "Create Layer"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:308
-msgctxt "(qtundo-format)"
-msgid "Delete Layer"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:310
-msgid "Could not delete all layers. At least one layer is required."
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:310
-msgid "Error deleting layers"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:161
-msgid "Layer"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:163
-msgctxt "A group of shapes"
-msgid "Group"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:165
-msgid "Shape"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:260
-msgctxt "Visibility state of the shape"
-msgid "Visible"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:261
-msgctxt "Lock state of the shape"
-msgid "Locked"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:262
-msgctxt "The z-index of the shape"
-msgid "zIndex"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:263
-msgctxt "The opacity of the shape"
-msgid "Opacity"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:264
-msgctxt "Clipped state of the shape"
-msgid "Clipped"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:264
-msgid "yes"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:264
-msgid "no"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:465
-msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:33
-msgid "Original"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:34
-msgid "Tiled"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:35
-msgid "Stretched"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:37
-msgid "Top Left"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:38
-msgid "Top"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:39
-msgid "Top Right"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:40
-msgid "Left"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:41
-msgid "Center"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:42
-msgid "Right"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:43
-msgid "Bottom Left"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:44
-msgid "Bottom"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:45
-msgid "Bottom Right"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:56
-msgid "Press to apply fill to selection"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:103
-msgctxt "The style has no fill"
-msgid "None"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:121
-msgid "Press to apply stroke to selection"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:166
-msgctxt "The style has a custom stroking"
-msgid "Custom"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:172
-msgctxt "The style has no stroking"
-msgid "None"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:192
-msgid "Stroke:"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:197
-msgid "Fill:"
-msgstr ""
-
-#: ui/widgets/KarbonConfigInterfacePage.cpp:71
-msgid "Show status bar:"
-msgstr ""
-
-#: ui/widgets/KarbonConfigInterfacePage.cpp:76
-msgid "Number of recent files:"
-msgstr ""
-
-#: ui/widgets/KarbonConfigInterfacePage.cpp:82
-msgid "Palette font size:"
-msgstr ""
-
-#: ui/widgets/KarbonConfigInterfacePage.cpp:88
-msgid "Canvas color:"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:167
-msgid "Target:"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:169
-msgid "Stroke"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:170
-msgid "Fill"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:174
-msgid "Type:"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:176
-msgctxt "Linear gradient type"
-msgid "Linear"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:177
-msgctxt "Radial gradient type"
-msgid "Radial"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:178
-msgctxt "Conical gradient type"
-msgid "Conical"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:181
-msgid "Repeat:"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:183
-msgctxt "No gradient spread"
-msgid "None"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:184
-msgid "Reflect"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:185
-msgid "Repeat"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:188
-msgid "Overall opacity:"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:193
-msgid "Color stop:"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:200
-msgid "Stop color."
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:203
-msgid "&Add to Predefined Gradients"
-msgstr ""
-
-#: ui/widgets/KarbonPaletteBarWidget.cpp:58
-msgid "Select palette"
-msgstr ""
-
-#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:550
-msgctxt "(qtundo-format)"
-msgid "Insert graphics"
 msgstr ""
 
 #: ui/KarbonAboutData.h:26
@@ -877,8 +567,9 @@ msgstr ""
 msgid "Helpful patches and advice"
 msgstr ""
 
-#: ui/KarbonZoomController.cpp:62
-msgid "Zoom"
+#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:550
+msgctxt "(qtundo-format)"
+msgid "Insert graphics"
 msgstr ""
 
 #: ui/KarbonPart.cpp:208
@@ -1077,6 +768,315 @@ msgstr ""
 msgid "Zoom to Drawing"
 msgstr ""
 
-#: main.cpp:43
-msgid "File to open"
+#: ui/KarbonZoomController.cpp:62
+msgid "Zoom"
+msgstr ""
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:38
+msgid "Configure"
+msgstr ""
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:43
+#: ui/dialogs/KarbonConfigureDialog.cpp:44
+#: ui/widgets/KarbonConfigInterfacePage.cpp:56
+msgid "Interface"
+msgstr ""
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:48
+#: ui/dialogs/KarbonConfigureDialog.cpp:49
+msgid "Misc"
+msgstr ""
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:53
+#: ui/dialogs/KarbonConfigureDialog.cpp:54
+msgid "Grid"
+msgstr ""
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:60
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr ""
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:61
+msgid "Document Settings"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:84
+msgid "Layer view"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:95
+msgid "Add a new layer"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:101
+msgid "Delete selected objects"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:107
+msgid "Raise selected objects"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:113
+msgid "Lower selected objects"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:122
+msgid "Minimal View"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:124
+msgid "Detailed View"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:126
+msgid "Thumbnail View"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:136
+msgid "View mode"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:276
+msgid "New Layer"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:277
+msgid "Enter the name of the new layer:"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:278
+msgid "New layer"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:284
+msgctxt "(qtundo-format)"
+msgid "Create Layer"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:308
+msgctxt "(qtundo-format)"
+msgid "Delete Layer"
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:310
+msgid "Could not delete all layers. At least one layer is required."
+msgstr ""
+
+#: ui/dockers/KarbonLayerDocker.cpp:310
+msgid "Error deleting layers"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:161
+msgid "Layer"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:163
+msgctxt "A group of shapes"
+msgid "Group"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:165
+msgid "Shape"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:260
+msgctxt "Visibility state of the shape"
+msgid "Visible"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:261
+msgctxt "Lock state of the shape"
+msgid "Locked"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:262
+msgctxt "The z-index of the shape"
+msgid "zIndex"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:263
+msgctxt "The opacity of the shape"
+msgid "Opacity"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:264
+msgctxt "Clipped state of the shape"
+msgid "Clipped"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:264
+msgid "yes"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:264
+msgid "no"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:465
+msgctxt "(qtundo-format)"
+msgid "Reparent shapes"
+msgstr ""
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:71
+msgid "Show status bar:"
+msgstr ""
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:76
+msgid "Number of recent files:"
+msgstr ""
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:82
+msgid "Palette font size:"
+msgstr ""
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:88
+msgid "Canvas color:"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:167
+msgid "Target:"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:169
+msgid "Stroke"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:170
+msgid "Fill"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:174
+msgid "Type:"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:176
+msgctxt "Linear gradient type"
+msgid "Linear"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:177
+msgctxt "Radial gradient type"
+msgid "Radial"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:178
+msgctxt "Conical gradient type"
+msgid "Conical"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:181
+msgid "Repeat:"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:183
+msgctxt "No gradient spread"
+msgid "None"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:184
+msgid "Reflect"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:185
+msgid "Repeat"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:188
+msgid "Overall opacity:"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:193
+msgid "Color stop:"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:200
+msgid "Stop color."
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:203
+msgid "&Add to Predefined Gradients"
+msgstr ""
+
+#: ui/widgets/KarbonPaletteBarWidget.cpp:58
+msgid "Select palette"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:33
+msgid "Original"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:34
+msgid "Tiled"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:35
+msgid "Stretched"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:37
+msgid "Top Left"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:38
+msgid "Top"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:39
+msgid "Top Right"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:40
+msgid "Left"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:41
+msgid "Center"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:42
+msgid "Right"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:43
+msgid "Bottom Left"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:44
+msgid "Bottom"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:45
+msgid "Bottom Right"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:56
+msgid "Press to apply fill to selection"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:103
+msgctxt "The style has no fill"
+msgid "None"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:121
+msgid "Press to apply stroke to selection"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:166
+msgctxt "The style has a custom stroking"
+msgid "Custom"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:172
+msgctxt "The style has no stroking"
+msgid "None"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:192
+msgid "Stroke:"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:197
+msgid "Fill:"
 msgstr ""
