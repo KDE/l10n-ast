@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-09 10:06+0100\n"
+"POT-Creation-Date: 2011-12-19 10:09+0100\n"
 "PO-Revision-Date: 2009-12-18 18:26+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -18,6 +18,35 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2009-10-22 22:28+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
+
+#: examples/ktcli/main.cpp:60
+#, fuzzy
+msgid "Torrent to open"
+msgstr "Documentu a abrir"
+
+#: examples/ktcli/main.cpp:61 examples/ktcli/main.cpp:62
+#, fuzzy
+msgid "Port to use"
+msgstr "Non usáu"
+
+#: examples/ktcli/main.cpp:63
+#, fuzzy
+msgid "Whether or not to enable encryption"
+msgstr "Si activar o non una orde de baxada personalizada."
+
+#: examples/ktcli/main.cpp:64
+#, fuzzy
+msgid "Whether or not to enable peer exchange"
+msgstr "Si usar o non l'intercambiu ente collacios compatible con µTorrent."
+
+#: examples/ktcli/main.cpp:65
+#, fuzzy
+msgid "Whether or not to use utp"
+msgstr "Si amosar o non mensaxes emerxentes na bandexa del sistema."
+
+#: examples/ktcli/main.cpp:67
+msgid "ktcli"
+msgstr ""
 
 #: src/bcodec/bdecoder.cpp:71
 #, kde-format
@@ -41,6 +70,14 @@ msgstr "Nun puede convertise %1 a un enteru"
 msgid "Torrent is incomplete."
 msgstr "El torrent ta incompletu."
 
+#: src/datachecker/multidatachecker.cpp:209
+#: src/datachecker/singledatachecker.cpp:49 src/diskio/multifilecache.cpp:722
+#: src/diskio/multifilecache.cpp:761 src/torrent/torrentcreator.cpp:124
+#: src/torrent/torrentcreator.cpp:255 src/torrent/torrentcreator.cpp:292
+#, kde-format
+msgid "Cannot open file %1: %2"
+msgstr "Nun puede abrise'l ficheru %1: %2"
+
 #: src/datachecker/datacheckerjob.cpp:82
 msgid "Waiting for other data checks to finish"
 msgstr ""
@@ -51,45 +88,31 @@ msgstr "Verificando los datos"
 
 #: src/datachecker/datacheckerjob.cpp:141
 #, fuzzy
-#| msgid "Checking data"
 msgid "Checking Data"
 msgstr "Verificando los datos"
 
-#: src/datachecker/multidatachecker.cpp:209
-#: src/datachecker/singledatachecker.cpp:49 src/diskio/multifilecache.cpp:722
-#: src/diskio/multifilecache.cpp:761 src/torrent/torrentcreator.cpp:124
-#: src/torrent/torrentcreator.cpp:255 src/torrent/torrentcreator.cpp:292
-#, kde-format
-msgid "Cannot open file %1: %2"
-msgstr "Nun puede abrise'l ficheru %1: %2"
-
 #: src/diskio/dndfile.cpp:89
 #, fuzzy, kde-format
-#| msgid "Cannot create file %1 : %2"
 msgid "Cannot create file %1: %2"
 msgstr "Nun puede criase'l ficheru %1: %2"
 
 #: src/diskio/dndfile.cpp:137
 #, fuzzy, kde-format
-#| msgid "Failed to write first chunk to DND file : %1"
 msgid "Failed to write first chunk to DND file: %1"
 msgstr "Nun pudó escribise'l primer bloque nel ficheru DND: %1"
 
 #: src/diskio/dndfile.cpp:155
 #, fuzzy, kde-format
-#| msgid "Failed to write last chunk to DND file : %1"
 msgid "Failed to write last chunk to DND file: %1"
 msgstr "Nun pudó escribise'l caberu bloque nel ficheru DND: %1"
 
 #: src/diskio/multifilecache.cpp:93 src/diskio/singlefilecache.cpp:79
 #, fuzzy, kde-format
-#| msgid "Failed to open %1 : %2"
 msgid "Failed to open %1: %2"
 msgstr "Fallu al abrir %1: %2"
 
 #: src/diskio/multifilecache.cpp:120 src/diskio/singlefilecache.cpp:90
 #, fuzzy, kde-format
-#| msgid "Failed to create %1 : %2"
 msgid "Failed to create %1: %2"
 msgstr "Fallu al criar %1: %2"
 
@@ -97,17 +120,42 @@ msgstr "Fallu al criar %1: %2"
 msgid "Unable to write to a piece mapped read only"
 msgstr ""
 
+#: src/diskio/movedatafilesjob.cpp:140
+msgid "Waiting for other move jobs to finish"
+msgstr ""
+
+#: src/diskio/movedatafilesjob.cpp:141 src/diskio/movedatafilesjob.cpp:181
+#, fuzzy
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr "Amestar una fonte"
+
+#: src/diskio/movedatafilesjob.cpp:142 src/diskio/movedatafilesjob.cpp:182
+#, fuzzy
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr "Destín"
+
+#: src/diskio/movedatafilesjob.cpp:180
+#, fuzzy
+msgctxt "@title job"
+msgid "Moving"
+msgstr "Media móvil"
+
+#: src/diskio/chunkmanager.cpp:928 src/diskio/chunkmanager.cpp:954
+#, fuzzy, kde-format
+msgid "Cannot open index file %1: %2"
+msgstr "Nun puede abrise'l ficheru índiz %1: %2"
+
 #: src/diskio/cachefile.cpp:94 src/util/fileops.cpp:354
 #: src/util/fileops.cpp:396
 #, fuzzy, kde-format
-#| msgid "Cannot open %1 : %2"
 msgid "Cannot open %1: %2"
 msgstr "Nun puede abrise %1: %2"
 
 #: src/diskio/cachefile.cpp:122 src/diskio/cachefile.cpp:250
 #: src/diskio/cachefile.cpp:414 src/diskio/cachefile.cpp:482
 #, fuzzy, kde-format
-#| msgid "Cannot open %1 for writing : readonly filesystem"
 msgid "Cannot open %1 for writing: readonly filesystem"
 msgstr "Nun puede escribise en %1: sistema de ficheros de namái llectura"
 
@@ -124,19 +172,16 @@ msgstr ""
 
 #: src/diskio/cachefile.cpp:261
 #, fuzzy, kde-format
-#| msgid "Cannot expand file %1 : %2"
 msgid "Cannot expand file %1: %2"
 msgstr "Nun puede espandese'l ficheru %1: %2"
 
 #: src/diskio/cachefile.cpp:380
 #, fuzzy, kde-format
-#| msgid "Error : Reading past the end of the file %1"
 msgid "Error: Reading past the end of the file %1"
 msgstr "Fallu: Al lleer tres el fin del ficheru %1"
 
 #: src/diskio/cachefile.cpp:385 src/diskio/cachefile.cpp:432
 #, fuzzy, kde-format
-#| msgid "Failed to seek file %1 : %2"
 msgid "Failed to seek file %1: %2"
 msgstr "Fallu al desplazase nel ficheru %1: %2"
 
@@ -147,46 +192,13 @@ msgstr "Fallu al lleer de %1"
 
 #: src/diskio/cachefile.cpp:436
 #, fuzzy, kde-format
-#| msgid "Failed to write to file %1 : %2"
 msgid "Failed to write to file %1: %2"
 msgstr "Fallu al escribir nel ficheru %1: %2"
 
 #: src/diskio/cachefile.cpp:503
 #, fuzzy, kde-format
-#| msgid "Cannot preallocate diskspace : %1"
 msgid "Cannot preallocate diskspace: %1"
 msgstr "Nun puede preasignase espaciu en discu: %1"
-
-#: src/diskio/chunkmanager.cpp:928 src/diskio/chunkmanager.cpp:954
-#, fuzzy, kde-format
-#| msgid "Cannot open index file %1 : %2"
-msgid "Cannot open index file %1: %2"
-msgstr "Nun puede abrise'l ficheru índiz %1: %2"
-
-#: src/diskio/movedatafilesjob.cpp:140
-msgid "Waiting for other move jobs to finish"
-msgstr ""
-
-#: src/diskio/movedatafilesjob.cpp:141 src/diskio/movedatafilesjob.cpp:181
-#, fuzzy
-#| msgid "Add Source"
-msgctxt "The source of a file operation"
-msgid "Source"
-msgstr "Amestar una fonte"
-
-#: src/diskio/movedatafilesjob.cpp:142 src/diskio/movedatafilesjob.cpp:182
-#, fuzzy
-#| msgid "Destination"
-msgctxt "The destination of a file operation"
-msgid "Destination"
-msgstr "Destín"
-
-#: src/diskio/movedatafilesjob.cpp:180
-#, fuzzy
-#| msgid "Moving average"
-msgctxt "@title job"
-msgid "Moving"
-msgstr "Media móvil"
 
 #: src/download/chunkdownload.cpp:383
 #, kde-format
@@ -197,14 +209,22 @@ msgstr[1] "%1 collacios"
 
 #: src/download/downloader.cpp:808
 #, fuzzy
-#| msgid "Displays all the webseeds of a torrent"
 msgid "Disabled because webseed does not match torrent"
 msgstr "Amuesa toles semilles web d'un torrent"
 
-#: src/download/httpconnection.cpp:44 src/download/webseed.cpp:51
-#: src/download/webseed.cpp:98
+#: src/download/webseed.cpp:51 src/download/webseed.cpp:98
+#: src/download/httpconnection.cpp:44
 msgid "Not connected"
 msgstr "Non conectáu"
+
+#: src/download/webseed.cpp:336 src/download/httpconnection.cpp:153
+msgid "Connection closed"
+msgstr "Zarróse la conexón"
+
+#: src/download/webseed.cpp:545
+#, kde-format
+msgid "Unused for %1 seconds (Too many connection failures)"
+msgstr ""
 
 #: src/download/httpconnection.cpp:115
 #, kde-format
@@ -213,7 +233,6 @@ msgstr "Resolviendo'l «proxy» %1:%2"
 
 #: src/download/httpconnection.cpp:121 src/download/httpconnection.cpp:139
 #, fuzzy
-#| msgid "There is not enough diskspace available."
 msgid "Not enough system resources available"
 msgstr "Nun hai abondu espaciu disponible en discu."
 
@@ -221,10 +240,6 @@ msgstr "Nun hai abondu espaciu disponible en discu."
 #, kde-format
 msgid "Resolving hostname %1"
 msgstr "Resolviendo'l nome de máquina %1"
-
-#: src/download/httpconnection.cpp:153 src/download/webseed.cpp:336
-msgid "Connection closed"
-msgstr "Zarróse la conexón"
 
 #: src/download/httpconnection.cpp:160
 #, kde-format
@@ -263,18 +278,12 @@ msgstr "Fallu: la petición superó'l tiempu llímite"
 msgid "Redirected without a new location."
 msgstr "Redirixíu ensin un nuevu allugamientu"
 
-#: src/download/webseed.cpp:545
-#, kde-format
-msgid "Unused for %1 seconds (Too many connection failures)"
-msgstr ""
-
 #: src/interfaces/trackerinterface.cpp:58
 msgid "OK"
 msgstr "Aceutar"
 
 #: src/interfaces/trackerinterface.cpp:58
 #, fuzzy, kde-format
-#| msgid "Opening %1"
 msgid "Warning: %1"
 msgstr "Abriendo %1"
 
@@ -310,47 +319,8 @@ msgstr "Torrent tollíu."
 
 #: src/torrent/torrent.cpp:165
 #, fuzzy, kde-format
-#| msgid " Unable to open torrent file %1 : %2"
 msgid "Unable to open torrent file %1: %2"
 msgstr " Nun puede abrise'l ficheru torrent %1: %2"
-
-#: src/torrent/torrentcontrol.cpp:308
-msgid "Error writing to disk, do you have enough diskspace?"
-msgstr ""
-
-#: src/torrent/torrentcontrol.cpp:554
-#, kde-format
-msgid ""
-"An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
-"torrent is probably corrupt or is not a valid torrent file."
-msgstr ""
-"Hebo un fallu mientres se cargaba'l torrent <b>%1</b>:<br/><b>%2</b><br/"
-">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
-"torrent válidu."
-
-#: src/torrent/torrentcontrol.cpp:584
-#, kde-format
-msgid "An error occurred while loading <b>%1</b>:<br/><b>%2</b>"
-msgstr ""
-
-#: src/torrent/torrentcontrol.cpp:595
-#, fuzzy, kde-format
-#| msgid "Unable to create %1 : %2"
-msgid "Unable to create %1: %2"
-msgstr "Nun pudo criase %1: %2"
-
-#: src/torrent/torrentcontrol.cpp:610
-#, kde-format
-msgid ""
-"You are already downloading the torrent <b>%1</b>. The tracker lists from "
-"both torrents have been merged."
-msgstr ""
-
-#: src/torrent/torrentcontrol.cpp:615
-#, fuzzy, kde-format
-#| msgid "How long we have been downloading the torrent"
-msgid "You are already downloading the torrent <b>%1</b>."
-msgstr "Durante cuántu tiempu tuvo baxádose'l torrent"
 
 #: src/torrent/torrentstats.cpp:73
 msgid "Not started"
@@ -391,7 +361,6 @@ msgstr ""
 
 #: src/torrent/torrentstats.cpp:91
 #, fuzzy
-#| msgid "Currently downloading:"
 msgid "Queued for downloading"
 msgstr "Baxando anguaño:"
 
@@ -405,14 +374,59 @@ msgstr "Posáu"
 
 #: src/torrent/torrentstats.cpp:99
 #, fuzzy
-#| msgctxt "Status of a torrent file"
-#| msgid "Seeding"
 msgid "Superseeding"
 msgstr "Semando"
+
+#: src/torrent/torrentcontrol.cpp:308
+msgid "Error writing to disk, do you have enough diskspace?"
+msgstr ""
+
+#: src/torrent/torrentcontrol.cpp:554
+#, kde-format
+msgid ""
+"An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
+"torrent is probably corrupt or is not a valid torrent file."
+msgstr ""
+"Hebo un fallu mientres se cargaba'l torrent <b>%1</b>:<br/><b>%2</b><br/"
+">Probablemente'l torrent esté tollíu, o nun seya realmente un ficheru "
+"torrent válidu."
+
+#: src/torrent/torrentcontrol.cpp:584
+#, kde-format
+msgid "An error occurred while loading <b>%1</b>:<br/><b>%2</b>"
+msgstr ""
+
+#: src/torrent/torrentcontrol.cpp:595
+#, fuzzy, kde-format
+msgid "Unable to create %1: %2"
+msgstr "Nun pudo criase %1: %2"
+
+#: src/torrent/torrentcontrol.cpp:610
+#, kde-format
+msgid ""
+"You are already downloading the torrent <b>%1</b>. The tracker lists from "
+"both torrents have been merged."
+msgstr ""
+
+#: src/torrent/torrentcontrol.cpp:615
+#, fuzzy, kde-format
+msgid "You are already downloading the torrent <b>%1</b>."
+msgstr "Durante cuántu tiempu tuvo baxádose'l torrent"
 
 #: src/tracker/httpannouncejob.cpp:142
 msgid "Redirect without a redirect location"
 msgstr "Redirixíu ensin un nuevu allugamientu"
+
+#: src/tracker/udptracker.cpp:364 src/tracker/udptracker.cpp:374
+#: src/tracker/httptracker.cpp:558
+#, kde-format
+msgid "Timeout contacting tracker %1"
+msgstr ""
+
+#: src/tracker/udptracker.cpp:401
+#, kde-format
+msgid "Unable to resolve hostname %1"
+msgstr "Nun foi posible resolver el nome de máquina %1"
 
 #: src/tracker/httptracker.cpp:287 src/tracker/httptracker.cpp:307
 #: src/tracker/httptracker.cpp:463
@@ -427,44 +441,41 @@ msgstr "Datos nun válidos del llocalizador"
 msgid "Invalid tracker URL"
 msgstr "URL nun válidu del llocalizador"
 
-#: src/tracker/httptracker.cpp:558 src/tracker/udptracker.cpp:364
-#: src/tracker/udptracker.cpp:374
-#, kde-format
-msgid "Timeout contacting tracker %1"
+#: src/upnp/httprequest.cpp:96
+#, fuzzy
+msgid "Connection closed unexpectedly"
+msgstr "La conexón zarróse inesperadamente."
+
+#: src/upnp/httprequest.cpp:155
+msgid "Operation timed out"
 msgstr ""
 
-#: src/tracker/udptracker.cpp:401
-#, kde-format
-msgid "Unable to resolve hostname %1"
-msgstr "Nun foi posible resolver el nome de máquina %1"
+#: src/upnp/upnprouter.cpp:167
+#, fuzzy, kde-format
+msgid "Failed to download %1: %2"
+msgstr "Fallu al baxar %1: %2"
 
-#: src/util/logsystemmanager.cpp:33
-msgid "General"
-msgstr "Xeneral"
+#: src/upnp/upnprouter.cpp:178
+msgid "Error parsing router description."
+msgstr "Fallu al analizar la descripción del router."
 
-#: src/util/logsystemmanager.cpp:34
-msgid "Connections"
-msgstr "Conexones"
-
-#: src/util/logsystemmanager.cpp:35
-msgid "Tracker"
-msgstr "Llocalizador"
-
-#: src/util/logsystemmanager.cpp:36
-msgid "DHT"
-msgstr "DHT"
-
-#: src/util/logsystemmanager.cpp:37
-msgid "Disk Input/Output"
-msgstr "Entrada/Salida de discu"
-
-#: src/util/logsystemmanager.cpp:38
-msgid "µTP"
+#: src/upnp/upnprouter.cpp:216
+#, fuzzy
+msgid ""
+"Forwarding failed:\n"
+"Device does not have a WANIPConnection or WANPPPConnection."
 msgstr ""
+"El reunvío falló:\n"
+"El preséu nun tien denguna WANIPConnection nin WANPPPConnection"
+
+#: src/upnp/upnprouter.cpp:314
+msgid "Cannot find port forwarding service in the device's description."
+msgstr ""
+"Nun ye posible atopar el serviciu de redirección de puertos na descripción "
+"del preséu."
 
 #: src/util/file.cpp:84
 #, fuzzy, kde-format
-#| msgid "Cannot write to %1 : %2"
 msgid "Cannot write to %1: %2"
 msgstr "Nun puede escribise en %1: %2"
 
@@ -510,7 +521,6 @@ msgstr "Nun puede calculase'l tamañu del ficheru %1: %2"
 
 #: src/util/fileops.cpp:327
 #, fuzzy, kde-format
-#| msgid "Cannot calculate the filesize : %1"
 msgid "Cannot calculate the filesize: %1"
 msgstr "Nun puede calculase'l tamañu del ficheru: %1"
 
@@ -522,9 +532,42 @@ msgstr "Nun puede espandese'l ficheru: %1"
 
 #: src/util/fileops.cpp:417
 #, fuzzy, kde-format
-#| msgid "Cannot seek in file : %1"
 msgid "Cannot seek in file: %1"
 msgstr "Nun puede guetase nel ficheru: %1"
+
+#: src/util/logsystemmanager.cpp:33
+msgid "General"
+msgstr "Xeneral"
+
+#: src/util/logsystemmanager.cpp:34
+msgid "Connections"
+msgstr "Conexones"
+
+#: src/util/logsystemmanager.cpp:35
+msgid "Tracker"
+msgstr "Llocalizador"
+
+#: src/util/logsystemmanager.cpp:36
+msgid "DHT"
+msgstr "DHT"
+
+#: src/util/logsystemmanager.cpp:37
+msgid "Disk Input/Output"
+msgstr "Entrada/Salida de discu"
+
+#: src/util/logsystemmanager.cpp:38
+msgid "µTP"
+msgstr ""
+
+#: src/util/signalcatcher.cpp:78
+#, fuzzy
+msgid "Error when writing to disk"
+msgstr "Fallu al lleer de %1"
+
+#: src/util/signalcatcher.cpp:78
+#, fuzzy
+msgid "Error when reading from disk"
+msgstr "Fallu al lleer de %1"
 
 #: src/util/functions.cpp:242
 #, kde-format
@@ -538,101 +581,21 @@ msgid_plural "%1 days "
 msgstr[0] "1 día "
 msgstr[1] "%1 díes "
 
-#: src/util/signalcatcher.cpp:78
-#, fuzzy
-#| msgid "Error reading from %1"
-msgid "Error when writing to disk"
-msgstr "Fallu al lleer de %1"
-
-#: src/util/signalcatcher.cpp:78
-#, fuzzy
-#| msgid "Error reading from %1"
-msgid "Error when reading from disk"
-msgstr "Fallu al lleer de %1"
-
-#: src/upnp/httprequest.cpp:96
-#, fuzzy
-#| msgid "Connection closed unexpectedly."
-msgid "Connection closed unexpectedly"
-msgstr "La conexón zarróse inesperadamente."
-
-#: src/upnp/httprequest.cpp:155
-msgid "Operation timed out"
-msgstr ""
-
-#: src/upnp/upnprouter.cpp:167
-#, fuzzy, kde-format
-#| msgid "Failed to download %1 : %2"
-msgid "Failed to download %1: %2"
-msgstr "Fallu al baxar %1: %2"
-
-#: src/upnp/upnprouter.cpp:178
-msgid "Error parsing router description."
-msgstr "Fallu al analizar la descripción del router."
-
-#: src/upnp/upnprouter.cpp:216
-#, fuzzy
-#| msgid ""
-#| "Forwarding failed: \n"
-#| "Device does not have a WANIPConnection or WANPPPConnection."
-msgid ""
-"Forwarding failed:\n"
-"Device does not have a WANIPConnection or WANPPPConnection."
-msgstr ""
-"El reunvío falló:\n"
-"El preséu nun tien denguna WANIPConnection nin WANPPPConnection"
-
-#: src/upnp/upnprouter.cpp:314
-msgid "Cannot find port forwarding service in the device's description."
-msgstr ""
-"Nun ye posible atopar el serviciu de redirección de puertos na descripción "
-"del preséu."
-
-#: examples/ktcli/main.cpp:60
-#, fuzzy
-#| msgid "Document to open"
-msgid "Torrent to open"
-msgstr "Documentu a abrir"
-
-#: examples/ktcli/main.cpp:61 examples/ktcli/main.cpp:62
-#, fuzzy
-#| msgid "Not in use"
-msgid "Port to use"
-msgstr "Non usáu"
-
-#: examples/ktcli/main.cpp:63
-#, fuzzy
-#| msgid "Whether or not to enable a custom download order."
-msgid "Whether or not to enable encryption"
-msgstr "Si activar o non una orde de baxada personalizada."
-
-#: examples/ktcli/main.cpp:64
-#, fuzzy
-#| msgid "Whether or not to use µTorrent compatible peer exchange."
-msgid "Whether or not to enable peer exchange"
-msgstr "Si usar o non l'intercambiu ente collacios compatible con µTorrent."
-
-#: examples/ktcli/main.cpp:65
-#, fuzzy
-#| msgid "Whether or not to show system tray popup messages."
-msgid "Whether or not to use utp"
-msgstr "Si amosar o non mensaxes emerxentes na bandexa del sistema."
-
-#: examples/ktcli/main.cpp:67
-msgid "ktcli"
-msgstr ""
-
 #~ msgid "Parse Error"
 #~ msgstr "Fallu d'analís"
 
-#~ msgid "Cannot open file : %1 : %2"
-#~ msgstr "Nun puede abrise'l ficheru: %1: %2"
+#~ msgid "Not in use"
+#~ msgstr "Non usáu"
+
+#, fuzzy
+#~ msgid "Not enough diskspace"
+#~ msgstr "Espaciu en discu insuficiente pa %1"
 
 #~ msgid "Cannot open file %1 : %2"
 #~ msgstr "Nun puede abrise'l ficheru %1: %2"
 
-#~ msgid "Not in use"
-#~ msgstr "Non usáu"
+#~ msgid "Cannot open file : %1 : %2"
+#~ msgstr "Nun puede abrise'l ficheru: %1: %2"
 
 #~ msgid ""
 #~ "An error occurred while loading the torrent:<br/><b>%1</b><br/>The "
@@ -645,16 +608,10 @@ msgstr ""
 #~ msgid "Cannot open log file %1 : %2"
 #~ msgstr "Nun puede abrise'l ficheru de rexistru %1: %2"
 
-#, fuzzy
-#~| msgid "Insufficient disk space for %1"
-#~ msgid "Not enough diskspace"
-#~ msgstr "Espaciu en discu insuficiente pa %1"
-
 #~ msgid "Timeout occurred"
 #~ msgstr "Superóse'l tiempu llímite"
 
 #, fuzzy
-#~| msgid "UDP"
 #~ msgid "UTP"
 #~ msgstr "UDP"
 
@@ -1370,7 +1327,6 @@ msgstr ""
 #~ msgstr "Abrir nuna llingüeta nueva"
 
 #, fuzzy
-#~| msgid "Copy Torrent URL"
 #~ msgid "Copy URL"
 #~ msgstr "Copiar el URL del torrent"
 
@@ -1439,7 +1395,6 @@ msgstr ""
 #~ msgstr " Motor: "
 
 #, fuzzy
-#~| msgid "Do you want to download or save the torrent?"
 #~ msgid "Do you want to download this magnet link?"
 #~ msgstr "¿Quies baxar o guardar el torrent?"
 
@@ -1477,7 +1432,6 @@ msgstr ""
 #~ msgstr "Ficheros del planificador de KTorrent"
 
 #, fuzzy
-#~| msgid "Current schedule: paused"
 #~ msgid "Current schedule: suspended"
 #~ msgstr "Planificación actual: posáu"
 
@@ -1496,7 +1450,6 @@ msgstr ""
 #~ "KTorrent."
 
 #, fuzzy
-#~| msgid "Speed"
 #~ msgid "Suspended"
 #~ msgstr "Velocidá"
 
@@ -1553,7 +1506,6 @@ msgstr ""
 #~ msgstr "Enxamás"
 
 #, fuzzy
-#~| msgid "Copy Torrent URL"
 #~ msgid "Copy Magnet URI"
 #~ msgstr "Copiar el URL del torrent"
 
@@ -1638,12 +1590,10 @@ msgstr ""
 #~ "camudar l'orde."
 
 #, fuzzy
-#~| msgid "Search"
 #~ msgid "Show Search"
 #~ msgstr "Guetar"
 
 #, fuzzy
-#~| msgid "Move Up"
 #~ msgid "Move Top"
 #~ msgstr "Xubir"
 
@@ -1663,7 +1613,6 @@ msgstr ""
 #~ msgstr "Pasar p'atrás un torrent na cola"
 
 #, fuzzy
-#~| msgid "Move Data"
 #~ msgid "Move Bottom"
 #~ msgstr "Mover los datos"
 
@@ -1671,17 +1620,14 @@ msgstr ""
 #~ msgstr "Mover un torrent al final de la cola"
 
 #, fuzzy
-#~| msgid "Start torrent"
 #~ msgid "Start Magnet"
 #~ msgstr "Entamar el torrent"
 
 #, fuzzy
-#~| msgid "Remove Torrent"
 #~ msgid "Remove Magnet"
 #~ msgstr "Desaniciar el torrent"
 
 #, fuzzy
-#~| msgid "Start"
 #~ msgctxt "@action Start all selected torrents in the current tab"
 #~ msgid "Start"
 #~ msgstr "Entamar"
@@ -1690,7 +1636,6 @@ msgstr ""
 #~ msgstr "Entamar tolos torrents seleicionaos na llingüeta actual"
 
 #, fuzzy
-#~| msgid "Stop"
 #~ msgctxt "@action Stop all selected torrents in the current tab"
 #~ msgid "Stop"
 #~ msgstr "Parar"
@@ -1699,18 +1644,15 @@ msgstr ""
 #~ msgstr "Parar tolos torrents seleicionaos na llingüeta actual"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "@action Pause all selected torrents in the current tab"
 #~ msgid "Pause"
 #~ msgstr "Pausa"
 
 #, fuzzy
-#~| msgid "Start all selected torrents in the current tab"
 #~ msgid "Pause all selected torrents in the current tab"
 #~ msgstr "Entamar tolos torrents seleicionaos na llingüeta actual"
 
 #, fuzzy
-#~| msgid "Remove"
 #~ msgctxt "@action Remove all selected torrents in the current tab"
 #~ msgid "Remove"
 #~ msgstr "Desaniciar"
@@ -1719,7 +1661,6 @@ msgstr ""
 #~ msgstr "Desaniciar tolos torrents seleicionaos na llingüeta actual"
 
 #, fuzzy
-#~| msgid "Start All"
 #~ msgctxt "@action Start all torrents in the current tab"
 #~ msgid "Start All"
 #~ msgstr "Entamar too"
@@ -1728,7 +1669,6 @@ msgstr ""
 #~ msgstr "Entamar tolos torrents de la llingüeta actual"
 
 #, fuzzy
-#~| msgid "Stop All"
 #~ msgctxt "@action Stop all torrents in the current tab"
 #~ msgid "Stop All"
 #~ msgstr "Parar too"
@@ -1847,7 +1787,6 @@ msgstr ""
 #~ msgstr "Allugamientu"
 
 #, fuzzy
-#~| msgid "Add Feed"
 #~ msgid "Added"
 #~ msgstr "Amestar una fonte"
 
@@ -1906,7 +1845,6 @@ msgstr ""
 #~ msgstr "L'allugamientu de los datos del torrent nel discu"
 
 #, fuzzy
-#~| msgid "No torrents loaded."
 #~ msgid "When this torrent was added"
 #~ msgstr "Nun hai cargáu dengún torrent."
 
@@ -2120,7 +2058,6 @@ msgstr ""
 #~ msgstr "Un veceru de BitTorrent pa KDE"
 
 #, fuzzy
-#~| msgid "(C) 2005 - 2007 Joris Guisson and Ivan Vasic"
 #~ msgid "(C) 2005 - 2010 Joris Guisson and Ivan Vasic"
 #~ msgstr "(C) 2005 - 2007 Joris Guisson e Ivan Vasic"
 
@@ -2347,7 +2284,6 @@ msgstr ""
 #~ msgstr "Parche pa que la miniaplicación de Plasma seya emerxente"
 
 #, fuzzy
-#~| msgid "No torrents loaded."
 #~ msgid "Feature which adds the date a torrent was added"
 #~ msgstr "Nun hai cargáu dengún torrent."
 
@@ -2391,17 +2327,14 @@ msgstr ""
 #~ msgstr "Abrir l'URL"
 
 #, fuzzy
-#~| msgid "Open a URL which points to a torrent"
 #~ msgid "Open a URL which points to a torrent, magnet links are supported"
 #~ msgstr "Abrir un URL qu'apunte a un torrent"
 
 #, fuzzy
-#~| msgid "Pause KTorrent"
 #~ msgid "Suspend KTorrent"
 #~ msgstr "Posar KTorrent"
 
 #, fuzzy
-#~| msgid "Pause all running torrents"
 #~ msgid "Suspend all running torrents"
 #~ msgstr "Posar tolos torrents n'execución"
 
@@ -2430,7 +2363,6 @@ msgstr ""
 #~ msgstr "Elementu gráficu pa xestionar la cola de torrents"
 
 #, fuzzy
-#~| msgid "Displays all the chunks you are downloading, of a torrent"
 #~ msgid "Displays the currently downloading magnet links"
 #~ msgstr "Amuesa toles partes que tas baxando d'un torrent dáu"
 
@@ -2535,9 +2467,6 @@ msgstr ""
 #~ msgstr "Velocidá llímite en KiB/s"
 
 #, fuzzy
-#~| msgid ""
-#~| "KTorrent is unable to accept connections because the ports %1 to %2 are "
-#~| "already in use by another program."
 #~ msgid ""
 #~ "KTorrent is unable to accept connections because the TCP ports %1 is "
 #~ "already in use by another program."
@@ -2546,9 +2475,6 @@ msgstr ""
 #~ "usándose por otru programa."
 
 #, fuzzy
-#~| msgid ""
-#~| "KTorrent is unable to accept connections because the ports %1 to %2 are "
-#~| "already in use by another program."
 #~ msgid ""
 #~ "KTorrent is unable to accept connections because the UDP port %1 is "
 #~ "already in use by another program."
@@ -3158,24 +3084,6 @@ msgstr ""
 #~ msgstr "Qué interface usar."
 
 #, fuzzy
-#~| msgid ""
-#~| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/"
-#~| "TR/REC-html40/strict.dtd\">\n"
-#~| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~| "css\">\n"
-#~| "p, li { white-space: pre-wrap; }\n"
-#~| "</style></head><body style=\" font-family:'OpenSymbol'; font-size:8pt; "
-#~| "font-weight:400; font-style:normal;\">\n"
-#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~| "right:0px; -qt-block-indent:0; text-indent:0px;\">Scan the folder "
-#~| "recursively for torrents.</p>\n"
-#~| "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-#~| "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
-#~| "\"></p>\n"
-#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~| "right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;\">Note: "
-#~| "<span style=\" font-weight:400;\">This will not be done for any folder "
-#~| "named loaded.</span></p></body></html>"
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 #~ "REC-html40/strict.dtd\">\n"
@@ -3215,7 +3123,6 @@ msgstr ""
 #~ "nomada «cargáu».</span></p></body></html>"
 
 #, fuzzy
-#~| msgid "Required:"
 #~ msgid "Login required"
 #~ msgstr "Necesariu:"
 
@@ -3812,12 +3719,10 @@ msgstr ""
 #~ msgstr "Color de cada elementu normal de la planificación."
 
 #, fuzzy
-#~| msgid "Paused schedule item color:"
 #~ msgid "Suspended schedule item color:"
 #~ msgstr "Color del elementu de planificación posáu:"
 
 #, fuzzy
-#~| msgid "Color of each paused item on the schedule."
 #~ msgid "Color of each suspended item on the schedule."
 #~ msgstr "Color de los elementos posaos na planificación."
 
@@ -3936,47 +3841,38 @@ msgstr ""
 #~ msgstr "Enc&aboxar"
 
 #, fuzzy
-#~| msgid "Search Preferences"
 #~ msgid "Magnet Generator Preferences"
 #~ msgstr "Preferencies de gueta"
 
 #, fuzzy
-#~| msgid "Add Trackers"
 #~ msgid "Add tracker"
 #~ msgstr "Amestar Trackers"
 
 #, fuzzy
-#~| msgid "Tracker"
 #~ msgid "Tracker:"
 #~ msgstr "Llocalizador"
 
 #, fuzzy
-#~| msgid "Move a torrent down in the queue"
 #~ msgid "Add the torrent name in the URI"
 #~ msgstr "Pasar p'atrás un torrent na cola"
 
 #, fuzzy
-#~| msgid "Add an item"
 #~ msgid "Add name"
 #~ msgstr "Amestar un elementu"
 
 #, fuzzy
-#~| msgid "Show Video"
 #~ msgid "Show popup"
 #~ msgstr "Amosar el vídeo"
 
 #, fuzzy
-#~| msgid "Tracker"
 #~ msgid "Toggles tracker"
 #~ msgstr "Llocalizador"
 
 #, fuzzy
-#~| msgid "Use default browser"
 #~ msgid "The default tracker"
 #~ msgstr "Usar el restolador predetermináu"
 
 #, fuzzy
-#~| msgid "Show Feed"
 #~ msgid "Show dn"
 #~ msgstr "Amosar la fonte"
 
@@ -4704,6 +4600,10 @@ msgstr ""
 
 #~ msgid "Show system tray icon"
 #~ msgstr "Amosar l'iconu na bandexa del sistema"
+
+#, fuzzy
+#~ msgid "Whether or not to show system tray popup messages."
+#~ msgstr "Amosar mensaxes emerxentes na bandexa del sistema"
 
 #~ msgid "Show system tray popup messages"
 #~ msgstr "Amosar mensaxes emerxentes na bandexa del sistema"
@@ -5898,7 +5798,6 @@ msgstr ""
 #~ msgstr "Reanudar KTorrent"
 
 #, fuzzy
-#~| msgid "Resume paused torrents"
 #~ msgid "Resume suspended torrents"
 #~ msgstr "Reanudar los torrents posaos"
 
