@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_gpssync\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-23 03:51+0100\n"
+"POT-Creation-Date: 2012-01-11 03:27+0100\n"
 "PO-Revision-Date: 2010-10-25 14:21+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -17,22 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-Language: asturian\n"
-
-#: plugin_gpssync.cpp:74
-#, fuzzy
-#| msgid "Geolocation"
-msgid "Geo-location"
-msgstr "Xeollocalización"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Xandru, Xandru_Martino"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "xandru@softastur.org, xandru.martino@softastur.org"
 
 #: rgtagmodel.cpp:93
 msgid "{Country}"
@@ -69,44 +53,26 @@ msgstr ""
 msgid "{Street}"
 msgstr ""
 
-#: gpsbookmarkowner.cpp:108
-msgid "Bookmark location"
+#: setup.cpp:112
+#, fuzzy
+#| msgid "Configuration"
+msgid "Configure"
+msgstr "Configuración"
+
+#: setup.cpp:118
+msgctxt "General setup"
+msgid "General"
 msgstr ""
 
-#: gpsbookmarkowner.cpp:109
-msgctxt "Title of the new gps location bookmark"
-msgid "Title:"
-msgstr "Títulu:"
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Xandru, Xandru_Martino"
 
-#: gpsbookmarkowner.cpp:345 searchwidget.cpp:745
-#, kde-format
-msgid "1 image snapped to '%2'"
-msgid_plural "%1 images snapped to '%2'"
-msgstr[0] ""
-msgstr[1] ""
-
-#: gpsdataparser.cpp:639
-#, fuzzy, kde-format
-#| msgid "Could not create '%1'"
-msgid "Could not open: %1"
-msgstr "Nun pudo crease «%1»"
-
-#: gpsdataparser.cpp:645
-msgid "File is empty."
-msgstr ""
-
-#: gpsdataparser.cpp:661
-#, kde-format
-msgid "Parsing error: %1"
-msgstr ""
-
-#: gpsdataparser.cpp:670
-msgid "No GPX element found - probably not a GPX file."
-msgstr ""
-
-#: gpsdataparser.cpp:674
-msgid "File is a GPX file, but no datapoints were found."
-msgstr ""
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xandru@softastur.org, xandru.martino@softastur.org"
 
 #: gpscorrelatorwidget.cpp:164
 #, fuzzy
@@ -302,6 +268,29 @@ msgid_plural "%1 images correlated"
 msgstr[0] ""
 msgstr[1] ""
 
+#: gpsdataparser.cpp:639
+#, fuzzy, kde-format
+#| msgid "Could not create '%1'"
+msgid "Could not open: %1"
+msgstr "Nun pudo crease «%1»"
+
+#: gpsdataparser.cpp:645
+msgid "File is empty."
+msgstr ""
+
+#: gpsdataparser.cpp:661
+#, kde-format
+msgid "Parsing error: %1"
+msgstr ""
+
+#: gpsdataparser.cpp:670
+msgid "No GPX element found - probably not a GPX file."
+msgstr ""
+
+#: gpsdataparser.cpp:674
+msgid "File is a GPX file, but no datapoints were found."
+msgstr ""
+
 #: gpsimagedetails.cpp:120
 #, fuzzy
 #| msgid "Copy coordinates"
@@ -352,6 +341,317 @@ msgstr ""
 msgid "Details changed"
 msgstr ""
 
+#: gpslistviewcontextmenu.cpp:102 searchwidget.cpp:172
+msgid "Copy coordinates"
+msgstr "Copiar coordenaes"
+
+#: gpslistviewcontextmenu.cpp:104
+msgid "Paste coordinates"
+msgstr "Apegar coordenaes"
+
+#: gpslistviewcontextmenu.cpp:106
+#, fuzzy
+#| msgid "Remove Coordinates..."
+msgid "Remove coordinates"
+msgstr "Desaniciar coordenaes..."
+
+#: gpslistviewcontextmenu.cpp:107
+#, fuzzy
+#| msgid "Latitude"
+msgid "Remove altitude"
+msgstr "Llatitú"
+
+#: gpslistviewcontextmenu.cpp:108
+msgid "Remove uncertainty"
+msgstr ""
+
+#: gpslistviewcontextmenu.cpp:109 gpslistviewcontextmenu.cpp:615
+#, fuzzy
+#| msgid "Remove"
+msgid "Remove speed"
+msgstr "Desaniciar"
+
+#: gpslistviewcontextmenu.cpp:110
+msgid "Look up missing altitude values"
+msgstr ""
+
+#: gpslistviewcontextmenu.cpp:136 searchwidget.cpp:202
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+#: gpslistviewcontextmenu.cpp:395
+msgid ""
+"Found more than one point on the clipboard - can only assign one point at a "
+"time."
+msgstr ""
+"Atopóse más d'un puntu nel cartafueyu - sólo se puede asignar ún cada vegada."
+
+#: gpslistviewcontextmenu.cpp:396 gpslistviewcontextmenu.cpp:453
+#: gpslistviewcontextmenu.cpp:713 gpssyncdialog.cpp:400
+msgid "GPS Sync"
+msgstr "Sincronizar GPS"
+
+#: gpslistviewcontextmenu.cpp:453
+msgid "Could not find any coordinates on the clipboard."
+msgstr "Nun se pueden atopar coordenaes nel cartafueyu."
+
+#: gpslistviewcontextmenu.cpp:457
+#, fuzzy
+#| msgid "Copy coordinates"
+msgid "Coordinates pasted"
+msgstr "Copiar coordenaes"
+
+#: gpslistviewcontextmenu.cpp:488
+#, fuzzy
+#| msgid "Bookmarks"
+msgid "Bookmark selected"
+msgstr "Marcadores"
+
+#: gpslistviewcontextmenu.cpp:592
+#, fuzzy
+#| msgid "Remove Coordinates..."
+msgid "Remove coordinates information"
+msgstr "Desaniciar coordenaes..."
+
+#: gpslistviewcontextmenu.cpp:597
+msgid "Remove altitude information"
+msgstr ""
+
+#: gpslistviewcontextmenu.cpp:604
+msgid "Remove uncertainty information"
+msgstr ""
+
+#: gpslistviewcontextmenu.cpp:664
+#, fuzzy
+#| msgid "Longitude"
+msgid "Looking up altitudes"
+msgstr "Llonxitú"
+
+#: gpslistviewcontextmenu.cpp:710
+#, fuzzy, kde-format
+#| msgid "Altitude"
+msgid ""
+"Altitude lookup failed:\n"
+"%1"
+msgstr "Altitú"
+
+#: gpslistviewcontextmenu.cpp:719
+#, fuzzy
+#| msgid "Altitude"
+msgid "Altitude looked up"
+msgstr "Altitú"
+
+#: gpssyncdialog.cpp:242
+msgid "Geolocation"
+msgstr "Xeollocalización"
+
+#: gpssyncdialog.cpp:268
+msgid "Display bookmarked positions on the map."
+msgstr ""
+
+#: gpssyncdialog.cpp:324
+#, fuzzy
+#| msgid "Settings"
+msgid "Sorting"
+msgstr "Configuración"
+
+#: gpssyncdialog.cpp:330
+msgid "Show oldest first"
+msgstr ""
+
+#: gpssyncdialog.cpp:334
+msgid "Show youngest first"
+msgstr ""
+
+#: gpssyncdialog.cpp:375
+msgid "Details"
+msgstr ""
+
+#: gpssyncdialog.cpp:376
+#, fuzzy
+#| msgid "Correlator"
+msgid "GPS Correlator"
+msgstr "Correlativa"
+
+#: gpssyncdialog.cpp:377
+msgid "Undo/Redo"
+msgstr ""
+
+#: gpssyncdialog.cpp:378
+msgid "Reverse Geocoding"
+msgstr ""
+
+#: gpssyncdialog.cpp:379
+msgid "Search"
+msgstr ""
+
+#: gpssyncdialog.cpp:403
+msgid "A Plugin to synchronize pictures' metadata with a GPS device"
+msgstr "Un complementu pa sincronizar metadatos d'imáxenes con un preséu GPS"
+
+#: gpssyncdialog.cpp:404
+#, fuzzy
+#| msgid "(c) 2006-2009, Gilles Caulier"
+msgid "(c) 2006-2011, Gilles Caulier"
+msgstr "(c) 2006-2009, Gilles Caulier"
+
+#: gpssyncdialog.cpp:406
+msgid "Michael G. Hansen"
+msgstr ""
+
+#: gpssyncdialog.cpp:407
+msgid "Developer and maintainer"
+msgstr "Desendolcador y caltenedor"
+
+#: gpssyncdialog.cpp:410
+msgid "Gabriel Voicu"
+msgstr ""
+
+#: gpssyncdialog.cpp:411 gpssyncdialog.cpp:415
+msgid "Developer"
+msgstr ""
+
+#: gpssyncdialog.cpp:414
+msgid "Gilles Caulier"
+msgstr "Gilles Caulier"
+
+#: gpssyncdialog.cpp:420
+msgid "Handbook"
+msgstr "Manual"
+
+#: gpssyncdialog.cpp:596
+msgid "Loading metadata - %p%"
+msgstr ""
+
+#: gpssyncdialog.cpp:773
+#, kde-format
+msgid "You have 1 modified image."
+msgid_plural "You have %1 modified images."
+msgstr[0] ""
+msgstr[1] ""
+
+#: gpssyncdialog.cpp:779
+#, kde-format
+msgid "%1 Would you like to save the changes you made to them?"
+msgstr ""
+
+#: gpssyncdialog.cpp:780
+msgid "Unsaved changes"
+msgstr ""
+
+#: gpssyncdialog.cpp:781
+msgid "Save changes"
+msgstr ""
+
+#: gpssyncdialog.cpp:782
+msgid "Close and discard changes"
+msgstr ""
+
+#: gpssyncdialog.cpp:1001
+#, kde-format
+msgid "1 image moved"
+msgid_plural "%1 images moved"
+msgstr[0] ""
+msgstr[1] ""
+
+#: gpssyncdialog.cpp:1035
+msgid "Saving changes - %p%"
+msgstr ""
+
+#: gpssyncdialog.cpp:1076
+msgid "Failed to save some information:"
+msgstr ""
+
+#: gpssyncdialog.cpp:1076
+msgid "Error"
+msgstr ""
+
+#: kipiimageitem.cpp:362
+msgid "Not available"
+msgstr "Non disponible"
+
+#: kipiimageitem.cpp:395
+#, kde-format
+msgid "DOP: %1"
+msgstr ""
+
+#: kipiimageitem.cpp:400
+#, c-format, kde-format
+msgid "Fix: %1d"
+msgstr ""
+
+#: kipiimageitem.cpp:405
+#, kde-format
+msgid "#Sat: %1"
+msgstr ""
+
+#: kipiimageitem.cpp:439
+#, c-format, kde-format
+msgid "%1d"
+msgstr ""
+
+#: kipiimageitem.cpp:459
+msgid "Modified"
+msgstr ""
+
+#: kipiimageitem.cpp:518
+msgid "Thumbnail"
+msgstr ""
+
+#: kipiimageitem.cpp:520
+msgid "Date and time"
+msgstr ""
+
+#: kipiimageitem.cpp:524
+msgid "Accuracy"
+msgstr ""
+
+#: kipiimageitem.cpp:529
+msgid "Status"
+msgstr "Estáu"
+
+#: kipiimageitem.cpp:530
+#, fuzzy
+#| msgid "Tracks"
+msgid "Tags"
+msgstr "Pistes"
+
+#: kipiimageitem.cpp:713
+msgid "Failed to open file."
+msgstr ""
+
+#: kipiimageitem.cpp:776
+msgid "Failed to add GPS info to image."
+msgstr ""
+
+#: kipiimageitem.cpp:785
+msgid "Failed to remove GPS info from image"
+msgstr ""
+
+#: kipiimageitem.cpp:811 kipiimageitem.cpp:816
+msgid "Failed to save tags to file."
+msgstr ""
+
+#: kipiimageitem.cpp:826
+msgid "Unable to save changes to file"
+msgstr ""
+
+#: gpsbookmarkowner.cpp:108
+msgid "Bookmark location"
+msgstr ""
+
+#: gpsbookmarkowner.cpp:109
+msgctxt "Title of the new gps location bookmark"
+msgid "Title:"
+msgstr "Títulu:"
+
+#: gpsbookmarkowner.cpp:345 searchwidget.cpp:745
+#, kde-format
+msgid "1 image snapped to '%2'"
+msgid_plural "%1 images snapped to '%2'"
+msgstr[0] ""
+msgstr[1] ""
+
 #: searchbackend.cpp:300
 msgid "GeoNames"
 msgstr ""
@@ -377,10 +677,6 @@ msgstr ""
 msgid "Toggle the visibility of the search results on the map."
 msgstr ""
 
-#: searchwidget.cpp:172 gpslistviewcontextmenu.cpp:102
-msgid "Copy coordinates"
-msgstr "Copiar coordenaes"
-
 #: searchwidget.cpp:175
 msgid "Move selected images to this position"
 msgstr ""
@@ -392,10 +688,6 @@ msgstr ""
 #: searchwidget.cpp:181
 msgid "Select which service you would like to use."
 msgstr ""
-
-#: searchwidget.cpp:202 gpslistviewcontextmenu.cpp:136
-msgid "Bookmarks"
-msgstr "Marcadores"
 
 #: searchwidget.cpp:255
 #, kde-format
@@ -756,303 +1048,11 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: setup.cpp:112
+#: plugin_gpssync.cpp:74
 #, fuzzy
-#| msgid "Configuration"
-msgid "Configure"
-msgstr "Configuración"
-
-#: setup.cpp:118
-msgctxt "General setup"
-msgid "General"
-msgstr ""
-
-#: kipiimageitem.cpp:362
-msgid "Not available"
-msgstr "Non disponible"
-
-#: kipiimageitem.cpp:395
-#, kde-format
-msgid "DOP: %1"
-msgstr ""
-
-#: kipiimageitem.cpp:400
-#, c-format, kde-format
-msgid "Fix: %1d"
-msgstr ""
-
-#: kipiimageitem.cpp:405
-#, kde-format
-msgid "#Sat: %1"
-msgstr ""
-
-#: kipiimageitem.cpp:439
-#, c-format, kde-format
-msgid "%1d"
-msgstr ""
-
-#: kipiimageitem.cpp:459
-msgid "Modified"
-msgstr ""
-
-#: kipiimageitem.cpp:518
-msgid "Thumbnail"
-msgstr ""
-
-#: kipiimageitem.cpp:520
-msgid "Date and time"
-msgstr ""
-
-#: kipiimageitem.cpp:524
-msgid "Accuracy"
-msgstr ""
-
-#: kipiimageitem.cpp:529
-msgid "Status"
-msgstr "Estáu"
-
-#: kipiimageitem.cpp:530
-#, fuzzy
-#| msgid "Tracks"
-msgid "Tags"
-msgstr "Pistes"
-
-#: kipiimageitem.cpp:713
-msgid "Failed to open file."
-msgstr ""
-
-#: kipiimageitem.cpp:776
-msgid "Failed to add GPS info to image."
-msgstr ""
-
-#: kipiimageitem.cpp:785
-msgid "Failed to remove GPS info from image"
-msgstr ""
-
-#: kipiimageitem.cpp:811 kipiimageitem.cpp:816
-msgid "Failed to save tags to file."
-msgstr ""
-
-#: kipiimageitem.cpp:826
-msgid "Unable to save changes to file"
-msgstr ""
-
-#: gpssyncdialog.cpp:242
-msgid "Geolocation"
+#| msgid "Geolocation"
+msgid "Geo-location"
 msgstr "Xeollocalización"
-
-#: gpssyncdialog.cpp:268
-msgid "Display bookmarked positions on the map."
-msgstr ""
-
-#: gpssyncdialog.cpp:324
-#, fuzzy
-#| msgid "Settings"
-msgid "Sorting"
-msgstr "Configuración"
-
-#: gpssyncdialog.cpp:330
-msgid "Show oldest first"
-msgstr ""
-
-#: gpssyncdialog.cpp:334
-msgid "Show youngest first"
-msgstr ""
-
-#: gpssyncdialog.cpp:375
-msgid "Details"
-msgstr ""
-
-#: gpssyncdialog.cpp:376
-#, fuzzy
-#| msgid "Correlator"
-msgid "GPS Correlator"
-msgstr "Correlativa"
-
-#: gpssyncdialog.cpp:377
-msgid "Undo/Redo"
-msgstr ""
-
-#: gpssyncdialog.cpp:378
-msgid "Reverse Geocoding"
-msgstr ""
-
-#: gpssyncdialog.cpp:379
-msgid "Search"
-msgstr ""
-
-#: gpssyncdialog.cpp:400 gpslistviewcontextmenu.cpp:396
-#: gpslistviewcontextmenu.cpp:453 gpslistviewcontextmenu.cpp:713
-msgid "GPS Sync"
-msgstr "Sincronizar GPS"
-
-#: gpssyncdialog.cpp:403
-msgid "A Plugin to synchronize pictures' metadata with a GPS device"
-msgstr "Un complementu pa sincronizar metadatos d'imáxenes con un preséu GPS"
-
-#: gpssyncdialog.cpp:404
-#, fuzzy
-#| msgid "(c) 2006-2009, Gilles Caulier"
-msgid "(c) 2006-2011, Gilles Caulier"
-msgstr "(c) 2006-2009, Gilles Caulier"
-
-#: gpssyncdialog.cpp:406
-msgid "Michael G. Hansen"
-msgstr ""
-
-#: gpssyncdialog.cpp:407
-msgid "Developer and maintainer"
-msgstr "Desendolcador y caltenedor"
-
-#: gpssyncdialog.cpp:410
-msgid "Gabriel Voicu"
-msgstr ""
-
-#: gpssyncdialog.cpp:411 gpssyncdialog.cpp:415
-msgid "Developer"
-msgstr ""
-
-#: gpssyncdialog.cpp:414
-msgid "Gilles Caulier"
-msgstr "Gilles Caulier"
-
-#: gpssyncdialog.cpp:420
-msgid "Handbook"
-msgstr "Manual"
-
-#: gpssyncdialog.cpp:596
-msgid "Loading metadata - %p%"
-msgstr ""
-
-#: gpssyncdialog.cpp:773
-#, kde-format
-msgid "You have 1 modified image."
-msgid_plural "You have %1 modified images."
-msgstr[0] ""
-msgstr[1] ""
-
-#: gpssyncdialog.cpp:779
-#, kde-format
-msgid "%1 Would you like to save the changes you made to them?"
-msgstr ""
-
-#: gpssyncdialog.cpp:780
-msgid "Unsaved changes"
-msgstr ""
-
-#: gpssyncdialog.cpp:781
-msgid "Save changes"
-msgstr ""
-
-#: gpssyncdialog.cpp:782
-msgid "Close and discard changes"
-msgstr ""
-
-#: gpssyncdialog.cpp:1001
-#, kde-format
-msgid "1 image moved"
-msgid_plural "%1 images moved"
-msgstr[0] ""
-msgstr[1] ""
-
-#: gpssyncdialog.cpp:1035
-msgid "Saving changes - %p%"
-msgstr ""
-
-#: gpssyncdialog.cpp:1076
-msgid "Failed to save some information:"
-msgstr ""
-
-#: gpssyncdialog.cpp:1076
-msgid "Error"
-msgstr ""
-
-#: gpslistviewcontextmenu.cpp:104
-msgid "Paste coordinates"
-msgstr "Apegar coordenaes"
-
-#: gpslistviewcontextmenu.cpp:106
-#, fuzzy
-#| msgid "Remove Coordinates..."
-msgid "Remove coordinates"
-msgstr "Desaniciar coordenaes..."
-
-#: gpslistviewcontextmenu.cpp:107
-#, fuzzy
-#| msgid "Latitude"
-msgid "Remove altitude"
-msgstr "Llatitú"
-
-#: gpslistviewcontextmenu.cpp:108
-msgid "Remove uncertainty"
-msgstr ""
-
-#: gpslistviewcontextmenu.cpp:109 gpslistviewcontextmenu.cpp:615
-#, fuzzy
-#| msgid "Remove"
-msgid "Remove speed"
-msgstr "Desaniciar"
-
-#: gpslistviewcontextmenu.cpp:110
-msgid "Look up missing altitude values"
-msgstr ""
-
-#: gpslistviewcontextmenu.cpp:395
-msgid ""
-"Found more than one point on the clipboard - can only assign one point at a "
-"time."
-msgstr ""
-"Atopóse más d'un puntu nel cartafueyu - sólo se puede asignar ún cada vegada."
-
-#: gpslistviewcontextmenu.cpp:453
-msgid "Could not find any coordinates on the clipboard."
-msgstr "Nun se pueden atopar coordenaes nel cartafueyu."
-
-#: gpslistviewcontextmenu.cpp:457
-#, fuzzy
-#| msgid "Copy coordinates"
-msgid "Coordinates pasted"
-msgstr "Copiar coordenaes"
-
-#: gpslistviewcontextmenu.cpp:488
-#, fuzzy
-#| msgid "Bookmarks"
-msgid "Bookmark selected"
-msgstr "Marcadores"
-
-#: gpslistviewcontextmenu.cpp:592
-#, fuzzy
-#| msgid "Remove Coordinates..."
-msgid "Remove coordinates information"
-msgstr "Desaniciar coordenaes..."
-
-#: gpslistviewcontextmenu.cpp:597
-msgid "Remove altitude information"
-msgstr ""
-
-#: gpslistviewcontextmenu.cpp:604
-msgid "Remove uncertainty information"
-msgstr ""
-
-#: gpslistviewcontextmenu.cpp:664
-#, fuzzy
-#| msgid "Longitude"
-msgid "Looking up altitudes"
-msgstr "Llonxitú"
-
-#: gpslistviewcontextmenu.cpp:710
-#, fuzzy, kde-format
-#| msgid "Altitude"
-msgid ""
-"Altitude lookup failed:\n"
-"%1"
-msgstr "Altitú"
-
-#: gpslistviewcontextmenu.cpp:719
-#, fuzzy
-#| msgid "Altitude"
-msgid "Altitude looked up"
-msgstr "Altitú"
 
 #~ msgid "%1 - Edit Geographical Coordinates"
 #~ msgstr "%1 - Editar Coordenaes Xeográfiques"
