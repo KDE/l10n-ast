@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4-v1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-20 04:42+0100\n"
+"POT-Creation-Date: 2012-01-29 13:31+0100\n"
 "PO-Revision-Date: 2009-10-09 16:25+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -228,156 +228,133 @@ msgstr ""
 msgid "Device name"
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:53
-msgid "&Share"
+#: kfile/kfiledialog.cpp:126
+msgid "*|All files"
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:127
-msgid "Only folders in your home folder can be shared."
+#: kfile/kfiledialog.cpp:357 ../kfile/kfilefiltercombo.cpp:185
+msgid "All Supported Files"
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:134
-msgid "Not shared"
+#: kfile/kfiledialog.cpp:480 kfile/kfiledialog.cpp:490
+#: kfile/kfiledialog.cpp:511 kfile/kfiledialog.cpp:535
+#: kfile/kfiledialog.cpp:545 kfile/kfiledialog.cpp:571
+#: kfile/kfiledialog.cpp:603 kfile/kfiledialog.cpp:658
+#: kfile/kurlrequesterdialog.cpp:128 kfile/kicondialog.cpp:693
+#: kfile/kencodingfiledialog.cpp:106 kfile/kencodingfiledialog.cpp:124
+#: kfile/kencodingfiledialog.cpp:139 kfile/kencodingfiledialog.cpp:157
+msgid "Open"
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:139
-msgid "Shared"
+#: kfile/kfiledialog.cpp:738 kfile/kfiledialog.cpp:757
+#: kfile/kfiledialog.cpp:794 kfile/kfiledialog.cpp:836
+#: kfile/kencodingfiledialog.cpp:177 kfile/kencodingfiledialog.cpp:198
+msgid "Save As"
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:151
-msgid ""
-"Sharing this folder makes it available under Linux/UNIX (NFS) and Windows "
-"(Samba)."
-msgstr ""
-
-#: kfile/kfilesharedialog.cpp:158
-msgid "You can also reconfigure file sharing authorization."
-msgstr ""
-
-#: kfile/kfilesharedialog.cpp:162 kfile/kfilesharedialog.cpp:186
-msgid "Configure File Sharing..."
-msgstr ""
-
-#: kfile/kfilesharedialog.cpp:171
-msgid ""
-"Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
-msgstr ""
-
-#: kfile/kfilesharedialog.cpp:178
-msgid "You need to be authorized to share folders."
-msgstr ""
-
-#: kfile/kfilesharedialog.cpp:181
-msgid "File sharing is disabled."
-msgstr ""
-
-#: kfile/kfilesharedialog.cpp:248
-#, kde-format
-msgid "Sharing folder '%1' failed."
-msgstr ""
-
-#: kfile/kfilesharedialog.cpp:249
-#, kde-format
-msgid ""
-"An error occurred while trying to share folder '%1'. Make sure that the Perl "
-"script 'fileshareset' is set suid root."
-msgstr ""
-
-#: kfile/kfilesharedialog.cpp:254
-#, kde-format
-msgid "Unsharing folder '%1' failed."
-msgstr ""
-
-#: kfile/kfilesharedialog.cpp:255
-#, kde-format
-msgid ""
-"An error occurred while trying to unshare folder '%1'. Make sure that the "
-"Perl script 'fileshareset' is set suid root."
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:269
-msgid "Known Applications"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:483
-msgid "Open With"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:488
-#, kde-format
-msgid ""
-"<qt>Select the program that should be used to open <b>%1</b>. If the program "
-"is not listed, enter the name or click the browse button.</qt>"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:494
-msgid "Choose the name of the program with which to open the selected files."
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:521
-#, kde-format
-msgid "Choose Application for %1"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:522
-#, kde-format
-msgid ""
-"<qt>Select the program for the file type: <b>%1</b>. If the program is not "
-"listed, enter the name or click the browse button.</qt>"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:537
-msgid "Choose Application"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:538
-msgid ""
-"<qt>Select a program. If the program is not listed, enter the name or click "
-"the browse button.</qt>"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:601
-msgid ""
-"Following the command, you can have several place holders which will be "
-"replaced with the actual values when the actual program is run:\n"
-"%f - a single file name\n"
-"%F - a list of files; use for applications that can open several local files "
-"at once\n"
-"%u - a single URL\n"
-"%U - a list of URLs\n"
-"%d - the directory of the file to open\n"
-"%D - a list of directories\n"
-"%i - the icon\n"
-"%m - the mini-icon\n"
-"%c - the comment"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:636
-msgid "Run in &terminal"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:653
-msgid "&Do not close when command exits"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:670
-msgid "&Remember application association for this type of file"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:814
-#, kde-format
-msgid ""
-"Could not extract executable name from '%1', please type a valid program "
-"name."
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:860
-#, kde-format
-msgid "'%1' not found, please type a valid program name."
+#: kfile/kurlrequesterdialog.cpp:58 kfile/kpropertiesdialog.cpp:984
+msgid "Location:"
 msgstr ""
 
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
+msgid "Owner"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
+msgid "Owning Group"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:464
+#: kfile/kpropertiesdialog.cpp:2001
+msgid "Others"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
+msgid "Mask"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:65
+msgid "Named User"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:66
+msgid "Named Group"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:580
+#: ../kfile/kfileplacesview.cpp:601 ../kfile/kfileplacesview.cpp:608
+msgid "Add Entry..."
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:102
+msgid "Edit Entry..."
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:106
+msgid "Delete Entry"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:307
+msgid " (Default)"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:431
+msgid "Edit ACL Entry"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:439
+msgid "Entry Type"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:445
+msgid "Default for new files in this folder"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:474
+msgid "Named user"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:479
+msgid "Named group"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:499
+msgid "User: "
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:505
+msgid "Group: "
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:625
+msgid "Type"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:626
+msgid "Name"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:627
+msgctxt "read permission"
+msgid "r"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:628
+msgctxt "write permission"
+msgid "w"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:629
+msgctxt "execute permission"
+msgid "x"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:630
+msgid "Effective"
 msgstr ""
 
 #: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:422
@@ -762,36 +739,310 @@ msgstr ""
 msgid "P&review"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:217
-msgid "KFileMetaDataReader"
+#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
+msgid "Select Icon"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:219
-msgid "KFileMetaDataReader can be used to read metadata from a file"
+#: kfile/kicondialog.cpp:369
+msgid "Icon Source"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:221
-msgid "(C) 2011, Peter Penz"
+#: kfile/kicondialog.cpp:378
+msgid "S&ystem icons:"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:222
-msgid "Peter Penz"
+#: kfile/kicondialog.cpp:385
+msgid "O&ther icons:"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:222
-msgid "Current maintainer"
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
+#. i18n: ectx: property (text), widget (QPushButton, browseButton)
+#: kfile/kicondialog.cpp:388 rc.cpp:134
+msgid "&Browse..."
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:228
-msgid "Only the meta data that is part of the file is read"
+#: kfile/kicondialog.cpp:399
+msgid "&Search:"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:229
-msgid "List of URLs where the meta-data should be read from"
+#: kfile/kicondialog.cpp:406
+msgid "Search interactively for icon names (e.g. folder)."
+msgstr ""
+
+#: kfile/kicondialog.cpp:437
+msgid "Actions"
+msgstr ""
+
+#: kfile/kicondialog.cpp:438
+msgid "Animations"
+msgstr ""
+
+#: kfile/kicondialog.cpp:439
+msgid "Applications"
+msgstr ""
+
+#: kfile/kicondialog.cpp:440
+msgid "Categories"
+msgstr ""
+
+#: kfile/kicondialog.cpp:441
+msgid "Devices"
+msgstr ""
+
+#: kfile/kicondialog.cpp:442
+msgid "Emblems"
+msgstr ""
+
+#: kfile/kicondialog.cpp:443
+msgid "Emotes"
+msgstr ""
+
+#: kfile/kicondialog.cpp:444
+msgid "Filesystems"
+msgstr ""
+
+#: kfile/kicondialog.cpp:445
+msgid "International"
+msgstr ""
+
+#: kfile/kicondialog.cpp:446
+msgid "Mimetypes"
+msgstr ""
+
+#: kfile/kicondialog.cpp:447
+msgid "Places"
+msgstr ""
+
+#: kfile/kicondialog.cpp:448
+msgid "Status"
+msgstr ""
+
+#: kfile/kicondialog.cpp:691
+msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
 msgstr ""
 
 #: kfile/kurlrequester.cpp:246
 msgid "Open file dialog"
+msgstr ""
+
+#: kfile/kfilemetadataprovider.cpp:223
+#, kde-format
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kfile/kfilemetadataprovider.cpp:423
+msgctxt "@label"
+msgid "Modified"
+msgstr ""
+
+#: kfile/kfilemetadataprovider.cpp:424
+msgctxt "@label"
+msgid "Owner"
+msgstr ""
+
+#: kfile/kfilemetadataprovider.cpp:425
+msgctxt "@label"
+msgid "Permissions"
+msgstr ""
+
+#: kfile/kfilemetadataprovider.cpp:426
+msgctxt "@label"
+msgid "Rating"
+msgstr ""
+
+#: kfile/kfilemetadataprovider.cpp:427
+msgctxt "@label"
+msgid "Size"
+msgstr ""
+
+#: kfile/kfilemetadataprovider.cpp:428
+msgctxt "@label"
+msgid "Tags"
+msgstr ""
+
+#: kfile/kfilemetadataprovider.cpp:429
+msgctxt "@label"
+msgid "Total Size"
+msgstr ""
+
+#: kfile/kfilemetadataprovider.cpp:430
+msgctxt "@label"
+msgid "Type"
+msgstr ""
+
+#: kfile/kcommentwidget.cpp:65
+msgctxt "@label"
+msgid "Add Comment..."
+msgstr ""
+
+#: kfile/kcommentwidget.cpp:71
+msgctxt "@label"
+msgid "Change..."
+msgstr ""
+
+#: kfile/kcommentwidget.cpp:124
+msgctxt "@title:window"
+msgid "Change Comment"
+msgstr ""
+
+#: kfile/kcommentwidget.cpp:125
+msgctxt "@title:window"
+msgid "Add Comment"
+msgstr ""
+
+#: kfile/kencodingfiledialog.cpp:49
+msgid "Encoding:"
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:53
+msgid "&Share"
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:127
+msgid "Only folders in your home folder can be shared."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:134
+msgid "Not shared"
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:139
+msgid "Shared"
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:151
+msgid ""
+"Sharing this folder makes it available under Linux/UNIX (NFS) and Windows "
+"(Samba)."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:158
+msgid "You can also reconfigure file sharing authorization."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:162 kfile/kfilesharedialog.cpp:186
+msgid "Configure File Sharing..."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:171
+msgid ""
+"Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:178
+msgid "You need to be authorized to share folders."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:181
+msgid "File sharing is disabled."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:248
+#, kde-format
+msgid "Sharing folder '%1' failed."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:249
+#, kde-format
+msgid ""
+"An error occurred while trying to share folder '%1'. Make sure that the Perl "
+"script 'fileshareset' is set suid root."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:254
+#, kde-format
+msgid "Unsharing folder '%1' failed."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:255
+#, kde-format
+msgid ""
+"An error occurred while trying to unshare folder '%1'. Make sure that the "
+"Perl script 'fileshareset' is set suid root."
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:269
+msgid "Known Applications"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:483
+msgid "Open With"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:488
+#, kde-format
+msgid ""
+"<qt>Select the program that should be used to open <b>%1</b>. If the program "
+"is not listed, enter the name or click the browse button.</qt>"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:494
+msgid "Choose the name of the program with which to open the selected files."
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:521
+#, kde-format
+msgid "Choose Application for %1"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:522
+#, kde-format
+msgid ""
+"<qt>Select the program for the file type: <b>%1</b>. If the program is not "
+"listed, enter the name or click the browse button.</qt>"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:537
+msgid "Choose Application"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:538
+msgid ""
+"<qt>Select a program. If the program is not listed, enter the name or click "
+"the browse button.</qt>"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:601
+msgid ""
+"Following the command, you can have several place holders which will be "
+"replaced with the actual values when the actual program is run:\n"
+"%f - a single file name\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
+"%u - a single URL\n"
+"%U - a list of URLs\n"
+"%d - the directory of the file to open\n"
+"%D - a list of directories\n"
+"%i - the icon\n"
+"%m - the mini-icon\n"
+"%c - the comment"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:636
+msgid "Run in &terminal"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:653
+msgid "&Do not close when command exits"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:670
+msgid "&Remember application association for this type of file"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:814
+#, kde-format
+msgid ""
+"Could not extract executable name from '%1', please type a valid program "
+"name."
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:860
+#, kde-format
+msgid "'%1' not found, please type a valid program name."
 msgstr ""
 
 #: kfile/kpropertiesdialog.cpp:212 kfile/kpropertiesdialog.cpp:227
@@ -827,10 +1078,6 @@ msgstr ""
 
 #: kfile/kpropertiesdialog.cpp:975
 msgid "Contents:"
-msgstr ""
-
-#: kfile/kpropertiesdialog.cpp:984 kfile/kurlrequesterdialog.cpp:58
-msgid "Location:"
 msgstr ""
 
 #: kfile/kpropertiesdialog.cpp:998 kio/kfileitem.cpp:1139
@@ -1122,11 +1369,6 @@ msgstr ""
 msgid "Group"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2001 kfile/kacleditwidget.cpp:63
-#: kfile/kacleditwidget.cpp:464
-msgid "Others"
-msgstr ""
-
 #: kfile/kpropertiesdialog.cpp:2005
 msgid "Set UID"
 msgstr ""
@@ -1257,282 +1499,32 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:126
-msgid "*|All files"
+#: kfile/kfilemetadatareaderprocess.cpp:217
+msgid "KFileMetaDataReader"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:357 ../kfile/kfilefiltercombo.cpp:185
-msgid "All Supported Files"
+#: kfile/kfilemetadatareaderprocess.cpp:219
+msgid "KFileMetaDataReader can be used to read metadata from a file"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:480 kfile/kfiledialog.cpp:490
-#: kfile/kfiledialog.cpp:511 kfile/kfiledialog.cpp:535
-#: kfile/kfiledialog.cpp:545 kfile/kfiledialog.cpp:571
-#: kfile/kfiledialog.cpp:603 kfile/kfiledialog.cpp:658
-#: kfile/kicondialog.cpp:693 kfile/kencodingfiledialog.cpp:106
-#: kfile/kencodingfiledialog.cpp:124 kfile/kencodingfiledialog.cpp:139
-#: kfile/kencodingfiledialog.cpp:157 kfile/kurlrequesterdialog.cpp:128
-msgid "Open"
+#: kfile/kfilemetadatareaderprocess.cpp:221
+msgid "(C) 2011, Peter Penz"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:738 kfile/kfiledialog.cpp:757
-#: kfile/kfiledialog.cpp:794 kfile/kfiledialog.cpp:836
-#: kfile/kencodingfiledialog.cpp:177 kfile/kencodingfiledialog.cpp:198
-msgid "Save As"
+#: kfile/kfilemetadatareaderprocess.cpp:222
+msgid "Peter Penz"
 msgstr ""
 
-#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
-msgid "Owner"
+#: kfile/kfilemetadatareaderprocess.cpp:222
+msgid "Current maintainer"
 msgstr ""
 
-#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
-msgid "Owning Group"
+#: kfile/kfilemetadatareaderprocess.cpp:228
+msgid "Only the meta data that is part of the file is read"
 msgstr ""
 
-#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
-msgid "Mask"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:65
-msgid "Named User"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:66
-msgid "Named Group"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:580
-#: ../kfile/kfileplacesview.cpp:601 ../kfile/kfileplacesview.cpp:608
-msgid "Add Entry..."
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:102
-msgid "Edit Entry..."
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:106
-msgid "Delete Entry"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:307
-msgid " (Default)"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:431
-msgid "Edit ACL Entry"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:439
-msgid "Entry Type"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:445
-msgid "Default for new files in this folder"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:474
-msgid "Named user"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:479
-msgid "Named group"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:499
-msgid "User: "
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:505
-msgid "Group: "
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:625
-msgid "Type"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:626
-msgid "Name"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:627
-msgctxt "read permission"
-msgid "r"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:628
-msgctxt "write permission"
-msgid "w"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:629
-msgctxt "execute permission"
-msgid "x"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:630
-msgid "Effective"
-msgstr ""
-
-#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
-msgid "Select Icon"
-msgstr ""
-
-#: kfile/kicondialog.cpp:369
-msgid "Icon Source"
-msgstr ""
-
-#: kfile/kicondialog.cpp:378
-msgid "S&ystem icons:"
-msgstr ""
-
-#: kfile/kicondialog.cpp:385
-msgid "O&ther icons:"
-msgstr ""
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
-#. i18n: ectx: property (text), widget (QPushButton, browseButton)
-#: kfile/kicondialog.cpp:388 rc.cpp:134
-msgid "&Browse..."
-msgstr ""
-
-#: kfile/kicondialog.cpp:399
-msgid "&Search:"
-msgstr ""
-
-#: kfile/kicondialog.cpp:406
-msgid "Search interactively for icon names (e.g. folder)."
-msgstr ""
-
-#: kfile/kicondialog.cpp:437
-msgid "Actions"
-msgstr ""
-
-#: kfile/kicondialog.cpp:438
-msgid "Animations"
-msgstr ""
-
-#: kfile/kicondialog.cpp:439
-msgid "Applications"
-msgstr ""
-
-#: kfile/kicondialog.cpp:440
-msgid "Categories"
-msgstr ""
-
-#: kfile/kicondialog.cpp:441
-msgid "Devices"
-msgstr ""
-
-#: kfile/kicondialog.cpp:442
-msgid "Emblems"
-msgstr ""
-
-#: kfile/kicondialog.cpp:443
-msgid "Emotes"
-msgstr ""
-
-#: kfile/kicondialog.cpp:444
-msgid "Filesystems"
-msgstr ""
-
-#: kfile/kicondialog.cpp:445
-msgid "International"
-msgstr ""
-
-#: kfile/kicondialog.cpp:446
-msgid "Mimetypes"
-msgstr ""
-
-#: kfile/kicondialog.cpp:447
-msgid "Places"
-msgstr ""
-
-#: kfile/kicondialog.cpp:448
-msgid "Status"
-msgstr ""
-
-#: kfile/kicondialog.cpp:691
-msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
-msgstr ""
-
-#: kfile/kfilemetadataprovider.cpp:223
-#, kde-format
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] ""
-msgstr[1] ""
-
-#: kfile/kfilemetadataprovider.cpp:423
-msgctxt "@label"
-msgid "Modified"
-msgstr ""
-
-#: kfile/kfilemetadataprovider.cpp:424
-msgctxt "@label"
-msgid "Owner"
-msgstr ""
-
-#: kfile/kfilemetadataprovider.cpp:425
-msgctxt "@label"
-msgid "Permissions"
-msgstr ""
-
-#: kfile/kfilemetadataprovider.cpp:426
-msgctxt "@label"
-msgid "Rating"
-msgstr ""
-
-#: kfile/kfilemetadataprovider.cpp:427
-msgctxt "@label"
-msgid "Size"
-msgstr ""
-
-#: kfile/kfilemetadataprovider.cpp:428
-msgctxt "@label"
-msgid "Tags"
-msgstr ""
-
-#: kfile/kfilemetadataprovider.cpp:429
-msgctxt "@label"
-msgid "Total Size"
-msgstr ""
-
-#: kfile/kfilemetadataprovider.cpp:430
-msgctxt "@label"
-msgid "Type"
-msgstr ""
-
-#: kfile/kcommentwidget.cpp:65
-msgctxt "@label"
-msgid "Add Comment..."
-msgstr ""
-
-#: kfile/kcommentwidget.cpp:71
-msgctxt "@label"
-msgid "Change..."
-msgstr ""
-
-#: kfile/kcommentwidget.cpp:124
-msgctxt "@title:window"
-msgid "Change Comment"
-msgstr ""
-
-#: kfile/kcommentwidget.cpp:125
-msgctxt "@title:window"
-msgid "Add Comment"
-msgstr ""
-
-#: kfile/kencodingfiledialog.cpp:49
-msgid "Encoding:"
-msgstr ""
-
-#: kio/accessmanager.cpp:234
-msgid "Blocked request."
-msgstr ""
-
-#: kio/accessmanager.cpp:296
-msgid "Unknown HTTP verb."
+#: kfile/kfilemetadatareaderprocess.cpp:229
+msgid "List of URLs where the meta-data should be read from"
 msgstr ""
 
 #: kio/chmodjob.cpp:212
@@ -1562,81 +1554,6 @@ msgstr ""
 
 #: kio/copyjob.cpp:1375 kio/copyjob.cpp:1957
 msgid "Already Exists as Folder"
-msgstr ""
-
-#: kio/fileundomanager.cpp:116
-msgid "Creating directory"
-msgstr ""
-
-#: kio/fileundomanager.cpp:117 kio/job.cpp:140
-msgid "Directory"
-msgstr ""
-
-#: kio/fileundomanager.cpp:119
-msgid "Moving"
-msgstr ""
-
-#: kio/fileundomanager.cpp:120 kio/job.cpp:126 kio/job.cpp:133 kio/job.cpp:158
-msgctxt "The source of a file operation"
-msgid "Source"
-msgstr ""
-
-#: kio/fileundomanager.cpp:121 kio/job.cpp:127 kio/job.cpp:134
-msgctxt "The destination of a file operation"
-msgid "Destination"
-msgstr ""
-
-#: kio/fileundomanager.cpp:123
-msgid "Deleting"
-msgstr ""
-
-#: kio/fileundomanager.cpp:124 kio/job.cpp:146 kio/job.cpp:152
-msgid "File"
-msgstr ""
-
-#: kio/fileundomanager.cpp:285
-msgid "Und&o"
-msgstr ""
-
-#: kio/fileundomanager.cpp:290
-msgid "Und&o: Copy"
-msgstr ""
-
-#: kio/fileundomanager.cpp:292
-msgid "Und&o: Link"
-msgstr ""
-
-#: kio/fileundomanager.cpp:294
-msgid "Und&o: Move"
-msgstr ""
-
-#: kio/fileundomanager.cpp:296
-msgid "Und&o: Rename"
-msgstr ""
-
-#: kio/fileundomanager.cpp:298
-msgid "Und&o: Trash"
-msgstr ""
-
-#: kio/fileundomanager.cpp:300
-msgid "Und&o: Create Folder"
-msgstr ""
-
-#: kio/fileundomanager.cpp:302
-msgid "Und&o: Create File"
-msgstr ""
-
-#: kio/fileundomanager.cpp:771
-#, kde-format
-msgid ""
-"The file %1 was copied from %2, but since then it has apparently been "
-"modified at %3.\n"
-"Undoing the copy will delete the file, and all modifications will be lost.\n"
-"Are you sure you want to delete %4?"
-msgstr ""
-
-#: kio/fileundomanager.cpp:774
-msgid "Undo File Copy Confirmation"
 msgstr ""
 
 #: kio/global.cpp:89
@@ -3214,52 +3131,79 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr ""
 
-#: kio/job.cpp:125
-msgctxt "@title job"
-msgid "Moving"
-msgstr ""
-
-#: kio/job.cpp:132
-msgctxt "@title job"
-msgid "Copying"
-msgstr ""
-
-#: kio/job.cpp:139
-msgctxt "@title job"
+#: kio/fileundomanager.cpp:116
 msgid "Creating directory"
 msgstr ""
 
-#: kio/job.cpp:145
-msgctxt "@title job"
+#: kio/fileundomanager.cpp:117 kio/job.cpp:140
+msgid "Directory"
+msgstr ""
+
+#: kio/fileundomanager.cpp:119
+msgid "Moving"
+msgstr ""
+
+#: kio/fileundomanager.cpp:120 kio/job.cpp:126 kio/job.cpp:133 kio/job.cpp:158
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr ""
+
+#: kio/fileundomanager.cpp:121 kio/job.cpp:127 kio/job.cpp:134
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr ""
+
+#: kio/fileundomanager.cpp:123
 msgid "Deleting"
 msgstr ""
 
-#: kio/job.cpp:151
-msgctxt "@title job"
-msgid "Examining"
+#: kio/fileundomanager.cpp:124 kio/job.cpp:146 kio/job.cpp:152
+msgid "File"
 msgstr ""
 
-#: kio/job.cpp:157
-msgctxt "@title job"
-msgid "Transferring"
+#: kio/fileundomanager.cpp:285
+msgid "Und&o"
 msgstr ""
 
-#: kio/job.cpp:163
-msgctxt "@title job"
-msgid "Mounting"
+#: kio/fileundomanager.cpp:290
+msgid "Und&o: Copy"
 msgstr ""
 
-#: kio/job.cpp:164
-msgid "Device"
+#: kio/fileundomanager.cpp:292
+msgid "Und&o: Link"
 msgstr ""
 
-#: kio/job.cpp:165 kio/job.cpp:171
-msgid "Mountpoint"
+#: kio/fileundomanager.cpp:294
+msgid "Und&o: Move"
 msgstr ""
 
-#: kio/job.cpp:170
-msgctxt "@title job"
-msgid "Unmounting"
+#: kio/fileundomanager.cpp:296
+msgid "Und&o: Rename"
+msgstr ""
+
+#: kio/fileundomanager.cpp:298
+msgid "Und&o: Trash"
+msgstr ""
+
+#: kio/fileundomanager.cpp:300
+msgid "Und&o: Create Folder"
+msgstr ""
+
+#: kio/fileundomanager.cpp:302
+msgid "Und&o: Create File"
+msgstr ""
+
+#: kio/fileundomanager.cpp:771
+#, kde-format
+msgid ""
+"The file %1 was copied from %2, but since then it has apparently been "
+"modified at %3.\n"
+"Undoing the copy will delete the file, and all modifications will be lost.\n"
+"Are you sure you want to delete %4?"
+msgstr ""
+
+#: kio/fileundomanager.cpp:774
+msgid "Undo File Copy Confirmation"
 msgstr ""
 
 #: kio/jobuidelegate.cpp:149 ../kfile/kdiroperator.cpp:812
@@ -3354,21 +3298,6 @@ msgstr ""
 
 #: kio/kdesktopfileactions.cpp:220
 msgid "Unmount"
-msgstr ""
-
-#: kio/kdirlister.cpp:389 kio/krun.cpp:1133 kio/paste.cpp:335
-#: kio/renamedialog.cpp:411
-#, kde-format
-msgid ""
-"Malformed URL\n"
-"%1"
-msgstr ""
-
-#: kio/kdirlister.cpp:399
-#, kde-format
-msgid ""
-"URL cannot be listed\n"
-"%1"
 msgstr ""
 
 #: kio/kdirmodel.cpp:998
@@ -3584,6 +3513,14 @@ msgstr ""
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
+#: kio/krun.cpp:1133 kio/kdirlister.cpp:389 kio/paste.cpp:335
+#: kio/renamedialog.cpp:411
+#, kde-format
+msgid ""
+"Malformed URL\n"
+"%1"
+msgstr ""
+
 #: kio/krun.cpp:1165
 #, kde-format
 msgid ""
@@ -3594,6 +3531,69 @@ msgstr ""
 #: kio/krun.cpp:1777
 #, kde-format
 msgid "Could not find the program '%1'"
+msgstr ""
+
+#: kio/kdirlister.cpp:399
+#, kde-format
+msgid ""
+"URL cannot be listed\n"
+"%1"
+msgstr ""
+
+#: kio/accessmanager.cpp:234
+msgid "Blocked request."
+msgstr ""
+
+#: kio/accessmanager.cpp:296
+msgid "Unknown HTTP verb."
+msgstr ""
+
+#: kio/job.cpp:125
+msgctxt "@title job"
+msgid "Moving"
+msgstr ""
+
+#: kio/job.cpp:132
+msgctxt "@title job"
+msgid "Copying"
+msgstr ""
+
+#: kio/job.cpp:139
+msgctxt "@title job"
+msgid "Creating directory"
+msgstr ""
+
+#: kio/job.cpp:145
+msgctxt "@title job"
+msgid "Deleting"
+msgstr ""
+
+#: kio/job.cpp:151
+msgctxt "@title job"
+msgid "Examining"
+msgstr ""
+
+#: kio/job.cpp:157
+msgctxt "@title job"
+msgid "Transferring"
+msgstr ""
+
+#: kio/job.cpp:163
+msgctxt "@title job"
+msgid "Mounting"
+msgstr ""
+
+#: kio/job.cpp:164
+msgid "Device"
+msgstr ""
+
+#: kio/job.cpp:165 kio/job.cpp:171
+msgid "Mountpoint"
+msgstr ""
+
+#: kio/job.cpp:170
+msgctxt "@title job"
+msgid "Unmounting"
 msgstr ""
 
 #: kio/kscan.cpp:50
@@ -3610,6 +3610,20 @@ msgstr ""
 
 #: kio/pastedialog.cpp:55
 msgid "Data format:"
+msgstr ""
+
+#: kio/netaccess.cpp:104
+#, kde-format
+msgid "File '%1' is not readable"
+msgstr ""
+
+#: kio/netaccess.cpp:453
+#, kde-format
+msgid "ERROR: Unknown protocol '%1'"
+msgstr ""
+
+#: kio/passworddialog.cpp:57
+msgid "Authorization Dialog"
 msgstr ""
 
 #: kio/paste.cpp:98 kio/paste.cpp:191
@@ -3649,28 +3663,6 @@ msgstr[1] ""
 msgid "&Paste Clipboard Contents"
 msgstr ""
 
-#: kio/slavebase.h:266 kio/slavebase.h:286
-msgid "&Yes"
-msgstr "&Sí"
-
-#: kio/slavebase.h:267 kio/slavebase.h:287
-msgid "&No"
-msgstr "&Non"
-
-#: kio/netaccess.cpp:104
-#, kde-format
-msgid "File '%1' is not readable"
-msgstr ""
-
-#: kio/netaccess.cpp:453
-#, kde-format
-msgid "ERROR: Unknown protocol '%1'"
-msgstr ""
-
-#: kio/passworddialog.cpp:57
-msgid "Authorization Dialog"
-msgstr ""
-
 #: kio/skipdialog.cpp:37
 msgid "Information"
 msgstr ""
@@ -3704,6 +3696,14 @@ msgid ""
 "Unable to create io-slave:\n"
 "klauncher said: %1"
 msgstr ""
+
+#: kio/slavebase.h:266 kio/slavebase.h:286
+msgid "&Yes"
+msgstr "&Sí"
+
+#: kio/slavebase.h:267 kio/slavebase.h:287
+msgid "&No"
+msgstr "&Non"
 
 #: kio/slaveinterface.cpp:415 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:81
 msgid "&Details"
@@ -4389,13 +4389,8 @@ msgstr ""
 msgid "Mail service"
 msgstr ""
 
-#: misc/kpac/script.cpp:752
-msgid "Could not find 'FindProxyForURL' or 'FindProxyForURLEx'"
-msgstr ""
-
-#: misc/kpac/script.cpp:763
-#, kde-format
-msgid "Got an invalid reply when calling %1"
+#: misc/kpac/discovery.cpp:111
+msgid "Could not find a usable proxy configuration script"
 msgstr ""
 
 #: misc/kpac/downloader.cpp:87
@@ -4407,6 +4402,15 @@ msgstr ""
 
 #: misc/kpac/downloader.cpp:89
 msgid "Could not download the proxy configuration script"
+msgstr ""
+
+#: misc/kpac/script.cpp:752
+msgid "Could not find 'FindProxyForURL' or 'FindProxyForURLEx'"
+msgstr ""
+
+#: misc/kpac/script.cpp:763
+#, kde-format
+msgid "Got an invalid reply when calling %1"
 msgstr ""
 
 #: misc/kpac/proxyscout.cpp:224
@@ -4421,10 +4425,6 @@ msgstr ""
 msgid ""
 "The proxy configuration script returned an error:\n"
 "%1"
-msgstr ""
-
-#: misc/kpac/discovery.cpp:111
-msgid "Could not find a usable proxy configuration script"
 msgstr ""
 
 #: misc/ksendbugmail/main.cpp:43
@@ -5598,189 +5598,8 @@ msgstr ""
 msgid "No metainfo for %1"
 msgstr ""
 
-#: ../kfile/kfileplacesview.cpp:575
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr ""
-
-#: ../kfile/kfileplacesview.cpp:582
-#, kde-format
-msgid "&Edit Entry '%1'..."
-msgstr ""
-
-#: ../kfile/kfileplacesview.cpp:604
-#, kde-format
-msgid "&Hide Entry '%1'"
-msgstr ""
-
-#: ../kfile/kfileplacesview.cpp:613
-msgid "&Show All Entries"
-msgstr ""
-
-#: ../kfile/kfileplacesview.cpp:624
-#, kde-format
-msgid "&Remove Entry '%1'"
-msgstr ""
-
-#: ../kfile/kfileplacesview.cpp:636
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr ""
-
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:173
-msgctxt "@item:inmenu"
-msgid "Devices"
-msgstr ""
-
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:177
-msgctxt "@item:inmenu"
-msgid "Subversion"
-msgstr ""
-
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:181
-msgctxt "@item:inmenu"
-msgid "Other"
-msgstr ""
-
-#: ../kfile/kdirselectdialog.cpp:131
-msgctxt "folder name"
-msgid "New Folder"
-msgstr ""
-
-#: ../kfile/kdirselectdialog.cpp:136
-#, kde-format
-msgctxt "@label:textbox"
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-
-#: ../kfile/kdirselectdialog.cpp:159 ../kfile/kdiroperator.cpp:766
-#, kde-format
-msgid "A file or folder named %1 already exists."
-msgstr ""
-
-#: ../kfile/kdirselectdialog.cpp:163 ../kfile/kdiroperator.cpp:768
-msgid "You do not have permission to create that folder."
-msgstr ""
-
-#: ../kfile/kdirselectdialog.cpp:283
-msgctxt "@action:button"
-msgid "New Folder..."
-msgstr ""
-
-#: ../kfile/kdirselectdialog.cpp:324
-msgctxt "@action:inmenu"
-msgid "New Folder..."
-msgstr ""
-
-#: ../kfile/kdirselectdialog.cpp:331
-msgctxt "@action:inmenu"
-msgid "Move to Trash"
-msgstr ""
-
-#: ../kfile/kdirselectdialog.cpp:338
-msgctxt "@action:inmenu"
-msgid "Delete"
-msgstr ""
-
-#: ../kfile/kdirselectdialog.cpp:347
-msgctxt "@option:check"
+#: ../kfile/kfiletreeview.cpp:187
 msgid "Show Hidden Folders"
-msgstr ""
-
-#: ../kfile/kdirselectdialog.cpp:354
-msgctxt "@action:inmenu"
-msgid "Properties"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:369 ../kfile/knewfilemenu.cpp:878
-msgid "Sorry"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:378
-#, kde-format
-msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:397
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:399
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:402
-msgid "Create hidden directory?"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:406
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:408
-msgid "Do not ask again"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:501 ../kfile/knewfilemenu.cpp:564
-msgid "File name:"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:504
-msgid "Create Symlink"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:568
-msgid "Create link to URL"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:614 ../kfile/knewfilemenu.cpp:662
-#, kde-format
-msgctxt "@item:inmenu Create New"
-msgid "%1"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:888
-msgid ""
-"Basic links can only point to local files or directories.\n"
-"Please use \"Link to Location\" for remote URLs."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:964
-msgid "Create New"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:977
-msgid "Link to Device"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:1022
-#, fuzzy
-#| msgid "1 Folder"
-#| msgid_plural "%1 Folders"
-msgctxt "Default name for a new folder"
-msgid "New Folder"
-msgstr "1 Carpeta"
-
-#: ../kfile/knewfilemenu.cpp:1036
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-
-#: ../kfile/kurlnavigatortogglebutton.cpp:93
-msgid "Click for Location Navigation"
-msgstr ""
-
-#: ../kfile/kurlnavigatortogglebutton.cpp:95
-msgid "Click to Edit Location"
 msgstr ""
 
 #: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1802
@@ -5849,8 +5668,28 @@ msgstr ""
 msgid "An error occurred while accessing '%1'"
 msgstr ""
 
-#: ../kfile/kfiletreeview.cpp:187
-msgid "Show Hidden Folders"
+#: ../kfile/kurlnavigator.cpp:431
+msgid "Copy"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:435
+msgid "Paste"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:442
+msgid "Edit"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:445
+msgid "Navigate"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:460
+msgid "Show Full Path"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:698
+msgid "Custom Path"
 msgstr ""
 
 #: ../kfile/kfileplaceeditdialog.cpp:90
@@ -5913,33 +5752,26 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
-#: ../kfile/kurlnavigator.cpp:431
-msgid "Copy"
+#: ../kfile/kurlnavigatortogglebutton.cpp:93
+msgid "Click for Location Navigation"
 msgstr ""
 
-#: ../kfile/kurlnavigator.cpp:435
-msgid "Paste"
-msgstr ""
-
-#: ../kfile/kurlnavigator.cpp:442
-msgid "Edit"
-msgstr ""
-
-#: ../kfile/kurlnavigator.cpp:445
-msgid "Navigate"
-msgstr ""
-
-#: ../kfile/kurlnavigator.cpp:460
-msgid "Show Full Path"
-msgstr ""
-
-#: ../kfile/kurlnavigator.cpp:698
-msgid "Custom Path"
+#: ../kfile/kurlnavigatortogglebutton.cpp:95
+msgid "Click to Edit Location"
 msgstr ""
 
 #: ../kfile/kurlnavigatorbutton.cpp:675
 msgctxt "@action:inmenu"
 msgid "More"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:766 ../kfile/kdirselectdialog.cpp:159
+#, kde-format
+msgid "A file or folder named %1 already exists."
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:768 ../kfile/kdirselectdialog.cpp:163
+msgid "You do not have permission to create that folder."
 msgstr ""
 
 #: ../kfile/kdiroperator.cpp:783
@@ -6098,6 +5930,174 @@ msgstr ""
 
 #: ../kfile/kdiroperator.cpp:1990
 msgid "&View"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:131
+msgctxt "folder name"
+msgid "New Folder"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:136
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:283
+msgctxt "@action:button"
+msgid "New Folder..."
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:324
+msgctxt "@action:inmenu"
+msgid "New Folder..."
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:331
+msgctxt "@action:inmenu"
+msgid "Move to Trash"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:338
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:347
+msgctxt "@option:check"
+msgid "Show Hidden Folders"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:354
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:369 ../kfile/knewfilemenu.cpp:878
+msgid "Sorry"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:378
+#, kde-format
+msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:397
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:399
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:402
+msgid "Create hidden directory?"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:406
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:408
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:501 ../kfile/knewfilemenu.cpp:564
+msgid "File name:"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:504
+msgid "Create Symlink"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:568
+msgid "Create link to URL"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:614 ../kfile/knewfilemenu.cpp:662
+#, kde-format
+msgctxt "@item:inmenu Create New"
+msgid "%1"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:888
+msgid ""
+"Basic links can only point to local files or directories.\n"
+"Please use \"Link to Location\" for remote URLs."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:964
+msgid "Create New"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:977
+msgid "Link to Device"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:1022
+#, fuzzy
+#| msgid "1 Folder"
+#| msgid_plural "%1 Folders"
+msgctxt "Default name for a new folder"
+msgid "New Folder"
+msgstr "1 Carpeta"
+
+#: ../kfile/knewfilemenu.cpp:1036
+#, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:575
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:582
+#, kde-format
+msgid "&Edit Entry '%1'..."
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:604
+#, kde-format
+msgid "&Hide Entry '%1'"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:613
+msgid "&Show All Entries"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:624
+#, kde-format
+msgid "&Remove Entry '%1'"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:636
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr ""
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:173
+msgctxt "@item:inmenu"
+msgid "Devices"
+msgstr ""
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:177
+msgctxt "@item:inmenu"
+msgid "Subversion"
+msgstr ""
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:181
+msgctxt "@item:inmenu"
+msgid "Other"
 msgstr ""
 
 #: ../kfile/kfilewidget.cpp:286
