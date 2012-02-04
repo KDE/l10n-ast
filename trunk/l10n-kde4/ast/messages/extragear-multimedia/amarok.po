@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-03 03:48+0100\n"
+"POT-Creation-Date: 2012-02-04 04:02+0100\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -7022,69 +7022,6 @@ msgstr "Preseos de medios"
 msgid "Previous Browser"
 msgstr ""
 
-#: browsers/CollectionTreeView.cpp:226
-#: browsers/CollectionTreeItemModelBase.cpp:981
-#: context/applets/albums/AlbumsView.cpp:255
-#: context/applets/wikipedia/WikipediaApplet.cpp:618
-#: dialogs/FilenameLayoutDialog.cpp:74 dialogs/FilenameLayoutDialog.cpp:463
-#: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTags.cpp:360
-#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:896
-#: services/jamendo/JamendoInfoParser.cpp:83
-#: services/magnatune/MagnatuneStore.cpp:224
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-msgid "Album"
-msgstr "Álbum"
-
-#: browsers/CollectionTreeView.cpp:246 configdialog/ConfigDialog.cpp:59
-msgid "Collection"
-msgstr "Coleición"
-
-#: browsers/CollectionTreeView.cpp:269 browsers/filebrowser/FileView.cpp:135
-msgid "Copy to Collection"
-msgstr ""
-
-#: browsers/CollectionTreeView.cpp:277 browsers/filebrowser/FileView.cpp:126
-msgid "Move to Collection"
-msgstr ""
-
-#: browsers/CollectionTreeView.cpp:545 services/lastfm/LastFmTreeView.cpp:201
-msgid "More..."
-msgstr "Más..."
-
-#: browsers/CollectionTreeView.cpp:838 browsers/filebrowser/FileView.cpp:399
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:49
-#: context/applets/albums/AlbumsView.cpp:240
-#: services/lastfm/LastFmTreeView.cpp:111
-msgid "&Add to Playlist"
-msgstr "&Amestar a la llista de reproducción"
-
-#: browsers/CollectionTreeView.cpp:847 browsers/filebrowser/FileView.cpp:411
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:56
-#: context/applets/albums/AlbumsView.cpp:241
-#: services/lastfm/LastFmTreeView.cpp:120
-msgctxt "Replace the currently loaded tracks with these"
-msgid "&Replace Playlist"
-msgstr "&Reemplazar llista de reproducción"
-
-#: browsers/CollectionTreeView.cpp:894
-msgctxt "Organize Files"
-msgid "Organize Files"
-msgstr ""
-
-#: browsers/CollectionTreeView.cpp:925 browsers/filebrowser/FileView.cpp:423
-msgid "&Edit Track Details"
-msgstr ""
-
-#: browsers/CollectionTreeView.cpp:1072
-#, fuzzy
-#| msgid "Moving files to trash"
-msgid "Move Tracks to Trash"
-msgstr "Moviendo ficheros a la papelera"
-
-#: browsers/CollectionTreeView.cpp:1078
-msgid "Delete Tracks"
-msgstr ""
-
 #: browsers/InfoProxy.cpp:164 browsers/filebrowser/FileBrowser.cpp:379
 msgid "Home"
 msgstr "Carpeta personal"
@@ -7221,6 +7158,35 @@ msgstr ""
 #| msgid "Patches"
 msgid "Places"
 msgstr "Parches"
+
+#: browsers/filebrowser/FileView.cpp:126 browsers/CollectionTreeView.cpp:277
+msgid "Move to Collection"
+msgstr ""
+
+#: browsers/filebrowser/FileView.cpp:135 browsers/CollectionTreeView.cpp:269
+msgid "Copy to Collection"
+msgstr ""
+
+#: browsers/filebrowser/FileView.cpp:399
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:49
+#: browsers/CollectionTreeView.cpp:856
+#: context/applets/albums/AlbumsView.cpp:240
+#: services/lastfm/LastFmTreeView.cpp:111
+msgid "&Add to Playlist"
+msgstr "&Amestar a la llista de reproducción"
+
+#: browsers/filebrowser/FileView.cpp:411
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:56
+#: browsers/CollectionTreeView.cpp:865
+#: context/applets/albums/AlbumsView.cpp:241
+#: services/lastfm/LastFmTreeView.cpp:120
+msgctxt "Replace the currently loaded tracks with these"
+msgid "&Replace Playlist"
+msgstr "&Reemplazar llista de reproducción"
+
+#: browsers/filebrowser/FileView.cpp:423 browsers/CollectionTreeView.cpp:943
+msgid "&Edit Track Details"
+msgstr ""
 
 #: browsers/filebrowser/FileView.cpp:573
 #, fuzzy
@@ -7700,6 +7666,19 @@ msgstr "Varios artistes"
 msgid "Year - Album"
 msgstr "Añu - Álbum"
 
+#: browsers/CollectionTreeItemModelBase.cpp:981
+#: browsers/CollectionTreeView.cpp:226
+#: context/applets/albums/AlbumsView.cpp:255
+#: context/applets/wikipedia/WikipediaApplet.cpp:618
+#: dialogs/FilenameLayoutDialog.cpp:74 dialogs/FilenameLayoutDialog.cpp:463
+#: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTags.cpp:360
+#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:896
+#: services/jamendo/JamendoInfoParser.cpp:83
+#: services/magnatune/MagnatuneStore.cpp:224
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+msgid "Album"
+msgstr "Álbum"
+
 #: browsers/CollectionTreeItemModelBase.cpp:984
 #: core/meta/support/MetaConstants.cpp:176 dialogs/FilenameLayoutDialog.cpp:66
 #: dialogs/FilenameLayoutDialog.cpp:442 playlist/PlaylistModel.cpp:894
@@ -7749,6 +7728,29 @@ msgid "1 track"
 msgid_plural "%1 tracks"
 msgstr[0] "1 pista"
 msgstr[1] "%1 pistes"
+
+#: browsers/CollectionTreeView.cpp:246 configdialog/ConfigDialog.cpp:59
+msgid "Collection"
+msgstr "Coleición"
+
+#: browsers/CollectionTreeView.cpp:563 services/lastfm/LastFmTreeView.cpp:201
+msgid "More..."
+msgstr "Más..."
+
+#: browsers/CollectionTreeView.cpp:912
+msgctxt "Organize Files"
+msgid "Organize Files"
+msgstr ""
+
+#: browsers/CollectionTreeView.cpp:1090
+#, fuzzy
+#| msgid "Moving files to trash"
+msgid "Move Tracks to Trash"
+msgstr "Moviendo ficheros a la papelera"
+
+#: browsers/CollectionTreeView.cpp:1096
+msgid "Delete Tracks"
+msgstr ""
 
 #: browsers/BrowserCategoryList.cpp:52
 msgid "Filter Music Sources"
