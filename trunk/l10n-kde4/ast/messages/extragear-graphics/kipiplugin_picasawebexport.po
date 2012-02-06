@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-11 03:27+0100\n"
+"POT-Creation-Date: 2012-02-06 03:09+0100\n"
 "PO-Revision-Date: 2010-10-19 21:46+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -18,6 +18,27 @@ msgstr ""
 "X-Launchpad-Export-Date: 2009-10-23 04:32+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: picasawebimglist.cpp:105
+#, kde-format
+msgid "%1|All supported files"
+msgstr ""
+
+#: picasawebimglist.cpp:117
+#, kde-format
+msgid "%1|Camera RAW files"
+msgstr ""
+
+#: picasawebimglist.cpp:119
+#, kde-format
+msgid "%1|Video files"
+msgstr ""
+
+#: picasawebimglist.cpp:131
+#, fuzzy
+#| msgid "Select Images for Upload"
+msgid "Select Images"
+msgstr "Escueyi les imáxenes pa mandar"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -33,7 +54,7 @@ msgstr "xandru@softastur.org, xandru.martino@softastur.org"
 msgid "Picasaweb New Album"
 msgstr "Nuevu álbum de Picasaweb"
 
-#: picasawebalbum.cpp:61 picasawebwidget.cpp:110
+#: picasawebalbum.cpp:61 picasawebwidget.cpp:116
 msgid "Album"
 msgstr "Álbum"
 
@@ -120,27 +141,6 @@ msgstr ""
 msgid "Privacy:"
 msgstr ""
 
-#: picasawebimglist.cpp:101
-#, kde-format
-msgid "%1|All supported files"
-msgstr ""
-
-#: picasawebimglist.cpp:113
-#, kde-format
-msgid "%1|Camera RAW files"
-msgstr ""
-
-#: picasawebimglist.cpp:115
-#, kde-format
-msgid "%1|Video files"
-msgstr ""
-
-#: picasawebimglist.cpp:127
-#, fuzzy
-#| msgid "Select Images for Upload"
-msgid "Select Images"
-msgstr "Escueyi les imáxenes pa mandar"
-
 #: picasaweblogin.cpp:68
 msgid "Google Login:"
 msgstr "Entrada a Google:"
@@ -196,7 +196,7 @@ msgstr ""
 msgid "A linked item already exists."
 msgstr ""
 
-#: picasawebreplacedialog.cpp:138 picasawebwidget.cpp:149
+#: picasawebreplacedialog.cpp:138 picasawebwidget.cpp:155
 #, fuzzy
 #| msgid "Description"
 msgid "Destination"
@@ -298,144 +298,6 @@ msgstr ""
 #: picasawebtalker.cpp:932
 msgid "Failed to upload photo"
 msgstr "Falló al xubir la semeya"
-
-#: picasawebwidget.cpp:68
-msgid "This is the list of images to upload to your Picasaweb account."
-msgstr ""
-
-#: picasawebwidget.cpp:75
-msgid ""
-"This is a clickable link to open the Picasaweb home page in a web browser."
-msgstr ""
-
-#: picasawebwidget.cpp:81
-msgid "Account"
-msgstr "Cuenta"
-
-#: picasawebwidget.cpp:83
-msgid "This is the Picasaweb account that will be used to authenticate."
-msgstr ""
-
-#: picasawebwidget.cpp:86
-msgctxt "Picasaweb account login"
-msgid "Anonymous"
-msgstr ""
-
-#: picasawebwidget.cpp:88
-#, fuzzy
-#| msgid "A Kipi plugin to export image collections to PicasaWeb web service."
-msgid "Login as anonymous to Picasaweb web service."
-msgstr ""
-"Un complementu pa Kipi que permite esportar esbilles d'imáxenes al serviciu "
-"web de PicasaWeb."
-
-#: picasawebwidget.cpp:90
-#, fuzzy
-#| msgid "PicasaWeb Export"
-msgid "Picasaweb Account"
-msgstr "Esportar a PicasaWeb"
-
-#: picasawebwidget.cpp:92
-msgid "Login to Picasaweb web service using username and password."
-msgstr ""
-
-#: picasawebwidget.cpp:94
-msgctxt "Picasaweb account settings"
-msgid "Name:"
-msgstr ""
-
-#: picasawebwidget.cpp:97
-msgid "Change Account"
-msgstr ""
-
-#: picasawebwidget.cpp:98
-msgid "Change Picasaweb Account used to authenticate"
-msgstr ""
-
-#: picasawebwidget.cpp:112
-msgid "This is the Picasaweb album that will be used for transfer."
-msgstr ""
-
-#: picasawebwidget.cpp:119
-msgid "New Album"
-msgstr "Nuevu álbum"
-
-#: picasawebwidget.cpp:120
-msgid "Create new Picasaweb album"
-msgstr ""
-
-#: picasawebwidget.cpp:122
-msgctxt "reload album list"
-msgid "Reload"
-msgstr "Recargar"
-
-#: picasawebwidget.cpp:123
-msgid "Reload album list"
-msgstr ""
-
-#: picasawebwidget.cpp:131
-msgid "Max Dimension"
-msgstr ""
-
-#: picasawebwidget.cpp:133
-msgid ""
-"This is the maximum dimension of the images. Images larger than this will be "
-"scaled down."
-msgstr ""
-
-#: picasawebwidget.cpp:151
-msgid "This is the location where Picasaweb images will be downloaded."
-msgstr ""
-
-#: picasawebwidget.cpp:158
-msgid "Options"
-msgstr ""
-
-#: picasawebwidget.cpp:160
-msgid "These are options that will be applied to images before upload."
-msgstr ""
-
-#: picasawebwidget.cpp:164
-msgid "Resize photos before uploading"
-msgstr ""
-
-#: picasawebwidget.cpp:174
-msgid "Maximum dimension:"
-msgstr ""
-
-#: picasawebwidget.cpp:182
-msgid "JPEG quality:"
-msgstr ""
-
-#: picasawebwidget.cpp:185
-msgid "Tag path behavior:"
-msgstr ""
-
-#: picasawebwidget.cpp:187
-msgid "Leaf tags only"
-msgstr ""
-
-#: picasawebwidget.cpp:189
-msgid "Export only the leaf tags of tag hierarchies"
-msgstr ""
-
-#: picasawebwidget.cpp:190
-#, fuzzy
-#| msgid "Select Images for Upload"
-msgid "Split tags"
-msgstr "Escueyi les imáxenes pa mandar"
-
-#: picasawebwidget.cpp:192
-msgid "Export the leaf tag and all ancestors as single tags."
-msgstr ""
-
-#: picasawebwidget.cpp:193
-msgid "Combined String"
-msgstr ""
-
-#: picasawebwidget.cpp:195
-msgid "Build a combined tag string."
-msgstr ""
 
 #: picasawebwindow.cpp:103
 #, fuzzy
@@ -595,3 +457,141 @@ msgstr "Esportar a &PicasaWeb..."
 #: plugin_picasawebexport.cpp:88
 msgid "Import from &PicasaWeb..."
 msgstr "Importar dende &PicasaWeb..."
+
+#: picasawebwidget.cpp:74
+msgid "This is the list of images to upload to your Picasaweb account."
+msgstr ""
+
+#: picasawebwidget.cpp:81
+msgid ""
+"This is a clickable link to open the Picasaweb home page in a web browser."
+msgstr ""
+
+#: picasawebwidget.cpp:87
+msgid "Account"
+msgstr "Cuenta"
+
+#: picasawebwidget.cpp:89
+msgid "This is the Picasaweb account that will be used to authenticate."
+msgstr ""
+
+#: picasawebwidget.cpp:92
+msgctxt "Picasaweb account login"
+msgid "Anonymous"
+msgstr ""
+
+#: picasawebwidget.cpp:94
+#, fuzzy
+#| msgid "A Kipi plugin to export image collections to PicasaWeb web service."
+msgid "Login as anonymous to Picasaweb web service."
+msgstr ""
+"Un complementu pa Kipi que permite esportar esbilles d'imáxenes al serviciu "
+"web de PicasaWeb."
+
+#: picasawebwidget.cpp:96
+#, fuzzy
+#| msgid "PicasaWeb Export"
+msgid "Picasaweb Account"
+msgstr "Esportar a PicasaWeb"
+
+#: picasawebwidget.cpp:98
+msgid "Login to Picasaweb web service using username and password."
+msgstr ""
+
+#: picasawebwidget.cpp:100
+msgctxt "Picasaweb account settings"
+msgid "Name:"
+msgstr ""
+
+#: picasawebwidget.cpp:103
+msgid "Change Account"
+msgstr ""
+
+#: picasawebwidget.cpp:104
+msgid "Change Picasaweb Account used to authenticate"
+msgstr ""
+
+#: picasawebwidget.cpp:118
+msgid "This is the Picasaweb album that will be used for transfer."
+msgstr ""
+
+#: picasawebwidget.cpp:125
+msgid "New Album"
+msgstr "Nuevu álbum"
+
+#: picasawebwidget.cpp:126
+msgid "Create new Picasaweb album"
+msgstr ""
+
+#: picasawebwidget.cpp:128
+msgctxt "reload album list"
+msgid "Reload"
+msgstr "Recargar"
+
+#: picasawebwidget.cpp:129
+msgid "Reload album list"
+msgstr ""
+
+#: picasawebwidget.cpp:137
+msgid "Max Dimension"
+msgstr ""
+
+#: picasawebwidget.cpp:139
+msgid ""
+"This is the maximum dimension of the images. Images larger than this will be "
+"scaled down."
+msgstr ""
+
+#: picasawebwidget.cpp:157
+msgid "This is the location where Picasaweb images will be downloaded."
+msgstr ""
+
+#: picasawebwidget.cpp:164
+msgid "Options"
+msgstr ""
+
+#: picasawebwidget.cpp:166
+msgid "These are options that will be applied to images before upload."
+msgstr ""
+
+#: picasawebwidget.cpp:170
+msgid "Resize photos before uploading"
+msgstr ""
+
+#: picasawebwidget.cpp:180
+msgid "Maximum dimension:"
+msgstr ""
+
+#: picasawebwidget.cpp:188
+msgid "JPEG quality:"
+msgstr ""
+
+#: picasawebwidget.cpp:191
+msgid "Tag path behavior:"
+msgstr ""
+
+#: picasawebwidget.cpp:193
+msgid "Leaf tags only"
+msgstr ""
+
+#: picasawebwidget.cpp:195
+msgid "Export only the leaf tags of tag hierarchies"
+msgstr ""
+
+#: picasawebwidget.cpp:196
+#, fuzzy
+#| msgid "Select Images for Upload"
+msgid "Split tags"
+msgstr "Escueyi les imáxenes pa mandar"
+
+#: picasawebwidget.cpp:198
+msgid "Export the leaf tag and all ancestors as single tags."
+msgstr ""
+
+#: picasawebwidget.cpp:199
+msgid "Combined String"
+msgstr ""
+
+#: picasawebwidget.cpp:201
+msgid "Build a combined tag string."
+msgstr ""

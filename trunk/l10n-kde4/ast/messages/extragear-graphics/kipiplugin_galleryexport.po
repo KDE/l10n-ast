@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-11 03:27+0100\n"
+"POT-Creation-Date: 2012-02-06 03:09+0100\n"
 "PO-Revision-Date: 2010-10-19 21:48+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -74,41 +74,49 @@ msgstr "Falló al criar álbum nuevu"
 msgid "Failed to upload photo"
 msgstr "Falló al xubir la semeya"
 
-#: gallerywindow.cpp:117
+#: plugin_galleryexport.cpp:80
+msgid "Export to &Gallery..."
+msgstr "Esportar a la &Galeía..."
+
+#: plugin_galleryexport.cpp:113 gallerywindow.cpp:394 gallerywindow.cpp:792
+msgid "Edit Gallery Data"
+msgstr "Editar los datos de la galería"
+
+#: gallerywindow.cpp:118
 msgid "Albums"
 msgstr "Álbums"
 
-#: gallerywindow.cpp:126
+#: gallerywindow.cpp:127
 msgid "&New Album"
 msgstr "&Nuevu álbum"
 
-#: gallerywindow.cpp:132
+#: gallerywindow.cpp:133
 msgid "&Add Photos"
 msgstr "&Amestar semeyes"
 
-#: gallerywindow.cpp:137
+#: gallerywindow.cpp:138
 msgid "Override Default Options"
 msgstr "Sobrescribir les opciones predeterminaes"
 
-#: gallerywindow.cpp:141
+#: gallerywindow.cpp:142
 msgid "Resize photos before uploading"
 msgstr "Redimensionar les semeyes enantes de xubiles"
 
-#: gallerywindow.cpp:144
+#: gallerywindow.cpp:145
 msgid "Maximum dimension:"
 msgstr "Tamañu máximu:"
 
-#: gallerywindow.cpp:199 gallerywindow.cpp:204
+#: gallerywindow.cpp:200 gallerywindow.cpp:205
 msgid "Gallery Export"
 msgstr "Esportar galería"
 
-#: gallerywindow.cpp:207
+#: gallerywindow.cpp:208
 msgid "A Kipi plugin to export image collections to a remote Gallery server."
 msgstr ""
 "Un complementu Kipi pa esportar esbilles d'imáxenes d'un sirvidor Gallery "
 "remotu."
 
-#: gallerywindow.cpp:208
+#: gallerywindow.cpp:209
 msgid ""
 "(c) 2003-2005, Renchi Raju\n"
 "(c) 2006-2007, Colin Guthrie\n"
@@ -120,47 +128,47 @@ msgstr ""
 "(c) 2006-2009, Gilles Caulier\n"
 "(c) 2008, Andrea Diamantini\n"
 
-#: gallerywindow.cpp:213
+#: gallerywindow.cpp:214
 msgid "Renchi Raju"
 msgstr "Renchi Raju"
 
-#: gallerywindow.cpp:213
+#: gallerywindow.cpp:214
 msgid "Author"
 msgstr "Autor"
 
-#: gallerywindow.cpp:216
+#: gallerywindow.cpp:217
 msgid "Colin Guthrie"
 msgstr "Colin Guthrie"
 
-#: gallerywindow.cpp:216
+#: gallerywindow.cpp:217
 msgid "Maintainer"
 msgstr "Caltenimientu"
 
-#: gallerywindow.cpp:219
+#: gallerywindow.cpp:220
 msgid "Andrea Diamantini"
 msgstr "Andrea Diamantini"
 
-#: gallerywindow.cpp:219 gallerywindow.cpp:222
+#: gallerywindow.cpp:220 gallerywindow.cpp:223
 msgid "Developer"
 msgstr "Desendolcador"
 
-#: gallerywindow.cpp:222
+#: gallerywindow.cpp:223
 msgid "Gilles Caulier"
 msgstr "Gilles Caulier"
 
-#: gallerywindow.cpp:232
+#: gallerywindow.cpp:233
 msgid "Handbook"
 msgstr "Manual"
 
-#: gallerywindow.cpp:240
+#: gallerywindow.cpp:241
 msgid "Settings"
 msgstr "Preferencies"
 
-#: gallerywindow.cpp:384
+#: gallerywindow.cpp:385
 msgid "Failed to login into remote gallery. "
 msgstr "Fallu al rexistrase na galería remota. "
 
-#: gallerywindow.cpp:386
+#: gallerywindow.cpp:387
 msgid ""
 "\n"
 "Do you want to check your settings and try again?"
@@ -168,19 +176,15 @@ msgstr ""
 "\n"
 "¿Quies comprobar la to configuración ya intentalo otra vuelta?"
 
-#: gallerywindow.cpp:393 gallerywindow.cpp:791 plugin_galleryexport.cpp:113
-msgid "Edit Gallery Data"
-msgstr "Editar los datos de la galería"
-
-#: gallerywindow.cpp:450 gallerywindow.cpp:471
+#: gallerywindow.cpp:451 gallerywindow.cpp:472
 msgid "Album"
 msgstr "Álbum"
 
-#: gallerywindow.cpp:502 gallerywindow.cpp:515
+#: gallerywindow.cpp:503 gallerywindow.cpp:516
 msgid "Image"
 msgstr "Imaxe"
 
-#: gallerywindow.cpp:652
+#: gallerywindow.cpp:653
 msgid ""
 "Sorry, these characters are not allowed in album name: \\ / * ? \" ' & &lt; "
 "&gt; | . + # ( ) or spaces"
@@ -188,27 +192,23 @@ msgstr ""
 "Perdona, pero estos carauteres nun se permiten nel nome del álbum: \\ / * ? "
 "\" ' & < > | . + # ( ) o espacios"
 
-#: gallerywindow.cpp:730
+#: gallerywindow.cpp:731
 #, fuzzy, kde-format
 #| msgid "Uploading file "
 msgid "Uploading file %1"
 msgstr "Xubiendo ficheru "
 
-#: gallerywindow.cpp:749
+#: gallerywindow.cpp:750
 msgid "Failed to upload photo into remote gallery. "
 msgstr "Fallu al xubir la semeya a la galería remota. "
 
-#: gallerywindow.cpp:752
+#: gallerywindow.cpp:753
 msgid ""
 "\n"
 "Do you want to continue?"
 msgstr ""
 "\n"
 "¿Quies siguir?"
-
-#: plugin_galleryexport.cpp:80
-msgid "Export to &Gallery..."
-msgstr "Esportar a la &Galeía..."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

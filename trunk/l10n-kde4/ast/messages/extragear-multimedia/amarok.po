@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-05 03:47+0100\n"
+"POT-Creation-Date: 2012-02-06 03:31+0100\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -7729,7 +7729,7 @@ msgid_plural "%1 tracks"
 msgstr[0] "1 pista"
 msgstr[1] "%1 pistes"
 
-#: browsers/CollectionTreeView.cpp:246 configdialog/ConfigDialog.cpp:59
+#: browsers/CollectionTreeView.cpp:246
 msgid "Collection"
 msgstr "Coleición"
 
@@ -7785,22 +7785,6 @@ msgstr "Amestar un preséu..."
 msgid "Sound System - Amarok"
 msgstr ""
 
-#: configdialog/dialogs/PluginsConfig.cpp:44
-#, fuzzy
-#| msgid "Collection"
-msgid "Collections"
-msgstr "Coleición"
-
-#: configdialog/dialogs/PluginsConfig.cpp:48
-msgid "Internet Services"
-msgstr ""
-
-#: configdialog/dialogs/PluginsConfig.cpp:52
-#, fuzzy
-#| msgid "Media Devices"
-msgid "Devices"
-msgstr "Preseos de medios"
-
 #: configdialog/dialogs/ScriptSelector.cpp:31 dialogs/ScriptSelector.cpp:30
 msgid "Search Scripts"
 msgstr "Guetar scripts"
@@ -7837,6 +7821,22 @@ msgid ""
 "remove the script.</p>"
 msgstr ""
 
+#: configdialog/dialogs/PluginsConfig.cpp:44
+#, fuzzy
+#| msgid "Collection"
+msgid "Collections"
+msgstr "Coleición"
+
+#: configdialog/dialogs/PluginsConfig.cpp:48
+msgid "Internet Services"
+msgstr ""
+
+#: configdialog/dialogs/PluginsConfig.cpp:52
+#, fuzzy
+#| msgid "Local Collection"
+msgid "Local Collection Backends"
+msgstr "Coleición llocal"
+
 #: configdialog/ConfigDialog.cpp:58
 msgctxt "Miscellaneous settings"
 msgid "General"
@@ -7847,7 +7847,17 @@ msgid "Configure General Options"
 msgstr "Configurar les opciones xenerales"
 
 #: configdialog/ConfigDialog.cpp:59
-msgid "Configure Collection"
+#: context/applets/currenttrack/CurrentTrack.cpp:104
+#: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
+#: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:72
+msgid "Local Collection"
+msgstr "Coleición llocal"
+
+#: configdialog/ConfigDialog.cpp:59
+#, fuzzy
+#| msgid "Configure Collection"
+msgid "Configure Local Collection"
 msgstr "Configurar la coleición"
 
 #: configdialog/ConfigDialog.cpp:60
@@ -7973,13 +7983,6 @@ msgstr "Artista desconocíu"
 #: core/meta/Meta.cpp:444
 msgid "Unknown Album"
 msgstr "Álbum desconocíu"
-
-#: context/applets/currenttrack/CurrentTrack.cpp:104
-#: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
-#: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:72
-msgid "Local Collection"
-msgstr "Coleición llocal"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:113
 msgctxt "What artist is this track by"
@@ -8680,24 +8683,24 @@ msgid "Append and &Play"
 msgstr "Amestar y &reproducir"
 
 #: context/applets/videoclip/VideoclipApplet.cpp:102
-#: context/applets/videoclip/VideoclipApplet.cpp:279
-#: context/applets/videoclip/VideoclipApplet.cpp:333
+#: context/applets/videoclip/VideoclipApplet.cpp:281
+#: context/applets/videoclip/VideoclipApplet.cpp:335
 msgid "Video Clip"
 msgstr "Videu clip"
 
-#: context/applets/videoclip/VideoclipApplet.cpp:314
+#: context/applets/videoclip/VideoclipApplet.cpp:316
 #, fuzzy
 #| msgid "Video Clip Settings"
 msgid "Video Clip: Fetching"
 msgstr "Preferencies de vídeo clip"
 
-#: context/applets/videoclip/VideoclipApplet.cpp:323
+#: context/applets/videoclip/VideoclipApplet.cpp:325
 #, fuzzy
 #| msgid "No information found..."
 msgid "Video Clip: No Information Found"
 msgstr "Nun s'atopó información..."
 
-#: context/applets/videoclip/VideoclipApplet.cpp:522
+#: context/applets/videoclip/VideoclipApplet.cpp:524
 msgid "Video Clip Settings"
 msgstr "Preferencies de vídeo clip"
 
@@ -9573,7 +9576,6 @@ msgid "Podcasts on %1"
 msgstr "Podcasts"
 
 #: core-impl/collections/mediadevicecollection/MediaDeviceCollection.cpp:249
-#: core-impl/collections/umscollection/UmsCollection.cpp:180
 msgid "&Disconnect Device"
 msgstr "&Desconeutar dispositivu"
 
@@ -9791,25 +9793,6 @@ msgstr "Sí, desaniciar el discu."
 msgid "&Delete Channel and Episodes"
 msgstr "&Desaniciar episodiu descargáu"
 
-#: core-impl/collections/umscollection/UmsCollection.cpp:171
-#, fuzzy, kde-format
-#| msgctxt "change options"
-#| msgid "Configure %1"
-msgid "&Configure %1"
-msgstr "Configurar %1"
-
-#: core-impl/collections/umscollection/UmsCollection.cpp:176
-#, fuzzy
-#| msgid "Update Collection"
-msgid "&Use as Collection"
-msgstr "Anovar coleición"
-
-#: core-impl/collections/umscollection/UmsCollection.cpp:586
-#, fuzzy
-#| msgid "Configure Media Device"
-msgid "Configure USB Mass Storage Device"
-msgstr "Configurar el preséu de medios"
-
 #: core-impl/collections/umscollection/UmsCollectionLocation.cpp:116
 #, fuzzy, kde-format
 #| msgid "Copying Tracks Failed"
@@ -9834,6 +9817,38 @@ msgid "Removing one track from %2"
 msgid_plural "Removing %1 tracks from %2"
 msgstr[0] "Desaniciando una pista dende'l preséu"
 msgstr[1] "Desaniciando una pista dende'l preséu"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:235
+#, fuzzy
+#| msgid "Configure Media Device"
+msgid "&Configure Device"
+msgstr "Configurar el preséu de medios"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:239
+#, fuzzy
+#| msgid "Update Collection"
+msgid "&Activate This Collection"
+msgstr "Anovar coleición"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:243
+#, fuzzy
+#| msgid "&Disconnect Device"
+msgid "&Eject Device"
+msgstr "&Desconeutar dispositivu"
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:423
+#, kde-format
+msgctxt ""
+"Name of the USB Mass Storage collection that has not yet been activated. See "
+"also the 'Activate This Collection' action; %1 is actual collection name"
+msgid "%1 (not activated)"
+msgstr ""
+
+#: core-impl/collections/umscollection/UmsCollection.cpp:644
+#, fuzzy
+#| msgid "Configure Media Device"
+msgid "Configure USB Mass Storage Device"
+msgstr "Configurar el preséu de medios"
 
 #: core-impl/collections/upnpcollection/UpnpBrowseCollection.cpp:118
 #, fuzzy, kde-format
@@ -15932,6 +15947,17 @@ msgid ""
 "A music path, %1, is set in System Settings.\n"
 "Would you like to use that as a collection folder?"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Media Devices"
+#~ msgid "Devices"
+#~ msgstr "Preseos de medios"
+
+#, fuzzy
+#~| msgctxt "change options"
+#~| msgid "Configure %1"
+#~ msgid "&Configure %1"
+#~ msgstr "Configurar %1"
 
 #~ msgid "%1% used"
 #~ msgstr "%1% usáu"
