@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-07 04:11+0100\n"
+"POT-Creation-Date: 2012-02-08 03:37+0100\n"
 "PO-Revision-Date: 2010-10-19 21:45+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -65,7 +65,7 @@ msgstr ""
 msgid "<font color=\"red\"><b>Could not load image %1.</b></font>"
 msgstr "<font color=\"red\"><b>Nun pudo cargase la imaxe %1</b></font>"
 
-#: timeadjustdialog.cpp:183 timeadjustdialog.cpp:897 timeadjustdialog.cpp:906
+#: timeadjustdialog.cpp:183 timeadjustdialog.cpp:921 timeadjustdialog.cpp:930
 msgid "Adjust Time & Date"
 msgstr "Axustar data y hora"
 
@@ -193,52 +193,59 @@ msgstr "XMP"
 msgid "Example"
 msgstr "Exemplu"
 
-#: timeadjustdialog.cpp:515 timeadjustdialog.cpp:531 timeadjustdialog.cpp:545
-#: timeadjustdialog.cpp:608
+#: timeadjustdialog.cpp:515 timeadjustdialog.cpp:546 timeadjustdialog.cpp:571
+#: timeadjustdialog.cpp:632
 #, kde-format
 msgid "1 image will be changed"
 msgid_plural "%1 images will be changed"
 msgstr[0] "Camudaráse 1 imaxe"
 msgstr[1] "camudaránse %1 imáxenes"
 
-#: timeadjustdialog.cpp:614
+#: timeadjustdialog.cpp:552 timeadjustdialog.cpp:638
 #, kde-format
 msgid "1 image will be changed; "
 msgid_plural "%1 images will be changed; "
 msgstr[0] "camudaráse 1 imaxe; "
 msgstr[1] "camudaránse %1 imáxenes; "
 
-#: timeadjustdialog.cpp:618
+#: timeadjustdialog.cpp:556
+#, kde-format
+msgid "1 image will be skipped due to an inexact date."
+msgid_plural "%1 images will be skipped due to inexact dates."
+msgstr[0] "saltaráse 1 imaxe por a una data inexauta."
+msgstr[1] "saltaráse %1 imaxe por a una data inexauta."
+
+#: timeadjustdialog.cpp:642
 #, kde-format
 msgid "1 image will be skipped due to a missing source timestamp."
 msgid_plural "%1 images will be skipped due to missing source timestamps."
 msgstr[0] "saltaráse 1 imaxe debío a una data inesauta."
 msgstr[1] "saltaránse %1 imáxenes debío a datos inesautos"
 
-#: timeadjustdialog.cpp:715
+#: timeadjustdialog.cpp:739
 #, kde-format
 msgid "Custom: <b>%1</b>"
 msgstr "Personalizar: <b>%1</b>"
 
-#: timeadjustdialog.cpp:731
+#: timeadjustdialog.cpp:755
 msgid "Original: <b>N/A</b><br/>Image will be skipped"
 msgstr "Orixinal: <b>N/A</b><br/>Saltaráse una imaxe"
 
-#: timeadjustdialog.cpp:740
+#: timeadjustdialog.cpp:764
 #, kde-format
 msgid "Original: <b>%1</b>"
 msgstr "Orixinal: <b>%1</b>"
 
-#: timeadjustdialog.cpp:747
+#: timeadjustdialog.cpp:771
 #, kde-format
 msgid "Original: <b>%1</b><br/>Adjusted: <b>%2</b>"
 msgstr "Orixinal: <b>%1</b><br/>Axustáu: <b>%2</b>"
 
-#: timeadjustdialog.cpp:895
+#: timeadjustdialog.cpp:919
 msgid "Unable to update metadata in:"
 msgstr "Nun puede anovase metadata en:"
 
-#: timeadjustdialog.cpp:904
+#: timeadjustdialog.cpp:928
 msgid "Unable to update file modification time in:"
 msgstr "Nun puede anovase la hora de modificación del ficheru en:"
 
@@ -252,11 +259,6 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 "malditoastur@gmail.com, xandru.martino@softastur.org, riel.lu@softastur.org"
-
-#~ msgid "1 image will be skipped due to an inexact date."
-#~ msgid_plural "%1 images will be skipped due to inexact dates."
-#~ msgstr[0] "saltaráse 1 imaxe por a una data inexauta."
-#~ msgstr[1] "saltaráse %1 imaxe por a una data inexauta."
 
 #~ msgid "Adjustment Type"
 #~ msgstr "Tipu d'axuste"
