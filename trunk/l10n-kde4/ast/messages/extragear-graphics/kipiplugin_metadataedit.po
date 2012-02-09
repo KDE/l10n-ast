@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-07 04:09+0100\n"
+"POT-Creation-Date: 2012-02-09 03:21+0100\n"
 "PO-Revision-Date: 2010-10-25 14:22+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -175,105 +175,6 @@ msgid ""
 "Set here the use of special processing on image data, such as rendering "
 "geared to output."
 msgstr ""
-
-#: exif/exifcaption.cpp:107
-msgctxt "name of the document this image has been scanned from"
-msgid "Name (*):"
-msgstr "Nome (*):"
-
-#: exif/exifcaption.cpp:111
-#, fuzzy
-#| msgid ""
-#| "Enter the copyright owner of the image. This field is limited to ASCII "
-#| "characters."
-msgid ""
-"Enter the name of the document from which this image was been scanned. This "
-"field is limited to ASCII characters."
-msgstr ""
-"Pon equí'l copyrigth del propietariu de la imaxe. Esti campu tien una llende "
-"de carauteres ASCII."
-
-#: exif/exifcaption.cpp:117
-#, fuzzy
-#| msgid "Destination:"
-msgctxt "image description"
-msgid "Description (*):"
-msgstr "Destín:"
-
-#: exif/exifcaption.cpp:121
-#, fuzzy
-#| msgid "Enter the image title. This field is limited to ASCII characters."
-msgid "Enter the image description. This field is limited to ASCII characters."
-msgstr ""
-"Pon equí'l títulu de la imaxe. Esti campu tien una llende de carauteres "
-"ASCII."
-
-#: exif/exifcaption.cpp:126
-msgid "Artist (*):"
-msgstr "Artista (*):"
-
-#: exif/exifcaption.cpp:130
-msgid ""
-"Enter the image author's name. This field is limited to ASCII characters."
-msgstr ""
-"Pon equí'l nome del autor de la imaxe. Esti campu tien una llende de "
-"carauteres ASCII."
-
-#: exif/exifcaption.cpp:135
-msgid "Copyright (*):"
-msgstr "Copyright (*):"
-
-#: exif/exifcaption.cpp:139
-msgid ""
-"Enter the copyright owner of the image. This field is limited to ASCII "
-"characters."
-msgstr ""
-"Pon equí'l copyrigth del propietariu de la imaxe. Esti campu tien una llende "
-"de carauteres ASCII."
-
-#: exif/exifcaption.cpp:144
-#, fuzzy
-#| msgid "Caption:"
-msgctxt "image caption"
-msgid "Caption:"
-msgstr "Descripción:"
-
-#: exif/exifcaption.cpp:146
-msgid ""
-"Enter the image's caption. This field is not limited. UTF8 encoding will be "
-"used to save the text."
-msgstr ""
-"Pon equí'l títulu de la imaxe. Esti campu nun tien llende. Úsase la "
-"codificción UTF pa guardar el testu."
-
-#: exif/exifcaption.cpp:150
-#, kde-format
-msgid "Sync captions entered through %1"
-msgstr "Sincronizar comentariu puestu por %1"
-
-#: exif/exifcaption.cpp:153 iptc/iptccontent.cpp:109 xmp/xmpcontent.cpp:105
-msgid "Sync JFIF Comment section"
-msgstr "Sincronizar estaya de comentariu JFIF"
-
-#: exif/exifcaption.cpp:154
-msgid "Sync XMP caption"
-msgstr "Sincronizar comentariu XMP"
-
-#: exif/exifcaption.cpp:155
-msgid "Sync IPTC caption (warning: limited to 2000 printable Ascii characters)"
-msgstr ""
-"Sincronizar la lleenda IPTC (avisu: llendáu a 2.000 carauteres ASCII "
-"imprentables)"
-
-#: exif/exifcaption.cpp:163 exif/exifdevice.cpp:316
-msgid ""
-"<b>Note: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> text "
-"tags marked by (*) only support printable <b><a href='http://en.wikipedia."
-"org/wiki/Ascii'>ASCII</a></b> characters.</b>"
-msgstr ""
-"<b>Nota: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> les "
-"etiquetes de testu marcaes con (*) sólo permiten carauteres imprentables "
-"<b><a href='http://en.wikipedia.org/wiki/Ascii'>ASCII</a></b>.</b>"
 
 #: exif/exifdatetime.cpp:111
 msgid "Creation date and time"
@@ -731,6 +632,16 @@ msgid ""
 "equipment."
 msgstr "Afita equí la data na que'l serviciu mandó'l material."
 
+#: exif/exifdevice.cpp:316 exif/exifcaption.cpp:163
+msgid ""
+"<b>Note: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> text "
+"tags marked by (*) only support printable <b><a href='http://en.wikipedia."
+"org/wiki/Ascii'>ASCII</a></b> characters.</b>"
+msgstr ""
+"<b>Nota: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> les "
+"etiquetes de testu marcaes con (*) sólo permiten carauteres imprentables "
+"<b><a href='http://en.wikipedia.org/wiki/Ascii'>ASCII</a></b>.</b>"
+
 #: exif/exiflens.cpp:156
 msgid "Focal length (mm):"
 msgstr "Distancia focal (mm):"
@@ -1153,6 +1064,95 @@ msgstr "Axustes"
 msgid "Pictures Adjustments"
 msgstr "Axustes de la imaxe"
 
+#: exif/exifcaption.cpp:107
+msgctxt "name of the document this image has been scanned from"
+msgid "Name (*):"
+msgstr "Nome (*):"
+
+#: exif/exifcaption.cpp:111
+#, fuzzy
+#| msgid ""
+#| "Enter the copyright owner of the image. This field is limited to ASCII "
+#| "characters."
+msgid ""
+"Enter the name of the document from which this image was been scanned. This "
+"field is limited to ASCII characters."
+msgstr ""
+"Pon equí'l copyrigth del propietariu de la imaxe. Esti campu tien una llende "
+"de carauteres ASCII."
+
+#: exif/exifcaption.cpp:117
+#, fuzzy
+#| msgid "Destination:"
+msgctxt "image description"
+msgid "Description (*):"
+msgstr "Destín:"
+
+#: exif/exifcaption.cpp:121
+#, fuzzy
+#| msgid "Enter the image title. This field is limited to ASCII characters."
+msgid "Enter the image description. This field is limited to ASCII characters."
+msgstr ""
+"Pon equí'l títulu de la imaxe. Esti campu tien una llende de carauteres "
+"ASCII."
+
+#: exif/exifcaption.cpp:126
+msgid "Artist (*):"
+msgstr "Artista (*):"
+
+#: exif/exifcaption.cpp:130
+msgid ""
+"Enter the image author's name. This field is limited to ASCII characters."
+msgstr ""
+"Pon equí'l nome del autor de la imaxe. Esti campu tien una llende de "
+"carauteres ASCII."
+
+#: exif/exifcaption.cpp:135
+msgid "Copyright (*):"
+msgstr "Copyright (*):"
+
+#: exif/exifcaption.cpp:139
+msgid ""
+"Enter the copyright owner of the image. This field is limited to ASCII "
+"characters."
+msgstr ""
+"Pon equí'l copyrigth del propietariu de la imaxe. Esti campu tien una llende "
+"de carauteres ASCII."
+
+#: exif/exifcaption.cpp:144
+#, fuzzy
+#| msgid "Caption:"
+msgctxt "image caption"
+msgid "Caption:"
+msgstr "Descripción:"
+
+#: exif/exifcaption.cpp:146
+msgid ""
+"Enter the image's caption. This field is not limited. UTF8 encoding will be "
+"used to save the text."
+msgstr ""
+"Pon equí'l títulu de la imaxe. Esti campu nun tien llende. Úsase la "
+"codificción UTF pa guardar el testu."
+
+#: exif/exifcaption.cpp:150
+#, kde-format
+msgid "Sync captions entered through %1"
+msgstr "Sincronizar comentariu puestu por %1"
+
+#: exif/exifcaption.cpp:153 iptc/iptccontent.cpp:109 xmp/xmpcontent.cpp:105
+msgid "Sync JFIF Comment section"
+msgstr "Sincronizar estaya de comentariu JFIF"
+
+#: exif/exifcaption.cpp:154
+msgid "Sync XMP caption"
+msgstr "Sincronizar comentariu XMP"
+
+#: exif/exifcaption.cpp:155
+msgid "Sync IPTC caption (warning: limited to 2000 printable Ascii characters)"
+msgstr ""
+"Sincronizar la lleenda IPTC (avisu: llendáu a 2.000 carauteres ASCII "
+"imprentables)"
+
 #: iptc/iptcsubjects.cpp:57
 msgid ""
 "Enter here the Informative Provider Reference. I.P.R is a name registered "
@@ -1212,10 +1212,10 @@ msgstr ""
 "Afita equí'l Nome únicu del Indicador d'oxetu. Esti campu tien una llende de "
 "80 carauteres ASCII."
 
-#: iptc/iptcsubjects.cpp:98 iptc/iptccategories.cpp:123
-#: iptc/iptccontent.cpp:128 iptc/iptccredits.cpp:147 iptc/iptcenvelope.cpp:269
-#: iptc/iptckeywords.cpp:111 iptc/iptcorigin.cpp:228
-#: iptc/iptcproperties.cpp:239 iptc/iptcstatus.cpp:130
+#: iptc/iptcsubjects.cpp:98 iptc/iptcproperties.cpp:239
+#: iptc/iptccategories.cpp:123 iptc/iptccontent.cpp:128
+#: iptc/iptccredits.cpp:147 iptc/iptckeywords.cpp:111 iptc/iptcorigin.cpp:228
+#: iptc/iptcenvelope.cpp:269 iptc/iptcstatus.cpp:130
 #, fuzzy
 #| msgid ""
 #| "<b>Note: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> text "
@@ -1354,6 +1354,175 @@ msgid ""
 msgstr ""
 "<qt>Información d'envoltoriu<br/><i>Usa esti panel pa rexistrar detalles "
 "editoriales</i></qt>"
+
+#: iptc/iptcproperties.cpp:135
+msgid "Release date"
+msgstr "Data de la versión"
+
+#: iptc/iptcproperties.cpp:136
+msgid "Release time"
+msgstr "Hora de la versión"
+
+#: iptc/iptcproperties.cpp:142
+#, fuzzy
+#| msgid "Set creation date to today"
+msgid "Set release date to today"
+msgstr "Afitar güei como data de criación"
+
+#: iptc/iptcproperties.cpp:144
+#, fuzzy
+#| msgid "Set here the creation date of intellectual content."
+msgid "Set here the earliest intended usable date of intellectual content."
+msgstr "Afita equí la data de criación del conteníu inteleutual."
+
+#: iptc/iptcproperties.cpp:146
+#, fuzzy
+#| msgid "Set here the creation time of intellectual content."
+msgid "Set here the earliest intended usable time of intellectual content."
+msgstr "Afita equí la hora de criación del conteníu inteleutual."
+
+#: iptc/iptcproperties.cpp:152
+#, fuzzy
+#| msgid "Creation date"
+msgid "Expiration date"
+msgstr "Data de criación"
+
+#: iptc/iptcproperties.cpp:153
+#, fuzzy
+#| msgid "Creation time"
+msgid "Expiration time"
+msgstr "Hora de criación"
+
+#: iptc/iptcproperties.cpp:159
+#, fuzzy
+#| msgid "Set creation date to today"
+msgid "Set expiration date to today"
+msgstr "Afitar güei como data de criación"
+
+#: iptc/iptcproperties.cpp:161
+#, fuzzy
+#| msgid "Set here the creation date of intellectual content."
+msgid "Set here the latest intended usable date of intellectual content."
+msgstr "Afita equí la data de criación del conteníu inteleutual."
+
+#: iptc/iptcproperties.cpp:163
+#, fuzzy
+#| msgid "Set here the creation time of intellectual content."
+msgid "Set here the latest intended usable time of intellectual content."
+msgstr "Afita equí la hora de criación del conteníu inteleutual."
+
+#: iptc/iptcproperties.cpp:170 xmp/xmpproperties.cpp:174
+msgid "Language:"
+msgstr "Llingua:"
+
+#: iptc/iptcproperties.cpp:182 xmp/xmpproperties.cpp:175
+#, fuzzy
+#| msgid "Select here language code."
+msgid "Select here the language of content."
+msgstr "Escueyi equí'l códigu de llingua."
+
+#: iptc/iptcproperties.cpp:186 iptc/iptcenvelope.cpp:223
+#: xmp/xmpproperties.cpp:186
+msgid "Priority:"
+msgstr "Prioridá:"
+
+#: iptc/iptcproperties.cpp:188 xmp/xmpproperties.cpp:188
+msgctxt "editorial urgency of content"
+msgid "0: None"
+msgstr "0: Denguna"
+
+#: iptc/iptcproperties.cpp:189 xmp/xmpproperties.cpp:189
+msgctxt "editorial urgency of content"
+msgid "1: High"
+msgstr "1: Alta"
+
+#: iptc/iptcproperties.cpp:193 xmp/xmpproperties.cpp:193
+msgctxt "editorial urgency of content"
+msgid "5: Normal"
+msgstr "5: Normal"
+
+#: iptc/iptcproperties.cpp:196 xmp/xmpproperties.cpp:196
+msgctxt "editorial urgency of content"
+msgid "8: Low"
+msgstr "8: Baxa"
+
+#: iptc/iptcproperties.cpp:197 xmp/xmpproperties.cpp:197
+#, fuzzy
+#| msgid "Set here the creation date of intellectual content."
+msgid "Select here the editorial urgency of content."
+msgstr "Afita equí la data de criación del conteníu inteleutual."
+
+#: iptc/iptcproperties.cpp:201
+msgid "Cycle:"
+msgstr "Ciclu:"
+
+#: iptc/iptcproperties.cpp:203
+msgid "Morning"
+msgstr "Mañana"
+
+#: iptc/iptcproperties.cpp:204
+msgid "Afternoon"
+msgstr "Tarde"
+
+#: iptc/iptcproperties.cpp:205
+msgid "Evening"
+msgstr "Atapecer"
+
+#: iptc/iptcproperties.cpp:206
+#, fuzzy
+#| msgid "Set here the creation date of intellectual content."
+msgid "Select here the editorial cycle of content."
+msgstr "Afita equí la data de criación del conteníu inteleutual."
+
+#: iptc/iptcproperties.cpp:210 xmp/xmpproperties.cpp:213
+msgid "Type:"
+msgstr "Triba:"
+
+#: iptc/iptcproperties.cpp:216 xmp/xmpproperties.cpp:117
+msgid "News"
+msgstr "Noticies"
+
+#: iptc/iptcproperties.cpp:217 xmp/xmpproperties.cpp:113
+msgid "Data"
+msgstr "Datos"
+
+#: iptc/iptcproperties.cpp:218 xmp/xmpproperties.cpp:110
+msgid "Advisory"
+msgstr "Asesor"
+
+#: iptc/iptcproperties.cpp:219
+#, fuzzy
+#| msgid "Set here the creation date of intellectual content."
+msgid "Select here the editorial type of content."
+msgstr "Afita equí la data de criación del conteníu inteleutual."
+
+#: iptc/iptcproperties.cpp:220
+#, fuzzy
+#| msgid ""
+#| "Set here the service identifier. This field is limited to 10 ASCII "
+#| "characters."
+msgid ""
+"Set here the editorial type description of content. This field is limited to "
+"64 ASCII characters."
+msgstr ""
+"Afita equí l'dentificador del serviciu. Esti campu tien una llende de 10 "
+"carauteres ASCII."
+
+#: iptc/iptcproperties.cpp:229 xmp/xmpproperties.cpp:257
+msgid "Reference:"
+msgstr "Referencia:"
+
+#: iptc/iptcproperties.cpp:234
+#, fuzzy
+#| msgid ""
+#| "Set here the product identifier. This field is limited to 32 ASCII "
+#| "characters."
+msgid ""
+"Set here the original content transmission reference. This field is limited "
+"to 32 ASCII characters."
+msgstr ""
+"Afita equí l'dentificador del productu. Esti campu tien una llende de 32 "
+"carauteres ASCII."
 
 #: iptc/iptccategories.cpp:92 xmp/xmpcategories.cpp:86
 msgid "Identify subject of content (3 chars max):"
@@ -1538,6 +1707,120 @@ msgstr "Contautu:"
 
 #: iptc/iptccredits.cpp:142
 msgid "Set here the person or organisation to contact."
+msgstr ""
+
+#: iptc/iptckeywords.cpp:88 xmp/xmpkeywords.cpp:82
+msgid "Use information retrieval words:"
+msgstr ""
+
+#: iptc/iptckeywords.cpp:94
+#, fuzzy
+#| msgid "Enter the image title. This field is limited to ASCII characters."
+msgid "Enter here a new keyword. This field is limited to 64 ASCII characters."
+msgstr ""
+"Pon equí'l títulu de la imaxe. Esti campu tien una llende de carauteres "
+"ASCII."
+
+#: iptc/iptcorigin.cpp:138 xmp/xmporigin.cpp:118
+msgid "Digitization date"
+msgstr "Data de dixitalización"
+
+#: iptc/iptcorigin.cpp:139
+msgid "Digitization time"
+msgstr "Hora de dixitalización"
+
+#: iptc/iptcorigin.cpp:147 xmp/xmporigin.cpp:125
+msgid "Set here the creation date of digital representation."
+msgstr "Afita equí la data de criación de la representación dixital."
+
+#: iptc/iptcorigin.cpp:149
+msgid "Set here the creation time of digital representation."
+msgstr "Afita equí la hora de criación de la representación dixital."
+
+#: iptc/iptcorigin.cpp:156 xmp/xmporigin.cpp:132
+msgid "Creation date"
+msgstr "Data de criación"
+
+#: iptc/iptcorigin.cpp:157
+msgid "Creation time"
+msgstr "Hora de criación"
+
+#: iptc/iptcorigin.cpp:163 xmp/xmporigin.cpp:137
+msgid "Sync EXIF creation date"
+msgstr "Sincronizar data de criación EXIF"
+
+#: iptc/iptcorigin.cpp:169 xmp/xmporigin.cpp:143
+msgid "Set here the creation date of intellectual content."
+msgstr "Afita equí la data de criación del conteníu inteleutual."
+
+#: iptc/iptcorigin.cpp:171
+msgid "Set here the creation time of intellectual content."
+msgstr "Afita equí la hora de criación del conteníu inteleutual."
+
+#: iptc/iptcorigin.cpp:178
+msgid "Location:"
+msgstr "Allugamientu:"
+
+#: iptc/iptcorigin.cpp:179
+#, fuzzy
+#| msgid "Set here the creation date of intellectual content."
+msgid "Set here the full country name referenced by the content."
+msgstr "Afita equí la data de criación del conteníu inteleutual."
+
+#: iptc/iptcorigin.cpp:183 xmp/xmpcredits.cpp:153 xmp/xmporigin.cpp:150
+msgid "City:"
+msgstr "Ciudá:"
+
+#: iptc/iptcorigin.cpp:188
+#, fuzzy
+#| msgid ""
+#| "Set here the product identifier. This field is limited to 32 ASCII "
+#| "characters."
+msgid ""
+"Set here the city of content origin. This field is limited to 32 ASCII "
+"characters."
+msgstr ""
+"Afita equí l'dentificador del productu. Esti campu tien una llende de 32 "
+"carauteres ASCII."
+
+#: iptc/iptcorigin.cpp:193 xmp/xmporigin.cpp:157
+msgid "Sublocation:"
+msgstr "Suballugamientu:"
+
+#: iptc/iptcorigin.cpp:198
+#, fuzzy
+#| msgid ""
+#| "Set here the product identifier. This field is limited to 32 ASCII "
+#| "characters."
+msgid ""
+"Set here the content location within city. This field is limited to 32 ASCII "
+"characters."
+msgstr ""
+"Afita equí l'dentificador del productu. Esti campu tien una llende de 32 "
+"carauteres ASCII."
+
+#: iptc/iptcorigin.cpp:203 xmp/xmporigin.cpp:164
+msgid "State/Province:"
+msgstr "Estáu/Provincia:"
+
+#: iptc/iptcorigin.cpp:208
+#, fuzzy
+#| msgid ""
+#| "Set here the product identifier. This field is limited to 32 ASCII "
+#| "characters."
+msgid ""
+"Set here the Province or State of content origin. This field is limited to "
+"32 ASCII characters."
+msgstr ""
+"Afita equí l'dentificador del productu. Esti campu tien una llende de 32 "
+"carauteres ASCII."
+
+#: iptc/iptcorigin.cpp:213 xmp/xmpcredits.cpp:158 xmp/xmporigin.cpp:171
+msgid "Country:"
+msgstr "País:"
+
+#: iptc/iptcorigin.cpp:215 xmp/xmporigin.cpp:173
+msgid "Select here country name of content origin."
 msgstr ""
 
 #: iptc/iptcenvelope.cpp:91
@@ -1758,11 +2041,6 @@ msgstr ""
 "Afita equí l'dentificador de la envoltura. Esti campu tien una llende de 8 "
 "carauteres ASCII."
 
-#: iptc/iptcenvelope.cpp:223 iptc/iptcproperties.cpp:186
-#: xmp/xmpproperties.cpp:186
-msgid "Priority:"
-msgstr "Prioridá:"
-
 #: iptc/iptcenvelope.cpp:225
 msgctxt "priority for the envelope"
 msgid "0: None"
@@ -1816,284 +2094,6 @@ msgstr "Afita equí la data na que'l serviciu mandó'l material."
 #: iptc/iptcenvelope.cpp:264
 msgid "Set here the time when the service sent the material."
 msgstr "Afita equí la hora na que'l serviciu mandó'l material."
-
-#: iptc/iptckeywords.cpp:88 xmp/xmpkeywords.cpp:82
-msgid "Use information retrieval words:"
-msgstr ""
-
-#: iptc/iptckeywords.cpp:94
-#, fuzzy
-#| msgid "Enter the image title. This field is limited to ASCII characters."
-msgid "Enter here a new keyword. This field is limited to 64 ASCII characters."
-msgstr ""
-"Pon equí'l títulu de la imaxe. Esti campu tien una llende de carauteres "
-"ASCII."
-
-#: iptc/iptcorigin.cpp:138 xmp/xmporigin.cpp:118
-msgid "Digitization date"
-msgstr "Data de dixitalización"
-
-#: iptc/iptcorigin.cpp:139
-msgid "Digitization time"
-msgstr "Hora de dixitalización"
-
-#: iptc/iptcorigin.cpp:147 xmp/xmporigin.cpp:125
-msgid "Set here the creation date of digital representation."
-msgstr "Afita equí la data de criación de la representación dixital."
-
-#: iptc/iptcorigin.cpp:149
-msgid "Set here the creation time of digital representation."
-msgstr "Afita equí la hora de criación de la representación dixital."
-
-#: iptc/iptcorigin.cpp:156 xmp/xmporigin.cpp:132
-msgid "Creation date"
-msgstr "Data de criación"
-
-#: iptc/iptcorigin.cpp:157
-msgid "Creation time"
-msgstr "Hora de criación"
-
-#: iptc/iptcorigin.cpp:163 xmp/xmporigin.cpp:137
-msgid "Sync EXIF creation date"
-msgstr "Sincronizar data de criación EXIF"
-
-#: iptc/iptcorigin.cpp:169 xmp/xmporigin.cpp:143
-msgid "Set here the creation date of intellectual content."
-msgstr "Afita equí la data de criación del conteníu inteleutual."
-
-#: iptc/iptcorigin.cpp:171
-msgid "Set here the creation time of intellectual content."
-msgstr "Afita equí la hora de criación del conteníu inteleutual."
-
-#: iptc/iptcorigin.cpp:178
-msgid "Location:"
-msgstr "Allugamientu:"
-
-#: iptc/iptcorigin.cpp:179
-#, fuzzy
-#| msgid "Set here the creation date of intellectual content."
-msgid "Set here the full country name referenced by the content."
-msgstr "Afita equí la data de criación del conteníu inteleutual."
-
-#: iptc/iptcorigin.cpp:183 xmp/xmpcredits.cpp:153 xmp/xmporigin.cpp:150
-msgid "City:"
-msgstr "Ciudá:"
-
-#: iptc/iptcorigin.cpp:188
-#, fuzzy
-#| msgid ""
-#| "Set here the product identifier. This field is limited to 32 ASCII "
-#| "characters."
-msgid ""
-"Set here the city of content origin. This field is limited to 32 ASCII "
-"characters."
-msgstr ""
-"Afita equí l'dentificador del productu. Esti campu tien una llende de 32 "
-"carauteres ASCII."
-
-#: iptc/iptcorigin.cpp:193 xmp/xmporigin.cpp:157
-msgid "Sublocation:"
-msgstr "Suballugamientu:"
-
-#: iptc/iptcorigin.cpp:198
-#, fuzzy
-#| msgid ""
-#| "Set here the product identifier. This field is limited to 32 ASCII "
-#| "characters."
-msgid ""
-"Set here the content location within city. This field is limited to 32 ASCII "
-"characters."
-msgstr ""
-"Afita equí l'dentificador del productu. Esti campu tien una llende de 32 "
-"carauteres ASCII."
-
-#: iptc/iptcorigin.cpp:203 xmp/xmporigin.cpp:164
-msgid "State/Province:"
-msgstr "Estáu/Provincia:"
-
-#: iptc/iptcorigin.cpp:208
-#, fuzzy
-#| msgid ""
-#| "Set here the product identifier. This field is limited to 32 ASCII "
-#| "characters."
-msgid ""
-"Set here the Province or State of content origin. This field is limited to "
-"32 ASCII characters."
-msgstr ""
-"Afita equí l'dentificador del productu. Esti campu tien una llende de 32 "
-"carauteres ASCII."
-
-#: iptc/iptcorigin.cpp:213 xmp/xmpcredits.cpp:158 xmp/xmporigin.cpp:171
-msgid "Country:"
-msgstr "País:"
-
-#: iptc/iptcorigin.cpp:215 xmp/xmporigin.cpp:173
-msgid "Select here country name of content origin."
-msgstr ""
-
-#: iptc/iptcproperties.cpp:135
-msgid "Release date"
-msgstr "Data de la versión"
-
-#: iptc/iptcproperties.cpp:136
-msgid "Release time"
-msgstr "Hora de la versión"
-
-#: iptc/iptcproperties.cpp:142
-#, fuzzy
-#| msgid "Set creation date to today"
-msgid "Set release date to today"
-msgstr "Afitar güei como data de criación"
-
-#: iptc/iptcproperties.cpp:144
-#, fuzzy
-#| msgid "Set here the creation date of intellectual content."
-msgid "Set here the earliest intended usable date of intellectual content."
-msgstr "Afita equí la data de criación del conteníu inteleutual."
-
-#: iptc/iptcproperties.cpp:146
-#, fuzzy
-#| msgid "Set here the creation time of intellectual content."
-msgid "Set here the earliest intended usable time of intellectual content."
-msgstr "Afita equí la hora de criación del conteníu inteleutual."
-
-#: iptc/iptcproperties.cpp:152
-#, fuzzy
-#| msgid "Creation date"
-msgid "Expiration date"
-msgstr "Data de criación"
-
-#: iptc/iptcproperties.cpp:153
-#, fuzzy
-#| msgid "Creation time"
-msgid "Expiration time"
-msgstr "Hora de criación"
-
-#: iptc/iptcproperties.cpp:159
-#, fuzzy
-#| msgid "Set creation date to today"
-msgid "Set expiration date to today"
-msgstr "Afitar güei como data de criación"
-
-#: iptc/iptcproperties.cpp:161
-#, fuzzy
-#| msgid "Set here the creation date of intellectual content."
-msgid "Set here the latest intended usable date of intellectual content."
-msgstr "Afita equí la data de criación del conteníu inteleutual."
-
-#: iptc/iptcproperties.cpp:163
-#, fuzzy
-#| msgid "Set here the creation time of intellectual content."
-msgid "Set here the latest intended usable time of intellectual content."
-msgstr "Afita equí la hora de criación del conteníu inteleutual."
-
-#: iptc/iptcproperties.cpp:170 xmp/xmpproperties.cpp:174
-msgid "Language:"
-msgstr "Llingua:"
-
-#: iptc/iptcproperties.cpp:182 xmp/xmpproperties.cpp:175
-#, fuzzy
-#| msgid "Select here language code."
-msgid "Select here the language of content."
-msgstr "Escueyi equí'l códigu de llingua."
-
-#: iptc/iptcproperties.cpp:188 xmp/xmpproperties.cpp:188
-msgctxt "editorial urgency of content"
-msgid "0: None"
-msgstr "0: Denguna"
-
-#: iptc/iptcproperties.cpp:189 xmp/xmpproperties.cpp:189
-msgctxt "editorial urgency of content"
-msgid "1: High"
-msgstr "1: Alta"
-
-#: iptc/iptcproperties.cpp:193 xmp/xmpproperties.cpp:193
-msgctxt "editorial urgency of content"
-msgid "5: Normal"
-msgstr "5: Normal"
-
-#: iptc/iptcproperties.cpp:196 xmp/xmpproperties.cpp:196
-msgctxt "editorial urgency of content"
-msgid "8: Low"
-msgstr "8: Baxa"
-
-#: iptc/iptcproperties.cpp:197 xmp/xmpproperties.cpp:197
-#, fuzzy
-#| msgid "Set here the creation date of intellectual content."
-msgid "Select here the editorial urgency of content."
-msgstr "Afita equí la data de criación del conteníu inteleutual."
-
-#: iptc/iptcproperties.cpp:201
-msgid "Cycle:"
-msgstr "Ciclu:"
-
-#: iptc/iptcproperties.cpp:203
-msgid "Morning"
-msgstr "Mañana"
-
-#: iptc/iptcproperties.cpp:204
-msgid "Afternoon"
-msgstr "Tarde"
-
-#: iptc/iptcproperties.cpp:205
-msgid "Evening"
-msgstr "Atapecer"
-
-#: iptc/iptcproperties.cpp:206
-#, fuzzy
-#| msgid "Set here the creation date of intellectual content."
-msgid "Select here the editorial cycle of content."
-msgstr "Afita equí la data de criación del conteníu inteleutual."
-
-#: iptc/iptcproperties.cpp:210 xmp/xmpproperties.cpp:213
-msgid "Type:"
-msgstr "Triba:"
-
-#: iptc/iptcproperties.cpp:216 xmp/xmpproperties.cpp:117
-msgid "News"
-msgstr "Noticies"
-
-#: iptc/iptcproperties.cpp:217 xmp/xmpproperties.cpp:113
-msgid "Data"
-msgstr "Datos"
-
-#: iptc/iptcproperties.cpp:218 xmp/xmpproperties.cpp:110
-msgid "Advisory"
-msgstr "Asesor"
-
-#: iptc/iptcproperties.cpp:219
-#, fuzzy
-#| msgid "Set here the creation date of intellectual content."
-msgid "Select here the editorial type of content."
-msgstr "Afita equí la data de criación del conteníu inteleutual."
-
-#: iptc/iptcproperties.cpp:220
-#, fuzzy
-#| msgid ""
-#| "Set here the service identifier. This field is limited to 10 ASCII "
-#| "characters."
-msgid ""
-"Set here the editorial type description of content. This field is limited to "
-"64 ASCII characters."
-msgstr ""
-"Afita equí l'dentificador del serviciu. Esti campu tien una llende de 10 "
-"carauteres ASCII."
-
-#: iptc/iptcproperties.cpp:229 xmp/xmpproperties.cpp:257
-msgid "Reference:"
-msgstr "Referencia:"
-
-#: iptc/iptcproperties.cpp:234
-#, fuzzy
-#| msgid ""
-#| "Set here the product identifier. This field is limited to 32 ASCII "
-#| "characters."
-msgid ""
-"Set here the original content transmission reference. This field is limited "
-"to 32 ASCII characters."
-msgstr ""
-"Afita equí l'dentificador del productu. Esti campu tien una llende de 32 "
-"carauteres ASCII."
 
 #: iptc/iptcstatus.cpp:91
 #, fuzzy
@@ -2282,6 +2282,44 @@ msgstr "Afita equí la data de criación del conteníu inteleutual."
 #| msgid "Set here the date when the service sent the material."
 msgid "Set here the content's Province or State of origin."
 msgstr "Afita equí la data na que'l serviciu mandó'l material."
+
+#: xmp/xmpsubjects.cpp:55
+msgid ""
+"Enter here the Informative Provider Reference. I.P.R is a name registered "
+"with the XMP/NAA, identifying the provider that provides an indicator of the "
+"content. The default value for the I.P.R is \"XMP\" if a standard Reference "
+"Code is used."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:61
+msgid ""
+"Enter here the Subject Reference Number. Provides a numeric code to indicate "
+"the Subject Name plus optional Subject Matter and Subject Detail Names in "
+"the language of the service. Subject Reference is a number from the range "
+"01000000 to 17999999 and represent a language independent international "
+"reference to a Subject. A Subject is identified by its Reference Number and "
+"corresponding Names taken from a standard lists given by XMP/NAA. If a "
+"standard reference code is used, these lists are the English language "
+"reference versions. This field is limited to 8 digit code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:74
+msgid ""
+"Enter here the Subject Name. English language is used if you selected a "
+"standard XMP/NAA reference code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:78
+msgid ""
+"Enter here the Subject Matter Name. English language is used if you selected "
+"a standard XMP/NAA reference code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:82
+msgid ""
+"Enter here the Subject Detail Name. English language is used if you selected "
+"a standard XMP/NAA reference code."
+msgstr ""
 
 #: xmp/xmpproperties.cpp:85
 msgid "Headshot"
@@ -2619,44 +2657,6 @@ msgstr "Afita equí la hora na que'l serviciu mandó'l material."
 
 #: xmp/xmpstatus.cpp:107
 msgid "Enter the editorial usage instructions."
-msgstr ""
-
-#: xmp/xmpsubjects.cpp:55
-msgid ""
-"Enter here the Informative Provider Reference. I.P.R is a name registered "
-"with the XMP/NAA, identifying the provider that provides an indicator of the "
-"content. The default value for the I.P.R is \"XMP\" if a standard Reference "
-"Code is used."
-msgstr ""
-
-#: xmp/xmpsubjects.cpp:61
-msgid ""
-"Enter here the Subject Reference Number. Provides a numeric code to indicate "
-"the Subject Name plus optional Subject Matter and Subject Detail Names in "
-"the language of the service. Subject Reference is a number from the range "
-"01000000 to 17999999 and represent a language independent international "
-"reference to a Subject. A Subject is identified by its Reference Number and "
-"corresponding Names taken from a standard lists given by XMP/NAA. If a "
-"standard reference code is used, these lists are the English language "
-"reference versions. This field is limited to 8 digit code."
-msgstr ""
-
-#: xmp/xmpsubjects.cpp:74
-msgid ""
-"Enter here the Subject Name. English language is used if you selected a "
-"standard XMP/NAA reference code."
-msgstr ""
-
-#: xmp/xmpsubjects.cpp:78
-msgid ""
-"Enter here the Subject Matter Name. English language is used if you selected "
-"a standard XMP/NAA reference code."
-msgstr ""
-
-#: xmp/xmpsubjects.cpp:82
-msgid ""
-"Enter here the Subject Detail Name. English language is used if you selected "
-"a standard XMP/NAA reference code."
 msgstr ""
 
 #: plugin/multistringsedit.cpp:90 plugin/multivaluesedit.cpp:94
