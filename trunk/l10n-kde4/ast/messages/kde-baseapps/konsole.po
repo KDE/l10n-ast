@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-10 04:15+0100\n"
+"POT-Creation-Date: 2012-02-11 03:58+0100\n"
 "PO-Revision-Date: 2010-10-19 22:27+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -319,19 +319,19 @@ msgstr[1] "Llinies"
 msgid "--- Type anything in this box ---"
 msgstr ""
 
-#: Filter.cpp:495
+#: Filter.cpp:491
 msgid "Open Link"
 msgstr "Abrir Enllaz"
 
-#: Filter.cpp:496
+#: Filter.cpp:492
 msgid "Copy Link Address"
 msgstr "Copiar la direición del enllaz"
 
-#: Filter.cpp:498
+#: Filter.cpp:494
 msgid "Send Email To..."
 msgstr "Unviar corréu a..."
 
-#: Filter.cpp:499
+#: Filter.cpp:495
 msgid "Copy Email Address"
 msgstr "Copiar direición de corréu electrónicu"
 
@@ -700,43 +700,49 @@ msgid "&New Tab"
 msgstr "Nueva llin&güeta"
 
 #: MainWindow.cpp:265
+#, fuzzy
+#| msgid "&Close Tab"
+msgid "&Clone Tab"
+msgstr "&Zarrar llingüeta"
+
+#: MainWindow.cpp:272
 msgid "New &Window"
 msgstr "Nueva &ventana"
 
-#: MainWindow.cpp:276
+#: MainWindow.cpp:283
 msgid "&Bookmarks"
 msgstr "&Marcadores"
 
-#: MainWindow.cpp:294 Part.cpp:99
+#: MainWindow.cpp:301 Part.cpp:99
 #, fuzzy
 #| msgid "Manage Profiles"
 msgid "Manage Profiles..."
 msgstr "Xestionar perfiles"
 
-#: MainWindow.cpp:300
+#: MainWindow.cpp:307
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:412
+#: MainWindow.cpp:435
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "Tiene varies llingüetes nesta ventana, ¿daveres quier colar?"
 
-#: MainWindow.cpp:414 SessionController.cpp:618 SessionController.cpp:643
+#: MainWindow.cpp:437 SessionController.cpp:618 SessionController.cpp:643
 msgid "Confirm Close"
 msgstr "Confirmar zarrar"
 
-#: MainWindow.cpp:416
+#: MainWindow.cpp:439
 msgid "Close Current Tab"
 msgstr "Zarrar llingüeta actual"
 
-#: MainWindow.cpp:513
+#: MainWindow.cpp:536
 #, fuzzy
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "Xeneral"
 
-#: MainWindow.cpp:518
+#: MainWindow.cpp:541
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
@@ -1783,61 +1789,55 @@ msgstr "&Hestorial"
 
 #. i18n: file: ../desktop/partui.rc:23
 #. i18n: ectx: Menu (switch-profile)
-#. i18n: file: ../desktop/sessionui.rc:63
+#. i18n: file: ../desktop/sessionui.rc:60
 #. i18n: ectx: Menu (switch-profile)
-#: rc.cpp:494 rc.cpp:503
+#: rc.cpp:494 rc.cpp:518
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "&Switch Profile"
 msgstr "Editar perfil"
 
-#. i18n: file: ../desktop/sessionui.rc:17
-#. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:497
-msgid "Copy Input To"
-msgstr "Copiar entrada a"
-
-#. i18n: file: ../desktop/sessionui.rc:44
-#. i18n: ectx: Menu (debug)
-#: rc.cpp:500
-msgid "Debug"
-msgstr "Depurar"
-
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:506
+#: rc.cpp:497
 msgid "File"
 msgstr "Ficheru"
 
-#. i18n: file: ../desktop/konsoleui.rc:14
+#. i18n: file: ../desktop/konsoleui.rc:15
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:509
+#: rc.cpp:500
 msgid "Edit"
 msgstr "Editar"
 
-#. i18n: file: ../desktop/konsoleui.rc:17
+#. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view)
-#: rc.cpp:512
+#: rc.cpp:503
 msgid "View"
 msgstr "Ver"
 
-#. i18n: file: ../desktop/konsoleui.rc:18
+#. i18n: file: ../desktop/konsoleui.rc:19
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:515
+#: rc.cpp:506
 msgid "Split View"
 msgstr "Dixebrar la vista"
 
-#. i18n: file: ../desktop/konsoleui.rc:33
+#. i18n: file: ../desktop/konsoleui.rc:34
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:518
+#: rc.cpp:509
 msgid "Settings"
 msgstr "Axustes"
 
-#. i18n: file: ../desktop/konsoleui.rc:45
+#. i18n: file: ../desktop/konsoleui.rc:46
 #. i18n: ectx: Menu (help)
-#: rc.cpp:521
+#: rc.cpp:512
 msgid "Help"
 msgstr "Aida"
+
+#. i18n: file: ../desktop/sessionui.rc:17
+#. i18n: ectx: Menu (edit-copy-input-to)
+#: rc.cpp:515
+msgid "Copy Input To"
+msgstr "Copiar entrada a"
 
 #: RenameTabsDialog.cpp:32
 msgid "Rename Tab"
@@ -2114,50 +2114,50 @@ msgstr "Nun pudo alcontrase una shell interactiva."
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "Nun pudo aniciase '%1' colos argumentos '%2'."
 
-#: Session.cpp:579
+#: Session.cpp:583
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Silenciu na sesión '%1'"
 
-#: Session.cpp:624
+#: Session.cpp:628
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "Timbre na sesión '%1'"
 
-#: Session.cpp:627
+#: Session.cpp:631
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Actividá na sesión '%1'"
 
-#: Session.cpp:796
+#: Session.cpp:800
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Fináu"
 
-#: Session.cpp:810 Session.cpp:822
+#: Session.cpp:814 Session.cpp:826
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "El programa '%1' zarróse inesperadamente."
 
-#: Session.cpp:812
+#: Session.cpp:816
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "El programa '%1' finó col estáu %2."
 
-#: Session.cpp:1140
+#: Session.cpp:1144
 msgid "ZModem Progress"
 msgstr "Progresu de ZModem"
 
-#: SessionManager.cpp:926
+#: SessionManager.cpp:923
 #, fuzzy
 #| msgid "Number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "Númberu"
 
-#: SessionManager.cpp:928
+#: SessionManager.cpp:925
 #, fuzzy
 #| msgid "Title"
 msgctxt "@item:intable The session title"
@@ -2357,6 +2357,9 @@ msgstr ""
 #: ZModemDialog.cpp:36
 msgid "&Stop"
 msgstr "&Parar"
+
+#~ msgid "Debug"
+#~ msgstr "Depurar"
 
 #~ msgid "Command to execute"
 #~ msgstr "Comandu a executar"
