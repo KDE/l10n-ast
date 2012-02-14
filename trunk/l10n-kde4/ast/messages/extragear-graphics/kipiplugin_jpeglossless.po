@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-09 03:21+0100\n"
+"POT-Creation-Date: 2012-02-14 03:37+0100\n"
 "PO-Revision-Date: 2009-12-06 16:07+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -19,75 +19,92 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: plugin/plugin_jpeglossless.cpp:111
+#: plugin/utils.cpp:89
+msgid "unable to open source file"
+msgstr "Nun puede abrise'l ficheru fonte"
+
+#: plugin/utils.cpp:119 plugin/utils.cpp:146
+msgid "unable to open temp file"
+msgstr "Nun puede abrise'l ficheru temporal"
+
+#: plugin/utils.cpp:133
+msgid "Cannot rotate: unable to open temp file"
+msgstr "Nun puede xirase: nun puede abrise'l ficheru temporal"
+
+#: plugin/utils.cpp:195
+#, kde-format
+msgid "Cannot update metadata: %1"
+msgstr "Nun pudieron anovase los metadatos: %1"
+
+#: plugin/plugin_jpeglossless.cpp:110
 msgid "Rotate"
 msgstr "Voltiar"
 
-#: plugin/plugin_jpeglossless.cpp:115
+#: plugin/plugin_jpeglossless.cpp:114
 #, fuzzy
 #| msgid "Left"
 msgctxt "rotate image left"
 msgid "Left"
 msgstr "Esquierda"
 
-#: plugin/plugin_jpeglossless.cpp:122
+#: plugin/plugin_jpeglossless.cpp:121
 #, fuzzy
 #| msgid "Right"
 msgctxt "rotate image right"
 msgid "Right"
 msgstr "Drecha"
 
-#: plugin/plugin_jpeglossless.cpp:132
+#: plugin/plugin_jpeglossless.cpp:131
 msgid "Flip"
 msgstr "Reflexar"
 
-#: plugin/plugin_jpeglossless.cpp:136
+#: plugin/plugin_jpeglossless.cpp:135
 msgid "Horizontally"
 msgstr "Horizontalmente"
 
-#: plugin/plugin_jpeglossless.cpp:143
+#: plugin/plugin_jpeglossless.cpp:142
 msgid "Vertically"
 msgstr "Verticalmente"
 
-#: plugin/plugin_jpeglossless.cpp:154
+#: plugin/plugin_jpeglossless.cpp:153
 msgid "Auto Rotate/Flip Using Exif Information"
 msgstr "Xiru/reflexu automáticu usando la información Exif"
 
-#: plugin/plugin_jpeglossless.cpp:163
+#: plugin/plugin_jpeglossless.cpp:162
 msgid "Convert to Black && White"
 msgstr "Convertir a blancu y prietu"
 
-#: plugin/plugin_jpeglossless.cpp:211
+#: plugin/plugin_jpeglossless.cpp:210
 msgid "horizontally"
 msgstr "horizontalmente"
 
-#: plugin/plugin_jpeglossless.cpp:216
+#: plugin/plugin_jpeglossless.cpp:215
 msgid "vertically"
 msgstr "verticalmente"
 
-#: plugin/plugin_jpeglossless.cpp:234
+#: plugin/plugin_jpeglossless.cpp:233
 #, kde-format
 msgid "Flip images %1"
 msgstr "Reflexar imáxenes %1"
 
-#: plugin/plugin_jpeglossless.cpp:247
+#: plugin/plugin_jpeglossless.cpp:246
 msgid "right (clockwise)"
 msgstr "drecha (nel sen de les aguyes del reló)"
 
-#: plugin/plugin_jpeglossless.cpp:252
+#: plugin/plugin_jpeglossless.cpp:251
 msgid "left (counterclockwise)"
 msgstr "esquierda (nel sen contrariu de les aguyes del reló)"
 
-#: plugin/plugin_jpeglossless.cpp:257
+#: plugin/plugin_jpeglossless.cpp:256
 msgid "using Exif orientation tag"
 msgstr "usar la etiqueta d'orientación Exif"
 
-#: plugin/plugin_jpeglossless.cpp:274
+#: plugin/plugin_jpeglossless.cpp:273
 #, kde-format
 msgid "Rotate images %1"
 msgstr "Xirar imáxenes %1"
 
-#: plugin/plugin_jpeglossless.cpp:290
+#: plugin/plugin_jpeglossless.cpp:289
 msgid ""
 "<p>Are you sure you wish to convert the selected image(s) to black and "
 "white? This operation <b>cannot</b> be undone.</p>"
@@ -95,7 +112,7 @@ msgstr ""
 "<p>¿Tas seguru de que quies convertir les imáxenes escoyíes a blancu y "
 "prietu? Esta operación <b>nun puede</b> desfacese.</p>"
 
-#: plugin/plugin_jpeglossless.cpp:304
+#: plugin/plugin_jpeglossless.cpp:303
 msgid "Convert images to black & white"
 msgstr "Convertir imáxenes a blancu y prietu"
 
@@ -137,23 +154,6 @@ msgstr "Falló'l reflexu de la imaxe"
 #: plugin/plugin_jpeglossless.cpp:418
 msgid "Failed to convert image to Black & White"
 msgstr "Falló la conversión de la imaxe a blancu y negru"
-
-#: plugin/utils.cpp:89
-msgid "unable to open source file"
-msgstr "Nun puede abrise'l ficheru fonte"
-
-#: plugin/utils.cpp:119 plugin/utils.cpp:146
-msgid "unable to open temp file"
-msgstr "Nun puede abrise'l ficheru temporal"
-
-#: plugin/utils.cpp:133
-msgid "Cannot rotate: unable to open temp file"
-msgstr "Nun puede xirase: nun puede abrise'l ficheru temporal"
-
-#: plugin/utils.cpp:195
-#, kde-format
-msgid "Cannot update metadata: %1"
-msgstr "Nun pudieron anovase los metadatos: %1"
 
 #: transform/imageflip.cpp:87 transform/imagerotate.cpp:88
 #: transform/convert2grayscale.cpp:96 transform/convert2grayscale.cpp:177
