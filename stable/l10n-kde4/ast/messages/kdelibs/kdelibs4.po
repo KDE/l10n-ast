@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4-1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-29 13:30+0100\n"
+"POT-Creation-Date: 2012-02-14 18:12+0100\n"
 "PO-Revision-Date: 2010-05-19 18:48+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -2480,27 +2480,6 @@ msgstr "Anubrir: %1"
 msgid "Show %1"
 msgstr "Amosar %1"
 
-#: kde3support/kdeui/k3listviewsearchline.cpp:287
-#: kdeui/itemviews/ktreewidgetsearchline.cpp:420
-msgid "Search Columns"
-msgstr "Buscar columnes"
-
-#: kde3support/kdeui/k3listviewsearchline.cpp:290
-#: kdeui/itemviews/ktreewidgetsearchline.cpp:422
-msgid "All Visible Columns"
-msgstr "Toles columnes visibles"
-
-#: kde3support/kdeui/k3listviewsearchline.cpp:307
-#, kde-format
-msgctxt "Column number %1"
-msgid "Column No. %1"
-msgstr "Columna Nº %1"
-
-#: kde3support/kdeui/k3listviewsearchline.cpp:557
-#: kdeui/itemviews/ktreewidgetsearchline.cpp:601
-msgid "S&earch:"
-msgstr "&Guetar:"
-
 #: kde3support/kdeui/k3sconfig.cpp:110
 msgctxt "@option:check"
 msgid "Do Spellchecking"
@@ -2712,59 +2691,6 @@ msgctxt "@item Spelling dictionary"
 msgid "<application>Hunspell</application> Default"
 msgstr "<application>ISpell</application> por omisión"
 
-#: kde3support/kdeui/k3spell.cpp:1290
-msgid "You have to restart the dialog for changes to take effect"
-msgstr "Tienes de reaniciar el diálogu pa que los cambeos faigan efeutu"
-
-#: kde3support/kdeui/k3spell.cpp:1526
-msgid "Spell Checker"
-msgstr "Correutor ortográficu"
-
-#: kde3support/kdeui/k3spelldlg.cpp:49
-msgid "Check Spelling"
-msgstr "Comprobar ortografía"
-
-#: kde3support/kdeui/k3spelldlg.cpp:53
-msgid "&Finished"
-msgstr "&Fináu"
-
-#: kde3support/kdeui/k3syntaxhighlighter.cpp:470
-#: kde3support/kdeui/k3syntaxhighlighter.cpp:576
-#: kdeui/sonnet/highlighter.cpp:242 kdeui/sonnet/highlighter.cpp:265
-msgid "As-you-type spell checking enabled."
-msgstr "Correición ortográfica sobro la marcha activada."
-
-#: kde3support/kdeui/k3syntaxhighlighter.cpp:472
-#: kdeui/sonnet/highlighter.cpp:267
-msgid "As-you-type spell checking disabled."
-msgstr "Correición ortográfica sobro la marcha desactivada."
-
-#: kde3support/kdeui/k3syntaxhighlighter.cpp:519
-msgid "Incremental Spellcheck"
-msgstr "Correutor ortográficu incremental"
-
-#: kde3support/kdeui/k3syntaxhighlighter.cpp:578
-#: kdeui/sonnet/highlighter.cpp:244
-msgid "Too many misspelled words. As-you-type spell checking disabled."
-msgstr ""
-"Abondes pallabres mal escrites. Igua ortográfica sobro la marcha desactivada."
-
-#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:493
-msgid "Check Spelling..."
-msgstr "Comprobar ortografía..."
-
-#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:496
-msgid "Auto Spell Check"
-msgstr "Correutor ortográficu automáticu"
-
-#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:500
-msgid "Allow Tabulations"
-msgstr "Permitir tabulaciones"
-
-#: kde3support/kdeui/k3textedit.cpp:348
-msgid "Spell Checking"
-msgstr "Correición ortográfica"
-
 #: kde3support/kdeui/k3wizard.cpp:48
 msgid "&Back"
 msgstr "&Retroceder"
@@ -2773,6 +2699,55 @@ msgstr "&Retroceder"
 msgctxt "Opposite to Back"
 msgid "&Next"
 msgstr "&Alantre"
+
+#: kde3support/kdeui/k3command.cpp:389
+#, kde-format
+msgid "Undo: %1"
+msgstr "Desfacer: %1"
+
+#: kde3support/kdeui/k3command.cpp:395
+#, kde-format
+msgid "Redo: %1"
+msgstr "Refacer: %1"
+
+#: kde3support/kdeui/k3command.cpp:422 kdeui/actions/kstandardaction_p.h:55
+msgid "&Undo"
+msgstr "&Desfacer"
+
+#: kde3support/kdeui/k3command.cpp:422
+msgid "&Redo"
+msgstr "&Refacer"
+
+#: kde3support/kdeui/k3command.cpp:427
+#, kde-format
+msgid "&Undo: %1"
+msgstr "&Desfacer: %1"
+
+#: kde3support/kdeui/k3command.cpp:430
+#, kde-format
+msgid "&Redo: %1"
+msgstr "&Refacer: %1"
+
+#: kde3support/kdeui/k3listviewsearchline.cpp:287
+#: kdeui/itemviews/ktreewidgetsearchline.cpp:420
+msgid "Search Columns"
+msgstr "Buscar columnes"
+
+#: kde3support/kdeui/k3listviewsearchline.cpp:290
+#: kdeui/itemviews/ktreewidgetsearchline.cpp:422
+msgid "All Visible Columns"
+msgstr "Toles columnes visibles"
+
+#: kde3support/kdeui/k3listviewsearchline.cpp:307
+#, kde-format
+msgctxt "Column number %1"
+msgid "Column No. %1"
+msgstr "Columna Nº %1"
+
+#: kde3support/kdeui/k3listviewsearchline.cpp:557
+#: kdeui/itemviews/ktreewidgetsearchline.cpp:601
+msgid "S&earch:"
+msgstr "&Guetar:"
 
 #: kde3support/kdeui/k3passworddialog.cpp:358
 msgid "&Password:"
@@ -2850,33 +2825,58 @@ msgstr[1] "La contraseña tien de tener polo menos %1 carauteres"
 msgid "Passwords match"
 msgstr "Les contraseñes concasen"
 
-#: kde3support/kdeui/k3command.cpp:389
-#, kde-format
-msgid "Undo: %1"
-msgstr "Desfacer: %1"
+#: kde3support/kdeui/k3spell.cpp:1290
+msgid "You have to restart the dialog for changes to take effect"
+msgstr "Tienes de reaniciar el diálogu pa que los cambeos faigan efeutu"
 
-#: kde3support/kdeui/k3command.cpp:395
-#, kde-format
-msgid "Redo: %1"
-msgstr "Refacer: %1"
+#: kde3support/kdeui/k3spell.cpp:1526
+msgid "Spell Checker"
+msgstr "Correutor ortográficu"
 
-#: kde3support/kdeui/k3command.cpp:422 kdeui/actions/kstandardaction_p.h:55
-msgid "&Undo"
-msgstr "&Desfacer"
+#: kde3support/kdeui/k3spelldlg.cpp:49
+msgid "Check Spelling"
+msgstr "Comprobar ortografía"
 
-#: kde3support/kdeui/k3command.cpp:422
-msgid "&Redo"
-msgstr "&Refacer"
+#: kde3support/kdeui/k3spelldlg.cpp:53
+msgid "&Finished"
+msgstr "&Fináu"
 
-#: kde3support/kdeui/k3command.cpp:427
-#, kde-format
-msgid "&Undo: %1"
-msgstr "&Desfacer: %1"
+#: kde3support/kdeui/k3syntaxhighlighter.cpp:470
+#: kde3support/kdeui/k3syntaxhighlighter.cpp:576
+#: kdeui/sonnet/highlighter.cpp:242 kdeui/sonnet/highlighter.cpp:265
+msgid "As-you-type spell checking enabled."
+msgstr "Correición ortográfica sobro la marcha activada."
 
-#: kde3support/kdeui/k3command.cpp:430
-#, kde-format
-msgid "&Redo: %1"
-msgstr "&Refacer: %1"
+#: kde3support/kdeui/k3syntaxhighlighter.cpp:472
+#: kdeui/sonnet/highlighter.cpp:267
+msgid "As-you-type spell checking disabled."
+msgstr "Correición ortográfica sobro la marcha desactivada."
+
+#: kde3support/kdeui/k3syntaxhighlighter.cpp:519
+msgid "Incremental Spellcheck"
+msgstr "Correutor ortográficu incremental"
+
+#: kde3support/kdeui/k3syntaxhighlighter.cpp:578
+#: kdeui/sonnet/highlighter.cpp:244
+msgid "Too many misspelled words. As-you-type spell checking disabled."
+msgstr ""
+"Abondes pallabres mal escrites. Igua ortográfica sobro la marcha desactivada."
+
+#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:493
+msgid "Check Spelling..."
+msgstr "Comprobar ortografía..."
+
+#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:496
+msgid "Auto Spell Check"
+msgstr "Correutor ortográficu automáticu"
+
+#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:500
+msgid "Allow Tabulations"
+msgstr "Permitir tabulaciones"
+
+#: kde3support/kdeui/k3textedit.cpp:348
+msgid "Spell Checking"
+msgstr "Correición ortográfica"
 
 #: kde3support/kio/kfile/k3fileview.cpp:123
 msgid "Unknown View"
@@ -4830,60 +4830,6 @@ msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: kdecore/network/k3resolver.cpp:545 kdecore/network/netsupp.cpp:891
-msgid "no error"
-msgstr "ensin error"
-
-#: kdecore/network/k3resolver.cpp:546
-msgid "requested family not supported for this host name"
-msgstr "familia solicita nun soportada pa esti nome de sirvidor"
-
-#: kdecore/network/k3resolver.cpp:547 kdecore/network/netsupp.cpp:893
-msgid "temporary failure in name resolution"
-msgstr "fallu temporal na resolución de nomes"
-
-#: kdecore/network/k3resolver.cpp:548 kdecore/network/netsupp.cpp:895
-msgid "non-recoverable failure in name resolution"
-msgstr "fallu nun recuperable na resolución de nomes"
-
-#: kdecore/network/k3resolver.cpp:549
-msgid "invalid flags"
-msgstr "banderes inválides"
-
-#: kdecore/network/k3resolver.cpp:550 kdecore/network/netsupp.cpp:897
-msgid "memory allocation failure"
-msgstr "fallu d'asignación de memoria"
-
-#: kdecore/network/k3resolver.cpp:551 kdecore/network/netsupp.cpp:899
-msgid "name or service not known"
-msgstr "nome o serviciu desconocíos"
-
-#: kdecore/network/k3resolver.cpp:552
-msgid "requested family not supported"
-msgstr "familia solicitada nun soportada"
-
-#: kdecore/network/k3resolver.cpp:553
-msgid "requested service not supported for this socket type"
-msgstr "serviciu solicitáu nun soportáu pa esta triba de socket"
-
-#: kdecore/network/k3resolver.cpp:554
-msgid "requested socket type not supported"
-msgstr "socket solicitáu nun soportáu"
-
-#: kdecore/network/k3resolver.cpp:555
-msgid "unknown error"
-msgstr "Error desconocíu"
-
-#: kdecore/network/k3resolver.cpp:557
-#, kde-format
-msgctxt "1: the i18n'ed system error code, from errno"
-msgid "system error: %1"
-msgstr "error del sistema: %1"
-
-#: kdecore/network/k3resolver.cpp:568
-msgid "request was canceled"
-msgstr "solicitú encaboxada"
-
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
 msgctxt "1: the unknown socket address family number"
@@ -5034,21 +4980,41 @@ msgstr "Fallu de socket desconocíu"
 msgid "Operation not supported"
 msgstr "Operación non sofitada"
 
+#: kdecore/network/netsupp.cpp:891 kdecore/network/k3resolver.cpp:545
+msgid "no error"
+msgstr "ensin error"
+
 #: kdecore/network/netsupp.cpp:892
 msgid "address family for nodename not supported"
 msgstr "familia de direiciones pal nodu nun soportada"
+
+#: kdecore/network/netsupp.cpp:893 kdecore/network/k3resolver.cpp:547
+msgid "temporary failure in name resolution"
+msgstr "fallu temporal na resolución de nomes"
 
 #: kdecore/network/netsupp.cpp:894
 msgid "invalid value for 'ai_flags'"
 msgstr "valor inválidu pa 'ai_flags'"
 
+#: kdecore/network/netsupp.cpp:895 kdecore/network/k3resolver.cpp:548
+msgid "non-recoverable failure in name resolution"
+msgstr "fallu nun recuperable na resolución de nomes"
+
 #: kdecore/network/netsupp.cpp:896
 msgid "'ai_family' not supported"
 msgstr "'ai_family' nun soportáu"
 
+#: kdecore/network/netsupp.cpp:897 kdecore/network/k3resolver.cpp:550
+msgid "memory allocation failure"
+msgstr "fallu d'asignación de memoria"
+
 #: kdecore/network/netsupp.cpp:898
 msgid "no address associated with nodename"
 msgstr "nun hai direición asociada col nodu"
+
+#: kdecore/network/netsupp.cpp:899 kdecore/network/k3resolver.cpp:551
+msgid "name or service not known"
+msgstr "nome o serviciu desconocíos"
 
 #: kdecore/network/netsupp.cpp:900
 msgid "servname not supported for ai_socktype"
@@ -5074,6 +5040,40 @@ msgstr "Cliente SOCKS Dante"
 #: kdecore/network/ksocketfactory.cpp:106
 msgid "Timed out trying to connect to remote host"
 msgstr "Pasó'l tiempu llende intentando coneutar a la máquina remota"
+
+#: kdecore/network/k3resolver.cpp:546
+msgid "requested family not supported for this host name"
+msgstr "familia solicita nun soportada pa esti nome de sirvidor"
+
+#: kdecore/network/k3resolver.cpp:549
+msgid "invalid flags"
+msgstr "banderes inválides"
+
+#: kdecore/network/k3resolver.cpp:552
+msgid "requested family not supported"
+msgstr "familia solicitada nun soportada"
+
+#: kdecore/network/k3resolver.cpp:553
+msgid "requested service not supported for this socket type"
+msgstr "serviciu solicitáu nun soportáu pa esta triba de socket"
+
+#: kdecore/network/k3resolver.cpp:554
+msgid "requested socket type not supported"
+msgstr "socket solicitáu nun soportáu"
+
+#: kdecore/network/k3resolver.cpp:555
+msgid "unknown error"
+msgstr "Error desconocíu"
+
+#: kdecore/network/k3resolver.cpp:557
+#, kde-format
+msgctxt "1: the i18n'ed system error code, from errno"
+msgid "system error: %1"
+msgstr "error del sistema: %1"
+
+#: kdecore/network/k3resolver.cpp:568
+msgid "request was canceled"
+msgstr "solicitú encaboxada"
 
 #: kdecore/network/ktcpsocket.cpp:152
 msgctxt "SSL error"
@@ -5449,6 +5449,50 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Deteutar automáticamente"
 
+#: kdeui/actions/ktogglefullscreenaction.cpp:48
+#: kdeui/actions/ktogglefullscreenaction.cpp:55
+#: kdeui/actions/ktogglefullscreenaction.cpp:85
+#: kdeui/actions/kstandardaction_p.h:101
+msgid "F&ull Screen Mode"
+msgstr "Mou de pantalla c&ompleta"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:51
+#: kdeui/actions/ktogglefullscreenaction.cpp:58
+#: kdeui/actions/ktogglefullscreenaction.cpp:86
+msgid "Full Screen"
+msgstr "Pantalla Completa"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:81
+msgid "Exit F&ull Screen Mode"
+msgstr "Colar del &mou de pantalla completa"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:82
+msgid "Exit Full Screen"
+msgstr "Colar de pantalla completa"
+
+#: kdeui/actions/kaction.cpp:122
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+"La secuencia de tecles «%1» ye ambigua. Use «Configurar accesos rápidos»\n"
+"nel menú «Preferencies» pa iguar l'ambigüedá.\n"
+"Nun s'executará denguna aición."
+
+#: kdeui/actions/kaction.cpp:126
+msgid "Ambiguous shortcut detected"
+msgstr "Deteutóse un accesu rápidu ambiguu"
+
+#: kdeui/actions/krecentfilesaction.cpp:81
+msgid "No Entries"
+msgstr "Ensin Entraes"
+
+#: kdeui/actions/krecentfilesaction.cpp:85
+msgid "Clear List"
+msgstr "Vaciar llista"
+
 #: kdeui/actions/kstandardaction.cpp:93 kdeui/util/kstandardguiitem.cpp:210
 msgctxt "go back"
 msgid "&Back"
@@ -5496,50 +5540,6 @@ msgstr ""
 "qu'hai na estaya inferior de la ventana y que s'usa p'amosar información "
 "d'estáu."
 
-#: kdeui/actions/ktogglefullscreenaction.cpp:48
-#: kdeui/actions/ktogglefullscreenaction.cpp:55
-#: kdeui/actions/ktogglefullscreenaction.cpp:85
-#: kdeui/actions/kstandardaction_p.h:101
-msgid "F&ull Screen Mode"
-msgstr "Mou de pantalla c&ompleta"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:51
-#: kdeui/actions/ktogglefullscreenaction.cpp:58
-#: kdeui/actions/ktogglefullscreenaction.cpp:86
-msgid "Full Screen"
-msgstr "Pantalla Completa"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:81
-msgid "Exit F&ull Screen Mode"
-msgstr "Colar del &mou de pantalla completa"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:82
-msgid "Exit Full Screen"
-msgstr "Colar de pantalla completa"
-
-#: kdeui/actions/kaction.cpp:122
-#, kde-format
-msgid ""
-"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
-"from the 'Settings' menu to solve the ambiguity.\n"
-"No action will be triggered."
-msgstr ""
-"La secuencia de tecles «%1» ye ambigua. Use «Configurar accesos rápidos»\n"
-"nel menú «Preferencies» pa iguar l'ambigüedá.\n"
-"Nun s'executará denguna aición."
-
-#: kdeui/actions/kaction.cpp:126
-msgid "Ambiguous shortcut detected"
-msgstr "Deteutóse un accesu rápidu ambiguu"
-
-#: kdeui/actions/krecentfilesaction.cpp:81
-msgid "No Entries"
-msgstr "Ensin Entraes"
-
-#: kdeui/actions/krecentfilesaction.cpp:85
-msgid "Clear List"
-msgstr "Vaciar llista"
-
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
 msgid ""
 "<qt>No information available.<br />The supplied KAboutData object does not "
@@ -5582,6 +5582,70 @@ msgstr "Llicencia: %1"
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:312
 msgid "License Agreement"
 msgstr "Alcuerdu de Llicencia"
+
+#: kdeui/dialogs/kpassworddialog.cpp:70
+msgid "Password"
+msgstr "Contraseña"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:127
+#: kdeui/widgets/kcharselectdata.cpp:685
+msgid "Unknown"
+msgstr "desconocíu"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:570
+#: kdeui/dialogs/kshortcutseditor.cpp:586
+msgid "Key Conflict"
+msgstr "Engarradiella de tecles"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:571
+#, kde-format
+msgid ""
+"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+"El xestu de forma «%1» yá s'asignó a l'aición «%2».\n"
+"¿Quier reasignalu d'esa aición a l'aición actual?"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:575
+#: kdeui/dialogs/kshortcutseditor.cpp:591 kdeui/shortcuts/kglobalaccel.cpp:547
+#: kdeui/shortcuts/kglobalaccel.cpp:587
+#: kdeui/widgets/kkeysequencewidget.cpp:146
+#: kdeui/widgets/kkeysequencewidget.cpp:235
+#: kdeui/widgets/kkeysequencewidget.cpp:632
+msgid "Reassign"
+msgstr "Reasignar"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:587
+#, kde-format
+msgid ""
+"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+"El xestor de mecedura «%1» yá s'asignó a l'aición «%2».\n"
+"¿Quier reasignalu d'esa aición a l'aición actual?"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:630
+#, kde-format
+msgctxt "header for an applications shortcut list"
+msgid "Shortcuts for %1"
+msgstr "Accesos rápidos pa %1"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:650
+msgid "Global:"
+msgstr "Global:"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:665
+msgid "Action Name"
+msgstr "Nome de l'aición"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:669
+msgid "Shortcuts"
+msgstr "Accesos rápidos"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:673
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
+msgid "Description"
+msgstr "Descripción"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:42
 msgid "About KDE"
@@ -5783,37 +5847,68 @@ msgstr "%1"
 msgid "Change Icon"
 msgstr "Camudar iconu"
 
-#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:90
-msgid "Print Immediately"
-msgstr "Imprentar darréu"
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:98
+msgid "Switch Application Language"
+msgstr "Camudar la llingua de la aplicación"
 
-#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:91
-msgid "Hold Indefinitely"
-msgstr "Caltener indefinidamente"
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:108
+msgid "Please choose the language which should be used for this application:"
+msgstr "Escueyi la llingua que quier usar nesta aplicación:"
 
-#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:92
-msgid "Day (06:00 to 17:59)"
-msgstr "Día (de 06:00 a 17:59)"
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:136
+msgid "Add Fallback Language"
+msgstr "Amestar una llingua a la que recurrir"
 
-#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:93
-msgid "Night (18:00 to 05:59)"
-msgstr "Nueche (de 18:00 a 05:59)"
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:137
+msgid ""
+"Adds one more language which will be used if other translations do not "
+"contain a proper translation."
+msgstr ""
+"Amiesta una llingua más, que s'usará si les otres traducciones nun tán "
+"completes."
 
-#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:94
-msgid "Second Shift (16:00 to 23:59)"
-msgstr "Segundu turnu (de 16:00 a 23:59)"
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:227
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:255
+msgid ""
+"The language for this application has been changed. The change will take "
+"effect the next time the application is started."
+msgstr ""
+"Camudóse la llingua d'esta aplicación. El cambéu furrulará la próxima vegada "
+"que s'arranque l'aplicación."
 
-#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:95
-msgid "Third Shift (00:00 to 07:59)"
-msgstr "Tercer turnu (de 00:00 a 07:59)"
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:228
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:256
+msgid "Application Language Changed"
+msgstr "La llingua de l'aplicación camudóse"
 
-#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:96
-msgid "Weekend (Saturday to Sunday)"
-msgstr "Fin de selmana (de sábadu a domingu)"
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:323
+msgid "Primary language:"
+msgstr "Llinguax primariu"
 
-#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:97
-msgid "Specific Time"
-msgstr "Hora específica"
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:323
+msgid "Fallback language:"
+msgstr "Idioma d'emerxencia:"
+
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:343
+#: kdeui/util/kstandardguiitem.cpp:291 kross/ui/view.cpp:329
+msgid "Remove"
+msgstr "Desaniciar"
+
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:354
+msgid ""
+"This is the main application language which will be used first, before any "
+"other languages."
+msgstr ""
+"Esta ye la llingua principal de l'aplicación, que s'usará enantes que "
+"denguna otra llingua."
+
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:355
+msgid ""
+"This is the language which will be used if any previous languages do not "
+"contain a proper translation."
+msgstr ""
+"Esta ye la llingua que s'usará si los idiomes anteriores nun tienen una "
+"traducción afayadiza."
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:167
 msgid "Left to Right, Top to Bottom"
@@ -5939,31 +6034,6 @@ msgctxt "@title:window"
 msgid "Print"
 msgstr "Imprentar"
 
-#: kdeui/dialogs/klinkdialog.cpp:49
-msgid "Manage Link"
-msgstr "Xestionar enllaz"
-
-#: kdeui/dialogs/klinkdialog.cpp:58
-msgid "Link Text:"
-msgstr "Testu del enllaz:"
-
-#: kdeui/dialogs/klinkdialog.cpp:61
-msgid "Link URL:"
-msgstr "URL del enllaz:"
-
-#: kdeui/dialogs/kpassworddialog.cpp:70
-msgid "Password"
-msgstr "Contraseña"
-
-#: kdeui/dialogs/kpixmapregionselectordialog.cpp:64
-msgid "Select Region of Image"
-msgstr "Esbillar una rexón de la imaxe"
-
-#: kdeui/dialogs/kpixmapregionselectordialog.cpp:68
-msgid "Please click and drag on the image to select the region of interest:"
-msgstr ""
-"Por favor calque y arrastre sobro la imaxe pa esbillar la rexón d'interés:"
-
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
 msgid "Default:"
 msgstr "Predeterminaos:"
@@ -5978,6 +6048,15 @@ msgstr "Dengún"
 #: kdeui/dialogs/kshortcuteditwidget.cpp:66
 msgid "Custom:"
 msgstr "Personalizáu:"
+
+#: kdeui/dialogs/kpixmapregionselectordialog.cpp:64
+msgid "Select Region of Image"
+msgstr "Esbillar una rexón de la imaxe"
+
+#: kdeui/dialogs/kpixmapregionselectordialog.cpp:68
+msgid "Please click and drag on the image to select the region of interest:"
+msgstr ""
+"Por favor calque y arrastre sobro la imaxe pa esbillar la rexón d'interés:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:41
 msgid "Shortcut Schemes"
@@ -6063,135 +6142,6 @@ msgstr "Imprentar"
 msgid "Reset to Defaults"
 msgstr "Restablecer a predeterminaos"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:127
-#: kdeui/widgets/kcharselectdata.cpp:685
-msgid "Unknown"
-msgstr "desconocíu"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:570
-#: kdeui/dialogs/kshortcutseditor.cpp:586
-msgid "Key Conflict"
-msgstr "Engarradiella de tecles"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:571
-#, kde-format
-msgid ""
-"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-"El xestu de forma «%1» yá s'asignó a l'aición «%2».\n"
-"¿Quier reasignalu d'esa aición a l'aición actual?"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:575
-#: kdeui/dialogs/kshortcutseditor.cpp:591 kdeui/shortcuts/kglobalaccel.cpp:547
-#: kdeui/shortcuts/kglobalaccel.cpp:587
-#: kdeui/widgets/kkeysequencewidget.cpp:146
-#: kdeui/widgets/kkeysequencewidget.cpp:235
-#: kdeui/widgets/kkeysequencewidget.cpp:632
-msgid "Reassign"
-msgstr "Reasignar"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:587
-#, kde-format
-msgid ""
-"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-"El xestor de mecedura «%1» yá s'asignó a l'aición «%2».\n"
-"¿Quier reasignalu d'esa aición a l'aición actual?"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:630
-#, kde-format
-msgctxt "header for an applications shortcut list"
-msgid "Shortcuts for %1"
-msgstr "Accesos rápidos pa %1"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:650
-msgid "Global:"
-msgstr "Global:"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:665
-msgid "Action Name"
-msgstr "Nome de l'aición"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:669
-msgid "Shortcuts"
-msgstr "Accesos rápidos"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:673
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
-msgid "Description"
-msgstr "Descripción"
-
-#: kdeui/dialogs/kshortcutseditoritem.cpp:45
-#, kde-format
-msgctxt "@item:intable Action name in shortcuts configuration"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:98
-msgid "Switch Application Language"
-msgstr "Camudar la llingua de la aplicación"
-
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:108
-msgid "Please choose the language which should be used for this application:"
-msgstr "Escueyi la llingua que quier usar nesta aplicación:"
-
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:136
-msgid "Add Fallback Language"
-msgstr "Amestar una llingua a la que recurrir"
-
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:137
-msgid ""
-"Adds one more language which will be used if other translations do not "
-"contain a proper translation."
-msgstr ""
-"Amiesta una llingua más, que s'usará si les otres traducciones nun tán "
-"completes."
-
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:227
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:255
-msgid ""
-"The language for this application has been changed. The change will take "
-"effect the next time the application is started."
-msgstr ""
-"Camudóse la llingua d'esta aplicación. El cambéu furrulará la próxima vegada "
-"que s'arranque l'aplicación."
-
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:228
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:256
-msgid "Application Language Changed"
-msgstr "La llingua de l'aplicación camudóse"
-
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:323
-msgid "Primary language:"
-msgstr "Llinguax primariu"
-
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:323
-msgid "Fallback language:"
-msgstr "Idioma d'emerxencia:"
-
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:343
-#: kdeui/util/kstandardguiitem.cpp:291 kross/ui/view.cpp:329
-msgid "Remove"
-msgstr "Desaniciar"
-
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:354
-msgid ""
-"This is the main application language which will be used first, before any "
-"other languages."
-msgstr ""
-"Esta ye la llingua principal de l'aplicación, que s'usará enantes que "
-"denguna otra llingua."
-
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:355
-msgid ""
-"This is the language which will be used if any previous languages do not "
-"contain a proper translation."
-msgstr ""
-"Esta ye la llingua que s'usará si los idiomes anteriores nun tienen una "
-"traducción afayadiza."
-
 #: kdeui/dialogs/ktip.cpp:230
 msgid "Tip of the Day"
 msgstr "Trucu del Día"
@@ -6208,6 +6158,12 @@ msgstr "&Amosar trucos nel aniciu"
 msgctxt "Opposite to Previous"
 msgid "&Next"
 msgstr "&Alantre"
+
+#: kdeui/dialogs/kshortcutseditoritem.cpp:45
+#, kde-format
+msgctxt "@item:intable Action name in shortcuts configuration"
+msgid "%1"
+msgstr "%1"
 
 #: kdeui/dialogs/kaboutapplicationpersonmodel_p.cpp:205
 #, fuzzy, kde-format
@@ -6470,6 +6426,38 @@ msgstr ""
 msgid "Close Message"
 msgstr "Zarrar mensax"
 
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:90
+msgid "Print Immediately"
+msgstr "Imprentar darréu"
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:91
+msgid "Hold Indefinitely"
+msgstr "Caltener indefinidamente"
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:92
+msgid "Day (06:00 to 17:59)"
+msgstr "Día (de 06:00 a 17:59)"
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:93
+msgid "Night (18:00 to 05:59)"
+msgstr "Nueche (de 18:00 a 05:59)"
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:94
+msgid "Second Shift (16:00 to 23:59)"
+msgstr "Segundu turnu (de 16:00 a 23:59)"
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:95
+msgid "Third Shift (00:00 to 07:59)"
+msgstr "Tercer turnu (de 00:00 a 07:59)"
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:96
+msgid "Weekend (Saturday to Sunday)"
+msgstr "Fin de selmana (de sábadu a domingu)"
+
+#: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:97
+msgid "Specific Time"
+msgstr "Hora específica"
+
 #: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:60
 #, fuzzy
 #| msgid "Other Contributors:"
@@ -6635,6 +6623,42 @@ msgstr "Siguiente"
 #: knewstuff/knewstuff3/uploaddialog.cpp:370
 msgid "Finish"
 msgstr "Finar"
+
+#: kdeui/dialogs/klinkdialog.cpp:49
+msgid "Manage Link"
+msgstr "Xestionar enllaz"
+
+#: kdeui/dialogs/klinkdialog.cpp:58
+msgid "Link Text:"
+msgstr "Testu del enllaz:"
+
+#: kdeui/dialogs/klinkdialog.cpp:61
+msgid "Link URL:"
+msgstr "URL del enllaz:"
+
+#: kdeui/findreplace/kreplacedialog.cpp:154
+#, kde-format
+msgid "Your replacement string is referencing a capture greater than '\\%1', "
+msgstr "La to cadena de troque fai referencia a una captura mayor que '\\%1', "
+
+#: kdeui/findreplace/kreplacedialog.cpp:156
+#, kde-format
+msgid "but your pattern only defines 1 capture."
+msgid_plural "but your pattern only defines %1 captures."
+msgstr[0] "pero'l to patrón namái define una captura."
+msgstr[1] "pero'l to patrón namái define %1 captures."
+
+#: kdeui/findreplace/kreplacedialog.cpp:158
+msgid "but your pattern defines no captures."
+msgstr "pero el to patrón nun define captures."
+
+#: kdeui/findreplace/kreplacedialog.cpp:159
+msgid ""
+"\n"
+"Please correct."
+msgstr ""
+"\n"
+"Por favor ígualo."
 
 #: kdeui/findreplace/kfind.cpp:50
 msgid "Find Next"
@@ -6946,30 +6970,6 @@ msgctxt "@action:button Stop find & replace"
 msgid "Stop"
 msgstr "Detener"
 
-#: kdeui/findreplace/kreplacedialog.cpp:154
-#, kde-format
-msgid "Your replacement string is referencing a capture greater than '\\%1', "
-msgstr "La to cadena de troque fai referencia a una captura mayor que '\\%1', "
-
-#: kdeui/findreplace/kreplacedialog.cpp:156
-#, kde-format
-msgid "but your pattern only defines 1 capture."
-msgid_plural "but your pattern only defines %1 captures."
-msgstr[0] "pero'l to patrón namái define una captura."
-msgstr[1] "pero'l to patrón namái define %1 captures."
-
-#: kdeui/findreplace/kreplacedialog.cpp:158
-msgid "but your pattern defines no captures."
-msgstr "pero el to patrón nun define captures."
-
-#: kdeui/findreplace/kreplacedialog.cpp:159
-msgid ""
-"\n"
-"Please correct."
-msgstr ""
-"\n"
-"Por favor ígualo."
-
 #. i18n: Generic sans serif font presented in font choosers. When selected,
 #. the system will choose a real font, mandated by distro settings.
 #: kdeui/fonts/fonthelpers.cpp:32
@@ -7025,44 +7025,6 @@ msgstr "Ú ta to má. Ma ta pa Ponga. Ú ta pá. Pá ta pa Colunga"
 msgctxt "Numeric IDs of scripts for font previews"
 msgid "1"
 msgstr "1"
-
-#: kdeui/fonts/kfontdialog.cpp:75
-msgid "Select Font"
-msgstr "Esbillar una triba de lletra"
-
-#: kdeui/fonts/kfontrequester.cpp:110
-msgid "Choose..."
-msgstr "Escoyer..."
-
-#: kdeui/fonts/kfontrequester.cpp:215
-msgid "Click to select a font"
-msgstr "Calca pa escoyer una fonte"
-
-#: kdeui/fonts/kfontrequester.cpp:222
-msgid "Preview of the selected font"
-msgstr "Previsualizar la fonte escoyida"
-
-#: kdeui/fonts/kfontrequester.cpp:223
-msgid ""
-"This is a preview of the selected font. You can change it by clicking the "
-"\"Choose...\" button."
-msgstr ""
-"Esto ye una previsualización de la fonte escoyida. Puedes camudala calcando "
-"nel botón \"Escoyer...\"."
-
-#: kdeui/fonts/kfontrequester.cpp:228
-#, kde-format
-msgid "Preview of the \"%1\" font"
-msgstr "Previsualización de la fonte «%1»"
-
-#: kdeui/fonts/kfontrequester.cpp:229
-#, kde-format
-msgid ""
-"This is a preview of the \"%1\" font. You can change it by clicking the "
-"\"Choose...\" button."
-msgstr ""
-"Esto ye una previsualización de la fonte «%1». Puedes camudala calcando nel "
-"botón «Escoyer...»."
 
 #: kdeui/fonts/kfontchooser.cpp:162
 msgctxt "@info:whatsthis"
@@ -7227,6 +7189,44 @@ msgctxt "@item Font style"
 msgid "%1"
 msgstr "%1"
 
+#: kdeui/fonts/kfontdialog.cpp:75
+msgid "Select Font"
+msgstr "Esbillar una triba de lletra"
+
+#: kdeui/fonts/kfontrequester.cpp:110
+msgid "Choose..."
+msgstr "Escoyer..."
+
+#: kdeui/fonts/kfontrequester.cpp:215
+msgid "Click to select a font"
+msgstr "Calca pa escoyer una fonte"
+
+#: kdeui/fonts/kfontrequester.cpp:222
+msgid "Preview of the selected font"
+msgstr "Previsualizar la fonte escoyida"
+
+#: kdeui/fonts/kfontrequester.cpp:223
+msgid ""
+"This is a preview of the selected font. You can change it by clicking the "
+"\"Choose...\" button."
+msgstr ""
+"Esto ye una previsualización de la fonte escoyida. Puedes camudala calcando "
+"nel botón \"Escoyer...\"."
+
+#: kdeui/fonts/kfontrequester.cpp:228
+#, kde-format
+msgid "Preview of the \"%1\" font"
+msgstr "Previsualización de la fonte «%1»"
+
+#: kdeui/fonts/kfontrequester.cpp:229
+#, kde-format
+msgid ""
+"This is a preview of the \"%1\" font. You can change it by clicking the "
+"\"Choose...\" button."
+msgstr ""
+"Esto ye una previsualización de la fonte «%1». Puedes camudala calcando nel "
+"botón «Escoyer...»."
+
 #: kdeui/itemviews/kfilterproxysearchline.cpp:73
 #: nepomuk/utils/searchwidget.cpp:142
 msgid "Search"
@@ -7380,31 +7380,31 @@ msgstr "Nun s'atopó l'estilu «%1»"
 msgid "Unknown Application"
 msgstr "Aplicación desconocida"
 
-#: kdeui/notifications/ksystemtrayicon.cpp:156
-msgid "Minimize"
-msgstr "Minimizar"
-
-#: kdeui/notifications/ksystemtrayicon.cpp:215
 #: kdeui/notifications/kstatusnotifieritem.cpp:488
 #: kdeui/notifications/kstatusnotifieritem.cpp:926
+#: kdeui/notifications/ksystemtrayicon.cpp:215
 msgid "&Minimize"
 msgstr "&Minimizar"
 
-#: kdeui/notifications/ksystemtrayicon.cpp:219
 #: kdeui/notifications/kstatusnotifieritem.cpp:924
+#: kdeui/notifications/ksystemtrayicon.cpp:219
 msgid "&Restore"
 msgstr "&Restaurar"
 
-#: kdeui/notifications/ksystemtrayicon.cpp:239
 #: kdeui/notifications/kstatusnotifieritem.cpp:934
+#: kdeui/notifications/ksystemtrayicon.cpp:239
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>¿Daveres quies colar de <b>%1</b>?</qt>"
 
-#: kdeui/notifications/ksystemtrayicon.cpp:242
 #: kdeui/notifications/kstatusnotifieritem.cpp:937
+#: kdeui/notifications/ksystemtrayicon.cpp:242
 msgid "Confirm Quit From System Tray"
 msgstr "Confirmar colar dende la bandexa del sistema"
+
+#: kdeui/notifications/ksystemtrayicon.cpp:156
+msgid "Minimize"
+msgstr "Minimizar"
 
 #: kdeui/shortcuts/kcheckaccelerators.cpp:209
 msgctxt "@title:window"
@@ -7461,45 +7461,6 @@ msgctxt ""
 "button"
 msgid "Hold %1, then push %2"
 msgstr "Caltenga calcáu el %1, y dempués calque %2"
-
-#: kdeui/shortcuts/kglobalaccel.cpp:540
-msgid "Conflict with Global Shortcut"
-msgstr "Engarradiella con accesu rápidu global"
-
-#: kdeui/shortcuts/kglobalaccel.cpp:541
-#, kde-format
-msgid ""
-"The '%1' key combination has already been allocated to the global action "
-"\"%2\" in %3.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-"La combinación de tecles «%1» yá ta asignada a l'aición global «%2» en %3.\n"
-"¿Quier reasignala d'esa aición a l'aición actual?"
-
-#: kdeui/shortcuts/kglobalaccel.cpp:568
-#, kde-format
-msgid "The '%1' key combination is registered by application %2 for action %3:"
-msgstr ""
-"La combinación de tecles «%1» ta rexistrada pola aplicación %2 pa l'aición "
-"%3:"
-
-#: kdeui/shortcuts/kglobalaccel.cpp:575
-#, kde-format
-msgid "In context '%1' for action '%2'\n"
-msgstr "Nel contestu «%1» pa l'aición «%2»\n"
-
-#: kdeui/shortcuts/kglobalaccel.cpp:579
-#, kde-format
-msgid ""
-"The '%1' key combination is registered by application %2.\n"
-"%3"
-msgstr ""
-"La combinación de tecles «%1» ta rexistrada pola aplicación %2.\n"
-"%3"
-
-#: kdeui/shortcuts/kglobalaccel.cpp:585
-msgid "Conflict With Registered Global Shortcut"
-msgstr "Conflictu con un accesu rápidu global rexistráu"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:86
 msgctxt "@action"
@@ -7890,6 +7851,45 @@ msgstr "Tocante a l'Aplicación"
 msgctxt "@action"
 msgid "About KDE"
 msgstr "Tocante a KDE"
+
+#: kdeui/shortcuts/kglobalaccel.cpp:540
+msgid "Conflict with Global Shortcut"
+msgstr "Engarradiella con accesu rápidu global"
+
+#: kdeui/shortcuts/kglobalaccel.cpp:541
+#, kde-format
+msgid ""
+"The '%1' key combination has already been allocated to the global action "
+"\"%2\" in %3.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+"La combinación de tecles «%1» yá ta asignada a l'aición global «%2» en %3.\n"
+"¿Quier reasignala d'esa aición a l'aición actual?"
+
+#: kdeui/shortcuts/kglobalaccel.cpp:568
+#, kde-format
+msgid "The '%1' key combination is registered by application %2 for action %3:"
+msgstr ""
+"La combinación de tecles «%1» ta rexistrada pola aplicación %2 pa l'aición "
+"%3:"
+
+#: kdeui/shortcuts/kglobalaccel.cpp:575
+#, kde-format
+msgid "In context '%1' for action '%2'\n"
+msgstr "Nel contestu «%1» pa l'aición «%2»\n"
+
+#: kdeui/shortcuts/kglobalaccel.cpp:579
+#, kde-format
+msgid ""
+"The '%1' key combination is registered by application %2.\n"
+"%3"
+msgstr ""
+"La combinación de tecles «%1» ta rexistrada pola aplicación %2.\n"
+"%3"
+
+#: kdeui/shortcuts/kglobalaccel.cpp:585
+msgid "Conflict With Registered Global Shortcut"
+msgstr "Conflictu con un accesu rápidu global rexistráu"
 
 #: kdeui/sonnet/configdialog.cpp:51
 #, fuzzy
@@ -9416,14 +9416,6 @@ msgstr "Separador, Párrafu"
 msgid "Separator, Space"
 msgstr "Separador, Espaciu"
 
-#: kdeui/widgets/kcmodule.cpp:182
-msgid "You will be asked to authenticate before saving"
-msgstr "Entrugarásete p'autenticación enantes de salvar"
-
-#: kdeui/widgets/kcmodule.cpp:186
-msgid "You are not allowed to save the configuration"
-msgstr "Nun tienes permisos pa guardar la configuración"
-
 #: kdeui/widgets/kdatepicker.cpp:174
 #, kde-format
 msgid "Week %1"
@@ -9460,6 +9452,22 @@ msgstr "Seleicionar un añu"
 #: kdeui/widgets/kdatepicker.cpp:285
 msgid "Select the current day"
 msgstr "Seleicionar el día actual"
+
+#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
+msgid "&Add"
+msgstr "&Amestar"
+
+#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
+msgid "&Remove"
+msgstr "&Desaniciar"
+
+#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
+msgid "Move &Up"
+msgstr "Mover &arriba"
+
+#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
+msgid "Move &Down"
+msgstr "Mover a&baxo"
 
 #. i18n: Placeholder text in line edit widgets is the text appearing
 #. before any user input, briefly explaining to the user what to type
@@ -9520,22 +9528,6 @@ msgstr "Llista estenderexable y automática"
 msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "Predetermináu"
-
-#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
-msgid "&Add"
-msgstr "&Amestar"
-
-#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
-msgid "&Remove"
-msgstr "&Desaniciar"
-
-#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
-msgid "Move &Up"
-msgstr "Mover &arriba"
-
-#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
-msgid "Move &Down"
-msgstr "Mover a&baxo"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
@@ -9662,31 +9654,6 @@ msgstr "Tecla non funcional"
 #: kdeui/widgets/klanguagebutton.cpp:177
 msgid "without name"
 msgstr "ensin nome"
-
-#: kdeui/widgets/ktextedit.cpp:527
-msgid "Speak Text"
-msgstr "Lleer testu"
-
-#: kdeui/widgets/ktextedit.cpp:542
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: kdeui/widgets/ktextedit.cpp:631
-#, kde-format
-msgid "No suggestions for %1"
-msgstr "Nun hai suxerencies pa %1"
-
-#: kdeui/widgets/ktextedit.cpp:642
-msgid "Ignore"
-msgstr "Inorar"
-
-#: kdeui/widgets/ktextedit.cpp:643
-msgid "Add to Dictionary"
-msgstr "Amestar al diccionariu"
-
-#: kdeui/widgets/ktextedit.cpp:788
-msgid "Nothing to spell check."
-msgstr "Res que comprobar ortográficamente."
 
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
@@ -9889,6 +9856,31 @@ msgstr "Superíndiz"
 msgid "&Copy Full Text"
 msgstr "&Copiar tol testu"
 
+#: kdeui/widgets/ktextedit.cpp:527
+msgid "Speak Text"
+msgstr "Lleer testu"
+
+#: kdeui/widgets/ktextedit.cpp:542
+msgid "Starting Jovie Text-to-Speech Service Failed"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:631
+#, kde-format
+msgid "No suggestions for %1"
+msgstr "Nun hai suxerencies pa %1"
+
+#: kdeui/widgets/ktextedit.cpp:642
+msgid "Ignore"
+msgstr "Inorar"
+
+#: kdeui/widgets/ktextedit.cpp:643
+msgid "Add to Dictionary"
+msgstr "Amestar al diccionariu"
+
+#: kdeui/widgets/ktextedit.cpp:788
+msgid "Nothing to spell check."
+msgstr "Res que comprobar ortográficamente."
+
 #: kdeui/widgets/ktimecombobox.cpp:259
 #, fuzzy
 #| msgctxt "SSL error"
@@ -9908,6 +9900,14 @@ msgstr ""
 msgctxt "@info"
 msgid "Time cannot be later than %1"
 msgstr ""
+
+#: kdeui/widgets/kcmodule.cpp:182
+msgid "You will be asked to authenticate before saving"
+msgstr "Entrugarásete p'autenticación enantes de salvar"
+
+#: kdeui/widgets/kcmodule.cpp:186
+msgid "You are not allowed to save the configuration"
+msgstr "Nun tienes permisos pa guardar la configuración"
 
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgctxt "Define an area in the time zone, like a town area"
@@ -10140,11 +10140,15 @@ msgstr ""
 
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:563
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:176
-#: kdeui/windowmanagement/kwindowsystem_x11.cpp:896
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:598
+#: kdeui/windowmanagement/kwindowsystem_x11.cpp:896
 #, kde-format
 msgid "Desktop %1"
 msgstr "Escritoriu %1"
+
+#: kdeui/xmlgui/kxmlguibuilder.cpp:182 kdeui/xmlgui/kxmlguibuilder.cpp:349
+msgid "No text"
+msgstr "Ensin testu"
 
 #: kdeui/xmlgui/kmenumenuhandler_p.cpp:48
 msgid "Add to Toolbar"
@@ -10159,10 +10163,6 @@ msgstr "Configurar Atayos..."
 #| msgid "Toolbars"
 msgid "Toolbars Shown"
 msgstr "Barra de ferramientes"
-
-#: kdeui/xmlgui/kxmlguibuilder.cpp:182 kdeui/xmlgui/kxmlguibuilder.cpp:349
-msgid "No text"
-msgstr "Ensin testu"
 
 #: kdewidgets/makekdewidgets.cpp:84
 msgid "Builds Qt widget plugins from an ini style description file."
@@ -10200,162 +10200,6 @@ msgstr "Ian Reinhart Geiser"
 #: kdewidgets/makekdewidgets.cpp:96
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
-
-#: khtml/khtml_ext.cpp:418
-msgid "&Copy Text"
-msgstr "&Copiar testu"
-
-#: khtml/khtml_ext.cpp:432
-#, kde-format
-msgid "Open '%1'"
-msgstr "Abrir '%1'"
-
-#: khtml/khtml_ext.cpp:449
-msgid "&Copy Email Address"
-msgstr "&Copiar direición de corréu eleutrónicu"
-
-#: khtml/khtml_ext.cpp:454
-msgid "&Save Link As..."
-msgstr "&Guardar enllaz como..."
-
-#: khtml/khtml_ext.cpp:459
-msgid "&Copy Link Address"
-msgstr "&Copiar direición d'enllaz"
-
-#: khtml/khtml_ext.cpp:471
-msgctxt "@title:menu HTML frame/iframe"
-msgid "Frame"
-msgstr "Marcu"
-
-#: khtml/khtml_ext.cpp:472
-msgid "Open in New &Window"
-msgstr "Abrir nuna &nueva ventana"
-
-#: khtml/khtml_ext.cpp:478
-msgid "Open in &This Window"
-msgstr "Abrir nes&ta ventana"
-
-#: khtml/khtml_ext.cpp:483
-msgid "Open in &New Tab"
-msgstr "Abrir nuna &nueva llingüeta"
-
-#: khtml/khtml_ext.cpp:493
-msgid "Reload Frame"
-msgstr "Recargar marcu"
-
-#: khtml/khtml_ext.cpp:498 khtml/khtml_part.cpp:421
-msgid "Print Frame..."
-msgstr "Imprentar marcu..."
-
-#: khtml/khtml_ext.cpp:504 khtml/khtml_part.cpp:281
-msgid "Save &Frame As..."
-msgstr "Guardar &marcu como..."
-
-#: khtml/khtml_ext.cpp:509 khtml/khtml_part.cpp:258
-msgid "View Frame Source"
-msgstr "Ver el códigu fonte del marcu"
-
-#: khtml/khtml_ext.cpp:514
-msgid "View Frame Information"
-msgstr "Ver información del marcu"
-
-#: khtml/khtml_ext.cpp:524
-msgid "Block IFrame..."
-msgstr "Bloquiar IFrame..."
-
-#: khtml/khtml_ext.cpp:549
-msgid "Save Image As..."
-msgstr "Guardar imaxe como..."
-
-#: khtml/khtml_ext.cpp:554
-msgid "Send Image..."
-msgstr "Unviar imaxe..."
-
-#: khtml/khtml_ext.cpp:560
-msgid "Copy Image"
-msgstr "Copiar imaxe"
-
-#: khtml/khtml_ext.cpp:568
-msgid "Copy Image Location"
-msgstr "Copiar direición de la imaxe"
-
-#: khtml/khtml_ext.cpp:577
-#, kde-format
-msgid "View Image (%1)"
-msgstr "Ver imaxe (%1)"
-
-#: khtml/khtml_ext.cpp:583
-msgid "Block Image..."
-msgstr "Bloquiar imaxe..."
-
-#: khtml/khtml_ext.cpp:591
-#, kde-format
-msgid "Block Images From %1"
-msgstr "Bloquiar imáxenes dende %1"
-
-#: khtml/khtml_ext.cpp:603
-msgid "Stop Animations"
-msgstr "Detener animaciones"
-
-#: khtml/khtml_ext.cpp:640
-#, kde-format
-msgid "Search for '%1' with %2"
-msgstr "Guetar '%1' con %2"
-
-#: khtml/khtml_ext.cpp:650
-#, kde-format
-msgid "Search for '%1' with"
-msgstr "Guetar '%1' con"
-
-#: khtml/khtml_ext.cpp:694
-msgid "Save Link As"
-msgstr "Guardar enllaz como"
-
-#: khtml/khtml_ext.cpp:714
-msgid "Save Image As"
-msgstr "Guardar imaxe como"
-
-#: khtml/khtml_ext.cpp:728 khtml/khtml_ext.cpp:741
-msgid "Add URL to Filter"
-msgstr "Amestar URL al filtru"
-
-#: khtml/khtml_ext.cpp:729 khtml/khtml_ext.cpp:742
-msgid "Enter the URL:"
-msgstr "Introduza la URL:"
-
-#: khtml/khtml_ext.cpp:879
-#, kde-format
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
-msgstr "Yá esiste un ficheru col nome  «%1». ¿Daveres quies trocalu?"
-
-#: khtml/khtml_ext.cpp:879
-msgid "Overwrite File?"
-msgstr "¿Sobroscribir el ficheru?"
-
-#: khtml/khtml_ext.cpp:879
-msgid "Overwrite"
-msgstr "Sobroscribir"
-
-#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:397
-#, kde-format
-msgid "The Download Manager (%1) could not be found in your $PATH "
-msgstr "L'alministrador de descargues (%1) nun pudo alcontrase nel to $PATH "
-
-#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:398
-msgid ""
-"Try to reinstall it  \n"
-"\n"
-"The integration with Konqueror will be disabled."
-msgstr ""
-"Intenta reinstalalu  \n"
-"\n"
-"La integración con Konqueror inhabilitaráse."
-
-#: khtml/khtml_ext.cpp:1023
-#, no-c-format
-msgid "Default Font Size (100%)"
-msgstr "Tamañu predetermináu de la lletra (100%)"
 
 #: khtml/khtml_global.cpp:208
 msgid "KHTML"
@@ -10515,21 +10359,13 @@ msgstr "TestRegressionGui"
 msgid "GUI for the khtml regression tester"
 msgstr "Interfaz gráfica pa les prebes de regresión de khtml"
 
-#: khtml/testkhtml.cpp:39
-msgid "URL to open"
-msgstr "URL a abrir"
-
-#: khtml/testkhtml.cpp:41
-msgid "Testkhtml"
-msgstr "Testkhtml"
-
-#: khtml/testkhtml.cpp:42
-msgid "a basic web browser using the KHTML library"
-msgstr "un restolador web básicu qu'usa la biblioteca KHTML"
-
 #: khtml/khtml_part.cpp:251
 msgid "View Do&cument Source"
 msgstr "Ver fonte del do&cumentu"
+
+#: khtml/khtml_part.cpp:258 khtml/khtml_ext.cpp:509
+msgid "View Frame Source"
+msgstr "Ver el códigu fonte del marcu"
 
 #: khtml/khtml_part.cpp:265
 msgid "View Document Information"
@@ -10538,6 +10374,10 @@ msgstr "Ver información del documentu"
 #: khtml/khtml_part.cpp:272
 msgid "Save &Background Image As..."
 msgstr "Guardar imaxe de &fondu como..."
+
+#: khtml/khtml_part.cpp:281 khtml/khtml_ext.cpp:504
+msgid "Save &Frame As..."
+msgstr "Guardar &marcu como..."
 
 #: khtml/khtml_part.cpp:293 khtml/khtml_part.cpp:4027
 msgid "SSL"
@@ -10626,6 +10466,10 @@ msgstr "Alcontrar enllaces según teclea"
 msgid ""
 "This shortcut shows the find bar, and sets the option \"Find links only\"."
 msgstr ""
+
+#: khtml/khtml_part.cpp:421 khtml/khtml_ext.cpp:498
+msgid "Print Frame..."
+msgstr "Imprentar marcu..."
 
 #: khtml/khtml_part.cpp:425
 msgid ""
@@ -10989,6 +10833,150 @@ msgstr "Refugar"
 msgid "Filter error"
 msgstr "Fallu de filtráu"
 
+#: khtml/khtml_ext.cpp:418
+msgid "&Copy Text"
+msgstr "&Copiar testu"
+
+#: khtml/khtml_ext.cpp:432
+#, kde-format
+msgid "Open '%1'"
+msgstr "Abrir '%1'"
+
+#: khtml/khtml_ext.cpp:449
+msgid "&Copy Email Address"
+msgstr "&Copiar direición de corréu eleutrónicu"
+
+#: khtml/khtml_ext.cpp:454
+msgid "&Save Link As..."
+msgstr "&Guardar enllaz como..."
+
+#: khtml/khtml_ext.cpp:459
+msgid "&Copy Link Address"
+msgstr "&Copiar direición d'enllaz"
+
+#: khtml/khtml_ext.cpp:471
+msgctxt "@title:menu HTML frame/iframe"
+msgid "Frame"
+msgstr "Marcu"
+
+#: khtml/khtml_ext.cpp:472
+msgid "Open in New &Window"
+msgstr "Abrir nuna &nueva ventana"
+
+#: khtml/khtml_ext.cpp:478
+msgid "Open in &This Window"
+msgstr "Abrir nes&ta ventana"
+
+#: khtml/khtml_ext.cpp:483
+msgid "Open in &New Tab"
+msgstr "Abrir nuna &nueva llingüeta"
+
+#: khtml/khtml_ext.cpp:493
+msgid "Reload Frame"
+msgstr "Recargar marcu"
+
+#: khtml/khtml_ext.cpp:514
+msgid "View Frame Information"
+msgstr "Ver información del marcu"
+
+#: khtml/khtml_ext.cpp:524
+msgid "Block IFrame..."
+msgstr "Bloquiar IFrame..."
+
+#: khtml/khtml_ext.cpp:549
+msgid "Save Image As..."
+msgstr "Guardar imaxe como..."
+
+#: khtml/khtml_ext.cpp:554
+msgid "Send Image..."
+msgstr "Unviar imaxe..."
+
+#: khtml/khtml_ext.cpp:560
+msgid "Copy Image"
+msgstr "Copiar imaxe"
+
+#: khtml/khtml_ext.cpp:568
+msgid "Copy Image Location"
+msgstr "Copiar direición de la imaxe"
+
+#: khtml/khtml_ext.cpp:577
+#, kde-format
+msgid "View Image (%1)"
+msgstr "Ver imaxe (%1)"
+
+#: khtml/khtml_ext.cpp:583
+msgid "Block Image..."
+msgstr "Bloquiar imaxe..."
+
+#: khtml/khtml_ext.cpp:591
+#, kde-format
+msgid "Block Images From %1"
+msgstr "Bloquiar imáxenes dende %1"
+
+#: khtml/khtml_ext.cpp:603
+msgid "Stop Animations"
+msgstr "Detener animaciones"
+
+#: khtml/khtml_ext.cpp:640
+#, kde-format
+msgid "Search for '%1' with %2"
+msgstr "Guetar '%1' con %2"
+
+#: khtml/khtml_ext.cpp:650
+#, kde-format
+msgid "Search for '%1' with"
+msgstr "Guetar '%1' con"
+
+#: khtml/khtml_ext.cpp:694
+msgid "Save Link As"
+msgstr "Guardar enllaz como"
+
+#: khtml/khtml_ext.cpp:714
+msgid "Save Image As"
+msgstr "Guardar imaxe como"
+
+#: khtml/khtml_ext.cpp:728 khtml/khtml_ext.cpp:741
+msgid "Add URL to Filter"
+msgstr "Amestar URL al filtru"
+
+#: khtml/khtml_ext.cpp:729 khtml/khtml_ext.cpp:742
+msgid "Enter the URL:"
+msgstr "Introduza la URL:"
+
+#: khtml/khtml_ext.cpp:879
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "Yá esiste un ficheru col nome  «%1». ¿Daveres quies trocalu?"
+
+#: khtml/khtml_ext.cpp:879
+msgid "Overwrite File?"
+msgstr "¿Sobroscribir el ficheru?"
+
+#: khtml/khtml_ext.cpp:879
+msgid "Overwrite"
+msgstr "Sobroscribir"
+
+#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:397
+#, kde-format
+msgid "The Download Manager (%1) could not be found in your $PATH "
+msgstr "L'alministrador de descargues (%1) nun pudo alcontrase nel to $PATH "
+
+#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:398
+msgid ""
+"Try to reinstall it  \n"
+"\n"
+"The integration with Konqueror will be disabled."
+msgstr ""
+"Intenta reinstalalu  \n"
+"\n"
+"La integración con Konqueror inhabilitaráse."
+
+#: khtml/khtml_ext.cpp:1023
+#, no-c-format
+msgid "Default Font Size (100%)"
+msgstr "Tamañu predetermináu de la lletra (100%)"
+
 #: khtml/test_regression.cpp:619
 msgid "Directory containing tests, basedir and output directories."
 msgstr "Direutoriu que tien les prebes y los direutorios base y de salida."
@@ -11093,6 +11081,18 @@ msgstr "Desaniciar de los ignoraos..."
 #: khtml/khtmlview.cpp:1842
 msgid "Access Keys activated"
 msgstr "Claves d'accesu activaes"
+
+#: khtml/testkhtml.cpp:39
+msgid "URL to open"
+msgstr "URL a abrir"
+
+#: khtml/testkhtml.cpp:41
+msgid "Testkhtml"
+msgstr "Testkhtml"
+
+#: khtml/testkhtml.cpp:42
+msgid "a basic web browser using the KHTML library"
+msgstr "un restolador web básicu qu'usa la biblioteca KHTML"
 
 #: khtml/ecma/kjs_binding.cpp:185
 msgid ""
@@ -11207,6 +11207,34 @@ msgstr "Consola"
 msgid "Enter"
 msgstr "Intro"
 
+#: khtml/ecma/debugger/errordlg.cpp:35
+msgid "JavaScript Error"
+msgstr "Fallu de JavaScript"
+
+#: khtml/ecma/debugger/errordlg.cpp:49
+msgid "&Do not show this message again"
+msgstr "&Nun amosar esti mensaxe otra vuelta"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:43
+msgid "Local Variables"
+msgstr "Variables llocales"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:51
+msgid "Reference"
+msgstr "Referencia"
+
+#: khtml/ecma/debugger/callstackdock.cpp:37
+msgid "Call Stack"
+msgstr "Pila de llamaes"
+
+#: khtml/ecma/debugger/callstackdock.cpp:41
+msgid "Call"
+msgstr "Llamar"
+
+#: khtml/ecma/debugger/callstackdock.cpp:41
+msgid "Line"
+msgstr "Llinia"
+
 #: khtml/ecma/debugger/debugdocument.cpp:201
 msgid ""
 "Unable to find the Kate editor component;\n"
@@ -11294,58 +11322,9 @@ msgstr ""
 msgid "Evaluation threw an exception %1"
 msgstr "La evaluación llanzó una escepción %1"
 
-#: khtml/ecma/debugger/errordlg.cpp:35
-msgid "JavaScript Error"
-msgstr "Fallu de JavaScript"
-
-#: khtml/ecma/debugger/errordlg.cpp:49
-msgid "&Do not show this message again"
-msgstr "&Nun amosar esti mensaxe otra vuelta"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:43
-msgid "Local Variables"
-msgstr "Variables llocales"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:51
-msgid "Reference"
-msgstr "Referencia"
-
 #: khtml/ecma/debugger/scriptsdock.cpp:43
 msgid "Loaded Scripts"
 msgstr "Scripts cargaos"
-
-#: khtml/ecma/debugger/callstackdock.cpp:37
-msgid "Call Stack"
-msgstr "Pila de llamaes"
-
-#: khtml/ecma/debugger/callstackdock.cpp:41
-msgid "Call"
-msgstr "Llamar"
-
-#: khtml/ecma/debugger/callstackdock.cpp:41
-msgid "Line"
-msgstr "Llinia"
-
-#: khtml/html/html_objectimpl.cpp:610
-#, kde-format
-msgid ""
-"No plugin found for '%1'.\n"
-"Do you want to download one from %2?"
-msgstr ""
-"Nun s'atopó dengún complementu pa «%1».\n"
-"¿Quies descargar ún de %2?"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Missing Plugin"
-msgstr "Falta complementu"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Download"
-msgstr "Descargar"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Do Not Download"
-msgstr "Non descargar"
 
 #: khtml/html/htmlparser.cpp:1938
 msgid "This is a searchable index. Enter search keywords: "
@@ -11391,6 +11370,27 @@ msgstr[1] "&Unviar Ficheros"
 msgid "Key Generator"
 msgstr "Xenerador de claves"
 
+#: khtml/html/html_objectimpl.cpp:610
+#, kde-format
+msgid ""
+"No plugin found for '%1'.\n"
+"Do you want to download one from %2?"
+msgstr ""
+"Nun s'atopó dengún complementu pa «%1».\n"
+"¿Quies descargar ún de %2?"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Missing Plugin"
+msgstr "Falta complementu"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Download"
+msgstr "Descargar"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Do Not Download"
+msgstr "Non descargar"
+
 #: khtml/java/kjavaapplet.cpp:224
 #, kde-format
 msgid "Initializing Applet \"%1\"..."
@@ -11410,30 +11410,6 @@ msgstr "Miniaplicación «%1» aniciada"
 #, kde-format
 msgid "Applet \"%1\" stopped"
 msgstr "Miniaplicación «%1» detenida"
-
-#: khtml/java/kjavaappletviewer.cpp:129
-msgid "Applet Parameters"
-msgstr "Parámetros de la miniaplicación"
-
-#: khtml/java/kjavaappletviewer.cpp:139
-msgid "Parameter"
-msgstr "Parámetru"
-
-#: khtml/java/kjavaappletviewer.cpp:143
-msgid "Class"
-msgstr "Clase"
-
-#: khtml/java/kjavaappletviewer.cpp:149
-msgid "Base URL"
-msgstr "URL base"
-
-#: khtml/java/kjavaappletviewer.cpp:155
-msgid "Archives"
-msgstr "Ficheros"
-
-#: khtml/java/kjavaappletviewer.cpp:475
-msgid "KDE Java Applet Plugin"
-msgstr "Complementu de miniaplicaciones Java de KDE"
 
 #: khtml/java/kjavaappletserver.cpp:146
 msgid "Loading Applet"
@@ -11468,6 +11444,30 @@ msgstr "&Refugar too"
 #: khtml/java/kjavaappletserver.cpp:820
 msgid "&Grant All"
 msgstr "&Autorizar too"
+
+#: khtml/java/kjavaappletviewer.cpp:129
+msgid "Applet Parameters"
+msgstr "Parámetros de la miniaplicación"
+
+#: khtml/java/kjavaappletviewer.cpp:139
+msgid "Parameter"
+msgstr "Parámetru"
+
+#: khtml/java/kjavaappletviewer.cpp:143
+msgid "Class"
+msgstr "Clase"
+
+#: khtml/java/kjavaappletviewer.cpp:149
+msgid "Base URL"
+msgstr "URL base"
+
+#: khtml/java/kjavaappletviewer.cpp:155
+msgid "Archives"
+msgstr "Ficheros"
+
+#: khtml/java/kjavaappletviewer.cpp:475
+msgid "KDE Java Applet Plugin"
+msgstr "Complementu de miniaplicaciones Java de KDE"
 
 #: khtml/kmultipart/kmultipart.cpp:41
 msgid "KMultiPart"
@@ -11596,14 +11596,6 @@ msgstr ""
 "Nun pudo atopase 'kdemain' en '%1'.\n"
 "%2"
 
-#: kinit/klauncher_main.cpp:62
-msgid ""
-"klauncher: This program is not supposed to be started manually.\n"
-"klauncher: It is started automatically by kdeinit4.\n"
-msgstr ""
-"klauncher: Suponse qu'esti programa nun tendría d'arrancase manualmente.\n"
-"klauncher: Arráncalu automáticamente kdeinit4.\n"
-
 #: kinit/klauncher.cpp:564
 #, kde-format
 msgid "KDEInit could not launch '%1'."
@@ -11638,6 +11630,14 @@ msgstr "Protocolu desconocíu '%1'.\n"
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "Fallu al cargar '%1'.\n"
+
+#: kinit/klauncher_main.cpp:62
+msgid ""
+"klauncher: This program is not supposed to be started manually.\n"
+"klauncher: It is started automatically by kdeinit4.\n"
+msgstr ""
+"klauncher: Suponse qu'esti programa nun tendría d'arrancase manualmente.\n"
+"klauncher: Arráncalu automáticamente kdeinit4.\n"
 
 #: kjs/object.cpp:554
 msgid "Evaluation error"
@@ -11905,12 +11905,6 @@ msgstr ""
 msgid "Exception calling '%1' slot from %2:%3:%4"
 msgstr "Esceición al llamar al slot «%1» dende %2:%3:%4"
 
-#: knewstuff/knewstuff2/core/coreengine.cpp:428
-#, fuzzy, kde-format
-#| msgid "Rating: %1"
-msgid "loading %1"
-msgstr "Valoración: %1"
-
 #: knewstuff/knewstuff2/core/providerhandler.cpp:154
 #: knewstuff/knewstuff2/core/providerhandler.cpp:174
 msgctxt "describes the feed of the latest posted entries"
@@ -11924,6 +11918,12 @@ msgstr "Meyor puntuáu"
 #: knewstuff/knewstuff2/core/providerhandler.cpp:166
 msgid "Most Downloads"
 msgstr "Más descargaos"
+
+#: knewstuff/knewstuff2/core/coreengine.cpp:428
+#, fuzzy, kde-format
+#| msgid "Rating: %1"
+msgid "loading %1"
+msgstr "Valoración: %1"
 
 #: knewstuff/knewstuff2/core/security.cpp:75
 #: knewstuff/knewstuff3/core/security.cpp:86
@@ -11975,6 +11975,74 @@ msgid ""
 msgstr ""
 "<qt>Nun puede aniciase <i>gpg</i> pa roblar el ficheru.  Asegúrate de tener "
 "<i>gpg</i> instaláu, sinón ye imposible roblar los recursos.</qt>"
+
+#: knewstuff/knewstuff2/ui/kdxschanges.cpp:31
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:70
+msgid "Changelog"
+msgstr "Rexistru de cambeos"
+
+#: knewstuff/knewstuff2/ui/kdxschanges.cpp:53
+#, kde-format
+msgid "Version %1"
+msgstr "Versión %1"
+
+#: knewstuff/knewstuff2/ui/kdxscomment.cpp:29
+msgid "Leave a comment"
+msgstr "Dexar un comentariu"
+
+#: knewstuff/knewstuff2/ui/kdxsrating.cpp:33
+msgid "Rate this entry"
+msgstr "Puntuar esta entrada"
+
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:33
+msgid "Translate this entry"
+msgstr "Traducir esta entrada"
+
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:48
+msgid "Payload"
+msgstr "Carga útil"
+
+#: knewstuff/knewstuff2/ui/knewstuffbutton.cpp:49
+#: knewstuff/knewstuff3/knewstuffbutton.cpp:48
+#, fuzzy
+#| msgid "Download New Stuff"
+msgid "Download New Stuff..."
+msgstr "Descargar conteníu nuevu:"
+
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:54
+msgid "Hot New Stuff Providers"
+msgstr "Proveedores de lo más novedoso"
+
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:64
+msgid "Please select one of the providers listed below:"
+msgstr "Por favor escueye un proveedor de la llista d'abaxo:"
+
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:95
+msgid "No provider selected."
+msgstr "Dengún proveedor seleicionáu."
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:64
+#: knewstuff/knewstuff3/uploaddialog.cpp:389
+#, kde-format
+msgctxt "Program name followed by 'Add On Uploader'"
+msgid "%1 Add-On Uploader"
+msgstr "%1 Add-On Uploader"
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:91
+msgid "Please put in a name."
+msgstr "Por favor introduza un nome."
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:159
+msgid "Old upload information found, fill out fields?"
+msgstr "Alcontrose información de carga antigua. ¿Rellenar los campos?"
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:161
+msgid "Fill Out"
+msgstr "Rellenar"
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:162
+msgid "Do Not Fill Out"
+msgstr "Non rellenar"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:127
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:558
@@ -12115,11 +12183,6 @@ msgstr "Cargando vista preliminar"
 msgid "Comments"
 msgstr "Comentarios"
 
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:70
-#: knewstuff/knewstuff2/ui/kdxschanges.cpp:31
-msgid "Changelog"
-msgstr "Rexistru de cambeos"
-
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:73
 msgid "Switch version"
 msgstr "Camudar de versión"
@@ -12222,72 +12285,9 @@ msgstr "Contribuciones de KNewStuff"
 msgid "This operation requires authentication."
 msgstr "Esta operación necesita autenticación."
 
-#: knewstuff/knewstuff2/ui/kdxschanges.cpp:53
-#, kde-format
-msgid "Version %1"
-msgstr "Versión %1"
-
-#: knewstuff/knewstuff2/ui/kdxscomment.cpp:29
-msgid "Leave a comment"
-msgstr "Dexar un comentariu"
-
 #: knewstuff/knewstuff2/ui/kdxscomments.cpp:32
 msgid "User comments"
 msgstr "Comentarios de los usuarios"
-
-#: knewstuff/knewstuff2/ui/kdxsrating.cpp:33
-msgid "Rate this entry"
-msgstr "Puntuar esta entrada"
-
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:33
-msgid "Translate this entry"
-msgstr "Traducir esta entrada"
-
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:48
-msgid "Payload"
-msgstr "Carga útil"
-
-#: knewstuff/knewstuff2/ui/knewstuffbutton.cpp:49
-#: knewstuff/knewstuff3/knewstuffbutton.cpp:48
-#, fuzzy
-#| msgid "Download New Stuff"
-msgid "Download New Stuff..."
-msgstr "Descargar conteníu nuevu:"
-
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:54
-msgid "Hot New Stuff Providers"
-msgstr "Proveedores de lo más novedoso"
-
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:64
-msgid "Please select one of the providers listed below:"
-msgstr "Por favor escueye un proveedor de la llista d'abaxo:"
-
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:95
-msgid "No provider selected."
-msgstr "Dengún proveedor seleicionáu."
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:64
-#: knewstuff/knewstuff3/uploaddialog.cpp:389
-#, kde-format
-msgctxt "Program name followed by 'Add On Uploader'"
-msgid "%1 Add-On Uploader"
-msgstr "%1 Add-On Uploader"
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:91
-msgid "Please put in a name."
-msgstr "Por favor introduza un nome."
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:159
-msgid "Old upload information found, fill out fields?"
-msgstr "Alcontrose información de carga antigua. ¿Rellenar los campos?"
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:161
-msgid "Fill Out"
-msgstr "Rellenar"
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:162
-msgid "Do Not Fill Out"
-msgstr "Non rellenar"
 
 #: knewstuff/knewstuff3/downloadwidget.cpp:241
 msgid "Icons view mode"
@@ -12570,6 +12570,42 @@ msgstr[1] "Cargando vista preliminar"
 msgid "Installing"
 msgstr "Instalar"
 
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:90
+#, fuzzy, kde-format
+#| msgid "Suggestions for %1"
+msgid "Details for %1"
+msgstr "Suxerencies pa %1"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:110
+#, fuzzy
+#| msgid "Homepage"
+msgctxt "A link to the description of this Get Hot New Stuff item"
+msgid "Homepage"
+msgstr "Páxina web"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:113
+#, fuzzy
+#| msgid "HTML documentation"
+msgctxt ""
+"A link to make a donation for a Get Hot New Stuff item (opens a web browser)"
+msgid "Make a donation"
+msgstr "Documentación HTML"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:117
+#, kde-format
+msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
+msgid "Knowledgebase (no entries)"
+msgid_plural "Knowledgebase (%1 entries)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:120
+#, fuzzy
+#| msgid "Open in New &Window"
+msgctxt "Tooltip for a link in a dialog"
+msgid "Opens in a browser window"
+msgstr "Abrir nuna &nueva ventana"
+
 #: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:100
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:259
 #, fuzzy, kde-format
@@ -12624,42 +12660,6 @@ msgstr "Anovar"
 msgid "Install Again"
 msgstr "Instalar"
 
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgid "Suggestions for %1"
-msgid "Details for %1"
-msgstr "Suxerencies pa %1"
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:110
-#, fuzzy
-#| msgid "Homepage"
-msgctxt "A link to the description of this Get Hot New Stuff item"
-msgid "Homepage"
-msgstr "Páxina web"
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:113
-#, fuzzy
-#| msgid "HTML documentation"
-msgctxt ""
-"A link to make a donation for a Get Hot New Stuff item (opens a web browser)"
-msgid "Make a donation"
-msgstr "Documentación HTML"
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:117
-#, kde-format
-msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
-msgid "Knowledgebase (no entries)"
-msgid_plural "Knowledgebase (%1 entries)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:120
-#, fuzzy
-#| msgid "Open in New &Window"
-msgctxt "Tooltip for a link in a dialog"
-msgid "Opens in a browser window"
-msgstr "Abrir nuna &nueva ventana"
-
 #: knotify/config/knotifyconfigwidget.cpp:107
 msgid "Configure Notifications"
 msgstr "Configurar Notificaciones"
@@ -12678,45 +12678,6 @@ msgstr "Títulu"
 msgctxt "Description of the notified event"
 msgid "Description"
 msgstr "Descripción"
-
-#: kparts/browserextension.cpp:645
-#, kde-format
-msgid "<qt>Do you want to search the Internet for <b>%1</b>?</qt>"
-msgstr "<qt>¿Quies guetar <b>%1</b> n'Internet?</qt>"
-
-#: kparts/browserextension.cpp:646
-msgid "Internet Search"
-msgstr "Gueta en Internet"
-
-#: kparts/browserextension.cpp:646
-msgid "&Search"
-msgstr "Gu&etar"
-
-#: kparts/browserrun.cpp:335
-#, kde-format
-msgid "Do you really want to execute '%1'?"
-msgstr "¿Daveres quies executar «%1»?"
-
-#: kparts/browserrun.cpp:336
-msgid "Execute File?"
-msgstr "¿Executar el ficheru?"
-
-#: kparts/part.cpp:815
-msgid "Untitled"
-msgstr "Ensin títulu"
-
-#: kparts/part.cpp:821
-#, kde-format
-msgid ""
-"The document \"%1\" has been modified.\n"
-"Do you want to save your changes or discard them?"
-msgstr ""
-"El documentu «%1» camudó\n"
-"¿Quies guardar los cambeos o descartalos?"
-
-#: kparts/part.cpp:823
-msgid "Close Document"
-msgstr "Zarrar documentu"
 
 #: kparts/browseropenorsavequestion.cpp:110
 #: kparts/browseropenorsavequestion.cpp:339
@@ -12781,6 +12742,45 @@ msgstr "Nome: "
 msgctxt "@info:whatsthis"
 msgid "This is the file name suggested by the server"
 msgstr ""
+
+#: kparts/browserextension.cpp:644
+#, kde-format
+msgid "<qt>Do you want to search the Internet for <b>%1</b>?</qt>"
+msgstr "<qt>¿Quies guetar <b>%1</b> n'Internet?</qt>"
+
+#: kparts/browserextension.cpp:645
+msgid "Internet Search"
+msgstr "Gueta en Internet"
+
+#: kparts/browserextension.cpp:645
+msgid "&Search"
+msgstr "Gu&etar"
+
+#: kparts/browserrun.cpp:335
+#, kde-format
+msgid "Do you really want to execute '%1'?"
+msgstr "¿Daveres quies executar «%1»?"
+
+#: kparts/browserrun.cpp:336
+msgid "Execute File?"
+msgstr "¿Executar el ficheru?"
+
+#: kparts/part.cpp:815
+msgid "Untitled"
+msgstr "Ensin títulu"
+
+#: kparts/part.cpp:821
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"El documentu «%1» camudó\n"
+"¿Quies guardar los cambeos o descartalos?"
+
+#: kparts/part.cpp:823
+msgid "Close Document"
+msgstr "Zarrar documentu"
 
 #: kpty/kptydevice.cpp:322
 msgid "Error reading from PTY"
@@ -12992,24 +12992,6 @@ msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
 msgstr "Esta seición de configuración ta abierta en %1"
 
-#: kutils/kcmultidialog.cpp:59
-#, fuzzy
-#| msgid ""
-#| "The document \"%1\" has been modified.\n"
-#| "Do you want to save your changes or discard them?"
-msgid ""
-"The settings of the current module have changed.\n"
-"Do you want to apply the changes or discard them?"
-msgstr ""
-"El documentu «%1» camudó\n"
-"¿Quies guardar los cambeos o descartalos?"
-
-#: kutils/kcmultidialog.cpp:61
-#, fuzzy
-#| msgid "Settings"
-msgid "Apply Settings"
-msgstr "Preferencies"
-
 #: kutils/kprintpreview.cpp:123
 msgid "Could not load print preview part"
 msgstr "Nun se pudo cargar la parte de previsualización d'imprentación"
@@ -13093,6 +13075,24 @@ msgstr "Buscar complementos"
 msgctxt "Used only for plugins"
 msgid "About %1"
 msgstr "Tocante a %1"
+
+#: kutils/kcmultidialog.cpp:59
+#, fuzzy
+#| msgid ""
+#| "The document \"%1\" has been modified.\n"
+#| "Do you want to save your changes or discard them?"
+msgid ""
+"The settings of the current module have changed.\n"
+"Do you want to apply the changes or discard them?"
+msgstr ""
+"El documentu «%1» camudó\n"
+"¿Quies guardar los cambeos o descartalos?"
+
+#: kutils/kcmultidialog.cpp:61
+#, fuzzy
+#| msgid "Settings"
+msgid "Apply Settings"
+msgstr "Preferencies"
 
 #: kutils/ksettings/componentsdialog.cpp:53
 msgid "Select Components"
@@ -13243,31 +13243,6 @@ msgstr ""
 msgid "The ontology files containing the ontologies to be generated."
 msgstr ""
 
-#: nepomuk/ui/nepomukmassupdatejob.cpp:76
-msgid "Changing annotations"
-msgstr "Camudar anotaciones"
-
-#: nepomuk/ui/tagwidget.cpp:61
-#, fuzzy
-#| msgid "Show all options"
-msgctxt "@label"
-msgid "Show all tags..."
-msgstr "Amosar toles opciones"
-
-#: nepomuk/ui/tagwidget.cpp:112
-#, fuzzy
-#| msgid "Add..."
-msgctxt "@label"
-msgid "Add Tags..."
-msgstr "Amestar..."
-
-#: nepomuk/ui/tagwidget.cpp:112
-#, fuzzy
-#| msgid "Change &Icon..."
-msgctxt "@label"
-msgid "Change..."
-msgstr "Camudar &iconu..."
-
 #: nepomuk/ui/kedittagsdialog.cpp:49
 #, fuzzy
 #| msgid "Change Text"
@@ -13328,13 +13303,30 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Encaboxar"
 
-#: nepomuk/utils/daterangeselectionwidget.cpp:201
-msgid "This Week"
-msgstr ""
+#: nepomuk/ui/nepomukmassupdatejob.cpp:76
+msgid "Changing annotations"
+msgstr "Camudar anotaciones"
 
-#: nepomuk/utils/daterangeselectionwidget.cpp:206
-msgid "This Month"
-msgstr ""
+#: nepomuk/ui/tagwidget.cpp:61
+#, fuzzy
+#| msgid "Show all options"
+msgctxt "@label"
+msgid "Show all tags..."
+msgstr "Amosar toles opciones"
+
+#: nepomuk/ui/tagwidget.cpp:112
+#, fuzzy
+#| msgid "Add..."
+msgctxt "@label"
+msgid "Add Tags..."
+msgstr "Amestar..."
+
+#: nepomuk/ui/tagwidget.cpp:112
+#, fuzzy
+#| msgid "Change &Icon..."
+msgctxt "@label"
+msgid "Change..."
+msgstr "Camudar &iconu..."
 
 #: nepomuk/utils/dynamicresourcefacet.cpp:256
 #, fuzzy
@@ -13580,6 +13572,14 @@ msgstr ""
 msgctxt "@option:radio A filter on the rating of a resource"
 msgid "Max Rating"
 msgstr "Calificación: "
+
+#: nepomuk/utils/daterangeselectionwidget.cpp:201
+msgid "This Week"
+msgstr ""
+
+#: nepomuk/utils/daterangeselectionwidget.cpp:206
+msgid "This Month"
+msgstr ""
 
 #: kdeui/colors/kcolorcombo.cpp:352
 msgctxt "Custom color"
