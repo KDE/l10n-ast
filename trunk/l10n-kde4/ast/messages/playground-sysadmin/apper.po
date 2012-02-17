@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackgekit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-16 04:48+0100\n"
+"POT-Creation-Date: 2012-02-17 04:16+0100\n"
 "PO-Revision-Date: 2010-10-25 20:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Backend Details"
 msgstr "Avisu del motor"
 
-#: Apper/main.cpp:54 Sentinel/UpdateIcon.cpp:161 Sentinel/main.cpp:34
+#: Apper/main.cpp:54 Sentinel/UpdateIcon.cpp:158 Sentinel/main.cpp:34
 msgid "Apper"
 msgstr ""
 
@@ -304,53 +304,64 @@ msgstr ""
 msgid "No update description was found."
 msgstr "Nun s'alcontró descripción del anovamientu."
 
-#: ApperKCM/Updater/Updater.cpp:108 ApperKCM/BrowseView.cpp:91
+#: ApperKCM/Updater/Updater.cpp:110 ApperKCM/BrowseView.cpp:95
 msgid "Show Versions"
 msgstr ""
 
-#: ApperKCM/Updater/Updater.cpp:115 ApperKCM/BrowseView.cpp:98
+#: ApperKCM/Updater/Updater.cpp:117
+msgid "Show Current Versions"
+msgstr ""
+
+#: ApperKCM/Updater/Updater.cpp:124 ApperKCM/BrowseView.cpp:102
 #, fuzzy
 #| msgid "Architectures"
 msgid "Show Architectures"
 msgstr "Arquiteutures"
 
-#: ApperKCM/Updater/Updater.cpp:122 ApperKCM/BrowseView.cpp:105
+#: ApperKCM/Updater/Updater.cpp:131 ApperKCM/BrowseView.cpp:109
+#, fuzzy
+#| msgctxt "The group type"
+#| msgid "Software sources"
+msgid "Show Origins"
+msgstr "Fontes de software"
+
+#: ApperKCM/Updater/Updater.cpp:138 ApperKCM/BrowseView.cpp:116
 #, fuzzy
 #| msgid "Show updates"
 msgid "Show Sizes"
 msgstr "Amosar anovamientos"
 
-#: ApperKCM/Updater/Updater.cpp:217
+#: ApperKCM/Updater/Updater.cpp:255
 #, kde-format
 msgid "Estimated download size: %1"
 msgstr ""
 
-#: ApperKCM/Updater/Updater.cpp:254
+#: ApperKCM/Updater/Updater.cpp:292
 msgid "Your system is up to date"
 msgstr ""
 
-#: ApperKCM/Updater/Updater.cpp:255 ApperKCM/Updater/Updater.cpp:259
+#: ApperKCM/Updater/Updater.cpp:293 ApperKCM/Updater/Updater.cpp:297
 #, kde-format
 msgid "Verified %1 ago"
 msgstr ""
 
-#: ApperKCM/Updater/Updater.cpp:258
+#: ApperKCM/Updater/Updater.cpp:296
 #, fuzzy
 #| msgid "No packages to update"
 msgid "You have no updates"
 msgstr "Nun hai paquetes p'anovar"
 
-#: ApperKCM/Updater/Updater.cpp:262
+#: ApperKCM/Updater/Updater.cpp:300
 msgid "Last check for updates was more than a month ago"
 msgstr ""
 
-#: ApperKCM/Updater/Updater.cpp:263
+#: ApperKCM/Updater/Updater.cpp:301
 msgid "It's strongly recommended that you check for new updates now"
 msgstr ""
 
 #. i18n: file: ApperKCM/ApperKCM.ui:230
 #. i18n: ectx: property (text), widget (QPushButton, checkUpdatesPB)
-#: ApperKCM/Updater/Updater.cpp:351 rc.cpp:194
+#: ApperKCM/Updater/Updater.cpp:396 rc.cpp:194
 msgid "Check for new Updates"
 msgstr ""
 
@@ -551,11 +562,11 @@ msgstr "Tiempu dende'l caberu refrescu del caché: %1"
 msgid "Date"
 msgstr "Data"
 
-#: ApperKCM/TransactionModel.cpp:47 libapper/PackageModel.cpp:186
+#: ApperKCM/TransactionModel.cpp:47 libapper/PackageModel.cpp:194
 msgid "Action"
 msgstr "Aición"
 
-#: ApperKCM/TransactionModel.cpp:48 Sentinel/TransactionWatcher.cpp:292
+#: ApperKCM/TransactionModel.cpp:48 Sentinel/TransactionWatcher.cpp:308
 msgid "Details"
 msgstr "Detalles"
 
@@ -726,11 +737,11 @@ msgstr "Falló al asignar los datos d'orixe"
 msgid "Could not find printer driver in any configured software source"
 msgstr ""
 
-#: Sentinel/UpdateIcon.cpp:163
+#: Sentinel/UpdateIcon.cpp:160
 msgid "Review Updates"
 msgstr ""
 
-#: Sentinel/UpdateIcon.cpp:166
+#: Sentinel/UpdateIcon.cpp:163
 msgid "Configure"
 msgstr "Configurar"
 
@@ -738,31 +749,31 @@ msgstr "Configurar"
 #. i18n: ectx: property (text), widget (QToolButton, hideTB)
 #. i18n: file: ApperKCM/Updater/UpdateDetails.ui:20
 #. i18n: ectx: property (text), widget (QToolButton, hideTB)
-#: Sentinel/UpdateIcon.cpp:170 libapper/PkTransactionDialog.cpp:86 rc.cpp:137
-#: rc.cpp:173
+#: Sentinel/UpdateIcon.cpp:167 Sentinel/TransactionWatcher.cpp:186
+#: libapper/PkTransactionDialog.cpp:86 rc.cpp:137 rc.cpp:173
 msgid "Hide"
 msgstr "Anubrir"
 
-#: Sentinel/UpdateIcon.cpp:180
+#: Sentinel/UpdateIcon.cpp:177
 #, kde-format
 msgid "You have one update"
 msgid_plural "You have %1 updates"
 msgstr[0] ""
 msgstr[1] ""
 
-#: Sentinel/UpdateIcon.cpp:233
+#: Sentinel/UpdateIcon.cpp:230
 msgid "Updates are being automatically installed."
 msgstr "Tán instalándose automáticamente los anovamientos"
 
-#: Sentinel/UpdateIcon.cpp:254
+#: Sentinel/UpdateIcon.cpp:251
 msgid "Security updates are being automatically installed."
 msgstr "Tán instalándose automáticamente los anovamientos de seguridá."
 
-#: Sentinel/UpdateIcon.cpp:281
+#: Sentinel/UpdateIcon.cpp:278
 msgid "System update was successful."
 msgstr "El sistema anovóse correcho."
 
-#: Sentinel/UpdateIcon.cpp:290
+#: Sentinel/UpdateIcon.cpp:287
 msgid "The automated software update failed."
 msgstr ""
 
@@ -958,35 +969,35 @@ msgstr "Obsoletu"
 msgid "All operations were committed successfully"
 msgstr ""
 
-#: Sentinel/TransactionWatcher.cpp:64 Sentinel/TransactionWatcher.cpp:249
+#: Sentinel/TransactionWatcher.cpp:66 Sentinel/TransactionWatcher.cpp:265
 msgid "Hide this icon"
 msgstr "Anubrir esti iconu"
 
-#: Sentinel/TransactionWatcher.cpp:166
+#: Sentinel/TransactionWatcher.cpp:168
 msgid "The system update has completed"
 msgstr "L'anovamientu del sistema completóse"
 
-#: Sentinel/TransactionWatcher.cpp:172
+#: Sentinel/TransactionWatcher.cpp:174
 #, fuzzy, kde-format
 #| msgid "Package: %2"
 #| msgid_plural "Packages: %2"
 msgid "Packages: %1"
 msgstr "Paquete: %2"
 
-#: Sentinel/TransactionWatcher.cpp:184
+#: Sentinel/TransactionWatcher.cpp:201
 #, kde-format
 msgid "Package: %2"
 msgid_plural "Packages: %2"
 msgstr[0] "Paquete: %2"
 msgstr[1] "Paquetes: %2"
 
-#: Sentinel/TransactionWatcher.cpp:231 Sentinel/TransactionWatcher.cpp:271
+#: Sentinel/TransactionWatcher.cpp:247 Sentinel/TransactionWatcher.cpp:287
 #, fuzzy
 #| msgid "Package Manager Messages"
 msgid "Software Manager Messages"
 msgstr "Mensaxes del xestor de paquetes"
 
-#: Sentinel/TransactionWatcher.cpp:232
+#: Sentinel/TransactionWatcher.cpp:248
 #, fuzzy, kde-format
 #| msgid "One message from the package manager"
 #| msgid_plural "%1 messages from the package manager"
@@ -995,11 +1006,11 @@ msgid_plural "%1 messages from the software manager"
 msgstr[0] "Un mensaxe del xestor de paquetes"
 msgstr[1] "%1 mensaxe del xestor de paquetes"
 
-#: Sentinel/TransactionWatcher.cpp:240
+#: Sentinel/TransactionWatcher.cpp:256
 msgid "Show messages"
 msgstr "Amosar mensaxes"
 
-#: Sentinel/TransactionWatcher.cpp:292
+#: Sentinel/TransactionWatcher.cpp:308
 msgid "Ignore"
 msgstr "Inorar"
 
@@ -3131,7 +3142,7 @@ msgstr ""
 msgid "Package"
 msgstr "Paquete"
 
-#: libapper/SimulateModel.cpp:141 libapper/PackageModel.cpp:180
+#: libapper/SimulateModel.cpp:141 libapper/PackageModel.cpp:184
 msgid "Version"
 msgstr ""
 
@@ -3157,22 +3168,32 @@ msgstr "Requierse alcuerdu de llicencia"
 msgid "License required for %1 by %2"
 msgstr "Llicencia requería pa %1 por %2"
 
-#: libapper/PackageModel.cpp:178
+#: libapper/PackageModel.cpp:182
 #, fuzzy
 #| msgctxt "The group type"
 #| msgid "Games"
 msgid "Name"
 msgstr "Xuegos"
 
-#: libapper/PackageModel.cpp:182
+#: libapper/PackageModel.cpp:186
+#, fuzzy
+#| msgid "Installed"
+msgid "Installed Version"
+msgstr "Instaláu"
+
+#: libapper/PackageModel.cpp:188
 msgid "Arch"
 msgstr ""
 
-#: libapper/PackageModel.cpp:184
+#: libapper/PackageModel.cpp:190
+msgid "Origin"
+msgstr ""
+
+#: libapper/PackageModel.cpp:192
 msgid "Size"
 msgstr ""
 
-#: libapper/PackageModel.cpp:275
+#: libapper/PackageModel.cpp:283
 #, fuzzy, kde-format
 #| msgid "Architectures"
 msgid ""
@@ -3180,20 +3201,12 @@ msgid ""
 "Architecture: %2"
 msgstr "Arquiteutures"
 
-#: libapper/PackageModel.cpp:319
+#: libapper/PackageModel.cpp:329
 msgid "To be Removed"
 msgstr ""
 
-#: libapper/PackageModel.cpp:321
+#: libapper/PackageModel.cpp:331
 msgid "To be Installed"
-msgstr ""
-
-#: libapper/ApplicationsDelegate.cpp:40
-msgid "Install"
-msgstr "Instalar"
-
-#: libapper/ApplicationsDelegate.cpp:42
-msgid "Remove"
 msgstr ""
 
 #: libapper/Requirements.cpp:42
@@ -3326,6 +3339,14 @@ msgstr ""
 #: libapper/RepoSig.cpp:40 rc.cpp:218
 msgid "Software signature is required"
 msgstr "Requierse la robla de software"
+
+#: libapper/ApplicationsDelegate.cpp:40
+msgid "Install"
+msgstr "Instalar"
+
+#: libapper/ApplicationsDelegate.cpp:42
+msgid "Remove"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
