@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-22 03:18+0100\n"
+"POT-Creation-Date: 2012-02-25 03:16+0100\n"
 "PO-Revision-Date: 2010-10-19 21:46+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -19,26 +19,15 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: picasawebimglist.cpp:105
-#, kde-format
-msgid "%1|All supported files"
-msgstr ""
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Xandru, Xandru Martino"
 
-#: picasawebimglist.cpp:117
-#, kde-format
-msgid "%1|Camera RAW files"
-msgstr ""
-
-#: picasawebimglist.cpp:119
-#, kde-format
-msgid "%1|Video files"
-msgstr ""
-
-#: picasawebimglist.cpp:131
-#, fuzzy
-#| msgid "Select Images for Upload"
-msgid "Select Images"
-msgstr "Escueyi les imáxenes pa mandar"
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xandru@softastur.org, xandru.martino@softastur.org"
 
 #: picasawebalbum.cpp:51
 msgid "Picasaweb New Album"
@@ -204,6 +193,120 @@ msgstr "Esportar a &PicasaWeb..."
 msgid "Import from &PicasaWeb..."
 msgstr "Importar dende &PicasaWeb..."
 
+#: picasawebtalker.cpp:105
+msgid "Login"
+msgstr "Accesu"
+
+#: picasawebtalker.cpp:577
+msgid "No photo specified"
+msgstr "Nun s'especificó semeya dala"
+
+#: picasawebtalker.cpp:579
+msgid "General upload failure"
+msgstr "Fallu xeneral del unvíu"
+
+#: picasawebtalker.cpp:581
+msgid "File-size was zero"
+msgstr "El tamañu del ficheru foi cero"
+
+#: picasawebtalker.cpp:583
+msgid "File-type was not recognized"
+msgstr "Nun se reconoció la triba del ficheru"
+
+#: picasawebtalker.cpp:585
+msgid "User exceeded upload limit"
+msgstr "L'usuariu pasó la llende d'unvíu"
+
+#: picasawebtalker.cpp:587
+msgid "Invalid signature"
+msgstr "Robla non válida"
+
+#: picasawebtalker.cpp:589
+msgid "Missing signature"
+msgstr "Falta la robla"
+
+#: picasawebtalker.cpp:591
+msgid "Login failed / Invalid auth token"
+msgstr "Falló l'arranque de sesión / Token d'autentificación inválidu"
+
+#: picasawebtalker.cpp:593
+msgid "Invalid API Key"
+msgstr "Clave d'API inválida"
+
+#: picasawebtalker.cpp:595
+msgid "Service currently unavailable"
+msgstr "Serviciu non disponible"
+
+#: picasawebtalker.cpp:597
+msgid "Invalid Frob"
+msgstr "Frob inválidu"
+
+#: picasawebtalker.cpp:599
+msgid "Format \"xxx\" not found"
+msgstr "Formatu «xxx» ensin atopar"
+
+#: picasawebtalker.cpp:601
+msgid "Method \"xxx\" not found"
+msgstr "Métodu «xxx» ensin atopar"
+
+#: picasawebtalker.cpp:603
+msgid "Invalid SOAP envelope"
+msgstr "Envoltoriu SOAP inválidu"
+
+#: picasawebtalker.cpp:605
+msgid "Invalid XML-RPC Method Call"
+msgstr "Llamada al métodu XML-RPC inválida"
+
+#: picasawebtalker.cpp:607
+msgid "The POST method is now required for all setters."
+msgstr "El métodu POST requiérenlu agora tolos configuradores"
+
+#: picasawebtalker.cpp:609
+msgid "Unknown error"
+msgstr "Fallu desconocíu"
+
+#: picasawebtalker.cpp:612
+#, kde-format
+msgid ""
+"Error occurred: %1\n"
+"Unable to proceed further."
+msgstr ""
+"Hebo un fallu: %1\n"
+"Nun se puede siguir."
+
+#: picasawebtalker.cpp:718 picasawebtalker.cpp:776
+msgid "Failed to fetch photo-set list"
+msgstr "Fallu al traer la llista conxuntu-semeya"
+
+#: picasawebtalker.cpp:889 picasawebtalker.cpp:919
+msgid "Failed to create album"
+msgstr ""
+
+#: picasawebtalker.cpp:928
+msgid "Failed to upload photo"
+msgstr "Falló al xubir la semeya"
+
+#: picasawebimglist.cpp:104
+#, kde-format
+msgid "%1|All supported files"
+msgstr ""
+
+#: picasawebimglist.cpp:116
+#, kde-format
+msgid "%1|Camera RAW files"
+msgstr ""
+
+#: picasawebimglist.cpp:118
+#, kde-format
+msgid "%1|Video files"
+msgstr ""
+
+#: picasawebimglist.cpp:130
+#, fuzzy
+#| msgid "Select Images for Upload"
+msgid "Select Images"
+msgstr "Escueyi les imáxenes pa mandar"
+
 #: picasawebwidget.cpp:74
 msgid "This is the list of images to upload to your Picasaweb account."
 msgstr ""
@@ -341,99 +444,6 @@ msgstr ""
 #: picasawebwidget.cpp:201
 msgid "Build a combined tag string."
 msgstr ""
-
-#: picasawebtalker.cpp:105
-msgid "Login"
-msgstr "Accesu"
-
-#: picasawebtalker.cpp:577
-msgid "No photo specified"
-msgstr "Nun s'especificó semeya dala"
-
-#: picasawebtalker.cpp:579
-msgid "General upload failure"
-msgstr "Fallu xeneral del unvíu"
-
-#: picasawebtalker.cpp:581
-msgid "File-size was zero"
-msgstr "El tamañu del ficheru foi cero"
-
-#: picasawebtalker.cpp:583
-msgid "File-type was not recognized"
-msgstr "Nun se reconoció la triba del ficheru"
-
-#: picasawebtalker.cpp:585
-msgid "User exceeded upload limit"
-msgstr "L'usuariu pasó la llende d'unvíu"
-
-#: picasawebtalker.cpp:587
-msgid "Invalid signature"
-msgstr "Robla non válida"
-
-#: picasawebtalker.cpp:589
-msgid "Missing signature"
-msgstr "Falta la robla"
-
-#: picasawebtalker.cpp:591
-msgid "Login failed / Invalid auth token"
-msgstr "Falló l'arranque de sesión / Token d'autentificación inválidu"
-
-#: picasawebtalker.cpp:593
-msgid "Invalid API Key"
-msgstr "Clave d'API inválida"
-
-#: picasawebtalker.cpp:595
-msgid "Service currently unavailable"
-msgstr "Serviciu non disponible"
-
-#: picasawebtalker.cpp:597
-msgid "Invalid Frob"
-msgstr "Frob inválidu"
-
-#: picasawebtalker.cpp:599
-msgid "Format \"xxx\" not found"
-msgstr "Formatu «xxx» ensin atopar"
-
-#: picasawebtalker.cpp:601
-msgid "Method \"xxx\" not found"
-msgstr "Métodu «xxx» ensin atopar"
-
-#: picasawebtalker.cpp:603
-msgid "Invalid SOAP envelope"
-msgstr "Envoltoriu SOAP inválidu"
-
-#: picasawebtalker.cpp:605
-msgid "Invalid XML-RPC Method Call"
-msgstr "Llamada al métodu XML-RPC inválida"
-
-#: picasawebtalker.cpp:607
-msgid "The POST method is now required for all setters."
-msgstr "El métodu POST requiérenlu agora tolos configuradores"
-
-#: picasawebtalker.cpp:609
-msgid "Unknown error"
-msgstr "Fallu desconocíu"
-
-#: picasawebtalker.cpp:612
-#, kde-format
-msgid ""
-"Error occurred: %1\n"
-"Unable to proceed further."
-msgstr ""
-"Hebo un fallu: %1\n"
-"Nun se puede siguir."
-
-#: picasawebtalker.cpp:718 picasawebtalker.cpp:776
-msgid "Failed to fetch photo-set list"
-msgstr "Fallu al traer la llista conxuntu-semeya"
-
-#: picasawebtalker.cpp:889 picasawebtalker.cpp:919
-msgid "Failed to create album"
-msgstr ""
-
-#: picasawebtalker.cpp:928
-msgid "Failed to upload photo"
-msgstr "Falló al xubir la semeya"
 
 #: picasawebwindow.cpp:100
 #, fuzzy
@@ -585,13 +595,3 @@ msgstr ""
 #, kde-format
 msgid "Failed to save image to %1"
 msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Xandru, Xandru Martino"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "xandru@softastur.org, xandru.martino@softastur.org"
