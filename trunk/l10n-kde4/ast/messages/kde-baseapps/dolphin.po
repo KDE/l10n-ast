@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-15 03:54+0100\n"
+"POT-Creation-Date: 2012-03-20 05:14+0100\n"
 "PO-Revision-Date: 2010-10-19 22:30+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -1269,6 +1269,74 @@ msgstr "Recargar"
 msgid "Default"
 msgstr "Predetermináu"
 
+#: views/dolphinview.cpp:519
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "seleicionáu <filename>%1</filename>"
+
+#: views/dolphinview.cpp:522
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 carpeta seleicionada"
+msgstr[1] "%1 carpetes seleicionaes"
+
+#: views/dolphinview.cpp:523
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 ficheru seleicionáu"
+msgstr[1] "%1 ficheros seleicionaos"
+
+#: views/dolphinview.cpp:527
+#, fuzzy, kde-format
+#| msgctxt "@title:group Size"
+#| msgid "Folders"
+msgctxt "@info:status"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "Carpetes"
+msgstr[1] "Carpetes"
+
+#: views/dolphinview.cpp:528
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/dolphinview.cpp:532
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:535
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1117
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "Operación d'esborráu finada."
+
+#: views/dolphinview.cpp:1207
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "La ubicación ta erma."
+
+#: views/dolphinview.cpp:1209
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "La ubicación '%1' ye inválida."
+
 #: views/draganddrophelper.cpp:34
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
@@ -1323,74 +1391,6 @@ msgstr[1] "Camudar el nome de los %1 elementos seleicionaos a:"
 msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(# trocaráse por númberos ascendentes)"
-
-#: views/dolphinview.cpp:519
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "seleicionáu <filename>%1</filename>"
-
-#: views/dolphinview.cpp:522
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "1 carpeta seleicionada"
-msgstr[1] "%1 carpetes seleicionaes"
-
-#: views/dolphinview.cpp:523
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "1 ficheru seleicionáu"
-msgstr[1] "%1 ficheros seleicionaos"
-
-#: views/dolphinview.cpp:527
-#, fuzzy, kde-format
-#| msgctxt "@title:group Size"
-#| msgid "Folders"
-msgctxt "@info:status"
-msgid "1 Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "Carpetes"
-msgstr[1] "Carpetes"
-
-#: views/dolphinview.cpp:528
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File"
-msgid_plural "%1 Files"
-msgstr[0] ""
-msgstr[1] ""
-
-#: views/dolphinview.cpp:532
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:535
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:1101
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "Operación d'esborráu finada."
-
-#: views/dolphinview.cpp:1191
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "La ubicación ta erma."
-
-#: views/dolphinview.cpp:1193
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "La ubicación '%1' ye inválida."
 
 #: dolphincontextmenu.cpp:173
 msgctxt "@action:inmenu"
@@ -1458,108 +1458,6 @@ msgstr "Mover a la puxarra"
 msgctxt "@action:inmenu"
 msgid "&Delete"
 msgstr "Desaniciar"
-
-#: main.cpp:35
-msgctxt "@title"
-msgid "Dolphin"
-msgstr "Dolphin"
-
-#: main.cpp:37
-msgctxt "@title"
-msgid "File Manager"
-msgstr "Xestor de ficheros"
-
-#: main.cpp:39
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "(C) 2006-2009 Peter Penz"
-msgctxt "@info:credit"
-msgid "(C) 2006-2012 Peter Penz"
-msgstr "(C) 2006-2009 Peter Penz"
-
-#: main.cpp:41
-msgctxt "@info:credit"
-msgid "Peter Penz"
-msgstr "Peter Penz"
-
-#: main.cpp:42
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Maintainer and developer"
-msgctxt "@info:credit"
-msgid "Maintainer and developer"
-msgstr "Caltenedor y desendolcador"
-
-#: main.cpp:44
-msgctxt "@info:credit"
-msgid "Frank Reininghaus"
-msgstr ""
-
-#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
-#: main.cpp:63 main.cpp:66
-msgctxt "@info:credit"
-msgid "Developer"
-msgstr "Desendolcador"
-
-#: main.cpp:47
-msgctxt "@info:credit"
-msgid "Sebastian Trüg"
-msgstr ""
-
-#: main.cpp:50
-msgctxt "@info:credit"
-msgid "David Faure"
-msgstr "David Faure"
-
-#: main.cpp:53
-msgctxt "@info:credit"
-msgid "Aaron J. Seigo"
-msgstr "Aaron J. Seigo"
-
-#: main.cpp:56
-msgctxt "@info:credit"
-msgid "Rafael Fernández López"
-msgstr "Rafael Fernández López"
-
-#: main.cpp:59
-msgctxt "@info:credit"
-msgid "Kevin Ottens"
-msgstr "Kevin Ottens"
-
-#: main.cpp:62
-msgctxt "@info:credit"
-msgid "Holger Freyther"
-msgstr "Holger Freyther"
-
-#: main.cpp:65
-msgctxt "@info:credit"
-msgid "Max Blazejak"
-msgstr "Max Blazejak"
-
-#: main.cpp:68
-msgctxt "@info:credit"
-msgid "Michael Austin"
-msgstr "Michael Austin"
-
-#: main.cpp:69
-msgctxt "@info:credit"
-msgid "Documentation"
-msgstr "Documentación"
-
-#: main.cpp:79
-msgctxt "@info:shell"
-msgid "The files and directories passed as arguments will be selected."
-msgstr ""
-
-#: main.cpp:81
-msgctxt "@info:shell"
-msgid "Dolphin will get started with a split view."
-msgstr ""
-
-#: main.cpp:82
-msgctxt "@info:shell"
-msgid "Document to open"
-msgstr "Documentu p'abrir"
 
 #: dolphinpart.cpp:145
 msgctxt "@action:inmenu Edit"
@@ -1936,35 +1834,137 @@ msgctxt "@info:tooltip"
 msgid "Configure and control Dolphin"
 msgstr ""
 
-#: dolphinmainwindow.cpp:2143
-msgctxt "@action:intoolbar Close right view"
-msgid "Close"
-msgstr "Zarrar"
-
-#: dolphinmainwindow.cpp:2144
-msgctxt "@info"
-msgid "Close right view"
-msgstr ""
-
 #: dolphinmainwindow.cpp:2147
-msgctxt "@action:intoolbar Close left view"
+msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "Zarrar"
 
 #: dolphinmainwindow.cpp:2148
 msgctxt "@info"
+msgid "Close right view"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2151
+msgctxt "@action:intoolbar Close left view"
+msgid "Close"
+msgstr "Zarrar"
+
+#: dolphinmainwindow.cpp:2152
+msgctxt "@info"
 msgid "Close left view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:2152
+#: dolphinmainwindow.cpp:2156
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "Dixebrar"
 
-#: dolphinmainwindow.cpp:2153
+#: dolphinmainwindow.cpp:2157
 msgctxt "@info"
 msgid "Split view"
 msgstr "Mou de vista dixebrada"
+
+#: main.cpp:35
+msgctxt "@title"
+msgid "Dolphin"
+msgstr "Dolphin"
+
+#: main.cpp:37
+msgctxt "@title"
+msgid "File Manager"
+msgstr "Xestor de ficheros"
+
+#: main.cpp:39
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "(C) 2006-2009 Peter Penz"
+msgctxt "@info:credit"
+msgid "(C) 2006-2012 Peter Penz"
+msgstr "(C) 2006-2009 Peter Penz"
+
+#: main.cpp:41
+msgctxt "@info:credit"
+msgid "Peter Penz"
+msgstr "Peter Penz"
+
+#: main.cpp:42
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Maintainer and developer"
+msgctxt "@info:credit"
+msgid "Maintainer and developer"
+msgstr "Caltenedor y desendolcador"
+
+#: main.cpp:44
+msgctxt "@info:credit"
+msgid "Frank Reininghaus"
+msgstr ""
+
+#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
+#: main.cpp:63 main.cpp:66
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "Desendolcador"
+
+#: main.cpp:47
+msgctxt "@info:credit"
+msgid "Sebastian Trüg"
+msgstr ""
+
+#: main.cpp:50
+msgctxt "@info:credit"
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:53
+msgctxt "@info:credit"
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:56
+msgctxt "@info:credit"
+msgid "Rafael Fernández López"
+msgstr "Rafael Fernández López"
+
+#: main.cpp:59
+msgctxt "@info:credit"
+msgid "Kevin Ottens"
+msgstr "Kevin Ottens"
+
+#: main.cpp:62
+msgctxt "@info:credit"
+msgid "Holger Freyther"
+msgstr "Holger Freyther"
+
+#: main.cpp:65
+msgctxt "@info:credit"
+msgid "Max Blazejak"
+msgstr "Max Blazejak"
+
+#: main.cpp:68
+msgctxt "@info:credit"
+msgid "Michael Austin"
+msgstr "Michael Austin"
+
+#: main.cpp:69
+msgctxt "@info:credit"
+msgid "Documentation"
+msgstr "Documentación"
+
+#: main.cpp:79
+msgctxt "@info:shell"
+msgid "The files and directories passed as arguments will be selected."
+msgstr ""
+
+#: main.cpp:81
+msgctxt "@info:shell"
+msgid "Dolphin will get started with a split view."
+msgstr ""
+
+#: main.cpp:82
+msgctxt "@info:shell"
+msgid "Document to open"
+msgstr "Documentu p'abrir"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
