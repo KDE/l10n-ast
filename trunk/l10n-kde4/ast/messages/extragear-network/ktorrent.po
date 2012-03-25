@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-13 04:31+0100\n"
+"POT-Creation-Date: 2012-03-25 04:33+0200\n"
 "PO-Revision-Date: 2010-10-19 23:27+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -676,6 +676,7 @@ msgid "Order"
 msgstr "Orde"
 
 #: ktorrent/tools/queuemanagermodel.cpp:192 ktorrent/view/viewmodel.cpp:489
+#: plugins/downloadorder/downloadorderdialog.cpp:80
 msgid "Name"
 msgstr "Nome"
 
@@ -750,13 +751,7 @@ msgstr "Mover un torrent al entamu de la cola"
 
 #. i18n: file: ktorrent/dialogs/torrentcreatordlg.ui:188
 #. i18n: ectx: property (text), widget (KPushButton, m_move_up)
-#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:50
-#. i18n: ectx: property (text), widget (KPushButton, m_move_up)
-#. i18n: file: ktorrent/dialogs/torrentcreatordlg.ui:188
-#. i18n: ectx: property (text), widget (KPushButton, m_move_up)
-#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:50
-#. i18n: ectx: property (text), widget (KPushButton, m_move_up)
-#: ktorrent/tools/queuemanagerwidget.cpp:74 rc.cpp:214 rc.cpp:1640
+#: ktorrent/tools/queuemanagerwidget.cpp:74 rc.cpp:214
 msgid "Move Up"
 msgstr "Xubir"
 
@@ -766,13 +761,7 @@ msgstr "Pasar p'alantre un torrent na cola"
 
 #. i18n: file: ktorrent/dialogs/torrentcreatordlg.ui:195
 #. i18n: ectx: property (text), widget (KPushButton, m_move_down)
-#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:57
-#. i18n: ectx: property (text), widget (KPushButton, m_move_down)
-#. i18n: file: ktorrent/dialogs/torrentcreatordlg.ui:195
-#. i18n: ectx: property (text), widget (KPushButton, m_move_down)
-#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:57
-#. i18n: ectx: property (text), widget (KPushButton, m_move_down)
-#: ktorrent/tools/queuemanagerwidget.cpp:77 rc.cpp:217 rc.cpp:1643
+#: ktorrent/tools/queuemanagerwidget.cpp:77 rc.cpp:217
 msgid "Move Down"
 msgstr "Baxar"
 
@@ -2420,17 +2409,29 @@ msgstr ""
 msgid "Current schedule:"
 msgstr "Planificación actual:"
 
-#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:13
+#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, DownloadOrderWidget)
-#: plugins/downloadorder/downloadorderdialog.cpp:38
+#: plugins/downloadorder/downloadorderdialog.cpp:39
 #: plugins/downloadorder/downloadorderplugin.cpp:46 rc.cpp:1625
 msgid "File Download Order"
 msgstr "Orde de la baxada de ficheros"
 
-#: plugins/downloadorder/downloadorderdialog.cpp:39
+#: plugins/downloadorder/downloadorderdialog.cpp:40
 #, kde-format
 msgid "File download order for <b>%1</b>:"
 msgstr "Orde de baxada de ficheros de <b>%1</b>:"
+
+#: plugins/downloadorder/downloadorderdialog.cpp:81
+#, fuzzy
+#| msgid "Seasons && Episodes"
+msgid "Seasons and Epsiodes"
+msgstr "Temporaes y episodios"
+
+#: plugins/downloadorder/downloadorderdialog.cpp:82
+#, fuzzy
+#| msgid "Add Trackers"
+msgid "Album Track Order"
+msgstr "Amestar Trackers"
 
 #: plugins/infowidget/availabilitychunkbar.cpp:33
 msgid ""
@@ -7944,27 +7945,41 @@ msgstr ""
 msgid "Set connection limits"
 msgstr "Afitar los llímites de la conexón"
 
-#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:22
+#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:20
 #. i18n: ectx: property (text), widget (QLabel, m_top_label)
 #: rc.cpp:1628
 msgid "File download order for:"
 msgstr "Orde de la baxada de ficheros pa:"
 
-#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:29
+#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:27
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_custom_order_enabled)
 #: rc.cpp:1631
 msgid "Whether or not to enable a custom download order."
 msgstr "Si activar o non una orde de baxada personalizada."
 
-#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:32
+#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:30
 #. i18n: ectx: property (text), widget (QCheckBox, m_custom_order_enabled)
 #: rc.cpp:1634
 msgid "Custom file download order enabled"
 msgstr "Activóse la orde de baxada de ficheros personalizada"
 
-#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:41
-#. i18n: ectx: property (toolTip), widget (QListView, m_order)
+#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:42
+#. i18n: ectx: property (text), widget (QToolButton, m_sort_by)
 #: rc.cpp:1637
+msgid "Sort By"
+msgstr ""
+
+#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:52
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_search_files)
+#: rc.cpp:1640
+#, fuzzy
+#| msgid "Search Engines"
+msgid "Search files"
+msgstr "Motores de gueta"
+
+#. i18n: file: plugins/downloadorder/downloadorderwidget.ui:66
+#. i18n: ectx: property (toolTip), widget (QListView, m_order)
+#: rc.cpp:1643
 msgid ""
 "Order in which to download the files of a torrent. The file at the top will "
 "be downloaded first, followed by the second, then the third ..."
