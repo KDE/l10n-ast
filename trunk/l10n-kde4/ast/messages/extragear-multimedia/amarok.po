@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-17 03:21+0100\n"
+"POT-Creation-Date: 2012-03-26 04:08+0200\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -1513,6 +1513,60 @@ msgstr ""
 msgid "Add Position Marker"
 msgstr ""
 
+#: amarokurls/ContextUrlRunner.cpp:75
+#, fuzzy
+#| msgid "Context"
+msgctxt "A type of command that affects the context view"
+msgid "Context"
+msgstr "Contestu"
+
+#: amarokurls/BookmarkTreeView.cpp:112
+msgctxt "Load the view represented by this bookmark"
+msgid "&Load"
+msgstr "&Cargar"
+
+#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:403
+msgid "&Delete"
+msgstr "&Desaniciar"
+
+#: amarokurls/BookmarkTreeView.cpp:125
+msgid "&Create timecode track"
+msgstr "&Criar pista de códigu de tiempu"
+
+#: amarokurls/BookmarkTreeView.cpp:376
+msgid "New Timecode Track"
+msgstr "Nueva pista de códigu de tiempu"
+
+#: amarokurls/PlayUrlRunner.cpp:84
+#, fuzzy
+#| msgid "Playback"
+msgctxt ""
+"A type of command that starts playing at a specific position in a track"
+msgid "Play"
+msgstr "Reproducción"
+
+#: amarokurls/BookmarkManagerWidget.cpp:44
+#, fuzzy
+#| msgid "Group"
+msgid "Add Group"
+msgstr "Grupu"
+
+#: amarokurls/BookmarkManagerWidget.cpp:55
+msgid "Filter bookmarks"
+msgstr ""
+
+#: amarokurls/BookmarkManagerWidget.cpp:59
+msgid "Start typing to progressively filter the bookmarks"
+msgstr ""
+
+#: amarokurls/NavigationUrlRunner.cpp:132
+#, fuzzy
+#| msgctxt "The quality of music"
+#| msgid "Favorite"
+msgctxt "A type of command that affects the view in the browser category"
+msgid "Navigate"
+msgstr "Favorita"
+
 #: amarokurls/BookmarkModel.cpp:86
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:410
 msgid "Group"
@@ -1580,13 +1634,6 @@ msgstr "Contestu: %1"
 msgid "Bookmark Context View Applets"
 msgstr ""
 
-#: amarokurls/ContextUrlRunner.cpp:75
-#, fuzzy
-#| msgid "Context"
-msgctxt "A type of command that affects the context view"
-msgid "Context"
-msgstr "Contestu"
-
 #: amarokurls/NavigationUrlGenerator.cpp:141
 #, kde-format
 msgid "Files (%1)"
@@ -1612,56 +1659,9 @@ msgstr "Artista \"%1\" de %2"
 msgid "Artist \"%1\""
 msgstr "Artista «%1»"
 
-#: amarokurls/PlayUrlGenerator.cpp:87
+#: amarokurls/PlayUrlGenerator.cpp:102
 msgid "Bookmark Track Position"
 msgstr ""
-
-#: amarokurls/BookmarkTreeView.cpp:112
-msgctxt "Load the view represented by this bookmark"
-msgid "&Load"
-msgstr "&Cargar"
-
-#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:403
-msgid "&Delete"
-msgstr "&Desaniciar"
-
-#: amarokurls/BookmarkTreeView.cpp:125
-msgid "&Create timecode track"
-msgstr "&Criar pista de códigu de tiempu"
-
-#: amarokurls/BookmarkTreeView.cpp:376
-msgid "New Timecode Track"
-msgstr "Nueva pista de códigu de tiempu"
-
-#: amarokurls/PlayUrlRunner.cpp:84
-#, fuzzy
-#| msgid "Playback"
-msgctxt ""
-"A type of command that starts playing at a specific position in a track"
-msgid "Play"
-msgstr "Reproducción"
-
-#: amarokurls/BookmarkManagerWidget.cpp:44
-#, fuzzy
-#| msgid "Group"
-msgid "Add Group"
-msgstr "Grupu"
-
-#: amarokurls/BookmarkManagerWidget.cpp:55
-msgid "Filter bookmarks"
-msgstr ""
-
-#: amarokurls/BookmarkManagerWidget.cpp:59
-msgid "Start typing to progressively filter the bookmarks"
-msgstr ""
-
-#: amarokurls/NavigationUrlRunner.cpp:132
-#, fuzzy
-#| msgctxt "The quality of music"
-#| msgid "Favorite"
-msgctxt "A type of command that affects the view in the browser category"
-msgid "Navigate"
-msgstr "Favorita"
 
 #: browsers/BrowserDock.cpp:36
 #, fuzzy
@@ -4002,14 +4002,6 @@ msgstr "Música compartida en %1"
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:58
-msgid "Do not show under Various Artists"
-msgstr "Nun amosar debaxo de Dellos Artistes"
-
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:63
-msgid "Show under Various Artists"
-msgstr "Amosar debaxo de Dellos Artistes"
-
 #: core-impl/collections/db/sql/SqlCollection.cpp:175
 #, kde-format
 msgid ""
@@ -4117,6 +4109,14 @@ msgstr "Moviendo ficheros a la papelera"
 #| msgid "Moving files to trash"
 msgid "Transcode and copy tracks"
 msgstr "Moviendo ficheros a la papelera"
+
+#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:58
+msgid "Do not show under Various Artists"
+msgstr "Nun amosar debaxo de Dellos Artistes"
+
+#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:63
+msgid "Show under Various Artists"
+msgstr "Amosar debaxo de Dellos Artistes"
 
 #: core-impl/collections/db/ScanManager.cpp:134
 msgid "Database import requested"
@@ -8033,21 +8033,6 @@ msgstr ""
 msgid "Add a playlist sorting level."
 msgstr ""
 
-#: playlist/PlaylistViewUrlGenerator.cpp:82
-#, kde-format
-msgid "Filter %1"
-msgstr ""
-
-#: playlist/PlaylistViewUrlGenerator.cpp:83
-#, kde-format
-msgid "Search %1"
-msgstr ""
-
-#: playlist/PlaylistViewUrlGenerator.cpp:90
-#, kde-format
-msgid "%1 layout"
-msgstr ""
-
 #: playlist/PlaylistViewUrlRunner.cpp:110
 #, fuzzy
 #| msgid "Playlist"
@@ -8518,6 +8503,21 @@ msgstr ""
 #: playlist/PlaylistDock.cpp:267
 #, kde-format
 msgid "&Save playlist to \"%1\""
+msgstr ""
+
+#: playlist/PlaylistViewUrlGenerator.cpp:82
+#, kde-format
+msgid "Filter %1"
+msgstr ""
+
+#: playlist/PlaylistViewUrlGenerator.cpp:83
+#, kde-format
+msgid "Search %1"
+msgstr ""
+
+#: playlist/PlaylistViewUrlGenerator.cpp:90
+#, kde-format
+msgid "%1 layout"
 msgstr ""
 
 #: playlistgenerator/PresetEditDialog.cpp:61
@@ -10571,6 +10571,44 @@ msgstr "Artista «%1»"
 msgid "empty"
 msgstr ""
 
+#: widgets/SliderWidget.cpp:244
+msgid "Volume"
+msgstr "Volume"
+
+#: widgets/SliderWidget.cpp:245
+msgid "100%"
+msgstr "100%"
+
+#: widgets/SliderWidget.cpp:246
+msgid "80%"
+msgstr "80%"
+
+#: widgets/SliderWidget.cpp:247
+msgid "60%"
+msgstr "60%"
+
+#: widgets/SliderWidget.cpp:248
+msgid "40%"
+msgstr "40%"
+
+#: widgets/SliderWidget.cpp:249
+msgid "20%"
+msgstr "20%"
+
+#: widgets/SliderWidget.cpp:250
+msgid "0%"
+msgstr "0%"
+
+#: widgets/SliderWidget.cpp:412
+#, fuzzy, kde-format
+#| msgid "Group Radio: %1"
+msgctxt ""
+"Tooltip shown when the mouse is over the progress slider, representing the "
+"position in the currently playing track that Amarok will seek to if you "
+"click the mouse. Keep it concise."
+msgid "Jump to: %1"
+msgstr "Radio de grupu: %1"
+
 #: widgets/SmartPlaylistEditor.cpp:79
 msgid "Create Smart Playlist"
 msgstr "Criar llista de reproducción intelixente"
@@ -10795,44 +10833,6 @@ msgstr "Silenciáu"
 #| msgid "Volume"
 msgid "Volume: %1%"
 msgstr "Volume"
-
-#: widgets/SliderWidget.cpp:245
-msgid "Volume"
-msgstr "Volume"
-
-#: widgets/SliderWidget.cpp:246
-msgid "100%"
-msgstr "100%"
-
-#: widgets/SliderWidget.cpp:247
-msgid "80%"
-msgstr "80%"
-
-#: widgets/SliderWidget.cpp:248
-msgid "60%"
-msgstr "60%"
-
-#: widgets/SliderWidget.cpp:249
-msgid "40%"
-msgstr "40%"
-
-#: widgets/SliderWidget.cpp:250
-msgid "20%"
-msgstr "20%"
-
-#: widgets/SliderWidget.cpp:251
-msgid "0%"
-msgstr "0%"
-
-#: widgets/SliderWidget.cpp:413
-#, fuzzy, kde-format
-#| msgid "Group Radio: %1"
-msgctxt ""
-"Tooltip shown when the mouse is over the progress slider, representing the "
-"position in the currently playing track that Amarok will seek to if you "
-"click the mouse. Keep it concise."
-msgid "Jump to: %1"
-msgstr "Radio de grupu: %1"
 
 #: widgets/MetaQueryWidget.cpp:138
 #, fuzzy
