@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackgekit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-29 04:35+0200\n"
+"POT-Creation-Date: 2012-03-30 05:32+0200\n"
 "PO-Revision-Date: 2010-10-25 20:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -563,7 +563,7 @@ msgstr "Fontes de software"
 msgid "Display"
 msgstr ""
 
-#: ApperKCM/PackageDetails.cpp:80
+#: ApperKCM/PackageDetails.cpp:80 AppSetup/SetupWizard.cpp:217
 msgid "Description"
 msgstr "Descripción"
 
@@ -635,6 +635,7 @@ msgid "Action"
 msgstr "Aición"
 
 #: ApperKCM/TransactionModel.cpp:48 Sentinel/TransactionWatcher.cpp:308
+#: AppSetup/SetupWizard.cpp:189
 msgid "Details"
 msgstr "Detalles"
 
@@ -925,7 +926,7 @@ msgid "Could not find any package to install in this catalog"
 msgstr ""
 
 #: Sentinel/SessionTask.cpp:66 libapper/Requirements.cpp:44
-#: AppSetup/SetupWizard.cpp:40
+#: AppSetup/SetupWizard.cpp:126
 msgid "Continue"
 msgstr ""
 
@@ -3263,6 +3264,7 @@ msgstr "El motor actual nun permite instalar paquetes."
 
 #: libapper/PkTransaction.cpp:129 libapper/PkTransaction.cpp:153
 #: libapper/PkTransaction.cpp:179 libapper/PkTransaction.cpp:202
+#: AppSetup/SetupWizard.cpp:98
 msgid "Error"
 msgstr ""
 
@@ -3349,37 +3351,125 @@ msgstr "Instalar"
 msgid "Remove"
 msgstr ""
 
-#: AppSetup/main.cpp:30 AppSetup/main.cpp:31
+#: AppSetup/SetupWizard.cpp:83
+#, fuzzy
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Installing file"
+msgid "Installation finished!"
+msgstr "Instalando ficheru"
+
+#: AppSetup/SetupWizard.cpp:84
+#, kde-format
+msgid "%1 has been installed successfully!"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:99
+#, fuzzy
+#| msgid "An internal system error has occurred"
+msgid "An error occured"
+msgstr "Hebo un fallu internu del sistema"
+
+#. i18n: file: ApperKCM/ApperKCM.ui:281
+#. i18n: ectx: property (text), widget (QToolButton, backTB)
+#: AppSetup/SetupWizard.cpp:128 rc.cpp:197
+msgid "Back"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:178
+msgid "Welcome!"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:179
+#, kde-format
+msgid "Welcome to the installation of %1!"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:180
+msgid ""
+"Please be careful while installing 3rd-party applications.<br>They may "
+"eventually <b>damage</b> your system or have <b>malicious behaviour</b>, "
+"like spying out your passwords.<br>Please do only install this software if "
+"you <b>trust the publisher and the author</b> of it."
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:190
+msgid "Details about this installation"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:216
+#, fuzzy
+#| msgid "Application"
+msgid "Application description"
+msgstr "Aplicación"
+
+#: AppSetup/SetupWizard.cpp:225
+#, fuzzy
+#| msgctxt "The group type"
+#| msgid "Software sources"
+msgid "Software license"
+msgstr "Fontes de software"
+
+#: AppSetup/SetupWizard.cpp:226
+msgid "Please read the following terms and conditions carefully!"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:233
+msgid "Running installation"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:234
+#, fuzzy, kde-format
+#| msgid "Installing"
+msgid "Installing %1..."
+msgstr "Instalando"
+
+#: AppSetup/main.cpp:33 AppSetup/main.cpp:34
 #, fuzzy
 #| msgid "Application"
 msgid "KDE Application Installer"
 msgstr "Aplicación"
 
-#: AppSetup/main.cpp:32
+#: AppSetup/main.cpp:35
 msgid "(C) 2012, Matthias Klumpp"
 msgstr ""
 
-#: AppSetup/main.cpp:34
+#: AppSetup/main.cpp:37
 #, fuzzy
 #| msgid "Daniel Nicoletti"
 msgctxt "@info:credit"
 msgid "Daniel Nicoletti"
 msgstr "Daniel Nicoletti"
 
-#: AppSetup/main.cpp:34 AppSetup/main.cpp:36
+#: AppSetup/main.cpp:37 AppSetup/main.cpp:39
 #, fuzzy
 #| msgid "Development"
 msgid "Developer"
 msgstr "Desendolcu"
 
-#: AppSetup/main.cpp:36
+#: AppSetup/main.cpp:39
 msgctxt "@info:credit"
 msgid "Matthias Klumpp"
 msgstr ""
 
-#: AppSetup/main.cpp:43
+#: AppSetup/main.cpp:46
 msgid "Show debugging information"
 msgstr ""
+
+#: AppSetup/main.cpp:47
+#, fuzzy
+#| msgid "Invalid package file"
+msgid "IPK package filename"
+msgstr "Ficheru de paquete inválidu"
+
+#: AppSetup/main.cpp:69
+msgid "Sorry, we didn't get an existing IPK package as parameter."
+msgstr ""
+
+#: AppSetup/main.cpp:70
+#, fuzzy
+#| msgid "The package was not found"
+msgid "Package not found!"
+msgstr "El paquete nun s'alcontró"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -3732,12 +3822,6 @@ msgstr ""
 msgid "Pending Changes"
 msgstr ""
 
-#. i18n: file: ApperKCM/ApperKCM.ui:281
-#. i18n: ectx: property (text), widget (QToolButton, backTB)
-#: rc.cpp:197
-msgid "Back"
-msgstr ""
-
 #. i18n: file: Sentinel/IntroDialog.ui:65
 #. i18n: ectx: property (text), widget (QLabel, descriptionL)
 #: rc.cpp:209
@@ -3808,6 +3892,18 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, currentL)
 #: rc.cpp:248
 msgid "Downloading Packages"
+msgstr ""
+
+#. i18n: file: AppSetup/LicensePage.ui:98
+#. i18n: ectx: property (text), widget (QRadioButton, acceptedRB)
+#: rc.cpp:251
+msgid "I agree to the above terms and conditions"
+msgstr ""
+
+#. i18n: file: AppSetup/LicensePage.ui:111
+#. i18n: ectx: property (text), widget (QRadioButton, rejectedRB)
+#: rc.cpp:254
+msgid "I don't agree"
 msgstr ""
 
 #, fuzzy
