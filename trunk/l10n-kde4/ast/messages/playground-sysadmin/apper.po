@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackgekit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-02 04:46+0200\n"
+"POT-Creation-Date: 2012-04-03 08:10+0200\n"
 "PO-Revision-Date: 2010-10-25 20:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -90,6 +90,10 @@ msgstr ""
 msgid "Package file to install"
 msgstr ""
 
+#: ApperKCM/Settings/OriginModel.cpp:39 ApperKCM/Settings/OriginModel.cpp:52
+msgid "Origin of Packages"
+msgstr ""
+
 #: ApperKCM/Settings/Settings.cpp:65
 msgctxt "Hourly refresh the package cache"
 msgid "Hourly"
@@ -135,10 +139,6 @@ msgstr "Nun tienes permisos suficientes pa facer esto."
 #: ApperKCM/Settings/Settings.cpp:251
 msgid "Failed to set origin data"
 msgstr "Falló al asignar los datos d'orixe"
-
-#: ApperKCM/Settings/OriginModel.cpp:39 ApperKCM/Settings/OriginModel.cpp:52
-msgid "Origin of Packages"
-msgstr ""
 
 #: ApperKCM/Updater/DistroUpgrade.cpp:39 Sentinel/DistroUpgrade.cpp:63
 msgid "Distribution upgrade available"
@@ -491,6 +491,10 @@ msgstr "Namái coleiciones"
 msgid "Hide packages that are not applications"
 msgstr "Los paquetes nun son compatibles"
 
+#: ApperKCM/ScreenShotViewer.cpp:90
+msgid "Could not find screen shot."
+msgstr ""
+
 #: ApperKCM/ApperKCM.cpp:79
 #, fuzzy
 #| msgid "Application"
@@ -559,6 +563,28 @@ msgstr ""
 msgid "Software Origins"
 msgstr "Fontes de software"
 
+#: ApperKCM/CategoryModel.cpp:47
+msgid "Installed Software"
+msgstr ""
+
+#: ApperKCM/CategoryModel.cpp:50 ApperKCM/CategoryModel.cpp:58
+msgid "Lists"
+msgstr ""
+
+#: ApperKCM/CategoryModel.cpp:55
+#, fuzzy
+#| msgid "Updated"
+msgid "Updates"
+msgstr "Anováu"
+
+#: ApperKCM/CategoryModel.cpp:155 ApperKCM/CategoryModel.cpp:339
+msgid "Categories"
+msgstr ""
+
+#: ApperKCM/CategoryModel.cpp:208
+msgid "Groups"
+msgstr ""
+
 #: ApperKCM/PackageDetails.cpp:73
 msgid "Display"
 msgstr ""
@@ -591,32 +617,6 @@ msgstr ""
 msgid "Applications"
 msgstr ""
 
-#: ApperKCM/CategoryModel.cpp:47
-msgid "Installed Software"
-msgstr ""
-
-#: ApperKCM/CategoryModel.cpp:50 ApperKCM/CategoryModel.cpp:58
-msgid "Lists"
-msgstr ""
-
-#: ApperKCM/CategoryModel.cpp:55
-#, fuzzy
-#| msgid "Updated"
-msgid "Updates"
-msgstr "Anováu"
-
-#: ApperKCM/CategoryModel.cpp:155 ApperKCM/CategoryModel.cpp:339
-msgid "Categories"
-msgstr ""
-
-#: ApperKCM/CategoryModel.cpp:208
-msgid "Groups"
-msgstr ""
-
-#: ApperKCM/ScreenShotViewer.cpp:90
-msgid "Could not find screen shot."
-msgstr ""
-
 #: ApperKCM/TransactionHistory.cpp:66
 msgid "Refresh transactions list"
 msgstr "Anovar la llista de transaiciones"
@@ -647,14 +647,6 @@ msgstr "Nome d'usuariu"
 #: ApperKCM/TransactionModel.cpp:50
 msgid "Application"
 msgstr "Aplicación"
-
-#: Sentinel/DistroUpgrade.cpp:69
-msgid "Start upgrade now"
-msgstr "Aniciar anovamientu agora"
-
-#: Sentinel/DistroUpgrade.cpp:114
-msgid "Distribution upgrade finished. "
-msgstr "Anovamientu de distribución fináu. "
 
 #: Sentinel/PkInstallProvideFiles.cpp:39
 msgid "Install Packages that Provides Files"
@@ -736,46 +728,6 @@ msgstr "Falló al asignar los datos d'orixe"
 
 #: Sentinel/PkInstallPrinterDrivers.cpp:88
 msgid "Could not find printer driver in any configured software source"
-msgstr ""
-
-#: Sentinel/UpdateIcon.cpp:160
-msgid "Review Updates"
-msgstr ""
-
-#: Sentinel/UpdateIcon.cpp:163
-msgid "Configure"
-msgstr "Configurar"
-
-#. i18n: file: ApperKCM/PackageDetails.ui:359
-#. i18n: ectx: property (text), widget (QToolButton, hideTB)
-#. i18n: file: ApperKCM/Updater/UpdateDetails.ui:20
-#. i18n: ectx: property (text), widget (QToolButton, hideTB)
-#: Sentinel/UpdateIcon.cpp:167 Sentinel/TransactionWatcher.cpp:186
-#: libapper/PkTransactionDialog.cpp:86 rc.cpp:137 rc.cpp:173
-msgid "Hide"
-msgstr "Anubrir"
-
-#: Sentinel/UpdateIcon.cpp:177
-#, kde-format
-msgid "You have one update"
-msgid_plural "You have %1 updates"
-msgstr[0] ""
-msgstr[1] ""
-
-#: Sentinel/UpdateIcon.cpp:230
-msgid "Updates are being automatically installed."
-msgstr "Tán instalándose automáticamente los anovamientos"
-
-#: Sentinel/UpdateIcon.cpp:251
-msgid "Security updates are being automatically installed."
-msgstr "Tán instalándose automáticamente los anovamientos de seguridá."
-
-#: Sentinel/UpdateIcon.cpp:278
-msgid "System update was successful."
-msgstr "El sistema anovóse correcho."
-
-#: Sentinel/UpdateIcon.cpp:287
-msgid "The automated software update failed."
 msgstr ""
 
 #: Sentinel/ReviewChanges.cpp:52
@@ -925,6 +877,67 @@ msgstr ""
 msgid "Could not find any package to install in this catalog"
 msgstr ""
 
+#: Sentinel/PkInstallPackageFiles.cpp:38
+#, fuzzy
+#| msgctxt "The role of the transaction, in past tense"
+#| msgid "Installed packages"
+msgid "Install Packages Files"
+msgstr "Paquetes instalaos"
+
+#: Sentinel/PkInstallPackageFiles.cpp:42
+#: Sentinel/PkRemovePackageByFiles.cpp:43
+msgid "You can drop more files in here"
+msgstr ""
+
+#: Sentinel/PkInstallPackageFiles.cpp:52
+msgid "Not Supported"
+msgstr ""
+
+#: Sentinel/PkInstallPackageFiles.cpp:53
+#, fuzzy
+#| msgid "Current backend does not support installing packages."
+msgid "Your current backend does not support installing files"
+msgstr "El motor actual nun permite instalar paquetes."
+
+#: Sentinel/PkInstallPackageFiles.cpp:68
+#: Sentinel/PkRemovePackageByFiles.cpp:64
+#, fuzzy
+#| msgid "No files were found."
+msgid "No supported files were provided"
+msgstr "Nun s'atopó dengún ficheru."
+
+#: Sentinel/PkInstallPackageFiles.cpp:70
+msgid "Press <i>Continue</i> if you want to install this file"
+msgid_plural "Press <i>Continue</i> if you want to install these files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Sentinel/PkInstallPackageFiles.cpp:105
+#, fuzzy
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Installing file"
+msgid "Installation Complete"
+msgstr "Instalando ficheru"
+
+#: Sentinel/PkInstallPackageFiles.cpp:106
+msgid "File was installed successfully"
+msgid_plural "Files were installed successfully"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Sentinel/PkInstallPackageFiles.cpp:117
+#, fuzzy
+#| msgid "Failed to install package"
+msgid "Failed to install files"
+msgstr "fallu al instalar el paquete"
+
+#: Sentinel/PkInstallPackageFiles.cpp:118
+#: Sentinel/PkInstallPackageFiles.cpp:120
+#, fuzzy
+#| msgid "Local install failed"
+msgid "Could not install files"
+msgstr "Falló la instalación llocal"
+
 #: Sentinel/SessionTask.cpp:66 libapper/Requirements.cpp:44
 #: AppSetup/SetupWizard.cpp:134
 msgid "Continue"
@@ -971,6 +984,74 @@ msgstr "Obsoletu"
 msgid "All operations were committed successfully"
 msgstr ""
 
+#: Sentinel/UpdateIcon.cpp:160
+msgid "Review Updates"
+msgstr ""
+
+#: Sentinel/UpdateIcon.cpp:163
+msgid "Configure"
+msgstr "Configurar"
+
+#. i18n: file: ApperKCM/PackageDetails.ui:359
+#. i18n: ectx: property (text), widget (QToolButton, hideTB)
+#. i18n: file: ApperKCM/Updater/UpdateDetails.ui:20
+#. i18n: ectx: property (text), widget (QToolButton, hideTB)
+#: Sentinel/UpdateIcon.cpp:167 Sentinel/TransactionWatcher.cpp:186
+#: libapper/PkTransactionDialog.cpp:86 rc.cpp:137 rc.cpp:173
+msgid "Hide"
+msgstr "Anubrir"
+
+#: Sentinel/UpdateIcon.cpp:177
+#, kde-format
+msgid "You have one update"
+msgid_plural "You have %1 updates"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Sentinel/UpdateIcon.cpp:230
+msgid "Updates are being automatically installed."
+msgstr "Tán instalándose automáticamente los anovamientos"
+
+#: Sentinel/UpdateIcon.cpp:251
+msgid "Security updates are being automatically installed."
+msgstr "Tán instalándose automáticamente los anovamientos de seguridá."
+
+#: Sentinel/UpdateIcon.cpp:278
+msgid "System update was successful."
+msgstr "El sistema anovóse correcho."
+
+#: Sentinel/UpdateIcon.cpp:287
+msgid "The automated software update failed."
+msgstr ""
+
+#: Sentinel/PkIsInstalled.cpp:36
+#, fuzzy
+#| msgid "The package is not installed"
+msgid "Querying if a Package is Installed"
+msgstr "El paquete nun ta instaláu"
+
+#: Sentinel/PkIsInstalled.cpp:67
+msgid "User canceled the transaction"
+msgstr ""
+
+#: Sentinel/PkIsInstalled.cpp:69
+msgid "An unknown error happened"
+msgstr ""
+
+#: Sentinel/TransactionTrayIcon.cpp:45
+msgid "Transactions"
+msgstr "Transaiciones"
+
+#: Sentinel/TransactionTrayIcon.cpp:90
+#, kde-format
+msgid "%1% - %2"
+msgstr "%1% - %2"
+
+#: Sentinel/TransactionTrayIcon.cpp:92
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
 #: Sentinel/TransactionWatcher.cpp:66 Sentinel/TransactionWatcher.cpp:265
 msgid "Hide this icon"
 msgstr "Anubrir esti iconu"
@@ -1015,34 +1096,6 @@ msgstr "Amosar mensaxes"
 #: Sentinel/TransactionWatcher.cpp:308
 msgid "Ignore"
 msgstr "Inorar"
-
-#: Sentinel/PkIsInstalled.cpp:36
-#, fuzzy
-#| msgid "The package is not installed"
-msgid "Querying if a Package is Installed"
-msgstr "El paquete nun ta instaláu"
-
-#: Sentinel/PkIsInstalled.cpp:67
-msgid "User canceled the transaction"
-msgstr ""
-
-#: Sentinel/PkIsInstalled.cpp:69
-msgid "An unknown error happened"
-msgstr ""
-
-#: Sentinel/TransactionTrayIcon.cpp:45
-msgid "Transactions"
-msgstr "Transaiciones"
-
-#: Sentinel/TransactionTrayIcon.cpp:90
-#, kde-format
-msgid "%1% - %2"
-msgstr "%1% - %2"
-
-#: Sentinel/TransactionTrayIcon.cpp:92
-#, kde-format
-msgid "%1"
-msgstr "%1"
 
 #: Sentinel/PkInstallPlasmaResources.cpp:40
 msgid "Install Plasma Resources"
@@ -1137,67 +1190,6 @@ msgstr ""
 msgid "Trever Fischer"
 msgstr "Trever Fischer"
 
-#: Sentinel/PkInstallPackageFiles.cpp:38
-#, fuzzy
-#| msgctxt "The role of the transaction, in past tense"
-#| msgid "Installed packages"
-msgid "Install Packages Files"
-msgstr "Paquetes instalaos"
-
-#: Sentinel/PkInstallPackageFiles.cpp:42
-#: Sentinel/PkRemovePackageByFiles.cpp:43
-msgid "You can drop more files in here"
-msgstr ""
-
-#: Sentinel/PkInstallPackageFiles.cpp:52
-msgid "Not Supported"
-msgstr ""
-
-#: Sentinel/PkInstallPackageFiles.cpp:53
-#, fuzzy
-#| msgid "Current backend does not support installing packages."
-msgid "Your current backend does not support installing files"
-msgstr "El motor actual nun permite instalar paquetes."
-
-#: Sentinel/PkInstallPackageFiles.cpp:68
-#: Sentinel/PkRemovePackageByFiles.cpp:64
-#, fuzzy
-#| msgid "No files were found."
-msgid "No supported files were provided"
-msgstr "Nun s'atopó dengún ficheru."
-
-#: Sentinel/PkInstallPackageFiles.cpp:70
-msgid "Press <i>Continue</i> if you want to install this file"
-msgid_plural "Press <i>Continue</i> if you want to install these files"
-msgstr[0] ""
-msgstr[1] ""
-
-#: Sentinel/PkInstallPackageFiles.cpp:105
-#, fuzzy
-#| msgctxt "The role of the transaction, in present tense"
-#| msgid "Installing file"
-msgid "Installation Complete"
-msgstr "Instalando ficheru"
-
-#: Sentinel/PkInstallPackageFiles.cpp:106
-msgid "File was installed successfully"
-msgid_plural "Files were installed successfully"
-msgstr[0] ""
-msgstr[1] ""
-
-#: Sentinel/PkInstallPackageFiles.cpp:117
-#, fuzzy
-#| msgid "Failed to install package"
-msgid "Failed to install files"
-msgstr "fallu al instalar el paquete"
-
-#: Sentinel/PkInstallPackageFiles.cpp:118
-#: Sentinel/PkInstallPackageFiles.cpp:120
-#, fuzzy
-#| msgid "Local install failed"
-msgid "Could not install files"
-msgstr "Falló la instalación llocal"
-
 #: Sentinel/PkRemovePackageByFiles.cpp:40
 msgid "Remove Packages that Provides Files"
 msgstr ""
@@ -1269,6 +1261,14 @@ msgstr ""
 #: Sentinel/PkSearchFile.cpp:80
 msgid "The file name could not be found in any software source"
 msgstr ""
+
+#: Sentinel/DistroUpgrade.cpp:69
+msgid "Start upgrade now"
+msgstr "Aniciar anovamientu agora"
+
+#: Sentinel/DistroUpgrade.cpp:114
+msgid "Distribution upgrade finished. "
+msgstr "Anovamientu de distribución fináu. "
 
 #: Sentinel/PkInstallFontconfigResources.cpp:41
 msgid "Installs new Fonts"
@@ -3134,6 +3134,93 @@ msgstr ""
 msgid "An unknown error happened."
 msgstr ""
 
+#: libapper/PkTransaction.cpp:122
+#, fuzzy
+#| msgid "Failed to remove package"
+msgid "Failed to simulate file install"
+msgstr "Fallu al desaniciar el paquete"
+
+#: libapper/PkTransaction.cpp:129
+#, fuzzy
+#| msgid "Current backend does not support installing packages."
+msgid "Current backend does not support installing files."
+msgstr "El motor actual nun permite instalar paquetes."
+
+#: libapper/PkTransaction.cpp:129 libapper/PkTransaction.cpp:153
+#: libapper/PkTransaction.cpp:179 libapper/PkTransaction.cpp:202
+#: AppSetup/SetupWizard.cpp:106
+msgid "Error"
+msgstr ""
+
+#: libapper/PkTransaction.cpp:146
+msgid "Failed to simulate package install"
+msgstr ""
+
+#: libapper/PkTransaction.cpp:153
+msgid "Current backend does not support installing packages."
+msgstr "El motor actual nun permite instalar paquetes."
+
+#: libapper/PkTransaction.cpp:171
+msgid "Failed to simulate package removal"
+msgstr ""
+
+#: libapper/PkTransaction.cpp:179
+msgid "The current backend does not support removing packages."
+msgstr "El motor actual nun permite desaniciar paquetes."
+
+#: libapper/PkTransaction.cpp:195
+#, fuzzy
+#| msgid "Failed to remove package"
+msgid "Failed to simulate package update"
+msgstr "Fallu al desaniciar el paquete"
+
+#: libapper/PkTransaction.cpp:202
+#, fuzzy
+#| msgid "The current backend does not support removing packages."
+msgid "The current backend does not support updating packages."
+msgstr "El motor actual nun permite desaniciar paquetes."
+
+#: libapper/PkTransaction.cpp:213
+#, fuzzy
+#| msgid "Failed to remove package"
+msgid "Failed to refresh package cache"
+msgstr "Fallu al desaniciar el paquete"
+
+#: libapper/PkTransaction.cpp:251
+msgid "Failed to install package"
+msgstr "fallu al instalar el paquete"
+
+#: libapper/PkTransaction.cpp:276
+msgid "Failed to remove package"
+msgstr "Fallu al desaniciar el paquete"
+
+#: libapper/PkTransaction.cpp:288
+#, fuzzy
+#| msgid "Failed to remove package"
+msgid "Failed to update package"
+msgstr "Fallu al desaniciar el paquete"
+
+#: libapper/PkTransaction.cpp:459
+#, kde-format
+msgid "Downloading packages at %1/s"
+msgstr ""
+
+#: libapper/PkTransaction.cpp:507
+msgid ""
+"You are about to install unsigned packages that can compromise your system, "
+"as it is impossible to verify if the software came from a trusted source.\n"
+"\n"
+"Are you sure you want to proceed with the installation?"
+msgstr ""
+
+#: libapper/PkTransaction.cpp:510
+msgid "Installing unsigned software"
+msgstr "Instalando software non robláu"
+
+#: libapper/PkTransaction.cpp:564 libapper/PkTransaction.cpp:618
+msgid "Failed to install signature"
+msgstr ""
+
 #: libapper/PkTransactionDialog.cpp:88
 msgid ""
 "Allows you to hide the window whilst keeping the transaction task running."
@@ -3249,93 +3336,6 @@ msgid "1 package to update"
 msgid_plural "%1 packages to update"
 msgstr[0] ""
 msgstr[1] ""
-
-#: libapper/PkTransaction.cpp:122
-#, fuzzy
-#| msgid "Failed to remove package"
-msgid "Failed to simulate file install"
-msgstr "Fallu al desaniciar el paquete"
-
-#: libapper/PkTransaction.cpp:129
-#, fuzzy
-#| msgid "Current backend does not support installing packages."
-msgid "Current backend does not support installing files."
-msgstr "El motor actual nun permite instalar paquetes."
-
-#: libapper/PkTransaction.cpp:129 libapper/PkTransaction.cpp:153
-#: libapper/PkTransaction.cpp:179 libapper/PkTransaction.cpp:202
-#: AppSetup/SetupWizard.cpp:106
-msgid "Error"
-msgstr ""
-
-#: libapper/PkTransaction.cpp:146
-msgid "Failed to simulate package install"
-msgstr ""
-
-#: libapper/PkTransaction.cpp:153
-msgid "Current backend does not support installing packages."
-msgstr "El motor actual nun permite instalar paquetes."
-
-#: libapper/PkTransaction.cpp:171
-msgid "Failed to simulate package removal"
-msgstr ""
-
-#: libapper/PkTransaction.cpp:179
-msgid "The current backend does not support removing packages."
-msgstr "El motor actual nun permite desaniciar paquetes."
-
-#: libapper/PkTransaction.cpp:195
-#, fuzzy
-#| msgid "Failed to remove package"
-msgid "Failed to simulate package update"
-msgstr "Fallu al desaniciar el paquete"
-
-#: libapper/PkTransaction.cpp:202
-#, fuzzy
-#| msgid "The current backend does not support removing packages."
-msgid "The current backend does not support updating packages."
-msgstr "El motor actual nun permite desaniciar paquetes."
-
-#: libapper/PkTransaction.cpp:213
-#, fuzzy
-#| msgid "Failed to remove package"
-msgid "Failed to refresh package cache"
-msgstr "Fallu al desaniciar el paquete"
-
-#: libapper/PkTransaction.cpp:251
-msgid "Failed to install package"
-msgstr "fallu al instalar el paquete"
-
-#: libapper/PkTransaction.cpp:276
-msgid "Failed to remove package"
-msgstr "Fallu al desaniciar el paquete"
-
-#: libapper/PkTransaction.cpp:288
-#, fuzzy
-#| msgid "Failed to remove package"
-msgid "Failed to update package"
-msgstr "Fallu al desaniciar el paquete"
-
-#: libapper/PkTransaction.cpp:459
-#, kde-format
-msgid "Downloading packages at %1/s"
-msgstr ""
-
-#: libapper/PkTransaction.cpp:507
-msgid ""
-"You are about to install unsigned packages that can compromise your system, "
-"as it is impossible to verify if the software came from a trusted source.\n"
-"\n"
-"Are you sure you want to proceed with the installation?"
-msgstr ""
-
-#: libapper/PkTransaction.cpp:510
-msgid "Installing unsigned software"
-msgstr "Instalando software non robláu"
-
-#: libapper/PkTransaction.cpp:564 libapper/PkTransaction.cpp:618
-msgid "Failed to install signature"
-msgstr ""
 
 #. i18n: file: libapper/RepoSig.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, RepoSig)
