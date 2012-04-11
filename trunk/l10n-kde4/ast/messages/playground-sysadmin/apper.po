@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackgekit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-06 04:32+0200\n"
+"POT-Creation-Date: 2012-04-11 04:39+0200\n"
 "PO-Revision-Date: 2010-10-25 20:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -3351,6 +3351,54 @@ msgstr "Instalar"
 msgid "Remove"
 msgstr ""
 
+#: AppSetup/main.cpp:34 AppSetup/main.cpp:35
+#, fuzzy
+#| msgid "Application"
+msgid "KDE Application Installer"
+msgstr "Aplicación"
+
+#: AppSetup/main.cpp:36
+msgid "(C) 2012, Matthias Klumpp"
+msgstr ""
+
+#: AppSetup/main.cpp:38
+#, fuzzy
+#| msgid "Daniel Nicoletti"
+msgctxt "@info:credit"
+msgid "Daniel Nicoletti"
+msgstr "Daniel Nicoletti"
+
+#: AppSetup/main.cpp:38 AppSetup/main.cpp:40
+#, fuzzy
+#| msgid "Development"
+msgid "Developer"
+msgstr "Desendolcu"
+
+#: AppSetup/main.cpp:40
+msgctxt "@info:credit"
+msgid "Matthias Klumpp"
+msgstr ""
+
+#: AppSetup/main.cpp:47
+msgid "Show verbose information"
+msgstr ""
+
+#: AppSetup/main.cpp:48
+#, fuzzy
+#| msgid "Invalid package file"
+msgid "IPK package filename"
+msgstr "Ficheru de paquete inválidu"
+
+#: AppSetup/main.cpp:75
+msgid "Sorry, we didn't get an existing IPK package as parameter."
+msgstr ""
+
+#: AppSetup/main.cpp:76
+#, fuzzy
+#| msgid "The package was not found"
+msgid "Package not found!"
+msgstr "El paquete nun s'alcontró"
+
 #: AppSetup/SetupWizard.cpp:91
 #, fuzzy
 #| msgctxt "The role of the transaction, in present tense"
@@ -3427,7 +3475,19 @@ msgstr ""
 msgid "Installing %1..."
 msgstr "Instalando"
 
-#: AppSetup/SetupWizard.cpp:334
+#: AppSetup/SetupWizard.cpp:283
+msgid ""
+"Installing this package will make the following native packages obsolete. "
+"You might consider removing them manually."
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:284
+#, fuzzy
+#| msgid "Only newest packages"
+msgid "Similar native packages found"
+msgstr "Namái los caberos paquetes"
+
+#: AppSetup/SetupWizard.cpp:349
 msgid ""
 "You want to install this application as root!\n"
 "This can damage your system or install malicious software for all users.\n"
@@ -3435,57 +3495,9 @@ msgid ""
 "Continue?"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:337
+#: AppSetup/SetupWizard.cpp:352
 msgid "Really install as superuser?"
 msgstr ""
-
-#: AppSetup/main.cpp:34 AppSetup/main.cpp:35
-#, fuzzy
-#| msgid "Application"
-msgid "KDE Application Installer"
-msgstr "Aplicación"
-
-#: AppSetup/main.cpp:36
-msgid "(C) 2012, Matthias Klumpp"
-msgstr ""
-
-#: AppSetup/main.cpp:38
-#, fuzzy
-#| msgid "Daniel Nicoletti"
-msgctxt "@info:credit"
-msgid "Daniel Nicoletti"
-msgstr "Daniel Nicoletti"
-
-#: AppSetup/main.cpp:38 AppSetup/main.cpp:40
-#, fuzzy
-#| msgid "Development"
-msgid "Developer"
-msgstr "Desendolcu"
-
-#: AppSetup/main.cpp:40
-msgctxt "@info:credit"
-msgid "Matthias Klumpp"
-msgstr ""
-
-#: AppSetup/main.cpp:47
-msgid "Show verbose information"
-msgstr ""
-
-#: AppSetup/main.cpp:48
-#, fuzzy
-#| msgid "Invalid package file"
-msgid "IPK package filename"
-msgstr "Ficheru de paquete inválidu"
-
-#: AppSetup/main.cpp:75
-msgid "Sorry, we didn't get an existing IPK package as parameter."
-msgstr ""
-
-#: AppSetup/main.cpp:76
-#, fuzzy
-#| msgid "The package was not found"
-msgid "Package not found!"
-msgstr "El paquete nun s'alcontró"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
