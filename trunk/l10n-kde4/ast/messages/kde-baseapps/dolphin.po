@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-12 04:33+0200\n"
+"POT-Creation-Date: 2012-04-13 04:11+0200\n"
 "PO-Revision-Date: 2010-10-19 22:30+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -1093,6 +1093,57 @@ msgctxt "@label"
 msgid "Select which additional information should be shown:"
 msgstr "Configurar qué datos tienen d'amosase"
 
+#: statusbar/dolphinstatusbar.cpp:63
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show zoom slider"
+msgid "Zoom slider"
+msgstr "Amosar eslizador de zoom"
+
+#: statusbar/dolphinstatusbar.cpp:76
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Stop"
+msgid "Stop"
+msgstr "Parar"
+
+#: statusbar/dolphinstatusbar.cpp:78
+msgctxt "@tooltip"
+msgid "Stop loading"
+msgstr ""
+
+#: statusbar/dolphinstatusbar.cpp:226
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Copy"
+msgctxt "@action:inmenu"
+msgid "Copy Text"
+msgstr "Copiar"
+
+#: statusbar/dolphinstatusbar.cpp:227
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show zoom slider"
+msgctxt "@action:inmenu"
+msgid "Show Zoom Slider"
+msgstr "Amosar eslizador de zoom"
+
+#: statusbar/dolphinstatusbar.cpp:231
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show space information"
+msgctxt "@action:inmenu"
+msgid "Show Space Information"
+msgstr "Amosar información d'espaciu"
+
+#: statusbar/dolphinstatusbar.cpp:308
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Size: 1 pixel"
+msgid_plural "Size: %1 pixels"
+msgstr[0] "Tamañu: 1 pixel"
+msgstr[1] "Tamañu: %1 píxeles"
+
 #: statusbar/statusbarspaceinfo.cpp:79 statusbar/statusbarspaceinfo.cpp:87
 msgctxt "@info:status"
 msgid "Unknown size"
@@ -1103,57 +1154,6 @@ msgstr "Tamañu desconocíu"
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 llibre"
-
-#: statusbar/dolphinstatusbar.cpp:65
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show zoom slider"
-msgid "Zoom slider"
-msgstr "Amosar eslizador de zoom"
-
-#: statusbar/dolphinstatusbar.cpp:86
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Stop"
-msgid "Stop"
-msgstr "Parar"
-
-#: statusbar/dolphinstatusbar.cpp:273
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Information"
-msgctxt "@action:inmenu"
-msgid "Copy Information Message"
-msgstr "Información"
-
-#: statusbar/dolphinstatusbar.cpp:276
-msgctxt "@action:inmenu"
-msgid "Copy Error Message"
-msgstr ""
-
-#: statusbar/dolphinstatusbar.cpp:281
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show zoom slider"
-msgctxt "@action:inmenu"
-msgid "Show Zoom Slider"
-msgstr "Amosar eslizador de zoom"
-
-#: statusbar/dolphinstatusbar.cpp:285
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show space information"
-msgctxt "@action:inmenu"
-msgid "Show Space Information"
-msgstr "Amosar información d'espaciu"
-
-#: statusbar/dolphinstatusbar.cpp:374
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Size: 1 pixel"
-msgid_plural "Size: %1 pixels"
-msgstr[0] "Tamañu: 1 pixel"
-msgstr[1] "Tamañu: %1 píxeles"
 
 #: views/dolphinview.cpp:517
 #, kde-format
@@ -1447,12 +1447,314 @@ msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(# trocaráse por númberos ascendentes)"
 
-#: dolphinviewcontainer.cpp:338
+#: dolphinmainwindow.cpp:334
+msgctxt "@info:status"
+msgid "Successfully copied."
+msgstr ""
+
+#: dolphinmainwindow.cpp:337
+msgctxt "@info:status"
+msgid "Successfully moved."
+msgstr ""
+
+#: dolphinmainwindow.cpp:340
+msgctxt "@info:status"
+msgid "Successfully linked."
+msgstr ""
+
+#: dolphinmainwindow.cpp:343
+msgctxt "@info:status"
+msgid "Successfully moved to trash."
+msgstr ""
+
+#: dolphinmainwindow.cpp:346
+msgctxt "@info:status"
+msgid "Successfully renamed."
+msgstr ""
+
+#: dolphinmainwindow.cpp:350
+msgctxt "@info:status"
+msgid "Created folder."
+msgstr "Carpeta criada."
+
+#: dolphinmainwindow.cpp:427
+msgctxt "@info"
+msgid "Go back"
+msgstr ""
+
+#: dolphinmainwindow.cpp:433
+msgctxt "@info"
+msgid "Go forward"
+msgstr ""
+
+#: dolphinmainwindow.cpp:595
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Confirmación"
+
+#: dolphinmainwindow.cpp:599
+msgid "C&lose Current Tab"
+msgstr "Zarrar llingüeta actua&l"
+
+#: dolphinmainwindow.cpp:607
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
+msgstr ""
+"Tienes abondes llingüetes abiertes nesta ventana, ¿tas seguru de que quies "
+"colar?"
+
+#: dolphinmainwindow.cpp:609
+msgid "Do not ask again"
+msgstr "Nun entrugar más"
+
+#: dolphinmainwindow.cpp:1210
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Nueva llingüeta"
+
+#: dolphinmainwindow.cpp:1213
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Search Bar"
+msgctxt "@action:inmenu"
+msgid "Detach Tab"
+msgstr "Barra de Restolar"
+
+#: dolphinmainwindow.cpp:1215
+msgctxt "@action:inmenu"
+msgid "Close Other Tabs"
+msgstr "Zarrar les otres llingüetes"
+
+#: dolphinmainwindow.cpp:1217
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Zarrar llingüeta"
+
+#: dolphinmainwindow.cpp:1446
+#, fuzzy
+#| msgid "Location"
+msgctxt "@action:inmenu"
+msgid "Location Bar"
+msgstr "Allugamientu"
+
+#: dolphinmainwindow.cpp:1454
+#, fuzzy
+#| msgid "&Go"
+msgctxt "@action:inmenu"
+msgid "Go"
+msgstr "&Dir"
+
+#: dolphinmainwindow.cpp:1464
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Tools"
+msgctxt "@action:inmenu"
+msgid "Tools"
+msgstr "Ferramientes"
+
+#: dolphinmainwindow.cpp:1478
+msgctxt "@action:inmenu"
+msgid "Help"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1561 dolphincontextmenu.cpp:248
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "Crear nuevu"
+
+#: dolphinmainwindow.cpp:1568
+msgctxt "@action:inmenu File"
+msgid "New &Window"
+msgstr "Nueva &ventana"
+
+#: dolphinmainwindow.cpp:1574
+msgctxt "@action:inmenu File"
+msgid "New Tab"
+msgstr "Nueva llingüeta"
+
+#: dolphinmainwindow.cpp:1580
+msgctxt "@action:inmenu File"
+msgid "Close Tab"
+msgstr "Zarrar llingüeta"
+
+#: dolphinmainwindow.cpp:1603
+msgctxt "@action:inmenu Edit"
+msgid "Paste"
+msgstr "Apegar"
+
+#: dolphinmainwindow.cpp:1608
+msgctxt "@action:inmenu Edit"
+msgid "Select All"
+msgstr "Esbillar Too"
+
+#: dolphinmainwindow.cpp:1613 dolphinpart.cpp:164
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
+msgstr "Invertir la esbilla"
+
+#: dolphinmainwindow.cpp:1626
+msgctxt "@action:inmenu View"
+msgid "Reload"
+msgstr "Recargar"
+
+#: dolphinmainwindow.cpp:1632
+msgctxt "@action:inmenu View"
+msgid "Stop"
+msgstr "Parar"
+
+#: dolphinmainwindow.cpp:1633
+msgctxt "@info"
+msgid "Stop loading"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1638
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Editable Location"
+msgstr "Ubicación editable"
+
+#: dolphinmainwindow.cpp:1643
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Replace Location"
+msgstr "Trocar Ubicación"
+
+#: dolphinmainwindow.cpp:1654
+msgid "Recently Closed Tabs"
+msgstr "Llingüetes pesllaes hai poco"
+
+#: dolphinmainwindow.cpp:1660
+#, fuzzy
+#| msgid "Recently Closed Tabs"
+msgid "Empty Recently Closed Tabs"
+msgstr "Llingüetes pesllaes hai poco"
+
+#: dolphinmainwindow.cpp:1678
+msgctxt "@action:inmenu Tools"
+msgid "Show Filter Bar"
+msgstr "Amosar barra de filtráu"
+
+#: dolphinmainwindow.cpp:1684
+msgctxt "@action:inmenu Tools"
+msgid "Compare Files"
+msgstr "Comparar ficheros"
+
+#: dolphinmainwindow.cpp:1690
+msgctxt "@action:inmenu Tools"
+msgid "Open Terminal"
+msgstr "Abrir Terminal"
+
+#: dolphinmainwindow.cpp:1711
+msgctxt "@action:inmenu"
+msgid "Activate Next Tab"
+msgstr "Activar la siguiente llingüeta"
+
+#: dolphinmainwindow.cpp:1716
+msgctxt "@action:inmenu"
+msgid "Activate Previous Tab"
+msgstr "Activar la llingüeta anterior"
+
+#: dolphinmainwindow.cpp:1722
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "Abrir nuna llingüeta nueva"
+
+#: dolphinmainwindow.cpp:1727
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "Abrir en ventana nueva"
+
+#: dolphinmainwindow.cpp:1737
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu Panels"
+msgid "Unlock Panels"
+msgstr "Paneles"
+
+#: dolphinmainwindow.cpp:1739
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu Panels"
+msgid "Lock Panels"
+msgstr "Paneles"
+
+#: dolphinmainwindow.cpp:1745
+msgctxt "@title:window"
+msgid "Information"
+msgstr "Información"
+
+#: dolphinmainwindow.cpp:1766
+msgctxt "@title:window"
+msgid "Folders"
+msgstr "Carpetes"
+
+#: dolphinmainwindow.cpp:1785
+msgctxt "@title:window Shell terminal"
+msgid "Terminal"
+msgstr "Terminal"
+
+#: dolphinmainwindow.cpp:1807
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "Searching..."
+msgctxt "@title:window"
+msgid "Search"
+msgstr "Guetando..."
+
+#: dolphinmainwindow.cpp:1835
+msgctxt "@title:window"
+msgid "Places"
+msgstr "Llugares"
+
+#: dolphinmainwindow.cpp:1863
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu View"
+msgid "Panels"
+msgstr "Paneles"
+
+#: dolphinmainwindow.cpp:1937
+msgctxt "@action"
+msgid "Control"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2110
+msgctxt "@action:intoolbar Close right view"
+msgid "Close"
+msgstr "Zarrar"
+
+#: dolphinmainwindow.cpp:2111
+msgctxt "@info"
+msgid "Close right view"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2114
+msgctxt "@action:intoolbar Close left view"
+msgid "Close"
+msgstr "Zarrar"
+
+#: dolphinmainwindow.cpp:2115
+msgctxt "@info"
+msgid "Close left view"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2119
+msgctxt "@action:intoolbar Split view"
+msgid "Split"
+msgstr "Dixebrar"
+
+#: dolphinmainwindow.cpp:2120
+msgctxt "@info"
+msgid "Split view"
+msgstr "Mou de vista dixebrada"
+
+#: dolphinviewcontainer.cpp:366
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "Cargando carpeta..."
 
-#: dolphinviewcontainer.cpp:346
+#: dolphinviewcontainer.cpp:374
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -1460,27 +1762,27 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "Ordenación:"
 
-#: dolphinviewcontainer.cpp:357
+#: dolphinviewcontainer.cpp:385
 msgctxt "@info"
 msgid "Searching..."
 msgstr "Guetando..."
 
-#: dolphinviewcontainer.cpp:377
+#: dolphinviewcontainer.cpp:405
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:514
+#: dolphinviewcontainer.cpp:521
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin nun sofita páxines web, arrancóse un restolador"
 
-#: dolphinviewcontainer.cpp:526
+#: dolphinviewcontainer.cpp:535
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "Dolphin nun sofita esti protocolu, arrancóse Konqueror"
 
-#: dolphinviewcontainer.cpp:533
+#: dolphinviewcontainer.cpp:543
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Protocolu non válidu"
@@ -2000,11 +2302,6 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "Restaurar"
 
-#: dolphincontextmenu.cpp:248 dolphinmainwindow.cpp:1567
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "Crear nuevu"
-
 #: dolphincontextmenu.cpp:261
 msgctxt "@action:inmenu Add selected folder to places"
 msgid "Add to Places"
@@ -2149,303 +2446,6 @@ msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "Documentu p'abrir"
 
-#: dolphinmainwindow.cpp:334
-msgctxt "@info:status"
-msgid "Successfully copied."
-msgstr ""
-
-#: dolphinmainwindow.cpp:338
-msgctxt "@info:status"
-msgid "Successfully moved."
-msgstr ""
-
-#: dolphinmainwindow.cpp:342
-msgctxt "@info:status"
-msgid "Successfully linked."
-msgstr ""
-
-#: dolphinmainwindow.cpp:346
-msgctxt "@info:status"
-msgid "Successfully moved to trash."
-msgstr ""
-
-#: dolphinmainwindow.cpp:350
-msgctxt "@info:status"
-msgid "Successfully renamed."
-msgstr ""
-
-#: dolphinmainwindow.cpp:355
-msgctxt "@info:status"
-msgid "Created folder."
-msgstr "Carpeta criada."
-
-#: dolphinmainwindow.cpp:433
-msgctxt "@info"
-msgid "Go back"
-msgstr ""
-
-#: dolphinmainwindow.cpp:439
-msgctxt "@info"
-msgid "Go forward"
-msgstr ""
-
-#: dolphinmainwindow.cpp:601
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Confirmación"
-
-#: dolphinmainwindow.cpp:605
-msgid "C&lose Current Tab"
-msgstr "Zarrar llingüeta actua&l"
-
-#: dolphinmainwindow.cpp:613
-msgid ""
-"You have multiple tabs open in this window, are you sure you want to quit?"
-msgstr ""
-"Tienes abondes llingüetes abiertes nesta ventana, ¿tas seguru de que quies "
-"colar?"
-
-#: dolphinmainwindow.cpp:615
-msgid "Do not ask again"
-msgstr "Nun entrugar más"
-
-#: dolphinmainwindow.cpp:1219
-msgctxt "@action:inmenu"
-msgid "New Tab"
-msgstr "Nueva llingüeta"
-
-#: dolphinmainwindow.cpp:1222
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Search Bar"
-msgctxt "@action:inmenu"
-msgid "Detach Tab"
-msgstr "Barra de Restolar"
-
-#: dolphinmainwindow.cpp:1224
-msgctxt "@action:inmenu"
-msgid "Close Other Tabs"
-msgstr "Zarrar les otres llingüetes"
-
-#: dolphinmainwindow.cpp:1226
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr "Zarrar llingüeta"
-
-#: dolphinmainwindow.cpp:1452
-#, fuzzy
-#| msgid "Location"
-msgctxt "@action:inmenu"
-msgid "Location Bar"
-msgstr "Allugamientu"
-
-#: dolphinmainwindow.cpp:1460
-#, fuzzy
-#| msgid "&Go"
-msgctxt "@action:inmenu"
-msgid "Go"
-msgstr "&Dir"
-
-#: dolphinmainwindow.cpp:1470
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Tools"
-msgctxt "@action:inmenu"
-msgid "Tools"
-msgstr "Ferramientes"
-
-#: dolphinmainwindow.cpp:1484
-msgctxt "@action:inmenu"
-msgid "Help"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1574
-msgctxt "@action:inmenu File"
-msgid "New &Window"
-msgstr "Nueva &ventana"
-
-#: dolphinmainwindow.cpp:1580
-msgctxt "@action:inmenu File"
-msgid "New Tab"
-msgstr "Nueva llingüeta"
-
-#: dolphinmainwindow.cpp:1586
-msgctxt "@action:inmenu File"
-msgid "Close Tab"
-msgstr "Zarrar llingüeta"
-
-#: dolphinmainwindow.cpp:1609
-msgctxt "@action:inmenu Edit"
-msgid "Paste"
-msgstr "Apegar"
-
-#: dolphinmainwindow.cpp:1614
-msgctxt "@action:inmenu Edit"
-msgid "Select All"
-msgstr "Esbillar Too"
-
-#: dolphinmainwindow.cpp:1619 dolphinpart.cpp:164
-msgctxt "@action:inmenu Edit"
-msgid "Invert Selection"
-msgstr "Invertir la esbilla"
-
-#: dolphinmainwindow.cpp:1632
-msgctxt "@action:inmenu View"
-msgid "Reload"
-msgstr "Recargar"
-
-#: dolphinmainwindow.cpp:1638
-msgctxt "@action:inmenu View"
-msgid "Stop"
-msgstr "Parar"
-
-#: dolphinmainwindow.cpp:1639
-msgctxt "@info"
-msgid "Stop loading"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1644
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Editable Location"
-msgstr "Ubicación editable"
-
-#: dolphinmainwindow.cpp:1649
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Replace Location"
-msgstr "Trocar Ubicación"
-
-#: dolphinmainwindow.cpp:1660
-msgid "Recently Closed Tabs"
-msgstr "Llingüetes pesllaes hai poco"
-
-#: dolphinmainwindow.cpp:1666
-#, fuzzy
-#| msgid "Recently Closed Tabs"
-msgid "Empty Recently Closed Tabs"
-msgstr "Llingüetes pesllaes hai poco"
-
-#: dolphinmainwindow.cpp:1684
-msgctxt "@action:inmenu Tools"
-msgid "Show Filter Bar"
-msgstr "Amosar barra de filtráu"
-
-#: dolphinmainwindow.cpp:1690
-msgctxt "@action:inmenu Tools"
-msgid "Compare Files"
-msgstr "Comparar ficheros"
-
-#: dolphinmainwindow.cpp:1696
-msgctxt "@action:inmenu Tools"
-msgid "Open Terminal"
-msgstr "Abrir Terminal"
-
-#: dolphinmainwindow.cpp:1717
-msgctxt "@action:inmenu"
-msgid "Activate Next Tab"
-msgstr "Activar la siguiente llingüeta"
-
-#: dolphinmainwindow.cpp:1722
-msgctxt "@action:inmenu"
-msgid "Activate Previous Tab"
-msgstr "Activar la llingüeta anterior"
-
-#: dolphinmainwindow.cpp:1728
-msgctxt "@action:inmenu"
-msgid "Open in New Tab"
-msgstr "Abrir nuna llingüeta nueva"
-
-#: dolphinmainwindow.cpp:1733
-msgctxt "@action:inmenu"
-msgid "Open in New Window"
-msgstr "Abrir en ventana nueva"
-
-#: dolphinmainwindow.cpp:1743
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu Panels"
-msgid "Unlock Panels"
-msgstr "Paneles"
-
-#: dolphinmainwindow.cpp:1745
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu Panels"
-msgid "Lock Panels"
-msgstr "Paneles"
-
-#: dolphinmainwindow.cpp:1751
-msgctxt "@title:window"
-msgid "Information"
-msgstr "Información"
-
-#: dolphinmainwindow.cpp:1772
-msgctxt "@title:window"
-msgid "Folders"
-msgstr "Carpetes"
-
-#: dolphinmainwindow.cpp:1791
-msgctxt "@title:window Shell terminal"
-msgid "Terminal"
-msgstr "Terminal"
-
-#: dolphinmainwindow.cpp:1813
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "Searching..."
-msgctxt "@title:window"
-msgid "Search"
-msgstr "Guetando..."
-
-#: dolphinmainwindow.cpp:1841
-msgctxt "@title:window"
-msgid "Places"
-msgstr "Llugares"
-
-#: dolphinmainwindow.cpp:1869
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu View"
-msgid "Panels"
-msgstr "Paneles"
-
-#: dolphinmainwindow.cpp:1943
-msgctxt "@action"
-msgid "Control"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2116
-msgctxt "@action:intoolbar Close right view"
-msgid "Close"
-msgstr "Zarrar"
-
-#: dolphinmainwindow.cpp:2117
-msgctxt "@info"
-msgid "Close right view"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2120
-msgctxt "@action:intoolbar Close left view"
-msgid "Close"
-msgstr "Zarrar"
-
-#: dolphinmainwindow.cpp:2121
-msgctxt "@info"
-msgid "Close left view"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2125
-msgctxt "@action:intoolbar Split view"
-msgid "Split"
-msgstr "Dixebrar"
-
-#: dolphinmainwindow.cpp:2126
-msgctxt "@info"
-msgid "Split view"
-msgstr "Mou de vista dixebrada"
-
 #: dolphinpart.cpp:145
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type..."
@@ -2523,6 +2523,13 @@ msgstr ""
 #: dolphinpart.cpp:469
 msgid "Unselect all items matching this pattern:"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Information"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Copy Information Message"
+#~ msgstr "Información"
 
 #, fuzzy
 #~| msgctxt "@info:credit"
