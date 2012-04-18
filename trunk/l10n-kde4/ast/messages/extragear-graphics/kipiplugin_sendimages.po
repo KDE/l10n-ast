@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-07 03:29+0200\n"
+"POT-Creation-Date: 2012-04-18 03:06+0200\n"
 "PO-Revision-Date: 2010-10-25 14:23+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -19,45 +19,139 @@ msgstr ""
 "X-Launchpad-Export-Date: 2009-10-23 04:33+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
-#: sendimagesdialog.cpp:83
-msgid "Email Images Options"
-msgstr "Opciones d'unvíu d'imáxenes per corréu-e"
+#: imageresize.cpp:109
+msgid "Error opening input file"
+msgstr "Fallu al abrir el ficheru d'entrada"
 
-#: sendimagesdialog.cpp:105
-msgid "Send Images"
-msgstr "Unviar imaxes"
+#: imageresize.cpp:120
+msgid "Error opening temporary folder"
+msgstr "Fallu al abrir la carpeta temporal"
 
-#: sendimagesdialog.cpp:108
-#, fuzzy
-#| msgid "A plugin to email pictures"
-msgid "A plugin to e-mail items"
-msgstr "Un complementu pa mandar imáxenes per corréu-e"
+#: imageresize.cpp:165
+msgid "Cannot resize image. Aborting."
+msgstr "Nun pudo redimensionase la imaxe. Encaboxando."
 
-#: sendimagesdialog.cpp:109
-#, fuzzy
-#| msgid "(c) 2003-2009, Gilles Caulier"
-msgid "(c) 2003-2012, Gilles Caulier"
-msgstr "(c) 2003-2009, Gilles Caulier"
+#: imageresize.cpp:183
+msgid "Cannot save resized image (JPEG). Aborting."
+msgstr "Nun puede guardase la imaxe redimensionada (JPEG). Colando."
 
-#: sendimagesdialog.cpp:111
-msgid "Gilles Caulier"
-msgstr "Gilles Caulier"
+#: imageresize.cpp:198
+msgid "Cannot save resized image (PNG). Aborting."
+msgstr "Nun puede guardase la imaxe redimensionada (PNG). Colando."
 
-#: sendimagesdialog.cpp:111
-msgid "Author and Maintainer"
-msgstr "Autor y responsable"
+#: plugin_sendimages.cpp:88
+msgid "Email Images..."
+msgstr "Unviar imaxes per corréu electrónicu..."
 
-#: sendimagesdialog.cpp:114
-msgid "Michael Hoechstetter"
-msgstr "Michael Hoechstetter"
+#: sendimages.cpp:140
+msgid "Email images"
+msgstr "Mandar imáxenes per corréu-e"
 
-#: sendimagesdialog.cpp:114 sendimagesdialog.cpp:117
-msgid "Developer"
-msgstr "Desendolcador"
+#: sendimages.cpp:182
+msgid "Operation canceled by user"
+msgstr "Operación encaboxada pol usuariu"
 
-#: sendimagesdialog.cpp:117
-msgid "Tom Albers"
-msgstr "Tom Albers"
+#: sendimages.cpp:196
+#, kde-format
+msgid "Resizing %1"
+msgstr "Redimensionando %1"
+
+#: sendimages.cpp:209
+#, kde-format
+msgid "%1 resized successfully"
+msgstr "%1 redimensionáu correutamente"
+
+#: sendimages.cpp:218
+#, kde-format
+msgid "Failed to resize %1: %2"
+msgstr "Falló la redimensión de %1: %2"
+
+#: sendimages.cpp:253
+msgid "Build images properties file"
+msgstr "Xenerando ficheru de propiedaes de la imaxe"
+
+#: sendimages.cpp:266
+msgid "no caption"
+msgstr "ensin comentarios"
+
+#: sendimages.cpp:269
+msgid "no keywords"
+msgstr "Ensin contraseñes"
+
+#: sendimages.cpp:271
+#, kde-format
+msgid ""
+"file \"%1\":\n"
+"Original images: %2\n"
+msgstr ""
+"ficheru «%1»:\n"
+"Imáxenes orixinales: %2\n"
+
+#: sendimages.cpp:274
+#, kde-format
+msgid "Comments: %1\n"
+msgstr "Comentarios: %1\n"
+
+#: sendimages.cpp:277
+#, kde-format
+msgid "Tags: %1\n"
+msgstr "Etiquetes: %1\n"
+
+#: sendimages.cpp:280
+#, kde-format
+msgid "Rating: %1\n"
+msgstr "Tasa: %1\n"
+
+#: sendimages.cpp:285
+msgid "properties.txt"
+msgstr "propiedaes.txt"
+
+#: sendimages.cpp:294
+msgid "Image properties file done"
+msgstr "Ficheru de propiedaes d'imaxe fechu"
+
+#: sendimages.cpp:310
+msgid ""
+"The images listed below cannot be resized.\n"
+"Do you want them to be added as attachments (without resizing)?"
+msgstr ""
+"Les imáxenes llistaes darréu, nun pueden redimensionase.\n"
+"¿Quies amestales como axuntos (ensin redimensionar)?"
+
+#: sendimages.cpp:314
+msgid "Failed to resize images"
+msgstr "Fallu al redimensionar les imáxenes"
+
+#: sendimages.cpp:372
+#, kde-format
+msgid ""
+"The file \"%1\" is too big to be sent, please reduce its size or change your "
+"settings"
+msgstr ""
+"El ficheru «%1» ye enforma grande pa mandar, mengau'l tamañu o camuda la to "
+"configuración"
+
+#: sendimages.cpp:418
+msgid "Starting default KDE email program..."
+msgstr "Arrancado'l programa de corréu-e predetermináu de KDE..."
+
+#: sendimages.cpp:572
+#, kde-format
+msgid "Failed to start \"%1\" program. Check your system."
+msgstr "Falló l'arramque'l programa «%1». Comprueba'l to sistema."
+
+#: sendimages.cpp:585
+#, kde-format
+msgid "Starting \"%1\" program..."
+msgstr "Arrancando'l programa «%1»..."
+
+#: sendimages.cpp:595
+msgid "After having sent your images by email..."
+msgstr "Darréu de mandar les tos imáxenes per corréu-e..."
+
+#: sendimages.cpp:596
+msgid "Press 'Close' button to clean up temporary files"
+msgstr "Calca el  botón \"Zarrar\" pa llimpiar los ficheros temporales"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -69,136 +163,6 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 "malditoastur@gmail.com, xandru.martino@softastur.org, riel.lu@softastur.org"
-
-#: imageresize.cpp:107
-msgid "Error opening input file"
-msgstr "Fallu al abrir el ficheru d'entrada"
-
-#: imageresize.cpp:118
-msgid "Error opening temporary folder"
-msgstr "Fallu al abrir la carpeta temporal"
-
-#: imageresize.cpp:163
-msgid "Cannot resize image. Aborting."
-msgstr "Nun pudo redimensionase la imaxe. Encaboxando."
-
-#: imageresize.cpp:181
-msgid "Cannot save resized image (JPEG). Aborting."
-msgstr "Nun puede guardase la imaxe redimensionada (JPEG). Colando."
-
-#: imageresize.cpp:196
-msgid "Cannot save resized image (PNG). Aborting."
-msgstr "Nun puede guardase la imaxe redimensionada (PNG). Colando."
-
-#: sendimages.cpp:141
-msgid "Email images"
-msgstr "Mandar imáxenes per corréu-e"
-
-#: sendimages.cpp:183
-msgid "Operation canceled by user"
-msgstr "Operación encaboxada pol usuariu"
-
-#: sendimages.cpp:197
-#, kde-format
-msgid "Resizing %1"
-msgstr "Redimensionando %1"
-
-#: sendimages.cpp:210
-#, kde-format
-msgid "%1 resized successfully"
-msgstr "%1 redimensionáu correutamente"
-
-#: sendimages.cpp:219
-#, kde-format
-msgid "Failed to resize %1: %2"
-msgstr "Falló la redimensión de %1: %2"
-
-#: sendimages.cpp:256
-msgid "Build images properties file"
-msgstr "Xenerando ficheru de propiedaes de la imaxe"
-
-#: sendimages.cpp:269
-msgid "no caption"
-msgstr "ensin comentarios"
-
-#: sendimages.cpp:272
-msgid "no keywords"
-msgstr "Ensin contraseñes"
-
-#: sendimages.cpp:274
-#, kde-format
-msgid ""
-"file \"%1\":\n"
-"Original images: %2\n"
-msgstr ""
-"ficheru «%1»:\n"
-"Imáxenes orixinales: %2\n"
-
-#: sendimages.cpp:277
-#, kde-format
-msgid "Comments: %1\n"
-msgstr "Comentarios: %1\n"
-
-#: sendimages.cpp:280
-#, kde-format
-msgid "Tags: %1\n"
-msgstr "Etiquetes: %1\n"
-
-#: sendimages.cpp:283
-#, kde-format
-msgid "Rating: %1\n"
-msgstr "Tasa: %1\n"
-
-#: sendimages.cpp:288
-msgid "properties.txt"
-msgstr "propiedaes.txt"
-
-#: sendimages.cpp:297
-msgid "Image properties file done"
-msgstr "Ficheru de propiedaes d'imaxe fechu"
-
-#: sendimages.cpp:315
-msgid ""
-"The images listed below cannot be resized.\n"
-"Do you want them to be added as attachments (without resizing)?"
-msgstr ""
-"Les imáxenes llistaes darréu, nun pueden redimensionase.\n"
-"¿Quies amestales como axuntos (ensin redimensionar)?"
-
-#: sendimages.cpp:319
-msgid "Failed to resize images"
-msgstr "Fallu al redimensionar les imáxenes"
-
-#: sendimages.cpp:381
-#, kde-format
-msgid ""
-"The file \"%1\" is too big to be sent, please reduce its size or change your "
-"settings"
-msgstr ""
-"El ficheru «%1» ye enforma grande pa mandar, mengau'l tamañu o camuda la to "
-"configuración"
-
-#: sendimages.cpp:430
-msgid "Starting default KDE email program..."
-msgstr "Arrancado'l programa de corréu-e predetermináu de KDE..."
-
-#: sendimages.cpp:584
-#, kde-format
-msgid "Failed to start \"%1\" program. Check your system."
-msgstr "Falló l'arramque'l programa «%1». Comprueba'l to sistema."
-
-#: sendimages.cpp:597
-#, kde-format
-msgid "Starting \"%1\" program..."
-msgstr "Arrancando'l programa «%1»..."
-
-#: sendimages.cpp:607
-msgid "After having sent your images by email..."
-msgstr "Darréu de mandar les tos imáxenes per corréu-e..."
-
-#: sendimages.cpp:608
-msgid "Press 'Close' button to clean up temporary files"
-msgstr "Calca el  botón \"Zarrar\" pa llimpiar los ficheros temporales"
 
 #: settingswidget.cpp:88
 msgid "Mail program:"
@@ -358,9 +322,45 @@ msgstr ""
 msgid "Image quality:"
 msgstr "Calidá de la imaxe:"
 
-#: plugin_sendimages.cpp:88
-msgid "Email Images..."
-msgstr "Unviar imaxes per corréu electrónicu..."
+#: sendimagesdialog.cpp:83
+msgid "Email Images Options"
+msgstr "Opciones d'unvíu d'imáxenes per corréu-e"
+
+#: sendimagesdialog.cpp:105
+msgid "Send Images"
+msgstr "Unviar imaxes"
+
+#: sendimagesdialog.cpp:108
+#, fuzzy
+#| msgid "A plugin to email pictures"
+msgid "A plugin to e-mail items"
+msgstr "Un complementu pa mandar imáxenes per corréu-e"
+
+#: sendimagesdialog.cpp:109
+#, fuzzy
+#| msgid "(c) 2003-2009, Gilles Caulier"
+msgid "(c) 2003-2012, Gilles Caulier"
+msgstr "(c) 2003-2009, Gilles Caulier"
+
+#: sendimagesdialog.cpp:111
+msgid "Gilles Caulier"
+msgstr "Gilles Caulier"
+
+#: sendimagesdialog.cpp:111
+msgid "Author and Maintainer"
+msgstr "Autor y responsable"
+
+#: sendimagesdialog.cpp:114
+msgid "Michael Hoechstetter"
+msgstr "Michael Hoechstetter"
+
+#: sendimagesdialog.cpp:114 sendimagesdialog.cpp:117
+msgid "Developer"
+msgstr "Desendolcador"
+
+#: sendimagesdialog.cpp:117
+msgid "Tom Albers"
+msgstr "Tom Albers"
 
 #~ msgid "Handbook"
 #~ msgstr "Manual"
