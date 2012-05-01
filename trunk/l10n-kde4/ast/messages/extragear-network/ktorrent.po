@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-22 03:48+0200\n"
+"POT-Creation-Date: 2012-05-01 05:00+0200\n"
 "PO-Revision-Date: 2010-10-19 23:27+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -394,6 +394,23 @@ msgstr ""
 "El ficheru de datos nun ta presente nel allugamientu qu'escoyísti. ¿Quies "
 "criar el ficheru nel direutoriu escoyíu?"
 
+#. i18n: file: ktorrent/dialogs/pastedlgbase.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, PasteDlgBase)
+#: ktorrent/dialogs/pastedialog.cpp:38 rc.cpp:41
+msgid "Open an URL"
+msgstr "Abrir un URL"
+
+#: ktorrent/dialogs/pastedialog.cpp:62 ktorrent/dialogs/fileselectdlg.cpp:430
+#: ktorrent/dialogs/torrentcreatordlg.cpp:118 libktcore/groups/allgroup.cpp:26
+msgid "All Torrents"
+msgstr "Tolos torrents"
+
+#: ktorrent/dialogs/pastedialog.cpp:106
+#: ktorrent/dialogs/torrentcreatordlg.cpp:252 ktorrent/gui.cpp:339
+#, kde-format
+msgid "Invalid URL: %1"
+msgstr "URL nun válidu: %1"
+
 #: ktorrent/dialogs/fileselectdlg.cpp:89
 msgid "Show a file tree"
 msgstr "Amuesa un árbol de ficheru"
@@ -462,11 +479,6 @@ msgid ""
 "Please select a different location."
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:430 ktorrent/dialogs/pastedialog.cpp:62
-#: ktorrent/dialogs/torrentcreatordlg.cpp:118 libktcore/groups/allgroup.cpp:26
-msgid "All Torrents"
-msgstr "Tolos torrents"
-
 #: ktorrent/dialogs/fileselectdlg.cpp:507
 msgid "<b>Unable to determine free space</b>"
 msgstr ""
@@ -508,18 +520,6 @@ msgstr "Ficheru esistente: <b>Sí</b>"
 #| msgid "Clear Search History"
 msgid "Clear History"
 msgstr "Llimpiar l'hestorial de guetes"
-
-#. i18n: file: ktorrent/dialogs/pastedlgbase.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, PasteDlgBase)
-#: ktorrent/dialogs/pastedialog.cpp:38 rc.cpp:41
-msgid "Open an URL"
-msgstr "Abrir un URL"
-
-#: ktorrent/dialogs/pastedialog.cpp:106
-#: ktorrent/dialogs/torrentcreatordlg.cpp:252 ktorrent/gui.cpp:339
-#, kde-format
-msgid "Invalid URL: %1"
-msgstr "URL nun válidu: %1"
 
 #: ktorrent/dialogs/torrentcreatordlg.cpp:44
 msgid "Create A Torrent"
@@ -802,27 +802,11 @@ msgstr "Baxando"
 msgid "Stopped"
 msgstr "Deteniu"
 
-#: ktorrent/tools/magnetview.cpp:42
-#, fuzzy
-#| msgid "Start torrent"
-msgid "Start Magnet"
-msgstr "Entamar el torrent"
-
-#: ktorrent/tools/magnetview.cpp:43
-msgid "Stop Magnet"
-msgstr ""
-
-#: ktorrent/tools/magnetview.cpp:45
-#, fuzzy
-#| msgid "Remove Torrent"
-msgid "Remove Magnet"
-msgstr "Desaniciar el torrent"
-
 #: ktorrent/tools/queuemanagermodel.cpp:193
 msgid "Order"
 msgstr "Orde"
 
-#: ktorrent/tools/queuemanagermodel.cpp:195 ktorrent/view/viewmodel.cpp:500
+#: ktorrent/tools/queuemanagermodel.cpp:195 ktorrent/view/viewmodel.cpp:495
 #: plugins/downloadorder/downloadorderdialog.cpp:80
 msgid "Name"
 msgstr "Nome"
@@ -863,6 +847,22 @@ msgstr ""
 "Orde d'un torrent na cola.\n"
 "Suelta y arrastra, o usa los botones de xubir y baxar de la drecha pa "
 "camudar l'orde."
+
+#: ktorrent/tools/magnetview.cpp:43
+#, fuzzy
+#| msgid "Start torrent"
+msgid "Start Magnet"
+msgstr "Entamar el torrent"
+
+#: ktorrent/tools/magnetview.cpp:44
+msgid "Stop Magnet"
+msgstr ""
+
+#: ktorrent/tools/magnetview.cpp:46
+#, fuzzy
+#| msgid "Remove Torrent"
+msgid "Remove Magnet"
+msgstr "Desaniciar el torrent"
 
 #: ktorrent/view/propertiesdlg.cpp:34
 #, fuzzy
@@ -1089,109 +1089,109 @@ msgstr "Desaniciar el torrent"
 msgid "Select a directory to move the data to."
 msgstr "Escueyi un direutoriu al que mover los datos."
 
-#: ktorrent/view/viewmodel.cpp:501 plugins/infowidget/peerviewmodel.cpp:266
+#: ktorrent/view/viewmodel.cpp:496 plugins/infowidget/peerviewmodel.cpp:266
 #: plugins/infowidget/webseedsmodel.cpp:126
 msgid "Downloaded"
 msgstr "Baxáu"
 
-#: ktorrent/view/viewmodel.cpp:502
+#: ktorrent/view/viewmodel.cpp:497
 #: libktcore/torrent/torrentfilelistmodel.cpp:77
 #: libktcore/torrent/torrentfiletreemodel.cpp:400
 msgid "Size"
 msgstr "Tamañu"
 
-#: ktorrent/view/viewmodel.cpp:503 plugins/infowidget/peerviewmodel.cpp:267
+#: ktorrent/view/viewmodel.cpp:498 plugins/infowidget/peerviewmodel.cpp:267
 msgid "Uploaded"
 msgstr "Unviáu"
 
-#: ktorrent/view/viewmodel.cpp:504
+#: ktorrent/view/viewmodel.cpp:499
 #, fuzzy
 #| msgid "Left:"
 msgctxt "Bytes left to downloaded"
 msgid "Left"
 msgstr "Queda:"
 
-#: ktorrent/view/viewmodel.cpp:505 plugins/infowidget/peerviewmodel.cpp:257
+#: ktorrent/view/viewmodel.cpp:500 plugins/infowidget/peerviewmodel.cpp:257
 #: plugins/infowidget/chunkdownloadmodel.cpp:200
 msgid "Down Speed"
 msgstr "Velocidá de baxada"
 
-#: ktorrent/view/viewmodel.cpp:506 plugins/infowidget/peerviewmodel.cpp:258
+#: ktorrent/view/viewmodel.cpp:501 plugins/infowidget/peerviewmodel.cpp:258
 msgid "Up Speed"
 msgstr "Velocidá d'unvíu"
 
-#: ktorrent/view/viewmodel.cpp:507
+#: ktorrent/view/viewmodel.cpp:502
 msgid "Time Left"
 msgstr "Tiempu restante"
 
-#: ktorrent/view/viewmodel.cpp:508 plugins/infowidget/trackermodel.cpp:149
+#: ktorrent/view/viewmodel.cpp:503 plugins/infowidget/trackermodel.cpp:149
 msgid "Seeders"
 msgstr "Semadores"
 
-#: ktorrent/view/viewmodel.cpp:509 plugins/infowidget/trackermodel.cpp:150
+#: ktorrent/view/viewmodel.cpp:504 plugins/infowidget/trackermodel.cpp:150
 msgid "Leechers"
 msgstr "Sanguixueles"
 
-#: ktorrent/view/viewmodel.cpp:511
+#: ktorrent/view/viewmodel.cpp:506
 #, no-c-format
 msgid "% Complete"
 msgstr "% completáu"
 
-#: ktorrent/view/viewmodel.cpp:512
+#: ktorrent/view/viewmodel.cpp:507
 msgid "Share Ratio"
 msgstr "Proporción de compartición"
 
-#: ktorrent/view/viewmodel.cpp:513
+#: ktorrent/view/viewmodel.cpp:508
 msgid "Time Downloaded"
 msgstr "Tiempu de baxada"
 
-#: ktorrent/view/viewmodel.cpp:514
+#: ktorrent/view/viewmodel.cpp:509
 msgid "Time Seeded"
 msgstr "Tiempu de siema"
 
-#: ktorrent/view/viewmodel.cpp:515
+#: ktorrent/view/viewmodel.cpp:510
 msgid "Location"
 msgstr "Allugamientu"
 
-#: ktorrent/view/viewmodel.cpp:516
+#: ktorrent/view/viewmodel.cpp:511
 #, fuzzy
 #| msgid "Add Feed"
 msgid "Added"
 msgstr "Amestar una fonte"
 
-#: ktorrent/view/viewmodel.cpp:524
+#: ktorrent/view/viewmodel.cpp:519
 msgid "How much data we have downloaded of the torrent"
 msgstr "Cuántos datos se baxaron del torrent"
 
-#: ktorrent/view/viewmodel.cpp:525
+#: ktorrent/view/viewmodel.cpp:520
 msgid "Total size of the torrent, excluded files are not included"
 msgstr "Tamañu total del torrent, ensin incluyir los ficheros excluyíos"
 
-#: ktorrent/view/viewmodel.cpp:526
+#: ktorrent/view/viewmodel.cpp:521
 msgid "How much data we have uploaded"
 msgstr "Cuántos datos s'unviaron"
 
-#: ktorrent/view/viewmodel.cpp:527
+#: ktorrent/view/viewmodel.cpp:522
 #, fuzzy
 #| msgid "How much data we have uploaded"
 msgid "How much data left to download"
 msgstr "Cuántos datos s'unviaron"
 
-#: ktorrent/view/viewmodel.cpp:528
+#: ktorrent/view/viewmodel.cpp:523
 msgid "Current download speed"
 msgstr "Velocidá actual de baxada"
 
-#: ktorrent/view/viewmodel.cpp:529
+#: ktorrent/view/viewmodel.cpp:524
 msgid "Current upload speed"
 msgstr "Velocidá actual d'unvíu"
 
-#: ktorrent/view/viewmodel.cpp:530
+#: ktorrent/view/viewmodel.cpp:525
 msgid ""
 "How much time is left before the torrent is finished or before the maximum "
 "share ratio is reached, if that is enabled"
 msgstr "Cuántu tiempu queda pa que fine'l torrent"
 
-#: ktorrent/view/viewmodel.cpp:531
+#: ktorrent/view/viewmodel.cpp:526
 msgid ""
 "How many seeders we are connected to (How many seeders there are according "
 "to the tracker)"
@@ -1199,7 +1199,7 @@ msgstr ""
 "A cuántos semadores tas coneutáu (cuántos semadores hai según el "
 "llocalizador)"
 
-#: ktorrent/view/viewmodel.cpp:532
+#: ktorrent/view/viewmodel.cpp:527
 msgid ""
 "How many leechers we are connected to (How many leechers there are according "
 "to the tracker)"
@@ -1207,7 +1207,7 @@ msgstr ""
 "A cuántes sanguixueles tas conectáu (Cuántes sanguixueles hai según el "
 "llocalizador)"
 
-#: ktorrent/view/viewmodel.cpp:534
+#: ktorrent/view/viewmodel.cpp:529
 #, no-c-format
 msgid ""
 "The percentage of data we have of the whole torrent, not including excluded "
@@ -1216,7 +1216,7 @@ msgstr ""
 "El porcentaxe de datos que s'obtúvo del torrent completu, ensin incluyir los "
 "ficheros excluyíos"
 
-#: ktorrent/view/viewmodel.cpp:535
+#: ktorrent/view/viewmodel.cpp:530
 msgid ""
 "Share ratio is the number of bytes uploaded divided by the number of bytes "
 "downloaded"
@@ -1224,30 +1224,30 @@ msgstr ""
 "La proporción de compartición ye'l númberu de bytes unviaos dividíu pol "
 "númberu de bytes baxaos"
 
-#: ktorrent/view/viewmodel.cpp:536
+#: ktorrent/view/viewmodel.cpp:531
 msgid "How long we have been downloading the torrent"
 msgstr "Durante cuántu tiempu tuvo baxádose'l torrent"
 
-#: ktorrent/view/viewmodel.cpp:537
+#: ktorrent/view/viewmodel.cpp:532
 msgid "How long we have been seeding the torrent"
 msgstr "Durante cuántu tiempu semóse'l torrent"
 
-#: ktorrent/view/viewmodel.cpp:538
+#: ktorrent/view/viewmodel.cpp:533
 msgid "The location of the torrent's data on disk"
 msgstr "L'allugamientu de los datos del torrent nel discu"
 
-#: ktorrent/view/viewmodel.cpp:539
+#: ktorrent/view/viewmodel.cpp:534
 #, fuzzy
 #| msgid "No torrents loaded."
 msgid "When this torrent was added"
 msgstr "Nun hai cargáu dengún torrent."
 
-#: ktorrent/view/viewmodel.cpp:588
+#: ktorrent/view/viewmodel.cpp:583
 #, kde-format
 msgid "%1<br>Url: <b>%2</b>"
 msgstr "%1<br>URL: <b>%2</b>"
 
-#: ktorrent/view/viewmodel.cpp:594
+#: ktorrent/view/viewmodel.cpp:589
 msgid "<br/><br/>Unable to contact a tracker."
 msgstr ""
 
