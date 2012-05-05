@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-07 03:24+0200\n"
+"POT-Creation-Date: 2012-05-05 02:54+0200\n"
 "PO-Revision-Date: 2010-10-19 22:05+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -18,14 +18,6 @@ msgstr ""
 "X-Launchpad-Export-Date: 2009-10-23 01:06+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#: scangui.cpp:72 plugin_acquireimages.cpp:118
-msgid "Cannot open scanner device."
-msgstr "Nun puede abrise'l preséu escáner."
-
-#: plugin_acquireimages.cpp:76
-msgid "Import from Scanner..."
-msgstr "Importar dende Scanner..."
 
 #: aboutdata.h:41
 msgid "Acquire images"
@@ -61,20 +53,28 @@ msgstr "Desendolcador"
 msgid "Angelo Naselli"
 msgstr "Angelo Naselli"
 
-#: scandialog.cpp:94
+#: plugin_acquireimages.cpp:76
+msgid "Import from Scanner..."
+msgstr "Importar dende Scanner..."
+
+#: plugin_acquireimages.cpp:118 scangui.cpp:72
+msgid "Cannot open scanner device."
+msgstr "Nun puede abrise'l preséu escáner."
+
+#: scandialog.cpp:89
 msgid "Scan Image"
 msgstr "Dixitalizar la imaxe"
 
-#: scandialog.cpp:167
+#: scandialog.cpp:162
 msgid "New Image File Name"
 msgstr "Nome del ficheru de la nueva imaxe"
 
-#: scandialog.cpp:202
+#: scandialog.cpp:198
 #, kde-format
 msgid "The target image file format \"%1\" is unsupported."
 msgstr "El formatu «%1» del ficheru de la imaxe de destín nun se soporta."
 
-#: scandialog.cpp:211
+#: scandialog.cpp:207
 #, kde-format
 msgid ""
 "Failed to save file\n"
@@ -85,17 +85,17 @@ msgstr ""
 "«%1» a\n"
 "«%2»."
 
-#: scandialog.cpp:223
+#: scandialog.cpp:219
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "Un ficheru col nome  «%1»  yá esiste. ¿Daveres quies trocalu?"
 
-#: scandialog.cpp:227
+#: scandialog.cpp:223
 msgid "Overwrite File?"
 msgstr "¿Sobrescribir el ficheru?"
 
-#: scandialog.cpp:255
+#: scandialog.cpp:251
 #, kde-format
 msgid "Cannot save \"%1\" file"
 msgstr "Nun puede guardase'l ficheru \"%1\""
