@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-11 03:58+0200\n"
+"POT-Creation-Date: 2012-06-09 04:14+0200\n"
 "PO-Revision-Date: 2009-12-18 18:26+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -203,24 +203,24 @@ msgstr "Nun pudó escribise'l caberu bloque nel ficheru DND: %1"
 msgid "Unable to write to a piece mapped read only"
 msgstr ""
 
-#: src/diskio/cache.cpp:169 src/diskio/multifilecache.cpp:118
-#: src/diskio/singlefilecache.cpp:85
-#, fuzzy, kde-format
-#| msgid "Failed to create %1 : %2"
-msgid "Failed to create %1: %2"
-msgstr "Fallu al criar %1: %2"
-
-#: src/diskio/chunkmanager.cpp:930 src/diskio/chunkmanager.cpp:956
-#, fuzzy, kde-format
-#| msgid "Cannot open index file %1 : %2"
-msgid "Cannot open index file %1: %2"
-msgstr "Nun puede abrise'l ficheru índiz %1: %2"
-
 #: src/diskio/multifilecache.cpp:91 src/diskio/singlefilecache.cpp:74
 #, fuzzy, kde-format
 #| msgid "Failed to open %1 : %2"
 msgid "Failed to open %1: %2"
 msgstr "Fallu al abrir %1: %2"
+
+#: src/diskio/multifilecache.cpp:118 src/diskio/singlefilecache.cpp:85
+#: src/diskio/cache.cpp:170
+#, fuzzy, kde-format
+#| msgid "Failed to create %1 : %2"
+msgid "Failed to create %1: %2"
+msgstr "Fallu al criar %1: %2"
+
+#: src/diskio/chunkmanager.cpp:936 src/diskio/chunkmanager.cpp:962
+#, fuzzy, kde-format
+#| msgid "Cannot open index file %1 : %2"
+msgid "Cannot open index file %1: %2"
+msgstr "Nun puede abrise'l ficheru índiz %1: %2"
 
 #: src/download/chunkdownload.cpp:383
 #, kde-format
@@ -545,6 +545,28 @@ msgstr "Entrada/Salida de discu"
 msgid "µTP"
 msgstr ""
 
+#: src/util/functions.cpp:234
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/util/functions.cpp:245
+#, kde-format
+msgid "1 day "
+msgid_plural "%1 days "
+msgstr[0] "1 día "
+msgstr[1] "%1 díes "
+
+#: src/util/signalcatcher.cpp:80
+msgid "Error when writing to disk"
+msgstr ""
+
+#: src/util/signalcatcher.cpp:80
+#, fuzzy
+#| msgid "Error reading from %1"
+msgid "Error when reading from disk"
+msgstr "Fallu al lleer de %1"
+
 #: src/util/fileops.cpp:94
 #, kde-format
 msgid "Cannot create directory %1"
@@ -597,28 +619,6 @@ msgstr "Nun puede espandese'l ficheru: %1"
 #| msgid "Cannot seek in file : %1"
 msgid "Cannot seek in file: %1"
 msgstr "Nun puede guetase nel ficheru: %1"
-
-#: src/util/functions.cpp:234
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/util/functions.cpp:245
-#, kde-format
-msgid "1 day "
-msgid_plural "%1 days "
-msgstr[0] "1 día "
-msgstr[1] "%1 díes "
-
-#: src/util/signalcatcher.cpp:80
-msgid "Error when writing to disk"
-msgstr ""
-
-#: src/util/signalcatcher.cpp:80
-#, fuzzy
-#| msgid "Error reading from %1"
-msgid "Error when reading from disk"
-msgstr "Fallu al lleer de %1"
 
 #~ msgid "Parse Error"
 #~ msgstr "Fallu d'analís"
