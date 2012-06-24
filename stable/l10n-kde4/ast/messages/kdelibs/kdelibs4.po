@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4-1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-19 19:42+0200\n"
+"POT-Creation-Date: 2012-06-24 12:03+0200\n"
 "PO-Revision-Date: 2010-05-19 18:48+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -4984,54 +4984,6 @@ msgstr "Fallu de socket desconocíu"
 msgid "Operation not supported"
 msgstr "Operación non sofitada"
 
-#: kdecore/network/netsupp.cpp:891 kdecore/network/k3resolver.cpp:545
-msgid "no error"
-msgstr "ensin error"
-
-#: kdecore/network/netsupp.cpp:892
-msgid "address family for nodename not supported"
-msgstr "familia de direiciones pal nodu nun soportada"
-
-#: kdecore/network/netsupp.cpp:893 kdecore/network/k3resolver.cpp:547
-msgid "temporary failure in name resolution"
-msgstr "fallu temporal na resolución de nomes"
-
-#: kdecore/network/netsupp.cpp:894
-msgid "invalid value for 'ai_flags'"
-msgstr "valor inválidu pa 'ai_flags'"
-
-#: kdecore/network/netsupp.cpp:895 kdecore/network/k3resolver.cpp:548
-msgid "non-recoverable failure in name resolution"
-msgstr "fallu nun recuperable na resolución de nomes"
-
-#: kdecore/network/netsupp.cpp:896
-msgid "'ai_family' not supported"
-msgstr "'ai_family' nun soportáu"
-
-#: kdecore/network/netsupp.cpp:897 kdecore/network/k3resolver.cpp:550
-msgid "memory allocation failure"
-msgstr "fallu d'asignación de memoria"
-
-#: kdecore/network/netsupp.cpp:898
-msgid "no address associated with nodename"
-msgstr "nun hai direición asociada col nodu"
-
-#: kdecore/network/netsupp.cpp:899 kdecore/network/k3resolver.cpp:551
-msgid "name or service not known"
-msgstr "nome o serviciu desconocíos"
-
-#: kdecore/network/netsupp.cpp:900
-msgid "servname not supported for ai_socktype"
-msgstr "nome de sirvidor nun soportáu pa ai_socktype"
-
-#: kdecore/network/netsupp.cpp:901
-msgid "'ai_socktype' not supported"
-msgstr "'ai_socktype' nun soportáu"
-
-#: kdecore/network/netsupp.cpp:902
-msgid "system error"
-msgstr "error del sistema"
-
 #: kdecore/network/k3socks.cpp:137
 msgid "NEC SOCKS client"
 msgstr "Cliente SOCKS NEC"
@@ -5045,13 +4997,33 @@ msgstr "Cliente SOCKS Dante"
 msgid "Timed out trying to connect to remote host"
 msgstr "Pasó'l tiempu llende intentando coneutar a la máquina remota"
 
+#: kdecore/network/k3resolver.cpp:545 kdecore/network/netsupp.cpp:894
+msgid "no error"
+msgstr "ensin error"
+
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
 msgstr "familia solicita nun soportada pa esti nome de sirvidor"
 
+#: kdecore/network/k3resolver.cpp:547 kdecore/network/netsupp.cpp:896
+msgid "temporary failure in name resolution"
+msgstr "fallu temporal na resolución de nomes"
+
+#: kdecore/network/k3resolver.cpp:548 kdecore/network/netsupp.cpp:898
+msgid "non-recoverable failure in name resolution"
+msgstr "fallu nun recuperable na resolución de nomes"
+
 #: kdecore/network/k3resolver.cpp:549
 msgid "invalid flags"
 msgstr "banderes inválides"
+
+#: kdecore/network/k3resolver.cpp:550 kdecore/network/netsupp.cpp:900
+msgid "memory allocation failure"
+msgstr "fallu d'asignación de memoria"
+
+#: kdecore/network/k3resolver.cpp:551 kdecore/network/netsupp.cpp:902
+msgid "name or service not known"
+msgstr "nome o serviciu desconocíos"
 
 #: kdecore/network/k3resolver.cpp:552
 msgid "requested family not supported"
@@ -5155,6 +5127,34 @@ msgstr "La cadena de certificaos ye demasiao llarga"
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "Error desconocíu"
+
+#: kdecore/network/netsupp.cpp:895
+msgid "address family for nodename not supported"
+msgstr "familia de direiciones pal nodu nun soportada"
+
+#: kdecore/network/netsupp.cpp:897
+msgid "invalid value for 'ai_flags'"
+msgstr "valor inválidu pa 'ai_flags'"
+
+#: kdecore/network/netsupp.cpp:899
+msgid "'ai_family' not supported"
+msgstr "'ai_family' nun soportáu"
+
+#: kdecore/network/netsupp.cpp:901
+msgid "no address associated with nodename"
+msgstr "nun hai direición asociada col nodu"
+
+#: kdecore/network/netsupp.cpp:903
+msgid "servname not supported for ai_socktype"
+msgstr "nome de sirvidor nun soportáu pa ai_socktype"
+
+#: kdecore/network/netsupp.cpp:904
+msgid "'ai_socktype' not supported"
+msgstr "'ai_socktype' nun soportáu"
+
+#: kdecore/network/netsupp.cpp:905
+msgid "system error"
+msgstr "error del sistema"
 
 #: kdecore/services/kmimetyperepository.cpp:611
 #, kde-format
@@ -5453,21 +5453,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Deteutar automáticamente"
 
-#: kdeui/actions/kaction.cpp:122
-#, kde-format
-msgid ""
-"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
-"from the 'Settings' menu to solve the ambiguity.\n"
-"No action will be triggered."
-msgstr ""
-"La secuencia de tecles «%1» ye ambigua. Use «Configurar accesos rápidos»\n"
-"nel menú «Preferencies» pa iguar l'ambigüedá.\n"
-"Nun s'executará denguna aición."
-
-#: kdeui/actions/kaction.cpp:126
-msgid "Ambiguous shortcut detected"
-msgstr "Deteutóse un accesu rápidu ambiguu"
-
 #: kdeui/actions/krecentfilesaction.cpp:81
 msgid "No Entries"
 msgstr "Ensin Entraes"
@@ -5562,6 +5547,21 @@ msgstr "Pantalla Completa"
 msgctxt "@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#: kdeui/actions/kaction.cpp:122
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+"La secuencia de tecles «%1» ye ambigua. Use «Configurar accesos rápidos»\n"
+"nel menú «Preferencies» pa iguar l'ambigüedá.\n"
+"Nun s'executará denguna aición."
+
+#: kdeui/actions/kaction.cpp:126
+msgid "Ambiguous shortcut detected"
+msgstr "Deteutóse un accesu rápidu ambiguu"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
 msgid ""
