@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackgekit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-15 04:23+0200\n"
+"POT-Creation-Date: 2012-07-04 04:44+0200\n"
 "PO-Revision-Date: 2010-10-25 20:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -30,9 +30,9 @@ msgstr "Instalando ficheru"
 msgid "%1 has been installed successfully!"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:107 libapper/PkTransaction.cpp:129
-#: libapper/PkTransaction.cpp:151 libapper/PkTransaction.cpp:174
-#: libapper/PkTransaction.cpp:195
+#: AppSetup/SetupWizard.cpp:107 libapper/PkTransaction.cpp:128
+#: libapper/PkTransaction.cpp:149 libapper/PkTransaction.cpp:171
+#: libapper/PkTransaction.cpp:191
 msgid "Error"
 msgstr ""
 
@@ -680,6 +680,44 @@ msgid "The distribution upgrade process failed with an unknown error."
 msgstr ""
 "El procesu d'anovamientu de la distribución falló con un fallu desconocíu."
 
+#: ApperKCM/Updater/Updater.cpp:117
+msgid "Show Current Versions"
+msgstr ""
+
+#: ApperKCM/Updater/Updater.cpp:255
+#, kde-format
+msgid "Estimated download size: %1"
+msgstr ""
+
+#: ApperKCM/Updater/Updater.cpp:292
+msgid "Your system is up to date"
+msgstr ""
+
+#: ApperKCM/Updater/Updater.cpp:293 ApperKCM/Updater/Updater.cpp:297
+#, kde-format
+msgid "Verified %1 ago"
+msgstr ""
+
+#: ApperKCM/Updater/Updater.cpp:296
+#, fuzzy
+#| msgid "No packages to update"
+msgid "You have no updates"
+msgstr "Nun hai paquetes p'anovar"
+
+#: ApperKCM/Updater/Updater.cpp:300
+msgid "Last check for updates was more than a month ago"
+msgstr ""
+
+#: ApperKCM/Updater/Updater.cpp:301
+msgid "It's strongly recommended that you check for new updates now"
+msgstr ""
+
+#. i18n: file: ApperKCM/ApperKCM.ui:230
+#. i18n: ectx: property (text), widget (QPushButton, checkUpdatesPB)
+#: ApperKCM/Updater/Updater.cpp:396 rc.cpp:143
+msgid "Check for new Updates"
+msgstr ""
+
 #: ApperKCM/Updater/UpdateDetails.cpp:177
 msgid "This update will add new features and expand functionality."
 msgstr ""
@@ -781,44 +819,6 @@ msgstr ""
 #: ApperKCM/Updater/UpdateDetails.cpp:330
 msgid "No update description was found."
 msgstr "Nun s'alcontró descripción del anovamientu."
-
-#: ApperKCM/Updater/Updater.cpp:117
-msgid "Show Current Versions"
-msgstr ""
-
-#: ApperKCM/Updater/Updater.cpp:255
-#, kde-format
-msgid "Estimated download size: %1"
-msgstr ""
-
-#: ApperKCM/Updater/Updater.cpp:292
-msgid "Your system is up to date"
-msgstr ""
-
-#: ApperKCM/Updater/Updater.cpp:293 ApperKCM/Updater/Updater.cpp:297
-#, kde-format
-msgid "Verified %1 ago"
-msgstr ""
-
-#: ApperKCM/Updater/Updater.cpp:296
-#, fuzzy
-#| msgid "No packages to update"
-msgid "You have no updates"
-msgstr "Nun hai paquetes p'anovar"
-
-#: ApperKCM/Updater/Updater.cpp:300
-msgid "Last check for updates was more than a month ago"
-msgstr ""
-
-#: ApperKCM/Updater/Updater.cpp:301
-msgid "It's strongly recommended that you check for new updates now"
-msgstr ""
-
-#. i18n: file: ApperKCM/ApperKCM.ui:230
-#. i18n: ectx: property (text), widget (QPushButton, checkUpdatesPB)
-#: ApperKCM/Updater/Updater.cpp:396 rc.cpp:143
-msgid "Check for new Updates"
-msgstr ""
 
 #: Sentinel/DistroUpgrade.cpp:69
 msgid "Start upgrade now"
@@ -1281,7 +1281,7 @@ msgstr[1] "fallu al instalar el paquete"
 msgid "Failed to start search file transaction"
 msgstr ""
 
-#: Sentinel/PkInstallProvideFiles.cpp:101 libapper/PkTransaction.cpp:257
+#: Sentinel/PkInstallProvideFiles.cpp:101 libapper/PkTransaction.cpp:253
 msgid "Failed to install file"
 msgid_plural "Failed to install files"
 msgstr[0] ""
@@ -1598,7 +1598,7 @@ msgstr "Llicencia requería pa %1 por %2"
 msgid "Name"
 msgstr "Xuegos"
 
-#: libapper/PackageModel.cpp:184 libapper/SimulateModel.cpp:141
+#: libapper/PackageModel.cpp:184 libapper/SimulateModel.cpp:140
 msgid "Version"
 msgstr ""
 
@@ -2433,7 +2433,7 @@ msgstr "El paquete ye incompatible con esti sistema"
 msgid "No space is left on the disk"
 msgstr "Nun hai espaciu nel discu"
 
-#: libapper/PkStrings.cpp:460 libapper/PkTransaction.cpp:570
+#: libapper/PkStrings.cpp:460 libapper/PkTransaction.cpp:566
 msgid "A media change is required"
 msgstr "Requierse un cambéu de mediu"
 
@@ -3337,87 +3337,6 @@ msgstr ""
 msgid "An unknown error happened."
 msgstr ""
 
-#: libapper/PkTransaction.cpp:125
-#, fuzzy
-#| msgid "Failed to remove package"
-msgid "Failed to simulate file install"
-msgstr "Fallu al desaniciar el paquete"
-
-#: libapper/PkTransaction.cpp:129
-#, fuzzy
-#| msgid "Current backend does not support installing packages."
-msgid "Current backend does not support installing files."
-msgstr "El motor actual nun permite instalar paquetes."
-
-#: libapper/PkTransaction.cpp:147
-msgid "Failed to simulate package install"
-msgstr ""
-
-#: libapper/PkTransaction.cpp:151
-msgid "Current backend does not support installing packages."
-msgstr "El motor actual nun permite instalar paquetes."
-
-#: libapper/PkTransaction.cpp:170
-msgid "Failed to simulate package removal"
-msgstr ""
-
-#: libapper/PkTransaction.cpp:174
-msgid "The current backend does not support removing packages."
-msgstr "El motor actual nun permite desaniciar paquetes."
-
-#: libapper/PkTransaction.cpp:191
-#, fuzzy
-#| msgid "Failed to remove package"
-msgid "Failed to simulate package update"
-msgstr "Fallu al desaniciar el paquete"
-
-#: libapper/PkTransaction.cpp:195
-#, fuzzy
-#| msgid "The current backend does not support removing packages."
-msgid "The current backend does not support updating packages."
-msgstr "El motor actual nun permite desaniciar paquetes."
-
-#: libapper/PkTransaction.cpp:205
-#, fuzzy
-#| msgid "Failed to remove package"
-msgid "Failed to refresh package cache"
-msgstr "Fallu al desaniciar el paquete"
-
-#: libapper/PkTransaction.cpp:245
-msgid "Failed to install package"
-msgstr "fallu al instalar el paquete"
-
-#: libapper/PkTransaction.cpp:270
-msgid "Failed to remove package"
-msgstr "Fallu al desaniciar el paquete"
-
-#: libapper/PkTransaction.cpp:282
-#, fuzzy
-#| msgid "Failed to remove package"
-msgid "Failed to update package"
-msgstr "Fallu al desaniciar el paquete"
-
-#: libapper/PkTransaction.cpp:450
-#, kde-format
-msgid "Downloading packages at %1/s"
-msgstr ""
-
-#: libapper/PkTransaction.cpp:498
-msgid ""
-"You are about to install unsigned packages that can compromise your system, "
-"as it is impossible to verify if the software came from a trusted source.\n"
-"\n"
-"Are you sure you want to proceed with the installation?"
-msgstr ""
-
-#: libapper/PkTransaction.cpp:501
-msgid "Installing unsigned software"
-msgstr "Instalando software non robláu"
-
-#: libapper/PkTransaction.cpp:555 libapper/PkTransaction.cpp:609
-msgid "Failed to install signature"
-msgstr ""
-
 #: libapper/PkTransactionDialog.cpp:88
 msgid ""
 "Allows you to hide the window whilst keeping the transaction task running."
@@ -3469,7 +3388,102 @@ msgid_plural "%1 packages to update"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libapper/SimulateModel.cpp:139
+#: libapper/PkTransaction.cpp:124
+#, fuzzy
+#| msgid "Failed to remove package"
+msgid "Failed to simulate file install"
+msgstr "Fallu al desaniciar el paquete"
+
+#: libapper/PkTransaction.cpp:128
+#, fuzzy
+#| msgid "Current backend does not support installing packages."
+msgid "Current backend does not support installing files."
+msgstr "El motor actual nun permite instalar paquetes."
+
+#: libapper/PkTransaction.cpp:145
+msgid "Failed to simulate package install"
+msgstr ""
+
+#: libapper/PkTransaction.cpp:149
+msgid "Current backend does not support installing packages."
+msgstr "El motor actual nun permite instalar paquetes."
+
+#: libapper/PkTransaction.cpp:167
+msgid "Failed to simulate package removal"
+msgstr ""
+
+#: libapper/PkTransaction.cpp:171
+msgid "The current backend does not support removing packages."
+msgstr "El motor actual nun permite desaniciar paquetes."
+
+#: libapper/PkTransaction.cpp:187
+#, fuzzy
+#| msgid "Failed to remove package"
+msgid "Failed to simulate package update"
+msgstr "Fallu al desaniciar el paquete"
+
+#: libapper/PkTransaction.cpp:191
+#, fuzzy
+#| msgid "The current backend does not support removing packages."
+msgid "The current backend does not support updating packages."
+msgstr "El motor actual nun permite desaniciar paquetes."
+
+#: libapper/PkTransaction.cpp:201
+#, fuzzy
+#| msgid "Failed to remove package"
+msgid "Failed to refresh package cache"
+msgstr "Fallu al desaniciar el paquete"
+
+#: libapper/PkTransaction.cpp:241
+msgid "Failed to install package"
+msgstr "fallu al instalar el paquete"
+
+#: libapper/PkTransaction.cpp:266
+msgid "Failed to remove package"
+msgstr "Fallu al desaniciar el paquete"
+
+#: libapper/PkTransaction.cpp:278
+#, fuzzy
+#| msgid "Failed to remove package"
+msgid "Failed to update package"
+msgstr "Fallu al desaniciar el paquete"
+
+#: libapper/PkTransaction.cpp:439
+#, fuzzy, kde-format
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Downloading packages"
+msgid "Downloading packages at %1/s, %2 remaining"
+msgstr "Baxando paquetes"
+
+#: libapper/PkTransaction.cpp:443
+#, kde-format
+msgid "Downloading packages at %1/s"
+msgstr ""
+
+#: libapper/PkTransaction.cpp:446
+#, fuzzy, kde-format
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Downloading packages"
+msgid "Downloading packages, %1 remaining"
+msgstr "Baxando paquetes"
+
+#: libapper/PkTransaction.cpp:494
+msgid ""
+"You are about to install unsigned packages that can compromise your system, "
+"as it is impossible to verify if the software came from a trusted source.\n"
+"\n"
+"Are you sure you want to proceed with the installation?"
+msgstr ""
+
+#: libapper/PkTransaction.cpp:497
+msgid "Installing unsigned software"
+msgstr "Instalando software non robláu"
+
+#: libapper/PkTransaction.cpp:551 libapper/PkTransaction.cpp:605
+msgid "Failed to install signature"
+msgstr ""
+
+#: libapper/SimulateModel.cpp:138
 msgid "Package"
 msgstr "Paquete"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-26 06:14+0200\n"
+"POT-Creation-Date: 2012-07-04 04:19+0200\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -6268,6 +6268,28 @@ msgstr ""
 msgid "Could not open file \"%1\"."
 msgstr "Nun se pudo crear el direutoriu: %1"
 
+#. i18n: file: dialogs/EditFilterDialog.ui:172
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
+#: dialogs/EditFilterDialog.cpp:40 rc.cpp:1563
+msgid "AND"
+msgstr ""
+
+#. i18n: file: dialogs/EditFilterDialog.ui:177
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
+#: dialogs/EditFilterDialog.cpp:41 rc.cpp:1566
+msgid "OR"
+msgstr ""
+
+#: dialogs/EditFilterDialog.cpp:42
+#, fuzzy
+#| msgid "Sample Rate"
+msgid "Simple text"
+msgstr "Tasa de muestréu"
+
+#: dialogs/EditFilterDialog.cpp:50
+msgid "Edit Filter"
+msgstr "Editar filtru"
+
 #: dialogs/FilenameLayoutDialog.cpp:240 dialogs/FilenameLayoutDialog.cpp:245
 #: dialogs/FilenameLayoutDialog.cpp:250 dialogs/FilenameLayoutDialog.cpp:255
 #: dialogs/FilenameLayoutDialog.cpp:260 dialogs/FilenameLayoutDialog.cpp:265
@@ -6978,6 +7000,70 @@ msgstr ""
 "Descartóse por alcontrar múltiples coincidencies ambigües pa <b><font "
 "color='red'>%1</font></b>"
 
+#: dialogs/EqualizerDialog.cpp:44
+#, fuzzy
+#| msgid "Enable Equalizer"
+msgid "Configure Equalizer"
+msgstr "Activar l'ecualizador"
+
+#: dialogs/EqualizerDialog.cpp:100
+msgid ""
+"Sorry, your current Phonon backend version does not provide equalizer "
+"support."
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:156 dialogs/EqualizerDialog.cpp:165
+#, fuzzy
+#| msgid "0 dB"
+msgid ""
+"%0\n"
+"dB"
+msgstr "0 dB"
+
+#: dialogs/EqualizerDialog.cpp:265
+msgctxt "Equalizer state, as in, disabled"
+msgid "Off"
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:282
+msgid "Cannot delete this preset"
+msgstr "Nun pudo desaniciase la predefinición"
+
+#: dialogs/EqualizerDialog.cpp:283
+msgid "Default presets can not be deleted"
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:284
+msgid "Error deleting preset"
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:307
+msgid "Cannot restore this preset"
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:308
+msgid "Only default presets can be restored"
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:309
+msgid "Error restoring preset"
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:328
+msgid "Cannot save this preset"
+msgstr "Nun puede guardase la predefinición."
+
+#: dialogs/EqualizerDialog.cpp:329
+msgid ""
+"Preset 'Manual' is reserved for momentary settings.\n"
+"                                              Please choose different name "
+"and try again."
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:331
+msgid "Error saving preset"
+msgstr ""
+
 #: dialogs/TagDialog.cpp:420
 msgid "Filename Layout Chooser"
 msgstr "Seleutor de diseñu de nomes de ficheru"
@@ -7043,7 +7129,7 @@ msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "Dengún"
 
-#: dialogs/TagDialog.cpp:1332
+#: dialogs/TagDialog.cpp:1333
 msgid ""
 "Writing to file failed. Please check permissions and available disc space."
 msgstr ""
@@ -7052,94 +7138,8 @@ msgstr ""
 
 #. i18n: file: dialogs/MusicBrainzTagger.ui:12
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
-#: dialogs/TagDialog.cpp:1388 rc.cpp:1482
+#: dialogs/TagDialog.cpp:1389 rc.cpp:1482
 msgid "MusicBrainz Tagger"
-msgstr ""
-
-#. i18n: file: dialogs/EditFilterDialog.ui:172
-#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: dialogs/EditFilterDialog.cpp:40 rc.cpp:1563
-msgid "AND"
-msgstr ""
-
-#. i18n: file: dialogs/EditFilterDialog.ui:177
-#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: dialogs/EditFilterDialog.cpp:41 rc.cpp:1566
-msgid "OR"
-msgstr ""
-
-#: dialogs/EditFilterDialog.cpp:42
-#, fuzzy
-#| msgid "Sample Rate"
-msgid "Simple text"
-msgstr "Tasa de muestréu"
-
-#: dialogs/EditFilterDialog.cpp:50
-msgid "Edit Filter"
-msgstr "Editar filtru"
-
-#: dialogs/EqualizerDialog.cpp:44
-#, fuzzy
-#| msgid "Enable Equalizer"
-msgid "Configure Equalizer"
-msgstr "Activar l'ecualizador"
-
-#: dialogs/EqualizerDialog.cpp:100
-msgid ""
-"Sorry, your current Phonon backend version does not provide equalizer "
-"support."
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:156 dialogs/EqualizerDialog.cpp:165
-#, fuzzy
-#| msgid "0 dB"
-msgid ""
-"%0\n"
-"dB"
-msgstr "0 dB"
-
-#: dialogs/EqualizerDialog.cpp:265
-msgctxt "Equalizer state, as in, disabled"
-msgid "Off"
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:282
-msgid "Cannot delete this preset"
-msgstr "Nun pudo desaniciase la predefinición"
-
-#: dialogs/EqualizerDialog.cpp:283
-msgid "Default presets can not be deleted"
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:284
-msgid "Error deleting preset"
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:307
-msgid "Cannot restore this preset"
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:308
-msgid "Only default presets can be restored"
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:309
-msgid "Error restoring preset"
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:328
-msgid "Cannot save this preset"
-msgstr "Nun puede guardase la predefinición."
-
-#: dialogs/EqualizerDialog.cpp:329
-msgid ""
-"Preset 'Manual' is reserved for momentary settings.\n"
-"                                              Please choose different name "
-"and try again."
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:331
-msgid "Error saving preset"
 msgstr ""
 
 #: dynamic/biases/EchoNestBias.cpp:47
