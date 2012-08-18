@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-20 04:42+0200\n"
+"POT-Creation-Date: 2012-08-18 04:14+0200\n"
 "PO-Revision-Date: 2010-10-23 17:00+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -17,952 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-Language: asturian\n"
-
-#. i18n: file: tips:2
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:3
-msgid ""
-"<p>You can control a kig construction by means of a \"pykig\" \n"
-"python script, that can be executed with the command \n"
-"<code>pykig.py</code>.  Here is a nice example \n"
-"(<code>hexagons.kpy</code>) you can try:\n"
-"<code><pre>\n"
-"kigdocument.hideobjects()\n"
-"def hexagons (c, v, n):\n"
-"  hexagon = PolygonBCV (c, v, 6)\n"
-"  if n &lt;= 0:\n"
-"    hexagon.show()\n"
-"    for i in range(6): \n"
-"      PolygonSide (hexagon, i, True)\n"
-"    return\n"
-"  cnew = MidPoints (c, v)\n"
-"  hexagons (cnew, v, n-1)\n"
-"  for k in [2,4]:\n"
-"    v1 = PolygonVertex (hexagon, k)\n"
-"    cnew = MidPoints (c, v1)\n"
-"    hexagons (cnew, v1, n-1)\n"
-"hexagons (Point(0,0), Point(1,0), 5)\n"
-"</pre></code>\n"
-msgstr ""
-"<p>Pue controlar la construición de kig a través d'un programa\n"
-"escritu en python «pykig», que pue executase cola orde\n"
-"<code>pykig.py</code>. Veamos un exemplu\n"
-"(<code>hexagons.kpy</code>) col que pue prebar:\n"
-"<code><pre>\n"
-"kigdocument.hideobjects()\n"
-"def hexagonos (c, v, n):\n"
-"  hexagonu = PolygonBCV (c, v, 6)\n"
-"  if n &lt;= 0:\n"
-"    hexagonu.show()\n"
-"    for i in range(6): \n"
-"      PolygonSide (hexagonu, i, True)\n"
-"    return\n"
-"  cnew = MidPoints (c, v)\n"
-"  hexagonos (cnew, v, n-1)\n"
-"  for k in [2,4]:\n"
-"    v1 = PolygonVertex (hexagonu, k)\n"
-"    cnew = MidPoints (c, v1)\n"
-"    hexagonos (cnew, v1, n-1)\n"
-"hexagonos (Point(0,0), Point(1,0), 5)\n"
-"</pre></code>\n"
-
-#. i18n: file: tips:28
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:28
-msgid ""
-"<p>You can repeat the latest construction simply by pressing the key\n"
-"'Z'; this comes in very handy if you need to construct a sequence\n"
-"of objects with the same construction, especially if there is\n"
-"no shortcut for that construction.</p>\n"
-msgstr ""
-"<p>Pue repitir la postrera construición con solo calcar la tecla\n"
-"«Z», lo que ye perpráutico si necesita construyir una secuencia\n"
-"d'oxetos cola mesma construición, especialmente si nun hai\n"
-"accesu rápidu pa esta construición.</p>\n"
-
-#. i18n: file: tips:37
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:36
-msgid ""
-"<p>One of the most powerful tools in Kig are the menus that you can\n"
-"enter by right-clicking on an object, or on some empty space in the\n"
-"document.  You can use them to give objects names, change their colors\n"
-"and line styles, and lots of other interesting things.</p>\n"
-msgstr ""
-"<p>Una de les ferramientes más potentes de Kig son los menús que pue\n"
-"meter calcando'l botón derechu sobre un oxetu o sobre un espaciu\n"
-"vacíu del documentu. Pue usar estos menús pa dar nomatu a los oxetos,\n"
-"camudar los collores y los estilos de les rectes, etc</p>\n"
-
-#. i18n: file: tips:46
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:44
-msgid ""
-"<p>You can construct new points without using the menu or the toolbar, "
-"simply\n"
-"clicking somewhere on the Kig document with the <em>middle mouse\n"
-"button</em>.</p>\n"
-msgstr ""
-"<p>Pue construyir puntos nuevos ensin usar la barra menú nin la barra\n"
-"de ferramientes. Simplemente faga clic en dalgún llugar del documentu de\n"
-"Kig col <em>botón central del mur</em>.</p>\n"
-
-#. i18n: file: tips:54
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:51
-msgid ""
-"<p>Kig can open several file formats: its files (<code>.kig</code> files),\n"
-"<em>KGeo</em> files, <em>KSeg</em> files, and, partially, <em>Dr. Geo</em>\n"
-"and <em>Cabri&#8482;</em> files.</p>\n"
-msgstr ""
-"<p>Kig pue abrir dellos formatos de ficheros: Los sos propios ficheros "
-"(<code>.kig</code> files),\n"
-"ficheros de <em>KGeo</em>, <em>KSeg</em>, <em>Dr. Geo</em> (parcialmente)\n"
-"y <em>Cabri&#8482;</em>.</p>\n"
-
-#. i18n: file: tips:62
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:58
-msgid ""
-"<p>Kig has more than 20 objects and 10 transformations with more than 80 \n"
-"constructions you can use in your documents: open the <em>Objects</em> \n"
-"menu to see them all.</p>\n"
-msgstr ""
-"<p> Kig tien más de 20 oxetos y 10 tresformaciones con más d'80 \n"
-"construiciones que pue usar nos sos documentos: abra'l menú \n"
-"<em>Oxetos</em> pa velos toos.</p>\n"
-
-#. i18n: file: tips:70
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:65
-msgid ""
-"<p>You can use the selected objects to start the construction of an object\n"
-"which requires the selected objects as arguments. For example, if you have "
-"two\n"
-"points selected, you can choose <em>Start->Circle by Three Points</em> from "
-"the\n"
-"popup menu to start constructing a circle by three points.</p>\n"
-msgstr ""
-"<p>Ye posible construyir nuevos oxetos a partir d'oxetos\n"
-"escoyíos que tienen de ser pasaos como argumentos.Por exemplu, si "
-"s'escoyeron dos puntos,\n"
-"y s'executa <em>Entamar->Circunferencia per tres puntos</em> dende'l\n"
-"menú desplegable, la circunferencia se construyirá a partir de los dos "
-"puntos enantes escoyíos</p>\n"
-
-#. i18n: file: tips:79
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:73
-msgid ""
-"<p>Kig can extends its object set using external macros. You can find some\n"
-"interesting macros on the Kig website:\n"
-"<a href=\"http://edu.kde.org/kig\">http://edu.kde.org/kig</a>.</p>\n"
-msgstr ""
-"<p>Kig pue estender el so conxuntu d'oxetos mediante macros esternes. Podrá\n"
-"atopase exemplos pa eses macros nel sitiu web de Kig:\n"
-"<a href=\"http://edu.kde.org/kig\">http://edu.kde.org/kig</a>.</p>\n"
-
-#. i18n: file: tips:87
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:80
-msgid ""
-"<p>If you have more than one object under the mouse, and you want to select "
-"any\n"
-"of them, you can click with the <em>left mouse button</em>, while holding "
-"the\n"
-"<em>Shift</em> key, to get a list of the objects under the mouse cursor "
-"which\n"
-"you can then select from.</p>\n"
-msgstr ""
-"<p>A vegaes, atopamos más d'un oxetu tuviere debaxo del cursor del mur, si "
-"quisiéremos seleicionar dalgún d'ellos en particular, tenemos de facer clic "
-"col <em>botón izquierdu del mur</em> demientres calcamos la tecla <em>Shift</"
-"em>. Asina, obtendremos una llista de los oxetos disponibles debaxo'l cursor "
-"del mur.</p>\n"
-
-#. i18n: file: tips:96
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:88
-msgid ""
-"<p>When you construct a locus, you can click on it with the <em>right</em> "
-"mouse\n"
-"button and select <em>cartesian equation</em> to see its cartesian "
-"equation, \n"
-"whenever it is an algebraic curve of low degree.</p>\n"
-msgstr ""
-"<p>Cuando se construye un locus, pue calcar sobre'l col botón <em>derechu</"
-"em> del mur\n"
-"y seleicione la <em>ecuación cartesiana</em> pa ver la so ecuación \n"
-"cartesiana, qu'en cualesquier casu ye una curva alxebraica de grau baxu.</"
-"p>\n"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Daviz"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "daviz@hotmail.com"
-
-#. i18n: file: kig/kigpartui.rc:5
-#. i18n: ectx: Menu (file)
-#. i18n: file: kig/kigui.rc:4
-#. i18n: ectx: Menu (file)
-#: rc.cpp:5 rc.cpp:101
-msgid "&File"
-msgstr "&Ficheru"
-
-#. i18n: file: kig/kigpartui.rc:16
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:8
-msgid "&Edit"
-msgstr "&Editar"
-
-#. i18n: file: kig/kigpartui.rc:27
-#. i18n: ectx: Menu (view)
-#: rc.cpp:11
-msgid "&View"
-msgstr "&Ver"
-
-#. i18n: file: kig/kigpartui.rc:35
-#. i18n: ectx: Menu (objects)
-#: rc.cpp:14
-msgid "&Objects"
-msgstr "&Oxetos"
-
-#. i18n: file: kig/kigpartui.rc:37
-#. i18n: ectx: Menu (new_point)
-#: rc.cpp:17
-msgid "&Points"
-msgstr "&Puntos"
-
-#. i18n: file: kig/kigpartui.rc:49
-#. i18n: ectx: Menu (new_line)
-#: rc.cpp:20
-msgid "&Lines"
-msgstr "&Llinies"
-
-#. i18n: file: kig/kigpartui.rc:59
-#. i18n: ectx: Menu (new_circle)
-#: rc.cpp:23
-msgid "&Circles && Arcs"
-msgstr "&Círculos y Arcos"
-
-#. i18n: file: kig/kigpartui.rc:70
-#. i18n: ectx: Menu (new_poligon)
-#: rc.cpp:26
-msgid "Poly&gons"
-msgstr "Polí&gonos"
-
-#. i18n: file: kig/kigpartui.rc:82
-#. i18n: ectx: Menu (new_vector)
-#: rc.cpp:29
-msgid "&Vectors && Segments"
-msgstr "&Vectores y Segmentos"
-
-#. i18n: file: kig/kigpartui.rc:91
-#. i18n: ectx: Menu (new_conic)
-#: rc.cpp:32
-msgid "Co&nics && Cubics"
-msgstr "Có&niques y cubiques"
-
-#. i18n: file: kig/kigpartui.rc:98
-#. i18n: ectx: Menu (new_moreconics)
-#: rc.cpp:35
-msgid "More Conics"
-msgstr "Más cóniques"
-
-#. i18n: file: kig/kigpartui.rc:113
-#. i18n: ectx: Menu (new_cubic)
-#: rc.cpp:38
-msgid "Cu&bics"
-msgstr "Cú&biques"
-
-#. i18n: file: kig/kigpartui.rc:121
-#. i18n: ectx: Menu (new_bezier)
-#: rc.cpp:41
-msgid "&Bézier curves"
-msgstr ""
-
-#. i18n: file: kig/kigpartui.rc:131
-#. i18n: ectx: Menu (new_angle)
-#: rc.cpp:44
-msgid "&Angles"
-msgstr "&Ángulos"
-
-#. i18n: file: kig/kigpartui.rc:136
-#. i18n: ectx: Menu (new_transformation)
-#: rc.cpp:47
-msgid "&Transformations"
-msgstr "&Transformaciones"
-
-#. i18n: file: kig/kigpartui.rc:154
-#. i18n: ectx: Menu (new_differentialgeometry)
-#: rc.cpp:50
-msgid "&Differential geometry"
-msgstr "Xeometría &diferencial"
-
-#. i18n: file: kig/kigpartui.rc:161
-#. i18n: ectx: Menu (new_test)
-#: rc.cpp:53
-msgid "T&ests"
-msgstr "Pru&ebes"
-
-#. i18n: file: kig/kigpartui.rc:172
-#. i18n: ectx: Menu (new_other)
-#: rc.cpp:56
-msgid "&Other"
-msgstr "&Otru"
-
-#. i18n: file: kig/kigpartui.rc:186
-#. i18n: ectx: Menu (types)
-#: rc.cpp:59
-msgid "&Types"
-msgstr "&Tribes"
-
-#. i18n: file: kig/kigpartui.rc:191
-#. i18n: ectx: Menu (tools)
-#: rc.cpp:62
-msgid "&Tools"
-msgstr "&Ferramientes"
-
-#. i18n: file: kig/kigpartui.rc:204
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: kig/kigui.rc:23
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:65 rc.cpp:107
-msgid "Main Toolbar"
-msgstr "Barra de ferramientes principal"
-
-#. i18n: file: kig/kigpartui.rc:218
-#. i18n: ectx: ToolBar (points_toolbar)
-#: rc.cpp:68
-msgid "Points"
-msgstr "Puntos"
-
-#. i18n: file: kig/kigpartui.rc:229
-#. i18n: ectx: ToolBar (line_toolbar)
-#: rc.cpp:71
-msgid "Lines"
-msgstr "Llinies"
-
-#. i18n: file: kig/kigpartui.rc:239
-#. i18n: ectx: ToolBar (vectseg_toolbar)
-#: rc.cpp:74
-msgid "Vectors && Segments"
-msgstr "Vectores y segmentos"
-
-#. i18n: file: kig/kigpartui.rc:247
-#. i18n: ectx: ToolBar (circle_toolbar)
-#: rc.cpp:77
-msgid "Circles && Arcs"
-msgstr "Circunferencies y arcos"
-
-#. i18n: file: kig/kigpartui.rc:255
-#. i18n: ectx: ToolBar (conic_toolbar)
-#: rc.cpp:80
-msgid "Conics"
-msgstr "Cóniques"
-
-#. i18n: file: kig/kigpartui.rc:264
-#. i18n: ectx: ToolBar (bezier_toolbar)
-#: rc.cpp:83
-msgid "Bézier Curves"
-msgstr ""
-
-#. i18n: file: kig/kigpartui.rc:274
-#. i18n: ectx: ToolBar (angles_toolbar)
-#: rc.cpp:86
-msgid "Angles"
-msgstr "Ángulos"
-
-#. i18n: file: kig/kigpartui.rc:279
-#. i18n: ectx: ToolBar (transformation_toolbar)
-#: rc.cpp:89
-msgid "Transformations"
-msgstr "Tresformaciones"
-
-#. i18n: file: kig/kigpartui.rc:293
-#. i18n: ectx: ToolBar (tests_toolbar)
-#: rc.cpp:92
-msgid "Tests"
-msgstr "Pruebes"
-
-#. i18n: file: kig/kigpartui.rc:305
-#. i18n: ectx: ToolBar (rest_toolbar)
-#: rc.cpp:95
-msgid "Other Objects"
-msgstr "Otros oxetos"
-
-#. i18n: file: kig/kigpartui.rc:313
-#. i18n: ectx: ToolBar (view_toolbar)
-#: rc.cpp:98
-msgid "View"
-msgstr "Ver"
-
-#. i18n: file: kig/kigui.rc:13
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:104
-msgid "&Settings"
-msgstr "&Configuración"
-
-#. i18n: file: filters/asyexporteroptionswidget.ui:22
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. i18n: file: filters/imageexporteroptionswidget.ui:120
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#. i18n: file: filters/latexexporteroptionswidget.ui:82
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. i18n: file: filters/svgexporteroptionswidget.ui:22
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:110 rc.cpp:134 rc.cpp:164 rc.cpp:176 misc/kigfiledialog.cc:34
-msgid "Options"
-msgstr "Opciones"
-
-#. i18n: file: filters/asyexporteroptionswidget.ui:42
-#. i18n: ectx: property (text), widget (QCheckBox, showFrameCheckBox)
-#. i18n: file: filters/latexexporteroptionswidget.ui:95
-#. i18n: ectx: property (text), widget (QCheckBox, showFrameCheckBox)
-#: rc.cpp:113 rc.cpp:170
-msgid "Show Extra Frame"
-msgstr "Amosar Marcu Extra"
-
-#. i18n: file: filters/asyexporteroptionswidget.ui:49
-#. i18n: ectx: property (text), widget (QCheckBox, showAxesCheckBox)
-#. i18n: file: filters/imageexporteroptionswidget.ui:140
-#. i18n: ectx: property (text), widget (QCheckBox, showAxesCheckBox)
-#. i18n: file: filters/latexexporteroptionswidget.ui:102
-#. i18n: ectx: property (text), widget (QCheckBox, showAxesCheckBox)
-#. i18n: file: filters/svgexporteroptionswidget.ui:42
-#. i18n: ectx: property (text), widget (QCheckBox, showAxesCheckBox)
-#: rc.cpp:116 rc.cpp:137 rc.cpp:173 rc.cpp:179
-msgid "Show Axes"
-msgstr "Amosar exes"
-
-#. i18n: file: filters/asyexporteroptionswidget.ui:56
-#. i18n: ectx: property (text), widget (QCheckBox, showGridCheckBox)
-#. i18n: file: filters/imageexporteroptionswidget.ui:147
-#. i18n: ectx: property (text), widget (QCheckBox, showGridCheckBox)
-#. i18n: file: filters/latexexporteroptionswidget.ui:88
-#. i18n: ectx: property (text), widget (QCheckBox, showGridCheckBox)
-#. i18n: file: filters/svgexporteroptionswidget.ui:49
-#. i18n: ectx: property (text), widget (QCheckBox, showGridCheckBox)
-#: rc.cpp:119 rc.cpp:140 rc.cpp:167 rc.cpp:182
-msgid "Show Grid"
-msgstr "Amosar cuadrícula"
-
-#. i18n: file: filters/imageexporteroptionswidget.ui:22
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:122
-msgid "Resolution"
-msgstr "Resolución"
-
-#. i18n: file: filters/imageexporteroptionswidget.ui:37
-#. i18n: ectx: property (text), widget (QCheckBox, keepAspectRatio)
-#: rc.cpp:125
-msgid "&Keep Aspect Ratio"
-msgstr "&Caltener les proporciones"
-
-#. i18n: file: filters/imageexporteroptionswidget.ui:54
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:128
-msgid "Height:"
-msgstr "Altor:"
-
-#. i18n: file: filters/imageexporteroptionswidget.ui:110
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:131
-msgid "Width:"
-msgstr "Anchor:"
-
-#. i18n: file: filters/latexexporteroptionswidget.ui:23
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:143
-msgid "Output format"
-msgstr ""
-
-#. i18n: file: filters/latexexporteroptionswidget.ui:29
-#. i18n: ectx: property (text), widget (QRadioButton, psTricksRadioButton)
-#: rc.cpp:146
-msgid "PSTricks"
-msgstr ""
-
-#. i18n: file: filters/latexexporteroptionswidget.ui:36
-#. i18n: ectx: property (text), widget (QRadioButton, tikzRadioButton)
-#: rc.cpp:149
-msgid "Tikz/PGF"
-msgstr "Tikz/PGF"
-
-#. i18n: file: filters/latexexporteroptionswidget.ui:46
-#. i18n: ectx: property (text), widget (QRadioButton, asyRadioButton)
-#: rc.cpp:152
-msgid "Asymptote"
-msgstr ""
-
-#. i18n: file: filters/latexexporteroptionswidget.ui:56
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:155
-msgid "Document options"
-msgstr "Opciones de Documentu"
-
-#. i18n: file: filters/latexexporteroptionswidget.ui:62
-#. i18n: ectx: property (text), widget (QRadioButton, pictureRadioButton)
-#: rc.cpp:158
-msgid "Picture only"
-msgstr ""
-
-#. i18n: file: filters/latexexporteroptionswidget.ui:72
-#. i18n: ectx: property (text), widget (QRadioButton, documentRadioButton)
-#: rc.cpp:161
-msgid "Standalone document"
-msgstr ""
-
-#. i18n: file: misc/kigcoordinateprecisiondialog.ui:9
-#. i18n: ectx: property (text), widget (QCheckBox, m_defaultCheckBox)
-#: rc.cpp:185
-msgid "&Use default coordinate precision"
-msgstr ""
-
-#. i18n: file: misc/kigcoordinateprecisiondialog.ui:16
-#. i18n: ectx: property (text), widget (QLabel, m_precisionLabel)
-#: rc.cpp:188
-msgid "&Specify coordinate precision:"
-msgstr ""
-
-#. i18n: file: modes/edittypewidget.ui:36
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:191
-msgid ""
-"Here you can modify the name, the description and the icon of this macro "
-"type."
-msgstr ""
-"Equí pue modificar el nome, la descripcion y l'iconu d'esta triba de macro."
-
-#. i18n: file: modes/edittypewidget.ui:73
-#. i18n: ectx: property (text), widget (QLabel, label_2_3)
-#: rc.cpp:194
-msgid "Name:"
-msgstr "Nome:"
-
-#. i18n: file: modes/edittypewidget.ui:93
-#. i18n: ectx: property (text), widget (QLabel, label_2_2_2)
-#: rc.cpp:197
-msgid "Description:"
-msgstr "Descripción:"
-
-#. i18n: file: modes/historywidget.ui:22
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:200
-msgid "Description of the current step:"
-msgstr "Descripción del pasu d'anguaño:"
-
-#. i18n: file: modes/historywidget.ui:53
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonFirst)
-#: rc.cpp:203
-msgid "First step"
-msgstr "Primer pasu"
-
-#. i18n: file: modes/historywidget.ui:66
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBack)
-#: rc.cpp:206
-msgid "One step back"
-msgstr "Un pasu p'atrás"
-
-#. i18n: file: modes/historywidget.ui:82
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:209
-msgid "/"
-msgstr "/"
-
-#. i18n: file: modes/historywidget.ui:96
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonNext)
-#: rc.cpp:212
-msgid "One step forward"
-msgstr "Un pasu p'alantre"
-
-#. i18n: file: modes/historywidget.ui:109
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonLast)
-#: rc.cpp:215
-msgid "Last step"
-msgstr "Postrer pasu"
-
-#. i18n: file: modes/typeswidget.ui:37
-#. i18n: ectx: property (toolTip), widget (QTreeView, typeList)
-#: rc.cpp:218
-msgid "Select types here..."
-msgstr "Seleiciona equí les tribes..."
-
-#. i18n: file: modes/typeswidget.ui:40
-#. i18n: ectx: property (whatsThis), widget (QTreeView, typeList)
-#: rc.cpp:221
-msgid ""
-"This is a list of the current macro types... You can select, edit, delete, "
-"export and import them..."
-msgstr ""
-"Esta llista contién les tribes de macro actuales... Puede esbillalos, "
-"desanicialos, esportalos ya importalos..."
-
-#. i18n: file: modes/typeswidget.ui:99
-#. i18n: ectx: property (whatsThis), widget (KPushButton, buttonEdit)
-#: rc.cpp:224
-msgid "Edit the selected type."
-msgstr "Editar la triba seleicionada."
-
-#. i18n: file: modes/typeswidget.ui:102
-#. i18n: ectx: property (text), widget (KPushButton, buttonEdit)
-#: rc.cpp:227 modes/typesdialog.cpp:368
-msgid "&Edit..."
-msgstr "&Editar..."
-
-#. i18n: file: modes/typeswidget.ui:109
-#. i18n: ectx: property (whatsThis), widget (KPushButton, buttonRemove)
-#: rc.cpp:230
-msgid "Delete all the selected types in the list."
-msgstr "Desaniciar les tribes seleicionaes na llista."
-
-#. i18n: file: modes/typeswidget.ui:112
-#. i18n: ectx: property (text), widget (KPushButton, buttonRemove)
-#: rc.cpp:233 modes/popup.cc:390 modes/typesdialog.cpp:369
-msgid "&Delete"
-msgstr "&Desaniciar"
-
-#. i18n: file: modes/typeswidget.ui:151
-#. i18n: ectx: property (whatsThis), widget (KPushButton, buttonExport)
-#: rc.cpp:236
-msgid "Export all the selected types to a file."
-msgstr "Esportar toles tribes seleicionaes a un ficheru."
-
-#. i18n: file: modes/typeswidget.ui:154
-#. i18n: ectx: property (text), widget (KPushButton, buttonExport)
-#: rc.cpp:239 modes/typesdialog.cpp:371
-msgid "E&xport..."
-msgstr "E&sportar..."
-
-#. i18n: file: modes/typeswidget.ui:161
-#. i18n: ectx: property (whatsThis), widget (KPushButton, buttonImport)
-#: rc.cpp:242
-msgid "Import macros that are contained in one or more files."
-msgstr "Importar macros que tean conteníos nún o más ficheros."
-
-#. i18n: file: modes/typeswidget.ui:164
-#. i18n: ectx: property (text), widget (KPushButton, buttonImport)
-#: rc.cpp:245
-msgid "&Import..."
-msgstr "&Importar..."
-
-#: rc.cpp:246
-msgid "Circle by Center && Line"
-msgstr "Circunferencia dada pol so centru y una reuta"
-
-#: rc.cpp:247
-msgid "A circle constructed by its center and tangent to a given line"
-msgstr ""
-"Una circunferencia construyía a partir del so centru y una reuta tanxente a "
-"tala circunferencia"
-
-#: rc.cpp:248
-msgid "Construct a circle tangent to this line"
-msgstr "Construyir una circunferencia de mou qu'esta reuta-y seya tanxente"
-
-#: rc.cpp:249 rc.cpp:254 objects/circle_type.cc:34
-msgid "Construct a circle with this center"
-msgstr "Construyir una circunferencia con esti centru"
-
-#: rc.cpp:250
-msgid "Select the line that the new circle should be tangent to..."
-msgstr "Esbille una reuta tanxente a la nueva circunferencia..."
-
-#: rc.cpp:251 rc.cpp:256 objects/circle_type.cc:39 objects/circle_type.cc:194
-msgid "Select the center of the new circle..."
-msgstr "Seleicionar el centru de la nueva circunferencia..."
-
-#: rc.cpp:252
-msgid "Circle by Point && Segment (as the Diameter)"
-msgstr "Circunferencia dada por un puntu y un segmentu (diámetru)"
-
-#: rc.cpp:253
-msgid ""
-"A circle defined by its center and the length of a segment as the diameter"
-msgstr ""
-"Una circunferencia dada pol: so centru; y un segmentu cualesquiera "
-"representáu la llonxitú del diámetru"
-
-#: rc.cpp:255
-msgid ""
-"Construct a circle with the diameter given by the length of this segment"
-msgstr ""
-"Construyir una circunferencia de diámetru dau pola llonxitú d'esti segmentu"
-
-#: rc.cpp:257
-msgid "Select the segment whose length gives the diameter of the new circle..."
-msgstr ""
-"Esbille'l segmentu cuya llonxitú determinará'l diámetru de la nueva "
-"circunferencia..."
-
-#: rc.cpp:258
-msgid "Equilateral Triangle"
-msgstr "Triángulu equiláteru"
-
-#: rc.cpp:259
-msgid "Equilateral triangle with given two vertices"
-msgstr "Triángulu equiláteru dados dos vértices"
-
-#: rc.cpp:260
-msgid "Evolute"
-msgstr "Evoluta"
-
-#: rc.cpp:261
-msgid "Evolute of a curve"
-msgstr "Evoluta d'una curva"
-
-#: rc.cpp:262
-msgid "Evolute of this curve"
-msgstr "Evoluta d'esta curva"
-
-#: rc.cpp:263 rc.cpp:268 objects/centerofcurvature_type.cc:35
-#: objects/tangent_type.cc:36
-msgid "Select the curve..."
-msgstr "Seleiciona la curva..."
-
-#: rc.cpp:264
-msgid "Osculating Circle"
-msgstr "Círculu de curvatura"
-
-#: rc.cpp:265
-msgid "Osculating circle of a curve at a point"
-msgstr "Círculu osculador d'una curva nún puntu dau"
-
-#: rc.cpp:266
-msgid "Osculating circle of this curve"
-msgstr "Círculu osculador d'esta curva"
-
-#: rc.cpp:267
-msgid "Osculating circle at this point"
-msgstr "Círculu osculador nesti puntu"
-
-#: rc.cpp:269
-msgid "Select the point..."
-msgstr "Seleiciona'l puntu..."
-
-#: rc.cpp:270
-msgid "Segment Axis"
-msgstr "Exe de segmentu"
-
-#: rc.cpp:271
-msgid "The perpendicular line through a given segment's mid point."
-msgstr "La reuta perpendicular al segmentu dau que lu corta pel puntu mediu."
-
-#: rc.cpp:272
-msgid "Construct the axis of this segment"
-msgstr "Construyir l'exe d'esti segmentu"
-
-#: rc.cpp:273
-msgid "Select the segment of which you want to draw the axis..."
-msgstr "Esbille un segmentu pal que quiera construyir l'exe..."
-
-#: rc.cpp:274
-msgid "Square"
-msgstr "Cuadrado"
-
-#: rc.cpp:275
-msgid "Square with two given adjacent vertices"
-msgstr "Cuadráu a partir de dos vértices adyacentes daos"
-
-#: rc.cpp:276
-msgid "Vector Difference"
-msgstr "Vector diferencia"
-
-#: rc.cpp:277
-msgid "Construct the vector difference of two vectors."
-msgstr "Construye'l vector diferencia de dos vectores."
-
-#: rc.cpp:278
-msgid "Construct the vector difference of this vector and another one."
-msgstr "Construyir el vector diferencia d'esti vector y d'otru."
-
-#: rc.cpp:279
-msgid "Construct the vector difference of the other vector and this one."
-msgstr "Construyir el vector diferencia del otru vector y d'ésti."
-
-#: rc.cpp:280
-msgid "Construct the vector difference starting at this point."
-msgstr "Construyir el vector diferencia comenzando nesti puntu."
-
-#: rc.cpp:281
-msgid ""
-"Select the first of the two vectors of which you want to construct the "
-"difference..."
-msgstr "Escueyi'l vector minuendu..."
-
-#: rc.cpp:282
-msgid ""
-"Select the other of the two vectors of which you want to construct the "
-"difference..."
-msgstr "Escueyi'l vector sustraendu..."
-
-#: rc.cpp:283
-msgid "Select the point to construct the difference vector in..."
-msgstr "Escueyi un puntu que perteneza al vector diferencia..."
-
-#: filters/filter.h:55 filters/cabri-utils.cc:33 misc/object_hierarchy.cc:486
-#: objects/object_imp_factory.cc:294
-#, kde-format
-msgid "An error was encountered at line %1 in file %2."
-msgstr "Hebo un fallu na llinia %1 del ficheru %2."
-
-#: kig/aboutdata.h:29
-msgid "KDE Interactive Geometry"
-msgstr "Xeometría interactiva de KDE"
-
-#: kig/aboutdata.h:33
-msgid "(C) 2002-2005, The Kig developers"
-msgstr "(C) 2002-2005, Los desendolcadores de Kig"
-
-#: kig/aboutdata.h:35
-msgid "Dominique Devriese"
-msgstr "Dominique Devriese"
-
-#: kig/aboutdata.h:36
-msgid "Original author, long time maintainer, design and lots of code."
-msgstr "Autor orixinal, responsable munchu tiempu, diseñu y munchu códigu."
-
-#: kig/aboutdata.h:39
-msgid "Maurizio Paolini"
-msgstr "Maurizio Paolini"
-
-#: kig/aboutdata.h:40
-msgid ""
-"Did a lot of important work all around Kig, including, but not limited to "
-"conics, cubics, transformations and property tests support."
-msgstr ""
-"Fizo la mayor parte del trabayu matemáticu intensivu en kig, "
-"fundamentalmente soporte pa conos, cubos y tresformaciones, asina como "
-"prebes."
-
-#: kig/aboutdata.h:45
-msgid "Pino Toscano"
-msgstr "Pino Toscano"
-
-#: kig/aboutdata.h:46
-msgid ""
-"Actual maintainer, Dr. Geo import filter, point and line styles, Italian "
-"translation, miscellaneous stuff here and there."
-msgstr ""
-"Ye l'actual responsable, trabayó nel filtru d'importación de Dr. Geo, puntos "
-"y estilos de llinies y les tornes al italianu. Tamién aportó munches "
-"suxerencies pa nueves carauterístiques ya informes de fallos."
-
-#: kig/aboutdata.h:51
-msgid "Franco Pasquarelli"
-msgstr "Franco Pasquarelli"
-
-#: kig/aboutdata.h:52
-msgid ""
-"Helped a lot with the implementation of the Locus object, there's quite some "
-"math involved in doing it right, and Franco wrote the most difficult parts."
-msgstr ""
-"Aidó cola implementación del oxetu Locus (llugar xeométricu), facelo bien "
-"requier d'una migaya de matemátiques y Franco básicamente escribió por mí "
-"les partes más abegoses."
-
-#: kig/aboutdata.h:57
-msgid "Francesca Gatti"
-msgstr "Francesca Gatti"
-
-#: kig/aboutdata.h:58
-msgid "Responsible for the computation of the algebraic equation of a locus."
-msgstr ""
-
-#: kig/aboutdata.h:62
-msgid "Petr Gajdos"
-msgstr "Petr Gajdos"
-
-#: kig/aboutdata.h:63
-msgid "Contributed the Bézier curves and related icons."
-msgstr ""
-
-#: kig/aboutdata.h:66
-msgid "Raoul Bourquin"
-msgstr ""
-
-#: kig/aboutdata.h:67
-#, fuzzy
-#| msgid "Construct the asymptotes of this conic"
-msgid "Contributed the 'asymptote' export filter."
-msgstr "Construyir les asíntotes d'esta cónica"
-
-#: kig/aboutdata.h:70
-msgid "Eric Depagne"
-msgstr "Eric Depagne"
-
-#: kig/aboutdata.h:71
-msgid ""
-"The French translator, who also sent me some useful feedback, like feature "
-"requests and bug reports."
-msgstr ""
-"El traductor al francés, qu'amás apurrión comentarios, suxerencies ya "
-"informes de fallos."
-
-#: kig/aboutdata.h:75
-msgid "Marc Bartsch"
-msgstr "Marc Bartsch"
-
-#: kig/aboutdata.h:76
-msgid ""
-"Author of KGeo, where I got inspiration, some source, and most of the "
-"artwork from."
-msgstr ""
-"Autor de KGeo, del que se sacó la inspiración, daqué de códigu y la mayor "
-"parte del trabayu artísticu."
-
-#: kig/aboutdata.h:80
-msgid "Christophe Devriese"
-msgstr "Christophe Devriese"
-
-#: kig/aboutdata.h:81
-msgid ""
-"Domi's brother, who he got to write the algorithm for calculating the center "
-"of the circle with three points given."
-msgstr ""
-"L'hermanu de Dominique, que diseñó l'algoritmu que calcula'l centru de la "
-"circunferencia dende tres puntos daos."
-
-#: kig/aboutdata.h:86
-msgid "Christophe Prud'homme"
-msgstr "Christophe Prud'homme"
-
-#: kig/aboutdata.h:87
-msgid "Sent me a patch for some bugs."
-msgstr "Un parche pa dalgunos fallos."
-
-#: kig/aboutdata.h:90
-msgid "Robert Gogolok"
-msgstr "Robert Gogolok"
-
-#: kig/aboutdata.h:91
-msgid ""
-"Gave me some good feedback on Kig, some feature requests, cleanups and style "
-"fixes, and someone to chat with on irc :)"
-msgstr ""
-"Dellos bonos comentarios sobre Kig, delles suxerencies, axustes y meyores "
-"d'estilu y daquién col que charrar en irc :)"
-
-#: kig/aboutdata.h:96
-msgid "David Vignoni"
-msgstr "David Vignoni"
-
-#: kig/aboutdata.h:97
-msgid "Responsible for the nice application SVG Icon."
-msgstr "Responsable pol prestosu iconu SVG de l'aplicación."
-
-#: kig/aboutdata.h:100
-msgid "Danny Allen"
-msgstr "Danny Allen"
-
-#: kig/aboutdata.h:101
-msgid "Responsible for the new object action icons."
-msgstr "Responsable de los iconos d'aición pa oxetos nuevos."
 
 #: filters/asyexporter.cc:40
 #, fuzzy
@@ -1023,6 +77,12 @@ msgid ""
 "This Cabri file contains a \"%1\" object, which Kig does not currently "
 "support."
 msgstr "Esti ficheru de Cabri tien un oxetu «%1», que Kig entá nun soporta."
+
+#: filters/cabri-utils.cc:33 filters/filter.h:55 misc/object_hierarchy.cc:486
+#: objects/object_imp_factory.cc:294
+#, kde-format
+msgid "An error was encountered at line %1 in file %2."
+msgstr "Hebo un fallu na llinia %1 del ficheru %2."
 
 #: filters/drgeo-filter.cc:109
 #, kde-format
@@ -1271,6 +331,493 @@ msgstr "*.fig|Documentos de XFig (*.fig)"
 #: filters/xfigexporter.cc:581
 msgid "Export as XFig File"
 msgstr "Esportar como ficheru XFig"
+
+#: kig/aboutdata.h:29
+msgid "KDE Interactive Geometry"
+msgstr "Xeometría interactiva de KDE"
+
+#: kig/aboutdata.h:33
+msgid "(C) 2002-2005, The Kig developers"
+msgstr "(C) 2002-2005, Los desendolcadores de Kig"
+
+#: kig/aboutdata.h:35
+msgid "Dominique Devriese"
+msgstr "Dominique Devriese"
+
+#: kig/aboutdata.h:36
+msgid "Original author, long time maintainer, design and lots of code."
+msgstr "Autor orixinal, responsable munchu tiempu, diseñu y munchu códigu."
+
+#: kig/aboutdata.h:39
+msgid "Maurizio Paolini"
+msgstr "Maurizio Paolini"
+
+#: kig/aboutdata.h:40
+msgid ""
+"Did a lot of important work all around Kig, including, but not limited to "
+"conics, cubics, transformations and property tests support."
+msgstr ""
+"Fizo la mayor parte del trabayu matemáticu intensivu en kig, "
+"fundamentalmente soporte pa conos, cubos y tresformaciones, asina como "
+"prebes."
+
+#: kig/aboutdata.h:45
+msgid "Pino Toscano"
+msgstr "Pino Toscano"
+
+#: kig/aboutdata.h:46
+msgid ""
+"Actual maintainer, Dr. Geo import filter, point and line styles, Italian "
+"translation, miscellaneous stuff here and there."
+msgstr ""
+"Ye l'actual responsable, trabayó nel filtru d'importación de Dr. Geo, puntos "
+"y estilos de llinies y les tornes al italianu. Tamién aportó munches "
+"suxerencies pa nueves carauterístiques ya informes de fallos."
+
+#: kig/aboutdata.h:51
+msgid "Franco Pasquarelli"
+msgstr "Franco Pasquarelli"
+
+#: kig/aboutdata.h:52
+msgid ""
+"Helped a lot with the implementation of the Locus object, there's quite some "
+"math involved in doing it right, and Franco wrote the most difficult parts."
+msgstr ""
+"Aidó cola implementación del oxetu Locus (llugar xeométricu), facelo bien "
+"requier d'una migaya de matemátiques y Franco básicamente escribió por mí "
+"les partes más abegoses."
+
+#: kig/aboutdata.h:57
+msgid "Francesca Gatti"
+msgstr "Francesca Gatti"
+
+#: kig/aboutdata.h:58
+msgid "Responsible for the computation of the algebraic equation of a locus."
+msgstr ""
+
+#: kig/aboutdata.h:62
+msgid "Petr Gajdos"
+msgstr "Petr Gajdos"
+
+#: kig/aboutdata.h:63
+msgid "Contributed the Bézier curves and related icons."
+msgstr ""
+
+#: kig/aboutdata.h:66
+msgid "Raoul Bourquin"
+msgstr ""
+
+#: kig/aboutdata.h:67
+#, fuzzy
+#| msgid "Construct the asymptotes of this conic"
+msgid "Contributed the 'asymptote' export filter."
+msgstr "Construyir les asíntotes d'esta cónica"
+
+#: kig/aboutdata.h:70
+msgid "Eric Depagne"
+msgstr "Eric Depagne"
+
+#: kig/aboutdata.h:71
+msgid ""
+"The French translator, who also sent me some useful feedback, like feature "
+"requests and bug reports."
+msgstr ""
+"El traductor al francés, qu'amás apurrión comentarios, suxerencies ya "
+"informes de fallos."
+
+#: kig/aboutdata.h:75
+msgid "Marc Bartsch"
+msgstr "Marc Bartsch"
+
+#: kig/aboutdata.h:76
+msgid ""
+"Author of KGeo, where I got inspiration, some source, and most of the "
+"artwork from."
+msgstr ""
+"Autor de KGeo, del que se sacó la inspiración, daqué de códigu y la mayor "
+"parte del trabayu artísticu."
+
+#: kig/aboutdata.h:80
+msgid "Christophe Devriese"
+msgstr "Christophe Devriese"
+
+#: kig/aboutdata.h:81
+msgid ""
+"Domi's brother, who he got to write the algorithm for calculating the center "
+"of the circle with three points given."
+msgstr ""
+"L'hermanu de Dominique, que diseñó l'algoritmu que calcula'l centru de la "
+"circunferencia dende tres puntos daos."
+
+#: kig/aboutdata.h:86
+msgid "Christophe Prud'homme"
+msgstr "Christophe Prud'homme"
+
+#: kig/aboutdata.h:87
+msgid "Sent me a patch for some bugs."
+msgstr "Un parche pa dalgunos fallos."
+
+#: kig/aboutdata.h:90
+msgid "Robert Gogolok"
+msgstr "Robert Gogolok"
+
+#: kig/aboutdata.h:91
+msgid ""
+"Gave me some good feedback on Kig, some feature requests, cleanups and style "
+"fixes, and someone to chat with on irc :)"
+msgstr ""
+"Dellos bonos comentarios sobre Kig, delles suxerencies, axustes y meyores "
+"d'estilu y daquién col que charrar en irc :)"
+
+#: kig/aboutdata.h:96
+msgid "David Vignoni"
+msgstr "David Vignoni"
+
+#: kig/aboutdata.h:97
+msgid "Responsible for the nice application SVG Icon."
+msgstr "Responsable pol prestosu iconu SVG de l'aplicación."
+
+#: kig/aboutdata.h:100
+msgid "Danny Allen"
+msgstr "Danny Allen"
+
+#: kig/aboutdata.h:101
+msgid "Responsible for the new object action icons."
+msgstr "Responsable de los iconos d'aición pa oxetos nuevos."
+
+#: kig/kig.cpp:90
+msgid "Could not find the necessary Kig library, check your installation."
+msgstr ""
+"Nun se pudo atopar la biblioteca de Kig necesaria. Comprueba la to "
+"instalación."
+
+#: kig/kig.cpp:203
+#, kde-format
+msgid "Save changes to document %1?"
+msgstr "¿Grabar cambeos nel documentu %1?"
+
+#: kig/kig.cpp:204
+msgid "Save Changes?"
+msgstr "¿Grabar cambeos?"
+
+#: kig/kig.cpp:239
+msgid ""
+"*.kig *.kigz *.seg *.fgeo *.fig *.FIG|All Supported Files (*.kig *.kigz *."
+"seg *.fgeo *.fig)\n"
+"*.kig|Kig Documents (*.kig)\n"
+"*.kigz|Compressed Kig Documents (*.kigz)\n"
+"*.kgeo|KGeo Documents (*.kgeo)\n"
+"*.seg|KSeg Documents (*.seg)\n"
+"*.fgeo|Dr. Geo Documents (*.fgeo)\n"
+"*.fig *.FIG|Cabri Documents (*.fig *.FIG)"
+msgstr ""
+"*.kig *.kigz *.seg *.fgeo *.fig *.FIG|Tolos formatos soportaos (*.kig *.kigz "
+"*.seg *.fgeo *.fig)\n"
+"*.kig|Documentos Kig(*.kig)\n"
+"*.kigz|Documentos Kig comprimíos (*.kigz)\n"
+"*.kgeo|Documentos KGeo (*.kgeo)\n"
+"*.seg|Documentos KSeg(*.seg)\n"
+"*.fgeo|Documentos Dr. Geo(*.fgeo)\n"
+"*.fig *.FIG| Documentos Cabri (*.fig *.FIG)"
+
+#: kig/kig_commands.cpp:100
+#, kde-format
+msgid "Remove %1 Object"
+msgid_plural "Remove %1 Objects"
+msgstr[0] "Desaniciar %1 oxetu"
+msgstr[1] "Desaniciar %1 oxetos"
+
+#: kig/kig_commands.cpp:112
+#, kde-format
+msgid "Add %1 Object"
+msgid_plural "Add %1 Objects"
+msgstr[0] "Amestar %1 oxetu"
+msgstr[1] "Amestar %1 oxetos"
+
+#: kig/kig_part.cpp:86
+msgid "KigPart"
+msgstr "KigPart"
+
+#: kig/kig_part.cpp:90
+msgid "&Set Coordinate System"
+msgstr "Afitar &sistema de coordenaes"
+
+#: kig/kig_part.cpp:131
+msgid "Kig Options"
+msgstr "Opciones de Kig"
+
+#: kig/kig_part.cpp:135
+msgid "Show grid"
+msgstr "Amosar cuadrícula"
+
+#: kig/kig_part.cpp:138
+msgid "Show axes"
+msgstr "Amosar exes"
+
+#: kig/kig_part.cpp:227
+msgid "Invert Selection"
+msgstr "Invertir escoyeta"
+
+#: kig/kig_part.cpp:234
+msgid "&Delete Objects"
+msgstr "&Desaniciar oxetos"
+
+#: kig/kig_part.cpp:238
+msgid "Delete the selected objects"
+msgstr "Desaniciar los oxetos escoyíos"
+
+#: kig/kig_part.cpp:240
+msgid "Cancel Construction"
+msgstr "Encaboxar Construcción"
+
+#: kig/kig_part.cpp:245
+msgid "Cancel the construction of the object being constructed"
+msgstr "Encaboxar la construcción del oxetu que ta construyéndose"
+
+#: kig/kig_part.cpp:248
+msgid "Repeat Construction"
+msgstr "Repetir Construcción"
+
+#: kig/kig_part.cpp:253
+msgid "Repeat the last construction (with new data)"
+msgstr "Repetir la cabera construcción (con datos nuevos)"
+
+#: kig/kig_part.cpp:256 modes/popup.cc:936
+msgid "U&nhide All"
+msgstr "A&nubrir too"
+
+#: kig/kig_part.cpp:259
+msgid "Show all hidden objects"
+msgstr "Amosar tolos oxetos tapecíos"
+
+#: kig/kig_part.cpp:262
+msgid "&New Macro..."
+msgstr "&Macro nueva..."
+
+#: kig/kig_part.cpp:265
+msgid "Define a new macro"
+msgstr "Definir una macro nueva"
+
+#: kig/kig_part.cpp:267
+msgid "Manage &Types..."
+msgstr "Xestionar &tribes..."
+
+#: kig/kig_part.cpp:270
+msgid "Manage macro types."
+msgstr "Xestionar tribes de macros."
+
+#: kig/kig_part.cpp:272
+msgid "&Browse History..."
+msgstr "&Esplorar historial..."
+
+#: kig/kig_part.cpp:275
+msgid "Browse the history of the current construction."
+msgstr "Esplorar l'historial de la construcción actual."
+
+#: kig/kig_part.cpp:282 kig/kig_part.cpp:283
+msgid "Zoom in on the document"
+msgstr "Ampliar el documentu"
+
+#: kig/kig_part.cpp:287 kig/kig_part.cpp:288
+msgid "Zoom out of the document"
+msgstr "Menguar el documentu"
+
+#: kig/kig_part.cpp:294 kig/kig_part.cpp:295
+msgid "Recenter the screen on the document"
+msgstr "Volver a centrar la pantalla nel documentu"
+
+#: kig/kig_part.cpp:298 kig/kig_part.cpp:299
+msgid "View this document full-screen."
+msgstr "Ver esti documentu en pantalla completa"
+
+#: kig/kig_part.cpp:302
+msgid "&Select Shown Area"
+msgstr "&Escoyer estaya amosada"
+
+#: kig/kig_part.cpp:305 kig/kig_part.cpp:306
+msgid "Select the area that you want to be shown in the window."
+msgstr "Escueyi la estaya que quies ver na ventana."
+
+#: kig/kig_part.cpp:308
+msgid "S&elect Zoom Area"
+msgstr "&Escoyer estaya d'ampliación"
+
+#: kig/kig_part.cpp:314
+#, fuzzy
+#| msgid "Set &Coordinate..."
+msgid "Set Coordinate &Precision..."
+msgstr "Afitar &coordenada..."
+
+#: kig/kig_part.cpp:316
+msgid "Set the floating point precision of coordinates in the document. "
+msgstr ""
+
+#: kig/kig_part.cpp:319
+msgid "Show &Grid"
+msgstr "Amosar cua&drícula"
+
+#: kig/kig_part.cpp:321
+msgid "Show or hide the grid."
+msgstr "Amuesa o oculta la cuadrícula."
+
+#: kig/kig_part.cpp:325
+msgid "Show &Axes"
+msgstr "Amosar e&xes"
+
+#: kig/kig_part.cpp:327
+msgid "Show or hide the axes."
+msgstr "Amuesa o oculta los exes."
+
+#: kig/kig_part.cpp:331
+msgid "Wear Infrared Glasses"
+msgstr "Usar lentes infrarroxos"
+
+#: kig/kig_part.cpp:333
+msgid "Enable/disable hidden objects' visibility."
+msgstr ""
+
+#: kig/kig_part.cpp:365
+#, kde-format
+msgid "Repeat Construction (%1)"
+msgstr "Repetir construición (%1)"
+
+#: kig/kig_part.cpp:367
+#, kde-format
+msgid "Repeat %1 (with new data)"
+msgstr "Repetir %1 (con nuevos datos)"
+
+#: kig/kig_part.cpp:396
+#, kde-format
+msgid ""
+"The file \"%1\" you tried to open does not exist. Please verify that you "
+"entered the correct path."
+msgstr ""
+"Nun existe'l ficheru qu'intentó abrir, «%1». Faga'l favor de comprobar que "
+"metió la ruta correutamente."
+
+#: kig/kig_part.cpp:398
+msgid "File Not Found"
+msgstr "Ficheru nun atopáu"
+
+#: kig/kig_part.cpp:416
+#, kde-format
+msgid ""
+"You tried to open a document of type \"%1\"; unfortunately, Kig does not "
+"support this format. If you think the format in question would be worth "
+"implementing support for, you can always ask us nicely on mailto:pino@kde."
+"org or do the work yourself and send me a patch."
+msgstr ""
+"Intentó abrir un documentu del tipu «%1». Kig nun soporta esti formatu. Si "
+"cuida que'l formatu en cuestión pue merecer la pena, pue escribime a mailto:"
+"toscano.pino@tiscali.it o pue facer un parche y unvialu a esta mesma "
+"direición."
+
+#: kig/kig_part.cpp:422 kig/kig_part.cpp:465
+msgid "Format Not Supported"
+msgstr "Formatu non soportáu"
+
+#: kig/kig_part.cpp:463
+msgid ""
+"Kig does not support saving to any other file format than its own. Save to "
+"Kig's format instead?"
+msgstr ""
+"Kig nun pue guardar en nengún formatu que nun seya'l suyu propiu. ¿Quier "
+"guardar nel formatu de Kig?"
+
+#: kig/kig_part.cpp:465
+msgid "Save Kig Format"
+msgstr "Grabar en formatu Kig"
+
+#: kig/kig_part.cpp:700
+msgid ""
+"*.kig|Kig Documents (*.kig)\n"
+"*.kigz|Compressed Kig Documents (*.kigz)"
+msgstr ""
+"*.kig|Documentos Kig (*.kig)\n"
+"*.kigz|Documentos Kig Comprimíos(*.kigz)"
+
+#: kig/kig_part.cpp:711 misc/kigfiledialog.cc:54 modes/typesdialog.cpp:456
+#, kde-format
+msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
+msgstr "El ficheru «%1» yá esiste. ¿Deseya sobroscribilu?"
+
+#: kig/kig_part.cpp:712 misc/kigfiledialog.cc:55 modes/typesdialog.cpp:458
+msgid "Overwrite File?"
+msgstr "¿Sobroscribir Ficheru?"
+
+#: kig/kig_part.cpp:869
+msgid "Print Geometry"
+msgstr "Imprentar xeometría"
+
+#: kig/kig_part.cpp:936
+#, kde-format
+msgid "Hide %1 Object"
+msgid_plural "Hide %1 Objects"
+msgstr[0] "Tapecer %1 oxetu"
+msgstr[1] "Tapecer %1 oxetos"
+
+#: kig/kig_part.cpp:955
+#, kde-format
+msgid "Show %1 Object"
+msgid_plural "Show %1 Objects"
+msgstr[0] "Amosar %1 oxetu"
+msgstr[1] "Amosar %1 oxetos"
+
+#: kig/kig_view.cpp:220
+msgid "Zoom In"
+msgstr "Ampliar"
+
+#: kig/kig_view.cpp:240
+msgid "Zoom Out"
+msgstr "Menguar"
+
+#: kig/kig_view.cpp:520
+msgid "Recenter View"
+msgstr "Volver a centrar la vista"
+
+#: kig/kig_view.cpp:542
+msgid "Select the rectangle that should be shown."
+msgstr "Escueyi'l rectángulu que tenga qu'apaecer."
+
+#: kig/kig_view.cpp:550 kig/kig_view.cpp:598
+msgid "Change Shown Part of Screen"
+msgstr "Camudar la parte qu'apaez de la pantalla"
+
+#: kig/kig_view.cpp:587
+msgid "Select Zoom Area"
+msgstr "Escoyer estaya d'ampliación"
+
+#: kig/kig_view.cpp:588
+msgid ""
+"Select the zoom area by entering the coordinates<br />of the upper left "
+"corner and the lower right corner."
+msgstr ""
+"Escueyi la estaya d'ampliación indicando les coordenaes <br />de la esquina "
+"cimera izquierda y de la esquina baxera drecha."
+
+#: kig/main.cpp:98
+msgid "Kig"
+msgstr "Kig"
+
+#: kig/main.cpp:104
+msgid ""
+"Do not show a GUI. Convert the specified file to the native Kig format. "
+"Output goes to stdout unless --outfile is specified."
+msgstr ""
+"Nun amosar una interfaz gráfica. Convierte'l ficheru indicáu al formatu "
+"nativu de Kig. La salida apúrrese en stdou a nun ser que s'indique --outfile"
+
+#: kig/main.cpp:106
+msgid ""
+"File to output the created native file to. '-' means output to stdout. "
+"Default is stdout as well."
+msgstr ""
+"El ficheru nel que se va escribir el ficheru nativu que se cree. «-» "
+"significa stdout. La opción predeterminada tamién ye stdout."
+
+#: kig/main.cpp:107
+msgid "Document to open"
+msgstr "Documentu p'abrir"
 
 #: misc/builtin_stuff.cc:60
 msgid "Point by Numeric Labels"
@@ -1840,6 +1387,54 @@ msgstr "Programa de Python"
 msgid "Construct a new Python script."
 msgstr "Construyir un programa de Python nuevu."
 
+#: misc/coordinate_system.cpp:325
+msgid ""
+"Enter coordinates in the following format: \"x;y\",\n"
+"where x is the x coordinate, and y is the y coordinate."
+msgstr ""
+"Pon les coordenaes col formatu: «x;y»,\n"
+"onde x ye la coordenada x ya y ye la coordenada y."
+
+#: misc/coordinate_system.cpp:331
+msgid ""
+"Enter coordinates in the following format: <b>\"x;y\"</b>,<br />where x is "
+"the x coordinate, and y is the y coordinate."
+msgstr ""
+"Poner coordenaes nel siguiente formatu: <b>\"x;y\"</b>,<br />onde x ye la "
+"coordenada x, ya y ye la coordenada y."
+
+#: misc/coordinate_system.cpp:371
+msgid ""
+"Enter coordinates in the following format: \"r; θ°\",\n"
+"where r and θ are the polar coordinates."
+msgstr ""
+"Pon les coordenaes nel formatu: «r; θ°»,\n"
+"onde r y θ son les coordenaes polares."
+
+#: misc/coordinate_system.cpp:378
+msgid ""
+"Enter coordinates in the following format: <b>\"r; θ°\"</b>,<br />where r "
+"and θ are the polar coordinates."
+msgstr ""
+"Poner les coordenaes nel siguiente formatu: <b>\"r; θ°\"</b>,<br />onde r y "
+"θ son coordenaes polares."
+
+#: misc/coordinate_system.cpp:530
+msgid "&Euclidean"
+msgstr "&Euclídea"
+
+#: misc/coordinate_system.cpp:531
+msgid "&Polar"
+msgstr "&Polar"
+
+#: misc/coordinate_system.cpp:581
+msgid "Set Euclidean Coordinate System"
+msgstr "Afitar sistema de coordenaes euclideu"
+
+#: misc/coordinate_system.cpp:583
+msgid "Set Polar Coordinate System"
+msgstr "Afitar sistema de coordenaes polar"
+
 #: misc/goniometry.cc:122
 msgctxt "Translators: Degrees"
 msgid "Deg"
@@ -1899,14 +1494,17 @@ msgstr "Construyir un valor numbéricu"
 msgid "Numeric Value"
 msgstr "Valor numbéricu"
 
-#: misc/kigfiledialog.cc:54 kig/kig_part.cpp:711 modes/typesdialog.cpp:456
-#, kde-format
-msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
-msgstr "El ficheru «%1» yá esiste. ¿Deseya sobroscribilu?"
-
-#: misc/kigfiledialog.cc:55 kig/kig_part.cpp:712 modes/typesdialog.cpp:458
-msgid "Overwrite File?"
-msgstr "¿Sobroscribir Ficheru?"
+#. i18n: file: filters/asyexporteroptionswidget.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: filters/imageexporteroptionswidget.ui:120
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: filters/latexexporteroptionswidget.ui:82
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: filters/svgexporteroptionswidget.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: misc/kigfiledialog.cc:34 rc.cpp:110 rc.cpp:134 rc.cpp:164 rc.cpp:176
+msgid "Options"
+msgstr "Opciones"
 
 #: misc/kiginputdialog.cc:130
 msgid "Set Angle Size"
@@ -2007,12 +1605,12 @@ msgstr ""
 "xeométricu..."
 
 #: misc/special_constructors.cc:391
-msgid "Locus"
-msgstr "Locus"
-
-#: misc/special_constructors.cc:391
 msgid "A locus"
 msgstr "Un llugar xeométricu"
+
+#: misc/special_constructors.cc:391
+msgid "Locus"
+msgstr "Locus"
 
 #: misc/special_constructors.cc:481
 msgid "Dependent Point"
@@ -2559,13 +2157,13 @@ msgstr "Seleicionáu argumentu %1"
 msgid "Change Label"
 msgstr "Camudar etiqueta"
 
-#: modes/label.cc:645 objects/text_type.cc:325
-msgid "Set Value"
-msgstr "Afitar valor"
-
 #: modes/label.cc:645
 msgid "Enter value:"
 msgstr "Introduz valor:"
+
+#: modes/label.cc:645 objects/text_type.cc:325
+msgid "Set Value"
+msgstr "Afitar valor"
 
 #: modes/label.cc:676
 msgid "Select the position for the new numeric value..."
@@ -2725,6 +2323,12 @@ msgstr "&Amosar"
 msgid "&Move"
 msgstr "&Mover"
 
+#. i18n: file: modes/typeswidget.ui:112
+#. i18n: ectx: property (text), widget (KPushButton, buttonRemove)
+#: modes/popup.cc:390 modes/typesdialog.cpp:369 rc.cpp:233
+msgid "&Delete"
+msgstr "&Desaniciar"
+
 #: modes/popup.cc:400
 msgid "&Custom Color"
 msgstr "&Color personalizáu"
@@ -2737,13 +2341,13 @@ msgstr "Afitar &Nome..."
 msgid "&Name"
 msgstr "&Nombre"
 
-#: modes/popup.cc:529 modes/popup.cc:546
-msgid "Set Object Name"
-msgstr "Afitar Nome Oxetu"
-
 #: modes/popup.cc:529
 msgid "Set Name of this Object:"
 msgstr "Afitar Nome d'esti Oxetu:"
+
+#: modes/popup.cc:529 modes/popup.cc:546
+msgid "Set Object Name"
+msgstr "Afitar Nome Oxetu"
 
 #: modes/popup.cc:644
 msgid "Change Object Color"
@@ -2765,10 +2369,6 @@ msgstr "Camudar l'estilu del oxetu"
 msgctxt "More menu items"
 msgid "More..."
 msgstr "Más..."
-
-#: modes/popup.cc:936 kig/kig_part.cpp:256
-msgid "U&nhide All"
-msgstr "A&nubrir too"
 
 #: modes/textlabelwizard.cc:50
 msgid "Enter Label Text"
@@ -2806,6 +2406,73 @@ msgstr ""
 #: modes/textlabelwizard.cc:123
 msgid "Construct Label"
 msgstr "Construyir etiqueta"
+
+#: modes/typesdialog.cpp:130
+msgid "Macro"
+msgstr "Macro"
+
+#: modes/typesdialog.cpp:313
+msgid "Type"
+msgstr "Triba"
+
+#: modes/typesdialog.cpp:315
+msgid "Description"
+msgstr "Descripción"
+
+#: modes/typesdialog.cpp:339
+msgid "Manage Types"
+msgstr "Xestionar tribes"
+
+#. i18n: file: modes/typeswidget.ui:102
+#. i18n: ectx: property (text), widget (KPushButton, buttonEdit)
+#: modes/typesdialog.cpp:368 rc.cpp:227
+msgid "&Edit..."
+msgstr "&Editar..."
+
+#. i18n: file: modes/typeswidget.ui:154
+#. i18n: ectx: property (text), widget (KPushButton, buttonExport)
+#: modes/typesdialog.cpp:371 rc.cpp:239
+msgid "E&xport..."
+msgstr "E&sportar..."
+
+#: modes/typesdialog.cpp:426
+#, kde-format
+msgid "Are you sure you want to delete this type?"
+msgid_plural "Are you sure you want to delete these %1 types?"
+msgstr[0] "¿Tas seguru que quies desaniciar esta triba?"
+msgstr[1] "¿Tas seguru que quies desaniciar estes %1 tribes?"
+
+#: modes/typesdialog.cpp:428
+msgid "Are You Sure?"
+msgstr "¿Tas seguru?"
+
+#: modes/typesdialog.cpp:451 modes/typesdialog.cpp:466
+msgid ""
+"*.kigt|Kig Types Files\n"
+"*|All Files"
+msgstr ""
+"*.kigt|Ficheros de tribes de Kig\n"
+"*|Tolos ficheros"
+
+#: modes/typesdialog.cpp:451
+msgid "Export Types"
+msgstr "Tribes pa esportar"
+
+#: modes/typesdialog.cpp:466
+msgid "Import Types"
+msgstr "Tribes pa importar"
+
+#: modes/typesdialog.cpp:494
+msgid ""
+"There is more than one type selected. You can only edit one type at a time. "
+"Please select only the type you want to edit and try again."
+msgstr ""
+"Escoyiste más d'una triba. Sólo puedes editar una triba cada vez. Fai'l "
+"favor d'escoyer solamente la triba que quieras editar y prueba otra vuelta."
+
+#: modes/typesdialog.cpp:497
+msgid "More Than One Type Selected"
+msgstr "Escoyida más d'una triba"
 
 #: objects/angle_type.cc:40
 msgid "Construct an angle through this point"
@@ -3187,6 +2854,11 @@ msgstr ""
 msgid "Test Result"
 msgstr "Comprobar el resultáu"
 
+#: objects/centerofcurvature_type.cc:35 objects/tangent_type.cc:36 rc.cpp:263
+#: rc.cpp:268
+msgid "Select the curve..."
+msgstr "Seleiciona la curva..."
+
 #: objects/centerofcurvature_type.cc:36
 msgid "Select a point on the curve..."
 msgstr "Seleicionar un puntu sobro esta curva..."
@@ -3261,6 +2933,14 @@ msgstr "Anubrir una circunferencia"
 #: objects/circle_type.cc:32
 msgid "Construct a circle through this point"
 msgstr "Construyir una circunferencia que pase per esti puntu"
+
+#: objects/circle_type.cc:34 rc.cpp:249 rc.cpp:254
+msgid "Construct a circle with this center"
+msgstr "Construyir una circunferencia con esti centru"
+
+#: objects/circle_type.cc:39 objects/circle_type.cc:194 rc.cpp:251 rc.cpp:256
+msgid "Select the center of the new circle..."
+msgstr "Seleicionar el centru de la nueva circunferencia..."
 
 #: objects/circle_type.cc:41 objects/circle_type.cc:75
 #: objects/circle_type.cc:77 objects/circle_type.cc:79
@@ -3946,12 +3626,12 @@ msgid "Set &Length..."
 msgstr "Afitar &llargor..."
 
 #: objects/line_type.cc:243
-msgid "Set Segment Length"
-msgstr "Afitar llargor del segmentu"
-
-#: objects/line_type.cc:243
 msgid "Choose the new length: "
 msgstr "Escoyer el nuevu llargor: "
+
+#: objects/line_type.cc:243
+msgid "Set Segment Length"
+msgstr "Afitar llargor del segmentu"
 
 #: objects/line_type.cc:251
 msgid "Resize Segment"
@@ -4291,12 +3971,12 @@ msgid "Enter the new coordinate."
 msgstr "Pon la nueva coordenada."
 
 #: objects/point_type.cc:443
-msgid "Set Point Parameter"
-msgstr "Afitar parámetru de punteru"
-
-#: objects/point_type.cc:443
 msgid "Choose the new parameter: "
 msgstr "Escoyer el nuevu parámetru: "
+
+#: objects/point_type.cc:443
+msgid "Set Point Parameter"
+msgstr "Afitar parámetru de punteru"
 
 #: objects/point_type.cc:449
 msgid "Change Parameter of Constrained Point"
@@ -5499,6 +5179,572 @@ msgstr "Facer el veutor suma entamando nesti puntu."
 msgid "Select the point to construct the sum vector in..."
 msgstr "Seleicione'l puntu desque'l facer el veutor suma..."
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Daviz"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "daviz@hotmail.com"
+
+#. i18n: file: kig/kigpartui.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: kig/kigui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:5 rc.cpp:101
+msgid "&File"
+msgstr "&Ficheru"
+
+#. i18n: file: kig/kigpartui.rc:16
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:8
+msgid "&Edit"
+msgstr "&Editar"
+
+#. i18n: file: kig/kigpartui.rc:27
+#. i18n: ectx: Menu (view)
+#: rc.cpp:11
+msgid "&View"
+msgstr "&Ver"
+
+#. i18n: file: kig/kigpartui.rc:35
+#. i18n: ectx: Menu (objects)
+#: rc.cpp:14
+msgid "&Objects"
+msgstr "&Oxetos"
+
+#. i18n: file: kig/kigpartui.rc:37
+#. i18n: ectx: Menu (new_point)
+#: rc.cpp:17
+msgid "&Points"
+msgstr "&Puntos"
+
+#. i18n: file: kig/kigpartui.rc:49
+#. i18n: ectx: Menu (new_line)
+#: rc.cpp:20
+msgid "&Lines"
+msgstr "&Llinies"
+
+#. i18n: file: kig/kigpartui.rc:59
+#. i18n: ectx: Menu (new_circle)
+#: rc.cpp:23
+msgid "&Circles && Arcs"
+msgstr "&Círculos y Arcos"
+
+#. i18n: file: kig/kigpartui.rc:70
+#. i18n: ectx: Menu (new_poligon)
+#: rc.cpp:26
+msgid "Poly&gons"
+msgstr "Polí&gonos"
+
+#. i18n: file: kig/kigpartui.rc:82
+#. i18n: ectx: Menu (new_vector)
+#: rc.cpp:29
+msgid "&Vectors && Segments"
+msgstr "&Vectores y Segmentos"
+
+#. i18n: file: kig/kigpartui.rc:91
+#. i18n: ectx: Menu (new_conic)
+#: rc.cpp:32
+msgid "Co&nics && Cubics"
+msgstr "Có&niques y cubiques"
+
+#. i18n: file: kig/kigpartui.rc:98
+#. i18n: ectx: Menu (new_moreconics)
+#: rc.cpp:35
+msgid "More Conics"
+msgstr "Más cóniques"
+
+#. i18n: file: kig/kigpartui.rc:113
+#. i18n: ectx: Menu (new_cubic)
+#: rc.cpp:38
+msgid "Cu&bics"
+msgstr "Cú&biques"
+
+#. i18n: file: kig/kigpartui.rc:121
+#. i18n: ectx: Menu (new_bezier)
+#: rc.cpp:41
+msgid "&Bézier curves"
+msgstr ""
+
+#. i18n: file: kig/kigpartui.rc:131
+#. i18n: ectx: Menu (new_angle)
+#: rc.cpp:44
+msgid "&Angles"
+msgstr "&Ángulos"
+
+#. i18n: file: kig/kigpartui.rc:136
+#. i18n: ectx: Menu (new_transformation)
+#: rc.cpp:47
+msgid "&Transformations"
+msgstr "&Transformaciones"
+
+#. i18n: file: kig/kigpartui.rc:154
+#. i18n: ectx: Menu (new_differentialgeometry)
+#: rc.cpp:50
+msgid "&Differential geometry"
+msgstr "Xeometría &diferencial"
+
+#. i18n: file: kig/kigpartui.rc:161
+#. i18n: ectx: Menu (new_test)
+#: rc.cpp:53
+msgid "T&ests"
+msgstr "Pru&ebes"
+
+#. i18n: file: kig/kigpartui.rc:172
+#. i18n: ectx: Menu (new_other)
+#: rc.cpp:56
+msgid "&Other"
+msgstr "&Otru"
+
+#. i18n: file: kig/kigpartui.rc:186
+#. i18n: ectx: Menu (types)
+#: rc.cpp:59
+msgid "&Types"
+msgstr "&Tribes"
+
+#. i18n: file: kig/kigpartui.rc:191
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:62
+msgid "&Tools"
+msgstr "&Ferramientes"
+
+#. i18n: file: kig/kigpartui.rc:204
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: kig/kigui.rc:23
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:65 rc.cpp:107
+msgid "Main Toolbar"
+msgstr "Barra de ferramientes principal"
+
+#. i18n: file: kig/kigpartui.rc:218
+#. i18n: ectx: ToolBar (points_toolbar)
+#: rc.cpp:68
+msgid "Points"
+msgstr "Puntos"
+
+#. i18n: file: kig/kigpartui.rc:229
+#. i18n: ectx: ToolBar (line_toolbar)
+#: rc.cpp:71
+msgid "Lines"
+msgstr "Llinies"
+
+#. i18n: file: kig/kigpartui.rc:239
+#. i18n: ectx: ToolBar (vectseg_toolbar)
+#: rc.cpp:74
+msgid "Vectors && Segments"
+msgstr "Vectores y segmentos"
+
+#. i18n: file: kig/kigpartui.rc:247
+#. i18n: ectx: ToolBar (circle_toolbar)
+#: rc.cpp:77
+msgid "Circles && Arcs"
+msgstr "Circunferencies y arcos"
+
+#. i18n: file: kig/kigpartui.rc:255
+#. i18n: ectx: ToolBar (conic_toolbar)
+#: rc.cpp:80
+msgid "Conics"
+msgstr "Cóniques"
+
+#. i18n: file: kig/kigpartui.rc:264
+#. i18n: ectx: ToolBar (bezier_toolbar)
+#: rc.cpp:83
+msgid "Bézier Curves"
+msgstr ""
+
+#. i18n: file: kig/kigpartui.rc:274
+#. i18n: ectx: ToolBar (angles_toolbar)
+#: rc.cpp:86
+msgid "Angles"
+msgstr "Ángulos"
+
+#. i18n: file: kig/kigpartui.rc:279
+#. i18n: ectx: ToolBar (transformation_toolbar)
+#: rc.cpp:89
+msgid "Transformations"
+msgstr "Tresformaciones"
+
+#. i18n: file: kig/kigpartui.rc:293
+#. i18n: ectx: ToolBar (tests_toolbar)
+#: rc.cpp:92
+msgid "Tests"
+msgstr "Pruebes"
+
+#. i18n: file: kig/kigpartui.rc:305
+#. i18n: ectx: ToolBar (rest_toolbar)
+#: rc.cpp:95
+msgid "Other Objects"
+msgstr "Otros oxetos"
+
+#. i18n: file: kig/kigpartui.rc:313
+#. i18n: ectx: ToolBar (view_toolbar)
+#: rc.cpp:98
+msgid "View"
+msgstr "Ver"
+
+#. i18n: file: kig/kigui.rc:13
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:104
+msgid "&Settings"
+msgstr "&Configuración"
+
+#. i18n: file: filters/asyexporteroptionswidget.ui:42
+#. i18n: ectx: property (text), widget (QCheckBox, showFrameCheckBox)
+#. i18n: file: filters/latexexporteroptionswidget.ui:95
+#. i18n: ectx: property (text), widget (QCheckBox, showFrameCheckBox)
+#: rc.cpp:113 rc.cpp:170
+msgid "Show Extra Frame"
+msgstr "Amosar Marcu Extra"
+
+#. i18n: file: filters/asyexporteroptionswidget.ui:49
+#. i18n: ectx: property (text), widget (QCheckBox, showAxesCheckBox)
+#. i18n: file: filters/imageexporteroptionswidget.ui:140
+#. i18n: ectx: property (text), widget (QCheckBox, showAxesCheckBox)
+#. i18n: file: filters/latexexporteroptionswidget.ui:102
+#. i18n: ectx: property (text), widget (QCheckBox, showAxesCheckBox)
+#. i18n: file: filters/svgexporteroptionswidget.ui:42
+#. i18n: ectx: property (text), widget (QCheckBox, showAxesCheckBox)
+#: rc.cpp:116 rc.cpp:137 rc.cpp:173 rc.cpp:179
+msgid "Show Axes"
+msgstr "Amosar exes"
+
+#. i18n: file: filters/asyexporteroptionswidget.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox, showGridCheckBox)
+#. i18n: file: filters/imageexporteroptionswidget.ui:147
+#. i18n: ectx: property (text), widget (QCheckBox, showGridCheckBox)
+#. i18n: file: filters/latexexporteroptionswidget.ui:88
+#. i18n: ectx: property (text), widget (QCheckBox, showGridCheckBox)
+#. i18n: file: filters/svgexporteroptionswidget.ui:49
+#. i18n: ectx: property (text), widget (QCheckBox, showGridCheckBox)
+#: rc.cpp:119 rc.cpp:140 rc.cpp:167 rc.cpp:182
+msgid "Show Grid"
+msgstr "Amosar cuadrícula"
+
+#. i18n: file: filters/imageexporteroptionswidget.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:122
+msgid "Resolution"
+msgstr "Resolución"
+
+#. i18n: file: filters/imageexporteroptionswidget.ui:37
+#. i18n: ectx: property (text), widget (QCheckBox, keepAspectRatio)
+#: rc.cpp:125
+msgid "&Keep Aspect Ratio"
+msgstr "&Caltener les proporciones"
+
+#. i18n: file: filters/imageexporteroptionswidget.ui:54
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:128
+msgid "Height:"
+msgstr "Altor:"
+
+#. i18n: file: filters/imageexporteroptionswidget.ui:110
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:131
+msgid "Width:"
+msgstr "Anchor:"
+
+#. i18n: file: filters/latexexporteroptionswidget.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:143
+msgid "Output format"
+msgstr ""
+
+#. i18n: file: filters/latexexporteroptionswidget.ui:29
+#. i18n: ectx: property (text), widget (QRadioButton, psTricksRadioButton)
+#: rc.cpp:146
+msgid "PSTricks"
+msgstr ""
+
+#. i18n: file: filters/latexexporteroptionswidget.ui:36
+#. i18n: ectx: property (text), widget (QRadioButton, tikzRadioButton)
+#: rc.cpp:149
+msgid "Tikz/PGF"
+msgstr "Tikz/PGF"
+
+#. i18n: file: filters/latexexporteroptionswidget.ui:46
+#. i18n: ectx: property (text), widget (QRadioButton, asyRadioButton)
+#: rc.cpp:152
+msgid "Asymptote"
+msgstr ""
+
+#. i18n: file: filters/latexexporteroptionswidget.ui:56
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:155
+msgid "Document options"
+msgstr "Opciones de Documentu"
+
+#. i18n: file: filters/latexexporteroptionswidget.ui:62
+#. i18n: ectx: property (text), widget (QRadioButton, pictureRadioButton)
+#: rc.cpp:158
+msgid "Picture only"
+msgstr ""
+
+#. i18n: file: filters/latexexporteroptionswidget.ui:72
+#. i18n: ectx: property (text), widget (QRadioButton, documentRadioButton)
+#: rc.cpp:161
+msgid "Standalone document"
+msgstr ""
+
+#. i18n: file: misc/kigcoordinateprecisiondialog.ui:9
+#. i18n: ectx: property (text), widget (QCheckBox, m_defaultCheckBox)
+#: rc.cpp:185
+msgid "&Use default coordinate precision"
+msgstr ""
+
+#. i18n: file: misc/kigcoordinateprecisiondialog.ui:16
+#. i18n: ectx: property (text), widget (QLabel, m_precisionLabel)
+#: rc.cpp:188
+msgid "&Specify coordinate precision:"
+msgstr ""
+
+#. i18n: file: modes/edittypewidget.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:191
+msgid ""
+"Here you can modify the name, the description and the icon of this macro "
+"type."
+msgstr ""
+"Equí pue modificar el nome, la descripcion y l'iconu d'esta triba de macro."
+
+#. i18n: file: modes/edittypewidget.ui:73
+#. i18n: ectx: property (text), widget (QLabel, label_2_3)
+#: rc.cpp:194
+msgid "Name:"
+msgstr "Nome:"
+
+#. i18n: file: modes/edittypewidget.ui:93
+#. i18n: ectx: property (text), widget (QLabel, label_2_2_2)
+#: rc.cpp:197
+msgid "Description:"
+msgstr "Descripción:"
+
+#. i18n: file: modes/historywidget.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:200
+msgid "Description of the current step:"
+msgstr "Descripción del pasu d'anguaño:"
+
+#. i18n: file: modes/historywidget.ui:53
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonFirst)
+#: rc.cpp:203
+msgid "First step"
+msgstr "Primer pasu"
+
+#. i18n: file: modes/historywidget.ui:66
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBack)
+#: rc.cpp:206
+msgid "One step back"
+msgstr "Un pasu p'atrás"
+
+#. i18n: file: modes/historywidget.ui:82
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:209
+msgid "/"
+msgstr "/"
+
+#. i18n: file: modes/historywidget.ui:96
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonNext)
+#: rc.cpp:212
+msgid "One step forward"
+msgstr "Un pasu p'alantre"
+
+#. i18n: file: modes/historywidget.ui:109
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonLast)
+#: rc.cpp:215
+msgid "Last step"
+msgstr "Postrer pasu"
+
+#. i18n: file: modes/typeswidget.ui:37
+#. i18n: ectx: property (toolTip), widget (QTreeView, typeList)
+#: rc.cpp:218
+msgid "Select types here..."
+msgstr "Seleiciona equí les tribes..."
+
+#. i18n: file: modes/typeswidget.ui:40
+#. i18n: ectx: property (whatsThis), widget (QTreeView, typeList)
+#: rc.cpp:221
+msgid ""
+"This is a list of the current macro types... You can select, edit, delete, "
+"export and import them..."
+msgstr ""
+"Esta llista contién les tribes de macro actuales... Puede esbillalos, "
+"desanicialos, esportalos ya importalos..."
+
+#. i18n: file: modes/typeswidget.ui:99
+#. i18n: ectx: property (whatsThis), widget (KPushButton, buttonEdit)
+#: rc.cpp:224
+msgid "Edit the selected type."
+msgstr "Editar la triba seleicionada."
+
+#. i18n: file: modes/typeswidget.ui:109
+#. i18n: ectx: property (whatsThis), widget (KPushButton, buttonRemove)
+#: rc.cpp:230
+msgid "Delete all the selected types in the list."
+msgstr "Desaniciar les tribes seleicionaes na llista."
+
+#. i18n: file: modes/typeswidget.ui:151
+#. i18n: ectx: property (whatsThis), widget (KPushButton, buttonExport)
+#: rc.cpp:236
+msgid "Export all the selected types to a file."
+msgstr "Esportar toles tribes seleicionaes a un ficheru."
+
+#. i18n: file: modes/typeswidget.ui:161
+#. i18n: ectx: property (whatsThis), widget (KPushButton, buttonImport)
+#: rc.cpp:242
+msgid "Import macros that are contained in one or more files."
+msgstr "Importar macros que tean conteníos nún o más ficheros."
+
+#. i18n: file: modes/typeswidget.ui:164
+#. i18n: ectx: property (text), widget (KPushButton, buttonImport)
+#: rc.cpp:245
+msgid "&Import..."
+msgstr "&Importar..."
+
+#: rc.cpp:246
+msgid "Circle by Center && Line"
+msgstr "Circunferencia dada pol so centru y una reuta"
+
+#: rc.cpp:247
+msgid "A circle constructed by its center and tangent to a given line"
+msgstr ""
+"Una circunferencia construyía a partir del so centru y una reuta tanxente a "
+"tala circunferencia"
+
+#: rc.cpp:248
+msgid "Construct a circle tangent to this line"
+msgstr "Construyir una circunferencia de mou qu'esta reuta-y seya tanxente"
+
+#: rc.cpp:250
+msgid "Select the line that the new circle should be tangent to..."
+msgstr "Esbille una reuta tanxente a la nueva circunferencia..."
+
+#: rc.cpp:252
+msgid "Circle by Point && Segment (as the Diameter)"
+msgstr "Circunferencia dada por un puntu y un segmentu (diámetru)"
+
+#: rc.cpp:253
+msgid ""
+"A circle defined by its center and the length of a segment as the diameter"
+msgstr ""
+"Una circunferencia dada pol: so centru; y un segmentu cualesquiera "
+"representáu la llonxitú del diámetru"
+
+#: rc.cpp:255
+msgid ""
+"Construct a circle with the diameter given by the length of this segment"
+msgstr ""
+"Construyir una circunferencia de diámetru dau pola llonxitú d'esti segmentu"
+
+#: rc.cpp:257
+msgid "Select the segment whose length gives the diameter of the new circle..."
+msgstr ""
+"Esbille'l segmentu cuya llonxitú determinará'l diámetru de la nueva "
+"circunferencia..."
+
+#: rc.cpp:258
+msgid "Equilateral Triangle"
+msgstr "Triángulu equiláteru"
+
+#: rc.cpp:259
+msgid "Equilateral triangle with given two vertices"
+msgstr "Triángulu equiláteru dados dos vértices"
+
+#: rc.cpp:260
+msgid "Evolute"
+msgstr "Evoluta"
+
+#: rc.cpp:261
+msgid "Evolute of a curve"
+msgstr "Evoluta d'una curva"
+
+#: rc.cpp:262
+msgid "Evolute of this curve"
+msgstr "Evoluta d'esta curva"
+
+#: rc.cpp:264
+msgid "Osculating Circle"
+msgstr "Círculu de curvatura"
+
+#: rc.cpp:265
+msgid "Osculating circle of a curve at a point"
+msgstr "Círculu osculador d'una curva nún puntu dau"
+
+#: rc.cpp:266
+msgid "Osculating circle of this curve"
+msgstr "Círculu osculador d'esta curva"
+
+#: rc.cpp:267
+msgid "Osculating circle at this point"
+msgstr "Círculu osculador nesti puntu"
+
+#: rc.cpp:269
+msgid "Select the point..."
+msgstr "Seleiciona'l puntu..."
+
+#: rc.cpp:270
+msgid "Segment Axis"
+msgstr "Exe de segmentu"
+
+#: rc.cpp:271
+msgid "The perpendicular line through a given segment's mid point."
+msgstr "La reuta perpendicular al segmentu dau que lu corta pel puntu mediu."
+
+#: rc.cpp:272
+msgid "Construct the axis of this segment"
+msgstr "Construyir l'exe d'esti segmentu"
+
+#: rc.cpp:273
+msgid "Select the segment of which you want to draw the axis..."
+msgstr "Esbille un segmentu pal que quiera construyir l'exe..."
+
+#: rc.cpp:274
+msgid "Square"
+msgstr "Cuadrado"
+
+#: rc.cpp:275
+msgid "Square with two given adjacent vertices"
+msgstr "Cuadráu a partir de dos vértices adyacentes daos"
+
+#: rc.cpp:276
+msgid "Vector Difference"
+msgstr "Vector diferencia"
+
+#: rc.cpp:277
+msgid "Construct the vector difference of two vectors."
+msgstr "Construye'l vector diferencia de dos vectores."
+
+#: rc.cpp:278
+msgid "Construct the vector difference of this vector and another one."
+msgstr "Construyir el vector diferencia d'esti vector y d'otru."
+
+#: rc.cpp:279
+msgid "Construct the vector difference of the other vector and this one."
+msgstr "Construyir el vector diferencia del otru vector y d'ésti."
+
+#: rc.cpp:280
+msgid "Construct the vector difference starting at this point."
+msgstr "Construyir el vector diferencia comenzando nesti puntu."
+
+#: rc.cpp:281
+msgid ""
+"Select the first of the two vectors of which you want to construct the "
+"difference..."
+msgstr "Escueyi'l vector minuendu..."
+
+#: rc.cpp:282
+msgid ""
+"Select the other of the two vectors of which you want to construct the "
+"difference..."
+msgstr "Escueyi'l vector sustraendu..."
+
+#: rc.cpp:283
+msgid "Select the point to construct the difference vector in..."
+msgstr "Escueyi un puntu que perteneza al vector diferencia..."
+
 #: scripting/newscriptwizard.cc:63
 msgid "New Script"
 msgstr "Nuevu programa"
@@ -5584,426 +5830,180 @@ msgstr ""
 "qu'hubiere errores, pero'l programa nun xenera un oxetu válidu. Corrixa'l "
 "programa."
 
-#: kig/kig_commands.cpp:100
-#, kde-format
-msgid "Remove %1 Object"
-msgid_plural "Remove %1 Objects"
-msgstr[0] "Desaniciar %1 oxetu"
-msgstr[1] "Desaniciar %1 oxetos"
-
-#: kig/kig_commands.cpp:112
-#, kde-format
-msgid "Add %1 Object"
-msgid_plural "Add %1 Objects"
-msgstr[0] "Amestar %1 oxetu"
-msgstr[1] "Amestar %1 oxetos"
-
-#: kig/kig.cpp:90
-msgid "Could not find the necessary Kig library, check your installation."
-msgstr ""
-"Nun se pudo atopar la biblioteca de Kig necesaria. Comprueba la to "
-"instalación."
-
-#: kig/kig.cpp:203
-#, kde-format
-msgid "Save changes to document %1?"
-msgstr "¿Grabar cambeos nel documentu %1?"
-
-#: kig/kig.cpp:204
-msgid "Save Changes?"
-msgstr "¿Grabar cambeos?"
-
-#: kig/kig.cpp:239
+#. i18n: file: tips:2
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:3
 msgid ""
-"*.kig *.kigz *.seg *.fgeo *.fig *.FIG|All Supported Files (*.kig *.kigz *."
-"seg *.fgeo *.fig)\n"
-"*.kig|Kig Documents (*.kig)\n"
-"*.kigz|Compressed Kig Documents (*.kigz)\n"
-"*.kgeo|KGeo Documents (*.kgeo)\n"
-"*.seg|KSeg Documents (*.seg)\n"
-"*.fgeo|Dr. Geo Documents (*.fgeo)\n"
-"*.fig *.FIG|Cabri Documents (*.fig *.FIG)"
+"<p>You can control a kig construction by means of a \"pykig\" \n"
+"python script, that can be executed with the command \n"
+"<code>pykig.py</code>.  Here is a nice example \n"
+"(<code>hexagons.kpy</code>) you can try:\n"
+"<code><pre>\n"
+"kigdocument.hideobjects()\n"
+"def hexagons (c, v, n):\n"
+"  hexagon = PolygonBCV (c, v, 6)\n"
+"  if n &lt;= 0:\n"
+"    hexagon.show()\n"
+"    for i in range(6): \n"
+"      PolygonSide (hexagon, i, True)\n"
+"    return\n"
+"  cnew = MidPoints (c, v)\n"
+"  hexagons (cnew, v, n-1)\n"
+"  for k in [2,4]:\n"
+"    v1 = PolygonVertex (hexagon, k)\n"
+"    cnew = MidPoints (c, v1)\n"
+"    hexagons (cnew, v1, n-1)\n"
+"hexagons (Point(0,0), Point(1,0), 5)\n"
+"</pre></code>\n"
 msgstr ""
-"*.kig *.kigz *.seg *.fgeo *.fig *.FIG|Tolos formatos soportaos (*.kig *.kigz "
-"*.seg *.fgeo *.fig)\n"
-"*.kig|Documentos Kig(*.kig)\n"
-"*.kigz|Documentos Kig comprimíos (*.kigz)\n"
-"*.kgeo|Documentos KGeo (*.kgeo)\n"
-"*.seg|Documentos KSeg(*.seg)\n"
-"*.fgeo|Documentos Dr. Geo(*.fgeo)\n"
-"*.fig *.FIG| Documentos Cabri (*.fig *.FIG)"
+"<p>Pue controlar la construición de kig a través d'un programa\n"
+"escritu en python «pykig», que pue executase cola orde\n"
+"<code>pykig.py</code>. Veamos un exemplu\n"
+"(<code>hexagons.kpy</code>) col que pue prebar:\n"
+"<code><pre>\n"
+"kigdocument.hideobjects()\n"
+"def hexagonos (c, v, n):\n"
+"  hexagonu = PolygonBCV (c, v, 6)\n"
+"  if n &lt;= 0:\n"
+"    hexagonu.show()\n"
+"    for i in range(6): \n"
+"      PolygonSide (hexagonu, i, True)\n"
+"    return\n"
+"  cnew = MidPoints (c, v)\n"
+"  hexagonos (cnew, v, n-1)\n"
+"  for k in [2,4]:\n"
+"    v1 = PolygonVertex (hexagonu, k)\n"
+"    cnew = MidPoints (c, v1)\n"
+"    hexagonos (cnew, v1, n-1)\n"
+"hexagonos (Point(0,0), Point(1,0), 5)\n"
+"</pre></code>\n"
 
-#: kig/kig_part.cpp:86
-msgid "KigPart"
-msgstr "KigPart"
-
-#: kig/kig_part.cpp:90
-msgid "&Set Coordinate System"
-msgstr "Afitar &sistema de coordenaes"
-
-#: kig/kig_part.cpp:131
-msgid "Kig Options"
-msgstr "Opciones de Kig"
-
-#: kig/kig_part.cpp:135
-msgid "Show grid"
-msgstr "Amosar cuadrícula"
-
-#: kig/kig_part.cpp:138
-msgid "Show axes"
-msgstr "Amosar exes"
-
-#: kig/kig_part.cpp:227
-msgid "Invert Selection"
-msgstr "Invertir escoyeta"
-
-#: kig/kig_part.cpp:234
-msgid "&Delete Objects"
-msgstr "&Desaniciar oxetos"
-
-#: kig/kig_part.cpp:238
-msgid "Delete the selected objects"
-msgstr "Desaniciar los oxetos escoyíos"
-
-#: kig/kig_part.cpp:240
-msgid "Cancel Construction"
-msgstr "Encaboxar Construcción"
-
-#: kig/kig_part.cpp:245
-msgid "Cancel the construction of the object being constructed"
-msgstr "Encaboxar la construcción del oxetu que ta construyéndose"
-
-#: kig/kig_part.cpp:248
-msgid "Repeat Construction"
-msgstr "Repetir Construcción"
-
-#: kig/kig_part.cpp:253
-msgid "Repeat the last construction (with new data)"
-msgstr "Repetir la cabera construcción (con datos nuevos)"
-
-#: kig/kig_part.cpp:259
-msgid "Show all hidden objects"
-msgstr "Amosar tolos oxetos tapecíos"
-
-#: kig/kig_part.cpp:262
-msgid "&New Macro..."
-msgstr "&Macro nueva..."
-
-#: kig/kig_part.cpp:265
-msgid "Define a new macro"
-msgstr "Definir una macro nueva"
-
-#: kig/kig_part.cpp:267
-msgid "Manage &Types..."
-msgstr "Xestionar &tribes..."
-
-#: kig/kig_part.cpp:270
-msgid "Manage macro types."
-msgstr "Xestionar tribes de macros."
-
-#: kig/kig_part.cpp:272
-msgid "&Browse History..."
-msgstr "&Esplorar historial..."
-
-#: kig/kig_part.cpp:275
-msgid "Browse the history of the current construction."
-msgstr "Esplorar l'historial de la construcción actual."
-
-#: kig/kig_part.cpp:282 kig/kig_part.cpp:283
-msgid "Zoom in on the document"
-msgstr "Ampliar el documentu"
-
-#: kig/kig_part.cpp:287 kig/kig_part.cpp:288
-msgid "Zoom out of the document"
-msgstr "Menguar el documentu"
-
-#: kig/kig_part.cpp:294 kig/kig_part.cpp:295
-msgid "Recenter the screen on the document"
-msgstr "Volver a centrar la pantalla nel documentu"
-
-#: kig/kig_part.cpp:298 kig/kig_part.cpp:299
-msgid "View this document full-screen."
-msgstr "Ver esti documentu en pantalla completa"
-
-#: kig/kig_part.cpp:302
-msgid "&Select Shown Area"
-msgstr "&Escoyer estaya amosada"
-
-#: kig/kig_part.cpp:305 kig/kig_part.cpp:306
-msgid "Select the area that you want to be shown in the window."
-msgstr "Escueyi la estaya que quies ver na ventana."
-
-#: kig/kig_part.cpp:308
-msgid "S&elect Zoom Area"
-msgstr "&Escoyer estaya d'ampliación"
-
-#: kig/kig_part.cpp:314
-#, fuzzy
-#| msgid "Set &Coordinate..."
-msgid "Set Coordinate &Precision..."
-msgstr "Afitar &coordenada..."
-
-#: kig/kig_part.cpp:316
-msgid "Set the floating point precision of coordinates in the document. "
-msgstr ""
-
-#: kig/kig_part.cpp:319
-msgid "Show &Grid"
-msgstr "Amosar cua&drícula"
-
-#: kig/kig_part.cpp:321
-msgid "Show or hide the grid."
-msgstr "Amuesa o oculta la cuadrícula."
-
-#: kig/kig_part.cpp:325
-msgid "Show &Axes"
-msgstr "Amosar e&xes"
-
-#: kig/kig_part.cpp:327
-msgid "Show or hide the axes."
-msgstr "Amuesa o oculta los exes."
-
-#: kig/kig_part.cpp:331
-msgid "Wear Infrared Glasses"
-msgstr "Usar lentes infrarroxos"
-
-#: kig/kig_part.cpp:333
-msgid "Enable/disable hidden objects' visibility."
-msgstr ""
-
-#: kig/kig_part.cpp:365
-#, kde-format
-msgid "Repeat Construction (%1)"
-msgstr "Repetir construición (%1)"
-
-#: kig/kig_part.cpp:367
-#, kde-format
-msgid "Repeat %1 (with new data)"
-msgstr "Repetir %1 (con nuevos datos)"
-
-#: kig/kig_part.cpp:396
-#, kde-format
+#. i18n: file: tips:28
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:28
 msgid ""
-"The file \"%1\" you tried to open does not exist. Please verify that you "
-"entered the correct path."
+"<p>You can repeat the latest construction simply by pressing the key\n"
+"'Z'; this comes in very handy if you need to construct a sequence\n"
+"of objects with the same construction, especially if there is\n"
+"no shortcut for that construction.</p>\n"
 msgstr ""
-"Nun existe'l ficheru qu'intentó abrir, «%1». Faga'l favor de comprobar que "
-"metió la ruta correutamente."
+"<p>Pue repitir la postrera construición con solo calcar la tecla\n"
+"«Z», lo que ye perpráutico si necesita construyir una secuencia\n"
+"d'oxetos cola mesma construición, especialmente si nun hai\n"
+"accesu rápidu pa esta construición.</p>\n"
 
-#: kig/kig_part.cpp:398
-msgid "File Not Found"
-msgstr "Ficheru nun atopáu"
-
-#: kig/kig_part.cpp:416
-#, kde-format
+#. i18n: file: tips:37
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:36
 msgid ""
-"You tried to open a document of type \"%1\"; unfortunately, Kig does not "
-"support this format. If you think the format in question would be worth "
-"implementing support for, you can always ask us nicely on mailto:pino@kde."
-"org or do the work yourself and send me a patch."
+"<p>One of the most powerful tools in Kig are the menus that you can\n"
+"enter by right-clicking on an object, or on some empty space in the\n"
+"document.  You can use them to give objects names, change their colors\n"
+"and line styles, and lots of other interesting things.</p>\n"
 msgstr ""
-"Intentó abrir un documentu del tipu «%1». Kig nun soporta esti formatu. Si "
-"cuida que'l formatu en cuestión pue merecer la pena, pue escribime a mailto:"
-"toscano.pino@tiscali.it o pue facer un parche y unvialu a esta mesma "
-"direición."
+"<p>Una de les ferramientes más potentes de Kig son los menús que pue\n"
+"meter calcando'l botón derechu sobre un oxetu o sobre un espaciu\n"
+"vacíu del documentu. Pue usar estos menús pa dar nomatu a los oxetos,\n"
+"camudar los collores y los estilos de les rectes, etc</p>\n"
 
-#: kig/kig_part.cpp:422 kig/kig_part.cpp:465
-msgid "Format Not Supported"
-msgstr "Formatu non soportáu"
-
-#: kig/kig_part.cpp:463
+#. i18n: file: tips:46
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:44
 msgid ""
-"Kig does not support saving to any other file format than its own. Save to "
-"Kig's format instead?"
+"<p>You can construct new points without using the menu or the toolbar, "
+"simply\n"
+"clicking somewhere on the Kig document with the <em>middle mouse\n"
+"button</em>.</p>\n"
 msgstr ""
-"Kig nun pue guardar en nengún formatu que nun seya'l suyu propiu. ¿Quier "
-"guardar nel formatu de Kig?"
+"<p>Pue construyir puntos nuevos ensin usar la barra menú nin la barra\n"
+"de ferramientes. Simplemente faga clic en dalgún llugar del documentu de\n"
+"Kig col <em>botón central del mur</em>.</p>\n"
 
-#: kig/kig_part.cpp:465
-msgid "Save Kig Format"
-msgstr "Grabar en formatu Kig"
-
-#: kig/kig_part.cpp:700
+#. i18n: file: tips:54
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:51
 msgid ""
-"*.kig|Kig Documents (*.kig)\n"
-"*.kigz|Compressed Kig Documents (*.kigz)"
+"<p>Kig can open several file formats: its files (<code>.kig</code> files),\n"
+"<em>KGeo</em> files, <em>KSeg</em> files, and, partially, <em>Dr. Geo</em>\n"
+"and <em>Cabri&#8482;</em> files.</p>\n"
 msgstr ""
-"*.kig|Documentos Kig (*.kig)\n"
-"*.kigz|Documentos Kig Comprimíos(*.kigz)"
+"<p>Kig pue abrir dellos formatos de ficheros: Los sos propios ficheros "
+"(<code>.kig</code> files),\n"
+"ficheros de <em>KGeo</em>, <em>KSeg</em>, <em>Dr. Geo</em> (parcialmente)\n"
+"y <em>Cabri&#8482;</em>.</p>\n"
 
-#: kig/kig_part.cpp:869
-msgid "Print Geometry"
-msgstr "Imprentar xeometría"
-
-#: kig/kig_part.cpp:936
-#, kde-format
-msgid "Hide %1 Object"
-msgid_plural "Hide %1 Objects"
-msgstr[0] "Tapecer %1 oxetu"
-msgstr[1] "Tapecer %1 oxetos"
-
-#: kig/kig_part.cpp:955
-#, kde-format
-msgid "Show %1 Object"
-msgid_plural "Show %1 Objects"
-msgstr[0] "Amosar %1 oxetu"
-msgstr[1] "Amosar %1 oxetos"
-
-#: kig/kig_view.cpp:220
-msgid "Zoom In"
-msgstr "Ampliar"
-
-#: kig/kig_view.cpp:240
-msgid "Zoom Out"
-msgstr "Menguar"
-
-#: kig/kig_view.cpp:520
-msgid "Recenter View"
-msgstr "Volver a centrar la vista"
-
-#: kig/kig_view.cpp:542
-msgid "Select the rectangle that should be shown."
-msgstr "Escueyi'l rectángulu que tenga qu'apaecer."
-
-#: kig/kig_view.cpp:550 kig/kig_view.cpp:598
-msgid "Change Shown Part of Screen"
-msgstr "Camudar la parte qu'apaez de la pantalla"
-
-#: kig/kig_view.cpp:587
-msgid "Select Zoom Area"
-msgstr "Escoyer estaya d'ampliación"
-
-#: kig/kig_view.cpp:588
+#. i18n: file: tips:62
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:58
 msgid ""
-"Select the zoom area by entering the coordinates<br />of the upper left "
-"corner and the lower right corner."
+"<p>Kig has more than 20 objects and 10 transformations with more than 80 \n"
+"constructions you can use in your documents: open the <em>Objects</em> \n"
+"menu to see them all.</p>\n"
 msgstr ""
-"Escueyi la estaya d'ampliación indicando les coordenaes <br />de la esquina "
-"cimera izquierda y de la esquina baxera drecha."
+"<p> Kig tien más de 20 oxetos y 10 tresformaciones con más d'80 \n"
+"construiciones que pue usar nos sos documentos: abra'l menú \n"
+"<em>Oxetos</em> pa velos toos.</p>\n"
 
-#: kig/main.cpp:98
-msgid "Kig"
-msgstr "Kig"
-
-#: kig/main.cpp:104
+#. i18n: file: tips:70
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:65
 msgid ""
-"Do not show a GUI. Convert the specified file to the native Kig format. "
-"Output goes to stdout unless --outfile is specified."
+"<p>You can use the selected objects to start the construction of an object\n"
+"which requires the selected objects as arguments. For example, if you have "
+"two\n"
+"points selected, you can choose <em>Start->Circle by Three Points</em> from "
+"the\n"
+"popup menu to start constructing a circle by three points.</p>\n"
 msgstr ""
-"Nun amosar una interfaz gráfica. Convierte'l ficheru indicáu al formatu "
-"nativu de Kig. La salida apúrrese en stdou a nun ser que s'indique --outfile"
+"<p>Ye posible construyir nuevos oxetos a partir d'oxetos\n"
+"escoyíos que tienen de ser pasaos como argumentos.Por exemplu, si "
+"s'escoyeron dos puntos,\n"
+"y s'executa <em>Entamar->Circunferencia per tres puntos</em> dende'l\n"
+"menú desplegable, la circunferencia se construyirá a partir de los dos "
+"puntos enantes escoyíos</p>\n"
 
-#: kig/main.cpp:106
+#. i18n: file: tips:79
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:73
 msgid ""
-"File to output the created native file to. '-' means output to stdout. "
-"Default is stdout as well."
+"<p>Kig can extends its object set using external macros. You can find some\n"
+"interesting macros on the Kig website:\n"
+"<a href=\"http://edu.kde.org/kig\">http://edu.kde.org/kig</a>.</p>\n"
 msgstr ""
-"El ficheru nel que se va escribir el ficheru nativu que se cree. «-» "
-"significa stdout. La opción predeterminada tamién ye stdout."
+"<p>Kig pue estender el so conxuntu d'oxetos mediante macros esternes. Podrá\n"
+"atopase exemplos pa eses macros nel sitiu web de Kig:\n"
+"<a href=\"http://edu.kde.org/kig\">http://edu.kde.org/kig</a>.</p>\n"
 
-#: kig/main.cpp:107
-msgid "Document to open"
-msgstr "Documentu p'abrir"
-
-#: misc/coordinate_system.cpp:325
+#. i18n: file: tips:87
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:80
 msgid ""
-"Enter coordinates in the following format: \"x;y\",\n"
-"where x is the x coordinate, and y is the y coordinate."
+"<p>If you have more than one object under the mouse, and you want to select "
+"any\n"
+"of them, you can click with the <em>left mouse button</em>, while holding "
+"the\n"
+"<em>Shift</em> key, to get a list of the objects under the mouse cursor "
+"which\n"
+"you can then select from.</p>\n"
 msgstr ""
-"Pon les coordenaes col formatu: «x;y»,\n"
-"onde x ye la coordenada x ya y ye la coordenada y."
+"<p>A vegaes, atopamos más d'un oxetu tuviere debaxo del cursor del mur, si "
+"quisiéremos seleicionar dalgún d'ellos en particular, tenemos de facer clic "
+"col <em>botón izquierdu del mur</em> demientres calcamos la tecla <em>Shift</"
+"em>. Asina, obtendremos una llista de los oxetos disponibles debaxo'l cursor "
+"del mur.</p>\n"
 
-#: misc/coordinate_system.cpp:331
+#. i18n: file: tips:96
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:88
 msgid ""
-"Enter coordinates in the following format: <b>\"x;y\"</b>,<br />where x is "
-"the x coordinate, and y is the y coordinate."
+"<p>When you construct a locus, you can click on it with the <em>right</em> "
+"mouse\n"
+"button and select <em>cartesian equation</em> to see its cartesian "
+"equation, \n"
+"whenever it is an algebraic curve of low degree.</p>\n"
 msgstr ""
-"Poner coordenaes nel siguiente formatu: <b>\"x;y\"</b>,<br />onde x ye la "
-"coordenada x, ya y ye la coordenada y."
-
-#: misc/coordinate_system.cpp:371
-msgid ""
-"Enter coordinates in the following format: \"r; θ°\",\n"
-"where r and θ are the polar coordinates."
-msgstr ""
-"Pon les coordenaes nel formatu: «r; θ°»,\n"
-"onde r y θ son les coordenaes polares."
-
-#: misc/coordinate_system.cpp:378
-msgid ""
-"Enter coordinates in the following format: <b>\"r; θ°\"</b>,<br />where r "
-"and θ are the polar coordinates."
-msgstr ""
-"Poner les coordenaes nel siguiente formatu: <b>\"r; θ°\"</b>,<br />onde r y "
-"θ son coordenaes polares."
-
-#: misc/coordinate_system.cpp:530
-msgid "&Euclidean"
-msgstr "&Euclídea"
-
-#: misc/coordinate_system.cpp:531
-msgid "&Polar"
-msgstr "&Polar"
-
-#: misc/coordinate_system.cpp:581
-msgid "Set Euclidean Coordinate System"
-msgstr "Afitar sistema de coordenaes euclideu"
-
-#: misc/coordinate_system.cpp:583
-msgid "Set Polar Coordinate System"
-msgstr "Afitar sistema de coordenaes polar"
-
-#: modes/typesdialog.cpp:130
-msgid "Macro"
-msgstr "Macro"
-
-#: modes/typesdialog.cpp:313
-msgid "Type"
-msgstr "Triba"
-
-#: modes/typesdialog.cpp:315
-msgid "Description"
-msgstr "Descripción"
-
-#: modes/typesdialog.cpp:339
-msgid "Manage Types"
-msgstr "Xestionar tribes"
-
-#: modes/typesdialog.cpp:426
-#, kde-format
-msgid "Are you sure you want to delete this type?"
-msgid_plural "Are you sure you want to delete these %1 types?"
-msgstr[0] "¿Tas seguru que quies desaniciar esta triba?"
-msgstr[1] "¿Tas seguru que quies desaniciar estes %1 tribes?"
-
-#: modes/typesdialog.cpp:428
-msgid "Are You Sure?"
-msgstr "¿Tas seguru?"
-
-#: modes/typesdialog.cpp:451 modes/typesdialog.cpp:466
-msgid ""
-"*.kigt|Kig Types Files\n"
-"*|All Files"
-msgstr ""
-"*.kigt|Ficheros de tribes de Kig\n"
-"*|Tolos ficheros"
-
-#: modes/typesdialog.cpp:451
-msgid "Export Types"
-msgstr "Tribes pa esportar"
-
-#: modes/typesdialog.cpp:466
-msgid "Import Types"
-msgstr "Tribes pa importar"
-
-#: modes/typesdialog.cpp:494
-msgid ""
-"There is more than one type selected. You can only edit one type at a time. "
-"Please select only the type you want to edit and try again."
-msgstr ""
-"Escoyiste más d'una triba. Sólo puedes editar una triba cada vez. Fai'l "
-"favor d'escoyer solamente la triba que quieras editar y prueba otra vuelta."
-
-#: modes/typesdialog.cpp:497
-msgid "More Than One Type Selected"
-msgstr "Escoyida más d'una triba"
+"<p>Cuando se construye un locus, pue calcar sobre'l col botón <em>derechu</"
+"em> del mur\n"
+"y seleicione la <em>ecuación cartesiana</em> pa ver la so ecuación \n"
+"cartesiana, qu'en cualesquier casu ye una curva alxebraica de grau baxu.</"
+"p>\n"

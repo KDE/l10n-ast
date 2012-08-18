@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-07 04:51+0100\n"
+"POT-Creation-Date: 2012-08-18 04:21+0200\n"
 "PO-Revision-Date: 2010-10-19 22:55+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -21,6 +21,48 @@ msgstr ""
 #: bookmarkmanager.cpp:53
 msgid "History"
 msgstr "Hestorial"
+
+#: config/hostpreferenceslist.cpp:49
+msgid "Configure..."
+msgstr "Configurar..."
+
+#: config/hostpreferenceslist.cpp:55
+msgid "Remove"
+msgstr "Desaniciar"
+
+#: config/hostpreferenceslist.cpp:118 mainwindow.cpp:679
+msgid "The selected host cannot be handled."
+msgstr "La máquina esbillada nun puede algamase."
+
+#: config/hostpreferenceslist.cpp:119 mainwindow.cpp:339 mainwindow.cpp:680
+msgid "Unusable URL"
+msgstr "URL inutilizable"
+
+#: config/preferencesdialog.cpp:43
+msgctxt "General Config"
+msgid "General"
+msgstr "Xeneral"
+
+#: config/preferencesdialog.cpp:43
+msgid "General Configuration"
+msgstr "Configuración xeneral"
+
+#: config/preferencesdialog.cpp:48 core/hostpreferences.cpp:181
+#: core/hostpreferences.cpp:187
+msgid "Host Configuration"
+msgstr "Configuración del anfitrión"
+
+#: config/preferencesdialog.cpp:48
+msgid "Hosts"
+msgstr "Máquines"
+
+#: config/preferencesdialog.cpp:53 config/preferencesdialog.cpp:55
+msgid "Plugins"
+msgstr "Complementos"
+
+#: config/preferencesdialog.cpp:55
+msgid "Plugin Configuration"
+msgstr "Configuración de complementos"
 
 #: connectiondelegate.cpp:50
 msgid "Less than a minute ago"
@@ -61,9 +103,70 @@ msgid_plural "%1 years ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: main.cpp:39 krdc_approver/main.cpp:38
+#: core/hostpreferences.cpp:190
+msgid ""
+"Note that settings might only apply when you connect next time to this host."
+msgstr ""
+"Tener en cuenta que les configuraciones namái podrán aplicase cuando se "
+"coneute otra vegada a esti dominiu."
+
+#: core/hostpreferences.cpp:205
+msgid "Show this dialog again for this host"
+msgstr "Amosar de nuevu esti diálogu pa esti sirvidor"
+
+#: core/hostpreferences.cpp:209
+msgid "Remember password (KWallet)"
+msgstr "Remembrar contraseña (KWallet)"
+
+#: konsole/konsoleviewfactory.cpp:68
+msgid "New Konsole Connection..."
+msgstr "Nueva consola de conexón..."
+
+#: konsole/konsoleviewfactory.cpp:73
+msgid "KRDC Konsole Connection"
+msgstr "Conexones de consola KRDC"
+
+#: konsole/konsoleviewfactory.cpp:78
+msgid ""
+"<html>Enter the address here. Port is optional.<br /><i>Example: "
+"konsoleserver (host)</i></html>"
+msgstr ""
+"<html>Introducir la direición equí. El puertu ye opcional.<br /><i>Exemplu: "
+"rdpserver:3389 (host:port)</i></html>"
+
+#: krdc_approver/approver.cpp:86
+msgid "Invitation to view remote desktop"
+msgstr "Invitación pa ver un escritoriu remotu"
+
+#: krdc_approver/approver.cpp:87
+#, kde-format
+msgid "%1 wants to share his/her desktop with you"
+msgstr "%1 quier compartir el so escritoriu contigu"
+
+#: krdc_approver/approver.cpp:88
+msgid "Accept"
+msgstr "Aceutar"
+
+#: krdc_approver/approver.cpp:88
+msgid "Reject"
+msgstr "Refugar"
+
+#: krdc_approver/main.cpp:38 main.cpp:39
 msgid "KRDC"
 msgstr "KRDC"
+
+#: krdc_approver/main.cpp:39
+msgid "Approver for KRDC"
+msgstr "Aprobar pa KRDC"
+
+#: krdc_approver/main.cpp:40
+msgid "(C) 2009, Abner Silva"
+msgstr "(C) 2009, Abner Silva"
+
+#: krdc_approver/main.cpp:42
+msgctxt "@info:credit"
+msgid "Abner Silva"
+msgstr "Abner Silva"
 
 #: main.cpp:40 systemtrayicon.cpp:41
 msgid "KDE Remote Desktop Client"
@@ -100,16 +203,12 @@ msgstr ""
 "(c) 2009, Collabora Ltd"
 
 #: main.cpp:50
-msgid "Urs Wolfer"
-msgstr "Urs Wolfer"
-
-#: main.cpp:50
 msgid "Developer, Maintainer"
 msgstr "Desarrollador, mantenedor"
 
-#: main.cpp:51
-msgid "Tony Murray"
-msgstr ""
+#: main.cpp:50
+msgid "Urs Wolfer"
+msgstr "Urs Wolfer"
 
 #: main.cpp:51
 #, fuzzy
@@ -117,13 +216,17 @@ msgstr ""
 msgid "Developer"
 msgstr "Anterior desendolcador"
 
-#: main.cpp:52
-msgid "Tim Jansen"
-msgstr "Tim Jansen"
+#: main.cpp:51
+msgid "Tony Murray"
+msgstr ""
 
 #: main.cpp:52
 msgid "Former Developer"
 msgstr "Anterior desendolcador"
+
+#: main.cpp:52
+msgid "Tim Jansen"
+msgstr "Tim Jansen"
 
 #: main.cpp:53
 msgid "Arend van Beelen jr."
@@ -245,10 +348,6 @@ msgstr "URL defeutuosa"
 msgid "The entered address cannot be handled."
 msgstr "La direición entrada nun puede usase."
 
-#: mainwindow.cpp:339 mainwindow.cpp:680 config/hostpreferenceslist.cpp:119
-msgid "Unusable URL"
-msgstr "URL inutilizable"
-
 #: mainwindow.cpp:448
 #, kde-format
 msgid "Connecting to %1"
@@ -274,10 +373,6 @@ msgctxt ""
 "window title when in full screen mode (for example displayed in tasklist)"
 msgid "KDE Remote Desktop Client (Full Screen)"
 msgstr "Veceru d'escritoriu remotu KDE (pantalla completa)"
-
-#: mainwindow.cpp:679 config/hostpreferenceslist.cpp:118
-msgid "The selected host cannot be handled."
-msgstr "La máquina esbillada nun puede algamase."
 
 #: mainwindow.cpp:701
 #, fuzzy
@@ -405,6 +500,85 @@ msgstr "Escritorios remotos"
 #: mainwindow.cpp:1235
 msgid "Filter"
 msgstr "Peñera"
+
+#: nx/nxhostpreferences.cpp:218
+msgid "Key Files (*.key)"
+msgstr "Ficheros Key (*.key)"
+
+#: nx/nxhostpreferences.cpp:219
+msgid "Open DSA Key File"
+msgstr "Abrir ficheru de contraseña DSA"
+
+#: nx/nxresumesessions.cpp:37 nx/nxresumesessions.cpp:43
+msgid "Available NX Sessions"
+msgstr "Sesión NX disponible"
+
+#: nx/nxview.cpp:125 rdp/rdpview.cpp:123
+msgid "Enter Username"
+msgstr "Introduza usuariu:"
+
+#: nx/nxview.cpp:126 rdp/rdpview.cpp:124
+msgid "Please enter the username you would like to use for login."
+msgstr "Por favor, introduz lo que quies usar como nome."
+
+#: nx/nxview.cpp:140 rdp/rdpview.cpp:140 vnc/vncview.cpp:265
+msgid "Access to the system requires a password."
+msgstr "L'accesu al sistema requier una contraseña."
+
+#: nx/nxview.cpp:208
+msgid "Invalid authentication key"
+msgstr "Contraseña d' autenticación no válida"
+
+#: nx/nxview.cpp:208
+msgid "The authentication key is invalid."
+msgstr "L'autenticación de la contraseña nun ye válida."
+
+#: nx/nxview.cpp:211
+msgid "Invalid username or password"
+msgstr "Nome d'usuariu o contraseña non válidos"
+
+#: nx/nxview.cpp:211
+msgid "The username or password that you have entered is invalid."
+msgstr "El nome d'usuariu o la contraseña qu'introduxo nun son válidos."
+
+#: nx/nxview.cpp:214
+msgid "Host key verification failed"
+msgstr "La verificación de la contraseña de dominiu falló"
+
+#: nx/nxview.cpp:214
+msgid "The host key verification has failed."
+msgstr "La verificación de la contraseña de dominiu nun ye válida."
+
+#: nx/nxview.cpp:217
+msgid "An error has occurred during the connection to the NX server."
+msgstr "Hebo un fallu durante la conexón al sirvidor NX."
+
+#: nx/nxview.cpp:217
+msgid "Process error"
+msgstr "Error de procesu"
+
+#: nx/nxview.cpp:241
+msgid "Server at capacity"
+msgstr "Sirvidor a toa capacidá"
+
+#: nx/nxview.cpp:241
+msgid "This NX server is running at capacity."
+msgstr "El sirvidor NX ta executándose a toa capacidá."
+
+#: nx/nxviewfactory.cpp:64
+msgid "New NX Connection..."
+msgstr "Nueva conexón NX"
+
+#: nx/nxviewfactory.cpp:69
+msgid "Connect to a NX Remote Desktop"
+msgstr "Coneutar a un escritoriu remotu NX"
+
+#: nx/nxviewfactory.cpp:74
+msgid ""
+"<html>Enter the address here.<br /><i>Example: nxserver (host)</i></html>"
+msgstr ""
+"<html>Introducir la direición equí.<br /><i>Exemplu: nxserver (host)</i></"
+"html>"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -1339,6 +1513,57 @@ msgstr "Barra de ferramientes de vista remota"
 msgid "Sessions"
 msgstr "Sesiones"
 
+#: rdp/rdpview.cpp:254
+msgid "Could not start \"rdesktop\"; make sure rdesktop is properly installed."
+msgstr ""
+"Nun foi dable arrancar «rdesktop»; por favor asegúrese de que lo tien "
+"instaláu correcho."
+
+#: rdp/rdpview.cpp:255 rdp/rdpview.cpp:265
+msgid "RDP Failure"
+msgstr "Fallu RDP"
+
+#: rdp/rdpview.cpp:260
+msgid "Connection attempt to host failed."
+msgstr "El intento de coneutar a la máquina falló."
+
+#: rdp/rdpview.cpp:261
+msgid "Connection Failure"
+msgstr "Conexón fallida"
+
+#: rdp/rdpview.cpp:263
+#, kde-format
+msgid ""
+"The version of \"rdesktop\" you are using (%1) is too old:\n"
+"rdesktop 1.3.2 or greater is required."
+msgstr ""
+"La versión del escritoriu que ta usando (%1) ye enforma antigua:\n"
+"requierse «rdesktop 1.3.2» o más actual."
+
+#: rdp/rdpviewfactory.cpp:38
+msgid "Connect to a Windows Remote Desktop (RDP)"
+msgstr "Coneutar a una ventana d'escritoriu remotu (RDP)"
+
+#: rdp/rdpviewfactory.cpp:69
+msgid "New RDP Connection..."
+msgstr "Nueva conexón RDP"
+
+#: rdp/rdpviewfactory.cpp:79
+msgid ""
+"<html>Enter the address here. Port is optional.<br /><i>Example: "
+"rdpserver:3389 (host:port)</i></html>"
+msgstr ""
+"<html>Introducir la direición equí. El puertu ye opcional.<br /><i>Exemplu: "
+"rdpserver:3389 (host:port)</i></html>"
+
+#: rdp/rdpviewfactory.cpp:86
+msgid ""
+"The application \"rdesktop\" cannot be found on your system; make sure it is "
+"properly installed if you need RDP support."
+msgstr ""
+"Nun s'alcuentra «rdesktop» nel so sistema; por favor asegúrese de que lu "
+"tien instaláu correcho si necesita'l sofitu RDP."
+
 #: remotedesktopsmodel.cpp:123
 msgctxt "Where each displayed link comes from"
 msgid "Zeroconf"
@@ -1393,231 +1618,6 @@ msgstr ""
 msgctxt "Header of the connections list, where this entry comes from"
 msgid "Source"
 msgstr ""
-
-#: config/hostpreferenceslist.cpp:49
-msgid "Configure..."
-msgstr "Configurar..."
-
-#: config/hostpreferenceslist.cpp:55
-msgid "Remove"
-msgstr "Desaniciar"
-
-#: config/preferencesdialog.cpp:43
-msgctxt "General Config"
-msgid "General"
-msgstr "Xeneral"
-
-#: config/preferencesdialog.cpp:43
-msgid "General Configuration"
-msgstr "Configuración xeneral"
-
-#: config/preferencesdialog.cpp:48
-msgid "Hosts"
-msgstr "Máquines"
-
-#: config/preferencesdialog.cpp:48 core/hostpreferences.cpp:181
-#: core/hostpreferences.cpp:187
-msgid "Host Configuration"
-msgstr "Configuración del anfitrión"
-
-#: config/preferencesdialog.cpp:53 config/preferencesdialog.cpp:55
-msgid "Plugins"
-msgstr "Complementos"
-
-#: config/preferencesdialog.cpp:55
-msgid "Plugin Configuration"
-msgstr "Configuración de complementos"
-
-#: core/hostpreferences.cpp:190
-msgid ""
-"Note that settings might only apply when you connect next time to this host."
-msgstr ""
-"Tener en cuenta que les configuraciones namái podrán aplicase cuando se "
-"coneute otra vegada a esti dominiu."
-
-#: core/hostpreferences.cpp:205
-msgid "Show this dialog again for this host"
-msgstr "Amosar de nuevu esti diálogu pa esti sirvidor"
-
-#: core/hostpreferences.cpp:209
-msgid "Remember password (KWallet)"
-msgstr "Remembrar contraseña (KWallet)"
-
-#: konsole/konsoleviewfactory.cpp:68
-msgid "New Konsole Connection..."
-msgstr "Nueva consola de conexón..."
-
-#: konsole/konsoleviewfactory.cpp:73
-msgid "KRDC Konsole Connection"
-msgstr "Conexones de consola KRDC"
-
-#: konsole/konsoleviewfactory.cpp:78
-msgid ""
-"<html>Enter the address here. Port is optional.<br /><i>Example: "
-"konsoleserver (host)</i></html>"
-msgstr ""
-"<html>Introducir la direición equí. El puertu ye opcional.<br /><i>Exemplu: "
-"rdpserver:3389 (host:port)</i></html>"
-
-#: krdc_approver/approver.cpp:86
-msgid "Invitation to view remote desktop"
-msgstr "Invitación pa ver un escritoriu remotu"
-
-#: krdc_approver/approver.cpp:87
-#, kde-format
-msgid "%1 wants to share his/her desktop with you"
-msgstr "%1 quier compartir el so escritoriu contigu"
-
-#: krdc_approver/approver.cpp:88
-msgid "Accept"
-msgstr "Aceutar"
-
-#: krdc_approver/approver.cpp:88
-msgid "Reject"
-msgstr "Refugar"
-
-#: krdc_approver/main.cpp:39
-msgid "Approver for KRDC"
-msgstr "Aprobar pa KRDC"
-
-#: krdc_approver/main.cpp:40
-msgid "(C) 2009, Abner Silva"
-msgstr "(C) 2009, Abner Silva"
-
-#: krdc_approver/main.cpp:42
-msgctxt "@info:credit"
-msgid "Abner Silva"
-msgstr "Abner Silva"
-
-#: nx/nxhostpreferences.cpp:218
-msgid "Key Files (*.key)"
-msgstr "Ficheros Key (*.key)"
-
-#: nx/nxhostpreferences.cpp:219
-msgid "Open DSA Key File"
-msgstr "Abrir ficheru de contraseña DSA"
-
-#: nx/nxresumesessions.cpp:37 nx/nxresumesessions.cpp:43
-msgid "Available NX Sessions"
-msgstr "Sesión NX disponible"
-
-#: nx/nxview.cpp:125 rdp/rdpview.cpp:123
-msgid "Enter Username"
-msgstr "Introduza usuariu:"
-
-#: nx/nxview.cpp:126 rdp/rdpview.cpp:124
-msgid "Please enter the username you would like to use for login."
-msgstr "Por favor, introduz lo que quies usar como nome."
-
-#: nx/nxview.cpp:140 rdp/rdpview.cpp:140 vnc/vncview.cpp:265
-msgid "Access to the system requires a password."
-msgstr "L'accesu al sistema requier una contraseña."
-
-#: nx/nxview.cpp:208
-msgid "The authentication key is invalid."
-msgstr "L'autenticación de la contraseña nun ye válida."
-
-#: nx/nxview.cpp:208
-msgid "Invalid authentication key"
-msgstr "Contraseña d' autenticación no válida"
-
-#: nx/nxview.cpp:211
-msgid "The username or password that you have entered is invalid."
-msgstr "El nome d'usuariu o la contraseña qu'introduxo nun son válidos."
-
-#: nx/nxview.cpp:211
-msgid "Invalid username or password"
-msgstr "Nome d'usuariu o contraseña non válidos"
-
-#: nx/nxview.cpp:214
-msgid "The host key verification has failed."
-msgstr "La verificación de la contraseña de dominiu nun ye válida."
-
-#: nx/nxview.cpp:214
-msgid "Host key verification failed"
-msgstr "La verificación de la contraseña de dominiu falló"
-
-#: nx/nxview.cpp:217
-msgid "An error has occurred during the connection to the NX server."
-msgstr "Hebo un fallu durante la conexón al sirvidor NX."
-
-#: nx/nxview.cpp:217
-msgid "Process error"
-msgstr "Error de procesu"
-
-#: nx/nxview.cpp:241
-msgid "This NX server is running at capacity."
-msgstr "El sirvidor NX ta executándose a toa capacidá."
-
-#: nx/nxview.cpp:241
-msgid "Server at capacity"
-msgstr "Sirvidor a toa capacidá"
-
-#: nx/nxviewfactory.cpp:64
-msgid "New NX Connection..."
-msgstr "Nueva conexón NX"
-
-#: nx/nxviewfactory.cpp:69
-msgid "Connect to a NX Remote Desktop"
-msgstr "Coneutar a un escritoriu remotu NX"
-
-#: nx/nxviewfactory.cpp:74
-msgid ""
-"<html>Enter the address here.<br /><i>Example: nxserver (host)</i></html>"
-msgstr ""
-"<html>Introducir la direición equí.<br /><i>Exemplu: nxserver (host)</i></"
-"html>"
-
-#: rdp/rdpview.cpp:254
-msgid "Could not start \"rdesktop\"; make sure rdesktop is properly installed."
-msgstr ""
-"Nun foi dable arrancar «rdesktop»; por favor asegúrese de que lo tien "
-"instaláu correcho."
-
-#: rdp/rdpview.cpp:255 rdp/rdpview.cpp:265
-msgid "RDP Failure"
-msgstr "Fallu RDP"
-
-#: rdp/rdpview.cpp:260
-msgid "Connection attempt to host failed."
-msgstr "El intento de coneutar a la máquina falló."
-
-#: rdp/rdpview.cpp:261
-msgid "Connection Failure"
-msgstr "Conexón fallida"
-
-#: rdp/rdpview.cpp:263
-#, kde-format
-msgid ""
-"The version of \"rdesktop\" you are using (%1) is too old:\n"
-"rdesktop 1.3.2 or greater is required."
-msgstr ""
-"La versión del escritoriu que ta usando (%1) ye enforma antigua:\n"
-"requierse «rdesktop 1.3.2» o más actual."
-
-#: rdp/rdpviewfactory.cpp:38
-msgid "Connect to a Windows Remote Desktop (RDP)"
-msgstr "Coneutar a una ventana d'escritoriu remotu (RDP)"
-
-#: rdp/rdpviewfactory.cpp:69
-msgid "New RDP Connection..."
-msgstr "Nueva conexón RDP"
-
-#: rdp/rdpviewfactory.cpp:79
-msgid ""
-"<html>Enter the address here. Port is optional.<br /><i>Example: "
-"rdpserver:3389 (host:port)</i></html>"
-msgstr ""
-"<html>Introducir la direición equí. El puertu ye opcional.<br /><i>Exemplu: "
-"rdpserver:3389 (host:port)</i></html>"
-
-#: rdp/rdpviewfactory.cpp:86
-msgid ""
-"The application \"rdesktop\" cannot be found on your system; make sure it is "
-"properly installed if you need RDP support."
-msgstr ""
-"Nun s'alcuentra «rdesktop» nel so sistema; por favor asegúrese de que lu "
-"tien instaláu correcho si necesita'l sofitu RDP."
 
 #: vnc/vncclientthread.cpp:199
 msgid "Server not found."

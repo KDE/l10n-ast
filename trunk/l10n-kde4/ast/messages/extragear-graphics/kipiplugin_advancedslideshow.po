@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-12 03:28+0200\n"
+"POT-Creation-Date: 2012-08-18 03:26+0200\n"
 "PO-Revision-Date: 2010-10-19 22:04+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -22,6 +22,101 @@ msgstr ""
 #: dialogs/captiondialog.cpp:41
 msgid "This is a comment sample..."
 msgstr ""
+
+#: dialogs/maindialog.cpp:249
+#, kde-format
+msgid "%1 image [%2]"
+msgid_plural "%1 images [%2]"
+msgstr[0] "%1 imaxe [%2]"
+msgstr[1] "%1 imaxes [%2]"
+
+#: dialogs/maindialog.cpp:328 dialogs/soundtrackdialog.cpp:551
+#, kde-format
+msgid "Cannot access file %1. Please check the path is correct."
+msgstr "Nun se pue acceder al ficheru %1, compruebe que'l camín ye correutu."
+
+#: dialogs/maindialog.cpp:364
+#, kde-format
+msgctxt "Image number %1"
+msgid "Image #%1"
+msgstr "Imaxe #%1"
+
+#: dialogs/maindialog.cpp:395 widgets/slideshowkb.cpp:577
+msgid "Ken Burns"
+msgstr "Ken Burns"
+
+#: dialogs/maindialog.cpp:417
+msgid "Delay between images (ms):"
+msgstr "Allanciu ente les imáxenes (ms):"
+
+#. i18n: file: ui/maindialog.ui:262
+#. i18n: ectx: property (text), widget (QLabel, m_delayLabel)
+#: dialogs/maindialog.cpp:424 rc.cpp:165
+msgid "Delay between images (s):"
+msgstr "Allanciu ente imaxes (s):"
+
+#: dialogs/slideshowconfig.cpp:77 dialogs/slideshowconfig.cpp:113
+msgid "Advanced Slideshow"
+msgstr "Presentación de diapositives avanzada"
+
+#: dialogs/slideshowconfig.cpp:85
+msgid "Start Slideshow"
+msgstr "Arrancar presentación"
+
+#: dialogs/slideshowconfig.cpp:92
+msgid "Main"
+msgstr "Principal"
+
+#: dialogs/slideshowconfig.cpp:93
+msgid "Main Settings"
+msgstr "Configuración principal"
+
+#: dialogs/slideshowconfig.cpp:97 dialogs/slideshowconfig.cpp:98
+#, fuzzy
+#| msgid "Caption"
+msgctxt "captions for the slideshow"
+msgid "Caption"
+msgstr "Títulu"
+
+#: dialogs/slideshowconfig.cpp:102 dialogs/slideshowconfig.cpp:103
+msgid "Soundtrack"
+msgstr "Banda sonora"
+
+#: dialogs/slideshowconfig.cpp:107 dialogs/slideshowconfig.cpp:108
+msgid "Advanced"
+msgstr "Avanzáu"
+
+#: dialogs/slideshowconfig.cpp:116
+msgid "A Kipi plugin for image slideshows"
+msgstr "Un complementu de Kipi pa presentaciones d'imaxes"
+
+#: dialogs/slideshowconfig.cpp:117
+#, fuzzy
+#| msgid ""
+#| "(c) 2003-2004, Renchi Raju\n"
+#| "(c) 2006-2008, Valerio Fuoglio"
+msgid ""
+"(c) 2003-2004, Renchi Raju\n"
+"(c) 2006-2009, Valerio Fuoglio"
+msgstr ""
+"(c) 2003-2004, Renchi Raju\n"
+"(c) 2006-2008, Valerio Fuoglio"
+
+#: dialogs/slideshowconfig.cpp:120
+msgid "Author"
+msgstr "Autor"
+
+#: dialogs/slideshowconfig.cpp:120
+msgid "Renchi Raju"
+msgstr "Renchi Raju"
+
+#: dialogs/slideshowconfig.cpp:123
+msgid "Author and maintainer"
+msgstr "Autor y responsable"
+
+#: dialogs/slideshowconfig.cpp:123
+msgid "Valerio Fuoglio"
+msgstr "Valerio Fuoglio"
 
 #: dialogs/soundtrackdialog.cpp:63
 msgid "Soundtrack preview"
@@ -98,104 +193,9 @@ msgstr "Cargar llista de reproducción"
 msgid "Save playlist"
 msgstr "Guardar llista de reproducción"
 
-#: dialogs/soundtrackdialog.cpp:551 dialogs/maindialog.cpp:328
-#, kde-format
-msgid "Cannot access file %1. Please check the path is correct."
-msgstr "Nun se pue acceder al ficheru %1, compruebe que'l camín ye correutu."
-
 #: dialogs/soundtrackdialog.cpp:561
 msgid "Cannot create a preview of an empty file list."
 msgstr "No se puede crear una vista previa d'una llista de ficheros balera."
-
-#: dialogs/maindialog.cpp:249
-#, kde-format
-msgid "%1 image [%2]"
-msgid_plural "%1 images [%2]"
-msgstr[0] "%1 imaxe [%2]"
-msgstr[1] "%1 imaxes [%2]"
-
-#: dialogs/maindialog.cpp:364
-#, kde-format
-msgctxt "Image number %1"
-msgid "Image #%1"
-msgstr "Imaxe #%1"
-
-#: dialogs/maindialog.cpp:395 widgets/slideshowkb.cpp:577
-msgid "Ken Burns"
-msgstr "Ken Burns"
-
-#: dialogs/maindialog.cpp:417
-msgid "Delay between images (ms):"
-msgstr "Allanciu ente les imáxenes (ms):"
-
-#. i18n: file: ui/maindialog.ui:262
-#. i18n: ectx: property (text), widget (QLabel, m_delayLabel)
-#: dialogs/maindialog.cpp:424 rc.cpp:165
-msgid "Delay between images (s):"
-msgstr "Allanciu ente imaxes (s):"
-
-#: dialogs/slideshowconfig.cpp:77 dialogs/slideshowconfig.cpp:113
-msgid "Advanced Slideshow"
-msgstr "Presentación de diapositives avanzada"
-
-#: dialogs/slideshowconfig.cpp:85
-msgid "Start Slideshow"
-msgstr "Arrancar presentación"
-
-#: dialogs/slideshowconfig.cpp:92
-msgid "Main"
-msgstr "Principal"
-
-#: dialogs/slideshowconfig.cpp:93
-msgid "Main Settings"
-msgstr "Configuración principal"
-
-#: dialogs/slideshowconfig.cpp:97 dialogs/slideshowconfig.cpp:98
-#, fuzzy
-#| msgid "Caption"
-msgctxt "captions for the slideshow"
-msgid "Caption"
-msgstr "Títulu"
-
-#: dialogs/slideshowconfig.cpp:102 dialogs/slideshowconfig.cpp:103
-msgid "Soundtrack"
-msgstr "Banda sonora"
-
-#: dialogs/slideshowconfig.cpp:107 dialogs/slideshowconfig.cpp:108
-msgid "Advanced"
-msgstr "Avanzáu"
-
-#: dialogs/slideshowconfig.cpp:116
-msgid "A Kipi plugin for image slideshows"
-msgstr "Un complementu de Kipi pa presentaciones d'imaxes"
-
-#: dialogs/slideshowconfig.cpp:117
-#, fuzzy
-#| msgid ""
-#| "(c) 2003-2004, Renchi Raju\n"
-#| "(c) 2006-2008, Valerio Fuoglio"
-msgid ""
-"(c) 2003-2004, Renchi Raju\n"
-"(c) 2006-2009, Valerio Fuoglio"
-msgstr ""
-"(c) 2003-2004, Renchi Raju\n"
-"(c) 2006-2008, Valerio Fuoglio"
-
-#: dialogs/slideshowconfig.cpp:120
-msgid "Renchi Raju"
-msgstr "Renchi Raju"
-
-#: dialogs/slideshowconfig.cpp:120
-msgid "Author"
-msgstr "Autor"
-
-#: dialogs/slideshowconfig.cpp:123
-msgid "Valerio Fuoglio"
-msgstr "Valerio Fuoglio"
-
-#: dialogs/slideshowconfig.cpp:123
-msgid "Author and maintainer"
-msgstr "Autor y responsable"
 
 #: plugin/plugin_advancedslideshow.cpp:89
 msgid "Advanced Slideshow..."
@@ -208,142 +208,6 @@ msgstr "Nun hai imaxes qu'amosar."
 #: plugin/plugin_advancedslideshow.cpp:255
 msgid "OpenGL support is not available on your system."
 msgstr "El soporte de OpenGL nun ta disponible nel so sistema"
-
-#: widgets/listsounditems.cpp:95
-#, kde-format
-msgid "%1 is damaged and may not be playable."
-msgstr "%1 ta toriáu y nun se puede reproducir"
-
-#: widgets/listsounditems.cpp:97
-msgid "Phonon error"
-msgstr "Fallu Phonon"
-
-#: widgets/listsounditems.cpp:100
-msgid "This file is damaged and may not be playable."
-msgstr "Esti ficheru ta toriáu y nun se puede reproducir"
-
-#: widgets/slideshow.cpp:236 widgets/slideshowgl.cpp:387
-msgctxt "Filter Effect: No effect"
-msgid "None"
-msgstr "Dengún"
-
-#: widgets/slideshow.cpp:237
-msgctxt "Filter Effect: Chess Board"
-msgid "Chess Board"
-msgstr "Tableru d'axedrez"
-
-#: widgets/slideshow.cpp:238
-msgctxt "Filter Effect: Melt Down"
-msgid "Melt Down"
-msgstr "Fundíu p'abaxu"
-
-#: widgets/slideshow.cpp:239
-msgctxt "Filter Effect: Sweep"
-msgid "Sweep"
-msgstr "Barríu"
-
-#: widgets/slideshow.cpp:240
-msgctxt "Filter Effect: Mosaic"
-msgid "Mosaic"
-msgstr "Mosaicu"
-
-#: widgets/slideshow.cpp:241
-msgctxt "Filter Effect: Cubism"
-msgid "Cubism"
-msgstr "Cubismu"
-
-#: widgets/slideshow.cpp:242
-msgctxt "Filter Effect: Growing"
-msgid "Growing"
-msgstr "Xorrecimientu"
-
-#: widgets/slideshow.cpp:243
-msgctxt "Filter Effect: Horizontal Lines"
-msgid "Horizontal Lines"
-msgstr "Llinies horizontales"
-
-#: widgets/slideshow.cpp:244
-msgctxt "Filter Effect: Vertical Lines"
-msgid "Vertical Lines"
-msgstr "Llinies verticales"
-
-#: widgets/slideshow.cpp:245
-msgctxt "Filter Effect: Circle Out"
-msgid "Circle Out"
-msgstr "Torniquete"
-
-#: widgets/slideshow.cpp:246
-msgctxt "Filter Effect: Multi-Circle Out"
-msgid "Multi-Circle Out"
-msgstr "Múltiples torniquetes"
-
-#: widgets/slideshow.cpp:247
-msgctxt "Filter Effect: Spiral In"
-msgid "Spiral In"
-msgstr "Espiral entrante"
-
-#: widgets/slideshow.cpp:248
-msgctxt "Filter Effect: Blobs"
-msgid "Blobs"
-msgstr "Gotes d'agua"
-
-#: widgets/slideshow.cpp:249 widgets/slideshowgl.cpp:396
-msgctxt "Filter Effect: Random effect"
-msgid "Random"
-msgstr "Al debalu"
-
-#: widgets/slideshow.cpp:1330 widgets/slideshowgl.cpp:697
-msgid "Slideshow Completed"
-msgstr "Reproducción de diapositives acabada."
-
-#: widgets/slideshow.cpp:1331 widgets/slideshowgl.cpp:698
-#: widgets/slideshowkb.cpp:519
-msgid "Click to Exit..."
-msgstr "Calque pa colar..."
-
-#: widgets/slideshowgl.cpp:388
-msgctxt "Filter Effect: Bend"
-msgid "Bend"
-msgstr "Curvar"
-
-#: widgets/slideshowgl.cpp:389
-msgctxt "Filter Effect: Blend"
-msgid "Blend"
-msgstr "Fundir"
-
-#: widgets/slideshowgl.cpp:390
-msgctxt "Filter Effect: Cube"
-msgid "Cube"
-msgstr "Cubu"
-
-#: widgets/slideshowgl.cpp:391
-msgctxt "Filter Effect: Fade"
-msgid "Fade"
-msgstr "Desapaecer"
-
-#: widgets/slideshowgl.cpp:392
-msgctxt "Filter Effect: Flutter"
-msgid "Flutter"
-msgstr "Ondear"
-
-#: widgets/slideshowgl.cpp:393
-msgctxt "Filter Effect: In Out"
-msgid "In Out"
-msgstr "Dientru fuera"
-
-#: widgets/slideshowgl.cpp:394
-msgctxt "Filter Effect: Rotate"
-msgid "Rotate"
-msgstr "Voltiar"
-
-#: widgets/slideshowgl.cpp:395
-msgctxt "Filter Effect: Slide"
-msgid "Slide"
-msgstr "Diapositiva"
-
-#: widgets/slideshowkb.cpp:518
-msgid "SlideShow Completed"
-msgstr "La presentación finó."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -722,6 +586,142 @@ msgstr "0:00:00"
 #: rc.cpp:192
 msgid "total:"
 msgstr "total:"
+
+#: widgets/listsounditems.cpp:95
+#, kde-format
+msgid "%1 is damaged and may not be playable."
+msgstr "%1 ta toriáu y nun se puede reproducir"
+
+#: widgets/listsounditems.cpp:97
+msgid "Phonon error"
+msgstr "Fallu Phonon"
+
+#: widgets/listsounditems.cpp:100
+msgid "This file is damaged and may not be playable."
+msgstr "Esti ficheru ta toriáu y nun se puede reproducir"
+
+#: widgets/slideshow.cpp:236 widgets/slideshowgl.cpp:387
+msgctxt "Filter Effect: No effect"
+msgid "None"
+msgstr "Dengún"
+
+#: widgets/slideshow.cpp:237
+msgctxt "Filter Effect: Chess Board"
+msgid "Chess Board"
+msgstr "Tableru d'axedrez"
+
+#: widgets/slideshow.cpp:238
+msgctxt "Filter Effect: Melt Down"
+msgid "Melt Down"
+msgstr "Fundíu p'abaxu"
+
+#: widgets/slideshow.cpp:239
+msgctxt "Filter Effect: Sweep"
+msgid "Sweep"
+msgstr "Barríu"
+
+#: widgets/slideshow.cpp:240
+msgctxt "Filter Effect: Mosaic"
+msgid "Mosaic"
+msgstr "Mosaicu"
+
+#: widgets/slideshow.cpp:241
+msgctxt "Filter Effect: Cubism"
+msgid "Cubism"
+msgstr "Cubismu"
+
+#: widgets/slideshow.cpp:242
+msgctxt "Filter Effect: Growing"
+msgid "Growing"
+msgstr "Xorrecimientu"
+
+#: widgets/slideshow.cpp:243
+msgctxt "Filter Effect: Horizontal Lines"
+msgid "Horizontal Lines"
+msgstr "Llinies horizontales"
+
+#: widgets/slideshow.cpp:244
+msgctxt "Filter Effect: Vertical Lines"
+msgid "Vertical Lines"
+msgstr "Llinies verticales"
+
+#: widgets/slideshow.cpp:245
+msgctxt "Filter Effect: Circle Out"
+msgid "Circle Out"
+msgstr "Torniquete"
+
+#: widgets/slideshow.cpp:246
+msgctxt "Filter Effect: Multi-Circle Out"
+msgid "Multi-Circle Out"
+msgstr "Múltiples torniquetes"
+
+#: widgets/slideshow.cpp:247
+msgctxt "Filter Effect: Spiral In"
+msgid "Spiral In"
+msgstr "Espiral entrante"
+
+#: widgets/slideshow.cpp:248
+msgctxt "Filter Effect: Blobs"
+msgid "Blobs"
+msgstr "Gotes d'agua"
+
+#: widgets/slideshow.cpp:249 widgets/slideshowgl.cpp:396
+msgctxt "Filter Effect: Random effect"
+msgid "Random"
+msgstr "Al debalu"
+
+#: widgets/slideshow.cpp:1330 widgets/slideshowgl.cpp:697
+msgid "Slideshow Completed"
+msgstr "Reproducción de diapositives acabada."
+
+#: widgets/slideshow.cpp:1331 widgets/slideshowgl.cpp:698
+#: widgets/slideshowkb.cpp:519
+msgid "Click to Exit..."
+msgstr "Calque pa colar..."
+
+#: widgets/slideshowgl.cpp:388
+msgctxt "Filter Effect: Bend"
+msgid "Bend"
+msgstr "Curvar"
+
+#: widgets/slideshowgl.cpp:389
+msgctxt "Filter Effect: Blend"
+msgid "Blend"
+msgstr "Fundir"
+
+#: widgets/slideshowgl.cpp:390
+msgctxt "Filter Effect: Cube"
+msgid "Cube"
+msgstr "Cubu"
+
+#: widgets/slideshowgl.cpp:391
+msgctxt "Filter Effect: Fade"
+msgid "Fade"
+msgstr "Desapaecer"
+
+#: widgets/slideshowgl.cpp:392
+msgctxt "Filter Effect: Flutter"
+msgid "Flutter"
+msgstr "Ondear"
+
+#: widgets/slideshowgl.cpp:393
+msgctxt "Filter Effect: In Out"
+msgid "In Out"
+msgstr "Dientru fuera"
+
+#: widgets/slideshowgl.cpp:394
+msgctxt "Filter Effect: Rotate"
+msgid "Rotate"
+msgstr "Voltiar"
+
+#: widgets/slideshowgl.cpp:395
+msgctxt "Filter Effect: Slide"
+msgid "Slide"
+msgstr "Diapositiva"
+
+#: widgets/slideshowkb.cpp:518
+msgid "SlideShow Completed"
+msgstr "La presentación finó."
 
 #~ msgid "Handbook"
 #~ msgstr "Manual"
