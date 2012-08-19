@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:21+0200\n"
+"POT-Creation-Date: 2012-08-19 05:41+0200\n"
 "PO-Revision-Date: 2010-10-19 22:56+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -18,6 +18,16 @@ msgstr ""
 "X-Launchpad-Export-Date: 2009-10-23 00:57+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: csvexportdialog.h:37
+msgctxt "@action:button"
+msgid "&Export"
+msgstr "&Esportar"
+
+#: csvexportdialog.h:38
+msgctxt "@action:button"
+msgid "E&xport to Clipboard"
+msgstr "E&sportar al cartafueyu"
 
 #. i18n: file: csvexportdialog_base.ui:176
 #. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
@@ -38,27 +48,17 @@ msgstr "Tiempos de les sesiones"
 msgid "All Tasks"
 msgstr "Toles xeres"
 
-#: csvexportdialog.h:37
-msgctxt "@action:button"
-msgid "&Export"
-msgstr "&Esportar"
-
-#: csvexportdialog.h:38
-msgctxt "@action:button"
-msgid "E&xport to Clipboard"
-msgstr "E&sportar al cartafueyu"
-
-#: historydialog.cpp:81
-msgid "EndTime"
-msgstr "Hora Fin"
+#: historydialog.cpp:81 timekard.cpp:65
+msgid "Task"
+msgstr "Xera"
 
 #: historydialog.cpp:81
 msgid "StartTime"
 msgstr "Hora d'aniciu"
 
-#: historydialog.cpp:81 timekard.cpp:65
-msgid "Task"
-msgstr "Xera"
+#: historydialog.cpp:81
+msgid "EndTime"
+msgstr "Hora Fin"
 
 #: historydialog.cpp:82
 msgid "Comment"
@@ -133,10 +133,6 @@ msgstr ""
 "recordatoriu se desanicie nel futuru.\n"
 
 #: karm.cpp:55
-msgid "KArm is now ktimetracker"
-msgstr "KArm ye agora ktimetracker"
-
-#: karm.cpp:55
 msgid ""
 "Someone, probably you, has called karm. KArm has been renamed to "
 "KTimeTracker. This makes it easier to recognize. Compatibility advice: Do "
@@ -150,15 +146,19 @@ msgstr ""
 "usar ficheros de karm con ktimetracker. Tendría de deprender a llamar a "
 "ktimetracker, darréu que puede qu'ésti recordatoriu se desanicie nel futuru."
 
+#: karm.cpp:55
+msgid "KArm is now ktimetracker"
+msgstr "KArm ye agora ktimetracker"
+
 #: ktimetrackerpart.cpp:74
 msgid "ktimetracker"
 msgstr "ktimetracker"
 
-#: ktimetrackerpart.cpp:87 mainwindow.cpp:172
+#: ktimetrackerpart.cpp:87 mainwindow.cpp:173
 msgid "Configure key bindings"
 msgstr "Configurar les asociaciones de tecles"
 
-#: ktimetrackerpart.cpp:88 mainwindow.cpp:173
+#: ktimetrackerpart.cpp:88 mainwindow.cpp:174
 msgid ""
 "This will let you configure keybindings which are specific to ktimetracker"
 msgstr ""
@@ -184,22 +184,22 @@ msgid "Copyright © 1997-2012 KDE PIM authors"
 msgstr "Copyright © 1997-2010 KDE PIM authors"
 
 #: main.cpp:90
-msgid "Current Maintainer"
-msgstr "Encargáu actual"
-
-#: main.cpp:90
 #, fuzzy
 #| msgid "Thorsten St&auml;rk"
 msgid "Thorsten Stärk"
 msgstr "Thorsten St&auml;rk"
 
-#: main.cpp:92
-msgid "Original Author"
-msgstr "Autor orixinal"
+#: main.cpp:90
+msgid "Current Maintainer"
+msgstr "Encargáu actual"
 
 #: main.cpp:92
 msgid "Sirtaj Singh Kang"
 msgstr "Sirtaj Singh Kang"
+
+#: main.cpp:92
+msgid "Original Author"
+msgstr "Autor orixinal"
 
 #: main.cpp:94
 msgid "Allen Winter"
@@ -261,21 +261,21 @@ msgstr "Entregar el total de minutos pa la identificación de xera"
 msgid "Outputs the version"
 msgstr "Amuesa la versión"
 
-#: mainwindow.cpp:89
+#: mainwindow.cpp:90
 #, fuzzy
 #| msgid "Could not find the KTimeTracker part."
 msgid "Could not create the KTimeTracker part."
 msgstr "Nun puede alcontrase la parte KTimeTracker."
 
-#: mainwindow.cpp:98
+#: mainwindow.cpp:99
 msgid "Could not find the KTimeTracker part."
 msgstr "Nun puede alcontrase la parte KTimeTracker."
 
-#: mainwindow.cpp:130
+#: mainwindow.cpp:131
 msgid "Configure KTimeTracker..."
 msgstr "Configurar KTimeTracker..."
 
-#: mainwindow.cpp:212
+#: mainwindow.cpp:213
 msgid "task_popup"
 msgstr "task_popup"
 
@@ -758,12 +758,12 @@ msgid "Tasks"
 msgstr "Xeres"
 
 #: taskview.cpp:181
-msgid "Session Time"
-msgstr "Tiempu de sesión"
-
-#: taskview.cpp:181
 msgid "Task Name"
 msgstr "Nome de la xera"
+
+#: taskview.cpp:181
+msgid "Session Time"
+msgstr "Tiempu de sesión"
 
 #: taskview.cpp:181 timekard.cpp:64
 msgid "Time"
@@ -967,16 +967,16 @@ msgid "Edit History..."
 msgstr "Editar hestorial..."
 
 #: timetrackerwidget.cpp:214
+msgid "Edits history of all tasks of the current document"
+msgstr "Edita l'hestorial de toles xeres del documentu actual"
+
+#: timetrackerwidget.cpp:214
 msgid ""
 "A window will be opened where you can change start and stop times of tasks "
 "or add a comment to them."
 msgstr ""
 "Abriráse una ventana; nella, vusté puede aniciar y detener los tiempos de "
 "les xeres o amestales un comentariu."
-
-#: timetrackerwidget.cpp:214
-msgid "Edits history of all tasks of the current document"
-msgstr "Edita l'hestorial de toles xeres del documentu actual"
 
 #: timetrackerwidget.cpp:218
 msgid "&Reset All Times"
@@ -1234,12 +1234,12 @@ msgid "Columns"
 msgstr "Columnes"
 
 #: treeviewheadercontextmenu.cpp:141
-msgid "Hide"
-msgstr "Anubrir"
-
-#: treeviewheadercontextmenu.cpp:141
 msgid "Show"
 msgstr "Amosar"
+
+#: treeviewheadercontextmenu.cpp:141
+msgid "Hide"
+msgstr "Anubrir"
 
 #~ msgid "Dialog"
 #~ msgstr "Diálogu"

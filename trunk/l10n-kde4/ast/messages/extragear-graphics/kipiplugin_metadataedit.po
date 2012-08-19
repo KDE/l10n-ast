@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipi-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 03:26+0200\n"
+"POT-Creation-Date: 2012-08-19 03:08+0200\n"
 "PO-Revision-Date: 2010-10-25 14:22+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -1199,11 +1199,10 @@ msgstr "&Desaniciar"
 msgid "&Replace"
 msgstr "&Trocar"
 
-#: iptc/iptccategories.cpp:123 iptc/iptccontent.cpp:124
-#: iptc/iptccredits.cpp:144 iptc/iptcenvelope.cpp:266
-#: iptc/iptckeywords.cpp:111 iptc/iptcorigin.cpp:227
+#: iptc/iptccategories.cpp:123 iptc/iptccredits.cpp:144
+#: iptc/iptcenvelope.cpp:266 iptc/iptckeywords.cpp:111 iptc/iptcorigin.cpp:227
 #: iptc/iptcproperties.cpp:236 iptc/iptcstatus.cpp:129
-#: iptc/iptcsubjects.cpp:92
+#: iptc/iptcsubjects.cpp:92 iptc/iptccontent.cpp:124
 #, fuzzy
 #| msgid ""
 #| "<b>Note: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> text "
@@ -1218,59 +1217,6 @@ msgstr ""
 "<b>Nota: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> les "
 "etiquetes de testu marcaes con (*) sólo permiten carauteres imprentables "
 "<b><a href='http://en.wikipedia.org/wiki/Ascii'>ASCII</a></b>.</b>"
-
-#: iptc/iptccontent.cpp:93 xmp/xmpcontent.cpp:88
-msgid "Headline:"
-msgstr ""
-
-#: iptc/iptccontent.cpp:98
-#, fuzzy
-#| msgid ""
-#| "Set here the product identifier. This field is limited to 32 ASCII "
-#| "characters."
-msgid ""
-"Enter here the content synopsis. This field is limited to 256 ASCII "
-"characters."
-msgstr ""
-"Afita equí l'dentificador del productu. Esti campu tien una llende de 32 "
-"carauteres ASCII."
-
-#: iptc/iptccontent.cpp:103 xmp/xmpcontent.cpp:95
-#, fuzzy
-#| msgid "Caption:"
-msgctxt "content description"
-msgid "Caption:"
-msgstr "Descripción:"
-
-#: iptc/iptccontent.cpp:106 xmp/xmpcontent.cpp:102
-#, fuzzy, kde-format
-#| msgid "Sync captions entered through %1"
-msgid "Sync caption entered through %1"
-msgstr "Sincronizar comentariu puestu por %1"
-
-#: iptc/iptccontent.cpp:109 xmp/xmpcontent.cpp:105
-msgid "Sync EXIF Comment"
-msgstr "Sincronizar comentariu EXIF"
-
-#: iptc/iptccontent.cpp:113
-#, fuzzy
-#| msgid "Enter the image title. This field is limited to ASCII characters."
-msgid ""
-"Enter the content description. This field is limited to 2000 ASCII "
-"characters."
-msgstr ""
-"Pon equí'l títulu de la imaxe. Esti campu tien una llende de carauteres "
-"ASCII."
-
-#: iptc/iptccontent.cpp:118 xmp/xmpcontent.cpp:115
-#, fuzzy
-#| msgid "Caption:"
-msgid "Caption Writer:"
-msgstr "Descripción:"
-
-#: iptc/iptccontent.cpp:119 xmp/xmpcontent.cpp:118
-msgid "Enter the name of the caption author."
-msgstr ""
 
 #: iptc/iptccredits.cpp:96 xmp/xmpcontent.cpp:120
 #, fuzzy
@@ -1357,130 +1303,6 @@ msgstr "Contautu:"
 #: iptc/iptccredits.cpp:139
 msgid "Set here the person or organisation to contact."
 msgstr ""
-
-#: iptc/iptceditwidget.cpp:132 xmp/xmpeditwidget.cpp:132
-msgid "Content"
-msgstr "Conteníu"
-
-#: iptc/iptceditwidget.cpp:133 xmp/xmpeditwidget.cpp:133
-#, fuzzy
-#| msgid ""
-#| "<qt>Category Information<br/><i>Use this panel to record categories "
-#| "relevant to the image</i></qt>"
-msgid ""
-"<qt>Content Information<br/><i>Use this panel to describe the visual content "
-"of the image</i></qt>"
-msgstr ""
-"<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
-"de la imaxe</i></qt>"
-
-#: iptc/iptceditwidget.cpp:138 xmp/xmpeditwidget.cpp:138
-msgid "Origin"
-msgstr "Orixe"
-
-#: iptc/iptceditwidget.cpp:139 xmp/xmpeditwidget.cpp:139
-#, fuzzy
-#| msgid ""
-#| "<qt>Category Information<br/><i>Use this panel to record categories "
-#| "relevant to the image</i></qt>"
-msgid ""
-"<qt>Origin Information<br/><i>Use this panel for formal descriptive "
-"information about the image</i></qt>"
-msgstr ""
-"<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
-"de la imaxe</i></qt>"
-
-#: iptc/iptceditwidget.cpp:144 xmp/xmpeditwidget.cpp:144
-msgid "Credits"
-msgstr "Créditos"
-
-#: iptc/iptceditwidget.cpp:145 xmp/xmpeditwidget.cpp:145
-#, fuzzy
-#| msgid ""
-#| "<qt>Category Information<br/><i>Use this panel to record categories "
-#| "relevant to the image</i></qt>"
-msgid ""
-"<qt>Credit Information<br/><i>Use this panel to record copyright information "
-"about the image</i></qt>"
-msgstr ""
-"<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
-"de la imaxe</i></qt>"
-
-#: iptc/iptceditwidget.cpp:150 xmp/xmpeditwidget.cpp:150
-msgid "Subjects"
-msgstr "Temes"
-
-#: iptc/iptceditwidget.cpp:151 xmp/xmpeditwidget.cpp:151
-#, fuzzy
-#| msgid ""
-#| "<qt>Status Information<br/><i>Use this panel to record workflow "
-#| "information</i></qt>"
-msgid ""
-"<qt>Subject Information<br/><i>Use this panel to record subject information "
-"about the image</i></qt>"
-msgstr ""
-"<qt>Información d'estáu<br/><i>Usa esti panel pa rexistrar información del "
-"fluxu de trabayu</i></qt>"
-
-#: iptc/iptceditwidget.cpp:156 xmp/xmpeditwidget.cpp:156
-msgid "Keywords"
-msgstr "Pallabres clave"
-
-#: iptc/iptceditwidget.cpp:157 xmp/xmpeditwidget.cpp:157
-msgid ""
-"<qt>Keyword Information<br/><i>Use this panel to record keywords relevant to "
-"the image</i></qt>"
-msgstr ""
-"<qt>Información de clave<br/><i>Usa esti panel pa grabar claves relevantes "
-"de la imaxe</i></qt>"
-
-#: iptc/iptceditwidget.cpp:162 xmp/xmpeditwidget.cpp:162
-msgid "Categories"
-msgstr "Estayes"
-
-#: iptc/iptceditwidget.cpp:163 xmp/xmpeditwidget.cpp:163
-msgid ""
-"<qt>Category Information<br/><i>Use this panel to record categories relevant "
-"to the image</i></qt>"
-msgstr ""
-"<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
-"de la imaxe</i></qt>"
-
-#: iptc/iptceditwidget.cpp:168 xmp/xmpeditwidget.cpp:168
-msgid "Status"
-msgstr "Estáu"
-
-#: iptc/iptceditwidget.cpp:169 xmp/xmpeditwidget.cpp:169
-msgid ""
-"<qt>Status Information<br/><i>Use this panel to record workflow information</"
-"i></qt>"
-msgstr ""
-"<qt>Información d'estáu<br/><i>Usa esti panel pa rexistrar información del "
-"fluxu de trabayu</i></qt>"
-
-#: iptc/iptceditwidget.cpp:174 xmp/xmpeditwidget.cpp:174
-msgid "Properties"
-msgstr "Propiedaes"
-
-#: iptc/iptceditwidget.cpp:175 xmp/xmpeditwidget.cpp:175
-msgid ""
-"<qt>Status Properties<br/><i>Use this panel to record workflow properties</"
-"i></qt>"
-msgstr ""
-"<qt>Información d'estáu<br/><i>Usa esti panel pa rexistrar les propiedaes "
-"del fluxu de trabayu</i></qt>"
-
-#: iptc/iptceditwidget.cpp:180
-msgid "Envelope"
-msgstr "Envoltura"
-
-#: iptc/iptceditwidget.cpp:181
-msgid ""
-"<qt>Envelope Information<br/><i>Use this panel to record editorial details</"
-"i></qt>"
-msgstr ""
-"<qt>Información d'envoltoriu<br/><i>Usa esti panel pa rexistrar detalles "
-"editoriales</i></qt>"
 
 #: iptc/iptcenvelope.cpp:88
 msgid "No ObjectData"
@@ -2161,365 +1983,182 @@ msgstr ""
 "Afita equí'l Nome únicu del Indicador d'oxetu. Esti campu tien una llende de "
 "80 carauteres ASCII."
 
-#: plugin/metadataedit.cpp:97
-msgid "Metadata edit dialog"
+#: iptc/iptccontent.cpp:93 xmp/xmpcontent.cpp:88
+msgid "Headline:"
 msgstr ""
 
-#: plugin/metadataedit.cpp:102
-#, fuzzy
-#| msgid "Edit EXIF..."
-msgid "Edit EXIF"
-msgstr "Editar EXIF ..."
-
-#: plugin/metadataedit.cpp:103
-#, fuzzy
-#| msgid "Edit IPTC..."
-msgid "Edit IPTC"
-msgstr "Editar IPTC..."
-
-#: plugin/metadataedit.cpp:104
-#, fuzzy
-#| msgid "Edit XMP..."
-msgid "Edit XMP"
-msgstr "Editar XMP..."
-
-#: plugin/metadataedit.cpp:112
-msgid "Next"
-msgstr "Siguiente"
-
-#: plugin/metadataedit.cpp:113
-msgid "Previous"
-msgstr "Anterior"
-
-#: plugin/metadataedit.cpp:155
-msgid "Edit Metadata"
-msgstr "Editar metadatos"
-
-#: plugin/metadataedit.cpp:158
-msgid "A Plugin to edit pictures' metadata."
-msgstr "Un complementu pa editar metadatos d'imáxenes."
-
-#: plugin/metadataedit.cpp:159
-#, fuzzy
-#| msgid "(c) 2006-2010, Gilles Caulier"
-msgid "(c) 2006-2012, Gilles Caulier"
-msgstr "(c) 2006-2010, Gilles Caulier"
-
-#: plugin/metadataedit.cpp:161
-msgid "Author and Maintainer"
-msgstr "Autor y responsable"
-
-#: plugin/metadataedit.cpp:161
-msgid "Gilles Caulier"
-msgstr "Gilles Caulier"
-
-#: plugin/metadataedit.cpp:164
-#, fuzzy
-#| msgid "Envelope"
-msgid "Developer"
-msgstr "Envoltura"
-
-#: plugin/metadataedit.cpp:164
-msgid "Victor Dodon"
-msgstr ""
-
-#: plugin/metadataedit.cpp:268
-#, fuzzy, kde-format
-#| msgid "Edit Metadata"
-msgid "%1 (%2/%3) - Edit Metadata"
-msgstr "Editar metadatos"
-
-#: plugin/multistringsedit.cpp:90 plugin/multivaluesedit.cpp:94
-#: plugin/objectattributesedit.cpp:104
-msgid "Add a new value to the list"
-msgstr "Amestar un valor nuevu a la llista"
-
-#: plugin/multistringsedit.cpp:91 plugin/multivaluesedit.cpp:95
-#: plugin/objectattributesedit.cpp:105
-msgid "Remove the current selected value from the list"
-msgstr "Desaniciar el valor escoyíu de la llista"
-
-#: plugin/multistringsedit.cpp:92 plugin/multivaluesedit.cpp:96
-#: plugin/objectattributesedit.cpp:106
-msgid "Replace the current selected value from the list"
-msgstr "Trocar el valor escoyíu na llista"
-
-#: plugin/multistringsedit.cpp:106 plugin/objectattributesedit.cpp:151
-msgid " This field is limited to:"
-msgstr ""
-
-#: plugin/multistringsedit.cpp:112 plugin/objectattributesedit.cpp:157
-#, fuzzy
-#| msgid "<p>1 character.</p>"
-#| msgid_plural "<p>%1 characters.</p>"
-msgid "<p>Printable ASCII characters.</p>"
-msgstr "<p>un carauter.</p>"
-
-#: plugin/multistringsedit.cpp:118 plugin/objectattributesedit.cpp:163
-#, kde-format
-msgid "<p>1 character.</p>"
-msgid_plural "<p>%1 characters.</p>"
-msgstr[0] "<p>un carauter.</p>"
-msgstr[1] "<p>%1 carauteres.</p>"
-
-#: plugin/objectattributesedit.cpp:96 xmp/xmpproperties.cpp:222
-msgid "Attribute:"
-msgstr "Atributu:"
-
-#: plugin/objectattributesedit.cpp:118
-#, fuzzy
-#| msgid "Set here the creation date of intellectual content."
-msgid "Select here the editorial attribute of content."
-msgstr "Afita equí la data de criación del conteníu inteleutual."
-
-#: plugin/objectattributesedit.cpp:119
-msgctxt "Content type"
-msgid "Current"
-msgstr "Actual"
-
-#: plugin/objectattributesedit.cpp:120
-msgctxt "Content type"
-msgid "Analysis"
-msgstr "Analís"
-
-#: plugin/objectattributesedit.cpp:121
-msgctxt "Content type"
-msgid "Archive material"
-msgstr "Material de ficheru"
-
-#: plugin/objectattributesedit.cpp:122
-msgctxt "Content type"
-msgid "Background"
-msgstr "Fondu de pantalla"
-
-#: plugin/objectattributesedit.cpp:123
-msgctxt "Content type"
-msgid "Feature"
-msgstr "Propiedá"
-
-#: plugin/objectattributesedit.cpp:124
-#, fuzzy
-#| msgid "Forecast"
-msgctxt "Content type"
-msgid "Forecast"
-msgstr "Pronósticu"
-
-#: plugin/objectattributesedit.cpp:125
-msgctxt "Content type"
-msgid "History"
-msgstr "Historial"
-
-#: plugin/objectattributesedit.cpp:126
-msgctxt "Content type"
-msgid "Obituary"
-msgstr "Necrolóxica"
-
-#: plugin/objectattributesedit.cpp:127
-msgctxt "Content type"
-msgid "Opinion"
-msgstr "Opinión"
-
-#: plugin/objectattributesedit.cpp:128
-msgctxt "Content type"
-msgid "Polls & Surveys"
-msgstr "Encuestes ya investigación"
-
-#: plugin/objectattributesedit.cpp:129
-msgctxt "Content type"
-msgid "Profile"
-msgstr "Perfil"
-
-#: plugin/objectattributesedit.cpp:130
-msgctxt "Content type"
-msgid "Results Listings & Table"
-msgstr ""
-
-#: plugin/objectattributesedit.cpp:131
-#, fuzzy
-#| msgid "Caption Information"
-msgctxt "Content type"
-msgid "Side bar & Supporting information"
-msgstr "Información de la descripción"
-
-#: plugin/objectattributesedit.cpp:132
-msgctxt "Content type"
-msgid "Summary"
-msgstr "Resume"
-
-#: plugin/objectattributesedit.cpp:133
-#, fuzzy
-#| msgid "Transcript & Verbatim"
-msgctxt "Content type"
-msgid "Transcript & Verbatim"
-msgstr "Trescripción textual"
-
-#: plugin/objectattributesedit.cpp:134
-msgctxt "Content type"
-msgid "Interview"
-msgstr "Entrevista"
-
-#: plugin/objectattributesedit.cpp:135
-msgctxt "Content type"
-msgid "From the Scene"
-msgstr "De la escena"
-
-#: plugin/objectattributesedit.cpp:136
-msgctxt "Content type"
-msgid "Retrospective"
-msgstr "Retrospeutiva"
-
-#: plugin/objectattributesedit.cpp:137
-msgctxt "Content type"
-msgid "Statistics"
-msgstr "Estadístiques"
-
-#: plugin/objectattributesedit.cpp:138
-msgctxt "Content type"
-msgid "Update"
-msgstr "Anovar"
-
-#: plugin/objectattributesedit.cpp:139
-#, fuzzy
-#| msgid "Wrap-up"
-msgctxt "Content type"
-msgid "Wrap-up"
-msgstr "Conclusión"
-
-#: plugin/objectattributesedit.cpp:140
-#, fuzzy
-#| msgid "Press Release"
-msgctxt "Content type"
-msgid "Press Release"
-msgstr "Versión de prensa"
-
-#: plugin/objectattributesedit.cpp:146
+#: iptc/iptccontent.cpp:98
 #, fuzzy
 #| msgid ""
-#| "Set here the service identifier. This field is limited to 10 ASCII "
+#| "Set here the product identifier. This field is limited to 32 ASCII "
 #| "characters."
 msgid ""
-"Set here the editorial attribute description of content. This field is "
-"limited to 64 ASCII characters."
+"Enter here the content synopsis. This field is limited to 256 ASCII "
+"characters."
 msgstr ""
-"Afita equí l'dentificador del serviciu. Esti campu tien una llende de 10 "
+"Afita equí l'dentificador del productu. Esti campu tien una llende de 32 "
 "carauteres ASCII."
 
-#: plugin/plugin_metadataedit.cpp:97
-msgid "Metadata"
-msgstr "Metadatos"
-
-#: plugin/plugin_metadataedit.cpp:102
+#: iptc/iptccontent.cpp:103 xmp/xmpcontent.cpp:95
 #, fuzzy
-#| msgid "Edit Metadata"
-msgid "Edit &All Metadata..."
-msgstr "Editar metadatos"
+#| msgid "Caption:"
+msgctxt "content description"
+msgid "Caption:"
+msgstr "Descripción:"
 
-#: plugin/plugin_metadataedit.cpp:112
-msgid "Import EXIF..."
-msgstr "Importar EXIF..."
+#: iptc/iptccontent.cpp:106 xmp/xmpcontent.cpp:102
+#, fuzzy, kde-format
+#| msgid "Sync captions entered through %1"
+msgid "Sync caption entered through %1"
+msgstr "Sincronizar comentariu puestu por %1"
 
-#: plugin/plugin_metadataedit.cpp:118
-msgid "Import IPTC..."
-msgstr "Importar IPTC..."
+#: iptc/iptccontent.cpp:109 xmp/xmpcontent.cpp:105
+msgid "Sync EXIF Comment"
+msgstr "Sincronizar comentariu EXIF"
 
-#: plugin/plugin_metadataedit.cpp:124
-msgid "Import XMP..."
-msgstr "Importar XMP..."
-
-#: plugin/plugin_metadataedit.cpp:174
-msgid "Select File to Import EXIF metadata"
-msgstr ""
-
-#: plugin/plugin_metadataedit.cpp:184 plugin/plugin_metadataedit.cpp:276
-#: plugin/plugin_metadataedit.cpp:363
-#, kde-format
-msgid "Cannot load metadata from \"%1\""
-msgstr ""
-
-#: plugin/plugin_metadataedit.cpp:185 plugin/plugin_metadataedit.cpp:199
-#: plugin/plugin_metadataedit.cpp:208 plugin/plugin_metadataedit.cpp:248
-msgid "Import EXIF Metadata"
-msgstr "Importar metadatos EXIF"
-
-#: plugin/plugin_metadataedit.cpp:198
-#, kde-format
-msgid "\"%1\" does not have EXIF metadata."
-msgstr "«%1» nun tien metadatos EXIF"
-
-#: plugin/plugin_metadataedit.cpp:205
-#, kde-format
+#: iptc/iptccontent.cpp:113
+#, fuzzy
+#| msgid "Enter the image title. This field is limited to ASCII characters."
 msgid ""
-"EXIF metadata from the currently selected pictures will be permanently "
-"replaced by the EXIF content of \"%1\".\n"
-"Do you want to continue?"
+"Enter the content description. This field is limited to 2000 ASCII "
+"characters."
+msgstr ""
+"Pon equí'l títulu de la imaxe. Esti campu tien una llende de carauteres "
+"ASCII."
+
+#: iptc/iptccontent.cpp:118 xmp/xmpcontent.cpp:115
+#, fuzzy
+#| msgid "Caption:"
+msgid "Caption Writer:"
+msgstr "Descripción:"
+
+#: iptc/iptccontent.cpp:119 xmp/xmpcontent.cpp:118
+msgid "Enter the name of the caption author."
 msgstr ""
 
-#: plugin/plugin_metadataedit.cpp:246
-msgid "Unable to set EXIF metadata from:"
-msgstr ""
+#: iptc/iptceditwidget.cpp:132 xmp/xmpeditwidget.cpp:132
+msgid "Content"
+msgstr "Conteníu"
 
-#: plugin/plugin_metadataedit.cpp:266
-msgid "Select File to Import IPTC metadata"
-msgstr ""
-
-#: plugin/plugin_metadataedit.cpp:277 plugin/plugin_metadataedit.cpp:286
-#: plugin/plugin_metadataedit.cpp:295 plugin/plugin_metadataedit.cpp:335
-msgid "Import IPTC Metadata"
-msgstr "Importar metadatos IPTC"
-
-#: plugin/plugin_metadataedit.cpp:285
-#, kde-format
-msgid "\"%1\" does not have IPTC metadata."
-msgstr ""
-
-#: plugin/plugin_metadataedit.cpp:292
-#, kde-format
+#: iptc/iptceditwidget.cpp:133 xmp/xmpeditwidget.cpp:133
+#, fuzzy
+#| msgid ""
+#| "<qt>Category Information<br/><i>Use this panel to record categories "
+#| "relevant to the image</i></qt>"
 msgid ""
-"IPTC metadata from the currently selected pictures will be permanently "
-"replaced by the IPTC content of \"%1\".\n"
-"Do you want to continue?"
+"<qt>Content Information<br/><i>Use this panel to describe the visual content "
+"of the image</i></qt>"
 msgstr ""
+"<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
+"de la imaxe</i></qt>"
 
-#: plugin/plugin_metadataedit.cpp:333
-msgid "Unable to set IPTC metadata from:"
-msgstr ""
+#: iptc/iptceditwidget.cpp:138 xmp/xmpeditwidget.cpp:138
+msgid "Origin"
+msgstr "Orixe"
 
-#: plugin/plugin_metadataedit.cpp:353
-msgid "Select File to Import XMP metadata"
-msgstr ""
-
-#: plugin/plugin_metadataedit.cpp:364 plugin/plugin_metadataedit.cpp:373
-#: plugin/plugin_metadataedit.cpp:382 plugin/plugin_metadataedit.cpp:422
-msgid "Import XMP Metadata"
-msgstr "Importar metadatos XMP"
-
-#: plugin/plugin_metadataedit.cpp:372
-#, kde-format
-msgid "\"%1\" does not have XMP metadata."
-msgstr ""
-
-#: plugin/plugin_metadataedit.cpp:379
-#, kde-format
+#: iptc/iptceditwidget.cpp:139 xmp/xmpeditwidget.cpp:139
+#, fuzzy
+#| msgid ""
+#| "<qt>Category Information<br/><i>Use this panel to record categories "
+#| "relevant to the image</i></qt>"
 msgid ""
-"XMP metadata from the currently selected pictures will be permanently "
-"replaced by the XMP content of \"%1\".\n"
-"Do you want to continue?"
+"<qt>Origin Information<br/><i>Use this panel for formal descriptive "
+"information about the image</i></qt>"
 msgstr ""
+"<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
+"de la imaxe</i></qt>"
 
-#: plugin/plugin_metadataedit.cpp:420
-msgid "Unable to set XMP metadata from:"
+#: iptc/iptceditwidget.cpp:144 xmp/xmpeditwidget.cpp:144
+msgid "Credits"
+msgstr "Créditos"
+
+#: iptc/iptceditwidget.cpp:145 xmp/xmpeditwidget.cpp:145
+#, fuzzy
+#| msgid ""
+#| "<qt>Category Information<br/><i>Use this panel to record categories "
+#| "relevant to the image</i></qt>"
+msgid ""
+"<qt>Credit Information<br/><i>Use this panel to record copyright information "
+"about the image</i></qt>"
 msgstr ""
+"<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
+"de la imaxe</i></qt>"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Iñigo Varela, Xandru, Xandru Martino"
+#: iptc/iptceditwidget.cpp:150 xmp/xmpeditwidget.cpp:150
+msgid "Subjects"
+msgstr "Temes"
 
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
+#: iptc/iptceditwidget.cpp:151 xmp/xmpeditwidget.cpp:151
+#, fuzzy
+#| msgid ""
+#| "<qt>Status Information<br/><i>Use this panel to record workflow "
+#| "information</i></qt>"
+msgid ""
+"<qt>Subject Information<br/><i>Use this panel to record subject information "
+"about the image</i></qt>"
 msgstr ""
-"malditoastur@gmail.com, xandru.martino@softastur.org, xandru@softastur.org"
+"<qt>Información d'estáu<br/><i>Usa esti panel pa rexistrar información del "
+"fluxu de trabayu</i></qt>"
+
+#: iptc/iptceditwidget.cpp:156 xmp/xmpeditwidget.cpp:156
+msgid "Keywords"
+msgstr "Pallabres clave"
+
+#: iptc/iptceditwidget.cpp:157 xmp/xmpeditwidget.cpp:157
+msgid ""
+"<qt>Keyword Information<br/><i>Use this panel to record keywords relevant to "
+"the image</i></qt>"
+msgstr ""
+"<qt>Información de clave<br/><i>Usa esti panel pa grabar claves relevantes "
+"de la imaxe</i></qt>"
+
+#: iptc/iptceditwidget.cpp:162 xmp/xmpeditwidget.cpp:162
+msgid "Categories"
+msgstr "Estayes"
+
+#: iptc/iptceditwidget.cpp:163 xmp/xmpeditwidget.cpp:163
+msgid ""
+"<qt>Category Information<br/><i>Use this panel to record categories relevant "
+"to the image</i></qt>"
+msgstr ""
+"<qt>Información d'estaya<br/><i>Usa esti panel pa grabar estayes relevantes "
+"de la imaxe</i></qt>"
+
+#: iptc/iptceditwidget.cpp:168 xmp/xmpeditwidget.cpp:168
+msgid "Status"
+msgstr "Estáu"
+
+#: iptc/iptceditwidget.cpp:169 xmp/xmpeditwidget.cpp:169
+msgid ""
+"<qt>Status Information<br/><i>Use this panel to record workflow information</"
+"i></qt>"
+msgstr ""
+"<qt>Información d'estáu<br/><i>Usa esti panel pa rexistrar información del "
+"fluxu de trabayu</i></qt>"
+
+#: iptc/iptceditwidget.cpp:174 xmp/xmpeditwidget.cpp:174
+msgid "Properties"
+msgstr "Propiedaes"
+
+#: iptc/iptceditwidget.cpp:175 xmp/xmpeditwidget.cpp:175
+msgid ""
+"<qt>Status Properties<br/><i>Use this panel to record workflow properties</"
+"i></qt>"
+msgstr ""
+"<qt>Información d'estáu<br/><i>Usa esti panel pa rexistrar les propiedaes "
+"del fluxu de trabayu</i></qt>"
+
+#: iptc/iptceditwidget.cpp:180
+msgid "Envelope"
+msgstr "Envoltura"
+
+#: iptc/iptceditwidget.cpp:181
+msgid ""
+"<qt>Envelope Information<br/><i>Use this panel to record editorial details</"
+"i></qt>"
+msgstr ""
+"<qt>Información d'envoltoriu<br/><i>Usa esti panel pa rexistrar detalles "
+"editoriales</i></qt>"
 
 #: xmp/xmpcategories.cpp:90
 #, fuzzy
@@ -2626,6 +2265,77 @@ msgstr "Afita equí la data de criación del conteníu inteleutual."
 
 #: xmp/xmpkeywords.cpp:86
 msgid "Enter here a new keyword."
+msgstr ""
+
+#: xmp/xmpstatus.cpp:85
+msgctxt "short title for the content"
+msgid "Title:"
+msgstr "Títulu:"
+
+#: xmp/xmpstatus.cpp:86
+#, fuzzy
+#| msgid "Set here the creation date of intellectual content."
+msgid "Set here a shorthand reference for the content."
+msgstr "Afita equí la data de criación del conteníu inteleutual."
+
+#: xmp/xmpstatus.cpp:90
+msgid "Nickname:"
+msgstr "Nomatu:"
+
+#: xmp/xmpstatus.cpp:93
+msgid "A short informal name for the resource."
+msgstr ""
+
+#: xmp/xmpstatus.cpp:97
+msgid "Identifiers:"
+msgstr "Identificadores:"
+
+#: xmp/xmpstatus.cpp:98
+#, fuzzy
+#| msgid "Set here the time when the service sent the material."
+msgid "Set here the strings that identify content that recurs."
+msgstr "Afita equí la hora na que'l serviciu mandó'l material."
+
+#: xmp/xmpstatus.cpp:104
+msgid "Enter the editorial usage instructions."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:51
+msgid ""
+"Enter here the Informative Provider Reference. I.P.R is a name registered "
+"with the XMP/NAA, identifying the provider that provides an indicator of the "
+"content. The default value for the I.P.R is \"XMP\" if a standard Reference "
+"Code is used."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:57
+msgid ""
+"Enter here the Subject Reference Number. Provides a numeric code to indicate "
+"the Subject Name plus optional Subject Matter and Subject Detail Names in "
+"the language of the service. Subject Reference is a number from the range "
+"01000000 to 17999999 and represent a language independent international "
+"reference to a Subject. A Subject is identified by its Reference Number and "
+"corresponding Names taken from a standard lists given by XMP/NAA. If a "
+"standard reference code is used, these lists are the English language "
+"reference versions. This field is limited to 8 digit code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:70
+msgid ""
+"Enter here the Subject Name. English language is used if you selected a "
+"standard XMP/NAA reference code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:74
+msgid ""
+"Enter here the Subject Matter Name. English language is used if you selected "
+"a standard XMP/NAA reference code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:78
+msgid ""
+"Enter here the Subject Detail Name. English language is used if you selected "
+"a standard XMP/NAA reference code."
 msgstr ""
 
 #: xmp/xmporigin.cpp:152
@@ -2797,6 +2507,10 @@ msgstr "Afita equí la data de criación del conteníu inteleutual."
 msgid "Select here the editorial type of the content."
 msgstr "Afita equí la data de criación del conteníu inteleutual."
 
+#: xmp/xmpproperties.cpp:222 plugin/objectattributesedit.cpp:96
+msgid "Attribute:"
+msgstr "Atributu:"
+
 #: xmp/xmpproperties.cpp:226
 #, fuzzy
 #| msgid "Set here the creation date of intellectual content."
@@ -2945,76 +2659,361 @@ msgstr "Versión de prensa"
 msgid "Set here the original content transmission reference."
 msgstr ""
 
-#: xmp/xmpstatus.cpp:85
-msgctxt "short title for the content"
-msgid "Title:"
-msgstr "Títulu:"
+#: plugin/multistringsedit.cpp:90 plugin/multivaluesedit.cpp:94
+#: plugin/objectattributesedit.cpp:104
+msgid "Add a new value to the list"
+msgstr "Amestar un valor nuevu a la llista"
 
-#: xmp/xmpstatus.cpp:86
+#: plugin/multistringsedit.cpp:91 plugin/multivaluesedit.cpp:95
+#: plugin/objectattributesedit.cpp:105
+msgid "Remove the current selected value from the list"
+msgstr "Desaniciar el valor escoyíu de la llista"
+
+#: plugin/multistringsedit.cpp:92 plugin/multivaluesedit.cpp:96
+#: plugin/objectattributesedit.cpp:106
+msgid "Replace the current selected value from the list"
+msgstr "Trocar el valor escoyíu na llista"
+
+#: plugin/multistringsedit.cpp:106 plugin/objectattributesedit.cpp:151
+msgid " This field is limited to:"
+msgstr ""
+
+#: plugin/multistringsedit.cpp:112 plugin/objectattributesedit.cpp:157
+#, fuzzy
+#| msgid "<p>1 character.</p>"
+#| msgid_plural "<p>%1 characters.</p>"
+msgid "<p>Printable ASCII characters.</p>"
+msgstr "<p>un carauter.</p>"
+
+#: plugin/multistringsedit.cpp:118 plugin/objectattributesedit.cpp:163
+#, kde-format
+msgid "<p>1 character.</p>"
+msgid_plural "<p>%1 characters.</p>"
+msgstr[0] "<p>un carauter.</p>"
+msgstr[1] "<p>%1 carauteres.</p>"
+
+#: plugin/objectattributesedit.cpp:118
 #, fuzzy
 #| msgid "Set here the creation date of intellectual content."
-msgid "Set here a shorthand reference for the content."
+msgid "Select here the editorial attribute of content."
 msgstr "Afita equí la data de criación del conteníu inteleutual."
 
-#: xmp/xmpstatus.cpp:90
-msgid "Nickname:"
-msgstr "Nomatu:"
+#: plugin/objectattributesedit.cpp:119
+msgctxt "Content type"
+msgid "Current"
+msgstr "Actual"
 
-#: xmp/xmpstatus.cpp:93
-msgid "A short informal name for the resource."
-msgstr ""
+#: plugin/objectattributesedit.cpp:120
+msgctxt "Content type"
+msgid "Analysis"
+msgstr "Analís"
 
-#: xmp/xmpstatus.cpp:97
-msgid "Identifiers:"
-msgstr "Identificadores:"
+#: plugin/objectattributesedit.cpp:121
+msgctxt "Content type"
+msgid "Archive material"
+msgstr "Material de ficheru"
 
-#: xmp/xmpstatus.cpp:98
+#: plugin/objectattributesedit.cpp:122
+msgctxt "Content type"
+msgid "Background"
+msgstr "Fondu de pantalla"
+
+#: plugin/objectattributesedit.cpp:123
+msgctxt "Content type"
+msgid "Feature"
+msgstr "Propiedá"
+
+#: plugin/objectattributesedit.cpp:124
 #, fuzzy
-#| msgid "Set here the time when the service sent the material."
-msgid "Set here the strings that identify content that recurs."
-msgstr "Afita equí la hora na que'l serviciu mandó'l material."
+#| msgid "Forecast"
+msgctxt "Content type"
+msgid "Forecast"
+msgstr "Pronósticu"
 
-#: xmp/xmpstatus.cpp:104
-msgid "Enter the editorial usage instructions."
+#: plugin/objectattributesedit.cpp:125
+msgctxt "Content type"
+msgid "History"
+msgstr "Historial"
+
+#: plugin/objectattributesedit.cpp:126
+msgctxt "Content type"
+msgid "Obituary"
+msgstr "Necrolóxica"
+
+#: plugin/objectattributesedit.cpp:127
+msgctxt "Content type"
+msgid "Opinion"
+msgstr "Opinión"
+
+#: plugin/objectattributesedit.cpp:128
+msgctxt "Content type"
+msgid "Polls & Surveys"
+msgstr "Encuestes ya investigación"
+
+#: plugin/objectattributesedit.cpp:129
+msgctxt "Content type"
+msgid "Profile"
+msgstr "Perfil"
+
+#: plugin/objectattributesedit.cpp:130
+msgctxt "Content type"
+msgid "Results Listings & Table"
 msgstr ""
 
-#: xmp/xmpsubjects.cpp:51
+#: plugin/objectattributesedit.cpp:131
+#, fuzzy
+#| msgid "Caption Information"
+msgctxt "Content type"
+msgid "Side bar & Supporting information"
+msgstr "Información de la descripción"
+
+#: plugin/objectattributesedit.cpp:132
+msgctxt "Content type"
+msgid "Summary"
+msgstr "Resume"
+
+#: plugin/objectattributesedit.cpp:133
+#, fuzzy
+#| msgid "Transcript & Verbatim"
+msgctxt "Content type"
+msgid "Transcript & Verbatim"
+msgstr "Trescripción textual"
+
+#: plugin/objectattributesedit.cpp:134
+msgctxt "Content type"
+msgid "Interview"
+msgstr "Entrevista"
+
+#: plugin/objectattributesedit.cpp:135
+msgctxt "Content type"
+msgid "From the Scene"
+msgstr "De la escena"
+
+#: plugin/objectattributesedit.cpp:136
+msgctxt "Content type"
+msgid "Retrospective"
+msgstr "Retrospeutiva"
+
+#: plugin/objectattributesedit.cpp:137
+msgctxt "Content type"
+msgid "Statistics"
+msgstr "Estadístiques"
+
+#: plugin/objectattributesedit.cpp:138
+msgctxt "Content type"
+msgid "Update"
+msgstr "Anovar"
+
+#: plugin/objectattributesedit.cpp:139
+#, fuzzy
+#| msgid "Wrap-up"
+msgctxt "Content type"
+msgid "Wrap-up"
+msgstr "Conclusión"
+
+#: plugin/objectattributesedit.cpp:140
+#, fuzzy
+#| msgid "Press Release"
+msgctxt "Content type"
+msgid "Press Release"
+msgstr "Versión de prensa"
+
+#: plugin/objectattributesedit.cpp:146
+#, fuzzy
+#| msgid ""
+#| "Set here the service identifier. This field is limited to 10 ASCII "
+#| "characters."
 msgid ""
-"Enter here the Informative Provider Reference. I.P.R is a name registered "
-"with the XMP/NAA, identifying the provider that provides an indicator of the "
-"content. The default value for the I.P.R is \"XMP\" if a standard Reference "
-"Code is used."
+"Set here the editorial attribute description of content. This field is "
+"limited to 64 ASCII characters."
+msgstr ""
+"Afita equí l'dentificador del serviciu. Esti campu tien una llende de 10 "
+"carauteres ASCII."
+
+#: plugin/metadataedit.cpp:97
+msgid "Metadata edit dialog"
 msgstr ""
 
-#: xmp/xmpsubjects.cpp:57
-msgid ""
-"Enter here the Subject Reference Number. Provides a numeric code to indicate "
-"the Subject Name plus optional Subject Matter and Subject Detail Names in "
-"the language of the service. Subject Reference is a number from the range "
-"01000000 to 17999999 and represent a language independent international "
-"reference to a Subject. A Subject is identified by its Reference Number and "
-"corresponding Names taken from a standard lists given by XMP/NAA. If a "
-"standard reference code is used, these lists are the English language "
-"reference versions. This field is limited to 8 digit code."
+#: plugin/metadataedit.cpp:102
+#, fuzzy
+#| msgid "Edit EXIF..."
+msgid "Edit EXIF"
+msgstr "Editar EXIF ..."
+
+#: plugin/metadataedit.cpp:103
+#, fuzzy
+#| msgid "Edit IPTC..."
+msgid "Edit IPTC"
+msgstr "Editar IPTC..."
+
+#: plugin/metadataedit.cpp:104
+#, fuzzy
+#| msgid "Edit XMP..."
+msgid "Edit XMP"
+msgstr "Editar XMP..."
+
+#: plugin/metadataedit.cpp:112
+msgid "Next"
+msgstr "Siguiente"
+
+#: plugin/metadataedit.cpp:113
+msgid "Previous"
+msgstr "Anterior"
+
+#: plugin/metadataedit.cpp:155
+msgid "Edit Metadata"
+msgstr "Editar metadatos"
+
+#: plugin/metadataedit.cpp:158
+msgid "A Plugin to edit pictures' metadata."
+msgstr "Un complementu pa editar metadatos d'imáxenes."
+
+#: plugin/metadataedit.cpp:159
+#, fuzzy
+#| msgid "(c) 2006-2010, Gilles Caulier"
+msgid "(c) 2006-2012, Gilles Caulier"
+msgstr "(c) 2006-2010, Gilles Caulier"
+
+#: plugin/metadataedit.cpp:161
+msgid "Gilles Caulier"
+msgstr "Gilles Caulier"
+
+#: plugin/metadataedit.cpp:161
+msgid "Author and Maintainer"
+msgstr "Autor y responsable"
+
+#: plugin/metadataedit.cpp:164
+msgid "Victor Dodon"
 msgstr ""
 
-#: xmp/xmpsubjects.cpp:70
-msgid ""
-"Enter here the Subject Name. English language is used if you selected a "
-"standard XMP/NAA reference code."
+#: plugin/metadataedit.cpp:164
+#, fuzzy
+#| msgid "Envelope"
+msgid "Developer"
+msgstr "Envoltura"
+
+#: plugin/metadataedit.cpp:268
+#, fuzzy, kde-format
+#| msgid "Edit Metadata"
+msgid "%1 (%2/%3) - Edit Metadata"
+msgstr "Editar metadatos"
+
+#: plugin/plugin_metadataedit.cpp:97
+msgid "Metadata"
+msgstr "Metadatos"
+
+#: plugin/plugin_metadataedit.cpp:102
+#, fuzzy
+#| msgid "Edit Metadata"
+msgid "Edit &All Metadata..."
+msgstr "Editar metadatos"
+
+#: plugin/plugin_metadataedit.cpp:112
+msgid "Import EXIF..."
+msgstr "Importar EXIF..."
+
+#: plugin/plugin_metadataedit.cpp:118
+msgid "Import IPTC..."
+msgstr "Importar IPTC..."
+
+#: plugin/plugin_metadataedit.cpp:124
+msgid "Import XMP..."
+msgstr "Importar XMP..."
+
+#: plugin/plugin_metadataedit.cpp:174
+msgid "Select File to Import EXIF metadata"
 msgstr ""
 
-#: xmp/xmpsubjects.cpp:74
-msgid ""
-"Enter here the Subject Matter Name. English language is used if you selected "
-"a standard XMP/NAA reference code."
+#: plugin/plugin_metadataedit.cpp:184 plugin/plugin_metadataedit.cpp:276
+#: plugin/plugin_metadataedit.cpp:363
+#, kde-format
+msgid "Cannot load metadata from \"%1\""
 msgstr ""
 
-#: xmp/xmpsubjects.cpp:78
+#: plugin/plugin_metadataedit.cpp:185 plugin/plugin_metadataedit.cpp:199
+#: plugin/plugin_metadataedit.cpp:208 plugin/plugin_metadataedit.cpp:248
+msgid "Import EXIF Metadata"
+msgstr "Importar metadatos EXIF"
+
+#: plugin/plugin_metadataedit.cpp:198
+#, kde-format
+msgid "\"%1\" does not have EXIF metadata."
+msgstr "«%1» nun tien metadatos EXIF"
+
+#: plugin/plugin_metadataedit.cpp:205
+#, kde-format
 msgid ""
-"Enter here the Subject Detail Name. English language is used if you selected "
-"a standard XMP/NAA reference code."
+"EXIF metadata from the currently selected pictures will be permanently "
+"replaced by the EXIF content of \"%1\".\n"
+"Do you want to continue?"
 msgstr ""
+
+#: plugin/plugin_metadataedit.cpp:246
+msgid "Unable to set EXIF metadata from:"
+msgstr ""
+
+#: plugin/plugin_metadataedit.cpp:266
+msgid "Select File to Import IPTC metadata"
+msgstr ""
+
+#: plugin/plugin_metadataedit.cpp:277 plugin/plugin_metadataedit.cpp:286
+#: plugin/plugin_metadataedit.cpp:295 plugin/plugin_metadataedit.cpp:335
+msgid "Import IPTC Metadata"
+msgstr "Importar metadatos IPTC"
+
+#: plugin/plugin_metadataedit.cpp:285
+#, kde-format
+msgid "\"%1\" does not have IPTC metadata."
+msgstr ""
+
+#: plugin/plugin_metadataedit.cpp:292
+#, kde-format
+msgid ""
+"IPTC metadata from the currently selected pictures will be permanently "
+"replaced by the IPTC content of \"%1\".\n"
+"Do you want to continue?"
+msgstr ""
+
+#: plugin/plugin_metadataedit.cpp:333
+msgid "Unable to set IPTC metadata from:"
+msgstr ""
+
+#: plugin/plugin_metadataedit.cpp:353
+msgid "Select File to Import XMP metadata"
+msgstr ""
+
+#: plugin/plugin_metadataedit.cpp:364 plugin/plugin_metadataedit.cpp:373
+#: plugin/plugin_metadataedit.cpp:382 plugin/plugin_metadataedit.cpp:422
+msgid "Import XMP Metadata"
+msgstr "Importar metadatos XMP"
+
+#: plugin/plugin_metadataedit.cpp:372
+#, kde-format
+msgid "\"%1\" does not have XMP metadata."
+msgstr ""
+
+#: plugin/plugin_metadataedit.cpp:379
+#, kde-format
+msgid ""
+"XMP metadata from the currently selected pictures will be permanently "
+"replaced by the XMP content of \"%1\".\n"
+"Do you want to continue?"
+msgstr ""
+
+#: plugin/plugin_metadataedit.cpp:420
+msgid "Unable to set XMP metadata from:"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Varela, Xandru, Xandru Martino"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"malditoastur@gmail.com, xandru.martino@softastur.org, xandru@softastur.org"
 
 #~ msgid "Handbook"
 #~ msgstr "Manual"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:17+0200\n"
+"POT-Creation-Date: 2012-08-19 05:15+0200\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -20,11 +20,372 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Language: asturian\n"
 
-#: app/browsemainpage.cpp:115 app/mainwindow.cpp:346 app/viewmainpage.cpp:388
+#: app/fileoperations.cpp:60
+#, fuzzy
+#| msgid "Copy To"
+msgctxt "@title:window"
+msgid "Copy To"
+msgstr "Copiar a"
+
+#: app/fileoperations.cpp:61
+msgctxt "@action:button"
+msgid "Copy"
+msgstr "Copiar"
+
+#: app/fileoperations.cpp:64
+#, fuzzy
+#| msgid "Move To"
+msgctxt "@title:window"
+msgid "Move To"
+msgstr "Mover a"
+
+#: app/fileoperations.cpp:65
+msgctxt "@action:button"
+msgid "Move"
+msgstr "Mover"
+
+#: app/fileoperations.cpp:68
+#, fuzzy
+#| msgid "Link To"
+msgctxt "@title:window"
+msgid "Link To"
+msgstr "Enllazar a"
+
+#: app/fileoperations.cpp:69
+msgctxt "@action:button"
+msgid "Link"
+msgstr "Enllaz"
+
+#: app/fileoperations.cpp:162
+msgid "Move Here"
+msgstr "Mover equí"
+
+#: app/fileoperations.cpp:165
+msgid "Copy Here"
+msgstr "Copiar equí"
+
+#: app/fileoperations.cpp:168
+msgid "Link Here"
+msgstr "Enllazar equí"
+
+#: app/fileoperations.cpp:172
+msgid "Cancel"
+msgstr "Encaboxar"
+
+#: app/fileoperations.cpp:193
+#, fuzzy
+#| msgid "Rename"
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "Renomar"
+
+#: app/fileoperations.cpp:194
+#, kde-format
+msgid "Rename <filename>%1</filename> to:"
+msgstr "Renomar <filename>%1</filename> a:"
+
+#: app/kipiinterface.cpp:212
+#, fuzzy
+#| msgctxt "@info:progress saving all image changes"
+#| msgid "Saving..."
+msgid "Loading..."
+msgstr "Atroxando..."
+
+#: app/kipiinterface.cpp:213 app/kipiexportaction.cpp:64
+#, fuzzy
+#| msgid "No Plugin"
+msgid "No Plugin Found"
+msgstr "Ensin complementu"
+
+#: app/kipiinterface.cpp:246
+msgctxt "@title:menu"
+msgid "Images"
+msgstr "Imáxenes"
+
+#: app/kipiinterface.cpp:247
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "Ferramientes"
+
+#: app/kipiinterface.cpp:248
+msgctxt "@title:menu"
+msgid "Import"
+msgstr "Importar"
+
+#: app/kipiinterface.cpp:249
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Esportar"
+
+#: app/kipiinterface.cpp:250
+msgctxt "@title:menu"
+msgid "Batch Processing"
+msgstr "Procesamientu por llotes"
+
+#: app/kipiinterface.cpp:251
+msgctxt "@title:menu"
+msgid "Collections"
+msgstr "Coleiciones"
+
+#: app/saveallhelper.cpp:58
+msgctxt "@info:progress saving all image changes"
+msgid "Saving..."
+msgstr "Atroxando..."
+
+#: app/saveallhelper.cpp:59
+msgid "&Stop"
+msgstr "&Detener"
+
+#: app/saveallhelper.cpp:84
+#, kde-format
+msgctxt "@info"
+msgid "One document could not be saved:"
+msgid_plural "%1 documents could not be saved:"
+msgstr[0] "Nun se puede guardar un documentu:"
+msgstr[1] "Nun se pueden guardar %1 documentos:"
+
+#: app/saveallhelper.cpp:108
+#, kde-format
+msgctxt ""
+"@info %1 is the name of the document which failed to save, %2 is the reason "
+"for the failure"
+msgid "<filename>%1</filename>: %2"
+msgstr "<filename>%1</filename>: %2"
+
+#: app/savebar.cpp:87
+msgid ""
+"You have modified many images. To avoid memory problems, you should save "
+"your changes."
+msgstr ""
+"Modificasti abondes imáxenes. Tendríes de guardar los cambeos pa evitar "
+"problemes de memoria."
+
+#: app/savebar.cpp:176
+msgid "Current image modified"
+msgstr "Imaxe actual modificada"
+
+#: app/savebar.cpp:182
+msgid "Previous modified image"
+msgstr "Anterior imaxe modificada"
+
+#: app/savebar.cpp:183
+msgid "Next modified image"
+msgstr "Siguiente imaxe modificada"
+
+#: app/savebar.cpp:199
+#, kde-format
+msgid "One image modified"
+msgid_plural "%1 images modified"
+msgstr[0] "Una imaxe modificada"
+msgstr[1] "%1 imáxenes modificaes"
+
+#: app/savebar.cpp:201
+msgid "Go to first modified image"
+msgstr "Dir a la primer imaxe modificada"
+
+#: app/savebar.cpp:203
+msgid "Go to it"
+msgstr "Dir a ella"
+
+#: app/savebar.cpp:302 app/savebar.cpp:307
+msgid "Save All"
+msgstr "Grabar too"
+
+#: app/imageopscontextmanageritem.cpp:81
+msgctxt "@title actions category - means actions changing image"
+msgid "Edit"
+msgstr "Editar"
+
+#: app/imageopscontextmanageritem.cpp:84
+msgid "Rotate Left"
+msgstr "Voltiar a la esquierda"
+
+#: app/imageopscontextmanageritem.cpp:85
+#, fuzzy
+#| msgid "Rotate Right"
+msgctxt "@info:tooltip"
+msgid "Rotate image to the left"
+msgstr "Voltiar a la drecha"
+
+#: app/imageopscontextmanageritem.cpp:91
+msgid "Rotate Right"
+msgstr "Voltiar a la drecha"
+
+#: app/imageopscontextmanageritem.cpp:92
+msgctxt "@info:tooltip"
+msgid "Rotate image to the right"
+msgstr ""
+
+#: app/imageopscontextmanageritem.cpp:97
+msgid "Mirror"
+msgstr "Espeyu"
+
+#: app/imageopscontextmanageritem.cpp:101
+msgid "Flip"
+msgstr "Reflexar"
+
+#: app/imageopscontextmanageritem.cpp:105 lib/resize/resizeimagedialog.cpp:51
+msgid "Resize"
+msgstr "Redimensionar"
+
+#. i18n: file: lib/crop/cropwidget.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, CropWidget)
+#: app/imageopscontextmanageritem.cpp:110 lib/crop/cropimageoperation.cpp:71
+#: lib/crop/cropwidget.cpp:191 rc.cpp:179
+msgid "Crop"
+msgstr "Recortar"
+
+#: app/imageopscontextmanageritem.cpp:115
+msgid "Red Eye Reduction"
+msgstr "Reducción de güeyos bermeyos"
+
+#: app/imageopscontextmanageritem.cpp:142
+msgid "Image Operations"
+msgstr "Operaciones d'imáxenes"
+
+#: app/viewmainpage.cpp:286 app/viewmainpage.cpp:400
+msgid "Synchronize"
+msgstr ""
+
+#: app/viewmainpage.cpp:388 app/browsemainpage.cpp:115 app/mainwindow.cpp:346
 #: lib/documentview/documentviewcontroller.cpp:92
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr "Ver"
+
+#: app/viewmainpage.cpp:391
+msgid "Thumbnail Bar"
+msgstr "Barra de miniatures"
+
+#: app/viewmainpage.cpp:683
+msgctxt "@action:button"
+msgid "Discard Changes and Reload"
+msgstr "Descartar cambeos y volver a cargar"
+
+#: app/viewmainpage.cpp:685
+msgctxt "@info"
+msgid ""
+"This image has been modified. Reloading it will discard all your changes."
+msgstr "Esta imaxe modificóse. Si vuelves a cargala perderánse los cambeos."
+
+#: app/infocontextmanageritem.cpp:176
+#, kde-format
+msgctxt ""
+"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
+msgid "%1:"
+msgstr "%1:"
+
+#: app/infocontextmanageritem.cpp:253
+msgctxt "@action show more image meta info"
+msgid "More..."
+msgstr "Más..."
+
+#: app/infocontextmanageritem.cpp:264
+msgctxt "@title:group"
+msgid "Meta Information"
+msgstr "Metainformación"
+
+#: app/infocontextmanageritem.cpp:357
+#, kde-format
+msgctxt "@label"
+msgid "%1 file selected"
+msgid_plural "%1 files selected"
+msgstr[0] "%1 ficheru esbilláu"
+msgstr[1] "%1 ficheros esbillaos"
+
+#: app/infocontextmanageritem.cpp:359
+#, kde-format
+msgctxt "@label"
+msgid "%1 folder selected"
+msgid_plural "%1 folders selected"
+msgstr[0] "%1 carpeta esbillada"
+msgstr[1] "%1 carpetes esbillaes"
+
+#: app/infocontextmanageritem.cpp:362
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 carpeta"
+msgstr[1] "%1 carpetes"
+
+#: app/infocontextmanageritem.cpp:362
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 ficheru"
+msgstr[1] "%1 ficheros"
+
+#: app/infocontextmanageritem.cpp:362
+#, kde-format
+msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
+msgid "%1 and %2 selected"
+msgstr "%1 y %2 esbillaos"
+
+#: app/kipiexportaction.cpp:52
+msgid "Last Used Plugin"
+msgstr ""
+
+#: app/kipiexportaction.cpp:54
+#, fuzzy
+#| msgid "&Plugins"
+msgid "Other Plugins"
+msgstr "Co&mplementos"
+
+#: app/kipiexportaction.cpp:72
+#, fuzzy
+#| msgid "Square"
+msgctxt "@action"
+msgid "Share"
+msgstr "Cuadráu"
+
+#: app/kipiexportaction.cpp:78
+msgctxt "@info:tooltip"
+msgid "Share images using various services"
+msgstr ""
+
+#: app/kipiimagecollectionselector.cpp:55
+#, kde-format
+msgctxt "%1 is collection name, %2 is image count in collection"
+msgid "%1 (%2 image)"
+msgid_plural "%1 (%2 images)"
+msgstr[0] "%1 (%2 imaxe)"
+msgstr[1] "%1 (%2 imáxenes)"
+
+#: app/configdialog.cpp:72
+msgid "General"
+msgstr "Xeneral"
+
+#: app/configdialog.cpp:100
+msgid "Image View"
+msgstr "Vista d'imaxe"
+
+#: app/configdialog.cpp:105
+msgid "Advanced"
+msgstr "Avanzáu"
+
+#: app/semanticinfocontextmanageritem.cpp:175
+msgid "Semantic Information"
+msgstr "Información semántica"
+
+#: app/semanticinfocontextmanageritem.cpp:197
+#: app/fileopscontextmanageritem.cpp:180
+msgctxt "@title actions category"
+msgid "Edit"
+msgstr "Editar"
+
+#: app/semanticinfocontextmanageritem.cpp:200
+msgctxt "@action"
+msgid "Edit Tags"
+msgstr "Editar etiquetes"
+
+#: app/semanticinfocontextmanageritem.cpp:210
+msgctxt "@action Rating value of zero"
+msgid "Zero"
+msgstr "Cero"
+
+#: app/semanticinfocontextmanageritem.cpp:246
+msgid "Edit"
+msgstr "Editar"
 
 #: app/browsemainpage.cpp:117
 msgctxt "@action:inmenu Navigation Bar"
@@ -100,143 +461,6 @@ msgid_plural "%1 documents"
 msgstr[0] "%1 documentu"
 msgstr[1] "%1 documentos"
 
-#: app/configdialog.cpp:72
-msgid "General"
-msgstr "Xeneral"
-
-#: app/configdialog.cpp:100
-msgid "Image View"
-msgstr "Vista d'imaxe"
-
-#: app/configdialog.cpp:105
-msgid "Advanced"
-msgstr "Avanzáu"
-
-#: app/fileoperations.cpp:60
-#, fuzzy
-#| msgid "Copy To"
-msgctxt "@title:window"
-msgid "Copy To"
-msgstr "Copiar a"
-
-#: app/fileoperations.cpp:61
-msgctxt "@action:button"
-msgid "Copy"
-msgstr "Copiar"
-
-#: app/fileoperations.cpp:64
-#, fuzzy
-#| msgid "Move To"
-msgctxt "@title:window"
-msgid "Move To"
-msgstr "Mover a"
-
-#: app/fileoperations.cpp:65
-msgctxt "@action:button"
-msgid "Move"
-msgstr "Mover"
-
-#: app/fileoperations.cpp:68
-#, fuzzy
-#| msgid "Link To"
-msgctxt "@title:window"
-msgid "Link To"
-msgstr "Enllazar a"
-
-#: app/fileoperations.cpp:69
-msgctxt "@action:button"
-msgid "Link"
-msgstr "Enllaz"
-
-#: app/fileoperations.cpp:162
-msgid "Move Here"
-msgstr "Mover equí"
-
-#: app/fileoperations.cpp:165
-msgid "Copy Here"
-msgstr "Copiar equí"
-
-#: app/fileoperations.cpp:168
-msgid "Link Here"
-msgstr "Enllazar equí"
-
-#: app/fileoperations.cpp:172
-msgid "Cancel"
-msgstr "Encaboxar"
-
-#: app/fileoperations.cpp:193
-#, fuzzy
-#| msgid "Rename"
-msgctxt "@title:window"
-msgid "Rename"
-msgstr "Renomar"
-
-#: app/fileoperations.cpp:194
-#, kde-format
-msgid "Rename <filename>%1</filename> to:"
-msgstr "Renomar <filename>%1</filename> a:"
-
-#: app/fileopscontextmanageritem.cpp:168
-msgid "File Operations"
-msgstr "Operaciones con ficheros"
-
-#: app/fileopscontextmanageritem.cpp:180
-#: app/semanticinfocontextmanageritem.cpp:197
-msgctxt "@title actions category"
-msgid "Edit"
-msgstr "Editar"
-
-#: app/fileopscontextmanageritem.cpp:195
-msgctxt "Verb"
-msgid "Copy To..."
-msgstr "Copiar en..."
-
-#: app/fileopscontextmanageritem.cpp:199
-msgctxt "Verb"
-msgid "Move To..."
-msgstr "Mover a..."
-
-#: app/fileopscontextmanageritem.cpp:203
-msgctxt "Verb: create link to the file where user wants"
-msgid "Link To..."
-msgstr "Enllazar a..."
-
-#: app/fileopscontextmanageritem.cpp:207
-msgctxt "Verb"
-msgid "Rename..."
-msgstr "Renomar..."
-
-#: app/fileopscontextmanageritem.cpp:211
-msgctxt "Verb"
-msgid "Trash"
-msgstr "Papelera"
-
-#: app/fileopscontextmanageritem.cpp:216
-msgid "Delete"
-msgstr "Desaniciar"
-
-#: app/fileopscontextmanageritem.cpp:221
-#, fuzzy
-#| msgid "Retry"
-msgid "Restore"
-msgstr "Volve&r a intentar"
-
-#: app/fileopscontextmanageritem.cpp:224
-msgid "Properties"
-msgstr "Propiedaes"
-
-#: app/fileopscontextmanageritem.cpp:228
-msgid "Create Folder..."
-msgstr "Crear carpeta..."
-
-#: app/fileopscontextmanageritem.cpp:232
-msgid "Open With"
-msgstr "Abrir Con"
-
-#: app/fileopscontextmanageritem.cpp:422
-msgid "Other Application..."
-msgstr "Otra aplicación..."
-
 #: app/filtercontroller.cpp:131
 msgid "Name contains"
 msgstr "El nome contién"
@@ -297,26 +521,55 @@ msgctxt "@action:inmenu"
 msgid "Filter by Tag"
 msgstr "Filtrar por etiqueta"
 
-#: app/fullscreencontent.cpp:153
+#: app/main.cpp:114
+msgid "Gwenview"
+msgstr "Gwenview"
+
+#: app/main.cpp:116 part/gvpart.cpp:130
+msgid "An Image Viewer"
+msgstr "Un visor d'imáxenes"
+
+#: app/main.cpp:118 part/gvpart.cpp:132
 #, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Configure Full Screen Mode"
-msgctxt "@info:tooltip"
-msgid "Configure full screen mode"
-msgstr "Configurar el mou de pantalla completa"
+#| msgid "Copyright 2000-2010 Aurélien Gâteau"
+msgid "Copyright 2000-2012 Aurélien Gâteau"
+msgstr "Copyright 2000-2010 Aurélien Gâteau"
 
-#: app/fullscreencontent.cpp:352
-msgctxt "@item:intext fullscreen meta info separator"
-msgid ", "
-msgstr ", "
+#: app/main.cpp:120 importer/main.cpp:46 part/gvpart.cpp:134
+msgid "Aurélien Gâteau"
+msgstr "Aurélien Gâteau"
 
-#: app/fullscreencontent.cpp:408
-#, kde-format
-msgctxt "Slideshow interval in seconds"
-msgid "%1 sec"
-msgid_plural "%1 secs"
-msgstr[0] "%1 seg"
-msgstr[1] "%1 segs"
+#: app/main.cpp:121 importer/main.cpp:47 part/gvpart.cpp:135
+msgid "Main developer"
+msgstr "Desendolcador principal"
+
+#: app/main.cpp:127
+msgid "Start in fullscreen mode"
+msgstr "Aniciar en mou de pantalla completa"
+
+#: app/main.cpp:128
+msgid "Start in slideshow mode"
+msgstr "Aniciar en mou de presentación"
+
+#: app/main.cpp:129
+msgid "A starting file or folder"
+msgstr "Un ficheru o carpeta d'aniciu"
+
+#: app/startmainpage.cpp:300
+msgid "Add to Places"
+msgstr "Amestar a Llugares"
+
+#: app/startmainpage.cpp:301
+msgid "Forget this URL"
+msgstr "Escaecer esti URL"
+
+#: app/startmainpage.cpp:301
+msgid "Forget this Folder"
+msgstr "Escaecer esta carpeta"
+
+#: app/startmainpage.cpp:303
+msgid "Forget All"
+msgstr "Escaecer too"
 
 #: app/gvcore.cpp:86
 msgctxt "@info"
@@ -367,190 +620,26 @@ msgctxt "@info"
 msgid "Gwenview cannot edit this kind of image."
 msgstr "Gwenview nun puede editar esta triba d'imaxe."
 
-#: app/imagemetainfodialog.cpp:128
+#: app/fullscreencontent.cpp:153
 #, fuzzy
-#| msgid "Meta Information"
-msgctxt "@title:window"
-msgid "Image Information"
-msgstr "Metainformación"
-
-#: app/imageopscontextmanageritem.cpp:81
-msgctxt "@title actions category - means actions changing image"
-msgid "Edit"
-msgstr "Editar"
-
-#: app/imageopscontextmanageritem.cpp:84
-msgid "Rotate Left"
-msgstr "Voltiar a la esquierda"
-
-#: app/imageopscontextmanageritem.cpp:85
-#, fuzzy
-#| msgid "Rotate Right"
+#| msgctxt "@info:tooltip"
+#| msgid "Configure Full Screen Mode"
 msgctxt "@info:tooltip"
-msgid "Rotate image to the left"
-msgstr "Voltiar a la drecha"
+msgid "Configure full screen mode"
+msgstr "Configurar el mou de pantalla completa"
 
-#: app/imageopscontextmanageritem.cpp:91
-msgid "Rotate Right"
-msgstr "Voltiar a la drecha"
+#: app/fullscreencontent.cpp:352
+msgctxt "@item:intext fullscreen meta info separator"
+msgid ", "
+msgstr ", "
 
-#: app/imageopscontextmanageritem.cpp:92
-msgctxt "@info:tooltip"
-msgid "Rotate image to the right"
-msgstr ""
-
-#: app/imageopscontextmanageritem.cpp:97
-msgid "Mirror"
-msgstr "Espeyu"
-
-#: app/imageopscontextmanageritem.cpp:101
-msgid "Flip"
-msgstr "Reflexar"
-
-#: app/imageopscontextmanageritem.cpp:105 lib/resize/resizeimagedialog.cpp:51
-msgid "Resize"
-msgstr "Redimensionar"
-
-#. i18n: file: lib/crop/cropwidget.ui:20
-#. i18n: ectx: property (windowTitle), widget (QWidget, CropWidget)
-#: app/imageopscontextmanageritem.cpp:110 lib/crop/cropimageoperation.cpp:71
-#: lib/crop/cropwidget.cpp:191 rc.cpp:179
-msgid "Crop"
-msgstr "Recortar"
-
-#: app/imageopscontextmanageritem.cpp:115
-msgid "Red Eye Reduction"
-msgstr "Reducción de güeyos bermeyos"
-
-#: app/imageopscontextmanageritem.cpp:142
-msgid "Image Operations"
-msgstr "Operaciones d'imáxenes"
-
-#: app/infocontextmanageritem.cpp:176
+#: app/fullscreencontent.cpp:408
 #, kde-format
-msgctxt ""
-"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
-msgid "%1:"
-msgstr "%1:"
-
-#: app/infocontextmanageritem.cpp:253
-msgctxt "@action show more image meta info"
-msgid "More..."
-msgstr "Más..."
-
-#: app/infocontextmanageritem.cpp:264
-msgctxt "@title:group"
-msgid "Meta Information"
-msgstr "Metainformación"
-
-#: app/infocontextmanageritem.cpp:357
-#, kde-format
-msgctxt "@label"
-msgid "%1 file selected"
-msgid_plural "%1 files selected"
-msgstr[0] "%1 ficheru esbilláu"
-msgstr[1] "%1 ficheros esbillaos"
-
-#: app/infocontextmanageritem.cpp:359
-#, kde-format
-msgctxt "@label"
-msgid "%1 folder selected"
-msgid_plural "%1 folders selected"
-msgstr[0] "%1 carpeta esbillada"
-msgstr[1] "%1 carpetes esbillaes"
-
-#: app/infocontextmanageritem.cpp:362
-#, kde-format
-msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
-msgid "%1 and %2 selected"
-msgstr "%1 y %2 esbillaos"
-
-#: app/infocontextmanageritem.cpp:362
-#, kde-format
-msgid "%1 file"
-msgid_plural "%1 files"
-msgstr[0] "%1 ficheru"
-msgstr[1] "%1 ficheros"
-
-#: app/infocontextmanageritem.cpp:362
-#, kde-format
-msgid "%1 folder"
-msgid_plural "%1 folders"
-msgstr[0] "%1 carpeta"
-msgstr[1] "%1 carpetes"
-
-#: app/kipiexportaction.cpp:52
-msgid "Last Used Plugin"
-msgstr ""
-
-#: app/kipiexportaction.cpp:54
-#, fuzzy
-#| msgid "&Plugins"
-msgid "Other Plugins"
-msgstr "Co&mplementos"
-
-#: app/kipiexportaction.cpp:64 app/kipiinterface.cpp:213
-#, fuzzy
-#| msgid "No Plugin"
-msgid "No Plugin Found"
-msgstr "Ensin complementu"
-
-#: app/kipiexportaction.cpp:72
-#, fuzzy
-#| msgid "Square"
-msgctxt "@action"
-msgid "Share"
-msgstr "Cuadráu"
-
-#: app/kipiexportaction.cpp:78
-msgctxt "@info:tooltip"
-msgid "Share images using various services"
-msgstr ""
-
-#: app/kipiimagecollectionselector.cpp:55
-#, kde-format
-msgctxt "%1 is collection name, %2 is image count in collection"
-msgid "%1 (%2 image)"
-msgid_plural "%1 (%2 images)"
-msgstr[0] "%1 (%2 imaxe)"
-msgstr[1] "%1 (%2 imáxenes)"
-
-#: app/kipiinterface.cpp:212
-#, fuzzy
-#| msgctxt "@info:progress saving all image changes"
-#| msgid "Saving..."
-msgid "Loading..."
-msgstr "Atroxando..."
-
-#: app/kipiinterface.cpp:246
-msgctxt "@title:menu"
-msgid "Images"
-msgstr "Imáxenes"
-
-#: app/kipiinterface.cpp:247
-msgctxt "@title:menu"
-msgid "Tools"
-msgstr "Ferramientes"
-
-#: app/kipiinterface.cpp:248
-msgctxt "@title:menu"
-msgid "Import"
-msgstr "Importar"
-
-#: app/kipiinterface.cpp:249
-msgctxt "@title:menu"
-msgid "Export"
-msgstr "Esportar"
-
-#: app/kipiinterface.cpp:250
-msgctxt "@title:menu"
-msgid "Batch Processing"
-msgstr "Procesamientu por llotes"
-
-#: app/kipiinterface.cpp:251
-msgctxt "@title:menu"
-msgid "Collections"
-msgstr "Coleiciones"
+msgctxt "Slideshow interval in seconds"
+msgid "%1 sec"
+msgid_plural "%1 secs"
+msgstr[0] "%1 seg"
+msgstr[1] "%1 segs"
 
 #: app/kipiuploadwidget.cpp:43
 #, kde-format
@@ -561,39 +650,67 @@ msgstr ""
 "Les imáxenes unviaránse equí:\n"
 "%1"
 
-#: app/main.cpp:114
-msgid "Gwenview"
-msgstr "Gwenview"
+#: app/fileopscontextmanageritem.cpp:168
+msgid "File Operations"
+msgstr "Operaciones con ficheros"
 
-#: app/main.cpp:116 part/gvpart.cpp:130
-msgid "An Image Viewer"
-msgstr "Un visor d'imáxenes"
+#: app/fileopscontextmanageritem.cpp:195
+msgctxt "Verb"
+msgid "Copy To..."
+msgstr "Copiar en..."
 
-#: app/main.cpp:118 part/gvpart.cpp:132
+#: app/fileopscontextmanageritem.cpp:199
+msgctxt "Verb"
+msgid "Move To..."
+msgstr "Mover a..."
+
+#: app/fileopscontextmanageritem.cpp:203
+msgctxt "Verb: create link to the file where user wants"
+msgid "Link To..."
+msgstr "Enllazar a..."
+
+#: app/fileopscontextmanageritem.cpp:207
+msgctxt "Verb"
+msgid "Rename..."
+msgstr "Renomar..."
+
+#: app/fileopscontextmanageritem.cpp:211
+msgctxt "Verb"
+msgid "Trash"
+msgstr "Papelera"
+
+#: app/fileopscontextmanageritem.cpp:216
+msgid "Delete"
+msgstr "Desaniciar"
+
+#: app/fileopscontextmanageritem.cpp:221
 #, fuzzy
-#| msgid "Copyright 2000-2010 Aurélien Gâteau"
-msgid "Copyright 2000-2012 Aurélien Gâteau"
-msgstr "Copyright 2000-2010 Aurélien Gâteau"
+#| msgid "Retry"
+msgid "Restore"
+msgstr "Volve&r a intentar"
 
-#: app/main.cpp:120 importer/main.cpp:46 part/gvpart.cpp:134
-msgid "Aurélien Gâteau"
-msgstr "Aurélien Gâteau"
+#: app/fileopscontextmanageritem.cpp:224
+msgid "Properties"
+msgstr "Propiedaes"
 
-#: app/main.cpp:121 importer/main.cpp:47 part/gvpart.cpp:135
-msgid "Main developer"
-msgstr "Desendolcador principal"
+#: app/fileopscontextmanageritem.cpp:228
+msgid "Create Folder..."
+msgstr "Crear carpeta..."
 
-#: app/main.cpp:127
-msgid "Start in fullscreen mode"
-msgstr "Aniciar en mou de pantalla completa"
+#: app/fileopscontextmanageritem.cpp:232
+msgid "Open With"
+msgstr "Abrir Con"
 
-#: app/main.cpp:128
-msgid "Start in slideshow mode"
-msgstr "Aniciar en mou de presentación"
+#: app/fileopscontextmanageritem.cpp:422
+msgid "Other Application..."
+msgstr "Otra aplicación..."
 
-#: app/main.cpp:129
-msgid "A starting file or folder"
-msgstr "Un ficheru o carpeta d'aniciu"
+#: app/imagemetainfodialog.cpp:128
+#, fuzzy
+#| msgid "Meta Information"
+msgctxt "@title:window"
+msgid "Image Information"
+msgstr "Metainformación"
 
 #: app/mainwindow.cpp:355
 msgctxt "@action reload the currently viewed image"
@@ -771,146 +888,24 @@ msgstr[1] "Modificáronse %1 imáxenes."
 msgid "If you quit now, your changes will be lost."
 msgstr "Si cueles agora, perderánse los tos cambeos."
 
-#: app/saveallhelper.cpp:58
-msgctxt "@info:progress saving all image changes"
-msgid "Saving..."
-msgstr "Atroxando..."
-
-#: app/saveallhelper.cpp:59
-msgid "&Stop"
-msgstr "&Detener"
-
-#: app/saveallhelper.cpp:84
+#: importer/importerconfigdialog.cpp:56
 #, kde-format
-msgctxt "@info"
-msgid "One document could not be saved:"
-msgid_plural "%1 documents could not be saved:"
-msgstr[0] "Nun se puede guardar un documentu:"
-msgstr[1] "Nun se pueden guardar %1 documentos:"
+msgctxt "%1 is the importer keyword, %2 is keyword explanation"
+msgid "%1: %2"
+msgstr "%1: %2"
 
-#: app/saveallhelper.cpp:108
+#: importer/importer.cpp:80
+msgid "Could not create destination folder."
+msgstr "Nun pudo crease la carpeta de destín"
+
+#: importer/importer.cpp:86
 #, kde-format
-msgctxt ""
-"@info %1 is the name of the document which failed to save, %2 is the reason "
-"for the failure"
-msgid "<filename>%1</filename>: %2"
-msgstr "<filename>%1</filename>: %2"
-
-#: app/savebar.cpp:87
 msgid ""
-"You have modified many images. To avoid memory problems, you should save "
-"your changes."
+"Could not create temporary upload folder:\n"
+"%1"
 msgstr ""
-"Modificasti abondes imáxenes. Tendríes de guardar los cambeos pa evitar "
-"problemes de memoria."
-
-#: app/savebar.cpp:176
-msgid "Current image modified"
-msgstr "Imaxe actual modificada"
-
-#: app/savebar.cpp:182
-msgid "Previous modified image"
-msgstr "Anterior imaxe modificada"
-
-#: app/savebar.cpp:183
-msgid "Next modified image"
-msgstr "Siguiente imaxe modificada"
-
-#: app/savebar.cpp:199
-#, kde-format
-msgid "One image modified"
-msgid_plural "%1 images modified"
-msgstr[0] "Una imaxe modificada"
-msgstr[1] "%1 imáxenes modificaes"
-
-#: app/savebar.cpp:201
-msgid "Go to first modified image"
-msgstr "Dir a la primer imaxe modificada"
-
-#: app/savebar.cpp:203
-msgid "Go to it"
-msgstr "Dir a ella"
-
-#: app/savebar.cpp:302 app/savebar.cpp:307
-msgid "Save All"
-msgstr "Grabar too"
-
-#: app/semanticinfocontextmanageritem.cpp:175
-msgid "Semantic Information"
-msgstr "Información semántica"
-
-#: app/semanticinfocontextmanageritem.cpp:200
-msgctxt "@action"
-msgid "Edit Tags"
-msgstr "Editar etiquetes"
-
-#: app/semanticinfocontextmanageritem.cpp:210
-msgctxt "@action Rating value of zero"
-msgid "Zero"
-msgstr "Cero"
-
-#: app/semanticinfocontextmanageritem.cpp:246
-msgid "Edit"
-msgstr "Editar"
-
-#: app/startmainpage.cpp:300
-msgid "Add to Places"
-msgstr "Amestar a Llugares"
-
-#: app/startmainpage.cpp:301
-msgid "Forget this Folder"
-msgstr "Escaecer esta carpeta"
-
-#: app/startmainpage.cpp:301
-msgid "Forget this URL"
-msgstr "Escaecer esti URL"
-
-#: app/startmainpage.cpp:303
-msgid "Forget All"
-msgstr "Escaecer too"
-
-#: app/viewmainpage.cpp:286 app/viewmainpage.cpp:400
-msgid "Synchronize"
-msgstr ""
-
-#: app/viewmainpage.cpp:391
-msgid "Thumbnail Bar"
-msgstr "Barra de miniatures"
-
-#: app/viewmainpage.cpp:683
-msgctxt "@action:button"
-msgid "Discard Changes and Reload"
-msgstr "Descartar cambeos y volver a cargar"
-
-#: app/viewmainpage.cpp:685
-msgctxt "@info"
-msgid ""
-"This image has been modified. Reloading it will discard all your changes."
-msgstr "Esta imaxe modificóse. Si vuelves a cargala perderánse los cambeos."
-
-#: importer/filenameformater.cpp:104
-msgid "Shooting date"
-msgstr "Data de la captura"
-
-#: importer/filenameformater.cpp:105
-msgid "Shooting time"
-msgstr "Hora de la captura"
-
-#: importer/filenameformater.cpp:106
-msgid "Original extension"
-msgstr "Estensión Orixinal"
-
-#: importer/filenameformater.cpp:107
-msgid "Original extension, in lower case"
-msgstr "Estensión orixinal en minúscules"
-
-#: importer/filenameformater.cpp:108
-msgid "Original filename"
-msgstr "Nome de ficheru Orixinal"
-
-#: importer/filenameformater.cpp:109
-msgid "Original filename, in lower case"
-msgstr "Nome de ficheru Orixinal, en minúscules"
+"Nun puede crease la carpeta d'unvíu temporal:\n"
+"%1"
 
 #: importer/importdialog.cpp:73
 #, kde-format
@@ -1013,25 +1008,6 @@ msgstr "Importar más Documentos"
 msgid "Quit"
 msgstr "Quitar"
 
-#: importer/importer.cpp:80
-msgid "Could not create destination folder."
-msgstr "Nun pudo crease la carpeta de destín"
-
-#: importer/importer.cpp:86
-#, kde-format
-msgid ""
-"Could not create temporary upload folder:\n"
-"%1"
-msgstr ""
-"Nun puede crease la carpeta d'unvíu temporal:\n"
-"%1"
-
-#: importer/importerconfigdialog.cpp:56
-#, kde-format
-msgctxt "%1 is the importer keyword, %2 is keyword explanation"
-msgid "%1: %2"
-msgstr "%1: %2"
-
 #: importer/main.cpp:40
 msgid "Gwenview Importer"
 msgstr "Importador de Gwenview"
@@ -1048,6 +1024,30 @@ msgstr "Copyright 2009-2010 Aurélien Gâteau"
 msgid "Source folder"
 msgstr "Orixe de carpeta"
 
+#: importer/filenameformater.cpp:104
+msgid "Shooting date"
+msgstr "Data de la captura"
+
+#: importer/filenameformater.cpp:105
+msgid "Shooting time"
+msgstr "Hora de la captura"
+
+#: importer/filenameformater.cpp:106
+msgid "Original extension"
+msgstr "Estensión Orixinal"
+
+#: importer/filenameformater.cpp:107
+msgid "Original extension, in lower case"
+msgstr "Estensión orixinal en minúscules"
+
+#: importer/filenameformater.cpp:108
+msgid "Original filename"
+msgstr "Nome de ficheru Orixinal"
+
+#: importer/filenameformater.cpp:109
+msgid "Original filename, in lower case"
+msgstr "Nome de ficheru Orixinal, en minúscules"
+
 #: importer/thumbnailpage.cpp:150
 msgid "Import Selected"
 msgstr "Importar Seleicionao"
@@ -1055,6 +1055,12 @@ msgstr "Importar Seleicionao"
 #: importer/thumbnailpage.cpp:154
 msgid "Import All"
 msgstr "Importar Too"
+
+#: lib/statusbartoolbutton.cpp:107 lib/fullscreenbar.cpp:263
+#, kde-format
+msgctxt "@info:tooltip of custom toolbar button"
+msgid "%1"
+msgstr "%1"
 
 #: lib/crop/cropwidget.cpp:140
 msgid "Square"
@@ -1081,12 +1087,12 @@ msgid "Portrait"
 msgstr ""
 
 #: lib/crop/cropwidget.cpp:164
-msgid "Height"
-msgstr "Altor"
-
-#: lib/crop/cropwidget.cpp:164
 msgid "Width"
 msgstr "Anchor"
+
+#: lib/crop/cropwidget.cpp:164
+msgid "Height"
+msgstr "Altor"
 
 #: lib/document/document.cpp:234
 #, fuzzy
@@ -1120,11 +1126,6 @@ msgctxt "@info"
 msgid "Loading image failed."
 msgstr "Falló la carga d'una imaxe."
 
-#: lib/document/loadingjob.cpp:57
-#, kde-format
-msgid "Could not load document %1"
-msgstr "Nun puede unviase'l ficheru %1"
-
 #: lib/document/savejob.cpp:105
 #, kde-format
 msgctxt "@info"
@@ -1144,6 +1145,11 @@ msgid ""
 msgstr ""
 "Nun puede sobroscribise'l ficheru. Compruebe que tien los permisos "
 "necesarios sobro <filename>%1</filename>."
+
+#: lib/document/loadingjob.cpp:57
+#, kde-format
+msgid "Could not load document %1"
+msgstr "Nun puede unviase'l ficheru %1"
 
 #: lib/documentview/documentview.cpp:175
 #, fuzzy
@@ -1189,11 +1195,52 @@ msgstr "100%"
 msgid "No document selected"
 msgstr "Nun hai dengún documentu esbilláu"
 
-#: lib/fullscreenbar.cpp:263 lib/statusbartoolbutton.cpp:107
+#: lib/historymodel.cpp:143
 #, kde-format
-msgctxt "@info:tooltip of custom toolbar button"
-msgid "%1"
-msgstr "%1"
+msgid "Last visited: %1"
+msgstr "Visitáu per cabera vegada: %1"
+
+#: lib/jpegcontent.cpp:571
+msgctxt "@info"
+msgid "Could not open file for writing."
+msgstr "Nun pudo abrise'l ficheru pa escritura"
+
+#: lib/jpegcontent.cpp:587
+msgctxt "@info"
+msgid "No data to store."
+msgstr "Nun hai datos pa guardar."
+
+#: lib/slideshow.cpp:191
+msgctxt "@item:inmenu toggle loop in slideshow"
+msgid "Loop"
+msgstr "Bucle"
+
+#: lib/slideshow.cpp:196
+msgctxt "@item:inmenu toggle random order in slideshow"
+msgid "Random"
+msgstr "Al debalu"
+
+#: lib/print/printhelper.cpp:131
+msgid "Print Image"
+msgstr "Imprentar imaxe"
+
+#: lib/redeyereduction/redeyereductionimageoperation.cpp:77
+msgid "RedEyeReduction"
+msgstr "Amenorgamientu de güeyos bermeyos"
+
+#: lib/resize/resizeimageoperation.cpp:71
+#, fuzzy
+#| msgid "Resize"
+msgctxt "(qtundo-format)"
+msgid "Resize"
+msgstr "Redimensionar"
+
+#: lib/semanticinfo/tagitemdelegate.cpp:66
+#, fuzzy
+#| msgid "Assign this tag to all selected images"
+msgctxt "@info:tooltip"
+msgid "Assign this tag to all selected images"
+msgstr "Asignar esta etiqueta a toles imáxenes esbillaes"
 
 #: lib/graphicshudwidget.cpp:106
 #, fuzzy
@@ -1201,11 +1248,6 @@ msgstr "%1"
 msgctxt "@info:tooltip"
 msgid "Close"
 msgstr "Zarrar"
-
-#: lib/historymodel.cpp:143
-#, kde-format
-msgid "Last visited: %1"
-msgstr "Visitáu per cabera vegada: %1"
 
 #: lib/imagemetainfomodel.cpp:244
 msgctxt "@item:intable Image file name"
@@ -1258,48 +1300,6 @@ msgstr "Propiedá"
 msgctxt "@title:column"
 msgid "Value"
 msgstr "Valor"
-
-#: lib/jpegcontent.cpp:571
-msgctxt "@info"
-msgid "Could not open file for writing."
-msgstr "Nun pudo abrise'l ficheru pa escritura"
-
-#: lib/jpegcontent.cpp:587
-msgctxt "@info"
-msgid "No data to store."
-msgstr "Nun hai datos pa guardar."
-
-#: lib/print/printhelper.cpp:131
-msgid "Print Image"
-msgstr "Imprentar imaxe"
-
-#: lib/redeyereduction/redeyereductionimageoperation.cpp:77
-msgid "RedEyeReduction"
-msgstr "Amenorgamientu de güeyos bermeyos"
-
-#: lib/resize/resizeimageoperation.cpp:71
-#, fuzzy
-#| msgid "Resize"
-msgctxt "(qtundo-format)"
-msgid "Resize"
-msgstr "Redimensionar"
-
-#: lib/semanticinfo/tagitemdelegate.cpp:66
-#, fuzzy
-#| msgid "Assign this tag to all selected images"
-msgctxt "@info:tooltip"
-msgid "Assign this tag to all selected images"
-msgstr "Asignar esta etiqueta a toles imáxenes esbillaes"
-
-#: lib/slideshow.cpp:191
-msgctxt "@item:inmenu toggle loop in slideshow"
-msgid "Loop"
-msgstr "Bucle"
-
-#: lib/slideshow.cpp:196
-msgctxt "@item:inmenu toggle random order in slideshow"
-msgid "Random"
-msgstr "Al debalu"
 
 #: lib/transformimageoperation.cpp:68
 #, fuzzy

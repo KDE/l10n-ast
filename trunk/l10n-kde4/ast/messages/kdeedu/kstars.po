@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:15+0200\n"
+"POT-Creation-Date: 2012-08-19 04:59+0200\n"
 "PO-Revision-Date: 2010-10-22 19:48+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -163,7 +163,7 @@ msgstr "Rastréu de satélite"
 msgid "Satellites Labels"
 msgstr "Rastréu de satélite"
 
-#: colorscheme.cpp:80 dialogs/finddialog.cpp:47 kstarsactions.cpp:414
+#: colorscheme.cpp:80 kstarsactions.cpp:414 dialogs/finddialog.cpp:47
 #, fuzzy
 #| msgid "Supernova Remnant"
 msgid "Supernovae"
@@ -174,20 +174,20 @@ msgstr "Restu de supernova"
 msgid "No color named \"%1\" found in color scheme."
 msgstr "Nun s'alcontró dengún esquema de color «%1»."
 
-#: colorscheme.cpp:137 kstarsdata.cpp:847 options/opscolors.cpp:58
-#: tools/scriptbuilder.cpp:929
+#: colorscheme.cpp:137 kstarsdata.cpp:847 tools/scriptbuilder.cpp:929
+#: options/opscolors.cpp:58
 msgctxt "use default color scheme"
 msgid "Default Colors"
 msgstr "Colores predeterminaos"
 
-#: colorscheme.cpp:139 kstarsdata.cpp:848 options/opscolors.cpp:59
-#: tools/scriptbuilder.cpp:930
+#: colorscheme.cpp:139 kstarsdata.cpp:848 tools/scriptbuilder.cpp:930
+#: options/opscolors.cpp:59
 msgctxt "use 'star chart' color scheme"
 msgid "Star Chart"
 msgstr "Carta estelar"
 
-#: colorscheme.cpp:141 kstarsdata.cpp:849 options/opscolors.cpp:60
-#: tools/scriptbuilder.cpp:931
+#: colorscheme.cpp:141 kstarsdata.cpp:849 tools/scriptbuilder.cpp:931
+#: options/opscolors.cpp:60
 msgctxt "use 'night vision' color scheme"
 msgid "Night Vision"
 msgstr "Visión nocherniega"
@@ -206,10 +206,8 @@ msgstr ""
 "Nun se puede abrir el ficheru del esquema de color llocal.\n"
 "L'esquema nun s'atroxará."
 
-#: colorscheme.cpp:233 colorscheme.cpp:248 dialogs/locationdialog.cpp:265
-#: indi/drivermanager.cpp:1301 indi/indidriver.cpp:936 kstarsactions.cpp:625
-#: oal/execute.cpp:278 options/opscolors.cpp:199 skymap.cpp:1088
-#: tools/modcalcaltaz.cpp:238 tools/modcalcangdist.cpp:128
+#: colorscheme.cpp:233 colorscheme.cpp:248 kstarsactions.cpp:625
+#: skymap.cpp:1088 tools/modcalcaltaz.cpp:238 tools/modcalcangdist.cpp:128
 #: tools/modcalcapcoord.cpp:151 tools/modcalcdaylength.cpp:246
 #: tools/modcalceclipticcoords.cpp:203 tools/modcalcgalcoord.cpp:193
 #: tools/modcalcgeodcoord.cpp:232 tools/modcalcjd.cpp:123
@@ -217,7 +215,9 @@ msgstr ""
 #: tools/modcalcvizequinox.cpp:85 tools/modcalcvlsr.cpp:272
 #: tools/observinglist.cpp:752 tools/observinglist.cpp:869
 #: tools/scriptbuilder.cpp:994 tools/scriptbuilder.cpp:1058
-#: tools/scriptbuilder.cpp:1124
+#: tools/scriptbuilder.cpp:1124 dialogs/locationdialog.cpp:265
+#: indi/drivermanager.cpp:1301 indi/indidriver.cpp:936
+#: options/opscolors.cpp:199 oal/execute.cpp:278
 msgid "Could Not Open File"
 msgstr "Imposible abrir el ficheru"
 
@@ -240,1028 +240,6 @@ msgstr ""
 #: colorscheme.cpp:257
 msgid "Invalid Filename"
 msgstr "Nome de ficheru inválidu"
-
-#: dialogs/addcatdialog.cpp:46
-msgid "Import Catalog"
-msgstr "Importar catálogu"
-
-#: dialogs/addcatdialog.cpp:58 dialogs/addcatdialog.cpp:153
-msgid "ID Number"
-msgstr "Númberu ID"
-
-#: dialogs/addcatdialog.cpp:59 dialogs/addcatdialog.cpp:155
-msgid "Right Ascension"
-msgstr "Ascensión reuta"
-
-#: dialogs/addcatdialog.cpp:60 dialogs/addcatdialog.cpp:157
-msgid "Declination"
-msgstr "Declinación"
-
-#: dialogs/addcatdialog.cpp:61 dialogs/addcatdialog.cpp:159
-msgid "Object Type"
-msgstr "Triba d'oxetu"
-
-#: dialogs/addcatdialog.cpp:63 dialogs/addcatdialog.cpp:161
-msgid "Common Name"
-msgstr "Nome común"
-
-#: dialogs/addcatdialog.cpp:64 dialogs/addcatdialog.cpp:163
-msgid "Magnitude"
-msgstr "Magnitú"
-
-#: dialogs/addcatdialog.cpp:65 dialogs/addcatdialog.cpp:165
-msgid "Flux"
-msgstr ""
-
-#: dialogs/addcatdialog.cpp:66 dialogs/addcatdialog.cpp:167
-msgid "Major Axis"
-msgstr "Exe mayor"
-
-#: dialogs/addcatdialog.cpp:67 dialogs/addcatdialog.cpp:169
-msgid "Minor Axis"
-msgstr "Exe menor"
-
-#: dialogs/addcatdialog.cpp:68 dialogs/addcatdialog.cpp:171
-msgid "Position Angle"
-msgstr "Ángulu de posición"
-
-#: dialogs/addcatdialog.cpp:69 dialogs/addcatdialog.cpp:173
-#: widgets/draglistbox.cpp:73 widgets/draglistbox.cpp:87
-msgid "Ignore"
-msgstr "Inorar"
-
-#: dialogs/addcatdialog.cpp:86
-msgid ""
-"A valid custom catalog file has one line per object, with the following "
-"fields in each line:"
-msgstr ""
-"Un ficheru de catálogu válidu tien una llinia por oxetu, colos siguientes "
-"campos en cada llinia:"
-
-#: dialogs/addcatdialog.cpp:88
-msgid ""
-"1. Type identifier.  Must be one of: 0 (star), 3 (open cluster), 4 (globular "
-"cluster), 5 (gaseous nebula), 6 (planetary nebula), 7 (supernova remnant), "
-"or 8 (galaxy)"
-msgstr ""
-"1. Identificador del tipu.  Tien de ser: 0 (estrella), 3 (cúmulu abiertu), 4 "
-"(cúmulu globular), 5 (nebulosa gaseosa), 6 (nebulosa planetaria), 7 (restu "
-"de supernova), o 8 (galaxa)"
-
-#: dialogs/addcatdialog.cpp:90
-msgid "2. Right Ascension (floating-point value)"
-msgstr "2. Ascensión reuta (valor de coma flotante)"
-
-#: dialogs/addcatdialog.cpp:91
-msgid "3. Declination (floating-point value)"
-msgstr "3. Declinación (valor de coma flotante)"
-
-#: dialogs/addcatdialog.cpp:92
-msgid "4. Magnitude (floating-point value)"
-msgstr "4. Magnitú (valor de coma flotante)"
-
-#: dialogs/addcatdialog.cpp:93
-msgid ""
-"5. Integrated Flux (floating-point value); frequency and units are set "
-"separately in the catalog file."
-msgstr ""
-
-#: dialogs/addcatdialog.cpp:94
-msgid "6. Spectral type (if type=0); otherwise object's catalog name"
-msgstr "6. Tipu espectral (si tipu=0); sinón, el nome de catálogu del oxetu"
-
-#: dialogs/addcatdialog.cpp:95
-msgid ""
-"7. Star name (if type=0); otherwise object's common name. [field 7 is "
-"optional]"
-msgstr ""
-"7. Nome de la estrella (si tipu=0); sinón, el nome común del oxetu. [el "
-"campu 7 ye opcional]"
-
-#: dialogs/addcatdialog.cpp:97
-msgid ""
-"The fields should be separated by whitespace.  In addition, the catalog may "
-"contain comment lines beginning with '#'."
-msgstr ""
-"Los campos tienen de tar separtaos por espacios en blanco. Arriendes, el "
-"catálogu puede contener llinies de comentarios qu'entamen por «#»."
-
-#: dialogs/addcatdialog.cpp:100
-msgid "Help on custom catalog file format"
-msgstr "Aida sobro'l formatu de ficheros pa catálogos personalizaos:"
-
-#: dialogs/addcatdialog.cpp:141 skycomponents/customcatalogcomponent.cpp:342
-msgid "Custom"
-msgstr "Personalizar"
-
-#: dialogs/addcatdialog.cpp:195
-#, kde-format
-msgid "Preview of %1"
-msgstr "Previsualización de %1"
-
-#: dialogs/addcatdialog.cpp:196
-msgid "Catalog Preview"
-msgstr "Previsualización del catálogu"
-
-#: dialogs/addcatdialog.cpp:211 fitsviewer/fitstab.cpp:234 imageviewer.cpp:240
-#: kstarsactions.cpp:548 printing/pwizprint.cpp:81
-#: tools/scriptbuilder.cpp:1042
-#, kde-format
-msgid "A file named \"%1\" already exists. Overwrite it?"
-msgstr "Yá esiste un ficheru denomáu «%1». ¿Sobroscribir?"
-
-#: dialogs/addcatdialog.cpp:213 fitsviewer/fitstab.cpp:236 imageviewer.cpp:242
-#: kstarsactions.cpp:549 printing/pwizprint.cpp:82
-#: tools/scriptbuilder.cpp:1044
-msgid "Overwrite File?"
-msgstr "¿Sobroscribir ficheru?"
-
-#: dialogs/addcatdialog.cpp:222
-#, kde-format
-msgid "Could not open the file %1 for writing."
-msgstr "Nun se puede abrir el ficheru %1 con permisu d'escritura."
-
-#: dialogs/addcatdialog.cpp:223
-msgid "Error Opening Output File"
-msgstr "Fallu durante l'apertura del ficheru de salida"
-
-#: dialogs/addlinkdialog.cpp:36
-#, kde-format
-msgid "Add Custom URL to %1"
-msgstr "Amestar URL personalizáu a %1"
-
-#: dialogs/addlinkdialog.cpp:44 dialogs/addlinkdialog.cpp:63
-#: dialogs/addlinkdialog.cpp:68
-msgid "Show image of "
-msgstr "Amosar imaxe de "
-
-#: dialogs/addlinkdialog.cpp:52
-msgid ""
-"The URL is not valid. Would you like to open a browser window\n"
-"to the Google search engine?"
-msgstr ""
-"El URL nun ye válidu. ¿Quier abrir una ventana del restolador\n"
-"col restolador Google?"
-
-#: dialogs/addlinkdialog.cpp:53 fitsviewer/fitstab.cpp:260
-#: indi/streamwg.cpp:185 tools/scriptbuilder.cpp:1005
-#: tools/scriptbuilder.cpp:1081
-msgid "Invalid URL"
-msgstr "URL non válidu"
-
-#: dialogs/addlinkdialog.cpp:54
-msgid "Browse Google"
-msgstr "Esplorar Google"
-
-#: dialogs/addlinkdialog.cpp:54
-msgid "Do Not Browse"
-msgstr "Non esplorar"
-
-#: dialogs/addlinkdialog.cpp:64 dialogs/addlinkdialog.cpp:67
-msgid "Show webpage about "
-msgstr "Amosar páxina web sobro "
-
-#: dialogs/addlinkdialog.h:47
-msgid "object"
-msgstr "oxetu"
-
-#. i18n: file: tools/wutdialog.ui:480
-#. i18n: ectx: property (text), widget (KPushButton, DetailButton)
-#: dialogs/detaildialog.cpp:84 rc.cpp:2638 skymap.cpp:733
-msgid "Object Details"
-msgstr "Detalles d'oxetu"
-
-#. i18n: file: xplanet/opsxplanet.ui:21
-#. i18n: ectx: attribute (title), widget (QWidget, XplanetTabGeneral)
-#. i18n: file: indi/opsindi.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, generalGroup)
-#: dialogs/detaildialog.cpp:101 printing/detailstable.cpp:333 rc.cpp:5
-#: rc.cpp:3599
-msgid "General"
-msgstr "Xeneral"
-
-#: dialogs/detaildialog.cpp:145 kspopupmenu.cpp:184 kspopupmenu.cpp:268
-#: kstarsinit.cpp:620 printing/detailstable.cpp:87
-#: printing/pwizobjectselection.cpp:110 skycomponents/starcomponent.cpp:452
-#: skyobjects/starobject.cpp:492 tools/observinglist.cpp:495
-#: tools/wutdialog.cpp:268
-msgid "star"
-msgstr "estrella"
-
-#: dialogs/detaildialog.cpp:146 dialogs/detaildialog.cpp:209
-#: dialogs/detaildialog.cpp:240 dialogs/detaildialog.cpp:285
-#: printing/detailstable.cpp:88 printing/detailstable.cpp:176
-#: printing/detailstable.cpp:283 printing/pwizobjectselection.cpp:111
-#: printing/pwizobjectselection.cpp:149
-#, kde-format
-msgctxt "number in magnitudes"
-msgid "%1 mag"
-msgstr "%1 mag"
-
-#: dialogs/detaildialog.cpp:161 printing/detailstable.cpp:98
-msgctxt "larger than 2000 parsecs"
-msgid "> 2000 pc"
-msgstr "> 2000 pc"
-
-#: dialogs/detaildialog.cpp:163 dialogs/detaildialog.cpp:166
-#: dialogs/detaildialog.cpp:169 printing/detailstable.cpp:103
-#: printing/detailstable.cpp:108 printing/detailstable.cpp:113
-#, kde-format
-msgctxt "number in parsecs"
-msgid "%1 pc"
-msgstr "%1 pc"
-
-#: dialogs/detaildialog.cpp:177 dialogs/detaildialog.cpp:180
-#: printing/detailstable.cpp:119 printing/detailstable.cpp:125
-msgctxt "the star is a multiple star"
-msgid "multiple"
-msgstr "múltiple"
-
-#: dialogs/detaildialog.cpp:178 dialogs/detaildialog.cpp:182
-#: printing/detailstable.cpp:120 printing/detailstable.cpp:130
-msgctxt "the star is a variable star"
-msgid "variable"
-msgstr "variable"
-
-#: dialogs/detaildialog.cpp:194 printing/detailstable.cpp:152
-#: printing/pwizobjectselection.cpp:130
-msgid "G5 star"
-msgstr "estrella G5"
-
-#. i18n: file: tools/modcalcplanets.ui:149
-#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
-#. i18n: file: tools/modcalcplanets.ui:492
-#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
-#. i18n: file: tools/skycalendar.ui:97
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_Pluto)
-#. i18n: file: options/opssolarsystem.ui:90
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPluto)
-#: dialogs/detaildialog.cpp:197 printing/detailstable.cpp:160
-#: printing/pwizobjectselection.cpp:138 rc.cpp:1718 rc.cpp:1802 rc.cpp:2460
-#: rc.cpp:4426 skycomponents/skymapcomposite.cpp:462
-#: skymapdrawabstract.cpp:158 skyobjects/kspluto.cpp:35
-#: tools/conjunctions.cpp:91 tools/modcalcplanets.cpp:270
-#: tools/obslistwizard.cpp:567 tools/obslistwizard.cpp:569
-#: tools/wutdialog.cpp:284
-msgid "Pluto"
-msgstr "Plutón"
-
-#: dialogs/detaildialog.cpp:198 printing/detailstable.cpp:162
-#: printing/pwizobjectselection.cpp:140
-msgid "Dwarf planet"
-msgstr "Planeta nanu"
-
-#: dialogs/detaildialog.cpp:214 printing/detailstable.cpp:181
-#, kde-format
-msgctxt "distance in kilometers"
-msgid "%1 km"
-msgstr "%1 km"
-
-#: dialogs/detaildialog.cpp:217 printing/detailstable.cpp:186
-#, kde-format
-msgctxt "distance in Astronomical Units"
-msgid "%1 AU"
-msgstr "%1 UA"
-
-#: dialogs/detaildialog.cpp:224 dialogs/detaildialog.cpp:293
-#: dialogs/detaildialog.cpp:296 printing/detailstable.cpp:195
-#: printing/detailstable.cpp:292 printing/detailstable.cpp:297
-#, kde-format
-msgctxt "angular size in arcminutes"
-msgid "%1 arcmin"
-msgstr "%1 minutos d'arcu"
-
-#: dialogs/detaildialog.cpp:227 printing/detailstable.cpp:200
-#, kde-format
-msgctxt "angular size in arcseconds"
-msgid "%1 arcsec"
-msgstr "%1 segundos d'arcu"
-
-#: dialogs/detaildialog.cpp:278 printing/detailstable.cpp:271
-#, kde-format
-msgctxt "integrated flux at a frequency"
-msgid "Flux(%1):"
-msgstr ""
-
-#: dialogs/detaildialog.cpp:279 printing/detailstable.cpp:272
-#, kde-format
-msgctxt "integrated flux value"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: dialogs/detaildialog.cpp:427 printing/detailstable.cpp:317
-#, kde-format
-msgctxt ""
-"%1 type of sky object (planet, asteroid etc), %2 name of a constellation"
-msgid "%1 in %2"
-msgstr ""
-
-#. i18n: file: xplanet/opsxplanet.ui:747
-#. i18n: ectx: attribute (title), widget (QWidget, XplanetTabPosition)
-#: dialogs/detaildialog.cpp:433 rc.cpp:241
-msgid "Position"
-msgstr "Posición"
-
-#: dialogs/detaildialog.cpp:448 printing/detailstable.cpp:542
-#, kde-format
-msgid "RA (%1):"
-msgstr "AR (%1):"
-
-#: dialogs/detaildialog.cpp:449 printing/detailstable.cpp:546
-#, kde-format
-msgid "Dec (%1):"
-msgstr "Dec (%1):"
-
-#: dialogs/detaildialog.cpp:508 dialogs/detaildialog.cpp:509
-#: printing/detailstable.cpp:645 printing/detailstable.cpp:646
-#: tools/modcalcdaylength.cpp:142 tools/modcalcdaylength.cpp:144
-#: tools/modcalcdaylength.cpp:187 tools/modcalcdaylength.cpp:189
-msgid "Circumpolar"
-msgstr "Circumpolar"
-
-#: dialogs/detaildialog.cpp:511 dialogs/detaildialog.cpp:512
-#: printing/detailstable.cpp:651 printing/detailstable.cpp:652
-msgid "Never rises"
-msgstr "Siempres per embaxo l'horizonte"
-
-#: dialogs/detaildialog.cpp:515 dialogs/detaildialog.cpp:516
-#: printing/detailstable.cpp:655 printing/detailstable.cpp:656
-msgctxt "Not Applicable"
-msgid "N/A"
-msgstr "N/D"
-
-#: dialogs/detaildialog.cpp:534
-msgid "Links"
-msgstr "Enllaces"
-
-#: dialogs/detaildialog.cpp:584 kstarsactions.cpp:428
-msgid "Advanced"
-msgstr "Avanzáu"
-
-#: dialogs/detaildialog.cpp:599
-msgid "Log"
-msgstr "Rexistru"
-
-#: dialogs/detaildialog.cpp:604 skyobjects/skyobject.cpp:419
-#: tools/observinglist.cpp:505 tools/observinglist.cpp:724
-#, kde-format
-msgid "Record here observation logs and/or data on %1."
-msgstr "Atroxar equí rexistros d'observación y/o información sobro %1."
-
-#: dialogs/detaildialog.cpp:671
-msgid "Edit Link"
-msgstr "Editar enllaz"
-
-#. i18n: file: dialogs/addlinkdialog.ui:73
-#. i18n: ectx: property (text), widget (QLabel, URLLabel)
-#: dialogs/detaildialog.cpp:707 rc.cpp:2716
-msgid "URL:"
-msgstr "URL:"
-
-#: dialogs/detaildialog.cpp:794
-#, kde-format
-msgid "Are you sure you want to remove the %1 link?"
-msgstr "¿Daveres que quier desaniciar l'enllaz %1?"
-
-#: dialogs/detaildialog.cpp:794 indi/drivermanager.cpp:1279
-#: indi/indidriver.cpp:912
-msgid "Delete Confirmation"
-msgstr "Confirmación d'esborráu"
-
-#: dialogs/detaildialog.cpp:1005 dialogs/detaildialog.cpp:1035
-#: tools/observinglist.cpp:591 tools/observinglist.cpp:621
-msgid "KStars did not find any active telescopes."
-msgstr "KStars nun alcontró dengún telescopiu activu."
-
-#: dialogs/detaildialog.cpp:1021 tools/observinglist.cpp:607
-#, kde-format
-msgid "Telescope %1 is offline. Please connect and retry again."
-msgstr "El telescopiu %1 nun ta coneutáu. Conéutelu ya téntelo otra vegada."
-
-#: dialogs/exportimagedialog.cpp:46
-#, fuzzy
-#| msgid "&Save Sky Image..."
-msgid "Export sky image"
-msgstr "&Guardar imaxe del cielu..."
-
-#: dialogs/exportimagedialog.cpp:95 dialogs/exportimagedialog.cpp:96
-#, fuzzy
-#| msgid "&Save Sky Image..."
-msgid "KStars Exported Sky Image"
-msgstr "&Guardar imaxe del cielu..."
-
-#: dialogs/exportimagedialog.cpp:127 main.cpp:95
-#: printing/foveditordialog.cpp:154
-#, kde-format
-msgid "Could not parse image format of %1; assuming PNG."
-msgstr "Nun se puede procesar el formatu d'imaxe de %1, asumiendo PNG."
-
-#: dialogs/exportimagedialog.cpp:189 printing/foveditordialog.cpp:159
-#, kde-format
-msgid "Error: Unable to save image: %1 "
-msgstr "Fallu: Imposible guardar la imaxe: %1 "
-
-#: dialogs/exportimagedialog.cpp:194 printing/foveditordialog.cpp:164
-#, kde-format
-msgid "Image saved to file: %1"
-msgstr "Imaxe guardada nel ficheru: %1"
-
-#: dialogs/exportimagedialog.cpp:203 indi/streamwg.cpp:177
-#: kstarsactions.cpp:597 printing/foveditordialog.cpp:173
-#: tools/scriptbuilder.cpp:1072
-#, kde-format
-msgid "Could not upload image to remote location: %1"
-msgstr "Imposible cargar imaxe na ubicación remota: %1"
-
-#: dialogs/exportimagedialog.cpp:204 indi/streamwg.cpp:178
-#: kstarsactions.cpp:598 printing/foveditordialog.cpp:174
-#: printing/pwizprint.cpp:126 tools/scriptbuilder.cpp:1073
-msgid "Could not upload file"
-msgstr "Nun se puede cargar el ficheru"
-
-#: dialogs/exportimagedialog.cpp:238
-#, fuzzy
-#| msgid "Preview of %1"
-msgid "Preview image"
-msgstr "Previsualización de %1"
-
-#: dialogs/exportimagedialog.cpp:239
-#, fuzzy
-#| msgid "Export"
-msgid "Export image"
-msgstr "Esportar"
-
-#: dialogs/exportimagedialog.cpp:243 printing/pwizfovconfig.cpp:68
-#, fuzzy
-#| msgid "Horizontal "
-msgid "Horizontal"
-msgstr "Horizontal "
-
-#: dialogs/exportimagedialog.cpp:244 printing/pwizfovconfig.cpp:69
-#, fuzzy
-msgid "Vertical"
-msgstr "Ocala"
-
-#: dialogs/exportimagedialog.cpp:247
-msgid "Full legend"
-msgstr ""
-
-#: dialogs/exportimagedialog.cpp:247 printing/pwizfovconfig.cpp:65
-msgid "Only scale"
-msgstr ""
-
-#: dialogs/exportimagedialog.cpp:247 printing/pwizfovconfig.cpp:65
-msgid "Scale with magnitudes chart"
-msgstr ""
-
-#: dialogs/exportimagedialog.cpp:248
-#, fuzzy
-#| msgid "(magnitude)"
-msgid "Only magnitudes"
-msgstr "(magnitú)"
-
-#: dialogs/exportimagedialog.cpp:248
-#, fuzzy
-#| msgid "&FOV Symbols"
-msgid "Only symbols"
-msgstr "Símbolos de campos de &visión"
-
-#: dialogs/exportimagedialog.cpp:252 printing/pwizfovconfig.cpp:72
-msgid "Lower left corner"
-msgstr ""
-
-#: dialogs/exportimagedialog.cpp:252 printing/pwizfovconfig.cpp:72
-msgid "Upper left corner"
-msgstr ""
-
-#: dialogs/exportimagedialog.cpp:252 printing/pwizfovconfig.cpp:72
-msgid "Upper right corner"
-msgstr ""
-
-#: dialogs/exportimagedialog.cpp:253 printing/pwizfovconfig.cpp:73
-msgid "Lower right corner"
-msgstr ""
-
-#: dialogs/finddialog.cpp:36 tools/conjunctions.cpp:72
-msgid "Any"
-msgstr "Cualesquier"
-
-#. i18n: file: tools/obslistwizard.ui:78
-#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
-#: dialogs/finddialog.cpp:37 rc.cpp:2189 tools/conjunctions.cpp:73
-#: tools/obslistwizard.cpp:343 tools/obslistwizard.cpp:385
-#: tools/wutdialog.cpp:111
-msgid "Stars"
-msgstr "Estrelles"
-
-#: dialogs/finddialog.cpp:38 kstarsactions.cpp:412 tools/astrocalc.cpp:168
-#: tools/conjunctions.cpp:74
-msgid "Solar System"
-msgstr "Sistema Solar"
-
-#: dialogs/finddialog.cpp:39 tools/conjunctions.cpp:78
-msgid "Open Clusters"
-msgstr "Cúmulos abiertos"
-
-#: dialogs/finddialog.cpp:40 tools/conjunctions.cpp:79
-msgid "Globular Clusters"
-msgstr "Cúmulos globulares"
-
-#: dialogs/finddialog.cpp:41 tools/conjunctions.cpp:80
-msgid "Gaseous Nebulae"
-msgstr "Nebuloses gaseoses"
-
-#: dialogs/finddialog.cpp:42 tools/conjunctions.cpp:81
-msgid "Planetary Nebulae"
-msgstr "Nebuloses planetaries"
-
-#. i18n: file: tools/obslistwizard.ui:118
-#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
-#: dialogs/finddialog.cpp:43 rc.cpp:2213 tools/conjunctions.cpp:82
-#: tools/obslistwizard.cpp:228 tools/obslistwizard.cpp:351
-#: tools/obslistwizard.cpp:577 tools/obslistwizard.cpp:615
-#: tools/wutdialog.cpp:112
-msgid "Galaxies"
-msgstr "Galaxes"
-
-#. i18n: file: tools/obslistwizard.ui:88
-#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
-#. i18n: file: options/opssolarsystem.ui:375
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowComets)
-#: dialogs/finddialog.cpp:44 rc.cpp:2195 rc.cpp:4552 tools/conjunctions.cpp:76
-#: tools/obslistwizard.cpp:235 tools/obslistwizard.cpp:347
-#: tools/obslistwizard.cpp:661 tools/wutdialog.cpp:114
-msgid "Comets"
-msgstr "Cometes"
-
-#. i18n: file: tools/obslistwizard.ui:93
-#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
-#. i18n: file: options/opssolarsystem.ui:265
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowAsteroids)
-#: dialogs/finddialog.cpp:45 rc.cpp:2198 rc.cpp:4519 tools/conjunctions.cpp:77
-#: tools/obslistwizard.cpp:236 tools/obslistwizard.cpp:349
-#: tools/obslistwizard.cpp:673 tools/wutdialog.cpp:114
-msgid "Asteroids"
-msgstr "Asteroides"
-
-#: dialogs/finddialog.cpp:46 tools/wutdialog.cpp:113
-msgid "Constellations"
-msgstr "Constelaciones"
-
-#: dialogs/finddialog.cpp:59
-msgid "Find Object"
-msgstr "Guetar oxetu"
-
-#: dialogs/finddialog.cpp:69
-msgid "Details..."
-msgstr "Detalles..."
-
-#: dialogs/finddialog.cpp:110
-msgid "Andromeda Galaxy"
-msgstr "Galaxa d'Andrómeda"
-
-#: dialogs/finddialog.cpp:116
-msgid "Aldebaran"
-msgstr "Aldebarán"
-
-#: dialogs/finddialog.cpp:123
-msgid "Aaltje"
-msgstr "Aaltje"
-
-#: dialogs/finddialog.cpp:129
-msgid "Aarseth-Brewington (1989 W1)"
-msgstr "Aarseth-Brewington (1989 W1)"
-
-#. i18n: file: tools/modcalcdaylength.ui:109
-#. i18n: ectx: property (title), widget (QGroupBox, SunBox)
-#. i18n: file: tools/modcalcplanets.ui:159
-#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
-#. i18n: file: tools/modcalcplanets.ui:502
-#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
-#: dialogs/finddialog.cpp:174 rc.cpp:1273 rc.cpp:1724 rc.cpp:1808
-#: skyglpainter.cpp:239 skyobjects/kssun.cpp:27 tools/conjunctions.cpp:92
-#: tools/conjunctions.cpp:276 tools/modcalcplanets.cpp:271
-msgid "Sun"
-msgstr "Sol"
-
-#: dialogs/finddialog.cpp:303
-#, kde-format
-msgid "No object named %1 found."
-msgstr "Nun s'alcontró dengún oxetu denomáu %1."
-
-#: dialogs/finddialog.cpp:304
-msgid "Bad object name"
-msgstr "Nome erróneu d'oxetu"
-
-#: dialogs/focusdialog.cpp:46
-#, fuzzy
-#| msgid "Set Focus Manually"
-msgid "Set Coordinates Manually"
-msgstr "Apuntar manualmente"
-
-#: dialogs/focusdialog.cpp:88 tools/flagmanager.cpp:164
-msgid "The Right Ascension value must be between 0.0 and 24.0."
-msgstr "El valor d'ascensión reuta tien de tar ente 0.0 y 24.0."
-
-#: dialogs/focusdialog.cpp:90 tools/flagmanager.cpp:166
-msgid "The Declination value must be between -90.0 and 90.0."
-msgstr "El valor de declinación tien de tar ente -90.0 y 90.0."
-
-#: dialogs/focusdialog.cpp:92 dialogs/focusdialog.cpp:114
-#: tools/flagmanager.cpp:168
-msgid "Invalid Coordinate Data"
-msgstr "Coordenaes non válides"
-
-#: dialogs/focusdialog.cpp:110
-msgid "The Azimuth value must be between 0.0 and 360.0."
-msgstr "El valor del acimut tien de tar ente 0.0 y 360.0."
-
-#: dialogs/focusdialog.cpp:112
-msgid "The Altitude value must be between -90.0 and 90.0."
-msgstr "El valor de l'altitú tien de tar ente -90.0 y 90.0."
-
-#: dialogs/fovdialog.cpp:84
-msgid "Set FOV Indicator"
-msgstr "Afitar indicador del campu de visión"
-
-#. i18n: file: dialogs/newfov.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, NewFOV)
-#: dialogs/fovdialog.cpp:175 rc.cpp:3076
-msgid "New FOV Indicator"
-msgstr "Nuevu indicador del campu de visión"
-
-#: dialogs/fovdialog.cpp:201
-msgid "1000 yards"
-msgstr "1000 yardes"
-
-#: dialogs/fovdialog.cpp:202
-msgid "1000 meters"
-msgstr "1000 metros"
-
-#. i18n: file: dialogs/newfov.ui:674
-#. i18n: ectx: property (text), widget (QLabel, LabelUnits)
-#: dialogs/fovdialog.cpp:209 rc.cpp:3214
-msgid "feet"
-msgstr ""
-
-#: dialogs/fovdialog.cpp:209
-msgid "meters"
-msgstr ""
-
-#: dialogs/locationdialog.cpp:42
-msgid "Set Geographic Location"
-msgstr "Configurar posición xeográfica..."
-
-#: dialogs/locationdialog.cpp:69
-msgid "DST Rule:"
-msgstr "regla DST:"
-
-#: dialogs/locationdialog.cpp:114 dialogs/locationdialog.cpp:166
-#: dialogs/locationdialog.cpp:325
-#, kde-format
-msgid "One city matches search criteria"
-msgid_plural "%1 cities match search criteria"
-msgstr[0] "Una ciudá concasa col criteriu de gueta"
-msgstr[1] "%1 ciudaes concasen col criteriu de gueta"
-
-#: dialogs/locationdialog.cpp:221
-msgid "This City already exists in the database."
-msgstr "Esta ciudá ya esiste na base de datos."
-
-#: dialogs/locationdialog.cpp:222
-msgid "Error: Duplicate Entry"
-msgstr "Fallu: Entrada duplicada"
-
-#: dialogs/locationdialog.cpp:234
-msgid "All fields (except province) must be filled to add this location."
-msgstr ""
-"Ye necesario rellenar tolos campos (excepto provincia) pa amestar esta "
-"posición."
-
-#: dialogs/locationdialog.cpp:235
-msgid "Fields are Empty"
-msgstr "Los campos tán ermos"
-
-#: dialogs/locationdialog.cpp:238
-msgid "Could not parse the Latitude/Longitude."
-msgstr ""
-
-#: dialogs/locationdialog.cpp:239 dialogs/locationdialog.cpp:243
-msgid "Bad Coordinates"
-msgstr "Coordenaes erróneas"
-
-#: dialogs/locationdialog.cpp:242
-msgid "Could not parse coordinates."
-msgstr "Imposible interpretar les coordenaes."
-
-#: dialogs/locationdialog.cpp:247
-msgid "Really override original data for this city?"
-msgstr "¿Deseya daveres sobroscribir los datos orixinales d'esta ciudad?"
-
-#: dialogs/locationdialog.cpp:248
-msgid "Do Not Override"
-msgstr "Nun sobroscribir"
-
-#: dialogs/locationdialog.cpp:248
-msgid "Override Data"
-msgstr "Sobroscribir datos"
-
-#: dialogs/locationdialog.cpp:248
-msgid "Override Existing Data?"
-msgstr "¿Sobroscribir los datos existentes?"
-
-#: dialogs/locationdialog.cpp:264
-msgid ""
-"Local cities database could not be opened.\n"
-"Location will not be recorded."
-msgstr ""
-"Nun se puede abrir la base de datos de ciudaes llocal.\n"
-"Nun s'atroxará la posición."
-
-#: dialogs/locationdialog.cpp:370
-msgid " Start Date (Start Time)  /  Revert Date (Revert Time)"
-msgstr " Data d'aniciu (Hora d'aniciu)  /  Revertir Data (Revertir Hora)"
-
-#: dialogs/locationdialog.cpp:372
-msgid "--: No DST correction"
-msgstr "--: Ensin correición cambéu horariu"
-
-#: dialogs/locationdialog.cpp:373
-msgid "AU: last Sun in Oct. (02:00) / last Sun in Mar. (02:00)"
-msgstr "AU: caberu domingu d'Och. (02:00) / caberu domingu de Mar. (02:00)"
-
-#: dialogs/locationdialog.cpp:374
-msgid "BZ:  2nd Sun in Oct. (00:00) /  3rd Sun in Feb. (00:00)"
-msgstr "BZ: 2º domingu d'Och. (00:00) / 3º domingu de Feb. (00:00)"
-
-#: dialogs/locationdialog.cpp:375
-msgid "CH:  2nd Sun in Apr. (00:00) /  2nd Sun in Sep. (00:00)"
-msgstr "CH:  2º domingu d'Abr. (00:00) /  2º domingu de Sep. (00:00)"
-
-#: dialogs/locationdialog.cpp:376
-msgid "CL:  2nd Sun in Oct. (04:00) /  2nd Sun in Mar. (04:00)"
-msgstr "CL:  2º domingu d'Och. (04:00) /  2º domingu de Mar. (04:00)"
-
-#: dialogs/locationdialog.cpp:377
-msgid "CZ:  1st Sun in Oct. (02:45) /  3rd Sun in Mar. (02:45)"
-msgstr "CZ:  1º domingu d' Och. (02:45) /  3º domingu de Mar. (02:45)"
-
-#: dialogs/locationdialog.cpp:378
-msgid "EE: Last Sun in Mar. (00:00) / Last Sun in Oct. (02:00)"
-msgstr "EE: caberu domingu de Mar. (00:00) / caberu domingu d'Och. (02:00)"
-
-#: dialogs/locationdialog.cpp:379
-msgid "EG: Last Fri in Apr. (00:00) / Last Thu in Sep. (00:00)"
-msgstr "EG: caberu vienres d'Abr. (00:00) / caberu xueves de Sep. (00:00)"
-
-#: dialogs/locationdialog.cpp:380
-msgid "EU: Last Sun in Mar. (01:00) / Last Sun in Oct. (01:00)"
-msgstr "EU: caberu domingu de Mar. (01:00) / caberu domingu d'Och. (01:00)"
-
-#: dialogs/locationdialog.cpp:381
-msgid "FK:  1st Sun in Sep. (02:00) /  3rd Sun in Apr. (02:00)"
-msgstr "FK:  1º domingu de Set. (02:00) /  3º domingu d'Abr. (02:00)"
-
-#: dialogs/locationdialog.cpp:382
-msgid "HK:  2nd Sun in May  (03:30) /  3rd Sun in Oct. (03:30)"
-msgstr "HK:  2º domingu de Mayu  (03:30) /  3º domingu d' Och. (03:30)"
-
-#: dialogs/locationdialog.cpp:383
-msgid "IQ: Apr 1 (03:00) / Oct. 1 (00:00)"
-msgstr "IQ: 1 de Abr. (03:00) / 1 de Oct. (00:00)"
-
-#: dialogs/locationdialog.cpp:384
-msgid "IR: Mar 21 (00:00) / Sep. 22 (00:00)"
-msgstr "IR: 21 de Mar. (00:00) / 22 de Sep. (00:00)"
-
-#: dialogs/locationdialog.cpp:385
-msgid "JD: Last Thu in Mar. (00:00) / Last Thu in Sep. (00:00)"
-msgstr "JD: caberu xueves de Mar. (00:00) / caberu xueves de Sep. (00:00)"
-
-#: dialogs/locationdialog.cpp:386
-msgid "LB: Last Sun in Mar. (00:00) / Last Sun in Oct. (00:00)"
-msgstr "LB: caberu domingu de Mar. (00:00) / caberu domingu d'Och. (00:00)"
-
-#: dialogs/locationdialog.cpp:387
-msgid "MX:  1st Sun in May  (02:00) / Last Sun in Sep. (02:00)"
-msgstr "MX:  1º domingu de May.  (02:00) / caberu domingu de Set. (02:00)"
-
-#: dialogs/locationdialog.cpp:388
-msgid "NB:  1st Sun in Sep. (02:00) /  1st Sun in Apr. (02:00)"
-msgstr "NB:  1º domingu de Set. (02:00) /  1º domingu d'Abr. (02:00)"
-
-#: dialogs/locationdialog.cpp:389
-msgid "NZ:  1st Sun in Oct. (02:00) /  3rd Sun in Mar. (02:00)"
-msgstr "NZ:  1º domingu d' Och. (02:00) / 3º domingu de Mar. (02:00)"
-
-#: dialogs/locationdialog.cpp:390
-msgid "PY:  1st Sun in Oct. (00:00) /  1st Sun in Mar. (00:00)"
-msgstr "PY:  1º domingu d'Och. (00:00) /  1º domingu de Mar. (00:00)"
-
-#: dialogs/locationdialog.cpp:391
-msgid "RU: Last Sun in Mar. (02:00) / Last Sun in Oct. (02:00)"
-msgstr "RU: caberu domingu de Mar. (02:00) / caberu domingu d'Och. (02:00)"
-
-#: dialogs/locationdialog.cpp:392
-msgid "SK:  2nd Sun in May  (00:00) /  2nd Sun in Oct. (00:00)"
-msgstr "SK:  2º domingu de May. (00:00) / 2º domingu d' Och. (00:00)"
-
-#: dialogs/locationdialog.cpp:393
-msgid "SY: Apr. 1 (00:00) / Oct. 1 (00:00)"
-msgstr "SY: 1 de Abr. (00:00) / 1 de Oct. (00:00)"
-
-#: dialogs/locationdialog.cpp:394
-msgid "TG:  1st Sun in Nov. (02:00) / Last Sun in Jan. (02:00)"
-msgstr "TG:  1º domingu de Pay. (02:00) / caberu domingu de Xin. (02:00)"
-
-#: dialogs/locationdialog.cpp:395
-msgid "TS:  1st Sun in Oct. (02:00) / Last Sun in Mar. (02:00)"
-msgstr "TS:  1º domingu d'Och. (02:00) / caberu domingu de Mar. (02:00)"
-
-#: dialogs/locationdialog.cpp:396
-msgid "US:  1st Sun in Apr. (02:00) / Last Sun in Oct. (02:00)"
-msgstr "EEUU:  1º domingu d'Abr.  (02:00) / caberu domingu d'Och. (02:00)"
-
-#: dialogs/locationdialog.cpp:397
-msgid "ZN: Apr. 1 (01:00) / Oct. 1 (00:00)"
-msgstr "ZN: 1 de Abr. (01:00) / 1 de Oct. (00:00)"
-
-#: dialogs/locationdialog.cpp:399
-msgid "Daylight Saving Time Rules"
-msgstr "Regles de cambéu d'horariu branu/iviernu"
-
-#: dialogs/timedialog.cpp:44
-msgctxt "set clock to a new time"
-msgid "Set UTC Time"
-msgstr "Afitar la hora UTC"
-
-#: dialogs/timedialog.cpp:46
-msgctxt "set clock to a new time"
-msgid "Set Time"
-msgstr "Afitar la hora"
-
-#. i18n: file: tools/modcalcaltaz.ui:71
-#. i18n: ectx: property (text), widget (KPushButton, NowButton)
-#. i18n: file: tools/modcalceclipticcoords.ui:52
-#. i18n: ectx: property (text), widget (KPushButton, NowButton)
-#. i18n: file: tools/modcalcjd.ui:48
-#. i18n: ectx: property (text), widget (KPushButton, NowButton)
-#. i18n: file: tools/modcalcvlsr.ui:72
-#. i18n: ectx: property (text), widget (KPushButton, NowButton)
-#: dialogs/timedialog.cpp:59 rc.cpp:1000 rc.cpp:1394 rc.cpp:1643 rc.cpp:1979
-msgid "Now"
-msgstr "Agora"
-
-#: dialogs/timedialog.cpp:59
-msgid "UTC Now"
-msgstr "UTC Agora"
-
-#: fitsviewer/fitshistogram.cpp:391
-msgid "Auto Scale"
-msgstr "Autoescaláu"
-
-#: fitsviewer/fitshistogram.cpp:394
-msgid "Linear Scale"
-msgstr "Escaláu llinial"
-
-#: fitsviewer/fitshistogram.cpp:397
-msgid "Logarithmic Scale"
-msgstr "Escaláu logarítmicu"
-
-#: fitsviewer/fitshistogram.cpp:400
-msgid "Square Root Scale"
-msgstr "Escaláu de raíz cuadrada"
-
-#: fitsviewer/fitshistogram.cpp:406
-#: skycomponents/constellationboundarylines.cpp:269
-msgid "Unknown"
-msgstr "Desconocíu"
-
-#: fitsviewer/fitsimage.cpp:137 oal/oal.h:39
-msgid "Cancel"
-msgstr "Encaboxar"
-
-#: fitsviewer/fitsimage.cpp:137
-msgid "Please hold while loading FITS file..."
-msgstr "Por favor espere mientres se carga'l ficheru FITS..."
-
-#: fitsviewer/fitsimage.cpp:138
-msgid "Loading FITS"
-msgstr "Cargando FITS"
-
-#: fitsviewer/fitsimage.cpp:147
-#, fuzzy, kde-format
-#| msgid "Could not open the file %1 for writing."
-msgid "Could not open file %1 (fits_get_img_param). Error %2"
-msgstr "Nun se puede abrir el ficheru %1 con permisu d'escritura."
-
-#: fitsviewer/fitsimage.cpp:147 fitsviewer/fitsimage.cpp:162
-#: fitsviewer/fitsimage.cpp:170 fitsviewer/fitsimage.cpp:400
-msgid "FITS Open"
-msgstr "FITS abiertu"
-
-#: fitsviewer/fitsimage.cpp:162
-#, fuzzy, kde-format
-#| msgid "FITS file open error: %1"
-msgid "FITS file open error (fits_get_img_param): %1"
-msgstr "Fallu d'apertura de ficheru FITS: %1"
-
-#: fitsviewer/fitsimage.cpp:170
-#, fuzzy, kde-format
-#| msgid "FITS file open error: %1"
-msgid "FITS file open error (fits_get_img_type): %1"
-msgstr "Fallu d'apertura de ficheru FITS: %1"
-
-#: fitsviewer/fitsimage.cpp:400
-msgid "FITS image is saturated and cannot be displayed."
-msgstr "La imaxe FITS ta saturada y nun se puede amosar."
-
-#: fitsviewer/fitstab.cpp:53 fitsviewer/fitsviewer.cpp:320
-msgid "Save Changes to FITS?"
-msgstr "¿Guardar cambeos en FITS?"
-
-#: fitsviewer/fitstab.cpp:54 fitsviewer/fitsviewer.cpp:321
-msgid ""
-"The current FITS file has unsaved changes.  Would you like to save before "
-"closing it?"
-msgstr ""
-"El ficheru FITS actual tien cambeos non guardaos. ¿Quier atroxalos enantes "
-"de zarralu?"
-
-#. i18n: file: fitsviewer/fitsheaderdialog.ui:13
-#. i18n: ectx: property (windowTitle), widget (QDialog, fitsHeaderDialog)
-#: fitsviewer/fitstab.cpp:164 fitsviewer/fitsviewer.cpp:122 rc.cpp:3362
-msgid "FITS Header"
-msgstr "Cabecera FITS"
-
-#: fitsviewer/fitstab.cpp:164
-#, kde-format
-msgid "FITS record error: %1"
-msgstr "Fallu de rexistru de FITS: %1"
-
-#: fitsviewer/fitstab.cpp:237
-msgid "&Overwrite"
-msgstr "&Sobroscribir"
-
-#: fitsviewer/fitstab.cpp:248
-#, kde-format
-msgid "FITS file save error: %1"
-msgstr "Fallu al guardar ficheru FITS: %1"
-
-#: fitsviewer/fitstab.cpp:249
-msgid "FITS Save"
-msgstr "Guardáu FITS"
-
-#: fitsviewer/fitstab.cpp:255
-msgid "File saved."
-msgstr "Ficheru guardáu."
-
-#: fitsviewer/fitstab.cpp:259 indi/streamwg.cpp:184
-#: tools/scriptbuilder.cpp:1004 tools/scriptbuilder.cpp:1080
-#, kde-format
-msgid "Invalid URL: %1"
-msgstr "URL non válidu: %1"
-
-#: fitsviewer/fitsviewer.cpp:97
-msgid "Welcome to KStars FITS Viewer"
-msgstr "Bienveníu al editor FITS de KStars"
-
-#. i18n: file: fitsviewer/fitshistogramui.ui:32
-#. i18n: ectx: property (windowTitle), widget (QDialog, FITSHistogramUI)
-#: fitsviewer/fitsviewer.cpp:104 rc.cpp:3377
-msgid "Histogram"
-msgstr "Histograma"
-
-#. i18n: file: fitsviewer/statform.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog, statForm)
-#: fitsviewer/fitsviewer.cpp:141 rc.cpp:3413
-msgid "Statistics"
-msgstr "Estadístiques"
-
-#: fitsviewer/fitsviewer.cpp:145 fitsviewer/fitsviewer.cpp:438
-#, fuzzy
-#| msgid "Stars"
-msgid "Mark Stars"
-msgstr "Estrelles"
-
-#: fitsviewer/fitsviewer.cpp:152
-#, fuzzy
-#| msgid "Welcome to KStars FITS Viewer"
-msgid "KStars FITS Viewer"
-msgstr "Bienveníu al editor FITS de KStars"
-
-#: fitsviewer/fitsviewer.cpp:176
-msgid "Focus"
-msgstr ""
-
-#: fitsviewer/fitsviewer.cpp:222 fitsviewer/fitsviewer.cpp:445
-#, kde-format
-msgid "%1 stars detected."
-msgstr ""
-
-#: fitsviewer/fitsviewer.cpp:443
-msgid "Unmark Stars"
-msgstr ""
 
 #: fov.cpp:41
 msgid "No FOV"
@@ -1325,203 +303,23 @@ msgstr "Visor d'imáxenes de KStars"
 msgid "Loading of the image %1 failed."
 msgstr "Fallu al cargar la imaxe %1."
 
+#: imageviewer.cpp:240 kstarsactions.cpp:548 printing/pwizprint.cpp:81
+#: tools/scriptbuilder.cpp:1042 dialogs/addcatdialog.cpp:211
+#: fitsviewer/fitstab.cpp:234
+#, kde-format
+msgid "A file named \"%1\" already exists. Overwrite it?"
+msgstr "Yá esiste un ficheru denomáu «%1». ¿Sobroscribir?"
+
+#: imageviewer.cpp:242 kstarsactions.cpp:549 printing/pwizprint.cpp:82
+#: tools/scriptbuilder.cpp:1044 dialogs/addcatdialog.cpp:213
+#: fitsviewer/fitstab.cpp:236
+msgid "Overwrite File?"
+msgstr "¿Sobroscribir ficheru?"
+
 #: imageviewer.cpp:256
 #, kde-format
 msgid "Saving of the image %1 failed."
 msgstr "Fallu al guardar la imaxe %1."
-
-#. i18n: file: indi/devmanager.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, devManager)
-#. i18n: file: indi/drivermanager.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, DriverManager)
-#: indi/drivermanager.cpp:111 indi/indidriver.cpp:102 rc.cpp:3440 rc.cpp:3512
-msgid "Device Manager"
-msgstr "Xestor de preseos"
-
-#: indi/drivermanager.cpp:262
-#, kde-format
-msgid "Driver %1 is already running, do you want to restart it?"
-msgstr ""
-
-#: indi/drivermanager.cpp:320 indi/indidriver.cpp:326
-msgid "Cannot start INDI server: port error."
-msgstr "Nun puede aniciase'l sirvidor INDI: fallu del puertu."
-
-#: indi/drivermanager.cpp:542 indi/indidriver.cpp:308
-#, fuzzy, kde-format
-msgid "Invalid port entry: %1"
-msgstr "Ficheru non válidu: %1"
-
-#: indi/drivermanager.cpp:868 indi/indidriver.cpp:498
-#, kde-format
-msgid ""
-"Unable to find INDI Drivers directory: %1\n"
-"Please make sure to set the correct path in KStars configuration"
-msgstr ""
-"Nun se ha podido alcontrar la carpeta de controladores INDI: %1\n"
-"Asegúrese d'haber proporcionado la ruta correuta na configuración de KStars."
-
-#: indi/drivermanager.cpp:909 indi/indidriver.cpp:539
-#, kde-format
-msgid "Failed to open INDI Driver file: %1"
-msgstr "Falló l'apertura del ficheru de controlador INDI: %1"
-
-#. i18n: file: tools/obslistwizard.ui:147
-#. i18n: ectx: property (text), widget (KPushButton, NoneButton)
-#. i18n: file: oal/equipmentwriter.ui:197
-#. i18n: ectx: property (text), item, widget (QComboBox, driverComboBox)
-#: indi/drivermanager.cpp:1127 indi/indidriver.cpp:750 oal/log.cpp:255
-#: oal/log.cpp:687 rc.cpp:2225 rc.cpp:4675
-msgid "None"
-msgstr "Dengún"
-
-#: indi/drivermanager.cpp:1180 indi/indidriver.cpp:810
-msgid "Add Host"
-msgstr "Amestar sirvidor"
-
-#: indi/drivermanager.cpp:1191 indi/indidriver.cpp:826
-msgid "Error: the port number is invalid."
-msgstr "Fallu: el númberu de puertu nun ye válidu."
-
-#: indi/drivermanager.cpp:1203 indi/indidriver.cpp:836
-#, kde-format
-msgid "Host: %1 Port: %2 already exists."
-msgstr "Sirvidor: %1 Puertu: %2 yá esiste."
-
-#: indi/drivermanager.cpp:1228 indi/indidriver.cpp:861
-msgid "Modify Host"
-msgstr "Modificar sirvidor"
-
-#: indi/drivermanager.cpp:1275 indi/indidriver.cpp:908
-msgid "You need to disconnect the client before removing it."
-msgstr "Necesita desconeutar el veceru enantes de desanicialu."
-
-#: indi/drivermanager.cpp:1279 indi/indidriver.cpp:912
-#, kde-format
-msgid "Are you sure you want to remove the %1 client?"
-msgstr "¿Daveres quier desaniciar el veceru %1?"
-
-#: indi/drivermanager.cpp:1300 indi/indidriver.cpp:935
-msgid ""
-"unable to write to file 'indihosts.xml'\n"
-"Any changes to INDI hosts configurations will not be saved."
-msgstr ""
-"Nun se puede escribir nel ficheru «indihosts.xml»\n"
-"Cualesquier cambéu que faiga a los sirvidores INDI nun sedrá atroxáu."
-
-#: indi/guimanager.cpp:66 indi/indimenu.cpp:71
-msgid "INDI Control Panel"
-msgstr "Panel de control de INDI"
-
-#. i18n: file: tools/conjunctions.ui:211
-#. i18n: ectx: property (text), widget (KPushButton, ClearButton)
-#. i18n: file: tools/modcalcgeod.ui:160
-#. i18n: ectx: property (text), widget (KPushButton, Clear)
-#: indi/guimanager.cpp:69 indi/indimenu.cpp:74 rc.cpp:952 rc.cpp:1562
-msgid "Clear"
-msgstr "Llimpiar"
-
-#: indi/guimanager.cpp:70 indi/indimenu.cpp:75
-msgid "Close"
-msgstr "Zarrar"
-
-#: indi/guimanager.cpp:93 indi/indimenu.cpp:103
-msgid ""
-"No INDI devices currently running. To run devices, please select devices "
-"from the Device Manager in the devices menu."
-msgstr ""
-"Nun hai dengún preséu INDI funcionando nesti intre. Pa executar los preseos, "
-"esbíllelos nel Xestor de preseos del menú de preseos."
-
-#: indi/indielement.cpp:322
-msgid "INDI DATA STREAM"
-msgstr "FLUXU DE DATOS INDI"
-
-#: indi/indielement.cpp:612
-#, kde-format
-msgid "Cannot open file %1 for reading"
-msgstr "Nun se puede abrir ficheru %1 pa llectura"
-
-#: indi/indielement.cpp:624
-#, kde-format
-msgid "Not enough memory to load %1"
-msgstr "Nun hai memoria suficiente pa cargar %1"
-
-#: indi/indielement.cpp:634
-#, kde-format
-msgid "Not enough memory to convert file %1 to base64"
-msgstr "Nun hai memoria suficiente pa convertir el ficheru %1 a base64"
-
-#: indi/indiproperty.cpp:336
-msgid ""
-"Enable binary data transfer from this property to KStars and vice-versa."
-msgstr ""
-
-#: indi/indiproperty.cpp:343
-msgid "Upload"
-msgstr "Cargar"
-
-#: indi/indistd.cpp:310
-#, kde-format
-msgid "Data file saved to %1"
-msgstr "Ficheru de datos atroxáu en %1"
-
-#: indi/indistd.cpp:331
-#, kde-format
-msgid "%1 is online."
-msgstr "%1 ta en llinia."
-
-#: indi/indistd.cpp:340
-#, kde-format
-msgid "%1 is online and ready."
-msgstr "%1 ta en llinia y preparáu."
-
-#: indi/indistd.cpp:889 indi/servermanager.cpp:73
-msgid "Error making temporary filename."
-msgstr "Fallu al criar nome de ficheru temporal."
-
-#: indi/indistd.cpp:928
-#, kde-format
-msgid "FITS file saved to %1"
-msgstr "Ficheru FITS atroxáu en %1"
-
-#: indi/telescopewizardprocess.cpp:114
-#, fuzzy
-#| msgid "Are you sure you want to remove %1?"
-msgid "Are you sure you want to cancel?"
-msgstr "¿Daveres quier desaniciar %1?"
-
-#. i18n: file: indi/telescopewizard.ui:31
-#. i18n: ectx: property (windowTitle), widget (QDialog, telescopeWizard)
-#: indi/telescopewizardprocess.cpp:234 indi/telescopewizardprocess.cpp:244
-#: rc.cpp:3773
-msgid "Telescope Wizard"
-msgstr "Asistente de telescopiu"
-
-#: indi/telescopewizardprocess.cpp:235
-msgid ""
-"Please wait while KStars scan communication ports for attached telescopes.\n"
-"This process might take few minutes to complete."
-msgstr ""
-"Espere mientres KStars esplora puertos de comunicaciones pa telescopios "
-"coneutaos.\n"
-"Esti procesu puede allanciase unos minutos hasta completase."
-
-#: indi/telescopewizardprocess.cpp:244
-msgid "Please wait while KStars tries to connect to your telescope..."
-msgstr "Por favor, espere mientres KStars afita comunicación col telescopiu..."
-
-#: indi/telescopewizardprocess.cpp:365
-msgid ""
-"Sorry. KStars failed to detect any attached telescopes, please check your "
-"settings and try again."
-msgstr ""
-"KStars nun pudo deteutar dengún telescopiu coneutáu, por favor comprebe la "
-"so configuración ya inténtelo de nuevu."
-
-#: indi/telescopewizardprocess.cpp:383
-msgid "Telescope Wizard completed successfully."
-msgstr ""
 
 #: kspopupmenu.cpp:86
 #, kde-format
@@ -1568,6 +366,14 @@ msgstr "Amosar imaxe SDSS"
 msgctxt "Digitized Sky Survey"
 msgid "Show DSS Image"
 msgstr "Amosar imaxe DSS"
+
+#: kspopupmenu.cpp:184 kspopupmenu.cpp:268 kstarsinit.cpp:620
+#: printing/detailstable.cpp:87 printing/pwizobjectselection.cpp:110
+#: tools/observinglist.cpp:495 tools/wutdialog.cpp:268
+#: skycomponents/starcomponent.cpp:452 dialogs/detaildialog.cpp:145
+#: skyobjects/starobject.cpp:492
+msgid "star"
+msgstr "estrella"
 
 #: kspopupmenu.cpp:184 kspopupmenu.cpp:259
 #, kde-format
@@ -1703,19 +509,226 @@ msgstr "Desaniciar"
 msgid "Center Crosshair"
 msgstr "Cruceta de seguimientu"
 
-#: kstars.cpp:161 kstarsactions.cpp:778 skymap.cpp:408
+#: kstarsactions.cpp:177
+msgid "Refraction effects disabled"
+msgstr ""
+
+#: kstarsactions.cpp:178
+msgid ""
+"When the horizon is switched off, refraction effects are temporarily "
+"disabled."
+msgstr ""
+
+#: kstarsactions.cpp:411
+msgid "Catalogs"
+msgstr "Catálogos"
+
+#: kstarsactions.cpp:412 tools/astrocalc.cpp:168 tools/conjunctions.cpp:74
+#: dialogs/finddialog.cpp:38
+msgid "Solar System"
+msgstr "Sistema Solar"
+
+#: kstarsactions.cpp:415
+msgid "Guides"
+msgstr "Guíes"
+
+#: kstarsactions.cpp:416
+msgid "Colors"
+msgstr "Colores"
+
+#: kstarsactions.cpp:420
+msgid "INDI"
+msgstr "INDI"
+
+#: kstarsactions.cpp:425
+msgid "Xplanet"
+msgstr "Xplanet"
+
+#: kstarsactions.cpp:428 dialogs/detaildialog.cpp:584
+msgid "Advanced"
+msgstr "Avanzáu"
+
+#: kstarsactions.cpp:508
+msgid "KStars::slotFind() - Not enough memory for dialog"
+msgstr "KStars::slotFind() - Memoria insuficiente pal diálogu"
+
+#: kstarsactions.cpp:566
+msgid ""
+"Warning:  You are about to execute a remote shell script on your machine. "
+msgstr "Avisu. Va a executar un guión d'órdenes remotu sobro la so máquina. "
+
+#: kstarsactions.cpp:567
+msgid ""
+"If you absolutely trust the source of this script, press Continue to execute "
+"the script; "
+msgstr ""
+"Si confía absolutamente nel orixe d'esti guión, calque «Continuar» pa "
+"executalu, "
+
+#: kstarsactions.cpp:568
+msgid "to save the file without executing it, press Save; "
+msgstr "pa guardar el ficheru ensin executalu, calque «Guardar»; "
+
+#: kstarsactions.cpp:569
+msgid "to cancel the download, press Cancel. "
+msgstr "pa encaboxar la descarga, calque «Encaboxar». "
+
+#: kstarsactions.cpp:571
+msgid "Really Execute Remote Script?"
+msgstr "¿Executar el guión remotu?"
+
+#: kstarsactions.cpp:581
+msgid "Save location is invalid. Try another location?"
+msgstr "El destín nel que guardar nun ye válidu. ¿Intentar otru?"
+
+#: kstarsactions.cpp:582
+msgid "Invalid Save Location"
+msgstr "Destín d'atroxáu nun válidu"
+
+#: kstarsactions.cpp:582
+msgid "Try Another"
+msgstr "Intentar otru"
+
+#: kstarsactions.cpp:582 tools/observinglist.cpp:869
+msgid "Do Not Try"
+msgstr "Nun intentar"
+
+#: kstarsactions.cpp:597 printing/foveditordialog.cpp:173
+#: tools/scriptbuilder.cpp:1072 dialogs/exportimagedialog.cpp:203
+#: indi/streamwg.cpp:177
+#, kde-format
+msgid "Could not upload image to remote location: %1"
+msgstr "Imposible cargar imaxe na ubicación remota: %1"
+
+#: kstarsactions.cpp:598 printing/foveditordialog.cpp:174
+#: printing/pwizprint.cpp:126 tools/scriptbuilder.cpp:1073
+#: dialogs/exportimagedialog.cpp:204 indi/streamwg.cpp:178
+msgid "Could not upload file"
+msgstr "Nun se puede cargar el ficheru"
+
+#: kstarsactions.cpp:602
+msgid "Could not download the file."
+msgstr "Nun se puede descargar el ficheru."
+
+#: kstarsactions.cpp:602 tools/scriptbuilder.cpp:988
+msgid "Download Error"
+msgstr "Fallu de descarga"
+
+#: kstarsactions.cpp:624 kstarsdata.cpp:740 tools/observinglist.cpp:751
+#: oal/execute.cpp:277
+#, kde-format
+msgid "Could not open file %1"
+msgstr "Imposible abrir el ficheru %1"
+
+#: kstarsactions.cpp:649
+msgid ""
+"The selected script contains unrecognized elements, indicating that it was "
+"not created using the KStars script builder. This script may not function "
+"properly, and it may even contain malicious code. Would you like to execute "
+"it anyway?"
+msgstr ""
+"El guión esbilláu contién elementos nun reconocidos, conseñando que nun foi "
+"criáu usando'l constructor de guiones de KStars. Esti guión puede que nun "
+"furrule afayadizamente y puede inclusu contener códigu dañible. ¿Quier "
+"executalu de toes formes?"
+
+#: kstarsactions.cpp:653
+msgid "Script Validation Failed"
+msgstr "Falló la validación del guión"
+
+#: kstarsactions.cpp:653
+msgid "Run Nevertheless"
+msgstr "Executar de toes toes"
+
+#: kstarsactions.cpp:658
+#, kde-format
+msgid "Running script: %1"
+msgstr "Guión n'execución: %1"
+
+#: kstarsactions.cpp:673
+msgid "Script finished."
+msgstr "Guión fináu."
+
+#: kstarsactions.cpp:682
+msgid ""
+"You can save printer ink by using the \"Star Chart\" color scheme, which "
+"uses a white background. Would you like to temporarily switch to the Star "
+"Chart color scheme for printing?"
+msgstr ""
+"Puede aforrar tinta d'imprentadora utilizando l'esquema de color «Carta "
+"estelar», qu'usa un fondu blancu. ¿Quier camudar al esquema de color de "
+"carta estelar pa imprentar?"
+
+#: kstarsactions.cpp:687
+msgid "Switch to Star Chart Colors?"
+msgstr "¿Camudar a colores de carta estelar?"
+
+#: kstarsactions.cpp:688
+msgid "Switch Color Scheme"
+msgstr "Camudar esquema de color"
+
+#: kstarsactions.cpp:688
+msgid "Do Not Switch"
+msgstr "Nun camudar"
+
+#: kstarsactions.cpp:760 kstarsinit.cpp:210
+msgid "Engage &Tracking"
+msgstr "Activar &seguimientu"
+
+#: kstarsactions.cpp:778 kstars.cpp:161 skymap.cpp:408
 msgid "Stop &Tracking"
 msgstr "Detener &seguimientu"
 
-#: kstars.cpp:166 kstarsactions.cpp:884 kstarsinit.cpp:232
+#. i18n: file: dialogs/newfov.ui:239
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
+#: kstarsactions.cpp:843 rc.cpp:3130
+msgid "degrees"
+msgstr "graos"
+
+#. i18n: file: options/opsadvanced.ui:122
+#. i18n: ectx: property (text), widget (QLabel, DefaultDSSImageSizeUnitLabel)
+#. i18n: file: options/opsadvanced.ui:164
+#. i18n: ectx: property (text), widget (QLabel, DSSPaddingUnitLabel)
+#: kstarsactions.cpp:846 rc.cpp:3877 rc.cpp:3883
+msgid "arcminutes"
+msgstr "minutos d'arcu"
+
+#: kstarsactions.cpp:850
+msgid "arcseconds"
+msgstr "segundos d'arcu"
+
+#: kstarsactions.cpp:852
+msgctxt "field of view"
+msgid "FOV"
+msgstr "Campu de visión"
+
+#: kstarsactions.cpp:863
+msgctxt "The user should enter an angle for the field-of-view of the display"
+msgid "Enter Desired Field-of-View Angle"
+msgstr "Introducir ángulu de campu de visión deseyáu"
+
+#: kstarsactions.cpp:864
+msgid "Enter a field-of-view angle in degrees: "
+msgstr "Introducir ángulu de campu de visión en graos: "
+
+#: kstarsactions.cpp:884 kstars.cpp:166 kstarsinit.cpp:232
 #, fuzzy
 msgid "Switch to horizonal view (Horizontal &Coordinates)"
 msgstr "&Coordenaes horizontales"
 
-#: kstars.cpp:166 kstarsactions.cpp:890 kstarsinit.cpp:232
+#: kstarsactions.cpp:890 kstars.cpp:166 kstarsinit.cpp:232
 #, fuzzy
 msgid "Switch to star globe view (Equatorial &Coordinates)"
 msgstr "&Coordenaes ecuatoriales"
+
+#: kstarsactions.cpp:910
+#, kde-format
+msgid "Projection system: %1"
+msgstr "Sistema de proteición: %1"
+
+#: kstars.cpp:170 kstarsinit.cpp:238 skymap.cpp:1167
+msgid "Switch to QPainter backend"
+msgstr ""
 
 #. i18n: file: kstars.kcfg:712
 #. i18n: ectx: label, entry (UseGL), group (View)
@@ -1724,9 +737,151 @@ msgstr "&Coordenaes ecuatoriales"
 msgid "Switch to OpenGL backend"
 msgstr ""
 
-#: kstars.cpp:170 kstarsinit.cpp:238 skymap.cpp:1167
-msgid "Switch to QPainter backend"
+#: kstarsdata.cpp:62
+msgid ""
+"\n"
+"Cities.dat: Bad integer.  Line was:\n"
 msgstr ""
+"\n"
+"Cities.dat: enteru erróneu.  La llinia yera:\n"
+
+#: kstarsdata.cpp:69
+#, kde-format
+msgid ""
+"The file  %1 could not be found. KStars cannot run properly without this "
+"file. KStars search for this file in following locations:\n"
+"\n"
+"\t$(KDEDIR)/share/apps/kstars/%1\n"
+"\t~/.kde/share/apps/kstars/%1\n"
+"\n"
+"It appears that your setup is broken."
+msgstr ""
+
+#: kstarsdata.cpp:75
+#, kde-format
+msgid "Critical File Not Found: %1"
+msgstr "Ficheru críticu nun alcontráu: %1"
+
+#: kstarsdata.cpp:84
+#, kde-format
+msgid ""
+"The file %1 could not be found. KStars can still run without this file. "
+"KStars search for this file in following locations:\n"
+"\n"
+"\t$(KDEDIR)/share/apps/kstars/%1\n"
+"\t~/.kde/share/apps/kstars/%1\n"
+"\n"
+"It appears that you setup is broken. Press Continue to run KStars without "
+"this file "
+msgstr ""
+
+#: kstarsdata.cpp:90
+#, kde-format
+msgid "Non-Critical File Not Found: %1"
+msgstr "Ficheru nun crítico nun alcontráu: %1"
+
+#: kstarsdata.cpp:144
+msgid "Reading time zone rules"
+msgstr "Lleendo regles de fusu horariu"
+
+#: kstarsdata.cpp:151
+msgid "Loading city data"
+msgstr "Cargando datos de ciudá"
+
+#: kstarsdata.cpp:158
+msgid "Loading sky objects"
+msgstr "Cargando oxetos celestes"
+
+#: kstarsdata.cpp:162
+msgid "Loading Image URLs"
+msgstr "Cargando URL d'imáxenes"
+
+#: kstarsdata.cpp:167
+msgid "Loading Information URLs"
+msgstr "Cargando URL d'información"
+
+#: kstarsdata.cpp:171
+msgid "Loading Variable Stars"
+msgstr "Cargando estrelles variables"
+
+#: kstarsdata.cpp:377
+msgid "Cities.dat: Ran out of fields.  Line was:"
+msgstr "Cities.dat: escedió'l llímite de campos.  La llinia yera:"
+
+#: kstarsdata.cpp:415
+msgid ""
+"\n"
+"Cities.dat: Invalid latitude sign.  Line was:\n"
+msgstr ""
+"\n"
+"Cities.dat: Signu de llatitú nun válidu.  La llinia yera:\n"
+
+#: kstarsdata.cpp:424
+msgid ""
+"\n"
+"Cities.dat: Invalid longitude sign.  Line was:\n"
+msgstr ""
+"\n"
+"Cities.dat: Signu de llonxitú nun válidu. La llinia yera:\n"
+
+#: kstarsdata.cpp:436
+msgid ""
+"\n"
+"Cities.dat: Bad time zone.  Line was:\n"
+msgstr ""
+"\n"
+"Cities.dat: Estaya horaria incorreuta.  La llinia yera:\n"
+
+#: kstarsdata.cpp:559
+msgid "No localized URL file; using default English file."
+msgstr "Nun hai ficheru de URL traducíu, usando'l predetermináu n'inglés."
+
+#: kstarsdata.cpp:574
+msgid ""
+"Failed to copy default URL file to locale folder, modifying default object "
+"links is not possible"
+msgstr ""
+"Fallu al copiar el URL predetermináu al direutoriu de traducciones, nun ye "
+"dable modificar los enllaces d'oxetos predeterminaos."
+
+#: kstarsdata.cpp:609
+#, kde-format
+msgid "Object named %1 not found"
+msgstr "Nun s'alcuentra l'oxetu denomáu %1"
+
+#: kstarsdata.cpp:906
+#, kde-format
+msgid "Could not set time: %1 / %2 / %3 ; %4:%5:%6"
+msgstr "Nun se puede afitar la hora: %1 / %2 / %3 ; %4:%5:%6"
+
+#: kstarsdata.cpp:1028
+#, kde-format
+msgid "Could not set location named %1, %2, %3"
+msgstr "Nun se puede afitar la ubicación denomada %1, %2, %3"
+
+#: kstarsdatetime.cpp:90
+msgid "Could not parse Date/Time string: "
+msgstr "Imposible interpretar la cadena Data/Hora: "
+
+#: kstarsdatetime.cpp:91
+msgid "Valid date formats: "
+msgstr "Formatos de data válidos: "
+
+#: kstarsdcop.cpp:178
+msgid "Error [D-Bus waitForKey()]: Invalid key requested."
+msgstr ""
+
+#: kstarsdcop.cpp:235 kstarsdcop.cpp:238
+msgid "Error [D-Bus setGeoLocation]: city "
+msgstr ""
+
+#: kstarsdcop.cpp:236 kstarsdcop.cpp:239
+msgid " not found in database."
+msgstr " non alcontráu na base de datos."
+
+#: kstarsdcop.cpp:455
+msgid "Print Sky"
+msgstr "Imprimir el cielu"
 
 #: kstars_i18n.cpp:2
 msgctxt "Constellation name (optional)"
@@ -25600,333 +24755,6 @@ msgctxt "Advanced URLs: description or category"
 msgid "Other"
 msgstr "Otru"
 
-#: kstarsactions.cpp:177
-msgid "Refraction effects disabled"
-msgstr ""
-
-#: kstarsactions.cpp:178
-msgid ""
-"When the horizon is switched off, refraction effects are temporarily "
-"disabled."
-msgstr ""
-
-#: kstarsactions.cpp:411
-msgid "Catalogs"
-msgstr "Catálogos"
-
-#: kstarsactions.cpp:415
-msgid "Guides"
-msgstr "Guíes"
-
-#: kstarsactions.cpp:416
-msgid "Colors"
-msgstr "Colores"
-
-#: kstarsactions.cpp:420
-msgid "INDI"
-msgstr "INDI"
-
-#: kstarsactions.cpp:425
-msgid "Xplanet"
-msgstr "Xplanet"
-
-#: kstarsactions.cpp:508
-msgid "KStars::slotFind() - Not enough memory for dialog"
-msgstr "KStars::slotFind() - Memoria insuficiente pal diálogu"
-
-#: kstarsactions.cpp:566
-msgid ""
-"Warning:  You are about to execute a remote shell script on your machine. "
-msgstr "Avisu. Va a executar un guión d'órdenes remotu sobro la so máquina. "
-
-#: kstarsactions.cpp:567
-msgid ""
-"If you absolutely trust the source of this script, press Continue to execute "
-"the script; "
-msgstr ""
-"Si confía absolutamente nel orixe d'esti guión, calque «Continuar» pa "
-"executalu, "
-
-#: kstarsactions.cpp:568
-msgid "to save the file without executing it, press Save; "
-msgstr "pa guardar el ficheru ensin executalu, calque «Guardar»; "
-
-#: kstarsactions.cpp:569
-msgid "to cancel the download, press Cancel. "
-msgstr "pa encaboxar la descarga, calque «Encaboxar». "
-
-#: kstarsactions.cpp:571
-msgid "Really Execute Remote Script?"
-msgstr "¿Executar el guión remotu?"
-
-#: kstarsactions.cpp:581
-msgid "Save location is invalid. Try another location?"
-msgstr "El destín nel que guardar nun ye válidu. ¿Intentar otru?"
-
-#: kstarsactions.cpp:582 tools/observinglist.cpp:869
-msgid "Do Not Try"
-msgstr "Nun intentar"
-
-#: kstarsactions.cpp:582
-msgid "Invalid Save Location"
-msgstr "Destín d'atroxáu nun válidu"
-
-#: kstarsactions.cpp:582
-msgid "Try Another"
-msgstr "Intentar otru"
-
-#: kstarsactions.cpp:602
-msgid "Could not download the file."
-msgstr "Nun se puede descargar el ficheru."
-
-#: kstarsactions.cpp:602 tools/scriptbuilder.cpp:988
-msgid "Download Error"
-msgstr "Fallu de descarga"
-
-#: kstarsactions.cpp:624 kstarsdata.cpp:740 oal/execute.cpp:277
-#: tools/observinglist.cpp:751
-#, kde-format
-msgid "Could not open file %1"
-msgstr "Imposible abrir el ficheru %1"
-
-#: kstarsactions.cpp:649
-msgid ""
-"The selected script contains unrecognized elements, indicating that it was "
-"not created using the KStars script builder. This script may not function "
-"properly, and it may even contain malicious code. Would you like to execute "
-"it anyway?"
-msgstr ""
-"El guión esbilláu contién elementos nun reconocidos, conseñando que nun foi "
-"criáu usando'l constructor de guiones de KStars. Esti guión puede que nun "
-"furrule afayadizamente y puede inclusu contener códigu dañible. ¿Quier "
-"executalu de toes formes?"
-
-#: kstarsactions.cpp:653
-msgid "Run Nevertheless"
-msgstr "Executar de toes toes"
-
-#: kstarsactions.cpp:653
-msgid "Script Validation Failed"
-msgstr "Falló la validación del guión"
-
-#: kstarsactions.cpp:658
-#, kde-format
-msgid "Running script: %1"
-msgstr "Guión n'execución: %1"
-
-#: kstarsactions.cpp:673
-msgid "Script finished."
-msgstr "Guión fináu."
-
-#: kstarsactions.cpp:682
-msgid ""
-"You can save printer ink by using the \"Star Chart\" color scheme, which "
-"uses a white background. Would you like to temporarily switch to the Star "
-"Chart color scheme for printing?"
-msgstr ""
-"Puede aforrar tinta d'imprentadora utilizando l'esquema de color «Carta "
-"estelar», qu'usa un fondu blancu. ¿Quier camudar al esquema de color de "
-"carta estelar pa imprentar?"
-
-#: kstarsactions.cpp:687
-msgid "Switch to Star Chart Colors?"
-msgstr "¿Camudar a colores de carta estelar?"
-
-#: kstarsactions.cpp:688
-msgid "Do Not Switch"
-msgstr "Nun camudar"
-
-#: kstarsactions.cpp:688
-msgid "Switch Color Scheme"
-msgstr "Camudar esquema de color"
-
-#: kstarsactions.cpp:760 kstarsinit.cpp:210
-msgid "Engage &Tracking"
-msgstr "Activar &seguimientu"
-
-#. i18n: file: dialogs/newfov.ui:239
-#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
-#: kstarsactions.cpp:843 rc.cpp:3130
-msgid "degrees"
-msgstr "graos"
-
-#. i18n: file: options/opsadvanced.ui:122
-#. i18n: ectx: property (text), widget (QLabel, DefaultDSSImageSizeUnitLabel)
-#. i18n: file: options/opsadvanced.ui:164
-#. i18n: ectx: property (text), widget (QLabel, DSSPaddingUnitLabel)
-#: kstarsactions.cpp:846 rc.cpp:3877 rc.cpp:3883
-msgid "arcminutes"
-msgstr "minutos d'arcu"
-
-#: kstarsactions.cpp:850
-msgid "arcseconds"
-msgstr "segundos d'arcu"
-
-#: kstarsactions.cpp:852
-msgctxt "field of view"
-msgid "FOV"
-msgstr "Campu de visión"
-
-#: kstarsactions.cpp:863
-msgctxt "The user should enter an angle for the field-of-view of the display"
-msgid "Enter Desired Field-of-View Angle"
-msgstr "Introducir ángulu de campu de visión deseyáu"
-
-#: kstarsactions.cpp:864
-msgid "Enter a field-of-view angle in degrees: "
-msgstr "Introducir ángulu de campu de visión en graos: "
-
-#: kstarsactions.cpp:910
-#, kde-format
-msgid "Projection system: %1"
-msgstr "Sistema de proteición: %1"
-
-#: kstarsdata.cpp:62
-msgid ""
-"\n"
-"Cities.dat: Bad integer.  Line was:\n"
-msgstr ""
-"\n"
-"Cities.dat: enteru erróneu.  La llinia yera:\n"
-
-#: kstarsdata.cpp:69
-#, kde-format
-msgid ""
-"The file  %1 could not be found. KStars cannot run properly without this "
-"file. KStars search for this file in following locations:\n"
-"\n"
-"\t$(KDEDIR)/share/apps/kstars/%1\n"
-"\t~/.kde/share/apps/kstars/%1\n"
-"\n"
-"It appears that your setup is broken."
-msgstr ""
-
-#: kstarsdata.cpp:75
-#, kde-format
-msgid "Critical File Not Found: %1"
-msgstr "Ficheru críticu nun alcontráu: %1"
-
-#: kstarsdata.cpp:84
-#, kde-format
-msgid ""
-"The file %1 could not be found. KStars can still run without this file. "
-"KStars search for this file in following locations:\n"
-"\n"
-"\t$(KDEDIR)/share/apps/kstars/%1\n"
-"\t~/.kde/share/apps/kstars/%1\n"
-"\n"
-"It appears that you setup is broken. Press Continue to run KStars without "
-"this file "
-msgstr ""
-
-#: kstarsdata.cpp:90
-#, kde-format
-msgid "Non-Critical File Not Found: %1"
-msgstr "Ficheru nun crítico nun alcontráu: %1"
-
-#: kstarsdata.cpp:144
-msgid "Reading time zone rules"
-msgstr "Lleendo regles de fusu horariu"
-
-#: kstarsdata.cpp:151
-msgid "Loading city data"
-msgstr "Cargando datos de ciudá"
-
-#: kstarsdata.cpp:158
-msgid "Loading sky objects"
-msgstr "Cargando oxetos celestes"
-
-#: kstarsdata.cpp:162
-msgid "Loading Image URLs"
-msgstr "Cargando URL d'imáxenes"
-
-#: kstarsdata.cpp:167
-msgid "Loading Information URLs"
-msgstr "Cargando URL d'información"
-
-#: kstarsdata.cpp:171
-msgid "Loading Variable Stars"
-msgstr "Cargando estrelles variables"
-
-#: kstarsdata.cpp:377
-msgid "Cities.dat: Ran out of fields.  Line was:"
-msgstr "Cities.dat: escedió'l llímite de campos.  La llinia yera:"
-
-#: kstarsdata.cpp:415
-msgid ""
-"\n"
-"Cities.dat: Invalid latitude sign.  Line was:\n"
-msgstr ""
-"\n"
-"Cities.dat: Signu de llatitú nun válidu.  La llinia yera:\n"
-
-#: kstarsdata.cpp:424
-msgid ""
-"\n"
-"Cities.dat: Invalid longitude sign.  Line was:\n"
-msgstr ""
-"\n"
-"Cities.dat: Signu de llonxitú nun válidu. La llinia yera:\n"
-
-#: kstarsdata.cpp:436
-msgid ""
-"\n"
-"Cities.dat: Bad time zone.  Line was:\n"
-msgstr ""
-"\n"
-"Cities.dat: Estaya horaria incorreuta.  La llinia yera:\n"
-
-#: kstarsdata.cpp:559
-msgid "No localized URL file; using default English file."
-msgstr "Nun hai ficheru de URL traducíu, usando'l predetermináu n'inglés."
-
-#: kstarsdata.cpp:574
-msgid ""
-"Failed to copy default URL file to locale folder, modifying default object "
-"links is not possible"
-msgstr ""
-"Fallu al copiar el URL predetermináu al direutoriu de traducciones, nun ye "
-"dable modificar los enllaces d'oxetos predeterminaos."
-
-#: kstarsdata.cpp:609
-#, kde-format
-msgid "Object named %1 not found"
-msgstr "Nun s'alcuentra l'oxetu denomáu %1"
-
-#: kstarsdata.cpp:906
-#, kde-format
-msgid "Could not set time: %1 / %2 / %3 ; %4:%5:%6"
-msgstr "Nun se puede afitar la hora: %1 / %2 / %3 ; %4:%5:%6"
-
-#: kstarsdata.cpp:1028
-#, kde-format
-msgid "Could not set location named %1, %2, %3"
-msgstr "Nun se puede afitar la ubicación denomada %1, %2, %3"
-
-#: kstarsdatetime.cpp:90
-msgid "Could not parse Date/Time string: "
-msgstr "Imposible interpretar la cadena Data/Hora: "
-
-#: kstarsdatetime.cpp:91
-msgid "Valid date formats: "
-msgstr "Formatos de data válidos: "
-
-#: kstarsdcop.cpp:178
-msgid "Error [D-Bus waitForKey()]: Invalid key requested."
-msgstr ""
-
-#: kstarsdcop.cpp:235 kstarsdcop.cpp:238
-msgid "Error [D-Bus setGeoLocation]: city "
-msgstr ""
-
-#: kstarsdcop.cpp:236 kstarsdcop.cpp:239
-msgid " not found in database."
-msgstr " non alcontráu na base de datos."
-
-#: kstarsdcop.cpp:455
-msgid "Print Sky"
-msgstr "Imprimir el cielu"
-
 #: kstarsinit.cpp:134
 msgid "Download New Data..."
 msgstr "Descargar nuevos datos..."
@@ -26360,12 +25188,12 @@ msgstr ""
 "¿Deseya apuntar cargar la posición predefinida?"
 
 #: kstarsinit.cpp:667
-msgid "Do Not Reset"
-msgstr "Nun reaniciar"
-
-#: kstarsinit.cpp:667
 msgid "Reset Position"
 msgstr "Reiniciar posición"
+
+#: kstarsinit.cpp:667
+msgid "Do Not Reset"
+msgstr "Nun reaniciar"
 
 #: kstarssplash.cpp:29
 msgid "Welcome to KStars. Please stand by while loading..."
@@ -26377,7 +25205,7 @@ msgstr "Asistente de configuración"
 
 #. i18n: file: indi/telescopewizard.ui:97
 #. i18n: ectx: property (text), widget (QPushButton, nextB)
-#: kswizard.cpp:60 printing/printingwizard.cpp:405 rc.cpp:3785
+#: kswizard.cpp:60 rc.cpp:3785 printing/printingwizard.cpp:405
 #: tools/obslistwizard.cpp:48
 msgid "&Next"
 msgstr "&Siguiente"
@@ -26388,7 +25216,7 @@ msgstr "Ir a la siguiente páxina del asistente"
 
 #. i18n: file: indi/telescopewizard.ui:90
 #. i18n: ectx: property (text), widget (QPushButton, backB)
-#: kswizard.cpp:61 printing/printingwizard.cpp:406 rc.cpp:3782
+#: kswizard.cpp:61 rc.cpp:3782 printing/printingwizard.cpp:406
 #: tools/obslistwizard.cpp:47
 msgid "&Back"
 msgstr "&Atrás"
@@ -26485,11 +25313,11 @@ msgid "Rafał Kułaga"
 msgstr ""
 
 #: main.cpp:65
-msgid "Converted labels containing technical terms to links to documentation"
+msgid "Valery Kharitonov"
 msgstr ""
 
 #: main.cpp:65
-msgid "Valery Kharitonov"
+msgid "Converted labels containing technical terms to links to documentation"
 msgstr ""
 
 #: main.cpp:66
@@ -26501,11 +25329,11 @@ msgid "Technical documentation on Astronomy and KStars"
 msgstr ""
 
 #: main.cpp:67
-msgid "Artwork"
+msgid "Nuno Pinheiro"
 msgstr ""
 
 #: main.cpp:67
-msgid "Nuno Pinheiro"
+msgid "Artwork"
 msgstr ""
 
 #: main.cpp:71
@@ -26542,6 +25370,12 @@ msgstr "Comenzar col reló deteníu"
 msgid "Dumping sky image"
 msgstr "Volcando imaxe del cielu"
 
+#: main.cpp:95 printing/foveditordialog.cpp:154
+#: dialogs/exportimagedialog.cpp:127
+#, kde-format
+msgid "Could not parse image format of %1; assuming PNG."
+msgstr "Nun se puede procesar el formatu d'imaxe de %1, asumiendo PNG."
+
 #: main.cpp:136 main.cpp:192
 msgid "Using CPU date/time instead."
 msgstr "Usando nel so llugar la data/hora de la CPU."
@@ -26563,101 +25397,6 @@ msgstr "Imposible guardar la imaxe: %1 "
 #, kde-format
 msgid "Saved to file: %1"
 msgstr "Guardada nel ficheru: %1"
-
-#: oal/equipmentwriter.cpp:44
-msgid "Define Equipment"
-msgstr ""
-
-#: oal/equipmentwriter.cpp:87 oal/equipmentwriter.cpp:89
-msgctxt "prefix for ID number identifying a telescope (optional)"
-msgid "telescope"
-msgstr "telescopiu"
-
-#: oal/equipmentwriter.cpp:144 oal/equipmentwriter.cpp:146
-msgctxt "prefix for ID number identifying an eyepiece (optional)"
-msgid "eyepiece"
-msgstr ""
-
-#: oal/equipmentwriter.cpp:201 oal/equipmentwriter.cpp:203
-msgctxt "prefix for ID number identifying a lens (optional)"
-msgid "lens"
-msgstr ""
-
-#: oal/equipmentwriter.cpp:254 oal/equipmentwriter.cpp:256
-msgctxt "prefix for ID number identifying a filter (optional)"
-msgid "filter"
-msgstr ""
-
-#. i18n: file: oal/execute.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, Execute)
-#: oal/execute.cpp:41 rc.cpp:4783
-msgid "Execute Session"
-msgstr ""
-
-#: oal/execute.cpp:43
-msgid "End Session"
-msgstr ""
-
-#: oal/execute.cpp:43
-msgid "Save and End the current session"
-msgstr ""
-
-#: oal/execute.cpp:145 oal/execute.cpp:356
-msgid "Next Page >"
-msgstr ""
-
-#: oal/execute.cpp:158 oal/execute.cpp:160
-msgid "site_"
-msgstr ""
-
-#: oal/execute.cpp:166 oal/execute.cpp:168
-msgid "session_"
-msgstr ""
-
-#: oal/execute.cpp:245
-msgid "Next Target >"
-msgstr ""
-
-#: oal/execute.cpp:250 oal/execute.cpp:254
-msgid "observation_"
-msgstr ""
-
-#: oal/oal.h:39
-msgid "Overwrite"
-msgstr ""
-
-#. i18n: file: oal/observeradd.ui:6
-#. i18n: ectx: property (windowTitle), widget (QWidget, ObserverAdd)
-#. i18n: file: oal/observeradd.ui:61
-#. i18n: ectx: property (text), widget (QPushButton, AddObserver)
-#: oal/observeradd.cpp:34 rc.cpp:4888 rc.cpp:4900
-msgid "Add Observer"
-msgstr ""
-
-#: oal/observeradd.cpp:48
-msgid "Invalid Input"
-msgstr ""
-
-#: oal/observeradd.cpp:48
-msgid "The Name field cannot be empty"
-msgstr ""
-
-#: oal/observeradd.cpp:53
-msgid ""
-"Another Observer already exists with the given Name and Surname, Overwrite?"
-msgstr ""
-
-#: oal/observeradd.cpp:58 oal/observeradd.cpp:60
-msgid "observer_"
-msgstr ""
-
-#: oal/observeradd.cpp:77
-msgid "Could not save the observer list to the file."
-msgstr ""
-
-#: oal/observeradd.cpp:77
-msgid "Write Error"
-msgstr ""
 
 #: obslistpopupmenu.cpp:48
 msgid "Add to session plan"
@@ -26704,519 +25443,6 @@ msgstr ""
 msgid "Remove from Session Plan"
 msgstr ""
 
-#: options/opscatalog.cpp:46
-msgid "Index Catalog (IC)"
-msgstr "Catálogu indexado (IC)"
-
-#: options/opscatalog.cpp:50
-msgid "New General Catalog (NGC)"
-msgstr "Nuevu Cátalogu Xeneral (NGC)"
-
-#: options/opscatalog.cpp:54
-msgid "Messier Catalog (images)"
-msgstr "Catálogu Messier (imáxenes)"
-
-#: options/opscatalog.cpp:58
-msgid "Messier Catalog (symbols)"
-msgstr "Catálogu Messier (símbolos)"
-
-#: options/opscolors.cpp:61 tools/scriptbuilder.cpp:932
-msgctxt "use 'moonless night' color scheme"
-msgid "Moonless Night"
-msgstr "Lluna nueva"
-
-#: options/opscolors.cpp:85
-msgctxt "use realistic star colors"
-msgid "Real Colors"
-msgstr "Colores reales"
-
-#: options/opscolors.cpp:86
-msgctxt "show stars as red circles"
-msgid "Solid Red"
-msgstr "Rojo sólido"
-
-#: options/opscolors.cpp:87
-msgctxt "show stars as black circles"
-msgid "Solid Black"
-msgstr "Negro sólido"
-
-#: options/opscolors.cpp:88
-msgctxt "show stars as white circles"
-msgid "Solid White"
-msgstr "Blanco sólido"
-
-#: options/opscolors.cpp:167
-msgid "New Color Scheme"
-msgstr "Nuevu esquema de color"
-
-#: options/opscolors.cpp:168
-msgid "Enter a name for the new color scheme:"
-msgstr "Introduza un nome pal nuevu esquema de color:"
-
-#: options/opscolors.cpp:198
-msgid ""
-"Local color scheme index file could not be opened.\n"
-"Scheme cannot be removed."
-msgstr ""
-"Nun se puede abrir el ficheru de índices del esquema de color llocal.\n"
-"El esquema nun s'atroxará."
-
-#: options/opscolors.cpp:223
-#, kde-format
-msgid "Could not delete the file: %1"
-msgstr "Imposible borrar el ficheru: %1"
-
-#: options/opscolors.cpp:224
-msgid "Error Deleting File"
-msgstr "Fallu al desaniciar ficheru"
-
-#: options/opscolors.cpp:234
-#, kde-format
-msgid "Could not find an entry named %1 in colors.dat."
-msgstr "Imposible alcontrar una entrada denomada %1 en colors.dat"
-
-#: options/opscolors.cpp:235
-msgid "Scheme Not Found"
-msgstr "Esquema nun alcontráu"
-
-#: options/opssatellites.cpp:97
-#, fuzzy
-#| msgid "Satellite Track"
-msgid "Satellite name"
-msgstr "Rastréu de satélite"
-
-#: printing/detailstable.cpp:336
-#, fuzzy
-#| msgid "Name:"
-msgid "Names:"
-msgstr "Nome:"
-
-#. i18n: file: tools/argsetframetypeindi.ui:30
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#. i18n: file: oal/equipmentwriter.ui:83
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: file: oal/equipmentwriter.ui:596
-#. i18n: ectx: property (text), widget (QLabel, label6)
-#. i18n: file: oal/execute.ui:193
-#. i18n: ectx: property (text), widget (QLabel, label_22)
-#: printing/detailstable.cpp:340 rc.cpp:762 rc.cpp:4639 rc.cpp:4765
-#: rc.cpp:4825
-msgid "Type:"
-msgstr "Tipu:"
-
-#. i18n: file: dialogs/details_data.ui:199
-#. i18n: ectx: property (text), widget (QLabel, DistanceLabel)
-#: printing/detailstable.cpp:344 rc.cpp:2800
-msgid "Distance:"
-msgstr "Distancia:"
-
-#. i18n: file: dialogs/details_data.ui:224
-#. i18n: ectx: property (text), widget (QLabel, AngSizeLabel)
-#: printing/detailstable.cpp:348 rc.cpp:2806
-msgid "Size:"
-msgstr "Tamañu:"
-
-#. i18n: file: dialogs/details_data.ui:231
-#. i18n: ectx: property (text), widget (KSHelpLabel, MagLabel)
-#. i18n: file: oal/execute.ui:179
-#. i18n: ectx: property (text), widget (QLabel, label_20)
-#: printing/detailstable.cpp:352 rc.cpp:2809 rc.cpp:4822
-msgid "Magnitude:"
-msgstr "Magnitú:"
-
-#: printing/detailstable.cpp:356
-msgid "B-V index:"
-msgstr ""
-
-#. i18n: file: dialogs/details_data.ui:277
-#. i18n: ectx: property (text), widget (QLabel, IllumLabel)
-#: printing/detailstable.cpp:360 rc.cpp:2818
-msgid "Illumination:"
-msgstr "Illuminación:"
-
-#: printing/detailstable.cpp:394 printing/detailstable.cpp:431
-#, fuzzy
-#| msgid "Now"
-msgid "No"
-msgstr "Agora"
-
-#: printing/detailstable.cpp:394 printing/detailstable.cpp:431
-#, fuzzy
-#| msgctxt "City in Jeonnam Korea"
-#| msgid "Yeosu"
-msgid "Yes"
-msgstr "Yeosu"
-
-#: printing/detailstable.cpp:470
-msgid "Asteroid/Comet details"
-msgstr ""
-
-#. i18n: file: dialogs/details_data_comet.ui:30
-#. i18n: ectx: property (text), widget (QLabel, PerihelionLabel)
-#: printing/detailstable.cpp:472 rc.cpp:2737
-#, fuzzy
-#| msgctxt "City in Alberta Canada"
-#| msgid "Vermillion"
-msgid "Perihelion:"
-msgstr "Vermillion"
-
-#. i18n: file: dialogs/details_data_comet.ui:52
-#. i18n: ectx: property (text), widget (QLabel, OrbitIDLabel)
-#: printing/detailstable.cpp:476 rc.cpp:2743
-msgid "Orbit ID:"
-msgstr ""
-
-#. i18n: file: dialogs/details_data_comet.ui:74
-#. i18n: ectx: property (text), widget (QLabel, NEOLabel)
-#: printing/detailstable.cpp:480 rc.cpp:2749
-#, fuzzy
-#| msgctxt "Northeast"
-#| msgid "NE"
-msgid "NEO:"
-msgstr "NE"
-
-#. i18n: file: dialogs/details_data_comet.ui:95
-#. i18n: ectx: property (text), widget (QLabel, DiameterLabel)
-#: printing/detailstable.cpp:484 rc.cpp:2755
-#, fuzzy
-#| msgid "Date:"
-msgid "Diameter:"
-msgstr "Data:"
-
-#. i18n: file: dialogs/details_data_comet.ui:117
-#. i18n: ectx: property (text), widget (QLabel, RotationLabel)
-#: printing/detailstable.cpp:488 rc.cpp:2761
-msgid "Rotation period:"
-msgstr ""
-
-#. i18n: file: dialogs/details_data_comet.ui:159
-#. i18n: ectx: property (text), widget (QLabel, EarthMOIDLabel)
-#: printing/detailstable.cpp:492 rc.cpp:2767
-#, fuzzy
-#| msgid "Earth"
-msgid "Earth MOID:"
-msgstr "Tierra"
-
-#. i18n: file: dialogs/details_data_comet.ui:181
-#. i18n: ectx: property (text), widget (QLabel, OrbitClassLabel)
-#: printing/detailstable.cpp:496 rc.cpp:2773
-#, fuzzy
-#| msgid "Orbit Trails"
-msgid "Orbit class:"
-msgstr "Trazes orbitales"
-
-#. i18n: file: dialogs/details_data_comet.ui:203
-#. i18n: ectx: property (text), widget (QLabel, AlbedoLabel)
-#: printing/detailstable.cpp:500 rc.cpp:2779
-#, fuzzy
-#| msgctxt "star name"
-#| msgid "Albireo"
-msgid "Albedo:"
-msgstr "Albireo"
-
-#. i18n: file: dialogs/details_data_comet.ui:225
-#. i18n: ectx: property (text), widget (QLabel, DimensionsLabel)
-#: printing/detailstable.cpp:504 rc.cpp:2785
-#, fuzzy
-#| msgid "Version:"
-msgid "Dimensions:"
-msgstr "Versión:"
-
-#. i18n: file: dialogs/details_data_comet.ui:247
-#. i18n: ectx: property (text), widget (QLabel, PeriodLabel)
-#: printing/detailstable.cpp:508 rc.cpp:2791
-#, fuzzy
-#| msgid "Version:"
-msgid "Period:"
-msgstr "Versión:"
-
-#. i18n: file: dialogs/details_position.ui:48
-#. i18n: ectx: property (text), widget (QLabel, CoordTitle)
-#: printing/detailstable.cpp:533 rc.cpp:2863
-msgid "Coordinates"
-msgstr "Coordenaes"
-
-#. i18n: file: dialogs/details_position.ui:298
-#. i18n: ectx: property (text), widget (KSHelpLabel, HALabel)
-#: printing/detailstable.cpp:550 rc.cpp:2902
-msgid "Hour angle:"
-msgstr "Ángulu horariu:"
-
-#. i18n: file: tools/modcalcaltaz.ui:248
-#. i18n: ectx: property (text), widget (QLabel, azLabel)
-#. i18n: file: tools/modcalcaltaz.ui:502
-#. i18n: ectx: property (text), widget (QCheckBox, azCheckBatch)
-#. i18n: file: dialogs/details_position.ui:152
-#. i18n: ectx: property (text), widget (KSHelpLabel, AzLabel)
-#. i18n: file: oal/execute.ui:263
-#. i18n: ectx: property (text), widget (QLabel, label_23)
-#: printing/detailstable.cpp:564 rc.cpp:1027 rc.cpp:1057 rc.cpp:2875
-#: rc.cpp:4840
-msgid "Azimuth:"
-msgstr "Acimut:"
-
-#. i18n: file: tools/modcalcaltaz.ui:255
-#. i18n: ectx: property (text), widget (QLabel, elLabel)
-#. i18n: file: tools/modcalcaltaz.ui:492
-#. i18n: ectx: property (text), widget (QCheckBox, elCheckBatch)
-#. i18n: file: dialogs/details_position.ui:245
-#. i18n: ectx: property (text), widget (KSHelpLabel, AltLabel)
-#. i18n: file: oal/execute.ui:249
-#. i18n: ectx: property (text), widget (QLabel, label_21)
-#: printing/detailstable.cpp:568 rc.cpp:1030 rc.cpp:1054 rc.cpp:2893
-#: rc.cpp:4837
-msgid "Altitude:"
-msgstr "Altor:"
-
-#. i18n: file: dialogs/details_position.ui:354
-#. i18n: ectx: property (text), widget (QLabel, AirmassLabel)
-#: printing/detailstable.cpp:582 rc.cpp:2911
-msgid "Airmass:"
-msgstr "Mases d'aire:"
-
-#. i18n: file: dialogs/details_position.ui:443
-#. i18n: ectx: property (text), widget (QLabel, RSTTitle)
-#: printing/detailstable.cpp:673 rc.cpp:2917
-msgid "Rise/Set/Transit"
-msgstr "Orto/Ocasu/Tránsito"
-
-#. i18n: file: dialogs/details_position.ui:531
-#. i18n: ectx: property (text), widget (QLabel, TimeRiseLabel)
-#: printing/detailstable.cpp:676 rc.cpp:2926
-msgid "Rise time:"
-msgstr "Orto:"
-
-#. i18n: file: dialogs/details_position.ui:515
-#. i18n: ectx: property (text), widget (QLabel, TimeTransitLabel)
-#: printing/detailstable.cpp:680 rc.cpp:2923
-msgid "Transit time:"
-msgstr "Tiempu de culminación:"
-
-#. i18n: file: dialogs/details_position.ui:499
-#. i18n: ectx: property (text), widget (QLabel, TimeSetLabel)
-#: printing/detailstable.cpp:684 rc.cpp:2920
-msgid "Set time:"
-msgstr "Ocasu:"
-
-#. i18n: file: dialogs/details_position.ui:659
-#. i18n: ectx: property (text), widget (QLabel, AzRiseLabel)
-#: printing/detailstable.cpp:688 rc.cpp:2944
-msgid "Azimuth at rise:"
-msgstr "Acimut nel orto:"
-
-#. i18n: file: dialogs/details_position.ui:643
-#. i18n: ectx: property (text), widget (QLabel, AltTransitLabel)
-#: printing/detailstable.cpp:692 rc.cpp:2941
-msgid "Altitude at transit:"
-msgstr "Altor na culminación:"
-
-#. i18n: file: dialogs/details_position.ui:627
-#. i18n: ectx: property (text), widget (QLabel, AzSetLabel)
-#: printing/detailstable.cpp:696 rc.cpp:2938
-msgid "Azimuth at set:"
-msgstr "Acimut nel ocasu:"
-
-#: printing/finderchart.cpp:93
-#, fuzzy
-#| msgid "Specify image location:"
-msgid "Date, time and location: "
-msgstr "Especificar ubicación de la imaxe"
-
-#: printing/foveditordialog.cpp:29
-msgid "Field of View Snapshot Browser"
-msgstr ""
-
-#: printing/foveditordialog.cpp:222
-#, kde-format
-msgid "FOV (%1/%2): %3 (%4' x %5')"
-msgstr ""
-
-#: printing/legend.cpp:351 printing/legend.cpp:386
-#: skyobjects/skyobject.cpp:357
-#, fuzzy
-#| msgid "asterism"
-msgid "Asterism"
-msgstr "asterismu"
-
-#: printing/legend.cpp:351 printing/legend.cpp:386
-#: skyobjects/skyobject.cpp:329
-msgid "Open Cluster"
-msgstr "Cúmulu abiertu"
-
-#: printing/legend.cpp:356 printing/legend.cpp:391
-#: skyobjects/skyobject.cpp:331
-msgid "Globular Cluster"
-msgstr "Cúmulu globular"
-
-#: printing/legend.cpp:360 printing/legend.cpp:395
-#: skyobjects/skyobject.cpp:359
-#, fuzzy
-#| msgid "dark nebula"
-msgid "Dark Nebula"
-msgstr "nebulosa escura"
-
-#: printing/legend.cpp:360 printing/legend.cpp:395
-#: skyobjects/skyobject.cpp:333
-msgid "Gaseous Nebula"
-msgstr "Nebulosa gaseosa"
-
-#: printing/legend.cpp:365 printing/legend.cpp:400
-#: skyobjects/skyobject.cpp:335
-msgid "Planetary Nebula"
-msgstr "Nebulosa planetaria"
-
-#: printing/legend.cpp:369 printing/legend.cpp:404
-#: skyobjects/skyobject.cpp:337
-msgid "Supernova Remnant"
-msgstr "Restu de supernova"
-
-#: printing/legend.cpp:373 printing/legend.cpp:408
-#: skyobjects/skyobject.cpp:339
-msgid "Galaxy"
-msgstr "Galaxa"
-
-#: printing/legend.cpp:373 printing/legend.cpp:408
-#: skyobjects/skyobject.cpp:361
-#, fuzzy
-#| msgid "quasar"
-msgid "Quasar"
-msgstr "quásar"
-
-#: printing/legend.cpp:378 printing/legend.cpp:413
-#, fuzzy
-#| msgid "Globular Cluster"
-msgid "Galactic Cluster"
-msgstr "Cúmulu globular"
-
-#: printing/legend.cpp:440
-#, fuzzy
-#| msgid "Magnitude:"
-msgid "Star Magnitudes:"
-msgstr "Magnitú:"
-
-#: printing/legend.cpp:507 printing/legend.cpp:524
-#, fuzzy
-#| msgid "Linear Scale"
-msgid "Chart Scale:"
-msgstr "Escaláu llinial"
-
-#: printing/loggingform.cpp:52
-#, fuzzy
-#| msgid "Server"
-msgid "Observer:"
-msgstr "Sirvidor"
-
-#. i18n: file: tools/altvstime.ui:240
-#. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#. i18n: file: tools/modcalcaltaz.ui:383
-#. i18n: ectx: property (text), widget (QCheckBox, dateCheckBatch)
-#. i18n: file: tools/modcalcapcoord.ui:189
-#. i18n: ectx: property (text), widget (QLabel, dateLabel)
-#. i18n: file: tools/modcalcapcoord.ui:404
-#. i18n: ectx: property (text), widget (QCheckBox, dateCheckBatch)
-#. i18n: file: tools/modcalcdaylength.ui:45
-#. i18n: ectx: property (text), widget (QLabel, DateLabel)
-#. i18n: file: tools/modcalcplanets.ui:554
-#. i18n: ectx: property (text), widget (QCheckBox, DateCheckBatch)
-#. i18n: file: tools/modcalcsidtime.ui:77
-#. i18n: ectx: property (text), widget (QLabel, DateLabel)
-#. i18n: file: tools/modcalcsidtime.ui:202
-#. i18n: ectx: property (text), widget (QLabel, DateLabelBatch)
-#. i18n: file: tools/modcalcvlsr.ui:581
-#. i18n: ectx: property (text), widget (QCheckBox, DateCheckBatch)
-#: printing/loggingform.cpp:55 rc.cpp:618 rc.cpp:1045 rc.cpp:1195 rc.cpp:1225
-#: rc.cpp:1267 rc.cpp:1814 rc.cpp:1868 rc.cpp:1892 rc.cpp:2042
-msgid "Date:"
-msgstr "Data:"
-
-#. i18n: file: oal/execute.ui:429
-#. i18n: ectx: property (text), widget (QLabel, label_16)
-#: printing/loggingform.cpp:57 rc.cpp:4879
-msgid "Time:"
-msgstr ""
-
-#: printing/loggingform.cpp:60
-msgid "Site:"
-msgstr ""
-
-#. i18n: file: oal/execute.ui:387
-#. i18n: ectx: property (text), widget (QLabel, label_14)
-#: printing/loggingform.cpp:61 rc.cpp:4867
-msgid "Seeing:"
-msgstr ""
-
-#: printing/loggingform.cpp:62
-#, fuzzy
-#| msgid "Transit:"
-msgid "Trans:"
-msgstr "Tránsitu:"
-
-#. i18n: file: oal/execute.ui:347
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: printing/loggingform.cpp:65 rc.cpp:4855
-msgid "Telescope:"
-msgstr "Telescopiu:"
-
-#. i18n: file: oal/execute.ui:357
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#: printing/loggingform.cpp:68 rc.cpp:4858
-msgid "Eyepiece:"
-msgstr ""
-
-#: printing/loggingform.cpp:69
-msgid "Power:"
-msgstr ""
-
-#: printing/printingwizard.cpp:221
-msgid ""
-"Star hopper returned empty path. We advise you to change star hopping "
-"settings or use manual capture mode."
-msgstr ""
-
-#: printing/printingwizard.cpp:222
-msgid "Star hopper failed to find path"
-msgstr ""
-
-#: printing/printingwizard.cpp:401
-#, fuzzy
-#| msgid "Observing List Wizard"
-msgid "Printing Wizard"
-msgstr "Asistente de llista d'observación"
-
-#: printing/printingwizard.cpp:523
-#, fuzzy
-#| msgid "Loading comets"
-msgid "Logging Form"
-msgstr "Cargando cometes"
-
-#: printing/printingwizard.cpp:527
-msgid "Field of View Snapshots"
-msgstr ""
-
-#: printing/printingwizard.cpp:533
-msgid "FOV ("
-msgstr ""
-
-#: printing/printingwizard.cpp:535 printing/printingwizard.cpp:536
-msgid "'"
-msgstr ""
-
-#: printing/printingwizard.cpp:545
-msgid "Details About Object"
-msgstr ""
-
-#: printing/pwizfovconfig.cpp:65
-#, fuzzy
-#| msgid "(magnitude)"
-msgid "Only magnitudes chart"
-msgstr "(magnitú)"
-
-#: printing/pwizprint.cpp:125
-#, fuzzy, kde-format
-#| msgid "Could not upload image to remote location: %1"
-msgid "Could not upload file to remote location: %1"
-msgstr "Imposible cargar imaxe na ubicación remota: %1"
-
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -27226,6 +25452,15 @@ msgstr "Xandru Martino"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xandru.martino@softastur.org"
+
+#. i18n: file: xplanet/opsxplanet.ui:21
+#. i18n: ectx: attribute (title), widget (QWidget, XplanetTabGeneral)
+#. i18n: file: indi/opsindi.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, generalGroup)
+#: rc.cpp:5 rc.cpp:3599 printing/detailstable.cpp:333
+#: dialogs/detaildialog.cpp:101
+msgid "General"
+msgstr "Xeneral"
 
 #. i18n: file: xplanet/opsxplanet.ui:37
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetTitle)
@@ -27746,6 +25981,12 @@ msgstr ""
 #: rc.cpp:238 rc.cpp:6318
 msgid "Write coordinates of the bounding box for each marker to this file."
 msgstr ""
+
+#. i18n: file: xplanet/opsxplanet.ui:747
+#. i18n: ectx: attribute (title), widget (QWidget, XplanetTabPosition)
+#: rc.cpp:241 dialogs/detaildialog.cpp:433
+msgid "Position"
+msgstr "Posición"
 
 #. i18n: file: xplanet/opsxplanet.ui:757
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLatLong)
@@ -28632,6 +26873,29 @@ msgstr "Llimpiar la llista"
 msgid "Date && Location"
 msgstr ""
 
+#. i18n: file: tools/altvstime.ui:240
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: file: tools/modcalcaltaz.ui:383
+#. i18n: ectx: property (text), widget (QCheckBox, dateCheckBatch)
+#. i18n: file: tools/modcalcapcoord.ui:189
+#. i18n: ectx: property (text), widget (QLabel, dateLabel)
+#. i18n: file: tools/modcalcapcoord.ui:404
+#. i18n: ectx: property (text), widget (QCheckBox, dateCheckBatch)
+#. i18n: file: tools/modcalcdaylength.ui:45
+#. i18n: ectx: property (text), widget (QLabel, DateLabel)
+#. i18n: file: tools/modcalcplanets.ui:554
+#. i18n: ectx: property (text), widget (QCheckBox, DateCheckBatch)
+#. i18n: file: tools/modcalcsidtime.ui:77
+#. i18n: ectx: property (text), widget (QLabel, DateLabel)
+#. i18n: file: tools/modcalcsidtime.ui:202
+#. i18n: ectx: property (text), widget (QLabel, DateLabelBatch)
+#. i18n: file: tools/modcalcvlsr.ui:581
+#. i18n: ectx: property (text), widget (QCheckBox, DateCheckBatch)
+#: rc.cpp:618 rc.cpp:1045 rc.cpp:1195 rc.cpp:1225 rc.cpp:1267 rc.cpp:1814
+#: rc.cpp:1868 rc.cpp:1892 rc.cpp:2042 printing/loggingform.cpp:55
+msgid "Date:"
+msgstr "Data:"
+
 #. i18n: file: tools/altvstime.ui:276
 #. i18n: ectx: property (text), widget (KPushButton, cityButton)
 #: rc.cpp:621
@@ -28955,6 +27219,19 @@ msgstr "Velocidá:"
 #: rc.cpp:759
 msgid "Timeout:"
 msgstr "Tiempu d'espiración:"
+
+#. i18n: file: tools/argsetframetypeindi.ui:30
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: file: oal/equipmentwriter.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: oal/equipmentwriter.ui:596
+#. i18n: ectx: property (text), widget (QLabel, label6)
+#. i18n: file: oal/execute.ui:193
+#. i18n: ectx: property (text), widget (QLabel, label_22)
+#: rc.cpp:762 rc.cpp:4639 rc.cpp:4765 rc.cpp:4825
+#: printing/detailstable.cpp:340
+msgid "Type:"
+msgstr "Tipu:"
 
 #. i18n: file: tools/argsetgeolocationindi.ui:38
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
@@ -29367,6 +27644,14 @@ msgstr "Calcular"
 msgid "Export"
 msgstr "Esportar"
 
+#. i18n: file: tools/conjunctions.ui:211
+#. i18n: ectx: property (text), widget (KPushButton, ClearButton)
+#. i18n: file: tools/modcalcgeod.ui:160
+#. i18n: ectx: property (text), widget (KPushButton, Clear)
+#: rc.cpp:952 rc.cpp:1562 indi/guimanager.cpp:69 indi/indimenu.cpp:74
+msgid "Clear"
+msgstr "Llimpiar"
+
 #. i18n: file: tools/conjunctions.ui:241
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:955
@@ -29560,6 +27845,18 @@ msgstr "Coordenaes horizontales"
 msgid "Interactive Mode"
 msgstr "Mou interactivu"
 
+#. i18n: file: tools/modcalcaltaz.ui:71
+#. i18n: ectx: property (text), widget (KPushButton, NowButton)
+#. i18n: file: tools/modcalceclipticcoords.ui:52
+#. i18n: ectx: property (text), widget (KPushButton, NowButton)
+#. i18n: file: tools/modcalcjd.ui:48
+#. i18n: ectx: property (text), widget (KPushButton, NowButton)
+#. i18n: file: tools/modcalcvlsr.ui:72
+#. i18n: ectx: property (text), widget (KPushButton, NowButton)
+#: rc.cpp:1000 rc.cpp:1394 rc.cpp:1643 rc.cpp:1979 dialogs/timedialog.cpp:59
+msgid "Now"
+msgstr "Agora"
+
 #. i18n: file: tools/modcalcaltaz.ui:80
 #. i18n: ectx: property (text), widget (QLabel, LocationLabel)
 #. i18n: file: tools/modcalcdaylength.ui:38
@@ -29614,6 +27911,32 @@ msgstr "Coordenaes ecuatoriales (J2000)"
 #: rc.cpp:1015 rc.cpp:1180 rc.cpp:1406 rc.cpp:1472 rc.cpp:1991
 msgid "Select Object..."
 msgstr "Esbillar oxetu..."
+
+#. i18n: file: tools/modcalcaltaz.ui:248
+#. i18n: ectx: property (text), widget (QLabel, azLabel)
+#. i18n: file: tools/modcalcaltaz.ui:502
+#. i18n: ectx: property (text), widget (QCheckBox, azCheckBatch)
+#. i18n: file: dialogs/details_position.ui:152
+#. i18n: ectx: property (text), widget (KSHelpLabel, AzLabel)
+#. i18n: file: oal/execute.ui:263
+#. i18n: ectx: property (text), widget (QLabel, label_23)
+#: rc.cpp:1027 rc.cpp:1057 rc.cpp:2875 rc.cpp:4840
+#: printing/detailstable.cpp:564
+msgid "Azimuth:"
+msgstr "Acimut:"
+
+#. i18n: file: tools/modcalcaltaz.ui:255
+#. i18n: ectx: property (text), widget (QLabel, elLabel)
+#. i18n: file: tools/modcalcaltaz.ui:492
+#. i18n: ectx: property (text), widget (QCheckBox, elCheckBatch)
+#. i18n: file: dialogs/details_position.ui:245
+#. i18n: ectx: property (text), widget (KSHelpLabel, AltLabel)
+#. i18n: file: oal/execute.ui:249
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#: rc.cpp:1030 rc.cpp:1054 rc.cpp:2893 rc.cpp:4837
+#: printing/detailstable.cpp:568
+msgid "Altitude:"
+msgstr "Altor:"
 
 #. i18n: file: tools/modcalcaltaz.ui:307
 #. i18n: ectx: attribute (title), widget (QWidget, batch)
@@ -29966,6 +28289,19 @@ msgstr "Amosar en ficheru de salida"
 msgid "Almanac"
 msgstr "Almanaque"
 
+#. i18n: file: tools/modcalcdaylength.ui:109
+#. i18n: ectx: property (title), widget (QGroupBox, SunBox)
+#. i18n: file: tools/modcalcplanets.ui:159
+#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
+#. i18n: file: tools/modcalcplanets.ui:502
+#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
+#: rc.cpp:1273 rc.cpp:1724 rc.cpp:1808 skyglpainter.cpp:239
+#: tools/conjunctions.cpp:92 tools/conjunctions.cpp:276
+#: tools/modcalcplanets.cpp:271 dialogs/finddialog.cpp:174
+#: skyobjects/kssun.cpp:27
+msgid "Sun"
+msgstr "Sol"
+
 #. i18n: file: tools/modcalcdaylength.ui:129
 #. i18n: ectx: property (text), widget (QLabel, SunTransitAltLabel)
 #: rc.cpp:1276
@@ -30057,9 +28393,9 @@ msgstr "Acimut de l'aséu de sol:"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
 #. i18n: file: tools/modcalcplanets.ui:497
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
-#: rc.cpp:1318 rc.cpp:1721 rc.cpp:1805 skyobjects/ksmoon.cpp:61
-#: skyobjects/skyobject.cpp:347 tools/conjunctions.cpp:93
-#: tools/modcalcplanets.cpp:271
+#: rc.cpp:1318 rc.cpp:1721 rc.cpp:1805 tools/conjunctions.cpp:93
+#: tools/modcalcplanets.cpp:271 skyobjects/ksmoon.cpp:61
+#: skyobjects/skyobject.cpp:347
 msgid "Moon"
 msgstr "Lluna"
 
@@ -30416,14 +28752,13 @@ msgstr "Cuerpu del sistema solar:"
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Mercury)
 #. i18n: file: options/opssolarsystem.ui:181
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMercury)
-#: rc.cpp:1694 rc.cpp:1778 rc.cpp:2439 rc.cpp:4489
-#: skycomponents/skymapcomposite.cpp:454 skyglpainter.cpp:243
-#: skymapdrawabstract.cpp:150 skyobjects/ksplanet.cpp:125
-#: skyobjects/ksplanet.cpp:158 skyobjects/ksplanet.cpp:340
-#: skyobjects/ksplanet.cpp:368 skyobjects/ksplanetbase.cpp:152
-#: skyqpainter.cpp:315 tools/conjunctions.cpp:84 tools/ksconjunct.cpp:71
-#: tools/modcalcplanets.cpp:268 tools/obslistwizard.cpp:470
-#: tools/obslistwizard.cpp:472
+#: rc.cpp:1694 rc.cpp:1778 rc.cpp:2439 rc.cpp:4489 skyglpainter.cpp:243
+#: skymapdrawabstract.cpp:150 skyqpainter.cpp:315 tools/conjunctions.cpp:84
+#: tools/ksconjunct.cpp:71 tools/modcalcplanets.cpp:268
+#: tools/obslistwizard.cpp:470 tools/obslistwizard.cpp:472
+#: skycomponents/skymapcomposite.cpp:454 skyobjects/ksplanetbase.cpp:152
+#: skyobjects/ksplanet.cpp:125 skyobjects/ksplanet.cpp:158
+#: skyobjects/ksplanet.cpp:340 skyobjects/ksplanet.cpp:368
 msgid "Mercury"
 msgstr "Mercuriu"
 
@@ -30435,13 +28770,13 @@ msgstr "Mercuriu"
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Venus)
 #. i18n: file: options/opssolarsystem.ui:129
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowVenus)
-#: rc.cpp:1697 rc.cpp:1781 rc.cpp:2445 rc.cpp:4453
-#: skycomponents/skymapcomposite.cpp:455 skymapdrawabstract.cpp:151
-#: skyobjects/ksplanet.cpp:128 skyobjects/ksplanet.cpp:160
-#: skyobjects/ksplanet.cpp:343 skyobjects/ksplanet.cpp:370
-#: skyobjects/ksplanetbase.cpp:152 tools/conjunctions.cpp:85
-#: tools/ksconjunct.cpp:71 tools/modcalcplanets.cpp:268
-#: tools/obslistwizard.cpp:484 tools/obslistwizard.cpp:486
+#: rc.cpp:1697 rc.cpp:1781 rc.cpp:2445 rc.cpp:4453 skymapdrawabstract.cpp:151
+#: tools/conjunctions.cpp:85 tools/ksconjunct.cpp:71
+#: tools/modcalcplanets.cpp:268 tools/obslistwizard.cpp:484
+#: tools/obslistwizard.cpp:486 skycomponents/skymapcomposite.cpp:455
+#: skyobjects/ksplanetbase.cpp:152 skyobjects/ksplanet.cpp:128
+#: skyobjects/ksplanet.cpp:160 skyobjects/ksplanet.cpp:343
+#: skyobjects/ksplanet.cpp:370
 msgid "Venus"
 msgstr "Venus"
 
@@ -30449,10 +28784,10 @@ msgstr "Venus"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
 #. i18n: file: tools/modcalcplanets.ui:462
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
-#: rc.cpp:1700 rc.cpp:1784 skycomponents/solarsystemcomposite.cpp:41
-#: skyobjects/ksplanet.cpp:372 tools/ksconjunct.cpp:140
+#: rc.cpp:1700 rc.cpp:1784 tools/ksconjunct.cpp:140
 #: tools/modcalcplanets.cpp:90 tools/modcalcplanets.cpp:268
-#: tools/modcalcplanets.cpp:373 widgets/moonphasecalendarwidget.cpp:295
+#: tools/modcalcplanets.cpp:373 skycomponents/solarsystemcomposite.cpp:41
+#: widgets/moonphasecalendarwidget.cpp:295 skyobjects/ksplanet.cpp:372
 msgid "Earth"
 msgstr "Tierra"
 
@@ -30464,14 +28799,13 @@ msgstr "Tierra"
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Mars)
 #. i18n: file: options/opssolarsystem.ui:64
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMars)
-#: rc.cpp:1703 rc.cpp:1787 rc.cpp:2451 rc.cpp:4408
-#: skycomponents/skymapcomposite.cpp:457 skyglpainter.cpp:241
-#: skymapdrawabstract.cpp:153 skyobjects/ksplanet.cpp:131
-#: skyobjects/ksplanet.cpp:162 skyobjects/ksplanet.cpp:345
-#: skyobjects/ksplanet.cpp:374 skyobjects/ksplanetbase.cpp:152
-#: skyqpainter.cpp:313 tools/conjunctions.cpp:86 tools/ksconjunct.cpp:68
-#: tools/modcalcplanets.cpp:269 tools/obslistwizard.cpp:497
-#: tools/obslistwizard.cpp:499
+#: rc.cpp:1703 rc.cpp:1787 rc.cpp:2451 rc.cpp:4408 skyglpainter.cpp:241
+#: skymapdrawabstract.cpp:153 skyqpainter.cpp:313 tools/conjunctions.cpp:86
+#: tools/ksconjunct.cpp:68 tools/modcalcplanets.cpp:269
+#: tools/obslistwizard.cpp:497 tools/obslistwizard.cpp:499
+#: skycomponents/skymapcomposite.cpp:457 skyobjects/ksplanetbase.cpp:152
+#: skyobjects/ksplanet.cpp:131 skyobjects/ksplanet.cpp:162
+#: skyobjects/ksplanet.cpp:345 skyobjects/ksplanet.cpp:374
 msgid "Mars"
 msgstr "Marte"
 
@@ -30483,14 +28817,14 @@ msgstr "Marte"
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Jupiter)
 #. i18n: file: options/opssolarsystem.ui:155
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowJupiter)
-#: rc.cpp:1706 rc.cpp:1790 rc.cpp:2457 rc.cpp:4471
-#: skycomponents/skymapcomposite.cpp:458 skyglpainter.cpp:243
-#: skymapdrawabstract.cpp:154 skyobjects/ksplanet.cpp:134
+#: rc.cpp:1706 rc.cpp:1790 rc.cpp:2457 rc.cpp:4471 skyglpainter.cpp:243
+#: skymapdrawabstract.cpp:154 skyqpainter.cpp:315 tools/conjunctions.cpp:87
+#: tools/jmoontool.cpp:119 tools/ksconjunct.cpp:65
+#: tools/modcalcplanets.cpp:269 tools/obslistwizard.cpp:510
+#: tools/obslistwizard.cpp:512 skycomponents/skymapcomposite.cpp:458
+#: skyobjects/ksplanetbase.cpp:153 skyobjects/ksplanet.cpp:134
 #: skyobjects/ksplanet.cpp:164 skyobjects/ksplanet.cpp:347
-#: skyobjects/ksplanet.cpp:376 skyobjects/ksplanetbase.cpp:153
-#: skyqpainter.cpp:315 tools/conjunctions.cpp:87 tools/jmoontool.cpp:119
-#: tools/ksconjunct.cpp:65 tools/modcalcplanets.cpp:269
-#: tools/obslistwizard.cpp:510 tools/obslistwizard.cpp:512
+#: skyobjects/ksplanet.cpp:376
 msgid "Jupiter"
 msgstr "Xúpiter"
 
@@ -30502,15 +28836,14 @@ msgstr "Xúpiter"
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Saturn)
 #. i18n: file: options/opssolarsystem.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSaturn)
-#: rc.cpp:1709 rc.cpp:1793 rc.cpp:2442 rc.cpp:4390
-#: skycomponents/skymapcomposite.cpp:459 skyglpainter.cpp:243
-#: skymapdrawabstract.cpp:155 skyobjects/ksplanet.cpp:137
+#: rc.cpp:1709 rc.cpp:1793 rc.cpp:2442 rc.cpp:4390 skyglpainter.cpp:243
+#: skymapdrawabstract.cpp:155 skyqpainter.cpp:315 tools/conjunctions.cpp:88
+#: tools/ksconjunct.cpp:65 tools/modcalcplanets.cpp:269
+#: tools/obslistwizard.cpp:524 tools/obslistwizard.cpp:526
+#: skycomponents/skymapcomposite.cpp:459 skyobjects/ksplanetbase.cpp:153
+#: skyobjects/ksplanetbase.cpp:271 skyobjects/ksplanet.cpp:137
 #: skyobjects/ksplanet.cpp:166 skyobjects/ksplanet.cpp:349
-#: skyobjects/ksplanet.cpp:378 skyobjects/ksplanetbase.cpp:153
-#: skyobjects/ksplanetbase.cpp:271 skyqpainter.cpp:315
-#: tools/conjunctions.cpp:88 tools/ksconjunct.cpp:65
-#: tools/modcalcplanets.cpp:269 tools/obslistwizard.cpp:524
-#: tools/obslistwizard.cpp:526
+#: skyobjects/ksplanet.cpp:378
 msgid "Saturn"
 msgstr "Saturnu"
 
@@ -30522,13 +28855,13 @@ msgstr "Saturnu"
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Uranus)
 #. i18n: file: options/opssolarsystem.ui:223
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowUranus)
-#: rc.cpp:1712 rc.cpp:1796 rc.cpp:2454 rc.cpp:4507
-#: skycomponents/skymapcomposite.cpp:460 skymapdrawabstract.cpp:156
-#: skyobjects/ksplanet.cpp:140 skyobjects/ksplanet.cpp:168
-#: skyobjects/ksplanet.cpp:357 skyobjects/ksplanet.cpp:380
-#: skyobjects/ksplanetbase.cpp:153 tools/conjunctions.cpp:89
-#: tools/ksconjunct.cpp:62 tools/modcalcplanets.cpp:270
-#: tools/obslistwizard.cpp:538 tools/obslistwizard.cpp:540
+#: rc.cpp:1712 rc.cpp:1796 rc.cpp:2454 rc.cpp:4507 skymapdrawabstract.cpp:156
+#: tools/conjunctions.cpp:89 tools/ksconjunct.cpp:62
+#: tools/modcalcplanets.cpp:270 tools/obslistwizard.cpp:538
+#: tools/obslistwizard.cpp:540 skycomponents/skymapcomposite.cpp:460
+#: skyobjects/ksplanetbase.cpp:153 skyobjects/ksplanet.cpp:140
+#: skyobjects/ksplanet.cpp:168 skyobjects/ksplanet.cpp:357
+#: skyobjects/ksplanet.cpp:380
 msgid "Uranus"
 msgstr "Uranu"
 
@@ -30540,15 +28873,32 @@ msgstr "Uranu"
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Neptune)
 #. i18n: file: options/opssolarsystem.ui:194
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowNeptune)
-#: rc.cpp:1715 rc.cpp:1799 rc.cpp:2448 rc.cpp:4498
-#: skycomponents/skymapcomposite.cpp:461 skymapdrawabstract.cpp:157
-#: skyobjects/ksplanet.cpp:143 skyobjects/ksplanet.cpp:170
-#: skyobjects/ksplanet.cpp:359 skyobjects/ksplanet.cpp:382
-#: skyobjects/ksplanetbase.cpp:154 tools/conjunctions.cpp:90
-#: tools/ksconjunct.cpp:62 tools/modcalcplanets.cpp:270
-#: tools/obslistwizard.cpp:553 tools/obslistwizard.cpp:555
+#: rc.cpp:1715 rc.cpp:1799 rc.cpp:2448 rc.cpp:4498 skymapdrawabstract.cpp:157
+#: tools/conjunctions.cpp:90 tools/ksconjunct.cpp:62
+#: tools/modcalcplanets.cpp:270 tools/obslistwizard.cpp:553
+#: tools/obslistwizard.cpp:555 skycomponents/skymapcomposite.cpp:461
+#: skyobjects/ksplanetbase.cpp:154 skyobjects/ksplanet.cpp:143
+#: skyobjects/ksplanet.cpp:170 skyobjects/ksplanet.cpp:359
+#: skyobjects/ksplanet.cpp:382
 msgid "Neptune"
 msgstr "Neptunu"
+
+#. i18n: file: tools/modcalcplanets.ui:149
+#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
+#. i18n: file: tools/modcalcplanets.ui:492
+#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
+#. i18n: file: tools/skycalendar.ui:97
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_Pluto)
+#. i18n: file: options/opssolarsystem.ui:90
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPluto)
+#: rc.cpp:1718 rc.cpp:1802 rc.cpp:2460 rc.cpp:4426 skymapdrawabstract.cpp:158
+#: printing/detailstable.cpp:160 printing/pwizobjectselection.cpp:138
+#: tools/conjunctions.cpp:91 tools/modcalcplanets.cpp:270
+#: tools/obslistwizard.cpp:567 tools/obslistwizard.cpp:569
+#: tools/wutdialog.cpp:284 skycomponents/skymapcomposite.cpp:462
+#: dialogs/detaildialog.cpp:197 skyobjects/kspluto.cpp:35
+msgid "Pluto"
+msgstr "Plutón"
 
 #. i18n: file: tools/modcalcplanets.ui:279
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
@@ -31024,12 +29374,42 @@ msgstr ""
 "p><p></p><p>Cuando tenga finao, calque'l botón <span style=\" font-"
 "weight:600;\">Siguiente</span>.</p></body></html>"
 
+#. i18n: file: tools/obslistwizard.ui:78
+#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
+#: rc.cpp:2189 tools/conjunctions.cpp:73 tools/obslistwizard.cpp:343
+#: tools/obslistwizard.cpp:385 tools/wutdialog.cpp:111
+#: dialogs/finddialog.cpp:37
+msgid "Stars"
+msgstr "Estrelles"
+
 #. i18n: file: tools/obslistwizard.ui:83
 #. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
 #: rc.cpp:2192 tools/obslistwizard.cpp:234 tools/obslistwizard.cpp:345
 #: tools/obslistwizard.cpp:432
 msgid "Sun, moon, planets"
 msgstr "El Sol, la Lluna, los planetes"
+
+#. i18n: file: tools/obslistwizard.ui:88
+#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
+#. i18n: file: options/opssolarsystem.ui:375
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowComets)
+#: rc.cpp:2195 rc.cpp:4552 tools/conjunctions.cpp:76
+#: tools/obslistwizard.cpp:235 tools/obslistwizard.cpp:347
+#: tools/obslistwizard.cpp:661 tools/wutdialog.cpp:114
+#: dialogs/finddialog.cpp:44
+msgid "Comets"
+msgstr "Cometes"
+
+#. i18n: file: tools/obslistwizard.ui:93
+#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
+#. i18n: file: options/opssolarsystem.ui:265
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowAsteroids)
+#: rc.cpp:2198 rc.cpp:4519 tools/conjunctions.cpp:77
+#: tools/obslistwizard.cpp:236 tools/obslistwizard.cpp:349
+#: tools/obslistwizard.cpp:673 tools/wutdialog.cpp:114
+#: dialogs/finddialog.cpp:45
+msgid "Asteroids"
+msgstr "Asteroides"
 
 #. i18n: file: tools/obslistwizard.ui:98
 #. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
@@ -31059,6 +29439,15 @@ msgstr "Nebuloses gaseoses"
 msgid "Planetary nebulae"
 msgstr "Nebuloses planetaries"
 
+#. i18n: file: tools/obslistwizard.ui:118
+#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
+#: rc.cpp:2213 tools/conjunctions.cpp:82 tools/obslistwizard.cpp:228
+#: tools/obslistwizard.cpp:351 tools/obslistwizard.cpp:577
+#: tools/obslistwizard.cpp:615 tools/wutdialog.cpp:112
+#: dialogs/finddialog.cpp:43
+msgid "Galaxies"
+msgstr "Galaxes"
+
 #. i18n: file: tools/obslistwizard.ui:134
 #. i18n: ectx: property (toolTip), widget (KPushButton, AllButton)
 #: rc.cpp:2216
@@ -31076,6 +29465,15 @@ msgstr "Toos"
 #: rc.cpp:2222
 msgid "Clear all selected items in the list"
 msgstr "Llimpiar tolos elementos esbillaos na llista"
+
+#. i18n: file: tools/obslistwizard.ui:147
+#. i18n: ectx: property (text), widget (KPushButton, NoneButton)
+#. i18n: file: oal/equipmentwriter.ui:197
+#. i18n: ectx: property (text), item, widget (QComboBox, driverComboBox)
+#: rc.cpp:2225 rc.cpp:4675 indi/drivermanager.cpp:1127 indi/indidriver.cpp:750
+#: oal/log.cpp:255 oal/log.cpp:687
+msgid "None"
+msgstr "Dengún"
 
 #. i18n: file: tools/obslistwizard.ui:154
 #. i18n: ectx: property (toolTip), widget (KPushButton, DeepSkyButton)
@@ -32040,6 +30438,12 @@ msgstr "Abre la ventana de detalles del oxetu"
 msgid "Open the Details window for the highlighted object."
 msgstr "Abre la ventana de Detalles pal oxetu resaltáu."
 
+#. i18n: file: tools/wutdialog.ui:480
+#. i18n: ectx: property (text), widget (KPushButton, DetailButton)
+#: rc.cpp:2638 skymap.cpp:733 dialogs/detaildialog.cpp:84
+msgid "Object Details"
+msgstr "Detalles d'oxetu"
+
 #. i18n: file: tools/wutdialog.ui:487
 #. i18n: ectx: property (toolTip), widget (KPushButton, ObslistButton)
 #: rc.cpp:2641
@@ -32189,6 +30593,12 @@ msgstr "Información"
 msgid "Text describing the linked resource"
 msgstr "Testu describiendo'l recursu resaltáu"
 
+#. i18n: file: dialogs/addlinkdialog.ui:73
+#. i18n: ectx: property (text), widget (QLabel, URLLabel)
+#: rc.cpp:2716 dialogs/detaildialog.cpp:707
+msgid "URL:"
+msgstr "URL:"
+
 #. i18n: file: dialogs/addlinkdialog.ui:94
 #. i18n: ectx: property (toolTip), widget (KLineEdit, URLBox)
 #: rc.cpp:2719
@@ -32229,6 +30639,15 @@ msgstr "Detalles- Bases de datos en llinia"
 msgid "Choose Online Database"
 msgstr "Escoyer una base de datos en llinia"
 
+#. i18n: file: dialogs/details_data_comet.ui:30
+#. i18n: ectx: property (text), widget (QLabel, PerihelionLabel)
+#: rc.cpp:2737 printing/detailstable.cpp:472
+#, fuzzy
+#| msgctxt "City in Alberta Canada"
+#| msgid "Vermillion"
+msgid "Perihelion:"
+msgstr "Vermillion"
+
 #. i18n: file: dialogs/details_data_comet.ui:45
 #. i18n: ectx: property (text), widget (QLabel, Perihelion)
 #. i18n: file: dialogs/details_data_comet.ui:174
@@ -32239,6 +30658,12 @@ msgstr "Escoyer una base de datos en llinia"
 msgid "0.0 AU"
 msgstr "0,0"
 
+#. i18n: file: dialogs/details_data_comet.ui:52
+#. i18n: ectx: property (text), widget (QLabel, OrbitIDLabel)
+#: rc.cpp:2743 printing/detailstable.cpp:476
+msgid "Orbit ID:"
+msgstr ""
+
 #. i18n: file: dialogs/details_data_comet.ui:67
 #. i18n: ectx: property (text), widget (QLabel, OrbitID)
 #: rc.cpp:2746
@@ -32246,6 +30671,15 @@ msgstr "0,0"
 #| msgid "Orbit Trails"
 msgid "Orbit ID"
 msgstr "Trazes orbitales"
+
+#. i18n: file: dialogs/details_data_comet.ui:74
+#. i18n: ectx: property (text), widget (QLabel, NEOLabel)
+#: rc.cpp:2749 printing/detailstable.cpp:480
+#, fuzzy
+#| msgctxt "Northeast"
+#| msgid "NE"
+msgid "NEO:"
+msgstr "NE"
 
 #. i18n: file: dialogs/details_data_comet.ui:88
 #. i18n: ectx: property (text), widget (QLabel, NEO)
@@ -32255,6 +30689,14 @@ msgstr "Trazes orbitales"
 #| msgid "NE"
 msgid "NEO"
 msgstr "NE"
+
+#. i18n: file: dialogs/details_data_comet.ui:95
+#. i18n: ectx: property (text), widget (QLabel, DiameterLabel)
+#: rc.cpp:2755 printing/detailstable.cpp:484
+#, fuzzy
+#| msgid "Date:"
+msgid "Diameter:"
+msgstr "Data:"
 
 #. i18n: file: dialogs/details_data_comet.ui:110
 #. i18n: ectx: property (text), widget (QLabel, Diameter)
@@ -32266,6 +30708,12 @@ msgstr "NE"
 msgid "0.0 km"
 msgstr "0,0 mag"
 
+#. i18n: file: dialogs/details_data_comet.ui:117
+#. i18n: ectx: property (text), widget (QLabel, RotationLabel)
+#: rc.cpp:2761 printing/detailstable.cpp:488
+msgid "Rotation period:"
+msgstr ""
+
 #. i18n: file: dialogs/details_data_comet.ui:132
 #. i18n: ectx: property (text), widget (QLabel, Rotation)
 #: rc.cpp:2764
@@ -32274,6 +30722,22 @@ msgstr "0,0 mag"
 msgid "0.0 h"
 msgstr "0,0"
 
+#. i18n: file: dialogs/details_data_comet.ui:159
+#. i18n: ectx: property (text), widget (QLabel, EarthMOIDLabel)
+#: rc.cpp:2767 printing/detailstable.cpp:492
+#, fuzzy
+#| msgid "Earth"
+msgid "Earth MOID:"
+msgstr "Tierra"
+
+#. i18n: file: dialogs/details_data_comet.ui:181
+#. i18n: ectx: property (text), widget (QLabel, OrbitClassLabel)
+#: rc.cpp:2773 printing/detailstable.cpp:496
+#, fuzzy
+#| msgid "Orbit Trails"
+msgid "Orbit class:"
+msgstr "Trazes orbitales"
+
 #. i18n: file: dialogs/details_data_comet.ui:196
 #. i18n: ectx: property (text), widget (QLabel, OrbitClass)
 #: rc.cpp:2776
@@ -32281,6 +30745,31 @@ msgstr "0,0"
 #| msgid "&Classic"
 msgid "Class"
 msgstr "Proyeición &Clásica"
+
+#. i18n: file: dialogs/details_data_comet.ui:203
+#. i18n: ectx: property (text), widget (QLabel, AlbedoLabel)
+#: rc.cpp:2779 printing/detailstable.cpp:500
+#, fuzzy
+#| msgctxt "star name"
+#| msgid "Albireo"
+msgid "Albedo:"
+msgstr "Albireo"
+
+#. i18n: file: dialogs/details_data_comet.ui:225
+#. i18n: ectx: property (text), widget (QLabel, DimensionsLabel)
+#: rc.cpp:2785 printing/detailstable.cpp:504
+#, fuzzy
+#| msgid "Version:"
+msgid "Dimensions:"
+msgstr "Versión:"
+
+#. i18n: file: dialogs/details_data_comet.ui:247
+#. i18n: ectx: property (text), widget (QLabel, PeriodLabel)
+#: rc.cpp:2791 printing/detailstable.cpp:508
+#, fuzzy
+#| msgid "Version:"
+msgid "Period:"
+msgstr "Versión:"
 
 #. i18n: file: dialogs/details_data_comet.ui:262
 #. i18n: ectx: property (text), widget (QLabel, Period)
@@ -32294,11 +30783,31 @@ msgstr ""
 msgid "Primary Name, Other Names"
 msgstr "Nome primario, otros nomes"
 
+#. i18n: file: dialogs/details_data.ui:199
+#. i18n: ectx: property (text), widget (QLabel, DistanceLabel)
+#: rc.cpp:2800 printing/detailstable.cpp:344
+msgid "Distance:"
+msgstr "Distancia:"
+
 #. i18n: file: dialogs/details_data.ui:217
 #. i18n: ectx: property (text), widget (QLabel, AngSize)
 #: rc.cpp:2803
 msgid "0.0 arcmin"
 msgstr "0,0 minutos d'arcu"
+
+#. i18n: file: dialogs/details_data.ui:224
+#. i18n: ectx: property (text), widget (QLabel, AngSizeLabel)
+#: rc.cpp:2806 printing/detailstable.cpp:348
+msgid "Size:"
+msgstr "Tamañu:"
+
+#. i18n: file: dialogs/details_data.ui:231
+#. i18n: ectx: property (text), widget (KSHelpLabel, MagLabel)
+#. i18n: file: oal/execute.ui:179
+#. i18n: ectx: property (text), widget (QLabel, label_20)
+#: rc.cpp:2809 rc.cpp:4822 printing/detailstable.cpp:352
+msgid "Magnitude:"
+msgstr "Magnitú:"
 
 #. i18n: file: dialogs/details_data.ui:252
 #. i18n: ectx: property (text), widget (QLabel, Magnitude)
@@ -32311,6 +30820,12 @@ msgstr "0,0 mag"
 #: rc.cpp:2815
 msgid "0.0 pc"
 msgstr "0,0 pc"
+
+#. i18n: file: dialogs/details_data.ui:277
+#. i18n: ectx: property (text), widget (QLabel, IllumLabel)
+#: rc.cpp:2818 printing/detailstable.cpp:360
+msgid "Illumination:"
+msgstr "Illuminación:"
 
 #. i18n: file: dialogs/details_data.ui:299
 #. i18n: ectx: property (text), widget (QLabel, BVLabel)
@@ -32396,6 +30911,12 @@ msgstr "Rexistru del usuariu"
 msgid "Details - Position Data"
 msgstr "Detalles - Datos de posición"
 
+#. i18n: file: dialogs/details_position.ui:48
+#. i18n: ectx: property (text), widget (QLabel, CoordTitle)
+#: rc.cpp:2863 printing/detailstable.cpp:533
+msgid "Coordinates"
+msgstr "Coordenaes"
+
 #. i18n: file: dialogs/details_position.ui:96
 #. i18n: ectx: property (text), widget (KSHelpLabel, RALabel)
 #: rc.cpp:2866
@@ -32420,6 +30941,12 @@ msgstr ""
 msgid "Dec (2000.0):"
 msgstr "Dec (2000.0):"
 
+#. i18n: file: dialogs/details_position.ui:298
+#. i18n: ectx: property (text), widget (KSHelpLabel, HALabel)
+#: rc.cpp:2902 printing/detailstable.cpp:550
+msgid "Hour angle:"
+msgstr "Ángulu horariu:"
+
 #. i18n: file: dialogs/details_position.ui:301
 #. i18n: ectx: property (anchor), widget (KSHelpLabel, HALabel)
 #: rc.cpp:2905
@@ -32428,11 +30955,59 @@ msgstr "Dec (2000.0):"
 msgid "hourangle"
 msgstr "Ángulu horariu:"
 
+#. i18n: file: dialogs/details_position.ui:354
+#. i18n: ectx: property (text), widget (QLabel, AirmassLabel)
+#: rc.cpp:2911 printing/detailstable.cpp:582
+msgid "Airmass:"
+msgstr "Mases d'aire:"
+
 #. i18n: file: dialogs/details_position.ui:375
 #. i18n: ectx: property (text), widget (QLabel, Airmass)
 #: rc.cpp:2914
 msgid "0.00"
 msgstr "0,00"
+
+#. i18n: file: dialogs/details_position.ui:443
+#. i18n: ectx: property (text), widget (QLabel, RSTTitle)
+#: rc.cpp:2917 printing/detailstable.cpp:673
+msgid "Rise/Set/Transit"
+msgstr "Orto/Ocasu/Tránsito"
+
+#. i18n: file: dialogs/details_position.ui:499
+#. i18n: ectx: property (text), widget (QLabel, TimeSetLabel)
+#: rc.cpp:2920 printing/detailstable.cpp:684
+msgid "Set time:"
+msgstr "Ocasu:"
+
+#. i18n: file: dialogs/details_position.ui:515
+#. i18n: ectx: property (text), widget (QLabel, TimeTransitLabel)
+#: rc.cpp:2923 printing/detailstable.cpp:680
+msgid "Transit time:"
+msgstr "Tiempu de culminación:"
+
+#. i18n: file: dialogs/details_position.ui:531
+#. i18n: ectx: property (text), widget (QLabel, TimeRiseLabel)
+#: rc.cpp:2926 printing/detailstable.cpp:676
+msgid "Rise time:"
+msgstr "Orto:"
+
+#. i18n: file: dialogs/details_position.ui:627
+#. i18n: ectx: property (text), widget (QLabel, AzSetLabel)
+#: rc.cpp:2938 printing/detailstable.cpp:696
+msgid "Azimuth at set:"
+msgstr "Acimut nel ocasu:"
+
+#. i18n: file: dialogs/details_position.ui:643
+#. i18n: ectx: property (text), widget (QLabel, AltTransitLabel)
+#: rc.cpp:2941 printing/detailstable.cpp:692
+msgid "Altitude at transit:"
+msgstr "Altor na culminación:"
+
+#. i18n: file: dialogs/details_position.ui:659
+#. i18n: ectx: property (text), widget (QLabel, AzRiseLabel)
+#: rc.cpp:2944 printing/detailstable.cpp:688
+msgid "Azimuth at rise:"
+msgstr "Acimut nel orto:"
 
 #. i18n: file: dialogs/exportimagedialog.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, legendGroupBox)
@@ -32660,6 +31235,12 @@ msgstr "&Llimpiar campos"
 #: rc.cpp:3073
 msgid "Add City to List"
 msgstr "Amestar ciudá a la llista"
+
+#. i18n: file: dialogs/newfov.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, NewFOV)
+#: rc.cpp:3076 dialogs/fovdialog.cpp:175
+msgid "New FOV Indicator"
+msgstr "Nuevu indicador del campu de visión"
 
 #. i18n: file: dialogs/newfov.ui:40
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
@@ -32940,6 +31521,12 @@ msgstr ""
 msgid "At a distance of:"
 msgstr ""
 
+#. i18n: file: dialogs/newfov.ui:674
+#. i18n: ectx: property (text), widget (QLabel, LabelUnits)
+#: rc.cpp:3214 dialogs/fovdialog.cpp:209
+msgid "feet"
+msgstr ""
+
 #. i18n: file: dialogs/newfov.ui:701
 #. i18n: ectx: attribute (title), widget (QWidget, tab4)
 #: rc.cpp:3217
@@ -33211,6 +31798,12 @@ msgstr ""
 "calque'l botón <span style=\" font-weight:600;\">Siguiente</span> .</p></"
 "body></html>"
 
+#. i18n: file: fitsviewer/fitsheaderdialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, fitsHeaderDialog)
+#: rc.cpp:3362 fitsviewer/fitstab.cpp:164 fitsviewer/fitsviewer.cpp:122
+msgid "FITS Header"
+msgstr "Cabecera FITS"
+
 #. i18n: file: fitsviewer/fitsheaderdialog.ui:47
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: rc.cpp:3365
@@ -33231,71 +31824,83 @@ msgstr "Comentario"
 
 #. i18n: file: fitsviewer/fitsheaderdialog.ui:98
 #. i18n: ectx: property (text), widget (QPushButton, closeB)
-#. i18n: file: fitsviewer/fitshistogramui.ui:299
+#. i18n: file: fitsviewer/fitshistogramui.ui:316
 #. i18n: ectx: property (text), widget (QPushButton, cancelB)
 #: rc.cpp:3374 rc.cpp:3410 tools/scriptbuilder.cpp:140
 msgid "&Close"
 msgstr "&Zarrar"
 
-#. i18n: file: fitsviewer/fitshistogramui.ui:107
+#. i18n: file: fitsviewer/fitshistogramui.ui:32
+#. i18n: ectx: property (windowTitle), widget (QDialog, FITSHistogramUI)
+#: rc.cpp:3377 fitsviewer/fitsviewer.cpp:104
+msgid "Histogram"
+msgstr "Histograma"
+
+#. i18n: file: fitsviewer/fitshistogramui.ui:122
 #. i18n: ectx: property (title), widget (QGroupBox, FITSScaleGroup)
 #: rc.cpp:3380
 msgid "FITS Scale"
 msgstr "Escala FITS"
 
-#. i18n: file: fitsviewer/fitshistogramui.ui:113
+#. i18n: file: fitsviewer/fitshistogramui.ui:128
 #. i18n: ectx: property (text), widget (QRadioButton, autoR)
 #: rc.cpp:3383
 msgid "Auto"
 msgstr "Auto"
 
-#. i18n: file: fitsviewer/fitshistogramui.ui:123
+#. i18n: file: fitsviewer/fitshistogramui.ui:138
 #. i18n: ectx: property (text), widget (QRadioButton, logR)
 #: rc.cpp:3386
 msgid "Logarithmic"
 msgstr "Logarítmica"
 
-#. i18n: file: fitsviewer/fitshistogramui.ui:130
+#. i18n: file: fitsviewer/fitshistogramui.ui:145
 #. i18n: ectx: property (text), widget (QRadioButton, sqrtR)
 #: rc.cpp:3389
 msgid "Square root"
 msgstr "Raíz cuadrada"
 
-#. i18n: file: fitsviewer/fitshistogramui.ui:137
+#. i18n: file: fitsviewer/fitshistogramui.ui:152
 #. i18n: ectx: property (text), widget (QRadioButton, linearR)
 #: rc.cpp:3392
 msgid "Linear"
 msgstr "Llinial"
 
-#. i18n: file: fitsviewer/fitshistogramui.ui:170
+#. i18n: file: fitsviewer/fitshistogramui.ui:187
 #. i18n: ectx: property (text), widget (QLabel, maxLabel)
 #: rc.cpp:3395
 msgid "Max."
 msgstr "Máx."
 
-#. i18n: file: fitsviewer/fitshistogramui.ui:216
+#. i18n: file: fitsviewer/fitshistogramui.ui:233
 #. i18n: ectx: property (text), widget (QLabel, intensityLabel)
 #: rc.cpp:3398
 msgid "Intensity:"
 msgstr "Intensidad:"
 
-#. i18n: file: fitsviewer/fitshistogramui.ui:236
+#. i18n: file: fitsviewer/fitshistogramui.ui:253
 #. i18n: ectx: property (text), widget (QLabel, frequencyLabel)
 #: rc.cpp:3401
 msgid "Frequency:"
 msgstr "Frecuencia:"
 
-#. i18n: file: fitsviewer/fitshistogramui.ui:243
+#. i18n: file: fitsviewer/fitshistogramui.ui:260
 #. i18n: ectx: property (text), widget (QLabel, minLabel)
 #: rc.cpp:3404
 msgid "Min."
 msgstr "Mín."
 
-#. i18n: file: fitsviewer/fitshistogramui.ui:286
+#. i18n: file: fitsviewer/fitshistogramui.ui:303
 #. i18n: ectx: property (text), widget (QPushButton, applyB)
 #: rc.cpp:3407
 msgid "&Apply"
 msgstr "&Aplicar"
+
+#. i18n: file: fitsviewer/statform.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, statForm)
+#: rc.cpp:3413 fitsviewer/fitsviewer.cpp:141
+msgid "Statistics"
+msgstr "Estadístiques"
 
 #. i18n: file: fitsviewer/statform.ui:20
 #. i18n: ectx: property (text), widget (QLabel, widthLabel)
@@ -33342,8 +31947,17 @@ msgstr "Disp. estd.:"
 #. i18n: file: fitsviewer/statform.ui:118
 #. i18n: ectx: property (text), widget (QLabel, HFRLabel)
 #: rc.cpp:3437
+msgctxt "Half Flux Radius"
 msgid "HFR:"
 msgstr ""
+
+#. i18n: file: indi/devmanager.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, devManager)
+#. i18n: file: indi/drivermanager.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, DriverManager)
+#: rc.cpp:3440 rc.cpp:3512 indi/drivermanager.cpp:111 indi/indidriver.cpp:102
+msgid "Device Manager"
+msgstr "Xestor de preseos"
 
 #. i18n: file: indi/devmanager.ui:34
 #. i18n: ectx: attribute (title), widget (QWidget, LocalTab)
@@ -33825,6 +32439,13 @@ msgstr "Capturar imaxe"
 #: rc.cpp:3770
 msgid "Image Format"
 msgstr "Formatu d'imaxe"
+
+#. i18n: file: indi/telescopewizard.ui:31
+#. i18n: ectx: property (windowTitle), widget (QDialog, telescopeWizard)
+#: rc.cpp:3773 indi/telescopewizardprocess.cpp:234
+#: indi/telescopewizardprocess.cpp:244
+msgid "Telescope Wizard"
+msgstr "Asistente de telescopiu"
 
 #. i18n: file: indi/telescopewizard.ui:54
 #. i18n: ectx: property (text), widget (QPushButton, helpB)
@@ -35870,6 +34491,12 @@ msgstr "Peñera"
 msgid "Save Filter"
 msgstr ""
 
+#. i18n: file: oal/execute.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, Execute)
+#: rc.cpp:4783 oal/execute.cpp:41
+msgid "Execute Session"
+msgstr ""
+
 #. i18n: file: oal/execute.ui:22
 #. i18n: ectx: property (text), widget (KUrlLabel, SessionURL)
 #: rc.cpp:4786
@@ -35975,10 +34602,28 @@ msgstr ""
 msgid "Observer"
 msgstr ""
 
+#. i18n: file: oal/execute.ui:347
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: rc.cpp:4855 printing/loggingform.cpp:65
+msgid "Telescope:"
+msgstr "Telescopiu:"
+
+#. i18n: file: oal/execute.ui:357
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: rc.cpp:4858 printing/loggingform.cpp:68
+msgid "Eyepiece:"
+msgstr ""
+
 #. i18n: file: oal/execute.ui:367
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #: rc.cpp:4861
 msgid "Lens:"
+msgstr ""
+
+#. i18n: file: oal/execute.ui:387
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: rc.cpp:4867 printing/loggingform.cpp:61
+msgid "Seeing:"
 msgstr ""
 
 #. i18n: file: oal/execute.ui:399
@@ -35999,10 +34644,24 @@ msgstr ""
 msgid "(magnitude)"
 msgstr "(magnitú)"
 
+#. i18n: file: oal/execute.ui:429
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#: rc.cpp:4879 printing/loggingform.cpp:57
+msgid "Time:"
+msgstr ""
+
 #. i18n: file: oal/execute.ui:470
 #. i18n: ectx: property (text), widget (QPushButton, NextButton)
 #: rc.cpp:4885
 msgid "Next >"
+msgstr ""
+
+#. i18n: file: oal/observeradd.ui:6
+#. i18n: ectx: property (windowTitle), widget (QWidget, ObserverAdd)
+#. i18n: file: oal/observeradd.ui:61
+#. i18n: ectx: property (text), widget (QPushButton, AddObserver)
+#: rc.cpp:4888 rc.cpp:4900 oal/observeradd.cpp:34
+msgid "Add Observer"
 msgstr ""
 
 #. i18n: file: oal/observeradd.ui:21
@@ -38887,351 +37546,6 @@ msgstr "Imposible configurar el reló:  Data/Hora inválida."
 msgid "New clock scale: %1 sec"
 msgstr "Nueva escala del reló: %1 seg"
 
-#: skycomponents/asteroidscomponent.cpp:98
-msgid "Loading asteroids"
-msgstr "Cargando asteroides"
-
-#: skycomponents/cometscomponent.cpp:93
-msgid "Loading comets"
-msgstr "Cargando cometes"
-
-#: skycomponents/constellationboundarylines.cpp:45
-msgid "Constellation Boundaries"
-msgstr "Berbesos de constelaciones"
-
-#: skycomponents/constellationboundarylines.cpp:77
-msgid "Loading Constellation Boundaries"
-msgstr ""
-
-#: skycomponents/constellationlines.cpp:41
-msgid "Constellation Lines"
-msgstr "Llinies de constelaciones"
-
-#: skycomponents/constellationlines.cpp:105
-#, kde-format
-msgid "Star HD%1 not found."
-msgstr "Estrella HD%1 non alcontrada."
-
-#: skycomponents/constellationnamescomponent.cpp:42
-msgid "Loading constellation names"
-msgstr "Cargando nomes de les constelaciones"
-
-#: skycomponents/customcatalogcomponent.cpp:51
-#, kde-format
-msgid "Loading custom catalog: %1"
-msgstr "Cargando catálogu personalizáu: %1"
-
-#: skycomponents/customcatalogcomponent.cpp:101
-#, kde-format
-msgid "Line %1 does not contain %2 fields.  Skipping it."
-msgstr "La llinia %1 nun contién %2 campos. Sedrá inorada."
-
-#: skycomponents/customcatalogcomponent.cpp:108
-msgid ""
-"Some lines in the custom catalog could not be parsed; see error messages "
-"below."
-msgstr ""
-"Dalgunes llinies del catálogu personalizáu nun se pudieron interpretar; llea "
-"los mensaxes d'error debaxo."
-
-#: skycomponents/customcatalogcomponent.cpp:109
-msgid "To reject the file, press Cancel. "
-msgstr "Pa refugar el ficheru, calque «Encaboxar». "
-
-#: skycomponents/customcatalogcomponent.cpp:110
-msgid "To accept the file (ignoring unparsed lines), press Accept."
-msgstr ""
-"P'aceutar el ficheru (inorando les llinies nun interpretaes) calque "
-"«Aceutar»."
-
-#: skycomponents/customcatalogcomponent.cpp:112
-msgid "Accept"
-msgstr "Aceutar"
-
-#: skycomponents/customcatalogcomponent.cpp:112
-msgid "Some Lines in File Were Invalid"
-msgstr "Dalgunes llinies nel ficheru son inválides"
-
-#: skycomponents/customcatalogcomponent.cpp:119
-msgid ""
-"No lines could be parsed from the specified file, see error messages below."
-msgstr ""
-"Nun pudo interpretase denguna llinia del ficheru especificáu, llea los "
-"mensaxes d'error debaxo."
-
-#: skycomponents/customcatalogcomponent.cpp:121
-msgid "No Valid Data Found in File"
-msgstr "Dengún datu válidu nel ficheru"
-
-#: skycomponents/customcatalogcomponent.cpp:129
-#: skycomponents/customcatalogcomponent.cpp:132
-#, kde-format
-msgid "Could not open custom data file: %1"
-msgstr "Imposible abrir el ficheru de datos personalizáu: %1"
-
-#: skycomponents/customcatalogcomponent.cpp:130
-msgid "Error opening file"
-msgstr "Fallu al abrir ficheru"
-
-#: skycomponents/customcatalogcomponent.cpp:229
-#: skycomponents/customcatalogcomponent.cpp:238
-#: skycomponents/customcatalogcomponent.cpp:247
-#: skycomponents/customcatalogcomponent.cpp:257
-#: skycomponents/customcatalogcomponent.cpp:270
-#: skycomponents/customcatalogcomponent.cpp:281
-#: skycomponents/customcatalogcomponent.cpp:312
-#: skycomponents/customcatalogcomponent.cpp:317
-#: skycomponents/customcatalogcomponent.cpp:328
-#: skycomponents/customcatalogcomponent.cpp:334
-#: skycomponents/customcatalogcomponent.cpp:340
-#: skycomponents/customcatalogcomponent.cpp:345
-#: skycomponents/customcatalogcomponent.cpp:350
-#: skycomponents/customcatalogcomponent.cpp:355
-msgid "Parsing header: "
-msgstr "Interpretando la cabecera: "
-
-#: skycomponents/customcatalogcomponent.cpp:230
-#, kde-format
-msgid "Extra Name field in header: %1.  Will be ignored"
-msgstr "Nome estra na cabecera: %1.  Inoraráse"
-
-#: skycomponents/customcatalogcomponent.cpp:239
-#, kde-format
-msgid "Extra Prefix field in header: %1.  Will be ignored"
-msgstr "Prefixu estra na cabecera: %1.  Inoraráse"
-
-#: skycomponents/customcatalogcomponent.cpp:248
-#, kde-format
-msgid "Extra Color field in header: %1.  Will be ignored"
-msgstr "Color estra na cabecera: %1.  Inoraráse"
-
-#: skycomponents/customcatalogcomponent.cpp:258
-#, kde-format
-msgid "Could not convert Epoch to float: %1.  Using 2000. instead"
-msgstr "Nun se pudo convertir la época a «float»: %1. Usando 2000"
-
-#: skycomponents/customcatalogcomponent.cpp:271
-#, fuzzy, kde-format
-msgid "Extra Flux Frequency field in header: %1.  Will be ignored"
-msgstr "Color estra na cabecera: %1.  Inoraráse"
-
-#: skycomponents/customcatalogcomponent.cpp:282
-#, fuzzy, kde-format
-msgid "Extra Flux Unit field in header: %1.  Will be ignored"
-msgstr "Color estra na cabecera: %1.  Inoraráse"
-
-#: skycomponents/customcatalogcomponent.cpp:313
-#, kde-format
-msgid "Duplicate data field descriptor \"%1\" will be ignored"
-msgstr "Inoraráse'l descriptor de campu de datos duplicáu «%1»"
-
-#: skycomponents/customcatalogcomponent.cpp:318
-#, kde-format
-msgid "Invalid data field descriptor \"%1\" will be ignored"
-msgstr "Inoraráse'l descriptor de campu de datos inválidu «%1»"
-
-#: skycomponents/customcatalogcomponent.cpp:329
-msgid "No valid column descriptors found.  Exiting"
-msgstr "Nun s'alcontraron descriptores de columna válidos. Colando"
-
-#: skycomponents/customcatalogcomponent.cpp:335
-msgid "No data lines found after header.  Exiting."
-msgstr "Nun s'alcontraron llinies de datos tres la cabecera. Colando."
-
-#: skycomponents/customcatalogcomponent.cpp:341
-msgid "No Catalog Name specified; setting to \"Custom\""
-msgstr "Nun s'especificó el nome del catálogu; afitándolu a «personalizáu»"
-
-#: skycomponents/customcatalogcomponent.cpp:346
-msgid "No Catalog Prefix specified; setting to \"CC\""
-msgstr "Nun s'especificó'l prefixu del catálogu, afitándolu a «CC»"
-
-#: skycomponents/customcatalogcomponent.cpp:351
-msgid "No Catalog Color specified; setting to Red"
-msgstr "Nun s'especificó el color del catálogu, afitándolu a bermeyu"
-
-#: skycomponents/customcatalogcomponent.cpp:356
-msgid "No Catalog Epoch specified; assuming 2000."
-msgstr "Nun s'especificó la dómina del catálogu, asumiendo 2000."
-
-#: skycomponents/customcatalogcomponent.cpp:385
-#, kde-format
-msgid "Line %1, field %2: Unable to parse RA value: %3"
-msgstr "Llinia %1, campu %2: Imposible interpretar el valor de AR: %3"
-
-#: skycomponents/customcatalogcomponent.cpp:394
-#, kde-format
-msgid "Line %1, field %2: Unable to parse Dec value: %3"
-msgstr "Llinia %1, campu %2: Imposible interpretar el valor de Dec: %3"
-
-#: skycomponents/customcatalogcomponent.cpp:406
-#, kde-format
-msgid "Line %1, field %2: Invalid object type: %3"
-msgstr "Llinia %1, campu %2: Tipu d'oxetu inválidu: %3"
-
-#: skycomponents/customcatalogcomponent.cpp:408
-#, fuzzy
-msgid "Must be one of 0, 1, 3, 4, 5, 6, 7, 8, 18"
-msgstr "Tien de ser 0, 1, 3, 4, 5, 6, 7 u 8."
-
-#: skycomponents/customcatalogcomponent.cpp:413
-#, kde-format
-msgid "Line %1, field %2: Unable to parse Object type: %3"
-msgstr "Llinia %1, campu %2: Imposible interpretar tipu d'oxetu: %3"
-
-#: skycomponents/customcatalogcomponent.cpp:424
-#, kde-format
-msgid "Line %1, field %2: Unable to parse Magnitude: %3"
-msgstr "Llinia %1, campu %2: Imposible interpretar magnitú: %3"
-
-#: skycomponents/customcatalogcomponent.cpp:435
-#, fuzzy, kde-format
-msgid "Line %1, field %2: Unable to parse Flux: %3"
-msgstr "Llinia %1, campu %2: Imposible interpretar el valor de AR: %3"
-
-#: skycomponents/customcatalogcomponent.cpp:446
-#, kde-format
-msgid "Line %1, field %2: Unable to parse Major Axis: %3"
-msgstr "Llinia %1, campu %2: Imposible interpretar exe mayor: %3"
-
-#: skycomponents/customcatalogcomponent.cpp:457
-#, kde-format
-msgid "Line %1, field %2: Unable to parse Minor Axis: %3"
-msgstr "Llinia %1, campu %2: Imposible interpretar exe menor: %3"
-
-#: skycomponents/customcatalogcomponent.cpp:468
-#, kde-format
-msgid "Line %1, field %2: Unable to parse Position Angle: %3"
-msgstr "Llinia %1, campu %2: Imposible interpretar ángulu de posición: %3"
-
-#: skycomponents/deepskycomponent.cpp:73
-msgid "Loading NGC/IC objects"
-msgstr "Cargando oxetos NGC/IC"
-
-#: skycomponents/deepskycomponent.cpp:184
-msgid "Unnamed Object"
-msgstr "Oxetu ensin nome"
-
-#: skycomponents/flagcomponent.cpp:207
-msgid "No icon"
-msgstr ""
-
-#: skycomponents/flagcomponent.cpp:209
-msgid "Default"
-msgstr ""
-
-#: skycomponents/horizoncomponent.cpp:40
-msgid "Creating horizon"
-msgstr "Creando horizonte"
-
-#: skycomponents/horizoncomponent.cpp:329
-msgid "Unrecognized coordinate projection: "
-msgstr "Proyeición de coordenaes desconocida: "
-
-#: skycomponents/horizoncomponent.cpp:463
-msgctxt "Northeast"
-msgid "NE"
-msgstr "NE"
-
-#: skycomponents/horizoncomponent.cpp:464
-msgctxt "East"
-msgid "E"
-msgstr "E"
-
-#: skycomponents/horizoncomponent.cpp:465
-msgctxt "Southeast"
-msgid "SE"
-msgstr "SE"
-
-#: skycomponents/horizoncomponent.cpp:466
-msgctxt "South"
-msgid "S"
-msgstr "S"
-
-#: skycomponents/horizoncomponent.cpp:467
-msgctxt "Southwest"
-msgid "SW"
-msgstr "SO"
-
-#: skycomponents/horizoncomponent.cpp:468
-msgctxt "West"
-msgid "W"
-msgstr "O"
-
-#: skycomponents/horizoncomponent.cpp:469
-msgctxt "Northwest"
-msgid "NW"
-msgstr "NO"
-
-#: skycomponents/horizoncomponent.cpp:470
-msgctxt "North"
-msgid "N"
-msgstr "N"
-
-#: skycomponents/linelistindex.cpp:226
-#, kde-format
-msgid "Loading %1"
-msgstr "Cargando %1"
-
-#: skycomponents/milkyway.cpp:44
-msgid "Loading Milky Way"
-msgstr "Cargando Vía Lláctea"
-
-#: skycomponents/milkyway.cpp:46
-msgid "Loading Large Magellanic Clouds"
-msgstr "Cargando Gran Nube de Magallanes"
-
-#: skycomponents/milkyway.cpp:47
-msgid "Loading Small Magellanic Clouds"
-msgstr "Cargando Pequeña Nube de Magallanes"
-
-#: skycomponents/notifyupdatesui.cpp:35
-msgid "New Supernova(e) discovered!"
-msgstr ""
-
-#: skycomponents/satellitescomponent.cpp:47
-#, fuzzy
-#| msgid "Loading asteroids"
-msgid "Loading satellites"
-msgstr "Cargando asteroides"
-
-#: skycomponents/satellitescomponent.cpp:115 tools/conjunctions.cpp:329
-msgid "Abort"
-msgstr ""
-
-#: skycomponents/satellitescomponent.cpp:115
-#, fuzzy
-#| msgid "Update"
-msgid "Update TLEs..."
-msgstr "Anovar"
-
-#: skycomponents/satellitescomponent.cpp:126
-#, fuzzy, kde-format
-#| msgid "Creating Earth satellites"
-msgid "Update %1 satellites"
-msgstr "Cargando satélites terrestres"
-
-#: skycomponents/skymapcomposite.cpp:486
-#, kde-format
-msgid "Could not find custom catalog component named %1."
-msgstr "Imposible alcontrar un componente del catálogu personalizáu denomáu %1"
-
-#: skycomponents/solarsystemcomposite.cpp:40
-msgid "Loading solar system"
-msgstr "Cargando sistema solar"
-
-#: skycomponents/starcomponent.cpp:75
-msgid "Loading stars"
-msgstr "Cargando estrelles"
-
-#: skycomponents/starcomponent.cpp:150
-msgid "Please wait while re-indexing stars ..."
-msgstr "Por favor, espere mientres se refái l'índiz d'estrelles..."
-
-#: skycomponents/supernovaecomponent.cpp:234
-msgid "Supernova information update failed"
-msgstr ""
-
 #: skymap.cpp:348
 #, fuzzy, kde-format
 #| msgid "%1<sup>m</sup>, %2"
@@ -39318,333 +37632,6 @@ msgstr ""
 msgid "Run : %1"
 msgstr ""
 
-#: skyobjects/jupitermoons.cpp:28
-msgctxt "Jupiter's moon Io"
-msgid "Io"
-msgstr "Io"
-
-#: skyobjects/jupitermoons.cpp:29
-msgctxt "Jupiter's moon Europa"
-msgid "Europa"
-msgstr "Europa"
-
-#: skyobjects/jupitermoons.cpp:30
-msgctxt "Jupiter's moon Ganymede"
-msgid "Ganymede"
-msgstr "Ganímedes"
-
-#: skyobjects/jupitermoons.cpp:31
-msgctxt "Jupiter's moon Callisto"
-msgid "Callisto"
-msgstr "Calisto"
-
-#: skyobjects/ksmoon.cpp:250
-msgctxt "moon phase, 100 percent illuminated"
-msgid "Full moon"
-msgstr "Lluna llena"
-
-#: skyobjects/ksmoon.cpp:251
-msgctxt "moon phase, 0 percent illuminated"
-msgid "New moon"
-msgstr "Lluna nueva"
-
-#: skyobjects/ksmoon.cpp:253
-msgctxt "moon phase, half-illuminated and growing"
-msgid "First quarter"
-msgstr "Cuartu creciente"
-
-#: skyobjects/ksmoon.cpp:254
-msgctxt "moon phase, half-illuminated and shrinking"
-msgid "Third quarter"
-msgstr "Cuartu menguante"
-
-#: skyobjects/ksmoon.cpp:258
-msgctxt "moon phase between new moon and 1st quarter"
-msgid "Waxing crescent"
-msgstr "Media lluna creciente"
-
-#: skyobjects/ksmoon.cpp:259
-msgctxt "moon phase between 1st quarter and full moon"
-msgid "Waxing gibbous"
-msgstr "Gibosa creciente"
-
-#: skyobjects/ksmoon.cpp:260
-msgctxt "moon phase between full moon and 3rd quarter"
-msgid "Waning gibbous"
-msgstr "Gibosa decreciente"
-
-#: skyobjects/ksmoon.cpp:261
-msgctxt "moon phase between 3rd quarter and new moon"
-msgid "Waning crescent"
-msgstr "Media lluna decreciente"
-
-#: skyobjects/ksmoon.cpp:263
-msgid "unknown"
-msgstr "desconocíu"
-
-#: skyobjects/ksplanet.cpp:146
-#, kde-format
-msgid "Error: Illegal identifier in KSPlanet constructor: %1"
-msgstr "Fallu: identificador illegal nel constructor de KSPlanet: %1"
-
-#: skyobjects/ksplanetbase.cpp:217
-msgid "KSPlanetBase::setRearth():  Error: Need an Earth pointer.  ("
-msgstr ""
-"KSPlanetBase::setRearth():  Fallu: Ye necesario un punteru na Tierra.  ("
-
-#: skyobjects/ksplanetbase.h:73 skyobjects/skyobject.cpp:40
-msgid "unnamed"
-msgstr "ensin nome"
-
-#: skyobjects/skyline.cpp:40
-#, kde-format
-msgid "SkyLine index error: no such point: %1"
-msgstr "Fallu d'índiz de la llinia del cielu: nun esiste esi puntu: %1"
-
-#: skyobjects/skyline.cpp:48
-#, kde-format
-msgid "SkyLine index error: no such segment: %1"
-msgstr "Fallu d'índiz de la llinia del cielu: nun esiste esi segmentu: %1"
-
-#: skyobjects/skyobject.cpp:41
-msgid "unnamed object"
-msgstr "Oxetu ensin nome"
-
-#: skyobjects/skyobject.cpp:323
-msgid "Star"
-msgstr "Estrella"
-
-#: skyobjects/skyobject.cpp:325
-msgid "Catalog Star"
-msgstr "Estrella de catálogu"
-
-#: skyobjects/skyobject.cpp:327
-msgid "Planet"
-msgstr "Planeta"
-
-#: skyobjects/skyobject.cpp:341
-msgid "Comet"
-msgstr "Cometa"
-
-#: skyobjects/skyobject.cpp:343
-msgid "Asteroid"
-msgstr "Asteroide"
-
-#: skyobjects/skyobject.cpp:345
-#, fuzzy
-#| msgid "Constellations"
-msgid "Constellation"
-msgstr "Constelaciones"
-
-#: skyobjects/skyobject.cpp:349
-#, fuzzy
-#| msgid "galaxy cluster"
-msgid "Galaxy Cluster"
-msgstr "cúmulu galácticu"
-
-#: skyobjects/skyobject.cpp:351
-#, fuzzy
-#| msgid "Satellite Track"
-msgid "Satellite"
-msgstr "Rastréu de satélite"
-
-#: skyobjects/skyobject.cpp:353
-#, fuzzy
-#| msgid "Supernova Remnant"
-msgid "Supernova"
-msgstr "Restu de supernova"
-
-#: skyobjects/skyobject.cpp:355
-#, fuzzy
-msgid "Radio Source"
-msgstr "Fuente de actualización"
-
-#: skyobjects/skyobject.cpp:363
-#, fuzzy
-#| msgid "multiple star"
-msgid "Multiple Star"
-msgstr "estrella múltiple"
-
-#: skyobjects/skyobject.cpp:365
-msgid "Unknown Type"
-msgstr "Tipu desconocíu"
-
-#: skyobjects/skyobject.cpp:378
-msgid "Show HST Image"
-msgstr "Amosar imaxe HST"
-
-#: skyobjects/skyobject.cpp:379
-#, kde-format
-msgid "%1: Hubble Space Telescope, operated by STScI for NASA [public domain]"
-msgstr "%1: Hubble Space Telescope, operáu por STScI pa NASA [dominiu públicu]"
-
-#: skyobjects/skyobject.cpp:382
-msgid "Show Spitzer Image"
-msgstr "Amosar imaxe Spitzer"
-
-#: skyobjects/skyobject.cpp:383
-#, kde-format
-msgid "%1: Spitzer Space Telescope, courtesy NASA/JPL-Caltech [public domain]"
-msgstr ""
-"%1: Telescopiu espacial Spitzer, cortesía de NASA/JPL - Caltech [dominiu "
-"públicu]"
-
-#: skyobjects/skyobject.cpp:386
-msgid "Show SEDS Image"
-msgstr "Amosar imaxe SEDS"
-
-#: skyobjects/skyobject.cpp:387
-#, kde-format
-msgid "%1: SEDS, http://www.seds.org [free for non-commercial use]"
-msgstr "%1: SEDS, http://www.seds.org [llibre pa usos non comerciales]"
-
-#: skyobjects/skyobject.cpp:390
-msgid "Show KPNO AOP Image"
-msgstr "Amosar imaxe KPNO AOP"
-
-#: skyobjects/skyobject.cpp:391
-#, kde-format
-msgid ""
-"%1: Advanced Observing Program at Kitt Peak National Observatory [free for "
-"non-commercial use; no physical reproductions]"
-msgstr ""
-"%1: Programa d'observación avanzáu del Kitt Peak National Observatory llibre "
-"usu pa fines non comerciales, reproducciones físiques non autorizaes]"
-
-#: skyobjects/skyobject.cpp:394
-msgid "Show NOAO Image"
-msgstr "Amosar imaxe NOAO"
-
-#: skyobjects/skyobject.cpp:395
-#, kde-format
-msgid ""
-"%1: National Optical Astronomy Observatories and AURA [free for non-"
-"commercial use]"
-msgstr ""
-"%1: National Optical Astronomy Observatories y AURA [llibre pa usos non "
-"comerciales]"
-
-#: skyobjects/skyobject.cpp:399
-#, kde-format
-msgid ""
-"%1: Very Large Telescope, operated by the European Southern Observatory "
-"[free for non-commercial use; no reproductions]"
-msgstr ""
-"%1: Very Large Telescope, operáu pol European Southern Observatory [llibre "
-"pa usos non comerciales, reproducciones non permitíes]"
-
-#: skyobjects/skyobject.cpp:402
-msgid "Show"
-msgstr "Amosar"
-
-#: skyobjects/skyobject.cpp:456
-msgid "Cannot write to user log file"
-msgstr "Imposible escribir nel ficheru de rexistru del usuariu"
-
-#: skyobjects/skypoint.cpp:124 skyobjects/skypoint.cpp:127
-msgid "Coordinate out of range."
-msgstr "Coordenaes fuera de rangu."
-
-#: skyobjects/skypoint.cpp:351
-msgid "lat and LST parameters should only be used in KSPlanetBase objects."
-msgstr "Los parámetros lat y LST únicamente deben usase n'oxetos KSPlanetBase."
-
-#: skyobjects/starobject.cpp:356
-msgid "alpha"
-msgstr "alfa"
-
-#: skyobjects/starobject.cpp:357
-msgid "beta"
-msgstr "beta"
-
-#: skyobjects/starobject.cpp:358
-msgid "gamma"
-msgstr "gamma"
-
-#: skyobjects/starobject.cpp:359
-msgid "delta"
-msgstr "delta"
-
-#: skyobjects/starobject.cpp:360
-msgid "epsilon"
-msgstr "epsilon"
-
-#: skyobjects/starobject.cpp:361
-msgid "zeta"
-msgstr "zeta"
-
-#: skyobjects/starobject.cpp:362
-msgid "eta"
-msgstr "eta"
-
-#: skyobjects/starobject.cpp:363
-msgid "theta"
-msgstr "theta"
-
-#: skyobjects/starobject.cpp:364
-msgid "iota"
-msgstr "iota"
-
-#: skyobjects/starobject.cpp:365
-msgid "kappa"
-msgstr "kappa"
-
-#: skyobjects/starobject.cpp:366
-msgid "lambda"
-msgstr "lambda"
-
-#: skyobjects/starobject.cpp:367
-msgid "mu"
-msgstr "mu"
-
-#: skyobjects/starobject.cpp:368
-msgid "nu"
-msgstr "nu"
-
-#: skyobjects/starobject.cpp:369
-msgid "xi"
-msgstr "xi"
-
-#: skyobjects/starobject.cpp:370
-msgid "omicron"
-msgstr "omicron"
-
-#: skyobjects/starobject.cpp:371
-msgid "pi"
-msgstr "pi"
-
-#: skyobjects/starobject.cpp:372
-msgid "rho"
-msgstr "rho"
-
-#: skyobjects/starobject.cpp:375
-msgid "sigma"
-msgstr "sigma"
-
-#: skyobjects/starobject.cpp:376
-msgid "tau"
-msgstr "tau"
-
-#: skyobjects/starobject.cpp:377
-msgid "upsilon"
-msgstr "upsilon"
-
-#: skyobjects/starobject.cpp:378
-msgid "phi"
-msgstr "phi"
-
-#: skyobjects/starobject.cpp:379
-msgid "chi"
-msgstr "chi"
-
-#: skyobjects/starobject.cpp:380
-msgid "psi"
-msgstr "psi"
-
-#: skyobjects/starobject.cpp:381
-msgid "omega"
-msgstr "omega"
-
 #: thumbnaileditor.cpp:43
 #, kde-format
 msgid "Crop region will be scaled to [ %1 * %2 ]"
@@ -39671,10 +37658,6 @@ msgstr "Fallu al cargar imaxe en %1"
 #: thumbnailpicker.cpp:301
 msgid "Failed to load image"
 msgstr "Fallu al cargar imaxe"
-
-#: thumbnailpicker.h:47
-msgid "Choose Thumbnail Image"
-msgstr "Escoyer imaxe miniaturizada"
 
 #: timezonerule.cpp:42
 msgid "Error parsing TimeZoneRule, setting to empty rule."
@@ -40600,6 +38583,354 @@ msgstr ""
 "\t\t</p>\n"
 "\t\n"
 
+#: thumbnailpicker.h:47
+msgid "Choose Thumbnail Image"
+msgstr "Escoyer imaxe miniaturizada"
+
+#: printing/detailstable.cpp:88 printing/detailstable.cpp:176
+#: printing/detailstable.cpp:283 printing/pwizobjectselection.cpp:111
+#: printing/pwizobjectselection.cpp:149 dialogs/detaildialog.cpp:146
+#: dialogs/detaildialog.cpp:209 dialogs/detaildialog.cpp:240
+#: dialogs/detaildialog.cpp:285
+#, kde-format
+msgctxt "number in magnitudes"
+msgid "%1 mag"
+msgstr "%1 mag"
+
+#: printing/detailstable.cpp:98 dialogs/detaildialog.cpp:161
+msgctxt "larger than 2000 parsecs"
+msgid "> 2000 pc"
+msgstr "> 2000 pc"
+
+#: printing/detailstable.cpp:103 printing/detailstable.cpp:108
+#: printing/detailstable.cpp:113 dialogs/detaildialog.cpp:163
+#: dialogs/detaildialog.cpp:166 dialogs/detaildialog.cpp:169
+#, kde-format
+msgctxt "number in parsecs"
+msgid "%1 pc"
+msgstr "%1 pc"
+
+#: printing/detailstable.cpp:119 printing/detailstable.cpp:125
+#: dialogs/detaildialog.cpp:177 dialogs/detaildialog.cpp:180
+msgctxt "the star is a multiple star"
+msgid "multiple"
+msgstr "múltiple"
+
+#: printing/detailstable.cpp:120 printing/detailstable.cpp:130
+#: dialogs/detaildialog.cpp:178 dialogs/detaildialog.cpp:182
+msgctxt "the star is a variable star"
+msgid "variable"
+msgstr "variable"
+
+#: printing/detailstable.cpp:152 printing/pwizobjectselection.cpp:130
+#: dialogs/detaildialog.cpp:194
+msgid "G5 star"
+msgstr "estrella G5"
+
+#: printing/detailstable.cpp:162 printing/pwizobjectselection.cpp:140
+#: dialogs/detaildialog.cpp:198
+msgid "Dwarf planet"
+msgstr "Planeta nanu"
+
+#: printing/detailstable.cpp:181 dialogs/detaildialog.cpp:214
+#, kde-format
+msgctxt "distance in kilometers"
+msgid "%1 km"
+msgstr "%1 km"
+
+#: printing/detailstable.cpp:186 dialogs/detaildialog.cpp:217
+#, kde-format
+msgctxt "distance in Astronomical Units"
+msgid "%1 AU"
+msgstr "%1 UA"
+
+#: printing/detailstable.cpp:195 printing/detailstable.cpp:292
+#: printing/detailstable.cpp:297 dialogs/detaildialog.cpp:224
+#: dialogs/detaildialog.cpp:293 dialogs/detaildialog.cpp:296
+#, kde-format
+msgctxt "angular size in arcminutes"
+msgid "%1 arcmin"
+msgstr "%1 minutos d'arcu"
+
+#: printing/detailstable.cpp:200 dialogs/detaildialog.cpp:227
+#, kde-format
+msgctxt "angular size in arcseconds"
+msgid "%1 arcsec"
+msgstr "%1 segundos d'arcu"
+
+#: printing/detailstable.cpp:271 dialogs/detaildialog.cpp:278
+#, kde-format
+msgctxt "integrated flux at a frequency"
+msgid "Flux(%1):"
+msgstr ""
+
+#: printing/detailstable.cpp:272 dialogs/detaildialog.cpp:279
+#, kde-format
+msgctxt "integrated flux value"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: printing/detailstable.cpp:317 dialogs/detaildialog.cpp:427
+#, kde-format
+msgctxt ""
+"%1 type of sky object (planet, asteroid etc), %2 name of a constellation"
+msgid "%1 in %2"
+msgstr ""
+
+#: printing/detailstable.cpp:336
+#, fuzzy
+#| msgid "Name:"
+msgid "Names:"
+msgstr "Nome:"
+
+#: printing/detailstable.cpp:356
+msgid "B-V index:"
+msgstr ""
+
+#: printing/detailstable.cpp:394 printing/detailstable.cpp:431
+#, fuzzy
+#| msgctxt "City in Jeonnam Korea"
+#| msgid "Yeosu"
+msgid "Yes"
+msgstr "Yeosu"
+
+#: printing/detailstable.cpp:394 printing/detailstable.cpp:431
+#, fuzzy
+#| msgid "Now"
+msgid "No"
+msgstr "Agora"
+
+#: printing/detailstable.cpp:470
+msgid "Asteroid/Comet details"
+msgstr ""
+
+#: printing/detailstable.cpp:542 dialogs/detaildialog.cpp:448
+#, kde-format
+msgid "RA (%1):"
+msgstr "AR (%1):"
+
+#: printing/detailstable.cpp:546 dialogs/detaildialog.cpp:449
+#, kde-format
+msgid "Dec (%1):"
+msgstr "Dec (%1):"
+
+#: printing/detailstable.cpp:645 printing/detailstable.cpp:646
+#: tools/modcalcdaylength.cpp:142 tools/modcalcdaylength.cpp:144
+#: tools/modcalcdaylength.cpp:187 tools/modcalcdaylength.cpp:189
+#: dialogs/detaildialog.cpp:508 dialogs/detaildialog.cpp:509
+msgid "Circumpolar"
+msgstr "Circumpolar"
+
+#: printing/detailstable.cpp:651 printing/detailstable.cpp:652
+#: dialogs/detaildialog.cpp:511 dialogs/detaildialog.cpp:512
+msgid "Never rises"
+msgstr "Siempres per embaxo l'horizonte"
+
+#: printing/detailstable.cpp:655 printing/detailstable.cpp:656
+#: dialogs/detaildialog.cpp:515 dialogs/detaildialog.cpp:516
+msgctxt "Not Applicable"
+msgid "N/A"
+msgstr "N/D"
+
+#: printing/finderchart.cpp:93
+#, fuzzy
+#| msgid "Specify image location:"
+msgid "Date, time and location: "
+msgstr "Especificar ubicación de la imaxe"
+
+#: printing/foveditordialog.cpp:29
+msgid "Field of View Snapshot Browser"
+msgstr ""
+
+#: printing/foveditordialog.cpp:159 dialogs/exportimagedialog.cpp:189
+#, kde-format
+msgid "Error: Unable to save image: %1 "
+msgstr "Fallu: Imposible guardar la imaxe: %1 "
+
+#: printing/foveditordialog.cpp:164 dialogs/exportimagedialog.cpp:194
+#, kde-format
+msgid "Image saved to file: %1"
+msgstr "Imaxe guardada nel ficheru: %1"
+
+#: printing/foveditordialog.cpp:222
+#, kde-format
+msgid "FOV (%1/%2): %3 (%4' x %5')"
+msgstr ""
+
+#: printing/legend.cpp:351 printing/legend.cpp:386
+#: skyobjects/skyobject.cpp:329
+msgid "Open Cluster"
+msgstr "Cúmulu abiertu"
+
+#: printing/legend.cpp:351 printing/legend.cpp:386
+#: skyobjects/skyobject.cpp:357
+#, fuzzy
+#| msgid "asterism"
+msgid "Asterism"
+msgstr "asterismu"
+
+#: printing/legend.cpp:356 printing/legend.cpp:391
+#: skyobjects/skyobject.cpp:331
+msgid "Globular Cluster"
+msgstr "Cúmulu globular"
+
+#: printing/legend.cpp:360 printing/legend.cpp:395
+#: skyobjects/skyobject.cpp:333
+msgid "Gaseous Nebula"
+msgstr "Nebulosa gaseosa"
+
+#: printing/legend.cpp:360 printing/legend.cpp:395
+#: skyobjects/skyobject.cpp:359
+#, fuzzy
+#| msgid "dark nebula"
+msgid "Dark Nebula"
+msgstr "nebulosa escura"
+
+#: printing/legend.cpp:365 printing/legend.cpp:400
+#: skyobjects/skyobject.cpp:335
+msgid "Planetary Nebula"
+msgstr "Nebulosa planetaria"
+
+#: printing/legend.cpp:369 printing/legend.cpp:404
+#: skyobjects/skyobject.cpp:337
+msgid "Supernova Remnant"
+msgstr "Restu de supernova"
+
+#: printing/legend.cpp:373 printing/legend.cpp:408
+#: skyobjects/skyobject.cpp:339
+msgid "Galaxy"
+msgstr "Galaxa"
+
+#: printing/legend.cpp:373 printing/legend.cpp:408
+#: skyobjects/skyobject.cpp:361
+#, fuzzy
+#| msgid "quasar"
+msgid "Quasar"
+msgstr "quásar"
+
+#: printing/legend.cpp:378 printing/legend.cpp:413
+#, fuzzy
+#| msgid "Globular Cluster"
+msgid "Galactic Cluster"
+msgstr "Cúmulu globular"
+
+#: printing/legend.cpp:440
+#, fuzzy
+#| msgid "Magnitude:"
+msgid "Star Magnitudes:"
+msgstr "Magnitú:"
+
+#: printing/legend.cpp:507 printing/legend.cpp:524
+#, fuzzy
+#| msgid "Linear Scale"
+msgid "Chart Scale:"
+msgstr "Escaláu llinial"
+
+#: printing/loggingform.cpp:52
+#, fuzzy
+#| msgid "Server"
+msgid "Observer:"
+msgstr "Sirvidor"
+
+#: printing/loggingform.cpp:60
+msgid "Site:"
+msgstr ""
+
+#: printing/loggingform.cpp:62
+#, fuzzy
+#| msgid "Transit:"
+msgid "Trans:"
+msgstr "Tránsitu:"
+
+#: printing/loggingform.cpp:69
+msgid "Power:"
+msgstr ""
+
+#: printing/printingwizard.cpp:221
+msgid ""
+"Star hopper returned empty path. We advise you to change star hopping "
+"settings or use manual capture mode."
+msgstr ""
+
+#: printing/printingwizard.cpp:222
+msgid "Star hopper failed to find path"
+msgstr ""
+
+#: printing/printingwizard.cpp:401
+#, fuzzy
+#| msgid "Observing List Wizard"
+msgid "Printing Wizard"
+msgstr "Asistente de llista d'observación"
+
+#: printing/printingwizard.cpp:523
+#, fuzzy
+#| msgid "Loading comets"
+msgid "Logging Form"
+msgstr "Cargando cometes"
+
+#: printing/printingwizard.cpp:527
+msgid "Field of View Snapshots"
+msgstr ""
+
+#: printing/printingwizard.cpp:533
+msgid "FOV ("
+msgstr ""
+
+#: printing/printingwizard.cpp:535 printing/printingwizard.cpp:536
+msgid "'"
+msgstr ""
+
+#: printing/printingwizard.cpp:545
+msgid "Details About Object"
+msgstr ""
+
+#: printing/pwizfovconfig.cpp:65 dialogs/exportimagedialog.cpp:247
+msgid "Scale with magnitudes chart"
+msgstr ""
+
+#: printing/pwizfovconfig.cpp:65 dialogs/exportimagedialog.cpp:247
+msgid "Only scale"
+msgstr ""
+
+#: printing/pwizfovconfig.cpp:65
+#, fuzzy
+#| msgid "(magnitude)"
+msgid "Only magnitudes chart"
+msgstr "(magnitú)"
+
+#: printing/pwizfovconfig.cpp:68 dialogs/exportimagedialog.cpp:243
+#, fuzzy
+#| msgid "Horizontal "
+msgid "Horizontal"
+msgstr "Horizontal "
+
+#: printing/pwizfovconfig.cpp:69 dialogs/exportimagedialog.cpp:244
+#, fuzzy
+msgid "Vertical"
+msgstr "Ocala"
+
+#: printing/pwizfovconfig.cpp:72 dialogs/exportimagedialog.cpp:252
+msgid "Upper left corner"
+msgstr ""
+
+#: printing/pwizfovconfig.cpp:72 dialogs/exportimagedialog.cpp:252
+msgid "Upper right corner"
+msgstr ""
+
+#: printing/pwizfovconfig.cpp:72 dialogs/exportimagedialog.cpp:252
+msgid "Lower left corner"
+msgstr ""
+
+#: printing/pwizfovconfig.cpp:73 dialogs/exportimagedialog.cpp:253
+msgid "Lower right corner"
+msgstr ""
+
+#: printing/pwizprint.cpp:125
+#, fuzzy, kde-format
+#| msgid "Could not upload image to remote location: %1"
+msgid "Could not upload file to remote location: %1"
+msgstr "Imposible cargar imaxe na ubicación remota: %1"
+
 #: tools/altvstime.cpp:61 tools/skycalendar.cpp:87
 msgid "&Print..."
 msgstr "&Imprentar..."
@@ -40780,6 +39111,26 @@ msgstr "Día Xulianu"
 msgid "Single Object..."
 msgstr ""
 
+#: tools/conjunctions.cpp:72 dialogs/finddialog.cpp:36
+msgid "Any"
+msgstr "Cualesquier"
+
+#: tools/conjunctions.cpp:78 dialogs/finddialog.cpp:39
+msgid "Open Clusters"
+msgstr "Cúmulos abiertos"
+
+#: tools/conjunctions.cpp:79 dialogs/finddialog.cpp:40
+msgid "Globular Clusters"
+msgstr "Cúmulos globulares"
+
+#: tools/conjunctions.cpp:80 dialogs/finddialog.cpp:41
+msgid "Gaseous Nebulae"
+msgstr "Nebuloses gaseoses"
+
+#: tools/conjunctions.cpp:81 dialogs/finddialog.cpp:42
+msgid "Planetary Nebulae"
+msgstr "Nebuloses planetaries"
+
 #: tools/conjunctions.cpp:106
 msgid "Conjunction/Opposition"
 msgstr ""
@@ -40814,6 +39165,10 @@ msgstr "Esbille dos oxetos diferentes colos que comprobar conxunciones."
 msgid "Compute conjunction..."
 msgstr ""
 
+#: tools/conjunctions.cpp:329 skycomponents/satellitescomponent.cpp:115
+msgid "Abort"
+msgstr ""
+
 #: tools/conjunctions.cpp:341
 #, kde-format
 msgid "Compute conjunction between %1 and %2"
@@ -40846,6 +39201,19 @@ msgstr "Iconu"
 #: tools/flagmanager.cpp:58
 msgid "Label"
 msgstr ""
+
+#: tools/flagmanager.cpp:164 dialogs/focusdialog.cpp:88
+msgid "The Right Ascension value must be between 0.0 and 24.0."
+msgstr "El valor d'ascensión reuta tien de tar ente 0.0 y 24.0."
+
+#: tools/flagmanager.cpp:166 dialogs/focusdialog.cpp:90
+msgid "The Declination value must be between -90.0 and 90.0."
+msgstr "El valor de declinación tien de tar ente -90.0 y 90.0."
+
+#: tools/flagmanager.cpp:168 dialogs/focusdialog.cpp:92
+#: dialogs/focusdialog.cpp:114
+msgid "Invalid Coordinate Data"
+msgstr "Coordenaes non válides"
 
 #: tools/jmoontool.cpp:47
 msgid "Jupiter Moons Tool"
@@ -41099,6 +39467,12 @@ msgstr ""
 msgid "observing notes for %1:"
 msgstr "notes d'observación pa %1:"
 
+#: tools/observinglist.cpp:505 tools/observinglist.cpp:724
+#: dialogs/detaildialog.cpp:604 skyobjects/skyobject.cpp:419
+#, kde-format
+msgid "Record here observation logs and/or data on %1."
+msgstr "Atroxar equí rexistros d'observación y/o información sobro %1."
+
 #: tools/observinglist.cpp:517
 msgid "observing notes (disabled for unnamed star)"
 msgstr "notes d'observación (desactiváu pa estrelles ensin nome)"
@@ -41111,6 +39485,16 @@ msgstr ""
 #: tools/observinglist.cpp:554
 msgid "Select a single object to record notes on it here:"
 msgstr ""
+
+#: tools/observinglist.cpp:591 tools/observinglist.cpp:621
+#: dialogs/detaildialog.cpp:1005 dialogs/detaildialog.cpp:1035
+msgid "KStars did not find any active telescopes."
+msgstr "KStars nun alcontró dengún telescopiu activu."
+
+#: tools/observinglist.cpp:607 dialogs/detaildialog.cpp:1021
+#, kde-format
+msgid "Telescope %1 is offline. Please connect and retry again."
+msgstr "El telescopiu %1 nun ta coneutáu. Conéutelu ya téntelo otra vegada."
 
 #: tools/observinglist.cpp:727
 msgid "Observing notes for object:"
@@ -41149,11 +39533,11 @@ msgid "Find &Object"
 msgstr "Guetar oxetu"
 
 #: tools/observinglist.cpp:1167
-msgid "Delete All Images"
+msgid "This will delete all saved images. Are you sure you want to do this?"
 msgstr ""
 
 #: tools/observinglist.cpp:1167
-msgid "This will delete all saved images. Are you sure you want to do this?"
+msgid "Delete All Images"
 msgstr ""
 
 #: tools/observinglist.cpp:1260
@@ -41855,9 +40239,26 @@ msgstr ""
 "los cometes más cerca del Sol qu'esta cantidá (en UA) etiquétense sobro'l "
 "mapa"
 
+#: tools/scriptbuilder.cpp:932 options/opscolors.cpp:61
+msgctxt "use 'moonless night' color scheme"
+msgid "Moonless Night"
+msgstr "Lluna nueva"
+
 #: tools/scriptbuilder.cpp:988
 msgid "Could not download remote file."
 msgstr "Nun se pudo descargar el ficheru remotu."
+
+#: tools/scriptbuilder.cpp:1004 tools/scriptbuilder.cpp:1080
+#: fitsviewer/fitstab.cpp:259 indi/streamwg.cpp:184
+#, kde-format
+msgid "Invalid URL: %1"
+msgstr "URL non válidu: %1"
+
+#: tools/scriptbuilder.cpp:1005 tools/scriptbuilder.cpp:1081
+#: dialogs/addlinkdialog.cpp:53 fitsviewer/fitstab.cpp:260
+#: indi/streamwg.cpp:185
+msgid "Invalid URL"
+msgstr "URL non válidu"
 
 #: tools/scriptbuilder.cpp:1094
 msgid "Save Changes to Script?"
@@ -41946,6 +40347,10 @@ msgstr "Nebuloses"
 msgid "Star Clusters"
 msgstr "Cúmulos estelares"
 
+#: tools/wutdialog.cpp:113 dialogs/finddialog.cpp:46
+msgid "Constellations"
+msgstr "Constelaciones"
+
 #: tools/wutdialog.cpp:151 tools/wutdialog.cpp:152 tools/wutdialog.cpp:201
 #: tools/wutdialog.cpp:202 tools/wutdialog.cpp:402 tools/wutdialog.cpp:403
 msgid "circumpolar"
@@ -42026,6 +40431,356 @@ msgstr "Tránsitu: %1"
 msgid "Sets at: %1"
 msgstr "Ocasu: %1"
 
+#: skycomponents/asteroidscomponent.cpp:98
+msgid "Loading asteroids"
+msgstr "Cargando asteroides"
+
+#: skycomponents/cometscomponent.cpp:93
+msgid "Loading comets"
+msgstr "Cargando cometes"
+
+#: skycomponents/constellationboundarylines.cpp:45
+msgid "Constellation Boundaries"
+msgstr "Berbesos de constelaciones"
+
+#: skycomponents/constellationboundarylines.cpp:77
+msgid "Loading Constellation Boundaries"
+msgstr ""
+
+#: skycomponents/constellationboundarylines.cpp:269
+#: fitsviewer/fitshistogram.cpp:406
+msgid "Unknown"
+msgstr "Desconocíu"
+
+#: skycomponents/constellationlines.cpp:41
+msgid "Constellation Lines"
+msgstr "Llinies de constelaciones"
+
+#: skycomponents/constellationlines.cpp:105
+#, kde-format
+msgid "Star HD%1 not found."
+msgstr "Estrella HD%1 non alcontrada."
+
+#: skycomponents/constellationnamescomponent.cpp:42
+msgid "Loading constellation names"
+msgstr "Cargando nomes de les constelaciones"
+
+#: skycomponents/customcatalogcomponent.cpp:51
+#, kde-format
+msgid "Loading custom catalog: %1"
+msgstr "Cargando catálogu personalizáu: %1"
+
+#: skycomponents/customcatalogcomponent.cpp:101
+#, kde-format
+msgid "Line %1 does not contain %2 fields.  Skipping it."
+msgstr "La llinia %1 nun contién %2 campos. Sedrá inorada."
+
+#: skycomponents/customcatalogcomponent.cpp:108
+msgid ""
+"Some lines in the custom catalog could not be parsed; see error messages "
+"below."
+msgstr ""
+"Dalgunes llinies del catálogu personalizáu nun se pudieron interpretar; llea "
+"los mensaxes d'error debaxo."
+
+#: skycomponents/customcatalogcomponent.cpp:109
+msgid "To reject the file, press Cancel. "
+msgstr "Pa refugar el ficheru, calque «Encaboxar». "
+
+#: skycomponents/customcatalogcomponent.cpp:110
+msgid "To accept the file (ignoring unparsed lines), press Accept."
+msgstr ""
+"P'aceutar el ficheru (inorando les llinies nun interpretaes) calque "
+"«Aceutar»."
+
+#: skycomponents/customcatalogcomponent.cpp:112
+msgid "Some Lines in File Were Invalid"
+msgstr "Dalgunes llinies nel ficheru son inválides"
+
+#: skycomponents/customcatalogcomponent.cpp:112
+msgid "Accept"
+msgstr "Aceutar"
+
+#: skycomponents/customcatalogcomponent.cpp:119
+msgid ""
+"No lines could be parsed from the specified file, see error messages below."
+msgstr ""
+"Nun pudo interpretase denguna llinia del ficheru especificáu, llea los "
+"mensaxes d'error debaxo."
+
+#: skycomponents/customcatalogcomponent.cpp:121
+msgid "No Valid Data Found in File"
+msgstr "Dengún datu válidu nel ficheru"
+
+#: skycomponents/customcatalogcomponent.cpp:129
+#: skycomponents/customcatalogcomponent.cpp:132
+#, kde-format
+msgid "Could not open custom data file: %1"
+msgstr "Imposible abrir el ficheru de datos personalizáu: %1"
+
+#: skycomponents/customcatalogcomponent.cpp:130
+msgid "Error opening file"
+msgstr "Fallu al abrir ficheru"
+
+#: skycomponents/customcatalogcomponent.cpp:229
+#: skycomponents/customcatalogcomponent.cpp:238
+#: skycomponents/customcatalogcomponent.cpp:247
+#: skycomponents/customcatalogcomponent.cpp:257
+#: skycomponents/customcatalogcomponent.cpp:270
+#: skycomponents/customcatalogcomponent.cpp:281
+#: skycomponents/customcatalogcomponent.cpp:312
+#: skycomponents/customcatalogcomponent.cpp:317
+#: skycomponents/customcatalogcomponent.cpp:328
+#: skycomponents/customcatalogcomponent.cpp:334
+#: skycomponents/customcatalogcomponent.cpp:340
+#: skycomponents/customcatalogcomponent.cpp:345
+#: skycomponents/customcatalogcomponent.cpp:350
+#: skycomponents/customcatalogcomponent.cpp:355
+msgid "Parsing header: "
+msgstr "Interpretando la cabecera: "
+
+#: skycomponents/customcatalogcomponent.cpp:230
+#, kde-format
+msgid "Extra Name field in header: %1.  Will be ignored"
+msgstr "Nome estra na cabecera: %1.  Inoraráse"
+
+#: skycomponents/customcatalogcomponent.cpp:239
+#, kde-format
+msgid "Extra Prefix field in header: %1.  Will be ignored"
+msgstr "Prefixu estra na cabecera: %1.  Inoraráse"
+
+#: skycomponents/customcatalogcomponent.cpp:248
+#, kde-format
+msgid "Extra Color field in header: %1.  Will be ignored"
+msgstr "Color estra na cabecera: %1.  Inoraráse"
+
+#: skycomponents/customcatalogcomponent.cpp:258
+#, kde-format
+msgid "Could not convert Epoch to float: %1.  Using 2000. instead"
+msgstr "Nun se pudo convertir la época a «float»: %1. Usando 2000"
+
+#: skycomponents/customcatalogcomponent.cpp:271
+#, fuzzy, kde-format
+msgid "Extra Flux Frequency field in header: %1.  Will be ignored"
+msgstr "Color estra na cabecera: %1.  Inoraráse"
+
+#: skycomponents/customcatalogcomponent.cpp:282
+#, fuzzy, kde-format
+msgid "Extra Flux Unit field in header: %1.  Will be ignored"
+msgstr "Color estra na cabecera: %1.  Inoraráse"
+
+#: skycomponents/customcatalogcomponent.cpp:313
+#, kde-format
+msgid "Duplicate data field descriptor \"%1\" will be ignored"
+msgstr "Inoraráse'l descriptor de campu de datos duplicáu «%1»"
+
+#: skycomponents/customcatalogcomponent.cpp:318
+#, kde-format
+msgid "Invalid data field descriptor \"%1\" will be ignored"
+msgstr "Inoraráse'l descriptor de campu de datos inválidu «%1»"
+
+#: skycomponents/customcatalogcomponent.cpp:329
+msgid "No valid column descriptors found.  Exiting"
+msgstr "Nun s'alcontraron descriptores de columna válidos. Colando"
+
+#: skycomponents/customcatalogcomponent.cpp:335
+msgid "No data lines found after header.  Exiting."
+msgstr "Nun s'alcontraron llinies de datos tres la cabecera. Colando."
+
+#: skycomponents/customcatalogcomponent.cpp:341
+msgid "No Catalog Name specified; setting to \"Custom\""
+msgstr "Nun s'especificó el nome del catálogu; afitándolu a «personalizáu»"
+
+#: skycomponents/customcatalogcomponent.cpp:342 dialogs/addcatdialog.cpp:141
+msgid "Custom"
+msgstr "Personalizar"
+
+#: skycomponents/customcatalogcomponent.cpp:346
+msgid "No Catalog Prefix specified; setting to \"CC\""
+msgstr "Nun s'especificó'l prefixu del catálogu, afitándolu a «CC»"
+
+#: skycomponents/customcatalogcomponent.cpp:351
+msgid "No Catalog Color specified; setting to Red"
+msgstr "Nun s'especificó el color del catálogu, afitándolu a bermeyu"
+
+#: skycomponents/customcatalogcomponent.cpp:356
+msgid "No Catalog Epoch specified; assuming 2000."
+msgstr "Nun s'especificó la dómina del catálogu, asumiendo 2000."
+
+#: skycomponents/customcatalogcomponent.cpp:385
+#, kde-format
+msgid "Line %1, field %2: Unable to parse RA value: %3"
+msgstr "Llinia %1, campu %2: Imposible interpretar el valor de AR: %3"
+
+#: skycomponents/customcatalogcomponent.cpp:394
+#, kde-format
+msgid "Line %1, field %2: Unable to parse Dec value: %3"
+msgstr "Llinia %1, campu %2: Imposible interpretar el valor de Dec: %3"
+
+#: skycomponents/customcatalogcomponent.cpp:406
+#, kde-format
+msgid "Line %1, field %2: Invalid object type: %3"
+msgstr "Llinia %1, campu %2: Tipu d'oxetu inválidu: %3"
+
+#: skycomponents/customcatalogcomponent.cpp:408
+#, fuzzy
+msgid "Must be one of 0, 1, 3, 4, 5, 6, 7, 8, 18"
+msgstr "Tien de ser 0, 1, 3, 4, 5, 6, 7 u 8."
+
+#: skycomponents/customcatalogcomponent.cpp:413
+#, kde-format
+msgid "Line %1, field %2: Unable to parse Object type: %3"
+msgstr "Llinia %1, campu %2: Imposible interpretar tipu d'oxetu: %3"
+
+#: skycomponents/customcatalogcomponent.cpp:424
+#, kde-format
+msgid "Line %1, field %2: Unable to parse Magnitude: %3"
+msgstr "Llinia %1, campu %2: Imposible interpretar magnitú: %3"
+
+#: skycomponents/customcatalogcomponent.cpp:435
+#, fuzzy, kde-format
+msgid "Line %1, field %2: Unable to parse Flux: %3"
+msgstr "Llinia %1, campu %2: Imposible interpretar el valor de AR: %3"
+
+#: skycomponents/customcatalogcomponent.cpp:446
+#, kde-format
+msgid "Line %1, field %2: Unable to parse Major Axis: %3"
+msgstr "Llinia %1, campu %2: Imposible interpretar exe mayor: %3"
+
+#: skycomponents/customcatalogcomponent.cpp:457
+#, kde-format
+msgid "Line %1, field %2: Unable to parse Minor Axis: %3"
+msgstr "Llinia %1, campu %2: Imposible interpretar exe menor: %3"
+
+#: skycomponents/customcatalogcomponent.cpp:468
+#, kde-format
+msgid "Line %1, field %2: Unable to parse Position Angle: %3"
+msgstr "Llinia %1, campu %2: Imposible interpretar ángulu de posición: %3"
+
+#: skycomponents/deepskycomponent.cpp:73
+msgid "Loading NGC/IC objects"
+msgstr "Cargando oxetos NGC/IC"
+
+#: skycomponents/deepskycomponent.cpp:184
+msgid "Unnamed Object"
+msgstr "Oxetu ensin nome"
+
+#: skycomponents/flagcomponent.cpp:207
+msgid "No icon"
+msgstr ""
+
+#: skycomponents/flagcomponent.cpp:209
+msgid "Default"
+msgstr ""
+
+#: skycomponents/horizoncomponent.cpp:40
+msgid "Creating horizon"
+msgstr "Creando horizonte"
+
+#: skycomponents/horizoncomponent.cpp:329
+msgid "Unrecognized coordinate projection: "
+msgstr "Proyeición de coordenaes desconocida: "
+
+#: skycomponents/horizoncomponent.cpp:463
+msgctxt "Northeast"
+msgid "NE"
+msgstr "NE"
+
+#: skycomponents/horizoncomponent.cpp:464
+msgctxt "East"
+msgid "E"
+msgstr "E"
+
+#: skycomponents/horizoncomponent.cpp:465
+msgctxt "Southeast"
+msgid "SE"
+msgstr "SE"
+
+#: skycomponents/horizoncomponent.cpp:466
+msgctxt "South"
+msgid "S"
+msgstr "S"
+
+#: skycomponents/horizoncomponent.cpp:467
+msgctxt "Southwest"
+msgid "SW"
+msgstr "SO"
+
+#: skycomponents/horizoncomponent.cpp:468
+msgctxt "West"
+msgid "W"
+msgstr "O"
+
+#: skycomponents/horizoncomponent.cpp:469
+msgctxt "Northwest"
+msgid "NW"
+msgstr "NO"
+
+#: skycomponents/horizoncomponent.cpp:470
+msgctxt "North"
+msgid "N"
+msgstr "N"
+
+#: skycomponents/linelistindex.cpp:226
+#, kde-format
+msgid "Loading %1"
+msgstr "Cargando %1"
+
+#: skycomponents/milkyway.cpp:44
+msgid "Loading Milky Way"
+msgstr "Cargando Vía Lláctea"
+
+#: skycomponents/milkyway.cpp:46
+msgid "Loading Large Magellanic Clouds"
+msgstr "Cargando Gran Nube de Magallanes"
+
+#: skycomponents/milkyway.cpp:47
+msgid "Loading Small Magellanic Clouds"
+msgstr "Cargando Pequeña Nube de Magallanes"
+
+#: skycomponents/notifyupdatesui.cpp:35
+msgid "New Supernova(e) discovered!"
+msgstr ""
+
+#: skycomponents/satellitescomponent.cpp:47
+#, fuzzy
+#| msgid "Loading asteroids"
+msgid "Loading satellites"
+msgstr "Cargando asteroides"
+
+#: skycomponents/satellitescomponent.cpp:115
+#, fuzzy
+#| msgid "Update"
+msgid "Update TLEs..."
+msgstr "Anovar"
+
+#: skycomponents/satellitescomponent.cpp:126
+#, fuzzy, kde-format
+#| msgid "Creating Earth satellites"
+msgid "Update %1 satellites"
+msgstr "Cargando satélites terrestres"
+
+#: skycomponents/skymapcomposite.cpp:486
+#, kde-format
+msgid "Could not find custom catalog component named %1."
+msgstr "Imposible alcontrar un componente del catálogu personalizáu denomáu %1"
+
+#: skycomponents/solarsystemcomposite.cpp:40
+msgid "Loading solar system"
+msgstr "Cargando sistema solar"
+
+#: skycomponents/starcomponent.cpp:75
+msgid "Loading stars"
+msgstr "Cargando estrelles"
+
+#: skycomponents/starcomponent.cpp:150
+msgid "Please wait while re-indexing stars ..."
+msgstr "Por favor, espere mientres se refái l'índiz d'estrelles..."
+
+#: skycomponents/supernovaecomponent.cpp:234
+msgid "Supernova information update failed"
+msgstr ""
+
 #: widgets/dmsbox.cpp:93
 msgid "Angle value in degrees."
 msgstr ""
@@ -42073,6 +40828,11 @@ msgid ""
 "delimited values specifying hours, minutes and seconds (\"12:20\", "
 "\"12:20:00\", \"12 20\", \"12 20 00.0\", etc.)."
 msgstr ""
+
+#: widgets/draglistbox.cpp:73 widgets/draglistbox.cpp:87
+#: dialogs/addcatdialog.cpp:69 dialogs/addcatdialog.cpp:173
+msgid "Ignore"
+msgstr "Inorar"
 
 #: widgets/fovwidget.cpp:48
 #, kde-format
@@ -42231,6 +40991,1167 @@ msgstr ""
 "botón d'arriba a la drecha pasará a «1 hora» y el botón d'abaxo a la drecha "
 "a «1 seg»."
 
+#: dialogs/addcatdialog.cpp:46
+msgid "Import Catalog"
+msgstr "Importar catálogu"
+
+#: dialogs/addcatdialog.cpp:58 dialogs/addcatdialog.cpp:153
+msgid "ID Number"
+msgstr "Númberu ID"
+
+#: dialogs/addcatdialog.cpp:59 dialogs/addcatdialog.cpp:155
+msgid "Right Ascension"
+msgstr "Ascensión reuta"
+
+#: dialogs/addcatdialog.cpp:60 dialogs/addcatdialog.cpp:157
+msgid "Declination"
+msgstr "Declinación"
+
+#: dialogs/addcatdialog.cpp:61 dialogs/addcatdialog.cpp:159
+msgid "Object Type"
+msgstr "Triba d'oxetu"
+
+#: dialogs/addcatdialog.cpp:63 dialogs/addcatdialog.cpp:161
+msgid "Common Name"
+msgstr "Nome común"
+
+#: dialogs/addcatdialog.cpp:64 dialogs/addcatdialog.cpp:163
+msgid "Magnitude"
+msgstr "Magnitú"
+
+#: dialogs/addcatdialog.cpp:65 dialogs/addcatdialog.cpp:165
+msgid "Flux"
+msgstr ""
+
+#: dialogs/addcatdialog.cpp:66 dialogs/addcatdialog.cpp:167
+msgid "Major Axis"
+msgstr "Exe mayor"
+
+#: dialogs/addcatdialog.cpp:67 dialogs/addcatdialog.cpp:169
+msgid "Minor Axis"
+msgstr "Exe menor"
+
+#: dialogs/addcatdialog.cpp:68 dialogs/addcatdialog.cpp:171
+msgid "Position Angle"
+msgstr "Ángulu de posición"
+
+#: dialogs/addcatdialog.cpp:86
+msgid ""
+"A valid custom catalog file has one line per object, with the following "
+"fields in each line:"
+msgstr ""
+"Un ficheru de catálogu válidu tien una llinia por oxetu, colos siguientes "
+"campos en cada llinia:"
+
+#: dialogs/addcatdialog.cpp:88
+msgid ""
+"1. Type identifier.  Must be one of: 0 (star), 3 (open cluster), 4 (globular "
+"cluster), 5 (gaseous nebula), 6 (planetary nebula), 7 (supernova remnant), "
+"or 8 (galaxy)"
+msgstr ""
+"1. Identificador del tipu.  Tien de ser: 0 (estrella), 3 (cúmulu abiertu), 4 "
+"(cúmulu globular), 5 (nebulosa gaseosa), 6 (nebulosa planetaria), 7 (restu "
+"de supernova), o 8 (galaxa)"
+
+#: dialogs/addcatdialog.cpp:90
+msgid "2. Right Ascension (floating-point value)"
+msgstr "2. Ascensión reuta (valor de coma flotante)"
+
+#: dialogs/addcatdialog.cpp:91
+msgid "3. Declination (floating-point value)"
+msgstr "3. Declinación (valor de coma flotante)"
+
+#: dialogs/addcatdialog.cpp:92
+msgid "4. Magnitude (floating-point value)"
+msgstr "4. Magnitú (valor de coma flotante)"
+
+#: dialogs/addcatdialog.cpp:93
+msgid ""
+"5. Integrated Flux (floating-point value); frequency and units are set "
+"separately in the catalog file."
+msgstr ""
+
+#: dialogs/addcatdialog.cpp:94
+msgid "6. Spectral type (if type=0); otherwise object's catalog name"
+msgstr "6. Tipu espectral (si tipu=0); sinón, el nome de catálogu del oxetu"
+
+#: dialogs/addcatdialog.cpp:95
+msgid ""
+"7. Star name (if type=0); otherwise object's common name. [field 7 is "
+"optional]"
+msgstr ""
+"7. Nome de la estrella (si tipu=0); sinón, el nome común del oxetu. [el "
+"campu 7 ye opcional]"
+
+#: dialogs/addcatdialog.cpp:97
+msgid ""
+"The fields should be separated by whitespace.  In addition, the catalog may "
+"contain comment lines beginning with '#'."
+msgstr ""
+"Los campos tienen de tar separtaos por espacios en blanco. Arriendes, el "
+"catálogu puede contener llinies de comentarios qu'entamen por «#»."
+
+#: dialogs/addcatdialog.cpp:100
+msgid "Help on custom catalog file format"
+msgstr "Aida sobro'l formatu de ficheros pa catálogos personalizaos:"
+
+#: dialogs/addcatdialog.cpp:195
+#, kde-format
+msgid "Preview of %1"
+msgstr "Previsualización de %1"
+
+#: dialogs/addcatdialog.cpp:196
+msgid "Catalog Preview"
+msgstr "Previsualización del catálogu"
+
+#: dialogs/addcatdialog.cpp:222
+#, kde-format
+msgid "Could not open the file %1 for writing."
+msgstr "Nun se puede abrir el ficheru %1 con permisu d'escritura."
+
+#: dialogs/addcatdialog.cpp:223
+msgid "Error Opening Output File"
+msgstr "Fallu durante l'apertura del ficheru de salida"
+
+#: dialogs/addlinkdialog.cpp:36
+#, kde-format
+msgid "Add Custom URL to %1"
+msgstr "Amestar URL personalizáu a %1"
+
+#: dialogs/addlinkdialog.cpp:44 dialogs/addlinkdialog.cpp:63
+#: dialogs/addlinkdialog.cpp:68
+msgid "Show image of "
+msgstr "Amosar imaxe de "
+
+#: dialogs/addlinkdialog.cpp:52
+msgid ""
+"The URL is not valid. Would you like to open a browser window\n"
+"to the Google search engine?"
+msgstr ""
+"El URL nun ye válidu. ¿Quier abrir una ventana del restolador\n"
+"col restolador Google?"
+
+#: dialogs/addlinkdialog.cpp:54
+msgid "Browse Google"
+msgstr "Esplorar Google"
+
+#: dialogs/addlinkdialog.cpp:54
+msgid "Do Not Browse"
+msgstr "Non esplorar"
+
+#: dialogs/addlinkdialog.cpp:64 dialogs/addlinkdialog.cpp:67
+msgid "Show webpage about "
+msgstr "Amosar páxina web sobro "
+
+#: dialogs/detaildialog.cpp:534
+msgid "Links"
+msgstr "Enllaces"
+
+#: dialogs/detaildialog.cpp:599
+msgid "Log"
+msgstr "Rexistru"
+
+#: dialogs/detaildialog.cpp:671
+msgid "Edit Link"
+msgstr "Editar enllaz"
+
+#: dialogs/detaildialog.cpp:794
+#, kde-format
+msgid "Are you sure you want to remove the %1 link?"
+msgstr "¿Daveres que quier desaniciar l'enllaz %1?"
+
+#: dialogs/detaildialog.cpp:794 indi/drivermanager.cpp:1279
+#: indi/indidriver.cpp:912
+msgid "Delete Confirmation"
+msgstr "Confirmación d'esborráu"
+
+#: dialogs/exportimagedialog.cpp:46
+#, fuzzy
+#| msgid "&Save Sky Image..."
+msgid "Export sky image"
+msgstr "&Guardar imaxe del cielu..."
+
+#: dialogs/exportimagedialog.cpp:95 dialogs/exportimagedialog.cpp:96
+#, fuzzy
+#| msgid "&Save Sky Image..."
+msgid "KStars Exported Sky Image"
+msgstr "&Guardar imaxe del cielu..."
+
+#: dialogs/exportimagedialog.cpp:238
+#, fuzzy
+#| msgid "Preview of %1"
+msgid "Preview image"
+msgstr "Previsualización de %1"
+
+#: dialogs/exportimagedialog.cpp:239
+#, fuzzy
+#| msgid "Export"
+msgid "Export image"
+msgstr "Esportar"
+
+#: dialogs/exportimagedialog.cpp:247
+msgid "Full legend"
+msgstr ""
+
+#: dialogs/exportimagedialog.cpp:248
+#, fuzzy
+#| msgid "(magnitude)"
+msgid "Only magnitudes"
+msgstr "(magnitú)"
+
+#: dialogs/exportimagedialog.cpp:248
+#, fuzzy
+#| msgid "&FOV Symbols"
+msgid "Only symbols"
+msgstr "Símbolos de campos de &visión"
+
+#: dialogs/finddialog.cpp:59
+msgid "Find Object"
+msgstr "Guetar oxetu"
+
+#: dialogs/finddialog.cpp:69
+msgid "Details..."
+msgstr "Detalles..."
+
+#: dialogs/finddialog.cpp:110
+msgid "Andromeda Galaxy"
+msgstr "Galaxa d'Andrómeda"
+
+#: dialogs/finddialog.cpp:116
+msgid "Aldebaran"
+msgstr "Aldebarán"
+
+#: dialogs/finddialog.cpp:123
+msgid "Aaltje"
+msgstr "Aaltje"
+
+#: dialogs/finddialog.cpp:129
+msgid "Aarseth-Brewington (1989 W1)"
+msgstr "Aarseth-Brewington (1989 W1)"
+
+#: dialogs/finddialog.cpp:303
+#, kde-format
+msgid "No object named %1 found."
+msgstr "Nun s'alcontró dengún oxetu denomáu %1."
+
+#: dialogs/finddialog.cpp:304
+msgid "Bad object name"
+msgstr "Nome erróneu d'oxetu"
+
+#: dialogs/focusdialog.cpp:46
+#, fuzzy
+#| msgid "Set Focus Manually"
+msgid "Set Coordinates Manually"
+msgstr "Apuntar manualmente"
+
+#: dialogs/focusdialog.cpp:110
+msgid "The Azimuth value must be between 0.0 and 360.0."
+msgstr "El valor del acimut tien de tar ente 0.0 y 360.0."
+
+#: dialogs/focusdialog.cpp:112
+msgid "The Altitude value must be between -90.0 and 90.0."
+msgstr "El valor de l'altitú tien de tar ente -90.0 y 90.0."
+
+#: dialogs/fovdialog.cpp:84
+msgid "Set FOV Indicator"
+msgstr "Afitar indicador del campu de visión"
+
+#: dialogs/fovdialog.cpp:201
+msgid "1000 yards"
+msgstr "1000 yardes"
+
+#: dialogs/fovdialog.cpp:202
+msgid "1000 meters"
+msgstr "1000 metros"
+
+#: dialogs/fovdialog.cpp:209
+msgid "meters"
+msgstr ""
+
+#: dialogs/locationdialog.cpp:42
+msgid "Set Geographic Location"
+msgstr "Configurar posición xeográfica..."
+
+#: dialogs/locationdialog.cpp:69
+msgid "DST Rule:"
+msgstr "regla DST:"
+
+#: dialogs/locationdialog.cpp:114 dialogs/locationdialog.cpp:166
+#: dialogs/locationdialog.cpp:325
+#, kde-format
+msgid "One city matches search criteria"
+msgid_plural "%1 cities match search criteria"
+msgstr[0] "Una ciudá concasa col criteriu de gueta"
+msgstr[1] "%1 ciudaes concasen col criteriu de gueta"
+
+#: dialogs/locationdialog.cpp:221
+msgid "This City already exists in the database."
+msgstr "Esta ciudá ya esiste na base de datos."
+
+#: dialogs/locationdialog.cpp:222
+msgid "Error: Duplicate Entry"
+msgstr "Fallu: Entrada duplicada"
+
+#: dialogs/locationdialog.cpp:234
+msgid "All fields (except province) must be filled to add this location."
+msgstr ""
+"Ye necesario rellenar tolos campos (excepto provincia) pa amestar esta "
+"posición."
+
+#: dialogs/locationdialog.cpp:235
+msgid "Fields are Empty"
+msgstr "Los campos tán ermos"
+
+#: dialogs/locationdialog.cpp:238
+msgid "Could not parse the Latitude/Longitude."
+msgstr ""
+
+#: dialogs/locationdialog.cpp:239 dialogs/locationdialog.cpp:243
+msgid "Bad Coordinates"
+msgstr "Coordenaes erróneas"
+
+#: dialogs/locationdialog.cpp:242
+msgid "Could not parse coordinates."
+msgstr "Imposible interpretar les coordenaes."
+
+#: dialogs/locationdialog.cpp:247
+msgid "Really override original data for this city?"
+msgstr "¿Deseya daveres sobroscribir los datos orixinales d'esta ciudad?"
+
+#: dialogs/locationdialog.cpp:248
+msgid "Override Existing Data?"
+msgstr "¿Sobroscribir los datos existentes?"
+
+#: dialogs/locationdialog.cpp:248
+msgid "Override Data"
+msgstr "Sobroscribir datos"
+
+#: dialogs/locationdialog.cpp:248
+msgid "Do Not Override"
+msgstr "Nun sobroscribir"
+
+#: dialogs/locationdialog.cpp:264
+msgid ""
+"Local cities database could not be opened.\n"
+"Location will not be recorded."
+msgstr ""
+"Nun se puede abrir la base de datos de ciudaes llocal.\n"
+"Nun s'atroxará la posición."
+
+#: dialogs/locationdialog.cpp:370
+msgid " Start Date (Start Time)  /  Revert Date (Revert Time)"
+msgstr " Data d'aniciu (Hora d'aniciu)  /  Revertir Data (Revertir Hora)"
+
+#: dialogs/locationdialog.cpp:372
+msgid "--: No DST correction"
+msgstr "--: Ensin correición cambéu horariu"
+
+#: dialogs/locationdialog.cpp:373
+msgid "AU: last Sun in Oct. (02:00) / last Sun in Mar. (02:00)"
+msgstr "AU: caberu domingu d'Och. (02:00) / caberu domingu de Mar. (02:00)"
+
+#: dialogs/locationdialog.cpp:374
+msgid "BZ:  2nd Sun in Oct. (00:00) /  3rd Sun in Feb. (00:00)"
+msgstr "BZ: 2º domingu d'Och. (00:00) / 3º domingu de Feb. (00:00)"
+
+#: dialogs/locationdialog.cpp:375
+msgid "CH:  2nd Sun in Apr. (00:00) /  2nd Sun in Sep. (00:00)"
+msgstr "CH:  2º domingu d'Abr. (00:00) /  2º domingu de Sep. (00:00)"
+
+#: dialogs/locationdialog.cpp:376
+msgid "CL:  2nd Sun in Oct. (04:00) /  2nd Sun in Mar. (04:00)"
+msgstr "CL:  2º domingu d'Och. (04:00) /  2º domingu de Mar. (04:00)"
+
+#: dialogs/locationdialog.cpp:377
+msgid "CZ:  1st Sun in Oct. (02:45) /  3rd Sun in Mar. (02:45)"
+msgstr "CZ:  1º domingu d' Och. (02:45) /  3º domingu de Mar. (02:45)"
+
+#: dialogs/locationdialog.cpp:378
+msgid "EE: Last Sun in Mar. (00:00) / Last Sun in Oct. (02:00)"
+msgstr "EE: caberu domingu de Mar. (00:00) / caberu domingu d'Och. (02:00)"
+
+#: dialogs/locationdialog.cpp:379
+msgid "EG: Last Fri in Apr. (00:00) / Last Thu in Sep. (00:00)"
+msgstr "EG: caberu vienres d'Abr. (00:00) / caberu xueves de Sep. (00:00)"
+
+#: dialogs/locationdialog.cpp:380
+msgid "EU: Last Sun in Mar. (01:00) / Last Sun in Oct. (01:00)"
+msgstr "EU: caberu domingu de Mar. (01:00) / caberu domingu d'Och. (01:00)"
+
+#: dialogs/locationdialog.cpp:381
+msgid "FK:  1st Sun in Sep. (02:00) /  3rd Sun in Apr. (02:00)"
+msgstr "FK:  1º domingu de Set. (02:00) /  3º domingu d'Abr. (02:00)"
+
+#: dialogs/locationdialog.cpp:382
+msgid "HK:  2nd Sun in May  (03:30) /  3rd Sun in Oct. (03:30)"
+msgstr "HK:  2º domingu de Mayu  (03:30) /  3º domingu d' Och. (03:30)"
+
+#: dialogs/locationdialog.cpp:383
+msgid "IQ: Apr 1 (03:00) / Oct. 1 (00:00)"
+msgstr "IQ: 1 de Abr. (03:00) / 1 de Oct. (00:00)"
+
+#: dialogs/locationdialog.cpp:384
+msgid "IR: Mar 21 (00:00) / Sep. 22 (00:00)"
+msgstr "IR: 21 de Mar. (00:00) / 22 de Sep. (00:00)"
+
+#: dialogs/locationdialog.cpp:385
+msgid "JD: Last Thu in Mar. (00:00) / Last Thu in Sep. (00:00)"
+msgstr "JD: caberu xueves de Mar. (00:00) / caberu xueves de Sep. (00:00)"
+
+#: dialogs/locationdialog.cpp:386
+msgid "LB: Last Sun in Mar. (00:00) / Last Sun in Oct. (00:00)"
+msgstr "LB: caberu domingu de Mar. (00:00) / caberu domingu d'Och. (00:00)"
+
+#: dialogs/locationdialog.cpp:387
+msgid "MX:  1st Sun in May  (02:00) / Last Sun in Sep. (02:00)"
+msgstr "MX:  1º domingu de May.  (02:00) / caberu domingu de Set. (02:00)"
+
+#: dialogs/locationdialog.cpp:388
+msgid "NB:  1st Sun in Sep. (02:00) /  1st Sun in Apr. (02:00)"
+msgstr "NB:  1º domingu de Set. (02:00) /  1º domingu d'Abr. (02:00)"
+
+#: dialogs/locationdialog.cpp:389
+msgid "NZ:  1st Sun in Oct. (02:00) /  3rd Sun in Mar. (02:00)"
+msgstr "NZ:  1º domingu d' Och. (02:00) / 3º domingu de Mar. (02:00)"
+
+#: dialogs/locationdialog.cpp:390
+msgid "PY:  1st Sun in Oct. (00:00) /  1st Sun in Mar. (00:00)"
+msgstr "PY:  1º domingu d'Och. (00:00) /  1º domingu de Mar. (00:00)"
+
+#: dialogs/locationdialog.cpp:391
+msgid "RU: Last Sun in Mar. (02:00) / Last Sun in Oct. (02:00)"
+msgstr "RU: caberu domingu de Mar. (02:00) / caberu domingu d'Och. (02:00)"
+
+#: dialogs/locationdialog.cpp:392
+msgid "SK:  2nd Sun in May  (00:00) /  2nd Sun in Oct. (00:00)"
+msgstr "SK:  2º domingu de May. (00:00) / 2º domingu d' Och. (00:00)"
+
+#: dialogs/locationdialog.cpp:393
+msgid "SY: Apr. 1 (00:00) / Oct. 1 (00:00)"
+msgstr "SY: 1 de Abr. (00:00) / 1 de Oct. (00:00)"
+
+#: dialogs/locationdialog.cpp:394
+msgid "TG:  1st Sun in Nov. (02:00) / Last Sun in Jan. (02:00)"
+msgstr "TG:  1º domingu de Pay. (02:00) / caberu domingu de Xin. (02:00)"
+
+#: dialogs/locationdialog.cpp:395
+msgid "TS:  1st Sun in Oct. (02:00) / Last Sun in Mar. (02:00)"
+msgstr "TS:  1º domingu d'Och. (02:00) / caberu domingu de Mar. (02:00)"
+
+#: dialogs/locationdialog.cpp:396
+msgid "US:  1st Sun in Apr. (02:00) / Last Sun in Oct. (02:00)"
+msgstr "EEUU:  1º domingu d'Abr.  (02:00) / caberu domingu d'Och. (02:00)"
+
+#: dialogs/locationdialog.cpp:397
+msgid "ZN: Apr. 1 (01:00) / Oct. 1 (00:00)"
+msgstr "ZN: 1 de Abr. (01:00) / 1 de Oct. (00:00)"
+
+#: dialogs/locationdialog.cpp:399
+msgid "Daylight Saving Time Rules"
+msgstr "Regles de cambéu d'horariu branu/iviernu"
+
+#: dialogs/timedialog.cpp:44
+msgctxt "set clock to a new time"
+msgid "Set UTC Time"
+msgstr "Afitar la hora UTC"
+
+#: dialogs/timedialog.cpp:46
+msgctxt "set clock to a new time"
+msgid "Set Time"
+msgstr "Afitar la hora"
+
+#: dialogs/timedialog.cpp:59
+msgid "UTC Now"
+msgstr "UTC Agora"
+
+#: dialogs/addlinkdialog.h:47
+msgid "object"
+msgstr "oxetu"
+
+#: fitsviewer/fitshistogram.cpp:391
+msgid "Auto Scale"
+msgstr "Autoescaláu"
+
+#: fitsviewer/fitshistogram.cpp:394
+msgid "Linear Scale"
+msgstr "Escaláu llinial"
+
+#: fitsviewer/fitshistogram.cpp:397
+msgid "Logarithmic Scale"
+msgstr "Escaláu logarítmicu"
+
+#: fitsviewer/fitshistogram.cpp:400
+msgid "Square Root Scale"
+msgstr "Escaláu de raíz cuadrada"
+
+#: fitsviewer/fitsimage.cpp:137
+msgid "Please hold while loading FITS file..."
+msgstr "Por favor espere mientres se carga'l ficheru FITS..."
+
+#: fitsviewer/fitsimage.cpp:137 oal/oal.h:39
+msgid "Cancel"
+msgstr "Encaboxar"
+
+#: fitsviewer/fitsimage.cpp:138
+msgid "Loading FITS"
+msgstr "Cargando FITS"
+
+#: fitsviewer/fitsimage.cpp:147
+#, fuzzy, kde-format
+#| msgid "Could not open the file %1 for writing."
+msgid "Could not open file %1 (fits_get_img_param). Error %2"
+msgstr "Nun se puede abrir el ficheru %1 con permisu d'escritura."
+
+#: fitsviewer/fitsimage.cpp:147 fitsviewer/fitsimage.cpp:162
+#: fitsviewer/fitsimage.cpp:170 fitsviewer/fitsimage.cpp:400
+msgid "FITS Open"
+msgstr "FITS abiertu"
+
+#: fitsviewer/fitsimage.cpp:162
+#, fuzzy, kde-format
+#| msgid "FITS file open error: %1"
+msgid "FITS file open error (fits_get_img_param): %1"
+msgstr "Fallu d'apertura de ficheru FITS: %1"
+
+#: fitsviewer/fitsimage.cpp:170
+#, fuzzy, kde-format
+#| msgid "FITS file open error: %1"
+msgid "FITS file open error (fits_get_img_type): %1"
+msgstr "Fallu d'apertura de ficheru FITS: %1"
+
+#: fitsviewer/fitsimage.cpp:400
+msgid "FITS image is saturated and cannot be displayed."
+msgstr "La imaxe FITS ta saturada y nun se puede amosar."
+
+#: fitsviewer/fitstab.cpp:53 fitsviewer/fitsviewer.cpp:321
+msgid "Save Changes to FITS?"
+msgstr "¿Guardar cambeos en FITS?"
+
+#: fitsviewer/fitstab.cpp:54 fitsviewer/fitsviewer.cpp:322
+msgid ""
+"The current FITS file has unsaved changes.  Would you like to save before "
+"closing it?"
+msgstr ""
+"El ficheru FITS actual tien cambeos non guardaos. ¿Quier atroxalos enantes "
+"de zarralu?"
+
+#: fitsviewer/fitstab.cpp:164
+#, kde-format
+msgid "FITS record error: %1"
+msgstr "Fallu de rexistru de FITS: %1"
+
+#: fitsviewer/fitstab.cpp:237
+msgid "&Overwrite"
+msgstr "&Sobroscribir"
+
+#: fitsviewer/fitstab.cpp:248
+#, kde-format
+msgid "FITS file save error: %1"
+msgstr "Fallu al guardar ficheru FITS: %1"
+
+#: fitsviewer/fitstab.cpp:249
+msgid "FITS Save"
+msgstr "Guardáu FITS"
+
+#: fitsviewer/fitstab.cpp:255
+msgid "File saved."
+msgstr "Ficheru guardáu."
+
+#: fitsviewer/fitsviewer.cpp:97
+msgid "Welcome to KStars FITS Viewer"
+msgstr "Bienveníu al editor FITS de KStars"
+
+#: fitsviewer/fitsviewer.cpp:145 fitsviewer/fitsviewer.cpp:439
+#, fuzzy
+#| msgid "Stars"
+msgid "Mark Stars"
+msgstr "Estrelles"
+
+#: fitsviewer/fitsviewer.cpp:152
+#, fuzzy
+#| msgid "Welcome to KStars FITS Viewer"
+msgid "KStars FITS Viewer"
+msgstr "Bienveníu al editor FITS de KStars"
+
+#: fitsviewer/fitsviewer.cpp:176
+msgid "Focus"
+msgstr ""
+
+#: fitsviewer/fitsviewer.cpp:222 fitsviewer/fitsviewer.cpp:446
+#, kde-format
+msgid "%1 star detected."
+msgid_plural "%1 stars detected."
+msgstr[0] ""
+msgstr[1] ""
+
+#: fitsviewer/fitsviewer.cpp:444
+msgid "Unmark Stars"
+msgstr ""
+
+#: indi/drivermanager.cpp:262
+#, kde-format
+msgid "Driver %1 is already running, do you want to restart it?"
+msgstr ""
+
+#: indi/drivermanager.cpp:320 indi/indidriver.cpp:326
+msgid "Cannot start INDI server: port error."
+msgstr "Nun puede aniciase'l sirvidor INDI: fallu del puertu."
+
+#: indi/drivermanager.cpp:542 indi/indidriver.cpp:308
+#, fuzzy, kde-format
+msgid "Invalid port entry: %1"
+msgstr "Ficheru non válidu: %1"
+
+#: indi/drivermanager.cpp:868 indi/indidriver.cpp:498
+#, kde-format
+msgid ""
+"Unable to find INDI Drivers directory: %1\n"
+"Please make sure to set the correct path in KStars configuration"
+msgstr ""
+"Nun se ha podido alcontrar la carpeta de controladores INDI: %1\n"
+"Asegúrese d'haber proporcionado la ruta correuta na configuración de KStars."
+
+#: indi/drivermanager.cpp:909 indi/indidriver.cpp:539
+#, kde-format
+msgid "Failed to open INDI Driver file: %1"
+msgstr "Falló l'apertura del ficheru de controlador INDI: %1"
+
+#: indi/drivermanager.cpp:1180 indi/indidriver.cpp:810
+msgid "Add Host"
+msgstr "Amestar sirvidor"
+
+#: indi/drivermanager.cpp:1191 indi/indidriver.cpp:826
+msgid "Error: the port number is invalid."
+msgstr "Fallu: el númberu de puertu nun ye válidu."
+
+#: indi/drivermanager.cpp:1203 indi/indidriver.cpp:836
+#, kde-format
+msgid "Host: %1 Port: %2 already exists."
+msgstr "Sirvidor: %1 Puertu: %2 yá esiste."
+
+#: indi/drivermanager.cpp:1228 indi/indidriver.cpp:861
+msgid "Modify Host"
+msgstr "Modificar sirvidor"
+
+#: indi/drivermanager.cpp:1275 indi/indidriver.cpp:908
+msgid "You need to disconnect the client before removing it."
+msgstr "Necesita desconeutar el veceru enantes de desanicialu."
+
+#: indi/drivermanager.cpp:1279 indi/indidriver.cpp:912
+#, kde-format
+msgid "Are you sure you want to remove the %1 client?"
+msgstr "¿Daveres quier desaniciar el veceru %1?"
+
+#: indi/drivermanager.cpp:1300 indi/indidriver.cpp:935
+msgid ""
+"unable to write to file 'indihosts.xml'\n"
+"Any changes to INDI hosts configurations will not be saved."
+msgstr ""
+"Nun se puede escribir nel ficheru «indihosts.xml»\n"
+"Cualesquier cambéu que faiga a los sirvidores INDI nun sedrá atroxáu."
+
+#: indi/guimanager.cpp:66 indi/indimenu.cpp:71
+msgid "INDI Control Panel"
+msgstr "Panel de control de INDI"
+
+#: indi/guimanager.cpp:70 indi/indimenu.cpp:75
+msgid "Close"
+msgstr "Zarrar"
+
+#: indi/guimanager.cpp:93 indi/indimenu.cpp:103
+msgid ""
+"No INDI devices currently running. To run devices, please select devices "
+"from the Device Manager in the devices menu."
+msgstr ""
+"Nun hai dengún preséu INDI funcionando nesti intre. Pa executar los preseos, "
+"esbíllelos nel Xestor de preseos del menú de preseos."
+
+#: indi/indielement.cpp:322
+msgid "INDI DATA STREAM"
+msgstr "FLUXU DE DATOS INDI"
+
+#: indi/indielement.cpp:612
+#, kde-format
+msgid "Cannot open file %1 for reading"
+msgstr "Nun se puede abrir ficheru %1 pa llectura"
+
+#: indi/indielement.cpp:624
+#, kde-format
+msgid "Not enough memory to load %1"
+msgstr "Nun hai memoria suficiente pa cargar %1"
+
+#: indi/indielement.cpp:634
+#, kde-format
+msgid "Not enough memory to convert file %1 to base64"
+msgstr "Nun hai memoria suficiente pa convertir el ficheru %1 a base64"
+
+#: indi/indiproperty.cpp:336
+msgid ""
+"Enable binary data transfer from this property to KStars and vice-versa."
+msgstr ""
+
+#: indi/indiproperty.cpp:343
+msgid "Upload"
+msgstr "Cargar"
+
+#: indi/indistd.cpp:310
+#, kde-format
+msgid "Data file saved to %1"
+msgstr "Ficheru de datos atroxáu en %1"
+
+#: indi/indistd.cpp:331
+#, kde-format
+msgid "%1 is online."
+msgstr "%1 ta en llinia."
+
+#: indi/indistd.cpp:340
+#, kde-format
+msgid "%1 is online and ready."
+msgstr "%1 ta en llinia y preparáu."
+
+#: indi/indistd.cpp:960 indi/servermanager.cpp:73
+msgid "Error making temporary filename."
+msgstr "Fallu al criar nome de ficheru temporal."
+
+#: indi/indistd.cpp:999
+#, kde-format
+msgid "FITS file saved to %1"
+msgstr "Ficheru FITS atroxáu en %1"
+
+#: indi/telescopewizardprocess.cpp:114
+#, fuzzy
+#| msgid "Are you sure you want to remove %1?"
+msgid "Are you sure you want to cancel?"
+msgstr "¿Daveres quier desaniciar %1?"
+
+#: indi/telescopewizardprocess.cpp:235
+msgid ""
+"Please wait while KStars scan communication ports for attached telescopes.\n"
+"This process might take few minutes to complete."
+msgstr ""
+"Espere mientres KStars esplora puertos de comunicaciones pa telescopios "
+"coneutaos.\n"
+"Esti procesu puede allanciase unos minutos hasta completase."
+
+#: indi/telescopewizardprocess.cpp:244
+msgid "Please wait while KStars tries to connect to your telescope..."
+msgstr "Por favor, espere mientres KStars afita comunicación col telescopiu..."
+
+#: indi/telescopewizardprocess.cpp:365
+msgid ""
+"Sorry. KStars failed to detect any attached telescopes, please check your "
+"settings and try again."
+msgstr ""
+"KStars nun pudo deteutar dengún telescopiu coneutáu, por favor comprebe la "
+"so configuración ya inténtelo de nuevu."
+
+#: indi/telescopewizardprocess.cpp:383
+msgid "Telescope Wizard completed successfully."
+msgstr ""
+
+#: options/opscatalog.cpp:46
+msgid "Index Catalog (IC)"
+msgstr "Catálogu indexado (IC)"
+
+#: options/opscatalog.cpp:50
+msgid "New General Catalog (NGC)"
+msgstr "Nuevu Cátalogu Xeneral (NGC)"
+
+#: options/opscatalog.cpp:54
+msgid "Messier Catalog (images)"
+msgstr "Catálogu Messier (imáxenes)"
+
+#: options/opscatalog.cpp:58
+msgid "Messier Catalog (symbols)"
+msgstr "Catálogu Messier (símbolos)"
+
+#: options/opscolors.cpp:85
+msgctxt "use realistic star colors"
+msgid "Real Colors"
+msgstr "Colores reales"
+
+#: options/opscolors.cpp:86
+msgctxt "show stars as red circles"
+msgid "Solid Red"
+msgstr "Rojo sólido"
+
+#: options/opscolors.cpp:87
+msgctxt "show stars as black circles"
+msgid "Solid Black"
+msgstr "Negro sólido"
+
+#: options/opscolors.cpp:88
+msgctxt "show stars as white circles"
+msgid "Solid White"
+msgstr "Blanco sólido"
+
+#: options/opscolors.cpp:167
+msgid "New Color Scheme"
+msgstr "Nuevu esquema de color"
+
+#: options/opscolors.cpp:168
+msgid "Enter a name for the new color scheme:"
+msgstr "Introduza un nome pal nuevu esquema de color:"
+
+#: options/opscolors.cpp:198
+msgid ""
+"Local color scheme index file could not be opened.\n"
+"Scheme cannot be removed."
+msgstr ""
+"Nun se puede abrir el ficheru de índices del esquema de color llocal.\n"
+"El esquema nun s'atroxará."
+
+#: options/opscolors.cpp:223
+#, kde-format
+msgid "Could not delete the file: %1"
+msgstr "Imposible borrar el ficheru: %1"
+
+#: options/opscolors.cpp:224
+msgid "Error Deleting File"
+msgstr "Fallu al desaniciar ficheru"
+
+#: options/opscolors.cpp:234
+#, kde-format
+msgid "Could not find an entry named %1 in colors.dat."
+msgstr "Imposible alcontrar una entrada denomada %1 en colors.dat"
+
+#: options/opscolors.cpp:235
+msgid "Scheme Not Found"
+msgstr "Esquema nun alcontráu"
+
+#: options/opssatellites.cpp:97
+#, fuzzy
+#| msgid "Satellite Track"
+msgid "Satellite name"
+msgstr "Rastréu de satélite"
+
+#: skyobjects/jupitermoons.cpp:28
+msgctxt "Jupiter's moon Io"
+msgid "Io"
+msgstr "Io"
+
+#: skyobjects/jupitermoons.cpp:29
+msgctxt "Jupiter's moon Europa"
+msgid "Europa"
+msgstr "Europa"
+
+#: skyobjects/jupitermoons.cpp:30
+msgctxt "Jupiter's moon Ganymede"
+msgid "Ganymede"
+msgstr "Ganímedes"
+
+#: skyobjects/jupitermoons.cpp:31
+msgctxt "Jupiter's moon Callisto"
+msgid "Callisto"
+msgstr "Calisto"
+
+#: skyobjects/ksmoon.cpp:250
+msgctxt "moon phase, 100 percent illuminated"
+msgid "Full moon"
+msgstr "Lluna llena"
+
+#: skyobjects/ksmoon.cpp:251
+msgctxt "moon phase, 0 percent illuminated"
+msgid "New moon"
+msgstr "Lluna nueva"
+
+#: skyobjects/ksmoon.cpp:253
+msgctxt "moon phase, half-illuminated and growing"
+msgid "First quarter"
+msgstr "Cuartu creciente"
+
+#: skyobjects/ksmoon.cpp:254
+msgctxt "moon phase, half-illuminated and shrinking"
+msgid "Third quarter"
+msgstr "Cuartu menguante"
+
+#: skyobjects/ksmoon.cpp:258
+msgctxt "moon phase between new moon and 1st quarter"
+msgid "Waxing crescent"
+msgstr "Media lluna creciente"
+
+#: skyobjects/ksmoon.cpp:259
+msgctxt "moon phase between 1st quarter and full moon"
+msgid "Waxing gibbous"
+msgstr "Gibosa creciente"
+
+#: skyobjects/ksmoon.cpp:260
+msgctxt "moon phase between full moon and 3rd quarter"
+msgid "Waning gibbous"
+msgstr "Gibosa decreciente"
+
+#: skyobjects/ksmoon.cpp:261
+msgctxt "moon phase between 3rd quarter and new moon"
+msgid "Waning crescent"
+msgstr "Media lluna decreciente"
+
+#: skyobjects/ksmoon.cpp:263
+msgid "unknown"
+msgstr "desconocíu"
+
+#: skyobjects/ksplanetbase.cpp:217
+msgid "KSPlanetBase::setRearth():  Error: Need an Earth pointer.  ("
+msgstr ""
+"KSPlanetBase::setRearth():  Fallu: Ye necesario un punteru na Tierra.  ("
+
+#: skyobjects/ksplanet.cpp:146
+#, kde-format
+msgid "Error: Illegal identifier in KSPlanet constructor: %1"
+msgstr "Fallu: identificador illegal nel constructor de KSPlanet: %1"
+
+#: skyobjects/skyline.cpp:40
+#, kde-format
+msgid "SkyLine index error: no such point: %1"
+msgstr "Fallu d'índiz de la llinia del cielu: nun esiste esi puntu: %1"
+
+#: skyobjects/skyline.cpp:48
+#, kde-format
+msgid "SkyLine index error: no such segment: %1"
+msgstr "Fallu d'índiz de la llinia del cielu: nun esiste esi segmentu: %1"
+
+#: skyobjects/skyobject.cpp:40 skyobjects/ksplanetbase.h:73
+msgid "unnamed"
+msgstr "ensin nome"
+
+#: skyobjects/skyobject.cpp:41
+msgid "unnamed object"
+msgstr "Oxetu ensin nome"
+
+#: skyobjects/skyobject.cpp:323
+msgid "Star"
+msgstr "Estrella"
+
+#: skyobjects/skyobject.cpp:325
+msgid "Catalog Star"
+msgstr "Estrella de catálogu"
+
+#: skyobjects/skyobject.cpp:327
+msgid "Planet"
+msgstr "Planeta"
+
+#: skyobjects/skyobject.cpp:341
+msgid "Comet"
+msgstr "Cometa"
+
+#: skyobjects/skyobject.cpp:343
+msgid "Asteroid"
+msgstr "Asteroide"
+
+#: skyobjects/skyobject.cpp:345
+#, fuzzy
+#| msgid "Constellations"
+msgid "Constellation"
+msgstr "Constelaciones"
+
+#: skyobjects/skyobject.cpp:349
+#, fuzzy
+#| msgid "galaxy cluster"
+msgid "Galaxy Cluster"
+msgstr "cúmulu galácticu"
+
+#: skyobjects/skyobject.cpp:351
+#, fuzzy
+#| msgid "Satellite Track"
+msgid "Satellite"
+msgstr "Rastréu de satélite"
+
+#: skyobjects/skyobject.cpp:353
+#, fuzzy
+#| msgid "Supernova Remnant"
+msgid "Supernova"
+msgstr "Restu de supernova"
+
+#: skyobjects/skyobject.cpp:355
+#, fuzzy
+msgid "Radio Source"
+msgstr "Fuente de actualización"
+
+#: skyobjects/skyobject.cpp:363
+#, fuzzy
+#| msgid "multiple star"
+msgid "Multiple Star"
+msgstr "estrella múltiple"
+
+#: skyobjects/skyobject.cpp:365
+msgid "Unknown Type"
+msgstr "Tipu desconocíu"
+
+#: skyobjects/skyobject.cpp:378
+msgid "Show HST Image"
+msgstr "Amosar imaxe HST"
+
+#: skyobjects/skyobject.cpp:379
+#, kde-format
+msgid "%1: Hubble Space Telescope, operated by STScI for NASA [public domain]"
+msgstr "%1: Hubble Space Telescope, operáu por STScI pa NASA [dominiu públicu]"
+
+#: skyobjects/skyobject.cpp:382
+msgid "Show Spitzer Image"
+msgstr "Amosar imaxe Spitzer"
+
+#: skyobjects/skyobject.cpp:383
+#, kde-format
+msgid "%1: Spitzer Space Telescope, courtesy NASA/JPL-Caltech [public domain]"
+msgstr ""
+"%1: Telescopiu espacial Spitzer, cortesía de NASA/JPL - Caltech [dominiu "
+"públicu]"
+
+#: skyobjects/skyobject.cpp:386
+msgid "Show SEDS Image"
+msgstr "Amosar imaxe SEDS"
+
+#: skyobjects/skyobject.cpp:387
+#, kde-format
+msgid "%1: SEDS, http://www.seds.org [free for non-commercial use]"
+msgstr "%1: SEDS, http://www.seds.org [llibre pa usos non comerciales]"
+
+#: skyobjects/skyobject.cpp:390
+msgid "Show KPNO AOP Image"
+msgstr "Amosar imaxe KPNO AOP"
+
+#: skyobjects/skyobject.cpp:391
+#, kde-format
+msgid ""
+"%1: Advanced Observing Program at Kitt Peak National Observatory [free for "
+"non-commercial use; no physical reproductions]"
+msgstr ""
+"%1: Programa d'observación avanzáu del Kitt Peak National Observatory llibre "
+"usu pa fines non comerciales, reproducciones físiques non autorizaes]"
+
+#: skyobjects/skyobject.cpp:394
+msgid "Show NOAO Image"
+msgstr "Amosar imaxe NOAO"
+
+#: skyobjects/skyobject.cpp:395
+#, kde-format
+msgid ""
+"%1: National Optical Astronomy Observatories and AURA [free for non-"
+"commercial use]"
+msgstr ""
+"%1: National Optical Astronomy Observatories y AURA [llibre pa usos non "
+"comerciales]"
+
+#: skyobjects/skyobject.cpp:399
+#, kde-format
+msgid ""
+"%1: Very Large Telescope, operated by the European Southern Observatory "
+"[free for non-commercial use; no reproductions]"
+msgstr ""
+"%1: Very Large Telescope, operáu pol European Southern Observatory [llibre "
+"pa usos non comerciales, reproducciones non permitíes]"
+
+#: skyobjects/skyobject.cpp:402
+msgid "Show"
+msgstr "Amosar"
+
+#: skyobjects/skyobject.cpp:456
+msgid "Cannot write to user log file"
+msgstr "Imposible escribir nel ficheru de rexistru del usuariu"
+
+#: skyobjects/skypoint.cpp:124 skyobjects/skypoint.cpp:127
+msgid "Coordinate out of range."
+msgstr "Coordenaes fuera de rangu."
+
+#: skyobjects/skypoint.cpp:351
+msgid "lat and LST parameters should only be used in KSPlanetBase objects."
+msgstr "Los parámetros lat y LST únicamente deben usase n'oxetos KSPlanetBase."
+
+#: skyobjects/starobject.cpp:356
+msgid "alpha"
+msgstr "alfa"
+
+#: skyobjects/starobject.cpp:357
+msgid "beta"
+msgstr "beta"
+
+#: skyobjects/starobject.cpp:358
+msgid "gamma"
+msgstr "gamma"
+
+#: skyobjects/starobject.cpp:359
+msgid "delta"
+msgstr "delta"
+
+#: skyobjects/starobject.cpp:360
+msgid "epsilon"
+msgstr "epsilon"
+
+#: skyobjects/starobject.cpp:361
+msgid "zeta"
+msgstr "zeta"
+
+#: skyobjects/starobject.cpp:362
+msgid "eta"
+msgstr "eta"
+
+#: skyobjects/starobject.cpp:363
+msgid "theta"
+msgstr "theta"
+
+#: skyobjects/starobject.cpp:364
+msgid "iota"
+msgstr "iota"
+
+#: skyobjects/starobject.cpp:365
+msgid "kappa"
+msgstr "kappa"
+
+#: skyobjects/starobject.cpp:366
+msgid "lambda"
+msgstr "lambda"
+
+#: skyobjects/starobject.cpp:367
+msgid "mu"
+msgstr "mu"
+
+#: skyobjects/starobject.cpp:368
+msgid "nu"
+msgstr "nu"
+
+#: skyobjects/starobject.cpp:369
+msgid "xi"
+msgstr "xi"
+
+#: skyobjects/starobject.cpp:370
+msgid "omicron"
+msgstr "omicron"
+
+#: skyobjects/starobject.cpp:371
+msgid "pi"
+msgstr "pi"
+
+#: skyobjects/starobject.cpp:372
+msgid "rho"
+msgstr "rho"
+
+#: skyobjects/starobject.cpp:375
+msgid "sigma"
+msgstr "sigma"
+
+#: skyobjects/starobject.cpp:376
+msgid "tau"
+msgstr "tau"
+
+#: skyobjects/starobject.cpp:377
+msgid "upsilon"
+msgstr "upsilon"
+
+#: skyobjects/starobject.cpp:378
+msgid "phi"
+msgstr "phi"
+
+#: skyobjects/starobject.cpp:379
+msgid "chi"
+msgstr "chi"
+
+#: skyobjects/starobject.cpp:380
+msgid "psi"
+msgstr "psi"
+
+#: skyobjects/starobject.cpp:381
+msgid "omega"
+msgstr "omega"
+
 #: xplanet/opsxplanet.cpp:29
 msgctxt "Map projection method"
 msgid "No projection"
@@ -42300,6 +42221,87 @@ msgstr "Rectangular"
 msgctxt "Map projection method"
 msgid "TSC"
 msgstr "TSC"
+
+#: oal/oal.h:39
+msgid "Overwrite"
+msgstr ""
+
+#: oal/equipmentwriter.cpp:44
+msgid "Define Equipment"
+msgstr ""
+
+#: oal/equipmentwriter.cpp:87 oal/equipmentwriter.cpp:89
+msgctxt "prefix for ID number identifying a telescope (optional)"
+msgid "telescope"
+msgstr "telescopiu"
+
+#: oal/equipmentwriter.cpp:144 oal/equipmentwriter.cpp:146
+msgctxt "prefix for ID number identifying an eyepiece (optional)"
+msgid "eyepiece"
+msgstr ""
+
+#: oal/equipmentwriter.cpp:201 oal/equipmentwriter.cpp:203
+msgctxt "prefix for ID number identifying a lens (optional)"
+msgid "lens"
+msgstr ""
+
+#: oal/equipmentwriter.cpp:254 oal/equipmentwriter.cpp:256
+msgctxt "prefix for ID number identifying a filter (optional)"
+msgid "filter"
+msgstr ""
+
+#: oal/execute.cpp:43
+msgid "End Session"
+msgstr ""
+
+#: oal/execute.cpp:43
+msgid "Save and End the current session"
+msgstr ""
+
+#: oal/execute.cpp:145 oal/execute.cpp:356
+msgid "Next Page >"
+msgstr ""
+
+#: oal/execute.cpp:158 oal/execute.cpp:160
+msgid "site_"
+msgstr ""
+
+#: oal/execute.cpp:166 oal/execute.cpp:168
+msgid "session_"
+msgstr ""
+
+#: oal/execute.cpp:245
+msgid "Next Target >"
+msgstr ""
+
+#: oal/execute.cpp:250 oal/execute.cpp:254
+msgid "observation_"
+msgstr ""
+
+#: oal/observeradd.cpp:48
+msgid "The Name field cannot be empty"
+msgstr ""
+
+#: oal/observeradd.cpp:48
+msgid "Invalid Input"
+msgstr ""
+
+#: oal/observeradd.cpp:53
+msgid ""
+"Another Observer already exists with the given Name and Surname, Overwrite?"
+msgstr ""
+
+#: oal/observeradd.cpp:58 oal/observeradd.cpp:60
+msgid "observer_"
+msgstr ""
+
+#: oal/observeradd.cpp:77
+msgid "Could not save the observer list to the file."
+msgstr ""
+
+#: oal/observeradd.cpp:77
+msgid "Write Error"
+msgstr ""
 
 #~ msgid "Capture Image Sequence..."
 #~ msgstr "Capturar secuencia d'imaxe..."
