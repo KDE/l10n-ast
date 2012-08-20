@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:50+0200\n"
+"POT-Creation-Date: 2012-08-20 05:30+0200\n"
 "PO-Revision-Date: 2009-12-27 16:41+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -219,6 +219,19 @@ msgctxt "timeout of shutdown:"
 msgid "infinite"
 msgstr "infinitu"
 
+#: kdmshutdown.cpp:707
+#, kde-format
+msgid ""
+"Owner: %1\n"
+"Type: %2%5\n"
+"Start: %3\n"
+"Timeout: %4"
+msgstr ""
+"Propietariu: %1\n"
+"Triba: %2%5\n"
+"Aniciu: %3\n"
+"Llímite: %4"
+
 #: kdmshutdown.cpp:712
 msgctxt "owner of shutdown:"
 msgid "console user"
@@ -246,18 +259,14 @@ msgstr ""
 "\n"
 "Siguiente arranque: %1"
 
-#: kdmshutdown.cpp:707
+#: kdmshutdown.cpp:724
 #, kde-format
 msgid ""
-"Owner: %1\n"
-"Type: %2%5\n"
-"Start: %3\n"
-"Timeout: %4"
+"\n"
+"After timeout: %1"
 msgstr ""
-"Propietariu: %1\n"
-"Triba: %2%5\n"
-"Aniciu: %3\n"
-"Llímite: %4"
+"\n"
+"Tres del llímite: %1"
 
 #: kdmshutdown.cpp:726
 msgctxt "after timeout:"
@@ -273,15 +282,6 @@ msgstr "encaboxar sesiones propies"
 msgctxt "after timeout:"
 msgid "cancel shutdown"
 msgstr "encaboxar l'apagáu"
-
-#: kdmshutdown.cpp:724
-#, kde-format
-msgid ""
-"\n"
-"After timeout: %1"
-msgstr ""
-"\n"
-"Tres del llímite: %1"
 
 #: kgdialog.cpp:57
 msgid "Sw&itch User"

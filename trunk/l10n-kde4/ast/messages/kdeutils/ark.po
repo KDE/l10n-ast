@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:48+0200\n"
+"POT-Creation-Date: 2012-08-20 05:05+0200\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -17,6 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-Language: asturian\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Costales, Iñigo Varela"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "marcos@ubuntu-ast.org, malditoastur@gmail.com"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: app/arkui.rc:13
+msgid "Main Toolbar"
+msgstr "Barra de ferramientes principal"
 
 #: app/batchextract.cpp:136 app/batchextract.cpp:192
 msgid "Extracting file..."
@@ -241,6 +254,27 @@ msgstr "Abrir un archivador"
 msgid "Compress to Archive"
 msgstr "Comprimir nún ficheru"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupCompressFiles)
+#: kerfuffle/adddialog.ui:28
+msgid "Files/Folders to Compress"
+msgstr "Ficheros/carpetes a comprimir"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupExtraOptions)
+#: kerfuffle/adddialog.ui:92
+msgid "Extra Compression Options"
+msgstr "Opciones de compresión estra"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kerfuffle/adddialog.ui:99
+msgid ""
+"Easter egg for the developers:\n"
+"This is where future versions will have extra compression options for the "
+"various compression interfaces."
+msgstr ""
+"Güevu Pintu pa los desendolcadores:\n"
+"Equí ye au les futures versiones tendrán opciones estra de compresión pa les "
+"distintes interfaces de compresión."
+
 #: kerfuffle/addtoarchive.cpp:130
 msgid "No input files were given."
 msgstr "Nun se dieron ficheros d'entrada."
@@ -262,6 +296,21 @@ msgstr ""
 #: kerfuffle/addtoarchive.cpp:172
 msgid "It is not possible to create archives of this type."
 msgstr "Nun ye posible crear archivos comprimíos d'esta triba."
+
+#. i18n: ectx: label, entry (openDestinationFolderAfterExtraction), group (Extraction)
+#: kerfuffle/ark.kcfg:9
+msgid "Open destination folder after extraction"
+msgstr "Abrir la carpeta de destín tres de la estraición"
+
+#. i18n: ectx: label, entry (closeAfterExtraction), group (Extraction)
+#: kerfuffle/ark.kcfg:13
+msgid "Close Ark after extraction"
+msgstr "Zarrar Ark dempués de la estraición"
+
+#. i18n: ectx: label, entry (preservePaths), group (Extraction)
+#: kerfuffle/ark.kcfg:17
+msgid "Preserve paths when extracting"
+msgstr "Caltener rutes al estrayer"
 
 #: kerfuffle/cliinterface.cpp:331
 #, fuzzy, kde-format
@@ -339,6 +388,62 @@ msgstr "<filename>%1</filename> yá esiste, pero nun ye una carpeta."
 #: kerfuffle/extractiondialog.cpp:126
 msgid "Please check your permissions to create it."
 msgstr "Compruebe los sos permisos pa creala."
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExtractionDialog)
+#: kerfuffle/extractiondialog.ui:20
+msgid "Extraction Dialog"
+msgstr "Diálogu d'estraición"
+
+#. i18n: ectx: property (text), widget (QLabel, extractAllLabel)
+#: kerfuffle/extractiondialog.ui:69
+msgid "Extract All Files"
+msgstr "Estrayer tolos ficheros"
+
+#. i18n: ectx: property (title), widget (QGroupBox, singleFolderGroup)
+#: kerfuffle/extractiondialog.ui:78
+msgid "&Extraction into subfolder:"
+msgstr "&Estrayer en subcarpeta:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kerfuffle/extractiondialog.ui:112
+msgid "Options"
+msgstr "Opciones"
+
+#. i18n: ectx: property (text), widget (QCheckBox, openFolderCheckBox)
+#: kerfuffle/extractiondialog.ui:131
+msgid "Open &destination folder after extraction"
+msgstr "Abrir la carpeta de &destín tres de la estraición"
+
+#. i18n: ectx: property (text), widget (QCheckBox, closeAfterExtraction)
+#: kerfuffle/extractiondialog.ui:138
+msgid "Close &Ark after extraction"
+msgstr "Zarrar &Ark dempués de la estraición"
+
+#. i18n: ectx: property (text), widget (QCheckBox, preservePaths)
+#: kerfuffle/extractiondialog.ui:145
+msgid "&Preserve paths when extracting"
+msgstr "&Preservar rutes al estrayer"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoSubfolders)
+#: kerfuffle/extractiondialog.ui:152
+msgid "&Automatically create subfolders"
+msgstr "Criar subcarpetes &automáticamente"
+
+#. i18n: ectx: property (title), widget (QGroupBox, filesToExtractGroupBox)
+#: kerfuffle/extractiondialog.ui:168
+msgctxt "@title:group"
+msgid "Extract"
+msgstr "Estrayer"
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectedFilesButton)
+#: kerfuffle/extractiondialog.ui:186
+msgid "&Selected files only"
+msgstr "&Namái los ficheros esbillaos"
+
+#. i18n: ectx: property (text), widget (QRadioButton, allFilesButton)
+#: kerfuffle/extractiondialog.ui:202
+msgid "All &files"
+msgstr "Tolos fi&cheros"
 
 #: kerfuffle/jobs.cpp:190
 msgid "Loading archive..."
@@ -455,6 +560,21 @@ msgctxt "Unnamed column"
 msgid "??"
 msgstr "??"
 
+#. i18n: ectx: Menu (file)
+#: part/ark_part.rc:5
+msgid "&File"
+msgstr "&Ficheru"
+
+#. i18n: ectx: Menu (action)
+#: part/ark_part.rc:9
+msgid "&Action"
+msgstr "&Aición"
+
+#. i18n: ectx: Menu (settings)
+#: part/ark_part.rc:17
+msgid "&Settings"
+msgstr "&Axustes"
+
 #: part/arkviewer.cpp:67
 msgid "Closing preview"
 msgstr "Zarrar vista previa"
@@ -535,6 +655,41 @@ msgstr "<b>Oxetivu:</b> %1<br/>"
 #: part/infopanel.cpp:207
 msgid "<b>Password protected:</b> Yes<br/>"
 msgstr "<b>Protexíu con contraseña:</b> Sí<br/>"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, InformationPanel)
+#: part/infopanel.ui:20
+msgid "Information Panel"
+msgstr "Panel d'información"
+
+#. i18n: ectx: property (text), widget (QLabel, additionalInfo)
+#: part/infopanel.ui:58
+msgid "Unknown file type"
+msgstr "Triba de ficheru desconocíu"
+
+#. i18n: ectx: property (text), widget (QLabel, metadataLabel)
+#: part/infopanel.ui:75
+msgid "Metadata Label"
+msgstr "Etiqueta de metadatos"
+
+#. i18n: ectx: property (text), widget (QLabel, actionsLabel)
+#: part/infopanel.ui:95
+msgid "ActionsLabel"
+msgstr "Etiqueta d'aiciones"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, JobTrackerWidget)
+#: part/jobtracker.ui:13
+msgid "Job Tracker"
+msgstr "Rastreador de xeres"
+
+#. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
+#: part/jobtracker.ui:43
+msgid "<b>Job Description</b>"
+msgstr "<b>Descripción de la xera</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, informationLabel)
+#: part/jobtracker.ui:62
+msgid "Some Information about the job"
+msgstr "Dalgo d'información sobro la xera"
 
 #: part/part.cpp:225
 msgctxt "@action:inmenu"
@@ -913,191 +1068,6 @@ msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr ""
 "Asocedió un fallu al lleer <filename>%1</filename> durante la estraición."
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Costales, Iñigo Varela"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "marcos@ubuntu-ast.org, malditoastur@gmail.com"
-
-#. i18n: file: app/arkui.rc:13
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:5
-msgid "Main Toolbar"
-msgstr "Barra de ferramientes principal"
-
-#. i18n: file: part/ark_part.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:8
-msgid "&File"
-msgstr "&Ficheru"
-
-#. i18n: file: part/ark_part.rc:9
-#. i18n: ectx: Menu (action)
-#: rc.cpp:11
-msgid "&Action"
-msgstr "&Aición"
-
-#. i18n: file: part/ark_part.rc:17
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:14
-msgid "&Settings"
-msgstr "&Axustes"
-
-#. i18n: file: kerfuffle/adddialog.ui:28
-#. i18n: ectx: property (title), widget (QGroupBox, groupCompressFiles)
-#: rc.cpp:17
-msgid "Files/Folders to Compress"
-msgstr "Ficheros/carpetes a comprimir"
-
-#. i18n: file: kerfuffle/adddialog.ui:92
-#. i18n: ectx: property (title), widget (QGroupBox, groupExtraOptions)
-#: rc.cpp:20
-msgid "Extra Compression Options"
-msgstr "Opciones de compresión estra"
-
-#. i18n: file: kerfuffle/adddialog.ui:99
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:23
-msgid ""
-"Easter egg for the developers:\n"
-"This is where future versions will have extra compression options for the "
-"various compression interfaces."
-msgstr ""
-"Güevu Pintu pa los desendolcadores:\n"
-"Equí ye au les futures versiones tendrán opciones estra de compresión pa les "
-"distintes interfaces de compresión."
-
-#. i18n: file: kerfuffle/extractiondialog.ui:20
-#. i18n: ectx: property (windowTitle), widget (QWidget, ExtractionDialog)
-#: rc.cpp:27
-msgid "Extraction Dialog"
-msgstr "Diálogu d'estraición"
-
-#. i18n: file: kerfuffle/extractiondialog.ui:69
-#. i18n: ectx: property (text), widget (QLabel, extractAllLabel)
-#: rc.cpp:30
-msgid "Extract All Files"
-msgstr "Estrayer tolos ficheros"
-
-#. i18n: file: kerfuffle/extractiondialog.ui:78
-#. i18n: ectx: property (title), widget (QGroupBox, singleFolderGroup)
-#: rc.cpp:33
-msgid "&Extraction into subfolder:"
-msgstr "&Estrayer en subcarpeta:"
-
-#. i18n: file: kerfuffle/extractiondialog.ui:112
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:36
-msgid "Options"
-msgstr "Opciones"
-
-#. i18n: file: kerfuffle/extractiondialog.ui:131
-#. i18n: ectx: property (text), widget (QCheckBox, openFolderCheckBox)
-#: rc.cpp:39
-msgid "Open &destination folder after extraction"
-msgstr "Abrir la carpeta de &destín tres de la estraición"
-
-#. i18n: file: kerfuffle/extractiondialog.ui:138
-#. i18n: ectx: property (text), widget (QCheckBox, closeAfterExtraction)
-#: rc.cpp:42
-msgid "Close &Ark after extraction"
-msgstr "Zarrar &Ark dempués de la estraición"
-
-#. i18n: file: kerfuffle/extractiondialog.ui:145
-#. i18n: ectx: property (text), widget (QCheckBox, preservePaths)
-#: rc.cpp:45
-msgid "&Preserve paths when extracting"
-msgstr "&Preservar rutes al estrayer"
-
-#. i18n: file: kerfuffle/extractiondialog.ui:152
-#. i18n: ectx: property (text), widget (QCheckBox, autoSubfolders)
-#: rc.cpp:48
-msgid "&Automatically create subfolders"
-msgstr "Criar subcarpetes &automáticamente"
-
-#. i18n: file: kerfuffle/extractiondialog.ui:168
-#. i18n: ectx: property (title), widget (QGroupBox, filesToExtractGroupBox)
-#: rc.cpp:51
-msgctxt "@title:group"
-msgid "Extract"
-msgstr "Estrayer"
-
-#. i18n: file: kerfuffle/extractiondialog.ui:186
-#. i18n: ectx: property (text), widget (QRadioButton, selectedFilesButton)
-#: rc.cpp:54
-msgid "&Selected files only"
-msgstr "&Namái los ficheros esbillaos"
-
-#. i18n: file: kerfuffle/extractiondialog.ui:202
-#. i18n: ectx: property (text), widget (QRadioButton, allFilesButton)
-#: rc.cpp:57
-msgid "All &files"
-msgstr "Tolos fi&cheros"
-
-#. i18n: file: part/infopanel.ui:20
-#. i18n: ectx: property (windowTitle), widget (QWidget, InformationPanel)
-#: rc.cpp:60
-msgid "Information Panel"
-msgstr "Panel d'información"
-
-#. i18n: file: part/infopanel.ui:58
-#. i18n: ectx: property (text), widget (QLabel, additionalInfo)
-#: rc.cpp:63
-msgid "Unknown file type"
-msgstr "Triba de ficheru desconocíu"
-
-#. i18n: file: part/infopanel.ui:75
-#. i18n: ectx: property (text), widget (QLabel, metadataLabel)
-#: rc.cpp:66
-msgid "Metadata Label"
-msgstr "Etiqueta de metadatos"
-
-#. i18n: file: part/infopanel.ui:95
-#. i18n: ectx: property (text), widget (QLabel, actionsLabel)
-#: rc.cpp:69
-msgid "ActionsLabel"
-msgstr "Etiqueta d'aiciones"
-
-#. i18n: file: part/jobtracker.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, JobTrackerWidget)
-#: rc.cpp:72
-msgid "Job Tracker"
-msgstr "Rastreador de xeres"
-
-#. i18n: file: part/jobtracker.ui:43
-#. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
-#: rc.cpp:75
-msgid "<b>Job Description</b>"
-msgstr "<b>Descripción de la xera</b>"
-
-#. i18n: file: part/jobtracker.ui:62
-#. i18n: ectx: property (text), widget (QLabel, informationLabel)
-#: rc.cpp:78
-msgid "Some Information about the job"
-msgstr "Dalgo d'información sobro la xera"
-
-#. i18n: file: kerfuffle/ark.kcfg:9
-#. i18n: ectx: label, entry (openDestinationFolderAfterExtraction), group (Extraction)
-#: rc.cpp:81
-msgid "Open destination folder after extraction"
-msgstr "Abrir la carpeta de destín tres de la estraición"
-
-#. i18n: file: kerfuffle/ark.kcfg:13
-#. i18n: ectx: label, entry (closeAfterExtraction), group (Extraction)
-#: rc.cpp:84
-msgid "Close Ark after extraction"
-msgstr "Zarrar Ark dempués de la estraición"
-
-#. i18n: file: kerfuffle/ark.kcfg:17
-#. i18n: ectx: label, entry (preservePaths), group (Extraction)
-#: rc.cpp:87
-msgid "Preserve paths when extracting"
-msgstr "Caltener rutes al estrayer"
 
 #, fuzzy
 #~| msgid ""
