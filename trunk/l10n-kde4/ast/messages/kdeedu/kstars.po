@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 03:36+0200\n"
+"POT-Creation-Date: 2012-08-21 07:44+0200\n"
 "PO-Revision-Date: 2010-10-22 19:48+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -2406,19 +2406,19 @@ msgstr "&Ver"
 
 #. i18n: ectx: property (text), widget (QPushButton, helpB)
 #. i18n: ectx: Menu (help)
-#: fitsviewer.rc:30 indi/telescopewizard.ui:54 kstarsui-indi.rc:123
+#: fitsviewer.rc:33 indi/telescopewizard.ui:54 kstarsui-indi.rc:123
 #: kstarsui-win.rc:117 kstarsui.rc:117
 msgid "&Help"
 msgstr "A&ida"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: ectx: ToolBar (kstarsToolBar)
-#: fitsviewer.rc:44 kstarsui-indi.rc:138 kstarsui-win.rc:132 kstarsui.rc:132
+#: fitsviewer.rc:47 kstarsui-indi.rc:138 kstarsui-win.rc:132 kstarsui.rc:132
 msgid "Main Toolbar"
 msgstr "Barra de ferramientes principal"
 
 #. i18n: ectx: ToolBar (processToolBar)
-#: fitsviewer.rc:55
+#: fitsviewer.rc:58
 msgid "Process ToolBar"
 msgstr "Barra de ferramientes de procesu"
 
@@ -2450,23 +2450,31 @@ msgstr "Comentario"
 msgid "&Close"
 msgstr "&Zarrar"
 
-#: fitsviewer/fitshistogram.cpp:391
+#: fitsviewer/fitshistogram.cpp:470
 msgid "Auto Scale"
 msgstr "Autoescaláu"
 
-#: fitsviewer/fitshistogram.cpp:394
+#: fitsviewer/fitshistogram.cpp:473
 msgid "Linear Scale"
 msgstr "Escaláu llinial"
 
-#: fitsviewer/fitshistogram.cpp:397
+#: fitsviewer/fitshistogram.cpp:476
 msgid "Logarithmic Scale"
 msgstr "Escaláu logarítmicu"
 
-#: fitsviewer/fitshistogram.cpp:400
+#: fitsviewer/fitshistogram.cpp:479
 msgid "Square Root Scale"
 msgstr "Escaláu de raíz cuadrada"
 
-#: fitsviewer/fitshistogram.cpp:406
+#: fitsviewer/fitshistogram.cpp:482 fitsviewer/fitsviewer.cpp:149
+msgid "Low Pass Filter"
+msgstr ""
+
+#: fitsviewer/fitshistogram.cpp:485 fitsviewer/fitsviewer.cpp:153
+msgid "Equalize"
+msgstr ""
+
+#: fitsviewer/fitshistogram.cpp:492
 #: skycomponents/constellationboundarylines.cpp:269
 msgid "Unknown"
 msgstr "Desconocíu"
@@ -2565,11 +2573,11 @@ msgstr "Fallu d'apertura de ficheru FITS: %1"
 msgid "FITS image is saturated and cannot be displayed."
 msgstr "La imaxe FITS ta saturada y nun se puede amosar."
 
-#: fitsviewer/fitstab.cpp:53 fitsviewer/fitsviewer.cpp:321
+#: fitsviewer/fitstab.cpp:53 fitsviewer/fitsviewer.cpp:329
 msgid "Save Changes to FITS?"
 msgstr "¿Guardar cambeos en FITS?"
 
-#: fitsviewer/fitstab.cpp:54 fitsviewer/fitsviewer.cpp:322
+#: fitsviewer/fitstab.cpp:54 fitsviewer/fitsviewer.cpp:330
 msgid ""
 "The current FITS file has unsaved changes.  Would you like to save before "
 "closing it?"
@@ -2614,30 +2622,30 @@ msgstr "Bienveníu al editor FITS de KStars"
 msgid "Statistics"
 msgstr "Estadístiques"
 
-#: fitsviewer/fitsviewer.cpp:145 fitsviewer/fitsviewer.cpp:439
+#: fitsviewer/fitsviewer.cpp:145 fitsviewer/fitsviewer.cpp:447
 #, fuzzy
 #| msgid "Stars"
 msgid "Mark Stars"
 msgstr "Estrelles"
 
-#: fitsviewer/fitsviewer.cpp:152
+#: fitsviewer/fitsviewer.cpp:160
 #, fuzzy
 #| msgid "Welcome to KStars FITS Viewer"
 msgid "KStars FITS Viewer"
 msgstr "Bienveníu al editor FITS de KStars"
 
-#: fitsviewer/fitsviewer.cpp:176
+#: fitsviewer/fitsviewer.cpp:184
 msgid "Focus"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:222 fitsviewer/fitsviewer.cpp:446
+#: fitsviewer/fitsviewer.cpp:230 fitsviewer/fitsviewer.cpp:454
 #, kde-format
 msgid "%1 star detected."
 msgid_plural "%1 stars detected."
 msgstr[0] ""
 msgstr[1] ""
 
-#: fitsviewer/fitsviewer.cpp:444
+#: fitsviewer/fitsviewer.cpp:452
 msgid "Unmark Stars"
 msgstr ""
 
@@ -3027,11 +3035,11 @@ msgstr "%1 ta en llinia."
 msgid "%1 is online and ready."
 msgstr "%1 ta en llinia y preparáu."
 
-#: indi/indistd.cpp:960 indi/servermanager.cpp:73
+#: indi/indistd.cpp:965 indi/servermanager.cpp:73
 msgid "Error making temporary filename."
 msgstr "Fallu al criar nome de ficheru temporal."
 
-#: indi/indistd.cpp:999
+#: indi/indistd.cpp:1004
 #, kde-format
 msgid "FITS file saved to %1"
 msgstr "Ficheru FITS atroxáu en %1"
