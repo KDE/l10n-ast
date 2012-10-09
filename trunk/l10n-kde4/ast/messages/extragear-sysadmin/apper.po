@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackgekit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-06 04:40+0200\n"
+"POT-Creation-Date: 2012-10-09 05:28+0200\n"
 "PO-Revision-Date: 2010-10-25 20:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -3126,20 +3126,18 @@ msgstr ""
 msgid "Package"
 msgstr "Paquete"
 
-#: plasmoid/updaterapplet.cpp:108
-#, fuzzy
-#| msgid "Configure"
-msgctxt "Shown when you have not set a weather provider"
-msgid "Please Configure"
-msgstr "Configurar"
-
-#: plasmoid/updaterapplet.cpp:117
+#: plasmoid/updaterapplet.cpp:98 Sentinel/UpdateIcon.cpp:132
 #, kde-format
-msgctxt ""
-"%1 is the weather condition, %2 is the temperature, both come from the "
-"weather provider"
-msgid "%1 %2"
-msgstr ""
+msgid "You have one update"
+msgid_plural "You have %1 updates"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plasmoid/updaterapplet.cpp:99
+#, fuzzy
+#| msgid "Show updates"
+msgid "Software Updater"
+msgstr "Amosar anovamientos"
 
 #: Sentinel/DistroUpgrade.cpp:69
 msgid "Start upgrade now"
@@ -3830,13 +3828,6 @@ msgstr ""
 msgid "Configure"
 msgstr "Configurar"
 
-#: Sentinel/UpdateIcon.cpp:132
-#, kde-format
-msgid "You have one update"
-msgid_plural "You have %1 updates"
-msgstr[0] ""
-msgstr[1] ""
-
 #: Sentinel/UpdateIcon.cpp:188
 msgid "Updates are being automatically installed."
 msgstr "Tán instalándose automáticamente los anovamientos"
@@ -3852,6 +3843,12 @@ msgstr "El sistema anovóse correcho."
 #: Sentinel/UpdateIcon.cpp:246
 msgid "The automated software update failed."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgctxt "Shown when you have not set a weather provider"
+#~ msgid "Please Configure"
+#~ msgstr "Configurar"
 
 #~ msgctxt "The role of the transaction, in present tense"
 #~ msgid "Updating system"
