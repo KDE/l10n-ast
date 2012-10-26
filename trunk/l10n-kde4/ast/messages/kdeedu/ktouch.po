@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktouch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-25 04:22+0200\n"
+"POT-Creation-Date: 2012-10-26 02:45+0200\n"
 "PO-Revision-Date: 2010-10-19 22:38+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -25,6 +25,268 @@ msgstr "Iñigo Varela"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "malditoastur@gmail.com"
+
+#: src/core/dbaccess.cpp:100
+#, kde-format
+msgid "Invalid database version '%1'."
+msgstr ""
+
+#: src/core/userdataaccess.cpp:124
+#, kde-format
+msgid "No course with ID %1"
+msgstr ""
+
+#: src/core/userdataaccess.cpp:336
+#, fuzzy, kde-format
+#| msgid "&Keyboard Layouts"
+msgid "No keyboard layout with ID %1"
+msgstr "&Distribuciones de tecláu"
+
+#: src/editor/charactersvieweditorfactories.cpp:96
+#: src/models/charactersmodel.cpp:318
+#, fuzzy
+#| msgid "Hidden key"
+msgid "Hidden"
+msgstr "Anubrir tecla"
+
+#: src/editor/charactersvieweditorfactories.cpp:97
+#: src/models/charactersmodel.cpp:310
+#, fuzzy
+#| msgid "Top left:"
+msgid "Top left"
+msgstr "Superior esquierda:"
+
+#: src/editor/charactersvieweditorfactories.cpp:98
+#: src/models/charactersmodel.cpp:312
+#, fuzzy
+#| msgid "Top right:"
+msgid "Top right"
+msgstr "Superior drecha:"
+
+#: src/editor/charactersvieweditorfactories.cpp:99
+#: src/models/charactersmodel.cpp:314
+#, fuzzy
+#| msgid "Bottom left:"
+msgid "Bottom left"
+msgstr "Inferior esquierda:"
+
+#: src/editor/charactersvieweditorfactories.cpp:100
+#: src/models/charactersmodel.cpp:316
+#, fuzzy
+#| msgid "Bottom right:"
+msgid "Bottom right"
+msgstr "Inferior drecha:"
+
+#: src/editor/courseeditor.cpp:92 src/editor/resourceeditor.cpp:172
+#: src/editor/resourceeditor.cpp:249
+msgid "Error while opening course"
+msgstr ""
+
+#: src/editor/courseeditor.cpp:99
+msgid "Built-in courses can only be viewed."
+msgstr ""
+
+#: src/editor/courseeditor.cpp:342
+#, fuzzy, kde-format
+#| msgid "Character"
+msgid "%1 Characters"
+msgstr "Caráuter"
+
+#: src/editor/keyboardlayouteditor.cpp:84 src/editor/resourceeditor.cpp:195
+#: src/editor/resourceeditor.cpp:277
+#, fuzzy
+#| msgctxt "Lesson Name"
+#| msgid "German (Neo 2 keyboard layout)"
+msgid "Error while opening keyboard layout"
+msgstr "Alemán (Neo 2 keyboard layout)"
+
+#: src/editor/keyboardlayouteditor.cpp:91
+msgid "Built-in keyboard layouts can only be viewed."
+msgstr ""
+
+#: src/editor/keyboardlayouteditor.cpp:173
+#, kde-format
+msgid "%1%"
+msgstr ""
+
+#: src/editor/newkeyboardlayoutwidget.cpp:92
+msgid "There is already a keyboard layout with the same name."
+msgstr ""
+
+#: src/editor/newresourceassistant.cpp:42
+msgid "New..."
+msgstr ""
+
+#: src/editor/newresourceassistant.cpp:45
+#, fuzzy
+#| msgid "New color scheme"
+msgid "New course"
+msgstr "Nuevu esquema de color"
+
+#: src/editor/newresourceassistant.cpp:49
+#, fuzzy
+#| msgid "&Keyboard Layouts"
+msgid "New keyboard layout"
+msgstr "&Distribuciones de tecláu"
+
+#: src/editor/newresourceassistant.cpp:53
+msgid "Template"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, m_deleteKeyToolButton)
+#: src/editor/resourceeditor.cpp:60 src/qml/ProfileDetailsItem.qml:146
+#: src/qml/ProfileDetailsItem.qml:204 src/ui/keyboardlayouteditor.ui:82
+#, fuzzy
+#| msgid "Delete Key"
+msgid "Delete"
+msgstr "Desaniciar la clave"
+
+#: src/editor/resourceeditor.cpp:63
+msgid "Import"
+msgstr ""
+
+#: src/editor/resourceeditor.cpp:64
+msgid "Export"
+msgstr ""
+
+#: src/editor/resourceeditor.cpp:75
+#, fuzzy
+#| msgid "Keyboard Layout Editor"
+msgid "Course and Keyboard Layout Editor"
+msgstr "Editor de distribuciones de tecláu"
+
+#: src/editor/resourceeditor.cpp:77
+#, fuzzy
+#| msgid "untitled keyboard layout"
+msgid "Create a new course or keyboard layout"
+msgstr "distribución de tecláu sin título"
+
+#: src/editor/resourceeditor.cpp:79
+#, fuzzy
+#| msgid "untitled keyboard layout"
+msgid "Delete the current selected course or keyboard layout"
+msgstr "distribución de tecláu sin título"
+
+#: src/editor/resourceeditor.cpp:89
+#, fuzzy
+#| msgid "untitled keyboard layout"
+msgid "Import a course or keyboard layout from a file"
+msgstr "distribución de tecláu sin título"
+
+#: src/editor/resourceeditor.cpp:91
+#, fuzzy
+#| msgid "untitled keyboard layout"
+msgid "Export the current selected course or keyboard layout to a file"
+msgstr "distribución de tecláu sin título"
+
+#: src/editor/resourceeditor.cpp:178
+msgid "Error while deleting course"
+msgstr ""
+
+#: src/editor/resourceeditor.cpp:200
+#, fuzzy
+#| msgctxt "Lesson Name"
+#| msgid "German (Neo 2 keyboard layout)"
+msgid "Error while deleting keyboard layout"
+msgstr "Alemán (Neo 2 keyboard layout)"
+
+#: src/editor/resourceeditor.cpp:226
+#, fuzzy
+#| msgid "The selected key is not a finger key."
+msgid "The selected file couldn't be imported."
+msgstr "La tecla esbillada nun ye una tecla de deu."
+
+#: src/editor/resourceeditor.cpp:260
+msgid "Error while saving course"
+msgstr ""
+
+#: src/editor/resourceeditor.cpp:288
+#, fuzzy
+#| msgctxt "Lesson Name"
+#| msgid "German (Neo 2 keyboard layout)"
+msgid "Error while saving keyboard layout"
+msgstr "Alemán (Neo 2 keyboard layout)"
+
+#: src/editor/resourceeditor.cpp:373
+#, kde-format
+msgid "Course <b>%1</b> deleted"
+msgstr ""
+
+#: src/editor/resourceeditor.cpp:377
+#, fuzzy, kde-format
+#| msgid "&Keyboard Layouts"
+msgid "Keyboard layout <b>%1</b> deleted"
+msgstr "&Distribuciones de tecláu"
+
+#: src/editor/resourceeditor.cpp:407
+msgid "Error while saving course to disk."
+msgstr ""
+
+#: src/editor/resourceeditor.cpp:438
+#, fuzzy
+#| msgid "Keyboard Layout Editor"
+msgid "Error while saving keyboard layout to disk."
+msgstr "Editor de distribuciones de tecláu"
+
+#: src/editor/resourceeditor.cpp:507
+msgid "The selected course is already present as a built-in course."
+msgstr ""
+
+#: src/editor/resourceeditor.cpp:508 src/editor/resourceeditor.cpp:523
+msgid "Import as new course"
+msgstr ""
+
+#: src/editor/resourceeditor.cpp:522
+#, fuzzy
+#| msgid "The selected key is not a finger key."
+msgid "The selected course is already present as an user course."
+msgstr "La tecla esbillada nun ye una tecla de deu."
+
+#: src/editor/resourceeditor.cpp:565
+msgid ""
+"The selected keyboard layout is already present as a built-in keyboard "
+"layout."
+msgstr ""
+
+#: src/editor/resourceeditor.cpp:566 src/editor/resourceeditor.cpp:581
+#, fuzzy
+#| msgctxt "Lesson Name"
+#| msgid "German (Neo 2 keyboard layout)"
+msgid "Import as new keyboard layout"
+msgstr "Alemán (Neo 2 keyboard layout)"
+
+#: src/editor/resourceeditor.cpp:580
+msgid ""
+"The selected keyboard layout is already present as an user keyboard layout."
+msgstr ""
+
+#: src/editor/resourceeditorwidget.cpp:29
+msgid "Restore"
+msgstr ""
+
+#: src/editor/resourceeditorwidget.cpp:30
+msgid "Dismiss"
+msgstr ""
+
+#: src/editor/resourcetemplatewidget.cpp:54
+msgid "Use another course as template"
+msgstr ""
+
+#: src/editor/resourcetemplatewidget.cpp:57
+#, fuzzy
+#| msgid "untitled keyboard layout"
+msgid "Use another keyboard layout as template"
+msgstr "distribución de tecláu sin título"
+
+#: src/editor/resourcetypeswidget.cpp:29
+msgid "Course"
+msgstr ""
+
+#: src/editor/resourcetypeswidget.cpp:33
+#, fuzzy
+#| msgid "&Keyboard Layouts"
+msgid "Keyboard layout"
+msgstr "&Distribuciones de tecláu"
 
 #: src/keyboardlayoutmenu.cpp:30
 #, fuzzy
@@ -190,6 +452,284 @@ msgstr "Editor de distribuciones de tecláu"
 msgid "Configure Keyboard..."
 msgstr "Abrir tecláu..."
 
+#: src/models/charactersmodel.cpp:212
+#, fuzzy
+#| msgid "Character"
+msgid "Character"
+msgstr "Caráuter"
+
+#: src/models/charactersmodel.cpp:214
+#, fuzzy
+#| msgid "Modifier key"
+msgid "Modifier ID"
+msgstr "Tecles modificadores"
+
+#: src/models/charactersmodel.cpp:216
+msgid "Position"
+msgstr ""
+
+#: src/models/lessonmodel.cpp:82
+msgid "<No title>"
+msgstr ""
+
+#: src/models/lessonmodel.cpp:84
+#, fuzzy, kde-format
+#| msgid "new characters"
+msgid "<p>New characters: %1<p/><p>%2</p>"
+msgstr "carauteres nuevos"
+
+#: src/models/lessonmodel.cpp:138 src/models/resourcemodel.cpp:100
+#, fuzzy
+#| msgid "Title:"
+msgid "Title"
+msgstr "Títulu:"
+
+#: src/models/resourcemodel.cpp:167
+msgid "Courses"
+msgstr ""
+
+#: src/models/resourcemodel.cpp:198
+#, fuzzy
+#| msgid "&Keyboard Layouts"
+msgid "Keyboard Layouts"
+msgstr "&Distribuciones de tecláu"
+
+#: src/models/resourcemodel.cpp:202
+#, kde-format
+msgid "Name: %1"
+msgstr ""
+
+#: src/qml/AccuracyMeter.qml:38 src/qml/LearningProgressGraph.qml:51
+msgid "Accuracy"
+msgstr "Esautitú"
+
+#: src/qml/CharactersPerMinuteMeter.qml:39
+#: src/qml/LearningProgressGraph.qml:60
+#, fuzzy
+#| msgid "Characters per minute"
+msgid "Characters per Minute"
+msgstr "Carauteres per minutu"
+
+#: src/qml/ElapsedTimeMeter.qml:36
+msgid "Elapsed time"
+msgstr ""
+
+#: src/qml/InitialProfileForm.qml:73
+#, fuzzy
+#| msgid "Typing line"
+msgid "Welcome to Typewriting Trainer"
+msgstr "Teclear llinia"
+
+#: src/qml/InitialProfileForm.qml:100 src/qml/LessonSelector.qml:146
+#, fuzzy
+#| msgid "T&raining"
+msgid "Start Training"
+msgstr "Ent&renamientu"
+
+#: src/qml/LessonLockedNotice.qml:59
+msgid "Complete Previous Lessons to Unlock"
+msgstr ""
+
+#: src/qml/NoCoursesMessage.qml:53
+#, fuzzy
+#| msgid "<no lecture files available>"
+msgid "No Courses Available"
+msgstr "<dengún ficheru de lleición disponible>"
+
+#: src/qml/NoCoursesMessage.qml:69
+msgid ""
+"Typewriting Trainer has no courses for your keyboard layout. You may create "
+"your own course with the keyboard layout and course editor."
+msgstr ""
+
+#: src/qml/NoCoursesMessage.qml:73
+#, fuzzy
+#| msgid "Level Editor"
+msgid "Launch Editor"
+msgstr "Editor de nivel"
+
+#: src/qml/ProfileDetailsItem.qml:118
+msgid "Lessons trained:"
+msgstr ""
+
+#: src/qml/ProfileDetailsItem.qml:122
+#, fuzzy
+#| msgid "Training Options"
+msgid "Total training time:"
+msgstr "Opciones d'entrenamientu"
+
+#: src/qml/ProfileDetailsItem.qml:126
+msgid "Last trained:"
+msgstr ""
+
+#: src/qml/ProfileDetailsItem.qml:141
+msgid "Edit"
+msgstr ""
+
+#: src/qml/ProfileDetailsItem.qml:193
+#, kde-format
+msgid "Do you really want to delete the profile \"<b>%1</b>\"?"
+msgstr ""
+
+#: src/qml/ProfileDetailsItem.qml:213
+#, fuzzy
+#| msgid "&Cancel"
+msgid "Cancel"
+msgstr "&Encaboxar"
+
+#: src/qml/ProfileForm.qml:40
+msgid "Before you start training, please introduce yourself:"
+msgstr ""
+
+#: src/qml/ProfileForm.qml:46
+msgid "Name"
+msgstr ""
+
+#: src/qml/ProfileForm.qml:63
+msgid "I have no or only very little experience in machine typing"
+msgstr ""
+
+#: src/qml/ProfileForm.qml:79
+msgid "Lessons are unlocked as your typing skills improve over time."
+msgstr ""
+
+#: src/qml/ProfileForm.qml:97
+msgid "I'm an experienced machine typist and want to improve my skills"
+msgstr ""
+
+#: src/qml/ProfileForm.qml:113
+msgid "All lessons are unlocked immediately."
+msgstr ""
+
+#: src/qml/ProfileForm.qml:121
+msgid "Done"
+msgstr ""
+
+#: src/qml/ProfileSelector.qml:61
+#, fuzzy
+#| msgid "Create new keyboard"
+msgid "Create New Profile"
+msgstr "Crear nuevu tecláu"
+
+#: src/qml/ProfileSelector.qml:104
+#, fuzzy
+#| msgid "Open a lecture file:"
+msgid "Use Selected Profile"
+msgstr "Abrir el ficheru d'una lleición:"
+
+#: src/qml/ScoreScreen.qml:149
+msgid "All Lessons"
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:161
+msgid "This Lesson"
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:185
+msgid "<i>Unknown</i>"
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:191
+msgid "On:"
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:195
+#, fuzzy
+#| msgid "Accuracy"
+msgid "Accuracy:"
+msgstr "Esautitú"
+
+#: src/qml/ScoreScreen.qml:199
+#, fuzzy
+#| msgid "Characters per minute:"
+msgid "Characters per Minute:"
+msgstr "Carauteres per minutu:"
+
+#: src/qml/ScoreScreen.qml:216
+#, fuzzy
+#| msgid "Character"
+msgid "Character:"
+msgstr "Caráuter"
+
+#: src/qml/ScoreScreen.qml:220
+msgid "Errors:"
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:270 src/qml/TrainingScreenMenuOverlay.qml:94
+msgid "Return to Home Screen"
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:283
+#, fuzzy
+#| msgid "Remove"
+msgid "Repeat Lesson"
+msgstr "Desaniciar"
+
+#: src/qml/ScoreScreen.qml:290
+msgid "Next Lesson"
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:340
+msgid "Congratulations! You've passed the lesson."
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:341
+msgid "You haven't passed the lesson."
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:353
+msgid "Repeat the lesson. Your skills will improve automatically over time."
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:355
+msgid "Next lesson unlocked"
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:414
+msgid "Show"
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:440
+msgid "Over"
+msgstr ""
+
+#: src/qml/ScoreScreen.qml:501
+#, fuzzy
+#| msgid "Monitor Progress"
+msgid "Progress"
+msgstr "Monitor de progresu"
+
+#: src/qml/ScoreScreen.qml:524 src/qml/ScoreScreen.qml:538
+msgid "Errors"
+msgstr ""
+
+#: src/qml/TrainingScreenMenuOverlay.qml:75
+#, fuzzy
+#| msgid "T&raining"
+msgid "Resume Training"
+msgstr "Ent&renamientu"
+
+#: src/qml/TrainingScreenMenuOverlay.qml:83
+#, fuzzy
+#| msgid "&Start New Session"
+msgid "Restart Lesson"
+msgstr "&Aniciar nueva sesión"
+
+#: src/qml/TrainingScreenToolbar.qml:33
+#, fuzzy
+#| msgid "Training session! The time is running..."
+msgid "Training session started. Time begins running with the first keystroke."
+msgstr "Sesión d'entrenamientu. El tiempu cuerre..."
+
+#: src/qml/TrainingScreenToolbar.qml:34
+#, fuzzy
+#| msgid "Training session paused. Training continues on next keypress..."
+msgid ""
+"Training session interrupted. Time begins running again with next keystroke."
+msgstr ""
+"Sesión d'entrenamientu posada. La sesión d'entrenamientu continuará con la "
+"siguiente pulsación..."
+
 #. i18n: ectx: property (title), widget (QGroupBox, fingersGroupBox)
 #: src/ui/colorsconfigwidget.ui:17
 #, fuzzy
@@ -267,7 +807,7 @@ msgid "Add new lesson"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_removeLessonButton)
-#: src/ui/courseeditor.ui:194
+#: src/ui/courseeditor.ui:194 src/undocommands/coursecommands.cpp:178
 #, fuzzy
 #| msgid "Remove"
 msgid "Remove lesson"
@@ -328,13 +868,6 @@ msgstr ""
 #, fuzzy
 #| msgid "Delete Key"
 msgid "Delete selected key"
-msgstr "Desaniciar la clave"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_deleteKeyToolButton)
-#: src/ui/keyboardlayouteditor.ui:82
-#, fuzzy
-#| msgid "Delete Key"
-msgid "Delete"
 msgstr "Desaniciar la clave"
 
 #. i18n: ectx: property (text), widget (QLabel, m_zoomFactorLabel)
@@ -574,6 +1107,130 @@ msgstr ""
 msgid "%"
 msgstr "%"
 
+#: src/undocommands/coursecommands.cpp:32
+msgid "Set title"
+msgstr ""
+
+#: src/undocommands/coursecommands.cpp:67
+#, fuzzy
+#| msgid "&Keyboard Layouts"
+msgid "Set keyboard layout"
+msgstr "&Distribuciones de tecláu"
+
+#: src/undocommands/coursecommands.cpp:102
+msgid "Edit description"
+msgstr ""
+
+#: src/undocommands/coursecommands.cpp:137
+#, fuzzy
+#| msgid "Remove"
+msgid "Add lesson"
+msgstr "Desaniciar"
+
+#: src/undocommands/coursecommands.cpp:229
+#, fuzzy
+#| msgid "Remove"
+msgid "Move lesson"
+msgstr "Desaniciar"
+
+#: src/undocommands/coursecommands.cpp:293
+msgid "Set lesson title"
+msgstr ""
+
+#: src/undocommands/coursecommands.cpp:332
+#, fuzzy
+#| msgid "new characters"
+msgid "Set new characters for lesson"
+msgstr "carauteres nuevos"
+
+#: src/undocommands/coursecommands.cpp:371
+#, fuzzy
+#| msgid "Student text:"
+msgid "Set lesson text"
+msgstr "Testu del alumnu:"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:32
+#, fuzzy
+#| msgid "&Keyboard Layouts"
+msgid "Set keyboard layout title"
+msgstr "&Distribuciones de tecláu"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:67
+#, fuzzy
+#| msgid "untitled keyboard layout"
+msgid "Set keyboard layout name"
+msgstr "distribución de tecláu sin título"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:102
+#, fuzzy
+#| msgid "&Keyboard Layouts"
+msgid "Set keyboard layout size"
+msgstr "&Distribuciones de tecláu"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:154
+msgid "Add key"
+msgstr "Amestar tecla"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:209
+#, fuzzy
+#| msgid "&Remove"
+msgid "Remove key"
+msgstr "&Desaniciar"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:271
+msgid "Set key geometry"
+msgstr ""
+
+#: src/undocommands/keyboardlayoutcommands.cpp:309
+msgid "Set key finger"
+msgstr ""
+
+#: src/undocommands/keyboardlayoutcommands.cpp:355
+msgid "Set key haptic marker"
+msgstr ""
+
+#: src/undocommands/keyboardlayoutcommands.cpp:400
+#, fuzzy
+#| msgid "new characters"
+msgid "Add key character"
+msgstr "carauteres nuevos"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:441
+#, fuzzy
+#| msgid "Key characters"
+msgid "Remove key character"
+msgstr "Carauteres de la tecla"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:498
+#, fuzzy
+#| msgid "Key characters"
+msgid "Set key character value"
+msgstr "Carauteres de la tecla"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:545
+msgid "Set key character modifier"
+msgstr ""
+
+#: src/undocommands/keyboardlayoutcommands.cpp:592
+msgid "Set key character position"
+msgstr ""
+
+#: src/undocommands/keyboardlayoutcommands.cpp:638
+#, fuzzy
+#| msgid "Create new lecture"
+msgid "Set special key type"
+msgstr "Crear nueva lleición"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:681
+#, fuzzy
+#| msgid "Create new lecture"
+msgid "Set special key label"
+msgstr "Crear nueva lleición"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:724
+msgid "Set special key modifier ID"
+msgstr ""
+
 #, fuzzy
 #~| msgctxt "Lesson Name"
 #~| msgid "Ukrainian"
@@ -741,9 +1398,6 @@ msgstr "%"
 #~ msgid "General Options"
 #~ msgstr "Opciones xenerales"
 
-#~ msgid "Training Options"
-#~ msgstr "Opciones d'entrenamientu"
-
 #~ msgid "Keyboard Settings"
 #~ msgstr "Preferencies de tecláu"
 
@@ -778,9 +1432,6 @@ msgstr "%"
 #~ msgid "&Edit Keyboard Layout..."
 #~ msgstr "&Editar distribución de tecláu..."
 
-#~ msgid "&Start New Session"
-#~ msgstr "&Aniciar nueva sesión"
-
 #~ msgid "&Pause Session"
 #~ msgstr "&Pausar sesión"
 
@@ -804,9 +1455,6 @@ msgstr "%"
 
 #~ msgid "Emit a beep on each typing error"
 #~ msgstr "Emitir un pitíu en cada fallu de tecléu"
-
-#~ msgid "New color scheme"
-#~ msgstr "Nuevu esquema de color"
 
 #~ msgid "Save modified color schemes?"
 #~ msgstr "¿Guardar esquema de color modificáu?"
@@ -844,9 +1492,6 @@ msgstr "%"
 #~ msgstr ""
 #~ "Tecla de deu col unicode «%1» desconocida. La tecla normal p'amosar el "
 #~ "caráuter «%2» y el unicode «%3» saltáronse.\n"
-
-#~ msgid "Hidden key"
-#~ msgstr "Anubrir tecla"
 
 #~ msgid ""
 #~ "Unknown target key with unicode '%1'. Hidden key with display character "
@@ -902,9 +1547,6 @@ msgstr "%"
 
 #~ msgid "KTouch keyboard editor error"
 #~ msgstr "Fallu nel editor de tecláu de KTouch"
-
-#~ msgid "The selected key is not a finger key."
-#~ msgstr "La tecla esbillada nun ye una tecla de deu."
 
 #~ msgid "<modifier key>"
 #~ msgstr "<Tecla modificadora>"
@@ -1000,12 +1642,6 @@ msgstr "%"
 #~ msgid "Open a default lecture:"
 #~ msgstr "Abrir la lleición predeterminada:"
 
-#~ msgid "Open a lecture file:"
-#~ msgstr "Abrir el ficheru d'una lleición:"
-
-#~ msgid "<no lecture files available>"
-#~ msgstr "<dengún ficheru de lleición disponible>"
-
 #~ msgid "Could not open the lecture file, creating a new one instead."
 #~ msgstr ""
 #~ "Nun pudo abrise'l ficheru pa la lleición, crearáse un nuevu ficheru."
@@ -1045,9 +1681,6 @@ msgstr "%"
 #~ msgid "Words per minute"
 #~ msgstr "Pallabres per minutu"
 
-#~ msgid "Characters per minute"
-#~ msgstr "Carauteres per minutu"
-
 #~ msgid "Correctness"
 #~ msgstr "Correición"
 
@@ -1062,14 +1695,6 @@ msgstr "%"
 
 #~ msgid "Starting training session: Waiting for first keypress..."
 #~ msgstr "Entamu de la sesión d'entrenamientu: esperando a la primer tecla..."
-
-#~ msgid "Training session paused. Training continues on next keypress..."
-#~ msgstr ""
-#~ "Sesión d'entrenamientu posada. La sesión d'entrenamientu continuará con "
-#~ "la siguiente pulsación..."
-
-#~ msgid "Training session! The time is running..."
-#~ msgstr "Sesión d'entrenamientu. El tiempu cuerre..."
 
 #~ msgid ""
 #~ "You have finished this training exercise.\n"
@@ -1147,9 +1772,6 @@ msgstr "%"
 #~ msgid "Student text on error:"
 #~ msgstr "Testu del alumnu nos fallos:"
 
-#~ msgid "Student text:"
-#~ msgstr "Testu del alumnu:"
-
 #~ msgid "Student background on error:"
 #~ msgstr "Fondu del alumnu nos fallos:"
 
@@ -1204,18 +1826,6 @@ msgstr "%"
 #~ msgid "Key text:"
 #~ msgstr "Testu de clave:"
 
-#~ msgid "Top left:"
-#~ msgstr "Superior esquierda:"
-
-#~ msgid "Top right:"
-#~ msgstr "Superior drecha:"
-
-#~ msgid "Bottom left:"
-#~ msgstr "Inferior esquierda:"
-
-#~ msgid "Bottom right:"
-#~ msgstr "Inferior drecha:"
-
 #~ msgid "Keyboard Edit Options"
 #~ msgstr "Opciones d'edición del tecláu"
 
@@ -1248,9 +1858,6 @@ msgstr "%"
 #~ "Distribución del tecláu (calque p'activar les tecles pa editales o "
 #~ "arrastrales)"
 
-#~ msgid "Add key"
-#~ msgstr "Amestar tecla"
-
 #~ msgid "KTouch Lecture Editor"
 #~ msgstr "Editor de lleiciones de KTouch"
 
@@ -1259,9 +1866,6 @@ msgstr "%"
 
 #~ msgid "Comment:"
 #~ msgstr "Comentariu:"
-
-#~ msgid "Level Editor"
-#~ msgstr "Editor de nivel"
 
 #~ msgid "Level Data of Level 10"
 #~ msgstr "Datos de nivel pal nivel 10"
@@ -1308,9 +1912,6 @@ msgstr "%"
 #~ msgid "Characters per second"
 #~ msgstr "Carauteres per segundu"
 
-#~ msgid "Accuracy"
-#~ msgstr "Esautitú"
-
 #~ msgid "All users high scores for this level"
 #~ msgstr "Meyores puntuaciones de tolos usuarios pa esti nivel"
 
@@ -1327,9 +1928,6 @@ msgstr "%"
 #~| msgid "&Ok"
 #~ msgid "&OK"
 #~ msgstr "&Aceutar"
-
-#~ msgid "&Cancel"
-#~ msgstr "&Encaboxar"
 
 #~ msgid "The color for the teacher's line"
 #~ msgstr "El color pa la llinia del profesor"
@@ -1578,9 +2176,6 @@ msgstr "%"
 #~ msgid "Typing Rate"
 #~ msgstr "Ratio de tecléu"
 
-#~ msgid "Characters per minute:"
-#~ msgstr "Carauteres per minutu:"
-
 #~ msgid "The number of correct characters you typed per minute."
 #~ msgstr "El númberu de carauteres correutos tecleaos per minutu."
 
@@ -1651,9 +2246,6 @@ msgstr "%"
 #~ "El porcentax amuesa'l ratio de la frecuencia cola que falta una tecla "
 #~ "frente a la frecuencia cola que la tecla ye calcada correutamente. Los "
 #~ "númberos grandes conseñen que la tecla falta n'escesu."
-
-#~ msgid "Monitor Progress"
-#~ msgstr "Monitor de progresu"
 
 #~ msgid "Your Typing Progress"
 #~ msgstr "El so progresu tecleando"
@@ -1738,9 +2330,6 @@ msgstr "%"
 
 #~ msgid "Ins, Alt+A"
 #~ msgstr "Ins, Alt+A"
-
-#~ msgid "&Remove"
-#~ msgstr "&Desaniciar"
 
 #~ msgid "Del, Alt+R"
 #~ msgstr "Supr, Alt+R"
@@ -1837,10 +2426,6 @@ msgstr "%"
 #~| msgid "German (Neo 2 keyboard layout)"
 #~ msgctxt "Lesson Name"
 #~ msgid "German (Dvorak keyboard layout)"
-#~ msgstr "Alemán (Neo 2 keyboard layout)"
-
-#~ msgctxt "Lesson Name"
-#~ msgid "German (Neo 2 keyboard layout)"
 #~ msgstr "Alemán (Neo 2 keyboard layout)"
 
 #~ msgctxt "Lesson Name"
