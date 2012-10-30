@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-24 12:44+0200\n"
+"POT-Creation-Date: 2012-10-30 17:30+0100\n"
 "PO-Revision-Date: 2010-10-25 14:09+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -1886,10 +1886,6 @@ msgstr "Desconocíu (probablemente CD-ROM)"
 msgid "Type:"
 msgstr "Triba:"
 
-#: k3bdiskinfoview.cpp:299
-msgid "Media ID:"
-msgstr "ID Mediu:"
-
 #: k3bdiskinfoview.cpp:299 rip/k3baudioconvertingoptionwidget.cpp:222
 #: rip/k3baudioconvertingoptionwidget.cpp:256
 #: rip/k3baudioprojectconvertingdialog.cpp:282
@@ -1900,9 +1896,9 @@ msgstr "ID Mediu:"
 msgid "unknown"
 msgstr "desconocíu"
 
-#: k3bdiskinfoview.cpp:300
-msgid "Capacity:"
-msgstr "Capacidá:"
+#: k3bdiskinfoview.cpp:299
+msgid "Media ID:"
+msgstr "ID Mediu:"
 
 #: k3bdiskinfoview.cpp:300 k3bdiskinfoview.cpp:302 k3bdiskinfoview.cpp:306
 #: projects/k3bfillstatusdisplay.cpp:225 projects/k3bfillstatusdisplay.cpp:228
@@ -1910,6 +1906,10 @@ msgstr "Capacidá:"
 #, kde-format
 msgid "%1 min"
 msgstr "%1 min"
+
+#: k3bdiskinfoview.cpp:300
+msgid "Capacity:"
+msgstr "Capacidá:"
 
 #: k3bdiskinfoview.cpp:302
 msgid "Used Capacity:"
@@ -4758,11 +4758,11 @@ msgstr ""
 msgid "Messa&ge:"
 msgstr "&Mensax:"
 
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_buttonCopyPerformer)
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_buttonCopyTitle)
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_buttonCopySongwriter)
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_buttonCopyComposer)
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_buttonCopyArranger)
-#. i18n: ectx: property (toolTip), widget (QToolButton, m_buttonCopyTitle)
-#. i18n: ectx: property (toolTip), widget (QToolButton, m_buttonCopyPerformer)
 #: projects/base_k3baudiocdtextallfieldswidget.ui:39
 #: projects/base_k3baudiocdtextallfieldswidget.ui:69
 #: projects/base_k3baudiocdtextallfieldswidget.ui:125
@@ -4773,14 +4773,14 @@ msgstr "&Mensax:"
 msgid "Copy to all tracks"
 msgstr "Copiar toles pistes"
 
-#. i18n: ectx: property (text), widget (QToolButton, m_buttonCopySongwriter)
-#. i18n: ectx: property (text), widget (QToolButton, m_buttonCopyComposer)
-#. i18n: ectx: property (text), widget (QToolButton, m_buttonCopyArranger)
-#. i18n: ectx: property (text), widget (QToolButton, m_buttonCopyTitle)
 #. i18n: ectx: property (text), widget (QToolButton, m_buttonCopyPerformer)
+#. i18n: ectx: property (text), widget (QToolButton, m_buttonCopyTitle)
 #. i18n: ectx: property (text), widget (QToolButton, m_buttonFindBiblio)
 #. i18n: ectx: property (text), widget (QToolButton, m_buttonFindAbstract)
 #. i18n: ectx: property (text), widget (QToolButton, m_buttonFindCopyright)
+#. i18n: ectx: property (text), widget (QToolButton, m_buttonCopySongwriter)
+#. i18n: ectx: property (text), widget (QToolButton, m_buttonCopyComposer)
+#. i18n: ectx: property (text), widget (QToolButton, m_buttonCopyArranger)
 #. i18n: ectx: property (text), widget (QToolButton, m_buttonConfigurePlugin)
 #: projects/base_k3baudiocdtextallfieldswidget.ui:42
 #: projects/base_k3baudiocdtextallfieldswidget.ui:72
@@ -8053,8 +8053,8 @@ msgstr "Nun s'almite'l mou de direutoriu p'allugamientos remotos."
 msgid "KOffice Storage"
 msgstr "Almacenamientu de KOffice"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #: rip/base_k3baudiorippingoptionwidget.ui:18
 #: rip/videodvd/base_k3bvideodvdrippingwidget.ui:330
 msgid "Filetype"
@@ -8174,15 +8174,15 @@ msgstr ""
 msgid "Write &cue file"
 msgstr "Grabar ficheru &cue"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1_2)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: rip/base_k3baudiorippingoptionwidget.ui:182
 #: rip/videodvd/base_k3bvideodvdrippingwidget.ui:137
 msgid "Target Folder"
 msgstr "Carpeta de destín"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rip/base_k3baudiorippingoptionwidget.ui:188
 #: rip/videodvd/base_k3bvideodvdrippingwidget.ui:143
 msgid "Free space in directory:"
@@ -8197,8 +8197,8 @@ msgstr "Espaciu llibre nel direutoriu:"
 msgid "-"
 msgstr "-"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: rip/base_k3baudiorippingoptionwidget.ui:214
 #: rip/videodvd/base_k3bvideodvdrippingwidget.ui:169
 msgid "Space needed:"
@@ -8219,8 +8219,8 @@ msgstr "Camudar tolos &espacios con:"
 msgid "Playlist pattern:"
 msgstr "Patrón de llista de reproducción:"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rip/base_k3bcddbpatternwidget.ui:64
 #: rip/videodvd/base_k3bvideodvdrippingwidget.ui:390
 msgid "Ripped files pattern:"
