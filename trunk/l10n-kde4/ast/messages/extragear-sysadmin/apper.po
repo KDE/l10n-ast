@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackgekit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-01 03:51+0100\n"
+"POT-Creation-Date: 2012-11-02 03:54+0100\n"
 "PO-Revision-Date: 2010-10-25 20:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -619,7 +619,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, hideTB)
 #: ApperKCM/PackageDetails.ui:359 ApperKCM/Updater/UpdateDetails.ui:20
-#: Sentinel/TransactionWatcher.cpp:183 Sentinel/UpdateIcon.cpp:123
+#: Sentinel/TransactionWatcher.cpp:172 Sentinel/UpdateIcon.cpp:123
 msgid "Hide"
 msgstr "Anubrir"
 
@@ -739,7 +739,7 @@ msgid "Action"
 msgstr "Aición"
 
 #: ApperKCM/TransactionModel.cpp:48 AppSetup/SetupWizard.cpp:199
-#: Sentinel/TransactionWatcher.cpp:314
+#: Sentinel/TransactionWatcher.cpp:249
 msgid "Details"
 msgstr "Detalles"
 
@@ -1021,8 +1021,8 @@ msgstr "Instalando ficheru"
 msgid "%1 has been installed successfully!"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:102 libapper/PkTransaction.cpp:122
-#: libapper/PkTransaction.cpp:142 libapper/PkTransaction.cpp:163
+#: AppSetup/SetupWizard.cpp:102 libapper/PkTransaction.cpp:127
+#: libapper/PkTransaction.cpp:145 libapper/PkTransaction.cpp:164
 #: libapper/PkTransaction.cpp:182
 msgid "Error"
 msgstr ""
@@ -2024,7 +2024,8 @@ msgstr "El paquete ye incompatible con esti sistema"
 msgid "No space is left on the disk"
 msgstr "Nun hai espaciu nel discu"
 
-#: libapper/PkStrings.cpp:456 libapper/PkTransactionWidget.cpp:366
+#: libapper/PkStrings.cpp:456 libapper/PkTransaction.cpp:385
+#: libapper/PkTransactionWidget.cpp:343
 msgid "A media change is required"
 msgstr "Requierse un cambéu de mediu"
 
@@ -2952,31 +2953,31 @@ msgstr ""
 msgid "An unknown error happened."
 msgstr ""
 
-#: libapper/PkTransaction.cpp:118
+#: libapper/PkTransaction.cpp:123
 #, fuzzy
 #| msgid "Failed to remove package"
 msgid "Failed to simulate file install"
 msgstr "Fallu al desaniciar el paquete"
 
-#: libapper/PkTransaction.cpp:122
+#: libapper/PkTransaction.cpp:127
 #, fuzzy
 #| msgid "Current backend does not support installing packages."
 msgid "Current backend does not support installing files."
 msgstr "El motor actual nun permite instalar paquetes."
 
-#: libapper/PkTransaction.cpp:138
+#: libapper/PkTransaction.cpp:141
 msgid "Failed to simulate package install"
 msgstr ""
 
-#: libapper/PkTransaction.cpp:142
+#: libapper/PkTransaction.cpp:145
 msgid "Current backend does not support installing packages."
 msgstr "El motor actual nun permite instalar paquetes."
 
-#: libapper/PkTransaction.cpp:159
+#: libapper/PkTransaction.cpp:160
 msgid "Failed to simulate package removal"
 msgstr ""
 
-#: libapper/PkTransaction.cpp:163
+#: libapper/PkTransaction.cpp:164
 msgid "The current backend does not support removing packages."
 msgstr "El motor actual nun permite desaniciar paquetes."
 
@@ -2992,52 +2993,27 @@ msgstr "Fallu al desaniciar el paquete"
 msgid "The current backend does not support updating packages."
 msgstr "El motor actual nun permite desaniciar paquetes."
 
-#: libapper/PkTransaction.cpp:233
+#: libapper/PkTransaction.cpp:223
 msgid "Failed to install package"
 msgstr "fallu al instalar el paquete"
 
-#: libapper/PkTransaction.cpp:245 Sentinel/PkInstallProvideFiles.cpp:101
+#: libapper/PkTransaction.cpp:233 Sentinel/PkInstallProvideFiles.cpp:101
 msgid "Failed to install file"
 msgid_plural "Failed to install files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libapper/PkTransaction.cpp:258
+#: libapper/PkTransaction.cpp:244
 msgid "Failed to remove package"
 msgstr "Fallu al desaniciar el paquete"
 
-#: libapper/PkTransaction.cpp:270
+#: libapper/PkTransaction.cpp:254
 #, fuzzy
 #| msgid "Failed to remove package"
 msgid "Failed to update package"
 msgstr "Fallu al desaniciar el paquete"
 
-#: libapper/PkTransaction.cpp:537 libapper/PkTransaction.cpp:591
-#: libapper/PkTransactionWidget.cpp:351 libapper/PkTransactionWidget.cpp:405
-msgid "Failed to install signature"
-msgstr ""
-
-#: libapper/PkTransactionWidget.cpp:239
-#, fuzzy, kde-format
-#| msgctxt "The role of the transaction, in present tense"
-#| msgid "Downloading packages"
-msgid "Downloading at %1/s, %2 remaining"
-msgstr "Baxando paquetes"
-
-#: libapper/PkTransactionWidget.cpp:243
-#, fuzzy, kde-format
-#| msgid "Downloading"
-msgid "Downloading at %1/s"
-msgstr "Baxando"
-
-#: libapper/PkTransactionWidget.cpp:246
-#, fuzzy, kde-format
-#| msgctxt "The role of the transaction, in present tense"
-#| msgid "Downloading packages"
-msgid "Downloading, %1 remaining"
-msgstr "Baxando paquetes"
-
-#: libapper/PkTransactionWidget.cpp:294
+#: libapper/PkTransaction.cpp:314 libapper/PkTransactionWidget.cpp:271
 msgid ""
 "You are about to install unsigned packages that can compromise your system, "
 "as it is impossible to verify if the software came from a trusted source.\n"
@@ -3045,9 +3021,34 @@ msgid ""
 "Are you sure you want to proceed with the installation?"
 msgstr ""
 
-#: libapper/PkTransactionWidget.cpp:297
+#: libapper/PkTransaction.cpp:317 libapper/PkTransactionWidget.cpp:274
 msgid "Installing unsigned software"
 msgstr "Instalando software non robláu"
+
+#: libapper/PkTransaction.cpp:370 libapper/PkTransaction.cpp:430
+#: libapper/PkTransactionWidget.cpp:328 libapper/PkTransactionWidget.cpp:382
+msgid "Failed to install signature"
+msgstr ""
+
+#: libapper/PkTransactionWidget.cpp:207
+#, fuzzy, kde-format
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Downloading packages"
+msgid "Downloading at %1/s, %2 remaining"
+msgstr "Baxando paquetes"
+
+#: libapper/PkTransactionWidget.cpp:211
+#, fuzzy, kde-format
+#| msgid "Downloading"
+msgid "Downloading at %1/s"
+msgstr "Baxando"
+
+#: libapper/PkTransactionWidget.cpp:214
+#, fuzzy, kde-format
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Downloading packages"
+msgid "Downloading, %1 remaining"
+msgstr "Baxando paquetes"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libapper/PkTransactionWidget.ui:38
@@ -3773,62 +3774,25 @@ msgstr "Obsoletu"
 msgid "All operations were committed successfully"
 msgstr ""
 
-#: Sentinel/TransactionTrayIcon.cpp:45
-msgid "Transactions"
-msgstr "Transaiciones"
-
-#: Sentinel/TransactionTrayIcon.cpp:90
-#, kde-format
-msgid "%1% - %2"
-msgstr "%1% - %2"
-
-#: Sentinel/TransactionTrayIcon.cpp:92
-#, kde-format
-msgid "%1"
-msgstr "%1"
-
-#: Sentinel/TransactionWatcher.cpp:63 Sentinel/TransactionWatcher.cpp:271
-msgid "Hide this icon"
-msgstr "Anubrir esti iconu"
-
-#: Sentinel/TransactionWatcher.cpp:165
+#: Sentinel/TransactionWatcher.cpp:154
 msgid "The system update has completed"
 msgstr "L'anovamientu del sistema completóse"
 
-#: Sentinel/TransactionWatcher.cpp:171
+#: Sentinel/TransactionWatcher.cpp:160
 #, fuzzy, kde-format
 #| msgid "Package: %2"
 #| msgid_plural "Packages: %2"
 msgid "Packages: %1"
 msgstr "Paquete: %2"
 
-#: Sentinel/TransactionWatcher.cpp:198
+#: Sentinel/TransactionWatcher.cpp:187
 #, kde-format
 msgid "Package: %2"
 msgid_plural "Packages: %2"
 msgstr[0] "Paquete: %2"
 msgstr[1] "Paquetes: %2"
 
-#: Sentinel/TransactionWatcher.cpp:253 Sentinel/TransactionWatcher.cpp:293
-#, fuzzy
-#| msgid "Package Manager Messages"
-msgid "Software Manager Messages"
-msgstr "Mensaxes del xestor de paquetes"
-
-#: Sentinel/TransactionWatcher.cpp:254
-#, fuzzy, kde-format
-#| msgid "One message from the package manager"
-#| msgid_plural "%1 messages from the package manager"
-msgid "One message from the software manager"
-msgid_plural "%1 messages from the software manager"
-msgstr[0] "Un mensaxe del xestor de paquetes"
-msgstr[1] "%1 mensaxe del xestor de paquetes"
-
-#: Sentinel/TransactionWatcher.cpp:262
-msgid "Show messages"
-msgstr "Amosar mensaxes"
-
-#: Sentinel/TransactionWatcher.cpp:314
+#: Sentinel/TransactionWatcher.cpp:249
 msgid "Ignore"
 msgstr "Inorar"
 
@@ -3855,6 +3819,34 @@ msgstr "El sistema anovóse correcho."
 #: Sentinel/UpdateIcon.cpp:247
 msgid "The automated software update failed."
 msgstr ""
+
+#~ msgid "Transactions"
+#~ msgstr "Transaiciones"
+
+#~ msgid "%1% - %2"
+#~ msgstr "%1% - %2"
+
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgid "Hide this icon"
+#~ msgstr "Anubrir esti iconu"
+
+#, fuzzy
+#~| msgid "Package Manager Messages"
+#~ msgid "Software Manager Messages"
+#~ msgstr "Mensaxes del xestor de paquetes"
+
+#, fuzzy
+#~| msgid "One message from the package manager"
+#~| msgid_plural "%1 messages from the package manager"
+#~ msgid "One message from the software manager"
+#~ msgid_plural "%1 messages from the software manager"
+#~ msgstr[0] "Un mensaxe del xestor de paquetes"
+#~ msgstr[1] "%1 mensaxe del xestor de paquetes"
+
+#~ msgid "Show messages"
+#~ msgstr "Amosar mensaxes"
 
 #, fuzzy
 #~| msgid "Failed to remove package"
