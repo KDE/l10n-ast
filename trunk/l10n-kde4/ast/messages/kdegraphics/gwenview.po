@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-22 02:38+0100\n"
+"POT-Creation-Date: 2012-11-30 03:03+0100\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -1197,14 +1197,14 @@ msgstr "Nome de ficheru Orixinal"
 msgid "Original filename, in lower case"
 msgstr "Nome de ficheru Orixinal, en minúscules"
 
-#: importer/importdialog.cpp:73
+#: importer/importdialog.cpp:75
 #, kde-format
 msgid "One document has been imported."
 msgid_plural "%1 documents have been imported."
 msgstr[0] "Importóse un documentu."
 msgstr[1] "Importáronse %1 documentos."
 
-#: importer/importdialog.cpp:78
+#: importer/importdialog.cpp:80
 #, kde-format
 msgid "One document has been skipped because it had already been imported."
 msgid_plural ""
@@ -1212,7 +1212,7 @@ msgid_plural ""
 msgstr[0] "Inoróse un documentu porque yá taba importáu."
 msgstr[1] "Inoráronse %1 documentos porque yá taben importaos"
 
-#: importer/importdialog.cpp:86
+#: importer/importdialog.cpp:88
 #, kde-format
 msgid ""
 "One of them has been renamed because another document with the same name had "
@@ -1226,21 +1226,21 @@ msgstr[1] ""
 "Camudáronse los nomes de %1 d'ellos porque yá esistíen otros documentos col "
 "mesmu nome."
 
-#: importer/importdialog.cpp:95
+#: importer/importdialog.cpp:97
 #, kde-format
 msgid "Delete the imported document from the device?"
 msgid_plural "Delete the %1 imported documents from the device?"
 msgstr[0] "¿Desaniciar el documentu importáu dende'l preséu?"
 msgstr[1] "¿Desaniciar los %1 documentos importaos dende'l preséu?"
 
-#: importer/importdialog.cpp:100
+#: importer/importdialog.cpp:102
 #, kde-format
 msgid "Delete the skipped document from the device?"
 msgid_plural "Delete the %1 skipped documents from the device?"
 msgstr[0] "¿Desaniciar el documentu inoráu dende'l preséu?"
 msgstr[1] "¿Desaniciar los %1 documentos inoraos dende'l preséu?"
 
-#: importer/importdialog.cpp:106
+#: importer/importdialog.cpp:108
 #, kde-format
 msgctxt "Singular sentence is actually never used."
 msgid "Delete the imported or skipped document from the device?"
@@ -1248,18 +1248,18 @@ msgid_plural "Delete the %1 imported and skipped documents from the device?"
 msgstr[0] "¿Desaniciar el documentu importáu ya inoráu dende'l preséu?"
 msgstr[1] "¿Desaniciar los %1 documentos importaos ya inoraos dende'l preséu?"
 
-#: importer/importdialog.cpp:113
+#: importer/importdialog.cpp:115
 #, fuzzy
 #| msgid "Import Finished"
 msgctxt "@title:window"
 msgid "Import Finished"
 msgstr "Importación finada"
 
-#: importer/importdialog.cpp:115
+#: importer/importdialog.cpp:117
 msgid "Keep"
 msgstr "Caltener"
 
-#: importer/importdialog.cpp:128
+#: importer/importdialog.cpp:130
 #, kde-format
 msgid ""
 "Failed to delete the document:\n"
@@ -1274,27 +1274,27 @@ msgstr[1] ""
 "Hebo un fallu al desaniciar los documentos:\n"
 "%2"
 
-#: importer/importdialog.cpp:132
+#: importer/importdialog.cpp:134
 msgid "Retry"
 msgstr "Volve&r a intentar"
 
-#: importer/importdialog.cpp:133
+#: importer/importdialog.cpp:135
 msgid "Ignore"
 msgstr "Inorar"
 
-#: importer/importdialog.cpp:155
+#: importer/importdialog.cpp:157
 msgid "What do you want to do now?"
 msgstr "Qué quies facer agora?"
 
-#: importer/importdialog.cpp:157
+#: importer/importdialog.cpp:159
 msgid "View Imported Documents with Gwenview"
 msgstr "Ver documentos importaos con Gwenview"
 
-#: importer/importdialog.cpp:158
+#: importer/importdialog.cpp:160
 msgid "Import more Documents"
 msgstr "Importar más Documentos"
 
-#: importer/importdialog.cpp:159
+#: importer/importdialog.cpp:161
 msgid "Quit"
 msgstr "Quitar"
 
@@ -1355,36 +1355,40 @@ msgstr "Copyright 2009-2010 Aurélien Gâteau"
 msgid "Source folder"
 msgstr "Orixe de carpeta"
 
+#: importer/main.cpp:54
+msgid "Device UDI"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: importer/progresspage.ui:30
 msgid "Importing documents..."
 msgstr "Importando documentos..."
 
-#: importer/thumbnailpage.cpp:195
+#: importer/thumbnailpage.cpp:198
 msgid "Import Selected"
 msgstr "Importar Seleicionao"
 
-#: importer/thumbnailpage.cpp:199
+#: importer/thumbnailpage.cpp:202
 msgid "Import All"
 msgstr "Importar Too"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: importer/thumbnailpage.ui:135
+#: importer/thumbnailpage.ui:158
 msgid "Select the documents to import"
 msgstr "Esbilla los documentos a importar"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: importer/thumbnailpage.ui:145
-msgid "Enter the import destination"
-msgstr "Introduz el destín au importar"
-
 #. i18n: ectx: property (text), widget (QPushButton, mConfigureButton)
-#: importer/thumbnailpage.ui:160
+#: importer/thumbnailpage.ui:170
 msgid "Settings..."
 msgstr "Axustes..."
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: importer/thumbnailpage.ui:186
+msgid "Enter the import destination"
+msgstr "Introduz el destín au importar"
+
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: importer/thumbnailpage.ui:179
+#: importer/thumbnailpage.ui:205
 msgid "Listing content of:"
 msgstr ""
 
