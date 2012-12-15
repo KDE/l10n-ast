@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackgekit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-14 02:33+0100\n"
+"POT-Creation-Date: 2012-12-15 02:35+0100\n"
 "PO-Revision-Date: 2010-10-25 20:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -640,93 +640,122 @@ msgstr ""
 msgid "Origin of Packages"
 msgstr ""
 
-#: ApperKCM/Settings/Settings.cpp:72
+#: ApperKCM/Settings/Settings.cpp:80
+#, fuzzy
+#| msgctxt "Never refresh package cache"
+#| msgid "Never"
+msgctxt "Inform about distribution upgrades"
+msgid "Never"
+msgstr "Enxamás"
+
+#: ApperKCM/Settings/Settings.cpp:83
+#, fuzzy
+#| msgid "Only installed"
+msgctxt "Inform about distribution upgrades"
+msgid "Only stable"
+msgstr "Namái instaláu"
+
+#: ApperKCM/Settings/Settings.cpp:86
+#, fuzzy
+#| msgid "Only development"
+msgctxt "Inform about distribution upgrades"
+msgid "Stable and development"
+msgstr "Namái desendolcu"
+
+#: ApperKCM/Settings/Settings.cpp:89
 msgctxt "Hourly refresh the package cache"
 msgid "Hourly"
 msgstr ""
 
-#: ApperKCM/Settings/Settings.cpp:73
+#: ApperKCM/Settings/Settings.cpp:90
 msgctxt "Daily refresh the package cache"
 msgid "Daily"
 msgstr "A diariu"
 
-#: ApperKCM/Settings/Settings.cpp:74
+#: ApperKCM/Settings/Settings.cpp:91
 msgctxt "Weekly refresh the package cache"
 msgid "Weekly"
 msgstr "Cada selmana"
 
-#: ApperKCM/Settings/Settings.cpp:75
+#: ApperKCM/Settings/Settings.cpp:92
 msgctxt "Monthly refresh the package cache"
 msgid "Monthly"
 msgstr "Mensualmente"
 
-#: ApperKCM/Settings/Settings.cpp:76
+#: ApperKCM/Settings/Settings.cpp:93
 msgctxt "Never refresh package cache"
 msgid "Never"
 msgstr "Enxamás"
 
-#: ApperKCM/Settings/Settings.cpp:78
+#: ApperKCM/Settings/Settings.cpp:95
 msgid "Security only"
 msgstr ""
 
-#: ApperKCM/Settings/Settings.cpp:79
+#: ApperKCM/Settings/Settings.cpp:96
 msgid "All updates"
 msgstr ""
 
-#: ApperKCM/Settings/Settings.cpp:80
+#: ApperKCM/Settings/Settings.cpp:97
 msgctxt "No updates will be automatically installed"
 msgid "None"
 msgstr ""
 
-#: ApperKCM/Settings/Settings.cpp:256 libapper/PkStrings.cpp:968
+#: ApperKCM/Settings/Settings.cpp:291 libapper/PkStrings.cpp:968
 msgid "You do not have the necessary privileges to perform this action."
 msgstr "Nun tienes permisos suficientes pa facer esto."
 
-#: ApperKCM/Settings/Settings.cpp:257
+#: ApperKCM/Settings/Settings.cpp:292
 msgid "Failed to set origin data"
 msgstr "Falló al asignar los datos d'orixe"
 
 #. i18n: ectx: property (text), widget (QLabel, intervalL)
-#: ApperKCM/Settings/Settings.ui:57
+#: ApperKCM/Settings/Settings.ui:50
 #, fuzzy
 #| msgid "Show updates"
-msgid "Check for updates:"
+msgid "Check for new updates:"
 msgstr "Amosar anovamientos"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkUpdatesMobileCB)
 #. i18n: ectx: property (text), widget (QCheckBox, installUpdatesMobileCB)
-#: ApperKCM/Settings/Settings.ui:85 ApperKCM/Settings/Settings.ui:160
+#: ApperKCM/Settings/Settings.ui:91 ApperKCM/Settings/Settings.ui:159
 msgid "when on a mobile broadband network connection"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkUpdatesBatteryCB)
 #. i18n: ectx: property (text), widget (QCheckBox, installUpdatesBatteryCB)
-#: ApperKCM/Settings/Settings.ui:92 ApperKCM/Settings/Settings.ui:153
+#: ApperKCM/Settings/Settings.ui:98 ApperKCM/Settings/Settings.ui:152
 msgid "when running on battery"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, autoInsL)
-#: ApperKCM/Settings/Settings.ui:104
+#: ApperKCM/Settings/Settings.ui:117
 msgid "Automatically install:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, appLauncherCB)
-#: ApperKCM/Settings/Settings.ui:169
+#: ApperKCM/Settings/Settings.ui:175
 msgid "Show application launcher after installing new applications"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoConfirmCB)
-#: ApperKCM/Settings/Settings.ui:176
+#: ApperKCM/Settings/Settings.ui:182
 msgid "Show confirmation dialog when installing or updating packages"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ApperKCM/Settings/Settings.ui:189
+#, fuzzy
+#| msgid "Show updates"
+msgid "Check for distribution upgrades:"
+msgstr "Amosar anovamientos"
+
 #. i18n: ectx: property (text), widget (QCheckBox, showOriginsCB)
-#: ApperKCM/Settings/Settings.ui:214
+#: ApperKCM/Settings/Settings.ui:227
 msgid "&Show origins of debug and development packages"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, editOriginsPB)
-#: ApperKCM/Settings/Settings.ui:234
+#: ApperKCM/Settings/Settings.ui:247
 msgid "Edit Origins"
 msgstr ""
 
@@ -1013,9 +1042,9 @@ msgstr "Instalando ficheru"
 msgid "%1 has been installed successfully!"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:102 libapper/PkTransaction.cpp:134
-#: libapper/PkTransaction.cpp:152 libapper/PkTransaction.cpp:171
-#: libapper/PkTransaction.cpp:189
+#: AppSetup/SetupWizard.cpp:102 libapper/PkTransaction.cpp:133
+#: libapper/PkTransaction.cpp:151 libapper/PkTransaction.cpp:170
+#: libapper/PkTransaction.cpp:188
 msgid "Error"
 msgstr ""
 
@@ -2041,7 +2070,7 @@ msgstr "El paquete ye incompatible con esti sistema"
 msgid "No space is left on the disk"
 msgstr "Nun hai espaciu nel discu"
 
-#: libapper/PkStrings.cpp:474 libapper/PkTransaction.cpp:393
+#: libapper/PkStrings.cpp:474 libapper/PkTransaction.cpp:389
 msgid "A media change is required"
 msgstr "Requierse un cambéu de mediu"
 
@@ -2992,67 +3021,67 @@ msgstr ""
 msgid "It's strongly recommended that you check for new updates now"
 msgstr ""
 
-#: libapper/PkTransaction.cpp:130
+#: libapper/PkTransaction.cpp:129
 #, fuzzy
 #| msgid "Failed to remove package"
 msgid "Failed to simulate file install"
 msgstr "Fallu al desaniciar el paquete"
 
-#: libapper/PkTransaction.cpp:134
+#: libapper/PkTransaction.cpp:133
 #, fuzzy
 #| msgid "Current backend does not support installing packages."
 msgid "Current backend does not support installing files."
 msgstr "El motor actual nun permite instalar paquetes."
 
-#: libapper/PkTransaction.cpp:148
+#: libapper/PkTransaction.cpp:147
 msgid "Failed to simulate package install"
 msgstr ""
 
-#: libapper/PkTransaction.cpp:152
+#: libapper/PkTransaction.cpp:151
 msgid "Current backend does not support installing packages."
 msgstr "El motor actual nun permite instalar paquetes."
 
-#: libapper/PkTransaction.cpp:167
+#: libapper/PkTransaction.cpp:166
 msgid "Failed to simulate package removal"
 msgstr ""
 
-#: libapper/PkTransaction.cpp:171
+#: libapper/PkTransaction.cpp:170
 msgid "The current backend does not support removing packages."
 msgstr "El motor actual nun permite desaniciar paquetes."
 
-#: libapper/PkTransaction.cpp:185
+#: libapper/PkTransaction.cpp:184
 #, fuzzy
 #| msgid "Failed to remove package"
 msgid "Failed to simulate package update"
 msgstr "Fallu al desaniciar el paquete"
 
-#: libapper/PkTransaction.cpp:189
+#: libapper/PkTransaction.cpp:188
 #, fuzzy
 #| msgid "The current backend does not support removing packages."
 msgid "The current backend does not support updating packages."
 msgstr "El motor actual nun permite desaniciar paquetes."
 
-#: libapper/PkTransaction.cpp:233
+#: libapper/PkTransaction.cpp:229
 msgid "Failed to install package"
 msgstr "fallu al instalar el paquete"
 
-#: libapper/PkTransaction.cpp:243 Sentinel/PkInstallProvideFiles.cpp:101
+#: libapper/PkTransaction.cpp:239 Sentinel/PkInstallProvideFiles.cpp:101
 msgid "Failed to install file"
 msgid_plural "Failed to install files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libapper/PkTransaction.cpp:254
+#: libapper/PkTransaction.cpp:250
 msgid "Failed to remove package"
 msgstr "Fallu al desaniciar el paquete"
 
-#: libapper/PkTransaction.cpp:264
+#: libapper/PkTransaction.cpp:260
 #, fuzzy
 #| msgid "Failed to remove package"
 msgid "Failed to update package"
 msgstr "Fallu al desaniciar el paquete"
 
-#: libapper/PkTransaction.cpp:330
+#: libapper/PkTransaction.cpp:326
 msgid ""
 "You are about to install unsigned packages that can compromise your system, "
 "as it is impossible to verify if the software came from a trusted source.\n"
@@ -3060,11 +3089,11 @@ msgid ""
 "Are you sure you want to proceed with the installation?"
 msgstr ""
 
-#: libapper/PkTransaction.cpp:333
+#: libapper/PkTransaction.cpp:329
 msgid "Installing unsigned software"
 msgstr "Instalando software non robláu"
 
-#: libapper/PkTransaction.cpp:378 libapper/PkTransaction.cpp:438
+#: libapper/PkTransaction.cpp:374 libapper/PkTransaction.cpp:434
 msgid "Failed to install signature"
 msgstr ""
 
@@ -3844,6 +3873,11 @@ msgstr "El sistema anovóse correcho."
 #: Sentinel/UpdateIcon.cpp:257
 msgid "The automated software update failed."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Show updates"
+#~ msgid "Check for updates:"
+#~ msgstr "Amosar anovamientos"
 
 #~ msgid "The system update has completed"
 #~ msgstr "L'anovamientu del sistema completóse"
