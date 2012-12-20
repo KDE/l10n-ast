@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackgekit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-19 02:23+0100\n"
+"POT-Creation-Date: 2012-12-20 02:23+0100\n"
 "PO-Revision-Date: 2010-10-25 20:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -362,15 +362,29 @@ msgstr "Reaniciar"
 msgid "Details"
 msgstr "Detalles"
 
-#: apperd/Updater.cpp:180
+#: apperd/Updater.cpp:161
 msgid "Updates are being automatically installed."
 msgstr "Tán instalándose automáticamente los anovamientos"
 
-#: apperd/Updater.cpp:203
+#: apperd/Updater.cpp:171
 msgid "Security updates are being automatically installed."
 msgstr "Tán instalándose automáticamente los anovamientos de seguridá."
 
-#: apperd/Updater.cpp:228
+#: apperd/Updater.cpp:181
+#, fuzzy
+#| msgid "Updates are being automatically installed."
+msgid "Updates are being automatically downloaded."
+msgstr "Tán instalándose automáticamente los anovamientos"
+
+#: apperd/Updater.cpp:215
+msgid "System update was successful."
+msgstr "El sistema anovóse correcho."
+
+#: apperd/Updater.cpp:222
+msgid "The automated software update failed."
+msgstr ""
+
+#: apperd/Updater.cpp:264
 #, fuzzy, kde-format
 #| msgid "Show updates"
 msgid "There is one new update"
@@ -378,16 +392,8 @@ msgid_plural "There are %1 new updates"
 msgstr[0] "Amosar anovamientos"
 msgstr[1] "Amosar anovamientos"
 
-#: apperd/Updater.cpp:237
+#: apperd/Updater.cpp:273
 msgid "Review"
-msgstr ""
-
-#: apperd/Updater.cpp:257
-msgid "System update was successful."
-msgstr "El sistema anovóse correcho."
-
-#: apperd/Updater.cpp:266
-msgid "The automated software update failed."
 msgstr ""
 
 #: ApperKCM/ApperKCM.cpp:84
@@ -769,23 +775,29 @@ msgid "Never"
 msgstr "Enxamás"
 
 #: ApperKCM/Settings/Settings.cpp:96
-msgid "Security only"
-msgstr ""
-
-#: ApperKCM/Settings/Settings.cpp:97
-msgid "All updates"
-msgstr ""
-
-#: ApperKCM/Settings/Settings.cpp:98
 msgctxt "No updates will be automatically installed"
 msgid "None"
 msgstr ""
 
-#: ApperKCM/Settings/Settings.cpp:297 libapper/PkStrings.cpp:968
+#: ApperKCM/Settings/Settings.cpp:97
+#, fuzzy
+#| msgid "Downloading"
+msgid "Download only"
+msgstr "Baxando"
+
+#: ApperKCM/Settings/Settings.cpp:98
+msgid "Security only"
+msgstr ""
+
+#: ApperKCM/Settings/Settings.cpp:99
+msgid "All updates"
+msgstr ""
+
+#: ApperKCM/Settings/Settings.cpp:298 libapper/PkStrings.cpp:968
 msgid "You do not have the necessary privileges to perform this action."
 msgstr "Nun tienes permisos suficientes pa facer esto."
 
-#: ApperKCM/Settings/Settings.cpp:298
+#: ApperKCM/Settings/Settings.cpp:299
 msgid "Failed to set origin data"
 msgstr "Falló al asignar los datos d'orixe"
 
@@ -810,8 +822,11 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, autoInsL)
 #: ApperKCM/Settings/Settings.ui:117
-msgid "Automatically install:"
-msgstr ""
+#, fuzzy
+#| msgctxt "The type of update"
+#| msgid "Normal update"
+msgid "Automatically update:"
+msgstr "Anovamientu normal"
 
 #. i18n: ectx: property (text), widget (QCheckBox, appLauncherCB)
 #: ApperKCM/Settings/Settings.ui:175
@@ -1093,7 +1108,7 @@ msgstr ""
 
 #: AppSetup/SetupWizard.cpp:102 libapper/PkTransaction.cpp:138
 #: libapper/PkTransaction.cpp:156 libapper/PkTransaction.cpp:175
-#: libapper/PkTransaction.cpp:193
+#: libapper/PkTransaction.cpp:196
 msgid "Error"
 msgstr ""
 
@@ -2119,7 +2134,7 @@ msgstr "El paquete ye incompatible con esti sistema"
 msgid "No space is left on the disk"
 msgstr "Nun hai espaciu nel discu"
 
-#: libapper/PkStrings.cpp:474 libapper/PkTransaction.cpp:418
+#: libapper/PkStrings.cpp:474 libapper/PkTransaction.cpp:421
 msgid "A media change is required"
 msgstr "Requierse un cambéu de mediu"
 
@@ -3098,39 +3113,39 @@ msgstr ""
 msgid "The current backend does not support removing packages."
 msgstr "El motor actual nun permite desaniciar paquetes."
 
-#: libapper/PkTransaction.cpp:189
+#: libapper/PkTransaction.cpp:192
 #, fuzzy
 #| msgid "Failed to remove package"
 msgid "Failed to simulate package update"
 msgstr "Fallu al desaniciar el paquete"
 
-#: libapper/PkTransaction.cpp:193
+#: libapper/PkTransaction.cpp:196
 #, fuzzy
 #| msgid "The current backend does not support removing packages."
 msgid "The current backend does not support updating packages."
 msgstr "El motor actual nun permite desaniciar paquetes."
 
-#: libapper/PkTransaction.cpp:234
+#: libapper/PkTransaction.cpp:237
 msgid "Failed to install package"
 msgstr "fallu al instalar el paquete"
 
-#: libapper/PkTransaction.cpp:244 PkSession/PkInstallProvideFiles.cpp:101
+#: libapper/PkTransaction.cpp:247 PkSession/PkInstallProvideFiles.cpp:101
 msgid "Failed to install file"
 msgid_plural "Failed to install files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libapper/PkTransaction.cpp:255
+#: libapper/PkTransaction.cpp:258
 msgid "Failed to remove package"
 msgstr "Fallu al desaniciar el paquete"
 
-#: libapper/PkTransaction.cpp:265
+#: libapper/PkTransaction.cpp:268
 #, fuzzy
 #| msgid "Failed to remove package"
 msgid "Failed to update package"
 msgstr "Fallu al desaniciar el paquete"
 
-#: libapper/PkTransaction.cpp:331
+#: libapper/PkTransaction.cpp:334
 msgid ""
 "You are about to install unsigned packages that can compromise your system, "
 "as it is impossible to verify if the software came from a trusted source.\n"
@@ -3138,11 +3153,11 @@ msgid ""
 "Are you sure you want to proceed with the installation?"
 msgstr ""
 
-#: libapper/PkTransaction.cpp:334
+#: libapper/PkTransaction.cpp:337
 msgid "Installing unsigned software"
 msgstr "Instalando software non robláu"
 
-#: libapper/PkTransaction.cpp:379 libapper/PkTransaction.cpp:463
+#: libapper/PkTransaction.cpp:382 libapper/PkTransaction.cpp:466
 msgid "Failed to install signature"
 msgstr ""
 
