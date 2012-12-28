@@ -87,7 +87,8 @@ msgstr ""
 
 #: db/connection.cpp:547
 #, kde-format
-msgid "Cannot create database \"%1\". This name is reserved for system database."
+msgid ""
+"Cannot create database \"%1\". This name is reserved for system database."
 msgstr ""
 
 #: db/connection.cpp:568
@@ -187,8 +188,7 @@ msgstr ""
 msgid "Could not alter table \"%1\" using the same table."
 msgstr ""
 
-#: db/connection.cpp:1922
-#: db/expression.cpp:790
+#: db/connection.cpp:1922 db/expression.cpp:790
 #, kde-format
 msgid "Unknown table \"%1\""
 msgstr ""
@@ -226,8 +226,7 @@ msgstr ""
 msgid "Transaction already started."
 msgstr ""
 
-#: db/connection.cpp:2195
-#: db/connection.cpp:2230
+#: db/connection.cpp:2195 db/connection.cpp:2230
 msgid "Transaction not started."
 msgstr ""
 
@@ -239,8 +238,7 @@ msgstr ""
 msgid "Error on rollback transaction"
 msgstr ""
 
-#: db/connection.cpp:2408
-#: db/connection.cpp:2925
+#: db/connection.cpp:2408 db/connection.cpp:2925
 #, kde-format
 msgid "Invalid object name \"%1\""
 msgstr ""
@@ -250,9 +248,7 @@ msgstr ""
 msgid "Column %1 does not exist for the query."
 msgstr ""
 
-#: db/connection.cpp:2789
-#: db/connection.cpp:2792
-#: db/connection.cpp:2795
+#: db/connection.cpp:2789 db/connection.cpp:2792 db/connection.cpp:2795
 msgid "Error while loading extended table schema information."
 msgstr ""
 
@@ -273,13 +269,16 @@ msgstr ""
 
 #: db/connection.cpp:3095
 #, kde-format
-msgid "Could not find definition for query \"%1\". Removing this query is recommended."
+msgid ""
+"Could not find definition for query \"%1\". Removing this query is "
+"recommended."
 msgstr ""
 
 #: db/connection.cpp:3104
 #, kde-format
 msgid ""
-"<p>Could not load definition for query \"%1\". SQL statement for this query is invalid:<br><tt>%2</tt></p>\n"
+"<p>Could not load definition for query \"%1\". SQL statement for this query "
+"is invalid:<br><tt>%2</tt></p>\n"
 "<p>You can open this query in Text View and correct it.</p>"
 msgstr ""
 
@@ -288,15 +287,17 @@ msgid "Could not update record because there is no master table defined."
 msgstr ""
 
 #: db/connection.cpp:3319
-msgid "Could not update record because master table has no primary key defined."
+msgid ""
+"Could not update record because master table has no primary key defined."
 msgstr ""
 
 #: db/connection.cpp:3348
-msgid "Could not update record because it does not contain entire master table's primary key."
+msgid ""
+"Could not update record because it does not contain entire master table's "
+"primary key."
 msgstr ""
 
-#: db/connection.cpp:3359
-#: db/connection.cpp:3599
+#: db/connection.cpp:3359 db/connection.cpp:3599
 #, kde-format
 msgid "Primary key's field \"%1\" cannot be empty."
 msgstr ""
@@ -310,11 +311,14 @@ msgid "Could not insert record because there is no master table defined."
 msgstr ""
 
 #: db/connection.cpp:3446
-msgid "Could not insert record because master table has no primary key defined."
+msgid ""
+"Could not insert record because master table has no primary key defined."
 msgstr ""
 
 #: db/connection.cpp:3455
-msgid "Could not insert record because it does not contain entire master table's primary key."
+msgid ""
+"Could not insert record because it does not contain entire master table's "
+"primary key."
 msgstr ""
 
 #: db/connection.cpp:3502
@@ -326,15 +330,18 @@ msgid "Could not delete record because there is no master table defined."
 msgstr ""
 
 #: db/connection.cpp:3575
-msgid "Could not delete record because there is no primary key for master table defined."
+msgid ""
+"Could not delete record because there is no primary key for master table "
+"defined."
 msgstr ""
 
 #: db/connection.cpp:3590
-msgid "Could not delete record because it does not contain entire master table's primary key."
+msgid ""
+"Could not delete record because it does not contain entire master table's "
+"primary key."
 msgstr ""
 
-#: db/connection.cpp:3616
-#: db/connection.cpp:3639
+#: db/connection.cpp:3616 db/connection.cpp:3639
 msgid "Record deletion on the server failed."
 msgstr ""
 
@@ -354,27 +361,21 @@ msgstr ""
 msgid "Error opening database cursor."
 msgstr ""
 
-#: db/cursor.cpp:407
-#: db/cursor.cpp:430
+#: db/cursor.cpp:407 db/cursor.cpp:430
 msgid "Cannot fetch next record."
 msgstr ""
 
-#: db/dbproperties.cpp:44
-#: db/dbproperties.cpp:53
-#: db/dbproperties.cpp:63
+#: db/dbproperties.cpp:44 db/dbproperties.cpp:53 db/dbproperties.cpp:63
 #, kde-format
 msgid "Could not set value of database property \"%1\"."
 msgstr ""
 
-#: db/dbproperties.cpp:80
-#: db/dbproperties.cpp:89
-#: db/dbproperties.cpp:99
+#: db/dbproperties.cpp:80 db/dbproperties.cpp:89 db/dbproperties.cpp:99
 #, kde-format
 msgid "Could not set caption for database property \"%1\"."
 msgstr ""
 
-#: db/dbproperties.cpp:112
-#: db/dbproperties.cpp:127
+#: db/dbproperties.cpp:112 db/dbproperties.cpp:127
 #, kde-format
 msgid "Could not read database property \"%1\"."
 msgstr ""
@@ -437,10 +438,8 @@ msgid "Ignored"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: db/driver_p.cpp:63
-#: widgets/KoCsvImportDialog.cpp:223
-#: widgets/KoCsvImportDialog.cpp:587
-#: widgets/KoCsvImportDialog.cpp:694
+#: db/driver_p.cpp:63 widgets/KoCsvImportDialog.cpp:223
+#: widgets/KoCsvImportDialog.cpp:587 widgets/KoCsvImportDialog.cpp:694
 #: widgets/KoCsvImportDialog.ui:268
 msgid "None"
 msgstr ""
@@ -465,15 +464,16 @@ msgstr ""
 msgid "Could not find any database drivers."
 msgstr ""
 
-#: db/drivermanager.cpp:182
-#: db/drivermanager.cpp:201
+#: db/drivermanager.cpp:182 db/drivermanager.cpp:201
 #, kde-format
 msgid "Could not find database driver \"%1\"."
 msgstr ""
 
 #: db/drivermanager.cpp:220
 #, kde-format
-msgid "Incompatible database driver's \"%1\" version: found version %2, expected version %3."
+msgid ""
+"Incompatible database driver's \"%1\" version: found version %2, expected "
+"version %3."
 msgstr ""
 
 #: db/drivermanager.cpp:232
@@ -518,7 +518,9 @@ msgid "Could not remove file \"%1\"."
 msgstr ""
 
 #: db/drivers/sqlite/sqliteconnection.cpp:312
-msgid "Check the file's permissions and whether it is already opened and locked by another application."
+msgid ""
+"Check the file's permissions and whether it is already opened and locked by "
+"another application."
 msgstr ""
 
 #: db/drivers/sqlite/sqlitevacuum.cpp:129
@@ -535,71 +537,62 @@ msgstr ""
 msgid "The database has been compacted. Current size decreased by %1% to %2."
 msgstr ""
 
-#: db/expression.cpp:733
-#: db/parser/parser_p.cpp:286
+#: db/expression.cpp:733 db/parser/parser_p.cpp:286
 msgid "Ambiguous field name"
 msgstr ""
 
-#: db/expression.cpp:734
-#: db/parser/parser_p.cpp:287
+#: db/expression.cpp:734 db/parser/parser_p.cpp:287
 #, kde-format
-msgid "Both table \"%1\" and \"%2\" have defined \"%3\" field. Use \"<tableName>.%4\" notation to specify table name."
+msgid ""
+"Both table \"%1\" and \"%2\" have defined \"%3\" field. Use \"<tableName>."
+"%4\" notation to specify table name."
 msgstr ""
 
-#: db/expression.cpp:743
-#: db/expression.cpp:815
-#: db/parser/parser_p.cpp:296
+#: db/expression.cpp:743 db/expression.cpp:815 db/parser/parser_p.cpp:296
 #: db/parser/parser_p.cpp:378
 msgid "Field not found"
 msgstr ""
 
-#: db/expression.cpp:744
-#: db/parser/parser_p.cpp:297
+#: db/expression.cpp:744 db/parser/parser_p.cpp:297
 #, kde-format
 msgid "Table containing \"%1\" field not found"
 msgstr ""
 
-#: db/expression.cpp:770
-#: db/parser/parser_p.cpp:321
+#: db/expression.cpp:770 db/parser/parser_p.cpp:321
 msgid "Could not access the table directly using its name"
 msgstr ""
 
-#: db/expression.cpp:771
-#: db/parser/parser_p.cpp:322
+#: db/expression.cpp:771 db/parser/parser_p.cpp:322
 #, kde-format
-msgid "Table \"%1\" is covered by aliases. Instead of \"%2\", you can write \"%3\""
+msgid ""
+"Table \"%1\" is covered by aliases. Instead of \"%2\", you can write \"%3\""
 msgstr ""
 
 #: db/expression.cpp:789
 msgid "Table not found"
 msgstr ""
 
-#: db/expression.cpp:803
-#: db/parser/parser_p.cpp:352
+#: db/expression.cpp:803 db/parser/parser_p.cpp:352
 #, kde-format
 msgid "Ambiguous \"%1.*\" expression"
 msgstr ""
 
-#: db/expression.cpp:804
-#: db/parser/parser_p.cpp:353
+#: db/expression.cpp:804 db/parser/parser_p.cpp:353
 #, kde-format
 msgid "More than one \"%1\" table or alias defined"
 msgstr ""
 
-#: db/expression.cpp:816
-#: db/parser/parser_p.cpp:378
+#: db/expression.cpp:816 db/parser/parser_p.cpp:378
 #, kde-format
 msgid "Table \"%1\" has no \"%2\" field"
 msgstr ""
 
-#: db/expression.cpp:828
-#: db/parser/parser_p.cpp:369
+#: db/expression.cpp:828 db/parser/parser_p.cpp:369
 #, kde-format
 msgid "Ambiguous \"%1.%2\" expression"
 msgstr ""
 
-#: db/expression.cpp:829
-#: db/parser/parser_p.cpp:370
+#: db/expression.cpp:829 db/parser/parser_p.cpp:370
 #, kde-format
 msgid "More than one \"%1\" table or alias defined containing \"%2\" field"
 msgstr ""
@@ -616,8 +609,7 @@ msgstr ""
 msgid "Short Integer Number"
 msgstr ""
 
-#: db/field.cpp:732
-#: db/field.cpp:762
+#: db/field.cpp:732 db/field.cpp:762
 msgid "Integer Number"
 msgstr ""
 
@@ -629,8 +621,7 @@ msgstr ""
 msgid "Yes/No Value"
 msgstr ""
 
-#: db/field.cpp:735
-#: widgets/KoCsvImportDialog.cpp:219
+#: db/field.cpp:735 widgets/KoCsvImportDialog.cpp:219
 #: widgets/KoCsvImportDialog.cpp:583
 msgid "Date"
 msgstr ""
@@ -651,15 +642,11 @@ msgstr ""
 msgid "Double Precision Number"
 msgstr ""
 
-#: db/field.cpp:740
-#: db/field.cpp:761
+#: db/field.cpp:740 db/field.cpp:761
 #: koreport/items/text/KoReportTextPlugin.cpp:34
-#: kotext/KoTextEditor_undo.cpp:166
-#: kotext/KoTextEditor_undo.cpp:201
-#: kotext/KoTextEditor_undo.cpp:218
-#: kotext/KoTextEditor_undo.cpp:260
-#: widgets/KoCsvImportDialog.cpp:217
-#: widgets/KoCsvImportDialog.cpp:581
+#: kotext/KoTextEditor_undo.cpp:166 kotext/KoTextEditor_undo.cpp:201
+#: kotext/KoTextEditor_undo.cpp:218 kotext/KoTextEditor_undo.cpp:260
+#: widgets/KoCsvImportDialog.cpp:217 widgets/KoCsvImportDialog.cpp:581
 msgid "Text"
 msgstr ""
 
@@ -667,9 +654,7 @@ msgstr ""
 msgid "Long Text"
 msgstr ""
 
-#: db/field.cpp:742
-#: db/field.cpp:766
-#: main/rdf/KoSopranoTableModel.cpp:134
+#: db/field.cpp:742 db/field.cpp:766 main/rdf/KoSopranoTableModel.cpp:134
 msgid "Object"
 msgstr ""
 
@@ -697,8 +682,7 @@ msgstr ""
 msgid "identifier was expected"
 msgstr ""
 
-#: db/parser/parser_p.cpp:145
-#: db/parser/parser_p.cpp:149
+#: db/parser/parser_p.cpp:145 db/parser/parser_p.cpp:149
 msgid "Syntax Error"
 msgstr ""
 
@@ -792,14 +776,11 @@ msgstr ""
 msgid "SQL statement:"
 msgstr ""
 
-#: db/utils.cpp:161
-#: db/utils.cpp:168
+#: db/utils.cpp:161 db/utils.cpp:168
 msgid "Server result:"
 msgstr ""
 
-#: db/utils.cpp:405
-#: db/utils.cpp:468
-#: db/utils.cpp:473
+#: db/utils.cpp:405 db/utils.cpp:468 db/utils.cpp:473
 msgid "Test Connection"
 msgstr ""
 
@@ -810,20 +791,23 @@ msgstr ""
 
 #: db/utils.cpp:467
 #, kde-format
-msgid "<qt>Test connection to <b>%1</b> database server failed. The server is not responding.</qt>"
+msgid ""
+"<qt>Test connection to <b>%1</b> database server failed. The server is not "
+"responding.</qt>"
 msgstr ""
 
 #: db/utils.cpp:471
 #, kde-format
-msgid "<qt>Test connection to <b>%1</b> database server established successfully.</qt>"
+msgid ""
+"<qt>Test connection to <b>%1</b> database server established successfully.</"
+"qt>"
 msgstr ""
 
 #: db/utils.cpp:1500
 msgid "Number"
 msgstr ""
 
-#: db/utils.cpp:1503
-#: koreport/items/image/KoReportImagePlugin.cpp:35
+#: db/utils.cpp:1503 koreport/items/image/KoReportImagePlugin.cpp:35
 #: textlayout/ListItemsHelper.cpp:256
 msgid "Image"
 msgstr ""
@@ -1091,8 +1075,7 @@ msgstr ""
 msgid "A simple path shape"
 msgstr ""
 
-#: flake/KoShapeController.cpp:70
-#: kotext/InsertTextReferenceAction.cpp:63
+#: flake/KoShapeController.cpp:70 kotext/InsertTextReferenceAction.cpp:63
 #: kotext/InsertVariableAction.cpp:58
 #: main/rdf/InsertSemanticObjectCreateAction.cpp:58
 #: main/rdf/InsertSemanticObjectReferenceAction.cpp:64
@@ -1154,8 +1137,7 @@ msgstr ""
 msgid "Embedded svg shape"
 msgstr ""
 
-#: flake/tools/KoCreatePathTool.cpp:374
-#: flake/tools/KoPathTool.cpp:205
+#: flake/tools/KoCreatePathTool.cpp:374 flake/tools/KoPathTool.cpp:205
 msgid "Snapping"
 msgstr ""
 
@@ -1272,8 +1254,7 @@ msgstr ""
 msgid "Path editing tool"
 msgstr ""
 
-#: flake/tools/KoZoomToolFactory.cpp:30
-#: widgets/KoZoomAction.cpp:306
+#: flake/tools/KoZoomToolFactory.cpp:30 widgets/KoZoomAction.cpp:306
 #: widgets/KoZoomController.cpp:39
 msgid "Zoom"
 msgstr ""
@@ -1317,10 +1298,8 @@ msgstr ""
 #: flake/tools/PathToolOptionWidgetBase.ui:115
 #: flake/tools/PathToolOptionWidgetBase.ui:122
 #: flake/tools/PathToolOptionWidgetBase.ui:129
-#: flake/tools/PathToolOptionWidgetBase.ui:136
-#: widgets/KoEditColorSet.ui:48
-#: widgets/KoEditColorSet.ui:58
-#: widgets/KoEditColorSet.ui:68
+#: flake/tools/PathToolOptionWidgetBase.ui:136 widgets/KoEditColorSet.ui:48
+#: widgets/KoEditColorSet.ui:58 widgets/KoEditColorSet.ui:68
 #: widgets/KoEditColorSet.ui:78
 msgid "..."
 msgstr ""
@@ -1330,13 +1309,11 @@ msgstr ""
 msgid "Convert To Path"
 msgstr ""
 
-#: kokross/KoScriptingDocker.cpp:76
-#: kokross/KoScriptingPart.cpp:85
+#: kokross/KoScriptingDocker.cpp:76 kokross/KoScriptingPart.cpp:85
 msgid "Scripts"
 msgstr ""
 
-#: kokross/KoScriptingDocker.cpp:111
-#: kokross/KoScriptManager.cpp:299
+#: kokross/KoScriptingDocker.cpp:111 kokross/KoScriptManager.cpp:299
 msgid "Script Manager"
 msgstr ""
 
@@ -1373,12 +1350,15 @@ msgstr ""
 
 #: kokross/KoScriptManager.cpp:237
 #, kde-format
-msgid "Failed to determinate location where the package \"%1\" should be installed to."
+msgid ""
+"Failed to determinate location where the package \"%1\" should be installed "
+"to."
 msgstr ""
 
 #: kokross/KoScriptManager.cpp:247
 #, kde-format
-msgid "A script package with the name \"%1\" already exists. Replace this package?"
+msgid ""
+"A script package with the name \"%1\" already exists. Replace this package?"
 msgstr ""
 
 #: kokross/KoScriptManager.cpp:248
@@ -1387,26 +1367,33 @@ msgstr ""
 
 #: kokross/KoScriptManager.cpp:251
 #, kde-format
-msgid "Could not uninstall this script package. You may not have sufficient permissions to delete the folder \"%1\"."
+msgid ""
+"Could not uninstall this script package. You may not have sufficient "
+"permissions to delete the folder \"%1\"."
 msgstr ""
 
 #: kokross/KoScriptManager.cpp:281
 #, kde-format
-msgid "Could not uninstall the script package \"%1\" since the script is not installed."
+msgid ""
+"Could not uninstall the script package \"%1\" since the script is not "
+"installed."
 msgstr ""
 
 #: kokross/KoScriptManager.cpp:287
 #, kde-format
-msgid "Could not uninstall the script package \"%1\". You may not have sufficient permissions to delete the folder \"%1\"."
+msgid ""
+"Could not uninstall the script package \"%1\". You may not have sufficient "
+"permissions to delete the folder \"%1\"."
 msgstr ""
 
-#: kokross/KoScriptManager.cpp:301
-#: main/KoMainWindow.cpp:656
+#: kokross/KoScriptManager.cpp:301 main/KoMainWindow.cpp:656
 msgid "Save"
 msgstr ""
 
 #: kokross/KoScriptManagerAdd.cpp:52
-msgid "<qt>This wizard will guide you through the proccess of adding a new resource to your scripts.</qt>"
+msgid ""
+"<qt>This wizard will guide you through the proccess of adding a new resource "
+"to your scripts.</qt>"
 msgstr ""
 
 #: kokross/KoScriptManagerAdd.cpp:57
@@ -1426,10 +1413,8 @@ msgid "Install online script package"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, add)
-#: kokross/KoScriptManagerAdd.cpp:272
-#: kokross/KoScriptManagerAdd.cpp:275
-#: pigment/compositeops/KoCompositeOpAdd.h:36
-#: widgets/KoEditColorSet.ui:45
+#: kokross/KoScriptManagerAdd.cpp:272 kokross/KoScriptManagerAdd.cpp:275
+#: pigment/compositeops/KoCompositeOpAdd.h:36 widgets/KoEditColorSet.ui:45
 msgid "Add"
 msgstr ""
 
@@ -1525,15 +1510,13 @@ msgid_plural "Move pages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:38
-#: main/KoMainWindow.cpp:1427
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:38 main/KoMainWindow.cpp:1427
 msgid "Configure"
 msgstr ""
 
 #: kopageapp/dialogs/KoPAConfigureDialog.cpp:43
 #: kopageapp/dialogs/KoPAConfigureDialog.cpp:44
-#: main/config/KoConfigMiscPage.cpp:79
-#: pigment/KoCompositeOp.cpp:42
+#: main/config/KoConfigMiscPage.cpp:79 pigment/KoCompositeOp.cpp:42
 #: pigment/KoCompositeOpRegistry.cpp:36
 msgid "Misc"
 msgstr ""
@@ -1559,8 +1542,7 @@ msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr ""
 
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:61
-#: main/KoDocumentInfoDlg.cpp:132
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:61 main/KoDocumentInfoDlg.cpp:132
 msgid "Author"
 msgstr ""
 
@@ -1581,8 +1563,7 @@ msgstr ""
 msgid "Master Page"
 msgstr ""
 
-#: kopageapp/KoPADocumentModel.cpp:170
-#: kopageapp/KoPAPageThumbnailModel.cpp:67
+#: kopageapp/KoPADocumentModel.cpp:170 kopageapp/KoPAPageThumbnailModel.cpp:67
 #, kde-format
 msgid "Slide %1"
 msgstr ""
@@ -1630,8 +1611,7 @@ msgstr ""
 msgid "Locked"
 msgstr ""
 
-#: kopageapp/KoPADocumentModel.cpp:522
-#: kopageapp/KoPADocumentModel.cpp:543
+#: kopageapp/KoPADocumentModel.cpp:522 kopageapp/KoPADocumentModel.cpp:543
 msgctxt "(qtundo-format)"
 msgid "Reparent shapes"
 msgstr ""
@@ -1648,8 +1628,7 @@ msgstr ""
 msgid "C&ancel"
 msgstr ""
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:95
-#: main/KoMainWindow.cpp:1814
+#: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1814
 msgid "Document"
 msgstr ""
 
@@ -1791,8 +1770,7 @@ msgstr ""
 msgid "Insert Page"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:389
-#: kopageapp/KoPAView.cpp:390
+#: kopageapp/KoPAView.cpp:389 kopageapp/KoPAView.cpp:390
 msgid "Insert a new page after the current one"
 msgstr ""
 
@@ -1800,8 +1778,7 @@ msgstr ""
 msgid "Copy Page"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:395
-#: kopageapp/KoPAView.cpp:396
+#: kopageapp/KoPAView.cpp:395 kopageapp/KoPAView.cpp:396
 msgid "Copy the current page"
 msgstr ""
 
@@ -1809,8 +1786,7 @@ msgstr ""
 msgid "Delete Page"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:402
-#: kopageapp/KoPAView.cpp:403
+#: kopageapp/KoPAView.cpp:402 kopageapp/KoPAView.cpp:403
 msgid "Delete the current page"
 msgstr ""
 
@@ -1823,8 +1799,7 @@ msgid "Page Layout..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTableWidget, variables)
-#: kopageapp/KoPAView.cpp:420
-#: main/rdf/KoSemanticStylesheetsEditor.ui:57
+#: kopageapp/KoPAView.cpp:420 main/rdf/KoSemanticStylesheetsEditor.ui:57
 msgid "Variable"
 msgstr ""
 
@@ -1840,13 +1815,11 @@ msgstr ""
 msgid "Import Slideshow"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:499
-#: main/KoMainWindow.cpp:1292
+#: kopageapp/KoPAView.cpp:499 main/KoMainWindow.cpp:1292
 msgid "Import Document"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:528
-#: kopageapp/KoPAView.cpp:532
+#: kopageapp/KoPAView.cpp:528 kopageapp/KoPAView.cpp:532
 #, kde-format
 msgid ""
 "Could not import\n"
@@ -2072,8 +2045,7 @@ msgstr ""
 #: koreport/items/field/KoReportItemField.cpp:102
 #: koreport/items/label/KoReportItemLabel.cpp:104
 #: koreport/items/text/KoReportItemText.cpp:129
-#: widgets/KoColorPopupAction.cpp:94
-#: widgets/KoUniColorChooser.cpp:418
+#: widgets/KoColorPopupAction.cpp:94 widgets/KoUniColorChooser.cpp:418
 msgid "Opacity"
 msgstr ""
 
@@ -2249,8 +2221,7 @@ msgstr ""
 msgid "Page Unit"
 msgstr ""
 
-#: koreport/wrtembed/KoReportDesigner.cpp:638
-#: main/KoGridData.cpp:223
+#: koreport/wrtembed/KoReportDesigner.cpp:638 main/KoGridData.cpp:223
 msgid "Show Grid"
 msgstr ""
 
@@ -2297,7 +2268,9 @@ msgid "%1: %2"
 msgstr ""
 
 #: koreport/wrtembed/reportpropertiesbutton.cpp:27
-msgid "A button that allows a report's surface to be selected, allowing its properties to be seen."
+msgid ""
+"A button that allows a report's surface to be selected, allowing its "
+"properties to be seen."
 msgstr ""
 
 #: koreport/wrtembed/reportsection.cpp:95
@@ -2384,8 +2357,7 @@ msgid "Group Sections"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
-#: koreport/wrtembed/sectioneditor.ui:186
-#: main/KoVersionDialog.cpp:72
+#: koreport/wrtembed/sectioneditor.ui:186 main/KoVersionDialog.cpp:72
 msgid "&Add"
 msgstr ""
 
@@ -2439,8 +2411,7 @@ msgid "Key Press"
 msgstr ""
 
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:373
-#: kotext/commands/DeleteCommand.cpp:206
-#: kotext/KoTextEditor_undo.cpp:88
+#: kotext/commands/DeleteCommand.cpp:206 kotext/KoTextEditor_undo.cpp:88
 msgctxt "(qtundo-format)"
 msgid "Text"
 msgstr ""
@@ -2451,8 +2422,7 @@ msgctxt "(qtundo-format)"
 msgid "Delete Column"
 msgstr ""
 
-#: kotext/commands/DeleteTableRowCommand.cpp:40
-#: kotext/KoTextEditor.cpp:1150
+#: kotext/commands/DeleteTableRowCommand.cpp:40 kotext/KoTextEditor.cpp:1150
 msgctxt "(qtundo-format)"
 msgid "Delete Row"
 msgstr ""
@@ -2484,8 +2454,7 @@ msgctxt "(qtundo-format)"
 msgid "Insert Row Below"
 msgstr ""
 
-#: kotext/commands/InsertTableRowCommand.cpp:44
-#: kotext/KoTextEditor.cpp:1059
+#: kotext/commands/InsertTableRowCommand.cpp:44 kotext/KoTextEditor.cpp:1059
 #: kotext/KoTextEditor.cpp:1077
 msgctxt "(qtundo-format)"
 msgid "Insert Row Above"
@@ -2544,8 +2513,7 @@ msgstr[1] ""
 msgid "Found no match"
 msgstr ""
 
-#: kotext/KoInlineTextObjectManager.cpp:304
-#: main/KoView.cpp:534
+#: kotext/KoInlineTextObjectManager.cpp:304 main/KoView.cpp:534
 #: main/KoView.cpp:572
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -2585,8 +2553,7 @@ msgctxt "Underline Style"
 msgid "Double"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:195
-#: kotext/KoTextEditor.cpp:1582
+#: kotext/KoTextEditor.cpp:195 kotext/KoTextEditor.cpp:1582
 #: kotext/KoTextEditor.cpp:1584
 msgctxt "(qtundo-format)"
 msgid "New Paragraph"
@@ -2612,8 +2579,7 @@ msgctxt "(qtundo-format)"
 msgid "Insert Break"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:970
-#: kotext/KoTextEditor.cpp:972
+#: kotext/KoTextEditor.cpp:970 kotext/KoTextEditor.cpp:972
 #: kotext/KoTextEditor.cpp:987
 msgctxt "(qtundo-format)"
 msgid "Insert Table"
@@ -2639,8 +2605,7 @@ msgctxt "(qtundo-format)"
 msgid "Change Border Formatting"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1292
-#: kotext/KoTextEditor.cpp:1294
+#: kotext/KoTextEditor.cpp:1292 kotext/KoTextEditor.cpp:1294
 #: kotext/KoTextEditor.cpp:1312
 msgctxt "(qtundo-format)"
 msgid "Insert Table Of Contents"
@@ -2651,112 +2616,94 @@ msgctxt "(qtundo-format)"
 msgid "Modify Table Of Contents"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1368
-#: kotext/KoTextEditor.cpp:1370
+#: kotext/KoTextEditor.cpp:1368 kotext/KoTextEditor.cpp:1370
 #: kotext/KoTextEditor.cpp:1386
 msgctxt "(qtundo-format)"
 msgid "Insert Bibliography"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1423
-#: kotext/KoTextEditor.cpp:1425
+#: kotext/KoTextEditor.cpp:1423 kotext/KoTextEditor.cpp:1425
 msgctxt "(qtundo-format)"
 msgid "Add Citation"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1452
-#: kotext/KoTextEditor.cpp:1454
+#: kotext/KoTextEditor.cpp:1452 kotext/KoTextEditor.cpp:1454
 #: kotext/KoTextEditor.cpp:1481
 msgctxt "(qtundo-format)"
 msgid "Typing"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:77
-#: kotext/KoTextEditor_format.cpp:83
+#: kotext/KoTextEditor_format.cpp:77 kotext/KoTextEditor_format.cpp:83
 msgctxt "(qtundo-format)"
 msgid "Bold"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:94
-#: kotext/KoTextEditor_format.cpp:100
+#: kotext/KoTextEditor_format.cpp:94 kotext/KoTextEditor_format.cpp:100
 msgctxt "(qtundo-format)"
 msgid "Italic"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:111
-#: kotext/KoTextEditor_format.cpp:123
+#: kotext/KoTextEditor_format.cpp:111 kotext/KoTextEditor_format.cpp:123
 msgctxt "(qtundo-format)"
 msgid "Underline"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:134
-#: kotext/KoTextEditor_format.cpp:145
+#: kotext/KoTextEditor_format.cpp:134 kotext/KoTextEditor_format.cpp:145
 msgctxt "(qtundo-format)"
 msgid "Strike Out"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:170
-#: kotext/KoTextEditor_format.cpp:171
+#: kotext/KoTextEditor_format.cpp:170 kotext/KoTextEditor_format.cpp:171
 msgctxt "(qtundo-format)"
 msgid "Change Alignment"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:188
-#: kotext/KoTextEditor_format.cpp:193
+#: kotext/KoTextEditor_format.cpp:188 kotext/KoTextEditor_format.cpp:193
 msgctxt "(qtundo-format)"
 msgid "Set Vertical Alignment"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:225
-#: kotext/KoTextEditor_format.cpp:226
+#: kotext/KoTextEditor_format.cpp:225 kotext/KoTextEditor_format.cpp:226
 msgctxt "(qtundo-format)"
 msgid "Decrease Indent"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:261
-#: kotext/KoTextEditor_format.cpp:262
+#: kotext/KoTextEditor_format.cpp:261 kotext/KoTextEditor_format.cpp:262
 msgctxt "(qtundo-format)"
 msgid "Increase Indent"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:297
-#: kotext/KoTextEditor_format.cpp:299
+#: kotext/KoTextEditor_format.cpp:297 kotext/KoTextEditor_format.cpp:299
 msgctxt "(qtundo-format)"
 msgid "Decrease font size"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:310
-#: kotext/KoTextEditor_format.cpp:312
+#: kotext/KoTextEditor_format.cpp:310 kotext/KoTextEditor_format.cpp:312
 msgctxt "(qtundo-format)"
 msgid "Increase font size"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:323
-#: kotext/KoTextEditor_format.cpp:328
+#: kotext/KoTextEditor_format.cpp:323 kotext/KoTextEditor_format.cpp:328
 msgctxt "(qtundo-format)"
 msgid "Set Font"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:339
-#: kotext/KoTextEditor_format.cpp:344
+#: kotext/KoTextEditor_format.cpp:339 kotext/KoTextEditor_format.cpp:344
 msgctxt "(qtundo-format)"
 msgid "Set Font Size"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:355
-#: kotext/KoTextEditor_format.cpp:360
+#: kotext/KoTextEditor_format.cpp:355 kotext/KoTextEditor_format.cpp:360
 msgctxt "(qtundo-format)"
 msgid "Set Background Color"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:371
-#: kotext/KoTextEditor_format.cpp:376
+#: kotext/KoTextEditor_format.cpp:371 kotext/KoTextEditor_format.cpp:376
 msgctxt "(qtundo-format)"
 msgid "Set Text Color"
 msgstr ""
 
-#: kotext/KoTextEditor_format.cpp:402
-#: kotext/KoTextEditor_format.cpp:441
+#: kotext/KoTextEditor_format.cpp:402 kotext/KoTextEditor_format.cpp:441
 msgctxt "(qtundo-format)"
 msgid "Set Character Style"
 msgstr ""
@@ -2776,51 +2723,43 @@ msgid "Formatting"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
-#: kotext/KoTextEditor_p.h:128
-#: kotext/KoTextEditor_p.h:164
+#: kotext/KoTextEditor_p.h:128 kotext/KoTextEditor_p.h:164
 #: widgets/KoCsvImportDialog.ui:147
 msgid "Format"
 msgstr ""
 
-#: kotext/styles/KoStyleManager.cpp:103
-#: kotext/styles/KoStyleManager.cpp:108
+#: kotext/styles/KoStyleManager.cpp:103 kotext/styles/KoStyleManager.cpp:108
 msgid "Default"
 msgstr ""
 
-#: kundo2/kundo2group.cpp:359
-#: kundo2/kundo2stack.cpp:849
+#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:849
 #: main/KoUndoStackAction.cpp:54
 #, kde-format
 msgid "Undo %1"
 msgstr ""
 
-#: kundo2/kundo2group.cpp:359
-#: kundo2/kundo2stack.cpp:849
+#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:849
 msgctxt "Default text for undo action"
 msgid "Undo"
 msgstr ""
 
-#: kundo2/kundo2group.cpp:386
-#: kundo2/kundo2stack.cpp:875
+#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:875
 #: main/KoUndoStackAction.cpp:54
 #, kde-format
 msgid "Redo %1"
 msgstr ""
 
-#: kundo2/kundo2group.cpp:386
-#: kundo2/kundo2stack.cpp:875
+#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:875
 msgctxt "Default text for redo action"
 msgid "Redo"
 msgstr ""
 
-#: kundo2/kundo2stack.cpp:1082
-#: main/KoMainWindow.cpp:1553
+#: kundo2/kundo2stack.cpp:1082 main/KoMainWindow.cpp:1553
 #: main/KoUndoStackAction.cpp:46
 msgid "Redo"
 msgstr ""
 
-#: kundo2/kundo2stack.cpp:1101
-#: main/KoMainWindow.cpp:1552
+#: kundo2/kundo2stack.cpp:1101 main/KoMainWindow.cpp:1552
 #: main/KoUndoStackAction.cpp:38
 msgid "Undo"
 msgstr ""
@@ -2836,8 +2775,7 @@ msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: main/calligra_shell.rc:45
-#: main/KoMainWindow.cpp:1421
+#: main/calligra_shell.rc:45 main/KoMainWindow.cpp:1421
 msgid "File"
 msgstr ""
 
@@ -2849,8 +2787,7 @@ msgstr ""
 msgid "Delete the author profile"
 msgstr ""
 
-#: main/config/KoConfigAuthorPage.cpp:81
-#: main/KoView.cpp:533
+#: main/config/KoConfigAuthorPage.cpp:81 main/KoView.cpp:533
 msgid "Default Author Profile"
 msgstr ""
 
@@ -2863,32 +2800,27 @@ msgid "Name (not duplicate or blank name):"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fullNameLabel)
-#: main/config/KoConfigAuthorPage.ui:20
-#: main/koDocumentInfoAuthorWidget.ui:20
+#: main/config/KoConfigAuthorPage.ui:20 main/koDocumentInfoAuthorWidget.ui:20
 msgid "Name:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
-#: main/config/KoConfigAuthorPage.ui:40
-#: main/koDocumentInfoAuthorWidget.ui:37
+#: main/config/KoConfigAuthorPage.ui:40 main/koDocumentInfoAuthorWidget.ui:37
 msgid "Initials:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
-#: main/config/KoConfigAuthorPage.ui:63
-#: main/koDocumentInfoAuthorWidget.ui:60
+#: main/config/KoConfigAuthorPage.ui:63 main/koDocumentInfoAuthorWidget.ui:60
 msgid "Title:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
-#: main/config/KoConfigAuthorPage.ui:79
-#: main/koDocumentInfoAuthorWidget.ui:77
+#: main/config/KoConfigAuthorPage.ui:79 main/koDocumentInfoAuthorWidget.ui:77
 msgid "Position:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
-#: main/config/KoConfigAuthorPage.ui:95
-#: main/koDocumentInfoAuthorWidget.ui:94
+#: main/config/KoConfigAuthorPage.ui:95 main/koDocumentInfoAuthorWidget.ui:94
 msgid "Company:"
 msgstr ""
 
@@ -3100,7 +3032,9 @@ msgid "Document <i>%1</i> saved"
 msgstr ""
 
 #: main/KoDocument.cpp:479
-msgid "The password of this encrypted document is not known. Autosave aborted! Please save your work manually."
+msgid ""
+"The password of this encrypted document is not known. Autosave aborted! "
+"Please save your work manually."
 msgstr ""
 
 #: main/KoDocument.cpp:482
@@ -3115,9 +3049,7 @@ msgstr ""
 msgid "Could not create the file for saving"
 msgstr ""
 
-#: main/KoDocument.cpp:641
-#: main/KoDocument.cpp:663
-#: main/KoDocument.cpp:694
+#: main/KoDocument.cpp:641 main/KoDocument.cpp:663 main/KoDocument.cpp:694
 #: main/KoDocument.cpp:728
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
@@ -3127,9 +3059,7 @@ msgstr ""
 msgid "Not able to write RDF metadata. Partition full?"
 msgstr ""
 
-#: main/KoDocument.cpp:656
-#: main/KoDocument.cpp:703
-#: main/KoDocument.cpp:1732
+#: main/KoDocument.cpp:656 main/KoDocument.cpp:703 main/KoDocument.cpp:1732
 #, kde-format
 msgid "Error while trying to write '%1'. Partition full?"
 msgstr ""
@@ -3147,9 +3077,7 @@ msgid ""
 "Do you want to open it instead?"
 msgstr ""
 
-#: main/KoDocument.cpp:1099
-#: main/KoDocument.cpp:1422
-#: main/KoMainWindow.cpp:694
+#: main/KoDocument.cpp:1099 main/KoDocument.cpp:1422 main/KoMainWindow.cpp:694
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
@@ -3219,8 +3147,7 @@ msgstr ""
 msgid "Document <i>%1</i> loaded"
 msgstr ""
 
-#: main/KoDocument.cpp:1395
-#: odf/KoOdfReadStore.cpp:112
+#: main/KoDocument.cpp:1395 odf/KoOdfReadStore.cpp:112
 #, kde-format
 msgid "Could not find %1"
 msgstr ""
@@ -3263,19 +3190,21 @@ msgstr ""
 
 #: main/KoDocument.cpp:1611
 #, kde-format
-msgid "Document <i>%1</i> contains several versions. Go to File->Versions to open an old version."
+msgid ""
+"Document <i>%1</i> contains several versions. Go to File->Versions to open "
+"an old version."
 msgstr ""
 
-#: main/KoDocument.cpp:1800
-#: main/KoMainWindow.cpp:1214
+#: main/KoDocument.cpp:1800 main/KoMainWindow.cpp:1214
 #: pigment/resources/KoColorSet.cpp:176
 msgid "Untitled"
 msgstr ""
 
-#: main/KoDocument.cpp:1803
-#: main/KoMainWindow.cpp:1217
+#: main/KoDocument.cpp:1803 main/KoMainWindow.cpp:1217
 #, kde-format
-msgid "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?</p>"
+msgid ""
+"<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
+"</p>"
 msgstr ""
 
 #: main/KoDocument.cpp:1886
@@ -3368,19 +3297,16 @@ msgid "Encryption:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
-#: main/koDocumentInfoAboutWidget.ui:298
-#: main/KoDocumentInfoDlg.cpp:241
+#: main/koDocumentInfoAboutWidget.ui:298 main/KoDocumentInfoDlg.cpp:241
 #: main/KoDocumentInfoDlg.cpp:335
 msgid "&Encrypt"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:91
-#: main/KoMainWindow.cpp:312
+#: main/KoDocumentInfoDlg.cpp:91 main/KoMainWindow.cpp:312
 msgid "Document Information"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:106
-#: main/KoDocumentInfoDlg.cpp:107
+#: main/KoDocumentInfoDlg.cpp:106 main/KoDocumentInfoDlg.cpp:107
 msgid "General"
 msgstr ""
 
@@ -3388,8 +3314,7 @@ msgstr ""
 msgid "Last saved by"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:148
-#: main/KoDocumentInfoDlg.cpp:149
+#: main/KoDocumentInfoDlg.cpp:148 main/KoDocumentInfoDlg.cpp:149
 msgid "Rdf"
 msgstr ""
 
@@ -3397,38 +3322,31 @@ msgstr ""
 msgid "Use ';' (Example: Office;KDE;Calligra)"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:225
-#: main/KoDocumentInfoDlg.cpp:319
+#: main/KoDocumentInfoDlg.cpp:225 main/KoDocumentInfoDlg.cpp:319
 msgid "This document will be decrypted"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:227
-#: main/KoDocumentInfoDlg.cpp:321
+#: main/KoDocumentInfoDlg.cpp:227 main/KoDocumentInfoDlg.cpp:321
 msgid "Do not decrypt"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:229
-#: main/KoDocumentInfoDlg.cpp:323
+#: main/KoDocumentInfoDlg.cpp:229 main/KoDocumentInfoDlg.cpp:323
 msgid "This document is encrypted"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:231
-#: main/KoDocumentInfoDlg.cpp:325
+#: main/KoDocumentInfoDlg.cpp:231 main/KoDocumentInfoDlg.cpp:325
 msgid "D&ecrypt"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:235
-#: main/KoDocumentInfoDlg.cpp:329
+#: main/KoDocumentInfoDlg.cpp:235 main/KoDocumentInfoDlg.cpp:329
 msgid "This document will be encrypted."
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:237
-#: main/KoDocumentInfoDlg.cpp:331
+#: main/KoDocumentInfoDlg.cpp:237 main/KoDocumentInfoDlg.cpp:331
 msgid "Do not encrypt"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:239
-#: main/KoDocumentInfoDlg.cpp:333
+#: main/KoDocumentInfoDlg.cpp:239 main/KoDocumentInfoDlg.cpp:333
 msgid "This document is not encrypted"
 msgstr ""
 
@@ -3437,7 +3355,9 @@ msgid "This document does not support encryption"
 msgstr ""
 
 #: main/KoDocumentInfoDlg.cpp:354
-msgid "<qt>Decrypting the document will remove the password protection from it.<p>Do you still want to decrypt the file?</qt>"
+msgid ""
+"<qt>Decrypting the document will remove the password protection from it."
+"<p>Do you still want to decrypt the file?</qt>"
 msgstr ""
 
 #: main/KoDocumentInfoDlg.cpp:356
@@ -3449,29 +3369,34 @@ msgid "Decrypt"
 msgstr ""
 
 #: main/KoDocumentInfoDlg.cpp:368
-msgid "<qt>Your document could not be saved automatically.<p>To complete the decryption, please save the document.</qt>"
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"decryption, please save the document.</qt>"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:370
-#: main/KoDocumentInfoDlg.cpp:378
-#: main/KoDocumentInfoDlg.cpp:411
-#: main/KoDocumentInfoDlg.cpp:419
+#: main/KoDocumentInfoDlg.cpp:370 main/KoDocumentInfoDlg.cpp:378
+#: main/KoDocumentInfoDlg.cpp:411 main/KoDocumentInfoDlg.cpp:419
 msgid "Save Document"
 msgstr ""
 
 #: main/KoDocumentInfoDlg.cpp:376
-msgid "<qt>The document has been changed since it was opened. To complete the decryption the document needs to be saved.<p>Do you want to save the document now?</qt>"
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the "
+"decryption the document needs to be saved.<p>Do you want to save the "
+"document now?</qt>"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:390
-#: main/KoMainWindow.cpp:828
+#: main/KoDocumentInfoDlg.cpp:390 main/KoMainWindow.cpp:828
 #, kde-format
 msgid "%1 (unknown file type)"
 msgstr ""
 
 #: main/KoDocumentInfoDlg.cpp:393
 #, kde-format
-msgid "<qt>The document is currently saved as %1. The document needs to be changed to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the file to OASIS OpenDocument?</qt>"
+msgid ""
+"<qt>The document is currently saved as %1. The document needs to be changed "
+"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
+"file to OASIS OpenDocument?</qt>"
 msgstr ""
 
 #: main/KoDocumentInfoDlg.cpp:395
@@ -3483,11 +3408,16 @@ msgid "Change"
 msgstr ""
 
 #: main/KoDocumentInfoDlg.cpp:409
-msgid "<qt>Your document could not be saved automatically.<p>To complete the encryption, please save the document.</qt>"
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"encryption, please save the document.</qt>"
 msgstr ""
 
 #: main/KoDocumentInfoDlg.cpp:417
-msgid "<qt>The document has been changed since it was opened. To complete the encryption the document needs to be saved.<p>Do you want to save the document now?</qt>"
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the "
+"encryption the document needs to be saved.<p>Do you want to save the "
+"document now?</qt>"
 msgstr ""
 
 #: main/KoDocumentSectionDelegate.cpp:512
@@ -3503,10 +3433,8 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: main/KoExistingDocumentPane.cpp:44
-#: main/KoMainWindow.cpp:1290
-#: main/KoOpenPane.cpp:358
-#: main/KoOpenPane.cpp:362
+#: main/KoExistingDocumentPane.cpp:44 main/KoMainWindow.cpp:1290
+#: main/KoOpenPane.cpp:358 main/KoOpenPane.cpp:362
 msgid "Open Document"
 msgstr ""
 
@@ -3530,13 +3458,11 @@ msgstr ""
 msgid "%1 (%2 Compatible)"
 msgstr ""
 
-#: main/KoFilterManager.cpp:230
-#: main/KoFilterManager.cpp:239
+#: main/KoFilterManager.cpp:230 main/KoFilterManager.cpp:239
 msgid "Could not export file."
 msgstr ""
 
-#: main/KoFilterManager.cpp:230
-#: main/KoFilterManager.cpp:239
+#: main/KoFilterManager.cpp:230 main/KoFilterManager.cpp:239
 msgid "Missing Export Filter"
 msgstr ""
 
@@ -3690,7 +3616,9 @@ msgstr ""
 
 #: main/KoMainWindow.cpp:836
 #, kde-format
-msgid "<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still want to save in this format?</qt>"
+msgid ""
+"<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
+"want to save in this format?</qt>"
 msgstr ""
 
 #: main/KoMainWindow.cpp:839
@@ -3699,7 +3627,9 @@ msgstr ""
 
 #: main/KoMainWindow.cpp:848
 #, kde-format
-msgid "<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still want to export to this format?</qt>"
+msgid ""
+"<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still "
+"want to export to this format?</qt>"
 msgstr ""
 
 #: main/KoMainWindow.cpp:851
@@ -3718,15 +3648,13 @@ msgstr ""
 msgid "Export Document As"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1000
-#: main/KoMainWindow.cpp:1494
+#: main/KoMainWindow.cpp:1000 main/KoMainWindow.cpp:1494
 msgid ""
 "A document with this name already exists.\n"
 "Do you want to overwrite it?"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1002
-#: main/KoMainWindow.cpp:1496
+#: main/KoMainWindow.cpp:1002 main/KoMainWindow.cpp:1496
 #: main/KoMainWindow.cpp:1854
 msgid "Warning"
 msgstr ""
@@ -3865,8 +3793,7 @@ msgstr ""
 msgid "&Add Group..."
 msgstr ""
 
-#: main/KoTemplateCreateDia.cpp:153
-#: main/KoVersionDialog.cpp:75
+#: main/KoTemplateCreateDia.cpp:153 main/KoVersionDialog.cpp:75
 msgid "&Remove"
 msgstr ""
 
@@ -3900,8 +3827,7 @@ msgstr ""
 msgid "Do you really want to overwrite the existing '%1' template?"
 msgstr ""
 
-#: main/KoTemplateCreateDia.cpp:434
-#: main/KoTemplateCreateDia.cpp:440
+#: main/KoTemplateCreateDia.cpp:434 main/KoTemplateCreateDia.cpp:440
 msgid "Add Group"
 msgstr ""
 
@@ -3969,8 +3895,7 @@ msgstr ""
 msgid "Saved By"
 msgstr ""
 
-#: main/KoVersionDialog.cpp:65
-#: main/KoVersionDialog.cpp:226
+#: main/KoVersionDialog.cpp:65 main/KoVersionDialog.cpp:226
 msgid "Comment"
 msgstr ""
 
@@ -3986,8 +3911,7 @@ msgstr ""
 msgid "A new version could not be added"
 msgstr ""
 
-#: main/KoVersionDialog.cpp:238
-#: main/KoVersionDialog.cpp:240
+#: main/KoVersionDialog.cpp:238 main/KoVersionDialog.cpp:240
 #, kde-format
 msgid "Date: %1"
 msgstr ""
@@ -4012,7 +3936,8 @@ msgstr ""
 #, kde-format
 msgctxt "statement is an Rdf related term"
 msgid "<qt>Edits will be lost.<p>There is %1 invalid statement left.</qt>"
-msgid_plural "<qt>Edits will be lost.<p>There are %1 invalid statements left.</qt>"
+msgid_plural ""
+"<qt>Edits will be lost.<p>There are %1 invalid statements left.</qt>"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -4077,24 +4002,60 @@ msgstr ""
 #. i18n: ectx: property (html), widget (QTextEdit, m_sparqlQuery)
 #: main/rdf/KoDocumentRdfEditWidget.ui:182
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\"># Insert your SPARQL query here<br /># Results are shown below.</span></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">prefix rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">prefix pkg:  &lt;http://docs.oasis-open.org/opendocument/meta/package/common#&gt; </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">prefix geo84: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;</span></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">select ?s ?p ?o </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">where { </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\"> ?s ?p ?o </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">}</span></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;\"></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;\"></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;\"></p></body></html>"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\"># Insert your SPARQL query here<br /># "
+"Results are shown below.</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Verdana'; font-size:13pt;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">prefix rdf:  &lt;http://www.w3."
+"org/1999/02/22-rdf-syntax-ns#&gt; </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">prefix foaf: &lt;http://xmlns.com/"
+"foaf/0.1/&gt; </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">prefix pkg:  &lt;http://docs.oasis-open."
+"org/opendocument/meta/package/common#&gt; </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">prefix geo84: &lt;http://www.w3."
+"org/2003/01/geo/wgs84_pos#&gt;</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Verdana'; font-size:13pt;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">select ?s ?p ?o </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">where { </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\"> ?s ?p ?o </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">}</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Verdana'; font-size:13pt;\"></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Verdana'; font-size:13pt;\"></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Verdana'; font-size:13pt;\"></p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_sparqlExecute)
@@ -4113,20 +4074,22 @@ msgid "Contacts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: main/rdf/KoDocumentRdfEditWidget.ui:240
-#: main/rdf/KoRdfSemanticTree.cpp:53
+#: main/rdf/KoDocumentRdfEditWidget.ui:240 main/rdf/KoRdfSemanticTree.cpp:53
 msgid "Events"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: main/rdf/KoDocumentRdfEditWidget.ui:256
-#: main/rdf/KoRdfSemanticTree.cpp:56
+#: main/rdf/KoDocumentRdfEditWidget.ui:256 main/rdf/KoRdfSemanticTree.cpp:56
 msgid "Locations"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: main/rdf/KoDocumentRdfEditWidget.ui:279
-msgid "Set the default stylesheet for Semantic objects in this document. New RDF objects will use this stylesheet automatically. The buttons allow you to set the stylesheet for all existing semantic objects to the new default stylesheet as well."
+msgid ""
+"Set the default stylesheet for Semantic objects in this document. New RDF "
+"objects will use this stylesheet automatically. The buttons allow you to set "
+"the stylesheet for all existing semantic objects to the new default "
+"stylesheet as well."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_defaultContactsSheetButton)
@@ -4211,8 +4174,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: main/rdf/KoRdfFoaFEditWidget.ui:26
-#: main/rdf/KoRdfLocationViewWidget.ui:24
+#: main/rdf/KoRdfFoaFEditWidget.ui:26 main/rdf/KoRdfLocationViewWidget.ui:24
 msgid "&Name:"
 msgstr ""
 
@@ -4388,7 +4350,9 @@ msgid "Configuration..."
 msgstr ""
 
 #: main/thememanager.cpp:254
-msgid "Cannot start Colors Settings panel from KDE Control Center. Please check your system..."
+msgid ""
+"Cannot start Colors Settings panel from KDE Control Center. Please check "
+"your system..."
 msgstr ""
 
 #. i18n: ectx: Menu (Tools)
@@ -4397,32 +4361,45 @@ msgid "&Tools"
 msgstr ""
 
 #: odf/KoEncryptedStore.cpp:165
-msgid "The manifest file seems to be corrupted. The document could not be opened."
+msgid ""
+"The manifest file seems to be corrupted. The document could not be opened."
 msgstr ""
 
 #: odf/KoEncryptedStore.cpp:224
-msgid "This document contains an unknown checksum. When you give a password it might not be verified."
+msgid ""
+"This document contains an unknown checksum. When you give a password it "
+"might not be verified."
 msgstr ""
 
-#: odf/KoEncryptedStore.cpp:250
-#: odf/KoEncryptedStore.cpp:267
-msgid "This document contains an unknown encryption method. Some parts may be unreadable."
+#: odf/KoEncryptedStore.cpp:250 odf/KoEncryptedStore.cpp:267
+msgid ""
+"This document contains an unknown encryption method. Some parts may be "
+"unreadable."
 msgstr ""
 
 #: odf/KoEncryptedStore.cpp:282
-msgid "This document contains incomplete encryption data. Some parts may be unreadable."
+msgid ""
+"This document contains incomplete encryption data. Some parts may be "
+"unreadable."
 msgstr ""
 
 #: odf/KoEncryptedStore.cpp:296
-msgid "QCA has currently no support for SHA1 or PBKDF2 using SHA1. The document can not be opened."
+msgid ""
+"QCA has currently no support for SHA1 or PBKDF2 using SHA1. The document can "
+"not be opened."
 msgstr ""
 
 #: odf/KoEncryptedStore.cpp:327
-msgid "The manifest file seems to be corrupted. It cannot be modified and the document will remain unreadable. Please try and save the document again to prevent losing your work."
+msgid ""
+"The manifest file seems to be corrupted. It cannot be modified and the "
+"document will remain unreadable. Please try and save the document again to "
+"prevent losing your work."
 msgstr ""
 
 #: odf/KoEncryptedStore.cpp:425
-msgid "The manifest file cannot be written. The document will remain unreadable. Please try and save the document again to prevent losing your work."
+msgid ""
+"The manifest file cannot be written. The document will remain unreadable. "
+"Please try and save the document again to prevent losing your work."
 msgstr ""
 
 #: odf/KoEncryptedStore.cpp:534
@@ -4684,8 +4661,7 @@ msgstr ""
 
 #: pigment/colorspaces/KoLabColorSpace.cpp:42
 #: pigment/compositeops/KoCompositeOps.h:167
-#: pigment/KoCompositeOpRegistry.cpp:110
-#: widgets/KoUniColorChooser.cpp:201
+#: pigment/KoCompositeOpRegistry.cpp:110 widgets/KoUniColorChooser.cpp:201
 msgid "Lightness"
 msgstr ""
 
@@ -4788,8 +4764,7 @@ msgid "Inverse Subtract"
 msgstr ""
 
 #: pigment/compositeops/KoCompositeOpOver.h:61
-#: pigment/KoCompositeOpRegistry.cpp:70
-#: pigment/KoCompositeOpRegistry.cpp:134
+#: pigment/KoCompositeOpRegistry.cpp:70 pigment/KoCompositeOpRegistry.cpp:134
 msgid "Normal"
 msgstr ""
 
@@ -4845,10 +4820,8 @@ msgstr ""
 msgid "Linear Dodge"
 msgstr ""
 
-#: pigment/compositeops/KoCompositeOps.h:90
-#: pigment/KoCompositeOp.cpp:35
-#: pigment/KoCompositeOpRegistry.cpp:33
-#: pigment/KoCompositeOpRegistry.cpp:55
+#: pigment/compositeops/KoCompositeOps.h:90 pigment/KoCompositeOp.cpp:35
+#: pigment/KoCompositeOpRegistry.cpp:33 pigment/KoCompositeOpRegistry.cpp:55
 msgid "Lighten"
 msgstr ""
 
@@ -4891,10 +4864,8 @@ msgstr ""
 msgid "Linear Burn"
 msgstr ""
 
-#: pigment/compositeops/KoCompositeOps.h:100
-#: pigment/KoCompositeOp.cpp:36
-#: pigment/KoCompositeOpRegistry.cpp:32
-#: pigment/KoCompositeOpRegistry.cpp:50
+#: pigment/compositeops/KoCompositeOps.h:100 pigment/KoCompositeOp.cpp:36
+#: pigment/KoCompositeOpRegistry.cpp:32 pigment/KoCompositeOpRegistry.cpp:50
 msgid "Darken"
 msgstr ""
 
@@ -4951,21 +4922,18 @@ msgstr ""
 msgid "Copy Blue"
 msgstr ""
 
-#: pigment/compositeops/KoCompositeOps.h:144
-#: pigment/KoCompositeOp.cpp:30
+#: pigment/compositeops/KoCompositeOps.h:144 pigment/KoCompositeOp.cpp:30
 #: pigment/KoCompositeOpRegistry.cpp:89
 msgid "Color"
 msgstr ""
 
 #: pigment/compositeops/KoCompositeOps.h:145
-#: pigment/KoCompositeOpRegistry.cpp:90
-#: widgets/KoUniColorChooser.cpp:116
+#: pigment/KoCompositeOpRegistry.cpp:90 widgets/KoUniColorChooser.cpp:116
 msgid "Hue"
 msgstr ""
 
 #: pigment/compositeops/KoCompositeOps.h:146
-#: pigment/KoCompositeOpRegistry.cpp:91
-#: widgets/KoUniColorChooser.cpp:125
+#: pigment/KoCompositeOpRegistry.cpp:91 widgets/KoUniColorChooser.cpp:125
 msgid "Saturation"
 msgstr ""
 
@@ -5190,38 +5158,31 @@ msgstr ""
 msgid "64 Bits Float"
 msgstr ""
 
-#: pigment/KoCompositeOp.cpp:33
-#: pigment/KoCompositeOpRegistry.cpp:31
+#: pigment/KoCompositeOp.cpp:33 pigment/KoCompositeOpRegistry.cpp:31
 msgid "Arithmetic"
 msgstr ""
 
-#: pigment/KoCompositeOp.cpp:34
-#: pigment/KoCompositeOpRegistry.cpp:34
+#: pigment/KoCompositeOp.cpp:34 pigment/KoCompositeOpRegistry.cpp:34
 msgid "Negative"
 msgstr ""
 
-#: pigment/KoCompositeOp.cpp:37
-#: pigment/KoCompositeOpRegistry.cpp:37
+#: pigment/KoCompositeOp.cpp:37 pigment/KoCompositeOpRegistry.cpp:37
 msgid "HSY"
 msgstr ""
 
-#: pigment/KoCompositeOp.cpp:38
-#: pigment/KoCompositeOpRegistry.cpp:38
+#: pigment/KoCompositeOp.cpp:38 pigment/KoCompositeOpRegistry.cpp:38
 msgid "HSI"
 msgstr ""
 
-#: pigment/KoCompositeOp.cpp:39
-#: pigment/KoCompositeOpRegistry.cpp:39
+#: pigment/KoCompositeOp.cpp:39 pigment/KoCompositeOpRegistry.cpp:39
 msgid "HSL"
 msgstr ""
 
-#: pigment/KoCompositeOp.cpp:40
-#: pigment/KoCompositeOpRegistry.cpp:40
+#: pigment/KoCompositeOp.cpp:40 pigment/KoCompositeOpRegistry.cpp:40
 msgid "HSV"
 msgstr ""
 
-#: pigment/KoCompositeOp.cpp:41
-#: pigment/KoCompositeOpRegistry.cpp:35
+#: pigment/KoCompositeOp.cpp:41 pigment/KoCompositeOpRegistry.cpp:35
 msgid "Mix"
 msgstr ""
 
@@ -5400,19 +5361,19 @@ msgctxt "Descriptive encoding name"
 msgid "Other ( %1 )"
 msgstr ""
 
-#: widgets/KoCsvImportDialog.cpp:215
-#: widgets/KoCsvImportDialog.cpp:556
+#: widgets/KoCsvImportDialog.cpp:215 widgets/KoCsvImportDialog.cpp:556
 #: widgets/KoCsvImportDialog.cpp:579
 msgid "Generic"
 msgstr ""
 
-#: widgets/KoCsvImportDialog.cpp:221
-#: widgets/KoCsvImportDialog.cpp:585
+#: widgets/KoCsvImportDialog.cpp:221 widgets/KoCsvImportDialog.cpp:585
 msgid "Currency"
 msgstr ""
 
 #: widgets/KoCsvImportDialog.cpp:721
-msgid "Please check the ranges you specified. The start value must be lower than the end value."
+msgid ""
+"Please check the ranges you specified. The start value must be lower than "
+"the end value."
 msgstr ""
 
 #: widgets/KoCsvImportDialog.cpp:767
@@ -5527,8 +5488,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: widgets/KoCsvImportDialog.ui:489
-#: widgets/KoCsvImportDialog.ui:512
+#: widgets/KoCsvImportDialog.ui:489 widgets/KoCsvImportDialog.ui:512
 msgid "to"
 msgstr ""
 
@@ -5597,8 +5557,7 @@ msgid "Facing Pages:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, facingPages)
-#: widgets/KoPageLayoutWidget.cpp:286
-#: widgets/KoPageLayoutWidget.ui:160
+#: widgets/KoPageLayoutWidget.cpp:286 widgets/KoPageLayoutWidget.ui:160
 msgid "Facing pages"
 msgstr ""
 
@@ -5626,8 +5585,7 @@ msgid "Size:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: widgets/KoPageLayoutWidget.ui:77
-#: widgets/KoStrokeConfigWidget.cpp:97
+#: widgets/KoPageLayoutWidget.ui:77 widgets/KoStrokeConfigWidget.cpp:97
 msgid "Width:"
 msgstr ""
 
@@ -5833,10 +5791,8 @@ msgstr ""
 msgid "select item"
 msgstr ""
 
-#: widgets/KoZoomAction.cpp:214
-#: widgets/KoZoomAction.cpp:216
-#: widgets/KoZoomAction.cpp:228
-#: widgets/KoZoomAction.cpp:230
+#: widgets/KoZoomAction.cpp:214 widgets/KoZoomAction.cpp:216
+#: widgets/KoZoomAction.cpp:228 widgets/KoZoomAction.cpp:230
 #: widgets/KoZoomMode.cpp:26
 #, kde-format
 msgid "%1%"
@@ -5865,4 +5821,3 @@ msgstr ""
 #: widgets/KoZoomMode.cpp:30
 msgid "Actual Pixels"
 msgstr ""
-
