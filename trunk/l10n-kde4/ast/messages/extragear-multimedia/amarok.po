@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-01 02:23+0100\n"
+"POT-Creation-Date: 2013-01-02 02:22+0100\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -1548,7 +1548,7 @@ msgctxt "Load the view represented by this bookmark"
 msgid "&Load"
 msgstr "&Cargar"
 
-#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:404
+#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:421
 msgid "&Delete"
 msgstr "&Desaniciar"
 
@@ -1928,6 +1928,10 @@ msgid "Various Artists"
 msgstr "Varios artistes"
 
 #: browsers/CollectionTreeItemModelBase.cpp:978
+msgid "Year - Album"
+msgstr "Añu - Álbum"
+
+#: browsers/CollectionTreeItemModelBase.cpp:978
 #: browsers/CollectionTreeView.cpp:239
 #: context/applets/albums/AlbumsView.cpp:255
 #: context/applets/wikipedia/WikipediaApplet.cpp:631
@@ -1939,10 +1943,6 @@ msgstr "Varios artistes"
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Album"
 msgstr "Álbum"
-
-#: browsers/CollectionTreeItemModelBase.cpp:978
-msgid "Year - Album"
-msgstr "Añu - Álbum"
 
 #. i18n: ectx: property (text), widget (QLabel, artistLabel)
 #: browsers/CollectionTreeItemModelBase.cpp:979
@@ -2000,15 +2000,15 @@ msgstr "Etiqueta"
 msgid "Collection"
 msgstr "Coleición"
 
-#: browsers/CollectionTreeView.cpp:285 browsers/filebrowser/FileView.cpp:132
+#: browsers/CollectionTreeView.cpp:285 browsers/filebrowser/FileView.cpp:130
 msgid "Copy to Collection"
 msgstr ""
 
-#: browsers/CollectionTreeView.cpp:290 browsers/filebrowser/FileView.cpp:123
+#: browsers/CollectionTreeView.cpp:290 browsers/filebrowser/FileView.cpp:120
 msgid "Move to Collection"
 msgstr ""
 
-#: browsers/CollectionTreeView.cpp:302
+#: browsers/CollectionTreeView.cpp:302 browsers/filebrowser/FileView.cpp:133
 msgid "Press Shift key for move"
 msgstr ""
 
@@ -2018,7 +2018,7 @@ msgstr ""
 msgid "Move Tracks to Trash"
 msgstr "Moviendo ficheros a la papelera"
 
-#: browsers/CollectionTreeView.cpp:318
+#: browsers/CollectionTreeView.cpp:318 browsers/filebrowser/FileView.cpp:412
 msgid "Press Shift key to delete"
 msgstr ""
 
@@ -2026,18 +2026,18 @@ msgstr ""
 msgid "Delete Tracks"
 msgstr ""
 
-#: browsers/CollectionTreeView.cpp:652 services/lastfm/LastFmTreeView.cpp:186
+#: browsers/CollectionTreeView.cpp:653 services/lastfm/LastFmTreeView.cpp:186
 msgid "More..."
 msgstr "Más..."
 
-#: browsers/CollectionTreeView.cpp:950 browsers/filebrowser/FileView.cpp:363
+#: browsers/CollectionTreeView.cpp:951 browsers/filebrowser/FileView.cpp:386
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:49
 #: context/applets/albums/AlbumsView.cpp:240
 #: services/lastfm/LastFmTreeView.cpp:96
 msgid "&Add to Playlist"
 msgstr "&Amestar a la llista de reproducción"
 
-#: browsers/CollectionTreeView.cpp:964 browsers/filebrowser/FileView.cpp:375
+#: browsers/CollectionTreeView.cpp:965 browsers/filebrowser/FileView.cpp:399
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:60
 #: context/applets/albums/AlbumsView.cpp:241
 #: services/lastfm/LastFmTreeView.cpp:105
@@ -2045,12 +2045,12 @@ msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
 msgstr "&Reemplazar llista de reproducción"
 
-#: browsers/CollectionTreeView.cpp:1013
+#: browsers/CollectionTreeView.cpp:1014
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr ""
 
-#: browsers/CollectionTreeView.cpp:1046 browsers/filebrowser/FileView.cpp:387
+#: browsers/CollectionTreeView.cpp:1047 browsers/filebrowser/FileView.cpp:434
 msgid "&Edit Track Details"
 msgstr ""
 
@@ -2074,17 +2074,23 @@ msgid ""
 "these files to the playlist as well as perform basic file operations."
 msgstr ""
 
-#: browsers/filebrowser/FileBrowser.cpp:381 browsers/InfoProxy.cpp:164
+#: browsers/filebrowser/FileBrowser.cpp:349 browsers/InfoProxy.cpp:164
 msgid "Home"
 msgstr "Carpeta personal"
 
-#: browsers/filebrowser/FileBrowser.cpp:525
+#: browsers/filebrowser/FileBrowser.cpp:494
 #, fuzzy
 #| msgid "Patches"
 msgid "Places"
 msgstr "Parches"
 
-#: browsers/filebrowser/FileView.cpp:538
+#: browsers/filebrowser/FileView.cpp:408
+#, fuzzy
+#| msgid "&Send to Trash"
+msgid "&Move to Trash"
+msgstr "&Unviar a la papelera"
+
+#: browsers/filebrowser/FileView.cpp:576
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:40
 #, fuzzy
 #| msgid "Confirm Delete"
@@ -2092,7 +2098,7 @@ msgctxt "@title:window"
 msgid "Confirm Delete"
 msgstr "Confirmar el desaniciáu"
 
-#: browsers/filebrowser/FileView.cpp:539
+#: browsers/filebrowser/FileView.cpp:577
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to delete this playlist?"
 #| msgid_plural "Are you sure you want to delete these %1 playlists?"
@@ -2101,7 +2107,7 @@ msgid_plural "Are you sure you want to delete these %1 items?"
 msgstr[0] "¿Daveres quies desaniciar la llista de reproducción?"
 msgstr[1] "¿Daveres quies desaniciar estes %1 llistes de reproducción?"
 
-#: browsers/filebrowser/FileView.cpp:545
+#: browsers/filebrowser/FileView.cpp:583
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:53
 #, fuzzy
 #| msgid "Moving files to trash"
@@ -2109,7 +2115,7 @@ msgctxt "@title:window"
 msgid "Confirm Move to Trash"
 msgstr "Moviendo ficheros a la papelera"
 
-#: browsers/filebrowser/FileView.cpp:546
+#: browsers/filebrowser/FileView.cpp:584
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to delete this playlist?"
 #| msgid_plural "Are you sure you want to delete these %1 playlists?"
@@ -2118,7 +2124,7 @@ msgid_plural "Are you sure you want to move these %1 items to trash?"
 msgstr[0] "¿Daveres quies desaniciar la llista de reproducción?"
 msgstr[1] "¿Daveres quies desaniciar estes %1 llistes de reproducción?"
 
-#: browsers/filebrowser/FileView.cpp:572
+#: browsers/filebrowser/FileView.cpp:611
 #, fuzzy, kde-format
 #| msgid "Moving files to trash"
 msgctxt "@info:status"
