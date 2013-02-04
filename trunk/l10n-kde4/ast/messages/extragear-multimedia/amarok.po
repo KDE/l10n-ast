@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-02 02:59+0100\n"
+"POT-Creation-Date: 2013-02-04 03:12+0100\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -307,7 +307,7 @@ msgid "Stop after current track: On"
 msgstr ""
 
 #: ActionClasses.cpp:496 context/engines/current/CurrentEngine.cpp:136
-#: EngineController.cpp:1391 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:652
+#: EngineController.cpp:1391 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:656
 msgid "No track playing"
 msgstr "Denguna pista en reproducción"
 
@@ -1906,9 +1906,8 @@ msgstr "Añu - Álbum"
 #: browsers/CollectionTreeView.cpp:239
 #: context/applets/albums/AlbumsView.cpp:255
 #: context/applets/wikipedia/WikipediaApplet.cpp:631
-#: core/meta/support/MetaConstants.cpp:177 dialogs/transferdialog.cpp:89
-#: musicbrainz/MusicBrainzTags.cpp:360 playlist/PlaylistModel.cpp:900
-#: playlist/view/PlaylistViewCommon.cpp:63
+#: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTags.cpp:360
+#: playlist/PlaylistModel.cpp:900 playlist/view/PlaylistViewCommon.cpp:63
 #: services/jamendo/JamendoInfoParser.cpp:83
 #: services/magnatune/MagnatuneStore.cpp:224
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
@@ -1919,9 +1918,8 @@ msgstr "Álbum"
 #: browsers/CollectionTreeItemModelBase.cpp:979
 #: context/applets/tabs/ReloadEditDialog.ui:73
 #: context/applets/wikipedia/WikipediaApplet.cpp:619
-#: core/meta/support/MetaConstants.cpp:176 dialogs/transferdialog.cpp:88
-#: musicbrainz/MusicBrainzTags.cpp:359 playlist/PlaylistModel.cpp:896
-#: services/amazon/AmazonInfoParser.cpp:157
+#: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTags.cpp:359
+#: playlist/PlaylistModel.cpp:896 services/amazon/AmazonInfoParser.cpp:157
 #: services/jamendo/JamendoInfoParser.cpp:51
 #: services/lastfm/LastFmService.cpp:466
 #: services/magnatune/MagnatuneStore.cpp:218
@@ -1930,36 +1928,32 @@ msgid "Artist"
 msgstr "Artista"
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
-#: browsers/CollectionTreeItemModelBase.cpp:980
-#: core/meta/support/MetaConstants.cpp:203 dialogs/TagGuessOptions.ui:253
+#: browsers/CollectionTreeItemModelBase.cpp:980 dialogs/TagGuessOptions.ui:253
 #: musicbrainz/MusicBrainzTags.cpp:361 playlist/PlaylistModel.cpp:897
 msgid "Album Artist"
 msgstr "Álbum Artista"
 
 #: browsers/CollectionTreeItemModelBase.cpp:981
 #: context/applets/wikipedia/WikipediaApplet.cpp:625
-#: core/meta/support/MetaConstants.cpp:179 playlist/PlaylistModel.cpp:898
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+#: playlist/PlaylistModel.cpp:898 widgets/SmartPlaylistEditor.cpp:183
+#: widgets/SmartPlaylistEditor.cpp:197
 msgid "Composer"
 msgstr "Compositor"
 
-#: browsers/CollectionTreeItemModelBase.cpp:982
-#: core/meta/support/MetaConstants.cpp:178 dialogs/transferdialog.cpp:90
-#: playlist/PlaylistModel.cpp:904 playlist/ProgressiveSearchWidget.cpp:95
+#: browsers/CollectionTreeItemModelBase.cpp:982 dialogs/transferdialog.cpp:90
+#: playlist/PlaylistModel.cpp:904 playlist/ProgressiveSearchWidget.cpp:93
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Genre"
 msgstr "Xéneru"
 
-#: browsers/CollectionTreeItemModelBase.cpp:983
-#: core/meta/support/MetaConstants.cpp:180 playlist/PlaylistModel.cpp:899
+#: browsers/CollectionTreeItemModelBase.cpp:983 playlist/PlaylistModel.cpp:899
 #: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:197
 #: widgets/SmartPlaylistEditor.cpp:921
 msgid "Year"
 msgstr "Añu"
 
 #: browsers/CollectionTreeItemModelBase.cpp:984
-#: core/meta/support/MetaConstants.cpp:204 widgets/SmartPlaylistEditor.cpp:187
-#: widgets/SmartPlaylistEditor.cpp:197
+#: widgets/SmartPlaylistEditor.cpp:187 widgets/SmartPlaylistEditor.cpp:197
 msgid "Label"
 msgstr "Etiqueta"
 
@@ -2527,8 +2521,8 @@ msgstr[1] "A&novar canal"
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: browsers/playlistbrowser/PodcastModel.cpp:332
 #: context/applets/tabs/ReloadEditDialog.ui:86
-#: core/meta/support/MetaConstants.cpp:175 musicbrainz/MusicBrainzTags.cpp:358
-#: playlist/PlaylistModel.cpp:895 widgets/SmartPlaylistEditor.cpp:183
+#: musicbrainz/MusicBrainzTags.cpp:358 playlist/PlaylistModel.cpp:895
+#: widgets/SmartPlaylistEditor.cpp:183
 msgid "Title"
 msgstr "Títulu"
 
@@ -3393,7 +3387,7 @@ msgstr "Desaniciar ficheros"
 
 #: context/applets/albums/Albums.cpp:138
 #: context/applets/currenttrack/CurrentTrack.cpp:445
-#: playlist/ProgressiveSearchWidget.cpp:81
+#: playlist/ProgressiveSearchWidget.cpp:79
 msgid "Albums"
 msgstr ""
 
@@ -3450,7 +3444,7 @@ msgid "Recently Played Tracks"
 msgstr "Non re&producíes recién"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:444
-#: playlist/ProgressiveSearchWidget.cpp:74
+#: playlist/ProgressiveSearchWidget.cpp:72
 msgid "Tracks"
 msgstr "Pistes"
 
@@ -3460,18 +3454,16 @@ msgid "Play Count"
 msgstr "Cuntador de reproducción"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:445
-#: core/meta/support/MetaConstants.cpp:191 playlist/PlaylistModel.cpp:911
-#: widgets/SmartPlaylistEditor.cpp:185
+#: playlist/PlaylistModel.cpp:911 widgets/SmartPlaylistEditor.cpp:185
 msgid "Score"
 msgstr "Puntuación"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:446
-#: playlist/ProgressiveSearchWidget.cpp:88
+#: playlist/ProgressiveSearchWidget.cpp:86
 msgid "Artists"
 msgstr ""
 
 #: context/applets/currenttrack/CurrentTrack.cpp:446
-#: core/meta/support/MetaConstants.cpp:194
 msgid "Last Played"
 msgstr "Cabera reproducida"
 
@@ -5168,23 +5160,28 @@ msgstr ""
 msgid "Scanning music"
 msgstr "Guetando música"
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:542
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:539
+#, kde-format
+msgid "Source track does not exist: %1"
+msgstr ""
+
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:550
 #, kde-format
 msgid "Could not create directory: %1"
 msgstr "Nun se pudo crear el direutoriu: %1"
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:619
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:627
 #, kde-format
 msgid "Transferring: %1"
 msgstr "Tresfiriendo: %1"
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:621
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:629
 #, fuzzy, kde-format
 #| msgid "Transferring: %1"
 msgid "Transcoding: %1"
 msgstr "Tresfiriendo: %1"
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:665
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:673
 #: core-impl/collections/support/FileCollectionLocation.cpp:87
 #, fuzzy, kde-format
 #| msgid "Playing: %1"
@@ -6631,113 +6628,216 @@ msgstr[1] "Moviendo ficheros a la papelera"
 #, fuzzy
 #| msgid "rating"
 msgctxt ""
-"The field name in case nothing specific is selected e.g. in the automatic "
-"playlist generator"
+"Track field name (when nothing specific is selected e.g. in the automatic "
+"playlist generator)"
 msgid "anything"
 msgstr "valoración"
 
 #: core/meta/support/MetaConstants.cpp:174
 #, fuzzy
 #| msgid "New name"
-msgctxt "The name of the file this track is stored in"
+msgctxt "Track field name (the file this track is stored in)"
 msgid "File Name"
 msgstr "Nome nuevu"
 
-#: core/meta/support/MetaConstants.cpp:181 playlist/PlaylistModel.cpp:905
-#: widgets/SmartPlaylistEditor.cpp:184
+#: core/meta/support/MetaConstants.cpp:175
+#, fuzzy
+#| msgid "Title"
+msgctxt "Track field name"
+msgid "Title"
+msgstr "Títulu"
+
+#: core/meta/support/MetaConstants.cpp:176
+#, fuzzy
+#| msgid "Artist"
+msgctxt "Track field name"
+msgid "Artist"
+msgstr "Artista"
+
+#: core/meta/support/MetaConstants.cpp:177
+#, fuzzy
+#| msgid "Album"
+msgctxt "Track field name"
+msgid "Album"
+msgstr "Álbum"
+
+#: core/meta/support/MetaConstants.cpp:178
+#, fuzzy
+#| msgid "Genre"
+msgctxt "Track field name"
+msgid "Genre"
+msgstr "Xéneru"
+
+#: core/meta/support/MetaConstants.cpp:179
+#, fuzzy
+#| msgid "Composer"
+msgctxt "Track field name"
+msgid "Composer"
+msgstr "Compositor"
+
+#: core/meta/support/MetaConstants.cpp:180
+#, fuzzy
+#| msgid "Year"
+msgctxt "Track field name"
+msgid "Year"
+msgstr "Añu"
+
+#: core/meta/support/MetaConstants.cpp:181
+#, fuzzy
+#| msgid "Comment"
+msgctxt "Track field name"
 msgid "Comment"
 msgstr "Comentariu"
 
 #: core/meta/support/MetaConstants.cpp:182
-#: dialogs/OrganizeCollectionDialog.cpp:113
+#, fuzzy
+#| msgid "Track Number"
+msgctxt "Track field name"
 msgid "Track Number"
 msgstr "Númberu de pista"
 
-#: core/meta/support/MetaConstants.cpp:183 playlist/PlaylistModel.cpp:901
+#: core/meta/support/MetaConstants.cpp:183
+#, fuzzy
+#| msgid "Disc Number"
+msgctxt "Track field name"
 msgid "Disc Number"
 msgstr "Númberu de discu"
 
 #: core/meta/support/MetaConstants.cpp:184
+msgctxt "Track field name"
 msgid "Bpm"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: core/meta/support/MetaConstants.cpp:185 network/NetworkRequests.ui:56
-#: playlist/PlaylistModel.cpp:908 widgets/SmartPlaylistEditor.cpp:183
+#: core/meta/support/MetaConstants.cpp:185
+#, fuzzy
+#| msgid "Length"
+msgctxt "Track field name"
 msgid "Length"
 msgstr "Duración"
 
 #: core/meta/support/MetaConstants.cpp:186
 #, fuzzy
 #| msgid "Bit rate:"
+msgctxt "Track field name"
 msgid "Bit Rate"
 msgstr "Frecuencia de bits:"
 
-#: core/meta/support/MetaConstants.cpp:187 playlist/PlaylistModel.cpp:910
+#: core/meta/support/MetaConstants.cpp:187
+#, fuzzy
+#| msgid "Sample Rate"
+msgctxt "Track field name"
 msgid "Sample Rate"
 msgstr "Tasa de muestréu"
 
-#: core/meta/support/MetaConstants.cpp:188 playlist/PlaylistModel.cpp:916
+#: core/meta/support/MetaConstants.cpp:188
+#, fuzzy
+#| msgid "File Size"
+msgctxt "Track field name"
 msgid "File Size"
 msgstr "Tamañu del ficheru"
 
 #: core/meta/support/MetaConstants.cpp:189
 #, fuzzy
 #| msgid "Format:"
+msgctxt "Track field name"
 msgid "Format"
 msgstr "Formatu:"
 
 #: core/meta/support/MetaConstants.cpp:190
 #, fuzzy
 #| msgid "Update Collection"
+msgctxt "Track field name"
 msgid "Added to Collection"
 msgstr "Anovar coleición"
 
-#: core/meta/support/MetaConstants.cpp:192 playlist/PlaylistModel.cpp:912
-#: playlist/ProgressiveSearchWidget.cpp:109
-#: widgets/SmartPlaylistEditor.cpp:185
+#: core/meta/support/MetaConstants.cpp:191
+#, fuzzy
+#| msgid "Score"
+msgctxt "Track field name"
+msgid "Score"
+msgstr "Puntuación"
+
+#: core/meta/support/MetaConstants.cpp:192
+#, fuzzy
+#| msgid "Rating"
+msgctxt "Track field name"
 msgid "Rating"
 msgstr "Valoración"
 
 #: core/meta/support/MetaConstants.cpp:193
+#, fuzzy
+#| msgid "First Played"
+msgctxt "Track field name"
 msgid "First Played"
 msgstr "Primera reproducción"
 
+#: core/meta/support/MetaConstants.cpp:194
+#, fuzzy
+#| msgid "Last Played"
+msgctxt "Track field name"
+msgid "Last Played"
+msgstr "Cabera reproducida"
+
 #: core/meta/support/MetaConstants.cpp:195
+#, fuzzy
+#| msgid "Playcount"
+msgctxt "Track field name"
 msgid "Playcount"
 msgstr "Cuntador de reproducciones"
 
 #: core/meta/support/MetaConstants.cpp:196
+#, fuzzy
+#| msgid "Find Orphaned Tracks"
+msgctxt "Track field name"
 msgid "Unique Id"
-msgstr ""
+msgstr "Buscar pistes güérfanes"
 
 #: core/meta/support/MetaConstants.cpp:198
 #, fuzzy
 #| msgid "No track playing"
+msgctxt "Track field name"
 msgid "Track Gain"
 msgstr "Denguna pista en reproducción"
 
 #: core/meta/support/MetaConstants.cpp:199
 #, fuzzy
 #| msgid "No track playing"
+msgctxt "Track field name"
 msgid "Track Gain Peak"
 msgstr "Denguna pista en reproducción"
 
 #: core/meta/support/MetaConstants.cpp:200
 #, fuzzy
 #| msgid "album"
+msgctxt "Track field name"
 msgid "Album Gain"
 msgstr "álbum"
 
 #: core/meta/support/MetaConstants.cpp:201
 #, fuzzy
 #| msgid "album"
+msgctxt "Track field name"
 msgid "Album Gain Peak"
 msgstr "álbum"
+
+#: core/meta/support/MetaConstants.cpp:203
+#, fuzzy
+#| msgid "Album Artist"
+msgctxt "Track field name"
+msgid "Album Artist"
+msgstr "Álbum Artista"
+
+#: core/meta/support/MetaConstants.cpp:204
+#, fuzzy
+#| msgid "Label"
+msgctxt "Track field name"
+msgid "Label"
+msgstr "Etiqueta"
 
 #: core/meta/support/MetaConstants.cpp:205
 #, fuzzy
 #| msgid "modified"
+msgctxt "Track field name"
 msgid "Last Modified"
 msgstr "camudáu"
 
@@ -8716,6 +8816,10 @@ msgstr "Iniciales del artista"
 msgid "File Extension of Source"
 msgstr "Estensión del ficheru d'orixe"
 
+#: dialogs/OrganizeCollectionDialog.cpp:113
+msgid "Track Number"
+msgstr "Númberu de pista"
+
 #: dialogs/OrganizeCollectionDialog.cpp:115
 msgid "You can use the following tokens:"
 msgstr "Puede usar los siguientes elementos:"
@@ -8831,7 +8935,7 @@ msgstr "&Camudar espacios con signos de sorrayáu"
 #: dialogs/OrganizeCollectionOptions.ui:54
 #, fuzzy
 #| msgid "If checked, postfix artists' names starting with 'The' with ', The'."
-msgid "If checked, prepend artists' names starting with 'The' with ', The'."
+msgid "If checked, append ', The' to the artists' names starting with 'The'."
 msgstr ""
 "Si ta conseñáu, amestar el sufixu «, The» a los nomes d'artistes que entamen "
 "por «The»."
@@ -8847,7 +8951,7 @@ msgstr ""
 #: dialogs/OrganizeCollectionOptions.ui:60
 #, fuzzy
 #| msgid "I&gnore 'The' in Artist Names"
-msgid "&Prepend 'The' in artist names"
+msgid "&Append 'The' to artist names"
 msgstr "I&norar l'artículu 'Los'  nos nomes de los artistes"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, vfatCheck)
@@ -9232,12 +9336,12 @@ msgid "Location:"
 msgstr "Ubicación:"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_previous)
-#: dialogs/TagDialogBase.ui:1133 playlist/ProgressiveSearchWidget.cpp:66
+#: dialogs/TagDialogBase.ui:1133 playlist/ProgressiveSearchWidget.cpp:64
 msgid "&Previous"
 msgstr "&Previu"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_next)
-#: dialogs/TagDialogBase.ui:1143 playlist/ProgressiveSearchWidget.cpp:63
+#: dialogs/TagDialogBase.ui:1143 playlist/ProgressiveSearchWidget.cpp:61
 msgid "&Next"
 msgstr "&Siguiente"
 
@@ -10274,7 +10378,7 @@ msgid ""
 "b></html>"
 msgstr ""
 
-#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:676
+#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:680
 msgid "No information available for this track"
 msgstr "Nun hai información disponible pa esta pista"
 
@@ -11162,7 +11266,7 @@ msgstr ""
 msgid "Toggle Full Screen"
 msgstr ""
 
-#: MainWindow.cpp:863 playlist/ProgressiveSearchWidget.cpp:49
+#: MainWindow.cpp:863 playlist/ProgressiveSearchWidget.cpp:47
 msgid "Search playlist"
 msgstr ""
 
@@ -11334,6 +11438,12 @@ msgstr "Mood"
 #: network/NetworkRequests.ui:51
 msgid "Response"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, requestList)
+#: network/NetworkRequests.ui:56 playlist/PlaylistModel.cpp:908
+#: widgets/SmartPlaylistEditor.cpp:183
+msgid "Length"
+msgstr "Duración"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
 #: network/NetworkRequests.ui:61
@@ -11852,6 +11962,10 @@ msgctxt "The name of the file this track is stored in"
 msgid "Filename"
 msgstr ""
 
+#: playlist/PlaylistModel.cpp:901
+msgid "Disc Number"
+msgstr "Númberu de discu"
+
 #: playlist/PlaylistModel.cpp:902
 msgctxt "The Track number for this item"
 msgid "Track"
@@ -11860,6 +11974,10 @@ msgstr ""
 #: playlist/PlaylistModel.cpp:903 widgets/SmartPlaylistEditor.cpp:187
 msgid "BPM"
 msgstr "BPM"
+
+#: playlist/PlaylistModel.cpp:905 widgets/SmartPlaylistEditor.cpp:184
+msgid "Comment"
+msgstr "Comentariu"
 
 #: playlist/PlaylistModel.cpp:906
 msgctxt "The location on disc of this track"
@@ -11870,6 +11988,15 @@ msgstr ""
 msgid "Bitrate"
 msgstr "Tasa de bits"
 
+#: playlist/PlaylistModel.cpp:910
+msgid "Sample Rate"
+msgstr "Tasa de muestréu"
+
+#: playlist/PlaylistModel.cpp:912 playlist/ProgressiveSearchWidget.cpp:107
+#: widgets/SmartPlaylistEditor.cpp:185
+msgid "Rating"
+msgstr "Valoración"
+
 #: playlist/PlaylistModel.cpp:914
 msgctxt "Column name"
 msgid "Last Played"
@@ -11878,6 +12005,10 @@ msgstr "Cabera reproducida"
 #: playlist/PlaylistModel.cpp:915
 msgid "Mood"
 msgstr "Mood"
+
+#: playlist/PlaylistModel.cpp:916
+msgid "File Size"
+msgstr "Tamañu del ficheru"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PlaylistQueueEditor)
 #: playlist/PlaylistQueueEditor.ui:14
@@ -11940,28 +12071,24 @@ msgctxt ""
 msgid "Playlist"
 msgstr "Llista de reproducción"
 
-#: playlist/ProgressiveSearchWidget.cpp:45
-msgid "Warning: tracks have been hidden in the playlist"
-msgstr ""
-
-#: playlist/ProgressiveSearchWidget.cpp:53
+#: playlist/ProgressiveSearchWidget.cpp:51
 msgid "Start typing to progressively search through the playlist"
 msgstr ""
 
-#: playlist/ProgressiveSearchWidget.cpp:102
+#: playlist/ProgressiveSearchWidget.cpp:100
 msgid "Composers"
 msgstr ""
 
-#: playlist/ProgressiveSearchWidget.cpp:116
+#: playlist/ProgressiveSearchWidget.cpp:114
 #: widgets/SmartPlaylistEditor.cpp:976
 msgid "Years"
 msgstr "años"
 
-#: playlist/ProgressiveSearchWidget.cpp:125
+#: playlist/ProgressiveSearchWidget.cpp:123
 msgid "Show only matches"
 msgstr ""
 
-#: playlist/ProgressiveSearchWidget.cpp:137
+#: playlist/ProgressiveSearchWidget.cpp:135
 msgid "Search Preferences"
 msgstr ""
 
@@ -11978,6 +12105,14 @@ msgstr ""
 #| msgid "Tracks"
 msgid "Tracks moved"
 msgstr "Pistes"
+
+#: playlist/view/listview/PrettyListView.cpp:682
+msgid "Tracks have been hidden due to the active search."
+msgstr ""
+
+#: playlist/view/listview/PrettyListView.cpp:684
+msgid "Add some songs here by dragging them from all around."
+msgstr ""
 
 #: playlist/view/listview/SourceSelectionPopup.cpp:35
 msgid "The following sources are available for this track:"
@@ -15845,20 +15980,20 @@ msgstr ""
 msgid "Volume: 100% (muted)"
 msgstr ""
 
-#: widgets/Osd.cpp:490
+#: widgets/Osd.cpp:494
 #, fuzzy
 msgid ""
 "On-Screen-Display preview\n"
 "Drag to reposition"
 msgstr "Previsualización del OSD- arrastre pa reallugar"
 
-#: widgets/Osd.cpp:742
+#: widgets/Osd.cpp:746
 #, fuzzy
 #| msgid "%1 - Stopped %2"
 msgid "Stopped"
 msgstr "%1 - Paráu %2"
 
-#: widgets/Osd.cpp:751
+#: widgets/Osd.cpp:755
 msgid "Paused"
 msgstr "En pausa"
 
