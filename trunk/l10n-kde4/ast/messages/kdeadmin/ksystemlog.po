@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeadmin-ast\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:38+0100\n"
+"POT-Creation-Date: 2012-08-20 03:21+0200\n"
 "PO-Revision-Date: 2010-10-19 22:20+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -28,6 +28,66 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "malditoastur@gmail.com, xandru.martino@softastur.org"
 
+#. i18n: ectx: label, entry (StartupLogMode), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:13
+msgid "Load this log mode at startup."
+msgstr "Cargar esti mou de rexistru al arrancar."
+
+#. i18n: ectx: label, entry (MaxLines), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:18
+msgid "The log view line count limit."
+msgstr "La llende de llinies del visor de rexistros."
+
+#. i18n: ectx: label, entry (DeleteDuplicatedLines), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:23
+msgid "Option is true if the user wants to delete repeated log lines."
+msgstr ""
+"Esta opción ye verdadera cuando l'usuariu quier desaniciar llinies de "
+"rexistru repetíes."
+
+#. i18n: ectx: label, entry (DeleteProcessIdentifier), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:28
+msgid ""
+"Option is true if the PID in the process column of the SystemLog is to be "
+"omitted."
+msgstr ""
+"Esta opción ye verdadera cuando s'omite'l PID na columna de procesu del "
+"Rexistru del sistema."
+
+#. i18n: ectx: label, entry (ColorizeLogLines), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:33
+msgid ""
+"Option is true if the log lines are to be colored depending on their log "
+"level."
+msgstr ""
+"Esta opción ye verdadera cuando les llinies del rexistru se coloreen según "
+"el so nivel de rexistru."
+
+#. i18n: ectx: label, entry (TooltipEnabled), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:39
+msgid "Whether the tooltips are enabled."
+msgstr "Cuándo tán habilitaos los conseyos."
+
+#. i18n: ectx: label, entry (NewLinesDisplayed), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:44
+msgid "Whether new lines are displayed."
+msgstr "Cuándo amosar les llinies nueves."
+
+#. i18n: ectx: label, entry (ToggleFilterBar), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:49
+msgid "Whether the filter bar is shown."
+msgstr "Cuándo amosar la barra de peñeres."
+
+#. i18n: ectx: label, entry (DateFormat), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:54
+msgid "The date format of log lines."
+msgstr "El formatu de data de les llinies del rexistru."
+
+#. i18n: ectx: label, entry (SambaPaths), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:70
+msgid "The Samba log file paths."
+msgstr "Caminos de los ficheros de rexistru de Samba."
+
 #: src/configurationDialog.cpp:54
 msgid "Settings"
 msgstr "Preferencies"
@@ -36,13 +96,103 @@ msgstr "Preferencies"
 msgid "General"
 msgstr "Xeneral"
 
-#: src/detailDialog.cpp:41
+#. i18n: ectx: property (text), widget (QPushButton, previous)
+#: src/detailDialog.cpp:41 src/lib/logViewSearchWidgetBase.ui:68
 msgid "&Previous"
 msgstr "An&terior"
 
-#: src/detailDialog.cpp:45
+#. i18n: ectx: property (text), widget (QPushButton, next)
+#: src/detailDialog.cpp:45 src/lib/logViewSearchWidgetBase.ui:58
 msgid "&Next"
 msgstr "Siguie&nte"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, DetailDialogBase)
+#: src/detailDialogBase.ui:13
+msgid "Log Line Details"
+msgstr "Detalles de la llinia de rexistru"
+
+#. i18n: ectx: property (whatsThis), widget (QDialog, DetailDialogBase)
+#: src/detailDialogBase.ui:16
+msgid ""
+"This dialog displays detailed information about the currently selected log "
+"line."
+msgstr ""
+"Esti diálogu amuesa información detallada sobre la llinia de rexistru "
+"escoyida."
+
+#. i18n: ectx: property (text), widget (KTextEdit, message)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/detailDialogBase.ui:28 src/loggerDialogBase.ui:33
+#: src/modes/acpid/acpidAnalyzer.h:51 src/modes/apache/apacheAnalyzer.h:55
+#: src/modes/base/syslogAnalyzer.cpp:61 src/modes/cups/cupsAnalyzer.h:56
+#: src/modes/cups/cupsPdfAnalyzer.h:55 src/modes/kernel/kernelAnalyzer.h:60
+#: src/modes/samba/sambaAnalyzer.h:58 src/modes/xorg/xorgAnalyzer.h:61
+#: src/modes/xsession/xsessionAnalyzer.h:55
+msgid "Message"
+msgstr "Mensax"
+
+#. i18n: ectx: property (text), widget (QLabel, icon)
+#: src/detailDialogBase.ui:44
+msgid "Icon"
+msgstr "Iconu"
+
+#. i18n: ectx: property (text), widget (QLabel, header)
+#: src/detailDialogBase.ui:60
+msgid "Main information"
+msgstr "Información principal"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, previous)
+#: src/detailDialogBase.ui:90
+msgid "Move to the previous line"
+msgstr "Movese a la llinia anterior"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, previous)
+#: src/detailDialogBase.ui:93
+msgid ""
+"Moves to the previous line. This button is deactivated if there is no "
+"previous log line."
+msgstr ""
+"Muévese a la llinia anterior. Esti botón tará desactiváu si nun hai llinia "
+"anterior."
+
+#. i18n: ectx: property (text), widget (KPushButton, previous)
+#: src/detailDialogBase.ui:96
+msgid "&Back"
+msgstr "A&trás"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, next)
+#: src/detailDialogBase.ui:112
+msgid "Move to the next line"
+msgstr "Movese a la llinia siguiente"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, next)
+#: src/detailDialogBase.ui:115
+msgid ""
+"Moves to the next line. This button is deactivated if there is no next log "
+"line."
+msgstr ""
+"Muévese a la llinia siguiente. Esti botón tará desactiváu si nun hai llinia "
+"siguiente."
+
+#. i18n: ectx: property (text), widget (KPushButton, next)
+#: src/detailDialogBase.ui:118
+msgid "&Forward"
+msgstr "Si&guiente"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, closeButton)
+#: src/detailDialogBase.ui:150
+msgid "Close the Detail dialog."
+msgstr "Zarrar el diálogu de detalles."
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, closeButton)
+#: src/detailDialogBase.ui:153
+msgid "Closes this Detail dialog."
+msgstr "Zarra esti diálogu de detalles."
+
+#. i18n: ectx: property (text), widget (KPushButton, closeButton)
+#: src/detailDialogBase.ui:156
+msgid "&Close"
+msgstr "&Zarrar"
 
 #: src/generalConfigurationWidget.cpp:50
 msgid "No Log Mode"
@@ -53,6 +203,180 @@ msgstr "Ensin mou de rexistru"
 msgctxt "Date format Option (Date example)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/generalConfigurationWidgetBase.ui:17
+msgid "Startup"
+msgstr "Arranque"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/generalConfigurationWidgetBase.ui:23
+msgid "Load this log mode at startup:"
+msgstr "Cargar esti mou de rexistru nel arranque:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, startupLogMode)
+#: src/generalConfigurationWidgetBase.ui:33
+msgid "The log mode which is loaded by default at startup"
+msgstr "El mou de rexistru que se carga por omisión nel arranque"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, startupLogMode)
+#: src/generalConfigurationWidgetBase.ui:36
+msgid ""
+"The log mode loaded by default at startup. Choose 'No Log Mode' if you do "
+"not want this to happen."
+msgstr ""
+"El mou de rexistru que se carga por omisión nel arranque. Escueyi «Ensin mou "
+"de rexistru» si nun quies cargar dengún."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/generalConfigurationWidgetBase.ui:46
+msgid "Log Lines List"
+msgstr "Llista de les llinies de rexistru"
+
+#. i18n: ectx: property (text), widget (QLabel, maxLinesLabel)
+#: src/generalConfigurationWidgetBase.ui:54
+msgid "Maximum lines displayed:"
+msgstr "Máximu de llinies a amosar:"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, maxLines)
+#: src/generalConfigurationWidgetBase.ui:70
+msgid "Choose here the maximum number of log lines displayed in the main view."
+msgstr ""
+"Escueyi'l númberu máximu de llinies de rexistru que s'amosarán na vista "
+"principal."
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, maxLines)
+#: src/generalConfigurationWidgetBase.ui:73
+msgid ""
+"You can choose here the maximum number of log lines displayed in the main "
+"view."
+msgstr ""
+"Equí pues escoyer el númberu máximu de llinies de rexistru a amosar na vista "
+"principal."
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, deleteDuplicatedLines)
+#: src/generalConfigurationWidgetBase.ui:91
+msgid ""
+"Select this option if you want to delete duplicate log lines <b>(may be slow)"
+"</b>."
+msgstr ""
+"Escueyi esta opción si quies desaniciar les llinies de rexistru duplicaes <b>"
+"(puede ser lentu)</b>."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, deleteDuplicatedLines)
+#: src/generalConfigurationWidgetBase.ui:94
+msgid ""
+"Select this option if you want to delete duplicate log lines. <b>This option "
+"can slow log reading</b>."
+msgstr ""
+"Escueyi esta opción si quies desaniciar llinies de rexistru duplicaes. "
+"<b>Esta opción puede ralentizar la llectura</b>."
+
+#. i18n: ectx: property (text), widget (QCheckBox, deleteDuplicatedLines)
+#: src/generalConfigurationWidgetBase.ui:97
+msgid "Remove &duplicate log lines (may be slower)"
+msgstr "Desaniciar les llinies de rexistru &duplicaes (puede ser más lentu)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/generalConfigurationWidgetBase.ui:107 src/loggerDialogBase.ui:206
+msgid "Options"
+msgstr "Opciones"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, deleteProcessId)
+#: src/generalConfigurationWidgetBase.ui:113
+msgid "Remove process identifier from process name."
+msgstr "Desaniciar l'identificador del procesu del nome del procesu."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, deleteProcessId)
+#: src/generalConfigurationWidgetBase.ui:116
+msgid ""
+"Select this option if you want to remove the process identifier from the "
+"process name. For example, the <b>Process</b> column may contain entries "
+"such as <i>cron<b>[3433]</b></i>. If this option is activated, the bold part "
+"will be removed."
+msgstr ""
+"Escueyi esta opción si quies desaniciar l'identificador del procesu del nome "
+"del procesu. Por exemplu, la columna <b>Procesu</b> puede caltener daqué "
+"asemeyao a <i>cron<b>[3433]</b></i>. Si actives esta opción, desaniciaráse "
+"la parte en negrina."
+
+#. i18n: ectx: property (text), widget (QCheckBox, deleteProcessId)
+#: src/generalConfigurationWidgetBase.ui:119
+msgid "Remove &identifier from process name"
+msgstr "Desaniciar l'&identificador del nome del procesu"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, colorizeLogLines)
+#: src/generalConfigurationWidgetBase.ui:126
+msgid ""
+"This option allows log lines to be colored depending on their log level."
+msgstr ""
+"Esta opción permítete pintar les llínies de rexistru en función del so nivel."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, colorizeLogLines)
+#: src/generalConfigurationWidgetBase.ui:129
+msgid ""
+"This option allows log lines to be colored depending on their log level. For "
+"example, errors will be shown in red, warnings in orange, and so on. This "
+"will help you to see problems more easily."
+msgstr ""
+"Esta opción permítete pintar les llinies del rexistru en función del so "
+"nivel. Por exemplu, los fallos apaecerán en colloráu, los avisos en naranxa, "
+"etc. Esto echaráte un gabitu pa estremar meyor los problemes."
+
+#. i18n: ectx: property (text), widget (QCheckBox, colorizeLogLines)
+#: src/generalConfigurationWidgetBase.ui:132
+msgid "&Colored log lines"
+msgstr "&Pintar llinies del rexistru"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/generalConfigurationWidgetBase.ui:142
+msgid "Date Format"
+msgstr "Formatu de data"
+
+#. i18n: ectx: property (text), widget (QRadioButton, formatShortDate)
+#: src/generalConfigurationWidgetBase.ui:151
+msgid "&Short date format"
+msgstr "Formatu de data &curtiu"
+
+#. i18n: ectx: property (text), widget (QRadioButton, formatFancyShortDate)
+#: src/generalConfigurationWidgetBase.ui:158
+msgid "&Fancy short date format"
+msgstr "Formatu de &data curtiu decorado"
+
+#. i18n: ectx: property (text), widget (QRadioButton, formatLongDate)
+#: src/generalConfigurationWidgetBase.ui:165
+msgid "&Long date format"
+msgstr "Formatu de data &largo"
+
+#. i18n: ectx: property (text), widget (QRadioButton, formatFancyLongDate)
+#: src/generalConfigurationWidgetBase.ui:172
+msgid "Fanc&y long date format"
+msgstr "Formatu de data llargu &decoráu"
+
+#. i18n: ectx: Menu (edit)
+#: src/ksystemlogui.rc:13
+msgid "&Edit"
+msgstr "&Editar"
+
+#. i18n: ectx: Menu (logs)
+#: src/ksystemlogui.rc:31
+msgid "Logs"
+msgstr "Rexistros"
+
+#. i18n: ectx: Menu (window)
+#: src/ksystemlogui.rc:36
+msgid "&Window"
+msgstr "&Ventana"
+
+#. i18n: ectx: ToolBar (logToolBar)
+#: src/ksystemlogui.rc:55
+msgid "Logs Toolbar"
+msgstr "Barra de ferramientes de rexistros"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/ksystemlogui.rc:60
+msgid "Main Toolbar"
+msgstr "Barra de ferramientes principal"
 
 #: src/lib/analyzer.cpp:146
 #, kde-format
@@ -320,6 +644,21 @@ msgstr "Llegóse al final de la llista."
 msgid "Phrase not found."
 msgstr "Nun s'atopó la frase."
 
+#. i18n: ectx: property (text), widget (QLabel, searchLabel)
+#: src/lib/logViewSearchWidgetBase.ui:41
+msgid "Find:"
+msgstr "Guetar:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, caseSensitive)
+#: src/lib/logViewSearchWidgetBase.ui:78
+msgid "Match &case"
+msgstr "Distinguir &mayúscules/minúscules"
+
+#. i18n: ectx: property (text), widget (QCheckBox, highlightAllButton)
+#: src/lib/logViewSearchWidgetBase.ui:85
+msgid "&Highlight all"
+msgstr "&Resaltar too"
+
 #: src/lib/logViewWidget.cpp:124
 #, kde-format
 msgid "Display/Hide the '%1' column"
@@ -443,6 +782,71 @@ msgstr "Esti ficheru nun existe, escueyi otru por favor."
 #: src/loggerDialog.cpp:253
 msgid "File not valid"
 msgstr "Ficheru non válidu"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, LoggerDialogBase)
+#: src/loggerDialogBase.ui:24
+msgid "Log Message"
+msgstr "Mensax de rexistru"
+
+#. i18n: ectx: property (text), widget (QRadioButton, messageActivation)
+#: src/loggerDialogBase.ui:39
+msgid "&Message:"
+msgstr "&Mensax:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, fileActivation)
+#: src/loggerDialogBase.ui:52
+msgid "&File content:"
+msgstr "&Conteníu del ficheru:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/loggerDialogBase.ui:75
+msgid "Properties"
+msgstr "Propiedaes"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: src/loggerDialogBase.ui:101
+msgid "&Priority:"
+msgstr "&Prioridá:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: src/loggerDialogBase.ui:162
+msgid "&Facility:"
+msgstr "&Instalación:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, tagActivation)
+#: src/loggerDialogBase.ui:229
+msgid "&Tag:"
+msgstr "E&tiqueta:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useProcessIdentifier)
+#: src/loggerDialogBase.ui:241
+msgid "Log process &identifier"
+msgstr "&Identificador del procesu de rexistru"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, loggerManual)
+#: src/loggerDialogBase.ui:290
+msgid "Open the 'logger' command manual."
+msgstr "Abrir el manual de la orde 'logger'."
+
+#. i18n: ectx: property (statusTip), widget (QLabel, loggerManual)
+#: src/loggerDialogBase.ui:293
+msgid "This link opens the 'logger' command manual."
+msgstr "Esti enllaz abre'l manual de la orde 'logger'."
+
+#. i18n: ectx: property (text), widget (QLabel, loggerManual)
+#: src/loggerDialogBase.ui:296
+msgid "<a href=\"man:/logger\">Logger Manual</a>"
+msgstr "<qt><a href=\"man:/logger\">Manual de rexistru</a></qt>"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonOK)
+#: src/loggerDialogBase.ui:322
+msgid "&OK"
+msgstr "&Aceutar"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
+#: src/loggerDialogBase.ui:338
+msgid "&Cancel"
+msgstr "&Encaboxar"
 
 #: src/main.cpp:36
 msgid "KSystemlog"
@@ -826,14 +1230,6 @@ msgstr "Data"
 msgid "Type"
 msgstr "Triba"
 
-#: src/modes/acpid/acpidAnalyzer.h:51 src/modes/apache/apacheAnalyzer.h:55
-#: src/modes/base/syslogAnalyzer.cpp:61 src/modes/cups/cupsAnalyzer.h:56
-#: src/modes/cups/cupsPdfAnalyzer.h:55 src/modes/kernel/kernelAnalyzer.h:60
-#: src/modes/samba/sambaAnalyzer.h:58 src/modes/xorg/xorgAnalyzer.h:61
-#: src/modes/xsession/xsessionAnalyzer.h:55
-msgid "Message"
-msgstr "Mensax"
-
 #: src/modes/acpid/acpidConfigurationWidget.h:47
 msgid "Acpid Log"
 msgstr "Rexistru d'Acpid"
@@ -1044,6 +1440,332 @@ msgstr ""
 "tolos inicios de sesión fechos por cada usuariu del sistema, y puede ayudate "
 "a saber si daquién intentó infiltrase nelli."
 
+#. i18n: ectx: property (text), widget (QLabel, description)
+#: src/modes/base/fileListBase.ui:31 src/modes/base/multipleFileListBase.ui:31
+msgid "File List Description"
+msgstr "Llista de descripciones de ficheru"
+
+#. i18n: ectx: property (title), widget (QGroupBox, filesBox)
+#: src/modes/base/fileListBase.ui:44 src/modes/base/multipleFileListBase.ui:44
+msgid "Log Files"
+msgstr "Ficheros de rexistru"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, add)
+#: src/modes/base/fileListBase.ui:55
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Choose a new file</p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Escueyi un nuevu ficheru</"
+"p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, add)
+#: src/modes/base/fileListBase.ui:61
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Opens a dialog box to "
+"choose a new file to be added to the list.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Abre una caxa de dialogu "
+"pa escoyer un nuevu ficheru pa ser amestáu a la llista</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, add)
+#: src/modes/base/fileListBase.ui:64
+msgid "&Add File..."
+msgstr "&Amestar ficheru..."
+
+#. i18n: ectx: property (text), widget (QPushButton, modify)
+#: src/modes/base/fileListBase.ui:71 src/modes/base/multipleFileListBase.ui:70
+msgid "&Modify File..."
+msgstr "&Camudar ficheru..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, remove)
+#: src/modes/base/fileListBase.ui:81 src/modes/base/multipleFileListBase.ui:80
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Delete the current file(s)"
+"</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Desaniciar los ficheros "
+"actuales</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, remove)
+#: src/modes/base/fileListBase.ui:87
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Deletes the files selected "
+"on the list.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Desanicia los ficheros "
+"escoyíos na llista.</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove)
+#: src/modes/base/fileListBase.ui:90 src/modes/base/multipleFileListBase.ui:89
+msgid "&Remove"
+msgstr "&Desaniciar"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeAll)
+#: src/modes/base/fileListBase.ui:100
+#: src/modes/base/multipleFileListBase.ui:99
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Remove all files</p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Desaniciar tolos ficheros</"
+"p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, removeAll)
+#: src/modes/base/fileListBase.ui:106
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Remove all the files on "
+"the list, even if they are not selected.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Desaniciar tolos ficheros "
+"de la llista, inclusu los non escoyíos.</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeAll)
+#: src/modes/base/fileListBase.ui:109
+#: src/modes/base/multipleFileListBase.ui:108
+msgid "Rem&ove All"
+msgstr "Desa&niciar too"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, up)
+#: src/modes/base/fileListBase.ui:122
+#: src/modes/base/multipleFileListBase.ui:121
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Move up the current file(s)"
+"</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Mover haza arriba los "
+"ficheros actuales</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, up)
+#: src/modes/base/fileListBase.ui:128
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Moves the selected files "
+"up in the list. This option allows the files to be read <span style=\" font-"
+"weight:600;\">in first</span> by KSystemLog.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Mueve haza arriba los "
+"ficheros escoyíos na llista. Esta opción permite que los ficheros se llean "
+"<span style=\" font-weight:600;\">primero</span> por KSystemLog.</p></body></"
+"html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, up)
+#: src/modes/base/fileListBase.ui:131
+#: src/modes/base/multipleFileListBase.ui:130
+msgid "Move &Up"
+msgstr "Mover haza &arriba"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, down)
+#: src/modes/base/fileListBase.ui:141
+#: src/modes/base/multipleFileListBase.ui:140
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Move down the current file"
+"(s)</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Mueve haza abaxo los "
+"ficheros actuales</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, down)
+#: src/modes/base/fileListBase.ui:147
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Moves the selected files "
+"down in the list. This option allows the files to be read <span style=\" "
+"font-weight:600;\">in last</span> by KSystemLog.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Mueve haza arriba los "
+"ficheros escoyíos na llista. Esta opción permite que los ficheros se llean "
+"<span style=\" font-weight:600;\">al final</span> por KSystemLog.</p></"
+"body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, down)
+#: src/modes/base/fileListBase.ui:150
+#: src/modes/base/multipleFileListBase.ui:149
+msgid "Move &Down"
+msgstr "Mover haza a&baxo"
+
+#. i18n: ectx: property (text), widget (QLabel, notes)
+#: src/modes/base/fileListBase.ui:175
+msgid ""
+"<p style='margin-top:0px;margin-bottom:0px;'><b>Notes:</b></p><ul "
+"style='margin-top:0px'><li>Files are read using the order of this list.</"
+"li><li>Compressed and plain text files are accepted <i>(*.log, *.gz, *."
+"bz2,...)</i>.</li><li>Use the <b>'*'</b> wildcard to select multiple log "
+"files when adding files.</li></ul>"
+msgstr ""
+"<p style='margin-top:0px;margin-bottom:0px;'><b>Notes:</b></p><ul "
+"style='margin-top:0px'><li>Los ficheros lléense usando l'orde d'esta llista."
+"</li><li>Acéptense ficheros comprimíos y en testu planu <i>(*.log, *.gz, *."
+"bz2,...)</i>.</li><li>Use'l comodín <b>«*»</b> cuando teas amestando "
+"ficheros de rexistru pa escoyer dellos.</li></ul>"
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, fileList)
+#: src/modes/base/fileListBase.ui:191
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">List of files used by this "
+"log type.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Llista de los ficheros "
+"usaos por esti triba de rexistru.</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, fileList)
+#: src/modes/base/fileListBase.ui:197
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Here is a list of every "
+"file that will be read by KSystemLog to display the current log lines.</p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Equí s'alcuentra una "
+"llista de cada ficheru que se lleera por KSystemLog p'amosar les actuales "
+"llinies de rexistru.</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QListWidget, fileList)
+#: src/modes/base/fileListBase.ui:210
+msgid "add"
+msgstr "amestar"
+
 #: src/modes/base/fileListHelper.cpp:113
 #, kde-format
 msgid "'%1' is not a local file."
@@ -1094,9 +1816,177 @@ msgstr ""
 "El tamañu de les dos matrices ye distintu, saltando la llectura de los "
 "caminos xenéricos."
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, LogLevelSelectionDialogBase)
+#: src/modes/base/logLevelSelectionDialogBase.ui:13
+msgid "Selecting File Type"
+msgstr "Seleccionando triba de ficheru"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/modes/base/logLevelSelectionDialogBase.ui:22
+msgid "Please select the type of this file:"
+msgstr "Por favor escueyi la triba d'esti ficheru:"
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, logLevelsList)
+#: src/modes/base/logLevelSelectionDialogBase.ui:35
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">List of existing log "
+"levels</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Llista de los niveles de "
+"rexistru existentes</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, logLevelsList)
+#: src/modes/base/logLevelSelectionDialogBase.ui:42
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">This is the list of all "
+"existing log levels. </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Please select one of them "
+"to be used for the files selected on the list.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Esta es la llista de tolos "
+"niveles de rexistru. </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Por favor, escueyi uno de "
+"ellos pa usalu colos ficheros escoyíos de la llista.</p></body></html>"
+
 #: src/modes/base/multipleFileList.cpp:395
 msgid "No log file..."
 msgstr "Ensin ficheru de rexistru..."
+
+#. i18n: ectx: property (text), widget (QTreeWidget, fileList)
+#: src/modes/base/multipleFileListBase.ui:60
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, remove)
+#: src/modes/base/multipleFileListBase.ui:86
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Deletes the selected files "
+"of the list.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Desanicia los ficheros "
+"escoyíos de la llista.</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, removeAll)
+#: src/modes/base/multipleFileListBase.ui:105
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Remove all files of the "
+"list, even if they are not selected.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Desaniciar tolos ficheros "
+"de la llista, inclusu si nun tán escoyíos.</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, up)
+#: src/modes/base/multipleFileListBase.ui:127
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Moves up the selected "
+"files in the list. This option allows the files to be read <span style=\" "
+"font-weight:600;\">in first</span> by KSystemLog.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Mueve haza arriba los "
+"ficheros escoyíos na llista. Esta opción permite que los ficheros se llean "
+"<span style=\" font-weight:600;\">primero</span> por KSystemLog.</p></body></"
+"html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, down)
+#: src/modes/base/multipleFileListBase.ui:146
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Moves down the selected "
+"files in the list. This option allows the files to be read <span style=\" "
+"font-weight:600;\">at last</span> by KSystemLog.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Mueve haza abaxo los "
+"ficheros escoyíos na llista. Esta opción permite que los ficheros se llean "
+"<span style=\" font-weight:600;\">al final</span> por KSystemLog.</p></"
+"body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, notes)
+#: src/modes/base/multipleFileListBase.ui:174
+msgid ""
+"<p style='margin-top:0px;margin-bottom:0px;'><b>Notes:</b></p><ul "
+"style='margin-top:0px'><li>Files are read using the order of this list.</"
+"li><li>Compressed and plain text files are accepted <i>(*.log, *.gz, *."
+"bz2,...)</i>.</li><li>Use the <b>'*'</b> joker to select multiple log files "
+"when adding files.</li></ul>"
+msgstr ""
+"<p style='margin-top:0px;margin-bottom:0px;'><b>Notes:</b></p><ul "
+"style='margin-top:0px'><li>Los ficheros lléense usando l'orde d'esta llista."
+"</li><li>Ficheros comprimíos y en testu planu  acéptense <i>(*.log, *.gz, *."
+"bz2,...)</i>.</li><li>Usa'l <b>'*'</b> asteriscu pa escoyer múltiples "
+"ficheros de rexistru, cuando tea amestando ficheros.</li></ul>"
 
 #: src/modes/base/parsingHelper.cpp:164
 #, kde-format
@@ -1664,6 +2554,37 @@ msgstr ""
 msgid "<li><b>%1</b>: ...</li>"
 msgstr "<li><b>%1</b>: ...</li>"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:16
+msgid "X Session Log File"
+msgstr "Ficheru de rexistru de les sesiones de X"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:22
+msgid "Log file:"
+msgstr "Ficheru de rexistru:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ignoreXorgErrors)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreXorgErrors)
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:45
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:48
+msgid "Check this option to remove Xorg errors"
+msgstr "Escueyi esta opción pa desaniciar los fallos de Xorg"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreXorgErrors)
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:51
+msgid "Ignore Xorg errors"
+msgstr "Inorar fallos de Xorg"
+
+#. i18n: ectx: property (text), widget (QLabel, xorgErrorsDescription)
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:58
+msgid ""
+"<p><b>Note:</b> Check this option to remove X.org errors.</p><p style="
+"\"margin-bottom:0px\">The following lines will be ignored:</p>"
+msgstr ""
+"<p><b>Nota:</b> Escueyi esta opción pa desaniciar los fallos de X.org.</p><p "
+"style=\"margin-bottom:0px\">Les siguientes llínies inoraránse:</p>"
+
 #: src/modes/xsession/xsessionItemBuilder.h:74
 #: src/modes/xsession/xsessionItemBuilder.h:76
 msgid "Program:"
@@ -1704,710 +2625,6 @@ msgstr "%1 (%2)"
 #: src/tabLogViewsWidget.cpp:109
 msgid "No Log"
 msgstr "Ensin rexistru"
-
-#~ msgid "Load this log mode at startup."
-#~ msgstr "Cargar esti mou de rexistru al arrancar."
-
-#~ msgid "The log view line count limit."
-#~ msgstr "La llende de llinies del visor de rexistros."
-
-#~ msgid "Option is true if the user wants to delete repeated log lines."
-#~ msgstr ""
-#~ "Esta opción ye verdadera cuando l'usuariu quier desaniciar llinies de "
-#~ "rexistru repetíes."
-
-#~ msgid ""
-#~ "Option is true if the PID in the process column of the SystemLog is to be "
-#~ "omitted."
-#~ msgstr ""
-#~ "Esta opción ye verdadera cuando s'omite'l PID na columna de procesu del "
-#~ "Rexistru del sistema."
-
-#~ msgid ""
-#~ "Option is true if the log lines are to be colored depending on their log "
-#~ "level."
-#~ msgstr ""
-#~ "Esta opción ye verdadera cuando les llinies del rexistru se coloreen "
-#~ "según el so nivel de rexistru."
-
-#~ msgid "Whether the tooltips are enabled."
-#~ msgstr "Cuándo tán habilitaos los conseyos."
-
-#~ msgid "Whether new lines are displayed."
-#~ msgstr "Cuándo amosar les llinies nueves."
-
-#~ msgid "Whether the filter bar is shown."
-#~ msgstr "Cuándo amosar la barra de peñeres."
-
-#~ msgid "The date format of log lines."
-#~ msgstr "El formatu de data de les llinies del rexistru."
-
-#~ msgid "The Samba log file paths."
-#~ msgstr "Caminos de los ficheros de rexistru de Samba."
-
-#~ msgid "Log Line Details"
-#~ msgstr "Detalles de la llinia de rexistru"
-
-#~ msgid ""
-#~ "This dialog displays detailed information about the currently selected "
-#~ "log line."
-#~ msgstr ""
-#~ "Esti diálogu amuesa información detallada sobre la llinia de rexistru "
-#~ "escoyida."
-
-#~ msgid "Icon"
-#~ msgstr "Iconu"
-
-#~ msgid "Main information"
-#~ msgstr "Información principal"
-
-#~ msgid "Move to the previous line"
-#~ msgstr "Movese a la llinia anterior"
-
-#~ msgid ""
-#~ "Moves to the previous line. This button is deactivated if there is no "
-#~ "previous log line."
-#~ msgstr ""
-#~ "Muévese a la llinia anterior. Esti botón tará desactiváu si nun hai "
-#~ "llinia anterior."
-
-#~ msgid "&Back"
-#~ msgstr "A&trás"
-
-#~ msgid "Move to the next line"
-#~ msgstr "Movese a la llinia siguiente"
-
-#~ msgid ""
-#~ "Moves to the next line. This button is deactivated if there is no next "
-#~ "log line."
-#~ msgstr ""
-#~ "Muévese a la llinia siguiente. Esti botón tará desactiváu si nun hai "
-#~ "llinia siguiente."
-
-#~ msgid "&Forward"
-#~ msgstr "Si&guiente"
-
-#~ msgid "Close the Detail dialog."
-#~ msgstr "Zarrar el diálogu de detalles."
-
-#~ msgid "Closes this Detail dialog."
-#~ msgstr "Zarra esti diálogu de detalles."
-
-#~ msgid "&Close"
-#~ msgstr "&Zarrar"
-
-#~ msgid "Startup"
-#~ msgstr "Arranque"
-
-#~ msgid "Load this log mode at startup:"
-#~ msgstr "Cargar esti mou de rexistru nel arranque:"
-
-#~ msgid "The log mode which is loaded by default at startup"
-#~ msgstr "El mou de rexistru que se carga por omisión nel arranque"
-
-#~ msgid ""
-#~ "The log mode loaded by default at startup. Choose 'No Log Mode' if you do "
-#~ "not want this to happen."
-#~ msgstr ""
-#~ "El mou de rexistru que se carga por omisión nel arranque. Escueyi «Ensin "
-#~ "mou de rexistru» si nun quies cargar dengún."
-
-#~ msgid "Log Lines List"
-#~ msgstr "Llista de les llinies de rexistru"
-
-#~ msgid "Maximum lines displayed:"
-#~ msgstr "Máximu de llinies a amosar:"
-
-#~ msgid ""
-#~ "Choose here the maximum number of log lines displayed in the main view."
-#~ msgstr ""
-#~ "Escueyi'l númberu máximu de llinies de rexistru que s'amosarán na vista "
-#~ "principal."
-
-#~ msgid ""
-#~ "You can choose here the maximum number of log lines displayed in the main "
-#~ "view."
-#~ msgstr ""
-#~ "Equí pues escoyer el númberu máximu de llinies de rexistru a amosar na "
-#~ "vista principal."
-
-#~ msgid ""
-#~ "Select this option if you want to delete duplicate log lines <b>(may be "
-#~ "slow)</b>."
-#~ msgstr ""
-#~ "Escueyi esta opción si quies desaniciar les llinies de rexistru duplicaes "
-#~ "<b>(puede ser lentu)</b>."
-
-#~ msgid ""
-#~ "Select this option if you want to delete duplicate log lines. <b>This "
-#~ "option can slow log reading</b>."
-#~ msgstr ""
-#~ "Escueyi esta opción si quies desaniciar llinies de rexistru duplicaes. "
-#~ "<b>Esta opción puede ralentizar la llectura</b>."
-
-#~ msgid "Remove &duplicate log lines (may be slower)"
-#~ msgstr "Desaniciar les llinies de rexistru &duplicaes (puede ser más lentu)"
-
-#~ msgid "Options"
-#~ msgstr "Opciones"
-
-#~ msgid "Remove process identifier from process name."
-#~ msgstr "Desaniciar l'identificador del procesu del nome del procesu."
-
-#~ msgid ""
-#~ "Select this option if you want to remove the process identifier from the "
-#~ "process name. For example, the <b>Process</b> column may contain entries "
-#~ "such as <i>cron<b>[3433]</b></i>. If this option is activated, the bold "
-#~ "part will be removed."
-#~ msgstr ""
-#~ "Escueyi esta opción si quies desaniciar l'identificador del procesu del "
-#~ "nome del procesu. Por exemplu, la columna <b>Procesu</b> puede caltener "
-#~ "daqué asemeyao a <i>cron<b>[3433]</b></i>. Si actives esta opción, "
-#~ "desaniciaráse la parte en negrina."
-
-#~ msgid "Remove &identifier from process name"
-#~ msgstr "Desaniciar l'&identificador del nome del procesu"
-
-#~ msgid ""
-#~ "This option allows log lines to be colored depending on their log level."
-#~ msgstr ""
-#~ "Esta opción permítete pintar les llínies de rexistru en función del so "
-#~ "nivel."
-
-#~ msgid ""
-#~ "This option allows log lines to be colored depending on their log level. "
-#~ "For example, errors will be shown in red, warnings in orange, and so on. "
-#~ "This will help you to see problems more easily."
-#~ msgstr ""
-#~ "Esta opción permítete pintar les llinies del rexistru en función del so "
-#~ "nivel. Por exemplu, los fallos apaecerán en colloráu, los avisos en "
-#~ "naranxa, etc. Esto echaráte un gabitu pa estremar meyor los problemes."
-
-#~ msgid "&Colored log lines"
-#~ msgstr "&Pintar llinies del rexistru"
-
-#~ msgid "Date Format"
-#~ msgstr "Formatu de data"
-
-#~ msgid "&Short date format"
-#~ msgstr "Formatu de data &curtiu"
-
-#~ msgid "&Fancy short date format"
-#~ msgstr "Formatu de &data curtiu decorado"
-
-#~ msgid "&Long date format"
-#~ msgstr "Formatu de data &largo"
-
-#~ msgid "Fanc&y long date format"
-#~ msgstr "Formatu de data llargu &decoráu"
-
-#~ msgid "&Edit"
-#~ msgstr "&Editar"
-
-#~ msgid "Logs"
-#~ msgstr "Rexistros"
-
-#~ msgid "&Window"
-#~ msgstr "&Ventana"
-
-#~ msgid "Logs Toolbar"
-#~ msgstr "Barra de ferramientes de rexistros"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "Barra de ferramientes principal"
-
-#~ msgid "Find:"
-#~ msgstr "Guetar:"
-
-#~ msgid "Match &case"
-#~ msgstr "Distinguir &mayúscules/minúscules"
-
-#~ msgid "&Highlight all"
-#~ msgstr "&Resaltar too"
-
-#~ msgid "Log Message"
-#~ msgstr "Mensax de rexistru"
-
-#~ msgid "&Message:"
-#~ msgstr "&Mensax:"
-
-#~ msgid "&File content:"
-#~ msgstr "&Conteníu del ficheru:"
-
-#~ msgid "Properties"
-#~ msgstr "Propiedaes"
-
-#~ msgid "&Priority:"
-#~ msgstr "&Prioridá:"
-
-#~ msgid "&Facility:"
-#~ msgstr "&Instalación:"
-
-#~ msgid "&Tag:"
-#~ msgstr "E&tiqueta:"
-
-#~ msgid "Log process &identifier"
-#~ msgstr "&Identificador del procesu de rexistru"
-
-#~ msgid "Open the 'logger' command manual."
-#~ msgstr "Abrir el manual de la orde 'logger'."
-
-#~ msgid "This link opens the 'logger' command manual."
-#~ msgstr "Esti enllaz abre'l manual de la orde 'logger'."
-
-#~ msgid "<a href=\"man:/logger\">Logger Manual</a>"
-#~ msgstr "<qt><a href=\"man:/logger\">Manual de rexistru</a></qt>"
-
-#~ msgid "&OK"
-#~ msgstr "&Aceutar"
-
-#~ msgid "&Cancel"
-#~ msgstr "&Encaboxar"
-
-#~ msgid "File List Description"
-#~ msgstr "Llista de descripciones de ficheru"
-
-#~ msgid "Log Files"
-#~ msgstr "Ficheros de rexistru"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Choose a new file</p></"
-#~ "body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Escueyi un nuevu "
-#~ "ficheru</p></body></html>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Opens a dialog box to "
-#~ "choose a new file to be added to the list.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Abre una caxa de "
-#~ "dialogu pa escoyer un nuevu ficheru pa ser amestáu a la llista</p></"
-#~ "body></html>"
-
-#~ msgid "&Add File..."
-#~ msgstr "&Amestar ficheru..."
-
-#~ msgid "&Modify File..."
-#~ msgstr "&Camudar ficheru..."
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Delete the current file"
-#~ "(s)</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Desaniciar los ficheros "
-#~ "actuales</p></body></html>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Deletes the files "
-#~ "selected on the list.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Desanicia los ficheros "
-#~ "escoyíos na llista.</p></body></html>"
-
-#~ msgid "&Remove"
-#~ msgstr "&Desaniciar"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Remove all files</p></"
-#~ "body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Desaniciar tolos "
-#~ "ficheros</p></body></html>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Remove all the files on "
-#~ "the list, even if they are not selected.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Desaniciar tolos "
-#~ "ficheros de la llista, inclusu los non escoyíos.</p></body></html>"
-
-#~ msgid "Rem&ove All"
-#~ msgstr "Desa&niciar too"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Move up the current file"
-#~ "(s)</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Mover haza arriba los "
-#~ "ficheros actuales</p></body></html>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Moves the selected "
-#~ "files up in the list. This option allows the files to be read <span style="
-#~ "\" font-weight:600;\">in first</span> by KSystemLog.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Mueve haza arriba los "
-#~ "ficheros escoyíos na llista. Esta opción permite que los ficheros se "
-#~ "llean <span style=\" font-weight:600;\">primero</span> por KSystemLog.</"
-#~ "p></body></html>"
-
-#~ msgid "Move &Up"
-#~ msgstr "Mover haza &arriba"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Move down the current "
-#~ "file(s)</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Mueve haza abaxo los "
-#~ "ficheros actuales</p></body></html>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Moves the selected "
-#~ "files down in the list. This option allows the files to be read <span "
-#~ "style=\" font-weight:600;\">in last</span> by KSystemLog.</p></body></"
-#~ "html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Mueve haza arriba los "
-#~ "ficheros escoyíos na llista. Esta opción permite que los ficheros se "
-#~ "llean <span style=\" font-weight:600;\">al final</span> por KSystemLog.</"
-#~ "p></body></html>"
-
-#~ msgid "Move &Down"
-#~ msgstr "Mover haza a&baxo"
-
-#~ msgid ""
-#~ "<p style='margin-top:0px;margin-bottom:0px;'><b>Notes:</b></p><ul "
-#~ "style='margin-top:0px'><li>Files are read using the order of this list.</"
-#~ "li><li>Compressed and plain text files are accepted <i>(*.log, *.gz, *."
-#~ "bz2,...)</i>.</li><li>Use the <b>'*'</b> wildcard to select multiple log "
-#~ "files when adding files.</li></ul>"
-#~ msgstr ""
-#~ "<p style='margin-top:0px;margin-bottom:0px;'><b>Notes:</b></p><ul "
-#~ "style='margin-top:0px'><li>Los ficheros lléense usando l'orde d'esta "
-#~ "llista.</li><li>Acéptense ficheros comprimíos y en testu planu <i>(*.log, "
-#~ "*.gz, *.bz2,...)</i>.</li><li>Use'l comodín <b>«*»</b> cuando teas "
-#~ "amestando ficheros de rexistru pa escoyer dellos.</li></ul>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">List of files used by "
-#~ "this log type.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Llista de los ficheros "
-#~ "usaos por esti triba de rexistru.</p></body></html>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Here is a list of every "
-#~ "file that will be read by KSystemLog to display the current log lines.</"
-#~ "p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Equí s'alcuentra una "
-#~ "llista de cada ficheru que se lleera por KSystemLog p'amosar les actuales "
-#~ "llinies de rexistru.</p></body></html>"
-
-#~ msgid "add"
-#~ msgstr "amestar"
-
-#~ msgid "Selecting File Type"
-#~ msgstr "Seleccionando triba de ficheru"
-
-#~ msgid "Please select the type of this file:"
-#~ msgstr "Por favor escueyi la triba d'esti ficheru:"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">List of existing log "
-#~ "levels</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Llista de los niveles "
-#~ "de rexistru existentes</p></body></html>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">This is the list of all "
-#~ "existing log levels. </p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Please select one of "
-#~ "them to be used for the files selected on the list.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Esta es la llista de "
-#~ "tolos niveles de rexistru. </p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Por favor, escueyi uno "
-#~ "de ellos pa usalu colos ficheros escoyíos de la llista.</p></body></html>"
-
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Deletes the selected "
-#~ "files of the list.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Desanicia los ficheros "
-#~ "escoyíos de la llista.</p></body></html>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Remove all files of the "
-#~ "list, even if they are not selected.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Desaniciar tolos "
-#~ "ficheros de la llista, inclusu si nun tán escoyíos.</p></body></html>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Moves up the selected "
-#~ "files in the list. This option allows the files to be read <span style=\" "
-#~ "font-weight:600;\">in first</span> by KSystemLog.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Mueve haza arriba los "
-#~ "ficheros escoyíos na llista. Esta opción permite que los ficheros se "
-#~ "llean <span style=\" font-weight:600;\">primero</span> por KSystemLog.</"
-#~ "p></body></html>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Moves down the selected "
-#~ "files in the list. This option allows the files to be read <span style=\" "
-#~ "font-weight:600;\">at last</span> by KSystemLog.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Mueve haza abaxo los "
-#~ "ficheros escoyíos na llista. Esta opción permite que los ficheros se "
-#~ "llean <span style=\" font-weight:600;\">al final</span> por KSystemLog.</"
-#~ "p></body></html>"
-
-#~ msgid ""
-#~ "<p style='margin-top:0px;margin-bottom:0px;'><b>Notes:</b></p><ul "
-#~ "style='margin-top:0px'><li>Files are read using the order of this list.</"
-#~ "li><li>Compressed and plain text files are accepted <i>(*.log, *.gz, *."
-#~ "bz2,...)</i>.</li><li>Use the <b>'*'</b> joker to select multiple log "
-#~ "files when adding files.</li></ul>"
-#~ msgstr ""
-#~ "<p style='margin-top:0px;margin-bottom:0px;'><b>Notes:</b></p><ul "
-#~ "style='margin-top:0px'><li>Los ficheros lléense usando l'orde d'esta "
-#~ "llista.</li><li>Ficheros comprimíos y en testu planu  acéptense <i>(*."
-#~ "log, *.gz, *.bz2,...)</i>.</li><li>Usa'l <b>'*'</b> asteriscu pa escoyer "
-#~ "múltiples ficheros de rexistru, cuando tea amestando ficheros.</li></ul>"
-
-#~ msgid "X Session Log File"
-#~ msgstr "Ficheru de rexistru de les sesiones de X"
-
-#~ msgid "Log file:"
-#~ msgstr "Ficheru de rexistru:"
-
-#~ msgid "Check this option to remove Xorg errors"
-#~ msgstr "Escueyi esta opción pa desaniciar los fallos de Xorg"
-
-#~ msgid "Ignore Xorg errors"
-#~ msgstr "Inorar fallos de Xorg"
-
-#~ msgid ""
-#~ "<p><b>Note:</b> Check this option to remove X.org errors.</p><p style="
-#~ "\"margin-bottom:0px\">The following lines will be ignored:</p>"
-#~ msgstr ""
-#~ "<p><b>Nota:</b> Escueyi esta opción pa desaniciar los fallos de X.org.</"
-#~ "p><p style=\"margin-bottom:0px\">Les siguientes llínies inoraránse:</p>"
 
 #~ msgctxt "Size format"
 #~ msgid "%1 B"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krfb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:46+0100\n"
+"POT-Creation-Date: 2012-08-20 04:22+0200\n"
 "PO-Revision-Date: 2010-10-19 22:54+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -86,8 +86,9 @@ msgstr "%1@%2 (escritoriu compartíu)"
 msgid "Invitation"
 msgstr "Invitación"
 
-#: invitedialog.cpp:72
-#, kde-format
+#. i18n: ectx: property (text), widget (QPushButton, btnManageInvite)
+#: invitedialog.cpp:72 ui/invitewidget.ui:125
+#, no-c-format, kde-format
 msgid "&Manage Invitations (%1)..."
 msgstr "Al&ministrar invitaciones (%1)..."
 
@@ -121,6 +122,47 @@ msgstr ""
 "Si quier crear una contraseña permanente pa compartir el so escritoriu, "
 "permita 'Conexones \n"
 "non convidaes' na configuración."
+
+#. i18n: ectx: label, entry (useDefaultPort), group (TCP)
+#: krfb.kcfg:8
+msgid "Use the default port for VNC (5900)"
+msgstr "Usar el puertu predetermináu pa VNC (5900)"
+
+#. i18n: ectx: label, entry (port), group (TCP)
+#: krfb.kcfg:12
+msgid "This is the port on which krfb will listen."
+msgstr "Esti ye'l puertu nel que krfb escuchará."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_publishService)
+#. i18n: ectx: label, entry (publishService), group (TCP)
+#: krfb.kcfg:16 ui/configtcp.ui:22
+msgid "Announce the service on the local network"
+msgstr "Anunciar el serviciu na rede llocal"
+
+#. i18n: ectx: label, entry (allowDesktopControl), group (Security)
+#: krfb.kcfg:22
+msgid "Allow remote connections to manage the desktop."
+msgstr "Permitir conexones remotes pa xestionar l'escritoriu."
+
+#. i18n: ectx: label, entry (askOnConnect), group (Security)
+#: krfb.kcfg:26
+msgid "Ask before allowing a remote connection."
+msgstr "Entrugar enantes de permitir una conexón remota."
+
+#. i18n: ectx: label, entry (allowUninvitedConnections), group (Security)
+#: krfb.kcfg:30
+msgid "Allow connections without an invitation."
+msgstr "Permitir conexones ensin invitación."
+
+#. i18n: ectx: label, entry (uninvitedConnectionPassword), group (Security)
+#: krfb.kcfg:34
+msgid "Password for uninvited connections."
+msgstr "Contraseña pa conexones ensin invitación."
+
+#. i18n: ectx: label, entry (preferredFrameBufferPlugin), group (FrameBuffer)
+#: krfb.kcfg:39
+msgid "Preferred Frame Buffer Plugin"
+msgstr "Complementu Frame Buffer preferíu"
 
 #: main.cpp:42
 msgid "VNC-compatible server to share KDE desktops"
@@ -403,245 +445,301 @@ msgstr "Compartir escritoriu - coneutáu a %1"
 msgid "Desktop Sharing - connected"
 msgstr "Compartir escritoriu - desconeutáu"
 
-#~ msgid "Use the default port for VNC (5900)"
-#~ msgstr "Usar el puertu predetermináu pa VNC (5900)"
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_askOnConnect)
+#: ui/configsecurity.ui:20
+msgid "Ask before accepting connections"
+msgstr "Entrugar enantes d'aceutar conexones"
 
-#~ msgid "This is the port on which krfb will listen."
-#~ msgstr "Esti ye'l puertu nel que krfb escuchará."
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowDesktopControl)
+#: ui/configsecurity.ui:30
+msgid "Allow remote connections to control your desktop"
+msgstr "Permitir a conexones remotes remanar el so escritoriu"
 
-#~ msgid "Announce the service on the local network"
-#~ msgstr "Anunciar el serviciu na rede llocal"
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowUninvitedConnections)
+#: ui/configsecurity.ui:40
+msgid "Allow uninvited connections"
+msgstr "Permitir conexones non invitaes"
 
-#~ msgid "Allow remote connections to manage the desktop."
-#~ msgstr "Permitir conexones remotes pa xestionar l'escritoriu."
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/configsecurity.ui:50
+msgid "Uninvited connections password:"
+msgstr "Contraseña de conexones non convidaes:"
 
-#~ msgid "Ask before allowing a remote connection."
-#~ msgstr "Entrugar enantes de permitir una conexón remota."
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useDefaultPort)
+#: ui/configtcp.ui:32
+msgid "Use default port"
+msgstr "Usar puertu predefiníu"
 
-#~ msgid "Allow connections without an invitation."
-#~ msgstr "Permitir conexones ensin invitación."
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/configtcp.ui:50
+msgid "Listening port:"
+msgstr "Escuchar puertu:"
 
-#~ msgid "Password for uninvited connections."
-#~ msgstr "Contraseña pa conexones ensin invitación."
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: ui/connectionwidget.ui:47
+msgid "Attention"
+msgstr "Atención"
 
-#~ msgid "Preferred Frame Buffer Plugin"
-#~ msgstr "Complementu Frame Buffer preferíu"
+#. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
+#: ui/connectionwidget.ui:72
+msgid ""
+"Somebody is requesting a connection to your computer. Granting this will "
+"allow the remote user to watch your desktop. "
+msgstr ""
+"Daquién ta pidiendo una conexón al so equipu. Permiti-ylo, fadrá que la otra "
+"persona pueda ver lo que hai nel so escritoriu. "
 
-#~ msgid "Ask before accepting connections"
-#~ msgstr "Entrugar enantes d'aceutar conexones"
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: ui/connectionwidget.ui:102
+msgid "Remote system:"
+msgstr "Sistema remotu:"
 
-#~ msgid "Allow remote connections to control your desktop"
-#~ msgstr "Permitir a conexones remotes remanar el so escritoriu"
+#. i18n: ectx: property (text), widget (QLabel, remoteHost)
+#: ui/connectionwidget.ui:118
+msgid "123.234.123.234"
+msgstr "123.234.123.234"
 
-#~ msgid "Allow uninvited connections"
-#~ msgstr "Permitir conexones non invitaes"
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAllowRemoteControl)
+#: ui/connectionwidget.ui:136 ui/tubesconnectionwidget.ui:101
+msgid ""
+"If you turn this option on, the remote user can enter keystrokes and use "
+"your mouse pointer. This gives them full control over your computer, so be "
+"careful. When the option is disabled the remote user can only watch your "
+"screen."
+msgstr ""
+"Si habilita esta opción, l'usuariu remotu podrá usar el tecláu y el mur. "
+"Esto da-y un control dafechu sobro'l sos equipu, asina que tenga curiáu. "
+"Cuando la opción ta inhabilitada l'usuariu remotu namái podrá ver la so "
+"pantalla."
 
-#~ msgid "Uninvited connections password:"
-#~ msgstr "Contraseña de conexones non convidaes:"
+#. i18n: ectx: property (text), widget (QCheckBox, cbAllowRemoteControl)
+#: ui/connectionwidget.ui:139 ui/tubesconnectionwidget.ui:104
+msgid "Allow remote user to &control keyboard and mouse"
+msgstr "Permitir al usuariu remotu &remanar el tecláu y el mur"
 
-#~ msgid "Use default port"
-#~ msgstr "Usar puertu predefiníu"
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: ui/invitewidget.ui:40 ui/manageinvitations.ui:25
+msgid "Welcome to KDE Desktop Sharing"
+msgstr "Bienveníu al programa pa compartir l'escritoriu de KDE"
 
-#~ msgid "Listening port:"
-#~ msgstr "Escuchar puertu:"
+#. i18n: ectx: property (text), widget (QLabel, helpLabel)
+#: ui/invitewidget.ui:50
+msgid ""
+"KDE Desktop Sharing allows you to invite somebody at a remote location to "
+"watch and possibly control your desktop. <a href=\"whatsthis\">More about "
+"invitations...</a>"
+msgstr ""
+"Compartir escritoriu KDE (KDE Desktop Sharing) permíte-y convidar a daquién "
+"d'una llocalización remota, a ver y remanar el so escritoriu. <a href="
+"\"whatsthis\"> Más sobre invitaciones...</a>"
 
-#~ msgid "Attention"
-#~ msgstr "Atención"
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreateInvite)
+#: ui/invitewidget.ui:105
+msgid ""
+"Create a new invitation and display the connection data. Use this option if "
+"you want to invite somebody personally, for example, to give the connection "
+"data over the phone."
+msgstr ""
+"Cree una nueva invitación y amosar los datos de la conexón. Use esta opción "
+"si quier convidar a daquién personalmente, por exemplu, pa da-y los datos de "
+"la conexón per teléfonu."
 
-#~ msgid ""
-#~ "Somebody is requesting a connection to your computer. Granting this will "
-#~ "allow the remote user to watch your desktop. "
-#~ msgstr ""
-#~ "Daquién ta pidiendo una conexón al so equipu. Permiti-ylo, fadrá que la "
-#~ "otra persona pueda ver lo que hai nel so escritoriu. "
+#. i18n: ectx: property (text), widget (QPushButton, btnCreateInvite)
+#: ui/invitewidget.ui:108
+msgid "Create &Personal Invitation..."
+msgstr "Crear una invitación &personal..."
 
-#~ msgid "Remote system:"
-#~ msgstr "Sistema remotu:"
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnEmailInvite)
+#: ui/invitewidget.ui:115
+msgid ""
+"This button will start your email application with a pre-configured text "
+"that explains to the recipient how to connect to your computer. "
+msgstr ""
+"El botón arrancará la so aplicación de corréu-e con un testu predefiníu nel "
+"que se-y desplica al usuariu cómo coneutase al so equipu. "
 
-#~ msgid "123.234.123.234"
-#~ msgstr "123.234.123.234"
+#. i18n: ectx: property (text), widget (QPushButton, btnEmailInvite)
+#: ui/invitewidget.ui:118
+msgid "Invite via &Email..."
+msgstr "Convidar vía corréu-&e..."
 
-#~ msgid ""
-#~ "If you turn this option on, the remote user can enter keystrokes and use "
-#~ "your mouse pointer. This gives them full control over your computer, so "
-#~ "be careful. When the option is disabled the remote user can only watch "
-#~ "your screen."
-#~ msgstr ""
-#~ "Si habilita esta opción, l'usuariu remotu podrá usar el tecláu y el mur. "
-#~ "Esto da-y un control dafechu sobro'l sos equipu, asina que tenga curiáu. "
-#~ "Cuando la opción ta inhabilitada l'usuariu remotu namái podrá ver la so "
-#~ "pantalla."
+#. i18n: ectx: property (windowTitle), widget (QWidget, ManageInvitationsDialog)
+#: ui/manageinvitations.ui:13
+msgid "Manage Invitations - Desktop Sharing"
+msgstr "Xestionar invitaciones - Compartir escritoriu"
 
-#~ msgid "Allow remote user to &control keyboard and mouse"
-#~ msgstr "Permitir al usuariu remotu &remanar el tecláu y el mur"
+#. i18n: ectx: property (text), widget (QLabel, helpLabel)
+#: ui/manageinvitations.ui:38
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">KDE Desktop Sharing allows "
+"you to invite somebody at a remote location to watch and possibly control "
+"your desktop. <a href=\"whatsthis\">More about invitations...</a></p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Compartir escritoriu de "
+"KDE permíte-y convidar a daquién d'una llocalización remota a ver y "
+"dablemente remanar el so escritoriu <a href=\"whatsthis\">Más sobre "
+"invitaciones...</a></p></body></html>"
 
-#~ msgid "Welcome to KDE Desktop Sharing"
-#~ msgstr "Bienveníu al programa pa compartir l'escritoriu de KDE"
+#. i18n: ectx: property (text), widget (QTreeWidget, invitationWidget)
+#: ui/manageinvitations.ui:95
+msgid "Creation Time"
+msgstr "Hora de creación"
 
-#~ msgid ""
-#~ "KDE Desktop Sharing allows you to invite somebody at a remote location to "
-#~ "watch and possibly control your desktop. <a href=\"whatsthis\">More about "
-#~ "invitations...</a>"
-#~ msgstr ""
-#~ "Compartir escritoriu KDE (KDE Desktop Sharing) permíte-y convidar a "
-#~ "daquién d'una llocalización remota, a ver y remanar el so escritoriu. <a "
-#~ "href=\"whatsthis\"> Más sobre invitaciones...</a>"
+#. i18n: ectx: property (text), widget (QTreeWidget, invitationWidget)
+#: ui/manageinvitations.ui:100
+msgid "Expire Time"
+msgstr "Intre nel qu'espira"
 
-#~ msgid ""
-#~ "Create a new invitation and display the connection data. Use this option "
-#~ "if you want to invite somebody personally, for example, to give the "
-#~ "connection data over the phone."
-#~ msgstr ""
-#~ "Cree una nueva invitación y amosar los datos de la conexón. Use esta "
-#~ "opción si quier convidar a daquién personalmente, por exemplu, pa da-y "
-#~ "los datos de la conexón per teléfonu."
+#. i18n: ectx: property (toolTip), widget (QPushButton, newPersonalInvitationButton)
+#: ui/manageinvitations.ui:124
+msgid "Create a new personal invitation..."
+msgstr "Crear una invitación personal nueva..."
 
-#~ msgid "Create &Personal Invitation..."
-#~ msgstr "Crear una invitación &personal..."
+#. i18n: ectx: property (whatsThis), widget (QPushButton, newPersonalInvitationButton)
+#: ui/manageinvitations.ui:127
+msgid "Click this button to create a new personal invitation."
+msgstr "Calque esti botón pa crear una invitación personal nueva."
 
-#~ msgid ""
-#~ "This button will start your email application with a pre-configured text "
-#~ "that explains to the recipient how to connect to your computer. "
-#~ msgstr ""
-#~ "El botón arrancará la so aplicación de corréu-e con un testu predefiníu "
-#~ "nel que se-y desplica al usuariu cómo coneutase al so equipu. "
+#. i18n: ectx: property (text), widget (QPushButton, newPersonalInvitationButton)
+#: ui/manageinvitations.ui:130
+msgid "New &Personal Invitation..."
+msgstr "Nueva invitación &personal..."
 
-#~ msgid "Invite via &Email..."
-#~ msgstr "Convidar vía corréu-&e..."
+#. i18n: ectx: property (toolTip), widget (QPushButton, newEmailInvitationButton)
+#: ui/manageinvitations.ui:137
+msgid "Send a new invitation via email..."
+msgstr "Unviar una invitación nueva per corréu-e..."
 
-#~ msgid "Manage Invitations - Desktop Sharing"
-#~ msgstr "Xestionar invitaciones - Compartir escritoriu"
+#. i18n: ectx: property (whatsThis), widget (QPushButton, newEmailInvitationButton)
+#: ui/manageinvitations.ui:140
+msgid "Click this button to send a new invitation via email."
+msgstr "Calque esti botón pa unviar per corréu-e una invitación nueva."
 
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">KDE Desktop Sharing "
-#~ "allows you to invite somebody at a remote location to watch and possibly "
-#~ "control your desktop. <a href=\"whatsthis\">More about invitations...</"
-#~ "a></p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Compartir escritoriu de "
-#~ "KDE permíte-y convidar a daquién d'una llocalización remota a ver y "
-#~ "dablemente remanar el so escritoriu <a href=\"whatsthis\">Más sobre "
-#~ "invitaciones...</a></p></body></html>"
+#. i18n: ectx: property (text), widget (QPushButton, newEmailInvitationButton)
+#: ui/manageinvitations.ui:143
+msgid "&New Email Invitation..."
+msgstr "Invitación per corréu-e &nueva..."
 
-#~ msgid "Creation Time"
-#~ msgstr "Hora de creación"
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteAllButton)
+#: ui/manageinvitations.ui:153
+msgid "Delete all invitations"
+msgstr "Desaniciar toles invitaciones"
 
-#~ msgid "Expire Time"
-#~ msgstr "Intre nel qu'espira"
+#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteAllButton)
+#: ui/manageinvitations.ui:156
+msgid "Deletes all open invitations."
+msgstr "Desaniciar toles invitaciones abiertes."
 
-#~ msgid "Create a new personal invitation..."
-#~ msgstr "Crear una invitación personal nueva..."
+#. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
+#: ui/manageinvitations.ui:159
+msgid "Delete All"
+msgstr "Desaniciar too"
 
-#~ msgid "Click this button to create a new personal invitation."
-#~ msgstr "Calque esti botón pa crear una invitación personal nueva."
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteOneButton)
+#: ui/manageinvitations.ui:169
+msgid "Delete the selected invitation"
+msgstr "Desaniciar la invitación esbillada"
 
-#~ msgid "New &Personal Invitation..."
-#~ msgstr "Nueva invitación &personal..."
+#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteOneButton)
+#: ui/manageinvitations.ui:172
+msgid ""
+"Delete the selected invitation. The invited person will not be able to "
+"connect using this invitation anymore."
+msgstr ""
+"Desaniciar la invitación esbillada. La persona convidada nun podrá coneutar "
+"con esta invitación."
 
-#~ msgid "Send a new invitation via email..."
-#~ msgstr "Unviar una invitación nueva per corréu-e..."
+#. i18n: ectx: property (text), widget (QPushButton, deleteOneButton)
+#: ui/manageinvitations.ui:175
+msgid "&Delete"
+msgstr "D&esaniciar"
 
-#~ msgid "Click this button to send a new invitation via email."
-#~ msgstr "Calque esti botón pa unviar per corréu-e una invitación nueva."
+#. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
+#: ui/personalinvitewidget.ui:47
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Personal Invitation</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Give the information below "
+"to the person that you want to invite (<a href=\"htc\">how to connect</a>). "
+"Note that everybody who gets the password can connect, so be careful.</p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Invitación personal</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Da la información "
+"necesaria a la otra persona pa coneutar (<a href=\"htc\">Cómo conectar</a>). "
+"Hai que decatase de que cualesquier que conoza la contraseña puede coneutase."
+"</p></body></html>"
 
-#~ msgid "&New Email Invitation..."
-#~ msgstr "Invitación per corréu-e &nueva..."
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel5)
+#: ui/personalinvitewidget.ui:81
+msgid "<b>Host:</b>"
+msgstr "<b>Host:</b>"
 
-#~ msgid "Delete all invitations"
-#~ msgstr "Desaniciar toles invitaciones"
+#. i18n: ectx: property (text), widget (QLabel, hostHelpLabel)
+#: ui/personalinvitewidget.ui:116
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"help\">Help</a></"
+"p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"help\">Ayuda</"
+"a></p></body></html>"
 
-#~ msgid "Deletes all open invitations."
-#~ msgstr "Desaniciar toles invitaciones abiertes."
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel6)
+#: ui/personalinvitewidget.ui:129
+msgid "<b>Password:</b>"
+msgstr "<b>Contraseña:</b>"
 
-#~ msgid "Delete All"
-#~ msgstr "Desaniciar too"
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel7)
+#: ui/personalinvitewidget.ui:161
+msgid "<b>Expiration time:</b>"
+msgstr "<b>Tiempu de caducidá:</b>"
 
-#~ msgid "Delete the selected invitation"
-#~ msgstr "Desaniciar la invitación esbillada"
-
-#~ msgid ""
-#~ "Delete the selected invitation. The invited person will not be able to "
-#~ "connect using this invitation anymore."
-#~ msgstr ""
-#~ "Desaniciar la invitación esbillada. La persona convidada nun podrá "
-#~ "coneutar con esta invitación."
-
-#~ msgid "&Delete"
-#~ msgstr "D&esaniciar"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "weight:600;\">Personal Invitation</span></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Give the information "
-#~ "below to the person that you want to invite (<a href=\"htc\">how to "
-#~ "connect</a>). Note that everybody who gets the password can connect, so "
-#~ "be careful.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "weight:600;\">Invitación personal</span></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Da la información "
-#~ "necesaria a la otra persona pa coneutar (<a href=\"htc\">Cómo conectar</"
-#~ "a>). Hai que decatase de que cualesquier que conoza la contraseña puede "
-#~ "coneutase.</p></body></html>"
-
-#~ msgid "<b>Host:</b>"
-#~ msgstr "<b>Host:</b>"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"help\">Help</"
-#~ "a></p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"help\">Ayuda</"
-#~ "a></p></body></html>"
-
-#~ msgid "<b>Password:</b>"
-#~ msgstr "<b>Contraseña:</b>"
-
-#~ msgid "<b>Expiration time:</b>"
-#~ msgstr "<b>Tiempu de caducidá:</b>"
-
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: ui/tubesconnectionwidget.ui:48
 #, fuzzy
-#~| msgid "Invitation"
-#~ msgid "Confirmation"
-#~ msgstr "Invitación"
+#| msgid "Invitation"
+msgid "Confirmation"
+msgstr "Invitación"
 
 #~ msgid "Address already in use"
 #~ msgstr "Direición yá n'usu"

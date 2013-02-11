@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdegraphics\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:45+0100\n"
+"POT-Creation-Date: 2012-08-27 04:45+0200\n"
 "PO-Revision-Date: 2010-10-18 23:52+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -172,6 +172,165 @@ msgstr "Títulu"
 msgid "Window Class"
 msgstr "Clase de ventana"
 
+#. i18n: ectx: property (whatsThis), widget (KSnapshotPreview, lblImage)
+#: ksnapshotwidget.ui:33
+msgid ""
+"This is a preview of the current snapshot.\n"
+"\n"
+"The image can be dragged to another application or document to copy the full "
+"screenshot there. Try it with the Konqueror file manager.\n"
+"\n"
+"You can also copy the image to the clipboard by pressing Ctrl+C."
+msgstr ""
+"Esta ye una vista previa de la semeya actual.\n"
+"\n"
+"Puede arrastrase la imaxe a otra aplicación o documentu pa copiar la semeya "
+"completa. Prebe col xestor de ficheros de Konqueror.\n"
+"\n"
+"Tamién puede copiar la imaxe al cartafueyu calcando Ctrl+C."
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btnNew)
+#: ksnapshotwidget.ui:55
+msgid "Click this button to take a new snapshot."
+msgstr "Calque esti botón pa facer otra captura de pantalla."
+
+#. i18n: ectx: property (text), widget (KPushButton, btnNew)
+#: ksnapshotwidget.ui:58
+msgid "Take a &New Snapshot"
+msgstr "Tomar una &Nueva captura"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ksnapshotwidget.ui:95
+msgid "Cap&ture mode:"
+msgstr "Mou de cap&tura:"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, comboMode)
+#: ksnapshotwidget.ui:115
+msgid ""
+"<qt>Using this menu, you can select from the five following snapshot modes:\n"
+"<p>\n"
+"<b>Full Screen</b> - captures the entire desktop.<br/>\n"
+"<b>Window Under Cursor</b> - captures only the window (or menu) that is "
+"under the mouse cursor when the snapshot is taken.<br/>\n"
+"<b>Region</b> - captures only the region of the desktop that you specify. "
+"When taking a new snapshot in this mode you will be able to select any area "
+"of the screen by clicking and dragging the mouse.<br/>\n"
+"<b>Section of Window</b> - captures only a section of the window. When "
+"taking a new snapshot in this mode you will be able to select any child "
+"window by moving the mouse over it.<br/>\n"
+"<b>Current Screen</b> - if you have multiple screens, this captures the "
+"screen containing the mouse cursor when the snapshot is taken.\n"
+"</p></qt>"
+msgstr ""
+"<qt>Usando esti menú, pues seleicionar cinco modos de captura:\n"
+"<p>\n"
+"<b>Pantalla completa</b> - captura tol escritoriu.<br/>\n"
+"<b>Ventana baxo'l cursor</b> - captura namái la ventana (o menú) que ta "
+"baxo'l cursor del mur al sacar la semeya.<br/>\n"
+"<b>Área</b> - captura namái l'área del escritoriu que s'especifique. Al "
+"tomar una nueva instantánea nesti mou, l'usuariu podrá esbillar l'área de la "
+"pantalla deseyada per aciu del mur.<br/>\n"
+"<b>Seición de ventana</b> - captura namái una seición de la ventana. Al "
+"tomar una nueva instantánea nesti mou, l'usuariu podrá esbillar cualesquier "
+"ventana fía allugando'l mur sobre ella.<br/>\n"
+"<b>Pantalla actual</b> - Si tienes varies pantalles, esto captura la ventana "
+"que contién el punteru del mur cuando se fai la captura.\n"
+"</p></qt>"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: ksnapshotwidget.ui:119
+msgid "Full Screen"
+msgstr "Pantalla Completa"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: ksnapshotwidget.ui:124
+msgid "Window Under Cursor"
+msgstr "Ventana baxo'l cursor"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: ksnapshotwidget.ui:129
+#, fuzzy
+#| msgid "Region"
+msgid "Rectangular Region"
+msgstr "Rexón"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: ksnapshotwidget.ui:134
+#, fuzzy
+#| msgid "Region"
+msgid "Freehand Region"
+msgstr "Rexón"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: ksnapshotwidget.ui:139
+msgid "Section of Window"
+msgstr "Seición de ventana"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: ksnapshotwidget.ui:144
+msgid "Current Screen"
+msgstr "Pantalla actual"
+
+#. i18n: ectx: property (text), widget (QLabel, lblDelay)
+#: ksnapshotwidget.ui:152
+msgid "Snapshot &delay:"
+msgstr "Allanciu &de la semeya:"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, spinDelay)
+#: ksnapshotwidget.ui:171
+msgid "Snapshot delay in seconds"
+msgstr "Allanciu de la captura de pantalla en segundos"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, spinDelay)
+#: ksnapshotwidget.ui:181
+msgid ""
+"<qt><p>\n"
+"This is the number of seconds to wait after clicking the <i>New Snapshot</i> "
+"button before taking the snapshot.\n"
+"</p><p>\n"
+"This is very useful for getting windows, menus and other items on the screen "
+"set up just the way you want.\n"
+"</p><p>\n"
+"If <i>no delay</i> is set, the program will wait for a mouse click before "
+"taking a snapshot.\n"
+"</p>\n"
+"</qt>"
+msgstr ""
+"<qt><p>\n"
+"Esti ye'l númberu de segundos que trescurren dende que se calca'l botón "
+"<i>Nueva semeya</i> hasta que ésta se toma.\n"
+"</p><p>\n"
+"Ye mui útil p'allugar ventanes, menús u otros elementos de la pantalla como "
+"vusté deseye.\n"
+"</p><p>\n"
+"Si nun s'afita <i>dengún allanciu</i>, el programa esperará a que se "
+"calque'l mur enantes de tomar la semeya.\n"
+"</p>\n"
+"</qt>"
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, spinDelay)
+#: ksnapshotwidget.ui:184
+msgid "No delay"
+msgstr "Ensin allanciu"
+
+#. i18n: ectx: property (text), widget (QLabel, lblIncludeDecorations)
+#: ksnapshotwidget.ui:194
+msgid "Include &window decorations:"
+msgstr "Incluyir &decoraciones de ventana:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbIncludeDecorations)
+#: ksnapshotwidget.ui:207
+msgid ""
+"When enabled, snapshot of a window will also include the window decorations"
+msgstr ""
+"Cuando ta activao, la captura d'una ventana incluyirá tamién les "
+"decoraciones de la ventana."
+
+#. i18n: ectx: property (text), widget (QLabel, lblIncludePointer)
+#: ksnapshotwidget.ui:220
+msgid "Include mouse &pointer:"
+msgstr ""
+
 #: main.cpp:34
 msgid "KDE Screenshot Utility"
 msgstr "Utilidá de captura de pantalles de KDE"
@@ -236,123 +395,6 @@ msgid "Snapshot will be taken in 1 second"
 msgid_plural "Snapshot will be taken in %1 seconds"
 msgstr[0] "La semeya tomaráse en 1 segundu"
 msgstr[1] "La semeya tomaráse en %1 segundos"
-
-#~ msgid ""
-#~ "This is a preview of the current snapshot.\n"
-#~ "\n"
-#~ "The image can be dragged to another application or document to copy the "
-#~ "full screenshot there. Try it with the Konqueror file manager.\n"
-#~ "\n"
-#~ "You can also copy the image to the clipboard by pressing Ctrl+C."
-#~ msgstr ""
-#~ "Esta ye una vista previa de la semeya actual.\n"
-#~ "\n"
-#~ "Puede arrastrase la imaxe a otra aplicación o documentu pa copiar la "
-#~ "semeya completa. Prebe col xestor de ficheros de Konqueror.\n"
-#~ "\n"
-#~ "Tamién puede copiar la imaxe al cartafueyu calcando Ctrl+C."
-
-#~ msgid "Click this button to take a new snapshot."
-#~ msgstr "Calque esti botón pa facer otra captura de pantalla."
-
-#~ msgid "Take a &New Snapshot"
-#~ msgstr "Tomar una &Nueva captura"
-
-#~ msgid "Cap&ture mode:"
-#~ msgstr "Mou de cap&tura:"
-
-#~ msgid ""
-#~ "<qt>Using this menu, you can select from the five following snapshot "
-#~ "modes:\n"
-#~ "<p>\n"
-#~ "<b>Full Screen</b> - captures the entire desktop.<br/>\n"
-#~ "<b>Window Under Cursor</b> - captures only the window (or menu) that is "
-#~ "under the mouse cursor when the snapshot is taken.<br/>\n"
-#~ "<b>Region</b> - captures only the region of the desktop that you specify. "
-#~ "When taking a new snapshot in this mode you will be able to select any "
-#~ "area of the screen by clicking and dragging the mouse.<br/>\n"
-#~ "<b>Section of Window</b> - captures only a section of the window. When "
-#~ "taking a new snapshot in this mode you will be able to select any child "
-#~ "window by moving the mouse over it.<br/>\n"
-#~ "<b>Current Screen</b> - if you have multiple screens, this captures the "
-#~ "screen containing the mouse cursor when the snapshot is taken.\n"
-#~ "</p></qt>"
-#~ msgstr ""
-#~ "<qt>Usando esti menú, pues seleicionar cinco modos de captura:\n"
-#~ "<p>\n"
-#~ "<b>Pantalla completa</b> - captura tol escritoriu.<br/>\n"
-#~ "<b>Ventana baxo'l cursor</b> - captura namái la ventana (o menú) que ta "
-#~ "baxo'l cursor del mur al sacar la semeya.<br/>\n"
-#~ "<b>Área</b> - captura namái l'área del escritoriu que s'especifique. Al "
-#~ "tomar una nueva instantánea nesti mou, l'usuariu podrá esbillar l'área de "
-#~ "la pantalla deseyada per aciu del mur.<br/>\n"
-#~ "<b>Seición de ventana</b> - captura namái una seición de la ventana. Al "
-#~ "tomar una nueva instantánea nesti mou, l'usuariu podrá esbillar "
-#~ "cualesquier ventana fía allugando'l mur sobre ella.<br/>\n"
-#~ "<b>Pantalla actual</b> - Si tienes varies pantalles, esto captura la "
-#~ "ventana que contién el punteru del mur cuando se fai la captura.\n"
-#~ "</p></qt>"
-
-#~ msgid "Full Screen"
-#~ msgstr "Pantalla Completa"
-
-#~ msgid "Window Under Cursor"
-#~ msgstr "Ventana baxo'l cursor"
-
-#, fuzzy
-#~| msgid "Region"
-#~ msgid "Freehand Region"
-#~ msgstr "Rexón"
-
-#~ msgid "Section of Window"
-#~ msgstr "Seición de ventana"
-
-#~ msgid "Current Screen"
-#~ msgstr "Pantalla actual"
-
-#~ msgid "Snapshot &delay:"
-#~ msgstr "Allanciu &de la semeya:"
-
-#~ msgid "Snapshot delay in seconds"
-#~ msgstr "Allanciu de la captura de pantalla en segundos"
-
-#~ msgid ""
-#~ "<qt><p>\n"
-#~ "This is the number of seconds to wait after clicking the <i>New Snapshot</"
-#~ "i> button before taking the snapshot.\n"
-#~ "</p><p>\n"
-#~ "This is very useful for getting windows, menus and other items on the "
-#~ "screen set up just the way you want.\n"
-#~ "</p><p>\n"
-#~ "If <i>no delay</i> is set, the program will wait for a mouse click before "
-#~ "taking a snapshot.\n"
-#~ "</p>\n"
-#~ "</qt>"
-#~ msgstr ""
-#~ "<qt><p>\n"
-#~ "Esti ye'l númberu de segundos que trescurren dende que se calca'l botón "
-#~ "<i>Nueva semeya</i> hasta que ésta se toma.\n"
-#~ "</p><p>\n"
-#~ "Ye mui útil p'allugar ventanes, menús u otros elementos de la pantalla "
-#~ "como vusté deseye.\n"
-#~ "</p><p>\n"
-#~ "Si nun s'afita <i>dengún allanciu</i>, el programa esperará a que se "
-#~ "calque'l mur enantes de tomar la semeya.\n"
-#~ "</p>\n"
-#~ "</qt>"
-
-#~ msgid "No delay"
-#~ msgstr "Ensin allanciu"
-
-#~ msgid "Include &window decorations:"
-#~ msgstr "Incluyir &decoraciones de ventana:"
-
-#~ msgid ""
-#~ "When enabled, snapshot of a window will also include the window "
-#~ "decorations"
-#~ msgstr ""
-#~ "Cuando ta activao, la captura d'una ventana incluyirá tamién les "
-#~ "decoraciones de la ventana."
 
 #, fuzzy
 #~| msgid " "

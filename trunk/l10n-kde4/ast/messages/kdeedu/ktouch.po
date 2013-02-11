@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktouch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:40+0100\n"
+"POT-Creation-Date: 2013-01-25 03:15+0100\n"
 "PO-Revision-Date: 2012-12-26 22:20+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -121,8 +121,9 @@ msgstr "&Distribuciones de tecláu"
 msgid "Template"
 msgstr "Plantía"
 
+#. i18n: ectx: property (text), widget (QToolButton, m_deleteKeyToolButton)
 #: src/editor/resourceeditor.cpp:62 src/qml/ProfileDetailsItem.qml:149
-#: src/qml/ProfileDetailsItem.qml:207
+#: src/qml/ProfileDetailsItem.qml:207 src/ui/keyboardlayouteditor.ui:82
 msgid "Delete"
 msgstr "Desaniciar"
 
@@ -276,6 +277,53 @@ msgstr "Distribución de tecláu"
 #| msgid "Save Keyboard Layout"
 msgid "Choose Keyboard Layout"
 msgstr "Atroxar la distribución de tecláu"
+
+#. i18n: ectx: label, entry (KeyboardLayoutName), group (General)
+#: src/ktouch.kcfg:9
+msgid "The keyboard layout to use on non-X11 platforms"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowKeyboard), group (Training)
+#: src/ktouch.kcfg:15
+msgid "Controls the visibility of the keyboard during training."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowStatistics), group (Training)
+#: src/ktouch.kcfg:19
+msgid "Controls the visibility of realtime statistics during training."
+msgstr ""
+
+#. i18n: ectx: label, entry (NextLineWithReturn), group (Training)
+#: src/ktouch.kcfg:23
+msgid "Return key at the end of a line will switch to next line."
+msgstr ""
+
+#. i18n: ectx: label, entry (NextLineWithSpace), group (Training)
+#: src/ktouch.kcfg:27
+msgid "Space key at the end of a line will switch to next line."
+msgstr ""
+
+#. i18n: ectx: label, entry (RequiredStrokesPerMinute), group (Training)
+#: src/ktouch.kcfg:31
+msgid ""
+"The minimum required amount of strokes per minute to unlock the next lesson."
+msgstr ""
+
+#. i18n: ectx: label, entry (RequiredAccuracy), group (Training)
+#: src/ktouch.kcfg:37
+msgid ""
+"The minimum required typing accuracy in percent to unlock the next lesson."
+msgstr ""
+
+#. i18n: ectx: label, entry (FingerColor$(Index)), group (Colors)
+#: src/ktouch.kcfg:46
+msgid "The keyboard tinting color to highlight keys for each finger."
+msgstr ""
+
+#. i18n: ectx: label, entry (LastUsedProfileId), group (Session)
+#: src/ktouch.kcfg:59
+msgid "The ID of the last used profile."
+msgstr ""
 
 #: src/main.cpp:28
 msgid "Learn and practice typewriting"
@@ -628,6 +676,357 @@ msgstr ""
 "Sesión d'entrenamientu posada. La sesión d'entrenamientu continuará con la "
 "siguiente pulsación..."
 
+#. i18n: ectx: property (title), widget (QGroupBox, fingersGroupBox)
+#: src/ui/colorsconfigwidget.ui:17
+msgid "Fingers"
+msgstr "Deos"
+
+#. i18n: ectx: property (text), widget (QLabel, leftHandLabel)
+#: src/ui/colorsconfigwidget.ui:44
+msgid "Left Hand"
+msgstr "Mano esquierda"
+
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel3)
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel4)
+#: src/ui/colorsconfigwidget.ui:72 src/ui/colorsconfigwidget.ui:218
+msgid "Index finger:"
+msgstr "Deu índiz:"
+
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel2)
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel5)
+#: src/ui/colorsconfigwidget.ui:88 src/ui/colorsconfigwidget.ui:234
+msgid "Middle finger"
+msgstr "Deu del mediu"
+
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel1)
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel6)
+#: src/ui/colorsconfigwidget.ui:104 src/ui/colorsconfigwidget.ui:250
+msgid "Ring finger:"
+msgstr "Deu anular:"
+
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel0)
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel7)
+#: src/ui/colorsconfigwidget.ui:120 src/ui/colorsconfigwidget.ui:266
+msgid "Little finger:"
+msgstr "Deu pequeñu:"
+
+#. i18n: ectx: property (text), widget (QLabel, rightHandLabel)
+#: src/ui/colorsconfigwidget.ui:190
+msgid "Right Hand"
+msgstr "Mano derecha"
+
+#. i18n: ectx: property (text), widget (QLabel, m_titleLabel)
+#. i18n: ectx: property (text), widget (QLabel, m_lessonTitleLabel)
+#. i18n: ectx: property (text), widget (QLabel, m_keyboardLayouttTitleLabel)
+#: src/ui/courseeditor.ui:40 src/ui/courseeditor.ui:300
+#: src/ui/keyboardlayoutpropertieswidget.ui:59 src/ui/newcoursewidget.ui:25
+#: src/ui/newkeyboardlayoutwidget.ui:51
+msgid "Title:"
+msgstr "Títulu:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_keyboardLayoutLabel)
+#: src/ui/courseeditor.ui:53 src/ui/newcoursewidget.ui:38
+#, fuzzy
+#| msgid "&Keyboard Layouts"
+msgid "Keyboard layout:"
+msgstr "&Distribuciones de tecláu"
+
+#. i18n: ectx: property (text), widget (QLabel, m_descriptionLabel)
+#: src/ui/courseeditor.ui:73 src/ui/newcoursewidget.ui:58
+msgid "Description:"
+msgstr "Descripción"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lessonsLabel)
+#: src/ui/courseeditor.ui:150
+msgid "Lessons:"
+msgstr "Lleiciones:"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_addLessonButton)
+#: src/ui/courseeditor.ui:179
+msgid "Add new lesson"
+msgstr "Amestar lleición nueva"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_removeLessonButton)
+#: src/ui/courseeditor.ui:194 src/undocommands/coursecommands.cpp:178
+msgid "Remove lesson"
+msgstr "Desaniciar lleición"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_moveLessonUpButton)
+#: src/ui/courseeditor.ui:225
+msgid "Move lesson up"
+msgstr "Mover lleición arriba"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_moveLessonDownButton)
+#: src/ui/courseeditor.ui:240
+msgid "Move lesson down"
+msgstr "Mover lleición abaxo"
+
+#. i18n: ectx: property (text), widget (QLabel, m_newCharactersLabel)
+#: src/ui/courseeditor.ui:317
+msgid "New characters:"
+msgstr "Caráuteres nuevos:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_characterCountLabel)
+#: src/ui/courseeditor.ui:370
+msgid "0 Characters"
+msgstr "0 caráuteres"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_newKeyToolButton)
+#: src/ui/keyboardlayouteditor.ui:34
+msgid "Create new normal key"
+msgstr "Crear tecla normal nueva"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_newKeyToolButton)
+#: src/ui/keyboardlayouteditor.ui:37
+msgid "Normal Key"
+msgstr "Tecla normal"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_newSpecialKeyToolButton)
+#: src/ui/keyboardlayouteditor.ui:55
+#, fuzzy
+#| msgid "Create new lecture"
+msgid "Create new special key"
+msgstr "Crear nueva lleición"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_newSpecialKeyToolButton)
+#: src/ui/keyboardlayouteditor.ui:58
+msgid "Special Key"
+msgstr "Tecla especial"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_deleteKeyToolButton)
+#: src/ui/keyboardlayouteditor.ui:79
+msgid "Delete selected key"
+msgstr "Desaniciar la tecla esbillada"
+
+#. i18n: ectx: property (text), widget (QLabel, m_zoomFactorLabel)
+#: src/ui/keyboardlayouteditor.ui:147
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_keyboardGroupBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:36
+msgid "Keyboard"
+msgstr "Tecláu"
+
+#. i18n: ectx: property (text), widget (QLabel, m_nameLabel)
+#. i18n: ectx: property (text), widget (QLabel, m_keyboardLayoutNameLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:79
+#: src/ui/newkeyboardlayoutwidget.ui:22
+msgid "Name:"
+msgstr "Nome:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_keyboardLayoutWidthLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/ui/keyboardlayoutpropertieswidget.ui:109
+#: src/ui/keyboardlayoutpropertieswidget.ui:276
+msgid "Width:"
+msgstr "Anchor:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_keyboardLayoutHeightLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: src/ui/keyboardlayoutpropertieswidget.ui:138
+#: src/ui/keyboardlayoutpropertieswidget.ui:305
+msgid "Height:"
+msgstr "Altor:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/ui/keyboardlayoutpropertieswidget.ui:185
+msgid "Geometry"
+msgstr "Xeometría"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/ui/keyboardlayoutpropertieswidget.ui:211
+msgid "Left:"
+msgstr "Esquierda:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/ui/keyboardlayoutpropertieswidget.ui:221
+msgid "Top:"
+msgstr "Superior:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/ui/keyboardlayoutpropertieswidget.ui:361
+#: src/ui/keyboardlayoutpropertieswidget.ui:550
+msgid "Key"
+msgstr "Tecla"
+
+#. i18n: ectx: property (text), widget (QLabel, m_keyFingerLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:379
+msgid "Finger:"
+msgstr "Deu:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:396
+msgid "Left little finger"
+msgstr "Deu pequeñu esquierdu"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:401
+msgid "Left ring finger"
+msgstr "Deu anular esquierdu"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:406
+msgid "Left middle finger"
+msgstr "Deu mediu esquierdu"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:411
+msgid "Left index finger"
+msgstr "Deu índiz esquierdu"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:416
+msgid "Right index finger"
+msgstr "Deu índiz derechu"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:421
+msgid "Right middle finger"
+msgstr "Deu mediu derechu"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:426
+msgid "Right ring finger"
+msgstr "Deu anular derechu"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:431
+msgid "Right little finger"
+msgstr "Deu pequeñu derechu"
+
+#. i18n: ectx: property (text), widget (QLabel, m_keyHapticMarkerLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:439
+msgid "Haptic Marker:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/ui/keyboardlayoutpropertieswidget.ui:465
+msgid "Characters"
+msgstr "Caráuteres"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_addCharacterButton)
+#: src/ui/keyboardlayoutpropertieswidget.ui:501
+msgid "Add new character"
+msgstr "Amestar caráuter nuevu"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_removeCharacterButton)
+#: src/ui/keyboardlayoutpropertieswidget.ui:513
+msgid "Remove character"
+msgstr "Desaniciar caráuter"
+
+#. i18n: ectx: property (text), widget (QLabel, m_specialKeyTypeLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:562
+msgid "Type:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:579
+msgid "Tab"
+msgstr "Tab"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:584
+msgid "Capslock"
+msgstr "Capslock"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:589
+msgid "Shift"
+msgstr "Shift"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:594
+msgid "Backspace"
+msgstr "Backspace"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_NextLineWithReturn)
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:599
+#: src/ui/trainingconfigwidget.ui:81
+msgid "Return"
+msgstr "Return"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_NextLineWithSpace)
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:604
+#: src/ui/trainingconfigwidget.ui:88
+msgid "Space"
+msgstr "Espaciu"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:609
+msgid "Other"
+msgstr "Otru"
+
+#. i18n: ectx: property (text), widget (QLabel, m_specialKeyLabelLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:617
+msgid "Label:"
+msgstr "Etiqueta:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_specialKeyModifierIdLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:630
+#, fuzzy
+#| msgid "Modifier key"
+msgid "Modifier ID:"
+msgstr "Tecles modificadores"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_pasteCurrentNameButton)
+#: src/ui/newkeyboardlayoutwidget.ui:37
+#, fuzzy
+#| msgid "untitled keyboard layout"
+msgid "Paste current system keyboard layout name"
+msgstr "distribución de tecláu sin título"
+
+#. i18n: ectx: property (text), widget (QLabel, trainingLabel)
+#: src/ui/trainingconfigwidget.ui:31
+msgid "During training:"
+msgstr "Mientres l'entrenamientu:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowKeyboard)
+#: src/ui/trainingconfigwidget.ui:44
+msgid "Show keyboard"
+msgstr "Amosar tecláu"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStatistics)
+#: src/ui/trainingconfigwidget.ui:51
+#, fuzzy
+#| msgid "General Statistics"
+msgid "Show real-time statistics"
+msgstr "Estadístiques xenerales"
+
+#. i18n: ectx: property (text), widget (QLabel, nextLineLabel)
+#: src/ui/trainingconfigwidget.ui:74
+msgid "Go to next line with:"
+msgstr "Dir a la siguiente llinia con:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/ui/trainingconfigwidget.ui:119
+msgid "Lesson unlocking limits"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, requiredStrokesPerMinuteLabel)
+#: src/ui/trainingconfigwidget.ui:128
+#, fuzzy
+#| msgid "Words per minute:"
+msgid "Minimum strokes per minute:"
+msgstr "Pallabres per minutu:"
+
+#. i18n: ectx: property (text), widget (QLabel, requiredAccuracyLabel)
+#: src/ui/trainingconfigwidget.ui:163
+#, fuzzy
+#| msgid "Accuracy:"
+msgid "Minimum accuracy:"
+msgstr "Exautitú"
+
+#. i18n: ectx: property (suffix), widget (KDoubleNumInput, kcfg_RequiredAccuracy)
+#: src/ui/trainingconfigwidget.ui:191
+#, no-c-format
+msgid "%"
+msgstr "%"
+
 #: src/undocommands/coursecommands.cpp:32
 msgid "Set title"
 msgstr "Afitar títulu"
@@ -645,10 +1044,6 @@ msgstr "Editar descripción"
 #: src/undocommands/coursecommands.cpp:137
 msgid "Add lesson"
 msgstr "Amestar lleición"
-
-#: src/undocommands/coursecommands.cpp:178
-msgid "Remove lesson"
-msgstr "Desaniciar lleición"
 
 #: src/undocommands/coursecommands.cpp:229
 msgid "Move lesson"
@@ -749,189 +1144,3 @@ msgstr "Crear nueva lleición"
 #: src/undocommands/keyboardlayoutcommands.cpp:724
 msgid "Set special key modifier ID"
 msgstr ""
-
-#~ msgid "Fingers"
-#~ msgstr "Deos"
-
-#~ msgid "Left Hand"
-#~ msgstr "Mano esquierda"
-
-#~ msgid "Index finger:"
-#~ msgstr "Deu índiz:"
-
-#~ msgid "Middle finger"
-#~ msgstr "Deu del mediu"
-
-#~ msgid "Ring finger:"
-#~ msgstr "Deu anular:"
-
-#~ msgid "Little finger:"
-#~ msgstr "Deu pequeñu:"
-
-#~ msgid "Right Hand"
-#~ msgstr "Mano derecha"
-
-#~ msgid "Title:"
-#~ msgstr "Títulu:"
-
-#, fuzzy
-#~| msgid "&Keyboard Layouts"
-#~ msgid "Keyboard layout:"
-#~ msgstr "&Distribuciones de tecláu"
-
-#~ msgid "Description:"
-#~ msgstr "Descripción"
-
-#~ msgid "Lessons:"
-#~ msgstr "Lleiciones:"
-
-#~ msgid "Add new lesson"
-#~ msgstr "Amestar lleición nueva"
-
-#~ msgid "Move lesson up"
-#~ msgstr "Mover lleición arriba"
-
-#~ msgid "Move lesson down"
-#~ msgstr "Mover lleición abaxo"
-
-#~ msgid "New characters:"
-#~ msgstr "Caráuteres nuevos:"
-
-#~ msgid "0 Characters"
-#~ msgstr "0 caráuteres"
-
-#~ msgid "Create new normal key"
-#~ msgstr "Crear tecla normal nueva"
-
-#~ msgid "Normal Key"
-#~ msgstr "Tecla normal"
-
-#, fuzzy
-#~| msgid "Create new lecture"
-#~ msgid "Create new special key"
-#~ msgstr "Crear nueva lleición"
-
-#~ msgid "Special Key"
-#~ msgstr "Tecla especial"
-
-#~ msgid "Delete selected key"
-#~ msgstr "Desaniciar la tecla esbillada"
-
-#~ msgid "100%"
-#~ msgstr "100%"
-
-#~ msgid "Keyboard"
-#~ msgstr "Tecláu"
-
-#~ msgid "Name:"
-#~ msgstr "Nome:"
-
-#~ msgid "Width:"
-#~ msgstr "Anchor:"
-
-#~ msgid "Height:"
-#~ msgstr "Altor:"
-
-#~ msgid "Geometry"
-#~ msgstr "Xeometría"
-
-#~ msgid "Left:"
-#~ msgstr "Esquierda:"
-
-#~ msgid "Top:"
-#~ msgstr "Superior:"
-
-#~ msgid "Key"
-#~ msgstr "Tecla"
-
-#~ msgid "Finger:"
-#~ msgstr "Deu:"
-
-#~ msgid "Left little finger"
-#~ msgstr "Deu pequeñu esquierdu"
-
-#~ msgid "Left ring finger"
-#~ msgstr "Deu anular esquierdu"
-
-#~ msgid "Left middle finger"
-#~ msgstr "Deu mediu esquierdu"
-
-#~ msgid "Left index finger"
-#~ msgstr "Deu índiz esquierdu"
-
-#~ msgid "Right index finger"
-#~ msgstr "Deu índiz derechu"
-
-#~ msgid "Right middle finger"
-#~ msgstr "Deu mediu derechu"
-
-#~ msgid "Right ring finger"
-#~ msgstr "Deu anular derechu"
-
-#~ msgid "Right little finger"
-#~ msgstr "Deu pequeñu derechu"
-
-#~ msgid "Characters"
-#~ msgstr "Caráuteres"
-
-#~ msgid "Add new character"
-#~ msgstr "Amestar caráuter nuevu"
-
-#~ msgid "Remove character"
-#~ msgstr "Desaniciar caráuter"
-
-#~ msgid "Tab"
-#~ msgstr "Tab"
-
-#~ msgid "Capslock"
-#~ msgstr "Capslock"
-
-#~ msgid "Shift"
-#~ msgstr "Shift"
-
-#~ msgid "Backspace"
-#~ msgstr "Backspace"
-
-#~ msgid "Return"
-#~ msgstr "Return"
-
-#~ msgid "Space"
-#~ msgstr "Espaciu"
-
-#~ msgid "Other"
-#~ msgstr "Otru"
-
-#~ msgid "Label:"
-#~ msgstr "Etiqueta:"
-
-#, fuzzy
-#~| msgid "Modifier key"
-#~ msgid "Modifier ID:"
-#~ msgstr "Tecles modificadores"
-
-#, fuzzy
-#~| msgid "untitled keyboard layout"
-#~ msgid "Paste current system keyboard layout name"
-#~ msgstr "distribución de tecláu sin título"
-
-#~ msgid "During training:"
-#~ msgstr "Mientres l'entrenamientu:"
-
-#~ msgid "Show keyboard"
-#~ msgstr "Amosar tecláu"
-
-#, fuzzy
-#~| msgid "General Statistics"
-#~ msgid "Show real-time statistics"
-#~ msgstr "Estadístiques xenerales"
-
-#~ msgid "Go to next line with:"
-#~ msgstr "Dir a la siguiente llinia con:"
-
-#, fuzzy
-#~| msgid "Words per minute:"
-#~ msgid "Minimum strokes per minute:"
-#~ msgstr "Pallabres per minutu:"
-
-#~ msgid "%"
-#~ msgstr "%"
