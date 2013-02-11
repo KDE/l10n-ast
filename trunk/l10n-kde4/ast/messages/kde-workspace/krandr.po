@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 05:29+0200\n"
+"POT-Creation-Date: 2013-02-11 03:51+0100\n"
 "PO-Revision-Date: 2010-10-19 22:29+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -149,93 +149,6 @@ msgid_plural "%1 seconds remaining:"
 msgstr[0] "Queda 1 segundu:"
 msgstr[1] "Queden %1 segundos:"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, LegacyRandRConfigBase)
-#: legacyrandrconfigbase.ui:14
-msgid "Screen Resize and Rotate Settings"
-msgstr "Preferencies del redimensionamientu y rotación de la pantalla"
-
-#. i18n: ectx: property (whatsThis), widget (QWidget, LegacyRandRConfigBase)
-#: legacyrandrconfigbase.ui:17
-msgid ""
-"If this option is enabled, options set by the system tray applet will be "
-"saved and loaded when KDE starts instead of being temporary."
-msgstr ""
-"Si esta opción ta habilitada, les opciones afitaes pola miniaplicación de la "
-"bandexa del sistema atroxaránse y cargaránse nel aniciu de KDE."
-
-#. i18n: ectx: property (text), widget (QLabel, screenLabel)
-#: legacyrandrconfigbase.ui:25
-msgid "Settings for screen:"
-msgstr "Preferencies de la pantalla:"
-
-#. i18n: ectx: property (whatsThis), widget (KComboBox, screenCombo)
-#: legacyrandrconfigbase.ui:38
-msgid ""
-"The screen whose settings you would like to change can be selected using "
-"this drop-down list."
-msgstr ""
-"Puede esbillase la pantalla cuyes preferencies deseya camudar usando esta "
-"llista estenderexable."
-
-#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
-#: legacyrandrconfigbase.ui:49
-msgid "Screen size:"
-msgstr "Tamañu de la pantalla:"
-
-#. i18n: ectx: property (whatsThis), widget (KComboBox, sizeCombo)
-#: legacyrandrconfigbase.ui:62
-msgid ""
-"The size, otherwise known as the resolution, of your screen can be selected "
-"from this drop-down list."
-msgstr ""
-"El tamañu, conocíu tamién como resolución, de la so pantalla puede esbillase "
-"d'esta llista estenderexable."
-
-#. i18n: ectx: property (text), widget (QLabel, rateLabel)
-#: legacyrandrconfigbase.ui:73
-msgid "Refresh rate:"
-msgstr "Tasa de refrescu:"
-
-#. i18n: ectx: property (whatsThis), widget (KComboBox, rateCombo)
-#: legacyrandrconfigbase.ui:83
-msgid ""
-"The refresh rate of your screen can be selected from this drop-down list."
-msgstr ""
-"La tasa de refrescu de la so pantalla puede esbillase dende esta llista "
-"estenderexable."
-
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, rotationGroup)
-#: legacyrandrconfigbase.ui:98
-msgid ""
-"The options in this section allow you to change the rotation of your screen."
-msgstr ""
-"Les opciones nesta seición permiten que vusté camude la rotación de la so "
-"pantalla."
-
-#. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
-#: legacyrandrconfigbase.ui:101
-msgid "Orientation (degrees counterclockwise)"
-msgstr "Orientación (graos en sen horariu)"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, applyOnStartup)
-#: legacyrandrconfigbase.ui:108
-msgid ""
-"If this option is enabled the size and orientation settings will be used "
-"when KDE starts."
-msgstr ""
-"Si esta opción ta habilitada, usaránse les preferencies de tamañu y "
-"orientación al aniciase KDE."
-
-#. i18n: ectx: property (text), widget (QCheckBox, applyOnStartup)
-#: legacyrandrconfigbase.ui:111
-msgid "Apply settings on KDE startup"
-msgstr "Aplicar preferencies nel aniciu de KDE"
-
-#. i18n: ectx: property (text), widget (QCheckBox, syncTrayApp)
-#: legacyrandrconfigbase.ui:118
-msgid "Allow tray application to change startup settings"
-msgstr "Permitir a l'aplicación de la bandexa cambiar preferencies d'aniciu"
-
 #: legacyrandrscreen.cpp:140
 #, kde-format
 msgid ""
@@ -361,32 +274,6 @@ msgctxt "Automatic refresh rate configuration"
 msgid "Auto"
 msgstr "Auto"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, OutputConfigBase)
-#: outputconfigbase.ui:26
-msgid "Output Config"
-msgstr "Configuración de la salida"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: outputconfigbase.ui:32
-msgid "Size:"
-msgstr "Tamañu:"
-
-#. i18n: ectx: property (text), widget (QLabel, rateLabel)
-#: outputconfigbase.ui:48
-msgid "Refresh:"
-msgstr "Refrescar:"
-
-#. i18n: ectx: property (text), widget (QLabel, orientationLabel)
-#: outputconfigbase.ui:64
-msgid "Orientation:"
-msgstr "Orientación:"
-
-#. i18n: ectx: property (text), widget (QLabel, positionLabel)
-#: outputconfigbase.ui:80
-msgctxt "Position of the screen"
-msgid "Position:"
-msgstr "Posición:"
-
 #: outputgraphicsitem.cpp:72
 #, kde-format
 msgctxt "Configuration options. Output name, width x height (refresh rate Hz)"
@@ -489,8 +376,7 @@ msgstr ""
 "si quier caltener esta configuración. En 15 segundos la pantalla revertiráse "
 "a les anteriores preferencies."
 
-#. i18n: ectx: property (text), widget (QPushButton, saveAsDefaultButton)
-#: randrconfig.cpp:61 randrconfigbase.ui:81
+#: randrconfig.cpp:61
 msgid "Save as Default"
 msgstr ""
 
@@ -534,32 +420,99 @@ msgstr ""
 msgid "Changing configuration failed. Please adjust your xorg.conf manually."
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, RandRConfigBase)
-#: randrconfigbase.ui:14
-msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
-msgstr "Amosar configuración (escaláu X11, Rotación y reflexu)"
-
-#. i18n: ectx: property (text), widget (QCheckBox, unifyOutputs)
-#: randrconfigbase.ui:27
-#, fuzzy
-#| msgid "Unify Outputs"
-msgid "Unify outputs"
-msgstr "Unificar les salides"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: randrconfigbase.ui:52
-msgid "Primary output:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, identifyOutputsButton)
-#: randrconfigbase.ui:74
-msgid "Identify Outputs"
-msgstr "Identificar salides"
-
 #: randrdisplay.cpp:49
 #, kde-format
 msgid "X Resize and Rotate extension version %1.%2"
 msgstr "Estensión X Resize And Rotate versión %1.%2"
+
+#~ msgid "Screen Resize and Rotate Settings"
+#~ msgstr "Preferencies del redimensionamientu y rotación de la pantalla"
+
+#~ msgid ""
+#~ "If this option is enabled, options set by the system tray applet will be "
+#~ "saved and loaded when KDE starts instead of being temporary."
+#~ msgstr ""
+#~ "Si esta opción ta habilitada, les opciones afitaes pola miniaplicación de "
+#~ "la bandexa del sistema atroxaránse y cargaránse nel aniciu de KDE."
+
+#~ msgid "Settings for screen:"
+#~ msgstr "Preferencies de la pantalla:"
+
+#~ msgid ""
+#~ "The screen whose settings you would like to change can be selected using "
+#~ "this drop-down list."
+#~ msgstr ""
+#~ "Puede esbillase la pantalla cuyes preferencies deseya camudar usando esta "
+#~ "llista estenderexable."
+
+#~ msgid "Screen size:"
+#~ msgstr "Tamañu de la pantalla:"
+
+#~ msgid ""
+#~ "The size, otherwise known as the resolution, of your screen can be "
+#~ "selected from this drop-down list."
+#~ msgstr ""
+#~ "El tamañu, conocíu tamién como resolución, de la so pantalla puede "
+#~ "esbillase d'esta llista estenderexable."
+
+#~ msgid "Refresh rate:"
+#~ msgstr "Tasa de refrescu:"
+
+#~ msgid ""
+#~ "The refresh rate of your screen can be selected from this drop-down list."
+#~ msgstr ""
+#~ "La tasa de refrescu de la so pantalla puede esbillase dende esta llista "
+#~ "estenderexable."
+
+#~ msgid ""
+#~ "The options in this section allow you to change the rotation of your "
+#~ "screen."
+#~ msgstr ""
+#~ "Les opciones nesta seición permiten que vusté camude la rotación de la so "
+#~ "pantalla."
+
+#~ msgid "Orientation (degrees counterclockwise)"
+#~ msgstr "Orientación (graos en sen horariu)"
+
+#~ msgid ""
+#~ "If this option is enabled the size and orientation settings will be used "
+#~ "when KDE starts."
+#~ msgstr ""
+#~ "Si esta opción ta habilitada, usaránse les preferencies de tamañu y "
+#~ "orientación al aniciase KDE."
+
+#~ msgid "Apply settings on KDE startup"
+#~ msgstr "Aplicar preferencies nel aniciu de KDE"
+
+#~ msgid "Allow tray application to change startup settings"
+#~ msgstr "Permitir a l'aplicación de la bandexa cambiar preferencies d'aniciu"
+
+#~ msgid "Output Config"
+#~ msgstr "Configuración de la salida"
+
+#~ msgid "Size:"
+#~ msgstr "Tamañu:"
+
+#~ msgid "Refresh:"
+#~ msgstr "Refrescar:"
+
+#~ msgid "Orientation:"
+#~ msgstr "Orientación:"
+
+#~ msgctxt "Position of the screen"
+#~ msgid "Position:"
+#~ msgstr "Posición:"
+
+#~ msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
+#~ msgstr "Amosar configuración (escaláu X11, Rotación y reflexu)"
+
+#, fuzzy
+#~| msgid "Unify Outputs"
+#~ msgid "Unify outputs"
+#~ msgstr "Unificar les salides"
+
+#~ msgid "Identify Outputs"
+#~ msgstr "Identificar salides"
 
 #~ msgid "Screen Settings"
 #~ msgstr "Axustes de la pantalla"
