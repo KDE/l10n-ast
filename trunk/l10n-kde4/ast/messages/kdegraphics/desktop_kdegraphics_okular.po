@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdegraphics\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-09 03:10+0000\n"
+"POT-Creation-Date: 2013-02-22 12:25+0000\n"
 "PO-Revision-Date: 2009-12-21 22:20+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -33,6 +33,7 @@ msgstr ""
 #: generators/poppler/active-documentviewer_pdf.desktop:3
 #: generators/spectre/active-documentviewer_ghostview.desktop:3
 #: generators/tiff/active-documentviewer_tiff.desktop:3
+#: generators/txt/active-documentviewer_txt.desktop:3
 #: generators/xps/active-documentviewer_xps.desktop:3
 msgctxt "Name"
 msgid "Reader"
@@ -52,6 +53,7 @@ msgstr ""
 #: generators/poppler/active-documentviewer_pdf.desktop:41
 #: generators/spectre/active-documentviewer_ghostview.desktop:41
 #: generators/tiff/active-documentviewer_tiff.desktop:41
+#: generators/txt/active-documentviewer_txt.desktop:4
 #: generators/xps/active-documentviewer_xps.desktop:41
 #, fuzzy
 #| msgctxt "GenericName"
@@ -74,6 +76,7 @@ msgstr "Visor de documentos"
 #: generators/poppler/active-documentviewer_pdf.desktop:80
 #: generators/spectre/active-documentviewer_ghostview.desktop:80
 #: generators/tiff/active-documentviewer_tiff.desktop:80
+#: generators/txt/active-documentviewer_txt.desktop:5
 #: generators/xps/active-documentviewer_xps.desktop:80
 msgctxt "Comment"
 msgid "Viewer for various types of documents"
@@ -92,7 +95,7 @@ msgctxt "Comment"
 msgid "File format backend for Okular"
 msgstr "Motor de formatos de ficheros pa Okular"
 
-#: generators/chm/active-documentviewer_chm.desktop:127
+#: generators/chm/active-documentviewer_chm.desktop:128
 #: generators/chm/okularApplication_chm.desktop:133
 #, fuzzy
 #| msgctxt "Name"
@@ -142,6 +145,8 @@ msgstr "Motor de ficheros d'ayuda en HTML de Windows pa Okular"
 #: generators/spectre/okularGhostview.desktop:3
 #: generators/tiff/okularApplication_tiff.desktop:4
 #: generators/tiff/okularTiff.desktop:3
+#: generators/txt/okularApplication_txt.desktop:4
+#: generators/txt/okularTxt.desktop:3
 #: generators/xps/okularApplication_xps.desktop:4
 #: generators/xps/okularXps.desktop:3 okular_part.desktop:3
 #: shell/okular.desktop:3
@@ -162,12 +167,13 @@ msgstr "Okular"
 #: generators/poppler/okularApplication_pdf.desktop:64
 #: generators/spectre/okularApplication_ghostview.desktop:64
 #: generators/tiff/okularApplication_tiff.desktop:64
+#: generators/txt/okularApplication_txt.desktop:5
 #: generators/xps/okularApplication_xps.desktop:64 shell/okular.desktop:63
 msgctxt "GenericName"
 msgid "Document Viewer"
 msgstr "Visor de documentos"
 
-#: generators/comicbook/active-documentviewer_comicbook.desktop:127
+#: generators/comicbook/active-documentviewer_comicbook.desktop:128
 #: generators/comicbook/okularApplication_comicbook.desktop:133
 msgctxt "X-KDE-Keywords"
 msgid "cbr, cbz, cbt, Comic Book"
@@ -183,7 +189,7 @@ msgctxt "Comment"
 msgid "Comic book backend for Okular"
 msgstr "Motor de llibros de Comic pa Okular"
 
-#: generators/djvu/active-documentviewer_djvu.desktop:127
+#: generators/djvu/active-documentviewer_djvu.desktop:128
 #: generators/djvu/okularApplication_djvu.desktop:133
 #, fuzzy
 #| msgctxt "Name"
@@ -202,7 +208,7 @@ msgctxt "Comment"
 msgid "DjVu backend for Okular"
 msgstr "Motor DjVu pa Okular"
 
-#: generators/dvi/active-documentviewer_dvi.desktop:127
+#: generators/dvi/active-documentviewer_dvi.desktop:128
 #: generators/dvi/okularApplication_dvi.desktop:133
 #, fuzzy
 #| msgctxt "Name"
@@ -221,7 +227,7 @@ msgctxt "Comment"
 msgid "DVI backend for Okular"
 msgstr "Motor DVI pa Okular"
 
-#: generators/epub/active-documentviewer_epub.desktop:127
+#: generators/epub/active-documentviewer_epub.desktop:128
 #: generators/epub/okularApplication_epub.desktop:133
 msgctxt "X-KDE-Keywords"
 msgid "epub, e-book"
@@ -247,7 +253,7 @@ msgctxt "Comment"
 msgid "G3/G4 Fax backend for Okular"
 msgstr "Motor de fax G3/G4 pa Okular"
 
-#: generators/fictionbook/active-documentviewer_fb.desktop:127
+#: generators/fictionbook/active-documentviewer_fb.desktop:128
 #: generators/fictionbook/okularApplication_fb.desktop:133
 msgctxt "X-KDE-Keywords"
 msgid "FictionBook, e-book, fb2"
@@ -283,7 +289,7 @@ msgctxt "Comment"
 msgid "OpenDocument backend for Okular"
 msgstr "Motor OpenDocument pa Okular"
 
-#: generators/plucker/active-documentviewer_plucker.desktop:127
+#: generators/plucker/active-documentviewer_plucker.desktop:128
 #: generators/plucker/okularApplication_plucker.desktop:133
 msgctxt "X-KDE-Keywords"
 msgid "plucker"
@@ -299,7 +305,7 @@ msgctxt "Comment"
 msgid "Plucker backend for Okular"
 msgstr "Motor Plucker pa Okular"
 
-#: generators/poppler/active-documentviewer_pdf.desktop:127
+#: generators/poppler/active-documentviewer_pdf.desktop:128
 #: generators/poppler/okularApplication_pdf.desktop:132
 #, fuzzy
 #| msgctxt "Name"
@@ -338,7 +344,26 @@ msgctxt "Comment"
 msgid "TIFF backend for Okular"
 msgstr "Motor TIFF pa Okular"
 
-#: generators/xps/active-documentviewer_xps.desktop:127
+#: generators/txt/active-documentviewer_txt.desktop:15
+#: generators/txt/okularApplication_txt.desktop:12
+msgctxt "X-KDE-Keywords"
+msgid "txt"
+msgstr ""
+
+#: generators/txt/libokularGenerator_txt.desktop:3
+msgctxt "Name"
+msgid "txt"
+msgstr ""
+
+#: generators/txt/libokularGenerator_txt.desktop:4
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "TIFF backend for Okular"
+msgctxt "Comment"
+msgid "Txt backend for Okular"
+msgstr "Motor TIFF pa Okular"
+
+#: generators/xps/active-documentviewer_xps.desktop:128
 #: generators/xps/okularApplication_xps.desktop:132
 msgctxt "X-KDE-Keywords"
 msgid "XPS"
