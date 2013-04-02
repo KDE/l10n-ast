@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-01 03:55+0200\n"
+"POT-Creation-Date: 2013-04-02 05:03+0200\n"
 "PO-Revision-Date: 2010-10-25 19:46+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -26,77 +26,523 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
-#~ msgid ""
-#~ "An entry by the name '%1' already exists. Would you like to continue?"
-#~ msgstr "Yá esiste una entrada col nome '%1'. ¿Quier continuar?"
+#: allyourbase.cpp:217
+#, kde-format
+msgid "An entry by the name '%1' already exists. Would you like to continue?"
+msgstr "Yá esiste una entrada col nome '%1'. ¿Quier continuar?"
 
-#~ msgid ""
-#~ "A folder by the name '%1' already exists.  What would you like to do?"
-#~ msgstr "Yá esiste una carpeta col nome '%1'. ¿Qué quier facer?"
+#: allyourbase.cpp:240
+#, kde-format
+msgid "A folder by the name '%1' already exists.  What would you like to do?"
+msgstr "Yá esiste una carpeta col nome '%1'. ¿Qué quier facer?"
 
-#~ msgid "Replace"
-#~ msgstr "Trocar"
+#: allyourbase.cpp:240
+msgid "Replace"
+msgstr "Trocar"
 
-#~ msgid "Folders"
-#~ msgstr "Carpetes"
+#: allyourbase.cpp:346
+msgid "Folders"
+msgstr "Carpetes"
 
-#~ msgid "An unexpected error occurred trying to drop the item"
-#~ msgstr "Asocedió un fallu inesperáu al intentar soltar l'elementu"
+#: allyourbase.cpp:373
+msgid "An unexpected error occurred trying to drop the item"
+msgstr "Asocedió un fallu inesperáu al intentar soltar l'elementu"
 
-#~ msgid "An unexpected error occurred trying to drop the entry"
-#~ msgstr "Asocedió un fallu inesperáu al intentar soltar la entrada"
+#: allyourbase.cpp:455
+msgid "An unexpected error occurred trying to drop the entry"
+msgstr "Asocedió un fallu inesperáu al intentar soltar la entrada"
 
-#~ msgid ""
-#~ "An unexpected error occurred trying to delete the original folder, but "
-#~ "the folder has been copied successfully"
-#~ msgstr ""
-#~ "Asocedió un fallu inesperáu al intentar desaniciar la carpeta orixinal, "
-#~ "pero la carpeta copióse correcho"
+#: allyourbase.cpp:484
+msgid ""
+"An unexpected error occurred trying to delete the original folder, but the "
+"folder has been copied successfully"
+msgstr ""
+"Asocedió un fallu inesperáu al intentar desaniciar la carpeta orixinal, pero "
+"la carpeta copióse correcho"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: applicationsmanager.ui:17
+msgid "These applications are currently connected to this wallet:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: applicationsmanager.ui:64
+msgid "These applications are authorized to access this wallet:"
+msgstr ""
+
+#: disconnectappbutton.cpp:29
+#, fuzzy
+#| msgid "Disconnec&t"
+msgid "Disconnect"
+msgstr "Desconeu&tar"
+
+#. i18n: ectx: property (text), widget (QPushButton, _allowOnce)
+#: kbetterthankdialogbase.ui:43
+msgid "&Replace"
+msgstr "&Trocar"
+
+#. i18n: ectx: property (text), widget (QPushButton, _allowAlways)
+#: kbetterthankdialogbase.ui:53
+msgid "Replace &All"
+msgstr "Trocar &Too"
+
+#. i18n: ectx: property (text), widget (QPushButton, _deny)
+#: kbetterthankdialogbase.ui:60
+msgid "&Skip"
+msgstr "&Saltar"
+
+#. i18n: ectx: property (text), widget (QPushButton, _denyForever)
+#: kbetterthankdialogbase.ui:67
+msgid "Skip A&ll"
+msgstr "Sa&ltar too"
+
+#: kwalleteditor.cpp:106
+msgid "&Show values"
+msgstr "&Amosar valores"
+
+#: kwalleteditor.cpp:206
+msgid "&New Folder..."
+msgstr "&Nueva carpeta..."
+
+#: kwalleteditor.cpp:210
+msgid "&Delete Folder"
+msgstr "&Desaniciar la carpeta"
+
+#: kwalleteditor.cpp:213
+msgid "&Merge Wallet..."
+msgstr "&Mecer cartera..."
+
+#: kwalleteditor.cpp:216
+msgid "&Import XML..."
+msgstr "&Importar XML..."
+
+#: kwalleteditor.cpp:219
+msgid "&Export..."
+msgstr "&Esportar..."
+
+#: kwalleteditor.cpp:224
+msgid "&Copy"
+msgstr ""
+
+#: kwalleteditor.cpp:229
+msgid "&New..."
+msgstr "&Nueva..."
+
+#: kwalleteditor.cpp:234
+msgid "&Rename"
+msgstr "&Renomar"
+
+#: kwalleteditor.cpp:239 kwalletpopup.cpp:77
+msgid "&Delete"
+msgstr "D&esaniciar"
+
+#: kwalleteditor.cpp:244
+#, fuzzy
+#| msgid "Show &Contents"
+msgid "Always show contents"
+msgstr "Amosar &conteníu"
+
+#: kwalleteditor.cpp:248
+#, fuzzy
+#| msgid "Hide &Contents"
+msgid "Always hide contents"
+msgstr "Anubrir &conteníu"
+
+#: kwalleteditor.cpp:362
+msgid "Passwords"
+msgstr "Contraseñes"
+
+#: kwalleteditor.cpp:363
+msgid "Maps"
+msgstr "Mapes"
+
+#: kwalleteditor.cpp:364
+msgid "Binary Data"
+msgstr "Datos binarios"
+
+#: kwalleteditor.cpp:365
+msgid "Unknown"
+msgstr "Desconocíu"
+
+#: kwalleteditor.cpp:404
+#, kde-format
+msgid "Are you sure you wish to delete the folder '%1' from the wallet?"
+msgstr "¿Daveres que quies desaniciar la carpeta '%1' de la cartera?"
+
+#: kwalleteditor.cpp:408
+msgid "Error deleting folder."
+msgstr "Fallu desaniciando carpeta."
+
+#: kwalleteditor.cpp:427
+msgid "New Folder"
+msgstr "Nueva carpeta"
+
+#: kwalleteditor.cpp:428
+msgid "Please choose a name for the new folder:"
+msgstr "Por favor, escueyi un nome pa la nueva carpeta:"
+
+#: kwalleteditor.cpp:438 kwalleteditor.cpp:787 kwalletmanager.cpp:290
+msgid "Do Not Try"
+msgstr "Nun intentar"
+
+#: kwalleteditor.cpp:438
+msgid "Sorry, that folder name is in use. Try again?"
+msgstr "Yá se ta usando esi nome de carpeta. ¿Intentar con otru?"
+
+#: kwalleteditor.cpp:438 kwalleteditor.cpp:787
+msgid "Try Again"
+msgstr "Intentar otra vegada"
+
+#: kwalleteditor.cpp:476
+#, kde-format
+msgid "Error saving entry. Error code: %1"
+msgstr "Fallu atroxando la entrada. Códigu d'error: %1"
+
+#: kwalleteditor.cpp:495
+msgid ""
+"The contents of the current item has changed.\n"
+"Do you want to save changes?"
+msgstr ""
+
+#: kwalleteditor.cpp:545 kwalleteditor.cpp:869
+#, kde-format
+msgid "Password: %1"
+msgstr "Contraseña: %1"
+
+#: kwalleteditor.cpp:563 kwalleteditor.cpp:871
+#, kde-format
+msgid "Name-Value Map: %1"
+msgstr "Mapa nome-valor: %1"
+
+#: kwalleteditor.cpp:571 kwalleteditor.cpp:873
+#, kde-format
+msgid "Binary Data: %1"
+msgstr "Datos binarios: %1"
+
+#: kwalleteditor.cpp:775
+msgid "New Entry"
+msgstr "Nueva entrada"
+
+#: kwalleteditor.cpp:776
+msgid "Please choose a name for the new entry:"
+msgstr "Por favor, escueyi un nome pa la nueva entrada:"
+
+#: kwalleteditor.cpp:787
+msgid "Sorry, that entry already exists. Try again?"
+msgstr "Yá esiste esa entrada. ¿Intentar otra vegada?"
+
+#: kwalleteditor.cpp:804 kwalleteditor.cpp:813
+msgid "An unexpected error occurred trying to add the new entry"
+msgstr "Asocedió un fallu inesperáu al intentar amestar la nueva entrada"
+
+#: kwalleteditor.cpp:865
+msgid "An unexpected error occurred trying to rename the entry"
+msgstr "Asocedió un fallu inesperáu al intentar renomar la entrada"
+
+#: kwalleteditor.cpp:885
+#, kde-format
+msgid "Are you sure you wish to delete the item '%1'?"
+msgstr "¿Daveres que quier desaniciar l'elementu '%1'?"
+
+#: kwalleteditor.cpp:889
+msgid "An unexpected error occurred trying to delete the entry"
+msgstr "Asocedió un fallu inesperáu al intentar desaniciar la entrada"
+
+#: kwalleteditor.cpp:915
+msgid "Unable to open the requested wallet."
+msgstr "Nun puede abrise la cartera solicitada."
+
+#: kwalleteditor.cpp:950
+#, kde-format
+msgid "Unable to access wallet '<b>%1</b>'."
+msgstr "Nun puede accedese a la cartera '<b>%1</b>'."
+
+#: kwalleteditor.cpp:980 kwalleteditor.cpp:1011 kwalleteditor.cpp:1046
+#: kwalleteditor.cpp:1137
+#, kde-format
+msgid ""
+"Folder '<b>%1</b>' already contains an entry '<b>%2</b>'.  Do you wish to "
+"replace it?"
+msgstr ""
+"La carpeta '<b>%1</b>' yá contién una entrada '<b>%2</b>'. ¿Quies trocala?"
+
+#: kwalleteditor.cpp:1085
+#, kde-format
+msgid "Unable to access XML file '<b>%1</b>'."
+msgstr "Nun puede accedese al ficheru XML '<b>%1</b>'."
+
+#: kwalleteditor.cpp:1091
+#, kde-format
+msgid "Error opening XML file '<b>%1</b>' for input."
+msgstr "Fallu al abrir el ficheru XML '<b>%1</b>' pa importar."
+
+#: kwalleteditor.cpp:1098
+#, kde-format
+msgid "Error reading XML file '<b>%1</b>' for input."
+msgstr "Fallu lleendo'l ficheru XML '<b>%1</b>' pa importar."
+
+#: kwalleteditor.cpp:1105
+msgid "Error: XML file does not contain a wallet."
+msgstr "Fallu: el ficheru XML nun contién una cartera."
+
+#: kwalletmanager.cpp:71 kwalletmanager.cpp:78 kwalletmanager.cpp:187
+#: kwalletmanager.cpp:238
+msgid "KDE Wallet"
+msgstr "Cartera de KDE"
+
+#: kwalletmanager.cpp:71 kwalletmanager.cpp:238
+msgid "No wallets open."
+msgstr "Nun hai carteres abiertes."
+
+#: kwalletmanager.cpp:78 kwalletmanager.cpp:187
+msgid "A wallet is open."
+msgstr "Una cartera ta abierta."
+
+#: kwalletmanager.cpp:121 kwalletpopup.cpp:39
+msgid "&New Wallet..."
+msgstr "&Nueva cartera..."
+
+#: kwalletmanager.cpp:125
+#, fuzzy
+#| msgid "Delete Wallet"
+msgid "&Delete wallet..."
+msgstr "Desaniciar cartera"
+
+#: kwalletmanager.cpp:129
+msgid "Configure &Wallet..."
+msgstr "Con&figurar cartera..."
+
+#: kwalletmanager.cpp:137
+msgid "Close &All Wallets"
+msgstr "Zarrar &toles carteres"
+
+#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+msgid ""
+"Unable to close wallet cleanly. It is probably in use by other applications. "
+"Do you wish to force it closed?"
+msgstr ""
+"Ye imposible zarrar la cartera llimpiamente. Ye dable que tea usándose "
+"n'otres. ¿Forciar el zarru?"
+
+#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+msgid "Force Closure"
+msgstr "Forciar zarru"
+
+#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+msgid "Do Not Force"
+msgstr "Nun forciar"
+
+#: kwalletmanager.cpp:215 walletcontrolwidget.cpp:106
+#, kde-format
+msgid "Unable to force the wallet closed. Error code was %1."
+msgstr "Ye imposible forciar el zarru de la cartera. Códigu d'error: %1."
+
+#: kwalletmanager.cpp:231
+#, kde-format
+msgid "Error opening wallet %1."
+msgstr "Fallu abriendo la cartera %1."
+
+#: kwalletmanager.cpp:273
+msgid "Please choose a name for the new wallet:"
+msgstr "Por favor, escueya un nome pa la nueva cartera:"
+
+#: kwalletmanager.cpp:282
+msgid "New Wallet"
+msgstr "Nueva cartera"
+
+#: kwalletmanager.cpp:290
+msgid "Sorry, that wallet already exists. Try a new name?"
+msgstr "Yá esiste esa cartera. ¿Quies probar con un nome nuevu?"
+
+#: kwalletmanager.cpp:290
+msgid "Try New"
+msgstr "Probar otru"
+
+#: kwalletmanager.cpp:312
+#, kde-format
+msgid "Are you sure you wish to delete the wallet '%1'?"
+msgstr "¿Daveres que quies desaniciar la cartera '%1'?"
+
+#: kwalletmanager.cpp:318
+#, kde-format
+msgid "Unable to delete the wallet. Error code was %1."
+msgstr "Ye imposible desaniciar la cartera. Códigu d'error: %1."
+
+#. i18n: ectx: Menu (file)
+#: kwalletmanager.rc:4
+msgid "&File"
+msgstr "&Ficheru"
+
+#. i18n: ectx: Menu (settings)
+#: kwalletmanager.rc:17
+msgid "&Settings"
+msgstr "Axu&stes"
+
+#. i18n: ectx: Menu (help)
+#: kwalletmanager.rc:20
+msgid "&Help"
+msgstr "Ayu&da"
+
+#: kwalletpopup.cpp:44 walletcontrolwidget.cpp:78
+msgid "&Open..."
+msgstr "&Abrir..."
+
+#: kwalletpopup.cpp:50
+msgid "Change &Password..."
+msgstr "&Cambiar contraseña..."
+
+#: kwalletpopup.cpp:65
+msgid "Disconnec&t"
+msgstr "Desconeu&tar"
+
+#: kwmapeditor.cpp:145
+msgid "Key"
+msgstr "Contraseña"
+
+#: kwmapeditor.cpp:145
+msgid "Value"
+msgstr "Valor"
+
+#: kwmapeditor.cpp:227
+msgid "&New Entry"
+msgstr "&Nueva entrada"
+
+#: main.cpp:44 main.cpp:70
+msgid "KDE Wallet Manager"
+msgstr "Xestor de carteres de KDE"
+
+#: main.cpp:45
+msgid "KDE Wallet Management Tool"
+msgstr "Ferramienta de xestión de carteres de KDE"
+
+#: main.cpp:47
+msgid "(c) 2003,2004 George Staikos"
+msgstr "(c) 2003,2004 George Staikos"
+
+#: main.cpp:50
+msgid "Michael Leupold"
+msgstr "Michael Leupold"
+
+#: main.cpp:50
+msgid "Maintainer"
+msgstr "Caltenimientu"
+
+#: main.cpp:51
+msgid "George Staikos"
+msgstr "George Staikos"
+
+#: main.cpp:51
+msgid "Original author and former maintainer"
+msgstr "Autor orixinal y anterior encargáu"
+
+#: main.cpp:52
+msgid "Isaac Clerencia"
+msgstr "Isaac Clerencia"
+
+#: main.cpp:52
+msgid "Developer"
+msgstr "Desendolcador"
+
+#: main.cpp:53
+msgid "Valentin Rusu"
+msgstr ""
+
+#: main.cpp:53
+msgid "Developer - user interface refactoring"
+msgstr ""
+
+#: main.cpp:58
+msgid "Show window on startup"
+msgstr "Amosar la ventana durante l'aniciu"
+
+#: main.cpp:59
+msgid "For use by kwalletd only"
+msgstr "Pa usar únicamente con kwalletd"
+
+#: main.cpp:60
+msgid "A wallet name"
+msgstr "Un nome de cartera"
+
+#: revokeauthbutton.cpp:29
+msgid "Revoke Authorization"
+msgstr ""
+
+#: walletcontrolwidget.cpp:57
+msgid "&Close"
+msgstr ""
+
+#: walletcontrolwidget.cpp:74
+#, fuzzy, kde-format
+#| msgid "A wallet is open."
+msgid "The '%1' wallet is currently open"
+msgstr "Una cartera ta abierta."
+
+#: walletcontrolwidget.cpp:90
+msgid "The wallet is currently closed"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KSqueezedTextLabel, _stateLabel)
+#: walletcontrolwidget.ui:25
+msgid "KSqueezedTextLabel"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, _openClose)
+#: walletcontrolwidget.ui:38
+#, fuzzy
+#| msgid "&Open..."
+msgid "Open..."
+msgstr "&Abrir..."
+
+#. i18n: ectx: property (text), widget (QToolButton, _changePassword)
+#: walletcontrolwidget.ui:66
+#, fuzzy
+#| msgid "Change &Password..."
+msgid "Change password..."
+msgstr "&Cambiar contraseña..."
+
+#. i18n: ectx: attribute (title), widget (QWidget, _contentsTab)
+#: walletcontrolwidget.ui:113
+#, fuzzy
+#| msgid "Hide &Contents"
+msgid "Contents"
+msgstr "Anubrir &conteníu"
+
+#. i18n: ectx: attribute (title), widget (QWidget, _appsTab)
+#: walletcontrolwidget.ui:145
+msgid "Applications"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, _hideContents)
+#: walletwidget.ui:139
+msgid "Hide &Contents"
+msgstr "Anubrir &conteníu"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: walletwidget.ui:212
+msgid ""
+"This is a binary data entry.  It cannot be editted as its format is unknown "
+"and application specific."
+msgstr ""
+"Esta ye una entrada de datos binarios. Nun puede editase darréu de que'l so "
+"formatu desconózse y ye específicu de dalguna aplicación."
+
+#. i18n: ectx: property (text), widget (QToolButton, _showContents)
+#: walletwidget.ui:259
+msgid "Show &Contents"
+msgstr "Amosar &conteníu"
+
+#. i18n: ectx: property (text), widget (KPushButton, _undoChanges)
+#: walletwidget.ui:322
+msgid "&Undo"
+msgstr "&Desfacer"
+
+#. i18n: ectx: property (text), widget (KPushButton, _saveChanges)
+#: walletwidget.ui:332
+msgid "&Save"
+msgstr "&Guardar"
 
 #~ msgid "That wallet file already exists.  You cannot overwrite wallets."
 #~ msgstr "Yá esiste esi ficheru de cartera. Nun pues sobrescribir carteres."
-
-#~ msgid "&Replace"
-#~ msgstr "&Trocar"
-
-#~ msgid "Replace &All"
-#~ msgstr "Trocar &Too"
-
-#~ msgid "&Skip"
-#~ msgstr "&Saltar"
-
-#~ msgid "Skip A&ll"
-#~ msgstr "Sa&ltar too"
-
-#~ msgid "&Show values"
-#~ msgstr "&Amosar valores"
-
-#~ msgid "&New Folder..."
-#~ msgstr "&Nueva carpeta..."
-
-#~ msgid "&Delete Folder"
-#~ msgstr "&Desaniciar la carpeta"
-
-#~ msgid "Change &Password..."
-#~ msgstr "&Cambiar contraseña..."
-
-#~ msgid "&Merge Wallet..."
-#~ msgstr "&Mecer cartera..."
-
-#~ msgid "&Import XML..."
-#~ msgstr "&Importar XML..."
-
-#~ msgid "&Export..."
-#~ msgstr "&Esportar..."
-
-#~ msgid "&New..."
-#~ msgstr "&Nueva..."
-
-#~ msgid "&Rename"
-#~ msgstr "&Renomar"
-
-#~ msgid "&Delete"
-#~ msgstr "D&esaniciar"
 
 #~ msgid ""
 #~ "This wallet was forced closed.  You must reopen it to continue working "
@@ -105,232 +551,5 @@ msgstr "alministradores@softastur.org"
 #~ "Esta cartera forcióse a zarrar. Tienes de reabrila pa siguir trabayando "
 #~ "con ella."
 
-#~ msgid "Passwords"
-#~ msgstr "Contraseñes"
-
-#~ msgid "Maps"
-#~ msgstr "Mapes"
-
-#~ msgid "Binary Data"
-#~ msgstr "Datos binarios"
-
-#~ msgid "Unknown"
-#~ msgstr "Desconocíu"
-
-#~ msgid "Are you sure you wish to delete the folder '%1' from the wallet?"
-#~ msgstr "¿Daveres que quies desaniciar la carpeta '%1' de la cartera?"
-
-#~ msgid "Error deleting folder."
-#~ msgstr "Fallu desaniciando carpeta."
-
-#~ msgid "New Folder"
-#~ msgstr "Nueva carpeta"
-
-#~ msgid "Please choose a name for the new folder:"
-#~ msgstr "Por favor, escueyi un nome pa la nueva carpeta:"
-
-#~ msgid "Sorry, that folder name is in use. Try again?"
-#~ msgstr "Yá se ta usando esi nome de carpeta. ¿Intentar con otru?"
-
-#~ msgid "Try Again"
-#~ msgstr "Intentar otra vegada"
-
-#~ msgid "Do Not Try"
-#~ msgstr "Nun intentar"
-
-#~ msgid "Error saving entry. Error code: %1"
-#~ msgstr "Fallu atroxando la entrada. Códigu d'error: %1"
-
-#~ msgid "Password: %1"
-#~ msgstr "Contraseña: %1"
-
-#~ msgid "Name-Value Map: %1"
-#~ msgstr "Mapa nome-valor: %1"
-
-#~ msgid "Binary Data: %1"
-#~ msgstr "Datos binarios: %1"
-
-#~ msgid "New Entry"
-#~ msgstr "Nueva entrada"
-
-#~ msgid "Please choose a name for the new entry:"
-#~ msgstr "Por favor, escueyi un nome pa la nueva entrada:"
-
-#~ msgid "Sorry, that entry already exists. Try again?"
-#~ msgstr "Yá esiste esa entrada. ¿Intentar otra vegada?"
-
-#~ msgid "An unexpected error occurred trying to add the new entry"
-#~ msgstr "Asocedió un fallu inesperáu al intentar amestar la nueva entrada"
-
-#~ msgid "An unexpected error occurred trying to rename the entry"
-#~ msgstr "Asocedió un fallu inesperáu al intentar renomar la entrada"
-
-#~ msgid "Are you sure you wish to delete the item '%1'?"
-#~ msgstr "¿Daveres que quier desaniciar l'elementu '%1'?"
-
-#~ msgid "An unexpected error occurred trying to delete the entry"
-#~ msgstr "Asocedió un fallu inesperáu al intentar desaniciar la entrada"
-
-#~ msgid "Unable to open the requested wallet."
-#~ msgstr "Nun puede abrise la cartera solicitada."
-
-#~ msgid "Unable to access wallet '<b>%1</b>'."
-#~ msgstr "Nun puede accedese a la cartera '<b>%1</b>'."
-
-#~ msgid ""
-#~ "Folder '<b>%1</b>' already contains an entry '<b>%2</b>'.  Do you wish to "
-#~ "replace it?"
-#~ msgstr ""
-#~ "La carpeta '<b>%1</b>' yá contién una entrada '<b>%2</b>'. ¿Quies trocala?"
-
-#~ msgid "Unable to access XML file '<b>%1</b>'."
-#~ msgstr "Nun puede accedese al ficheru XML '<b>%1</b>'."
-
-#~ msgid "Error opening XML file '<b>%1</b>' for input."
-#~ msgstr "Fallu al abrir el ficheru XML '<b>%1</b>' pa importar."
-
-#~ msgid "Error reading XML file '<b>%1</b>' for input."
-#~ msgstr "Fallu lleendo'l ficheru XML '<b>%1</b>' pa importar."
-
-#~ msgid "Error: XML file does not contain a wallet."
-#~ msgstr "Fallu: el ficheru XML nun contién una cartera."
-
-#~ msgid "&File"
-#~ msgstr "&Ficheru"
-
-#~ msgid "&Help"
-#~ msgstr "Ayu&da"
-
-#~ msgid "KDE Wallet"
-#~ msgstr "Cartera de KDE"
-
-#~ msgid "No wallets open."
-#~ msgstr "Nun hai carteres abiertes."
-
-#~ msgid "A wallet is open."
-#~ msgstr "Una cartera ta abierta."
-
-#~ msgid "&New Wallet..."
-#~ msgstr "&Nueva cartera..."
-
-#~ msgid "Configure &Wallet..."
-#~ msgstr "Con&figurar cartera..."
-
-#~ msgid "Close &All Wallets"
-#~ msgstr "Zarrar &toles carteres"
-
 #~ msgid "Open Wallet"
 #~ msgstr "Abrir cartera"
-
-#~ msgid "Delete Wallet"
-#~ msgstr "Desaniciar cartera"
-
-#~ msgid "Are you sure you wish to delete the wallet '%1'?"
-#~ msgstr "¿Daveres que quies desaniciar la cartera '%1'?"
-
-#~ msgid "Unable to delete the wallet. Error code was %1."
-#~ msgstr "Ye imposible desaniciar la cartera. Códigu d'error: %1."
-
-#~ msgid ""
-#~ "Unable to close wallet cleanly. It is probably in use by other "
-#~ "applications. Do you wish to force it closed?"
-#~ msgstr ""
-#~ "Ye imposible zarrar la cartera llimpiamente. Ye dable que tea usándose "
-#~ "n'otres. ¿Forciar el zarru?"
-
-#~ msgid "Force Closure"
-#~ msgstr "Forciar zarru"
-
-#~ msgid "Do Not Force"
-#~ msgstr "Nun forciar"
-
-#~ msgid "Unable to force the wallet closed. Error code was %1."
-#~ msgstr "Ye imposible forciar el zarru de la cartera. Códigu d'error: %1."
-
-#~ msgid "Error opening wallet %1."
-#~ msgstr "Fallu abriendo la cartera %1."
-
-#~ msgid "Please choose a name for the new wallet:"
-#~ msgstr "Por favor, escueya un nome pa la nueva cartera:"
-
-#~ msgid "New Wallet"
-#~ msgstr "Nueva cartera"
-
-#~ msgid "Sorry, that wallet already exists. Try a new name?"
-#~ msgstr "Yá esiste esa cartera. ¿Quies probar con un nome nuevu?"
-
-#~ msgid "Try New"
-#~ msgstr "Probar otru"
-
-#~ msgid "&Settings"
-#~ msgstr "Axu&stes"
-
-#~ msgid "&Open..."
-#~ msgstr "&Abrir..."
-
-#~ msgid "Disconnec&t"
-#~ msgstr "Desconeu&tar"
-
-#~ msgid "Key"
-#~ msgstr "Contraseña"
-
-#~ msgid "Value"
-#~ msgstr "Valor"
-
-#~ msgid "&New Entry"
-#~ msgstr "&Nueva entrada"
-
-#~ msgid "KDE Wallet Manager"
-#~ msgstr "Xestor de carteres de KDE"
-
-#~ msgid "KDE Wallet Management Tool"
-#~ msgstr "Ferramienta de xestión de carteres de KDE"
-
-#~ msgid "(c) 2003,2004 George Staikos"
-#~ msgstr "(c) 2003,2004 George Staikos"
-
-#~ msgid "Michael Leupold"
-#~ msgstr "Michael Leupold"
-
-#~ msgid "Maintainer"
-#~ msgstr "Caltenimientu"
-
-#~ msgid "George Staikos"
-#~ msgstr "George Staikos"
-
-#~ msgid "Original author and former maintainer"
-#~ msgstr "Autor orixinal y anterior encargáu"
-
-#~ msgid "Isaac Clerencia"
-#~ msgstr "Isaac Clerencia"
-
-#~ msgid "Developer"
-#~ msgstr "Desendolcador"
-
-#~ msgid "Show window on startup"
-#~ msgstr "Amosar la ventana durante l'aniciu"
-
-#~ msgid "For use by kwalletd only"
-#~ msgstr "Pa usar únicamente con kwalletd"
-
-#~ msgid "A wallet name"
-#~ msgstr "Un nome de cartera"
-
-#~ msgid "Hide &Contents"
-#~ msgstr "Anubrir &conteníu"
-
-#~ msgid ""
-#~ "This is a binary data entry.  It cannot be editted as its format is "
-#~ "unknown and application specific."
-#~ msgstr ""
-#~ "Esta ye una entrada de datos binarios. Nun puede editase darréu de que'l "
-#~ "so formatu desconózse y ye específicu de dalguna aplicación."
-
-#~ msgid "Show &Contents"
-#~ msgstr "Amosar &conteníu"
-
-#~ msgid "&Undo"
-#~ msgstr "&Desfacer"
-
-#~ msgid "&Save"
-#~ msgstr "&Guardar"
