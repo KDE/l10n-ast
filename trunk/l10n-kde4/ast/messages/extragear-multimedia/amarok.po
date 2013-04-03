@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-31 04:02+0200\n"
+"POT-Creation-Date: 2013-04-03 03:02+0200\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -239,7 +239,7 @@ msgstr "Visita'l perfil de los collaboradores de StackOverflow"
 #. i18n: ectx: property (text), widget (QLabel, labelName)
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #: aboutdialog/OcsPersonItem.ui:137 amarokurls/BookmarkModel.cpp:261
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:417
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:419
 #: network/NetworkRequests.ui:89 network/NetworkRequests.ui:103
 #: playlistgenerator/TreeModel.cpp:64
 #: services/amazon/AmazonItemTreeModel.cpp:168
@@ -1506,7 +1506,7 @@ msgid "Add Position Marker"
 msgstr ""
 
 #: amarokurls/BookmarkModel.cpp:86
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:418
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:420
 msgid "Group"
 msgstr "Grupu"
 
@@ -1564,7 +1564,7 @@ msgstr "Nueva pista de códigu de tiempu"
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:464
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:465
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:466
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:467 MainWindow.cpp:1269
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:467 MainWindow.cpp:1268
 msgid "Unknown"
 msgstr "Desconocíu"
 
@@ -2385,7 +2385,7 @@ msgid_plural "%1 playlists"
 msgstr[0] "Llista de reproducción"
 msgstr[1] "Llista de reproducción"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:419
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:421
 msgid "Source"
 msgstr "Fonte"
 
@@ -2407,7 +2407,7 @@ msgid "Enter new folder name:"
 msgstr "Pon el nome nuevu de carpeta:"
 
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:338
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:254
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:255
 #: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:152
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:98
 msgid "Confirm Delete"
@@ -5135,7 +5135,7 @@ msgstr ""
 msgid "Updating Amarok database schema"
 msgstr "Anovando la canal de podcast"
 
-#: core-impl/collections/db/sql/SqlCollection.cpp:285
+#: core-impl/collections/db/sql/SqlCollection.cpp:284
 #, kde-format
 msgid ""
 "The amarok database reported the following errors:\n"
@@ -5740,7 +5740,7 @@ msgid "Media Device playlists"
 msgstr "Llista de reproducción del dispositivu de medios"
 
 #: core-impl/collections/mediadevicecollection/podcast/MediaDevicePodcastProvider.cpp:75
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:158
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:159
 #, fuzzy, kde-format
 #| msgid "Podcasts"
 msgctxt "Podcasts on a media device"
@@ -5960,13 +5960,13 @@ msgstr "Pistes"
 msgid "Moving to trash: %1"
 msgstr "Moviendo ficheros a la papelera"
 
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:184
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:185
 #, fuzzy
 #| msgid "&Delete Folder"
 msgid "&Delete Episode"
 msgstr "&Desaniciar la carpeta"
 
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:256
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:257
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to delete this playlist?"
 #| msgid_plural "Are you sure you want to delete these %1 playlists?"
@@ -5975,13 +5975,13 @@ msgid_plural "Are you sure you want to delete these %1 episodes?"
 msgstr[0] "¿Daveres quies desaniciar la llista de reproducción?"
 msgstr[1] "¿Daveres quies desaniciar estes %1 llistes de reproducción?"
 
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:272
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:273
 #, fuzzy, kde-format
 #| msgid "Yes, delete from disk."
 msgid "Yes, delete from %1."
 msgstr "Sí, desaniciar el discu."
 
-#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:328
+#: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:329
 #: services/gpodder/GpodderProvider.cpp:357
 #, fuzzy
 #| msgid "&Delete Downloaded Episode"
@@ -6158,31 +6158,33 @@ msgstr ""
 msgid "Save As"
 msgstr ""
 
-#: core-impl/playlists/types/file/PlaylistFileSupport.cpp:78
-#, kde-format
-msgid "Cannot read playlist (%1)."
-msgstr "Nun se puede lleer la llista de reproducción (%1)."
-
-#: core-impl/playlists/types/file/PlaylistFileSupport.cpp:97
+#: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:68
 msgid "Could not create a temporary file to download playlist."
 msgstr ""
 "Nun se pudo crear un ficheru temporal pa descargar la llista de reproducción."
 
-#: core-impl/playlists/types/file/PlaylistFileSupport.cpp:113
+#: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:76
 msgid "Downloading remote playlist"
 msgstr "Descargando llista de reproducción remota"
 
-#: core-impl/playlists/types/file/PlaylistFileSupport.cpp:189
+#: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:101
+#, fuzzy, kde-format
+#| msgid "Cannot read playlist (%1)."
+msgctxt "%1 is file path"
+msgid "Cannot read playlist from %1"
+msgstr "Nun se puede lleer la llista de reproducción (%1)."
+
+#: core-impl/playlists/types/file/PlaylistFileSupport.cpp:118
 msgid "The used file extension is not valid for playlists."
 msgstr ""
 
-#: core-impl/playlists/types/file/PlaylistFileSupport.cpp:190
+#: core-impl/playlists/types/file/PlaylistFileSupport.cpp:119
 #, fuzzy
 #| msgid "Biased playlists"
 msgid "Unknown playlist format"
 msgstr "Biased playlists"
 
-#: core-impl/playlists/types/file/PlaylistFileSupport.cpp:216
+#: core-impl/playlists/types/file/PlaylistFileSupport.cpp:145
 #, kde-format
 msgid "Playlist_%1"
 msgstr "Llista de reproducción_%1"
@@ -11440,18 +11442,18 @@ msgid ""
 "Please remember that you can always use the shortcut \"%1\" to bring it back."
 msgstr ""
 
-#: MainWindow.cpp:1214
+#: MainWindow.cpp:1213
 #, fuzzy
 #| msgid "Hide menu"
 msgid "Hide Menu"
 msgstr "Anubrir el menú"
 
-#: MainWindow.cpp:1256
+#: MainWindow.cpp:1255
 #, kde-format
 msgid "Paused  ::  %1"
 msgstr ""
 
-#: MainWindow.cpp:1269
+#: MainWindow.cpp:1268
 #, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr ""
@@ -13415,18 +13417,14 @@ msgstr ""
 msgid "Export \"%1\" preset"
 msgstr "Importar la coleición"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:97
+#: playlistmanager/file/PlaylistFileProvider.cpp:96
 msgid "Playlist Files on Disk"
 msgstr "Ficheros de llistes de reproducción en discu"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:275
+#: playlistmanager/file/PlaylistFileProvider.cpp:278
 #, kde-format
 msgid "The playlist file \"%1\" could not be loaded."
 msgstr "Nun pudo cargase la llista de reproducción \"%1\""
-
-#: playlistmanager/PlaylistManager.cpp:320
-msgid "Downloading Playlist"
-msgstr "Descargando la llista de reproducción"
 
 #: playlistmanager/sql/SqlPlaylist.cpp:41
 #, fuzzy
@@ -14209,12 +14207,12 @@ msgctxt "WeeklyTopBias bias representation"
 msgid "Tracks from the Last.fm top lists from %1 to %2"
 msgstr ""
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:132
+#: services/lastfm/biases/WeeklyTopBias.cpp:130
 msgctxt "in WeeklyTopBias. Label for the date widget"
 msgid "from:"
 msgstr ""
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:146
+#: services/lastfm/biases/WeeklyTopBias.cpp:144
 msgctxt "in WeeklyTopBias. Label for the date widget"
 msgid "to:"
 msgstr ""
@@ -16476,6 +16474,9 @@ msgstr ""
 #| msgid "Volume"
 msgid "Volume: %1%"
 msgstr "Volume"
+
+#~ msgid "Downloading Playlist"
+#~ msgstr "Descargando la llista de reproducción"
 
 #, fuzzy
 #~| msgid "Could not create directory: %1"
