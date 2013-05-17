@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-15 03:08+0200\n"
+"POT-Creation-Date: 2013-05-17 03:35+0200\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -1926,7 +1926,6 @@ msgstr "Añu - Álbum"
 #: playlist/PlaylistModel.cpp:927 playlist/view/PlaylistViewCommon.cpp:64
 #: services/jamendo/JamendoInfoParser.cpp:83
 #: services/magnatune/MagnatuneStore.cpp:224
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Album"
 msgstr "Álbum"
 
@@ -1939,7 +1938,6 @@ msgstr "Álbum"
 #: services/jamendo/JamendoInfoParser.cpp:51
 #: services/lastfm/LastFmService.cpp:466
 #: services/magnatune/MagnatuneStore.cpp:218
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Artist"
 msgstr "Artista"
 
@@ -1951,26 +1949,21 @@ msgstr "Álbum Artista"
 
 #: browsers/CollectionTreeItemModelBase.cpp:969
 #: context/applets/wikipedia/WikipediaApplet.cpp:625
-#: playlist/PlaylistModel.cpp:925 widgets/SmartPlaylistEditor.cpp:183
-#: widgets/SmartPlaylistEditor.cpp:197
+#: playlist/PlaylistModel.cpp:925
 msgid "Composer"
 msgstr "Compositor"
 
 #: browsers/CollectionTreeItemModelBase.cpp:970 dialogs/transferdialog.cpp:90
 #: playlist/PlaylistModel.cpp:931 playlist/ProgressiveSearchWidget.cpp:93
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Genre"
 msgstr "Xéneru"
 
 #: browsers/CollectionTreeItemModelBase.cpp:971
 #: musicbrainz/MusicBrainzTagsModel.cpp:40 playlist/PlaylistModel.cpp:926
-#: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:197
-#: widgets/SmartPlaylistEditor.cpp:921
 msgid "Year"
 msgstr "Añu"
 
 #: browsers/CollectionTreeItemModelBase.cpp:972
-#: widgets/SmartPlaylistEditor.cpp:187 widgets/SmartPlaylistEditor.cpp:197
 msgid "Label"
 msgstr "Etiqueta"
 
@@ -2593,7 +2586,6 @@ msgstr[1] "A&novar canal"
 #: browsers/playlistbrowser/PodcastModel.cpp:301
 #: context/applets/tabs/ReloadEditDialog.ui:86
 #: musicbrainz/MusicBrainzTagsModel.cpp:36 playlist/PlaylistModel.cpp:922
-#: widgets/SmartPlaylistEditor.cpp:183
 msgid "Title"
 msgstr "Títulu"
 
@@ -3509,7 +3501,7 @@ msgstr "Repetir álbum"
 
 #. i18n: ectx: property (title), widget (QGroupBox, settingsGroupBox)
 #: context/applets/albums/Albums.cpp:75
-#: context/applets/labels/LabelsApplet.cpp:109
+#: context/applets/labels/LabelsApplet.cpp:110
 #: context/applets/lyrics/LyricsApplet.cpp:486
 #: context/applets/photos/PhotosApplet.cpp:76
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:95
@@ -3595,7 +3587,7 @@ msgid "Play Count"
 msgstr "Cuntador de reproducción"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:446
-#: playlist/PlaylistModel.cpp:938 widgets/SmartPlaylistEditor.cpp:185
+#: playlist/PlaylistModel.cpp:938
 msgid "Score"
 msgstr "Puntuación"
 
@@ -3717,55 +3709,55 @@ msgid "Add to blacklist"
 msgstr "&Amestar a la llista de reproducción"
 
 #. i18n: ectx: property (text), widget (QToolButton, matchedLabelsButton)
-#: context/applets/labels/LabelsApplet.cpp:89
-#: context/applets/labels/LabelsApplet.cpp:182 dialogs/TagDialog.cpp:503
+#: context/applets/labels/LabelsApplet.cpp:90
+#: context/applets/labels/LabelsApplet.cpp:183 dialogs/TagDialog.cpp:503
 #: statsyncing/ui/MatchedTracksPage.ui:87
 msgid "Labels"
 msgstr "Etiquetes"
 
-#: context/applets/labels/LabelsApplet.cpp:99
+#: context/applets/labels/LabelsApplet.cpp:100
 #: context/applets/wikipedia/WikipediaApplet.cpp:613
 msgid "Reload"
 msgstr "Recargar"
 
-#: context/applets/labels/LabelsApplet.cpp:194
+#: context/applets/labels/LabelsApplet.cpp:195
 #, fuzzy
 #| msgid "No track playing"
 msgid "Labels: No track playing"
 msgstr "Denguna pista en reproducción"
 
-#: context/applets/labels/LabelsApplet.cpp:515
+#: context/applets/labels/LabelsApplet.cpp:516
 #, fuzzy
 #| msgid "Settings"
 msgid "Labels: Fetching..."
 msgstr "Configuración"
 
-#: context/applets/labels/LabelsApplet.cpp:525
+#: context/applets/labels/LabelsApplet.cpp:526
 #: statsyncing/models/CommonModel.cpp:186
 #, fuzzy, kde-format
 #| msgid "Label:"
 msgid "Labels: %1"
 msgstr "Etiqueta:"
 
-#: context/applets/labels/LabelsApplet.cpp:573
+#: context/applets/labels/LabelsApplet.cpp:574
 #, fuzzy, kde-format
 #| msgid "Track Details: %1 by %2"
 msgid "Labels for %1 by %2"
 msgstr "Información de la pista: %1 de %2"
 
-#: context/applets/labels/LabelsApplet.cpp:741
+#: context/applets/labels/LabelsApplet.cpp:742
 #, fuzzy
 #| msgid "General Options"
 msgid "General Settings"
 msgstr "Opciones xenerales"
 
-#: context/applets/labels/LabelsApplet.cpp:742
+#: context/applets/labels/LabelsApplet.cpp:743
 #, fuzzy
 #| msgid "Settings"
 msgid "Blacklist Settings"
 msgstr "Configuración"
 
-#: context/applets/labels/LabelsApplet.cpp:743
+#: context/applets/labels/LabelsApplet.cpp:744
 #, fuzzy
 #| msgid "Settings"
 msgid "Replacement Settings"
@@ -5062,7 +5054,7 @@ msgstr "%1 - Paráu %2"
 msgid "Playback Ended Markers"
 msgstr "Marcadores de reproducción de finalización"
 
-#: core-impl/collections/aggregate/AggregateCollection.cpp:53
+#: core-impl/collections/aggregate/AggregateCollection.cpp:51
 #, fuzzy
 #| msgid "Update Collection"
 msgctxt ""
@@ -8687,8 +8679,6 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbAnd)
 #: dialogs/EditFilterDialog.ui:99 widgets/MetaQueryWidget.cpp:585
-#: widgets/SmartPlaylistEditor.cpp:934 widgets/SmartPlaylistEditor.cpp:956
-#: widgets/SmartPlaylistEditor.cpp:984 widgets/SmartPlaylistEditor.cpp:1003
 msgid "and"
 msgstr "y"
 
@@ -9721,7 +9711,7 @@ msgctxt "Or bias representation"
 msgid "Match any"
 msgstr "Les mios Etiquetes"
 
-#: dynamic/BiasedPlaylist.cpp:49
+#: dynamic/BiasedPlaylist.cpp:48
 #, fuzzy
 #| msgid "Random"
 msgctxt ""
@@ -9730,7 +9720,7 @@ msgctxt ""
 msgid "Random"
 msgstr "Al debalu"
 
-#: dynamic/BiasedPlaylist.cpp:127
+#: dynamic/BiasedPlaylist.cpp:126
 msgid "Generating playlist..."
 msgstr "Creando llista de reproducción..."
 
@@ -11554,7 +11544,6 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
 #: network/NetworkRequests.ui:56 playlist/PlaylistModel.cpp:935
-#: widgets/SmartPlaylistEditor.cpp:183
 msgid "Length"
 msgstr "Duración"
 
@@ -11931,6 +11920,28 @@ msgstr ""
 msgid "Shuffle"
 msgstr ""
 
+#: playlist/PlaylistController.cpp:129
+#, fuzzy
+#| msgid "&Add to playlist"
+msgctxt "name of the action in undo stack"
+msgid "Add tracks to playlist"
+msgstr "&Amestar a llista de reproducción"
+
+#: playlist/PlaylistController.cpp:131
+#, fuzzy
+#| msgid "&Queue Track"
+msgctxt "name of the action in undo stack"
+msgid "Queue tracks"
+msgstr "&Encolar pista"
+
+#: playlist/PlaylistController.cpp:133
+#, fuzzy
+#| msgctxt "Replace the currently loaded tracks with these"
+#| msgid "&Replace Playlist"
+msgctxt "name of the action in undo stack"
+msgid "Replace playlist"
+msgstr "&Reemplazar llista de reproducción"
+
 #: playlist/PlaylistDefines.cpp:89
 msgctxt "Empty placeholder token used for spacing in playlist layouts"
 msgid "Placeholder"
@@ -12099,11 +12110,11 @@ msgctxt "The Track number for this item"
 msgid "Track"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:930 widgets/SmartPlaylistEditor.cpp:187
+#: playlist/PlaylistModel.cpp:930
 msgid "BPM"
 msgstr "BPM"
 
-#: playlist/PlaylistModel.cpp:932 widgets/SmartPlaylistEditor.cpp:184
+#: playlist/PlaylistModel.cpp:932
 msgid "Comment"
 msgstr "Comentariu"
 
@@ -12112,7 +12123,7 @@ msgctxt "The location on disc of this track"
 msgid "Directory"
 msgstr ""
 
-#: playlist/PlaylistModel.cpp:936 widgets/SmartPlaylistEditor.cpp:187
+#: playlist/PlaylistModel.cpp:936
 msgid "Bitrate"
 msgstr "Tasa de bits"
 
@@ -12121,7 +12132,6 @@ msgid "Sample Rate"
 msgstr "Tasa de muestréu"
 
 #: playlist/PlaylistModel.cpp:939 playlist/ProgressiveSearchWidget.cpp:107
-#: widgets/SmartPlaylistEditor.cpp:185
 msgid "Rating"
 msgstr "Valoración"
 
@@ -12217,7 +12227,6 @@ msgid "Composers"
 msgstr ""
 
 #: playlist/ProgressiveSearchWidget.cpp:114
-#: widgets/SmartPlaylistEditor.cpp:976
 msgid "Years"
 msgstr "años"
 
@@ -12860,7 +12869,6 @@ msgstr "Non re&producíes recién"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
 #: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:51
-#: widgets/SmartPlaylistEditor.cpp:253
 msgid "tracks"
 msgstr "pistes"
 
@@ -13187,19 +13195,16 @@ msgstr "igual a"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:414
-#: widgets/SmartPlaylistEditor.cpp:737 widgets/SmartPlaylistEditor.cpp:1034
 msgid "starts with"
 msgstr "entama por"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:419
-#: widgets/SmartPlaylistEditor.cpp:759 widgets/SmartPlaylistEditor.cpp:1035
 msgid "ends with"
 msgstr "termina por"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonString)
 #: playlistgenerator/constraints/TagMatchEditWidget.ui:424
-#: widgets/SmartPlaylistEditor.cpp:715 widgets/SmartPlaylistEditor.cpp:1033
 msgid "contains"
 msgstr "contién"
 
@@ -13520,7 +13525,7 @@ msgid ""
 "freenode.net.</p>"
 msgstr ""
 
-#: scanner/AbstractScanResultProcessor.cpp:74
+#: scanner/AbstractScanResultProcessor.cpp:72
 msgid "Scanning music"
 msgstr "Guetando música"
 
@@ -16348,176 +16353,6 @@ msgctxt ""
 msgid "Jump to: %1"
 msgstr "Radio de grupu: %1"
 
-#: widgets/SmartPlaylistEditor.cpp:79
-msgid "Create Smart Playlist"
-msgstr "Crear llista de reproducción intelixente"
-
-#: widgets/SmartPlaylistEditor.cpp:95
-msgid "Edit Smart Playlist"
-msgstr "Editar llista de reproducción intelixente"
-
-#: widgets/SmartPlaylistEditor.cpp:184
-msgid "Track #"
-msgstr "Pista #"
-
-#: widgets/SmartPlaylistEditor.cpp:184
-msgid "Play Counter"
-msgstr "Cuntador de reproducción"
-
-#: widgets/SmartPlaylistEditor.cpp:185
-msgid "First Play"
-msgstr "Primera reprodución"
-
-#: widgets/SmartPlaylistEditor.cpp:186
-msgid "Last Play"
-msgstr "Cabera reprodución"
-
-#: widgets/SmartPlaylistEditor.cpp:186
-msgid "Modified Date"
-msgstr "Data de modificación"
-
-#: widgets/SmartPlaylistEditor.cpp:186
-msgid "File Path"
-msgstr "Camín del ficheru"
-
-#: widgets/SmartPlaylistEditor.cpp:187
-msgid "Mount Point"
-msgstr "Puntu de montaxe"
-
-#: widgets/SmartPlaylistEditor.cpp:204
-msgid "Playlist name:"
-msgstr "Nome de la llista de reproducción:"
-
-#: widgets/SmartPlaylistEditor.cpp:212
-msgid "Match Any of the following conditions"
-msgstr "Concasar con cualesquier de les siguientes condiciones"
-
-#: widgets/SmartPlaylistEditor.cpp:222
-msgid "Match All of the following conditions"
-msgstr "Concasar coles siguientes condiciones"
-
-#: widgets/SmartPlaylistEditor.cpp:232
-msgid "Order by"
-msgstr "Ordenáu por"
-
-#: widgets/SmartPlaylistEditor.cpp:238
-msgid "Random"
-msgstr "Al debalu"
-
-#: widgets/SmartPlaylistEditor.cpp:246
-msgid "Limit to"
-msgstr "Llimitar a"
-
-#: widgets/SmartPlaylistEditor.cpp:258
-msgid "Expand by"
-msgstr "Espander por"
-
-#: widgets/SmartPlaylistEditor.cpp:345
-msgid "Completely Random"
-msgstr "Completamente al debalu"
-
-#: widgets/SmartPlaylistEditor.cpp:346
-msgid "Score Weighted"
-msgstr "Puntuación algamada"
-
-#: widgets/SmartPlaylistEditor.cpp:347
-msgid "Rating Weighted"
-msgstr "Pesu de la valoración"
-
-#: widgets/SmartPlaylistEditor.cpp:351
-msgid "Ascending"
-msgstr "Ascendente"
-
-#: widgets/SmartPlaylistEditor.cpp:352
-msgid "Descending"
-msgstr "Descendente"
-
-#: widgets/SmartPlaylistEditor.cpp:501 widgets/SmartPlaylistEditor.cpp:508
-#: widgets/SmartPlaylistEditor.cpp:528 widgets/SmartPlaylistEditor.cpp:538
-#: widgets/SmartPlaylistEditor.cpp:582 widgets/SmartPlaylistEditor.cpp:589
-#: widgets/SmartPlaylistEditor.cpp:602 widgets/SmartPlaylistEditor.cpp:613
-#: widgets/SmartPlaylistEditor.cpp:653 widgets/SmartPlaylistEditor.cpp:659
-#: widgets/SmartPlaylistEditor.cpp:678 widgets/SmartPlaylistEditor.cpp:698
-#: widgets/SmartPlaylistEditor.cpp:767 widgets/SmartPlaylistEditor.cpp:883
-#: widgets/SmartPlaylistEditor.cpp:886 widgets/SmartPlaylistEditor.cpp:933
-#: widgets/SmartPlaylistEditor.cpp:955 widgets/SmartPlaylistEditor.cpp:983
-#: widgets/SmartPlaylistEditor.cpp:1002 widgets/SmartPlaylistEditor.cpp:1042
-#: widgets/SmartPlaylistEditor.cpp:1048
-msgid "is between"
-msgstr "ta ente"
-
-#: widgets/SmartPlaylistEditor.cpp:514 widgets/SmartPlaylistEditor.cpp:595
-#: widgets/SmartPlaylistEditor.cpp:665 widgets/SmartPlaylistEditor.cpp:767
-#: widgets/SmartPlaylistEditor.cpp:884 widgets/SmartPlaylistEditor.cpp:887
-#: widgets/SmartPlaylistEditor.cpp:968 widgets/SmartPlaylistEditor.cpp:1048
-msgid "is in the last"
-msgstr "ta na cabera"
-
-#: widgets/SmartPlaylistEditor.cpp:514 widgets/SmartPlaylistEditor.cpp:595
-#: widgets/SmartPlaylistEditor.cpp:665 widgets/SmartPlaylistEditor.cpp:769
-#: widgets/SmartPlaylistEditor.cpp:885 widgets/SmartPlaylistEditor.cpp:888
-#: widgets/SmartPlaylistEditor.cpp:969 widgets/SmartPlaylistEditor.cpp:1048
-msgid "is not in the last"
-msgstr "nun ta na cabera"
-
-#: widgets/SmartPlaylistEditor.cpp:717 widgets/SmartPlaylistEditor.cpp:1033
-msgid "does not contain"
-msgstr "nun contién"
-
-#: widgets/SmartPlaylistEditor.cpp:719 widgets/SmartPlaylistEditor.cpp:1033
-#: widgets/SmartPlaylistEditor.cpp:1041 widgets/SmartPlaylistEditor.cpp:1047
-msgid "is"
-msgstr "es"
-
-#: widgets/SmartPlaylistEditor.cpp:728 widgets/SmartPlaylistEditor.cpp:1033
-#: widgets/SmartPlaylistEditor.cpp:1041 widgets/SmartPlaylistEditor.cpp:1047
-msgid "is not"
-msgstr "nun ye"
-
-#: widgets/SmartPlaylistEditor.cpp:748 widgets/SmartPlaylistEditor.cpp:1034
-msgid "does not start with"
-msgstr "nun entama con"
-
-#: widgets/SmartPlaylistEditor.cpp:761 widgets/SmartPlaylistEditor.cpp:1035
-msgid "does not end with"
-msgstr "nun termina con"
-
-#: widgets/SmartPlaylistEditor.cpp:763 widgets/SmartPlaylistEditor.cpp:1041
-msgid "is greater than"
-msgstr "ye mayor que"
-
-#: widgets/SmartPlaylistEditor.cpp:763 widgets/SmartPlaylistEditor.cpp:1047
-msgid "is after"
-msgstr "ye posterior a"
-
-#: widgets/SmartPlaylistEditor.cpp:765 widgets/SmartPlaylistEditor.cpp:1041
-msgid "is smaller than"
-msgstr "ye menor que"
-
-#: widgets/SmartPlaylistEditor.cpp:765 widgets/SmartPlaylistEditor.cpp:1047
-msgid "is before"
-msgstr "ye anterior a"
-
-#: widgets/SmartPlaylistEditor.cpp:974
-msgid "Days"
-msgstr "díes"
-
-#: widgets/SmartPlaylistEditor.cpp:975
-msgid "Months"
-msgstr "meses"
-
-#: widgets/SmartPlaylistEditor.cpp:1011
-msgid "Seconds"
-msgstr "Segundos"
-
-#: widgets/SmartPlaylistEditor.cpp:1012
-msgid "Minutes"
-msgstr "Minutos"
-
-#: widgets/SmartPlaylistEditor.cpp:1013
-msgid "Hours"
-msgstr "Hores"
-
 #: widgets/TokenDropTarget.cpp:311
 msgid "Drag in and out items from above."
 msgstr ""
@@ -16564,6 +16399,120 @@ msgstr ""
 #| msgid "Volume"
 msgid "Volume: %1%"
 msgstr "Volume"
+
+#~ msgid "Create Smart Playlist"
+#~ msgstr "Crear llista de reproducción intelixente"
+
+#~ msgid "Edit Smart Playlist"
+#~ msgstr "Editar llista de reproducción intelixente"
+
+#~ msgid "Track #"
+#~ msgstr "Pista #"
+
+#~ msgid "Play Counter"
+#~ msgstr "Cuntador de reproducción"
+
+#~ msgid "First Play"
+#~ msgstr "Primera reprodución"
+
+#~ msgid "Last Play"
+#~ msgstr "Cabera reprodución"
+
+#~ msgid "Modified Date"
+#~ msgstr "Data de modificación"
+
+#~ msgid "File Path"
+#~ msgstr "Camín del ficheru"
+
+#~ msgid "Mount Point"
+#~ msgstr "Puntu de montaxe"
+
+#~ msgid "Playlist name:"
+#~ msgstr "Nome de la llista de reproducción:"
+
+#~ msgid "Match Any of the following conditions"
+#~ msgstr "Concasar con cualesquier de les siguientes condiciones"
+
+#~ msgid "Match All of the following conditions"
+#~ msgstr "Concasar coles siguientes condiciones"
+
+#~ msgid "Order by"
+#~ msgstr "Ordenáu por"
+
+#~ msgid "Random"
+#~ msgstr "Al debalu"
+
+#~ msgid "Limit to"
+#~ msgstr "Llimitar a"
+
+#~ msgid "Expand by"
+#~ msgstr "Espander por"
+
+#~ msgid "Completely Random"
+#~ msgstr "Completamente al debalu"
+
+#~ msgid "Score Weighted"
+#~ msgstr "Puntuación algamada"
+
+#~ msgid "Rating Weighted"
+#~ msgstr "Pesu de la valoración"
+
+#~ msgid "Ascending"
+#~ msgstr "Ascendente"
+
+#~ msgid "Descending"
+#~ msgstr "Descendente"
+
+#~ msgid "is between"
+#~ msgstr "ta ente"
+
+#~ msgid "is in the last"
+#~ msgstr "ta na cabera"
+
+#~ msgid "is not in the last"
+#~ msgstr "nun ta na cabera"
+
+#~ msgid "does not contain"
+#~ msgstr "nun contién"
+
+#~ msgid "is"
+#~ msgstr "es"
+
+#~ msgid "is not"
+#~ msgstr "nun ye"
+
+#~ msgid "does not start with"
+#~ msgstr "nun entama con"
+
+#~ msgid "does not end with"
+#~ msgstr "nun termina con"
+
+#~ msgid "is greater than"
+#~ msgstr "ye mayor que"
+
+#~ msgid "is after"
+#~ msgstr "ye posterior a"
+
+#~ msgid "is smaller than"
+#~ msgstr "ye menor que"
+
+#~ msgid "is before"
+#~ msgstr "ye anterior a"
+
+#~ msgid "Days"
+#~ msgstr "díes"
+
+#~ msgid "Months"
+#~ msgstr "meses"
+
+#~ msgid "Seconds"
+#~ msgstr "Segundos"
+
+#~ msgid "Minutes"
+#~ msgstr "Minutos"
+
+#~ msgid "Hours"
+#~ msgstr "Hores"
 
 #~ msgid ""
 #~ "Writing to file failed. Please check permissions and available disc space."
@@ -16938,9 +16887,6 @@ msgstr "Volume"
 #~ msgid_plural "Transferring %1 tracks to %2"
 #~ msgstr[0] "Fallu al copiar pistes"
 #~ msgstr[1] "Fallu al copiar pistes"
-
-#~ msgid "&Add to playlist"
-#~ msgstr "&Amestar a llista de reproducción"
 
 #~ msgid "Append and &Play"
 #~ msgstr "Amestar y &reproducir"
@@ -17705,9 +17651,6 @@ msgstr "Volume"
 
 #~ msgid "Add && &Play"
 #~ msgstr "Amestar y &reproducir"
-
-#~ msgid "&Queue Track"
-#~ msgstr "&Encolar pista"
 
 #~| msgid "Minutes"
 #~ msgid "minutes"
