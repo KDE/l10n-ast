@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-03 01:39+0000\n"
+"POT-Creation-Date: 2013-09-03 01:43+0000\n"
 "PO-Revision-Date: 2010-10-25 19:46+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -189,7 +189,7 @@ msgstr "Nueva carpeta"
 msgid "Please choose a name for the new folder:"
 msgstr "Por favor, escueyi un nome pa la nueva carpeta:"
 
-#: kwalleteditor.cpp:438 kwalleteditor.cpp:787 kwalletmanager.cpp:290
+#: kwalleteditor.cpp:438 kwalleteditor.cpp:787 kwalletmanager.cpp:295
 msgid "Do Not Try"
 msgstr "Nun intentar"
 
@@ -293,16 +293,16 @@ msgstr "Fallu lleendo'l ficheru XML '<b>%1</b>' pa importar."
 msgid "Error: XML file does not contain a wallet."
 msgstr "Fallu: el ficheru XML nun contién una cartera."
 
-#: kwalletmanager.cpp:71 kwalletmanager.cpp:78 kwalletmanager.cpp:187
-#: kwalletmanager.cpp:238
+#: kwalletmanager.cpp:71 kwalletmanager.cpp:78 kwalletmanager.cpp:192
+#: kwalletmanager.cpp:243
 msgid "KDE Wallet"
 msgstr "Cartera de KDE"
 
-#: kwalletmanager.cpp:71 kwalletmanager.cpp:238
+#: kwalletmanager.cpp:71 kwalletmanager.cpp:243
 msgid "No wallets open."
 msgstr "Nun hai carteres abiertes."
 
-#: kwalletmanager.cpp:78 kwalletmanager.cpp:187
+#: kwalletmanager.cpp:78 kwalletmanager.cpp:192
 msgid "A wallet is open."
 msgstr "Una cartera ta abierta."
 
@@ -310,21 +310,27 @@ msgstr "Una cartera ta abierta."
 msgid "&New Wallet..."
 msgstr "&Nueva cartera..."
 
-#: kwalletmanager.cpp:125
+#: kwalletmanager.cpp:126
+#, fuzzy
+#| msgid "Open Wallet"
+msgid "Open Wallet..."
+msgstr "Abrir cartera"
+
+#: kwalletmanager.cpp:130
 #, fuzzy
 #| msgid "Delete Wallet"
 msgid "&Delete Wallet..."
 msgstr "Desaniciar cartera"
 
-#: kwalletmanager.cpp:129
+#: kwalletmanager.cpp:134
 msgid "Configure &Wallet..."
 msgstr "Con&figurar cartera..."
 
-#: kwalletmanager.cpp:137
+#: kwalletmanager.cpp:142
 msgid "Close &All Wallets"
 msgstr "Zarrar &toles carteres"
 
-#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+#: kwalletmanager.cpp:216 walletcontrolwidget.cpp:118
 msgid ""
 "Unable to close wallet cleanly. It is probably in use by other applications. "
 "Do you wish to force it closed?"
@@ -332,46 +338,46 @@ msgstr ""
 "Ye imposible zarrar la cartera llimpiamente. Ye dable que tea usándose "
 "n'otres. ¿Forciar el zarru?"
 
-#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+#: kwalletmanager.cpp:216 walletcontrolwidget.cpp:118
 msgid "Force Closure"
 msgstr "Forciar zarru"
 
-#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+#: kwalletmanager.cpp:216 walletcontrolwidget.cpp:118
 msgid "Do Not Force"
 msgstr "Nun forciar"
 
-#: kwalletmanager.cpp:215 walletcontrolwidget.cpp:106
+#: kwalletmanager.cpp:220 walletcontrolwidget.cpp:122
 #, kde-format
 msgid "Unable to force the wallet closed. Error code was %1."
 msgstr "Ye imposible forciar el zarru de la cartera. Códigu d'error: %1."
 
-#: kwalletmanager.cpp:231
+#: kwalletmanager.cpp:236
 #, kde-format
 msgid "Error opening wallet %1."
 msgstr "Fallu abriendo la cartera %1."
 
-#: kwalletmanager.cpp:273
+#: kwalletmanager.cpp:278
 msgid "Please choose a name for the new wallet:"
 msgstr "Por favor, escueya un nome pa la nueva cartera:"
 
-#: kwalletmanager.cpp:282
+#: kwalletmanager.cpp:287
 msgid "New Wallet"
 msgstr "Nueva cartera"
 
-#: kwalletmanager.cpp:290
+#: kwalletmanager.cpp:295
 msgid "Sorry, that wallet already exists. Try a new name?"
 msgstr "Yá esiste esa cartera. ¿Quies probar con un nome nuevu?"
 
-#: kwalletmanager.cpp:290
+#: kwalletmanager.cpp:295
 msgid "Try New"
 msgstr "Probar otru"
 
-#: kwalletmanager.cpp:312
+#: kwalletmanager.cpp:317
 #, kde-format
 msgid "Are you sure you wish to delete the wallet '%1'?"
 msgstr "¿Daveres que quies desaniciar la cartera '%1'?"
 
-#: kwalletmanager.cpp:318
+#: kwalletmanager.cpp:323
 #, kde-format
 msgid "Unable to delete the wallet. Error code was %1."
 msgstr "Ye imposible desaniciar la cartera. Códigu d'error: %1."
@@ -391,7 +397,7 @@ msgstr "Axu&stes"
 msgid "&Help"
 msgstr "Ayu&da"
 
-#: kwalletpopup.cpp:44 walletcontrolwidget.cpp:78
+#: kwalletpopup.cpp:44 walletcontrolwidget.cpp:94
 msgid "&Open..."
 msgstr "&Abrir..."
 
@@ -434,12 +440,12 @@ msgid "(c) 2003,2004 George Staikos"
 msgstr "(c) 2003,2004 George Staikos"
 
 #: main.cpp:50
-msgid "Michael Leupold"
-msgstr "Michael Leupold"
+msgid "Valentin Rusu"
+msgstr ""
 
 #: main.cpp:50
-msgid "Maintainer"
-msgstr "Caltenimientu"
+msgid "Maintainer, user interface refactoring"
+msgstr ""
 
 #: main.cpp:51
 msgid "George Staikos"
@@ -450,20 +456,22 @@ msgid "Original author and former maintainer"
 msgstr "Autor orixinal y anterior encargáu"
 
 #: main.cpp:52
+msgid "Michael Leupold"
+msgstr "Michael Leupold"
+
+#: main.cpp:52
+#, fuzzy
+#| msgid "Original author and former maintainer"
+msgid "Developer and former maintainer"
+msgstr "Autor orixinal y anterior encargáu"
+
+#: main.cpp:53
 msgid "Isaac Clerencia"
 msgstr "Isaac Clerencia"
 
-#: main.cpp:52
+#: main.cpp:53
 msgid "Developer"
 msgstr "Desendolcador"
-
-#: main.cpp:53
-msgid "Valentin Rusu"
-msgstr ""
-
-#: main.cpp:53
-msgid "Developer - user interface refactoring"
-msgstr ""
 
 #: main.cpp:58
 msgid "Show window on startup"
@@ -481,11 +489,11 @@ msgstr "Un nome de cartera"
 msgid "Revoke Authorization"
 msgstr ""
 
-#: walletcontrolwidget.cpp:57
+#: walletcontrolwidget.cpp:74
 msgid "&Close"
 msgstr ""
 
-#: walletcontrolwidget.cpp:74
+#: walletcontrolwidget.cpp:91
 #, fuzzy, kde-format
 #| msgid "A wallet is open."
 msgctxt ""
@@ -494,7 +502,7 @@ msgctxt ""
 msgid "The '%1' wallet is currently open"
 msgstr "Una cartera ta abierta."
 
-#: walletcontrolwidget.cpp:90
+#: walletcontrolwidget.cpp:106
 msgid "The wallet is currently closed"
 msgstr ""
 
@@ -562,6 +570,9 @@ msgstr "&Desfacer"
 msgid "&Save"
 msgstr "&Guardar"
 
+#~ msgid "Maintainer"
+#~ msgstr "Caltenimientu"
+
 #~ msgid "&Export..."
 #~ msgstr "&Esportar..."
 
@@ -579,6 +590,3 @@ msgstr "&Guardar"
 #~ msgstr ""
 #~ "Esta cartera forcióse a zarrar. Tienes de reabrila pa siguir trabayando "
 #~ "con ella."
-
-#~ msgid "Open Wallet"
-#~ msgstr "Abrir cartera"
