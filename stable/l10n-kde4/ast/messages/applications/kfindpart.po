@@ -32,15 +32,12 @@ msgctxt "@title:window"
 msgid "Find Files/Folders"
 msgstr "Guetar Ficheros/Carpetes"
 
-#: kfinddlg.cpp:73
-#: kfinddlg.cpp:202
+#: kfinddlg.cpp:73 kfinddlg.cpp:202
 msgctxt "the application is currently idle, there is no active search"
 msgid "Idle."
 msgstr "Inactivu."
 
-#: kfinddlg.cpp:138
-#: kfinddlg.cpp:241
-#: kfinddlg.cpp:270
+#: kfinddlg.cpp:138 kfinddlg.cpp:241 kfinddlg.cpp:270
 #, kde-format
 msgid "one file found"
 msgid_plural "%1 files found"
@@ -55,9 +52,7 @@ msgstr "Guetando..."
 msgid "Canceled."
 msgstr "Encaboxáu."
 
-#: kfinddlg.cpp:207
-#: kfinddlg.cpp:212
-#: kfinddlg.cpp:218
+#: kfinddlg.cpp:207 kfinddlg.cpp:212 kfinddlg.cpp:218
 msgid "Error."
 msgstr "Error."
 
@@ -188,12 +183,38 @@ msgid "Show &hidden files"
 msgstr "Amosar ficheros &anubríos"
 
 #: kftabdlg.cpp:110
-msgid "<qt>Enter the filename you are looking for. <br />Alternatives may be separated by a semicolon \";\".<br /><br />The filename may contain the following special characters:<ul><li><b>?</b> matches any single character</li><li><b>*</b> matches zero or more of any characters</li><li><b>[...]</b> matches any of the characters between the braces</li></ul><br />Example searches:<ul><li><b>*.kwd;*.txt</b> finds all files ending with .kwd or .txt</li><li><b>go[dt]</b> finds god and got</li><li><b>Hel?o</b> finds all files that start with \"Hel\" and end with \"o\", having one character in between</li><li><b>My Document.kwd</b> finds a file of exactly that name</li></ul></qt>"
-msgstr "<qt>Introduz el nome de ficheru que quies atopar. <br />Les alternatives puen tar separtaes por puntu y coma «;».<br /><br />El nome del ficheru pue puede contener los siguientes caráuteres especiales:<ul><li><b>?</b> concasa un solu caráuter</li><li><b>*</b> concasen cero o más caráuteres</li><li><b>[...]</b> concasa cualquiera de los caráuteres ente corchetes</li></ul><br />Exemplos de busca:<ul><li><b>*.kwd;*.txt</b> alcuentra tolos ficheros qu'acaben con .kwd o .txt</li><li><b>do[sn]</b> alcuentra dos y don</li><li><b>Hol?a</b> alcuentra tolos ficheros qu'entamen per «Hol» y finen per «o», con un solu caráuter en medio</li><li><b>El Mio Documentu.kwd</b> alcuentra un ficheru d'esi nome exautu</li></ul></qt>"
+msgid ""
+"<qt>Enter the filename you are looking for. <br />Alternatives may be "
+"separated by a semicolon \";\".<br /><br />The filename may contain the "
+"following special characters:<ul><li><b>?</b> matches any single character</"
+"li><li><b>*</b> matches zero or more of any characters</li><li><b>[...]</b> "
+"matches any of the characters between the braces</li></ul><br />Example "
+"searches:<ul><li><b>*.kwd;*.txt</b> finds all files ending with .kwd or ."
+"txt</li><li><b>go[dt]</b> finds god and got</li><li><b>Hel?o</b> finds all "
+"files that start with \"Hel\" and end with \"o\", having one character in "
+"between</li><li><b>My Document.kwd</b> finds a file of exactly that name</"
+"li></ul></qt>"
+msgstr ""
+"<qt>Introduz el nome de ficheru que quies atopar. <br />Les alternatives "
+"puen tar separtaes por puntu y coma «;».<br /><br />El nome del ficheru pue "
+"puede contener los siguientes caráuteres especiales:<ul><li><b>?</b> concasa "
+"un solu caráuter</li><li><b>*</b> concasen cero o más caráuteres</li><li><b>"
+"[...]</b> concasa cualquiera de los caráuteres ente corchetes</li></ul><br /"
+">Exemplos de busca:<ul><li><b>*.kwd;*.txt</b> alcuentra tolos ficheros "
+"qu'acaben con .kwd o .txt</li><li><b>do[sn]</b> alcuentra dos y don</"
+"li><li><b>Hol?a</b> alcuentra tolos ficheros qu'entamen per «Hol» y finen "
+"per «o», con un solu caráuter en medio</li><li><b>El Mio Documentu.kwd</b> "
+"alcuentra un ficheru d'esi nome exautu</li></ul></qt>"
 
 #: kftabdlg.cpp:131
-msgid "<qt>This lets you use the files' index created by the <i>slocate</i> package to speed-up the search; remember to update the index from time to time (using <i>updatedb</i>).</qt>"
-msgstr "<qt>Esto permítete usar los índices de ficheros creaos pol paquete <i>slocate</i> p'acelerar> la busca. Recuerda anovar l'índiz de xemes en cuando (usando <i>updatedb</i>)</qt>"
+msgid ""
+"<qt>This lets you use the files' index created by the <i>slocate</i> package "
+"to speed-up the search; remember to update the index from time to time "
+"(using <i>updatedb</i>).</qt>"
+msgstr ""
+"<qt>Esto permítete usar los índices de ficheros creaos pol paquete "
+"<i>slocate</i> p'acelerar> la busca. Recuerda anovar l'índiz de xemes en "
+"cuando (usando <i>updatedb</i>)</qt>"
 
 #: kftabdlg.cpp:180
 msgid "Find all files created or &modified:"
@@ -236,8 +257,7 @@ msgstr "Como máximo"
 msgid "Equal To"
 msgstr "Igual a"
 
-#: kftabdlg.cpp:231
-#: kftabdlg.cpp:897
+#: kftabdlg.cpp:231 kftabdlg.cpp:897
 msgid "Byte"
 msgid_plural "Bytes"
 msgstr[0] "Byte"
@@ -265,8 +285,15 @@ msgid "C&ontaining text:"
 msgstr "C&onteniendo'l testu:"
 
 #: kftabdlg.cpp:312
-msgid "<qt>If specified, only files that contain this text are found. Note that not all file types from the list above are supported. Please refer to the documentation for a list of supported file types.</qt>"
-msgstr "<qt>Si s'especifica, namái van atopase los ficheros que tengan esti testu. Decátate de que non toles tribes de ficheru de la llista d'arriba tán sofitaes. Has lleer la documentación pa ver una llista de los ficheros soportaos.</qt>"
+msgid ""
+"<qt>If specified, only files that contain this text are found. Note that not "
+"all file types from the list above are supported. Please refer to the "
+"documentation for a list of supported file types.</qt>"
+msgstr ""
+"<qt>Si s'especifica, namái van atopase los ficheros que tengan esti testu. "
+"Decátate de que non toles tribes de ficheru de la llista d'arriba tán "
+"sofitaes. Has lleer la documentación pa ver una llista de los ficheros "
+"soportaos.</qt>"
 
 #: kftabdlg.cpp:320
 msgid "Case s&ensitive"
@@ -281,8 +308,12 @@ msgid "Regular e&xpression"
 msgstr "&Espresión regular"
 
 #: kftabdlg.cpp:325
-msgid "<qt>This lets you search in any type of file, even those that usually do not contain text (for example program files and images).</qt>"
-msgstr "<qt>Esto permítete guetar en cualesquier triba de ficheru, inclusu n'aquellos que nun tienen testu (como los executables o les imáxenes).</qt>"
+msgid ""
+"<qt>This lets you search in any type of file, even those that usually do not "
+"contain text (for example program files and images).</qt>"
+msgstr ""
+"<qt>Esto permítete guetar en cualesquier triba de ficheru, inclusu "
+"n'aquellos que nun tienen testu (como los executables o les imáxenes).</qt>"
 
 #: kftabdlg.cpp:333
 msgid "&Edit..."
@@ -351,12 +382,26 @@ msgid "&Properties"
 msgstr "&Propiedaes"
 
 #: kftabdlg.cpp:412
-msgid "<qt>Search within files' specific comments/metainfo<br />These are some examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a title, an album</li><li><b>Images (png...)</b> Search images with a special resolution, comment...</li></ul></qt>"
-msgstr "<qt>Guetar dientro de comentarios/metainfo del ficheru<br />Estos son exemplos:<br /><ul><li><b>Ficheros audio (mp3...)</b> Busca n'etiqueta id3 un títulu, un álbum</li><li><b>Imáxenes (png...)</b> Busca imáxenes con una resolución especial, comentariu...</li></ul></qt>"
+msgid ""
+"<qt>Search within files' specific comments/metainfo<br />These are some "
+"examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
+"title, an album</li><li><b>Images (png...)</b> Search images with a special "
+"resolution, comment...</li></ul></qt>"
+msgstr ""
+"<qt>Guetar dientro de comentarios/metainfo del ficheru<br />Estos son "
+"exemplos:<br /><ul><li><b>Ficheros audio (mp3...)</b> Busca n'etiqueta id3 "
+"un títulu, un álbum</li><li><b>Imáxenes (png...)</b> Busca imáxenes con una "
+"resolución especial, comentariu...</li></ul></qt>"
 
 #: kftabdlg.cpp:420
-msgid "<qt>If specified, search only in this field<br /><ul><li><b>Audio files (mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> Search only in Resolution, Bitdepth...</li></ul></qt>"
-msgstr "<qt>Si s'especifica, gueta namái nesti campu<br /><ul><li><b>Ficheros d'audio (mp3...)</b> esti pue ser Títulu, Álbum...</li><li><b>Imáxenes (png...)</b>Gueta namái en resolución, profundidá de bit...</li></ul></qt>"
+msgid ""
+"<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
+"(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
+"Search only in Resolution, Bitdepth...</li></ul></qt>"
+msgstr ""
+"<qt>Si s'especifica, gueta namái nesti campu<br /><ul><li><b>Ficheros "
+"d'audio (mp3...)</b> esti pue ser Títulu, Álbum...</li><li><b>Imáxenes "
+"(png...)</b>Gueta namái en resolución, profundidá de bit...</li></ul></qt>"
 
 #: kftabdlg.cpp:613
 msgid "Unable to search within a period which is less than a minute."
@@ -391,7 +436,9 @@ msgid "Do Not Set"
 msgstr "Nun fixar"
 
 #: kftabdlg.cpp:887
-msgctxt "during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' minutes, 'h' hours, 'd' days, 'm' months, 'y' years"
+msgctxt ""
+"during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
+"minutes, 'h' hours, 'd' days, 'm' months, 'y' years"
 msgid "&during the previous"
 msgid_plural "&during the previous"
 msgstr[0] "&durante l'anterior"
@@ -528,4 +575,3 @@ msgstr "Clarence Dang"
 #: main.cpp:57
 msgid "Path(s) to search"
 msgstr "Ruta(es) nes que guetar"
-
