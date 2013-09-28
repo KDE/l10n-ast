@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: parley\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-19 01:39+0000\n"
+"POT-Creation-Date: 2013-09-28 01:36+0000\n"
 "PO-Revision-Date: 2010-10-24 21:52+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -84,24 +84,46 @@ msgstr[1] ""
 msgid "*.kvtml|Vocabulary Collections"
 msgstr "*.kvtml|Coleiciones de vocabulariu"
 
-#: plugins/google_images.py:46
+#: plugins/example.py:14 src/vocabulary/lessonview.cpp:37
+msgid "New Lesson"
+msgstr "Lleición nueva"
+
+#: plugins/example.py:26
+msgid "Move to new lesson"
+msgstr ""
+
+#: plugins/example.py:27
+#, fuzzy
+#| msgid "Save the active vocabulary collection"
+msgid "Moves the selected vocabulary to a new lesson"
+msgstr "Guardar la coleición de vocabulariu activa"
+
+#: plugins/example.py:32
+msgid "Mark as known (highest grade)"
+msgstr ""
+
+#: plugins/example.py:33
+msgid "Sets the grade for the selected words to 7 (highest grade)"
+msgstr ""
+
+#: plugins/google_images.py:47
 msgid ""
 "Error: ui file not found.\n"
 "Check your installation."
 msgstr ""
 
-#: plugins/google_images.py:46 plugins/google_images.py:243
-#: plugins/google_images.py:249
+#: plugins/google_images.py:47 plugins/google_images.py:244
+#: plugins/google_images.py:250
 msgid "Fetch Image"
 msgstr ""
 
-#: plugins/google_images.py:243
+#: plugins/google_images.py:244
 msgid ""
 "No Selection:\n"
 "Select a word to fetch an image for it"
 msgstr ""
 
-#: plugins/google_images.py:250
+#: plugins/google_images.py:251
 msgid "Fetches an image for the selected translation"
 msgstr ""
 
@@ -129,6 +151,16 @@ msgstr "Anterior"
 #: plugins/google_images.ui:116 src/editor/declensionwidget.ui:477
 msgid "Next"
 msgstr "Siguiente"
+
+#: plugins/wiktionary/wiktionary_sound.py:112
+#, fuzzy
+#| msgid "Sound"
+msgid "Fetch Sound"
+msgstr "Soníu"
+
+#: plugins/wiktionary/wiktionary_sound.py:113
+msgid "Fetches a sound file from commons.wikimedia.org for the selected word"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: src/configure-practice/advancedpracticeoptions.ui:17
@@ -3297,10 +3329,6 @@ msgstr[1] "Queden %1 pallabres nesta lleición. ¿Quies desaniciales?"
 msgctxt "display of the name of the vocabulary collection"
 msgid "Collection: %1"
 msgstr ""
-
-#: src/vocabulary/lessonview.cpp:37
-msgid "New Lesson"
-msgstr "Lleición nueva"
 
 #: src/vocabulary/lessonview.cpp:39
 msgid "Add a new lesson to your document"
