@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knetwalk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-06 01:38+0000\n"
+"POT-Creation-Date: 2013-10-07 01:39+0000\n"
 "PO-Revision-Date: 2010-10-23 10:25+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -26,7 +26,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xandru.martino@softastur.org"
 
-#: gameview.cpp:160
+#. i18n: ectx: property (toolTip), widget (QLabel, width)
+#: customgame.ui:30
+msgid "Width of the grid"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, width)
+#: customgame.ui:33
+msgid "Width:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Wrapping)
+#: customgame.ui:56
+msgid "Wrap from left to right and from top to bottom"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Wrapping)
+#: customgame.ui:59
+msgid "Wrapping"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, height)
+#: customgame.ui:66
+msgid "Height of the grid"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, height)
+#: customgame.ui:69
+msgid "Height:"
+msgstr ""
+
+#: gameview.cpp:161
 msgid ""
 "Note: to win the game all terminals <strong>and all <em>cables</em></strong> "
 "need to be connected to the server!"
@@ -34,9 +64,39 @@ msgstr ""
 "Nota: ¡Pa ganar el xuegu necesites coneutar tolos terminales <strong>y tolos "
 "<em>cables</em></strong> al sirvidor!"
 
-#: gameview.cpp:163
+#: gameview.cpp:164
 msgid "The game is not won yet!"
 msgstr "¡Entá nun se ganó'l xuegu!"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PlaySounds)
+#: general.ui:30
+msgid "Play sounds on actions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PlaySounds)
+#: general.ui:33
+msgid "Play Sounds"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: general.ui:53
+msgid "Duration for cell to complete one rotation in milliseconds"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: general.ui:56
+msgid "Rotate Duration:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Autolock)
+#: general.ui:63
+msgid "Automatically lock cell after rotation"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Autolock)
+#: general.ui:66
+msgid "Auto Lock"
+msgstr ""
 
 #. i18n: ectx: label, entry (username), group (Preferences)
 #: knetwalk.kcfg:9
@@ -216,6 +276,10 @@ msgstr "Mueve: %1"
 msgctxt "Time elapsed"
 msgid "Time: %1"
 msgstr "Tiempu: %1"
+
+#: qml/main.qml:76
+msgid "Paused"
+msgstr ""
 
 #~ msgid "Game is paused."
 #~ msgstr "El xuegu ta posáu."
