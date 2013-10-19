@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-18 01:39+0000\n"
+"POT-Creation-Date: 2013-10-19 01:35+0000\n"
 "PO-Revision-Date: 2010-10-19 22:58+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -235,97 +235,85 @@ msgstr "Id. del &remitente:"
 msgid "&Port:"
 msgstr "&Puertu:"
 
-#: knoteedit.cpp:59
+#: knoteedit.cpp:60
 msgid "Bold"
 msgstr "Negrina"
 
-#: knoteedit.cpp:64
+#: knoteedit.cpp:65
 msgid "Italic"
 msgstr "Cursiva"
 
-#: knoteedit.cpp:68
+#: knoteedit.cpp:69
 msgid "Underline"
 msgstr "Solliñáu"
 
-#: knoteedit.cpp:72
+#: knoteedit.cpp:73
 msgid "Strike Out"
 msgstr "Tacháu"
 
-#: knoteedit.cpp:85
+#: knoteedit.cpp:86
 msgid "Align Left"
 msgstr "Alliniar a manzorga"
 
-#: knoteedit.cpp:92
+#: knoteedit.cpp:93
 msgid "Align Center"
 msgstr "Alliniar al centru"
 
-#: knoteedit.cpp:98
+#: knoteedit.cpp:99
 msgid "Align Right"
 msgstr "Alliniar a mandrecha"
 
-#: knoteedit.cpp:104
+#: knoteedit.cpp:105
 msgid "Align Block"
 msgstr "Alliniar como Bloque"
 
-#: knoteedit.cpp:116
+#: knoteedit.cpp:117
 msgid "List"
 msgstr "Llista"
 
-#: knoteedit.cpp:121
+#: knoteedit.cpp:122
 msgid "Superscript"
 msgstr "Superíndiz"
 
-#: knoteedit.cpp:125
+#: knoteedit.cpp:126
 msgid "Subscript"
 msgstr "Soíndiz"
 
-#: knoteedit.cpp:132
+#: knoteedit.cpp:133
 msgid "Increase Indent"
 msgstr "Incrementar sangráu"
 
-#: knoteedit.cpp:140
+#: knoteedit.cpp:141
 msgid "Decrease Indent"
 msgstr "Amenorgar sangráu"
 
-#: knoteedit.cpp:153
+#: knoteedit.cpp:154
 msgid "Text Color..."
 msgstr "Color del testu..."
 
-#: knoteedit.cpp:158
+#: knoteedit.cpp:159
 msgid "Text Background Color..."
 msgstr "Color del fondu del testu..."
 
-#: knoteedit.cpp:162
+#: knoteedit.cpp:163
 msgid "Text Font"
 msgstr "Fonte del Testu"
 
-#: knoteedit.cpp:167
+#: knoteedit.cpp:168
 msgid "Text Size"
 msgstr "Tamañu del testu"
 
-#: knoteedit.cpp:172
+#: knoteedit.cpp:173
 msgid "Uppercase"
 msgstr ""
 
-#: knoteedit.cpp:176
+#: knoteedit.cpp:177
 msgid "Lowercase"
 msgstr ""
 
-#: knoteedit.cpp:221
+#: knoteedit.cpp:222
 msgid "Change case..."
 msgstr ""
-
-#: knoteprinter.cpp:96
-#, kde-format
-msgid "Print %1"
-msgstr "Imprentar %1"
-
-#: knoteprinter.cpp:131 knoteprinter.cpp:162
-#, kde-format
-msgid "Print Note"
-msgid_plural "Print %1 notes"
-msgstr[0] "Imprentar la nota"
-msgstr[1] "Imprentar %1 notes"
 
 #: knotesalarm.cpp:79
 msgid "The following notes triggered alarms:"
@@ -335,27 +323,35 @@ msgstr "Les siguientes notes dispararon alarmes:"
 msgid "Alarm"
 msgstr "Alarma"
 
-#: knotesapp.cpp:89
+#: knotesapp.cpp:90
 msgid "New Note"
 msgstr "Nueva nota"
 
-#: knotesapp.cpp:95
+#: knotesapp.cpp:96
 msgid "New Note From Clipboard"
 msgstr "Nota nueva dende'l cartafueyu"
 
-#: knotesapp.cpp:100
+#: knotesapp.cpp:101
 msgid "Show All Notes"
 msgstr "Amosar toles notes"
 
-#: knotesapp.cpp:106
+#: knotesapp.cpp:107
 msgid "Hide All Notes"
 msgstr "Anubrir toles notes"
 
-#: knotesapp.cpp:442
+#: knotesapp.cpp:113
+#, fuzzy
+#| msgid "Print Note"
+#| msgid_plural "Print %1 notes"
+msgctxt "@action:inmenu"
+msgid "Print Selected Notes..."
+msgstr "Imprentar la nota"
+
+#: knotesapp.cpp:449
 msgid "Settings"
 msgstr "Axustes"
 
-#: knotesapp.cpp:653
+#: knotesapp.cpp:661
 msgid "No Notes"
 msgstr "Ensin notes"
 
@@ -365,12 +361,12 @@ msgid "KNotes"
 msgstr "KNotes"
 
 #. i18n: ectx: Menu (help)
-#: knotesappui.rc:18
+#: knotesappui.rc:20
 msgid "&Help"
 msgstr "Ayu&da"
 
 #. i18n: ectx: Menu (notes_menu)
-#: knotesappui.rc:30 knotesappui.rc:31
+#: knotesappui.rc:32 knotesappui.rc:33
 msgid "Notes"
 msgstr "Notes"
 
@@ -520,6 +516,24 @@ msgstr "Nome de la máquina o direición IP:"
 #, kde-format
 msgid "Communication error: %1"
 msgstr "Fallu de comunicación: %1"
+
+#: print/knoteprinter.cpp:96
+#, kde-format
+msgid "Print %1"
+msgstr "Imprentar %1"
+
+#: print/knoteprinter.cpp:131 print/knoteprinter.cpp:162
+#, kde-format
+msgid "Print Note"
+msgid_plural "Print %1 notes"
+msgstr[0] "Imprentar la nota"
+msgstr[1] "Imprentar %1 notes"
+
+#: print/knoteprintselectednotesdialog.cpp:28
+#, fuzzy
+#| msgid "Select recipient:"
+msgid "Select notes"
+msgstr "Esbillar el destinatariu:"
 
 #: resource/resourcelocal.cpp:97
 #, kde-format
