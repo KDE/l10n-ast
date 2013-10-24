@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-23 01:31+0000\n"
+"POT-Creation-Date: 2013-10-24 01:31+0000\n"
 "PO-Revision-Date: 2010-10-19 22:58+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -26,45 +26,154 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "malditoastur@gmail.com"
 
-#: knote.cpp:152
+#: alarms/knotealarmdlg.cpp:56
+msgid "Scheduled Alarm"
+msgstr "Alarma planificada"
+
+#: alarms/knotealarmdlg.cpp:58
+msgid "&No alarm"
+msgstr "Ensi&n alarma"
+
+#: alarms/knotealarmdlg.cpp:65
+msgid "Alarm &at:"
+msgstr "Alarma &a les:"
+
+#: alarms/knotealarmdlg.cpp:73
+msgid "Alarm &in:"
+msgstr "Alarma &en:"
+
+#: alarms/knotesalarm.cpp:79
+msgid "The following notes triggered alarms:"
+msgstr "Les siguientes notes dispararon alarmes:"
+
+#: alarms/knotesalarm.cpp:82
+msgid "Alarm"
+msgstr "Alarma"
+
+#: configdialog/knoteconfigdlg.cpp:141
+msgid "&Text color:"
+msgstr "Color del &testu:"
+
+#: configdialog/knoteconfigdlg.cpp:150
+msgid "&Background color:"
+msgstr "Color del &fondu:"
+
+#: configdialog/knoteconfigdlg.cpp:161
+msgid "&Show note in taskbar"
+msgstr "Am&osar les notes na barra de xeres"
+
+#: configdialog/knoteconfigdlg.cpp:165
+msgid "&Remember desktop"
+msgstr "&Remembrar l'escritoriu"
+
+#: configdialog/knoteconfigdlg.cpp:169
+msgid "Default &width:"
+msgstr "A&nchor predefiníu:"
+
+#: configdialog/knoteconfigdlg.cpp:180
+msgid "Default &height:"
+msgstr "A&ltor predetermináu:"
+
+#: configdialog/knoteconfigdlg.cpp:232
+msgid "&Tab size:"
+msgstr "&Tamañu del tabulador:"
+
+#: configdialog/knoteconfigdlg.cpp:242
+msgid "Auto &indent"
+msgstr "&Sangráu automáticu"
+
+#: configdialog/knoteconfigdlg.cpp:247
+msgid "&Rich text"
+msgstr "Testu en&riquecíu"
+
+#: configdialog/knoteconfigdlg.cpp:251
+msgid "Text font:"
+msgstr "Fonte de lletra:"
+
+#: configdialog/knoteconfigdlg.cpp:260
+msgid "Title font:"
+msgstr "Fonte de lletra del títulu:"
+
+#: configdialog/knoteconfigdlg.cpp:302
+msgid "&Mail action:"
+msgstr "Aición de &corréu:"
+
+#: configdialog/knoteconfigdlg.cpp:310
+msgid "<a href=\"whatsthis\">How does this work?</a>"
+msgstr ""
+
+#: configdialog/knoteconfigdlg.cpp:322
+msgid ""
+"<qt><p>You can customize command line. You can use:</p><ul><li>%t returns "
+"current note title</li><li>%f returns current note text</li></ul></qt>"
+msgstr ""
+
+#: configdialog/knoteconfigdlg.cpp:354
+msgid "Incoming Notes"
+msgstr "Notes Entrantes"
+
+#: configdialog/knoteconfigdlg.cpp:357
+msgid "Accept incoming notes"
+msgstr "Aceutar les notes entrantes"
+
+#: configdialog/knoteconfigdlg.cpp:363
+msgid "Outgoing Notes"
+msgstr "Notes salientes"
+
+#: configdialog/knoteconfigdlg.cpp:366
+msgid "&Sender ID:"
+msgstr "Id. del &remitente:"
+
+#: configdialog/knoteconfigdlg.cpp:378
+msgid "&Port:"
+msgstr "&Puertu:"
+
+#: configdialog/knoteconfigdlg.cpp:415
+msgid "Theme:"
+msgstr ""
+
+#: configdialog/knotesimpleconfigdialog.cpp:49
+msgid "Display"
+msgstr "Amosar"
+
+#: configdialog/knotesimpleconfigdialog.cpp:50
+msgid "Display Settings"
+msgstr "Amosar configuración"
+
+#: configdialog/knotesimpleconfigdialog.cpp:51
+msgid "Editor"
+msgstr "Editor"
+
+#: configdialog/knotesimpleconfigdialog.cpp:52
+msgid "Editor Settings"
+msgstr "Configuración del editor"
+
+#: knote.cpp:150
 #, kde-format
 msgid "<qt>Do you really want to delete note <b>%1</b>?</qt>"
 msgstr "<qt>¿Daveres que quies desaniciar la nota <b>%1</b>?</qt>"
 
-#: knote.cpp:154
+#: knote.cpp:152
 msgid "Confirm Delete"
 msgstr "Confirmar el desaniciáu"
 
-#: knote.cpp:155
+#: knote.cpp:153
 msgid "&Delete"
 msgstr "D&esaniciar"
 
-#: knote.cpp:317
+#: knote.cpp:315
 msgid "Please enter the new name:"
 msgstr "Introduza'l nuevu nome:"
 
-#: knote.cpp:422
-#, kde-format
-msgid "Send \"%1\""
-msgstr "Unviar «%1»"
-
-#: knote.cpp:433
-msgid "The host cannot be empty."
-msgstr "El host nun puede quedar baleru."
-
-#: knote.cpp:465
-msgid "Unable to start the mail process."
-msgstr "Nun puede aniciase'l procesu de corréu."
-
-#: knote.cpp:521
+#: knote.cpp:479
 msgid "Save note as plain text"
 msgstr "Guarda la nota como testu planu"
 
-#: knote.cpp:527
+#: knote.cpp:485
 msgid "Save As"
 msgstr "Guardar como"
 
-#: knote.cpp:545
+#: knote.cpp:503
 #, kde-format
 msgid ""
 "<qt>A file named <b>%1</b> already exists.<br />Are you sure you want to "
@@ -73,171 +182,73 @@ msgstr ""
 "<qt>Yá esiste un ficheru denomáu <b>%1</b>.<br />¿Daveres quies "
 "sobroscribilu?</qt>"
 
-#: knote.cpp:647
+#: knote.cpp:605
 msgid "&All Desktops"
 msgstr "&Tolos Escritorios"
 
-#: knote.cpp:688
+#: knote.cpp:646
 msgid "New"
 msgstr "Nuevu"
 
-#: knote.cpp:692
+#: knote.cpp:650
 msgid "Rename..."
 msgstr "Renomar..."
 
-#: knote.cpp:697
+#: knote.cpp:655
 msgid "Lock"
 msgstr "Bloquiar"
 
-#: knote.cpp:701
+#: knote.cpp:659
 msgid "Unlock"
 msgstr "Desbloquiar"
 
-#: knote.cpp:703
+#: knote.cpp:661
 msgid "Hide"
 msgstr "Anubrir"
 
-#: knote.cpp:708
+#: knote.cpp:666
 msgid "Delete"
 msgstr "Desaniciar"
 
-#: knote.cpp:712
+#: knote.cpp:670
 msgid "Insert Date"
 msgstr "Inxertar una data"
 
-#: knote.cpp:716
+#: knote.cpp:674
 msgid "Set Alarm..."
 msgstr "Afitar l'alarma..."
 
-#: knote.cpp:721
+#: knote.cpp:679
 msgid "Send..."
 msgstr "Unviar..."
 
-#: knote.cpp:725
+#: knote.cpp:683
 msgid "Mail..."
 msgstr "Corréu..."
 
-#: knote.cpp:729
+#: knote.cpp:687
 msgid "Save As..."
 msgstr "Guardar como..."
 
-#: knote.cpp:740
+#: knote.cpp:698
 msgid "Preferences..."
 msgstr "Preferencies…"
 
-#: knote.cpp:746
+#: knote.cpp:704
 msgid "Keep Above Others"
 msgstr "Caltener sobre les otres"
 
-#: knote.cpp:752
+#: knote.cpp:710
 msgid "Keep Below Others"
 msgstr "Caltener embaxo les otres"
 
-#: knote.cpp:758
+#: knote.cpp:716
 msgid "To Desktop"
 msgstr "Al escritoriu"
 
-#: knote.cpp:769
+#: knote.cpp:727
 msgid "Walk Through Notes"
 msgstr "Un paséu peles notes"
-
-#: knotealarmdlg.cpp:56
-msgid "Scheduled Alarm"
-msgstr "Alarma planificada"
-
-#: knotealarmdlg.cpp:58
-msgid "&No alarm"
-msgstr "Ensi&n alarma"
-
-#: knotealarmdlg.cpp:65
-msgid "Alarm &at:"
-msgstr "Alarma &a les:"
-
-#: knotealarmdlg.cpp:73
-msgid "Alarm &in:"
-msgstr "Alarma &en:"
-
-#: knoteconfigdlg.cpp:141
-msgid "&Text color:"
-msgstr "Color del &testu:"
-
-#: knoteconfigdlg.cpp:150
-msgid "&Background color:"
-msgstr "Color del &fondu:"
-
-#: knoteconfigdlg.cpp:161
-msgid "&Show note in taskbar"
-msgstr "Am&osar les notes na barra de xeres"
-
-#: knoteconfigdlg.cpp:165
-msgid "&Remember desktop"
-msgstr "&Remembrar l'escritoriu"
-
-#: knoteconfigdlg.cpp:169
-msgid "Default &width:"
-msgstr "A&nchor predefiníu:"
-
-#: knoteconfigdlg.cpp:180
-msgid "Default &height:"
-msgstr "A&ltor predetermináu:"
-
-#: knoteconfigdlg.cpp:232
-msgid "&Tab size:"
-msgstr "&Tamañu del tabulador:"
-
-#: knoteconfigdlg.cpp:242
-msgid "Auto &indent"
-msgstr "&Sangráu automáticu"
-
-#: knoteconfigdlg.cpp:247
-msgid "&Rich text"
-msgstr "Testu en&riquecíu"
-
-#: knoteconfigdlg.cpp:251
-msgid "Text font:"
-msgstr "Fonte de lletra:"
-
-#: knoteconfigdlg.cpp:260
-msgid "Title font:"
-msgstr "Fonte de lletra del títulu:"
-
-#: knoteconfigdlg.cpp:302
-msgid "&Mail action:"
-msgstr "Aición de &corréu:"
-
-#: knoteconfigdlg.cpp:310
-msgid "<a href=\"whatsthis\">How does this work?</a>"
-msgstr ""
-
-#: knoteconfigdlg.cpp:322
-msgid ""
-"<qt><p>You can customize command line. You can use:</p><ul><li>%t returns "
-"current note title</li><li>%f returns current note text</li></ul></qt>"
-msgstr ""
-
-#: knoteconfigdlg.cpp:354
-msgid "Incoming Notes"
-msgstr "Notes Entrantes"
-
-#: knoteconfigdlg.cpp:357
-msgid "Accept incoming notes"
-msgstr "Aceutar les notes entrantes"
-
-#: knoteconfigdlg.cpp:363
-msgid "Outgoing Notes"
-msgstr "Notes salientes"
-
-#: knoteconfigdlg.cpp:366
-msgid "&Sender ID:"
-msgstr "Id. del &remitente:"
-
-#: knoteconfigdlg.cpp:378
-msgid "&Port:"
-msgstr "&Puertu:"
-
-#: knoteconfigdlg.cpp:415
-msgid "Theme:"
-msgstr ""
 
 #: knoteedit.cpp:60
 msgid "Bold"
@@ -315,17 +326,9 @@ msgstr ""
 msgid "Lowercase"
 msgstr ""
 
-#: knoteedit.cpp:222
+#: knoteedit.cpp:227
 msgid "Change case..."
 msgstr ""
-
-#: knotesalarm.cpp:79
-msgid "The following notes triggered alarms:"
-msgstr "Les siguientes notes dispararon alarmes:"
-
-#: knotesalarm.cpp:82
-msgid "Alarm"
-msgstr "Alarma"
 
 #: knotesapp.cpp:92
 msgid "New Note"
@@ -374,22 +377,6 @@ msgstr "Ayu&da"
 msgid "Notes"
 msgstr "Notes"
 
-#: knotesimpleconfigdialog.cpp:49
-msgid "Display"
-msgstr "Amosar"
-
-#: knotesimpleconfigdialog.cpp:50
-msgid "Display Settings"
-msgstr "Amosar configuración"
-
-#: knotesimpleconfigdialog.cpp:51
-msgid "Editor"
-msgstr "Editor"
-
-#: knotesimpleconfigdialog.cpp:52
-msgid "Editor Settings"
-msgstr "Configuración del editor"
-
 #: knoteskeydialog.cpp:27
 msgid "Configure Shortcuts"
 msgstr "Configurar Atayos"
@@ -401,6 +388,19 @@ msgstr "Aiciones pa la Nota"
 #: knotestray.cpp:31
 msgid "KNotes: Sticky notes for KDE"
 msgstr "KNotes: Notes adhesives pa KDE"
+
+#: knoteutils.cpp:144
+msgid "Unable to start the mail process."
+msgstr "Nun puede aniciase'l procesu de corréu."
+
+#: knoteutils.cpp:152
+#, kde-format
+msgid "Send \"%1\""
+msgstr "Unviar «%1»"
+
+#: knoteutils.cpp:163
+msgid "The host cannot be empty."
+msgstr "El host nun puede quedar baleru."
 
 #: main.cpp:45
 msgid "KDE Notes"
