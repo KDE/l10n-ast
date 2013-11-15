@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-14 01:24+0000\n"
+"POT-Creation-Date: 2013-11-15 01:35+0000\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -8854,29 +8854,29 @@ msgstr ""
 msgid "&Cancel"
 msgstr "En&caboxar"
 
+#: dialogs/OrganizeCollectionDialog.cpp:110
 #: dialogs/OrganizeCollectionDialog.cpp:113
-#: dialogs/OrganizeCollectionDialog.cpp:116
 #, kde-format
 msgid "%1 or %2"
 msgstr "%1 o %2"
 
-#: dialogs/OrganizeCollectionDialog.cpp:117
+#: dialogs/OrganizeCollectionDialog.cpp:114
 msgid "Artist's Initial"
 msgstr "Iniciales del artista"
 
-#: dialogs/OrganizeCollectionDialog.cpp:118
+#: dialogs/OrganizeCollectionDialog.cpp:115
 msgid "File Extension of Source"
 msgstr "Estensión del ficheru d'orixe"
 
-#: dialogs/OrganizeCollectionDialog.cpp:119
+#: dialogs/OrganizeCollectionDialog.cpp:116
 msgid "Track Number"
 msgstr "Númberu de pista"
 
-#: dialogs/OrganizeCollectionDialog.cpp:121
+#: dialogs/OrganizeCollectionDialog.cpp:118
 msgid "You can use the following tokens:"
 msgstr "Puede usar los siguientes elementos:"
 
-#: dialogs/OrganizeCollectionDialog.cpp:128
+#: dialogs/OrganizeCollectionDialog.cpp:125
 msgid ""
 "If you surround sections of text that contain a token with curly-braces, "
 "that section will be hidden if the token is empty."
@@ -8884,11 +8884,23 @@ msgstr ""
 "Si enzarra ente llaves seiciones de testu que contengan un elementu, esa "
 "seición anubriráse si l'elementu ta ermu."
 
-#: dialogs/OrganizeCollectionDialog.cpp:353
+#: dialogs/OrganizeCollectionDialog.cpp:314
+#, fuzzy, kde-format
+#| msgid "Original author"
+msgid "Original: %1"
+msgstr "Autor orixinal"
+
+#: dialogs/OrganizeCollectionDialog.cpp:315
+#, fuzzy, kde-format
+#| msgid "Preview"
+msgid "Preview: %1"
+msgstr "Previu"
+
+#: dialogs/OrganizeCollectionDialog.cpp:381
 msgid "There is a filename conflict, existing files will be overwritten."
 msgstr ""
 
-#: dialogs/OrganizeCollectionDialog.cpp:355
+#: dialogs/OrganizeCollectionDialog.cpp:383
 msgid "There is a filename conflict, existing files will not be changed."
 msgstr ""
 
@@ -8919,7 +8931,7 @@ msgstr ""
 #: dialogs/OrganizeCollectionDialogBase.ui:58
 #: dialogs/OrganizeCollectionDialogBase.ui:61
 msgid ""
-"<html>Show/hide additional controls to speficy destination track paths based "
+"<html>Show/hide additional controls to specify destination track paths based "
 "on their metadata.</html>"
 msgstr ""
 
@@ -8935,27 +8947,13 @@ msgstr "Opciones"
 msgid "Destination Preview"
 msgstr "Vista previa del destín"
 
-#. i18n: ectx: property (text), widget (QTableWidget, previewTableWidget)
-#. i18n: ectx: property (text), widget (QPushButton, previewButton)
-#: dialogs/OrganizeCollectionDialogBase.ui:116
-#: playlist/layouts/PlaylistLayoutEditDialog.ui:291
-msgid "Preview"
-msgstr "Previu"
-
-#. i18n: ectx: property (text), widget (QTableWidget, previewTableWidget)
-#: dialogs/OrganizeCollectionDialogBase.ui:124
-#, fuzzy
-#| msgid "Original author"
-msgid "Original"
-msgstr "Autor orixinal"
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, overwriteCheck)
-#: dialogs/OrganizeCollectionDialogBase.ui:153
+#: dialogs/OrganizeCollectionDialogBase.ui:159
 msgid "If checked, overwrite files of the same name without asking."
 msgstr "Si ta activao, sobroscribe los ficheros col mesmu nome ensin entrugar."
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, overwriteCheck)
-#: dialogs/OrganizeCollectionDialogBase.ui:160
+#: dialogs/OrganizeCollectionDialogBase.ui:166
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -8971,7 +8969,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, overwriteCheck)
-#: dialogs/OrganizeCollectionDialogBase.ui:163
+#: dialogs/OrganizeCollectionDialogBase.ui:169
 msgid "Overwrite &Destination"
 msgstr "Sobroscribir &destín"
 
@@ -11575,6 +11573,11 @@ msgstr "Agrupar por"
 #| msgid "Show top tracks"
 msgid "Show tooltips"
 msgstr "1 pista"
+
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
+#: playlist/layouts/PlaylistLayoutEditDialog.ui:291
+msgid "Preview"
+msgstr "Previu"
 
 #: playlist/navigators/NavigatorConfigAction.cpp:33
 #, fuzzy
