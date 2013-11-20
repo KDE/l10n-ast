@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-19 01:33+0000\n"
+"POT-Creation-Date: 2013-11-20 01:32+0000\n"
 "PO-Revision-Date: 2010-10-24 00:00+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministrador@softastur.org>\n"
@@ -264,22 +264,22 @@ msgid "&Export"
 msgstr "&Esportar"
 
 #. i18n: ectx: Menu (edit)
-#: kaddressbookui.rc:39
+#: kaddressbookui.rc:40
 msgid "&Edit"
 msgstr "&Editar"
 
 #. i18n: ectx: Menu (view)
-#: kaddressbookui.rc:50
+#: kaddressbookui.rc:51
 msgid "&View"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
-#: kaddressbookui.rc:60
+#: kaddressbookui.rc:61
 msgid "&Settings"
 msgstr "&Configuración"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kaddressbookui.rc:93
+#: kaddressbookui.rc:94
 msgid "Main Toolbar"
 msgstr "Barra de ferramientes principal"
 
@@ -419,11 +419,17 @@ msgstr ""
 msgid "Merge Contacts..."
 msgstr "Imprentar contautos"
 
-#: mainwidget.cpp:630 mainwidget.cpp:647
+#: mainwidget.cpp:627
+#, fuzzy
+#| msgid "Print Contacts"
+msgid "Search Duplicate Contacts..."
+msgstr "Imprentar contautos"
+
+#: mainwidget.cpp:634 mainwidget.cpp:651
 msgid "Address Book"
 msgstr "Llibreta de direiciones"
 
-#: mainwidget.cpp:654 printing/printingwizard.cpp:59
+#: mainwidget.cpp:658 printing/printingwizard.cpp:59
 msgid "Print Contacts"
 msgstr "Imprentar contautos"
 
@@ -434,11 +440,15 @@ msgid ""
 "wide shortcuts."
 msgstr ""
 
-#: merge/mergecontactsdialog.cpp:26
+#: merge/mergecontactsdialog.cpp:28
 #, fuzzy
 #| msgid "Selected contacts"
 msgid "Select Contacts to merge"
 msgstr "Contautos esbillaos"
+
+#: merge/potentialduplicatecontactswidget.cpp:81
+msgid "No duplicate contact found."
+msgstr ""
 
 #: merge/searchduplicatecontactwizard.cpp:31
 msgid "Search potential duplicate contacts"
