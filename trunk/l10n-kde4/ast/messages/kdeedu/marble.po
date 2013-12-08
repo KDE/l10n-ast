@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: marble\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-07 01:28+0000\n"
+"POT-Creation-Date: 2013-12-08 01:31+0000\n"
 "PO-Revision-Date: 2010-10-24 21:18+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -2175,8 +2175,10 @@ msgstr "Ficheru"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeFolderButton)
 #. i18n: ectx: property (text), widget (QPushButton, removeBookmarkButton)
+#. i18n: ectx: property (text), item, widget (QPushButton, m_openButton)
 #: src/lib/marble/BookmarkManagerDialog.ui:91
 #: src/lib/marble/BookmarkManagerDialog.ui:151
+#: src/lib/marble/TourWidget.ui:129
 #, fuzzy
 #| msgid "Desert"
 msgid "Delete"
@@ -2476,8 +2478,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, FileViewWidget)
-#. i18n: ectx: property (windowTitle), widget (QWidget, TourWidget)
-#: src/lib/marble/FileViewWidget.ui:14 src/lib/marble/TourWidget.ui:14
+#: src/lib/marble/FileViewWidget.ui:14
 msgid "File View"
 msgstr "Vista de ficheru"
 
@@ -4449,6 +4450,47 @@ msgstr ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\">La triba de lletra "
 "predeterminada que s'usará nel mapa.</p></body></html>"
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, MovieCaptureDialog)
+#: src/lib/marble/MovieCaptureDialog.ui:20
+msgid "Movie Recording - Marble"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/lib/marble/MovieCaptureDialog.ui:65
+#, fuzzy
+#| msgid "Description field"
+msgid "Destination video"
+msgstr "Campu de la descripción"
+
+#. i18n: ectx: property (text), widget (QPushButton, openButton)
+#: src/lib/marble/MovieCaptureDialog.ui:81
+#, fuzzy
+#| msgctxt "Action for opening a file"
+#| msgid "&Open..."
+msgid "Open..."
+msgstr "&Abrir..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/lib/marble/MovieCaptureDialog.ui:97
+#, fuzzy
+#| msgid "Meters per second"
+msgid "FPS (frames per second)"
+msgstr "Metros por segundu"
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#: src/lib/marble/MovieCaptureDialog.ui:169
+#: src/lib/marble/SunControlWidget.ui:308
+#: src/lib/marble/TimeControlWidget.ui:215
+msgid "Cancel"
+msgstr "Encaboxar"
+
+#. i18n: ectx: property (text), widget (QPushButton, startButton)
+#: src/lib/marble/MovieCaptureDialog.ui:176
+#, fuzzy
+#| msgid "State:"
+msgid "Start"
+msgstr "Estáu:"
+
 #. i18n: ectx: property (toolTip), widget (QListView, locationListView)
 #: src/lib/marble/NavigationWidget.ui:42
 msgid "Location Browser"
@@ -4726,12 +4768,6 @@ msgstr "OK"
 msgid "Apply"
 msgstr "Aplicar"
 
-#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: src/lib/marble/SunControlWidget.ui:308
-#: src/lib/marble/TimeControlWidget.ui:215
-msgid "Cancel"
-msgstr "Encaboxar"
-
 #. i18n: ectx: property (windowTitle), widget (QDialog, TileCreatorDialog)
 #: src/lib/marble/TileCreatorDialog.ui:20
 msgid "Creating Map"
@@ -4852,12 +4888,40 @@ msgstr "Llocalización d'Anguaño"
 msgid "Time Speed"
 msgstr "Fusos horarios"
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, TourWidget)
+#: src/lib/marble/TourWidget.ui:14
+msgid "Tour"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QToolBar, m_toolBar)
+#: src/lib/marble/TourWidget.ui:20
+msgid "toolBar"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, m_openButton)
-#: src/lib/marble/TourWidget.ui:44
+#: src/lib/marble/TourWidget.ui:61
 #, fuzzy
 #| msgid "OpenGL"
 msgid "Open"
 msgstr "OpenGL"
+
+#. i18n: ectx: property (text), item, widget (QPushButton, m_openButton)
+#: src/lib/marble/TourWidget.ui:90
+#, fuzzy
+#| msgid "&Add Folder"
+msgid "Add FlyTo"
+msgstr "&Amestar carpeta"
+
+#. i18n: ectx: property (text), item, widget (QPushButton, m_openButton)
+#. i18n: ectx: property (toolTip), item, widget (QPushButton, m_openButton)
+#: src/lib/marble/TourWidget.ui:102 src/lib/marble/TourWidget.ui:105
+msgid "Move up"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QPushButton, m_openButton)
+#: src/lib/marble/TourWidget.ui:117
+msgid "Move down"
+msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, worldclockConfig)
 #: src/plasmoid/worldclockConfig.ui:35
@@ -6406,9 +6470,6 @@ msgstr ""
 #~ msgid "Alternative name"
 #~ msgstr "Nome alternativu"
 
-#~ msgid "Description field"
-#~ msgstr "Campu de la descripción"
-
 #~ msgid "Coordinates:"
 #~ msgstr "Coordenaes:"
 
@@ -6518,12 +6579,6 @@ msgstr ""
 #~| msgid "Server"
 #~ msgid "Server URL:"
 #~ msgstr "Sirvidor"
-
-#, fuzzy
-#~| msgctxt "Action for opening a file"
-#~| msgid "&Open..."
-#~ msgid "Open..."
-#~ msgstr "&Abrir..."
 
 #~ msgid "&OK"
 #~ msgstr "&OK"
