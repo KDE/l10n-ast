@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-25 01:22+0000\n"
+"POT-Creation-Date: 2013-12-29 01:24+0000\n"
 "PO-Revision-Date: 2012-12-27 17:18+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -910,7 +910,7 @@ msgstr ""
 msgid "Artistic"
 msgstr ""
 
-#: image/filter/kis_filter.cc:45 plugins/filters/blur/kis_blur_filter.h:39
+#: image/filter/kis_filter.cc:45 plugins/filters/blur/kis_blur_filter.h:38
 msgid "Blur"
 msgstr ""
 
@@ -1416,7 +1416,7 @@ msgstr "Abrir..."
 msgid "Ellipse assistant"
 msgstr ""
 
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:571
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:583
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr ""
 
@@ -1465,6 +1465,10 @@ msgstr ""
 msgid "ColorBalanceMidtones Adjustment"
 msgstr ""
 
+#: plugins/colorspaces/extensions/kis_desaturate_adjustment.cpp:135
+msgid "Desaturate Adjustment"
+msgstr ""
+
 #: plugins/colorspaces/extensions/kis_dodgehighlights_adjustment.cpp:99
 msgid "DODGE Adjustment"
 msgstr ""
@@ -1478,7 +1482,7 @@ msgid "DodgeShadows Adjustment"
 msgstr ""
 
 #: plugins/colorspaces/extensions/kis_hsv_adjustment.cpp:231
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.h:53
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.h:51
 msgid "HSV/HSL Adjustment"
 msgstr ""
 
@@ -1974,11 +1978,11 @@ msgstr ""
 msgid "delta h=%1 s=%2 v=%3 shift h=%4 s=%5 v=%6"
 msgstr ""
 
-#: plugins/extensions/dockers/advancedcolorselector/kis_shade_selector_line_combo_box.cpp:47
+#: plugins/extensions/dockers/advancedcolorselector/kis_shade_selector_line_editor.cpp:29
 msgid "Delta: "
 msgstr ""
 
-#: plugins/extensions/dockers/advancedcolorselector/kis_shade_selector_line_combo_box.cpp:58
+#: plugins/extensions/dockers/advancedcolorselector/kis_shade_selector_line_editor.cpp:40
 msgid "Shift: "
 msgstr ""
 
@@ -2779,7 +2783,7 @@ msgstr ""
 msgid "View:"
 msgstr "&Ver"
 
-#: plugins/extensions/dockers/overview/overviewdocker_dock.cpp:34
+#: plugins/extensions/dockers/overview/overviewdocker_dock.cpp:32
 msgid "Overview"
 msgstr ""
 
@@ -4271,7 +4275,7 @@ msgstr ""
 msgid "&Gaussian Blur..."
 msgstr ""
 
-#: plugins/filters/blur/kis_gaussian_blur_filter.h:44
+#: plugins/filters/blur/kis_gaussian_blur_filter.h:42
 msgid "Gaussian Blur"
 msgstr ""
 
@@ -4279,7 +4283,7 @@ msgstr ""
 msgid "&Lens Blur..."
 msgstr ""
 
-#: plugins/filters/blur/kis_lens_blur_filter.h:45
+#: plugins/filters/blur/kis_lens_blur_filter.h:44
 msgid "Lens Blur"
 msgstr ""
 
@@ -4287,7 +4291,7 @@ msgstr ""
 msgid "&Motion Blur..."
 msgstr ""
 
-#: plugins/filters/blur/kis_motion_blur_filter.h:45
+#: plugins/filters/blur/kis_motion_blur_filter.h:44
 msgid "Motion Blur"
 msgstr ""
 
@@ -4424,7 +4428,7 @@ msgstr ""
 msgid "&Color to Alpha..."
 msgstr ""
 
-#: plugins/filters/colors/kis_color_to_alpha.h:42
+#: plugins/filters/colors/kis_color_to_alpha.h:40
 msgid "Color to Alpha"
 msgstr ""
 
@@ -4436,11 +4440,11 @@ msgstr ""
 msgid "M&inimize Channel"
 msgstr ""
 
-#: plugins/filters/colors/kis_minmax_filters.h:41
+#: plugins/filters/colors/kis_minmax_filters.h:39
 msgid "Maximize Channel"
 msgstr ""
 
-#: plugins/filters/colors/kis_minmax_filters.h:60
+#: plugins/filters/colors/kis_minmax_filters.h:56
 msgid "Minimize Channel"
 msgstr ""
 
@@ -4454,27 +4458,19 @@ msgstr ""
 msgid "Threshold:"
 msgstr ""
 
-#: plugins/filters/colorsfilters/colorsfilters.cpp:89
+#: plugins/filters/colorsfilters/colorsfilters.cpp:92
 msgid "&Auto Contrast"
-msgstr ""
-
-#: plugins/filters/colorsfilters/colorsfilters.cpp:191
-msgid "&Desaturate"
 msgstr ""
 
 #: plugins/filters/colorsfilters/colorsfilters.h:51
 msgid "Auto Contrast"
 msgstr ""
 
-#: plugins/filters/colorsfilters/colorsfilters.h:66
-msgid "Desaturate"
-msgstr ""
-
 #: plugins/filters/colorsfilters/kis_brightness_contrast_filter.cpp:161
 msgid "&Brightness/Contrast curve..."
 msgstr ""
 
-#: plugins/filters/colorsfilters/kis_brightness_contrast_filter.h:94
+#: plugins/filters/colorsfilters/kis_brightness_contrast_filter.h:93
 msgid "Brightness / Contrast"
 msgstr ""
 
@@ -4482,8 +4478,16 @@ msgstr ""
 msgid "&Color Balance.."
 msgstr ""
 
-#: plugins/filters/colorsfilters/kis_color_balance_filter.h:55
+#: plugins/filters/colorsfilters/kis_color_balance_filter.h:53
 msgid "Color Balance"
+msgstr ""
+
+#: plugins/filters/colorsfilters/kis_desaturate_filter.cpp:61
+msgid "&Desaturate"
+msgstr ""
+
+#: plugins/filters/colorsfilters/kis_desaturate_filter.h:47
+msgid "Desaturate"
 msgstr ""
 
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:31
@@ -4599,6 +4603,26 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, chkPreserveLuminosity)
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:336
 msgid "Preserve Luminosity"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupType)
+#: plugins/filters/colorsfilters/wdg_desaturate.ui:17
+msgid "Desaturation method:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioAverage)
+#: plugins/filters/colorsfilters/wdg_desaturate.ui:36
+msgid "&Average"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioLuminosity)
+#: plugins/filters/colorsfilters/wdg_desaturate.ui:43
+msgid "Lu&minosity"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioLightness)
+#: plugins/filters/colorsfilters/wdg_desaturate.ui:53
+msgid "&Lightness"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -4797,7 +4821,7 @@ msgstr ""
 msgid "&Wavelet Noise Reducer..."
 msgstr ""
 
-#: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.h:51
+#: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.h:49
 msgid "Wavelet Noise Reducer"
 msgstr ""
 
@@ -4830,7 +4854,7 @@ msgstr ""
 msgid "&Random Noise..."
 msgstr ""
 
-#: plugins/filters/noisefilter/noisefilter.h:52
+#: plugins/filters/noisefilter/noisefilter.h:50
 msgid "Noise"
 msgstr ""
 
@@ -4859,7 +4883,7 @@ msgctxt "smooth out the painting strokes the filter creates"
 msgid "Smooth"
 msgstr ""
 
-#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.h:40
+#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.h:38
 msgid "Oilpaint"
 msgstr ""
 
@@ -5028,7 +5052,7 @@ msgstr ""
 msgid "Pixel height"
 msgstr ""
 
-#: plugins/filters/pixelizefilter/kis_pixelize_filter.h:41
+#: plugins/filters/pixelizefilter/kis_pixelize_filter.h:39
 msgid "Pixelize"
 msgstr ""
 
@@ -5044,7 +5068,7 @@ msgstr ""
 msgid "Fish eyes"
 msgstr ""
 
-#: plugins/filters/raindropsfilter/kis_raindrops_filter.h:41
+#: plugins/filters/raindropsfilter/kis_raindrops_filter.h:39
 msgid "Raindrops"
 msgstr ""
 
@@ -5052,7 +5076,7 @@ msgstr ""
 msgid "&Random Pick..."
 msgstr ""
 
-#: plugins/filters/randompickfilter/randompickfilter.h:50
+#: plugins/filters/randompickfilter/randompickfilter.h:49
 msgid "Random Pick"
 msgstr ""
 
@@ -5065,7 +5089,7 @@ msgstr ""
 msgid "&Round Corners..."
 msgstr ""
 
-#: plugins/filters/roundcorners/kis_round_corners_filter.h:41
+#: plugins/filters/roundcorners/kis_round_corners_filter.h:39
 msgid "Round Corners"
 msgstr ""
 
@@ -5077,7 +5101,7 @@ msgstr ""
 msgid "Number of tiles"
 msgstr ""
 
-#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.h:43
+#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.h:41
 msgid "Small Tiles"
 msgstr ""
 
@@ -5101,7 +5125,7 @@ msgstr ""
 msgid "Make image opaque"
 msgstr ""
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.h:41
+#: plugins/filters/sobelfilter/kis_sobel_filter.h:39
 msgid "Sobel"
 msgstr ""
 
@@ -5110,7 +5134,7 @@ msgid "&Unsharp Mask..."
 msgstr ""
 
 #: plugins/filters/unsharp/kis_unsharp_filter.cpp:77
-#: plugins/filters/unsharp/kis_unsharp_filter.h:41
+#: plugins/filters/unsharp/kis_unsharp_filter.h:39
 msgid "Unsharp Mask"
 msgstr ""
 
@@ -5128,7 +5152,7 @@ msgstr ""
 msgid "&Wave..."
 msgstr ""
 
-#: plugins/filters/wavefilter/wavefilter.h:53
+#: plugins/filters/wavefilter/wavefilter.h:51
 msgid "Wave"
 msgstr ""
 
@@ -8576,7 +8600,7 @@ msgstr ""
 msgid "Multiline"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.h:499
+#: plugins/tools/tool_transform2/kis_tool_transform.h:518
 msgid "Transform a layer or a selection"
 msgstr ""
 
@@ -8602,7 +8626,7 @@ msgstr ""
 msgid "Unlock Points"
 msgstr ""
 
-#: plugins/tools/tool_transform2/strokes/transform_stroke_strategy.cpp:38
+#: plugins/tools/tool_transform2/strokes/transform_stroke_strategy.cpp:39
 msgid "Transform Stroke"
 msgstr ""
 
@@ -10303,7 +10327,7 @@ msgid ""
 "\", for example the brush size for the brush tool."
 msgstr ""
 
-#: ui/input/kis_input_manager.cpp:485
+#: ui/input/kis_input_manager.cpp:486
 msgid "Set Mirror Axis"
 msgstr ""
 
@@ -10820,22 +10844,22 @@ msgstr "&Ficheru"
 msgid "Apply Filter Again"
 msgstr ""
 
-#: ui/kis_filter_manager.cc:179
+#: ui/kis_filter_manager.cc:178
 #, kde-format
 msgid ""
 "The %1 filter will convert your %2 data to 16-bit L*a*b* and vice versa. "
 msgstr ""
 
-#: ui/kis_filter_manager.cc:182 ui/kis_filter_manager.cc:190
+#: ui/kis_filter_manager.cc:181 ui/kis_filter_manager.cc:189
 msgid "Filter Will Convert Your Layer Data"
 msgstr ""
 
-#: ui/kis_filter_manager.cc:188
+#: ui/kis_filter_manager.cc:187
 #, kde-format
 msgid "The %1 filter will convert your %2 data to 16-bit RGBA and vice versa. "
 msgstr ""
 
-#: ui/kis_filter_manager.cc:262
+#: ui/kis_filter_manager.cc:261
 #, kde-format
 msgid "Apply Filter Again: %1"
 msgstr ""
@@ -11469,28 +11493,24 @@ msgstr ""
 msgid "No options"
 msgstr ""
 
-#: ui/tool/kis_tool.cc:680
+#: ui/tool/kis_tool.cc:690
 msgid "Layer is locked and invisible."
 msgstr ""
 
-#: ui/tool/kis_tool.cc:682
+#: ui/tool/kis_tool.cc:692
 msgid "Layer is locked."
 msgstr ""
 
-#: ui/tool/kis_tool.cc:684
+#: ui/tool/kis_tool.cc:694
 msgid "Layer is invisible."
 msgstr ""
 
-#: ui/tool/kis_tool.cc:686
+#: ui/tool/kis_tool.cc:696
 msgid "Group not editable."
 msgstr ""
 
-#: ui/tool/kis_tool.cc:701
+#: ui/tool/kis_tool.cc:711
 msgid "Local selection is locked."
-msgstr ""
-
-#: ui/tool/kis_tool_freehand.cc:182
-msgid "Can't paint on this layer."
 msgstr ""
 
 #: ui/tool/kis_tool_freehand_helper.cpp:200
