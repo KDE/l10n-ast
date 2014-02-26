@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: parley\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-25 01:36+0000\n"
+"POT-Creation-Date: 2014-02-26 01:40+0000\n"
 "PO-Revision-Date: 2010-10-24 21:52+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -245,26 +245,38 @@ msgstr ""
 msgid "Image for Solution"
 msgstr "Solución"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PracticeSoundEnabled)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AllowImageInsteadOfWord)
 #: src/configure-practice/advancedpracticeoptions.ui:110
+#, fuzzy
+#| msgid "Show images on the back of the flashcard."
+msgid "Allow using images instead of words in flashcards."
+msgstr "Amosar les imáxenes nel reversu de la tarxeta."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowImageInsteadOfWord)
+#: src/configure-practice/advancedpracticeoptions.ui:113
+msgid "Allow images instead of words"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PracticeSoundEnabled)
+#: src/configure-practice/advancedpracticeoptions.ui:123
 msgid "Enable playing of pronunciation sound files during the practice."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PracticeSoundEnabled)
-#: src/configure-practice/advancedpracticeoptions.ui:113
-#: src/editor/editor.cpp:302
+#: src/configure-practice/advancedpracticeoptions.ui:126
+#: src/editor/editor.cpp:334
 msgid "Sound"
 msgstr "Soníu"
 
 #. i18n: ectx: property (text), widget (QLabel, synonymLabel)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/configure-practice/advancedpracticeoptions.ui:142
-#: src/editor/editor.cpp:232 src/editor/synonymwidget.ui:16
+#: src/configure-practice/advancedpracticeoptions.ui:139
+#: src/editor/editor.cpp:243 src/editor/synonymwidget.ui:16
 msgid "Synonyms"
 msgstr "Sinónimos"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/configure-practice/advancedpracticeoptions.ui:148
+#: src/configure-practice/advancedpracticeoptions.ui:145
 msgid ""
 "By default you are asked to enter synonyms until you enter the one that is "
 "associated directly with the current word. With this option enabled any "
@@ -272,7 +284,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_CountSynonymsAsCorrect)
-#: src/configure-practice/advancedpracticeoptions.ui:158
+#: src/configure-practice/advancedpracticeoptions.ui:155
 #, fuzzy
 #| msgid "Select Synonyms"
 msgid "Accept any Synonym"
@@ -280,25 +292,25 @@ msgstr "Seleicionar sinónimos"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. i18n: ectx: property (text), widget (QRadioButton, multipleChoice)
-#: src/configure-practice/advancedpracticeoptions.ui:168
-#: src/editor/editor.cpp:220 src/statistics/statisticsmainwindow.ui:115
+#: src/configure-practice/advancedpracticeoptions.ui:165
+#: src/editor/editor.cpp:228 src/statistics/statisticsmainwindow.ui:115
 msgid "Multiple Choice"
 msgstr "Eleición múltiple"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_MultipleChoiceWordTypeConsistancy)
-#: src/configure-practice/advancedpracticeoptions.ui:174
+#: src/configure-practice/advancedpracticeoptions.ui:171
 msgid ""
 "When creating multiple choice practices, try to show answers of the same "
 "word type."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MultipleChoiceWordTypeConsistancy)
-#: src/configure-practice/advancedpracticeoptions.ui:177
+#: src/configure-practice/advancedpracticeoptions.ui:174
 msgid "Use choices of the same word type"
 msgstr "Usar eleiciones de la mesma triba de pallabra"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/configure-practice/advancedpracticeoptions.ui:192
+#: src/configure-practice/advancedpracticeoptions.ui:189
 #, fuzzy
 #| msgid "Total number of entries:"
 msgid "Number of choices:"
@@ -814,11 +826,11 @@ msgstr "Vocativu"
 msgid "Number:"
 msgstr ""
 
-#: src/editor/editor.cpp:149
+#: src/editor/editor.cpp:150
 msgid "Lessons"
 msgstr "Lleiciones"
 
-#: src/editor/editor.cpp:159
+#: src/editor/editor.cpp:160
 msgid ""
 "Right click to add, delete, or rename lessons. \n"
 "With the checkboxes you can select which lessons you want to practice. \n"
@@ -829,55 +841,55 @@ msgstr ""
 "Coles caxelles pues seleicionar en qué lleiciones quies prauticar. \n"
 "¡Nos tests sólo se te va entrugar poles lleiciones marcaes con [x]!"
 
-#: src/editor/editor.cpp:174
+#: src/editor/editor.cpp:175
 msgid "Word Types"
 msgstr "Tribes de pallabra"
 
-#: src/editor/editor.cpp:195
+#: src/editor/editor.cpp:196
 msgid "Inflection (verbs, adjectives, nouns)"
 msgstr ""
 
-#: src/editor/editor.cpp:208
+#: src/editor/editor.cpp:212
 msgid "Comparison forms"
 msgstr "Formes de comparación"
 
-#: src/editor/editor.cpp:243
+#: src/editor/editor.cpp:257
 msgid "Antonyms"
 msgstr "Antónimos"
 
-#: src/editor/editor.cpp:254
+#: src/editor/editor.cpp:272
 msgid "False Friends"
 msgstr "False Friends"
 
-#: src/editor/editor.cpp:266
+#: src/editor/editor.cpp:288
 msgid "Phonetic Symbols"
 msgstr "Símbolos fonéticos"
 
-#: src/editor/editor.cpp:278
+#: src/editor/editor.cpp:303
 msgid "Image"
 msgstr "Imaxe"
 
-#: src/editor/editor.cpp:290
+#: src/editor/editor.cpp:319
 msgid "Summary"
 msgstr "Resume"
 
-#: src/editor/editor.cpp:314
+#: src/editor/editor.cpp:350
 msgid "Internet"
 msgstr "Internet"
 
-#: src/editor/editor.cpp:327
+#: src/editor/editor.cpp:367
 msgid "LaTeX"
 msgstr "LaTeX"
 
-#: src/editor/editor.cpp:359 src/editor/editor.cpp:360
+#: src/editor/editor.cpp:403 src/editor/editor.cpp:404
 msgid "Practice"
 msgstr ""
 
-#: src/editor/editor.cpp:396
+#: src/editor/editor.cpp:440
 msgid "Enter search terms here"
 msgstr "Introduz los términos de gueta equí"
 
-#: src/editor/editor.cpp:400
+#: src/editor/editor.cpp:444
 msgid "S&earch:"
 msgstr "Gu&etar:"
 
@@ -903,18 +915,18 @@ msgid "&Lesson"
 msgstr "&Lleición"
 
 #. i18n: ectx: Menu (learning)
-#: src/editor/editorui.rc:59 src/practice/practicesummaryui.rc:12
+#: src/editor/editorui.rc:62 src/practice/practicesummaryui.rc:12
 #: src/statistics/statisticsui.rc:12
 msgid "&Practice"
 msgstr "&Práutica"
 
 #. i18n: ectx: Menu (scripts)
-#: src/editor/editorui.rc:64
+#: src/editor/editorui.rc:67
 msgid "&Scripts"
 msgstr "Guione&s"
 
 #. i18n: ectx: ToolBar (editorToolBar)
-#: src/editor/editorui.rc:73 src/parleyui.rc:27
+#: src/editor/editorui.rc:76 src/parleyui.rc:27
 msgid "Editor Toolbar"
 msgstr "Barra del editor"
 
@@ -1057,22 +1069,22 @@ msgid "Word type"
 msgstr "Triba de pallabra"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/editor/summarywordwidget.ui:55 src/vocabulary/vocabularymodel.cpp:288
+#: src/editor/summarywordwidget.ui:55 src/vocabulary/vocabularymodel.cpp:292
 msgid "Pronunciation"
 msgstr "Pronunciación"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/editor/summarywordwidget.ui:71 src/vocabulary/vocabularymodel.cpp:296
+#: src/editor/summarywordwidget.ui:71 src/vocabulary/vocabularymodel.cpp:300
 msgid "Example"
 msgstr "Exemplu"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/editor/summarywordwidget.ui:87 src/vocabulary/vocabularymodel.cpp:300
+#: src/editor/summarywordwidget.ui:87 src/vocabulary/vocabularymodel.cpp:304
 msgid "Paraphrase"
 msgstr "Paráfrasis"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: src/editor/summarywordwidget.ui:103 src/vocabulary/vocabularymodel.cpp:298
+#: src/editor/summarywordwidget.ui:103 src/vocabulary/vocabularymodel.cpp:302
 msgid "Comment"
 msgstr "Comentariu"
 
@@ -1131,7 +1143,7 @@ msgid "False Friends of %1:"
 msgstr "False Friends de %1:"
 
 #. i18n: ectx: property (text), widget (QPushButton, synonymButton)
-#: src/editor/synonymwidget.ui:26 src/vocabulary/vocabularymodel.cpp:292
+#: src/editor/synonymwidget.ui:26 src/vocabulary/vocabularymodel.cpp:296
 msgid "Synonym"
 msgstr "Sinónimos"
 
@@ -2879,8 +2891,15 @@ msgstr "Activar les imáxenes nos diálogos de práutica."
 msgid "Enable sound playback in the practice dialogs."
 msgstr "Activar reproducción de soníu nos diálogos de práutica."
 
-#. i18n: ectx: label, entry (MultipleChoiceWordTypeConsistancy), group (PracticeOptions)
+#. i18n: ectx: label, entry (AllowImageInsteadOfWord), group (PracticeOptions)
 #: src/settings/parley.kcfg:166
+msgid ""
+"Check this if you want to practice with images instead of words in "
+"flashcards."
+msgstr ""
+
+#. i18n: ectx: label, entry (MultipleChoiceWordTypeConsistancy), group (PracticeOptions)
+#: src/settings/parley.kcfg:170
 msgid ""
 "Use the same word type as the solution for the incorrect answers in a "
 "multiple choice practice."
@@ -2889,7 +2908,7 @@ msgstr ""
 "nuna práutica d'eleición múltiple."
 
 #. i18n: ectx: label, entry (NumberMultipleChoiceAnswers), group (PracticeOptions)
-#: src/settings/parley.kcfg:170
+#: src/settings/parley.kcfg:174
 msgid ""
 "How many answers are provided for a multiple choice question, including the "
 "correct answer."
@@ -2898,67 +2917,67 @@ msgstr ""
 "incluyendo la rempuesta correuta."
 
 #. i18n: ectx: label, entry (ShowSearch), group (Appearance)
-#: src/settings/parley.kcfg:177
+#: src/settings/parley.kcfg:181
 msgid "Toggle display of the search bar."
 msgstr "Amosar o anubrir la barra de gueta."
 
 #. i18n: ectx: label, entry (ShowSublessonentries), group (Appearance)
-#: src/settings/parley.kcfg:182
+#: src/settings/parley.kcfg:186
 msgid "When enabled a lesson also shows entries from its sublessons."
 msgstr ""
 "Cuando s'activa una lleición amosar tamién les entraes pa los tos sub-"
 "lleiciones."
 
 #. i18n: ectx: label, entry (TableLessonColumnVisible), group (Appearance)
-#: src/settings/parley.kcfg:187
+#: src/settings/parley.kcfg:191
 msgid "Show/hide the lesson column."
 msgstr "Amosar o anubrir la columna de la lleición."
 
 #. i18n: ectx: label, entry (TableActiveColumnVisible), group (Appearance)
-#: src/settings/parley.kcfg:192
+#: src/settings/parley.kcfg:196
 msgid "Show/hide the active column."
 msgstr "Amosar o anubrir la columna activa."
 
 #. i18n: ectx: label, entry (LessonEditingSelection), group (Appearance)
-#: src/settings/parley.kcfg:197
+#: src/settings/parley.kcfg:201
 msgid "Select which lessons are displayed for editing"
 msgstr "Seleiciona qué lleiciones deberíen amosase pa editar"
 
 #. i18n: ectx: label, entry (MainWindowSplitter), group (Appearance)
-#: src/settings/parley.kcfg:207
+#: src/settings/parley.kcfg:211
 msgid "How the main window is divided."
 msgstr "Cómo se dixebra la ventana principal."
 
 #. i18n: ectx: label, entry (PracticeFont), group (Appearance)
-#: src/settings/parley.kcfg:211
+#: src/settings/parley.kcfg:215
 msgid "The font used in the vocabulary table"
 msgstr "La triba de lletra usada na tabla de vocabulariu"
 
 #. i18n: ectx: label, entry (IPAFont), group (Appearance)
-#: src/settings/parley.kcfg:215
+#: src/settings/parley.kcfg:219
 msgid "The font used for phonetics"
 msgstr "La triba de lletra usada pa la fonética"
 
 #. i18n: ectx: label, entry (CurrentCol), group (Appearance)
-#: src/settings/parley.kcfg:219
+#: src/settings/parley.kcfg:223
 msgid "Currently selected column"
 msgstr "Columna actual seleicionada"
 
 #. i18n: ectx: label, entry (CurrentRow), group (Appearance)
-#: src/settings/parley.kcfg:223
+#: src/settings/parley.kcfg:227
 msgid "Currently selected row"
 msgstr "Filera actual seleicionada"
 
 #. i18n: ectx: label, entry (GradeColor), group (Appearance)
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor)
-#: src/settings/parley.kcfg:227 src/settings/viewoptionsbase.ui:102
+#: src/settings/parley.kcfg:231 src/settings/viewoptionsbase.ui:102
 #, fuzzy
 #| msgid "Colors used to display different grades"
 msgid "Color used to display the grades"
 msgstr "Colores usaos p'amosar graos distintos"
 
 #. i18n: ectx: label, entry (PracticeMinimumTimesAsked), group (Thresholds)
-#: src/settings/parley.kcfg:235
+#: src/settings/parley.kcfg:239
 msgid ""
 "The entry must have been asked at least this often to be included in the "
 "practice."
@@ -2967,7 +2986,7 @@ msgstr ""
 "na práutica."
 
 #. i18n: ectx: label, entry (PracticeMaximumTimesAsked), group (Thresholds)
-#: src/settings/parley.kcfg:239
+#: src/settings/parley.kcfg:243
 msgid ""
 "The entry must have been asked at most this often to be included in the "
 "practice."
@@ -2976,7 +2995,7 @@ msgstr ""
 "na práutica."
 
 #. i18n: ectx: label, entry (PracticeMinimumWrongCount), group (Thresholds)
-#: src/settings/parley.kcfg:244
+#: src/settings/parley.kcfg:248
 #, fuzzy
 #| msgid ""
 #| "The entry must have been asked at least this often to be included in the "
@@ -2989,7 +3008,7 @@ msgstr ""
 "na práutica."
 
 #. i18n: ectx: label, entry (PracticeMaximumWrongCount), group (Thresholds)
-#: src/settings/parley.kcfg:248
+#: src/settings/parley.kcfg:252
 #, fuzzy
 #| msgid ""
 #| "The entry must have been asked at most this often to be included in the "
@@ -3002,7 +3021,7 @@ msgstr ""
 "na práutica."
 
 #. i18n: ectx: label, entry (PracticeMinimumGrade), group (Thresholds)
-#: src/settings/parley.kcfg:253
+#: src/settings/parley.kcfg:257
 msgid ""
 "The entry must have at least this grade to be included in the practice "
 "(0..7)."
@@ -3011,7 +3030,7 @@ msgstr ""
 "práutica (0..7)."
 
 #. i18n: ectx: label, entry (PracticeMaximumGrade), group (Thresholds)
-#: src/settings/parley.kcfg:257
+#: src/settings/parley.kcfg:261
 msgid ""
 "The entry must have at most this grade to be included in the practice (0..7)."
 msgstr ""
@@ -3019,69 +3038,69 @@ msgstr ""
 "práutica (0..7)."
 
 #. i18n: ectx: label, entry (WordTypesInPracticeEnabled), group (Thresholds)
-#: src/settings/parley.kcfg:261
+#: src/settings/parley.kcfg:265
 msgid "Only selected word types will be included in practice."
 msgstr "Solo van incluyise na práutica les tribes de pallabra seleicionaes."
 
 #. i18n: ectx: label, entry (WordTypesInPractice), group (Thresholds)
 #. i18n: ectx: whatsthis, entry (WordTypesInPractice), group (Thresholds)
-#: src/settings/parley.kcfg:265 src/settings/parley.kcfg:266
+#: src/settings/parley.kcfg:269 src/settings/parley.kcfg:270
 msgid "Selected word types for practices."
 msgstr "Tribes de pallabres seleicionaes pa práutiques."
 
 #. i18n: ectx: label, entry (SubWordTypesInPractice), group (Thresholds)
 #. i18n: ectx: whatsthis, entry (SubWordTypesInPractice), group (Thresholds)
-#: src/settings/parley.kcfg:269 src/settings/parley.kcfg:270
+#: src/settings/parley.kcfg:273 src/settings/parley.kcfg:274
 msgid "Selected sub word types for practices."
 msgstr "Subtribes de pallabres seleicionaes pa práutiques."
 
 #. i18n: ectx: label, entry (QuestionLanguage), group (PracticeManager)
-#: src/settings/parley.kcfg:276
+#: src/settings/parley.kcfg:280
 msgid "The language that is displayed in a test."
 msgstr "La llingua que s'amuesa nuna prueba."
 
 #. i18n: ectx: label, entry (SolutionLanguage), group (PracticeManager)
-#: src/settings/parley.kcfg:280
+#: src/settings/parley.kcfg:284
 msgid "The language in which the user has to answer."
 msgstr "La llingua na que tien que retrucar l'usuariu."
 
 #. i18n: ectx: label, entry (ShowSolutionAfterAnswer), group (PracticeManager)
-#: src/settings/parley.kcfg:285
+#: src/settings/parley.kcfg:289
 msgid "Show the solution after an answer was given."
 msgstr "Amuesa la solución dempués de retrucar."
 
 #. i18n: ectx: label, entry (ShowSolutionAfterAnswerTime), group (PracticeManager)
-#: src/settings/parley.kcfg:289
+#: src/settings/parley.kcfg:293
 msgid "The time the solution is shown (seconds). 0 is unlimited."
 msgstr "Amuésase'l tiempu de solución (segundos). 0 ensin llímite."
 
 #. i18n: ectx: label, entry (PracticeMode), group (PracticeManager)
-#: src/settings/parley.kcfg:304
+#: src/settings/parley.kcfg:308
 msgid "The practice mode that is currently selected."
 msgstr ""
 
 #. i18n: ectx: label, entry (BlockItem$(Grade)), group (PracticeManager)
-#: src/settings/parley.kcfg:310
+#: src/settings/parley.kcfg:314
 msgid "Amount of time different grades should be blocked"
 msgstr "Cantidá de tiempu que deberíen bloquease los diferentes graos"
 
 #. i18n: ectx: label, entry (ExpireItem$(Grade)), group (PracticeManager)
-#: src/settings/parley.kcfg:321
+#: src/settings/parley.kcfg:325
 msgid "Amount of time after which different grades should expire"
 msgstr "Cantidá de tiempu tres d'el que deberíen espirar los diferentes graos"
 
 #. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
-#: src/settings/parley.kcfg:333
+#: src/settings/parley.kcfg:337
 msgid "The Providers path for Parley"
 msgstr "El camín a los proveedores de Parley"
 
 #. i18n: ectx: label, entry (InstallationCommand), group (KNewStuff)
-#: src/settings/parley.kcfg:337
+#: src/settings/parley.kcfg:341
 msgid "The command used to start a downloaded vocabulary"
 msgstr "La orde usada p'aniciar un vocabulariu baxáu"
 
 #. i18n: ectx: label, entry (InstallPath), group (KNewStuff)
-#: src/settings/parley.kcfg:341
+#: src/settings/parley.kcfg:345
 msgid "The folder where downloaded vocabularies are saved by default"
 msgstr ""
 "La carpeta na que van guardase de forma predeterminada los vocabularios "
@@ -3151,11 +3170,27 @@ msgid "Alt+0"
 msgstr "Alt+7"
 
 #: src/statistics/lessonstatistics.cpp:101
-msgid "Remove &Grades"
-msgstr "Desaniciar les &calificaciones"
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove &Grades from this lesson"
+msgstr "Desaniciar toles calificaciones d'esta lleición"
 
 #: src/statistics/lessonstatistics.cpp:103
-msgid "Remove all grades from this lesson"
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove grades from this lesson"
+msgstr "Desaniciar toles calificaciones d'esta lleición"
+
+#: src/statistics/lessonstatistics.cpp:111
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove &Grades from this lesson and all sub-lessons"
+msgstr "Desaniciar toles calificaciones d'esta lleición"
+
+#: src/statistics/lessonstatistics.cpp:113
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove grades from this lesson and all sub-lessons"
 msgstr "Desaniciar toles calificaciones d'esta lleición"
 
 #: src/statistics/statisticsmainwindow.cpp:56
@@ -3238,11 +3273,11 @@ msgstr "Nengún"
 msgid "Number of entries in this lesson."
 msgstr "Númberu d'entraes nesta lleición."
 
-#: src/vocabulary/leitnerview.cpp:117 src/vocabulary/lessonview.cpp:150
+#: src/vocabulary/leitnerview.cpp:117 src/vocabulary/lessonview.cpp:172
 msgid "The root lesson cannot be deleted."
 msgstr "La lleición raíz nun se puede desaniciar."
 
-#: src/vocabulary/leitnerview.cpp:126 src/vocabulary/lessonview.cpp:159
+#: src/vocabulary/leitnerview.cpp:126 src/vocabulary/lessonview.cpp:181
 #, kde-format
 msgid "There is %1 word left in this lesson. Do you want to delete it?"
 msgid_plural ""
@@ -3280,11 +3315,35 @@ msgstr "Dixebrar la lleición en lleiciones más pequeñes"
 msgid "Make multiple smaller lessons out of one big lesson."
 msgstr "Convertir una lleición grande en varies pequeñes."
 
-#: src/vocabulary/lessonview.cpp:173
+#: src/vocabulary/lessonview.cpp:69
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove Grades from this Lesson"
+msgstr "Desaniciar toles calificaciones d'esta lleición"
+
+#: src/vocabulary/lessonview.cpp:71
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove grades from this lesson."
+msgstr "Desaniciar toles calificaciones d'esta lleición"
+
+#: src/vocabulary/lessonview.cpp:77
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove Grades from this Lesson and all Sub-Lessons"
+msgstr "Desaniciar toles calificaciones d'esta lleición"
+
+#: src/vocabulary/lessonview.cpp:79
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove grades from this lesson and all sub-lessons."
+msgstr "Desaniciar toles calificaciones d'esta lleición"
+
+#: src/vocabulary/lessonview.cpp:195
 msgid "Entries per Lesson"
 msgstr "Entraes por lleición"
 
-#: src/vocabulary/lessonview.cpp:173
+#: src/vocabulary/lessonview.cpp:195
 msgid ""
 "The lesson will be split into smaller lessons. How many entries in each "
 "lesson do you want?"
@@ -3300,39 +3359,39 @@ msgstr "Columnes de vocabulariu"
 msgid "Enable/Disable the columns for each language"
 msgstr "Activar/Desactivar les columnes de cada llingua"
 
-#: src/vocabulary/vocabularymodel.cpp:193
+#: src/vocabulary/vocabularymodel.cpp:197
 msgid "You can drag and drop words onto their word type."
 msgstr "Pues arrastrar y soltar pallabres na so triba de pallabra."
 
-#: src/vocabulary/vocabularymodel.cpp:195
+#: src/vocabulary/vocabularymodel.cpp:199
 msgid "Enable the synonym view to edit synonyms."
 msgstr ""
 
-#: src/vocabulary/vocabularymodel.cpp:197
+#: src/vocabulary/vocabularymodel.cpp:201
 msgid "Enable the antonym view to edit antonyms."
 msgstr ""
 
-#: src/vocabulary/vocabularymodel.cpp:290
+#: src/vocabulary/vocabularymodel.cpp:294
 msgid "Word Type"
 msgstr "Tribes de pallabra"
 
-#: src/vocabulary/vocabularymodel.cpp:294
+#: src/vocabulary/vocabularymodel.cpp:298
 msgid "Antonym"
 msgstr "Antónimos"
 
-#: src/vocabulary/vocabularymodel.cpp:319
+#: src/vocabulary/vocabularymodel.cpp:323
 msgid "Please use Edit -> Languages to set up your document."
 msgstr "Utiliza Editar -> Llingües pa configurar el to documentu."
 
-#: src/vocabulary/vocabularymodel.cpp:319
+#: src/vocabulary/vocabularymodel.cpp:323
 msgid "No Languages Defined"
 msgstr "Nun hai llingües definíes"
 
-#: src/vocabulary/vocabularymodel.cpp:324
+#: src/vocabulary/vocabularymodel.cpp:328
 msgid "Select a lesson before adding vocabulary."
 msgstr "Seleiciona una lleición enantes d'amestar el vocabulariu."
 
-#: src/vocabulary/vocabularymodel.cpp:324
+#: src/vocabulary/vocabularymodel.cpp:328
 msgid "No Lesson Selected"
 msgstr "Nun hai nenguna lleición seleicionada"
 
@@ -3676,6 +3735,9 @@ msgstr ""
 "nel que pues atopar munchos documentos de vocabulariu:\n"
 "<a href=\"http://edu.kde.org/contrib/kvtml2.php\">http://edu.kde.org/contrib/"
 "kvtml2.php</a>.</p>\n"
+
+#~ msgid "Remove &Grades"
+#~ msgstr "Desaniciar les &calificaciones"
 
 #~ msgid "Use your own colors"
 #~ msgstr "Usar los sos propios colores"
