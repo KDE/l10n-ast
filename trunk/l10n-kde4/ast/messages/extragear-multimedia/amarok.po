@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-27 01:33+0000\n"
+"POT-Creation-Date: 2014-03-01 01:31+0000\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -328,7 +328,7 @@ msgid "Stop after current track: On"
 msgstr ""
 
 #: ActionClasses.cpp:493 context/engines/current/CurrentEngine.cpp:143
-#: EngineController.cpp:1327 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:668
+#: EngineController.cpp:1327 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:669
 msgid "No track playing"
 msgstr "Denguna pista en reproducción"
 
@@ -10242,7 +10242,7 @@ msgstr "Mou de datos"
 msgid "Now playing"
 msgstr "Agora reproduciendo"
 
-#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:692
+#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:693
 msgid "No information available for this track"
 msgstr "Nun hai información disponible pa esta pista"
 
@@ -15813,16 +15813,19 @@ msgstr ""
 msgid "Slim Toolbar"
 msgstr "Barra de ferramientes principal"
 
-#: toolbar/VolumePopupButton.cpp:107 toolbar/VolumePopupButton.cpp:118
+#: toolbar/VolumePopupButton.cpp:107 toolbar/VolumePopupButton.cpp:119
 #: widgets/Osd.cpp:201
-msgid "(muted)"
-msgstr "(calláu)"
+#, fuzzy, kde-format
+#| msgid "Volume"
+msgid "Volume: %1% (muted)"
+msgstr "Volume"
 
-#: toolbar/VolumePopupButton.cpp:107 toolbar/VolumePopupButton.cpp:118
-#: widgets/Osd.cpp:201
-#, kde-format
-msgid "Volume: %1% %2"
-msgstr ""
+#: toolbar/VolumePopupButton.cpp:107 widgets/Osd.cpp:201
+#: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340
+#, fuzzy, kde-format
+#| msgid "Volume"
+msgid "Volume: %1%"
+msgstr "Volume"
 
 #: transcoding/TranscodingAssistantDialog.cpp:44
 #, fuzzy
@@ -16233,24 +16236,24 @@ msgstr "ta ente"
 msgid "Rating changed"
 msgstr ""
 
-#: widgets/Osd.cpp:262
+#: widgets/Osd.cpp:263
 msgid "Volume: 100% (muted)"
 msgstr ""
 
-#: widgets/Osd.cpp:510
+#: widgets/Osd.cpp:511
 #, fuzzy
 msgid ""
 "On-Screen-Display preview\n"
 "Drag to reposition"
 msgstr "Previsualización del OSD- arrastre pa reallugar"
 
-#: widgets/Osd.cpp:758
+#: widgets/Osd.cpp:759
 #, fuzzy
 #| msgid "%1 - Stopped %2"
 msgid "Stopped"
 msgstr "%1 - Paráu %2"
 
-#: widgets/Osd.cpp:767
+#: widgets/Osd.cpp:768
 msgid "Paused"
 msgstr "En pausa"
 
@@ -16375,11 +16378,8 @@ msgstr "Artista «%1»"
 msgid "empty"
 msgstr ""
 
-#: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340
-#, fuzzy, kde-format
-#| msgid "Volume"
-msgid "Volume: %1%"
-msgstr "Volume"
+#~ msgid "(muted)"
+#~ msgstr "(calláu)"
 
 #~ msgid ""
 #~ "<p>Script successfully installed.</p><p>Please restart Amarok to start "
