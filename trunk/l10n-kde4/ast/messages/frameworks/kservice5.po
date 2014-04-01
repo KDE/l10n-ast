@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4-1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-29 01:46+0000\n"
+"POT-Creation-Date: 2014-04-01 01:49+0000\n"
 "PO-Revision-Date: 2012-12-28 17:14+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -100,16 +100,22 @@ msgstr "Nun pudo arrancase'l veceru de terminal:"
 msgid "No service implementing %1"
 msgstr ""
 
-#: plugin/kpluginloader.cpp:54
+#: plugin/kpluginloader.cpp:53
 #, kde-format
 msgid "Could not find plugin '%1' for application '%2'"
 msgstr "Nun s'alcontró'l complementu '%1' pa l'aplicación '%2'"
 
-#: plugin/kpluginloader.cpp:195
+#: plugin/kpluginloader.cpp:224
+#, fuzzy, kde-format
+#| msgid "The library %1 does not offer a KDE 4 compatible factory."
+msgid "The library %1 does not offer a KPluginFactory."
+msgstr "La biblioteca %1 nun ufierta denguna «factory» compatible con KDE 4."
+
+#: services/kservice.cpp:1014
 msgid "The provided service is not valid"
 msgstr "El serviciu especificáu nun ye válidu"
 
-#: plugin/kpluginloader.cpp:200
+#: services/kservice.cpp:1018
 #, fuzzy, kde-format
 #| msgid ""
 #| "The service provides no library, the Library key is missing in the ."
@@ -118,12 +124,6 @@ msgid "The service '%1' provides no library or the Library key is missing"
 msgstr ""
 "El serviciu nun apurre denguna biblioteca, nel ficheru .desktop falta la "
 "clave «Library»."
-
-#: plugin/kpluginloader.cpp:231
-#, fuzzy, kde-format
-#| msgid "The library %1 does not offer a KDE 4 compatible factory."
-msgid "The library %1 does not offer a KPluginFactory."
-msgstr "La biblioteca %1 nun ufierta denguna «factory» compatible con KDE 4."
 
 #~ msgid "Name"
 #~ msgstr "Nome"
