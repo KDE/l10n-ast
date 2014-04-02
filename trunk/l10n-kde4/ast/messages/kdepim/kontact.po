@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontact\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-18 01:42+0000\n"
+"POT-Creation-Date: 2014-04-02 01:49+0000\n"
 "PO-Revision-Date: 2010-10-25 20:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -269,8 +269,8 @@ msgctxt "@info:whatsthis"
 msgid "You will be presented with a dialog where you can add a new popup note."
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:125 plugins/knotes/knotes_part.cpp:585
-#: plugins/knotes/knotes_part.cpp:587 plugins/knotes/knotes_part.cpp:764
+#: plugins/knotes/knotes_part.cpp:125 plugins/knotes/knotes_part.cpp:598
+#: plugins/knotes/knotes_part.cpp:600 plugins/knotes/knotes_part.cpp:777
 msgctxt "@action:inmenu"
 msgid "Edit..."
 msgstr "Editar..."
@@ -377,25 +377,29 @@ msgstr ""
 msgid "Unlock"
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:306
+#: plugins/knotes/knotes_part.cpp:238
+msgid "Set Focus to Quick Search"
+msgstr ""
+
+#: plugins/knotes/knotes_part.cpp:319
 msgctxt "@info"
 msgid "To print notes, first select the notes to print from the list."
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:307
+#: plugins/knotes/knotes_part.cpp:320
 msgctxt "@title:window"
 msgid "Print Popup Notes"
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:351
+#: plugins/knotes/knotes_part.cpp:364
 msgid "Note was not created."
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:351
+#: plugins/knotes/knotes_part.cpp:364
 msgid "Create new note"
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:373
+#: plugins/knotes/knotes_part.cpp:386
 #: plugins/knotes/knotesselectdeletenotesdialog.cpp:62
 #, kde-format
 msgctxt "@info"
@@ -404,41 +408,41 @@ msgid_plural "Do you really want to delete these %1 notes?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: plugins/knotes/knotes_part.cpp:375
+#: plugins/knotes/knotes_part.cpp:388
 #: plugins/knotes/knotesselectdeletenotesdialog.cpp:54
 msgctxt "@title:window"
 msgid "Confirm Delete"
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:562
+#: plugins/knotes/knotes_part.cpp:575
 msgctxt "@title:window"
 msgid "Rename Popup Note"
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:563
+#: plugins/knotes/knotes_part.cpp:576
 msgctxt "@label:textbox"
 msgid "New Name:"
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:585 plugins/knotes/knotes_part.cpp:764
+#: plugins/knotes/knotes_part.cpp:598 plugins/knotes/knotes_part.cpp:777
 msgid "Show Note..."
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:615
+#: plugins/knotes/knotes_part.cpp:628
 #, fuzzy
 #| msgid "&Settings"
 msgid "Settings"
 msgstr "Axu&stes"
 
-#: plugins/knotes/knotes_part.cpp:714
+#: plugins/knotes/knotes_part.cpp:727
 msgid "Save note as plain text"
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:718
+#: plugins/knotes/knotes_part.cpp:731
 msgid "Save As"
 msgstr ""
 
-#: plugins/knotes/knotes_part.cpp:734
+#: plugins/knotes/knotes_part.cpp:747
 #, kde-format
 msgid ""
 "<qt>A file named <b>%1</b> already exists.<br />Are you sure you want to "
@@ -594,6 +598,11 @@ msgstr ""
 
 #: plugins/knotes/knoteslistwidgetsearchline.cpp:28
 msgid "Search notes..."
+msgstr ""
+
+#: plugins/knotes/knoteslistwidgetsearchline.cpp:38
+#, kde-format
+msgid "Search notes...<%1>"
 msgstr ""
 
 #: plugins/knotes/knotesselectdeletenotesdialog.cpp:43
@@ -808,28 +817,28 @@ msgstr ""
 msgid "Show &my events only"
 msgstr ""
 
-#: plugins/korganizer/apptsummarywidget.cpp:62
+#: plugins/korganizer/apptsummarywidget.cpp:61
 msgid "Upcoming Events"
 msgstr "Prósimos eventos"
 
-#: plugins/korganizer/apptsummarywidget.cpp:219
+#: plugins/korganizer/apptsummarywidget.cpp:218
 #, kde-format
 msgid "No upcoming events starting within the next day"
 msgid_plural "No upcoming events starting within the next %1 days"
 msgstr[0] "Nun hai qu'entamen el próximu día"
 msgstr[1] "Nun hai eventos qu'entamen nos próximos %1 díes"
 
-#: plugins/korganizer/apptsummarywidget.cpp:255
+#: plugins/korganizer/apptsummarywidget.cpp:254
 #: plugins/planner/planner.cpp:802
 msgid "&Edit Appointment..."
 msgstr "&Editar la cita..."
 
-#: plugins/korganizer/apptsummarywidget.cpp:257
+#: plugins/korganizer/apptsummarywidget.cpp:256
 #: plugins/planner/planner.cpp:803
 msgid "&Delete Appointment"
 msgstr "&Desaniciar la cita"
 
-#: plugins/korganizer/apptsummarywidget.cpp:277
+#: plugins/korganizer/apptsummarywidget.cpp:276
 #, kde-format
 msgid "Edit Event: \"%1\""
 msgstr "Editar l'eventu: «%1»"
@@ -946,8 +955,8 @@ msgid "Tomorrow"
 msgstr "Mañana"
 
 #: plugins/korganizer/summaryeventinfo.cpp:228
-#: plugins/korganizer/todosummarywidget.cpp:232
-#: plugins/specialdates/sdsummarywidget.cpp:522
+#: plugins/korganizer/todosummarywidget.cpp:231
+#: plugins/specialdates/sdsummarywidget.cpp:521
 #, kde-format
 msgid "in 1 day"
 msgid_plural "in %1 days"
@@ -976,7 +985,7 @@ msgstr[0] "1 min"
 msgstr[1] "%1 mins"
 
 #: plugins/korganizer/summaryeventinfo.cpp:255
-#: plugins/specialdates/sdsummarywidget.cpp:520
+#: plugins/specialdates/sdsummarywidget.cpp:519
 msgid "now"
 msgstr "agora"
 
@@ -1200,90 +1209,90 @@ msgstr ""
 msgid "Show &my To-dos only"
 msgstr ""
 
-#: plugins/korganizer/todosummarywidget.cpp:64
+#: plugins/korganizer/todosummarywidget.cpp:63
 msgid "Pending To-dos"
 msgstr "Xeres pendientes por facer"
 
-#: plugins/korganizer/todosummarywidget.cpp:210
+#: plugins/korganizer/todosummarywidget.cpp:209
 msgctxt "the to-do is due today"
 msgid "Today"
 msgstr "Güei"
 
-#: plugins/korganizer/todosummarywidget.cpp:212
+#: plugins/korganizer/todosummarywidget.cpp:211
 msgctxt "the to-do is due tomorrow"
 msgid "Tomorrow"
 msgstr "Mañana"
 
-#: plugins/korganizer/todosummarywidget.cpp:234
+#: plugins/korganizer/todosummarywidget.cpp:233
 #, kde-format
 msgid "1 day ago"
 msgid_plural "%1 days ago"
 msgstr[0] "fai un día"
 msgstr[1] "fai %1 díes"
 
-#: plugins/korganizer/todosummarywidget.cpp:236
+#: plugins/korganizer/todosummarywidget.cpp:235
 msgctxt "the to-do is due"
 msgid "due"
 msgstr "llímite"
 
-#: plugins/korganizer/todosummarywidget.cpp:302
+#: plugins/korganizer/todosummarywidget.cpp:301
 #, kde-format
 msgid "No pending to-dos due within the next day"
 msgid_plural "No pending to-dos due within the next %1 days"
 msgstr[0] "Nun hai xeres pendientes por facer que venzan mañana"
 msgstr[1] "Nun hai xeres pendientes que venzan nos próximos %1 díes"
 
-#: plugins/korganizer/todosummarywidget.cpp:355
+#: plugins/korganizer/todosummarywidget.cpp:354
 #: plugins/planner/planner.cpp:864
 msgid "&Edit To-do..."
 msgstr "&Editar la xera pendiente..."
 
-#: plugins/korganizer/todosummarywidget.cpp:356
+#: plugins/korganizer/todosummarywidget.cpp:355
 #: plugins/planner/planner.cpp:865
 msgid "&Delete To-do"
 msgstr "Desaniciar la xera pen&diente"
 
-#: plugins/korganizer/todosummarywidget.cpp:363
+#: plugins/korganizer/todosummarywidget.cpp:362
 #: plugins/planner/planner.cpp:870
 msgid "&Mark To-do Completed"
 msgstr "&Conseñar la xera como terminada"
 
-#: plugins/korganizer/todosummarywidget.cpp:384
+#: plugins/korganizer/todosummarywidget.cpp:383
 #: plugins/planner/planner.cpp:962
 #, kde-format
 msgid "Edit To-do: \"%1\""
 msgstr "Editar la xera pendiente: «%1»"
 
-#: plugins/korganizer/todosummarywidget.cpp:409
+#: plugins/korganizer/todosummarywidget.cpp:408
 msgid "open-ended"
 msgstr "final abiertu"
 
-#: plugins/korganizer/todosummarywidget.cpp:412
+#: plugins/korganizer/todosummarywidget.cpp:411
 msgctxt "the to-do is overdue"
 msgid "overdue"
 msgstr "allanciáu"
 
-#: plugins/korganizer/todosummarywidget.cpp:415
+#: plugins/korganizer/todosummarywidget.cpp:414
 msgctxt "the to-do starts today"
 msgid "starts today"
 msgstr "entama güei"
 
-#: plugins/korganizer/todosummarywidget.cpp:419
+#: plugins/korganizer/todosummarywidget.cpp:418
 msgctxt "the to-do has not been started yet"
 msgid "not-started"
 msgstr "non entamada"
 
-#: plugins/korganizer/todosummarywidget.cpp:421
+#: plugins/korganizer/todosummarywidget.cpp:420
 msgctxt "the to-do is completed"
 msgid "completed"
 msgstr "finada"
 
-#: plugins/korganizer/todosummarywidget.cpp:423
+#: plugins/korganizer/todosummarywidget.cpp:422
 msgctxt "the to-do is in-progress"
 msgid "in-progress "
 msgstr "en cursu "
 
-#: plugins/korganizer/todosummarywidget.cpp:428
+#: plugins/korganizer/todosummarywidget.cpp:427
 msgctxt "Separator for status like this: overdue, completed"
 msgid ","
 msgstr ","
@@ -1359,27 +1368,27 @@ msgid "overdue"
 msgstr "vencida"
 
 #: plugins/planner/planner.cpp:721
-#: plugins/specialdates/sdsummarywidget.cpp:533
+#: plugins/specialdates/sdsummarywidget.cpp:532
 msgid "Birthday"
 msgstr "Cumpleaños"
 
 #: plugins/planner/planner.cpp:724
-#: plugins/specialdates/sdsummarywidget.cpp:536
+#: plugins/specialdates/sdsummarywidget.cpp:535
 msgid "Anniversary"
 msgstr "Aniversariu"
 
 #: plugins/planner/planner.cpp:727
-#: plugins/specialdates/sdsummarywidget.cpp:539
+#: plugins/specialdates/sdsummarywidget.cpp:538
 msgid "Holiday"
 msgstr "Vacación"
 
 #: plugins/planner/planner.cpp:730
-#: plugins/specialdates/sdsummarywidget.cpp:542
+#: plugins/specialdates/sdsummarywidget.cpp:541
 msgid "Special Occasion"
 msgstr "Ocasión especial"
 
 #: plugins/planner/planner.cpp:771
-#: plugins/specialdates/sdsummarywidget.cpp:584
+#: plugins/specialdates/sdsummarywidget.cpp:583
 #, kde-format
 msgid "one year"
 msgid_plural "%1 years"
@@ -1862,36 +1871,36 @@ msgstr ""
 msgid "Show anni&versaries"
 msgstr "Amosar ani&versarios"
 
-#: plugins/specialdates/sdsummarywidget.cpp:142
+#: plugins/specialdates/sdsummarywidget.cpp:141
 msgid "Upcoming Special Dates"
 msgstr "Próximes dates especiales"
 
-#: plugins/specialdates/sdsummarywidget.cpp:493
+#: plugins/specialdates/sdsummarywidget.cpp:492
 msgctxt "the special day is today"
 msgid "Today"
 msgstr "Güei"
 
-#: plugins/specialdates/sdsummarywidget.cpp:495
+#: plugins/specialdates/sdsummarywidget.cpp:494
 msgctxt "the special day is tomorrow"
 msgid "Tomorrow"
 msgstr "Mañana"
 
-#: plugins/specialdates/sdsummarywidget.cpp:595
+#: plugins/specialdates/sdsummarywidget.cpp:594
 #, kde-format
 msgid "No special dates within the next 1 day"
 msgid_plural "No special dates pending within the next %1 days"
 msgstr[0] "Nun hai denguna data especial mañana"
 msgstr[1] "Nun hai dates especiales nos próximos %1 díes"
 
-#: plugins/specialdates/sdsummarywidget.cpp:691
+#: plugins/specialdates/sdsummarywidget.cpp:690
 msgid "Send &Mail"
 msgstr "Unviar c&orréu"
 
-#: plugins/specialdates/sdsummarywidget.cpp:694
+#: plugins/specialdates/sdsummarywidget.cpp:693
 msgid "View &Contact"
 msgstr "Ver &contautu"
 
-#: plugins/specialdates/sdsummarywidget.cpp:709
+#: plugins/specialdates/sdsummarywidget.cpp:708
 #, kde-format
 msgid "Mail to:\"%1\""
 msgstr "Corréu pa: «%1»"
