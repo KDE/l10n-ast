@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-10 01:37+0000\n"
+"POT-Creation-Date: 2014-05-12 01:42+0000\n"
 "PO-Revision-Date: 2010-10-19 23:24+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -328,7 +328,7 @@ msgid "Stop after current track: On"
 msgstr ""
 
 #: ActionClasses.cpp:493 context/engines/current/CurrentEngine.cpp:143
-#: EngineController.cpp:1327 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:669
+#: EngineController.cpp:1326 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:669
 msgid "No track playing"
 msgstr "Denguna pista en reproducción"
 
@@ -3019,20 +3019,50 @@ msgctxt "Maximum cover size option"
 msgid "Huge (1600 px)"
 msgstr ""
 
+#: configdialog/dialogs/MetadataConfig.cpp:97
+#, fuzzy
+#| msgid "Synchronize Artwork"
+msgctxt "Statistics sync checkbox label"
+msgid "Synchronize Ratings"
+msgstr "Sincronizar Artwork"
+
+#: configdialog/dialogs/MetadataConfig.cpp:99
+#, fuzzy
+#| msgid "Synchronize Artwork"
+msgctxt "Statistics sync checkbox label"
+msgid "Synchronize First Played Times"
+msgstr "Sincronizar Artwork"
+
 #: configdialog/dialogs/MetadataConfig.cpp:101
 #, fuzzy
 #| msgid "Synchronize Artwork"
+msgctxt "Statistics sync checkbox label"
+msgid "Synchronize Last Played Times"
+msgstr "Sincronizar Artwork"
+
+#: configdialog/dialogs/MetadataConfig.cpp:103
+#, fuzzy
+#| msgid "Synchronize Artwork"
+msgctxt "Statistics sync checkbox label"
+msgid "Synchronize Playcounts"
+msgstr "Sincronizar Artwork"
+
+#: configdialog/dialogs/MetadataConfig.cpp:105
+#, fuzzy
+#| msgid "Synchronize Artwork"
+msgctxt "Statistics sync checkbox label"
 msgid "Synchronize Labels"
 msgstr "Sincronizar Artwork"
 
-#: configdialog/dialogs/MetadataConfig.cpp:119
+#: configdialog/dialogs/MetadataConfig.cpp:113
 #, fuzzy, kde-format
 #| msgid "Synchronize Artwork"
-msgctxt "%1 is field name such as Play Count"
+msgctxt ""
+"%1 is field name such as Play Count (this string is only used as a fallback)"
 msgid "Synchronize %1"
 msgstr "Sincronizar Artwork"
 
-#: configdialog/dialogs/MetadataConfig.cpp:207
+#: configdialog/dialogs/MetadataConfig.cpp:221
 #, kde-format
 msgid "(%2one exception%3)"
 msgid_plural "(%2%1 exceptions%3)"
@@ -5398,7 +5428,7 @@ msgstr "Coleición"
 
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:183
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:93
-#: EngineController.cpp:1305
+#: EngineController.cpp:1304
 msgid "Unknown track"
 msgstr "Pista desconocía"
 
@@ -9961,25 +9991,25 @@ msgstr "Valoración"
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr ""
 
-#: EngineController.cpp:1295
+#: EngineController.cpp:1294
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> de <b>%2</b> en <b>%3</b>"
 
-#: EngineController.cpp:1297
+#: EngineController.cpp:1296
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> de <b>%2</b>"
 
-#: EngineController.cpp:1300
+#: EngineController.cpp:1299
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> en <b>%2</b>"
 
-#: EngineController.cpp:1312
+#: EngineController.cpp:1311
 #, kde-format
 msgctxt "track from source"
 msgid "from <b>%1</b>"
@@ -15378,7 +15408,7 @@ msgstr "El serviciu %1 nun ta cargáu agora"
 msgid "This collection is currently offline"
 msgstr ""
 
-#: statsyncing/Controller.cpp:109
+#: statsyncing/Controller.cpp:110
 #, kde-format
 msgctxt "%1 is collection name"
 msgid ""
@@ -15388,7 +15418,7 @@ msgid ""
 "You can always change the decision in Amarok configuration."
 msgstr ""
 
-#: statsyncing/Controller.cpp:371
+#: statsyncing/Controller.cpp:372
 msgid ""
 "You only seem to have the Local Collection. Statistics synchronization only "
 "makes sense if there is more than one collection."
