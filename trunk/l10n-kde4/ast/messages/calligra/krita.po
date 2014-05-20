@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-19 01:27+0000\n"
+"POT-Creation-Date: 2014-05-20 01:29+0000\n"
 "PO-Revision-Date: 2012-12-27 17:18+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -1172,11 +1172,6 @@ msgstr ""
 
 #: image/brushengine/kis_paintop_factory.cpp:66
 msgctxt "Category of brush engines"
-msgid "Experimental"
-msgstr ""
-
-#: image/brushengine/kis_paintop_factory.cpp:71
-msgctxt "Category of brush engines"
 msgid "Stable"
 msgstr ""
 
@@ -1315,7 +1310,7 @@ msgid "Generator"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: image/kis_adjustment_layer.cc:127
+#: image/kis_adjustment_layer.cc:127 plugins/paintops/filterop/filterop.cpp:45
 #: plugins/paintops/libpaintop/kis_filter_option.cpp:50
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:844
 #: ui/dialogs/kis_dlg_filter.cpp:105
@@ -1334,12 +1329,17 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
+#. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
 #: image/kis_base_mask_generator.h:33
-msgid "Soft brush"
+#: plugins/extensions/metadataeditor/editors/exif.ui:860
+#: plugins/extensions/metadataeditor/editors/exif.ui:892
+#: plugins/paintops/libpaintop/kis_pressure_softness_option.cpp:31
+msgid "Soft"
 msgstr ""
 
 #: image/kis_base_mask_generator.h:34
-msgid "Gaussian brush"
+msgid "Gaussian"
 msgstr ""
 
 #: image/kis_base_node.cpp:141 ui/kis_node_model.cpp:420
@@ -2369,6 +2369,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, shadeSelectorTypeMyPaint)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:234
+#: plugins/paintops/mypaint/mypaint_paintop_factory.h:55
 msgid "MyPaint"
 msgstr ""
 
@@ -3182,7 +3183,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:188
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:31
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:22
 #: ui/forms/wdgfilternodecreation.ui:17 ui/forms/wdgflipbookselector.ui:28
 #: ui/forms/wdgpaintopsettings.ui:93
 msgid "Name:"
@@ -3682,6 +3683,7 @@ msgstr ""
 #: plugins/extensions/metadataeditor/editors/exif.ui:101
 #: plugins/extensions/metadataeditor/editors/exif.ui:919
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:88
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:58
 msgid "Auto"
 msgstr ""
 
@@ -4108,14 +4110,6 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
-#: plugins/extensions/metadataeditor/editors/exif.ui:860
-#: plugins/extensions/metadataeditor/editors/exif.ui:892
-#: plugins/paintops/libpaintop/kis_pressure_softness_option.cpp:31
-msgid "Soft"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
-#. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
 #: plugins/extensions/metadataeditor/editors/exif.ui:865
 #: plugins/extensions/metadataeditor/editors/exif.ui:897
 #: plugins/paintops/libpaintop/kis_pressure_softness_option.cpp:32
@@ -4135,6 +4129,8 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, editWhiteBalance)
 #. i18n: ectx: property (text), widget (QRadioButton, customRadioButton)
 #: plugins/extensions/metadataeditor/editors/exif.ui:924
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:64
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:66
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1037
 msgid "Custom"
 msgstr ""
@@ -6256,7 +6252,7 @@ msgid "Color"
 msgstr ""
 
 #: plugins/paintops/chalk/chalk_paintop_plugin.cpp:43
-msgid "Chalk brush"
+msgid "Chalk"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, inkTab)
@@ -6278,8 +6274,10 @@ msgid "Saturation decrease"
 msgstr ""
 
 #: plugins/paintops/colorsmudge/colorsmudge_paintop_plugin.cpp:44
-msgid "Color Smudge Brush"
-msgstr ""
+#, fuzzy
+#| msgid "Settings"
+msgid "Color Smudge"
+msgstr "Axustes"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
 msgid "Smudge Length"
@@ -6331,7 +6329,7 @@ msgid "Smudge mode:"
 msgstr ""
 
 #: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:43
-msgid "Curve brush"
+msgid "Curve"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, selectMainStyle)
@@ -6392,13 +6390,18 @@ msgstr ""
 msgid "Smoothing"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
+#. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
 #: plugins/paintops/defaultpaintops/defaultpaintops_plugin.cc:47
-msgid "Pixel Brush"
+#: plugins/paintops/experiment/wdgshapeoptions.ui:75
+#: plugins/paintops/gridbrush/wdgshapeoptions.ui:51
+#: plugins/paintops/spray/wdgshapeoptions.ui:75
+msgid "Pixel"
 msgstr ""
 
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_factory.h:50
-msgctxt "duplicate paintbrush"
-msgid "Duplicate"
+msgctxt "clone paintbrush (previously \"Duplicate\")"
+msgid "Clone"
 msgstr ""
 
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_option.cpp:45
@@ -6426,7 +6429,7 @@ msgid "Deform Options"
 msgstr ""
 
 #: plugins/paintops/deform/kis_deform_paintop_factory.h:45
-msgid "Deform brush"
+msgid "Deform"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, deformLabel)
@@ -6497,7 +6500,7 @@ msgid "Use undeformed image"
 msgstr ""
 
 #: plugins/paintops/dynadraw/dyna_paintop_plugin.cpp:41
-msgid "Dyna brush"
+msgid "Dyna"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
@@ -6532,6 +6535,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, ShapeTab)
 #. i18n: ectx: property (title), widget (QGroupBox, shapeGroup)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:160
+#: plugins/paintops/experiment/experiment_paintop_plugin.cpp:45
 #: plugins/paintops/hairy/wdghairyeoptions.ui:43
 #: plugins/paintops/hairy/wdgshapeoptions.ui:84
 msgid "Shape"
@@ -6581,10 +6585,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, fixedAngleChBox)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:296
 msgid "Fixed angle"
-msgstr ""
-
-#: plugins/paintops/experiment/experiment_paintop_plugin.cpp:42
-msgid "Experiment brush"
 msgstr ""
 
 #: plugins/paintops/experiment/kis_experiment_shape_option.cpp:36
@@ -6641,14 +6641,6 @@ msgstr ""
 msgid "Anti-aliased pixel"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
-#: plugins/paintops/experiment/wdgshapeoptions.ui:75
-#: plugins/paintops/gridbrush/wdgshapeoptions.ui:51
-#: plugins/paintops/spray/wdgshapeoptions.ui:75
-msgid "Pixel"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QCheckBox, proportionalBox)
 #: plugins/paintops/experiment/wdgshapeoptions.ui:213
 #: plugins/paintops/spray/wdgshapeoptions.ui:218
@@ -6674,7 +6666,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, fixedRotation)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #: plugins/paintops/experiment/wdgshapeoptions.ui:241
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:77
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:59
 #: plugins/paintops/spray/wdgshapedynamicsoptions.ui:48
 msgid "Constant"
 msgstr ""
@@ -6682,7 +6674,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, randomRotation)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #: plugins/paintops/experiment/wdgshapeoptions.ui:289
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:82
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:64
 #: plugins/paintops/spray/wdgshapedynamicsoptions.ui:58
 msgid "Random"
 msgstr ""
@@ -6699,12 +6691,10 @@ msgstr ""
 msgid "Texture:"
 msgstr ""
 
-#: plugins/paintops/filterop/filterop.cpp:45
-msgid "Filter Brush"
-msgstr ""
-
 #: plugins/paintops/gridbrush/grid_paintop_plugin.cpp:41
-msgid "Grid brush"
+#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:673
+#: ui/dialogs/kis_dlg_preferences.cc:674
+msgid "Grid"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -6760,7 +6750,7 @@ msgid "Line"
 msgstr ""
 
 #: plugins/paintops/hairy/hairy_paintop_plugin.cpp:44
-msgid "Hairy brush"
+msgid "Hairy"
 msgstr ""
 
 #: plugins/paintops/hairy/kis_hairy_bristle_option.cpp:46
@@ -6937,7 +6927,7 @@ msgid "Soak ink"
 msgstr ""
 
 #: plugins/paintops/hatching/hatching_paintop_plugin.cpp:43
-msgid "Hatching brush"
+msgid "Hatching"
 msgstr ""
 
 #: plugins/paintops/hatching/kis_hatching_options.cpp:57
@@ -7087,7 +7077,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:266
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:152
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:85
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:207
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:180
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:72
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:112
 #: plugins/paintops/spray/wdgsprayoptions.ui:204
@@ -7146,15 +7136,17 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, colorAsMask)
 #. i18n: ectx: property (text), widget (QCheckBox, colorAsmask)
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:19
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:131
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:113
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:119
 msgid "Use color as mask"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:102
-msgid "Save brush:"
-msgstr ""
+#, fuzzy
+#| msgid "Save..."
+msgid "Save Tip:"
+msgstr "Guardar..."
 
 #. i18n: ectx: property (text), widget (QPushButton, saveBrush)
 #. i18n: ectx: property (text), widget (QPushButton, bnSave)
@@ -7232,51 +7224,51 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, labelStyle)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:60
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:42
 #: plugins/tools/tool_text/wdgtextoptions.ui:71
 msgid "Style:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:87
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:69
 msgid "Incremental"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:92
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:74
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:47
 #: plugins/tools/defaulttools/kis_tool_line.cc:70
 msgid "Pressure"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:97
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:79
 msgid "Angular"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:105
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:87
 msgid "Selection mode:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, brushStyle)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:116
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:98
 msgid "Regular"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, brushStyle)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:121
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:103
 msgid "Animated"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, brushButton)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:236
-msgid "Use as Brush"
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:200
+msgid "Use as Tip"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:243
-msgid "Add to Predefined Brushes"
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:207
+msgid "Add to Predefined Tips"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxSmudgeMode)
@@ -7378,7 +7370,7 @@ msgid "The mixing option mixes the paint on the brush with that on the canvas."
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:156
-msgid "Reset Brush"
+msgid "Reset Predefined Tip"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:157
@@ -7392,27 +7384,20 @@ msgstr ""
 msgid "Brush Tip"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:58
-msgid "Autobrush"
-msgstr ""
-
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:62
-msgid "Predefined Brushes"
+msgid "Predefined"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:64
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:66
-msgid "Custom Brush"
-msgstr ""
-
+#. i18n: ectx: property (title), widget (QGroupBox, grpClipboard)
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:68
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:70
-msgid "Clipboard Brush"
+#: ui/forms/wdgnewimage.ui:331
+msgid "Clipboard"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:72
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:74
-msgid "Text Brush"
+msgid "Text"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:98
@@ -8319,12 +8304,8 @@ msgid ""
 "will make it smoother"
 msgstr ""
 
-#: plugins/paintops/mypaint/mypaint_paintop_factory.h:55
-msgid "MyPaint brush"
-msgstr ""
-
 #: plugins/paintops/particle/particle_paintop_plugin.cpp:42
-msgid "Particle brush"
+msgid "Particle"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, particlesLbl)
@@ -8664,7 +8645,7 @@ msgid "Offset scale"
 msgstr ""
 
 #: plugins/paintops/sketch/sketch_paintop_plugin.cpp:43
-msgid "Sketch brush"
+msgid "Sketch"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (KDoubleNumInput, lineWidthSPBox)
@@ -8725,7 +8706,7 @@ msgid "Spray area"
 msgstr ""
 
 #: plugins/paintops/spray/spray_paintop_plugin.cpp:41
-msgid "Spray brush"
+msgid "Spray"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -9601,11 +9582,6 @@ msgstr "&Seleicionar"
 msgid ""
 "You are activating wrap-around mode, but have not enabled OpenGL.\n"
 "To visualize wrap-around mode, enable OpenGL."
-msgstr ""
-
-#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:673
-#: ui/dialogs/kis_dlg_preferences.cc:674
-msgid "Grid"
 msgstr ""
 
 #: ui/canvas/kis_grid_manager.cpp:70
@@ -10803,11 +10779,6 @@ msgstr "Guardar..."
 msgid "&Predefined:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, grpClipboard)
-#: ui/forms/wdgnewimage.ui:331
-msgid "Clipboard"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, grpContents)
 #: ui/forms/wdgnewimage.ui:373
 msgid "Contents"
@@ -10985,7 +10956,7 @@ msgid "No Outline"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutline)
-#: ui/forms/wdgshapeoptions.ui:38 ui/kis_paintop_option.cpp:26
+#: ui/forms/wdgshapeoptions.ui:38
 msgid "Brush"
 msgstr ""
 
@@ -12138,6 +12109,10 @@ msgstr ""
 msgid "Select Favorite Presets..."
 msgstr ""
 
+#: ui/kis_paintop_option.cpp:26
+msgid "Common"
+msgstr ""
+
 #: ui/kis_paintop_option.cpp:36
 msgid "Texture"
 msgstr ""
@@ -12622,11 +12597,11 @@ msgstr ""
 msgid "Freehand Stroke"
 msgstr ""
 
-#: ui/tool/kis_tool_paint.cc:89
+#: ui/tool/kis_tool_paint.cc:105
 msgid "Increase Brush Size"
 msgstr ""
 
-#: ui/tool/kis_tool_paint.cc:95
+#: ui/tool/kis_tool_paint.cc:111
 msgid "Decrease Brush Size"
 msgstr ""
 
