@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-20 01:56+0000\n"
+"POT-Creation-Date: 2014-06-25 01:49+0000\n"
 "PO-Revision-Date: 2010-10-23 17:00+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -4020,7 +4020,7 @@ msgstr "Seleicione otru puntu pel que tenga de pasar la reuta..."
 msgid "Construct a half-line starting at this point"
 msgstr "Facer una semirreuta qu'entame nesti puntu"
 
-#: objects/line_type.cc:103 objects/line_type.cc:339
+#: objects/line_type.cc:103 objects/line_type.cc:342
 msgid "Select the start point of the new half-line..."
 msgstr "Seleicione'l puntu d'entamu de la semirreuta nueva..."
 
@@ -4033,86 +4033,70 @@ msgid "Select a point for the half-line to go through..."
 msgstr "Seleicione un puntu pel que tenga de pasar esta semirreuta..."
 
 #: objects/line_type.cc:132
-#, fuzzy
-#| msgid "Construct the midpoint of this point and another point"
-msgid "Construct the axis of the segment with this and another point"
-msgstr "Facer el puntu mediu d'esti puntu y d'otru"
+msgid "Construct the axis of this segment"
+msgstr "Construyir l'exe d'esti segmentu"
 
 #: objects/line_type.cc:133
-#, fuzzy
-#| msgid "Select the first of the two other points..."
-msgid "Select the first of the two points..."
-msgstr "Escueyi'l primer de los otros dos puntos..."
+msgid "Select the segment of which you want to draw the axis..."
+msgstr "Esbille un segmentu pal que quiera construyir l'exe..."
 
-#: objects/line_type.cc:134
-#, fuzzy
-#| msgid "Construct a segment starting at this point"
-msgid "Construct the axis of the segment with the previous and this point"
-msgstr "Construyir un segmentu qu'entame nesti puntu"
-
-#: objects/line_type.cc:135
-#, fuzzy
-#| msgid "Select the first of the two other points..."
-msgid "Select the second of the two points..."
-msgstr "Escueyi'l primer de los otros dos puntos..."
-
-#: objects/line_type.cc:184
+#: objects/line_type.cc:187
 msgid "Construct a line parallel to this line"
 msgstr "Facer una paralela a esta reuta"
 
-#: objects/line_type.cc:185
+#: objects/line_type.cc:188
 msgid "Select a line parallel to the new line..."
 msgstr "Seleicione una reuta paralela a la nueva reuta..."
 
-#: objects/line_type.cc:186
+#: objects/line_type.cc:189
 msgid "Construct the parallel line through this point"
 msgstr "Facer una reuta paralela que pase per esti puntu"
 
-#: objects/line_type.cc:187 objects/line_type.cc:220 objects/line_type.cc:299
+#: objects/line_type.cc:190 objects/line_type.cc:223 objects/line_type.cc:302
 msgid "Select a point for the new line to go through..."
 msgstr "Seleicione un puntu pel que tenga de pasar la reuta nueva..."
 
-#: objects/line_type.cc:217
+#: objects/line_type.cc:220
 msgid "Construct a line perpendicular to this line"
 msgstr "Facer una reuta perpendicular a esta"
 
-#: objects/line_type.cc:218
+#: objects/line_type.cc:221
 msgid "Select a line perpendicular to the new line..."
 msgstr "Seleicione una reuta perpendicular a la nueva..."
 
-#: objects/line_type.cc:219
+#: objects/line_type.cc:222
 msgid "Construct a perpendicular line through this point"
 msgstr "Facer una reuta perpendicular que pase per esti puntu"
 
-#: objects/line_type.cc:262
+#: objects/line_type.cc:265
 msgid "Set &Length..."
 msgstr "Afitar &llargor..."
 
-#: objects/line_type.cc:281
+#: objects/line_type.cc:284
 msgid "Set Segment Length"
 msgstr "Afitar llargor del segmentu"
 
-#: objects/line_type.cc:281
+#: objects/line_type.cc:284
 msgid "Choose the new length: "
 msgstr "Escoyer el nuevu llargor: "
 
-#: objects/line_type.cc:289
+#: objects/line_type.cc:292
 msgid "Resize Segment"
 msgstr "Redimensionar el segmentu"
 
-#: objects/line_type.cc:296
+#: objects/line_type.cc:299
 msgid "Construct a line by this vector"
 msgstr "Construyir una recta que pase per esti vector"
 
-#: objects/line_type.cc:297
+#: objects/line_type.cc:300
 msgid "Select a vector in the direction of the new line..."
 msgstr "Escueyi un vector na direición de la recta nueva..."
 
-#: objects/line_type.cc:336
+#: objects/line_type.cc:339
 msgid "Construct a half-line by this vector"
 msgstr "Construyir una semirrecta per esti vector"
 
-#: objects/line_type.cc:337
+#: objects/line_type.cc:340
 msgid "Select a vector in the direction of the new half-line..."
 msgstr "Escueyi un vector cola direición de la semirrecta nueva..."
 
@@ -5905,11 +5889,25 @@ msgstr ""
 "cartesiana, qu'en cualesquier casu ye una curva alxebraica de grau baxu.</"
 "p>\n"
 
-#~ msgid "Construct the axis of this segment"
-#~ msgstr "Construyir l'exe d'esti segmentu"
+#, fuzzy
+#~| msgid "Construct the midpoint of this point and another point"
+#~ msgid "Construct the axis of the segment with this and another point"
+#~ msgstr "Facer el puntu mediu d'esti puntu y d'otru"
 
-#~ msgid "Select the segment of which you want to draw the axis..."
-#~ msgstr "Esbille un segmentu pal que quiera construyir l'exe..."
+#, fuzzy
+#~| msgid "Select the first of the two other points..."
+#~ msgid "Select the first of the two points..."
+#~ msgstr "Escueyi'l primer de los otros dos puntos..."
+
+#, fuzzy
+#~| msgid "Construct a segment starting at this point"
+#~ msgid "Construct the axis of the segment with the previous and this point"
+#~ msgstr "Construyir un segmentu qu'entame nesti puntu"
+
+#, fuzzy
+#~| msgid "Select the first of the two other points..."
+#~ msgid "Select the second of the two points..."
+#~ msgstr "Escueyi'l primer de los otros dos puntos..."
 
 #~ msgid "Save changes to document %1?"
 #~ msgstr "¿Grabar cambeos nel documentu %1?"
