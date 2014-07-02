@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-01 01:42+0000\n"
+"POT-Creation-Date: 2014-07-02 01:43+0000\n"
 "PO-Revision-Date: 2012-12-27 17:18+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -118,7 +118,7 @@ msgstr ""
 msgid "&Restart Krita"
 msgstr ""
 
-#: gemini/desktopviewproxy.cpp:124 gemini/MainWindow.cpp:534
+#: gemini/desktopviewproxy.cpp:124 gemini/MainWindow.cpp:545
 msgid "Open Document"
 msgstr ""
 
@@ -206,7 +206,7 @@ msgstr "Axustes"
 msgid "Brushes and Stuff"
 msgstr ""
 
-#: gemini/main.cpp:70 gemini/MainWindow.cpp:245 gemini/MainWindow.cpp:287
+#: gemini/main.cpp:70 gemini/MainWindow.cpp:251 gemini/MainWindow.cpp:293
 msgid "Krita Gemini"
 msgstr ""
 
@@ -233,12 +233,16 @@ msgstr ""
 msgid "Use full-screen display"
 msgstr ""
 
-#: gemini/MainWindow.cpp:286 gemini/MainWindow.cpp:625
+#: gemini/main.cpp:85
+msgid "Start with the Sketch interface"
+msgstr ""
+
+#: gemini/MainWindow.cpp:292 gemini/MainWindow.cpp:636
 #: sketch/MainWindow.cpp:150
 msgid "Untitled"
 msgstr ""
 
-#: gemini/MainWindow.cpp:628
+#: gemini/MainWindow.cpp:639
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
@@ -7148,7 +7152,6 @@ msgstr ""
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:46
 #: plugins/paintops/libpaintop/kis_pressure_rotation_option.cpp:29
 #: plugins/paintops/spray/wdgshapedynamicsoptions.ui:42
-#: plugins/tools/defaulttools/kis_tool_line.cc:72
 msgid "Rotation"
 msgstr ""
 
@@ -7718,7 +7721,6 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:74
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:47
-#: plugins/tools/defaulttools/kis_tool_line.cc:70
 msgid "Pressure"
 msgstr ""
 
@@ -9544,30 +9546,22 @@ msgstr ""
 msgid "Draw a gradient."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:71
-msgid "Tilt"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:73
-msgid "Tangential Pressure"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:74
-msgid "Varying End-Points"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:186
+#: plugins/tools/defaulttools/kis_tool_line.cc:54
 msgctxt "(qtundo-format)"
 msgid "Draw Line"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:259
+#: plugins/tools/defaulttools/kis_tool_line.cc:79
+msgid "Use sensors"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:240
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_line.h:85
+#: plugins/tools/defaulttools/kis_tool_line.h:93
 msgid "Line Tool"
 msgstr ""
 
@@ -11851,7 +11845,7 @@ msgid "Edit Mouse Wheel Input"
 msgstr ""
 
 #: ui/input/kis_abstract_input_action.cpp:44
-#: ui/input/kis_tool_invocation_action.cpp:49
+#: ui/input/kis_tool_invocation_action.cpp:50
 msgid "Activate"
 msgstr ""
 
@@ -12143,22 +12137,26 @@ msgstr ""
 msgid "The <i>Show Popup Palette</i> displays the popup palette."
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:45
+#: ui/input/kis_tool_invocation_action.cpp:46
 msgid "Tool Invocation"
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:46
+#: ui/input/kis_tool_invocation_action.cpp:47
 msgid ""
 "The <i>Tool Invocation</i> action invokes the current tool, for example, "
 "using the brush tool, it will start painting."
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:50
+#: ui/input/kis_tool_invocation_action.cpp:51
 msgid "Confirm"
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:51 ui/kis_view2.cpp:570
+#: ui/input/kis_tool_invocation_action.cpp:52 ui/kis_view2.cpp:570
 msgid "Cancel"
+msgstr ""
+
+#: ui/input/kis_tool_invocation_action.cpp:53
+msgid "Activate Line Tool"
 msgstr ""
 
 #: ui/input/kis_zoom_action.cpp:112
