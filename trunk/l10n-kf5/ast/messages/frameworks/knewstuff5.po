@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4-1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-05 10:34+0000\n"
+"POT-Creation-Date: 2014-08-07 07:59+0000\n"
 "PO-Revision-Date: 2012-12-28 17:14+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -277,98 +277,12 @@ msgstr "Tolos fornidores"
 msgid "All Categories"
 msgstr "Toles categoríes"
 
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#. i18n: ectx: property (text), widget (QLabel, m_providerLabel)
-#: downloadwidget.ui:54 uploaddialog.ui:127
-msgid "Provider:"
-msgstr "Fornidor:"
-
-#. i18n: ectx: property (text), widget (QLabel, mCategoryLabel)
-#. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
-#: downloadwidget.ui:71 uploaddialog.ui:304
-msgid "Category:"
-msgstr "Categoría:"
-
-#. i18n: ectx: property (text), widget (QRadioButton, newestRadio)
-#: downloadwidget.ui:90
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "New"
-msgid "Newest"
-msgstr "Nuevu"
-
-#. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
-#: downloadwidget.ui:103
-msgid "Rating"
-msgstr "Calificación"
-
-#. i18n: ectx: property (text), widget (QRadioButton, mostDownloadsRadio)
-#: downloadwidget.ui:110
-msgid "Most downloads"
-msgstr "Más descargaos"
-
-#. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
-#: downloadwidget.ui:117
-msgid "Installed"
-msgstr "Instalaos"
-
-#. i18n: ectx: property (text), widget (QLabel, orderLabel)
-#: downloadwidget.ui:175
-msgid "Order by:"
-msgstr "Ordenar por:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: downloadwidget.ui:185
-msgid "Search:"
-msgstr "Guetar:"
-
-#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_searchEdit)
-#: downloadwidget.ui:211
-msgid "Enter search phrase here"
-msgstr "Introduza equí la fras a guetar"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: downloadwidget.ui:366
-msgid "Author:"
-msgstr "Autor:"
-
-#. i18n: ectx: property (text), widget (QLabel, homepageLabel)
-#: downloadwidget.ui:391
-msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
-#. i18n: ectx: property (text), widget (QPushButton, updateButton)
-#: downloadwidget.ui:567 ui/itemsgridviewdelegate.cpp:329
-#: ui/itemsviewdelegate.cpp:123 uploaddialog.ui:171
-msgid "Update"
-msgstr "Anovar"
-
-#. i18n: ectx: property (text), widget (QPushButton, uninstallButton)
-#: downloadwidget.ui:577 ui/itemsgridviewdelegate.cpp:325
-#: ui/itemsviewdelegate.cpp:119
-msgid "Uninstall"
-msgstr "Desinstalar"
-
-#. i18n: ectx: property (text), widget (QPushButton, becomeFanButton)
-#: downloadwidget.ui:584
-msgid "Become a Fan"
-msgstr "Faite Fan"
-
-#. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: downloadwidget.ui:591 ui/itemsgridviewdelegate.cpp:344
-#: ui/itemsgridviewdelegate.cpp:354 ui/itemsviewdelegate.cpp:138
-#: ui/itemsviewdelegate.cpp:148
-msgid "Install"
-msgstr "Instalar"
-
 #: ui/entrydetailsdialog.cpp:91
 #, kde-format
 msgid "Details for %1"
 msgstr "Detalles pa %1"
 
-#. i18n: ectx: property (text), widget (QLabel, priceLabel_2)
-#: ui/entrydetailsdialog.cpp:105 uploaddialog.ui:230
+#: ui/entrydetailsdialog.cpp:105
 #, fuzzy
 #| msgid "Changelog"
 msgid "Changelog:"
@@ -434,9 +348,22 @@ msgstr "Cargando vista preliminar"
 msgid "Details"
 msgstr "Detalles"
 
+#: ui/itemsgridviewdelegate.cpp:325 ui/itemsviewdelegate.cpp:119
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+#: ui/itemsgridviewdelegate.cpp:329 ui/itemsviewdelegate.cpp:123
+msgid "Update"
+msgstr "Anovar"
+
 #: ui/itemsgridviewdelegate.cpp:339 ui/itemsviewdelegate.cpp:133
 msgid "Updating"
 msgstr "Anovando"
+
+#: ui/itemsgridviewdelegate.cpp:344 ui/itemsgridviewdelegate.cpp:354
+#: ui/itemsviewdelegate.cpp:138 ui/itemsviewdelegate.cpp:148
+msgid "Install"
+msgstr "Instalar"
 
 #: ui/itemsgridviewdelegate.cpp:349 ui/itemsviewdelegate.cpp:143
 msgid "Install Again"
@@ -492,8 +419,7 @@ msgctxt "A link to the website where the get hot new stuff upload can be seen"
 msgid "Visit website"
 msgstr "Visitar sitiu web"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
-#: uploaddialog.cpp:441 uploaddialog.ui:14
+#: uploaddialog.cpp:441
 msgid "Share Hot New Stuff"
 msgstr "Compartir lo más novedoso"
 
@@ -555,175 +481,125 @@ msgstr "Fallu d'autenticación."
 msgid "Upload failed: %1"
 msgstr "Falló la xubida: %1"
 
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: uploaddialog.ui:89
-msgid "Password:"
-msgstr "Contraseña:"
+#~ msgid "Provider:"
+#~ msgstr "Fornidor:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: uploaddialog.ui:105
-msgid "Username:"
-msgstr "Nome d'usuariu:"
+#~ msgid "Category:"
+#~ msgstr "Categoría:"
 
-#. i18n: ectx: property (text), widget (QLabel, uploadFileLabel)
-#: uploaddialog.ui:148
-msgid "File to upload:"
-msgstr "Ficheru a xubir:"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioNewUpload)
-#: uploaddialog.ui:158
-msgid "New Upload"
-msgstr "Nueva xubida"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
-#: uploaddialog.ui:196
-msgid "GPL"
-msgstr "GPL"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
-#: uploaddialog.ui:201
-msgid "LGPL"
-msgstr "LGPL"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
-#: uploaddialog.ui:206
-msgid "BSD"
-msgstr "BSD"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: uploaddialog.ui:214
-msgid "Description:"
-msgstr "Descripción:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: uploaddialog.ui:240
-msgid "Version:"
-msgstr "Versión:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: uploaddialog.ui:253
-msgid "License:"
-msgstr "Llicencia:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#: uploaddialog.ui:266
 #, fuzzy
-#| msgid "Please give some information about yourself."
-msgid "Please fill out the information about your upload in English."
-msgstr "Apurri daqué d'información sobre ti."
+#~| msgctxt "@action"
+#~| msgid "New"
+#~ msgid "Newest"
+#~ msgstr "Nuevu"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: uploaddialog.ui:282
-msgid "Title:"
-msgstr "Títulu:"
+#~ msgid "Rating"
+#~ msgstr "Calificación"
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, mNameEdit)
-#: uploaddialog.ui:317
-msgid "Name of the file as it will appear on the website"
-msgstr ""
+#~ msgid "Most downloads"
+#~ msgstr "Más descargaos"
 
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, mNameEdit)
-#: uploaddialog.ui:320
-msgid ""
-"This should clearly describe the file content. It can be the same text as "
-"the title of the kvtml file."
-msgstr ""
+#~ msgid "Installed"
+#~ msgstr "Instalaos"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: uploaddialog.ui:334
-msgid "Preview Images"
-msgstr "Previsualizar imaxes"
+#~ msgid "Order by:"
+#~ msgstr "Ordenar por:"
 
-#. i18n: ectx: property (text), widget (QPushButton, changePreview1Button)
-#. i18n: ectx: property (text), widget (QPushButton, changePreview3Button)
-#. i18n: ectx: property (text), widget (QPushButton, changePreview2Button)
-#: uploaddialog.ui:343 uploaddialog.ui:350 uploaddialog.ui:357
-msgid "Select Preview..."
-msgstr "Seleicionar previsualizar..."
+#~ msgid "Search:"
+#~ msgstr "Guetar:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, priceCheckBox)
-#: uploaddialog.ui:433
+#~ msgid "Enter search phrase here"
+#~ msgstr "Introduza equí la fras a guetar"
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Become a Fan"
+#~ msgstr "Faite Fan"
+
+#~ msgid "Password:"
+#~ msgstr "Contraseña:"
+
+#~ msgid "Username:"
+#~ msgstr "Nome d'usuariu:"
+
+#~ msgid "File to upload:"
+#~ msgstr "Ficheru a xubir:"
+
+#~ msgid "New Upload"
+#~ msgstr "Nueva xubida"
+
+#~ msgid "GPL"
+#~ msgstr "GPL"
+
+#~ msgid "LGPL"
+#~ msgstr "LGPL"
+
+#~ msgid "BSD"
+#~ msgstr "BSD"
+
+#~ msgid "Description:"
+#~ msgstr "Descripción:"
+
+#~ msgid "Version:"
+#~ msgstr "Versión:"
+
+#~ msgid "License:"
+#~ msgstr "Llicencia:"
+
 #, fuzzy
-#| msgid "Ne&ver store for this site"
-msgid "Set a price for this item"
-msgstr "&Enxamás guardar pa esti sitiu"
+#~| msgid "Please give some information about yourself."
+#~ msgid "Please fill out the information about your upload in English."
+#~ msgstr "Apurri daqué d'información sobre ti."
 
-#. i18n: ectx: property (title), widget (QGroupBox, priceGroupBox)
-#: uploaddialog.ui:443
+#~ msgid "Title:"
+#~ msgstr "Títulu:"
+
+#~ msgid "Preview Images"
+#~ msgstr "Previsualizar imaxes"
+
+#~ msgid "Select Preview..."
+#~ msgstr "Seleicionar previsualizar..."
+
 #, fuzzy
-#| msgctxt "The source url of a job"
-#| msgid "Source:"
-msgid "Price"
-msgstr "Orixe:"
+#~| msgid "Ne&ver store for this site"
+#~ msgid "Set a price for this item"
+#~ msgstr "&Enxamás guardar pa esti sitiu"
 
-#. i18n: ectx: property (text), widget (QLabel, priceLabel)
-#: uploaddialog.ui:452
 #, fuzzy
-#| msgctxt "The source url of a job"
-#| msgid "Source:"
-msgid "Price:"
-msgstr "Orixe:"
+#~| msgctxt "The source url of a job"
+#~| msgid "Source:"
+#~ msgid "Price"
+#~ msgstr "Orixe:"
 
-#. i18n: ectx: property (text), widget (QLabel, priceReasonLabel)
-#: uploaddialog.ui:479
-msgid "Reason for price:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, contentWebsiteLinkLabel)
-#: uploaddialog.ui:596
-msgid "Fetch content link from server"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, creatingContentLabel)
-#: uploaddialog.ui:609
-msgid "Create content on server"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, creatingContentLabel_2)
-#: uploaddialog.ui:622
-msgid "Upload content"
-msgstr "Xubir conteníu"
-
-#. i18n: ectx: property (text), widget (QLabel, uploadPreview1Label)
-#: uploaddialog.ui:635
 #, fuzzy
-#| msgid "Loading Preview"
-msgid "Upload first preview"
-msgstr "Cargando vista preliminar"
+#~| msgctxt "The source url of a job"
+#~| msgid "Source:"
+#~ msgid "Price:"
+#~ msgstr "Orixe:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: uploaddialog.ui:665
-msgid "Note: You can edit, update and delete your content on the website."
-msgstr ""
+#~ msgid "Upload content"
+#~ msgstr "Xubir conteníu"
 
-#. i18n: ectx: property (text), widget (QLabel, uploadPreview2Label)
-#: uploaddialog.ui:681
 #, fuzzy
-#| msgid "Loading Preview"
-msgid "Upload second preview"
-msgstr "Cargando vista preliminar"
+#~| msgid "Loading Preview"
+#~ msgid "Upload first preview"
+#~ msgstr "Cargando vista preliminar"
 
-#. i18n: ectx: property (text), widget (QLabel, uploadPreview3Label)
-#: uploaddialog.ui:694
 #, fuzzy
-#| msgid "Loading Preview"
-msgid "Upload third preview"
-msgstr "Cargando vista preliminar"
+#~| msgid "Loading Preview"
+#~ msgid "Upload second preview"
+#~ msgstr "Cargando vista preliminar"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: uploaddialog.ui:739
-msgid ""
-"I ensure that this content does not violate any existing copyright, law or "
-"trademark. I agree for my IP address to be logged. (Distributing content "
-"without the permission of the copyright holder is illegal.)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, uploadButton)
-#: uploaddialog.ui:764
 #, fuzzy
-#| msgid "Start replace"
-msgid "Start Upload"
-msgstr "Entamar a trocar"
+#~| msgid "Loading Preview"
+#~ msgid "Upload third preview"
+#~ msgstr "Cargando vista preliminar"
+
+#, fuzzy
+#~| msgid "Start replace"
+#~ msgid "Start Upload"
+#~ msgstr "Entamar a trocar"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
