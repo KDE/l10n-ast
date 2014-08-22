@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-08 08:30+0000\n"
+"POT-Creation-Date: 2014-08-22 08:18+0000\n"
 "PO-Revision-Date: 2012-12-28 18:14+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -506,8 +506,10 @@ msgid "If you wish, you can go back and change your answers. "
 msgstr "Si lo quies, pues volver atrás y camudar les rempuestes. "
 
 #: bugzillaintegration/reportassistantpages_base.cpp:407
-#, kde-format
-msgctxt "@info/plain report to url/mail address"
+#, fuzzy, kde-format
+#| msgctxt "@info/plain report to url/mail address"
+#| msgid "Report to %1"
+msgctxt "@info report to url/mail address"
 msgid "Report to %1"
 msgstr "Informar a %1"
 
@@ -596,7 +598,10 @@ msgid "Performing login at %1 as %2..."
 msgstr "Aniciando sesión en %1 como %2..."
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:352
-msgctxt "@info:status/rich"
+#, fuzzy
+#| msgctxt "@info:status/rich"
+#| msgid "<b>Error: Invalid username or password</b>"
+msgctxt "@info:status"
 msgid "<b>Error: Invalid username or password</b>"
 msgstr "<b>Fallu: Nome d'usuariu o contraseña inválidos</b>"
 
@@ -835,8 +840,10 @@ msgid "Sending crash report... (please wait)"
 msgstr "Unviando l'informe de fallu... (espere por favor)"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:758
-#, kde-format
-msgctxt "@info/plain report to KDE bugtracker address"
+#, fuzzy, kde-format
+#| msgctxt "@info/plain report to url/mail address"
+#| msgid "Report to %1"
+msgctxt "@info report to KDE bugtracker address"
 msgid "Report to %1"
 msgstr "Informar a %1"
 
@@ -993,37 +1000,58 @@ msgid "Showing results from %1 to %2"
 msgstr "Amosando resultaos dende %1 fasta %2"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:320
-msgctxt "@info/plain bug status"
+#, fuzzy
+#| msgctxt "@info/plain bug status"
+#| msgid "[Open]"
+msgctxt "@info bug status"
 msgid "[Open]"
 msgstr "[Abiertu]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:323
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Fixed]"
+msgctxt "@info bug resolution"
 msgid "[Fixed]"
 msgstr "[Iguáu]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:325
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Non-reproducible]"
+msgctxt "@info bug resolution"
 msgid "[Non-reproducible]"
 msgstr "[Non reproducible]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:327
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Duplicate report]"
+msgctxt "@info bug resolution"
 msgid "[Duplicate report]"
 msgstr "[Informe duplicáu]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:329
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Invalid]"
+msgctxt "@info bug resolution"
 msgid "[Invalid]"
 msgstr "[Non válidu]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:332
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[External problem]"
+msgctxt "@info bug resolution"
 msgid "[External problem]"
 msgstr "[Problema esternu]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:335
-msgctxt "@info/plain bug status"
+#, fuzzy
+#| msgctxt "@info/plain bug status"
+#| msgid "[Incomplete]"
+msgctxt "@info bug status"
 msgid "[Incomplete]"
 msgstr "[Incompletu]"
 
@@ -1112,7 +1140,12 @@ msgstr ""
 "informe de fallu"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:640
-msgctxt "@info/plain"
+#, fuzzy
+#| msgctxt "@info/plain"
+#| msgid ""
+#| "Backtrace of the crash I experienced:\n"
+#| "\n"
+msgctxt "@info"
 msgid ""
 "Backtrace of the crash I experienced:\n"
 "\n"
@@ -1268,6 +1301,12 @@ msgstr "Encaboxar (volver al informe)"
 msgctxt "@action:button continue with the selected option and close the dialog"
 msgid "Continue"
 msgstr "Siguir"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:906
+#, fuzzy, kde-format
+#| msgid "You are going to mark your crash as related to bug <numid>%1</numid>"
+msgid "You are going to mark your crash as related to bug %1"
+msgstr "Tas a puntu de rellacionar el to fallu col <numid>%1</numid>"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:919
 #, kde-format
@@ -1599,8 +1638,8 @@ msgstr "La plataforma KDE ta compilada dende los fontes"
 #| "bug report.</note>"
 msgctxt "@info"
 msgid ""
-"<note>The crash and system information will be automatically added to the "
-"bug report.</note>"
+"<i>Note</i>: The crash and system information will be automatically added to "
+"the bug report."
 msgstr ""
 "<note>La información del sistema y del fallu van amestase automáticamente al "
 "informe de fallos.</note>"
@@ -1624,10 +1663,16 @@ msgid "Save login information using the KDE Wallet system"
 msgstr "Guardar la información d'accesu usando la cartera de KDE"
 
 #. i18n: ectx: property (text), widget (QLabel, m_previewDescriptionLabel)
-#: bugzillaintegration/ui/assistantpage_bugzilla_preview.ui:18
+#: bugzillaintegration/ui/assistantpage_bugzilla_preview.ui:19
+#, fuzzy
+#| msgctxt "@label"
+#| msgid ""
+#| "This is a preview of the report's contents which will be sent. <nl />\n"
+#| "If you want to modify it go to the previous pages."
 msgctxt "@label"
 msgid ""
-"This is a preview of the report's contents which will be sent. <nl />\n"
+"This is a preview of the report's contents which will be sent. \n"
+"\n"
 "If you want to modify it go to the previous pages."
 msgstr ""
 "Esta ye una vista previa de los conteníos del informe que va unviase. <nl /"
@@ -1663,12 +1708,19 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_warningLabel)
 #: bugzillaintegration/ui/assistantpage_introduction.ui:77
+#, fuzzy
+#| msgctxt "@info note before starting the bug reporting process"
+#| msgid ""
+#| "<p><note>Since communication between you and the developers is required "
+#| "for effective debugging, to continue reporting this bug <strong>it is "
+#| "required for you to agree that developers may contact you.</strong></"
+#| "note></p><p>Feel free to close this dialog if you do not accept this.</p>"
 msgctxt "@info note before starting the bug reporting process"
 msgid ""
-"<p><note>Since communication between you and the developers is required for "
-"effective debugging, to continue reporting this bug <strong>it is required "
-"for you to agree that developers may contact you.</strong></note></p><p>Feel "
-"free to close this dialog if you do not accept this.</p>"
+"<p><i>Note</i>: Since communication between you and the developers is "
+"required for effective debugging, to continue reporting this bug <strong>it "
+"is required for you to agree that developers may contact you.</strong></"
+"p><p>Feel free to close this dialog if you do not accept this.</p>"
 msgstr ""
 "<p><note>Yá que la comunicación ente tu y los desendolcadores ye necesaria "
 "pa realizar una depuración efectiva, pa siguir informando d'esti fallu "
@@ -1916,6 +1968,10 @@ msgstr "El id del filu que falló"
 msgid "Show backtrace content (advanced)"
 msgstr "Amosar conteníu de la traza inversa (avanzáu)"
 
+#~ msgctxt "@info/plain report to KDE bugtracker address"
+#~ msgid "Report to %1"
+#~ msgstr "Informar a %1"
+
 #~ msgctxt "@info:tooltip examples of good bug report titles"
 #~ msgid ""
 #~ "<strong>Examples of good titles:</strong><nl />\"Plasma crashed after "
@@ -1971,9 +2027,6 @@ msgstr "Amosar conteníu de la traza inversa (avanzáu)"
 #~ msgstr ""
 #~ "<p><note>Esti informe de fallu nun ye sobre un bloquéu nin dengún otru "
 #~ "fallu críticu.</note></p>"
-
-#~ msgid "You are going to mark your crash as related to bug <numid>%1</numid>"
-#~ msgstr "Tas a puntu de rellacionar el to fallu col <numid>%1</numid>"
 
 #~ msgctxt "@info/rich"
 #~ msgid "You can help us improve this software by filing a bug report."
