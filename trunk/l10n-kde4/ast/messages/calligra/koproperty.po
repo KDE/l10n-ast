@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-16 01:51+0000\n"
+"POT-Creation-Date: 2014-08-27 01:37+0000\n"
 "PO-Revision-Date: 2012-12-27 17:20+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -16,14 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
 
 #: EditorDataModel.cpp:171
 msgctxt "Property name"
@@ -35,15 +27,31 @@ msgctxt "Property value"
 msgid "Value"
 msgstr ""
 
+#: EditorView.cpp:503
+msgid "Undo changes"
+msgstr ""
+
+#: Set.cpp:347 Set.cpp:365
+msgctxt "General properties"
+msgid "General"
+msgstr ""
+
 #: editors/booledit.cpp:50
+#, fuzzy
+#| msgid "Yes"
+msgctxt "Property value: Boolean state Yes"
 msgid "Yes"
 msgstr "Sí"
 
 #: editors/booledit.cpp:55
+#, fuzzy
+#| msgid "No"
+msgctxt "Property value: Boolean state No"
 msgid "No"
 msgstr "Non"
 
 #: editors/booledit.cpp:60
+msgctxt "Property value: Boolean (3rd) undefined state None"
 msgid "None"
 msgstr ""
 
@@ -184,18 +192,45 @@ msgid "Insert Image From File (for \"%1\" property)"
 msgstr ""
 
 #: editors/pointedit.cpp:45 editors/pointfedit.cpp:46 editors/rectedit.cpp:45
+msgctxt "Property: X coordinate"
 msgid "X"
 msgstr ""
 
-#: editors/pointedit.cpp:47 editors/pointfedit.cpp:48 editors/rectedit.cpp:47
+#: editors/pointedit.cpp:46 editors/pointfedit.cpp:47 editors/rectedit.cpp:46
+msgctxt "Property: X coordinate"
+msgid "X Coordinate"
+msgstr ""
+
+#: editors/pointedit.cpp:48 editors/pointfedit.cpp:49 editors/rectedit.cpp:48
+msgctxt "Property: Y coordinate"
 msgid "Y"
 msgstr ""
 
-#: editors/rectedit.cpp:49 editors/sizeedit.cpp:43 editors/sizefedit.cpp:43
+#: editors/pointedit.cpp:49 editors/pointfedit.cpp:50
+msgctxt "Property: Y coordinate"
+msgid "Y Coordinate"
+msgstr ""
+
+#: editors/rectedit.cpp:49
+msgctxt "Property: X coordinate"
+msgid "Y Coordinate"
+msgstr ""
+
+#: editors/rectedit.cpp:51 editors/rectedit.cpp:52
+msgctxt "Property: width of rectangle"
 msgid "Width"
 msgstr ""
 
-#: editors/rectedit.cpp:51 editors/sizeedit.cpp:45 editors/sizefedit.cpp:45
+#: editors/rectedit.cpp:54 editors/rectedit.cpp:55
+msgctxt "Property: height of rectangle"
+msgid "Height"
+msgstr ""
+
+#: editors/sizeedit.cpp:43 editors/sizefedit.cpp:43
+msgid "Width"
+msgstr ""
+
+#: editors/sizeedit.cpp:45 editors/sizefedit.cpp:45
 msgid "Height"
 msgstr ""
 
@@ -267,6 +302,7 @@ msgid "Vertical Stretch"
 msgstr ""
 
 #: editors/stringlistedit.cpp:95
+msgctxt "@title:window"
 msgid "Edit List of Items"
 msgstr ""
 
@@ -276,14 +312,6 @@ msgid "Contents of %1"
 msgstr ""
 
 #: editors/symbolcombo.cpp:95
+msgctxt "@title:window"
 msgid "Select Char"
-msgstr ""
-
-#: EditorView.cpp:503
-msgid "Undo changes"
-msgstr ""
-
-#: Set.cpp:347 Set.cpp:365
-msgctxt "General properties"
-msgid "General"
 msgstr ""
