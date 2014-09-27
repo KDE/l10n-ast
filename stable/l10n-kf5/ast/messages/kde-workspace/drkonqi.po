@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-08 09:23+0000\n"
+"POT-Creation-Date: 2014-09-27 09:15+0000\n"
 "PO-Revision-Date: 2012-12-28 18:14+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -506,8 +506,10 @@ msgid "If you wish, you can go back and change your answers. "
 msgstr "Si lo quies, pues volver atrás y camudar les rempuestes. "
 
 #: bugzillaintegration/reportassistantpages_base.cpp:407
-#, kde-format
-msgctxt "@info/plain report to url/mail address"
+#, fuzzy, kde-format
+#| msgctxt "@info/plain report to url/mail address"
+#| msgid "Report to %1"
+msgctxt "@info report to url/mail address"
 msgid "Report to %1"
 msgstr "Informar a %1"
 
@@ -596,7 +598,10 @@ msgid "Performing login at %1 as %2..."
 msgstr "Aniciando sesión en %1 como %2..."
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:352
-msgctxt "@info:status/rich"
+#, fuzzy
+#| msgctxt "@info:status/rich"
+#| msgid "<b>Error: Invalid username or password</b>"
+msgctxt "@info:status"
 msgid "<b>Error: Invalid username or password</b>"
 msgstr "<b>Fallu: Nome d'usuariu o contraseña inválidos</b>"
 
@@ -775,22 +780,6 @@ msgctxt "@title:window"
 msgid "We need more information"
 msgstr "Necesitamos más información"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:609
-msgctxt "@info:tooltip examples of good bug report titles"
-msgid ""
-"<strong>Examples of good titles:</strong><nl />\"Plasma crashed after adding "
-"the Notes widget and writing on it\"<nl />\"Konqueror crashed when accessing "
-"the Facebook application 'X'\"<nl />\"Kopete suddenly closed after resuming "
-"the computer and talking to a MSN buddy\"<nl />\"Kate closed while editing a "
-"log file and pressing the Delete key a couple of times\""
-msgstr ""
-"<strong>Exemplos de bonos títulos:</strong><nl />«Plasma detúvose tres "
-"d'amestar el componente de Notes y escribir n'elli»<nl />«Konqueror falló al "
-"acceder a l'aplicación «X» de Facebook»<nl />«Kopete zarróse de sópitu tres "
-"desbloquiar l'equipu y falar con un contautu de MSN»<nl />«Kate zarróse "
-"mientres editaba un ficheru de rexistru, tres de primir la tecla Desaniciar "
-"un par de vegaes»"
-
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:620
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid "Describe in as much detail as possible the crash circumstances:"
@@ -851,8 +840,10 @@ msgid "Sending crash report... (please wait)"
 msgstr "Unviando l'informe de fallu... (espere por favor)"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:758
-#, kde-format
-msgctxt "@info/plain report to KDE bugtracker address"
+#, fuzzy, kde-format
+#| msgctxt "@info/plain report to url/mail address"
+#| msgid "Report to %1"
+msgctxt "@info report to KDE bugtracker address"
 msgid "Report to %1"
 msgstr "Informar a %1"
 
@@ -1009,37 +1000,58 @@ msgid "Showing results from %1 to %2"
 msgstr "Amosando resultaos dende %1 fasta %2"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:320
-msgctxt "@info/plain bug status"
+#, fuzzy
+#| msgctxt "@info/plain bug status"
+#| msgid "[Open]"
+msgctxt "@info bug status"
 msgid "[Open]"
 msgstr "[Abiertu]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:323
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Fixed]"
+msgctxt "@info bug resolution"
 msgid "[Fixed]"
 msgstr "[Iguáu]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:325
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Non-reproducible]"
+msgctxt "@info bug resolution"
 msgid "[Non-reproducible]"
 msgstr "[Non reproducible]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:327
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Duplicate report]"
+msgctxt "@info bug resolution"
 msgid "[Duplicate report]"
 msgstr "[Informe duplicáu]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:329
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Invalid]"
+msgctxt "@info bug resolution"
 msgid "[Invalid]"
 msgstr "[Non válidu]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:332
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[External problem]"
+msgctxt "@info bug resolution"
 msgid "[External problem]"
 msgstr "[Problema esternu]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:335
-msgctxt "@info/plain bug status"
+#, fuzzy
+#| msgctxt "@info/plain bug status"
+#| msgid "[Incomplete]"
+msgctxt "@info bug status"
 msgid "[Incomplete]"
 msgstr "[Incompletu]"
 
@@ -1128,7 +1140,12 @@ msgstr ""
 "informe de fallu"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:640
-msgctxt "@info/plain"
+#, fuzzy
+#| msgctxt "@info/plain"
+#| msgid ""
+#| "Backtrace of the crash I experienced:\n"
+#| "\n"
+msgctxt "@info"
 msgid ""
 "Backtrace of the crash I experienced:\n"
 "\n"
@@ -1230,49 +1247,6 @@ msgctxt "@info bug status"
 msgid "Temporarily closed, because of a lack of information"
 msgstr "Zarráu temporalmente, por falta d'información"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:760
-msgid ""
-"<p><note>The bug report's title is often written by its reporter and may not "
-"reflect the bug's nature, root cause or other visible symptoms you could use "
-"to compare to your crash. Please read the complete report and all the "
-"comments below.</note></p>"
-msgstr ""
-"<p><note>El títulu del informe de fallu suel tar escritu por quien informa "
-"d'elli y nun suel reflexar la natura de tal fallu, la causa principal u "
-"otros síntomes visibles que comparar col so propio fallu. Por favor, llei "
-"l'informe completu y tolos comentarios qu'heba a continuación.</note></p>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:766
-#, kde-format
-msgid ""
-"<p><note>This bug report has %1 duplicate report. That means this is "
-"probably a <strong>common crash</strong>. <i>Please consider only adding a "
-"comment or a note if you can provide new valuable information which was not "
-"already mentioned.</i></note></p>"
-msgid_plural ""
-"<p><note>This bug report has %1 duplicate reports. That means this is "
-"probably a <strong>common crash</strong>. <i>Please consider only adding a "
-"comment or a note if you can provide new valuable information which was not "
-"already mentioned.</i></note></p>"
-msgstr[0] ""
-"<p><note>Esti informe de fallu tien %1 duplicáu, lo que pue significar que "
-"ye un <strong>fallu común</strong>. <i>Por favor, considera amestar un "
-"comentariu o una nota namái si pues apurrir nueva información útil que nun "
-"se tenga dicho yá.</i></note></p>"
-msgstr[1] ""
-"<p><note>Esti informe de fallu tien %1 duplicaos, lo que pue significar que "
-"ye un <strong>fallu común</strong>. <i>Por favor, considera amestar un "
-"comentariu o una nota namái si pues apurrir nueva información útil que nun "
-"se tenga dicho yá.</i></note></p>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:783
-msgid ""
-"<p><note>This bug report is not about a crash or about any other critical "
-"bug.</note></p>"
-msgstr ""
-"<p><note>Esti informe de fallu nun ye sobre un bloquéu nin dengún otru fallu "
-"críticu.</note></p>"
-
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:790
 #, kde-format
 msgctxt "@info bug report title (quoted)"
@@ -1329,8 +1303,9 @@ msgid "Continue"
 msgstr "Siguir"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:906
-#, kde-format
-msgid "You are going to mark your crash as related to bug <numid>%1</numid>"
+#, fuzzy, kde-format
+#| msgid "You are going to mark your crash as related to bug <numid>%1</numid>"
+msgid "You are going to mark your crash as related to bug %1"
 msgstr "Tas a puntu de rellacionar el to fallu col <numid>%1</numid>"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:919
@@ -1525,7 +1500,7 @@ msgstr "<a href=\"#\">Exemplos</a>"
 #| "See if your bug has already been reported. Double click a report in the "
 #| "list and compare it to yours. You can suggest that your crash is a "
 #| "duplicate of that report or directly attach your information to it."
-msgctxt "@info/rich"
+msgctxt "@info"
 msgid ""
 "See if your bug has already been reported. Double click a report in the list "
 "and compare it to yours. You can suggest that your crash is a duplicate of "
@@ -1620,7 +1595,7 @@ msgstr "Toi dafechu seguru: Amestar la mio información a esti informe"
 #| msgid ""
 #| "<strong>Please select which additional information you can provide:</"
 #| "strong>"
-msgctxt "@info/rich"
+msgctxt "@info"
 msgid "<strong>Please provide the following information in English.</strong>"
 msgstr ""
 "<strong>Por favor, escueyi qué información adicional pues apurrir:</strong>"
@@ -1661,10 +1636,10 @@ msgstr "La plataforma KDE ta compilada dende los fontes"
 #| msgid ""
 #| "<note>The crash and system information will be automatically added to the "
 #| "bug report.</note>"
-msgctxt "@info/rich"
+msgctxt "@info"
 msgid ""
-"<note>The crash and system information will be automatically added to the "
-"bug report.</note>"
+"<i>Note</i>: The crash and system information will be automatically added to "
+"the bug report."
 msgstr ""
 "<note>La información del sistema y del fallu van amestase automáticamente al "
 "informe de fallos.</note>"
@@ -1688,10 +1663,16 @@ msgid "Save login information using the KDE Wallet system"
 msgstr "Guardar la información d'accesu usando la cartera de KDE"
 
 #. i18n: ectx: property (text), widget (QLabel, m_previewDescriptionLabel)
-#: bugzillaintegration/ui/assistantpage_bugzilla_preview.ui:18
+#: bugzillaintegration/ui/assistantpage_bugzilla_preview.ui:19
+#, fuzzy
+#| msgctxt "@label"
+#| msgid ""
+#| "This is a preview of the report's contents which will be sent. <nl />\n"
+#| "If you want to modify it go to the previous pages."
 msgctxt "@label"
 msgid ""
-"This is a preview of the report's contents which will be sent. <nl />\n"
+"This is a preview of the report's contents which will be sent. \n"
+"\n"
 "If you want to modify it go to the previous pages."
 msgstr ""
 "Esta ye una vista previa de los conteníos del informe que va unviase. <nl /"
@@ -1727,12 +1708,19 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_warningLabel)
 #: bugzillaintegration/ui/assistantpage_introduction.ui:77
+#, fuzzy
+#| msgctxt "@info note before starting the bug reporting process"
+#| msgid ""
+#| "<p><note>Since communication between you and the developers is required "
+#| "for effective debugging, to continue reporting this bug <strong>it is "
+#| "required for you to agree that developers may contact you.</strong></"
+#| "note></p><p>Feel free to close this dialog if you do not accept this.</p>"
 msgctxt "@info note before starting the bug reporting process"
 msgid ""
-"<p><note>Since communication between you and the developers is required for "
-"effective debugging, to continue reporting this bug <strong>it is required "
-"for you to agree that developers may contact you.</strong></note></p><p>Feel "
-"free to close this dialog if you do not accept this.</p>"
+"<p><i>Note</i>: Since communication between you and the developers is "
+"required for effective debugging, to continue reporting this bug <strong>it "
+"is required for you to agree that developers may contact you.</strong></"
+"p><p>Feel free to close this dialog if you do not accept this.</p>"
 msgstr ""
 "<p><note>Yá que la comunicación ente tu y los desendolcadores ye necesaria "
 "pa realizar una depuración efectiva, pa siguir informando d'esti fallu "
@@ -1979,6 +1967,66 @@ msgstr "El id del filu que falló"
 #: ui/backtracewidget.ui:100
 msgid "Show backtrace content (advanced)"
 msgstr "Amosar conteníu de la traza inversa (avanzáu)"
+
+#~ msgctxt "@info:tooltip examples of good bug report titles"
+#~ msgid ""
+#~ "<strong>Examples of good titles:</strong><nl />\"Plasma crashed after "
+#~ "adding the Notes widget and writing on it\"<nl />\"Konqueror crashed when "
+#~ "accessing the Facebook application 'X'\"<nl />\"Kopete suddenly closed "
+#~ "after resuming the computer and talking to a MSN buddy\"<nl />\"Kate "
+#~ "closed while editing a log file and pressing the Delete key a couple of "
+#~ "times\""
+#~ msgstr ""
+#~ "<strong>Exemplos de bonos títulos:</strong><nl />«Plasma detúvose tres "
+#~ "d'amestar el componente de Notes y escribir n'elli»<nl />«Konqueror falló "
+#~ "al acceder a l'aplicación «X» de Facebook»<nl />«Kopete zarróse de sópitu "
+#~ "tres desbloquiar l'equipu y falar con un contautu de MSN»<nl />«Kate "
+#~ "zarróse mientres editaba un ficheru de rexistru, tres de primir la tecla "
+#~ "Desaniciar un par de vegaes»"
+
+#~ msgctxt "@info/plain report to KDE bugtracker address"
+#~ msgid "Report to %1"
+#~ msgstr "Informar a %1"
+
+#~ msgid ""
+#~ "<p><note>The bug report's title is often written by its reporter and may "
+#~ "not reflect the bug's nature, root cause or other visible symptoms you "
+#~ "could use to compare to your crash. Please read the complete report and "
+#~ "all the comments below.</note></p>"
+#~ msgstr ""
+#~ "<p><note>El títulu del informe de fallu suel tar escritu por quien "
+#~ "informa d'elli y nun suel reflexar la natura de tal fallu, la causa "
+#~ "principal u otros síntomes visibles que comparar col so propio fallu. Por "
+#~ "favor, llei l'informe completu y tolos comentarios qu'heba a continuación."
+#~ "</note></p>"
+
+#~ msgid ""
+#~ "<p><note>This bug report has %1 duplicate report. That means this is "
+#~ "probably a <strong>common crash</strong>. <i>Please consider only adding "
+#~ "a comment or a note if you can provide new valuable information which was "
+#~ "not already mentioned.</i></note></p>"
+#~ msgid_plural ""
+#~ "<p><note>This bug report has %1 duplicate reports. That means this is "
+#~ "probably a <strong>common crash</strong>. <i>Please consider only adding "
+#~ "a comment or a note if you can provide new valuable information which was "
+#~ "not already mentioned.</i></note></p>"
+#~ msgstr[0] ""
+#~ "<p><note>Esti informe de fallu tien %1 duplicáu, lo que pue significar "
+#~ "que ye un <strong>fallu común</strong>. <i>Por favor, considera amestar "
+#~ "un comentariu o una nota namái si pues apurrir nueva información útil que "
+#~ "nun se tenga dicho yá.</i></note></p>"
+#~ msgstr[1] ""
+#~ "<p><note>Esti informe de fallu tien %1 duplicaos, lo que pue significar "
+#~ "que ye un <strong>fallu común</strong>. <i>Por favor, considera amestar "
+#~ "un comentariu o una nota namái si pues apurrir nueva información útil que "
+#~ "nun se tenga dicho yá.</i></note></p>"
+
+#~ msgid ""
+#~ "<p><note>This bug report is not about a crash or about any other critical "
+#~ "bug.</note></p>"
+#~ msgstr ""
+#~ "<p><note>Esti informe de fallu nun ye sobre un bloquéu nin dengún otru "
+#~ "fallu críticu.</note></p>"
 
 #~ msgctxt "@info/rich"
 #~ msgid "You can help us improve this software by filing a bug report."
