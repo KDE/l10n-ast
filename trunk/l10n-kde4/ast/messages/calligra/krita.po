@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-20 01:40+0000\n"
+"POT-Creation-Date: 2014-10-21 01:37+0000\n"
 "PO-Revision-Date: 2012-12-27 17:18+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -1188,14 +1188,14 @@ msgctxt "./data/patterns/HR_Wall_Paper.pat"
 msgid "HR Wall Paper"
 msgstr ""
 
-#: image/brushengine/kis_paintop_factory.cpp:66
+#: image/brushengine/kis_paintop_factory.cpp:65
 #, fuzzy
 #| msgid "Settings"
 msgctxt "Category of brush engines"
 msgid "Brush engines"
 msgstr "Axustes"
 
-#: image/brushengine/kis_paintop_registry.cc:132
+#: image/brushengine/kis_paintop_registry.cc:131
 msgid "default"
 msgstr ""
 
@@ -2755,7 +2755,7 @@ msgstr ""
 #: plugins/formats/heightmap/kis_wdg_options_heightmap.ui:30
 #: plugins/formats/pdf/pdfimportwidgetbase.ui:214
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:103
-#: ui/forms/wdgdisplaysettings.ui:65 ui/kis_paintop_box.cc:153
+#: ui/forms/wdgdisplaysettings.ui:65 ui/kis_paintop_box.cc:172
 msgid "Size:"
 msgstr ""
 
@@ -3343,7 +3343,7 @@ msgstr ""
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:65
 #: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:38
 #: ui/forms/wdganimationselector.ui:220 ui/forms/wdgautogradient.ui:81
-#: ui/forms/wdgpaintactioneditor.ui:89 ui/kis_paintop_box.cc:151
+#: ui/forms/wdgpaintactioneditor.ui:89 ui/kis_paintop_box.cc:170
 msgid "Opacity:"
 msgstr ""
 
@@ -3417,8 +3417,16 @@ msgstr ""
 msgid "Load flipbook"
 msgstr ""
 
-#: plugins/extensions/dockers/historydocker/HistoryDock.cpp:25
+#: plugins/extensions/dockers/historydocker/HistoryDock.cpp:27
 msgid "Undo History"
+msgstr ""
+
+#: plugins/extensions/dockers/historydocker/KisUndoView.cpp:307
+msgid "Disable Cumulative Undo"
+msgstr ""
+
+#: plugins/extensions/dockers/historydocker/KisUndoView.cpp:307
+msgid "Enable Cumulative Undo"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, imgBrowserTab)
@@ -3681,7 +3689,7 @@ msgstr ""
 #: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:131
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:22
 #: ui/forms/wdgautogradient.ui:25 ui/forms/wdgfilternodecreation.ui:17
-#: ui/forms/wdgflipbookselector.ui:28 ui/forms/wdgpaintopsettings.ui:93
+#: ui/forms/wdgflipbookselector.ui:28 ui/forms/wdgpaintopsettings.ui:166
 msgid "Name:"
 msgstr ""
 
@@ -4977,7 +4985,7 @@ msgstr "Axustes"
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveWorkspaces)
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:197
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:104
-#: ui/forms/wdgdlgblacklistcleanup.ui:26 ui/kis_paintop_box.cc:254
+#: ui/forms/wdgdlgblacklistcleanup.ui:26 ui/kis_paintop_box.cc:279
 msgid "Workspaces"
 msgstr ""
 
@@ -5117,11 +5125,11 @@ msgstr ""
 msgid "Could not load bundle %1."
 msgstr "&Seleicionar"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:299
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:300
 msgid "Could not create the new bundle."
 msgstr ""
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:299
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:300
 msgid "Error"
 msgstr ""
 
@@ -6871,13 +6879,21 @@ msgstr ""
 msgid "Vector Layer"
 msgstr ""
 
-#: plugins/formats/ora/ora_export.cc:98
+#: plugins/formats/ora/ora_export.cc:106
+msgid "Cannot export images in this colorspace or channel depth to OpenRaster"
+msgstr ""
+
+#: plugins/formats/ora/ora_export.cc:106
+msgid "Krita OpenRaster Export"
+msgstr ""
+
+#: plugins/formats/ora/ora_export.cc:114
 msgid ""
 "This image contains vector, clone or fill layers.\n"
 "These layers will be saved as raster layers."
 msgstr ""
 
-#: plugins/formats/ora/ora_export.cc:99
+#: plugins/formats/ora/ora_export.cc:115
 msgid "Warning"
 msgstr ""
 
@@ -8435,7 +8451,7 @@ msgstr "Axustes"
 
 #. i18n: ectx: property (text), widget (QLabel, flowLabel)
 #: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:58
-#: ui/kis_paintop_box.cc:152
+#: ui/kis_paintop_box.cc:171
 msgid "Flow:"
 msgstr ""
 
@@ -8755,7 +8771,7 @@ msgstr ""
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:30
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:243
-#: ui/kis_paintop_box.cc:250
+#: ui/kis_paintop_box.cc:275
 msgid "Mirror"
 msgstr ""
 
@@ -9407,24 +9423,24 @@ msgctxt "(qtundo-format)"
 msgid "Draw Line"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:81
+#: plugins/tools/defaulttools/kis_tool_line.cc:88
 msgid "Use sensors"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
-#: plugins/tools/defaulttools/kis_tool_line.cc:85
+#: plugins/tools/defaulttools/kis_tool_line.cc:91
 #: ui/forms/kis_previewwidgetbase.ui:36 ui/forms/wdgfilterdialog.ui:64
 msgid "Preview"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:250
+#: plugins/tools/defaulttools/kis_tool_line.cc:277
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_line.h:96
+#: plugins/tools/defaulttools/kis_tool_line.h:103
 msgid "Line Tool"
 msgstr ""
 
@@ -9440,7 +9456,7 @@ msgstr ""
 msgid "Measure the distance between two points"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_move.h:115
+#: plugins/tools/defaulttools/kis_tool_move.h:121
 msgid "Move a layer"
 msgstr ""
 
@@ -11579,23 +11595,35 @@ msgid "Preset Collection"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, txtPreset)
-#: ui/forms/wdgpaintopsettings.ui:103
-msgid "Current brush preset"
+#: ui/forms/wdgpaintopsettings.ui:176
+msgid ""
+"Current Brush Preset. Pink in Color whenever the preset has modified "
+"settings. Stays the same if original settings are loaded."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSave)
-#: ui/forms/wdgpaintopsettings.ui:110
+#: ui/forms/wdgpaintopsettings.ui:183
 msgid "Save the current brush settings under this name"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSave)
-#: ui/forms/wdgpaintopsettings.ui:113
+#: ui/forms/wdgpaintopsettings.ui:186
 msgid "&Save to Presets"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, reload)
+#: ui/forms/wdgpaintopsettings.ui:193
+msgid "Reload"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, bnDefaultPreset)
-#: ui/forms/wdgpaintopsettings.ui:130
+#: ui/forms/wdgpaintopsettings.ui:234
 msgid "Default preset"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, dirtyPresetCheckBox)
+#: ui/forms/wdgpaintopsettings.ui:247
+msgid "Temporarily Save Tweaks To Presets"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
@@ -12868,67 +12896,71 @@ msgstr ""
 msgid "Show Assistant Previews"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:96
+#: ui/kis_paintop_box.cc:105
 msgid "Painter's Toolchest"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:102
+#: ui/kis_paintop_box.cc:111
 msgid "Edit brush settings"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:107
+#: ui/kis_paintop_box.cc:116
 msgid "Choose brush preset"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:114
+#: ui/kis_paintop_box.cc:123
 msgid "Set eraser mode"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:124
+#: ui/kis_paintop_box.cc:134
+msgid "Reload Original Preset"
+msgstr ""
+
+#: ui/kis_paintop_box.cc:143
 msgid "Preserve Alpha"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:133
+#: ui/kis_paintop_box.cc:152
 msgid "Set horizontal mirror mode"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:142
+#: ui/kis_paintop_box.cc:161
 msgid "Set vertical mirror mode"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:176
+#: ui/kis_paintop_box.cc:196
 msgid "Mode: "
 msgstr ""
 
-#: ui/kis_paintop_box.cc:187
+#: ui/kis_paintop_box.cc:207
 msgid "Choose workspace"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:211
+#: ui/kis_paintop_box.cc:236
 msgid "Brush composite"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:215
+#: ui/kis_paintop_box.cc:240
 msgid "Brush option slider 1"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:220
+#: ui/kis_paintop_box.cc:245
 msgid "Brush option slider 2"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:225
+#: ui/kis_paintop_box.cc:250
 msgid "Brush option slider 3"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:230
+#: ui/kis_paintop_box.cc:255
 msgid "Next Favourite Preset"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:235
+#: ui/kis_paintop_box.cc:260
 msgid "Previous Favourite Preset"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:240
+#: ui/kis_paintop_box.cc:265
 msgid "Switch to Previous Preset"
 msgstr ""
 
@@ -13459,6 +13491,18 @@ msgctxt "(qtundo-format)"
 msgid "Filter \"%1\""
 msgstr "Filtr&u"
 
+#: ui/widgets/kis_categorized_list_view.cpp:113
+msgid "Lock"
+msgstr ""
+
+#: ui/widgets/kis_categorized_list_view.cpp:113
+msgid "Unlock (Drop Locked)"
+msgstr ""
+
+#: ui/widgets/kis_categorized_list_view.cpp:116
+msgid "Unlock (keep locked)"
+msgstr ""
+
 #: ui/widgets/kis_channelflags_widget.cpp:38
 msgid ""
 "Check the active channels in this layer. Only these channels will be "
@@ -13624,35 +13668,35 @@ msgstr ""
 msgid "x%1"
 msgstr ""
 
-#: ui/widgets/kis_paintop_presets_chooser_popup.cpp:55
+#: ui/widgets/kis_paintop_presets_chooser_popup.cpp:56
 msgid "Thumbnails"
 msgstr ""
 
-#: ui/widgets/kis_paintop_presets_chooser_popup.cpp:60
+#: ui/widgets/kis_paintop_presets_chooser_popup.cpp:61
 msgid "Details"
 msgstr ""
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:205
+#: ui/widgets/kis_paintop_presets_popup.cpp:220
 msgid "Overwrite Preset"
 msgstr ""
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:209
+#: ui/widgets/kis_paintop_presets_popup.cpp:225
 msgid "Save to Presets"
 msgstr ""
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:228
+#: ui/widgets/kis_paintop_presets_popup.cpp:246
 msgid "Attach to Toolbar"
 msgstr ""
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:228
+#: ui/widgets/kis_paintop_presets_popup.cpp:246
 msgid "Detach from Toolbar"
 msgstr ""
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:230
+#: ui/widgets/kis_paintop_presets_popup.cpp:248
 msgid "Show Preset Strip"
 msgstr ""
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:234
+#: ui/widgets/kis_paintop_presets_popup.cpp:252
 msgid "Show Scratchpad"
 msgstr ""
 
