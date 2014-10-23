@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-21 08:06+0000\n"
+"POT-Creation-Date: 2014-10-23 08:06+0000\n"
 "PO-Revision-Date: 2010-10-22 15:43+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -26,44 +26,44 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: bindings.cpp:34
+#: bindings.cpp:33
 #, fuzzy
 #| msgctxt "tooltip title"
 #| msgid "Keyboard Layout"
 msgid "Switch to Next Keyboard Layout"
 msgstr "Distribución de tecláu"
 
-#: bindings.cpp:35
+#: bindings.cpp:34
 #, fuzzy
 #| msgctxt "tooltip title"
 #| msgid "Keyboard Layout"
 msgid "KDE Keyboard Layout Switcher"
 msgstr "Distribución de tecláu"
 
-#: bindings.cpp:68
+#: bindings.cpp:67
 #, fuzzy, kde-format
 #| msgctxt "tooltip title"
 #| msgid "Keyboard Layout"
 msgid "Switch keyboard layout to %1"
 msgstr "Distribución de tecláu"
 
-#: flags.cpp:138
+#: flags.cpp:140
 #, kde-format
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: flags.cpp:146
+#: flags.cpp:148
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: kcm_add_layout_dialog.cpp:55
+#: kcm_add_layout_dialog.cpp:56
 msgid "Any language"
 msgstr "Cualquier llingua"
 
-#: kcm_add_layout_dialog.cpp:134 kcm_view_models.cpp:308
+#: kcm_add_layout_dialog.cpp:139 kcm_view_models.cpp:308
 msgctxt "variant"
 msgid "Default"
 msgstr "Predeteminada"
@@ -110,20 +110,20 @@ msgid "Limit selection by language:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, prevbutton)
-#. i18n: ectx: property (text), widget (QPushButton, previewbutton)
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
 #: kcm_add_layout_dialog.ui:101 kcm_keyboard.ui:352
 msgid "Preview"
 msgstr ""
 
-#: kcm_keyboard.cpp:52
+#: kcm_keyboard.cpp:49
 msgid "KDE Keyboard Control Module"
 msgstr "Módulu de control del tecláu de KDE"
 
-#: kcm_keyboard.cpp:54
+#: kcm_keyboard.cpp:51
 msgid "(c) 2010 Andriy Rysin"
 msgstr "(c) 2010 Andriy Rysin"
 
-#: kcm_keyboard.cpp:57
+#: kcm_keyboard.cpp:54
 msgid ""
 "<h1>Keyboard</h1> This control module can be used to configure keyboard "
 "parameters and layouts."
@@ -332,34 +332,30 @@ msgstr ""
 msgid "&Configure keyboard options"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:213
+#: kcm_keyboard_widget.cpp:216
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
 msgstr "Desconocíu"
 
-#: kcm_keyboard_widget.cpp:215
+#: kcm_keyboard_widget.cpp:218
 #, kde-format
 msgctxt "vendor | keyboard model"
 msgid "%1 | %2"
 msgstr "%1 | %2"
 
-#: kcm_keyboard_widget.cpp:225
+#: kcm_keyboard_widget.cpp:228
 #, kde-format
 msgid "Only up to %1 keyboard layout is supported"
 msgid_plural "Only up to %1 keyboard layouts are supported"
 msgstr[0] "Namái hai sofitu pa %1 distribución de tecláu"
 msgstr[1] "Namái hai sofitu pa %1 distribuciones de tecláu"
 
-#: kcm_keyboard_widget.cpp:373
-msgid "No layout selected "
-msgstr ""
-
-#: kcm_keyboard_widget.cpp:603
+#: kcm_keyboard_widget.cpp:612
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "Dengún"
 
-#: kcm_keyboard_widget.cpp:619
+#: kcm_keyboard_widget.cpp:628
 #, kde-format
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
@@ -390,7 +386,7 @@ msgstr "Etiqueta"
 msgid "Shortcut"
 msgstr "%1 accesu rápidu"
 
-#. i18n: ectx: property (whatsThis), widget (KButtonGroup, numlockGroupBox)
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:17
 msgid ""
 "If supported, this option allows you to setup the state of NumLock after KDE "
@@ -398,26 +394,24 @@ msgid ""
 "KDE not to set NumLock state."
 msgstr ""
 
-#. i18n: ectx: property (title), widget (KButtonGroup, numlockGroupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:20
 msgid "NumLock on KDE Startup"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton1)
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOnRadioButton)
 #: kcmmiscwidget.ui:32 kcmmiscwidget.ui:71
 msgid "T&urn on"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1_2)
-#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOffRadioButton)
-#: kcmmiscwidget.ui:39 kcmmiscwidget.ui:78
-msgid "Turn o&ff"
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
+#: kcmmiscwidget.ui:39
+msgid "&Turn off"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1_3)
-#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
-#: kcmmiscwidget.ui:46 kcmmiscwidget.ui:85
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton3)
+#: kcmmiscwidget.ui:46
 msgid "Leave unchan&ged"
 msgstr ""
 
@@ -429,13 +423,23 @@ msgstr ""
 msgid "Keyboard Repeat"
 msgstr "Distribución de tecláu"
 
+#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOffRadioButton)
+#: kcmmiscwidget.ui:78
+msgid "Turn o&ff"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
+#: kcmmiscwidget.ui:85
+msgid "&Leave unchanged"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, lblDelay)
 #: kcmmiscwidget.ui:123
 msgid "&Delay:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
-#. i18n: ectx: property (whatsThis), widget (KIntNumInput, delay)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, delay)
 #: kcmmiscwidget.ui:133 kcmmiscwidget.ui:161
 msgid ""
 "If supported, this option allows you to set the delay after which a pressed "
@@ -443,7 +447,7 @@ msgid ""
 "frequency of these keycodes."
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (KIntNumInput, delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, delay)
 #: kcmmiscwidget.ui:164
 msgid " ms"
 msgstr ""
@@ -454,14 +458,14 @@ msgid "&Rate:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
-#. i18n: ectx: property (whatsThis), widget (KDoubleNumInput, rate)
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, rate)
 #: kcmmiscwidget.ui:187 kcmmiscwidget.ui:215
 msgid ""
 "If supported, this option allows you to set the rate at which keycodes are "
 "generated while a key is pressed."
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (KDoubleNumInput, rate)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rate)
 #: kcmmiscwidget.ui:218
 msgid " repeats/s"
 msgstr ""
@@ -497,15 +501,15 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
 #: kcmmiscwidget.ui:263
-msgid "Key click &volume:"
+msgid "&Key click volume:"
 msgstr ""
 
-#: layout_tray_icon.cpp:47 layout_tray_icon.cpp:48
+#: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr "Distribución de tecláu"
 
-#: layouts_menu.cpp:137
+#: layouts_menu.cpp:134
 msgid "Configure..."
 msgstr "Configurar..."
 
