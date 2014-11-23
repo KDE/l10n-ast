@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-22 01:42+0000\n"
+"POT-Creation-Date: 2014-11-23 01:51+0000\n"
 "PO-Revision-Date: 2012-12-27 17:18+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -3846,58 +3846,132 @@ msgstr ""
 msgid "Grow image to make drop shadow fit if needed"
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:63
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:94
 msgid "Apply G'Mic Action..."
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgSplash)
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:153
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:161 ui/kis_aboutdata.h:44
-#: wdgsplash.ui:300
-msgid "Krita"
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:177
+msgid "G'MIC for Krita"
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:153
-msgid "Sorry, this filter is crashing Krita and is turned off."
-msgstr ""
-
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:161
-msgid "Sorry, this input mode is not implemented"
-msgstr ""
-
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:165
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:341
 msgctxt "(qtundo-format)"
 msgid "Gmic filter"
 msgstr ""
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgSplash)
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:353
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:363
+#: plugins/extensions/gmic/kis_gmic_widget.cpp:414 ui/kis_aboutdata.h:44
+#: wdgsplash.ui:300
+msgid "Krita"
+msgstr ""
+
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:353
+msgid "Sorry, this filter is crashing Krita and is turned off."
+msgstr ""
+
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:363
+msgid "Sorry, this input mode is not implemented"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonUpdate)
-#: plugins/extensions/gmic/kis_gmic_settings_widget.cpp:367
+#: plugins/extensions/gmic/kis_gmic_settings_widget.cpp:368
 #: plugins/formats/raw/wdgrawimport.ui:29
 msgid "Update"
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_widget.cpp:41
+#: plugins/extensions/gmic/kis_gmic_widget.cpp:42
 msgid "Maximize"
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_widget.cpp:265
+#: plugins/extensions/gmic/kis_gmic_widget.cpp:43
+#, fuzzy
+#| msgid "&Layer"
+msgid "Select a filter..."
+msgstr "&Capa"
+
+#: plugins/extensions/gmic/kis_gmic_widget.cpp:245
 msgid "Restore"
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_widget.cpp:282
+#: plugins/extensions/gmic/kis_gmic_widget.cpp:262
 msgctxt "@info"
 msgid "Update filters done. Restart G'MIC dialog to finish updating! "
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_widget.cpp:284
+#: plugins/extensions/gmic/kis_gmic_widget.cpp:264
 msgctxt "@title:window"
 msgid "Updated"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/gmic/wdg_gmic.ui:17
-msgid "G'Mic string:"
+#: plugins/extensions/gmic/kis_gmic_widget.cpp:414
+msgid "Sorry, support not implemented yet."
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, updateBtn)
+#: plugins/extensions/gmic/wdg_gmic.ui:32
+msgid "Update definitions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, searchLbl)
+#: plugins/extensions/gmic/wdg_gmic.ui:41
+msgid "Search:"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgGmicInputOutput)
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:14
+msgid "Form"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
+#. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
+#. i18n: ectx: property (text), widget (QCheckBox, previewCheckBox)
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:30
+#: plugins/tools/defaulttools/kis_tool_line.cc:99
+#: ui/forms/kis_previewwidgetbase.ui:36 ui/forms/wdgfilterdialog.ui:64
+msgid "Preview"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomIn)
+#. i18n: ectx: property (toolTip), widget (QPushButton, zoomInButton)
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:48
+#: ui/forms/kis_previewwidgetbase.ui:135 ui/input/kis_zoom_action.cpp:118
+msgid "Zoom In"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomOut)
+#. i18n: ectx: property (toolTip), widget (QPushButton, zoomOutButton)
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:64
+#: ui/forms/kis_previewwidgetbase.ui:122 ui/input/kis_zoom_action.cpp:119
+msgid "Zoom Out"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, inputLayerLabel)
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:76
+msgid "Input"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpOutput)
+#. i18n: ectx: property (text), widget (QLabel, outputLayerLabel)
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:86
+#: plugins/extensions/separate_channels/wdg_separations.ui:72
+msgid "Output"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, outputPreviewLabel)
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:96
+#, fuzzy
+#| msgid "&View"
+msgid "Preview mode"
+msgstr "&Ver"
+
+#. i18n: ectx: property (text), widget (QLabel, previewSizeLabel)
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:109
+#, fuzzy
+#| msgid "&View"
+msgid "Preview size"
+msgstr "&Ver"
 
 #: plugins/extensions/histogram/dlg_histogram.cc:34
 #: plugins/extensions/histogram/dlg_histogram.cc:41
@@ -5367,11 +5441,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioAllLayers)
 #: plugins/extensions/separate_channels/wdg_separations.ui:62
 msgid "Flatten all layers before separation"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpOutput)
-#: plugins/extensions/separate_channels/wdg_separations.ui:72
-msgid "Output"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioLayers)
@@ -9457,13 +9526,6 @@ msgstr ""
 msgid "Use sensors"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
-#. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
-#: plugins/tools/defaulttools/kis_tool_line.cc:99
-#: ui/forms/kis_previewwidgetbase.ui:36 ui/forms/wdgfilterdialog.ui:64
-msgid "Preview"
-msgstr ""
-
 #: plugins/tools/defaulttools/kis_tool_line.cc:285
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
@@ -10728,16 +10790,6 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioBtnOriginal)
 #: ui/forms/kis_previewwidgetbase.ui:96
 msgid "Show original layer"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomOut)
-#: ui/forms/kis_previewwidgetbase.ui:122 ui/input/kis_zoom_action.cpp:119
-msgid "Zoom Out"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomIn)
-#: ui/forms/kis_previewwidgetbase.ui:135 ui/input/kis_zoom_action.cpp:118
-msgid "Zoom In"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomOneToOne)
@@ -14009,11 +14061,6 @@ msgstr ""
 #~| msgid "&File"
 #~ msgid "Filename"
 #~ msgstr "&Ficheru"
-
-#, fuzzy
-#~| msgid "&View"
-#~ msgid "Preview:"
-#~ msgstr "&Ver"
 
 #, fuzzy
 #~| msgid "&Image"
