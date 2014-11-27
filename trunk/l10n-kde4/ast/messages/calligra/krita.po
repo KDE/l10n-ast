@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-26 01:42+0000\n"
+"POT-Creation-Date: 2014-11-27 01:43+0000\n"
 "PO-Revision-Date: 2012-12-27 17:18+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -79,14 +79,14 @@ msgid "New"
 msgstr "Nuevu"
 
 #. i18n: ectx: Menu (LayerConvert)
-#: animator/kritaanimation.rc:96 gemini/kritagemini.rc:101 krita.rc:103
+#: animator/kritaanimation.rc:96 gemini/kritagemini.rc:101
 #: sketch/kritasketch.rc:101
 msgid "Convert"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #. i18n: ectx: Menu (Select)
-#: animator/kritaanimation.rc:121 gemini/kritagemini.rc:126 krita.rc:129
+#: animator/kritaanimation.rc:121 gemini/kritagemini.rc:126 krita.rc:140
 #: plugins/extensions/colorrange/wdg_colorrange.ui:131
 #: plugins/extensions/imagesize/imagesize.rc:12
 #: plugins/extensions/modify_selection/modify_selection.rc:4
@@ -95,20 +95,20 @@ msgid "&Select"
 msgstr "&Seleicionar"
 
 #. i18n: ectx: Menu (Filter)
-#: animator/kritaanimation.rc:134 gemini/kritagemini.rc:139 krita.rc:144
+#: animator/kritaanimation.rc:134 gemini/kritagemini.rc:139 krita.rc:155
 #: sketch/kritasketch.rc:139
 msgid "Filte&r"
 msgstr "Filtr&u"
 
 #. i18n: ectx: Menu (Tools)
-#: animator/kritaanimation.rc:151 gemini/kritagemini.rc:156 krita.rc:161
+#: animator/kritaanimation.rc:151 gemini/kritagemini.rc:156 krita.rc:172
 #: sketch/kritasketch.rc:156
 msgid "&Tools"
 msgstr "&Ferramientes"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: Menu (settings)
-#: animator/kritaanimation.rc:154 gemini/kritagemini.rc:159 krita.rc:164
+#: animator/kritaanimation.rc:154 gemini/kritagemini.rc:159 krita.rc:175
 #: plugins/extensions/dockers/animator/kis_timeline.cpp:203
 #: plugins/extensions/dockers/animator/kis_timeline.cpp:218
 #: plugins/paintops/spray/wdgshapedynamicsoptions.ui:42
@@ -117,7 +117,7 @@ msgid "Settings"
 msgstr "Axustes"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: animator/kritaanimation.rc:166 gemini/kritagemini.rc:172 krita.rc:177
+#: animator/kritaanimation.rc:166 gemini/kritagemini.rc:172 krita.rc:188
 #: sketch/kritasketch.rc:172
 msgid "Brushes and Stuff"
 msgstr ""
@@ -1802,6 +1802,28 @@ msgstr ""
 msgid "<html><head/><body><p align=\"center\"><b>Recent Files</b></p>"
 msgstr ""
 
+#. i18n: ectx: Menu (LayerImportExport)
+#: krita.rc:101
+msgid "&Import/Export"
+msgstr ""
+
+#. i18n: ectx: Menu (LayerImportAs)
+#: krita.rc:106
+msgid "Import"
+msgstr ""
+
+#. i18n: ectx: Menu (LayerConvert)
+#: krita.rc:113
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:491
+msgid "&Convert"
+msgstr ""
+
+#. i18n: ectx: Menu (LayerSplitAlpha)
+#: krita.rc:120
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:498
+msgid "S&plit Alpha"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #: plugins/assistants/RulerAssistant/AssistantsToolOptions.ui:46
 msgid "Delete all"
@@ -3201,10 +3223,6 @@ msgstr ""
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:487
 #: ui/kis_layer_manager.cc:277
 msgid "&Merge with Layer Below"
-msgstr ""
-
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:491
-msgid "&Convert"
 msgstr ""
 
 #: plugins/extensions/dockers/defaultdockers/kis_palette_docker.cc:38
@@ -10632,7 +10650,7 @@ msgid "Image Properties"
 msgstr ""
 
 #: ui/dialogs/kis_dlg_image_properties.cc:72
-#: ui/dialogs/kis_dlg_preferences.cc:426 ui/kis_image_manager.cc:60
+#: ui/dialogs/kis_dlg_preferences.cc:426 ui/kis_image_manager.cc:76
 msgid "Change the background color of the image"
 msgstr ""
 
@@ -12924,14 +12942,36 @@ msgid "I&mport Layer..."
 msgstr ""
 
 #: ui/kis_image_manager.cc:55
+#, fuzzy
+#| msgid "&Layer"
+msgid "as Paint Layer..."
+msgstr "&Capa"
+
+#: ui/kis_image_manager.cc:59
+msgid "as Transparency Mask..."
+msgstr ""
+
+#: ui/kis_image_manager.cc:63
+#, fuzzy
+#| msgid "Filte&r"
+msgid "as Filter Mask..."
+msgstr "Filtr&u"
+
+#: ui/kis_image_manager.cc:67
+#, fuzzy
+#| msgid "&Select"
+msgid "as Selection Mask..."
+msgstr "&Seleicionar"
+
+#: ui/kis_image_manager.cc:71
 msgid "Properties..."
 msgstr ""
 
-#: ui/kis_image_manager.cc:59
+#: ui/kis_image_manager.cc:75
 msgid "Image Background Color and Transparency..."
 msgstr ""
 
-#: ui/kis_image_manager.cc:84
+#: ui/kis_image_manager.cc:116
 msgid "Import Image"
 msgstr ""
 
@@ -13087,164 +13127,202 @@ msgstr ""
 msgid "Filter Mask Properties"
 msgstr "Filtr&u"
 
-#: ui/kis_node_manager.cpp:153
+#: ui/kis_node_manager.cpp:174
 #, fuzzy
 #| msgid "&Layer"
 msgid "&Merge Selected Layers"
 msgstr "&Capa"
 
-#: ui/kis_node_manager.cpp:202
+#: ui/kis_node_manager.cpp:223
 msgid "Mirror Layer Horizontally"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:208
+#: ui/kis_node_manager.cpp:229
 msgid "Mirror Layer Vertically"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:214
+#: ui/kis_node_manager.cpp:235
 msgid "Activate next layer"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:220
+#: ui/kis_node_manager.cpp:241
 msgid "Activate previous layer"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:226
+#: ui/kis_node_manager.cpp:247
 msgid "Save Layer/Mask..."
 msgstr ""
 
-#: ui/kis_node_manager.cpp:231
+#: ui/kis_node_manager.cpp:252
 msgid "&Duplicate Layer or Mask"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:238
+#: ui/kis_node_manager.cpp:259
 msgid "&Paint Layer"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:242
+#: ui/kis_node_manager.cpp:263
 msgid "&Group Layer"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:245
+#: ui/kis_node_manager.cpp:266
 msgid "&Clone Layer"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:248
+#: ui/kis_node_manager.cpp:269
 msgid "&Vector Layer"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:251
+#: ui/kis_node_manager.cpp:272
 msgid "&Filter Layer..."
-msgstr ""
-
-#: ui/kis_node_manager.cpp:254
-#, fuzzy
-#| msgid "&Layer"
-msgid "&Fill Layer..."
-msgstr "&Capa"
-
-#: ui/kis_node_manager.cpp:257
-#, fuzzy
-#| msgid "&Layer"
-msgid "&File Layer..."
-msgstr "&Capa"
-
-#: ui/kis_node_manager.cpp:260
-msgid "&Transparency Mask"
-msgstr ""
-
-#: ui/kis_node_manager.cpp:263
-msgid "&Filter Mask..."
-msgstr ""
-
-#: ui/kis_node_manager.cpp:266
-msgid "&Transform Mask..."
-msgstr ""
-
-#: ui/kis_node_manager.cpp:269
-msgid "&Local Selection"
 msgstr ""
 
 #: ui/kis_node_manager.cpp:275
 #, fuzzy
 #| msgid "&Layer"
-msgid "to &Paint Layer"
+msgid "&Fill Layer..."
 msgstr "&Capa"
 
 #: ui/kis_node_manager.cpp:278
+#, fuzzy
+#| msgid "&Layer"
+msgid "&File Layer..."
+msgstr "&Capa"
+
+#: ui/kis_node_manager.cpp:281
+msgid "&Transparency Mask"
+msgstr ""
+
+#: ui/kis_node_manager.cpp:284
+msgid "&Filter Mask..."
+msgstr ""
+
+#: ui/kis_node_manager.cpp:287
+msgid "&Transform Mask..."
+msgstr ""
+
+#: ui/kis_node_manager.cpp:290
+msgid "&Local Selection"
+msgstr ""
+
+#: ui/kis_node_manager.cpp:296
+#, fuzzy
+#| msgid "&Layer"
+msgid "to &Paint Layer"
+msgstr "&Capa"
+
+#: ui/kis_node_manager.cpp:299
 #, fuzzy
 #| msgid "&Select"
 msgid "to &Selection Mask"
 msgstr "&Seleicionar"
 
-#: ui/kis_node_manager.cpp:281
+#: ui/kis_node_manager.cpp:302
 #, fuzzy
 #| msgid "Filte&r"
 msgid "to &Filter Mask..."
 msgstr "Filtr&u"
 
-#: ui/kis_node_manager.cpp:284
+#: ui/kis_node_manager.cpp:305
 msgid "to &Transparency Mask"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:290
+#: ui/kis_node_manager.cpp:311
 #, fuzzy
 #| msgid "&Layer"
 msgid "&Isolate Layer"
 msgstr "&Capa"
 
-#: ui/kis_node_manager.cpp:477
+#: ui/kis_node_manager.cpp:317
+msgid "Alpha into Mask"
+msgstr ""
+
+#: ui/kis_node_manager.cpp:323
+msgid "Write as Alpha"
+msgstr ""
+
+#: ui/kis_node_manager.cpp:329
+#, fuzzy
+#| msgid "Save..."
+msgid "Save Merged..."
+msgstr "Guardar..."
+
+#: ui/kis_node_manager.cpp:516
 #, fuzzy
 #| msgid "&Select"
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "&Seleicionar"
 
-#: ui/kis_node_manager.cpp:704
+#: ui/kis_node_manager.cpp:743
 #, fuzzy
 #| msgid "&Layer"
 msgctxt "(qtundo-format)"
 msgid "Remove Last Layer"
 msgstr "&Capa"
 
-#: ui/kis_node_manager.cpp:718
+#: ui/kis_node_manager.cpp:757
 msgctxt "(qtundo-format)"
 msgid "Remove Multiple Layers and Masks"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:749
+#: ui/kis_node_manager.cpp:788
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:751
+#: ui/kis_node_manager.cpp:790
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:762
+#: ui/kis_node_manager.cpp:801
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:764
+#: ui/kis_node_manager.cpp:803
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:863
+#: ui/kis_node_manager.cpp:902
 msgid "Merged"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:866
+#: ui/kis_node_manager.cpp:905
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:957
+#: ui/kis_node_manager.cpp:994
 #, kde-format
 msgid "Export \"%1\""
 msgstr ""
+
+#: ui/kis_node_manager.cpp:1065
+msgctxt "(qtundo-format)"
+msgid "Split Alpha into a Mask"
+msgstr ""
+
+#: ui/kis_node_manager.cpp:1095
+#, kde-format
+msgid ""
+"Cannot write alpha channel of the parent layer \"%1\".\n"
+"The operation will be cancelled."
+msgstr ""
+
+#: ui/kis_node_manager.cpp:1098
+#, kde-format
+msgid "Layer %1 is not editable"
+msgstr ""
+
+#: ui/kis_node_manager.cpp:1121
+#, fuzzy
+#| msgid "&Layer"
+msgctxt "(qtundo-format)"
+msgid "Write Alpha into a Layer"
+msgstr "&Capa"
 
 #: ui/kis_painting_assistants_decoration.cpp:114
 msgid "Show Painting Assistants"
