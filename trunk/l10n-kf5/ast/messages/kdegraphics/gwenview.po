@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-22 08:01+0000\n"
+"POT-Creation-Date: 2014-11-29 08:06+0000\n"
 "PO-Revision-Date: 2010-10-25 14:33+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -433,31 +433,31 @@ msgstr "Videos:"
 msgid "Show videos"
 msgstr "Amosar videos"
 
-#: app/gvcore.cpp:87
+#: app/gvcore.cpp:88
 msgctxt "@info"
 msgid "No image format selected."
 msgstr "Nun s'esbilló dengún formatu d'imaxe."
 
-#: app/gvcore.cpp:100
+#: app/gvcore.cpp:101
 #, kde-format
 msgctxt "@info"
 msgid "Gwenview cannot save images as %1."
 msgstr "Gwenview nun puede atroxar imáxenes como %1."
 
-#: app/gvcore.cpp:235
+#: app/gvcore.cpp:236
 msgid "Save using another format"
 msgstr "Guardar usando otru formatu"
 
-#: app/gvcore.cpp:238
+#: app/gvcore.cpp:239
 #, kde-format
 msgid "Gwenview cannot save images in '%1' format."
 msgstr "Gwenview nun puede guardar imáxenes en formatu «%1»."
 
-#: app/gvcore.cpp:319
+#: app/gvcore.cpp:320
 msgid "You are now viewing the new document."
 msgstr "Agora tas viendo'l nuevu documentu"
 
-#: app/gvcore.cpp:321
+#: app/gvcore.cpp:322
 msgid "Go back to the original"
 msgstr "Volver al orixinal"
 
@@ -936,7 +936,7 @@ msgstr "Información"
 msgid "Operations"
 msgstr "Operaciones"
 
-#: app/mainwindow.cpp:1078
+#: app/mainwindow.cpp:1075
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Sidebar"
@@ -944,7 +944,7 @@ msgctxt "@info:tooltip"
 msgid "Hide sidebar"
 msgstr "Barra llateral"
 
-#: app/mainwindow.cpp:1078
+#: app/mainwindow.cpp:1075
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Sidebar"
@@ -952,63 +952,63 @@ msgctxt "@info:tooltip"
 msgid "Show sidebar"
 msgstr "Barra llateral"
 
-#: app/mainwindow.cpp:1328
+#: app/mainwindow.cpp:1326
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Abrir imaxe"
 
-#: app/mainwindow.cpp:1388
+#: app/mainwindow.cpp:1386
 msgid "Stop Slideshow"
 msgstr "Parar presentación"
 
-#: app/mainwindow.cpp:1391
+#: app/mainwindow.cpp:1389
 msgid "Start Slideshow"
 msgstr "Aniciar presentación"
 
-#: app/mainwindow.cpp:1405
+#: app/mainwindow.cpp:1403
 msgid "Save All Changes"
 msgstr "Guardar tolos cambeos"
 
-#: app/mainwindow.cpp:1406
+#: app/mainwindow.cpp:1404
 msgid "Discard Changes"
 msgstr "Descartar los cambeos"
 
-#: app/mainwindow.cpp:1407
+#: app/mainwindow.cpp:1405
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "Modificóse una imaxe."
 msgstr[1] "Modificáronse %1 imáxenes."
 
-#: app/mainwindow.cpp:1409
+#: app/mainwindow.cpp:1407
 msgid "If you quit now, your changes will be lost."
 msgstr "Si cueles agora, perderánse los tos cambeos."
 
-#: app/mainwindow.cpp:1580
+#: app/mainwindow.cpp:1581
 msgid "You reached the first document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1581 app/mainwindow.cpp:1595
+#: app/mainwindow.cpp:1582 app/mainwindow.cpp:1596
 msgid "Stay There"
 msgstr ""
 
-#: app/mainwindow.cpp:1582
+#: app/mainwindow.cpp:1583
 #, fuzzy
 #| msgid "Go to Last Image"
 msgid "Go to the Last Document"
 msgstr "Dir a la cabera imaxe"
 
-#: app/mainwindow.cpp:1583 app/mainwindow.cpp:1597
+#: app/mainwindow.cpp:1584 app/mainwindow.cpp:1598
 #, fuzzy
 #| msgid "Go back to the original"
 msgid "Go Back to the Document List"
 msgstr "Volver al orixinal"
 
-#: app/mainwindow.cpp:1594
+#: app/mainwindow.cpp:1595
 msgid "You reached the last document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1596
+#: app/mainwindow.cpp:1597
 #, fuzzy
 #| msgid "Go to First Image"
 msgid "Go to the First Document"
@@ -1118,19 +1118,15 @@ msgstr "Etiquetes:"
 msgid "Description"
 msgstr "Descripción"
 
-#: app/startmainpage.cpp:291
+#: app/startmainpage.cpp:273
 msgid "Add to Places"
 msgstr "Amestar a Llugares"
 
-#: app/startmainpage.cpp:292
-msgid "Forget this URL"
-msgstr "Escaecer esti URL"
-
-#: app/startmainpage.cpp:292
+#: app/startmainpage.cpp:274
 msgid "Forget this Folder"
 msgstr "Escaecer esta carpeta"
 
-#: app/startmainpage.cpp:294
+#: app/startmainpage.cpp:276
 msgid "Forget All"
 msgstr "Escaecer too"
 
@@ -1146,21 +1142,23 @@ msgstr "Carpetes recientes"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: app/startmainpage.ui:65
-msgid "Recent URLs"
-msgstr "URL recientes"
+#, fuzzy
+#| msgid "Recent Folders"
+msgid "Recent Files"
+msgstr "Carpetes recientes"
 
 #. i18n: ectx: attribute (title), widget (QWidget, placesTab)
-#: app/startmainpage.ui:109
+#: app/startmainpage.ui:97
 msgid "Places"
 msgstr "Llugares"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
-#: app/startmainpage.ui:132
+#: app/startmainpage.ui:120
 msgid "Tags"
 msgstr "Etiquetes"
 
 #. i18n: ectx: property (text), widget (QLabel, mTagLabel)
-#: app/startmainpage.ui:138
+#: app/startmainpage.ui:126
 msgid ""
 "Browsing by tags is not available. Make sure Nepomuk is properly installed "
 "on your computer."
@@ -1627,7 +1625,7 @@ msgstr "Parar na cabera imaxe de la carpeta"
 msgid "Interval between images (in seconds)"
 msgstr "Intervalu ente imáxenes (en segundos)"
 
-#: lib/historymodel.cpp:140
+#: lib/historymodel.cpp:139
 #, kde-format
 msgid "Last visited: %1"
 msgstr "Visitáu per cabera vegada: %1"
@@ -1887,6 +1885,12 @@ msgstr "&Ficheru"
 #: part/gvpart.rc:8
 msgid "&View"
 msgstr "&Ver"
+
+#~ msgid "Forget this URL"
+#~ msgstr "Escaecer esti URL"
+
+#~ msgid "Recent URLs"
+#~ msgstr "URL recientes"
 
 #~ msgid "Aurélien Gâteau"
 #~ msgstr "Aurélien Gâteau"
