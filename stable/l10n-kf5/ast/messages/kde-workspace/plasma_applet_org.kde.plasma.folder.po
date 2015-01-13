@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-04 09:24+0000\n"
+"POT-Creation-Date: 2015-01-10 08:08+0000\n"
 "PO-Revision-Date: 2009-08-31 20:28+0000\n"
 "Last-Translator: Iñigo Varela <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -20,12 +20,8 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 
 #: package/contents/config/config.qml:26
-#: package/contents/ui/ConfigLocation.qml:65
+#: package/contents/ui/ConfigLocation.qml:67
 #, fuzzy
-#| msgctxt ""
-#| "Title of the page that lets the user choose which location should the "
-#| "folderview show"
-#| msgid "Location"
 msgid "Location"
 msgstr "Llocalización"
 
@@ -35,12 +31,20 @@ msgstr "Iconos"
 
 #: package/contents/config/config.qml:38
 #, fuzzy
-#| msgctxt ""
-#| "Title of the page that lets the user choose how to filter the folderview "
-#| "contents"
-#| msgid "Filter"
 msgid "Filter"
 msgstr "Peñera"
+
+#: package/contents/ui/AppletHandle.qml:105
+msgid "Resize"
+msgstr ""
+
+#: package/contents/ui/AppletHandle.qml:144
+msgid "Rotate"
+msgstr ""
+
+#: package/contents/ui/AppletHandle.qml:301
+msgid "Remove"
+msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:53
 msgid "Show All Files"
@@ -64,7 +68,6 @@ msgstr "Tribes de ficheros:"
 
 #: package/contents/ui/ConfigFilter.qml:83
 #, fuzzy
-#| msgid "Search file type"
 msgid "Search file type..."
 msgstr "Guetar la triba de ficheru"
 
@@ -83,7 +86,6 @@ msgstr "Alliniación d'iconos"
 
 #: package/contents/ui/ConfigIcons.qml:68
 #, fuzzy
-#| msgid "Arrange icons:"
 msgid "Arrange in:"
 msgstr "Alliniar iconos:"
 
@@ -125,35 +127,26 @@ msgstr "Axeitar iconos:"
 
 #: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:58
 #, fuzzy
-#| msgctxt "Sort Icons"
-#| msgid "Unsorted"
 msgid "Unsorted"
 msgstr "Ensin orde"
 
 #: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:62
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "By Name"
 msgid "Name"
 msgstr "Por nome"
 
 #: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:66
 #, fuzzy
-#| msgid "Size:"
 msgid "Size"
 msgstr "Tamañu:"
 
 #: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:70
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "By Type"
 msgid "Type"
 msgstr "Por triba"
 
 #: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:74
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "By Date"
 msgid "Date"
 msgstr "Por data"
 
@@ -163,8 +156,6 @@ msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:149
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "Folders First"
 msgid "Folders first"
 msgstr "Carpetes primero"
 
@@ -199,7 +190,6 @@ msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:225
 #, fuzzy
-#| msgid "Select All"
 msgid "Selection markers"
 msgstr "Esbillar Too"
 
@@ -216,47 +206,49 @@ msgstr "Amosar previsualizaciones"
 msgid "More Preview Options..."
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:81
+#: package/contents/ui/ConfigLocation.qml:85
 msgid "Show the Desktop folder"
 msgstr "Amosar la carpeta del escritoriu"
 
-#: package/contents/ui/ConfigLocation.qml:102
+#: package/contents/ui/ConfigLocation.qml:92
+msgid "Show files linked to the current activity"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:113
 msgid "Show a place:"
 msgstr "Amosar un llugar:"
 
-#: package/contents/ui/ConfigLocation.qml:155
+#: package/contents/ui/ConfigLocation.qml:166
 msgid "Specify a folder:"
 msgstr "Especificar una carpeta:"
 
-#: package/contents/ui/ConfigLocation.qml:167
+#: package/contents/ui/ConfigLocation.qml:178
 msgid "Type a path or a URL here"
 msgstr "Teclear un camín o URL"
 
-#: package/contents/ui/ConfigLocation.qml:210
+#: package/contents/ui/ConfigLocation.qml:221
 #, fuzzy
-#| msgctxt "Music"
-#| msgid "Title:"
 msgid "Title"
 msgstr "Títulu:"
 
-#: package/contents/ui/ConfigLocation.qml:220
+#: package/contents/ui/ConfigLocation.qml:231
 msgid "None"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:220
+#: package/contents/ui/ConfigLocation.qml:231
 msgid "Default"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:220
+#: package/contents/ui/ConfigLocation.qml:231
 msgid "Full path"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:220
+#: package/contents/ui/ConfigLocation.qml:231
 #, fuzzy
 msgid "Custom title"
 msgstr "Títulu:"
 
-#: package/contents/ui/ConfigLocation.qml:230
+#: package/contents/ui/ConfigLocation.qml:241
 #, fuzzy
 msgid "Enter custom title here"
 msgstr "Títulu:"
@@ -276,67 +268,64 @@ msgstr ""
 
 #: plugin/directorypicker.cpp:45
 #, fuzzy
-#| msgid "Select All"
 msgid "Select Folder"
 msgstr "Esbillar Too"
 
-#: plugin/foldermodel.cpp:214
+#: plugin/foldermodel.cpp:217
 msgid "&Refresh Desktop"
 msgstr "&Refrescar escritoriu"
 
-#: plugin/foldermodel.cpp:214 plugin/foldermodel.cpp:979
+#: plugin/foldermodel.cpp:217 plugin/foldermodel.cpp:1030
 msgid "&Refresh View"
 msgstr "&Refrescar vista"
 
-#: plugin/foldermodel.cpp:976
+#: plugin/foldermodel.cpp:1027
 msgid "&Reload"
 msgstr "&Recargar"
 
-#: plugin/foldermodel.cpp:982
+#: plugin/foldermodel.cpp:1033
 msgid "&Rename"
 msgstr "&Renomar"
 
-#: plugin/foldermodel.cpp:985
+#: plugin/foldermodel.cpp:1036
 msgid "&Move to Trash"
 msgstr "&Mover a la papelera"
 
-#: plugin/foldermodel.cpp:988 plugin/internallibkonq/konq_popupmenu.cpp:348
+#: plugin/foldermodel.cpp:1039 plugin/internallibkonq/konq_popupmenu.cpp:350
 msgid "&Empty Trash Bin"
 msgstr "&Vaciar la papelera"
 
-#: plugin/foldermodel.cpp:991
+#: plugin/foldermodel.cpp:1042
 msgid "&Delete"
 msgstr "&Desaniciar"
 
-#: plugin/foldermodel.cpp:1045
+#: plugin/foldermodel.cpp:1102
 msgid "&Paste"
 msgstr "&Apegar"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:84
+#: plugin/internallibkonq/konq_copytomenu.cpp:82
 msgctxt "@title:menu"
 msgid "Copy To"
 msgstr "Copiar a"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:90
+#: plugin/internallibkonq/konq_copytomenu.cpp:88
 msgctxt "@title:menu"
 msgid "Move To"
 msgstr "Mover a"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:114
+#: plugin/internallibkonq/konq_copytomenu.cpp:112
 #, fuzzy
-#| msgid "Desktop Folder"
 msgctxt "@title:menu"
 msgid "Home Folder"
 msgstr "Carpeta d'escritoriu"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:121
+#: plugin/internallibkonq/konq_copytomenu.cpp:119
 #, fuzzy
-#| msgid "Desktop Folder"
 msgctxt "@title:menu"
 msgid "Root Folder"
 msgstr "Carpeta d'escritoriu"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:157
+#: plugin/internallibkonq/konq_copytomenu.cpp:155
 msgctxt "@title:menu in Copy To or Move To submenu"
 msgid "Browse..."
 msgstr "Ñavegar..."
@@ -351,187 +340,62 @@ msgctxt "@title:menu"
 msgid "Move Here"
 msgstr "Mover equí"
 
-#: plugin/internallibkonq/konq_operations.cpp:313
-msgid "You cannot drop a folder on to itself"
-msgstr "Nun pue soltar un direutoriu en sí mesmu"
-
-#: plugin/internallibkonq/konq_operations.cpp:359
-#, fuzzy
-#| msgid "File name pattern:"
-msgid "File name for dropped contents:"
-msgstr "Patrón de nome de ficheru:"
-
-#: plugin/internallibkonq/konq_operations.cpp:571
-msgid "&Move Here"
-msgstr "&Mover equí"
-
-#: plugin/internallibkonq/konq_operations.cpp:575
-msgid "&Copy Here"
-msgstr "&Copiar equí"
-
-#: plugin/internallibkonq/konq_operations.cpp:579
-msgid "&Link Here"
-msgstr "&Enllaciar equí"
-
-#: plugin/internallibkonq/konq_operations.cpp:581
-msgid "Set as &Wallpaper"
-msgstr "Afitar como &Fondu d'escritoriu"
-
-#: plugin/internallibkonq/konq_operations.cpp:583
-msgid "C&ancel"
-msgstr "E&ncaboxar"
-
-#: plugin/internallibkonq/konq_operations.cpp:895
-#, fuzzy
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr "Crear nuevu"
-
-#: plugin/internallibkonq/konq_operations.cpp:897
-#, fuzzy
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr "Introducir nome de la carpeta:"
-
-#: plugin/internallibkonq/konq_operations.cpp:900
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: plugin/internallibkonq/konq_operations.cpp:901
-#, fuzzy
-msgctxt "@title:window"
-msgid "Create hidden directory?"
-msgstr "Crear nuevu"
-
-#: plugin/internallibkonq/konq_operations.cpp:916
-#, fuzzy
-#| msgid "Desktop Folder"
-msgctxt "@label Default name when creating a folder"
-msgid "New Folder"
-msgstr "Carpeta d'escritoriu"
-
-#: plugin/internallibkonq/konq_operations.cpp:923
-#, fuzzy
-#| msgid "Desktop Folder"
-msgctxt "@title:window"
-msgid "New Folder"
-msgstr "Carpeta d'escritoriu"
-
-#: plugin/internallibkonq/konq_operations.cpp:924
-#, fuzzy
-#| msgid "Enter folder name:"
-msgctxt "@label:textbox"
-msgid "Enter folder name:"
-msgstr "Introducir nome de la carpeta:"
-
-#: plugin/internallibkonq/konq_operations.cpp:1037
-#, fuzzy
-#| msgid "Desktop Folder"
-msgctxt "@action:inmenu"
-msgid "Paste One Folder"
-msgstr "Carpeta d'escritoriu"
-
-#: plugin/internallibkonq/konq_operations.cpp:1038
-msgctxt "@action:inmenu"
-msgid "Paste One File"
-msgstr "Apegar un ficheru"
-
-#: plugin/internallibkonq/konq_operations.cpp:1041
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Paste One Item"
-msgid_plural "Paste %1 Items"
-msgstr[0] ""
-msgstr[1] ""
-
-#: plugin/internallibkonq/konq_operations.cpp:1043
-msgctxt "@action:inmenu"
-msgid "Paste Clipboard Contents..."
-msgstr "Apegar conteníu del cartafueyu..."
-
-#: plugin/internallibkonq/konq_operations.cpp:1047
-#, fuzzy
-#| msgid "&Paste"
-msgctxt "@action:inmenu"
-msgid "Paste"
-msgstr "&Apegar"
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:252
+#: plugin/internallibkonq/konq_popupmenu.cpp:254
 msgid "&Open"
 msgstr "&Abrir"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:279
+#: plugin/internallibkonq/konq_popupmenu.cpp:281
 msgid "Create &Folder..."
 msgstr "Crear &carpeta..."
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:290
+#: plugin/internallibkonq/konq_popupmenu.cpp:292
 msgid "&Restore"
 msgstr "&Restaurar"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:291
-msgid ""
-"Restores this file or directory, back to the location where it was deleted "
-"from initially"
-msgstr ""
-"Restaura esti ficheru o direutoriu al llugar d'aú se desanició anicialmente"
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:313
+#: plugin/internallibkonq/konq_popupmenu.cpp:315
 msgid "Show Original Directory"
 msgstr "Amosar direutoriu orixinal"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:313
+#: plugin/internallibkonq/konq_popupmenu.cpp:315
 #, fuzzy
-#| msgid "Show All Files"
 msgid "Show Original File"
 msgstr "Amosar tolos ficheros"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:314
-msgid ""
-"Opens a new file manager window showing the target of this link, in its "
-"parent directory."
-msgstr ""
-"Abre una nueva ventana del alministrador de ficheros l'oxetivu d'esti "
-"enllaz, nel so direutoriu padre."
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:361
+#: plugin/internallibkonq/konq_popupmenu.cpp:363
 #, fuzzy
-#| msgid "&Empty Trash Bin"
 msgid "&Configure Trash Bin"
 msgstr "&Vaciar la papelera"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:387
+#: plugin/internallibkonq/konq_popupmenu.cpp:389
 msgid "&Bookmark This Page"
 msgstr "Amestar esta páxina a &marcadores"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:389
+#: plugin/internallibkonq/konq_popupmenu.cpp:391
 msgid "&Bookmark This Location"
 msgstr "Amestar esta direición a &marcadores"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:392
+#: plugin/internallibkonq/konq_popupmenu.cpp:394
 msgid "&Bookmark This Folder"
 msgstr "Amestar esta carpeta a &marcadores"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:394
+#: plugin/internallibkonq/konq_popupmenu.cpp:396
 msgid "&Bookmark This Link"
 msgstr "Amestar esti enllaz a &marcadores"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:396
+#: plugin/internallibkonq/konq_popupmenu.cpp:398
 msgid "&Bookmark This File"
 msgstr "Amestar esti ficheru a &marcadores"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:426
+#: plugin/internallibkonq/konq_popupmenu.cpp:428
 #, fuzzy
 msgid "Preview In"
 msgstr "Amosar previsualizaciones"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:461
+#: plugin/internallibkonq/konq_popupmenu.cpp:463
 msgid "&Properties"
 msgstr "&Propiedaes"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:477
+#: plugin/internallibkonq/konq_popupmenu.cpp:479
 msgid "Share"
 msgstr "Compartir"
 
@@ -541,7 +405,6 @@ msgstr "Carpeta d'escritoriu"
 
 #: plugin/viewpropertiesmenu.cpp:31
 #, fuzzy
-#| msgid "Arrange icons:"
 msgid "Arrange In"
 msgstr "Alliniar iconos:"
 
@@ -557,8 +420,6 @@ msgstr "Axeitar iconos:"
 
 #: plugin/viewpropertiesmenu.cpp:81
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "Folders First"
 msgid "Folders First"
 msgstr "Carpetes primero"
 
@@ -566,12 +427,95 @@ msgstr "Carpetes primero"
 msgid "Locked"
 msgstr ""
 
+#~ msgid "You cannot drop a folder on to itself"
+#~ msgstr "Nun pue soltar un direutoriu en sí mesmu"
+
+#, fuzzy
+#~ msgid "File name for dropped contents:"
+#~ msgstr "Patrón de nome de ficheru:"
+
+#~ msgid "&Move Here"
+#~ msgstr "&Mover equí"
+
+#~ msgid "&Copy Here"
+#~ msgstr "&Copiar equí"
+
+#~ msgid "&Link Here"
+#~ msgstr "&Enllaciar equí"
+
+#~ msgid "C&ancel"
+#~ msgstr "E&ncaboxar"
+
+#~ msgid "Set as &Wallpaper"
+#~ msgstr "Afitar como &Fondu d'escritoriu"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Create directory"
+#~ msgstr "Crear nuevu"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Enter a different name"
+#~ msgstr "Introducir nome de la carpeta:"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "Create hidden directory?"
+#~ msgstr "Crear nuevu"
+
+#, fuzzy
+#~ msgctxt "@label Default name when creating a folder"
+#~ msgid "New Folder"
+#~ msgstr "Carpeta d'escritoriu"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "Carpeta d'escritoriu"
+
+#, fuzzy
+#~ msgctxt "@label:textbox"
+#~ msgid "Enter folder name:"
+#~ msgstr "Introducir nome de la carpeta:"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "Carpeta d'escritoriu"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One File"
+#~ msgstr "Apegar un ficheru"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste Clipboard Contents..."
+#~ msgstr "Apegar conteníu del cartafueyu..."
+
+#, fuzzy
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "&Apegar"
+
+#~ msgid ""
+#~ "Restores this file or directory, back to the location where it was "
+#~ "deleted from initially"
+#~ msgstr ""
+#~ "Restaura esti ficheru o direutoriu al llugar d'aú se desanició "
+#~ "anicialmente"
+
+#~ msgid ""
+#~ "Opens a new file manager window showing the target of this link, in its "
+#~ "parent directory."
+#~ msgstr ""
+#~ "Abre una nueva ventana del alministrador de ficheros l'oxetivu d'esti "
+#~ "enllaz, nel so direutoriu padre."
+
 #, fuzzy
 #~ msgid "Previews"
 #~ msgstr "Amosar previsualizaciones"
 
 #, fuzzy
-#~| msgid "Icons"
 #~ msgctxt ""
 #~ "Title of the page that lets the user choose how the folderview should be "
 #~ "shown"
@@ -614,11 +558,6 @@ msgstr ""
 #~ "na vista."
 
 #, fuzzy
-#~| msgid ""
-#~| "Check this option if you want the icons to be arranged in a grid.\n"
-#~| "\n"
-#~| "When this option is checked, icons will automatically snap to the "
-#~| "nearest grid cell when you move them around in the view."
 #~ msgid ""
 #~ "Check this option if you want folders to have sorting precedence. When "
 #~ "this option is turned off, folders will be treated like regular files "
@@ -630,9 +569,6 @@ msgstr ""
 #~ "caxella más averada de la rexella cuando los mueva na vista."
 
 #, fuzzy
-#~| msgid ""
-#~| "Use this control to choose the criteria by which the icons will be "
-#~| "sorted in the view."
 #~ msgid ""
 #~ "Use this control to choose whether the icons will be arranged "
 #~ "horizontally (in rows) or vertically (in columns)."
@@ -641,9 +577,6 @@ msgstr ""
 #~ "na vista."
 
 #, fuzzy
-#~| msgid ""
-#~| "Use this control to choose the criteria by which the icons will be "
-#~| "sorted in the view."
 #~ msgid ""
 #~ "Use this control to choose whether the icons will be aligned to the left "
 #~ "or to the right side of the screen."
@@ -700,11 +633,6 @@ msgstr ""
 #~ "que s'amosarán."
 
 #, fuzzy
-#~| msgid ""
-#~| "Check this option if you want the icons to be arranged in a grid.\n"
-#~| "\n"
-#~| "When this option is checked, icons will automatically snap to the "
-#~| "nearest grid cell when you move them around in the view."
 #~ msgid ""
 #~ "Check this option if you want folder previews to appear only when "
 #~ "clicked. When this option is turned off, folder previews will appear "
@@ -716,7 +644,6 @@ msgstr ""
 #~ "caxella más averada de la rexella cuando los mueva na vista."
 
 #, fuzzy
-#~| msgid "Icon Settings"
 #~ msgid "Icon Text"
 #~ msgstr "Preferencies d'iconos"
 
@@ -759,9 +686,6 @@ msgstr ""
 #~ "rellumante n'arróu d'una solombra escura.</i></p></body></html>"
 
 #, fuzzy
-#~| msgid ""
-#~| "Check this option if you want to see previews of the file contents in "
-#~| "the icons."
 #~ msgid ""
 #~ "Check this option if you want the icons to be sorted in a descending "
 #~ "order."
@@ -852,8 +776,6 @@ msgstr ""
 #~ msgstr "Álbum:"
 
 #, fuzzy
-#~| msgid "1 MPixel"
-#~| msgid_plural "%1 MPixels"
 #~ msgid "%1 MPixels"
 #~ msgstr "1 MPixel"
 
