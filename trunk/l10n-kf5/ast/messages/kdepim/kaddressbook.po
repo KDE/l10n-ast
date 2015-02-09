@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-08 08:47+0000\n"
+"POT-Creation-Date: 2015-02-09 10:08+0000\n"
 "PO-Revision-Date: 2010-10-24 00:00+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministrador@softastur.org>\n"
@@ -529,14 +529,14 @@ msgid ""
 "wide shortcuts."
 msgstr ""
 
-#: merge/mergecontactsdialog.cpp:45
+#: merge/manualmerge/mergecontactsdialog.cpp:45
 #: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:39
 #, fuzzy
 #| msgid "Selected contacts"
 msgid "Select Contacts to merge"
 msgstr "Contautos esbillaos"
 
-#: merge/mergecontactsdialog.cpp:54
+#: merge/manualmerge/mergecontactsdialog.cpp:54
 #: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:66
 #, fuzzy
 #| msgctxt "@info:status"
@@ -544,23 +544,37 @@ msgstr "Contautos esbillaos"
 msgid "You must select at least two elements."
 msgstr "Tienes d'asignar al menos una columna."
 
-#: merge/mergecontactsdialog.cpp:58
+#: merge/manualmerge/mergecontactsdialog.cpp:58
 #, kde-format
 msgid "You selected %1 and some item has not the same name"
 msgstr ""
 
-#: merge/mergecontactsdialog.cpp:96
+#: merge/manualmerge/mergecontactsdialog.cpp:96
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Importing contacts"
 msgid "Error while merging contacts."
 msgstr "Importando contautos"
 
-#: merge/mergecontactsdialog.cpp:96
+#: merge/manualmerge/mergecontactsdialog.cpp:96
 #, fuzzy
 #| msgid "Print Contacts"
 msgid "Merge contact"
 msgstr "Imprentar contautos"
+
+#: merge/manualmerge/mergecontactwidget.cpp:43
+#, fuzzy
+#| msgid "Selected contacts"
+msgid "Select contacts that you really want to merge:"
+msgstr "Contautos esbillaos"
+
+#: merge/manualmerge/mergecontactwidget.cpp:55
+msgid "Select the addressbook in which to store merged contacts:"
+msgstr ""
+
+#: merge/manualmerge/mergecontactwidget.cpp:72
+msgid "merge"
+msgstr ""
 
 #: merge/mergecontactselectinformationdialog.cpp:31
 msgid "Select Which Information to Use for new Contact"
@@ -572,21 +586,7 @@ msgstr ""
 msgid "Merged Contact"
 msgstr "Imprentar contautos"
 
-#: merge/mergecontactwidget.cpp:43
-#, fuzzy
-#| msgid "Selected contacts"
-msgid "Select contacts that you really want to merge:"
-msgstr "Contautos esbillaos"
-
-#: merge/mergecontactwidget.cpp:55
-msgid "Select the addressbook in which to store merged contacts:"
-msgstr ""
-
-#: merge/mergecontactwidget.cpp:69
-msgid "merge"
-msgstr ""
-
-#: merge/searchduplicate/resultduplicatetreewidget.cpp:39
+#: merge/searchduplicate/resultduplicatetreewidget.cpp:53
 #, fuzzy, kde-format
 #| msgid "Print Contacts"
 msgid "Duplicate contact %1"
@@ -602,13 +602,13 @@ msgstr ""
 msgid "No duplicated contact found."
 msgstr "Imprentar contautos"
 
-#: merge/searchduplicate/searchduplicateresultwidget.cpp:56
+#: merge/searchduplicate/searchduplicateresultwidget.cpp:59
 #, fuzzy
 #| msgid "Select Address Book"
 msgid "Select AddressBook:"
 msgstr "Esbillar llibreta de direiciones"
 
-#: merge/searchduplicate/searchduplicateresultwidget.cpp:67
+#: merge/searchduplicate/searchduplicateresultwidget.cpp:72
 msgid "Merge"
 msgstr ""
 
@@ -1174,13 +1174,13 @@ msgid ""
 msgstr ""
 
 #: xxport/csv/csv_xxport.cpp:67 xxport/gmx/gmx_xxport.cpp:370
-#: xxport/ldif/ldif_xxport.cpp:106
+#: xxport/ldif/ldif_xxport.cpp:105
 #, kde-format
 msgid "<qt>Unable to open file <b>%1</b></qt>"
 msgstr "<qt>Nun puede abrise'l ficheru <b>%1</b></qt>"
 
 #: xxport/csv/csv_xxport.cpp:80 xxport/gmx/gmx_xxport.cpp:384
-#: xxport/ldif/ldif_xxport.cpp:137
+#: xxport/ldif/ldif_xxport.cpp:136
 #, kde-format
 msgid "<qt>Unable to open file <b>%1</b>.</qt>"
 msgstr "<qt>Nun puede abrise'l ficheru <b>%1</b>.</qt>"
@@ -1504,7 +1504,7 @@ msgstr "Por favor, escueyi una plantía que faiga xuegu col ficheru CVS:"
 msgid "GMX address book file (*.gmxa)"
 msgstr "Ficheru de llibreta de direiciones GMX (*.gmxa)"
 
-#: xxport/gmx/gmx_xxport.cpp:137 xxport/ldif/ldif_xxport.cpp:78
+#: xxport/gmx/gmx_xxport.cpp:137 xxport/ldif/ldif_xxport.cpp:77
 #, kde-format
 msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
 msgstr "<qt>Nun puede abrise <b>%1</b> pa llectura.</qt>"
@@ -1514,7 +1514,7 @@ msgstr "<qt>Nun puede abrise <b>%1</b> pa llectura.</qt>"
 msgid "%1 is not a GMX address book file."
 msgstr "%1 nun ye un ficheru de llibreta de direiciones GMX."
 
-#: xxport/vcard/vcard_xxport.cpp:147
+#: xxport/vcard/vcard_xxport.cpp:91
 #, fuzzy
 #| msgid ""
 #| "You have selected a list of contacts, shall they be exported to several "
@@ -1526,41 +1526,41 @@ msgid ""
 msgstr ""
 "Escoyisti una llista de contautos, ¿tendría d'esportase a dellos ficheros?"
 
-#: xxport/vcard/vcard_xxport.cpp:150
+#: xxport/vcard/vcard_xxport.cpp:94
 #, fuzzy
 #| msgid "Export to One File"
 msgctxt "@action:button"
 msgid "Export to One File"
 msgstr "Esportar a un ficheru"
 
-#: xxport/vcard/vcard_xxport.cpp:151
+#: xxport/vcard/vcard_xxport.cpp:95
 #, fuzzy
 #| msgid "Export to Several Files"
 msgctxt "@action:button"
 msgid "Export to Several Files"
 msgstr "Esportar a dellos ficheros"
 
-#: xxport/vcard/vcard_xxport.cpp:215
+#: xxport/vcard/vcard_xxport.cpp:159
 msgid ""
 "*.vcf|vCard (*.vcf)\n"
 "*|all files (*)"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:221
+#: xxport/vcard/vcard_xxport.cpp:165
 #, fuzzy
 #| msgid "Select vCard to Import"
 msgctxt "@title:window"
 msgid "Select vCard to Import"
 msgstr "Esbillar vCard a importar"
 
-#: xxport/vcard/vcard_xxport.cpp:228
+#: xxport/vcard/vcard_xxport.cpp:172
 #, fuzzy
 #| msgid "vCard Import Failed"
 msgctxt "@title:window"
 msgid "vCard Import Failed"
 msgstr "Falló la importación de vCard"
 
-#: xxport/vcard/vcard_xxport.cpp:250
+#: xxport/vcard/vcard_xxport.cpp:194
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1568,53 +1568,34 @@ msgid ""
 "<filename>%1</filename>:</para><para>%2</para>"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:261
+#: xxport/vcard/vcard_xxport.cpp:205
 #, kde-format
 msgctxt "@info"
 msgid "<para>Unable to access vCard:</para><para>%1</para>"
 msgstr "<para>Imposible acceder a vCard:</para><para>%1</para>"
 
-#: xxport/vcard/vcard_xxport.cpp:273
+#: xxport/vcard/vcard_xxport.cpp:217
 #, fuzzy
 #| msgid "No contacts were imported, due to errors with the vCards."
 msgctxt "@info"
 msgid "No contacts were imported, due to errors with the vCards."
 msgstr "Nun s'importaron contautos darréu de fallos na vCard."
 
-#: xxport/vcard/vcard_xxport.cpp:277
+#: xxport/vcard/vcard_xxport.cpp:221
 #, fuzzy
 #| msgid "The vCard does not contain any contacts."
 msgctxt "@info"
 msgid "The vCard does not contain any contacts."
 msgstr "La vCard nun contién contautos."
 
-#: xxport/vcard/vcard_xxport.cpp:511
-#, fuzzy
-#| msgid "Import vCard"
-msgctxt "@title:window"
-msgid "Import vCard"
-msgstr "Importar vCard"
-
-#: xxport/vcard/vcard_xxport.cpp:535
-msgctxt "@info"
-msgid "Do you want to import this contact into your address book?"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:545
-#, fuzzy
-#| msgid "Import All..."
-msgctxt "@action:button"
-msgid "Import All..."
-msgstr "Importar too..."
-
-#: xxport/vcard/vcard_xxport.cpp:635
+#: xxport/vcard/vcardexportselectiondialog.cpp:35
 #, fuzzy
 #| msgid "Select vCard Fields"
 msgctxt "@title:window"
 msgid "Select vCard Fields"
 msgstr "Esbillar campos vCard"
 
-#: xxport/vcard/vcard_xxport.cpp:659
+#: xxport/vcard/vcardexportselectiondialog.cpp:59
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "File to import:"
@@ -1622,125 +1603,125 @@ msgctxt "@title:group"
 msgid "Fields to be exported"
 msgstr "Ficheru a importar:"
 
-#: xxport/vcard/vcard_xxport.cpp:663
+#: xxport/vcard/vcardexportselectiondialog.cpp:63
 #, fuzzy
 #| msgid "Private fields"
 msgctxt "@option:check"
 msgid "Private fields"
 msgstr "Campos privaos"
 
-#: xxport/vcard/vcard_xxport.cpp:665
+#: xxport/vcard/vcardexportselectiondialog.cpp:65
 #, fuzzy
 #| msgid "Private fields"
 msgctxt "@info:tooltip"
 msgid "Export private fields"
 msgstr "Campos privaos"
 
-#: xxport/vcard/vcard_xxport.cpp:668
+#: xxport/vcard/vcardexportselectiondialog.cpp:68
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's private fields to the "
 "vCard output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:672
+#: xxport/vcard/vcardexportselectiondialog.cpp:72
 #, fuzzy
 #| msgid "Business fields"
 msgctxt "@option:check"
 msgid "Business fields"
 msgstr "Campos de negocios"
 
-#: xxport/vcard/vcard_xxport.cpp:674
+#: xxport/vcard/vcardexportselectiondialog.cpp:74
 #, fuzzy
 #| msgid "Business fields"
 msgctxt "@info:tooltip"
 msgid "Export business fields"
 msgstr "Campos de negocios"
 
-#: xxport/vcard/vcard_xxport.cpp:677
+#: xxport/vcard/vcardexportselectiondialog.cpp:77
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's business fields to the "
 "vCard output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:681
+#: xxport/vcard/vcardexportselectiondialog.cpp:81
 #, fuzzy
 #| msgid "Other fields"
 msgctxt "@option:check"
 msgid "Other fields"
 msgstr "Otros campos"
 
-#: xxport/vcard/vcard_xxport.cpp:683
+#: xxport/vcard/vcardexportselectiondialog.cpp:83
 #, fuzzy
 #| msgid "Other fields"
 msgctxt "@info:tooltip"
 msgid "Export other fields"
 msgstr "Otros campos"
 
-#: xxport/vcard/vcard_xxport.cpp:686
+#: xxport/vcard/vcardexportselectiondialog.cpp:86
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's other fields to the vCard "
 "output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:690
+#: xxport/vcard/vcardexportselectiondialog.cpp:90
 #, fuzzy
 #| msgid "Encryption keys"
 msgctxt "@option:check"
 msgid "Encryption keys"
 msgstr "Claves de cifráu"
 
-#: xxport/vcard/vcard_xxport.cpp:692
+#: xxport/vcard/vcardexportselectiondialog.cpp:92
 #, fuzzy
 #| msgid "Encryption keys"
 msgctxt "@info:tooltip"
 msgid "Export encryption keys"
 msgstr "Claves de cifráu"
 
-#: xxport/vcard/vcard_xxport.cpp:695
+#: xxport/vcard/vcardexportselectiondialog.cpp:95
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's encryption keys to the "
 "vCard output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:699
+#: xxport/vcard/vcardexportselectiondialog.cpp:99
 msgctxt "@option:check"
 msgid "Pictures"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:701
+#: xxport/vcard/vcardexportselectiondialog.cpp:101
 msgctxt "@info:tooltip"
 msgid "Export pictures"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:704
+#: xxport/vcard/vcardexportselectiondialog.cpp:104
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's picture to the vCard "
 "output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:709
+#: xxport/vcard/vcardexportselectiondialog.cpp:109
 #, fuzzy
 #| msgid "Export to One File"
 msgctxt "@title:group"
 msgid "Export options"
 msgstr "Esportar a un ficheru"
 
-#: xxport/vcard/vcard_xxport.cpp:713
+#: xxport/vcard/vcardexportselectiondialog.cpp:113
 msgctxt "@option:check"
 msgid "Display name as full name"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:715
+#: xxport/vcard/vcardexportselectiondialog.cpp:115
 msgctxt "@info:tooltip"
 msgid "Export display name as full name"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:718
+#: xxport/vcard/vcardexportselectiondialog.cpp:118
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's display name in the "
@@ -1748,30 +1729,49 @@ msgid ""
 "correctly in GMail or Android."
 msgstr ""
 
-#: xxportmanager.cpp:125
+#: xxport/vcard/vcardviewerdialog.cpp:34
+#, fuzzy
+#| msgid "Import vCard"
+msgctxt "@title:window"
+msgid "Import vCard"
+msgstr "Importar vCard"
+
+#: xxport/vcard/vcardviewerdialog.cpp:58
+msgctxt "@info"
+msgid "Do you want to import this contact into your address book?"
+msgstr ""
+
+#: xxport/vcard/vcardviewerdialog.cpp:68
+#, fuzzy
+#| msgid "Import All..."
+msgctxt "@action:button"
+msgid "Import All..."
+msgstr "Importar too..."
+
+#: xxport/xxportmanager.cpp:125
 msgid "Select Address Book"
 msgstr "Esbillar llibreta de direiciones"
 
-#: xxportmanager.cpp:127
+#: xxport/xxportmanager.cpp:127
 msgid "Select the address book the imported contact(s) shall be saved in:"
 msgstr ""
 
-#: xxportmanager.cpp:140
+#: xxport/xxportmanager.cpp:140
 msgid "Import Contacts"
 msgstr "Importar contautos"
 
-#: xxportmanager.cpp:142
+#: xxport/xxportmanager.cpp:142
 #, kde-format
 msgid "Importing one contact to %2"
 msgid_plural "Importing %1 contacts to %2"
 msgstr[0] "Importando 1 contautu a %2"
 msgstr[1] "Importando %1 contautos a %2"
 
-#: xxportmanager.cpp:184
+#: xxport/xxportmanager.cpp:184
 msgid "Which contact do you want to export?"
 msgstr ""
 
-#: xxportmanager.cpp:195
+#: xxport/xxportmanager.cpp:195
 msgid "You have not selected any contacts to export."
 msgstr ""
 
