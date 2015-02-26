@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -100,25 +101,24 @@ msgstr ""
 #: index.docbook:34
 #, no-c-format
 msgid ""
-"The program scans <filename>~/.config/autostart/</filename>"
-", your <filename class=\"directory\">KDE Autostart</filename> "
-"folder (<filename class=\"directory\">$KDEHOME/Autostart</filename> "
-"as default), <filename class=\"directory\">$KDEHOME/env</filename> "
-"and <filename class=\"directory\">$KDEHOME/shutdown</filename> "
-"folders to check what programs and scripts are already there and displays them. "
-"It allows you to manage them easily."
+"The program scans <filename>~/.config/autostart/</filename>, your <filename "
+"class=\"directory\">KDE Autostart</filename> folder (<filename class="
+"\"directory\">$KDEHOME/Autostart</filename> as default), <filename class="
+"\"directory\">$KDEHOME/env</filename> and <filename class=\"directory\">"
+"$KDEHOME/shutdown</filename> folders to check what programs and scripts are "
+"already there and displays them. It allows you to manage them easily."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:47
 #, no-c-format
 msgid ""
-"Note that you can change the location of your <filename class=\"directory\">"
-"Autostart</filename> folder in <menuchoice><guimenu>Account Details</guimenu> "
-"<guimenuitem>Paths</guimenuitem></menuchoice> in the <guilabel>"
-"Common Appearance and Behaviour</guilabel> category of the &systemsettings; and "
-"set a different folder than <filename class=\"directory\">"
-"$KDEHOME/Autostart</filename>."
+"Note that you can change the location of your <filename class=\"directory"
+"\">Autostart</filename> folder in <menuchoice><guimenu>Account Details</"
+"guimenu> <guimenuitem>Paths</guimenuitem></menuchoice> in the "
+"<guilabel>Common Appearance and Behaviour</guilabel> category of the "
+"&systemsettings; and set a different folder than <filename class=\"directory"
+"\">$KDEHOME/Autostart</filename>."
 msgstr ""
 
 #. Tag: title
@@ -146,9 +146,9 @@ msgstr ""
 #: index.docbook:63
 #, no-c-format
 msgid ""
-"You cannot amend this column. It states the name of the program or script you "
-"want to start with &kde;. The name is extracted from the Desktop file from the "
-"Name key for a program and is the filename for a script."
+"You cannot amend this column. It states the name of the program or script "
+"you want to start with &kde;. The name is extracted from the Desktop file "
+"from the Name key for a program and is the filename for a script."
 msgstr ""
 
 #. Tag: guilabel
@@ -161,10 +161,10 @@ msgstr ""
 #: index.docbook:71
 #, no-c-format
 msgid ""
-"This column lists the commands that are run to start the program. Commands can "
-"be modified through the <guibutton>Properties</guibutton> "
-"button or by double clicking the program/script row. The command is extracted "
-"from the Desktop file from the Exec key."
+"This column lists the commands that are run to start the program. Commands "
+"can be modified through the <guibutton>Properties</guibutton> button or by "
+"double clicking the program/script row. The command is extracted from the "
+"Desktop file from the Exec key."
 msgstr ""
 
 #. Tag: para
@@ -183,8 +183,8 @@ msgstr ""
 #: index.docbook:82
 #, no-c-format
 msgid ""
-"This setting is only available for programs through Desktop files. You can keep "
-"a program in the <filename class=\"directory\">Autostart</filename> "
+"This setting is only available for programs through Desktop files. You can "
+"keep a program in the <filename class=\"directory\">Autostart</filename> "
 "folder but disable it from being run at &kde; start. Setting the program to "
 "<guilabel>Disabled</guilabel> will not run it on start."
 msgstr ""
@@ -193,9 +193,9 @@ msgstr ""
 #: index.docbook:85
 #, no-c-format
 msgid ""
-"Setting a program to <guilabel>Disabled</guilabel> sets the Desktop file Hidden "
-"property to true in the <filename class=\"directory\">Autostart</filename> "
-"folder."
+"Setting a program to <guilabel>Disabled</guilabel> sets the Desktop file "
+"Hidden property to true in the <filename class=\"directory\">Autostart</"
+"filename> folder."
 msgstr ""
 
 #. Tag: guilabel
@@ -209,9 +209,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Programs (Desktop files) can only be run on startup. Scripts can be run on "
-"<guilabel>Startup</guilabel>, <guilabel>Shutdown</guilabel> or <guilabel>"
-"Pre-KDE Startup</guilabel>. This column allows you to change when your script "
-"is run. Startup is when &kde; starts, shutdown is when you log out of &kde; and "
+"<guilabel>Startup</guilabel>, <guilabel>Shutdown</guilabel> or <guilabel>Pre-"
+"KDE Startup</guilabel>. This column allows you to change when your script is "
+"run. Startup is when &kde; starts, shutdown is when you log out of &kde; and "
 "pre-KDE startup is before &kde; starts."
 msgstr ""
 
@@ -219,29 +219,29 @@ msgstr ""
 #: index.docbook:96
 #, no-c-format
 msgid ""
-"Scripts and desktop files set to run on <guilabel>Startup</guilabel> "
-"are copied or symlinked in <filename class=\"directory\">"
-"$KDEHOME/Autostart</filename> and will be run during &kde; startup."
+"Scripts and desktop files set to run on <guilabel>Startup</guilabel> are "
+"copied or symlinked in <filename class=\"directory\">$KDEHOME/Autostart</"
+"filename> and will be run during &kde; startup."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:99
 #, no-c-format
 msgid ""
-"Scripts set on to be ran on <guilabel>Shutdown</guilabel> "
-"are copied or symlinked in the <filename class=\"directory\">"
-"$KDEHOME/shutdown</filename> directory and will be automatically run during "
-"&kde; shutdown after the user has logged out."
+"Scripts set on to be ran on <guilabel>Shutdown</guilabel> are copied or "
+"symlinked in the <filename class=\"directory\">$KDEHOME/shutdown</filename> "
+"directory and will be automatically run during &kde; shutdown after the user "
+"has logged out."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:102
 #, no-c-format
 msgid ""
-"Scripts set to run at <guilabel>Pre-&kde; Startup</guilabel> "
-"are copied or symlinked in <filename class=\"directory\">$KDEHOME/env</filename> "
-"and are sourced during &kde; startup (the <filename>startkde</filename> "
-"script will look for scripts here)."
+"Scripts set to run at <guilabel>Pre-&kde; Startup</guilabel> are copied or "
+"symlinked in <filename class=\"directory\">$KDEHOME/env</filename> and are "
+"sourced during &kde; startup (the <filename>startkde</filename> script will "
+"look for scripts here)."
 msgstr ""
 
 #. Tag: para
@@ -277,18 +277,18 @@ msgstr ""
 #: index.docbook:122
 #, no-c-format
 msgid ""
-"Clicking this button displays the standard &kde; <guilabel>"
-"Choose Application</guilabel> dialog and allows you to choose which program you "
-"want to start. After choosing the program, clicking <guibutton>OK</guibutton> "
-"brings you the properties for this program."
+"Clicking this button displays the standard &kde; <guilabel>Choose "
+"Application</guilabel> dialog and allows you to choose which program you "
+"want to start. After choosing the program, clicking <guibutton>OK</"
+"guibutton> brings you the properties for this program."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:125
 #, no-c-format
 msgid ""
-"This will copy the program Desktop file in your <filename class=\"directory\">"
-"Autostart</filename> folder."
+"This will copy the program Desktop file in your <filename class=\"directory"
+"\">Autostart</filename> folder."
 msgstr ""
 
 #. Tag: guibutton
@@ -302,9 +302,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This button opens a dialog which asks you for the location of the script you "
-"want to add. If you keep <guilabel>Create as symlink</guilabel> "
-"checked (default) then the script will be added as a symlink. If you uncheck "
-"this option then the script will be copied in the corresponding local folder."
+"want to add. If you keep <guilabel>Create as symlink</guilabel> checked "
+"(default) then the script will be added as a symlink. If you uncheck this "
+"option then the script will be copied in the corresponding local folder."
 msgstr ""
 
 #. Tag: guibutton
@@ -317,9 +317,9 @@ msgstr ""
 #: index.docbook:140
 #, no-c-format
 msgid ""
-"Remove will immediately remove the Desktop file for the program or the script "
-"or symbolic link in the <filename class=\"directory\">Autostart</filename> "
-"folder."
+"Remove will immediately remove the Desktop file for the program or the "
+"script or symbolic link in the <filename class=\"directory\">Autostart</"
+"filename> folder."
 msgstr ""
 
 #. Tag: guibutton
@@ -332,10 +332,10 @@ msgstr ""
 #: index.docbook:147
 #, no-c-format
 msgid ""
-"This button (only enabled for programs &ie; Desktop files) allows you to change "
-"the properties of the program or script. You have general properties, "
-"permissions properties, a preview when applicable and properties related to the "
-"application for programs."
+"This button (only enabled for programs &ie; Desktop files) allows you to "
+"change the properties of the program or script. You have general properties, "
+"permissions properties, a preview when applicable and properties related to "
+"the application for programs."
 msgstr ""
 
 #. Tag: guibutton
@@ -348,12 +348,12 @@ msgstr ""
 #: index.docbook:154
 #, no-c-format
 msgid ""
-"This button only applies to programs (&ie; Desktop files). A dialog asks you if "
-"you only want the program to autostart only in &kde; (and not in other desktop "
-"environments you might run). By default, the program will autostart in all "
-"desktop environments you might run. Checking <guilabel>"
-"Autostart only in KDE</guilabel> will autostart the program only if you start "
-"the &kde; desktop environment."
+"This button only applies to programs (&ie; Desktop files). A dialog asks you "
+"if you only want the program to autostart only in &kde; (and not in other "
+"desktop environments you might run). By default, the program will autostart "
+"in all desktop environments you might run. Checking <guilabel>Autostart only "
+"in KDE</guilabel> will autostart the program only if you start the &kde; "
+"desktop environment."
 msgstr ""
 
 #. Tag: para

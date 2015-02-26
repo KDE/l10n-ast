@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -78,8 +79,8 @@ msgstr ""
 #: man-desktoptojson.8.docbook:40
 #, no-c-format
 msgid ""
-"Converts a <filename class=\"extension\">.desktop</filename> "
-"file to a <filename class=\"extension\">.json</filename> file."
+"Converts a <filename class=\"extension\">.desktop</filename> file to a "
+"<filename class=\"extension\">.json</filename> file."
 msgstr ""
 
 #. Tag: title
@@ -92,17 +93,17 @@ msgstr ""
 #: man-desktoptojson.8.docbook:46
 #, no-c-format
 msgid ""
-"<command>desktoptojson</command> <arg choice=\"plain\">--input <replaceable>"
-"DESKTOP-FILE</replaceable></arg> <arg choice=\"plain\">--output <replaceable>"
-"JSON-FILE</replaceable></arg>"
+"<command>desktoptojson</command> <arg choice=\"plain\">--input "
+"<replaceable>DESKTOP-FILE</replaceable></arg> <arg choice=\"plain\">--output "
+"<replaceable>JSON-FILE</replaceable></arg>"
 msgstr ""
 
 #. Tag: cmdsynopsis
 #: man-desktoptojson.8.docbook:51
 #, no-c-format
 msgid ""
-"<command>desktoptojson</command> <group choice=\"req\"> <arg choice=\"plain\">"
-"--version</arg> <arg choice=\"plain\">--help</arg> </group>"
+"<command>desktoptojson</command> <group choice=\"req\"> <arg choice=\"plain"
+"\">--version</arg> <arg choice=\"plain\">--help</arg> </group>"
 msgstr ""
 
 #. Tag: title
@@ -115,14 +116,14 @@ msgstr ""
 #: man-desktoptojson.8.docbook:67
 #, no-c-format
 msgid ""
-"The KService framework uses information contained in <filename "
-"class=\"extension\">.desktop</filename> files to locate services, including "
+"The KService framework uses information contained in <filename class="
+"\"extension\">.desktop</filename> files to locate services, including "
 "plugins for Qt5-based applications and libraries. The Qt5 plugin system, "
-"however, uses JSON data embedded in the plugin itself. <command>"
-"desktoptojson</command> allows the information contained in a <filename "
-"class=\"extension\">.desktop</filename> file to also be used as the embedded "
-"data for a Qt5 plugin by converting the <filename class=\"extension\">"
-".desktop</filename> file entries into JSON data."
+"however, uses JSON data embedded in the plugin itself. "
+"<command>desktoptojson</command> allows the information contained in a "
+"<filename class=\"extension\">.desktop</filename> file to also be used as "
+"the embedded data for a Qt5 plugin by converting the <filename class="
+"\"extension\">.desktop</filename> file entries into JSON data."
 msgstr ""
 
 #. Tag: para
@@ -130,13 +131,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The generated JSON data is a JSON object that maps the entries from the "
-"<literal>[Desktop Entry]</literal> group of the <filename class=\"extension\">"
-".desktop</filename> file. Any other groups are ignored. Most entries are just "
-"converted to JSON strings, but certain entries (such as <literal>"
-"Hidden</literal> and <literal>X-KDE-PluginInfo-EnabledByDefault</literal>"
-") are known to be boolean values and converted as such, and similarly some "
-"(such as <literal>X-KDE-ServiceTypes</literal> and <literal>"
-"X-KDE-PluginInfo-Depends</literal>) are always converted to arrays of strings."
+"<literal>[Desktop Entry]</literal> group of the <filename class=\"extension"
+"\">.desktop</filename> file. Any other groups are ignored. Most entries are "
+"just converted to JSON strings, but certain entries (such as "
+"<literal>Hidden</literal> and <literal>X-KDE-PluginInfo-EnabledByDefault</"
+"literal>) are known to be boolean values and converted as such, and "
+"similarly some (such as <literal>X-KDE-ServiceTypes</literal> and <literal>X-"
+"KDE-PluginInfo-Depends</literal>) are always converted to arrays of strings."
 msgstr ""
 
 #. Tag: title
@@ -203,17 +204,17 @@ msgstr ""
 #: man-desktoptojson.8.docbook:113
 #, no-c-format
 msgid ""
-"Most users of this utility will use the CMake macro <function>"
-"kservice_desktop_to_json</function> as part of the process of building a "
-"plugin. <programlisting language=\"cmake\">\n"
+"Most users of this utility will use the CMake macro "
+"<function>kservice_desktop_to_json</function> as part of the process of "
+"building a plugin. <programlisting language=\"cmake\">\n"
 "<![CDATA[\n"
 "add_library(myplugin MODULE ${myplugin_SRCS})\n"
 "kservice_desktop_to_json(myplugin myplugin.desktop)\n"
 "]]>\n"
-"</programlisting> This will produce the JSON file <filename>"
-"myplugin.json</filename>, which can be referenced from the <function>"
-"K_PLUGIN_FACTORY_WITH_JSON</function> or <function>Q_PLUGIN_METADATA</function> "
-"macros."
+"</programlisting> This will produce the JSON file <filename>myplugin.json</"
+"filename>, which can be referenced from the "
+"<function>K_PLUGIN_FACTORY_WITH_JSON</function> or "
+"<function>Q_PLUGIN_METADATA</function> macros."
 msgstr ""
 
 #. Tag: title
@@ -226,6 +227,6 @@ msgstr ""
 #: man-desktoptojson.8.docbook:128
 #, no-c-format
 msgid ""
-"There are probably tons of bugs. Use <ulink url=\"http://bugs.kde.org\">"
-"KDE's bugtracker</ulink> to report them."
+"There are probably tons of bugs. Use <ulink url=\"http://bugs.kde.org"
+"\">KDE's bugtracker</ulink> to report them."
 msgstr ""

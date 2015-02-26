@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,8 +25,8 @@ msgstr ""
 #: index.docbook:20
 #, no-c-format
 msgid ""
-"<personname> <firstname>Tomaz</firstname> <surname>Canabrava</surname> "
-"</personname> <email>tomaz.canabrava@gmail.com</email>"
+"<personname> <firstname>Tomaz</firstname> <surname>Canabrava</surname> </"
+"personname> <email>tomaz.canabrava@gmail.com</email>"
 msgstr ""
 
 #. Tag: author
@@ -124,10 +125,11 @@ msgstr ""
 #: index.docbook:66
 #, no-c-format
 msgid ""
-"In this chapter we provide an overview of the core features and the workflow of "
-"&rocs;. For the eager reader, who wants to start using &rocs; immediately, we "
-"suggest to read at least <xref linkend=\"introduction-nutshell\"/> "
-"and using <xref linkend=\"scripting\"/> as a reference when writing algorithms."
+"In this chapter we provide an overview of the core features and the workflow "
+"of &rocs;. For the eager reader, who wants to start using &rocs; "
+"immediately, we suggest to read at least <xref linkend=\"introduction-"
+"nutshell\"/> and using <xref linkend=\"scripting\"/> as a reference when "
+"writing algorithms."
 msgstr ""
 
 #. Tag: title
@@ -166,8 +168,8 @@ msgstr ""
 #: index.docbook:80
 #, no-c-format
 msgid ""
-"For all these users, &rocs; provides an easy to use data structure editor for "
-"creating the data structures, a powerful scripting engine to execute "
+"For all these users, &rocs; provides an easy to use data structure editor "
+"for creating the data structures, a powerful scripting engine to execute "
 "algorithms, and several helper tools for your simulations and experiments."
 msgstr ""
 
@@ -175,19 +177,19 @@ msgstr ""
 #: index.docbook:83
 #, no-c-format
 msgid ""
-"The typical workflow when using &rocs; is to start by creating a graph with the "
-"visual graph editor. You can do this either by hand, this is adding data "
-"elements and connect them, or by using one of the data structure generators (if "
-"available for the currently selected data structure backend). Data structure "
-"generators can be found at <menuchoice><guimenu>Graph Document</guimenu> "
-"<guimenuitem>Tools</guimenuitem> <guimenuitem>Generate Graph</guimenuitem>"
-"</menuchoice>. Further, you can assign values to the data structure elements, "
-"either by hand or using <menuchoice><guimenu>Graph Document</guimenu> "
-"<guimenuitem>Tools</guimenuitem> <guimenuitem>Assign Values</guimenuitem>"
-"</menuchoice>. Finally, you can write your algorithm in JavaScript and execute "
-"it with the just created data structure. All changes that your algorithm "
-"perform at the data structure will be directly visible at the visual graph "
-"editor."
+"The typical workflow when using &rocs; is to start by creating a graph with "
+"the visual graph editor. You can do this either by hand, this is adding data "
+"elements and connect them, or by using one of the data structure generators "
+"(if available for the currently selected data structure backend). Data "
+"structure generators can be found at <menuchoice><guimenu>Graph Document</"
+"guimenu> <guimenuitem>Tools</guimenuitem> <guimenuitem>Generate Graph</"
+"guimenuitem></menuchoice>. Further, you can assign values to the data "
+"structure elements, either by hand or using <menuchoice><guimenu>Graph "
+"Document</guimenu> <guimenuitem>Tools</guimenuitem> <guimenuitem>Assign "
+"Values</guimenuitem></menuchoice>. Finally, you can write your algorithm in "
+"JavaScript and execute it with the just created data structure. All changes "
+"that your algorithm perform at the data structure will be directly visible "
+"at the visual graph editor."
 msgstr ""
 
 #. Tag: screeninfo
@@ -212,20 +214,20 @@ msgstr ""
 #: index.docbook:107
 #, no-c-format
 msgid ""
-"In this section we provide a compact overview of the core elements of &rocs;. "
-"We explain the important notions of data structures, data structure backends, "
-"and element types. Understanding of these concepts is useful to understand how "
-"data structures can be created and modified in &rocs;."
+"In this section we provide a compact overview of the core elements of "
+"&rocs;. We explain the important notions of data structures, data structure "
+"backends, and element types. Understanding of these concepts is useful to "
+"understand how data structures can be created and modified in &rocs;."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:112
 #, no-c-format
 msgid ""
-"In general &rocs; works with projects: when opening &rocs; an empty project is "
-"created and you can replace it by loading or importing another project. Hereby, "
-"a project itself consists of <emphasis>graph documents</emphasis> and <emphasis>"
-"scripts</emphasis>."
+"In general &rocs; works with projects: when opening &rocs; an empty project "
+"is created and you can replace it by loading or importing another project. "
+"Hereby, a project itself consists of <emphasis>graph documents</emphasis> "
+"and <emphasis>scripts</emphasis>."
 msgstr ""
 
 #. Tag: title
@@ -239,16 +241,16 @@ msgstr ""
 #, no-c-format
 msgid ""
 "A graph document represents the content of a whiteboard in the visual graph "
-"editor. Hereby, a graph document can contain several data structures at once, "
-"but only one data structure backends. Data structure backends are present for "
-"several graph types (general graphs, linked lists, rooted trees) and provide "
-"for their specific graph types additional functionality. That can be automatic "
-"positioning of the elements, special icon sets, or an extended set of script "
-"functions for use in your algorithms. (for details look at the corresponding "
-"handbook section). It is possible to change the data structure backend of a "
-"graph document, though information can be lost (e.g., edges of a circle in a "
-"general graph won't be added to a tree, if you switch to the rooted tree "
-"backend)."
+"editor. Hereby, a graph document can contain several data structures at "
+"once, but only one data structure backends. Data structure backends are "
+"present for several graph types (general graphs, linked lists, rooted trees) "
+"and provide for their specific graph types additional functionality. That "
+"can be automatic positioning of the elements, special icon sets, or an "
+"extended set of script functions for use in your algorithms. (for details "
+"look at the corresponding handbook section). It is possible to change the "
+"data structure backend of a graph document, though information can be lost "
+"(e.g., edges of a circle in a general graph won't be added to a tree, if you "
+"switch to the rooted tree backend)."
 msgstr ""
 
 #. Tag: para
@@ -268,14 +270,15 @@ msgstr ""
 #: index.docbook:131
 #, no-c-format
 msgid ""
-"Data structures are the base of all work in &rocs;. You can add one or several "
-"of them to a graph document, add data elements (nodes, datums) and pointers to "
-"them, and modify them by scripts. For this, each data structure has its unique "
-"name by which it can be accessed from your scripts. Due to your choice of the "
-"current data structure backend it can happen that you cannot modify the data "
-"structures arbitrarily (e.g., a tree should never contain a cycle). The data "
-"structure backend is determined by the data structure backend associated with "
-"the corresponding graph document that contains the data structure."
+"Data structures are the base of all work in &rocs;. You can add one or "
+"several of them to a graph document, add data elements (nodes, datums) and "
+"pointers to them, and modify them by scripts. For this, each data structure "
+"has its unique name by which it can be accessed from your scripts. Due to "
+"your choice of the current data structure backend it can happen that you "
+"cannot modify the data structures arbitrarily (e.g., a tree should never "
+"contain a cycle). The data structure backend is determined by the data "
+"structure backend associated with the corresponding graph document that "
+"contains the data structure."
 msgstr ""
 
 #. Tag: title
@@ -288,14 +291,15 @@ msgstr ""
 #: index.docbook:138
 #, no-c-format
 msgid ""
-"By pointer types you can define different types of pointers to be used in your "
-"data structures. This is, a pointer type can get an individual layout "
-"(essentially a color) and it is easy to access only pointers of a specific type "
-"from your scripts. Typical use cases for pointers can be to implement "
+"By pointer types you can define different types of pointers to be used in "
+"your data structures. This is, a pointer type can get an individual layout "
+"(essentially a color) and it is easy to access only pointers of a specific "
+"type from your scripts. Typical use cases for pointers can be to implement "
 "meta-edges at your data structures that visualize relationships between data "
-"elements (e.g., visualize communication interests). But also, if your scripts "
-"shall identify specific kinds of edges (e.g., tree and cross edges at the depth "
-"first search algorithm), pointer types can be an elegant way to implement that."
+"elements (e.g., visualize communication interests). But also, if your "
+"scripts shall identify specific kinds of edges (e.g., tree and cross edges "
+"at the depth first search algorithm), pointer types can be an elegant way to "
+"implement that."
 msgstr ""
 
 #. Tag: title
@@ -310,10 +314,10 @@ msgstr ""
 msgid ""
 "In several data structure problems, a set of data elements should be parted "
 "into groups of different types (e.g., clustering problems or covering "
-"problems). Or it is useful for the execution of an algorithm to specify a data "
-"element type to express a specific type (e.g., breath first search). For such "
-"use cases you can define data types. Each data type has its own icon and data "
-"types of some type can easily be accessed from your scripts."
+"problems). Or it is useful for the execution of an algorithm to specify a "
+"data element type to express a specific type (e.g., breath first search). "
+"For such use cases you can define data types. Each data type has its own "
+"icon and data types of some type can easily be accessed from your scripts."
 msgstr ""
 
 #. Tag: title
@@ -328,39 +332,39 @@ msgstr ""
 msgid ""
 "Every data element and pointer can have many properties. Some of these "
 "properties are default from data structure backend. See the documentation of "
-"the data structure backend for more details. To add further properties to the "
-"data elements and pointers, you can add <emphasis>dynamic properties</emphasis> "
-"to them. Each dynamic property is identified by its name and can contain any "
-"value associated with it. The name must start with a letter (a-z or A-Z) and "
-"can contain only letters, numbers and '_'. If you try to use any invalid "
-"character in the property name, the property will not be changed."
+"the data structure backend for more details. To add further properties to "
+"the data elements and pointers, you can add <emphasis>dynamic properties</"
+"emphasis> to them. Each dynamic property is identified by its name and can "
+"contain any value associated with it. The name must start with a letter (a-z "
+"or A-Z) and can contain only letters, numbers and '_'. If you try to use any "
+"invalid character in the property name, the property will not be changed."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:161
 #, no-c-format
 msgid ""
-"To add dynamic properties, use the <guilabel>Data Element Properties</guilabel> "
-"and <guilabel>Pointer Properties</guilabel> dialogs from the context menus of "
-"the respective elements or the script functions as explained in <xref "
-"linkend=\"scripting-data-structure\"/>."
+"To add dynamic properties, use the <guilabel>Data Element Properties</"
+"guilabel> and <guilabel>Pointer Properties</guilabel> dialogs from the "
+"context menus of the respective elements or the script functions as "
+"explained in <xref linkend=\"scripting-data-structure\"/>."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:164
 #, no-c-format
 msgid ""
-"You can also use the scripts. You just need to use the <literal>"
-"add_property</literal> with the name and value of your property. After that, "
-"you can use node/pointer.propertyName to set/get the values."
+"You can also use the scripts. You just need to use the "
+"<literal>add_property</literal> with the name and value of your property. "
+"After that, you can use node/pointer.propertyName to set/get the values."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:168
 #, no-c-format
 msgid ""
-"Here is an example of how to use dynamic properties with data structure backend "
-"\"Graph\"."
+"Here is an example of how to use dynamic properties with data structure "
+"backend \"Graph\"."
 msgstr ""
 
 #. Tag: programlisting
@@ -386,15 +390,15 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In this section we want to create an example project to explore some of the "
-"most important functions of &rocs;. The goal is to create a graph and a script "
-"that illustrates a simple 2-approximate algorithm for the <emphasis>"
-"minimum vertex cover</emphasis> problem. The minimum vertex cover problem is "
-"the problem to find a subset of graph nodes C of minimal size such that each "
-"graph edge is connected to at least one node in C. This problem is known to be "
-"NP-hard and we want to illustrate how to find an approximation of factor 2 by "
-"finding a matching in the given graph (in the following we use the common terms "
-"for graph algorithms: graph is the data structure, nodes are the data elements, "
-"edges are the pointers)."
+"most important functions of &rocs;. The goal is to create a graph and a "
+"script that illustrates a simple 2-approximate algorithm for the "
+"<emphasis>minimum vertex cover</emphasis> problem. The minimum vertex cover "
+"problem is the problem to find a subset of graph nodes C of minimal size "
+"such that each graph edge is connected to at least one node in C. This "
+"problem is known to be NP-hard and we want to illustrate how to find an "
+"approximation of factor 2 by finding a matching in the given graph (in the "
+"following we use the common terms for graph algorithms: graph is the data "
+"structure, nodes are the data elements, edges are the pointers)."
 msgstr ""
 
 #. Tag: para
@@ -404,8 +408,8 @@ msgid ""
 "Our goal is to visualize the correspondence of the matching and the minimum "
 "vertex cover. For this, we want to specify two pointer types, one to display "
 "matching edges and one type to display ordinary edges, as well as two data "
-"types that we use to distinguish nodes contained in C and those not contained "
-"in C."
+"types that we use to distinguish nodes contained in C and those not "
+"contained in C."
 msgstr ""
 
 #. Tag: title
@@ -418,14 +422,14 @@ msgstr ""
 #: index.docbook:190
 #, no-c-format
 msgid ""
-"For the data structure backend <quote>Graph</quote>, &rocs; ships a helper tool "
-"that can generate graphs. We go to <menuchoice><guimenu>Graph Document</guimenu> "
-"<guisubmenu>Tools</guisubmenu> <guimenuitem>Generate Graph</guimenuitem>"
-"</menuchoice>. There we generate a <guilabel>Random Graph</guilabel> "
-"with 30 nodes, 90 edges, and with seed 1 (the seed is the starting seed for the "
-"random graph generator; using the same seed multiple times results in same and "
-"reproducible graphs). Finally, we modify the graph name at the data structure "
-"panel and call the graph <literal>testgraph</literal>."
+"For the data structure backend <quote>Graph</quote>, &rocs; ships a helper "
+"tool that can generate graphs. We go to <menuchoice><guimenu>Graph Document</"
+"guimenu> <guisubmenu>Tools</guisubmenu> <guimenuitem>Generate Graph</"
+"guimenuitem></menuchoice>. There we generate a <guilabel>Random Graph</"
+"guilabel> with 30 nodes, 90 edges, and with seed 1 (the seed is the starting "
+"seed for the random graph generator; using the same seed multiple times "
+"results in same and reproducible graphs). Finally, we modify the graph name "
+"at the data structure panel and call the graph <literal>testgraph</literal>."
 msgstr ""
 
 #. Tag: title
@@ -438,13 +442,13 @@ msgstr ""
 #: index.docbook:199
 #, no-c-format
 msgid ""
-"We use the <guibutton>Properties</guibutton> buttons at the Document Selector "
-"bar to open the properties dialog for data and pointer types of the current "
-"graph document. For the data types we add a new type called \"C\", which "
-"automatically gets ID <literal>1</literal>. For this type we select the server "
-"picture as icon. Furthermore, we switch to the pointer type page and add a new "
-"pointer type called \"matching\". This gets automatically ID <literal>"
-"1</literal> and we set the color to blue."
+"We use the <guibutton>Properties</guibutton> buttons at the Document "
+"Selector bar to open the properties dialog for data and pointer types of the "
+"current graph document. For the data types we add a new type called \"C\", "
+"which automatically gets ID <literal>1</literal>. For this type we select "
+"the server picture as icon. Furthermore, we switch to the pointer type page "
+"and add a new pointer type called \"matching\". This gets automatically ID "
+"<literal>1</literal> and we set the color to blue."
 msgstr ""
 
 #. Tag: title
@@ -457,8 +461,8 @@ msgstr ""
 #: index.docbook:210
 #, no-c-format
 msgid ""
-"At last we have to implement the approximation algorithm. For this we use the "
-"following implementation:"
+"At last we have to implement the approximation algorithm. For this we use "
+"the following implementation:"
 msgstr ""
 
 #. Tag: programlisting
@@ -509,8 +513,9 @@ msgstr ""
 #: index.docbook:218
 #, no-c-format
 msgid ""
-"Finally we want to execute the algorithm. For this we can start the execution "
-"by the <guibutton>Run</guibutton> button at the script control panel."
+"Finally we want to execute the algorithm. For this we can start the "
+"execution by the <guibutton>Run</guibutton> button at the script control "
+"panel."
 msgstr ""
 
 #. Tag: title
@@ -571,8 +576,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This is the whiteboard at which data structures can be created and modified. "
-"Right click at the whiteboard, at data elements, or at pointers to open context "
-"menus. You can use the tools from the <emphasis>Visual Graph Editor "
+"Right click at the whiteboard, at data elements, or at pointers to open "
+"context menus. You can use the tools from the <emphasis>Visual Graph Editor "
 "Toolbar</emphasis> to modify the elements at the visual graph editor "
 "whiteboard."
 msgstr ""
@@ -588,17 +593,17 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This toolbar provides all tools for the visual graph editor. Use the "
-"<inlinemediaobject><imageobject><imagedata "
-"fileref=\"hi22-action-rocsadddata.png\" format=\"PNG\"/></imageobject> "
-"</inlinemediaobject><guibutton>Add Element</guibutton> or <inlinemediaobject>"
-"<imageobject><imagedata fileref=\"hi22-action-rocsaddedge.png\" format=\"PNG\"/>"
-"</imageobject></inlinemediaobject><guibutton>Add Connection</guibutton> "
-"buttons to create new elements or to connect elements, respectively. New data "
-"elements are added to the data structure that is currently selected at the "
-"<emphasis>Document Selector</emphasis> bar. Note that <guibutton>"
-"Add Element</guibutton> and <guibutton>Add Connection</guibutton> "
-"buttons both have menus to select the type of which the created elements shall "
-"be. For details see <xref linkend=\"user-interface-toolbars\"/>."
+"<inlinemediaobject><imageobject><imagedata fileref=\"hi22-action-rocsadddata."
+"png\" format=\"PNG\"/></imageobject> </inlinemediaobject><guibutton>Add "
+"Element</guibutton> or <inlinemediaobject><imageobject><imagedata fileref="
+"\"hi22-action-rocsaddedge.png\" format=\"PNG\"/></imageobject></"
+"inlinemediaobject><guibutton>Add Connection</guibutton> buttons to create "
+"new elements or to connect elements, respectively. New data elements are "
+"added to the data structure that is currently selected at the "
+"<emphasis>Document Selector</emphasis> bar. Note that <guibutton>Add "
+"Element</guibutton> and <guibutton>Add Connection</guibutton> buttons both "
+"have menus to select the type of which the created elements shall be. For "
+"details see <xref linkend=\"user-interface-toolbars\"/>."
 msgstr ""
 
 #. Tag: term
@@ -619,16 +624,16 @@ msgstr ""
 #: index.docbook:273
 #, no-c-format
 msgid ""
-"Element Types: This widget gives you direct access to the available pointer and "
-"data types."
+"Element Types: This widget gives you direct access to the available pointer "
+"and data types."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:274
 #, no-c-format
 msgid ""
-"Journal: Each project has its own journal that can be used to, &eg; note tasks, "
-"results, or observations."
+"Journal: Each project has its own journal that can be used to, &eg; note "
+"tasks, results, or observations."
 msgstr ""
 
 #. Tag: para
@@ -643,8 +648,8 @@ msgstr ""
 #: index.docbook:276
 #, no-c-format
 msgid ""
-"Scripting API: To get direct access to the script documentation, you can open "
-"this widget."
+"Scripting API: To get direct access to the script documentation, you can "
+"open this widget."
 msgstr ""
 
 #. Tag: term
@@ -659,8 +664,8 @@ msgstr ""
 msgid ""
 "In this text editor you can write algorithms as explained in detail in <xref "
 "linkend=\"scripting\"/>. You can work on several script documents "
-"simultaneously by using several tabs. The disk symbol at a tab appears if the "
-"script contains unsaved changes."
+"simultaneously by using several tabs. The disk symbol at a tab appears if "
+"the script contains unsaved changes."
 msgstr ""
 
 #. Tag: term
@@ -674,8 +679,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This text area either shows debug information or the script output of your "
-"algorithm, depending on the toggled setting at the top of this widget. If the "
-"script throws an error, automatically the debug output is presented."
+"algorithm, depending on the toggled setting at the top of this widget. If "
+"the script throws an error, automatically the debug output is presented."
 msgstr ""
 
 #. Tag: term
@@ -689,10 +694,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Here you can find the controls for executing scripts. You can execute the "
-"script that is currently open at the script editor by pressing <guiicon>"
-"Run</guiicon>. While the script is executed, it is possible to stop execution "
-"by pressing the <guiicon>Stop</guiicon> button. Note that the <guibutton>"
-"One Step</guibutton> execution only stops at specific keywords (see <xref "
+"script that is currently open at the script editor by pressing <guiicon>Run</"
+"guiicon>. While the script is executed, it is possible to stop execution by "
+"pressing the <guiicon>Stop</guiicon> button. Note that the <guibutton>One "
+"Step</guibutton> execution only stops at specific keywords (see <xref "
 "linkend=\"scripting\"/>)."
 msgstr ""
 
@@ -734,63 +739,63 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <emphasis>Main Toolbar</emphasis> consists of the following actions. "
-"Clicking at an action means that your mouse pointer applies this action at the "
-"visual graph editor whiteboard:"
+"Clicking at an action means that your mouse pointer applies this action at "
+"the visual graph editor whiteboard:"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:322
 #, no-c-format
 msgid ""
-"<guilabel>Move</guilabel>: To select elements, either click at unused space at "
-"the whiteboard, keep the mouse pressed and draw a rectangle that contains some "
-"data elements and/or pointers to select these elements or otherwise directly "
-"click at an unselected element to select this element. If you click at a "
-"selected element or a set of selected elements, respectively, by keeping the "
-"mouse pressed and moving around you can move these elements. Moving selected "
-"elements is also possible with the arrow keys."
+"<guilabel>Move</guilabel>: To select elements, either click at unused space "
+"at the whiteboard, keep the mouse pressed and draw a rectangle that contains "
+"some data elements and/or pointers to select these elements or otherwise "
+"directly click at an unselected element to select this element. If you click "
+"at a selected element or a set of selected elements, respectively, by "
+"keeping the mouse pressed and moving around you can move these elements. "
+"Moving selected elements is also possible with the arrow keys."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:327
 #, no-c-format
 msgid ""
-"<guilabel>Add Element</guilabel>: Click at an arbitrary position at the visual "
-"graph editor whiteboard to create a new data element that belongs to the "
-"currently selected data structure. By keeping the mouse pointer pressed at the "
-"button, a menu shows up at which the data type of the new created data elements "
-"can be selected (only if different data types exist)."
+"<guilabel>Add Element</guilabel>: Click at an arbitrary position at the "
+"visual graph editor whiteboard to create a new data element that belongs to "
+"the currently selected data structure. By keeping the mouse pointer pressed "
+"at the button, a menu shows up at which the data type of the new created "
+"data elements can be selected (only if different data types exist)."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:333
 #, no-c-format
 msgid ""
-"<guilabel>Add Connection</guilabel>: Click at one data element, keep the mouse "
-"pressed and draw a line to another data element to which the pointer/edge shall "
-"point. This action is only successful if the current graph allows to add this "
-"edge (&eg;, in an undirected graph you are not allowed to add multiple edges "
-"between two data elements). By keeping the mouse pointer pressed at the button, "
-"a menu shows up at which the pointer type of the new created pointers can be "
-"selected (only if different pointer types exist)."
+"<guilabel>Add Connection</guilabel>: Click at one data element, keep the "
+"mouse pressed and draw a line to another data element to which the pointer/"
+"edge shall point. This action is only successful if the current graph allows "
+"to add this edge (&eg;, in an undirected graph you are not allowed to add "
+"multiple edges between two data elements). By keeping the mouse pointer "
+"pressed at the button, a menu shows up at which the pointer type of the new "
+"created pointers can be selected (only if different pointer types exist)."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:339
 #, no-c-format
 msgid ""
-"<guilabel>Delete</guilabel>: Click at an element to delete it. If you delete a "
-"node, all adjacent edges are also deleted."
+"<guilabel>Delete</guilabel>: Click at an element to delete it. If you delete "
+"a node, all adjacent edges are also deleted."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:344
 #, no-c-format
 msgid ""
-"<guilabel>Zoom</guilabel>: Click at the whiteboard, keep the &LMB; pressed, and "
-"by this draw a rectangle. The whiteboard will be zoomed to the selected area. "
-"Using the mousewheel to zoom in or out as well. A double click with the &LMB; "
-"restores the original zoom."
+"<guilabel>Zoom</guilabel>: Click at the whiteboard, keep the &LMB; pressed, "
+"and by this draw a rectangle. The whiteboard will be zoomed to the selected "
+"area. Using the mousewheel to zoom in or out as well. A double click with "
+"the &LMB; restores the original zoom."
 msgstr ""
 
 #. Tag: title
@@ -803,68 +808,70 @@ msgstr ""
 #: index.docbook:353
 #, no-c-format
 msgid ""
-"You can add the optional <emphasis>Alignment Toolbar</emphasis>"
-". Pressing an action at this toolbar has direct effect to the currently "
-"selected nodes:"
+"You can add the optional <emphasis>Alignment Toolbar</emphasis>. Pressing an "
+"action at this toolbar has direct effect to the currently selected nodes:"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:357
 #, no-c-format
 msgid ""
-"<guilabel>Top</guilabel>: Align the data elements at the vertical position of "
-"the top-most data element. This only affects the vertical positions."
+"<guilabel>Top</guilabel>: Align the data elements at the vertical position "
+"of the top-most data element. This only affects the vertical positions."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:362
 #, no-c-format
 msgid ""
-"<guilabel>Center</guilabel>: Align the data elements at the vertical position "
-"given by the center of all selected data elements vertical positions. This only "
-"affects the vertical positions."
+"<guilabel>Center</guilabel>: Align the data elements at the vertical "
+"position given by the center of all selected data elements vertical "
+"positions. This only affects the vertical positions."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:367
 #, no-c-format
 msgid ""
-"<guilabel>Base</guilabel>: Align the data elements at the vertical position of "
-"the bottom-most data element. This only affects the vertical positions."
+"<guilabel>Base</guilabel>: Align the data elements at the vertical position "
+"of the bottom-most data element. This only affects the vertical positions."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:372
 #, no-c-format
 msgid ""
-"<guilabel>Left</guilabel>: Align the data elements at the horizontal position "
-"of the left-most data element. This only affects the horizontal positions."
+"<guilabel>Left</guilabel>: Align the data elements at the horizontal "
+"position of the left-most data element. This only affects the horizontal "
+"positions."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:377
 #, no-c-format
 msgid ""
-"<guilabel>Center</guilabel>: Align the data elements at the horizontal position "
-"of the top-most data element. This only affects the horizontal positions."
+"<guilabel>Center</guilabel>: Align the data elements at the horizontal "
+"position of the top-most data element. This only affects the horizontal "
+"positions."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:383
 #, no-c-format
 msgid ""
-"<guilabel>Right</guilabel>: Align the data elements at the horizontal position "
-"of the right-most data element. This only affects the horizontal positions."
+"<guilabel>Right</guilabel>: Align the data elements at the horizontal "
+"position of the right-most data element. This only affects the horizontal "
+"positions."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:388
 #, no-c-format
 msgid ""
-"<guilabel>Circle</guilabel>: Aligns the data elements at a circle of diameter "
-"equals to the maximal distance of the data elements. The data elements are "
-"positioned in the same sequence as given by view from the center of gravity of "
-"these data elements."
+"<guilabel>Circle</guilabel>: Aligns the data elements at a circle of "
+"diameter equals to the maximal distance of the data elements. The data "
+"elements are positioned in the same sequence as given by view from the "
+"center of gravity of these data elements."
 msgstr ""
 
 #. Tag: para
@@ -887,10 +894,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "A &rocs; project contains one or multiple graph documents that can be edited "
-"with the visual graph editor. Further, each document can contain an arbitrary "
-"number of data structures. Here, data structures of a document all use the same "
-"data structure backend. This section will explain how to switch between "
-"documents and how to create new ones."
+"with the visual graph editor. Further, each document can contain an "
+"arbitrary number of data structures. Here, data structures of a document all "
+"use the same data structure backend. This section will explain how to switch "
+"between documents and how to create new ones."
 msgstr ""
 
 #. Tag: title
@@ -906,8 +913,8 @@ msgid ""
 "The document selector bar is used to select the current graph document and "
 "further the current data structure. Using the visual graph editor tools to "
 "create data structures elements will automatically add those newly created "
-"elements to the current data structure. Also, this bar gives direct access to "
-"delete existing or create new data structures within the current document."
+"elements to the current data structure. Also, this bar gives direct access "
+"to delete existing or create new data structures within the current document."
 msgstr ""
 
 #. Tag: para
@@ -915,8 +922,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>New</guilabel>: This action creates a new data structure using an "
-"automatic naming pattern given by the data structure backend. The created data "
-"structure is added to the currently selected graph document."
+"automatic naming pattern given by the data structure backend. The created "
+"data structure is added to the currently selected graph document."
 msgstr ""
 
 #. Tag: para
@@ -931,8 +938,8 @@ msgstr ""
 #: index.docbook:433
 #, no-c-format
 msgid ""
-"<guilabel>Properties</guilabel> for <guilabel>Graph Document</guilabel>"
-": Open a dialog that gives access to the document properties as well as the "
+"<guilabel>Properties</guilabel> for <guilabel>Graph Document</guilabel>: "
+"Open a dialog that gives access to the document properties as well as the "
 "data and pointer types of the document."
 msgstr ""
 
@@ -940,8 +947,8 @@ msgstr ""
 #: index.docbook:439
 #, no-c-format
 msgid ""
-"<guilabel>Properties</guilabel> for <guilabel>Data Structure</guilabel>"
-": Open a dialog that gives access to the data structure properties."
+"<guilabel>Properties</guilabel> for <guilabel>Data Structure</guilabel>: "
+"Open a dialog that gives access to the data structure properties."
 msgstr ""
 
 #. Tag: screeninfo
@@ -967,11 +974,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To create a new graph document or to add an existing one to the project, use "
-"<menuchoice><guimenu>File</guimenu> <guimenuitem>New Project</guimenuitem>"
-"</menuchoice> or <menuchoice><guimenu>Graph Document</guimenu> <guimenuitem>"
-"Import Graph</guimenuitem></menuchoice>. You can also import graph documents "
-"from third party applications (for this, see <xref linkend=\"import-export\"/>"
-")."
+"<menuchoice><guimenu>File</guimenu> <guimenuitem>New Project</guimenuitem></"
+"menuchoice> or <menuchoice><guimenu>Graph Document</guimenu> "
+"<guimenuitem>Import Graph</guimenuitem></menuchoice>. You can also import "
+"graph documents from third party applications (for this, see <xref linkend="
+"\"import-export\"/>)."
 msgstr ""
 
 #. Tag: title
@@ -987,23 +994,23 @@ msgid ""
 "&rocs; internally uses the QtScript scripting engine, which is a specific "
 "JavaScript engine. This means, all algorithms that you implement must use "
 "JavaScript. How JavaScript works and how to write JavaScript code is not "
-"covered in this handbook, though we explain how to access data structures, data "
-"elements and pointers of your data structures from the scripting engine. Since "
-"you never use the basic data structure object but one that is provided by the "
-"currently used data structure backend, the functionality of the data structure "
-"is extended by the corresponding backend and you should have a look at the "
-"specialized functionality. Especially, data structure backends use the common "
-"terms from their domain (nodes and edges in graphs, leafs and roots in trees, "
-"etc.)"
+"covered in this handbook, though we explain how to access data structures, "
+"data elements and pointers of your data structures from the scripting "
+"engine. Since you never use the basic data structure object but one that is "
+"provided by the currently used data structure backend, the functionality of "
+"the data structure is extended by the corresponding backend and you should "
+"have a look at the specialized functionality. Especially, data structure "
+"backends use the common terms from their domain (nodes and edges in graphs, "
+"leafs and roots in trees, etc.)"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:480
 #, no-c-format
 msgid ""
-"It is important to know that changes done by the scripting engine are directly "
-"reflected at the properties at the visual graph editor whiteboard. Hence, the "
-"scripts actually modify the data structures."
+"It is important to know that changes done by the scripting engine are "
+"directly reflected at the properties at the visual graph editor whiteboard. "
+"Hence, the scripts actually modify the data structures."
 msgstr ""
 
 #. Tag: title
@@ -1022,19 +1029,20 @@ msgstr ""
 #: index.docbook:493
 #, no-c-format
 msgid ""
-"Your script documents can include other scripts. This can be useful to reduce "
-"the size of script documents and improve readability. Using <menuchoice>"
-"<guimenu>Script Document</guimenu> <guimenuitem>Possible Includes</guimenuitem>"
-"</menuchoice> you get a list of script files already shipped with &rocs; that "
-"could be included. You can include a script file with the following command:"
+"Your script documents can include other scripts. This can be useful to "
+"reduce the size of script documents and improve readability. Using "
+"<menuchoice><guimenu>Script Document</guimenu> <guimenuitem>Possible "
+"Includes</guimenuitem></menuchoice> you get a list of script files already "
+"shipped with &rocs; that could be included. You can include a script file "
+"with the following command:"
 msgstr ""
 
 #. Tag: programlisting
 #: index.docbook:499
 #, no-c-format
 msgid ""
-"include_script(string path);            // relative or absolute path to script "
-"file"
+"include_script(string path);            // relative or absolute path to "
+"script file"
 msgstr ""
 
 #. Tag: title
@@ -1047,11 +1055,11 @@ msgstr ""
 #: index.docbook:504
 #, no-c-format
 msgid ""
-"During the execution of an algorithm, debug and program output is displayed in "
-"the <emphasis>Debug &amp; Script Output</emphasis>. If the scripting engine "
-"detects a syntax error in your script, the error is also displayed as debug "
-"message. Note that all program messages are also displayed at the debug output "
-"(displayed as bold text)."
+"During the execution of an algorithm, debug and program output is displayed "
+"in the <emphasis>Debug &amp; Script Output</emphasis>. If the scripting "
+"engine detects a syntax error in your script, the error is also displayed as "
+"debug message. Note that all program messages are also displayed at the "
+"debug output (displayed as bold text)."
 msgstr ""
 
 #. Tag: para
@@ -1094,8 +1102,8 @@ msgstr ""
 #: index.docbook:531
 #, no-c-format
 msgid ""
-"<guilabel>One Step</guilabel>: Execute script until one step ends. A step ends "
-"when the script calls the function <literal>interrupt()</literal>:"
+"<guilabel>One Step</guilabel>: Execute script until one step ends. A step "
+"ends when the script calls the function <literal>interrupt()</literal>:"
 msgstr ""
 
 #. Tag: programlisting
@@ -1116,8 +1124,8 @@ msgstr ""
 #: index.docbook:543
 #, no-c-format
 msgid ""
-"<guilabel>Stop</guilabel>: Stop script execution (only available if a script is "
-"executing)."
+"<guilabel>Stop</guilabel>: Stop script execution (only available if a script "
+"is executing)."
 msgstr ""
 
 #. Tag: title
@@ -1130,9 +1138,9 @@ msgstr ""
 #: index.docbook:554
 #, no-c-format
 msgid ""
-"Every backend provides a special set of functions and properties for its data "
-"structures and their elements. But also every backend provides the properties "
-"and functions that are defined for the base data structure."
+"Every backend provides a special set of functions and properties for its "
+"data structures and their elements. But also every backend provides the "
+"properties and functions that are defined for the base data structure."
 msgstr ""
 
 #. Tag: chapter
@@ -1206,8 +1214,8 @@ msgstr ""
 #: index.docbook:588
 #, no-c-format
 msgid ""
-"Documentation copyright 2011-2013 Andreas Cord-Landwehr (cordlandwehr AT "
-"kde.org)"
+"Documentation copyright 2011-2013 Andreas Cord-Landwehr (cordlandwehr AT kde."
+"org)"
 msgstr ""
 
 #. Tag: trans_comment

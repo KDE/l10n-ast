@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,23 +37,22 @@ msgstr ""
 #: plugins.docbook:12
 #, no-c-format
 msgid ""
-"&kate; offers several types of plugin. There are plugins for the &kate; editor "
-"component, which are available to any application using the editor component, "
-"such as KDevelop, Quanta, Kile, &kwrite; and many others. There are also "
-"plugins only available in the &kate; editor itself. There are two types of "
-"these plugins: some are written in native C++, while others are written in the "
-"Python programming language. There are subtle differences in these, described "
-"below."
+"&kate; offers several types of plugin. There are plugins for the &kate; "
+"editor component, which are available to any application using the editor "
+"component, such as KDevelop, Quanta, Kile, &kwrite; and many others. There "
+"are also plugins only available in the &kate; editor itself. There are two "
+"types of these plugins: some are written in native C++, while others are "
+"written in the Python programming language. There are subtle differences in "
+"these, described below."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:19
 #, no-c-format
 msgid ""
-"You can enable any type of plugin in the <link "
-"linkend=\"configuring-kate-configdialog\">configuration dialog</link>"
-", which also provides access to additional configuration options for plugins "
-"that require it."
+"You can enable any type of plugin in the <link linkend=\"configuring-kate-"
+"configdialog\">configuration dialog</link>, which also provides access to "
+"additional configuration options for plugins that require it."
 msgstr ""
 
 #. Tag: para
@@ -74,9 +74,9 @@ msgstr ""
 #: plugins.docbook:32
 #, no-c-format
 msgid ""
-"For information about available plugins, see the <ulink "
-"url=\"help:katepart/editor-component-plugins.html\">"
-"Editor Component Extensions section of the &katepart; Handbook</ulink>."
+"For information about available plugins, see the <ulink url=\"help:katepart/"
+"editor-component-plugins.html\">Editor Component Extensions section of the "
+"&katepart; Handbook</ulink>."
 msgstr ""
 
 #. Tag: title
@@ -92,10 +92,10 @@ msgid ""
 "&kate; plugins are additional functions for the &kate; editor. They can add "
 "extra menus and shortcuts, and extend &kate;'s features. You can install as "
 "many or as few as you like, from within &kate;. Open &kate;'s configuration "
-"dialog with <menuchoice><guimenu>Settings</guimenu><guimenuitem>"
-"Configure &kate;...</guimenuitem></menuchoice> Select <menuchoice><guimenu>"
-"Application</guimenu><guimenuitem>Plugins</guimenuitem></menuchoice> "
-"to choose the wanted plugins."
+"dialog with <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
+"&kate;...</guimenuitem></menuchoice> Select "
+"<menuchoice><guimenu>Application</guimenu><guimenuitem>Plugins</"
+"guimenuitem></menuchoice> to choose the wanted plugins."
 msgstr ""
 
 #. Tag: para
@@ -114,8 +114,8 @@ msgstr ""
 #: plugins.docbook:60
 #, no-c-format
 msgid ""
-"<link linkend=\"kate-application-plugin-build\">Build Plugin</link> "
-"- Compile or Make and parse error messages"
+"<link linkend=\"kate-application-plugin-build\">Build Plugin</link> - "
+"Compile or Make and parse error messages"
 msgstr ""
 
 #. Tag: para
@@ -136,8 +136,8 @@ msgstr ""
 #: plugins.docbook:69
 #, no-c-format
 msgid ""
-"<link linkend=\"kate-application-plugin-fsbrowser\">File system browser</link> "
-"- File system browser tool view"
+"<link linkend=\"kate-application-plugin-fsbrowser\">File system browser</"
+"link> - File system browser tool view"
 msgstr ""
 
 #. Tag: para
@@ -152,8 +152,8 @@ msgstr ""
 #: plugins.docbook:77
 #, no-c-format
 msgid ""
-"<link linkend=\"kate-application-plugin-gdb\">&gdb;</link> "
-"- Provides a simple &gdb; frontend"
+"<link linkend=\"kate-application-plugin-gdb\">&gdb;</link> - Provides a "
+"simple &gdb; frontend"
 msgstr ""
 
 #. Tag: para
@@ -166,8 +166,8 @@ msgstr ""
 #: plugins.docbook:84
 #, no-c-format
 msgid ""
-"<link linkend=\"kate-application-plugin-mail\">Mail files</link> "
-"- Send files via email"
+"<link linkend=\"kate-application-plugin-mail\">Mail files</link> - Send "
+"files via email"
 msgstr ""
 
 #. Tag: para
@@ -199,9 +199,9 @@ msgstr ""
 #: plugins.docbook:100
 #, no-c-format
 msgid ""
-"<link linkend=\"kate-application-plugin-searchinfiles\">"
-"Search &amp; Replace</link> - Search or replace patterns in opened documents or "
-"in files on disk"
+"<link linkend=\"kate-application-plugin-searchinfiles\">Search &amp; "
+"Replace</link> - Search or replace patterns in opened documents or in files "
+"on disk"
 msgstr ""
 
 #. Tag: para
@@ -214,8 +214,8 @@ msgstr ""
 #: plugins.docbook:107
 #, no-c-format
 msgid ""
-"<link linkend=\"kate-application-plugin-sql\">SQL Plugin</link> "
-"- Execute query on SQL databases"
+"<link linkend=\"kate-application-plugin-sql\">SQL Plugin</link> - Execute "
+"query on SQL databases"
 msgstr ""
 
 #. Tag: para
@@ -255,8 +255,8 @@ msgstr ""
 #: plugins.docbook:128
 #, no-c-format
 msgid ""
-"<link linkend=\"kate-application-plugin-xmlcheck\">&XML; Validation</link>"
-"- Validates &XML; files using xmllint"
+"<link linkend=\"kate-application-plugin-xmlcheck\">&XML; Validation</link>- "
+"Validates &XML; files using xmllint"
 msgstr ""
 
 #. Tag: title
@@ -277,13 +277,13 @@ msgstr ""
 #: plugins.docbook:157
 #, no-c-format
 msgid ""
-"To enable &pate; plugins, you must first enable the <guilabel>"
-"Python Plugins</guilabel> plugin in the <link linkend=\"config-dialog-plugins\">"
-"<guilabel>Plugins</guilabel> page of &kate;'s configuration dialog</link>"
-". You may then enable, disable, and configure them in the <guilabel>"
-"Python Plugins</guilabel> page of the configuration dialog. For more "
-"information about configuring &pate; plugins, see <xref "
-"linkend=\"pate-config\"/>."
+"To enable &pate; plugins, you must first enable the <guilabel>Python "
+"Plugins</guilabel> plugin in the <link linkend=\"config-dialog-plugins"
+"\"><guilabel>Plugins</guilabel> page of &kate;'s configuration dialog</"
+"link>. You may then enable, disable, and configure them in the "
+"<guilabel>Python Plugins</guilabel> page of the configuration dialog. For "
+"more information about configuring &pate; plugins, see <xref linkend=\"pate-"
+"config\"/>."
 msgstr ""
 
 #. Tag: title
@@ -338,7 +338,8 @@ msgstr ""
 #: plugins.docbook:193
 #, no-c-format
 msgid ""
-"Move an inlined comment before the current line with the same indentation level"
+"Move an inlined comment before the current line with the same indentation "
+"level"
 msgstr ""
 
 #. Tag: guilabel
@@ -370,9 +371,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Each text expansion is a simple function which must return a string. This "
-"string will be inserted into a document by the <command>expandAtCursor</command> "
-"action. For example, if you have a function <quote>foo</quote> in the <filename>"
-"all.expand</filename> file which is defined as:"
+"string will be inserted into a document by the <command>expandAtCursor</"
+"command> action. For example, if you have a function <quote>foo</quote> in "
+"the <filename>all.expand</filename> file which is defined as:"
 msgstr ""
 
 #. Tag: programlisting
@@ -388,10 +389,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "after typing <quote>foo</quote>, the action will replace <quote>foo</quote> "
-"with <quote>Hello from foo!</quote>. The expansion function may have parameters "
-"as well. For example, the <filename>text_x-c++src.expand</filename> "
-"file contains the <function>cl</function> function which creates a class (or "
-"class template). This will expand <quote>cl(test)</quote> into:"
+"with <quote>Hello from foo!</quote>. The expansion function may have "
+"parameters as well. For example, the <filename>text_x-c++src.expand</"
+"filename> file contains the <function>cl</function> function which creates a "
+"class (or class template). This will expand <quote>cl(test)</quote> into:"
 msgstr ""
 
 #. Tag: programlisting
@@ -465,8 +466,8 @@ msgstr ""
 #: plugins.docbook:250
 #, no-c-format
 msgid ""
-"Browse the tokens in a <application>GNU idutils</application> "
-"ID file, and use it to navigate within a codebase."
+"Browse the tokens in a <application>GNU idutils</application> ID file, and "
+"use it to navigate within a codebase."
 msgstr ""
 
 #. Tag: para
@@ -475,8 +476,8 @@ msgstr ""
 msgid ""
 "The necessary parts of the ID file are held in memory to allow sufficient "
 "performance for token completion, when looking up the usage of a token, or "
-"jumping to the definition. <command>etags(1)</command> "
-"is used to locate the definition."
+"jumping to the definition. <command>etags(1)</command> is used to locate the "
+"definition."
 msgstr ""
 
 #. Tag: guilabel
@@ -489,8 +490,8 @@ msgstr ""
 #: plugins.docbook:261
 #, no-c-format
 msgid ""
-"JavaScript utilities: Autocomplete, Autocomplete jQuery, Checker JSLint, Pretty "
-"JSON, Snippets"
+"JavaScript utilities: Autocomplete, Autocomplete jQuery, Checker JSLint, "
+"Pretty JSON, Snippets"
 msgstr ""
 
 #. Tag: guilabel
@@ -570,17 +571,17 @@ msgstr ""
 #: plugins.docbook:311
 #, no-c-format
 msgid ""
-"This tab contains a list of &pate; plugins. To enable or disable them, simply "
-"select or unselect the checkbox to the left of the plugin name."
+"This tab contains a list of &pate; plugins. To enable or disable them, "
+"simply select or unselect the checkbox to the left of the plugin name."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:314
 #, no-c-format
 msgid ""
-"To refresh the list of plugins, reload any currently running plugins, or start "
-"any newly selected plugins, select the <guibutton>Reload Plugins</guibutton> "
-"button at the bottom of the window."
+"To refresh the list of plugins, reload any currently running plugins, or "
+"start any newly selected plugins, select the <guibutton>Reload Plugins</"
+"guibutton> button at the bottom of the window."
 msgstr ""
 
 #. Tag: para
@@ -603,8 +604,8 @@ msgstr ""
 msgid ""
 "The <guilabel>Documentation</guilabel> tab contains information about the "
 "actions, menu items, keyboard shortcuts, and configuration pages offered by "
-"&pate; plugins, as well as a reference for programmers using the functionality "
-"of the plugins."
+"&pate; plugins, as well as a reference for programmers using the "
+"functionality of the plugins."
 msgstr ""
 
 #. Tag: para
@@ -623,8 +624,8 @@ msgstr ""
 #: plugins.docbook:337
 #, no-c-format
 msgid ""
-"Lists all the actions offered by the plugin, including the menu item, icon, and "
-"keyboard shortcut that will invoke the action."
+"Lists all the actions offered by the plugin, including the menu item, icon, "
+"and keyboard shortcut that will invoke the action."
 msgstr ""
 
 #. Tag: guilabel
@@ -637,8 +638,8 @@ msgstr ""
 #: plugins.docbook:343
 #, no-c-format
 msgid ""
-"Lists all the configuration pages offered by the plugin, including their titles "
-"and icons."
+"Lists all the configuration pages offered by the plugin, including their "
+"titles and icons."
 msgstr ""
 
 #. Tag: guilabel
@@ -651,8 +652,8 @@ msgstr ""
 #: plugins.docbook:349
 #, no-c-format
 msgid ""
-"Includes information about all the modules, classes, and functions offered by a "
-"plugin, as generated by <command>pydoc</command>."
+"Includes information about all the modules, classes, and functions offered "
+"by a plugin, as generated by <command>pydoc</command>."
 msgstr ""
 
 #. Tag: title
@@ -678,8 +679,8 @@ msgstr ""
 #: plugins.docbook:376
 #, no-c-format
 msgid ""
-"Click <menuchoice><guimenu>Settings</guimenu><guimenuitem>"
-"Configure &kate;</guimenuitem></menuchoice>"
+"Click <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kate;</"
+"guimenuitem></menuchoice>"
 msgstr ""
 
 #. Tag: para
@@ -693,18 +694,19 @@ msgstr ""
 #: plugins.docbook:386
 #, no-c-format
 msgid ""
-"In the <guilabel>Plugin Manager</guilabel> panel on the right, select <guilabel>"
-"File Templates</guilabel>, and then click <guibutton>OK</guibutton>."
+"In the <guilabel>Plugin Manager</guilabel> panel on the right, select "
+"<guilabel>File Templates</guilabel>, and then click <guibutton>OK</"
+"guibutton>."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:391
 #, no-c-format
 msgid ""
-"You can now use any file as a template (this creates a copy of the file with an "
-"empty &URL;.) Special template files can contain macros to fill in information "
-"such as your name, email address, the current date, and position the cursor at "
-"a convenient position in the new file."
+"You can now use any file as a template (this creates a copy of the file with "
+"an empty &URL;.) Special template files can contain macros to fill in "
+"information such as your name, email address, the current date, and position "
+"the cursor at a convenient position in the new file."
 msgstr ""
 
 #. Tag: para
@@ -717,32 +719,33 @@ msgstr ""
 #: plugins.docbook:397
 #, no-c-format
 msgid ""
-"Templates that you save to the template folder are listed under the menu item "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>New from Template</guimenuitem>"
-"</menuchoice>."
+"Templates that you save to the template folder are listed under the menu "
+"item <menuchoice><guimenu>File</guimenu><guimenuitem>New from Template</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:400
 #, no-c-format
 msgid ""
-"The template folder is part of the &kde; file system, and consists of at least"
+"The template folder is part of the &kde; file system, and consists of at "
+"least"
 msgstr ""
 
 #. Tag: filename
 #: plugins.docbook:405
 #, no-c-format
 msgid ""
-"$<envar>KDEDIR</envar>/share/applications/kate/plugins/katefiletemplates/templat"
-"es"
+"$<envar>KDEDIR</envar>/share/applications/kate/plugins/katefiletemplates/"
+"templates"
 msgstr ""
 
 #. Tag: filename
 #: plugins.docbook:410
 #, no-c-format
 msgid ""
-"$<envar>KDEHOME</envar>/share/applications/kate/plugins/katefiletemplates/templa"
-"tes."
+"$<envar>KDEHOME</envar>/share/applications/kate/plugins/katefiletemplates/"
+"templates."
 msgstr ""
 
 #. Tag: para
@@ -750,8 +753,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If your <envar>KDEDIRS</envar> environment variable contains additional "
-"directories, those are searched for a similar subdirectory as well. If equally "
-"named templates are found, the one in the local (KDEHOME) folder is chosen."
+"directories, those are searched for a similar subdirectory as well. If "
+"equally named templates are found, the one in the local (KDEHOME) folder is "
+"chosen."
 msgstr ""
 
 #. Tag: title
@@ -767,8 +771,8 @@ msgstr ""
 #: plugins.docbook:423
 #, no-c-format
 msgid ""
-"<guimenu>File</guimenu> <guisubmenu>New From Template</guisubmenu> <guimenuitem>"
-"Any File...</guimenuitem>"
+"<guimenu>File</guimenu> <guisubmenu>New From Template</guisubmenu> "
+"<guimenuitem>Any File...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -776,8 +780,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Presents you with an Open File dialog that allows you to use any file as a "
-"template. If the chosen file has the extension <filename>katetemplate</filename> "
-"it will be parsed for template information and macros."
+"template. If the chosen file has the extension <filename>katetemplate</"
+"filename> it will be parsed for template information and macros."
 msgstr ""
 
 #. Tag: menuchoice
@@ -819,9 +823,9 @@ msgstr ""
 #: plugins.docbook:474
 #, no-c-format
 msgid ""
-"When creating a file from a template that contains template macros, some macros "
-"appear as editable variables in the text. Such variables appear as underlined "
-"words in the text."
+"When creating a file from a template that contains template macros, some "
+"macros appear as editable variables in the text. Such variables appear as "
+"underlined words in the text."
 msgstr ""
 
 #. Tag: para
@@ -831,8 +835,8 @@ msgid ""
 "The first variable will be selected, so you just have to type to edit it. If "
 "the document text contains more instances of the same variable, they are "
 "changed as you edit. To move to the next editable variable, press the &Tab; "
-"key. When the last variable is edited, the list is dropped, and your &Tab; key "
-"works as normal."
+"key. When the last variable is edited, the list is dropped, and your &Tab; "
+"key works as normal."
 msgstr ""
 
 #. Tag: title
@@ -846,11 +850,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To create a new template, use the <menuchoice><guimenu>Settings</guimenu> "
-"<guimenuitem>Manage Templates</guimenuitem></menuchoice> "
-"Item to launch the template management dialog. In that, click <guibutton>"
-"New...</guibutton> to launch the File Template Wizard. You will be asked for an "
-"optional file to turn into a template and prompted for template information "
-"settings, and a template file will be created for you."
+"<guimenuitem>Manage Templates</guimenuitem></menuchoice> Item to launch the "
+"template management dialog. In that, click <guibutton>New...</guibutton> to "
+"launch the File Template Wizard. You will be asked for an optional file to "
+"turn into a template and prompted for template information settings, and a "
+"template file will be created for you."
 msgstr ""
 
 #. Tag: para
@@ -858,16 +862,16 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Alternatively, you can create a template manually by adding template "
-"information to the top of any file, add text and macros, and save it with the "
-"<filename>katetemplate</filename> extension."
+"information to the top of any file, add text and macros, and save it with "
+"the <filename>katetemplate</filename> extension."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:496
 #, no-c-format
 msgid ""
-"The template menu is automatically updated if you chose to store your template "
-"in the template directory."
+"The template menu is automatically updated if you chose to store your "
+"template in the template directory."
 msgstr ""
 
 #. Tag: title
@@ -881,12 +885,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To edit a template, use the <menuchoice><guimenu>Settings</guimenu> "
-"<guimenuitem>Manage Templates...</guimenuitem></menuchoice>"
-". Select the template you want to work on and click <guibutton>"
-"Edit...</guibutton>, and the template file will be opened. Close the dialog, "
-"edit the template file as desired, save it and close it. Changes to templates "
-"take immediate effect; you can activate the template to test your changes after "
-"saving it."
+"<guimenuitem>Manage Templates...</guimenuitem></menuchoice>. Select the "
+"template you want to work on and click <guibutton>Edit...</guibutton>, and "
+"the template file will be opened. Close the dialog, edit the template file "
+"as desired, save it and close it. Changes to templates take immediate "
+"effect; you can activate the template to test your changes after saving it."
 msgstr ""
 
 #. Tag: title
@@ -899,8 +902,8 @@ msgstr ""
 #: plugins.docbook:514
 #, no-c-format
 msgid ""
-"If you use files with the extension <filename>katetemplate</filename>"
-", they will be parsed for template information, macros and a cursor position."
+"If you use files with the extension <filename>katetemplate</filename>, they "
+"will be parsed for template information, macros and a cursor position."
 msgstr ""
 
 #. Tag: title
@@ -914,10 +917,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "While reading in the file, the parser keeps lines beginning with the phrase "
-"<constant>katetemplate:</constant> and searches them for template information "
-"in the form VARIABLENAME=VALUE. The first line not starting with <constant>"
-"katetemplate:</constant> will be taken as the start of the template contents. "
-"VALUE may contain any character but equal sign (=). Legal variable names are:"
+"<constant>katetemplate:</constant> and searches them for template "
+"information in the form VARIABLENAME=VALUE. The first line not starting with "
+"<constant>katetemplate:</constant> will be taken as the start of the "
+"template contents. VALUE may contain any character but equal sign (=). Legal "
+"variable names are:"
 msgstr ""
 
 #. Tag: varname
@@ -930,8 +934,8 @@ msgstr ""
 #: plugins.docbook:530
 #, no-c-format
 msgid ""
-"This is the template name, displayed in the <menuchoice><guimenu>File</guimenu>"
-"<guimenuitem>New from Template</guimenuitem></menuchoice> menu."
+"This is the template name, displayed in the <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>New from Template</guimenuitem></menuchoice> menu."
 msgstr ""
 
 #. Tag: varname
@@ -944,8 +948,8 @@ msgstr ""
 #: plugins.docbook:536
 #, no-c-format
 msgid ""
-"The group places the template in a submenu of the <menuchoice><guimenu>"
-"File</guimenu><guimenuitem>New from Template</guimenuitem></menuchoice> menu."
+"The group places the template in a submenu of the <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>New from Template</guimenuitem></menuchoice> menu."
 msgstr ""
 
 #. Tag: varname
@@ -958,10 +962,10 @@ msgstr ""
 #: plugins.docbook:541
 #, no-c-format
 msgid ""
-"This is the name that will be set for the document, and displayed in the file "
-"list and title bar. If the name contains <userinput>%N</userinput> "
-"that will be replaced with a number, incrementing if more documents have the "
-"same name."
+"This is the name that will be set for the document, and displayed in the "
+"file list and title bar. If the name contains <userinput>%N</userinput> that "
+"will be replaced with a number, incrementing if more documents have the same "
+"name."
 msgstr ""
 
 #. Tag: varname
@@ -974,9 +978,10 @@ msgstr ""
 #: plugins.docbook:549
 #, no-c-format
 msgid ""
-"The plugin will try to set the Highlight for the new document to the value of "
-"this variable. The value should be the name, as found in <menuchoice><guimenu>"
-"Tools</guimenu> <guimenuitem>Highlighting</guimenuitem> </menuchoice>."
+"The plugin will try to set the Highlight for the new document to the value "
+"of this variable. The value should be the name, as found in "
+"<menuchoice><guimenu>Tools</guimenu> <guimenuitem>Highlighting</guimenuitem> "
+"</menuchoice>."
 msgstr ""
 
 #. Tag: varname
@@ -989,9 +994,9 @@ msgstr ""
 #: plugins.docbook:559
 #, no-c-format
 msgid ""
-"A short informative description of the template. This is currently used to set "
-"a <guimenuitem>What's this?</guimenuitem> string for the menu item, but may be "
-"used for additional purposes in the future."
+"A short informative description of the template. This is currently used to "
+"set a <guimenuitem>What's this?</guimenuitem> string for the menu item, but "
+"may be used for additional purposes in the future."
 msgstr ""
 
 #. Tag: term
@@ -1004,8 +1009,8 @@ msgstr ""
 #: plugins.docbook:565
 #, no-c-format
 msgid ""
-"A string identifying the author, for example in the form <userinput>"
-"Name &lt;email address&gt;</userinput>. This is currently used to set a "
+"A string identifying the author, for example in the form <userinput>Name &lt;"
+"email address&gt;</userinput>. This is currently used to set a "
 "<guimenuitem>What's this?</guimenuitem> string for the menu item, but may be "
 "used for additional purposes in the future."
 msgstr ""
@@ -1020,12 +1025,11 @@ msgstr ""
 #: plugins.docbook:579
 #, no-c-format
 msgid ""
-"While parsing the template contents, macros in the form <userinput>"
-"%{NAME}</userinput> or <userinput>${NAME}</userinput> "
-"are expanded. If you use the <userinput>$</userinput> "
-"prefix, the expanded macro will be treated as a editable variable when a "
-"document is created from the template, whereas if you use <userinput>"
-"%</userinput> it is not, unless expanding failed."
+"While parsing the template contents, macros in the form <userinput>%{NAME}</"
+"userinput> or <userinput>${NAME}</userinput> are expanded. If you use the "
+"<userinput>$</userinput> prefix, the expanded macro will be treated as a "
+"editable variable when a document is created from the template, whereas if "
+"you use <userinput>%</userinput> it is not, unless expanding failed."
 msgstr ""
 
 #. Tag: para
@@ -1068,8 +1072,8 @@ msgstr ""
 #: plugins.docbook:598
 #, no-c-format
 msgid ""
-"Expands to the current date and time, formatted as a string according to your "
-"locale."
+"Expands to the current date and time, formatted as a string according to "
+"your locale."
 msgstr ""
 
 #. Tag: literal
@@ -1142,8 +1146,8 @@ msgstr ""
 #: plugins.docbook:624
 #, no-c-format
 msgid ""
-"Expands to your full name, as defined in the owner addressee in your standard "
-"&kde; addressbook."
+"Expands to your full name, as defined in the owner addressee in your "
+"standard &kde; addressbook."
 msgstr ""
 
 #. Tag: literal
@@ -1156,8 +1160,8 @@ msgstr ""
 #: plugins.docbook:629
 #, no-c-format
 msgid ""
-"Expands to your first name, as defined in the owner addressee in your standard "
-"&kde; addressbook."
+"Expands to your first name, as defined in the owner addressee in your "
+"standard &kde; addressbook."
 msgstr ""
 
 #. Tag: literal
@@ -1170,8 +1174,8 @@ msgstr ""
 #: plugins.docbook:634
 #, no-c-format
 msgid ""
-"Expands to your last name, as defined in the owner addressee in your standard "
-"&kde; addressbook."
+"Expands to your last name, as defined in the owner addressee in your "
+"standard &kde; addressbook."
 msgstr ""
 
 #. Tag: term
@@ -1184,8 +1188,8 @@ msgstr ""
 #: plugins.docbook:644
 #, no-c-format
 msgid ""
-"Expands to your email address, as defined in the owner address in your standard "
-"&kde; addressbook."
+"Expands to your email address, as defined in the owner address in your "
+"standard &kde; addressbook."
 msgstr ""
 
 #. Tag: para
@@ -1255,16 +1259,16 @@ msgstr ""
 #: plugins.docbook:691
 #, no-c-format
 msgid ""
-"This plugin checks the current file. A list of warnings and errors will appear "
-"at the bottom of &kate;'s main window. You can click on an error message to "
-"jump to the corresponding place in the file. If the file has a <quote>"
-"DOCTYPE</quote> the DTD given with this doctype will be used to check the file "
-"for validity. The DTD is expected at a position relative to the current file, "
-"&eg; if the doctype refers to <quote>DTD/xhtml1-transitional.dtd</quote> "
-"and the file is <filename>/home/peter/test.xml</filename> "
-"the DTD is expected to be located at "
-"<filename>/home/peter/DTD/xhtml1-transitional.dtd</filename>"
-". However, remote DTDs specified via http are supported."
+"This plugin checks the current file. A list of warnings and errors will "
+"appear at the bottom of &kate;'s main window. You can click on an error "
+"message to jump to the corresponding place in the file. If the file has a "
+"<quote>DOCTYPE</quote> the DTD given with this doctype will be used to check "
+"the file for validity. The DTD is expected at a position relative to the "
+"current file, &eg; if the doctype refers to <quote>DTD/xhtml1-transitional."
+"dtd</quote> and the file is <filename>/home/peter/test.xml</filename> the "
+"DTD is expected to be located at <filename>/home/peter/DTD/xhtml1-"
+"transitional.dtd</filename>. However, remote DTDs specified via http are "
+"supported."
 msgstr ""
 
 #. Tag: para
@@ -1277,17 +1281,17 @@ msgstr ""
 #: plugins.docbook:702
 #, no-c-format
 msgid ""
-"To learn more about &XML; check out the <ulink url=\"http://www.w3.org/XML/\"> "
-"official W3C &XML; pages</ulink>."
+"To learn more about &XML; check out the <ulink url=\"http://www.w3.org/XML/"
+"\"> official W3C &XML; pages</ulink>."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:704
 #, no-c-format
 msgid ""
-"Internally this plugin calls the external command <command>xmllint</command>"
-", which is part of libxml2. If this command is not correctly installed on your "
-"system, the plugin will not work."
+"Internally this plugin calls the external command <command>xmllint</"
+"command>, which is part of libxml2. If this command is not correctly "
+"installed on your system, the plugin will not work."
 msgstr ""
 
 #. Tag: para
@@ -1302,11 +1306,11 @@ msgstr ""
 #: plugins.docbook:711
 #, no-c-format
 msgid ""
-"To load this plugin open &kate;'s configuration dialog under <menuchoice>"
-"<guimenu>Settings</guimenu> <guimenuitem>Configure &kate;...</guimenuitem>"
-"</menuchoice>. Then select <guilabel>&XML; Validation</guilabel> "
-"which will appear in the <guilabel>Application</guilabel> / <guilabel>"
-"Plugins</guilabel> section and close the dialog."
+"To load this plugin open &kate;'s configuration dialog under "
+"<menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kate;...</"
+"guimenuitem></menuchoice>. Then select <guilabel>&XML; Validation</guilabel> "
+"which will appear in the <guilabel>Application</guilabel> / "
+"<guilabel>Plugins</guilabel> section and close the dialog."
 msgstr ""
 
 #. Tag: menuchoice
@@ -1345,25 +1349,26 @@ msgstr ""
 #: plugins.docbook:753
 #, no-c-format
 msgid ""
-"This plugin gives hints about what is allowed at a certain position in an &XML; "
-"file, according to the file's DTD. It will list possible elements, attributes, "
-"attribute values or entities, depending on the cursor position (&eg; all "
-"entities are listed if the character on the left of the cursor is <quote>"
-"&amp;</quote>). It's also possible to close the nearest open tag on the left."
+"This plugin gives hints about what is allowed at a certain position in an "
+"&XML; file, according to the file's DTD. It will list possible elements, "
+"attributes, attribute values or entities, depending on the cursor position "
+"(&eg; all entities are listed if the character on the left of the cursor is "
+"<quote>&amp;</quote>). It's also possible to close the nearest open tag on "
+"the left."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:760
 #, no-c-format
 msgid ""
-"The <acronym>DTD</acronym> must exist in &XML; format, as produced by the Perl "
-"program <command>dtdparse</command>. We will call a DTD in this format <quote>"
-"meta DTD</quote>. Some meta DTDs are supplied. They are installed in <filename "
-"class=\"directory\">$KDEDIR/share/apps/katexmltools/</filename>"
-", which is also the default folder when you choose <guimenuitem>"
-"Assign Meta DTD...</guimenuitem>. To produce your own meta DTDs, get <command>"
-"dtdparse</command> from <ulink url=\"http://dtdparse.sourceforge.net\">"
-"http://dtdparse.sourceforge.net</ulink>."
+"The <acronym>DTD</acronym> must exist in &XML; format, as produced by the "
+"Perl program <command>dtdparse</command>. We will call a DTD in this format "
+"<quote>meta DTD</quote>. Some meta DTDs are supplied. They are installed in "
+"<filename class=\"directory\">$KDEDIR/share/apps/katexmltools/</filename>, "
+"which is also the default folder when you choose <guimenuitem>Assign Meta "
+"DTD...</guimenuitem>. To produce your own meta DTDs, get <command>dtdparse</"
+"command> from <ulink url=\"http://dtdparse.sourceforge.net\">http://dtdparse."
+"sourceforge.net</ulink>."
 msgstr ""
 
 #. Tag: title
@@ -1376,16 +1381,16 @@ msgstr ""
 #: plugins.docbook:772
 #, no-c-format
 msgid ""
-"Start &kate; and open the configuration dialog under <menuchoice><guimenu>"
-"Settings</guimenu> <guimenuitem>Configure &kate;...</guimenuitem></menuchoice>"
-". Then select <guilabel>&XML; Completion</guilabel> which will appear in the "
-"<guilabel>Application</guilabel>/<guilabel>Plugins</guilabel> "
-"section and close the dialog. After that, select <menuchoice><guimenu>"
-"&XML;</guimenu><guimenuitem>Assign Meta DTD...</guimenuitem></menuchoice>"
-". If your document contains no <quote>DOCTYPE</quote> "
-"or the doctype is unknown, you will have to select a meta DTD from the file "
-"system. Otherwise the meta DTD that matches the current document's DOCTYPE will "
-"be loaded automatically."
+"Start &kate; and open the configuration dialog under "
+"<menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kate;...</"
+"guimenuitem></menuchoice>. Then select <guilabel>&XML; Completion</guilabel> "
+"which will appear in the <guilabel>Application</guilabel>/<guilabel>Plugins</"
+"guilabel> section and close the dialog. After that, select "
+"<menuchoice><guimenu>&XML;</guimenu><guimenuitem>Assign Meta DTD...</"
+"guimenuitem></menuchoice>. If your document contains no <quote>DOCTYPE</"
+"quote> or the doctype is unknown, you will have to select a meta DTD from "
+"the file system. Otherwise the meta DTD that matches the current document's "
+"DOCTYPE will be loaded automatically."
 msgstr ""
 
 #. Tag: para
@@ -1404,8 +1409,8 @@ msgstr ""
 #: plugins.docbook:787
 #, no-c-format
 msgid ""
-"This will trigger a list of possible elements unless the cursor is inside a tag "
-"already. Note that you currently cannot use this to insert the top level "
+"This will trigger a list of possible elements unless the cursor is inside a "
+"tag already. Note that you currently cannot use this to insert the top level "
 "element (&eg; <quote>&lt;html&gt;</quote>)."
 msgstr ""
 
@@ -1419,10 +1424,10 @@ msgstr ""
 #: plugins.docbook:794
 #, no-c-format
 msgid ""
-"Entering these characters will offer to close the current element (nearest open "
-"one to the left of the cursor). Press &Enter; to accept the suggestion. Unlike "
-"the <guimenuitem>Close Element</guimenuitem> menu item, this works only with a "
-"DTD assigned."
+"Entering these characters will offer to close the current element (nearest "
+"open one to the left of the cursor). Press &Enter; to accept the suggestion. "
+"Unlike the <guimenuitem>Close Element</guimenuitem> menu item, this works "
+"only with a DTD assigned."
 msgstr ""
 
 #. Tag: term
@@ -1449,8 +1454,8 @@ msgstr ""
 #: plugins.docbook:808
 #, no-c-format
 msgid ""
-"This key will trigger a list of possible attributes for the current element if "
-"you are inside a tag."
+"This key will trigger a list of possible attributes for the current element "
+"if you are inside a tag."
 msgstr ""
 
 #. Tag: term
@@ -1475,31 +1480,31 @@ msgstr ""
 #: plugins.docbook:824
 #, no-c-format
 msgid ""
-"You can test all functions and limitations by loading <filename>"
-"$KDEDIR/share/apps/katexmltools/testcases.xml</filename> "
-"into &kate; and following the instructions."
+"You can test all functions and limitations by loading <filename>$KDEDIR/"
+"share/apps/katexmltools/testcases.xml</filename> into &kate; and following "
+"the instructions."
 msgstr ""
 
 #. Tag: menuchoice
 #: plugins.docbook:837
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Return</keycap></keycombo> "
-"</shortcut> <guimenu>&XML;</guimenu> <guimenuitem>Insert "
-"Element...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Return</keycap></"
+"keycombo> </shortcut> <guimenu>&XML;</guimenu> <guimenuitem>Insert Element..."
+"</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:845
 #, no-c-format
 msgid ""
-"This will open a dialog that lets you insert an &XML; element. The &lt;, &gt; "
-"characters and the closing tag will be inserted automatically. If you have "
-"selected text when this menu item is selected, the selected text will be "
-"surrounded by the opening and the closing tag. The dialog also offers "
-"completion of all elements that may be inserted at the current cursor position "
-"if you have assigned a meta DTD by using <guimenuitem>"
-"Assign Meta DTD...</guimenuitem>."
+"This will open a dialog that lets you insert an &XML; element. The &lt;, "
+"&gt; characters and the closing tag will be inserted automatically. If you "
+"have selected text when this menu item is selected, the selected text will "
+"be surrounded by the opening and the closing tag. The dialog also offers "
+"completion of all elements that may be inserted at the current cursor "
+"position if you have assigned a meta DTD by using <guimenuitem>Assign Meta "
+"DTD...</guimenuitem>."
 msgstr ""
 
 #. Tag: menuchoice
@@ -1514,9 +1519,10 @@ msgstr ""
 #: plugins.docbook:865
 #, no-c-format
 msgid ""
-"This will search your text for a tag that is not yet closed and will close it "
-"by inserting the corresponding closing tag. The search starts at the cursor "
-"position and goes left. If it cannot find an open tag nothing will happen."
+"This will search your text for a tag that is not yet closed and will close "
+"it by inserting the corresponding closing tag. The search starts at the "
+"cursor position and goes left. If it cannot find an open tag nothing will "
+"happen."
 msgstr ""
 
 #. Tag: menuchoice
@@ -1529,17 +1535,17 @@ msgstr ""
 #: plugins.docbook:878
 #, no-c-format
 msgid ""
-"This will tell the plugin which meta DTD to use for the current document. Note "
-"that this assignment will not be saved. You will have to repeat it when you "
-"start &kate; the next time."
+"This will tell the plugin which meta DTD to use for the current document. "
+"Note that this assignment will not be saved. You will have to repeat it when "
+"you start &kate; the next time."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:888
 #, no-c-format
 msgid ""
-"&kate; Plugin <quote>&XML; Completion</quote> copyright 2001,2002 "
-"&Daniel.Naber; &Daniel.Naber.mail;."
+"&kate; Plugin <quote>&XML; Completion</quote> copyright 2001,2002 &Daniel."
+"Naber; &Daniel.Naber.mail;."
 msgstr ""
 
 #. Tag: para
@@ -1570,7 +1576,8 @@ msgstr ""
 #: plugins.docbook:918
 #, no-c-format
 msgid ""
-"Export your file in &HTML; format so your document can be viewed as a web page."
+"Export your file in &HTML; format so your document can be viewed as a web "
+"page."
 msgstr ""
 
 #. Tag: menuchoice
@@ -1610,11 +1617,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kappname;'s Search &amp; Replace plugin allows you to search for text or "
-"<ulink url=\"help:katepart/regular-expressions.html\">"
-"regular expressions</ulink> in many different files at once. You can search all "
-"open files, all the files in one directory and optionally its subdirectories, "
-"or all files in the current project. You can even filter by filename, for "
-"instance searching only files that end with a particular file extension."
+"<ulink url=\"help:katepart/regular-expressions.html\">regular expressions</"
+"ulink> in many different files at once. You can search all open files, all "
+"the files in one directory and optionally its subdirectories, or all files "
+"in the current project. You can even filter by filename, for instance "
+"searching only files that end with a particular file extension."
 msgstr ""
 
 #. Tag: title
@@ -1647,10 +1654,10 @@ msgstr ""
 #: plugins.docbook:972
 #, no-c-format
 msgid ""
-"You can have as many searches as you want open at the same time. Simply click "
-"the <guibutton>New Tab</guibutton> button at the top-left corner of the Search "
-"tool view and a new results tab will open permitting you to perform another "
-"search."
+"You can have as many searches as you want open at the same time. Simply "
+"click the <guibutton>New Tab</guibutton> button at the top-left corner of "
+"the Search tool view and a new results tab will open permitting you to "
+"perform another search."
 msgstr ""
 
 #. Tag: guiicon
@@ -1664,8 +1671,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The down arrow in the top right-corner of the Search in Files tool view will "
-"toggle the bottom half of the tool view between displaying additional options "
-"for the Search in Folder mode and the results of your search."
+"toggle the bottom half of the tool view between displaying additional "
+"options for the Search in Folder mode and the results of your search."
 msgstr ""
 
 #. Tag: guilabel
@@ -1678,8 +1685,8 @@ msgstr ""
 #: plugins.docbook:991
 #, no-c-format
 msgid ""
-"This is where you type in what you want to find. You may enter standard text, "
-"or a regular expression if enabled."
+"This is where you type in what you want to find. You may enter standard "
+"text, or a regular expression if enabled."
 msgstr ""
 
 #. Tag: term
@@ -1706,9 +1713,9 @@ msgstr ""
 #: plugins.docbook:1007
 #, no-c-format
 msgid ""
-"When you've finished configuring everything, just press the <guibutton>"
-"Search</guibutton> button to perform your search. You may also press &Enter; in "
-"the <guilabel>Find</guilabel> text box to do the same."
+"When you've finished configuring everything, just press the "
+"<guibutton>Search</guibutton> button to perform your search. You may also "
+"press &Enter; in the <guilabel>Find</guilabel> text box to do the same."
 msgstr ""
 
 #. Tag: guibutton
@@ -1721,11 +1728,11 @@ msgstr ""
 #: plugins.docbook:1016
 #, no-c-format
 msgid ""
-"When you've finished configuring everything, just press the <guibutton>"
-"Replace</guibutton> button to replace the text entered in the <guilabel>"
-"Find</guilabel> text box with that of the <guilabel>Replace</guilabel> "
-"text box. You may also press &Enter; in the <guilabel>Replace</guilabel> "
-"text box to do the same."
+"When you've finished configuring everything, just press the "
+"<guibutton>Replace</guibutton> button to replace the text entered in the "
+"<guilabel>Find</guilabel> text box with that of the <guilabel>Replace</"
+"guilabel> text box. You may also press &Enter; in the <guilabel>Replace</"
+"guilabel> text box to do the same."
 msgstr ""
 
 #. Tag: guibutton
@@ -1751,8 +1758,8 @@ msgstr ""
 #: plugins.docbook:1034
 #, no-c-format
 msgid ""
-"The same as <guibutton>Replace</guibutton>, but will only perform replacements "
-"in files that are checked in the pane below."
+"The same as <guibutton>Replace</guibutton>, but will only perform "
+"replacements in files that are checked in the pane below."
 msgstr ""
 
 #. Tag: title
@@ -1765,9 +1772,9 @@ msgstr ""
 #: plugins.docbook:1046
 #, no-c-format
 msgid ""
-"These options are displayed below the aforementioned query options. If search "
-"results are being displayed instead, press the <guiicon>Toggle Results</guiicon> "
-"button to display them."
+"These options are displayed below the aforementioned query options. If "
+"search results are being displayed instead, press the <guiicon>Toggle "
+"Results</guiicon> button to display them."
 msgstr ""
 
 #. Tag: guilabel
@@ -1780,8 +1787,8 @@ msgstr ""
 #: plugins.docbook:1054
 #, no-c-format
 msgid ""
-"Restricts search results to only those that have the exact same combination of "
-"upper and lower case letters as your search query."
+"Restricts search results to only those that have the exact same combination "
+"of upper and lower case letters as your search query."
 msgstr ""
 
 #. Tag: guilabel
@@ -1794,8 +1801,8 @@ msgstr ""
 #: plugins.docbook:1062
 #, no-c-format
 msgid ""
-"Permits you to use <ulink url=\"help:katepart/regular-expressions.html\">"
-"regular expressions</ulink> instead of simple text as your search query."
+"Permits you to use <ulink url=\"help:katepart/regular-expressions.html"
+"\">regular expressions</ulink> instead of simple text as your search query."
 msgstr ""
 
 #. Tag: guilabel
@@ -1822,10 +1829,10 @@ msgstr ""
 #: plugins.docbook:1078
 #, no-c-format
 msgid ""
-"This has three options. Select <guilabel>in Open files</guilabel> "
-"to search all files currently open in &kappname;. Select <guilabel>"
-"in Folder</guilabel> to search inside a folder and optionally its subfolders. "
-"Select <guilabel>in Project</guilabel> to search all the files listed in the "
+"This has three options. Select <guilabel>in Open files</guilabel> to search "
+"all files currently open in &kappname;. Select <guilabel>in Folder</"
+"guilabel> to search inside a folder and optionally its subfolders. Select "
+"<guilabel>in Project</guilabel> to search all the files listed in the "
 "currently open project."
 msgstr ""
 
@@ -1840,9 +1847,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You may enter the path of the folder you wish to search. For instance, you "
-"might enter <userinput>~/development/kde/kate/</userinput> "
-"if you wished to search the &kate; source code. This option is only available "
-"when using <guilabel>in Folder</guilabel> mode."
+"might enter <userinput>~/development/kde/kate/</userinput> if you wished to "
+"search the &kate; source code. This option is only available when using "
+"<guilabel>in Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: guiicon
@@ -1855,8 +1862,8 @@ msgstr ""
 #: plugins.docbook:1098
 #, no-c-format
 msgid ""
-"Press this button to locate the folder in your desktop's folder browser. This "
-"button only works when using <guilabel>in Folder</guilabel> mode."
+"Press this button to locate the folder in your desktop's folder browser. "
+"This button only works when using <guilabel>in Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: guiicon
@@ -1869,9 +1876,9 @@ msgstr ""
 #: plugins.docbook:1106
 #, no-c-format
 msgid ""
-"Press this button to change <guilabel>Folder</guilabel> "
-"to the parent of the currently selected folder. This button only works when "
-"using <guilabel>in Folder</guilabel> mode."
+"Press this button to change <guilabel>Folder</guilabel> to the parent of the "
+"currently selected folder. This button only works when using <guilabel>in "
+"Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: guiicon
@@ -1884,9 +1891,9 @@ msgstr ""
 #: plugins.docbook:1115
 #, no-c-format
 msgid ""
-"This button will set the <guilabel>Folder</guilabel> "
-"entry to the folder in which the currently open document is located. This "
-"button only works when using <guilabel>in Folder</guilabel> mode."
+"This button will set the <guilabel>Folder</guilabel> entry to the folder in "
+"which the currently open document is located. This button only works when "
+"using <guilabel>in Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: guilabel
@@ -1899,12 +1906,12 @@ msgstr ""
 #: plugins.docbook:1124
 #, no-c-format
 msgid ""
-"This permits you to only search filenames that match a particular pattern. For "
-"instance, to only search files written in C++, change it to <userinput>"
-"*.cpp</userinput>. To search only files beginning with <literal>kate</literal>"
-", change it to <userinput>kate*</userinput>. You can enter multiple filters "
-"separated with a comma (<userinput>,</userinput>). This option is not available "
-"when using <guilabel>in Open files</guilabel> mode."
+"This permits you to only search filenames that match a particular pattern. "
+"For instance, to only search files written in C++, change it to <userinput>*."
+"cpp</userinput>. To search only files beginning with <literal>kate</"
+"literal>, change it to <userinput>kate*</userinput>. You can enter multiple "
+"filters separated with a comma (<userinput>,</userinput>). This option is "
+"not available when using <guilabel>in Open files</guilabel> mode."
 msgstr ""
 
 #. Tag: guilabel
@@ -1918,10 +1925,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The opposite of <guilabel>Filter</guilabel>, this prevents &kappname; from "
-"searching files that match the specified patterns. As with <guilabel>"
-"Filter</guilabel>, you can enter multiple patterns separated with a comma "
-"(<userinput>,</userinput>). This option is not available when using <guilabel>"
-"in Open files</guilabel> mode."
+"searching files that match the specified patterns. As with <guilabel>Filter</"
+"guilabel>, you can enter multiple patterns separated with a comma "
+"(<userinput>,</userinput>). This option is not available when using "
+"<guilabel>in Open files</guilabel> mode."
 msgstr ""
 
 #. Tag: guilabel
@@ -1934,9 +1941,9 @@ msgstr ""
 #: plugins.docbook:1147
 #, no-c-format
 msgid ""
-"If this option is enabled, &kappname; will also search in all subfolders of the "
-"selected folder. This option is only available when using <guilabel>"
-"in Folder</guilabel> mode."
+"If this option is enabled, &kappname; will also search in all subfolders of "
+"the selected folder. This option is only available when using <guilabel>in "
+"Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: guilabel
@@ -1949,9 +1956,9 @@ msgstr ""
 #: plugins.docbook:1156
 #, no-c-format
 msgid ""
-"If this option is enabled, &kappname; will also search in files or folders that "
-"are typically hidden by your &OS;. This option is only available when using "
-"<guilabel>in Folder</guilabel> mode."
+"If this option is enabled, &kappname; will also search in files or folders "
+"that are typically hidden by your &OS;. This option is only available when "
+"using <guilabel>in Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: guilabel
@@ -1964,11 +1971,11 @@ msgstr ""
 #: plugins.docbook:1165
 #, no-c-format
 msgid ""
-"The Search in Files plugin typically doesn't follow <ulink "
-"url=\"http://en.wikipedia.org/wiki/Symbolic_link\">symbolic links</ulink>"
-". When this option is enabled, the plugin will follow them instead and search "
-"inside the files or folders they reference. This option is only available when "
-"using <guilabel>in Folder</guilabel> mode."
+"The Search in Files plugin typically doesn't follow <ulink url=\"http://en."
+"wikipedia.org/wiki/Symbolic_link\">symbolic links</ulink>. When this option "
+"is enabled, the plugin will follow them instead and search inside the files "
+"or folders they reference. This option is only available when using "
+"<guilabel>in Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: para
@@ -1977,9 +1984,9 @@ msgstr ""
 msgid ""
 "It's possible for symbolic links to reference a folder that is the parent of "
 "the folder currently being searched, or other folders that contain symbolic "
-"links to their parent. If there is such a link in the folder being searched and "
-"this option is enabled, &kappname; will repeatedly follow the link and search "
-"the folder, and the search will never complete."
+"links to their parent. If there is such a link in the folder being searched "
+"and this option is enabled, &kappname; will repeatedly follow the link and "
+"search the folder, and the search will never complete."
 msgstr ""
 
 #. Tag: guilabel
@@ -1992,8 +1999,8 @@ msgstr ""
 #: plugins.docbook:1182
 #, no-c-format
 msgid ""
-"If enabled, &kappname; will also search in files that do not appear to be text "
-"files."
+"If enabled, &kappname; will also search in files that do not appear to be "
+"text files."
 msgstr ""
 
 #. Tag: title
@@ -2007,37 +2014,38 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The results of your search are displayed below the query options. If options "
-"for Search in Folder mode are displayed, simply press the <guiicon>"
-"Toggle Results</guiicon> button to display them. They will also automatically "
-"be displayed as soon as a search is performed."
+"for Search in Folder mode are displayed, simply press the <guiicon>Toggle "
+"Results</guiicon> button to display them. They will also automatically be "
+"displayed as soon as a search is performed."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:1199
 #, no-c-format
 msgid ""
-"The search results display a list of files that contains text that matches your "
-"search query, followed by the number of matches found in that file."
+"The search results display a list of files that contains text that matches "
+"your search query, followed by the number of matches found in that file."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:1202
 #, no-c-format
 msgid ""
-"To see a list of matches in that file, simply click the expansion arrow to the "
-"left of the file name. (If you selected the <guilabel>Expand results</guilabel> "
-"option, this will already be done for you.) The line number each match is found "
-"on will be displayed, followed by the contents of that line, with your search "
-"query indicated in bold text."
+"To see a list of matches in that file, simply click the expansion arrow to "
+"the left of the file name. (If you selected the <guilabel>Expand results</"
+"guilabel> option, this will already be done for you.) The line number each "
+"match is found on will be displayed, followed by the contents of that line, "
+"with your search query indicated in bold text."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:1208
 #, no-c-format
 msgid ""
-"To open the file your result was found in, simply double-click it. &kappname; "
-"will open the file if needed. You can also move the cursor to the location of a "
-"particular match by double-clicking on its listing instead of the file name."
+"To open the file your result was found in, simply double-click it. "
+"&kappname; will open the file if needed. You can also move the cursor to the "
+"location of a particular match by double-clicking on its listing instead of "
+"the file name."
 msgstr ""
 
 #. Tag: menuchoice
@@ -2083,8 +2091,8 @@ msgstr ""
 #: plugins.docbook:1261
 #, no-c-format
 msgid ""
-"<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>"
-"Show Search and Replace</guimenuitem>"
+"<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show "
+"Search and Replace</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -2131,8 +2139,8 @@ msgstr ""
 #: plugins.docbook:1324
 #, no-c-format
 msgid ""
-"<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>"
-"Show Filesystem Browser</guimenuitem>"
+"<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show "
+"Filesystem Browser</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -2211,10 +2219,10 @@ msgstr ""
 #: plugins.docbook:1370
 #, no-c-format
 msgid ""
-"This button will cause the folder view to <command>cd</command> "
-"to the folder of the currently active document if possible. This button is "
-"disabled, if the active document is a new, unsaved file, or the folder in which "
-"it resides can not be decided."
+"This button will cause the folder view to <command>cd</command> to the "
+"folder of the currently active document if possible. This button is "
+"disabled, if the active document is a new, unsaved file, or the folder in "
+"which it resides can not be decided."
 msgstr ""
 
 #. Tag: guibutton
@@ -2245,8 +2253,8 @@ msgstr ""
 #: plugins.docbook:1386
 #, no-c-format
 msgid ""
-"Displays <guilabel>Name</guilabel>, <guilabel>Date</guilabel>, <guilabel>"
-"Size</guilabel> and <guilabel>Type</guilabel> of the files."
+"Displays <guilabel>Name</guilabel>, <guilabel>Date</guilabel>, "
+"<guilabel>Size</guilabel> and <guilabel>Type</guilabel> of the files."
 msgstr ""
 
 #. Tag: guimenuitem
@@ -2297,9 +2305,9 @@ msgstr ""
 #: plugins.docbook:1404
 #, no-c-format
 msgid ""
-"When this option is enabled the filesystem browser will automatically <command>"
-"cd</command> to the folder of the document currently open in the editing area "
-"every time it changes."
+"When this option is enabled the filesystem browser will automatically "
+"<command>cd</command> to the folder of the document currently open in the "
+"editing area every time it changes."
 msgstr ""
 
 #. Tag: term
@@ -2312,22 +2320,22 @@ msgstr ""
 #: plugins.docbook:1417
 #, no-c-format
 msgid ""
-"This displays a breadcrumb navigation to the currently open folder, similarly "
-"to &dolphin;. You can click on a any folder to browse to it, or click on one of "
-"the arrows to the left of a folder to select any folders beneath it. You may "
-"also select from your list of Places by clicking the leftmost icon in the "
-"breadcrumb navigation, which displays an icon that represents your current "
-"Place."
+"This displays a breadcrumb navigation to the currently open folder, "
+"similarly to &dolphin;. You can click on a any folder to browse to it, or "
+"click on one of the arrows to the left of a folder to select any folders "
+"beneath it. You may also select from your list of Places by clicking the "
+"leftmost icon in the breadcrumb navigation, which displays an icon that "
+"represents your current Place."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:1423
 #, no-c-format
 msgid ""
-"You can also click to the right of the breadcrumbs to change them to a text box "
-"where you can type the path of a folder to browse. The &URL; entry maintains a "
-"list of previously typed paths. To choose one, use the arrow button to the "
-"right of the entry."
+"You can also click to the right of the breadcrumbs to change them to a text "
+"box where you can type the path of a folder to browse. The &URL; entry "
+"maintains a list of previously typed paths. To choose one, use the arrow "
+"button to the right of the entry."
 msgstr ""
 
 #. Tag: para
@@ -2377,8 +2385,8 @@ msgstr ""
 msgid ""
 "The filter entry saves the last 10 filters entered between sessions. To use "
 "one, press the arrow button on the right of the entry and select the desired "
-"filter string. You can disable the filter by pressing the <guibutton>"
-"Clear text</guibutton> button to the left of the autocompletion arrow button."
+"filter string. You can disable the filter by pressing the <guibutton>Clear "
+"text</guibutton> button to the left of the autocompletion arrow button."
 msgstr ""
 
 #. Tag: title
@@ -2392,8 +2400,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This plugin can be configured on the <guilabel>Filesystem Browser</guilabel> "
-"page of <link linkend=\"configuring-kate-configdialog\">"
-"&kate;'s configuration</link>."
+"page of <link linkend=\"configuring-kate-configdialog\">&kate;'s "
+"configuration</link>."
 msgstr ""
 
 #. Tag: guilabel
@@ -2406,9 +2414,9 @@ msgstr ""
 #: plugins.docbook:1468
 #, no-c-format
 msgid ""
-"Configure the buttons on the Filesystem Browser toolbar by moving the ones you "
-"want enabled to the <guilabel>Selected Actions</guilabel> "
-"list, and order them using the arrow buttons at the side of the list."
+"Configure the buttons on the Filesystem Browser toolbar by moving the ones "
+"you want enabled to the <guilabel>Selected Actions</guilabel> list, and "
+"order them using the arrow buttons at the side of the list."
 msgstr ""
 
 #. Tag: author
@@ -2427,8 +2435,8 @@ msgstr ""
 #: plugins.docbook:1861
 #, no-c-format
 msgid ""
-"The Build plugin allows you to run actions like build, clean and compile on a "
-"project."
+"The Build plugin allows you to run actions like build, clean and compile on "
+"a project."
 msgstr ""
 
 #. Tag: title
@@ -2441,11 +2449,10 @@ msgstr ""
 #: plugins.docbook:1877
 #, no-c-format
 msgid ""
-"The Build plugin adds a <guilabel>Build Output</guilabel> "
-"tool view at the bottom and a <guimenu>Build</guimenu> "
-"menu on the menubar. The tool view can be used to configure build target "
-"settings, while the menu can be used to perform build, clean and compile "
-"actions."
+"The Build plugin adds a <guilabel>Build Output</guilabel> tool view at the "
+"bottom and a <guimenu>Build</guimenu> menu on the menubar. The tool view can "
+"be used to configure build target settings, while the menu can be used to "
+"perform build, clean and compile actions."
 msgstr ""
 
 #. Tag: para
@@ -2500,8 +2507,8 @@ msgstr ""
 #: plugins.docbook:1901
 #, no-c-format
 msgid ""
-"You can set the path to the project here. Leave this empty to use the directory "
-"the current document is located in."
+"You can set the path to the project here. Leave this empty to use the "
+"directory the current document is located in."
 msgstr ""
 
 #. Tag: guilabel
@@ -2514,8 +2521,8 @@ msgstr ""
 #: plugins.docbook:1907
 #, no-c-format
 msgid ""
-"This option lets you define the build command. It is set to <command>"
-"make</command> by default."
+"This option lets you define the build command. It is set to <command>make</"
+"command> by default."
 msgstr ""
 
 #. Tag: guilabel
@@ -2528,8 +2535,8 @@ msgstr ""
 #: plugins.docbook:1913
 #, no-c-format
 msgid ""
-"The option lets you define the clean command. It is set to <command>"
-"make clean</command> by default."
+"The option lets you define the clean command. It is set to <command>make "
+"clean</command> by default."
 msgstr ""
 
 #. Tag: guilabel
@@ -2542,16 +2549,16 @@ msgstr ""
 #: plugins.docbook:1919
 #, no-c-format
 msgid ""
-"This option lets you define the quick compile command. It is set to <command>"
-"gcc -Wall -g %f</command> by default."
+"This option lets you define the quick compile command. It is set to "
+"<command>gcc -Wall -g %f</command> by default."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:1924
 #, no-c-format
 msgid ""
-"One can create a new target by using the <guibutton>New</guibutton> "
-"button. The <guibutton>Copy</guibutton> button can be used to make a copy of an "
+"One can create a new target by using the <guibutton>New</guibutton> button. "
+"The <guibutton>Copy</guibutton> button can be used to make a copy of an "
 "existing target. To delete a target, use the <guibutton>Delete</guibutton> "
 "button."
 msgstr ""
@@ -2566,8 +2573,8 @@ msgstr ""
 #: plugins.docbook:1933
 #, no-c-format
 msgid ""
-"The <guilabel>Output</guilabel> tab shows the console output generated by the "
-"last command."
+"The <guilabel>Output</guilabel> tab shows the console output generated by "
+"the last command."
 msgstr ""
 
 #. Tag: title
@@ -2589,16 +2596,16 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Each line contains a message and the file name and line number if available. "
-"Clicking on the error or warning takes you to the appropriate file and places "
-"the cursor on the corresponding line number."
+"Clicking on the error or warning takes you to the appropriate file and "
+"places the cursor on the corresponding line number."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:1948
 #, no-c-format
 msgid ""
-"There are <guibutton>Errors</guibutton>, <guibutton>Warnings</guibutton>"
-", and <guibutton>Others</guibutton> buttons at the top that allow you to show "
+"There are <guibutton>Errors</guibutton>, <guibutton>Warnings</guibutton>, "
+"and <guibutton>Others</guibutton> buttons at the top that allow you to show "
 "or hide those categories of output."
 msgstr ""
 
@@ -2606,9 +2613,9 @@ msgstr ""
 #: plugins.docbook:1954
 #, no-c-format
 msgid ""
-"To navigate to the previous error, press <keycombo action=\"simul\">"
-"&Ctrl;&Alt;<keysym>Left</keysym></keycombo>. To navigate to the next error, "
-"press <keycombo action=\"simul\">&Ctrl;&Alt;<keysym>Right</keysym></keycombo>."
+"To navigate to the previous error, press <keycombo action=\"simul\">&Ctrl;"
+"&Alt;<keysym>Left</keysym></keycombo>. To navigate to the next error, press "
+"<keycombo action=\"simul\">&Ctrl;&Alt;<keysym>Right</keysym></keycombo>."
 msgstr ""
 
 #. Tag: menuchoice
@@ -2621,7 +2628,8 @@ msgstr ""
 #: plugins.docbook:1970
 #, no-c-format
 msgid ""
-"Runs the <guilabel>Build</guilabel> command for the currently selected target."
+"Runs the <guilabel>Build</guilabel> command for the currently selected "
+"target."
 msgstr ""
 
 #. Tag: menuchoice
@@ -2634,7 +2642,8 @@ msgstr ""
 #: plugins.docbook:1978
 #, no-c-format
 msgid ""
-"Runs the <guilabel>Clean</guilabel> command for the currently selected target."
+"Runs the <guilabel>Clean</guilabel> command for the currently selected "
+"target."
 msgstr ""
 
 #. Tag: menuchoice
@@ -2647,16 +2656,17 @@ msgstr ""
 #: plugins.docbook:1986
 #, no-c-format
 msgid ""
-"Runs the <guilabel>Quick Compile</guilabel> command for the currently selected "
-"target."
+"Runs the <guilabel>Quick Compile</guilabel> command for the currently "
+"selected target."
 msgstr ""
 
 #. Tag: menuchoice
 #: plugins.docbook:1991
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keysym>Left</keysym></keycombo>"
-"</shortcut> <guimenu>Build</guimenu><guimenuitem>Previous Error</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keysym>Left</keysym></"
+"keycombo></shortcut> <guimenu>Build</guimenu><guimenuitem>Previous Error</"
+"guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -2669,9 +2679,9 @@ msgstr ""
 #: plugins.docbook:2000
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keysym>Right</keysym>"
-"</keycombo></shortcut> <guimenu>Build</guimenu><guimenuitem>"
-"Next Error</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keysym>Right</keysym></"
+"keycombo></shortcut> <guimenu>Build</guimenu><guimenuitem>Next Error</"
+"guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -2722,7 +2732,8 @@ msgstr ""
 #: plugins.docbook:2036
 #, no-c-format
 msgid ""
-"<firstname>Ömer</firstname> <othername>Faruk</othername> <surname>ORUÇ</surname>"
+"<firstname>Ömer</firstname> <othername>Faruk</othername> <surname>ORUÇ</"
+"surname>"
 msgstr ""
 
 #. Tag: title
@@ -2787,9 +2798,9 @@ msgstr ""
 msgid ""
 "Select <guibutton>Add Connection</guibutton> from the <guimenu>SQL</guimenu> "
 "menu or toolbar, and then select the Qt database driver you want to use "
-"(including QSQLITE, QMYSQL3, QMYSQL, QODBC3, QODBC, QPSQL7, and QPSQL). If you "
-"can't see the desired driver, you need to install it. Then, press <guibutton>"
-"Next</guibutton>."
+"(including QSQLITE, QMYSQL3, QMYSQL, QODBC3, QODBC, QPSQL7, and QPSQL). If "
+"you can't see the desired driver, you need to install it. Then, press "
+"<guibutton>Next</guibutton>."
 msgstr ""
 
 #. Tag: para
@@ -2807,8 +2818,8 @@ msgstr ""
 #: plugins.docbook:2087
 #, no-c-format
 msgid ""
-"Finally, give a name to your connection, and press <guibutton>Finish</guibutton>"
-"."
+"Finally, give a name to your connection, and press <guibutton>Finish</"
+"guibutton>."
 msgstr ""
 
 #. Tag: title
@@ -2827,9 +2838,9 @@ msgstr ""
 #: plugins.docbook:2097
 #, no-c-format
 msgid ""
-"You can insert, delete, and update data using the SQL plugin just as you would "
-"from the command line or from within a program. Simply enter a query and press "
-"the <guibutton>Run query</guibutton>."
+"You can insert, delete, and update data using the SQL plugin just as you "
+"would from the command line or from within a program. Simply enter a query "
+"and press the <guibutton>Run query</guibutton>."
 msgstr ""
 
 #. Tag: title
@@ -2842,33 +2853,35 @@ msgstr ""
 #: plugins.docbook:2107
 #, no-c-format
 msgid ""
-"INSERT INTO <replaceable>table_name</replaceable> (\"<replaceable>"
-"feature1</replaceable>\", \"<replaceable>feature2</replaceable>"
-"\", \"<replaceable>feature3</replaceable>\", \"<replaceable>"
-"feature4</replaceable>\", \"<replaceable>feature5</replaceable>\")\n"
-"VALUES (\"<replaceable>value1</replaceable>\", \"<replaceable>"
-"value2</replaceable>\", \"<replaceable>value3</replaceable>\", \"<replaceable>"
-"value4</replaceable>\", \"<replaceable>value5</replaceable>\" )"
+"INSERT INTO <replaceable>table_name</replaceable> (\"<replaceable>feature1</"
+"replaceable>\", \"<replaceable>feature2</replaceable>\", "
+"\"<replaceable>feature3</replaceable>\", \"<replaceable>feature4</"
+"replaceable>\", \"<replaceable>feature5</replaceable>\")\n"
+"VALUES (\"<replaceable>value1</replaceable>\", \"<replaceable>value2</"
+"replaceable>\", \"<replaceable>value3</replaceable>\", "
+"\"<replaceable>value4</replaceable>\", \"<replaceable>value5</replaceable>"
+"\" )"
 msgstr ""
 
 #. Tag: programlisting
 #: plugins.docbook:2112
 #, no-c-format
 msgid ""
-"DELETE FROM <replaceable>table_name</replaceable> WHERE name = \"<replaceable>"
-"text</replaceable>\""
+"DELETE FROM <replaceable>table_name</replaceable> WHERE name = "
+"\"<replaceable>text</replaceable>\""
 msgstr ""
 
 #. Tag: programlisting
 #: plugins.docbook:2117
 #, no-c-format
 msgid ""
-"UPDATE <replaceable>table_name</replaceable> SET \"<replaceable>"
-"feature1</replaceable>\" = \"<replaceable>text</replaceable>\", \"<replaceable>"
-"feature2</replaceable>\" = \"<replaceable>text</replaceable>\", \"<replaceable>"
-"feature3</replaceable>\" = \"<replaceable>text</replaceable>\", \"<replaceable>"
-"feature4</replaceable>\" = \"<replaceable>text</replaceable>\", \"<replaceable>"
-"feature5</replaceable>\" = \"<replaceable>text</replaceable>\""
+"UPDATE <replaceable>table_name</replaceable> SET \"<replaceable>feature1</"
+"replaceable>\" = \"<replaceable>text</replaceable>\", "
+"\"<replaceable>feature2</replaceable>\" = \"<replaceable>text</replaceable>"
+"\", \"<replaceable>feature3</replaceable>\" = \"<replaceable>text</"
+"replaceable>\", \"<replaceable>feature4</replaceable>\" = "
+"\"<replaceable>text</replaceable>\", \"<replaceable>feature5</replaceable>\" "
+"= \"<replaceable>text</replaceable>\""
 msgstr ""
 
 #. Tag: title
@@ -2881,11 +2894,10 @@ msgstr ""
 #: plugins.docbook:2128
 #, no-c-format
 msgid ""
-"After running a <command>SELECT</command> query, you can view the results as a "
-"table that will appear in the <guilabel>SQL Data Output</guilabel> "
-"tool view at the bottom of &kappname;, or as text in the <guilabel>"
-"SQL Text Output</guilabel>. If there is an error, you can see it in the text "
-"output."
+"After running a <command>SELECT</command> query, you can view the results as "
+"a table that will appear in the <guilabel>SQL Data Output</guilabel> tool "
+"view at the bottom of &kappname;, or as text in the <guilabel>SQL Text "
+"Output</guilabel>. If there is an error, you can see it in the text output."
 msgstr ""
 
 #. Tag: title
@@ -2975,9 +2987,9 @@ msgstr ""
 #: plugins.docbook:2170
 #, no-c-format
 msgid ""
-"You can now change the colors displayed in the table in the <guilabel>"
-"SQL</guilabel> section of <menuchoice><guimenu>Settings</guimenu><guimenuitem>"
-"Configure &kate;</guimenuitem> </menuchoice>."
+"You can now change the colors displayed in the table in the <guilabel>SQL</"
+"guilabel> section of <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Configure &kate;</guimenuitem> </menuchoice>."
 msgstr ""
 
 #. Tag: title
@@ -2990,9 +3002,9 @@ msgstr ""
 #: plugins.docbook:2180
 #, no-c-format
 msgid ""
-"You can browse your database using the <guilabel>SQL Schema Browser</guilabel> "
-"tool view on the left. The information displayed varies depending on which "
-"database driver you are using."
+"You can browse your database using the <guilabel>SQL Schema Browser</"
+"guilabel> tool view on the left. The information displayed varies depending "
+"on which database driver you are using."
 msgstr ""
 
 #. Tag: para
@@ -3001,10 +3013,10 @@ msgstr ""
 msgid ""
 "To refresh this list, right-click anywhere in the tool view and select "
 "<guimenuitem>Refresh</guimenuitem>. To generate a query on any entry in the "
-"list, right-click on an entry, select <guisubmenu>Generate</guisubmenu>"
-", and select the query type (<guimenuitem>SELECT</guimenuitem>, <guimenuitem>"
-"UPDATE</guimenuitem>, <guimenuitem>INSERT</guimenuitem>, or <guimenuitem>"
-"DELETE</guimenuitem>) from the submenu that appears."
+"list, right-click on an entry, select <guisubmenu>Generate</guisubmenu>, and "
+"select the query type (<guimenuitem>SELECT</guimenuitem>, "
+"<guimenuitem>UPDATE</guimenuitem>, <guimenuitem>INSERT</guimenuitem>, or "
+"<guimenuitem>DELETE</guimenuitem>) from the submenu that appears."
 msgstr ""
 
 #. Tag: menuchoice
@@ -3053,17 +3065,18 @@ msgstr ""
 #: plugins.docbook:2226
 #, no-c-format
 msgid ""
-"All database connections you have created are listed between the <guimenuitem>"
-"Edit connection</guimenuitem> and <guimenuitem>Run query</guimenuitem> "
-"menu items. Select one to run queries or make modifications to it."
+"All database connections you have created are listed between the "
+"<guimenuitem>Edit connection</guimenuitem> and <guimenuitem>Run query</"
+"guimenuitem> menu items. Select one to run queries or make modifications to "
+"it."
 msgstr ""
 
 #. Tag: menuchoice
 #: plugins.docbook:2234
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo>"
-"</shortcut> <guimenu>SQL</guimenu><guimenuitem>Run query</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo></"
+"shortcut> <guimenu>SQL</guimenu><guimenuitem>Run query</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3082,8 +3095,8 @@ msgstr ""
 #: plugins.docbook:2250
 #, no-c-format
 msgid ""
-"Special thanks to Google Code-In 2011 participant Ömer Faruk ORUÇ for writing "
-"much of this section."
+"Special thanks to Google Code-In 2011 participant Ömer Faruk ORUÇ for "
+"writing much of this section."
 msgstr ""
 
 #. Tag: author
@@ -3110,17 +3123,17 @@ msgstr ""
 #: plugins.docbook:2274
 #, no-c-format
 msgid ""
-"Previous experience with &gdb; is strongly recommended. For more information on "
-"using &gdb;, visit <ulink url=\"http://www.gnu.org/s/gdb/\">"
-"the &gdb; website</ulink>."
+"Previous experience with &gdb; is strongly recommended. For more information "
+"on using &gdb;, visit <ulink url=\"http://www.gnu.org/s/gdb/\">the &gdb; "
+"website</ulink>."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:2279
 #, no-c-format
 msgid ""
-"You can enable the &gdb; plugin in <link linkend=\"config-dialog-plugins\">"
-"the Plugins section of &kappname;'s configuration</link>."
+"You can enable the &gdb; plugin in <link linkend=\"config-dialog-plugins"
+"\">the Plugins section of &kappname;'s configuration</link>."
 msgstr ""
 
 #. Tag: para
@@ -3144,10 +3157,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "After these preparations are made, open the source file in &kappname;, enter "
-"the path to the executable in the <guilabel>Settings</guilabel> "
-"tab of the <guilabel>Debug View</guilabel> tool view, and select <menuchoice>"
-"<guimenu>Debug</guimenu><guimenuitem>Start Debugging</guimenuitem></menuchoice> "
-"from the menu to get started."
+"the path to the executable in the <guilabel>Settings</guilabel> tab of the "
+"<guilabel>Debug View</guilabel> tool view, and select "
+"<menuchoice><guimenu>Debug</guimenu><guimenuitem>Start Debugging</"
+"guimenuitem></menuchoice> from the menu to get started."
 msgstr ""
 
 #. Tag: title
@@ -3168,8 +3181,8 @@ msgstr ""
 #: plugins.docbook:2309
 #, no-c-format
 msgid ""
-"<guimenu>View</guimenu><guisubmenu>Tool View</guisubmenu><guimenuitem>"
-"Show Debug View</guimenuitem>"
+"<guimenu>View</guimenu><guisubmenu>Tool View</guisubmenu><guimenuitem>Show "
+"Debug View</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3184,8 +3197,8 @@ msgstr ""
 #: plugins.docbook:2317
 #, no-c-format
 msgid ""
-"<guimenu>View</guimenu><guisubmenu>Tool View</guisubmenu><guimenuitem>"
-"Show Locals</guimenuitem>"
+"<guimenu>View</guimenu><guisubmenu>Tool View</guisubmenu><guimenuitem>Show "
+"Locals</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3198,8 +3211,8 @@ msgstr ""
 #: plugins.docbook:2325
 #, no-c-format
 msgid ""
-"<guimenu>View</guimenu><guisubmenu>Tool View</guisubmenu><guimenuitem>"
-"Show Call Stack</guimenuitem>"
+"<guimenu>View</guimenu><guisubmenu>Tool View</guisubmenu><guimenuitem>Show "
+"Call Stack</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3352,8 +3365,8 @@ msgstr ""
 #: plugins.docbook:2418
 #, no-c-format
 msgid ""
-"Ignores any breakpoints and executes program until it terminates (successfully "
-"or not)."
+"Ignores any breakpoints and executes program until it terminates "
+"(successfully or not)."
 msgstr ""
 
 #. Tag: menuchoice
@@ -3373,8 +3386,8 @@ msgstr ""
 #: plugins.docbook:2431
 #, no-c-format
 msgid ""
-"<guimenu>Settings</guimenu><guisubmenu>Toolbars Shown</guisubmenu><guimenuitem>"
-"&gdb; Plugin</guimenuitem>"
+"<guimenu>Settings</guimenu><guisubmenu>Toolbars Shown</"
+"guisubmenu><guimenuitem>&gdb; Plugin</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3485,8 +3498,8 @@ msgstr ""
 #: plugins.docbook:2495
 #, no-c-format
 msgid ""
-"Opens a new <guilabel>IO</guilabel> tab in the <guilabel>Debug View</guilabel> "
-"where you can view output and provide input to the running program."
+"Opens a new <guilabel>IO</guilabel> tab in the <guilabel>Debug View</"
+"guilabel> where you can view output and provide input to the running program."
 msgstr ""
 
 #. Tag: screeninfo
@@ -3552,8 +3565,8 @@ msgstr ""
 #: plugins.docbook:2541
 #, no-c-format
 msgid ""
-"The <guilabel>Call Stack</guilabel> tool view contains a list of the formatted "
-"backtrace returned from &gdb;."
+"The <guilabel>Call Stack</guilabel> tool view contains a list of the "
+"formatted backtrace returned from &gdb;."
 msgstr ""
 
 #. Tag: screeninfo
@@ -3625,30 +3638,30 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The built in Terminal Emulator is a copy of the &kde; &konsole; terminal "
-"application, for your convenience. It is available from the <menuchoice>"
-"<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>"
-"Show Terminal</guimenuitem></menuchoice> menu item and will get the focus "
-"whenever displayed. Additionally, if the <link linkend=\"konsole-config\">"
-"Automatically synchronize the terminal with the current document when "
-"possible</link> option is enabled, it will change to the directory of the "
-"current document if possible when it is displayed, or when the current document "
-"changes."
+"application, for your convenience. It is available from the "
+"<menuchoice><guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> "
+"<guimenuitem>Show Terminal</guimenuitem></menuchoice> menu item and will get "
+"the focus whenever displayed. Additionally, if the <link linkend=\"konsole-"
+"config\">Automatically synchronize the terminal with the current document "
+"when possible</link> option is enabled, it will change to the directory of "
+"the current document if possible when it is displayed, or when the current "
+"document changes."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:2594
 #, no-c-format
 msgid ""
-"The default location in the &kate; window is at the bottom, below the editing "
-"area."
+"The default location in the &kate; window is at the bottom, below the "
+"editing area."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:2597
 #, no-c-format
 msgid ""
-"You can configure the &konsole; using its &RMB; menu, for more information, see "
-"the <ulink url=\"help:/konsole/index.htm\">&konsole; manual</ulink>."
+"You can configure the &konsole; using its &RMB; menu, for more information, "
+"see the <ulink url=\"help:/konsole/index.htm\">&konsole; manual</ulink>."
 msgstr ""
 
 #. Tag: para
@@ -3663,8 +3676,8 @@ msgstr ""
 #: plugins.docbook:2611
 #, no-c-format
 msgid ""
-"<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>"
-"Show Terminal</guimenuitem>"
+"<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show "
+"Terminal</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3683,13 +3696,13 @@ msgstr ""
 #: plugins.docbook:2619
 #, no-c-format
 msgid ""
-"When the terminal emulator is displayed, it will get the focus, so that you can "
-"start typing in commands immediately. If the <link linkend=\"konsole-config\">"
-"Automatically synchronize the terminal with the current document when "
-"possible</link> option is enabled in the <guilabel>Terminal</guilabel> "
+"When the terminal emulator is displayed, it will get the focus, so that you "
+"can start typing in commands immediately. If the <link linkend=\"konsole-"
+"config\">Automatically synchronize the terminal with the current document "
+"when possible</link> option is enabled in the <guilabel>Terminal</guilabel> "
 "page of the <link linkend=\"config-dialog\">Main configuration dialog</link> "
-"the shell session will change to the directory of the active document, if it is "
-"a local file."
+"the shell session will change to the directory of the active document, if it "
+"is a local file."
 msgstr ""
 
 #. Tag: menuchoice
@@ -3718,17 +3731,17 @@ msgstr ""
 #: plugins.docbook:2641
 #, no-c-format
 msgid ""
-"This will cause the built-in Terminal to <command>cd</command> "
-"into the directory of the active document."
+"This will cause the built-in Terminal to <command>cd</command> into the "
+"directory of the active document."
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:2644
 #, no-c-format
 msgid ""
-"Alternatively, you can configure &kappname; to always keep the terminal in sync "
-"with the current document. See <xref linkend=\"konsole-config\"/> "
-"for more information."
+"Alternatively, you can configure &kappname; to always keep the terminal in "
+"sync with the current document. See <xref linkend=\"konsole-config\"/> for "
+"more information."
 msgstr ""
 
 #. Tag: menuchoice
@@ -3749,9 +3762,9 @@ msgstr ""
 #: plugins.docbook:2666
 #, no-c-format
 msgid ""
-"You can configure the Terminal Tool View plugin on the <guilabel>"
-"Terminal</guilabel> page of the <link linkend=\"configuring-kate\">"
-"configuration dialog</link>."
+"You can configure the Terminal Tool View plugin on the <guilabel>Terminal</"
+"guilabel> page of the <link linkend=\"configuring-kate\">configuration "
+"dialog</link>."
 msgstr ""
 
 #. Tag: para
@@ -3764,16 +3777,17 @@ msgstr ""
 #: plugins.docbook:2675
 #, no-c-format
 msgid ""
-"Automatically synchronize the terminal with the current document when possible"
+"Automatically synchronize the terminal with the current document when "
+"possible"
 msgstr ""
 
 #. Tag: para
 #: plugins.docbook:2676
 #, no-c-format
 msgid ""
-"This will cause the built-in terminal to <command>cd</command> "
-"into the directory of the active document when launched and when a new document "
-"gets the focus. If not enabled, you have to do all your navigation in the "
+"This will cause the built-in terminal to <command>cd</command> into the "
+"directory of the active document when launched and when a new document gets "
+"the focus. If not enabled, you have to do all your navigation in the "
 "terminal on your own."
 msgstr ""
 
@@ -3787,9 +3801,10 @@ msgstr ""
 #: plugins.docbook:2685
 #, no-c-format
 msgid ""
-"This sets the <envar>EDITOR</envar> environment variable so programs run in the "
-"built-in terminal that automatically open a file in an editor will open them in "
-"&kate; instead of the default editor configured in your shell. You will not be "
-"able to continue using the terminal until you have closed the file in &kate;, "
-"so the calling program is aware you have finished editing the file."
+"This sets the <envar>EDITOR</envar> environment variable so programs run in "
+"the built-in terminal that automatically open a file in an editor will open "
+"them in &kate; instead of the default editor configured in your shell. You "
+"will not be able to continue using the terminal until you have closed the "
+"file in &kate;, so the calling program is aware you have finished editing "
+"the file."
 msgstr ""

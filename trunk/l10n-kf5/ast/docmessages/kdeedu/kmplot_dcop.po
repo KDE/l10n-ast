@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,9 +26,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "A new feature in &kde; 3.4 is that you can write scripts for &kmplot; using "
-"&DBus; in &kde; 4. For example, if you want to define a new function <userinput>"
-"f(x)=2sin x+3cos x</userinput>, set its line width to 20 and then draw it, you "
-"type in a console:"
+"&DBus; in &kde; 4. For example, if you want to define a new function "
+"<userinput>f(x)=2sin x+3cos x</userinput>, set its line width to 20 and then "
+"draw it, you type in a console:"
 msgstr ""
 
 #. Tag: para
@@ -35,25 +36,25 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<command>qdbus org.kde.kmplot-PID /parser org.kde.kmplot.Parser.addFunction "
-"\"f(x)=2sin x+3cos x\" \"\"</command> As a result, the new function's id number "
-"will be returned, or -1 if the function could not be defined."
+"\"f(x)=2sin x+3cos x\" \"\"</command> As a result, the new function's id "
+"number will be returned, or -1 if the function could not be defined."
 msgstr ""
 
 #. Tag: para
 #: dcop.docbook:7
 #, no-c-format
 msgid ""
-"<command>qdbus org.kde.kmplot-PID /parser "
-"org.kde.kmplot.Parser.setFunctionFLineWidth ID 20</command> "
-"This command sets the function with the id number ID the line width to 20."
+"<command>qdbus org.kde.kmplot-PID /parser org.kde.kmplot.Parser."
+"setFunctionFLineWidth ID 20</command> This command sets the function with "
+"the id number ID the line width to 20."
 msgstr ""
 
 #. Tag: para
 #: dcop.docbook:9
 #, no-c-format
 msgid ""
-"<command>qdbus org.kde.kmplot-PID /view org.kde.kmplot.View.drawPlot</command> "
-"This command repaints the window so that the function get visible."
+"<command>qdbus org.kde.kmplot-PID /view org.kde.kmplot.View.drawPlot</"
+"command> This command repaints the window so that the function get visible."
 msgstr ""
 
 #. Tag: para
@@ -96,8 +97,8 @@ msgstr ""
 #: dcop.docbook:35
 #, no-c-format
 msgid ""
-"If there are any unsaved changes, a dialog appears to save, discard or cancel "
-"the plots."
+"If there are any unsaved changes, a dialog appears to save, discard or "
+"cancel the plots."
 msgstr ""
 
 #. Tag: term
@@ -146,8 +147,8 @@ msgstr ""
 #: dcop.docbook:67
 #, no-c-format
 msgid ""
-"The same as choosing <menuchoice><guimenu>File</guimenu><guimenuitem>"
-"Save As</guimenuitem></menuchoice> in the menu."
+"The same as choosing <menuchoice><guimenu>File</guimenu><guimenuitem>Save "
+"As</guimenuitem></menuchoice> in the menu."
 msgstr ""
 
 #. Tag: term
@@ -172,8 +173,8 @@ msgstr ""
 #: dcop.docbook:83
 #, no-c-format
 msgid ""
-"The same as choosing <menuchoice><guimenu>View</guimenu><guimenuitem>"
-"Reset View</guimenuitem></menuchoice> in the menu."
+"The same as choosing <menuchoice><guimenu>View</guimenu><guimenuitem>Reset "
+"View</guimenuitem></menuchoice> in the menu."
 msgstr ""
 
 #. Tag: term
@@ -222,8 +223,8 @@ msgstr ""
 #: dcop.docbook:115
 #, no-c-format
 msgid ""
-"The same as choosing <menuchoice><guimenu>Tools</guimenu><guimenuitem>"
-"Minimum Value...</guimenuitem></menuchoice> in the menu."
+"The same as choosing <menuchoice><guimenu>Tools</"
+"guimenu><guimenuitem>Minimum Value...</guimenuitem></menuchoice> in the menu."
 msgstr ""
 
 #. Tag: term
@@ -236,8 +237,8 @@ msgstr ""
 #: dcop.docbook:123
 #, no-c-format
 msgid ""
-"The same as choosing <menuchoice><guimenu>Tools</guimenu><guimenuitem>"
-"Maximum Value...</guimenuitem></menuchoice> in the menu."
+"The same as choosing <menuchoice><guimenu>Tools</"
+"guimenu><guimenuitem>Maximum Value...</guimenuitem></menuchoice> in the menu."
 msgstr ""
 
 #. Tag: term
@@ -250,8 +251,8 @@ msgstr ""
 #: dcop.docbook:131
 #, no-c-format
 msgid ""
-"The same as choosing <menuchoice><guimenu>Tools</guimenu><guimenuitem>"
-"Plot Area</guimenuitem></menuchoice> in the menu."
+"The same as choosing <menuchoice><guimenu>Tools</guimenu><guimenuitem>Plot "
+"Area</guimenuitem></menuchoice> in the menu."
 msgstr ""
 
 #. Tag: term
@@ -264,8 +265,8 @@ msgstr ""
 #: dcop.docbook:139
 #, no-c-format
 msgid ""
-"The same as choosing <menuchoice><guimenu>Tools</guimenu><guimenuitem>"
-"Calculator</guimenuitem></menuchoice> in the menu."
+"The same as choosing <menuchoice><guimenu>Tools</"
+"guimenu><guimenuitem>Calculator</guimenuitem></menuchoice> in the menu."
 msgstr ""
 
 #. Tag: term
@@ -278,9 +279,9 @@ msgstr ""
 #: dcop.docbook:147
 #, no-c-format
 msgid ""
-"Adds a new function with the expressions <parameter>f_str0</parameter> "
-"and <parameter>f_str1</parameter>. If the expression does not contain a "
-"function name, it will be auto-generated. The id number of the new function is "
+"Adds a new function with the expressions <parameter>f_str0</parameter> and "
+"<parameter>f_str1</parameter>. If the expression does not contain a function "
+"name, it will be auto-generated. The id number of the new function is "
 "returned, or -1 if the function could not be defined."
 msgstr ""
 
@@ -294,8 +295,8 @@ msgstr ""
 #: dcop.docbook:155
 #, no-c-format
 msgid ""
-"Removes the function with the id number <parameter>id</parameter>"
-". If the function could not be deleted, false is returned, otherwise true."
+"Removes the function with the id number <parameter>id</parameter>. If the "
+"function could not be deleted, false is returned, otherwise true."
 msgstr ""
 
 #. Tag: term
@@ -308,8 +309,8 @@ msgstr ""
 #: dcop.docbook:163
 #, no-c-format
 msgid ""
-"Sets the expression for the function with the id number <parameter>"
-"id</parameter> to <parameter>f_str</parameter>. Returns true if it succeed, "
+"Sets the expression for the function with the id number <parameter>id</"
+"parameter> to <parameter>f_str</parameter>. Returns true if it succeed, "
 "otherwise false."
 msgstr ""
 
@@ -348,8 +349,8 @@ msgstr ""
 #: dcop.docbook:188
 #, no-c-format
 msgid ""
-"Returns the id number of <parameter>f_str</parameter> "
-"or -1 if the function name <parameter>f_str</parameter> was not found."
+"Returns the id number of <parameter>f_str</parameter> or -1 if the function "
+"name <parameter>f_str</parameter> was not found."
 msgstr ""
 
 #. Tag: term
@@ -362,8 +363,8 @@ msgstr ""
 #: dcop.docbook:196
 #, no-c-format
 msgid ""
-"Returns true if the function with the ID <parameter>id</parameter> "
-"is visible, otherwise false."
+"Returns true if the function with the ID <parameter>id</parameter> is "
+"visible, otherwise false."
 msgstr ""
 
 #. Tag: term
@@ -376,8 +377,8 @@ msgstr ""
 #: dcop.docbook:204
 #, no-c-format
 msgid ""
-"Returns true if the first derivative of the function with the ID <parameter>"
-"id</parameter> is visible, otherwise false."
+"Returns true if the first derivative of the function with the ID "
+"<parameter>id</parameter> is visible, otherwise false."
 msgstr ""
 
 #. Tag: term
@@ -390,8 +391,8 @@ msgstr ""
 #: dcop.docbook:212
 #, no-c-format
 msgid ""
-"Returns true if the second derivative of the function with the ID <parameter>"
-"id</parameter> is visible, otherwise false."
+"Returns true if the second derivative of the function with the ID "
+"<parameter>id</parameter> is visible, otherwise false."
 msgstr ""
 
 #. Tag: term
@@ -404,8 +405,8 @@ msgstr ""
 #: dcop.docbook:220
 #, no-c-format
 msgid ""
-"Returns true if the integral of the function with the ID <parameter>"
-"id</parameter> is visible, otherwise false."
+"Returns true if the integral of the function with the ID <parameter>id</"
+"parameter> is visible, otherwise false."
 msgstr ""
 
 #. Tag: term
@@ -418,9 +419,9 @@ msgstr ""
 #: dcop.docbook:228
 #, no-c-format
 msgid ""
-"Shows the function with the ID <parameter>id</parameter> if <parameter>"
-"visible</parameter> is true. If <parameter>visible</parameter> "
-"is false, the function will be hidden. True is returned if the function exists, "
+"Shows the function with the ID <parameter>id</parameter> if "
+"<parameter>visible</parameter> is true. If <parameter>visible</parameter> is "
+"false, the function will be hidden. True is returned if the function exists, "
 "otherwise false"
 msgstr ""
 
@@ -434,10 +435,10 @@ msgstr ""
 #: dcop.docbook:236
 #, no-c-format
 msgid ""
-"Shows the first derivative of the function with the ID <parameter>id</parameter> "
-"if <parameter>visible</parameter> is true. If <parameter>visible</parameter> "
-"is false, the function will be hidden. True is returned if the function exists, "
-"otherwise false."
+"Shows the first derivative of the function with the ID <parameter>id</"
+"parameter> if <parameter>visible</parameter> is true. If <parameter>visible</"
+"parameter> is false, the function will be hidden. True is returned if the "
+"function exists, otherwise false."
 msgstr ""
 
 #. Tag: term
@@ -450,10 +451,10 @@ msgstr ""
 #: dcop.docbook:244
 #, no-c-format
 msgid ""
-"Shows the second derivative of the function with the ID <parameter>"
-"id</parameter> if <parameter>visible</parameter> is true. If <parameter>"
-"visible</parameter> is false, the function will be hidden. True is returned if "
-"the function exists, otherwise false."
+"Shows the second derivative of the function with the ID <parameter>id</"
+"parameter> if <parameter>visible</parameter> is true. If <parameter>visible</"
+"parameter> is false, the function will be hidden. True is returned if the "
+"function exists, otherwise false."
 msgstr ""
 
 #. Tag: term
@@ -466,9 +467,9 @@ msgstr ""
 #: dcop.docbook:252
 #, no-c-format
 msgid ""
-"Shows the integral of the function with the ID <parameter>id</parameter> "
-"if <parameter>visible</parameter> is true. If <parameter>visible</parameter> "
-"is false, the function will be hidden. True is returned if the function exists, "
+"Shows the integral of the function with the ID <parameter>id</parameter> if "
+"<parameter>visible</parameter> is true. If <parameter>visible</parameter> is "
+"false, the function will be hidden. True is returned if the function exists, "
 "otherwise false."
 msgstr ""
 
@@ -482,9 +483,8 @@ msgstr ""
 #: dcop.docbook:260
 #, no-c-format
 msgid ""
-"Returns the function expression of the function with the ID <parameter>"
-"id</parameter>. If the function not exists, an empty string is returned "
-"instead."
+"Returns the function expression of the function with the ID <parameter>id</"
+"parameter>. If the function not exists, an empty string is returned instead."
 msgstr ""
 
 #. Tag: term
@@ -497,8 +497,8 @@ msgstr ""
 #: dcop.docbook:268
 #, no-c-format
 msgid ""
-"Returns the line width of the function with the ID <parameter>id</parameter>"
-". If the function not exists, 0 is returned."
+"Returns the line width of the function with the ID <parameter>id</"
+"parameter>. If the function not exists, 0 is returned."
 msgstr ""
 
 #. Tag: term
@@ -539,8 +539,8 @@ msgstr ""
 #: dcop.docbook:292
 #, no-c-format
 msgid ""
-"Returns the line width of the integral of the function with the ID <parameter>"
-"id</parameter>. If the function not exists, 0 is returned."
+"Returns the line width of the integral of the function with the ID "
+"<parameter>id</parameter>. If the function not exists, 0 is returned."
 msgstr ""
 
 #. Tag: term
@@ -553,8 +553,8 @@ msgstr ""
 #: dcop.docbook:300
 #, no-c-format
 msgid ""
-"Sets the line width of the function with the ID <parameter>id</parameter> "
-"to <parameter>linewidth</parameter>. True is returned if the function exists, "
+"Sets the line width of the function with the ID <parameter>id</parameter> to "
+"<parameter>linewidth</parameter>. True is returned if the function exists, "
 "otherwise false."
 msgstr ""
 
@@ -569,8 +569,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Sets the line width of the first derivative of the function with the ID "
-"<parameter>id</parameter> to <parameter>linewidth</parameter>"
-". True is returned if the function exists, otherwise false."
+"<parameter>id</parameter> to <parameter>linewidth</parameter>. True is "
+"returned if the function exists, otherwise false."
 msgstr ""
 
 #. Tag: term
@@ -584,8 +584,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Sets the line width of the second derivative of the function with the ID "
-"<parameter>id</parameter> to <parameter>linewidth</parameter>"
-". True is returned if the function exists, otherwise false."
+"<parameter>id</parameter> to <parameter>linewidth</parameter>. True is "
+"returned if the function exists, otherwise false."
 msgstr ""
 
 #. Tag: term
@@ -598,9 +598,9 @@ msgstr ""
 #: dcop.docbook:324
 #, no-c-format
 msgid ""
-"Sets the line width of the integral of the function with the ID <parameter>"
-"id</parameter> to <parameter>linewidth</parameter>. True is returned if the "
-"function exists, otherwise false."
+"Sets the line width of the integral of the function with the ID "
+"<parameter>id</parameter> to <parameter>linewidth</parameter>. True is "
+"returned if the function exists, otherwise false."
 msgstr ""
 
 #. Tag: term
@@ -627,9 +627,9 @@ msgstr ""
 #: dcop.docbook:340
 #, no-c-format
 msgid ""
-"Adds the parameter value <parameter>new_parameter</parameter> "
-"to the function with the ID <parameter>id</parameter>"
-". True is returned if the operation succeed, otherwise false."
+"Adds the parameter value <parameter>new_parameter</parameter> to the "
+"function with the ID <parameter>id</parameter>. True is returned if the "
+"operation succeed, otherwise false."
 msgstr ""
 
 #. Tag: term
@@ -643,9 +643,9 @@ msgstr ""
 #: dcop.docbook:348
 #, no-c-format
 msgid ""
-"Removes the parameter value <parameter>remove_parameter</parameter> "
-"from the function with the ID <parameter>id</parameter>"
-". True is returned if the operation succeed, otherwise false."
+"Removes the parameter value <parameter>remove_parameter</parameter> from the "
+"function with the ID <parameter>id</parameter>. True is returned if the "
+"operation succeed, otherwise false."
 msgstr ""
 
 #. Tag: term
@@ -658,9 +658,9 @@ msgstr ""
 #: dcop.docbook:356
 #, no-c-format
 msgid ""
-"Returns the minimum plot range value of the function with the ID <parameter>"
-"id</parameter>. If the function not exists or if the minimum value is not "
-"defined, an empty string is returned."
+"Returns the minimum plot range value of the function with the ID "
+"<parameter>id</parameter>. If the function not exists or if the minimum "
+"value is not defined, an empty string is returned."
 msgstr ""
 
 #. Tag: term
@@ -673,9 +673,9 @@ msgstr ""
 #: dcop.docbook:364
 #, no-c-format
 msgid ""
-"Returns the maximum plot range value of the function with the ID <parameter>"
-"id</parameter>. If the function not exists or if the maximum value is not "
-"defined, an empty string is returned."
+"Returns the maximum plot range value of the function with the ID "
+"<parameter>id</parameter>. If the function not exists or if the maximum "
+"value is not defined, an empty string is returned."
 msgstr ""
 
 #. Tag: term
@@ -688,8 +688,8 @@ msgstr ""
 #: dcop.docbook:372
 #, no-c-format
 msgid ""
-"Sets the minimum plot range value of the function with the ID <parameter>"
-"id</parameter> to <parameter>min</parameter>. True is returned if the function "
+"Sets the minimum plot range value of the function with the ID <parameter>id</"
+"parameter> to <parameter>min</parameter>. True is returned if the function "
 "exists and the expression is valid, otherwise false."
 msgstr ""
 
@@ -703,8 +703,8 @@ msgstr ""
 #: dcop.docbook:380
 #, no-c-format
 msgid ""
-"Sets the maximum plot range value of the function with the ID <parameter>"
-"id</parameter> to <parameter>max</parameter>. True is returned if the function "
+"Sets the maximum plot range value of the function with the ID <parameter>id</"
+"parameter> to <parameter>max</parameter>. True is returned if the function "
 "exists and the expression is valid, otherwise false."
 msgstr ""
 
@@ -719,8 +719,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Returns the initial x point for the integral of the function with the ID "
-"<parameter>id</parameter>. If the function not exists or if the "
-"x-point-expression is not defined, an empty string is returned."
+"<parameter>id</parameter>. If the function not exists or if the x-point-"
+"expression is not defined, an empty string is returned."
 msgstr ""
 
 #. Tag: term
@@ -734,8 +734,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Returns the initial y point for the integral of the function with the ID "
-"<parameter>id</parameter>. If the function not exists or if the "
-"y-point-expression is not defined, an empty string is returned."
+"<parameter>id</parameter>. If the function not exists or if the y-point-"
+"expression is not defined, an empty string is returned."
 msgstr ""
 
 #. Tag: term
@@ -749,8 +749,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Sets the initial x and y point for the integral of the function with the ID "
-"<parameter>id</parameter> to <parameter>x</parameter> and <parameter>"
-"y</parameter>. True is returned if the function exists and the expression is "
+"<parameter>id</parameter> to <parameter>x</parameter> and <parameter>y</"
+"parameter>. True is returned if the function exists and the expression is "
 "valid, otherwise false."
 msgstr ""
 

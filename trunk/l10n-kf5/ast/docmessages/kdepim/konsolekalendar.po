@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -132,11 +133,11 @@ msgstr ""
 #: index.docbook:73
 #, no-c-format
 msgid ""
-"&konsolekalendar; is a command line interface to &kde; calendars. It lets you "
-"view, insert, remove, or modify calendar events by way of the command line or "
-"from a scripting language. Additionally, &konsolekalendar; can create a new "
-"&kde; calendar, export a &kde; calendar to a variety of other formats, and "
-"import another &kde; calendar."
+"&konsolekalendar; is a command line interface to &kde; calendars. It lets "
+"you view, insert, remove, or modify calendar events by way of the command "
+"line or from a scripting language. Additionally, &konsolekalendar; can "
+"create a new &kde; calendar, export a &kde; calendar to a variety of other "
+"formats, and import another &kde; calendar."
 msgstr ""
 
 #. Tag: para
@@ -199,9 +200,10 @@ msgstr ""
 #: index.docbook:94
 #, no-c-format
 msgid ""
-"&konsolekalendar; is <emphasis>not</emphasis> another graphical user interface "
-"to a &kde; calendar (i.e. &korganizer;). &konsolekalendar; is intended solely "
-"for uses where a graphical user interface is not practical or possible."
+"&konsolekalendar; is <emphasis>not</emphasis> another graphical user "
+"interface to a &kde; calendar (i.e. &korganizer;). &konsolekalendar; is "
+"intended solely for uses where a graphical user interface is not practical "
+"or possible."
 msgstr ""
 
 #. Tag: para
@@ -209,10 +211,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&konsolekalendar; does <emphasis>not</emphasis> provide a full-featured "
-"language for making queries of the user's calendar: nor is it the intention of "
-"the authors to ever write such a capability. Primitive command line options are "
-"provided for accessing calendar events within a consecutive range of dates/time "
-"stamps."
+"language for making queries of the user's calendar: nor is it the intention "
+"of the authors to ever write such a capability. Primitive command line "
+"options are provided for accessing calendar events within a consecutive "
+"range of dates/time stamps."
 msgstr ""
 
 #. Tag: title
@@ -225,8 +227,8 @@ msgstr ""
 #: index.docbook:110
 #, no-c-format
 msgid ""
-"In this chapter you'll learn about the main features of &konsolekalendar; and "
-"how to control them using the command line parameters (remember that "
+"In this chapter you'll learn about the main features of &konsolekalendar; "
+"and how to control them using the command line parameters (remember that "
 "&konsolekalendar; is not a graphical user interface; it is a command line "
 "program only)."
 msgstr ""
@@ -235,9 +237,9 @@ msgstr ""
 #: index.docbook:115
 #, no-c-format
 msgid ""
-"You'll learn about inserting, deleting, and changing calendar events, and how "
-"to export events to other file formats. The creation and importation of &kde; "
-"calendars will also be covered in this chapter."
+"You'll learn about inserting, deleting, and changing calendar events, and "
+"how to export events to other file formats. The creation and importation of "
+"&kde; calendars will also be covered in this chapter."
 msgstr ""
 
 #. Tag: title
@@ -250,9 +252,9 @@ msgstr ""
 #: index.docbook:125
 #, no-c-format
 msgid ""
-"In its default mode, or by using the <parameter>--view</parameter> "
-"option, &konsolekalendar; will list all events within the range of a specified "
-"date/time."
+"In its default mode, or by using the <parameter>--view</parameter> option, "
+"&konsolekalendar; will list all events within the range of a specified date/"
+"time."
 msgstr ""
 
 #. Tag: para
@@ -279,8 +281,8 @@ msgstr ""
 #: index.docbook:142
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>"
-"--view</option> <option>--date <replaceable>2003-08-18</replaceable> </option> "
+"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>--"
+"view</option> <option>--date <replaceable>2003-08-18</replaceable> </option> "
 "<option>--end-date <replaceable>2003-08-22</replaceable></option>\n"
 "</userinput>"
 msgstr ""
@@ -295,8 +297,8 @@ msgstr ""
 #: index.docbook:151
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>"
-"--next</option>\n"
+"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>--"
+"next</option>\n"
 "</userinput>"
 msgstr ""
 
@@ -310,8 +312,8 @@ msgstr ""
 #: index.docbook:160
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>"
-"--show-next</option> <replaceable>5</replaceable>\n"
+"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>--"
+"show-next</option> <replaceable>5</replaceable>\n"
 "\n"
 "</userinput>"
 msgstr ""
@@ -326,10 +328,10 @@ msgstr ""
 #: index.docbook:170
 #, no-c-format
 msgid ""
-"&konsolekalendar; can insert events into a &kde; calendar or calendar resource "
-"using the <parameter>--add</parameter> command line argument. Events "
-"successfully inserted will be immediately shown by &kde; calendar applications "
-"(like &korganizer;)."
+"&konsolekalendar; can insert events into a &kde; calendar or calendar "
+"resource using the <parameter>--add</parameter> command line argument. "
+"Events successfully inserted will be immediately shown by &kde; calendar "
+"applications (like &korganizer;)."
 msgstr ""
 
 #. Tag: para
@@ -337,19 +339,19 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In the following example, an event starting on 2003-06-04 (June 4, 2003) at "
-"1000 and ending at 1200 with summary \"Doctor Visit\" will be inserted into the "
-"user's default calendar resource:"
+"1000 and ending at 1200 with summary \"Doctor Visit\" will be inserted into "
+"the user's default calendar resource:"
 msgstr ""
 
 #. Tag: screen
 #: index.docbook:182
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>"
-"--add</option> <option>--date <replaceable>2003-06-04</replaceable></option> "
-"<option>--time <replaceable>10:00</replaceable></option> \\\n<option>"
-"--end-time <replaceable>12:00</replaceable></option> <option>"
-"--summary <replaceable>\"Doctor Visit\"</replaceable></option></userinput>"
+"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>--"
+"add</option> <option>--date <replaceable>2003-06-04</replaceable></option> "
+"<option>--time <replaceable>10:00</replaceable></option> \\\n"
+"<option>--end-time <replaceable>12:00</replaceable></option> <option>--"
+"summary <replaceable>\"Doctor Visit\"</replaceable></option></userinput>"
 msgstr ""
 
 #. Tag: para
@@ -364,32 +366,32 @@ msgstr ""
 #: index.docbook:192
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>"
-"--add</option> <option>--date <replaceable>2003-06-06</replaceable></option> "
-"<option>--summary <replaceable>\"My Birthday\"</replaceable></option> "
-"\\\n<option>--description <replaceable>\"Party Time\"</replaceable></option>"
-"</userinput>"
+"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>--"
+"add</option> <option>--date <replaceable>2003-06-06</replaceable></option> "
+"<option>--summary <replaceable>\"My Birthday\"</replaceable></option> \\\n"
+"<option>--description <replaceable>\"Party Time\"</replaceable></option></"
+"userinput>"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:198
 #, no-c-format
 msgid ""
-"Here a one week vacation is inserted into a shared <replaceable>"
-"vacation</replaceable> calendar:"
+"Here a one week vacation is inserted into a shared <replaceable>vacation</"
+"replaceable> calendar:"
 msgstr ""
 
 #. Tag: screen
 #: index.docbook:201
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>"
-"--add</option> <option>--file <replaceable>vacation.ics</replaceable></option> "
-"<option>--date <replaceable>2003-08-01</replaceable></option> \\\n<option>"
-"--end-date <replaceable>2003-08-07</replaceable></option> <option>"
-"--summary <replaceable>\"Vacation\"</replaceable></option> <option>"
-"--description <replaceable>\"Nobody will ever find me!\"</replaceable></option>"
-"</userinput>"
+"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>--"
+"add</option> <option>--file <replaceable>vacation.ics</replaceable></option> "
+"<option>--date <replaceable>2003-08-01</replaceable></option> \\\n"
+"<option>--end-date <replaceable>2003-08-07</replaceable></option> <option>--"
+"summary <replaceable>\"Vacation\"</replaceable></option> <option>--"
+"description <replaceable>\"Nobody will ever find me!\"</replaceable></"
+"option></userinput>"
 msgstr ""
 
 #. Tag: title
@@ -406,8 +408,8 @@ msgid ""
 "resource using the <parameter>--delete</parameter> command line argument. "
 "Calendar entries to be removed are specified exactly by their Unique-string "
 "identifier (<acronym>UID</acronym>) using the <parameter>--uid</parameter> "
-"option. <acronym>UIDs</acronym> are found by first viewing the event, using the "
-"<parameter>--view</parameter> option."
+"option. <acronym>UIDs</acronym> are found by first viewing the event, using "
+"the <parameter>--view</parameter> option."
 msgstr ""
 
 #. Tag: para
@@ -431,17 +433,17 @@ msgstr ""
 #: index.docbook:226
 #, no-c-format
 msgid ""
-"Here we delete a calendar entry with <acronym>UID</acronym> <replaceable>"
-"&konsolekalendar;-1887551750.196</replaceable>:"
+"Here we delete a calendar entry with <acronym>UID</acronym> "
+"<replaceable>&konsolekalendar;-1887551750.196</replaceable>:"
 msgstr ""
 
 #. Tag: screen
 #: index.docbook:229
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>"
-"--delete</option> <option>--uid "
-"<replaceable>&konsolekalendar;-1887551750.196</replaceable></option></userinput>"
+"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>--"
+"delete</option> <option>--uid <replaceable>&konsolekalendar;-1887551750.196</"
+"replaceable></option></userinput>"
 msgstr ""
 
 #. Tag: title
@@ -454,43 +456,42 @@ msgstr ""
 #: index.docbook:239
 #, no-c-format
 msgid ""
-"&konsolekalendar; supports the modification of existing entries in a calendar "
-"file or resource using the <parameter>--change</parameter> "
-"command line argument. Calendar entries to be modified are specified exactly by "
-"their Unique-string identifier (<acronym>UID</acronym>) using the <parameter>"
-"--uid</parameter> option. <acronym>UIDs</acronym> are found by first viewing "
-"the event, using the <parameter>--view</parameter> option."
+"&konsolekalendar; supports the modification of existing entries in a "
+"calendar file or resource using the <parameter>--change</parameter> command "
+"line argument. Calendar entries to be modified are specified exactly by "
+"their Unique-string identifier (<acronym>UID</acronym>) using the "
+"<parameter>--uid</parameter> option. <acronym>UIDs</acronym> are found by "
+"first viewing the event, using the <parameter>--view</parameter> option."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:246
 #, no-c-format
 msgid ""
-"Changing behaves in the same way as inserting: you can change an event's start "
-"date and time, end date and time, summary, location, and description. Events "
-"successfully changed will be immediately shown modified within &kde; calendar "
-"applications (&korganizer;)."
+"Changing behaves in the same way as inserting: you can change an event's "
+"start date and time, end date and time, summary, location, and description. "
+"Events successfully changed will be immediately shown modified within &kde; "
+"calendar applications (&korganizer;)."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:252
 #, no-c-format
 msgid ""
-"<emphasis>Example:</emphasis> Here we change the summary and description of a "
-"calendar entry with <acronym>UID</acronym> <replaceable>"
-"&konsolekalendar;-1887551750.196</replaceable>:"
+"<emphasis>Example:</emphasis> Here we change the summary and description of "
+"a calendar entry with <acronym>UID</acronym> "
+"<replaceable>&konsolekalendar;-1887551750.196</replaceable>:"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:257
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>"
-"--change</option> <option>--uid "
-"<replaceable>&konsolekalendar;-1887551750.196</replaceable></option> <option>"
-"--summary <replaceable>\"Get my head examined\"</replaceable></option> <option>"
-"--description <replaceable>\"don't go to that doctor anymore!\"</replaceable>"
-"</option> </userinput>"
+"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>--"
+"change</option> <option>--uid <replaceable>&konsolekalendar;-1887551750.196</"
+"replaceable></option> <option>--summary <replaceable>\"Get my head examined"
+"\"</replaceable></option> <option>--description <replaceable>\"don't go to "
+"that doctor anymore!\"</replaceable></option> </userinput>"
 msgstr ""
 
 #. Tag: title
@@ -504,27 +505,26 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&konsolekalendar; can be used to create a new &kde; calendar file. Since you "
-"cannot insert an entry into a calendar that does not exist, you must create the "
-"file first using the <parameter>--create</parameter> and <parameter>"
-"--file</parameter> command line arguments."
+"cannot insert an entry into a calendar that does not exist, you must create "
+"the file first using the <parameter>--create</parameter> and <parameter>--"
+"file</parameter> command line arguments."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:278
 #, no-c-format
 msgid ""
-"Create a calendar file named <filename><replaceable>"
-"/data/share/calendars/vacation.ics</replaceable></filename>:"
+"Create a calendar file named <filename><replaceable>/data/share/calendars/"
+"vacation.ics</replaceable></filename>:"
 msgstr ""
 
 #. Tag: screen
 #: index.docbook:282
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>"
-"--create</option> <option>--file "
-"<replaceable>/data/share/calendars/vacation.ics</replaceable></option>"
-"</userinput>"
+"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>--"
+"create</option> <option>--file <replaceable>/data/share/calendars/vacation."
+"ics</replaceable></option></userinput>"
 msgstr ""
 
 #. Tag: title
@@ -538,25 +538,25 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&konsolekalendar; can export a &kde; calendar to other well known formats. "
-"Exporting is a special form of viewing. By default, events are viewed in <quote>"
-"&konsolekalendar; text</quote> format. To change the viewing format use the "
-"<parameter>--export-type</parameter> command line argument."
+"Exporting is a special form of viewing. By default, events are viewed in "
+"<quote>&konsolekalendar; text</quote> format. To change the viewing format "
+"use the <parameter>--export-type</parameter> command line argument."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:297
 #, no-c-format
 msgid ""
-"To see a list of all supported export formats, use the <parameter>"
-"--export-list</parameter> option, as in:"
+"To see a list of all supported export formats, use the <parameter>--export-"
+"list</parameter> option, as in:"
 msgstr ""
 
 #. Tag: screen
 #: index.docbook:303
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>"
-"--export-list</option></userinput>"
+"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>--"
+"export-list</option></userinput>"
 msgstr ""
 
 #. Tag: title
@@ -598,7 +598,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Date:\\t&lt;Incidence Date&gt;(dddd yyyy-MM-dd)\n"
-"[\\t&lt;Incidence Start Time&gt;(hh:mm) - &lt;Incidence End Time&gt;(hh:mm)]\n"
+"[\\t&lt;Incidence Start Time&gt;(hh:mm) - &lt;Incidence End Time&gt;(hh:"
+"mm)]\n"
 "Summary:\n"
 "\\t&lt;Incidence Summary | \"(no summary available)\"&gt;\n"
 "Location:\n"
@@ -686,11 +687,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Comma-Separated Value Format displays the event values in the same order as "
-"&konsolekalendar; Text format. The only difference is that all the information "
-"is on the same row with each field separated by a comma. The resulting exported "
-"files can be imported directly into spreadsheet programs like &kspread;, "
-"<application>OpenOffice.org Calc</application>, and <application>"
-"&Microsoft; Excel</application>. Also, <acronym>CSV</acronym> "
+"&konsolekalendar; Text format. The only difference is that all the "
+"information is on the same row with each field separated by a comma. The "
+"resulting exported files can be imported directly into spreadsheet programs "
+"like &kspread;, <application>OpenOffice.org Calc</application>, and "
+"<application>&Microsoft; Excel</application>. Also, <acronym>CSV</acronym> "
 "format is easy to parse with follow-on scripts."
 msgstr ""
 
@@ -710,8 +711,9 @@ msgstr ""
 #: index.docbook:376
 #, no-c-format
 msgid ""
-"2003-11-01,08:00,2003-11-01,09:00,Staff Meeting,Conference Room,Meet in the big "
-"conference \\\nroom with the entire staff.,&konsolekalendar;-1128954167.1013"
+"2003-11-01,08:00,2003-11-01,09:00,Staff Meeting,Conference Room,Meet in the "
+"big conference \\\n"
+"room with the entire staff.,&konsolekalendar;-1128954167.1013"
 msgstr ""
 
 #. Tag: title
@@ -724,10 +726,10 @@ msgstr ""
 #: index.docbook:385
 #, no-c-format
 msgid ""
-"The &HTML; export format will produce a valid &HTML; file that can be published "
-"to the <acronym>WWW</acronym>. This export format is not suitable for follow-on "
-"script parsing, but is very nice for publishing calendars for easy public "
-"viewing."
+"The &HTML; export format will produce a valid &HTML; file that can be "
+"published to the <acronym>WWW</acronym>. This export format is not suitable "
+"for follow-on script parsing, but is very nice for publishing calendars for "
+"easy public viewing."
 msgstr ""
 
 #. Tag: para
@@ -747,8 +749,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This format produces an &HTML; file showing all appointments in the months "
-"specified by the date range. This export format is not suitable for follow-on "
-"script parsing, but is very nice for publishing calendars for easy public "
+"specified by the date range. This export format is not suitable for follow-"
+"on script parsing, but is very nice for publishing calendars for easy public "
 "viewing."
 msgstr ""
 
@@ -772,18 +774,18 @@ msgstr ""
 #: index.docbook:417
 #, no-c-format
 msgid ""
-"To import calendar file <filename><replaceable>another.ics</replaceable>"
-"</filename> into calendar <filename><replaceable>current.ics</replaceable>"
-"</filename> run:"
+"To import calendar file <filename><replaceable>another.ics</replaceable></"
+"filename> into calendar <filename><replaceable>current.ics</replaceable></"
+"filename> run:"
 msgstr ""
 
 #. Tag: screen
 #: index.docbook:422
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>"
-"--import <replaceable>another.ics</replaceable></option> <option>"
-"--file <replaceable>current.ics</replaceable></option></userinput>"
+"<prompt>%</prompt><userinput> <command>konsolekalendar</command> <option>--"
+"import <replaceable>another.ics</replaceable></option> <option>--file "
+"<replaceable>current.ics</replaceable></option></userinput>"
 msgstr ""
 
 #. Tag: title
@@ -880,8 +882,9 @@ msgstr ""
 #: index.docbook:467
 #, no-c-format
 msgid ""
-"Print what would have been done, but do not execute. Do not change any files; "
-"do not insert, remove, modify any existing files, nor create any new files."
+"Print what would have been done, but do not execute. Do not change any "
+"files; do not insert, remove, modify any existing files, nor create any new "
+"files."
 msgstr ""
 
 #. Tag: option
@@ -1077,8 +1080,8 @@ msgstr ""
 #: index.docbook:537 index.docbook:549
 #, no-c-format
 msgid ""
-"To add or change a floating event, use the <option>--time float</option> "
-"or the <option>--end-time float</option> options."
+"To add or change a floating event, use the <option>--time float</option> or "
+"the <option>--end-time float</option> options."
 msgstr ""
 
 #. Tag: entry
@@ -1247,8 +1250,8 @@ msgstr ""
 #: index.docbook:623
 #, no-c-format
 msgid ""
-"&konsolekalendar;'s application name is <application>"
-"konsolekalendar</application>."
+"&konsolekalendar;'s application name is <application>konsolekalendar</"
+"application>."
 msgstr ""
 
 #. Tag: para
@@ -1261,10 +1264,10 @@ msgstr ""
 #: index.docbook:632
 #, no-c-format
 msgid ""
-"&konsolekalendar; will reject dates specified on the command line unless they "
-"are specified according to ISO 8601 standards, namely: YYYY-MM-DD. Where YYYY "
-"represents a four-digit year (like 2003), MM represents a two-digit month "
-"(01,02,..,12), and DD represents a two-digit day (01,02,...,31)."
+"&konsolekalendar; will reject dates specified on the command line unless "
+"they are specified according to ISO 8601 standards, namely: YYYY-MM-DD. "
+"Where YYYY represents a four-digit year (like 2003), MM represents a two-"
+"digit month (01,02,..,12), and DD represents a two-digit day (01,02,...,31)."
 msgstr ""
 
 #. Tag: para
@@ -1284,10 +1287,10 @@ msgstr ""
 #: index.docbook:646
 #, no-c-format
 msgid ""
-"&konsolekalendar; will reject times specified on the command line unless they "
-"are specified according to ISO 8601 standards, namely: HH:MM:SS. Where HH "
-"represents a two-digit hour (01,02,...,24), MM represents a two-digit minute "
-"(01,02,..,60), and SS represents a two-digit second (01,02,...,60)."
+"&konsolekalendar; will reject times specified on the command line unless "
+"they are specified according to ISO 8601 standards, namely: HH:MM:SS. Where "
+"HH represents a two-digit hour (01,02,...,24), MM represents a two-digit "
+"minute (01,02,..,60), and SS represents a two-digit second (01,02,...,60)."
 msgstr ""
 
 #. Tag: para
@@ -1301,8 +1304,8 @@ msgstr ""
 #: index.docbook:657
 #, no-c-format
 msgid ""
-"Will &konsolekalendar; insert a new event that is identical to one that already "
-"exists in the calendar?"
+"Will &konsolekalendar; insert a new event that is identical to one that "
+"already exists in the calendar?"
 msgstr ""
 
 #. Tag: para
@@ -1323,9 +1326,9 @@ msgstr ""
 #: index.docbook:671
 #, no-c-format
 msgid ""
-"&konsolekalendar; checks the specified start date and time, end date and time, "
-"and summary against all events in the calendar. An event match is determined if "
-"all three values match to an existing event."
+"&konsolekalendar; checks the specified start date and time, end date and "
+"time, and summary against all events in the calendar. An event match is "
+"determined if all three values match to an existing event."
 msgstr ""
 
 #. Tag: para
@@ -1338,8 +1341,8 @@ msgstr ""
 #: index.docbook:683
 #, no-c-format
 msgid ""
-"Yes. Use the <option>--time float</option> option with <option>--change</option>"
-"."
+"Yes. Use the <option>--time float</option> option with <option>--change</"
+"option>."
 msgstr ""
 
 #. Tag: para
@@ -1352,9 +1355,10 @@ msgstr ""
 #: index.docbook:693
 #, no-c-format
 msgid ""
-"Because you need to specify <acronym>UIDs</acronym> to delete or change events. "
-"If you do not want to see event <acronym>UIDs</acronym> then use the <emphasis>"
-"short</emphasis> export type (<option>--export-type short</option>)."
+"Because you need to specify <acronym>UIDs</acronym> to delete or change "
+"events. If you do not want to see event <acronym>UIDs</acronym> then use the "
+"<emphasis>short</emphasis> export type (<option>--export-type short</"
+"option>)."
 msgstr ""
 
 #. Tag: para
@@ -1447,8 +1451,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&konsolekalendar; requires the standard &kde; libraries to be installed (the "
-"<filename>kdelibs</filename> package and <filename>kdepimlibs</filename>"
-"). To compile from source, you also need the &Qt;, <filename>kdelibs</filename> "
+"<filename>kdelibs</filename> package and <filename>kdepimlibs</filename>). "
+"To compile from source, you also need the &Qt;, <filename>kdelibs</filename> "
 "and <filename>kdepimlibs</filename> development packages."
 msgstr ""
 
@@ -1469,6 +1473,6 @@ msgstr ""
 #: index.docbook:767
 #, no-c-format
 msgid ""
-"No special configuration is required to set up &konsolekalendar; to run on the "
-"&kde; desktop."
+"No special configuration is required to set up &konsolekalendar; to run on "
+"the &kde; desktop."
 msgstr ""

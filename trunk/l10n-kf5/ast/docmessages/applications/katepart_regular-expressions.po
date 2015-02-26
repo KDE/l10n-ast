@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -55,9 +56,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Regular Expressions</emphasis> provides us with a way to describe "
-"some possible contents of a text string in a way understood by a small piece of "
-"software, so that it can investigate if a text matches, and also in the case of "
-"advanced applications with the means of saving pieces or the matching text."
+"some possible contents of a text string in a way understood by a small piece "
+"of software, so that it can investigate if a text matches, and also in the "
+"case of advanced applications with the means of saving pieces or the "
+"matching text."
 msgstr ""
 
 #. Tag: para
@@ -73,34 +75,34 @@ msgstr ""
 #: regular-expressions.docbook:28
 #, no-c-format
 msgid ""
-"With a normal search, you would start out searching for the first name, <quote>"
-"Henrik</quote> maybe followed by <quote>sa</quote> like this: <userinput>"
-"Henrik sa</userinput>, and while looking for matches, you would have to discard "
-"those not being the beginning of a paragraph, as well as those in which the "
-"word starting with the letters <quote>sa</quote> was not either <quote>"
-"says</quote>, <quote>said</quote> or so. And then of course repeat all of that "
-"with the next name..."
+"With a normal search, you would start out searching for the first name, "
+"<quote>Henrik</quote> maybe followed by <quote>sa</quote> like this: "
+"<userinput>Henrik sa</userinput>, and while looking for matches, you would "
+"have to discard those not being the beginning of a paragraph, as well as "
+"those in which the word starting with the letters <quote>sa</quote> was not "
+"either <quote>says</quote>, <quote>said</quote> or so. And then of course "
+"repeat all of that with the next name..."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:37
 #, no-c-format
 msgid ""
-"With Regular Expressions, that task could be accomplished with a single search, "
-"and with a larger degree of preciseness."
+"With Regular Expressions, that task could be accomplished with a single "
+"search, and with a larger degree of preciseness."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:40
 #, no-c-format
 msgid ""
-"To achieve this, Regular Expressions defines rules for expressing in details a "
-"generalization of a string to match. Our example, which we might literally "
+"To achieve this, Regular Expressions defines rules for expressing in details "
+"a generalization of a string to match. Our example, which we might literally "
 "express like this: <quote>A line starting with either <quote>Henrik</quote> "
 "or <quote>Pernille</quote> (possibly following up to 4 blanks or tab "
-"characters) followed by a whitespace followed by <quote>sa</quote> "
-"and then either <quote>ys</quote> or <quote>id</quote></quote> "
-"could be expressed with the following regular expression:"
+"characters) followed by a whitespace followed by <quote>sa</quote> and then "
+"either <quote>ys</quote> or <quote>id</quote></quote> could be expressed "
+"with the following regular expression:"
 msgstr ""
 
 #. Tag: userinput
@@ -145,49 +147,50 @@ msgstr ""
 #: regular-expressions.docbook:60
 #, no-c-format
 msgid ""
-"The caret (<literal>^</literal>) starting the expression is an assertion, being "
-"true only if the following matching string is at the start of a line."
+"The caret (<literal>^</literal>) starting the expression is an assertion, "
+"being true only if the following matching string is at the start of a line."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:64
 #, no-c-format
 msgid ""
-"The strings <literal>[ \\t]</literal> and <literal>(Henrik|Pernille) "
-"sa(ys|id)</literal> are patterns. The first one is a <emphasis>"
-"character class</emphasis> that matches either a blank or a (horizontal) tab "
-"character; the other pattern contains first a subpattern matching either "
-"<literal>Henrik</literal> <emphasis>or</emphasis> <literal>Pernille</literal>"
-", then a piece matching the exact string <literal> sa</literal> "
-"and finally a subpattern matching either <literal>ys</literal> <emphasis>"
-"or</emphasis> <literal>id</literal>"
+"The strings <literal>[ \\t]</literal> and <literal>(Henrik|Pernille) sa(ys|"
+"id)</literal> are patterns. The first one is a <emphasis>character class</"
+"emphasis> that matches either a blank or a (horizontal) tab character; the "
+"other pattern contains first a subpattern matching either <literal>Henrik</"
+"literal> <emphasis>or</emphasis> <literal>Pernille</literal>, then a piece "
+"matching the exact string <literal> sa</literal> and finally a subpattern "
+"matching either <literal>ys</literal> <emphasis>or</emphasis> <literal>id</"
+"literal>"
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:74
 #, no-c-format
 msgid ""
-"The string <literal>{0,4}</literal> is a quantifier saying <quote>"
-"anywhere from 0 up to 4 of the previous</quote>."
+"The string <literal>{0,4}</literal> is a quantifier saying <quote>anywhere "
+"from 0 up to 4 of the previous</quote>."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:77
 #, no-c-format
 msgid ""
-"Because regular expression software supporting the concept of <emphasis>"
-"back references</emphasis> saves the entire matching part of the string as well "
+"Because regular expression software supporting the concept of <emphasis>back "
+"references</emphasis> saves the entire matching part of the string as well "
 "as sub-patterns enclosed in parentheses, given some means of access to those "
-"references, we could get our hands on either the whole match (when searching a "
-"text document in an editor with a regular expression, that is often marked as "
-"selected) or either the name found, or the last part of the verb."
+"references, we could get our hands on either the whole match (when searching "
+"a text document in an editor with a regular expression, that is often marked "
+"as selected) or either the name found, or the last part of the verb."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:85
 #, no-c-format
 msgid ""
-"All together, the expression will match where we wanted it to, and only there."
+"All together, the expression will match where we wanted it to, and only "
+"there."
 msgstr ""
 
 #. Tag: para
@@ -195,8 +198,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The following sections will describe in details how to construct and use "
-"patterns, character classes, assertions, quantifiers and back references, and "
-"the final section will give a few useful examples."
+"patterns, character classes, assertions, quantifiers and back references, "
+"and the final section will give a few useful examples."
 msgstr ""
 
 #. Tag: title
@@ -225,35 +228,35 @@ msgstr ""
 msgid ""
 "In patterns as well as in character classes, some characters have a special "
 "meaning. To literally match any of those characters, they must be marked or "
-"<emphasis>escaped</emphasis> to let the regular expression software know that "
-"it should interpret such characters in their literal meaning."
+"<emphasis>escaped</emphasis> to let the regular expression software know "
+"that it should interpret such characters in their literal meaning."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:112
 #, no-c-format
 msgid ""
-"This is done by prepending the character with a backslash (<literal>\\</literal>"
-")."
+"This is done by prepending the character with a backslash (<literal>\\</"
+"literal>)."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:116
 #, no-c-format
 msgid ""
-"The regular expression software will silently ignore escaping a character that "
-"does not have any special meaning in the context, so escaping for example a "
-"<quote>j</quote> (<userinput>\\j</userinput>) is safe. If you are in doubt "
-"whether a character could have a special meaning, you can therefore escape it "
-"safely."
+"The regular expression software will silently ignore escaping a character "
+"that does not have any special meaning in the context, so escaping for "
+"example a <quote>j</quote> (<userinput>\\j</userinput>) is safe. If you are "
+"in doubt whether a character could have a special meaning, you can therefore "
+"escape it safely."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:122
 #, no-c-format
 msgid ""
-"Escaping of course includes the backslash character itself, to literally match "
-"a such, you would write <userinput>\\\\</userinput>."
+"Escaping of course includes the backslash character itself, to literally "
+"match a such, you would write <userinput>\\\\</userinput>."
 msgstr ""
 
 #. Tag: title
@@ -266,8 +269,8 @@ msgstr ""
 #: regular-expressions.docbook:131
 #, no-c-format
 msgid ""
-"A <emphasis>character class</emphasis> is an expression that matches one of a "
-"defined set of characters. In Regular Expressions, character classes are "
+"A <emphasis>character class</emphasis> is an expression that matches one of "
+"a defined set of characters. In Regular Expressions, character classes are "
 "defined by putting the legal characters for the class in square brackets, "
 "<literal>[]</literal>, or by using one of the abbreviated classes described "
 "below."
@@ -278,8 +281,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Simple character classes just contains one or more literal characters, for "
-"example <userinput>[abc]</userinput> (matching either of the letters <quote>"
-"a</quote>, <quote>b</quote> or <quote>c</quote>) or <userinput>"
+"example <userinput>[abc]</userinput> (matching either of the letters "
+"<quote>a</quote>, <quote>b</quote> or <quote>c</quote>) or <userinput>"
 "[0123456789]</userinput> (matching any digit)."
 msgstr ""
 
@@ -288,48 +291,49 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Because letters and digits have a logical order, you can abbreviate those by "
-"specifying ranges of them: <userinput>[a-c]</userinput> is equal to <userinput>"
-"[abc]</userinput> and <userinput>[0-9]</userinput> is equal to <userinput>"
-"[0123456789]</userinput>. Combining these constructs, for example <userinput>"
-"[a-fynot1-38]</userinput> is completely legal (the last one would match, of "
-"course, either of <quote>a</quote>,<quote>b</quote>,<quote>c</quote>,<quote>"
-"d</quote>, <quote>e</quote>,<quote>f</quote>,<quote>y</quote>,<quote>n</quote>"
-",<quote>o</quote>,<quote>t</quote>, <quote>1</quote>,<quote>2</quote>,<quote>"
-"3</quote> or <quote>8</quote>)."
+"specifying ranges of them: <userinput>[a-c]</userinput> is equal to "
+"<userinput>[abc]</userinput> and <userinput>[0-9]</userinput> is equal to "
+"<userinput>[0123456789]</userinput>. Combining these constructs, for example "
+"<userinput>[a-fynot1-38]</userinput> is completely legal (the last one would "
+"match, of course, either of <quote>a</quote>,<quote>b</quote>,<quote>c</"
+"quote>,<quote>d</quote>, <quote>e</quote>,<quote>f</quote>,<quote>y</quote>,"
+"<quote>n</quote>,<quote>o</quote>,<quote>t</quote>, <quote>1</quote>,"
+"<quote>2</quote>,<quote>3</quote> or <quote>8</quote>)."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:154
 #, no-c-format
 msgid ""
-"As capital letters are different characters from their non-capital equivalents, "
-"to create a caseless character class matching <quote>a</quote> or <quote>"
-"b</quote>, in any case, you need to write it <userinput>[aAbB]</userinput>."
+"As capital letters are different characters from their non-capital "
+"equivalents, to create a caseless character class matching <quote>a</quote> "
+"or <quote>b</quote>, in any case, you need to write it <userinput>[aAbB]</"
+"userinput>."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:159
 #, no-c-format
 msgid ""
-"It is of course possible to create a <quote>negative</quote> "
-"class matching as <quote>anything but</quote> To do so put a caret (<literal>"
-"^</literal>) at the beginning of the class:"
+"It is of course possible to create a <quote>negative</quote> class matching "
+"as <quote>anything but</quote> To do so put a caret (<literal>^</literal>) "
+"at the beginning of the class:"
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:163
 #, no-c-format
 msgid ""
-"<userinput>[^abc]</userinput> will match any character <emphasis>but</emphasis> "
-"<quote>a</quote>, <quote>b</quote> or <quote>c</quote>."
+"<userinput>[^abc]</userinput> will match any character <emphasis>but</"
+"emphasis> <quote>a</quote>, <quote>b</quote> or <quote>c</quote>."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:167
 #, no-c-format
 msgid ""
-"In addition to literal characters, some abbreviations are defined, making life "
-"still a bit easier:"
+"In addition to literal characters, some abbreviations are defined, making "
+"life still a bit easier:"
 msgstr ""
 
 #. Tag: userinput
@@ -360,16 +364,15 @@ msgstr ""
 #. Tag: userinput
 #: regular-expressions.docbook:183
 #, no-c-format
-msgid ""
-"<userinput>\\n</userinput>"
+msgid "<userinput>\\n</userinput>"
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:184
 #, no-c-format
 msgid ""
-"This matches the <acronym>ASCII</acronym> line feed character (LF, 0x0A, Unix "
-"newline)."
+"This matches the <acronym>ASCII</acronym> line feed character (LF, 0x0A, "
+"Unix newline)."
 msgstr ""
 
 #. Tag: userinput
@@ -382,7 +385,8 @@ msgstr ""
 #: regular-expressions.docbook:189
 #, no-c-format
 msgid ""
-"This matches the <acronym>ASCII</acronym> carriage return character (CR, 0x0D)."
+"This matches the <acronym>ASCII</acronym> carriage return character (CR, "
+"0x0D)."
 msgstr ""
 
 #. Tag: userinput
@@ -395,7 +399,8 @@ msgstr ""
 #: regular-expressions.docbook:194
 #, no-c-format
 msgid ""
-"This matches the <acronym>ASCII</acronym> horizontal tab character (HT, 0x09)."
+"This matches the <acronym>ASCII</acronym> horizontal tab character (HT, "
+"0x09)."
 msgstr ""
 
 #. Tag: userinput
@@ -421,10 +426,10 @@ msgstr ""
 #: regular-expressions.docbook:204
 #, no-c-format
 msgid ""
-"This matches the Unicode character corresponding to the hexadecimal number hhhh "
-"(between 0x0000 and 0xFFFF). \\0ooo (&ie;, \\zero ooo) matches the <acronym>"
-"ASCII</acronym>/Latin-1 character corresponding to the octal number ooo "
-"(between 0 and 0377)."
+"This matches the Unicode character corresponding to the hexadecimal number "
+"hhhh (between 0x0000 and 0xFFFF). \\0ooo (&ie;, \\zero ooo) matches the "
+"<acronym>ASCII</acronym>/Latin-1 character corresponding to the octal number "
+"ooo (between 0 and 0377)."
 msgstr ""
 
 #. Tag: term
@@ -461,8 +466,8 @@ msgstr ""
 #: regular-expressions.docbook:223
 #, no-c-format
 msgid ""
-"This matches a non-digit. Equal to <literal>[^0-9]</literal> or <literal>"
-"[^\\d]</literal>"
+"This matches a non-digit. Equal to <literal>[^0-9]</literal> or <literal>[^"
+"\\d]</literal>"
 msgstr ""
 
 #. Tag: userinput
@@ -475,8 +480,8 @@ msgstr ""
 #: regular-expressions.docbook:228
 #, no-c-format
 msgid ""
-"This matches a whitespace character. Practically equal to <literal>"
-"[ \\t\\n\\r]</literal>"
+"This matches a whitespace character. Practically equal to <literal>[ \\t\\n"
+"\\r]</literal>"
 msgstr ""
 
 #. Tag: userinput
@@ -489,8 +494,8 @@ msgstr ""
 #: regular-expressions.docbook:233
 #, no-c-format
 msgid ""
-"This matches a non-whitespace. Practically equal to <literal>"
-"[^ \\t\\r\\n]</literal>, and equal to <literal>[^\\s]</literal>"
+"This matches a non-whitespace. Practically equal to <literal>[^ \\t\\r\\n]</"
+"literal>, and equal to <literal>[^\\s]</literal>"
 msgstr ""
 
 #. Tag: userinput
@@ -503,9 +508,9 @@ msgstr ""
 #: regular-expressions.docbook:238
 #, no-c-format
 msgid ""
-"Matches any <quote>word character</quote> - in this case any letter or digit. "
-"Note that underscore (<literal>_</literal>) is not matched, as is the case with "
-"perl regular expressions. Equal to <literal>[a-zA-Z0-9]</literal>"
+"Matches any <quote>word character</quote> - in this case any letter or "
+"digit. Note that underscore (<literal>_</literal>) is not matched, as is the "
+"case with perl regular expressions. Equal to <literal>[a-zA-Z0-9]</literal>"
 msgstr ""
 
 #. Tag: userinput
@@ -526,9 +531,9 @@ msgstr ""
 #: regular-expressions.docbook:254
 #, no-c-format
 msgid ""
-"The abbreviated classes can be put inside a custom class, for example to match "
-"a word character, a blank or a dot, you could write <userinput>"
-"[\\w \\.]</userinput>"
+"The abbreviated classes can be put inside a custom class, for example to "
+"match a word character, a blank or a dot, you could write <userinput>[\\w "
+"\\.]</userinput>"
 msgstr ""
 
 #. Tag: para
@@ -564,8 +569,8 @@ msgstr ""
 #: regular-expressions.docbook:271
 #, no-c-format
 msgid ""
-"Ends the character class. Must be escaped unless it is the very first character "
-"in the class (may follow an unescaped caret)"
+"Ends the character class. Must be escaped unless it is the very first "
+"character in the class (may follow an unescaped caret)"
 msgstr ""
 
 #. Tag: term
@@ -625,8 +630,8 @@ msgstr ""
 #: regular-expressions.docbook:300
 #, no-c-format
 msgid ""
-"For example to find either <quote>John</quote> or <quote>Harry</quote> "
-"you would use an expression <userinput>John|Harry</userinput>."
+"For example to find either <quote>John</quote> or <quote>Harry</quote> you "
+"would use an expression <userinput>John|Harry</userinput>."
 msgstr ""
 
 #. Tag: title
@@ -662,9 +667,9 @@ msgstr ""
 #: regular-expressions.docbook:320
 #, no-c-format
 msgid ""
-"For example to match either of the words <quote>int</quote>, <quote>"
-"float</quote> or <quote>double</quote>, you could use the pattern <userinput>"
-"int|float|double</userinput>. If you only want to find one if it is followed by "
+"For example to match either of the words <quote>int</quote>, <quote>float</"
+"quote> or <quote>double</quote>, you could use the pattern <userinput>int|"
+"float|double</userinput>. If you only want to find one if it is followed by "
 "some whitespace and then some letters, put the alternatives inside a "
 "subpattern: <userinput>(int|float|double)\\s+\\w+</userinput>."
 msgstr ""
@@ -679,21 +684,21 @@ msgstr ""
 #: regular-expressions.docbook:333
 #, no-c-format
 msgid ""
-"If you want to use a back reference, use a sub pattern to have the desired part "
-"of the pattern remembered."
+"If you want to use a back reference, use a sub pattern to have the desired "
+"part of the pattern remembered."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:336
 #, no-c-format
 msgid ""
-"For example, if you want to find two occurrences of the same word separated by "
-"a comma and possibly some whitespace, you could write <userinput>"
-"(\\w+),\\s*\\1</userinput>. The sub pattern <literal>\\w+</literal> "
-"would find a chunk of word characters, and the entire expression would match if "
-"those were followed by a comma, 0 or more whitespace and then an equal chunk of "
-"word characters. (The string <literal>\\1</literal> references <emphasis>"
-"the first sub pattern enclosed in parentheses</emphasis>)"
+"For example, if you want to find two occurrences of the same word separated "
+"by a comma and possibly some whitespace, you could write <userinput>(\\w+),"
+"\\s*\\1</userinput>. The sub pattern <literal>\\w+</literal> would find a "
+"chunk of word characters, and the entire expression would match if those "
+"were followed by a comma, 0 or more whitespace and then an equal chunk of "
+"word characters. (The string <literal>\\1</literal> references <emphasis>the "
+"first sub pattern enclosed in parentheses</emphasis>)"
 msgstr ""
 
 #. Tag: title
@@ -706,19 +711,19 @@ msgstr ""
 #: regular-expressions.docbook:352
 #, no-c-format
 msgid ""
-"A lookahead assertion is a sub pattern, starting with either <literal>"
-"?=</literal> or <literal>?!</literal>."
+"A lookahead assertion is a sub pattern, starting with either <literal>?=</"
+"literal> or <literal>?!</literal>."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:355
 #, no-c-format
 msgid ""
-"For example to match the literal string <quote>Bill</quote> "
-"but only if not followed by <quote> Gates</quote>, you could use this "
-"expression: <userinput>Bill(?! Gates)</userinput>. (This would find <quote>"
-"Bill Clinton</quote> as well as <quote>Billy the kid</quote>"
-", but silently ignore the other matches.)"
+"For example to match the literal string <quote>Bill</quote> but only if not "
+"followed by <quote> Gates</quote>, you could use this expression: "
+"<userinput>Bill(?! Gates)</userinput>. (This would find <quote>Bill Clinton</"
+"quote> as well as <quote>Billy the kid</quote>, but silently ignore the "
+"other matches.)"
 msgstr ""
 
 #. Tag: para
@@ -743,8 +748,8 @@ msgstr ""
 #: regular-expressions.docbook:372
 #, no-c-format
 msgid ""
-"The following characters have meaning inside a pattern, and must be escaped if "
-"you want to literally match them:"
+"The following characters have meaning inside a pattern, and must be escaped "
+"if you want to literally match them:"
 msgstr ""
 
 #. Tag: para
@@ -866,17 +871,17 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Quantifiers</emphasis> allows a regular expression to match a "
-"specified number or range of numbers of either a character, character class or "
-"sub pattern."
+"specified number or range of numbers of either a character, character class "
+"or sub pattern."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:442
 #, no-c-format
 msgid ""
-"Quantifiers are enclosed in curly brackets (<literal>{</literal> and <literal>"
-"}</literal>) and have the general form "
-"<literal>{[minimum-occurrences][,[maximum-occurrences]]}</literal>"
+"Quantifiers are enclosed in curly brackets (<literal>{</literal> and "
+"<literal>}</literal>) and have the general form <literal>{[minimum-"
+"occurrences][,[maximum-occurrences]]}</literal>"
 msgstr ""
 
 #. Tag: para
@@ -979,21 +984,21 @@ msgstr ""
 #: regular-expressions.docbook:507
 #, no-c-format
 msgid ""
-"When using quantifiers with no maximum, regular expressions defaults to match "
-"as much of the searched string as possible, commonly known as <emphasis>"
-"greedy</emphasis> behavior."
+"When using quantifiers with no maximum, regular expressions defaults to "
+"match as much of the searched string as possible, commonly known as "
+"<emphasis>greedy</emphasis> behavior."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:511
 #, no-c-format
 msgid ""
-"Modern regular expression software provides the means of <quote>"
-"turning off greediness</quote>, though in a graphical environment it is up to "
-"the interface to provide you with access to this feature. For example a search "
+"Modern regular expression software provides the means of <quote>turning off "
+"greediness</quote>, though in a graphical environment it is up to the "
+"interface to provide you with access to this feature. For example a search "
 "dialog providing a regular expression search could have a check box labeled "
-"<quote>Minimal matching</quote> as well as it ought to indicate if greediness "
-"is the default behavior."
+"<quote>Minimal matching</quote> as well as it ought to indicate if "
+"greediness is the default behavior."
 msgstr ""
 
 #. Tag: title
@@ -1018,9 +1023,9 @@ msgstr ""
 #: regular-expressions.docbook:530
 #, no-c-format
 msgid ""
-"Matches the digits in <quote>1234 go</quote> and <quote>12345 now</quote>"
-", but neither in <quote>567 eleven</quote> nor in <quote>"
-"223459 somewhere</quote>"
+"Matches the digits in <quote>1234 go</quote> and <quote>12345 now</quote>, "
+"but neither in <quote>567 eleven</quote> nor in <quote>223459 somewhere</"
+"quote>"
 msgstr ""
 
 #. Tag: userinput
@@ -1045,8 +1050,8 @@ msgstr ""
 #: regular-expressions.docbook:541
 #, no-c-format
 msgid ""
-"Matches all of <quote>blablabla</quote> and the <quote>bla</quote> in <quote>"
-"blackbird</quote> or <quote>tabla</quote>"
+"Matches all of <quote>blablabla</quote> and the <quote>bla</quote> in "
+"<quote>blackbird</quote> or <quote>tabla</quote>"
 msgstr ""
 
 #. Tag: userinput
@@ -1059,8 +1064,8 @@ msgstr ""
 #: regular-expressions.docbook:546
 #, no-c-format
 msgid ""
-"Matches <quote>/&gt;</quote> in <quote>&lt;closeditem/&gt;</quote> "
-"as well as <quote>&gt;</quote> in <quote>&lt;openitem&gt;</quote>."
+"Matches <quote>/&gt;</quote> in <quote>&lt;closeditem/&gt;</quote> as well "
+"as <quote>&gt;</quote> in <quote>&lt;openitem&gt;</quote>."
 msgstr ""
 
 #. Tag: title
@@ -1073,8 +1078,8 @@ msgstr ""
 #: regular-expressions.docbook:559
 #, no-c-format
 msgid ""
-"<emphasis>Assertions</emphasis> allows a regular expression to match only under "
-"certain controlled conditions."
+"<emphasis>Assertions</emphasis> allows a regular expression to match only "
+"under certain controlled conditions."
 msgstr ""
 
 #. Tag: para
@@ -1084,18 +1089,18 @@ msgid ""
 "An assertion does not need a character to match, it rather investigates the "
 "surroundings of a possible match before acknowledging it. For example the "
 "<emphasis>word boundary</emphasis> assertion does not try to find a non word "
-"character opposite a word one at its position, instead it makes sure that there "
-"is not a word character. This means that the assertion can match where there is "
-"no character, &ie; at the ends of a searched string."
+"character opposite a word one at its position, instead it makes sure that "
+"there is not a word character. This means that the assertion can match where "
+"there is no character, &ie; at the ends of a searched string."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:570
 #, no-c-format
 msgid ""
-"Some assertions actually do have a pattern to match, but the part of the string "
-"matching that will not be a part of the result of the match of the full "
-"expression."
+"Some assertions actually do have a pattern to match, but the part of the "
+"string matching that will not be a part of the result of the match of the "
+"full expression."
 msgstr ""
 
 #. Tag: para
@@ -1121,8 +1126,9 @@ msgstr ""
 #: regular-expressions.docbook:583
 #, no-c-format
 msgid ""
-"The expression <userinput>^Peter</userinput> will match at <quote>Peter</quote> "
-"in the string <quote>Peter, hey!</quote> but not in <quote>Hey, Peter!</quote>"
+"The expression <userinput>^Peter</userinput> will match at <quote>Peter</"
+"quote> in the string <quote>Peter, hey!</quote> but not in <quote>Hey, Peter!"
+"</quote>"
 msgstr ""
 
 #. Tag: term
@@ -1141,9 +1147,9 @@ msgstr ""
 #: regular-expressions.docbook:592
 #, no-c-format
 msgid ""
-"The expression <userinput>you\\?$</userinput> will match at the last you in the "
-"string <quote>You didn't do that, did you?</quote> but nowhere in <quote>"
-"You didn't do that, right?</quote>"
+"The expression <userinput>you\\?$</userinput> will match at the last you in "
+"the string <quote>You didn't do that, did you?</quote> but nowhere in "
+"<quote>You didn't do that, right?</quote>"
 msgstr ""
 
 #. Tag: term
@@ -1164,10 +1170,10 @@ msgstr ""
 #: regular-expressions.docbook:603
 #, no-c-format
 msgid ""
-"This is useful to find word ends, for example both ends to find a whole word. "
-"The expression <userinput>\\bin\\b</userinput> will match at the separate "
-"<quote>in</quote> in the string <quote>He came in through the window</quote>"
-", but not at the <quote>in</quote> in <quote>window</quote>."
+"This is useful to find word ends, for example both ends to find a whole "
+"word. The expression <userinput>\\bin\\b</userinput> will match at the "
+"separate <quote>in</quote> in the string <quote>He came in through the "
+"window</quote>, but not at the <quote>in</quote> in <quote>window</quote>."
 msgstr ""
 
 #. Tag: term
@@ -1187,8 +1193,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "That means that it will match for example within words: The expression "
-"<userinput>\\Bin\\B</userinput> will match at in <quote>window</quote> "
-"but not in <quote>integer</quote> or <quote>I'm in love</quote>."
+"<userinput>\\Bin\\B</userinput> will match at in <quote>window</quote> but "
+"not in <quote>integer</quote> or <quote>I'm in love</quote>."
 msgstr ""
 
 #. Tag: term
@@ -1202,19 +1208,19 @@ msgstr ""
 #, no-c-format
 msgid ""
 "A lookahead assertion looks at the part of the string following a possible "
-"match. The positive lookahead will prevent the string from matching if the text "
-"following the possible match does not match the <emphasis>PATTERN</emphasis> "
-"of the assertion, but the text matched by that will not be included in the "
-"result."
+"match. The positive lookahead will prevent the string from matching if the "
+"text following the possible match does not match the <emphasis>PATTERN</"
+"emphasis> of the assertion, but the text matched by that will not be "
+"included in the result."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:625
 #, no-c-format
 msgid ""
-"The expression <userinput>handy(?=\\w)</userinput> will match at <quote>"
-"handy</quote> in <quote>handyman</quote> but not in <quote>"
-"That came in handy!</quote>"
+"The expression <userinput>handy(?=\\w)</userinput> will match at "
+"<quote>handy</quote> in <quote>handyman</quote> but not in <quote>That came "
+"in handy!</quote>"
 msgstr ""
 
 #. Tag: term
@@ -1228,17 +1234,17 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The negative lookahead prevents a possible match to be acknowledged if the "
-"following part of the searched string does match its <emphasis>"
-"PATTERN</emphasis>."
+"following part of the searched string does match its <emphasis>PATTERN</"
+"emphasis>."
 msgstr ""
 
 #. Tag: para
 #: regular-expressions.docbook:636
 #, no-c-format
 msgid ""
-"The expression <userinput>const \\w+\\b(?!\\s*&amp;)</userinput> "
-"will match at <quote>const char</quote> in the string <quote>"
-"const char* foo</quote> while it can not match <quote>const QString</quote> "
-"in <quote>const QString&amp; bar</quote> because the <quote>&amp;</quote> "
-"matches the negative lookahead assertion pattern."
+"The expression <userinput>const \\w+\\b(?!\\s*&amp;)</userinput> will match "
+"at <quote>const char</quote> in the string <quote>const char* foo</quote> "
+"while it can not match <quote>const QString</quote> in <quote>const "
+"QString&amp; bar</quote> because the <quote>&amp;</quote> matches the "
+"negative lookahead assertion pattern."
 msgstr ""

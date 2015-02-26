@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -103,45 +104,45 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<command>kded5</command> consolidates several small services in one process. "
-"These are mostly D-Bus services provided by KDED modules, but it also manages "
-"sycoca (a binary cache of servicetypes, mimetypes and services used by "
-"KService) and KConfig update scripts as needed."
+"These are mostly D-Bus services provided by KDED modules, but it also "
+"manages sycoca (a binary cache of servicetypes, mimetypes and services used "
+"by KService) and KConfig update scripts as needed."
 msgstr ""
 
 #. Tag: para
 #: man-kded5.8.docbook:57
 #, no-c-format
 msgid ""
-"For sycoca, it monitors the directories containing .desktop files. When a file "
-"is added/removed, it waits 5 seconds (in case of a series of updates), and then "
-"launches <command>kbuildsycoca5</command> to update the sycoca."
+"For sycoca, it monitors the directories containing .desktop files. When a "
+"file is added/removed, it waits 5 seconds (in case of a series of updates), "
+"and then launches <command>kbuildsycoca5</command> to update the sycoca."
 msgstr ""
 
 #. Tag: para
 #: man-kded5.8.docbook:59
 #, no-c-format
 msgid ""
-"For KConfig, it checks newly-installed update files, i.e. the *.upd files used "
-"to update configuration files of users when the configuration file formats "
-"changes, and runs the KConfig update utility to perform the updates."
+"For KConfig, it checks newly-installed update files, i.e. the *.upd files "
+"used to update configuration files of users when the configuration file "
+"formats changes, and runs the KConfig update utility to perform the updates."
 msgstr ""
 
 #. Tag: para
 #: man-kded5.8.docbook:61
 #, no-c-format
 msgid ""
-"Those tasks are also run when <command>kded5</command> "
-"is started to ensure that the user configuration is up to date."
+"Those tasks are also run when <command>kded5</command> is started to ensure "
+"that the user configuration is up to date."
 msgstr ""
 
 #. Tag: para
 #: man-kded5.8.docbook:63
 #, no-c-format
 msgid ""
-"You do not normally need to run <command>kded5</command> "
-"directly; Plasma desktop sessions run it automatically, and it is started on "
-"demand when an application attempts to use a D-Bus interface provided by it or "
-"one of its modules."
+"You do not normally need to run <command>kded5</command> directly; Plasma "
+"desktop sessions run it automatically, and it is started on demand when an "
+"application attempts to use a D-Bus interface provided by it or one of its "
+"modules."
 msgstr ""
 
 #. Tag: title
@@ -172,11 +173,11 @@ msgstr ""
 #: man-kded5.8.docbook:88
 #, no-c-format
 msgid ""
-"<command>kded5</command> can be configured with the <filename>kded5rc</filename> "
-"ini-style configuration file. On Unix systems, this can be found at <filename>"
-"<varname>$XDG_CONFIG_HOME</varname>/kded5rc</filename>; if <varname>"
-"$XDG_CONFIG_HOME</varname> is not set, this defaults to <filename>"
-"~/.config/kded5rc</filename>."
+"<command>kded5</command> can be configured with the <filename>kded5rc</"
+"filename> ini-style configuration file. On Unix systems, this can be found "
+"at <filename><varname>$XDG_CONFIG_HOME</varname>/kded5rc</filename>; if "
+"<varname>$XDG_CONFIG_HOME</varname> is not set, this defaults to "
+"<filename>~/.config/kded5rc</filename>."
 msgstr ""
 
 #. Tag: para
@@ -217,8 +218,8 @@ msgstr ""
 #: man-kded5.8.docbook:101
 #, no-c-format
 msgid ""
-"Whether to perform outstanding KConfig updates at startup (default: <constant>"
-"true</constant>)."
+"Whether to perform outstanding KConfig updates at startup (default: "
+"<constant>true</constant>)."
 msgstr ""
 
 #. Tag: option
@@ -232,8 +233,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Whether to check file timestamps when performing the initial sycoca update "
-"(default: <constant>true</constant>). See the documentation for <command>"
-"kbuildsycoca5</command> for more details."
+"(default: <constant>true</constant>). See the documentation for "
+"<command>kbuildsycoca5</command> for more details."
 msgstr ""
 
 #. Tag: option
@@ -246,22 +247,22 @@ msgstr ""
 #: man-kded5.8.docbook:111
 #, no-c-format
 msgid ""
-"Whether to delay the initial sycoca update until about a minute after starting "
-"(default: <constant>false</constant>)."
+"Whether to delay the initial sycoca update until about a minute after "
+"starting (default: <constant>false</constant>)."
 msgstr ""
 
 #. Tag: para
 #: man-kded5.8.docbook:117
 #, no-c-format
 msgid ""
-"Each module also has a <option>[Module-<replaceable>name</replaceable>]</option> "
-"section in <filename>kded5rc</filename>, where <replaceable>name</replaceable> "
-"is the name of the module's desktop file without the <filename>"
-".desktop</filename> extension. This contains an <option>autoload</option> "
+"Each module also has a <option>[Module-<replaceable>name</replaceable>]</"
+"option> section in <filename>kded5rc</filename>, where <replaceable>name</"
+"replaceable> is the name of the module's desktop file without the <filename>."
+"desktop</filename> extension. This contains an <option>autoload</option> "
 "option that specifies whether the module should be automatically loaded when "
-"<command>kded5</command> is started (default: <constant>false</constant>"
-"). Note that this setting can also be changed via <command>kded5</command>"
-"'s D-Bus interface."
+"<command>kded5</command> is started (default: <constant>false</constant>). "
+"Note that this setting can also be changed via <command>kded5</command>'s D-"
+"Bus interface."
 msgstr ""
 
 #. Tag: title
@@ -274,9 +275,9 @@ msgstr ""
 #: man-kded5.8.docbook:124
 #, no-c-format
 msgid ""
-"<citerefentry><refentrytitle>kbuildsycoca5</refentrytitle><manvolnum>"
-"8</manvolnum></citerefentry>, <citerefentry><refentrytitle>"
-"kdeinit5</refentrytitle><manvolnum>8</manvolnum></citerefentry>"
+"<citerefentry><refentrytitle>kbuildsycoca5</refentrytitle><manvolnum>8</"
+"manvolnum></citerefentry>, <citerefentry><refentrytitle>kdeinit5</"
+"refentrytitle><manvolnum>8</manvolnum></citerefentry>"
 msgstr ""
 
 #. Tag: title
@@ -289,6 +290,6 @@ msgstr ""
 #: man-kded5.8.docbook:134
 #, no-c-format
 msgid ""
-"There are probably tons of bugs. Use <ulink url=\"http://bugs.kde.org\">"
-"KDE's bugtracker</ulink> to report them."
+"There are probably tons of bugs. Use <ulink url=\"http://bugs.kde.org"
+"\">KDE's bugtracker</ulink> to report them."
 msgstr ""

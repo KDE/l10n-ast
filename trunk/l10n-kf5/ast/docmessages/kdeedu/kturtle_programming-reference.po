@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,20 +25,20 @@ msgstr ""
 #: programming-reference.docbook:3
 #, no-c-format
 msgid ""
-"This is the reference for &kturtle;'s &turtlescript;. In the first section of "
-"this chapter have a look at some aspects of the <link linkend=\"grammar\">"
-"grammar</link> of &turtlescript; programs. The second section deals exclusively "
-"with <link linkend=\"mathematical-operators\">mathematical operators</link>"
-", <link linkend=\"boolean-operators\">boolean (true/false) operators</link> "
-"and <link linkend=\"comparing-operators\">comparison operators</link>"
-". The third section is basically a giant list of all <link linkend=\"commands\">"
-"commands</link> explaining them one-by-one. Section four explains how to <link "
-"linkend=\"assignment-of-variables\">assign</link> values to <link "
-"linkend=\"assignment-of-variables\">variables</link>"
-". Finally we explain how to arrange the execution of commands with <link "
-"linkend=\"controlling-execution\">execution controlling statements</link> "
-"in section five and how to create you own commands with <link linkend=\"learn\">"
-"learn</link> in section six."
+"This is the reference for &kturtle;'s &turtlescript;. In the first section "
+"of this chapter have a look at some aspects of the <link linkend=\"grammar"
+"\">grammar</link> of &turtlescript; programs. The second section deals "
+"exclusively with <link linkend=\"mathematical-operators\">mathematical "
+"operators</link>, <link linkend=\"boolean-operators\">boolean (true/false) "
+"operators</link> and <link linkend=\"comparing-operators\">comparison "
+"operators</link>. The third section is basically a giant list of all <link "
+"linkend=\"commands\">commands</link> explaining them one-by-one. Section "
+"four explains how to <link linkend=\"assignment-of-variables\">assign</link> "
+"values to <link linkend=\"assignment-of-variables\">variables</link>. "
+"Finally we explain how to arrange the execution of commands with <link "
+"linkend=\"controlling-execution\">execution controlling statements</link> in "
+"section five and how to create you own commands with <link linkend=\"learn"
+"\">learn</link> in section six."
 msgstr ""
 
 #. Tag: title
@@ -50,22 +51,23 @@ msgstr ""
 #: programming-reference.docbook:7
 #, no-c-format
 msgid ""
-"As in any language, &turtlescript; has different types of words and symbols. In "
-"English we distinguish verbs (like 'to walk' or 'to sing') and nouns (like "
-"'sister' or 'house'), they are used for different purposes. &turtlescript; is a "
-"programming language, it is used to instruct &kturtle; what to do."
+"As in any language, &turtlescript; has different types of words and symbols. "
+"In English we distinguish verbs (like 'to walk' or 'to sing') and nouns "
+"(like 'sister' or 'house'), they are used for different purposes. "
+"&turtlescript; is a programming language, it is used to instruct &kturtle; "
+"what to do."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:8
 #, no-c-format
 msgid ""
-"In this section some of &turtlescript;'s different types of words and symbols "
-"are briefly explained. We explain <link linkend=\"comment\">comments</link>"
-", <link linkend=\"command\">commands</link> and the three different kinds of "
-"literals: <link linkend=\"number\">numbers</link>, <link linkend=\"string\">"
-"strings</link> and <link linkend=\"boolean-value\">boolean (true/false) "
-"values</link>."
+"In this section some of &turtlescript;'s different types of words and "
+"symbols are briefly explained. We explain <link linkend=\"comment"
+"\">comments</link>, <link linkend=\"command\">commands</link> and the three "
+"different kinds of literals: <link linkend=\"number\">numbers</link>, <link "
+"linkend=\"string\">strings</link> and <link linkend=\"boolean-value"
+"\">boolean (true/false) values</link>."
 msgstr ""
 
 #. Tag: title
@@ -78,12 +80,12 @@ msgstr ""
 #: programming-reference.docbook:13
 #, no-c-format
 msgid ""
-"A program consists instructions that are executed when the program is run and "
-"so called comments. Comments are not executed, &kturtle; simply ignores them "
-"when executing your program. Comment are there for other programmers to make "
-"them understand your program better. Everything that follows on a <userinput>"
-"#</userinput> symbol is considered a comment in &turtlescript;. For example "
-"this little program that does nothing: <screen>\n"
+"A program consists instructions that are executed when the program is run "
+"and so called comments. Comments are not executed, &kturtle; simply ignores "
+"them when executing your program. Comment are there for other programmers to "
+"make them understand your program better. Everything that follows on a "
+"<userinput>#</userinput> symbol is considered a comment in &turtlescript;. "
+"For example this little program that does nothing: <screen>\n"
 "# this little program does nothing, it is only a comment!\n"
 "</screen> It is a bit useless but it explain the matter well."
 msgstr ""
@@ -93,18 +95,18 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Comments get very useful when the program gets a little bit more complex. It "
-"can help to give some advice to other programmers. In the following program you "
-"see comments being used together with the <link linkend=\"print\">print</link> "
-"command. <screen>\n"
+"can help to give some advice to other programmers. In the following program "
+"you see comments being used together with the <link linkend=\"print\">print</"
+"link> command. <screen>\n"
 "# this program has been made by Cies Breijs.\n"
 "print \"this text will get printed on the canvas\"\n"
 "# the previous line is not a comment, but the next line is:\n"
 "# print \"this text will not get printed!\"\n"
-"</screen> The first line describes the program. The second line is executed by "
-"&kturtle; and prints <userinput>this text will get printed on the "
-"canvas</userinput> on the canvas. The third line is a comment. And the forth "
-"line is a comment that contains a piece of &turtlescript;, if the <userinput>"
-"#</userinput> symbol would be removed on the fourth line the print statement "
+"</screen> The first line describes the program. The second line is executed "
+"by &kturtle; and prints <userinput>this text will get printed on the canvas</"
+"userinput> on the canvas. The third line is a comment. And the forth line is "
+"a comment that contains a piece of &turtlescript;, if the <userinput>#</"
+"userinput> symbol would be removed on the fourth line the print statement "
 "will we executed by &kturtle;. Programmers say: the print statement on the "
 "fourth line is 'commented out'."
 msgstr ""
@@ -113,8 +115,8 @@ msgstr ""
 #: programming-reference.docbook:19
 #, no-c-format
 msgid ""
-"Commented lines are <glossterm>highlighted</glossterm> "
-"with light gray in the <link linkend=\"the-editor\">code editor</link>."
+"Commented lines are <glossterm>highlighted</glossterm> with light gray in "
+"the <link linkend=\"the-editor\">code editor</link>."
 msgstr ""
 
 #. Tag: title
@@ -127,15 +129,14 @@ msgstr ""
 #: programming-reference.docbook:24
 #, no-c-format
 msgid ""
-"Using commands you tell the turtle or &kturtle; to do something. Some commands "
-"need input, some give output. <screen>\n"
+"Using commands you tell the turtle or &kturtle; to do something. Some "
+"commands need input, some give output. <screen>\n"
 "# forward is a command that needs input, in this case the number 100:\n"
 "forward 100\n"
-"</screen> The first line is a <link linkend=\"comment\">comment</link>"
-". The second line contains the <userinput>forward</userinput> "
-"command and the <link linkend=\"number\">number</link> <userinput>"
-"100</userinput>. The number is not part of command, it is considered 'input' "
-"for the command."
+"</screen> The first line is a <link linkend=\"comment\">comment</link>. The "
+"second line contains the <userinput>forward</userinput> command and the "
+"<link linkend=\"number\">number</link> <userinput>100</userinput>. The "
+"number is not part of command, it is considered 'input' for the command."
 msgstr ""
 
 #. Tag: para
@@ -143,8 +144,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Some commands like &eg; <userinput>go</userinput> need more than one input "
-"value. Multiple values have to be separated using the <userinput>,</userinput> "
-"character (comma)."
+"value. Multiple values have to be separated using the <userinput>,</"
+"userinput> character (comma)."
 msgstr ""
 
 #. Tag: para
@@ -152,8 +153,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "For a detailed overview of all commands that &kturtle; supports go <link "
-"linkend=\"commands\">here</link>. Built-in commands are <glossterm>"
-"highlighted</glossterm> in dark blue"
+"linkend=\"commands\">here</link>. Built-in commands are "
+"<glossterm>highlighted</glossterm> in dark blue"
 msgstr ""
 
 #. Tag: title
@@ -174,25 +175,26 @@ msgstr ""
 #: programming-reference.docbook:34
 #, no-c-format
 msgid ""
-"We have the so called natural numbers: <userinput>0</userinput>, <userinput>"
-"1</userinput>, <userinput>2</userinput>, <userinput>3</userinput>, <userinput>"
-"4</userinput>, <userinput>5</userinput>, etc. The negative numbers: <userinput>"
-"-1</userinput>, <userinput>-2</userinput>, <userinput>-3</userinput>"
-", etc. And the numbers with decimals, or dot-numbers, for example: <userinput>"
-"0.1</userinput>, <userinput>3.14</userinput>, <userinput>33.3333</userinput>"
-", <userinput>-5.05</userinput>, <userinput>-1.0</userinput>. The <userinput>"
-".</userinput> character (dot) is used as decimal separator."
+"We have the so called natural numbers: <userinput>0</userinput>, "
+"<userinput>1</userinput>, <userinput>2</userinput>, <userinput>3</"
+"userinput>, <userinput>4</userinput>, <userinput>5</userinput>, etc. The "
+"negative numbers: <userinput>-1</userinput>, <userinput>-2</userinput>, "
+"<userinput>-3</userinput>, etc. And the numbers with decimals, or dot-"
+"numbers, for example: <userinput>0.1</userinput>, <userinput>3.14</"
+"userinput>, <userinput>33.3333</userinput>, <userinput>-5.05</userinput>, "
+"<userinput>-1.0</userinput>. The <userinput>.</userinput> character (dot) is "
+"used as decimal separator."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:37
 #, no-c-format
 msgid ""
-"Numbers can be used in <link linkend=\"mathematical-operators\">"
-"mathematical operators</link> and <link linkend=\"comparing-operators\">"
-"comparison operators</link>. They can also be stored in <link "
-"linkend=\"assignment-of-variables\">variables</link>. Numbers are <glossterm>"
-"highlighted</glossterm> in dark red."
+"Numbers can be used in <link linkend=\"mathematical-operators\">mathematical "
+"operators</link> and <link linkend=\"comparing-operators\">comparison "
+"operators</link>. They can also be stored in <link linkend=\"assignment-of-"
+"variables\">variables</link>. Numbers are <glossterm>highlighted</glossterm> "
+"in dark red."
 msgstr ""
 
 #. Tag: title
@@ -207,22 +209,22 @@ msgstr ""
 msgid ""
 "First an example: <screen>\n"
 "print \"Hello, I'm a string.\"\n"
-"</screen> In this example <userinput>print</userinput> "
-"is a command where <userinput>\"Hello, I'm a string.\"</userinput> "
-"is a string. Strings start and end with the <userinput>\"</userinput> "
-"mark, by these marks &kturtle; knows it is a string."
+"</screen> In this example <userinput>print</userinput> is a command where "
+"<userinput>\"Hello, I'm a string.\"</userinput> is a string. Strings start "
+"and end with the <userinput>\"</userinput> mark, by these marks &kturtle; "
+"knows it is a string."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:47
 #, no-c-format
 msgid ""
-"Strings can be put in <link linkend=\"assignment-of-variables\">variables</link>"
-", just like <link linkend=\"number\">numbers</link>. Yet, unlike numbers, "
-"strings cannot be used in <link linkend=\"mathematical-operators\">"
-"mathematical operators</link> or <link linkend=\"comparing-operators\">"
-"comparison operators</link>. Strings are <glossterm>highlighted</glossterm> "
-"with red."
+"Strings can be put in <link linkend=\"assignment-of-variables\">variables</"
+"link>, just like <link linkend=\"number\">numbers</link>. Yet, unlike "
+"numbers, strings cannot be used in <link linkend=\"mathematical-operators"
+"\">mathematical operators</link> or <link linkend=\"comparing-operators"
+"\">comparison operators</link>. Strings are <glossterm>highlighted</"
+"glossterm> with red."
 msgstr ""
 
 #. Tag: title
@@ -235,37 +237,37 @@ msgstr ""
 #: programming-reference.docbook:52
 #, no-c-format
 msgid ""
-"There are only two boolean values: <userinput>true</userinput> and <userinput>"
-"false</userinput>. Sometimes they are also called: on and off, yes and no, one "
-"and zero. But in &turtlescript; we call them, always, <userinput>"
-"true</userinput> and <userinput>false</userinput>. Have a look at this piece of "
-"&turtlescript;: <screen>\n"
+"There are only two boolean values: <userinput>true</userinput> and "
+"<userinput>false</userinput>. Sometimes they are also called: on and off, "
+"yes and no, one and zero. But in &turtlescript; we call them, always, "
+"<userinput>true</userinput> and <userinput>false</userinput>. Have a look at "
+"this piece of &turtlescript;: <screen>\n"
 "$a = true\n"
-"</screen> If you look in the <link linkend=\"the-inspector\">inspector</link> "
-"you can see that the <link linkend=\"assignment-of-variables\">variable</link> "
-"<userinput>$a</userinput> is set to <userinput>true</userinput>"
-", and has the boolean type."
+"</screen> If you look in the <link linkend=\"the-inspector\">inspector</"
+"link> you can see that the <link linkend=\"assignment-of-variables"
+"\">variable</link> <userinput>$a</userinput> is set to <userinput>true</"
+"userinput>, and has the boolean type."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:55
 #, no-c-format
 msgid ""
-"Often boolean values are the result of a <link linkend=\"comparing-operators\">"
-"comparison operator</link>, like in the following piece of &turtlescript;: "
-"<screen>\n"
+"Often boolean values are the result of a <link linkend=\"comparing-operators"
+"\">comparison operator</link>, like in the following piece of "
+"&turtlescript;: <screen>\n"
 "$answer = 10 &gt; 3\n"
 "</screen> The <link linkend=\"assignment-of-variables\">variable</link> "
-"<userinput>$answer</userinput> is set to <userinput>true</userinput> "
-"because <userinput>10</userinput> is larger than <userinput>3</userinput>."
+"<userinput>$answer</userinput> is set to <userinput>true</userinput> because "
+"<userinput>10</userinput> is larger than <userinput>3</userinput>."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:58
 #, no-c-format
 msgid ""
-"Boolean values, <userinput>true</userinput> and <userinput>false</userinput>"
-", are <glossterm>highlighted</glossterm> with dark red."
+"Boolean values, <userinput>true</userinput> and <userinput>false</"
+"userinput>, are <glossterm>highlighted</glossterm> with dark red."
 msgstr ""
 
 #. Tag: title
@@ -292,9 +294,9 @@ msgstr ""
 #: programming-reference.docbook:71
 #, no-c-format
 msgid ""
-"These are the basic math symbols known as: add (<userinput>+</userinput>"
-"), subtract (<userinput>-</userinput>), multiply (<userinput>*</userinput>"
-"), divide (<userinput>/</userinput>) and power (<userinput>^</userinput>)."
+"These are the basic math symbols known as: add (<userinput>+</userinput>), "
+"subtract (<userinput>-</userinput>), multiply (<userinput>*</userinput>), "
+"divide (<userinput>/</userinput>) and power (<userinput>^</userinput>)."
 msgstr ""
 
 #. Tag: para
@@ -309,10 +311,9 @@ msgid ""
 "$divide   = 30 / 30\n"
 "$power    = 2 ^ 2\n"
 "</screen> The values resulting from the mathematical operations get <link "
-"linkend=\"assignment-of-variables\">assigned</link> to various <link "
-"linkend=\"assignment-of-variables\">variables</link>"
-". Using the <link linkend=\"the-inspector\">inspector</link> "
-"you can see the values."
+"linkend=\"assignment-of-variables\">assigned</link> to various <link linkend="
+"\"assignment-of-variables\">variables</link>. Using the <link linkend=\"the-"
+"inspector\">inspector</link> you can see the values."
 msgstr ""
 
 #. Tag: para
@@ -335,23 +336,23 @@ msgstr ""
 msgid ""
 "Now an example with parentheses: <screen>\n"
 "print ( ( 20 - 5 ) * 2 / 30 ) + 1\n"
-"</screen> The expressions inside parentheses will be calculated first. In this "
-"example, 20-5 will be calculated, then multiplied by 2, divided by 30, and then "
-"1 is added (giving 2). Parentheses can also be used in other cases."
+"</screen> The expressions inside parentheses will be calculated first. In "
+"this example, 20-5 will be calculated, then multiplied by 2, divided by 30, "
+"and then 1 is added (giving 2). Parentheses can also be used in other cases."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:81
 #, no-c-format
 msgid ""
-"&kturtle; also has more advanced mathematical features in the form of commands. "
-"Have a look at the following commands but be aware that it concerns advanced "
-"operations: <link linkend=\"round\">round</link>, <link linkend=\"random\">"
-"random</link>, <link linkend=\"sqrt\">sqrt</link> , <link linkend=\"pi\">"
-"pi</link>, <link linkend=\"sin\">sin</link>, <link linkend=\"cos\">cos</link>"
-", <link linkend=\"tan\">tan</link>, <link linkend=\"arcsin\">arcsin</link>"
-", <link linkend=\"arccos\">arccos</link>, <link linkend=\"arctan\">arctan</link>"
-"."
+"&kturtle; also has more advanced mathematical features in the form of "
+"commands. Have a look at the following commands but be aware that it "
+"concerns advanced operations: <link linkend=\"round\">round</link>, <link "
+"linkend=\"random\">random</link>, <link linkend=\"sqrt\">sqrt</link> , <link "
+"linkend=\"pi\">pi</link>, <link linkend=\"sin\">sin</link>, <link linkend="
+"\"cos\">cos</link>, <link linkend=\"tan\">tan</link>, <link linkend=\"arcsin"
+"\">arcsin</link>, <link linkend=\"arccos\">arccos</link>, <link linkend="
+"\"arctan\">arctan</link>."
 msgstr ""
 
 #. Tag: title
@@ -365,12 +366,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Where <link linkend=\"mathematical-operators\">mathematical operators</link> "
-"are mainly for <link linkend=\"number\">numbers</link>"
-", boolean operators are for <link linkend=\"boolean-value\">"
-"boolean values</link> (<userinput>true</userinput> and <userinput>"
-"false</userinput>). There are only three boolean operators, namely: <userinput>"
-"and</userinput>, <userinput>or</userinput>, and <userinput>not</userinput>"
-". The following piece of &turtlescript; shows how to use them: <screen>\n"
+"are mainly for <link linkend=\"number\">numbers</link>, boolean operators "
+"are for <link linkend=\"boolean-value\">boolean values</link> "
+"(<userinput>true</userinput> and <userinput>false</userinput>). There are "
+"only three boolean operators, namely: <userinput>and</userinput>, "
+"<userinput>or</userinput>, and <userinput>not</userinput>. The following "
+"piece of &turtlescript; shows how to use them: <screen>\n"
 "$and_1_1 = true and true    # -> true\n"
 "$and_1_0 = true and false   # -> false\n"
 "$and_0_1 = false and true   # -> false\n"
@@ -383,14 +384,14 @@ msgid ""
 "\n"
 "$not_1 = not true   # -> false\n"
 "$not_0 = not false  # -> true\n"
-"</screen> Using the <link linkend=\"the-inspector\">inspector</link> "
-"you can see the values, yet we also supply these results as little comments at "
-"the end of the lines. <userinput>and</userinput> evaluates <userinput>"
-"true</userinput> only if both sides are <userinput>true</userinput>. <userinput>"
-"or</userinput> evaluates <userinput>true</userinput> "
-"if either side is <userinput>true</userinput>. And <userinput>not</userinput> "
-"turns a <userinput>true</userinput> into <userinput>false</userinput> "
-"and a <userinput>false</userinput> into <userinput>true</userinput>."
+"</screen> Using the <link linkend=\"the-inspector\">inspector</link> you can "
+"see the values, yet we also supply these results as little comments at the "
+"end of the lines. <userinput>and</userinput> evaluates <userinput>true</"
+"userinput> only if both sides are <userinput>true</userinput>. "
+"<userinput>or</userinput> evaluates <userinput>true</userinput> if either "
+"side is <userinput>true</userinput>. And <userinput>not</userinput> turns a "
+"<userinput>true</userinput> into <userinput>false</userinput> and a "
+"<userinput>false</userinput> into <userinput>true</userinput>."
 msgstr ""
 
 #. Tag: para
@@ -415,10 +416,10 @@ msgid ""
 "if (($a &lt; 10) and ($b == 5)) and ($a &lt; $b) {\n"
 "  print \"hello\"\n"
 "}\n"
-"</screen> In this piece of &turtlescript; the result of three <link "
-"linkend=\"comparing-operators\">comparing operators</link> "
-"are merged using <userinput>and</userinput> operators. This means that all "
-"three have to evaluate \"true\" in order for the \"hello\" to be printed."
+"</screen> In this piece of &turtlescript; the result of three <link linkend="
+"\"comparing-operators\">comparing operators</link> are merged using "
+"<userinput>and</userinput> operators. This means that all three have to "
+"evaluate \"true\" in order for the \"hello\" to be printed."
 msgstr ""
 
 #. Tag: para
@@ -430,19 +431,19 @@ msgid ""
 "if ($n &lt; 10) or ($n == 2) {\n"
 "  print \"hello\"\n"
 "}\n"
-"</screen> In this piece of &turtlescript; the left side of the <userinput>"
-"or</userinput> is evaluating to 'true', the right side to 'false'. Since one of "
-"the two sides of the <userinput>or</userinput> operator is 'true', the "
-"<userinput>or</userinput> operator evaluates 'true'. That means \"hello\" gets "
-"printed."
+"</screen> In this piece of &turtlescript; the left side of the "
+"<userinput>or</userinput> is evaluating to 'true', the right side to "
+"'false'. Since one of the two sides of the <userinput>or</userinput> "
+"operator is 'true', the <userinput>or</userinput> operator evaluates 'true'. "
+"That means \"hello\" gets printed."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:103
 #, no-c-format
 msgid ""
-"And finally an example with <userinput>not</userinput> "
-"which changes 'true' into 'false' and 'false' into 'true'. Have a look:"
+"And finally an example with <userinput>not</userinput> which changes 'true' "
+"into 'false' and 'false' into 'true'. Have a look:"
 msgstr ""
 
 #. Tag: screen
@@ -469,59 +470,59 @@ msgstr ""
 msgid ""
 "Consider this simple comparison: <screen>\n"
 "$answer = 10 &gt; 3\n"
-"</screen> Here <userinput>10</userinput> is compared to <userinput>3</userinput> "
-"with the 'greater than' operator. The result of this comparison, the <link "
-"linkend=\"boolean-value\">boolean value</link> <userinput>true</userinput> "
-"is stored in the <link linkend=\"assignment-of-variables\">variable</link> "
-"<userinput>$answer</userinput>."
+"</screen> Here <userinput>10</userinput> is compared to <userinput>3</"
+"userinput> with the 'greater than' operator. The result of this comparison, "
+"the <link linkend=\"boolean-value\">boolean value</link> <userinput>true</"
+"userinput> is stored in the <link linkend=\"assignment-of-variables"
+"\">variable</link> <userinput>$answer</userinput>."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:113
 #, no-c-format
 msgid ""
-"All <link linkend=\"number\">numbers</link> and <link "
-"linkend=\"assignment-of-variables\">variables</link> "
-"(that contain numbers) can be compared to each other with comparing operators."
+"All <link linkend=\"number\">numbers</link> and <link linkend=\"assignment-"
+"of-variables\">variables</link> (that contain numbers) can be compared to "
+"each other with comparing operators."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:114
 #, no-c-format
 msgid ""
-"Here are all possible comparing operators: "
-"<table> <title>Types of questions</title> <tgroup cols=\"3\"> <tbody> <row> "
-"<entry><userinput>$A == $B</userinput></entry> <entry>equals</entry> <entry>"
-"answer is <quote>true</quote> if <userinput>$A</userinput> equals <userinput>"
-"$B</userinput></entry> </row> <row> <entry><userinput>$A != $B</userinput>"
-"</entry> <entry>not-equals</entry> <entry>answer is <quote>true</quote> "
-"if <userinput>$A</userinput> does not equal <userinput>$B</userinput></entry> "
-"</row> <row> <entry><userinput>$A &gt; $B</userinput></entry> <entry>"
-"greater than</entry> <entry>answer is <quote>true</quote> if <userinput>"
-"$A</userinput> is greater than <userinput>$B</userinput></entry> </row> <row> "
-"<entry><userinput>$A &lt; $B</userinput></entry> <entry>smaller than</entry> "
-"<entry>answer is <quote>true</quote> if <userinput>$A</userinput> "
-"is smaller than <userinput>$B</userinput></entry> </row> <row> <entry>"
-"<userinput>$A &gt;= $B</userinput></entry> <entry>greater than or equals</entry> "
-"<entry>answer is <quote>true</quote> if <userinput>$A</userinput> "
-"is greater than or equals <userinput>$B</userinput></entry> </row> <row> <entry>"
-"<userinput>$A &lt;= $B</userinput></entry> <entry>smaller than or equals</entry> "
-"<entry>answer is <quote>true</quote> if <userinput>$A</userinput> "
-"is smaller than or equals <userinput>$B</userinput></entry> </row> </tbody> "
-"</tgroup> </table> Please note that $A and $B have to be <link "
-"linkend=\"number\">numbers</link> or <link linkend=\"assignment-of-variables\">"
-"variables</link> that contain numbers."
+"Here are all possible comparing operators: <table> <title>Types of "
+"questions</title> <tgroup cols=\"3\"> <tbody> <row> <entry><userinput>$A == "
+"$B</userinput></entry> <entry>equals</entry> <entry>answer is <quote>true</"
+"quote> if <userinput>$A</userinput> equals <userinput>$B</userinput></entry> "
+"</row> <row> <entry><userinput>$A != $B</userinput></entry> <entry>not-"
+"equals</entry> <entry>answer is <quote>true</quote> if <userinput>$A</"
+"userinput> does not equal <userinput>$B</userinput></entry> </row> <row> "
+"<entry><userinput>$A &gt; $B</userinput></entry> <entry>greater than</entry> "
+"<entry>answer is <quote>true</quote> if <userinput>$A</userinput> is greater "
+"than <userinput>$B</userinput></entry> </row> <row> <entry><userinput>$A "
+"&lt; $B</userinput></entry> <entry>smaller than</entry> <entry>answer is "
+"<quote>true</quote> if <userinput>$A</userinput> is smaller than <userinput>"
+"$B</userinput></entry> </row> <row> <entry><userinput>$A &gt;= $B</"
+"userinput></entry> <entry>greater than or equals</entry> <entry>answer is "
+"<quote>true</quote> if <userinput>$A</userinput> is greater than or equals "
+"<userinput>$B</userinput></entry> </row> <row> <entry><userinput>$A &lt;= "
+"$B</userinput></entry> <entry>smaller than or equals</entry> <entry>answer "
+"is <quote>true</quote> if <userinput>$A</userinput> is smaller than or "
+"equals <userinput>$B</userinput></entry> </row> </tbody> </tgroup> </table> "
+"Please note that $A and $B have to be <link linkend=\"number\">numbers</"
+"link> or <link linkend=\"assignment-of-variables\">variables</link> that "
+"contain numbers."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:163
 #, no-c-format
 msgid ""
-"Using commands you tell the turtle or &kturtle; to do something. Some commands "
-"need input, some give output. In this section we explain all the built-in "
-"commands of &kturtle;. Alternatively, using <link linkend=\"learn\">learn</link>"
-", you can create your own commands. Built-in commands we discuss here are "
-"<glossterm>highlighted</glossterm> with dark blue."
+"Using commands you tell the turtle or &kturtle; to do something. Some "
+"commands need input, some give output. In this section we explain all the "
+"built-in commands of &kturtle;. Alternatively, using <link linkend=\"learn"
+"\">learn</link>, you can create your own commands. Built-in commands we "
+"discuss here are <glossterm>highlighted</glossterm> with dark blue."
 msgstr ""
 
 #. Tag: title
@@ -559,8 +560,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<userinput>forward</userinput> moves the turtle forward by the amount of X "
-"pixels. When the pen is down the turtle will leave a trail. <userinput>"
-"forward</userinput> can be abbreviated to <userinput>fw</userinput>"
+"pixels. When the pen is down the turtle will leave a trail. "
+"<userinput>forward</userinput> can be abbreviated to <userinput>fw</"
+"userinput>"
 msgstr ""
 
 #. Tag: term
@@ -586,8 +588,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<userinput>backward</userinput> moves the turtle backward by the amount of X "
-"pixels. When the pen is down the turtle will leave a trail. <userinput>"
-"backward</userinput> can be abbreviated to <userinput>bw</userinput>."
+"pixels. When the pen is down the turtle will leave a trail. "
+"<userinput>backward</userinput> can be abbreviated to <userinput>bw</"
+"userinput>."
 msgstr ""
 
 #. Tag: term
@@ -613,8 +616,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<userinput>turnleft</userinput> commands the turtle to turn an amount of X "
-"degrees to the left. <userinput>turnleft</userinput> "
-"can be abbreviated to <userinput>tl</userinput>."
+"degrees to the left. <userinput>turnleft</userinput> can be abbreviated to "
+"<userinput>tl</userinput>."
 msgstr ""
 
 #. Tag: term
@@ -639,9 +642,9 @@ msgstr ""
 #: programming-reference.docbook:197
 #, no-c-format
 msgid ""
-"<userinput>turnright</userinput> the turtle to turn an amount of X degrees to "
-"the right. <userinput>turnright</userinput> can be abbreviated to <userinput>"
-"tr</userinput>."
+"<userinput>turnright</userinput> the turtle to turn an amount of X degrees "
+"to the right. <userinput>turnright</userinput> can be abbreviated to "
+"<userinput>tr</userinput>."
 msgstr ""
 
 #. Tag: term
@@ -666,10 +669,10 @@ msgstr ""
 #: programming-reference.docbook:205
 #, no-c-format
 msgid ""
-"<userinput>direction</userinput> set the turtle's direction to an amount of X "
-"degrees counting from zero, and thus is not relative to the turtle's previous "
-"direction. <userinput>direction</userinput> can be abbreviated to <userinput>"
-"dir</userinput>."
+"<userinput>direction</userinput> set the turtle's direction to an amount of "
+"X degrees counting from zero, and thus is not relative to the turtle's "
+"previous direction. <userinput>direction</userinput> can be abbreviated to "
+"<userinput>dir</userinput>."
 msgstr ""
 
 #. Tag: term
@@ -694,9 +697,9 @@ msgstr ""
 #: programming-reference.docbook:213
 #, no-c-format
 msgid ""
-"<userinput>getdirection</userinput> returns the turtle's direction as an amount "
-"of degrees counting from zero, where zero is the direction when the turtle is "
-"pointing upwards."
+"<userinput>getdirection</userinput> returns the turtle's direction as an "
+"amount of degrees counting from zero, where zero is the direction when the "
+"turtle is pointing upwards."
 msgstr ""
 
 #. Tag: term
@@ -746,10 +749,10 @@ msgstr ""
 #: programming-reference.docbook:229
 #, no-c-format
 msgid ""
-"<userinput>go</userinput> commands the turtle to go to a certain place on the "
-"canvas. This place is X <glossterm linkend=\"pixels\">pixels</glossterm> "
-"from the left of the canvas, and Y <glossterm linkend=\"pixels\">"
-"pixels</glossterm> from the top of the canvas."
+"<userinput>go</userinput> commands the turtle to go to a certain place on "
+"the canvas. This place is X <glossterm linkend=\"pixels\">pixels</glossterm> "
+"from the left of the canvas, and Y <glossterm linkend=\"pixels\">pixels</"
+"glossterm> from the top of the canvas."
 msgstr ""
 
 #. Tag: term
@@ -776,8 +779,8 @@ msgstr ""
 msgid ""
 "<userinput>gox</userinput> using this command the turtle will move to X "
 "<glossterm linkend=\"pixels\">pixels</glossterm> from the left of the canvas "
-"whilst staying at the same height. <userinput>gox</userinput> "
-"can be abbreviated to <userinput>gx</userinput>."
+"whilst staying at the same height. <userinput>gox</userinput> can be "
+"abbreviated to <userinput>gx</userinput>."
 msgstr ""
 
 #. Tag: term
@@ -812,9 +815,9 @@ msgstr ""
 #: programming-reference.docbook:249
 #, no-c-format
 msgid ""
-"Using the commands <userinput>go</userinput>, <userinput>gox</userinput>"
-", <userinput>goy</userinput> and <userinput>center</userinput> "
-"the turtle will not draw a line, no matter if the pen is up or down."
+"Using the commands <userinput>go</userinput>, <userinput>gox</userinput>, "
+"<userinput>goy</userinput> and <userinput>center</userinput> the turtle will "
+"not draw a line, no matter if the pen is up or down."
 msgstr ""
 
 #. Tag: title
@@ -846,8 +849,8 @@ msgstr ""
 #: programming-reference.docbook:261
 #, no-c-format
 msgid ""
-"<userinput>getx</userinput> returns the number of pixels from the left of the "
-"canvas to the current position of the turtle."
+"<userinput>getx</userinput> returns the number of pixels from the left of "
+"the canvas to the current position of the turtle."
 msgstr ""
 
 #. Tag: term
@@ -880,8 +883,8 @@ msgstr ""
 #: programming-reference.docbook:277
 #, no-c-format
 msgid ""
-"The turtle has a pen that draws a line when the turtle moves. There are a few "
-"commands to control the pen. In this section we explain these commands."
+"The turtle has a pen that draws a line when the turtle moves. There are a "
+"few commands to control the pen. In this section we explain these commands."
 msgstr ""
 
 #. Tag: term
@@ -908,8 +911,8 @@ msgstr ""
 msgid ""
 "<userinput>penup</userinput> lifts the pen from the canvas. When the pen is "
 "<quote>up</quote> no line will be drawn when the turtle moves. See also "
-"<userinput>pendown</userinput>. <userinput>penup</userinput> "
-"can be abbreviated to <userinput>pu</userinput>."
+"<userinput>pendown</userinput>. <userinput>penup</userinput> can be "
+"abbreviated to <userinput>pu</userinput>."
 msgstr ""
 
 #. Tag: term
@@ -934,10 +937,10 @@ msgstr ""
 #: programming-reference.docbook:290
 #, no-c-format
 msgid ""
-"<userinput>pendown</userinput> presses the pen down on the canvas. When the pen "
-"is press <quote>down</quote> on the canvas a line will be drawn when the turtle "
-"moves. See also <userinput>penup</userinput>. <userinput>pendown</userinput> "
-"can be abbreviated to <userinput>pd</userinput>."
+"<userinput>pendown</userinput> presses the pen down on the canvas. When the "
+"pen is press <quote>down</quote> on the canvas a line will be drawn when the "
+"turtle moves. See also <userinput>penup</userinput>. <userinput>pendown</"
+"userinput> can be abbreviated to <userinput>pd</userinput>."
 msgstr ""
 
 #. Tag: term
@@ -962,9 +965,10 @@ msgstr ""
 #: programming-reference.docbook:298
 #, no-c-format
 msgid ""
-"<userinput>penwidth</userinput> sets the width of the pen (the line width) to "
-"an amount of X <glossterm linkend=\"pixels\">pixels</glossterm>. <userinput>"
-"penwidth</userinput> can be abbreviated to <userinput>pw</userinput>."
+"<userinput>penwidth</userinput> sets the width of the pen (the line width) "
+"to an amount of X <glossterm linkend=\"pixels\">pixels</glossterm>. "
+"<userinput>penwidth</userinput> can be abbreviated to <userinput>pw</"
+"userinput>."
 msgstr ""
 
 #. Tag: term
@@ -989,10 +993,10 @@ msgstr ""
 #: programming-reference.docbook:306
 #, no-c-format
 msgid ""
-"<userinput>pencolor</userinput> sets the color of the pen. <userinput>"
-"pencolor</userinput> takes an <glossterm linkend=\"rgb\">"
-"RGB combination</glossterm> as input. <userinput>pencolor</userinput> "
-"can be abbreviated to <userinput>pc</userinput>."
+"<userinput>pencolor</userinput> sets the color of the pen. "
+"<userinput>pencolor</userinput> takes an <glossterm linkend=\"rgb\">RGB "
+"combination</glossterm> as input. <userinput>pencolor</userinput> can be "
+"abbreviated to <userinput>pc</userinput>."
 msgstr ""
 
 #. Tag: title
@@ -1029,11 +1033,12 @@ msgstr ""
 #: programming-reference.docbook:319
 #, no-c-format
 msgid ""
-"With the <userinput>canvassize</userinput> command you can set the size of the "
-"canvas. It takes X and Y as input, where X is the new canvas width in "
+"With the <userinput>canvassize</userinput> command you can set the size of "
+"the canvas. It takes X and Y as input, where X is the new canvas width in "
 "<glossterm linkend=\"pixels\">pixels</glossterm>, and Y is the new height of "
-"the canvas in <glossterm linkend=\"pixels\">pixels</glossterm>. <userinput>"
-"canvassize</userinput> can be abbreviated to <userinput>cs</userinput>."
+"the canvas in <glossterm linkend=\"pixels\">pixels</glossterm>. "
+"<userinput>canvassize</userinput> can be abbreviated to <userinput>cs</"
+"userinput>."
 msgstr ""
 
 #. Tag: term
@@ -1058,10 +1063,10 @@ msgstr ""
 #: programming-reference.docbook:327
 #, no-c-format
 msgid ""
-"<userinput>canvascolor</userinput> set the color of the canvas. <userinput>"
-"canvascolor</userinput> takes an <glossterm linkend=\"rgb\">"
-"RGB combination</glossterm> as input. <userinput>canvascolor</userinput> "
-"can be abbreviated to <userinput>cc</userinput>."
+"<userinput>canvascolor</userinput> set the color of the canvas. "
+"<userinput>canvascolor</userinput> takes an <glossterm linkend=\"rgb\">RGB "
+"combination</glossterm> as input. <userinput>canvascolor</userinput> can be "
+"abbreviated to <userinput>cc</userinput>."
 msgstr ""
 
 #. Tag: title
@@ -1099,9 +1104,9 @@ msgstr ""
 #: programming-reference.docbook:340
 #, no-c-format
 msgid ""
-"With <userinput>clear</userinput> you can clean all drawings from the canvas. "
-"All other things remain: the position and angle of the turtle, the canvascolor, "
-"the visibility of the turtle, and the canvas size."
+"With <userinput>clear</userinput> you can clean all drawings from the "
+"canvas. All other things remain: the position and angle of the turtle, the "
+"canvascolor, the visibility of the turtle, and the canvas size."
 msgstr ""
 
 #. Tag: term
@@ -1126,12 +1131,12 @@ msgstr ""
 #: programming-reference.docbook:348
 #, no-c-format
 msgid ""
-"<userinput>reset</userinput> cleans much more thoroughly than the <userinput>"
-"clear</userinput> command. After a <userinput>reset</userinput> "
+"<userinput>reset</userinput> cleans much more thoroughly than the "
+"<userinput>clear</userinput> command. After a <userinput>reset</userinput> "
 "command everything is like is was when you had just started &kturtle;. The "
 "turtle is positioned at the middle of the screen, the canvas color is white, "
-"the turtle draws a black line on the canvas and the canvassize is set to 400 x "
-"400 pixels."
+"the turtle draws a black line on the canvas and the canvassize is set to 400 "
+"x 400 pixels."
 msgstr ""
 
 #. Tag: title
@@ -1144,9 +1149,9 @@ msgstr ""
 #: programming-reference.docbook:356
 #, no-c-format
 msgid ""
-"First a brief explanation of what sprites are: sprites are small pictures that "
-"can be moved around the screen, like we often see in computer games. Our turtle "
-"is also a sprite. For more info see the glossary on <glossterm "
+"First a brief explanation of what sprites are: sprites are small pictures "
+"that can be moved around the screen, like we often see in computer games. "
+"Our turtle is also a sprite. For more info see the glossary on <glossterm "
 "linkend=\"sprites\">sprites</glossterm>."
 msgstr ""
 
@@ -1161,9 +1166,9 @@ msgstr ""
 #: programming-reference.docbook:358
 #, no-c-format
 msgid ""
-"[The current version of &kturtle; does not yet support the use of sprites other "
-"than the turtle. With future versions you will be able to change the turtle "
-"into something of your own design]"
+"[The current version of &kturtle; does not yet support the use of sprites "
+"other than the turtle. With future versions you will be able to change the "
+"turtle into something of your own design]"
 msgstr ""
 
 #. Tag: term
@@ -1188,9 +1193,9 @@ msgstr ""
 #: programming-reference.docbook:363
 #, no-c-format
 msgid ""
-"<userinput>spriteshow</userinput> makes the turtle visible again after it has "
-"been hidden. <userinput>spriteshow</userinput> can be abbreviated to <userinput>"
-"ss</userinput>."
+"<userinput>spriteshow</userinput> makes the turtle visible again after it "
+"has been hidden. <userinput>spriteshow</userinput> can be abbreviated to "
+"<userinput>ss</userinput>."
 msgstr ""
 
 #. Tag: term
@@ -1216,8 +1221,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<userinput>spritehide</userinput> hides the turtle. This can be used if the "
-"turtle does not fit in your drawing. <userinput>spritehide</userinput> "
-"can be abbreviated to <userinput>sh</userinput>."
+"turtle does not fit in your drawing. <userinput>spritehide</userinput> can "
+"be abbreviated to <userinput>sh</userinput>."
 msgstr ""
 
 #. Tag: title
@@ -1230,8 +1235,8 @@ msgstr ""
 #: programming-reference.docbook:379
 #, no-c-format
 msgid ""
-"The answer is: <quote>yes</quote>. The turtle can write: it writes just about "
-"everything you command it to."
+"The answer is: <quote>yes</quote>. The turtle can write: it writes just "
+"about everything you command it to."
 msgstr ""
 
 #. Tag: term
@@ -1256,11 +1261,10 @@ msgstr ""
 #: programming-reference.docbook:384
 #, no-c-format
 msgid ""
-"The <userinput>print</userinput> command is used to command the turtle to write "
-"something on the canvas. <userinput>print</userinput> "
-"takes numbers and strings as input. You can <userinput>print</userinput> "
-"various numbers and strings using the <quote>+</quote> "
-"symbol. See here a small example:"
+"The <userinput>print</userinput> command is used to command the turtle to "
+"write something on the canvas. <userinput>print</userinput> takes numbers "
+"and strings as input. You can <userinput>print</userinput> various numbers "
+"and strings using the <quote>+</quote> symbol. See here a small example:"
 msgstr ""
 
 #. Tag: screen
@@ -1296,9 +1300,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<userinput>fontsize</userinput> sets the size of the font that is used by "
-"<userinput>print</userinput>. <userinput>fontsize</userinput> "
-"takes one input which should be a number. The size is set in <glossterm "
-"linkend=\"pixels\">pixels</glossterm>."
+"<userinput>print</userinput>. <userinput>fontsize</userinput> takes one "
+"input which should be a number. The size is set in <glossterm linkend="
+"\"pixels\">pixels</glossterm>."
 msgstr ""
 
 #. Tag: title
@@ -1336,7 +1340,8 @@ msgstr ""
 #: programming-reference.docbook:407
 #, no-c-format
 msgid ""
-"<userinput>round</userinput> the given number to the nearest integer. <screen>\n"
+"<userinput>round</userinput> the given number to the nearest integer. "
+"<screen>\n"
 "print round(10.8)\n"
 "forward 20\n"
 "print round(10.3)\n"
@@ -1365,18 +1370,18 @@ msgstr ""
 #: programming-reference.docbook:417
 #, no-c-format
 msgid ""
-"<userinput>random</userinput> is a command that takes input and gives output. "
-"As input are required two numbers, the first (X) sets the minimum output, the "
-"second (Y) sets the maximum. The output is a randomly chosen number that is "
-"equal or greater than the minimum and equal or smaller than the maximum. Here a "
-"small example: <screen>\n"
+"<userinput>random</userinput> is a command that takes input and gives "
+"output. As input are required two numbers, the first (X) sets the minimum "
+"output, the second (Y) sets the maximum. The output is a randomly chosen "
+"number that is equal or greater than the minimum and equal or smaller than "
+"the maximum. Here a small example: <screen>\n"
 "repeat 500 {\n"
 "  $x = random 1,20\n"
 "  forward $x\n"
 "  turnleft 10 - $x\n"
 "}\n"
-"</screen> Using the <userinput>random</userinput> command you can add a bit of "
-"chaos to your program."
+"</screen> Using the <userinput>random</userinput> command you can add a bit "
+"of chaos to your program."
 msgstr ""
 
 #. Tag: term
@@ -1459,8 +1464,8 @@ msgstr ""
 #: programming-reference.docbook:462
 #, no-c-format
 msgid ""
-"sin<indexterm><primary>sin</primary></indexterm>, cos<indexterm><primary>"
-"cos</primary></indexterm>, tan"
+"sin<indexterm><primary>sin</primary></indexterm>, "
+"cos<indexterm><primary>cos</primary></indexterm>, tan"
 msgstr ""
 
 #. Tag: primary
@@ -1483,17 +1488,17 @@ msgstr ""
 #, no-c-format
 msgid ""
 "These three commands represent the world famous trigoniometrical functions "
-"<userinput>sin</userinput>, <userinput>cos</userinput> and <userinput>"
-"tan</userinput>. The input argument of these commands, X, is a <link "
-"linkend=\"number\">number</link>."
+"<userinput>sin</userinput>, <userinput>cos</userinput> and <userinput>tan</"
+"userinput>. The input argument of these commands, X, is a <link linkend="
+"\"number\">number</link>."
 msgstr ""
 
 #. Tag: term
 #: programming-reference.docbook:473
 #, no-c-format
 msgid ""
-"arcsin<indexterm><primary>arcsin</primary></indexterm>, arccos<indexterm>"
-"<primary>arccos</primary></indexterm>, arctan"
+"arcsin<indexterm><primary>arcsin</primary></indexterm>, "
+"arccos<indexterm><primary>arccos</primary></indexterm>, arctan"
 msgstr ""
 
 #. Tag: primary
@@ -1515,10 +1520,10 @@ msgstr ""
 #: programming-reference.docbook:475
 #, no-c-format
 msgid ""
-"These commands are the inverse functions of <link linkend=\"sin\">sin</link>"
-", <link linkend=\"cos\">cos</link> and <link linkend=\"tan\">tan</link>"
-". The input argument of these commands, X, is a <link linkend=\"number\">"
-"number</link>."
+"These commands are the inverse functions of <link linkend=\"sin\">sin</"
+"link>, <link linkend=\"cos\">cos</link> and <link linkend=\"tan\">tan</"
+"link>. The input argument of these commands, X, is a <link linkend=\"number"
+"\">number</link>."
 msgstr ""
 
 #. Tag: title
@@ -1531,9 +1536,9 @@ msgstr ""
 #: programming-reference.docbook:483
 #, no-c-format
 msgid ""
-"A dialog is a small pop-up window that provides some feedback or asks for some "
-"input. &kturtle; has two commands for dialogs, namely: <userinput>"
-"message</userinput> and <userinput>ask</userinput>"
+"A dialog is a small pop-up window that provides some feedback or asks for "
+"some input. &kturtle; has two commands for dialogs, namely: "
+"<userinput>message</userinput> and <userinput>ask</userinput>"
 msgstr ""
 
 #. Tag: term
@@ -1558,9 +1563,9 @@ msgstr ""
 #: programming-reference.docbook:488
 #, no-c-format
 msgid ""
-"The <userinput>message</userinput> command takes a <link linkend=\"string\">"
-"string</link> as input. It shows a pop-up dialog containing the text from the "
-"<link linkend=\"string\">string</link>."
+"The <userinput>message</userinput> command takes a <link linkend=\"string"
+"\">string</link> as input. It shows a pop-up dialog containing the text from "
+"the <link linkend=\"string\">string</link>."
 msgstr ""
 
 #. Tag: screen
@@ -1592,19 +1597,19 @@ msgstr ""
 #: programming-reference.docbook:498
 #, no-c-format
 msgid ""
-"<userinput>ask</userinput> takes a <link linkend=\"string\">string</link> "
-"as input. It shows this string in a pop-up dialog (similar to <link "
-"linkend=\"message\">message</link>), along with an input field. After the user "
-"has entered a <link linkend=\"number\">number</link> "
-"or a <link linkend=\"string\">string</link> into this, the result can be stored "
-"in a <link linkend=\"assignment-of-variables\">variable</link> "
-"or passed as an argument to a <link linkend=\"commands\">command</link>"
-". For example: <screen>\n"
+"<userinput>ask</userinput> takes a <link linkend=\"string\">string</link> as "
+"input. It shows this string in a pop-up dialog (similar to <link linkend="
+"\"message\">message</link>), along with an input field. After the user has "
+"entered a <link linkend=\"number\">number</link> or a <link linkend=\"string"
+"\">string</link> into this, the result can be stored in a <link linkend="
+"\"assignment-of-variables\">variable</link> or passed as an argument to a "
+"<link linkend=\"commands\">command</link>. For example: <screen>\n"
 "$in = ask \"What is your year of birth?\"\n"
 "$out = 2003 - $in\n"
 "print \"In 2003 you were \" + $out + \" years old at some point.\"\n"
-"</screen> If the user cancels the input dialog, or does not enter anything at "
-"all, the <link linkend=\"assignment-of-variables\">variable</link> is empty."
+"</screen> If the user cancels the input dialog, or does not enter anything "
+"at all, the <link linkend=\"assignment-of-variables\">variable</link> is "
+"empty."
 msgstr ""
 
 #. Tag: title
@@ -1625,21 +1630,20 @@ msgstr ""
 #: programming-reference.docbook:516
 #, no-c-format
 msgid ""
-"Variables are words that start with a <quote>$</quote>"
-", in the <link linkend=\"the-editor\">editor</link> they are <glossterm>"
-"highlighted</glossterm> with purple."
+"Variables are words that start with a <quote>$</quote>, in the <link linkend="
+"\"the-editor\">editor</link> they are <glossterm>highlighted</glossterm> "
+"with purple."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:518
 #, no-c-format
 msgid ""
-"Variables can contain any <link linkend=\"number\">number</link>"
-", <link linkend=\"string\">string</link> or <link linkend=\"boolean-value\">"
-"boolean (true/false) value</link>. Using the assignment, <userinput>"
-"=</userinput>, a variable is given its content. It will keep that content until "
-"the program finishes executing or until the variable is reassigned to something "
-"else."
+"Variables can contain any <link linkend=\"number\">number</link>, <link "
+"linkend=\"string\">string</link> or <link linkend=\"boolean-value\">boolean "
+"(true/false) value</link>. Using the assignment, <userinput>=</userinput>, a "
+"variable is given its content. It will keep that content until the program "
+"finishes executing or until the variable is reassigned to something else."
 msgstr ""
 
 #. Tag: para
@@ -1651,13 +1655,13 @@ msgid ""
 "$x = 10\n"
 "$x = $x / 3\n"
 "print $x\n"
-"</screen> First the variable <userinput>$x</userinput> "
-"is assigned to <userinput>10</userinput>. Then <userinput>$x</userinput> "
-"is reassigned to itself divided by <userinput>3</userinput> "
-"&mdash; this effectively means <userinput>$x</userinput> "
-"is reassigned to product of <userinput>10 / 3</userinput>. Finally <userinput>"
-"$x</userinput> is printed. In line two and three you see that <userinput>"
-"$x</userinput> is used as if it is its contents."
+"</screen> First the variable <userinput>$x</userinput> is assigned to "
+"<userinput>10</userinput>. Then <userinput>$x</userinput> is reassigned to "
+"itself divided by <userinput>3</userinput> &mdash; this effectively means "
+"<userinput>$x</userinput> is reassigned to product of <userinput>10 / 3</"
+"userinput>. Finally <userinput>$x</userinput> is printed. In line two and "
+"three you see that <userinput>$x</userinput> is used as if it is its "
+"contents."
 msgstr ""
 
 #. Tag: para
@@ -1682,15 +1686,16 @@ msgid ""
 "backward 30\n"
 "# the next command prints \"2004 plus 25 equals 2029\"\n"
 "print $a + \" plus \" + $b + \" equals \" + ($a + $b)\n"
-"</screen> In the first two lines the variables <userinput>$a</userinput> "
-"and <userinput>$b</userinput> are set to 2004 and 25. Then in two <userinput>"
-"print</userinput> commands with a <userinput>backward 30</userinput> "
-"in between are executed. The comments before the <userinput>print</userinput> "
-"commands explain what they are doing. The command <userinput>"
-"backward 30</userinput> is there to make sure every output is on a new line. As "
-"you see variables can be used just as if their where what they contain, you can "
-"use them with any kind of <link linkend=\"operators\">operators</link> "
-"or give them as input when invoking <link linkend=\"commands\">commands</link>."
+"</screen> In the first two lines the variables <userinput>$a</userinput> and "
+"<userinput>$b</userinput> are set to 2004 and 25. Then in two "
+"<userinput>print</userinput> commands with a <userinput>backward 30</"
+"userinput> in between are executed. The comments before the "
+"<userinput>print</userinput> commands explain what they are doing. The "
+"command <userinput>backward 30</userinput> is there to make sure every "
+"output is on a new line. As you see variables can be used just as if their "
+"where what they contain, you can use them with any kind of <link linkend="
+"\"operators\">operators</link> or give them as input when invoking <link "
+"linkend=\"commands\">commands</link>."
 msgstr ""
 
 #. Tag: para
@@ -1709,8 +1714,8 @@ msgstr ""
 #: programming-reference.docbook:538
 #, no-c-format
 msgid ""
-"When using variables the <link linkend=\"the-inspector\">inspector</link> "
-"is very helpful. It shows you the contents of all variables that are currently "
+"When using variables the <link linkend=\"the-inspector\">inspector</link> is "
+"very helpful. It shows you the contents of all variables that are currently "
 "in use."
 msgstr ""
 
@@ -1724,18 +1729,18 @@ msgstr ""
 #: programming-reference.docbook:545
 #, no-c-format
 msgid ""
-"The execution controllers enable you &mdash; as their name implies &mdash; to "
-"control execution."
+"The execution controllers enable you &mdash; as their name implies &mdash; "
+"to control execution."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:546
 #, no-c-format
 msgid ""
-"Execution controlling commands are <glossterm>highlighted</glossterm> "
-"with dark green in a bold font type. The brackets are mostly used together with "
-"execution controllers and they are <glossterm>highlighted</glossterm> "
-"with black."
+"Execution controlling commands are <glossterm>highlighted</glossterm> with "
+"dark green in a bold font type. The brackets are mostly used together with "
+"execution controllers and they are <glossterm>highlighted</glossterm> with "
+"black."
 msgstr ""
 
 #. Tag: title
@@ -1748,9 +1753,9 @@ msgstr ""
 #: programming-reference.docbook:550
 #, no-c-format
 msgid ""
-"If you have done some programming in &kturtle; you have might noticed that the "
-"turtle can be very quick at drawing. This command makes the turtle wait for a "
-"given amount of time."
+"If you have done some programming in &kturtle; you have might noticed that "
+"the turtle can be very quick at drawing. This command makes the turtle wait "
+"for a given amount of time."
 msgstr ""
 
 #. Tag: term
@@ -1813,19 +1818,19 @@ msgstr ""
 #: programming-reference.docbook:568
 #, no-c-format
 msgid ""
-"The code that is placed between the brackets will only be executed <userinput>"
-"if</userinput> the <link linkend=\"boolean-value\">boolean value</link> "
-"evaluates <quote>true</quote>. <screen>\n"
+"The code that is placed between the brackets will only be executed "
+"<userinput>if</userinput> the <link linkend=\"boolean-value\">boolean value</"
+"link> evaluates <quote>true</quote>. <screen>\n"
 "$x = 6\n"
 "if $x &gt; 5 {\n"
 "  print \"$x is greater than five!\"\n"
 "}\n"
-"</screen> On the first line <userinput>$x</userinput> "
-"is set to 6. On the second line a <link linkend=\"comparing-operators\">"
-"comparing operator</link> is used to evaluate <userinput>$x &gt; 5</userinput>"
-". Since this evaluates <quote>true</quote>, 6 is larger than 5, the execution "
-"controller <userinput>if</userinput> will allow the code between the brackets "
-"to be executed."
+"</screen> On the first line <userinput>$x</userinput> is set to 6. On the "
+"second line a <link linkend=\"comparing-operators\">comparing operator</"
+"link> is used to evaluate <userinput>$x &gt; 5</userinput>. Since this "
+"evaluates <quote>true</quote>, 6 is larger than 5, the execution controller "
+"<userinput>if</userinput> will allow the code between the brackets to be "
+"executed."
 msgstr ""
 
 #. Tag: title
@@ -1856,11 +1861,11 @@ msgstr ""
 #: programming-reference.docbook:581
 #, no-c-format
 msgid ""
-"<userinput>else</userinput> can be used in addition to the execution controller "
-"<link linkend=\"if\"><userinput>if</userinput></link>"
-". The code between the brackets after <userinput>else</userinput> "
-"is only executed if the <link linkend=\"boolean-value\">boolean</link> "
-"evaluates <quote>false</quote>. <screen>\n"
+"<userinput>else</userinput> can be used in addition to the execution "
+"controller <link linkend=\"if\"><userinput>if</userinput></link>. The code "
+"between the brackets after <userinput>else</userinput> is only executed if "
+"the <link linkend=\"boolean-value\">boolean</link> evaluates <quote>false</"
+"quote>. <screen>\n"
 "reset\n"
 "$x = 4\n"
 "if $x &gt; 5 {\n"
@@ -1868,11 +1873,11 @@ msgid ""
 "} else {\n"
 "  print \"$x is smaller than six!\"\n"
 "}\n"
-"</screen> The <link linkend=\"comparing-operators\">comparing operator</link> "
-"evaluates the expression <userinput>$x &gt; 5</userinput>"
-". Since 4 is not greater than 5 the expression evaluates <quote>false</quote>"
-". This means the code between the brackets after <userinput>else</userinput> "
-"gets executed."
+"</screen> The <link linkend=\"comparing-operators\">comparing operator</"
+"link> evaluates the expression <userinput>$x &gt; 5</userinput>. Since 4 is "
+"not greater than 5 the expression evaluates <quote>false</quote>. This means "
+"the code between the brackets after <userinput>else</userinput> gets "
+"executed."
 msgstr ""
 
 #. Tag: title
@@ -1903,26 +1908,25 @@ msgstr ""
 #: programming-reference.docbook:594
 #, no-c-format
 msgid ""
-"The execution controller <userinput>while</userinput> "
-"is a lot like <link linkend=\"if\"><userinput>if</userinput></link>"
-". The difference is that <userinput>while</userinput> "
-"keeps repeating (looping) the code between the brackets until the <link "
-"linkend=\"boolean-value\">boolean</link> evaluates <quote>false</quote>"
-". <screen>\n"
+"The execution controller <userinput>while</userinput> is a lot like <link "
+"linkend=\"if\"><userinput>if</userinput></link>. The difference is that "
+"<userinput>while</userinput> keeps repeating (looping) the code between the "
+"brackets until the <link linkend=\"boolean-value\">boolean</link> evaluates "
+"<quote>false</quote>. <screen>\n"
 "$x = 1\n"
 "while $x &lt; 5 {\n"
 "  forward 10\n"
 "  wait 1\n"
 "  $x = $x + 1\n"
 "}\n"
-"</screen> On the first line <userinput>$x</userinput> "
-"is set to 1. On the second line <userinput>$x &lt; 5</userinput> "
-"is evaluated. Since the answer to this question is <quote>true</quote> "
-"the execution controller <userinput>while</userinput> "
-"starts executing the code between the brackets until the <userinput>"
-"$x &lt; 5</userinput> evaluates <quote>false</quote>"
-". In this case the code between the brackets will be executed 4 times, because "
-"every time the fifth line is executed <userinput>$x</userinput> increases by 1."
+"</screen> On the first line <userinput>$x</userinput> is set to 1. On the "
+"second line <userinput>$x &lt; 5</userinput> is evaluated. Since the answer "
+"to this question is <quote>true</quote> the execution controller "
+"<userinput>while</userinput> starts executing the code between the brackets "
+"until the <userinput>$x &lt; 5</userinput> evaluates <quote>false</quote>. "
+"In this case the code between the brackets will be executed 4 times, because "
+"every time the fifth line is executed <userinput>$x</userinput> increases by "
+"1."
 msgstr ""
 
 #. Tag: title
@@ -1953,11 +1957,10 @@ msgstr ""
 #: programming-reference.docbook:607
 #, no-c-format
 msgid ""
-"The execution controller <userinput>repeat</userinput> "
-"is a lot like <link linkend=\"while\"><userinput>while</userinput></link>"
-". The difference is that <userinput>repeat</userinput> "
-"keeps repeating (looping) the code between the brackets for as many times as "
-"the given number."
+"The execution controller <userinput>repeat</userinput> is a lot like <link "
+"linkend=\"while\"><userinput>while</userinput></link>. The difference is "
+"that <userinput>repeat</userinput> keeps repeating (looping) the code "
+"between the brackets for as many times as the given number."
 msgstr ""
 
 #. Tag: title
@@ -1988,28 +1991,28 @@ msgstr ""
 #: programming-reference.docbook:618
 #, no-c-format
 msgid ""
-"for <link linkend=\"assignment-of-variables\">variable</link> "
-"= <link linkend=\"number\">number</link> to <link linkend=\"number\">"
-"number</link> { ... }"
+"for <link linkend=\"assignment-of-variables\">variable</link> = <link "
+"linkend=\"number\">number</link> to <link linkend=\"number\">number</link> "
+"{ ... }"
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:618
 #, no-c-format
 msgid ""
-"The <userinput>for</userinput> loop is a <quote>counting loop</quote>"
-", &ie; it keeps count for you. The first number sets the variable to the value "
-"in the first loop. Every loop the number is increased until the second number "
+"The <userinput>for</userinput> loop is a <quote>counting loop</quote>, &ie; "
+"it keeps count for you. The first number sets the variable to the value in "
+"the first loop. Every loop the number is increased until the second number "
 "is reached. <screen>\n"
 "for $x = 1 to 10 {\n"
 "  print $x * 7\n"
 "  forward 15\n"
 "}\n"
-"</screen> Every time the code between the brackets is executed the <userinput>"
-"$x</userinput> is increased by 1, until <userinput>$x</userinput> "
+"</screen> Every time the code between the brackets is executed the "
+"<userinput>$x</userinput> is increased by 1, until <userinput>$x</userinput> "
 "reaches the value of 10. The code between the brackets prints the <userinput>"
-"$x</userinput> multiplied by 7. After this program finishes its execution you "
-"will see the times table of 7 on the canvas."
+"$x</userinput> multiplied by 7. After this program finishes its execution "
+"you will see the times table of 7 on the canvas."
 msgstr ""
 
 #. Tag: para
@@ -2022,9 +2025,9 @@ msgstr ""
 #: programming-reference.docbook:625
 #, no-c-format
 msgid ""
-"for <link linkend=\"assignment-of-variables\">variable</link> "
-"= <link linkend=\"number\">number</link> to <link linkend=\"number\">"
-"number</link> step <link linkend=\"number\">number</link> { ... }"
+"for <link linkend=\"assignment-of-variables\">variable</link> = <link "
+"linkend=\"number\">number</link> to <link linkend=\"number\">number</link> "
+"step <link linkend=\"number\">number</link> { ... }"
 msgstr ""
 
 #. Tag: title
@@ -2055,8 +2058,8 @@ msgstr ""
 #: programming-reference.docbook:635
 #, no-c-format
 msgid ""
-"Terminates the current loop immediately and transfers control to the statement "
-"immediately following that loop."
+"Terminates the current loop immediately and transfers control to the "
+"statement immediately following that loop."
 msgstr ""
 
 #. Tag: title
@@ -2139,23 +2142,21 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<userinput>learn</userinput> is special as it is used to create your own "
-"commands. The commands you create can take <glossterm linkend=\"input-output\">"
-"input</glossterm> and return <glossterm linkend=\"input-output\">"
-"output</glossterm>. Let us take a look at how a new command is created: <screen>"
-"\n"
+"commands. The commands you create can take <glossterm linkend=\"input-output"
+"\">input</glossterm> and return <glossterm linkend=\"input-output\">output</"
+"glossterm>. Let us take a look at how a new command is created: <screen>\n"
 "learn circle $x {\n"
 "  repeat 36 {\n"
 "    forward $x\n"
 "    turnleft 10\n"
 "  }\n"
 "}\n"
-"</screen> The new command is called <userinput>circle</userinput>. <userinput>"
-"circle</userinput> takes one <glossterm linkend=\"input-output\">"
-"input</glossterm> argument, to set the size of the circle. <userinput>"
-"circle</userinput> returns no <glossterm linkend=\"input-output\">"
-"output</glossterm>. The <userinput>circle</userinput> "
-"command can now be used like a normal command in the rest of the code. See this "
-"example:"
+"</screen> The new command is called <userinput>circle</userinput>. "
+"<userinput>circle</userinput> takes one <glossterm linkend=\"input-output"
+"\">input</glossterm> argument, to set the size of the circle. "
+"<userinput>circle</userinput> returns no <glossterm linkend=\"input-output"
+"\">output</glossterm>. The <userinput>circle</userinput> command can now be "
+"used like a normal command in the rest of the code. See this example:"
 msgstr ""
 
 #. Tag: screen
@@ -2190,19 +2191,19 @@ msgid ""
 "}\n"
 "\n"
 "print faculty 5\n"
-"</screen> In this example a new command called <userinput>faculty</userinput> "
-"is created. If the input of this command is <userinput>5</userinput> "
-"then the output is <userinput>5*4*3*2*1</userinput>. By using <userinput>"
-"return</userinput> the <glossterm linkend=\"input-output\">output</glossterm> "
-"value is specified and the execution is returned."
+"</screen> In this example a new command called <userinput>faculty</"
+"userinput> is created. If the input of this command is <userinput>5</"
+"userinput> then the output is <userinput>5*4*3*2*1</userinput>. By using "
+"<userinput>return</userinput> the <glossterm linkend=\"input-output"
+"\">output</glossterm> value is specified and the execution is returned."
 msgstr ""
 
 #. Tag: para
 #: programming-reference.docbook:696
 #, no-c-format
 msgid ""
-"Commands can have more than one <glossterm linkend=\"input-output\">"
-"input</glossterm>. In the next example, a command that draws a rectangle is "
+"Commands can have more than one <glossterm linkend=\"input-output\">input</"
+"glossterm>. In the next example, a command that draws a rectangle is "
 "created: <screen>\n"
 "learn box $x, $y {\n"
 "  forward $y\n"
@@ -2214,6 +2215,6 @@ msgid ""
 "  forward $x\n"
 "  turnright 90\n"
 "}\n"
-"</screen> Now you can run <userinput>box 50, 100</userinput> "
-"and the turtle will draw a rectangle on the canvas."
+"</screen> Now you can run <userinput>box 50, 100</userinput> and the turtle "
+"will draw a rectangle on the canvas."
 msgstr ""

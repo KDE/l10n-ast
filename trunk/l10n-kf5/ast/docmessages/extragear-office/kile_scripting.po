@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,11 +31,11 @@ msgstr ""
 #: scripting.docbook:7
 #, no-c-format
 msgid ""
-"&kile;'s scripting feature allows the execution of <ulink "
-"url=\"http://en.wikipedia.org/wiki/ECMAScript\">ECMAScript</ulink> "
-"code, widely known as &javascript;. You will find a lot of tutorials, which "
-"provide information about objects (variables), functions and properties "
-"supported by &javascript;."
+"&kile;'s scripting feature allows the execution of <ulink url=\"http://en."
+"wikipedia.org/wiki/ECMAScript\">ECMAScript</ulink> code, widely known as "
+"&javascript;. You will find a lot of tutorials, which provide information "
+"about objects (variables), functions and properties supported by "
+"&javascript;."
 msgstr ""
 
 #. Tag: para
@@ -42,9 +43,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Scripting support can be enabled in the configuration dialog of &kile;: "
-"<menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure "
-"Kile...</guisubmenu> <guimenuitem>Kile</guimenuitem><guilabel>"
-"Scripting</guilabel></menuchoice>."
+"<menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure Kile...</"
+"guisubmenu> <guimenuitem>Kile</guimenuitem><guilabel>Scripting</guilabel></"
+"menuchoice>."
 msgstr ""
 
 #. Tag: screeninfo
@@ -119,8 +120,8 @@ msgstr ""
 #: scripting.docbook:46
 #, no-c-format
 msgid ""
-"Refresh the list of available scripts, which are all found in <filename>$<envar>"
-"KDEDIR</envar>/share/apps/kile/scripts/</filename>."
+"Refresh the list of available scripts, which are all found in <filename>"
+"$<envar>KDEDIR</envar>/share/apps/kile/scripts/</filename>."
 msgstr ""
 
 #. Tag: title
@@ -177,8 +178,8 @@ msgstr ""
 #: scripting.docbook:84
 #, no-c-format
 msgid ""
-"You can assign a keyboard shortcut to a script using the <guilabel>"
-"Configure</guilabel> button in the script management widget."
+"You can assign a keyboard shortcut to a script using the "
+"<guilabel>Configure</guilabel> button in the script management widget."
 msgstr ""
 
 #. Tag: screeninfo
@@ -217,9 +218,10 @@ msgstr ""
 #: scripting.docbook:110
 #, no-c-format
 msgid ""
-"This method can be extended to a rather sophisticated kind of code completion. "
-"Let us assume that you have a written a script, which simply inserts the "
-"&latex; command <userinput>\\textbf{}</userinput> into the current document."
+"This method can be extended to a rather sophisticated kind of code "
+"completion. Let us assume that you have a written a script, which simply "
+"inserts the &latex; command <userinput>\\textbf{}</userinput> into the "
+"current document."
 msgstr ""
 
 #. Tag: programlisting
@@ -232,10 +234,10 @@ msgstr ""
 #: scripting.docbook:114
 #, no-c-format
 msgid ""
-"If you now type the assigned key sequence <userinput>bfx</userinput> "
-"in your text document, this key sequence will be removed and the script will be "
-"executed. It will insert <userinput>\\textbf{}</userinput> "
-"and the cursor is placed between the braces."
+"If you now type the assigned key sequence <userinput>bfx</userinput> in your "
+"text document, this key sequence will be removed and the script will be "
+"executed. It will insert <userinput>\\textbf{}</userinput> and the cursor is "
+"placed between the braces."
 msgstr ""
 
 #. Tag: screeninfo
@@ -269,28 +271,29 @@ msgid ""
 "The scripting API presented here is available in all scripts. Before the "
 "contents of a script is loaded, &kile; first adds several prototypes and "
 "functions to the scripting context. This convenience API contains prototypes "
-"like text cursors and text ranges and is located in the folder <filename>"
-"KILE_APP_DIR/script-plugins/</filename>."
+"like text cursors and text ranges and is located in the folder "
+"<filename>KILE_APP_DIR/script-plugins/</filename>."
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:137
 #, no-c-format
 msgid ""
-"&kile; scripts differ slightly from <ulink url=\"http://kate-editor.org\">"
-"&kate;</ulink> scripts, which use another design, as they also can be started "
-"from the command line. But all functions of the &kate; scripting API are also "
-"available in &kile;'s scripting API, so porting &javascript; code from &kate; "
-"to &kile; should be very easy. But as &kile; is a very rich featured &latex; "
-"editor, its own scripting API offers many more possibilities than &kate;'s one."
+"&kile; scripts differ slightly from <ulink url=\"http://kate-editor.org"
+"\">&kate;</ulink> scripts, which use another design, as they also can be "
+"started from the command line. But all functions of the &kate; scripting API "
+"are also available in &kile;'s scripting API, so porting &javascript; code "
+"from &kate; to &kile; should be very easy. But as &kile; is a very rich "
+"featured &latex; editor, its own scripting API offers many more "
+"possibilities than &kate;'s one."
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:139
 #, no-c-format
 msgid ""
-"<emphasis>Remark: </emphasis>Description of API calls, which are also available "
-"in &kate; scripting, have been taken from &kate;'s documentation."
+"<emphasis>Remark: </emphasis>Description of API calls, which are also "
+"available in &kate; scripting, have been taken from &kate;'s documentation."
 msgstr ""
 
 #. Tag: title
@@ -316,8 +319,8 @@ msgstr ""
 #: scripting.docbook:149
 #, no-c-format
 msgid ""
-"Prints <parameter>text</parameter> to <literal>stdout</literal> "
-"in the console. The printed text is colored to distinguish it from other debug "
+"Prints <parameter>text</parameter> to <literal>stdout</literal> in the "
+"console. The printed text is colored to distinguish it from other debug "
 "output."
 msgstr ""
 
@@ -332,8 +335,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "As &kile; is a text editor, all the scripting API is based on cursors and "
-"ranges whenever possible. A Cursor is a simple <literal>(line, column)</literal> "
-"tuple representing a text position in the document."
+"ranges whenever possible. A Cursor is a simple <literal>(line, column)</"
+"literal> tuple representing a text position in the document."
 msgstr ""
 
 #. Tag: synopsis
@@ -358,8 +361,8 @@ msgstr ""
 #: scripting.docbook:172
 #, no-c-format
 msgid ""
-"Cursor(<parameter>int <replaceable>line</replaceable></parameter>, <parameter>"
-"int <replaceable>column</replaceable></parameter>);"
+"Cursor(<parameter>int <replaceable>line</replaceable></parameter>, "
+"<parameter>int <replaceable>column</replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -421,8 +424,8 @@ msgstr ""
 #: scripting.docbook:200
 #, no-c-format
 msgid ""
-"Check whether the cursor is valid. The cursor is invalid if line and/or column "
-"are set to <literal>-1</literal>."
+"Check whether the cursor is valid. The cursor is invalid if line and/or "
+"column are set to <literal>-1</literal>."
 msgstr ""
 
 #. Tag: para
@@ -453,8 +456,8 @@ msgstr ""
 #: scripting.docbook:218
 #, no-c-format
 msgid ""
-"int Cursor.compareTo(<parameter>Cursor <replaceable>other</replaceable>"
-"</parameter>);"
+"int Cursor.compareTo(<parameter>Cursor <replaceable>other</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -468,8 +471,8 @@ msgstr ""
 #: scripting.docbook:222
 #, no-c-format
 msgid ""
-"<literal>-1</literal>, if this cursor is located before the cursor <parameter>"
-"other</parameter>,"
+"<literal>-1</literal>, if this cursor is located before the cursor "
+"<parameter>other</parameter>,"
 msgstr ""
 
 #. Tag: para
@@ -482,24 +485,24 @@ msgstr ""
 #: scripting.docbook:224
 #, no-c-format
 msgid ""
-"<literal>+1</literal>, if this cursor is located after the cursor <parameter>"
-"other</parameter>."
+"<literal>+1</literal>, if this cursor is located after the cursor "
+"<parameter>other</parameter>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:230
 #, no-c-format
 msgid ""
-"bool Cursor.equals(<parameter>Cursor <replaceable>other</replaceable>"
-"</parameter>);"
+"bool Cursor.equals(<parameter>Cursor <replaceable>other</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:231
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if this cursor and the cursor <parameter>"
-"other</parameter> are equal, otherwise <literal>false</literal>."
+"Returns <literal>true</literal>, if this cursor and the cursor "
+"<parameter>other</parameter> are equal, otherwise <literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
@@ -512,8 +515,8 @@ msgstr ""
 #: scripting.docbook:238
 #, no-c-format
 msgid ""
-"Returns the cursor as a string of the form <literal>"
-"Cursor(line,column)</literal>."
+"Returns the cursor as a string of the form <literal>Cursor(line,column)</"
+"literal>."
 msgstr ""
 
 #. Tag: title
@@ -527,9 +530,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "As &kile; is a text editor, all the scripting API is based on cursors and "
-"ranges whenever possible. As Cursor is a simple <literal>"
-"(line, column)</literal> tuple representing a text position in the document, a "
-"Range spans text from a starting cursor position to an ending cursor position."
+"ranges whenever possible. As Cursor is a simple <literal>(line, column)</"
+"literal> tuple representing a text position in the document, a Range spans "
+"text from a starting cursor position to an ending cursor position."
 msgstr ""
 
 #. Tag: synopsis
@@ -542,24 +545,24 @@ msgstr ""
 #: scripting.docbook:253
 #, no-c-format
 msgid ""
-"Constructor: Calling <literal>new Range()</literal> returns a Range at <literal>"
-"(0,0) - (0,0)</literal>."
+"Constructor: Calling <literal>new Range()</literal> returns a Range at "
+"<literal>(0,0) - (0,0)</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:259
 #, no-c-format
 msgid ""
-"Range(<parameter>Cursor <replaceable>start</replaceable></parameter>"
-", <parameter>Cursor <replaceable>end</replaceable></parameter>);"
+"Range(<parameter>Cursor <replaceable>start</replaceable></parameter>, "
+"<parameter>Cursor <replaceable>end</replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:260
 #, no-c-format
 msgid ""
-"Constructor: Calling <literal>new Range(<replaceable>start</replaceable>"
-", <replaceable>end</replaceable>)</literal> returns the range from cursor "
+"Constructor: Calling <literal>new Range(<replaceable>start</replaceable>, "
+"<replaceable>end</replaceable>)</literal> returns the range from cursor "
 "<parameter>start</parameter> to cursor <parameter>end</parameter>."
 msgstr ""
 
@@ -567,21 +570,21 @@ msgstr ""
 #: scripting.docbook:266
 #, no-c-format
 msgid ""
-"Range(<parameter>int <replaceable>startLine</replaceable></parameter>"
-", <parameter>int <replaceable>startColumn</replaceable></parameter>, <parameter>"
-"int <replaceable>endLine</replaceable></parameter>, <parameter>int <replaceable>"
-"endColumn</replaceable></parameter>);"
+"Range(<parameter>int <replaceable>startLine</replaceable></parameter>, "
+"<parameter>int <replaceable>startColumn</replaceable></parameter>, "
+"<parameter>int <replaceable>endLine</replaceable></parameter>, "
+"<parameter>int <replaceable>endColumn</replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:267
 #, no-c-format
 msgid ""
-"Constructor: Calling <literal>new Range(<replaceable>startLine</replaceable>"
-",<replaceable>startColumn</replaceable>,<replaceable>endLine</replaceable>"
-", <replaceable>endColumn</replaceable>)</literal> returns the Range from "
-"(<literal>startLine</literal>, <literal>startColumn</literal>) to (<literal>"
-"endLine</literal>, <literal>endColumn</literal>)."
+"Constructor: Calling <literal>new Range(<replaceable>startLine</replaceable>,"
+"<replaceable>startColumn</replaceable>,<replaceable>endLine</replaceable>, "
+"<replaceable>endColumn</replaceable>)</literal> returns the Range from "
+"(<literal>startLine</literal>, <literal>startColumn</literal>) to "
+"(<literal>endLine</literal>, <literal>endColumn</literal>)."
 msgstr ""
 
 #. Tag: synopsis
@@ -650,8 +653,8 @@ msgstr ""
 #: scripting.docbook:306
 #, no-c-format
 msgid ""
-"bool Range.contains(<parameter>Cursor <replaceable>cursor</replaceable>"
-"</parameter>);"
+"bool Range.contains(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -666,116 +669,117 @@ msgstr ""
 #: scripting.docbook:313
 #, no-c-format
 msgid ""
-"bool Range.contains(<parameter>Range <replaceable>other</replaceable>"
-"</parameter>);"
+"bool Range.contains(<parameter>Range <replaceable>other</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:314
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if this range contains the Range <parameter>"
-"other</parameter>, otherwise <literal>false</literal>."
+"Returns <literal>true</literal>, if this range contains the Range "
+"<parameter>other</parameter>, otherwise <literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:320
 #, no-c-format
 msgid ""
-"bool Range.containsColumn(<parameter>int <replaceable>column</replaceable>"
-"</parameter>);"
+"bool Range.containsColumn(<parameter>int <replaceable>column</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:321
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if <parameter>column</parameter> "
-"is in the half open interval <literal>[start.column, end.column]</literal>"
-", otherwise <literal>false</literal>."
+"Returns <literal>true</literal>, if <parameter>column</parameter> is in the "
+"half open interval <literal>[start.column, end.column]</literal>, otherwise "
+"<literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:327
 #, no-c-format
 msgid ""
-"bool Range.containsLine(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"bool Range.containsLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:328
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if <parameter>line</parameter> "
-"is in the half open interval <literal>[start.line, end.line]</literal>"
-", otherwise <literal>false</literal>."
+"Returns <literal>true</literal>, if <parameter>line</parameter> is in the "
+"half open interval <literal>[start.line, end.line]</literal>, otherwise "
+"<literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:334
 #, no-c-format
 msgid ""
-"bool Range.overlaps(<parameter>Range <replaceable>other</replaceable>"
-"</parameter>);"
+"bool Range.overlaps(<parameter>Range <replaceable>other</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:335
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if this range and the range <parameter>"
-"other</parameter> share a common region, otherwise <literal>false</literal>."
+"Returns <literal>true</literal>, if this range and the range "
+"<parameter>other</parameter> share a common region, otherwise "
+"<literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:341
 #, no-c-format
 msgid ""
-"bool Range.overlapsLine(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"bool Range.overlapsLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:342
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if <parameter>line</parameter> "
-"is in the interval <literal>[start.line, end.line]</literal>"
-", otherwise <literal>false</literal>."
+"Returns <literal>true</literal>, if <parameter>line</parameter> is in the "
+"interval <literal>[start.line, end.line]</literal>, otherwise "
+"<literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:348
 #, no-c-format
 msgid ""
-"bool Range.overlapsColumn(<parameter>int <replaceable>column</replaceable>"
-"</parameter>);"
+"bool Range.overlapsColumn(<parameter>int <replaceable>column</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:349
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if <parameter>column</parameter> "
-"is in the interval <literal>[start.column, end.column]</literal>"
-", otherwise <literal>false</literal>."
+"Returns <literal>true</literal>, if <parameter>column</parameter> is in the "
+"interval <literal>[start.column, end.column]</literal>, otherwise "
+"<literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:355
 #, no-c-format
 msgid ""
-"bool Range.equals(<parameter>Range <replaceable>other</replaceable></parameter>"
-");"
+"bool Range.equals(<parameter>Range <replaceable>other</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:356
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if this range and the Range <parameter>"
-"other</parameter> are equal, otherwise <literal>false</literal>."
+"Returns <literal>true</literal>, if this range and the Range "
+"<parameter>other</parameter> are equal, otherwise <literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
@@ -788,8 +792,8 @@ msgstr ""
 #: scripting.docbook:363
 #, no-c-format
 msgid ""
-"Returns the range as a string of the form <literal>Range(Cursor(line,column) - "
-"Cursor(line,column))</literal>."
+"Returns the range as a string of the form <literal>Range(Cursor(line,column) "
+"- Cursor(line,column))</literal>."
 msgstr ""
 
 #. Tag: title
@@ -837,18 +841,18 @@ msgstr ""
 #: scripting.docbook:391
 #, no-c-format
 msgid ""
-"void view.setCursorPosition(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"void view.setCursorPosition(<parameter>Cursor <replaceable>cursor</replaceable>"
-"</parameter>);"
+"void view.setCursorPosition(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
+"void view.setCursorPosition(<parameter>Cursor <replaceable>cursor</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:392
 #, no-c-format
 msgid ""
-"Set the current cursor position to either <parameter>line</parameter>"
-", <parameter>column</parameter> or to the given <parameter>cursor</parameter>."
+"Set the current cursor position to either <parameter>line</parameter>, "
+"<parameter>column</parameter> or to the given <parameter>cursor</parameter>."
 msgstr ""
 
 #. Tag: synopsis
@@ -927,8 +931,8 @@ msgstr ""
 #: scripting.docbook:440
 #, no-c-format
 msgid ""
-"void view.setCursorLine(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"void view.setCursorLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -941,8 +945,8 @@ msgstr ""
 #: scripting.docbook:447
 #, no-c-format
 msgid ""
-"void view.setCursorColumn(<parameter>int <replaceable>column</replaceable>"
-"</parameter>);"
+"void view.setCursorColumn(<parameter>int <replaceable>column</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -961,11 +965,11 @@ msgstr ""
 #: scripting.docbook:455
 #, no-c-format
 msgid ""
-"Get the current <emphasis>virtual</emphasis> cursor position. <emphasis>"
-"Virtual</emphasis> means the tabulator character (TAB) counts <emphasis>"
-"multiple</emphasis> characters, as configured by the user (e.g. one TAB is 8 "
-"spaces). The virtual cursor position provides access to the user visible values "
-"of the current cursor position."
+"Get the current <emphasis>virtual</emphasis> cursor position. "
+"<emphasis>Virtual</emphasis> means the tabulator character (TAB) counts "
+"<emphasis>multiple</emphasis> characters, as configured by the user (e.g. "
+"one TAB is 8 spaces). The virtual cursor position provides access to the "
+"user visible values of the current cursor position."
 msgstr ""
 
 #. Tag: synopsis
@@ -1006,16 +1010,16 @@ msgstr ""
 #: scripting.docbook:476
 #, no-c-format
 msgid ""
-"Returns the selected text range. The returned range is invalid if there is no "
-"selected text."
+"Returns the selected text range. The returned range is invalid if there is "
+"no selected text."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:482
 #, no-c-format
 msgid ""
-"void view.setSelection(<parameter>Range <replaceable>range</replaceable>"
-"</parameter>);"
+"void view.setSelection(<parameter>Range <replaceable>range</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1078,8 +1082,8 @@ msgstr ""
 #: scripting.docbook:517
 #, no-c-format
 msgid ""
-"void view.selectLine(<parameter>int <replaceable>line</replaceable></parameter>"
-");"
+"void view.selectLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1092,16 +1096,16 @@ msgstr ""
 #: scripting.docbook:524
 #, no-c-format
 msgid ""
-"void view.selectLines(<parameter>int <replaceable>from</replaceable></parameter>"
-", <parameter>int <replaceable>to</replaceable></parameter>);"
+"void view.selectLines(<parameter>int <replaceable>from</replaceable></"
+"parameter>, <parameter>int <replaceable>to</replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:525
 #, no-c-format
 msgid ""
-"Selects the entire text from line <parameter>from</parameter> "
-"to line <parameter>to</parameter>."
+"Selects the entire text from line <parameter>from</parameter> to line "
+"<parameter>to</parameter>."
 msgstr ""
 
 #. Tag: synopsis
@@ -1114,8 +1118,8 @@ msgstr ""
 #: scripting.docbook:532
 #, no-c-format
 msgid ""
-"Selects the current word. If no word is found at the current cursor position, "
-"nothing is done."
+"Selects the current word. If no word is found at the current cursor "
+"position, nothing is done."
 msgstr ""
 
 #. Tag: synopsis
@@ -1136,37 +1140,37 @@ msgstr ""
 #: scripting.docbook:545
 #, no-c-format
 msgid ""
-"void view.selectEnvironment(<parameter>bool <replaceable>"
-"inside = false</replaceable></parameter>);"
+"void view.selectEnvironment(<parameter>bool <replaceable>inside = false</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:546
 #, no-c-format
 msgid ""
-"Selects the entire text of the current &latex; environment. If <parameter>"
-"inside</parameter> is <literal>false</literal>, the environment text including "
-"the surrounding &latex; tags <userinput>\\begin{...}...\\end{...}</userinput> "
-"will be selected, else without these tags. If no parameter is given, <parameter>"
-"inside</parameter> is set to <literal>false</literal>."
+"Selects the entire text of the current &latex; environment. If "
+"<parameter>inside</parameter> is <literal>false</literal>, the environment "
+"text including the surrounding &latex; tags <userinput>\\begin{...}...\\end"
+"{...}</userinput> will be selected, else without these tags. If no parameter "
+"is given, <parameter>inside</parameter> is set to <literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:552
 #, no-c-format
 msgid ""
-"void view.selectTexgroup(<parameter>bool <replaceable>"
-"inside = true</replaceable></parameter>);"
+"void view.selectTexgroup(<parameter>bool <replaceable>inside = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:553
 #, no-c-format
 msgid ""
-"Selects the text of the current &latex; group. If <parameter>inside</parameter> "
-"is <literal>true</literal>, only the texgroup without the surrounding braces "
-"will be selected. If no parameter is given, <parameter>inside</parameter> "
-"is set to <literal>true</literal>."
+"Selects the text of the current &latex; group. If <parameter>inside</"
+"parameter> is <literal>true</literal>, only the texgroup without the "
+"surrounding braces will be selected. If no parameter is given, "
+"<parameter>inside</parameter> is set to <literal>true</literal>."
 msgstr ""
 
 #. Tag: synopsis
@@ -1191,11 +1195,11 @@ msgstr ""
 #: scripting.docbook:567
 #, no-c-format
 msgid ""
-"Selects the entire text of the current &latex; paragraph. If <parameter>"
-"wholeLines</parameter> is <literal>true</literal>, the first and the last lines "
-"of the paragraph will be included in the selection entirely (including the "
-"end-of-line character); otherwise, the selection will only contain "
-"non-whitespace characters."
+"Selects the entire text of the current &latex; paragraph. If "
+"<parameter>wholeLines</parameter> is <literal>true</literal>, the first and "
+"the last lines of the paragraph will be included in the selection entirely "
+"(including the end-of-line character); otherwise, the selection will only "
+"contain non-whitespace characters."
 msgstr ""
 
 #. Tag: title
@@ -1209,16 +1213,17 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Whenever a script is being executed, there is a global object (variable) "
-"<userinput>document</userinput> representing the current active document. The "
-"following is a list of all available <userinput>document</userinput> functions."
+"<userinput>document</userinput> representing the current active document. "
+"The following is a list of all available <userinput>document</userinput> "
+"functions."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:581
 #, no-c-format
 msgid ""
-"void document.insertText(<parameter>String <replaceable>text</replaceable>"
-"</parameter>);"
+"void document.insertText(<parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1231,11 +1236,12 @@ msgstr ""
 #: scripting.docbook:588
 #, no-c-format
 msgid ""
-"void document.insertText(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>int <replaceable>column</replaceable></parameter>"
-", <parameter>String <replaceable>text</replaceable></parameter>);\n"
-"void document.insertText(<parameter>Cursor <replaceable>cursor</replaceable>"
-"</parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
+"void document.insertText(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>, "
+"<parameter>String <replaceable>text</replaceable></parameter>);\n"
+"void document.insertText(<parameter>Cursor <replaceable>cursor</"
+"replaceable></parameter>, <parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1248,30 +1254,30 @@ msgstr ""
 #: scripting.docbook:595
 #, no-c-format
 msgid ""
-"bool document.removeText(<parameter>int <replaceable>fromLine</replaceable>"
-"</parameter>, <parameter>int <replaceable>fromColumn</replaceable></parameter>"
-", <parameter>int <replaceable>toLine</replaceable></parameter>, <parameter>"
-"int <replaceable>toColumn</replaceable></parameter>);\n"
-"bool document.removeText(<parameter>Cursor <replaceable>from</replaceable>"
-"</parameter>, <parameter>Cursor <replaceable>to</replaceable></parameter>);\n"
-"bool document.removeText(<parameter>Range <replaceable>range</replaceable>"
-"</parameter>);"
+"bool document.removeText(<parameter>int <replaceable>fromLine</replaceable></"
+"parameter>, <parameter>int <replaceable>fromColumn</replaceable></"
+"parameter>, <parameter>int <replaceable>toLine</replaceable></parameter>, "
+"<parameter>int <replaceable>toColumn</replaceable></parameter>);\n"
+"bool document.removeText(<parameter>Cursor <replaceable>from</replaceable></"
+"parameter>, <parameter>Cursor <replaceable>to</replaceable></parameter>);\n"
+"bool document.removeText(<parameter>Range <replaceable>range</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:596
 #, no-c-format
 msgid ""
-"Removes the text in the given range. Returns <literal>true</literal> "
-"on success, or <literal>false</literal>, if the document is in read-only mode."
+"Removes the text in the given range. Returns <literal>true</literal> on "
+"success, or <literal>false</literal>, if the document is in read-only mode."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:602
 #, no-c-format
 msgid ""
-"bool document.replaceText(<parameter>Range <replaceable>range</replaceable>"
-"</parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
+"bool document.replaceText(<parameter>Range <replaceable>range</replaceable></"
+"parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1346,14 +1352,14 @@ msgstr ""
 #: scripting.docbook:645
 #, no-c-format
 msgid ""
-"String document.text(<parameter>int <replaceable>fromLine</replaceable>"
-"</parameter>, <parameter>int <replaceable>fromColumn</replaceable></parameter>"
-", <parameter>int <replaceable>toLine</replaceable></parameter>, <parameter>"
-"int <replaceable>toColumn</replaceable></parameter>);\n"
-"String document.text(<parameter>Cursor <replaceable>from</replaceable>"
-"</parameter>, <parameter>Cursor <replaceable>to</replaceable></parameter>);\n"
-"String document.text(<parameter>Range <replaceable>range</replaceable>"
-"</parameter>);"
+"String document.text(<parameter>int <replaceable>fromLine</replaceable></"
+"parameter>, <parameter>int <replaceable>fromColumn</replaceable></"
+"parameter>, <parameter>int <replaceable>toLine</replaceable></parameter>, "
+"<parameter>int <replaceable>toColumn</replaceable></parameter>);\n"
+"String document.text(<parameter>Cursor <replaceable>from</replaceable></"
+"parameter>, <parameter>Cursor <replaceable>to</replaceable></parameter>);\n"
+"String document.text(<parameter>Range <replaceable>range</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1368,8 +1374,8 @@ msgstr ""
 #: scripting.docbook:652
 #, no-c-format
 msgid ""
-"bool document.setText(<parameter>String <replaceable>text</replaceable>"
-"</parameter>);"
+"bool document.setText(<parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1406,8 +1412,8 @@ msgstr ""
 #: scripting.docbook:673
 #, no-c-format
 msgid ""
-"String document.line(<parameter>int <replaceable>line</replaceable></parameter>"
-");"
+"String document.line(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1434,8 +1440,8 @@ msgstr ""
 #: scripting.docbook:687
 #, no-c-format
 msgid ""
-"int document.lineLength(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"int document.lineLength(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1448,16 +1454,16 @@ msgstr ""
 #: scripting.docbook:694
 #, no-c-format
 msgid ""
-"bool document.insertLine(<parameter>String <replaceable>s</replaceable>"
-"</parameter>);"
+"bool document.insertLine(<parameter>String <replaceable>s</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:695
 #, no-c-format
 msgid ""
-"Inserts text in the current line. Returns <literal>true</literal> "
-"on success, or <literal>false</literal>, if the document is in read-only mode "
+"Inserts text in the current line. Returns <literal>true</literal> on "
+"success, or <literal>false</literal>, if the document is in read-only mode "
 "or the line is not in the document range."
 msgstr ""
 
@@ -1465,17 +1471,17 @@ msgstr ""
 #: scripting.docbook:701
 #, no-c-format
 msgid ""
-"bool document.insertLine(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>String <replaceable>s</replaceable></parameter>);"
+"bool document.insertLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>String <replaceable>s</replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:702
 #, no-c-format
 msgid ""
-"Inserts text in the given line. Returns <literal>true</literal> "
-"on success, or <literal>false</literal>, if the document is in read-only mode "
-"or the line is not in the document range."
+"Inserts text in the given line. Returns <literal>true</literal> on success, "
+"or <literal>false</literal>, if the document is in read-only mode or the "
+"line is not in the document range."
 msgstr ""
 
 #. Tag: synopsis
@@ -1488,33 +1494,33 @@ msgstr ""
 #: scripting.docbook:709
 #, no-c-format
 msgid ""
-"Removes the current text line. Returns <literal>true</literal> "
-"on success, or <literal>false</literal>, if the document is in read-only mode."
+"Removes the current text line. Returns <literal>true</literal> on success, "
+"or <literal>false</literal>, if the document is in read-only mode."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:715
 #, no-c-format
 msgid ""
-"bool document.removeLine(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"bool document.removeLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:716
 #, no-c-format
 msgid ""
-"Removes the given text line. Returns <literal>true</literal> "
-"on success, or <literal>false</literal>, if the document is in read-only mode "
-"or the line is not in the document range."
+"Removes the given text line. Returns <literal>true</literal> on success, or "
+"<literal>false</literal>, if the document is in read-only mode or the line "
+"is not in the document range."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:722
 #, no-c-format
 msgid ""
-"bool document.replaceLine(<parameter>String <replaceable>text</replaceable>"
-"</parameter>);"
+"bool document.replaceLine(<parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1527,8 +1533,8 @@ msgstr ""
 #: scripting.docbook:729
 #, no-c-format
 msgid ""
-"bool document.replaceLine(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
+"bool document.replaceLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1548,18 +1554,18 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Truncate the current line at the given column or cursor position. Returns "
-"<literal>true</literal> on success, or <literal>false</literal> "
-"if the given line is not part of the document range."
+"<literal>true</literal> on success, or <literal>false</literal> if the given "
+"line is not part of the document range."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:743
 #, no-c-format
 msgid ""
-"bool document.truncate(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"bool document.truncate(<parameter>Cursor <replaceable>cursor</replaceable>"
-"</parameter>);"
+"bool document.truncate(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
+"bool document.truncate(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1567,8 +1573,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Truncate the given line at the given column or cursor position. Returns "
-"<literal>true</literal> on success, or <literal>false</literal> "
-"if the given line is not part of the document range."
+"<literal>true</literal> on success, or <literal>false</literal> if the given "
+"line is not part of the document range."
 msgstr ""
 
 #. Tag: synopsis
@@ -1589,10 +1595,10 @@ msgstr ""
 #: scripting.docbook:757
 #, no-c-format
 msgid ""
-"String document.wordAt(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"String document.wordAt(<parameter>Cursor <replaceable>cursor</replaceable>"
-"</parameter>);"
+"String document.wordAt(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
+"String document.wordAt(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1614,8 +1620,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Returns the range of the word at the given cursor position. If no word is "
-"found, <literal>Range.invalid()</literal> is returned, which can be tested with "
-"<literal>Range.isValid()</literal>."
+"found, <literal>Range.invalid()</literal> is returned, which can be tested "
+"with <literal>Range.isValid()</literal>."
 msgstr ""
 
 #. Tag: synopsis
@@ -1636,10 +1642,11 @@ msgstr ""
 #: scripting.docbook:778
 #, no-c-format
 msgid ""
-"String document.latexCommandAt(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"String document.latexCommandAt(<parameter>Cursor <replaceable>"
-"cursor</replaceable></parameter>);"
+"String document.latexCommandAt(<parameter>int <replaceable>line</"
+"replaceable></parameter>, <parameter>int <replaceable>column</replaceable></"
+"parameter>);\n"
+"String document.latexCommandAt(<parameter>Cursor <replaceable>cursor</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1661,18 +1668,18 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Returns the range of the &latex; command at the given cursor position. If no "
-"&latex; command is found, <literal>Range.invalid()</literal> "
-"is returned, which can be tested with <literal>Range.isValid()</literal>."
+"&latex; command is found, <literal>Range.invalid()</literal> is returned, "
+"which can be tested with <literal>Range.isValid()</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:792
 #, no-c-format
 msgid ""
-"String document.charAt(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"String document.charAt(<parameter>Cursor <replaceable>cursor</replaceable>"
-"</parameter>);"
+"String document.charAt(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
+"String document.charAt(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -1685,33 +1692,33 @@ msgstr ""
 #: scripting.docbook:799
 #, no-c-format
 msgid ""
-"String document.firstChar(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"String document.firstChar(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:800
 #, no-c-format
 msgid ""
-"Returns the first character in the given <parameter>line</parameter> "
-"that is not a whitespace. The first character is at column 0. If the line is "
-"empty or only contains whitespace characters, the returned string is empty."
+"Returns the first character in the given <parameter>line</parameter> that is "
+"not a whitespace. The first character is at column 0. If the line is empty "
+"or only contains whitespace characters, the returned string is empty."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:806
 #, no-c-format
 msgid ""
-"String document.lastChar(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"String document.lastChar(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:807
 #, no-c-format
 msgid ""
-"Returns the last character in the given <parameter>line</parameter> "
-"that is not a whitespace. If the line is empty or only contains whitespace "
+"Returns the last character in the given <parameter>line</parameter> that is "
+"not a whitespace. If the line is empty or only contains whitespace "
 "characters, the returned string is empty."
 msgstr ""
 
@@ -1719,18 +1726,18 @@ msgstr ""
 #: scripting.docbook:813
 #, no-c-format
 msgid ""
-"bool document.isSpace(<parameter>int <replaceable>line</replaceable></parameter>"
-", <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"bool document.isSpace(<parameter>Cursor <replaceable>cursor</replaceable>"
-"</parameter>);"
+"bool document.isSpace(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
+"bool document.isSpace(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:814
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if the character at the given cursor position "
-"is a whitespace, otherwise <literal>false</literal>."
+"Returns <literal>true</literal>, if the character at the given cursor "
+"position is a whitespace, otherwise <literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
@@ -1743,9 +1750,9 @@ msgstr ""
 #: scripting.docbook:821
 #, no-c-format
 msgid ""
-"Insert a &kile; <emphasis>bullet</emphasis>. Remember that you can easily jump "
-"to the next or previous bullet. This will also highlight this bullet so that it "
-"will be deleted automatically, when you enter your first letter."
+"Insert a &kile; <emphasis>bullet</emphasis>. Remember that you can easily "
+"jump to the next or previous bullet. This will also highlight this bullet so "
+"that it will be deleted automatically, when you enter your first letter."
 msgstr ""
 
 #. Tag: synopsis
@@ -1782,49 +1789,49 @@ msgstr ""
 #: scripting.docbook:842
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal> if a surrounding &latex; environment is found, "
-"else <literal>false</literal>."
+"Returns <literal>true</literal> if a surrounding &latex; environment is "
+"found, else <literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:848
 #, no-c-format
 msgid ""
-"String document.environment(<parameter>bool <replaceable>"
-"inside = false</replaceable></parameter>);"
+"String document.environment(<parameter>bool <replaceable>inside = false</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:849
 #, no-c-format
 msgid ""
-"Returns the entire text of the surrounding &latex; environment. If <parameter>"
-"inside</parameter> is <literal>false</literal>, the environment text including "
-"the surrounding &latex; tags <userinput>\\begin{...}...\\end{...}</userinput> "
-"will be returned, else without these tags. If no parameter is given, <parameter>"
-"inside</parameter> is set to <literal>false</literal>"
-". If no environment is found, the returned string is empty."
+"Returns the entire text of the surrounding &latex; environment. If "
+"<parameter>inside</parameter> is <literal>false</literal>, the environment "
+"text including the surrounding &latex; tags <userinput>\\begin{...}...\\end"
+"{...}</userinput> will be returned, else without these tags. If no parameter "
+"is given, <parameter>inside</parameter> is set to <literal>false</literal>. "
+"If no environment is found, the returned string is empty."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:855
 #, no-c-format
 msgid ""
-"Range document.environmentRange(<parameter>bool <replaceable>"
-"inside = false</replaceable></parameter>);"
+"Range document.environmentRange(<parameter>bool <replaceable>inside = false</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:856
 #, no-c-format
 msgid ""
-"Returns the range of the surrounding &latex; environment. If <parameter>"
-"inside</parameter> is <literal>false</literal>, the range including the "
-"surrounding &latex; tags <userinput>\\begin{...}...\\end{...}</userinput> "
-"will be returned, else without these tags. If no parameter is given, <parameter>"
-"inside</parameter> is set to <literal>false</literal>"
-". If no environment is found, <literal>Range.invalid()</literal> "
-"is returned, which can be tested with <literal>Range.isValid()</literal>."
+"Returns the range of the surrounding &latex; environment. If "
+"<parameter>inside</parameter> is <literal>false</literal>, the range "
+"including the surrounding &latex; tags <userinput>\\begin{...}...\\end{...}</"
+"userinput> will be returned, else without these tags. If no parameter is "
+"given, <parameter>inside</parameter> is set to <literal>false</literal>. If "
+"no environment is found, <literal>Range.invalid()</literal> is returned, "
+"which can be tested with <literal>Range.isValid()</literal>."
 msgstr ""
 
 #. Tag: synopsis
@@ -1844,19 +1851,19 @@ msgstr ""
 #: scripting.docbook:869
 #, no-c-format
 msgid ""
-"void document.removeEnvironment(<parameter>bool <replaceable>"
-"inside = false</replaceable></parameter>);"
+"void document.removeEnvironment(<parameter>bool <replaceable>inside = false</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:870
 #, no-c-format
 msgid ""
-"Removes the text of the surrounding &latex; environment. If <parameter>"
-"inside</parameter> is <literal>false</literal>, the environment text including "
-"the surrounding &latex; tags <userinput>\\begin{...}...\\end{...}</userinput> "
-"will be removed, else without these tags. If no parameter is given, <parameter>"
-"inside</parameter> is set to <literal>false</literal>."
+"Removes the text of the surrounding &latex; environment. If "
+"<parameter>inside</parameter> is <literal>false</literal>, the environment "
+"text including the surrounding &latex; tags <userinput>\\begin{...}...\\end"
+"{...}</userinput> will be removed, else without these tags. If no parameter "
+"is given, <parameter>inside</parameter> is set to <literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
@@ -1869,8 +1876,8 @@ msgstr ""
 #: scripting.docbook:877
 #, no-c-format
 msgid ""
-"Insert a closing environment tag, if an opened &latex; environment is found at "
-"the current cursor position."
+"Insert a closing environment tag, if an opened &latex; environment is found "
+"at the current cursor position."
 msgstr ""
 
 #. Tag: synopsis
@@ -1883,8 +1890,8 @@ msgstr ""
 #: scripting.docbook:884
 #, no-c-format
 msgid ""
-"Insert closing environment tags for all opened &latex; environments, which were "
-"found at the current cursor position."
+"Insert closing environment tags for all opened &latex; environments, which "
+"were found at the current cursor position."
 msgstr ""
 
 #. Tag: synopsis
@@ -1897,69 +1904,68 @@ msgstr ""
 #: scripting.docbook:891
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal> if a surrounding &latex; group is found at the "
-"current cursor position, else <literal>false</literal>."
+"Returns <literal>true</literal> if a surrounding &latex; group is found at "
+"the current cursor position, else <literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:897
 #, no-c-format
 msgid ""
-"String document.texgroup(<parameter>bool <replaceable>"
-"inside = true</replaceable></parameter>);"
+"String document.texgroup(<parameter>bool <replaceable>inside = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:898
 #, no-c-format
 msgid ""
-"Returns the text of the surrounding &latex; group. If <parameter>"
-"inside</parameter> is <literal>false</literal>, the text of this &latex; group "
-"including the surrounding braces <userinput>{...}</userinput> "
-"will be returned, else without them. If no parameter is given, <parameter>"
-"inside</parameter> is set to <literal>false</literal>"
-". The returned string is empty, if no surrounding &latex; group is found at the "
-"current cursor position."
+"Returns the text of the surrounding &latex; group. If <parameter>inside</"
+"parameter> is <literal>false</literal>, the text of this &latex; group "
+"including the surrounding braces <userinput>{...}</userinput> will be "
+"returned, else without them. If no parameter is given, <parameter>inside</"
+"parameter> is set to <literal>false</literal>. The returned string is empty, "
+"if no surrounding &latex; group is found at the current cursor position."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:904
 #, no-c-format
 msgid ""
-"Range document.texgroupRange(<parameter>bool <replaceable>"
-"inside = true</replaceable></parameter>);"
+"Range document.texgroupRange(<parameter>bool <replaceable>inside = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:905
 #, no-c-format
 msgid ""
-"Returns the range of the surrounding &latex; group. If <parameter>"
-"inside</parameter> is <literal>false</literal>, the range including the "
-"surrounding braces <userinput>{...}</userinput> will be returned, else without "
-"them. If no parameter is given, <parameter>inside</parameter> "
-"is set to <literal>false</literal>. If no group is found, <literal>"
-"Range.invalid()</literal> is returned, which can be tested with <literal>"
-"Range.isValid()</literal>."
+"Returns the range of the surrounding &latex; group. If <parameter>inside</"
+"parameter> is <literal>false</literal>, the range including the surrounding "
+"braces <userinput>{...}</userinput> will be returned, else without them. If "
+"no parameter is given, <parameter>inside</parameter> is set to "
+"<literal>false</literal>. If no group is found, <literal>Range.invalid()</"
+"literal> is returned, which can be tested with <literal>Range.isValid()</"
+"literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:911
 #, no-c-format
 msgid ""
-"void document.removeTexgroup(<parameter>bool <replaceable>"
-"inside = true</replaceable></parameter>);"
+"void document.removeTexgroup(<parameter>bool <replaceable>inside = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:912
 #, no-c-format
 msgid ""
-"Removes the text of the surrounding &latex; group. If <parameter>"
-"inside</parameter> is <literal>false</literal>, the text of this &latex; group "
-"including the surrounding braces <userinput>{...}</userinput> "
-"will be removed, else without them. If no parameter is given, <parameter>"
-"inside</parameter> is set to <literal>false</literal>."
+"Removes the text of the surrounding &latex; group. If <parameter>inside</"
+"parameter> is <literal>false</literal>, the text of this &latex; group "
+"including the surrounding braces <userinput>{...}</userinput> will be "
+"removed, else without them. If no parameter is given, <parameter>inside</"
+"parameter> is set to <literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
@@ -1972,8 +1978,8 @@ msgstr ""
 #: scripting.docbook:919
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal> if a surrounding &latex; mathgroup is found at "
-"the current cursor position, else <literal>false</literal>."
+"Returns <literal>true</literal> if a surrounding &latex; mathgroup is found "
+"at the current cursor position, else <literal>false</literal>."
 msgstr ""
 
 #. Tag: synopsis
@@ -1986,8 +1992,8 @@ msgstr ""
 #: scripting.docbook:926
 #, no-c-format
 msgid ""
-"Returns the text of the surrounding &latex; mathgroup. The returned string is "
-"empty, if no surrounding &latex; mathgroup is found at the current cursor "
+"Returns the text of the surrounding &latex; mathgroup. The returned string "
+"is empty, if no surrounding &latex; mathgroup is found at the current cursor "
 "position."
 msgstr ""
 
@@ -2002,8 +2008,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Returns the range of the surrounding &latex; mathgroup. If there is no "
-"surrounding mathgroup, <literal>Range.invalid()</literal> "
-"is returned, which can be tested with <literal>Range.isValid()</literal>."
+"surrounding mathgroup, <literal>Range.invalid()</literal> is returned, which "
+"can be tested with <literal>Range.isValid()</literal>."
 msgstr ""
 
 #. Tag: synopsis
@@ -2058,11 +2064,11 @@ msgstr ""
 #: scripting.docbook:967
 #, no-c-format
 msgid ""
-"bool document.matchesAt(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>int <replaceable>column</replaceable></parameter>"
-", <parameter>String <replaceable>text</replaceable></parameter>);\n"
-"bool document.matchesAt(<parameter>Cursor <replaceable>cursor</replaceable>"
-"</parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
+"bool document.matchesAt(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>, "
+"<parameter>String <replaceable>text</replaceable></parameter>);\n"
+"bool document.matchesAt(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -2070,150 +2076,152 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the given <parameter>text</parameter> "
-"matches at the corresponding cursor position, otherwise <literal>false</literal>"
-"."
+"matches at the corresponding cursor position, otherwise <literal>false</"
+"literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:974
 #, no-c-format
 msgid ""
-"bool document.startsWith(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>String <replaceable>pattern</replaceable></parameter>"
-", <parameter>bool <replaceable>skipWhiteSpaces = true</replaceable></parameter>"
-");"
+"bool document.startsWith(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>String <replaceable>pattern</replaceable></"
+"parameter>, <parameter>bool <replaceable>skipWhiteSpaces = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:975
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if the line starts with <parameter>"
-"pattern</parameter>, otherwise <literal>false</literal>"
-". The argument <parameter>skipWhiteSpaces</parameter> "
-"controls whether leading whitespaces are ignored."
+"Returns <literal>true</literal>, if the line starts with <parameter>pattern</"
+"parameter>, otherwise <literal>false</literal>. The argument "
+"<parameter>skipWhiteSpaces</parameter> controls whether leading whitespaces "
+"are ignored."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:981
 #, no-c-format
 msgid ""
-"bool document.endsWith(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>String <replaceable>pattern</replaceable></parameter>"
-", <parameter>bool <replaceable>skipWhiteSpaces = true</replaceable></parameter>"
-");"
+"bool document.endsWith(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>String <replaceable>pattern</replaceable></"
+"parameter>, <parameter>bool <replaceable>skipWhiteSpaces = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:982
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if the line ends with <parameter>"
-"pattern</parameter>, otherwise <literal>false</literal>"
-". The argument <parameter>skipWhiteSpaces</parameter> "
-"controls whether trailing whitespaces are ignored."
+"Returns <literal>true</literal>, if the line ends with <parameter>pattern</"
+"parameter>, otherwise <literal>false</literal>. The argument "
+"<parameter>skipWhiteSpaces</parameter> controls whether trailing whitespaces "
+"are ignored."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:988
 #, no-c-format
 msgid ""
-"int document.firstColumn(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"int document.firstColumn(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:989
 #, no-c-format
 msgid ""
-"Returns the first non-whitespace column in the given <parameter>line</parameter>"
-". If there are only whitespaces in the line, the return value is <literal>"
-"-1</literal>."
+"Returns the first non-whitespace column in the given <parameter>line</"
+"parameter>. If there are only whitespaces in the line, the return value is "
+"<literal>-1</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:995
 #, no-c-format
 msgid ""
-"int document.lastColumn(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"int document.lastColumn(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:996
 #, no-c-format
 msgid ""
-"Returns the last non-whitespace column in the given <parameter>line</parameter>"
-". If there are only whitespaces in the line, the return value is <literal>"
-"-1</literal>."
+"Returns the last non-whitespace column in the given <parameter>line</"
+"parameter>. If there are only whitespaces in the line, the return value is "
+"<literal>-1</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1002
 #, no-c-format
 msgid ""
-"int document.prevNonSpaceColumn(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"int document.prevNonSpaceColumn(<parameter>Cursor <replaceable>"
-"cursor</replaceable></parameter>);"
+"int document.prevNonSpaceColumn(<parameter>int <replaceable>line</"
+"replaceable></parameter>, <parameter>int <replaceable>column</replaceable></"
+"parameter>);\n"
+"int document.prevNonSpaceColumn(<parameter>Cursor <replaceable>cursor</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1003
 #, no-c-format
 msgid ""
-"Returns the column with a non-whitespace character starting at the given cursor "
-"position and searching backwards."
+"Returns the column with a non-whitespace character starting at the given "
+"cursor position and searching backwards."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1009
 #, no-c-format
 msgid ""
-"int document.nextNonSpaceColumn(<parameter>int <replaceable>line</replaceable>"
-"</parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"int document.nextNonSpaceColumn(<parameter>Cursor <replaceable>"
-"cursor</replaceable></parameter>);"
+"int document.nextNonSpaceColumn(<parameter>int <replaceable>line</"
+"replaceable></parameter>, <parameter>int <replaceable>column</replaceable></"
+"parameter>);\n"
+"int document.nextNonSpaceColumn(<parameter>Cursor <replaceable>cursor</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1010
 #, no-c-format
 msgid ""
-"Returns the column with a non-whitespace character starting at the given cursor "
-"position and searching forwards."
+"Returns the column with a non-whitespace character starting at the given "
+"cursor position and searching forwards."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1016
 #, no-c-format
 msgid ""
-"int document.prevNonEmptyLine(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"int document.prevNonEmptyLine(<parameter>int <replaceable>line</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1017
 #, no-c-format
 msgid ""
-"Returns the next non-empty line containing non-whitespace characters searching "
-"backwards."
+"Returns the next non-empty line containing non-whitespace characters "
+"searching backwards."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1023
 #, no-c-format
 msgid ""
-"int document.nextNonEmptyLine(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"int document.nextNonEmptyLine(<parameter>int <replaceable>line</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1024
 #, no-c-format
 msgid ""
-"Returns the next non-empty line containing non-whitespace characters searching "
-"forwards."
+"Returns the next non-empty line containing non-whitespace characters "
+"searching forwards."
 msgstr ""
 
 #. Tag: synopsis
@@ -2316,8 +2324,8 @@ msgstr ""
 #: scripting.docbook:1086
 #, no-c-format
 msgid ""
-"void document.gotoLine(<parameter>int <replaceable>line</replaceable>"
-"</parameter>);"
+"void document.gotoLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -2336,8 +2344,8 @@ msgstr ""
 #: scripting.docbook:1094
 #, no-c-format
 msgid ""
-"Insert a <userinput>\\chapter</userinput> command (see also <literal>"
-"document.insertSection()</literal>)."
+"Insert a <userinput>\\chapter</userinput> command (see also "
+"<literal>document.insertSection()</literal>)."
 msgstr ""
 
 #. Tag: synopsis
@@ -2351,9 +2359,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Insert a <userinput>\\section</userinput> command. As with choosing the menu "
-"entry <menuchoice><guimenu>LaTeX</guimenu><guisubmenu>Sectioning</guisubmenu>"
-"<guimenuitem>section</guimenuitem></menuchoice> a dialog will appear, where you "
-"can choose the title and an optional label for this sectioning command."
+"entry <menuchoice><guimenu>LaTeX</guimenu><guisubmenu>Sectioning</"
+"guisubmenu><guimenuitem>section</guimenuitem></menuchoice> a dialog will "
+"appear, where you can choose the title and an optional label for this "
+"sectioning command."
 msgstr ""
 
 #. Tag: screeninfo
@@ -2378,8 +2387,8 @@ msgstr ""
 #: scripting.docbook:1119
 #, no-c-format
 msgid ""
-"Insert a <userinput>\\subsection</userinput> command (see also <literal>"
-"document.insertSection()</literal>)."
+"Insert a <userinput>\\subsection</userinput> command (see also "
+"<literal>document.insertSection()</literal>)."
 msgstr ""
 
 #. Tag: synopsis
@@ -2392,8 +2401,8 @@ msgstr ""
 #: scripting.docbook:1126
 #, no-c-format
 msgid ""
-"Insert a <userinput>\\subsubsection</userinput> command (see also <literal>"
-"document.insertSection()</literal>)."
+"Insert a <userinput>\\subsubsection</userinput> command (see also "
+"<literal>document.insertSection()</literal>)."
 msgstr ""
 
 #. Tag: synopsis
@@ -2406,8 +2415,8 @@ msgstr ""
 #: scripting.docbook:1133
 #, no-c-format
 msgid ""
-"Insert a <userinput>\\paragraph</userinput> command (see also <literal>"
-"document.insertSection()</literal>)."
+"Insert a <userinput>\\paragraph</userinput> command (see also "
+"<literal>document.insertSection()</literal>)."
 msgstr ""
 
 #. Tag: synopsis
@@ -2420,8 +2429,8 @@ msgstr ""
 #: scripting.docbook:1140
 #, no-c-format
 msgid ""
-"Insert a <userinput>\\subparagraph</userinput> command (see also <literal>"
-"document.insertSection()</literal>)."
+"Insert a <userinput>\\subparagraph</userinput> command (see also "
+"<literal>document.insertSection()</literal>)."
 msgstr ""
 
 #. Tag: synopsis
@@ -2446,10 +2455,11 @@ msgstr ""
 #: scripting.docbook:1154
 #, no-c-format
 msgid ""
-"Insert a <userinput>\\ref</userinput> command. As with choosing the menu entry "
-"<menuchoice><guimenu>&latex;</guimenu><guisubmenu>References</guisubmenu>"
-"<guimenuitem>ref</guimenuitem></menuchoice> a dialog will appear, where you can "
-"choose from already defined labels, which are listed in a combobox."
+"Insert a <userinput>\\ref</userinput> command. As with choosing the menu "
+"entry <menuchoice><guimenu>&latex;</guimenu><guisubmenu>References</"
+"guisubmenu><guimenuitem>ref</guimenuitem></menuchoice> a dialog will appear, "
+"where you can choose from already defined labels, which are listed in a "
+"combobox."
 msgstr ""
 
 #. Tag: screeninfo
@@ -2474,8 +2484,8 @@ msgstr ""
 #: scripting.docbook:1172
 #, no-c-format
 msgid ""
-"Insert a <userinput>\\pageref</userinput> command (see also <literal>"
-"document.insertReference()</literal>)."
+"Insert a <userinput>\\pageref</userinput> command (see also "
+"<literal>document.insertReference()</literal>)."
 msgstr ""
 
 #. Tag: synopsis
@@ -2585,8 +2595,8 @@ msgstr ""
 #: scripting.docbook:1236
 #, no-c-format
 msgid ""
-"Joins the lines of the current selection. Two succeeding text lines are always "
-"separated with a single space."
+"Joins the lines of the current selection. Two succeeding text lines are "
+"always separated with a single space."
 msgstr ""
 
 #. Tag: synopsis
@@ -2599,8 +2609,8 @@ msgstr ""
 #: scripting.docbook:1243
 #, no-c-format
 msgid ""
-"Insert a smart newline (see <xref linkend=\"editing_smartnewline\" "
-"role=\"select: title pageabbrv\"/>)."
+"Insert a smart newline (see <xref linkend=\"editing_smartnewline\" role="
+"\"select: title pageabbrv\"/>)."
 msgstr ""
 
 #. Tag: synopsis
@@ -2613,8 +2623,8 @@ msgstr ""
 #: scripting.docbook:1250
 #, no-c-format
 msgid ""
-"Insert a smart tabulator (see <xref linkend=\"editing_tabulator\" "
-"role=\"select: title pageabbrv\"/>)."
+"Insert a smart tabulator (see <xref linkend=\"editing_tabulator\" role="
+"\"select: title pageabbrv\"/>)."
 msgstr ""
 
 #. Tag: synopsis
@@ -2627,10 +2637,10 @@ msgstr ""
 #: scripting.docbook:1257
 #, no-c-format
 msgid ""
-"Starts an edit group for undo/redo grouping. Make sure to always call <function>"
-"editEnd()</function> as often as you call <function>editBegin()</function>"
-". Calling <function>editBegin()</function> internally uses a reference counter, "
-"i.e., this call can be nested."
+"Starts an edit group for undo/redo grouping. Make sure to always call "
+"<function>editEnd()</function> as often as you call <function>editBegin()</"
+"function>. Calling <function>editBegin()</function> internally uses a "
+"reference counter, i.e., this call can be nested."
 msgstr ""
 
 #. Tag: synopsis
@@ -2643,9 +2653,9 @@ msgstr ""
 #: scripting.docbook:1264
 #, no-c-format
 msgid ""
-"Ends an edit group. The last call of <function>editEnd()</function> "
-"(i.e. the one for the first call of <function>editBegin()</function>"
-") finishes the edit step."
+"Ends an edit group. The last call of <function>editEnd()</function> (i.e. "
+"the one for the first call of <function>editBegin()</function>) finishes the "
+"edit step."
 msgstr ""
 
 #. Tag: synopsis
@@ -2658,8 +2668,8 @@ msgstr ""
 #: scripting.docbook:1271
 #, no-c-format
 msgid ""
-"Returns all defined labels as a <literal>StringList</literal>"
-", which can be used in &javascript; as an array of strings."
+"Returns all defined labels as a <literal>StringList</literal>, which can be "
+"used in &javascript; as an array of strings."
 msgstr ""
 
 #. Tag: synopsis
@@ -2672,8 +2682,8 @@ msgstr ""
 #: scripting.docbook:1278
 #, no-c-format
 msgid ""
-"Returns all defined bibitems as a <literal>StringList</literal>"
-", which can be used in &javascript; as an array of strings."
+"Returns all defined bibitems as a <literal>StringList</literal>, which can "
+"be used in &javascript; as an array of strings."
 msgstr ""
 
 #. Tag: synopsis
@@ -2700,11 +2710,11 @@ msgstr ""
 #: scripting.docbook:1296
 #, no-c-format
 msgid ""
-"The global object (variable) <userinput>kile</userinput> "
-"is used to handle top level interactions with the outside world, input message "
-"and dialog interfaces. These API calls are divided into subobjects to structure "
-"this part of the scripting API. Conceptually <userinput>kile</userinput> "
-"is a bit like <userinput>window</userinput> in a browser API."
+"The global object (variable) <userinput>kile</userinput> is used to handle "
+"top level interactions with the outside world, input message and dialog "
+"interfaces. These API calls are divided into subobjects to structure this "
+"part of the scripting API. Conceptually <userinput>kile</userinput> is a bit "
+"like <userinput>window</userinput> in a browser API."
 msgstr ""
 
 #. Tag: para
@@ -2748,93 +2758,92 @@ msgstr ""
 #: scripting.docbook:1311
 #, no-c-format
 msgid ""
-"void kile.alert.information(<parameter>String <replaceable>text</replaceable>"
-"</parameter>, <parameter>String <replaceable>caption</replaceable></parameter>"
-");"
+"void kile.alert.information(<parameter>String <replaceable>text</"
+"replaceable></parameter>, <parameter>String <replaceable>caption</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1312
 #, no-c-format
 msgid ""
-"Display an <emphasis>Information</emphasis> dialog. <parameter>text</parameter> "
-"is the message string and <parameter>caption</parameter> "
-"the title of the message box. The default title is the script name."
+"Display an <emphasis>Information</emphasis> dialog. <parameter>text</"
+"parameter> is the message string and <parameter>caption</parameter> the "
+"title of the message box. The default title is the script name."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1318
 #, no-c-format
 msgid ""
-"void kile.alert.sorry(<parameter>String <replaceable>text</replaceable>"
-"</parameter>, <parameter>String <replaceable>caption</replaceable></parameter>"
-");"
+"void kile.alert.sorry(<parameter>String <replaceable>text</replaceable></"
+"parameter>, <parameter>String <replaceable>caption</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1319
 #, no-c-format
 msgid ""
-"Display a <emphasis>Sorry</emphasis> dialog. <parameter>text</parameter> "
-"is the message string and <parameter>caption</parameter> "
-"the title of the message box. The default title is the script name."
+"Display a <emphasis>Sorry</emphasis> dialog. <parameter>text</parameter> is "
+"the message string and <parameter>caption</parameter> the title of the "
+"message box. The default title is the script name."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1325
 #, no-c-format
 msgid ""
-"void kile.alert.error(<parameter>String <replaceable>text</replaceable>"
-"</parameter>, <parameter>String <replaceable>caption</replaceable></parameter>"
-");"
+"void kile.alert.error(<parameter>String <replaceable>text</replaceable></"
+"parameter>, <parameter>String <replaceable>caption</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1326
 #, no-c-format
 msgid ""
-"Display an <emphasis>Error</emphasis> dialog. <parameter>text</parameter> "
-"is the message string and <parameter>caption</parameter> "
-"the title of the message box. The default title is the script name."
+"Display an <emphasis>Error</emphasis> dialog. <parameter>text</parameter> is "
+"the message string and <parameter>caption</parameter> the title of the "
+"message box. The default title is the script name."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1332
 #, no-c-format
 msgid ""
-"String kile.alert.question(<parameter>String <replaceable>text</replaceable>"
-"</parameter>, <parameter>String <replaceable>caption</replaceable></parameter>"
-");"
+"String kile.alert.question(<parameter>String <replaceable>text</"
+"replaceable></parameter>, <parameter>String <replaceable>caption</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1333
 #, no-c-format
 msgid ""
-"Display a simple <emphasis>question</emphasis> dialog. <parameter>"
-"text</parameter> is the message string and <parameter>caption</parameter> "
-"the title of the message box. The default title is the script name. The "
-"returned string is either <literal>yes</literal> or <literal>no</literal>."
+"Display a simple <emphasis>question</emphasis> dialog. <parameter>text</"
+"parameter> is the message string and <parameter>caption</parameter> the "
+"title of the message box. The default title is the script name. The returned "
+"string is either <literal>yes</literal> or <literal>no</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1339
 #, no-c-format
 msgid ""
-"String kile.alert.warning(<parameter>String <replaceable>text</replaceable>"
-"</parameter>, <parameter>String <replaceable>caption</replaceable></parameter>"
-");"
+"String kile.alert.warning(<parameter>String <replaceable>text</replaceable></"
+"parameter>, <parameter>String <replaceable>caption</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1340
 #, no-c-format
 msgid ""
-"Display a simple <emphasis>warning</emphasis> dialog. <parameter>"
-"text</parameter> is the message string and <parameter>caption</parameter> "
-"the title of the message box. The default title is the script name. The "
-"returned string is either <literal>continue</literal> or <literal>"
-"cancel</literal>."
+"Display a simple <emphasis>warning</emphasis> dialog. <parameter>text</"
+"parameter> is the message string and <parameter>caption</parameter> the "
+"title of the message box. The default title is the script name. The returned "
+"string is either <literal>continue</literal> or <literal>cancel</literal>."
 msgstr ""
 
 #. Tag: title
@@ -2847,10 +2856,10 @@ msgstr ""
 #: scripting.docbook:1351
 #, no-c-format
 msgid ""
-"String kile.input.getListboxItem(<parameter>String <replaceable>"
-"caption</replaceable></parameter>, <parameter>String <replaceable>"
-"label</replaceable></parameter>, <parameter>StringList <replaceable>"
-"list</replaceable></parameter>);"
+"String kile.input.getListboxItem(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>, <parameter>StringList <replaceable>list</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -2859,19 +2868,19 @@ msgstr ""
 msgid ""
 "Function to let the user select an item from a list, which is shown as a "
 "listbox. <parameter>caption</parameter> is the text that is displayed in the "
-"title bar, <parameter>label</parameter> is the text that appears as the label "
-"for the list and <parameter>list</parameter> is the string list which is "
-"inserted into the list."
+"title bar, <parameter>label</parameter> is the text that appears as the "
+"label for the list and <parameter>list</parameter> is the string list which "
+"is inserted into the list."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1358
 #, no-c-format
 msgid ""
-"String kile.input.getComboboxItem(<parameter>String <replaceable>"
-"caption</replaceable></parameter>, <parameter>String <replaceable>"
-"label</replaceable></parameter>, <parameter>StringList <replaceable>"
-"list</replaceable></parameter>);"
+"String kile.input.getComboboxItem(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>, <parameter>StringList <replaceable>list</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -2879,26 +2888,27 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Function to let the user select an item from a list, which is shown as a "
-"combobox. <parameter>caption</parameter> is the text that is displayed in the "
-"title bar, <parameter>label</parameter> is the text that appears as the label "
-"for the list and <parameter>list</parameter> is the string list which is "
-"inserted into the list."
+"combobox. <parameter>caption</parameter> is the text that is displayed in "
+"the title bar, <parameter>label</parameter> is the text that appears as the "
+"label for the list and <parameter>list</parameter> is the string list which "
+"is inserted into the list."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1365
 #, no-c-format
 msgid ""
-"String kile.input.getText(<parameter>String <replaceable>caption</replaceable>"
-"</parameter>, <parameter>String <replaceable>label</replaceable></parameter>);"
+"String kile.input.getText(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1366
 #, no-c-format
 msgid ""
-"Function to get a string from the user. <parameter>caption</parameter> "
-"is the text that is displayed in the title bar and <parameter>label</parameter> "
+"Function to get a string from the user. <parameter>caption</parameter> is "
+"the text that is displayed in the title bar and <parameter>label</parameter> "
 "the text that appears as a label for the line edit."
 msgstr ""
 
@@ -2906,9 +2916,9 @@ msgstr ""
 #: scripting.docbook:1372
 #, no-c-format
 msgid ""
-"String kile.input.getLatexCommand(<parameter>String <replaceable>"
-"caption</replaceable></parameter>, <parameter>String <replaceable>"
-"label</replaceable></parameter>);"
+"String kile.input.getLatexCommand(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -2916,54 +2926,55 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Function to get a &latex; command from the user. This means that only lower- "
-"and uppercase letters are allowed. <parameter>caption</parameter> "
-"is the text that is displayed in the title bar and <parameter>label</parameter> "
-"the text that appears as a label for the line edit."
+"and uppercase letters are allowed. <parameter>caption</parameter> is the "
+"text that is displayed in the title bar and <parameter>label</parameter> the "
+"text that appears as a label for the line edit."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1379
 #, no-c-format
 msgid ""
-"int kile.input.getInteger(<parameter>String <replaceable>caption</replaceable>"
-"</parameter>, <parameter>String <replaceable>label</replaceable></parameter>"
-", <parameter>int <replaceable>min = INT_MIN</replaceable></parameter>"
-", <parameter>int <replaceable>max = INT_MAX</replaceable></parameter>);"
+"int kile.input.getInteger(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>, <parameter>int <replaceable>min = INT_MIN</"
+"replaceable></parameter>, <parameter>int <replaceable>max = INT_MAX</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1380
 #, no-c-format
 msgid ""
-"Function to get an integer from the user. <parameter>caption</parameter> "
-"is the text that is displayed in the title bar. <parameter>label</parameter> "
-"is the text that appears as the label for the spin box. <parameter>"
-"min</parameter> and <parameter>max</parameter> are the minimum and maximum "
-"allowable values the user may choose. Default values are <literal>"
-"INT_MIN</literal> and <literal>INT_MAX</literal>."
+"Function to get an integer from the user. <parameter>caption</parameter> is "
+"the text that is displayed in the title bar. <parameter>label</parameter> is "
+"the text that appears as the label for the spin box. <parameter>min</"
+"parameter> and <parameter>max</parameter> are the minimum and maximum "
+"allowable values the user may choose. Default values are <literal>INT_MIN</"
+"literal> and <literal>INT_MAX</literal>."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1386
 #, no-c-format
 msgid ""
-"int kile.input.getPosInteger(<parameter>String <replaceable>"
-"caption</replaceable></parameter>, <parameter>String <replaceable>"
-"label</replaceable></parameter>, <parameter>int <replaceable>"
-"min = 1</replaceable></parameter>, <parameter>int <replaceable>"
-"max = INT_MAX</replaceable></parameter>);"
+"int kile.input.getPosInteger(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>, <parameter>int <replaceable>min = 1</replaceable></"
+"parameter>, <parameter>int <replaceable>max = INT_MAX</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1387
 #, no-c-format
 msgid ""
-"Function to get a positive integer from the user. <parameter>caption</parameter> "
-"is the text that is displayed in the title bar. <parameter>label</parameter> "
-"is the text that appears as the label for the spin box. <parameter>"
-"min</parameter> and <parameter>max</parameter> are the minimum and maximum "
-"allowable values the user may choose. Default values are <literal>1</literal> "
-"and <literal>INT_MAX</literal>."
+"Function to get a positive integer from the user. <parameter>caption</"
+"parameter> is the text that is displayed in the title bar. <parameter>label</"
+"parameter> is the text that appears as the label for the spin box. "
+"<parameter>min</parameter> and <parameter>max</parameter> are the minimum "
+"and maximum allowable values the user may choose. Default values are "
+"<literal>1</literal> and <literal>INT_MAX</literal>."
 msgstr ""
 
 #. Tag: title
@@ -2982,8 +2993,8 @@ msgstr ""
 #: scripting.docbook:1399
 #, no-c-format
 msgid ""
-"Calls the <emphasis>Tabular wizard</emphasis>, which helps to write a tabular "
-"environment (see <xref linkend=\"wizard_array\" role=\"select: title "
+"Calls the <emphasis>Tabular wizard</emphasis>, which helps to write a "
+"tabular environment (see <xref linkend=\"wizard_array\" role=\"select: title "
 "pageabbrv\"/>)."
 msgstr ""
 
@@ -3012,8 +3023,8 @@ msgstr ""
 #: scripting.docbook:1413
 #, no-c-format
 msgid ""
-"Calls the <emphasis>Tabbing wizard</emphasis>, which helps to write a tabbing "
-"environment (see <xref linkend=\"wizard_array\" role=\"select: title "
+"Calls the <emphasis>Tabbing wizard</emphasis>, which helps to write a "
+"tabbing environment (see <xref linkend=\"wizard_array\" role=\"select: title "
 "pageabbrv\"/>)."
 msgstr ""
 
@@ -3028,8 +3039,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Calls the <emphasis>Floats wizard</emphasis>, which helps to insert floating "
-"elements (see <xref linkend=\"wizard_float\" role=\"select: title pageabbrv\"/>"
-")."
+"elements (see <xref linkend=\"wizard_float\" role=\"select: title pageabbrv"
+"\"/>)."
 msgstr ""
 
 #. Tag: synopsis
@@ -3057,9 +3068,9 @@ msgstr ""
 #: scripting.docbook:1434
 #, no-c-format
 msgid ""
-"Calls the <emphasis>Postscript Tools wizard</emphasis>"
-", which may help to manipulate or rearrange Postscript documents (see <xref "
-"linkend=\"wizard_postscript\" role=\"select: title pageabbrv\"/>)."
+"Calls the <emphasis>Postscript Tools wizard</emphasis>, which may help to "
+"manipulate or rearrange Postscript documents (see <xref linkend="
+"\"wizard_postscript\" role=\"select: title pageabbrv\"/>)."
 msgstr ""
 
 #. Tag: title
@@ -3090,8 +3101,8 @@ msgstr ""
 #: scripting.docbook:1453
 #, no-c-format
 msgid ""
-"Returns a string, which can be used as a caption of alert boxes. It looks like "
-"<userinput>Script: scriptname.js</userinput>."
+"Returns a string, which can be used as a caption of alert boxes. It looks "
+"like <userinput>Script: scriptname.js</userinput>."
 msgstr ""
 
 #. Tag: title
@@ -3104,8 +3115,8 @@ msgstr ""
 #: scripting.docbook:1464
 #, no-c-format
 msgid ""
-"Object kile.file.read(<parameter>String <replaceable>filename</replaceable>"
-"</parameter>);"
+"Object kile.file.read(<parameter>String <replaceable>filename</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -3125,8 +3136,8 @@ msgstr ""
 #: scripting.docbook:1469
 #, no-c-format
 msgid ""
-"The return value <userinput>res</userinput> is an object (better: a map) with "
-"three properties:"
+"The return value <userinput>res</userinput> is an object (better: a map) "
+"with three properties:"
 msgstr ""
 
 #. Tag: para
@@ -3135,8 +3146,8 @@ msgstr ""
 msgid ""
 "<guilabel>status:</guilabel>&nbsp; Gives the status code of the operation, "
 "which can be 0 (no error), 1 (access failed) or 2 (access denied). So, if no "
-"error occurred, the value of <userinput>res.status</userinput> or <userinput>"
-"res[\"status\"]</userinput> will be 0."
+"error occurred, the value of <userinput>res.status</userinput> or "
+"<userinput>res[\"status\"]</userinput> will be 0."
 msgstr ""
 
 #. Tag: para
@@ -3171,8 +3182,9 @@ msgstr ""
 #: scripting.docbook:1488
 #, no-c-format
 msgid ""
-"Object kile.file.write(<parameter>String <replaceable>filename</replaceable>"
-"</parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
+"Object kile.file.write(<parameter>String <replaceable>filename</"
+"replaceable></parameter>, <parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -3193,43 +3205,43 @@ msgstr ""
 #: scripting.docbook:1493
 #, no-c-format
 msgid ""
-"The return value <userinput>res</userinput> is an object (better: a map) with "
-"two properties: <literal>status</literal> and <literal>message</literal> "
-"(see <literal>read()</literal> for more information)."
+"The return value <userinput>res</userinput> is an object (better: a map) "
+"with two properties: <literal>status</literal> and <literal>message</"
+"literal> (see <literal>read()</literal> for more information)."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1499
 #, no-c-format
 msgid ""
-"Object kile.file.write(<parameter>String <replaceable>text</replaceable>"
-"</parameter>);"
+"Object kile.file.write(<parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1500
 #, no-c-format
 msgid ""
-"The same as <literal>write(filename,text)</literal>, but no filename is given. "
-"A dialog will appear to choose a filename."
+"The same as <literal>write(filename,text)</literal>, but no filename is "
+"given. A dialog will appear to choose a filename."
 msgstr ""
 
 #. Tag: synopsis
 #: scripting.docbook:1506
 #, no-c-format
 msgid ""
-"String kile.file.getOpenFileName(<parameter>String <replaceable>"
-"startDir</replaceable></parameter>, <parameter>String <replaceable>"
-"filter</replaceable></parameter>);"
+"String kile.file.getOpenFileName(<parameter>String <replaceable>startDir</"
+"replaceable></parameter>, <parameter>String <replaceable>filter</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
 #: scripting.docbook:1507
 #, no-c-format
 msgid ""
-"Creates a modal file dialog and return the selected filename or an empty string "
-"if none is chosen. Note that with this method the user must select an existing "
-"filename."
+"Creates a modal file dialog and return the selected filename or an empty "
+"string if none is chosen. Note that with this method the user must select an "
+"existing filename."
 msgstr ""
 
 #. Tag: para
@@ -3258,9 +3270,9 @@ msgstr ""
 #: scripting.docbook:1516
 #, no-c-format
 msgid ""
-"Both parameters are optional. If you omit <literal>filter</literal>"
-", all files will be displayed. If additionally <literal>startDir</literal> "
-"is omitted, the dialog will take the current document directory as starting "
+"Both parameters are optional. If you omit <literal>filter</literal>, all "
+"files will be displayed. If additionally <literal>startDir</literal> is "
+"omitted, the dialog will take the current document directory as starting "
 "point."
 msgstr ""
 
@@ -3268,9 +3280,9 @@ msgstr ""
 #: scripting.docbook:1522
 #, no-c-format
 msgid ""
-"String kile.file.getSaveFileName(<parameter>String <replaceable>"
-"startDir</replaceable></parameter>, <parameter>String <replaceable>"
-"filter</replaceable></parameter>);"
+"String kile.file.getSaveFileName(<parameter>String <replaceable>startDir</"
+"replaceable></parameter>, <parameter>String <replaceable>filter</"
+"replaceable></parameter>);"
 msgstr ""
 
 #. Tag: para
@@ -3278,9 +3290,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Creates a modal file dialog and returns the selected filename or an empty "
-"string if none is chosen. Note that with this method the user need not select "
-"an existing filename. See <literal>getOpenFileName()</literal> "
-"for an explanation of the parameters."
+"string if none is chosen. Note that with this method the user need not "
+"select an existing filename. See <literal>getOpenFileName()</literal> for an "
+"explanation of the parameters."
 msgstr ""
 
 #. Tag: title
@@ -3310,9 +3322,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Replace a surrounding &latex; environment with another, where the relative "
-"cursor position will not be changed. "
-"<userinput>\\begin{abc}...\\end{abc}</userinput> for example can be changed to "
-"<userinput>\\begin{xyz}...\\end{xyz}</userinput>."
+"cursor position will not be changed. <userinput>\\begin{abc}...\\end{abc}</"
+"userinput> for example can be changed to <userinput>\\begin{xyz}...\\end{xyz}"
+"</userinput>."
 msgstr ""
 
 #. Tag: programlisting
@@ -3338,14 +3350,15 @@ msgid ""
 "        var envname = document.environmentName();\n"
 "\n"
 "        if ( envname != \"\" ) {\n"
-"                var beginRange = new Range(r.start,new "
-"Cursor(r.start.line,r.start.column+8+envname.length));\n"
-"                var endRange = new Range(new "
-"Cursor(r.end.line,r.end.column-6-envname.length),r.end);\n"
+"                var beginRange = new Range(r.start,new Cursor(r.start.line,r."
+"start.column+8+envname.length));\n"
+"                var endRange = new Range(new Cursor(r.end.line,r.end."
+"column-6-envname.length),r.end);\n"
 "\n"
 "                document.editBegin();\n"
 "                document.replaceText(endRange,\"\\\\end{\"+newEnv+\"}\");\n"
-"                document.replaceText(beginRange,\"\\\\begin{\"+newEnv+\"}\");\n"
+"                document.replaceText(beginRange,\"\\\\begin{\"+newEnv+"
+"\"}\");\n"
 "                document.editEnd();\n"
 "        }\n"
 "}"
@@ -3361,20 +3374,20 @@ msgstr ""
 #: scripting.docbook:1552
 #, no-c-format
 msgid ""
-"Replace a surrounding &latex; font command with another font command, when the "
-"cursor is placed inside the texgroup. The relative cursor position will not be "
-"changed. <userinput>\\textbf{abc}</userinput> for example can be changed to "
-"<userinput>\\textit{abc}</userinput>."
+"Replace a surrounding &latex; font command with another font command, when "
+"the cursor is placed inside the texgroup. The relative cursor position will "
+"not be changed. <userinput>\\textbf{abc}</userinput> for example can be "
+"changed to <userinput>\\textit{abc}</userinput>."
 msgstr ""
 
 #. Tag: programlisting
 #: scripting.docbook:1554
 #, no-c-format
 msgid ""
-"var fontCommands = new "
-"Array(\"\\\\textbf\",\"\\\\textit\",\"\\\\textsl\",\"\\\\texttt\",\n"
-"                             "
-"\"\\\\textsc\",\"\\\\textrm\",\"\\\\textsf\",\"\\\\emph\");\n"
+"var fontCommands = new Array(\"\\\\textbf\",\"\\\\textit\",\"\\\\textsl\","
+"\"\\\\texttt\",\n"
+"                             \"\\\\textsc\",\"\\\\textrm\",\"\\\\textsf\","
+"\"\\\\emph\");\n"
 "\n"
 "var range = document.texgroupRange(false);\n"
 "if ( range.isValid() ) {\n"
@@ -3395,9 +3408,10 @@ msgid ""
 "        if ( index >= 0 ) {\n"
 "                var cmdRange = document.latexCommandRange();\n"
 "                if ( cmdRange.isValid() ) {\n"
-"                        var newcommand = kile.input.getListboxItem(\"Choose\",\n"
-"                                                    \"Choose font "
-"command:\",buildCmdList(cmd));\n"
+"                        var newcommand = kile.input.getListboxItem(\"Choose"
+"\",\n"
+"                                                    \"Choose font command:\","
+"buildCmdList(cmd));\n"
 "                        if ( newcommand != \"\" ) {\n"
 "                                document.replaceText(cmdRange,newcommand);\n"
 "                                c.column = c.column - (cmd.length - "
@@ -3434,9 +3448,9 @@ msgstr ""
 #: scripting.docbook:1561
 #, no-c-format
 msgid ""
-"Surround selected text with a TeX command, where the relative cursor position "
-"will not be changed. <userinput>abc</userinput> for example can be changed to "
-"<userinput>\\texcommand{abc}</userinput>."
+"Surround selected text with a TeX command, where the relative cursor "
+"position will not be changed. <userinput>abc</userinput> for example can be "
+"changed to <userinput>\\texcommand{abc}</userinput>."
 msgstr ""
 
 #. Tag: programlisting

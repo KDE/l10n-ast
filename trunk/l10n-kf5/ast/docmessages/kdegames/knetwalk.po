@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -120,8 +121,8 @@ msgstr ""
 #: index.docbook:58
 #, no-c-format
 msgid ""
-"The object of the game is to start the LAN, connecting all the terminals to the "
-"server, in as few turns as possible."
+"The object of the game is to start the LAN, connecting all the terminals to "
+"the server, in as few turns as possible."
 msgstr ""
 
 #. Tag: title
@@ -136,9 +137,9 @@ msgstr ""
 msgid ""
 "The player is presented with a rectangular grid containing a server, several "
 "terminals, and pieces of wire. The object of the game is to rotate these "
-"elements until every client is connected to the server, and no wires are left "
-"unconnected. Optionally, you can try to get a high score by minimizing the "
-"number of rotations needed."
+"elements until every client is connected to the server, and no wires are "
+"left unconnected. Optionally, you can try to get a high score by minimizing "
+"the number of rotations needed."
 msgstr ""
 
 #. Tag: para
@@ -148,8 +149,8 @@ msgid ""
 "Left clicking on a square rotates it counterclockwise, while right clicking "
 "rotates it clockwise. Middle clicking on a square marks it as blocked and "
 "prevents it from being rotated unless it gets unblocked by another middle "
-"click; this can be very useful for marking squares which are known to be in the "
-"correct orientation. The status bar displays the number of clicks so far."
+"click; this can be very useful for marking squares which are known to be in "
+"the correct orientation. The status bar displays the number of clicks so far."
 msgstr ""
 
 #. Tag: title
@@ -217,18 +218,18 @@ msgstr ""
 #: index.docbook:94
 #, no-c-format
 msgid ""
-"Look for I-shaped and T-shaped wires near the borders, and L-shaped wires near "
-"the edges. The position of these squares can be easily determined, unless you "
-"are playing the <guilabel>Very hard</guilabel> difficulty level."
+"Look for I-shaped and T-shaped wires near the borders, and L-shaped wires "
+"near the edges. The position of these squares can be easily determined, "
+"unless you are playing the <guilabel>Very hard</guilabel> difficulty level."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:95
 #, no-c-format
 msgid ""
-"When playing the <guilabel>Very hard</guilabel> difficulty level a good place "
-"to start looking is near empty squares, if present, and near regions containing "
-"many terminals grouped together."
+"When playing the <guilabel>Very hard</guilabel> difficulty level a good "
+"place to start looking is near empty squares, if present, and near regions "
+"containing many terminals grouped together."
 msgstr ""
 
 #. Tag: para
@@ -261,8 +262,8 @@ msgstr ""
 #: index.docbook:111
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> "
-"</shortcut> <guimenu>Game</guimenu> <guimenuitem>New</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> </"
+"shortcut> <guimenu>Game</guimenu> <guimenuitem>New</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -277,8 +278,8 @@ msgstr ""
 #: index.docbook:126
 #, no-c-format
 msgid ""
-"<shortcut><keycap>P</keycap></shortcut> <guimenu>Game</guimenu> <guimenuitem>"
-"Pause</guimenuitem>"
+"<shortcut><keycap>P</keycap></shortcut> <guimenu>Game</guimenu> "
+"<guimenuitem>Pause</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -286,16 +287,16 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Pauses the game time. Click on the menu item again to make the game resume. "
-"Note that the board disappears when the game is paused as it would be unfair if "
-"you could search for good moves without the time pressure."
+"Note that the board disappears when the game is paused as it would be unfair "
+"if you could search for good moves without the time pressure."
 msgstr ""
 
 #. Tag: menuchoice
 #: index.docbook:138
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo> "
-"</shortcut> <guimenu>Game</guimenu> <guimenuitem>Show High Scores</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo> </"
+"shortcut> <guimenu>Game</guimenu> <guimenuitem>Show High Scores</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -309,8 +310,8 @@ msgstr ""
 #: index.docbook:152
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> "
-"</shortcut> <guimenu>Game</guimenu> <guimenuitem>Quit</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
+"shortcut> <guimenu>Game</guimenu> <guimenuitem>Quit</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -329,10 +330,10 @@ msgstr ""
 #: index.docbook:172
 #, no-c-format
 msgid ""
-"Unlock all cells which were previously locked by the player using <keycap>"
-"Space</keycap> or automatically after checking <guilabel>Auto Lock</guilabel> "
-"item on <link linkend=\"config_general\">General page</link> "
-"of Configure &knetwalk; dialog."
+"Unlock all cells which were previously locked by the player using "
+"<keycap>Space</keycap> or automatically after checking <guilabel>Auto Lock</"
+"guilabel> item on <link linkend=\"config_general\">General page</link> of "
+"Configure &knetwalk; dialog."
 msgstr ""
 
 #. Tag: menuchoice
@@ -382,34 +383,35 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Custom</guimenuitem>: The settings you have configured in the "
-"<link linkend=\"config_custom_game\">Configure &knetwalk; dialog</link> "
-"will be used."
+"<link linkend=\"config_custom_game\">Configure &knetwalk; dialog</link> will "
+"be used."
 msgstr ""
 
 #. Tag: menuchoice
 #: index.docbook:209
 #, no-c-format
 msgid ""
-"<guimenu>Settings</guimenu> <guimenuitem>Configure &knetwalk;...</guimenuitem>"
+"<guimenu>Settings</guimenu> <guimenuitem>Configure &knetwalk;...</"
+"guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:213
 #, no-c-format
 msgid ""
-"<action>Open Configure &knetwalk; dialog.</action> Please see <link "
-"linkend=\"configuration\">Game Configuration</link> for more information."
+"<action>Open Configure &knetwalk; dialog.</action> Please see <link linkend="
+"\"configuration\">Game Configuration</link> for more information."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:219
 #, no-c-format
 msgid ""
-"Additionally &knetwalk; has the common &kde; <guimenu>Settings</guimenu> "
-"and <guimenu>Help</guimenu> menu items, for more information read the sections "
-"about the <ulink url=\"help:/fundamentals/ui.html#menus-settings\">"
-"Settings Menu</ulink> and <ulink url=\"help:/fundamentals/ui.html#menus-help\">"
-"Help Menu</ulink> of the &kde; Fundamentals."
+"Additionally &knetwalk; has the common &kde; <guimenu>Settings</guimenu> and "
+"<guimenu>Help</guimenu> menu items, for more information read the sections "
+"about the <ulink url=\"help:/fundamentals/ui.html#menus-settings\">Settings "
+"Menu</ulink> and <ulink url=\"help:/fundamentals/ui.html#menus-help\">Help "
+"Menu</ulink> of the &kde; Fundamentals."
 msgstr ""
 
 #. Tag: title
@@ -422,9 +424,9 @@ msgstr ""
 #: index.docbook:229
 #, no-c-format
 msgid ""
-"To open the Configure &knetwalk; dialog, select <menuchoice> <guimenu>"
-"Settings</guimenu> <guimenuitem>Configure &knetwalk;...</guimenuitem> "
-"</menuchoice>"
+"To open the Configure &knetwalk; dialog, select <menuchoice> "
+"<guimenu>Settings</guimenu> <guimenuitem>Configure &knetwalk;...</"
+"guimenuitem> </menuchoice>"
 msgstr ""
 
 #. Tag: title
@@ -487,10 +489,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To select the theme you want to play, go to the <guilabel>Theme</guilabel> "
-"section. The theme is loaded by clicking on <guibutton>OK</guibutton> "
-"or <guibutton>Apply</guibutton>. The current game will be ended and a new one "
-"started. You can click on the <guibutton>Defaults</guibutton> "
-"button to restore the default theme."
+"section. The theme is loaded by clicking on <guibutton>OK</guibutton> or "
+"<guibutton>Apply</guibutton>. The current game will be ended and a new one "
+"started. You can click on the <guibutton>Defaults</guibutton> button to "
+"restore the default theme."
 msgstr ""
 
 #. Tag: title
@@ -504,9 +506,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This page can be used to configure custom game settings. You can choose "
-"<guilabel>Width</guilabel> and <guilabel>Height</guilabel> "
-"of the board and check the <guilabel>Wrapping</guilabel> "
-"if the board should be wrapped from left to right and from top to bottom."
+"<guilabel>Width</guilabel> and <guilabel>Height</guilabel> of the board and "
+"check the <guilabel>Wrapping</guilabel> if the board should be wrapped from "
+"left to right and from top to bottom."
 msgstr ""
 
 #. Tag: title
@@ -693,16 +695,16 @@ msgstr ""
 #: index.docbook:393
 #, no-c-format
 msgid ""
-"Program copyright 2004 - 2007 by Andi Peredri, Thomas Nagy and Fela Winkelmolen "
-"<email>fela.kde@gmail.com</email>"
+"Program copyright 2004 - 2007 by Andi Peredri, Thomas Nagy and Fela "
+"Winkelmolen <email>fela.kde@gmail.com</email>"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:396
 #, no-c-format
 msgid ""
-"Documentation copyright 2007 by Fela Winkelmolen <email>"
-"fela.kde@gmail.com</email>"
+"Documentation copyright 2007 by Fela Winkelmolen <email>fela.kde@gmail.com</"
+"email>"
 msgstr ""
 
 #. Tag: trans_comment

@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,8 +32,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This chapter gives detailed explanations of all commands available in "
-"&partman;. It is intended as a reference to accompany the information given in "
-"<xref linkend=\"usermanual\"/>."
+"&partman;. It is intended as a reference to accompany the information given "
+"in <xref linkend=\"usermanual\"/>."
 msgstr ""
 
 #. Tag: title
@@ -45,17 +46,17 @@ msgstr ""
 #: referencemanual.docbook:15
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo>"
-"</shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:22
 #, no-c-format
 msgid ""
-"<action>Quits &partman;</action> without applying any pending operations. The "
-"application will however ask you to confirm your choice to quit if there are "
-"pending operations."
+"<action>Quits &partman;</action> without applying any pending operations. "
+"The application will however ask you to confirm your choice to quit if there "
+"are pending operations."
 msgstr ""
 
 #. Tag: title
@@ -68,16 +69,16 @@ msgstr ""
 #: referencemanual.docbook:37
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo>"
-"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Undo</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo></"
+"shortcut> <guimenu>Edit</guimenu> <guimenuitem>Undo</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:44
 #, no-c-format
 msgid ""
-"<action>Undoes the last operation</action> that has been added to the operation "
-"stack."
+"<action>Undoes the last operation</action> that has been added to the "
+"operation stack."
 msgstr ""
 
 #. Tag: para
@@ -132,8 +133,8 @@ msgstr ""
 #: referencemanual.docbook:100
 #, no-c-format
 msgid ""
-"<action>Toggles the Devices panel</action>: This command turns the display of "
-"the devices list on and off."
+"<action>Toggles the Devices panel</action>: This command turns the display "
+"of the devices list on and off."
 msgstr ""
 
 #. Tag: menuchoice
@@ -146,8 +147,8 @@ msgstr ""
 #: referencemanual.docbook:113
 #, no-c-format
 msgid ""
-"<action>Toggles the Pending Operations panel</action>"
-": This command turns the display of the operation list on and off."
+"<action>Toggles the Pending Operations panel</action>: This command turns "
+"the display of the operation list on and off."
 msgstr ""
 
 #. Tag: menuchoice
@@ -160,10 +161,10 @@ msgstr ""
 #: referencemanual.docbook:126
 #, no-c-format
 msgid ""
-"<action>Toggles the Information panel</action>: This command turns the display "
-"of the information panel on and off. The information panel will either display "
-"details about the currently selected device or, if one is selected, the "
-"selected partition."
+"<action>Toggles the Information panel</action>: This command turns the "
+"display of the information panel on and off. The information panel will "
+"either display details about the currently selected device or, if one is "
+"selected, the selected partition."
 msgstr ""
 
 #. Tag: menuchoice
@@ -176,8 +177,8 @@ msgstr ""
 #: referencemanual.docbook:139
 #, no-c-format
 msgid ""
-"<action>Toggles the Log Output panel</action>: This command turns the display "
-"of the log output panel on and off."
+"<action>Toggles the Log Output panel</action>: This command turns the "
+"display of the log output panel on and off."
 msgstr ""
 
 #. Tag: menuchoice
@@ -190,9 +191,9 @@ msgstr ""
 #: referencemanual.docbook:152
 #, no-c-format
 msgid ""
-"<action>Shows the file system support dialog.</action> "
-"This dialog shows in detail which operations can be performed for which of the "
-"supported file systems."
+"<action>Shows the file system support dialog.</action> This dialog shows in "
+"detail which operations can be performed for which of the supported file "
+"systems."
 msgstr ""
 
 #. Tag: para
@@ -213,45 +214,47 @@ msgstr ""
 #: referencemanual.docbook:166
 #, no-c-format
 msgid ""
-"The blue check marks mean <quote>supported</quote>, the red crosses mean <quote>"
-"not supported</quote>. Some combinations are never supported, for example "
-"checking a linuxswap file system, because they are inherently impossible. "
-"Others cannot be supported because the external tools lack the functionality. "
-"This is for instance the case with writing labels for FAT file systems."
+"The blue check marks mean <quote>supported</quote>, the red crosses mean "
+"<quote>not supported</quote>. Some combinations are never supported, for "
+"example checking a linuxswap file system, because they are inherently "
+"impossible. Others cannot be supported because the external tools lack the "
+"functionality. This is for instance the case with writing labels for FAT "
+"file systems."
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:169
 #, no-c-format
 msgid ""
-"If you have installed new tools while &partman; is running click on <guibutton>"
-"Rescan Support</guibutton> to force a recheck of installed file system support "
-"tools."
+"If you have installed new tools while &partman; is running click on "
+"<guibutton>Rescan Support</guibutton> to force a recheck of installed file "
+"system support tools."
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:172
 #, no-c-format
 msgid ""
-"Also see <xref linkend=\"requirements\"/> for which external tool is required "
-"for which operation."
+"Also see <xref linkend=\"requirements\"/> for which external tool is "
+"required for which operation."
 msgstr ""
 
 #. Tag: menuchoice
 #: referencemanual.docbook:179
 #, no-c-format
 msgid ""
-"<shortcut><keycap>F5</keycap></shortcut> <guimenu>View</guimenu> <guimenuitem>"
-"Refresh Devices</guimenuitem>"
+"<shortcut><keycap>F5</keycap></shortcut> <guimenu>View</guimenu> "
+"<guimenuitem>Refresh Devices</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:186
 #, no-c-format
 msgid ""
-"<action>Refreshes the devices</action>: This command forces &partman; to scan "
-"and read the devices on your computer again. This may for example be useful if "
-"you plugged in an external USB hard disk after you started &partman;."
+"<action>Refreshes the devices</action>: This command forces &partman; to "
+"scan and read the devices on your computer again. This may for example be "
+"useful if you plugged in an external USB hard disk after you started "
+"&partman;."
 msgstr ""
 
 #. Tag: title
@@ -264,27 +267,27 @@ msgstr ""
 #: referencemanual.docbook:201
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>N</keycap></keycombo>"
-"</shortcut> <guimenu>Device</guimenu> <guimenuitem>Create New Partition "
-"Table</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>N</keycap></"
+"keycombo></shortcut> <guimenu>Device</guimenu> <guimenuitem>Create New "
+"Partition Table</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:208
 #, no-c-format
 msgid ""
-"<action>Creates a new partition table</action>: This command creates a new and "
-"empty MSDOS partition table on the currently selected device. This will delete "
-"all partitions on the device and all data on them, so you will want to be "
-"careful with this command."
+"<action>Creates a new partition table</action>: This command creates a new "
+"and empty MSDOS partition table on the currently selected device. This will "
+"delete all partitions on the device and all data on them, so you will want "
+"to be careful with this command."
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:211
 #, no-c-format
 msgid ""
-"This command is only enabled if a device is selected and no partition on this "
-"device is currently mounted."
+"This command is only enabled if a device is selected and no partition on "
+"this device is currently mounted."
 msgstr ""
 
 #. Tag: title
@@ -297,8 +300,8 @@ msgstr ""
 #: referencemanual.docbook:228
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo>"
-"</shortcut> <guimenu>Partition</guimenu> <guimenuitem>New</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></"
+"shortcut> <guimenu>Partition</guimenu> <guimenuitem>New</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -306,17 +309,17 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<action>Creates a new partition</action>: Opens the dialog to create a new "
-"partition where you will be able to set type, size, position and file system of "
-"the partition to create."
+"partition where you will be able to set type, size, position and file system "
+"of the partition to create."
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:238
 #, no-c-format
 msgid ""
-"Please note that the partition table on a device may impose restrictions on how "
-"many partitions can be created. MS-DOS partition tables, for example, allow "
-"only four primary partitions."
+"Please note that the partition table on a device may impose restrictions on "
+"how many partitions can be created. MS-DOS partition tables, for example, "
+"allow only four primary partitions."
 msgstr ""
 
 #. Tag: para
@@ -330,8 +333,8 @@ msgstr ""
 #: referencemanual.docbook:248
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo>"
-"</shortcut> <guimenu>Partition</guimenu> <guimenuitem>Resize/Move</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo></"
+"shortcut> <guimenu>Partition</guimenu> <guimenuitem>Resize/Move</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -340,21 +343,21 @@ msgstr ""
 msgid ""
 "<action>Resizes or moves a partition</action>: Opens the dialog to resize or "
 "move an existing partition. Depending on the partition's file system and the "
-"external tools installed on your computer, not all three possible "
-"resize-related actions -- that is, moving the partition, making it smaller "
+"external tools installed on your computer, not all three possible resize-"
+"related actions -- that is, moving the partition, making it smaller "
 "(<quote>shrinking</quote> it) or making it larger (<quote>growing</quote> "
-"it) -- may be available in this dialog. See <xref "
-"linkend=\"menu-view-filesystemsupport\"/>."
+"it) -- may be available in this dialog. See <xref linkend=\"menu-view-"
+"filesystemsupport\"/>."
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:258
 #, no-c-format
 msgid ""
-"This command is only enabled if a partition is selected that is not currently "
-"mounted and whose file system can be shrunk, grown or moved. For an extended "
-"partition, it is only enabled if none of the logicals in the extended partition "
-"are mounted."
+"This command is only enabled if a partition is selected that is not "
+"currently mounted and whose file system can be shrunk, grown or moved. For "
+"an extended partition, it is only enabled if none of the logicals in the "
+"extended partition are mounted."
 msgstr ""
 
 #. Tag: menuchoice
@@ -377,9 +380,9 @@ msgstr ""
 #: referencemanual.docbook:275
 #, no-c-format
 msgid ""
-"This command is only enabled if a partition is selected that is not currently "
-"mounted. For an extended partition, it is only enabled if it does not contain "
-"any logical partitions."
+"This command is only enabled if a partition is selected that is not "
+"currently mounted. For an extended partition, it is only enabled if it does "
+"not contain any logical partitions."
 msgstr ""
 
 #. Tag: title
@@ -400,33 +403,33 @@ msgstr ""
 #: referencemanual.docbook:286
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo>"
-"</shortcut> <guimenu>Partition</guimenu> <guimenuitem>Copy</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo></"
+"shortcut> <guimenu>Partition</guimenu> <guimenuitem>Copy</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:293
 #, no-c-format
 msgid ""
-"<action>Copies a partition</action>: This command copies the currently selected "
-"partition to &partman;'s clipboard."
+"<action>Copies a partition</action>: This command copies the currently "
+"selected partition to &partman;'s clipboard."
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:296
 #, no-c-format
 msgid ""
-"This command is only enabled if a partition is selected that is not currently "
-"mounted and whose file system can be copied. Extended partitions can not be "
-"copied."
+"This command is only enabled if a partition is selected that is not "
+"currently mounted and whose file system can be copied. Extended partitions "
+"can not be copied."
 msgstr ""
 
 #. Tag: menuchoice
 #: referencemanual.docbook:303
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo>"
-"</shortcut> <guimenu>Partition</guimenu> <guimenuitem>Paste</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo></"
+"shortcut> <guimenu>Partition</guimenu> <guimenuitem>Paste</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -434,26 +437,27 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<action>Paste a partition</action>: This command pastes the partition from "
-"&partman;'s clipboard to the currently selected partition or unallocated area."
+"&partman;'s clipboard to the currently selected partition or unallocated "
+"area."
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:313
 #, no-c-format
 msgid ""
-"When pasting to an unallocated area, a dialog will open allowing you to move or "
-"grow the inserted copy. When overwriting an existing partition this dialog will "
-"not be shown."
+"When pasting to an unallocated area, a dialog will open allowing you to move "
+"or grow the inserted copy. When overwriting an existing partition this "
+"dialog will not be shown."
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:316
 #, no-c-format
 msgid ""
-"This command is only enabled if a partition is currently in the clipboard and a "
-"valid target (either a partition or an unallocated area) is selected. The "
-"target must also be large enough to hold the source and can not be mounted. You "
-"can not copy a partition onto itself."
+"This command is only enabled if a partition is currently in the clipboard "
+"and a valid target (either a partition or an unallocated area) is selected. "
+"The target must also be large enough to hold the source and can not be "
+"mounted. You can not copy a partition onto itself."
 msgstr ""
 
 #. Tag: para
@@ -474,16 +478,16 @@ msgstr ""
 #: referencemanual.docbook:333
 #, no-c-format
 msgid ""
-"<action>Mounts or umounts a partition</action>: This command mounts or unmounts "
-"the selected partition, depending on its current state."
+"<action>Mounts or umounts a partition</action>: This command mounts or "
+"unmounts the selected partition, depending on its current state."
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:336
 #, no-c-format
 msgid ""
-"This command is only enabled if a partition is selected that can be mounted or "
-"unmounted. If the operating system does not know a mount point for the "
+"This command is only enabled if a partition is selected that can be mounted "
+"or unmounted. If the operating system does not know a mount point for the "
 "partition you can not mount it from &partman;."
 msgstr ""
 
@@ -497,18 +501,18 @@ msgstr ""
 #: referencemanual.docbook:349
 #, no-c-format
 msgid ""
-"<action>Checks a partition</action>: This command checks the selected partition "
-"and its file system for errors and tries to correct any problems it finds. "
-"During this process the file system on the partition will also be resized to "
-"fill the partition completely."
+"<action>Checks a partition</action>: This command checks the selected "
+"partition and its file system for errors and tries to correct any problems "
+"it finds. During this process the file system on the partition will also be "
+"resized to fill the partition completely."
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:352
 #, no-c-format
 msgid ""
-"This command is only enabled if a partition is selected that can be checked and "
-"is not currently mounted."
+"This command is only enabled if a partition is selected that can be checked "
+"and is not currently mounted."
 msgstr ""
 
 #. Tag: menuchoice
@@ -521,9 +525,9 @@ msgstr ""
 #: referencemanual.docbook:365
 #, no-c-format
 msgid ""
-"<action>Backs up a partition</action>: This command backs up the file system on "
-"the selected partition to a file. You will be asked where to store the image "
-"file after activating this command."
+"<action>Backs up a partition</action>: This command backs up the file system "
+"on the selected partition to a file. You will be asked where to store the "
+"image file after activating this command."
 msgstr ""
 
 #. Tag: para
@@ -532,16 +536,16 @@ msgstr ""
 msgid ""
 "The created image file is a sector-for-sector copy of the file system on the "
 "partition. It is not compressed and does not have any additional meta "
-"information or header added to it, thus it can be directly mounted using a loop "
-"device outside of &partman; if the operation system supports that."
+"information or header added to it, thus it can be directly mounted using a "
+"loop device outside of &partman; if the operation system supports that."
 msgstr ""
 
 #. Tag: para
 #: referencemanual.docbook:371
 #, no-c-format
 msgid ""
-"This command is only enabled if a partition is selected and the file system on "
-"it can be backed up. The partition must also not be mounted."
+"This command is only enabled if a partition is selected and the file system "
+"on it can be backed up. The partition must also not be mounted."
 msgstr ""
 
 #. Tag: menuchoice
@@ -554,10 +558,10 @@ msgstr ""
 #: referencemanual.docbook:384
 #, no-c-format
 msgid ""
-"<action>Restores a partition</action>: This command restores a file system from "
-"an image file to a partition. You will be asked for the name of the image file "
-"to restore after activating this command. The target to restore to must be "
-"large enough for the image file."
+"<action>Restores a partition</action>: This command restores a file system "
+"from an image file to a partition. You will be asked for the name of the "
+"image file to restore after activating this command. The target to restore "
+"to must be large enough for the image file."
 msgstr ""
 
 #. Tag: para
@@ -573,7 +577,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Restoring a partition on an existing one means that all data on the existing "
-"partition is destroyed and replaced with the data from the restored image file."
+"partition is destroyed and replaced with the data from the restored image "
+"file."
 msgstr ""
 
 #. Tag: menuchoice
@@ -594,9 +599,9 @@ msgstr ""
 #: referencemanual.docbook:407
 #, no-c-format
 msgid ""
-"What is displayed and what can be modified in this dialog depends on the type "
-"of partition, the type of the file system on the partition and on the partition "
-"being currently mounted or not."
+"What is displayed and what can be modified in this dialog depends on the "
+"type of partition, the type of the file system on the partition and on the "
+"partition being currently mounted or not."
 msgstr ""
 
 #. Tag: para
@@ -611,8 +616,8 @@ msgstr ""
 #: referencemanual.docbook:413
 #, no-c-format
 msgid ""
-"This is a list of all partition and file system properties that can in general "
-"be modified in this dialog:"
+"This is a list of all partition and file system properties that can in "
+"general be modified in this dialog:"
 msgstr ""
 
 #. Tag: para
@@ -646,8 +651,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Recreating a file system on a partition always means that all data on the "
-"partition is destroyed. Recreating a file system should only be used as a last "
-"resort if the file system on a partition cannot be repaired anymore."
+"partition is destroyed. Recreating a file system should only be used as a "
+"last resort if the file system on a partition cannot be repaired anymore."
 msgstr ""
 
 #. Tag: para
@@ -661,8 +666,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Depending on the type of partition table used, there will be several flags "
-"available for each partition on the partition table. In most cases, modifying "
-"the flags is not necessary and should be considered an advanced feature."
+"available for each partition on the partition table. In most cases, "
+"modifying the flags is not necessary and should be considered an advanced "
+"feature."
 msgstr ""
 
 #. Tag: para

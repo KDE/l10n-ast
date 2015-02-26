@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,10 +25,9 @@ msgstr ""
 #: resizehowto.docbook:4
 #, no-c-format
 msgid ""
-"This how-to explains the resizing of a <glossterm "
-"linkend=\"glossary-partition\">partition</glossterm> "
-"that is becoming too full. See the following screenshot for the initial "
-"situation before resizing:"
+"This how-to explains the resizing of a <glossterm linkend=\"glossary-"
+"partition\">partition</glossterm> that is becoming too full. See the "
+"following screenshot for the initial situation before resizing:"
 msgstr ""
 
 #. Tag: phrase
@@ -40,11 +40,11 @@ msgstr ""
 #: resizehowto.docbook:17
 #, no-c-format
 msgid ""
-"On <glossterm linkend=\"glossary-device\">device</glossterm> <quote>"
-"/dev/sdb</quote>, partition <quote>sdb2</quote> has only little free space left "
+"On <glossterm linkend=\"glossary-device\">device</glossterm> <quote>/dev/"
+"sdb</quote>, partition <quote>sdb2</quote> has only little free space left "
 "while the other partition, <quote>sdb1</quote>, is far from being full. For "
-"that reason it seems advisable to make the first partition a little smaller and "
-"grow <quote>sdb2</quote> so it has more free space available."
+"that reason it seems advisable to make the first partition a little smaller "
+"and grow <quote>sdb2</quote> so it has more free space available."
 msgstr ""
 
 #. Tag: title
@@ -81,11 +81,11 @@ msgstr ""
 #: resizehowto.docbook:39
 #, no-c-format
 msgid ""
-"The dialog allows you to resize the partition in multiple ways. You can either "
-"drag the right handle to the left until the partition has the desired size or "
-"simply enter the size in the <guilabel>Size</guilabel> "
-"text field. Another possibility would be to adjust the size by clicking on the "
-"little arrows next to the text field, but that is a little tedious for larger "
+"The dialog allows you to resize the partition in multiple ways. You can "
+"either drag the right handle to the left until the partition has the desired "
+"size or simply enter the size in the <guilabel>Size</guilabel> text field. "
+"Another possibility would be to adjust the size by clicking on the little "
+"arrows next to the text field, but that is a little tedious for larger "
 "changes."
 msgstr ""
 
@@ -93,8 +93,8 @@ msgstr ""
 #: resizehowto.docbook:43
 #, no-c-format
 msgid ""
-"Whichever way you prefer for setting the new size, the dialog should now look "
-"like this:"
+"Whichever way you prefer for setting the new size, the dialog should now "
+"look like this:"
 msgstr ""
 
 #. Tag: phrase
@@ -107,9 +107,9 @@ msgstr ""
 #: resizehowto.docbook:56
 #, no-c-format
 msgid ""
-"After you click on <guibutton>OK</guibutton>, a new operation is added to the "
-"pending operations list and the graphical view and tree view of the device are "
-"updated to reflect the new situation:"
+"After you click on <guibutton>OK</guibutton>, a new operation is added to "
+"the pending operations list and the graphical view and tree view of the "
+"device are updated to reflect the new situation:"
 msgstr ""
 
 #. Tag: phrase
@@ -131,21 +131,19 @@ msgid ""
 "Although the main window reflects the device's state how it will be after "
 "applying the new operation, the operation has in fact not been applied yet: "
 "While operations are pending you can still undo them (one by one using <xref "
-"linkend=\"menu-edit-undo\"/> or <xref linkend=\"menu-edit-clear\"/> "
-"to undo all of them) or quit &partman;, and nothing will have been modified at "
-"all."
+"linkend=\"menu-edit-undo\"/> or <xref linkend=\"menu-edit-clear\"/> to undo "
+"all of them) or quit &partman;, and nothing will have been modified at all."
 msgstr ""
 
 #. Tag: para
 #: resizehowto.docbook:74
 #, no-c-format
 msgid ""
-"Now that there is some free space between the two partitions you can move and "
-"grow partition <quote>sdb2</quote>. First, click on <quote>sdb2</quote> "
-"and choose <xref linkend=\"menu-partition-resize\"/> "
-"again. The resize dialog comes up once more, this time for the second "
-"partition. Drag its left handle to the leftmost end so that the dialog looks "
-"like this:"
+"Now that there is some free space between the two partitions you can move "
+"and grow partition <quote>sdb2</quote>. First, click on <quote>sdb2</quote> "
+"and choose <xref linkend=\"menu-partition-resize\"/> again. The resize "
+"dialog comes up once more, this time for the second partition. Drag its left "
+"handle to the leftmost end so that the dialog looks like this:"
 msgstr ""
 
 #. Tag: phrase
@@ -158,17 +156,17 @@ msgstr ""
 #: resizehowto.docbook:87
 #, no-c-format
 msgid ""
-"Be careful to make sure that the <guilabel>Free space before</guilabel> "
-"text field really does show <quote>0 MiB</quote> because otherwise there will "
-"be a little free space left between the partitions that will then be wasted."
+"Be careful to make sure that the <guilabel>Free space before</guilabel> text "
+"field really does show <quote>0 MiB</quote> because otherwise there will be "
+"a little free space left between the partitions that will then be wasted."
 msgstr ""
 
 #. Tag: para
 #: resizehowto.docbook:91
 #, no-c-format
 msgid ""
-"Now click <guibutton>OK</guibutton> again. In the main window things now look "
-"like this:"
+"Now click <guibutton>OK</guibutton> again. In the main window things now "
+"look like this:"
 msgstr ""
 
 #. Tag: phrase
@@ -181,10 +179,10 @@ msgstr ""
 #: resizehowto.docbook:104
 #, no-c-format
 msgid ""
-"This already looks like what you wanted, so choose <xref "
-"linkend=\"menu-edit-apply\"/>. A dialog box will come up and ask you if you are "
-"sure to apply the pending operations. Confirm this dialog box and &partman; "
-"will begin executing operations:"
+"This already looks like what you wanted, so choose <xref linkend=\"menu-edit-"
+"apply\"/>. A dialog box will come up and ask you if you are sure to apply "
+"the pending operations. Confirm this dialog box and &partman; will begin "
+"executing operations:"
 msgstr ""
 
 #. Tag: phrase
@@ -197,20 +195,20 @@ msgstr ""
 #: resizehowto.docbook:117
 #, no-c-format
 msgid ""
-"While operations are being executed you can click on the plus-sign next to each "
-"operation in the list to find out the jobs it is made up of and see which job "
-"is currently being run."
+"While operations are being executed you can click on the plus-sign next to "
+"each operation in the list to find out the jobs it is made up of and see "
+"which job is currently being run."
 msgstr ""
 
 #. Tag: para
 #: resizehowto.docbook:121
 #, no-c-format
 msgid ""
-"Resizing a partition in the way you resized <quote>/dev/sdb2</quote> "
-"above always means it has to be moved to the left first before it can be grown "
+"Resizing a partition in the way you resized <quote>/dev/sdb2</quote> above "
+"always means it has to be moved to the left first before it can be grown "
 "because partitions can never be grown to the left directly. Unfortunately, "
-"moving such a large partition will take quite some time. It is not unusual for "
-"an operation like this to take several minutes or even more."
+"moving such a large partition will take quite some time. It is not unusual "
+"for an operation like this to take several minutes or even more."
 msgstr ""
 
 #. Tag: para
@@ -229,19 +227,19 @@ msgstr ""
 #: resizehowto.docbook:138
 #, no-c-format
 msgid ""
-"By clicking on <guibutton>OK</guibutton> you can now close the progress dialog "
-"and return to the main window. &partman; will rescan your devices at this point "
-"so that might take a few seconds."
+"By clicking on <guibutton>OK</guibutton> you can now close the progress "
+"dialog and return to the main window. &partman; will rescan your devices at "
+"this point so that might take a few seconds."
 msgstr ""
 
 #. Tag: para
 #: resizehowto.docbook:142
 #, no-c-format
 msgid ""
-"If you are interested in some more details about the operations that were just "
-"run click on <guibutton>Details</guibutton>. You will see the detailed report "
-"that is always generated (and updated on the fly) while &partman; executes "
-"operations:"
+"If you are interested in some more details about the operations that were "
+"just run click on <guibutton>Details</guibutton>. You will see the detailed "
+"report that is always generated (and updated on the fly) while &partman; "
+"executes operations:"
 msgstr ""
 
 #. Tag: phrase
@@ -255,8 +253,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This report is particularly of interest if an error occurs while executing "
-"operations. A report shows each operation, each job and each external command "
-"that is being run and is thus very helpful when trying to track down problems."
+"operations. A report shows each operation, each job and each external "
+"command that is being run and is thus very helpful when trying to track down "
+"problems."
 msgstr ""
 
 #. Tag: para
@@ -271,17 +270,16 @@ msgstr ""
 #: resizehowto.docbook:164
 #, no-c-format
 msgid ""
-"Always save the detailed report as <acronym>HTML</acronym> "
-"when executing the operations fails with errors or warnings for later "
-"reference. You might also want to include it in a bug report you submit to the "
-"&kde; bug tracking system at <ulink url=\"https://bugs.kde.org\">"
-"bugs.kde.org</ulink>."
+"Always save the detailed report as <acronym>HTML</acronym> when executing "
+"the operations fails with errors or warnings for later reference. You might "
+"also want to include it in a bug report you submit to the &kde; bug tracking "
+"system at <ulink url=\"https://bugs.kde.org\">bugs.kde.org</ulink>."
 msgstr ""
 
 #. Tag: para
 #: resizehowto.docbook:169
 #, no-c-format
 msgid ""
-"To hide the details again click on <guibutton>Details</guibutton> "
-"and to finally close the progress dialog click on <guibutton>OK</guibutton>."
+"To hide the details again click on <guibutton>Details</guibutton> and to "
+"finally close the progress dialog click on <guibutton>OK</guibutton>."
 msgstr ""

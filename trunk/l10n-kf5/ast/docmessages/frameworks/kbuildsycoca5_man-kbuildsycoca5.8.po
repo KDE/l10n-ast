@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -90,8 +91,8 @@ msgstr ""
 #: man-kbuildsycoca5.8.docbook:45
 #, no-c-format
 msgid ""
-"<command>kbuildsycoca5</command> <group choice=\"opt\" rep=\"repeat\">"
-"<replaceable class=\"option\">OPTIONS</replaceable></group>"
+"<command>kbuildsycoca5</command> <group choice=\"opt\" rep=\"repeat"
+"\"><replaceable class=\"option\">OPTIONS</replaceable></group>"
 msgstr ""
 
 #. Tag: title
@@ -105,27 +106,27 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<command>kbuildsycoca5</command> builds binary cache of the data stored in "
-"<literal role=\"extension\">.desktop</literal> and MIME type <literal "
-"role=\"extension\">.xml</literal> files that the KService framework uses to "
-"find plugins, applications and other services."
+"<literal role=\"extension\">.desktop</literal> and MIME type <literal role="
+"\"extension\">.xml</literal> files that the KService framework uses to find "
+"plugins, applications and other services."
 msgstr ""
 
 #. Tag: para
 #: man-kbuildsycoca5.8.docbook:64
 #, no-c-format
 msgid ""
-"The KService library uses this database to efficiently provide the information "
-"requested of it."
+"The KService library uses this database to efficiently provide the "
+"information requested of it."
 msgstr ""
 
 #. Tag: para
 #: man-kbuildsycoca5.8.docbook:69
 #, no-c-format
 msgid ""
-"Users do not normally need to run this application directly; KService will run "
-"it if necessary, and if KDED is installed and running it will run <command>"
-"kbuildsyscoca5</command> whenever any of the files whose data is cached are "
-"changed."
+"Users do not normally need to run this application directly; KService will "
+"run it if necessary, and if KDED is installed and running it will run "
+"<command>kbuildsyscoca5</command> whenever any of the files whose data is "
+"cached are changed."
 msgstr ""
 
 #. Tag: title
@@ -144,10 +145,11 @@ msgstr ""
 #: man-kbuildsycoca5.8.docbook:86
 #, no-c-format
 msgid ""
-"Checks the file timestamps of the cache and the resource directories containing "
-"the data to be cached, and only updates the database if any of the resource "
-"directories have been modified more recently than the cache. Ignored if <option>"
-"--nocheckfiles</option> or <option>--noincremental</option> is set."
+"Checks the file timestamps of the cache and the resource directories "
+"containing the data to be cached, and only updates the database if any of "
+"the resource directories have been modified more recently than the cache. "
+"Ignored if <option>--nocheckfiles</option> or <option>--noincremental</"
+"option> is set."
 msgstr ""
 
 #. Tag: option
@@ -160,8 +162,8 @@ msgstr ""
 #: man-kbuildsycoca5.8.docbook:93
 #, no-c-format
 msgid ""
-"Ignores any user-set files (in <varname>XDG_DATA_HOME</varname>"
-"). This is currently only supported on Unix systems."
+"Ignores any user-set files (in <varname>XDG_DATA_HOME</varname>). This is "
+"currently only supported on Unix systems."
 msgstr ""
 
 #. Tag: option
@@ -174,10 +176,10 @@ msgstr ""
 #: man-kbuildsycoca5.8.docbook:100
 #, no-c-format
 msgid ""
-"Does not rebuild the cache unless something other than a change in the resource "
-"files requires it (such as the format of the cache changing, or <varname>"
-"XDG_DATA_DIRS</varname> being changed on a Unix system). Ignored if <option>"
-"--global</option> is set."
+"Does not rebuild the cache unless something other than a change in the "
+"resource files requires it (such as the format of the cache changing, or "
+"<varname>XDG_DATA_DIRS</varname> being changed on a Unix system). Ignored if "
+"<option>--global</option> is set."
 msgstr ""
 
 #. Tag: option
@@ -190,9 +192,9 @@ msgstr ""
 #: man-kbuildsycoca5.8.docbook:107
 #, no-c-format
 msgid ""
-"Rather than using the existing cache and only updating the information that has "
-"changed or been added, start with an empty cache. Ignored if <option>"
-"--global</option> is set."
+"Rather than using the existing cache and only updating the information that "
+"has changed or been added, start with an empty cache. Ignored if <option>--"
+"global</option> is set."
 msgstr ""
 
 #. Tag: option
@@ -206,8 +208,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Ordinarily, <command>kbuildsyscoca5</command> sends a signal over D-Bus once "
-"the cache is updated to all the applications that use KService so that they are "
-"always working with the latest information. This option suppresses that "
+"the cache is updated to all the applications that use KService so that they "
+"are always working with the latest information. This option suppresses that "
 "behaviour."
 msgstr ""
 
@@ -221,8 +223,8 @@ msgstr ""
 #: man-kbuildsycoca5.8.docbook:121
 #, no-c-format
 msgid ""
-"Test the generation of the application menu database. Does not actually build "
-"the cache."
+"Test the generation of the application menu database. Does not actually "
+"build the cache."
 msgstr ""
 
 #. Tag: option
@@ -235,8 +237,8 @@ msgstr ""
 #: man-kbuildsycoca5.8.docbook:128
 #, no-c-format
 msgid ""
-"Use the QStandardPaths \"test mode\" to avoid interfering with user data. This "
-"is intended for use with unit tests."
+"Use the QStandardPaths \"test mode\" to avoid interfering with user data. "
+"This is intended for use with unit tests."
 msgstr ""
 
 #. Tag: option
@@ -315,9 +317,9 @@ msgstr ""
 #: man-kbuildsycoca5.8.docbook:186
 #, no-c-format
 msgid ""
-"The KService cache generated by <command>kbuildsycoca5</command>"
-". On Unix systems, <varname>cachedir</varname> is typically <filename "
-"class=\"directory\">~/.config</filename>"
+"The KService cache generated by <command>kbuildsycoca5</command>. On Unix "
+"systems, <varname>cachedir</varname> is typically <filename class=\"directory"
+"\">~/.config</filename>"
 msgstr ""
 
 #. Tag: filename
@@ -331,8 +333,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The timestamp and other meta-information about the main cache file. On Unix "
-"systems, <varname>cachedir</varname> is typically <filename class=\"directory\">"
-"~/.config</filename>"
+"systems, <varname>cachedir</varname> is typically <filename class=\"directory"
+"\">~/.config</filename>"
 msgstr ""
 
 #. Tag: title
@@ -345,9 +347,9 @@ msgstr ""
 #: man-kbuildsycoca5.8.docbook:202
 #, no-c-format
 msgid ""
-"<citerefentry><refentrytitle>kded5</refentrytitle><manvolnum>8</manvolnum>"
-"</citerefentry>, <citerefentry><refentrytitle>kdeinit5</refentrytitle>"
-"<manvolnum>8</manvolnum></citerefentry>"
+"<citerefentry><refentrytitle>kded5</refentrytitle><manvolnum>8</manvolnum></"
+"citerefentry>, <citerefentry><refentrytitle>kdeinit5</"
+"refentrytitle><manvolnum>8</manvolnum></citerefentry>"
 msgstr ""
 
 #. Tag: title
@@ -360,6 +362,6 @@ msgstr ""
 #: man-kbuildsycoca5.8.docbook:212
 #, no-c-format
 msgid ""
-"There are probably tons of bugs. Use <ulink url=\"http://bugs.kde.org\">"
-"KDE's bugtracker</ulink> to report them."
+"There are probably tons of bugs. Use <ulink url=\"http://bugs.kde.org"
+"\">KDE's bugtracker</ulink> to report them."
 msgstr ""
