@@ -1,36 +1,37 @@
 # Asturian translation for kdeadmin
 # Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
 # This file is distributed under the same license as the kdeadmin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
 #
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# enolp <enolp@softastur.org>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeadmin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2015-01-28 07:39+0000\n"
-"PO-Revision-Date: 2010-10-19 22:21+0100\n"
-"Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
-"Language-Team: Asturian <ast@li.org>\n"
+"PO-Revision-Date: 2015-03-01 21:05+0100\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2009-10-22 21:17+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Generator: Lokalize 2.0\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Iñigo Varela"
+msgstr "Softastur"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "malditoastur@gmail.com"
+msgstr "alministradores@softastur.org"
 
 #: src/crontablib/ctcron.cpp:103
-#, kde-format
+#, fuzzy, kde-format
 msgid "No password entry found for uid '%1'"
-msgstr "Nun s'alcontró contraseña pal UID '%1'"
+msgstr "Nun s'alcontró la entrada de contraseña pal UID '%1'"
 
 #: src/crontablib/ctcron.cpp:240
 #, kde-format
@@ -64,26 +65,26 @@ msgid ""
 "<p><strong>Command:</strong> %1</p><strong>Standard Output :</strong><pre>"
 "%2</pre><strong>Error Output :</strong><pre>%3</pre>"
 msgstr ""
-"<p><strong>Orde:</strong> %1</p><strong>Salida estándar:</strong><pre>%2</"
-"pre><strong>Salida d'error:</strong><pre>%3</pre>"
+"<p><strong>Comandu:</strong> %1</p><strong>Salida estándar:</strong><pre>%2</"
+"pre><strong>Salida de fallu:</strong><pre>%3</pre>"
 
 #: src/crontablib/ctcron.cpp:294
 msgid "An error occurred while updating crontab."
-msgstr "Asocedió un fallu al anovar crontab."
+msgstr "Asocedió un fallu entrín s'anovaba crontab."
 
 #: src/crontablib/ctcron.cpp:301
 msgid "Unable to open crontab file for writing"
-msgstr "Nun ye dable abrir el ficheru crontab pa escritura"
+msgstr "Nun pue abrise'l ficheru crontab pa escritura"
 
 #: src/crontablib/ctcron.cpp:301
 #, kde-format
 msgid "The file %1 could not be opened."
-msgstr "El ficheru %1 nun puede abrise."
+msgstr "Nun pudo abrise'l ficheru %1."
 
 #: src/crontablib/ctdom.cpp:23 src/crontablib/ctdow.cpp:44
 #: src/crontablib/cttask.cpp:267
 msgid "every day "
-msgstr "cada día "
+msgstr "caldía"
 
 #: src/crontablib/ctdom.cpp:33
 msgid "1st"
@@ -274,16 +275,17 @@ msgid "No comment"
 msgstr "Ensin comentariu"
 
 #: src/crontablib/cthost.cpp:60
+#, fuzzy
 msgid ""
 "You have been blocked from using KCron\t                      by either the /"
 "etc/cron.allow file or the /etc/cron.deny file.\t                      \n"
 "\n"
 "Check the crontab man page for further details."
 msgstr ""
-"Bloquiaste l'usu de KCron\t                      o pol ficheru /etc/cron."
+"Bloquiósete l'usu de KCron\t                      o pol ficheru /etc/cron."
 "allow o el ficheru /etc/cron.deny .\t                      \n"
 "\n"
-"Revisa la páxina del manual de crontab pa más detalles."
+"Comprueba la páxina man de crontab pa más detalles."
 
 #: src/crontablib/cthost.cpp:142
 #, kde-format
@@ -351,7 +353,7 @@ msgstr "Crontab del sistema"
 
 #: src/crontablib/cttask.cpp:241
 msgid "At system startup"
-msgstr "Al aniciar el sistema"
+msgstr "Nel aniciu del sistema"
 
 #: src/crontablib/cttask.cpp:248
 #, kde-format
@@ -372,10 +374,10 @@ msgid "%1 of %2"
 msgstr "%1 de %2"
 
 #: src/crontablib/cttask.cpp:278
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "1:Day of month, 2:Day of week"
 msgid "%1 as well as %2"
-msgstr "tantu %1 como %2"
+msgstr "%1 tamién como %2"
 
 #: src/crontablib/cttask.cpp:308
 #, kde-format
@@ -405,7 +407,7 @@ msgstr "A les %1"
 #, kde-format
 msgid "Every minute"
 msgid_plural "Every %1 minutes"
-msgstr[0] "Every minute"
+msgstr[0] "Cada minutu"
 msgstr[1] "Cada %1 minutos"
 
 #: src/crontablib/ctunit.cpp:172
@@ -414,23 +416,25 @@ msgstr ","
 
 #: src/crontablib/ctvariable.cpp:123
 msgid "Override default home folder."
-msgstr "Sustituyir la carpeta personal predeteminada."
+msgstr "Anula la carpeta home por defeutu."
 
 #: src/crontablib/ctvariable.cpp:126
 msgid "Email output to specified account."
-msgstr "Unviar la salida a la cuenta de corréu-e especificada."
+msgstr "Unvia la salida a la cuenta especificada."
 
 #: src/crontablib/ctvariable.cpp:129
 msgid "Override default shell."
-msgstr "Inorar l'intérprete d'órdenes predeterminaú."
+msgstr "Anula'l shell por defeutu."
 
 #: src/crontablib/ctvariable.cpp:132
+#, fuzzy
 msgid "Folders to search for program files."
-msgstr "Carpetes au guetar programes."
+msgstr "Carpetes pa guetar ficheros de programa."
 
 #: src/crontablib/ctvariable.cpp:135
+#, fuzzy
 msgid "Dynamic libraries location."
-msgstr "Llocalización de biblioteces dinámiques"
+msgstr "Allugamientu de llibreríes dinámiques."
 
 #: src/crontablib/ctvariable.cpp:138
 msgid "Local Variable"
@@ -472,15 +476,15 @@ msgstr "Opciones de Cron"
 
 #: src/crontabPrinterWidget.cpp:26
 msgid "Print cron&tab"
-msgstr "Imprentar cron&tab"
+msgstr "Amosar cron&tab"
 
 #: src/crontabPrinterWidget.cpp:30
 msgid "Print &all users"
-msgstr "Imprentar &tolos Usuarios"
+msgstr "Amosar &tolos Usuarios"
 
 #: src/crontabWidget.cpp:154
 msgid "Show the following Cron:"
-msgstr "Amosar el siguiente Cron:"
+msgstr "Amosar el Cron siguiente:"
 
 #: src/crontabWidget.cpp:158
 msgid "Personal Cron"
@@ -499,12 +503,14 @@ msgid "Show All Personal Crons"
 msgstr "Amosar tolos Cron personales"
 
 #: src/kcmCron.cpp:63
+#, fuzzy
 msgid "Task Scheduler"
-msgstr "Organizador de xeres"
+msgstr "Programador de xeres"
 
 #: src/kcmCron.cpp:64
+#, fuzzy
 msgid "KDE Task Scheduler"
-msgstr "Organizador de Xers de KDE"
+msgstr "Progrador de xeres de KDE"
 
 #: src/kcmCron.cpp:64
 msgid ""
@@ -543,11 +549,11 @@ msgid ""
 "\n"
 "KCron will now exit.\n"
 msgstr ""
-"Asocedió'l siguiente fallu al anicializar KCron:\n"
+"Asocedió'l fallu siguiente entrín s'aniciaba KCron:\n"
 "\n"
 "%1\n"
 "\n"
-"KCron finará agora.\n"
+"KCron colará agora.\n"
 
 #: src/kcmCron.cpp:146
 msgid ""
@@ -555,13 +561,13 @@ msgid ""
 "To schedule a new task now, click on the Tasks folder and select Edit/New "
 "from the menu."
 msgstr ""
-"Puede usar esta aplicación pa programar xeres que s'executarán de fondu.\n"
-"Pa programar una nueva xera agora, calque na carpeta de Xeres y esbille "
-"Editar/Nueva nel menú."
+"Pues usar esta aplicación pa programar programes que s'executarán de fondu.\n"
+"Pa programar agora un programa nuevu agora, primi na carpeta de Xeres y "
+"esbilla Editar/Nueva dende'l menú."
 
 #: src/kcmCron.cpp:146
 msgid "Welcome to the Task Scheduler"
-msgstr "Bienveníu al Organizador de Xeres"
+msgstr "Bienllegáu al programador de xeres"
 
 #: src/taskEditorDialog.cpp:76
 msgid "Add or modify a scheduled task"
@@ -569,7 +575,7 @@ msgstr "Amestar o modificar una xera programada"
 
 #: src/taskEditorDialog.cpp:77 src/taskEditorDialog.cpp:847
 msgid "<i>This task will be executed at the specified intervals.</i>"
-msgstr "<i>Esta xera executaráse  nos intervalos especificaos</i>"
+msgstr "<i>Esta xera executaráse nos intervalos especificaos</i>"
 
 #: src/taskEditorDialog.cpp:86
 msgid "&Command:"
@@ -585,15 +591,15 @@ msgstr "&Comentariu:"
 
 #: src/taskEditorDialog.cpp:136
 msgid "&Enable this task"
-msgstr "Activar &esta xera"
+msgstr "&Habilitar esta xera"
 
 #: src/taskEditorDialog.cpp:141
 msgid "Run at system &bootup"
-msgstr "Executar al &aniciar el sistema"
+msgstr "Executar nel &aniciu'l sistema"
 
 #: src/taskEditorDialog.cpp:147
 msgid "Run &every day"
-msgstr "Executar &tolos díes"
+msgstr "Executar &caldía"
 
 #: src/taskEditorDialog.cpp:246
 msgid "Days of Month"
@@ -605,7 +611,7 @@ msgstr "Meses"
 
 #: src/taskEditorDialog.cpp:321
 msgid "Days of Week"
-msgstr "Díes de la Selmana"
+msgstr "Díes de la selmana"
 
 #: src/taskEditorDialog.cpp:459
 msgid "Minutes"
@@ -617,11 +623,11 @@ msgstr "Preseleición:"
 
 #: src/taskEditorDialog.cpp:476
 msgid "Clear selection"
-msgstr "Llimpiar seleición"
+msgstr "Llimpiar esbilla"
 
 #: src/taskEditorDialog.cpp:477
 msgid "Custom selection"
-msgstr "Seleición personalizada"
+msgstr "Esbilla personalizada"
 
 #: src/taskEditorDialog.cpp:478
 msgid "Each minute"
@@ -665,19 +671,19 @@ msgstr "PM:"
 
 #: src/taskEditorDialog.cpp:703 src/taskEditorDialog.cpp:714
 msgid "<i>Please type a valid command line...</i>"
-msgstr "<i>Por favor escribi una llinia d'orde válida...</i>"
+msgstr "<i>Por favor, escribi una llinia de comandu válida...</i>"
 
 #: src/taskEditorDialog.cpp:737
 msgid "<i>Please select an executable program...</i>"
-msgstr "<i>Seleiciona un programa executable...</i>"
+msgstr "<i>Por favor, esbilla l'executable d'un programa...</i>"
 
 #: src/taskEditorDialog.cpp:745 src/taskEditorDialog.cpp:771
 msgid "<i>Please browse for a program to execute...</i>"
-msgstr "<i>Gueta un programa pa executar...</i>"
+msgstr "<i>Por favor, restola un programa pa executar...</i>"
 
 #: src/taskEditorDialog.cpp:758
 msgid "<i>This task is disabled.</i>"
-msgstr "<i>Esta xera ta desactivada.</i>"
+msgstr "<i>Esta xera ta deshabilitada.</i>"
 
 #: src/taskEditorDialog.cpp:765
 msgid "<i>This task will be run on system bootup.</i>"
@@ -685,27 +691,28 @@ msgstr "<i>Esta xera executaráse nel arranque del sistema.</i>"
 
 #: src/taskEditorDialog.cpp:790
 msgid "<i>Please select from the 'Months' section...</i>"
-msgstr "<i>Esbilla de la seición 'Meses'...</i>"
+msgstr "<i>Por favor, esbilla dende la estaya 'Meses'...</i>"
 
 #: src/taskEditorDialog.cpp:809
 msgid ""
 "<i>Please select from either the 'Days of Month' or the 'Days of Week' "
 "section...</i>"
 msgstr ""
-"<i>Esbilla cualesquier de la seición 'Díes del mes' o de la seición 'Díes de "
+"<i>Por favor, esbilla cualesquier de la seición 'Díes del mes' o de la "
+"seición 'Díes de "
 "la selmana'...</i>"
 
 #: src/taskEditorDialog.cpp:824
 msgid "<i>Please select from the 'Hours' section...</i>"
-msgstr "<i>Esbilla de la seición 'Hores'...</i>"
+msgstr "<i>Por favor, esbilla dende la estaya 'Hores'...</i>"
 
 #: src/taskEditorDialog.cpp:839
 msgid "<i>Please select from the 'Minutes' section...</i>"
-msgstr "<i>Esbilla de la seición 'Minutos'...</i>"
+msgstr "<i>Por favor, esbilla dende la estaya 'Minutos'...</i>"
 
 #: src/taskEditorDialog.cpp:1042
 msgid "Set All"
-msgstr "Axustar Too"
+msgstr "Afitar too"
 
 #: src/taskEditorDialog.cpp:1044
 msgid "Clear All"
@@ -718,15 +725,15 @@ msgstr "<b>Xeres programaes</b>"
 #: src/tasksWidget.cpp:106
 msgctxt "Do not use any quote characters (') in this string"
 msgid "End of script execution. Type Enter or Ctrl+C to exit."
-msgstr "Fin de la execución del guión. Calque intro o Ctrl+C pa colar."
+msgstr ""
 
 #: src/tasksWidget.cpp:139
 msgid "New Task"
-msgstr "Nueva xera"
+msgstr "Xera nueva"
 
 #: src/tasksWidget.cpp:175
 msgid "Modify Task"
-msgstr "Modificar Xera"
+msgstr "Modificar xera"
 
 #: src/tasksWidget.cpp:235 src/variablesWidget.cpp:193
 msgid "User"
@@ -737,17 +744,18 @@ msgid "Status"
 msgstr "Estáu"
 
 #: src/tasksWidget.cpp:243
+#, fuzzy
 msgid "Scheduling Details"
 msgstr "Detalles de planificación"
 
 #: src/tasksWidget.cpp:268
 msgctxt "Adds a new task"
 msgid "New &Task..."
-msgstr "Nueva &xera..."
+msgstr "&Xera nueva..."
 
 #: src/tasksWidget.cpp:269
 msgid "Create a new task."
-msgstr "Crear una nueva xera."
+msgstr "Crea una xera nueva."
 
 #: src/tasksWidget.cpp:273 src/variablesWidget.cpp:219
 msgid "M&odify..."
@@ -755,7 +763,7 @@ msgstr "M&odificar..."
 
 #: src/tasksWidget.cpp:275
 msgid "Modify the selected task."
-msgstr "Modificar la xera esbillada."
+msgstr "Modifica la xera esbillada."
 
 #: src/tasksWidget.cpp:279 src/variablesWidget.cpp:225
 msgid "&Delete"
@@ -763,7 +771,7 @@ msgstr "D&esaniciar"
 
 #: src/tasksWidget.cpp:281
 msgid "Delete the selected task."
-msgstr "Desaniciar la xera esbillada"
+msgstr "Desanicia la xera esbillada."
 
 #: src/tasksWidget.cpp:285
 msgid "&Run Now"
@@ -771,19 +779,19 @@ msgstr "Executa&r agora"
 
 #: src/tasksWidget.cpp:287
 msgid "Run the selected task now."
-msgstr "Executa la xera esbillada agora."
+msgstr "Executa agora la xera esbillada."
 
 #: src/taskWidget.cpp:47 src/variableWidget.cpp:43
 msgid "Enabled"
-msgstr "Activada"
+msgstr "Habilitáu"
 
 #: src/taskWidget.cpp:50 src/variableWidget.cpp:47
 msgid "Disabled"
-msgstr "Desactivada"
+msgstr "Deshabilitáu"
 
 #: src/variableEditorDialog.cpp:56
 msgid "Add or modify a variable"
-msgstr "Amestar o camudar una variable"
+msgstr "Amestar o modificar una variable"
 
 #: src/variableEditorDialog.cpp:60
 msgctxt "The environmental variable name ie HOME, MAILTO etc"
@@ -796,23 +804,24 @@ msgstr "Va&lor:"
 
 #: src/variableEditorDialog.cpp:124
 msgid "&Enable this variable"
-msgstr "Activar &esta variable"
+msgstr "Habilitar &esta variable"
 
 #: src/variableEditorDialog.cpp:155
+#, fuzzy
 msgid "<i>This variable will be used by scheduled tasks.</i>"
 msgstr "<i>Esta variable usaráse pa xeres planificaes.</i>"
 
 #: src/variableEditorDialog.cpp:199
 msgid "<i>This variable is disabled.</i>"
-msgstr "<i>Esta variable ta desactivada.</i>"
+msgstr "<i>Esta variable ta deshabilitada.</i>"
 
 #: src/variableEditorDialog.cpp:206
 msgid "<i>Please enter the variable name...</i>"
-msgstr "<i>Introduz el nome de la variable...</i>"
+msgstr "<i>Por favor, introduz el nome la variable...</i>"
 
 #: src/variableEditorDialog.cpp:213
 msgid "<i>Please enter the variable value ...</i>"
-msgstr "<i>Introduz el valor de la variable...</i>"
+msgstr "<i>Por favor, introduz el valor la variable...</i>"
 
 #: src/variablesWidget.cpp:44
 msgid "<b>Environment Variables</b>"
@@ -824,7 +833,7 @@ msgstr "Modificar variable"
 
 #: src/variablesWidget.cpp:155
 msgid "New Variable"
-msgstr "Nueva variable"
+msgstr "Variable nueva"
 
 #: src/variablesWidget.cpp:196
 msgid "Variable"
@@ -841,16 +850,17 @@ msgstr "Comentariu"
 #: src/variablesWidget.cpp:214
 msgctxt "Adds a new variable"
 msgid "New &Variable..."
-msgstr "Nueva &variable"
+msgstr "&Variable nueva..."
 
 #: src/variablesWidget.cpp:215
 msgid "Create a new variable."
-msgstr "Crear una nueva variable"
+msgstr "Crea una variable nueva."
 
 #: src/variablesWidget.cpp:221
 msgid "Modify the selected variable."
-msgstr "Modificar la variable esbillada"
+msgstr "Modifica la variable esbillada."
 
 #: src/variablesWidget.cpp:227
 msgid "Delete the selected variable."
-msgstr "Desaniciar la variable esbillada"
+msgstr "Desanicia la variable esbillada."
+
