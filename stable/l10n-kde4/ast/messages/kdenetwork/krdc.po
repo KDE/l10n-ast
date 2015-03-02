@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-06 06:29+0000\n"
+"POT-Creation-Date: 2015-01-11 02:02+0000\n"
 "PO-Revision-Date: 2010-10-19 22:55+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -1353,8 +1353,22 @@ msgstr ""
 msgid "Connection Failure"
 msgstr "Conexón fallida"
 
-#: rdp/rdpview.cpp:461 rdp/rdpview.cpp:467 rdp/rdpview.cpp:476
+#: rdp/rdpview.cpp:461
 msgid "Connection attempt to host failed."
+msgstr "El intento de coneutar a la máquina falló."
+
+#: rdp/rdpview.cpp:467
+#, fuzzy
+#| msgid "Authentication failed. Please try again."
+msgid "Authentication failure, check credentials."
+msgstr "Fallu d'autenticación. Inténtelu otra vegada."
+
+#: rdp/rdpview.cpp:476
+#, fuzzy
+#| msgid "Connection attempt to host failed."
+msgid ""
+"Connection attempt to host failed. Security negotiation or connection "
+"failure."
 msgstr "El intento de coneutar a la máquina falló."
 
 #: rdp/rdpviewfactory.cpp:38
