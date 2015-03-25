@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-24 02:58+0000\n"
+"POT-Creation-Date: 2015-03-25 07:58+0000\n"
 "PO-Revision-Date: 2015-03-19 04:33+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Spanish <kde-i18n-doc@kde.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: battery/batteryplugin.cpp:77
+#: battery/batteryplugin.cpp:78
 #, fuzzy, kde-format
 #| msgctxt "device name: low battery"
 #| msgid "%1: low battery"
 msgctxt "device name: low battery"
-msgid "%1: low battery"
+msgid "%1: Low Battery"
 msgstr "%1: batería baxa"
 
-#: battery/batteryplugin.cpp:78
+#: battery/batteryplugin.cpp:79
 #, kde-format
 msgid "Battery at %1%"
 msgstr ""
@@ -65,65 +65,34 @@ msgstr ""
 msgid "Mute system sound"
 msgstr ""
 
-#: ping/pingplugin.cpp:51
+#: ping/pingplugin.cpp:54
 msgid "Ping!"
 msgstr ""
 
-#: sftp/mounter.cpp:176
+#: sftp/mounter.cpp:161
 msgid "Failed to start sshfs"
 msgstr "Fallu al aniciar sshfs"
 
-#: sftp/mounter.cpp:198
+#: sftp/mounter.cpp:175
 msgid "Error when accessing to filesystem"
 msgstr "Fallu al acceder al sistema de ficheros"
 
-#: sftp/mounter.cpp:209
+#: sftp/mounter.cpp:186
 msgid "Failed to mount filesystem: device not responding"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, ShareConfigUi)
-#. i18n: ectx: property (windowTitle), widget (QWidget, SftpConfigUi)
-#: sftp/sftp_config.ui:17 share/share_config.ui:17
-msgid "Share plugin settings"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, error)
-#: sftp/sftp_config.ui:23
-msgid "Error"
-msgstr "Fallu"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: sftp/sftp_config.ui:45
-msgid "sshfs not found in PATH"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, idle)
-#: sftp/sftp_config.ui:86
-msgid "Disconnect when idle"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: sftp/sftp_config.ui:115
-msgid "Timeout:"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, timeout)
-#: sftp/sftp_config.ui:131
-msgid " min"
-msgstr " min"
-
-#: sftp/sftpplugin.cpp:160
+#: sftp/sftpplugin.cpp:151
 msgid "All files"
 msgstr "Tolos ficheros"
 
-#: sftp/sftpplugin.cpp:161
+#: sftp/sftpplugin.cpp:152
 msgid "Camera pictures"
 msgstr ""
 
-#: sftp/sftpplugin.cpp:208
-#, kde-format
-msgid "Device %1"
-msgstr "Preséu %1"
+#. i18n: ectx: property (windowTitle), widget (QWidget, ShareConfigUi)
+#: share/share_config.ui:17
+msgid "Share plugin settings"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: share/share_config.ui:23
@@ -138,43 +107,52 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: share/share_config.ui:53
 #, no-c-format, kde-format
-msgid "%1  in the path will be replaced with the specific device name."
+msgid "%1 in the path will be replaced with the specific device name."
 msgstr ""
 
-#: share/shareplugin.cpp:135
+#: share/shareplugin.cpp:171
 #, fuzzy
 #| msgid "Transfer finished"
-msgid "Transfer finished"
+msgid "Transfer Finished"
 msgstr "Tresferencia finada"
 
-#: share/shareplugin.cpp:137
-msgid "Open destination folder"
+#: share/shareplugin.cpp:173
+msgid "Open"
 msgstr ""
 
-#: telephony/telephonyplugin.cpp:41
+#: telephony/telephonyplugin.cpp:44
 msgid "unknown number"
 msgstr "númberu desconocíu"
 
-#: telephony/telephonyplugin.cpp:50
+#: telephony/telephonyplugin.cpp:54
 #, kde-format
 msgid "Incoming call from %1"
 msgstr ""
 
-#: telephony/telephonyplugin.cpp:54
+#: telephony/telephonyplugin.cpp:58
 #, kde-format
 msgid "Missed call from %1"
 msgstr ""
 
-#: telephony/telephonyplugin.cpp:59
+#: telephony/telephonyplugin.cpp:64
 #, kde-format
-msgid "SMS from %1: %2"
+msgid "SMS from %1<br>%2"
 msgstr ""
 
-#: telephony/telephonyplugin.cpp:68
+#: telephony/telephonyplugin.cpp:74
 #, kde-format
-msgid "Unknown telephony event: %2"
+msgid "Unknown telephony event: %1"
 msgstr ""
 
-#: telephony/telephonyplugin.cpp:81
-msgid "Mute call"
+#: telephony/telephonyplugin.cpp:87
+msgid "Mute Call"
 msgstr ""
+
+#~ msgid "Error"
+#~ msgstr "Fallu"
+
+#~ msgid " min"
+#~ msgstr " min"
+
+#~ msgid "Device %1"
+#~ msgstr "Preséu %1"

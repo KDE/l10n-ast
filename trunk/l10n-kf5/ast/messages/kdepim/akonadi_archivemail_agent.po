@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-24 11:23+0000\n"
+"POT-Creation-Date: 2015-03-25 07:56+0000\n"
 "PO-Revision-Date: 2015-02-28 01:53+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Modify Archive Mail"
 msgstr ""
 
-#: addarchivemaildialog.cpp:46 archivemaildialog.cpp:352
+#: addarchivemaildialog.cpp:46 archivemailwidget.cpp:251
 msgid "Add Archive Mail"
 msgstr ""
 
@@ -53,109 +53,109 @@ msgstr ""
 msgid "unlimited"
 msgstr "illimitáu"
 
-#: archivemaildialog.cpp:51
+#: archivemaildialog.cpp:48
 msgid "Configure Archive Mail Agent"
 msgstr ""
 
-#: archivemaildialog.cpp:80
+#: archivemaildialog.cpp:77
 msgid "Archive Mail Agent"
 msgstr ""
 
-#: archivemaildialog.cpp:82
+#: archivemaildialog.cpp:79
 msgid "Archive emails automatically."
 msgstr "Archiva correos automáticamente."
 
-#: archivemaildialog.cpp:84
+#: archivemaildialog.cpp:81
 msgid "Copyright (C) 2012-2015 Laurent Montel"
 msgstr "Copyright (C) 2012-2015 Laurent Montel"
 
-#: archivemaildialog.cpp:86
+#: archivemaildialog.cpp:83
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: archivemaildialog.cpp:87
+#: archivemaildialog.cpp:84
 msgid "Maintainer"
 msgstr "Caltenedor"
 
-#: archivemaildialog.cpp:90
+#: archivemaildialog.cpp:87
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Softastur"
 
-#: archivemaildialog.cpp:91
+#: archivemaildialog.cpp:88
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
-
-#: archivemaildialog.cpp:164
-msgid "Name"
-msgstr "Nome"
-
-#: archivemaildialog.cpp:164
-#, fuzzy
-msgid "Last archive"
-msgstr "Archivu caberu"
-
-#: archivemaildialog.cpp:164
-msgid "Next archive in"
-msgstr ""
-
-#: archivemaildialog.cpp:164
-msgid "Storage directory"
-msgstr "Direutoriu d'almacenamientu"
-
-#. i18n: ectx: property (text), widget (QPushButton, addItem)
-#: archivemaildialog.cpp:193 ui/archivemailwidget.ui:19
-msgid "Add..."
-msgstr "Amestar..."
-
-#: archivemaildialog.cpp:196
-msgid "Open Containing Folder..."
-msgstr ""
-
-#: archivemaildialog.cpp:198
-msgid "Archive now"
-msgstr "Archivar agora..."
-
-#: archivemaildialog.cpp:201
-msgid "Delete"
-msgstr "Desaniciar"
-
-#: archivemaildialog.cpp:259
-#, kde-format
-msgid "Folder: %1"
-msgstr "Carpeta: %1"
-
-#: archivemaildialog.cpp:275
-#, kde-format
-msgid "Tomorrow"
-msgid_plural "%1 days"
-msgstr[0] "Mañana"
-msgstr[1] "%1 díes"
-
-#: archivemaildialog.cpp:283
-#, kde-format
-msgid "Archive will be done %1"
-msgstr ""
-
-#: archivemaildialog.cpp:316
-msgid "Do you want to delete selected items? Do you want to continue?"
-msgstr "¿Quies desaniciar los elementos esbillaos y siguir?"
-
-#: archivemaildialog.cpp:316
-msgid "Remove items"
-msgstr "Desaniciar elementos"
-
-#: archivemaildialog.cpp:352
-msgid ""
-"Cannot add a second archive for this folder. Modify the existing one instead."
-msgstr ""
 
 #: archivemailinfo.cpp:107 archivemailinfo.cpp:124
 #, fuzzy
 msgctxt "Start of the filename for a mail archive file"
 msgid "Archive"
 msgstr "Archivu"
+
+#: archivemailwidget.cpp:66
+msgid "Name"
+msgstr "Nome"
+
+#: archivemailwidget.cpp:66
+#, fuzzy
+msgid "Last archive"
+msgstr "Archivu caberu"
+
+#: archivemailwidget.cpp:66
+msgid "Next archive in"
+msgstr ""
+
+#: archivemailwidget.cpp:66
+msgid "Storage directory"
+msgstr "Direutoriu d'almacenamientu"
+
+#. i18n: ectx: property (text), widget (QPushButton, addItem)
+#: archivemailwidget.cpp:96 ui/archivemailwidget.ui:19
+msgid "Add..."
+msgstr "Amestar..."
+
+#: archivemailwidget.cpp:99
+msgid "Open Containing Folder..."
+msgstr ""
+
+#: archivemailwidget.cpp:101
+msgid "Archive now"
+msgstr "Archivar agora..."
+
+#: archivemailwidget.cpp:104
+msgid "Delete"
+msgstr "Desaniciar"
+
+#: archivemailwidget.cpp:162
+#, kde-format
+msgid "Folder: %1"
+msgstr "Carpeta: %1"
+
+#: archivemailwidget.cpp:178
+#, kde-format
+msgid "Tomorrow"
+msgid_plural "%1 days"
+msgstr[0] "Mañana"
+msgstr[1] "%1 díes"
+
+#: archivemailwidget.cpp:185
+#, kde-format
+msgid "Archive will be done %1"
+msgstr ""
+
+#: archivemailwidget.cpp:217
+msgid "Do you want to delete selected items? Do you want to continue?"
+msgstr "¿Quies desaniciar los elementos esbillaos y siguir?"
+
+#: archivemailwidget.cpp:217
+msgid "Remove items"
+msgstr "Desaniciar elementos"
+
+#: archivemailwidget.cpp:251
+msgid ""
+"Cannot add a second archive for this folder. Modify the existing one instead."
+msgstr ""
 
 #: job/archivejob.cpp:68
 #, fuzzy
