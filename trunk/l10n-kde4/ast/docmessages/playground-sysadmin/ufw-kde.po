@@ -1,0 +1,1116 @@
+#
+# enolp <enolp@softastur.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-04-28 02:15+0000\n"
+"PO-Revision-Date: 2015-03-27 01:58+0100\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ast\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. Tag: title
+#: index.docbook:11
+#, no-c-format
+msgid "The Firewall Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:13
+#, no-c-format
+msgid "&Craig.Drummond; &Craig.Drummond.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:15
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:17
+#, no-c-format
+msgid "2011-06-02"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:18
+#, no-c-format
+msgid "0.4.0"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:20
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:21
+#, no-c-format
+msgid "KControl"
+msgstr "KControl"
+
+#. Tag: keyword
+#: index.docbook:22
+#, no-c-format
+msgid "<keyword>ufw</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:23
+#, no-c-format
+msgid "firewall"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:27
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:28
+#, no-c-format
+msgid ""
+"This module allows you to control the settings of the <application>"
+"Uncomplicated FireWall</application> (UFW), which is a command line frontend "
+"to "
+"the default &Linux; firewall (IP-Tables)."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:32
+#, no-c-format
+msgid "How Firewall Works"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:33
+#, no-c-format
+msgid ""
+"As firewalling is a really complex topic, I'd like to give you a briefly "
+"introduction about what firewalls are and how they work."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:36
+#, no-c-format
+msgid ""
+"When you think of a firewall most people would say <quote>"
+"firewalls just restrict the network traffic</quote>, but a modern firewall "
+"has "
+"more to do that just restricting the traffic (which is, of course, it's main "
+"task)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:40
+#, no-c-format
+msgid ""
+"You can filter by having a look at the packet headers that store information "
+"about where the packet comes from, which protocol is used etc."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:42
+#, no-c-format
+msgid ""
+"The second important feature a firewall has to provide is the possibility to "
+"log the network traffic. This is a much more important part of it than you "
+"may "
+"think. Logfiles are give you a good view about the activities in your "
+"network, "
+"like who did what and when."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:45
+#, no-c-format
+msgid ""
+"Logs are also really important when the firewall got cracked and you want to "
+"know how. In that you would have a much harder life if you hadn't activated "
+"the "
+"logging functions so that you can see what has happened and how the "
+"configuration could be improved."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:48
+#, no-c-format
+msgid ""
+"Most people think about firewalls as just being used to block traffic from "
+"the "
+"Internet to your host, but you may also configure your firewall to restrict "
+"the "
+"Internet access. For example you may block some well known porn sites on your "
+"Children's PC, or you just want to allow email and Web browsing in your "
+"office "
+"but you don't want your employees to be able to download files via &FTP;."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:50
+#, no-c-format
+msgid ""
+"All the things described are really easy to implement with UFW once you have "
+"understood how it works."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:56
+#, no-c-format
+msgid "Configuration"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:58
+#, no-c-format
+msgid "Default Policies"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:59
+#, no-c-format
+msgid ""
+"UFW can be configured as to what the default policy should be for incoming, "
+"or "
+"outgoing traffic. After you set the default policy, you can provide "
+"exceptions "
+"for it with custom rules. These default policies may be set to:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:61
+#, no-c-format
+msgid "<quote>Allow</quote> - accepts connections to or from the computer."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:62
+#, no-c-format
+msgid "<quote>Deny</quote> - blocks access to or from the computer."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:63 index.docbook:115
+#, no-c-format
+msgid ""
+"<quote>Reject</quote> - similar to Deny, but lets the sender know when "
+"traffic "
+"is being denied, rather than simply ignoring it."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:69
+#, no-c-format
+msgid "IPv6 Support"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:70
+#, no-c-format
+msgid ""
+"To enable support for rules based upon IPv6 addresses, you should enabled the "
+"<quote>IPv6 support</quote> setting."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:74
+#, no-c-format
+msgid "Logging"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:75
+#, no-c-format
+msgid ""
+"The general logging of the firewall may be set using the <guilabel>"
+"Logging level</guilabel> setting. This can be set to one of the following "
+"values:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:79
+#, no-c-format
+msgid "<quote>Off</quote> - disables logging."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:80
+#, no-c-format
+msgid ""
+"<quote>Low</quote> - logs all blocked packets not matching the default policy "
+"(limiting the number of duplicate access attempts logged), as well as packets "
+"matching logged rules."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:82
+#, no-c-format
+msgid ""
+"<quote>Medium</quote> - as per <quote>Low</quote>, plus all allowed packets "
+"not "
+"matching the default policy, all invalid packets, and all new connections. "
+"All "
+"logging is done limiting the number of duplicate access attempts logged."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:84
+#, no-c-format
+msgid ""
+"<quote>High</quote> - as per <quote>Medium</quote> (without limiting), plus "
+"all "
+"packets with (with limiting)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:86
+#, no-c-format
+msgid "<quote>Full</quote> - log everything, without limiting."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:89
+#, no-c-format
+msgid ""
+"Levels above <quote>Medium</quote> generate a lot of logging output, and may "
+"quickly fill up your disk. Medium may generate a lot of logging output on a "
+"busy system."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:97
+#, no-c-format
+msgid "Rules"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:98
+#, no-c-format
+msgid ""
+"UFW functions by being provided a list of rules as to which ports/services "
+"show "
+"be allowed or blocked. Rules provide exceptions to the default policies."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:99
+#, no-c-format
+msgid ""
+"For example, you may want to configure your computer to not be accessible "
+"from "
+"the Internet in case it connects directly to the world wide web with a public "
+"IP address, but you may want the computer to be open to all connections from "
+"local intranets and also to allow for ssh connection from anywhere (both "
+"local "
+"and internet). In such a case you will want to set default policy to 'deny', "
+"but then add rules to allow incoming ssh connections and connections from the "
+"default local network address spaces."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:100
+#, no-c-format
+msgid ""
+"Rule ordering is important and the first match wins. Therefore when adding "
+"rules, add the more specific rules first with more general rules later. Rules "
+"may be re-ordered via the <guibutton>Move Up</guibutton> / <guibutton>"
+"Move Down</guibutton> buttons, or by drag-n-drop of the entries in the rules "
+"list."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:102
+#, no-c-format
+msgid "Adding and Editing Rules"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:103
+#, no-c-format
+msgid "There are two <quote>modes</quote> to add, and edit, rules:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:105
+#, no-c-format
+msgid ""
+"<quote>Simple</quote> - allows controlling of arbitrary port numbers. These "
+"may "
+"be set via a list of predefined services/applications, or entered manually."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:106
+#, no-c-format
+msgid ""
+"<quote>Advanced</quote> - allows complete control of source/destination "
+"address "
+"and port numbers. Only the fields that you require need to be filled in."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:109
+#, no-c-format
+msgid "The following is a list of features that are common to both:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:111
+#, no-c-format
+msgid "<quote>Policy</quote> controls how connections are handled."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:113
+#, no-c-format
+msgid "<quote>Allow</quote> - accepts access to the specified ports/services."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:114
+#, no-c-format
+msgid "<quote>Deny</quote> - blocks access to the specified ports/services."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:117
+#, no-c-format
+msgid ""
+"<quote>Limit</quote> - enables connection rate limiting. This is useful for "
+"protecting against brute-force login attacks. The firewall will deny "
+"connections if an IP address has attempted to initiate 6 or more connections "
+"in "
+"the last 30 seconds"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:122
+#, no-c-format
+msgid "<quote>Direction</quote> - indicates the direction of the connection."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:123
+#, no-c-format
+msgid ""
+"<quote>Port</quote> - this is used to define the port, or ports, to be "
+"controlled. There are two options for this:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:125
+#, no-c-format
+msgid ""
+"Manually entering a port number. There is a text field that allows you to "
+"enter "
+"one, or more, port numbers - or a range of port numbers. (Ranges are of the "
+"form <quote>from:to</quote>, &eg; <quote>123:456</quote>)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:126
+#, no-c-format
+msgid ""
+"Below the text field, there is a drop down box containing a set of "
+"pre-defined "
+"services, applications, and UFW application profile names."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:129
+#, no-c-format
+msgid ""
+"<quote>Protocol</quote> - sets the type of port that will be controlled. "
+"(This "
+"setting is only applicable when the port number is to be entered manually)"
+msgstr ""
+
+#. Tag: quote
+#: index.docbook:131
+#, no-c-format
+msgid "<quote>Any</quote>"
+msgstr ""
+
+#. Tag: quote
+#: index.docbook:132
+#, no-c-format
+msgid "<quote>TCP</quote>"
+msgstr ""
+
+#. Tag: quote
+#: index.docbook:133
+#, no-c-format
+msgid "<quote>UDP</quote>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:136
+#, no-c-format
+msgid "<quote>Logging</quote> - controls per-rule logging"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:138
+#, no-c-format
+msgid ""
+"<quote>None</quote> - no logging is performed when a packet matches a rule."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:139
+#, no-c-format
+msgid ""
+"<quote>New connections</quote> - will log all new connections matching a rule."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:140
+#, no-c-format
+msgid "<quote>All packets</quote> - will log all packets matching a rule."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:143
+#, no-c-format
+msgid "<quote>Description</quote> - a textual description of the rule."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:146
+#, no-c-format
+msgid ""
+"The <quote>Advanced</quote> mode will allow you to specify any combination "
+"of; "
+"source address, source port, destination address, and destination port - as "
+"well as specifying the network interface (&eg; wlan0, eth0, &etc;) to apply "
+"the "
+"rule on. Addresses may be either; an IP address (&eg; 192.168.1.100), or "
+"subnet "
+"(&eg; 192.168.1.0/24)."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:149
+#, no-c-format
+msgid "IPv6 Rules"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:150
+#, no-c-format
+msgid ""
+"When IPv6 support is enabled, there are in effect two firewalls - one for "
+"IPv4 "
+"connections, and one for IPv6 connections. This may cause some unexpected "
+"behavior."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:154
+#, no-c-format
+msgid "Editing"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:155
+#, no-c-format
+msgid ""
+"Each time you create a rule the firewall may create a corresponding IPv6 "
+"rule. "
+"&eg; if you create a rule to block port 22 (and do not specify an IPv4 "
+"address), the firewall will create two rules - one for IPv4 connections, and "
+"one for IPv6 connections. If you now edit the IPv4 version of this rule, and "
+"change its port number, then the IPv4 rule will be updated, a new IPv6 rule "
+"will be created, and the old IPv6 rule will still exist. Therefore, after "
+"editing the IPv4 rule you would need to delete the old IPv6 rule."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:164
+#, no-c-format
+msgid "Ordering"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:165
+#, no-c-format
+msgid ""
+"In the list of rules, IPv6 rules are always grouped after the IPv4 rules, and "
+"it is not possible to re-order an IPv6 rule to be before an IPv4 rule. This "
+"is "
+"because the IPv6 rules are only applied to IPv6 connections, and therefore, "
+"intermingling them with IPv4 rules makes no sense."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:175
+#, no-c-format
+msgid "Modules"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:176
+#, no-c-format
+msgid ""
+"UFW supports loading of IP-Tables kernel modules to improve its "
+"functionality. "
+"The currently supported modules on your system will be listed in the <"
+"guilabel>"
+"Modules</guilabel> section. Each enabled module is indicated with a checkmark."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:178
+#, no-c-format
+msgid "There are two types of modules:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:180
+#, no-c-format
+msgid ""
+"<quote>Connection tracking</quote> - is the ability to maintain connection "
+"state information (such as source and destination address/port, protocol, "
+"etc.) "
+"in memory. Using these modules makes the firewall more secure."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:183
+#, no-c-format
+msgid ""
+"<quote>NAT (Network Address Translation)</quote> - Where any form of NAT "
+"(SNAT, "
+"DNAT, Masquerading) on your firewall is involved, some commands and responses "
+"may also need to be modified by the firewall. This is the job of the NAT "
+"modules. NOTE: If you are using the corresponding Connection Tracking module, "
+"then you should also enable the module."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:193
+#, no-c-format
+msgid "Profiles"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:194
+#, no-c-format
+msgid ""
+"The current configuration of your firewall may be saved in a <quote>"
+"profile.</quote> These will contain your rules, the default settings, and the "
+"list of active IP-Tables modules. Using profiles allows you to easily switch "
+"between firewall settings."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:196
+#, no-c-format
+msgid ""
+"The profile functions can be accessed via the menu button in the lower-right "
+"of "
+"the main window."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:200
+#, no-c-format
+msgid "Log Viewer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:201
+#, no-c-format
+msgid ""
+"If you have enabled logging, then the firewall will log any connections to "
+"the "
+"system log file. To view these entries, a simple log viewer is included."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:203
+#, no-c-format
+msgid ""
+"The log viewer is activated via the menu button in the lower-right of the "
+"main "
+"window."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:207
+#, no-c-format
+msgid "Example: configuring a firewall for your computer"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:210
+#, no-c-format
+msgid "Describing the situation"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:212
+#, no-c-format
+msgid ""
+"Let us imagine you have a workstation computer at home that is connected into "
+"a "
+"closed network with your neighbours, maybe 15 computers in all. You do not "
+"know "
+"if what neighbours are using as their primary OS'es, you also are not sure "
+"that "
+"their computers are well attended, virus and spyware free. So, though your "
+"network is behind a router with a firewall, you do not trust your network too "
+"much. You do not run any server or anything like that on your workstation, "
+"but "
+"sometimes you send and get files via bittorrent network using KTorrent. To "
+"make "
+"that process efficient, you have forwarded the router ports 6881/TCP and "
+"4444/UDP to your workstation. You also connect to your workstation from "
+"outside "
+"using ssh, and to make that possible, the router is forwarding to your "
+"workstation the port 22. To make the forwarding possible, the router reserves "
+"to your workstation IP address 192.168.1.122."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:214
+#, no-c-format
+msgid ""
+"You also have a laptop that you connect to this network once in a while, but "
+"you also connect to other networks and to broadband at your mother's house. "
+"So "
+"it needs to be flexible about network configuration possibilities and secure "
+"at "
+"the same time. When you are connected to the home network, the router gives "
+"your notebook a reserved address 192.168.1.111."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:216
+#, no-c-format
+msgid ""
+"You use Dropbox on your workstation and your laptop to sync files. You also "
+"share files using Samba (&Windows; networking). You want both your computers "
+"to "
+"have samba shares open to your friend, whose computer has a static IP address "
+"192.168.1.133."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:220
+#, no-c-format
+msgid "Configuring"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:223
+#, no-c-format
+msgid "Setting general policies"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:225
+#, no-c-format
+msgid ""
+"So, how do you go about figuring your firewall, if you need to stay secure, "
+"but "
+"still be able to use KTorrent, Dropbox, ssh, and Samba?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:227
+#, no-c-format
+msgid ""
+"First of all, you will need to set a default policy preventing other hosts "
+"access to any services on your computers."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:229
+#, no-c-format
+msgid "This is common to both of your computers, so let us do it now:"
+msgstr ""
+
+#. Tag: literallayout
+#: index.docbook:231
+#, no-c-format
+msgid ""
+"- tick the tickbox \"Firewall status\" to enable firewall;\n"
+"- set \"Default outgoing policy\" to \"Allow\";\n"
+"- set \"Default incoming policy\" to \"Deny\";\n"
+"- set \"Logging level\", \"Low\", unless you know why you need a different "
+"level."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:238
+#, no-c-format
+msgid "General configuration settings"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:243
+#, no-c-format
+msgid ""
+"After setting the general policy, you will need to make some exceptions to "
+"this "
+"policy. To enable access to Samba and ssh services on your computers, you "
+"will "
+"need ssh and Samba ports to be opened. In order to use Dropbox and KTorrent "
+"you "
+"generally do not need any ports to be opened, but it can help a great deal, "
+"if "
+"you are using lansync on Dropbox (and you will, since you synchronize files "
+"between the workstation and laptop, and it is much quicker using lansync), "
+"and "
+"if you want better rating on bittorrent network while sharing files with "
+"KTorrent."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:245
+#, no-c-format
+msgid "Let us start with your workstation."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:247
+#, no-c-format
+msgid ""
+"On the workstation we need to open access to ssh, Dropbox lansync, Samba, and "
+"KTorrent."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:253
+#, no-c-format
+msgid "<title>Ssh</title>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:255
+#, no-c-format
+msgid ""
+"Click button <guibutton>Add</guibutton>, select rule type <guimenuitem>"
+"Simple</guimenuitem>, and then fill in:"
+msgstr ""
+
+#. Tag: literallayout
+#: index.docbook:257
+#, no-c-format
+msgid ""
+"Policy: Allow;\n"
+"Direction: Incoming;\n"
+"Port: Secure Shell."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:259
+#, no-c-format
+msgid ""
+"As for the logging, you can choose to log <guimenuitem>"
+"New connections</guimenuitem>. The <guilabel>Description</guilabel> "
+"field is optional, and useful only when you enter some rule including port "
+"numbers and IP addresses that you can forget the meaning of."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:261
+#, no-c-format
+msgid ""
+"Once you have done all of this, click <guibutton>Add</guibutton>"
+". Now you have the first rule in place! The dialog remains open so you can "
+"start filling the next rule right away."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:267
+#, no-c-format
+msgid "Adding SSH rule"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:275
+#, no-c-format
+msgid "Dropbox"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:278
+#, no-c-format
+msgid ""
+"To add Dropbox LAN sync service to the list, look at the list of pre-defined "
+"services in the dialog. It is not there. So you will have to find out "
+"yourself "
+"which port needs to be opened for Dropbox to function properly. Just google "
+"for "
+"\"Dropbox LAN sync port\", and you will find that it is 17500 TCP/UDP ports "
+"that need to be opened. Alternatively, you can get the ports needed for a "
+"program by starting the program and then running"
+msgstr ""
+
+#. Tag: screen
+#: index.docbook:281
+#, no-c-format
+msgid ""
+"<prompt>$</prompt> <command>sudo netstat -ap | grep dropbox | grep \"*:*\" | "
+"grep -iE \"(TCP|UDP)\"</command>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:284
+#, no-c-format
+msgid ""
+"in the &konsole; window (change dropbox to the program you are investigating)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:286
+#, no-c-format
+msgid ""
+"To open Dropbox LAN sync ports, click the button <guibutton>Add</guibutton>"
+", select the type <guimenuitem>Simple</guimenuitem>, and fill in:"
+msgstr ""
+
+#. Tag: literallayout
+#: index.docbook:288
+#, no-c-format
+msgid ""
+"Policy: Allow;\n"
+"Direction: Incoming;\n"
+"Protocol: Any;\n"
+"Port: 17500."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:290
+#, no-c-format
+msgid ""
+"Then select the desired logging level, enter a description that will help you "
+"recognize the rule in the future, like \"Dropbox LAN sync\" and add the rule."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:296
+#, no-c-format
+msgid "Adding Dropbox LAN sync rule"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:300
+#, no-c-format
+msgid ""
+"Now, you can also get extra security by restricting the access to the Dropbox "
+"LAN sync port to only your laptop, which, remember, is constantly given the "
+"same IP address 192.168.1.111 by the router. So, you can choose to limit "
+"access "
+"to that particular IP address. In that case, choose the rule type <"
+"guimenuitem>"
+"Advanced</guimenuitem>, and fill in:"
+msgstr ""
+
+#. Tag: literallayout
+#: index.docbook:302
+#, no-c-format
+msgid ""
+"Policy: Allow; \n"
+"Direction: Incoming;\n"
+"Protocol: Any;\n"
+"Source: [Address] 192.168.1.111: [Port] 17500;\n"
+"Description: \"Dropbox LAN sync / one address\""
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:308
+#, no-c-format
+msgid "Adding more secure Dropbox LAN sync rule"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:316
+#, no-c-format
+msgid "Samba"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:319
+#, no-c-format
+msgid ""
+"To add Samba, go the same route as with ssh. Make a new rule of type "
+"<guimenuitem>Simple</guimenuitem> and fill in:"
+msgstr ""
+
+#. Tag: literallayout
+#: index.docbook:321
+#, no-c-format
+msgid ""
+"Policy: Allow; \n"
+"Direction: Incoming;\n"
+"Port: Samba;"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:327
+#, no-c-format
+msgid "Adding Samba rule"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:331
+#, no-c-format
+msgid ""
+"Now, Samba is a service that likes to open quite random ports on each "
+"connection, so you will probably need to enable advanced functionality in the "
+"firewall – &ie; the NetBIOS (which is a subset of Samba) kernel module. To do "
+"so, click the <guilabel>Modules</guilabel> tab and check the check box "
+"<guilabel>Connection Tracking</guilabel> for NetBIOS. For an explanation of "
+"what a module does, see the <link linkend=\"modules\">Modules section</link> "
+"of this handbook."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:337
+#, no-c-format
+msgid "Enabling the NetBios kernel module (for Samba file sharing)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:342
+#, no-c-format
+msgid ""
+"You can also further modify the rules that were added for Samba, to make your "
+"Samba shares only possible to access from your notebook computer. In order to "
+"do that, you need to open the two rules that were created by the previous "
+"action (separate rules were created for TCP and for the UDP ports), change "
+"the "
+"rule type to <guimenuitem>Advanced</guimenuitem>, and enter the IP address of "
+"your laptop (192.168.1.111) to the <guilabel>Source [Address]</guilabel> "
+"field (just like we did with Dropbox LAN sync rule, only here we have to "
+"modify "
+"two rules)."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:348
+#, no-c-format
+msgid "KTorrent"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:350
+#, no-c-format
+msgid ""
+"To have KTorrent operational, you will have to add a new rule of type "
+"\"Simple\" and fill in:"
+msgstr ""
+
+#. Tag: literallayout
+#: index.docbook:352
+#, no-c-format
+msgid ""
+"Policy: Allow;\n"
+"Direction: Incoming;\n"
+"Port: KTorrent;"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:359
+#, no-c-format
+msgid "Adding ktorrent rule"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:363
+#, no-c-format
+msgid "Two rules for TCP and UDP ports will be added as the result."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:366
+#, no-c-format
+msgid "As an end result, we will have 6 rules in the firewall:"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:373
+#, no-c-format
+msgid "The final configuration"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:382
+#, no-c-format
+msgid "Notebook case"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:384
+#, no-c-format
+msgid ""
+"When configuring the notebook, you will need to mirror the configuration you "
+"have created, changing just minor details – the IP addresses in the Dropbox "
+"and "
+"Samba rules from 192.168.1.111 to 192.168.1.122. So, to make things simple, "
+"you "
+"can export the rules from workstation to a file (use the <guimenu>"
+"Profiles</guimenu> menu), and then import the rules to the notebook and edit "
+"the above mentioned IP addresses."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:386
+#, no-c-format
+msgid ""
+"Now you have a configuration for your home network. What about the other "
+"locations, like the network at your workplace, or the broadband connection "
+"you "
+"have when you visit your mother? If you, for example, want a very different "
+"configuration at a different place, do you have to manually delete and add "
+"rules each time?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:388
+#, no-c-format
+msgid ""
+"That would be tedious, so you have an option to save the home configuration "
+"into a profile (lets call it \"Home\") and then create another configuration "
+"for \"Work\" and still another for \"Mum's home\". You can also create "
+"profiles "
+"for different activities you might engage in, like gaming (opening selected "
+"ports for games). To create and switch profiles, you can use the options "
+"available under the <guimenu>Profiles</guimenu> menu. That makes switching "
+"profiles when moving around or changing activities quite easy."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:395
+#, no-c-format
+msgid "Further reading"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:397
+#, no-c-format
+msgid ""
+"For more details on using UFW please see <ulink url=\"man:/ufw\">man ufw<"
+"/ulink>"
+"."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:399
+#, no-c-format
+msgid ""
+"For more details on using IP-Tables based firewalls please see <ulink "
+"url=\"man:/iptables\">man iptables</ulink>."
+msgstr ""
+

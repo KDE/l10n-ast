@@ -1,0 +1,320 @@
+#
+# enolp <enolp@softastur.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-04-28 02:13+0000\n"
+"PO-Revision-Date: 2015-03-26 03:15+0100\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ast\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. Tag: author
+#: geolocation.docbook:5
+#, no-c-format
+msgid "<firstname>Gerhard</firstname><surname>Kulzer</surname>"
+msgstr ""
+
+#. Tag: email
+#: geolocation.docbook:7
+#, no-c-format
+msgid "gerhard at kulzer dot net"
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:12
+#, no-c-format
+msgid ""
+"The Kipi Geolocation plugin allows for adding and editing GPS coordinates of "
+"picture metadata. The geo-data is stored into the image (EXIF tags) and the "
+"location can be displayed in an external browser map."
+msgstr ""
+
+#. Tag: keyword
+#: geolocation.docbook:18
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: geolocation.docbook:19
+#, no-c-format
+msgid "Kipi"
+msgstr "Kipi"
+
+#. Tag: title
+#: geolocation.docbook:23
+#, no-c-format
+msgid "Geolocation Editor"
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:25
+#, no-c-format
+msgid ""
+"The Kipi plugin <quote>Geolocation</quote> provides the tools to localize "
+"pictures geographically in the common spherical coordinate system (used by "
+"GPS/Galileo). Altitude, latitude and longitude are used."
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:30
+#, no-c-format
+msgid ""
+"The plugin only works for image formats that have EXIF metadata supported by "
+"<ulink url=\"http://www.exiv2.org\">libkexiv2</ulink>."
+msgstr ""
+
+#. Tag: title
+#: geolocation.docbook:35
+#, no-c-format
+msgid "Geolocation"
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:36
+#, no-c-format
+msgid "The plugin has two methods to mark the pictures with coordinates:"
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:41
+#, no-c-format
+msgid "Batch correlation of GPS tracking data with a series of images."
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:44
+#, no-c-format
+msgid "Semi-automatic coordinate attribution to single pictures."
+msgstr ""
+
+#. Tag: title
+#: geolocation.docbook:48
+#, no-c-format
+msgid "The correlator"
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:49
+#, no-c-format
+msgid ""
+"In order to correlate your images with geographic data you need to have a GPS "
+"tracking information available as a XML file in <literal>gpx</literal> "
+"format (<application><ulink url=\"http://www.gpsbabel.org\">gpsbabel</ulink>"
+"</application> and <application><ulink url=\"http://www.ncc.up.pt/gpsman/\">"
+"gpsman</ulink></application> can download and convert tracking data from a "
+"GPS "
+"device for you)."
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:55
+#, no-c-format
+msgid ""
+"<menuchoice><guimenu>Image</guimenu> <guimenuitem>Geolocation</guimenuitem> "
+"<guimenuitem>Correlator</guimenuitem></menuchoice>. This interface can "
+"correlate a previously selected number of pictures with registered GPS "
+"tracking "
+"information."
+msgstr ""
+
+#. Tag: title
+#: geolocation.docbook:63
+#, no-c-format
+msgid ""
+"The geo-correlation dialog based on EXIF date/time and tracking data (gpx "
+"format)"
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:66
+#, no-c-format
+msgid ""
+"Select the images you want to correlate in the application main view, then "
+"call "
+"the menu. The above dialog will show up. To indicate possible time/location "
+"correlation you have to load a track file with <guilabel>"
+"Load GPX File</guilabel> that contains GPS data taken at the same time and "
+"location as the pictures with your camera."
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:73
+#, no-c-format
+msgid ""
+"When the file is loaded, an automatic correlation is done showing the "
+"attributed coordinates in red. GPS track data is invariably recorded in GMT "
+"time, so you need to match the camera time with GMT, which can be done with "
+"<guilabel>Time Zone</guilabel>. Select the <emphasis>camera time zone<"
+"/emphasis> "
+"here!"
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:80
+#, no-c-format
+msgid ""
+"The <guilabel>Max. time gap</guilabel> setting specifies the limit within "
+"which "
+"GPS time and camera time shall be deemed coincident. The maximum value is "
+"2000 "
+"seconds."
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:85
+#, no-c-format
+msgid ""
+"If you have no tracking data for pictures that were taken in the same place "
+"you "
+"can just manually edit a <literal>gpx</literal> file and apply it to those "
+"images. The 2000 second time gap will then correlate all pictures taken "
+"within "
+"20 minutes."
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:91
+#, no-c-format
+msgid ""
+"The option <guilabel>Interpolate</guilabel> and <guilabel>"
+"Difference in min.</guilabel> can be used if there is no match of data. If "
+"you "
+"know that in reality there is a location match despite a larger time gap "
+"between camera and GPS, you can set this limit here and click on the <"
+"guilabel>"
+"Correlate</guilabel> button to interpolate."
+msgstr ""
+
+#. Tag: title
+#: geolocation.docbook:99
+#, no-c-format
+msgid "Correlation"
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:102
+#, no-c-format
+msgid "240 minutes is the maximum time difference that can be introduced here."
+msgstr ""
+
+#. Tag: title
+#: geolocation.docbook:108
+#, no-c-format
+msgid "Edit Coordinates"
+msgstr ""
+
+#. Tag: title
+#: geolocation.docbook:110
+#, no-c-format
+msgid "Semi-automatic attributing of coordinates through map interaction"
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:113
+#, no-c-format
+msgid ""
+"The coordinates can be set manually with this dialog. This comes in handy if "
+"there is a series of photos taken at the same location. Since the coordinates "
+"are memorized from one dialog call to another, it is as easy as clicking on "
+"<guilabel>OK</guilabel> to set the previous data to the current photo."
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:120
+#, no-c-format
+msgid ""
+"Otherwise the location can be found and fixed iteratively with the displayed "
+"map. Click on the region of interest, zoom in, adjust location by clicking "
+"again, and so on until sufficient accuracy is achieved. The altitude must "
+"always be entered manually. The map can be switched between map mode, "
+"satellite "
+"image or mixed mode."
+msgstr ""
+
+#. Tag: title
+#: geolocation.docbook:129
+#, no-c-format
+msgid "Commandline tagging"
+msgstr ""
+
+#. Tag: para
+#: geolocation.docbook:130
+#, no-c-format
+msgid ""
+"Completely outside of the kipi-plugin context, the are ways to GPS tag "
+"images. "
+"Here is a shell script that uses <command>exiftool</command> "
+"to tag a batch of images."
+msgstr ""
+
+#. Tag: programlisting
+#: geolocation.docbook:137
+#, no-c-format
+msgid ""
+"#!/bin/sh\n"
+"# exiftool wrapper script for easy commandline use. It treats regex files or "
+"whole directories.\n"
+"#\n"
+"#                        FMT                  Output\n"
+"#                \"%d deg %d' %.2f\"\\\"    54 deg 59' 22.80\"\n"
+"#                \"%d deg %.4f min\"      54 deg 59.3800 min\n"
+"#                \"%.6f degrees\"         54.989667 degrees\n"
+"\n"
+"if [ -z $1 ]; then \n"
+"   echo \"Usage: exiftool-gps-wrapper lat long [alt] file || dir (use signed "
+"floating coordinates)\"\n"
+"else\n"
+"\n"
+"   if  [ -z \"$4\" ]; then  foo=\"$3\"; alt=0\n"
+"   else                          foo=\"$4\"; alt=$3\n"
+"   fi\n"
+"\n"
+"   echo $foo\n"
+"   if [ -e \"$foo\" ] ; then\n"
+"        latR=$(echo \"$1\" | awk '{if ($1 &lt; 0) print \"S\"; else print "
+"\"N\"}')\n"
+"        lonR=$(echo \"$2\" | awk '{if ($1 &lt; 0) print \"W\"; else print "
+"\"E\"}')\n"
+"        lat=$(echo \"$1\" | awk '{val = $1; if ($1 &lt; 0) sub(/-/, \"\", "
+"val); "
+"print val}') # absolute value\n"
+"        lon=$(echo \"$2\" | awk '{val = $1; if ($1 &lt; 0) sub(/-/, \"\", "
+"val); "
+"print val}') # absolute value\n"
+"        # use the following syntax for easy googlian paste of "
+"ll=-1.23456,53.345345\n"
+"        #lonR=$(echo \"$2\" | awk '{if ($2 &lt; 0) print \"W\"; else print "
+"\"E\"}')\n"
+"        echo $lat, $latR, $lon, $lonR, $3, $4, $foo\n"
+"        \n"
+"        function setgpsinfo ()\n"
+"        {\n"
+"            exiftool -c \"%.6f\" -GPSMapDatum=\"WGS-84\" -GPSAltitude=$5 \\\n "
+"  "
+"         -GPSLongitudeRef=$4 -GPSLongitude=$3 -GPSLatitudeRef=$2 "
+"-GPSLatitude=$1 \"$6\"\n"
+"            exiftool -GPS:ALL \"$6\"\n"
+"        }\n"
+"\n"
+"        if [ -d \"$foo\" ] ; then\n"
+"\n"
+"            for i in \"$foo\" ; do    # the selection of files treated depend "
+"on the passed regex\n"
+"                echo \"i= \"$i\n"
+"                setgpsinfo $lat $latR $lon $lonR $alt \"$i\"\n"
+"            done\n"
+"        else\n"
+"            setgpsinfo $lat $latR $lon $lonR $alt \"$foo\"\n"
+"        fi\n"
+"   else        echo \"file or folder is wrong\"\n"
+"   fi\n"
+"fi"
+msgstr ""
+

@@ -1,0 +1,577 @@
+#
+# enolp <enolp@softastur.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-04-28 02:13+0000\n"
+"PO-Revision-Date: 2015-03-26 03:12+0100\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ast\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. Tag: title
+#: photo-editing.docbook:1
+#, no-c-format
+msgid "Photographic Editing - Workflow"
+msgstr ""
+
+#. Tag: title
+#: photo-editing.docbook:3
+#, no-c-format
+msgid "Image Editing/Workflow Tools"
+msgstr ""
+
+#. Tag: title
+#: photo-editing.docbook:4
+#, no-c-format
+msgid "A Standard Workflow Proposal"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:5
+#, no-c-format
+msgid ""
+"When performing a basic workflow, the primary areas for consideration are: "
+"<orderedlist> <listitem><para>Exposure: <link linkend=\"whitebalance\">"
+"White Balance</link></para></listitem> <listitem><para>"
+"Color: <link linkend=\"whitebalance\">White Balance</link></para></listitem> "
+"<listitem><para>Black and white points: <link linkend=\"whitebalance\">"
+"White Balance</link> or <link linkend=\"adjustlevels\">Adjust Levels</link>"
+"</para></listitem> <listitem><para>Contrast: <link linkend=\"adjustcurves\">"
+"Adjust Curves</link></para></listitem> <listitem><para>"
+"Saturation: <link linkend=\"whitebalance\">White Balance</link> "
+"or <link linkend=\"coloreffects\">Vivid</link> or <link "
+"linkend=\"using-correctingcolor\">Hue/Saturation/Lightness</link></para>"
+"</listitem> <listitem><para>Resizing (interpolation) : <link "
+"linkend=\"resize\">"
+"Change Size</link></para></listitem> <listitem><para>"
+"<link linkend=\"sharpening\">Sharpening</link></para></listitem> <listitem>"
+"<para><ulink url=\"help:/digikam/inedex.html#dam\">Digital Asset "
+"Management</ulink> (applying tags, captions, rating, geolocation, save under "
+"new name)</para></listitem> </orderedlist> We recommend this sequence of "
+"image "
+"editing steps to ensure optimum photographic quality for the end product. In "
+"particular, never do sharpening before the last step. And we recommend using "
+"a "
+"lossless format like PNG or TIFF for storing photographs. Otherwise you'll "
+"lose "
+"a bit every time you save the results. If you can afford it, use 16 "
+"bit/channel "
+"for your best shots. If you want to change color space, in particular if you "
+"want to work in CIEL*a*b, 16 bit per channel are required to avoid truncation "
+"effects."
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:18
+#, no-c-format
+msgid ""
+"If you swap step 4 and 5, which is well possible if the initial contrast is "
+"already very good, you can do the first 4 adjustment in the same plugin, the "
+"white balance"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:19
+#, no-c-format
+msgid ""
+"Many of the tools you may need for photographic editing are included with "
+"&digikam;. Their description follows here."
+msgstr ""
+
+#. Tag: title
+#: photo-editing.docbook:22
+#, no-c-format
+msgid "Introduction to common editing tools features"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:23
+#, no-c-format
+msgid ""
+"All Image Editor tools like Sharpen, Blur, Noise Reduction, Refocus, Unsharp "
+"Mask, &etc; use a common dialog style that previews the effect before "
+"applying "
+"the filter to the current image. Below you see the &quot;Apply Texture&quot; "
+"tool in action using this common dialog layout:"
+msgstr ""
+
+#. Tag: title
+#: photo-editing.docbook:28
+#, no-c-format
+msgid "<title>The Apply Texture Tool in Action</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#: photo-editing.docbook:30
+#, no-c-format
+msgid "<screeninfo>The Apply Texture Tool in Action</screeninfo>"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:42
+#, no-c-format
+msgid ""
+"<emphasis>(1)</emphasis>: The seven buttons to the top left select the "
+"comparison style of the preview area. The modes are:"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:45
+#, no-c-format
+msgid "Original image"
+msgstr "Imaxe orixinal"
+
+#. Tag: para
+#: photo-editing.docbook:47
+#, no-c-format
+msgid ""
+"Split vertically without duplication. The left area shows the original "
+"whereas "
+"the right side shows the filter applied to the continuation of the selected "
+"zoom."
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:50
+#, no-c-format
+msgid ""
+"Split horizontally without duplication. The top area shows the original "
+"whereas "
+"the lower area shows the filter applied to the continuation of the selected "
+"zoom."
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:53
+#, no-c-format
+msgid ""
+"Split vertically. The left area shows the original and the right one the "
+"filter "
+"effect for comparison."
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:56
+#, no-c-format
+msgid ""
+"Split horizontally. The top area shows the original and the lower one the "
+"filter effect for comparison."
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:59
+#, no-c-format
+msgid "Effect preview. This is a live effect preview without comparison."
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:62
+#, no-c-format
+msgid ""
+"'Mouse over' style: preview when mouse is off the preview (in the settings "
+"area), otherwise shows original."
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:68
+#, no-c-format
+msgid ""
+"<emphasis>(2)</emphasis>: There are two buttons that can be toggled to show "
+"over or underexposure. The colors can be customized in the <link "
+"linkend=\"setupdialog.anchor\">general setup page</link>."
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:71
+#, no-c-format
+msgid ""
+"<emphasis>(3)</emphasis>: The preview selector frame. Click and drag with the "
+"mouse on the floating frame to move it on the image. The preview area on the "
+"left of dialog is updated accordingly."
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:74
+#, no-c-format
+msgid "<emphasis>(4)</emphasis>: The filter or plugin settings area."
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:77
+#, no-c-format
+msgid ""
+"<emphasis>(5)</emphasis>: At the lower left corner: there is help and a reset "
+"to defaults button (all settings are remembered from the last use of the "
+"plugin)."
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:81
+#, no-c-format
+msgid ""
+"<emphasis>(6)</emphasis>: There is a progress indicator for plugins with "
+"involved calculations."
+msgstr ""
+
+#. Tag: title
+#: photo-editing.docbook:89
+#, no-c-format
+msgid "The &digikam; tool set"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:92
+#, no-c-format
+msgid "Image Color"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:94
+#, no-c-format
+msgid "Auto Correction"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:95
+#, no-c-format
+msgid "Brightness/Contrast/Gamma"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:96
+#, no-c-format
+msgid "Hue/Saturation/Lightness"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:97
+#, no-c-format
+msgid "Color Balance"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:98
+#, no-c-format
+msgid "Black and White"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:99
+#, no-c-format
+msgid "Encoding Depth"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:100
+#, no-c-format
+msgid "Color Management"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:101
+#, no-c-format
+msgid "Levels Adjust"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:102
+#, no-c-format
+msgid "Color Effects (Solarize, Vivid, Neon, Edge)"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:103
+#, no-c-format
+msgid "White Balance/Exposure/Saturation"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:104
+#, no-c-format
+msgid "Curves Adjust"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:105
+#, no-c-format
+msgid "Channel Mixer"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:109
+#, no-c-format
+msgid "Image Enhancement"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:111
+#, no-c-format
+msgid "Sharpening (sharpen, unsharp mask, refocus)"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:112
+#, no-c-format
+msgid "Blur Tool"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:113
+#, no-c-format
+msgid "Red Eye Removal"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:114
+#, no-c-format
+msgid "Photograph Inpainting"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:115
+#, no-c-format
+msgid "Noise Reduction &amp; blurring"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:116
+#, no-c-format
+msgid "Hot Pixel Correction"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:117
+#, no-c-format
+msgid "Lens Distortion Correction"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:118
+#, no-c-format
+msgid "Photograph Restoration"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:119
+#, no-c-format
+msgid "Vignetting Correction Tool"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:123
+#, no-c-format
+msgid "Image Transformation Tools"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:125
+#, no-c-format
+msgid "Change Size (reduce and blow-up)"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:126
+#, no-c-format
+msgid "Free Rotation"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:127
+#, no-c-format
+msgid "Perspective Adjustment"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:128
+#, no-c-format
+msgid "Shearing Tool"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:132
+#, no-c-format
+msgid "Image Decoration"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:134
+#, no-c-format
+msgid "Add Border"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:135
+#, no-c-format
+msgid "Insert Text"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:136
+#, no-c-format
+msgid "Template Superimpose"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:137
+#, no-c-format
+msgid "Apply Texture"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:141
+#, no-c-format
+msgid "Special Effect Filters"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:143
+#, no-c-format
+msgid "Simulate Infrared Film."
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:144
+#, no-c-format
+msgid "Add Film Grain."
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:145
+#, no-c-format
+msgid "Simulate Oil Painting"
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:146
+#, no-c-format
+msgid "Simulate Charcoal Drawing."
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:147
+#, no-c-format
+msgid "Emboss Photograph."
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:148
+#, no-c-format
+msgid "Distortion FX."
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:149
+#, no-c-format
+msgid "Blur FX."
+msgstr ""
+
+#. Tag: link
+#: photo-editing.docbook:150
+#, no-c-format
+msgid "Add Rain Drops"
+msgstr ""
+
+#. Tag: title
+#: photo-editing.docbook:159
+#, no-c-format
+msgid "Processing RAW image files, RAW work-flow"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:162
+#, no-c-format
+msgid "A typical RAW workflow with &digikam; may follow these steps:"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:164
+#, no-c-format
+msgid "Setting up the RAW conversion and color management preferences"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:166
+#, no-c-format
+msgid "get the ICC color profiles for the camera, display and printer"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:167
+#, no-c-format
+msgid "setup &digikam; correctly defining a color work space"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:170
+#, no-c-format
+msgid "Camera whitepoint setting"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:171
+#, no-c-format
+msgid ""
+"Demosaicing (includes interpolation, noise filtering and <ulink "
+"url=\"help:/digikam/using-setup.html#CA.anchor\">chromatic aberration "
+"correction</ulink>)"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:174
+#, no-c-format
+msgid "Conversion to a color space"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:175
+#, no-c-format
+msgid "Gamma correction, tone mapping"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:176
+#, no-c-format
+msgid "Color profile assignment"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:177
+#, no-c-format
+msgid "Dynamic range expansion (optional)"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:178
+#, no-c-format
+msgid ""
+"Continue with <link linkend=\"standard-workflow\">standard workflow</link>"
+msgstr ""
+
+#. Tag: para
+#: photo-editing.docbook:181
+#, no-c-format
+msgid ""
+"From there everything is simple, select a RAW image and open it in the "
+"editor. "
+"The color management widget will be displayed after the image has been "
+"processed in order to adjust color rendering. Without color management all "
+"images are very dark, this is normal. You can experiment the various profiles "
+"you have in order to select the best input profile according to your image "
+"(some tends to be very neutral, even a bit dull, some gives more saturated "
+"results, &etc;)."
+msgstr ""
+
+#. Tag: sect1
+#: photo-editing.docbook:184
+#, no-c-format
+msgid ""
+"&doc-editor-color; &doc-editor-enhance; &doc-editor-transform; "
+"&doc-editor-decorate; &doc-editor-filters;"
+msgstr ""
+

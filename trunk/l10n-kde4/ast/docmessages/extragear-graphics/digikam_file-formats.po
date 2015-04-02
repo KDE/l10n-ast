@@ -1,0 +1,533 @@
+#
+# enolp <enolp@softastur.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-04-28 02:13+0000\n"
+"PO-Revision-Date: 2015-03-26 03:11+0100\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ast\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. Tag: title
+#: file-formats.docbook:1
+#, no-c-format
+msgid "Supported File Formats"
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:3
+#, no-c-format
+msgid ""
+"&digikam; relies on a number of libraries and support packages to load and "
+"save "
+"image formats. Which image formats are available will depend on the "
+"availability of these libraries on your system and, in some cases, on the way "
+"that those libraries have been compiled. On most distributions you will find "
+"that a wide range of image formats are viewable within &digikam;."
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:7
+#, no-c-format
+msgid ""
+"This dependence on other libraries means that it is not possible to give a "
+"definitive list of all of the formats that will be available on your system. "
+"At "
+"the very least JPEG, PNG, and TIFF should be available."
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:11
+#, no-c-format
+msgid ""
+"&digikam; only displays files that are in formats that it understands. It "
+"does "
+"this by looking at the file extension on the files and checking this against "
+"a "
+"predefined list. If the file extension is in the list &digikam; will show the "
+"file in the Image View. You can change the list of file extensions that "
+"&digikam; will accept, see the <link linkend=\"using-setup\">"
+"Configuration</link> section for more details."
+msgstr ""
+
+#. Tag: title
+#: file-formats.docbook:15
+#, no-c-format
+msgid "Still Photograph Formats"
+msgstr ""
+
+#. Tag: title
+#: file-formats.docbook:17
+#, no-c-format
+msgid "Introduction"
+msgstr "Introducción"
+
+#. Tag: para
+#: file-formats.docbook:19
+#, no-c-format
+msgid ""
+"Almost all digital cameras store photographs in one of two formats: JPEG or "
+"TIFF. Many cameras enable you to select which of these formats to use. A full "
+"description of these formats can be found at the <ulink "
+"url=\"http://en.wikipedia.org/wiki/Graphics_file_format\">Wikipedia</ulink>"
+". &digikam; supports both of these formats."
+msgstr ""
+
+#. Tag: title
+#: file-formats.docbook:25
+#, no-c-format
+msgid "Still Image Compression"
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:27
+#, no-c-format
+msgid ""
+"Image compression is the application of data compression schemes on digital "
+"images. It is done through reducing redundancy of the image data in order to "
+"be "
+"able to store or transmit data in an efficient form."
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:31
+#, no-c-format
+msgid ""
+"Image compression can be lossy or lossless. Lossless compression methods are "
+"always preferred for their high preservation value for archival purposes "
+"before "
+"applying transformations like cropping, resizing, color corrections, &etc; "
+"This "
+"is because lossy compression methods, especially when used at low bit rates, "
+"introduce compression artifacts. Lossy methods are suitable for natural "
+"images "
+"such as photos in applications where minor (sometimes imperceptible) loss of "
+"fidelity is acceptable to achieve a substantial reduction in file size. Lossy "
+"compression is good for image publishing on the Internet."
+msgstr ""
+
+#. Tag: title
+#: file-formats.docbook:37
+#, no-c-format
+msgid "JPEG"
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:38
+#, no-c-format
+msgid ""
+"JPEG is a compressed format, that trades some of the image quality to keep "
+"file "
+"sizes small. In fact, most cameras save their images in this format unless "
+"you "
+"specify otherwise. A JPEG image is stored using lossy compression and you can "
+"vary the amount of compression. This allows you to choose between lower "
+"compression and higher image quality or greater compression and poorer "
+"quality. "
+"The only reason to choose higher compression is because it creates smaller "
+"file "
+"so you can store more images, and it's easier to send them by e-mail, or post "
+"them on the Web. Most cameras give you two or three choices equivalent to "
+"good, "
+"better, best although the names vary."
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:41
+#, no-c-format
+msgid ""
+"JPEG 2000 is supported as well. It provides for the same compression ratio "
+"the "
+"better (smoother) results compared to JPEG. The 2000 version has the option "
+"of "
+"being lossless if so specified in the settings."
+msgstr ""
+
+#. Tag: title
+#: file-formats.docbook:47
+#, no-c-format
+msgid "TIFF"
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:48
+#, no-c-format
+msgid ""
+"TIFF has been widely accepted and widely supported as an image format. "
+"Commonly, TIFF may be stored by the camera in uncompressed form or using "
+"lossless compression algorithm (Deflate). It maintains higher image quality "
+"but "
+"at the expense of much larger file sizes. Some cameras let you save your "
+"images "
+"in this format and it is a popular format because of its lossless compression "
+"algorithm. The problem is that the format has been altered by so many people "
+"that there are now 50 or more flavors and not all are recognizable by "
+"programs."
+msgstr ""
+
+#. Tag: title
+#: file-formats.docbook:54
+#, no-c-format
+msgid "<title>PNG</title>"
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:55
+#, no-c-format
+msgid ""
+"PNG is an image format that was developed as a replacement for a number of "
+"older, in the 1990's widely used, image file formats. It is a lossless format "
+"like TIFF but it is much more compact and saves disk space. Although your "
+"camera is unlikely to support PNG, some people like to convert their "
+"photographs to PNG as soon as they get them on their computer. Unlike JPEG, "
+"PNG "
+"images do not lose quality every time you re-encode them after modification. "
+"&digikam; fully supports PNG images and the Batch Processing Images Plugin "
+"can "
+"convert a batch of images from any supported format to PNG in one step. See "
+"the "
+"<link linkend=\"using-setup\">Configuration</link> section for information "
+"about using plugins with &digikam;."
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:59
+#, no-c-format
+msgid ""
+"PNG is an extensible file format for the lossless, portable, well-compressed "
+"storage of raster images. PNG provides a patent-free replacement for &GIF; "
+"and "
+"can also replace many common uses of TIFF. PNG is designed to work well in "
+"on-line viewing applications, such as the World Wide Web, so it is fully "
+"streamable with a progressive display option. Also, PNG can store gamma and "
+"chromaticity data for improved color matching on heterogeneous platforms. PNG "
+"supports 8 and 16 bits / colors /pixels depth. It's the perfect file format "
+"to "
+"archive your photographs. For more information about the PNG format see the "
+"<ulink url=\"http://www.libpng.org/pub/png/\">PNG homepage</ulink>."
+msgstr ""
+
+#. Tag: title
+#: file-formats.docbook:65
+#, no-c-format
+msgid "<title>PGF</title>"
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:66
+#, no-c-format
+msgid ""
+"\"Progressive Graphics File\" is another not so known but open file image "
+"format. Wavelet-based, it allows lossless and lossy data compression. PGF "
+"compares well with JPEG 2000 but it was developed for speed "
+"(compression/decompression) rather than to be the best at compression ratio. "
+"At "
+"the same file size a PGF file looks significantly better than a JPEG one, "
+"while "
+"remaining very good at progressive display too. Thus it should be well-suited "
+"to the web but at the moment few browsers can display it. For more "
+"information "
+"about the PGF format see the <ulink url=\"http://www.libpgf.org/\">"
+"libPGF homepage</ulink>."
+msgstr ""
+
+#. Tag: title
+#: file-formats.docbook:72
+#, no-c-format
+msgid "<title>RAW</title>"
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:74
+#, no-c-format
+msgid ""
+"Some, typically more expensive, cameras allow you to store images in RAW "
+"format. RAW format is not really an image standard at all. It is different "
+"for "
+"every make of camera. RAW format images contain all the data that is taken "
+"directly from the camera's image sensor before the software in the camera "
+"applies things like white balance, sharpening &etc; Storing photographs in a "
+"camera's RAW format allows you to alter settings, such as white balance, "
+"after "
+"the photograph has been taken. Most professional photographers use RAW "
+"format, "
+"because it offers them maximum flexibility. The downside is that RAW image "
+"files can be very large indeed."
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:78
+#, no-c-format
+msgid ""
+"If you want to learn more about RAW image format visit the very helpful "
+"guides<ulink url=\"http://en.wikipedia.org/wiki/RAW_image_format\"> "
+"Wikipedia,</ulink> <ulink "
+"url=\"http://www.luminous-landscape.com/tutorials/understanding-series/u-raw-f"
+"il"
+"es.shtml\"> The Luminous Landscape,</ulink> and <ulink "
+"url=\"http://www.cambridgeincolour.com/tutorials/RAW-file-format.htm\"> "
+"Cambridge in Colour</ulink>. You can convert RAW format images into JPEG or "
+"TIFF in &digikam; using the <ulink url=\"help:/kipi-plugins/rawconverter.html"
+"\">"
+"RAW Image Converter plugin</ulink>. See the <link linkend=\"using-setup\">"
+"Configuration</link> section for information about using plugins with "
+"&digikam;."
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:82
+#, no-c-format
+msgid ""
+"&digikam; supports RAW image loading only; relying on the <ulink "
+"url=\"http://www.cybercom.net/~dcoffin/dcraw\"> DCRAW program</ulink> "
+"which is included in &digikam; core and supports over 200 RAW file formats. "
+"All "
+"supported cameras are listed at the bottom of <ulink "
+"url=\"http://www.cybercom.net/~dcoffin/dcraw\"> Dave Coffin's</ulink> "
+"web page. The table below shows a short list of camera RAW files supported by "
+"&digikam;:"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:88
+#, no-c-format
+msgid "RAW File Format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:89
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:92
+#, no-c-format
+msgid "CRW, CR2"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:94
+#, no-c-format
+msgid "Canon digital camera RAW file formats"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:99
+#, no-c-format
+msgid "<entry>NEF</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:101
+#, no-c-format
+msgid "Nikon digital camera RAW file format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:107
+#, no-c-format
+msgid "<entry>ORF</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:109
+#, no-c-format
+msgid "Olympus digital camera RAW file format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:115
+#, no-c-format
+msgid "<entry>RAF</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:117
+#, no-c-format
+msgid "Fuji digital camera RAW file format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:123
+#, no-c-format
+msgid "<entry>RWL</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:125
+#, no-c-format
+msgid "Leica camera RAW file format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:131
+#, no-c-format
+msgid "PEF, PTX"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:133
+#, no-c-format
+msgid "Pentax digital camera RAW file format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:139
+#, no-c-format
+msgid "<entry>X3F</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:141
+#, no-c-format
+msgid "Sigma digital camera RAW file format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:147
+#, no-c-format
+msgid "DCR, KDC, DC2, K25"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:149
+#, no-c-format
+msgid "Kodak digital camera RAW file format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:155
+#, no-c-format
+msgid "SRF, ARW, MRW, MDC"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:157
+#, no-c-format
+msgid "Sony/Minolta digital camera RAW file format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:163
+#, no-c-format
+msgid "<entry>RAW</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:165
+#, no-c-format
+msgid "Panasonic, Casio, Leica digital camera RAW file format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:171
+#, no-c-format
+msgid "DNG (CS1, HDR)"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:173
+#, no-c-format
+msgid "Adobe RAW file format (Digital Negative)"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:179
+#, no-c-format
+msgid "<entry>BAY</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:181
+#, no-c-format
+msgid "Casio RAW (Bayer)"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:187
+#, no-c-format
+msgid "<entry>ERF</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:189
+#, no-c-format
+msgid "Epson digital camera RAW file format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:195
+#, no-c-format
+msgid "<entry>FFF</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:197
+#, no-c-format
+msgid "Imacon/Hasselblad RAW format"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:203
+#, no-c-format
+msgid "<entry>MOS</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:205
+#, no-c-format
+msgid "CREO Photo RAW"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:210
+#, no-c-format
+msgid "<entry>PXN</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:212
+#, no-c-format
+msgid "Fotoman RAW"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:217
+#, no-c-format
+msgid "<entry>RDC</entry>"
+msgstr ""
+
+#. Tag: entry
+#: file-formats.docbook:219
+#, no-c-format
+msgid "Ricoh RAW format"
+msgstr ""
+
+#. Tag: title
+#: file-formats.docbook:234
+#, no-c-format
+msgid "Moving Image Formats (Videos)"
+msgstr ""
+
+#. Tag: para
+#: file-formats.docbook:236
+#, no-c-format
+msgid ""
+"Many digital cameras support taking of short movie clips. These clips are "
+"usually stored in AVI or MPEG format. &digikam; understands these formats and "
+"will generate thumbnails for the movie files. However, &digikam; is not a "
+"movie "
+"editing application and it does not have any built-in movie viewing or "
+"editing "
+"capabilities. If you double click on a movie file &digikam; will use your "
+"&kde; "
+"settings to choose a viewing application to use."
+msgstr ""
+
