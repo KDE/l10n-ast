@@ -8,10 +8,10 @@ msgstr ""
 "PO-Revision-Date: 2015-04-02 00:53+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ast\n"
 "X-Generator: Lokalize 2.0\n"
 
 #. Tag: title
@@ -155,18 +155,17 @@ msgstr ""
 #: index.docbook:81
 #, no-c-format
 msgid ""
-"You would typically use &krdc; with the &kde; <acronym>VNC</acronym> "
-"server (&krfb;), which is also known as Krfb, since it closely matches the "
-"special features of &krdc;."
+"You would typically use &krdc; with the &kde; <acronym>VNC</acronym> server "
+"(&krfb;), which is also known as Krfb, since it closely matches the special "
+"features of &krdc;."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:86
 #, no-c-format
 msgid ""
-"If you want to start &krdc; from &konsole;, the command is <userinput><"
-"command>"
-"krdc</command></userinput>."
+"If you want to start &krdc; from &konsole;, the command is "
+"<userinput><command>krdc</command></userinput>."
 msgstr ""
 
 #. Tag: para
@@ -187,9 +186,9 @@ msgstr ""
 #: index.docbook:100
 #, no-c-format
 msgid ""
-"This chapter provides a brief description of the Remote Frame Buffer protocol "
-"used by &krdc; and by other compatible systems. If you are already familiar "
-"with Remote Frame Buffer, you can safely skip this chapter."
+"This chapter provides a brief description of the Remote Frame Buffer "
+"protocol used by &krdc; and by other compatible systems. If you are already "
+"familiar with Remote Frame Buffer, you can safely skip this chapter."
 msgstr ""
 
 #. Tag: para
@@ -197,8 +196,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The high level implementation of a system using the Remote Frame Buffer "
-"protocol is known as Virtual Network Computer, or more often just as <acronym>"
-"VNC</acronym>."
+"protocol is known as Virtual Network Computer, or more often just as "
+"<acronym>VNC</acronym>."
 msgstr ""
 
 #. Tag: para
@@ -206,26 +205,24 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Remote Frame Buffer (or <acronym>RFB</acronym> for short) is a simple "
-"protocol "
-"for remote access to graphical user interfaces. It works at the frame-buffer "
-"level, which roughly corresponds to the rendered screen image, which means "
-"that "
-"it can be applied to all windowing systems (including X11, &MacOS; and "
-"&Microsoft; &Windows;). Remote Frame Buffer applications exist for many "
-"platforms, and can often be free re-distributed."
+"protocol for remote access to graphical user interfaces. It works at the "
+"frame-buffer level, which roughly corresponds to the rendered screen image, "
+"which means that it can be applied to all windowing systems (including X11, "
+"&MacOS; and &Microsoft; &Windows;). Remote Frame Buffer applications exist "
+"for many platforms, and can often be free re-distributed."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:123
 #, no-c-format
 msgid ""
-"In the Remote Frame Buffer protocol, the application that runs on the machine "
-"where the user sits (containing the display, keyboard and pointer) is called "
-"the client. The application that runs on the machine where the framebuffer is "
-"located (which is running the windowing system and applications that the user "
-"is remotely controlling) is called the server. &krdc; is the &kde; client for "
-"the Remote Frame Buffer protocol. &krfb; is the &kde; server for the Remote "
-"Frame Buffer protocol."
+"In the Remote Frame Buffer protocol, the application that runs on the "
+"machine where the user sits (containing the display, keyboard and pointer) "
+"is called the client. The application that runs on the machine where the "
+"framebuffer is located (which is running the windowing system and "
+"applications that the user is remotely controlling) is called the server. "
+"&krdc; is the &kde; client for the Remote Frame Buffer protocol. &krfb; is "
+"the &kde; server for the Remote Frame Buffer protocol."
 msgstr ""
 
 #. Tag: para
@@ -234,9 +231,8 @@ msgstr ""
 msgid ""
 "It takes a reasonable amount of network traffic to send an image of the "
 "framebuffer, so Remote Frame Buffer works best over high bandwidth links, "
-"such "
-"as a local area network. It is still possible to use &krdc; over other links, "
-"but performance is unlikely to be as good."
+"such as a local area network. It is still possible to use &krdc; over other "
+"links, but performance is unlikely to be as good."
 msgstr ""
 
 #. Tag: title
@@ -276,16 +272,15 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&krdc; is a client, and it needs to be used with compatible servers. There "
-"are "
-"different ways to connect to those servers:"
+"are different ways to connect to those servers:"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:174
 #, no-c-format
 msgid ""
-"Directly typing the server name (or IP address) into the <guilabel>"
-"Connect to:</guilabel> input."
+"Directly typing the server name (or IP address) into the <guilabel>Connect "
+"to:</guilabel> input."
 msgstr ""
 
 #. Tag: para
@@ -293,8 +288,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "By using an invitation that you received. &krfb; uses invitations, and can "
-"send "
-"them by email."
+"send them by email."
 msgstr ""
 
 #. Tag: para
@@ -314,18 +308,18 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you know the host name (or IP address) of the server you want to connect "
-"to, "
-"you can enter it directly into the <guilabel>Connect to:</guilabel> input."
+"to, you can enter it directly into the <guilabel>Connect to:</guilabel> "
+"input."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:193
 #, no-c-format
 msgid ""
-"If you want to connect to a machine named megan, which is running a <acronym>"
-"VNC</acronym> server on screen 1 (5901), you can enter <userinput>"
-"megan:1</userinput> or <userinput>megan:5901</userinput> and choose <guilabel>"
-"vnc</guilabel> as the protocol in the drop down box."
+"If you want to connect to a machine named megan, which is running a "
+"<acronym>VNC</acronym> server on screen 1 (5901), you can enter "
+"<userinput>megan:1</userinput> or <userinput>megan:5901</userinput> and "
+"choose <guilabel>vnc</guilabel> as the protocol in the drop down box."
 msgstr ""
 
 #. Tag: screeninfo
@@ -345,11 +339,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Similary, if you are using a <acronym>RDP</acronym> server on that machine, "
-"you "
-"can enter <userinput>megan</userinput>. Choose <guilabel>rdp</guilabel> "
-"as the protocol. <acronym>RDP</acronym> does not need the screen number to be "
-"specified. If the server runs the <acronym>RDP</acronym> "
-"server not on the default port, you may specify it in the following way: "
+"you can enter <userinput>megan</userinput>. Choose <guilabel>rdp</guilabel> "
+"as the protocol. <acronym>RDP</acronym> does not need the screen number to "
+"be specified. If the server runs the <acronym>RDP</acronym> server not on "
+"the default port, you may specify it in the following way: "
 "<userinput>megan:3910</userinput>"
 msgstr ""
 
@@ -357,8 +350,8 @@ msgstr ""
 #: index.docbook:221
 #, no-c-format
 msgid ""
-"You need to enter an &URL; in percent encoded syntax, i.e. @ as %40, for &eg; "
-"<userinput>username%40ad.domain.example</userinput>"
+"You need to enter an &URL; in percent encoded syntax, i.e. @ as %40, for "
+"&eg; <userinput>username%40ad.domain.example</userinput>"
 msgstr ""
 
 #. Tag: title
@@ -371,11 +364,11 @@ msgstr ""
 #: index.docbook:229
 #, no-c-format
 msgid ""
-"Within the &krfb; server application, it is possible to send invitations over "
-"email (and in other ways, although email is the most useful). If you receive "
-"this type of email invitation, you can just click on the link provided in the "
-"mail. This will start &krdc; if it is not already running, and connect to the "
-"server specified in the invitation."
+"Within the &krfb; server application, it is possible to send invitations "
+"over email (and in other ways, although email is the most useful). If you "
+"receive this type of email invitation, you can just click on the link "
+"provided in the mail. This will start &krdc; if it is not already running, "
+"and connect to the server specified in the invitation."
 msgstr ""
 
 #. Tag: title
@@ -398,9 +391,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "No matter how you select the server to connect to, the next thing that "
-"happens "
-"is that &krdc; asks you about the network connection to the server, as shown "
-"below:"
+"happens is that &krdc; asks you about the network connection to the server, "
+"as shown below:"
 msgstr ""
 
 #. Tag: screeninfo
@@ -447,24 +439,20 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you always operate over the same link type, you can deselect the checkbox "
-"labeled <guilabel>Show this dialog again for this host</guilabel>"
-", which means that you won't be asked about the connection type again for "
-"this "
-"host, providing you identify it in the same way. For example, if a host has "
-"two "
+"labeled <guilabel>Show this dialog again for this host</guilabel>, which "
+"means that you won't be asked about the connection type again for this host, "
+"providing you identify it in the same way. For example, if a host has two "
 "names, and deselect the checkbox when connecting using one name, you won't "
-"get "
-"asked if you connect using that name, although you will be asked if you use "
-"the "
-"other name, or the IP address."
+"get asked if you connect using that name, although you will be asked if you "
+"use the other name, or the IP address."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:296
 #, no-c-format
 msgid ""
-"You select the appropriate speed setting, and select the <guibutton>"
-"OK</guibutton> to proceed."
+"You select the appropriate speed setting, and select the <guibutton>OK</"
+"guibutton> to proceed."
 msgstr ""
 
 #. Tag: para
@@ -487,10 +475,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&krdc; has the ability to save the password for further connections to the "
-"same "
-"host. It uses KWallet for doing this. You need to check the <guibutton>"
-"Remember password (KWallet)</guibutton> check box if you like to use this "
-"feature."
+"same host. It uses KWallet for doing this. You need to check the "
+"<guibutton>Remember password (KWallet)</guibutton> check box if you like to "
+"use this feature."
 msgstr ""
 
 #. Tag: screeninfo
@@ -510,8 +497,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "After authentication, you will be connected to the remote server, and can "
-"begin "
-"using &krdc; to observe or control the remote desktop."
+"begin using &krdc; to observe or control the remote desktop."
 msgstr ""
 
 #. Tag: title
@@ -525,8 +511,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Having connected to the remote server, you would normally use the keyboard "
-"and "
-"mouse to control the windowing system and applications on that remote machine."
+"and mouse to control the windowing system and applications on that remote "
+"machine."
 msgstr ""
 
 #. Tag: para
@@ -534,8 +520,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can view the remote desktop either as a full screen, or as a window on "
-"the "
-"local desktop. You can change between these modes using icons shown below."
+"the local desktop. You can change between these modes using icons shown "
+"below."
 msgstr ""
 
 #. Tag: screeninfo
@@ -567,10 +553,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Full screen mode is normally better when you are helping a remote user, "
-"because "
-"you can see all of what they can see. Window mode is most useful when you are "
-"working both remotely and locally - perhaps referring to some local "
-"documentation and then using those instructions on the remote machine."
+"because you can see all of what they can see. Window mode is most useful "
+"when you are working both remotely and locally - perhaps referring to some "
+"local documentation and then using those instructions on the remote machine."
 msgstr ""
 
 #. Tag: title
@@ -612,10 +597,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&krdc; has the ability to manage bookmarks. If you need to connect often to "
-"the "
-"same remote desktop, you can add an entry for this connection to the bookmark "
-"list. You can do so with a click on <menuchoice><guimenu>Bookmarks</guimenu> "
-"<guimenuitem>Add Bookmark</guimenuitem></menuchoice>."
+"the same remote desktop, you can add an entry for this connection to the "
+"bookmark list. You can do so with a click on <menuchoice><guimenu>Bookmarks</"
+"guimenu> <guimenuitem>Add Bookmark</guimenuitem></menuchoice>."
 msgstr ""
 
 #. Tag: screeninfo
@@ -641,13 +625,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&krdc; saves last used remote desktop connections. You can access these "
-"special "
-"bookmarks at <menuchoice><guimenu>Bookmarks</guimenu><guimenuitem>"
-"History</guimenuitem></menuchoice>. Of course you can also delete a bookmark "
-"of "
-"this list if you don't need it anymore in the list. Just click <guibutton>"
-"Delete Bookmark</guibutton> which appears after a click with the right mouse "
-"button on the bookmark you would like to delete."
+"special bookmarks at <menuchoice><guimenu>Bookmarks</"
+"guimenu><guimenuitem>History</guimenuitem></menuchoice>. Of course you can "
+"also delete a bookmark of this list if you don't need it anymore in the "
+"list. Just click <guibutton>Delete Bookmark</guibutton> which appears after "
+"a click with the right mouse button on the bookmark you would like to delete."
 msgstr ""
 
 #. Tag: title
@@ -660,10 +642,9 @@ msgstr ""
 #: index.docbook:449
 #, no-c-format
 msgid ""
-"Using <menuchoice><guimenu>Settings</guimenu><guimenuitem>"
-"Configure KRDC...</guimenuitem></menuchoice>, you can open a dialog to modify "
-"the behavior of &krdc;. Selecting that button brings up a window as shown "
-"below:"
+"Using <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure KRDC...</"
+"guimenuitem></menuchoice>, you can open a dialog to modify the behavior of "
+"&krdc;. Selecting that button brings up a window as shown below:"
 msgstr ""
 
 #. Tag: screeninfo
@@ -744,12 +725,10 @@ msgstr ""
 #: index.docbook:548
 #, no-c-format
 msgid ""
-"The &krdc; project has been started by Tim Jansen <email>tim@tjansen.de<"
-"/email>"
-". As a Google Summer of Code 2007 project, Urs Wolfer <email>"
-"uwolfer @ kde.org</email> has completely rewritten &krdc;. Thanks to Google "
-"for "
-"making this possible, and thanks to the great mentor of this Summer of Code "
+"The &krdc; project has been started by Tim Jansen <email>tim@tjansen.de</"
+"email>. As a Google Summer of Code 2007 project, Urs Wolfer <email>uwolfer @ "
+"kde.org</email> has completely rewritten &krdc;. Thanks to Google for making "
+"this possible, and thanks to the great mentor of this Summer of Code "
 "project, &Brad.Hards; &Brad.Hards.mail;."
 msgstr ""
 
@@ -758,8 +737,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Documentation Copyright &copy; 2003 &Brad.Hards; &Brad.Hards.mail; "
-"Documentation Copyright &copy; 2007 Urs Wolfer <email>uwolfer @ kde.org<"
-"/email>"
+"Documentation Copyright &copy; 2007 Urs Wolfer <email>uwolfer @ kde.org</"
+"email>"
 msgstr ""
 
 #. Tag: trans_comment
@@ -803,4 +782,3 @@ msgstr ""
 #, no-c-format
 msgid "&install.compile.documentation;"
 msgstr ""
-

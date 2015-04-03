@@ -8,10 +8,10 @@ msgstr ""
 "PO-Revision-Date: 2015-04-02 01:08+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ast\n"
 "X-Generator: Lokalize 2.0\n"
 
 #. Tag: title
@@ -30,26 +30,22 @@ msgstr ""
 #: useractions.docbook:27
 #, no-c-format
 msgid ""
-"With ActionMan you can set up, configure and manage UserActions. Some general "
-"settings are configured with <link linkend=\"konfig-useractions\">"
-"Konfigurator</link>. With UserActions you can perform actions on files in the "
-"panel or to access &krusader; internal functions with parameters directly "
-"using "
-"placeholders. The actions integrate seamlessly into &kde;'s action system, "
-"which means that the standard Edit Toolbar and Edit Shortcut dialogs will "
-"show "
-"UserActions, too. The UserActions are stored in <filename> "
-"~/.kde/share/apps/krusader/useraction.xml</filename> "
-"(the file structure is documentated in doxygen headers of UserActionXML). "
-"Several <link linkend=\"useraction-xml\">examples</link> "
-"are included in the documentation. UserActions can be edited / added / "
-"imported "
-"/ exported by using ActionMan. The default UserActions are stored in <"
-"filename> "
-"~/.kde/share/apps/krusader/useraction-examples.xml</filename>"
-". UserActions can appear nearly everywhere where \"normal\" KActions can be "
-"placed. The actions can even be placed in the menu bar, but for that the "
-"<filename>krusaderui.rc</filename> file must be edited. A few examples:"
+"With ActionMan you can set up, configure and manage UserActions. Some "
+"general settings are configured with <link linkend=\"konfig-useractions"
+"\">Konfigurator</link>. With UserActions you can perform actions on files in "
+"the panel or to access &krusader; internal functions with parameters "
+"directly using placeholders. The actions integrate seamlessly into &kde;'s "
+"action system, which means that the standard Edit Toolbar and Edit Shortcut "
+"dialogs will show UserActions, too. The UserActions are stored in <filename> "
+"~/.kde/share/apps/krusader/useraction.xml</filename> (the file structure is "
+"documentated in doxygen headers of UserActionXML). Several <link linkend="
+"\"useraction-xml\">examples</link> are included in the documentation. "
+"UserActions can be edited / added / imported / exported by using ActionMan. "
+"The default UserActions are stored in <filename> ~/.kde/share/apps/krusader/"
+"useraction-examples.xml</filename>. UserActions can appear nearly everywhere "
+"where \"normal\" KActions can be placed. The actions can even be placed in "
+"the menu bar, but for that the <filename>krusaderui.rc</filename> file must "
+"be edited. A few examples:"
 msgstr ""
 
 #. Tag: link
@@ -94,12 +90,11 @@ msgstr ""
 #: useractions.docbook:73
 #, no-c-format
 msgid ""
-"Several UserActions are provided by default. Please <link "
-"linkend=\"help_krusader\">upload your favorite UserActions</link> "
-"so that they become available for the &krusader; community. Thanks! We "
-"provide "
-"also an <ulink url=\"http://www.krusader.org/phpBB/viewforum.php?f=11\">"
-"UserActions Forum</ulink>."
+"Several UserActions are provided by default. Please <link linkend="
+"\"help_krusader\">upload your favorite UserActions</link> so that they "
+"become available for the &krusader; community. Thanks! We provide also an "
+"<ulink url=\"http://www.krusader.org/phpBB/viewforum.php?f=11\">UserActions "
+"Forum</ulink>."
 msgstr ""
 
 #. Tag: title
@@ -120,14 +115,13 @@ msgstr ""
 msgid ""
 "Basically, UserActions are a method to call external programs with variable "
 "parameters. For example, you could have a UserAction with the following "
-"<command>xmms <option>--enqueue %aList(\"Selected\")%</option></command> "
-"to enqueue all selected items of the active panel to the current instance of "
+"<command>xmms <option>--enqueue %aList(\"Selected\")%</option></command> to "
+"enqueue all selected items of the active panel to the current instance of "
 "xmms. Additionally, there is limited access to &krusader; internal functions "
 "requiring parameters. For example, <command>%aPanelSize(\"80\")%</command> "
 "will set the width of the active panel to 80% of the &krusader; mainwindow. "
 "Since the parameter of placeholders can contain other placeholders, few "
-"scripts "
-"are possible."
+"scripts are possible."
 msgstr ""
 
 #. Tag: emphasis
@@ -141,8 +135,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Open Konfigurator and choose <menuchoice><guimenu>User Actions</guimenu> "
-"<guimenuitem>Start ActionMan</guimenuitem></menuchoice>"
-", in which you can add, edit, remove, import and export UserActions."
+"<guimenuitem>Start ActionMan</guimenuitem></menuchoice>, in which you can "
+"add, edit, remove, import and export UserActions."
 msgstr ""
 
 #. Tag: para
@@ -151,9 +145,8 @@ msgstr ""
 msgid ""
 "<guimenuitem>Add Action</guimenuitem>: If you add an new action, you get an "
 "empty input mask where you can enter all the properties you desire. The "
-"action "
-"will be added as soon as you press <guimenuitem>Apply</guimenuitem>"
-". Afterwards, the name is shown in the list on the left."
+"action will be added as soon as you press <guimenuitem>Apply</guimenuitem>. "
+"Afterwards, the name is shown in the list on the left."
 msgstr ""
 
 #. Tag: para
@@ -161,9 +154,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To edit a UserAction: Select the UserAction on the left. Then choose it if "
-"you "
-"want to edit its properties. The changes will only take effect when you press "
-"<guimenuitem>Apply</guimenuitem>."
+"you want to edit its properties. The changes will only take effect when you "
+"press <guimenuitem>Apply</guimenuitem>."
 msgstr ""
 
 #. Tag: para
@@ -171,10 +163,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>To remove a UserAction</guimenuitem>: Select the UserAction on "
-"the "
-"left and click the <inlinemediaobject> <imageobject> "
-"<imagedata fileref=\"Icon-edit-delete.png\" format=\"PNG\"/> </imageobject> "
-"</inlinemediaobject>button."
+"the left and click the <inlinemediaobject> <imageobject> <imagedata fileref="
+"\"Icon-edit-delete.png\" format=\"PNG\"/> </imageobject> </"
+"inlinemediaobject>button."
 msgstr ""
 
 #. Tag: para
@@ -182,24 +173,21 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>To import a UserAction</guimenuitem>: If you import some "
-"actions, "
-"they will be automatically added to your list. If there are name conflicts "
-"(the "
-"names have to be unique because these are the ID for &kde;'s action system), "
-"you are asked to resolve them. For this, the list on the left will only show "
-"the actions where conflicts exist. You can now give them new names or remove "
-"them."
+"actions, they will be automatically added to your list. If there are name "
+"conflicts (the names have to be unique because these are the ID for &kde;'s "
+"action system), you are asked to resolve them. For this, the list on the "
+"left will only show the actions where conflicts exist. You can now give them "
+"new names or remove them."
 msgstr ""
 
 #. Tag: para
 #: useractions.docbook:147
 #, no-c-format
 msgid ""
-"<guimenuitem>Export Action</guimenuitem>: If you export a UserAction you have "
-"to give a filename in which to store it. If it does not exist, it will be "
-"created. If the file already contains UserActions, the action you are "
-"exporting "
-"will be added to that file."
+"<guimenuitem>Export Action</guimenuitem>: If you export a UserAction you "
+"have to give a filename in which to store it. If it does not exist, it will "
+"be created. If the file already contains UserActions, the action you are "
+"exporting will be added to that file."
 msgstr ""
 
 #. Tag: para
@@ -222,9 +210,8 @@ msgstr ""
 #: useractions.docbook:163
 #, no-c-format
 msgid ""
-"<guimenuitem>Identifier</guimenuitem>, <guimenuitem>Title</guimenuitem> "
-"and <guimenuitem>Command line</guimenuitem> are always required, all the "
-"other "
+"<guimenuitem>Identifier</guimenuitem>, <guimenuitem>Title</guimenuitem> and "
+"<guimenuitem>Command line</guimenuitem> are always required, all the other "
 "properties are optional."
 msgstr ""
 
@@ -233,8 +220,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Identifier</guimenuitem>: A unique name of the UserAction, used "
-"to "
-"identify it for &kde;'s action system."
+"to identify it for &kde;'s action system."
 msgstr ""
 
 #. Tag: para
@@ -256,7 +242,8 @@ msgstr ""
 #: useractions.docbook:186
 #, no-c-format
 msgid ""
-"<guimenuitem>Title</guimenuitem>: The title displayed in the menus or dialogs."
+"<guimenuitem>Title</guimenuitem>: The title displayed in the menus or "
+"dialogs."
 msgstr ""
 
 #. Tag: para
@@ -272,9 +259,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Description</guimenuitem>: A description of what the UserAction "
-"does. This is also displayed as <guimenuitem>What's This</guimenuitem> "
-"if you <keycombo action=\"simul\">&Shift; <keycap>F1</keycap></keycombo> "
-"click on your UserAction."
+"does. This is also displayed as <guimenuitem>What's This</guimenuitem> if "
+"you <keycombo action=\"simul\">&Shift; <keycap>F1</keycap></keycombo> click "
+"on your UserAction."
 msgstr ""
 
 #. Tag: para
@@ -282,8 +269,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Command</guimenuitem>: The command which will be executed. You "
-"can "
-"add placeholder using a GUI with the <guibutton>add</guibutton> button."
+"can add placeholder using a GUI with the <guibutton>add</guibutton> button."
 msgstr ""
 
 #. Tag: para
@@ -291,8 +277,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Workdir</guimenuitem>: The working directory for the command "
-"which "
-"will be executed."
+"which will be executed."
 msgstr ""
 
 #. Tag: para
@@ -318,8 +303,8 @@ msgstr ""
 #: useractions.docbook:232
 #, no-c-format
 msgid ""
-"<guimenuitem>Run in embedded terminal emulator</guimenuitem>"
-": Runs the command in the embedded terminal."
+"<guimenuitem>Run in embedded terminal emulator</guimenuitem>: Runs the "
+"command in the embedded terminal."
 msgstr ""
 
 #. Tag: para
@@ -327,8 +312,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Collect output</guimenuitem>: Collects the output of the "
-"executed "
-"program in a &GUI; window."
+"executed program in a &GUI; window."
 msgstr ""
 
 #. Tag: para
@@ -336,8 +320,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Separate standard error</guimenuitem>: When \"Collect output\" "
-"is "
-"used the stdout and stderr are separately collected."
+"is used the stdout and stderr are separately collected."
 msgstr ""
 
 #. Tag: para
@@ -367,8 +350,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Default shortcut</guimenuitem>: Configures a default shortcut "
-"for "
-"the UserAction."
+"for the UserAction."
 msgstr ""
 
 #. Tag: para
@@ -376,9 +358,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Enabled</guimenuitem>: if checked, the useraction is shown in "
-"the "
-"<link linkend=\"useractions\">User Menu</link>, otherwise the useraction will "
-"be hidden."
+"the <link linkend=\"useractions\">User Menu</link>, otherwise the useraction "
+"will be hidden."
 msgstr ""
 
 #. Tag: emphasis
@@ -394,11 +375,11 @@ msgid ""
 "Basically, everything you type in the command line will get executed (if you "
 "type \"ls -l\", \"ls -l\" gets executed). You have the possibility to get a "
 "character string from &krusader; which represents the current state of the "
-"panel. This is done using placeholders. A placeholder begins with a "
-"percent-sign ('%') and is followed by a panel indicator ('a' for the active, "
-"'o' for the other, 'l' for the left and 'r' for the right panel. If the "
-"placeholder does not need a panel to operate on, you have to indicate this by "
-"an underscore ('_')). Then comes the name of the placeholder (see the list "
+"panel. This is done using placeholders. A placeholder begins with a percent-"
+"sign ('%') and is followed by a panel indicator ('a' for the active, 'o' for "
+"the other, 'l' for the left and 'r' for the right panel. If the placeholder "
+"does not need a panel to operate on, you have to indicate this by an "
+"underscore ('_')). Then comes the name of the placeholder (see the list "
 "below), which may get some parameters enclosed in quotes. Finally, again the "
 "percent sign."
 msgstr ""
@@ -407,12 +388,11 @@ msgstr ""
 #: useractions.docbook:300
 #, no-c-format
 msgid ""
-"This sounds very complicated, so let's make an example: '%aList(\"Selected\")%"
-"' "
-"is replaced by a list of all selected items in the active panel. So a command "
-"like 'xmms --enqueue %aList(\"All\", \" \", \"\", \"*.mp3\")%' will execute "
-"xmms with a list of all .mp3s in the current panel, separated by a single "
-"blank."
+"This sounds very complicated, so let's make an example: '%aList(\"Selected"
+"\")%' is replaced by a list of all selected items in the active panel. So a "
+"command like 'xmms --enqueue %aList(\"All\", \" \", \"\", \"*.mp3\")%' will "
+"execute xmms with a list of all .mp3s in the current panel, separated by a "
+"single blank."
 msgstr ""
 
 #. Tag: para
@@ -531,8 +511,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<userinput>Ask</userinput> - asks the user for some text and is replaced by "
-"the "
-"answer"
+"the answer"
 msgstr ""
 
 #. Tag: para
@@ -571,8 +550,8 @@ msgstr ""
 #: useractions.docbook:444
 #, no-c-format
 msgid ""
-"Parameter (optional): Append the text to the current content of the clipboard "
-"with this separator"
+"Parameter (optional): Append the text to the current content of the "
+"clipboard with this separator"
 msgstr ""
 
 #. Tag: para
@@ -676,10 +655,9 @@ msgstr ""
 #: useractions.docbook:529
 #, no-c-format
 msgid ""
-"Parameter (optional): A integer value, &eg;, 80 makes the active panel use 80%"
-" "
-"of &krusader;'s width (height in vertical mode), omitting the parameter means "
-"50%."
+"Parameter (optional): A integer value, &eg;, 80 makes the active panel use "
+"80% of &krusader;'s width (height in vertical mode), omitting the parameter "
+"means 50%."
 msgstr ""
 
 #. Tag: para
@@ -699,8 +677,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<userinput>ListFile</userinput> - is replaced by path/file name of a "
-"temporary "
-"file containing a list of items"
+"temporary file containing a list of items"
 msgstr ""
 
 #. Tag: para
@@ -721,9 +698,8 @@ msgstr ""
 #: useractions.docbook:598
 #, no-c-format
 msgid ""
-"Parameter: Column: Either \"Name\", \"Ext\", \"Type\", \"Size\", "
-"\"Modified\", "
-"\"Perms\", \"rwx\", \"Owner\" and \"Group\""
+"Parameter: Column: Either \"Name\", \"Ext\", \"Type\", \"Size\", \"Modified"
+"\", \"Perms\", \"rwx\", \"Owner\" and \"Group\""
 msgstr ""
 
 #. Tag: para
@@ -755,13 +731,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "A GUI-based helper for placeholder adding is provided. Spaces in Path, "
-"Current "
-"and List are by default, automatically escaped. There is one more important "
-"thing to know: All placeholders that interact with &krusader; internal "
-"functions are called at expand time (meaning directly when the placeholders "
-"are "
-"replaced). External programs are called at execution time (meaning after all "
-"placeholders are replaced)."
+"Current and List are by default, automatically escaped. There is one more "
+"important thing to know: All placeholders that interact with &krusader; "
+"internal functions are called at expand time (meaning directly when the "
+"placeholders are replaced). External programs are called at execution time "
+"(meaning after all placeholders are replaced)."
 msgstr ""
 
 #. Tag: emphasis
@@ -776,8 +750,8 @@ msgstr ""
 msgid ""
 "Here you can configure where your command should be visible (for the right "
 "click menu). In addition, it is possible to change the command executed and "
-"confirm it separately. You can also set a user under which the command should "
-"be executed."
+"confirm it separately. You can also set a user under which the command "
+"should be executed."
 msgstr ""
 
 #. Tag: para
@@ -801,4 +775,3 @@ msgid ""
 "Set a different user for the execution (this has no effect in &krusader; "
 "internal functions)"
 msgstr ""
-

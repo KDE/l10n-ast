@@ -8,10 +8,10 @@ msgstr ""
 "PO-Revision-Date: 2015-03-29 12:31+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ast\n"
 "X-Generator: Lokalize 2.0\n"
 
 #. Tag: title
@@ -30,8 +30,8 @@ msgstr ""
 #: commands.docbook:6
 #, no-c-format
 msgid ""
-"Add a libxslt parameter; equivalent to providing --param "
-"&lt;QNAME&gt;:&lt;XPATH&gt; via command line."
+"Add a libxslt parameter; equivalent to providing --param &lt;QNAME&gt;:&lt;"
+"XPATH&gt; via command line."
 msgstr ""
 
 #. Tag: title
@@ -44,9 +44,9 @@ msgstr ""
 #: commands.docbook:11
 #, no-c-format
 msgid ""
-"addparam &lt;QNAME&gt; &lt;XPATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(The &lt;XPATH&gt; must not contain any spaces nor double quotation marks.) "
-"</emphasis>"
+"addparam &lt;QNAME&gt; &lt;XPATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(The "
+"&lt;XPATH&gt; must not contain any spaces nor double quotation marks.) </"
+"emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -123,10 +123,8 @@ msgstr ""
 msgid ""
 "Break at a template, at a location in a stylesheet or xml file loaded by "
 "xsldbg, or at the current node. New for xsldbg 3.1.4: When in gdb "
-"compatibility "
-"mode orphaned breakpoints can be set at a specific file and line number and "
-"be "
-"resolved to an active later on."
+"compatibility mode orphaned breakpoints can be set at a specific file and "
+"line number and be resolved to an active later on."
 msgstr ""
 
 #. Tag: para
@@ -139,13 +137,13 @@ msgstr ""
 #: commands.docbook:44
 #, no-c-format
 msgid ""
-"xsldbg will try to guess the complete URL given a <informaltable> "
-"<tgroup cols=\"1\"><tbody> <row><entry>file name without a path "
-"specified.</entry></row> <row><entry>a file name in the same directory as the "
-"<quote>top</quote> stylesheet loaded</entry></row> <row><entry>"
-"a file name relative to the current working directory of xsldbg</entry></row> "
-"</tbody></tgroup> </informaltable> Ie if you have loaded a stylesheet file of "
-"<filename>../en/xsldoc.xsl</filename> you can do this"
+"xsldbg will try to guess the complete URL given a <informaltable> <tgroup "
+"cols=\"1\"><tbody> <row><entry>file name without a path specified.</entry></"
+"row> <row><entry>a file name in the same directory as the <quote>top</quote> "
+"stylesheet loaded</entry></row> <row><entry>a file name relative to the "
+"current working directory of xsldbg</entry></row> </tbody></tgroup> </"
+"informaltable> Ie if you have loaded a stylesheet file of <filename>../en/"
+"xsldoc.xsl</filename> you can do this"
 msgstr ""
 
 #. Tag: userinput
@@ -158,9 +156,9 @@ msgstr ""
 #: commands.docbook:54
 #, no-c-format
 msgid ""
-"This command will match a partial or complete QNAME template and or mode name "
-"provided. &eg; <quote>template</quote> will match any QNAME with a local part "
-"of <quote>template</quote>"
+"This command will match a partial or complete QNAME template and or mode "
+"name provided. &eg; <quote>template</quote> will match any QNAME with a "
+"local part of <quote>template</quote>"
 msgstr ""
 
 #. Tag: para
@@ -176,9 +174,10 @@ msgstr ""
 #: commands.docbook:57
 #, no-c-format
 msgid ""
-"A requested breakpoint may need to be resolved to its associated URL and line "
-"number. This is done automatically after the first template has been seen by "
-"xsldbg. Breakpoints are re-validated shortly after the start of each run."
+"A requested breakpoint may need to be resolved to its associated URL and "
+"line number. This is done automatically after the first template has been "
+"seen by xsldbg. Breakpoints are re-validated shortly after the start of each "
+"run."
 msgstr ""
 
 #. Tag: para
@@ -186,8 +185,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Automatic breakpoint validation is used when gdb mode is enabled - the "
-"default "
-"behaviour of xsldbg"
+"default behaviour of xsldbg"
 msgstr ""
 
 #. Tag: title
@@ -208,51 +206,49 @@ msgstr ""
 #: commands.docbook:64
 #, no-c-format
 msgid ""
-"break -l &lt;URI&gt; &lt;LINENO&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(To set breakpoint at specified URI, line number)</emphasis>"
+"break -l &lt;URI&gt; &lt;LINENO&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To set "
+"breakpoint at specified URI, line number)</emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:65
 #, no-c-format
 msgid ""
-"break &lt;TEMPLATE_NAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(To break at named or matched template.)</emphasis>"
+"break &lt;TEMPLATE_NAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To break at "
+"named or matched template.)</emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:66
 #, no-c-format
 msgid ""
-"break &lt;TEMPLATE_NAME&gt; &lt;MODE_NAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis"
-">"
-"(To break at named template with given mode.)></emphasis>"
+"break &lt;TEMPLATE_NAME&gt; &lt;MODE_NAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;"
+"<emphasis>(To break at named template with given mode.)></emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:67
 #, no-c-format
 msgid ""
-"break \"\" &lt;MODE_NAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(To break at any template that has a given mode name)</emphasis>"
+"break \"\" &lt;MODE_NAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To break at "
+"any template that has a given mode name)</emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:68
 #, no-c-format
 msgid ""
-"break *&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To break at any template "
-"found.)</emphasis>"
+"break *&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To break at any template found.)</"
+"emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:69
 #, no-c-format
 msgid ""
-"break \\*&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To break at the <literal>*<"
-"/literal> "
-"template. Other name that include <quote>*</quote> will not be treated "
-"specially.)</emphasis>"
+"break \\*&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To break at the <literal>*</"
+"literal> template. Other name that include <quote>*</quote> will not be "
+"treated specially.)</emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -309,8 +305,8 @@ msgstr ""
 #: commands.docbook:92
 #, no-c-format
 msgid ""
-"Usage: cat &lt;XPATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(To view a variable or parameter)</emphasis>"
+"Usage: cat &lt;XPATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To view a "
+"variable or parameter)</emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -383,8 +379,8 @@ msgstr ""
 #: commands.docbook:117
 #, no-c-format
 msgid ""
-"chdir &lt;PATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(A relative or absolute path for operating system)</emphasis>"
+"chdir &lt;PATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(A relative or absolute "
+"path for operating system)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -440,8 +436,8 @@ msgstr ""
 #: commands.docbook:140
 #, no-c-format
 msgid ""
-"data&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Switch to the current document "
-"node.)</emphasis>"
+"data&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Switch to the current document node.)"
+"</emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -449,9 +445,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "data &lt;DATA&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To change to a new xml "
-"data "
-"file. A leading <literal>~</literal> is replaced by the $HOME environment "
-"variable value. You will need to use the <quote>run</quote> "
+"data file. A leading <literal>~</literal> is replaced by the $HOME "
+"environment variable value. You will need to use the <quote>run</quote> "
 "command to process it)</emphasis>"
 msgstr ""
 
@@ -491,8 +486,8 @@ msgstr ""
 #: commands.docbook:154
 #, no-c-format
 msgid ""
-"delete &lt;BREAKPOINT_ID&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(To delete breakpoint at specified break point number)</emphasis>"
+"delete &lt;BREAKPOINT_ID&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To delete "
+"breakpoint at specified break point number)</emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -515,16 +510,16 @@ msgstr ""
 #: commands.docbook:157
 #, no-c-format
 msgid ""
-"delete &lt;TEMPLATENAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(To delete break point at named template.)</emphasis>"
+"delete &lt;TEMPLATENAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To delete "
+"break point at named template.)</emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:158
 #, no-c-format
 msgid ""
-"delete *&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To delete all break "
-"points.)</emphasis>"
+"delete *&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To delete all break points.)</"
+"emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -549,8 +544,8 @@ msgstr ""
 #: commands.docbook:169
 #, no-c-format
 msgid ""
-"delparam&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Delete all parameters "
-"present)</emphasis>"
+"delparam&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Delete all parameters present)</"
+"emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -589,16 +584,16 @@ msgstr ""
 #: commands.docbook:182
 #, no-c-format
 msgid ""
-"delwatch &lt;WATCHID&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Delete a watch expression with given ID)</emphasis>"
+"delwatch &lt;WATCHID&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Delete a watch "
+"expression with given ID)</emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:183
 #, no-c-format
 msgid ""
-"delwatch *&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Delete all watch "
-"expressions)</emphasis>"
+"delwatch *&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Delete all watch expressions)</"
+"emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -655,8 +650,8 @@ msgstr ""
 #: commands.docbook:207
 #, no-c-format
 msgid ""
-"disable &lt;BREAKPOINT_ID&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(To disable breakpoint at specified break point number)</emphasis>"
+"disable &lt;BREAKPOINT_ID&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To disable "
+"breakpoint at specified break point number)</emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -759,8 +754,8 @@ msgstr ""
 #: commands.docbook:244
 #, no-c-format
 msgid ""
-"enable &lt;BREAKPOINT_ID&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(To enable/disable breakpoint at specified break point number</emphasis>"
+"enable &lt;BREAKPOINT_ID&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To enable/"
+"disable breakpoint at specified break point number</emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -856,8 +851,8 @@ msgstr ""
 #: commands.docbook:281
 #, no-c-format
 msgid ""
-"frame &lt;FRAME_DEPTH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Depth is a number from 0 to the current depth of call stack)</emphasis>"
+"frame &lt;FRAME_DEPTH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Depth is a "
+"number from 0 to the current depth of call stack)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -894,9 +889,8 @@ msgstr ""
 #: commands.docbook:299
 #, no-c-format
 msgid ""
-"Print a list of global stylesheet variables or parameters. Print the value of "
-"a "
-"global variable"
+"Print a list of global stylesheet variables or parameters. Print the value "
+"of a global variable"
 msgstr ""
 
 #. Tag: title
@@ -910,8 +904,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "globals&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Print list of all globally "
-"available "
-"variables)</emphasis>"
+"available variables)</emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -926,8 +919,8 @@ msgstr ""
 #: commands.docbook:305
 #, no-c-format
 msgid ""
-"globals &lt;QNAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Print the value of variable specified)</emphasis>"
+"globals &lt;QNAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Print the value of "
+"variable specified)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -965,8 +958,8 @@ msgstr ""
 #: commands.docbook:318
 #, no-c-format
 msgid ""
-"help &lt;COMMAND&gt; &nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Show help about a command)</emphasis>"
+"help &lt;COMMAND&gt; &nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Show help about a "
+"command)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -1004,8 +997,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Print a list of local stylesheet variables or parameters. Print the value of "
-"a "
-"local variable"
+"a local variable"
 msgstr ""
 
 #. Tag: title
@@ -1027,16 +1019,15 @@ msgstr ""
 #, no-c-format
 msgid ""
 "locals -f&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Print list of all locally "
-"available "
-"variables and their values)</emphasis>"
+"available variables and their values)</emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:342
 #, no-c-format
 msgid ""
-"locals &lt;QNAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Print the value of variable specified)</emphasis>"
+"locals &lt;QNAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Print the value of "
+"variable specified)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -1093,8 +1084,8 @@ msgstr ""
 #: commands.docbook:366
 #, no-c-format
 msgid ""
-"next&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(proceed to next sibling "
-"instruction)</emphasis>"
+"next&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(proceed to next sibling instruction)</"
+"emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -1149,19 +1140,18 @@ msgstr ""
 #: commands.docbook:389
 #, no-c-format
 msgid ""
-"output &lt;FILENAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(A local writable file name. Which can have a \"~\" prefix on *nix and CYGWIN "
-"platforms. Or environment variables under RISC OS)</emphasis>"
+"output &lt;FILENAME&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(A local writable "
+"file name. Which can have a \"~\" prefix on *nix and CYGWIN platforms. Or "
+"environment variables under RISC OS)</emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:390
 #, no-c-format
 msgid ""
-"output &lt;URI&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(The &lt;URI&gt; must only use the \"file://\" protocol. This is then "
-"converted "
-"to a file name suitable for the operating system)</emphasis>"
+"output &lt;URI&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(The &lt;URI&gt; must "
+"only use the \"file://\" protocol. This is then converted to a file name "
+"suitable for the operating system)</emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -1169,8 +1159,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "output -&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>( Send to standard output. Must "
-"only "
-"be used when using xsldbg's command line prompt )</emphasis>"
+"only be used when using xsldbg's command line prompt )</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -1347,8 +1336,8 @@ msgstr ""
 msgid ""
 "All output files are stored in, value of the \"searchresultspath\" option if "
 "set, or the same directory as the provided stylesheet. searchresults.xml is "
-"normally transformed by search.xsl, but will be transformed using "
-"searchhtml.xsl if the \"prefrehtml\" option is set."
+"normally transformed by search.xsl, but will be transformed using searchhtml."
+"xsl if the \"prefrehtml\" option is set."
 msgstr ""
 
 #. Tag: para
@@ -1357,8 +1346,8 @@ msgstr ""
 msgid ""
 "When the search command is issued a xml file (searchresults.xml) will be "
 "created. You can then process this file with your own stylesheet to present "
-"data in other ways. If \"preferhtml\" option is not set then searchresult.txt "
-"is printed to display."
+"data in other ways. If \"preferhtml\" option is not set then searchresult."
+"txt is printed to display."
 msgstr ""
 
 #. Tag: para
@@ -1379,17 +1368,16 @@ msgstr ""
 #: commands.docbook:476
 #, no-c-format
 msgid ""
-"search &lt;XPATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(See what xpath can be used see search.dtd. The default &lt;XPATH&gt; is "
-"'//search/*' )</emphasis>"
+"search &lt;XPATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(See what xpath can be "
+"used see search.dtd. The default &lt;XPATH&gt; is '//search/*' )</emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:477
 #, no-c-format
 msgid ""
-"search -sort &lt;XPATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Tell search.xsl to sort the result before outputing it)</emphasis>"
+"search -sort &lt;XPATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Tell search.xsl "
+"to sort the result before outputing it)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -1477,8 +1465,8 @@ msgstr ""
 #: commands.docbook:508
 #, no-c-format
 msgid ""
-"debug&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is true dump "
-"the tree of the result instead)</emphasis>"
+"debug&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is true "
+"dump the tree of the result instead)</emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -1486,9 +1474,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "catalogs&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is true "
-"use "
-"the catalogs from $SGML_CATALOG_FILES or SGML$CatalogFiles for risc operating "
-"system)</emphasis>"
+"use the catalogs from $SGML_CATALOG_FILES or SGML$CatalogFiles for risc "
+"operating system)</emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -1504,9 +1491,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "docbook&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is true "
-"and "
-"docbook is still supported by libxml the input document is SGML "
-"docbook)</emphasis>"
+"and docbook is still supported by libxml the input document is SGML docbook)"
+"</emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -1514,24 +1500,23 @@ msgstr ""
 #, no-c-format
 msgid ""
 "xinclude&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is true "
-"do "
-"XInclude processing on document input)</emphasis>"
+"do XInclude processing on document input)</emphasis>"
 msgstr ""
 
 #. Tag: para
 #: commands.docbook:513
 #, no-c-format
 msgid ""
-"preferhtml&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is true "
-"prefer html output for search results. See search command)</emphasis>"
+"preferhtml&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is "
+"true prefer html output for search results. See search command)</emphasis>"
 msgstr ""
 
 #. Tag: para
 #: commands.docbook:514
 #, no-c-format
 msgid ""
-"autoencode&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is true "
-"try to use the encoding from the stylesheet)</emphasis>"
+"autoencode&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is "
+"true try to use the encoding from the stylesheet)</emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -1539,16 +1524,16 @@ msgstr ""
 #, no-c-format
 msgid ""
 "utf8input&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is true "
-"all input from user is in UTF-8. This is normally used when xsldbg is running "
-"as a thread)</emphasis>"
+"all input from user is in UTF-8. This is normally used when xsldbg is "
+"running as a thread)</emphasis>"
 msgstr ""
 
 #. Tag: para
 #: commands.docbook:516
 #, no-c-format
 msgid ""
-"gdb&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Run in gdb compatability mode)<"
-"/emphasis>"
+"gdb&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Run in gdb compatability mode)</"
+"emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -1561,18 +1546,17 @@ msgstr ""
 #: commands.docbook:522
 #, no-c-format
 msgid ""
-"Print lots more messages. Increase the frequency of printing \"Breakpoint at "
-"...\""
+"Print lots more messages. Increase the frequency of printing \"Breakpoint "
+"at ...\""
 msgstr ""
 
 #. Tag: para
 #: commands.docbook:523
 #, no-c-format
 msgid ""
-"At most GDB_LINES_TO_PRINT lines will be printed when evaluating expressions, "
-"followed by a \"...\". See options.h to change this value, the default is "
-"three "
-"lines of text"
+"At most GDB_LINES_TO_PRINT lines will be printed when evaluating "
+"expressions, followed by a \"...\". See options.h to change this value, the "
+"default is three lines of text"
 msgstr ""
 
 #. Tag: para
@@ -1587,8 +1571,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When printing expressions with cat/print. The evaluated value will be "
-"prefixed "
-"by \"= \" &lt; EXPRESSION &gt;"
+"prefixed by \"= \" &lt; EXPRESSION &gt;"
 msgstr ""
 
 #. Tag: para
@@ -1602,8 +1585,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Print messages needed by KDbg as well as the output state above (when value "
-"is "
-"1)"
+"is 1)"
 msgstr ""
 
 #. Tag: para
@@ -1627,8 +1609,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "repeat&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is greater "
-"than zero(0) then run the transformation &lt;INTEGER_VALUE&gt; times)<"
-"/emphasis>"
+"than zero(0) then run the transformation &lt;INTEGER_VALUE&gt; times)</"
+"emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -1636,8 +1618,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "profile&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is true "
-"dump "
-"profiling information)</emphasis>"
+"dump profiling information)</emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -1653,8 +1634,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "out&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(If &lt;INTEGER_VALUE&gt; is true dump "
-"the "
-"result)</emphasis>"
+"the result)</emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -1662,8 +1642,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Where value is true if the word \"true\" is supplied or the value is NOT "
-"equal "
-"to zero"
+"equal to zero"
 msgstr ""
 
 #. Tag: entry
@@ -1686,8 +1665,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Where value is by default false if the option name is preceded by \"no\", "
-"&eg; "
-"setoption nonet"
+"&eg; setoption nonet"
 msgstr ""
 
 #. Tag: entry
@@ -1702,19 +1680,18 @@ msgstr ""
 #: commands.docbook:555
 #, no-c-format
 msgid ""
-"setoption &lt;OPTION_NAME&gt; "
-"\"&lt;STRING_VALUE&gt;\"&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Must not contain double quotation marks in &lt;STRING_VALUE&gt;)</emphasis>"
+"setoption &lt;OPTION_NAME&gt; \"&lt;STRING_VALUE&gt;\"&nbsp;&nbsp;&nbsp;"
+"&nbsp;<emphasis>(Must not contain double quotation marks in &lt;"
+"STRING_VALUE&gt;)</emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:556
 #, no-c-format
 msgid ""
-"setoption &lt;OPTION_NAME&gt; "
-"&lt;STRING_VALUE&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Must not contain any spaces, nor double quotation marks in "
-"&lt;STRING_VALUE&gt;)</emphasis>"
+"setoption &lt;OPTION_NAME&gt; &lt;STRING_VALUE&gt;&nbsp;&nbsp;&nbsp;&nbsp;"
+"<emphasis>(Must not contain any spaces, nor double quotation marks in &lt;"
+"STRING_VALUE&gt;)</emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -1749,9 +1726,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "catalognames&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(The names of the catalogs to "
-"use "
-"when the catalogs option is set. Value will be lost if set before setting "
-"catalogs option)</emphasis>"
+"use when the catalogs option is set. Value will be lost if set before "
+"setting catalogs option)</emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -1767,17 +1743,16 @@ msgstr ""
 #, no-c-format
 msgid ""
 "searchresultspath&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>What path is to be used "
-"when "
-"storing the results of searching. If this is not set then xsldbg will use the "
-"path of the stylesheet</emphasis>"
+"when storing the results of searching. If this is not set then xsldbg will "
+"use the path of the stylesheet</emphasis>"
 msgstr ""
 
 #. Tag: para
 #: commands.docbook:568
 #, no-c-format
 msgid ""
-"cwd&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(The directory changed into by the chdir "
-"command)</emphasis>"
+"cwd&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(The directory changed into by the "
+"chdir command)</emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -1785,8 +1760,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "comment&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(A freeform comment about the "
-"debugger "
-"current session)</emphasis>"
+"debugger current session)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -1811,9 +1785,8 @@ msgstr ""
 #: commands.docbook:582
 #, no-c-format
 msgid ""
-"shell &lt;TEXT&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(&lt;TEXT&gt; is the text to be passed to operating system for "
-"execution)</emphasis>"
+"shell &lt;TEXT&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(&lt;TEXT&gt; is the "
+"text to be passed to operating system for execution)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -1838,8 +1811,8 @@ msgstr ""
 #: commands.docbook:590
 #, no-c-format
 msgid ""
-"If a mode exists on a template breakpoint then it will be appended to the end "
-"of template name for breakpoint. An example of the output is:"
+"If a mode exists on a template breakpoint then it will be appended to the "
+"end of template name for breakpoint. An example of the output is:"
 msgstr ""
 
 #. Tag: entry
@@ -1852,15 +1825,16 @@ msgstr ""
 #: commands.docbook:595
 #, no-c-format
 msgid ""
-"Breakpoint 2 enabled for template :\"* testMode\" in file test1.xsl : line 109"
+"Breakpoint 2 enabled for template :\"* testMode\" in file test1.xsl : line "
+"109"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:596
 #, no-c-format
 msgid ""
-"Breakpoint 1 enabled for template :\"* "
-"http://www.w3.org/1999/XSL/Transform:testMode\" in file test1.xsl : line 113"
+"Breakpoint 1 enabled for template :\"* http://www.w3.org/1999/XSL/Transform:"
+"testMode\" in file test1.xsl : line 113"
 msgstr ""
 
 #. Tag: entry
@@ -1934,8 +1908,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "showwatch&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Show the currently selected "
-"watches "
-"and their values)</emphasis>"
+"watches and their values)</emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -1943,8 +1916,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "showwatch 1&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Enable the automatic printing "
-"of "
-"watch expressions. This is used by default.)</emphasis>"
+"of watch expressions. This is used by default.)</emphasis>"
 msgstr ""
 
 #. Tag: entry
@@ -1952,8 +1924,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "showwatch 0&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Disable the automatic printing "
-"of "
-"watch expressions.)</emphasis>"
+"of watch expressions.)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -1966,7 +1937,8 @@ msgstr ""
 #: commands.docbook:635
 #, no-c-format
 msgid ""
-"Switch to displaying the current node in stylesheet. Or change stylesheet used"
+"Switch to displaying the current node in stylesheet. Or change stylesheet "
+"used"
 msgstr ""
 
 #. Tag: title
@@ -1987,10 +1959,10 @@ msgstr ""
 #: commands.docbook:640
 #, no-c-format
 msgid ""
-"source &lt;SOURCE&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(To change to a new source file. A leading <literal>~</literal> "
-"is replaced by the $HOME environment variable value. You will need to use the "
-"<command>run</command> command to execute it)</emphasis>"
+"source &lt;SOURCE&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(To change to a new "
+"source file. A leading <literal>~</literal> is replaced by the $HOME "
+"environment variable value. You will need to use the <command>run</command> "
+"command to execute it)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -2058,8 +2030,8 @@ msgstr ""
 #: commands.docbook:665
 #, no-c-format
 msgid ""
-"stepdown &lt;NUMBER_OF_FRAMES&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(step down specified number of frames)</emphasis>"
+"stepdown &lt;NUMBER_OF_FRAMES&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(step "
+"down specified number of frames)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -2102,8 +2074,8 @@ msgstr ""
 #: commands.docbook:678
 #, no-c-format
 msgid ""
-"stepup &lt;NUMBER_OF_FRAMES&gt; &nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(step up specified number of frames)</emphasis>"
+"stepup &lt;NUMBER_OF_FRAMES&gt; &nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(step up "
+"specified number of frames)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -2200,9 +2172,8 @@ msgstr ""
 #: commands.docbook:716
 #, no-c-format
 msgid ""
-"templates &lt;TEMPLATE&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Print details of template named &lt;TEMPLATE&gt; if it can be found)<"
-"/emphasis>"
+"templates &lt;TEMPLATE&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Print details "
+"of template named &lt;TEMPLATE&gt; if it can be found)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -2253,19 +2224,18 @@ msgstr ""
 #: commands.docbook:739
 #, no-c-format
 msgid ""
-"tty &lt;DEVICE_PATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Where &lt;DEVICE_PATH&gt; is a valid terminal on the operating system. Just "
-"tries to open the terminal</emphasis>"
+"tty &lt;DEVICE_PATH&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Where &lt;"
+"DEVICE_PATH&gt; is a valid terminal on the operating system. Just tries to "
+"open the terminal</emphasis>"
 msgstr ""
 
 #. Tag: entry
 #: commands.docbook:740
 #, no-c-format
 msgid ""
-"tty &lt;TTY_LEVEL&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Set the level of tty redirection, where &lt;TTY_LEVEL&gt; is a valid level "
-"of "
-"input/output to use)</emphasis>"
+"tty &lt;TTY_LEVEL&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Set the level of tty "
+"redirection, where &lt;TTY_LEVEL&gt; is a valid level of input/output to use)"
+"</emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -2284,17 +2254,17 @@ msgstr ""
 #: commands.docbook:747
 #, no-c-format
 msgid ""
-"1 = Terminal output of results of transformation, tracing and walking "
-"&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Default state when tty device has been "
-"opened. Not fully implemented yet.)</emphasis>"
+"1 = Terminal output of results of transformation, tracing and walking &nbsp;"
+"&nbsp;&nbsp;&nbsp;<emphasis>(Default state when tty device has been opened. "
+"Not fully implemented yet.)</emphasis>"
 msgstr ""
 
 #. Tag: para
 #: commands.docbook:748
 #, no-c-format
 msgid ""
-"2 = Full redirection to terminal&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Not implemented yet.)</emphasis>"
+"2 = Full redirection to terminal&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Not "
+"implemented yet.)</emphasis>"
 msgstr ""
 
 #. Tag: para
@@ -2349,10 +2319,9 @@ msgstr ""
 #: commands.docbook:773
 #, no-c-format
 msgid ""
-"walk &lt;SPEED&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>"
-"(Use Ctrl-c to stop execution, &lt;SPEED&gt; is a value between 0 and 9. "
-"Where "
-"0 means stop, 1 is very fast, 9 is very slow)</emphasis>"
+"walk &lt;SPEED&gt;&nbsp;&nbsp;&nbsp;&nbsp;<emphasis>(Use Ctrl-c to stop "
+"execution, &lt;SPEED&gt; is a value between 0 and 9. Where 0 means stop, 1 "
+"is very fast, 9 is very slow)</emphasis>"
 msgstr ""
 
 #. Tag: title
@@ -2434,4 +2403,3 @@ msgstr ""
 #, no-c-format
 msgid "writeconfig"
 msgstr ""
-

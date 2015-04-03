@@ -8,10 +8,10 @@ msgstr ""
 "PO-Revision-Date: 2015-03-26 03:08+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ast\n"
 "X-Generator: Lokalize 2.0\n"
 
 #. Tag: trans_comment
@@ -126,8 +126,9 @@ msgstr "Peter Grasch"
 #: index.docbook:50
 #, no-c-format
 msgid ""
-"<personname> <firstname>Peter</firstname> <othername>H.</othername> <surname>"
-"Grasch</surname> </personname> <email>peter.grasch@bedahr.org</email>"
+"<personname> <firstname>Peter</firstname> <othername>H.</othername> "
+"<surname>Grasch</surname> </personname> <email>peter.grasch@bedahr.org</"
+"email>"
 msgstr ""
 
 #. Tag: title
@@ -146,9 +147,9 @@ msgstr ""
 #: index.docbook:67
 #, no-c-format
 msgid ""
-"&kmyapplication; is a tool to create and test acoustic models. It can compile "
-"new speech models, use models created by Simon and produce models that can be "
-"used by Simon later on."
+"&kmyapplication; is a tool to create and test acoustic models. It can "
+"compile new speech models, use models created by Simon and produce models "
+"that can be used by Simon later on."
 msgstr ""
 
 #. Tag: para
@@ -157,9 +158,8 @@ msgstr ""
 msgid ""
 "It is targeted towards people wanting more control over their acoustic model "
 "and provides much lower level access to the build process. &kmyapplication; "
-"is "
-"mainly geared towards speech professionals wanting to improve and / or test "
-"their acoustic model."
+"is mainly geared towards speech professionals wanting to improve and / or "
+"test their acoustic model."
 msgstr ""
 
 #. Tag: para
@@ -203,17 +203,16 @@ msgstr ""
 msgid ""
 "The basic testing procedure is to run recognition on samples where the "
 "transcription is already known and comparing the results. &kmyapplication; "
-"also "
-"takes the confidence score of the recognition into account to measure how "
-"robust the created system is."
+"also takes the confidence score of the recognition into account to measure "
+"how robust the created system is."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:83
 #, no-c-format
 msgid ""
-"Due to the way acoustic models are created, both the recognition accuracy and "
-"confidence will be highly skewed when the same samples are used both for "
+"Due to the way acoustic models are created, both the recognition accuracy "
+"and confidence will be highly skewed when the same samples are used both for "
 "training and testing. This is called \"in corpus\" testing (the samples used "
 "for testing are also in your training corpus)."
 msgstr ""
@@ -224,10 +223,8 @@ msgstr ""
 msgid ""
 "While in corpus testing might tell you if the compilation process failed or "
 "produced sub par results it won't tell you the \"real\" recognition rate of "
-"the "
-"created model. Therefore it is recommended to do \"out of corpus\" testing: "
-"Use "
-"different samples for training and for testing."
+"the created model. Therefore it is recommended to do \"out of corpus\" "
+"testing: Use different samples for training and for testing."
 msgstr ""
 
 #. Tag: para
@@ -235,10 +232,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "For out of corpus testing simply split your prompts file in two parts: One "
-"used "
-"to compile the model and one to test the model. Of course the test set "
-"doesn't "
-"need to be very big to get a representative result."
+"used to compile the model and one to test the model. Of course the test set "
+"doesn't need to be very big to get a representative result."
 msgstr ""
 
 #. Tag: para
@@ -282,8 +277,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The order of the tabs represents a complete Sam workflow from creating a "
-"model "
-"to testing it."
+"model to testing it."
 msgstr ""
 
 #. Tag: title
@@ -297,8 +291,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Define what files to work on. You can save and load this configuration by "
-"using "
-"the <guibutton>Save</guibutton> and <guibutton>Load</guibutton> "
+"using the <guibutton>Save</guibutton> and <guibutton>Load</guibutton> "
 "buttons respectively."
 msgstr ""
 
@@ -306,19 +299,18 @@ msgstr ""
 #: index.docbook:122
 #, no-c-format
 msgid ""
-"The <guibutton>Save</guibutton> and <guibutton>Load</guibutton> menus <"
-"emphasis>"
-"only</emphasis> save the paths and options defined here. They don't save the "
-"associated files!"
+"The <guibutton>Save</guibutton> and <guibutton>Load</guibutton> menus "
+"<emphasis>only</emphasis> save the paths and options defined here. They "
+"don't save the associated files!"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:125
 #, no-c-format
 msgid ""
-"Here you also have the option to select between supported model compilation / "
-"test backends. Depending on your Simon installation, not all might be "
-"available."
+"Here you also have the option to select between supported model "
+"compilation / test backends. Depending on your Simon installation, not all "
+"might be available."
 msgstr ""
 
 #. Tag: screeninfo
@@ -347,14 +339,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When Simon compiles the model, it will automatically remove untrained words "
-"during serialization as well as adapting the prompts appropriately. This will "
-"also happen when selecting <guibutton>Modify Simon's model</guibutton>"
-". If you do, however serialize them separately using <guibutton>"
-"Serialize scenarios</guibutton> and <guibutton>Serialize prompts</guibutton> "
-"this adaption will not be performed and you alone are responsible for the "
+"during serialization as well as adapting the prompts appropriately. This "
+"will also happen when selecting <guibutton>Modify Simon's model</guibutton>. "
+"If you do, however serialize them separately using <guibutton>Serialize "
+"scenarios</guibutton> and <guibutton>Serialize prompts</guibutton> this "
+"adaption will not be performed and you alone are responsible for the "
 "validity of the input files. If you provide file names directly this of "
-"course "
-"applies even more so."
+"course applies even more so."
 msgstr ""
 
 #. Tag: para
@@ -371,8 +362,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kmyapplication; allows the user to provide different types of prompts files "
-"for the creation and the testing of the model. For more information about how "
-"to use this feature effectively, please refer to the section on <link "
+"for the creation and the testing of the model. For more information about "
+"how to use this feature effectively, please refer to the section on <link "
 "linkend=\"effective_testing\">effective testing</link>."
 msgstr ""
 
@@ -394,11 +385,9 @@ msgstr ""
 msgid ""
 "Users can set up an arbitrary number of test configurations to compare "
 "different model parameters. All configured tests will be run and all are "
-"listed "
-"in any reports that might be exported. Through the option of supplying "
-"different input files than the compiled model, reference models (baselines) "
-"can "
-"be included in the report."
+"listed in any reports that might be exported. Through the option of "
+"supplying different input files than the compiled model, reference models "
+"(baselines) can be included in the report."
 msgstr ""
 
 #. Tag: para
@@ -406,20 +395,17 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Since Simon 0.4, the primary file format for models is the newly introduced "
-"SBM "
-"format. While Sam will also create SBM models, the testing still requires low "
-"level input files. This may seem counter intuitive but presents certain "
-"advantages in practice: The Simon model compilation (and thus also the SAM "
-"model compilation) still builds the low level output files for both SPHINX "
-"and "
-"HTK model compilers before packaging them into SBMs so pointing SAM to these "
-"(temporary) files is not difficult and in fact the default when using "
-"<guibutton>Modify Simon's model</guibutton>. Because acoustic model "
-"compilation "
-"is typically an iterative process, the compiler typically produces multiple "
-"temporary versions of different stages of parameter estimation. By allowing "
-"low "
-"level input, testing and comparing these intermediate results is much easier."
+"SBM format. While Sam will also create SBM models, the testing still "
+"requires low level input files. This may seem counter intuitive but presents "
+"certain advantages in practice: The Simon model compilation (and thus also "
+"the SAM model compilation) still builds the low level output files for both "
+"SPHINX and HTK model compilers before packaging them into SBMs so pointing "
+"SAM to these (temporary) files is not difficult and in fact the default when "
+"using <guibutton>Modify Simon's model</guibutton>. Because acoustic model "
+"compilation is typically an iterative process, the compiler typically "
+"produces multiple temporary versions of different stages of parameter "
+"estimation. By allowing low level input, testing and comparing these "
+"intermediate results is much easier."
 msgstr ""
 
 #. Tag: para
@@ -427,9 +413,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you want to test a model you received as a SBM container, you can extract "
-"it "
-"with SAM through the <guibutton>Extract Simon Model</guibutton> "
-"option to gain access to the low level input files required for testing with "
+"it with SAM through the <guibutton>Extract Simon Model</guibutton> option to "
+"gain access to the low level input files required for testing with "
 "&kmyapplication;."
 msgstr ""
 
@@ -443,10 +428,10 @@ msgstr ""
 #: index.docbook:180
 #, no-c-format
 msgid ""
-"If you have <ulink url=\"help:/simond/using-kapp.html#User_Configuration\">"
-"configured Simond to keep recognition samples</ulink>"
-", Sam can import this data through the <guibutton>Import recognition "
-"samples</guibutton> option in the \"Input &amp; output\" section."
+"If you have <ulink url=\"help:/simond/using-kapp.html#User_Configuration"
+"\">configured Simond to keep recognition samples</ulink>, Sam can import "
+"this data through the <guibutton>Import recognition samples</guibutton> "
+"option in the \"Input &amp; output\" section."
 msgstr ""
 
 #. Tag: screeninfo
@@ -466,21 +451,19 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The label of the prompts file will be built automatically from the most "
-"likely "
-"recognition result. You can limit the selection to only include samples that "
-"achieved a given confidence score."
+"likely recognition result. You can limit the selection to only include "
+"samples that achieved a given confidence score."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:198
 #, no-c-format
 msgid ""
-"If the Simon setup you're importing the samples from uses a <ulink "
-"url=\"help:/simon/commands.html#filter_command_plugin\">"
-"global filter to deactivate recognition</ulink>, then you can provide Sam "
-"with "
-"the command that activates and deactivates this filter (pausing and resuming "
-"the recognition, respectively) to ignore any samples produced while the "
+"If the Simon setup you're importing the samples from uses a <ulink url="
+"\"help:/simon/commands.html#filter_command_plugin\">global filter to "
+"deactivate recognition</ulink>, then you can provide Sam with the command "
+"that activates and deactivates this filter (pausing and resuming the "
+"recognition, respectively) to ignore any samples produced while the "
 "recognition was deactivated."
 msgstr ""
 
@@ -496,8 +479,7 @@ msgstr ""
 msgid ""
 "Simon stores the language model in scenarios. When you want to use them to "
 "compile the model, you first need to serialize them to files readable by "
-"SPHINX "
-"or Julius and the HTK."
+"SPHINX or Julius and the HTK."
 msgstr ""
 
 #. Tag: screeninfo
@@ -516,10 +498,10 @@ msgstr ""
 #: index.docbook:220
 #, no-c-format
 msgid ""
-"To do this, select <guibutton>Serialize scenarios</guibutton> "
-"button in the <link linkend=\"input_output\">Input &amp; output tab</link>"
-". Simon's scenarios will also be serialized when using the <guibutton>"
-"Modify Simon's model</guibutton> options."
+"To do this, select <guibutton>Serialize scenarios</guibutton> button in the "
+"<link linkend=\"input_output\">Input &amp; output tab</link>. Simon's "
+"scenarios will also be serialized when using the <guibutton>Modify Simon's "
+"model</guibutton> options."
 msgstr ""
 
 #. Tag: para
@@ -527,8 +509,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In this page you can find status information of the adaption and read "
-"detailed "
-"error messages if an error occurs."
+"detailed error messages if an error occurs."
 msgstr ""
 
 #. Tag: title
@@ -550,11 +531,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The compilation process is identical to the one used by Simond. Unlike "
-"Simond, "
-"however, the full log of all called external programs, their output as well "
-"as "
-"progress information is shown regardless of whether the compilation was "
-"successful or not."
+"Simond, however, the full log of all called external programs, their output "
+"as well as progress information is shown regardless of whether the "
+"compilation was successful or not."
 msgstr ""
 
 #. Tag: screeninfo
@@ -593,9 +572,9 @@ msgstr ""
 #: index.docbook:252
 #, no-c-format
 msgid ""
-"&kmyapplication; will test the model set by in the <guilabel>"
-"Output files</guilabel> section in the <link linkend=\"input_output\">"
-"input &amp; output section</link>."
+"&kmyapplication; will test the model set by in the <guilabel>Output files</"
+"guilabel> section in the <link linkend=\"input_output\">input &amp; output "
+"section</link>."
 msgstr ""
 
 #. Tag: para
@@ -603,11 +582,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "During testing, the recognizer of the selected backend will run to recognize "
-"on "
-"the input files as set by the test prompts. Resulting word- and sentence "
-"errors "
-"will be counted as well as the overall robustness by analyzing confidence "
-"scores of the recognizer."
+"on the input files as set by the test prompts. Resulting word- and sentence "
+"errors will be counted as well as the overall robustness by analyzing "
+"confidence scores of the recognizer."
 msgstr ""
 
 #. Tag: para
@@ -615,9 +592,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The main test screen will show all started tests and report when they "
-"complete. "
-"The tests themselves will run threaded (at the same time). The amount of "
-"parallelism best suited for your machine is determined automatically."
+"complete. The tests themselves will run threaded (at the same time). The "
+"amount of parallelism best suited for your machine is determined "
+"automatically."
 msgstr ""
 
 #. Tag: screeninfo
@@ -636,8 +613,8 @@ msgstr ""
 #: index.docbook:272
 #, no-c-format
 msgid ""
-"As soon as all tests are finished, the <link linkend=\"test_results\">"
-"test results</link> will be displayed automatically."
+"As soon as all tests are finished, the <link linkend=\"test_results\">test "
+"results</link> will be displayed automatically."
 msgstr ""
 
 #. Tag: title
@@ -650,8 +627,8 @@ msgstr ""
 #: index.docbook:280
 #, no-c-format
 msgid ""
-"After a successful <link linkend=\"test\">model test</link> "
-"you can find a detailed report of the recognition accuracy here."
+"After a successful <link linkend=\"test\">model test</link> you can find a "
+"detailed report of the recognition accuracy here."
 msgstr ""
 
 #. Tag: title
@@ -674,8 +651,7 @@ msgstr ""
 msgid ""
 "A correctly recognized word or sentence will be scored with the confidence "
 "score the word achieved. If a word is recognized correctly but another, "
-"wrong, "
-"result is ranked higher, the accuracy of that recognition will be 0%."
+"wrong, result is ranked higher, the accuracy of that recognition will be 0%."
 msgstr ""
 
 #. Tag: para
@@ -683,11 +659,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The displayed overall recognition rate is the average of all confidence "
-"rates. "
-"The shown overall accuracy rating shows the average over all accuracy scores "
-"which represents the likelihood that given any word in any sentence, this "
-"word "
-"has been recognized correctly."
+"rates. The shown overall accuracy rating shows the average over all accuracy "
+"scores which represents the likelihood that given any word in any sentence, "
+"this word has been recognized correctly."
 msgstr ""
 
 #. Tag: title
@@ -720,9 +694,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you have samples containing more than one word they will be segmented "
-"during "
-"recognition. Each word will be scored individually (although the different "
-"words of course still influence each other)."
+"during recognition. Each word will be scored individually (although the "
+"different words of course still influence each other)."
 msgstr ""
 
 #. Tag: title
@@ -795,8 +768,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can sort the files by each column simply by clicking on the column "
-"header. "
-"This way it is very easy to find bad samples by sorting by recognition rate."
+"header. This way it is very easy to find bad samples by sorting by "
+"recognition rate."
 msgstr ""
 
 #. Tag: title
@@ -839,8 +812,8 @@ msgstr ""
 #: index.docbook:386
 #, no-c-format
 msgid ""
-"The export of a report can be started by selecting <guibutton>"
-"Export test result</guibutton> in the &kmyapplication; main window."
+"The export of a report can be started by selecting <guibutton>Export test "
+"result</guibutton> in the &kmyapplication; main window."
 msgstr ""
 
 #. Tag: title
@@ -862,9 +835,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Three templates of LaTeX templates, two German and one English one, are "
-"shipped "
-"with &kmyapplication; but adding new ones is easy. Just install new templates "
-"to one of the following locations depending on your operating system:"
+"shipped with &kmyapplication; but adding new ones is easy. Just install new "
+"templates to one of the following locations depending on your operating "
+"system:"
 msgstr ""
 
 #. Tag: para
@@ -877,16 +850,16 @@ msgstr ""
 #: index.docbook:396
 #, no-c-format
 msgid ""
-"Windows: "
-"<filename>%appdata%\\.kde\\share\\apps\\sam\\reports\\templates</filename>"
+"Windows: <filename>%appdata%\\.kde\\share\\apps\\sam\\reports\\templates</"
+"filename>"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:400
 #, no-c-format
 msgid ""
-"The existing templates can be used as references. They are to be found at the "
-"following path:"
+"The existing templates can be used as references. They are to be found at "
+"the following path:"
 msgstr ""
 
 #. Tag: para
@@ -899,8 +872,8 @@ msgstr ""
 #: index.docbook:405
 #, no-c-format
 msgid ""
-"Windows: <filename>&lt;installation "
-"path&gt;\\share\\apps\\sam\\reports\\templates</filename>"
+"Windows: <filename>&lt;installation path&gt;\\share\\apps\\sam\\reports"
+"\\templates</filename>"
 msgstr ""
 
 #. Tag: title
@@ -914,8 +887,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The reporting engine allows the input of meta information about the used "
-"input "
-"data as well as the test conditions, speakers, etc."
+"input data as well as the test conditions, speakers, etc."
 msgstr ""
 
 #. Tag: screeninfo
@@ -935,9 +907,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This information can be entered directly through the graphical user "
-"interface. "
-"Depending on the used template, not all provided information might be used by "
-"the exported report."
+"interface. Depending on the used template, not all provided information "
+"might be used by the exported report."
 msgstr ""
 
 #. Tag: screeninfo
@@ -957,8 +928,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Information entered in the dialog will also be saved with your "
-"&kmyapplication; "
-"project file."
+"&kmyapplication; project file."
 msgstr ""
 
 #. Tag: screeninfo
@@ -978,8 +948,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Some meta information, like the amount of samples in your test- and training "
-"corpus and the system information can be either filled in by &kmyapplication; "
-"automatically or provided manually."
+"corpus and the system information can be either filled in by "
+"&kmyapplication; automatically or provided manually."
 msgstr ""
 
 #. Tag: title
@@ -1028,8 +998,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kmyapplication; provides command line arguments for the most common actions "
-"to "
-"automatize model creation and testing."
+"to automatize model creation and testing."
 msgstr ""
 
 #. Tag: para
@@ -1037,10 +1006,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "All actions provided as command line arguments will be taken immediately "
-"after "
-"&kmyapplication; has loaded. Options that build on one another (like "
-"compiling "
-"and testing) will be re-ordered automatically."
+"after &kmyapplication; has loaded. Options that build on one another (like "
+"compiling and testing) will be re-ordered automatically."
 msgstr ""
 
 #. Tag: entry
@@ -1080,8 +1047,8 @@ msgstr ""
 #: index.docbook:517
 #, no-c-format
 msgid ""
-"Retrieves all paths from Simon; (equivalent to <guibutton>"
-"Modify Simon's model</guibutton>)"
+"Retrieves all paths from Simon; (equivalent to <guibutton>Modify Simon's "
+"model</guibutton>)"
 msgstr ""
 
 #. Tag: parameter
@@ -1183,10 +1150,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In an effort to keep this section always up-to-date it is available at our "
-"<ulink "
-"url=\"http://userbase.kde.org/Special:myLanguage/Simon/Troubleshooting_Guide\""
-">"
-"online wiki</ulink>."
+"<ulink url=\"http://userbase.kde.org/Special:myLanguage/Simon/"
+"Troubleshooting_Guide\">online wiki</ulink>."
 msgstr ""
 
 #. Tag: title
@@ -1205,16 +1170,16 @@ msgstr ""
 #: index.docbook:571
 #, no-c-format
 msgid ""
-"Program copyright 2008-2010 Peter Grasch <email>peter.grasch@bedahr.org<"
-"/email>"
+"Program copyright 2008-2010 Peter Grasch <email>peter.grasch@bedahr.org</"
+"email>"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:575
 #, no-c-format
 msgid ""
-"Documentation Copyright &copy; 2009-2010 Peter Grasch <email>"
-"peter.grasch@bedahr.org</email>"
+"Documentation Copyright &copy; 2009-2010 Peter Grasch <email>peter."
+"grasch@bedahr.org</email>"
 msgstr ""
 
 #. Tag: trans_comment
@@ -1239,8 +1204,6 @@ msgstr ""
 #: index.docbook:589
 #, no-c-format
 msgid ""
-"Please see our <ulink "
-"url=\"http://userbase.kde.org/Special:myLanguage/Simon/Installation\">"
-"wiki</ulink> for installation instructions."
+"Please see our <ulink url=\"http://userbase.kde.org/Special:myLanguage/Simon/"
+"Installation\">wiki</ulink> for installation instructions."
 msgstr ""
-

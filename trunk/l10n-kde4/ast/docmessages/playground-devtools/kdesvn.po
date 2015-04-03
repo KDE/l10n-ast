@@ -8,10 +8,10 @@ msgstr ""
 "PO-Revision-Date: 2015-03-27 02:00+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ast\n"
 "X-Generator: Lokalize 2.0\n"
 
 #. Tag: title
@@ -96,8 +96,8 @@ msgstr ""
 #: index.docbook:98
 #, no-c-format
 msgid ""
-"&kdesvn; is a <ulink url=\"http://subversion.tigris.org/\">"
-"subversion client</ulink> for &kde;."
+"&kdesvn; is a <ulink url=\"http://subversion.tigris.org/\">subversion "
+"client</ulink> for &kde;."
 msgstr ""
 
 #. Tag: para
@@ -112,8 +112,8 @@ msgstr ""
 #: index.docbook:103
 #, no-c-format
 msgid ""
-"You may send bug reports and feature wishes via <ulink "
-"url=\"https://bugs.kde.org/\">&kde; Bugtracking System</ulink>."
+"You may send bug reports and feature wishes via <ulink url=\"https://bugs."
+"kde.org/\">&kde; Bugtracking System</ulink>."
 msgstr ""
 
 #. Tag: title
@@ -142,8 +142,7 @@ msgstr ""
 msgid ""
 "Central store of data. That may be a database or a flat filesystem. Without "
 "special clients you're not able to read data in it. For Subversion "
-"repositories "
-"&kdesvn; is such a client."
+"repositories &kdesvn; is such a client."
 msgstr ""
 
 #. Tag: term
@@ -156,9 +155,9 @@ msgstr ""
 #: index.docbook:123
 #, no-c-format
 msgid ""
-"A flat copy of a repository on local filesystem. This is used like any normal "
-"filemanager, editing files and so forth. RCS-information you can read with "
-"clients like &kdesvn;."
+"A flat copy of a repository on local filesystem. This is used like any "
+"normal filemanager, editing files and so forth. RCS-information you can read "
+"with clients like &kdesvn;."
 msgstr ""
 
 #. Tag: para
@@ -167,8 +166,7 @@ msgstr ""
 msgid ""
 "Remember that subversion does not know anything about KIO, so a working copy "
 "must reside in an area where it may reached without any specific protocol, "
-"&eg; "
-"<quote>fish://</quote> or such is not possible."
+"&eg; <quote>fish://</quote> or such is not possible."
 msgstr ""
 
 #. Tag: term
@@ -184,11 +182,10 @@ msgid ""
 "WebDav is a protocol which let you modify files on a remote webserver. "
 "Subversion is a special kind of WebDAV when repositories are accessed via "
 "webserver. In normal use this is read-only. With special configurations you "
-"may "
-"get a read-write enabled WebDAV which you may access via specialized browser. "
-"&kdesvn; is NOT a webdav-client, but &konqueror; is via the <quote>"
-"webdav://</quote> protocol. But with &kdesvn; you may browse through the "
-"version tree of a repository (via <quote>http://</quote>)"
+"may get a read-write enabled WebDAV which you may access via specialized "
+"browser. &kdesvn; is NOT a webdav-client, but &konqueror; is via the "
+"<quote>webdav://</quote> protocol. But with &kdesvn; you may browse through "
+"the version tree of a repository (via <quote>http://</quote>)"
 msgstr ""
 
 #. Tag: title
@@ -297,8 +294,8 @@ msgstr ""
 #: index.docbook:198
 #, no-c-format
 msgid ""
-"Subversion over ssh. See <link linkend=\"faq\">FAQ</link> "
-"for details about some specials with that protocol."
+"Subversion over ssh. See <link linkend=\"faq\">FAQ</link> for details about "
+"some specials with that protocol."
 msgstr ""
 
 #. Tag: term
@@ -312,19 +309,17 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Direct repository access. &kdesvn; checks if a given path is a repository or "
-"a "
-"working copy and opens it in the right mode. For subversion <filename "
-"class=\"directory\">file:///dir</filename> and <filename class=\"directory\">"
-"/dir</filename> is not the same!"
+"a working copy and opens it in the right mode. For subversion <filename "
+"class=\"directory\">file:///dir</filename> and <filename class=\"directory"
+"\">/dir</filename> is not the same!"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:212
 #, no-c-format
 msgid ""
-"This list may be used for &URL;s given for <link "
-"linkend=\"kdesvn-commandline\">"
-"command line</link>, too."
+"This list may be used for &URL;s given for <link linkend=\"kdesvn-commandline"
+"\">command line</link>, too."
 msgstr ""
 
 #. Tag: title
@@ -338,8 +333,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This section is mostly for beginners not familiar with subversion and "
-"explains "
-"how subversion and/or revision control systems (<acronym>RCS</acronym>) works."
+"explains how subversion and/or revision control systems (<acronym>RCS</"
+"acronym>) works."
 msgstr ""
 
 #. Tag: title
@@ -353,11 +348,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Working copies MUST be accessible via local paths. Subversion does not know "
-"anything about pseudo file systems like <filename class=\"directory\">"
-"smb://</filename> or <filename class=\"directory\">fish://</filename>"
-". &kdesvn; translates some of them if possible (like <filename "
-"class=\"directory\">system:/home</filename>) but it is not possible over a "
-"network."
+"anything about pseudo file systems like <filename class=\"directory\">smb://"
+"</filename> or <filename class=\"directory\">fish://</filename>. &kdesvn; "
+"translates some of them if possible (like <filename class=\"directory"
+"\">system:/home</filename>) but it is not possible over a network."
 msgstr ""
 
 #. Tag: para
@@ -365,14 +359,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "First of all you must create a working copy of your repository. For that "
-"select "
-"<menuchoice> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
-"<guimenuitem>Checkout a repository</guimenuitem> </menuchoice>"
-". Inside the following dialog you must select the &URL; of the repository you "
-"want to use, &eg;, something like "
-"<literal>http://localhost/repos/myproject</literal>. Subfolders of a "
-"repository "
-"are possible, too, &eg;, "
+"select <menuchoice> <guimenu>Subversion</guimenu> <guisubmenu>General</"
+"guisubmenu> <guimenuitem>Checkout a repository</guimenuitem> </menuchoice>. "
+"Inside the following dialog you must select the &URL; of the repository you "
+"want to use, &eg;, something like <literal>http://localhost/repos/myproject</"
+"literal>. Subfolders of a repository are possible, too, &eg;, "
 "<literal>http://localhost/repos/myproject/trunk</literal> or similar."
 msgstr ""
 
@@ -387,9 +378,9 @@ msgstr ""
 #: index.docbook:244
 #, no-c-format
 msgid ""
-"Last but not least, the revision to checkout. Mostly that should be <quote>"
-"HEAD</quote>. This ensures that the last stored version is the referenced "
-"version."
+"Last but not least, the revision to checkout. Mostly that should be "
+"<quote>HEAD</quote>. This ensures that the last stored version is the "
+"referenced version."
 msgstr ""
 
 #. Tag: para
@@ -404,11 +395,11 @@ msgstr ""
 #: index.docbook:251
 #, no-c-format
 msgid ""
-"When you have opened a repository for browsing you may mark a folder and than "
-"select <menuchoice> <guimenu>Subversion</guimenu> <guisubmenu>"
-"Repository</guisubmenu> <guimenuitem>Checkout current repository "
-"path</guimenuitem> </menuchoice> and fill out the dialogs as described above. "
-"Then only the marked path will checked out."
+"When you have opened a repository for browsing you may mark a folder and "
+"than select <menuchoice> <guimenu>Subversion</guimenu> "
+"<guisubmenu>Repository</guisubmenu> <guimenuitem>Checkout current repository "
+"path</guimenuitem> </menuchoice> and fill out the dialogs as described "
+"above. Then only the marked path will checked out."
 msgstr ""
 
 #. Tag: title
@@ -421,10 +412,10 @@ msgstr ""
 #: index.docbook:263
 #, no-c-format
 msgid ""
-"Mark the entry or entries you want to send and select <menuchoice> <shortcut> "
-"<keycombo action=\"simul\">&Ctrl;<keycap>#</keycap></keycombo> </shortcut> "
-"<guimenu>Subversion</guimenu> <guisubmenu>Working copy</guisubmenu> "
-"<guimenuitem>Commit</guimenuitem> </menuchoice>"
+"Mark the entry or entries you want to send and select <menuchoice> "
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>#</keycap></keycombo> </"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>Working copy</"
+"guisubmenu> <guimenuitem>Commit</guimenuitem> </menuchoice>"
 msgstr ""
 
 #. Tag: para
@@ -432,8 +423,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you try to commit if no item is selected, &kdesvn; uses the top-most "
-"element "
-"of opened working copy, &ie;, the working copy path itself."
+"element of opened working copy, &ie;, the working copy path itself."
 msgstr ""
 
 #. Tag: para
@@ -442,13 +432,11 @@ msgstr ""
 msgid ""
 "This operation is always recursive, means, if selecting a folder &kdesvn; "
 "always send all changed items below it. When you setup that you want to "
-"review "
-"all items before commit inside the following dialog all items &kdesvn; would "
-"send are listed. There you may unmark items you don't want to send. In that "
-"case &kdesvn; sends all items alone, &ie;, not recursive. Or you may select "
-"items not versioned for add and commit (if them are not marked to be "
-"ignored). "
-"So you may see if there are newer items you forgot."
+"review all items before commit inside the following dialog all items "
+"&kdesvn; would send are listed. There you may unmark items you don't want to "
+"send. In that case &kdesvn; sends all items alone, &ie;, not recursive. Or "
+"you may select items not versioned for add and commit (if them are not "
+"marked to be ignored). So you may see if there are newer items you forgot."
 msgstr ""
 
 #. Tag: para
@@ -469,11 +457,11 @@ msgstr ""
 #: index.docbook:286
 #, no-c-format
 msgid ""
-"This brings you local working copy in sync with the repository. You may setup "
-"that &kdesvn; checks on opening a working copy for newer/modified items in "
-"repository. This runs in background and you may work meanwhile with &kdesvn;. "
-"When this is finished, items with newer versions or folders with items where "
-"newer items are below are marked."
+"This brings you local working copy in sync with the repository. You may "
+"setup that &kdesvn; checks on opening a working copy for newer/modified "
+"items in repository. This runs in background and you may work meanwhile with "
+"&kdesvn;. When this is finished, items with newer versions or folders with "
+"items where newer items are below are marked."
 msgstr ""
 
 #. Tag: para
@@ -481,12 +469,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To retrieve the changes, select <menuchoice> <guimenu>Subversion</guimenu> "
-"<guisubmenu>Working copy</guisubmenu> <guimenuitem>Update to head<"
-"/guimenuitem> "
-"</menuchoice>. This will update to the most latest version. If you want to "
-"get "
-"a specific revision select <menuchoice> <guimenu>Subversion</guimenu> "
-"<guisubmenu>Working copy</guisubmenu> <guimenuitem>Update to "
+"<guisubmenu>Working copy</guisubmenu> <guimenuitem>Update to head</"
+"guimenuitem> </menuchoice>. This will update to the most latest version. If "
+"you want to get a specific revision select <menuchoice> <guimenu>Subversion</"
+"guimenu> <guisubmenu>Working copy</guisubmenu> <guimenuitem>Update to "
 "revision</guimenuitem> </menuchoice> and select the revision you want in the "
 "following box."
 msgstr ""
@@ -536,18 +522,14 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Copy with &konqueror; or any other tool into working copy area. Go trough "
-"list, "
-"mark them and select <menuchoice> <shortcut><keycombo action=\"simul\"><"
-"keycap>"
-"Insert</keycap></keycombo></shortcut> <guimenu>Subversion</guimenu> <"
-"guisubmenu>"
-"Working copy</guisubmenu> <guimenuitem>Add selected files/dirs</guimenuitem> "
-"</menuchoice>. When you want adding new folders with all subitems select "
-"<menuchoice> <shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Insert<"
-"/keycap>"
-"</keycombo></shortcut> <guimenu>Subversion</guimenu> <guisubmenu>"
-"Working copy</guisubmenu> <guimenuitem>Add selected files/dirs "
-"recursive</guimenuitem> </menuchoice>."
+"list, mark them and select <menuchoice> <shortcut><keycombo action=\"simul"
+"\"><keycap>Insert</keycap></keycombo></shortcut> <guimenu>Subversion</"
+"guimenu> <guisubmenu>Working copy</guisubmenu> <guimenuitem>Add selected "
+"files/dirs</guimenuitem> </menuchoice>. When you want adding new folders "
+"with all subitems select <menuchoice> <shortcut><keycombo action=\"simul"
+"\">&Ctrl;<keycap>Insert</keycap></keycombo></shortcut> <guimenu>Subversion</"
+"guimenu> <guisubmenu>Working copy</guisubmenu> <guimenuitem>Add selected "
+"files/dirs recursive</guimenuitem> </menuchoice>."
 msgstr ""
 
 #. Tag: term
@@ -560,14 +542,12 @@ msgstr ""
 #: index.docbook:338
 #, no-c-format
 msgid ""
-"You may check if there are somewhere in working copy unversioned items. After "
-"selecting <menuchoice> <guimenu>Subversion</guimenu> <guisubmenu>"
-"Working copy</guisubmenu> <guimenuitem>Check for unversioned items<"
-"/guimenuitem> "
-"</menuchoice> a dialog appears where all not versioned items are listed. "
-"Hitting <guibutton>OK</guibutton> adds all marked items to working copy, "
-"items "
-"you don't want versioned you should unmark before."
+"You may check if there are somewhere in working copy unversioned items. "
+"After selecting <menuchoice> <guimenu>Subversion</guimenu> "
+"<guisubmenu>Working copy</guisubmenu> <guimenuitem>Check for unversioned "
+"items</guimenuitem> </menuchoice> a dialog appears where all not versioned "
+"items are listed. Hitting <guibutton>OK</guibutton> adds all marked items to "
+"working copy, items you don't want versioned you should unmark before."
 msgstr ""
 
 #. Tag: term
@@ -581,9 +561,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Mark in &konqueror; or any other compatible file browser items you want to "
-"add "
-"and drag them to &kdesvn;. You may drop them on folders inside the opened "
-"working copy and then &kdesvn; copy the dropped items to it and add the items."
+"add and drag them to &kdesvn;. You may drop them on folders inside the "
+"opened working copy and then &kdesvn; copy the dropped items to it and add "
+"the items."
 msgstr ""
 
 #. Tag: title
@@ -596,11 +576,11 @@ msgstr ""
 #: index.docbook:358
 #, no-c-format
 msgid ""
-"Deleting items is always recursive. For example, when you delete a folder all "
-"subitems will be deleted, too. Mark what you want and select <menuchoice> "
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Delete selected files/dirs</guimenuitem> </menuchoice> "
-"menu item. Items will be unversioned and removed from disk."
+"Deleting items is always recursive. For example, when you delete a folder "
+"all subitems will be deleted, too. Mark what you want and select "
+"<menuchoice> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Delete selected files/dirs</guimenuitem> </menuchoice> menu "
+"item. Items will be unversioned and removed from disk."
 msgstr ""
 
 #. Tag: title
@@ -613,12 +593,11 @@ msgstr ""
 #: index.docbook:371
 #, no-c-format
 msgid ""
-"The log display may start with <keycombo action=\"simul\">&Ctrl;<keycap>"
-"L</keycap></keycombo> when one or none item is marked in overview. Depending "
-"on "
-"your settings (see <xref linkend=\"subversion-settings\" "
-"xreflabel=\"settings\"/>) &kdesvn; retrieves some log entries beginning on "
-"<quote>HEAD</quote> and displays them."
+"The log display may start with <keycombo action=\"simul\">&Ctrl;<keycap>L</"
+"keycap></keycombo> when one or none item is marked in overview. Depending on "
+"your settings (see <xref linkend=\"subversion-settings\" xreflabel=\"settings"
+"\"/>) &kdesvn; retrieves some log entries beginning on <quote>HEAD</quote> "
+"and displays them."
 msgstr ""
 
 #. Tag: title
@@ -649,8 +628,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This range is called without any pre-limit so you have to think about "
-"yourself "
-"on large repositories."
+"yourself on large repositories."
 msgstr ""
 
 #. Tag: para
@@ -658,10 +636,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The buttons below displays always work on item selected for log, not on item "
-"selected in list of changed files. So when you select <guibutton>"
-"Diff previous</guibutton> there it makes the diff over all changed items in "
-"this revision if them are equivalent or below the subversion entry selected "
-"for "
+"selected in list of changed files. So when you select <guibutton>Diff "
+"previous</guibutton> there it makes the diff over all changed items in this "
+"revision if them are equivalent or below the subversion entry selected for "
 "retrieving logs before. Same for <guibutton>Diff revisions</guibutton>."
 msgstr ""
 
@@ -669,20 +646,20 @@ msgstr ""
 #: index.docbook:392
 #, no-c-format
 msgid ""
-"<guibutton>Annotate</guibutton> of course works only if item to log is a file."
+"<guibutton>Annotate</guibutton> of course works only if item to log is a "
+"file."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:395
 #, no-c-format
 msgid ""
-"On all list entries (both lists) you have context menu enabled for some extra "
-"operations. In left list this is <guimenuitem>Set version as left side of "
-"diff</guimenuitem> (&ie; beginning revision) and <guimenuitem>"
-"Set version as right side of diff</guimenuitem> (&ie; end or target of diff, "
-"in "
-"unified the part marked with a <computeroutput>+++</computeroutput>"
-"). If you selected these revisions them are marked with some small arrows."
+"On all list entries (both lists) you have context menu enabled for some "
+"extra operations. In left list this is <guimenuitem>Set version as left side "
+"of diff</guimenuitem> (&ie; beginning revision) and <guimenuitem>Set version "
+"as right side of diff</guimenuitem> (&ie; end or target of diff, in unified "
+"the part marked with a <computeroutput>+++</computeroutput>). If you "
+"selected these revisions them are marked with some small arrows."
 msgstr ""
 
 #. Tag: title
@@ -696,15 +673,14 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Simple repository browsing may be done within &konqueror;, &dolphin; or "
-"similar "
-"file browsers: Open a URL with protocol described in <xref "
-"linkend=\"kdesvn-features\" xreflabel=\"Features\"/> "
-"(the variants starting with <quote>k</quote>) and them will display the "
-"content. So simple operations like copy, move and delete may work. When "
-"appending a query <quote>?rev=<replaceable>xxx</replaceable></quote> "
-"the listing comes from a specific revision. Format of revision-query is "
-"described in <xref linkend=\"revision-syntax\"/>, some more information about "
-"KIO::ksvn are in <xref linkend=\"kdesvn-kio\"/>"
+"similar file browsers: Open a URL with protocol described in <xref linkend="
+"\"kdesvn-features\" xreflabel=\"Features\"/> (the variants starting with "
+"<quote>k</quote>) and them will display the content. So simple operations "
+"like copy, move and delete may work. When appending a query <quote>?"
+"rev=<replaceable>xxx</replaceable></quote> the listing comes from a specific "
+"revision. Format of revision-query is described in <xref linkend=\"revision-"
+"syntax\"/>, some more information about KIO::ksvn are in <xref linkend="
+"\"kdesvn-kio\"/>"
 msgstr ""
 
 #. Tag: para
@@ -712,8 +688,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "All work except <guimenuitem>Copy</guimenuitem> may only done when browsing "
-"at "
-"revision HEAD."
+"at revision HEAD."
 msgstr ""
 
 #. Tag: title
@@ -726,21 +701,20 @@ msgstr ""
 #: index.docbook:412
 #, no-c-format
 msgid ""
-"In subversion restoring deleted items is a copy operation of item at specific "
-"revision. So when you plan restoring view repository at revision before item "
-"was deleted. Select <menuchoice> <guimenu>Subversion</guimenu> <guisubmenu>"
-"Repository</guisubmenu> <guimenuitem>Select browse revision</guimenuitem> "
-"</menuchoice> and enter the wanted revision. Now &kdesvn; displays the "
-"content "
-"at this term. Mark the entry you want to restore, select <menuchoice> <"
-"shortcut> "
-"<keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo> </shortcut> "
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Copy</guimenuitem> </menuchoice>. Inside the following dialog the target is "
-"always at HEAD revision, the source is at revision you selected for browsing. "
-"Fill in the path and click <guibutton>OK</guibutton> "
-"and copy starts. After successful copy switch browsing back to HEAD revision "
-"and the restored item should appear."
+"In subversion restoring deleted items is a copy operation of item at "
+"specific revision. So when you plan restoring view repository at revision "
+"before item was deleted. Select <menuchoice> <guimenu>Subversion</guimenu> "
+"<guisubmenu>Repository</guisubmenu> <guimenuitem>Select browse revision</"
+"guimenuitem> </menuchoice> and enter the wanted revision. Now &kdesvn; "
+"displays the content at this term. Mark the entry you want to restore, "
+"select <menuchoice> <shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>C</"
+"keycap></keycombo> </shortcut> <guimenu>Subversion</guimenu> "
+"<guisubmenu>General</guisubmenu> <guimenuitem>Copy</guimenuitem> </"
+"menuchoice>. Inside the following dialog the target is always at HEAD "
+"revision, the source is at revision you selected for browsing. Fill in the "
+"path and click <guibutton>OK</guibutton> and copy starts. After successful "
+"copy switch browsing back to HEAD revision and the restored item should "
+"appear."
 msgstr ""
 
 #. Tag: title
@@ -767,8 +741,8 @@ msgstr ""
 #: index.docbook:437
 #, no-c-format
 msgid ""
-"Mark in any compatible file manager the folder you want to import and drag it "
-"to the folder entry in &kdesvn; where you want to import it."
+"Mark in any compatible file manager the folder you want to import and drag "
+"it to the folder entry in &kdesvn; where you want to import it."
 msgstr ""
 
 #. Tag: title
@@ -781,11 +755,10 @@ msgstr ""
 #: index.docbook:443
 #, no-c-format
 msgid ""
-"Mark the folder where you want to import a new folder. Then select <"
-"menuchoice> "
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Import folders into current</guimenuitem> </menuchoice> "
-"and select your wanted folder."
+"Mark the folder where you want to import a new folder. Then select "
+"<menuchoice> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Import folders into current</guimenuitem> </menuchoice> and "
+"select your wanted folder."
 msgstr ""
 
 #. Tag: title
@@ -807,14 +780,13 @@ msgid ""
 "Open repository or working copy, mark item you want to merge and select "
 "<menuchoice> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
 "<guisubmenu>Merge</guisubmenu> </menuchoice>. Enter in the following dialog "
-"the "
-"values wanted. If opened from repository, source 1 and source 2 are filled, "
-"when open from within working copy, target is filled with current selected "
-"item. The handling of this parameter is a little bit different between using "
-"the internal diff of subversion or an external merge-program like &kdiff3;. "
-"The "
-"target must ALWAYS a local folder or file. You may switch between external or "
-"internal merge with the check box <guilabel>Use external merge</guilabel>."
+"the values wanted. If opened from repository, source 1 and source 2 are "
+"filled, when open from within working copy, target is filled with current "
+"selected item. The handling of this parameter is a little bit different "
+"between using the internal diff of subversion or an external merge-program "
+"like &kdiff3;. The target must ALWAYS a local folder or file. You may switch "
+"between external or internal merge with the check box <guilabel>Use external "
+"merge</guilabel>."
 msgstr ""
 
 #. Tag: title
@@ -830,9 +802,8 @@ msgid ""
 "The meaning is exactly like from within subversion's own command line tool. "
 "When source1 and source2 are equal, start and endrevision must different. If "
 "sources aren't equal, start-revision is assigned to source1 and end-revision "
-"to "
-"source2. The target MUST be a working copy otherwise subversion will send an "
-"error message."
+"to source2. The target MUST be a working copy otherwise subversion will send "
+"an error message."
 msgstr ""
 
 #. Tag: para
@@ -878,8 +849,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If not set and merge would require deletion of an modified or unversioned "
-"item "
-"the subversion merge fails. Otherwise this items will be deleted."
+"item the subversion merge fails. Otherwise this items will be deleted."
 msgstr ""
 
 #. Tag: term
@@ -893,8 +863,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If set, subversion sends only notifications what it would do but doesn't "
-"modify "
-"the working copy."
+"modify the working copy."
 msgstr ""
 
 #. Tag: title
@@ -919,8 +888,7 @@ msgid ""
 "Assign start-revision as revision to source 1 and end-revision to source 2. "
 "Then checks if them are different (path and/or revision). If yes, it is a "
 "three-way merge otherwise a simple merge from source to target. If source 2 "
-"is "
-"left empty it is a simple merge, too."
+"is left empty it is a simple merge, too."
 msgstr ""
 
 #. Tag: para
@@ -928,10 +896,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Make an export into temporary folder. If it is a simple merge only source 1 "
-"at "
-"start-revision, otherwise both sources with their revisions. If item is a "
-"file "
-"and not a folder then get the content at a specific revision."
+"at start-revision, otherwise both sources with their revisions. If item is a "
+"file and not a folder then get the content at a specific revision."
 msgstr ""
 
 #. Tag: para
@@ -940,8 +906,8 @@ msgstr ""
 msgid ""
 "Generate the call to your external merge program as you setup in <link "
 "linkend=\"diffmerge-settings\">Settings</link>. The error output will "
-"displayed "
-"in log window so you may see what is going wrong (if something is gone wrong)."
+"displayed in log window so you may see what is going wrong (if something is "
+"gone wrong)."
 msgstr ""
 
 #. Tag: para
@@ -949,8 +915,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In difference to internal merge target may a flat folder/file not under "
-"version "
-"control because external tools do not care about it."
+"version control because external tools do not care about it."
 msgstr ""
 
 #. Tag: para
@@ -958,8 +923,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If recursive is not set, the export is done as a flat export. Be care: when "
-"doing this with working copies externals will <emphasis>not</emphasis> "
-"be exported."
+"doing this with working copies externals will <emphasis>not</emphasis> be "
+"exported."
 msgstr ""
 
 #. Tag: title
@@ -973,27 +938,24 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kdesvn; itself hasn't a module for resolving conflicts but you may use "
-"external software from within &kdesvn;. In <xref "
-"linkend=\"extern-resolve-setup\"/> is a description how to setup up this "
-"application."
+"external software from within &kdesvn;. In <xref linkend=\"extern-resolve-"
+"setup\"/> is a description how to setup up this application."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:543
 #, no-c-format
 msgid ""
-"When marking an item with status set to <quote>conflicted</quote> "
-"(you'll see a red cross in listview on such items) you may select <menuchoice>"
-" "
-"<guimenu>Subversion</guimenu> <guisubmenu>Working copy</guisubmenu> <"
-"guisubmenu>"
-"Resolve conflict</guisubmenu> </menuchoice>. or from within context menu "
-"<guimenuitem>Resolve conflict</guimenuitem> (only on conflicted items) "
-"&kdesvn; "
-"now starts the program you setup (or the default one). After finish this job "
-"you should mark item as resolved (<menuchoice><guimenu>Subversion</guimenu>"
-"<guisubmenu>Working copy</guisubmenu><guisubmenu>Mark resolved</guisubmenu>"
-"</menuchoice>) otherwise you will not able to commit your changes."
+"When marking an item with status set to <quote>conflicted</quote> (you'll "
+"see a red cross in listview on such items) you may select <menuchoice> "
+"<guimenu>Subversion</guimenu> <guisubmenu>Working copy</guisubmenu> "
+"<guisubmenu>Resolve conflict</guisubmenu> </menuchoice>. or from within "
+"context menu <guimenuitem>Resolve conflict</guimenuitem> (only on conflicted "
+"items) &kdesvn; now starts the program you setup (or the default one). After "
+"finish this job you should mark item as resolved "
+"(<menuchoice><guimenu>Subversion</guimenu><guisubmenu>Working copy</"
+"guisubmenu><guisubmenu>Mark resolved</guisubmenu></menuchoice>) otherwise "
+"you will not able to commit your changes."
 msgstr ""
 
 #. Tag: title
@@ -1012,13 +974,12 @@ msgstr ""
 #: index.docbook:562
 #, no-c-format
 msgid ""
-"The <ulink url=\"http://tortoisesvn.tigris.org/\">TortoiseSVN project</ulink> "
-"designed a nice property system <ulink "
-"url=\"http://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-dug-bugtracker.h"
-"tm"
-"l\"> for integrating bugtracker</ulink> into subversion GUI. The current "
-"version of &kdesvn; does not support extra fields in commit box (will follow "
-"later) and doesn't understand all but following properties:"
+"The <ulink url=\"http://tortoisesvn.tigris.org/\">TortoiseSVN project</"
+"ulink> designed a nice property system <ulink url=\"http://tortoisesvn.net/"
+"docs/release/TortoiseSVN_en/tsvn-dug-bugtracker.html\"> for integrating "
+"bugtracker</ulink> into subversion GUI. The current version of &kdesvn; does "
+"not support extra fields in commit box (will follow later) and doesn't "
+"understand all but following properties:"
 msgstr ""
 
 #. Tag: title
@@ -1055,9 +1016,8 @@ msgstr ""
 #: index.docbook:581
 #, no-c-format
 msgid ""
-"Holds the &URL; to bugtracker. It has to contain the <literal>%BUGID%<"
-"/literal> "
-"marker."
+"Holds the &URL; to bugtracker. It has to contain the <literal>%BUGID%</"
+"literal> marker."
 msgstr ""
 
 #. Tag: entry
@@ -1085,11 +1045,9 @@ msgid ""
 "If only one expression is set, then the bare bug ID's must be matched in the "
 "groups of the regex string. If two expressions are set, then the first "
 "expression is used to find a string which relates to the bug ID but may "
-"contain "
-"more than just the bug ID (&eg; <quote>Issue #123</quote> or <quote>"
-"resolves issue 123</quote>). The second expression is then used to extract "
-"the "
-"bare bug ID from the string extracted with the first expression."
+"contain more than just the bug ID (&eg; <quote>Issue #123</quote> or "
+"<quote>resolves issue 123</quote>). The second expression is then used to "
+"extract the bare bug ID from the string extracted with the first expression."
 msgstr ""
 
 #. Tag: para
@@ -1097,8 +1055,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Please keep care about not wanted spaces after the regular expression and "
-"don't "
-"forget the brackets around the number description."
+"don't forget the brackets around the number description."
 msgstr ""
 
 #. Tag: para
@@ -1117,8 +1074,8 @@ msgstr ""
 #: index.docbook:597
 #, no-c-format
 msgid ""
-"Now all numbers like <replaceable>#190</replaceable> "
-"will parsed and translated to an &URL; in log output."
+"Now all numbers like <replaceable>#190</replaceable> will parsed and "
+"translated to an &URL; in log output."
 msgstr ""
 
 #. Tag: para
@@ -1145,21 +1102,19 @@ msgstr ""
 #: index.docbook:606
 #, no-c-format
 msgid ""
-"Keep care of white spaces after the <literal>(\\d+)</literal>"
-"! This is one of the most common errors causing these expressions do not "
-"match!"
+"Keep care of white spaces after the <literal>(\\d+)</literal>! This is one "
+"of the most common errors causing these expressions do not match!"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:616
 #, no-c-format
 msgid ""
-"On local opened repositories (&ie; <filename class=\"directory\">"
-"file://</filename> protocol) and on working copies these properties will "
-"searched upward from opened folder until found or the subversion top level is "
-"reached. On repositories opened via network (all except <filename "
-"class=\"directory\">file://</filename> protocol) it is only searched on "
-"opened "
+"On local opened repositories (&ie; <filename class=\"directory\">file://</"
+"filename> protocol) and on working copies these properties will searched "
+"upward from opened folder until found or the subversion top level is "
+"reached. On repositories opened via network (all except <filename class="
+"\"directory\">file://</filename> protocol) it is only searched on opened "
 "folder itself."
 msgstr ""
 
@@ -1182,14 +1137,12 @@ msgstr ""
 #: index.docbook:627
 #, no-c-format
 msgid ""
-"The revision tree try to display the whole history of an item so user may get "
-"a "
-"better feeling about the history of an item. It has to scan the complete log "
-"of "
-"the repository 'cause it requires some information subversion does not (and I "
-"think will not) give. Because this produces a lot of traffic the revision "
-"tree "
-"uses always the internal <link linkend=\"logcache-descr\">log cache</link>."
+"The revision tree try to display the whole history of an item so user may "
+"get a better feeling about the history of an item. It has to scan the "
+"complete log of the repository 'cause it requires some information "
+"subversion does not (and I think will not) give. Because this produces a lot "
+"of traffic the revision tree uses always the internal <link linkend="
+"\"logcache-descr\">log cache</link>."
 msgstr ""
 
 #. Tag: title
@@ -1202,9 +1155,9 @@ msgstr ""
 #: index.docbook:632
 #, no-c-format
 msgid ""
-"The revision tree is generated via <application>dot</application>"
-". So for a working revision tree the <application>graphviz</application> "
-"package must installed."
+"The revision tree is generated via <application>dot</application>. So for a "
+"working revision tree the <application>graphviz</application> package must "
+"installed."
 msgstr ""
 
 #. Tag: title
@@ -1217,32 +1170,30 @@ msgstr ""
 #: index.docbook:640
 #, no-c-format
 msgid ""
-"&kdesvn; may use an internal log cache for some operations. Mostly it is used "
-"for <link linkend=\"revision-tree\">the revision tree</link> "
-"but when viewing simplified log in offline mode, too. The caches are "
-"organized "
-"as <application>SQLite</application> databases stored in <filename "
-"class=\"directory\">$HOME/.sqvnqt/logcache</filename>"
-". Every numbered file is a storage for a different repository."
+"&kdesvn; may use an internal log cache for some operations. Mostly it is "
+"used for <link linkend=\"revision-tree\">the revision tree</link> but when "
+"viewing simplified log in offline mode, too. The caches are organized as "
+"<application>SQLite</application> databases stored in <filename class="
+"\"directory\">$HOME/.sqvnqt/logcache</filename>. Every numbered file is a "
+"storage for a different repository."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:644
 #, no-c-format
 msgid ""
-"The databases may get large! So you may disable automatic update of log cache "
-"in settings."
+"The databases may get large! So you may disable automatic update of log "
+"cache in settings."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:648
 #, no-c-format
 msgid ""
-"You may simply remove a database, than no cached log will given back for that "
-"repository (and no revision tree!) but when you do not disable automatic "
-"filling the cache on next open this repository or an associated working copy "
-"of "
-"it the cache will refilled again."
+"You may simply remove a database, than no cached log will given back for "
+"that repository (and no revision tree!) but when you do not disable "
+"automatic filling the cache on next open this repository or an associated "
+"working copy of it the cache will refilled again."
 msgstr ""
 
 #. Tag: title
@@ -1255,14 +1206,13 @@ msgstr ""
 #: index.docbook:653
 #, no-c-format
 msgid ""
-"&kdesvn; may work without network access, &ie; you can switch off the network "
-"access for &kdesvn;. This may useful when working without network like on "
-"notebooks. In such cases &kdesvn; always gets the logs from the internal "
-"cache. "
-"At this time (2008-06-23) this log is reduced to base functions due technical "
-"reasons, so the cached log may (but not must) differ from real log. Differ "
-"means that it will not display all copy operations even <guilabel>"
-"Log follows node changes</guilabel> is set."
+"&kdesvn; may work without network access, &ie; you can switch off the "
+"network access for &kdesvn;. This may useful when working without network "
+"like on notebooks. In such cases &kdesvn; always gets the logs from the "
+"internal cache. At this time (2008-06-23) this log is reduced to base "
+"functions due technical reasons, so the cached log may (but not must) differ "
+"from real log. Differ means that it will not display all copy operations "
+"even <guilabel>Log follows node changes</guilabel> is set."
 msgstr ""
 
 #. Tag: title
@@ -1276,8 +1226,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The revision tree will only use the log cache because otherwise it must get "
-"always the logs again. It will <emphasis>not</emphasis> "
-"refresh the log cache (but this may changed in later releases)."
+"always the logs again. It will <emphasis>not</emphasis> refresh the log "
+"cache (but this may changed in later releases)."
 msgstr ""
 
 #. Tag: title
@@ -1305,9 +1255,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This entry is locked. In last column the owner of lock is listed. You may "
-"setup "
-"if &kdesvn; should check for locked items in repository, too. But be careful: "
-"depending of the kind of the server this may take a long time!"
+"setup if &kdesvn; should check for locked items in repository, too. But be "
+"careful: depending of the kind of the server this may take a long time!"
 msgstr ""
 
 #. Tag: phrase
@@ -1320,8 +1269,8 @@ msgstr ""
 #: index.docbook:694
 #, no-c-format
 msgid ""
-"This entry must be locked before edit and commit. Until you'll not set a lock "
-"subversion keeps it read-only."
+"This entry must be locked before edit and commit. Until you'll not set a "
+"lock subversion keeps it read-only."
 msgstr ""
 
 #. Tag: phrase
@@ -1406,14 +1355,13 @@ msgstr ""
 #: index.docbook:787
 #, no-c-format
 msgid ""
-"Most secure way, but sometimes unhandy with GUIs like &kdesvn;. In particular "
-"the background processes of &kdesvn; would always ask for a password in case "
-"the repository has restricted access for reading operations like update and "
-"status. The same for <quote>commit</quote> and so on. So if you are not "
-"saving "
-"passwords you should disable <guilabel>Start check for updates when open a "
-"working copy</guilabel> and <link linkend=\"subversion-settings\">so on</link>"
-"."
+"Most secure way, but sometimes unhandy with GUIs like &kdesvn;. In "
+"particular the background processes of &kdesvn; would always ask for a "
+"password in case the repository has restricted access for reading operations "
+"like update and status. The same for <quote>commit</quote> and so on. So if "
+"you are not saving passwords you should disable <guilabel>Start check for "
+"updates when open a working copy</guilabel> and <link linkend=\"subversion-"
+"settings\">so on</link>."
 msgstr ""
 
 #. Tag: title
@@ -1427,9 +1375,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Secured password storage used by a lot of &kde; programs like &kmail; and "
-"&konqueror;. If you are saving passwords and mostly using &kdesvn; you should "
-"use this. Keep care that the encrypted storage isn't a high-secure storage. "
-"Details see <ulink url=\"help:/kwallet\">&kwallet; documentation</ulink>."
+"&konqueror;. If you are saving passwords and mostly using &kdesvn; you "
+"should use this. Keep care that the encrypted storage isn't a high-secure "
+"storage. Details see <ulink url=\"help:/kwallet\">&kwallet; documentation</"
+"ulink>."
 msgstr ""
 
 #. Tag: title
@@ -1443,14 +1392,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This is not recommended 'cause the passwords are stored as clear text! Not "
-"believing? Take a look into the files in <filename class=\"directory\">"
-"~/.subversion/auth/svn.simple</filename>. You should only use this if you are "
-"frequently using other clients than &kdesvn; like <application>"
-"rapidsvn</application> or <application>esvn</application> "
-"or the original <application>svn</application> command line client. If you're "
-"using the command line client mostly for checkouts or updates which do not "
-"require a password and &kdesvn; for commit/move/copy you should use &kwallet; "
-"instead."
+"believing? Take a look into the files in <filename class=\"directory\">~/."
+"subversion/auth/svn.simple</filename>. You should only use this if you are "
+"frequently using other clients than &kdesvn; like <application>rapidsvn</"
+"application> or <application>esvn</application> or the original "
+"<application>svn</application> command line client. If you're using the "
+"command line client mostly for checkouts or updates which do not require a "
+"password and &kdesvn; for commit/move/copy you should use &kwallet; instead."
 msgstr ""
 
 #. Tag: title
@@ -1463,9 +1411,9 @@ msgstr ""
 #: index.docbook:805
 #, no-c-format
 msgid ""
-"You may activate an internal password cache which will hold passwords as long "
-"&kdesvn; is running in memory. So you must not enter a password twice even if "
-"you didn't save it in wallet."
+"You may activate an internal password cache which will hold passwords as "
+"long &kdesvn; is running in memory. So you must not enter a password twice "
+"even if you didn't save it in wallet."
 msgstr ""
 
 #. Tag: title
@@ -1478,14 +1426,13 @@ msgstr ""
 #: index.docbook:811
 #, no-c-format
 msgid ""
-"When using subversion via svn+ssh password storage may done via ssh and "
-"ssh-agent. For this you must have ssh access to the remote machine and "
+"When using subversion via svn+ssh password storage may done via ssh and ssh-"
+"agent. For this you must have ssh access to the remote machine and "
 "repository. When want to store something you should use the public key "
 "authentication of ssh, not the password authentication. (In fact ssh prefer "
-"the "
-"public key authentication). For this you must put your public ssh-key on the "
-"target, &eg;, the repository system. SSH passwords will never be handled by "
-"subversion passwords storage or &kwallet; or internal password cache."
+"the public key authentication). For this you must put your public ssh-key on "
+"the target, &eg;, the repository system. SSH passwords will never be handled "
+"by subversion passwords storage or &kwallet; or internal password cache."
 msgstr ""
 
 #. Tag: para
@@ -1493,10 +1440,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you don't want asked for the password of your SSH key you can use the "
-"<application>ssh-agent</application>, with selecting the menu <menuchoice>"
-"<guimenu> Subversion </guimenu> <guimenuitem>Add ssh identities to "
-"ssh-agent</guimenuitem></menuchoice> you may store your SSH-key password for "
-"your current session so no further entering of your password is needed."
+"<application>ssh-agent</application>, with selecting the menu "
+"<menuchoice><guimenu> Subversion </guimenu> <guimenuitem>Add ssh identities "
+"to ssh-agent</guimenuitem></menuchoice> you may store your SSH-key password "
+"for your current session so no further entering of your password is needed."
 msgstr ""
 
 #. Tag: title
@@ -1566,10 +1513,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The same may be said for <quote>svn+...</quote>. But as from &kde; 3.4, "
-"kdesdk "
-"has it own small svn-kio called <quote>svn+http</quote> "
-"&etc; So packages are organized that way - or should that <quote>svn+...<"
-"/quote> "
+"kdesdk has it own small svn-kio called <quote>svn+http</quote> &etc; So "
+"packages are organized that way - or should that <quote>svn+...</quote> "
 "comes as an extra package so it may installed if kdesdk hasn't installed it."
 msgstr ""
 
@@ -1578,20 +1523,19 @@ msgstr ""
 #, no-c-format
 msgid ""
 "These protocols are designed only for repositories, not for working copies. "
-"For "
-"example, <filename class=\"directory\">ksvn+file:///<replaceable>"
-"path</replaceable></filename> must point to the beginning of a repository "
-"different to the application itself or KPart. Working copies may browsed with "
-"&konqueror;."
+"For example, <filename class=\"directory\">ksvn+file:///<replaceable>path</"
+"replaceable></filename> must point to the beginning of a repository "
+"different to the application itself or KPart. Working copies may browsed "
+"with &konqueror;."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:849
 #, no-c-format
 msgid ""
-"For browsing at a specific revision you may append the query <link "
-"linkend=\"revision-syntax\"><quote>?rev=<replaceable>revision</replaceable>"
-"</quote></link> to the &URL;."
+"For browsing at a specific revision you may append the query <link linkend="
+"\"revision-syntax\"><quote>?rev=<replaceable>revision</replaceable></quote></"
+"link> to the &URL;."
 msgstr ""
 
 #. Tag: term
@@ -1606,11 +1550,10 @@ msgstr ""
 msgid ""
 "&kdesvn; installs context menus for &konqueror;. Them may be seen with right "
 "mouse click in the browser window (only in standard view, not any KPart) so "
-"it "
-"is possible to do most used actions direct from within &konqueror; (or any "
-"other file managers that read &konqueror; context menus like &dolphin;). This "
-"is done via a call to the <link linkend=\"kdesvn-commandline\">"
-"command line variant of &kdesvn;</link>."
+"it is possible to do most used actions direct from within &konqueror; (or "
+"any other file managers that read &konqueror; context menus like &dolphin;). "
+"This is done via a call to the <link linkend=\"kdesvn-commandline\">command "
+"line variant of &kdesvn;</link>."
 msgstr ""
 
 #. Tag: title
@@ -1624,9 +1567,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Every &kde; based application may use these protocols. So it would be "
-"possible "
-"to retrieve all differences between two revisions with &kdiff3; without any "
-"deep knowledge."
+"possible to retrieve all differences between two revisions with &kdiff3; "
+"without any deep knowledge."
 msgstr ""
 
 #. Tag: title
@@ -1639,8 +1581,9 @@ msgstr ""
 #: index.docbook:872
 #, no-c-format
 msgid ""
-"kdiff3 \\\n  ksvn://anonsvn.kde.org/home/kde/trunk/KDE/arts?rev=423127 \\\n  "
-"ksvn://anonsvn.kde.org/home/kde/trunk/KDE/arts?rev=455064"
+"kdiff3 \\\n"
+"  ksvn://anonsvn.kde.org/home/kde/trunk/KDE/arts?rev=423127 \\\n"
+"  ksvn://anonsvn.kde.org/home/kde/trunk/KDE/arts?rev=455064"
 msgstr ""
 
 #. Tag: para
@@ -1654,8 +1597,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Using this within &kdesvn; (diff'ing two revisions) is MUCH faster because "
-"the "
-"internal mechanisms of subversion are used."
+"the internal mechanisms of subversion are used."
 msgstr ""
 
 #. Tag: title
@@ -1675,8 +1617,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "KIO::ksvn::special knows the following operations, these are made almost "
-"equal "
-"in call to the current existing in KIO from kdesdk so, for instance, "
+"equal in call to the current existing in KIO from kdesdk so, for instance, "
 "<application>KDevelop</application> may use it if kdesdk isn't installed but "
 "uses &kdesvn;::KIO::svn."
 msgstr ""
@@ -1740,10 +1681,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The target will NOT be modified, &eg;, but the content will be checked out "
-"without creating a subfolder! For example, the source may be "
-"http://server/repos/project/trunk, target /home/user/proj/ then the contents "
-"of "
-"trunk will copied into /home/user/proj/ not /home/user/proj/trunk/!"
+"without creating a subfolder! For example, the source may be http://server/"
+"repos/project/trunk, target /home/user/proj/ then the contents of trunk will "
+"copied into /home/user/proj/ not /home/user/proj/trunk/!"
 msgstr ""
 
 #. Tag: entry
@@ -1777,8 +1717,8 @@ msgstr ""
 #: index.docbook:932
 #, no-c-format
 msgid ""
-"If revnum &lt; 0 the revstring is parsed. Format of revstring is described in "
-"<link linkend=\"revision-syntax\">Appendix</link>."
+"If revnum &lt; 0 the revstring is parsed. Format of revstring is described "
+"in <link linkend=\"revision-syntax\">Appendix</link>."
 msgstr ""
 
 #. Tag: entry
@@ -1984,8 +1924,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "KURL working_copy_path, KURL new_repository_url, bool recursive,int "
-"revnumber, "
-"QString revkind"
+"revnumber, QString revkind"
 msgstr ""
 
 #. Tag: entry
@@ -2005,8 +1944,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "URL uri1, KURL uri2, int r1, QString rstring1, int r2, QString rstring 2, "
-"bool "
-"recursive"
+"bool recursive"
 msgstr ""
 
 #. Tag: para
@@ -2014,8 +1952,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "For difference between repository file:/// and working copy setup working "
-"copy "
-"urls without a protocol!"
+"copy urls without a protocol!"
 msgstr ""
 
 #. Tag: title
@@ -2191,8 +2128,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "On which single path the entries logged action and so on are set. (path is "
-"set "
-"to the calling url)"
+"set to the calling url)"
 msgstr ""
 
 #. Tag: entry
@@ -2224,41 +2160,38 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Some subversion operations may be used via the command line, &eg;, like a "
-"standard command line client but user interaction is made via &kde; <acronym>"
-"UI</acronym>. The standard syntax is <userinput>kdesvn exec <replaceable>"
-"command</replaceable> <replaceable>parameter</replaceable> <replaceable>"
-"url</replaceable></userinput>."
+"standard command line client but user interaction is made via &kde; "
+"<acronym>UI</acronym>. The standard syntax is <userinput>kdesvn exec "
+"<replaceable>command</replaceable> <replaceable>parameter</replaceable> "
+"<replaceable>url</replaceable></userinput>."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:1135
 #, no-c-format
 msgid ""
-"If a single revision on a single &URL; is wanted it may be set as a parameter "
-"of the &URL; "
-"<programlisting>svn://your-server/path-to-repository/item?rev=&lt;your-rev&gt;"
-"</"
-"programlisting> This will overwrite the option <option>-r &lt;rev&gt;</option>"
-"."
+"If a single revision on a single &URL; is wanted it may be set as a "
+"parameter of the &URL; <programlisting>svn://your-server/path-to-repository/"
+"item?rev=&lt;your-rev&gt;</programlisting> This will overwrite the option "
+"<option>-r &lt;rev&gt;</option>."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:1139
 #, no-c-format
 msgid ""
-"A revision may be given as a number or one of <option>HEAD</option> or <"
-"option>"
-"BASE</option> or as date format like {YYYY-MM-DD}."
+"A revision may be given as a number or one of <option>HEAD</option> or "
+"<option>BASE</option> or as date format like {YYYY-MM-DD}."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:1146
 #, no-c-format
 msgid ""
-"If in following overview as possible parameter <option>-r <replaceable>"
-"revision</replaceable></option> is given, this revision may be set as "
-"<userinput><replaceable>url</replaceable>?rev=<replaceable>"
-"the-revision</replaceable></userinput>."
+"If in following overview as possible parameter <option>-r "
+"<replaceable>revision</replaceable></option> is given, this revision may be "
+"set as <userinput><replaceable>url</replaceable>?rev=<replaceable>the-"
+"revision</replaceable></userinput>."
 msgstr ""
 
 #. Tag: title
@@ -2449,8 +2382,8 @@ msgstr ""
 #: index.docbook:1213
 #, no-c-format
 msgid ""
-"Checkout repository-path into a new working copy path. Target path and source "
-"revision will be asked for."
+"Checkout repository-path into a new working copy path. Target path and "
+"source revision will be asked for."
 msgstr ""
 
 #. Tag: entry
@@ -2478,8 +2411,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Export repository- or working copy-path into directory. Target path and "
-"source "
-"revision will be asked for."
+"source revision will be asked for."
 msgstr ""
 
 #. Tag: entry
@@ -2493,8 +2425,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Export repository- or working copy-path into directory. Source path and "
-"source "
-"revision will be asked for."
+"source revision will be asked for."
 msgstr ""
 
 #. Tag: entry
@@ -2547,8 +2478,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "check in given &URL; for new, unversioned items and add them to working copy "
-"if "
-"wanted."
+"if wanted."
 msgstr ""
 
 #. Tag: entry
@@ -2561,9 +2491,9 @@ msgstr ""
 #: index.docbook:1253
 #, no-c-format
 msgid ""
-"displays revision tree of item (only first argument), if &URL; with <quote>"
-"?rev=<replaceable>xxx</replaceable></quote> given, this revision is the "
-"peg-revision."
+"displays revision tree of item (only first argument), if &URL; with <quote>?"
+"rev=<replaceable>xxx</replaceable></quote> given, this revision is the peg-"
+"revision."
 msgstr ""
 
 #. Tag: entry
@@ -2596,8 +2526,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "unlock url(s), if <option>-f</option> is given then not owned locks are "
-"broken "
-"or non existing locks are ignored."
+"broken or non existing locks are ignored."
 msgstr ""
 
 #. Tag: entry
@@ -2646,8 +2575,8 @@ msgstr ""
 #: index.docbook:1290
 #, no-c-format
 msgid ""
-"<replaceable>revision</replaceable> or <replaceable>"
-"startrev:endrev</replaceable>"
+"<replaceable>revision</replaceable> or <replaceable>startrev:endrev</"
+"replaceable>"
 msgstr ""
 
 #. Tag: entry
@@ -2723,8 +2652,8 @@ msgstr ""
 #: index.docbook:1324
 #, no-c-format
 msgid ""
-"Inside that dialog you may select log entries and get the differences between "
-"them."
+"Inside that dialog you may select log entries and get the differences "
+"between them."
 msgstr ""
 
 #. Tag: title
@@ -2743,9 +2672,9 @@ msgstr ""
 #: index.docbook:1329
 #, no-c-format
 msgid ""
-"Beware of order of revision: You want go from HEAD to START for the LAST one. "
-"So you must give revision HEAD as starting point, otherwise you would get the "
-"first 20 entries."
+"Beware of order of revision: You want go from HEAD to START for the LAST "
+"one. So you must give revision HEAD as starting point, otherwise you would "
+"get the first 20 entries."
 msgstr ""
 
 #. Tag: title
@@ -2760,10 +2689,9 @@ msgstr ""
 msgid ""
 "You get differences between revisions of an item or between two items inside "
 "same working copy or repository. When diff'ing revisions of an item, "
-"revisions "
-"may be given as <option>-r <replaceable>STARTREV</replaceable>:<replaceable>"
-"ENDREV</replaceable></option>. When diffing an item inside a working copy "
-"without any revisions it prints the diff against repository."
+"revisions may be given as <option>-r <replaceable>STARTREV</replaceable>:"
+"<replaceable>ENDREV</replaceable></option>. When diffing an item inside a "
+"working copy without any revisions it prints the diff against repository."
 msgstr ""
 
 #. Tag: title
@@ -2871,9 +2799,8 @@ msgstr ""
 #: index.docbook:1380
 #, no-c-format
 msgid ""
-"When an item isn't in normal subversion state it may get an overlay. (See <"
-"xref "
-"linkend=\"overlay-meaning\"/>)"
+"When an item isn't in normal subversion state it may get an overlay. (See "
+"<xref linkend=\"overlay-meaning\"/>)"
 msgstr ""
 
 #. Tag: entry
@@ -2886,8 +2813,8 @@ msgstr ""
 #: index.docbook:1384
 #, no-c-format
 msgid ""
-"If the sort order in main window is case sensitive or not, &ie; if <quote>"
-"a</quote> not equal to <quote>A</quote>."
+"If the sort order in main window is case sensitive or not, &ie; if <quote>a</"
+"quote> not equal to <quote>A</quote>."
 msgstr ""
 
 #. Tag: entry
@@ -2943,8 +2870,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If set &kdesvn; start (re-)filling the log cache when open a repository or "
-"working copy if repository &URL; is not assigned local (<filename "
-"class=\"directory\">file://</filename>)"
+"working copy if repository &URL; is not assigned local (<filename class="
+"\"directory\">file://</filename>)"
 msgstr ""
 
 #. Tag: entry
@@ -2957,9 +2884,9 @@ msgstr ""
 #: index.docbook:1419
 #, no-c-format
 msgid ""
-"Check on working copies if an item has this property set and if yes, displays "
-"a "
-"special overlayed icon. Setting this may let listings get real slow."
+"Check on working copies if an item has this property set and if yes, "
+"displays a special overlayed icon. Setting this may let listings get real "
+"slow."
 msgstr ""
 
 #. Tag: entry
@@ -2988,8 +2915,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When activated, <command>info</command> on folders will gain information "
-"about "
-"all items below, may be real slow."
+"about all items below, may be real slow."
 msgstr ""
 
 #. Tag: entry
@@ -3003,11 +2929,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Storing passwords is often a security problem. Subversion stores its "
-"passwords "
-"into a flat file, &ie; passwords in the plain text! So be careful setting "
-"this "
-"flag and see next entry, too. This item only says if saving passwords is the "
-"default, you may change it for specific realms inside login dialog."
+"passwords into a flat file, &ie; passwords in the plain text! So be careful "
+"setting this flag and see next entry, too. This item only says if saving "
+"passwords is the default, you may change it for specific realms inside login "
+"dialog."
 msgstr ""
 
 #. Tag: entry
@@ -3021,13 +2946,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When saving passwords, the plain text file from subversion is a security "
-"hole. "
-"&kdesvn; is able saving them into encrypted &kde; wallet instead there "
+"hole. &kdesvn; is able saving them into encrypted &kde; wallet instead there "
 "(starting with version 0.12.0) and use them. On other hand other subversion "
 "clients aren't able reading them so you must enter them if using tools like "
-"<application>svn</application> command line tool or <application>"
-"rapidsvn</application>, too. As long as subversion does not encrypt password "
-"storage you should think twice about it."
+"<application>svn</application> command line tool or <application>rapidsvn</"
+"application>, too. As long as subversion does not encrypt password storage "
+"you should think twice about it."
 msgstr ""
 
 #. Tag: entry
@@ -3042,8 +2966,7 @@ msgstr ""
 msgid ""
 "When a password isn't stored persistent &kdesvn; may hold is until &kdesvn; "
 "ends so you may not need enter it again on each operation. This cache is "
-"never "
-"persistent, &ie; it will not be saved anywhere."
+"never persistent, &ie; it will not be saved anywhere."
 msgstr ""
 
 #. Tag: entry
@@ -3069,8 +2992,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The log command may read list of changed files in commit. This is useful and "
-"in "
-"most cases it cost not real more traffic."
+"in most cases it cost not real more traffic."
 msgstr ""
 
 #. Tag: entry
@@ -3085,8 +3007,8 @@ msgstr ""
 msgid ""
 "When doing a commit &kdesvn; may make a check what to do. For example, if "
 "unversioned items are below which may be added, list items changed and "
-"current "
-"operation will commit. This cost a depending on tree more or less time."
+"current operation will commit. This cost a depending on tree more or less "
+"time."
 msgstr ""
 
 #. Tag: title
@@ -3121,12 +3043,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When set, diffs made from within revision tree view are made recursive like "
-"in "
-"all other cases, too. Otherwise only changes belonging to that folder items "
-"are "
-"shown. How that is made depends on how you let diffs generate (from "
-"subversion "
-"itself or from external viewers)."
+"in all other cases, too. Otherwise only changes belonging to that folder "
+"items are shown. How that is made depends on how you let diffs generate "
+"(from subversion itself or from external viewers)."
 msgstr ""
 
 #. Tag: term
@@ -3139,8 +3058,8 @@ msgstr ""
 #: index.docbook:1491
 #, no-c-format
 msgid ""
-"Ignore changes in the amount of white space (option <option>-b</option> "
-"to <application>diff</application>)"
+"Ignore changes in the amount of white space (option <option>-b</option> to "
+"<application>diff</application>)"
 msgstr ""
 
 #. Tag: term
@@ -3177,8 +3096,8 @@ msgstr ""
 #: index.docbook:1513
 #, no-c-format
 msgid ""
-"Defines what &kdesvn; is using for external display of differences and how it "
-"will be called. There are three ways:"
+"Defines what &kdesvn; is using for external display of differences and how "
+"it will be called. There are three ways:"
 msgstr ""
 
 #. Tag: term
@@ -3205,10 +3124,10 @@ msgstr ""
 #: index.docbook:1527
 #, no-c-format
 msgid ""
-"The difference will be generated with subversion, saved into a temporary file "
-"and the parameter <option>%f</option> will be replaced with that file name. "
-"This may be used, for instance, with a simple call to <application>"
-"less</application> or text viewer."
+"The difference will be generated with subversion, saved into a temporary "
+"file and the parameter <option>%f</option> will be replaced with that file "
+"name. This may be used, for instance, with a simple call to "
+"<application>less</application> or text viewer."
 msgstr ""
 
 #. Tag: term
@@ -3223,9 +3142,9 @@ msgstr ""
 msgid ""
 "&kdesvn; let the external program make the difference. %1 and %2 will be "
 "replaced with required values (file names or folder names). &kdesvn; stores "
-"content to compare in a temporary environment (when folders does an <quote>"
-"export</quote>, when single file, does a <quote>cat</quote>"
-") when needed and cleans up after closing external program or closing itself."
+"content to compare in a temporary environment (when folders does an "
+"<quote>export</quote>, when single file, does a <quote>cat</quote>) when "
+"needed and cleans up after closing external program or closing itself."
 msgstr ""
 
 #. Tag: term
@@ -3238,8 +3157,8 @@ msgstr ""
 #: index.docbook:1543
 #, no-c-format
 msgid ""
-"Select if in merge dialog <guilabel>Use external merge</guilabel> "
-"should be checked or not as default."
+"Select if in merge dialog <guilabel>Use external merge</guilabel> should be "
+"checked or not as default."
 msgstr ""
 
 #. Tag: title
@@ -3252,16 +3171,13 @@ msgstr ""
 #: index.docbook:1550
 #, no-c-format
 msgid ""
-"Setup the program and options for using when subversion's builtin merge isn't "
-"wanted. The default is <command>kdiff3 %s1 %s2 %t</command>"
-". The order of substitution variables isn't important, and them may there "
-"more "
-"than once, &eg; like <literal>kdiff3 -o %t %s1 %s2 %t</literal>"
-". This stuff is only tested with <application>meld</application> "
-"and &kdiff3;. Think about that external programs mostly do not know anything "
-"about subversion <command>ignore</command> parameter so them may show lot "
-"more "
-"than expected."
+"Setup the program and options for using when subversion's builtin merge "
+"isn't wanted. The default is <command>kdiff3 %s1 %s2 %t</command>. The order "
+"of substitution variables isn't important, and them may there more than "
+"once, &eg; like <literal>kdiff3 -o %t %s1 %s2 %t</literal>. This stuff is "
+"only tested with <application>meld</application> and &kdiff3;. Think about "
+"that external programs mostly do not know anything about subversion "
+"<command>ignore</command> parameter so them may show lot more than expected."
 msgstr ""
 
 #. Tag: title
@@ -3293,11 +3209,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Substituted with source number two. If this is empty or this is equal to "
-"source "
-"one and start and end revision is same, this variable will skipped. So be "
-"careful setting up command lines like <command>xxdiff --title1 %s1 --title2 %"
-"s2 "
-"%s1 %s2 %t</command>."
+"source one and start and end revision is same, this variable will skipped. "
+"So be careful setting up command lines like <command>xxdiff --title1 %s1 --"
+"title2 %s2 %s1 %s2 %t</command>."
 msgstr ""
 
 #. Tag: term
@@ -3336,11 +3250,10 @@ msgstr ""
 #: index.docbook:1593
 #, no-c-format
 msgid ""
-"In parenthesis after each description is an example how subversion would call "
-"the files. These options are designed for &kdiff3;, because at this moment "
-"this "
-"is the only one application supporting all parameters required for a good "
-"conflict resolving."
+"In parenthesis after each description is an example how subversion would "
+"call the files. These options are designed for &kdiff3;, because at this "
+"moment this is the only one application supporting all parameters required "
+"for a good conflict resolving."
 msgstr ""
 
 #. Tag: term
@@ -3354,8 +3267,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Old (local, left) version. This means the lower revision number, &ie; the "
-"start "
-"point of conflicted changes. (<filename>foo.cc.r2</filename>)"
+"start point of conflicted changes. (<filename>foo.cc.r2</filename>)"
 msgstr ""
 
 #. Tag: term
@@ -3369,8 +3281,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Mine (working) version of file, &ie; what you had changed against old "
-"version. "
-"(<filename>foo.cc.mine</filename>)"
+"version. (<filename>foo.cc.mine</filename>)"
 msgstr ""
 
 #. Tag: term
@@ -3391,9 +3302,9 @@ msgstr ""
 #: index.docbook:1616
 #, no-c-format
 msgid ""
-"Target name, &eg; the origin name. For &kdiff3; (as an example) this would be "
-"name after the <option>-o</option> parameter (= output file). (<filename>"
-"foo.cc</filename>)"
+"Target name, &eg; the origin name. For &kdiff3; (as an example) this would "
+"be name after the <option>-o</option> parameter (= output file). "
+"(<filename>foo.cc</filename>)"
 msgstr ""
 
 #. Tag: title
@@ -3427,10 +3338,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If <guilabel>Show log...</guilabel> is set, what is the minimum of lines "
-"before "
-"such a dialog will shown. So you may set that such window will only shown "
-"when "
-"interesting output was generated (commit log and so on)"
+"before such a dialog will shown. So you may set that such window will only "
+"shown when interesting output was generated (commit log and so on)"
 msgstr ""
 
 #. Tag: term
@@ -3458,16 +3367,11 @@ msgid ""
 "When making operations on a repository via the &kdesvn; KIO protocol from "
 "within &konqueror; (&ie;, <quote>ksvn+...</quote> protocols) on large "
 "operations like moving or copy folders &kdesvn; would ask for a log message "
-"for "
-"each item. This is a behavior of &konqueror;. When this option is set, the "
-"KIO "
-"implementation from &kdesvn; will not ask for a log message but set a "
-"standard "
-"log message. This flag is not for the operations from &kdesvn; action menu "
-"for "
-"&konqueror; but only copy/move/mkdir/delete made with &konqueror; or other "
-"file "
-"managers on a KIO-url."
+"for each item. This is a behavior of &konqueror;. When this option is set, "
+"the KIO implementation from &kdesvn; will not ask for a log message but set "
+"a standard log message. This flag is not for the operations from &kdesvn; "
+"action menu for &konqueror; but only copy/move/mkdir/delete made with "
+"&konqueror; or other file managers on a KIO-url."
 msgstr ""
 
 #. Tag: term
@@ -3481,8 +3385,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The message &kdesvn; KIO should set on operations from within &konqueror; "
-"when "
-"the flag above is set. Default is <guilabel>Revision made with &kdesvn; "
+"when the flag above is set. Default is <guilabel>Revision made with &kdesvn; "
 "KIO</guilabel>."
 msgstr ""
 
@@ -3508,8 +3411,8 @@ msgstr ""
 #: index.docbook:1690
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> "
-"</shortcut> <guimenu>File</guimenu> <guimenuitem>Open</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>Open</guimenuitem>"
 msgstr ""
 
 #. Tag: action
@@ -3522,8 +3425,8 @@ msgstr ""
 #: index.docbook:1701
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo> "
-"</shortcut> <guimenu>File</guimenu> <guimenuitem>Close</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>Close</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3536,8 +3439,8 @@ msgstr ""
 #: index.docbook:1712
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> "
-"</shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3569,18 +3472,17 @@ msgstr ""
 #: index.docbook:1735
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\"><keycap>F5</keycap></keycombo></shortcut>"
-" "
-"<guimenu>Subversion</guimenu> <guisubmenu>View</guisubmenu> <guimenuitem>"
-"Refresh view</guimenuitem>"
+"<shortcut><keycombo action=\"simul\"><keycap>F5</keycap></keycombo></"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>View</guisubmenu> "
+"<guimenuitem>Refresh view</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:1740
 #, no-c-format
 msgid ""
-"<action>Refresh</action> the current status of all displayed items. This will "
-"list each item asked for to be displayed at current status."
+"<action>Refresh</action> the current status of all displayed items. This "
+"will list each item asked for to be displayed at current status."
 msgstr ""
 
 #. Tag: title
@@ -3593,8 +3495,8 @@ msgstr ""
 #: index.docbook:1750
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>L</keycap></keycombo>"
-"</shortcut> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>L</keycap></keycombo></"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
 "<guimenuitem>History of item</guimenuitem>"
 msgstr ""
 
@@ -3610,10 +3512,9 @@ msgstr ""
 #: index.docbook:1762
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl; &Shift;<keycap>L</keycap><"
-"/keycombo>"
-"</shortcut> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
-"<guimenuitem>History of item ignoring copies...</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl; &Shift;<keycap>L</keycap></"
+"keycombo></shortcut> <guimenu>Subversion</guimenu> <guisubmenu>General</"
+"guisubmenu> <guimenuitem>History of item ignoring copies...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3626,8 +3527,8 @@ msgstr ""
 #: index.docbook:1771
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>I</keycap></keycombo>"
-"</shortcut> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>I</keycap></keycombo></"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
 "<guimenuitem>Details</guimenuitem>"
 msgstr ""
 
@@ -3641,8 +3542,8 @@ msgstr ""
 #: index.docbook:1780
 #, no-c-format
 msgid ""
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Blame</guimenuitem>"
+"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Blame</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3655,8 +3556,8 @@ msgstr ""
 #: index.docbook:1788
 #, no-c-format
 msgid ""
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Blame range</guimenuitem>"
+"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Blame range</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3669,8 +3570,8 @@ msgstr ""
 #: index.docbook:1796
 #, no-c-format
 msgid ""
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Cat head</guimenuitem>"
+"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Cat head</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3685,10 +3586,9 @@ msgstr ""
 #: index.docbook:1804
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\"><keycap>F2</keycap></keycombo></shortcut>"
-" "
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Move</guimenuitem>"
+"<shortcut><keycombo action=\"simul\"><keycap>F2</keycap></keycombo></"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Move</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3701,8 +3601,8 @@ msgstr ""
 #: index.docbook:1813
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo>"
-"</shortcut> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo></"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
 "<guimenuitem>Copy</guimenuitem>"
 msgstr ""
 
@@ -3716,10 +3616,9 @@ msgstr ""
 #: index.docbook:1822
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\"><keycap>Del</keycap></keycombo><"
-"/shortcut> "
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Delete selected files/dirs</guimenuitem>"
+"<shortcut><keycombo action=\"simul\"><keycap>Del</keycap></keycombo></"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Delete selected files/dirs</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3734,8 +3633,8 @@ msgstr ""
 #: index.docbook:1831
 #, no-c-format
 msgid ""
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"New folder</guimenuitem>"
+"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>New folder</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3748,8 +3647,8 @@ msgstr ""
 #: index.docbook:1839
 #, no-c-format
 msgid ""
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Import folders into current</guimenuitem>"
+"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Import folders into current</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3762,8 +3661,8 @@ msgstr ""
 #: index.docbook:1847
 #, no-c-format
 msgid ""
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Checkout a repository</guimenuitem>"
+"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Checkout a repository</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3776,8 +3675,8 @@ msgstr ""
 #: index.docbook:1855
 #, no-c-format
 msgid ""
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Export a repository</guimenuitem>"
+"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Export a repository</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3785,16 +3684,15 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Exports a repository to file system, &ie; creates a clean revision tree "
-"without "
-"subversion information."
+"without subversion information."
 msgstr ""
 
 #. Tag: menuchoice
 #: index.docbook:1865
 #, no-c-format
 msgid ""
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Lock current items</guimenuitem>"
+"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Lock current items</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3808,15 +3706,16 @@ msgstr ""
 #: index.docbook:1874
 #, no-c-format
 msgid ""
-"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> <guimenuitem>"
-"Unlock current items</guimenuitem>"
+"<guimenu>Subversion</guimenu> <guisubmenu>General</guisubmenu> "
+"<guimenuitem>Unlock current items</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:1879
 #, no-c-format
 msgid ""
-"Remove locks on current items. Read the subversion handbook before using this!"
+"Remove locks on current items. Read the subversion handbook before using "
+"this!"
 msgstr ""
 
 #. Tag: title
@@ -3857,10 +3756,9 @@ msgstr ""
 #: index.docbook:1904
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>#</keycap></keycombo>"
-"</shortcut> <guimenu>Subversion</guimenu> <guisubmenu>Working copy<"
-"/guisubmenu> "
-"<guimenuitem>Commit</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>#</keycap></keycombo></"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>Working copy</"
+"guisubmenu> <guimenuitem>Commit</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3873,10 +3771,9 @@ msgstr ""
 #: index.docbook:1913
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>D</keycap></keycombo>"
-"</shortcut> <guimenu>Subversion</guimenu> <guisubmenu>Working copy<"
-"/guisubmenu> "
-"<guimenuitem>Diff local changes</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>D</keycap></keycombo></"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>Working copy</"
+"guisubmenu> <guimenuitem>Diff local changes</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3885,18 +3782,16 @@ msgstr ""
 msgid ""
 "Display local changes as diff-output (without network access). This is the "
 "difference only to last state the working copy was updated to, not against "
-"the "
-"version in repository."
+"the version in repository."
 msgstr ""
 
 #. Tag: menuchoice
 #: index.docbook:1923
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo>"
-"</shortcut> <guimenu>Subversion</guimenu> <guisubmenu>Working copy<"
-"/guisubmenu> "
-"<guimenuitem>Diff against HEAD</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo></"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>Working copy</"
+"guisubmenu> <guimenuitem>Diff against HEAD</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3909,10 +3804,9 @@ msgstr ""
 #: index.docbook:1932
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo>"
-"</shortcut> <guimenu>Subversion</guimenu> <guisubmenu>Working copy<"
-"/guisubmenu> "
-"<guimenuitem>Properties</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo></"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>Working copy</"
+"guisubmenu> <guimenuitem>Properties</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3925,10 +3819,9 @@ msgstr ""
 #: index.docbook:1941
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\"><keycap>Insert</keycap></keycombo>"
-"</shortcut> <guimenu>Subversion</guimenu> <guisubmenu>Working copy<"
-"/guisubmenu> "
-"<guimenuitem>Add selected files/dirs</guimenuitem>"
+"<shortcut><keycombo action=\"simul\"><keycap>Insert</keycap></keycombo></"
+"shortcut> <guimenu>Subversion</guimenu> <guisubmenu>Working copy</"
+"guisubmenu> <guimenuitem>Add selected files/dirs</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -3991,8 +3884,8 @@ msgstr ""
 #: index.docbook:1979
 #, no-c-format
 msgid ""
-"Edit property of parent folder of the current item so that selected item will "
-"be marked as ignored if not set, otherwise remove it from ignore list."
+"Edit property of parent folder of the current item so that selected item "
+"will be marked as ignored if not set, otherwise remove it from ignore list."
 msgstr ""
 
 #. Tag: menuchoice
@@ -4033,9 +3926,8 @@ msgstr ""
 #: index.docbook:2003
 #, no-c-format
 msgid ""
-"<guimenu>Subversion</guimenu> <guisubmenu>Repository</guisubmenu> <"
-"guimenuitem>"
-"Checkout current repository path</guimenuitem>"
+"<guimenu>Subversion</guimenu> <guisubmenu>Repository</guisubmenu> "
+"<guimenuitem>Checkout current repository path</guimenuitem>"
 msgstr ""
 
 #. Tag: para
@@ -4048,17 +3940,16 @@ msgstr ""
 #: index.docbook:2011
 #, no-c-format
 msgid ""
-"<guimenu>Subversion</guimenu> <guisubmenu>Repository</guisubmenu> <"
-"guimenuitem>"
-"Export current repository path</guimenuitem>"
+"<guimenu>Subversion</guimenu> <guisubmenu>Repository</guisubmenu> "
+"<guimenuitem>Export current repository path</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2016
 #, no-c-format
 msgid ""
-"Create a clean copy on local file system from the current selected entry if a "
-"directory."
+"Create a clean copy on local file system from the current selected entry if "
+"a directory."
 msgstr ""
 
 #. Tag: title
@@ -4109,24 +4000,22 @@ msgstr ""
 #: index.docbook:2072
 #, no-c-format
 msgid ""
-"The <quote>problem</quote> is ssh itself. Subversion creates for each command "
-"sending a tunnel to the repository. And on each tunnel it is a new ssh "
-"connection. And for every connection ssh must authenticate. This can be fixed "
-"if you store your local public identity to the host containing the "
-"repository. "
-"If your public identity has a password, <application>ssh-agent</application> "
-"will be asked (when ssh-agent is installed)."
+"The <quote>problem</quote> is ssh itself. Subversion creates for each "
+"command sending a tunnel to the repository. And on each tunnel it is a new "
+"ssh connection. And for every connection ssh must authenticate. This can be "
+"fixed if you store your local public identity to the host containing the "
+"repository. If your public identity has a password, <application>ssh-agent</"
+"application> will be asked (when ssh-agent is installed)."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2078
 #, no-c-format
 msgid ""
-"When you're running a ssh-agent before starting &kdesvn;, you should add your "
-"identity to its cache, &kdesvn; will not modify it due security reasons, so "
-"it "
-"would ask for your password again and again. (see <ulink url=\"man:ssh-add\">"
-"Manpage of ssh-add</ulink>)"
+"When you're running a ssh-agent before starting &kdesvn;, you should add "
+"your identity to its cache, &kdesvn; will not modify it due security "
+"reasons, so it would ask for your password again and again. (see <ulink url="
+"\"man:ssh-add\">Manpage of ssh-add</ulink>)"
 msgstr ""
 
 #. Tag: para
@@ -4134,8 +4023,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The password prompt for (k)svn+ssh comes on terminal when &kdesvn; started "
-"from "
-"there, how do I switch off this?"
+"from there, how do I switch off this?"
 msgstr ""
 
 #. Tag: para
@@ -4143,8 +4031,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "It may not switched off. This is a feature of ssh-agent itself, when it see "
-"it "
-"has a terminal it asks for password in terminal not in a X-Dialog like "
+"it has a terminal it asks for password in terminal not in a X-Dialog like "
 "kdesvnaskpass. (see <ulink url=\"man:ssh-add\">Manpage of ssh-add</ulink>)."
 msgstr ""
 
@@ -4158,37 +4045,35 @@ msgstr ""
 #: index.docbook:2100
 #, no-c-format
 msgid ""
-"You may use an entry in <filename class=\"directory\">"
-"$HOME/.ssh/config</filename>, see <ulink url=\"man:ssh_config\">"
-"Ssh config manpage</ulink> for exact syntax."
+"You may use an entry in <filename class=\"directory\">$HOME/.ssh/config</"
+"filename>, see <ulink url=\"man:ssh_config\">Ssh config manpage</ulink> for "
+"exact syntax."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2107
 #, no-c-format
 msgid ""
-"When checking for updates &kdesvn; doesn't display something but I know there "
-"are newer items!"
+"When checking for updates &kdesvn; doesn't display something but I know "
+"there are newer items!"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2110
 #, no-c-format
 msgid ""
-"Updates may only displayed when the remote server is subversion 1.2, too. For "
-"example, seems that repository runs with subversion &lt;1.2. It is not "
-"planned "
-"that &kdesvn; do that check recursive itself - this makes no sense. Ask for "
-"upgrading repository to newer subversion."
+"Updates may only displayed when the remote server is subversion 1.2, too. "
+"For example, seems that repository runs with subversion &lt;1.2. It is not "
+"planned that &kdesvn; do that check recursive itself - this makes no sense. "
+"Ask for upgrading repository to newer subversion."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2119
 #, no-c-format
 msgid ""
-"When starting &kdesvn; it sends a dialog <quote>Could not find our part<"
-"/quote> "
-"and shows an empty window, why?"
+"When starting &kdesvn; it sends a dialog <quote>Could not find our part</"
+"quote> and shows an empty window, why?"
 msgstr ""
 
 #. Tag: para
@@ -4196,9 +4081,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "There are many reasons why the program couldn't load. This mostly happens "
-"when "
-"you building subversion-libs yourself. In that case you may check out <ulink "
-"url=\"http://kdesvn.alwins-world.de/ticket/128\">issue entry</ulink>."
+"when you building subversion-libs yourself. In that case you may check out "
+"<ulink url=\"http://kdesvn.alwins-world.de/ticket/128\">issue entry</ulink>."
 msgstr ""
 
 #. Tag: para
@@ -4206,11 +4090,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The next big thing could that you forgot to give a lib suffix on 64-bit "
-"systems "
-"at compile-time. So the part was installed in <filename class=\"directory\">"
-"$PREFIX/lib</filename> instead of <filename class=\"directory\">"
-"$PREFIX/lib64</filename>. So give <option>-DLIB_SUFFIX=64</option> "
-"as parameter to <command>cmake</command>."
+"systems at compile-time. So the part was installed in <filename class="
+"\"directory\">$PREFIX/lib</filename> instead of <filename class=\"directory"
+"\">$PREFIX/lib64</filename>. So give <option>-DLIB_SUFFIX=64</option> as "
+"parameter to <command>cmake</command>."
 msgstr ""
 
 #. Tag: para
@@ -4232,17 +4115,16 @@ msgstr ""
 #: index.docbook:2131
 #, no-c-format
 msgid ""
-"(<filename class=\"directory\">/usr/lib/kde4</filename> "
-"depends of course on your system, please check where it is installed)"
+"(<filename class=\"directory\">/usr/lib/kde4</filename> depends of course on "
+"your system, please check where it is installed)"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2134
 #, no-c-format
 msgid ""
-"You should see a lot of output why loading of <filename>"
-"libkdesvnpart.so</filename> is not possible, that may help solving your "
-"problem."
+"You should see a lot of output why loading of <filename>libkdesvnpart.so</"
+"filename> is not possible, that may help solving your problem."
 msgstr ""
 
 #. Tag: title
@@ -4255,8 +4137,8 @@ msgstr ""
 #: index.docbook:2144
 #, no-c-format
 msgid ""
-"Revisions may be given in the same form as for the standard <application>"
-"svn</application> client. That means: number, keyword or date."
+"Revisions may be given in the same form as for the standard "
+"<application>svn</application> client. That means: number, keyword or date."
 msgstr ""
 
 #. Tag: term
@@ -4269,8 +4151,8 @@ msgstr ""
 #: index.docbook:2152
 #, no-c-format
 msgid ""
-"A number greater or equal -1. -1 means <quote>unspecified revision</quote>"
-", 0 is the beginning. Normally, these numbers shouldn't used (most operations "
+"A number greater or equal -1. -1 means <quote>unspecified revision</quote>, "
+"0 is the beginning. Normally, these numbers shouldn't used (most operations "
 "will fail with that)."
 msgstr ""
 
@@ -4339,16 +4221,16 @@ msgstr ""
 #: index.docbook:2198
 #, no-c-format
 msgid ""
-"Date in form {YYYY-MM-DD}. It must real MM or DD - &eg; 2005-1-1 must written "
-"as {2005-01-01}."
+"Date in form {YYYY-MM-DD}. It must real MM or DD - &eg; 2005-1-1 must "
+"written as {2005-01-01}."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2206
 #, no-c-format
 msgid ""
-"Appending a specific revision to an &URL; will always made via <quote>"
-"?rev=<replaceable>revision</replaceable></quote>."
+"Appending a specific revision to an &URL; will always made via <quote>?"
+"rev=<replaceable>revision</replaceable></quote>."
 msgstr ""
 
 #. Tag: title
@@ -4367,8 +4249,8 @@ msgstr ""
 #: index.docbook:2215
 #, no-c-format
 msgid ""
-"Bug reports and wishes may be filed on <ulink url=\"https://bugs.kde.org/\">"
-"&kde; Bugtracking System</ulink>."
+"Bug reports and wishes may be filed on <ulink url=\"https://bugs.kde.org/"
+"\">&kde; Bugtracking System</ulink>."
 msgstr ""
 
 #. Tag: title
@@ -4407,8 +4289,8 @@ msgstr ""
 #: index.docbook:2241
 #, no-c-format
 msgid ""
-"Bram Schoenmakers <email>bramschoenmakers@kde.nl</email> "
-"- for &kde;-specific hints, dutch translation, cleaning up my code."
+"Bram Schoenmakers <email>bramschoenmakers@kde.nl</email> - for &kde;-"
+"specific hints, dutch translation, cleaning up my code."
 msgstr ""
 
 #. Tag: para
@@ -4416,10 +4298,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "And thanks to all other translators (I never thought that I get that fast "
-"such "
-"a lot of translations!) and for all of your positive and negative feedback. "
-"It "
-"helped a lot."
+"such a lot of translations!) and for all of your positive and negative "
+"feedback. It helped a lot."
 msgstr ""
 
 #. Tag: para
@@ -4427,10 +4307,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you want your own translation for &kdesvn; and may want help please read "
-"on "
-"the <ulink url=\"http://l10n.kde.org/\">&kde; Localization page</ulink> "
-"or ask on <ulink url=\"mailto:kde-i18n-doc@kde.org\"><email>"
-"kde-i18n-doc@kde.org</email> mailing list</ulink>."
+"on the <ulink url=\"http://l10n.kde.org/\">&kde; Localization page</ulink> "
+"or ask on <ulink url=\"mailto:kde-i18n-doc@kde.org\"><email>kde-i18n-doc@kde."
+"org</email> mailing list</ulink>."
 msgstr ""
 
 #. Tag: para
@@ -4468,26 +4347,25 @@ msgstr ""
 #: index.docbook:2279
 #, no-c-format
 msgid ""
-"&kdesvn; itself can be found at <ulink "
-"url=\"http://kdesvn.alwins-world.de/trac.fcgi/downloads/\"> "
-"the &kdesvn; download area</ulink>."
+"&kdesvn; itself can be found at <ulink url=\"http://kdesvn.alwins-world.de/"
+"trac.fcgi/downloads/\"> the &kdesvn; download area</ulink>."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2284
 #, no-c-format
 msgid ""
-"You may get <ulink "
-"url=\"https://projects.kde.org/projects/playground/devtools/kdesvn\">"
-"latest repository version</ulink> when looking whats going on."
+"You may get <ulink url=\"https://projects.kde.org/projects/playground/"
+"devtools/kdesvn\">latest repository version</ulink> when looking whats going "
+"on."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2287
 #, no-c-format
 msgid ""
-"The homepage of that project is <ulink url=\"http://kdesvn.alwins-world.de/\">"
-"here</ulink>"
+"The homepage of that project is <ulink url=\"http://kdesvn.alwins-world.de/"
+"\">here</ulink>"
 msgstr ""
 
 #. Tag: para
@@ -4495,17 +4373,15 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You need installed subversion 1.5 or above and &kde; 4.9.x or above. "
-"Subversion "
-"prior 1.5 is NOT supported!"
+"Subversion prior 1.5 is NOT supported!"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2310
 #, no-c-format
 msgid ""
-"Subversion may found on <ulink url=\"http://subversion.tigris.org\">"
-"its homepage</ulink> but your distributor should have packages for your "
-"system "
+"Subversion may found on <ulink url=\"http://subversion.tigris.org\">its "
+"homepage</ulink> but your distributor should have packages for your system "
 "and/or distribution."
 msgstr ""
 
@@ -4513,9 +4389,8 @@ msgstr ""
 #: index.docbook:2316
 #, no-c-format
 msgid ""
-"You can find a list of changes at <ulink "
-"url=\"https://projects.kde.org/projects/playground/devtools/kdesvn/activity\">"
-"this page</ulink>."
+"You can find a list of changes at <ulink url=\"https://projects.kde.org/"
+"projects/playground/devtools/kdesvn/activity\">this page</ulink>."
 msgstr ""
 
 #. Tag: title
@@ -4540,10 +4415,9 @@ msgstr ""
 msgid ""
 "<prompt>%</prompt> <userinput><command>mkdir</command> build</userinput>\n"
 "<prompt>%</prompt> <userinput><command>cd</command> build</userinput>\n"
-"<prompt>%</prompt> <userinput><command>cmake</command> "
-"../ -DCMAKE_INSTALL_PREFIX=`kde-config --prefix` "
-"-DCMAKE_BUILD_TYPE=Release</userinput>\n"
+"<prompt>%</prompt> <userinput><command>cmake</command> ../ -"
+"DCMAKE_INSTALL_PREFIX=`kde-config --prefix` -DCMAKE_BUILD_TYPE=Release</"
+"userinput>\n"
 "<prompt>%</prompt> <userinput><command>make</command></userinput>\n"
 "<prompt>%</prompt> <userinput><command>make</command> install</userinput>"
 msgstr ""
-

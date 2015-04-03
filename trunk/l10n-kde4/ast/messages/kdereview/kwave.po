@@ -922,12 +922,12 @@ msgstr ""
 #: kwave/TopWidget.cpp:1030 plugins/codec_audiofile/AudiofileDecoder.cpp:104
 #: plugins/codec_flac/FlacEncoder.cpp:246
 #: plugins/codec_flac/FlacEncoder.cpp:264
-#: plugins/codec_flac/FlacEncoder.cpp:279
-#: plugins/codec_mp3/MP3Decoder.cpp:507 plugins/codec_ogg/OpusCommon.cpp:73
-#: plugins/codec_ogg/OpusDecoder.cpp:388 plugins/codec_ogg/OpusEncoder.cpp:381
-#: plugins/codec_ogg/OpusEncoder.cpp:434 plugins/codec_wav/WavDecoder.cpp:365
-#: plugins/codec_wav/WavEncoder.cpp:428 plugins/playback/PlayBack-OSS.cpp:245
-#: plugins/playback/PlayBack-OSS.cpp:253 plugins/playback/PlayBack-Phonon.cpp:150
+#: plugins/codec_flac/FlacEncoder.cpp:279 plugins/codec_mp3/MP3Decoder.cpp:507
+#: plugins/codec_ogg/OpusCommon.cpp:73 plugins/codec_ogg/OpusDecoder.cpp:388
+#: plugins/codec_ogg/OpusEncoder.cpp:381 plugins/codec_ogg/OpusEncoder.cpp:434
+#: plugins/codec_wav/WavDecoder.cpp:365 plugins/codec_wav/WavEncoder.cpp:428
+#: plugins/playback/PlayBack-OSS.cpp:245 plugins/playback/PlayBack-OSS.cpp:253
+#: plugins/playback/PlayBack-Phonon.cpp:150
 #: plugins/playback/PlayBack-Phonon.cpp:181
 #: plugins/playback/PlayBack-Phonon.cpp:194
 #: plugins/record/RecordPlugin.cpp:876 plugins/record/RecordPlugin.cpp:892
@@ -2772,7 +2772,8 @@ msgid ""
 "under '%1'/'%2'."
 msgstr ""
 
-#: libkwave/SignalManager.cpp:1406 plugins/stringenter/StringEnterPlugin.cpp:50
+#: libkwave/SignalManager.cpp:1406
+#: plugins/stringenter/StringEnterPlugin.cpp:50
 msgid "Settings"
 msgstr ""
 
@@ -3004,7 +3005,8 @@ msgid "Fade Leadout"
 msgstr ""
 
 #: plugins/band_pass/BandPassDialog.cpp:59
-#: plugins/lowpass/LowPassDialog.cpp:58 plugins/notch_filter/NotchFilterDialog.cpp:62
+#: plugins/lowpass/LowPassDialog.cpp:58
+#: plugins/notch_filter/NotchFilterDialog.cpp:62
 #: plugins/sonagram/SonagramWindow.cpp:156
 msgid "Hz"
 msgstr ""
@@ -3027,7 +3029,8 @@ msgstr ""
 #: plugins/band_pass/BandPassDialog.cpp:194
 #: plugins/band_pass/BandPassDlg.ui:164 plugins/lowpass/LowPassDialog.cpp:170
 #: plugins/lowpass/LowPassDlg.ui:157 plugins/noise/NoiseDialog.cpp:355
-#: plugins/noise/NoiseDlg.ui:241 plugins/notch_filter/NotchFilterDialog.cpp:198
+#: plugins/noise/NoiseDlg.ui:241
+#: plugins/notch_filter/NotchFilterDialog.cpp:198
 #: plugins/notch_filter/NotchFilterDlg.ui:196
 #: plugins/pitch_shift/PitchShiftDialog.cpp:326
 #: plugins/pitch_shift/PitchShiftDlg.ui:66
@@ -3035,7 +3038,8 @@ msgid "&Listen"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, BandPassDlg)
-#: plugins/band_pass/BandPassDlg.ui:14 plugins/band_pass/BandPassPlugin.cpp:123
+#: plugins/band_pass/BandPassDlg.ui:14
+#: plugins/band_pass/BandPassPlugin.cpp:123
 msgid "Band Pass"
 msgstr ""
 
@@ -3079,8 +3083,7 @@ msgid "ASCII encoded audio"
 msgstr ""
 
 #: plugins/codec_ascii/AsciiEncoder.cpp:94
-#: plugins/codec_flac/FlacEncoder.cpp:213
-#: plugins/codec_ogg/OggEncoder.cpp:121
+#: plugins/codec_flac/FlacEncoder.cpp:213 plugins/codec_ogg/OggEncoder.cpp:121
 msgid "Unable to open the file for saving."
 msgstr ""
 
@@ -3896,7 +3899,8 @@ msgstr ""
 msgid "&No, store uncompressed"
 msgstr ""
 
-#: plugins/codec_wav/WavEncoder.cpp:403 plugins/sonagram/SonagramPlugin.cpp:207
+#: plugins/codec_wav/WavEncoder.cpp:403
+#: plugins/sonagram/SonagramPlugin.cpp:207
 msgid "File or selection too large"
 msgstr ""
 
@@ -4024,8 +4028,8 @@ msgid "%1 MB (%2 byte)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblRate)
-#: plugins/fileinfo/FileInfoDialog.cpp:232
-#: plugins/newsignal/NewSigDlg.ui:102 plugins/record/RecordDlg.ui:698
+#: plugins/fileinfo/FileInfoDialog.cpp:232 plugins/newsignal/NewSigDlg.ui:102
+#: plugins/record/RecordDlg.ui:698
 msgid "Sample rate:"
 msgstr ""
 
@@ -4037,8 +4041,8 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblResolution)
-#: plugins/fileinfo/FileInfoDialog.cpp:241
-#: plugins/newsignal/NewSigDlg.ui:206 plugins/record/RecordDlg.ui:912
+#: plugins/fileinfo/FileInfoDialog.cpp:241 plugins/newsignal/NewSigDlg.ui:206
+#: plugins/record/RecordDlg.ui:912
 msgid "Resolution:"
 msgstr ""
 
@@ -4049,8 +4053,8 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannels)
-#: plugins/fileinfo/FileInfoDialog.cpp:249
-#: plugins/newsignal/NewSigDlg.ui:196 plugins/record/RecordDlg.ui:708
+#: plugins/fileinfo/FileInfoDialog.cpp:249 plugins/newsignal/NewSigDlg.ui:196
+#: plugins/record/RecordDlg.ui:708
 msgid "Tracks:"
 msgstr ""
 
@@ -4889,21 +4893,20 @@ msgid "Opening the device '%1' failed: %2"
 msgstr ""
 
 #: plugins/playback/PlayBack-ALSA.cpp:840
-#: plugins/playback/PlayBack-ALSA.cpp:854
-#: plugins/record/Record-ALSA.cpp:1046 plugins/record/Record-ALSA.cpp:1059
+#: plugins/playback/PlayBack-ALSA.cpp:854 plugins/record/Record-ALSA.cpp:1046
+#: plugins/record/Record-ALSA.cpp:1059
 #, kde-format
 msgid "Card %1: "
 msgstr ""
 
 #: plugins/playback/PlayBack-ALSA.cpp:842
-#: plugins/playback/PlayBack-ALSA.cpp:856
-#: plugins/record/Record-ALSA.cpp:1048 plugins/record/Record-ALSA.cpp:1061
+#: plugins/playback/PlayBack-ALSA.cpp:856 plugins/record/Record-ALSA.cpp:1048
+#: plugins/record/Record-ALSA.cpp:1061
 #, kde-format
 msgid "Device %1: "
 msgstr ""
 
-#: plugins/playback/PlayBack-ALSA.cpp:844
-#: plugins/record/Record-ALSA.cpp:1050
+#: plugins/playback/PlayBack-ALSA.cpp:844 plugins/record/Record-ALSA.cpp:1050
 #, kde-format
 msgid "Subdevice %1: "
 msgstr ""
@@ -5002,8 +5005,7 @@ msgid "(mono)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannels)
-#: plugins/playback/PlayBackDialog.cpp:606
-#: plugins/playback/PlayBackDlg.ui:350
+#: plugins/playback/PlayBackDialog.cpp:606 plugins/playback/PlayBackDlg.ui:350
 msgid "(stereo)"
 msgstr ""
 
@@ -6076,4 +6078,3 @@ msgstr ""
 #: plugins/zero/ZeroPlugin.cpp:62
 msgid "Silence"
 msgstr ""
-

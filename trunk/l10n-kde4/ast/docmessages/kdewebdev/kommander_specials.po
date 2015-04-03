@@ -8,10 +8,10 @@ msgstr ""
 "PO-Revision-Date: 2015-03-31 01:43+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ast\n"
 "X-Generator: Lokalize 2.0\n"
 
 #. Tag: title
@@ -36,27 +36,26 @@ msgstr ""
 #: specials.docbook:22
 #, no-c-format
 msgid ""
-"Specials are functions that are processed by &kommander;. You should be aware "
-"that until &kommander; has a full parser all &kommander; specials will be "
-"executed first and then the script will be executed. In most cases this is "
-"not "
-"a problem, but in a few it is."
+"Specials are functions that are processed by &kommander;. You should be "
+"aware that until &kommander; has a full parser all &kommander; specials will "
+"be executed first and then the script will be executed. In most cases this "
+"is not a problem, but in a few it is."
 msgstr ""
 
 #. Tag: function
 #: specials.docbook:28
 #, no-c-format
 msgid ""
-"@dcop(<parameter>appId</parameter>, <parameter>object</parameter>, <parameter>"
-"function</parameter>, <parameter>arguments</parameter>)"
+"@dcop(<parameter>appId</parameter>, <parameter>object</parameter>, "
+"<parameter>function</parameter>, <parameter>arguments</parameter>)"
 msgstr ""
 
 #. Tag: para
 #: specials.docbook:30
 #, no-c-format
 msgid ""
-"Make a &DCOP; call. @dcop(<quote>kmail</quote>, <quote>KMailIface</quote>"
-", <quote>checkMail()</quote>, <quote></quote>)"
+"Make a &DCOP; call. @dcop(<quote>kmail</quote>, <quote>KMailIface</quote>, "
+"<quote>checkMail()</quote>, <quote></quote>)"
 msgstr ""
 
 #. Tag: function
@@ -82,14 +81,13 @@ msgstr ""
 #: specials.docbook:48
 #, no-c-format
 msgid ""
-"Launches the specified Kommander dialog. Dialog is sought in dialog directory "
-"and in current directory - in that order. This prepends the call to the "
-"executor and sets the default directory to the one the Kommander application "
-"is "
-"in. Parameters can be passed in the usual Unix way or you can pass named "
-"parameters like <quote>variable=value</quote>. You can then find passed "
-"parameters in the global pool. @global(variable) would return <quote>"
-"value</quote>."
+"Launches the specified Kommander dialog. Dialog is sought in dialog "
+"directory and in current directory - in that order. This prepends the call "
+"to the executor and sets the default directory to the one the Kommander "
+"application is in. Parameters can be passed in the usual Unix way or you can "
+"pass named parameters like <quote>variable=value</quote>. You can then find "
+"passed parameters in the global pool. @global(variable) would return "
+"<quote>value</quote>."
 msgstr ""
 
 #. Tag: function
@@ -129,10 +127,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "same as <function>@exec</function>, but supports shebang and multiline "
-"scripts. "
-"This serves for various scripting languages either by declaring them or using "
-"a "
-"shebang."
+"scripts. This serves for various scripting languages either by declaring "
+"them or using a shebang."
 msgstr ""
 
 #. Tag: function
@@ -151,20 +147,18 @@ msgstr ""
 #: specials.docbook:82
 #, no-c-format
 msgid ""
-"The first one uses the name of the <acronym>PHP</acronym> "
-"executable. &kommander; searches PATH for <application>php</application> "
-"and if it is not found looks to see if it is registered with &kommander; in a "
-"location outside of your path. If not it tells the user it cannot be found. "
-"The "
-"second examples uses the classic <quote>shebang</quote> "
-"which can have some benefits and also problems. If you have a beta copy of "
-"<acronym>PHP5</acronym>, for instance, in <filename>/usr/local/bin</filename> "
-"which would not be found because it would find on in <filename>"
-"/usr/bin</filename> this is useful. If, however, you distribute the dialog to "
-"someone who has <acronym>PHP</acronym> in <filename>/usr/local/bin</filename> "
-"only it will not be found with the shebang used. So using shebangs is "
-"cautioned "
-"and using the executable is recommended if you are sharing files."
+"The first one uses the name of the <acronym>PHP</acronym> executable. "
+"&kommander; searches PATH for <application>php</application> and if it is "
+"not found looks to see if it is registered with &kommander; in a location "
+"outside of your path. If not it tells the user it cannot be found. The "
+"second examples uses the classic <quote>shebang</quote> which can have some "
+"benefits and also problems. If you have a beta copy of <acronym>PHP5</"
+"acronym>, for instance, in <filename>/usr/local/bin</filename> which would "
+"not be found because it would find on in <filename>/usr/bin</filename> this "
+"is useful. If, however, you distribute the dialog to someone who has "
+"<acronym>PHP</acronym> in <filename>/usr/local/bin</filename> only it will "
+"not be found with the shebang used. So using shebangs is cautioned and using "
+"the executable is recommended if you are sharing files."
 msgstr ""
 
 #. Tag: function
@@ -190,8 +184,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Returns null. Now that Kommander checks for empty widgetText on execution "
-"this "
-"will prevent erroneous errors in the case of an unset state on a widget."
+"this will prevent erroneous errors in the case of an unset state on a widget."
 msgstr ""
 
 #. Tag: function
@@ -241,8 +234,8 @@ msgstr ""
 #: specials.docbook:131
 #, no-c-format
 msgid ""
-"the selected content in a widget that can show more than one value, like list "
-"widgets"
+"the selected content in a widget that can show more than one value, like "
+"list widgets"
 msgstr ""
 
 #. Tag: function
@@ -298,8 +291,8 @@ msgstr ""
 #: specials.docbook:172
 #, no-c-format
 msgid ""
-"Returns an EOL-separated list of all values in the array. Can be used to walk "
-"through an array."
+"Returns an EOL-separated list of all values in the array. Can be used to "
+"walk through an array."
 msgstr ""
 
 #. Tag: function
@@ -318,8 +311,8 @@ msgstr ""
 #: specials.docbook:184
 #, no-c-format
 msgid ""
-"@Array.setValue(<parameter>array</parameter>, <parameter>key</parameter>"
-", <parameter>value</parameter>)"
+"@Array.setValue(<parameter>array</parameter>, <parameter>key</parameter>, "
+"<parameter>value</parameter>)"
 msgstr ""
 
 #. Tag: para
@@ -389,8 +382,8 @@ msgstr ""
 #: specials.docbook:221
 #, no-c-format
 msgid ""
-"Add all elements in the string to the array. String should have <emphasis>"
-"key\\tvalue\\n</emphasis> format.\""
+"Add all elements in the string to the array. String should have <emphasis>key"
+"\\tvalue\\n</emphasis> format.\""
 msgstr ""
 
 #. Tag: function
@@ -472,9 +465,8 @@ msgstr ""
 #: specials.docbook:275
 #, no-c-format
 msgid ""
-"@String.contains(<parameter>string</parameter>,<parameter>substring<"
-"/parameter>"
-")"
+"@String.contains(<parameter>string</parameter>,<parameter>substring</"
+"parameter>)"
 msgstr ""
 
 #. Tag: para
@@ -499,8 +491,8 @@ msgstr ""
 #: specials.docbook:285
 #, no-c-format
 msgid ""
-"This will have an optional integer start position for find next uses in Alpha "
-"6."
+"This will have an optional integer start position for find next uses in "
+"Alpha 6."
 msgstr ""
 
 #. Tag: function
@@ -532,8 +524,8 @@ msgstr ""
 #: specials.docbook:304
 #, no-c-format
 msgid ""
-"@String.mid(<parameter>string</parameter>, <parameter>int start</parameter>"
-", <parameter>int end</parameter>)"
+"@String.mid(<parameter>string</parameter>, <parameter>int start</parameter>, "
+"<parameter>int end</parameter>)"
 msgstr ""
 
 #. Tag: para
@@ -546,8 +538,8 @@ msgstr ""
 #: specials.docbook:311
 #, no-c-format
 msgid ""
-"@String.remove(<parameter>string</parameter>, <parameter>substring</parameter>"
-")"
+"@String.remove(<parameter>string</parameter>, <parameter>substring</"
+"parameter>)"
 msgstr ""
 
 #. Tag: para
@@ -560,8 +552,8 @@ msgstr ""
 #: specials.docbook:318
 #, no-c-format
 msgid ""
-"@String.replace(<parameter>string</parameter>, <parameter>"
-"substring find</parameter>, <parameter>substring replace</parameter>)"
+"@String.replace(<parameter>string</parameter>, <parameter>substring find</"
+"parameter>, <parameter>substring replace</parameter>)"
 msgstr ""
 
 #. Tag: para
@@ -606,8 +598,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Compare two strings. Return 0 if they are equal, -1 if the first one is "
-"lower, "
-"1 if the first one is higher"
+"lower, 1 if the first one is higher"
 msgstr ""
 
 #. Tag: function
@@ -644,9 +635,8 @@ msgstr ""
 #: specials.docbook:364
 #, no-c-format
 msgid ""
-"Built-in globals are accessed just like regular global variables with <"
-"function>"
-"@global</function>."
+"Built-in globals are accessed just like regular global variables with "
+"<function>@global</function>."
 msgstr ""
 
 #. Tag: function
@@ -672,4 +662,3 @@ msgstr ""
 #, no-c-format
 msgid "The name of the dialog"
 msgstr ""
-
