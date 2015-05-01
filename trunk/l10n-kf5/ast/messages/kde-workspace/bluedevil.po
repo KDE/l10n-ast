@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Frameworks 5 Applications\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-30 08:47+0000\n"
+"POT-Creation-Date: 2015-05-01 08:54+0000\n"
 "PO-Revision-Date: 2015-04-12 19:40+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -182,21 +182,21 @@ msgid "Receiving file over Bluetooth"
 msgstr "Recibiendo ficheru sobro Bluetooth"
 
 #: daemon/kded/filereceiver/receivefilejob.cpp:208
-#: sendfile/sendfilesjob.cpp:112 sendfile/sendfilesjob.cpp:131
+#: sendfile/sendfilesjob.cpp:82 sendfile/sendfilesjob.cpp:97
 #, fuzzy
 msgctxt "File transfer origin"
 msgid "From"
 msgstr "De"
 
 #: daemon/kded/filereceiver/receivefilejob.cpp:209
-#: sendfile/sendfilesjob.cpp:113 sendfile/sendfilesjob.cpp:132
+#: sendfile/sendfilesjob.cpp:83 sendfile/sendfilesjob.cpp:98
 #, fuzzy
 msgctxt "File transfer destination"
 msgid "To"
 msgstr "a"
 
 #: daemon/kded/filereceiver/receivefilejob.cpp:227
-#: kio/obexftp/transferfilejob.cpp:62 sendfile/sendfilesjob.cpp:203
+#: kio/obexftp/transferfilejob.cpp:62 sendfile/sendfilesjob.cpp:169
 #, fuzzy
 #| msgid "Bluetooth Transfer"
 msgid "Bluetooth transfer failed"
@@ -529,7 +529,7 @@ msgid "No Bluetooth adapters have been found."
 msgstr "Nun s'alcontraron adautadores Bluetooth."
 
 #: kcmodule/systemcheck.cpp:76 sendfile/discoverwidget.cpp:147
-#: wizard/pages/discover.cpp:288
+#: wizard/pages/discover.cpp:273
 #, fuzzy
 #| msgid "Bluetooth is not enabled"
 msgid "Bluetooth is disabled."
@@ -538,7 +538,7 @@ msgstr "El Bluetooth nun ta habilitáu"
 #: kcmodule/systemcheck.cpp:78 kcmodule/systemcheck.cpp:89
 #: kcmodule/systemcheck.cpp:99 kcmodule/systemcheck.cpp:110
 #: kcmodule/systemcheck.cpp:121 sendfile/discoverwidget.cpp:152
-#: wizard/pages/discover.cpp:293
+#: wizard/pages/discover.cpp:278
 #, fuzzy
 msgctxt "Action to fix a problem"
 msgid "Fix it"
@@ -647,29 +647,40 @@ msgid "External memory"
 msgstr "Memoria esterna"
 
 #: sendfile/main.cpp:34 sendfile/main.cpp:36
-msgid "Bluetooth Send File Helper"
-msgstr ""
+#, fuzzy
+msgid "Bluetooth Send File Wizard"
+msgstr "Encontu pa preséu Bluetooth"
 
-#: sendfile/pages/connectingpage.cpp:43 wizard/pages/connect.cpp:53
-#: wizard/pages/legacypairingdatabase.cpp:57
+#: sendfile/pages/connectingpage.cpp:45 wizard/pages/connect.cpp:53
 #, fuzzy, kde-format
 msgctxt "Connecting to a Bluetooth device"
 msgid "Connecting to %1..."
 msgstr "Coneutándose a %1"
+
+#: sendfile/pages/failpage.cpp:56
+#, fuzzy
+msgctxt "This string is shown when the wizard fail"
+msgid "The connection to the device has failed"
+msgstr "La configuración del preséu falló"
+
+#: sendfile/pages/failpage.cpp:58
+#, fuzzy, kde-format
+msgid "The connection to %1 has failed"
+msgstr "La configuración de %1 falló"
 
 #: sendfile/pages/selectdeviceandfilespage.cpp:65
 #, fuzzy
 msgid "Open file..."
 msgstr "Abrir ficheru..."
 
-#. i18n: ectx: property (text), widget (QLabel, selectLbl)
+#. i18n: ectx: property (text), widget (KSqueezedTextLabel, selectLbl)
 #: sendfile/pages/selectdeviceandfilespage.cpp:70
-#: sendfile/pages/selectfilediscover.ui:106
+#: sendfile/pages/selectfilediscover.ui:99
 #, fuzzy
 msgid "Select one or more files:"
 msgstr "Esbilla unu o más ficheros:"
 
-#: sendfile/pages/selectdeviceandfilespage.cpp:72
+#: sendfile/pages/selectdeviceandfilespage.cpp:77
 #, fuzzy, kde-format
 msgid "Selected files: <b>%1</b>"
 msgstr "Ficheros esbillaos: <b>%1</b>"
@@ -680,14 +691,16 @@ msgstr "Ficheros esbillaos: <b>%1</b>"
 msgid "Select a device from the list:"
 msgstr "Esbilla un preséu de la llista:"
 
-#: sendfile/sendfilesjob.cpp:111 sendfile/sendfilesjob.cpp:130
+#: sendfile/pages/selectfilespage.cpp:54
+#, kde-format
+msgctxt "Send files to a Bluetooth device"
+msgid "Send to %1"
+msgstr ""
+
+#: sendfile/sendfilesjob.cpp:81 sendfile/sendfilesjob.cpp:96
 #, fuzzy
 msgid "Sending file over Bluetooth"
 msgstr "Unviando ficheru pente Bluetooth"
-
-#: sendfile/sendfilewizard.cpp:52
-msgid "Bluetooth Send Files"
-msgstr ""
 
 #: sendfile/sendfilewizard.cpp:54
 #, fuzzy
@@ -720,18 +733,13 @@ msgstr ""
 msgid "Enable or disable the global KDE Bluetooth integration"
 msgstr ""
 
-#: wizard/bluewizard.cpp:45
-#, fuzzy
-msgid "Bluetooth Device Wizard"
-msgstr "Encontu pa preséu Bluetooth"
-
-#: wizard/bluewizard.cpp:76
+#: wizard/bluewizard.cpp:68
 #, fuzzy
 msgctxt "Action to go to the next page on the wizard"
 msgid "Next"
 msgstr "Siguiente"
 
-#: wizard/bluewizard.cpp:77
+#: wizard/bluewizard.cpp:69
 #, fuzzy
 msgctxt "Action to finish the wizard"
 msgid "Finish"
@@ -739,14 +747,14 @@ msgstr "Finar"
 
 #: wizard/main.cpp:36 wizard/main.cpp:38
 #, fuzzy
-msgid "Bluetooth Wizard"
-msgstr "Encontu pal Bluetooth"
+msgid "Bluetooth Device Wizard"
+msgstr "Encontu pa preséu Bluetooth"
 
 #: wizard/pages/discover.cpp:117
 msgid "Select a device"
 msgstr ""
 
-#: wizard/pages/discover.cpp:290
+#: wizard/pages/discover.cpp:275
 #, fuzzy
 #| msgid "Your default Bluetooth adapter is not visible for remote devices."
 msgid "Your Bluetooth adapter is not pairable."
@@ -759,14 +767,14 @@ msgstr ""
 msgid "Scanning..."
 msgstr "Escaneando..."
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QCheckBox, manualPin)
 #: wizard/pages/discover.ui:86
 #, fuzzy
 msgid "Manual PIN:"
 msgstr "PIN manual:"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, pinText)
-#: wizard/pages/discover.ui:124
+#: wizard/pages/discover.ui:114
 #, fuzzy
 msgid "0000"
 msgstr "0000"
@@ -795,38 +803,35 @@ msgstr "La configuración del preséu falló"
 msgid "The setup of %1 has failed"
 msgstr "La configuración de %1 falló"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: wizard/pages/keyboardpairing.ui:108
+#: wizard/pages/pairing.cpp:75
+#, fuzzy, kde-format
+msgid "Connecting to %1..."
+msgstr "Coneutando a %1..."
+
+#: wizard/pages/pairing.cpp:106
 #, fuzzy
 msgid ""
 "Please introduce the PIN in your keyboard when it appears and press Enter"
 msgstr "Por favor, introduz el PIN nel to tecláu cuando apaeza y primi Enter"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: wizard/pages/legacypairing.ui:108 wizard/pages/ssppairing.cpp:140
+#: wizard/pages/pairing.cpp:108
 #, fuzzy
 msgid "Please introduce the PIN in your device when it appears"
 msgstr "Por favor, introduz el PIN nel to preséu cuando apaeza"
 
-#: wizard/pages/ssppairing.cpp:82
-#, fuzzy, kde-format
-msgid "Connecting to %1..."
-msgstr "Coneutando a %1..."
-
-#: wizard/pages/ssppairing.cpp:116
+#: wizard/pages/pairing.cpp:123
 #, fuzzy
 msgid "Matches"
 msgstr "Concasa"
 
-#: wizard/pages/ssppairing.cpp:120
+#: wizard/pages/pairing.cpp:127
 #, fuzzy
 msgid "Does not match"
 msgstr "Nun concasa"
 
-#: wizard/pages/ssppairing.cpp:133
+#: wizard/pages/pairing.cpp:142
 #, kde-format
-msgid ""
-"Please, confirm that the PIN displayed on \"%1\" matches the wizard one."
+msgid "Please, confirm that the PIN displayed on %1 matches the wizard one."
 msgstr ""
 
 #: wizard/pages/success.cpp:59
@@ -842,6 +847,10 @@ msgstr "La configuración del preséu falló"
 #| msgid "The setup of %1 has failed"
 msgid "The setup of %1 has succeeded"
 msgstr "La configuración de %1 falló"
+
+#, fuzzy
+#~ msgid "Bluetooth Wizard"
+#~ msgstr "Encontu pal Bluetooth"
 
 #, fuzzy
 #~ msgid "Alejandro Fiestas Olivares"
