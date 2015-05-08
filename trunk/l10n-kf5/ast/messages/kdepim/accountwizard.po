@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-06 08:42+0000\n"
+"POT-Creation-Date: 2015-05-08 08:51+0000\n"
 "PO-Revision-Date: 2015-04-06 22:19+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -27,20 +27,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
-#: configfile.cpp:46
+#: configfile.cpp:48
 #, fuzzy, kde-format
 msgid "Writing config file for %1..."
 msgstr "Escribiendo'l ficheru de configuración pa %1"
 
-#: configfile.cpp:58
+#: configfile.cpp:65
 #, fuzzy, kde-format
 msgid "Config file for %1 is writing."
 msgstr "Ta escribiéndose'l ficheru de configuración pa %1"
 
-#: configfile.cpp:63
+#: configfile.cpp:70
 #, fuzzy, kde-format
 msgid "Config file for %1 was not changed."
 msgstr "Nun se camudó'l ficheru de configuración pa %1"
+
+#: configfile.cpp:101
+msgid "No given name for the configuration"
+msgstr ""
+
+#: configfile.cpp:112
+#, kde-format
+msgid "Unknown configurationname '%1'"
+msgstr ""
 
 #: dialog.cpp:55
 msgid "Provide personal data"
@@ -87,17 +96,17 @@ msgstr "Ensin nome"
 msgid "Identity removed."
 msgstr "Identidá desaniciada."
 
-#: ispdb/ispdb.cpp:69
+#: ispdb/ispdb.cpp:378
 #, fuzzy
 msgid "Lookup configuration: Email provider"
 msgstr "Configuración de gueta: fornidor de corréu"
 
-#: ispdb/ispdb.cpp:74
+#: ispdb/ispdb.cpp:382
 #, fuzzy
 msgid "Lookup configuration: Trying common server name"
 msgstr "Configuración de gueta: probando nome de sirvidor común"
 
-#: ispdb/ispdb.cpp:79
+#: ispdb/ispdb.cpp:386
 #, fuzzy
 msgid "Lookup configuration: Mozilla database"
 msgstr "Configuración de gueta: base de datos Mozilla"
@@ -132,20 +141,37 @@ msgstr "Tom Albers"
 msgid "Tries to fetch the settings for that email address"
 msgstr "Intenta atrayer los axustes pa esa direición de corréu"
 
-#: ldap.cpp:37
+#: ldap.cpp:55
 #, fuzzy
 msgid "Setting up LDAP server..."
 msgstr "Configurando sirvidor LDAP..."
 
-#: ldap.cpp:89
+#: ldap.cpp:58
+#, kde-format
+msgid "Needed parameters are missing for ldap config server='%1'"
+msgstr ""
+
+#: ldap.cpp:142
 #, fuzzy
 msgid "LDAP set up."
 msgstr "Configuración LDAP."
 
-#: ldap.cpp:94
+#: ldap.cpp:155
+msgid "Unknown security setting for LDAP server"
+msgstr ""
+
+#: ldap.cpp:162
 #, fuzzy
 msgid "LDAP not configuring."
 msgstr "LDAP non configuráu."
+
+#: ldap.cpp:198
+msgid "Removed LDAP entry."
+msgstr ""
+
+#: ldap.cpp:205
+msgid "No config found to edit"
+msgstr ""
 
 #: loadpage.cpp:49
 #, fuzzy, kde-format
@@ -221,57 +247,57 @@ msgstr "POP3, %1"
 msgid "Fetching provider list..."
 msgstr "Atrayendo llista de fornidores..."
 
-#: resource.cpp:83
+#: resource.cpp:84
 #, fuzzy, kde-format
 msgid "Resource type '%1' is not available."
 msgstr "Nun ta disponible la triba de recursu '%1'."
 
-#: resource.cpp:93
+#: resource.cpp:97
 #, fuzzy, kde-format
 msgid "Resource '%1' is already set up."
 msgstr "Yá ta configuráu'l recursu '%1'."
 
-#: resource.cpp:99
+#: resource.cpp:103
 #, fuzzy, kde-format
 msgid "Creating resource instance for '%1'..."
 msgstr "Creando la instancia del recursu pa '%1'..."
 
-#: resource.cpp:108
+#: resource.cpp:112
 #, fuzzy, kde-format
 msgid "Failed to create resource instance: %1"
 msgstr "Fallu al crear la instancia del recursu: %1"
 
-#: resource.cpp:115
+#: resource.cpp:119
 #, fuzzy
 msgid "Configuring resource instance..."
 msgstr "Configurando instancia del recursu..."
 
-#: resource.cpp:118
+#: resource.cpp:122
 #, fuzzy
 msgid "Unable to configure resource instance."
 msgstr "Nun pue configurase la instancia del recursu."
 
-#: resource.cpp:133
+#: resource.cpp:137
 #, fuzzy, kde-format
 msgid "Could not convert value of setting '%1' to required type %2."
 msgstr "Nun pudo convertise'l valor del axuste ''%1' a la triba riquida %2."
 
-#: resource.cpp:139
+#: resource.cpp:143
 #, fuzzy, kde-format
 msgid "Could not set setting '%1': %2"
 msgstr "Nun pudo afitase l'axuste '%1': %2"
 
-#: resource.cpp:146
+#: resource.cpp:153
 #, fuzzy
 msgid "Resource setup completed."
 msgstr "Configuración del recursu completada"
 
-#: resource.cpp:153
+#: resource.cpp:167
 #, fuzzy, kde-format
 msgid "Removed resource instance for '%1'."
 msgstr "Desanicióse la instancia del recursu pa '%1'."
 
-#: servertest.cpp:56
+#: servertest.cpp:61
 #, fuzzy
 msgid ""
 "There seems to be a problem in reaching this server or choosing a safe way "
@@ -282,45 +308,66 @@ msgstr ""
 "unviar les credenciales al sirvidor. Aconseyámoste comprobar los axustes de "
 "la cuenta y axustalos a mano si se necesita."
 
-#: servertest.cpp:59
+#: servertest.cpp:64
 #, fuzzy
 msgid "Autodetecting settings failed"
 msgstr "Deteición automática d'axustes fallida"
 
+#: setupautoconfigkolabfreebusy.cpp:87 setupautoconfigkolabldap.cpp:86
+#: setupispdb.cpp:150
+msgid "Searching for autoconfiguration..."
+msgstr ""
+
+#: setupautoconfigkolabfreebusy.cpp:112 setupautoconfigkolabldap.cpp:111
+#: setupispdb.cpp:175
+msgid "Autoconfiguration found."
+msgstr ""
+
+#: setupautoconfigkolabfreebusy.cpp:114 setupautoconfigkolabldap.cpp:113
+#: setupispdb.cpp:177
+#, fuzzy
+msgid "Autoconfiguration failed."
+msgstr "Deteición automática d'axustes fallida"
+
 #. i18n: ectx: property (text), widget (QLabel, progressLabel)
-#: setupmanager.cpp:90 ui/setuppage.ui:37
+#: setupmanager.cpp:96 ui/setuppage.ui:37
 #, fuzzy
 msgid "Setting up account..."
 msgstr "Configurando cuenta..."
 
-#: setupmanager.cpp:136
+#: setupmanager.cpp:143
 #, fuzzy
 msgid "Setup complete."
 msgstr "Configuración completada."
 
-#: setupmanager.cpp:150
+#: setupmanager.cpp:158
 msgid "Failed to set up account, rolling back..."
 msgstr ""
 
-#: setupmanager.cpp:162
+#: setupmanager.cpp:170
 #, fuzzy
 msgid "Failed to set up account."
 msgstr "Fallu al configurar la cuenta."
 
-#: transport.cpp:89
+#: transport.cpp:90
 #, fuzzy
 msgid "Setting up mail transport account..."
 msgstr "Configurando cuenta de tresporte de corréu..."
 
-#: transport.cpp:110
+#: transport.cpp:114
 #, fuzzy
 msgid "Mail transport account set up."
 msgstr "Configuración de cuenta de tresporte de corréu."
 
-#: transport.cpp:116
+#: transport.cpp:120
 #, fuzzy
 msgid "Mail transport account deleted."
 msgstr "Cuenta de tresporte de corréu desaniciada"
+
+#: transport.cpp:127
+#, kde-format
+msgid "Could not load config dialog for uid=%1"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
 #: ui/loadpage.ui:30
