@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-03 08:55+0000\n"
+"POT-Creation-Date: 2015-05-14 08:51+0000\n"
 "PO-Revision-Date: 2015-04-06 02:13+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -230,28 +230,28 @@ msgstr "Ensin campu de visión"
 msgid "No color named \"%1\" found in color scheme."
 msgstr "Nun s'alcontró dengún esquema de color «%1»."
 
-#: auxiliary/colorscheme.cpp:142 kstarsdata.cpp:826 options/opscolors.cpp:57
+#: auxiliary/colorscheme.cpp:142 kstarsdata.cpp:820 options/opscolors.cpp:57
 #: tools/scriptbuilder.cpp:707
 #, fuzzy
 msgctxt "use default color scheme"
 msgid "Default Colors"
 msgstr "Colores predeterminaos"
 
-#: auxiliary/colorscheme.cpp:144 kstarsdata.cpp:827 options/opscolors.cpp:58
+#: auxiliary/colorscheme.cpp:144 kstarsdata.cpp:821 options/opscolors.cpp:58
 #: tools/scriptbuilder.cpp:708
 #, fuzzy
 msgctxt "use 'star chart' color scheme"
 msgid "Star Chart"
 msgstr "Carta estelar"
 
-#: auxiliary/colorscheme.cpp:146 kstarsdata.cpp:828 options/opscolors.cpp:59
+#: auxiliary/colorscheme.cpp:146 kstarsdata.cpp:822 options/opscolors.cpp:59
 #: tools/scriptbuilder.cpp:709
 #, fuzzy
 msgctxt "use 'night vision' color scheme"
 msgid "Night Vision"
 msgstr "Visión nocherniega"
 
-#: auxiliary/colorscheme.cpp:162 kstarsdata.cpp:845
+#: auxiliary/colorscheme.cpp:162 kstarsdata.cpp:839
 #, fuzzy, kde-format
 msgid "Unable to load color scheme named %1. Also tried %2."
 msgstr ""
@@ -274,8 +274,8 @@ msgstr ""
 #: tools/modcalcgalcoord.cpp:193 tools/modcalcgeodcoord.cpp:232
 #: tools/modcalcjd.cpp:121 tools/modcalcplanets.cpp:208
 #: tools/modcalcsidtime.cpp:200 tools/modcalcvizequinox.cpp:84
-#: tools/modcalcvlsr.cpp:274 tools/observinglist.cpp:724
-#: tools/observinglist.cpp:847 tools/scriptbuilder.cpp:776
+#: tools/modcalcvlsr.cpp:274 tools/observinglist.cpp:725
+#: tools/observinglist.cpp:848 tools/scriptbuilder.cpp:776
 #: tools/scriptbuilder.cpp:844 tools/scriptbuilder.cpp:916
 #, fuzzy
 msgid "Could Not Open File"
@@ -1045,7 +1045,7 @@ msgid "Check URL"
 msgstr "Comprobar URL"
 
 #. i18n: ectx: property (text), widget (QPushButton, DetailButton)
-#: dialogs/detaildialog.cpp:85 skymap.cpp:726 tools/wutdialog.ui:480
+#: dialogs/detaildialog.cpp:85 skymap.cpp:738 tools/wutdialog.ui:480
 #, fuzzy
 msgid "Object Details"
 msgstr "Detalles d'oxetu"
@@ -1062,7 +1062,7 @@ msgstr "Xeneral"
 #: kstarsinit.cpp:636 printing/detailstable.cpp:87
 #: printing/pwizobjectselection.cpp:114 skycomponents/starcomponent.cpp:451
 #: skycomponents/starcomponent.cpp:460 skycomponents/starcomponent.cpp:469
-#: skyobjects/starobject.cpp:501 tools/observinglist.cpp:470
+#: skyobjects/starobject.cpp:501 tools/observinglist.cpp:471
 #: tools/wutdialog.cpp:278
 #, fuzzy
 msgid "star"
@@ -1254,7 +1254,7 @@ msgid "Log"
 msgstr "Rexistru"
 
 #: dialogs/detaildialog.cpp:683 skyobjects/skyobject.cpp:429
-#: tools/observinglist.cpp:480 tools/observinglist.cpp:688
+#: tools/observinglist.cpp:481 tools/observinglist.cpp:689
 #, fuzzy, kde-format
 msgid "Record here observation logs and/or data on %1."
 msgstr "Atroxar equí rexistros d'observación y/o información sobre %1."
@@ -1278,13 +1278,13 @@ msgstr "Confirmación d'esborráu"
 #: dialogs/detaildialog.cpp:1092 dialogs/detaildialog.cpp:1122
 #: fitsviewer/fitsview.cpp:202 fitsviewer/fitsview.cpp:237
 #: tools/flagmanager.cpp:257 tools/flagmanager.cpp:286
-#: tools/observinglist.cpp:559 tools/observinglist.cpp:589
+#: tools/observinglist.cpp:560 tools/observinglist.cpp:590
 #, fuzzy
 msgid "KStars did not find any active telescopes."
 msgstr "KStars nun alcontró dengún telescopiu activu."
 
 #: dialogs/detaildialog.cpp:1108 fitsviewer/fitsview.cpp:218
-#: tools/flagmanager.cpp:273 tools/observinglist.cpp:575
+#: tools/flagmanager.cpp:273 tools/observinglist.cpp:576
 #, fuzzy, kde-format
 msgid "Telescope %1 is offline. Please connect and retry again."
 msgstr "El telescopiu %1 nun ta coneutáu. Conéutelu ya téntelo otra vegada."
@@ -8120,7 +8120,7 @@ msgstr "Información"
 msgid "Center Crosshair"
 msgstr "Cruceta de seguimientu"
 
-#: kstars.cpp:173 kstarsactions.cpp:1001 skymap.cpp:404
+#: kstars.cpp:173 kstarsactions.cpp:1001 skymap.cpp:405
 #, fuzzy
 msgid "Stop &Tracking"
 msgstr "Detener &seguimientu"
@@ -8135,13 +8135,13 @@ msgstr "&Coordenaes horizontales"
 msgid "Switch to star globe view (Equatorial &Coordinates)"
 msgstr "&Coordenaes ecuatoriales"
 
-#: kstars.cpp:182 kstarsinit.cpp:243 skymap.cpp:1103
+#: kstars.cpp:182 kstarsinit.cpp:243 skymap.cpp:1115
 msgid "Switch to QPainter backend"
 msgstr ""
 
 #. i18n: ectx: label, entry (UseGL), group (View)
-#: kstars.cpp:182 kstars.kcfg:755 kstarsinit.cpp:243 skymap.cpp:1081
-#: skymap.cpp:1089 skymap.cpp:1097
+#: kstars.cpp:182 kstars.kcfg:755 kstarsinit.cpp:243 skymap.cpp:1093
+#: skymap.cpp:1101 skymap.cpp:1109
 msgid "Switch to OpenGL backend"
 msgstr ""
 
@@ -47940,7 +47940,7 @@ msgstr "Destín d'atroxáu nun válidu"
 msgid "Try Another"
 msgstr "Intentar otru"
 
-#: kstarsactions.cpp:786 tools/observinglist.cpp:847
+#: kstarsactions.cpp:786 tools/observinglist.cpp:848
 #, fuzzy
 msgid "Do Not Try"
 msgstr "Nun intentar"
@@ -47961,8 +47961,8 @@ msgstr "Nun se puede descargar el ficheru."
 msgid "Download Error"
 msgstr "Fallu de descarga"
 
-#: kstarsactions.cpp:847 kstarsdata.cpp:719 oal/execute.cpp:309
-#: tools/observinglist.cpp:723
+#: kstarsactions.cpp:847 kstarsdata.cpp:713 oal/execute.cpp:309
+#: tools/observinglist.cpp:724
 #, fuzzy, kde-format
 msgid "Could not open file %1"
 msgstr "Imposible abrir el ficheru %1"
@@ -48138,12 +48138,12 @@ msgstr "Cargando URL d'información"
 msgid "Queueing update of list of supernovae from the internet"
 msgstr ""
 
-#: kstarsdata.cpp:538
+#: kstarsdata.cpp:532
 #, fuzzy
 msgid "No localized URL file; using default English file."
 msgstr "Nun hai ficheru de URL traducíu, usando'l predetermináu n'inglés."
 
-#: kstarsdata.cpp:553
+#: kstarsdata.cpp:547
 #, fuzzy
 msgid ""
 "Failed to copy default URL file to locale folder, modifying default object "
@@ -48152,17 +48152,17 @@ msgstr ""
 "Fallu al copiar el URL predetermináu al direutoriu de traducciones, nun ye "
 "dable modificar los enllaces d'oxetos predeterminaos."
 
-#: kstarsdata.cpp:588
+#: kstarsdata.cpp:582
 #, fuzzy, kde-format
 msgid "Object named %1 not found"
 msgstr "Nun s'alcuentra l'oxetu denomáu %1"
 
-#: kstarsdata.cpp:885
+#: kstarsdata.cpp:879
 #, fuzzy, kde-format
 msgid "Could not set time: %1 / %2 / %3 ; %4:%5:%6"
 msgstr "Nun se puede afitar la hora: %1 / %2 / %3 ; %4:%5:%6"
 
-#: kstarsdata.cpp:1004
+#: kstarsdata.cpp:998
 #, fuzzy, kde-format
 msgid "Could not set location named %1, %2, %3"
 msgstr "Nun se puede afitar la ubicación denomada %1, %2, %3"
@@ -48751,7 +48751,7 @@ msgstr "Editar símbolos del campu de visión..."
 msgid " Welcome to KStars "
 msgstr " Bienveníu a KStars "
 
-#: kstarsinit.cpp:634 skymap.cpp:364 widgets/infoboxwidget.cpp:127
+#: kstarsinit.cpp:634 skymap.cpp:365 widgets/infoboxwidget.cpp:127
 #, fuzzy
 msgid "nothing"
 msgstr "res"
@@ -52773,34 +52773,34 @@ msgstr ""
 msgid "&Sloan Digital Sky Survey (SDSS)"
 msgstr ""
 
-#: options/opscatalog.cpp:180
+#: options/opscatalog.cpp:181
 msgid ""
 "The selected database will be removed. This action cannot be reversed! "
 "Delete Catalog?"
 msgstr ""
 
-#: options/opscatalog.cpp:182
+#: options/opscatalog.cpp:183
 #, fuzzy
 #| msgid "Delete"
 msgid "Delete Catalog?"
 msgstr "Desaniciar"
 
-#: options/opscatalog.cpp:308
+#: options/opscatalog.cpp:309
 #, fuzzy
 msgid "Index Catalog (IC)"
 msgstr "Catálogu indexado (IC)"
 
-#: options/opscatalog.cpp:312
+#: options/opscatalog.cpp:313
 #, fuzzy
 msgid "New General Catalog (NGC)"
 msgstr "Nuevu Cátalogu Xeneral (NGC)"
 
-#: options/opscatalog.cpp:316
+#: options/opscatalog.cpp:317
 #, fuzzy
 msgid "Messier Catalog (images)"
 msgstr "Catálogu Messier (imáxenes)"
 
-#: options/opscatalog.cpp:320
+#: options/opscatalog.cpp:321
 #, fuzzy
 msgid "Messier Catalog (symbols)"
 msgstr "Catálogu Messier (símbolos)"
@@ -54995,18 +54995,18 @@ msgstr ""
 msgid "Supernova information update failed"
 msgstr ""
 
-#: skymap.cpp:344
+#: skymap.cpp:345
 #, fuzzy, kde-format
 #| msgid "%1<sup>m</sup>, %2"
 msgid "%1: %2<sup>m</sup>"
 msgstr "%1<sup>m</sup>, %2"
 
-#: skymap.cpp:386
+#: skymap.cpp:387
 #, fuzzy
 msgid "Requested Position Below Horizon"
 msgstr "Posición solicitada per debaxo del horizonte"
 
-#: skymap.cpp:387
+#: skymap.cpp:388
 #, fuzzy
 msgid ""
 "The requested position is below the horizon.\n"
@@ -55015,17 +55015,17 @@ msgstr ""
 "La posición solicitada ta per debaxo del horizonte.\n"
 "¿Deseya apuntar ehí de toes formes?"
 
-#: skymap.cpp:389
+#: skymap.cpp:390
 #, fuzzy
 msgid "Go Anyway"
 msgstr "Dir de toes formes"
 
-#: skymap.cpp:389
+#: skymap.cpp:390
 #, fuzzy
 msgid "Keep Position"
 msgstr "Caltener posición"
 
-#: skymap.cpp:448
+#: skymap.cpp:460
 #, fuzzy
 msgid ""
 "Digitized Sky Survey image provided by the Space Telescope Science Institute "
@@ -55034,7 +55034,7 @@ msgstr ""
 "Imaxe del Digitized Sky Survey proporcionada pol Space Telescope Science "
 "Institute [dominiu públicu]."
 
-#: skymap.cpp:484
+#: skymap.cpp:496
 #, fuzzy
 msgid ""
 "Sloan Digital Sky Survey image provided by the Astrophysical Research "
@@ -55043,50 +55043,50 @@ msgstr ""
 "Imaxe del Sloan Digital Sky Survey proporcionada pol Astrophysical Research "
 "Consortium [llibre pa usu non comercial]."
 
-#: skymap.cpp:540
+#: skymap.cpp:552
 #, fuzzy, kde-format
 msgid "Angular distance: %1"
 msgstr "Distancia angular: %1"
 
-#: skymap.cpp:570
+#: skymap.cpp:582
 #, fuzzy
 #| msgid "Select a shape for the field-of-view symbol"
 msgid "Star Hopper: Choose a field-of-view"
 msgstr "Esbille una forma pal símbolu del campu de visión"
 
-#: skymap.cpp:570
+#: skymap.cpp:582
 msgid "FOV to use for star hopping:"
 msgstr ""
 
-#: skymap.cpp:574
+#: skymap.cpp:586
 #, fuzzy
 #| msgid "Select a shape for the field-of-view symbol"
 msgid "Star Hopper: Enter field-of-view to use"
 msgstr "Esbille una forma pal símbolu del campu de visión"
 
-#: skymap.cpp:574
+#: skymap.cpp:586
 msgid "FOV to use for star hopping (in arcminutes):"
 msgstr ""
 
-#: skymap.cpp:726
+#: skymap.cpp:738
 #, fuzzy
 msgid "No object selected."
 msgstr "Dengún oxetu esbilláu."
 
-#: skymap.cpp:1085
+#: skymap.cpp:1097
 msgid ""
 "This version of KStars comes with new experimental OpenGL support. Our "
 "experience is that OpenGL works much faster on machines with hardware "
 "acceleration. Would you like to switch to OpenGL painting backends?"
 msgstr ""
 
-#: skymap.cpp:1096
+#: skymap.cpp:1108
 msgid ""
 "Infoboxes will be disabled as they do not work correctly when using OpenGL "
 "backends as of this version"
 msgstr ""
 
-#: skymap.cpp:1118
+#: skymap.cpp:1130
 msgid "Xplanet binary path is empty in config panel."
 msgstr ""
 
@@ -58637,128 +58637,128 @@ msgctxt "Azimuth"
 msgid "Az"
 msgstr "Ac"
 
-#: tools/observinglist.cpp:241
+#: tools/observinglist.cpp:242
 msgid "Unnamed stars are not supported in the observing lists"
 msgstr ""
 
-#: tools/observinglist.cpp:249
+#: tools/observinglist.cpp:250
 #, kde-format
 msgid "%1 is already in your wishlist."
 msgstr ""
 
-#: tools/observinglist.cpp:255
+#: tools/observinglist.cpp:256
 #, kde-format
 msgid "%1 is already in the session plan."
 msgstr ""
 
-#: tools/observinglist.cpp:294
+#: tools/observinglist.cpp:295
 #, fuzzy, kde-format
 msgid "Added %1 to observing list."
 msgstr "Amestáu %1 a la llista d'observación."
 
-#: tools/observinglist.cpp:337
+#: tools/observinglist.cpp:338
 #, fuzzy, kde-format
 #| msgid "Added %1 to observing list."
 msgid "Added %1 to session list."
 msgstr "Amestáu %1 a la llista d'observación."
 
-#: tools/observinglist.cpp:478
+#: tools/observinglist.cpp:479
 #, fuzzy, kde-format
 msgid "observing notes for %1:"
 msgstr "notes d'observación pa %1:"
 
-#: tools/observinglist.cpp:492
+#: tools/observinglist.cpp:493
 #, fuzzy
 msgid "observing notes (disabled for unnamed star)"
 msgstr "notes d'observación (desactiváu pa estrelles ensin nome)"
 
-#: tools/observinglist.cpp:510
+#: tools/observinglist.cpp:511
 #, fuzzy, kde-format
 #| msgid "Object named %1 not found"
 msgid "Object %1 not found in list."
 msgstr "Nun s'alcuentra l'oxetu denomáu %1"
 
 #. i18n: ectx: property (text), widget (QLabel, NotesLabel)
-#: tools/observinglist.cpp:516 tools/observinglist.cpp:964
+#: tools/observinglist.cpp:517 tools/observinglist.cpp:965
 #: tools/observinglist.ui:622
 msgid "Select an object to record notes on it here:"
 msgstr ""
 
-#: tools/observinglist.cpp:529
+#: tools/observinglist.cpp:530
 msgid "Select a single object to record notes on it here:"
 msgstr ""
 
-#: tools/observinglist.cpp:691
+#: tools/observinglist.cpp:692
 #, fuzzy
 msgid "Observing notes for object:"
 msgstr "Notes d'observación pa l'oxetu:"
 
-#: tools/observinglist.cpp:698
+#: tools/observinglist.cpp:699
 #, fuzzy
 #| msgid "Observing List"
 msgid "Open Observing List"
 msgstr "Llista d'observación"
 
-#: tools/observinglist.cpp:753
+#: tools/observinglist.cpp:754
 msgid "The specified file is invalid"
 msgstr ""
 
-#: tools/observinglist.cpp:762
+#: tools/observinglist.cpp:763
 #, fuzzy
 #| msgid "Are you sure you want to remove the %1 client?"
 msgid "Do you want to save the current session?"
 msgstr "¿Daveres quier desaniciar el veceru %1?"
 
-#: tools/observinglist.cpp:764
+#: tools/observinglist.cpp:765
 #, fuzzy
 #| msgid "Save Current Colors..."
 msgid "Save Current session?"
 msgstr "Guardar los colores actuales..."
 
-#: tools/observinglist.cpp:771
+#: tools/observinglist.cpp:772
 #, fuzzy
 #| msgid "Observing List"
 msgid "Save Observing List"
 msgstr "Llista d'observación"
 
-#: tools/observinglist.cpp:846
+#: tools/observinglist.cpp:847
 #, fuzzy, kde-format
 msgid "Could not open file %1.  Try a different filename?"
 msgstr "Imposible abrir el ficheru %1.  ¿Prebar un nome diferente?"
 
-#: tools/observinglist.cpp:847
+#: tools/observinglist.cpp:848
 #, fuzzy
 msgid "Try Different"
 msgstr "Prebar diferente"
 
-#: tools/observinglist.cpp:913
+#: tools/observinglist.cpp:914
 #, fuzzy
 msgctxt "First letter in 'Find'"
 msgid "F"
 msgstr "F"
 
-#: tools/observinglist.cpp:950
+#: tools/observinglist.cpp:951
 #, fuzzy
 msgid "WUT"
 msgstr "WUT"
 
-#: tools/observinglist.cpp:951
+#: tools/observinglist.cpp:952
 #, fuzzy
 #| msgid "Find Object"
 msgid "Find &Object"
 msgstr "Guetar oxetu"
 
-#: tools/observinglist.cpp:1151
+#: tools/observinglist.cpp:1152
 msgid "This will delete all saved images. Are you sure you want to do this?"
 msgstr ""
 
-#: tools/observinglist.cpp:1151
+#: tools/observinglist.cpp:1152
 #, fuzzy
 #| msgid "Delete"
 msgid "Delete All Images"
 msgstr "Desaniciar"
 
-#: tools/observinglist.cpp:1233
+#: tools/observinglist.cpp:1234
 #, fuzzy
 #| msgctxt "City in Quebec Canada"
 #| msgid "Montreal"
