@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-17 06:00+0000\n"
+"POT-Creation-Date: 2015-05-19 08:36+0000\n"
 "PO-Revision-Date: 2012-12-27 17:18+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -1400,7 +1400,7 @@ msgstr ""
 #: image/kis_base_mask_generator.h:33
 #: plugins/extensions/metadataeditor/editors/exif.ui:860
 #: plugins/extensions/metadataeditor/editors/exif.ui:892
-#: plugins/paintops/libpaintop/kis_pressure_softness_option.cpp:31
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:63
 msgid "Soft"
 msgstr ""
 
@@ -1612,10 +1612,20 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, opacityCBox)
 #: image/kis_layer.cc:210
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:230
+#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:36
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:49
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:56
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:47
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:42
+#: plugins/paintops/experiment/kis_experiment_paintop_settings_widget.cpp:37
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:50
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:42
 #: plugins/paintops/hairy/wdghairyeoptions.ui:297
 #: plugins/paintops/hairy/wdgInkOptions.ui:58
-#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:32
-#: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:26
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:58
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:46
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:44
 msgid "Opacity"
 msgstr ""
 
@@ -2457,10 +2467,10 @@ msgstr ""
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:70
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:73
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:76
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:73
 #: plugins/paintops/hairy/wdghairyeoptions.ui:310
-#: plugins/paintops/hairy/wdgInkOptions.ui:71
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:30
-#: ui/forms/wdgapplyprofile.ui:116 ui/forms/wdgcolorsettings.ui:117
+#: plugins/paintops/hairy/wdgInkOptions.ui:71 ui/forms/wdgapplyprofile.ui:116
+#: ui/forms/wdgcolorsettings.ui:117
 msgid "Saturation"
 msgstr ""
 
@@ -2528,7 +2538,6 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab_general)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:24
 #: ui/dialogs/kis_dlg_preferences.cc:751 ui/dialogs/kis_dlg_preferences.cc:752
-#: ui/kis_paintop_option.cpp:26
 msgid "General"
 msgstr ""
 
@@ -3026,7 +3035,7 @@ msgstr "Axustes"
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:69
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:72
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:75
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:25
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:72
 msgid "Hue"
 msgstr ""
 
@@ -3035,7 +3044,8 @@ msgstr ""
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1243
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:68
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:108
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:35
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:34
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:74
 #: plugins/tools/defaulttools/wdgcolorpicker.ui:29
 msgid "Value"
 msgstr ""
@@ -3250,7 +3260,20 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KisCompositeOpComboBox, cmbComposite)
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:44
-#: plugins/paintops/libpaintop/kis_compositeop_option.cpp:34
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:48
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:38
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:55
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:46
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:41
+#: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:32
+#: plugins/paintops/experiment/kis_experiment_paintop_settings_widget.cpp:36
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:49
+#: plugins/paintops/gridbrush/kis_grid_paintop_settings_widget.cpp:39
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:41
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:54
+#: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:36
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:45
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:46
 #: ui/widgets/kis_cmb_composite.cc:70
 msgid "Blending Mode"
 msgstr ""
@@ -3472,16 +3495,29 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnZoom100)
 #: plugins/extensions/dockers/imagedocker/forms/wdgImageViewPopup.ui:48
-#: plugins/paintops/curvebrush/kis_curves_opacity_option.cpp:26
-#: plugins/paintops/curvebrush/kis_linewidth_option.cpp:26
-#: plugins/paintops/libpaintop/kis_pressure_flow_option.cpp:29
-#: plugins/paintops/libpaintop/kis_pressure_gradient_option.cpp:29
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:61
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:36
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:37
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:57
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:58
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:48
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:51
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:43
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:59
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:32
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:43
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:58
-#: plugins/paintops/libpaintop/kis_pressure_size_option.cpp:29
-#: plugins/paintops/libpaintop/kis_pressure_spacing_option.cpp:31
-#: plugins/paintops/sketch/kis_density_option.cpp:26
-#: plugins/paintops/sketch/kis_linewidth_option.cpp:26
-#: plugins/paintops/sketch/kis_offset_scale_option.cpp:26
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:70
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:85
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:97
+#: plugins/paintops/libpaintop/kis_pressure_spacing_option_widget.cpp:35
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:47
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:49
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:50
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:51
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:45
 #, no-c-format
 msgid "100%"
 msgstr ""
@@ -4335,8 +4371,7 @@ msgstr "&Capa"
 #: plugins/extensions/layersplit/layersplit.cpp:198
 #: plugins/generators/solid/colorgenerator.h:53
 #: ui/dialogs/kis_dlg_preferences.cc:768 ui/forms/wdgnewimage.ui:361
-#: ui/kis_paintop_option.cpp:31 ui/layerstyles/WdgColorOverlay.ui:26
-#: ui/layerstyles/WdgStroke.ui:137
+#: ui/layerstyles/WdgColorOverlay.ui:26 ui/layerstyles/WdgStroke.ui:137
 msgid "Color"
 msgstr ""
 
@@ -4579,6 +4614,7 @@ msgstr ""
 #: plugins/extensions/metadataeditor/editors/exif.ui:464
 #: plugins/extensions/metadataeditor/editors/exif.ui:569
 #: plugins/extensions/metadataeditor/editors/exif.ui:708
+#: ui/kis_paintop_options_model.cpp:47
 msgid "Unknown"
 msgstr ""
 
@@ -4608,8 +4644,11 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
 #: plugins/extensions/metadataeditor/editors/exif.ui:432
 #: plugins/generators/pattern/patterngenerator.h:53
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:78
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:51
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:64
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:59
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:138
 #: plugins/tools/tool_text/wdgtextoptions.ui:48
 #: ui/forms/wdgdlgblacklistcleanup.ui:83 ui/forms/wdggeometryoptions.ui:89
 msgid "Pattern"
@@ -4870,7 +4909,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
 #: plugins/extensions/metadataeditor/editors/exif.ui:865
 #: plugins/extensions/metadataeditor/editors/exif.ui:897
-#: plugins/paintops/libpaintop/kis_pressure_softness_option.cpp:32
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:63
 msgid "Hard"
 msgstr ""
 
@@ -5578,7 +5617,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpSource)
 #: plugins/extensions/separate_channels/wdg_separations.ui:46
-#: plugins/paintops/libpaintop/kis_color_source_option_widget.cpp:39
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 msgid "Source"
 msgstr ""
 
@@ -5873,7 +5912,7 @@ msgstr ""
 #: plugins/filters/colors/wdgcolortoalphabase.ui:131
 #: plugins/filters/unsharp/wdgunsharp.ui:103
 #: plugins/paintops/hairy/wdgbristleoptions.ui:180
-#: plugins/paintops/libpaintop/kis_pressure_sharpness_option_widget.cpp:37
+#: plugins/paintops/libpaintop/kis_pressure_sharpness_option_widget.cpp:39
 msgid "Threshold:"
 msgstr ""
 
@@ -6405,11 +6444,12 @@ msgid "&Oilpaint..."
 msgstr ""
 
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:206
-#: plugins/paintops/chalk/kis_chalkop_option.cpp:32
-#: plugins/paintops/dynadraw/kis_dynaop_option.cpp:42
-#: plugins/paintops/gridbrush/kis_gridop_option.cpp:33
-#: plugins/paintops/particle/kis_particleop_option.cpp:36
-#: plugins/paintops/sketch/kis_sketchop_option.cpp:32
+#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:35
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:39
+#: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:31
+#: plugins/paintops/gridbrush/kis_grid_paintop_settings_widget.cpp:37
+#: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:35
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:44
 msgid "Brush size"
 msgstr ""
 
@@ -7360,7 +7400,7 @@ msgid "Duotone Colormode Block"
 msgstr ""
 
 #: plugins/formats/psd/psd_loader.cpp:175
-#: plugins/paintops/libpaintop/kis_pressure_mix_option.cpp:28
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
 msgid "Background"
 msgstr ""
 
@@ -7583,6 +7623,60 @@ msgstr ""
 msgid "Chalk"
 msgstr ""
 
+#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:36
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:49
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:47
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:42
+#: plugins/paintops/experiment/kis_experiment_paintop_settings_widget.cpp:37
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:50
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:42
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:58
+#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:38
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:46
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:44
+msgid "Opaque"
+msgstr ""
+
+#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:36
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:49
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:47
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:42
+#: plugins/paintops/experiment/kis_experiment_paintop_settings_widget.cpp:37
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:50
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:42
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:58
+#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:38
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:46
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:44
+msgid "Transparent"
+msgstr ""
+
+#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:37
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:75
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:45
+#: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:33
+#: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:37
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:52
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:52
+msgid "Airbrush"
+msgstr ""
+
+#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:38
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:39
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:76
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:50
+#: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:34
+#: plugins/paintops/gridbrush/kis_grid_paintop_settings_widget.cpp:41
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:45
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:62
+#: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:38
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:59
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:53
+msgid "Painting Mode"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, radiusLabel)
 #: plugins/paintops/chalk/wdgchalkoptions.ui:46
 #, fuzzy
@@ -7593,7 +7687,7 @@ msgstr "Axustes"
 #. i18n: ectx: attribute (title), widget (QWidget, inkTab)
 #. i18n: ectx: property (text), widget (QCheckBox, inkDepletionCHBox)
 #: plugins/paintops/chalk/wdgchalkoptions.ui:61
-#: plugins/paintops/hairy/kis_hairy_ink_option.cpp:34
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:40
 #: plugins/paintops/hairy/wdghairyeoptions.ui:259
 msgid "Ink depletion"
 msgstr ""
@@ -7614,35 +7708,180 @@ msgstr ""
 msgid "Color Smudge"
 msgstr "Axustes"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
-msgid "Length: "
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:61
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:36
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:37
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:57
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:58
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:48
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:51
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:43
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:59
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:33
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:44
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:59
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:71
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:86
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:98
+#: plugins/paintops/libpaintop/kis_pressure_spacing_option_widget.cpp:35
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:47
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:49
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:50
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:51
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:45
+msgid "0%"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgRectangleConstraints)
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:58
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:48
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:51
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:43
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:59
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:47
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:45
+#: ui/forms/wdgrectangleconstraints.ui:20
+msgid "Size"
 msgstr ""
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:59
+msgid "Spacing"
+msgstr ""
+
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:60
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:49
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:53
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:60
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:276
+#: ui/kis_paintop_box.cc:308
+msgid "Mirror"
+msgstr ""
+
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:54
 msgid "Smudge Length"
 msgstr ""
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
-msgid "Radius(%): "
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:55
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:56
+#: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:33
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:55
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:56
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:57
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:35
+#: plugins/paintops/libpaintop/kis_pressure_scatter_option_widget.cpp:33
+#: plugins/paintops/libpaintop/kis_pressure_sharpness_option_widget.cpp:35
+msgid "0.0"
 msgstr ""
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:55
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:56
+#: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:33
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:55
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:56
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:57
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:36
+#: plugins/paintops/libpaintop/kis_pressure_scatter_option_widget.cpp:33
+#: plugins/paintops/libpaintop/kis_pressure_sharpness_option_widget.cpp:35
+msgid "1.0"
+msgstr ""
+
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:55
 msgid "Smudge Radius"
 msgstr ""
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:53
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:56
 msgid "Color Rate"
 msgstr ""
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:53
-msgid "Rate: "
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:58
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:65
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:44
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:52
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:44
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:36
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:53
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:77
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:84
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:48
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:51
+msgid "0°"
 msgstr ""
 
-#: plugins/paintops/colorsmudge/kis_overlay_mode_option.h:30
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:58
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:65
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:44
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:52
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:44
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:37
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:54
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:78
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:48
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:51
+msgid "360°"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:58
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:65
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:44
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:52
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:44
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:46
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:48
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:51
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:647
+msgid "Rotation"
+msgstr ""
+
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:66
+msgid "Scatter"
+msgstr ""
+
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:60
 msgid "Overlay Mode"
 msgstr ""
 
-#: plugins/paintops/colorsmudge/kis_overlay_mode_option.h:51
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbFillType)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:61
+#: plugins/paintops/libpaintop/kis_color_source_option.cpp:56
+#: plugins/tools/tool_text/wdgtextoptions.ui:53
+#: ui/layerstyles/WdgGradientOverlay.ui:26 ui/layerstyles/WdgStroke.ui:142
+msgid "Gradient"
+msgstr ""
+
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:64
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:79
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:52
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:65
+msgid "Strength"
+msgstr ""
+
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:64
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:79
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:52
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:65
+msgid "Strong"
+msgstr ""
+
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:64
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:79
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:52
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:65
+msgid "Weak"
+msgstr ""
+
+#: plugins/paintops/colorsmudge/kis_overlay_mode_option.h:54
 msgid ""
 "Paints on the current layer\n"
 "            but uses all layers that are currently visible for smudge input\n"
@@ -7666,35 +7905,13 @@ msgstr ""
 msgid "Curve"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, selectMainStyle)
-#. i18n: ectx: property (text), item, widget (KComboBox, selectSubdivisionStyle)
-#. i18n: ectx: property (text), widget (QRadioButton, linesRBox)
-#: plugins/paintops/curvebrush/kis_curve_line_option.cpp:41
-#: plugins/paintops/dynadraw/wdgdynaoptions.ui:198
-#: ui/forms/wdggridsettings.ui:229 ui/forms/wdggridsettings.ui:248
-msgid "Lines"
-msgstr ""
-
-#: plugins/paintops/curvebrush/kis_curves_opacity_option.cpp:23
-msgid "Curves opacity"
-msgstr ""
-
-#: plugins/paintops/curvebrush/kis_curves_opacity_option.cpp:25
-#: plugins/paintops/curvebrush/kis_linewidth_option.cpp:25
-#: plugins/paintops/libpaintop/kis_pressure_flow_option.cpp:28
-#: plugins/paintops/libpaintop/kis_pressure_gradient_option.cpp:28
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:59
-#: plugins/paintops/libpaintop/kis_pressure_size_option.cpp:28
-#: plugins/paintops/libpaintop/kis_pressure_spacing_option.cpp:30
-#: plugins/paintops/sketch/kis_density_option.cpp:25
-#: plugins/paintops/sketch/kis_linewidth_option.cpp:25
-#: plugins/paintops/sketch/kis_offset_scale_option.cpp:25
-msgid "0%"
-msgstr ""
-
-#: plugins/paintops/curvebrush/kis_linewidth_option.cpp:23
-#: plugins/paintops/sketch/kis_linewidth_option.cpp:23
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:36
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:49
 msgid "Line width"
+msgstr ""
+
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:37
+msgid "Curves opacity"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -7725,6 +7942,30 @@ msgstr ""
 msgid "Smoothing"
 msgstr ""
 
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:57
+msgid "Flow"
+msgstr ""
+
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:63
+msgid "Softness"
+msgstr ""
+
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:64
+msgid "Sharpness"
+msgstr ""
+
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
+msgid "Darken"
+msgstr ""
+
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
+msgid "Foreground"
+msgstr ""
+
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
+msgid "Mix"
+msgstr ""
+
 #: plugins/paintops/defaultpaintops/defaultpaintops_plugin.cc:48
 msgctxt "Pixel paintbrush"
 msgid "Pixel"
@@ -7733,11 +7974,6 @@ msgstr ""
 #: plugins/paintops/defaultpaintops/defaultpaintops_plugin.cc:50
 msgctxt "clone paintbrush (previously \"Duplicate\")"
 msgid "Clone"
-msgstr ""
-
-#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_option.cpp:45
-#: plugins/paintops/libpaintop/kis_paint_action_type_option.cpp:37
-msgid "Painting Mode"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbHealing)
@@ -7794,7 +8030,7 @@ msgstr ""
 msgid "Deform"
 msgstr ""
 
-#: plugins/paintops/deform/kis_deform_option.cpp:34
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:40
 msgid "Deform Options"
 msgstr ""
 
@@ -7914,6 +8150,14 @@ msgstr ""
 msgid "Two"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (KComboBox, selectMainStyle)
+#. i18n: ectx: property (text), item, widget (KComboBox, selectSubdivisionStyle)
+#. i18n: ectx: property (text), widget (QRadioButton, linesRBox)
+#: plugins/paintops/dynadraw/wdgdynaoptions.ui:198
+#: ui/forms/wdggridsettings.ui:229 ui/forms/wdggridsettings.ui:248
+msgid "Lines"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, lineSpacingSPBox)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:205
 msgid "Line spacing"
@@ -7954,7 +8198,7 @@ msgstr ""
 msgid "Fixed angle"
 msgstr ""
 
-#: plugins/paintops/experiment/kis_experimentop_option.cpp:48
+#: plugins/paintops/experiment/kis_experiment_paintop_settings_widget.cpp:35
 msgid "Experiment option"
 msgstr ""
 
@@ -8002,13 +8246,25 @@ msgctxt "type of a brush engine, shown in the list of brush engines"
 msgid "Filter"
 msgstr "Filtr&u"
 
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:56
+#, fuzzy
+#| msgid "Filte&r"
+msgctxt "option name"
+msgid "Filter"
+msgstr "Filtr&u"
+
 #: plugins/paintops/gridbrush/grid_paintop_plugin.cpp:40
 msgctxt "type of a brush engine, shown in the list of brush engines"
 msgid "Grid"
 msgstr ""
 
-#: plugins/paintops/gridbrush/kis_grid_shape_option.cpp:33
+#: plugins/paintops/gridbrush/kis_grid_paintop_settings_widget.cpp:38
 msgid "Particle type"
+msgstr ""
+
+#: plugins/paintops/gridbrush/kis_grid_paintop_settings_widget.cpp:40
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:49
+msgid "Color options"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
@@ -8081,12 +8337,8 @@ msgstr ""
 msgid "Bristle"
 msgstr ""
 
-#: plugins/paintops/hairy/kis_hairy_bristle_option.cpp:46
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:39
 msgid "Bristle options"
-msgstr ""
-
-#: plugins/paintops/hairy/kis_hairy_shape_option.cpp:33
-msgid "Brush shape"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -8275,24 +8527,24 @@ msgstr ""
 msgid "Hatching"
 msgstr ""
 
-#: plugins/paintops/hatching/kis_hatching_options.cpp:57
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:52
 msgid "Hatching options"
 msgstr ""
 
-#: plugins/paintops/hatching/kis_hatching_preferences.cpp:34
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:53
 msgid "Hatching preferences"
 msgstr ""
 
-#: plugins/paintops/hatching/kis_hatching_pressure_crosshatching_option.cpp:28
-msgid "Crosshatching"
-msgstr ""
-
-#: plugins/paintops/hatching/kis_hatching_pressure_separation_option.cpp:29
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:55
 msgid "Separation"
 msgstr ""
 
-#: plugins/paintops/hatching/kis_hatching_pressure_thickness_option.cpp:29
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:56
 msgid "Thickness"
+msgstr ""
+
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:57
+msgid "Crosshatching"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
@@ -8725,16 +8977,13 @@ msgstr ""
 msgid "Pipe mode"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_airbrush_option.cpp:43
-msgid "Airbrush"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_bidirectional_mixing_option_widget.cpp:27
-msgid "Mixing"
-msgstr ""
-
 #: plugins/paintops/libpaintop/kis_bidirectional_mixing_option_widget.cpp:30
 msgid "The mixing option mixes the paint on the brush with that on the canvas."
+msgstr ""
+
+#: plugins/paintops/libpaintop/kis_brush_based_paintop_options_widget.cpp:27
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:43
+msgid "Brush Tip"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:161
@@ -8746,10 +8995,6 @@ msgid ""
 "Reloads Spacing from file\n"
 "Sets Scale to 1.0\n"
 "Sets Rotation to 0.0"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_brush_option_widget.cpp:29
-msgid "Brush Tip"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:60
@@ -8829,32 +9074,14 @@ msgid ""
 "The slowest performance. Best quality."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_brush_size_option.cpp:38
-msgid "Brush tip"
-msgstr ""
-
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:105
 msgid ""
 "Nothing copied\n"
 " to Clipboard"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_color_option.cpp:44
-msgid "Color options"
-msgstr ""
-
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:55
 msgid "Plain color"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbFillType)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
-#: plugins/paintops/libpaintop/kis_color_source_option.cpp:56
-#: plugins/paintops/libpaintop/kis_pressure_gradient_option.cpp:26
-#: plugins/tools/tool_text/wdgtextoptions.ui:53
-#: ui/layerstyles/WdgGradientOverlay.ui:26 ui/layerstyles/WdgStroke.ui:142
-msgid "Gradient"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:57
@@ -8869,16 +9096,6 @@ msgstr ""
 msgid "Locked pattern"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_curve_option.cpp:42
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:34
-msgid "0.0"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_curve_option.cpp:43
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:35
-msgid "1.0"
-msgstr ""
-
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:40
 msgid "Fuzzy"
 msgstr ""
@@ -8889,13 +9106,6 @@ msgstr ""
 
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:45
 msgid "Drawing angle"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:46
-#: plugins/paintops/libpaintop/kis_pressure_rotation_option.cpp:29
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:647
-msgid "Rotation"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:48
@@ -8922,162 +9132,72 @@ msgstr "&Seleicionar"
 msgid "Tangential pressure"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_filter_option.cpp:50
-#, fuzzy
-#| msgid "Filte&r"
-msgctxt "option category"
-msgid "Filter"
-msgstr "Filtr&u"
-
-#: plugins/paintops/libpaintop/kis_filter_option.cpp:50
-#, fuzzy
-#| msgid "Filte&r"
-msgctxt "option name"
-msgid "Filter"
-msgstr "Filtr&u"
-
-#: plugins/paintops/libpaintop/kis_pressure_darken_option.cpp:28
-msgid "Darken"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:39
-#: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:29
-msgid "Transparent"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:40
-#: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:30
-msgid "Opaque"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_flow_option.cpp:25
-msgid "Flow"
-msgstr ""
-
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:30
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:41
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:56
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:68
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:83
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:95
 #, no-c-format
 msgid "(50% is active color)"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:62
-msgid "CW hue"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:63
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:35
 msgid "CCW hue"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:66
-msgid "More saturation"
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:46
+msgid "CW hue"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:67
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:61
 msgid "Less saturation "
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:71
-msgid "Higher value"
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:73
+msgid "More saturation"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:72
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:88
 msgid "Lower value "
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:30
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:276
-#: ui/kis_paintop_box.cc:308
-msgid "Mirror"
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:100
+msgid "Higher value"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:34
-msgid "Not mirrored"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:35
+#: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:32
 msgid "Mirrored"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:35
+#: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:32
+msgid "Not mirrored"
+msgstr ""
+
+#: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:37
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:296
 msgid "Horizontally"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:37
+#: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:39
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:298
 msgid "Vertically"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_mix_option.cpp:25
-msgid "Mix"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_mix_option.cpp:27
-msgid "Foreground"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_rotation_option.cpp:34
-#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:36
-#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:53
-#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:77
-#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:84
-msgid "0°"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_rotation_option.cpp:35
-#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:37
-#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:54
-#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:78
-msgid "360°"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_scatter_option.cpp:40
-msgid "Scatter"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_scatter_option_widget.cpp:36
+#: plugins/paintops/libpaintop/kis_pressure_scatter_option_widget.cpp:38
 msgid "Axis X"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_scatter_option_widget.cpp:38
+#: plugins/paintops/libpaintop/kis_pressure_scatter_option_widget.cpp:40
 msgid "Axis Y"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_pressure_scatter_option_widget.cpp:41
+#: plugins/paintops/libpaintop/kis_pressure_scatter_option_widget.cpp:43
 msgid "Scatter amount"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_sharpness_option.cpp:32
-msgid "Sharpness"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgRectangleConstraints)
-#: plugins/paintops/libpaintop/kis_pressure_size_option.cpp:26
-#: ui/forms/wdgrectangleconstraints.ui:20
-msgid "Size"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_softness_option.cpp:23
-msgid "Softness"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_spacing_option.cpp:27
-msgid "Spacing"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_pressure_spacing_option_widget.cpp:37
 msgid "Isotropic Spacing"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_texture_strength_option.cpp:24
-msgid "Strength"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_texture_strength_option.cpp:26
-msgid "Weak"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_pressure_texture_strength_option.cpp:27
-msgid "Strong"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_spacing_selection_widget.cpp:62
@@ -9177,7 +9297,7 @@ msgstr "&Imaxe"
 msgid "%1"
 msgstr ""
 
-#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_fuzzy.cpp:38
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_fuzzy.cpp:39
 msgid ""
 "Positive and\n"
 "Negative\n"
@@ -9284,14 +9404,14 @@ msgstr ""
 msgid "dy scale:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, densityRadioButton)
-#: plugins/paintops/sketch/kis_density_option.cpp:23
-#: plugins/paintops/spray/wdgsprayoptions.ui:181
-msgid "Density"
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:50
+msgid "Offset scale"
 msgstr ""
 
-#: plugins/paintops/sketch/kis_offset_scale_option.cpp:23
-msgid "Offset scale"
+#. i18n: ectx: property (text), widget (QRadioButton, densityRadioButton)
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:51
+#: plugins/paintops/spray/wdgsprayoptions.ui:181
+msgid "Density"
 msgstr ""
 
 #: plugins/paintops/sketch/sketch_paintop_plugin.cpp:42
@@ -9330,16 +9450,13 @@ msgstr ""
 msgid "Distance opacity"
 msgstr ""
 
-#: plugins/paintops/spray/kis_spray_shape_dynamics.cpp:33
-msgid "Shape dynamics"
-msgstr ""
-
-#: plugins/paintops/spray/kis_spray_shape_option.cpp:38
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:41
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:42
 msgid "Spray shape"
 msgstr ""
 
-#: plugins/paintops/spray/kis_sprayop_option.cpp:33
-msgid "Spray area"
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:48
+msgid "Shape dynamics"
 msgstr ""
 
 #: plugins/paintops/spray/spray_paintop_plugin.cpp:40
@@ -9891,18 +10008,18 @@ msgstr ""
 msgid "Contiguous Selection Tool"
 msgstr "&Seleicionar"
 
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:39
-msgid "Elliptical Selection"
-msgstr ""
-
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:71
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:57
 #, fuzzy
 #| msgid "&Select"
 msgctxt "(qtundo-format)"
 msgid "Select Ellipse"
 msgstr "&Seleicionar"
 
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:54
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:86
+msgid "Elliptical Selection"
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:73
 #, fuzzy
 #| msgid "&Select"
 msgid "Elliptical Selection Tool"
@@ -9938,35 +10055,35 @@ msgstr ""
 msgid "Bezier Curve Selection Tool"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:42
-msgid "Polygonal Selection"
-msgstr ""
-
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:89
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:56
 #, fuzzy
 #| msgid "&Select"
 msgctxt "(qtundo-format)"
 msgid "Select Polygon"
 msgstr "&Seleicionar"
 
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.h:62
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:94
+msgid "Polygonal Selection"
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.h:69
 #, fuzzy
 #| msgid "&Select"
 msgid "Polygonal Selection Tool"
 msgstr "&Seleicionar"
 
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:42
-msgid "Rectangular Selection"
-msgstr ""
-
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:88
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:52
 #, fuzzy
 #| msgid "&Layer"
 msgctxt "(qtundo-format)"
 msgid "Select Rectangle"
 msgstr "&Capa"
 
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:63
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:82
+msgid "Rectangular Selection"
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:68
 #, fuzzy
 #| msgid "&Select"
 msgid "Rectangular Selection Tool"
@@ -12661,19 +12778,25 @@ msgstr ""
 msgid "Secondary Mode"
 msgstr ""
 
-#: ui/input/kis_alternate_invocation_action.cpp:46
+#: ui/input/kis_alternate_invocation_action.cpp:45
+#, fuzzy
+#| msgid "&Layer"
+msgid "Tertiary Mode"
+msgstr "&Capa"
+
+#: ui/input/kis_alternate_invocation_action.cpp:48
 msgid "Pick Foreground Color from Current Layer"
 msgstr ""
 
-#: ui/input/kis_alternate_invocation_action.cpp:47
+#: ui/input/kis_alternate_invocation_action.cpp:49
 msgid "Pick Background Color from Current Layer"
 msgstr ""
 
-#: ui/input/kis_alternate_invocation_action.cpp:49
+#: ui/input/kis_alternate_invocation_action.cpp:51
 msgid "Pick Foreground Color from Merged Image"
 msgstr ""
 
-#: ui/input/kis_alternate_invocation_action.cpp:50
+#: ui/input/kis_alternate_invocation_action.cpp:52
 msgid "Pick Background Color from Merged Image"
 msgstr ""
 
@@ -15961,12 +16084,29 @@ msgstr ""
 msgid "Switch to Previous Preset"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: ui/kis_paintop_option.cpp:36 ui/layerstyles/wdglayerstyles.ui:79
-#: ui/layerstyles/wdgTexture.ui:20
+#: ui/kis_paintop_options_model.cpp:35
+msgctxt "option category"
+msgid "General"
+msgstr ""
+
+#: ui/kis_paintop_options_model.cpp:38
+#, fuzzy
+#| msgid "Settings"
+msgctxt "option category"
+msgid "Color"
+msgstr "Axustes"
+
+#: ui/kis_paintop_options_model.cpp:41
+msgctxt "option category"
 msgid "Texture"
 msgstr ""
+
+#: ui/kis_paintop_options_model.cpp:44
+#, fuzzy
+#| msgid "Filte&r"
+msgctxt "option category"
+msgid "Filter"
+msgstr "Filtr&u"
 
 #: ui/kis_popup_palette.cpp:453
 msgid ""
@@ -17737,6 +17877,12 @@ msgstr ""
 msgid "Outer Glow"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/layerstyles/wdglayerstyles.ui:79 ui/layerstyles/wdgTexture.ui:20
+msgid "Texture"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
 #: ui/layerstyles/wdglayerstyles.ui:87 ui/layerstyles/WdgSatin.ui:20
@@ -17994,11 +18140,11 @@ msgstr ""
 msgid "Local selection is locked."
 msgstr ""
 
-#: ui/tool/kis_tool_paint.cc:107
+#: ui/tool/kis_tool_paint.cc:108
 msgid "Increase Brush Size"
 msgstr ""
 
-#: ui/tool/kis_tool_paint.cc:113
+#: ui/tool/kis_tool_paint.cc:114
 msgid "Decrease Brush Size"
 msgstr ""
 
