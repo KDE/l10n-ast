@@ -7,9 +7,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2015-02-18 08:46+0000\n"
-"PO-Revision-Date: 2015-04-29 14:36+0100\n"
+"PO-Revision-Date: 2015-07-06 18:25+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
-"Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"Language-Team: Asturian <alminsitradores@softastur.org>\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -144,7 +144,7 @@ msgstr "DTR/DSR (Hardware)"
 #: add-printer/ChooseSerial.ui:29
 msgctxt "@label:listbox"
 msgid "Baud Rate:"
-msgstr ""
+msgstr "Tasa de baudios:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: add-printer/ChooseSerial.ui:42
@@ -209,6 +209,28 @@ msgid ""
 "</TR>\n"
 "</TABLE>"
 msgstr ""
+"<TABLE>\n"
+"<TR>\n"
+"<TD>Exemplos:\n"
+"<PRE>\n"
+"    http://nomeagospiu:631/ipp/\n"
+"    http://nomeagospiu:631/ipp/port1\n"
+"\n"
+"    ipp://nomeagospiu/ipp/\n"
+"    ipp://nomeagospiu/ipp/puertu1\n"
+"\n"
+"    lpd://nomeagospiu/cola\n"
+"\n"
+"    socket://nomeagospiu\n"
+"    socket://nomeagospiu:9100\n"
+"</PRE>\n"
+"\n"
+"<P>Mira <A HREF=\"http://localhost:631/help/network.html\" TARGET=\"_blank\">"
+"\"Imprentadores\n"
+"de rede\"</A> pal URI correutu a usar cola to imprentadora.</P>\n"
+"</TD>\n"
+"</TR>\n"
+"</TABLE>"
 
 #: add-printer/DevicesModel.cpp:54
 msgctxt "@item"
@@ -246,6 +268,8 @@ msgid ""
 "HPLIP software driving a printer, or the printer function of a multi-"
 "function device"
 msgstr ""
+"El software HPLIP que controla una imprentadora o la función"
+"d'imprentación d'un preséu multifunción"
 
 #: add-printer/DevicesModel.cpp:269
 msgctxt "@info:tooltip"
@@ -253,6 +277,8 @@ msgid ""
 "HPLIP software driving a fax machine, or the fax function of a multi-"
 "function device"
 msgstr ""
+"El software HPLIP que controla un fax o la función fax d'un preséu "
+"multifunción"
 
 #: add-printer/DevicesModel.cpp:274
 msgctxt "@info:tooltip"
@@ -262,7 +288,7 @@ msgstr "Imprentadora CUPS remota per DNS-SD"
 #: add-printer/DevicesModel.cpp:292
 msgctxt "@item"
 msgid "Discovered Network Printers"
-msgstr ""
+msgstr "Imprentadores de rede descubiertes"
 
 #: add-printer/DevicesModel.cpp:296
 msgctxt "@item"
@@ -277,7 +303,7 @@ msgstr "Imprentadores llocales"
 #: add-printer/DevicesModel.cpp:343
 #, kde-format
 msgid "Failed to group devices: '%1'"
-msgstr ""
+msgstr "Fallu al agrupar los preseos: «%1»"
 
 #. i18n: ectx: property (text), widget (QToolButton, addTB)
 #: add-printer/main.cpp:38 printer-manager-kcm/PrintKCM.ui:19
@@ -316,11 +342,11 @@ msgstr "Amestar un clas d'imprentadora nueva"
 
 #: add-printer/main.cpp:55
 msgid "Changes the PPD of a given printer"
-msgstr ""
+msgstr "Camuda'l PPD d'una imprentadora dada"
 
 #: add-printer/main.cpp:56
 msgid "Changes the PPD of a given printer/deviceid"
-msgstr ""
+msgstr "Camuda'l PPD d'una imprentadora/ID de preséu dades"
 
 #: add-printer/PageAddPrinter.cpp:143
 #, kde-format
@@ -392,12 +418,16 @@ msgid ""
 "HPLIP software driving a printer, or the printer function of a multi-"
 "function device."
 msgstr ""
+"El software HPLIP que controla una imprentadora o la función"
+"d'imprentación d'un preséu multifunción"
 
 #: add-printer/PageDestinations.cpp:218
 msgid ""
 "HPLIP software driving a fax machine, or the fax function of a multi-"
 "function device."
 msgstr ""
+"El software HPLIP que controla un fax o la función fax d'un preséu "
+"multifunción"
 
 #: add-printer/PageDestinations.cpp:226 add-printer/PageDestinations.cpp:385
 msgid "Remote CUPS printer via DNS-SD"
@@ -430,7 +460,7 @@ msgstr "Bluetooth"
 
 #: add-printer/PageDestinations.cpp:353
 msgid "Fax - HP Linux Imaging and Printing (HPLIP)"
-msgstr ""
+msgstr "Fax - HP Linux Imaging and Printing (HPLIP)"
 
 #: add-printer/PageDestinations.cpp:355
 msgid "HP Linux Imaging and Printing (HPLIP)"
@@ -742,7 +772,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, BanneryGB)
 #: configure-printer/PrinterBehavior.ui:29
 msgid "Banners"
-msgstr ""
+msgstr "Pancartes"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: configure-printer/PrinterBehavior.ui:35
@@ -846,7 +876,7 @@ msgstr ""
 #: libkcups/JobModel.cpp:529 printqueue/PrintQueueUi.cpp:518
 #, kde-format
 msgid "Failed to move '%1' to '%2'"
-msgstr ""
+msgstr "Fallu al mover «%1» a «%2»"
 
 #: libkcups/JobModel.cpp:532 printqueue/PrintQueueUi.cpp:524
 msgid "Failed"
@@ -899,7 +929,7 @@ msgstr "¡Nun pue unviase'l comandu al controlador de la imprentadora!"
 #: libkcups/KCupsRequest.cpp:578
 #, kde-format
 msgid "Failed to invoke method: %1"
-msgstr ""
+msgstr "Fallu al invocar el métodu: %1"
 
 #: libkcups/PPDModel.cpp:48
 msgid "Recommended Drivers"
@@ -1181,7 +1211,7 @@ msgstr ""
 
 #: printer-manager-kcm/PrintKCM.cpp:156 printer-manager-kcm/PrintKCM.cpp:256
 msgid "No printers have been configured or discovered"
-msgstr ""
+msgstr "Nun se configuró o descubrió imprentadora dala"
 
 #: printer-manager-kcm/PrintKCM.cpp:289
 msgid "Remove class"
@@ -1204,12 +1234,12 @@ msgstr "¿De xuru que quies desaniciar la imprentadora '%1'?"
 #: printer-manager-kcm/PrintKCM.cpp:339
 msgctxt "@info"
 msgid "Failed to get server settings"
-msgstr ""
+msgstr "Fallu al consiguir los axustes del sirvidor"
 
 #: printer-manager-kcm/PrintKCM.cpp:371
 msgctxt "@info"
 msgid "Failed to configure server settings"
-msgstr ""
+msgstr "Fallu al consiguir los axustes del sirvidor"
 
 #. i18n: ectx: property (text), widget (QToolButton, systemPreferencesTB)
 #: printer-manager-kcm/PrintKCM.ui:52
@@ -1241,13 +1271,13 @@ msgstr "Amosar cola(es) d'impentación"
 
 #: printqueue/PrintQueueUi.cpp:230
 msgid "Printer ready"
-msgstr ""
+msgstr "Imprentadora tresnada"
 
 #. i18n: ectx: property (text), widget (QPushButton, pausePrinterPB)
 #: printqueue/PrintQueueUi.cpp:231 printqueue/PrintQueueUi.cpp:242
 #: printqueue/PrintQueueUi.ui:118
 msgid "Pause Printer"
-msgstr ""
+msgstr "Posar imprentadora"
 
 #: printqueue/PrintQueueUi.cpp:238
 msgid "Printing..."
@@ -1264,7 +1294,7 @@ msgstr "Imprentadora posada"
 
 #: printqueue/PrintQueueUi.cpp:249
 msgid "Resume Printer"
-msgstr ""
+msgstr "Resumir imprentadora"
 
 #: printqueue/PrintQueueUi.cpp:264
 msgid "Printer state unknown"
@@ -1305,12 +1335,12 @@ msgstr ""
 #: printqueue/PrintQueueUi.cpp:512
 #, kde-format
 msgid "Failed to release '%1'"
-msgstr ""
+msgstr "Fallu al llanzar «%1»"
 
 #: printqueue/PrintQueueUi.cpp:515
 #, kde-format
 msgid "Failed to reprint '%1'"
-msgstr ""
+msgstr "Fallu al reimprentar «%1»"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PrintQueueUi)
 #: printqueue/PrintQueueUi.ui:20
@@ -1320,7 +1350,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, iconL)
 #: printqueue/PrintQueueUi.ui:49
 msgid "Printer Icon"
-msgstr ""
+msgstr "Iconu d'imprentadora"
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelJobPB)
 #: printqueue/PrintQueueUi.ui:233
@@ -1340,7 +1370,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, reprintPB)
 #: printqueue/PrintQueueUi.ui:279
 msgid "Reprint"
-msgstr ""
+msgstr "Reimpentar"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, whichJobsCB)
 #: printqueue/PrintQueueUi.ui:312
@@ -1356,3 +1386,4 @@ msgstr "Trabayos completaos"
 #: printqueue/PrintQueueUi.ui:322
 msgid "All Jobs"
 msgstr "Tolos trabayos"
+
