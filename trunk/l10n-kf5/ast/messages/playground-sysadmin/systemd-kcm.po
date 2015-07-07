@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-03 08:42+0000\n"
+"POT-Creation-Date: 2015-07-07 12:07+0000\n"
 "PO-Revision-Date: 2015-07-06 17:28+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alminsitradores@softastur.org>\n"
@@ -24,6 +24,36 @@ msgstr "Softastur"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
+
+#: src/confmodel.cpp:39
+msgid "Item"
+msgstr ""
+
+#: src/confmodel.cpp:41
+msgid "Value"
+msgstr ""
+
+#: src/confmodel.cpp:55
+#, kde-format
+msgctxt "configuration name (unit)"
+msgid "%1 (%)"
+msgstr ""
+
+#: src/confmodel.cpp:58
+#, kde-format
+msgctxt "configuration name (unit)"
+msgid "%1 (MB)"
+msgstr ""
+
+#: src/confmodel.cpp:61
+#, kde-format
+msgctxt "configuration name (unit)"
+msgid "%1 (%2)"
+msgstr ""
+
+#: src/kcmsystemd.cpp:50
+msgid "Main Developer"
+msgstr ""
 
 #: src/kcmsystemd.cpp:94
 msgid "Unable to find directory with systemd configuration files."
@@ -610,7 +640,7 @@ msgid "Ree&xecute systemd"
 msgstr ""
 
 #: src/kcmsystemd.cpp:1762
-msgid "Failed to open unit file!"
+msgid "Failed to open unit file."
 msgstr ""
 
 #: src/kcmsystemd.cpp:1842
@@ -678,6 +708,28 @@ msgstr ""
 #, kde-format
 msgid "File to be written: %1/%2"
 msgstr ""
+
+#: src/unitmodel.cpp:52
+#, fuzzy
+#| msgid "State"
+msgid "Load State"
+msgstr "Estáu"
+
+#: src/unitmodel.cpp:54
+msgid "Active State"
+msgstr ""
+
+#: src/unitmodel.cpp:56
+#, fuzzy
+#| msgid "State"
+msgid "Unit State"
+msgstr "Estáu"
+
+#: src/unitmodel.cpp:58
+#, fuzzy
+#| msgid "Units"
+msgid "Unit"
+msgstr "Unidaes"
 
 #: src/unitmodel.cpp:123
 msgid "<b>Description: </b>"
@@ -771,6 +823,5 @@ msgstr "Sesiones"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFailMessage)
 #: ui/kcmsystemd.ui:449
-msgid "Attempt to contact the systemd daemon through D-Bus system bus failed!"
+msgid "Attempt to contact the systemd daemon through D-Bus system bus failed."
 msgstr ""
-
