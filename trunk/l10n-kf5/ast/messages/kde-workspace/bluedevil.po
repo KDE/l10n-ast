@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Frameworks 5 Applications\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-08 08:54+0000\n"
+"POT-Creation-Date: 2015-07-30 09:00+0000\n"
 "PO-Revision-Date: 2015-07-09 01:56+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alminsitradores@softastur.org>\n"
@@ -119,8 +119,8 @@ msgstr "Degorriu Bluetooth"
 msgid "(c) 2010, UFO Coders"
 msgstr "(c) 2010, UFO Coders"
 
-#: daemon/kded/bluedevildaemon.cpp:85 kcmodule/bluedeviladapters.cpp:237
-#: kcmodule/bluedevildevices.cpp:204 kcmodule/bluedeviltransfer.cpp:52
+#: daemon/kded/bluedevildaemon.cpp:85 kcmodule/bluedeviladapters.cpp:246
+#: kcmodule/bluedevildevices.cpp:203 kcmodule/bluedevilglobal.cpp:54
 #: kio/obexftp/daemon/obexftpdaemon.cpp:63 sendfile/main.cpp:40
 #: wizard/main.cpp:42
 msgid "Maintainer"
@@ -229,37 +229,37 @@ msgctxt "How long the adapter will be discoverable"
 msgid "Discover Time"
 msgstr "Tiempu d'escubrición"
 
-#: kcmodule/bluedeviladapters.cpp:122 kcmodule/bluedeviladapters.cpp:199
+#: kcmodule/bluedeviladapters.cpp:122 kcmodule/bluedeviladapters.cpp:208
 #, kde-format
 msgid "Adapter: %1 (%2)"
 msgstr "Adautador: %1 (%2)"
 
-#: kcmodule/bluedeviladapters.cpp:198 kcmodule/bluedeviladapters.cpp:219
+#: kcmodule/bluedeviladapters.cpp:207 kcmodule/bluedeviladapters.cpp:228
 #, kde-format
 msgid "1 minute"
 msgid_plural "%1 minutes"
 msgstr[0] "1 minutu"
 msgstr[1] "%1 minutos"
 
-#: kcmodule/bluedeviladapters.cpp:231
+#: kcmodule/bluedeviladapters.cpp:240
 msgid "Bluetooth Adapters"
 msgstr "Adautadores Bluetooth"
 
-#: kcmodule/bluedeviladapters.cpp:233
+#: kcmodule/bluedeviladapters.cpp:242
 msgid "Bluetooth Adapters Control Panel Module"
 msgstr "Módulu de panel de control d'adautadores Bluetooth"
 
-#: kcmodule/bluedeviladapters.cpp:235 kcmodule/bluedevildevices.cpp:201
-#: kcmodule/bluedeviltransfer.cpp:50
+#: kcmodule/bluedeviladapters.cpp:244 kcmodule/bluedevildevices.cpp:200
+#: kcmodule/bluedevilglobal.cpp:52
 msgid "(c) 2010 Rafael Fernández López"
 msgstr "(c) 2010 Rafael Fernández López"
 
-#: kcmodule/bluedeviladapters.cpp:240 kcmodule/bluedevildevices.cpp:207
-#: kcmodule/bluedeviltransfer.cpp:55
+#: kcmodule/bluedeviladapters.cpp:249 kcmodule/bluedevildevices.cpp:206
+#: kcmodule/bluedevilglobal.cpp:57
 msgid "Previous Developer and Maintainer"
 msgstr "Desendolcador y caltenedor"
 
-#: kcmodule/bluedeviladapters.cpp:298
+#: kcmodule/bluedeviladapters.cpp:322
 msgid "No adapters found. Please connect one."
 msgstr "Nun s'alcontraron adautadores. Por favor, coneuta ún."
 
@@ -333,45 +333,41 @@ msgctxt "Type of device: could not be determined"
 msgid "Unknown"
 msgstr "Desconocíu"
 
-#: kcmodule/bluedevildevices.cpp:192
-msgid "Enable KDE Bluetooth Integration"
-msgstr "Habilitar integración Bluetooth KDE"
-
-#: kcmodule/bluedevildevices.cpp:197
+#: kcmodule/bluedevildevices.cpp:196
 msgid "Bluetooth Devices"
 msgstr "Preseos Bluetooth"
 
-#: kcmodule/bluedevildevices.cpp:199
+#: kcmodule/bluedevildevices.cpp:198
 msgid "Bluetooth Devices Control Panel Module"
 msgstr "Módulu de panel de control de preseos Bluetooth"
 
-#: kcmodule/bluedevildevices.cpp:229
+#: kcmodule/bluedevildevices.cpp:223
 msgctxt "Details of the device"
 msgid "Details"
 msgstr "Detalles"
 
-#: kcmodule/bluedevildevices.cpp:231
+#: kcmodule/bluedevildevices.cpp:225
 msgctxt "Remove a device from the list of known devices"
 msgid "Remove"
 msgstr "Desaniciar"
 
-#: kcmodule/bluedevildevices.cpp:233 kcmodule/bluedevildevices.cpp:312
+#: kcmodule/bluedevildevices.cpp:227 kcmodule/bluedevildevices.cpp:293
 msgid "Connect"
 msgstr "Coneutar"
 
-#: kcmodule/bluedevildevices.cpp:235
+#: kcmodule/bluedevildevices.cpp:229
 msgid "Disconnect"
 msgstr "Desconeutar"
 
-#: kcmodule/bluedevildevices.cpp:237
+#: kcmodule/bluedevildevices.cpp:231
 msgid "Add Device..."
 msgstr "Amestar preséu..."
 
-#: kcmodule/bluedevildevices.cpp:310
+#: kcmodule/bluedevildevices.cpp:291
 msgid "Re-connect"
 msgstr "Reconeutar"
 
-#: kcmodule/bluedevildevices.cpp:341
+#: kcmodule/bluedevildevices.cpp:322
 #, kde-format
 msgid ""
 "Are you sure that you want to remove device \"%1\" from the list of known "
@@ -380,41 +376,76 @@ msgstr ""
 "¿De xuru que quies desaniciar el preséu \"%1\" de la llista de preseos "
 "conocíos?"
 
-#: kcmodule/bluedevildevices.cpp:342
+#: kcmodule/bluedevildevices.cpp:323
 msgctxt "Title of window that asks for confirmation when removing a device"
 msgid "Device removal"
 msgstr "Desaniciu de preséu"
 
-#: kcmodule/bluedevildevices.cpp:379
+#: kcmodule/bluedevildevices.cpp:360
 msgid "No remote devices have been added"
 msgstr "Nun s'amestaron preseos remotos"
 
-#: kcmodule/bluedevildevices.cpp:381
+#: kcmodule/bluedevildevices.cpp:362
 msgid "Click here to add a remote device"
 msgstr "Primi equí p'amestar un preséu remotu"
 
-#: kcmodule/bluedeviltransfer.cpp:46
-msgid "Bluetooth Transfer"
-msgstr "Tresferencia Bluetooth"
+#: kcmodule/bluedevilglobal.cpp:48
+#, fuzzy
+#| msgid "Bluetooth Adapters"
+msgid "Bluetooth Advanced Settings"
+msgstr "Adautadores Bluetooth"
 
-#: kcmodule/bluedeviltransfer.cpp:48
-msgid "Bluetooth Transfer Control Panel Module"
-msgstr "Módulu de panel de control de tresferencia Bluetooth"
+#: kcmodule/bluedevilglobal.cpp:50
+#, fuzzy
+#| msgid "Bluetooth Adapters Control Panel Module"
+msgid "Bluetooth Advanced Settings Control Panel Module"
+msgstr "Módulu de panel de control d'adautadores Bluetooth"
 
-#: kcmodule/bluedeviltransfer.cpp:68
+#: kcmodule/bluedevilglobal.cpp:65
 msgctxt "'Auto accept' option value"
 msgid "Never"
 msgstr "Enxamás"
 
-#: kcmodule/bluedeviltransfer.cpp:69
+#: kcmodule/bluedevilglobal.cpp:66
 msgctxt "'Auto accept' option value"
 msgid "Trusted devices"
 msgstr "Preseos de confianza"
 
-#: kcmodule/bluedeviltransfer.cpp:70
+#: kcmodule/bluedevilglobal.cpp:67
 msgctxt "'Auto accept' option value"
 msgid "All devices"
 msgstr "Tolos preseos"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableGlobalBluetooth)
+#: kcmodule/bluedevilglobal.ui:17
+#, fuzzy
+#| msgid "Enable KDE Bluetooth Integration"
+msgid "Enable KDE Bluetooth integration"
+msgstr "Habilitar integración Bluetooth KDE"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_receivingFiles)
+#: kcmodule/bluedevilglobal.ui:40
+#, fuzzy
+#| msgid "<b>Receiving</b>"
+msgid "<b>Receiving files</b>"
+msgstr "<b>Recibiendo</b>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enabled)
+#: kcmodule/bluedevilglobal.ui:47
+#, fuzzy
+#| msgid "Retrieving information from remote device..."
+msgid "Receive files from remote devices"
+msgstr "Recibiendo información del preséu remotu..."
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_autoAccept)
+#: kcmodule/bluedevilglobal.ui:85
+msgid "Accept automatically:"
+msgstr "Aceutar automáticamente:"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_saveFiles)
+#: kcmodule/bluedevilglobal.ui:95
+msgid "Save files in:"
+msgstr "Guardar ficheros en:"
 
 #: kcmodule/devicedetails.cpp:46
 msgctxt "Name of the device"
@@ -480,26 +511,6 @@ msgstr "La interaición col sistema Bluetooth nun ye optima."
 #: kcmodule/systemcheck.cpp:124
 msgid "Bluetooth is not completely enabled."
 msgstr "El Vluetooth nun ta habilitáu dafechu."
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: kcmodule/transfer.ui:17
-msgid "<b>Receiving</b>"
-msgstr "<b>Recibiendo</b>"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kcmodule/transfer.ui:36
-msgid "Save files in:"
-msgstr "Guardar ficheros en:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kcmodule/transfer.ui:71
-msgid "Accept automatically:"
-msgstr "Aceutar automáticamente:"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: kcmodule/transfer.ui:91
-msgid "Receive files:"
-msgstr "Recibir ficheros:"
 
 #: kio/bluetooth/kiobluetooth.cpp:57
 msgid "Send File"
@@ -719,6 +730,15 @@ msgstr "La configuración del preséu falló"
 #, kde-format
 msgid "The setup of %1 has succeeded"
 msgstr "La configuración de %1 falló"
+
+#~ msgid "Bluetooth Transfer"
+#~ msgstr "Tresferencia Bluetooth"
+
+#~ msgid "Bluetooth Transfer Control Panel Module"
+#~ msgstr "Módulu de panel de control de tresferencia Bluetooth"
+
+#~ msgid "Receive files:"
+#~ msgstr "Recibir ficheros:"
 
 #, fuzzy
 #~ msgctxt "Find Bluetooth device"
