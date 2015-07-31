@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-29 07:53+0000\n"
+"POT-Creation-Date: 2015-07-31 08:25+0000\n"
 "PO-Revision-Date: 2015-04-06 22:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -298,36 +298,40 @@ msgstr ""
 msgid "Email address"
 msgstr "Direición d'email:"
 
-#: gravatar/widgets/gravatarupdatewidget.cpp:35
+#: gravatar/widgets/gravatarupdatedialog.cpp:33
+msgid "Check and update gravatar"
+msgstr ""
+
+#: gravatar/widgets/gravatarupdatewidget.cpp:37
 #, fuzzy
 #| msgctxt "@title:column Column containing email addresses"
 #| msgid "Email"
 msgid "Email:"
 msgstr "Email"
 
-#: gravatar/widgets/gravatarupdatewidget.cpp:43
+#: gravatar/widgets/gravatarupdatewidget.cpp:45
 msgid "Use HTTPS Protocol"
 msgstr ""
 
-#: gravatar/widgets/gravatarupdatewidget.cpp:47
+#: gravatar/widgets/gravatarupdatewidget.cpp:49
 msgid "Use Libravatar"
 msgstr ""
 
-#: gravatar/widgets/gravatarupdatewidget.cpp:51
+#: gravatar/widgets/gravatarupdatewidget.cpp:53
 msgid "Fallback to Gravatar"
 msgstr ""
 
-#: gravatar/widgets/gravatarupdatewidget.cpp:55
+#: gravatar/widgets/gravatarupdatewidget.cpp:57
 #, fuzzy
 #| msgid "Search for:"
 msgid "Search"
 msgstr "Guetar:"
 
-#: gravatar/widgets/gravatarupdatewidget.cpp:110
+#: gravatar/widgets/gravatarupdatewidget.cpp:129
 msgid "Search is impossible."
 msgstr ""
 
-#: gravatar/widgets/gravatarupdatewidget.cpp:127
+#: gravatar/widgets/gravatarupdatewidget.cpp:146
 msgid "No Gravatar Found."
 msgstr ""
 
@@ -394,7 +398,7 @@ msgid "&Settings"
 msgstr "&Configuración"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kaddressbookui.rc:121
+#: kaddressbookui.rc:123
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "Barra de ferramientes principal"
@@ -644,6 +648,12 @@ msgstr "Imprentar contautos"
 #, fuzzy
 #| msgid "The vCard does not contain any contacts."
 msgid "You have not selected any contacts."
+msgstr "La vCard nun contién contautos."
+
+#: mainwidget.cpp:1136
+#, fuzzy
+#| msgid "The vCard does not contain any contacts."
+msgid "Any email found for this contact."
 msgstr "La vCard nun contién contautos."
 
 #: mainwindow.cpp:70
