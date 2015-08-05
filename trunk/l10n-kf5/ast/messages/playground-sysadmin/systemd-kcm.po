@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-07 12:07+0000\n"
+"POT-Creation-Date: 2015-08-05 07:57+0000\n"
 "PO-Revision-Date: 2015-07-06 17:28+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alminsitradores@softastur.org>\n"
@@ -25,135 +25,73 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
-#: src/confmodel.cpp:39
+#: src/confmodel.cpp:43
 msgid "Item"
 msgstr ""
 
-#: src/confmodel.cpp:41
+#: src/confmodel.cpp:45
 msgid "Value"
 msgstr ""
 
-#: src/confmodel.cpp:55
+#: src/confmodel.cpp:62
 #, kde-format
 msgctxt "configuration name (unit)"
 msgid "%1 (%)"
 msgstr ""
 
-#: src/confmodel.cpp:58
+#: src/confmodel.cpp:65
 #, kde-format
 msgctxt "configuration name (unit)"
 msgid "%1 (MB)"
 msgstr ""
 
-#: src/confmodel.cpp:61
+#: src/confmodel.cpp:68
 #, kde-format
 msgctxt "configuration name (unit)"
 msgid "%1 (%2)"
 msgstr ""
 
-#: src/kcmsystemd.cpp:50
-msgid "Main Developer"
-msgstr ""
-
-#: src/kcmsystemd.cpp:94
-msgid "Unable to find directory with systemd configuration files."
-msgstr ""
-"Nun pue alcontrase'l direutoriu colos ficheros de configuración systemd."
-
-#: src/kcmsystemd.cpp:238
-msgid "All"
-msgstr "Too"
-
-#: src/kcmsystemd.cpp:238
-msgid "Targets"
-msgstr "Oxetivos"
-
-#: src/kcmsystemd.cpp:238
-msgid "Services"
-msgstr "Servicios"
-
-#: src/kcmsystemd.cpp:239
-msgid "Devices"
-msgstr "Preseos"
-
-#: src/kcmsystemd.cpp:239
-msgid "Mounts"
-msgstr "Montaxes"
-
-#: src/kcmsystemd.cpp:239
-msgid "Automounts"
-msgstr "Auto-montaxes"
-
-#: src/kcmsystemd.cpp:239
-msgid "Swaps"
-msgstr "Intercambeos"
-
-#: src/kcmsystemd.cpp:240
-msgid "Sockets"
-msgstr ""
-
-#: src/kcmsystemd.cpp:240
-msgid "Paths"
-msgstr "Caminos"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tabTimers)
-#: src/kcmsystemd.cpp:240 ui/kcmsystemd.ui:366
-msgid "Timers"
-msgstr "Temporizadores"
-
-#: src/kcmsystemd.cpp:240
-msgid "Snapshots"
-msgstr ""
-
-#: src/kcmsystemd.cpp:241
-msgid "Slices"
-msgstr ""
-
-#: src/kcmsystemd.cpp:241
-msgid "Scopes"
-msgstr ""
-
-#: src/kcmsystemd.cpp:280
+#: src/confparms.cpp:45
 msgid "<p>Set the level of log entries in systemd.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:289
+#: src/confparms.cpp:54
 msgid "<p>Set target for logs.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:297
+#: src/confparms.cpp:62
 msgid "<p>Use color to highlight important log messages.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:305
+#: src/confparms.cpp:70
 msgid "<p>Include code location in log messages.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:313
+#: src/confparms.cpp:78
 msgid "<p>Dump core on systemd crash.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:321
+#: src/confparms.cpp:86
 msgid ""
 "<p>Spawn a shell when systemd crashes. Note: The shell is not password-"
 "protected.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:330
+#: src/confparms.cpp:95
 msgid "<p>Show terse service status information while booting.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:339
+#: src/confparms.cpp:104
 msgid ""
 "<p>Activate the specified virtual terminal when systemd crashes (-1 to "
 "deactivate).</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:350
+#: src/confparms.cpp:115
 msgid "<p>The initial CPU affinity for the systemd init process.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:358
+#: src/confparms.cpp:123
 msgid ""
 "<p>Controllers that shall be mounted in a single hierarchy. Takes a space-"
 "separated list of comma-separated controller names, in order to allow "
@@ -161,7 +99,7 @@ msgid ""
 "mounts all controllers in separate hierarchies.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:368
+#: src/confparms.cpp:133
 msgid ""
 "<p>Configures in which control group hierarchies to create per-service "
 "cgroups automatically, in addition to the name=systemd named hierarchy. "
@@ -169,7 +107,7 @@ msgid ""
 "ensure that systemd does not touch any hierarchies but its own.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:377
+#: src/confparms.cpp:142
 msgid ""
 "<p>The watchdog hardware (/dev/watchdog) will be programmed to automatically "
 "reboot the system if it is not contacted within the specified timeout "
@@ -178,7 +116,7 @@ msgid ""
 "device.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:386
+#: src/confparms.cpp:151
 msgid ""
 "<p>This setting may be used to configure the hardware watchdog when the "
 "system is asked to reboot. It works as a safety net to ensure that the "
@@ -186,94 +124,94 @@ msgid ""
 "requires a hardware watchdog device.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:394
+#: src/confparms.cpp:159
 msgid "<p>Capabilities for the systemd daemon and its children.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:404
+#: src/confparms.cpp:169
 msgid ""
 "<p>Architectures of which system calls may be invoked on the system.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:416
+#: src/confparms.cpp:181
 msgid ""
 "<p>Sets the timer slack for PID 1 which is then inherited to all executed "
 "processes, unless overridden individually. The timer slack controls the "
 "accuracy of wake-ups triggered by timers.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:426
+#: src/confparms.cpp:191
 msgid ""
 "<p>The default accuracy of timer units. Note that the accuracy of timer "
 "units is also affected by the configured timer slack for PID 1.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:438
+#: src/confparms.cpp:203
 msgid "<p>Sets the default output for all services and sockets.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:449
+#: src/confparms.cpp:214
 msgid "<p>Sets the default error output for all services and sockets.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:459
+#: src/confparms.cpp:224
 msgid "<p>The default timeout for starting of units.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:467
+#: src/confparms.cpp:232
 msgid "<p>The default timeout for stopping of units.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:476
+#: src/confparms.cpp:241
 msgid "<p>The default time to sleep between automatic restart of units.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:484
+#: src/confparms.cpp:249
 msgid "<p>Time interval used in start rate limit for services.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:492
+#: src/confparms.cpp:257
 msgid ""
 "<p>Services are not allowed to start more than this number of times within "
 "the time interval defined in DefaultStartLimitInterval.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:503
+#: src/confparms.cpp:268
 msgid ""
 "<p>Manager environment variables passed to all executed processes. Takes a "
 "space-separated list of variable assignments.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:514
+#: src/confparms.cpp:279
 msgid "<p>Default CPU usage accounting.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:522
+#: src/confparms.cpp:287
 msgid "<p>Default block IO accounting.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:530
+#: src/confparms.cpp:295
 msgid "<p>Default process and kernel memory accounting.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:548
+#: src/confparms.cpp:313
 msgid "<p>Default resource limit for units. Set to -1 for no limit.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:560
+#: src/confparms.cpp:325
 msgid "<p>Where to store log files.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:568
+#: src/confparms.cpp:333
 msgid "<p>Compress log files.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:576
+#: src/confparms.cpp:341
 msgid ""
 "<p>Enable Forward Secure Sealing (FSS) for all persistent journal files.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:588
+#: src/confparms.cpp:353
 msgid ""
 "<p>Whether and how to split log files. If <i>uid</i>, all users will get "
 "each their own journal files regardless of whether they possess a login "
@@ -284,193 +222,193 @@ msgid ""
 "all messages are instead stored in the single system journal.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:597
+#: src/confparms.cpp:362
 msgid "<p>The timeout before synchronizing journal files to disk.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:605
+#: src/confparms.cpp:370
 msgid ""
 "<p>Time interval for rate limiting of log messages. Set to 0 to turn off "
 "rate-limiting.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:613
+#: src/confparms.cpp:378
 msgid ""
 "<p>Maximum number of messages logged for a unit in the interval specified in "
 "RateLimitInterval. Set to 0 to turn off rate-limiting.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:623
+#: src/confparms.cpp:388
 #, no-c-format
 msgid ""
 "<p>Maximum disk space the persistent journal may take up. Defaults to 10% of "
 "file system size.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:633
+#: src/confparms.cpp:398
 #, no-c-format
 msgid ""
 "<p>Minimum disk space the persistent journal should keep free for other "
 "uses. Defaults to 15% of file system size.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:642
+#: src/confparms.cpp:407
 msgid ""
 "<p>Maximum size of individual journal files on persistent storage. Defaults "
 "to 1/8 of SystemMaxUse.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:652
+#: src/confparms.cpp:417
 #, no-c-format
 msgid ""
 "<p>Maximum disk space the volatile journal may take up. Defaults to 10% of "
 "file system size.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:662
+#: src/confparms.cpp:427
 #, no-c-format
 msgid ""
 "<p>Minimum disk space the volatile journal should keep free for other uses. "
 "Defaults to 15% of file system size.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:671
+#: src/confparms.cpp:436
 msgid ""
 "<p>Maximum size of individual journal files on volatile storage. Defaults to "
 "1/8 of RuntimeMaxUse.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:680
+#: src/confparms.cpp:445
 msgid "<p>Maximum time to store journal entries. Set to 0 to disable.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:689
+#: src/confparms.cpp:454
 msgid ""
 "<p>Maximum time to store entries in a single journal file before rotating to "
 "the next one. Set to 0 to disable.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:697
+#: src/confparms.cpp:462
 msgid "<p>Forward journal messages to syslog.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:705
+#: src/confparms.cpp:470
 msgid "<p>Forward journal messages to kernel log buffer</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:713
+#: src/confparms.cpp:478
 msgid ""
 "<p>Forward journal messages to the system console. The console can be "
 "changed with TTYPath.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:723
+#: src/confparms.cpp:488
 msgid ""
 "<p>Forward journal messages as wall messages to all logged-in users.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:732
+#: src/confparms.cpp:497
 msgid "<p>Forward journal messages to this TTY if ForwardToConsole is set.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:756
+#: src/confparms.cpp:521
 msgid "<p>Max log level to forward/store to the specified target.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:768
+#: src/confparms.cpp:533
 msgid ""
 "<p>Number of virtual terminals (VTs) to allocate by default and which will "
 "autospawn. Set to 0 to disable.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:777
+#: src/confparms.cpp:542
 msgid ""
 "<p>Virtual terminal that shall unconditionally be reserved for autospawning. "
 "Set to 0 to disable.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:785
+#: src/confparms.cpp:550
 msgid "<p>Kill the processes of a user when the user completely logs out.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:792
+#: src/confparms.cpp:557
 msgid ""
 "<p>Space-separated list of usernames for which only processes will be killed "
 "if KillUserProcesses is enabled.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:800
+#: src/confparms.cpp:565
 msgid ""
 "<p>Space-separated list of usernames for which processes will be excluded "
 "from being killed if KillUserProcesses is enabled.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:808
+#: src/confparms.cpp:573
 msgid ""
 "<p>Specifies the maximum time a system shutdown or sleep request is delayed "
 "due to an inhibitor lock of type delay being active before the inhibitor is "
 "ignored and the operation executes anyway.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:832
+#: src/confparms.cpp:597
 msgid ""
 "<p>Controls whether logind shall handle the system power and sleep keys and "
 "the lid switch to trigger power actions.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:841
+#: src/confparms.cpp:606
 msgid ""
 "<p>Controls whether actions triggered by the power key are subject to "
 "inhibitor locks.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:849
+#: src/confparms.cpp:614
 msgid ""
 "<p>Controls whether actions triggered by the suspend key are subject to "
 "inhibitor locks.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:857
+#: src/confparms.cpp:622
 msgid ""
 "<p>Controls whether actions triggered by the hibernate key are subject to "
 "inhibitor locks.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:865
+#: src/confparms.cpp:630
 msgid ""
 "<p>Controls whether actions triggered by the lid switch are subject to "
 "inhibitor locks.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:875
+#: src/confparms.cpp:640
 msgid ""
 "<p>Timeout after system startup or system resume in which systemd will hold "
 "off on reacting to lid events.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:885
+#: src/confparms.cpp:650
 msgid "<p>Configures the action to take when the system is idle.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:893
+#: src/confparms.cpp:658
 msgid ""
 "<p>Configures the delay after which the action configured in IdleAction is "
 "taken after the system is idle.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:904
+#: src/confparms.cpp:669
 msgid ""
 "<p>Sets the size limit on the $XDG_RUNTIME_DIR runtime directory for each "
 "user who logs in. Percentage of physical RAM.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:915
+#: src/confparms.cpp:680
 msgid ""
 "<p>Controls whether System V and POSIX IPC objects belonging to the user "
 "shall be removed when the user fully logs out.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:928
+#: src/confparms.cpp:693
 msgid ""
 "<p>Controls where to store cores. When <i>none</i>, the coredumps will be "
 "logged but not stored permanently. When <i>external</i>, cores will be "
@@ -479,22 +417,22 @@ msgid ""
 "</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:936
+#: src/confparms.cpp:701
 msgid "<p>Controls compression for external storage.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:945
+#: src/confparms.cpp:710
 msgid ""
 "<p>The maximum size of a core which will be processed. Coredumps exceeding "
 "this size will be logged, but the backtrace will not be generated and the "
 "core will not be stored.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:954 src/kcmsystemd.cpp:963
+#: src/confparms.cpp:719 src/confparms.cpp:728
 msgid "<p>The maximum (uncompressed) size of a core to be saved.</p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:973
+#: src/confparms.cpp:738
 #, no-c-format
 msgid ""
 "<p>Old coredumps are removed as soon as the total disk space taken up by "
@@ -502,209 +440,281 @@ msgid ""
 "p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:983
+#: src/confparms.cpp:748
 #, no-c-format
 msgid ""
 "<p>Minimum disk space to keep free. Defaults to 15% of the total disk size.</"
 "p>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1014
+#: src/kcmsystemd.cpp:39
+#, fuzzy
+#| msgid "kcmsystemd"
+msgid "systemd-kcm"
+msgstr "kcmsystemd"
+
+#: src/kcmsystemd.cpp:41
+msgid "KDE Systemd Control Module"
+msgstr ""
+
+#: src/kcmsystemd.cpp:46
+msgid "Main Developer"
+msgstr ""
+
+#: src/kcmsystemd.cpp:90
+msgid "Unable to find directory with systemd configuration files."
+msgstr ""
+"Nun pue alcontrase'l direutoriu colos ficheros de configuración systemd."
+
+#: src/kcmsystemd.cpp:239
+msgid "All"
+msgstr "Too"
+
+#: src/kcmsystemd.cpp:239
+msgid "Targets"
+msgstr "Oxetivos"
+
+#: src/kcmsystemd.cpp:239
+msgid "Services"
+msgstr "Servicios"
+
+#: src/kcmsystemd.cpp:240
+msgid "Devices"
+msgstr "Preseos"
+
+#: src/kcmsystemd.cpp:240
+msgid "Mounts"
+msgstr "Montaxes"
+
+#: src/kcmsystemd.cpp:240
+msgid "Automounts"
+msgstr "Auto-montaxes"
+
+#: src/kcmsystemd.cpp:240
+msgid "Swaps"
+msgstr "Intercambeos"
+
+#: src/kcmsystemd.cpp:241
+msgid "Sockets"
+msgstr ""
+
+#: src/kcmsystemd.cpp:241
+msgid "Paths"
+msgstr "Caminos"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabTimers)
+#: src/kcmsystemd.cpp:241 ui/kcmsystemd.ui:366
+msgid "Timers"
+msgstr "Temporizadores"
+
+#: src/kcmsystemd.cpp:241
+msgid "Snapshots"
+msgstr ""
+
+#: src/kcmsystemd.cpp:242
+msgid "Slices"
+msgstr ""
+
+#: src/kcmsystemd.cpp:242
+msgid "Scopes"
+msgstr ""
+
+#: src/kcmsystemd.cpp:284
 #, kde-format
 msgid ""
 "\"%1\" is not a valid value for %2. Using default value for this parameter."
 msgstr ""
 
-#: src/kcmsystemd.cpp:1024
+#: src/kcmsystemd.cpp:294
 #, kde-format
 msgid "Failed to read %1/%2. Using default values."
 msgstr ""
 
-#: src/kcmsystemd.cpp:1099
+#: src/kcmsystemd.cpp:369
 msgid "Session ID"
 msgstr "ID de sesión"
 
-#: src/kcmsystemd.cpp:1100
+#: src/kcmsystemd.cpp:370
 msgid "Session Object Path"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1101
+#: src/kcmsystemd.cpp:371
 msgid "State"
 msgstr "Estáu"
 
-#: src/kcmsystemd.cpp:1102
+#: src/kcmsystemd.cpp:372
 msgid "User ID"
 msgstr "ID d'usuariu"
 
-#: src/kcmsystemd.cpp:1103
+#: src/kcmsystemd.cpp:373
 msgid "User Name"
 msgstr "Nome d'usuariu"
 
-#: src/kcmsystemd.cpp:1104
+#: src/kcmsystemd.cpp:374
 msgid "Seat ID"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1126
+#: src/kcmsystemd.cpp:396
 msgid "Timer"
 msgstr "Temporizadores"
 
-#: src/kcmsystemd.cpp:1127
+#: src/kcmsystemd.cpp:397
 msgid "Next"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1128
+#: src/kcmsystemd.cpp:398
 msgid "Left"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1129
+#: src/kcmsystemd.cpp:399
 msgid "Last"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1130
+#: src/kcmsystemd.cpp:400
 msgid "Passed"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1131
+#: src/kcmsystemd.cpp:401
 msgid "Activates"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1148
+#: src/kcmsystemd.cpp:418
 msgid "Load default settings for all files?"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1203
+#: src/kcmsystemd.cpp:473
 msgid "Unable to find directory for configuration files."
 msgstr "Nun pue alcontrase'l direutoriu pa los ficheros de configuración."
 
-#: src/kcmsystemd.cpp:1224 src/kcmsystemd.cpp:1601
+#: src/kcmsystemd.cpp:494 src/kcmsystemd.cpp:871
 #, kde-format
 msgid "Unable to authenticate/execute the action: %1"
 msgstr "Nun pue autenticase/executase l'aición: %1"
 
-#: src/kcmsystemd.cpp:1227
+#: src/kcmsystemd.cpp:497
 #, kde-format
 msgid "Configuration files successfully written to: %1"
 msgstr "Escribiéronse con ésitu los ficheros de configuración en: %1"
 
-#: src/kcmsystemd.cpp:1569 src/kcmsystemd.cpp:1573
+#: src/kcmsystemd.cpp:839 src/kcmsystemd.cpp:843
 #, kde-format
 msgid "Total: %1 units, %2 active, %3 displayed"
 msgstr "Total: %1 unidaes, %2 activu, %3 amosáu"
 
-#: src/kcmsystemd.cpp:1638
+#: src/kcmsystemd.cpp:908
 msgid "&Start unit"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1639
+#: src/kcmsystemd.cpp:909
 msgid "S&top unit"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1640
+#: src/kcmsystemd.cpp:910
 msgid "&Restart unit"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1641
+#: src/kcmsystemd.cpp:911
 msgid "Re&load unit"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1643
+#: src/kcmsystemd.cpp:913
 msgid "&Edit unit file"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1644
+#: src/kcmsystemd.cpp:914
 msgid "&Isolate unit"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1646
+#: src/kcmsystemd.cpp:916
 msgid "En&able unit"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1647
+#: src/kcmsystemd.cpp:917
 msgid "&Disable unit"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1649
+#: src/kcmsystemd.cpp:919
 msgid "&Mask unit"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1650
+#: src/kcmsystemd.cpp:920
 msgid "&Unmask unit"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1652
+#: src/kcmsystemd.cpp:922
 msgid "Rel&oad all unit files"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1653
+#: src/kcmsystemd.cpp:923
 msgid "Ree&xecute systemd"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1762
+#: src/kcmsystemd.cpp:1032
 msgid "Failed to open unit file."
 msgstr ""
 
-#: src/kcmsystemd.cpp:1842
+#: src/kcmsystemd.cpp:1112
 msgid "&Activate session"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1843
+#: src/kcmsystemd.cpp:1113
 msgid "&Terminate session"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1844
+#: src/kcmsystemd.cpp:1114
 msgid "&Lock session"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1905
+#: src/kcmsystemd.cpp:1175
 #, kde-format
 msgid "<b>VT:</b> %1"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1910
+#: src/kcmsystemd.cpp:1180
 #, kde-format
 msgid "<br><b>Remote host:</b> %1"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1911
+#: src/kcmsystemd.cpp:1181
 #, kde-format
 msgid "<br><b>Remote user:</b> %1"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1913
+#: src/kcmsystemd.cpp:1183
 #, kde-format
 msgid "<br><b>Service:</b> %1"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1916
+#: src/kcmsystemd.cpp:1186
 #, kde-format
 msgid "<br><b>Type:</b> %1"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1918
+#: src/kcmsystemd.cpp:1188
 #, kde-format
 msgid " (display %1)"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1928
+#: src/kcmsystemd.cpp:1198
 #, kde-format
 msgid "<br><b>Class:</b> %1"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1929
+#: src/kcmsystemd.cpp:1199
 #, kde-format
 msgid "<br><b>State:</b> %1"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1930
+#: src/kcmsystemd.cpp:1200
 #, kde-format
 msgid "<br><b>Scope:</b> %1"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1933
+#: src/kcmsystemd.cpp:1203
 msgid "<br><b>Created: </b>"
 msgstr ""
 
-#: src/kcmsystemd.cpp:2023
+#: src/kcmsystemd.cpp:1293
 #, kde-format
 msgid "File to be written: %1/%2"
 msgstr ""

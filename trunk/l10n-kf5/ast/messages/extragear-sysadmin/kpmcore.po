@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-24 08:19+0000\n"
+"POT-Creation-Date: 2015-08-05 07:45+0000\n"
 "PO-Revision-Date: 2015-04-30 00:45+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -1228,7 +1228,12 @@ msgctxt "@title:menu"
 msgid "Deactivate swap"
 msgstr ""
 
-#: fs/luks.cpp:88
+#: fs/luks.cpp:91
+msgctxt "@title:menu"
+msgid "Decrypt"
+msgstr ""
+
+#: fs/luks.cpp:96
 msgctxt "@title:menu"
 msgid "Deactivate"
 msgstr ""
@@ -1334,6 +1339,27 @@ msgctxt "@info/plain"
 msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
+msgstr ""
+
+#: gui/decryptluksdialog.cpp:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Decrypt LUKS partition on <filename>%1</filename>"
+msgstr ""
+
+#: gui/decryptluksdialog.cpp:41
+msgctxt "@action:button"
+msgid "&Decrypt"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_Name)
+#: gui/decryptluksdialogwidgetbase.ui:22
+msgid "&Name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_Pass)
+#: gui/decryptluksdialogwidgetbase.ui:35
+msgid "&Passphrase:"
 msgstr ""
 
 #: jobs/backupfilesystemjob.cpp:62
