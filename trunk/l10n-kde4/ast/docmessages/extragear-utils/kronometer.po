@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-23 02:49+0000\n"
+"POT-Creation-Date: 2015-08-06 02:24+0000\n"
 "PO-Revision-Date: 2015-04-02 00:57+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -47,20 +47,20 @@ msgstr "Elvis Angelaccio"
 #. Tag: date
 #: index.docbook:31
 #, no-c-format
-msgid "2015-02-22"
+msgid "2015-08-24"
 msgstr ""
 
 #. Tag: releaseinfo
 #: index.docbook:32
 #, no-c-format
-msgid "1.6.0 (&kde; 4.14)"
+msgid "&kronometer; 2.0"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:39
 #, no-c-format
 msgid ""
-"&kronometer; is a stopwatch for &kde;. It can be used for basic tasks like "
+"&kronometer; is a stopwatch application. It can be used for basic tasks like "
 "timer start/pause/resume, as well as lap times recording."
 msgstr ""
 
@@ -132,7 +132,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:80
 #, no-c-format
-msgid "&kronometer; allows you to copy timer numbers from display."
+msgid "&kronometer; allows you to copy the timer numbers from its display."
 msgstr ""
 
 #. Tag: title
@@ -190,8 +190,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When you pause a running stopwatch you create a session: a stopwatch time "
-"and zero or more lap times. You can save a session on a file and you can "
-"restore it later."
+"and zero or more lap times. You can save a session and you can restore it "
+"later."
 msgstr ""
 
 #. Tag: title
@@ -205,8 +205,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Pause a running stopwatch, then click on the <guibutton>Save As</guibutton> "
-"button on the toolbar or in the <guimenu>File</guimenu> menu. Then choose a "
-"name for the session's file to be stored on your computer."
+"button in the <guimenu>File</guimenu> menu. You can choose a name for the "
+"session that you are going to save."
 msgstr ""
 
 #. Tag: title
@@ -220,8 +220,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Click the <guibutton>Open</guibutton> button on the toolbar or in the "
-"<guimenu>File</guimenu> menu. Then choose an existing session's file to be "
-"loaded."
+"<guimenu>File</guimenu> menu. Then choose an existing session to be loaded "
+"from the session's dialog."
 msgstr ""
 
 #. Tag: title
@@ -236,8 +236,8 @@ msgstr ""
 msgid ""
 "When the session is restored, you can resume the stopwatch and you can "
 "record new lap times. If you want to save the updated session, you can "
-"simply click the <guibutton>Save</guibutton> button in the toolbar or in the "
-"<guimenu>File</guimenu> menu."
+"simply click the <guibutton>Save</guibutton> button in the <guimenu>File</"
+"guimenu> menu."
 msgstr ""
 
 #. Tag: title
@@ -254,7 +254,7 @@ msgid ""
 "<guimenu>File</guimenu> menu is made available, under the entry "
 "<guimenuitem>Export laps as</guimenuitem>. Click on it and then choose a "
 "name for the exported file. You can export in the Comma Separated Values "
-"(CSV) format or in the &XML; one."
+"(CSV) format or in the JSON one."
 msgstr ""
 
 #. Tag: title
@@ -299,21 +299,35 @@ msgstr ""
 #: index.docbook:147
 #, no-c-format
 msgid ""
-"In the general settings page you can choose the preferred time format for "
-"the stopwatch display and for the lap times. You choose whether to show "
-"hours, minutes, seconds or second fractions. &kronometer; supports time "
-"granularity up to millisecond, although it requires high CPU usage due to "
-"the high refresh rate of the UI."
+"In the general settings page you can find the settings for the stopwatch and "
+"for the laps. Under the stopwatch tab you can set your preferred time format "
+"for the stopwatch display. You can choose whether to show hours, minutes or "
+"second fractions (while seconds are always shown). &kronometer; supports "
+"time granularity up to millisecond, although this requires high CPU usage "
+"due to the high refresh rate of the User Interface. In the stopwatch tab you "
+"can also choose whether to show the time headers. The time headers are the "
+"labels on the upper space of the stopwatch display. They show the name of "
+"each timer component (hours, minutes, &etc;)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:150
+#, no-c-format
+msgid ""
+"Within the laps tab you can enable or disable the laps recording feature. If "
+"the laps are enabled, you can choose their time format, whether to show "
+"their notes and whether to show their absolute times, which are the "
+"stopwatch times when they were recorded."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:152
+#: index.docbook:155
 #, no-c-format
 msgid "Font settings"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:153
+#: index.docbook:156
 #, no-c-format
 msgid ""
 "In the font settings page you can customize the font of the stopwatch "
@@ -322,13 +336,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:158
+#: index.docbook:161
 #, no-c-format
 msgid "Color settings"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:159
+#: index.docbook:162
 #, no-c-format
 msgid ""
 "In the color settings page you can customize the default color of the "
@@ -336,54 +350,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:164
-#, no-c-format
-msgid "Interface settings"
-msgstr ""
-
-#. Tag: para
-#: index.docbook:165
-#, no-c-format
-msgid ""
-"In the interface settings page you can choose whether to disable the laps "
-"recording feature. This can be useful if you wish to optimize the window "
-"content. You can also choose whether to show the time headers. The time "
-"headers are the labels on the upper space of the stopwatch display. They "
-"show the name of each timer component (hours, minutes, &etc;)."
-msgstr ""
-
-#. Tag: title
-#: index.docbook:170
-#, no-c-format
-msgid "Save settings"
-msgstr ""
-
-#. Tag: para
-#: index.docbook:171
-#, no-c-format
-msgid ""
-"In the save settings you can choose the indentation size (that is the number "
-"of blank spaces) of the XML files created by &kronometer;. The dialog allows "
-"you to choose different sizes for the <emphasis>save files</emphasis> and "
-"the <emphasis>export files</emphasis>."
-msgstr ""
-
-#. Tag: para
-#: index.docbook:174
-#, no-c-format
-msgid ""
-"You can also set the indent size (number of characters) of the &XML; save "
-"files and exported files."
-msgstr ""
-
-#. Tag: title
-#: index.docbook:179
+#: index.docbook:167
 #, no-c-format
 msgid "&kde; Built-in settings"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:180
+#: index.docbook:168
 #, no-c-format
 msgid ""
 "&kronometer; makes use of the standard &kde; configuration tools. You find "
@@ -395,19 +368,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:187
+#: index.docbook:175
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:188
+#: index.docbook:176
 #, no-c-format
 msgid "&kronometer;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:191
+#: index.docbook:179
 #, no-c-format
 msgid ""
 "Program copyright &copy; 2014 Elvis Angelaccio <email>elvis."
@@ -415,7 +388,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:195
+#: index.docbook:183
 #, no-c-format
 msgid ""
 "Documentation copyright &copy; 2014 Elvis Angelaccio <email>elvis."
@@ -423,13 +396,13 @@ msgid ""
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:199
+#: index.docbook:187
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:199
+#: index.docbook:187
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
