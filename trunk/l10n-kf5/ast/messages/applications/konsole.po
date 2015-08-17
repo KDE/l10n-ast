@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-15 08:34+0000\n"
+"POT-Creation-Date: 2015-08-17 08:20+0000\n"
 "PO-Revision-Date: 2015-07-10 14:09+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alminsitradores@softastur.org>\n"
@@ -422,13 +422,13 @@ msgstr[1] "segundos"
 msgid "Select Initial Directory"
 msgstr "Esbillar direutoriu anicial"
 
-#: EditProfileDialog.cpp:592
+#: EditProfileDialog.cpp:594
 #, fuzzy, kde-format
 #| msgid "%1"
 msgid "%1"
 msgstr "%1"
 
-#: EditProfileDialog.cpp:780
+#: EditProfileDialog.cpp:782
 #, fuzzy
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
@@ -437,7 +437,7 @@ msgstr ""
 "Esti esquema de color tien un fondu tresparente que nun ta sofitáu pol so "
 "escritoriu"
 
-#: EditProfileDialog.cpp:785
+#: EditProfileDialog.cpp:787
 #, fuzzy
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
@@ -446,18 +446,22 @@ msgstr ""
 "Konsole anicióse enantes que los efeutos gráficos s'habilitaren. Necesites "
 "reaniciar Konsole pa ver el fondu tresparente"
 
-#: EditProfileDialog.cpp:889 EditProfileDialog.cpp:899
+#: EditProfileDialog.cpp:891 EditProfileDialog.cpp:901
 #, fuzzy
 msgid "New Key Binding List"
 msgstr "Nueva llista de combinaciones de tecles"
 
-#: EditProfileDialog.cpp:891
+#: EditProfileDialog.cpp:893
 #, fuzzy
 msgid "Edit Key Binding List"
 msgstr "Editar llista de combinaciones de tecles"
 
-#: EditProfileDialog.cpp:1221
+#: EditProfileDialog.cpp:1223
 msgid "Select Fixed Width Font"
+msgstr ""
+
+#: EditProfileDialog.cpp:1271
+msgid "AaZz09..."
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
@@ -1223,10 +1227,12 @@ msgctxt "@info:status"
 msgid ""
 "When using this option, the scrollback data will be written unencrypted to "
 "temporary files. Those temporary files will be deleted automatically when "
-"Konsole is closed in a normal manner."
+"Konsole is closed in a normal manner.\n"
+"Use Settings->Configure Konsole->File Location to select the location of the "
+"temporary files."
 msgstr ""
 
-#: HistorySizeWidget.cpp:60
+#: HistorySizeWidget.cpp:62
 #, fuzzy
 #| msgid "lines"
 msgctxt "Unit of scrollback"
@@ -1882,54 +1888,54 @@ msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr "Gracies a munchos otros.\n"
 
-#: MainWindow.cpp:293
+#: MainWindow.cpp:294
 #, fuzzy
 #| msgid "New &Tab"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "Nueva llin&güeta"
 
-#: MainWindow.cpp:303
+#: MainWindow.cpp:304
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "&Zarrar llingüeta"
 
-#: MainWindow.cpp:310
+#: MainWindow.cpp:311
 #, fuzzy
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "Nueva &ventana"
 
-#: MainWindow.cpp:317
+#: MainWindow.cpp:318
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:322
+#: MainWindow.cpp:323
 #, fuzzy
 #| msgid "&Bookmarks"
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "&Marcadores"
 
-#: MainWindow.cpp:340
+#: MainWindow.cpp:341
 #, fuzzy
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "Xestionar perfiles"
 
-#: MainWindow.cpp:346
+#: MainWindow.cpp:347
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:570
+#: MainWindow.cpp:571
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -1940,38 +1946,45 @@ msgid_plural ""
 msgstr[0] "Tiene varies llingüetes nesta ventana, ¿daveres quier colar?"
 msgstr[1] "Tiene varies llingüetes nesta ventana, ¿daveres quier colar?"
 
-#: MainWindow.cpp:576
+#: MainWindow.cpp:577
 #, fuzzy
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "Confirmar zarrar"
 
-#: MainWindow.cpp:577
+#: MainWindow.cpp:578
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:578
+#: MainWindow.cpp:579
 #, fuzzy
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "Zarrar llingüeta actual"
 
-#: MainWindow.cpp:675
+#: MainWindow.cpp:676
 #, fuzzy
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "Xeneral"
 
-#: MainWindow.cpp:680
+#: MainWindow.cpp:681
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
+
+#: MainWindow.cpp:686
+#, fuzzy
+#| msgid "Paste Selection"
+msgctxt "@title Preferences page name"
+msgid "File Location"
+msgstr "Apegar seleición"
 
 #: ManageProfilesDialog.cpp:53
 #, fuzzy
@@ -2597,6 +2610,44 @@ msgctxt "@item:intable The session title"
 msgid "Title"
 msgstr "Títulu"
 
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, ButtonGroup1)
+#: settings/FileLocationSettings.ui:23
+msgid ""
+"<b>Scrollback File Location</b><p>Use this groupbox to determine where "
+"Konsole will store the scrollback files.</p>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, ButtonGroup1)
+#: settings/FileLocationSettings.ui:26
+#, fuzzy
+#| msgid "Scrollback Options"
+msgid "Scrollback File Location"
+msgstr "Opciones del hestorial"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/FileLocationSettings.ui:32
+msgid ""
+"These settings only apply when Profile->Scrolling->Unlimited scrollback is "
+"selected."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_scrollbackUseSystemLocation)
+#: settings/FileLocationSettings.ui:42
+#, fuzzy
+#| msgid "Paste Selection"
+msgid "Use system &location"
+msgstr "Apegar seleición"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_scrollbackUseUsersHomeLocation)
+#: settings/FileLocationSettings.ui:85
+msgid "Use user's ho&me location"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/FileLocationSettings.ui:133
+msgid "For any changes to take effect, quit Konsole and restart."
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
 #: settings/GeneralSettings.ui:28
 #, fuzzy
@@ -2718,6 +2769,16 @@ msgstr ""
 #. i18n: ectx: label, entry (NewTabBehavior), group (TabBar)
 #: settings/konsole.kcfg:74
 msgid "Control where to put the new tab"
+msgstr ""
+
+#. i18n: ectx: label, entry (scrollbackUseSystemLocation), group (FileLocation)
+#: settings/konsole.kcfg:94
+msgid "For scrollback files, use system-wide folder location"
+msgstr ""
+
+#. i18n: ectx: label, entry (scrollbackUseUsersHomeLocation), group (FileLocation)
+#: settings/konsole.kcfg:98
+msgid "For scrollback files, use user's home folder location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_1)
@@ -2891,20 +2952,20 @@ msgstr "Tamañu: XXX x XXX"
 msgid "Size: %1 x %2"
 msgstr "Tamañu: %1 x %2"
 
-#: TerminalDisplay.cpp:2796
+#: TerminalDisplay.cpp:2801
 #, fuzzy, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] "¿De xuru que quies apegar el carauter %1?"
 msgstr[1] "¿De xuru que quies apegar los caracteres %1?"
 
-#: TerminalDisplay.cpp:2799
+#: TerminalDisplay.cpp:2804
 #, fuzzy
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "Confirmar zarrar"
 
-#: TerminalDisplay.cpp:2988
+#: TerminalDisplay.cpp:2993
 #, fuzzy
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -2917,13 +2978,13 @@ msgstr ""
 "<qt>La salida <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspendióse</a> calcando Ctrl+S. Calque <b>Ctrl+Q</b> pa siguir.</qt>"
 
-#: TerminalDisplay.cpp:3256
+#: TerminalDisplay.cpp:3261
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "Apegar seleición"
 
-#: TerminalDisplay.cpp:3273
+#: TerminalDisplay.cpp:3278
 msgid "Change &Directory To"
 msgstr ""
 
@@ -3191,9 +3252,6 @@ msgstr "&Parar"
 #~ msgctxt "@option:radio Conceal the scroll bar"
 #~ msgid "Hidden"
 #~ msgstr "Anubríu"
-
-#~ msgid "Scrollback Options"
-#~ msgstr "Opciones del hestorial"
 
 #~ msgid "&Change Profile"
 #~ msgstr "&Cambiar perfil"
