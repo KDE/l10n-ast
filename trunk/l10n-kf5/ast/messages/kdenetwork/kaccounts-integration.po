@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-22 08:41+0000\n"
+"POT-Creation-Date: 2015-09-02 08:14+0000\n"
 "PO-Revision-Date: 2015-07-04 15:41+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alminsitradores@softastur.org>\n"
@@ -26,14 +26,14 @@ msgctxt "Messagebox title; meaning 'Unable to finish the action you started'"
 msgid "Unable to finish"
 msgstr "Nun pue finase"
 
-#: src/jobs/createaccount.cpp:144
+#: src/jobs/createaccount.cpp:108
 #, kde-format
 msgctxt "The %1 is for plugin name, eg. Could not load UI plugin"
 msgid "Could not load %1 plugin, please check your installation"
 msgstr ""
 "Nun pudo cargase'l complementu %1, por favor comprueba la to instalación"
 
-#: src/jobs/createaccount.cpp:259
+#: src/jobs/createaccount.cpp:222
 #, kde-format
 msgid "There was an error while trying to process the request: %1"
 msgstr "Hebo un fallu entrín s'intentaba procesar la solicitú: %1"
@@ -62,6 +62,82 @@ msgstr "Crear"
 msgid "Accounts"
 msgstr "Cuentes"
 
+#: src/owncloud/owncloud.cpp:50
+#, fuzzy
+#| msgid "ownCloud account Wizard"
+msgid "Add ownCloud Account"
+msgstr "Encontu pa cuenta ownCloud"
+
+#: src/owncloud/owncloud.cpp:76
+msgctxt "Action to go to the next page on the wizard"
+msgid "Next"
+msgstr "Siguiente"
+
+#: src/owncloud/owncloud.cpp:77
+msgctxt "Action to finish the wizard"
+msgid "Finish"
+msgstr "Finar"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/owncloud/pages/basicinfo.ui:19
+msgid "ownCloud"
+msgstr "ownCloud"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/owncloud/pages/basicinfo.ui:50 src/owncloudDialog.ui:38
+msgid "Password:"
+msgstr "Contraseña:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/owncloud/pages/basicinfo.ui:57
+msgid "Username"
+msgstr "Nome d'usuariu"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, server)
+#: src/owncloud/pages/basicinfo.ui:64
+#, fuzzy
+#| msgid "my.owncloudserver.org"
+msgid "http://my.owncloudserver.org"
+msgstr "mio.sirvidorowncloud.org"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/owncloud/pages/basicinfo.ui:78
+msgid "Server"
+msgstr "Sirvidor"
+
+#. i18n: A typical username that is used as a hint (placeHolderText)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, username)
+#: src/owncloud/pages/basicinfo.ui:88
+msgid "JohnDoe"
+msgstr "XuacuXostron"
+
+#: src/owncloud/pages/connecting.cpp:82
+msgid "Unable to authenticate using the provided username and password"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, connecting)
+#: src/owncloud/pages/connecting.ui:57
+msgid "Connecting to:"
+msgstr "Coneutando a:"
+
+#: src/owncloud/pages/oservices.cpp:44
+msgid "Files"
+msgstr "Ficheros"
+
+#: src/owncloud/pages/oservices.cpp:45
+msgid "Calendar"
+msgstr "Calendariu"
+
+#: src/owncloud/pages/oservices.cpp:46
+msgid "Contacts"
+msgstr "Contautos"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/owncloud/pages/oservices.ui:19 src/services.ui:25
+msgid "Select what services you want to activate"
+msgstr "Esbilla que servicios quies activar"
+
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, hostLine)
 #: src/owncloudDialog.ui:17
 msgid "owncloud.org"
@@ -77,11 +153,6 @@ msgstr "AntonXostron (nome d'usuariu)"
 msgid "Username:"
 msgstr "Nome d'usuariu:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/owncloudDialog.ui:38
-msgid "Password:"
-msgstr "Contraseña:"
-
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, passwordLine)
 #: src/owncloudDialog.ui:48
 msgid "Password"
@@ -92,21 +163,8 @@ msgstr "Contraseña"
 msgid "Host:"
 msgstr "Agospiu:"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/services.ui:25
-msgid "Select what services you want to activate"
-msgstr "Esbilla que servicios quies activar"
-
 #~ msgid "Facebook account Wizard"
 #~ msgstr "Encontru pa cuenta facebook"
-
-#~ msgctxt "Action to go to the next page on the wizard"
-#~ msgid "Next"
-#~ msgstr "Siguiente"
-
-#~ msgctxt "Action to finish the wizard"
-#~ msgid "Finish"
-#~ msgstr "Finar"
 
 #~ msgid "Credentials"
 #~ msgstr "Credenciales"
@@ -173,12 +231,6 @@ msgstr "Esbilla que servicios quies activar"
 #~ msgid "EMail"
 #~ msgstr "Corréu"
 
-#~ msgid "Calendar"
-#~ msgstr "Calendariu"
-
-#~ msgid "Contacts"
-#~ msgstr "Contautos"
-
 #~ msgid "Tasks"
 #~ msgstr "Xeres"
 
@@ -191,32 +243,8 @@ msgstr "Esbilla que servicios quies activar"
 #~ msgid "Calendar and Contacts"
 #~ msgstr "Calendariu y eventos"
 
-#~ msgid "ownCloud account Wizard"
-#~ msgstr "Encontu pa cuenta ownCloud"
-
-#~ msgid "ownCloud"
-#~ msgstr "ownCloud"
-
-#~ msgid "Username"
-#~ msgstr "Nome d'usuariu"
-
-#~ msgid "my.owncloudserver.org"
-#~ msgstr "mio.sirvidorowncloud.org"
-
-#~ msgid "Server"
-#~ msgstr "Sirvidor"
-
-#~ msgid "JohnDoe"
-#~ msgstr "XuacuXostron"
-
 #~ msgid "User or password are incorrect"
 #~ msgstr "L'usuariu o contraseña son incorreutos"
-
-#~ msgid "Connecting to:"
-#~ msgstr "Coneutando a:"
-
-#~ msgid "Files"
-#~ msgstr "Ficheros"
 
 #~ msgid "The username and password are required"
 #~ msgstr "Ríquense'l nome d'usuariu y contraseña"
