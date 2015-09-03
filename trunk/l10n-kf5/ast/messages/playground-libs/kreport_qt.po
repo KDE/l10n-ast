@@ -42,6 +42,11 @@ msgctxt "KoReportItemLine|"
 msgid "Line Style"
 msgstr "Estilu de llinia"
 
+#: common/KReportDesign.cpp:76
+msgctxt "KReportDesign|"
+msgid "Could not parse XML document."
+msgstr ""
+
 #: common/KReportPageFormat.cpp:68
 msgctxt "KReportPageFormat|"
 msgid "ISO A3"
@@ -189,6 +194,22 @@ msgstr "Carta d'EE.XX"
 msgctxt "KReportPageFormat|"
 msgid "US Tabloid"
 msgstr ""
+
+#: common/KReportSection.cpp:100
+#, fuzzy
+#| msgctxt "KRSectionData|"
+#| msgid "Height"
+msgctxt "KReportSection|"
+msgid "Height"
+msgstr "Altor"
+
+#: common/KReportSection.cpp:101
+#, fuzzy
+#| msgctxt "KRSectionData|"
+#| msgid "Background Color"
+msgctxt "KReportSection|"
+msgid "Background Color"
+msgstr "Color de fondu"
 
 #: common/KReportUnit.cpp:47
 msgctxt "KReportUnit|"
@@ -673,16 +694,16 @@ msgctxt "DetailGroupSectionDialog|"
 msgid "Insert page break after group footer:"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:294
+#: wrtembed/KoReportDesigner.cpp:295
+#, qt-format
 msgctxt "KoReportDesigner|"
 msgid ""
-"This report is using a script type other than \"javascript\".  To prevent "
-"loosing the script, the type of script will not be changed unless the script "
-"is changed.  Please be aware that the script will not work unless it is "
-"changed to a \"javascript\" script."
+"This report contains scripts of type \"%1\". Only scripts written in "
+"JavaScript language are supported. To prevent loosing the scripts, their "
+"type and content will not be changed unless you change these scripts."
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:297
+#: wrtembed/KoReportDesigner.cpp:300
 #, fuzzy
 #| msgctxt "KReportUnit|"
 #| msgid "Unsupported unit"
@@ -690,177 +711,177 @@ msgctxt "KoReportDesigner|"
 msgid "Unsupported Script Type"
 msgstr "Unidá ensin sofitu"
 
-#: wrtembed/KoReportDesigner.cpp:584
+#: wrtembed/KoReportDesigner.cpp:587
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Any)"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:588
+#: wrtembed/KoReportDesigner.cpp:591
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Even)"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:592
+#: wrtembed/KoReportDesigner.cpp:595
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Odd)"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:596
+#: wrtembed/KoReportDesigner.cpp:599
 msgctxt "KoReportDesigner|"
 msgid "Page Header (First)"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:600
+#: wrtembed/KoReportDesigner.cpp:603
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Last)"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:604
+#: wrtembed/KoReportDesigner.cpp:607
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Any)"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:608
+#: wrtembed/KoReportDesigner.cpp:611
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Even)"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:612
+#: wrtembed/KoReportDesigner.cpp:615
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Odd)"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:616
+#: wrtembed/KoReportDesigner.cpp:619
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (First)"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:620
+#: wrtembed/KoReportDesigner.cpp:623
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Last)"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:624
+#: wrtembed/KoReportDesigner.cpp:627
 msgctxt "KoReportDesigner|"
 msgid "Report Header"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:628
+#: wrtembed/KoReportDesigner.cpp:631
 msgctxt "KoReportDesigner|"
 msgid "Report Footer"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:721
+#: wrtembed/KoReportDesigner.cpp:724
 msgctxt "KoReportDesigner|"
 msgid "Title"
 msgstr "Títulu"
 
-#: wrtembed/KoReportDesigner.cpp:721
+#: wrtembed/KoReportDesigner.cpp:724
 msgctxt "KoReportDesigner|"
 msgid "Report Title"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:727
+#: wrtembed/KoReportDesigner.cpp:730
 msgctxt "KoReportDesigner|"
 msgid "Page Size"
 msgstr "Tamañu de páxina"
 
-#: wrtembed/KoReportDesigner.cpp:731
+#: wrtembed/KoReportDesigner.cpp:734
 msgctxt "KoReportDesigner|"
 msgid "Portrait"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:731
+#: wrtembed/KoReportDesigner.cpp:734
 msgctxt "KoReportDesigner|"
 msgid "Landscape"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:732
+#: wrtembed/KoReportDesigner.cpp:735
 msgctxt "KoReportDesigner|"
 msgid "Page Orientation"
 msgstr "Orientación de páxina"
 
-#: wrtembed/KoReportDesigner.cpp:743
+#: wrtembed/KoReportDesigner.cpp:746
 msgctxt "KoReportDesigner|"
 msgid "Page Unit"
 msgstr "Unidá de páxina"
 
-#: wrtembed/KoReportDesigner.cpp:745
+#: wrtembed/KoReportDesigner.cpp:748
 msgctxt "KoReportDesigner|"
 msgid "Show Grid"
 msgstr "Amosar rexáu"
 
-#: wrtembed/KoReportDesigner.cpp:746
+#: wrtembed/KoReportDesigner.cpp:749
 msgctxt "KoReportDesigner|"
 msgid "Snap to Grid"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:747
+#: wrtembed/KoReportDesigner.cpp:750
 msgctxt "KoReportDesigner|"
 msgid "Grid Divisions"
 msgstr "Divisiones del rexáu"
 
-#: wrtembed/KoReportDesigner.cpp:750
+#: wrtembed/KoReportDesigner.cpp:753
 msgctxt "KoReportDesigner|"
 msgid "Left Margin"
 msgstr "Marxe esquierdu"
 
-#: wrtembed/KoReportDesigner.cpp:752
+#: wrtembed/KoReportDesigner.cpp:755
 msgctxt "KoReportDesigner|"
 msgid "Right Margin"
 msgstr "Marxe drechu"
 
-#: wrtembed/KoReportDesigner.cpp:754
+#: wrtembed/KoReportDesigner.cpp:757
 msgctxt "KoReportDesigner|"
 msgid "Top Margin"
 msgstr "Marxe cimeru"
 
-#: wrtembed/KoReportDesigner.cpp:756
+#: wrtembed/KoReportDesigner.cpp:759
 msgctxt "KoReportDesigner|"
 msgid "Bottom Margin"
 msgstr "Marxe baxeru"
 
-#: wrtembed/KoReportDesigner.cpp:775
+#: wrtembed/KoReportDesigner.cpp:778
 msgctxt "KoReportDesigner|"
 msgid "Object Script"
 msgstr "Script d'oxetu"
 
-#: wrtembed/KoReportDesigner.cpp:936
+#: wrtembed/KoReportDesigner.cpp:939
 msgctxt "KoReportDesigner|"
 msgid "Cut"
 msgstr "Cortar"
 
-#: wrtembed/KoReportDesigner.cpp:940
+#: wrtembed/KoReportDesigner.cpp:943
 msgctxt "KoReportDesigner|"
 msgid "Copy"
 msgstr "Copiar"
 
-#: wrtembed/KoReportDesigner.cpp:945
+#: wrtembed/KoReportDesigner.cpp:948
 msgctxt "KoReportDesigner|"
 msgid "Paste"
 msgstr "Apegar"
 
-#: wrtembed/KoReportDesigner.cpp:956
+#: wrtembed/KoReportDesigner.cpp:959
 msgctxt "KoReportDesigner|"
 msgid "Delete"
 msgstr "Desaniciar"
 
-#: wrtembed/KoReportDesigner.cpp:1332
+#: wrtembed/KoReportDesigner.cpp:1335
 msgctxt "KoReportDesigner|"
 msgid "Line"
 msgstr "Llinia"
 
-#: wrtembed/KoReportDesigner.cpp:1375
+#: wrtembed/KoReportDesigner.cpp:1378
 msgctxt "KoReportDesigner|"
 msgid "Cu&t"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1377
+#: wrtembed/KoReportDesigner.cpp:1380
 msgctxt "KoReportDesigner|"
 msgid "Cut selection to clipboard"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1381
+#: wrtembed/KoReportDesigner.cpp:1384
 #, fuzzy
 #| msgctxt "KoReportDesigner|"
 #| msgid "Copy"
@@ -868,12 +889,12 @@ msgctxt "KoReportDesigner|"
 msgid "&Copy"
 msgstr "Copiar"
 
-#: wrtembed/KoReportDesigner.cpp:1383
+#: wrtembed/KoReportDesigner.cpp:1386
 msgctxt "KoReportDesigner|"
 msgid "Copy selection to clipboard"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1387
+#: wrtembed/KoReportDesigner.cpp:1390
 #, fuzzy
 #| msgctxt "KoReportDesigner|"
 #| msgid "Paste"
@@ -881,22 +902,22 @@ msgctxt "KoReportDesigner|"
 msgid "&Paste"
 msgstr "Apegar"
 
-#: wrtembed/KoReportDesigner.cpp:1389
+#: wrtembed/KoReportDesigner.cpp:1392
 msgctxt "KoReportDesigner|"
 msgid "Paste clipboard content"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1400
+#: wrtembed/KoReportDesigner.cpp:1403
 msgctxt "KoReportDesigner|"
 msgid "Edit Sections"
 msgstr "Editar estayes"
 
-#: wrtembed/KoReportDesigner.cpp:1403
+#: wrtembed/KoReportDesigner.cpp:1406
 msgctxt "KoReportDesigner|"
 msgid "Raise"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1405
+#: wrtembed/KoReportDesigner.cpp:1408
 msgctxt "KoReportDesigner|"
 msgid "Lower"
 msgstr ""
