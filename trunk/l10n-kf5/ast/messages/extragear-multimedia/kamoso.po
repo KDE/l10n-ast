@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-17 09:02+0000\n"
+"POT-Creation-Date: 2015-09-25 07:58+0000\n"
 "PO-Revision-Date: 2015-06-20 01:42+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -26,12 +26,13 @@ msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
 #. i18n: ectx: label, entry (saveUrl), group (General)
-#: src/kamosoSettings.kcfg:11
+#. i18n: ectx: label, entry (saveVideos), group (General)
+#: src/kamosoSettings.kcfg:11 src/kamosoSettings.kcfg:15
 msgid "Where the photos are saved."
 msgstr "U tán guardaes les semeyes."
 
 #. i18n: ectx: label, entry (deviceUdi), group (WebcamSettings)
-#: src/kamosoSettings.kcfg:20
+#: src/kamosoSettings.kcfg:24
 msgid "Points to the last used webcam."
 msgstr "Apunta a la cabera cámara web usada."
 
@@ -79,43 +80,49 @@ msgstr ""
 msgid "Places"
 msgstr "Llugares"
 
-#: src/qml/Config.qml:18
-msgid "Captures directory"
-msgstr "Direutoriu de captures"
+#: src/qml/Config.qml:30
+#, kde-format
+msgid "Photos: %1"
+msgstr ""
 
-#: src/qml/Config.qml:31
+#: src/qml/Config.qml:37 src/qml/Config.qml:60
 msgid "Select a directory where to save your pictures and videos"
 msgstr "Esbilla un direutoriu u guardar les tos semeyes y videos"
 
-#: src/qml/Config.qml:48
+#: src/qml/Config.qml:53
+#, kde-format
+msgid "Videos: %1"
+msgstr ""
+
+#: src/qml/Config.qml:77
 msgid "Camera Settings"
 msgstr "Axustes de cámara"
 
-#: src/qml/Config.qml:51
+#: src/qml/Config.qml:80
 msgid "Use flash"
 msgstr "Usar flax"
 
-#: src/qml/Config.qml:56
+#: src/qml/Config.qml:85
 msgid "Brightness:"
 msgstr "Rellumu:"
 
-#: src/qml/Config.qml:69
+#: src/qml/Config.qml:98
 msgid "Hue:"
 msgstr "Tonu:"
 
-#: src/qml/Config.qml:82
+#: src/qml/Config.qml:111
 msgid "Contrast:"
 msgstr "Contraste:"
 
-#: src/qml/Config.qml:95
+#: src/qml/Config.qml:124
 msgid "Saturation:"
 msgstr "Saturación:"
 
-#: src/qml/Config.qml:108
+#: src/qml/Config.qml:137
 msgid "Gamma:"
 msgstr "Gamma:"
 
-#: src/qml/Config.qml:124
+#: src/qml/Config.qml:153
 msgid "Reset"
 msgstr "Reafitar"
 
@@ -155,6 +162,9 @@ msgstr "Amosar galería..."
 #: src/qml/Main.qml:160
 msgid "Show settings..."
 msgstr "Amosar axustes..."
+
+#~ msgid "Captures directory"
+#~ msgstr "Direutoriu de captures"
 
 #~ msgid "Action!"
 #~ msgstr "¡Aición!"
