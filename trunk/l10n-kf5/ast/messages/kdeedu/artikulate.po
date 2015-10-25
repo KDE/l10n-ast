@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-24 08:26+0000\n"
+"POT-Creation-Date: 2015-10-25 08:15+0000\n"
 "PO-Revision-Date: 2015-03-31 01:49+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -91,7 +91,7 @@ msgid "Spanish"
 msgstr ""
 
 #: liblearnerprofile/src/models/learninggoalmodel.cpp:175
-#: src/models/coursemodel.cpp:124 src/models/languageresourcemodel.cpp:107
+#: src/models/coursemodel.cpp:129 src/models/languageresourcemodel.cpp:107
 #: src/models/phonemegroupmodel.cpp:99 src/models/phonememodel.cpp:80
 #: src/models/phonemeunitmodel.cpp:122 src/models/phraselistmodel.cpp:114
 #: src/models/profilemodel.cpp:104 src/models/skeletonmodel.cpp:98
@@ -166,7 +166,7 @@ msgid ""
 "runtime if available."
 msgstr ""
 
-#: src/core/course.cpp:194
+#: src/core/course.cpp:194 src/qml/Editor.qml:233
 msgid "New Unit"
 msgstr ""
 
@@ -249,7 +249,7 @@ msgstr ""
 msgid "Unnamed Identity"
 msgstr ""
 
-#: src/mainwindow.cpp:140 src/mainwindow_editor.cpp:117
+#: src/mainwindow.cpp:140 src/mainwindow_editor.cpp:127
 msgctxt "@item:inmenu"
 msgid "Configure Artikulate"
 msgstr ""
@@ -264,43 +264,48 @@ msgctxt "@item:inmenu"
 msgid "Learner Profile"
 msgstr ""
 
-#: src/mainwindow.cpp:178 src/mainwindow_editor.cpp:142
+#: src/mainwindow.cpp:178 src/mainwindow_editor.cpp:152
 msgctxt "@item:inmenu"
 msgid "Sound Devices"
 msgstr ""
 
-#: src/mainwindow.cpp:178 src/mainwindow_editor.cpp:142
+#: src/mainwindow.cpp:178 src/mainwindow_editor.cpp:152
 msgctxt "@title:tab"
 msgid "Sound Device Settings"
 msgstr ""
 
-#: src/mainwindow.cpp:179 src/mainwindow_editor.cpp:143
+#: src/mainwindow.cpp:179 src/mainwindow_editor.cpp:153
 msgctxt "@item:inmenu"
 msgid "Fonts"
 msgstr ""
 
-#: src/mainwindow.cpp:179 src/mainwindow_editor.cpp:143
+#: src/mainwindow.cpp:179 src/mainwindow_editor.cpp:153
 msgctxt "@title:tab"
 msgid "Training Phrase Font"
 msgstr ""
 
-#: src/mainwindow.cpp:180 src/mainwindow_editor.cpp:144
+#: src/mainwindow.cpp:180 src/mainwindow_editor.cpp:154
 msgctxt "@item:inmenu"
 msgid "Course Resources"
 msgstr ""
 
-#: src/mainwindow.cpp:180 src/mainwindow_editor.cpp:144
+#: src/mainwindow.cpp:180 src/mainwindow_editor.cpp:154
 msgctxt "@title:tab"
 msgid "Resource Repository Settings"
 msgstr ""
 
-#: src/mainwindow_editor.cpp:172
+#: src/mainwindow_editor.cpp:104 src/mainwindow_editor.cpp:106
+#, kde-format
+msgid "Course Repository: %1"
+msgstr ""
+
+#: src/mainwindow_editor.cpp:182
 msgctxt "@info"
 msgid ""
 "The currently open course contains unsaved changes. Do you want to save them?"
 msgstr ""
 
-#: src/models/coursemodel.cpp:199
+#: src/models/coursemodel.cpp:206
 msgctxt "@title:column"
 msgid "Course"
 msgstr ""
@@ -341,7 +346,7 @@ msgctxt "@title:column"
 msgid "Phoneme Unit"
 msgstr ""
 
-#: src/models/phraselistmodel.cpp:190 src/models/phrasemodel.cpp:235
+#: src/models/phraselistmodel.cpp:190 src/models/phrasemodel.cpp:272
 msgctxt "@title:column"
 msgid "Phrase"
 msgstr ""
@@ -361,23 +366,32 @@ msgctxt "@title:column"
 msgid "Unit"
 msgstr ""
 
-#: src/qml/Editor.qml:64
-msgid "Course Repository:"
+#: src/qml/Editor.qml:80
+msgid "Course Prototype:"
 msgstr ""
 
-#: src/qml/Editor.qml:92
-msgid "Language"
+#: src/qml/Editor.qml:96
+msgid "Edit Prototype"
 msgstr ""
 
-#: src/qml/Editor.qml:112
-msgid "Edit Skeleton"
+#: src/qml/Editor.qml:105
+msgid "Prototype Mode"
 msgstr ""
 
-#: src/qml/Editor.qml:120
-msgid "Course"
+#. i18n: ectx: property (text), widget (QLabel, labelLanguage)
+#: src/qml/Editor.qml:116 src/ui/newcoursedialog.ui:17
+msgid "Language:"
 msgstr ""
 
-#: src/qml/Editor.qml:182
+#: src/qml/Editor.qml:148
+msgid "There is no course in the selected language."
+msgstr ""
+
+#: src/qml/Editor.qml:168
+msgid "Create Course"
+msgstr ""
+
+#: src/qml/Editor.qml:193
 msgid "Units & Phrases"
 msgstr ""
 
@@ -576,6 +590,10 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
+#: src/qml/UnitEditor.qml:39
+msgid "Unit Title:"
+msgstr ""
+
 #: src/ui/newcoursedialog.cpp:42
 msgid "Create New Course"
 msgstr ""
@@ -586,11 +604,6 @@ msgstr ""
 
 #: src/ui/newcoursedialog.cpp:75
 msgid "New Course"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelLanguage)
-#: src/ui/newcoursedialog.ui:17
-msgid "Language:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelTitle)
