@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-23 08:17+0000\n"
+"POT-Creation-Date: 2015-10-27 10:17+0000\n"
 "PO-Revision-Date: 2015-10-23 00:21+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -16,6 +16,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 2.0\n"
+
+#: abstractlocker.cpp:51
+#, kde-format
+msgid ""
+"The screen locker is broken and unlocking is not possible anymore.\n"
+"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F2),\n"
+"log in and execute the command:\n"
+"\n"
+"loginctl unlock-sessions\n"
+"\n"
+"Afterwards switch back to the running session (Ctrl+Alt+F%1)."
+msgstr ""
 
 #. i18n: ectx: label, entry, group (Daemon)
 #: kcfg/kscreenlockersettings.kcfg:10
@@ -51,22 +63,10 @@ msgstr "Bloquiar pantalla"
 msgid "Screen locked"
 msgstr "Pantalla bloquiada"
 
-#: ksldapp.cpp:512
+#: ksldapp.cpp:515
 #, fuzzy
 msgid "Screen unlocked"
 msgstr "Pantalla desbloquiada"
-
-#: lockwindow.cpp:64
-#, kde-format
-msgid ""
-"The screen locker is broken and unlocking is not possible anymore.\n"
-"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F2),\n"
-"log in and execute the command:\n"
-"\n"
-"loginctl unlock-sessions\n"
-"\n"
-"Afterwards switch back to the running session (Ctrl+Alt+F%1)."
-msgstr ""
 
 #: logind.cpp:196
 #, fuzzy
