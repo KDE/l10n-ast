@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-23 07:44+0000\n"
+"POT-Creation-Date: 2015-10-28 07:47+0000\n"
 "PO-Revision-Date: 2012-12-27 17:18+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -1300,7 +1300,7 @@ msgctxt "Category of brush engines"
 msgid "Brush engines"
 msgstr "Axustes"
 
-#: image/brushengine/kis_paintop_registry.cc:132
+#: image/brushengine/kis_paintop_registry.cc:138
 msgid "default"
 msgstr ""
 
@@ -1695,13 +1695,13 @@ msgstr "&Seleicionar"
 msgid "Content"
 msgstr ""
 
-#: image/kis_layer.cc:211
+#: image/kis_layer.cc:212
 #, kde-format
 msgid "%1%"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, opacityCBox)
-#: image/kis_layer.cc:211
+#: image/kis_layer.cc:212
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:235
 #: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:36
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
@@ -1720,17 +1720,17 @@ msgstr ""
 msgid "Opacity"
 msgstr ""
 
-#: image/kis_layer.cc:214
+#: image/kis_layer.cc:215
 msgid "Composite Mode"
 msgstr ""
 
-#: image/kis_layer.cc:218 image/kis_layer.cc:235
+#: image/kis_layer.cc:219 image/kis_layer.cc:236
 #, fuzzy
 #| msgid "&Select"
 msgid "Layer Style"
 msgstr "&Seleicionar"
 
-#: image/kis_layer.cc:221 image/kis_layer.cc:231
+#: image/kis_layer.cc:222 image/kis_layer.cc:232
 msgid "Inherit Alpha"
 msgstr ""
 
@@ -1749,8 +1749,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, palettename)
 #: image/kis_psd_layer_style.cpp:99 ui/forms/wdgcustompalette.ui:18
-#: ui/KisDocument.cpp:2336 ui/KisMainWindow.cpp:906 ui/KisPart.cpp:636
-#: ui/KisPart.cpp:652 ui/kra/kis_kra_saver.cpp:76
+#: ui/KisDocument.cpp:2336 ui/KisMainWindow.cpp:906 ui/KisPart.cpp:663
+#: ui/KisPart.cpp:684 ui/kra/kis_kra_saver.cpp:76
 msgid "Unnamed"
 msgstr ""
 
@@ -12393,40 +12393,6 @@ msgstr ""
 msgid "Canvas Input"
 msgstr ""
 
-#: ui/dialogs/KisShortcutEditWidget.cpp:62
-msgid "Default:"
-msgstr ""
-
-#: ui/dialogs/KisShortcutEditWidget.cpp:63
-#: ui/dialogs/KisShortcutEditWidget.cpp:66
-msgctxt "No shortcut defined"
-msgid "None"
-msgstr ""
-
-#: ui/dialogs/KisShortcutEditWidget.cpp:70 ui/KisTemplateCreateDia.cpp:150
-msgid "Custom:"
-msgstr ""
-
-#: ui/dialogs/KisShortcutsDialog.cpp:87
-msgid ""
-"The current shortcut scheme is modified. Save before switching to the new "
-"one?"
-msgstr ""
-
-#: ui/dialogs/KisShortcutsDialog.cpp:133 ui/dialogs/KisShortcutsDialog.cpp:171
-msgid "&Details"
-msgstr ""
-
-#: ui/dialogs/KisShortcutsDialog.cpp:155
-msgid "Configure Shortcuts"
-msgstr ""
-
-#: ui/dialogs/KisShortcutsEditorItem.cpp:63
-#, kde-format
-msgctxt "@item:intable Action name in shortcuts configuration"
-msgid "%1"
-msgstr ""
-
 #: ui/flake/kis_shape_controller.cpp:177
 #, kde-format
 msgid "Vector Layer %1"
@@ -12504,58 +12470,6 @@ msgstr ""
 #: ui/forms/KisOpenPaneBase.ui:67 ui/input/kis_tool_invocation_action.cpp:53
 #: ui/kis_animation_exporter.cpp:43 ui/kis_clipboard.cc:261 ui/KisView.cpp:469
 msgid "Cancel"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (KTreeWidgetSearchLineWidget, searchFilter)
-#: ui/forms/KisShortcutsDialog.ui:16
-msgid ""
-"Search interactively for shortcut names (e.g. Copy) or combination of keys "
-"(e.g. Ctrl+C) by typing them here."
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:23
-msgid ""
-"Here you can see a list of key bindings, i.e. associations between actions "
-"(e.g. 'Copy') shown in the left column and keys or combination of keys (e.g. "
-"Ctrl+V) shown in the right column."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:33
-#, fuzzy
-#| msgid "&Select"
-msgid "Action"
-msgstr "&Seleicionar"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:38
-msgid "Shortcut"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:43
-msgid "Alternate"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:48
-msgid "Global"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:53
-msgid "Global Alternate"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:58
-msgid "Mouse Button Gesture"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:63
-msgid "Mouse Shape Gesture"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgResolution)
@@ -16031,7 +15945,7 @@ msgstr ""
 msgid "Custom Document"
 msgstr ""
 
-#: ui/KisPart.cpp:654
+#: ui/KisPart.cpp:686
 msgid "Create from Clipboard"
 msgstr ""
 
@@ -16062,6 +15976,10 @@ msgstr "&Capa"
 
 #: ui/KisTemplateCreateDia.cpp:142
 msgid "Picture"
+msgstr ""
+
+#: ui/KisTemplateCreateDia.cpp:150
+msgid "Custom:"
 msgstr ""
 
 #: ui/KisTemplateCreateDia.cpp:154
@@ -17379,6 +17297,12 @@ msgstr ""
 msgid "Local selection is locked."
 msgstr ""
 
+#: ui/tool/kis_tool_freehand.cc:198
+msgid ""
+"The brush tool cannot paint on this layer.  Please select a paint layer or "
+"mask."
+msgstr ""
+
 #: ui/tool/kis_tool_paint.cc:111
 msgid "Increase Brush Size"
 msgstr ""
@@ -18101,6 +18025,11 @@ msgstr ""
 #, kde-format
 msgid "Workspace %1"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Select"
+#~ msgid "Action"
+#~ msgstr "&Seleicionar"
 
 #, fuzzy
 #~| msgid "&Image"
