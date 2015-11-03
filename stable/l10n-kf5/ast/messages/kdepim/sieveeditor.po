@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-06 11:30+0000\n"
+"POT-Creation-Date: 2015-11-03 16:53+0000\n"
 "PO-Revision-Date: 2015-04-29 23:02+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -25,23 +25,23 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
-#: main.cpp:41
+#: main.cpp:42
 msgid "KSieve Editor"
 msgstr "Editor KSieve"
 
-#: main.cpp:43
+#: main.cpp:44
 msgid "Sieve Editor"
 msgstr "Editor Sieve"
 
-#: main.cpp:45
+#: main.cpp:46
 msgid "Copyright © 2013-2015 sieveeditor authors"
 msgstr "Copyright © 2013-2015 autores de sieveeditor"
 
-#: main.cpp:46
+#: main.cpp:47
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:46
+#: main.cpp:47
 msgid "Maintainer"
 msgstr "Caltenedor"
 
@@ -93,11 +93,20 @@ msgstr "¿Quies desaniciar esti sirvidor '%1'?"
 msgid "Remove Server Sieve"
 msgstr "Desaniciar sirvidor Sieve"
 
-#: sieveeditormainwidget.cpp:497
+#: sieveeditoremptytabwidgetlabel.cpp:38
+msgid ""
+"<html><body style=\"color:#909090; font-size:14px\"><div align='center'><div "
+"style=\"font-size:20px\">Debug a script:</div><div></div><li>Tools > Debug "
+"Sieve Script<div style=\"font-size:20px\">Autogenerate script:</div><div></"
+"div><li>Tools > Autogenerate script<div style=\"font-size:20px\">Import "
+"script:</div><li>File > Import<div></div></div></body></html>"
+msgstr ""
+
+#: sieveeditormainwidget.cpp:555
 msgid "Script was modified. Do you want to save before closing?"
 msgstr "Modificóse'l script. ¿Quies guardalu enantes de zarralu?"
 
-#: sieveeditormainwidget.cpp:497
+#: sieveeditormainwidget.cpp:555
 msgid "Close script"
 msgstr "Zarrar script"
 
@@ -167,17 +176,40 @@ msgstr "Comprobar sintaxis"
 msgid "Autogenerate Script..."
 msgstr "Auto-xenerar script..."
 
-#: sieveeditormainwindow.cpp:195
+#: sieveeditormainwindow.cpp:196
 msgid "Comment"
 msgstr "Comentar"
 
-#: sieveeditormainwindow.cpp:198
+#: sieveeditormainwindow.cpp:200
 msgid "Uncomment"
 msgstr "Descomentar"
 
-#: sieveeditormainwindow.cpp:212
+#: sieveeditormainwindow.cpp:202
+msgid "&Zoom In"
+msgstr ""
+
+#: sieveeditormainwindow.cpp:207
+msgid "Zoom &Out"
+msgstr ""
+
+#: sieveeditormainwindow.cpp:214
+msgctxt "Reset the zoom"
+msgid "Reset"
+msgstr ""
+
+#: sieveeditormainwindow.cpp:224
 msgctxt "@title:menu"
 msgid "&Bookmarks"
+msgstr ""
+
+#: sieveeditormainwindow.cpp:230
+#, fuzzy
+#| msgid "Autogenerate Script..."
+msgid "Debug Sieve Script..."
+msgstr "Auto-xenerar script..."
+
+#: sieveeditormainwindow.cpp:233
+msgid "Wordwarp"
 msgstr ""
 
 #: sieveeditormanagesievewidget.cpp:58
@@ -189,28 +221,28 @@ msgstr "Nun se configuró denguna URL"
 msgid "(Disabled) %1"
 msgstr "(Deshabilitáu) %1"
 
-#: sieveeditorpagewidget.cpp:65
+#: sieveeditorpagewidget.cpp:67
 msgid "No errors found."
 msgstr "Nun s'alcontraron fallos."
 
-#: sieveeditorpagewidget.cpp:68
+#: sieveeditorpagewidget.cpp:70
 msgid "An unknown error was encountered."
 msgstr "Alcontróse un fallu desconocíu."
 
-#: sieveeditorpagewidget.cpp:126
+#: sieveeditorpagewidget.cpp:128
 msgid "The Sieve script was successfully uploaded."
 msgstr "Xubióse con ésitu'l script Sieve."
 
-#: sieveeditorpagewidget.cpp:127
+#: sieveeditorpagewidget.cpp:129
 msgid "Sieve Script Upload"
 msgstr "Xuba del script Sieve"
 
-#: sieveeditorpagewidget.cpp:140
+#: sieveeditorpagewidget.cpp:142
 #, kde-format
 msgid "Script '%1' is new. Do you want to save it?"
 msgstr "El script '%1' ye nuevu. ¿Quies guardalu?"
 
-#: sieveeditorpagewidget.cpp:149
+#: sieveeditorpagewidget.cpp:151
 #, kde-format
 msgid "Script '%1' was changed. Do you want to save it ?"
 msgstr "El script '%1' camudó. ¿Quies guardalu?"
@@ -225,13 +257,26 @@ msgctxt "@action:inmenu"
 msgid "Close All Other Tabs"
 msgstr "Zarrar toles otres llingüetes"
 
+#: sieveeditortabwidget.cpp:65
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close All Other Tabs"
+msgctxt "@action:inmenu"
+msgid "Close All Tabs"
+msgstr "Zarrar toles otres llingüetes"
+
 #. i18n: ectx: Menu (edit)
 #: sieveeditorui.rc:21
 msgid "&Edit"
 msgstr "&Editar"
 
+#. i18n: ectx: Menu (display)
+#: sieveeditorui.rc:34
+msgid "Display"
+msgstr ""
+
 #. i18n: ectx: Menu (Tools)
-#: sieveeditorui.rc:33
+#: sieveeditorui.rc:41
 msgid "Tools"
 msgstr "Ferramientes"
 
