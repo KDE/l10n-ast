@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2015-10-30 08:56+0000\n"
-"PO-Revision-Date: 2015-11-16 00:29+0100\n"
+"PO-Revision-Date: 2015-11-16 01:49+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
 "Language: ast_ES\n"
@@ -879,7 +879,6 @@ msgid "Close the assistant"
 msgstr "Zarrar l'asistente"
 
 #: bugzillaintegration/reportassistantdialog.cpp:342
-#, fuzzy
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Encaboxar"
@@ -2263,7 +2262,6 @@ msgstr "Nun volví a intentalo"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:130
-#, fuzzy
 msgctxt "@item:inlistbox the crash cannot be reproduce. reproduciblity->never"
 msgid "Never"
 msgstr "Enxamás"
@@ -2277,10 +2275,9 @@ msgstr "A vegaes"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:140
-#, fuzzy
 msgctxt "@item:inlistbox the bug can be reproduced every time"
 msgid "Every time"
-msgstr "Siempre"
+msgstr "Siempres"
 
 #. i18n: ectx: property (text), widget (QLabel, m_informationLabel)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:182
@@ -2406,14 +2403,12 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_bugListWidget)
 #: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:72
-#, fuzzy
 msgctxt "@title:column"
 msgid "Bug ID"
 msgstr "ID del fallu"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_bugListWidget)
 #: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:77
-#, fuzzy
 msgctxt "@title:column"
 msgid "Description"
 msgstr "Descripción"
@@ -2529,7 +2524,6 @@ msgstr "Métodu de distribución:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_compiledSourcesCheckBox)
 #: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:66
-#, fuzzy
 msgctxt "@option:check"
 msgid "KDE Platform is compiled from sources"
 msgstr "La plataforma KDE ta compilada dende los fontes"
@@ -2551,14 +2545,12 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_userLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:38
-#, fuzzy
 msgctxt "@label:textbox bugzilla account username"
 msgid "Username:"
-msgstr "Usuariu:"
+msgstr "Nome d'usuariu:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_passwordLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:45
-#, fuzzy
 msgctxt "@label:textbox bugzilla account password"
 msgid "Password:"
 msgstr "Contraseña:"
@@ -2689,7 +2681,6 @@ msgid "Could not create a file in which to save the report."
 msgstr "Nun pudo crease un ficheru pa guardar l'informe."
 
 #: drkonqidialog.cpp:70
-#, fuzzy
 msgctxt "@title:tab general information"
 msgid "&General"
 msgstr "&Xeneral"
@@ -2701,13 +2692,13 @@ msgid "&Developer Information"
 msgstr "Información pa &desendolcadores"
 
 #: drkonqidialog.cpp:105
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info"
 msgid ""
 "<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
 msgstr ""
-"<para>Sentímoslo, <application>%1</application> zarróse inesperadamente.</"
-"para>"
+"<para>Sentímoslo, <application>%1</application> zarróse inesperadamente.<"
+"/para>"
 
 #: drkonqidialog.cpp:111
 #, fuzzy, kde-format
@@ -2753,7 +2744,7 @@ msgstr ""
 "</para>"
 
 #: drkonqidialog.cpp:127
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>You can help us improve KDE Software by reporting this error.<nl /"
@@ -2767,13 +2758,14 @@ msgid ""
 "is safe to close this dialog if you do not want to report this bug.</note></"
 "para>"
 msgstr ""
-"<para>Pues ayudanos a meyorar KDE informando d'esti fallu.<nl /><link "
-"url='#aboutbugreporting'>Deprendi más tocante al informe de fallos.</link></"
-"pa><pa><note>Pues zarrar esti diálogu con seguridá si nun quies informar "
-"d'esti error.</note></para>"
+"<para>Pues ayudamos a meyorar KDE informando d'esti fallu.<nl / "
+"><link url='%1'>Depriendi más tocante al informe de fallos.</link></para><"
+"para> "
+"<note>Ye seguro zarrar esti diálogu si nun quies informar d'esti fallu.</note"
+"></para>"
 
 #: drkonqidialog.cpp:135
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>You cannot report this error, because the application does not "
@@ -2783,11 +2775,10 @@ msgid ""
 "<para>You cannot report this error, because <application>%1</application> "
 "does not provide a bug reporting address.</para>"
 msgstr ""
-"<para>Nun pues informar d'esti fallu, porque l'aplicación nun proporciona "
-"una direición d'informe de fallos.</para>"
+"<para>Nun pues informar d'esti fallu porque <application>%1</application> "
+"nun forne una direición d'informe de fallos.</para>"
 
 #: drkonqidialog.cpp:147
-#, fuzzy
 msgctxt "@label"
 msgid "Details:"
 msgstr "Detalles:"
@@ -2807,12 +2798,11 @@ msgstr ""
 "Señal: %3 (%4)</para>"
 
 #: drkonqidialog.cpp:178
-#, fuzzy
 #| msgctxt "@action:button"
 #| msgid "Report Bug"
 msgctxt "@action:button"
 msgid "Report &Bug"
-msgstr "Informar fallu"
+msgstr "Informar &fallu"
 
 #: drkonqidialog.cpp:180
 #, fuzzy
@@ -2821,7 +2811,6 @@ msgid "Starts the bug report assistant."
 msgstr "Anicia l'asistente d'informe de fallos."
 
 #: drkonqidialog.cpp:195
-#, fuzzy
 #| msgctxt ""
 #| "@action:button this is the debug menu button label which contains the "
 #| "debugging applications"
@@ -2830,7 +2819,7 @@ msgctxt ""
 "@action:button this is the debug menu button label which contains the "
 "debugging applications"
 msgid "&Debug"
-msgstr "Depurar"
+msgstr "&Depurar"
 
 #: drkonqidialog.cpp:196
 #, fuzzy
@@ -2839,12 +2828,11 @@ msgid "Starts a program to debug the crashed application."
 msgstr "Anicia'l programa pa depurar l'aplicación que falló."
 
 #: drkonqidialog.cpp:215
-#, fuzzy
 #| msgctxt "@action:button"
 #| msgid "Restart Application"
 msgctxt "@action:button"
 msgid "&Restart Application"
-msgstr "Reaniciar aplicación"
+msgstr "&Reaniciar aplicación"
 
 #: drkonqidialog.cpp:217
 #, fuzzy
@@ -2885,25 +2873,21 @@ msgid "(C) 2000-2009, The DrKonqi Authors"
 msgstr "(C) 2000-2009, The DrKonqi Authors"
 
 #: main.cpp:73
-#, fuzzy
 msgctxt "@info:credit"
 msgid "Hans Petter Bieker"
 msgstr "Hans Petter Bieker"
 
 #: main.cpp:75
-#, fuzzy
 msgctxt "@info:credit"
 msgid "Dario Andres Rodriguez"
 msgstr "Dario Andres Rodriguez"
 
 #: main.cpp:77
-#, fuzzy
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
 #: main.cpp:79
-#, fuzzy
 msgctxt "@info:credit"
 msgid "A. L. Spehr"
 msgstr "A. L. Spehr"
@@ -2985,10 +2969,9 @@ msgid "Disable arbitrary disk access"
 msgstr "Inhabilitar l'accesu arbitrariu a discu"
 
 #: main.cpp:98
-#, fuzzy
 msgctxt "@info:shell"
 msgid "The program has already been restarted"
-msgstr "El programa yá se reanició"
+msgstr "Yá se reanició'l programa"
 
 #: main.cpp:99
 #, fuzzy
