@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-15 08:42+0000\n"
+"POT-Creation-Date: 2015-11-21 10:25+0000\n"
 "PO-Revision-Date: 2015-11-21 03:48+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -86,12 +86,23 @@ msgstr "Mecer a ODF"
 msgid "Generates translated version of ODF document"
 msgstr "Xenera la versión traducida del documentu ODF"
 
-#: src/alttransview.cpp:52 src/alttransview.cpp:55
+#: src/alttransview.cpp:53 src/alttransview.cpp:56
 msgctxt "@title:window"
 msgid "Alternate Translations"
 msgstr ""
 
-#: src/alttransview.cpp:258
+#: src/alttransview.cpp:180
+msgid ""
+"There is useful data available in Alternate Translations view.\n"
+"\n"
+"For Gettext PO files it displays difference between current source text and "
+"the source text corresponding to the fuzzy translation found by msgmerge "
+"when updating PO based on POT template.\n"
+"\n"
+"Do you want to show the view with the data?"
+msgstr ""
+
+#: src/alttransview.cpp:268
 msgctxt "@info:tooltip"
 msgid ""
 "<p>Sometimes, if source text is changed, its translation becomes deprecated "
@@ -106,13 +117,13 @@ msgid ""
 "source for additional alternate translations.</p>"
 msgstr ""
 
-#: src/alttransview.cpp:279
+#: src/alttransview.cpp:289
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Origin: %1"
 msgstr "Orixe: %1"
 
-#: src/alttransview.cpp:302
+#: src/alttransview.cpp:312
 msgctxt "@item Undo action"
 msgid "Use alternate translation"
 msgstr ""
@@ -364,9 +375,8 @@ msgid ""
 "international scientific term: a term that is part of an international "
 "scientific nomenclature as adopted by an appropriate scientific body"
 msgstr ""
-"términu científicu internacional: un términu que ye parte d'una "
-"nomenclatura internacional adoptada por un cuerpu "
-"científicu afayadizu"
+"términu científicu internacional: un términu que ye parte d'una nomenclatura "
+"internacional adoptada por un cuerpu científicu afayadizu"
 
 #: src/catalog/catalogstring.cpp:145
 msgctxt "XLIFF mark type"
@@ -1594,8 +1604,8 @@ msgid ""
 "That is, there may be several entries with the same word/word sequence "
 "expressing different meanings."
 msgstr ""
-"Nota: una entrada del glosariu correspuende axautamente a un términu, "
-"non a una pallabra/secuencia de pallabres.\n"
+"Nota: una entrada del glosariu correspuende axautamente a un términu, non a "
+"una pallabra/secuencia de pallabres.\n"
 "\n"
 "Esto ye, habría delles entraes cola mesma pallabra/secuencia de pallabres "
 "espresando significaos diferentes."
@@ -3202,5 +3212,3 @@ msgstr ""
 msgctxt "@item Undo action item"
 msgid "Copy source to target"
 msgstr "Copia de fonte a oxetivu"
-
-
