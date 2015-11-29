@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-23 09:07+0000\n"
+"POT-Creation-Date: 2015-11-29 07:06+0000\n"
 "PO-Revision-Date: 2015-10-17 18:14+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -24,6 +24,10 @@ msgstr "Cppcheck"
 #: config/cppcheckpreferences.cpp:49
 msgid "Configure CppCheck settings"
 msgstr "Configurar axustes de CppCheck"
+
+#: config/genericconfigpage.cpp:51 plugin.cpp:87
+msgid "Cppcheck"
+msgstr "Cppcheck"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, CppCheckSettings)
 #: config/ui/cppchecksettings.ui:14
@@ -120,8 +124,9 @@ msgid "Cppcheck output"
 msgstr "Salida Cppcheck"
 
 #: job.cpp:206
-#, kde-format
-msgid "Failed to start cppcheck from \"%1\"."
+#, fuzzy, kde-format
+#| msgid "Failed to start cppcheck from \"%1\"."
+msgid "Failed to start Cppcheck from \"%1\"."
 msgstr "Fallu al aniciar cppcheck dende \"%1\"."
 
 #: job.cpp:206
@@ -154,8 +159,9 @@ msgid "Unknown Cppcheck process error."
 msgstr "Fallu desconocíu del procesu Cppcheck."
 
 #: job.cpp:233
-#, kde-format
-msgid "cppcheck finished (pid=%1,exit=%2)"
+#, fuzzy, kde-format
+#| msgid "cppcheck finished (pid=%1,exit=%2)"
+msgid "Cppcheck finished (pid=%1,exit=%2)"
 msgstr "cppcheck finó (pid=%1,salida=%2)"
 
 #: job.cpp:254
@@ -176,10 +182,6 @@ msgstr "Analís XML Cppcheck: fallu na llinia %1, columna %2: %3"
 #: plugin.cpp:86
 msgid "Launches Cppcheck for current file"
 msgstr "Llanza Cppcheck pal ficheru actual"
-
-#: plugin.cpp:87
-msgid "Cppcheck"
-msgstr "Cppcheck"
 
 #: plugin.cpp:91
 msgid "Launches Cppcheck for all files"
