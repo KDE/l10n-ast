@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-02 08:31+0000\n"
+"POT-Creation-Date: 2015-12-04 07:25+0000\n"
 "PO-Revision-Date: 2015-11-18 02:11+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -551,29 +551,36 @@ msgstr "Zarrar Ark tres la estraición"
 msgid "Preserve paths when extracting"
 msgstr "Preservar caminos al estrayer"
 
-#: kerfuffle/jobs.cpp:198
+#: kerfuffle/jobs.cpp:199
 msgid "Loading archive..."
 msgstr "Cargando ficheru..."
 
-#: kerfuffle/jobs.cpp:262
+#: kerfuffle/jobs.cpp:263
 msgid "Extracting all files"
 msgstr "Estrayendo tolos ficheros"
 
-#: kerfuffle/jobs.cpp:264
+#: kerfuffle/jobs.cpp:265
 #, kde-format
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "Estrayendo un ficheru"
 msgstr[1] "Estrayendo %1 ficheros"
 
-#: kerfuffle/jobs.cpp:318
+#: kerfuffle/jobs.cpp:271
+#, kde-format
+msgid ""
+"Could not write to destination <filename>%1</filename>.<nl/>Check whether "
+"you have sufficient permissions."
+msgstr ""
+
+#: kerfuffle/jobs.cpp:326
 #, kde-format
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "Amestando un ficheru"
 msgstr[1] "Amestando %1 ficheros"
 
-#: kerfuffle/jobs.cpp:341
+#: kerfuffle/jobs.cpp:349
 #, kde-format
 msgid "Deleting a file from the archive"
 msgid_plural "Deleting %1 files"
@@ -605,11 +612,11 @@ msgstr "Deshabilitar la previsualización de ficheros más grandes de:"
 msgid " megabytes"
 msgstr " megabytes"
 
-#: kerfuffle/queries.cpp:94
+#: kerfuffle/queries.cpp:96
 msgid "File already exists"
 msgstr "Yá esiste'l ficheru"
 
-#: kerfuffle/queries.cpp:177
+#: kerfuffle/queries.cpp:179
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -619,11 +626,11 @@ msgstr ""
 "L'archivu comprimíu <filename>%1</filename> ta protexíu con contraseña. "
 "Introduz la contraseña pa estrayelu, por favor."
 
-#: kerfuffle/queries.cpp:181
+#: kerfuffle/queries.cpp:183
 msgid "Incorrect password, please try again."
 msgstr "Contraseña incorreuta. Inténtalo de nueves, por favor"
 
-#: kerfuffle/queries.cpp:216
+#: kerfuffle/queries.cpp:218
 msgctxt "@info"
 msgid ""
 "Corrupt archive detected. Do you want Ark to attempt loading the archive?<nl/"
@@ -634,10 +641,27 @@ msgstr ""
 ">Quiciabes tean dañaos o perdíos dellos ficheros. L'archivu abriráse como "
 "namái llectura. "
 
-#: kerfuffle/queries.cpp:219
+#: kerfuffle/queries.cpp:221
 msgctxt "@title:window"
 msgid "Corrupt archive"
 msgstr "Ficheru toyíu"
+
+#: kerfuffle/queries.cpp:241
+#, fuzzy
+#| msgid "There was an error during extraction."
+msgid "Error during extraction"
+msgstr "Hebo un fallu na estraición."
+
+#: kerfuffle/queries.cpp:242
+#, kde-format
+msgid ""
+"Extraction of the entry:<nl/>    <filename>%1</filename><nl/>failed with the "
+"error message:<nl/>    %2<nl/><nl/>Do you want to continue extraction?<nl/>"
+msgstr ""
+
+#: kerfuffle/queries.cpp:248
+msgid "Don't ask again."
+msgstr ""
 
 #: part/archivemodel.cpp:396
 msgctxt "Name of a file inside an archive"
@@ -844,43 +868,43 @@ msgstr "Comentariu"
 msgid "ArkPart"
 msgstr "ArkPart"
 
-#: part/part.cpp:258
+#: part/part.cpp:273
 msgctxt "@action:inmenu"
 msgid "Show information panel"
 msgstr "Amosar panel d'inforamción"
 
-#: part/part.cpp:267
+#: part/part.cpp:282
 msgctxt "open a file with external program"
 msgid "&Open File"
 msgstr "&Abrir ficheru"
 
-#: part/part.cpp:269
+#: part/part.cpp:284
 msgid "Click to open the selected file with the associated application"
 msgstr "Primi p'abrir el ficheru esbilláu cola aplicación asociada"
 
-#: part/part.cpp:274
+#: part/part.cpp:289
 msgctxt "open a file with external program"
 msgid "Open File &With..."
 msgstr "Abrir ficheru &con..."
 
-#: part/part.cpp:276
+#: part/part.cpp:291
 msgid "Click to open the selected file with an external program"
 msgstr "Primi p'abrir el ficheru esbilláu con un programa esternu"
 
-#: part/part.cpp:281
+#: part/part.cpp:296
 msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "&Previsualizar"
 
-#: part/part.cpp:283
+#: part/part.cpp:298
 msgid "Click to preview the selected file"
 msgstr "Primi pa previsualizar el ficheru esbilláu"
 
-#: part/part.cpp:289
+#: part/part.cpp:304
 msgid "E&xtract"
 msgstr "E&strayer"
 
-#: part/part.cpp:291
+#: part/part.cpp:306
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
@@ -888,45 +912,45 @@ msgstr ""
 "Primi p'abrir un diálogu d'estraición u pues escoyer estrayer o tolos "
 "ficheros o namái los esbillaos"
 
-#: part/part.cpp:298
+#: part/part.cpp:313
 msgid "Add &File..."
 msgstr "Amestar fic&heru..."
 
-#: part/part.cpp:299
+#: part/part.cpp:314
 msgid "Click to add files to the archive"
 msgstr "Primi p'amestar los ficheros al archivu"
 
-#: part/part.cpp:305
+#: part/part.cpp:320
 msgid "Add Fo&lder..."
 msgstr "A&mestar carpeta..."
 
-#: part/part.cpp:306
+#: part/part.cpp:321
 msgid "Click to add a folder to the archive"
 msgstr "Primi p'amestar una carpeta al archivu"
 
-#: part/part.cpp:312
+#: part/part.cpp:327
 msgid "De&lete"
 msgstr "&Desaniciar"
 
-#: part/part.cpp:314
+#: part/part.cpp:329
 msgid "Click to delete the selected files"
 msgstr "Primi pa desaniciar los ficheros esbillaos"
 
-#: part/part.cpp:367
+#: part/part.cpp:382
 msgid "Extract To..."
 msgstr "Estrayer en..."
 
-#: part/part.cpp:374
+#: part/part.cpp:389
 msgid "Quick Extract To..."
 msgstr "Estraición rápida en..."
 
-#: part/part.cpp:443
+#: part/part.cpp:458
 #, kde-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is a directory."
 msgstr "<filename>%1</filename> ye un direutoriu."
 
-#: part/part.cpp:450
+#: part/part.cpp:465
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -936,27 +960,27 @@ msgstr ""
 "Yá esiste l'archivu comprimíu <filename>%1</filename>. ¿Prestaríate abrilu "
 "nel so llugar?"
 
-#: part/part.cpp:450
+#: part/part.cpp:465
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr "Esiste'l ficheru"
 
-#: part/part.cpp:450
+#: part/part.cpp:465
 msgid "Open File"
 msgstr "Abrir ficheru"
 
-#: part/part.cpp:458
+#: part/part.cpp:473
 #, kde-format
 msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr "Nun s'alcontró l'archivu <filename>%1</filename>."
 
-#: part/part.cpp:458 part/part.cpp:477 part/part.cpp:484 part/part.cpp:549
+#: part/part.cpp:473 part/part.cpp:492 part/part.cpp:499 part/part.cpp:564
 msgctxt "@title:window"
 msgid "Error Opening Archive"
 msgstr "Fallu abriendo l'archivu"
 
-#: part/part.cpp:463
+#: part/part.cpp:478
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -966,7 +990,7 @@ msgstr ""
 "Nun pudo cargase l'archivu <filename>%1</filename> darréu que nun foi "
 "posible lleer d'elli."
 
-#: part/part.cpp:474
+#: part/part.cpp:489
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -976,7 +1000,7 @@ msgstr ""
 "Ark nun foi quién a abrir <filename>%1</filename>. Nun s'alcontró dal "
 "complementu afayadizu.<nl/><nl/>Ark nun paez sofitar esta triba de ficheru."
 
-#: part/part.cpp:481
+#: part/part.cpp:496
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -988,15 +1012,15 @@ msgstr ""
 "complementu afayadizu.<nl/><nl/>Asegúrate que dal executable necesita "
 "remanar la triba d'archivu que ta instaláu."
 
-#: part/part.cpp:530
+#: part/part.cpp:545
 msgid "Extraction settings"
 msgstr "Axustes d'estraición"
 
-#: part/part.cpp:531
+#: part/part.cpp:546
 msgid "Preview settings"
 msgstr "Axustes de previsualización"
 
-#: part/part.cpp:546
+#: part/part.cpp:561
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1006,47 +1030,47 @@ msgstr ""
 "La carga del archivu <filename>%1</filename> falló col fallu de darréu:<nl/"
 "><nl/><message>%2</message>"
 
-#: part/part.cpp:625
+#: part/part.cpp:640
 msgid "Ark cannot open symlinks."
 msgstr "Ark nun pue abrir enllaces simbólicos."
 
-#: part/part.cpp:737
+#: part/part.cpp:752
 #, kde-format
 msgid ""
 "The file <filename>%1</filename> was modified. Do you want to update the "
 "archive?"
 msgstr "Modificóse'l ficheru <filename>%1</filename>. ¿Quies anovalu?"
 
-#: part/part.cpp:739
+#: part/part.cpp:754
 msgid "File modified"
 msgstr "ficheru modificáu"
 
-#: part/part.cpp:998
+#: part/part.cpp:1013
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "Amiestu de ficheros"
 
-#: part/part.cpp:1005
+#: part/part.cpp:1020
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "Amiestu de carpeta"
 
-#: part/part.cpp:1030
+#: part/part.cpp:1045
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 "Nun podrá desafacese'l desaniciu d'estos ficheros. ¿De xuru que quies facelo?"
 
-#: part/part.cpp:1031
+#: part/part.cpp:1046
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "Desaniciu de ficheros"
 
-#: part/part.cpp:1063
+#: part/part.cpp:1078
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "Guardar ficheru como"
 
-#: part/part.cpp:1070
+#: part/part.cpp:1085
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1056,7 +1080,7 @@ msgstr ""
 "Yá esiste un archivu nomáu <filename>%1</filename>. ¿De xuru que quies "
 "sobrescribilu?"
 
-#: part/part.cpp:1084
+#: part/part.cpp:1099
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1066,7 +1090,7 @@ msgstr ""
 "Nun pue copiase l'archivu <filename>%1</filename> al allugamientu "
 "especificáu. L'archivu yá nun esiste"
 
-#: part/part.cpp:1098
+#: part/part.cpp:1113
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1139,67 +1163,105 @@ msgid ""
 msgstr ""
 "Falló la llectura del archivu col fallu de darréu: <message>%1</message>"
 
-#: plugins/libarchive/libarchivehandler.cpp:246
+#: plugins/libarchive/libarchivehandler.cpp:249
+#, fuzzy
+#| msgid ""
+#| "This archive contains archive entries with absolute paths, which are not "
+#| "yet supported by ark."
 msgid ""
-"This archive contains archive entries with absolute paths, which are not yet "
-"supported by ark."
+"This archive contains archive entries with absolute paths, which are not "
+"supported by Ark."
 msgstr ""
 "Esti ficheru contién entraes d'archivu con caminos absolutos qu'entá nun tán "
 "sofitaos por Ark."
 
-#: plugins/libarchive/libarchivehandler.cpp:406
-#: plugins/libarchive/libarchivehandler.cpp:585
+#: plugins/libarchive/libarchivehandler.cpp:388
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Error creating directory <filename>%1</filename>"
+msgctxt "@info"
+msgid "Extraction failed at:<nl/><filename>%1</filename>"
+msgstr "Fallu creando'l direutoriu <filename>%1</filename>"
+
+#: plugins/libarchive/libarchivehandler.cpp:442
+#: plugins/libarchive/libarchivehandler.cpp:635
 msgid "The archive reader could not be initialized."
 msgstr "Nun pudo aniciase'l llector d'archivos."
 
-#: plugins/libarchive/libarchivehandler.cpp:419
-#: plugins/libarchive/libarchivehandler.cpp:598
+#: plugins/libarchive/libarchivehandler.cpp:455
+#: plugins/libarchive/libarchivehandler.cpp:648
 msgid "The source file could not be read."
 msgstr "Nun pudo lleese'l ficheru fonte."
 
-#: plugins/libarchive/libarchivehandler.cpp:430
-#: plugins/libarchive/libarchivehandler.cpp:608
+#: plugins/libarchive/libarchivehandler.cpp:466
 #, kde-format
 msgctxt "@info"
 msgid "Failed to create a temporary file to compress <filename>%1</filename>."
 msgstr ""
 "Fallu al crear el ficheru temporal pa comprimir <filename>%1</filename>."
 
-#: plugins/libarchive/libarchivehandler.cpp:436
-#: plugins/libarchive/libarchivehandler.cpp:614
+#: plugins/libarchive/libarchivehandler.cpp:472
+#: plugins/libarchive/libarchivehandler.cpp:664
 msgid "The archive writer could not be initialized."
 msgstr "Nun pudo aniciase l'escritor de ficheros."
 
-#: plugins/libarchive/libarchivehandler.cpp:466
-#: plugins/libarchive/libarchivehandler.cpp:494
-#: plugins/libarchive/libarchivehandler.cpp:644
-#, kde-format
+#: plugins/libarchive/libarchivehandler.cpp:502
+#: plugins/libarchive/libarchivehandler.cpp:530
+#: plugins/libarchive/libarchivehandler.cpp:694
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Setting the compression method failed with the following error: <message>"
+#| "%1</message>"
 msgctxt "@info"
 msgid ""
-"Setting the compression method failed with the following error: <message>%1</"
-"message>"
+"Setting the compression method failed with the following error:<nl/><message>"
+"%1</message>"
 msgstr ""
 "Falló l'afitamientu del métodu de compresión col fallu de darréu: <message>"
 "%1</message>"
 
-#: plugins/libarchive/libarchivehandler.cpp:489
-#: plugins/libarchive/libarchivehandler.cpp:639
+#: plugins/libarchive/libarchivehandler.cpp:524
+#: plugins/libarchive/libarchivehandler.cpp:689
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr "La triba de compresión «%1» nun ta softada por Ark."
 
-#: plugins/libarchive/libarchivehandler.cpp:501
-#: plugins/libarchive/libarchivehandler.cpp:650
-#, kde-format
+#: plugins/libarchive/libarchivehandler.cpp:538
+#: plugins/libarchive/libarchivehandler.cpp:701
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Opening the archive for writing failed with the following error: <message>"
+#| "%1</message>"
 msgctxt "@info"
 msgid ""
-"Opening the archive for writing failed with the following error: <message>"
-"%1</message>"
+"Opening the archive for writing failed with the following error:<nl/"
+"><message>%1</message>"
 msgstr ""
 "Falló l'apertura del archivu pa escritura col fallu de darréu: <message>%1</"
 "message>"
 
-#: plugins/libarchive/libarchivehandler.cpp:830
+#: plugins/libarchive/libarchivehandler.cpp:605
+#: plugins/libarchive/libarchivehandler.cpp:732
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Compression failed while processing:<nl/><filename>%1</filename><nl/><nl/"
+">Operation aborted."
+msgstr ""
+
+#: plugins/libarchive/libarchivehandler.cpp:658
+#, fuzzy
+#| msgctxt "@info"
+#| msgid ""
+#| "Failed to create a temporary file to compress <filename>%1</filename>."
+msgctxt "@info"
+msgid "Failed to create a temporary file."
+msgstr ""
+"Fallu al crear el ficheru temporal pa comprimir <filename>%1</filename>."
+
+#: plugins/libarchive/libarchivehandler.cpp:895
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
