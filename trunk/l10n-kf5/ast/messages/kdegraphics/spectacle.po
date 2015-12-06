@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2015-11-15 08:37+0000\n"
-"PO-Revision-Date: 2015-11-24 02:12+0100\n"
+"PO-Revision-Date: 2015-12-06 02:37+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
 "Language: ast_ES\n"
@@ -145,6 +145,19 @@ msgid ""
 "the filename is \"Screenshot\", and \"Screenshot.png\" already exists, the "
 "image will be saved as \"Screenshot-1.png\".</p>"
 msgstr ""
+"<p>Afita un nome de ficheru por defeutu pa les captures guardaes.</p> "
+"<p>Pues usar el espaciu acutáu de darréu nel nome de ficheru que "
+"se trocará col testu actual al guardase'l ficheru:</p><blockquote><b>%Y</b>:"
+" Añu (4 díxitos)<br /"
+"><b>%y</b>: Añu (2 díxitos)<br /><b>%M</b>: Mes<br /><b>%D</b>: Día<br /><b>"
+"%H</b>: Hores<br /><b>%m</b>: Minutos<br /><b>%S</b>: Segundos</"
+"blockquote><p>Nun necesites introducir una triba d'estensión. "
+"Por defeutu, les captures guardaránse siempres como una "
+"imaxe <b>PNG</b> cola estensión <b>.png</b> .</p><p>Si "
+"yá esiste un ficheru con esti nome, apaecerá un númberu de "
+"serie venceyáu al nome de ficheru. Por exemplu, si'l nome de "
+"ficheru ye «Captura» y «Captura.png» yá esiste, la imaxe "
+"guardaráse como «Screenshot-1.png».</p>"
 
 #: src/Gui/KSSaveConfigDialog.cpp:99
 msgid "Filename:"
@@ -184,7 +197,7 @@ msgstr "Al primir"
 
 #: src/Gui/KSWidget.cpp:56
 msgid "Wait for a mouse click before capturing the screenshot image"
-msgstr "Esperar pol clic del mur enantes de facer la captura"
+msgstr "Espera pol clic del mur enantes de facer la captura"
 
 #: src/Gui/KSWidget.cpp:65
 msgid "Area:"
@@ -204,7 +217,7 @@ msgstr "Incluyir el punteru'l mur"
 
 #: src/Gui/KSWidget.cpp:76
 msgid "Show the mouse cursor in the screeenshot image"
-msgstr ""
+msgstr "Amuesa'l cursor del mur na captura de pantalla"
 
 #: src/Gui/KSWidget.cpp:80
 msgid "Include window titlebar and borders"
@@ -215,6 +228,8 @@ msgid ""
 "Show the window title bar, the minimize/maximize/close buttons, and the "
 "window border"
 msgstr ""
+"Amuesa la barra de títulos de la ventana, los botones de "
+"minimizar/maximizar/zarru y el berbesu de ventana"
 
 #: src/Gui/KSWidget.cpp:86
 msgid "Capture the current pop-up only"
@@ -228,31 +243,35 @@ msgstr ""
 
 #: src/Gui/KSWidget.cpp:102
 msgid "Take New Screenshot"
-msgstr ""
+msgstr "Facer captura nueva"
 
 #: src/Gui/ScreenClipper.cpp:106
 msgid ""
 "Click anywhere on the screen (including on this text) to start drawing a "
 "selection rectangle, or press Esc to quit"
 msgstr ""
+"Primi per dayures de la pantalla (incluyendo nesti testu) pa entamar a "
+"dibuxar un rectángulu d'esbilla o primi Esc pa colar."
 
 #: src/Gui/ScreenClipper.cpp:148
 msgid ""
 "To take the screenshot, double-click or press Enter. Right-click to reset "
 "the selection, or press Esc to quit."
 msgstr ""
+"Pa facer una captura, clic doblu o primi Enter. Clic drechu pa reaniciar "
+"la esbilla o primi Esc pa colar."
 
 #: src/KipiInterface/KSGKipiImageCollectionSelector.cpp:35
 #, kde-format
 msgctxt "%1 is collection name, %2 is image count in collection"
 msgid "%1 (%2 image)"
 msgid_plural "%1 (%2 images)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 (%2 imaxe)"
+msgstr[1] "%1 (%2 imáxenes)"
 
 #: src/KipiInterface/KSGKipiInfoShared.cpp:39
 msgid "Taken with Spectacle"
-msgstr ""
+msgstr "Fecha con Spectacle"
 
 #: src/Main.cpp:53
 msgid "Spectacle"
@@ -282,13 +301,13 @@ msgstr "Capturar la ventana activa"
 msgid ""
 "Capture the window currently under the cursor, including parents of pop-up "
 "menus"
-msgstr ""
+msgstr "Captura la ventana actual sol cursor, incluyendo menús emerxentes pas"
 
 #: src/Main.cpp:73
 msgid ""
 "Capture the window currently under the cursor, excluding parents of pop-up "
 "menus"
-msgstr ""
+msgstr "Captura la ventana actual sol cursor, escluyendo menús emerxentes pas"
 
 #: src/Main.cpp:74
 msgid "Capture a rectangular region of the screen"
@@ -339,3 +358,4 @@ msgstr "Encaboxóse o falló la captura de pantalla"
 #, kde-format
 msgid "A new screenshot was captured and saved to %1"
 msgstr "Capturóse una captura de pantalla nueva y guardóse en %1"
+

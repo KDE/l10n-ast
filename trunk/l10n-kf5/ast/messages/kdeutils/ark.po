@@ -7,9 +7,9 @@ msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2015-12-04 07:25+0000\n"
-"PO-Revision-Date: 2015-11-18 02:11+0100\n"
+"PO-Revision-Date: 2015-12-06 02:09+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
-"Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"Language-Team: Asturian <>\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -572,6 +572,8 @@ msgid ""
 "Could not write to destination <filename>%1</filename>.<nl/>Check whether "
 "you have sufficient permissions."
 msgstr ""
+"Nun pudo escribise nel destín<filename>%1</filename>.<nl/>Comprueba si "
+"tienes abondos permisos o non."
 
 #: kerfuffle/jobs.cpp:326
 #, kde-format
@@ -647,10 +649,9 @@ msgid "Corrupt archive"
 msgstr "Ficheru toyíu"
 
 #: kerfuffle/queries.cpp:241
-#, fuzzy
 #| msgid "There was an error during extraction."
 msgid "Error during extraction"
-msgstr "Hebo un fallu na estraición."
+msgstr "Fallu na estraición"
 
 #: kerfuffle/queries.cpp:242
 #, kde-format
@@ -658,10 +659,12 @@ msgid ""
 "Extraction of the entry:<nl/>    <filename>%1</filename><nl/>failed with the "
 "error message:<nl/>    %2<nl/><nl/>Do you want to continue extraction?<nl/>"
 msgstr ""
+"Estraición de la entrada:<nl/>    <filename>%1</filename><nl/> falló col "
+"mensaxe de fallu:<nl/>    %2<nl/><nl/>¿Quies siguir cola estraición?<nl/>"
 
 #: kerfuffle/queries.cpp:248
 msgid "Don't ask again."
-msgstr ""
+msgstr "Nun entrugar de nueves."
 
 #: part/archivemodel.cpp:396
 msgctxt "Name of a file inside an archive"
@@ -1164,7 +1167,6 @@ msgstr ""
 "Falló la llectura del archivu col fallu de darréu: <message>%1</message>"
 
 #: plugins/libarchive/libarchivehandler.cpp:249
-#, fuzzy
 #| msgid ""
 #| "This archive contains archive entries with absolute paths, which are not "
 #| "yet supported by ark."
@@ -1172,16 +1174,16 @@ msgid ""
 "This archive contains archive entries with absolute paths, which are not "
 "supported by Ark."
 msgstr ""
-"Esti ficheru contién entraes d'archivu con caminos absolutos qu'entá nun tán "
-"sofitaos por Ark."
+"Esti archivu contién entraes d'archivos con caminos absolutos qu'entá "
+"nun tán sofitaos por Ark."
 
 #: plugins/libarchive/libarchivehandler.cpp:388
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info"
 #| msgid "Error creating directory <filename>%1</filename>"
 msgctxt "@info"
 msgid "Extraction failed at:<nl/><filename>%1</filename>"
-msgstr "Fallu creando'l direutoriu <filename>%1</filename>"
+msgstr "Falló la estraición en:<nl/><filename>%1</filename>"
 
 #: plugins/libarchive/libarchivehandler.cpp:442
 #: plugins/libarchive/libarchivehandler.cpp:635
@@ -1208,7 +1210,7 @@ msgstr "Nun pudo aniciase l'escritor de ficheros."
 #: plugins/libarchive/libarchivehandler.cpp:502
 #: plugins/libarchive/libarchivehandler.cpp:530
 #: plugins/libarchive/libarchivehandler.cpp:694
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info"
 #| msgid ""
 #| "Setting the compression method failed with the following error: <message>"
@@ -1218,7 +1220,8 @@ msgid ""
 "Setting the compression method failed with the following error:<nl/><message>"
 "%1</message>"
 msgstr ""
-"Falló l'afitamientu del métodu de compresión col fallu de darréu: <message>"
+"Falló l'afitamientu del métodu de compresión col fallu de darréu:<nl/><"
+"message>"
 "%1</message>"
 
 #: plugins/libarchive/libarchivehandler.cpp:524
@@ -1229,7 +1232,7 @@ msgstr "La triba de compresión «%1» nun ta softada por Ark."
 
 #: plugins/libarchive/libarchivehandler.cpp:538
 #: plugins/libarchive/libarchivehandler.cpp:701
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info"
 #| msgid ""
 #| "Opening the archive for writing failed with the following error: <message>"
@@ -1239,7 +1242,8 @@ msgid ""
 "Opening the archive for writing failed with the following error:<nl/"
 "><message>%1</message>"
 msgstr ""
-"Falló l'apertura del archivu pa escritura col fallu de darréu: <message>%1</"
+"Falló l'apertura del archivu pa escritura col fallu de darréu: <nl/> "
+"<message>%1</"
 "message>"
 
 #: plugins/libarchive/libarchivehandler.cpp:605
@@ -1250,16 +1254,16 @@ msgid ""
 "Compression failed while processing:<nl/><filename>%1</filename><nl/><nl/"
 ">Operation aborted."
 msgstr ""
+"Falló la operación entrín se procesaba:<nl/><filename>%1</filename><nl/><nl/"
+">Albortóse la operación."
 
 #: plugins/libarchive/libarchivehandler.cpp:658
-#, fuzzy
 #| msgctxt "@info"
 #| msgid ""
 #| "Failed to create a temporary file to compress <filename>%1</filename>."
 msgctxt "@info"
 msgid "Failed to create a temporary file."
-msgstr ""
-"Fallu al crear el ficheru temporal pa comprimir <filename>%1</filename>."
+msgstr "Fallu al crear el ficheru temporal."
 
 #: plugins/libarchive/libarchivehandler.cpp:895
 #, kde-format
