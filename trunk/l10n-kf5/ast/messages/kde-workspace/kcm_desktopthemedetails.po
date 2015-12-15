@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2015-12-12 07:39+0000\n"
-"PO-Revision-Date: 2015-12-05 22:40+0100\n"
+"PO-Revision-Date: 2015-12-14 03:41+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
 "Language: ast\n"
@@ -95,10 +95,9 @@ msgid "Notes"
 msgstr "Notes"
 
 #: desktopthemedetails.cpp:54
-#, fuzzy
 msgctxt "plasma name"
 msgid "Tooltip"
-msgstr "Conseyu"
+msgstr "Conseyu emerxente"
 
 #: desktopthemedetails.cpp:55
 msgctxt "plasma name"
@@ -106,10 +105,9 @@ msgid "Pager"
 msgstr "Paxinador"
 
 #: desktopthemedetails.cpp:56
-#, fuzzy
 msgctxt "plasma name"
 msgid "Run Command Dialog"
-msgstr "Executar orde"
+msgstr "Diálogu d'execución de comandos"
 
 #: desktopthemedetails.cpp:57
 msgctxt "plasma name"
@@ -143,23 +141,21 @@ msgid "Remove Desktop Theme"
 msgstr "Desaniciar tema d'escritoriu"
 
 #: desktopthemedetails.cpp:265
-#, fuzzy
 msgid "Removal of the default desktop theme is not allowed."
-msgstr "El desaniciu del tema predetermináu nun ta permitíu."
+msgstr "Nun ta permitíu'l desaniciu del tema predetermináu d'escritoriu"
 
 #: desktopthemedetails.cpp:268
-#, fuzzy, kde-format
+#, kde-format
 msgid "Are you sure you wish remove the \"%1\" theme?"
-msgstr "¿Daveres quies desaniciar el tema \"%1\"?"
+msgstr "¿De xuru que deseyes desaniciar el tema «%1»?"
 
 #: desktopthemedetails.cpp:296
-#, fuzzy
 msgid ""
 "Please apply theme item changes (with a new theme name) before attempting to "
 "export theme."
 msgstr ""
-"Aplicar los cambeos del tema (con un nome de tema nuevu) enantes de tentar "
-"esportar el tema."
+"Aplica les camudancies d'elementos del tema (con un nome de tema nuevu), "
+"enantes d'intentar esportar el tema, por favor."
 
 #: desktopthemedetails.cpp:296
 #, fuzzy
@@ -167,9 +163,8 @@ msgid "Export Desktop Theme"
 msgstr "Esportar tema d'escritoriu"
 
 #: desktopthemedetails.cpp:302
-#, fuzzy
 msgid "Export theme to file"
-msgstr "Esportar tema a ficheru"
+msgstr "Esportación de tema a ficheru"
 
 #: desktopthemedetails.cpp:302
 msgid "Archive (*.zip)"
@@ -184,7 +179,7 @@ msgid "Source"
 msgstr "Fonte"
 
 #: desktopthemedetails.cpp:429
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 %2"
 msgctxt ""
 "%1 is the name of the theme, %2 is the type of the element (background, "
@@ -197,14 +192,14 @@ msgid "File..."
 msgstr "Ficheru..."
 
 #: desktopthemedetails.cpp:461
-#, fuzzy, kde-format
+#, kde-format
 msgid "Select File to Use for %1"
-msgstr "Esbille'l ficheru a usar pa %1"
+msgstr "Esbilla'l ficheru a usar pa %1"
 
 #: desktopthemedetails.cpp:504
 #, kde-format
 msgid " Author: %1"
-msgstr " Autor: %1"
+msgstr " Autor/a: %1"
 
 #: desktopthemedetails.cpp:510
 #, kde-format
@@ -219,7 +214,7 @@ msgstr "Detalles del tema d'escritoriu"
 #. i18n: ectx: property (toolTip), widget (QTableWidget, m_themeItemList)
 #: DesktopThemeDetails.ui:41
 msgid "Choose an item and customize it by assigning it a theme"
-msgstr ""
+msgstr "Escueyi un elementu y personalízalu asignándo-y un tema"
 
 #. i18n: ectx: property (whatsThis), widget (QTableWidget, m_themeItemList)
 #: DesktopThemeDetails.ui:44
@@ -258,6 +253,8 @@ msgid ""
 "Clicking this button will remove the selected theme. You will be asked for "
 "confirmation."
 msgstr ""
+"Primiendo nesti botón desaniciaráse'l tema esbilláu. Entrugarásete "
+"pola confiramción."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_removeThemeButton)
 #: DesktopThemeDetails.ui:96
@@ -268,38 +265,35 @@ msgstr "Desaniciar tema"
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_exportThemeButton)
 #: DesktopThemeDetails.ui:106
 msgid "Save your theme in a zip archive"
-msgstr ""
+msgstr "Guarda'l to tema nun archivu zip"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_exportThemeButton)
 #: DesktopThemeDetails.ui:109
 msgid ""
 "You can save your theme in a zip archive in order to share it with the "
 "community."
-msgstr ""
+msgstr "Pues guardar el to tema nun ficheru zip pa compartilu cola comunidá."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_exportThemeButton)
 #: DesktopThemeDetails.ui:112
-#, fuzzy
 msgid "Export Theme to File..."
 msgstr "Esportar tema a ficheru..."
 
 #. i18n: ectx: property (text), widget (QLabel, m_newThemeNameLabel)
 #: DesktopThemeDetails.ui:136
-#, fuzzy
 msgid "New theme name:"
 msgstr "Nome del tema nuevu:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, m_newThemeName)
 #: DesktopThemeDetails.ui:149
-#, fuzzy
 #| msgid "New theme name:"
 msgid "Custom theme name"
-msgstr "Nome del tema nuevu:"
+msgstr "Nome de tema personalizáu"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_newThemeName)
 #: DesktopThemeDetails.ui:152
 msgid "Give a name to your custom theme."
-msgstr ""
+msgstr "Da un nome al to tema personalizáu."
 
 #. i18n: ectx: property (text), widget (QLabel, m_newThemeAuthorLabel)
 #: DesktopThemeDetails.ui:159
@@ -308,15 +302,14 @@ msgstr "Autor:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, m_newThemeAuthor)
 #: DesktopThemeDetails.ui:172
-#, fuzzy
 #| msgid "Theme Author"
 msgid "Custom theme author "
-msgstr "Autor del tema"
+msgstr "Autor/a del tema personalizáu"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_newThemeAuthor)
 #: DesktopThemeDetails.ui:175
 msgid "Enter the author name of your custom theme."
-msgstr ""
+msgstr "Introduz el nome d'autor/a del to tema personalizáu."
 
 #. i18n: ectx: property (text), widget (QLabel, m_newThemeVersionLabel)
 #: DesktopThemeDetails.ui:182
@@ -325,33 +318,30 @@ msgstr "Versión:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, m_newThemeVersion)
 #: DesktopThemeDetails.ui:195
-#, fuzzy
 #| msgid "New theme name:"
 msgid "Custom theme version number"
-msgstr "Nome del tema nuevu:"
+msgstr "Númberu de versión del tema personalizáu"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_newThemeVersion)
 #: DesktopThemeDetails.ui:198
 msgid "Enter the version number of your custom theme."
-msgstr ""
+msgstr "Introduz el númberu de versión del to tema personalizáu."
 
 #. i18n: ectx: property (text), widget (QLabel, m_newThemeDescriptionLabel)
 #: DesktopThemeDetails.ui:209
-#, fuzzy
 msgid "Description:"
 msgstr "Descripción:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, m_newThemeDescription)
 #: DesktopThemeDetails.ui:228
-#, fuzzy
 #| msgid "The theme description goes here..."
 msgid "Custom theme description"
-msgstr "Equí va la descripción del tema..."
+msgstr "Descripción del tema personalizáu"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_newThemeDescription)
 #: DesktopThemeDetails.ui:231
 msgid "Enter a description which will explain your custom theme."
-msgstr ""
+msgstr "Introduz una descripción que desplicará'l to tema personalizáu."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: DesktopThemeDetails.ui:250
@@ -375,7 +365,6 @@ msgstr "Versión del tema"
 
 #. i18n: ectx: property (text), widget (QLabel, m_themeInfoDescription)
 #: DesktopThemeDetails.ui:306
-#, fuzzy
 msgid "The theme description goes here..."
 msgstr "Equí va la descripción del tema..."
 
@@ -390,6 +379,10 @@ msgid ""
 "Choose a start theme in this list then customize some items below. All less "
 "important items not listed below will use this start theme."
 msgstr ""
+"Escueyi un tema inicial nesti llistáu pa dempués personalizar dellos"
+" elementos "
+"d'embaxo. Tolos elementos menos importantes non llistaos embaxo usarán "
+"esti tema inicial."
 
 #: kcmdesktoptheme.cpp:52
 msgid ""
@@ -400,20 +393,18 @@ msgstr ""
 "del escritoriu."
 
 #: kcmdesktoptheme.cpp:62
-#, fuzzy
 #| msgid "Export Desktop Theme"
 msgid "KDE Desktop Theme Module"
-msgstr "Esportar tema d'escritoriu"
+msgstr "Módulu de temes d'escritoriu KDE"
 
 #: kcmdesktoptheme.cpp:64
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
 #: kcmdesktoptheme.cpp:176
-#, fuzzy
 #| msgid "Theme Item"
 msgid "Open Theme"
-msgstr "ítem del tema"
+msgstr "Abrir tema"
 
 #: kcmdesktoptheme.cpp:178
 msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
@@ -421,16 +412,16 @@ msgstr "Ficheros de tema (*.zip *.tar.gz *.tar.bz2)"
 
 #: kcmdesktoptheme.cpp:223
 msgid "Theme installed successfully."
-msgstr ""
+msgstr "Instalóse con ésitu'l tema."
 
 #: kcmdesktoptheme.cpp:226
 #, kde-format
 msgid "Theme installation failed. (%1)"
-msgstr ""
+msgstr "Falló la instalación del tema. (%1)"
 
 #: kcmdesktoptheme.cpp:234
 msgid "Theme installation failed."
-msgstr ""
+msgstr "Falló la instalación del tema."
 
 #, fuzzy
 #~| msgid "Remove Desktop Theme"
