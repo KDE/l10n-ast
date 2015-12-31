@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-30 07:02+0000\n"
+"POT-Creation-Date: 2015-12-31 07:45+0000\n"
 "PO-Revision-Date: 2015-11-17 01:08+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -2532,7 +2532,7 @@ msgstr "Vinilu"
 msgid "Simulates a vinyl audio player - LADSPA audio effect"
 msgstr ""
 
-#: data/effects/ladspa_vinyl.xml:7 src/project/dialogs/projectsettings.cpp:136
+#: data/effects/ladspa_vinyl.xml:7 src/project/dialogs/projectsettings.cpp:140
 msgid "Year"
 msgstr "Añu"
 
@@ -3741,21 +3741,37 @@ msgstr ""
 msgid "Untitled"
 msgstr "Ensin títulu"
 
-#: src/bin/projectclip.cpp:272 src/project/projectlist.cpp:2458
+#: src/bin/projectclip.cpp:278 src/project/projectlist.cpp:2458
 msgctxt "The first letter of Proxy, used as abbreviation"
 msgid "P"
 msgstr ""
 
-#: src/bin/projectclip.cpp:945 src/doc/docclipbase.cpp:1232
+#: src/bin/projectclip.cpp:869 src/bin/projectclip.cpp:874
+msgid "Cannot create temporary file, check disk space and permissions"
+msgstr ""
+
+#: src/bin/projectclip.cpp:924
+#, fuzzy, kde-format
+#| msgid "Show audio thumbnails"
+msgid "Crash in %1 - creating audio thumbnails"
+msgstr "Amosar miniatures d'audiu"
+
+#: src/bin/projectclip.cpp:932
+#, fuzzy
+#| msgid "Show audio thumbnails"
+msgid "Error reading audio thumbnail"
+msgstr "Amosar miniatures d'audiu"
+
+#: src/bin/projectclip.cpp:1072 src/doc/docclipbase.cpp:1232
 #, kde-format
 msgid "Clip already contains analysis data %1"
 msgstr ""
 
-#: src/bin/projectclip.cpp:945 src/doc/docclipbase.cpp:1232
+#: src/bin/projectclip.cpp:1072 src/doc/docclipbase.cpp:1232
 msgid "Merge"
 msgstr ""
 
-#: src/bin/projectclip.cpp:945 src/doc/docclipbase.cpp:1232
+#: src/bin/projectclip.cpp:1072 src/doc/docclipbase.cpp:1232
 msgid "Add"
 msgstr ""
 
@@ -3784,7 +3800,7 @@ msgid "Name"
 msgstr ""
 
 #: src/bin/projectitemmodel.cpp:172
-#: src/project/dialogs/projectsettings.cpp:143
+#: src/project/dialogs/projectsettings.cpp:147
 #: src/project/projectlistview.cpp:59
 msgid "Date"
 msgstr ""
@@ -3931,19 +3947,19 @@ msgid "Manage Project Profiles"
 msgstr ""
 
 #: src/dialogs/kdenlivesettingsdialog.cpp:274
-#: src/project/dialogs/projectsettings.cpp:91
+#: src/project/dialogs/projectsettings.cpp:95
 #, fuzzy
 #| msgid "Show all profiles"
 msgid "Show default profile parameters"
 msgstr "Amosar tolos perfiles"
 
 #: src/dialogs/kdenlivesettingsdialog.cpp:276
-#: src/project/dialogs/projectsettings.cpp:93
+#: src/project/dialogs/projectsettings.cpp:97
 msgid "Manage proxy profiles"
 msgstr ""
 
 #: src/dialogs/kdenlivesettingsdialog.cpp:277
-#: src/project/dialogs/projectsettings.cpp:96
+#: src/project/dialogs/projectsettings.cpp:100
 #, fuzzy
 #| msgid "Please set your default video profile"
 msgid "Select default proxy profile"
@@ -4040,7 +4056,7 @@ msgstr ""
 #: src/mltcontroller/clippropertiescontroller.cpp:327
 #: src/mltcontroller/clippropertiescontroller.cpp:718
 #: src/project/clipproperties.cpp:119 src/project/clipproperties.cpp:693
-#: src/project/dialogs/projectsettings.cpp:398 src/ui/profiledialog_ui.ui:232
+#: src/project/dialogs/projectsettings.cpp:402 src/ui/profiledialog_ui.ui:232
 msgid "Progressive"
 msgstr ""
 
@@ -6531,7 +6547,7 @@ msgstr ""
 msgid "Select a clip to save"
 msgstr ""
 
-#: src/mainwindow.cpp:3264 src/renderer.cpp:1400
+#: src/mainwindow.cpp:3264 src/renderer.cpp:1404
 #: src/timeline/customtrackview.cpp:7880
 msgid "MLT playlist (*.mlt)"
 msgstr ""
@@ -6683,8 +6699,8 @@ msgstr ""
 
 #: src/mltcontroller/clippropertiescontroller.cpp:714
 #: src/mltcontroller/clippropertiescontroller.cpp:748
-msgctxt "seconds"
-msgid "s"
+msgctxt "Kilobytes per seconds"
+msgid "kb/s"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
@@ -6705,6 +6721,11 @@ msgstr ""
 
 #: src/mltcontroller/clippropertiescontroller.cpp:743
 msgid "Audio frequency"
+msgstr ""
+
+#: src/mltcontroller/clippropertiescontroller.cpp:743
+msgctxt "Herz"
+msgid "Hz"
 msgstr ""
 
 #: src/mltcontroller/clippropertiescontroller.cpp:748
@@ -7293,8 +7314,8 @@ msgid "No image found"
 msgstr ""
 
 #: src/project/clipproperties.cpp:1179
-#: src/project/dialogs/projectsettings.cpp:543
-#: src/project/dialogs/projectsettings.cpp:556
+#: src/project/dialogs/projectsettings.cpp:547
+#: src/project/dialogs/projectsettings.cpp:560
 #: src/project/dialogs/slideshowclip.cpp:247
 #, kde-format
 msgid "1 image found"
@@ -7361,38 +7382,38 @@ msgid "Transcoding finished."
 msgstr ""
 
 #: src/project/dialogs/archivewidget.cpp:63
-#: src/project/dialogs/projectsettings.cpp:272
+#: src/project/dialogs/projectsettings.cpp:276
 msgid "Video clips"
 msgstr ""
 
 #: src/project/dialogs/archivewidget.cpp:67
-#: src/project/dialogs/projectsettings.cpp:275
+#: src/project/dialogs/projectsettings.cpp:279
 msgid "Audio clips"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/project/dialogs/archivewidget.cpp:71
-#: src/project/dialogs/projectsettings.cpp:278 src/ui/configmisc_ui.ui:113
+#: src/project/dialogs/projectsettings.cpp:282 src/ui/configmisc_ui.ui:113
 msgid "Image clips"
 msgstr ""
 
 #: src/project/dialogs/archivewidget.cpp:75
-#: src/project/dialogs/projectsettings.cpp:281
+#: src/project/dialogs/projectsettings.cpp:285
 msgid "Slideshow clips"
 msgstr ""
 
 #: src/project/dialogs/archivewidget.cpp:79
-#: src/project/dialogs/projectsettings.cpp:284
+#: src/project/dialogs/projectsettings.cpp:288
 msgid "Text clips"
 msgstr ""
 
 #: src/project/dialogs/archivewidget.cpp:83
-#: src/project/dialogs/projectsettings.cpp:287
+#: src/project/dialogs/projectsettings.cpp:291
 msgid "Playlist clips"
 msgstr ""
 
 #: src/project/dialogs/archivewidget.cpp:87
-#: src/project/dialogs/projectsettings.cpp:290
+#: src/project/dialogs/projectsettings.cpp:294
 msgid "Other clips"
 msgstr ""
 
@@ -7541,28 +7562,34 @@ msgstr ""
 msgid "Insert current timecode"
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:109
+#: src/project/dialogs/projectsettings.cpp:56
+#, fuzzy
+#| msgid "Project files"
+msgid "Manage project profiles"
+msgstr "Ficheros del proyeutu"
+
+#: src/project/dialogs/projectsettings.cpp:113
 msgid "Title"
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:116
+#: src/project/dialogs/projectsettings.cpp:120
 #: src/utils/resourcewidget.cpp:189
 msgid "Author"
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:123
+#: src/project/dialogs/projectsettings.cpp:127
 msgid "Artist"
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:129
+#: src/project/dialogs/projectsettings.cpp:133
 msgid "Copyright"
 msgstr "Copyright"
 
-#: src/project/dialogs/projectsettings.cpp:229
+#: src/project/dialogs/projectsettings.cpp:233
 msgid "Deleting proxy clips will disable proxies for this project."
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:380
+#: src/project/dialogs/projectsettings.cpp:384
 msgid ""
 "Changing the profile of your project cannot be undone.\n"
 "It is recommended to save your project before attempting this operation that "
@@ -7570,35 +7597,35 @@ msgid ""
 " Are you sure you want to proceed?"
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:380
+#: src/project/dialogs/projectsettings.cpp:384
 msgid "Confirm profile change"
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:395
+#: src/project/dialogs/projectsettings.cpp:399
 #, kde-format
 msgid "Interlaced (%1 fields per second)"
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:566
+#: src/project/dialogs/projectsettings.cpp:570
 #, kde-format
 msgid "Project folder: %1"
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:567
+#: src/project/dialogs/projectsettings.cpp:571
 #, kde-format
 msgid "Project profile: %1"
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:568
+#: src/project/dialogs/projectsettings.cpp:572
 #, kde-format
 msgid "Total clips: %1 (%2 used in timeline)."
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:620
+#: src/project/dialogs/projectsettings.cpp:624
 msgid "field_name"
 msgstr ""
 
-#: src/project/dialogs/projectsettings.cpp:691
+#: src/project/dialogs/projectsettings.cpp:695
 msgid "Current Settings"
 msgstr ""
 
@@ -7962,34 +7989,34 @@ msgstr ""
 msgid "Black"
 msgstr ""
 
-#: src/renderer.cpp:1195
+#: src/renderer.cpp:1199
 msgid ""
 "Could not create the video preview window.\n"
 "There is something wrong with your Kdenlive install or your driver settings, "
 "please fix it."
 msgstr ""
 
-#: src/renderer.cpp:1400 src/timeline/customtrackview.cpp:7880
+#: src/renderer.cpp:1404 src/timeline/customtrackview.cpp:7880
 msgid "Save Zone"
 msgstr ""
 
-#: src/renderer.cpp:3298
+#: src/renderer.cpp:3302
 msgid "Import selected clips"
 msgstr ""
 
-#: src/renderer.cpp:3300
+#: src/renderer.cpp:3304
 #, kde-format
 msgid ""
 "Additional streams for clip\n"
 " %1"
 msgstr ""
 
-#: src/renderer.cpp:3309
+#: src/renderer.cpp:3313
 #, kde-format
 msgid "Video stream %1"
 msgstr ""
 
-#: src/renderer.cpp:3324
+#: src/renderer.cpp:3328
 #, kde-format
 msgid "Audio stream %1"
 msgstr ""
@@ -10617,28 +10644,33 @@ msgstr "Miniatures"
 msgid "Separate channels"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showmarkers)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ffmpegaudiothumbnails)
 #: src/ui/configtimeline_ui.ui:73
+msgid "Use FFmpeg for audio thumbnails (faster)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showmarkers)
+#: src/ui/configtimeline_ui.ui:80
 msgid "Display clip markers comments"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoscroll)
-#: src/ui/configtimeline_ui.ui:80
+#: src/ui/configtimeline_ui.ui:87
 msgid "Autoscroll while playing"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_verticalzoom)
-#: src/ui/configtimeline_ui.ui:87
+#: src/ui/configtimeline_ui.ui:94
 msgid "Zoom using vertical drag in ruler"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_splitaudio)
-#: src/ui/configtimeline_ui.ui:94
+#: src/ui/configtimeline_ui.ui:101
 msgid "Automatically split audio and video"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/configtimeline_ui.ui:103
+#: src/ui/configtimeline_ui.ui:110
 msgid "Track height"
 msgstr ""
 
