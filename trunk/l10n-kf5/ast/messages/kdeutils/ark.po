@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-29 08:19+0000\n"
+"POT-Creation-Date: 2016-01-05 09:08+0000\n"
 "PO-Revision-Date: 2015-12-11 02:01+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -360,26 +360,26 @@ msgstr "Falló la estraición pola mor d'un fallu inesperáu."
 msgid "Incorrect password."
 msgstr "Contraseña incorreuta."
 
-#: kerfuffle/createdialog.cpp:132
+#: kerfuffle/createdialog.cpp:133
 msgid "The chosen password does not match the given verification password."
 msgstr "La contraseña escoyida nun concasa cola dada pa la verificación."
 
-#: kerfuffle/createdialog.cpp:160
+#: kerfuffle/createdialog.cpp:161
 msgid "Please select a filename for the archive."
 msgstr "Esbilla un nome de ficheru pal archivu, por favor."
 
-#: kerfuffle/createdialog.cpp:160
+#: kerfuffle/createdialog.cpp:161
 msgid "No file selected"
 msgstr "Nun s'esbillaron ficheros"
 
-#: kerfuffle/createdialog.cpp:200
+#: kerfuffle/createdialog.cpp:201
 #, kde-format
 msgid ""
 "Protection of the archive with password is not possible with the %1 format."
 msgstr ""
 "Nun ye posible la proteición del archivu con contraseña col formatu %1."
 
-#: kerfuffle/createdialog.cpp:212
+#: kerfuffle/createdialog.cpp:213
 #, kde-format
 msgid "Protection of the list of files is not possible with the %1 format."
 msgstr "Nun ye posible la proteición del llistáu de ficheros col formatu %1."
@@ -635,24 +635,30 @@ msgstr "Contraseña incorreuta. Inténtalo de nueves, por favor"
 #: kerfuffle/queries.cpp:218
 msgctxt "@info"
 msgid ""
-"Corrupt archive detected. Do you want Ark to attempt loading the archive?<nl/"
-"><nl/>Some files may be missing or damaged, and the archive will be opened "
-"read-only."
+"The archive you're trying to open is corrupt.<nl/>Some files may be missing "
+"or damaged."
 msgstr ""
-"Deteutóse un archivu toyíu. ¿Quies qu'ARK intente cargalu?<nl/> <nl/"
-">Quiciabes tean dañaos o perdíos dellos ficheros. L'archivu abriráse como "
-"namái llectura. "
 
-#: kerfuffle/queries.cpp:221
+#: kerfuffle/queries.cpp:220
 msgctxt "@title:window"
 msgid "Corrupt archive"
 msgstr "Ficheru toyíu"
 
-#: kerfuffle/queries.cpp:241
+#: kerfuffle/queries.cpp:221
+msgctxt "@action:button"
+msgid "Open as Read-Only"
+msgstr ""
+
+#: kerfuffle/queries.cpp:222
+msgctxt "@action:button"
+msgid "Don't Open"
+msgstr ""
+
+#: kerfuffle/queries.cpp:242
 msgid "Error during extraction"
 msgstr "Fallu na estraición"
 
-#: kerfuffle/queries.cpp:242
+#: kerfuffle/queries.cpp:243
 #, kde-format
 msgid ""
 "Extraction of the entry:<nl/>    <filename>%1</filename><nl/>failed with the "
@@ -661,7 +667,7 @@ msgstr ""
 "Estraición de la entrada:<nl/>    <filename>%1</filename><nl/> falló col "
 "mensaxe de fallu:<nl/>    %2<nl/><nl/>¿Quies siguir cola estraición?<nl/>"
 
-#: kerfuffle/queries.cpp:248
+#: kerfuffle/queries.cpp:249
 msgid "Don't ask again."
 msgstr "Nun entrugar de nueves."
 
@@ -982,7 +988,7 @@ msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr "Nun s'alcontró l'archivu <filename>%1</filename>."
 
-#: part/part.cpp:483 part/part.cpp:502 part/part.cpp:509 part/part.cpp:574
+#: part/part.cpp:483 part/part.cpp:502 part/part.cpp:509 part/part.cpp:579
 msgctxt "@title:window"
 msgid "Error Opening Archive"
 msgstr "Fallu abriendo l'archivu"
@@ -1019,15 +1025,15 @@ msgstr ""
 "complementu afayadizu.<nl/><nl/>Asegúrate que dal executable necesita "
 "remanar la triba d'archivu que ta instaláu."
 
-#: part/part.cpp:555
+#: part/part.cpp:560
 msgid "Extraction settings"
 msgstr "Axustes d'estraición"
 
-#: part/part.cpp:556
+#: part/part.cpp:561
 msgid "Preview settings"
 msgstr "Axustes de previsualización"
 
-#: part/part.cpp:571
+#: part/part.cpp:576
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1037,47 +1043,47 @@ msgstr ""
 "La carga del archivu <filename>%1</filename> falló col fallu de darréu:<nl/"
 "><nl/><message>%2</message>"
 
-#: part/part.cpp:650
+#: part/part.cpp:655
 msgid "Ark cannot open symlinks."
 msgstr "Ark nun pue abrir enllaces simbólicos."
 
-#: part/part.cpp:762
+#: part/part.cpp:767
 #, kde-format
 msgid ""
 "The file <filename>%1</filename> was modified. Do you want to update the "
 "archive?"
 msgstr "Modificóse'l ficheru <filename>%1</filename>. ¿Quies anovalu?"
 
-#: part/part.cpp:764
+#: part/part.cpp:769
 msgid "File modified"
 msgstr "ficheru modificáu"
 
-#: part/part.cpp:1023
+#: part/part.cpp:1028
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "Amiestu de ficheros"
 
-#: part/part.cpp:1030
+#: part/part.cpp:1035
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "Amiestu de carpeta"
 
-#: part/part.cpp:1055
+#: part/part.cpp:1060
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 "Nun podrá desafacese'l desaniciu d'estos ficheros. ¿De xuru que quies facelo?"
 
-#: part/part.cpp:1056
+#: part/part.cpp:1061
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "Desaniciu de ficheros"
 
-#: part/part.cpp:1088
+#: part/part.cpp:1093
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "Guardar ficheru como"
 
-#: part/part.cpp:1095
+#: part/part.cpp:1100
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1087,7 +1093,7 @@ msgstr ""
 "Yá esiste un archivu nomáu <filename>%1</filename>. ¿De xuru que quies "
 "sobrescribilu?"
 
-#: part/part.cpp:1109
+#: part/part.cpp:1114
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1097,7 +1103,7 @@ msgstr ""
 "Nun pue copiase l'archivu <filename>%1</filename> al allugamientu "
 "especificáu. L'archivu yá nun esiste"
 
-#: part/part.cpp:1123
+#: part/part.cpp:1128
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1276,6 +1282,16 @@ msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr ""
 "Asocedió un fallu entrín se lleía <filename>%1</filename> na estraición."
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Corrupt archive detected. Do you want Ark to attempt loading the archive?"
+#~ "<nl/><nl/>Some files may be missing or damaged, and the archive will be "
+#~ "opened read-only."
+#~ msgstr ""
+#~ "Deteutóse un archivu toyíu. ¿Quies qu'ARK intente cargalu?<nl/> <nl/"
+#~ ">Quiciabes tean dañaos o perdíos dellos ficheros. L'archivu abriráse como "
+#~ "namái llectura. "
 
 #~ msgid "Encryption Options"
 #~ msgstr "Opciones de cifráu"
