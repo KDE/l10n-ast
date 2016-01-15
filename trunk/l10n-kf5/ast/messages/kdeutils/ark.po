@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-13 07:41+0000\n"
+"POT-Creation-Date: 2016-01-15 07:49+0000\n"
 "PO-Revision-Date: 2016-01-12 00:20+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -26,8 +26,16 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
+#. i18n: ectx: Menu (archive)
+#: app/arkui.rc:5 part/ark_part.rc:5
+#, fuzzy
+#| msgctxt "to open an archive"
+#| msgid "Open Archive"
+msgid "&Archive"
+msgstr "Abrir archivu"
+
 #. i18n: ectx: ToolBar (mainToolBar)
-#: app/arkui.rc:13
+#: app/arkui.rc:20
 msgid "Main Toolbar"
 msgstr "Barra de ferramientes principal"
 
@@ -244,31 +252,31 @@ msgstr ""
 "Nun pue alcontrase'l componente KPart d'Ark. Comprueba la to instalación, "
 "por favor."
 
-#: app/mainwindow.cpp:172
+#: app/mainwindow.cpp:174
 msgctxt "action, to open an archive"
 msgid "Open"
 msgstr "Abrir"
 
-#: app/mainwindow.cpp:173
+#: app/mainwindow.cpp:175
 msgid ""
 "Click to open an archive, click and hold to open a recently-opened archive"
 msgstr ""
 "Primi p'abrir un ficheru; caltén calcao p'abrir un ficheru abiertu apocayá."
 
-#: app/mainwindow.cpp:174
+#: app/mainwindow.cpp:176
 msgid "Open an archive"
 msgstr "Abrir un archivu"
 
-#: app/mainwindow.cpp:224
+#: app/mainwindow.cpp:226
 msgctxt "to open an archive"
 msgid "Open Archive"
 msgstr "Abrir archivu"
 
-#: app/mainwindow.cpp:233
+#: app/mainwindow.cpp:235
 msgid "All supported archives ("
 msgstr "Tolos ficheros sofitaos ("
 
-#: app/mainwindow.cpp:314
+#: app/mainwindow.cpp:316
 msgid "Create a new Archive"
 msgstr "Creación d'un ficheru nuevu"
 
@@ -767,11 +775,6 @@ msgctxt "Unnamed column"
 msgid "??"
 msgstr "¿?"
 
-#. i18n: ectx: Menu (file)
-#: part/ark_part.rc:5
-msgid "&File"
-msgstr "&Ficheru"
-
 #. i18n: ectx: Menu (action)
 #: part/ark_part.rc:9
 msgid "&Action"
@@ -1189,25 +1192,34 @@ msgid "Could not add the file <filename>%1</filename> to the archive."
 msgstr "Nun pudo amestase'l ficheru <filename>%1</filename> al archivu."
 
 #: plugins/libarchive/libarchivehandler.cpp:105
-#: plugins/libarchive/libarchivehandler.cpp:178
-#, kde-format
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Corrupt archive"
+msgctxt "@info"
+msgid "Could not open the archive."
+msgstr "Ficheru toyíu"
+
+#: plugins/libarchive/libarchivehandler.cpp:130
+#, fuzzy
+#| msgid "Click to add files to the archive"
+msgctxt "@info"
+msgid "Could not read until the end of the archive"
+msgstr "Primi p'amestar los ficheros al archivu"
+
+#: plugins/libarchive/libarchivehandler.cpp:179
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not write to destination <filename>%1</filename>.<nl/>Check whether "
+#| "you have sufficient permissions."
 msgctxt "@info"
 msgid ""
-"Could not open the archive <filename>%1</filename>, libarchive cannot handle "
-"it."
+"Could not open the archive <filename>%1</filename>.<nl/>Check whether you "
+"have sufficient permissions."
 msgstr ""
-"Nun pudo abrise'l ficheru <filename>%1</filename>, libarchive nun pue "
-"remanalu."
+"Nun pudo escribise nel destín<filename>%1</filename>.<nl/>Comprueba si "
+"tienes abondos permisos o non."
 
-#: plugins/libarchive/libarchivehandler.cpp:129
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The archive reading failed with the following error: <message>%1</message>"
-msgstr ""
-"Falló la llectura del archivu col fallu de darréu: <message>%1</message>"
-
-#: plugins/libarchive/libarchivehandler.cpp:249
+#: plugins/libarchive/libarchivehandler.cpp:251
 msgid ""
 "This archive contains archive entries with absolute paths, which are not "
 "supported by Ark."
@@ -1215,37 +1227,37 @@ msgstr ""
 "Esti archivu contién entraes d'archivos con caminos absolutos qu'entá nun "
 "tán sofitaos por Ark."
 
-#: plugins/libarchive/libarchivehandler.cpp:388
+#: plugins/libarchive/libarchivehandler.cpp:390
 #, kde-format
 msgctxt "@info"
 msgid "Extraction failed at:<nl/><filename>%1</filename>"
 msgstr "Falló la estraición en:<nl/><filename>%1</filename>"
 
-#: plugins/libarchive/libarchivehandler.cpp:442
-#: plugins/libarchive/libarchivehandler.cpp:635
+#: plugins/libarchive/libarchivehandler.cpp:444
+#: plugins/libarchive/libarchivehandler.cpp:637
 msgid "The archive reader could not be initialized."
 msgstr "Nun pudo aniciase'l llector d'archivos."
 
-#: plugins/libarchive/libarchivehandler.cpp:455
-#: plugins/libarchive/libarchivehandler.cpp:648
+#: plugins/libarchive/libarchivehandler.cpp:457
+#: plugins/libarchive/libarchivehandler.cpp:650
 msgid "The source file could not be read."
 msgstr "Nun pudo lleese'l ficheru fonte."
 
-#: plugins/libarchive/libarchivehandler.cpp:466
+#: plugins/libarchive/libarchivehandler.cpp:468
 #, kde-format
 msgctxt "@info"
 msgid "Failed to create a temporary file to compress <filename>%1</filename>."
 msgstr ""
 "Fallu al crear el ficheru temporal pa comprimir <filename>%1</filename>."
 
-#: plugins/libarchive/libarchivehandler.cpp:472
-#: plugins/libarchive/libarchivehandler.cpp:664
+#: plugins/libarchive/libarchivehandler.cpp:474
+#: plugins/libarchive/libarchivehandler.cpp:666
 msgid "The archive writer could not be initialized."
 msgstr "Nun pudo aniciase l'escritor de ficheros."
 
-#: plugins/libarchive/libarchivehandler.cpp:502
-#: plugins/libarchive/libarchivehandler.cpp:530
-#: plugins/libarchive/libarchivehandler.cpp:694
+#: plugins/libarchive/libarchivehandler.cpp:504
+#: plugins/libarchive/libarchivehandler.cpp:532
+#: plugins/libarchive/libarchivehandler.cpp:696
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1255,14 +1267,14 @@ msgstr ""
 "Falló l'afitamientu del métodu de compresión col fallu de darréu:<nl/"
 "><message>%1</message>"
 
-#: plugins/libarchive/libarchivehandler.cpp:524
-#: plugins/libarchive/libarchivehandler.cpp:689
+#: plugins/libarchive/libarchivehandler.cpp:526
+#: plugins/libarchive/libarchivehandler.cpp:691
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr "La triba de compresión «%1» nun ta softada por Ark."
 
-#: plugins/libarchive/libarchivehandler.cpp:538
-#: plugins/libarchive/libarchivehandler.cpp:701
+#: plugins/libarchive/libarchivehandler.cpp:540
+#: plugins/libarchive/libarchivehandler.cpp:703
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1272,8 +1284,8 @@ msgstr ""
 "Falló l'apertura del archivu pa escritura col fallu de darréu: <nl/> "
 "<message>%1</message>"
 
-#: plugins/libarchive/libarchivehandler.cpp:605
-#: plugins/libarchive/libarchivehandler.cpp:732
+#: plugins/libarchive/libarchivehandler.cpp:607
+#: plugins/libarchive/libarchivehandler.cpp:734
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1283,12 +1295,12 @@ msgstr ""
 "Falló la operación entrín se procesaba:<nl/><filename>%1</filename><nl/><nl/"
 ">Albortóse la operación."
 
-#: plugins/libarchive/libarchivehandler.cpp:658
+#: plugins/libarchive/libarchivehandler.cpp:660
 msgctxt "@info"
 msgid "Failed to create a temporary file."
 msgstr "Fallu al crear el ficheru temporal."
 
-#: plugins/libarchive/libarchivehandler.cpp:895
+#: plugins/libarchive/libarchivehandler.cpp:897
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
@@ -1313,6 +1325,23 @@ msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr ""
 "Asocedió un fallu entrín se lleía <filename>%1</filename> na estraición."
+
+#~ msgid "&File"
+#~ msgstr "&Ficheru"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Could not open the archive <filename>%1</filename>, libarchive cannot "
+#~ "handle it."
+#~ msgstr ""
+#~ "Nun pudo abrise'l ficheru <filename>%1</filename>, libarchive nun pue "
+#~ "remanalu."
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The archive reading failed with the following error: <message>%1</message>"
+#~ msgstr ""
+#~ "Falló la llectura del archivu col fallu de darréu: <message>%1</message>"
 
 #~ msgctxt "@info"
 #~ msgid ""
