@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-13 07:32+0000\n"
+"POT-Creation-Date: 2016-01-17 07:32+0000\n"
 "PO-Revision-Date: 2016-01-13 01:49+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -389,7 +389,7 @@ msgstr "Nun se puede cargar el ficheru"
 msgid "KStars image viewer: %1"
 msgstr "Visor d'imáxenes de KStars"
 
-#: auxiliary/imageviewer.cpp:132 tools/eyepiecefield.cpp:83
+#: auxiliary/imageviewer.cpp:132 tools/eyepiecefield.cpp:87
 msgid "Invert colors"
 msgstr ""
 
@@ -3775,7 +3775,7 @@ msgid "Display received FITS images unto solver FOV rectangle in the sky map"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_solverOverlay)
-#: ekos/align.ui:286 tools/eyepiecefield.cpp:82
+#: ekos/align.ui:286 tools/eyepiecefield.cpp:86
 msgid "Overlay"
 msgstr ""
 
@@ -9188,7 +9188,7 @@ msgstr "Falló l'apertura del ficheru de controlador INDI: %1"
 #. i18n: ectx: property (text), item, widget (QComboBox, driverComboBox)
 #. i18n: ectx: property (text), widget (QPushButton, NoneButton)
 #: indi/drivermanager.cpp:1230 indi/indidriver.cpp:751
-#: oal/equipmentwriter.ui:197 oal/log.cpp:262 tools/eyepiecefield.cpp:103
+#: oal/equipmentwriter.ui:197 oal/log.cpp:262 tools/eyepiecefield.cpp:111
 #: tools/obslistwizard.ui:147 tools/whatsinteresting/wiequipsettings.ui:344
 #, fuzzy
 msgid "None"
@@ -54326,7 +54326,7 @@ msgstr "Modelu:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, Type)
 #. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: oal/equipmentwriter.ui:94 tools/eyepiecefield.cpp:106
+#: oal/equipmentwriter.ui:94 tools/eyepiecefield.cpp:114
 #: tools/whatsinteresting/wiequipsettings.ui:328
 msgid "Refractor"
 msgstr ""
@@ -59975,58 +59975,68 @@ msgstr "Equinocciu de seronda:"
 msgid "Winter solstice:"
 msgstr "Solsticiu d'iviernu:"
 
-#: tools/eyepiecefield.cpp:47
+#: tools/eyepiecefield.cpp:48
 #, fuzzy
 #| msgid "Eyepiece FOV:"
 msgid "Eyepiece Field View"
 msgstr "Ocular del campu de visión:"
 
-#: tools/eyepiecefield.cpp:80
+#: tools/eyepiecefield.cpp:84
 #, fuzzy
 #| msgid "Overview"
 msgid "Invert view"
 msgstr "Resume"
 
-#: tools/eyepiecefield.cpp:81
+#: tools/eyepiecefield.cpp:85
 #, fuzzy
 #| msgctxt "City in Alberta Canada"
 #| msgid "Fairview"
 msgid "Flip view"
 msgstr "Fairview"
 
-#: tools/eyepiecefield.cpp:100
+#: tools/eyepiecefield.cpp:88
+#, fuzzy
+msgid "Fetch DSS image"
+msgstr "Amosar imaxe DSS"
+
+#: tools/eyepiecefield.cpp:108
 #, fuzzy
 #| msgid "Location:"
 msgid "Rotation: "
 msgstr "Ubicación:"
 
-#: tools/eyepiecefield.cpp:104
+#: tools/eyepiecefield.cpp:112
 #, fuzzy
 #| msgctxt "City in Philippines"
 #| msgid "Manila"
 msgid "Vanilla"
 msgstr "Manila"
 
-#: tools/eyepiecefield.cpp:105
+#: tools/eyepiecefield.cpp:113
 #, fuzzy
 #| msgctxt "City in Alberta Canada"
 #| msgid "Fairview"
 msgid "Flipped"
 msgstr "Fairview"
 
-#: tools/eyepiecefield.cpp:107
+#: tools/eyepiecefield.cpp:115
 #, fuzzy
 #| msgctxt "Country name"
 #| msgid "Estonia"
 msgid "Dobsonian"
 msgstr "Estonia"
 
-#: tools/eyepiecefield.cpp:109
+#: tools/eyepiecefield.cpp:117
 #, fuzzy
 #| msgctxt "City in Italy"
 #| msgid "Arese"
 msgid "Preset: "
 msgstr "Arese"
+
+#: tools/eyepiecefield.cpp:498 tools/observinglist.cpp:1128
+#, fuzzy
+msgid "Failed to download DSS/SDSS image!"
+msgstr "Fallu al cargar imaxe"
 
 #: tools/flagmanager.cpp:57
 msgid "Flag manager"
@@ -61504,11 +61514,6 @@ msgstr "Especificar ubicación de la imaxe"
 #, fuzzy
 msgid "Specify version: "
 msgstr "Especificar ubicación de la imaxe"
-
-#: tools/observinglist.cpp:1128
-#, fuzzy
-msgid "Failed to download DSS/SDSS image!"
-msgstr "Fallu al cargar imaxe"
 
 #: tools/observinglist.cpp:1219
 msgid "This will delete all saved images. Are you sure you want to do this?"
