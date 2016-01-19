@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-18 09:25+0000\n"
+"POT-Creation-Date: 2016-01-19 09:02+0000\n"
 "PO-Revision-Date: 2015-11-22 03:15+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -844,7 +844,7 @@ msgstr ""
 msgid "Metakit"
 msgstr "Metakit"
 
-#: src/aboutdata.cpp:35 src/articleviewer-ng/articleviewerng.cpp:122
+#: src/aboutdata.cpp:35 src/articleviewer-ng/articleviewerng.cpp:152
 #: src/trayicon.cpp:58 src/trayicon.cpp:59 src/trayicon.cpp:70
 #, fuzzy
 msgid "Akregator"
@@ -1288,25 +1288,35 @@ msgstr "&Zarrar llingüeta"
 msgid "Activate Tab %1"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:610
+#: src/actions/actionmanagerimpl.cpp:598
+#, fuzzy
+msgid "&Save Link As..."
+msgstr "&Guardar enllaz como..."
+
+#: src/actions/actionmanagerimpl.cpp:603
+#, fuzzy
+msgid "Copy &Link Address"
+msgstr "Copiar direición d'en&llaz"
+
+#: src/actions/actionmanagerimpl.cpp:618
 #, fuzzy
 msgctxt "Go forward in browser history"
 msgid "Forward"
 msgstr "Alantre"
 
-#: src/actions/actionmanagerimpl.cpp:617
+#: src/actions/actionmanagerimpl.cpp:625
 #, fuzzy
 msgctxt "Go back in browser history"
 msgid "Back"
 msgstr "Atrás"
 
-#: src/actions/actionmanagerimpl.cpp:626
+#: src/actions/actionmanagerimpl.cpp:634
 #, fuzzy
 msgctxt "Reload current page"
 msgid "Reload"
 msgstr "Recargar"
 
-#: src/actions/actionmanagerimpl.cpp:631
+#: src/actions/actionmanagerimpl.cpp:639
 #, fuzzy
 msgid "Stop"
 msgstr "Parar"
@@ -1585,41 +1595,31 @@ msgctxt "Articlelist's column header"
 msgid "Content"
 msgstr "Conteníu"
 
-#: src/articleviewer-ng/articleviewerng.cpp:123
+#: src/articleviewer-ng/articleviewerng.cpp:153
 #, fuzzy
 #| msgid "A KDE Feed Reader"
 msgid "Akregator is a KDE news feed reader."
 msgstr "Un llector de conteníos pa KDE"
 
-#: src/articleviewer-ng/articleviewerng.cpp:246
+#: src/articleviewer-ng/articleviewerng.cpp:284
 #, fuzzy
 msgid "Disable"
 msgstr "Desactivar"
 
-#: src/articleviewer-ng/articleviewerng.cpp:248
+#: src/articleviewer-ng/articleviewerng.cpp:286
 #, fuzzy
 msgid "Keep Enabled"
 msgstr "Mantener Activu"
 
-#: src/articleviewer-ng/articleviewerng.cpp:249
+#: src/articleviewer-ng/articleviewerng.cpp:287
 #, fuzzy
 msgid "Are you sure you want to disable this introduction page?"
 msgstr "¿Tas seguru de que quies desaniciar esta páxina d'introducción?"
 
-#: src/articleviewer-ng/articleviewerng.cpp:250
+#: src/articleviewer-ng/articleviewerng.cpp:288
 #, fuzzy
 msgid "Disable Introduction Page"
 msgstr "Desactivar la páxina d'introducción"
-
-#: src/articleviewerwidget.cpp:95
-#, fuzzy
-msgid "Copy &Link Address"
-msgstr "Copiar direición d'en&llaz"
-
-#: src/articleviewerwidget.cpp:99
-#, fuzzy
-msgid "&Save Link As..."
-msgstr "&Guardar enllaz como..."
 
 #: src/command/createfoldercommand.cpp:66
 #, fuzzy
@@ -1896,7 +1896,7 @@ msgstr[1] " (%1 artículos ensin lleer)"
 
 #: src/formatter/grantleeviewformatter.cpp:85
 #, fuzzy, kde-format
-msgid "<b>Description:</b> %1<br /><br />"
+msgid "<b>Description:</b> %1<br />"
 msgstr "<b>Descripción:</b> %1<br /><br />"
 
 #: src/formatter/grantleeviewformatter.cpp:94
@@ -1986,31 +1986,31 @@ msgstr "Pues ver dellos artículos en delles lligüetes abiertes."
 msgid "Articles list."
 msgstr "Llista d'artículos."
 
-#: src/mainwidget.cpp:245 src/mainwidget.cpp:625
+#: src/mainwidget.cpp:240 src/mainwidget.cpp:624
 #, fuzzy
 msgid "Articles"
 msgstr "Artículos"
 
-#: src/mainwidget.cpp:271
+#: src/mainwidget.cpp:268
 #, fuzzy
 msgid "About"
 msgstr "Tocante a"
 
-#: src/mainwidget.cpp:798 src/mainwidget.cpp:807 src/mainwidget.cpp:1201
+#: src/mainwidget.cpp:797 src/mainwidget.cpp:806 src/mainwidget.cpp:1200
 msgid "Networking is not available."
 msgstr ""
 
-#: src/mainwidget.cpp:815
+#: src/mainwidget.cpp:814
 #, fuzzy
 msgid "Fetching Feeds..."
 msgstr "Obteniendo fontes..."
 
-#: src/mainwidget.cpp:1012
+#: src/mainwidget.cpp:1011
 #, fuzzy, kde-format
 msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
 msgstr "<qt>¿Tas seguru de que quies desanicar l'artículu <b>%1</b>?</qt>"
 
-#: src/mainwidget.cpp:1015
+#: src/mainwidget.cpp:1014
 #, fuzzy, kde-format
 msgid "<qt>Are you sure you want to delete the selected article?</qt>"
 msgid_plural ""
@@ -2018,12 +2018,12 @@ msgid_plural ""
 msgstr[0] "<qt>¿Daveres que quies desaniciar l'artículu esbilláu?</qt>"
 msgstr[1] "<qt>¿Daveres que quies desaniciar los %1 artículos esbillaos?</qt>"
 
-#: src/mainwidget.cpp:1019 src/urlhandler/urlhandler.cpp:86
+#: src/mainwidget.cpp:1018 src/urlhandler/urlhandler.cpp:117
 #, fuzzy
 msgid "Delete Article"
 msgstr "Desaniciar l'articulu"
 
-#: src/mainwidget.cpp:1198
+#: src/mainwidget.cpp:1197
 msgid "Networking is available now."
 msgstr ""
 
@@ -2380,38 +2380,48 @@ msgstr "Cargar el sitiu we&b completu al lleer los artículos"
 msgid "Mar&k articles as read when they arrive"
 msgstr "Mar&car los artículos como lleíos cuandu aporten"
 
-#: src/urlhandler/urlhandler.cpp:48
+#: src/urlhandler/urlhandler.cpp:52
 #, fuzzy
 msgid "Disable Introduction"
 msgstr "Desactivar la páxina d'introducción"
 
-#: src/urlhandler/urlhandler.cpp:88
+#: src/urlhandler/urlhandler.cpp:76
+#, fuzzy
+msgid "&Open in Address Book"
+msgstr "Copiar la direición del enllaz"
+
+#: src/urlhandler/urlhandler.cpp:77
+#, fuzzy
+msgid "&Copy Email Address"
+msgstr "Copiar la direición del enllaz"
+
+#: src/urlhandler/urlhandler.cpp:119
 #, fuzzy
 msgid "Mark Article as Read"
 msgstr "Ma&rcar toles fontes como lleíes"
 
-#: src/urlhandler/urlhandler.cpp:90
+#: src/urlhandler/urlhandler.cpp:121
 #, fuzzy
 msgid "Mark Article as Unread"
 msgstr "Marcar l'artículu esbilláu como non lleíu"
 
-#: src/urlhandler/urlhandler.cpp:92
+#: src/urlhandler/urlhandler.cpp:123
 #, fuzzy
 msgid "Mark Article as Important"
 msgstr "&Marcar como importante"
 
-#: src/urlhandler/urlhandler.cpp:94
+#: src/urlhandler/urlhandler.cpp:125
 #, fuzzy
 #| msgid "&Next Article"
 msgid "Send Url Article"
 msgstr "Artículu siguie&nte"
 
-#: src/urlhandler/urlhandler.cpp:96
+#: src/urlhandler/urlhandler.cpp:127
 #, fuzzy
 msgid "Open In External Browser"
 msgstr "Abrir en restolador esternu"
 
-#: src/urlhandler/urlhandler.cpp:98
+#: src/urlhandler/urlhandler.cpp:129
 msgid "Share"
 msgstr ""
 
