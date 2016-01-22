@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-17 07:35+0000\n"
+"POT-Creation-Date: 2016-01-22 07:46+0000\n"
 "PO-Revision-Date: 2015-12-06 02:37+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -76,100 +76,50 @@ msgstr ""
 msgid "Image Size: %1x%2 pixels"
 msgstr "Tamañu d'imaxe: %1x%2 píxeles"
 
-#: src/Gui/KSMainWindow.cpp:125
+#: src/Gui/KSMainWindow.cpp:128
 #, fuzzy
 #| msgid "Export To..."
 msgid "Export Image..."
 msgstr "Esporta a..."
 
-#: src/Gui/KSMainWindow.cpp:130
+#: src/Gui/KSMainWindow.cpp:133
 msgid "Copy To Clipboard"
 msgstr "Copiar al cartafueyu"
 
-#: src/Gui/KSMainWindow.cpp:131
+#: src/Gui/KSMainWindow.cpp:134
 msgid "Copy the current screenshot image to the clipboard."
 msgstr "Copia la imaxe de captura actual al cartafueyu."
 
-#: src/Gui/KSMainWindow.cpp:185
+#: src/Gui/KSMainWindow.cpp:188
 msgid "Save &&& Exit"
 msgstr "Guardar y colar"
 
-#: src/Gui/KSMainWindow.cpp:186
+#: src/Gui/KSMainWindow.cpp:189
 msgid "Save screenshot in your Pictures directory and exit"
 msgstr "Guarda la captura nel to direutoriu de Semeyes y cola"
 
-#: src/Gui/KSMainWindow.cpp:213 src/Gui/KSSaveConfigDialog.cpp:27
-msgid "Configure Save Options"
-msgstr "Configurar opciones de guardáu"
+#: src/Gui/KSMainWindow.cpp:220 src/Gui/SettingsDialog/SettingsDialog.cpp:35
+msgid "Preferences"
+msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:243
+#: src/Gui/KSMainWindow.cpp:250
 msgctxt "Unsaved Screenshot"
 msgid "Unsaved[*]"
 msgstr "Ensin guardar[*]"
 
-#: src/Gui/KSMainWindow.cpp:265
+#: src/Gui/KSMainWindow.cpp:272
 #, kde-format
 msgid "There was a problem sharing the image: %1"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:269
+#: src/Gui/KSMainWindow.cpp:276
 #, kde-format
 msgid "You can find the shared image at: <a href=\"%1\">%1</a>"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:282
+#: src/Gui/KSMainWindow.cpp:289
 msgid "The screenshot has been copied to the clipboard."
 msgstr "La captura copióse al cartafueyu."
-
-#: src/Gui/KSSaveConfigDialog.cpp:38
-msgid "Default Save Directory"
-msgstr "Direutoriu de guardáu por defeutu"
-
-#: src/Gui/KSSaveConfigDialog.cpp:45
-msgid ""
-"Set the directory where you'd like to save your screenshots when you press "
-"<b>Save</b> or <b>Save & Exit</b>."
-msgstr ""
-"Afita'l direutoriu u te prestara guardar les tos captures al primi "
-"<b>Guardar</b> o <b>Guardar y colar</b>."
-
-#: src/Gui/KSSaveConfigDialog.cpp:50
-msgid "Location:"
-msgstr "Allugamientu:"
-
-#: src/Gui/KSSaveConfigDialog.cpp:63
-msgid "Default Save Filename"
-msgstr "Nomde de ficheru de guardáu por defeutu"
-
-#: src/Gui/KSSaveConfigDialog.cpp:69
-msgid ""
-"<p>Set a default filename for saved screenshots.</p><p>You can use the "
-"following placeholders in the filename, which will be replaced with actual "
-"text when the file is saved:</p><blockquote><b>%Y</b>: Year (4 digit)<br /"
-"><b>%y</b>: Year (2 digit)<br /><b>%M</b>: Month<br /><b>%D</b>: Day<br /><b>"
-"%H</b>: Hour<br /><b>%m</b>: Minute<br /><b>%S</b>: Second</"
-"blockquote><p>You don't need to enter a filetype extension. By default, "
-"screenshots are always saved as a <b>PNG (Portable Network Graphics)</b> "
-"image with a <b>.png</b> extension.</p><p>If a file with this name already "
-"exists, a serial number will be appended to the filename. For example, if "
-"the filename is \"Screenshot\", and \"Screenshot.png\" already exists, the "
-"image will be saved as \"Screenshot-1.png\".</p>"
-msgstr ""
-"<p>Afita un nome de ficheru por defeutu pa les captures guardaes.</p> "
-"<p>Pues usar el espaciu acutáu de darréu nel nome de ficheru que se trocará "
-"col testu actual al guardase'l ficheru:</p><blockquote><b>%Y</b>: Añu (4 "
-"díxitos)<br /><b>%y</b>: Añu (2 díxitos)<br /><b>%M</b>: Mes<br /><b>%D</b>: "
-"Día<br /><b>%H</b>: Hores<br /><b>%m</b>: Minutos<br /><b>%S</b>: Segundos</"
-"blockquote><p>Nun necesites introducir una triba d'estensión. Por defeutu, "
-"les captures guardaránse siempres como una imaxe <b>PNG</b> cola estensión "
-"<b>.png</b> .</p><p>Si yá esiste un ficheru con esti nome, apaecerá un "
-"númberu de serie venceyáu al nome de ficheru. Por exemplu, si'l nome de "
-"ficheru ye «Captura» y «Captura.png» yá esiste, la imaxe guardaráse como "
-"«Screenshot-1.png».</p>"
-
-#: src/Gui/KSSaveConfigDialog.cpp:99
-msgid "Filename:"
-msgstr "Nome de ficheru:"
 
 #: src/Gui/KSWidget.cpp:56
 msgid "<b>Capture Mode</b>"
@@ -250,10 +200,12 @@ msgid ""
 msgstr ""
 
 #: src/Gui/KSWidget.cpp:124
-msgid "Take New Screenshot"
+#, fuzzy
+#| msgid "Take New Screenshot"
+msgid "Take a New Screenshot"
 msgstr "Facer captura nueva"
 
-#: src/Gui/ScreenClipper.cpp:113
+#: src/Gui/ScreenClipper.cpp:118
 msgid ""
 "Click anywhere on the screen (including on this text) to start drawing a "
 "selection rectangle, or press Esc to quit"
@@ -261,13 +213,135 @@ msgstr ""
 "Primi per dayures de la pantalla (incluyendo nesti testu) pa entamar a "
 "dibuxar un rectángulu d'esbilla o primi Esc pa colar."
 
-#: src/Gui/ScreenClipper.cpp:155
+#: src/Gui/ScreenClipper.cpp:160
 msgid ""
 "To take the screenshot, double-click or press Enter. Right-click to reset "
 "the selection, or press Esc to quit."
 msgstr ""
 "Pa facer una captura, clic doblu o primi Enter. Clic drechu pa reaniciar la "
 "esbilla o primi Esc pa colar."
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:41
+msgid "Dynamic Save Button"
+msgstr ""
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:48
+msgid ""
+"The default behavior of the save button is to <b>Save & Exit</b>. Enable "
+"this option to change the save button to either <b>Save</b>, <b>Save As</b> "
+"or <b>Save & Exit</b>, according to the save action you perform, every time "
+"you save an image."
+msgstr ""
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:56
+msgid "Set save button action to last used save method"
+msgstr ""
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:67
+#, fuzzy
+#| msgid "Rectangular Region"
+msgid "Light Background For Rectangular Region"
+msgstr "Rexón rectangular"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:74
+msgid ""
+"Use a light background color to mask the cropped-out area in the rectangular "
+"region selector. This may make dark cursors easier to see."
+msgstr ""
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:80
+msgid "Use light background color"
+msgstr ""
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:91
+#, fuzzy
+#| msgid "Rectangular Region"
+msgid "Remember Rectangular Region"
+msgstr "Rexón rectangular"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:98
+msgid ""
+"By default, Spectacle does not show an initial selection when you take a "
+"screenshot of a rectangular region. Enable this option to remember the last "
+"selected region of the screen, and set it as the initial selection when you "
+"use the rectangular region selector the next time."
+msgstr ""
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:106
+#, fuzzy
+#| msgid "Rectangular Region"
+msgid "Remember rectangular region"
+msgstr "Rexón rectangular"
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:43
+msgid "Default Save Directory"
+msgstr "Direutoriu de guardáu por defeutu"
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:50
+msgid ""
+"Set the directory where you'd like to save your screenshots when you press "
+"<b>Save</b> or <b>Save & Exit</b>."
+msgstr ""
+"Afita'l direutoriu u te prestara guardar les tos captures al primi "
+"<b>Guardar</b> o <b>Guardar y colar</b>."
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:55
+msgid "Location:"
+msgstr "Allugamientu:"
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:67
+msgid "Default Save Filename"
+msgstr "Nomde de ficheru de guardáu por defeutu"
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:73
+msgid ""
+"<p>Set a default filename for saved screenshots.</p><p>You can use the "
+"following placeholders in the filename, which will be replaced with actual "
+"text when the file is saved:</p><blockquote><b>%Y</b>: Year (4 digit)<br /"
+"><b>%y</b>: Year (2 digit)<br /><b>%M</b>: Month<br /><b>%D</b>: Day<br /><b>"
+"%H</b>: Hour<br /><b>%m</b>: Minute<br /><b>%S</b>: Second</"
+"blockquote><p>You don't need to enter a filetype extension. By default, "
+"screenshots are always saved as a <b>PNG (Portable Network Graphics)</b> "
+"image with a <b>.png</b> extension.</p><p>If a file with this name already "
+"exists, a serial number will be appended to the filename. For example, if "
+"the filename is \"Screenshot\", and \"Screenshot.png\" already exists, the "
+"image will be saved as \"Screenshot-1.png\".</p>"
+msgstr ""
+"<p>Afita un nome de ficheru por defeutu pa les captures guardaes.</p> "
+"<p>Pues usar el espaciu acutáu de darréu nel nome de ficheru que se trocará "
+"col testu actual al guardase'l ficheru:</p><blockquote><b>%Y</b>: Añu (4 "
+"díxitos)<br /><b>%y</b>: Añu (2 díxitos)<br /><b>%M</b>: Mes<br /><b>%D</b>: "
+"Día<br /><b>%H</b>: Hores<br /><b>%m</b>: Minutos<br /><b>%S</b>: Segundos</"
+"blockquote><p>Nun necesites introducir una triba d'estensión. Por defeutu, "
+"les captures guardaránse siempres como una imaxe <b>PNG</b> cola estensión "
+"<b>.png</b> .</p><p>Si yá esiste un ficheru con esti nome, apaecerá un "
+"númberu de serie venceyáu al nome de ficheru. Por exemplu, si'l nome de "
+"ficheru ye «Captura» y «Captura.png» yá esiste, la imaxe guardaráse como "
+"«Screenshot-1.png».</p>"
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:103
+msgid "Filename:"
+msgstr "Nome de ficheru:"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:48
+msgid "General"
+msgstr ""
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:49
+msgid "General application preferences"
+msgstr ""
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:54
+#, fuzzy
+#| msgid "Configure Save Options"
+msgid "Save Options"
+msgstr "Configurar opciones de guardáu"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:55
+#, fuzzy
+#| msgid "Default Save Filename"
+msgid "Default save settings"
+msgstr "Nomde de ficheru de guardáu por defeutu"
 
 #: src/KipiInterface/KSGKipiImageCollectionSelector.cpp:35
 #, kde-format
