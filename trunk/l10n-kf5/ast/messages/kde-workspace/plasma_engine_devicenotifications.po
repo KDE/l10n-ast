@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-18 08:51+0000\n"
+"POT-Creation-Date: 2016-01-25 09:27+0000\n"
 "PO-Revision-Date: 2015-11-16 20:07+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -17,65 +17,59 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: ksolidnotify.cpp:116
-#, kde-format
-msgid "Could not mount the following device: %1"
-msgstr "Nun pudo montase'l preséu de darréu %1"
+#: ksolidnotify.cpp:156
+msgid "This device can now be safely removed."
+msgstr ""
 
-#: ksolidnotify.cpp:164
-#, kde-format
-msgid ""
-"Could not safely remove the following device: %1\n"
-"One or more files on this device are open within an application"
+#: ksolidnotify.cpp:163
+msgid "You are not authorized to mount this device."
 msgstr ""
 
 #: ksolidnotify.cpp:166
+msgctxt "Remove is less technical for unmount"
+msgid "You are not authorized to remove this device."
+msgstr ""
+
+#: ksolidnotify.cpp:169
+msgid "You are not authorized to eject this disc."
+msgstr ""
+
+#: ksolidnotify.cpp:176
+#, fuzzy
+#| msgid "Could not mount the following device: %1"
+msgid "Could not mount this device as it is busy."
+msgstr "Nun pudo montase'l preséu de darréu %1"
+
+#: ksolidnotify.cpp:206
+msgid "One or more files on this device are open within an application."
+msgstr ""
+
+#: ksolidnotify.cpp:208
 #, kde-format
-msgid ""
-"Could not safely remove the following device: %1\n"
-"One or more files on this device are opened in application \"%3\"\n"
-"Please close it and try again"
+msgid "One or more files on this device are opened in application \"%2\"."
 msgid_plural ""
-"Could not safely remove the following device: %1\n"
-"One or more files on this device are opened in following applications: %3\n"
-"Please close it and try again"
+"One or more files on this device are opened in following applications: %2."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ksolidnotify.cpp:168 ksolidnotify.cpp:211
+#: ksolidnotify.cpp:210
 msgctxt "separator in list of apps blocking device unmount"
 msgid ", "
 msgstr ""
 
-#: ksolidnotify.cpp:177
-#, kde-format
-msgctxt ""
-"The term \"remove\" here means \"physically disconnect the device from the "
-"computer\", whereas \"safely\" means \"without risk of data loss\""
-msgid "The following device can now be safely removed: %1"
-msgstr ""
+#: ksolidnotify.cpp:227
+#, fuzzy
+#| msgid "Could not mount the following device: %1"
+msgid "Could not mount this device."
+msgstr "Nun pudo montase'l preséu de darréu %1"
 
-#: ksolidnotify.cpp:207
-#, kde-format
-msgid ""
-"Could not eject the following device: %1\n"
-"One or more files on this device are open within an application"
-msgstr ""
+#: ksolidnotify.cpp:230
+#, fuzzy
+#| msgid "Could not mount the following device: %1"
+msgctxt "Remove is less technical for unmount"
+msgid "Could not remove this device."
+msgstr "Nun pudo montase'l preséu de darréu %1"
 
-#: ksolidnotify.cpp:209
-#, kde-format
-msgid ""
-"Could not eject the following device: %1\n"
-"One or more files on this device are opened in application \"%3\"\n"
-"Please close it and try again"
-msgid_plural ""
-"Could not eject the following device: %1\n"
-"One or more files on this device are opened in following applications: %3\n"
-"Please close it and try again"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ksolidnotify.cpp:220
-#, kde-format
-msgid "The following device can now be safely removed: %1"
+#: ksolidnotify.cpp:233
+msgid "Could not eject this disc."
 msgstr ""
