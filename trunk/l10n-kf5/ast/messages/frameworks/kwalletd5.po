@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kdebase-runtime\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-01-05 09:00+0000\n"
-"PO-Revision-Date: 2016-01-31 15:02+0100\n"
+"PO-Revision-Date: 2016-02-03 02:45+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
 "Language: ast\n"
@@ -144,15 +144,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, _allowOnce)
 #: kbetterthankdialogbase.ui:50
-#, fuzzy
 msgid "Allow &Once"
-msgstr "Permitir &Una Vegada"
+msgstr "Permitir &una vegada"
 
 #. i18n: ectx: property (text), widget (QPushButton, _allowAlways)
 #: kbetterthankdialogbase.ui:60
-#, fuzzy
 msgid "Allow &Always"
-msgstr "Permitir &Siempres"
+msgstr "Permitir &siempres"
 
 #. i18n: ectx: property (text), widget (QPushButton, _deny)
 #: kbetterthankdialogbase.ui:67
@@ -165,7 +163,7 @@ msgid "Deny &Forever"
 msgstr "Ñegar &dafechu"
 
 #: knewwalletdialog.cpp:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "KDE has requested to open the wallet. This is used to store sensitive "
 #| "data in a secure fashion. Please enter a password to use with this wallet "
@@ -175,13 +173,13 @@ msgid ""
 "to store sensitive data in a secure fashion. Please choose the new wallet's "
 "type below or click cancel to deny the application's request.</qt>"
 msgstr ""
-"KDE solicitó abrir la cartera.  Esto usaráse p'atroxar información "
-"importante d'un mou seguru. Introduza la contraseña d'esta cartera abaxo si "
-"quier abrilo, o calque «Encaboxar» si quier denegar la petición de "
-"l'aplicación."
+"<qt>KDE solicitó crear una cartera nueva nomada «<b>%1</b>». Esto úsase "
+"p'atroxar datos sensibles d'un mou seguru. Escueyi la triba de la cartera"
+" nueva "
+"embaxo o primi encaboxar pa ñegar la solicitú de l'aplicación, por favor.</qt>"
 
 #: knewwalletdialog.cpp:67
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. "
 #| "This is used to store sensitive data in a secure fashion. Please enter a "
@@ -193,10 +191,11 @@ msgid ""
 "Please choose the new wallet's type below or click cancel to deny the "
 "application's request.</qt>"
 msgstr ""
-"<qt>L'aplicación «<b>%1</b>» solicitó abrir la cartera de KDE. Esto úsase "
-"p'atroxar información importante d'un mou seguru. Introduza la contraseña "
-"d'esta cartera más abaxo si quier abrila, o encaboxe si quier torgar la "
-"petición de l'aplicación.</qt>"
+"<qt>L'aplicación «<b>%1</b>» solicitó crear una cartera nueva nomada «<b>%2<"
+"/b>». "
+"Esto úsase p'atroxar datos sensibles d'un mou seguru. Escueyi la triba "
+"de cartera nueva embaxo o primi encaboxar pa ñegar la solicitú de "
+"l'aplicación.</qt>"
 
 #: knewwalletdialog.cpp:129 knewwalletdialog.cpp:135 kwalletwizard.cpp:162
 #: kwalletwizard.cpp:166
@@ -210,6 +209,8 @@ msgid ""
 "Seems that your system has no keys suitable for encryption. Please set-up at "
 "least an encryption key, then try again."
 msgstr ""
+"Paez que'l to sistema nun tien claves afayadizes pal cifráu. Configura polo "
+"menos una ya inténtalo de nueves, por favor."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: knewwalletdialoggpg.ui:17
@@ -242,9 +243,8 @@ msgstr "ID de clave"
 #. i18n: ectx: property (comment), widget (KTitleWidget, ktitlewidget)
 #: knewwalletdialogintro.ui:17 kwalletwizardpageintro.ui:17
 #: migrationwizard1.ui:17 migrationwizard2.ui:17
-#, fuzzy
 msgid "The KDE Wallet System"
-msgstr "The KDE Wallet System"
+msgstr "El sistema de carteres de KDE"
 
 #. i18n: ectx: property (text), widget (QLabel, labelIntro)
 #: knewwalletdialogintro.ui:30
@@ -278,13 +278,13 @@ msgid "Use GPG encryption, for better protection"
 msgstr "Usar cifráu GPG pa una proteición meyor"
 
 #: kwalletd.cpp:614
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
 "password for this wallet below.</qt>"
 msgstr ""
-"<qt>KDE solicitó abrir la cartera «<b>%1</b>». Introduza la contraseña "
-"d'esta cartera más abaxo.</qt>"
+"<qt>KDE solicitó abrir la cartera «<b>%1</b>». Introduz la contraseña "
+"pa esta cartera embaxo, por favor.</qt>"
 
 #: kwalletd.cpp:621
 #, fuzzy, kde-format
@@ -299,15 +299,14 @@ msgstr ""
 #: kwalletd.cpp:632 kwalletd.cpp:776 kwalletd.cpp:894 kwalletd.cpp:1023
 #: kwalletd.cpp:1050 kwalletd.cpp:1064 kwalletd.cpp:1073 kwalletd.cpp:1620
 #: main.cpp:176 main.cpp:181 main.cpp:183
-#, fuzzy
 msgid "KDE Wallet Service"
-msgstr "Serviciu de cartera de KDE"
+msgstr "Serviciu de carteres de KDE"
 
 #: kwalletd.cpp:648
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<b>KDE</b> has requested to open a wallet (%1)."
 msgid "An application has requested to open a wallet (%1)."
-msgstr "<b>KDE</b> solicitó abrir una cartera (%1)."
+msgstr "Una aplicación solicitó abrir una cartera (%1)."
 
 #: kwalletd.cpp:655
 #, fuzzy
@@ -318,7 +317,7 @@ msgid "Switch there"
 msgstr "Camudar equí"
 
 #: kwalletd.cpp:659
-#, fuzzy, kde-format
+#, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "<b>%1</b> solicitó abrir una cartera (%2)."
 
@@ -386,9 +385,9 @@ msgstr ""
 "solicitú de l'aplicación.</qt>"
 
 #: kwalletd.cpp:896
-#, fuzzy, kde-format
+#, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
-msgstr "<qt>KDE solicitó acceder a la cartera «<b>%1</b>», yá abierta.</qt>"
+msgstr "<qt>KDE solicitó acceder a la cartera abierta «<b>%1</b>».</qt>"
 
 #: kwalletd.cpp:902
 #, fuzzy, kde-format
@@ -417,9 +416,10 @@ msgid ""
 msgstr ""
 
 #: kwalletd.cpp:1047
-#, fuzzy, kde-format
+#, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
-msgstr "<qt>Escueyi una nueva contraseña pa la cartera «<b>%1</b>».</qt>"
+msgstr ""
+"<qt>Escueyi una contraseña nueva pa la cartera «<b>%1</b>», por favor.</qt>"
 
 #: kwalletd.cpp:1062
 #, fuzzy
@@ -427,9 +427,8 @@ msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "Fallu al cifrar de nuevu la cartera. La contraseña nun camudó."
 
 #: kwalletd.cpp:1071
-#, fuzzy
 msgid "Error reopening the wallet. Data may be lost."
-msgstr "Fallu al reabrir la cartera. Los datos puen habese perdío."
+msgstr "Fallu reabriendo la cartera. Quiciabes se perdieren datos."
 
 #: kwalletd.cpp:1618
 #, fuzzy
@@ -441,22 +440,18 @@ msgstr ""
 "aplicación desbocada."
 
 #: kwalletwizard.cpp:52
-#, fuzzy
 msgid "KWallet"
 msgstr "KWallet"
 
 #: kwalletwizard.cpp:281
-#, fuzzy
 msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
-msgstr "<qt>La contraseña ta erma.  <b>(Avisu: esto ye inseguro)</b>.</qt>"
+msgstr "<qt>La contraseña ta balera.  <b>(ALVERTENCIA: INSEGURO)</b>.</qt>"
 
 #: kwalletwizard.cpp:283
-#, fuzzy
 msgid "Passwords match."
 msgstr "Les contraseñes concasen."
 
 #: kwalletwizard.cpp:286
-#, fuzzy
 msgid "Passwords do not match."
 msgstr "Les contraseñes nun concasen."
 
@@ -533,15 +528,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, _basic)
 #: kwalletwizardpageintro.ui:69
-#, fuzzy
 msgid "&Basic setup (recommended)"
-msgstr "Configuración &básica (encamiéntase)"
+msgstr "Configuración &básica (aconseyao)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, _advanced)
 #: kwalletwizardpageintro.ui:79
-#, fuzzy
 msgid "&Advanced setup"
-msgstr "Configuración &avanzao"
+msgstr "Configuración &avanzada"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #: kwalletwizardpageoptions.ui:16
@@ -594,9 +587,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, _useWallet)
 #: kwalletwizardpagepassword.ui:29 kwalletwizardpagepasswordgpg.ui:30
-#, fuzzy
 msgid "Yes, I wish to use the KDE wallet to store my personal information."
-msgstr "Sí, quiero usar la cartera KDE p'atroxar la mio información personal."
+msgstr ""
+"Sí, deseyo usar la cartera de KDE p'atroxar la mio información personal."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #: kwalletwizardpagepassword.ui:88 kwalletwizardpagepasswordgpg.ui:106
@@ -606,9 +599,8 @@ msgstr "Inxerte una nueva contraseña"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
 #: kwalletwizardpagepassword.ui:104 kwalletwizardpagepasswordgpg.ui:122
-#, fuzzy
 msgid "Verify password:"
-msgstr "Verifique la contraseña:"
+msgstr "Verificación de contraseña:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: kwalletwizardpagepasswordgpg.ui:17
@@ -641,7 +633,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, _groupBox)
 #: kwalletwizardpagepasswordgpg.ui:46
 msgid "What kind of encryption do you wish?"
-msgstr ""
+msgstr "¿Qué triba de cifráu deseyes?"
 
 #: main.cpp:180
 msgid "kwalletd"
@@ -685,7 +677,7 @@ msgstr "Interfaz D-Bus"
 
 #: migrationagent.cpp:175 migrationagent.cpp:189
 msgid "Cannot read old wallet list. Aborting."
-msgstr ""
+msgstr "Nun pue lleese'l llistáu vieyu de carteres. Albortando."
 
 #: migrationagent.cpp:185
 msgid "KDE Wallet Migration Agent"
@@ -694,16 +686,16 @@ msgstr "Axente de migración de carteres de KDE"
 #: migrationagent.cpp:192
 #, kde-format
 msgid "Migrating wallet: %1"
-msgstr ""
+msgstr "Migrando cartera: %1"
 
 #: migrationagent.cpp:193
 #, kde-format
 msgid "* Creating KF5 wallet: %1"
-msgstr ""
+msgstr "* Creando cartera de KF5: %1"
 
 #: migrationagent.cpp:205
 msgid "ERROR when attempting new wallet creation. Aborting."
-msgstr ""
+msgstr "FALLU intentando crear la cartera nueva. Albortando."
 
 #: migrationagent.cpp:211
 #, kde-format
@@ -717,12 +709,12 @@ msgstr ""
 
 #: migrationagent.cpp:216
 msgid "Cannot retrieve folder list. Aborting."
-msgstr ""
+msgstr "Nun pue recibise'l llistáu de carpetes. Albortando."
 
 #: migrationagent.cpp:219
 #, kde-format
 msgid "* Migrating folder %1"
-msgstr ""
+msgstr "* Migrando carpeta %1"
 
 #: migrationagent.cpp:223
 #, kde-format
@@ -737,7 +729,7 @@ msgstr ""
 #: migrationagent.cpp:233
 #, kde-format
 msgid "* SKIPPING entry %1 in folder %2 as it seems already migrated"
-msgstr ""
+msgstr "* SALTANDO la entrada %1 na carpeta %2 darréu que yá paez migrada"
 
 #: migrationagent.cpp:237
 #, kde-format
@@ -751,7 +743,7 @@ msgstr ""
 
 #: migrationagent.cpp:250
 msgid "DONE migrating wallet\n"
-msgstr ""
+msgstr "FÍXOSE la migración de la cartera\n"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: migrationwizard1.ui:29
@@ -764,11 +756,18 @@ msgid ""
 "Would you like them to be migrated to this new KWallet version? The "
 "operation will only take one minute to be performed.\n"
 msgstr ""
+"¡Norabona! El sistema deteutó que tas executando la cabera versión de "
+"KWallet, usando KDE Frameworks 5.\n"
+"\n"
+"Paez que tamién tienes carteres de KDE4 nel to sistema.\n"
+"\n"
+"¿Prestaríate migrales a esta versión nueva de KWallet? La operación "
+"namái tardará un minutu en facese.\n"
 
 #. i18n: ectx: property (text), widget (QRadioButton, _optionYes)
 #: migrationwizard1.ui:59
 msgid "&Yes, migrate my wallets now."
-msgstr ""
+msgstr "&Sí, migrar les mios carteres agora."
 
 #. i18n: ectx: property (text), widget (QRadioButton, _optionNo)
 #: migrationwizard1.ui:70
