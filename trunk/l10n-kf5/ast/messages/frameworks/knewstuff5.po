@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kdelibs4-1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2015-12-11 07:01+0000\n"
-"PO-Revision-Date: 2016-01-31 02:55+0100\n"
+"PO-Revision-Date: 2016-02-04 16:46+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
 "Language: ast_ES\n"
@@ -26,6 +26,8 @@ msgid ""
 "This item costs %1 %2.\n"
 "Do you want to buy it?"
 msgstr ""
+"Esti elementu cuesta %1 %2.\n"
+"¿Quies mercalu?"
 
 #: attica/atticaprovider.cpp:308
 #, kde-format
@@ -52,6 +54,7 @@ msgstr "Fallu de rede. (%1)"
 #: attica/atticaprovider.cpp:382
 msgid "Too many requests to server. Please try again in a few minutes."
 msgstr ""
+"Milenta solicitúes al sirvidor. Inténtalo de nueves nunos minutos, por favor."
 
 #: attica/atticaprovider.cpp:384
 #, kde-format
@@ -128,12 +131,12 @@ msgstr "Elementu non válidu."
 #: core/installation.cpp:182
 #, kde-format
 msgid "Download of item failed: no download URL for \"%1\"."
-msgstr ""
+msgstr "Falló la descarga del elementu: nun hai URL de descarga pa «%1»."
 
 #: core/installation.cpp:221
 #, kde-format
 msgid "Download of \"%1\" failed, error: %2"
-msgstr ""
+msgstr "Falló la descarga de «%1», fallu: %2"
 
 #: core/installation.cpp:230
 msgid ""
@@ -141,6 +144,9 @@ msgid ""
 "instead of the actual download. Would you like to open the site with a "
 "browser instead?"
 msgstr ""
+"El ficheru baxáu ye ún HTML. Esto indica un enllaz a un sitiu web "
+"en cuantes de la descarga actual. ¿Prestaríate abrir el sitiu con un "
+"restolador nel so llugar?"
 
 #: core/installation.cpp:230
 msgid "Possibly bad download link"
@@ -148,7 +154,7 @@ msgstr "Quiciabes l'enllaz tea mal"
 
 #: core/installation.cpp:233
 msgid "Downloaded file was a HTML file. Opened in browser."
-msgstr ""
+msgstr "El ficheru baxáu foi ún HTML. Abrióse nel restolador."
 
 #: core/installation.cpp:296
 #, kde-format
@@ -326,7 +332,7 @@ msgstr "Autor:"
 #. i18n: ectx: property (text), widget (QLabel, homepageLabel)
 #: downloadwidget.ui:391
 msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
-msgstr ""
+msgstr "<a href=\"http://opendesktop.org\">Paxina d'aniciu</a>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
@@ -361,7 +367,7 @@ msgstr "Más..."
 #: kmoretools/kmoretools.cpp:653
 msgctxt "@action:inmenu"
 msgid "Not installed:"
-msgstr ""
+msgstr "Nun ta instaláu:"
 
 #: kmoretools/kmoretools.cpp:689
 msgctxt "@action:inmenu"
@@ -371,12 +377,12 @@ msgstr "Configurar..."
 #: kmoretools/kmoretools_p.h:384
 msgctxt "@action:inmenu"
 msgid "Visit homepage"
-msgstr ""
+msgstr "Visitar páxina d'aniciu"
 
 #: kmoretools/kmoretools_p.h:391
 msgctxt "@action:inmenu"
 msgid "No further information available."
-msgstr ""
+msgstr "Nun hai más información disponible."
 
 #: kmoretools/kmoretoolsconfigdialog_p.cpp:187
 #, fuzzy
@@ -393,17 +399,17 @@ msgstr "&Configurar %1..."
 #: kmoretools/kmoretoolsmenufactory.cpp:183
 msgctxt "@action:inmenu"
 msgid "$GenericName - current folder"
-msgstr ""
+msgstr "$GenericName - carpeta actual"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:191
 msgctxt "@action:inmenu"
 msgid "$GenericName - current device"
-msgstr ""
+msgstr "$GenericName - preséu actual"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:206
 msgctxt "@action:inmenu"
 msgid "$GenericName - all devices"
-msgstr ""
+msgstr "$GenericName - tolos preseos"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
 #: kmoretools/ui/kmoretoolsconfigwidget.ui:25
@@ -469,16 +475,14 @@ msgstr "Detalles pa %1"
 
 #. i18n: ectx: property (text), widget (QLabel, priceLabel_2)
 #: ui/entrydetailsdialog.cpp:105 uploaddialog.ui:230
-#, fuzzy
 #| msgid "Changelog"
 msgid "Changelog:"
-msgstr "Rexistru de cambeos"
+msgstr "Rexistru de cambeos:"
 
 #: ui/entrydetailsdialog.cpp:111
-#, fuzzy
 msgctxt "A link to the description of this Get Hot New Stuff item"
 msgid "Homepage"
-msgstr "Páxina aniciu"
+msgstr "Páxina d'aniciu"
 
 #: ui/entrydetailsdialog.cpp:114
 #, fuzzy
@@ -492,14 +496,13 @@ msgstr "Fai una donación"
 msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
 msgid "Knowledgebase (no entries)"
 msgid_plural "Knowledgebase (%1 entries)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Base de conocencia (ensin entraes)"
+msgstr[1] "Base de conocencia (%1 entraes)"
 
 #: ui/entrydetailsdialog.cpp:121
-#, fuzzy
 msgctxt "Tooltip for a link in a dialog"
 msgid "Opens in a browser window"
-msgstr "Abre nuna ventana del navegador"
+msgstr "Abre nuna ventana del restolador"
 
 #: ui/itemsgridviewdelegate.cpp:101 ui/itemsviewdelegate.cpp:258
 #, fuzzy, kde-format
@@ -509,7 +512,7 @@ msgstr "Valoración: %1%"
 #: ui/itemsgridviewdelegate.cpp:152 ui/itemsgridviewdelegate.cpp:154
 #: ui/itemsgridviewdelegate.cpp:156 ui/itemsviewdelegate.cpp:218
 #: ui/itemsviewdelegate.cpp:220 ui/itemsviewdelegate.cpp:222
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
 msgstr "Por <i>%1</i>"
@@ -565,11 +568,11 @@ msgstr "Ver información del marcu"
 
 #: uploaddialog.cpp:184
 msgid "Fetching license data from server..."
-msgstr ""
+msgstr "Diendo en cata de los datos de llicencia dende'l sirvidor..."
 
 #: uploaddialog.cpp:191
 msgid "Fetching content data from server..."
-msgstr ""
+msgstr "Diendo en cata de los datos del conteníu dende'l sirvidor..."
 
 #: uploaddialog.cpp:266
 #, fuzzy
@@ -819,7 +822,7 @@ msgstr "Cargando vista preliminar"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: uploaddialog.ui:665
 msgid "Note: You can edit, update and delete your content on the website."
-msgstr ""
+msgstr "Nota: Pues editar, anovar y desaniciar el to conteníu nel sitiu web."
 
 #. i18n: ectx: property (text), widget (QLabel, uploadPreview2Label)
 #: uploaddialog.ui:681
@@ -842,6 +845,9 @@ msgid ""
 "trademark. I agree for my IP address to be logged. (Distributing content "
 "without the permission of the copyright holder is illegal.)"
 msgstr ""
+"Asegúrome qu'esti conteníu nun viola denguna llei, marca o copyright. "
+"Toi acordies pa que la mio IP se rexistre. (Distribuyir conteníu ensin el "
+"permisu del titular los drechos ye illegal.)"
 
 #. i18n: ectx: property (text), widget (QPushButton, uploadButton)
 #: uploaddialog.ui:764

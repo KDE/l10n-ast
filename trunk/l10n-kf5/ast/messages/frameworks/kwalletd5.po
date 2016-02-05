@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kdebase-runtime\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-01-05 09:00+0000\n"
-"PO-Revision-Date: 2016-02-03 02:45+0100\n"
+"PO-Revision-Date: 2016-02-05 03:10+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
 "Language: ast\n"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: backend/backendpersisthandler.cpp:633
 msgid "kwalletd GPG backend"
-msgstr ""
+msgstr "backend GPG de kwallet"
 
 #: backend/backendpersisthandler.cpp:677
 #, kde-format
@@ -182,10 +182,10 @@ msgid ""
 "Please choose the new wallet's type below or click cancel to deny the "
 "application's request.</qt>"
 msgstr ""
-"<qt>L'aplicación «<b>%1</b>» solicitó crear una cartera nueva nomada «<b>%2</"
-"b>». Esto úsase p'atroxar datos sensibles d'un mou seguru. Escueyi la triba "
-"de cartera nueva embaxo o primi encaboxar pa ñegar la solicitú de "
-"l'aplicación.</qt>"
+"<qt>L'aplicación «<b>%1</b>» solicitó crear una cartera nueva nomada "
+"«<b>%2</b>». Esto úsase p'atroxar datos sensibles d'un mou seguru. "
+"Escueyi la triba de cartera nueva embaxo o primi Encaboxar pa ñegar la "
+"solicitú de l'aplicación.</qt>"
 
 #: knewwalletdialog.cpp:129 knewwalletdialog.cpp:135 kwalletwizard.cpp:162
 #: kwalletwizard.cpp:166
@@ -238,7 +238,7 @@ msgstr "El sistema de carteres de KDE"
 
 #. i18n: ectx: property (text), widget (QLabel, labelIntro)
 #: knewwalletdialogintro.ui:30
-#, fuzzy, no-c-format, kde-format
+#, no-c-format, kde-format
 #| msgid ""
 #| "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. "
 #| "This is used to store sensitive data in a secure fashion. Please enter a "
@@ -250,10 +250,10 @@ msgid ""
 "data in a secure fashion. Please choose the new wallet's type below or click "
 "cancel to deny the application's request.</p></body></html>"
 msgstr ""
-"<qt>L'aplicación «<b>%1</b>» solicitó abrir la cartera de KDE. Esto úsase "
-"p'atroxar información importante d'un mou seguru. Introduza la contraseña "
-"d'esta cartera más abaxo si quier abrila, o encaboxe si quier torgar la "
-"petición de l'aplicación.</qt>"
+"<html><head/><body><p>L'aplicación «<span style=\" font-weight:600;\">%1</"
+"span>» solicitó abrir la cartera de KDE. Esto úsase p'atroxar datos sensibles "
+"d'un mou seguru. Escueyi la triba de la cartera nueva embaxo o primi "
+"Encaboxar pa ñegar la solicitú de l'aplicación.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, _radioBlowfish)
 #. i18n: ectx: property (text), widget (QRadioButton, radioBlowfish)
@@ -277,13 +277,13 @@ msgstr ""
 "esta cartera embaxo, por favor.</qt>"
 
 #: kwalletd.cpp:621
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
 "b>'. Please enter the password for this wallet below.</qt>"
 msgstr ""
 "<qt>L'aplicación <b>«%1</b>» solicitó abrir la cartera «<b>%2</b>». "
-"Introduza la contraseña d'esta cartera más abaxo.</qt>"
+"Introduz la contraseña d'esta cartera embaxo, por favor.</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
 #: kwalletd.cpp:632 kwalletd.cpp:776 kwalletd.cpp:894 kwalletd.cpp:1023
@@ -318,25 +318,24 @@ msgid "Switch to %1"
 msgstr "Camudar a %1"
 
 #: kwalletd.cpp:681 kwalletd.cpp:789
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
 "%2: %3)</qt>"
 msgstr ""
-"<qt>Fallu al abrir la cartera «<b>%1</b>». Téntelo otra vegada. <br />"
-"(Códigu d'error %2: %3)</qt>"
+"<qt>Fallu abriendo la cartera «<b>%1</b>». Inténtalo de nueves, por favor. <"
+"br />"
+"(Códigu de fallu %2: %3)</qt>"
 
 #: kwalletd.cpp:741
-#, fuzzy
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
 "in a secure fashion. Please enter a password to use with this wallet or "
 "click cancel to deny the application's request."
 msgstr ""
-"KDE solicitó abrir la cartera.  Esto usaráse p'atroxar información "
-"importante d'un mou seguru. Introduza la contraseña d'esta cartera abaxo si "
-"quier abrilo, o calque «Encaboxar» si quier denegar la petición de "
-"l'aplicación."
+"KDE solicitó abrir la cartera.  Esto úsase p'atroxar datos sensibles d'un "
+"mou seguru. Introduz una contraseña pa usar con esta cartera o primi "
+"Encaboxar pa ñegar la solicitú de l'aplicación."
 
 #: kwalletd.cpp:749
 #, fuzzy, kde-format
@@ -352,26 +351,26 @@ msgstr ""
 "petición de l'aplicación.</qt>"
 
 #: kwalletd.cpp:761
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
 "choose a password for this wallet, or cancel to deny the application's "
 "request.</qt>"
 msgstr ""
-"<qt>KDE solicitó crear una nueva cartera denomada «<b>%1</b>». Esbille una "
-"contraseña pa esta cartera, o calque «Encaboxar» pa torgar la solicitú de "
+"<qt>KDE solicitó crear una nueva cartera nomada «<b>%1</b>». Escueyi "
+"una contraseña pa esta cartera o encaboxa pa ñegar la solicitú de "
 "l'aplicación.</qt>"
 
 #: kwalletd.cpp:769
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
 "'<b>%2</b>'. Please choose a password for this wallet, or cancel to deny the "
 "application's request.</qt>"
 msgstr ""
-"<qt>L'aplicación «<b>%1</b>» solicitó crear una nueva cartera denomada «<b>"
-"%2</b>». Esbille una contraseña pa esta cartera, o encaboxe pa denegar la "
-"solicitú de l'aplicación.</qt>"
+"<qt>L'aplicación «<b>%1</b>» solicitó crear una nueva cartera nomada "
+"«<b>%2</b>». Escueyi una contraseña pa esta cartera o encaboxa pa ñegar "
+"la solicitú de l'aplicación.</qt>"
 
 #: kwalletd.cpp:896
 #, kde-format
@@ -388,13 +387,10 @@ msgstr ""
 "abierta.</qt>"
 
 #: kwalletd.cpp:1021
-#, fuzzy
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
-msgstr ""
-"Imposible abrir cartera. La cartera tien d'abrise pa poder camudar la "
-"contraseña."
+msgstr "Nun pue abrise la cartera. Tien d'abrise pa camudar la contraseña."
 
 #: kwalletd.cpp:1038
 #, kde-format
@@ -420,13 +416,12 @@ msgid "Error reopening the wallet. Data may be lost."
 msgstr "Fallu reabriendo la cartera. Quiciabes se perdieren datos."
 
 #: kwalletd.cpp:1618
-#, fuzzy
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
 "application may be misbehaving."
 msgstr ""
-"Fexéronse dellos intentos fallíos d'accesu a la cartera. Puede qu'heba una "
-"aplicación desbocada."
+"Hebo intentos fallíos repitíos pa ganar accesu a la carpeta. Quiciabes "
+"una aplicación tea comportándose mal."
 
 #: kwalletwizard.cpp:52
 msgid "KWallet"
@@ -503,17 +498,18 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: kwalletwizardpageintro.ui:30
-#, fuzzy
 msgid ""
 "Welcome to KWallet, the KDE Wallet System.  KWallet allows you to store your "
 "passwords and other personal information on disk in an encrypted file, "
 "preventing others from viewing the information.  This wizard will tell you "
 "about KWallet and help you configure it for the first time."
 msgstr ""
-"Bienveníu a KWallet, la cartera de KDE. KWallet te permite atroxar les tos "
-"contraseñes y otra información personal del discu nun ficheru cifráu, "
-"torgando que otros vean la información. Esti asistente va informate sobre "
-"KWallet y va ayudate a configuralu la primer vez."
+"Bienllegáu a KWallet, el sistema de carteres de KDE. KWallet permítete"
+" atroxar "
+"contraseñes y otres informaciones personales nel discu dientro d'un ficheru "
+"cifráu, evitando qu'otros vean la información. Esti encontu falaráte tocante"
+" a "
+"KWallet y ayudaráte a cofiguralu per primer vegada."
 
 #. i18n: ectx: property (text), widget (QRadioButton, _basic)
 #: kwalletwizardpageintro.ui:69
@@ -527,7 +523,6 @@ msgstr "Configuración &avanzada"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #: kwalletwizardpageoptions.ui:16
-#, fuzzy
 msgid ""
 "The KDE Wallet system allows you to control the level of security of your "
 "personal data.  Some of these settings do impact usability.  While the "
@@ -535,12 +530,11 @@ msgid ""
 "change some of them.  You may further tune these settings from the KWallet "
 "control module."
 msgstr ""
-"La cartera de KDE permíte-y remanar el nivel de seguridá de los sos datos "
-"personales. Dalgunes d'estes opciones de configuración puen tener impautu na "
-"usabilidá. Magar que les preferencies predefiníes son xeneralmente "
-"aceutables pa la mayor parte de los usuarios, puede que quiera modificar "
-"dalgunes d'ellas. Puede axustar estes preferencies dende'l módulu de control "
-"de KWallet."
+"El sistema de carteres de KDE permítete controlar el nivel de seguranza de "
+"los tos datos personales. Dellos d'estos axustes tienen impautu na usabilidá. "
+"Entrín los axustes por defeutu son xeneralmente aceutables pa la mayoría "
+"d'usuarios, quiciabes deseyes camudar dellos. Podríes afinar llueu estos "
+"axustes dende'l módulu de control de KWallet."
 
 #. i18n: ectx: property (text), widget (QCheckBox, _closeIdle)
 #: kwalletwizardpageoptions.ui:48
@@ -689,12 +683,12 @@ msgstr "FALLU intentando crear la cartera nueva. Albortando."
 #: migrationagent.cpp:211
 #, kde-format
 msgid "Cannot open KDE4 wallet named: %1"
-msgstr ""
+msgstr "Nun pue abrise la cartera de KDE4 nomada: %1"
 
 #: migrationagent.cpp:212
 #, kde-format
 msgid "* Opened KDE4 wallet: %1"
-msgstr ""
+msgstr "* Abrióse la cartera de KDE: %1"
 
 #: migrationagent.cpp:216
 msgid "Cannot retrieve folder list. Aborting."

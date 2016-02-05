@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio4-v1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-01-28 07:42+0000\n"
-"PO-Revision-Date: 2016-02-02 20:03+0100\n"
+"PO-Revision-Date: 2016-02-05 03:47+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
 "Language: ast_ES\n"
@@ -1237,7 +1237,7 @@ msgstr ""
 
 #: core/job_error.cpp:595
 msgid "Cyclic Link Detected During Copy"
-msgstr ""
+msgstr "Deteutóse enllaz cíclicu na copia"
 
 #: core/job_error.cpp:596
 msgid ""
@@ -1317,6 +1317,8 @@ msgid ""
 "A protocol error may have occurred, causing the server to close the "
 "connection as a response to the error."
 msgstr ""
+"Quiciabes asocediere un fallu del protocolu, causando que'l sirvidor "
+"zarrara la conexón como rempuesta al fallu."
 
 #: core/job_error.cpp:640
 msgid "URL Resource Invalid"
@@ -1424,6 +1426,9 @@ msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
 "opened, an error occurred while reading the contents of the resource."
 msgstr ""
+"Esto quier dicir qu'inda'l recursu <strong>%1</strong> fore a abrise,"
+" asocedió "
+"un fallu entrín se lleíen los conteníos del recursu."
 
 #: core/job_error.cpp:696
 msgid "You may not have permissions to read from the resource."
@@ -1439,6 +1444,9 @@ msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
 "opened, an error occurred while writing to the resource."
 msgstr ""
+"Esto quier dicir qu'inda'l recursu <strong>%1</strong> fore a abrise,"
+" asocedió "
+"un fallu entrín s'escribía nel recursu."
 
 #: core/job_error.cpp:713
 msgid "You may not have permissions to write to the resource."
@@ -1609,7 +1617,7 @@ msgstr ""
 
 #: core/job_error.cpp:859
 msgid "Unexpected Program Termination"
-msgstr ""
+msgstr "Fina inesperada del programa"
 
 #: core/job_error.cpp:860
 #, kde-format
@@ -1617,6 +1625,8 @@ msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has unexpectedly terminated."
 msgstr ""
+"Finó inesperadamente'l programa qu'apurre l'accesu al protocolu <strong>%1<"
+"/strong>."
 
 #: core/job_error.cpp:868
 msgid "Out of Memory"
@@ -1655,7 +1665,7 @@ msgstr ""
 #: core/job_error.cpp:891
 #, kde-format
 msgid "Authentication Failed: Method %1 Not Supported"
-msgstr ""
+msgstr "Falló l'autenticación: Nun se sofita'l métodu %1"
 
 #: core/job_error.cpp:893
 #, kde-format
@@ -1664,12 +1674,18 @@ msgid ""
 "authentication failed because the method that the server is using is not "
 "supported by the KDE program implementing the protocol %1."
 msgstr ""
+"Inda quiciabes apurrieres los detalles correutos d'autenticación, ésta falló "
+"porque'l métodu que'l sirvidor ta usando nun ta sofitáu pol programa de "
+"KDE qu'implementa'l protocolu %1."
 
 #: core/job_error.cpp:897
 msgid ""
 "Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</"
 "a> to inform the KDE team of the unsupported authentication method."
 msgstr ""
+"Rellena un informe de fallos en <a href=\"http://bugs.kde.org/\""
+">http://bugs.kde.org/</"
+"a> pa informar al equipu de KDE del métodu d'autenticación non sofitáu"
 
 #: core/job_error.cpp:903
 msgid "Request Aborted"
@@ -1685,6 +1701,8 @@ msgid ""
 "The program on the server which provides access to the <strong>%1</strong> "
 "protocol has reported an internal error: %2."
 msgstr ""
+"Informó d'un fallu internu'l programa qu'apurre l'accesu "
+"al protocolu <strong>%1</strong>: %2"
 
 #: core/job_error.cpp:914
 msgid ""
@@ -1694,13 +1712,15 @@ msgstr ""
 
 #: core/job_error.cpp:917
 msgid "Contact the administrator of the server to advise them of the problem."
-msgstr ""
+msgstr "Contauta col alministrador del sirvidor p'avisalu del problema."
 
 #: core/job_error.cpp:919
 msgid ""
 "If you know who the authors of the server software are, submit the bug "
 "report directly to them."
 msgstr ""
+"Si sabes quien son los autores del sirvidor, unvia l'informe de fallos "
+"direutamente a ellos."
 
 #: core/job_error.cpp:924
 msgid "Timeout Error"
@@ -1720,7 +1740,7 @@ msgstr ""
 
 #: core/job_error.cpp:936
 msgid "The server was too busy responding to other requests to respond."
-msgstr ""
+msgstr "El sirvidor ta perocupáu respondiendo a otres solicitúes."
 
 #: core/job_error.cpp:942 core/slavebase.cpp:1419
 msgid "Unknown Error"
@@ -1732,6 +1752,8 @@ msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an unknown error: %2."
 msgstr ""
+"Informó d'un fallu desconocíu'l programa qu'apurre l'accesu "
+"al protocolu <strong>%1</strong>: %2."
 
 #: core/job_error.cpp:951
 msgid "Unknown Interruption"
@@ -1801,7 +1823,7 @@ msgstr "Nun pudo crease l'enllaz simbólicu"
 #: core/job_error.cpp:1000
 #, kde-format
 msgid "The requested symbolic link %1 could not be created."
-msgstr ""
+msgstr "Nun pudo crease l'enllaz simbólicu solicitáu %1."
 
 #: core/job_error.cpp:1007
 msgid "No Content"
@@ -1850,10 +1872,12 @@ msgid ""
 "The operation could not be completed because the source and destination file "
 "or folder are the same."
 msgstr ""
+"Nun pudo completase la operación porque'l ficheru o carpeta destín son los "
+"mesmos."
 
 #: core/job_error.cpp:1032
 msgid "Drop the item into a different file or folder."
-msgstr ""
+msgstr "Suelta l'elementu nun ficheru o carpeta diferentes."
 
 #: core/job_error.cpp:1042
 msgid "Folder moved into itself"
@@ -1881,6 +1905,8 @@ msgid ""
 "Malformed URL\n"
 "%1"
 msgstr ""
+"URL mal formada\n"
+"%1"
 
 #: core/kcoredirlister.cpp:405
 #, kde-format
@@ -1904,7 +1930,7 @@ msgstr ""
 #: core/kfileitem.cpp:1241
 #, kde-format
 msgid " (Points to %1)"
-msgstr ""
+msgstr " (Apunta a %1)"
 
 #: core/klocalsocket_unix.cpp:192 core/klocalsocket_unix.cpp:260
 msgid "Specified socket path is invalid"
@@ -2159,7 +2185,7 @@ msgstr "Nun ta sofitada l'apertura de ficheros col protocolu %1."
 #: core/slavebase.cpp:800
 #, kde-format
 msgid "Protocol %1 does not support action %2."
-msgstr ""
+msgstr "El protocolu %1 nun sofita l'aición %2."
 
 #: core/slavebase.cpp:953
 msgid "&Yes"
@@ -2175,11 +2201,11 @@ msgstr "&Detalles"
 
 #: core/slaveinterface.cpp:412 core/tcpslavebase.cpp:829 widgets/sslui.cpp:114
 msgid "&Forever"
-msgstr ""
+msgstr "&Pa siempres"
 
 #: core/slaveinterface.cpp:416 core/tcpslavebase.cpp:816 widgets/sslui.cpp:79
 msgid "Co&ntinue"
-msgstr ""
+msgstr "Sigu&ir"
 
 #: core/slaveinterface.cpp:418 core/tcpslavebase.cpp:830 widgets/sslui.cpp:115
 msgid "&Current Session only"
@@ -2191,6 +2217,9 @@ msgid ""
 "encrypted.\n"
 "This means that a third party could observe your data in transit."
 msgstr ""
+"Tas a piques de colar del mou seguru. Yá nun se cifrará la tresmisión.\n"
+"Esto quier dicir qu'una tercera parte podría ver los tos datos en "
+"tránsitu."
 
 #: core/tcpslavebase.cpp:324 core/tcpslavebase.cpp:583
 msgid "Security Information"
@@ -2198,7 +2227,7 @@ msgstr "Información de seguranza"
 
 #: core/tcpslavebase.cpp:325
 msgid "C&ontinue Loading"
-msgstr ""
+msgstr "S&iguir cargando"
 
 #: core/tcpslavebase.cpp:423
 #, kde-format
@@ -2213,6 +2242,10 @@ msgid ""
 "This means that no third party will be able to easily observe your data in "
 "transit."
 msgstr ""
+"Tas a piques d'entrar nel mou seguru. Cifraránse toles tresmisiones a nun "
+"ser que s'indique lo contrario.\n"
+"Esto quier dicir que denguna tercera parte sedría a ver cenciellamente "
+"los tos datos en tránsitu."
 
 #: core/tcpslavebase.cpp:584
 msgid "Display SSL &Information"
@@ -2261,16 +2294,21 @@ msgid ""
 msgstr "¿Prestaríate aceutar esti certificáu dafechu ensin suxerítelo?"
 
 #: core/tcpslavebase.cpp:941
+#, fuzzy
 msgid ""
 "You have indicated that you wish to accept this certificate, but it is not "
 "issued to the server who is presenting it. Do you wish to continue loading?"
 msgstr ""
+"Indiquesti que deseyes aceutar esti certificáu, pero nun ta espedíu pol "
+"sirvidor web que ta "
 
 #: core/tcpslavebase.cpp:953
 msgid ""
 "SSL certificate is being rejected as requested. You can disable this in the "
 "KDE System Settings."
 msgstr ""
+"Ta refugándose'l certificáu SSL acordies colo pidío. Pues deshabilitar esto "
+"nos axustes del sistema de KDE."
 
 #: filewidgets/kdiroperator.cpp:761
 #, kde-format
@@ -2407,7 +2445,7 @@ msgstr "Propiedaes"
 
 #: filewidgets/kdiroperator.cpp:1976
 msgid "&View"
-msgstr ""
+msgstr "&ver"
 
 #: filewidgets/kencodingfiledialog.cpp:86
 msgid "Encoding:"
@@ -3060,12 +3098,12 @@ msgstr ""
 #: ioslaves/ftp/ftp.cpp:349
 #, kde-format
 msgid "Opening connection to host %1"
-msgstr ""
+msgstr "Abriendo conexón col agospiu %1"
 
 #: ioslaves/ftp/ftp.cpp:364
 #, kde-format
 msgid "Connected to host %1"
-msgstr ""
+msgstr "Coneutáu col agospiu %1"
 
 #: ioslaves/ftp/ftp.cpp:474
 #, kde-format
@@ -3074,7 +3112,7 @@ msgstr "%1 (Fallu %2)"
 
 #: ioslaves/ftp/ftp.cpp:504
 msgid "Sending login information"
-msgstr ""
+msgstr "Unviando información d'aniciu de sesión"
 
 #: ioslaves/ftp/ftp.cpp:562
 #, kde-format
@@ -3086,10 +3124,17 @@ msgid ""
 "%2\n"
 "\n"
 msgstr ""
+"Mensaxe unviáu:\n"
+"Aniciu de sesión usando'l nome d'usuariu=%1 y contraseña=[anubrida]\n"
+"\n"
+"El sirvidor respondió:\n"
+"%2\n"
+"\n"
 
 #: ioslaves/ftp/ftp.cpp:571 ioslaves/http/http.cpp:5369
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
+"Necesites apurrir un nome d'usuariu y una contraseña p'acceder a esti sitiu."
 
 #: ioslaves/ftp/ftp.cpp:573 ioslaves/http/http.cpp:5371
 msgid "Site:"
@@ -3152,7 +3197,7 @@ msgstr "Nun pudo analizase'l ficheru solicitáu:<br />%1"
 
 #: ioslaves/help/kio_help.cpp:259
 msgid "Saving to cache"
-msgstr ""
+msgstr "Guardando a la caché"
 
 #: ioslaves/help/kio_help.cpp:276
 msgid "Using cached version"
@@ -3160,7 +3205,7 @@ msgstr "Usando versión na caché"
 
 #: ioslaves/help/kio_help.cpp:338
 msgid "Looking up section"
-msgstr ""
+msgstr "Guetando seición"
 
 #: ioslaves/help/kio_help.cpp:349
 #, kde-format
@@ -3350,7 +3395,7 @@ msgstr ""
 #: ioslaves/http/http.cpp:3834 ioslaves/http/http.cpp:3894
 #, kde-format
 msgid "Sending data to %1"
-msgstr ""
+msgstr "Unviando datos a %1"
 
 #: ioslaves/http/http.cpp:4351
 #, kde-format
@@ -3390,7 +3435,7 @@ msgstr "Nun pudo crease'l direutoriu %1."
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:66
 msgid "Cookie Alert"
-msgstr ""
+msgstr "Alerta de cookies"
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:90
 #, kde-format
@@ -3402,7 +3447,11 @@ msgid_plural ""
 "<p>You received %1 cookies from<br/><b>%2%3</b><br/>Do you want to accept or "
 "reject these cookies?</p>"
 msgstr[0] ""
+"<p>Recibiesti una cookie de<br/><b>%2%3</b><br/>¿Quies aceutala o refugala?<"
+"/p>"
 msgstr[1] ""
+"<p>Recibiesti %1 cookies de<br/><b>%2%3</b><br/>¿Quies aceutales o"
+" refugales?</p>"
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:98
 msgctxt "@item:intext cross domain cookie"
@@ -3691,6 +3740,8 @@ msgid ""
 "The trash has reached its maximum size!\n"
 "Cleanup the trash manually."
 msgstr ""
+"¡La papelera algamó'l so tamañu máximu!\n"
+"Llímpiala a mano."
 
 #: kcms/kio/cache.cpp:108
 msgid ""
@@ -3784,7 +3835,7 @@ msgstr ""
 
 #: kcms/kio/kcookiesmain.cpp:55
 msgid "&Management"
-msgstr ""
+msgstr "&Xestión"
 
 #: kcms/kio/kcookiesmain.cpp:91
 msgid ""
@@ -3806,7 +3857,7 @@ msgstr ""
 
 #: kcms/kio/kcookiesmanagement.cpp:138 kcms/kio/kcookiesmanagement.cpp:154
 msgid "D-Bus Communication Error"
-msgstr ""
+msgstr "Fallu de comunicación de D-Bus"
 
 #: kcms/kio/kcookiesmanagement.cpp:139
 msgid "Unable to delete all the cookies as requested."
@@ -3818,16 +3869,18 @@ msgstr "Nun puen desaniciase les cookies solicitaes."
 
 #: kcms/kio/kcookiesmanagement.cpp:226
 msgid "<h1>Cookie Management Quick Help</h1>"
-msgstr ""
+msgstr "<h1>Ayuda rápida de xestión de ficheros</h1>"
 
 #: kcms/kio/kcookiesmanagement.cpp:236
 msgid "Information Lookup Failure"
-msgstr ""
+msgstr "Fallu de gueta d'información"
 
 #: kcms/kio/kcookiesmanagement.cpp:237
 msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
 msgstr ""
+"Nun pue recibise la información tocante a les cookies atroxaes nel to"
+" ordenador."
 
 #: kcms/kio/kcookiesmanagement.cpp:327
 msgid "End of session"
@@ -3875,12 +3928,12 @@ msgstr "Desaniciar &too"
 #. i18n: ectx: property (text), widget (QPushButton, configPolicyButton)
 #: kcms/kio/kcookiesmanagement.ui:70
 msgid "Configure &Policy..."
-msgstr ""
+msgstr "Configurar &política..."
 
 #. i18n: ectx: property (text), widget (QPushButton, reloadButton)
 #: kcms/kio/kcookiesmanagement.ui:77
 msgid "&Reload List"
-msgstr ""
+msgstr "&Recargar llistáu"
 
 #. i18n: ectx: property (text), widget (QLabel, secureLabel)
 #: kcms/kio/kcookiesmanagement.ui:221
@@ -3956,7 +4009,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbEnableCookies)
 #: kcms/kio/kcookiespolicies.ui:23
 msgid "Enable coo&kies"
-msgstr ""
+msgstr "Habilitar coo&kies"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRejectCrossDomainCookies)
 #: kcms/kio/kcookiespolicies.ui:35
@@ -3991,7 +4044,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbAutoAcceptSessionCookies)
 #: kcms/kio/kcookiespolicies.ui:49
 msgid "Automaticall&y accept session cookies"
-msgstr ""
+msgstr "Aceutar a&utomáticamente les cookies de les sesiones"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, bgDefault)
 #: kcms/kio/kcookiespolicies.ui:68
@@ -4026,12 +4079,12 @@ msgstr "Aceu&tar toles cookies"
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAcceptForSession)
 #: kcms/kio/kcookiespolicies.ui:84
 msgid "Accept &until end of session"
-msgstr ""
+msgstr "Aceutar &fasta la fin de sesión"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAsk)
 #: kcms/kio/kcookiespolicies.ui:91
 msgid "Ask &for confirmation"
-msgstr ""
+msgstr "Entrugar &pola confirmación"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyReject)
 #: kcms/kio/kcookiespolicies.ui:98
@@ -4242,7 +4295,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, autoDiscoverProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:49
 msgid "Detect proxy configuration automatically"
-msgstr ""
+msgstr "Deteutar la configuración del proxy automáticamente"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, autoScriptProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:59
@@ -4252,7 +4305,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, autoScriptProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:62
 msgid "Use proxy auto configuration URL:"
-msgstr ""
+msgstr "Usar URL d'auto-configuración de proxy:"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, proxyScriptUrlRequester)
 #: kcms/kio/kproxydlg.ui:93
@@ -4277,7 +4330,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, systemProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:120
 msgid "Use system proxy configuration:"
-msgstr ""
+msgstr "Usar configuración del proxy del sistema:"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, autoDetectButton)
 #: kcms/kio/kproxydlg.ui:127
@@ -4403,7 +4456,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showEnvValueCheckBox)
 #: kcms/kio/kproxydlg.ui:324
 msgid "Show the &value of the environment variables"
-msgstr ""
+msgstr "Amosar el &valor de les variables d'entornu"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, manualProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:343
@@ -4413,7 +4466,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, manualProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:346
 msgid "Use manually specified proxy configuration:"
-msgstr ""
+msgstr "Usar configuración del proxy especificada a mano:"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpEdit)
 #: kcms/kio/kproxydlg.ui:398
@@ -4437,7 +4490,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, useSameProxyCheckBox)
 #: kcms/kio/kproxydlg.ui:436
 msgid "Use this proxy server for a&ll protocols"
-msgstr ""
+msgstr "Usar esti sirvidor proxy pa to&los protocolos"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpsEdit)
 #: kcms/kio/kproxydlg.ui:464
@@ -4495,7 +4548,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, useReverseProxyCheckBox)
 #: kcms/kio/kproxydlg.ui:642
 msgid "Use proxy settings only for addresses in the Exceptions list"
-msgstr ""
+msgstr "Usar axustes del proxy namái pa direiciones nel llistáu d'esceiciones"
 
 #: kcms/kio/ksaveioconfig.cpp:222
 msgid ""
@@ -5491,7 +5544,7 @@ msgstr ""
 
 #: widgets/fileundomanager.cpp:710
 msgid "Undo File Copy Confirmation"
-msgstr ""
+msgstr "Confirmación de desfechura de copia de ficheros"
 
 #: widgets/jobuidelegate.cpp:228
 #, kde-format
@@ -6579,15 +6632,15 @@ msgstr "Namái llectura"
 
 #: widgets/kpropertiesdialog.cpp:2840
 msgid "File system:"
-msgstr ""
+msgstr "Sistema de ficheros:"
 
 #: widgets/kpropertiesdialog.cpp:2848
 msgid "Mount point (/mnt/floppy):"
-msgstr ""
+msgstr "Puntu montaxe (/mnt/floppy):"
 
 #: widgets/kpropertiesdialog.cpp:2849
 msgid "Mount point:"
-msgstr ""
+msgstr "Puntu montaxe:"
 
 #: widgets/kpropertiesdialog.cpp:3093
 msgid "&Application"
@@ -6600,12 +6653,14 @@ msgstr ""
 
 #: widgets/kpropertiesdialog.cpp:3220
 msgid "Select one or more file types to add:"
-msgstr ""
+msgstr "Esbilla ún o más tribes de ficheros p'amestar:"
 
 #: widgets/kpropertiesdialog.cpp:3281
 msgid ""
 "Could not save properties. Only entries on local file systems are supported."
 msgstr ""
+"Nun pudieron guardase les propiedaes. Namái tán sofitaes les entraes nel"
+" sistema de ficheros."
 
 #: widgets/kpropertiesdialog.cpp:3360
 msgid "Only executables on local file systems are supported."
@@ -6633,7 +6688,7 @@ msgstr ""
 #: widgets/krun.cpp:209
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
-msgstr ""
+msgstr "<qt>Nun tienes permisu pa executar <b>%1</b>.</qt>"
 
 #: widgets/krun.cpp:239
 msgid "You are not authorized to select an application to open this file."
@@ -6937,17 +6992,17 @@ msgstr "Destín"
 
 #: widgets/renamedialog.cpp:239
 msgid "Warning, the destination is more recent."
-msgstr "Alvertencia, el destión ye más recién."
+msgstr "Alvertencia, el destín ye más recién."
 
 #: widgets/renamedialog.cpp:270
 #, kde-format
 msgid "An older item named '%1' already exists."
-msgstr ""
+msgstr "Yá esiste un elementu más vieyu nomáu «%1»."
 
 #: widgets/renamedialog.cpp:272
 #, kde-format
 msgid "A similar file named '%1' already exists."
-msgstr ""
+msgstr "Yá esiste un ficheru nomáu «%1» paecíu."
 
 #: widgets/renamedialog.cpp:274
 #, kde-format
@@ -7008,7 +7063,7 @@ msgstr "Versión de SSL:"
 #. i18n: ectx: property (text), widget (QLabel, certSelectorTag)
 #: widgets/sslinfo.ui:134
 msgid "Certificate chain:"
-msgstr ""
+msgstr "Cadena del certificáu:"
 
 #. i18n: ectx: property (text), widget (QLabel, trustedTag)
 #: widgets/sslinfo.ui:163
@@ -7023,7 +7078,7 @@ msgstr "Periodu de validez:"
 #. i18n: ectx: property (text), widget (QLabel, serialTag)
 #: widgets/sslinfo.ui:203
 msgid "Serial number:"
-msgstr ""
+msgstr "Númberu serial:"
 
 #. i18n: ectx: property (text), widget (QLabel, digestTag)
 #: widgets/sslinfo.ui:223
@@ -7040,6 +7095,8 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+"L'agospiu remotu nun unvió certificáu SSL dalu.\n"
+"Albortando porque nun pue afitase la identida l'agospiu."
 
 #, fuzzy
 #~| msgid "1 Folder"
