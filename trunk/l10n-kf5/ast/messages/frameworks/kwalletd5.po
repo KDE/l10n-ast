@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kdebase-runtime\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-01-05 09:00+0000\n"
-"PO-Revision-Date: 2016-02-05 03:10+0100\n"
+"PO-Revision-Date: 2016-02-06 23:36+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
 "Language: ast\n"
@@ -306,7 +306,7 @@ msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "<b>%1</b> solicitó abrir una cartera (%2)."
 
 #: kwalletd.cpp:667
-#, fuzzy, kde-format
+#, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
@@ -332,7 +332,7 @@ msgstr ""
 "Encaboxar pa ñegar la solicitú de l'aplicación."
 
 #: kwalletd.cpp:749
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
 "is used to store sensitive data in a secure fashion. Please enter a password "
@@ -340,9 +340,9 @@ msgid ""
 "qt>"
 msgstr ""
 "<qt>L'aplicación «<b>%1</b>» solicitó abrir la cartera de KDE. Esto úsase "
-"p'atroxar información importante d'un mou seguru. Introduza la contraseña "
-"d'esta cartera más abaxo si quier abrila, o encaboxe si quier torgar la "
-"petición de l'aplicación.</qt>"
+"p'atroxar datos importantes d'un mou seguru. Introduz la contraseña "
+"pa usar con esta cartera o primi pa ñegar la solicitú de l'aplicación, por "
+"favor.</qt>"
 
 #: kwalletd.cpp:761
 #, kde-format
@@ -372,13 +372,13 @@ msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE solicitó acceder a la cartera abierta «<b>%1</b>».</qt>"
 
 #: kwalletd.cpp:902
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
 "%2</b>'.</qt>"
 msgstr ""
-"<qt>L'aplicación «<b>%1</b>» solicitó acceder a la cartera «<b>%2</b>», yá "
-"abierta.</qt>"
+"<qt>L'aplicación «<b>%1</b>» solicitó l'accesu a la cartera abierta «<b>%2</b"
+">»"
 
 #: kwalletd.cpp:1021
 msgid ""
@@ -401,9 +401,8 @@ msgstr ""
 "<qt>Escueyi una contraseña nueva pa la cartera «<b>%1</b>», por favor.</qt>"
 
 #: kwalletd.cpp:1062
-#, fuzzy
 msgid "Error re-encrypting the wallet. Password was not changed."
-msgstr "Fallu al cifrar de nuevu la cartera. La contraseña nun camudó."
+msgstr "Fallu al recifrar la cartera. La contraseña nun se camudó."
 
 #: kwalletd.cpp:1071
 msgid "Error reopening the wallet. Data may be lost."
@@ -435,7 +434,6 @@ msgstr "Les contraseñes nun concasen."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
 #: kwalletwizardpageexplanation.ui:17
-#, fuzzy
 #| msgid ""
 #| "The KDE Wallet system stores your data in a <i>wallet</i> file on your "
 #| "local hard disk.  The data is only written in encrypted form, presently "
@@ -454,13 +452,15 @@ msgid ""
 "your wallets. It even permits you to drag wallets and wallet contents, "
 "allowing you to easily copy a wallet to a remote system.</p></body></html>"
 msgstr ""
-"La cartera de KDE atroxa los sos datos nún ficheru <i>cartera</i> nel so "
-"discu duru llocal. Los datos tan cifraos usando l'algoritmu blowfish cola so "
-"contraseña como llave. Cuando s'abre una cartera, l'aplicación de xestión de "
-"la cartera llanzaráse y amosará un iconu na bandexa d'iconos. Puede usar "
-"esta aplicación p'alministrar les sos carteres. Inclusu-y dexa arrastrar "
-"carteres y el so conteníu, permitiéndo-y copiar cenciellamente una cartera a "
-"un sistema remotu."
+"<html><head/><body><p>El sistema de carteres de KDE atroxar los tos "
+"datos nun ficheru de <span style=\" font-style:italic;\">cartera</span> "
+"nel to discu duru. Los datos namái s'escriben nel mou de cifráu de la to "
+"escoyeta - l'algoritmu blowfish cola to contraseña como clave o usando "
+"una clave de cifráu GPG. Al abrise una cartera, llanciaráse l'aplicación "
+"de xestión de carteres y amosaráse un iconu na bandexa'l sistema. Pues "
+"usar esta aplicación pa xestionar toles tos carteres. Incluso déxate "
+"arrastrar les carteres y los conteníos de les cartetes, permitiéndote "
+"copiar cenciellamente una carpeta a un sistema remotu.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kwalletwizardpagegpgkey.ui:24
@@ -530,17 +530,15 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, _closeIdle)
 #: kwalletwizardpageoptions.ui:48
-#, fuzzy
 msgid "Automatically close idle wallets"
-msgstr "Zarrar automáticamente carteres ocioses"
+msgstr "Zarrar automáticamente carteres inactives"
 
 #. i18n: ectx: property (text), widget (QCheckBox, _networkWallet)
 #: kwalletwizardpageoptions.ui:55
-#, fuzzy
 msgid "Store network passwords and local passwords in separate wallet files"
 msgstr ""
-"Atroxar les contraseñes llocales en distintos ficheros de cartera que les "
-"contraseñes de rede"
+"Atroxar les contraseñes llocales y de rede en ficheros de cartera "
+"separtaos"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: kwalletwizardpagepassword.ui:16
@@ -568,9 +566,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #: kwalletwizardpagepassword.ui:88 kwalletwizardpagepasswordgpg.ui:106
-#, fuzzy
 msgid "Enter a new password:"
-msgstr "Inxerte una nueva contraseña"
+msgstr "Introduz una contraseña nueva:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
 #: kwalletwizardpagepassword.ui:104 kwalletwizardpagepasswordgpg.ui:122
