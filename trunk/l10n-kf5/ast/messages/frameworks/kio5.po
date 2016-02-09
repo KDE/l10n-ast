@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio4-v1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-02-08 10:25+0000\n"
-"PO-Revision-Date: 2016-02-07 18:50+0100\n"
+"PO-Revision-Date: 2016-02-08 23:56+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
 "Language: ast_ES\n"
@@ -1386,16 +1386,23 @@ msgid ""
 "systems, often system administrator privileges are required to initialize a "
 "device."
 msgstr ""
+"Quiciabes nun tengas permisos pa montar el preséu. Nos sistemes UNIX, "
+"davezu ríquense los privilexos d'alministrador del sistema pa montar un "
+"preséu."
 
 #: core/job_error.cpp:668
+#, fuzzy
 msgid ""
 "Check that the device is ready; removable drives must contain media, and "
 "portable devices must be connected and powered on.; and try again."
 msgstr ""
+"Comprueba que'l preséu tea tresnáu. Los preseos estrayible tien de "
+"contener medios y preseos portátiles tienen de coneutase y prendese. "
+"Inténtalo de nueves."
 
 #: core/job_error.cpp:674
 msgid "Unable to Uninitialize Input/Output Device"
-msgstr ""
+msgstr "Nun pue desmontase'l preséu d'entrada/salida"
 
 #: core/job_error.cpp:675
 msgid "Could Not Unmount Device"
@@ -1407,6 +1414,8 @@ msgid ""
 "The requested device could not be uninitialized (\"unmounted\"). The "
 "reported error was: <strong>%1</strong>"
 msgstr ""
+"Nun pudo desmotáse'l preséu solicitáu. El fallu informáu foi: <strong>%1<"
+"/strong>"
 
 #: core/job_error.cpp:679
 msgid ""
@@ -1414,6 +1423,9 @@ msgid ""
 "user. Even such things as having an open browser window on a location on "
 "this device may cause the device to remain in use."
 msgstr ""
+"Quiciabes tea ocupáu'l preséu, esto ye, entá n'usu por otra aplicación o "
+"usuariu. Incluso coses como tener abierta una ventana del restolador nun "
+"allugamientu nesti preséu podríen causar que'l preséu tea entá n'usu."
 
 #: core/job_error.cpp:683
 msgid ""
@@ -1421,6 +1433,9 @@ msgid ""
 "UNIX systems, system administrator privileges are often required to "
 "uninitialize a device."
 msgstr ""
+"Quiciabes nun tengas permisos pa desmontar el preséu. Nos sistemes "
+"UNIX, davezu ríquense los privilexos d'alministrador del sistema "
+"pa desmontar un preséu."
 
 #: core/job_error.cpp:687
 msgid "Check that no applications are accessing the device, and try again."
@@ -1503,6 +1518,7 @@ msgstr "Nun pudo aniciase sesión: %1"
 msgid ""
 "An attempt to login to perform the requested operation was unsuccessful."
 msgstr ""
+"Nun tuvo ésitu un intentu d'aniciar sesión pa facer la operación solicitada."
 
 #: core/job_error.cpp:770
 msgid "Could Not Determine Resource Status"
@@ -1541,7 +1557,7 @@ msgstr "Falló un intentu de crear la carpeta solicitada."
 
 #: core/job_error.cpp:790
 msgid "The location where the folder was to be created may not exist."
-msgstr ""
+msgstr "Quiciabes nun esista l'allugamientu u se creó la carpeta."
 
 #: core/job_error.cpp:799
 msgid "Could Not Remove Folder"
@@ -1592,6 +1608,7 @@ msgstr "Nun pudo renomase'l recursu"
 #, kde-format
 msgid "An attempt to rename the specified resource <strong>%1</strong> failed."
 msgstr ""
+"Falló un intentu pa renomar el recursu especificáu <strong>%1</strong>."
 
 #: core/job_error.cpp:835
 msgid "Could Not Alter Permissions of Resource"
@@ -1603,6 +1620,8 @@ msgid ""
 "An attempt to alter the permissions on the specified resource <strong>%1</"
 "strong> failed."
 msgstr ""
+"Falló un intentu d'alteriar los permisos del recursu especificáu <strong>%1<"
+"/strong>."
 
 #: core/job_error.cpp:843
 msgid "Could Not Change Ownership of Resource"
@@ -1623,6 +1642,7 @@ msgstr "Nun pudo desaniciase'l recursu"
 #, kde-format
 msgid "An attempt to delete the specified resource <strong>%1</strong> failed."
 msgstr ""
+"Falló un intentu de desaniciar el recursu especificáu <strong>%1</strong>."
 
 #: core/job_error.cpp:859
 msgid "Unexpected Program Termination"
@@ -1669,10 +1689,13 @@ msgid ""
 "your proxy's hostname. If you have been accessing the Internet with no "
 "problems recently, this is unlikely."
 msgstr ""
+"Quiciabes heba un problema cola to configuración de rede, específicamente'l "
+"to nome d'agospiu del proxy. Si tuviesti accediendo a internet apocayá ensin "
+"problemes, esto ye improbable."
 
 #: core/job_error.cpp:886
 msgid "Double-check your proxy settings and try again."
-msgstr ""
+msgstr "Comprueba de nueves los axustes del proxy ya inténtalo de nueves."
 
 #: core/job_error.cpp:891
 #, kde-format
@@ -1861,7 +1884,7 @@ msgstr ""
 
 #: core/job_error.cpp:1022
 msgid "Source and Destination Files Identical"
-msgstr ""
+msgstr "Los ficheros fonte y destín son idénticos"
 
 #: core/job_error.cpp:1023
 msgid ""
@@ -2057,12 +2080,12 @@ msgstr ""
 #: core/ktcpsocket.cpp:208
 msgctxt "SSL error"
 msgid "The certificate does not apply to the given host"
-msgstr ""
+msgstr "Nun s'aplica'l certificáu al agospiu dau"
 
 #: core/ktcpsocket.cpp:210
 msgctxt "SSL error"
 msgid "The certificate cannot be verified for internal reasons"
-msgstr ""
+msgstr "Nun pue verificase'l certificáu por razones internes"
 
 #: core/ktcpsocket.cpp:212
 msgctxt "SSL error"
@@ -2144,14 +2167,14 @@ msgid "Retrieving mime type information from %1 is not supported."
 msgstr ""
 
 #: core/slavebase.cpp:780
-#, kde-format
+#, fuzzy, kde-format
 msgid "Renaming or moving files within %1 is not supported."
-msgstr ""
+msgstr "Nun ta sofitao'l renomar o mover ficheros dientro de %1."
 
 #: core/slavebase.cpp:782
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
-msgstr ""
+msgstr "Nun ta sofitada la creación d'enllaces simbólicos col protocolu %1."
 
 #: core/slavebase.cpp:784
 #, kde-format
@@ -2244,7 +2267,7 @@ msgstr "S&iguir cargando"
 #, kde-format
 msgctxt "%1 is a host name"
 msgid "%1: SSL negotiation failed"
-msgstr ""
+msgstr "%1: Falló la negociación de SSL"
 
 #: core/tcpslavebase.cpp:577
 msgid ""
@@ -2292,6 +2315,8 @@ msgid ""
 "The server failed the authenticity check (%1).\n"
 "\n"
 msgstr ""
+"El sirvidor falló la comprobación d'autenticidá (%1).\n"
+"\n"
 
 #: core/tcpslavebase.cpp:815 core/tcpslavebase.cpp:828
 #: core/tcpslavebase.cpp:942 core/tcpslavebase.cpp:954 widgets/sslui.cpp:77
@@ -5107,6 +5132,8 @@ msgid ""
 "The proxy configuration script is invalid:\n"
 "%1"
 msgstr ""
+"Nun ye válidu'l script de configuración del proxy:\n"
+"%1"
 
 #: kpac/proxyscout.cpp:353
 #, kde-format
@@ -5114,6 +5141,8 @@ msgid ""
 "The proxy configuration script returned an error:\n"
 "%1"
 msgstr ""
+"Devolvió un fallu'l proxy de configuración:\n"
+"%1"
 
 #: kpac/script.cpp:752
 msgid "Could not find 'FindProxyForURL' or 'FindProxyForURLEx'"
@@ -5431,7 +5460,7 @@ msgstr ""
 #: urifilters/shorturi/kshorturifilter.cpp:281
 #, kde-format
 msgid "<qt><b>%1</b> does not have a home folder.</qt>"
-msgstr ""
+msgstr "<qt><b>%1</b> nun tien una carpeta home.</qt>"
 
 #: urifilters/shorturi/kshorturifilter.cpp:283
 #, kde-format
@@ -5952,7 +5981,7 @@ msgstr ""
 #: widgets/kopenwithdialog.cpp:881
 #, kde-format
 msgid "'%1' not found, please type a valid program name."
-msgstr ""
+msgstr "«%1» nun s'alcontró, por favor teclexa un nome de programa válidu."
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2)
 #: widgets/kpropertiesdesktopadvbase.ui:11
@@ -5978,7 +6007,7 @@ msgstr "Executa&r na terminal"
 #. i18n: ectx: property (text), widget (QLabel, terminalEditLabel)
 #: widgets/kpropertiesdesktopadvbase.ui:43
 msgid "&Terminal options:"
-msgstr ""
+msgstr "&Opciones de termial:"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCloseCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:53
@@ -6013,7 +6042,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, suidCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:78
 msgid "Ru&n as a different user"
-msgstr ""
+msgstr "Executar como usuariu &diferente"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, suidEditLabel)
 #: widgets/kpropertiesdesktopadvbase.ui:101
@@ -6060,12 +6089,12 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, systrayCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:143
 msgid "&Place in system tray"
-msgstr ""
+msgstr "&Asitiar na bandexa'l sistema"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel12)
 #: widgets/kpropertiesdesktopadvbase.ui:150
 msgid "&D-Bus registration:"
-msgstr ""
+msgstr "Rexistru &D-Bus:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
 #: widgets/kpropertiesdesktopadvbase.ui:161
@@ -6075,12 +6104,12 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
 #: widgets/kpropertiesdesktopadvbase.ui:166
 msgid "Multiple Instances"
-msgstr ""
+msgstr "Instáncies múltiples"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
 #: widgets/kpropertiesdesktopadvbase.ui:171
 msgid "Single Instance"
-msgstr ""
+msgstr "Una instancia"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
 #: widgets/kpropertiesdesktopadvbase.ui:176
@@ -6104,6 +6133,8 @@ msgid ""
 "Type the description of this application, based on its use, here. Examples: "
 "a dial up application (KPPP) would be \"Dial up tool\"."
 msgstr ""
+"Teclexa equí la descripción d'esta aplicación basándose nel so usu. "
+"Exemplos: una aplicación de marcáu (KPPP) sedría «Ferramienta de marcáu»."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: widgets/kpropertiesdesktopbase.ui:37
@@ -6368,7 +6399,7 @@ msgstr "Calculando..."
 #: widgets/kpropertiesdialog.cpp:1320
 #, kde-format
 msgid "At least %1"
-msgstr ""
+msgstr "Polo menos %1"
 
 #: widgets/kpropertiesdialog.cpp:1358
 msgid "The new file name is empty."
@@ -6381,6 +6412,8 @@ msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
 "<b>%1</b>.</qt>"
 msgstr ""
+"<qt>Nun pudieron guardase les propiedaes. Nun tienes abondos permisos "
+"pa escribir en <b>%1</b>.</qt>"
 
 #: widgets/kpropertiesdialog.cpp:1617 widgets/kpropertiesdialog.cpp:1623
 #: widgets/kpropertiesdialog.cpp:1630
@@ -6727,6 +6760,8 @@ msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
 "You do not have access rights to this location.</qt>"
 msgstr ""
+"<qt>Nun pue entrase en <b>%1</b>.\n"
+"Nun tienes los drechos d'accesu pa esti allugamientu.</qt>"
 
 #: widgets/krun.cpp:203
 #, kde-format
@@ -6791,6 +6826,8 @@ msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
 "not exist.</qt>"
 msgstr ""
+"<qt>Nun pue executase'l comandu especificáu. Nun esiste'l ficheru o carpeta "
+"<b>%1</b>.</qt>"
 
 #: widgets/krun.cpp:1536
 #, kde-format
@@ -6827,10 +6864,12 @@ msgstr "Nun ta disponible'l sofitu SSL nesta construcción de KDE."
 msgid ""
 "The main part of this document is secured with SSL, but some parts are not."
 msgstr ""
+"La parte principal del documentu ta asegurada con SSL pero delles otres non."
 
 #: widgets/ksslinfodialog.cpp:129
 msgid "Some of this document is secured with SSL, but the main part is not."
 msgstr ""
+"Delles partes d'esti comuentu tán aseguraes con SSL pero la principal non."
 
 #: widgets/ksslinfodialog.cpp:179
 #, kde-format
@@ -6843,16 +6882,16 @@ msgstr "%1, %2 %3"
 msgctxt "Part of: %1, using %2 bits of a %3 bit key"
 msgid "using %1 bit"
 msgid_plural "using %1 bits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "usando %1 bit"
+msgstr[1] "usando %1 bits"
 
 #: widgets/ksslinfodialog.cpp:183
 #, kde-format
 msgctxt "Part of: %1, using %2 bits of a %3 bit key"
 msgid "of a %1 bit key"
 msgid_plural "of a %1 bit key"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "d'una clave d'un bit"
+msgstr[1] "d'una clave de %1 bits"
 
 #: widgets/ksslinfodialog.cpp:199
 msgctxt "The certificate is not trusted"
@@ -6883,7 +6922,7 @@ msgstr "%1"
 
 #: widgets/kurifiltersearchprovideractions.cpp:108
 msgid "Configure Web Shortcuts..."
-msgstr ""
+msgstr "Confirgurar atayos web..."
 
 #: widgets/kurlrequester.cpp:322
 msgid "Open file dialog"
