@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-22 07:35+0000\n"
+"POT-Creation-Date: 2016-02-09 08:30+0000\n"
 "PO-Revision-Date: 2016-02-02 12:23+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -196,12 +196,12 @@ msgid "Consumed"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (ChartWidget, allocationsTab)
-#: gui/mainwindow.ui:251 gui/treemodel.cpp:81
+#: gui/mainwindow.ui:251 gui/treemodel.cpp:87
 msgid "Allocations"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (ChartWidget, allocatedTab)
-#: gui/mainwindow.ui:261 gui/treemodel.cpp:89
+#: gui/mainwindow.ui:261 gui/treemodel.cpp:95
 msgid "Allocated"
 msgstr ""
 
@@ -308,109 +308,109 @@ msgstr ""
 msgid "building charts..."
 msgstr ""
 
-#: gui/treemodel.cpp:73
+#: gui/treemodel.cpp:79
 msgid "File"
 msgstr ""
 
-#: gui/treemodel.cpp:75
+#: gui/treemodel.cpp:81
 msgid "Line"
 msgstr ""
 
-#: gui/treemodel.cpp:77
+#: gui/treemodel.cpp:83
 msgid "Function"
 msgstr ""
 
-#: gui/treemodel.cpp:79
+#: gui/treemodel.cpp:85
 msgid "Module"
 msgstr ""
 
-#: gui/treemodel.cpp:83
+#: gui/treemodel.cpp:89
 msgid "Temporary"
 msgstr ""
 
-#: gui/treemodel.cpp:85
+#: gui/treemodel.cpp:91
 msgid "Peak"
 msgstr ""
 
-#: gui/treemodel.cpp:87
+#: gui/treemodel.cpp:93
 msgid "Leaked"
 msgstr ""
 
-#: gui/treemodel.cpp:91
+#: gui/treemodel.cpp:97
 msgid "Location"
 msgstr ""
 
-#: gui/treemodel.cpp:98
+#: gui/treemodel.cpp:104
 msgid ""
 "<qt>The file where the allocation function was called from. May be empty "
 "when debug information is missing.</qt>"
 msgstr ""
 
-#: gui/treemodel.cpp:101
+#: gui/treemodel.cpp:107
 msgid ""
 "<qt>The line number where the allocation function was called from. May be "
 "empty when debug information is missing.</qt>"
 msgstr ""
 
-#: gui/treemodel.cpp:104
+#: gui/treemodel.cpp:110
 msgid ""
 "<qt>The parent function that called an allocation function. May be unknown "
 "when debug information is missing.</qt>"
 msgstr ""
 
-#: gui/treemodel.cpp:107
+#: gui/treemodel.cpp:113
 msgid ""
 "<qt>The module, i.e. executable or shared library, from which an allocation "
 "function was called.</qt>"
 msgstr ""
 
-#: gui/treemodel.cpp:109
+#: gui/treemodel.cpp:115
 msgid ""
 "<qt>The number of times an allocation function was called from this location."
 "</qt>"
 msgstr ""
 
-#: gui/treemodel.cpp:111
+#: gui/treemodel.cpp:117
 msgid ""
 "<qt>The number of temporary allocations. These allocations are directly "
 "followed by a free without any other allocations in-between.</qt>"
 msgstr ""
 
-#: gui/treemodel.cpp:113
+#: gui/treemodel.cpp:119
 msgid ""
 "<qt>The maximum heap memory in bytes consumed from allocations originating "
 "at this location. This takes deallocations into account.</qt>"
 msgstr ""
 
-#: gui/treemodel.cpp:116
+#: gui/treemodel.cpp:122
 msgid ""
 "<qt>The bytes allocated at this location that have not been deallocated.</qt>"
 msgstr ""
 
-#: gui/treemodel.cpp:118
+#: gui/treemodel.cpp:124
 msgid ""
 "<qt>The sum of all bytes allocated from this location, ignoring "
 "deallocations.</qt>"
 msgstr ""
 
-#: gui/treemodel.cpp:120
+#: gui/treemodel.cpp:126
 msgid ""
 "<qt>The location from which an allocation function was called. Function "
 "symbol and file information may be unknown when debug information was "
 "missing when heaptrack was run.</qt>"
 msgstr ""
 
-#: gui/treemodel.cpp:170
+#: gui/treemodel.cpp:175
 #, kde-format
 msgid "%1 in ?? (%2)"
 msgstr ""
 
-#: gui/treemodel.cpp:173
+#: gui/treemodel.cpp:178
 #, kde-format
 msgid "%1 in %2:%3 (%4)"
 msgstr ""
 
-#: gui/treemodel.cpp:184 gui/treemodel.cpp:199
+#: gui/treemodel.cpp:189 gui/treemodel.cpp:204
 #, kde-format
 msgctxt "1: function, 2: file, 3: line, 4: module"
 msgid ""
@@ -419,17 +419,17 @@ msgid ""
 "  in %4"
 msgstr ""
 
-#: gui/treemodel.cpp:188
+#: gui/treemodel.cpp:193
 #, kde-format
 msgid ""
 "allocated %1 over %2 calls (%3 temporary, i.e. %4%), peak at %5, leaked %6"
 msgstr ""
 
-#: gui/treemodel.cpp:194
+#: gui/treemodel.cpp:199
 msgid "backtrace:"
 msgstr ""
 
-#: gui/treemodel.cpp:205
+#: gui/treemodel.cpp:210
 #, kde-format
 msgid "called from one location"
 msgid_plural "called from %1 locations"

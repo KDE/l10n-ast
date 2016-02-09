@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-10 08:41+0000\n"
+"POT-Creation-Date: 2016-02-09 08:46+0000\n"
 "PO-Revision-Date: 2016-01-31 01:20+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -615,7 +615,7 @@ msgstr "¿Cargar los axustes por defeutu pa tolos ficheros?"
 msgid "Unable to find directory for configuration files."
 msgstr "Nun pue alcontrase'l direutoriu pa los ficheros de configuración."
 
-#: src/kcmsystemd.cpp:491 src/kcmsystemd.cpp:866 src/kcmsystemd.cpp:1364
+#: src/kcmsystemd.cpp:491 src/kcmsystemd.cpp:875 src/kcmsystemd.cpp:1373
 #, kde-format
 msgid "Unable to authenticate/execute the action: %1"
 msgstr "Nun pue autenticase/executase l'aición: %1"
@@ -625,131 +625,158 @@ msgstr "Nun pue autenticase/executase l'aición: %1"
 msgid "Configuration files successfully written to: %1"
 msgstr "Escribiéronse con ésitu los ficheros de configuración en: %1"
 
-#: src/kcmsystemd.cpp:834 src/kcmsystemd.cpp:838
-#, kde-format
-msgid "Total: %1 units, %2 active, %3 displayed"
-msgstr "Total: %1 unidaes, %2 actives, %3 amosaes"
+#: src/kcmsystemd.cpp:835 src/kcmsystemd.cpp:844
+#, fuzzy, kde-format
+#| msgid "S&top unit"
+msgctxt "First part of 'Total: %1, %2, %3'"
+msgid "1 unit"
+msgid_plural "%1 units"
+msgstr[0] "&Parar unidá"
+msgstr[1] "&Parar unidá"
 
-#: src/kcmsystemd.cpp:903
+#: src/kcmsystemd.cpp:837 src/kcmsystemd.cpp:846
+#, fuzzy, kde-format
+#| msgid "Show inactive"
+msgctxt "Second part of 'Total: %1, %2, %3'"
+msgid "1 active"
+msgid_plural "%1 active"
+msgstr[0] "Amosar inactivos"
+msgstr[1] "Amosar inactivos"
+
+#: src/kcmsystemd.cpp:839 src/kcmsystemd.cpp:848
+#, kde-format
+msgctxt "Third part of 'Total: %1, %2, %3'"
+msgid "1 displayed"
+msgid_plural "%1 displayed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/kcmsystemd.cpp:841 src/kcmsystemd.cpp:850
+#, kde-format
+msgctxt "%1 is '%1 units' and %2 is '%2 active' and %3 is '%3 displayed'"
+msgid "Total: %1, %2, %3"
+msgstr ""
+
+#: src/kcmsystemd.cpp:912
 msgid "&Start unit"
 msgstr "&Aniciar unidá"
 
-#: src/kcmsystemd.cpp:904
+#: src/kcmsystemd.cpp:913
 msgid "S&top unit"
 msgstr "&Parar unidá"
 
-#: src/kcmsystemd.cpp:905
+#: src/kcmsystemd.cpp:914
 msgid "&Restart unit"
 msgstr "&Reaniciar unidá"
 
-#: src/kcmsystemd.cpp:906
+#: src/kcmsystemd.cpp:915
 msgid "Re&load unit"
 msgstr "&Recargar unidá"
 
-#: src/kcmsystemd.cpp:908
+#: src/kcmsystemd.cpp:917
 msgid "&Edit unit file"
 msgstr "&Editar ficheru d'unidá"
 
-#: src/kcmsystemd.cpp:909
+#: src/kcmsystemd.cpp:918
 msgid "&Isolate unit"
 msgstr "A&isllar unidá"
 
-#: src/kcmsystemd.cpp:911
+#: src/kcmsystemd.cpp:920
 msgid "En&able unit"
 msgstr "&Habilitar unidá"
 
-#: src/kcmsystemd.cpp:912
+#: src/kcmsystemd.cpp:921
 msgid "&Disable unit"
 msgstr "&Deshabilitar unidá"
 
-#: src/kcmsystemd.cpp:914
+#: src/kcmsystemd.cpp:923
 msgid "&Mask unit"
 msgstr "&Amazcarar unidá"
 
-#: src/kcmsystemd.cpp:915
+#: src/kcmsystemd.cpp:924
 msgid "&Unmask unit"
 msgstr ""
 
-#: src/kcmsystemd.cpp:917
+#: src/kcmsystemd.cpp:926
 msgid "Rel&oad all unit files"
 msgstr "Re&cargar tolos ficheros d'unidá"
 
-#: src/kcmsystemd.cpp:918
+#: src/kcmsystemd.cpp:927
 msgid "Ree&xecute systemd"
 msgstr "Ree&xecutar systemd"
 
-#: src/kcmsystemd.cpp:1082
+#: src/kcmsystemd.cpp:1091
 msgid "&Activate session"
 msgstr "&Activar sesión"
 
-#: src/kcmsystemd.cpp:1083
+#: src/kcmsystemd.cpp:1092
 msgid "&Terminate session"
 msgstr "&Finar sesión"
 
-#: src/kcmsystemd.cpp:1084
+#: src/kcmsystemd.cpp:1093
 msgid "&Lock session"
 msgstr "&Bloquiar sesión"
 
-#: src/kcmsystemd.cpp:1145
+#: src/kcmsystemd.cpp:1154
 #, kde-format
 msgid "<b>VT:</b> %1"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1150
+#: src/kcmsystemd.cpp:1159
 #, kde-format
 msgid "<br><b>Remote host:</b> %1"
 msgstr "<br><b>Agospiu remotu:</b> %1"
 
-#: src/kcmsystemd.cpp:1151
+#: src/kcmsystemd.cpp:1160
 #, kde-format
 msgid "<br><b>Remote user:</b> %1"
 msgstr "<br><b>Usuariu remotu:</b> %1"
 
-#: src/kcmsystemd.cpp:1153
+#: src/kcmsystemd.cpp:1162
 #, kde-format
 msgid "<br><b>Service:</b> %1"
 msgstr "<br><b>Serviciu:</b> %1"
 
-#: src/kcmsystemd.cpp:1156
+#: src/kcmsystemd.cpp:1165
 #, kde-format
 msgid "<br><b>Type:</b> %1"
 msgstr "<br><b>Triba:</b> %1"
 
-#: src/kcmsystemd.cpp:1158
+#: src/kcmsystemd.cpp:1167
 #, kde-format
 msgid " (display %1)"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1168
+#: src/kcmsystemd.cpp:1177
 #, kde-format
 msgid "<br><b>Class:</b> %1"
 msgstr "<br><b>Clas:</b> %1"
 
-#: src/kcmsystemd.cpp:1169
+#: src/kcmsystemd.cpp:1178
 #, kde-format
 msgid "<br><b>State:</b> %1"
 msgstr "<br><b>Estáu:</b> %1"
 
-#: src/kcmsystemd.cpp:1170
+#: src/kcmsystemd.cpp:1179
 #, kde-format
 msgid "<br><b>Scope:</b> %1"
 msgstr ""
 
-#: src/kcmsystemd.cpp:1173
+#: src/kcmsystemd.cpp:1182
 msgid "<br><b>Created: </b>"
 msgstr "<br><b>Creosé'l: </b>"
 
-#: src/kcmsystemd.cpp:1263
+#: src/kcmsystemd.cpp:1272
 #, kde-format
 msgid "File to be written: %1/%2"
 msgstr "Escribiráse'l ficheru en: %1/%2"
 
-#: src/kcmsystemd.cpp:1323
+#: src/kcmsystemd.cpp:1332
 #, kde-format
 msgid "Editing %1"
 msgstr "Editando %1"
 
-#: src/kcmsystemd.cpp:1342
+#: src/kcmsystemd.cpp:1351
 #, kde-format
 msgid ""
 "Failed to open the unit file:\n"
@@ -758,7 +785,7 @@ msgstr ""
 "Fallu al abrir el ficheru d'unidá.\n"
 "%1"
 
-#: src/kcmsystemd.cpp:1367
+#: src/kcmsystemd.cpp:1376
 msgid "Unit file successfully written."
 msgstr "Escribiéronse con ésitu los ficheros de configuración en: %1"
 
@@ -875,3 +902,6 @@ msgstr "Sesiones"
 msgid "Attempt to contact the systemd daemon through D-Bus system bus failed."
 msgstr ""
 "Falló l'intentu de contautar col degorriu systemd pente'l sistema D-Bus."
+
+#~ msgid "Total: %1 units, %2 active, %3 displayed"
+#~ msgstr "Total: %1 unidaes, %2 actives, %3 amosaes"
