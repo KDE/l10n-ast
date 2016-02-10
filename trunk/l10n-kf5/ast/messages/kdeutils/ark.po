@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-25 09:17+0000\n"
+"POT-Creation-Date: 2016-02-10 07:36+0000\n"
 "PO-Revision-Date: 2016-01-30 16:42+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -32,7 +32,7 @@ msgid "&Archive"
 msgstr "&Archivu"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: app/arkui.rc:20
+#: app/arkui.rc:22
 msgid "Main Toolbar"
 msgstr "Barra de ferramientes principal"
 
@@ -286,11 +286,11 @@ msgstr "Ficheros/Carpetes pa comprimir"
 msgid "Compress to Archive"
 msgstr "Comprimir nun ficheru"
 
-#: kerfuffle/addtoarchive.cpp:144
+#: kerfuffle/addtoarchive.cpp:140
 msgid "No input files were given."
 msgstr "Nun se dieron ficheros d'entrada."
 
-#: kerfuffle/addtoarchive.cpp:154
+#: kerfuffle/addtoarchive.cpp:151
 msgid ""
 "You need to either supply a filename for the archive or a suffix (such as "
 "rar, tar.gz) with the <command>--autofilename</command> argument."
@@ -298,7 +298,7 @@ msgstr ""
 "Necesites suministrar o un nome de ficheru pal archivu o un sufixu (como "
 "rar, tar.gz) col argumentu <command>--autofilename</command>."
 
-#: kerfuffle/addtoarchive.cpp:186
+#: kerfuffle/addtoarchive.cpp:185
 msgid "Failed to create the new archive. No suitable plugin found."
 msgstr "Fallu al crear l'archivu nuevu. Nun s'alcontró un plugin afayadizu."
 
@@ -306,7 +306,7 @@ msgstr "Fallu al crear l'archivu nuevu. Nun s'alcontró un plugin afayadizu."
 msgid "Failed to create the new archive. Could not load a suitable plugin."
 msgstr "Fallu al crear l'archivu nuevu. Nun pudo cargase un plugin afayadizu."
 
-#: kerfuffle/addtoarchive.cpp:194
+#: kerfuffle/addtoarchive.cpp:195
 msgid "It is not possible to create archives of this type."
 msgstr "Nun ye posible crear archivos d'esta triba."
 
@@ -764,10 +764,10 @@ msgctxt "Unnamed column"
 msgid "??"
 msgstr "¿?"
 
-#. i18n: ectx: Menu (action)
-#: part/ark_part.rc:9
-msgid "&Action"
-msgstr "&Aición"
+#. i18n: ectx: Menu (ark_file)
+#: part/ark_part.rc:12
+msgid "&File"
+msgstr "&Ficheru"
 
 #. i18n: ectx: Menu (settings)
 #: part/ark_part.rc:20
@@ -910,17 +910,23 @@ msgid "Show information panel"
 msgstr "Amosar panel d'inforamción"
 
 #: part/part.cpp:292
+#, fuzzy
+#| msgctxt "action, to open an archive"
+#| msgid "Open"
 msgctxt "open a file with external program"
-msgid "&Open File"
-msgstr "&Abrir ficheru"
+msgid "&Open"
+msgstr "Abrir"
 
 #: part/part.cpp:294
 msgid "Click to open the selected file with the associated application"
 msgstr "Primi p'abrir el ficheru esbilláu cola aplicación asociada"
 
 #: part/part.cpp:299
+#, fuzzy
+#| msgctxt "open a file with external program"
+#| msgid "Open File &With..."
 msgctxt "open a file with external program"
-msgid "Open File &With..."
+msgid "Open &With..."
 msgstr "Abrir ficheru &con..."
 
 #: part/part.cpp:301
@@ -972,21 +978,21 @@ msgstr "&Desaniciar"
 msgid "Click to delete the selected files"
 msgstr "Primi pa desaniciar los ficheros esbillaos"
 
-#: part/part.cpp:392
+#: part/part.cpp:394
 msgid "Extract To..."
 msgstr "Estrayer en..."
 
-#: part/part.cpp:399
+#: part/part.cpp:401
 msgid "Quick Extract To..."
 msgstr "Estraición rápida en..."
 
-#: part/part.cpp:468
+#: part/part.cpp:470
 #, kde-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is a directory."
 msgstr "<filename>%1</filename> ye un direutoriu."
 
-#: part/part.cpp:475
+#: part/part.cpp:477
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -996,27 +1002,27 @@ msgstr ""
 "Yá esiste l'archivu comprimíu <filename>%1</filename>. ¿Prestaríate abrilu "
 "nel so llugar?"
 
-#: part/part.cpp:475
+#: part/part.cpp:477
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr "Esiste'l ficheru"
 
-#: part/part.cpp:475
+#: part/part.cpp:477
 msgid "Open File"
 msgstr "Abrir ficheru"
 
-#: part/part.cpp:483
+#: part/part.cpp:485
 #, kde-format
 msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr "Nun s'alcontró l'archivu <filename>%1</filename>."
 
-#: part/part.cpp:483 part/part.cpp:502 part/part.cpp:509 part/part.cpp:579
+#: part/part.cpp:485 part/part.cpp:504 part/part.cpp:511 part/part.cpp:581
 msgctxt "@title:window"
 msgid "Error Opening Archive"
 msgstr "Fallu abriendo l'archivu"
 
-#: part/part.cpp:488
+#: part/part.cpp:490
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1026,7 +1032,7 @@ msgstr ""
 "Nun pudo cargase l'archivu <filename>%1</filename> darréu que nun foi "
 "posible lleer d'elli."
 
-#: part/part.cpp:499
+#: part/part.cpp:501
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1036,7 +1042,7 @@ msgstr ""
 "Ark nun foi quién a abrir <filename>%1</filename>. Nun s'alcontró dal "
 "complementu afayadizu.<nl/><nl/>Ark nun paez sofitar esta triba de ficheru."
 
-#: part/part.cpp:506
+#: part/part.cpp:508
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1048,15 +1054,15 @@ msgstr ""
 "complementu afayadizu.<nl/><nl/>Asegúrate que dal executable necesita "
 "remanar la triba d'archivu que ta instaláu."
 
-#: part/part.cpp:560
+#: part/part.cpp:562
 msgid "Extraction settings"
 msgstr "Axustes d'estraición"
 
-#: part/part.cpp:561
+#: part/part.cpp:563
 msgid "Preview settings"
 msgstr "Axustes de previsualización"
 
-#: part/part.cpp:576
+#: part/part.cpp:578
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1066,57 +1072,57 @@ msgstr ""
 "La carga del archivu <filename>%1</filename> falló col fallu de darréu:<nl/"
 "><nl/><message>%2</message>"
 
-#: part/part.cpp:620
+#: part/part.cpp:622
 msgctxt "@info"
 msgid "The archive is empty or Ark could not open its content."
 msgstr "L'archivu ta baleru o Ark nun pudo abrir los sos conteníos."
 
-#: part/part.cpp:626
+#: part/part.cpp:628
 msgctxt "@info"
 msgid "Ark does not currently support ISO files with UDF filesystem."
 msgstr "Anguaño Ark nun sofita ficheros ISO col sistema de ficheros UDF."
 
-#: part/part.cpp:671
+#: part/part.cpp:673
 msgid "Ark cannot open symlinks."
 msgstr "Ark nun pue abrir enllaces simbólicos."
 
-#: part/part.cpp:783
+#: part/part.cpp:785
 #, kde-format
 msgid ""
 "The file <filename>%1</filename> was modified. Do you want to update the "
 "archive?"
 msgstr "Modificóse'l ficheru <filename>%1</filename>. ¿Quies anovalu?"
 
-#: part/part.cpp:785
+#: part/part.cpp:787
 msgid "File modified"
 msgstr "ficheru modificáu"
 
-#: part/part.cpp:1044
+#: part/part.cpp:1046
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "Amiestu de ficheros"
 
-#: part/part.cpp:1051
+#: part/part.cpp:1053
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "Amiestu de carpeta"
 
-#: part/part.cpp:1076
+#: part/part.cpp:1078
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 "Nun podrá desafacese'l desaniciu d'estos ficheros. ¿De xuru que quies facelo?"
 
-#: part/part.cpp:1077
+#: part/part.cpp:1079
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "Desaniciu de ficheros"
 
-#: part/part.cpp:1109
+#: part/part.cpp:1111
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "Guardar ficheru como"
 
-#: part/part.cpp:1116
+#: part/part.cpp:1118
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1126,7 +1132,7 @@ msgstr ""
 "Yá esiste un archivu nomáu <filename>%1</filename>. ¿De xuru que quies "
 "sobrescribilu?"
 
-#: part/part.cpp:1130
+#: part/part.cpp:1132
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1136,7 +1142,7 @@ msgstr ""
 "Nun pue copiase l'archivu <filename>%1</filename> al allugamientu "
 "especificáu. L'archivu yá nun esiste"
 
-#: part/part.cpp:1144
+#: part/part.cpp:1146
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1317,8 +1323,12 @@ msgid ""
 msgstr ""
 "Asocedió un fallu entrín se lleía <filename>%1</filename> na estraición."
 
-#~ msgid "&File"
-#~ msgstr "&Ficheru"
+#~ msgid "&Action"
+#~ msgstr "&Aición"
+
+#~ msgctxt "open a file with external program"
+#~ msgid "&Open File"
+#~ msgstr "&Abrir ficheru"
 
 #~ msgctxt "@info"
 #~ msgid ""
