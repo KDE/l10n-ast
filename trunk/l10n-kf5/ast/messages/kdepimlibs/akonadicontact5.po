@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-10 07:34+0000\n"
+"POT-Creation-Date: 2016-02-11 07:53+0000\n"
 "PO-Revision-Date: 2016-02-10 12:07+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -637,6 +637,7 @@ msgid "Partner's name:"
 msgstr ""
 
 #: editor/contacteditorwidget.cpp:406
+#: editor/customfieldeditor/customfieldeditorwidget.cpp:49
 msgid "Add name"
 msgstr "Amestar nome"
 
@@ -650,25 +651,72 @@ msgctxt "@title:tab"
 msgid "Custom Fields"
 msgstr "Campos personalizaos"
 
-#: editor/customfieldeditor/customfieldeditorwidget.cpp:36
+#: editor/customfieldeditor/customfieldeditorwidget.cpp:41
 #, fuzzy
 #| msgid "Edit Custom Field"
 msgid "Title Custom Type"
 msgstr "Esbillar campu personalizáu"
 
-#: editor/customfieldeditor/customfieldeditorwidget.cpp:49
+#: editor/customfieldeditor/customfieldeditorwidget.cpp:58
 #, fuzzy
 #| msgid "Add Email"
 msgid "Add Field"
 msgstr "Amestar correu"
 
-#: editor/customfieldeditordialog.cpp:39
-msgid "Edit Custom Field"
-msgstr "Esbillar campu personalizáu"
-
+#: editor/customfieldeditor/customfieldeditorwidget.cpp:65
 #: editor/customfieldeditordialog.cpp:50
 msgid "Use field for all contacts"
 msgstr ""
+
+#: editor/customfieldeditor/customfieldeditorwidget.cpp:77
+#: editor/customfieldeditordialog.cpp:57
+msgid "Text"
+msgstr "Testu"
+
+#: editor/customfieldeditor/customfieldeditorwidget.cpp:78
+#: editor/customfieldeditordialog.cpp:58
+msgid "Numeric"
+msgstr "Numbéricu"
+
+#: editor/customfieldeditor/customfieldeditorwidget.cpp:79
+#: editor/customfieldeditordialog.cpp:59
+msgid "Boolean"
+msgstr "Boleanu"
+
+#: editor/customfieldeditor/customfieldeditorwidget.cpp:80
+#: editor/customfieldeditordialog.cpp:60
+msgid "Date"
+msgstr "Data"
+
+#: editor/customfieldeditor/customfieldeditorwidget.cpp:81
+#: editor/customfieldeditordialog.cpp:61
+msgid "Time"
+msgstr ""
+
+#: editor/customfieldeditor/customfieldeditorwidget.cpp:82
+#: editor/customfieldeditordialog.cpp:62
+msgid "DateTime"
+msgstr ""
+
+#: editor/customfieldeditor/customfieldeditorwidget.cpp:83
+#: editor/customfieldeditordialog.cpp:63
+msgid "Url"
+msgstr "Url"
+
+#: editor/customfieldeditor/customfieldslistdelegate.cpp:235
+#: editor/customfieldseditwidget.cpp:327
+msgctxt "Custom Fields"
+msgid "Do you really want to delete the selected custom field?"
+msgstr "¿De xuru que quies desaniciar el campu personalizáu esbilláu?"
+
+#: editor/customfieldeditor/customfieldslistdelegate.cpp:236
+#: editor/customfieldseditwidget.cpp:328
+msgid "Confirm Delete"
+msgstr "Confirmar desaniciu"
+
+#: editor/customfieldeditordialog.cpp:39
+msgid "Edit Custom Field"
+msgstr "Esbillar campu personalizáu"
 
 #: editor/customfieldeditordialog.cpp:52
 msgctxt "The title of a custom field"
@@ -684,60 +732,23 @@ msgstr "Triba"
 msgid "Key"
 msgstr "Clave"
 
-#: editor/customfieldeditordialog.cpp:57
-msgid "Text"
-msgstr "Testu"
-
-#: editor/customfieldeditordialog.cpp:58
-msgid "Numeric"
-msgstr "Numbéricu"
-
-#: editor/customfieldeditordialog.cpp:59
-msgid "Boolean"
-msgstr "Boleanu"
-
-#: editor/customfieldeditordialog.cpp:60
-msgid "Date"
-msgstr "Data"
-
-#: editor/customfieldeditordialog.cpp:61
-msgid "Time"
-msgstr ""
-
-#: editor/customfieldeditordialog.cpp:62
-msgid "DateTime"
-msgstr ""
-
-#: editor/customfieldeditordialog.cpp:63
-msgid "Url"
-msgstr "Url"
-
 #: editor/customfieldeditordialog.cpp:77
 #: editor/customfieldeditordialog.cpp:118
 msgid "Advanced"
 msgstr "Avanzao"
 
-#: editor/customfieldseditwidget.cpp:67 editor/emaileditwidget.cpp:210
+#: editor/customfieldseditwidget.cpp:52 editor/emaileditwidget.cpp:210
 msgid "Add..."
 msgstr "Amestar..."
 
-#: editor/customfieldseditwidget.cpp:68 editor/emaileditwidget.cpp:216
+#: editor/customfieldseditwidget.cpp:53 editor/emaileditwidget.cpp:216
 msgid "Edit..."
 msgstr "Editar..."
 
-#: editor/customfieldseditwidget.cpp:69 editor/dateeditwidget.cpp:51
+#: editor/customfieldseditwidget.cpp:54 editor/dateeditwidget.cpp:51
 #: editor/emaileditwidget.cpp:223 editor/phoneeditwidget.cpp:302
 msgid "Remove"
 msgstr "Desaniciar"
-
-#: editor/customfieldseditwidget.cpp:327
-msgctxt "Custom Fields"
-msgid "Do you really want to delete the selected custom field?"
-msgstr "¿De xuru que quies desaniciar el campu personalizáu esbilláu?"
-
-#: editor/customfieldseditwidget.cpp:328
-msgid "Confirm Delete"
-msgstr "Confirmar desaniciu"
 
 #: editor/customfieldsmodel.cpp:216
 msgctxt "custom field title"
@@ -842,8 +853,6 @@ msgid "Add an identifier"
 msgstr "Amestar nome"
 
 #: editor/generalinfoeditor/namewidget.cpp:37
-#| msgctxt "contact's name"
-#| msgid "Name"
 msgid "Name"
 msgstr "Nome"
 
@@ -854,8 +863,6 @@ msgid "Add a name"
 msgstr "Amestar nome"
 
 #: editor/generalinfoeditor/nicknamewidget.cpp:35
-#| msgctxt "@label The nickname of a contact"
-#| msgid "Nickname:"
 msgid "Nickname"
 msgstr "Nomatu:"
 
@@ -866,8 +873,6 @@ msgid "Add a Nickname"
 msgstr "Amestar nome"
 
 #: editor/generalinfoeditor/phone/phonelistwidget.cpp:39
-#| msgctxt "@title:group"
-#| msgid "Phones"
 msgid "Phone"
 msgstr "Teléfonu"
 
