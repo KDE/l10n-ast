@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-22 08:24+0000\n"
+"POT-Creation-Date: 2016-02-28 07:15+0000\n"
 "PO-Revision-Date: 2016-02-02 03:10+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -233,7 +233,7 @@ msgstr "Amuesa un árbol de ficheru"
 msgid "Show a file list"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:106 plugins/infowidget/fileview.cpp:74
+#: ktorrent/dialogs/fileselectdlg.cpp:106 plugins/infowidget/fileview.cpp:75
 msgid "Filter"
 msgstr "Peñera"
 
@@ -610,7 +610,7 @@ msgid "Do not download the missing files."
 msgstr "Nun puen deseleicionase los ficheros que falten: %1"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_dnd)
-#: ktorrent/dialogs/missingfilesdlg.ui:47 plugins/infowidget/fileview.cpp:125
+#: ktorrent/dialogs/missingfilesdlg.ui:47
 msgid "Do Not Download"
 msgstr "Non baxar"
 
@@ -3576,8 +3576,8 @@ msgstr "Perderás tolos datos baxaos. ¿De xuru que quies facer esto?"
 msgid "Remove Torrent"
 msgstr "Desaniciar el torrent"
 
-#: ktorrent/view/view.cpp:602 plugins/infowidget/fileview.cpp:354
-#: plugins/infowidget/fileview.cpp:380
+#: ktorrent/view/view.cpp:602 plugins/infowidget/fileview.cpp:357
+#: plugins/infowidget/fileview.cpp:383
 msgid "Select a directory to move the data to."
 msgstr "Escueyi un direutoriu al que mover los datos."
 
@@ -4663,71 +4663,85 @@ msgstr "Queda:"
 msgid "Size:"
 msgstr "Tamañu:"
 
-#: plugins/infowidget/fileview.cpp:117
+#: plugins/infowidget/fileview.cpp:116
 msgctxt "Open file"
 msgid "Open"
 msgstr "Abrir"
 
-#: plugins/infowidget/fileview.cpp:118
+#: plugins/infowidget/fileview.cpp:117
 #, fuzzy
 #| msgid "Open Silently"
 msgctxt "Open file with"
 msgid "Open With"
 msgstr "Abrir silenciosamente"
 
-#: plugins/infowidget/fileview.cpp:119
+#: plugins/infowidget/fileview.cpp:118
 #, fuzzy
 #| msgid "Move File"
 msgid "Check File"
 msgstr "Mover el ficheru"
 
-#: plugins/infowidget/fileview.cpp:121
+#: plugins/infowidget/fileview.cpp:120
 msgid "Download first"
 msgstr "Baxar el primeru"
 
-#: plugins/infowidget/fileview.cpp:122
+#: plugins/infowidget/fileview.cpp:121
 msgid "Download normally"
 msgstr "Baxar normalmente"
 
-#: plugins/infowidget/fileview.cpp:123
+#: plugins/infowidget/fileview.cpp:122
 msgid "Download last"
 msgstr "Baxar al final"
 
-#: plugins/infowidget/fileview.cpp:126
+#: plugins/infowidget/fileview.cpp:124
+#, fuzzy
+#| msgid "Do Not Download"
+msgid "Do not download"
+msgstr "Non baxar"
+
+#: plugins/infowidget/fileview.cpp:125
 msgid "Delete File(s)"
 msgstr "Desaniciar los ficheros"
 
-#: plugins/infowidget/fileview.cpp:128
+#: plugins/infowidget/fileview.cpp:127
 msgid "Move File"
 msgstr "Mover el ficheru"
 
-#: plugins/infowidget/fileview.cpp:130
+#: plugins/infowidget/fileview.cpp:129
 msgid "Collapse Folder Tree"
 msgstr "Contrayer l'árbol de carpetes"
 
-#: plugins/infowidget/fileview.cpp:131
+#: plugins/infowidget/fileview.cpp:130
 msgid "Expand Folder Tree"
 msgstr "Espander l'árbol de carpetes"
 
-#: plugins/infowidget/fileview.cpp:134
+#: plugins/infowidget/fileview.cpp:133
 msgid "File Tree"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:136
+#: plugins/infowidget/fileview.cpp:135
 msgid "File List"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:146
+#: plugins/infowidget/fileview.cpp:145
 msgid "Show Filter"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:335
+#: plugins/infowidget/fileview.cpp:338
 msgid "You will lose all data in this file, are you sure you want to do this?"
 msgid_plural ""
 "You will lose all data in these files, are you sure you want to do this?"
 msgstr[0] "Perderás tolos datos d'esti ficheru. ¿De xuru que quies facer esto?"
 msgstr[1] ""
 "Perderás tolos datos d'estos ficheros. ¿De xuru que quies facer esto?"
+
+#: plugins/infowidget/fileview.cpp:477
+msgid ""
+"Not enough data downloaded for opening the file.\n"
+"\n"
+"Enable sequential download mode for it to obtain necessary data with a "
+"higher priority?"
+msgstr ""
 
 #: plugins/infowidget/infowidgetplugin.cpp:71
 #: plugins/infowidget/iwprefpage.cpp:27
