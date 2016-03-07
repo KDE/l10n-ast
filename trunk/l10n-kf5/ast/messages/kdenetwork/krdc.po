@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-15 02:01+0000\n"
+"POT-Creation-Date: 2016-03-07 08:36+0000\n"
 "PO-Revision-Date: 2016-03-06 22:53+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -26,7 +26,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
-#: bookmarkmanager.cpp:53
+#: bookmarkmanager.cpp:56
 #, fuzzy
 msgid "History"
 msgstr "Historia"
@@ -167,54 +167,54 @@ msgstr "Esquierda"
 msgid "Right"
 msgstr "Derecha"
 
-#: config/hostpreferenceslist.cpp:49
+#: config/hostpreferenceslist.cpp:47
 #, fuzzy
 msgid "Configure..."
 msgstr "Configurar..."
 
-#: config/hostpreferenceslist.cpp:55
+#: config/hostpreferenceslist.cpp:53
 #, fuzzy
 msgid "Remove"
 msgstr "Desaniciar"
 
-#: config/hostpreferenceslist.cpp:118 mainwindow.cpp:669
+#: config/hostpreferenceslist.cpp:117 mainwindow.cpp:640
 #, fuzzy
 msgid "The selected host cannot be handled."
 msgstr "La máquina esbillada nun puede algamase."
 
-#: config/hostpreferenceslist.cpp:119 mainwindow.cpp:327 mainwindow.cpp:670
+#: config/hostpreferenceslist.cpp:118 mainwindow.cpp:296 mainwindow.cpp:641
 #, fuzzy
 msgid "Unusable URL"
 msgstr "URL inutilizable"
 
-#: config/preferencesdialog.cpp:43
+#: config/preferencesdialog.cpp:42
 #, fuzzy
 msgctxt "General Config"
 msgid "General"
 msgstr "Xeneral"
 
-#: config/preferencesdialog.cpp:43
+#: config/preferencesdialog.cpp:42
 #, fuzzy
 msgid "General Configuration"
 msgstr "Configuración xeneral"
 
-#: config/preferencesdialog.cpp:48
+#: config/preferencesdialog.cpp:47
 #, fuzzy
 msgid "Hosts"
 msgstr "Máquines"
 
-#: config/preferencesdialog.cpp:48 core/hostpreferences.cpp:181
+#: config/preferencesdialog.cpp:47 core/hostpreferences.cpp:182
+#: core/hostpreferences.cpp:186
 #, fuzzy
-#: core/hostpreferences.cpp:187
 msgid "Host Configuration"
 msgstr "Configuración del anfitrión"
 
-#: config/preferencesdialog.cpp:53 config/preferencesdialog.cpp:55
+#: config/preferencesdialog.cpp:52 config/preferencesdialog.cpp:54
 #, fuzzy
 msgid "Plugins"
 msgstr "Complementos"
 
-#: config/preferencesdialog.cpp:55
+#: config/preferencesdialog.cpp:54
 #, fuzzy
 msgid "Plugin Configuration"
 msgstr "Configuración de complementos"
@@ -259,7 +259,7 @@ msgid_plural "%1 years ago"
 msgstr[0] "Hai un añu"
 msgstr[1] "Hai %1 años"
 
-#: core/hostpreferences.cpp:190
+#: core/hostpreferences.cpp:189
 #, fuzzy
 msgid ""
 "Note that settings might only apply when you connect next time to this host."
@@ -278,22 +278,22 @@ msgid "Remember password (KWallet)"
 msgstr "Remembrar contraseña (KWallet)"
 
 #. i18n: ectx: label, entry (OpenSessions), group (General)
-#: core/krdc.kcfg:15
+#: core/krdc.kcfg:16
 #, fuzzy
 msgid "Sessions"
 msgstr "Sesiones"
 
-#: konsole/konsoleviewfactory.cpp:68
+#: konsole/konsoleviewfactory.cpp:66
 #, fuzzy
 msgid "New Konsole Connection..."
 msgstr "Nueva consola de conexón..."
 
-#: konsole/konsoleviewfactory.cpp:73
+#: konsole/konsoleviewfactory.cpp:71
 #, fuzzy
 msgid "KRDC Konsole Connection"
 msgstr "Conexones de consola KRDC"
 
-#: konsole/konsoleviewfactory.cpp:78
+#: konsole/konsoleviewfactory.cpp:76
 #, fuzzy
 msgid ""
 "<html>Enter the address here. Port is optional.<br /><i>Example: "
@@ -301,47 +301,6 @@ msgid ""
 msgstr ""
 "<html>Introducir la direición equí. El puertu ye opcional.<br /><i>Exemplu: "
 "rdpserver:3389 (host:port)</i></html>"
-
-#: krdc_approver/approver.cpp:86
-#, fuzzy
-msgid "Invitation to view remote desktop"
-msgstr "Invitación pa ver un escritoriu remotu"
-
-#: krdc_approver/approver.cpp:87
-#, fuzzy, kde-format
-msgid "%1 wants to share his/her desktop with you"
-msgstr "%1 quier compartir el so escritoriu contigu"
-
-#: krdc_approver/approver.cpp:88
-#, fuzzy
-msgid "Accept"
-msgstr "Aceutar"
-
-#: krdc_approver/approver.cpp:88
-#, fuzzy
-msgid "Reject"
-msgstr "Refugar"
-
-#: krdc_approver/main.cpp:38 main.cpp:39
-#, fuzzy
-msgid "KRDC"
-msgstr "KRDC"
-
-#: krdc_approver/main.cpp:39
-#, fuzzy
-msgid "Approver for KRDC"
-msgstr "Aprobar pa KRDC"
-
-#: krdc_approver/main.cpp:40
-#, fuzzy
-msgid "(C) 2009, Abner Silva"
-msgstr "(C) 2009, Abner Silva"
-
-#: krdc_approver/main.cpp:42
-#, fuzzy
-msgctxt "@info:credit"
-msgid "Abner Silva"
-msgstr "Abner Silva"
 
 #. i18n: ectx: Menu (session)
 #: krdcui.rc:8
@@ -355,12 +314,17 @@ msgstr "&Sesión"
 msgid "Remote View Toolbar"
 msgstr "Barra de ferramientes de vista remota"
 
-#: main.cpp:40 systemtrayicon.cpp:41
+#: main.cpp:74
+#, fuzzy
+msgid "KRDC"
+msgstr "KRDC"
+
+#: main.cpp:75 systemtrayicon.cpp:41
 #, fuzzy
 msgid "KDE Remote Desktop Client"
 msgstr "Veceru d'escritoriu remotu de KDE"
 
-#: main.cpp:41
+#: main.cpp:77
 #, fuzzy
 #| msgid ""
 #| "(c) 2007-2009, Urs Wolfer\n"
@@ -372,7 +336,7 @@ msgstr "Veceru d'escritoriu remotu de KDE"
 #| "(c) 1999-2003, Matthew Chapman\n"
 #| "(c) 2009, Collabora Ltd"
 msgid ""
-"(c) 2007-2013, Urs Wolfer\n"
+"(c) 2007-2016, Urs Wolfer\n"
 "(c) 2001-2003, Tim Jansen\n"
 "(c) 2002-2003, Arend van Beelen jr.\n"
 "(c) 2000-2002, Const Kaplinsky\n"
@@ -390,78 +354,78 @@ msgstr ""
 "(c) 1999-2003, Matthew Chapman\n"
 "(c) 2009, Collabora Ltd"
 
-#: main.cpp:50
+#: main.cpp:86
 #, fuzzy
 msgid "Urs Wolfer"
 msgstr "Urs Wolfer"
 
-#: main.cpp:50
+#: main.cpp:86
 #, fuzzy
 msgid "Developer, Maintainer"
 msgstr "Desarrollador, mantenedor"
 
-#: main.cpp:51
+#: main.cpp:87
 #, fuzzy
 msgid "Tony Murray"
 msgstr "Tony Murray"
 
-#: main.cpp:51
+#: main.cpp:87
 #, fuzzy
 #| msgid "Former Developer"
 msgid "Developer"
 msgstr "Anterior desendolcador"
 
-#: main.cpp:52
+#: main.cpp:88
 #, fuzzy
 msgid "Tim Jansen"
 msgstr "Tim Jansen"
 
-#: main.cpp:52
+#: main.cpp:88
 #, fuzzy
 msgid "Former Developer"
 msgstr "Anterior desendolcador"
 
-#: main.cpp:53
+#: main.cpp:89
 #, fuzzy
 msgid "Arend van Beelen jr."
 msgstr "Arend van Beelen jr."
 
-#: main.cpp:53
+#: main.cpp:89
 #, fuzzy
 msgid "Initial RDP backend"
 msgstr "Motor RDP inicial"
 
-#: main.cpp:54
+#: main.cpp:90
 #, fuzzy
 msgid "Brad Hards"
 msgstr "Brad Hards"
 
-#: main.cpp:54
+#: main.cpp:90
 #, fuzzy
 msgid "Google Summer of Code 2007 KRDC project mentor"
 msgstr "Google Summer of Code 2007 mentor del proyeutu KRDC"
 
-#: main.cpp:56
+#: main.cpp:92
 #, fuzzy
 msgid "LibVNCServer / LibVNCClient developers"
 msgstr "Desenvolvedores de LibVNCServer / LibVNCClient"
 
-#: main.cpp:56
+#: main.cpp:92
 #, fuzzy
 msgid "VNC client library"
 msgstr "Biblioteca del veceru VNC"
 
-#: main.cpp:58
+#: main.cpp:94
 #, fuzzy
 msgid "Abner Silva"
 msgstr "Abner Silva"
 
-#: main.cpp:58
+#: main.cpp:94
 #, fuzzy
 msgid "Telepathy Tubes Integration"
 msgstr "Integración de Telepathy Tubes"
 
-#: main.cpp:63
+#: main.cpp:111
 #, fuzzy
 msgid ""
 "Start KRDC with the provided URL in fullscreen mode (works only with one URL)"
@@ -469,88 +433,88 @@ msgstr ""
 "Entamar KRDC cola URL dada en mou de pantalla completa (furrula namái con "
 "una URL)"
 
-#: main.cpp:64
+#: main.cpp:112
 #, fuzzy
 msgid "URLs to connect after startup"
 msgstr "URLs a coneutar dempués del arranque"
 
-#: mainwindow.cpp:131
+#: mainwindow.cpp:123
 #, fuzzy
 msgid "KDE Remote Desktop Client started"
 msgstr "Veceru de conexón remota d'escritoriu KDE"
 
-#: mainwindow.cpp:136 mainwindow.cpp:149 mainwindow.cpp:1056
+#: mainwindow.cpp:128 mainwindow.cpp:141 mainwindow.cpp:1023
+#: mainwindow.cpp:1127
 #, fuzzy
-#: mainwindow.cpp:1160
 msgid "New Connection"
 msgstr "Nueva Conexón"
 
-#: mainwindow.cpp:154
+#: mainwindow.cpp:146
 #, fuzzy
 msgid "Copy Screenshot to Clipboard"
 msgstr "Copiar la pantalla al cartafueyos"
 
-#: mainwindow.cpp:155
+#: mainwindow.cpp:147
 #, fuzzy
 msgid "Screenshot"
 msgstr "Captura de pantalla"
 
-#: mainwindow.cpp:160 mainwindow.cpp:509
+#: mainwindow.cpp:152 mainwindow.cpp:478
 #, fuzzy
 msgid "Switch to Full Screen Mode"
 msgstr "Camudar a Mou de Pantalla completa"
 
-#: mainwindow.cpp:161 mainwindow.cpp:510
+#: mainwindow.cpp:153 mainwindow.cpp:479
 #, fuzzy
 msgid "Full Screen"
 msgstr "Pantalla completa"
 
-#: mainwindow.cpp:168
+#: mainwindow.cpp:160
 #, fuzzy
 msgid "View Only"
 msgstr "Namái ver"
 
-#: mainwindow.cpp:173
+#: mainwindow.cpp:165
 #, fuzzy
 msgid "Disconnect"
 msgstr "Desconeutar"
 
-#: mainwindow.cpp:181
+#: mainwindow.cpp:173
 #, fuzzy
 msgid "Show Local Cursor"
 msgstr "Amosar siempres cursor llocal"
 
-#: mainwindow.cpp:182
+#: mainwindow.cpp:174
 #, fuzzy
 msgid "Local Cursor"
 msgstr "Cursor llocal"
 
-#: mainwindow.cpp:188
+#: mainwindow.cpp:180
 #, fuzzy
 msgid "Grab All Possible Keys"
 msgstr "Grabar toes les claves dables"
 
-#: mainwindow.cpp:189
+#: mainwindow.cpp:181
 #, fuzzy
 msgid "Grab Keys"
 msgstr "Guardar pulsaciones"
 
-#: mainwindow.cpp:195
+#: mainwindow.cpp:187
 #, fuzzy
 msgid "Scale Remote Screen to Fit Window Size"
 msgstr "Esta opción escala la pantalla remota al tamañu de la so ventana."
 
-#: mainwindow.cpp:196
+#: mainwindow.cpp:188
 #, fuzzy
 msgid "Scale"
 msgstr "Escala"
 
-#: mainwindow.cpp:206
+#: mainwindow.cpp:198
 #, fuzzy
 msgid "Bookmarks"
 msgstr "Marcadores"
 
-#: mainwindow.cpp:302
+#: mainwindow.cpp:271
 #, fuzzy
 #| msgid "The entered address does not have the required form."
 msgid ""
@@ -558,141 +522,141 @@ msgid ""
 " Syntax: [username@]host[:port]"
 msgstr "La direición introducida nun tien la forma que se requier."
 
-#: mainwindow.cpp:303
+#: mainwindow.cpp:272
 #, fuzzy
 msgid "Malformed URL"
 msgstr "URL defeutuosa"
 
-#: mainwindow.cpp:326
+#: mainwindow.cpp:295
 #, fuzzy
 msgid "The entered address cannot be handled."
 msgstr "La direición entrada nun puede usase."
 
-#: mainwindow.cpp:435
+#: mainwindow.cpp:404
 #, fuzzy, kde-format
 msgid "Connecting to %1"
 msgstr "Coneutando a %1"
 
-#: mainwindow.cpp:439
+#: mainwindow.cpp:408
 #, fuzzy, kde-format
 msgid "Authenticating at %1"
 msgstr "Autenticando a %1"
 
-#: mainwindow.cpp:443
+#: mainwindow.cpp:412
 #, fuzzy, kde-format
 msgid "Preparing connection to %1"
 msgstr "Tresnando conexón a %1"
 
-#: mainwindow.cpp:447
+#: mainwindow.cpp:416
 #, fuzzy, kde-format
 msgid "Connected to %1"
 msgstr "Coneutáu a %1"
 
-#: mainwindow.cpp:518
+#: mainwindow.cpp:487
 #, fuzzy
 msgctxt ""
 "window title when in full screen mode (for example displayed in tasklist)"
 msgid "KDE Remote Desktop Client (Full Screen)"
 msgstr "Veceru d'escritoriu remotu KDE (pantalla completa)"
 
-#: mainwindow.cpp:546
+#: mainwindow.cpp:515
 #, fuzzy
 msgid "Switch to Window Mode"
 msgstr "Camudar a mou Ventanta"
 
-#: mainwindow.cpp:547
+#: mainwindow.cpp:516
 #, fuzzy
 msgid "Window Mode"
 msgstr "Mou Ventana"
 
-#: mainwindow.cpp:691
+#: mainwindow.cpp:661
 #, fuzzy
 #| msgid "Connection"
 msgid "Connect"
 msgstr "Conexón"
 
-#: mainwindow.cpp:692
+#: mainwindow.cpp:662
 #, fuzzy
 #| msgid "Remove"
 msgid "Rename"
 msgstr "Desaniciar"
 
-#: mainwindow.cpp:693
+#: mainwindow.cpp:663
 #, fuzzy
 #| msgid "Tab Settings"
 msgid "Settings"
 msgstr "Preferencies de llingüeta"
 
-#: mainwindow.cpp:694
+#: mainwindow.cpp:664
 msgid "Delete"
 msgstr ""
 
-#: mainwindow.cpp:697 remotedesktopsmodel.cpp:119
+#: mainwindow.cpp:667 remotedesktopsmodel.cpp:122
 #, fuzzy
 #| msgid "Bookmarks"
 msgctxt "Where each displayed link comes from"
 msgid "Bookmarks"
 msgstr "Marcadores"
 
-#: mainwindow.cpp:698 remotedesktopsmodel.cpp:121
+#: mainwindow.cpp:668 remotedesktopsmodel.cpp:124
 #, fuzzy
 #| msgid "History"
 msgctxt "Where each displayed link comes from"
 msgid "History"
 msgstr "Hestorial"
 
-#: mainwindow.cpp:710
+#: mainwindow.cpp:680
 #, kde-format
 msgid "Rename %1"
 msgstr ""
 
-#: mainwindow.cpp:710
+#: mainwindow.cpp:680
 #, kde-format
 msgid "Rename %1 to"
 msgstr ""
 
-#: mainwindow.cpp:718
+#: mainwindow.cpp:688
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to quit the KDE Remote Desktop Client?"
 msgid "Are you sure you want to delete %1?"
 msgstr "¿Daveres que quies colar del veceru d'escritoriu remotu de KDE?"
 
-#: mainwindow.cpp:718
+#: mainwindow.cpp:688
 #, kde-format
 msgid "Delete %1"
 msgstr ""
 
-#: mainwindow.cpp:739
+#: mainwindow.cpp:710
 #, fuzzy
 msgid "Add Bookmark"
 msgstr "Amestar llibreta de marcadores"
 
-#: mainwindow.cpp:740
+#: mainwindow.cpp:711
 #, fuzzy
 msgid "Close Tab"
 msgstr "Zarrar llingüeta"
 
-#: mainwindow.cpp:821
+#: mainwindow.cpp:792
 #, fuzzy
 msgid "Minimize Full Screen Window"
 msgstr "Minimizar ventana de pantalla completa"
 
-#: mainwindow.cpp:836
+#: mainwindow.cpp:807
 #, fuzzy
 msgid "Stick Toolbar"
 msgstr "Apegar barra de ferramientes"
 
-#: mainwindow.cpp:950
+#: mainwindow.cpp:917
 #, fuzzy
 msgid "Are you sure you want to quit the KDE Remote Desktop Client?"
 msgstr "¿Daveres que quies colar del veceru d'escritoriu remotu de KDE?"
 
-#: mainwindow.cpp:951
+#: mainwindow.cpp:918
 #, fuzzy
 msgid "Confirm Quit"
 msgstr "Confirmar la salida"
 
-#: mainwindow.cpp:1072
+#: mainwindow.cpp:1039
 #, fuzzy
 #| msgid ""
 #| "<h1>KDE Remote Desktop Client</h1><br /><br />What would you like to do?"
@@ -704,32 +668,32 @@ msgstr ""
 "<h1>Veceru d'escritoriu remotu KDE</h1><br /><br />¿Qué-y prestaría facer?"
 "<br />"
 
-#: mainwindow.cpp:1090
+#: mainwindow.cpp:1057
 #, fuzzy
 msgid "Connect to:"
 msgstr "Coneutar a:"
 
-#: mainwindow.cpp:1094
+#: mainwindow.cpp:1061
 msgid "Type here to connect to an address and filter the list."
 msgstr ""
 
-#: mainwindow.cpp:1102
+#: mainwindow.cpp:1069
 msgid ""
 "Type an IP or DNS Name here. Clear the line to get a list of connection "
 "methods."
 msgstr ""
 
-#: mainwindow.cpp:1105
+#: mainwindow.cpp:1072
 #, fuzzy
 msgid "Goto Address"
 msgstr "Dir a direición"
 
-#: mainwindow.cpp:1196
+#: mainwindow.cpp:1163
 #, fuzzy
 msgid "Remote Desktops"
 msgstr "Escritorios remotos"
 
-#: mainwindow.cpp:1227
+#: mainwindow.cpp:1194
 #, fuzzy
 msgid "Filter"
 msgstr "Peñera"
@@ -1278,17 +1242,17 @@ msgstr "&Nuevu"
 msgid "&Resume"
 msgstr "Continua&r"
 
-#: nx/nxview.cpp:125 rdp/rdpview.cpp:117
+#: nx/nxview.cpp:125 rdp/rdpview.cpp:119
 #, fuzzy
 msgid "Enter Username"
 msgstr "Introduza usuariu:"
 
-#: nx/nxview.cpp:126 rdp/rdpview.cpp:118
+#: nx/nxview.cpp:126 rdp/rdpview.cpp:120
 #, fuzzy
 msgid "Please enter the username you would like to use for login."
 msgstr "Por favor, introduz lo que quies usar como nome."
 
-#: nx/nxview.cpp:140 rdp/rdpview.cpp:138 vnc/vncview.cpp:290
+#: nx/nxview.cpp:140 rdp/rdpview.cpp:140 vnc/vncview.cpp:291
 #, fuzzy
 msgid "Access to the system requires a password."
 msgstr "L'accesu al sistema requier una contraseña."
@@ -1537,7 +1501,7 @@ msgstr "Nome de cuenta"
 msgid "Default user name:"
 msgstr "Nome d'usuariu predetermináu:"
 
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, kcfg_DefaultRdpUserName)
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, kcfg_DefaultRdpUserName)
 #: rdp/rdppreferences.ui:638
 #, fuzzy
 msgid "No default user name"
@@ -1549,7 +1513,7 @@ msgstr "Ensin nome d'usuariu predetermináu"
 msgid "Automatically recognize \"LDAP\"-Logins and share passwords"
 msgstr "Reconocer automáticamente cuentes y contraseñes compartíes «LDAP»"
 
-#: rdp/rdpview.cpp:423
+#: rdp/rdpview.cpp:422
 #, fuzzy
 #| msgid ""
 #| "Could not start \"rdesktop\"; make sure rdesktop is properly installed."
@@ -1558,12 +1522,12 @@ msgstr ""
 "Nun foi dable arrancar «rdesktop»; por favor asegúrese de que lo tien "
 "instaláu correcho."
 
-#: rdp/rdpview.cpp:424 rdp/rdpview.cpp:449 rdp/rdpview.cpp:454
+#: rdp/rdpview.cpp:423 rdp/rdpview.cpp:448 rdp/rdpview.cpp:453
 #, fuzzy
 msgid "RDP Failure"
 msgstr "Fallu RDP"
 
-#: rdp/rdpview.cpp:447
+#: rdp/rdpview.cpp:446
 #, fuzzy
 #| msgid ""
 #| "The version of \"rdesktop\" you are using (%1) is too old:\n"
@@ -1575,35 +1539,35 @@ msgstr ""
 "La versión del escritoriu que ta usando (%1) ye enforma antigua:\n"
 "requierse «rdesktop 1.3.2» o más actual."
 
-#: rdp/rdpview.cpp:453
+#: rdp/rdpview.cpp:452
 #, fuzzy
 msgid "Connection failed. You might have passed a wrong address or username."
 msgstr ""
-"Falló la conexón. Quiciabes apurrieres una direición o nome d'usuariu"
-" incorreutos."
+"Falló la conexón. Quiciabes apurrieres una direición o nome d'usuariu "
+"incorreutos."
 
-#: rdp/rdpview.cpp:470
+#: rdp/rdpview.cpp:468
 msgid "Name or service not known."
 msgstr ""
 
-#: rdp/rdpview.cpp:471 rdp/rdpview.cpp:478 rdp/rdpview.cpp:484
+#: rdp/rdpview.cpp:469 rdp/rdpview.cpp:476 rdp/rdpview.cpp:482
+#: rdp/rdpview.cpp:491
 #, fuzzy
-#: rdp/rdpview.cpp:493
 msgid "Connection Failure"
 msgstr "Conexón fallida"
 
-#: rdp/rdpview.cpp:477
+#: rdp/rdpview.cpp:475
 #, fuzzy
 msgid "Connection attempt to host failed."
 msgstr "El intento de coneutar a la máquina falló."
 
-#: rdp/rdpview.cpp:483
+#: rdp/rdpview.cpp:481
 #, fuzzy
 #| msgid "Authentication failed. Please try again."
 msgid "Authentication failure, check credentials."
 msgstr "Fallu d'autenticación. Inténtelu otra vegada."
 
-#: rdp/rdpview.cpp:492
+#: rdp/rdpview.cpp:490
 #, fuzzy
 #| msgid "Connection attempt to host failed."
 msgid ""
@@ -1611,17 +1575,17 @@ msgid ""
 "failure."
 msgstr "El intento de coneutar a la máquina falló."
 
-#: rdp/rdpviewfactory.cpp:38
+#: rdp/rdpviewfactory.cpp:39
 #, fuzzy
 msgid "Connect to a Windows Remote Desktop (RDP)"
 msgstr "Coneutar a una ventana d'escritoriu remotu (RDP)"
 
-#: rdp/rdpviewfactory.cpp:69
+#: rdp/rdpviewfactory.cpp:70
 #, fuzzy
 msgid "New RDP Connection..."
 msgstr "Nueva conexón RDP"
 
-#: rdp/rdpviewfactory.cpp:79
+#: rdp/rdpviewfactory.cpp:80
 #, fuzzy
 msgid ""
 "<html>Enter the address here. Port is optional.<br /><i>Example: "
@@ -1630,7 +1594,7 @@ msgstr ""
 "<html>Introducir la direición equí. El puertu ye opcional.<br /><i>Exemplu: "
 "rdpserver:3389 (host:port)</i></html>"
 
-#: rdp/rdpviewfactory.cpp:86
+#: rdp/rdpviewfactory.cpp:87
 #, fuzzy
 #| msgid ""
 #| "The application \"rdesktop\" cannot be found on your system; make sure it "
@@ -1642,38 +1606,38 @@ msgstr ""
 "Nun s'alcuentra «rdesktop» nel so sistema; por favor asegúrese de que lu "
 "tien instaláu correcho si necesita'l sofitu RDP."
 
-#: remotedesktopsmodel.cpp:123
+#: remotedesktopsmodel.cpp:126
 #, fuzzy
 msgctxt "Where each displayed link comes from"
 msgid "Zeroconf"
 msgstr "Zeroconf"
 
-#: remotedesktopsmodel.cpp:125
+#: remotedesktopsmodel.cpp:128
 msgctxt "Where each displayed link comes from"
 msgid "None"
 msgstr ""
 
-#: remotedesktopsmodel.cpp:140
+#: remotedesktopsmodel.cpp:143
 #, kde-format
 msgctxt "Remove the selected url from the bookarks menu"
 msgid "Remove the bookmark for %1."
 msgstr ""
 
-#: remotedesktopsmodel.cpp:142
+#: remotedesktopsmodel.cpp:145
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "Add the selected url to the bookmarks menu"
 msgid "Bookmark %1."
 msgstr "Marcadores"
 
-#: remotedesktopsmodel.cpp:181
+#: remotedesktopsmodel.cpp:184
 #, fuzzy
 #| msgid "Remote Desktops"
 msgctxt "Header of the connections list, title/url for remote connection"
 msgid "Remote Desktop"
 msgstr "Escritorios remotos"
 
-#: remotedesktopsmodel.cpp:183
+#: remotedesktopsmodel.cpp:186
 #, fuzzy
 #| msgid "Connected to %1"
 msgctxt ""
@@ -1681,68 +1645,68 @@ msgctxt ""
 msgid "Last Connected"
 msgstr "Coneutáu a %1"
 
-#: remotedesktopsmodel.cpp:185
+#: remotedesktopsmodel.cpp:188
 msgctxt ""
 "Header of the connections list, the number of times this connection has been "
 "visited"
 msgid "Visits"
 msgstr ""
 
-#: remotedesktopsmodel.cpp:187
+#: remotedesktopsmodel.cpp:190
 msgctxt "Header of the connections list, the time when this entry was created"
 msgid "Created"
 msgstr ""
 
-#: remotedesktopsmodel.cpp:189
+#: remotedesktopsmodel.cpp:192
 msgctxt "Header of the connections list, where this entry comes from"
 msgid "Source"
 msgstr ""
 
-#: vnc/vncclientthread.cpp:255
+#: vnc/vncclientthread.cpp:256
 #, fuzzy
 #| msgid "VNC authentication failed."
 msgid "VNC authentication type is not supported."
 msgstr "Fallu de autenticación VNC."
 
-#: vnc/vncclientthread.cpp:279
+#: vnc/vncclientthread.cpp:280
 #, fuzzy
 msgid "Server not found."
 msgstr "Sirvidor non alcontráu."
 
-#: vnc/vncclientthread.cpp:296 vnc/vncclientthread.cpp:370
+#: vnc/vncclientthread.cpp:297 vnc/vncclientthread.cpp:371
 #, fuzzy
 msgid "VNC authentication failed."
 msgstr "Fallu de autenticación VNC."
 
-#: vnc/vncclientthread.cpp:301
+#: vnc/vncclientthread.cpp:302
 #, fuzzy
 msgid "VNC authentication failed because of too many authentication tries."
 msgstr "Autenticación VNC fallida darréu de munchos intentos d'autenticación."
 
-#: vnc/vncclientthread.cpp:305
+#: vnc/vncclientthread.cpp:306
 #, fuzzy
 msgid "VNC server closed connection."
 msgstr "Conexón zarrada col sirvidor VNC."
 
-#: vnc/vncclientthread.cpp:312
+#: vnc/vncclientthread.cpp:313
 #, fuzzy, kde-format
 #| msgid "Disconnect"
 msgid "Disconnected: %1."
 msgstr "Desconeutar"
 
-#: vnc/vncclientthread.cpp:498
+#: vnc/vncclientthread.cpp:499
 #, fuzzy
 #| msgid "New Connection"
 msgid "Reconnecting."
 msgstr "Nueva Conexón"
 
-#: vnc/vncclientthread.cpp:566
+#: vnc/vncclientthread.cpp:567
 #, fuzzy
 #| msgid "Disconnect"
 msgid "Reconnected."
 msgstr "Desconeutar"
 
-#: vnc/vncclientthread.cpp:568
+#: vnc/vncclientthread.cpp:569
 #, fuzzy
 #| msgid "Connection"
 msgid "Connected."
@@ -1797,27 +1761,27 @@ msgstr "Baxa calidá (Módem, RDSI, Internet lentu)"
 msgid "Scale to Size:"
 msgstr ""
 
-#: vnc/vncview.cpp:291
+#: vnc/vncview.cpp:292
 #, fuzzy
 msgid "Authentication failed. Please try again."
 msgstr "Fallu d'autenticación. Inténtelu otra vegada."
 
-#: vnc/vncview.cpp:316 vnc/vncview.cpp:318
+#: vnc/vncview.cpp:317 vnc/vncview.cpp:319
 #, fuzzy
 msgid "VNC failure"
 msgstr "Fallu VNC"
 
-#: vnc/vncviewfactory.cpp:64
+#: vnc/vncviewfactory.cpp:65
 #, fuzzy
 msgid "New VNC Connection..."
 msgstr "Nueva conexón VNC"
 
-#: vnc/vncviewfactory.cpp:69
+#: vnc/vncviewfactory.cpp:70
 #, fuzzy
 msgid "Connect to a VNC Remote Desktop"
 msgstr "Coneutar a un escritoriu remotu VNC"
 
-#: vnc/vncviewfactory.cpp:74
+#: vnc/vncviewfactory.cpp:75
 #, fuzzy
 msgid ""
 "<html>Enter the address here.<br /><i>Example: vncserver:1 (host:port / "
@@ -1826,4 +1790,31 @@ msgstr ""
 "<html>Introducir la direición equí.<br /><i>Exemplu: vncserver:1 (host:"
 "port / screen)</i></html>"
 
+#, fuzzy
+#~ msgid "Invitation to view remote desktop"
+#~ msgstr "Invitación pa ver un escritoriu remotu"
 
+#, fuzzy
+#~ msgid "%1 wants to share his/her desktop with you"
+#~ msgstr "%1 quier compartir el so escritoriu contigu"
+
+#, fuzzy
+#~ msgid "Accept"
+#~ msgstr "Aceutar"
+
+#, fuzzy
+#~ msgid "Reject"
+#~ msgstr "Refugar"
+
+#, fuzzy
+#~ msgid "Approver for KRDC"
+#~ msgstr "Aprobar pa KRDC"
+
+#, fuzzy
+#~ msgid "(C) 2009, Abner Silva"
+#~ msgstr "(C) 2009, Abner Silva"
+
+#, fuzzy
+#~ msgctxt "@info:credit"
+#~ msgid "Abner Silva"
+#~ msgstr "Abner Silva"
