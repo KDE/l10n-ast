@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4-v1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-08 08:28+0000\n"
+"POT-Creation-Date: 2016-03-15 09:00+0000\n"
 "PO-Revision-Date: 2016-03-06 22:20+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -5904,23 +5904,36 @@ msgstr ""
 msgid "Choose the name of the program with which to open the selected files."
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:532
+#: widgets/kopenwithdialog.cpp:518
+#, kde-format
+msgid "<qt>Select the program you want to use to open the file<br/>%1</qt>"
+msgstr ""
+
+#: widgets/kopenwithdialog.cpp:520
+#, kde-format
+msgid "<qt>Select the program you want to use to open the file.</qt>"
+msgid_plural ""
+"<qt>Select the program you want to use to open the %1 files.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/kopenwithdialog.cpp:524 widgets/kopenwithdialog.cpp:553
+msgid "Choose Application"
+msgstr "Escoyeta d'aplicación"
+
+#: widgets/kopenwithdialog.cpp:535
 #, kde-format
 msgid "Choose Application for %1"
 msgstr "Escoyeta d'aplicación pa %1"
 
-#: widgets/kopenwithdialog.cpp:533
+#: widgets/kopenwithdialog.cpp:536
 #, kde-format
 msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
 "listed, enter the name or click the browse button.</qt>"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:550
-msgid "Choose Application"
-msgstr "Escoyeta d'aplicación"
-
-#: widgets/kopenwithdialog.cpp:551
+#: widgets/kopenwithdialog.cpp:554
 msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
 "the browse button.</qt>"
@@ -5928,7 +5941,7 @@ msgstr ""
 "<qt>Esbilla un programa. Si nun ta llistáu, introduz el nome o primi nel "
 "botón de restolar.</qt>"
 
-#: widgets/kopenwithdialog.cpp:612
+#: widgets/kopenwithdialog.cpp:615
 msgid ""
 "Following the command, you can have several place holders which will be "
 "replaced with the actual values when the actual program is run:\n"
@@ -5944,15 +5957,15 @@ msgid ""
 "%c - the comment"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:647
+#: widgets/kopenwithdialog.cpp:650
 msgid "Run in &terminal"
 msgstr "Executar na &terminal"
 
-#: widgets/kopenwithdialog.cpp:665
+#: widgets/kopenwithdialog.cpp:668
 msgid "&Do not close when command exits"
 msgstr "&Nun zarrar cuando'l comandu cole"
 
-#: widgets/kopenwithdialog.cpp:682
+#: widgets/kopenwithdialog.cpp:685
 #, fuzzy, kde-format
 #| msgid "&Remember application association for this type of file"
 msgid ""
@@ -5960,14 +5973,14 @@ msgid ""
 "\"%1\" (%2)"
 msgstr "&Recordar asociación d'aplicación pa esta triba de ficheru"
 
-#: widgets/kopenwithdialog.cpp:836
+#: widgets/kopenwithdialog.cpp:839
 #, kde-format
 msgid ""
 "Could not extract executable name from '%1', please type a valid program "
 "name."
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:886
+#: widgets/kopenwithdialog.cpp:889
 #, kde-format
 msgid "'%1' not found, please type a valid program name."
 msgstr "«%1» nun s'alcontró, por favor teclexa un nome de programa válidu."
@@ -6770,10 +6783,6 @@ msgstr "<qt>Nun tienes permisu pa executar <b>%1</b>.</qt>"
 msgid "You are not authorized to select an application to open this file."
 msgstr "Nun tas autorizáu pa esbillar una aplicación p'abrir esti ficheru."
 
-#: widgets/krun.cpp:250
-msgid "Open with:"
-msgstr "Abrir con:"
-
 #: widgets/krun.cpp:300
 msgid "You are not authorized to execute this file."
 msgstr "Nun tas autorizáu pa executar esti ficheru."
@@ -7189,6 +7198,9 @@ msgid ""
 msgstr ""
 "L'agospiu remotu nun unvió certificáu SSL dalu.\n"
 "Albortando porque nun pue afitase la identida l'agospiu."
+
+#~ msgid "Open with:"
+#~ msgstr "Abrir con:"
 
 #~ msgctxt "KFile System Bookmarks"
 #~ msgid "Home"

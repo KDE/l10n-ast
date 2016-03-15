@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-14 07:20+0000\n"
+"POT-Creation-Date: 2016-03-15 09:05+0000\n"
 "PO-Revision-Date: 2016-01-30 00:50+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -390,44 +390,44 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: src/midisequencer.cpp:51 src/minuet.cpp:51 src/minuet.cpp:102
-msgid "Minuet startup"
-msgstr ""
-
 #: src/midisequencer.cpp:51
 #, kde-format
 msgid ""
 "Fatal error from the ALSA sequencer: \"%1\". This usually happens when the "
 "kernel doesn't have ALSA support, or the device node (/dev/snd/seq) doesn't "
-"exists, or the kernel module (snd_seq) is not loaded. Please check your ALSA/"
-"MIDI configuration."
+"exists, or the kernel module (snd_seq) is not loaded, or the user isn't a "
+"member of audio group. Please check your ALSA/MIDI configuration."
 msgstr ""
 
-#: src/minuet.cpp:52
+#: src/midisequencer.cpp:58 src/minuet.cpp:58 src/minuet.cpp:113
+msgid "Minuet startup"
+msgstr ""
+
+#: src/minuet.cpp:57
 #, kde-format
 msgid "There was an error when parsing exercises JSON files: \"%1\"."
 msgstr ""
 
-#: src/minuet.cpp:65
+#: src/minuet.cpp:72
 msgid "Run Configuration Wizard"
 msgstr ""
 
-#: src/minuet.cpp:93
+#: src/minuet.cpp:100
 msgid "error when waiting for TiMidity++ output ports!"
 msgstr ""
 
-#: src/minuet.cpp:102
+#: src/minuet.cpp:110
 #, kde-format
 msgid ""
 "There was an error when starting TiMidity++: \"%1\". Is another application "
 "using the audio system? Also, please check Minuet settings!"
 msgstr ""
 
-#: src/minuet.cpp:142
+#: src/minuet.cpp:153
 msgid "Open File"
 msgstr ""
 
-#: src/minuet.cpp:167
+#: src/minuet.cpp:178
 msgid "MIDI"
 msgstr ""
 
@@ -566,10 +566,10 @@ msgstr ""
 msgid "Required for setting up TiMidity++ sound sources"
 msgstr ""
 
-#: src/wizard.cpp:124
+#: src/wizard.cpp:125
 msgid "A TiMidity++ sound source"
 msgstr ""
 
-#: src/wizard.cpp:124
+#: src/wizard.cpp:125
 msgid "No TiMidity++ sound source found! Sounds won't work!"
 msgstr ""

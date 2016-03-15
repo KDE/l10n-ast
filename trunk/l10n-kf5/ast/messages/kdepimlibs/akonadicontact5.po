@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-07 08:38+0000\n"
+"POT-Creation-Date: 2016-03-15 09:10+0000\n"
 "PO-Revision-Date: 2016-02-10 12:07+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -561,9 +561,10 @@ msgstr "Campos personalizaos"
 
 #: editor/customfieldeditor/customfieldeditorwidget.cpp:41
 #, fuzzy
-#| msgid "Edit Custom Field"
-msgid "Title Custom Type"
-msgstr "Esbillar campu personalizáu"
+#| msgctxt "@title:tab"
+#| msgid "Custom Fields"
+msgid "Custom Field Title"
+msgstr "Campos personalizaos"
 
 #: editor/customfieldeditor/customfieldeditorwidget.cpp:49
 #: editor/personaleditor/personaleditorwidget.cpp:58
@@ -664,11 +665,13 @@ msgid "Email"
 msgstr "Corréu"
 
 #: editor/generalinfoeditor/mail/mailwidget.cpp:43
-msgid "Add an email account"
-msgstr ""
+#, fuzzy
+#| msgid "Add Email"
+msgid "Add an Email Account"
+msgstr "Amestar correu"
 
 #: editor/generalinfoeditor/mail/mailwidget.cpp:50
-#: editor/generalinfoeditor/web/webwidget.cpp:46
+#: editor/generalinfoeditor/web/webwidget.cpp:49
 #, fuzzy
 #| msgctxt "@item:inlistbox select from a list of IM protocols"
 #| msgid "Select..."
@@ -676,7 +679,7 @@ msgid "Select..."
 msgstr "Esbillar..."
 
 #: editor/generalinfoeditor/mail/mailwidget.cpp:51
-#: editor/generalinfoeditor/web/webwidget.cpp:47
+#: editor/generalinfoeditor/web/webwidget.cpp:50
 #, fuzzy
 #| msgctxt "@title:column home address of a person"
 #| msgid "Home"
@@ -684,7 +687,7 @@ msgid "Home"
 msgstr "Casa"
 
 #: editor/generalinfoeditor/mail/mailwidget.cpp:52
-#: editor/generalinfoeditor/web/webwidget.cpp:48
+#: editor/generalinfoeditor/web/webwidget.cpp:51
 #, fuzzy
 #| msgctxt "@title:column work address of a person"
 #| msgid "Work"
@@ -697,6 +700,18 @@ msgstr "Trabayu"
 #| msgid "Other..."
 msgid "Other"
 msgstr "Otru..."
+
+#: editor/generalinfoeditor/mail/mailwidget.cpp:59
+#, fuzzy
+#| msgid "Add Email"
+msgid "Add an Email"
+msgstr "Amestar correu"
+
+#: editor/generalinfoeditor/mail/mailwidget.cpp:66
+#, fuzzy
+#| msgid "Remove logo"
+msgid "Remove Email"
+msgstr "Desaniciar llogu"
 
 #: editor/generalinfoeditor/messaging/messaginglistwidget.cpp:39
 #, fuzzy
@@ -714,6 +729,16 @@ msgstr "Amestar nome"
 msgctxt "@item:inlistbox select from a list of IM protocols"
 msgid "Select..."
 msgstr "Esbillar..."
+
+#: editor/generalinfoeditor/messaging/messagingwidget.cpp:65
+#, fuzzy
+#| msgid "Add name"
+msgid "Add an IM"
+msgstr "Amestar nome"
+
+#: editor/generalinfoeditor/messaging/messagingwidget.cpp:72
+msgid "Add IM"
+msgstr ""
 
 #: editor/generalinfoeditor/nameeditdialog.cpp:36
 msgid "Edit Contact Name"
@@ -810,17 +835,30 @@ msgid "Edit Phone Number"
 msgstr "Editar númberu de teléfonu"
 
 #: editor/generalinfoeditor/phone/phonewidget.cpp:41
+#: editor/generalinfoeditor/phone/phonewidget.cpp:52
 #, fuzzy
 #| msgid "Edit Phone Number"
-msgid "Add a phone number"
+msgid "Add a Phone Number"
 msgstr "Editar númberu de teléfonu"
+
+#: editor/generalinfoeditor/phone/phonewidget.cpp:59
+#, fuzzy
+#| msgctxt "@title:column phone numbers of a person"
+#| msgid "Phone Numbers"
+msgid "Remove Phone Number"
+msgstr "Númberos de teléfonu"
 
 #: editor/generalinfoeditor/web/weblistwidget.cpp:40
 msgid "Web"
 msgstr ""
 
-#: editor/generalinfoeditor/web/webwidget.cpp:40
-msgid "Add a web site"
+#: editor/generalinfoeditor/web/webwidget.cpp:42
+#: editor/generalinfoeditor/web/webwidget.cpp:57
+msgid "Add a Web Site"
+msgstr ""
+
+#: editor/generalinfoeditor/web/webwidget.cpp:64
+msgid "Remove Web Site"
 msgstr ""
 
 #: editor/personaleditor/dateeditwidget.cpp:40
@@ -1461,6 +1499,11 @@ msgstr "Copiar códigu"
 msgid "<p style=\"color: white;\"><b>Waiting for operation</b><br/></p>"
 msgstr ""
 
+#, fuzzy
+#~| msgid "Edit Custom Field"
+#~ msgid "Title Custom Type"
+#~ msgstr "Esbillar campu personalizáu"
+
 #~ msgid "This is the preferred phone number"
 #~ msgstr "Esti ye'l númberu teléfonu preferíu"
 
@@ -1475,9 +1518,6 @@ msgstr ""
 
 #~ msgid "Edit..."
 #~ msgstr "Editar..."
-
-#~ msgid "Add Email"
-#~ msgstr "Amestar correu"
 
 #~ msgid "New Email:"
 #~ msgstr "Corréu nuevu:"
@@ -1544,11 +1584,6 @@ msgstr ""
 
 #~ msgid "HTML"
 #~ msgstr "HTML"
-
-#, fuzzy
-#~| msgid "Add name"
-#~ msgid "Add a name"
-#~ msgstr "Amestar nome"
 
 #~ msgctxt "@title:window"
 #~ msgid "Edit Instant Messaging Addresses"
