@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-16 07:16+0000\n"
+"POT-Creation-Date: 2016-03-24 07:52+0000\n"
 "PO-Revision-Date: 2016-02-09 18:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -42,7 +42,7 @@ msgid "Memory Consumed"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (ChartWidget, temporaryTab)
-#: gui/chartmodel.cpp:74 gui/mainwindow.ui:482
+#: gui/chartmodel.cpp:74 gui/flamegraph.cpp:329 gui/mainwindow.ui:482
 msgid "Temporary Allocations"
 msgstr ""
 
@@ -69,22 +69,84 @@ msgstr ""
 msgid "<qt>%2 allocated after %3 from:<p style='margin-left:10px'>%1</p></qt>"
 msgstr ""
 
-#: gui/flamegraph.cpp:131
+#: gui/flamegraph.cpp:156
 #, kde-format
 msgctxt "%1: number of allocations, %2: function label"
 msgid "%1 allocations in %2 and below."
 msgstr ""
 
-#: gui/flamegraph.cpp:226 gui/histogrammodel.cpp:75
+#: gui/flamegraph.cpp:160
+#, kde-format
+msgctxt "%1: number of temporary allocations, %2: function label"
+msgid "%1 temporary allocations in %2 and below."
+msgstr ""
+
+#: gui/flamegraph.cpp:164
+#, kde-format
+msgctxt "%1: peak consumption in bytes, %2: function label"
+msgid "%1 peak consumption in %2 and below."
+msgstr ""
+
+#: gui/flamegraph.cpp:168
+#, kde-format
+msgctxt "%1: leaked bytes, %2: function label"
+msgid "%1 leaked in %2 and below."
+msgstr ""
+
+#: gui/flamegraph.cpp:172
+#, kde-format
+msgctxt "%1: allocated bytes, %2: function label"
+msgid "%1 allocated in %2 and below."
+msgstr ""
+
+#: gui/flamegraph.cpp:293 gui/histogrammodel.cpp:75
 #, kde-format
 msgid "%1 allocations in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:253
+#: gui/flamegraph.cpp:296
+#, kde-format
+msgid "%1 temporary allocations in total"
+msgstr ""
+
+#: gui/flamegraph.cpp:299
+#, kde-format
+msgid "%1 peak consumption in total"
+msgstr ""
+
+#: gui/flamegraph.cpp:302
+#, kde-format
+msgid "%1 leaked in total"
+msgstr ""
+
+#: gui/flamegraph.cpp:305
+#, kde-format
+msgid "%1 allocated in total"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (ChartWidget, allocationsTab)
+#: gui/flamegraph.cpp:328 gui/mainwindow.ui:477 gui/treemodel.cpp:93
+msgid "Allocations"
+msgstr ""
+
+#: gui/flamegraph.cpp:330
+msgid "Peak Consumption"
+msgstr ""
+
+#: gui/flamegraph.cpp:331 gui/treemodel.cpp:99
+msgid "Leaked"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (ChartWidget, allocatedTab)
+#: gui/flamegraph.cpp:332 gui/mainwindow.ui:487 gui/treemodel.cpp:101
+msgid "Allocated"
+msgstr ""
+
+#: gui/flamegraph.cpp:342
 msgid "Bottom-Down View"
 msgstr ""
 
-#: gui/flamegraph.cpp:320
+#: gui/flamegraph.cpp:415
 msgid "generating flame graph..."
 msgstr ""
 
@@ -314,16 +376,6 @@ msgstr ""
 msgid "Consumed"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (ChartWidget, allocationsTab)
-#: gui/mainwindow.ui:477 gui/treemodel.cpp:93
-msgid "Allocations"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (ChartWidget, allocatedTab)
-#: gui/mainwindow.ui:487 gui/treemodel.cpp:101
-msgid "Allocated"
-msgstr ""
-
 #. i18n: ectx: attribute (title), widget (HistogramWidget, sizesTab)
 #: gui/mainwindow.ui:492
 msgid "Sizes"
@@ -429,10 +481,6 @@ msgstr ""
 msgid "Peak"
 msgstr ""
 
-#: gui/treemodel.cpp:99
-msgid "Leaked"
-msgstr ""
-
 #: gui/treemodel.cpp:103
 msgid "Location"
 msgstr "Allugamientu"
@@ -507,7 +555,7 @@ msgstr ""
 msgid "%1 in %2:%3 (%4)"
 msgstr ""
 
-#: gui/treemodel.cpp:198 gui/treemodel.cpp:215
+#: gui/treemodel.cpp:199 gui/treemodel.cpp:222
 #, kde-format
 msgctxt "1: function, 2: file, 3: line, 4: module"
 msgid ""
@@ -516,17 +564,25 @@ msgid ""
 "  in %4"
 msgstr ""
 
-#: gui/treemodel.cpp:202
+#: gui/treemodel.cpp:203 gui/treemodel.cpp:227
+#, kde-format
+msgctxt "1: function, 2: module"
+msgid ""
+"%1\n"
+"  in %2"
+msgstr ""
+
+#: gui/treemodel.cpp:208
 #, kde-format
 msgid ""
 "allocated %1 over %2 calls (%3 temporary, i.e. %4%), peak at %5, leaked %6"
 msgstr ""
 
-#: gui/treemodel.cpp:211
+#: gui/treemodel.cpp:217
 msgid "backtrace:"
 msgstr ""
 
-#: gui/treemodel.cpp:221
+#: gui/treemodel.cpp:234
 #, kde-format
 msgid "called from one location"
 msgid_plural "called from %1 locations"
