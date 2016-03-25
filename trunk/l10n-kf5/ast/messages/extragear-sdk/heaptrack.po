@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-24 07:52+0000\n"
+"POT-Creation-Date: 2016-03-25 07:39+0000\n"
 "PO-Revision-Date: 2016-02-09 18:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -25,6 +25,198 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
+#: gui/callercalleemodel.cpp:64 gui/treemodel.cpp:85
+msgid "File"
+msgstr "Ficheru"
+
+#: gui/callercalleemodel.cpp:66 gui/treemodel.cpp:87
+msgid "Line"
+msgstr "Llinia"
+
+#: gui/callercalleemodel.cpp:68 gui/treemodel.cpp:89
+msgid "Function"
+msgstr "Función"
+
+#: gui/callercalleemodel.cpp:70 gui/treemodel.cpp:91
+msgid "Module"
+msgstr "Módulu"
+
+#: gui/callercalleemodel.cpp:72
+msgid "Allocations (Self)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:74
+msgid "Temporary (Self)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:76
+msgid "Peak (Self)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:78
+msgid "Leaked (Self)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:80
+msgid "Allocated (Self)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:82
+msgid "Allocations (Incl.)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:84
+msgid "Temporary (Incl.)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:86
+msgid "Peak (Incl.)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:88
+msgid "Leaked (Incl.)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:90
+msgid "Allocated (Incl.)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:92 gui/treemodel.cpp:103
+msgid "Location"
+msgstr "Allugamientu"
+
+#: gui/callercalleemodel.cpp:99 gui/treemodel.cpp:110
+msgid ""
+"<qt>The file where the allocation function was called from. May be empty "
+"when debug information is missing.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:102 gui/treemodel.cpp:113
+msgid ""
+"<qt>The line number where the allocation function was called from. May be "
+"empty when debug information is missing.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:105 gui/treemodel.cpp:116
+msgid ""
+"<qt>The parent function that called an allocation function. May be unknown "
+"when debug information is missing.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:108 gui/treemodel.cpp:119
+msgid ""
+"<qt>The module, i.e. executable or shared library, from which an allocation "
+"function was called.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:110
+msgid ""
+"<qt>The number of times an allocation function was directly called from this "
+"location.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:112
+msgid ""
+"<qt>The number of direct temporary allocations. These allocations are "
+"directly followed by a free without any other allocations in-between.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:114
+msgid ""
+"<qt>The maximum heap memory in bytes consumed from allocations originating "
+"directly at this location. This takes deallocations into account.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:117
+msgid ""
+"<qt>The bytes allocated directly at this location that have not been "
+"deallocated.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:119
+msgid ""
+"<qt>The sum of all bytes directly allocated from this location, ignoring "
+"deallocations.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:121
+msgid ""
+"<qt>The inclusive number of times an allocation function was called from "
+"this location or any functions called from here.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:123
+msgid ""
+"<qt>The number of inclusive temporary allocations. These allocations are "
+"directly followed by a free without any other allocations in-between.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:125
+msgid ""
+"<qt>The inclusive maximum heap memory in bytes consumed from allocations "
+"originating at this location or from functions called from here. This takes "
+"deallocations into account.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:128 gui/treemodel.cpp:128
+msgid ""
+"<qt>The bytes allocated at this location that have not been deallocated.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:130
+msgid ""
+"<qt>The inclusive sum of all bytes allocated from this location or functions "
+"called from here, ignoring deallocations.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:132 gui/treemodel.cpp:132
+msgid ""
+"<qt>The location from which an allocation function was called. Function "
+"symbol and file information may be unknown when debug information was "
+"missing when heaptrack was run.</qt>"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:206 gui/treemodel.cpp:183
+#, kde-format
+msgid "%1 in ?? (%2)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:210 gui/treemodel.cpp:187
+#, kde-format
+msgid "%1 in %2:%3 (%4)"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:222 gui/treemodel.cpp:199 gui/treemodel.cpp:222
+#, kde-format
+msgctxt "1: function, 2: file, 3: line, 4: module"
+msgid ""
+"%1\n"
+"  at %2:%3\n"
+"  in %4"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:226 gui/treemodel.cpp:203 gui/treemodel.cpp:227
+#, kde-format
+msgctxt "1: function, 2: module"
+msgid ""
+"%1\n"
+"  in %2"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:230
+#, kde-format
+msgid ""
+"inclusive: allocated %1 over %2 calls (%3 temporary, i.e. %4%), peak at %5, "
+"leaked %6"
+msgstr ""
+
+#: gui/callercalleemodel.cpp:235
+#, kde-format
+msgid ""
+"self: allocated %1 over %2 calls (%3 temporary, i.e. %4%), peak at %5, "
+"leaked %6"
+msgstr ""
+
 #: gui/chartmodel.cpp:64
 msgid "Elapsed Time"
 msgstr ""
@@ -42,7 +234,7 @@ msgid "Memory Consumed"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (ChartWidget, temporaryTab)
-#: gui/chartmodel.cpp:74 gui/flamegraph.cpp:329 gui/mainwindow.ui:482
+#: gui/chartmodel.cpp:74 gui/flamegraph.cpp:329 gui/mainwindow.ui:544
 msgid "Temporary Allocations"
 msgstr ""
 
@@ -125,7 +317,7 @@ msgid "%1 allocated in total"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (ChartWidget, allocationsTab)
-#: gui/flamegraph.cpp:328 gui/mainwindow.ui:477 gui/treemodel.cpp:93
+#: gui/flamegraph.cpp:328 gui/mainwindow.ui:539 gui/treemodel.cpp:93
 msgid "Allocations"
 msgstr ""
 
@@ -138,7 +330,7 @@ msgid "Leaked"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (ChartWidget, allocatedTab)
-#: gui/flamegraph.cpp:332 gui/mainwindow.ui:487 gui/treemodel.cpp:101
+#: gui/flamegraph.cpp:332 gui/mainwindow.ui:549 gui/treemodel.cpp:101
 msgid "Allocated"
 msgstr ""
 
@@ -196,82 +388,82 @@ msgstr ""
 msgid "Number of Allocations"
 msgstr ""
 
-#: gui/mainwindow.cpp:163
+#: gui/mainwindow.cpp:172
 #, kde-format
 msgid "<dt><b>debuggee</b>:</dt><dd style='font-family:monospace;'>%1</dd>"
 msgstr ""
 
-#: gui/mainwindow.cpp:165
+#: gui/mainwindow.cpp:174
 #, no-c-format, kde-format
 msgid "<dt><b>total runtime</b>:</dt><dd>%1s</dd>"
 msgstr ""
 
-#: gui/mainwindow.cpp:166
+#: gui/mainwindow.cpp:175
 #, c-format, kde-format
 msgid "<dt><b>total system memory</b>:</dt><dd>%1s</dd>"
 msgstr ""
 
-#: gui/mainwindow.cpp:172
+#: gui/mainwindow.cpp:181
 #, kde-format
 msgid "<dt><b>calls to allocation functions</b>:</dt><dd>%1 (%2/s)</dd>"
 msgstr ""
 
-#: gui/mainwindow.cpp:174
+#: gui/mainwindow.cpp:183
 #, kde-format
 msgid "<dt><b>temporary allocations</b>:</dt><dd>%1 (%2%, %3/s)</dd>"
 msgstr ""
 
-#: gui/mainwindow.cpp:177
+#: gui/mainwindow.cpp:186
 #, kde-format
 msgid ""
 "<dt><b>bytes allocated in total</b> (ignoring deallocations):</dt><dd>%1 (%2/"
 "s)</dd>"
 msgstr ""
 
-#: gui/mainwindow.cpp:184
+#: gui/mainwindow.cpp:193
 #, kde-format
 msgid "<dt><b>peak heap memory consumption</b>:</dt><dd>%1 after %2s</dd>"
 msgstr ""
 
-#: gui/mainwindow.cpp:185
+#: gui/mainwindow.cpp:194
 #, kde-format
 msgid "<dt><b>peak RSS</b> (including heaptrack overhead):</dt><dd>%1</dd>"
 msgstr ""
 
-#: gui/mainwindow.cpp:186
+#: gui/mainwindow.cpp:195
 #, kde-format
 msgid "<dt><b>total memory leaked</b>:</dt><dd>%1</dd>"
 msgstr ""
 
-#: gui/mainwindow.cpp:206
+#: gui/mainwindow.cpp:215
 #, kde-format
 msgid "Failed to parse file %1."
 msgstr ""
 
-#: gui/mainwindow.cpp:268
+#: gui/mainwindow.cpp:311
 msgid "Heaptrack"
 msgstr ""
 
-#: gui/mainwindow.cpp:280
+#: gui/mainwindow.cpp:323
 #, kde-format
 msgid "Loading file %1, please wait..."
 msgstr "Cargando'l ficheru %1, espera por favor..."
 
-#: gui/mainwindow.cpp:281
+#: gui/mainwindow.cpp:324
 #, kde-format
 msgctxt "%1: file name that is open"
 msgid "Heaptrack - %1"
 msgstr ""
 
-#: gui/mainwindow.cpp:288
+#: gui/mainwindow.cpp:331
 msgid "Open Heaptrack Output File"
 msgstr ""
 
-#: gui/mainwindow.cpp:288
+#: gui/mainwindow.cpp:331
 msgid "Heaptrack data files (heaptrack.*)"
 msgstr ""
 
-#: gui/mainwindow.cpp:304
+#: gui/mainwindow.cpp:347
 #, kde-format
 msgid " / %1"
 msgstr ""
@@ -349,107 +541,115 @@ msgid "Bottom-Up"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, bottomUpFilterFunction)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, callerCalleeFilterFunction)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, topDownFilterFunction)
-#: gui/mainwindow.ui:363 gui/mainwindow.ui:428
+#: gui/mainwindow.ui:363 gui/mainwindow.ui:431 gui/mainwindow.ui:490
 msgid "filter by function..."
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, bottomUpFilterFile)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, callerCalleeFilterFile)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, topDownFilterFile)
-#: gui/mainwindow.ui:370 gui/mainwindow.ui:435
+#: gui/mainwindow.ui:370 gui/mainwindow.ui:438 gui/mainwindow.ui:497
 msgid "filter by file..."
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, bottomUpFilterModule)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, callerCalleeFilterModule)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, topDownFilterModule)
-#: gui/mainwindow.ui:377 gui/mainwindow.ui:442
+#: gui/mainwindow.ui:377 gui/mainwindow.ui:445 gui/mainwindow.ui:504
 msgid "filter by module..."
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, topDownTab)
+#. i18n: ectx: attribute (title), widget (QWidget, callerCalleeTab)
 #: gui/mainwindow.ui:407
+msgid "Caller / Callee"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, topDownTab)
+#: gui/mainwindow.ui:469
 msgid "Top-Down"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (ChartWidget, consumedTab)
-#: gui/mainwindow.ui:472
+#: gui/mainwindow.ui:534
 msgid "Consumed"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (HistogramWidget, sizesTab)
-#: gui/mainwindow.ui:492
+#: gui/mainwindow.ui:554
 msgid "Sizes"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (FlameGraph, flameGraphTab)
-#: gui/mainwindow.ui:497
+#: gui/mainwindow.ui:559
 msgid "Flame Graph"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDockWidget, stacksDock)
-#: gui/mainwindow.ui:510
+#: gui/mainwindow.ui:572
 msgid "S&tacks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, stackSpinnerLabel)
-#: gui/mainwindow.ui:535
+#: gui/mainwindow.ui:597
 msgid "Selected Stack:"
 msgstr ""
 
 #: gui/parser.cpp:143 gui/parser.cpp:144 gui/parser.cpp:145 gui/parser.cpp:146
-#: gui/parser.cpp:404
+#: gui/parser.cpp:412
 msgid "total"
 msgstr "total"
 
-#: gui/parser.cpp:407
+#: gui/parser.cpp:415
 msgid "0B to 8B"
 msgstr ""
 
-#: gui/parser.cpp:408
+#: gui/parser.cpp:416
 msgid "9B to 16B"
 msgstr ""
 
-#: gui/parser.cpp:409
+#: gui/parser.cpp:417
 msgid "17B to 32B"
 msgstr ""
 
-#: gui/parser.cpp:410
+#: gui/parser.cpp:418
 msgid "33B to 64B"
 msgstr ""
 
-#: gui/parser.cpp:411
+#: gui/parser.cpp:419
 msgid "65B to 128B"
 msgstr ""
 
-#: gui/parser.cpp:412
+#: gui/parser.cpp:420
 msgid "129B to 256B"
 msgstr ""
 
-#: gui/parser.cpp:413
+#: gui/parser.cpp:421
 msgid "257B to 512B"
 msgstr ""
 
-#: gui/parser.cpp:414
+#: gui/parser.cpp:422
 msgid "512B to 1KB"
 msgstr ""
 
-#: gui/parser.cpp:415
+#: gui/parser.cpp:423
 msgid "more than 1KB"
 msgstr ""
 
-#: gui/parser.cpp:475
+#: gui/parser.cpp:483
 msgid "parsing data..."
 msgstr ""
 
-#: gui/parser.cpp:496
+#: gui/parser.cpp:500
 msgid "merging allocations..."
 msgstr ""
 
-#: gui/parser.cpp:502
+#: gui/parser.cpp:507
 msgid "building size histogram..."
 msgstr ""
 
-#: gui/parser.cpp:507
+#: gui/parser.cpp:512
 msgid "building charts..."
 msgstr ""
 
@@ -457,56 +657,12 @@ msgstr ""
 msgid "Backtrace"
 msgstr ""
 
-#: gui/treemodel.cpp:85
-msgid "File"
-msgstr "Ficheru"
-
-#: gui/treemodel.cpp:87
-msgid "Line"
-msgstr "Llinia"
-
-#: gui/treemodel.cpp:89
-msgid "Function"
-msgstr "Función"
-
-#: gui/treemodel.cpp:91
-msgid "Module"
-msgstr "Módulu"
-
 #: gui/treemodel.cpp:95
 msgid "Temporary"
 msgstr ""
 
 #: gui/treemodel.cpp:97
 msgid "Peak"
-msgstr ""
-
-#: gui/treemodel.cpp:103
-msgid "Location"
-msgstr "Allugamientu"
-
-#: gui/treemodel.cpp:110
-msgid ""
-"<qt>The file where the allocation function was called from. May be empty "
-"when debug information is missing.</qt>"
-msgstr ""
-
-#: gui/treemodel.cpp:113
-msgid ""
-"<qt>The line number where the allocation function was called from. May be "
-"empty when debug information is missing.</qt>"
-msgstr ""
-
-#: gui/treemodel.cpp:116
-msgid ""
-"<qt>The parent function that called an allocation function. May be unknown "
-"when debug information is missing.</qt>"
-msgstr ""
-
-#: gui/treemodel.cpp:119
-msgid ""
-"<qt>The module, i.e. executable or shared library, from which an allocation "
-"function was called.</qt>"
 msgstr ""
 
 #: gui/treemodel.cpp:121
@@ -527,49 +683,10 @@ msgid ""
 "at this location. This takes deallocations into account.</qt>"
 msgstr ""
 
-#: gui/treemodel.cpp:128
-msgid ""
-"<qt>The bytes allocated at this location that have not been deallocated.</qt>"
-msgstr ""
-
 #: gui/treemodel.cpp:130
 msgid ""
 "<qt>The sum of all bytes allocated from this location, ignoring "
 "deallocations.</qt>"
-msgstr ""
-
-#: gui/treemodel.cpp:132
-msgid ""
-"<qt>The location from which an allocation function was called. Function "
-"symbol and file information may be unknown when debug information was "
-"missing when heaptrack was run.</qt>"
-msgstr ""
-
-#: gui/treemodel.cpp:183
-#, kde-format
-msgid "%1 in ?? (%2)"
-msgstr ""
-
-#: gui/treemodel.cpp:187
-#, kde-format
-msgid "%1 in %2:%3 (%4)"
-msgstr ""
-
-#: gui/treemodel.cpp:199 gui/treemodel.cpp:222
-#, kde-format
-msgctxt "1: function, 2: file, 3: line, 4: module"
-msgid ""
-"%1\n"
-"  at %2:%3\n"
-"  in %4"
-msgstr ""
-
-#: gui/treemodel.cpp:203 gui/treemodel.cpp:227
-#, kde-format
-msgctxt "1: function, 2: module"
-msgid ""
-"%1\n"
-"  in %2"
 msgstr ""
 
 #: gui/treemodel.cpp:208
