@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-26 07:49+0000\n"
+"POT-Creation-Date: 2016-03-30 07:32+0000\n"
 "PO-Revision-Date: 2016-03-06 23:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -1395,12 +1395,12 @@ msgid "Extraction failed at:<nl/><filename>%1</filename>"
 msgstr "Falló la estraición en:<nl/><filename>%1</filename>"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:71
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:288
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:300
 msgid "The archive reader could not be initialized."
 msgstr "Nun pudo aniciase'l llector d'archivos."
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:84
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:301
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:313
 msgid "The source file could not be read."
 msgstr "Nun pudo lleese'l ficheru fonte."
 
@@ -1412,13 +1412,13 @@ msgstr ""
 "Fallu al crear el ficheru temporal pa comprimir <filename>%1</filename>."
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:101
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:317
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:329
 msgid "The archive writer could not be initialized."
 msgstr "Nun pudo aniciase l'escritor de ficheros."
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:143
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:183
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:347
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:359
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1429,13 +1429,27 @@ msgstr ""
 "><message>%1</message>"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:177
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:342
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:354
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr "La triba de compresión «%1» nun ta softada por Ark."
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:191
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:354
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:194
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Setting the compression method failed with the following error:<nl/"
+#| "><message>%1</message>"
+msgctxt "@info"
+msgid ""
+"Setting the compression level failed with the following error:<nl/><message>"
+"%1</message>"
+msgstr ""
+"Falló l'afitamientu del métodu de compresión col fallu de darréu:<nl/"
+"><message>%1</message>"
+
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:203
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:366
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1445,8 +1459,8 @@ msgstr ""
 "Falló l'apertura del archivu pa escritura col fallu de darréu: <nl/> "
 "<message>%1</message>"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:258
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:385
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:270
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:397
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1456,12 +1470,12 @@ msgstr ""
 "Falló la operación entrín se procesaba:<nl/><filename>%1</filename><nl/><nl/"
 ">Albortóse la operación."
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:311
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:323
 msgctxt "@info"
 msgid "Failed to create a temporary file."
 msgstr "Fallu al crear el ficheru temporal."
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:443
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:455
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
