@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-31 07:59+0000\n"
+"POT-Creation-Date: 2016-04-07 08:08+0000\n"
 "PO-Revision-Date: 2016-03-06 23:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -259,7 +259,9 @@ msgid "Open Archive"
 msgstr "Abrir archivu"
 
 #: app/mainwindow.cpp:298
-msgid "Create a new Archive"
+#, fuzzy
+#| msgid "Create a new Archive"
+msgid "Create New Archive"
 msgstr "Creación d'un ficheru nuevu"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupCompressFiles)
@@ -271,11 +273,11 @@ msgstr "Ficheros/Carpetes pa comprimir"
 msgid "Compress to Archive"
 msgstr "Comprimir nun ficheru"
 
-#: kerfuffle/addtoarchive.cpp:140
+#: kerfuffle/addtoarchive.cpp:137
 msgid "No input files were given."
 msgstr "Nun se dieron ficheros d'entrada."
 
-#: kerfuffle/addtoarchive.cpp:151
+#: kerfuffle/addtoarchive.cpp:148
 msgid ""
 "You need to either supply a filename for the archive or a suffix (such as "
 "rar, tar.gz) with the <command>--autofilename</command> argument."
@@ -283,15 +285,15 @@ msgstr ""
 "Necesites suministrar o un nome de ficheru pal archivu o un sufixu (como "
 "rar, tar.gz) col argumentu <command>--autofilename</command>."
 
-#: kerfuffle/addtoarchive.cpp:182
+#: kerfuffle/addtoarchive.cpp:179
 msgid "Failed to create the new archive. No suitable plugin found."
 msgstr "Fallu al crear l'archivu nuevu. Nun s'alcontró un plugin afayadizu."
 
-#: kerfuffle/addtoarchive.cpp:187
+#: kerfuffle/addtoarchive.cpp:184
 msgid "Failed to create the new archive. Could not load a suitable plugin."
 msgstr "Fallu al crear l'archivu nuevu. Nun pudo cargase un plugin afayadizu."
 
-#: kerfuffle/addtoarchive.cpp:192
+#: kerfuffle/addtoarchive.cpp:189
 msgid "It is not possible to create archives of this type."
 msgstr "Nun ye posible crear archivos d'esta triba."
 
@@ -365,66 +367,89 @@ msgid_plural "Failed to locate programs <filename>%2</filename> on disk."
 msgstr[0] "Fallu al allugar el programa <filename>%2</filename> nel discu."
 msgstr[1] "Fallu al allugar los programes <filename>%2</filename> nel discu."
 
-#: kerfuffle/cliinterface.cpp:903
+#: kerfuffle/cliinterface.cpp:898
 #, fuzzy
 #| msgid "Extraction failed because of an unexpected error."
 msgctxt "@info"
 msgid "Extraction failed because the disk is full."
 msgstr "Falló la estraición pola mor d'un fallu inesperáu."
 
-#: kerfuffle/cliinterface.cpp:911
+#: kerfuffle/cliinterface.cpp:906
 msgctxt "@info"
 msgid "Extraction failed: Incorrect password"
 msgstr "Falló la estraición: contraseña incorreuta"
 
-#: kerfuffle/cliinterface.cpp:918 kerfuffle/cliinterface.cpp:960
+#: kerfuffle/cliinterface.cpp:913 kerfuffle/cliinterface.cpp:955
 msgid "Extraction failed because of an unexpected error."
 msgstr "Falló la estraición pola mor d'un fallu inesperáu."
 
-#: kerfuffle/cliinterface.cpp:953
+#: kerfuffle/cliinterface.cpp:948
 msgid "Incorrect password."
 msgstr "Contraseña incorreuta."
 
-#: kerfuffle/createdialog.cpp:165
-msgid "The chosen password does not match the given verification password."
-msgstr "La contraseña escoyida nun concasa cola dada pa la verificación."
-
-#: kerfuffle/createdialog.cpp:168
-msgid "The password cannot be empty."
-msgstr "La contraseña nun pue tar balera."
-
-#: kerfuffle/createdialog.cpp:187
+#: kerfuffle/createdialog.cpp:133
 #, kde-format
 msgid ""
 "Protection of the archive with password is not possible with the %1 format."
 msgstr ""
 "Nun ye posible la proteición del archivu con contraseña col formatu %1."
 
-#: kerfuffle/createdialog.cpp:200
+#: kerfuffle/createdialog.cpp:141
+#, fuzzy, kde-format
+#| msgid "&Automatically create subfolders"
+msgid "Automatically add .%1"
+msgstr "Crear socarpetes &automáticamente"
+
+#: kerfuffle/createdialog.cpp:205
+msgid "The chosen password does not match the given verification password."
+msgstr "La contraseña escoyida nun concasa cola dada pa la verificación."
+
+#: kerfuffle/createdialog.cpp:227
 #, kde-format
 msgid "Protection of the list of files is not possible with the %1 format."
 msgstr "Nun ye posible la proteición del llistáu de ficheros col formatu %1."
 
-#: kerfuffle/createdialog.cpp:226
-msgid "Please select a filename for the archive."
-msgstr "Esbilla un nome de ficheru pal archivu, por favor."
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kerfuffle/createdialog.ui:28
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Add Folder"
+msgid "Folder:"
+msgstr "Amiestu de carpeta"
 
-#: kerfuffle/createdialog.cpp:226
-msgid "No file selected"
-msgstr "Nun s'esbillaron ficheros"
-
-#. i18n: ectx: property (text), widget (QCheckBox, encryptCheckBox)
-#: kerfuffle/createdialog.ui:29
-msgid "Protect the archive with a password"
-msgstr "Protexer l'archivu con una contraseña"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupEncryptionOptions)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kerfuffle/createdialog.ui:45
-msgid "Password options"
+#, fuzzy
+#| msgid "&Archive"
+msgid "Filename:"
+msgstr "&Archivu"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, filenameLineEdit)
+#: kerfuffle/createdialog.ui:52
+#, fuzzy
+#| msgid "&Archive"
+msgid "Type archive name..."
+msgstr "&Archivu"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kerfuffle/createdialog.ui:59
+msgid "Type:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kerfuffle/createdialog.ui:86
+msgid "Extension:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (KCollapsibleGroupBox, collapsibleEncryption)
+#: kerfuffle/createdialog.ui:104
+#, fuzzy
+#| msgid "Password options"
+msgid "Password Protection"
 msgstr "Opciones de contraseña"
 
 #. i18n: ectx: property (text), widget (QCheckBox, encryptHeaderCheckBox)
-#: kerfuffle/createdialog.ui:57
+#: kerfuffle/createdialog.ui:126
 msgid "Ask for password before showing the list of files in the archive"
 msgstr ""
 "Entrugar pola contraseña enantes d'amosar el llistáu de ficheros nel archivu"
@@ -573,22 +598,22 @@ msgstr ""
 "Estrayer a un sodireutoriu si l'archivu tien más d'una entrada de nivel "
 "cimeru"
 
-#: kerfuffle/jobs.cpp:202
+#: kerfuffle/jobs.cpp:210
 msgid "Loading archive..."
 msgstr "Cargando ficheru..."
 
-#: kerfuffle/jobs.cpp:281
+#: kerfuffle/jobs.cpp:289
 msgid "Extracting all files"
 msgstr "Estrayendo tolos ficheros"
 
-#: kerfuffle/jobs.cpp:283
+#: kerfuffle/jobs.cpp:291
 #, kde-format
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "Estrayendo un ficheru"
 msgstr[1] "Estrayendo %1 ficheros"
 
-#: kerfuffle/jobs.cpp:289
+#: kerfuffle/jobs.cpp:297
 #, kde-format
 msgid ""
 "Could not write to destination <filename>%1</filename>.<nl/>Check whether "
@@ -597,14 +622,14 @@ msgstr ""
 "Nun pudo escribise nel destín<filename>%1</filename>.<nl/>Comprueba si "
 "tienes abondos permisos o non."
 
-#: kerfuffle/jobs.cpp:344
+#: kerfuffle/jobs.cpp:352
 #, kde-format
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "Amestando un ficheru"
 msgstr[1] "Amestando %1 ficheros"
 
-#: kerfuffle/jobs.cpp:367
+#: kerfuffle/jobs.cpp:375
 #, kde-format
 msgid "Deleting a file from the archive"
 msgid_plural "Deleting %1 files"
@@ -1500,6 +1525,18 @@ msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr ""
 "Asocedió un fallu entrín se lleía <filename>%1</filename> na estraición."
+
+#~ msgid "The password cannot be empty."
+#~ msgstr "La contraseña nun pue tar balera."
+
+#~ msgid "Please select a filename for the archive."
+#~ msgstr "Esbilla un nome de ficheru pal archivu, por favor."
+
+#~ msgid "No file selected"
+#~ msgstr "Nun s'esbillaron ficheros"
+
+#~ msgid "Protect the archive with a password"
+#~ msgstr "Protexer l'archivu con una contraseña"
 
 #~ msgid "Open File"
 #~ msgstr "Abrir ficheru"
