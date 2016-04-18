@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-08 11:24+0000\n"
+"POT-Creation-Date: 2016-04-18 08:27+0000\n"
 "PO-Revision-Date: 2015-12-14 03:41+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -29,52 +29,73 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
-#. i18n: ectx: property (text), widget (QPushButton, m_fileInstallButton)
-#: DesktopTheme.ui:35
-msgid "Insta&ll from File"
-msgstr "Insta&lar dende ficheru"
+#: kcm.cpp:54
+#, fuzzy
+msgid "Configure Desktop Theme"
+msgstr "Desaniciar tema d'escritoriu"
 
-#. i18n: ectx: property (text), widget (QPushButton, m_newThemeButton)
-#: DesktopTheme.ui:49
-msgid "Get New Themes..."
-msgstr "Consiguir temes nuevos..."
-
-#: kcmdesktoptheme.cpp:52
-msgid ""
-"<h1>Desktop Theme</h1>This module allows you to modify the visual appearance "
-"of the desktop."
+#: kcm.cpp:56
+msgid "David Rosca"
 msgstr ""
-"<h1>Tema d'escritoriu</h1>Esti módulu permítete modificar l'aspeutu visual "
-"del escritoriu."
 
-#: kcmdesktoptheme.cpp:61
-msgid "KDE Desktop Theme Module"
-msgstr "Módulu de temes d'escritoriu KDE"
-
-#: kcmdesktoptheme.cpp:63
-msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
-msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
-
-#: kcmdesktoptheme.cpp:161
-msgid "Open Theme"
-msgstr "Abrir tema"
-
-#: kcmdesktoptheme.cpp:163
-msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
-msgstr "Ficheros de tema (*.zip *.tar.gz *.tar.bz2)"
-
-#: kcmdesktoptheme.cpp:209
+#: kcm.cpp:121
 msgid "Theme installed successfully."
 msgstr "Instalóse con ésitu'l tema."
 
-#: kcmdesktoptheme.cpp:213
-#, kde-format
-msgid "Theme installation failed. (%1)"
-msgstr "Falló la instalación del tema. (%1)"
-
-#: kcmdesktoptheme.cpp:225
+#: kcm.cpp:124 kcm.cpp:131
 msgid "Theme installation failed."
 msgstr "Falló la instalación del tema."
+
+#: kcm.cpp:257 kcm.cpp:265
+#, fuzzy
+#| msgid "Theme installation failed."
+msgid "Theme removal failed."
+msgstr "Falló la instalación del tema."
+
+#: package/contents/ui/main.qml:33
+msgid "This module lets you configure the desktop theme."
+msgstr ""
+
+#: package/contents/ui/main.qml:151
+#, fuzzy
+#| msgid "Get New Themes..."
+msgid "Get new Theme"
+msgstr "Consiguir temes nuevos..."
+
+#: package/contents/ui/main.qml:157
+#, fuzzy
+#| msgid "Insta&ll from File"
+msgid "Install from File"
+msgstr "Insta&lar dende ficheru"
+
+#: package/contents/ui/main.qml:163
+#, fuzzy
+msgid "Remove Theme"
+msgstr "Desaniciar tema"
+
+#: package/contents/ui/main.qml:206
+msgid "Open Theme"
+msgstr "Abrir tema"
+
+#: package/contents/ui/main.qml:208
+msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr "Ficheros de tema (*.zip *.tar.gz *.tar.bz2)"
+
+#~ msgid ""
+#~ "<h1>Desktop Theme</h1>This module allows you to modify the visual "
+#~ "appearance of the desktop."
+#~ msgstr ""
+#~ "<h1>Tema d'escritoriu</h1>Esti módulu permítete modificar l'aspeutu "
+#~ "visual del escritoriu."
+
+#~ msgid "KDE Desktop Theme Module"
+#~ msgstr "Módulu de temes d'escritoriu KDE"
+
+#~ msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+#~ msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
+
+#~ msgid "Theme installation failed. (%1)"
+#~ msgstr "Falló la instalación del tema. (%1)"
 
 #~ msgid "Theme"
 #~ msgstr "Tema"
@@ -149,10 +170,6 @@ msgstr "Falló la instalación del tema."
 #~ msgstr ""
 #~ "Camudáronse los elementos del tema. ¿Entá deseyes desaniciar el tema «%1»?"
 
-#, fuzzy
-#~ msgid "Remove Desktop Theme"
-#~ msgstr "Desaniciar tema d'escritoriu"
-
 #~ msgid "Removal of the default desktop theme is not allowed."
 #~ msgstr "Nun ta permitíu'l desaniciu del tema predetermináu d'escritoriu"
 
@@ -220,10 +237,6 @@ msgstr "Falló la instalación del tema."
 #~ msgstr ""
 #~ "Primiendo nesti botón desaniciaráse'l tema esbilláu. Entrugarásete pola "
 #~ "confiramción."
-
-#, fuzzy
-#~ msgid "Remove Theme"
-#~ msgstr "Desaniciar tema"
 
 #~ msgid "Save your theme in a zip archive"
 #~ msgstr "Guarda'l to tema nun archivu zip"
