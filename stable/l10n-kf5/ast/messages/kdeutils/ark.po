@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-30 10:41+0000\n"
+"POT-Creation-Date: 2016-04-21 11:30+0000\n"
 "PO-Revision-Date: 2016-03-06 23:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -238,27 +238,27 @@ msgstr ""
 "Lleeránse los conteníos del archivu y si se deteuten que nun son un archivu "
 "d'una carpeta, crearáse una socarpeta col nome del archivu"
 
-#: app/mainwindow.cpp:148
+#: app/mainwindow.cpp:149
 msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr ""
 "Nun pue alcontrase'l componente KPart d'Ark. Comprueba la to instalación, "
 "por favor."
 
-#: app/mainwindow.cpp:176
+#: app/mainwindow.cpp:177
 msgctxt "action, to open an archive"
 msgid "Open"
 msgstr "Abrir"
 
-#: app/mainwindow.cpp:177
+#: app/mainwindow.cpp:178
 msgid "Open an archive"
 msgstr "Abrir un archivu"
 
-#: app/mainwindow.cpp:225
+#: app/mainwindow.cpp:226
 msgctxt "to open an archive"
 msgid "Open Archive"
 msgstr "Abrir archivu"
 
-#: app/mainwindow.cpp:298
+#: app/mainwindow.cpp:311
 msgid "Create a new Archive"
 msgstr "Creación d'un ficheru nuevu"
 
@@ -887,15 +887,20 @@ msgstr "&Ficheru"
 msgid "&Settings"
 msgstr "&Axustes"
 
-#: part/arkviewer.cpp:74
+#. i18n: ectx: ToolBar (mainToolBar)
+#: part/ark_part.rc:27
+msgid "Main Toolbar"
+msgstr "Barra de ferramientes principal"
+
+#: part/arkviewer.cpp:76
 msgid "Closing preview"
 msgstr "Zarrando previsualización"
 
-#: part/arkviewer.cpp:75
+#: part/arkviewer.cpp:77
 msgid "Please wait while the preview is being closed..."
 msgstr "Espera entrín se zarra la previsualización, por favor..."
 
-#: part/arkviewer.cpp:133
+#: part/arkviewer.cpp:135
 #, kde-format
 msgid ""
 "The internal viewer cannot preview this type of file<nl/>(%1).<nl/><nl/>Do "
@@ -904,17 +909,17 @@ msgstr ""
 "El visor internu nun pue previsualizar esta triba de ficheru <nl/>(%1).<nl/"
 "><nl/> ¿Quies tentar velu como testu planu?"
 
-#: part/arkviewer.cpp:134 part/arkviewer.cpp:146
+#: part/arkviewer.cpp:136 part/arkviewer.cpp:148
 msgctxt "@title:window"
 msgid "Cannot Preview File"
 msgstr "Nun pue previsualizase'l ficheru"
 
-#: part/arkviewer.cpp:135 part/arkviewer.cpp:147
+#: part/arkviewer.cpp:137 part/arkviewer.cpp:149
 msgctxt "@action:button"
 msgid "Preview as Text"
 msgstr "Previsualizar como testu"
 
-#: part/arkviewer.cpp:145
+#: part/arkviewer.cpp:147
 msgid ""
 "The internal viewer cannot preview this unknown type of file.<nl/><nl/>Do "
 "you want to try to view it as plain text?"
@@ -922,7 +927,7 @@ msgstr ""
 "El visor internu nun pue previsualizar esta triba de ficheru desconocida.<nl/"
 "><nl/> ¿Quies tentar velu como testu planu?"
 
-#: part/arkviewer.cpp:172
+#: part/arkviewer.cpp:174
 msgid "The internal viewer cannot preview this file."
 msgstr "El visor internu nun pue previsualizar esti ficheru."
 
@@ -1489,9 +1494,6 @@ msgstr ""
 
 #~ msgid "Open File"
 #~ msgstr "Abrir ficheru"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "Barra de ferramientes principal"
 
 #~ msgid ""
 #~ "Click to open an extraction dialog, where you can choose how to extract "
