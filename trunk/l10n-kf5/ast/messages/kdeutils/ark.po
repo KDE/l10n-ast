@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-18 08:19+0000\n"
+"POT-Creation-Date: 2016-04-24 07:40+0000\n"
 "PO-Revision-Date: 2016-03-06 23:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -238,27 +238,27 @@ msgstr ""
 "Lleeránse los conteníos del archivu y si se deteuten que nun son un archivu "
 "d'una carpeta, crearáse una socarpeta col nome del archivu"
 
-#: app/mainwindow.cpp:148
+#: app/mainwindow.cpp:149
 msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr ""
 "Nun pue alcontrase'l componente KPart d'Ark. Comprueba la to instalación, "
 "por favor."
 
-#: app/mainwindow.cpp:176
+#: app/mainwindow.cpp:177
 msgctxt "action, to open an archive"
 msgid "Open"
 msgstr "Abrir"
 
-#: app/mainwindow.cpp:177
+#: app/mainwindow.cpp:178
 msgid "Open an archive"
 msgstr "Abrir un archivu"
 
-#: app/mainwindow.cpp:225
+#: app/mainwindow.cpp:226
 msgctxt "to open an archive"
 msgid "Open Archive"
 msgstr "Abrir archivu"
 
-#: app/mainwindow.cpp:298
+#: app/mainwindow.cpp:311
 #, fuzzy
 #| msgid "Create a new Archive"
 msgid "Create New Archive"
@@ -622,22 +622,22 @@ msgstr ""
 "Estrayer a un sodireutoriu si l'archivu tien más d'una entrada de nivel "
 "cimeru"
 
-#: kerfuffle/jobs.cpp:211
+#: kerfuffle/jobs.cpp:209
 msgid "Loading archive..."
 msgstr "Cargando ficheru..."
 
-#: kerfuffle/jobs.cpp:290
+#: kerfuffle/jobs.cpp:288
 msgid "Extracting all files"
 msgstr "Estrayendo tolos ficheros"
 
-#: kerfuffle/jobs.cpp:292
+#: kerfuffle/jobs.cpp:290
 #, kde-format
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "Estrayendo un ficheru"
 msgstr[1] "Estrayendo %1 ficheros"
 
-#: kerfuffle/jobs.cpp:298
+#: kerfuffle/jobs.cpp:296
 #, kde-format
 msgid ""
 "Could not write to destination <filename>%1</filename>.<nl/>Check whether "
@@ -646,14 +646,14 @@ msgstr ""
 "Nun pudo escribise nel destín<filename>%1</filename>.<nl/>Comprueba si "
 "tienes abondos permisos o non."
 
-#: kerfuffle/jobs.cpp:353
+#: kerfuffle/jobs.cpp:351
 #, kde-format
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "Amestando un ficheru"
 msgstr[1] "Amestando %1 ficheros"
 
-#: kerfuffle/jobs.cpp:407
+#: kerfuffle/jobs.cpp:405
 #, kde-format
 msgid "Deleting a file from the archive"
 msgid_plural "Deleting %1 files"
@@ -936,15 +936,20 @@ msgstr "&Ficheru"
 msgid "&Settings"
 msgstr "&Axustes"
 
-#: part/arkviewer.cpp:74
+#. i18n: ectx: ToolBar (mainToolBar)
+#: part/ark_part.rc:27
+msgid "Main Toolbar"
+msgstr "Barra de ferramientes principal"
+
+#: part/arkviewer.cpp:76
 msgid "Closing preview"
 msgstr "Zarrando previsualización"
 
-#: part/arkviewer.cpp:75
+#: part/arkviewer.cpp:77
 msgid "Please wait while the preview is being closed..."
 msgstr "Espera entrín se zarra la previsualización, por favor..."
 
-#: part/arkviewer.cpp:133
+#: part/arkviewer.cpp:135
 #, kde-format
 msgid ""
 "The internal viewer cannot preview this type of file<nl/>(%1).<nl/><nl/>Do "
@@ -953,17 +958,17 @@ msgstr ""
 "El visor internu nun pue previsualizar esta triba de ficheru <nl/>(%1).<nl/"
 "><nl/> ¿Quies tentar velu como testu planu?"
 
-#: part/arkviewer.cpp:134 part/arkviewer.cpp:146
+#: part/arkviewer.cpp:136 part/arkviewer.cpp:148
 msgctxt "@title:window"
 msgid "Cannot Preview File"
 msgstr "Nun pue previsualizase'l ficheru"
 
-#: part/arkviewer.cpp:135 part/arkviewer.cpp:147
+#: part/arkviewer.cpp:137 part/arkviewer.cpp:149
 msgctxt "@action:button"
 msgid "Preview as Text"
 msgstr "Previsualizar como testu"
 
-#: part/arkviewer.cpp:145
+#: part/arkviewer.cpp:147
 msgid ""
 "The internal viewer cannot preview this unknown type of file.<nl/><nl/>Do "
 "you want to try to view it as plain text?"
@@ -971,7 +976,7 @@ msgstr ""
 "El visor internu nun pue previsualizar esta triba de ficheru desconocida.<nl/"
 "><nl/> ¿Quies tentar velu como testu planu?"
 
-#: part/arkviewer.cpp:172
+#: part/arkviewer.cpp:174
 msgid "The internal viewer cannot preview this file."
 msgstr "El visor internu nun pue previsualizar esti ficheru."
 
@@ -1444,12 +1449,12 @@ msgid "Extraction failed at:<nl/><filename>%1</filename>"
 msgstr "Falló la estraición en:<nl/><filename>%1</filename>"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:63
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:293
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:317
 msgid "The archive reader could not be initialized."
 msgstr "Nun pudo aniciase'l llector d'archivos."
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:76
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:306
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:330
 msgid "The source file could not be read."
 msgstr "Nun pudo lleese'l ficheru fonte."
 
@@ -1461,13 +1466,13 @@ msgstr ""
 "Fallu al crear el ficheru temporal pa comprimir <filename>%1</filename>."
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:93
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:322
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:346
 msgid "The archive writer could not be initialized."
 msgstr "Nun pudo aniciase l'escritor de ficheros."
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:135
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:188
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:352
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:139
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:195
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:376
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1477,7 +1482,7 @@ msgstr ""
 "Falló l'afitamientu del métodu de compresión col fallu de darréu:<nl/"
 "><message>%1</message>"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:146
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:150
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -1491,14 +1496,14 @@ msgstr ""
 "Falló l'afitamientu del métodu de compresión col fallu de darréu:<nl/"
 "><message>%1</message>"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:182
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:347
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:187
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:371
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr "La triba de compresión «%1» nun ta softada por Ark."
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:196
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:359
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:203
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:383
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1508,8 +1513,8 @@ msgstr ""
 "Falló l'apertura del archivu pa escritura col fallu de darréu: <nl/> "
 "<message>%1</message>"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:263
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:390
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:284
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:417
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1519,12 +1524,12 @@ msgstr ""
 "Falló la operación entrín se procesaba:<nl/><filename>%1</filename><nl/><nl/"
 ">Albortóse la operación."
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:316
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:340
 msgctxt "@info"
 msgid "Failed to create a temporary file."
 msgstr "Fallu al crear el ficheru temporal."
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:441
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:470
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
@@ -1564,9 +1569,6 @@ msgstr ""
 
 #~ msgid "Open File"
 #~ msgstr "Abrir ficheru"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "Barra de ferramientes principal"
 
 #~ msgid ""
 #~ "Click to open an extraction dialog, where you can choose how to extract "
