@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-15 09:07+0000\n"
+"POT-Creation-Date: 2016-04-26 09:05+0000\n"
 "PO-Revision-Date: 2016-04-12 02:58+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -44,7 +44,7 @@ msgstr "Nun pue guardase la captura. Nun ye válidu'l nome de ficheru."
 msgid "Cannot save an empty screenshot image."
 msgstr "Nun pue guardase una captura d'imaxe balera."
 
-#: src/ExportManager.cpp:348
+#: src/ExportManager.cpp:351
 msgid "Printing failed. The printer failed to initialize."
 msgstr "Fallu d'imprentación. La imprentadora falló al aniciase."
 
@@ -142,42 +142,44 @@ msgid "Rectangular Region"
 msgstr "Rexón rectangular"
 
 #: src/Gui/KSWidget.cpp:72
-msgid " seconds"
-msgstr " segundos"
+#, fuzzy
+#| msgid "Delay:"
+msgid "No Delay"
+msgstr "Retrasu:"
 
-#: src/Gui/KSWidget.cpp:77
+#: src/Gui/KSWidget.cpp:78
 msgid "On Click"
 msgstr "Al primir"
 
-#: src/Gui/KSWidget.cpp:78
+#: src/Gui/KSWidget.cpp:79
 msgid "Wait for a mouse click before capturing the screenshot image"
 msgstr "Espera pol clic del mur enantes de facer la captura"
 
-#: src/Gui/KSWidget.cpp:87
+#: src/Gui/KSWidget.cpp:88
 msgid "Area:"
 msgstr "Área:"
 
-#: src/Gui/KSWidget.cpp:88
+#: src/Gui/KSWidget.cpp:89
 msgid "Delay:"
 msgstr "Retrasu:"
 
-#: src/Gui/KSWidget.cpp:94
+#: src/Gui/KSWidget.cpp:95
 msgid "<b>Content Options</b>"
 msgstr "<b>Opciones del conteníu</b>"
 
-#: src/Gui/KSWidget.cpp:97
+#: src/Gui/KSWidget.cpp:98
 msgid "Include mouse pointer"
 msgstr "Incluyir el punteru'l mur"
 
-#: src/Gui/KSWidget.cpp:98
+#: src/Gui/KSWidget.cpp:99
 msgid "Show the mouse cursor in the screeenshot image"
 msgstr "Amuesa'l cursor del mur na captura de pantalla"
 
-#: src/Gui/KSWidget.cpp:102
+#: src/Gui/KSWidget.cpp:103
 msgid "Include window titlebar and borders"
 msgstr "Incluyir berbesos y títulos de ventanes"
 
-#: src/Gui/KSWidget.cpp:103
+#: src/Gui/KSWidget.cpp:104
 msgid ""
 "Show the window title bar, the minimize/maximize/close buttons, and the "
 "window border"
@@ -185,11 +187,11 @@ msgstr ""
 "Amuesa la barra de títulos de la ventana, los botones de minimizar/maximizar/"
 "zarru y el berbesu de ventana"
 
-#: src/Gui/KSWidget.cpp:108
+#: src/Gui/KSWidget.cpp:109
 msgid "Capture the current pop-up only"
 msgstr "Capturar namái'l ventanu emerxente actual"
 
-#: src/Gui/KSWidget.cpp:109
+#: src/Gui/KSWidget.cpp:110
 msgid ""
 "Capture only the current pop-up window (like a menu, tooltip etc). If this "
 "is not enabled, the pop-up is captured along with the parent window"
@@ -198,7 +200,7 @@ msgstr ""
 "emerxente...). Si esto nun ta habilitao, capturaráse'l ventanu emerxente "
 "xunto cola ventana pá"
 
-#: src/Gui/KSWidget.cpp:124
+#: src/Gui/KSWidget.cpp:125
 msgid "Take a New Screenshot"
 msgstr "Facer una captura nueva"
 
@@ -219,24 +221,44 @@ msgid "Set save button action to last used save method"
 msgstr ""
 
 #: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:65
+#, fuzzy
+#| msgid "Copy To Clipboard"
+msgid "Copy Save Location to Clipboard"
+msgstr "Copiar al cartafueyu"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:72
+msgid ""
+"When a screenshot is saved, copy the location at which the file was saved to "
+"the clipboard. You can then paste it anywhere that accepts text input. Note "
+"that you must be running a clipboard manager in order to keep the path in "
+"the clipboard after Spectacle quits."
+msgstr ""
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:79
+#, fuzzy
+#| msgid "Copied image to clipboard"
+msgid "Copy save location to the clipboard"
+msgstr "Imaxe copiada al cartafueyu"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:90
 msgid "Light Background For Rectangular Region"
 msgstr "Fondu claru pa rexón rectangular"
 
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:72
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:97
 msgid ""
 "Use a light background color to mask the cropped-out area in the rectangular "
 "region selector. This may make dark cursors easier to see."
 msgstr ""
 
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:77
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:102
 msgid "Use light background color"
 msgstr ""
 
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:88
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:113
 msgid "Remember Rectangular Region"
 msgstr "Recordar rexón rectangular"
 
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:95
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:120
 msgid ""
 "By default, Spectacle does not show an initial selection when you take a "
 "screenshot of a rectangular region. Enable this option to remember the last "
@@ -248,7 +270,7 @@ msgstr ""
 "esbillada de la pantalla y afitala como la esbilla inicial al usar el "
 "seleutor de rexón rectangular la próxima vegada."
 
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:102
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:127
 msgid "Remember rectangular region"
 msgstr "Recordar rexón rectangular"
 
@@ -328,6 +350,16 @@ msgid ""
 "those changes?"
 msgstr "Fixesti camudancies a los axustes nesta llingüeta. ¿Quies aplicales?"
 
+#: src/Gui/SmartSpinBox.cpp:43
+#, fuzzy
+#| msgid " seconds"
+msgid " second"
+msgstr " segundos"
+
+#: src/Gui/SmartSpinBox.cpp:45
+msgid " seconds"
+msgstr " segundos"
+
 #: src/KipiInterface/KSGKipiImageCollectionSelector.cpp:35
 #, kde-format
 msgctxt "%1 is collection name, %2 is image count in collection"
@@ -340,83 +372,83 @@ msgstr[1] "%1 (%2 imáxenes)"
 msgid "Taken with Spectacle"
 msgstr "Fecha con Spectacle"
 
-#: src/Main.cpp:53
+#: src/Main.cpp:54
 msgid "Spectacle"
 msgstr "Spectacle"
 
-#: src/Main.cpp:55
+#: src/Main.cpp:56
 msgid "KDE Screenshot Utility"
 msgstr "Utilidá de captura de pantalla KDE"
 
-#: src/Main.cpp:57
+#: src/Main.cpp:58
 msgid "(C) 2015 Boudhayan Gupta"
 msgstr "(C) 2015 Boudhayan Gupta"
 
-#: src/Main.cpp:59
+#: src/Main.cpp:60
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Softastur"
 
-#: src/Main.cpp:59
+#: src/Main.cpp:60
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
-#: src/Main.cpp:70
+#: src/Main.cpp:71
 msgid "Capture the entire desktop (default)"
 msgstr "Captura l'escritoriu enteru (por defeutu)"
 
-#: src/Main.cpp:71
+#: src/Main.cpp:72
 msgid "Capture the current monitor"
 msgstr "Captura'l monitor actual"
 
-#: src/Main.cpp:72
+#: src/Main.cpp:73
 msgid "Capture the active window"
 msgstr "Captura la ventana activa"
 
-#: src/Main.cpp:73
+#: src/Main.cpp:74
 msgid ""
 "Capture the window currently under the cursor, including parents of pop-up "
 "menus"
 msgstr "Captura la ventana actual sol cursor, incluyendo menús emerxentes pas"
 
-#: src/Main.cpp:74
+#: src/Main.cpp:75
 msgid ""
 "Capture the window currently under the cursor, excluding parents of pop-up "
 "menus"
 msgstr "Captura la ventana actual sol cursor, escluyendo menús emerxentes pas"
 
-#: src/Main.cpp:75
+#: src/Main.cpp:76
 msgid "Capture a rectangular region of the screen"
 msgstr "Captura una rexón rectangular de la pantalla"
 
-#: src/Main.cpp:76
+#: src/Main.cpp:77
 msgid "Start in GUI mode (default)"
 msgstr "Aniciu nel mou GUI (por defeutu)"
 
-#: src/Main.cpp:77
+#: src/Main.cpp:78
 msgid "Take a screenshot and exit without showing the GUI"
 msgstr "Fai una captura y cola ensin amosar la GUI"
 
-#: src/Main.cpp:78
+#: src/Main.cpp:79
 msgid "Start in DBus-Activation mode"
 msgstr "Aniciu nel mou d'activación de DBus"
 
-#: src/Main.cpp:79
+#: src/Main.cpp:80
 msgid ""
 "In background mode, do not pop up a notification when the screenshot is taken"
 msgstr "Nel mou de fondu, nun emerxe avisu dalu al facese una captura"
 
-#: src/Main.cpp:80
+#: src/Main.cpp:81
 msgid "In background mode, save image to specified file"
 msgstr "Nel mou de fondu, la imáxe guárdase nel ficheru especificáu"
 
-#: src/Main.cpp:81
+#: src/Main.cpp:82
 msgid "In background mode, delay before taking the shot (in milliseconds)"
 msgstr ""
 "Nel mou de fondu, el retrasu enantes de facer la captura (en milisegundos)"
 
-#: src/Main.cpp:82
+#: src/Main.cpp:83
 msgid "Wait for a click before taking screenshot. Invalidates delay"
 msgstr "Espera pol clic enantes de facer la captura. Invalida'l retrasu"
 
@@ -480,6 +512,3 @@ msgstr "Guardóse una captura de pantalla nueva como «%1» en «%2»."
 msgctxt "Open the screenshot we just saved"
 msgid "Open"
 msgstr "Abrir"
-
-#~ msgid "Copied image to clipboard"
-#~ msgstr "Imaxe copiada al cartafueyu"
