@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-28 07:56+0000\n"
+"POT-Creation-Date: 2016-04-29 07:41+0000\n"
 "PO-Revision-Date: 2010-10-23 16:50+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: asturian <alministradores@softastur.org>\n"
@@ -26,298 +26,437 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xandru@softastur.org"
 
-#~ msgid "Edit Board Layout"
-#~ msgstr "Editar diseñu de tableru"
+#: src/editor.cpp:81
+msgid "Edit Board Layout"
+msgstr "Editar diseñu de tableru"
 
-#~ msgid "New board"
-#~ msgstr "Tableru nuevu"
+#: src/editor.cpp:121
+msgid "New board"
+msgstr "Tableru nuevu"
 
-#~ msgid "Open board"
-#~ msgstr "Abrir tableru"
+#: src/editor.cpp:128
+msgid "Open board"
+msgstr "Abrir tableru"
 
-#~ msgid "Save board"
-#~ msgstr "Guardar tableru"
+#: src/editor.cpp:135
+msgid "Save board"
+msgstr "Guardar tableru"
 
-#~ msgid "Select"
-#~ msgstr "Escoyer"
+#: src/editor.cpp:145
+msgid "Select"
+msgstr "Escoyer"
 
-#~ msgid "Cut"
-#~ msgstr "Recortar"
+#: src/editor.cpp:150
+msgid "Cut"
+msgstr "Recortar"
 
-#~ msgid "Copy"
-#~ msgstr "Copiar"
+#: src/editor.cpp:155
+msgid "Copy"
+msgstr "Copiar"
 
-#~ msgid "Paste"
-#~ msgstr "Apegar"
+#: src/editor.cpp:160
+msgid "Paste"
+msgstr "Apegar"
 
-#~ msgid "Move tiles"
-#~ msgstr "Mover fiches"
+#: src/editor.cpp:167
+msgid "Move tiles"
+msgstr "Mover fiches"
 
-#~ msgid "Add tiles"
-#~ msgstr "Amestar fiches"
+#: src/editor.cpp:171
+msgid "Add tiles"
+msgstr "Amestar fiches"
 
-#~ msgid "Remove tiles"
-#~ msgstr "Quitar fiches"
+#: src/editor.cpp:174
+msgid "Remove tiles"
+msgstr "Quitar fiches"
 
-#~ msgid "Shift left"
-#~ msgstr "Desplazar a manzorga"
+#: src/editor.cpp:198
+msgid "Shift left"
+msgstr "Desplazar a manzorga"
 
-#~ msgid "Shift up"
-#~ msgstr "Desplazar p'arriba"
+#: src/editor.cpp:204
+msgid "Shift up"
+msgstr "Desplazar p'arriba"
 
-#~ msgid "Shift down"
-#~ msgstr "Desplazar p'abaxo"
+#: src/editor.cpp:210
+msgid "Shift down"
+msgstr "Desplazar p'abaxo"
 
-#~ msgid "Shift right"
-#~ msgstr "Desplazar a mandrecha"
+#: src/editor.cpp:216
+msgid "Shift right"
+msgstr "Desplazar a mandrecha"
 
-#~ msgid "Tiles: %1 Pos: %2,%3,%4"
-#~ msgstr "Fiches: %1 Posición: %2,%3,%4"
+#: src/editor.cpp:297
+#, kde-format
+msgid "Tiles: %1 Pos: %2,%3,%4"
+msgstr "Fiches: %1 Posición: %2,%3,%4"
 
-#~ msgid "Open Board Layout"
-#~ msgstr "Abrir diseñu de tableru"
+#: src/editor.cpp:306
+msgid "Open Board Layout"
+msgstr "Abrir diseñu de tableru"
 
+#: src/editor.cpp:307 src/editor.cpp:345
 #, fuzzy
-#~| msgid ""
-#~| "*.layout|Board Layout (*.layout)\n"
-#~| "*|All Files"
-#~ msgid "Board Layout (*.layout);;All Files (*)"
-#~ msgstr ""
-#~ "*.layout|Diseñu de tableru (*.layout)\n"
-#~ "*|Tolos ficheros"
+#| msgid ""
+#| "*.layout|Board Layout (*.layout)\n"
+#| "*|All Files"
+msgid "Board Layout (*.layout);;All Files (*)"
+msgstr ""
+"*.layout|Diseñu de tableru (*.layout)\n"
+"*|Tolos ficheros"
 
-#~ msgid "Save Board Layout"
-#~ msgstr "Guardar diseñu de tableru"
+#: src/editor.cpp:338
+msgid "You can only save with a even number of tiles."
+msgstr ""
 
-#~ msgid "A file with that name already exists. Do you wish to overwrite it?"
-#~ msgstr "Yá existe un ficheru con esi nome, ¿quies sobrescribilu?"
+#: src/editor.cpp:344 src/editor.cpp:356
+msgid "Save Board Layout"
+msgstr "Guardar diseñu de tableru"
 
-#~ msgid "The board has been modified. Would you like to save the changes?"
-#~ msgstr "El tableru camudóse. ¿Quies guardar los cambeos?"
+#: src/editor.cpp:355
+msgid "A file with that name already exists. Do you wish to overwrite it?"
+msgstr "Yá existe un ficheru con esi nome, ¿quies sobrescribilu?"
 
-#~ msgid "Save failed. Aborting operation."
-#~ msgstr "Fallu al guardar. Colando de la operación."
+#: src/editor.cpp:384
+msgid "The board has been modified. Would you like to save the changes?"
+msgstr "El tableru camudóse. ¿Quies guardar los cambeos?"
 
+#: src/editor.cpp:392
+msgid "Save failed. Aborting operation."
+msgstr "Fallu al guardar. Colando de la operación."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RandomLayout)
+#: src/gametype.ui:25
 #, fuzzy
-#~| msgid "Board Layout"
-#~ msgid "Random Layout"
-#~ msgstr "Diseñu de tableru"
+#| msgid "Board Layout"
+msgid "Random Layout"
+msgstr "Diseñu de tableru"
 
-#~ msgid "&Get New Layouts"
-#~ msgstr "&Obtener diseños nuevos"
+#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: src/gametype.ui:51
+msgid "&Get New Layouts"
+msgstr "&Obtener diseños nuevos"
 
-#~ msgid "Preview"
-#~ msgstr "Vista previa"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/gametype.ui:60
+msgid "Preview"
+msgstr "Vista previa"
 
-#~ msgid "Layout Details"
-#~ msgstr "Detalles de diseñu"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/gametype.ui:93
+msgid "Layout Details"
+msgstr "Detalles de diseñu"
 
-#~ msgid "Author:"
-#~ msgstr "Autor:"
+#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
+#: src/gametype.ui:113
+msgid "Author:"
+msgstr "Autor:"
 
-#~ msgid "Contact:"
-#~ msgstr "Contautu:"
+#. i18n: ectx: property (text), widget (QLabel, labelContact)
+#: src/gametype.ui:123
+msgid "Contact:"
+msgstr "Contautu:"
 
-#~ msgid "Description:"
-#~ msgstr "Descripción:"
+#. i18n: ectx: property (text), widget (QLabel, labelDescription)
+#: src/gametype.ui:133
+msgid "Description:"
+msgstr "Descripción:"
 
-#~ msgid "Ready. Now it is your turn."
-#~ msgstr "Sollerte. Tócate a ti."
+#: src/gameview.cpp:118 src/gameview.cpp:212
+msgid "Ready. Now it is your turn."
+msgstr "Sollerte. Tócate a ti."
 
-#~ msgid "Undo operation done successfully."
-#~ msgstr "La operación de \"desfacer\" fízose bien."
+#: src/gameview.cpp:137
+msgid "Undo operation done successfully."
+msgstr "La operación de \"desfacer\" fízose bien."
 
-#~ msgid "What do you want to undo? You have done nothing!"
-#~ msgstr "¿Qué quies desfacer? ¡Si nun ficisti nada!"
+#: src/gameview.cpp:142
+msgid "What do you want to undo? You have done nothing!"
+msgstr "¿Qué quies desfacer? ¡Si nun ficisti nada!"
 
-#~ msgid "Your computer has lost the game."
-#~ msgstr "La to máquina perdió la partida."
+#: src/gameview.cpp:168 src/kmahjongg.cpp:441
+msgid "Your computer has lost the game."
+msgstr "La to máquina perdió la partida."
 
-#~ msgid "Calculating new game..."
-#~ msgstr "Calculando nueva partida..."
+#: src/gameview.cpp:175
+msgid "Calculating new game..."
+msgstr "Calculando nueva partida..."
 
-#~ msgid "Error generating new game!"
-#~ msgstr "¡Fallu al xenerar una partida nueva!"
+#: src/gameview.cpp:226
+msgid "Error generating new game!"
+msgstr "¡Fallu al xenerar una partida nueva!"
 
-#~ msgid "Demo mode. Click mousebutton to stop."
-#~ msgstr "Mou demostración. Calca un botón del mur pa paralu."
+#: src/gameview.cpp:327
+msgid "Demo mode. Click mousebutton to stop."
+msgstr "Mou demostración. Calca un botón del mur pa paralu."
 
-#~ msgid "New Numbered Game..."
-#~ msgstr "Nueva partida numberada..."
+#: src/kmahjongg.cpp:149
+msgid "New Numbered Game..."
+msgstr "Nueva partida numberada..."
 
-#~ msgid "Shu&ffle"
-#~ msgstr "Bara&xar"
+#: src/kmahjongg.cpp:156
+msgid "Shu&ffle"
+msgstr "Bara&xar"
 
-#~ msgid "Rotate View Counterclockwise"
-#~ msgstr "Xirar la vista en sentíu contrariu a les aguyes del reló"
+#: src/kmahjongg.cpp:161
+msgid "Rotate View Counterclockwise"
+msgstr "Xirar la vista en sentíu contrariu a les aguyes del reló"
 
-#~ msgid "Rotate View Clockwise"
-#~ msgstr "Xirar la vista en sentíu de les aguyes del reló"
+#: src/kmahjongg.cpp:167
+msgid "Rotate View Clockwise"
+msgstr "Xirar la vista en sentíu de les aguyes del reló"
 
-#~ msgid "Time: 0:00:00"
-#~ msgstr "Tiempu: 0:00:00"
+#: src/kmahjongg.cpp:183
+msgid "&Board Editor"
+msgstr ""
 
-#~ msgid "Removed: 0000/0000"
-#~ msgstr "Desaniciáu: 0000/0000"
+#: src/kmahjongg.cpp:193
+msgid "Time: 0:00:00"
+msgstr "Tiempu: 0:00:00"
 
-#~ msgid "Game: 000000000000000000000"
-#~ msgstr "Xuegu: 000000000000000000000"
+#: src/kmahjongg.cpp:200
+msgid "Removed: 0000/0000"
+msgstr "Desaniciáu: 0000/0000"
 
-#~ msgid "Time: "
-#~ msgstr "Tiempu: "
+#: src/kmahjongg.cpp:207
+msgid "Game: 000000000000000000000"
+msgstr "Xuegu: 000000000000000000000"
 
-#~ msgid "New Game"
-#~ msgstr "Nuevu Xuegu"
+#: src/kmahjongg.cpp:220
+msgid "Time: "
+msgstr "Tiempu: "
 
-#~ msgid "Enter game number:"
-#~ msgstr "Pon el númberu de la partida:"
+#: src/kmahjongg.cpp:226 src/kmahjongg.cpp:385
+msgid "New Game"
+msgstr "Nuevu Xuegu"
 
-#~ msgid "General"
-#~ msgstr "Xeneral"
+#: src/kmahjongg.cpp:226
+msgid "Enter game number:"
+msgstr "Pon el númberu de la partida:"
 
-#~ msgid "Board Layout"
-#~ msgstr "Diseñu de tableru"
+#: src/kmahjongg.cpp:260
+msgid "General"
+msgstr "Xeneral"
 
+#: src/kmahjongg.cpp:261
+msgid "Board Layout"
+msgstr "Diseñu de tableru"
+
+#: src/kmahjongg.cpp:383
 #, fuzzy
-#~| msgid "Game over: You have no moves left."
-#~ msgid "Game Over: You have no moves left."
-#~ msgstr "Fin de la partida: nun te queden más movimientos posibles."
+#| msgid "Game over: You have no moves left."
+msgid "Game Over: You have no moves left."
+msgstr "Fin de la partida: nun te queden más movimientos posibles."
 
-#~ msgid "You have won!"
-#~ msgstr "¡Ganesti!"
+#: src/kmahjongg.cpp:384
+msgid "Game Over"
+msgstr ""
 
-#~ msgid "Game number: %1"
-#~ msgstr "Númberu de partida: %1"
+#: src/kmahjongg.cpp:386
+msgid "Restart"
+msgstr ""
 
-#~ msgid "Removed: %1/%2  Combinations left: %3"
-#~ msgstr "Desaniciáu: %1/%2  Restantes combinaciones: %3"
+#: src/kmahjongg.cpp:476
+msgid "You have won!"
+msgstr "¡Ganesti!"
 
-#~ msgid "Load Game"
-#~ msgstr "Cargar partida"
+#: src/kmahjongg.cpp:516
+#, kde-format
+msgid "Game number: %1"
+msgstr "Númberu de partida: %1"
 
-#~ msgid "Could not read from file. Aborting."
-#~ msgstr "Nun pudo lleese'l ficheru. Dexándolo pa prau."
+#: src/kmahjongg.cpp:522
+#, kde-format
+msgid "Removed: %1/%2  Combinations left: %3"
+msgstr "Desaniciáu: %1/%2  Restantes combinaciones: %3"
 
-#~ msgid "File is not a KMahjongg game."
-#~ msgstr "El ficheru nun ye una partida de KMahjongg."
+#: src/kmahjongg.cpp:572
+msgid "Load Game"
+msgstr "Cargar partida"
 
-#~ msgid "File format not recognized."
-#~ msgstr "Formato de ficheru que nun se reconoz."
+#: src/kmahjongg.cpp:572 src/kmahjongg.cpp:647
+msgid "KMahjongg Game (*.kmgame)"
+msgstr ""
 
-#~ msgid "Save Game"
-#~ msgstr "Guardar partida"
+#: src/kmahjongg.cpp:581
+msgid "Could not read from file. Aborting."
+msgstr "Nun pudo lleese'l ficheru. Dexándolo pa prau."
 
+#: src/kmahjongg.cpp:592
+msgid "File is not a KMahjongg game."
+msgstr "El ficheru nun ye una partida de KMahjongg."
+
+#: src/kmahjongg.cpp:605
+msgid "File format not recognized."
+msgstr "Formato de ficheru que nun se reconoz."
+
+#: src/kmahjongg.cpp:647
+msgid "Save Game"
+msgstr "Guardar partida"
+
+#: src/kmahjongg.cpp:657
 #, fuzzy
-#~| msgid "Could not read from file. Aborting."
-#~ msgid "Could not open file for saving."
-#~ msgstr "Nun pudo lleese'l ficheru. Dexándolo pa prau."
+#| msgid "Could not read from file. Aborting."
+msgid "Could not open file for saving."
+msgstr "Nun pudo lleese'l ficheru. Dexándolo pa prau."
 
-#~ msgid "The tile-set to use."
-#~ msgstr "Conxuntu de fiches pa usar."
+#. i18n: ectx: label, entry (TileSet), group (General)
+#: src/kmahjongg.kcfg:9
+msgid "The tile-set to use."
+msgstr "Conxuntu de fiches pa usar."
 
-#~ msgid "The background to use."
-#~ msgstr "Fondu pa usar."
+#. i18n: ectx: label, entry (Background), group (General)
+#: src/kmahjongg.kcfg:12
+msgid "The background to use."
+msgstr "Fondu pa usar."
 
-#~ msgid "The layout of the tiles."
-#~ msgstr "Diseñu de les fiches."
+#. i18n: ectx: label, entry (Layout), group (General)
+#: src/kmahjongg.kcfg:15
+msgid "The layout of the tiles."
+msgstr "Diseñu de les fiches."
 
-#~ msgid "Whether all games should be solvable."
-#~ msgstr "Toles partíes tienen de tener solución."
+#. i18n: ectx: label, entry (RandomLayout), group (General)
+#: src/kmahjongg.kcfg:21
+msgid "Whether a random layout is chosen on startup."
+msgstr ""
 
-#~ msgid "Whether matching tiles are shown."
-#~ msgstr "Amuésase la coincidencia de les fiches."
+#. i18n: ectx: label, entry (SolvableGames), group (General)
+#: src/kmahjongg.kcfg:25
+msgid "Whether all games should be solvable."
+msgstr "Toles partíes tienen de tener solución."
 
-#~ msgid "&Game"
-#~ msgstr "&Xuegu"
+#. i18n: ectx: label, entry (ShowMatchingTiles), group (General)
+#: src/kmahjongg.kcfg:29
+msgid "Whether matching tiles are shown."
+msgstr "Amuésase la coincidencia de les fiches."
 
-#~ msgid "&Move"
-#~ msgstr "&Mover"
+#. i18n: ectx: Menu (game)
+#: src/kmahjonggui.rc:10
+msgid "&Game"
+msgstr "&Xuegu"
 
-#~ msgid "&View"
-#~ msgstr "&Ver"
+#. i18n: ectx: Menu (move)
+#: src/kmahjonggui.rc:14
+msgid "&Move"
+msgstr "&Mover"
 
-#~ msgid "Main Toolbar"
-#~ msgstr "Barra de ferramientes Principal"
+#. i18n: ectx: Menu (view)
+#: src/kmahjonggui.rc:17
+msgid "&View"
+msgstr "&Ver"
 
-#~ msgid "Mahjongg Solitaire for KDE"
-#~ msgstr "Solitariu Mahjongg pa KDE"
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/kmahjonggui.rc:23
+msgid "Main Toolbar"
+msgstr "Barra de ferramientes Principal"
 
-#~ msgid "KMahjongg"
-#~ msgstr "KMahjongg"
+#: src/main.cpp:30
+msgid "Mahjongg Solitaire for KDE"
+msgstr "Solitariu Mahjongg pa KDE"
 
+#: src/main.cpp:37
+msgid "KMahjongg"
+msgstr "KMahjongg"
+
+#: src/main.cpp:39
 #, fuzzy
-#~| msgid ""
-#~| "(c) 1997, Mathias Mueller\n"
-#~| "(c) 2006, Mauricio Piacentini"
-#~ msgid ""
-#~ "(c) 1997, Mathias Mueller\n"
-#~ "(c) 2006, Mauricio Piacentini\n"
-#~ "(c) 2011, Christian Krippendorf"
-#~ msgstr ""
-#~ "(c) 1997, Mathias Mueller\n"
-#~ "(c) 2006, Mauricio Piacentini"
+#| msgid ""
+#| "(c) 1997, Mathias Mueller\n"
+#| "(c) 2006, Mauricio Piacentini"
+msgid ""
+"(c) 1997, Mathias Mueller\n"
+"(c) 2006, Mauricio Piacentini\n"
+"(c) 2011, Christian Krippendorf"
+msgstr ""
+"(c) 1997, Mathias Mueller\n"
+"(c) 2006, Mauricio Piacentini"
 
-#~ msgid "Mathias Mueller"
-#~ msgstr "Mathias Mueller"
+#: src/main.cpp:41
+msgid "Mathias Mueller"
+msgstr "Mathias Mueller"
 
-#~ msgid "Original Author"
-#~ msgstr "Autor Orixinal"
+#: src/main.cpp:41
+msgid "Original Author"
+msgstr "Autor Orixinal"
 
-#~ msgid "Current maintainer"
-#~ msgstr "Encargáu actual"
+#: src/main.cpp:42
+msgid "Christian Krippendorf"
+msgstr ""
 
-#~ msgid "Albert Astals Cid"
-#~ msgstr "Albert Astals Cid"
+#: src/main.cpp:42
+msgid "Current maintainer"
+msgstr "Encargáu actual"
 
-#~ msgid "Bug fixes"
-#~ msgstr "Igua de fallos"
+#: src/main.cpp:43
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
 
-#~ msgid "David Black"
-#~ msgstr "David Black"
+#: src/main.cpp:43
+msgid "Bug fixes"
+msgstr "Igua de fallos"
 
-#~ msgid "KDE 3 rewrite and Extension"
-#~ msgstr "Reescritura y ampliación de KDE 3"
+#: src/main.cpp:44
+msgid "David Black"
+msgstr "David Black"
 
-#~ msgid "Michael Haertjens"
-#~ msgstr "Michael Haertjens"
+#: src/main.cpp:44
+msgid "KDE 3 rewrite and Extension"
+msgstr "Reescritura y ampliación de KDE 3"
 
-#~ msgid ""
-#~ "Solvable game generation\n"
-#~ "based on algorithm by Michael Meeks in GNOME mahjongg"
-#~ msgstr ""
-#~ "Xeneración de xuegos con solución\n"
-#~ "basada nun algoritmu de Michael Meeks en GNOME mahjongg"
+#: src/main.cpp:45
+msgid "Michael Haertjens"
+msgstr "Michael Haertjens"
 
-#~ msgid "Raquel Ravanini"
-#~ msgstr "Raquel Ravanini"
+#: src/main.cpp:45
+msgid ""
+"Solvable game generation\n"
+"based on algorithm by Michael Meeks in GNOME mahjongg"
+msgstr ""
+"Xeneración de xuegos con solución\n"
+"basada nun algoritmu de Michael Meeks en GNOME mahjongg"
 
-#~ msgid "SVG Tileset for KDE4"
-#~ msgstr "Baldoses SVG pa KDE4"
+#: src/main.cpp:46
+msgid "Raquel Ravanini"
+msgstr "Raquel Ravanini"
 
-#~ msgid "Richard Lohman"
-#~ msgstr "Richard Lohman"
+#: src/main.cpp:46
+msgid "SVG Tileset for KDE4"
+msgstr "Baldoses SVG pa KDE4"
 
-#~ msgid "Tile set contributor and current web page maintainer"
-#~ msgstr "Diseñu del mosaicu y responsable actual de la páxina web"
+#: src/main.cpp:47
+msgid "Richard Lohman"
+msgstr "Richard Lohman"
 
-#~ msgid "Osvaldo Stark"
-#~ msgstr "Osvaldo Stark"
+#: src/main.cpp:47
+msgid "Tile set contributor and current web page maintainer"
+msgstr "Diseñu del mosaicu y responsable actual de la páxina web"
 
-#~ msgid "Tile set contributor and original web page maintainer"
-#~ msgstr "Diseñu del mosaicu y responsable orixinal de la páxina web"
+#: src/main.cpp:48
+msgid "Osvaldo Stark"
+msgstr "Osvaldo Stark"
 
-#~ msgid "Benjamin Meyer"
-#~ msgstr "Benjamin Meyer"
+#: src/main.cpp:48
+msgid "Tile set contributor and original web page maintainer"
+msgstr "Diseñu del mosaicu y responsable orixinal de la páxina web"
 
-#~ msgid "Code cleanup"
-#~ msgstr "Llimpieza del códigu"
+#: src/main.cpp:49
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
 
-#~ msgid "Blink matching tiles when first one is selected"
-#~ msgstr ""
-#~ "Facer que les fiches co¡ncidentes parpaguien cuando s'escueye la primera"
+#: src/main.cpp:49
+msgid "Code cleanup"
+msgstr "Llimpieza del códigu"
 
-#~ msgid "Generate solvable games"
-#~ msgstr "Xenerar partíes con solución"
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMatchingTiles)
+#: src/settings.ui:22
+msgid "Blink matching tiles when first one is selected"
+msgstr ""
+"Facer que les fiches co¡ncidentes parpaguien cuando s'escueye la primera"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolvableGames)
+#: src/settings.ui:29
+msgid "Generate solvable games"
+msgstr "Xenerar partíes con solución"
 
 #~ msgid "Sorry, you have lost the game."
 #~ msgstr "Perdisti la partida. Ye una pena."
