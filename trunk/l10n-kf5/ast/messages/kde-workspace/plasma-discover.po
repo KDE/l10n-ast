@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-29 07:51+0000\n"
+"POT-Creation-Date: 2016-04-30 08:09+0000\n"
 "PO-Revision-Date: 2016-03-29 00:58+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: discover/main.cpp:56 discover/qml/DiscoverWindow.qml:56
+#: discover/main.cpp:56 discover/qml/DiscoverWindow.qml:59
 #: discover/qml/DiscoverWindow_PlasmaPhone.qml:29
 msgid "Discover"
 msgstr ""
@@ -93,6 +93,10 @@ msgstr "Aplicar camudancies"
 msgid "Discard"
 msgstr "Descartar"
 
+#: discover/qml/AddonsView.qml:82
+msgid "More..."
+msgstr ""
+
 #: discover/qml/AddSourceDialog.qml:27
 #, kde-format
 msgid "Specify the new source for %1"
@@ -126,7 +130,7 @@ msgid "Homepage"
 msgstr "Páxina d'aniciu:"
 
 #: discover/qml/ApplicationDetails.qml:51
-#: discover/qml/ApplicationsListPage.qml:111
+#: discover/qml/ApplicationsListPage.qml:112
 msgid "Size"
 msgstr "Tamañu"
 
@@ -157,67 +161,63 @@ msgstr "(%1)"
 msgid "(%1)"
 msgstr "(%1)"
 
-#: discover/qml/ApplicationsListPage.qml:76
+#: discover/qml/ApplicationsListPage.qml:77
 msgid "Name"
 msgstr "Nome"
 
-#: discover/qml/ApplicationsListPage.qml:83
+#: discover/qml/ApplicationsListPage.qml:84
 msgid "Popularity"
 msgstr "Sonadía"
 
-#: discover/qml/ApplicationsListPage.qml:90
+#: discover/qml/ApplicationsListPage.qml:91
 msgid "Buzz"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:97
+#: discover/qml/ApplicationsListPage.qml:98
 msgid "Origin"
 msgstr "Orixe"
 
-#: discover/qml/ApplicationsListPage.qml:104
-#: discover/qml/ApplicationsListPage.qml:233
-#: discover/qml/DiscoverWindow.qml:63 discover/qml/InstalledPage.qml:17
+#: discover/qml/ApplicationsListPage.qml:105
+#: discover/qml/ApplicationsListPage.qml:234
+#: discover/qml/DiscoverWindow.qml:66 discover/qml/InstalledPage.qml:17
 msgid "Installed"
 msgstr "Instalóse"
 
-#: discover/qml/ApplicationsListPage.qml:146
+#: discover/qml/ApplicationsListPage.qml:147
 msgid "List"
 msgstr "Llistáu"
 
-#: discover/qml/ApplicationsListPage.qml:155
+#: discover/qml/ApplicationsListPage.qml:156
 msgid "Grid"
 msgstr "Rexáu"
 
-#: discover/qml/ApplicationsListPage.qml:169
+#: discover/qml/ApplicationsListPage.qml:170
 msgid "Show technical packages"
 msgstr "Amosar paquetes téunicos"
 
-#: discover/qml/ApplicationsListPage.qml:197
+#: discover/qml/ApplicationsListPage.qml:198
 #, fuzzy
 #| msgid "Sources"
 msgid "Resources"
 msgstr "Fontes"
 
-#: discover/qml/ApplicationsListPage.qml:232
+#: discover/qml/ApplicationsListPage.qml:233
 #: discover/qml/InstallApplicationButton.qml:51
 #: discover/qml/PresentUpdatesPage.qml:52
 msgid "Update"
 msgstr "Anovar"
 
-#: discover/qml/ApplicationsListPage.qml:250
+#: discover/qml/ApplicationsListPage.qml:251
 msgid "All"
 msgstr "Too"
 
-#: discover/qml/ApplicationsListPage.qml:252
+#: discover/qml/ApplicationsListPage.qml:253
 #, fuzzy, kde-format
 #| msgid "%1 items"
 msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] "%1 elemetos"
 msgstr[1] "%1 elemetos"
-
-#: discover/qml/BrowsingPage.qml:36 discover/qml/MuonToolbar.qml:88
-msgid "Search..."
-msgstr "Guetar..."
 
 #: discover/qml/CategoryDisplay.qml:52 discover/qml/CategoryDisplay.qml:118
 msgid "Most Popular"
@@ -239,26 +239,26 @@ msgstr ""
 "¡Escubri\n"
 "toles posibilidaes!"
 
-#: discover/qml/DiscoverWindow.qml:44
+#: discover/qml/DiscoverWindow.qml:47
 msgid "Loading..."
 msgstr "Cargando..."
 
-#: discover/qml/DiscoverWindow.qml:63
+#: discover/qml/DiscoverWindow.qml:66
 msgid "Installing..."
 msgstr "Instalando..."
 
-#: discover/qml/DiscoverWindow.qml:70
+#: discover/qml/DiscoverWindow.qml:73
 msgid "No Updates"
 msgstr "Ensin anovamientos"
 
-#: discover/qml/DiscoverWindow.qml:70
+#: discover/qml/DiscoverWindow.qml:73
 #, fuzzy, kde-format
 #| msgid "Update (%1)"
 msgctxt "Update section name"
 msgid "Update (%1)"
 msgstr "Anovar (%1)"
 
-#: discover/qml/DiscoverWindow.qml:91
+#: discover/qml/DiscoverWindow.qml:94
 msgid "Advanced..."
 msgstr "Avanzao..."
 
@@ -286,17 +286,21 @@ msgstr[1] "%1 trabayos pendientes..."
 msgid "Sort by "
 msgstr "Ordenar per"
 
-#: discover/qml/Main.qml:90
+#: discover/qml/Main.qml:91
 msgid "Got it"
 msgstr "Pescanciélo"
 
-#: discover/qml/Main.qml:91
+#: discover/qml/Main.qml:92
 msgid "Could not close the application, there are tasks that need to be done."
 msgstr "Nun pudo zarrase l'aplicación, hai xeres que necesiten facese."
 
 #: discover/qml/MuonToolbar.qml:65
 msgid "Back"
 msgstr "Atrás"
+
+#: discover/qml/MuonToolbar.qml:88
+msgid "Search..."
+msgstr "Guetar..."
 
 #: discover/qml/MuonToolbar.qml:88
 #, fuzzy, kde-format
@@ -312,6 +316,10 @@ msgstr "Recursos pa «%1»"
 #, kde-format
 msgid "Ratings for %1"
 msgstr "Valoraciones pa %1"
+
+#: discover/qml/navigation.js:45
+msgid "Extensions..."
+msgstr ""
 
 #: discover/qml/PresentUpdatesPage.qml:37
 msgid "updates selected"
