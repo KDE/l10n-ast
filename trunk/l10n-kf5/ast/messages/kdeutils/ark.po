@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-28 08:01+0000\n"
+"POT-Creation-Date: 2016-05-01 07:28+0000\n"
 "PO-Revision-Date: 2016-03-06 23:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -340,26 +340,7 @@ msgstr ""
 msgid "Preview file size limit in megabytes."
 msgstr "Previsualización del tamañu de ficheros en megabytes."
 
-#: kerfuffle/cliinterface.cpp:170
-#, fuzzy
-#| msgid "Extraction failed due to a wrong password."
-msgid "Extraction failed. Make sure that enough space is available."
-msgstr "Falló la estraición pola mor d'una contraseña incorreuta."
-
-#: kerfuffle/cliinterface.cpp:173
-msgid ""
-"Extraction failed. Make sure you provided the correct password and that "
-"enough space is available."
-msgstr ""
-
-#: kerfuffle/cliinterface.cpp:188 kerfuffle/cliinterface.cpp:202
-msgctxt "@info"
-msgid "Could not move the extracted file to the destination directory."
-msgid_plural "Could not move the extracted files to the destination directory."
-msgstr[0] "Nun pudo movese'l ficheru estrayíu al direutoriu destín."
-msgstr[1] "Nun pudieron movese los ficheros estrayíos al direutoriu destín."
-
-#: kerfuffle/cliinterface.cpp:283
+#: kerfuffle/cliinterface.cpp:256
 #, kde-format
 msgctxt "@info"
 msgid "Failed to locate program <filename>%2</filename> on disk."
@@ -367,23 +348,42 @@ msgid_plural "Failed to locate programs <filename>%2</filename> on disk."
 msgstr[0] "Fallu al allugar el programa <filename>%2</filename> nel discu."
 msgstr[1] "Fallu al allugar los programes <filename>%2</filename> nel discu."
 
-#: kerfuffle/cliinterface.cpp:873
+#: kerfuffle/cliinterface.cpp:346
+#, fuzzy
+#| msgid "Extraction failed due to a wrong password."
+msgid "Extraction failed. Make sure that enough space is available."
+msgstr "Falló la estraición pola mor d'una contraseña incorreuta."
+
+#: kerfuffle/cliinterface.cpp:349
+msgid ""
+"Extraction failed. Make sure you provided the correct password and that "
+"enough space is available."
+msgstr ""
+
+#: kerfuffle/cliinterface.cpp:360 kerfuffle/cliinterface.cpp:375
+msgctxt "@info"
+msgid "Could not move the extracted file to the destination directory."
+msgid_plural "Could not move the extracted files to the destination directory."
+msgstr[0] "Nun pudo movese'l ficheru estrayíu al direutoriu destín."
+msgstr[1] "Nun pudieron movese los ficheros estrayíos al direutoriu destín."
+
+#: kerfuffle/cliinterface.cpp:947
 #, fuzzy
 #| msgid "Extraction failed because of an unexpected error."
 msgctxt "@info"
 msgid "Extraction failed because the disk is full."
 msgstr "Falló la estraición pola mor d'un fallu inesperáu."
 
-#: kerfuffle/cliinterface.cpp:881
+#: kerfuffle/cliinterface.cpp:955
 msgctxt "@info"
 msgid "Extraction failed: Incorrect password"
 msgstr "Falló la estraición: contraseña incorreuta"
 
-#: kerfuffle/cliinterface.cpp:888 kerfuffle/cliinterface.cpp:930
+#: kerfuffle/cliinterface.cpp:962 kerfuffle/cliinterface.cpp:1004
 msgid "Extraction failed because of an unexpected error."
 msgstr "Falló la estraición pola mor d'un fallu inesperáu."
 
-#: kerfuffle/cliinterface.cpp:923
+#: kerfuffle/cliinterface.cpp:997
 msgid "Incorrect password."
 msgstr "Contraseña incorreuta."
 
@@ -660,6 +660,12 @@ msgid_plural "Deleting %1 files"
 msgstr[0] "Desaniciando un ficheru del archivu"
 msgstr[1] "Desaniciando %1 ficheros del archivu"
 
+#: kerfuffle/jobs.cpp:428
+#, fuzzy
+#| msgid "Comment"
+msgid "Adding comment"
+msgstr "Comentariu"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kerfuffle/previewsettings.ui:17
 msgid "When clicking a file in an archive or pressing the Return key:"
@@ -807,11 +813,15 @@ msgid "File Already Exists"
 msgstr "Yá esiste'l ficheru"
 
 #: kerfuffle/queries.cpp:179
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "The archive <filename>%1</filename> is password protected. Please enter "
+#| "the password to extract the file."
 msgctxt "@info"
 msgid ""
 "The archive <filename>%1</filename> is password protected. Please enter the "
-"password to extract the file."
+"password."
 msgstr ""
 "L'archivu comprimíu <filename>%1</filename> ta protexíu con contraseña. "
 "Introduz la contraseña pa estrayelu, por favor."
@@ -927,17 +937,17 @@ msgid "??"
 msgstr "¿?"
 
 #. i18n: ectx: Menu (ark_file)
-#: part/ark_part.rc:13
+#: part/ark_part.rc:14
 msgid "&File"
 msgstr "&Ficheru"
 
 #. i18n: ectx: Menu (settings)
-#: part/ark_part.rc:22
+#: part/ark_part.rc:23
 msgid "&Settings"
 msgstr "&Axustes"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: part/ark_part.rc:27
+#: part/ark_part.rc:28
 msgid "Main Toolbar"
 msgstr "Barra de ferramientes principal"
 
@@ -1058,55 +1068,63 @@ msgstr "<b>Descripción del trabayu</b>"
 msgid "Some Information about the job"
 msgstr "Daqué d'información tocante la xera"
 
-#: part/part.cpp:111
+#: part/part.cpp:113
 msgid "Comment"
 msgstr "Comentariu"
 
-#: part/part.cpp:185
+#: part/part.cpp:120
+msgid "Comment has been modified."
+msgstr ""
+
+#: part/part.cpp:125
+msgid "Save"
+msgstr ""
+
+#: part/part.cpp:210
 msgid "ArkPart"
 msgstr "ArkPart"
 
-#: part/part.cpp:229
+#: part/part.cpp:254
 msgctxt "@info"
 msgid "Ark can only extract to local destinations."
 msgstr "Ark namái pue estrayer destinos llocales."
 
-#: part/part.cpp:286
+#: part/part.cpp:311
 msgctxt "@action:inmenu"
 msgid "Show information panel"
 msgstr "Amosar panel d'inforamción"
 
-#: part/part.cpp:295
+#: part/part.cpp:320
 msgctxt "open a file with external program"
 msgid "&Open"
 msgstr "&Abrir"
 
-#: part/part.cpp:297
+#: part/part.cpp:322
 msgctxt "@info:tooltip"
 msgid "Click to open the selected file with the associated application"
 msgstr "Primi p'abrir cola aplicación asociada'l ficheru esbilláu"
 
-#: part/part.cpp:302
+#: part/part.cpp:327
 msgctxt "open a file with external program"
 msgid "Open &With..."
 msgstr "Abrir &con..."
 
-#: part/part.cpp:304
+#: part/part.cpp:329
 msgctxt "@info:tooltip"
 msgid "Click to open the selected file with an external program"
 msgstr "Primi p'abrir con un programa esternu'l ficheru esbilláu"
 
-#: part/part.cpp:309
+#: part/part.cpp:334
 msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "&Previsualizar"
 
-#: part/part.cpp:311
+#: part/part.cpp:336
 msgctxt "@info:tooltip"
 msgid "Click to preview the selected file"
 msgstr "Primi pa previsualizar el ficheru esbilláu"
 
-#: part/part.cpp:317
+#: part/part.cpp:342
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "E&xtract"
@@ -1114,7 +1132,7 @@ msgctxt "@action:inmenu"
 msgid "E&xtract All"
 msgstr "E&strayer"
 
-#: part/part.cpp:319
+#: part/part.cpp:344
 msgid ""
 "Click to open an extraction dialog, where you can choose how to extract all "
 "the files in the archive"
@@ -1122,14 +1140,14 @@ msgstr ""
 "Primi p'abrir un diálogu d'estraición u pues escoyer como estrayer tolos "
 "ficheros nel archivu"
 
-#: part/part.cpp:325
+#: part/part.cpp:350
 #, fuzzy
 #| msgid "Extract"
 msgctxt "@action:inmenu"
 msgid "&Extract"
 msgstr "Estrayer"
 
-#: part/part.cpp:328
+#: part/part.cpp:353
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
@@ -1137,39 +1155,39 @@ msgstr ""
 "Primi p'abrir un diálogu d'estraición u pues escoyer estrayer o tolos "
 "ficheros o namái los esbillaos"
 
-#: part/part.cpp:334
+#: part/part.cpp:359
 msgid "Add &File..."
 msgstr "Amestar fic&heru..."
 
-#: part/part.cpp:335
+#: part/part.cpp:360
 msgctxt "@info:tooltip"
 msgid "Click to add files to the archive"
 msgstr "Primi p'amestar ficheros al archivu"
 
-#: part/part.cpp:341
+#: part/part.cpp:366
 msgid "Add Fo&lder..."
 msgstr "A&mestar carpeta..."
 
-#: part/part.cpp:342
+#: part/part.cpp:367
 msgctxt "@info:tooltip"
 msgid "Click to add a folder to the archive"
 msgstr "Primi p'amestar una carpeta al archivu"
 
-#: part/part.cpp:348
+#: part/part.cpp:373
 msgid "De&lete"
 msgstr "&Desaniciar"
 
-#: part/part.cpp:350
+#: part/part.cpp:375
 msgctxt "@info:tooltip"
 msgid "Click to delete the selected files"
 msgstr "Primi pa desaniciar los ficheros esbillaos"
 
-#: part/part.cpp:356
+#: part/part.cpp:381
 msgctxt "@action:inmenu"
 msgid "&Properties"
 msgstr ""
 
-#: part/part.cpp:358
+#: part/part.cpp:383
 #, fuzzy
 #| msgctxt "@info:tooltip"
 #| msgid "Click to add files to the archive"
@@ -1177,15 +1195,44 @@ msgctxt "@info:tooltip"
 msgid "Click to see properties for archive"
 msgstr "Primi p'amestar ficheros al archivu"
 
-#: part/part.cpp:427
+#: part/part.cpp:389
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@action:inmenu"
+msgid "&Edit Comment"
+msgstr "Comentariu"
+
+#: part/part.cpp:391
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Click to add a folder to the archive"
+msgctxt "@info:tooltip"
+msgid "Click to add or edit comment"
+msgstr "Primi p'amestar una carpeta al archivu"
+
+#: part/part.cpp:450
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@action:inmenu"
+msgid "Add &Comment"
+msgstr "Comentariu"
+
+#: part/part.cpp:450
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@action:inmenu"
+msgid "Edit &Comment"
+msgstr "Comentariu"
+
+#: part/part.cpp:497
 msgid "Extract To..."
 msgstr "Estrayer en..."
 
-#: part/part.cpp:441
+#: part/part.cpp:511
 msgid "Quick Extract To..."
 msgstr "Estraición rápida en..."
 
-#: part/part.cpp:513
+#: part/part.cpp:583
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -1199,7 +1246,7 @@ msgstr ""
 "Ark nun foi quién a abrir <filename>%1</filename>. Nun s'alcontró dal "
 "complementu afayadizu.<nl/><nl/>Ark nun paez sofitar esta triba de ficheru."
 
-#: part/part.cpp:520
+#: part/part.cpp:590
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -1216,27 +1263,27 @@ msgstr ""
 "complementu afayadizu.<nl/><nl/>Asegúrate que dal executable necesita "
 "remanar la triba d'archivu que ta instaláu."
 
-#: part/part.cpp:570
+#: part/part.cpp:640
 #, fuzzy
 #| msgid "Extraction settings"
 msgctxt "@title:tab"
 msgid "Extraction Settings"
 msgstr "Axustes d'estraición"
 
-#: part/part.cpp:571
+#: part/part.cpp:641
 #, fuzzy
 #| msgid "Preview settings"
 msgctxt "@title:tab"
 msgid "Preview Settings"
 msgstr "Axustes de previsualización"
 
-#: part/part.cpp:584
+#: part/part.cpp:654
 #, kde-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is a directory."
 msgstr "<filename>%1</filename> ye un direutoriu."
 
-#: part/part.cpp:593
+#: part/part.cpp:663
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -1250,7 +1297,7 @@ msgstr ""
 "Nun pudo abrise'l ficheru<filename>%1</filename>.<nl/>Comprueba si tienes "
 "abondos permisos o non."
 
-#: part/part.cpp:599
+#: part/part.cpp:669
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "The archive <filename>%1</filename> was not found."
@@ -1260,13 +1307,13 @@ msgid ""
 "file."
 msgstr "Nun s'alcontró l'archivu <filename>%1</filename>."
 
-#: part/part.cpp:602
+#: part/part.cpp:672
 #, kde-format
 msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr "Nun s'alcontró l'archivu <filename>%1</filename>."
 
-#: part/part.cpp:607
+#: part/part.cpp:677
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1276,7 +1323,7 @@ msgstr ""
 "Nun pudo cargase l'archivu <filename>%1</filename> darréu que nun foi "
 "posible lleer d'elli."
 
-#: part/part.cpp:620
+#: part/part.cpp:690
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -1290,17 +1337,17 @@ msgstr ""
 "Yá esiste l'archivu comprimíu <filename>%1</filename>. ¿Prestaríate abrilu "
 "nel so llugar?"
 
-#: part/part.cpp:622
+#: part/part.cpp:692
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr "Esiste'l ficheru"
 
-#: part/part.cpp:623
+#: part/part.cpp:693
 msgctxt "@action:button"
 msgid "Overwrite"
 msgstr ""
 
-#: part/part.cpp:644
+#: part/part.cpp:714
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -1314,45 +1361,45 @@ msgstr ""
 "La carga del archivu <filename>%1</filename> falló col fallu de darréu:<nl/"
 "><nl/><message>%2</message>"
 
-#: part/part.cpp:687
+#: part/part.cpp:756
 msgctxt "@info"
 msgid "The archive is empty or Ark could not open its content."
 msgstr "L'archivu ta baleru o Ark nun pudo abrir los sos conteníos."
 
-#: part/part.cpp:692
+#: part/part.cpp:761
 msgctxt "@info"
 msgid "Ark does not currently support ISO files with UDF filesystem."
 msgstr "Anguaño Ark nun sofita ficheros ISO col sistema de ficheros UDF."
 
-#: part/part.cpp:747
+#: part/part.cpp:816
 msgid "Ark cannot open symlinks."
 msgstr "Ark nun pue abrir enllaces simbólicos."
 
-#: part/part.cpp:859
+#: part/part.cpp:928
 #, kde-format
 msgid ""
 "The file <filename>%1</filename> was modified. Do you want to update the "
 "archive?"
 msgstr "Modificóse'l ficheru <filename>%1</filename>. ¿Quies anovalu?"
 
-#: part/part.cpp:861
+#: part/part.cpp:930
 #, fuzzy
 #| msgid "File modified"
 msgctxt "@title:window"
 msgid "File Modified"
 msgstr "ficheru modificáu"
 
-#: part/part.cpp:1134
+#: part/part.cpp:1203
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "Amiestu de ficheros"
 
-#: part/part.cpp:1141
+#: part/part.cpp:1210
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "Amiestu de carpeta"
 
-#: part/part.cpp:1168
+#: part/part.cpp:1237
 #, fuzzy
 #| msgid ""
 #| "Deleting these files is not undoable. Are you sure you want to do this?"
@@ -1365,7 +1412,7 @@ msgstr[0] ""
 msgstr[1] ""
 "Nun podrá desafacese'l desaniciu d'estos ficheros. ¿De xuru que quies facelo?"
 
-#: part/part.cpp:1171
+#: part/part.cpp:1240
 #, fuzzy
 #| msgctxt "@title:window"
 #| msgid "Delete files"
@@ -1375,12 +1422,12 @@ msgid_plural "Delete Files"
 msgstr[0] "Desaniciu de ficheros"
 msgstr[1] "Desaniciu de ficheros"
 
-#: part/part.cpp:1210
+#: part/part.cpp:1279
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "Guardar ficheru como"
 
-#: part/part.cpp:1217
+#: part/part.cpp:1286
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1390,7 +1437,7 @@ msgstr ""
 "Yá esiste un archivu nomáu <filename>%1</filename>. ¿De xuru que quies "
 "sobrescribilu?"
 
-#: part/part.cpp:1231
+#: part/part.cpp:1300
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1400,7 +1447,7 @@ msgstr ""
 "Nun pue copiase l'archivu <filename>%1</filename> al allugamientu "
 "especificáu. L'archivu yá nun esiste"
 
-#: part/part.cpp:1245
+#: part/part.cpp:1314
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1424,7 +1471,7 @@ msgctxt "@info"
 msgid "Could not read until the end of the archive"
 msgstr "Nun pudo lleese fasta la fin del ficheru"
 
-#: plugins/libarchive/libarchiveplugin.cpp:174
+#: plugins/libarchive/libarchiveplugin.cpp:180
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1434,7 +1481,7 @@ msgstr ""
 "Nun pudo abrise'l ficheru<filename>%1</filename>.<nl/>Comprueba si tienes "
 "abondos permisos o non."
 
-#: plugins/libarchive/libarchiveplugin.cpp:246
+#: plugins/libarchive/libarchiveplugin.cpp:252
 msgid ""
 "This archive contains archive entries with absolute paths, which are not "
 "supported by Ark."
@@ -1442,7 +1489,7 @@ msgstr ""
 "Esti archivu contién entraes d'archivos con caminos absolutos qu'entá nun "
 "tán sofitaos por Ark."
 
-#: plugins/libarchive/libarchiveplugin.cpp:385
+#: plugins/libarchive/libarchiveplugin.cpp:391
 #, kde-format
 msgctxt "@info"
 msgid "Extraction failed at:<nl/><filename>%1</filename>"
