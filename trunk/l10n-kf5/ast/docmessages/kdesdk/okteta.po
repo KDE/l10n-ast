@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okteta\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-04 09:04+0000\n"
+"POT-Creation-Date: 2016-05-15 08:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -504,7 +504,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:259 index.docbook:1050
+#: index.docbook:259 index.docbook:1063
 #, no-c-format
 msgid ""
 "Bookmarks are currently only transient and not saved if you close a byte "
@@ -733,7 +733,16 @@ msgid "Creating structure definitions"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:374
+#: index.docbook:375 index.docbook:393 index.docbook:571
+#, no-c-format
+msgid ""
+"A more up to date, but not completed guide to writing structure definitions "
+"can be found <ulink url=\"https://userbase.kde.org/Okteta/"
+"Writing_structure_definitions\">on the KDE UserBase Wiki</ulink>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:379
 #, no-c-format
 msgid ""
 "There are two different ways of creating structure definitions. The first is "
@@ -752,13 +761,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:387
+#: index.docbook:392
 #, no-c-format
 msgid "Structure definition &XML; file format"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:388
+#: index.docbook:396
 #, no-c-format
 msgid ""
 "The <literal role=\"extension\">.osd</literal> &XML; file has one root "
@@ -767,13 +776,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:395
+#: index.docbook:403
 #, no-c-format
 msgid "&lt;primitive&gt;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:396
+#: index.docbook:404
 #, no-c-format
 msgid ""
 "To create a primitive data types like &eg; <emphasis>int</emphasis> and "
@@ -782,25 +791,25 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:400 index.docbook:427 index.docbook:460 index.docbook:537
+#: index.docbook:408 index.docbook:435 index.docbook:468 index.docbook:545
 #, no-c-format
 msgid "type"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:402
+#: index.docbook:410
 #, no-c-format
 msgid "The type of this primitive type. It must be one of the following:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:404
+#: index.docbook:412
 #, no-c-format
 msgid "<emphasis>char</emphasis> for a 8 bit ASCII character"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:405
+#: index.docbook:413
 #, no-c-format
 msgid ""
 "<emphasis>int8, int16, int32, int64</emphasis> for a signed integer of that "
@@ -808,7 +817,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:406
+#: index.docbook:414
 #, no-c-format
 msgid ""
 "<emphasis>uint8, uint16, uint32, uint64</emphasis> for an unsigned integer "
@@ -816,7 +825,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:407
+#: index.docbook:415
 #, no-c-format
 msgid ""
 "<emphasis>bool8, bool16, bool32, bool64</emphasis> for an unsigned boolean "
@@ -824,25 +833,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:408
+#: index.docbook:416
 #, no-c-format
 msgid "<emphasis>float</emphasis> for a 32 bit IEEE754 floating point number"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:409
+#: index.docbook:417
 #, no-c-format
 msgid "<emphasis>double</emphasis> for a 64 bit IEEE754 floating point number"
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:418
+#: index.docbook:426
 #, no-c-format
 msgid "&lt;bitfield&gt;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:419
+#: index.docbook:427
 #, no-c-format
 msgid ""
 "To create a bitfield. This element accepts no subelements and can have the "
@@ -850,25 +859,25 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:423
+#: index.docbook:431
 #, no-c-format
 msgid "width"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:424
+#: index.docbook:432
 #, no-c-format
 msgid "The number of bits used by this bitfield. Must be between 1 and 64."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:429
+#: index.docbook:437
 #, no-c-format
 msgid "The type of this bitfield. It must be one of the following:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:431
+#: index.docbook:439
 #, no-c-format
 msgid ""
 "<emphasis>unsigned</emphasis> for a bitfield where the value will be "
@@ -877,7 +886,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:433
+#: index.docbook:441
 #, no-c-format
 msgid ""
 "<emphasis>signed</emphasis> for a bitfield where the value will be "
@@ -886,7 +895,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:436
+#: index.docbook:444
 #, no-c-format
 msgid ""
 "<emphasis>bool</emphasis> for a bitfield where the value will be interpreted "
@@ -894,7 +903,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:439
+#: index.docbook:447
 #, no-c-format
 msgid ""
 "Always remember to add padding after a <emphasis>&lt;bitfield&gt;</"
@@ -904,13 +913,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:449
+#: index.docbook:457
 #, no-c-format
 msgid "&lt;enum&gt;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:450
+#: index.docbook:458
 #, no-c-format
 msgid ""
 "To create a primitive type, but where the values are displayed as members of "
@@ -920,13 +929,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:455
+#: index.docbook:463
 #, no-c-format
 msgid "enum"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:456
+#: index.docbook:464
 #, no-c-format
 msgid ""
 "The underlying enum for this value. Must match the <emphasis>name</emphasis> "
@@ -935,7 +944,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:462
+#: index.docbook:470
 #, no-c-format
 msgid ""
 "The type of this enum. See type attribute of <emphasis>&lt;primitive&gt;</"
@@ -944,13 +953,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:472
+#: index.docbook:480
 #, no-c-format
 msgid "&lt;flags&gt;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:473
+#: index.docbook:481
 #, no-c-format
 msgid ""
 "This is the same as <emphasis>&lt;enum&gt;</emphasis> with the only "
@@ -959,13 +968,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:478
+#: index.docbook:486
 #, no-c-format
 msgid "&lt;struct&gt;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:479
+#: index.docbook:487
 #, no-c-format
 msgid ""
 "To create a structure. All other elements (including <emphasis>&lt;struct&gt;"
@@ -974,13 +983,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:484
+#: index.docbook:492
 #, no-c-format
 msgid "&lt;union&gt;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:485
+#: index.docbook:493
 #, no-c-format
 msgid ""
 "To create a union. Basically the same as <emphasis>&lt;struct&gt;</emphasis> "
@@ -989,13 +998,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:491
+#: index.docbook:499
 #, no-c-format
 msgid "&lt;array&gt;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:492
+#: index.docbook:500
 #, no-c-format
 msgid ""
 "To create an array. This element accepts exactly one child (the underlying "
@@ -1004,13 +1013,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:497
+#: index.docbook:505
 #, no-c-format
 msgid "length"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:498
+#: index.docbook:506
 #, no-c-format
 msgid ""
 "The number of elements in this array as a decimal number. Alternatively it "
@@ -1022,13 +1031,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:511
+#: index.docbook:519
 #, no-c-format
 msgid "&lt;string&gt;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:512
+#: index.docbook:520
 #, no-c-format
 msgid ""
 "To create a string in various encodings. By default you get a "
@@ -1037,13 +1046,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:516
+#: index.docbook:524
 #, no-c-format
 msgid "terminatedBy"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:517
+#: index.docbook:525
 #, no-c-format
 msgid ""
 "This attribute determines what unicode codepoint the string is terminated "
@@ -1055,13 +1064,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:524
+#: index.docbook:532
 #, no-c-format
 msgid "maxCharCount"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:525
+#: index.docbook:533
 #, no-c-format
 msgid ""
 "The maximum number of chars this string can have. If <emphasis>terminatedBy</"
@@ -1070,13 +1079,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:530
+#: index.docbook:538
 #, no-c-format
 msgid "maxByteCount"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:531
+#: index.docbook:539
 #, no-c-format
 msgid ""
 "The maximum number of bytes this string can be long. If "
@@ -1087,31 +1096,31 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:538
+#: index.docbook:546
 #, no-c-format
 msgid "The encoding of this string. Can be one of the following:"
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:540
+#: index.docbook:548
 #, no-c-format
 msgid "ASCII"
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:541
+#: index.docbook:549
 #, no-c-format
 msgid "LATIN-1"
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:542
+#: index.docbook:550
 #, no-c-format
 msgid "UTF-8"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:543
+#: index.docbook:551
 #, no-c-format
 msgid ""
 "<emphasis>UTF-16-LE</emphasis> or <emphasis>UTF-16-BE</emphasis>. If neither "
@@ -1120,7 +1129,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:546
+#: index.docbook:554
 #, no-c-format
 msgid ""
 "<emphasis>UTF-32-LE</emphasis> or <emphasis>UTF-32-BE</emphasis>. If neither "
@@ -1129,7 +1138,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:556
+#: index.docbook:564
 #, no-c-format
 msgid ""
 "Every element also accepts an attribute <emphasis>name</emphasis> which is "
@@ -1137,19 +1146,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:562
+#: index.docbook:570
 #, no-c-format
 msgid "An example structure definition in both &XML; and JavaScript"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:564
+#: index.docbook:576
 #, no-c-format
 msgid "The common step shared by both approaches"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:565
+#: index.docbook:577
 #, no-c-format
 msgid ""
 "Our metadata file looks like this: <screen>\n"
@@ -1183,7 +1192,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:578
+#: index.docbook:590
 #, no-c-format
 msgid ""
 "In this example we would have a directory named <filename>simplestruct</"
@@ -1194,13 +1203,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:583
+#: index.docbook:595
 #, no-c-format
 msgid "A simple &XML; structure definition"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:584
+#: index.docbook:596
 #, no-c-format
 msgid ""
 "To start we create a definition for a very simple test structure containing "
@@ -1230,7 +1239,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:594
+#: index.docbook:606
 #, no-c-format
 msgid ""
 "Now create a directory <filename class=\"directory\">simplestruct</filename> "
@@ -1240,18 +1249,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:599
+#: index.docbook:611
 #, no-c-format
 msgid "The simple structure in JavaScript"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:600
+#: index.docbook:612
 #, no-c-format
 msgid ""
 "To implement the structure above in JavaScript, create a file named "
 "<filename>main.js</filename> instead of <filename>simplestruct.osd</"
-"filename>. The contents of that file should be: <screen>\n"
+"filename> and change X-KDE-PluginInfo-Category=structure to X-KDE-PluginInfo-"
+"Category=structure/js The contents of that file should be: <screen>\n"
 "        function init() {\n"
 "          var structure = struct({\n"
 "            aChar : char(),\n"
@@ -1266,7 +1276,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:605
+#: index.docbook:618
 #, no-c-format
 msgid ""
 "The following functions can be called to create a primitive type: "
@@ -1282,13 +1292,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:620
+#: index.docbook:633
 #, no-c-format
 msgid "More complex structures"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:621
+#: index.docbook:634
 #, no-c-format
 msgid ""
 "Next we create a definition of a more complex structure which we will call "
@@ -1318,7 +1328,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: index.docbook:629
+#: index.docbook:642
 #, no-c-format
 msgid ""
 "struct complex {\n"
@@ -1334,7 +1344,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:631
+#: index.docbook:644
 #, no-c-format
 msgid ""
 "You can obviously only have dynamic length arrays reference fields before "
@@ -1342,7 +1352,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:633
+#: index.docbook:646
 #, no-c-format
 msgid ""
 "Next we create the <filename>complex.desktop</filename> file just as in the "
@@ -1351,13 +1361,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:638
+#: index.docbook:651
 #, no-c-format
 msgid "Further information"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:639
+#: index.docbook:652
 #, no-c-format
 msgid ""
 "A few example structure definitions can be found in the <ulink url=\"https://"
@@ -1372,19 +1382,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:654
+#: index.docbook:667
 #, no-c-format
 msgid "Interface Overview"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:657
+#: index.docbook:670
 #, no-c-format
 msgid "Menu Items"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:659
+#: index.docbook:672
 #, no-c-format
 msgid ""
 "Apart from the common &kde; menus described in the <ulink url=\"help:/"
@@ -1393,13 +1403,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:664
+#: index.docbook:677
 #, no-c-format
 msgid "File Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:668
+#: index.docbook:681
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> </"
@@ -1407,19 +1417,19 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:675
+#: index.docbook:688
 #, no-c-format
 msgid "Create a new byte array..."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:677
+#: index.docbook:690
 #, no-c-format
 msgid "<guimenuitem>Empty</guimenuitem>: ... as Empty one."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:679
+#: index.docbook:692
 #, no-c-format
 msgid ""
 "<guimenuitem>From Clipboard</guimenuitem>: ... by the current content of the "
@@ -1427,38 +1437,38 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:681
+#: index.docbook:694
 #, no-c-format
 msgid "<guimenuitem>Pattern...</guimenuitem>: ... with a given pattern."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:683
+#: index.docbook:696
 #, no-c-format
 msgid "<guimenuitem>Random Data...</guimenuitem>: ...with random data."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:684
+#: index.docbook:697
 #, no-c-format
 msgid ""
 "<guimenuitem>Sequence</guimenuitem>: ... with all the bytes from 0 to 255."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:691
+#: index.docbook:704
 #, no-c-format
 msgid "<guimenu>File</guimenu> <guisubmenu>Export</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:695
+#: index.docbook:708
 #, no-c-format
 msgid "Export the selected bytes to a file..."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:697
+#: index.docbook:710
 #, no-c-format
 msgid ""
 "<guimenuitem>Values</guimenuitem>: ... encoded as byte values. By default "
@@ -1468,13 +1478,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:702
+#: index.docbook:715
 #, no-c-format
 msgid "<guimenuitem>Characters</guimenuitem>: ... encoded as plain text."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:704
+#: index.docbook:717
 #, no-c-format
 msgid ""
 "<guimenuitem>Base64</guimenuitem>: ... encoded in the <ulink url=\"https://"
@@ -1482,7 +1492,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:707
+#: index.docbook:720
 #, no-c-format
 msgid ""
 "<guimenuitem>Base32</guimenuitem>: ... encoded in the <ulink url=\"https://"
@@ -1490,7 +1500,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:710
+#: index.docbook:723
 #, no-c-format
 msgid ""
 "<guimenuitem>Ascii85</guimenuitem>: ... encoded in the <ulink url=\"https://"
@@ -1498,7 +1508,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:713
+#: index.docbook:726
 #, no-c-format
 msgid ""
 "<guimenuitem>Uuencoding</guimenuitem>: ... encoded in the <ulink url="
@@ -1506,7 +1516,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:716
+#: index.docbook:729
 #, no-c-format
 msgid ""
 "<guimenuitem>Xxencoding</guimenuitem>: ... encoded in the <ulink url="
@@ -1514,7 +1524,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:719
+#: index.docbook:732
 #, no-c-format
 msgid ""
 "<guimenuitem>Intel Hex</guimenuitem>: ... encoded in the <ulink url="
@@ -1522,7 +1532,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:722
+#: index.docbook:735
 #, no-c-format
 msgid ""
 "<guimenuitem>S-Record</guimenuitem>: ... encoded in the <ulink url=\"https://"
@@ -1530,7 +1540,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:725
+#: index.docbook:738
 #, no-c-format
 msgid ""
 "<guimenuitem>C array</guimenuitem>: ... defined as an array in the "
@@ -1538,7 +1548,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:727
+#: index.docbook:740
 #, no-c-format
 msgid ""
 "<guimenuitem>View in Plain Text</guimenuitem>: ... as in the data view with "
@@ -1546,7 +1556,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:735
+#: index.docbook:748
 #, no-c-format
 msgid ""
 "<guimenu>File</guimenu> <guisubmenu>Permissions</guisubmenu><guimenuitem>Set "
@@ -1554,31 +1564,31 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:739
+#: index.docbook:752
 #, no-c-format
 msgid "When set, changes may not be made to the loaded byte array."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:744
+#: index.docbook:757
 #, no-c-format
 msgid "<guimenu>File</guimenu> <guimenuitem>Close All Other</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:748
+#: index.docbook:761
 #, no-c-format
 msgid "Close all besides the current byte array."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:755
+#: index.docbook:768
 #, no-c-format
 msgid "Edit Menu"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:757
+#: index.docbook:770
 #, no-c-format
 msgid ""
 "Simple copy and cut send data to the clipboard with the mimetype "
@@ -1589,13 +1599,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:762
+#: index.docbook:775
 #, no-c-format
 msgid "<guimenu>Edit</guimenu> <guisubmenu>Copy as</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:766
+#: index.docbook:779
 #, no-c-format
 msgid ""
 "Copy the selected bytes in one of different formats to the clipboard. For a "
@@ -1604,25 +1614,25 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:774
+#: index.docbook:787
 #, no-c-format
 msgid "<guimenu>Edit</guimenu> <guisubmenu>Insert</guisubmenu>"
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:782
+#: index.docbook:795
 #, no-c-format
 msgid "Insert Pattern..."
 msgstr ""
 
 #. Tag: action
-#: index.docbook:784
+#: index.docbook:797
 #, no-c-format
 msgid "Insert a specified string of bytes at the cursor."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:785
+#: index.docbook:798
 #, no-c-format
 msgid ""
 "Options in the dialog box allow you to specify the number of insertion of "
@@ -1631,7 +1641,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:795
+#: index.docbook:808
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>A</keycap></"
@@ -1640,13 +1650,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:802
+#: index.docbook:815
 #, no-c-format
 msgid "Deselect the current selection."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:806
+#: index.docbook:819
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> </"
@@ -1654,13 +1664,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:813
+#: index.docbook:826
 #, no-c-format
 msgid "Opens an embedded dialog to enter the range to select."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:818
+#: index.docbook:831
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\"><keycap>Ins</keycap></keycombo> </"
@@ -1668,13 +1678,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:825
+#: index.docbook:838
 #, no-c-format
 msgid "<action>Switch between Insert mode and Overwrite mode</action>."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:827
+#: index.docbook:840
 #, no-c-format
 msgid ""
 "Overwrite mode is implemented to be very strict, it is not possible to "
@@ -1682,7 +1692,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:833
+#: index.docbook:846
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> </"
@@ -1690,7 +1700,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:840
+#: index.docbook:853
 #, no-c-format
 msgid ""
 "<action>Find a specified pattern in the document.</action> Hexadecimal, "
@@ -1698,7 +1708,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:842
+#: index.docbook:855
 #, no-c-format
 msgid ""
 "Options in the dialog box allow you to specify the starting point, direction "
@@ -1706,7 +1716,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:847
+#: index.docbook:860
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo> </"
@@ -1714,26 +1724,26 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:854
+#: index.docbook:867
 #, no-c-format
 msgid "Move the cursor to a specified offset."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:862
+#: index.docbook:875
 #, no-c-format
 msgid "View Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:867
+#: index.docbook:880
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu> <guimenuitem>Show Non-printing Chars</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:871
+#: index.docbook:884
 #, no-c-format
 msgid ""
 "<action>Toggle display of non-printing chars on and off.</action> If the "
@@ -1742,7 +1752,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:877
+#: index.docbook:890
 #, no-c-format
 msgid ""
 "<shortcut> <keycap>F11</keycap> </shortcut> <guimenu>View</guimenu> "
@@ -1750,19 +1760,19 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:884
+#: index.docbook:897
 #, no-c-format
 msgid "Toggle display of the line offset on a pane to the left on and off."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:889
+#: index.docbook:902
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guisubmenu>Show Values or Chars</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:893
+#: index.docbook:906
 #, no-c-format
 msgid ""
 "<action>Select which of the byte interpretations are shown.</action> "
@@ -1770,79 +1780,79 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:896
+#: index.docbook:909
 #, no-c-format
 msgid "Values"
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:898
+#: index.docbook:911
 #, no-c-format
 msgid "Chars"
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:899
+#: index.docbook:912
 #, no-c-format
 msgid "Values and Chars"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:905
+#: index.docbook:918
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guisubmenu>Value Coding</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:909
+#: index.docbook:922
 #, no-c-format
 msgid "<action>Select the coding of the values</action> from:"
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:911
+#: index.docbook:924
 #, no-c-format
 msgid "Hexadecimal"
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:912
+#: index.docbook:925
 #, no-c-format
 msgid "Decimal"
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:913
+#: index.docbook:926
 #, no-c-format
 msgid "Octal"
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:914
+#: index.docbook:927
 #, no-c-format
 msgid "Binary"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:920
+#: index.docbook:933
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guisubmenu>Char Coding</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:924
+#: index.docbook:937
 #, no-c-format
 msgid "<action>Select the coding of the chars</action> from the submenu."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:930
+#: index.docbook:943
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guisubmenu>Set Bytes per Line</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:934
+#: index.docbook:947
 #, no-c-format
 msgid ""
 "<action>Select the displayed bytes per line</action> from the dialog, the "
@@ -1850,13 +1860,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:940
+#: index.docbook:953
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guisubmenu>Set Bytes per Group</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:944
+#: index.docbook:957
 #, no-c-format
 msgid ""
 "<action>By default the hexadecimal values are displayed in groups of 4 bytes."
@@ -1865,13 +1875,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:950
+#: index.docbook:963
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guisubmenu>Dynamic Layout</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:954
+#: index.docbook:967
 #, no-c-format
 msgid ""
 "<action>Set the rules for the layout of the data display.</action> This "
@@ -1880,7 +1890,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:958
+#: index.docbook:971
 #, no-c-format
 msgid ""
 "<guimenuitem>Off</guimenuitem>: The layout is fixed to the current number of "
@@ -1888,7 +1898,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:961
+#: index.docbook:974
 #, no-c-format
 msgid ""
 "<guimenuitem>Wrap only complete byte groups</guimenuitem>: Puts as many "
@@ -1896,7 +1906,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:964
+#: index.docbook:977
 #, no-c-format
 msgid ""
 "<guimenuitem>On</guimenuitem>: Same as previous, but allows also incomplete "
@@ -1904,19 +1914,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:971
+#: index.docbook:984
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guisubmenu>View Mode</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:975
+#: index.docbook:988
 #, no-c-format
 msgid "<action>Select the layout for the view</action> from:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:977
+#: index.docbook:990
 #, no-c-format
 msgid ""
 "<guimenuitem>Columns</guimenuitem>: The values and chars interpretations are "
@@ -1924,7 +1934,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:980
+#: index.docbook:993
 #, no-c-format
 msgid ""
 "<guimenuitem>Rows</guimenuitem>: The char interpretation of a byte is "
@@ -1932,7 +1942,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:987
+#: index.docbook:1000
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>T</keycap></"
@@ -1941,7 +1951,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:994
+#: index.docbook:1007
 #, no-c-format
 msgid ""
 "Split the view area with the currently focused view into two parts and add a "
@@ -1949,7 +1959,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:999
+#: index.docbook:1012
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>L</keycap></"
@@ -1958,7 +1968,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1006
+#: index.docbook:1019
 #, no-c-format
 msgid ""
 "Split the view area with the currently focused view into two parts and add a "
@@ -1966,7 +1976,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1011
+#: index.docbook:1024
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>R</keycap></"
@@ -1975,19 +1985,19 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1018
+#: index.docbook:1031
 #, no-c-format
 msgid "Close the view area with the currently focused view."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1022
+#: index.docbook:1035
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guimenuitem>View Profile</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1026
+#: index.docbook:1039
 #, no-c-format
 msgid ""
 "View settings can be separately stored as view profiles. The currently "
@@ -1998,25 +2008,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1037
+#: index.docbook:1050
 #, no-c-format
 msgid "Windows Menu"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1039
+#: index.docbook:1052
 #, no-c-format
 msgid "Provides a list of the current views. Select the active window."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1044
+#: index.docbook:1057
 #, no-c-format
 msgid "Bookmarks Menu"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1046
+#: index.docbook:1059
 #, no-c-format
 msgid ""
 "Multiple bookmarks can be set for a single byte array. Each byte array has "
@@ -2026,7 +2036,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1055
+#: index.docbook:1068
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> </"
@@ -2035,13 +2045,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1062
+#: index.docbook:1075
 #, no-c-format
 msgid "Bookmark a location within the byte array."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1066
+#: index.docbook:1079
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>B</keycap></"
@@ -2050,7 +2060,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1073
+#: index.docbook:1086
 #, no-c-format
 msgid ""
 "<action>Remove the current bookmark.</action> This command is only available "
@@ -2058,20 +2068,20 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1078
+#: index.docbook:1091
 #, no-c-format
 msgid ""
 "<guimenu>Bookmarks</guimenu> <guimenuitem>Remove All Bookmarks</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1082
+#: index.docbook:1095
 #, no-c-format
 msgid "Clear the bookmark list."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1086
+#: index.docbook:1099
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Alt;<keycap>Up</keycap></keycombo> </"
@@ -2080,13 +2090,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1093
+#: index.docbook:1106
 #, no-c-format
 msgid "Move the cursor to the previous bookmark."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1098
+#: index.docbook:1111
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Alt;<keycap>Down</keycap></keycombo> "
@@ -2095,19 +2105,19 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1105
+#: index.docbook:1118
 #, no-c-format
 msgid "Move the cursor to the next bookmark."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1114
+#: index.docbook:1127
 #, no-c-format
 msgid "Tools Menu"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1116
+#: index.docbook:1129
 #, no-c-format
 msgid ""
 "Provides a list of installed tools. Toggle the display of each tools on or "
@@ -2116,13 +2126,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1122
+#: index.docbook:1135
 #, no-c-format
 msgid "Settings Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1125
+#: index.docbook:1138
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu> <guimenuitem>Manage View Profiles...</"
@@ -2130,32 +2140,32 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1129
+#: index.docbook:1142
 #, no-c-format
 msgid "Open a dialog to create, edit, delete and set a default view profile."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1140
+#: index.docbook:1153
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1142
+#: index.docbook:1155
 #, no-c-format
 msgid "&okteta;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1147
+#: index.docbook:1160
 #, no-c-format
 msgid ""
 "Program Copyright 2006-2012 &Friedrich.Kossebau; &Friedrich.Kossebau.email;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1150
+#: index.docbook:1163
 #, no-c-format
 msgid ""
 "Documentation Copyright 2008,2010 &Friedrich.Kossebau; &Friedrich.Kossebau."
@@ -2163,43 +2173,43 @@ msgid ""
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:1153
+#: index.docbook:1166
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:1153
+#: index.docbook:1166
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1163
+#: index.docbook:1176
 #, no-c-format
 msgid "Installation"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1166
+#: index.docbook:1179
 #, no-c-format
 msgid "How to obtain &okteta;"
 msgstr ""
 
 #. Tag: sect1
-#: index.docbook:1166
+#: index.docbook:1179
 #, no-c-format
 msgid "&install.intro.documentation;"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1171
+#: index.docbook:1184
 #, no-c-format
 msgid "Compilation and Installation"
 msgstr ""
 
 #. Tag: sect1
-#: index.docbook:1171
+#: index.docbook:1184
 #, no-c-format
 msgid "&install.compile.documentation;"
 msgstr ""
