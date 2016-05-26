@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-08 08:24+0000\n"
+"POT-Creation-Date: 2016-05-26 07:37+0000\n"
 "PO-Revision-Date: 2016-02-01 16:49+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Spanish <>\n"
@@ -36,99 +36,12 @@ msgstr "KDE Connect"
 msgid "Use your phone as a touchpad and keyboard"
 msgstr "Usa'l to teléfonu como touchpad y tecláu"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, NotificationsConfigUi)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SendNotificationsConfigUi)
 #. i18n: ectx: property (windowTitle), widget (QWidget, PauseMusicConfigUi)
-#: notifications/notifications_config.ui:29 pausemusic/pausemusic_config.ui:17
+#: pausemusic/pausemusic_config.ui:17
+#: sendnotifications/sendnotifications_config.ui:29
 msgid "Pause music plugin"
 msgstr "Posar complementu de música"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: notifications/notifications_config.ui:48
-msgid "General"
-msgstr "Xeneral"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, check_persistent)
-#: notifications/notifications_config.ui:60
-msgid "Synchronize only notifications with a timeout value of 0?"
-msgstr "¿Sincornizar namái los avisos con un valor de tiempu escosao de 0?"
-
-#. i18n: ectx: property (text), widget (QCheckBox, check_persistent)
-#: notifications/notifications_config.ui:63
-msgid "Persistent notifications only"
-msgstr "Namái avisos persistentes"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, check_body)
-#: notifications/notifications_config.ui:76
-msgid ""
-"Append the notification body to the summary when synchronizing notifications?"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, check_body)
-#: notifications/notifications_config.ui:79
-msgid "Include body"
-msgstr "Incluyir cuerpu"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, check_icons)
-#: notifications/notifications_config.ui:92
-msgid "Synchronize icons of notifying applications if possible?"
-msgstr "¿Sincronizar si ye posible los iconos d'aplicaciones qu'avisen?"
-
-#. i18n: ectx: property (text), widget (QCheckBox, check_icons)
-#: notifications/notifications_config.ui:95
-msgid "Synchronize icons"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QSpinBox, spin_urgency)
-#: notifications/notifications_config.ui:123
-msgid ""
-"<html><head/><body><p>Minimum urgency level of the notifications</p></body></"
-"html>"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label)
-#: notifications/notifications_config.ui:139
-msgid "Synchronize only notifications with the given urgency level."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: notifications/notifications_config.ui:142
-msgid "Minimum urgency level"
-msgstr "Nivel d'urxencia mínimu"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: notifications/notifications_config.ui:170
-#, fuzzy
-#| msgid "Actions"
-msgid "Applications"
-msgstr "Aiciones"
-
-#: notifications/notifyingapplicationmodel.cpp:205
-#: runcommand/runcommand_config.cpp:51
-msgid "Name"
-msgstr "Nome"
-
-#: notifications/notifyingapplicationmodel.cpp:209
-msgid "Blacklisted"
-msgstr "Nel llistáu prietu"
-
-#: notifications/notifyingapplicationmodel.cpp:213
-msgid "Name of a notifying application."
-msgstr "Nome de l'aplicación qu'avisa."
-
-#: notifications/notifyingapplicationmodel.cpp:215
-msgid "Synchronize notifications of an application?"
-msgstr "¿Sicronizar avisos d'una aplicación?"
-
-#: notifications/notifyingapplicationmodel.cpp:217
-#, fuzzy
-msgid ""
-"Regular expression defining which notifications should not be sent.\n"
-"This pattern is applied to the summary and, if selected above, the body of "
-"notifications."
-msgstr ""
-"Espresiones regulares definiendo qu'avisos nun deberíen unviase.\n"
-"Esti patrón aplícase al sumariu y si s'esbilla enriba, el cuerpu de los "
-"avisos."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: pausemusic/pausemusic_config.ui:32
@@ -165,8 +78,96 @@ msgid "Ping!"
 msgstr "¡Ping!"
 
 #: runcommand/runcommand_config.cpp:51
+#: sendnotifications/notifyingapplicationmodel.cpp:205
+msgid "Name"
+msgstr "Nome"
+
+#: runcommand/runcommand_config.cpp:51
 msgid "Command"
 msgstr "Comandu"
+
+#: sendnotifications/notifyingapplicationmodel.cpp:209
+msgid "Blacklisted"
+msgstr "Nel llistáu prietu"
+
+#: sendnotifications/notifyingapplicationmodel.cpp:213
+msgid "Name of a notifying application."
+msgstr "Nome de l'aplicación qu'avisa."
+
+#: sendnotifications/notifyingapplicationmodel.cpp:215
+msgid "Synchronize notifications of an application?"
+msgstr "¿Sicronizar avisos d'una aplicación?"
+
+#: sendnotifications/notifyingapplicationmodel.cpp:217
+#, fuzzy
+msgid ""
+"Regular expression defining which notifications should not be sent.\n"
+"This pattern is applied to the summary and, if selected above, the body of "
+"notifications."
+msgstr ""
+"Espresiones regulares definiendo qu'avisos nun deberíen unviase.\n"
+"Esti patrón aplícase al sumariu y si s'esbilla enriba, el cuerpu de los "
+"avisos."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: sendnotifications/sendnotifications_config.ui:48
+msgid "General"
+msgstr "Xeneral"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, check_persistent)
+#: sendnotifications/sendnotifications_config.ui:60
+msgid "Synchronize only notifications with a timeout value of 0?"
+msgstr "¿Sincornizar namái los avisos con un valor de tiempu escosao de 0?"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_persistent)
+#: sendnotifications/sendnotifications_config.ui:63
+msgid "Persistent notifications only"
+msgstr "Namái avisos persistentes"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, check_body)
+#: sendnotifications/sendnotifications_config.ui:76
+msgid ""
+"Append the notification body to the summary when synchronizing notifications?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_body)
+#: sendnotifications/sendnotifications_config.ui:79
+msgid "Include body"
+msgstr "Incluyir cuerpu"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, check_icons)
+#: sendnotifications/sendnotifications_config.ui:92
+msgid "Synchronize icons of notifying applications if possible?"
+msgstr "¿Sincronizar si ye posible los iconos d'aplicaciones qu'avisen?"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_icons)
+#: sendnotifications/sendnotifications_config.ui:95
+msgid "Synchronize icons"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, spin_urgency)
+#: sendnotifications/sendnotifications_config.ui:123
+msgid ""
+"<html><head/><body><p>Minimum urgency level of the notifications</p></body></"
+"html>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: sendnotifications/sendnotifications_config.ui:139
+msgid "Synchronize only notifications with the given urgency level."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: sendnotifications/sendnotifications_config.ui:142
+msgid "Minimum urgency level"
+msgstr "Nivel d'urxencia mínimu"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: sendnotifications/sendnotifications_config.ui:170
+#, fuzzy
+#| msgid "Actions"
+msgid "Applications"
+msgstr "Aiciones"
 
 #: sftp/mounter.cpp:156
 msgid "Failed to start sshfs"
