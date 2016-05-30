@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-12 07:01+0000\n"
+"POT-Creation-Date: 2016-05-30 08:41+0000\n"
 "PO-Revision-Date: 2016-02-09 18:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -234,7 +234,7 @@ msgid "Memory Consumed"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (ChartWidget, temporaryTab)
-#: gui/chartmodel.cpp:74 gui/flamegraph.cpp:344 gui/mainwindow.ui:565
+#: gui/chartmodel.cpp:74 gui/flamegraph.cpp:343 gui/mainwindow.ui:574
 msgid "Temporary Allocations"
 msgstr ""
 
@@ -360,72 +360,72 @@ msgid "%1 allocated in total"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (ChartWidget, allocationsTab)
-#: gui/flamegraph.cpp:342 gui/mainwindow.ui:560 gui/treemodel.cpp:93
+#: gui/flamegraph.cpp:341 gui/mainwindow.ui:569 gui/treemodel.cpp:93
 msgid "Allocations"
 msgstr ""
 
-#: gui/flamegraph.cpp:343
+#: gui/flamegraph.cpp:342
 msgid ""
 "Show a flame graph over the number of allocations triggered by functions in "
 "your code."
 msgstr ""
 
-#: gui/flamegraph.cpp:345
+#: gui/flamegraph.cpp:344
 msgid ""
 "Show a flame graph over the number of temporary allocations triggered by "
 "functions in your code. Allocations are marked as temporary when they are "
 "immediately followed by their deallocation."
 msgstr ""
 
-#: gui/flamegraph.cpp:347
+#: gui/flamegraph.cpp:346
 msgid "Peak Consumption"
 msgstr ""
 
-#: gui/flamegraph.cpp:348
+#: gui/flamegraph.cpp:347
 msgid ""
 "Show a flame graph over the peak heap memory consumption of your application."
 msgstr ""
 
-#: gui/flamegraph.cpp:349 gui/treemodel.cpp:99
+#: gui/flamegraph.cpp:348 gui/treemodel.cpp:99
 msgid "Leaked"
 msgstr ""
 
-#: gui/flamegraph.cpp:350
+#: gui/flamegraph.cpp:349
 msgid ""
 "Show a flame graph over the leaked heap memory of your application. Memory "
 "is considered to be leaked when it never got deallocated. "
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (ChartWidget, allocatedTab)
-#: gui/flamegraph.cpp:352 gui/mainwindow.ui:570 gui/treemodel.cpp:101
+#: gui/flamegraph.cpp:351 gui/mainwindow.ui:579 gui/treemodel.cpp:101
 msgid "Allocated"
 msgstr ""
 
-#: gui/flamegraph.cpp:353
+#: gui/flamegraph.cpp:352
 msgid ""
 "Show a flame graph over the total memory allocated by functions in your "
 "code. This aggregates all memory allocations and ignores deallocations."
 msgstr ""
 
-#: gui/flamegraph.cpp:357
+#: gui/flamegraph.cpp:356
 msgid "Select the data source that should be visualized in the flame graph."
 msgstr ""
 
-#: gui/flamegraph.cpp:366
+#: gui/flamegraph.cpp:365
 msgid "Bottom-Down View"
 msgstr ""
 
-#: gui/flamegraph.cpp:367
+#: gui/flamegraph.cpp:366
 msgid ""
 "Enable the bottom-down flame graph view. When this is unchecked, the top-"
 "down view is enabled by default."
 msgstr ""
 
-#: gui/flamegraph.cpp:377
+#: gui/flamegraph.cpp:376
 msgid "Cost Threshold: "
 msgstr ""
 
-#: gui/flamegraph.cpp:381
+#: gui/flamegraph.cpp:380
 msgid ""
 "<qt>The cost threshold defines a fractional cut-off value. Items with a "
 "relative cost below this value will not be shown in the flame graph. This is "
@@ -434,7 +434,7 @@ msgid ""
 "or set it to zero.</qt>"
 msgstr ""
 
-#: gui/flamegraph.cpp:478
+#: gui/flamegraph.cpp:509
 msgid "generating flame graph..."
 msgstr ""
 
@@ -576,129 +576,129 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, topPeakLabel)
 #. i18n: ectx: property (toolTip), widget (QTreeView, topPeak)
-#: gui/mainwindow.ui:212 gui/mainwindow.ui:225
+#: gui/mainwindow.ui:221 gui/mainwindow.ui:234
 msgid "List of functions that allocated the most memory at a given time."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, topPeakLabel)
-#: gui/mainwindow.ui:215
+#: gui/mainwindow.ui:224
 msgid "Highest Memory Peaks"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, topLeakedLabel)
 #. i18n: ectx: property (toolTip), widget (QTreeView, topLeaked)
-#: gui/mainwindow.ui:242 gui/mainwindow.ui:255
+#: gui/mainwindow.ui:251 gui/mainwindow.ui:264
 msgid "List of functions that leak the most memory."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, topLeakedLabel)
-#: gui/mainwindow.ui:245
+#: gui/mainwindow.ui:254
 msgid "Largest Memory Leaks"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, topAllocationsLabel)
 #. i18n: ectx: property (toolTip), widget (QTreeView, topAllocations)
-#: gui/mainwindow.ui:272 gui/mainwindow.ui:285
+#: gui/mainwindow.ui:281 gui/mainwindow.ui:294
 msgid "List of functions that allocate memory most often."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, topAllocationsLabel)
-#: gui/mainwindow.ui:275
+#: gui/mainwindow.ui:284
 msgid "Most Memory Allocations"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, topTemporaryLabel)
 #. i18n: ectx: property (toolTip), widget (QTreeView, topTemporary)
-#: gui/mainwindow.ui:302 gui/mainwindow.ui:315
+#: gui/mainwindow.ui:311 gui/mainwindow.ui:324
 msgid "List of functions that produced the most temporary memory allocations."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, topTemporaryLabel)
-#: gui/mainwindow.ui:305
+#: gui/mainwindow.ui:314
 msgid "Most Temporary Allocations"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, topAllocatedLabel)
 #. i18n: ectx: property (toolTip), widget (QTreeView, topAllocated)
-#: gui/mainwindow.ui:332 gui/mainwindow.ui:345
+#: gui/mainwindow.ui:341 gui/mainwindow.ui:354
 msgid ""
 "List of functions that allocated the most memory overall, ignoring "
 "deallocations."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, topAllocatedLabel)
-#: gui/mainwindow.ui:335
+#: gui/mainwindow.ui:344
 msgid "Most Memory Allocated"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, bottomUpTab)
-#: gui/mainwindow.ui:360
+#: gui/mainwindow.ui:369
 msgid "Bottom-Up"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, bottomUpFilterFunction)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, callerCalleeFilterFunction)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, topDownFilterFunction)
-#: gui/mainwindow.ui:384 gui/mainwindow.ui:452 gui/mainwindow.ui:511
+#: gui/mainwindow.ui:393 gui/mainwindow.ui:461 gui/mainwindow.ui:520
 msgid "filter by function..."
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, bottomUpFilterFile)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, callerCalleeFilterFile)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, topDownFilterFile)
-#: gui/mainwindow.ui:391 gui/mainwindow.ui:459 gui/mainwindow.ui:518
+#: gui/mainwindow.ui:400 gui/mainwindow.ui:468 gui/mainwindow.ui:527
 msgid "filter by file..."
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, bottomUpFilterModule)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, callerCalleeFilterModule)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, topDownFilterModule)
-#: gui/mainwindow.ui:398 gui/mainwindow.ui:466 gui/mainwindow.ui:525
+#: gui/mainwindow.ui:407 gui/mainwindow.ui:475 gui/mainwindow.ui:534
 msgid "filter by module..."
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, callerCalleeTab)
-#: gui/mainwindow.ui:428
+#: gui/mainwindow.ui:437
 msgid "Caller / Callee"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, topDownTab)
-#: gui/mainwindow.ui:490
+#: gui/mainwindow.ui:499
 msgid "Top-Down"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (ChartWidget, consumedTab)
-#: gui/mainwindow.ui:555
+#: gui/mainwindow.ui:564
 msgid "Consumed"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (HistogramWidget, sizesTab)
-#: gui/mainwindow.ui:575
+#: gui/mainwindow.ui:584
 msgid "Sizes"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (FlameGraph, flameGraphTab)
-#: gui/mainwindow.ui:580
+#: gui/mainwindow.ui:589
 msgid "Flame Graph"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDockWidget, stacksDock)
-#: gui/mainwindow.ui:596
+#: gui/mainwindow.ui:605
 msgid "S&tacks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, stackSpinnerLabel)
-#: gui/mainwindow.ui:621
+#: gui/mainwindow.ui:630
 msgid "Selected Stack:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QDockWidget, graphDock)
-#: gui/mainwindow.ui:646
+#: gui/mainwindow.ui:655
 msgid "Shows the heap memory consumption over time."
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDockWidget, graphDock)
-#: gui/mainwindow.ui:652
+#: gui/mainwindow.ui:661
 msgid "&Graphs"
 msgstr ""
 
