@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-01 07:29+0000\n"
+"POT-Creation-Date: 2016-06-02 07:50+0000\n"
 "PO-Revision-Date: 2016-03-06 23:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -340,7 +340,7 @@ msgstr ""
 msgid "Preview file size limit in megabytes."
 msgstr "Previsualización del tamañu de ficheros en megabytes."
 
-#: kerfuffle/cliinterface.cpp:247
+#: kerfuffle/cliinterface.cpp:246
 #, kde-format
 msgctxt "@info"
 msgid "Failed to locate program <filename>%2</filename> on disk."
@@ -348,46 +348,46 @@ msgid_plural "Failed to locate programs <filename>%2</filename> on disk."
 msgstr[0] "Fallu al allugar el programa <filename>%2</filename> nel discu."
 msgstr[1] "Fallu al allugar los programes <filename>%2</filename> nel discu."
 
-#: kerfuffle/cliinterface.cpp:347
+#: kerfuffle/cliinterface.cpp:346
 #, fuzzy
 #| msgid "Extraction failed due to a wrong password."
 msgid "Extraction failed. Make sure that enough space is available."
 msgstr "Falló la estraición pola mor d'una contraseña incorreuta."
 
-#: kerfuffle/cliinterface.cpp:350
+#: kerfuffle/cliinterface.cpp:349
 msgid ""
 "Extraction failed. Make sure you provided the correct password and that "
 "enough space is available."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:361 kerfuffle/cliinterface.cpp:376
+#: kerfuffle/cliinterface.cpp:360 kerfuffle/cliinterface.cpp:375
 msgctxt "@info"
 msgid "Could not move the extracted file to the destination directory."
 msgid_plural "Could not move the extracted files to the destination directory."
 msgstr[0] "Nun pudo movese'l ficheru estrayíu al direutoriu destín."
 msgstr[1] "Nun pudieron movese los ficheros estrayíos al direutoriu destín."
 
-#: kerfuffle/cliinterface.cpp:1020
+#: kerfuffle/cliinterface.cpp:994
 #, fuzzy
 #| msgid "Extraction failed because of an unexpected error."
 msgctxt "@info"
 msgid "Extraction failed because the disk is full."
 msgstr "Falló la estraición pola mor d'un fallu inesperáu."
 
-#: kerfuffle/cliinterface.cpp:1028
+#: kerfuffle/cliinterface.cpp:1002
 msgctxt "@info"
 msgid "Extraction failed: Incorrect password"
 msgstr "Falló la estraición: contraseña incorreuta"
 
-#: kerfuffle/cliinterface.cpp:1035 kerfuffle/cliinterface.cpp:1077
+#: kerfuffle/cliinterface.cpp:1009 kerfuffle/cliinterface.cpp:1051
 msgid "Extraction failed because of an unexpected error."
 msgstr "Falló la estraición pola mor d'un fallu inesperáu."
 
-#: kerfuffle/cliinterface.cpp:1070
+#: kerfuffle/cliinterface.cpp:1044
 msgid "Incorrect password."
 msgstr "Contraseña incorreuta."
 
-#: kerfuffle/cliinterface.cpp:1101
+#: kerfuffle/cliinterface.cpp:1075
 #, fuzzy
 #| msgctxt "@info"
 #| msgid "Ark does not currently support ISO files with UDF filesystem."
@@ -1015,7 +1015,7 @@ msgstr "Enllaz simbólicu"
 msgid "Unknown size"
 msgstr "Tamañu desconocíu"
 
-#: part/infopanel.cpp:145
+#: part/infopanel.cpp:144
 #, kde-format
 msgid "One file selected"
 msgid_plural "%1 files selected"
@@ -1023,27 +1023,33 @@ msgstr[0] "Esbillóse un ficheru"
 msgstr[1] "Esbilláronse %1 ficheros"
 
 #: part/infopanel.cpp:182
-#, kde-format
-msgid "<b>Type:</b> %1<br/>"
+#, fuzzy, kde-format
+#| msgid "<b>Type:</b> %1<br/>"
+msgid "<b>Type:</b> %1"
 msgstr "<b>Triba:</b> %1<br/>"
 
-#: part/infopanel.cpp:185
-#, kde-format
-msgid "<b>Owner:</b> %1<br/>"
+#: part/infopanel.cpp:186
+#, fuzzy, kde-format
+#| msgid "<b>Owner:</b> %1<br/>"
+msgid "<b>Owner:</b> %1"
 msgstr "<b>Dueñu:</b> %1<br/>"
 
-#: part/infopanel.cpp:189
-#, kde-format
-msgid "<b>Group:</b> %1<br/>"
+#: part/infopanel.cpp:193
+#, fuzzy, kde-format
+#| msgid "<b>Group:</b> %1<br/>"
+msgid "<b>Group:</b> %1"
 msgstr "<b>Grupu:</b> %1<br/>"
 
-#: part/infopanel.cpp:193
-#, kde-format
-msgid "<b>Target:</b> %1<br/>"
+#: part/infopanel.cpp:200
+#, fuzzy, kde-format
+#| msgid "<b>Target:</b> %1<br/>"
+msgid "<b>Target:</b> %1"
 msgstr "<b>Oxetivu:</b> %1<br/>"
 
-#: part/infopanel.cpp:197
-msgid "<b>Password protected:</b> Yes<br/>"
+#: part/infopanel.cpp:207
+#, fuzzy
+#| msgid "<b>Password protected:</b> Yes<br/>"
+msgid "<b>Password protected:</b> Yes"
 msgstr "<b>Protexíu con contraseña:</b> Sí<br/>"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, InformationPanel)
@@ -1055,11 +1061,6 @@ msgstr "Panel d'información"
 #: part/infopanel.ui:64
 msgid "Unknown file type"
 msgstr "Triba de ficheru desconocíu"
-
-#. i18n: ectx: property (text), widget (QLabel, metadataLabel)
-#: part/infopanel.ui:84
-msgid "Metadata Label"
-msgstr "Etiqueta de datos meta"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, JobTrackerWidget)
 #: part/jobtracker.ui:13
@@ -1501,7 +1502,7 @@ msgctxt "@info"
 msgid "Could not read until the end of the archive"
 msgstr "Nun pudo lleese fasta la fin del ficheru"
 
-#: plugins/libarchive/libarchiveplugin.cpp:185
+#: plugins/libarchive/libarchiveplugin.cpp:179
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1511,7 +1512,7 @@ msgstr ""
 "Nun pudo abrise'l ficheru<filename>%1</filename>.<nl/>Comprueba si tienes "
 "abondos permisos o non."
 
-#: plugins/libarchive/libarchiveplugin.cpp:257
+#: plugins/libarchive/libarchiveplugin.cpp:251
 msgid ""
 "This archive contains archive entries with absolute paths, which are not "
 "supported by Ark."
@@ -1519,7 +1520,7 @@ msgstr ""
 "Esti archivu contién entraes d'archivos con caminos absolutos qu'entá nun "
 "tán sofitaos por Ark."
 
-#: plugins/libarchive/libarchiveplugin.cpp:396
+#: plugins/libarchive/libarchiveplugin.cpp:379
 #, kde-format
 msgctxt "@info"
 msgid "Extraction failed at:<nl/><filename>%1</filename>"
@@ -1631,6 +1632,9 @@ msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr ""
 "Asocedió un fallu entrín se lleía <filename>%1</filename> na estraición."
+
+#~ msgid "Metadata Label"
+#~ msgstr "Etiqueta de datos meta"
 
 #~ msgid "ActionsLabel"
 #~ msgstr "ActionsLabel"
