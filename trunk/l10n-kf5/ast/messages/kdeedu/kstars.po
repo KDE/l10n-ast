@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-02 07:43+0000\n"
+"POT-Creation-Date: 2016-06-03 07:32+0000\n"
 "PO-Revision-Date: 2016-03-07 01:00+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -267,7 +267,7 @@ msgstr ""
 #: dialogs/detaildialog.cpp:618 ekos/capture.cpp:1835 ekos/capture.cpp:2166
 #: ekos/scheduler.cpp:2947 ekos/scheduler.cpp:3240 ekos/scheduler.cpp:3638
 #: ekos/scheduler.cpp:4287 ekos/scheduler.cpp:4316 ekos/scheduler.cpp:4358
-#: indi/drivermanager.cpp:1459 indi/indidriver.cpp:937 kstarsactions.cpp:947
+#: indi/drivermanager.cpp:1459 indi/indidriver.cpp:937 kstarsactions.cpp:955
 #: oal/execute.cpp:314 options/opscolors.cpp:200 tools/modcalcangdist.cpp:133
 #: tools/modcalcapcoord.cpp:150 tools/modcalcdaylength.cpp:247
 #: tools/modcalcgalcoord.cpp:193 tools/modcalcgeodcoord.cpp:232
@@ -413,14 +413,14 @@ msgstr "¿Guardar cambeos en FITS?"
 
 #: auxiliary/imageviewer.cpp:297 dialogs/addcatdialog.cpp:209
 #: ekos/capture.cpp:2123 ekos/scheduler.cpp:3207 fitsviewer/fitstab.cpp:276
-#: kstarsactions.cpp:820 printing/pwizprint.cpp:88 tools/scriptbuilder.cpp:829
+#: kstarsactions.cpp:828 printing/pwizprint.cpp:88 tools/scriptbuilder.cpp:829
 #, fuzzy, kde-format
 msgid "A file named \"%1\" already exists. Overwrite it?"
 msgstr "Yá esiste un ficheru denomáu «%1». ¿Sobroscribir?"
 
 #: auxiliary/imageviewer.cpp:299 dialogs/addcatdialog.cpp:211
 #: ekos/capture.cpp:2125 ekos/scheduler.cpp:3209 fitsviewer/fitstab.cpp:278
-#: kstarsactions.cpp:821 printing/pwizprint.cpp:89 tools/scriptbuilder.cpp:831
+#: kstarsactions.cpp:829 printing/pwizprint.cpp:89 tools/scriptbuilder.cpp:831
 #, fuzzy
 msgid "Overwrite File?"
 msgstr "¿Sobroscribir ficheru?"
@@ -5255,7 +5255,7 @@ msgstr "Mou diferíu"
 #. i18n: ectx: property (text), widget (QCheckBox, focusStepCheck)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FocusLogging)
 #: ekos/ekosmanager.cpp:1820 ekos/scheduler.ui:115
-#: fitsviewer/fitsviewer.cpp:286 options/opsadvanced.ui:387
+#: fitsviewer/fitsviewer.cpp:292 options/opsadvanced.ui:387
 msgid "Focus"
 msgstr ""
 
@@ -5270,7 +5270,7 @@ msgstr "Cuenta:"
 #. i18n: ectx: property (text), widget (QCheckBox, guideStepCheck)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_GuideLogging)
 #: ekos/ekosmanager.cpp:1884 ekos/opsekos.ui:231 ekos/scheduler.ui:147
-#: fitsviewer/fitsviewer.cpp:290 options/opsadvanced.ui:413
+#: fitsviewer/fitsviewer.cpp:296 options/opsadvanced.ui:413
 #, fuzzy
 msgid "Guide"
 msgstr "Guía"
@@ -8878,13 +8878,13 @@ msgstr "&Ver"
 #. i18n: ectx: Menu (help)
 #. i18n: ectx: property (text), widget (QPushButton, helpB)
 #: fitsviewer.rc:42 indi/telescopewizard.ui:54 kstarsui-indi.rc:130
-#: kstarsui-win.rc:125 kstarsui.rc:122
+#: kstarsui-win.rc:130 kstarsui.rc:122
 msgid "&Help"
 msgstr "Ay&uda"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: ectx: ToolBar (kstarsToolBar)
-#: fitsviewer.rc:56 kstarsui-indi.rc:145 kstarsui-win.rc:140 kstarsui.rc:137
+#: fitsviewer.rc:56 kstarsui-indi.rc:145 kstarsui-win.rc:145 kstarsui.rc:137
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "Barra de ferramientes principal"
@@ -9069,8 +9069,8 @@ msgid "Status:"
 msgstr "Estáu"
 
 #. i18n: ectx: property (text), widget (QLineEdit, statusEdit)
-#: fitsviewer/fitsdebayer.ui:130 fitsviewer/fitsviewer.cpp:322
-#: fitsviewer/fitsviewer.cpp:766
+#: fitsviewer/fitsdebayer.ui:130 fitsviewer/fitsviewer.cpp:328
+#: fitsviewer/fitsviewer.cpp:772
 #, fuzzy
 #| msgctxt "City in Pennsylvania USA"
 #| msgid "Reading"
@@ -9208,7 +9208,7 @@ msgstr "Logarítmica"
 msgid "&Apply"
 msgstr "&Aplicar"
 
-#: fitsviewer/fitstab.cpp:59 fitsviewer/fitsviewer.cpp:599
+#: fitsviewer/fitstab.cpp:59 fitsviewer/fitsviewer.cpp:605
 #, fuzzy
 msgid "Save Changes to FITS?"
 msgstr "¿Guardar cambeos en FITS?"
@@ -9356,7 +9356,7 @@ msgstr "Autoescaláu"
 msgid "Statistics"
 msgstr "Estadístiques"
 
-#: fitsviewer/fitsviewer.cpp:185 fitsviewer/fitsviewer.cpp:737
+#: fitsviewer/fitsviewer.cpp:185 fitsviewer/fitsviewer.cpp:743
 #, fuzzy
 #| msgid "Stars"
 msgid "Mark Stars"
@@ -9368,25 +9368,25 @@ msgstr "Estrelles"
 msgid "KStars FITS Viewer"
 msgstr "Bienveníu al editor FITS de KStars"
 
-#: fitsviewer/fitsviewer.cpp:282
+#: fitsviewer/fitsviewer.cpp:288
 #, fuzzy
 msgid "Calibrate"
 msgstr "Calibrar"
 
-#: fitsviewer/fitsviewer.cpp:409
+#: fitsviewer/fitsviewer.cpp:415
 #, kde-format
 msgid "%1 star detected."
 msgid_plural "%1 stars detected."
 msgstr[0] ""
 msgstr[1] ""
 
-#: fitsviewer/fitsviewer.cpp:469
+#: fitsviewer/fitsviewer.cpp:475
 #, fuzzy
 #| msgid "Open FITS..."
 msgid "Open FITS Image"
 msgstr "Abrir FITS..."
 
-#: fitsviewer/fitsviewer.cpp:600
+#: fitsviewer/fitsviewer.cpp:606
 #, fuzzy, kde-format
 #| msgid ""
 #| "The current script has unsaved changes.  Would you like to save before "
@@ -9396,13 +9396,13 @@ msgstr ""
 "El guión actual tien cambeos ensin guardar. ¿Quies guardalos enantes de "
 "zarralu?"
 
-#: fitsviewer/fitsviewer.cpp:742
+#: fitsviewer/fitsviewer.cpp:748
 #, fuzzy
 #| msgid "Stars"
 msgid "Unmark Stars"
 msgstr "Estrelles"
 
-#: fitsviewer/fitsviewer.cpp:760
+#: fitsviewer/fitsviewer.cpp:766
 #, fuzzy, kde-format
 #| msgid "Batch Mode"
 msgid "Processing %1..."
@@ -10491,17 +10491,17 @@ msgstr "Información"
 msgid "Center Crosshair"
 msgstr "Cruceta de seguimientu"
 
-#: kstars.cpp:199 kstarsactions.cpp:1100 skymap.cpp:411
+#: kstars.cpp:199 kstarsactions.cpp:1108 skymap.cpp:411
 #, fuzzy
 msgid "Stop &Tracking"
 msgstr "Detener &seguimientu"
 
-#: kstars.cpp:204 kstarsactions.cpp:1208 kstarsinit.cpp:236
+#: kstars.cpp:204 kstarsactions.cpp:1216 kstarsinit.cpp:236
 #, fuzzy
 msgid "Switch to horizonal view (Horizontal &Coordinates)"
 msgstr "&Coordenaes horizontales"
 
-#: kstars.cpp:204 kstarsactions.cpp:1214 kstarsinit.cpp:236
+#: kstars.cpp:204 kstarsactions.cpp:1222 kstarsinit.cpp:236
 #, fuzzy
 msgid "Switch to star globe view (Equatorial &Coordinates)"
 msgstr "&Coordenaes ecuatoriales"
@@ -50351,30 +50351,30 @@ msgstr "Xplanet"
 msgid "KStars::slotFind() - Not enough memory for dialog"
 msgstr "KStars::slotFind() - Memoria insuficiente pal diálogu"
 
-#: kstarsactions.cpp:809
+#: kstarsactions.cpp:817
 #, fuzzy
 #| msgid "Export"
 msgid "Export Image"
 msgstr "Esportar"
 
-#: kstarsactions.cpp:846 tools/scriptbuilder.cpp:754
+#: kstarsactions.cpp:854 tools/scriptbuilder.cpp:754
 #: tools/scriptbuilder.cpp:816
 msgctxt "Filter by file type: KStars Scripts."
 msgid "KStars Scripts (*.kstars)"
 msgstr ""
 
-#: kstarsactions.cpp:855
+#: kstarsactions.cpp:863
 #, fuzzy
 #| msgid "completed"
 msgid "Executing remote scripts is not supported."
 msgstr "completado"
 
-#: kstarsactions.cpp:946 oal/execute.cpp:313 tools/observinglist.cpp:777
+#: kstarsactions.cpp:954 oal/execute.cpp:313 tools/observinglist.cpp:777
 #, fuzzy, kde-format
 msgid "Could not open file %1"
 msgstr "Imposible abrir el ficheru %1"
 
-#: kstarsactions.cpp:972
+#: kstarsactions.cpp:980
 #, fuzzy
 msgid ""
 "The selected script contains unrecognized elements, indicating that it was "
@@ -50387,27 +50387,27 @@ msgstr ""
 "furrule afayadizamente y puede inclusu contener códigu dañible. ¿Quier "
 "executalu de toes formes?"
 
-#: kstarsactions.cpp:976
+#: kstarsactions.cpp:984
 #, fuzzy
 msgid "Script Validation Failed"
 msgstr "Falló la validación del guión"
 
-#: kstarsactions.cpp:976
+#: kstarsactions.cpp:984
 #, fuzzy
 msgid "Run Nevertheless"
 msgstr "Executar de toes toes"
 
-#: kstarsactions.cpp:981
+#: kstarsactions.cpp:989
 #, fuzzy, kde-format
 msgid "Running script: %1"
 msgstr "Guión n'execución: %1"
 
-#: kstarsactions.cpp:995
+#: kstarsactions.cpp:1003
 #, fuzzy
 msgid "Script finished."
 msgstr "Guión fináu."
 
-#: kstarsactions.cpp:1004
+#: kstarsactions.cpp:1012
 #, fuzzy
 msgid ""
 "You can save printer ink by using the \"Star Chart\" color scheme, which "
@@ -50418,66 +50418,66 @@ msgstr ""
 "estelar», qu'usa un fondu blancu. ¿Quier camudar al esquema de color de "
 "carta estelar pa imprentar?"
 
-#: kstarsactions.cpp:1009
+#: kstarsactions.cpp:1017
 #, fuzzy
 msgid "Switch to Star Chart Colors?"
 msgstr "¿Camudar a colores de carta estelar?"
 
-#: kstarsactions.cpp:1010
+#: kstarsactions.cpp:1018
 #, fuzzy
 msgid "Switch Color Scheme"
 msgstr "Camudar esquema de color"
 
-#: kstarsactions.cpp:1010
+#: kstarsactions.cpp:1018
 #, fuzzy
 msgid "Do Not Switch"
 msgstr "Nun camudar"
 
-#: kstarsactions.cpp:1082 kstarsinit.cpp:214
+#: kstarsactions.cpp:1090 kstarsinit.cpp:214
 #, fuzzy
 msgid "Engage &Tracking"
 msgstr "Activar &seguimientu"
 
-#: kstarsactions.cpp:1166
+#: kstarsactions.cpp:1174
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 degrees"
 msgstr ""
 
-#: kstarsactions.cpp:1169
+#: kstarsactions.cpp:1177
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 arcminutes"
 msgstr ""
 
-#: kstarsactions.cpp:1173
+#: kstarsactions.cpp:1181
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 arcseconds"
 msgstr ""
 
-#: kstarsactions.cpp:1187
+#: kstarsactions.cpp:1195
 #, fuzzy
 msgctxt "The user should enter an angle for the field-of-view of the display"
 msgid "Enter Desired Field-of-View Angle"
 msgstr "Introducir ángulu de campu de visión deseyáu"
 
-#: kstarsactions.cpp:1188
+#: kstarsactions.cpp:1196
 #, fuzzy
 msgid "Enter a field-of-view angle in degrees: "
 msgstr "Introducir ángulu de campu de visión en graos: "
 
-#: kstarsactions.cpp:1319
+#: kstarsactions.cpp:1327
 msgid "Attempt to determine from image"
 msgstr ""
 
-#: kstarsactions.cpp:1320
+#: kstarsactions.cpp:1328
 #, fuzzy
 #| msgid "Select a shape for the field-of-view symbol"
 msgid "Eyepiece View: Choose a field-of-view"
 msgstr "Esbille una forma pal símbolu del campu de visión"
 
-#: kstarsactions.cpp:1320
+#: kstarsactions.cpp:1328
 msgid "FOV to render eyepiece view for:"
 msgstr ""
 
@@ -51262,69 +51262,63 @@ msgid "&Tools"
 msgstr "&Ferramientes"
 
 #. i18n: ectx: Menu (devices)
-#: kstarsui-indi.rc:62
+#: kstarsui-indi.rc:62 kstarsui-win.rc:62
 msgid "&Devices"
 msgstr "&Preseos"
 
 #. i18n: ectx: Menu (data)
-#: kstarsui-indi.rc:82 kstarsui-win.rc:74 kstarsui.rc:74
+#: kstarsui-indi.rc:82 kstarsui-win.rc:82 kstarsui.rc:74
 msgid "&Data"
 msgstr ""
 
 #. i18n: ectx: Menu (updates)
-#: kstarsui-indi.rc:84 kstarsui-win.rc:76 kstarsui.rc:76
+#: kstarsui-indi.rc:84 kstarsui-win.rc:84 kstarsui.rc:76
 #, fuzzy
 msgid "&Updates"
 msgstr "&Anovar"
 
 #. i18n: ectx: Menu (observation)
-#: kstarsui-indi.rc:91 kstarsui-win.rc:83 kstarsui.rc:83
+#: kstarsui-indi.rc:91 kstarsui-win.rc:91 kstarsui.rc:83
 #, fuzzy
 msgid "&Observation"
 msgstr "&Observación"
 
 #. i18n: ectx: Menu (settings)
-#: kstarsui-indi.rc:96 kstarsui-win.rc:88 kstarsui.rc:88
+#: kstarsui-indi.rc:96 kstarsui-win.rc:96 kstarsui.rc:88
 #, fuzzy
 msgid "&Settings"
 msgstr "&Preferencies"
 
 #. i18n: ectx: Menu (infopanel)
-#: kstarsui-indi.rc:97 kstarsui-win.rc:89 kstarsui.rc:89
+#: kstarsui-indi.rc:97 kstarsui-win.rc:97 kstarsui.rc:89
 #, fuzzy
 msgid "&Info Boxes"
 msgstr "Paneles &informativos"
 
 #. i18n: ectx: Menu (statusbar)
-#: kstarsui-indi.rc:105 kstarsui-win.rc:102 kstarsui.rc:97
+#: kstarsui-indi.rc:105 kstarsui-win.rc:105 kstarsui.rc:97
 #, fuzzy
 msgid "&Statusbar"
 msgstr "Barra d'e&stáu"
 
 #. i18n: ectx: Menu (config_oal)
-#: kstarsui-indi.rc:117 kstarsui-win.rc:114 kstarsui.rc:109
+#: kstarsui-indi.rc:117 kstarsui-win.rc:117 kstarsui.rc:109
 #, fuzzy
 #| msgid "Delete Confirmation"
 msgid "Configure Observation &Logging"
 msgstr "Confirmación d'esborráu"
 
 #. i18n: ectx: ToolBar (viewToolBar)
-#: kstarsui-indi.rc:162 kstarsui-win.rc:157 kstarsui.rc:154
+#: kstarsui-indi.rc:162 kstarsui-win.rc:162 kstarsui.rc:154
 #, fuzzy
 msgid "View Toolbar"
 msgstr "Amosar barra de ferramientes"
 
 #. i18n: ectx: ToolBar (INDIToolBar)
-#: kstarsui-indi.rc:179
+#: kstarsui-indi.rc:179 kstarsui-win.rc:179
 #, fuzzy
 msgid "INDI Toolbar"
 msgstr "Barres de ferramientes"
-
-#. i18n: ectx: Menu (toolbars)
-#: kstarsui-win.rc:96
-#, fuzzy
-msgid "&Toolbars"
-msgstr "&Barres de ferramientes"
 
 #: libindi_strings.cpp:1
 #, fuzzy
@@ -64637,6 +64631,10 @@ msgstr ""
 #: xplanet/opsxplanet.ui:943
 msgid "Set the color for the background."
 msgstr ""
+
+#, fuzzy
+#~ msgid "&Toolbars"
+#~ msgstr "&Barres de ferramientes"
 
 #, fuzzy
 #~ msgctxt "Image/info menu item (should be translated)"
