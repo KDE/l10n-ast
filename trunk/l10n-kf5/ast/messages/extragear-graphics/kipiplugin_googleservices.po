@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-06 08:21+0000\n"
+"POT-Creation-Date: 2016-06-07 08:27+0000\n"
 "PO-Revision-Date: 2016-02-27 18:00+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -39,9 +39,101 @@ msgstr "Fallu al llistar les carpetes"
 msgid "Failed to create folder"
 msgstr "Fallu al crear la carpeta"
 
-#: gdtalker.cpp:429 picasawebtalker.cpp:987
+#: gdtalker.cpp:429 gptalker.cpp:987
 msgid "Failed to upload photo"
 msgstr "Fallu al xubir la semeya"
+
+#: gptalker.cpp:631
+msgid "No photo specified"
+msgstr "Nun s'especificó semeya dala"
+
+#: gptalker.cpp:634
+msgid "General upload failure"
+msgstr "Fallu xeneral del unvíu"
+
+#: gptalker.cpp:637
+msgid "File-size was zero"
+msgstr "El tamañu del ficheru foi cero"
+
+#: gptalker.cpp:640
+msgid "File-type was not recognized"
+msgstr "Nun se reconoció la triba del ficheru"
+
+#: gptalker.cpp:643
+msgid "User exceeded upload limit"
+msgstr "L'usuariu pasó la llende d'unvíu"
+
+#: gptalker.cpp:646
+msgid "Invalid signature"
+msgstr "Robla non válida"
+
+#: gptalker.cpp:649
+msgid "Missing signature"
+msgstr "Falta la robla"
+
+#: gptalker.cpp:652
+msgid "Login failed / Invalid auth token"
+msgstr "Falló l'arranque de sesión / Token d'autentificación inválidu"
+
+#: gptalker.cpp:655
+msgid "Invalid API Key"
+msgstr "Clave d'API inválida"
+
+#: gptalker.cpp:658
+msgid "Service currently unavailable"
+msgstr "Serviciu non disponible"
+
+#: gptalker.cpp:661
+msgid "Invalid Frob"
+msgstr "Frob inválidu"
+
+#: gptalker.cpp:664
+msgid "Format \"xxx\" not found"
+msgstr "Formatu «xxx» ensin atopar"
+
+#: gptalker.cpp:667
+msgid "Method \"xxx\" not found"
+msgstr "Métodu «xxx» ensin atopar"
+
+#: gptalker.cpp:670
+msgid "Invalid SOAP envelope"
+msgstr "Envoltoriu SOAP inválidu"
+
+#: gptalker.cpp:673
+msgid "Invalid XML-RPC Method Call"
+msgstr "Llamada al métodu XML-RPC inválida"
+
+#: gptalker.cpp:676
+msgid "The POST method is now required for all setters."
+msgstr "El métodu POST requiérenlu agora tolos configuradores"
+
+#: gptalker.cpp:679
+msgid "Unknown error"
+msgstr "Fallu desconocíu"
+
+#: gptalker.cpp:682 gswindow.cpp:422 gswindow.cpp:461 gswindow.cpp:543
+#: gswindow.cpp:571 gswindow.cpp:647 gswindow.cpp:663 gswindow.cpp:1110
+#: gswindow.cpp:1229 gswindow.cpp:1272 gswindow.cpp:1280
+msgctxt "@title:window"
+msgid "Error"
+msgstr "Fallu"
+
+#: gptalker.cpp:683
+#, kde-format
+msgid ""
+"Error occurred: %1\n"
+"Unable to proceed further."
+msgstr ""
+"Hebo un fallu: %1\n"
+"Nun se puede siguir."
+
+#: gptalker.cpp:741 gptalker.cpp:808
+msgid "Failed to fetch photo-set list"
+msgstr "Fallu al traer la llista conxuntu-semeya"
+
+#: gptalker.cpp:944 gptalker.cpp:977
+msgid "Failed to create album"
+msgstr ""
 
 #: gswidget.cpp:60
 msgid "Tag path behavior :"
@@ -73,15 +165,15 @@ msgstr "Cadena combinada"
 msgid "Build a combined tag string."
 msgstr ""
 
-#: gswindow.cpp:111
+#: gswindow.cpp:112
 msgid "Google Drive Export"
 msgstr ""
 
-#: gswindow.cpp:113
+#: gswindow.cpp:114
 msgid "A Kipi-plugin to export images to Google Drive"
 msgstr ""
 
-#: gswindow.cpp:115
+#: gswindow.cpp:116
 msgid ""
 "(c) 2013, Saurabh Patel\n"
 "(c) 2015, Shourya Singh Gupta"
@@ -89,40 +181,40 @@ msgstr ""
 "(c) 2013, Saurabh Patel\n"
 "(c) 2015, Shourya Singh Gupta"
 
-#: gswindow.cpp:118
+#: gswindow.cpp:119
 msgid "Saurabh Patel"
 msgstr "Saurabh Patel"
 
-#: gswindow.cpp:118 gswindow.cpp:193
+#: gswindow.cpp:119 gswindow.cpp:194
 msgid "Author and maintainer"
 msgstr "Autor y caltenedor"
 
-#: gswindow.cpp:121 gswindow.cpp:205
+#: gswindow.cpp:122 gswindow.cpp:206
 msgid "Shourya Singh Gupta"
 msgstr "Shourya Singh Gupta"
 
-#: gswindow.cpp:121 gswindow.cpp:196 gswindow.cpp:199 gswindow.cpp:202
-#: gswindow.cpp:205
+#: gswindow.cpp:122 gswindow.cpp:197 gswindow.cpp:200 gswindow.cpp:203
+#: gswindow.cpp:206
 msgid "Developer"
 msgstr "Desendolcador"
 
-#: gswindow.cpp:128
+#: gswindow.cpp:129
 msgid "Export to Google Drive"
 msgstr ""
 
-#: gswindow.cpp:130 gswindow.cpp:217
+#: gswindow.cpp:131 gswindow.cpp:218
 msgid "Start Upload"
 msgstr "Aniciar xuba"
 
-#: gswindow.cpp:131
+#: gswindow.cpp:132
 msgid "Start upload to Google Drive"
 msgstr ""
 
-#: gswindow.cpp:182
+#: gswindow.cpp:183
 msgid "Google Photos/PicasaWeb Export"
 msgstr ""
 
-#: gswindow.cpp:185
+#: gswindow.cpp:186
 msgid ""
 "A Kipi plugin to export image collections to Google Photos/Picasa web "
 "service."
@@ -130,10 +222,17 @@ msgstr ""
 "Un complementu de Kipi pa esportar coleiciones d'imáxenes al serviciu de "
 "Google Photos/Picasa web."
 
-#: gswindow.cpp:187
+#: gswindow.cpp:188
+#, fuzzy
+#| msgid ""
+#| "(c) 2007-2009, Vardhman Jain\n"
+#| "(c) 2008-2015, Gilles Caulier\n"
+#| "(c) 2009, Luka Renko\n"
+#| "(c) 2010, Jens Mueller\n"
+#| "(c) 2015, Shourya Singh Gupta"
 msgid ""
 "(c) 2007-2009, Vardhman Jain\n"
-"(c) 2008-2015, Gilles Caulier\n"
+"(c) 2008-2016, Gilles Caulier\n"
 "(c) 2009, Luka Renko\n"
 "(c) 2010, Jens Mueller\n"
 "(c) 2015, Shourya Singh Gupta"
@@ -144,103 +243,96 @@ msgstr ""
 "(c) 2010, Jens Mueller\n"
 "(c) 2015, Shourya Singh Gupta"
 
-#: gswindow.cpp:193
+#: gswindow.cpp:194
 msgid "Vardhman Jain"
 msgstr "Vardhman Jain"
 
-#: gswindow.cpp:196
+#: gswindow.cpp:197
 msgid "Gilles Caulier"
 msgstr "Gilles Caulier"
 
-#: gswindow.cpp:199
+#: gswindow.cpp:200
 msgid "Luka Renko"
 msgstr "Luka Renko"
 
-#: gswindow.cpp:202
+#: gswindow.cpp:203
 msgid "Jens Mueller"
 msgstr "Jens Mueller"
 
-#: gswindow.cpp:215
+#: gswindow.cpp:216
 msgid "Export to Google Photos/PicasaWeb Service"
 msgstr ""
 
-#: gswindow.cpp:218
+#: gswindow.cpp:219
 msgid "Start upload to Google Photos/PicasaWeb Service"
 msgstr ""
 
-#: gswindow.cpp:224
+#: gswindow.cpp:225
 msgid "Import from Google Photos/PicasaWeb Service"
 msgstr ""
 
-#: gswindow.cpp:226
+#: gswindow.cpp:227
 msgid "Start Download"
 msgstr "Aniciar descarga"
 
-#: gswindow.cpp:227
+#: gswindow.cpp:228
 msgid "Start download from Google Photos/PicasaWeb service"
 msgstr ""
 
-#: gswindow.cpp:421 gswindow.cpp:460 gswindow.cpp:542 gswindow.cpp:570
-#: gswindow.cpp:646 gswindow.cpp:662 gswindow.cpp:1109 gswindow.cpp:1228
-#: gswindow.cpp:1271 gswindow.cpp:1279 picasawebtalker.cpp:682
-msgctxt "@title:window"
-msgid "Error"
-msgstr "Fallu"
-
-#: gswindow.cpp:422 gswindow.cpp:461 gswindow.cpp:571
+#: gswindow.cpp:423 gswindow.cpp:462 gswindow.cpp:572
 #, kde-format
 msgid "Google Photos/PicasaWeb Call Failed: %1\n"
 msgstr ""
 
-#: gswindow.cpp:442 gswindow.cpp:521 gswindow.cpp:752
+#: gswindow.cpp:443 gswindow.cpp:522 gswindow.cpp:753
 msgid "%v / %m"
 msgstr "%v / %m"
 
-#: gswindow.cpp:525
-msgid "Picasa Export"
-msgstr "Esportación de Picasa"
+#: gswindow.cpp:526
+msgid "Google Photo Export"
+msgstr ""
 
-#: gswindow.cpp:543
+#: gswindow.cpp:544
 #, kde-format
 msgid "Google Drive Call Failed: %1\n"
 msgstr ""
 
-#: gswindow.cpp:647
+#: gswindow.cpp:648
 msgid ""
 "The textbox is empty, please enter the code from the browser in the textbox. "
 "To complete the authentication click \"Change Account\", or \"Start Upload\" "
 "to authenticate again."
 msgstr ""
 
-#: gswindow.cpp:663
+#: gswindow.cpp:664
 msgid "No image selected. Please select which images should be uploaded."
 msgstr ""
 "Nun s'esbilló imaxe dala. Esbilla que semeyes deberían xubise, por favor."
 
-#: gswindow.cpp:677 gswindow.cpp:700 gswindow.cpp:1008 gswindow.cpp:1026
-#: gswindow.cpp:1137
+#: gswindow.cpp:678 gswindow.cpp:701 gswindow.cpp:1009 gswindow.cpp:1027
+#: gswindow.cpp:1138
 msgid "Warning"
 msgstr "Alvertencia"
 
-#: gswindow.cpp:678 gswindow.cpp:701
+#: gswindow.cpp:679 gswindow.cpp:702
 msgid "Authentication failed. Click \"Continue\" to authenticate."
-msgstr ""
-
-#: gswindow.cpp:681 gswindow.cpp:704 gswindow.cpp:1013 gswindow.cpp:1031
-#: gswindow.cpp:1141 gswindow.cpp:1318
-msgid "Continue"
 msgstr ""
 
 #: gswindow.cpp:682 gswindow.cpp:705 gswindow.cpp:1014 gswindow.cpp:1032
 #: gswindow.cpp:1142 gswindow.cpp:1319
+msgid "Continue"
+msgstr ""
+
+#: gswindow.cpp:683 gswindow.cpp:706 gswindow.cpp:1015 gswindow.cpp:1033
+#: gswindow.cpp:1143 gswindow.cpp:1320
 msgid "Cancel"
 msgstr ""
 
-#: gswindow.cpp:756
+#: gswindow.cpp:757
 msgid "Google Drive export"
 msgstr ""
 
-#: gswindow.cpp:1009
+#: gswindow.cpp:1010
 #, fuzzy, kde-format
 #| msgid ""
 #| "Failed to upload photo to PicasaWeb. %1\n"
@@ -252,7 +344,7 @@ msgstr ""
 "Falló l'unvíu de la semeya a PicasaWeb. %1\n"
 "¿Quies siguir?"
 
-#: gswindow.cpp:1027
+#: gswindow.cpp:1028
 #, fuzzy, kde-format
 #| msgid ""
 #| "Failed to upload photo to PicasaWeb. %1\n"
@@ -264,18 +356,18 @@ msgstr ""
 "Falló l'unvíu de la semeya a PicasaWeb. %1\n"
 "¿Quies siguir?"
 
-#: gswindow.cpp:1059
+#: gswindow.cpp:1060
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 
-#: gswindow.cpp:1110
+#: gswindow.cpp:1111
 #, kde-format
 msgid "Failed to save image to %1"
 msgstr ""
 
-#: gswindow.cpp:1138
+#: gswindow.cpp:1139
 #, fuzzy, kde-format
 #| msgid ""
 #| "Failed to upload photo to PicasaWeb. %1\n"
@@ -288,32 +380,32 @@ msgstr ""
 "Falló l'unvíu de la semeya a PicasaWeb. %1\n"
 "¿Quies siguir?"
 
-#: gswindow.cpp:1230
+#: gswindow.cpp:1231
 #, kde-format
 msgctxt "%1 is the error string, %2 is the error code"
 msgid "An authentication error occurred: %1 (%2)"
 msgstr ""
 
-#: gswindow.cpp:1272
+#: gswindow.cpp:1273
 #, kde-format
 msgid ""
 "Google Drive call failed:\n"
 "%1"
 msgstr ""
 
-#: gswindow.cpp:1280
+#: gswindow.cpp:1281
 #, kde-format
 msgid ""
 "Google Photos/PicasaWeb call failed:\n"
 "%1"
 msgstr ""
 
-#: gswindow.cpp:1313
+#: gswindow.cpp:1314
 msgctxt "@title:window"
 msgid "Warning"
 msgstr "Alvertencia"
 
-#: gswindow.cpp:1314
+#: gswindow.cpp:1315
 msgid ""
 "After you have been logged out in the browser, click \"Continue\" to "
 "authenticate for another account"
@@ -379,100 +471,15 @@ msgstr ""
 msgid "Privacy:"
 msgstr ""
 
-#: picasawebtalker.cpp:631
-msgid "No photo specified"
-msgstr "Nun s'especificó semeya dala"
-
-#: picasawebtalker.cpp:634
-msgid "General upload failure"
-msgstr "Fallu xeneral del unvíu"
-
-#: picasawebtalker.cpp:637
-msgid "File-size was zero"
-msgstr "El tamañu del ficheru foi cero"
-
-#: picasawebtalker.cpp:640
-msgid "File-type was not recognized"
-msgstr "Nun se reconoció la triba del ficheru"
-
-#: picasawebtalker.cpp:643
-msgid "User exceeded upload limit"
-msgstr "L'usuariu pasó la llende d'unvíu"
-
-#: picasawebtalker.cpp:646
-msgid "Invalid signature"
-msgstr "Robla non válida"
-
-#: picasawebtalker.cpp:649
-msgid "Missing signature"
-msgstr "Falta la robla"
-
-#: picasawebtalker.cpp:652
-msgid "Login failed / Invalid auth token"
-msgstr "Falló l'arranque de sesión / Token d'autentificación inválidu"
-
-#: picasawebtalker.cpp:655
-msgid "Invalid API Key"
-msgstr "Clave d'API inválida"
-
-#: picasawebtalker.cpp:658
-msgid "Service currently unavailable"
-msgstr "Serviciu non disponible"
-
-#: picasawebtalker.cpp:661
-msgid "Invalid Frob"
-msgstr "Frob inválidu"
-
-#: picasawebtalker.cpp:664
-msgid "Format \"xxx\" not found"
-msgstr "Formatu «xxx» ensin atopar"
-
-#: picasawebtalker.cpp:667
-msgid "Method \"xxx\" not found"
-msgstr "Métodu «xxx» ensin atopar"
-
-#: picasawebtalker.cpp:670
-msgid "Invalid SOAP envelope"
-msgstr "Envoltoriu SOAP inválidu"
-
-#: picasawebtalker.cpp:673
-msgid "Invalid XML-RPC Method Call"
-msgstr "Llamada al métodu XML-RPC inválida"
-
-#: picasawebtalker.cpp:676
-msgid "The POST method is now required for all setters."
-msgstr "El métodu POST requiérenlu agora tolos configuradores"
-
-#: picasawebtalker.cpp:679
-msgid "Unknown error"
-msgstr "Fallu desconocíu"
-
-#: picasawebtalker.cpp:683
-#, kde-format
-msgid ""
-"Error occurred: %1\n"
-"Unable to proceed further."
-msgstr ""
-"Hebo un fallu: %1\n"
-"Nun se puede siguir."
-
-#: picasawebtalker.cpp:741 picasawebtalker.cpp:808
-msgid "Failed to fetch photo-set list"
-msgstr "Fallu al traer la llista conxuntu-semeya"
-
-#: picasawebtalker.cpp:944 picasawebtalker.cpp:977
-msgid "Failed to create album"
-msgstr ""
-
-#: plugin_googleservices.cpp:101
+#: plugin_googleservices.cpp:102
 msgid "Export to &Google Drive..."
 msgstr ""
 
-#: plugin_googleservices.cpp:111
+#: plugin_googleservices.cpp:112
 msgid "Export to &Google Photos/PicasaWeb..."
 msgstr ""
 
-#: plugin_googleservices.cpp:121
+#: plugin_googleservices.cpp:122
 msgid "Import from &Google Photos/PicasaWeb..."
 msgstr ""
 
@@ -524,6 +531,9 @@ msgstr "Descripción"
 #: replacedialog.cpp:183
 msgid "Source"
 msgstr ""
+
+#~ msgid "Picasa Export"
+#~ msgstr "Esportación de Picasa"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
