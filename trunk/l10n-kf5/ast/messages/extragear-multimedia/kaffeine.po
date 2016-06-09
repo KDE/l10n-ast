@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-08 07:12+0000\n"
+"POT-Creation-Date: 2016-06-09 07:28+0000\n"
 "PO-Revision-Date: 2010-10-19 22:11+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Cannot start mplayer process."
 msgstr ""
 
-#: configurationdialog.cpp:41
+#: configurationdialog.cpp:42
 #, fuzzy
 #| msgctxt "dialog"
 #| msgid "Configure Kaffeine"
@@ -31,17 +31,17 @@ msgctxt "@title:window"
 msgid "Configure Kaffeine"
 msgstr "Configurar Kaffeine"
 
-#: configurationdialog.cpp:48
+#: configurationdialog.cpp:49
 msgctxt "@item:inlistbox 'Startup display mode:'"
 msgid "Normal Mode"
 msgstr ""
 
-#: configurationdialog.cpp:50
+#: configurationdialog.cpp:51
 msgctxt "@item:inlistbox 'Startup display mode:'"
 msgid "Minimal Mode"
 msgstr ""
 
-#: configurationdialog.cpp:52
+#: configurationdialog.cpp:53
 #, fuzzy
 #| msgctxt "'Playback' menu"
 #| msgid "Full Screen Mode"
@@ -49,17 +49,17 @@ msgctxt "@item:inlistbox 'Startup display mode:'"
 msgid "Full Screen Mode"
 msgstr "Mou de pantalla completa"
 
-#: configurationdialog.cpp:54
+#: configurationdialog.cpp:55
 msgctxt "@item:inlistbox 'Startup display mode:'"
 msgid "Remember Last Setting"
 msgstr ""
 
-#: configurationdialog.cpp:58
+#: configurationdialog.cpp:59
 msgctxt "@label:listbox"
 msgid "Startup display mode:"
 msgstr ""
 
-#: configurationdialog.cpp:67
+#: configurationdialog.cpp:68
 #, fuzzy
 #| msgctxt "'Configure Kaffeine' dialog"
 #| msgid "Short skip duration:"
@@ -67,7 +67,7 @@ msgctxt "@label:spinbox"
 msgid "Short skip duration:"
 msgstr "Short skip duration:"
 
-#: configurationdialog.cpp:76
+#: configurationdialog.cpp:77
 #, fuzzy
 #| msgctxt "'Configure Kaffeine' dialog"
 #| msgid "Long skip duration:"
@@ -75,29 +75,44 @@ msgctxt "@label:spinbox"
 msgid "Long skip duration:"
 msgstr "Long skip duration:"
 
-#: configurationdialog.cpp:81
+#: configurationdialog.cpp:82
 #, fuzzy
 #| msgid "General Options"
 msgctxt "@title:group"
 msgid "General"
 msgstr "Opciones xenerales"
 
-#: configurationdialog.cpp:88
+#: configurationdialog.cpp:89
 msgctxt "@label:textbox"
 msgid "Log messages:"
 msgstr ""
 
-#: configurationdialog.cpp:91
+#: configurationdialog.cpp:92
 msgctxt "@action:button"
 msgid "Show dmesg"
 msgstr ""
 
-#: configurationdialog.cpp:105
+#: configurationdialog.cpp:106
 msgctxt "@title:group"
 msgid "Diagnostics"
 msgstr ""
 
-#: configurationdialog.cpp:141
+#: configurationdialog.cpp:114
+msgctxt "@label:textbox"
+msgid "LibVLC arguments:"
+msgstr ""
+
+#: configurationdialog.cpp:121
+msgctxt "@label:textbox"
+msgid "NOTE: Kaffeine should be restarted for the new arguments to take effect"
+msgstr ""
+
+#: configurationdialog.cpp:126
+msgctxt "@title:group"
+msgid "libVLC"
+msgstr ""
+
+#: configurationdialog.cpp:163
 msgctxt "@title:window"
 msgid "dmesg"
 msgstr ""
@@ -399,7 +414,7 @@ msgid ""
 msgstr ""
 
 #: dvb/dvbconfigdialog.cpp:134
-msgid "Action after recording finishes."
+msgid "Action after recording finishes:"
 msgstr ""
 
 #: dvb/dvbconfigdialog.cpp:138
@@ -411,11 +426,11 @@ msgid "Use ISO 8859-1 charset instead of ISO 6937:"
 msgstr ""
 
 #: dvb/dvbconfigdialog.cpp:151
-msgid "Create info files to accompany EPG recordings."
+msgid "Create info files to accompany EPG recordings:"
 msgstr ""
 
 #: dvb/dvbconfigdialog.cpp:157
-msgid "Scan channels when idle to fetch fresh EPG data."
+msgid "Scan channels when idle to fetch fresh EPG data:"
 msgstr ""
 
 #: dvb/dvbconfigdialog.cpp:167 dvb/dvbscandialog.cpp:287
@@ -424,13 +439,15 @@ msgid "Scan data last updated on %1"
 msgstr "Esplorar caberos datos anovaos en %1"
 
 #: dvb/dvbconfigdialog.cpp:170
-msgid "Update scan data over Internet"
+#, fuzzy
+#| msgid "Update scan data over Internet"
+msgid "Update Scan Data over Internet"
 msgstr "Anovar datos d'esploración sobre Internet"
 
 #: dvb/dvbconfigdialog.cpp:174
 #, fuzzy
 #| msgid "Channel"
-msgid "Edit scanfile"
+msgid "Edit Scanfile"
 msgstr "Canal"
 
 #: dvb/dvbconfigdialog.cpp:177
@@ -1039,7 +1056,7 @@ msgid "(C) 2007-2016 The Kaffeine Authors"
 msgstr "(C) 2007-2010 Los autores de Kaffeine"
 
 #: main.cpp:127
-msgid "this KF5 port"
+msgid "KF5 port"
 msgstr ""
 
 #: main.cpp:132
@@ -1342,14 +1359,14 @@ msgstr "Saltar"
 
 #: mediawidget.cpp:301 mediawidget.cpp:309 mediawidget.cpp:924
 #: mediawidget.cpp:932
-#, no-c-format, kde-format
+#, c-format, kde-format
 msgctxt "submenu of 'Skip'"
 msgid "Skip %1s Backward"
 msgstr "Saltar %1s haza atrás"
 
 #: mediawidget.cpp:317 mediawidget.cpp:325 mediawidget.cpp:926
 #: mediawidget.cpp:934
-#, no-c-format, kde-format
+#, c-format, kde-format
 msgctxt "submenu of 'Skip'"
 msgid "Skip %1s Forward"
 msgstr "Saltar %1s haza alantre"
