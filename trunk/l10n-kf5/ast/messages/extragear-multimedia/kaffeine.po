@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-10 07:24+0000\n"
+"POT-Creation-Date: 2016-06-12 07:23+0000\n"
 "PO-Revision-Date: 2010-10-19 22:11+0100\n"
 "Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
 "Language-Team: Asturian <ast@li.org>\n"
@@ -22,6 +22,12 @@ msgstr ""
 #: backend-mplayer/mplayermediawidget.cpp:259
 msgid "Cannot start mplayer process."
 msgstr ""
+
+#: backend-vlc/vlcmediawidget.cpp:531
+#, fuzzy, kde-format
+#| msgid "Subtitle PID:"
+msgid "Subtitle %1"
+msgstr "PID de subtítulu:"
 
 #: configurationdialog.cpp:42
 #, fuzzy
@@ -1234,230 +1240,271 @@ msgstr "Abrir URL"
 msgid "Enter a URL:"
 msgstr "Introducir una URL:"
 
-#: mediawidget.cpp:85
+#: mediawidget.cpp:86
 msgid "Previous"
 msgstr "Atrás"
 
-#: mediawidget.cpp:93
+#: mediawidget.cpp:94
 msgid "Play"
 msgstr "Reproducir"
 
-#: mediawidget.cpp:94
+#: mediawidget.cpp:95
 msgid "Pause"
 msgstr "Posar"
 
-#: mediawidget.cpp:103
+#: mediawidget.cpp:104
 msgid "Stop"
 msgstr "Parar"
 
-#: mediawidget.cpp:111
+#: mediawidget.cpp:112
 msgid "Next"
 msgstr "Siguiente"
 
-#: mediawidget.cpp:120 mediawidget.cpp:444
+#: mediawidget.cpp:121 mediawidget.cpp:463
 msgctxt "'Playback' menu"
 msgid "Full Screen Mode"
 msgstr "Mou de pantalla completa"
 
-#: mediawidget.cpp:127 mediawidget.cpp:459
+#: mediawidget.cpp:128 mediawidget.cpp:478
 msgctxt "'Playback' menu"
 msgid "Minimal Mode"
 msgstr ""
 
 #: mediawidget.cpp:141
+#, fuzzy
+#| msgid "Add Subtitle"
+msgctxt "'Subtitle' menu"
+msgid "Subtitle"
+msgstr "Amestar subtítulu"
+
+#: mediawidget.cpp:145
 msgctxt "subtitle selection entry"
 msgid "off"
 msgstr "off"
 
-#: mediawidget.cpp:149
+#: mediawidget.cpp:153
+#, fuzzy
+#| msgid "Add Subtitle"
+msgctxt "'Subtitle' menu"
+msgid "Add subtitle file"
+msgstr "Amestar subtítulu"
+
+#: mediawidget.cpp:160
 msgctxt "'Playback' menu"
 msgid "Audio"
 msgstr "Audio"
 
-#: mediawidget.cpp:153
+#: mediawidget.cpp:163
+#, fuzzy
+#| msgid "Audio channel:"
+msgctxt "'Audio' menu"
+msgid "Audio Device"
+msgstr "Canal d'audio:"
+
+#: mediawidget.cpp:165
+#, fuzzy
+#| msgid "Audio channel:"
+msgctxt "'Playback' menu"
+msgid "Audio Device"
+msgstr "Canal d'audio:"
+
+#: mediawidget.cpp:172
 msgctxt "'Audio' menu"
 msgid "Increase Volume"
 msgstr "Xubir el volume"
 
-#: mediawidget.cpp:160
+#: mediawidget.cpp:179
 msgctxt "'Audio' menu"
 msgid "Decrease Volume"
 msgstr "Baxar el volume"
 
-#: mediawidget.cpp:166
+#: mediawidget.cpp:185
 msgctxt "'Audio' menu"
 msgid "Mute Volume"
 msgstr "Silenciar volume"
 
-#: mediawidget.cpp:176
+#: mediawidget.cpp:195
 msgctxt "'Playback' menu"
 msgid "Video"
 msgstr "Video"
 
-#: mediawidget.cpp:182
+#: mediawidget.cpp:201
 msgctxt "'Video' menu"
 msgid "Deinterlace"
 msgstr ""
 
-#: mediawidget.cpp:191
+#: mediawidget.cpp:210
 msgctxt "'Video' menu"
 msgid "Aspect Ratio"
 msgstr "Ratio d'aspeutu"
 
-#: mediawidget.cpp:197
+#: mediawidget.cpp:216
 msgctxt "'Aspect Ratio' menu"
 msgid "Automatic"
 msgstr "Automáticu"
 
-#: mediawidget.cpp:204
+#: mediawidget.cpp:223
 msgctxt "'Aspect Ratio' menu"
 msgid "Fit to Window"
 msgstr "Axustar a la ventana"
 
-#: mediawidget.cpp:210
+#: mediawidget.cpp:229
 msgctxt "'Aspect Ratio' menu"
 msgid "4:3"
 msgstr "4:3"
 
-#: mediawidget.cpp:216
+#: mediawidget.cpp:235
 msgctxt "'Aspect Ratio' menu"
 msgid "16:9"
 msgstr "16:9"
 
-#: mediawidget.cpp:222
+#: mediawidget.cpp:241
 msgid "Automatic Resize"
 msgstr "Redimensionar automáticamente"
 
-#: mediawidget.cpp:230
+#: mediawidget.cpp:249
 msgctxt "automatic resize"
 msgid "Off"
 msgstr "Off"
 
-#: mediawidget.cpp:236
+#: mediawidget.cpp:255
 msgctxt "automatic resize"
 msgid "Original Size"
 msgstr "Tamañu Orixinal"
 
-#: mediawidget.cpp:242
+#: mediawidget.cpp:261
 msgctxt "automatic resize"
 msgid "Double Size"
 msgstr "Duble tamañu"
 
-#: mediawidget.cpp:268
+#: mediawidget.cpp:287
 msgid "Volume Slider"
 msgstr "Eslizador de volume"
 
-#: mediawidget.cpp:283
+#: mediawidget.cpp:302
 msgctxt "@action:inmenu"
 msgid "Jump to Position..."
 msgstr "Salta a la posición..."
 
-#: mediawidget.cpp:288
+#: mediawidget.cpp:307
 msgctxt "playback menu"
 msgid "Skip"
 msgstr "Saltar"
 
-#: mediawidget.cpp:302 mediawidget.cpp:311 mediawidget.cpp:929
-#: mediawidget.cpp:939
+#: mediawidget.cpp:321 mediawidget.cpp:330 mediawidget.cpp:969
+#: mediawidget.cpp:979
 #, no-c-format, kde-format
 msgctxt "submenu of 'Skip'"
 msgid "Skip %1s Backward"
 msgstr "Saltar %1s haza atrás"
 
-#: mediawidget.cpp:320 mediawidget.cpp:329 mediawidget.cpp:932
-#: mediawidget.cpp:942
+#: mediawidget.cpp:339 mediawidget.cpp:348 mediawidget.cpp:972
+#: mediawidget.cpp:982
 #, no-c-format, kde-format
 msgctxt "submenu of 'Skip'"
 msgid "Skip %1s Forward"
 msgstr "Saltar %1s haza alantre"
 
-#: mediawidget.cpp:335 mediawidget.cpp:338
+#: mediawidget.cpp:354 mediawidget.cpp:357
 #, fuzzy
 #| msgid "Volume Slider"
 msgid "Seek Slider"
 msgstr "Eslizador de volume"
 
-#: mediawidget.cpp:349
+#: mediawidget.cpp:368
 msgctxt "dvd navigation"
 msgid "DVD Menu"
 msgstr ""
 
-#: mediawidget.cpp:353
+#: mediawidget.cpp:372
 msgctxt "dvd navigation"
 msgid "Title"
 msgstr "Títulu"
 
-#: mediawidget.cpp:359
+#: mediawidget.cpp:378
 msgctxt "dvd navigation"
 msgid "Chapter"
 msgstr "Capítulu"
 
-#: mediawidget.cpp:365
+#: mediawidget.cpp:384
 msgctxt "dvd navigation"
 msgid "Angle"
 msgstr "Ángulu"
 
-#: mediawidget.cpp:372
+#: mediawidget.cpp:391
 msgid "Switch between elapsed and remaining time display"
 msgstr "Camudar ente'l tiempu trescurríu y el restante"
 
-#: mediawidget.cpp:450
+#: mediawidget.cpp:469
 msgctxt "'Playback' menu"
 msgid "Exit Full Screen Mode"
 msgstr "Colar del mou pantalla completa"
 
-#: mediawidget.cpp:463
+#: mediawidget.cpp:482
 msgctxt "'Playback' menu"
 msgid "Exit Minimal Mode"
 msgstr ""
 
-#: mediawidget.cpp:635
+#: mediawidget.cpp:514
+#, fuzzy
+#| msgid "Add Subtitle"
+msgctxt "@title:window"
+msgid "Open subtitle"
+msgstr "Amestar subtítulu"
+
+#: mediawidget.cpp:514
+msgid ""
+"Subtitles (*.cdg *.idx *.srt *.sub *.utf *.ass *.ssa *.aqt *.jss *.psb *.rt "
+"*.smi *.txt *.smil *.stl *.usf *.dks *.pjs *.mpl2 *.mks *.vtt *.ttml *.dfxp"
+msgstr ""
+
+#: mediawidget.cpp:677
 msgctxt "osd"
 msgid "Stopped"
 msgstr "Paráu"
 
-#: mediawidget.cpp:694
+#: mediawidget.cpp:741
 msgctxt "osd"
 msgid "Mute On"
 msgstr "Silenciu activáu"
 
-#: mediawidget.cpp:697
+#: mediawidget.cpp:744
 msgctxt "osd"
 msgid "Mute Off"
 msgstr "Silenciu desactiváu"
 
-#: mediawidget.cpp:704
+#: mediawidget.cpp:751
 #, kde-format
 msgctxt "osd"
 msgid "Volume: %1%"
 msgstr "Volume: %1%"
 
-#: mediawidget.cpp:753
+#: mediawidget.cpp:800
 msgctxt "osd message"
 msgid "Deinterlacing On"
 msgstr ""
 
-#: mediawidget.cpp:755
+#: mediawidget.cpp:802
 msgctxt "osd message"
 msgid "Deinterlacing Off"
 msgstr ""
 
-#: mediawidget.cpp:1124
+#: mediawidget.cpp:1182
 msgctxt "osd"
 msgid "Playing"
 msgstr "Reproduciendo"
 
-#: mediawidget.cpp:1129
+#: mediawidget.cpp:1187
 msgctxt "osd"
 msgid "Paused"
 msgstr "Posáu"
 
-#: mediawidget.cpp:1303
+#: mediawidget.cpp:1361
 msgctxt "@title:window"
 msgid "Jump to Position"
 msgstr "Salta a la posición"
 
-#: mediawidget.cpp:1308
+#: mediawidget.cpp:1366
 msgid "Enter a position:"
 msgstr "Introducir posición:"
 
