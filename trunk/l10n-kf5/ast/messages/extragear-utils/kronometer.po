@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-08 07:15+0000\n"
+"POT-Creation-Date: 2016-06-29 07:23+0000\n"
 "PO-Revision-Date: 2016-02-13 23:46+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -96,7 +96,7 @@ msgstr "Ken Vermette"
 msgid "Kronometer icon"
 msgstr "Kronometer icon"
 
-#: src/mainwindow.cpp:82 src/mainwindow.cpp:178
+#: src/mainwindow.cpp:79 src/mainwindow.cpp:178
 msgctxt "untitled window"
 msgid "Untitled"
 msgstr "Ensin títulu"
@@ -181,32 +181,32 @@ msgctxt "@action:inmenu"
 msgid "Help"
 msgstr "Ayuda"
 
-#: src/mainwindow.cpp:440
+#: src/mainwindow.cpp:441
 msgctxt "@action"
 msgid "&Pause"
 msgstr "&Posar"
 
-#: src/mainwindow.cpp:443
+#: src/mainwindow.cpp:444
 msgctxt "@action"
 msgid "&Reset"
 msgstr "&Reaniciar"
 
-#: src/mainwindow.cpp:446
+#: src/mainwindow.cpp:447
 msgctxt "@action"
 msgid "&Lap"
 msgstr ""
 
-#: src/mainwindow.cpp:449
+#: src/mainwindow.cpp:450
 msgctxt "@action:inmenu"
 msgid "&Export Laps as..."
 msgstr ""
 
-#: src/mainwindow.cpp:636
+#: src/mainwindow.cpp:637
 msgctxt "@info:shell"
 msgid "Lap number,Lap time,Global time,Note"
 msgstr ""
 
-#: src/mainwindow.cpp:651
+#: src/mainwindow.cpp:652
 #, kde-format
 msgctxt "@info:shell"
 msgid "Created by Kronometer on %1"
@@ -254,35 +254,56 @@ msgstr "Data"
 msgid "Note"
 msgstr "Nota"
 
-#: src/timedisplay.cpp:33
-msgctxt "@title:column"
-msgid "Hours"
-msgstr "Hores"
-
-#: src/timedisplay.cpp:34
-msgctxt "@title:column"
-msgid "Minutes"
-msgstr "Minutos"
-
-#: src/timedisplay.cpp:35
-msgctxt "@title:column"
-msgid "Seconds"
-msgstr "Segundos"
-
-#: src/timedisplay.cpp:36 src/timedisplay.cpp:203
-msgctxt "@title:column"
-msgid "Hundredths"
-msgstr "Milésimes"
-
-#: src/timedisplay.cpp:199
+#: src/timedisplay.cpp:168
 msgctxt "@title:column"
 msgid "Tenths"
 msgstr "Centésimes"
 
-#: src/timedisplay.cpp:207
+#: src/timedisplay.cpp:172
+msgctxt "@title:column"
+msgid "Hundredths"
+msgstr "Milésimes"
+
+#: src/timedisplay.cpp:176
 msgctxt "@title:column"
 msgid "Milliseconds"
 msgstr "Milisegundos"
+
+#. i18n: @title:column
+#. i18n: ectx: property (title), widget (QGroupBox, m_hourGroup)
+#: src/timedisplay.ui:18
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Hours"
+msgid "Hours"
+msgstr "Hores"
+
+#. i18n: @title:column
+#. i18n: ectx: property (title), widget (QGroupBox, m_minGroup)
+#: src/timedisplay.ui:30
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Minutes"
+msgid "Minutes"
+msgstr "Minutos"
+
+#. i18n: @title:column
+#. i18n: ectx: property (title), widget (QGroupBox, m_secGroup)
+#: src/timedisplay.ui:42
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Seconds"
+msgid "Seconds"
+msgstr "Segundos"
+
+#. i18n: @title:column
+#. i18n: ectx: property (title), widget (QGroupBox, m_fracGroup)
+#: src/timedisplay.ui:54
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Hundredths"
+msgid "Hundredths"
+msgstr "Milésimes"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/widgets/colorsettings.ui:20
