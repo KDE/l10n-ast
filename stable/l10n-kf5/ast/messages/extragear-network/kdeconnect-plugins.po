@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-27 13:29+0000\n"
+"POT-Creation-Date: 2016-08-04 11:05+0000\n"
 "PO-Revision-Date: 2015-09-30 01:10+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Spanish <kde-i18n-doc@kde.org>\n"
@@ -17,27 +17,29 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: battery/batteryplugin.cpp:78
+#: battery/batteryplugin.cpp:77
 #, kde-format
 msgctxt "device name: low battery"
 msgid "%1: Low Battery"
 msgstr "%1: batería baxa"
 
-#: battery/batteryplugin.cpp:79
+#: battery/batteryplugin.cpp:78
 #, kde-format
 msgid "Battery at %1%"
 msgstr "Batería al %1%"
 
-#: mousepad/mousepadplugin.cpp:116
+#: mousepad/mousepadplugin.cpp:131
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: mousepad/mousepadplugin.cpp:116
+#: mousepad/mousepadplugin.cpp:131
 msgid "Use your phone as a touchpad and keyboard"
 msgstr "Usa'l to teléfonu como touchpad y tecláu"
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, SendNotificationsConfigUi)
 #. i18n: ectx: property (windowTitle), widget (QWidget, PauseMusicConfigUi)
 #: pausemusic/pausemusic_config.ui:17
+#: sendnotifications/sendnotifications_config.ui:29
 msgid "Pause music plugin"
 msgstr "Posar complementu de música"
 
@@ -75,15 +77,103 @@ msgstr "Silenciar soníu'l sistema"
 msgid "Ping!"
 msgstr "¡Ping!"
 
-#: sftp/mounter.cpp:156
+#: runcommand/runcommand_config.cpp:51
+#: sendnotifications/notifyingapplicationmodel.cpp:208
+msgid "Name"
+msgstr "Nome"
+
+#: runcommand/runcommand_config.cpp:51
+msgid "Command"
+msgstr "Comandu"
+
+#: sendnotifications/notifyingapplicationmodel.cpp:212
+msgid "Blacklisted"
+msgstr ""
+
+#: sendnotifications/notifyingapplicationmodel.cpp:216
+msgid "Name of a notifying application."
+msgstr ""
+
+#: sendnotifications/notifyingapplicationmodel.cpp:218
+msgid "Synchronize notifications of an application?"
+msgstr ""
+
+#: sendnotifications/notifyingapplicationmodel.cpp:220
+msgid ""
+"Regular expression defining which notifications should not be sent.\n"
+"This pattern is applied to the summary and, if selected above, the body of "
+"notifications."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: sendnotifications/sendnotifications_config.ui:48
+msgid "General"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, check_persistent)
+#: sendnotifications/sendnotifications_config.ui:60
+msgid "Synchronize only notifications with a timeout value of 0?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_persistent)
+#: sendnotifications/sendnotifications_config.ui:63
+msgid "Persistent notifications only"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, check_body)
+#: sendnotifications/sendnotifications_config.ui:76
+msgid ""
+"Append the notification body to the summary when synchronizing notifications?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_body)
+#: sendnotifications/sendnotifications_config.ui:79
+msgid "Include body"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, check_icons)
+#: sendnotifications/sendnotifications_config.ui:92
+msgid "Synchronize icons of notifying applications if possible?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_icons)
+#: sendnotifications/sendnotifications_config.ui:95
+msgid "Synchronize icons"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, spin_urgency)
+#: sendnotifications/sendnotifications_config.ui:123
+msgid ""
+"<html><head/><body><p>Minimum urgency level of the notifications</p></body></"
+"html>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: sendnotifications/sendnotifications_config.ui:139
+msgid "Synchronize only notifications with the given urgency level."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: sendnotifications/sendnotifications_config.ui:142
+msgid "Minimum urgency level"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: sendnotifications/sendnotifications_config.ui:170
+#, fuzzy
+#| msgid "Actions"
+msgid "Applications"
+msgstr "Aiciones"
+
+#: sftp/mounter.cpp:164
 msgid "Failed to start sshfs"
 msgstr "Fallu al aniciar sshfs"
 
-#: sftp/mounter.cpp:170
+#: sftp/mounter.cpp:178
 msgid "Error when accessing to filesystem"
 msgstr "Fallu al acceder al sistema de ficheros"
 
-#: sftp/mounter.cpp:179
+#: sftp/mounter.cpp:187
 msgid "Failed to mount filesystem: device not responding"
 msgstr "Fallu al montar el sistema de ficheros: nun ta respondiendo'l preséu"
 
@@ -114,45 +204,41 @@ msgstr "Recibiendo"
 msgid "Save files in:"
 msgstr "Guardar ficheros en:"
 
-#: telephony/telephonyplugin.cpp:44
+#: telephony/sendsmsdialog.cpp:44
+msgid "Send"
+msgstr "Unviar"
+
+#: telephony/telephonyplugin.cpp:46
 msgid "unknown number"
 msgstr "númberu desconocíu"
 
-#: telephony/telephonyplugin.cpp:54
+#: telephony/telephonyplugin.cpp:70
 #, kde-format
 msgid "Incoming call from %1"
 msgstr "Llamada entrante de %1"
 
-#: telephony/telephonyplugin.cpp:58
+#: telephony/telephonyplugin.cpp:74
 #, kde-format
 msgid "Missed call from %1"
 msgstr "Llamada perdida de %1"
 
-#: telephony/telephonyplugin.cpp:64
+#: telephony/telephonyplugin.cpp:80
 #, kde-format
 msgid "SMS from %1<br>%2"
 msgstr "SMS de %1<br>%2"
 
-#: telephony/telephonyplugin.cpp:74
+#: telephony/telephonyplugin.cpp:90
 #, kde-format
 msgid "Unknown telephony event: %1"
 msgstr "Eventu telefónicu desconocíu: %1"
 
-#: telephony/telephonyplugin.cpp:87
+#: telephony/telephonyplugin.cpp:109
 msgid "Mute Call"
 msgstr "Silenciar llamada"
 
-#~ msgid "Name"
-#~ msgstr "Nome"
-
-#~ msgid "Command"
-#~ msgstr "Comandu"
-
-#~ msgid "Send"
-#~ msgstr "Unviar"
-
-#~ msgid "Reply"
-#~ msgstr "Responder"
+#: telephony/telephonyplugin.cpp:113
+msgid "Reply"
+msgstr "Responder"
 
 #, fuzzy
 #~| msgid "Transfer Finished"

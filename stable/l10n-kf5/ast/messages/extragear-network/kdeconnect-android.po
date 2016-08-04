@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-16 11:50+0000\n"
+"POT-Creation-Date: 2016-08-04 11:04+0000\n"
 "PO-Revision-Date: 2015-11-10 15:27+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Spanish <kde-i18n-doc@kde.org>\n"
@@ -40,8 +40,11 @@ msgctxt "pref_plugin_sftp"
 msgid "Filesystem expose"
 msgstr ""
 
+#, fuzzy
+#| msgctxt "pref_plugin_sftp_desc"
+#| msgid "Allows to browse the phone's filesystem remotely"
 msgctxt "pref_plugin_sftp_desc"
-msgid "Allows to browse the phone's filesystem remotely"
+msgid "Allows to browse this device's filesystem remotely"
 msgstr "Permite restolar remotamente'l sistema de ficheros del teléfonu"
 
 msgctxt "pref_plugin_clipboard"
@@ -56,8 +59,11 @@ msgctxt "pref_plugin_mousepad"
 msgid "Remote input"
 msgstr "Entrada remota"
 
+#, fuzzy
+#| msgctxt "pref_plugin_mousepad_desc"
+#| msgid "Use your phone as a mouse and keyboard"
 msgctxt "pref_plugin_mousepad_desc"
-msgid "Use your phone as a mouse and keyboard"
+msgid "Use your phone or tablet as a touchpad and keyboard"
 msgstr "Usa'l to teléfonu como mur y tecláu"
 
 msgctxt "pref_plugin_mpris"
@@ -65,16 +71,16 @@ msgid "Multimedia controls"
 msgstr "Controles remotos multimedia"
 
 msgctxt "pref_plugin_mpris_desc"
-msgid "Control audio/video from your phone"
-msgstr "Controla audiu/videu dende'l to teléfonu"
+msgid "Provides a remote control for your media player"
+msgstr ""
 
 msgctxt "pref_plugin_runcommand"
 msgid "Run Command"
 msgstr ""
 
 msgctxt "pref_plugin_runcommand_desc"
-msgid "Runs a command on your system"
-msgstr "Executa un comandu nel to sistema"
+msgid "Trigger remote commands from your phone or tablet"
+msgstr ""
 
 msgctxt "pref_plugin_ping"
 msgid "Ping"
@@ -90,6 +96,20 @@ msgstr "Sincronización d'avisos"
 
 msgctxt "pref_plugin_notifications_desc"
 msgid "Access your notifications from other devices"
+msgstr "Accede a los tos avisos dende otros preseos"
+
+#, fuzzy
+#| msgctxt "share_notification_preference"
+#| msgid "Noisy notifications"
+msgctxt "pref_plugin_receive_notifications"
+msgid "Receive notifications"
+msgstr "Avisos sonoros"
+
+#, fuzzy
+#| msgctxt "pref_plugin_notifications_desc"
+#| msgid "Access your notifications from other devices"
+msgctxt "pref_plugin_receive_notifications_desc"
+msgid "Receive notifications from the other device and display them on Android"
 msgstr "Accede a los tos avisos dende otros preseos"
 
 msgctxt "pref_plugin_sharereceiver"
@@ -154,6 +174,14 @@ msgctxt "mousepad_triple_tap_settings_title"
 msgid "Set three finger tap action"
 msgstr ""
 
+msgctxt "mousepad_sensitivity_settings_title"
+msgid "Set touchpad sensitivity"
+msgstr ""
+
+msgctxt "mousepad_scroll_direction_title"
+msgid "Reverse Scrolling Direction"
+msgstr ""
+
 msgctxt "mousepad_tap_entries:0"
 msgid "Right click"
 msgstr "Clic drechu"
@@ -172,6 +200,30 @@ msgstr ""
 
 msgctxt "mousepad_triple_default"
 msgid "middle"
+msgstr ""
+
+msgctxt "mousepad_sensitivity_default"
+msgid "default"
+msgstr ""
+
+msgctxt "mousepad_sensitivity_entries:0"
+msgid "Slowest"
+msgstr ""
+
+msgctxt "mousepad_sensitivity_entries:1"
+msgid "Above Slowest"
+msgstr ""
+
+msgctxt "mousepad_sensitivity_entries:2"
+msgid "Default"
+msgstr ""
+
+msgctxt "mousepad_sensitivity_entries:3"
+msgid "Above Default"
+msgstr ""
+
+msgctxt "mousepad_sensitivity_entries:4"
+msgid "Fastest"
 msgstr ""
 
 msgctxt "category_connected_devices"
@@ -244,6 +296,24 @@ msgstr "Encaboxáu pola otra parte"
 msgctxt "error_invalid_key"
 msgid "Invalid key received"
 msgstr "Recibióse una clave non válida"
+
+msgctxt "encryption_info_title"
+msgid "Encryption Info"
+msgstr ""
+
+msgctxt "encryption_info_msg_no_ssl"
+msgid ""
+"The other device doesn't use a recent version of KDE Connect, using the "
+"legacy encryption method."
+msgstr ""
+
+msgctxt "my_device_fingerprint"
+msgid "SHA1 fingerprint of your device certificate is:"
+msgstr ""
+
+msgctxt "remote_device_fingerprint"
+msgid "SHA1 fingerprint of remote device certificate is:"
+msgstr ""
 
 msgctxt "pair_requested"
 msgid "Pair requested"
@@ -607,25 +677,43 @@ msgctxt "plugin_not_supported"
 msgid "This plugin is not supported by the device"
 msgstr "Esti complementu nun ta sofitáu pol preséu"
 
+#, fuzzy
+#| msgctxt "findmyphone_title"
+#| msgid "Find My Phone"
 msgctxt "findmyphone_title"
-msgid "Find My Phone"
+msgid "Find my phone"
 msgstr "Alcuéntra'l mio teléfonu"
 
+msgctxt "findmyphone_title_tablet"
+msgid "Find my tablet"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "findmyphone_description"
+#| msgid "Rings this phone so you can find it."
 msgctxt "findmyphone_description"
-msgid "Rings this phone so you can find it."
+msgid "Rings this device so you can find it"
 msgstr "Fai sonar esti teléfonu pa que pueas alcontralu."
 
 msgctxt "findmyphone_found"
 msgid "Found"
 msgstr "Alcontrar"
 
-#~ msgctxt "open"
-#~ msgid "Open"
-#~ msgstr "Abrir"
+msgctxt "open"
+msgid "Open"
+msgstr "Abrir"
 
-#~ msgctxt "close"
-#~ msgid "Close"
-#~ msgstr "Zarrar"
+msgctxt "close"
+msgid "Close"
+msgstr "Zarrar"
+
+#~ msgctxt "pref_plugin_mpris_desc"
+#~ msgid "Control audio/video from your phone"
+#~ msgstr "Controla audiu/videu dende'l to teléfonu"
+
+#~ msgctxt "pref_plugin_runcommand_desc"
+#~ msgid "Runs a command on your system"
+#~ msgstr "Executa un comandu nel to sistema"
 
 #~ msgctxt "open_mpris_controls"
 #~ msgid "Open remote control"
