@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-22 08:29+0000\n"
+"POT-Creation-Date: 2016-08-05 06:59+0000\n"
 "PO-Revision-Date: 2016-02-06 12:42+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -122,95 +122,282 @@ msgstr ""
 "Tamañu máximu de caché del tema nel discu en kilobytes. Decátate qu'estos "
 "ficheros son "
 
-#: plasma/pluginloader.cpp:98
+#: plasma/packagestructure/dataenginepackage.cpp:39
+#: plasma/packagestructure/packages.cpp:99
+#: plasmaquick/private/packages.cpp:117
+msgid "Data Files"
+msgstr "Ficheros de datos"
+
+#: plasma/packagestructure/dataenginepackage.cpp:41
+#: plasma/packagestructure/packages.cpp:101
+#: plasmaquick/private/packages.cpp:119
+msgid "Executable Scripts"
+msgstr "Scripts executables"
+
+#: plasma/packagestructure/dataenginepackage.cpp:46
+msgid "Service Descriptions"
+msgstr "Descripcione del serviciu"
+
+#: plasma/packagestructure/dataenginepackage.cpp:49
+#: plasma/packagestructure/packages.cpp:107
+#: plasmaquick/private/packages.cpp:124
+msgid "Translations"
+msgstr "Traducciones"
+
+#: plasma/packagestructure/packages.cpp:42
+#: plasma/packagestructure/packages.cpp:63 plasmaquick/private/packages.cpp:86
+#: plasmaquick/private/packages.cpp:131
+msgid "Main Script File"
+msgstr "Ficheru de script principal"
+
+#: plasma/packagestructure/packages.cpp:43
+msgid "Tests"
+msgstr ""
+
+#: plasma/packagestructure/packages.cpp:85
+#: plasmaquick/private/packages.cpp:103
+msgid "Images"
+msgstr "Imáxenes"
+
+#: plasma/packagestructure/packages.cpp:86
+#: plasmaquick/private/packages.cpp:104
+msgid "Themed Images"
+msgstr "Imáxenes temátiques"
+
+#: plasma/packagestructure/packages.cpp:92
+#: plasmaquick/private/packages.cpp:110
+msgid "Configuration Definitions"
+msgstr "Definiciones de configuraciones"
+
+#: plasma/packagestructure/packages.cpp:97
+#: plasmaquick/private/packages.cpp:115
+msgid "User Interface"
+msgstr "Interfaz d'usuariu"
+
+#: plasma/packagestructure/packages.cpp:105
+msgid "Screenshot"
+msgstr "Captura de pantalla"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:38
+msgid "Images for dialogs"
+msgstr "Imáxenes pa diálogos"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:40
+#: plasma/packagestructure/plasmathemepackage.cpp:42
+msgid "Generic dialog background"
+msgstr "Fondu de diálogu xenéricu"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:44
+#: plasma/packagestructure/plasmathemepackage.cpp:46
+msgid "Theme for the logout dialog"
+msgstr "Tema pal diálogu de zarru de sesión"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:48
+msgid "Wallpaper packages"
+msgstr "Paquetes de fondos de pantalla"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:50
+#: plasma/packagestructure/plasmathemepackage.cpp:103
+msgid "Images for widgets"
+msgstr "Imáxenes pa widgets"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:52
+#: plasma/packagestructure/plasmathemepackage.cpp:54
+msgid "Background image for widgets"
+msgstr "Imaxe de fondu pa widgets"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:56
+#: plasma/packagestructure/plasmathemepackage.cpp:58
+msgid "Analog clock face"
+msgstr "Cara'l reló analóxicu"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:60
+#: plasma/packagestructure/plasmathemepackage.cpp:62
+msgid "Background image for panels"
+msgstr "Imaxe de fondu pa paneles"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:64
+#: plasma/packagestructure/plasmathemepackage.cpp:66
+msgid "Background for graphing widgets"
+msgstr "Fondu pa widgets de gráficos"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:68
+#: plasma/packagestructure/plasmathemepackage.cpp:70
+msgid "Background image for tooltips"
+msgstr "Imaxe de fondu pa descripciones emerxentes"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:72
+msgid "Opaque images for dialogs"
+msgstr "Imáxenes opaques pa diálogos"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:74
+#: plasma/packagestructure/plasmathemepackage.cpp:76
+msgid "Opaque generic dialog background"
+msgstr "Fondu opacu de diálogu xenéricu"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:78
+#: plasma/packagestructure/plasmathemepackage.cpp:80
+msgid "Opaque theme for the logout dialog"
+msgstr "Tema opacu pal diálogu de zarru de sesión"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:82
+msgid "Opaque images for widgets"
+msgstr "Imáxenes opaques pa widgets"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:84
+#: plasma/packagestructure/plasmathemepackage.cpp:86
+msgid "Opaque background image for panels"
+msgstr "Imaxe de fondu opacu pa los paneles"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:88
+#: plasma/packagestructure/plasmathemepackage.cpp:90
+msgid "Opaque background image for tooltips"
+msgstr "Imaxe de fondu opacu pa descripciones emerxentes"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:93
+msgid "Low color images for dialogs"
+msgstr "Imáxenes de poques colores pa diálogos"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:95
+#: plasma/packagestructure/plasmathemepackage.cpp:97
+msgid "Low color generic dialog background"
+msgstr "Fondos de poques colores de diálogos xenéricos"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:99
+#: plasma/packagestructure/plasmathemepackage.cpp:101
+msgid "Low color theme for the logout dialog"
+msgstr "Tema de poques colores pal diálogu de zarru de sesión"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:105
+#: plasma/packagestructure/plasmathemepackage.cpp:107
+msgid "Low color background image for widgets"
+msgstr "Imáxanes de fondu de poques colores pa widgets"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:109
+#: plasma/packagestructure/plasmathemepackage.cpp:111
+msgid "Low color analog clock face"
+msgstr "Cara de poques colores del reló analóxiu"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:113
+#: plasma/packagestructure/plasmathemepackage.cpp:115
+msgid "Low color background image for panels"
+msgstr "Imáxanes de fondu de poques colores pa paneles"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:117
+#: plasma/packagestructure/plasmathemepackage.cpp:119
+msgid "Low color background for graphing widgets"
+msgstr "Fondu de poques colores pa widgets de gráficos"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:121
+#: plasma/packagestructure/plasmathemepackage.cpp:123
+msgid "Low color background image for tooltips"
+msgstr "Imáxenes de fondu de poques colores pa descripciones emerxentes"
+
+#: plasma/packagestructure/plasmathemepackage.cpp:125
+msgid "KColorScheme configuration file"
+msgstr "Ficheru de configuración KColorScheme"
+
+#: plasma/packagestructure/plasmoidpackage.cpp:39
+msgid "Configuration UI pages model"
+msgstr "Modelu de páxines de configuraciones d'UI"
+
+#: plasma/packagestructure/plasmoidpackage.cpp:40
+msgid "Configuration XML file"
+msgstr "Ficheru de XML de configuración"
+
+#: plasma/packagestructure/plasmoidpackage.cpp:51
+msgid "Custom expander for compact applets"
+msgstr "Espandedor personalizáu pa applets compautos"
+
+#: plasma/pluginloader.cpp:92
 msgid "Accessibility"
 msgstr "Accesibilidá"
 
-#: plasma/pluginloader.cpp:99
+#: plasma/pluginloader.cpp:93
 msgid "Application Launchers"
 msgstr "Llanzadores d'aplicaciones"
 
-#: plasma/pluginloader.cpp:100
+#: plasma/pluginloader.cpp:94
 msgid "Astronomy"
 msgstr "Astronomía"
 
-#: plasma/pluginloader.cpp:101
+#: plasma/pluginloader.cpp:95
 msgid "Date and Time"
 msgstr "Data y hora"
 
-#: plasma/pluginloader.cpp:102
+#: plasma/pluginloader.cpp:96
 msgid "Development Tools"
 msgstr "Ferramientes de desendolcu"
 
-#: plasma/pluginloader.cpp:103
+#: plasma/pluginloader.cpp:97
 msgid "Education"
 msgstr "Educación"
 
-#: plasma/pluginloader.cpp:104
+#: plasma/pluginloader.cpp:98
 msgid "Environment and Weather"
 msgstr "Entornu y clima"
 
-#: plasma/pluginloader.cpp:105
+#: plasma/pluginloader.cpp:99
 msgid "Examples"
 msgstr "Exemplos"
 
-#: plasma/pluginloader.cpp:106
+#: plasma/pluginloader.cpp:100
 msgid "File System"
 msgstr "Sistema de ficheros"
 
-#: plasma/pluginloader.cpp:107
+#: plasma/pluginloader.cpp:101
 msgid "Fun and Games"
 msgstr "Diversión y xuegos"
 
-#: plasma/pluginloader.cpp:108
+#: plasma/pluginloader.cpp:102
 msgid "Graphics"
 msgstr "Gráficos"
 
-#: plasma/pluginloader.cpp:109
+#: plasma/pluginloader.cpp:103
 msgid "Language"
 msgstr "Llingua"
 
-#: plasma/pluginloader.cpp:110
+#: plasma/pluginloader.cpp:104
 msgid "Mapping"
 msgstr "Mapeáu"
 
-#: plasma/pluginloader.cpp:111
+#: plasma/pluginloader.cpp:105
 msgid "Miscellaneous"
 msgstr "Miscelaina"
 
-#: plasma/pluginloader.cpp:112
+#: plasma/pluginloader.cpp:106
 msgid "Multimedia"
 msgstr "Multimedia"
 
-#: plasma/pluginloader.cpp:113
+#: plasma/pluginloader.cpp:107
 msgid "Online Services"
 msgstr "Servicios en llinia"
 
-#: plasma/pluginloader.cpp:114
+#: plasma/pluginloader.cpp:108
 msgid "Productivity"
 msgstr "Productividá"
 
-#: plasma/pluginloader.cpp:115
+#: plasma/pluginloader.cpp:109
 msgid "System Information"
 msgstr "Información del sistema"
 
-#: plasma/pluginloader.cpp:116
+#: plasma/pluginloader.cpp:110
 msgid "Utilities"
 msgstr "Utilidaes"
 
-#: plasma/pluginloader.cpp:117
+#: plasma/pluginloader.cpp:111
 msgid "Windows and Tasks"
 msgstr "Ventanes y xeres"
 
-#: plasma/pluginloader.cpp:118
+#: plasma/pluginloader.cpp:112
 msgid "Clipboard"
 msgstr ""
 
-#: plasma/pluginloader.cpp:119
+#: plasma/pluginloader.cpp:113
 msgid "Tasks"
 msgstr ""
 
-#: plasma/pluginloader.cpp:665 plasma/pluginloader.cpp:666
+#: plasma/pluginloader.cpp:626 plasma/pluginloader.cpp:627
 msgctxt "misc category"
 msgid "Miscellaneous"
 msgstr "Miscelaina"
@@ -317,166 +504,6 @@ msgstr "Amestar widgets..."
 #, kde-format
 msgid "Could not find requested component: %1"
 msgstr "Nun pudo alcontrase'l componente solicitáu: %1"
-
-#: plasma/private/packages.cpp:45 plasma/private/packages.cpp:66
-#: plasmaquick/private/packages.cpp:86 plasmaquick/private/packages.cpp:131
-msgid "Main Script File"
-msgstr "Ficheru de script principal"
-
-#: plasma/private/packages.cpp:46
-msgid "Tests"
-msgstr ""
-
-#: plasma/private/packages.cpp:88 plasmaquick/private/packages.cpp:103
-msgid "Images"
-msgstr "Imáxenes"
-
-#: plasma/private/packages.cpp:89 plasmaquick/private/packages.cpp:104
-msgid "Themed Images"
-msgstr "Imáxenes temátiques"
-
-#: plasma/private/packages.cpp:95 plasmaquick/private/packages.cpp:110
-msgid "Configuration Definitions"
-msgstr "Definiciones de configuraciones"
-
-#: plasma/private/packages.cpp:100 plasmaquick/private/packages.cpp:115
-msgid "User Interface"
-msgstr "Interfaz d'usuariu"
-
-#: plasma/private/packages.cpp:102 plasma/private/packages.cpp:141
-#: plasmaquick/private/packages.cpp:117
-msgid "Data Files"
-msgstr "Ficheros de datos"
-
-#: plasma/private/packages.cpp:104 plasma/private/packages.cpp:143
-#: plasmaquick/private/packages.cpp:119
-msgid "Executable Scripts"
-msgstr "Scripts executables"
-
-#: plasma/private/packages.cpp:108
-msgid "Screenshot"
-msgstr "Captura de pantalla"
-
-#: plasma/private/packages.cpp:110 plasma/private/packages.cpp:151
-#: plasmaquick/private/packages.cpp:124
-msgid "Translations"
-msgstr "Traducciones"
-
-#: plasma/private/packages.cpp:118
-msgid "Configuration UI pages model"
-msgstr "Modelu de páxines de configuraciones d'UI"
-
-#: plasma/private/packages.cpp:119
-msgid "Configuration XML file"
-msgstr "Ficheru de XML de configuración"
-
-#: plasma/private/packages.cpp:130
-msgid "Custom expander for compact applets"
-msgstr "Espandedor personalizáu pa applets compautos"
-
-#: plasma/private/packages.cpp:148
-msgid "Service Descriptions"
-msgstr "Descripcione del serviciu"
-
-#: plasma/private/packages.cpp:160
-msgid "Images for dialogs"
-msgstr "Imáxenes pa diálogos"
-
-#: plasma/private/packages.cpp:162 plasma/private/packages.cpp:164
-msgid "Generic dialog background"
-msgstr "Fondu de diálogu xenéricu"
-
-#: plasma/private/packages.cpp:166 plasma/private/packages.cpp:168
-msgid "Theme for the logout dialog"
-msgstr "Tema pal diálogu de zarru de sesión"
-
-#: plasma/private/packages.cpp:170
-msgid "Wallpaper packages"
-msgstr "Paquetes de fondos de pantalla"
-
-#: plasma/private/packages.cpp:172 plasma/private/packages.cpp:225
-msgid "Images for widgets"
-msgstr "Imáxenes pa widgets"
-
-#: plasma/private/packages.cpp:174 plasma/private/packages.cpp:176
-msgid "Background image for widgets"
-msgstr "Imaxe de fondu pa widgets"
-
-#: plasma/private/packages.cpp:178 plasma/private/packages.cpp:180
-msgid "Analog clock face"
-msgstr "Cara'l reló analóxicu"
-
-#: plasma/private/packages.cpp:182 plasma/private/packages.cpp:184
-msgid "Background image for panels"
-msgstr "Imaxe de fondu pa paneles"
-
-#: plasma/private/packages.cpp:186 plasma/private/packages.cpp:188
-msgid "Background for graphing widgets"
-msgstr "Fondu pa widgets de gráficos"
-
-#: plasma/private/packages.cpp:190 plasma/private/packages.cpp:192
-msgid "Background image for tooltips"
-msgstr "Imaxe de fondu pa descripciones emerxentes"
-
-#: plasma/private/packages.cpp:194
-msgid "Opaque images for dialogs"
-msgstr "Imáxenes opaques pa diálogos"
-
-#: plasma/private/packages.cpp:196 plasma/private/packages.cpp:198
-msgid "Opaque generic dialog background"
-msgstr "Fondu opacu de diálogu xenéricu"
-
-#: plasma/private/packages.cpp:200 plasma/private/packages.cpp:202
-msgid "Opaque theme for the logout dialog"
-msgstr "Tema opacu pal diálogu de zarru de sesión"
-
-#: plasma/private/packages.cpp:204
-msgid "Opaque images for widgets"
-msgstr "Imáxenes opaques pa widgets"
-
-#: plasma/private/packages.cpp:206 plasma/private/packages.cpp:208
-msgid "Opaque background image for panels"
-msgstr "Imaxe de fondu opacu pa los paneles"
-
-#: plasma/private/packages.cpp:210 plasma/private/packages.cpp:212
-msgid "Opaque background image for tooltips"
-msgstr "Imaxe de fondu opacu pa descripciones emerxentes"
-
-#: plasma/private/packages.cpp:215
-msgid "Low color images for dialogs"
-msgstr "Imáxenes de poques colores pa diálogos"
-
-#: plasma/private/packages.cpp:217 plasma/private/packages.cpp:219
-msgid "Low color generic dialog background"
-msgstr "Fondos de poques colores de diálogos xenéricos"
-
-#: plasma/private/packages.cpp:221 plasma/private/packages.cpp:223
-msgid "Low color theme for the logout dialog"
-msgstr "Tema de poques colores pal diálogu de zarru de sesión"
-
-#: plasma/private/packages.cpp:227 plasma/private/packages.cpp:229
-msgid "Low color background image for widgets"
-msgstr "Imáxanes de fondu de poques colores pa widgets"
-
-#: plasma/private/packages.cpp:231 plasma/private/packages.cpp:233
-msgid "Low color analog clock face"
-msgstr "Cara de poques colores del reló analóxiu"
-
-#: plasma/private/packages.cpp:235 plasma/private/packages.cpp:237
-msgid "Low color background image for panels"
-msgstr "Imáxanes de fondu de poques colores pa paneles"
-
-#: plasma/private/packages.cpp:239 plasma/private/packages.cpp:241
-msgid "Low color background for graphing widgets"
-msgstr "Fondu de poques colores pa widgets de gráficos"
-
-#: plasma/private/packages.cpp:243 plasma/private/packages.cpp:245
-msgid "Low color background image for tooltips"
-msgstr "Imáxenes de fondu de poques colores pa descripciones emerxentes"
-
-#: plasma/private/packages.cpp:247
-msgid "KColorScheme configuration file"
-msgstr "Ficheru de configuración KColorScheme"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plasma/private/publish.ui:17
