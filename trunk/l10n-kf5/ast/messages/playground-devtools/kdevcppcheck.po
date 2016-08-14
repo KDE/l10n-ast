@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-13 07:28+0000\n"
+"POT-Creation-Date: 2016-08-14 07:25+0000\n"
 "PO-Revision-Date: 2016-01-30 16:37+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #: config/cppcheckpreferences.cpp:44 config/genericconfigpage.cpp:51
-#: plugin.cpp:87
+#: plugin.cpp:86
 msgid "Cppcheck"
 msgstr "Cppcheck"
 
@@ -122,52 +122,34 @@ msgstr "Avisar si hai \"includes\" que falten"
 msgid "missingInclude"
 msgstr "missingInclude"
 
-#: job.cpp:175
+#: job.cpp:44
 msgid "Cppcheck output"
 msgstr "Salida Cppcheck"
 
-#: job.cpp:206
+#: job.cpp:149
 #, kde-format
 msgid "Failed to start Cppcheck from \"%1\"."
 msgstr "Fallu al aniciar cppcheck dende «%1»."
 
-#: job.cpp:206
-msgid "Failed to start Cppcheck"
-msgstr "Fallu al aniciar Cppcheck"
-
-#: job.cpp:212
+#: job.cpp:153
 msgid "Cppcheck crashed."
 msgstr "Cppcheck cayó."
 
-#: job.cpp:212 job.cpp:215 job.cpp:218 job.cpp:221 job.cpp:224
-#: parsers/cppcheckparser.cpp:212
-msgid "Cppcheck Error"
-msgstr "Fallu Cppcheck"
-
-#: job.cpp:215
+#: job.cpp:157
 msgid "Cppcheck process timed out."
 msgstr "Tiempu escosao pal procesu Cppcheck."
 
-#: job.cpp:218
+#: job.cpp:161
 msgid "Write to Cppcheck process failed."
 msgstr "Falló la escritura al procesu Cppcheck."
 
-#: job.cpp:221
+#: job.cpp:165
 msgid "Read from Cppcheck process failed."
 msgstr "Falló la llesctura dende'l procesu Cppcheck."
 
-#: job.cpp:224
-msgid "Unknown Cppcheck process error."
-msgstr "Fallu desconocíu del procesu Cppcheck."
-
-#: job.cpp:233
-#, kde-format
-msgid "Cppcheck finished (pid=%1,exit=%2)"
-msgstr "Cppcheck finó (pid=%1,salida=%2)"
-
-#: job.cpp:254
-msgid "job failed"
-msgstr "trabayu fallíu"
+#: job.cpp:175 parsers/cppcheckparser.cpp:212
+msgid "Cppcheck Error"
+msgstr "Fallu Cppcheck"
 
 #. i18n: ectx: Menu (run)
 #: kdevcppcheck.rc:5
@@ -180,40 +162,56 @@ msgstr "Executar"
 msgid "Cppcheck XML Parsing: error at line %1, column %2: %3"
 msgstr "Analís XML Cppcheck: fallu na llinia %1, columna %2: %3"
 
-#: plugin.cpp:86
+#: plugin.cpp:85
 msgid "Launches Cppcheck for current file"
 msgstr "Llanza Cppcheck pal ficheru actual"
 
-#: plugin.cpp:91
+#: plugin.cpp:90
 msgid "Launches Cppcheck for all files"
 msgstr "Llanza Cppcheck pa tolos ficheros"
 
-#: plugin.cpp:92
+#: plugin.cpp:91
 msgid "Cppcheck (all Files)"
 msgstr "Cppcheck (tolos ficheros)"
 
-#: plugin.cpp:116 plugin.cpp:124 plugin.cpp:133
+#: plugin.cpp:115 plugin.cpp:123 plugin.cpp:132
 #, fuzzy
 #| msgid "Error starting CppCheck"
 msgid "Error starting Cppcheck"
 msgstr "Fallu al aniciar Cppcheck"
 
-#: plugin.cpp:117
+#: plugin.cpp:116
 msgid "No active file, unable to deduce project."
 msgstr "Nun hai ficheros activos, nun pue deducise'l proyeutu."
 
-#: plugin.cpp:125
+#: plugin.cpp:124
 msgid "Active file isn't in a project"
 msgstr "Nun ye un proyeutu'l ficheru activu"
 
-#: plugin.cpp:134
+#: plugin.cpp:133
 msgid "Can't load parameters. They must be set in the project settings."
 msgstr ""
 "Nun puen cargase los parámetros. Tienen d'afitase nos axustes del proyeutu."
 
-#: plugin.cpp:202
+#: plugin.cpp:192
+msgid "Problems"
+msgstr ""
+
+#: plugin.cpp:203
 msgid "Cppcheck for current file"
 msgstr "Cppcheck pal ficheru actual"
+
+#~ msgid "Failed to start Cppcheck"
+#~ msgstr "Fallu al aniciar Cppcheck"
+
+#~ msgid "Unknown Cppcheck process error."
+#~ msgstr "Fallu desconocíu del procesu Cppcheck."
+
+#~ msgid "Cppcheck finished (pid=%1,exit=%2)"
+#~ msgstr "Cppcheck finó (pid=%1,salida=%2)"
+
+#~ msgid "job failed"
+#~ msgstr "trabayu fallíu"
 
 #~ msgid "CppCheck"
 #~ msgstr "Cppcheck"
