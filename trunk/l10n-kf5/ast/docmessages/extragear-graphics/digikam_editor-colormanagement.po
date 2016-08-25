@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-28 02:13+0000\n"
+"POT-Creation-Date: 2016-08-25 08:00+0000\n"
 "PO-Revision-Date: 2015-03-26 03:09+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -16,28 +16,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Tag: title
-#: color-management.docbook:1
+#: editor-colormanagement.docbook:1
 #, no-c-format
 msgid "RAW File Treatment and Color Management"
 msgstr ""
 
-#. Tag: para
-#: color-management.docbook:3
-#, no-c-format
-msgid ""
-"This article/tutorial has mainly been authored by Elle Stone, thanks Elle "
-"for that contribution. I merely adapted it to &digikam;'s concrete "
-"implementation."
-msgstr ""
-
 #. Tag: title
-#: color-management.docbook:4
+#: editor-colormanagement.docbook:3
 #, no-c-format
 msgid "Introduction"
 msgstr "Introducción"
 
 #. Tag: para
-#: color-management.docbook:5
+#: editor-colormanagement.docbook:4
 #, no-c-format
 msgid ""
 "The point of a color-managed workflow is to ensure that the colors coming "
@@ -49,13 +40,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:7
+#: editor-colormanagement.docbook:20
 #, no-c-format
 msgid "Which buttons do I push?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:8
+#: editor-colormanagement.docbook:21
 #, no-c-format
 msgid ""
 "When it comes to color management, everyone wants to know, \"which buttons "
@@ -68,13 +59,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:11
+#: editor-colormanagement.docbook:24
 #, no-c-format
 msgid "Is there anyone who doesn't need to worry about color management?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:12
+#: editor-colormanagement.docbook:25
 #, no-c-format
 msgid ""
 "If your imaging workflow meets all six criteria listed below, then you don't "
@@ -82,7 +73,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:14
+#: editor-colormanagement.docbook:27
 #, no-c-format
 msgid ""
 "you are working at a monitor properly calibrated to the sRGB color space "
@@ -90,7 +81,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:15
+#: editor-colormanagement.docbook:28
 #, no-c-format
 msgid ""
 "your imaging workflow starts with an in-camera-produced jpeg already in the "
@@ -98,25 +89,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:16
+#: editor-colormanagement.docbook:29
 #, no-c-format
 msgid "you work exclusively in the sRGB color space for editing"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:17
+#: editor-colormanagement.docbook:30
 #, no-c-format
 msgid "your printer wants images in the sRGB color space"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:18
+#: editor-colormanagement.docbook:31
 #, no-c-format
 msgid "your scanner produces images in the sRGB color space"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:19
+#: editor-colormanagement.docbook:32
 #, no-c-format
 msgid ""
 "your only other image output is via email or the web, where sRGB is the de "
@@ -124,19 +115,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:25
+#: editor-colormanagement.docbook:38
 #, no-c-format
 msgid "The sRGB color space"
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:26
+#: editor-colormanagement.docbook:39
 #, no-c-format
 msgid "What is so special about the sRGB color space?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:27
+#: editor-colormanagement.docbook:40
 #, no-c-format
 msgid ""
 "sRGB is widely accepted as a standard color profile by virtually everyone "
@@ -181,7 +172,7 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: color-management.docbook:31
+#: editor-colormanagement.docbook:44
 #, no-c-format
 msgid ""
 "So if sRGB works so well and makes life so easy for everyone, why use any "
@@ -189,7 +180,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:32
+#: editor-colormanagement.docbook:45
 #, no-c-format
 msgid ""
 "sRGB was designed to contain colors easily displayed on consumer-oriented "
@@ -208,13 +199,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:34
+#: editor-colormanagement.docbook:47
 #, no-c-format
 msgid "How small is sRGB?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:35
+#: editor-colormanagement.docbook:48
 #, no-c-format
 msgid ""
 "A visual representation of the limitations of sRGB compared to the colors we "
@@ -225,7 +216,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:49
+#: editor-colormanagement.docbook:62
 #, no-c-format
 msgid ""
 "If you would like to see a two-dimensional representation of sRGB compared "
@@ -235,13 +226,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:53
+#: editor-colormanagement.docbook:66
 #, no-c-format
 msgid "Calibrating and profiling your monitorRGB?"
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:54
+#: editor-colormanagement.docbook:67
 #, no-c-format
 msgid ""
 "If I choose to work exclusively in the sRGB color space, do I need to "
@@ -249,7 +240,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:55
+#: editor-colormanagement.docbook:68
 #, no-c-format
 msgid ""
 "Yes! Whether you stay within the color gamut provided by sRGB or not, you "
@@ -261,13 +252,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:57
+#: editor-colormanagement.docbook:70
 #, no-c-format
 msgid "What are the consequences of working with an uncalibrated monitor?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:58
+#: editor-colormanagement.docbook:71
 #, no-c-format
 msgid ""
 "There are several possible consequences, none of them good. Every monitor, "
@@ -295,7 +286,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:59
+#: editor-colormanagement.docbook:72
 #, no-c-format
 msgid ""
 "Setting a proper white point is only part of monitor calibration. You also "
@@ -308,7 +299,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:60
+#: editor-colormanagement.docbook:73
 #, no-c-format
 msgid ""
 "If the brightness/contrast is set too high, you will assume your images have "
@@ -318,7 +309,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:61
+#: editor-colormanagement.docbook:74
 #, no-c-format
 msgid ""
 "If your monitor gamma is improperly set, your tonal variations from dark to "
@@ -335,7 +326,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:62
+#: editor-colormanagement.docbook:75
 #, no-c-format
 msgid ""
 "Whether or not your monitor is properly calibrated, you might be surprised "
@@ -353,7 +344,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:64
+#: editor-colormanagement.docbook:77
 #, no-c-format
 msgid ""
 "The meaning of \"black point\" and \"brightness\" seems pretty clear, but "
@@ -361,7 +352,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:65
+#: editor-colormanagement.docbook:78
 #, no-c-format
 msgid ""
 "See <ulink url=\"http://en.wikipedia.org/wiki/Gamma_correction\">this "
@@ -383,14 +374,14 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:67
+#: editor-colormanagement.docbook:80
 #, no-c-format
 msgid ""
 "What's the difference between calibrating a monitor and profiling a monitor?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:68
+#: editor-colormanagement.docbook:81
 #, no-c-format
 msgid ""
 "When first learning about color management, many people are confused about "
@@ -399,7 +390,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:69
+#: editor-colormanagement.docbook:82
 #, no-c-format
 msgid ""
 "Calibration is a process where a device is brought into some defined state "
@@ -426,7 +417,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:71
+#: editor-colormanagement.docbook:84
 #, no-c-format
 msgid ""
 "Calibrating your monitor technically is not really part of color management. "
@@ -446,13 +437,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:73
+#: editor-colormanagement.docbook:86
 #, no-c-format
 msgid "Can I calibrate my monitor without a spectrophotometer?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:74
+#: editor-colormanagement.docbook:87
 #, no-c-format
 msgid ""
 "There are various methods given on the Internet for calibrating a monitor "
@@ -474,7 +465,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:76
+#: editor-colormanagement.docbook:89
 #, no-c-format
 msgid ""
 "Assuming I've decided to work exclusively in the sRGB color space, what "
@@ -482,7 +473,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:77
+#: editor-colormanagement.docbook:90
 #, no-c-format
 msgid ""
 "If your monitor has been calibrated to the sRGB standard and you work "
@@ -495,7 +486,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:78
+#: editor-colormanagement.docbook:91
 #, no-c-format
 msgid ""
 "But if you want to take the first steps toward a color-managed workflow, "
@@ -509,13 +500,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:80
+#: editor-colormanagement.docbook:93
 #, no-c-format
 msgid "Where are all the icc profiles are located on my computer?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:81
+#: editor-colormanagement.docbook:94
 #, no-c-format
 msgid ""
 "Well, this is Linux and it depends on where you put them. I put all my icc "
@@ -528,7 +519,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:83
+#: editor-colormanagement.docbook:96
 #, no-c-format
 msgid ""
 "Does the lighting and wall/ceiling/drape/furniture colors near my monitor "
@@ -536,7 +527,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:84
+#: editor-colormanagement.docbook:97
 #, no-c-format
 msgid ""
 "Yes! Good lighting is a prerequisite for proper image editing and for "
@@ -556,19 +547,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:93
+#: editor-colormanagement.docbook:106
 #, no-c-format
 msgid "The camera profile and issues with raw file development"
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:94
+#: editor-colormanagement.docbook:107
 #, no-c-format
 msgid "What's the next step in color management?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:95
+#: editor-colormanagement.docbook:108
 #, no-c-format
 msgid ""
 "First and for the record, many excellent professional and amateur "
@@ -579,7 +570,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:96
+#: editor-colormanagement.docbook:109
 #, no-c-format
 msgid ""
 "Judging from questions asked in the &digikam; user's forum, if you are "
@@ -592,7 +583,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:98
+#: editor-colormanagement.docbook:111
 #, no-c-format
 msgid ""
 "Why doesn't the image produced by raw converters like dcraw or ufraw look "
@@ -600,7 +591,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:99
+#: editor-colormanagement.docbook:112
 #, no-c-format
 msgid ""
 "Glad you asked. All digital camera images start out as raw files, whether or "
@@ -612,7 +603,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:100
+#: editor-colormanagement.docbook:113
 #, no-c-format
 msgid ""
 "From here I will speak from my experience as a Canon user, but I will guess "
@@ -633,7 +624,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:101
+#: editor-colormanagement.docbook:114
 #, no-c-format
 msgid ""
 "Dcraw (which &digikam; uses to convert raw files to image files) doesn't add "
@@ -654,7 +645,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:103
+#: editor-colormanagement.docbook:116
 #, no-c-format
 msgid ""
 "The embedded jpeg preview looks so much nicer than dcraw's output. What is "
@@ -662,7 +653,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:104
+#: editor-colormanagement.docbook:117
 #, no-c-format
 msgid ""
 "When you take a picture, presumably you have an idea of what you want the "
@@ -679,7 +670,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:105
+#: editor-colormanagement.docbook:118
 #, no-c-format
 msgid ""
 "It seems to me that the heart and soul of image processing is the deliberate "
@@ -695,7 +686,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:107
+#: editor-colormanagement.docbook:120
 #, no-c-format
 msgid ""
 "Well, that's all very interesting. I can see the value in starting my image-"
@@ -705,7 +696,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:108
+#: editor-colormanagement.docbook:121
 #, no-c-format
 msgid ""
 "Well, that depends. If the image looks very dark, then you asked dcraw to "
@@ -717,7 +708,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:109
+#: editor-colormanagement.docbook:122
 #, no-c-format
 msgid ""
 "If your image has pink highlights, there's a solution. For an explanation of "
@@ -727,7 +718,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:110
+#: editor-colormanagement.docbook:123
 #, no-c-format
 msgid ""
 "If the image isn't dark but it looks really weird, probably you made some "
@@ -747,7 +738,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:112
+#: editor-colormanagement.docbook:125
 #, no-c-format
 msgid ""
 "For example, if your embedded jpeg has very nice deep rich shadows but the "
@@ -773,25 +764,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:114
+#: editor-colormanagement.docbook:127
 #, no-c-format
 msgid "Where do I find good information on digital noise?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:115
+#: editor-colormanagement.docbook:128
 #, no-c-format
 msgid "See the following excellent articles:"
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:122
+#: editor-colormanagement.docbook:135
 #, no-c-format
 msgid "Where do I find good information on the dcraw command line options?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:123
+#: editor-colormanagement.docbook:136
 #, no-c-format
 msgid ""
 "The very best source of information on how dcraw processes raw files is "
@@ -800,7 +791,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:124
+#: editor-colormanagement.docbook:137
 #, no-c-format
 msgid ""
 "If you want to work with raw files, I recommend that you read Guillermo's "
@@ -812,7 +803,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:125
+#: editor-colormanagement.docbook:138
 #, no-c-format
 msgid ""
 "The dcraw manpage explaining all the command line options is <ulink url="
@@ -820,14 +811,14 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:127
+#: editor-colormanagement.docbook:140
 #, no-c-format
 msgid ""
 "Why are the Canon and Nikon colors better than the colors produced by dcraw?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:128
+#: editor-colormanagement.docbook:141
 #, no-c-format
 msgid ""
 "Color rendition is one place where the Canon (and presumably Nikon) "
@@ -848,13 +839,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:130
+#: editor-colormanagement.docbook:143
 #, no-c-format
 msgid "Why is a camera profile specific to a given make and model of camera?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:131
+#: editor-colormanagement.docbook:144
 #, no-c-format
 msgid ""
 "Digital cameras have an array of millions of little light sensors inside, "
@@ -868,7 +859,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:132
+#: editor-colormanagement.docbook:145
 #, no-c-format
 msgid ""
 "Clearly, pixel response to light is the result of lots of camera-specific "
@@ -879,13 +870,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:134
+#: editor-colormanagement.docbook:147
 #, no-c-format
 msgid "What does \"analog-to-digital conversion\" mean?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:135
+#: editor-colormanagement.docbook:148
 #, no-c-format
 msgid ""
 "\"Analog\" means continuously varying, like how much water you can put in a "
@@ -902,7 +893,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:137
+#: editor-colormanagement.docbook:150
 #, no-c-format
 msgid ""
 "Why is a camera profile specific to the raw processing program used to "
@@ -910,7 +901,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:138
+#: editor-colormanagement.docbook:151
 #, no-c-format
 msgid ""
 "The whole point of interpolation using demosaicing algorithms such as "
@@ -927,13 +918,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:140
+#: editor-colormanagement.docbook:153
 #, no-c-format
 msgid "Where do I find a generic profile for my camera?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:141
+#: editor-colormanagement.docbook:154
 #, no-c-format
 msgid ""
 "The ufraw website <ulink url=\"http://ufraw.sourceforge.net/Colors.html"
@@ -952,7 +943,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:143
+#: editor-colormanagement.docbook:172
 #, no-c-format
 msgid ""
 "How do I get a camera profile specific to my camera, lighting conditions, "
@@ -960,7 +951,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:144
+#: editor-colormanagement.docbook:173
 #, no-c-format
 msgid ""
 "Many commercial services provide profiling services, for a fee, of course. "
@@ -972,7 +963,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:145
+#: editor-colormanagement.docbook:174
 #, no-c-format
 msgid ""
 "If you plan to use LProf to profile your camera, check the documentation for "
@@ -989,7 +980,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:146
+#: editor-colormanagement.docbook:175
 #, no-c-format
 msgid ""
 "Profiling a camera is exactly analogous to profiling a monitor. When "
@@ -1004,7 +995,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:147
+#: editor-colormanagement.docbook:176
 #, no-c-format
 msgid ""
 "<ulink url=\"http://lprof.sourceforge.net/help/ufraw.html\">Here</ulink> is "
@@ -1016,7 +1007,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:149
+#: editor-colormanagement.docbook:178
 #, no-c-format
 msgid ""
 "How do I apply a camera profile to the 16-bit image file produced by my open "
@@ -1024,7 +1015,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:150
+#: editor-colormanagement.docbook:179
 #, no-c-format
 msgid ""
 "If you are using the digikam/dcraw interface, <ulink url=\"help:/digikam/"
@@ -1041,13 +1032,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:154
+#: editor-colormanagement.docbook:183
 #, no-c-format
 msgid "The PCS: color profiles point to real colors in the real world"
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:155
+#: editor-colormanagement.docbook:184
 #, no-c-format
 msgid ""
 "Camera, scanner, working space, monitor, printer - what do all these color "
@@ -1055,7 +1046,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:156
+#: editor-colormanagement.docbook:185
 #, no-c-format
 msgid ""
 "A color profile describes the color gamut of the device or space to which it "
@@ -1065,7 +1056,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:157
+#: editor-colormanagement.docbook:186
 #, no-c-format
 msgid ""
 "The camera profile essentially says, \"for every RGB trio of values "
@@ -1078,7 +1069,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:158
+#: editor-colormanagement.docbook:187
 #, no-c-format
 msgid ""
 "You cannot see an image by looking at its RGB values. Rather you see an "
@@ -1089,7 +1080,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:159
+#: editor-colormanagement.docbook:188
 #, no-c-format
 msgid ""
 "What the monitor profile and the camera profile have in common is the part "
@@ -1102,13 +1093,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:161
+#: editor-colormanagement.docbook:190
 #, no-c-format
 msgid "How can a color profile point to a real color in the real world?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:162
+#: editor-colormanagement.docbook:191
 #, no-c-format
 msgid ""
 "Real people don't even see the same colors when they look at the world, do "
@@ -1116,7 +1107,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:163
+#: editor-colormanagement.docbook:192
 #, no-c-format
 msgid ""
 "A long time ago (1931, although refinements continue to be made), the "
@@ -1134,7 +1125,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:164
+#: editor-colormanagement.docbook:193
 #, no-c-format
 msgid ""
 "After extensive testing, the ICC produced the CIE-XYZ color space which "
@@ -1149,7 +1140,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:165
+#: editor-colormanagement.docbook:194
 #, no-c-format
 msgid ""
 "CIE-XYZ is not the only PCS. Another commonly used PCS is CIE-Lab, which is "
@@ -1168,7 +1159,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:166
+#: editor-colormanagement.docbook:195
 #, no-c-format
 msgid ""
 "To be useful, color profiles need to be coupled with software that performs "
@@ -1182,13 +1173,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:170
+#: editor-colormanagement.docbook:199
 #, no-c-format
 msgid "The Working Space"
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:171
+#: editor-colormanagement.docbook:200
 #, no-c-format
 msgid ""
 "So I told &digikam; where to find my monitor profile and I have a camera "
@@ -1197,7 +1188,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:172
+#: editor-colormanagement.docbook:201
 #, no-c-format
 msgid ""
 "You need to choose a working color space so you can edit your image. LCMS "
@@ -1206,7 +1197,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:174
+#: editor-colormanagement.docbook:203
 #, no-c-format
 msgid ""
 "Why cannot I just edit my images in the color space described by the camera "
@@ -1214,7 +1205,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:175
+#: editor-colormanagement.docbook:204
 #, no-c-format
 msgid ""
 "After all, the camera profile should provide the best \"fit\" to the colors "
@@ -1245,13 +1236,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:177
+#: editor-colormanagement.docbook:206
 #, no-c-format
 msgid "Which working space should I choose?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:178
+#: editor-colormanagement.docbook:207
 #, no-c-format
 msgid ""
 "Everyone has an opinion. I'm just going to lay out some of the bits of "
@@ -1260,7 +1251,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:180
+#: editor-colormanagement.docbook:209
 #, no-c-format
 msgid ""
 "Gamma (or other transfer function), which dictates how much the original "
@@ -1271,7 +1262,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:181
+#: editor-colormanagement.docbook:210
 #, no-c-format
 msgid ""
 "RGB primaries which dictate the range of colors, that is, the color gamut, "
@@ -1279,7 +1270,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:182
+#: editor-colormanagement.docbook:211
 #, no-c-format
 msgid ""
 "White point (usually D50 or D65 though other values may be used), which "
@@ -1287,13 +1278,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:185
+#: editor-colormanagement.docbook:214
 #, no-c-format
 msgid "What gamma should my working space have?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:186
+#: editor-colormanagement.docbook:215
 #, no-c-format
 msgid ""
 "The gamma of a color profile dictates what power transform needs to take "
@@ -1313,7 +1304,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:187
+#: editor-colormanagement.docbook:216
 #, no-c-format
 msgid ""
 "One practical consequence of the gamma of a working space is that the higher "
@@ -1329,7 +1320,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:188
+#: editor-colormanagement.docbook:217
 #, no-c-format
 msgid ""
 "Theory aside, in the real world of real image editing, almost everyone uses "
@@ -1338,7 +1329,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:189
+#: editor-colormanagement.docbook:218
 #, no-c-format
 msgid ""
 "sRGB uses a transfer function close to that of a CRT (and thus not "
@@ -1353,7 +1344,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:190
+#: editor-colormanagement.docbook:219
 #, no-c-format
 msgid ""
 "L*-RGB uses as its transfer function the same perceptually uniform transfer "
@@ -1364,7 +1355,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:191
+#: editor-colormanagement.docbook:220
 #, no-c-format
 msgid ""
 "In addition to gamma=1.8 and gamma=2.2, the only other gamma for a working "
@@ -1376,7 +1367,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:192
+#: editor-colormanagement.docbook:221
 #, no-c-format
 msgid ""
 "\"Gamma-induced errors\" is a topic outside the scope of this tutorial. But "
@@ -1397,7 +1388,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:193
+#: editor-colormanagement.docbook:222
 #, no-c-format
 msgid ""
 "Unfortunately and despite their undeniable mathematical advantages, linear "
@@ -1412,13 +1403,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:195
+#: editor-colormanagement.docbook:224
 #, no-c-format
 msgid "How many discrete tonal steps are there in a digital image?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:196
+#: editor-colormanagement.docbook:225
 #, no-c-format
 msgid ""
 "In an 8-bit image, you have 256 tonal steps from solid black to solid white. "
@@ -1435,13 +1426,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:198
+#: editor-colormanagement.docbook:227
 #, no-c-format
 msgid "Should I use a large-gamut or a small-gamut working space?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:199
+#: editor-colormanagement.docbook:228
 #, no-c-format
 msgid ""
 "One major consideration in choosing a working space is that some working "
@@ -1454,7 +1445,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:200
+#: editor-colormanagement.docbook:229
 #, no-c-format
 msgid ""
 "But keeping all the possible colors comes at a price, as explained below. "
@@ -1466,7 +1457,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:201
+#: editor-colormanagement.docbook:230
 #, no-c-format
 msgid ""
 "Using a very large working space means that editing your image (applying "
@@ -1489,7 +1480,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:202
+#: editor-colormanagement.docbook:231
 #, no-c-format
 msgid ""
 "To summarize, large gamut working spaces, improperly handled, can lead to "
@@ -1499,13 +1490,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:203
+#: editor-colormanagement.docbook:232
 #, no-c-format
 msgid "Here are some oft-repeated bits of advice on choosing a working space:"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:206
+#: editor-colormanagement.docbook:235
 #, no-c-format
 msgid ""
 "For images intended for the web, use (or at least convert the final image "
@@ -1513,7 +1504,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:207
+#: editor-colormanagement.docbook:236
 #, no-c-format
 msgid ""
 "For the most accuracy in your image editing (that is, making the most of "
@@ -1525,7 +1516,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:208
+#: editor-colormanagement.docbook:237
 #, no-c-format
 msgid ""
 "If you are working in 8-bits rather than 16-bits, choose a smaller rather "
@@ -1533,7 +1524,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:209
+#: editor-colormanagement.docbook:238
 #, no-c-format
 msgid ""
 "For archival purposes, convert your raw file to a 16-bit tiff with a large "
@@ -1543,7 +1534,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:211
+#: editor-colormanagement.docbook:240
 #, no-c-format
 msgid ""
 "For more information on choosing a working space, see <ulink url=\"http://"
@@ -1558,19 +1549,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:215
+#: editor-colormanagement.docbook:244
 #, no-c-format
 msgid "Printer profiles, rendering intents, and soft-proofing"
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:216
+#: editor-colormanagement.docbook:245
 #, no-c-format
 msgid "Where do I get a printer profile?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:217
+#: editor-colormanagement.docbook:246
 #, no-c-format
 msgid ""
 "Whew! We've come a long way - almost ready to print that image! Where do I "
@@ -1593,13 +1584,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:219
+#: editor-colormanagement.docbook:248
 #, no-c-format
 msgid "What about rendering intents?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:220
+#: editor-colormanagement.docbook:249
 #, no-c-format
 msgid ""
 "\"Rendering intent\" refers to the way color gamuts are handled when the "
@@ -1609,7 +1600,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:221
+#: editor-colormanagement.docbook:250
 #, no-c-format
 msgid ""
 "There are four commonly-used rendering intents: perceptual, relative "
@@ -1622,7 +1613,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:222
+#: editor-colormanagement.docbook:251
 #, no-c-format
 msgid ""
 "Perceptual and relative colorimetric rendering are probably the most useful "
@@ -1631,7 +1622,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:223
+#: editor-colormanagement.docbook:252
 #, no-c-format
 msgid ""
 "Relative colorimetric maintains a near exact relationship between in gamut "
@@ -1639,7 +1630,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:224
+#: editor-colormanagement.docbook:253
 #, no-c-format
 msgid ""
 "In contrast, perceptual rendering tries to also preserve some relationship "
@@ -1648,7 +1639,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:225
+#: editor-colormanagement.docbook:254
 #, no-c-format
 msgid ""
 "Absolute is similar to relative colorimetric in that it preserves in gamut "
@@ -1660,13 +1651,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:226
+#: editor-colormanagement.docbook:255
 #, no-c-format
 msgid "Saturation rendering intent tries to preserve saturated colors."
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:227
+#: editor-colormanagement.docbook:256
 #, no-c-format
 msgid ""
 "I would quote the entire article (it's that good), but that would involve "
@@ -1677,7 +1668,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:228
+#: editor-colormanagement.docbook:257
 #, no-c-format
 msgid ""
 "For another excellent source of information on rendering intents with "
@@ -1686,13 +1677,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:230
+#: editor-colormanagement.docbook:259
 #, no-c-format
 msgid "What rendering intent should I use for displaying images on my monitor?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:231
+#: editor-colormanagement.docbook:260
 #, no-c-format
 msgid ""
 "The usual choice is relative colorimetric. I would suggest that you not use "
@@ -1700,13 +1691,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:233
+#: editor-colormanagement.docbook:262
 #, no-c-format
 msgid "What is soft-proofing?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:234
+#: editor-colormanagement.docbook:263
 #, no-c-format
 msgid ""
 "Soft-proofing will show you the differences to be expected between what you "
@@ -1720,13 +1711,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:236
+#: editor-colormanagement.docbook:265
 #, no-c-format
 msgid "What rendering intent should I use when I soft-proof?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:237
+#: editor-colormanagement.docbook:266
 #, no-c-format
 msgid ""
 "I've always heard that you ought to use \"perceptual intent\" when "
@@ -1744,13 +1735,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:239
+#: editor-colormanagement.docbook:268
 #, no-c-format
 msgid "And what about black point compensation?"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:240
+#: editor-colormanagement.docbook:269
 #, no-c-format
 msgid ""
 "The clearest definition I could find about black point compensation is as "
@@ -1761,7 +1752,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:241
+#: editor-colormanagement.docbook:270
 #, no-c-format
 msgid ""
 "The article from which this definition comes offers a very clear explanation "
@@ -1772,7 +1763,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:243
+#: editor-colormanagement.docbook:272
 #, no-c-format
 msgid ""
 "Can all of the rendering intents be used when converting from one color "
@@ -1780,7 +1771,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:244
+#: editor-colormanagement.docbook:273
 #, no-c-format
 msgid ""
 "In a word, no. Which rendering intents are available when converting from "
@@ -1791,7 +1782,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:245
+#: editor-colormanagement.docbook:274
 #, no-c-format
 msgid ""
 "For an informative and humorous discussion of myths surrounding the use of "
@@ -1803,7 +1794,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:247
+#: editor-colormanagement.docbook:276
 #, no-c-format
 msgid ""
 "Why does the perceptual rendering intent get recommended so often as the "
@@ -1811,7 +1802,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:248
+#: editor-colormanagement.docbook:277
 #, no-c-format
 msgid ""
 "It's a safe choice because it prevents clipping of shadows and highlights, "
@@ -1822,13 +1813,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:252
+#: editor-colormanagement.docbook:281
 #, no-c-format
 msgid "A few definitions and comments"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:253
+#: editor-colormanagement.docbook:282
 #, no-c-format
 msgid ""
 "You've reached the end of this tutorial on color management. We've \"color-"
@@ -1838,7 +1829,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:254
+#: editor-colormanagement.docbook:283
 #, no-c-format
 msgid ""
 "<emphasis>Assign</emphasis> a profile means change the meaning of the RGB "
@@ -1852,7 +1843,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:255
+#: editor-colormanagement.docbook:284
 #, no-c-format
 msgid ""
 "On the other hand, every time you assign a new working space profile rather "
@@ -1864,7 +1855,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:256
+#: editor-colormanagement.docbook:285
 #, no-c-format
 msgid ""
 "In theory, you should be able to do multiple conversions of an image from "
@@ -1877,7 +1868,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:257
+#: editor-colormanagement.docbook:286
 #, no-c-format
 msgid ""
 "<emphasis>Device-dependent</emphasis> and <emphasis>device-independent</"
@@ -1893,7 +1884,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:258
+#: editor-colormanagement.docbook:287
 #, no-c-format
 msgid ""
 "An <emphasis>interpolated raw file</emphasis> isn't a raw file. For some "
@@ -1904,7 +1895,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:259
+#: editor-colormanagement.docbook:288
 #, no-c-format
 msgid ""
 "<emphasis>Linear</emphasis> has two related and easily confused definitions. "
@@ -1918,7 +1909,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:260
+#: editor-colormanagement.docbook:289
 #, no-c-format
 msgid ""
 "<emphasis>HDR and LDR</emphasis> do not refer to the bit-depth of the image. "
@@ -1938,7 +1929,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:261
+#: editor-colormanagement.docbook:290
 #, no-c-format
 msgid ""
 "<emphasis>In-camera produced jpegs don't need a camera profile</emphasis>. "
@@ -1956,7 +1947,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:262
+#: editor-colormanagement.docbook:291
 #, no-c-format
 msgid ""
 "<emphasis>Useful mathematical information</emphasis> if you are dealing with "
@@ -1977,7 +1968,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:263
+#: editor-colormanagement.docbook:292
 #, no-c-format
 msgid ""
 "<emphasis>Copyrighted and copyleft working spaces</emphasis>: I will take it "
@@ -1985,25 +1976,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:265
+#: editor-colormanagement.docbook:294
 #, no-c-format
 msgid "the several variants of sRGB (see color.org)"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:266
+#: editor-colormanagement.docbook:295
 #, no-c-format
 msgid "BruceRGB or BestRGB"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:267
+#: editor-colormanagement.docbook:296
 #, no-c-format
 msgid "the various ECI (European color initiative) working space profiles"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:268
+#: editor-colormanagement.docbook:297
 #, no-c-format
 msgid ""
 "AdobeRGB, Adobe WideGamutRGB, and Kodak/Adobe ProPhotoRGB (Kodak and Adobe "
@@ -2012,7 +2003,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:270
+#: editor-colormanagement.docbook:299
 #, no-c-format
 msgid ""
 "and quite a few other working spaces that could be added to this list, are "
@@ -2033,7 +2024,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:273
+#: editor-colormanagement.docbook:302
 #, no-c-format
 msgid ""
 "The Universal Translator: your camera profile, the Profile Connection Space, "
@@ -2041,7 +2032,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:275
+#: editor-colormanagement.docbook:304
 #, no-c-format
 msgid ""
 "So the question for each RGB trio of values in the (let us assume) 16-bit "
@@ -2075,7 +2066,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:277
+#: editor-colormanagement.docbook:306
 #, no-c-format
 msgid ""
 "There are two commonly used Profile Connection Spaces - CIELAB and CIEXYZ "
@@ -2092,7 +2083,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:279
+#: editor-colormanagement.docbook:308
 #, no-c-format
 msgid ""
 "Lcms uses the camera profile, also called an input profile, to translate the "
@@ -2102,7 +2093,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:280
+#: editor-colormanagement.docbook:309
 #, no-c-format
 msgid ""
 "Lcms translates the Profile Connection Space RGB numbers to the "
@@ -2115,7 +2106,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:281
+#: editor-colormanagement.docbook:310
 #, no-c-format
 msgid ""
 "While you are editing your image in your chosen working space, then lcms "
@@ -2129,7 +2120,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:282
+#: editor-colormanagement.docbook:311
 #, no-c-format
 msgid ""
 "When you are satisfied that your edited image is ready to share with the "
@@ -2142,7 +2133,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:285
+#: editor-colormanagement.docbook:314
 #, no-c-format
 msgid ""
 "To back up a little bit and look at the first color profile an image "
@@ -2165,13 +2156,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:287
+#: editor-colormanagement.docbook:316
 #, no-c-format
 msgid "Where to find camera profiles"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:289
+#: editor-colormanagement.docbook:318
 #, no-c-format
 msgid ""
 "So where do we get these elusive and oh-so-necessary camera-specific "
@@ -2189,7 +2180,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:290
+#: editor-colormanagement.docbook:319
 #, no-c-format
 msgid ""
 "But back to finding a camera profile for YOUR camera - the real answer "
@@ -2207,13 +2198,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:291
+#: editor-colormanagement.docbook:320
 #, no-c-format
 msgid "Working Spaces:"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:293
+#: editor-colormanagement.docbook:322
 #, no-c-format
 msgid ""
 "So now your raw file has been interpolated by dcraw and you've obtained a "
@@ -2232,13 +2223,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:295
+#: editor-colormanagement.docbook:324
 #, no-c-format
 msgid "Confusions and confusing terminology:"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:296
+#: editor-colormanagement.docbook:325
 #, no-c-format
 msgid ""
 "Before talking more about working spaces, some confusions and confusing "
@@ -2246,7 +2237,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:297
+#: editor-colormanagement.docbook:326
 #, no-c-format
 msgid ""
 "First, sRGB is both a working color space and an output color space for "
@@ -2265,7 +2256,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:298
+#: editor-colormanagement.docbook:327
 #, no-c-format
 msgid ""
 "Second, all jpegs (or tiffs, if you have an older Minolta Dimage camera) "
@@ -2282,7 +2273,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:299
+#: editor-colormanagement.docbook:328
 #, no-c-format
 msgid ""
 "Third, in case anyone is unsure on this point, note that an interpolated raw "
@@ -2297,7 +2288,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:300
+#: editor-colormanagement.docbook:329
 #, no-c-format
 msgid ""
 "Fifth, above I have used the words translate and translation as a "
@@ -2312,7 +2303,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:301
+#: editor-colormanagement.docbook:330
 #, no-c-format
 msgid ""
 "Sixth (and again, strictly for future reference), assign a profile means "
@@ -2334,7 +2325,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:302
+#: editor-colormanagement.docbook:331
 #, no-c-format
 msgid ""
 "Finally, (and this is a crucially important point), color management is NOT "
@@ -2345,13 +2336,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:304
+#: editor-colormanagement.docbook:333
 #, no-c-format
 msgid "Copyrighted and copyleft working spaces:"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:305
+#: editor-colormanagement.docbook:334
 #, no-c-format
 msgid ""
 "I will take it as given that ALL the ordinarily encountered working spaces, "
@@ -2359,7 +2350,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:307
+#: editor-colormanagement.docbook:336
 #, no-c-format
 msgid ""
 "the several variants of sRGB (see <ulink url=\"http://www.color.org/v4spec."
@@ -2367,13 +2358,13 @@ msgid ""
 msgstr ""
 
 #. Tag: ulink
-#: color-management.docbook:308
+#: editor-colormanagement.docbook:337
 #, no-c-format
 msgid "BruceRGB"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:309
+#: editor-colormanagement.docbook:338
 #, no-c-format
 msgid ""
 "the various ECI (European color initiative) working space <ulink url="
@@ -2382,7 +2373,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:310
+#: editor-colormanagement.docbook:339
 #, no-c-format
 msgid ""
 "AdobeRGB, Adobe WideGamutRGB, and Kodak/Adobe ProPhotoRGB (Kodak and Adobe "
@@ -2393,7 +2384,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:311
+#: editor-colormanagement.docbook:340
 #, no-c-format
 msgid ""
 "and quite a few others that could be added to this list are all more or less "
@@ -2403,7 +2394,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:313
+#: editor-colormanagement.docbook:342
 #, no-c-format
 msgid ""
 "However, as a critical aside, if you are using Adobe (or other copyrighted) "
@@ -2419,13 +2410,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:315
+#: editor-colormanagement.docbook:344
 #, no-c-format
 msgid "Which working space: gamma"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:316
+#: editor-colormanagement.docbook:345
 #, no-c-format
 msgid ""
 "Now, the next question is: which working space should I use? <ulink url="
@@ -2434,7 +2425,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:316
+#: editor-colormanagement.docbook:345
 #, no-c-format
 msgid ""
 "Working spaces, such as sRGB or Adobe RGB, are color spaces that facilitate "
@@ -2445,7 +2436,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:317
+#: editor-colormanagement.docbook:346
 #, no-c-format
 msgid ""
 "Well, that quote from wikipedia is about as clear as mud and I don't know if "
@@ -2456,7 +2447,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:318
+#: editor-colormanagement.docbook:347
 #, no-c-format
 msgid ""
 "I am not aware of a list of other technical requirements for a suitable "
@@ -2465,7 +2456,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:320
+#: editor-colormanagement.docbook:349
 #, no-c-format
 msgid ""
 "RGB primaries which dictate the range of colors, that is, the gamut covered "
@@ -2473,7 +2464,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:321
+#: editor-colormanagement.docbook:350
 #, no-c-format
 msgid ""
 "white point, usually D50 or D65, which dictates the total dynamic range of "
@@ -2481,13 +2472,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:322
+#: editor-colormanagement.docbook:351
 #, no-c-format
 msgid "gamma"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:324
+#: editor-colormanagement.docbook:353
 #, no-c-format
 msgid ""
 "The practical consequences that result from using different RGB primaries, "
@@ -2499,7 +2490,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:325
+#: editor-colormanagement.docbook:354
 #, no-c-format
 msgid ""
 "The gamma of a color profile dictates what power transform needs to take "
@@ -2511,7 +2502,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:327
+#: editor-colormanagement.docbook:356
 #, no-c-format
 msgid ""
 "Mathematically speaking, for a power transform you normalize the RGB numbers "
@@ -2524,7 +2515,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:329
+#: editor-colormanagement.docbook:358
 #, no-c-format
 msgid ""
 "One practical consequence of the gamma of a working space is that the higher "
@@ -2540,7 +2531,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:330
+#: editor-colormanagement.docbook:359
 #, no-c-format
 msgid ""
 "Some people are trying to standardize on gamma 2.0. sRGB and LStar-RGB are "
@@ -2552,7 +2543,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:331
+#: editor-colormanagement.docbook:360
 #, no-c-format
 msgid ""
 "In addition to gamma 1.8 and gamma 2.2 the only other gamma for a working "
@@ -2567,7 +2558,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:332
+#: editor-colormanagement.docbook:361
 #, no-c-format
 msgid ""
 "Unfortunately and despite their undeniable mathematical advantages, linear "
@@ -2582,7 +2573,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:334
+#: editor-colormanagement.docbook:363
 #, no-c-format
 msgid ""
 "Which working space: <emphasis>large gamut</emphasis> or <emphasis>small "
@@ -2590,7 +2581,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:335
+#: editor-colormanagement.docbook:364
 #, no-c-format
 msgid ""
 "One MAJOR consideration in choosing a working space is that some working "
@@ -2603,7 +2594,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:336
+#: editor-colormanagement.docbook:365
 #, no-c-format
 msgid ""
 "But keeping all the possible colors comes at a price. It seems that any "
@@ -2625,7 +2616,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:337
+#: editor-colormanagement.docbook:366
 #, no-c-format
 msgid ""
 "In other words, large gamut working spaces, improperly handled, can lead to "
@@ -2635,7 +2626,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:339
+#: editor-colormanagement.docbook:368
 #, no-c-format
 msgid ""
 "For images intended for the web, use (one of the) sRGB (variants - there are "
@@ -2643,7 +2634,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:340
+#: editor-colormanagement.docbook:369
 #, no-c-format
 msgid ""
 "For the most accuracy in your image editing (that is, making the most of "
@@ -2655,7 +2646,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:341
+#: editor-colormanagement.docbook:370
 #, no-c-format
 msgid ""
 "If you are working in 8-bits rather than 16-bits, choose a smaller space "
@@ -2663,7 +2654,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:342
+#: editor-colormanagement.docbook:371
 #, no-c-format
 msgid ""
 "For archival purposes, convert your raw file to a 16-bit tiff with a large "
@@ -2674,7 +2665,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:345
+#: editor-colormanagement.docbook:374
 #, no-c-format
 msgid ""
 "The WHYs of these bits of advice regarding which working space are beyond "
@@ -2692,13 +2683,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:348
+#: editor-colormanagement.docbook:377
 #, no-c-format
 msgid "Soft Proofing"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:349
+#: editor-colormanagement.docbook:378
 #, no-c-format
 msgid ""
 "Soft Proofing is a way of previewing on the screen (monitor) the result to "
@@ -2709,13 +2700,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:354
+#: editor-colormanagement.docbook:383
 #, no-c-format
 msgid "Rendering intention"
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:356
+#: editor-colormanagement.docbook:385
 #, no-c-format
 msgid ""
 "Rendering intent refers to the way gamuts are handled when the intended "
@@ -2723,7 +2714,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:359
+#: editor-colormanagement.docbook:388
 #, no-c-format
 msgid ""
 "<emphasis>Perceptual</emphasis>, also called Image or Maintain Full Gamut. "
@@ -2737,7 +2728,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:362
+#: editor-colormanagement.docbook:391
 #, no-c-format
 msgid ""
 "<emphasis>Relative Colorimetric</emphasis>, also called Proof or Preserve "
@@ -2746,7 +2737,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:365
+#: editor-colormanagement.docbook:394
 #, no-c-format
 msgid ""
 "<emphasis>Absolute Colorimetric</emphasis>, also called Match or Preserve "
@@ -2759,7 +2750,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: color-management.docbook:368
+#: editor-colormanagement.docbook:397
 #, no-c-format
 msgid ""
 "<emphasis>Saturation</emphasis>, also called Graphic or Preserve Saturation. "
@@ -2769,25 +2760,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: color-management.docbook:375
+#: editor-colormanagement.docbook:404
 #, no-c-format
 msgid "Links"
 msgstr ""
 
 #. Tag: ulink
-#: color-management.docbook:377
+#: editor-colormanagement.docbook:406
 #, no-c-format
 msgid "Color wiki"
 msgstr ""
 
 #. Tag: ulink
-#: color-management.docbook:378
+#: editor-colormanagement.docbook:407
 #, no-c-format
 msgid "CIELab"
 msgstr ""
 
 #. Tag: ulink
-#: color-management.docbook:379
+#: editor-colormanagement.docbook:408
 #, no-c-format
 msgid "Gamut explained"
 msgstr ""
