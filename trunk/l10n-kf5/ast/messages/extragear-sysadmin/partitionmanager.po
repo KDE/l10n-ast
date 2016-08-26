@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-25 07:15+0000\n"
+"POT-Creation-Date: 2016-08-26 06:45+0000\n"
 "PO-Revision-Date: 2015-11-22 03:12+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -426,8 +426,8 @@ msgctxt "@info:progress"
 msgid "Total Time: %1"
 msgstr "Tiempu total: %1"
 
-#: gui/applyprogressdialog.cpp:435 gui/mainwindow.cpp:913
-#: gui/mainwindow.cpp:1074 gui/smartdialog.cpp:234
+#: gui/applyprogressdialog.cpp:435 gui/mainwindow.cpp:912
+#: gui/mainwindow.cpp:1073 gui/smartdialog.cpp:234
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1235,16 +1235,19 @@ msgid "Import a partition table from a text file."
 msgstr ""
 
 #: gui/mainwindow.cpp:251
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Resize or move partition"
 msgctxt "@action:inmenu"
-msgid "Remove Volume"
-msgstr ""
+msgid "Remove Volume Group"
+msgstr "Redimensiona o mueve la partición"
 
 #: gui/mainwindow.cpp:252
 #, fuzzy
 #| msgctxt "@info"
 #| msgid "Please select a device."
 msgctxt "@info:tooltip"
-msgid "Remove selected Volume Device"
+msgid "Remove selected Volume Group"
 msgstr "Esbilla un preséu, por favor."
 
 #: gui/mainwindow.cpp:253
@@ -1252,44 +1255,44 @@ msgstr "Esbilla un preséu, por favor."
 #| msgctxt "@info"
 #| msgid "Please select a device."
 msgctxt "@info:status"
-msgid "Remove selected Volume Device"
+msgid "Remove selected Volume Group."
 msgstr "Esbilla un preséu, por favor."
 
 #: gui/mainwindow.cpp:261
 #, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Resize/Move"
+#| msgctxt "@info:tooltip"
+#| msgid "Resize or move partition"
 msgctxt "@action:inmenu"
-msgid "Resize Volume"
-msgstr "Redimensionar/Mover"
+msgid "Resize Volume Group"
+msgstr "Redimensiona o mueve la partición"
 
 #: gui/mainwindow.cpp:262
 #, fuzzy
-#| msgctxt "@info"
-#| msgid "Please select a device."
+#| msgctxt "@info:tooltip"
+#| msgid "Resize or move partition"
 msgctxt "@info:tooltip"
-msgid "Resize selected Volume device"
-msgstr "Esbilla un preséu, por favor."
+msgid "Resize selected Volume Group"
+msgstr "Redimensiona o mueve la partición"
 
 #: gui/mainwindow.cpp:263
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "Please select a device."
 msgctxt "@info:status"
-msgid "Resize selected Volume device"
-msgstr "Esbilla un preséu, por favor."
+msgid "Extend or reduce selected Volume Group."
+msgstr ""
 
 #: gui/mainwindow.cpp:271
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Resize or move partition"
 msgctxt "@action:inmenu"
-msgid "Deactivate Volume"
-msgstr ""
+msgid "Deactivate Volume Group"
+msgstr "Redimensiona o mueve la partición"
 
 #: gui/mainwindow.cpp:272
 #, fuzzy
 #| msgctxt "@info"
 #| msgid "Please select a device."
 msgctxt "@info:tooltip"
-msgid "Deactivate selected Volume Device"
+msgid "Deactivate selected Volume Group"
 msgstr "Esbilla un preséu, por favor."
 
 #: gui/mainwindow.cpp:273
@@ -1297,7 +1300,7 @@ msgstr "Esbilla un preséu, por favor."
 #| msgctxt "@info"
 #| msgid "Please select a device."
 msgctxt "@info:status"
-msgid "Deactivate selected Volume Device"
+msgid "Deactivate selected Volume Group before unplugging removable devices."
 msgstr "Esbilla un preséu, por favor."
 
 #: gui/mainwindow.cpp:279
@@ -1524,9 +1527,12 @@ msgid "Restore a partition from an image file."
 msgstr ""
 
 #: gui/mainwindow.cpp:403
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Resize or move partition"
 msgctxt "@action:inmenu"
-msgid "New Volume"
-msgstr ""
+msgid "New Volume Group"
+msgstr "Redimensiona o mueve la partición"
 
 #: gui/mainwindow.cpp:404
 msgctxt "@info:tooltip"
@@ -1553,67 +1559,67 @@ msgctxt "@info:status"
 msgid "Show information about supported file systems."
 msgstr ""
 
-#: gui/mainwindow.cpp:423
+#: gui/mainwindow.cpp:417
 msgctxt "@action:inmenu refresh list of devices"
 msgid "Refresh Devices"
 msgstr "Refrescar preseos"
 
-#: gui/mainwindow.cpp:424
+#: gui/mainwindow.cpp:418
 msgctxt "@info:tooltip"
 msgid "Refresh all devices"
 msgstr "Resfresca tolos preseos"
 
-#: gui/mainwindow.cpp:425
+#: gui/mainwindow.cpp:419
 msgctxt "@info:status"
 msgid "Renew the devices list."
 msgstr ""
 
-#: gui/mainwindow.cpp:435
+#: gui/mainwindow.cpp:434
 msgctxt "@action:inmenu"
 msgid "Clear Log"
 msgstr "Llimpiar rexistru"
 
-#: gui/mainwindow.cpp:436
+#: gui/mainwindow.cpp:435
 msgctxt "@info:tooltip"
 msgid "Clear the log output"
 msgstr "Llimpia la salida'l rexistru"
 
-#: gui/mainwindow.cpp:437
+#: gui/mainwindow.cpp:436
 msgctxt "@info:status"
 msgid "Clear the log output panel."
 msgstr ""
 
-#: gui/mainwindow.cpp:442
+#: gui/mainwindow.cpp:441
 msgctxt "@action:inmenu"
 msgid "Save Log"
 msgstr "Guardar rexistru"
 
-#: gui/mainwindow.cpp:443
+#: gui/mainwindow.cpp:442
 msgctxt "@info:tooltip"
 msgid "Save the log output"
 msgstr "Guarda la salida'l rexistru"
 
-#: gui/mainwindow.cpp:444
+#: gui/mainwindow.cpp:443
 msgctxt "@info:status"
 msgid "Save the log output to a file."
 msgstr ""
 
-#: gui/mainwindow.cpp:450
+#: gui/mainwindow.cpp:449
 msgctxt "@action:inmenu"
 msgid "About KPMcore Library"
 msgstr ""
 
-#: gui/mainwindow.cpp:451
+#: gui/mainwindow.cpp:450
 msgctxt "@info:tooltip"
 msgid "Show About KPMcore dialog"
 msgstr ""
 
-#: gui/mainwindow.cpp:452
+#: gui/mainwindow.cpp:451
 msgctxt "@info:status"
 msgid "Show About KPMcore dialog."
 msgstr ""
 
-#: gui/mainwindow.cpp:609
+#: gui/mainwindow.cpp:608
 #, kde-format
 msgctxt "@info:status"
 msgid "One pending operation"
@@ -1621,13 +1627,13 @@ msgid_plural "%1 pending operations"
 msgstr[0] "Una operación pendiente"
 msgstr[1] "%1 operaciones pendientes"
 
-#: gui/mainwindow.cpp:704
+#: gui/mainwindow.cpp:703
 #, kde-format
 msgctxt "@info:progress"
 msgid "Using backend plugin: %1 (%2)"
 msgstr ""
 
-#: gui/mainwindow.cpp:708
+#: gui/mainwindow.cpp:707
 #, fuzzy
 #| msgctxt "@info/plain"
 #| msgid "Scanning devices..."
@@ -1635,7 +1641,7 @@ msgctxt "@info:progress"
 msgid "Scanning devices..."
 msgstr "Escaniando preseos..."
 
-#: gui/mainwindow.cpp:740
+#: gui/mainwindow.cpp:739
 #, fuzzy
 #| msgctxt "@info/plain"
 #| msgid "Scan finished."
@@ -1643,7 +1649,7 @@ msgctxt "@info:progress"
 msgid "Scan finished."
 msgstr "Finó l'escanéu."
 
-#: gui/mainwindow.cpp:795
+#: gui/mainwindow.cpp:794
 msgctxt "@info"
 msgid ""
 "<para>Do you really want to rescan the devices?</para><para><warning>This "
@@ -1652,34 +1658,34 @@ msgstr ""
 "<para>¿De xuru que quies rescaniar los preseos?</para><para><warning>Esto "
 "tamién llimpiará'l llistáu d'operaciones pendientes.</warning></para>"
 
-#: gui/mainwindow.cpp:797
+#: gui/mainwindow.cpp:796
 msgctxt "@title:window"
 msgid "Really Rescan the Devices?"
 msgstr "¿Rescaniar daveres los preseos?"
 
-#: gui/mainwindow.cpp:798
+#: gui/mainwindow.cpp:797
 msgctxt "@action:button"
 msgid "Rescan Devices"
 msgstr "Rescaniar preseos"
 
-#: gui/mainwindow.cpp:813
+#: gui/mainwindow.cpp:812
 msgctxt "@info"
 msgid ""
 "<para>Do you really want to apply the pending operations listed below?</"
 "para><para><warning>This will permanently modify your disks.</warning></para>"
 msgstr ""
 
-#: gui/mainwindow.cpp:815
+#: gui/mainwindow.cpp:814
 msgctxt "@title:window"
 msgid "Apply Pending Operations?"
 msgstr "¿Aplicar operaciones pendientes?"
 
-#: gui/mainwindow.cpp:816
+#: gui/mainwindow.cpp:815
 msgctxt "@action:button"
 msgid "Apply Pending Operations"
 msgstr "Aplicar operaciones pendientes"
 
-#: gui/mainwindow.cpp:818
+#: gui/mainwindow.cpp:817
 #, fuzzy
 #| msgctxt "@info/plain"
 #| msgid "Applying operations..."
@@ -1687,7 +1693,7 @@ msgctxt "@info:status"
 msgid "Applying operations..."
 msgstr "Aplicando operaciones..."
 
-#: gui/mainwindow.cpp:843
+#: gui/mainwindow.cpp:842
 #, fuzzy, kde-format
 #| msgctxt "@info/plain"
 #| msgid "Undoing operation: %1"
@@ -1695,22 +1701,22 @@ msgctxt "@info:status"
 msgid "Undoing operation: %1"
 msgstr "Desfaciendo operación: %1"
 
-#: gui/mainwindow.cpp:859
+#: gui/mainwindow.cpp:858
 msgctxt "@info"
 msgid "Do you really want to clear the list of pending operations?"
 msgstr "¿De xuru que quies llimpiar el llistáu d'operaciones pendientes?"
 
-#: gui/mainwindow.cpp:860
+#: gui/mainwindow.cpp:859
 msgctxt "@title:window"
 msgid "Clear Pending Operations?"
 msgstr "¿Llimpiar operaciones pendientes?"
 
-#: gui/mainwindow.cpp:861
+#: gui/mainwindow.cpp:860
 msgctxt "@action:button"
 msgid "Clear Pending Operations"
 msgstr "Llimpiar operaciones pendientes"
 
-#: gui/mainwindow.cpp:863
+#: gui/mainwindow.cpp:862
 #, fuzzy
 #| msgctxt "@info/plain"
 #| msgid "Clearing the list of pending operations."
@@ -1718,7 +1724,7 @@ msgctxt "@info:status"
 msgid "Clearing the list of pending operations."
 msgstr "Llimpiándo'l llistáu d'operaciones pendientes."
 
-#: gui/mainwindow.cpp:903
+#: gui/mainwindow.cpp:902
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Could not open mount point file <filename>%1</filename>."
@@ -1727,19 +1733,19 @@ msgid "Could not open input file <filename>%1</filename> for import"
 msgstr ""
 "Nun pudo abrise'l ficheru de puntos de montaxe <filename>%1</filename>."
 
-#: gui/mainwindow.cpp:903 gui/mainwindow.cpp:913 gui/mainwindow.cpp:921
-#: gui/mainwindow.cpp:927
+#: gui/mainwindow.cpp:902 gui/mainwindow.cpp:912 gui/mainwindow.cpp:920
+#: gui/mainwindow.cpp:926
 msgctxt "@title:window"
 msgid "Error Importing Partition Table"
 msgstr "Fallu importando la tabla particiones"
 
-#: gui/mainwindow.cpp:921
+#: gui/mainwindow.cpp:920
 #, kde-format
 msgctxt "@info"
 msgid "Could not open input file <filename>%1</filename> for import: %2"
 msgstr ""
 
-#: gui/mainwindow.cpp:927
+#: gui/mainwindow.cpp:926
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1747,7 +1753,7 @@ msgid ""
 "from <filename>%2</filename>."
 msgstr ""
 
-#: gui/mainwindow.cpp:957
+#: gui/mainwindow.cpp:956
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1755,64 +1761,64 @@ msgid ""
 "table."
 msgstr ""
 
-#: gui/mainwindow.cpp:957 gui/mainwindow.cpp:967 gui/mainwindow.cpp:974
-#: gui/mainwindow.cpp:979 gui/mainwindow.cpp:989 gui/mainwindow.cpp:1002
-#: gui/mainwindow.cpp:1007 gui/mainwindow.cpp:1026 gui/mainwindow.cpp:1031
-#: gui/mainwindow.cpp:1036 gui/mainwindow.cpp:1043
+#: gui/mainwindow.cpp:956 gui/mainwindow.cpp:966 gui/mainwindow.cpp:973
+#: gui/mainwindow.cpp:978 gui/mainwindow.cpp:988 gui/mainwindow.cpp:1001
+#: gui/mainwindow.cpp:1006 gui/mainwindow.cpp:1025 gui/mainwindow.cpp:1030
+#: gui/mainwindow.cpp:1035 gui/mainwindow.cpp:1042
 msgctxt "@title:window"
 msgid "Error While Importing Partition Table"
 msgstr "Fallu entrín s'importaba la tabla de particiones"
 
-#: gui/mainwindow.cpp:967
+#: gui/mainwindow.cpp:966
 #, kde-format
 msgctxt "@info"
 msgid "Found more than one partition table type in import file (line %1)."
 msgstr ""
 
-#: gui/mainwindow.cpp:974
+#: gui/mainwindow.cpp:973
 #, kde-format
 msgctxt "@info"
 msgid "Partition table type \"%1\" is unknown (line %2)."
 msgstr ""
 
-#: gui/mainwindow.cpp:979
+#: gui/mainwindow.cpp:978
 #, kde-format
 msgctxt "@info"
 msgid "Partition table type \"%1\" is not supported for import (line %2)."
 msgstr ""
 
-#: gui/mainwindow.cpp:989
+#: gui/mainwindow.cpp:988
 #, kde-format
 msgctxt "@info"
 msgid "Found partition but no partition table type (line %1)."
 msgstr ""
 
-#: gui/mainwindow.cpp:1002
+#: gui/mainwindow.cpp:1001
 #, kde-format
 msgctxt "@info the partition is NOT a device path, just a number"
 msgid "Partition %1 would be outside the device's boundaries (line %2)."
 msgstr ""
 
-#: gui/mainwindow.cpp:1007
+#: gui/mainwindow.cpp:1006
 #, kde-format
 msgctxt "@info"
 msgid "Partition %1 has end before start sector (line %2)."
 msgstr "La partición %1 finó enantes del sector d'entamu (llinia %2)"
 
-#: gui/mainwindow.cpp:1026
+#: gui/mainwindow.cpp:1025
 #, kde-format
 msgctxt "@info the partition is NOT a device path, just a number"
 msgid "Unrecognized partition role \"%1\" for partition %2 (line %3)."
 msgstr ""
 
-#: gui/mainwindow.cpp:1031
+#: gui/mainwindow.cpp:1030
 #, kde-format
 msgctxt "@info the partition is NOT a device path, just a number"
 msgid ""
 "No parent partition or partition table found for partition %1 (line %2)."
 msgstr ""
 
-#: gui/mainwindow.cpp:1036
+#: gui/mainwindow.cpp:1035
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1820,14 +1826,14 @@ msgid ""
 "one was found (line %2)."
 msgstr ""
 
-#: gui/mainwindow.cpp:1043
+#: gui/mainwindow.cpp:1042
 #, kde-format
 msgctxt "@info the partition is NOT a device path, just a number"
 msgid "Could not create file system \"%1\" for partition %2 (line %3)."
 msgstr ""
 "Nun pudo crease'l sistema de ficheros «%1» pa la partición %2 (llinia %3)."
 
-#: gui/mainwindow.cpp:1054
+#: gui/mainwindow.cpp:1053
 #, fuzzy, kde-format
 #| msgctxt "@info/plain"
 #| msgid "Could not parse line %1 from import file. Ignoring it."
@@ -1835,12 +1841,12 @@ msgctxt "@info:status"
 msgid "Could not parse line %1 from import file. Ignoring it."
 msgstr "Nun pudo analizase la llinia %1 del ficheru importáu. Inorándola"
 
-#: gui/mainwindow.cpp:1074
+#: gui/mainwindow.cpp:1073
 msgctxt "@title:window"
 msgid "Error Exporting Partition Table"
 msgstr "Fallu esportando la tabla de particiones"
 
-#: gui/mainwindow.cpp:1112
+#: gui/mainwindow.cpp:1111
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1848,22 +1854,22 @@ msgid ""
 "the Volume Group."
 msgstr ""
 
-#: gui/mainwindow.cpp:1112
+#: gui/mainwindow.cpp:1111
 msgctxt "@title:window"
 msgid "Error Removing Volume Group"
 msgstr ""
 
-#: gui/mainwindow.cpp:1251 gui/mainwindow.cpp:1256 gui/mainwindow.cpp:1291
+#: gui/mainwindow.cpp:1250 gui/mainwindow.cpp:1255 gui/mainwindow.cpp:1290
 #, kde-format
 msgid "%1%2"
 msgstr ""
 
-#: gui/mainwindow.cpp:1256 gui/mainwindow.cpp:1267
+#: gui/mainwindow.cpp:1255 gui/mainwindow.cpp:1266
 #, kde-format
 msgid "<tr><td>%1</td><td>%2</td><td>%3</td><td><link>%4</link></td></tr>"
 msgstr ""
 
-#: gui/mainwindow.cpp:1302
+#: gui/mainwindow.cpp:1301
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1879,7 +1885,7 @@ msgid ""
 "in your distribution's package manager.</para>"
 msgstr ""
 
-#: gui/mainwindow.cpp:1315
+#: gui/mainwindow.cpp:1314
 msgctxt "@title:window"
 msgid "Missing File System Support Packages"
 msgstr "Falten paquetes de sofitu del sistema de ficheros"
@@ -2734,8 +2740,11 @@ msgstr "Mensaxe"
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextVGName)
 #: gui/volumewidgetbase.ui:30
-msgid "Volume Name: "
-msgstr ""
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Resize or move partition"
+msgid "Volume Group Name: "
+msgstr "Redimensiona o mueve la partición"
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextPESize)
 #: gui/volumewidgetbase.ui:43
@@ -2769,7 +2778,7 @@ msgstr "Total: %p%"
 #: gui/volumewidgetbase.ui:126
 #, fuzzy
 #| msgid "Failure Type"
-msgid "Volume Type"
+msgid "Volume Group Type"
 msgstr "Triba de fallu"
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextTotalSize)
@@ -2990,6 +2999,27 @@ msgid ""
 "<para>Neither the configured (\"%1\") nor the default (\"%2\") backend "
 "plugin could be loaded.</para><para>Please check your installation.</para>"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@action:inmenu"
+#~| msgid "Resize/Move"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Resize Volume"
+#~ msgstr "Redimensionar/Mover"
+
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid "Please select a device."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Resize selected Volume device"
+#~ msgstr "Esbilla un preséu, por favor."
+
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid "Please select a device."
+#~ msgctxt "@info:status"
+#~ msgid "Resize selected Volume device"
+#~ msgstr "Esbilla un preséu, por favor."
 
 #~ msgctxt "@item:button advanced settings button"
 #~ msgid "Advanced"
