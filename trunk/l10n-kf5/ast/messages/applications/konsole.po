@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-28 06:47+0000\n"
+"POT-Creation-Date: 2016-08-29 06:50+0000\n"
 "PO-Revision-Date: 2016-03-04 02:18+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -503,16 +503,16 @@ msgstr "Nueva llista de combinaciones de tecles"
 msgid "Edit Key Binding List"
 msgstr "Editar llista de combinaciones de tecles"
 
-#: EditProfileDialog.cpp:1231
+#: EditProfileDialog.cpp:1245
 #, fuzzy
 msgid "Select All Font"
 msgstr "Esbillar Too"
 
-#: EditProfileDialog.cpp:1234
+#: EditProfileDialog.cpp:1248
 msgid "Select Fixed Width Font"
 msgstr ""
 
-#: EditProfileDialog.cpp:1283
+#: EditProfileDialog.cpp:1297
 msgid "AaZz09..."
 msgstr ""
 
@@ -1108,43 +1108,58 @@ msgstr "Avanzao"
 msgid "Terminal Features"
 msgstr "Funcionalidaes del terminal"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, enableUrlHints)
-#: EditProfileDialog.ui:1098
-msgid "Show URL hint overlays that can be triggered when holding down CTRL."
+#. i18n: ectx: property (text), widget (QLabel, urlHintsLabel)
+#: EditProfileDialog.ui:1092
+msgid "Show URL hints when these keys are pressed:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, enableUrlHints)
-#: EditProfileDialog.ui:1101
-msgid "Enable URL hints"
+#. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierShift)
+#: EditProfileDialog.ui:1117
+msgid "Shift"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierCtrl)
+#: EditProfileDialog.ui:1124
+msgid "Control"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierAlt)
+#: EditProfileDialog.ui:1131
+msgid "Alt"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierMeta)
+#: EditProfileDialog.ui:1138
+msgid "Meta"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:1114
+#: EditProfileDialog.ui:1153
 #, fuzzy
 msgid "Allow terminal programs to create blinking sections of text"
 msgstr ""
 "Permitir a los programes de terminal crear seiciones de testu que parpagueen"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:1117
+#: EditProfileDialog.ui:1156
 #, fuzzy
 msgid "Allow blinking text"
 msgstr "Permitir testu que parpaguie"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1130
+#: EditProfileDialog.ui:1169
 #, fuzzy
 msgid "Allow the output to be suspended by pressing Ctrl+S"
 msgstr "Permitir el suspender la salida al calcar Ctrl+S"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1133
+#: EditProfileDialog.ui:1172
 #, fuzzy
 msgid "Enable flow control using Ctrl+S, Ctrl+Q"
 msgstr "Habilitar el control de flujxu per aciu de Ctrl+S , Ctrl+Q"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1146
+#: EditProfileDialog.ui:1185
 #, fuzzy
 msgid ""
 "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
@@ -1154,116 +1169,116 @@ msgstr ""
 "o Hebréu)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1149
+#: EditProfileDialog.ui:1188
 #, fuzzy
 msgid "Enable Bi-Directional text rendering"
 msgstr "Habilitar testu bidireicional"
 
 #. i18n: ectx: property (text), widget (QLabel, lineSpacingLabel)
-#: EditProfileDialog.ui:1158
+#: EditProfileDialog.ui:1197
 msgid "Line Spacing:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, lineSpacingSpinner)
-#: EditProfileDialog.ui:1165
+#: EditProfileDialog.ui:1204
 msgid "The number of pixels between two lines"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
-#: EditProfileDialog.ui:1196
+#: EditProfileDialog.ui:1235
 #, fuzzy
 msgid "Cursor"
 msgstr "Cursor"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1211
+#: EditProfileDialog.ui:1250
 #, fuzzy
 msgid "Make the cursor blink regularly"
 msgstr "Facer que'l cursor parpaguie regularmente"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1214
+#: EditProfileDialog.ui:1253
 #, fuzzy
 msgid "Blinking cursor"
 msgstr "Cursor parpaguiante"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: EditProfileDialog.ui:1223
+#: EditProfileDialog.ui:1262
 #, fuzzy
 msgid "Cursor shape:"
 msgstr "Forma del cursor:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1230
+#: EditProfileDialog.ui:1269
 #, fuzzy
 msgid "Change the shape of the cursor"
 msgstr "Camudar la solombra del cursor"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1234
+#: EditProfileDialog.ui:1273
 #, fuzzy
 msgctxt "The shape of the cursor"
 msgid "Block"
 msgstr "Bloque"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1239
+#: EditProfileDialog.ui:1278
 #, fuzzy
 msgctxt "The shape of the cursor, similar to a capital I"
 msgid "I-Beam"
 msgstr "I-Beam"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1244
+#: EditProfileDialog.ui:1283
 #, fuzzy
 msgctxt "The shape of the cursor"
 msgid "Underline"
 msgstr "Solliñáu"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1273
+#: EditProfileDialog.ui:1312
 #, fuzzy
 msgid "Set the cursor to match the color of the character underneath it."
 msgstr "Define'l cursor pa que concase col color del caráuter sobro'l que ta."
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1276
+#: EditProfileDialog.ui:1315
 #, fuzzy
 msgid "Set cursor color to match current character"
 msgstr "Define'l color del cursor pa que concase col caráuter actual."
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1291
+#: EditProfileDialog.ui:1330
 #, fuzzy
 msgid "Use a custom, fixed color for the cursor"
 msgstr "Usa un color personalizáu fixu, pal cursor"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1294
+#: EditProfileDialog.ui:1333
 #, fuzzy
 msgid "Custom cursor color:"
 msgstr "Color personalizáu del cursor:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
-#: EditProfileDialog.ui:1307
+#: EditProfileDialog.ui:1346
 #, fuzzy
 msgid "Select the color used to draw the cursor"
 msgstr "Esbille'l color pa dibuxar el cursor"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
-#: EditProfileDialog.ui:1335
+#: EditProfileDialog.ui:1374
 #, fuzzy
 msgid "Encoding"
 msgstr "Codificación"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: EditProfileDialog.ui:1344
+#: EditProfileDialog.ui:1383
 #, fuzzy
 msgid "Default character encoding:"
 msgstr "Codificación personalizada:"
 
 #. i18n: ectx: property (text), widget (QPushButton, selectEncodingButton)
-#: EditProfileDialog.ui:1364
+#: EditProfileDialog.ui:1403
 #, fuzzy
 #| msgid "Select"
 msgctxt "@action:button Pick an encoding"
@@ -1539,35 +1554,35 @@ msgstr "Entrada:"
 msgid "Output:"
 msgstr "Salida:"
 
-#: main.cpp:98
+#: main.cpp:99
 msgctxt "@title"
 msgid "Konsole"
 msgstr "Konsole"
 
-#: main.cpp:100
+#: main.cpp:101
 #, fuzzy
 #| msgid "Terminal emulator"
 msgctxt "@title"
 msgid "Terminal emulator"
 msgstr "Emulador de terminal"
 
-#: main.cpp:102
+#: main.cpp:103
 msgid "(c) 1997-2015, The Konsole Developers"
 msgstr ""
 
-#: main.cpp:252
+#: main.cpp:254
 #, fuzzy
 #| msgid "Name of profile to use for new Konsole instance"
 msgctxt "@info:shell"
 msgid "Name of profile to use for new Konsole instance"
 msgstr "Nome del perfil a usar na nueva instancia de Konsole"
 
-#: main.cpp:255
+#: main.cpp:257
 msgctxt "@info:shell"
 msgid "Use the internal FALLBACK profile"
 msgstr ""
 
-#: main.cpp:257
+#: main.cpp:259
 #, fuzzy
 #| msgid "Set the initial working directory of the new tab or window to 'dir'"
 msgctxt "@info:shell"
@@ -1576,14 +1591,14 @@ msgstr ""
 "Define'l direutoriu de trabayu anicial de la nueva llingüeta o ventana a "
 "'dir'"
 
-#: main.cpp:261
+#: main.cpp:263
 #, fuzzy
 #| msgid "Do not close the initial session automatically when it ends."
 msgctxt "@info:shell"
 msgid "Do not close the initial session automatically when it ends."
 msgstr "Nun zarra la sesión d'aniciu automáticamente al finar."
 
-#: main.cpp:264
+#: main.cpp:266
 #, fuzzy
 #| msgid ""
 #| "Create a new tab in an existing window rather than creating a new window"
@@ -1593,12 +1608,12 @@ msgid ""
 msgstr ""
 "Crea una nueva llingüeta na ventana actual n'arróu de crear una nueva ventana"
 
-#: main.cpp:267
+#: main.cpp:269
 msgctxt "@info:shell"
 msgid "Create tabs as specified in given tabs configuration file"
 msgstr ""
 
-#: main.cpp:271
+#: main.cpp:273
 #, fuzzy
 #| msgid ""
 #| "Start Konsole in the background and bring to the front when the F12 key "
@@ -1611,36 +1626,36 @@ msgstr ""
 "Arranca Konsole en segundu planu y pásalu a primer planu cuando se calca la "
 "tecla F12"
 
-#: main.cpp:273
-msgid "Run in a separate process"
-msgstr ""
-
-#: main.cpp:274
-msgctxt "@info:shell"
-msgid "Show the menubar, overriding the default setting"
-msgstr ""
-
 #: main.cpp:275
-msgctxt "@info:shell"
-msgid "Hide the menubar, overriding the default setting"
+msgid "Run in a separate process"
 msgstr ""
 
 #: main.cpp:276
 msgctxt "@info:shell"
-msgid "Show the tabbar, overriding the default setting"
+msgid "Show the menubar, overriding the default setting"
 msgstr ""
 
 #: main.cpp:277
 msgctxt "@info:shell"
-msgid "Hide the tabbar, overriding the default setting"
+msgid "Hide the menubar, overriding the default setting"
 msgstr ""
 
 #: main.cpp:278
 msgctxt "@info:shell"
-msgid "Start Konsole in fullscreen mode"
+msgid "Show the tabbar, overriding the default setting"
+msgstr ""
+
+#: main.cpp:279
+msgctxt "@info:shell"
+msgid "Hide the tabbar, overriding the default setting"
 msgstr ""
 
 #: main.cpp:280
+msgctxt "@info:shell"
+msgid "Start Konsole in fullscreen mode"
+msgstr ""
+
+#: main.cpp:282
 #, fuzzy
 #| msgid "Disable transparent backgrounds, even if the system supports them."
 msgctxt "@info:shell"
@@ -1648,165 +1663,165 @@ msgid "Disable transparent backgrounds, even if the system supports them."
 msgstr ""
 "Deshabilitar los fondos tresparentes, inclusu si'l sistema los soporta."
 
-#: main.cpp:283
+#: main.cpp:285
 #, fuzzy
 #| msgid "List the available profiles"
 msgctxt "@info:shell"
 msgid "List the available profiles"
 msgstr "Llista de perfiles disponibles"
 
-#: main.cpp:285
+#: main.cpp:287
 msgctxt "@info:shell"
 msgid "List all the profile properties names and their type (for use with -p)"
 msgstr ""
 
-#: main.cpp:288
+#: main.cpp:290
 #, fuzzy
 #| msgid "Change the value of a profile property."
 msgctxt "@info:shell"
 msgid "Change the value of a profile property."
 msgstr "Camuda'l valor d'una propiedá del perfil."
 
-#: main.cpp:291
+#: main.cpp:293
 msgctxt "@info:shell"
 msgid ""
 "Command to execute. This option will catch all following arguments, so use "
 "it as the last option."
 msgstr ""
 
-#: main.cpp:295
+#: main.cpp:297
 #, fuzzy
 #| msgid "Arguments passed to command"
 msgctxt "@info:shell"
 msgid "Arguments passed to command"
 msgstr "Argumentos pasaos a la orde"
 
-#: main.cpp:318
+#: main.cpp:320
 msgctxt "@info:credit"
 msgid "Kurt Hindenburg"
 msgstr "Kurt V. Hindenburg"
 
-#: main.cpp:319
+#: main.cpp:321
 #, fuzzy
 #| msgid "Bug fixes and general improvements"
 msgctxt "@info:credit"
 msgid "General maintainer, bug fixes and general improvements"
 msgstr "correición de fallos y meyores"
 
-#: main.cpp:322
+#: main.cpp:324
 msgctxt "@info:credit"
 msgid "Robert Knight"
 msgstr "Robert Knight"
 
-#: main.cpp:323
+#: main.cpp:325
 msgctxt "@info:credit"
 msgid "Previous maintainer, ported to KDE4"
 msgstr ""
 
-#: main.cpp:325
+#: main.cpp:327
 msgctxt "@info:credit"
 msgid "Lars Doelle"
 msgstr "Lars Doelle"
 
-#: main.cpp:326
+#: main.cpp:328
 #, fuzzy
 #| msgid "Terminal emulator"
 msgctxt "@info:credit"
 msgid "Original author"
 msgstr "Emulador de terminal"
 
-#: main.cpp:328
+#: main.cpp:330
 msgctxt "@info:credit"
 msgid "Jekyll Wu"
 msgstr ""
 
-#: main.cpp:329 main.cpp:332 main.cpp:335
+#: main.cpp:331 main.cpp:334 main.cpp:337
 #, fuzzy
 #| msgid "Bug fixes and general improvements"
 msgctxt "@info:credit"
 msgid "Bug fixes and general improvements"
 msgstr "correición de fallos y meyores"
 
-#: main.cpp:331
+#: main.cpp:333
 msgctxt "@info:credit"
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: main.cpp:334
+#: main.cpp:336
 msgctxt "@info:credit"
 msgid "Stephan Binner"
 msgstr "Stephan Binner"
 
-#: main.cpp:337
+#: main.cpp:339
 msgctxt "@info:credit"
 msgid "Thomas Dreibholz"
 msgstr "Thomas Dreibholz"
 
-#: main.cpp:338
+#: main.cpp:340
 msgctxt "@info:credit"
 msgid "General improvements"
 msgstr "Ameyores xenerales"
 
-#: main.cpp:340
+#: main.cpp:342
 msgctxt "@info:credit"
 msgid "Chris Machemer"
 msgstr "Chris Machemer"
 
-#: main.cpp:341 main.cpp:344 main.cpp:380 main.cpp:383 main.cpp:386
-#: main.cpp:389
+#: main.cpp:343 main.cpp:346 main.cpp:382 main.cpp:385 main.cpp:388
+#: main.cpp:391
 #, fuzzy
 #| msgid "Bug fixes"
 msgctxt "@info:credit"
 msgid "Bug fixes"
 msgstr "Correición de fallos"
 
-#: main.cpp:343
+#: main.cpp:345
 msgctxt "@info:credit"
 msgid "Francesco Cecconi"
 msgstr ""
 
-#: main.cpp:346
+#: main.cpp:348
 msgctxt "@info:credit"
 msgid "Stephan Kulow"
 msgstr "Stephan Kulow"
 
-#: main.cpp:347
+#: main.cpp:349
 #, fuzzy
 #| msgid "Solaris support and history"
 msgctxt "@info:credit"
 msgid "Solaris support and history"
 msgstr "Soporte Solaris y trabayu n'hestorial"
 
-#: main.cpp:349
+#: main.cpp:351
 msgctxt "@info:credit"
 msgid "Alexander Neundorf"
 msgstr "Alexander Neundorf"
 
-#: main.cpp:350
+#: main.cpp:352
 #, fuzzy
 #| msgid "Bug fixes and improved startup performance"
 msgctxt "@info:credit"
 msgid "Bug fixes and improved startup performance"
 msgstr "Correición de fallos y meyora del rendimientu al aniciu"
 
-#: main.cpp:352
+#: main.cpp:354
 msgctxt "@info:credit"
 msgid "Peter Silva"
 msgstr "Peter Silva"
 
-#: main.cpp:353
+#: main.cpp:355
 #, fuzzy
 #| msgid "Marking improvements"
 msgctxt "@info:credit"
 msgid "Marking improvements"
 msgstr "Correición de fallos y meyores"
 
-#: main.cpp:355
+#: main.cpp:357
 msgctxt "@info:credit"
 msgid "Lotzi Boloni"
 msgstr "Lotzi Boloni"
 
-#: main.cpp:356
+#: main.cpp:358
 #, fuzzy
 #| msgid ""
 #| "Embedded Konsole\n"
@@ -1819,12 +1834,12 @@ msgstr ""
 "Integráu en Konsole\n"
 "Barra de ferramientes y nomes de sesión"
 
-#: main.cpp:359
+#: main.cpp:361
 msgctxt "@info:credit"
 msgid "David Faure"
 msgstr "David Faure"
 
-#: main.cpp:360
+#: main.cpp:362
 #, fuzzy
 #| msgid ""
 #| "Embedded Konsole\n"
@@ -1837,24 +1852,24 @@ msgstr ""
 "Integráu en Konsole\n"
 "Meyores xenerales"
 
-#: main.cpp:363
+#: main.cpp:365
 msgctxt "@info:credit"
 msgid "Antonio Larrosa"
 msgstr "Antonio Larrosa"
 
-#: main.cpp:364
+#: main.cpp:366
 #, fuzzy
 #| msgid "Visual effects"
 msgctxt "@info:credit"
 msgid "Visual effects"
 msgstr "Efeutos visuales"
 
-#: main.cpp:366
+#: main.cpp:368
 msgctxt "@info:credit"
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:367
+#: main.cpp:369
 #, fuzzy
 #| msgid ""
 #| "Code from the kvt project\n"
@@ -1867,63 +1882,63 @@ msgstr ""
 "Códigu del proyeutu kvt\n"
 "Meyores xenerales"
 
-#: main.cpp:370
+#: main.cpp:372
 msgctxt "@info:credit"
 msgid "Warwick Allison"
 msgstr "Warwick Allison"
 
-#: main.cpp:371
+#: main.cpp:373
 #, fuzzy
 #| msgid "Schema and text selection improvements"
 msgctxt "@info:credit"
 msgid "Schema and text selection improvements"
 msgstr "Meyores d'esquema y seleición de testu"
 
-#: main.cpp:373
+#: main.cpp:375
 msgctxt "@info:credit"
 msgid "Dan Pilone"
 msgstr "Dan Pilone"
 
-#: main.cpp:374
+#: main.cpp:376
 #, fuzzy
 #| msgid "SGI port"
 msgctxt "@info:credit"
 msgid "SGI port"
 msgstr "Portáu a SGI"
 
-#: main.cpp:376
+#: main.cpp:378
 msgctxt "@info:credit"
 msgid "Kevin Street"
 msgstr "Kevin Street"
 
-#: main.cpp:377
+#: main.cpp:379
 #, fuzzy
 #| msgid "FreeBSD port"
 msgctxt "@info:credit"
 msgid "FreeBSD port"
 msgstr "Portáu a FreeBSD"
 
-#: main.cpp:379
+#: main.cpp:381
 msgctxt "@info:credit"
 msgid "Sven Fischer"
 msgstr "Sven Fischer"
 
-#: main.cpp:382
+#: main.cpp:384
 msgctxt "@info:credit"
 msgid "Dale M. Flaven"
 msgstr "Dale M. Flaven"
 
-#: main.cpp:385
+#: main.cpp:387
 msgctxt "@info:credit"
 msgid "Martin Jones"
 msgstr "Martin Jones"
 
-#: main.cpp:388
+#: main.cpp:390
 msgctxt "@info:credit"
 msgid "Lars Knoll"
 msgstr "Lars Knoll"
 
-#: main.cpp:391
+#: main.cpp:393
 #, fuzzy
 #| msgid "Thanks to many others.\n"
 msgctxt "@info:credit"
@@ -1975,7 +1990,7 @@ msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:566
+#: MainWindow.cpp:572
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -1986,45 +2001,53 @@ msgid_plural ""
 msgstr[0] "Tiene varies llingüetes nesta ventana, ¿daveres quier colar?"
 msgstr[1] "Tiene varies llingüetes nesta ventana, ¿daveres quier colar?"
 
-#: MainWindow.cpp:572
+#: MainWindow.cpp:578 MainWindow.cpp:589
 #, fuzzy
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "Confirmar zarrar"
 
-#: MainWindow.cpp:573
+#: MainWindow.cpp:579 MainWindow.cpp:590
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:574
+#: MainWindow.cpp:580 MainWindow.cpp:591
 #, fuzzy
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "Zarrar llingüeta actual"
 
-#: MainWindow.cpp:670
+#: MainWindow.cpp:586
+#, fuzzy, kde-format
+#| msgid ""
+#| "You have multiple tabs in this window, are you sure you want to quit?"
+msgctxt "@info"
+msgid "There are %1 open tabs in this window. Do you still want to quit?"
+msgstr "Tiene varies llingüetes nesta ventana, ¿daveres quier colar?"
+
+#: MainWindow.cpp:689
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "Xeneral"
 
-#: MainWindow.cpp:675
+#: MainWindow.cpp:694
 #, fuzzy
 #| msgid "New Profile"
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "Perfil nuevu"
 
-#: MainWindow.cpp:680
+#: MainWindow.cpp:699
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
 
-#: MainWindow.cpp:685
+#: MainWindow.cpp:704
 msgctxt "@title Preferences page name"
 msgid "File Location"
 msgstr "Allugamientu de ficheros"
@@ -2244,7 +2267,7 @@ msgstr "El programa '%1' zarróse inesperadamente."
 msgid "Program '%1' exited with status %2."
 msgstr "El programa '%1' finó col estáu %2."
 
-#: Session.cpp:1275
+#: Session.cpp:1316
 #, fuzzy
 msgid "ZModem Progress"
 msgstr "Progresu de ZModem"
@@ -2253,212 +2276,212 @@ msgstr "Progresu de ZModem"
 msgid "Konsole"
 msgstr "Konsole"
 
-#: SessionController.cpp:339
+#: SessionController.cpp:335
 #, fuzzy
 msgid "Konsole does not know how to open the bookmark: "
 msgstr "Konsole nun sabe cómo tien qu'abrir el marcador: "
 
-#: SessionController.cpp:397
+#: SessionController.cpp:393
 #, kde-format
 msgid "Search for '%1' with"
 msgstr ""
 
-#: SessionController.cpp:411
+#: SessionController.cpp:407
 msgid "Configure Web Shortcuts..."
 msgstr "Configurar atayos web..."
 
-#: SessionController.cpp:532
+#: SessionController.cpp:528
 #, fuzzy
 #| msgid "Konsole"
 msgid "&Close Session"
 msgstr "Konsole"
 
-#: SessionController.cpp:534
+#: SessionController.cpp:530
 #, fuzzy
 msgid "&Close Tab"
 msgstr "&Zarrar llingüeta"
 
-#: SessionController.cpp:541
+#: SessionController.cpp:537
 #, fuzzy
 msgid "Open File Manager"
 msgstr "Abrir Xestor de Ficheros"
 
-#: SessionController.cpp:557
+#: SessionController.cpp:553
 #, fuzzy
 msgid "Paste Selection"
 msgstr "Apegar seleición"
 
-#: SessionController.cpp:560
+#: SessionController.cpp:556
 msgid "Web Search"
 msgstr ""
 
-#: SessionController.cpp:567
+#: SessionController.cpp:563
 #, fuzzy
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "Esbillar Too"
 
-#: SessionController.cpp:571
+#: SessionController.cpp:567
 #, fuzzy
 #| msgid "Select"
 msgid "Select &Line"
 msgstr "Esbillar"
 
-#: SessionController.cpp:574
+#: SessionController.cpp:570
 #, fuzzy
 #| msgid "Save Output..."
 msgid "Save Output &As..."
 msgstr "Guardar salida..."
 
-#: SessionController.cpp:577
+#: SessionController.cpp:573
 msgid "&Print Screen..."
 msgstr ""
 
-#: SessionController.cpp:581
+#: SessionController.cpp:577
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Adjust Scrollback..."
 msgstr "Xestionar perfiles..."
 
-#: SessionController.cpp:585
+#: SessionController.cpp:581
 #, fuzzy
 msgid "Clear Scrollback"
 msgstr "Llimpiar hestóricu"
 
-#: SessionController.cpp:589
+#: SessionController.cpp:585
 #, fuzzy
 #| msgid "Clear Scrollback && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "Desanicia &hestorial y reaniciar"
 
-#: SessionController.cpp:595
+#: SessionController.cpp:591
 msgid "Edit Current Profile..."
 msgstr "Editar perfil actual..."
 
-#: SessionController.cpp:598
+#: SessionController.cpp:594
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "Editar perfil"
 
-#: SessionController.cpp:615
+#: SessionController.cpp:611
 #, fuzzy
 #| msgid "Encoding"
 msgid "Set &Encoding"
 msgstr "Codificación"
 
-#: SessionController.cpp:630
+#: SessionController.cpp:626
 #, fuzzy
 msgid "&Rename Tab..."
 msgstr "&Renomar sesión..."
 
-#: SessionController.cpp:636
+#: SessionController.cpp:632
 #, fuzzy
 msgid "&All Tabs in Current Window"
 msgstr "&Toles llingüetes na ventana actual"
 
-#: SessionController.cpp:643
+#: SessionController.cpp:639
 #, fuzzy
 msgid "&Select Tabs..."
 msgstr "&Seleicionar Llingüetes..."
 
-#: SessionController.cpp:649
+#: SessionController.cpp:645
 #, fuzzy
 #| msgid "&None"
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr "&Dengún"
 
-#: SessionController.cpp:657
+#: SessionController.cpp:653
 #, fuzzy
 msgid "Copy Input To"
 msgstr "Copiar entrada a"
 
-#: SessionController.cpp:664
+#: SessionController.cpp:660
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:669
+#: SessionController.cpp:665
 #, fuzzy
 msgid "Monitor for &Activity"
 msgstr "Monitor d'&actividá"
 
-#: SessionController.cpp:674
+#: SessionController.cpp:670
 #, fuzzy
 msgid "Monitor for &Silence"
 msgstr "Monitor de &silenciu"
 
-#: SessionController.cpp:681
+#: SessionController.cpp:677
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:689
+#: SessionController.cpp:685
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Shrink View"
 msgid "Shrink Font"
 msgstr "Comprimir vista"
 
-#: SessionController.cpp:696
+#: SessionController.cpp:692
 msgid "Send Signal"
 msgstr ""
 
-#: SessionController.cpp:700
+#: SessionController.cpp:696
 msgid "&Suspend Task"
 msgstr ""
 
-#: SessionController.cpp:705
+#: SessionController.cpp:701
 #, fuzzy
 #| msgid "&Close Tab"
 msgid "&Continue Task"
 msgstr "&Zarrar llingüeta"
 
-#: SessionController.cpp:710
+#: SessionController.cpp:706
 msgid "&Hangup"
 msgstr ""
 
-#: SessionController.cpp:715
+#: SessionController.cpp:711
 msgid "&Interrupt Task"
 msgstr ""
 
-#: SessionController.cpp:720
+#: SessionController.cpp:716
 #, fuzzy
 #| msgid "Terminal Features"
 msgid "&Terminate Task"
 msgstr "Funcionalidaes del terminal"
 
-#: SessionController.cpp:725
+#: SessionController.cpp:721
 msgid "&Kill Task"
 msgstr ""
 
-#: SessionController.cpp:730
+#: SessionController.cpp:726
 msgid "User Signal &1"
 msgstr ""
 
-#: SessionController.cpp:735
+#: SessionController.cpp:731
 msgid "User Signal &2"
 msgstr ""
 
-#: SessionController.cpp:839
+#: SessionController.cpp:835
 #, fuzzy
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "Ta executándose un programa nesta sesión. ¿Daveres quier zarralu?"
 
-#: SessionController.cpp:842
+#: SessionController.cpp:838
 #, fuzzy, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr "El programa '%1' ta executándose nesta. ¿Quier zarralu?"
 
-#: SessionController.cpp:845 SessionController.cpp:870
+#: SessionController.cpp:841 SessionController.cpp:866
 #, fuzzy
 msgid "Confirm Close"
 msgstr "Confirmar zarrar"
 
-#: SessionController.cpp:864
+#: SessionController.cpp:860
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -2468,7 +2491,7 @@ msgid ""
 "by force?"
 msgstr "Ta executándose un programa nesta sesión. ¿Daveres quier zarralu?"
 
-#: SessionController.cpp:867
+#: SessionController.cpp:863
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -2478,49 +2501,49 @@ msgid ""
 "kill it by force?"
 msgstr "El programa '%1' ta executándose nesta. ¿Quier zarralu?"
 
-#: SessionController.cpp:1370
+#: SessionController.cpp:1366
 #, fuzzy
 #| msgid "Shell"
 msgid "Print Shell"
 msgstr "Intérprete d'órdenes"
 
-#: SessionController.cpp:1572
+#: SessionController.cpp:1568
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1582
+#: SessionController.cpp:1578
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1594
+#: SessionController.cpp:1590
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1603
+#: SessionController.cpp:1599
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1609
+#: SessionController.cpp:1605
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1676
+#: SessionController.cpp:1672
 #, fuzzy, kde-format
 msgid "Save Output From %1"
 msgstr "Guardar salida de %1"
 
-#: SessionController.cpp:1687
+#: SessionController.cpp:1683
 #, fuzzy, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 ye una URL non válida, la salida nun puede atroxase."
 
-#: SessionController.cpp:1761
+#: SessionController.cpp:1757
 #, fuzzy, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
