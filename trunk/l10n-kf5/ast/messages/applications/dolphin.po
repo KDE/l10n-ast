@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-24 06:45+0000\n"
+"POT-Creation-Date: 2016-09-05 06:59+0000\n"
 "PO-Revision-Date: 2016-03-06 02:44+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -1795,48 +1795,53 @@ msgstr "Camudar nome"
 msgid "Show selection toggle"
 msgstr "Amosar conmutador de seleición"
 
-#. i18n: ectx: label, entry (ShowToolTips), group (General)
+#. i18n: ectx: label, entry (UseTabForSwitchingSplitView), group (General)
 #: settings/dolphin_generalsettings.kcfg:66
+msgid "Use tab for switching between right and left split"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowToolTips), group (General)
+#: settings/dolphin_generalsettings.kcfg:70
 msgid "Show tooltips"
 msgstr "Amosar conseyos"
 
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: settings/dolphin_generalsettings.kcfg:70
+#: settings/dolphin_generalsettings.kcfg:74
 msgid "Show 'Copy To' and 'Move To' commands in context menu"
 msgstr "Amosar la orde «Copiar a» y «Mover a» nel menú contestual"
 
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: settings/dolphin_generalsettings.kcfg:74
+#: settings/dolphin_generalsettings.kcfg:78
 msgid "Timestamp since when the view properties are valid"
 msgstr "Marca de tiempu dende cuando son válides les propiedaes de la vista"
 
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: settings/dolphin_generalsettings.kcfg:77
+#: settings/dolphin_generalsettings.kcfg:81
 msgid "Use auto-expanding folders for all view types"
 msgstr "Espandir carpetes automáticamente pa toles tribes de vista"
 
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: settings/dolphin_generalsettings.kcfg:81
+#: settings/dolphin_generalsettings.kcfg:85
 msgid "Show zoom slider in the statusbar"
 msgstr "Amosar eslizador de zoom na barra d'estáu"
 
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: settings/dolphin_generalsettings.kcfg:85
+#: settings/dolphin_generalsettings.kcfg:89
 msgid "Show the space information in the statusbar"
 msgstr "Amosar información d'espaciu na barra d'estáu"
 
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: settings/dolphin_generalsettings.kcfg:89
+#: settings/dolphin_generalsettings.kcfg:93
 msgid "Lock the layout of the panels"
 msgstr ""
 
 #. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
-#: settings/dolphin_generalsettings.kcfg:93
+#: settings/dolphin_generalsettings.kcfg:97
 msgid "Enlarge Small Previews"
 msgstr ""
 
 #. i18n: ectx: label, entry (SortingChoice), group (General)
-#: settings/dolphin_generalsettings.kcfg:102
+#: settings/dolphin_generalsettings.kcfg:106
 msgid ""
 "Choose Natural, Case Sensitive, or Case Insensitive order of sorting the "
 "items"
@@ -1892,22 +1897,22 @@ msgctxt "@title:group General settings"
 msgid "General"
 msgstr "Xeneral"
 
-#: settings/general/behaviorsettingspage.cpp:49
+#: settings/general/behaviorsettingspage.cpp:50
 msgctxt "@title:group"
 msgid "View"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:52
+#: settings/general/behaviorsettingspage.cpp:53
 msgctxt "@option:radio"
 msgid "Remember properties for each folder"
 msgstr "Recordar propiedaes pa cada carpeta"
 
-#: settings/general/behaviorsettingspage.cpp:53
+#: settings/general/behaviorsettingspage.cpp:54
 msgctxt "@option:radio"
 msgid "Use common properties for all folders"
 msgstr "Usar propiedaes comunes pa toles carpetes"
 
-#: settings/general/behaviorsettingspage.cpp:60
+#: settings/general/behaviorsettingspage.cpp:61
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -1915,37 +1920,42 @@ msgctxt "@title:group"
 msgid "Sorting Mode"
 msgstr "Ordenación:"
 
-#: settings/general/behaviorsettingspage.cpp:63
+#: settings/general/behaviorsettingspage.cpp:64
 #, fuzzy
 #| msgid "Natural sorting of items"
 msgctxt "option:radio"
 msgid "Natural sorting"
 msgstr "Orde natural d'elementos"
 
-#: settings/general/behaviorsettingspage.cpp:64
+#: settings/general/behaviorsettingspage.cpp:65
 msgctxt "option:radio"
 msgid "Alphabetical sorting, case insensitive"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:65
+#: settings/general/behaviorsettingspage.cpp:66
 msgctxt "option:radio"
 msgid "Alphabetical sorting, case sensitive"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:73
+#: settings/general/behaviorsettingspage.cpp:74
 msgctxt "@option:check"
 msgid "Show tooltips"
 msgstr "Amosar descripciones emerxentes"
 
-#: settings/general/behaviorsettingspage.cpp:76
+#: settings/general/behaviorsettingspage.cpp:77
 msgctxt "@option:check"
 msgid "Show selection marker"
 msgstr "Amosar marcador de seleición"
 
-#: settings/general/behaviorsettingspage.cpp:79
+#: settings/general/behaviorsettingspage.cpp:80
 msgctxt "option:check"
 msgid "Rename inline"
 msgstr "Camudar nome"
+
+#: settings/general/behaviorsettingspage.cpp:83
+msgctxt "option:check"
+msgid "Use tab for switching between right and left split view"
+msgstr ""
 
 #: settings/general/configurepreviewplugindialog.cpp:50
 #, kde-format
@@ -2507,39 +2517,39 @@ msgctxt "@info:status"
 msgid "0 Folders, 0 Files"
 msgstr "Carpetes primero"
 
-#: views/dolphinview.cpp:807
+#: views/dolphinview.cpp:816
 #, kde-format
 msgid "Are you sure you want to open 1 item?"
 msgid_plural "Are you sure you want to open %1 items?"
 msgstr[0] "¿De xuru que quies abrir un elementu?"
 msgstr[1] "¿De xuru que quies abrir %1 elementos?"
 
-#: views/dolphinview.cpp:917
+#: views/dolphinview.cpp:926
 msgctxt "@action:inmenu"
 msgid "Automatic Column Widths"
 msgstr "Anchor de columna"
 
-#: views/dolphinview.cpp:922
+#: views/dolphinview.cpp:931
 msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "Anchor de columna"
 
-#: views/dolphinview.cpp:1383
+#: views/dolphinview.cpp:1392
 msgctxt "@info:status"
 msgid "Trash operation completed."
 msgstr "Operación d'esborráu finada."
 
-#: views/dolphinview.cpp:1392
+#: views/dolphinview.cpp:1401
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Operación d'esborráu finada."
 
-#: views/dolphinview.cpp:1535
+#: views/dolphinview.cpp:1544
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "La ubicación ta erma."
 
-#: views/dolphinview.cpp:1537
+#: views/dolphinview.cpp:1546
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
