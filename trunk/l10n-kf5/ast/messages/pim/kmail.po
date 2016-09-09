@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-08 07:45+0000\n"
+"POT-Creation-Date: 2016-09-09 07:13+0000\n"
 "PO-Revision-Date: 2016-09-06 19:50+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -1981,21 +1981,27 @@ msgstr ""
 msgid "Printing"
 msgstr ""
 
-#: src/configuredialog/configurepluginpage.cpp:28
+#: src/configuredialog/configurepluginpage.cpp:29
 #, fuzzy
 #| msgid "GnuPG support"
 msgid "Plugins"
 msgstr "Sofitu GnuGP"
 
-#: src/configuredialog/configureplugins/configurepluginslistwidget.cpp:91
+#: src/configuredialog/configureplugins/configurepluginslistwidget.cpp:102
+msgid "Check Before Send Plugins"
+msgstr ""
+
+#: src/configuredialog/configureplugins/configurepluginslistwidget.cpp:123
+#, fuzzy
+#| msgid "GnuPG support"
+msgid "Composer Plugins"
+msgstr "Sofitu GnuGP"
+
+#: src/configuredialog/configureplugins/configurepluginslistwidget.cpp:142
 #, fuzzy
 #| msgid "Messages"
 msgid "Message Viewer"
 msgstr "Mensaxes"
-
-#: src/configuredialog/configureplugins/configurepluginswidget.cpp:36
-msgid "Restart is necessary for applying the changes."
-msgstr ""
 
 #: src/configuredialog/configuresecuritypage.cpp:52
 msgid "Reading"
@@ -2077,7 +2083,7 @@ msgctxt "@title:window for archiving a folder"
 msgid "Archive Folder"
 msgstr ""
 
-#: src/dialog/archivefolderdialog.cpp:71 src/kmmainwidget.cpp:3544
+#: src/dialog/archivefolderdialog.cpp:71 src/kmmainwidget.cpp:3545
 msgctxt "@action"
 msgid "Archive"
 msgstr ""
@@ -2251,7 +2257,7 @@ msgstr ""
 msgid "&Insert Recent Text File"
 msgstr ""
 
-#: src/editor/kmcomposerwin.cpp:1109 src/kmmainwidget.cpp:2896
+#: src/editor/kmcomposerwin.cpp:1109 src/kmmainwidget.cpp:2897
 msgid "&Address Book"
 msgstr ""
 
@@ -3456,7 +3462,7 @@ msgid "&Forward"
 msgstr ""
 
 #. i18n: ectx: Menu (apply_filter_actions)
-#: src/kmail_part.rc:167 src/kmmainwidget.cpp:3222 src/kmmainwin.rc:167
+#: src/kmail_part.rc:167 src/kmmainwidget.cpp:3223 src/kmmainwin.rc:167
 msgid "A&pply Filter"
 msgstr ""
 
@@ -3592,11 +3598,11 @@ msgstr ""
 msgid "Online/Offline"
 msgstr ""
 
-#: src/kmkernel.cpp:1152 src/kmmainwidget.cpp:2337
+#: src/kmkernel.cpp:1152 src/kmmainwidget.cpp:2338
 msgid "Work Online"
 msgstr ""
 
-#: src/kmkernel.cpp:1153 src/kmmainwidget.cpp:2334
+#: src/kmkernel.cpp:1153 src/kmmainwidget.cpp:2335
 msgid "Work Offline"
 msgstr ""
 
@@ -3684,7 +3690,7 @@ msgid ""
 "properly installed."
 msgstr ""
 
-#: src/kmlaunchexternalcomponent.cpp:103 src/kmmainwidget.cpp:334
+#: src/kmlaunchexternalcomponent.cpp:103 src/kmmainwidget.cpp:335
 msgid "Unable to start import wizard"
 msgstr ""
 
@@ -3718,91 +3724,91 @@ msgstr ""
 msgid "Unable to start account wizard"
 msgstr ""
 
-#: src/kmmainwidget.cpp:329
+#: src/kmmainwidget.cpp:330
 msgid "Another mailer was found on system. Do you want to import data from it?"
 msgstr ""
 "Alcontróse nel sistema otru veceru de corréu. ¿Quies importar datos d'elli?"
 
-#: src/kmmainwidget.cpp:332
+#: src/kmmainwidget.cpp:333
 msgid "Could not start the import wizard. Please check your installation."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1381
+#: src/kmmainwidget.cpp:1382
 msgid "No Subject"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1395
+#: src/kmmainwidget.cpp:1396
 msgid "(no templates)"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1448
+#: src/kmmainwidget.cpp:1449
 msgid "This folder does not have any expiry options set"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1457
+#: src/kmmainwidget.cpp:1458
 #, kde-format
 msgid "<qt>Are you sure you want to expire the folder <b>%1</b>?</qt>"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1459
+#: src/kmmainwidget.cpp:1460
 msgid "Expire Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1460
+#: src/kmmainwidget.cpp:1461
 msgid "&Expire"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1483
+#: src/kmmainwidget.cpp:1484
 msgid "Empty Trash"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1483
+#: src/kmmainwidget.cpp:1484
 msgid "Move to Trash"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1485
+#: src/kmmainwidget.cpp:1486
 msgid "Are you sure you want to empty the trash folder?"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1486
+#: src/kmmainwidget.cpp:1487
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to move all messages from folder <b>%1</b> to the "
 "trash?</qt>"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1511
+#: src/kmmainwidget.cpp:1512
 msgid "Moved all messages to the trash"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1564
+#: src/kmmainwidget.cpp:1565
 msgid "Are you sure you want to expire all old messages?"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1565
+#: src/kmmainwidget.cpp:1566
 msgid "Expire Old Messages?"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1565
+#: src/kmmainwidget.cpp:1566
 msgid "Expire"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1580
+#: src/kmmainwidget.cpp:1581
 msgid ""
 "Loading external references in html mail will make you more vulnerable to "
 "\"spam\" and may increase the likelihood that your system will be "
 "compromised by other present and anticipated security exploits."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1583 src/kmmainwidget.cpp:4516
+#: src/kmmainwidget.cpp:1584 src/kmmainwidget.cpp:4517
 msgid "Security Warning"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1584
+#: src/kmmainwidget.cpp:1585
 msgid "Load External References"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1677
+#: src/kmmainwidget.cpp:1678
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete the selected message?<br />Once deleted, it "
@@ -3813,611 +3819,611 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/kmmainwidget.cpp:1683
+#: src/kmmainwidget.cpp:1684
 msgid "Delete Messages"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1683
+#: src/kmmainwidget.cpp:1684
 msgid "Delete Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1703
+#: src/kmmainwidget.cpp:1704
 msgid "Moving messages..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1705
+#: src/kmmainwidget.cpp:1706
 msgid "Deleting messages..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1719
+#: src/kmmainwidget.cpp:1720
 msgid "Messages deleted successfully."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1721
+#: src/kmmainwidget.cpp:1722
 msgid "Messages moved successfully."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1726
+#: src/kmmainwidget.cpp:1727
 msgid "Deleting messages failed."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1728
+#: src/kmmainwidget.cpp:1729
 msgid "Deleting messages canceled."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1732
+#: src/kmmainwidget.cpp:1733
 msgid "Moving messages failed."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1734
+#: src/kmmainwidget.cpp:1735
 msgid "Moving messages canceled."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1799
+#: src/kmmainwidget.cpp:1800
 msgid "Move Messages to Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1829
+#: src/kmmainwidget.cpp:1830
 msgid "Copying messages..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1836
+#: src/kmmainwidget.cpp:1837
 msgid "Messages copied successfully."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1839
+#: src/kmmainwidget.cpp:1840
 msgid "Copying messages failed."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1841
+#: src/kmmainwidget.cpp:1842
 msgid "Copying messages canceled."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1850
+#: src/kmmainwidget.cpp:1851
 msgid "Copy Messages to Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:1889
+#: src/kmmainwidget.cpp:1890
 msgid "Moving messages to trash..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1898
+#: src/kmmainwidget.cpp:1899
 msgid "Messages moved to trash successfully."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1901
+#: src/kmmainwidget.cpp:1902
 msgid "Moving messages to trash failed."
 msgstr ""
 
-#: src/kmmainwidget.cpp:1903
+#: src/kmmainwidget.cpp:1904
 msgid "Moving messages to trash canceled."
 msgstr ""
 
-#: src/kmmainwidget.cpp:2174
+#: src/kmmainwidget.cpp:2175
 msgid "Jump to Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2841
+#: src/kmmainwidget.cpp:2842
 msgid "Save &As..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:2855
+#: src/kmmainwidget.cpp:2856
 msgid "&Expire All Folders"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2860
+#: src/kmmainwidget.cpp:2861
 msgid "Check &Mail"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2868
+#: src/kmmainwidget.cpp:2869
 msgid "Check Mail In"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2870 src/kmmainwidget.cpp:2871
+#: src/kmmainwidget.cpp:2871 src/kmmainwidget.cpp:2872
 msgid "Check Mail"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2875
+#: src/kmmainwidget.cpp:2876
 msgid "&Send Queued Messages"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2884
+#: src/kmmainwidget.cpp:2885
 msgid "Online status (unknown)"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2889
+#: src/kmmainwidget.cpp:2890
 msgid "Send Queued Messages Via"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2905
+#: src/kmmainwidget.cpp:2906
 msgid "Certificate Manager"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2914
+#: src/kmmainwidget.cpp:2915
 msgid "GnuPG Log Viewer"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2927
+#: src/kmmainwidget.cpp:2928
 msgid "&Import Messages..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:2937
+#: src/kmmainwidget.cpp:2938
 msgid "&Debug Sieve..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:2944
+#: src/kmmainwidget.cpp:2945
 msgid "Filter &Log Viewer..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:2949
+#: src/kmmainwidget.cpp:2950
 msgid "&Account Wizard..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:2954
+#: src/kmmainwidget.cpp:2955
 msgid "&Import from another Email Client..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:2959
+#: src/kmmainwidget.cpp:2960
 msgid "Edit \"Out of Office\" Replies..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:2965
+#: src/kmmainwidget.cpp:2966
 msgid "&Configure Automatic Archiving..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:2971
+#: src/kmmainwidget.cpp:2972
 msgid "Delayed Messages..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:2977
+#: src/kmmainwidget.cpp:2978
 msgid "Followup Reminder Messages..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:2988 src/kmmainwidget.cpp:4011
-#: src/kmmainwidget.cpp:4014
+#: src/kmmainwidget.cpp:2989 src/kmmainwidget.cpp:4012
+#: src/kmmainwidget.cpp:4015
 msgctxt "@action Hard delete, bypassing trash"
 msgid "&Delete"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2993 src/kmmainwidget.cpp:4017
+#: src/kmmainwidget.cpp:2994 src/kmmainwidget.cpp:4018
 msgid "M&ove Thread to Trash"
 msgstr ""
 
-#: src/kmmainwidget.cpp:2997
+#: src/kmmainwidget.cpp:2998
 msgid "Move thread to trashcan"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3000 src/kmmainwidget.cpp:4017
+#: src/kmmainwidget.cpp:3001 src/kmmainwidget.cpp:4018
 msgid "Delete T&hread"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3006 src/kmmainwidget.cpp:4019
+#: src/kmmainwidget.cpp:3007 src/kmmainwidget.cpp:4020
 msgid "&Find Messages..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3012
+#: src/kmmainwidget.cpp:3013
 msgid "Select &All Messages"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3020
+#: src/kmmainwidget.cpp:3021
 msgid "&Mailing List Management..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3025
+#: src/kmmainwidget.cpp:3026
 msgid "&Assign Shortcut..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3041
+#: src/kmmainwidget.cpp:3042
 msgid "&Expiration Settings"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3057
+#: src/kmmainwidget.cpp:3058
 msgid "&Archive Folder..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3065
+#: src/kmmainwidget.cpp:3066
 msgid "Load E&xternal References"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3088 src/kmreadermainwin.cpp:388
+#: src/kmmainwidget.cpp:3089 src/kmreadermainwin.cpp:388
 msgid "Copy Message To..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3090 src/kmreadermainwin.cpp:401
+#: src/kmmainwidget.cpp:3091 src/kmreadermainwin.cpp:401
 msgid "Move Message To..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3095
+#: src/kmmainwidget.cpp:3096
 msgid "&New Message..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3097
+#: src/kmmainwidget.cpp:3098
 msgctxt "@action:intoolbar New Empty Message"
 msgid "New"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3105
+#: src/kmmainwidget.cpp:3106
 msgid "Message From &Template"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3115
+#: src/kmmainwidget.cpp:3116
 msgid "New Message t&o Mailing-List..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3122
+#: src/kmmainwidget.cpp:3123
 msgid "Send A&gain..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3127
+#: src/kmmainwidget.cpp:3128
 msgid "&Create Filter"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3132
+#: src/kmmainwidget.cpp:3133
 msgid "Filter on &Subject..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3139
+#: src/kmmainwidget.cpp:3140
 msgid "Filter on &From..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3145
+#: src/kmmainwidget.cpp:3146
 msgid "Filter on &To..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3151
+#: src/kmmainwidget.cpp:3152
 msgid "Filter on &Cc..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3158
+#: src/kmmainwidget.cpp:3159
 msgid "New Message From &Template"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3164
+#: src/kmmainwidget.cpp:3165
 msgid "Mark &Thread"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3167
+#: src/kmmainwidget.cpp:3168
 msgid "Mark Thread as &Read"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3170
+#: src/kmmainwidget.cpp:3171
 msgid "Mark all messages in the selected thread as read"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3173
+#: src/kmmainwidget.cpp:3174
 msgid "Mark Thread as &Unread"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3176
+#: src/kmmainwidget.cpp:3177
 msgid "Mark all messages in the selected thread as unread"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3182
+#: src/kmmainwidget.cpp:3183
 msgid "Mark Thread as &Important"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3185
+#: src/kmmainwidget.cpp:3186
 msgid "Remove &Important Thread Mark"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3188
+#: src/kmmainwidget.cpp:3189
 msgid "Mark Thread as &Action Item"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3191
+#: src/kmmainwidget.cpp:3192
 msgid "Remove &Action Item Thread Mark"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3195
+#: src/kmmainwidget.cpp:3196
 msgid "&Watch Thread"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3199
+#: src/kmmainwidget.cpp:3200
 msgid "&Ignore Thread"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3207 src/kmreadermainwin.cpp:357
+#: src/kmmainwidget.cpp:3208 src/kmreadermainwin.cpp:357
 msgid "Save A&ttachments..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3216
+#: src/kmmainwidget.cpp:3217
 msgid "Appl&y All Filters"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3226
+#: src/kmmainwidget.cpp:3227
 msgctxt "View->"
 msgid "&Expand Thread / Group"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3229
+#: src/kmmainwidget.cpp:3230
 msgid "Expand the current thread or group"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3233
+#: src/kmmainwidget.cpp:3234
 msgctxt "View->"
 msgid "&Collapse Thread / Group"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3236
+#: src/kmmainwidget.cpp:3237
 msgid "Collapse the current thread or group"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3240
+#: src/kmmainwidget.cpp:3241
 msgctxt "View->"
 msgid "Ex&pand All Threads"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3243
+#: src/kmmainwidget.cpp:3244
 msgid "Expand all threads in the current folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3247
+#: src/kmmainwidget.cpp:3248
 msgctxt "View->"
 msgid "C&ollapse All Threads"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3250
+#: src/kmmainwidget.cpp:3251
 msgid "Collapse all threads in the current folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3254
+#: src/kmmainwidget.cpp:3255
 msgid "&Display Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3263
+#: src/kmmainwidget.cpp:3264
 msgid "&Next Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3266
+#: src/kmmainwidget.cpp:3267
 msgid "Go to the next message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3270
+#: src/kmmainwidget.cpp:3271
 msgid "Next &Unread Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3278
+#: src/kmmainwidget.cpp:3279
 msgctxt "@action:inmenu Goto next unread message"
 msgid "Next"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3279
+#: src/kmmainwidget.cpp:3280
 msgid "Go to the next unread message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3283
+#: src/kmmainwidget.cpp:3284
 msgid "&Previous Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3285
+#: src/kmmainwidget.cpp:3286
 msgid "Go to the previous message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3290
+#: src/kmmainwidget.cpp:3291
 msgid "Previous Unread &Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3298
+#: src/kmmainwidget.cpp:3299
 msgctxt "@action:inmenu Goto previous unread message."
 msgid "Previous"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3299
+#: src/kmmainwidget.cpp:3300
 msgid "Go to the previous unread message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3303
+#: src/kmmainwidget.cpp:3304
 msgid "Next Unread &Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3307
+#: src/kmmainwidget.cpp:3308
 msgid "Go to the next folder with unread messages"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3310
+#: src/kmmainwidget.cpp:3311
 msgid "Previous Unread F&older"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3313
+#: src/kmmainwidget.cpp:3314
 msgid "Go to the previous folder with unread messages"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3317
+#: src/kmmainwidget.cpp:3318
 msgctxt "Go->"
 msgid "Next Unread &Text"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3320
+#: src/kmmainwidget.cpp:3321
 msgid "Go to the next unread text"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3321
+#: src/kmmainwidget.cpp:3322
 msgid ""
 "Scroll down current message. If at end of current message, go to next unread "
 "message."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3329
+#: src/kmmainwidget.cpp:3330
 msgid "Configure &Filters..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3335
+#: src/kmmainwidget.cpp:3336
 msgid "Manage &Sieve Scripts..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3340
+#: src/kmmainwidget.cpp:3341
 msgid "KMail &Introduction"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3342
+#: src/kmmainwidget.cpp:3343
 msgid "Display KMail's Welcome Page"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3352
+#: src/kmmainwidget.cpp:3353
 msgid "Configure &Notifications..."
 msgstr "Configurar &avisos..."
 
-#: src/kmmainwidget.cpp:3359
+#: src/kmmainwidget.cpp:3360
 msgid "&Configure KMail..."
 msgstr "&Configurar KMail..."
 
-#: src/kmmainwidget.cpp:3366
+#: src/kmmainwidget.cpp:3367
 msgid "Expire..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3372
+#: src/kmmainwidget.cpp:3373
 msgid "Add Favorite Folder..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3378
+#: src/kmmainwidget.cpp:3379
 msgid "Serverside Subscription..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3384
+#: src/kmmainwidget.cpp:3385
 msgid "Appl&y All Filters On Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3392
+#: src/kmmainwidget.cpp:3393
 msgid "Import/Export KMail Data..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3398
+#: src/kmmainwidget.cpp:3399
 msgid "New AddressBook Contact..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3420
+#: src/kmmainwidget.cpp:3421
 msgid "Copy Message to Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3427
+#: src/kmmainwidget.cpp:3428
 msgid "Jump to Folder..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:3434
+#: src/kmmainwidget.cpp:3435
 msgid "Abort Current Operation"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3441
+#: src/kmmainwidget.cpp:3442
 msgid "Focus on Next Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3448
+#: src/kmmainwidget.cpp:3449
 msgid "Focus on Previous Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3455
+#: src/kmmainwidget.cpp:3456
 msgid "Select Folder with Focus"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3463
+#: src/kmmainwidget.cpp:3464
 msgid "Focus on First Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3470
+#: src/kmmainwidget.cpp:3471
 msgid "Focus on Last Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3477
+#: src/kmmainwidget.cpp:3478
 msgid "Focus on Next Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3484
+#: src/kmmainwidget.cpp:3485
 msgid "Focus on Previous Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3491
+#: src/kmmainwidget.cpp:3492
 msgid "Select First Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3498
+#: src/kmmainwidget.cpp:3499
 msgid "Select Last Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3505
+#: src/kmmainwidget.cpp:3506
 msgid "Select Message with Focus"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3513
+#: src/kmmainwidget.cpp:3514
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3522
+#: src/kmmainwidget.cpp:3523
 msgid "Extend Selection to Previous Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3529
+#: src/kmmainwidget.cpp:3530
 msgid "Extend Selection to Next Message"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3537
+#: src/kmmainwidget.cpp:3538
 msgid "Move Message to Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3548
+#: src/kmmainwidget.cpp:3549
 msgid "Use Less Bandwidth"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3552
+#: src/kmmainwidget.cpp:3553
 msgid "Mark All Messages As Read in This Folder and All its Subfolder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3557
+#: src/kmmainwidget.cpp:3558
 msgid "Remove Duplicates in This Folder and All its Subfolder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3569
+#: src/kmmainwidget.cpp:3570
 msgid "Add Favorite Folder"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3901
+#: src/kmmainwidget.cpp:3902
 msgid "E&mpty Trash"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3901
+#: src/kmmainwidget.cpp:3902
 msgid "&Move All Messages to Trash"
 msgstr ""
 
-#: src/kmmainwidget.cpp:4004
+#: src/kmmainwidget.cpp:4005
 msgid "&Delete Search"
 msgstr ""
 
-#: src/kmmainwidget.cpp:4011 src/kmmainwidget.cpp:4014
+#: src/kmmainwidget.cpp:4012 src/kmmainwidget.cpp:4015
 #: src/kmreadermainwin.cpp:360
 msgid "&Move to Trash"
 msgstr ""
 
-#: src/kmmainwidget.cpp:4019
+#: src/kmmainwidget.cpp:4020
 msgid "Edit Search..."
 msgstr ""
 
-#: src/kmmainwidget.cpp:4117
+#: src/kmmainwidget.cpp:4118
 msgid "&Undo"
 msgstr ""
 
-#: src/kmmainwidget.cpp:4119
+#: src/kmmainwidget.cpp:4120
 #, kde-format
 msgid "&Undo: \"%1\""
 msgstr ""
 
-#: src/kmmainwidget.cpp:4170
+#: src/kmmainwidget.cpp:4171
 #, kde-format
 msgid "Filter %1"
 msgstr ""
 
-#: src/kmmainwidget.cpp:4505
+#: src/kmmainwidget.cpp:4506
 #, kde-format
 msgctxt "Show shortcut for focus quick search. Don't change it"
 msgid "Search...<%1>"
 msgstr ""
 
-#: src/kmmainwidget.cpp:4513
+#: src/kmmainwidget.cpp:4514
 msgid ""
 "Use of HTML in mail will make you more vulnerable to \"spam\" and may "
 "increase the likelihood that your system will be compromised by other "
 "present and anticipated security exploits."
 msgstr ""
 
-#: src/kmmainwidget.cpp:4517
+#: src/kmmainwidget.cpp:4518
 msgid "Use HTML"
 msgstr ""
 
