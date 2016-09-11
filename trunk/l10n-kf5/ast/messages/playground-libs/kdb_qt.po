@@ -196,14 +196,17 @@ msgid "%1() function's %2 argument should be of type %3. %4"
 msgstr ""
 
 #: expression/KDbFunctionExpression.cpp:1123
+#, fuzzy
+#| msgctxt "KDbExpression|"
+#| msgid "Too many arguments.%1"
 msgctxt "KDbFunctionExpression|"
-msgid "Maximum number of function arguments exceeded."
-msgstr ""
+msgid "Too many arguments for function."
+msgstr "Milenta argumentos.%1"
 
 #: expression/KDbFunctionExpression.cpp:1125
 #, qt-format
 msgctxt "KDbFunctionExpression|"
-msgid "Too many arguments for function (%1). Maximum allowed is %2."
+msgid "Maximum number of arguments for function %1() is %2."
 msgstr ""
 
 #: expression/KDbFunctionExpression.cpp:1169
@@ -277,7 +280,7 @@ msgstr ""
 #: expression/KDbVariableExpression.cpp:147
 #, qt-format
 msgctxt "KDbExpression|"
-msgid "Table containing \"%1\" field not found."
+msgid "Could not find table containing field \"%1\"."
 msgstr ""
 
 #: expression/KDbVariableExpression.cpp:172
@@ -289,8 +292,8 @@ msgstr ""
 #, qt-format
 msgctxt "KDbExpression|"
 msgid ""
-"Table name \"%1\" is covered by aliases. Instead of \"%2\", you can write "
-"\"%3\"."
+"Table name \"%1\" is covered by aliases. Instead of \"%2\", \"%3\" can be "
+"used."
 msgstr ""
 
 #: expression/KDbVariableExpression.cpp:196
@@ -334,8 +337,8 @@ msgctxt "KDbExpression|"
 msgid "More than one \"%1\" table or alias defined containing \"%2\" field."
 msgstr ""
 
-#: KDb.cpp:166 KDb.cpp:232
-msgctxt "ConnectionTestDialog|"
+#: KDb.cpp:166
+msgctxt "ConnectionTestDialog|Dialog's title: testing database connection"
 msgid "Test Connection"
 msgstr ""
 
@@ -363,6 +366,11 @@ msgstr ""
 #, qt-format
 msgctxt "ConnectionTestDialog|"
 msgid "Test connection to \"%1\" database server established successfully."
+msgstr ""
+
+#: KDb.cpp:232
+msgctxt "ConnectionTestDialog|"
+msgid "Test Connection"
 msgstr ""
 
 #: KDb.cpp:495
@@ -477,234 +485,235 @@ msgstr ""
 #: KDbConnection.cpp:576
 #, qt-format
 msgctxt "KDbConnection|"
-msgid "Database \"%1\" created but could not be closed after creation."
+msgid ""
+"Database \"%1\" has been created but could not be closed after creation."
 msgstr ""
 
-#: KDbConnection.cpp:591
+#: KDbConnection.cpp:592
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Database \"%1\" already exists."
 msgstr ""
 
-#: KDbConnection.cpp:596
+#: KDbConnection.cpp:597
 #, qt-format
 msgctxt "KDbConnection|"
 msgid ""
 "Could not create database \"%1\". This name is reserved for system database."
 msgstr ""
 
-#: KDbConnection.cpp:618
+#: KDbConnection.cpp:619
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Error creating database \"%1\" on the server."
 msgstr ""
 
-#: KDbConnection.cpp:632
+#: KDbConnection.cpp:633
 #, qt-format
 msgctxt "KDbConnection|"
-msgid "Database \"%1\" created but could not be opened."
+msgid "Database \"%1\" has been created but could not be opened."
 msgstr ""
 
-#: KDbConnection.cpp:709
+#: KDbConnection.cpp:710
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Opening database \"%1\" failed."
 msgstr ""
 
-#: KDbConnection.cpp:798
+#: KDbConnection.cpp:799
 msgctxt "KDbConnection|"
 msgid "Could not find any database for temporary connection."
 msgstr ""
 
-#: KDbConnection.cpp:807
+#: KDbConnection.cpp:808
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Error during starting temporary connection using \"%1\" database name."
 msgstr ""
 
-#: KDbConnection.cpp:825 KDbConnection.cpp:843
+#: KDbConnection.cpp:826 KDbConnection.cpp:844
 msgctxt "KDbConnection|"
-msgid "Could not delete database - name not specified."
+msgid "Could not delete database. Name is not specified."
 msgstr ""
 
-#: KDbConnection.cpp:849
+#: KDbConnection.cpp:850
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Could not delete system database \"%1\"."
 msgstr ""
 
-#: KDbConnection.cpp:896
+#: KDbConnection.cpp:897
 msgctxt "KDbConnection|"
 msgid "Could not retrieve list of object names."
 msgstr ""
 
-#: KDbConnection.cpp:909
+#: KDbConnection.cpp:910
 msgctxt "KDbConnection|"
 msgid "Could not retrieve list of table names."
 msgstr ""
 
-#: KDbConnection.cpp:977
+#: KDbConnection.cpp:978
 msgctxt "KDbConnection|"
 msgid "Could not retrieve list of object identifiers."
 msgstr ""
 
-#: KDbConnection.cpp:1155 KDbConnection.cpp:1173
+#: KDbConnection.cpp:1156 KDbConnection.cpp:1174
 msgctxt "KDbConnection|"
-msgid "SQL statement for execution is invalid (empty)."
+msgid "SQL statement for execution is invalid or empty."
 msgstr ""
 
-#: KDbConnection.cpp:1181
+#: KDbConnection.cpp:1182
 msgctxt "KDbConnection|"
 msgid "Error while executing SQL statement."
 msgstr ""
 
-#: KDbConnection.cpp:1278
+#: KDbConnection.cpp:1279
 msgctxt "KDbConnection|"
 msgid "Creating table failed."
 msgstr ""
 
-#: KDbConnection.cpp:1291
+#: KDbConnection.cpp:1292
 msgctxt "KDbConnection|"
 msgid "Could not create table without fields."
 msgstr ""
 
-#: KDbConnection.cpp:1302
+#: KDbConnection.cpp:1303
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "System name \"%1\" cannot be used as table name."
 msgstr ""
 
-#: KDbConnection.cpp:1311
+#: KDbConnection.cpp:1312
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "System name \"%1\" cannot be used as one of fields in \"%2\" table."
 msgstr ""
 
-#: KDbConnection.cpp:1327
+#: KDbConnection.cpp:1328
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Could not create the same table \"%1\" twice."
 msgstr ""
 
-#: KDbConnection.cpp:1341
+#: KDbConnection.cpp:1342
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Table \"%1\" already exists."
 msgstr ""
 
-#: KDbConnection.cpp:1404 KDbConnection.cpp:1431 KDbConnection.cpp:1540
+#: KDbConnection.cpp:1405 KDbConnection.cpp:1432 KDbConnection.cpp:1544
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Table \"%1\" does not exist."
 msgstr ""
 
-#: KDbConnection.cpp:1457
+#: KDbConnection.cpp:1458
 msgctxt "KDbConnection|"
-msgid "Could not remove object's data."
+msgid "Could not delete object's data."
 msgstr ""
 
-#: KDbConnection.cpp:1480
+#: KDbConnection.cpp:1486 KDbConnection.cpp:1499
 #, qt-format
 msgctxt "KDbConnection|"
-msgid "Table \"%1\" cannot be removed.\n"
+msgid "Could not delete table \"%1\". %2"
 msgstr ""
 
-#: KDbConnection.cpp:1486
+#: KDbConnection.cpp:1487
 msgctxt "KDbConnection|"
 msgid "Unexpected name or identifier."
 msgstr ""
 
-#: KDbConnection.cpp:1555
+#: KDbConnection.cpp:1559
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Could not alter table \"%1\" using the same table as destination."
 msgstr ""
 
-#: KDbConnection.cpp:1579
+#: KDbConnection.cpp:1583
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Unknown table \"%1\"."
 msgstr ""
 
-#: KDbConnection.cpp:1584
+#: KDbConnection.cpp:1588
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Invalid table name \"%1\"."
 msgstr ""
 
-#: KDbConnection.cpp:1591
+#: KDbConnection.cpp:1595
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Could not rename table \"%1\" using the same name."
 msgstr ""
 
-#: KDbConnection.cpp:1602
+#: KDbConnection.cpp:1606
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Could not rename table \"%1\" to \"%2\". Table \"%3\" already exists."
 msgstr ""
 
-#: KDbConnection.cpp:1712
+#: KDbConnection.cpp:1716
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Query \"%1\" does not exist."
 msgstr ""
 
-#: KDbConnection.cpp:1790
+#: KDbConnection.cpp:1794
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Transactions are not supported for \"%1\" driver."
 msgstr ""
 
-#: KDbConnection.cpp:1795
+#: KDbConnection.cpp:1799
 msgctxt "KDbConnection|"
 msgid "Begin transaction failed."
 msgstr ""
 
-#: KDbConnection.cpp:1812
+#: KDbConnection.cpp:1816
 msgctxt "KDbConnection|"
 msgid "Transaction already started."
 msgstr ""
 
-#: KDbConnection.cpp:1852 KDbConnection.cpp:1887
+#: KDbConnection.cpp:1856 KDbConnection.cpp:1891
 msgctxt "KDbConnection|"
 msgid "Transaction not started."
 msgstr ""
 
-#: KDbConnection.cpp:1867
+#: KDbConnection.cpp:1871
 msgctxt "KDbConnection|"
 msgid "Error on commit transaction."
 msgstr ""
 
-#: KDbConnection.cpp:1902
+#: KDbConnection.cpp:1906
 msgctxt "KDbConnection|"
 msgid "Error on rollback transaction."
 msgstr ""
 
-#: KDbConnection.cpp:2053
+#: KDbConnection.cpp:2057
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Invalid object name \"%1\"."
 msgstr ""
 
-#: KDbConnection.cpp:2234
+#: KDbConnection.cpp:2238
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Column \"%1\" does not exist in the query."
 msgstr ""
 
-#: KDbConnection.cpp:2582 KDbConnection.cpp:2587 KDbConnection.cpp:2592
+#: KDbConnection.cpp:2586 KDbConnection.cpp:2591 KDbConnection.cpp:2596
 msgctxt "KDbConnection|Extended schema for a table: loading error"
 msgid "Error while loading extended table schema."
 msgstr ""
 
-#: KDbConnection.cpp:2591
+#: KDbConnection.cpp:2595
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Invalid XML data: %1"
 msgstr ""
 
-#: KDbConnection.cpp:2612
+#: KDbConnection.cpp:2616
 #, qt-format
 msgctxt "KDbConnection|"
 msgid ""
@@ -712,100 +721,100 @@ msgid ""
 "XML data: %4"
 msgstr ""
 
-#: KDbConnection.cpp:2755
+#: KDbConnection.cpp:2759
 msgctxt "KDbConnection|"
 msgid "Table has no fields defined."
 msgstr ""
 
-#: KDbConnection.cpp:2914
+#: KDbConnection.cpp:2918
 #, qt-format
 msgctxt "KDbConnection|"
 msgid ""
-"Could not find definition for query \"%1\". Removing this query is "
+"Could not find definition for query \"%1\". Deleting this query is "
 "recommended."
 msgstr ""
 
-#: KDbConnection.cpp:2924
+#: KDbConnection.cpp:2928
 #, qt-format
 msgctxt "KDbConnection|"
 msgid ""
 "<p>Could not load definition for query \"%1\". SQL statement for this query "
 "is invalid:<br><tt>%2</tt></p>\n"
-"<p>You can open this query in Text View and correct it.</p>"
+"<p>This query can be edited only in Text View.</p>"
 msgstr ""
 
-#: KDbConnection.cpp:3099
+#: KDbConnection.cpp:3103
 msgctxt "KDbConnection|"
 msgid "Could not update record because there is no master table defined."
 msgstr ""
 
-#: KDbConnection.cpp:3106
+#: KDbConnection.cpp:3110
 msgctxt "KDbConnection|"
 msgid ""
 "Could not update record because master table has no primary key defined."
 msgstr ""
 
-#: KDbConnection.cpp:3138
+#: KDbConnection.cpp:3142
 msgctxt "KDbConnection|"
 msgid ""
 "Could not update record because it does not contain entire primary key of "
 "master table."
 msgstr ""
 
-#: KDbConnection.cpp:3149 KDbConnection.cpp:3396
+#: KDbConnection.cpp:3153 KDbConnection.cpp:3400
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Primary key's field \"%1\" cannot be empty."
 msgstr ""
 
-#: KDbConnection.cpp:3177
+#: KDbConnection.cpp:3181
 msgctxt "KDbConnection|"
 msgid "Record updating on the server failed."
 msgstr ""
 
-#: KDbConnection.cpp:3199
+#: KDbConnection.cpp:3203
 msgctxt "KDbConnection|"
 msgid "Could not insert record because there is no master table specified."
 msgstr ""
 
-#: KDbConnection.cpp:3239
+#: KDbConnection.cpp:3243
 msgctxt "KDbConnection|"
 msgid ""
 "Could not insert record because master table has no primary key specified."
 msgstr ""
 
-#: KDbConnection.cpp:3248
+#: KDbConnection.cpp:3252
 msgctxt "KDbConnection|"
 msgid ""
 "Could not insert record because it does not contain entire master table's "
 "primary key."
 msgstr ""
 
-#: KDbConnection.cpp:3298
+#: KDbConnection.cpp:3302
 msgctxt "KDbConnection|"
 msgid "Record inserting on the server failed."
 msgstr ""
 
-#: KDbConnection.cpp:3360
+#: KDbConnection.cpp:3364
 msgctxt "KDbConnection|"
 msgid "Could not delete record because there is no master table specified."
 msgstr ""
 
-#: KDbConnection.cpp:3369
+#: KDbConnection.cpp:3373
 msgctxt "KDbConnection|"
 msgid ""
 "Could not delete record because there is no primary key for master table "
 "specified."
 msgstr ""
 
-#: KDbConnection.cpp:3386
+#: KDbConnection.cpp:3390
 msgctxt "KDbConnection|"
 msgid ""
 "Could not delete record because it does not contain entire master table's "
 "primary key."
 msgstr ""
 
-#: KDbConnection.cpp:3413 KDbConnection.cpp:3436
+#: KDbConnection.cpp:3417 KDbConnection.cpp:3440
 msgctxt "KDbConnection|"
 msgid "Record deletion on the server failed."
 msgstr ""
@@ -1035,10 +1044,11 @@ msgid "Could not read database properties."
 msgstr ""
 
 #: KDbQuerySchema_p.cpp:201
+#, qt-format
 msgctxt ""
-"KDbQuerySchema|short for 'expression' word, e.g. 'expr' (only latin letters, "
-"please, no '.')"
-msgid "expr"
+"KDbQuerySchema|short for 'expression' word, it will expand to 'expr1', "
+"'expr2', etc. Please use ONLY latin letters and DON'T use '.'"
+msgid "expr%1"
 msgstr ""
 
 #: KDbResult.cpp:50
@@ -1136,12 +1146,12 @@ msgstr ""
 
 #: parser/KDbParser_p.cpp:299
 msgctxt "KDbParser|"
-msgid "Could not add all-tables asterisk \"*\"."
+msgid "\"*\" could not be added."
 msgstr ""
 
 #: parser/KDbParser_p.cpp:306
 msgctxt "KDbParser|"
-msgid "Could not add one-table asterisk \"*\"."
+msgid "\"<table>.*\" could not added."
 msgstr ""
 
 #: parser/KDbParser_p.cpp:311
@@ -1158,48 +1168,47 @@ msgstr ""
 #: parser/KDbParser_p.cpp:403
 #, qt-format
 msgctxt "KDbParser|"
-msgid "Invalid alias definition for column \"%1\""
+msgid "Invalid alias definition for column \"%1\"."
 msgstr ""
 
 #: parser/KDbParser_p.cpp:422
 msgctxt "KDbParser|"
-msgid "More than one asterisk (*) is not allowed"
+msgid "More than one asterisk \"*\" is not allowed."
 msgstr ""
 
 #: parser/KDbParser_p.cpp:436
 #, qt-format
 msgctxt "KDbParser|"
-msgid "Invalid \"%1\" column definition"
+msgid "Invalid \"%1\" column definition."
 msgstr ""
 
 #: parser/KDbParser_p.cpp:488
 #, qt-format
 msgctxt "KDbParser|"
-msgid "Could not define sorting - no column at position %1"
+msgid "Could not define sorting. Column at position %1 does not exist."
 msgstr ""
 
-#: parser/KDbParser_p.cpp:495
+#: parser/KDbParser_p.cpp:496
 #, qt-format
 msgctxt "KDbParser|"
-msgid "Could not define sorting - column name or alias \"%1\" does not exist"
+msgid "Could not define sorting. Column name or alias \"%1\" does not exist."
 msgstr ""
 
 #: tools/KDbObjectNameValidator.cpp:44
 #, qt-format
 msgctxt "KDbDriver|"
 msgid ""
-"You cannot use name \"%1\" for your object. It is reserved for internal "
-"objects. Please choose another name."
+"Could not use reserved name \"%1\" for objects. Please choose another name."
 msgstr ""
 
 #: tools/KDbObjectNameValidator.cpp:49
 msgctxt "KDbDriver|"
-msgid "Names of internal database objects are starting with \"kexi__\"."
+msgid "Names of internal database objects start with \"kexi__\"."
 msgstr ""
 
 #: tools/KDbSimpleCommandLineApp.cpp:105
 #, qt-format
-msgctxt "SimpleCommandLineApp|"
+msgctxt "SimpleCommandLineApp|Enter password for <user>"
 msgid "Enter password for %1: "
 msgstr ""
 
@@ -1243,6 +1252,6 @@ msgstr ""
 #: views/KDbTableViewData.cpp:947
 msgctxt "KDbTableViewData|"
 msgid ""
-"You can correct data in this record or use \"Cancel record changes\" "
+"Please correct data in this record or use the \"Cancel record changes\" "
 "function."
 msgstr ""
