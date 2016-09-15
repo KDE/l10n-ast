@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-06 09:13+0000\n"
+"POT-Creation-Date: 2016-09-15 08:02+0000\n"
 "PO-Revision-Date: 2015-04-02 00:58+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -292,15 +292,44 @@ msgid ""
 "guibutton> button and selecting the <guimenuitem>Manage Bookmarks</"
 "guimenuitem>, <application>KeditBookmarks</application> will be displayed. "
 "This is where you can edit/remove and rearrange the bookmarks. "
-"<application>KeditBookmarks</application> (part of the kde-baseapps package) "
-"is a bookmark editor for &konqueror;, &krusader; and other applications, "
-"which use the <ulink url=\"http://grail.sourceforge.net/info/xbel.html"
-"\">XBEL standard</ulink> for the bookmark format. The bookmarks are stored "
-"in <filename> ~/.local/share/krusader/krbookmarks.xml</filename>."
+"<application>KeditBookmarks</application> is a bookmark editor for "
+"&konqueror;, &krusader; and other applications, which use the <ulink url="
+"\"http://grail.sourceforge.net/info/xbel.html\">XBEL standard</ulink> for "
+"the bookmark format. The bookmarks are stored in <filename> ~/.local/share/"
+"krusader/krbookmarks.xml</filename>."
 msgstr ""
 
 #. Tag: para
-#: bookmarks.docbook:227
+#: bookmarks.docbook:228
+#, no-c-format
+msgid ""
+"The default folder for the bookmarks file <filename>krusader/krbookmarks."
+"xml</filename> is <filename class=\"directory\">~/.local/share</filename>. "
+"You can determine the needed folder in your system using the "
+"<userinput>qtpaths --paths GenericDataLocation</userinput> command in "
+"terminal."
+msgstr ""
+
+#. Tag: para
+#: bookmarks.docbook:231
+#, no-c-format
+msgid ""
+"This local file exists only if you have edited &krusader; bookmarks. It will "
+"be created after the first run of <application>KeditBookmarks</application> "
+"from &krusader;."
+msgstr ""
+
+#. Tag: para
+#: bookmarks.docbook:234
+#, no-c-format
+msgid ""
+"The default system bookmarks are stored in the <filename>kfileplaces/"
+"bookmarks.xml</filename> file in the directory which can be determined using "
+"the <userinput>qtpaths --paths GenericDataLocation</userinput> command."
+msgstr ""
+
+#. Tag: para
+#: bookmarks.docbook:238
 #, no-c-format
 msgid ""
 "You can import bookmarks from <application>IE</application>, "
@@ -312,27 +341,27 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: bookmarks.docbook:237
+#: bookmarks.docbook:248
 #, no-c-format
 msgid ""
 "<title><application>KeditBookmarks</application> Bookmark Manager</title>"
 msgstr ""
 
 #. Tag: phrase
-#: bookmarks.docbook:243
+#: bookmarks.docbook:254
 #, no-c-format
 msgid ""
 "<phrase><application>KeditBookmarks</application> Bookmark Manager</phrase>"
 msgstr ""
 
 #. Tag: title
-#: bookmarks.docbook:250
+#: bookmarks.docbook:261
 #, no-c-format
 msgid "Bookmarks as action buttons on the Toolbar"
 msgstr ""
 
 #. Tag: para
-#: bookmarks.docbook:251
+#: bookmarks.docbook:262
 #, no-c-format
 msgid ""
 "Bookmarks can be placed as buttons on the <link linkend=\"mainwindow\">Main "
@@ -341,13 +370,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: bookmarks.docbook:257
+#: bookmarks.docbook:268
 #, no-c-format
 msgid "Create your <link linkend=\"bookman\">Bookmarks</link>."
 msgstr ""
 
 #. Tag: para
-#: bookmarks.docbook:260
+#: bookmarks.docbook:271
 #, no-c-format
 msgid ""
 "If you want, create keybindings for the bookmarks in the <link linkend="
@@ -357,7 +386,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: bookmarks.docbook:265
+#: bookmarks.docbook:276
 #, no-c-format
 msgid ""
 "Add your bookmarks as action buttons on the <link linkend=\"mainwindow"
