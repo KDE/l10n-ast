@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-15 07:36+0000\n"
+"POT-Creation-Date: 2016-09-16 11:19+0000\n"
 "PO-Revision-Date: 2016-09-06 15:06+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -76,7 +76,7 @@ msgstr "Jonathan Thomas"
 msgid "Available modes:\n"
 msgstr "Moos disponibles:\n"
 
-#: discover/qml/AddonsView.qml:24 discover/qml/ApplicationPage.qml:167
+#: discover/qml/AddonsView.qml:24 discover/qml/ApplicationPage.qml:165
 msgid "Addons"
 msgstr "Amiestos"
 
@@ -129,7 +129,7 @@ msgstr "Descripción"
 msgid "Homepage: "
 msgstr "Páxina d'aniciu:"
 
-#: discover/qml/ApplicationPage.qml:175
+#: discover/qml/ApplicationPage.qml:173
 #, fuzzy, kde-format
 #| msgid "More comments (%1)..."
 msgid "Show comments (%1)..."
@@ -145,7 +145,7 @@ msgstr "Páxina d'aniciu:"
 msgid "Most Popular"
 msgstr "Lo más sonao"
 
-#: discover/qml/CategoryBreadcrumbs.qml:33 discover/qml/PageHeader.qml:112
+#: discover/qml/CategoryBreadcrumbs.qml:33 discover/qml/PageHeader.qml:126
 #, fuzzy, kde-format
 msgid "Search: %1"
 msgstr "Guetar en '%1'"
@@ -206,11 +206,11 @@ msgstr "Valoración:"
 msgid "Configure Sources..."
 msgstr "Configurar fontes"
 
-#: discover/qml/DiscoverWindow.qml:133
+#: discover/qml/DiscoverWindow.qml:118
 msgid "Could not close the application, there are tasks that need to be done."
 msgstr "Nun pudo zarrase l'aplicación, hai xeres que necesiten facese."
 
-#: discover/qml/DiscoverWindow.qml:134
+#: discover/qml/DiscoverWindow.qml:119
 #, kde-format
 msgid "Unable to find resource: %1"
 msgstr ""
@@ -240,7 +240,7 @@ msgstr "Recursos pa «%1»"
 msgid "Extensions..."
 msgstr ""
 
-#: discover/qml/PageHeader.qml:111
+#: discover/qml/PageHeader.qml:125
 #, kde-format
 msgid "Search: %1 + %2"
 msgstr ""
@@ -338,81 +338,94 @@ msgstr ""
 msgid "Updates"
 msgstr "Anovar"
 
-#: discover/qml/UpdatesPage.qml:74
+#: discover/qml/UpdatesPage.qml:71
 msgid "updates selected"
 msgstr "anovamientos esbillaos"
 
-#: discover/qml/UpdatesPage.qml:83
+#: discover/qml/UpdatesPage.qml:80
 msgid "updates not selected"
 msgstr "anovamientos non esbillaos"
 
-#: discover/qml/UpdatesPage.qml:89
+#: discover/qml/UpdatesPage.qml:86
 #, fuzzy
 #| msgid "updates selected"
 msgid "Update Selected"
 msgstr "anovamientos esbillaos"
 
-#: discover/qml/UpdatesPage.qml:89
+#: discover/qml/UpdatesPage.qml:86
 #, fuzzy
 msgid "Update All"
 msgstr "Anovar too"
 
-#: discover/qml/UpdatesPage.qml:166
+#: discover/qml/UpdatesPage.qml:164
 #, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: discover/qml/UpdatesPage.qml:194
+#: discover/qml/UpdatesPage.qml:192
 msgid "Open"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:221
+#: discover/qml/UpdatesPage.qml:219
 msgctxt "@info"
 msgid "Loading..."
 msgstr "Cargando..."
 
-#: discover/qml/UpdatesPage.qml:225
+#: discover/qml/UpdatesPage.qml:223
 #, fuzzy
 #| msgid "Loading..."
 msgctxt "@info"
 msgid "Updating..."
 msgstr "Cargando..."
 
-#: discover/qml/UpdatesPage.qml:229
+#: discover/qml/UpdatesPage.qml:224
+#, fuzzy
+#| msgid "No Updates"
+msgctxt "@info"
+msgid "Fetching updates"
+msgstr "Ensin anovamientos"
+
+#: discover/qml/UpdatesPage.qml:228
 #, fuzzy
 #| msgid "Update"
 msgctxt "@info"
 msgid "Updates"
 msgstr "Anovar"
 
-#: discover/qml/UpdatesPage.qml:233 discover/qml/UpdatesPage.qml:238
+#: discover/qml/UpdatesPage.qml:232 discover/qml/UpdatesPage.qml:237
 #, fuzzy
 #| msgctxt "@info"
 #| msgid "The software on this computer is up to date."
 msgctxt "@info"
-msgid "The system is up to date."
+msgid "The system is up to date"
 msgstr "Ta anováu'l software nesti ordenador."
 
-#: discover/qml/UpdatesPage.qml:234
+#: discover/qml/UpdatesPage.qml:233
 #, fuzzy
 #| msgid "No Updates"
 msgctxt "@info"
 msgid "No updates"
 msgstr "Ensin anovamientos"
 
-#: discover/qml/UpdatesPage.qml:242
+#: discover/qml/UpdatesPage.qml:241
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "No updates are available."
 msgctxt "@info"
-msgid "No updates are available."
+msgid "No updates are available"
 msgstr "Nun tán disponibles anovamientos."
 
-#: discover/qml/UpdatesPage.qml:246
+#: discover/qml/UpdatesPage.qml:245
 msgctxt "@info"
-msgid "Should check for updates."
+msgid "Should check for updates"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:250
+#: discover/qml/UpdatesPage.qml:249
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "It is unknown when the last check for updates was."
 msgctxt "@info"
-msgid "It is unknown when the last check for updates was."
+msgid "It is unknown when the last check for updates was"
 msgstr "Desconozse cuando foi la cabera comprobación d'anovamientos."
 
 #~ msgid "Comments"
