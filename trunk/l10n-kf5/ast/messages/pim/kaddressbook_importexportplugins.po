@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-10 07:24+0000\n"
+"POT-Creation-Date: 2016-10-11 08:12+0000\n"
 "PO-Revision-Date: 2016-02-02 02:27+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -18,21 +18,382 @@ msgstr ""
 "X-Poedit-Language: asturian\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: csv/csvimportexportplugininterface.cpp:40
+#: csv/csvimportexportplugininterface.cpp:53
 msgid "Export CSV file..."
 msgstr ""
 
-#: csv/csvimportexportplugininterface.cpp:41
+#: csv/csvimportexportplugininterface.cpp:54
 msgid "Export contacts to a file in comma separated value format."
 msgstr ""
 
-#: csv/csvimportexportplugininterface.cpp:46
+#: csv/csvimportexportplugininterface.cpp:59
 msgid "Import CSV file..."
 msgstr ""
 
-#: csv/csvimportexportplugininterface.cpp:47
+#: csv/csvimportexportplugininterface.cpp:60
 msgid "Import contacts from a file in comma separated value format."
 msgstr ""
+
+#: csv/csvimportexportplugininterface.cpp:201
+#: ldif/ldifimportexportplugininterface.cpp:135
+#, fuzzy, kde-format
+msgid "<qt>Unable to open file <b>%1</b></qt>"
+msgstr "<qt>Nun puede abrise'l ficheru <b>%1</b></qt>"
+
+#: csv/csvimportexportplugininterface.cpp:215
+#: ldif/ldifimportexportplugininterface.cpp:167
+#, fuzzy, kde-format
+msgid "<qt>Unable to open file <b>%1</b>.</qt>"
+msgstr "<qt>Nun puede abrise'l ficheru <b>%1</b>.</qt>"
+
+#: csv/import/csvimportdialog.cpp:182
+#, fuzzy
+msgctxt "@title:window"
+msgid "CSV Import Dialog"
+msgstr "Diálogu d'importación CSV"
+
+#: csv/import/csvimportdialog.cpp:221
+#, fuzzy
+msgctxt "@label"
+msgid "Importing contacts"
+msgstr "Importando contautos"
+
+#: csv/import/csvimportdialog.cpp:293
+#, fuzzy
+msgctxt "@label"
+msgid "File to import:"
+msgstr "Ficheru a importar:"
+
+#: csv/import/csvimportdialog.cpp:302
+#, fuzzy
+#| msgid "Select vCard to Import"
+msgctxt "@info:tooltip"
+msgid "Select a csv file to import"
+msgstr "Esbillar vCard a importar"
+
+#: csv/import/csvimportdialog.cpp:305
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button to start a file chooser that will allow you to select a "
+"csv file to import."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:312
+#, fuzzy
+msgctxt "@title:group"
+msgid "Delimiter"
+msgstr "Dellimitador"
+
+#: csv/import/csvimportdialog.cpp:322
+#, fuzzy
+msgctxt "@option:radio Field separator"
+msgid "Comma"
+msgstr "Coma"
+
+#: csv/import/csvimportdialog.cpp:324
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a comma"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:327
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the comma as a field separator."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:332
+#, fuzzy
+msgctxt "@option:radio Field separator"
+msgid "Semicolon"
+msgstr "Puntu y coma"
+
+#: csv/import/csvimportdialog.cpp:334
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a semicolon"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:337
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the semicolon as a field separator."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:341
+#, fuzzy
+msgctxt "@option:radio Field separator"
+msgid "Tabulator"
+msgstr "Tabulador"
+
+#: csv/import/csvimportdialog.cpp:343
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a tab character"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:346
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the tab character as a field "
+"separator."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:350
+#, fuzzy
+msgctxt "@option:radio Field separator"
+msgid "Space"
+msgstr "Espaciu"
+
+#: csv/import/csvimportdialog.cpp:352
+#, fuzzy
+#| msgid "Selected contacts"
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a space character"
+msgstr "Contautos esbillaos"
+
+#: csv/import/csvimportdialog.cpp:355
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the space character as a field "
+"separator."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:359
+#, fuzzy
+msgctxt "@option:radio Custum field separator"
+msgid "Other"
+msgstr "Otru"
+
+#: csv/import/csvimportdialog.cpp:361
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a custom character"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:364
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if to use some other character as the field delimiter for "
+"the data in your csv file."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:372
+#, fuzzy
+#| msgid "Selected contacts"
+msgctxt "@info:tooltip"
+msgid "Set the custom delimiter character"
+msgstr "Contautos esbillaos"
+
+#: csv/import/csvimportdialog.cpp:375
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter a custom character to use as the delimiter character. If you enter "
+"more than 1 character, only the first will be used and the remaining "
+"characters will be ignored."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:381
+#, fuzzy
+msgctxt "@label:listbox"
+msgid "Text quote:"
+msgstr "Citáu de testu:"
+
+#: csv/import/csvimportdialog.cpp:388
+#, fuzzy
+#| msgid "Selected contacts"
+msgctxt "@info:tooltip"
+msgid "Select the quote character"
+msgstr "Contautos esbillaos"
+
+#: csv/import/csvimportdialog.cpp:391
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose the character that your csv data uses to \"quote\" the field "
+"delimiter if that character happens to occur within the data.  For example, "
+"if the comma is the field delimiter, then any comma occurring with the data "
+"will be \"quoted\" by the character specified here."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:396
+#, fuzzy
+msgctxt "@item:inlistbox Qoute character option"
+msgid "\""
+msgstr "\""
+
+#: csv/import/csvimportdialog.cpp:397
+#, fuzzy
+msgctxt "@item:inlistbox Quote character option"
+msgid "'"
+msgstr "'"
+
+#: csv/import/csvimportdialog.cpp:398
+#, fuzzy
+msgctxt "@item:inlistbox Quote character option"
+msgid "None"
+msgstr "Dengún"
+
+#: csv/import/csvimportdialog.cpp:402
+#, fuzzy
+msgctxt "@label:listbox"
+msgid "Date format:"
+msgstr "Formatu de feches:"
+
+#: csv/import/csvimportdialog.cpp:411
+msgctxt "@info:tooltip"
+msgid ""
+"<para><list><item>y: year with 2 digits</item><item>Y: year with 4 digits</"
+"item><item>m: month with 1 or 2 digits</item><item>M: month with 2 digits</"
+"item><item>d: day with 1 or 2 digits</item><item>D: day with 2 digits</"
+"item><item>H: hours with 2 digits</item><item>I: minutes with 2 digits</"
+"item><item>S: seconds with 2 digits</item></list></para>"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:423
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Specify a format to use for dates included in your csv data. Use the "
+"following sequences to help you define the format:</"
+"para><para><list><item>y: year with 2 digits</item><item>Y: year with 4 "
+"digits</item><item>m: month with 1 or 2 digits</item><item>M: month with 2 "
+"digits</item><item>d: day with 1 or 2 digits</item><item>D: day with 2 "
+"digits</item><item>H: hours with 2 digits</item><item>I: minutes with 2 "
+"digits</item><item>S: seconds with 2 digits</item></list></"
+"para><para>Example: \"Y-M-D\" corresponds to a date like \"2012-01-04\"</"
+"para>"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:439
+#, fuzzy
+msgctxt "@label:listbox"
+msgid "Text codec:"
+msgstr "Codec de testu"
+
+#: csv/import/csvimportdialog.cpp:446
+#, fuzzy
+#| msgid "Headline text color:"
+msgctxt "@info:tooltip"
+msgid "Select the text codec"
+msgstr "Color de testu de títulos:"
+
+#: csv/import/csvimportdialog.cpp:449
+msgctxt "@info:whatsthis"
+msgid "Choose the character encoding of the data in your csv file."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:453
+#, fuzzy
+msgctxt "@option:check"
+msgid "Skip first row of file"
+msgstr "Omitir la primer llinia del ficheru"
+
+#: csv/import/csvimportdialog.cpp:456
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Skip first row of file"
+msgctxt "@info:tooltip"
+msgid "Skip first row of csv file when importing"
+msgstr "Omitir la primer llinia del ficheru"
+
+#: csv/import/csvimportdialog.cpp:459
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want the import to skip over the first row of the csv "
+"data. In many cases, the first line of a csv file will be a comment line "
+"describing the order of the data fields included in the file."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:475
+#, fuzzy
+msgctxt "@action:button"
+msgid "Apply Template..."
+msgstr "Aplicar plantía..."
+
+#: csv/import/csvimportdialog.cpp:476
+#, fuzzy
+msgctxt "@action:button"
+msgid "Save Template..."
+msgstr "Guardar plantía..."
+
+#: csv/import/csvimportdialog.cpp:496
+#, fuzzy, kde-format
+msgctxt "@item:inlistbox Codec setting"
+msgid "Local (%1)"
+msgstr "Llocal (%1)"
+
+#: csv/import/csvimportdialog.cpp:498
+#, fuzzy
+msgctxt "@item:inlistbox Codec setting"
+msgid "Latin1"
+msgstr "Latin1"
+
+#: csv/import/csvimportdialog.cpp:499
+#, fuzzy
+msgctxt "@item:inlistbox Codec setting"
+msgid "Unicode"
+msgstr "Unicode"
+
+#: csv/import/csvimportdialog.cpp:500
+#, fuzzy
+msgctxt "@item:inlistbox Codec setting"
+msgid "Microsoft Unicode"
+msgstr "Unicode de Microsoft"
+
+#: csv/import/csvimportdialog.cpp:605
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "You have to assign at least one column."
+msgctxt "@info:status"
+msgid "You must assign at least one column."
+msgstr "Tienes d'asignar al menos una columna."
+
+#: csv/import/csvimportdialog.cpp:617
+#, fuzzy
+msgctxt "@label"
+msgid "There are no templates available yet."
+msgstr "Entá nun hai plantíes disponibles."
+
+#: csv/import/csvimportdialog.cpp:618
+#, fuzzy
+msgctxt "@title:window"
+msgid "No templates available"
+msgstr "Nun hai plantíes disponibles."
+
+#: csv/import/csvimportdialog.cpp:684
+#, fuzzy
+msgctxt "@title:window"
+msgid "Template Name"
+msgstr "Nome de la plantía"
+
+#: csv/import/csvimportdialog.cpp:685
+#, fuzzy
+msgctxt "@info"
+msgid "Please enter a name for the template:"
+msgstr "Introduz un nome pa la plantía:"
+
+#: csv/import/csvimportdialog.cpp:739
+#, fuzzy
+msgctxt "@info:status"
+msgid "Cannot open input file."
+msgstr "Nun puede abrise'l ficheru d'entrada."
+
+#: csv/import/qcsvreader.cpp:111
+msgid "Device is not open"
+msgstr ""
+
+#: csv/import/templateselectiondialog.cpp:194
+#, fuzzy, kde-format
+msgctxt "@label"
+msgid "Do you really want to delete template '%1'?"
+msgstr "¿Daveres quies desaniciar la plantía «%1»?"
+
+#: csv/import/templateselectiondialog.cpp:212
+#, fuzzy
+msgctxt "@title:window"
+msgid "Template Selection"
+msgstr "Escoyeta de plantía"
+
+#: csv/import/templateselectiondialog.cpp:215
+#, fuzzy
+msgctxt "@info"
+msgid "Please select a template, that matches the CSV file:"
+msgstr "Por favor, escueyi una plantía que faiga xuegu col ficheru CVS:"
 
 #: gmx/gmximportexportplugininterface.cpp:40
 #, fuzzy
@@ -52,31 +413,62 @@ msgstr "Esportar a ficheru GMX..."
 msgid "Export contacts to a GMX address book file."
 msgstr ""
 
-#: ldap/ldapimportexportplugininterface.cpp:40
+#: ldap/ldapimportexportplugininterface.cpp:45
 #, fuzzy
 #| msgid "Import from LDAP server..."
 msgid "Import From LDAP server..."
 msgstr "Importar de sirvidor LDAP..."
 
-#: ldap/ldapimportexportplugininterface.cpp:41
+#: ldap/ldapimportexportplugininterface.cpp:46
 msgid "Import contacts from an LDAP server."
 msgstr ""
 
-#: ldif/ldifimportexportplugininterface.cpp:40
+#: ldif/ldifimportexportplugininterface.cpp:50
 msgid "Import LDIF file..."
 msgstr ""
 
-#: ldif/ldifimportexportplugininterface.cpp:41
+#: ldif/ldifimportexportplugininterface.cpp:51
 msgid "Import contacts from an LDIF file."
 msgstr ""
 
-#: ldif/ldifimportexportplugininterface.cpp:46
+#: ldif/ldifimportexportplugininterface.cpp:56
 msgid "Export LDIF file..."
 msgstr ""
 
-#: ldif/ldifimportexportplugininterface.cpp:47
+#: ldif/ldifimportexportplugininterface.cpp:57
 msgid "Export contacts to an LDIF file."
 msgstr ""
+
+#: ldif/ldifimportexportplugininterface.cpp:90
+#: ldif/ldifimportexportplugininterface.cpp:127
+msgid "LDif Files (*.ldif)"
+msgstr ""
+
+#: ldif/ldifimportexportplugininterface.cpp:97
+#, fuzzy, kde-format
+msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
+msgstr "<qt>Nun puede abrise <b>%1</b> pa llectura.</qt>"
+
+#: shared/importexportengine.cpp:81
+#, fuzzy
+msgid "Select Address Book"
+msgstr "Esbillar llibreta de direiciones"
+
+#: shared/importexportengine.cpp:83
+msgid "Select the address book the imported contact(s) shall be saved in:"
+msgstr ""
+
+#: shared/importexportengine.cpp:96
+#, fuzzy
+msgid "Import Contacts"
+msgstr "Importar contautos"
+
+#: shared/importexportengine.cpp:98
+#, fuzzy, kde-format
+msgid "Importing one contact to %2"
+msgid_plural "Importing %1 contacts to %2"
+msgstr[0] "Importando 1 contautu a %2"
+msgstr[1] "Importando %1 contautos a %2"
 
 #: vcards/engine/vcard_xxport.cpp:94
 #, fuzzy
@@ -685,11 +1077,6 @@ msgstr ""
 #~ msgstr "Color de testu de títulos:"
 
 #, fuzzy
-#~| msgid "Headline text color:"
-#~ msgid "Select the headline text color"
-#~ msgstr "Color de testu de títulos:"
-
-#, fuzzy
 #~ msgid "Mike's Printing Style"
 #~ msgstr "Estilu d'imprentación de Mike"
 
@@ -864,214 +1251,12 @@ msgstr ""
 #~ msgstr "Contautos esbillaos"
 
 #, fuzzy
-#~ msgid "<qt>Unable to open file <b>%1</b></qt>"
-#~ msgstr "<qt>Nun puede abrise'l ficheru <b>%1</b></qt>"
-
-#, fuzzy
-#~ msgid "<qt>Unable to open file <b>%1</b>.</qt>"
-#~ msgstr "<qt>Nun puede abrise'l ficheru <b>%1</b>.</qt>"
-
-#, fuzzy
-#~ msgctxt "@title:window"
-#~ msgid "CSV Import Dialog"
-#~ msgstr "Diálogu d'importación CSV"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "Importing contacts"
-#~ msgstr "Importando contautos"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "File to import:"
-#~ msgstr "Ficheru a importar:"
-
-#, fuzzy
-#~| msgid "Select vCard to Import"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Select a csv file to import"
-#~ msgstr "Esbillar vCard a importar"
-
-#, fuzzy
-#~ msgctxt "@title:group"
-#~ msgid "Delimiter"
-#~ msgstr "Dellimitador"
-
-#, fuzzy
-#~ msgctxt "@option:radio Field separator"
-#~ msgid "Comma"
-#~ msgstr "Coma"
-
-#, fuzzy
-#~ msgctxt "@option:radio Field separator"
-#~ msgid "Semicolon"
-#~ msgstr "Puntu y coma"
-
-#, fuzzy
-#~ msgctxt "@option:radio Field separator"
-#~ msgid "Tabulator"
-#~ msgstr "Tabulador"
-
-#, fuzzy
-#~ msgctxt "@option:radio Field separator"
-#~ msgid "Space"
-#~ msgstr "Espaciu"
-
-#, fuzzy
-#~ msgctxt "@option:radio Custum field separator"
-#~ msgid "Other"
-#~ msgstr "Otru"
-
-#, fuzzy
-#~ msgctxt "@label:listbox"
-#~ msgid "Text quote:"
-#~ msgstr "Citáu de testu:"
-
-#, fuzzy
-#~| msgid "Selected contacts"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Select the quote character"
-#~ msgstr "Contautos esbillaos"
-
-#, fuzzy
-#~ msgctxt "@item:inlistbox Qoute character option"
-#~ msgid "\""
-#~ msgstr "\""
-
-#, fuzzy
-#~ msgctxt "@item:inlistbox Quote character option"
-#~ msgid "'"
-#~ msgstr "'"
-
-#, fuzzy
-#~ msgctxt "@item:inlistbox Quote character option"
-#~ msgid "None"
-#~ msgstr "Dengún"
-
-#, fuzzy
-#~ msgctxt "@label:listbox"
-#~ msgid "Date format:"
-#~ msgstr "Formatu de feches:"
-
-#, fuzzy
-#~ msgctxt "@label:listbox"
-#~ msgid "Text codec:"
-#~ msgstr "Codec de testu"
-
-#, fuzzy
-#~ msgctxt "@option:check"
-#~ msgid "Skip first row of file"
-#~ msgstr "Omitir la primer llinia del ficheru"
-
-#, fuzzy
-#~| msgctxt "@option:check"
-#~| msgid "Skip first row of file"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Skip first row of csv file when importing"
-#~ msgstr "Omitir la primer llinia del ficheru"
-
-#, fuzzy
-#~ msgctxt "@action:button"
-#~ msgid "Apply Template..."
-#~ msgstr "Aplicar plantía..."
-
-#, fuzzy
-#~ msgctxt "@action:button"
-#~ msgid "Save Template..."
-#~ msgstr "Guardar plantía..."
-
-#, fuzzy
-#~ msgctxt "@item:inlistbox Codec setting"
-#~ msgid "Local (%1)"
-#~ msgstr "Llocal (%1)"
-
-#, fuzzy
-#~ msgctxt "@item:inlistbox Codec setting"
-#~ msgid "Latin1"
-#~ msgstr "Latin1"
-
-#, fuzzy
-#~ msgctxt "@item:inlistbox Codec setting"
-#~ msgid "Unicode"
-#~ msgstr "Unicode"
-
-#, fuzzy
-#~ msgctxt "@item:inlistbox Codec setting"
-#~ msgid "Microsoft Unicode"
-#~ msgstr "Unicode de Microsoft"
-
-#, fuzzy
-#~| msgctxt "@info:status"
-#~| msgid "You have to assign at least one column."
-#~ msgctxt "@info:status"
-#~ msgid "You must assign at least one column."
-#~ msgstr "Tienes d'asignar al menos una columna."
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "There are no templates available yet."
-#~ msgstr "Entá nun hai plantíes disponibles."
-
-#, fuzzy
-#~ msgctxt "@title:window"
-#~ msgid "No templates available"
-#~ msgstr "Nun hai plantíes disponibles."
-
-#, fuzzy
-#~ msgctxt "@title:window"
-#~ msgid "Template Name"
-#~ msgstr "Nome de la plantía"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid "Please enter a name for the template:"
-#~ msgstr "Introduz un nome pa la plantía:"
-
-#, fuzzy
-#~ msgctxt "@info:status"
-#~ msgid "Cannot open input file."
-#~ msgstr "Nun puede abrise'l ficheru d'entrada."
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "Do you really want to delete template '%1'?"
-#~ msgstr "¿Daveres quies desaniciar la plantía «%1»?"
-
-#, fuzzy
-#~ msgctxt "@title:window"
-#~ msgid "Template Selection"
-#~ msgstr "Escoyeta de plantía"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid "Please select a template, that matches the CSV file:"
-#~ msgstr "Por favor, escueyi una plantía que faiga xuegu col ficheru CVS:"
-
-#, fuzzy
 #~ msgid "GMX address book file (*.gmxa)"
 #~ msgstr "Ficheru de llibreta de direiciones GMX (*.gmxa)"
 
 #, fuzzy
-#~ msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
-#~ msgstr "<qt>Nun puede abrise <b>%1</b> pa llectura.</qt>"
-
-#, fuzzy
 #~ msgid "%1 is not a GMX address book file."
 #~ msgstr "%1 nun ye un ficheru de llibreta de direiciones GMX."
-
-#, fuzzy
-#~ msgid "Select Address Book"
-#~ msgstr "Esbillar llibreta de direiciones"
-
-#, fuzzy
-#~ msgid "Import Contacts"
-#~ msgstr "Importar contautos"
-
-#, fuzzy
-#~ msgid "Importing one contact to %2"
-#~ msgid_plural "Importing %1 contacts to %2"
-#~ msgstr[0] "Importando 1 contautu a %2"
-#~ msgstr[1] "Importando %1 contautos a %2"
 
 #, fuzzy
 #~| msgid "Cut Contact"
