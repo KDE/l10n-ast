@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-22 07:40+0000\n"
+"POT-Creation-Date: 2016-10-12 07:18+0000\n"
 "PO-Revision-Date: 2016-09-06 20:35+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -17,29 +17,43 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: config/cppcheckpreferences.cpp:48 config/genericconfigpage.cpp:51
-#: plugin.cpp:86
+#: config/genericconfigpage.cpp:51 config/globalconfigpage.cpp:47
 msgid "Cppcheck"
 msgstr "Cppcheck"
 
-#: config/cppcheckpreferences.cpp:53
+#: config/globalconfigpage.cpp:52
 msgid "Configure Cppcheck settings"
 msgstr "Configurar axustes de CppCheck"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, CppCheckSettings)
-#: config/ui/cppchecksettings.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, cppcheck::GlobalConfigPage)
+#: config/globalconfigpage.ui:14
 msgid "Cppcheck Settings"
 msgstr "Axustes Cppcheck"
 
 #. i18n: ectx: property (title), widget (QGroupBox, pathsGroupBox)
-#: config/ui/cppchecksettings.ui:20
+#: config/globalconfigpage.ui:20
 msgid "Paths"
 msgstr "Caminos"
 
 #. i18n: ectx: property (text), widget (QLabel, cppcheckLabel)
-#: config/ui/cppchecksettings.ui:28
+#: config/globalconfigpage.ui:26
 msgid "Cppchec&k executable"
 msgstr "Executable Cppchec&k"
+
+#. i18n: ectx: property (title), widget (QGroupBox, outputGroupBox)
+#: config/globalconfigpage.ui:45
+msgid "Output"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideOutputView)
+#: config/globalconfigpage.ui:51
+msgid "Hide output view during check"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showXmlOutput)
+#: config/globalconfigpage.ui:58
+msgid "Show cppcheck XML output in the output view"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: config/ui/genericconfig.ui:20
@@ -116,32 +130,32 @@ msgstr "Avisar si hai \"includes\" que falten"
 msgid "missingInclude"
 msgstr "missingInclude"
 
-#: job.cpp:44
+#: job.cpp:49
 msgid "Cppcheck output"
 msgstr "Salida Cppcheck"
 
-#: job.cpp:149
+#: job.cpp:181
 #, kde-format
 msgid "Failed to start Cppcheck from \"%1\"."
 msgstr "Fallu al aniciar cppcheck dende «%1»."
 
-#: job.cpp:153
+#: job.cpp:186
 msgid "Cppcheck crashed."
 msgstr "Cppcheck cayó."
 
-#: job.cpp:157
+#: job.cpp:190
 msgid "Cppcheck process timed out."
 msgstr "Tiempu escosao pal procesu Cppcheck."
 
-#: job.cpp:161
+#: job.cpp:194
 msgid "Write to Cppcheck process failed."
 msgstr "Falló la escritura al procesu Cppcheck."
 
-#: job.cpp:165
+#: job.cpp:198
 msgid "Read from Cppcheck process failed."
 msgstr "Falló la llesctura dende'l procesu Cppcheck."
 
-#: job.cpp:175 parsers/cppcheckparser.cpp:212
+#: job.cpp:208 parser.cpp:216
 msgid "Cppcheck Error"
 msgstr "Fallu Cppcheck"
 
@@ -151,47 +165,53 @@ msgctxt "@title:menu"
 msgid "Run"
 msgstr "Executar"
 
-#: parsers/cppcheckparser.cpp:211
+#: parser.cpp:215
 #, kde-format
 msgid "Cppcheck XML Parsing: error at line %1, column %2: %3"
 msgstr "Analís XML Cppcheck: fallu na llinia %1, columna %2: %3"
 
-#: plugin.cpp:85
-msgid "Launches Cppcheck for current file"
-msgstr "Llanza Cppcheck pal ficheru actual"
+#: plugin.cpp:70
+#, fuzzy
+#| msgid "Cppcheck for current file"
+msgid "Cppcheck (Current File)"
+msgstr "Cppcheck pal ficheru actual"
 
-#: plugin.cpp:90
-msgid "Launches Cppcheck for all files"
-msgstr "Llanza Cppcheck pa tolos ficheros"
+#: plugin.cpp:76
+#, fuzzy
+#| msgid "Cppcheck for current file"
+msgid "Cppcheck (Current Project)"
+msgstr "Cppcheck pal ficheru actual"
 
-#: plugin.cpp:91
-msgid "Cppcheck (all Files)"
-msgstr "Cppcheck (tolos ficheros)"
+#: plugin.cpp:106
+msgctxt "@title:window"
+msgid "Test"
+msgstr ""
 
-#: plugin.cpp:115 plugin.cpp:123 plugin.cpp:132
+#: plugin.cpp:116 plugin.cpp:124 plugin.cpp:141
 msgid "Error starting Cppcheck"
 msgstr "Fallu al aniciar Cppcheck"
 
-#: plugin.cpp:116
+#: plugin.cpp:117
 msgid "No active file, unable to deduce project."
 msgstr "Nun hai ficheros activos, nun pue deducise'l proyeutu."
 
-#: plugin.cpp:124
+#: plugin.cpp:125
 msgid "Active file isn't in a project"
 msgstr "Nun ye un proyeutu'l ficheru activu"
 
-#: plugin.cpp:133
+#: plugin.cpp:142
 msgid "Can't load parameters. They must be set in the project settings."
 msgstr ""
 "Nun puen cargase los parámetros. Tienen d'afitase nos axustes del proyeutu."
 
-#: plugin.cpp:192
-msgid "Problems"
-msgstr ""
+#~ msgid "Launches Cppcheck for current file"
+#~ msgstr "Llanza Cppcheck pal ficheru actual"
 
-#: plugin.cpp:203
-msgid "Cppcheck for current file"
-msgstr "Cppcheck pal ficheru actual"
+#~ msgid "Launches Cppcheck for all files"
+#~ msgstr "Llanza Cppcheck pa tolos ficheros"
+
+#~ msgid "Cppcheck (all Files)"
+#~ msgstr "Cppcheck (tolos ficheros)"
 
 #~ msgid "Failed to start Cppcheck"
 #~ msgstr "Fallu al aniciar Cppcheck"
