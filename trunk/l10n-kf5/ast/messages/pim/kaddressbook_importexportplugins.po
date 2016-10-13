@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-12 07:15+0000\n"
+"POT-Creation-Date: 2016-10-13 07:34+0000\n"
 "PO-Revision-Date: 2016-02-02 02:27+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -18,45 +18,49 @@ msgstr ""
 "X-Poedit-Language: asturian\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: csv/csvimportexportplugininterface.cpp:53
+#: csv/csvimportexportplugininterface.cpp:52
 msgid "Export CSV file..."
 msgstr ""
 
-#: csv/csvimportexportplugininterface.cpp:54
+#: csv/csvimportexportplugininterface.cpp:53
 msgid "Export contacts to a file in comma separated value format."
 msgstr ""
 
-#: csv/csvimportexportplugininterface.cpp:59
+#: csv/csvimportexportplugininterface.cpp:58
 msgid "Import CSV file..."
 msgstr ""
 
-#: csv/csvimportexportplugininterface.cpp:60
+#: csv/csvimportexportplugininterface.cpp:59
 msgid "Import contacts from a file in comma separated value format."
 msgstr ""
 
-#: csv/csvimportexportplugininterface.cpp:168
-#: ldif/ldifimportexportplugininterface.cpp:137
-#: vcards/vcardimportexportplugininterface.cpp:416
+#: csv/csvimportexportplugininterface.cpp:166
+#: gmx/gmximportexportplugininterface.cpp:96
+#: ldif/ldifimportexportplugininterface.cpp:140
+#: vcards/vcardimportexportplugininterface.cpp:459
 #, fuzzy
 msgid "Which contact do you want to export?"
 msgstr "¿Qué contautos quies imprentar?"
 
-#: csv/csvimportexportplugininterface.cpp:178
-#: ldif/ldifimportexportplugininterface.cpp:147
-#: vcards/vcardimportexportplugininterface.cpp:428
+#: csv/csvimportexportplugininterface.cpp:176
+#: gmx/gmximportexportplugininterface.cpp:106
+#: ldif/ldifimportexportplugininterface.cpp:150
+#: vcards/vcardimportexportplugininterface.cpp:471
 #, fuzzy
 #| msgid "The vCard does not contain any contacts."
 msgid "You have not selected any contacts to export."
 msgstr "La vCard nun contién contautos."
 
-#: csv/csvimportexportplugininterface.cpp:207 gmx/engine/gmx_xxport.cpp:375
-#: ldif/ldifimportexportplugininterface.cpp:163
+#: csv/csvimportexportplugininterface.cpp:205
+#: gmx/gmximportexportplugininterface.cpp:137
+#: ldif/ldifimportexportplugininterface.cpp:166
 #, fuzzy, kde-format
 msgid "<qt>Unable to open file <b>%1</b></qt>"
 msgstr "<qt>Nun puede abrise'l ficheru <b>%1</b></qt>"
 
-#: csv/csvimportexportplugininterface.cpp:219 gmx/engine/gmx_xxport.cpp:390
-#: ldif/ldifimportexportplugininterface.cpp:195
+#: csv/csvimportexportplugininterface.cpp:217
+#: gmx/gmximportexportplugininterface.cpp:152
+#: ldif/ldifimportexportplugininterface.cpp:198
 #, fuzzy, kde-format
 msgid "<qt>Unable to open file <b>%1</b>.</qt>"
 msgstr "<qt>Nun puede abrise'l ficheru <b>%1</b>.</qt>"
@@ -410,165 +414,91 @@ msgctxt "@info"
 msgid "Please select a template, that matches the CSV file:"
 msgstr "Por favor, escueyi una plantía que faiga xuegu col ficheru CVS:"
 
-#: gmx/engine/gmx_xxport.cpp:98
+#: gmx/gmximportexportplugininterface.cpp:37
 #, fuzzy
 msgid "GMX address book file (*.gmxa)"
 msgstr "Ficheru de llibreta de direiciones GMX (*.gmxa)"
 
-#: gmx/engine/gmx_xxport.cpp:138 ldif/ldifimportexportplugininterface.cpp:100
-#, fuzzy, kde-format
-msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
-msgstr "<qt>Nun puede abrise <b>%1</b> pa llectura.</qt>"
-
-#: gmx/engine/gmx_xxport.cpp:153
-#, fuzzy, kde-format
-msgid "%1 is not a GMX address book file."
-msgstr "%1 nun ye un ficheru de llibreta de direiciones GMX."
-
-#: gmx/gmximportexportplugininterface.cpp:41
+#: gmx/gmximportexportplugininterface.cpp:56
 #, fuzzy
 msgid "Import GMX file..."
 msgstr "Importar ficheru GMX..."
 
-#: gmx/gmximportexportplugininterface.cpp:42
+#: gmx/gmximportexportplugininterface.cpp:57
 msgid "Import contacts from a GMX address book file."
 msgstr ""
 
-#: gmx/gmximportexportplugininterface.cpp:47
+#: gmx/gmximportexportplugininterface.cpp:62
 #, fuzzy
 msgid "Export GMX file..."
 msgstr "Esportar a ficheru GMX..."
 
-#: gmx/gmximportexportplugininterface.cpp:48
+#: gmx/gmximportexportplugininterface.cpp:63
 msgid "Export contacts to a GMX address book file."
 msgstr ""
 
-#: ldap/ldapimportexportplugininterface.cpp:44
+#: gmx/gmximportexportplugininterface.cpp:461
+#: ldif/ldifimportexportplugininterface.cpp:96
+#, fuzzy, kde-format
+msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
+msgstr "<qt>Nun puede abrise <b>%1</b> pa llectura.</qt>"
+
+#: gmx/gmximportexportplugininterface.cpp:476
+#, fuzzy, kde-format
+msgid "%1 is not a GMX address book file."
+msgstr "%1 nun ye un ficheru de llibreta de direiciones GMX."
+
+#: ldap/ldapimportexportplugininterface.cpp:43
 #, fuzzy
 #| msgid "Import from LDAP server..."
 msgid "Import From LDAP server..."
 msgstr "Importar de sirvidor LDAP..."
 
-#: ldap/ldapimportexportplugininterface.cpp:45
+#: ldap/ldapimportexportplugininterface.cpp:44
 msgid "Import contacts from an LDAP server."
 msgstr ""
 
-#: ldif/ldifimportexportplugininterface.cpp:53
+#: ldif/ldifimportexportplugininterface.cpp:52
 msgid "Import LDIF file..."
 msgstr ""
 
-#: ldif/ldifimportexportplugininterface.cpp:54
+#: ldif/ldifimportexportplugininterface.cpp:53
 msgid "Import contacts from an LDIF file."
 msgstr ""
 
-#: ldif/ldifimportexportplugininterface.cpp:59
+#: ldif/ldifimportexportplugininterface.cpp:58
 msgid "Export LDIF file..."
 msgstr ""
 
-#: ldif/ldifimportexportplugininterface.cpp:60
+#: ldif/ldifimportexportplugininterface.cpp:59
 msgid "Export contacts to an LDIF file."
 msgstr ""
 
-#: ldif/ldifimportexportplugininterface.cpp:93
-#: ldif/ldifimportexportplugininterface.cpp:155
+#: ldif/ldifimportexportplugininterface.cpp:122
+#: ldif/ldifimportexportplugininterface.cpp:158
 msgid "LDif Files (*.ldif)"
 msgstr ""
 
-#: shared/importexportengine.cpp:77
+#: shared/importexportengine.cpp:79
 #, fuzzy
 msgid "Select Address Book"
 msgstr "Esbillar llibreta de direiciones"
 
-#: shared/importexportengine.cpp:79
+#: shared/importexportengine.cpp:81
 msgid "Select the address book the imported contact(s) shall be saved in:"
 msgstr ""
 
-#: shared/importexportengine.cpp:93
+#: shared/importexportengine.cpp:95
 #, fuzzy
 msgid "Import Contacts"
 msgstr "Importar contautos"
 
-#: shared/importexportengine.cpp:95
+#: shared/importexportengine.cpp:97
 #, fuzzy, kde-format
 msgid "Importing one contact to %2"
 msgid_plural "Importing %1 contacts to %2"
 msgstr[0] "Importando 1 contautu a %2"
 msgstr[1] "Importando %1 contautos a %2"
-
-#: vcards/engine/vcard_xxport.cpp:94
-#: vcards/vcardimportexportplugininterface.cpp:469
-#, fuzzy
-#| msgid ""
-#| "You have selected a list of contacts, shall they be exported to several "
-#| "files?"
-msgctxt "@info"
-msgid ""
-"You have selected a list of contacts, shall they be exported to several "
-"files?"
-msgstr ""
-"Escoyisti una llista de contautos, ¿tendría d'esportase a dellos ficheros?"
-
-#: vcards/engine/vcard_xxport.cpp:97
-#: vcards/vcardimportexportplugininterface.cpp:472
-#, fuzzy
-#| msgid "Export to One File"
-msgctxt "@action:button"
-msgid "Export to One File"
-msgstr "Esportar a un ficheru"
-
-#: vcards/engine/vcard_xxport.cpp:98
-#: vcards/vcardimportexportplugininterface.cpp:473
-#, fuzzy
-#| msgid "Export to Several Files"
-msgctxt "@action:button"
-msgid "Export to Several Files"
-msgstr "Esportar a dellos ficheros"
-
-#: vcards/engine/vcard_xxport.cpp:162
-#: vcards/vcardimportexportplugininterface.cpp:137
-msgid ""
-"*.vcf|vCard (*.vcf)\n"
-"*|all files (*)"
-msgstr ""
-
-#: vcards/engine/vcard_xxport.cpp:164
-#: vcards/vcardimportexportplugininterface.cpp:139
-#, fuzzy
-#| msgid "Select vCard to Import"
-msgctxt "@title:window"
-msgid "Select vCard to Import"
-msgstr "Esbillar vCard a importar"
-
-#: vcards/engine/vcard_xxport.cpp:173
-#: vcards/vcardimportexportplugininterface.cpp:148
-#, fuzzy
-#| msgid "vCard Import Failed"
-msgctxt "@title:window"
-msgid "vCard Import Failed"
-msgstr "Falló la importación de vCard"
-
-#: vcards/engine/vcard_xxport.cpp:191
-#: vcards/vcardimportexportplugininterface.cpp:166
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid "<para>Unable to access vCard:</para><para>%1</para>"
-msgstr "<para>Imposible acceder a vCard:</para><para>%1</para>"
-
-#: vcards/engine/vcard_xxport.cpp:203
-#: vcards/vcardimportexportplugininterface.cpp:178
-#, fuzzy
-#| msgid "No contacts were imported, due to errors with the vCards."
-msgctxt "@info"
-msgid "No contacts were imported, due to errors with the vCards."
-msgstr "Nun s'importaron contautos darréu de fallos na vCard."
-
-#: vcards/engine/vcard_xxport.cpp:207
-#: vcards/vcardimportexportplugininterface.cpp:182
-#, fuzzy
-#| msgid "The vCard does not contain any contacts."
-msgctxt "@info"
-msgid "The vCard does not contain any contacts."
-msgstr "La vCard nun contién contautos."
 
 #: vcards/engine/vcardexportselectionwidget.cpp:36
 #, fuzzy
@@ -721,42 +651,112 @@ msgctxt "@action:button"
 msgid "Import All..."
 msgstr "Importar too..."
 
-#: vcards/vcardimportexportplugininterface.cpp:58
+#: vcards/vcardimportexportplugininterface.cpp:59
 #, fuzzy
 msgid "Import vCard..."
 msgstr "Importar vCard..."
 
-#: vcards/vcardimportexportplugininterface.cpp:59
+#: vcards/vcardimportexportplugininterface.cpp:60
 msgid "Import contacts from a vCard file."
 msgstr ""
 
-#: vcards/vcardimportexportplugininterface.cpp:66
+#: vcards/vcardimportexportplugininterface.cpp:67
 msgid "Export contacts to a vCard 4.0 file."
 msgstr ""
 
-#: vcards/vcardimportexportplugininterface.cpp:67
+#: vcards/vcardimportexportplugininterface.cpp:68
 #, fuzzy
 #| msgid "Export vCard 3.0..."
 msgid "Export vCard 4.0..."
 msgstr "Esportar a vCard 3.0..."
 
-#: vcards/vcardimportexportplugininterface.cpp:72
+#: vcards/vcardimportexportplugininterface.cpp:73
 #, fuzzy
 msgid "Export vCard 3.0..."
 msgstr "Esportar a vCard 3.0..."
 
-#: vcards/vcardimportexportplugininterface.cpp:73
+#: vcards/vcardimportexportplugininterface.cpp:74
 msgid "Export contacts to a vCard 3.0 file."
 msgstr ""
 
-#: vcards/vcardimportexportplugininterface.cpp:78
+#: vcards/vcardimportexportplugininterface.cpp:79
 #, fuzzy
 msgid "Export vCard 2.1..."
 msgstr "Esportar a vCard 2.1..."
 
-#: vcards/vcardimportexportplugininterface.cpp:79
+#: vcards/vcardimportexportplugininterface.cpp:80
 msgid "Export contacts to a vCard 2.1 file."
 msgstr ""
+
+#: vcards/vcardimportexportplugininterface.cpp:130
+#: vcards/vcardimportexportplugininterface.cpp:181
+msgid ""
+"*.vcf|vCard (*.vcf)\n"
+"*|all files (*)"
+msgstr ""
+
+#: vcards/vcardimportexportplugininterface.cpp:132
+#: vcards/vcardimportexportplugininterface.cpp:183
+#, fuzzy
+#| msgid "Select vCard to Import"
+msgctxt "@title:window"
+msgid "Select vCard to Import"
+msgstr "Esbillar vCard a importar"
+
+#: vcards/vcardimportexportplugininterface.cpp:140
+#: vcards/vcardimportexportplugininterface.cpp:192
+#, fuzzy
+#| msgid "vCard Import Failed"
+msgctxt "@title:window"
+msgid "vCard Import Failed"
+msgstr "Falló la importación de vCard"
+
+#: vcards/vcardimportexportplugininterface.cpp:158
+#: vcards/vcardimportexportplugininterface.cpp:210
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "<para>Unable to access vCard:</para><para>%1</para>"
+msgstr "<para>Imposible acceder a vCard:</para><para>%1</para>"
+
+#: vcards/vcardimportexportplugininterface.cpp:222
+#, fuzzy
+#| msgid "No contacts were imported, due to errors with the vCards."
+msgctxt "@info"
+msgid "No contacts were imported, due to errors with the vCards."
+msgstr "Nun s'importaron contautos darréu de fallos na vCard."
+
+#: vcards/vcardimportexportplugininterface.cpp:226
+#, fuzzy
+#| msgid "The vCard does not contain any contacts."
+msgctxt "@info"
+msgid "The vCard does not contain any contacts."
+msgstr "La vCard nun contién contautos."
+
+#: vcards/vcardimportexportplugininterface.cpp:510
+#, fuzzy
+#| msgid ""
+#| "You have selected a list of contacts, shall they be exported to several "
+#| "files?"
+msgctxt "@info"
+msgid ""
+"You have selected a list of contacts, shall they be exported to several "
+"files?"
+msgstr ""
+"Escoyisti una llista de contautos, ¿tendría d'esportase a dellos ficheros?"
+
+#: vcards/vcardimportexportplugininterface.cpp:513
+#, fuzzy
+#| msgid "Export to One File"
+msgctxt "@action:button"
+msgid "Export to One File"
+msgstr "Esportar a un ficheru"
+
+#: vcards/vcardimportexportplugininterface.cpp:514
+#, fuzzy
+#| msgid "Export to Several Files"
+msgctxt "@action:button"
+msgid "Export to Several Files"
+msgstr "Esportar a dellos ficheros"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
