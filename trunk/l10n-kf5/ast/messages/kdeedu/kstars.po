@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-02 06:50+0000\n"
+"POT-Creation-Date: 2016-11-03 07:23+0000\n"
 "PO-Revision-Date: 2016-09-15 18:18+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -275,7 +275,7 @@ msgstr ""
 #: ekos/scheduler/scheduler.cpp:3169 ekos/scheduler/scheduler.cpp:3468
 #: ekos/scheduler/scheduler.cpp:3869 ekos/scheduler/scheduler.cpp:4594
 #: ekos/scheduler/scheduler.cpp:4623 ekos/scheduler/scheduler.cpp:4665
-#: indi/drivermanager.cpp:1459 indi/indidriver.cpp:940 kstarsactions.cpp:965
+#: indi/drivermanager.cpp:1465 indi/indidriver.cpp:946 kstarsactions.cpp:965
 #: oal/execute.cpp:317 options/opscolors.cpp:212 tools/modcalcangdist.cpp:134
 #: tools/modcalcapcoord.cpp:151 tools/modcalcdaylength.cpp:247
 #: tools/modcalcgalcoord.cpp:192 tools/modcalcgeodcoord.cpp:230
@@ -1456,8 +1456,8 @@ msgstr "Editar enllaz"
 msgid "Are you sure you want to remove the %1 link?"
 msgstr "¿Daveres que quier desaniciar l'enllaz %1?"
 
-#: dialogs/detaildialog.cpp:883 indi/drivermanager.cpp:1437
-#: indi/indidriver.cpp:916
+#: dialogs/detaildialog.cpp:883 indi/drivermanager.cpp:1443
+#: indi/indidriver.cpp:922
 #, fuzzy
 msgid "Delete Confirmation"
 msgstr "Confirmación d'esborráu"
@@ -8267,6 +8267,18 @@ msgstr "Palo Alto"
 msgid "Enable Limits"
 msgstr "Declinación final:"
 
+#: ekos/opsekos.cpp:36
+msgid "Internal or External Plate Solver."
+msgstr ""
+
+#: ekos/opsekos.cpp:39
+msgid "Internal or External Astrometry.cfg."
+msgstr ""
+
+#: ekos/opsekos.cpp:42
+msgid "Internal or External WCS Info."
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QTabWidget, OpsEkos)
 #: ekos/opsekos.ui:14
 #, fuzzy
@@ -8314,7 +8326,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_independentWindowEkos)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_independentWindowINDI)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_independentWindowFITS)
-#: ekos/opsekos.ui:74 indi/opsindi.ui:362 options/opsadvanced.ui:231
+#: ekos/opsekos.ui:74 indi/opsindi.ui:379 options/opsadvanced.ui:231
 #, fuzzy
 #| msgctxt "City in Kansas USA"
 #| msgid "Independence"
@@ -8465,90 +8477,90 @@ msgstr "Autoescaláu"
 msgid "Astrometry.net"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_15)
-#: ekos/opsekos.ui:365
-#, fuzzy
-#| msgid "Server"
-msgid "solver:"
-msgstr "Sirvidor"
-
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_astrometrySolver)
-#: ekos/opsekos.ui:372
+#: ekos/opsekos.ui:365
 msgid "Astrometry.net solve-field binary"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_16)
-#: ekos/opsekos.ui:382
-msgid "wcsinfo:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_astrometryWCSInfo)
-#: ekos/opsekos.ui:389
-msgid "Astrometry.net wcsinfo binary"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_14)
-#: ekos/opsekos.ui:399
-msgid "config:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_astrometryConfFile)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_astrometryAPIKey)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_astrometryConfFile)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_astrometryAPIURL)
-#: ekos/opsekos.ui:406 ekos/opsekos.ui:423 ekos/opsekos.ui:440
+#: ekos/opsekos.ui:375 ekos/opsekos.ui:412 ekos/opsekos.ui:467
 msgid "Astrometry.net configuration file"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_17)
-#: ekos/opsekos.ui:416
-#, fuzzy
-#| msgid "Key:"
-msgid "API Key:"
-msgstr "Tecla:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_18)
-#: ekos/opsekos.ui:433
-#, fuzzy
-#| msgid "URL:"
-msgid "API URL:"
-msgstr "URL:"
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_astrometryUseJPEG)
-#: ekos/opsekos.ui:450
+#: ekos/opsekos.ui:385
 msgid ""
 "Use JPEG format, instead of FITS, to upload images to the online astrometry."
 "net service"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_astrometryUseJPEG)
-#: ekos/opsekos.ui:453
+#: ekos/opsekos.ui:388
 msgid "Use JPG for upload"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_17)
+#: ekos/opsekos.ui:405
+#, fuzzy
+#| msgid "Key:"
+msgid "API Key:"
+msgstr "Tecla:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: ekos/opsekos.ui:422
+msgid "config:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_18)
+#: ekos/opsekos.ui:429
+#, fuzzy
+#| msgid "URL:"
+msgid "API URL:"
+msgstr "URL:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_astrometryWCSInfo)
+#: ekos/opsekos.ui:436
+msgid "Astrometry.net wcsinfo binary"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_15)
+#: ekos/opsekos.ui:453
+#, fuzzy
+#| msgid "Server"
+msgid "solver:"
+msgstr "Sirvidor"
+
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#: ekos/opsekos.ui:460
+msgid "wcsinfo:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SolverUpdateCoords)
 #. i18n: ectx: property (statusTip), widget (QCheckBox, kcfg_SolverUpdateCoords)
-#: ekos/opsekos.ui:467 ekos/opsekos.ui:470
+#: ekos/opsekos.ui:488 ekos/opsekos.ui:491
 msgid ""
 "Automatically update the solver's RA & Declination coordinates after "
 "telescope slew is completed."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolverUpdateCoords)
-#: ekos/opsekos.ui:473
+#: ekos/opsekos.ui:494
 #, fuzzy
 #| msgid "Update Source"
 msgid "Update Coords"
 msgstr "Fuente de actualización"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SolverWCS)
-#: ekos/opsekos.ui:480
+#: ekos/opsekos.ui:501
 msgid ""
 "enable World Coordinate System (WCS). WCS is used to encode RA/DEC "
 "coordinates in captured CCD images."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolverWCS)
-#: ekos/opsekos.ui:483
+#: ekos/opsekos.ui:504
 #, fuzzy
 #| msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 #| msgid "WSW"
@@ -8556,22 +8568,22 @@ msgid "WCS"
 msgstr "WSW"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SolverVerbose)
-#: ekos/opsekos.ui:490
+#: ekos/opsekos.ui:511
 msgid "Log verbose solver output"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolverVerbose)
-#: ekos/opsekos.ui:496
+#: ekos/opsekos.ui:517
 msgid "Verbose"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SolverOverlay)
-#: ekos/opsekos.ui:503
+#: ekos/opsekos.ui:524
 msgid "Display received FITS images unto solver FOV rectangle in the sky map"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolverOverlay)
-#: ekos/opsekos.ui:506 tools/eyepiecefield.cpp:95
+#: ekos/opsekos.ui:527 tools/eyepiecefield.cpp:95
 msgid "Overlay"
 msgstr ""
 
@@ -11072,7 +11084,7 @@ msgstr ""
 msgid "Connection to INDI server at host %1 with port %2 failed."
 msgstr ""
 
-#: indi/drivermanager.cpp:956 indi/indidriver.cpp:502
+#: indi/drivermanager.cpp:962 indi/indidriver.cpp:508
 #, fuzzy, kde-format
 msgid ""
 "Unable to find INDI Drivers directory: %1\n"
@@ -11081,51 +11093,51 @@ msgstr ""
 "Nun se ha podido alcontrar la carpeta de controladores INDI: %1\n"
 "Asegúrese d'haber proporcionado la ruta correuta na configuración de KStars."
 
-#: indi/drivermanager.cpp:997 indi/indidriver.cpp:543
+#: indi/drivermanager.cpp:1003 indi/indidriver.cpp:549
 #, fuzzy, kde-format
 msgid "Failed to open INDI Driver file: %1"
 msgstr "Falló l'apertura del ficheru de controlador INDI: %1"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, driverComboBox)
 #. i18n: ectx: property (text), widget (QPushButton, NoneButton)
-#: indi/drivermanager.cpp:1261 indi/indidriver.cpp:754
+#: indi/drivermanager.cpp:1267 indi/indidriver.cpp:760
 #: oal/equipmentwriter.ui:197 oal/log.cpp:264 tools/exporteyepieceview.cpp:71
 #: tools/eyepiecefield.cpp:120 tools/obslistwizard.ui:147
 #, fuzzy
 msgid "None"
 msgstr "Dengún"
 
-#: indi/drivermanager.cpp:1336 indi/indidriver.cpp:814
+#: indi/drivermanager.cpp:1342 indi/indidriver.cpp:820
 #, fuzzy
 msgid "Add Host"
 msgstr "Amestar sirvidor"
 
-#: indi/drivermanager.cpp:1347 indi/indidriver.cpp:830
+#: indi/drivermanager.cpp:1353 indi/indidriver.cpp:836
 #, fuzzy
 msgid "Error: the port number is invalid."
 msgstr "Fallu: el númberu de puertu nun ye válidu."
 
-#: indi/drivermanager.cpp:1359 indi/indidriver.cpp:840
+#: indi/drivermanager.cpp:1365 indi/indidriver.cpp:846
 #, fuzzy, kde-format
 msgid "Host: %1 Port: %2 already exists."
 msgstr "Sirvidor: %1 Puertu: %2 yá esiste."
 
-#: indi/drivermanager.cpp:1386 indi/indidriver.cpp:865
+#: indi/drivermanager.cpp:1392 indi/indidriver.cpp:871
 #, fuzzy
 msgid "Modify Host"
 msgstr "Modificar sirvidor"
 
-#: indi/drivermanager.cpp:1433 indi/indidriver.cpp:912
+#: indi/drivermanager.cpp:1439 indi/indidriver.cpp:918
 #, fuzzy
 msgid "You need to disconnect the client before removing it."
 msgstr "Precisa desconeutar el veceru enantes de desanicialu."
 
-#: indi/drivermanager.cpp:1437 indi/indidriver.cpp:916
+#: indi/drivermanager.cpp:1443 indi/indidriver.cpp:922
 #, fuzzy, kde-format
 msgid "Are you sure you want to remove the %1 client?"
 msgstr "¿Daveres quier desaniciar el veceru %1?"
 
-#: indi/drivermanager.cpp:1458 indi/indidriver.cpp:939
+#: indi/drivermanager.cpp:1464 indi/indidriver.cpp:945
 #, fuzzy
 #| msgid ""
 #| "unable to write to file 'indihosts.xml'\n"
@@ -11317,7 +11329,7 @@ msgid "&Cancel"
 msgstr "&Encaboxar"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useTimeUpdate)
-#: indi/indiproperty.cpp:257 indi/opsindi.ui:179 tools/observinglist.cpp:142
+#: indi/indiproperty.cpp:257 indi/opsindi.ui:196 tools/observinglist.cpp:142
 #, fuzzy
 msgid "Time"
 msgstr "Tiempu"
@@ -11380,13 +11392,21 @@ msgstr "Peking"
 msgid "Tracking"
 msgstr "Siguir"
 
-#: indi/opsindi.cpp:60
+#: indi/opsindi.cpp:50
+msgid "Internal or External INDI Server."
+msgstr ""
+
+#: indi/opsindi.cpp:52
+msgid "Internal or External INDI Drivers."
+msgstr ""
+
+#: indi/opsindi.cpp:90
 #, fuzzy
 #| msgid "FITS Default directory"
 msgid "FITS Default Directory"
 msgstr "Directorio FITS predefiníu"
 
-#: indi/opsindi.cpp:68
+#: indi/opsindi.cpp:98
 #, fuzzy
 #| msgid "INDI Drivers Directory:"
 msgid "INDI Drivers Directory"
@@ -11394,25 +11414,25 @@ msgstr "Carpeta de controladores INDI:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, videoLabel_2)
 #. i18n: ectx: property (toolTip), widget (QLabel, videoLabel_3)
-#: indi/opsindi.ui:25 indi/opsindi.ui:46
+#: indi/opsindi.ui:32 indi/opsindi.ui:63
 #, fuzzy
 msgid "Default INDI video port"
 msgstr "Puertu de videu INDI predetermináu"
 
 #. i18n: ectx: property (text), widget (QLabel, videoLabel_2)
-#: indi/opsindi.ui:28
+#: indi/opsindi.ui:35
 #, fuzzy
 msgid "INDI Server:"
 msgstr "Sirvidor INDI:"
 
 #. i18n: ectx: property (text), widget (QLabel, videoLabel_3)
-#: indi/opsindi.ui:49
+#: indi/opsindi.ui:66
 #, fuzzy
 msgid "INDI Drivers Directory:"
 msgstr "Carpeta de controladores INDI:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, fitsLabel)
-#: indi/opsindi.ui:92
+#: indi/opsindi.ui:109
 #, fuzzy
 msgid "Specify where new FITS images are saved once captured and downloaded"
 msgstr ""
@@ -11420,26 +11440,26 @@ msgstr ""
 "descargaes"
 
 #. i18n: ectx: property (text), widget (QLabel, fitsLabel)
-#: indi/opsindi.ui:95
+#: indi/opsindi.ui:112
 #, fuzzy
 msgid "Default FITS directory:"
 msgstr "Directorio FITS predefiníu:"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, autoGroup)
-#: indi/opsindi.ui:139
+#: indi/opsindi.ui:156
 msgid ""
 "Select time and location synchronization settings between KStars and INDI "
 "Devices"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, autoGroup)
-#: indi/opsindi.ui:142
+#: indi/opsindi.ui:159
 #, fuzzy
 msgid "Device Updates"
 msgstr "Actualizaciones automáticas de preséu"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_useComputerSource)
-#: indi/opsindi.ui:150
+#: indi/opsindi.ui:167
 #, fuzzy
 msgid "Sync the device to the computer's time and location settings"
 msgstr ""
@@ -11447,19 +11467,19 @@ msgstr ""
 "del preséu."
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_useComputerSource)
-#: indi/opsindi.ui:153
+#: indi/opsindi.ui:170
 #, fuzzy
 msgid "Co&mputer"
 msgstr "Ordenador"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useTimeUpdate)
-#: indi/opsindi.ui:173
+#: indi/opsindi.ui:190
 #, fuzzy
 msgid "Enable time synchronization upon connection between KStars and INDI"
 msgstr "Anovar la posición xeográfica del telescopiu al conectarse"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useTimeUpdate)
-#: indi/opsindi.ui:176
+#: indi/opsindi.ui:193
 #, fuzzy
 msgid "Synchronize KStars date and time automatically from the update source."
 msgstr ""
@@ -11467,7 +11487,7 @@ msgstr ""
 "actualización."
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_useDeviceSource)
-#: indi/opsindi.ui:189
+#: indi/opsindi.ui:206
 #, fuzzy
 msgid "Sync the computer to the device's time and location settings"
 msgstr ""
@@ -11475,13 +11495,13 @@ msgstr ""
 "del preséu."
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_useDeviceSource)
-#: indi/opsindi.ui:192
+#: indi/opsindi.ui:209
 #, fuzzy
 msgid "De&vice"
 msgstr "Preséu"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useGeographicUpdate)
-#: indi/opsindi.ui:199
+#: indi/opsindi.ui:216
 #, fuzzy
 msgid ""
 "Enable geographic location synchronization upon connection between KStars "
@@ -11489,7 +11509,7 @@ msgid ""
 msgstr "Anovar la posición xeográfica del telescopiu al conectarse"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useGeographicUpdate)
-#: indi/opsindi.ui:202
+#: indi/opsindi.ui:219
 #, fuzzy
 msgid "Synchronize KStars location settings from the update source"
 msgstr ""
@@ -11497,13 +11517,13 @@ msgstr ""
 "d'anovamientu"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useGeographicUpdate)
-#: indi/opsindi.ui:205
+#: indi/opsindi.ui:222
 #, fuzzy
 msgid "&Geographic location"
 msgstr "Posición &xeográfica"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
-#: indi/opsindi.ui:233
+#: indi/opsindi.ui:250
 #, fuzzy
 msgid ""
 "Specify range of ports that INDI Server will bind to when starting new "
@@ -11513,40 +11533,40 @@ msgstr ""
 "inicie nuevos controladores"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: indi/opsindi.ui:236
+#: indi/opsindi.ui:253
 #, fuzzy
 msgid "Server Port"
 msgstr "Puertu del sirvidor"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: indi/opsindi.ui:259 tools/obslistwizard.ui:622
+#: indi/opsindi.ui:276 tools/obslistwizard.ui:622
 #, fuzzy
 msgid "From:"
 msgstr "Desde:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: indi/opsindi.ui:266 tools/obslistwizard.ui:636
+#: indi/opsindi.ui:283 tools/obslistwizard.ui:636
 #, fuzzy
 msgid "To:"
 msgstr "A:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, displayGroup)
-#: indi/opsindi.ui:318
+#: indi/opsindi.ui:335
 #, fuzzy
 msgid "Display"
 msgstr "Pantalla"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showTargetCrosshair)
-#: indi/opsindi.ui:324
+#: indi/opsindi.ui:341
 #, fuzzy
 msgid "Display the telescope position on the sky map"
 msgstr "Amosar la posición del telescopiu nel mapa del cielu"
 
 #. i18n: ectx: property (statusTip), widget (QCheckBox, kcfg_showTargetCrosshair)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_showTargetCrosshair)
-#: indi/opsindi.ui:327 indi/opsindi.ui:330
+#: indi/opsindi.ui:344 indi/opsindi.ui:347
 #, fuzzy
 msgid ""
 "Display a telescope marker on the sky map in order to track the telescope "
@@ -11556,56 +11576,56 @@ msgstr ""
 "del telescopiu sobre el cielu."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showTargetCrosshair)
-#: indi/opsindi.ui:333
+#: indi/opsindi.ui:350
 #, fuzzy
 #| msgid "Telescope port:"
 msgid "&Telescope crosshair"
 msgstr "Puertu del telescopiu:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showINDIMessages)
-#: indi/opsindi.ui:343
+#: indi/opsindi.ui:360
 #, fuzzy
 msgid "Display INDI status messages in the status bar"
 msgstr "Amosar mensaxes d'estáu de INDI na barra d'estáu"
 
 #. i18n: ectx: property (statusTip), widget (QCheckBox, kcfg_showINDIMessages)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_showINDIMessages)
-#: indi/opsindi.ui:346 indi/opsindi.ui:349
+#: indi/opsindi.ui:363 indi/opsindi.ui:366
 #, fuzzy
 msgid "Display incoming INDI status messages in KStars status bar"
 msgstr "Amosar mensaxes d'estáu entrantes de INDI na barra d'estáu de KStars"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showINDIMessages)
-#: indi/opsindi.ui:352
+#: indi/opsindi.ui:369
 #, fuzzy
 msgid "INDI messages in status &bar"
 msgstr "Mensaxes de INDI na &barra d'estáu"
 
 #. i18n: ectx: property (text), widget (QPushButton, showLogsB)
-#: indi/opsindi.ui:385
+#: indi/opsindi.ui:402
 #, fuzzy
 msgid "Show INDI Logs"
 msgstr "Amosar nomes"
 
-#: indi/servermanager.cpp:85
+#: indi/servermanager.cpp:100
 #, fuzzy, kde-format
 #| msgid "Error making temporary filename."
 msgid "Error making FIFO file %1: %2."
 msgstr "Fallu al crear nome de ficheru temporal."
 
-#: indi/servermanager.cpp:116
+#: indi/servermanager.cpp:137
 #, fuzzy, kde-format
 msgid "INDI server failed to start: %1"
 msgstr "Puertu final del sirvidor INDI"
 
-#: indi/servermanager.cpp:153
+#: indi/servermanager.cpp:192
 #, kde-format
 msgid ""
 "Driver %1 was not found on the system. Please make sure the package that "
 "provides the '%1' binary is installed."
 msgstr ""
 
-#: indi/servermanager.cpp:275
+#: indi/servermanager.cpp:316
 #, kde-format
 msgid ""
 "KStars detected INDI driver %1 crashed. Please check INDI server log in the "
@@ -12079,17 +12099,17 @@ msgstr "Cruceta de seguimientu"
 msgid "KStars"
 msgstr "KStars"
 
-#: kstars.cpp:218 kstarsactions.cpp:1118 skymap.cpp:381
+#: kstars.cpp:222 kstarsactions.cpp:1118 skymap.cpp:381
 #, fuzzy
 msgid "Stop &Tracking"
 msgstr "Detener &seguimientu"
 
-#: kstars.cpp:223 kstarsactions.cpp:1233 kstarsinit.cpp:259
+#: kstars.cpp:227 kstarsactions.cpp:1233 kstarsinit.cpp:259
 #, fuzzy
 msgid "Switch to horizonal view (Horizontal &Coordinates)"
 msgstr "&Coordenaes horizontales"
 
-#: kstars.cpp:223 kstarsactions.cpp:1239 kstarsinit.cpp:259
+#: kstars.cpp:227 kstarsactions.cpp:1239 kstarsinit.cpp:259
 #, fuzzy
 msgid "Switch to star globe view (Equatorial &Coordinates)"
 msgstr "&Coordenaes ecuatoriales"
