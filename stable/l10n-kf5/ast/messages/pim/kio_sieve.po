@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-05 08:36+0000\n"
+"POT-Creation-Date: 2016-11-19 22:51+0100\n"
 "PO-Revision-Date: 2016-03-06 22:20+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -23,18 +23,22 @@ msgid "Connecting to %1..."
 msgstr "Coneutando a %1..."
 
 #: sieve.cpp:339
+#, kde-format
 msgid "The connection to the server was lost."
 msgstr "Perdióse la conexón col sirvidor."
 
 #: sieve.cpp:351
+#, kde-format
 msgid "Server identification failed."
 msgstr "Identificación del sirvidor fallida."
 
 #: sieve.cpp:357
+#, kde-format
 msgid "Can not use TLS since the underlying Qt library does not support it."
 msgstr "Nun pue usase TLS darréu que la biblioteca Qt soxacente nun la sofita."
 
 #: sieve.cpp:364
+#, kde-format
 msgid ""
 "TLS encryption was requested, but your Sieve server does not advertise TLS "
 "in its capabilities.\n"
@@ -47,32 +51,39 @@ msgstr ""
 "operación"
 
 #: sieve.cpp:366
+#, kde-format
 msgid "Server Does Not Advertise TLS"
 msgstr "El sirvidor nun alvirtió de TLS"
 
 #: sieve.cpp:366
+#, kde-format
 msgid "&Start TLS nonetheless"
 msgstr "&Aniciar TLS en tou casu"
 
 #: sieve.cpp:366
+#, kde-format
 msgid "&Cancel"
 msgstr "&Encaboxar"
 
 #: sieve.cpp:367
+#, kde-format
 msgid "TLS encryption requested, but not supported by server."
 msgstr "Solicitóse'l cifráu TLS, pero nun ta sofitáu pol sirvidor."
 
 #: sieve.cpp:388
+#, kde-format
 msgid ""
 "Your Sieve server claims to support TLS, but negotiation was unsuccessful."
 msgstr ""
 "El to sirvidor Sieve clama sofitu TLS, pero la negociación nun tuvo ésitu."
 
 #: sieve.cpp:390
+#, kde-format
 msgid "Connection Failed"
 msgstr "Conexón fallida"
 
 #: sieve.cpp:397
+#, kde-format
 msgid ""
 "The server does not seem to support TLS. Disable TLS if you want to connect "
 "without encryption."
@@ -81,43 +92,53 @@ msgstr ""
 "cifráu."
 
 #: sieve.cpp:409
+#, kde-format
 msgid "Authenticating user..."
 msgstr "Autenticando usuariu..."
 
 #: sieve.cpp:412
+#, kde-format
 msgid "Authentication failed."
 msgstr "Autenticación fallida."
 
 #: sieve.cpp:476
+#, kde-format
 msgctxt "special command completed"
 msgid "Done."
 msgstr "Fecho."
 
 #: sieve.cpp:489
+#, kde-format
 msgid "Activating script..."
 msgstr "Activando script..."
 
 #: sieve.cpp:506
+#, kde-format
 msgid "There was an error activating the script."
 msgstr "Hebo un fallu activando'l script"
 
 #: sieve.cpp:526
+#, kde-format
 msgid "There was an error deactivating the script."
 msgstr "Hebo un fallu desactivando'l script"
 
 #: sieve.cpp:558
+#, kde-format
 msgid "Sending data..."
 msgstr "Unviando datos..."
 
 #: sieve.cpp:575
+#, kde-format
 msgid "KIO data supply error."
 msgstr "Fallu d'apurridera de datos KIO."
 
 #: sieve.cpp:626 sieve.cpp:1163
+#, kde-format
 msgid "Network error."
 msgstr "Fallu de rede."
 
 #: sieve.cpp:638
+#, kde-format
 msgid "Verifying upload completion..."
 msgstr "Verificando la terminación de la xuba..."
 
@@ -135,6 +156,7 @@ msgstr ""
 "%1"
 
 #: sieve.cpp:673 sieve.cpp:677
+#, kde-format
 msgid ""
 "The script did not upload successfully.\n"
 "The script may contain errors."
@@ -143,47 +165,57 @@ msgstr ""
 "El script podría contener fallos."
 
 #: sieve.cpp:685
+#, kde-format
 msgctxt "data upload complete"
 msgid "Done."
 msgstr "Fecho."
 
 #: sieve.cpp:717
+#, kde-format
 msgid "Retrieving data..."
 msgstr "Recibiendo datos..."
 
 #: sieve.cpp:767
+#, kde-format
 msgid "Finishing up..."
 msgstr "Finando..."
 
 #: sieve.cpp:776
+#, kde-format
 msgid "A protocol error occurred while trying to negotiate script downloading."
 msgstr ""
 "Asocedió un fallu del protocolu entrín s'intentaba negociar la descarga del "
 "script."
 
 #: sieve.cpp:781
+#, kde-format
 msgctxt "data retrival complete"
 msgid "Done."
 msgstr "Fecho."
 
 #: sieve.cpp:788
+#, kde-format
 msgid "Folders are not supported."
 msgstr "Nun tán sofitaes les carpetes."
 
 #: sieve.cpp:797
+#, kde-format
 msgid "Deleting file..."
 msgstr "Desaniciando ficheru..."
 
 #: sieve.cpp:813
+#, kde-format
 msgid "The server would not delete the file."
 msgstr "El sirvidor nun podría desanciar el ficheru."
 
 #: sieve.cpp:817
+#, kde-format
 msgctxt "file removal complete"
 msgid "Done."
 msgstr "Fecho."
 
 #: sieve.cpp:832
+#, kde-format
 msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
 msgstr ""
 "Nun pue facese chmod a nada quitante 0700 (activu) o 0600 (script inactivu)."
@@ -194,10 +226,12 @@ msgid "An error occurred during authentication: %1"
 msgstr "Asocedió un fallu na autenticación: %1"
 
 #: sieve.cpp:1020
+#, kde-format
 msgid "Sieve Authentication Details"
 msgstr "Detalles d'autenticación Sieve"
 
 #: sieve.cpp:1021
+#, kde-format
 msgid ""
 "Please enter your authentication details for your sieve account (usually the "
 "same as your email password):"
@@ -228,5 +262,6 @@ msgstr ""
 "%1"
 
 #: sieve.cpp:1218
+#, kde-format
 msgid "A protocol error occurred."
 msgstr "Asocedió un fallu del protocolu."
