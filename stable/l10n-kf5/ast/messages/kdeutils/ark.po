@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-17 17:58+0000\n"
+"POT-Creation-Date: 2016-11-19 07:56+0000\n"
 "PO-Revision-Date: 2016-03-06 23:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -234,7 +234,7 @@ msgstr ""
 "s'especifica."
 
 #. i18n: ectx: label, entry (openDestinationFolderAfterExtraction), group (Extraction)
-#: app/main.cpp:142 kerfuffle/ark.kcfg:15
+#: app/main.cpp:142 kerfuffle/ark.kcfg:23
 msgid "Open destination folder after extraction."
 msgstr "Abrir la carpeta destín tres la estraición."
 
@@ -356,36 +356,36 @@ msgid ""
 "Whether to show a warning when creating zip archives with AES encryption."
 msgstr ""
 
+#. i18n: ectx: label, entry (defaultOpenAction), group (General)
+#: kerfuffle/ark.kcfg:13
+msgid "Default action when opening archive entries."
+msgstr "Aición por defeutu al abrir entraes d'archivos."
+
 #. i18n: ectx: label, entry (closeAfterExtraction), group (Extraction)
-#: kerfuffle/ark.kcfg:19
+#: kerfuffle/ark.kcfg:27
 msgid "Close Ark after extraction."
 msgstr "Zarrar Ark tres la estraición."
 
 #. i18n: ectx: label, entry (preservePaths), group (Extraction)
-#: kerfuffle/ark.kcfg:23
+#: kerfuffle/ark.kcfg:31
 msgid "Preserve paths when extracting."
 msgstr "Caltener caminos al estrayer."
 
 #. i18n: ectx: label, entry (extractToSubfolder), group (Extraction)
-#: kerfuffle/ark.kcfg:27
+#: kerfuffle/ark.kcfg:35
 msgid ""
 "Extract to a subfolder if the archive has more than one top-level entry."
 msgstr ""
 
 #. i18n: ectx: label, entry (splitterSizes), group (MainWindow)
-#: kerfuffle/ark.kcfg:33
+#: kerfuffle/ark.kcfg:41
 msgid "How the main window is divided."
 msgstr "Como ta dividida la ventana principal."
 
 #. i18n: ectx: label, entry (showInfoPanel), group (MainWindow)
-#: kerfuffle/ark.kcfg:37
+#: kerfuffle/ark.kcfg:45
 msgid "Whether to show the information panel."
 msgstr "Si s'amuesa o non el panel d'información."
-
-#. i18n: ectx: label, entry (defaultOpenAction), group (Preview)
-#: kerfuffle/ark.kcfg:43
-msgid "Default action when opening archive entries."
-msgstr "Aición por defeutu al abrir entraes d'archivos."
 
 #. i18n: ectx: label, entry (limitPreviewFileSize), group (Preview)
 #: kerfuffle/ark.kcfg:51
@@ -450,31 +450,31 @@ msgstr "Contraseña incorreuta."
 msgid "Ark does not currently support testing this archive."
 msgstr "Anguaño Ark nun sofita ficheros ISO col sistema de ficheros UDF."
 
-#: kerfuffle/compressionoptionswidget.cpp:147
+#: kerfuffle/compressionoptionswidget.cpp:149
 #, kde-format
 msgid "Protection of the list of files is not possible with the %1 format."
 msgstr "Nun ye posible la proteición del llistáu de ficheros col formatu %1."
 
-#: kerfuffle/compressionoptionswidget.cpp:156
+#: kerfuffle/compressionoptionswidget.cpp:158
 #, kde-format
 msgid ""
 "Protection of the archive with password is not possible with the %1 format."
 msgstr ""
 "Nun ye posible la proteición del archivu con contraseña col formatu %1."
 
-#: kerfuffle/compressionoptionswidget.cpp:171
+#: kerfuffle/compressionoptionswidget.cpp:173
 #, fuzzy, kde-format
 #| msgid "It is not possible to create archives of this type."
 msgid "It is not possible to set compression level for the %1 format."
 msgstr "Nun ye posible crear archivos d'esta triba."
 
-#: kerfuffle/compressionoptionswidget.cpp:191
+#: kerfuffle/compressionoptionswidget.cpp:193
 #, fuzzy, kde-format
 #| msgid "It is not possible to create archives of this type."
 msgid "It is not possible to set compression method for the %1 format."
 msgstr "Nun ye posible crear archivos d'esta triba."
 
-#: kerfuffle/compressionoptionswidget.cpp:214
+#: kerfuffle/compressionoptionswidget.cpp:216
 #, kde-format
 msgid "The %1 format does not support multi-volume archives."
 msgstr ""
@@ -555,7 +555,7 @@ msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_previewFileSizeLimit)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, volumeSizeSpinbox)
-#: kerfuffle/compressionoptionswidget.ui:220 kerfuffle/previewsettings.ui:90
+#: kerfuffle/compressionoptionswidget.ui:220 kerfuffle/previewsettings.ui:32
 msgid " megabytes"
 msgstr " megabytes"
 
@@ -746,8 +746,23 @@ msgstr ""
 "Estrayer a un sodireutoriu si l'archivu tien más d'una entrada de nivel "
 "cimeru"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showEncryptionWarning)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: kerfuffle/generalsettings.ui:17
+msgid "When clicking a file in an archive or pressing the Return key:"
+msgstr "Al primir nun ficheru nun archivu o primi na tecla Enter:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
+#: kerfuffle/generalsettings.ui:33
+msgid "Pre&view the file with internal previewer"
+msgstr "Pre&visualizar el ficheru col previsualizador internu"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#: kerfuffle/generalsettings.ui:43
+msgid "Ope&n the file with associated application"
+msgstr "Ab&rir el ficheru cola aplicación asociada"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showEncryptionWarning)
+#: kerfuffle/generalsettings.ui:60
 msgid "Show a warning when creating zip archives with AES encryption"
 msgstr ""
 
@@ -855,23 +870,8 @@ msgstr "Comentariu"
 msgid "Testing archive"
 msgstr "Cargando ficheru..."
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: kerfuffle/previewsettings.ui:17
-msgid "When clicking a file in an archive or pressing the Return key:"
-msgstr "Al primir nun ficheru nun archivu o primi na tecla Enter:"
-
-#. i18n: ectx: property (text), widget (QRadioButton, Preview)
-#: kerfuffle/previewsettings.ui:48
-msgid "Pre&view the file with internal previewer"
-msgstr "Pre&visualizar el ficheru col previsualizador internu"
-
-#. i18n: ectx: property (text), widget (QRadioButton, Open)
-#: kerfuffle/previewsettings.ui:58
-msgid "Ope&n the file with associated application"
-msgstr "Ab&rir el ficheru cola aplicación asociada"
-
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitPreviewFileSize)
-#: kerfuffle/previewsettings.ui:80
+#: kerfuffle/previewsettings.ui:22
 msgid "Disable preview for files larger than:"
 msgstr "Deshabilitar la previsualización de ficheros más grandes de:"
 
