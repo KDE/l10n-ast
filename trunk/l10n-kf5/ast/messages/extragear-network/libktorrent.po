@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-17 07:20+0000\n"
+"POT-Creation-Date: 2016-11-19 20:10+0100\n"
 "PO-Revision-Date: 2016-01-30 03:01+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -25,10 +25,12 @@ msgid "Illegal token: %1"
 msgstr "Elementu nun válidu: %1"
 
 #: src/bcodec/bdecoder.cpp:133 src/bcodec/bdecoder.cpp:141
+#, kde-format
 msgid "Decode error"
 msgstr "Fallu de decodificación"
 
 #: src/bcodec/bdecoder.cpp:201 src/bcodec/bdecoder.cpp:244
+#, kde-format
 msgid "Unexpected end of input"
 msgstr "Fin d'entrada inesperáu"
 
@@ -38,19 +40,22 @@ msgid "Cannot convert %1 to an int"
 msgstr "Nun puede convertise %1 a un enteru"
 
 #: src/bcodec/bdecoder.cpp:259
+#, kde-format
 msgid "Torrent is incomplete."
 msgstr "El torrent ta incompletu."
 
 #: src/datachecker/datacheckerjob.cpp:82
+#, kde-format
 msgid "Waiting for other data checks to finish"
 msgstr ""
 
 #: src/datachecker/datacheckerjob.cpp:88 src/torrent/torrentstats.cpp:109
+#, kde-format
 msgid "Checking data"
 msgstr "Verificando los datos"
 
 #: src/datachecker/datacheckerjob.cpp:141
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Checking data"
 msgid "Checking Data"
 msgstr "Verificando los datos"
@@ -155,25 +160,26 @@ msgid "Failed to write last chunk to DND file: %1"
 msgstr "Nun pudo escribise'l caberu bloque nel ficheru DND: %1"
 
 #: src/diskio/movedatafilesjob.cpp:141
+#, kde-format
 msgid "Waiting for other move jobs to finish"
 msgstr ""
 
 #: src/diskio/movedatafilesjob.cpp:142 src/diskio/movedatafilesjob.cpp:182
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Add Source"
 msgctxt "The source of a file operation"
 msgid "Source"
 msgstr "Amestar una fonte"
 
 #: src/diskio/movedatafilesjob.cpp:143 src/diskio/movedatafilesjob.cpp:183
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Destination"
 msgctxt "The destination of a file operation"
 msgid "Destination"
 msgstr "Destín"
 
 #: src/diskio/movedatafilesjob.cpp:181
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Moving average"
 msgctxt "@title job"
 msgid "Moving"
@@ -186,6 +192,7 @@ msgid "Failed to open %1: %2"
 msgstr "Fallu al abrir %1: %2"
 
 #: src/diskio/piecedata.cpp:69 src/diskio/piecedata.cpp:108
+#, kde-format
 msgid "Unable to write to a piece mapped read only"
 msgstr ""
 
@@ -197,13 +204,14 @@ msgstr[0] "1 collaciu"
 msgstr[1] "%1 collacios"
 
 #: src/download/downloader.cpp:807
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Displays all the webseeds of a torrent"
 msgid "Disabled because webseed does not match torrent"
 msgstr "Amuesa toles semilles web d'un torrent"
 
 #: src/download/httpconnection.cpp:45 src/download/webseed.cpp:52
 #: src/download/webseed.cpp:99
+#, kde-format
 msgid "Not connected"
 msgstr "Non coneutáu"
 
@@ -213,7 +221,7 @@ msgid "Resolving proxy %1:%2"
 msgstr "Resolviendo'l «proxy» %1:%2"
 
 #: src/download/httpconnection.cpp:122 src/download/httpconnection.cpp:140
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "There is not enough diskspace available."
 msgid "Not enough system resources available"
 msgstr "Nun hai abondu espaciu disponible en discu."
@@ -224,6 +232,7 @@ msgid "Resolving hostname %1"
 msgstr "Resolviendo'l nome de máquina %1"
 
 #: src/download/httpconnection.cpp:154 src/download/webseed.cpp:350
+#, kde-format
 msgid "Connection closed"
 msgstr "Zarróse la conexón"
 
@@ -233,34 +242,42 @@ msgid "Error: request failed: %1"
 msgstr "Fallu: falló la petición: %1"
 
 #: src/download/httpconnection.cpp:189 src/download/httpconnection.cpp:223
+#, kde-format
 msgid "Connected"
 msgstr "Coneutáu"
 
 #: src/download/httpconnection.cpp:200
+#, kde-format
 msgid "Error: Failed to connect to webseed"
 msgstr "Fallu: Fallu al coneutase a la semiente web"
 
 #: src/download/httpconnection.cpp:230
+#, kde-format
 msgid "Connecting"
 msgstr "Coneutando"
 
 #: src/download/httpconnection.cpp:241
+#, kde-format
 msgid "Failed to connect to webseed"
 msgstr "Fallu al coneutase a la semiente web"
 
 #: src/download/httpconnection.cpp:248
+#, kde-format
 msgid "Failed to resolve hostname of webseed"
 msgstr "Fallu al resolver el nome de máquina de la semiente web"
 
 #: src/download/httpconnection.cpp:326
+#, kde-format
 msgid "Error: failed to connect, server not responding"
 msgstr "Fallu: fallu al coneutase, el sirvidor nun retruca"
 
 #: src/download/httpconnection.cpp:337
+#, kde-format
 msgid "Error: request timed out"
 msgstr "Fallu: la petición superó'l tiempu llímite"
 
 #: src/download/httpconnection.cpp:401
+#, kde-format
 msgid "Redirected without a new location."
 msgstr "Redirixíu ensin un nuevu allugamientu"
 
@@ -272,6 +289,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: src/interfaces/trackerinterface.cpp:58
+#, kde-format
 msgid "OK"
 msgstr "Aceutar"
 
@@ -282,6 +300,7 @@ msgid "Warning: %1"
 msgstr "Abriendo %1"
 
 #: src/interfaces/trackerinterface.cpp:59
+#, kde-format
 msgid "Announcing"
 msgstr "Anunciando"
 
@@ -296,6 +315,7 @@ msgid "The directory %1 does not exist"
 msgstr "El direutoriu %1 nun esiste"
 
 #: src/peer/peerid.cpp:228
+#, kde-format
 msgid "Unknown client"
 msgstr "Cliente desconocíu"
 
@@ -303,10 +323,12 @@ msgstr "Cliente desconocíu"
 #: src/torrent/torrent.cpp:187 src/torrent/torrent.cpp:194
 #: src/torrent/torrent.cpp:202 src/torrent/torrent.cpp:206
 #: src/torrent/torrent.cpp:227 src/torrent/torrent.cpp:295
+#, kde-format
 msgid "Corrupted torrent."
 msgstr "Torrent tollíu."
 
 #: src/torrent/torrentcontrol.cpp:301
+#, kde-format
 msgid "Error writing to disk, do you have enough diskspace?"
 msgstr ""
 
@@ -340,58 +362,69 @@ msgid "Cannot create index file: %1"
 msgstr "Nun puede crease'l ficheru índiz: %1"
 
 #: src/torrent/torrentstats.cpp:89
+#, kde-format
 msgid "Not started"
 msgstr "Non aniciáu"
 
 #: src/torrent/torrentstats.cpp:91
+#, kde-format
 msgid "Download completed"
 msgstr "Baxada finada"
 
 #: src/torrent/torrentstats.cpp:93
+#, kde-format
 msgid "Seeding completed"
 msgstr "Siembra finada"
 
 #: src/torrent/torrentstats.cpp:95
+#, kde-format
 msgctxt "Status of a torrent file"
 msgid "Seeding"
 msgstr "Semando"
 
 #: src/torrent/torrentstats.cpp:97
+#, kde-format
 msgid "Downloading"
 msgstr "Baxando"
 
 #: src/torrent/torrentstats.cpp:99
+#, kde-format
 msgid "Stalled"
 msgstr "Estancáu"
 
 #: src/torrent/torrentstats.cpp:101
+#, kde-format
 msgid "Stopped"
 msgstr "Deteniu"
 
 #: src/torrent/torrentstats.cpp:105
+#, kde-format
 msgid "Allocating diskspace"
 msgstr "Asignando espaciu en discu"
 
 #: src/torrent/torrentstats.cpp:107
+#, kde-format
 msgid "Queued for seeding"
 msgstr ""
 
 #: src/torrent/torrentstats.cpp:107
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Currently downloading:"
 msgid "Queued for downloading"
 msgstr "Baxando anguaño:"
 
 #: src/torrent/torrentstats.cpp:111
+#, kde-format
 msgid "Stopped. No space left on device."
 msgstr "Deteníu. Nun queda espaciu nel preséu."
 
 #: src/torrent/torrentstats.cpp:113
+#, kde-format
 msgid "Paused"
 msgstr "Posáu"
 
 #: src/torrent/torrentstats.cpp:115
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Status of a torrent file"
 #| msgid "Seeding"
 msgid "Superseeding"
@@ -399,14 +432,17 @@ msgstr "Semando"
 
 #: src/tracker/httptracker.cpp:283 src/tracker/httptracker.cpp:303
 #: src/tracker/httptracker.cpp:460
+#, kde-format
 msgid "Invalid response from tracker"
 msgstr "Rempuesta nun válida del llocalizador"
 
 #: src/tracker/httptracker.cpp:296
+#, kde-format
 msgid "Invalid data from tracker"
 msgstr "Datos nun válidos del llocalizador"
 
 #: src/tracker/httptracker.cpp:477
+#, kde-format
 msgid "Invalid tracker URL"
 msgstr "URL nun válidu del llocalizador"
 
@@ -422,12 +458,13 @@ msgid "Unable to resolve hostname %1"
 msgstr "Nun foi posible resolver el nome de máquina %1"
 
 #: src/upnp/httprequest.cpp:95
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Connection closed unexpectedly."
 msgid "Connection closed unexpectedly"
 msgstr "La conexón zarróse inesperadamente."
 
 #: src/upnp/httprequest.cpp:154
+#, kde-format
 msgid "Operation timed out"
 msgstr ""
 
@@ -438,11 +475,12 @@ msgid "Failed to download %1: %2"
 msgstr "Fallu al baxar %1: %2"
 
 #: src/upnp/upnprouter.cpp:176
+#, kde-format
 msgid "Error parsing router description."
 msgstr "Fallu al analizar la descripción del router."
 
 #: src/upnp/upnprouter.cpp:214
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "Forwarding failed: \n"
 #| "Device does not have a WANIPConnection or WANPPPConnection."
@@ -454,6 +492,7 @@ msgstr ""
 "El preséu nun tien denguna WANIPConnection nin WANPPPConnection"
 
 #: src/upnp/upnprouter.cpp:314
+#, kde-format
 msgid "Cannot find port forwarding service in the device's description."
 msgstr ""
 "Nun ye posible atopar el serviciu de redirección de puertos na descripción "
@@ -542,35 +581,42 @@ msgstr[0] "1 día "
 msgstr[1] "%1 díes "
 
 #: src/util/logsystemmanager.cpp:33
+#, kde-format
 msgid "General"
 msgstr "Xeneral"
 
 #: src/util/logsystemmanager.cpp:34
+#, kde-format
 msgid "Connections"
 msgstr "Conexones"
 
 #: src/util/logsystemmanager.cpp:35
+#, kde-format
 msgid "Tracker"
 msgstr "Llocalizador"
 
 #: src/util/logsystemmanager.cpp:36
+#, kde-format
 msgid "DHT"
 msgstr "DHT"
 
 #: src/util/logsystemmanager.cpp:37
+#, kde-format
 msgid "Disk Input/Output"
 msgstr "Entrada/Salida de discu"
 
 #: src/util/logsystemmanager.cpp:38
+#, kde-format
 msgid "µTP"
 msgstr ""
 
 #: src/util/signalcatcher.cpp:80
+#, kde-format
 msgid "Error when writing to disk"
 msgstr ""
 
 #: src/util/signalcatcher.cpp:80
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Error reading from %1"
 msgid "Error when reading from disk"
 msgstr "Fallu al lleer de %1"
