@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-23 06:14+0000\n"
+"POT-Creation-Date: 2016-11-19 18:39+0100\n"
 "PO-Revision-Date: 2012-12-27 17:09+0100\n"
 "Last-Translator: ivarela <ivarela@ubuntu.com>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -18,6 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: KPlatoRCPSPlugin.cpp:61
+#, kde-format
+msgctxt "(qtundo-format) @info:whatsthis"
+msgid ""
+"<title>RCPS Scheduler</title><para>The Resource Constrained Project "
+"Scheduler (RCPS) focuses on scheduling the project to avoid overbooking "
+"resources. It still respects task dependencies and also tries to fullfill "
+"time constraints. However, time constraints can make it very difficult to "
+"find a good solution, so it may be preferable to use a different scheduler "
+"in these cases.</para>"
+msgstr ""
+
+#: KPlatoRCPSPlugin.cpp:61
+#, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "<title>RCPS Scheduler</title><para>The Resource Constrained Project "
@@ -33,7 +46,21 @@ msgstr ""
 msgid "Scheduling halted after %1 generations"
 msgstr ""
 
+#: KPlatoRCPSScheduler.cpp:120
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Scheduling halted after %1 generations"
+msgstr ""
+
 #: KPlatoRCPSScheduler.cpp:439
+#, kde-format
+msgid "Init"
+msgstr "Init"
+
+#: KPlatoRCPSScheduler.cpp:439
+#, fuzzy, kde-format
+#| msgid "Init"
+msgctxt "(qtundo-format)"
 msgid "Init"
 msgstr "Init"
 
@@ -42,8 +69,20 @@ msgstr "Init"
 msgid "Re-calculate project from start time: %1"
 msgstr ""
 
+#: KPlatoRCPSScheduler.cpp:443
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Re-calculate project from start time: %1"
+msgstr ""
+
 #: KPlatoRCPSScheduler.cpp:445
 #, kde-format
+msgid "Schedule project from start time: %1"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:445
+#, kde-format
+msgctxt "(qtundo-format)"
 msgid "Schedule project from start time: %1"
 msgstr ""
 
@@ -52,11 +91,31 @@ msgstr ""
 msgid "Schedule project from end time: %1"
 msgstr ""
 
+#: KPlatoRCPSScheduler.cpp:450
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Schedule project from end time: %1"
+msgstr ""
+
 #: KPlatoRCPSScheduler.cpp:462
+#, kde-format
+msgid "Failed to build a valid RCPS project"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:462
+#, kde-format
+msgctxt "(qtundo-format)"
 msgid "Failed to build a valid RCPS project"
 msgstr ""
 
 #: KPlatoRCPSScheduler.cpp:467
+#, kde-format
+msgid "Schedule"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:467
+#, kde-format
+msgctxt "(qtundo-format)"
 msgid "Schedule"
 msgstr ""
 
@@ -65,11 +124,31 @@ msgstr ""
 msgid "Invalid scheduling solution. Result: %1"
 msgstr ""
 
+#: KPlatoRCPSScheduler.cpp:476
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Invalid scheduling solution. Result: %1"
+msgstr ""
+
 #: KPlatoRCPSScheduler.cpp:562 KPlatoRCPSScheduler.cpp:705
+#, kde-format
+msgid "No resource request is registered"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:562 KPlatoRCPSScheduler.cpp:705
+#, kde-format
+msgctxt "(qtundo-format)"
 msgid "No resource request is registered"
 msgstr ""
 
 #: KPlatoRCPSScheduler.cpp:592 KPlatoRCPSScheduler.cpp:735
+#, kde-format
+msgid "No resource has been allocated"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:592 KPlatoRCPSScheduler.cpp:735
+#, kde-format
+msgctxt "(qtundo-format)"
 msgid "No resource has been allocated"
 msgstr ""
 
@@ -78,8 +157,20 @@ msgstr ""
 msgid "Scheduled task to start at %1 and finish at %2"
 msgstr ""
 
+#: KPlatoRCPSScheduler.cpp:606 KPlatoRCPSScheduler.cpp:749
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Scheduled task to start at %1 and finish at %2"
+msgstr ""
+
 #: KPlatoRCPSScheduler.cpp:654 KPlatoRCPSScheduler.cpp:781
 #, kde-format
+msgid "Project scheduled to start at %1 and finish at %2"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:654 KPlatoRCPSScheduler.cpp:781
+#, kde-format
+msgctxt "(qtundo-format)"
 msgid "Project scheduled to start at %1 and finish at %2"
 msgstr ""
 
@@ -88,10 +179,31 @@ msgstr ""
 msgid "Must start project early in order to finish in time: %1"
 msgstr ""
 
+#: KPlatoRCPSScheduler.cpp:784
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Must start project early in order to finish in time: %1"
+msgstr ""
+
 #: KPlatoRCPSScheduler.cpp:819
+#, fuzzy, kde-format
+#| msgctxt "Project Evaluation and Review Technique"
+#| msgid "PERT"
+msgctxt "(qtundo-format) Project Evaluation and Review Technique"
+msgid "PERT"
+msgstr "PERT"
+
+#: KPlatoRCPSScheduler.cpp:819
+#, kde-format
 msgctxt "Project Evaluation and Review Technique"
 msgid "PERT"
 msgstr "PERT"
+
+#: KPlatoRCPSScheduler.cpp:859
+#, kde-format
+msgctxt "(qtundo-format) 1=type of constraint"
+msgid "%1: Failed to meet constraint. Negative float=%2"
+msgstr ""
 
 #: KPlatoRCPSScheduler.cpp:859
 #, kde-format
