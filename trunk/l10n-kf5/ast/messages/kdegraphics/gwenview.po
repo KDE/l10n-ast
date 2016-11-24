@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:15+0100\n"
+"POT-Creation-Date: 2016-11-24 02:52+0100\n"
 "PO-Revision-Date: 2016-03-06 22:20+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -1487,12 +1487,12 @@ msgstr "Importar más Documentos"
 msgid "Quit"
 msgstr "Quitar"
 
-#: importer/importer.cpp:81
+#: importer/importer.cpp:82
 #, kde-format
 msgid "Could not create destination folder."
 msgstr "Nun pudo crease la carpeta de destín"
 
-#: importer/importer.cpp:87
+#: importer/importer.cpp:89
 #, kde-format
 msgid ""
 "Could not create temporary upload folder:\n"
@@ -1533,25 +1533,47 @@ msgstr ""
 "<i>Escribi testu o calca nos elementos inferiores pa personalizar el "
 "formatu</i>"
 
-#: importer/main.cpp:42
+#: importer/main.cpp:46
 #, kde-format
 msgid "Gwenview Importer"
 msgstr "Importador de Gwenview"
 
-#: importer/main.cpp:44
+#: importer/main.cpp:48
 #, kde-format
 msgid "Photo Importer"
 msgstr "Photo Importer"
 
-#: importer/main.cpp:49
+#: importer/main.cpp:54
+#, kde-format
+msgid ""
+"The device UDI, used to retrieve information about the device (name, icon...)"
+msgstr ""
+
+#: importer/main.cpp:54
+#, kde-format
+msgid "Device UDI"
+msgstr "UDI de preséu"
+
+#: importer/main.cpp:57
 #, kde-format
 msgid "Source folder"
 msgstr "Orixe de carpeta"
 
-#: importer/main.cpp:50
+#: importer/main.cpp:62
 #, kde-format
-msgid "Device UDI"
-msgstr "UDI de preséu"
+msgid "Missing required source folder argument."
+msgstr ""
+
+#: importer/main.cpp:66
+#, kde-format
+msgid "Too many arguments."
+msgstr ""
+
+#: importer/main.cpp:72
+#, fuzzy, kde-format
+#| msgid "Source folder"
+msgid "Invalid source folder."
+msgstr "Orixe de carpeta"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: importer/progresspage.ui:30
@@ -1559,12 +1581,12 @@ msgstr "UDI de preséu"
 msgid "Importing documents..."
 msgstr "Importando documentos..."
 
-#: importer/thumbnailpage.cpp:197
+#: importer/thumbnailpage.cpp:200
 #, kde-format
 msgid "Import Selected"
 msgstr "Importar Seleicionao"
 
-#: importer/thumbnailpage.cpp:201
+#: importer/thumbnailpage.cpp:204
 #, kde-format
 msgid "Import All"
 msgstr "Importar Too"
