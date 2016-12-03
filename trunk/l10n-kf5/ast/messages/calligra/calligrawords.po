@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2015-11-16 02:46+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -89,6 +89,26 @@ msgstr ""
 #: part/calligrawords_readonly.rc:29
 #, kde-format
 msgid "&Tools"
+msgstr ""
+
+#: part/commands/KWChangePageStyleCommand.cpp:24
+msgctxt "(qtundo-format)"
+msgid "Set Page Style"
+msgstr ""
+
+#: part/commands/KWNewPageStyleCommand.cpp:25
+msgctxt "(qtundo-format)"
+msgid "Insert Page Style"
+msgstr ""
+
+#: part/commands/KWPageStylePropertiesCommand.cpp:29
+msgctxt "(qtundo-format)"
+msgid "Page Properties"
+msgstr ""
+
+#: part/commands/KWShapeCreateCommand.cpp:55
+msgctxt "(qtundo-format)"
+msgid "Create shape"
 msgstr ""
 
 #: part/dialogs/KWAnchoringProperties.cpp:434
@@ -360,6 +380,11 @@ msgstr ""
 msgid "Connect Text Frames"
 msgstr ""
 
+#: part/dialogs/KWFrameDialog.cpp:79
+msgctxt "(qtundo-format)"
+msgid "Change Shape Properties"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, grpAnchor)
 #: part/dialogs/KWInsertImage.ui:17
 #, kde-format
@@ -513,14 +538,19 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: part/dialogs/KWPageSettingsDialog.cpp:224
-#, kde-format
-msgid "Clone Page Style"
+#: part/dialogs/KWPageSettingsDialog.cpp:150
+msgctxt "(qtundo-format)"
+msgid "Change Page Style"
 msgstr ""
 
 #: part/dialogs/KWPageSettingsDialog.cpp:224
 #, kde-format
 msgid "Add a new page style with the name:"
+msgstr ""
+
+#: part/dialogs/KWPageSettingsDialog.cpp:224
+#, kde-format
+msgid "Clone Page Style"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -638,12 +668,12 @@ msgstr ""
 
 #: part/dockers/KWNavigationWidget.cpp:108
 #, kde-format
-msgid "Section"
+msgid "Page #"
 msgstr ""
 
 #: part/dockers/KWNavigationWidget.cpp:108
 #, kde-format
-msgid "Page #"
+msgid "Section"
 msgstr ""
 
 #: part/dockers/KWRdfDocker.cpp:52
@@ -1048,14 +1078,14 @@ msgstr ""
 msgid "Copyright 1998-%1, The Words Team"
 msgstr "© 2012, The Author Team"
 
-#: part/KWAboutData.h:45
-#, kde-format
-msgid "Pierre Ducroquet"
-msgstr ""
-
 #: part/KWAboutData.h:45 part/KWAboutData.h:46
 #, kde-format
 msgid "Co maintainer"
+msgstr ""
+
+#: part/KWAboutData.h:45
+#, kde-format
+msgid "Pierre Ducroquet"
 msgstr ""
 
 #: part/KWAboutData.h:46
@@ -1063,15 +1093,15 @@ msgstr ""
 msgid "C. Boemann"
 msgstr ""
 
-#: part/KWAboutData.h:47
-#, kde-format
-msgid "Sebastian Sauer"
-msgstr ""
-
 #: part/KWAboutData.h:47 part/KWAboutData.h:48 part/KWAboutData.h:49
 #: part/KWAboutData.h:51
 #, kde-format
 msgid "Everything"
+msgstr ""
+
+#: part/KWAboutData.h:47
+#, kde-format
+msgid "Sebastian Sauer"
 msgstr ""
 
 #: part/KWAboutData.h:48
@@ -1086,22 +1116,17 @@ msgstr ""
 
 #: part/KWAboutData.h:50
 #, kde-format
-msgid "Inge Wallin"
-msgstr "Inge Wallin"
+msgid "Formatting stuff"
+msgstr ""
 
 #: part/KWAboutData.h:50
 #, kde-format
-msgid "Formatting stuff"
-msgstr ""
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
 
 #: part/KWAboutData.h:51
 #, kde-format
 msgid "Thorsten Zachmann"
-msgstr ""
-
-#: part/KWAboutData.h:52
-#, kde-format
-msgid "Matus Uzak"
 msgstr ""
 
 #: part/KWAboutData.h:52 part/KWAboutData.h:58 part/KWAboutData.h:59
@@ -1113,14 +1138,19 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
-#: part/KWAboutData.h:53
+#: part/KWAboutData.h:52
 #, kde-format
-msgid "Pavol Korinek"
+msgid "Matus Uzak"
 msgstr ""
 
 #: part/KWAboutData.h:53
 #, kde-format
 msgid "Layout and Painting"
+msgstr ""
+
+#: part/KWAboutData.h:53
+#, kde-format
+msgid "Pavol Korinek"
 msgstr ""
 
 #: part/KWAboutData.h:54
@@ -1145,12 +1175,12 @@ msgstr ""
 
 #: part/KWAboutData.h:56
 #, kde-format
-msgid "Smit Patel"
+msgid "Bibliography"
 msgstr ""
 
 #: part/KWAboutData.h:56
 #, kde-format
-msgid "Bibliography"
+msgid "Smit Patel"
 msgstr ""
 
 #: part/KWAboutData.h:57
@@ -1235,12 +1265,12 @@ msgstr ""
 
 #: part/KWAboutData.h:71
 #, kde-format
-msgid "Ulrich Kuettler"
+msgid "KFormula"
 msgstr ""
 
 #: part/KWAboutData.h:71
 #, kde-format
-msgid "KFormula"
+msgid "Ulrich Kuettler"
 msgstr ""
 
 #: part/KWAboutData.h:72

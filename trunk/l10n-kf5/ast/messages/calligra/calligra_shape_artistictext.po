@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: artistictextshape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2010-06-17 17:35+0100\n"
 "Last-Translator: astur <malditoastur@gmail.com>\n"
 "Language-Team: asturian <kde-i18n-doc@kde.org>\n"
@@ -17,6 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-Language: asturian\n"
+
+#: AddTextRangeCommand.cpp:28 AddTextRangeCommand.cpp:35
+#, fuzzy
+#| msgid "Add text range"
+msgctxt "(qtundo-format)"
+msgid "Add text range"
+msgstr "Amestar un intervalu de testu"
 
 #: ArtisticTextShapeFactory.cpp:30
 #, kde-format
@@ -109,6 +116,13 @@ msgstr "Calca Intro pa finar la edición"
 msgid "Press return to finish editing."
 msgstr "Calca Intro pa finar la edición"
 
+#: ArtisticTextTool.cpp:594
+#, fuzzy
+#| msgid "Convert to Path"
+msgctxt "(qtundo-format)"
+msgid "Convert to Path"
+msgstr "convertir a la ruta"
+
 #: ArtisticTextTool.cpp:607
 #, kde-format
 msgid "Text Properties"
@@ -125,11 +139,55 @@ msgstr "Testu na ruta"
 msgid "Artistic text editing"
 msgstr "Ferramienta d'edición de testu artísticu"
 
+#: AttachTextToPathCommand.cpp:28
 #, fuzzy
-#~| msgid "Add text range"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add text range"
-#~ msgstr "Amestar un intervalu de testu"
+#| msgid "Attach Path"
+msgctxt "(qtundo-format)"
+msgid "Attach Path"
+msgstr "Asociar a la ruta"
+
+#: ChangeTextAnchorCommand.cpp:27
+#, fuzzy
+#| msgid "Change text anchor"
+msgctxt "(qtundo-format)"
+msgid "Change text anchor"
+msgstr "Camudar anchor de testu"
+
+#: ChangeTextFontCommand.cpp:29
+#, fuzzy
+#| msgid "Change font"
+msgctxt "(qtundo-format)"
+msgid "Change font"
+msgstr "Camudar fonte"
+
+#: ChangeTextOffsetCommand.cpp:28
+#, fuzzy
+#| msgid "Change Text Offset"
+msgctxt "(qtundo-format)"
+msgid "Change Text Offset"
+msgstr "Camudar el desplazamientu del testu"
+
+#: DetachTextFromPathCommand.cpp:27
+#, fuzzy
+#| msgid "Detach Path"
+msgctxt "(qtundo-format)"
+msgid "Detach Path"
+msgstr "Desasociar a la ruta"
+
+#: RemoveTextRangeCommand.cpp:29
+#, fuzzy
+#| msgid "Remove text range"
+msgctxt "(qtundo-format)"
+msgid "Remove text range"
+msgstr "Desaniciar un intervalu de testu"
+
+#: ReplaceTextRangeCommand.cpp:27 ReplaceTextRangeCommand.cpp:35
+#: ReplaceTextRangeCommand.cpp:43
+#, fuzzy
+#| msgid "Remove text range"
+msgctxt "(qtundo-format)"
+msgid "Replace text range"
+msgstr "Desaniciar un intervalu de testu"
 
 #, fuzzy
 #~| msgid "ArtisticTextShape"
@@ -148,18 +206,6 @@ msgstr "Ferramienta d'edición de testu artísticu"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Artistic Text"
 #~ msgstr "Testu artísticu"
-
-#, fuzzy
-#~| msgid "Detach Path"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Detach Path"
-#~ msgstr "Desasociar a la ruta"
-
-#, fuzzy
-#~| msgid "Convert to Path"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to Path"
-#~ msgstr "convertir a la ruta"
 
 #, fuzzy
 #~| msgid "Press return to finish editing."
@@ -190,42 +236,6 @@ msgstr "Ferramienta d'edición de testu artísticu"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Artistic text editing"
 #~ msgstr "Ferramienta d'edición de testu artísticu"
-
-#, fuzzy
-#~| msgid "Attach Path"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Attach Path"
-#~ msgstr "Asociar a la ruta"
-
-#, fuzzy
-#~| msgid "Change text anchor"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change text anchor"
-#~ msgstr "Camudar anchor de testu"
-
-#, fuzzy
-#~| msgid "Change font"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change font"
-#~ msgstr "Camudar fonte"
-
-#, fuzzy
-#~| msgid "Change Text Offset"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Text Offset"
-#~ msgstr "Camudar el desplazamientu del testu"
-
-#, fuzzy
-#~| msgid "Remove text range"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove text range"
-#~ msgstr "Desaniciar un intervalu de testu"
-
-#, fuzzy
-#~| msgid "Remove text range"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Replace text range"
-#~ msgstr "Desaniciar un intervalu de testu"
 
 #~ msgid "Family:"
 #~ msgstr "Familia:"
