@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-07 02:41+0100\n"
+"POT-Creation-Date: 2016-12-08 02:33+0100\n"
 "PO-Revision-Date: 2016-09-06 20:35+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: config/globalconfigpage.cpp:47 config/projectconfigpage.cpp:71 plugin.cpp:82
-#: plugin.cpp:95
+#: config/globalconfigpage.cpp:47 config/projectconfigpage.cpp:71 plugin.cpp:83
+#: plugin.cpp:96
 #, kde-format
 msgid "Cppcheck"
 msgstr "Cppcheck"
@@ -28,38 +28,33 @@ msgstr "Cppcheck"
 msgid "Configure Cppcheck settings"
 msgstr "Configurar axustes de CppCheck"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, cppcheck::GlobalConfigPage)
-#: config/globalconfigpage.ui:14
-#, kde-format
-msgid "Cppcheck Settings"
-msgstr "Axustes Cppcheck"
-
 #. i18n: ectx: property (title), widget (QGroupBox, pathsGroupBox)
-#: config/globalconfigpage.ui:20
+#: config/globalconfigpage.ui:17
 #, kde-format
 msgid "Paths"
 msgstr "Caminos"
 
 #. i18n: ectx: property (text), widget (QLabel, cppcheckLabel)
-#: config/globalconfigpage.ui:26
-#, kde-format
-msgid "Cppchec&k executable"
+#: config/globalconfigpage.ui:23
+#, fuzzy, kde-format
+#| msgid "Cppchec&k executable"
+msgid "Cppchec&k executable:"
 msgstr "Executable Cppchec&k"
 
 #. i18n: ectx: property (title), widget (QGroupBox, outputGroupBox)
-#: config/globalconfigpage.ui:45
+#: config/globalconfigpage.ui:42
 #, kde-format
 msgid "Output"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideOutputView)
-#: config/globalconfigpage.ui:51
+#: config/globalconfigpage.ui:48
 #, kde-format
 msgid "Hide output view during check"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showXmlOutput)
-#: config/globalconfigpage.ui:58
+#: config/globalconfigpage.ui:55
 #, kde-format
 msgid "Show cppcheck XML output in the output view"
 msgstr ""
@@ -75,8 +70,8 @@ msgstr "Cppcheck"
 #: config/projectconfigpage.ui:35
 #, kde-format
 msgid ""
-"<html><head/><body><p>Check for unused functions. It is recommend to only "
-"enable this when the whole program is scanned</p></body></html>"
+"Check for unused functions. It is recommend to only enable this when the "
+"whole program is scanned"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkUnusedFunction)
@@ -90,10 +85,9 @@ msgstr "función ensi usu"
 #: config/projectconfigpage.ui:48
 #, kde-format
 msgid ""
-"<html><head/><body><p>Allow that Cppcheck reports even though the analysis "
-"is inconclusive. There are false positives with this option. Each result "
-"must be carefully investigated before you know if it is good or bad.</p></"
-"body></html>"
+"Allow that Cppcheck reports even though the analysis is inconclusive. There "
+"are false positives with this option. Each result must be carefully "
+"investigated before you know if it is good or bad."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_inconclusiveAnalysis)
@@ -105,8 +99,8 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_checkInformation)
 #: config/projectconfigpage.ui:58
 #, kde-format
-msgid "<html><head/><body><p>Enable information messages</p></body></html>"
-msgstr ""
+msgid "Enable information messages"
+msgstr "Habilitar mensaxes d'información"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkInformation)
 #: config/projectconfigpage.ui:61
@@ -117,11 +111,12 @@ msgstr "información"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_checkMissingInclude)
 #: config/projectconfigpage.ui:71
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Warn if there are missing includes"
 msgid ""
-"<html><head/><body><p>Warn if there are missing includes. For detailed "
-"information use 'check-config'</p></body></html>"
-msgstr ""
+"Warn if there are missing includes. For detailed information use 'check-"
+"config'"
+msgstr "Avisar si hai \"includes\" que falten"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkMissingInclude)
 #: config/projectconfigpage.ui:74
@@ -133,8 +128,8 @@ msgstr "missingInclude"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_checkPerformance)
 #: config/projectconfigpage.ui:84
 #, kde-format
-msgid "<html><head/><body><p>Enable performance messages</p></body></html>"
-msgstr ""
+msgid "Enable performance messages"
+msgstr "Habilitar mensaxes de rindimientu"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkPerformance)
 #: config/projectconfigpage.ui:87
@@ -147,11 +142,11 @@ msgstr "rindimientu"
 #: config/projectconfigpage.ui:97
 #, kde-format
 msgid ""
-"<html><head/><body><p>Force checking of files that have a lot of "
-"configurations. Error is printed if such a file is found so there is no "
-"reason to use this by default. If used together with '--max-configs=', the "
-"last option is the one that is effective.</p><p>Be careful with using this "
-"option - it can dramatically slow checking.</p></body></html>"
+"<p>Force checking of files that have a lot of configurations. Error is "
+"printed if such a file is found so there is no reason to use this by "
+"default. If used together with '--max-configs=', the last option is the one "
+"that is effective.<br/><br/>Be careful with using this option - it can "
+"dramatically slow checking.</p>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_forceCheck)
@@ -163,8 +158,8 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_checkPortability)
 #: config/projectconfigpage.ui:107
 #, kde-format
-msgid "<html><head/><body><p>Enable portability messages</p></body></html>"
-msgstr ""
+msgid "Enable portability messages"
+msgstr "Habilitar mensaxes de portabilidá"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkPortability)
 #: config/projectconfigpage.ui:110
@@ -177,9 +172,8 @@ msgstr "portabilidá"
 #: config/projectconfigpage.ui:120
 #, kde-format
 msgid ""
-"<html><head/><body><p>Enable all coding style checks. All messages with the "
-"severities 'style', 'performance' and 'portability' are enabled.</p></body></"
-"html>"
+"Enable all coding style checks. All messages with the severities 'style', "
+"'performance' and 'portability' are enabled."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkStyle)
@@ -193,8 +187,8 @@ msgstr "estilu"
 #: config/projectconfigpage.ui:133
 #, kde-format
 msgid ""
-"<html><head/><body><p>Check Cppcheck configuration. The normal code analysis "
-"is disabled by this flag.</p></body></html>"
+"Check Cppcheck configuration. The normal code analysis is disabled by this "
+"flag."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkConfig)
@@ -214,9 +208,8 @@ msgstr ""
 #: config/projectconfigpage.ui:152
 #, kde-format
 msgid ""
-"<html><head/><body><p>Add 'project' include directories to cppcheck "
-"arguments. This option adds only paths related with project's root and build "
-"directories.</p></body></html>"
+"Add 'project' include directories to cppcheck arguments. This option adds "
+"only paths related with project's root and build directories."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useProjectIncludes)
@@ -229,9 +222,8 @@ msgstr ""
 #: config/projectconfigpage.ui:168
 #, kde-format
 msgid ""
-"<html><head/><body><p>Add other, 'system' include directories to cppcheck "
-"arguments. </p><p>Be careful with using this option - it can dramatically "
-"slow checking.</p></body></html>"
+"<p>Add other, 'system' include directories to cppcheck arguments.<br/><br/"
+">Be careful with using this option - it can dramatically slow checking.</p>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useSystemIncludes)
@@ -276,7 +268,7 @@ msgstr "&Parámetros estra:"
 #: config/projectconfigpage.ui:242
 #, fuzzy, kde-format
 #| msgid "Extra &Parameters:"
-msgid "&Extra parameters:"
+msgid "Ex&tra parameters:"
 msgstr "&Parámetros estra:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_extraParameters)
@@ -309,6 +301,12 @@ msgstr ""
 #, kde-format
 msgid "Break lines"
 msgstr ""
+
+#: job.cpp:56
+#, fuzzy, kde-format
+#| msgid "Cppcheck"
+msgid "Cppcheck (%1)"
+msgstr "Cppcheck"
 
 #: job.cpp:162
 #, kde-format
@@ -363,23 +361,26 @@ msgstr ""
 msgid "Cppcheck XML Parsing: error at line %1, column %2: %3"
 msgstr "Analís XML Cppcheck: fallu na llinia %1, columna %2: %3"
 
-#: plugin.cpp:70
+#: plugin.cpp:71
 #, fuzzy, kde-format
 #| msgid "Cppcheck for current file"
 msgid "Cppcheck (Current File)"
 msgstr "Cppcheck pal ficheru actual"
 
-#: plugin.cpp:76
+#: plugin.cpp:77
 #, fuzzy, kde-format
 #| msgid "Cppcheck for current file"
 msgid "Cppcheck (Current Project)"
 msgstr "Cppcheck pal ficheru actual"
 
-#: plugin.cpp:127
+#: plugin.cpp:128
 #, kde-format
 msgctxt "@title:window"
 msgid "Test"
 msgstr ""
+
+#~ msgid "Cppcheck Settings"
+#~ msgstr "Axustes Cppcheck"
 
 #~ msgid "Error starting Cppcheck"
 #~ msgstr "Fallu al aniciar Cppcheck"
@@ -396,20 +397,8 @@ msgstr ""
 #~ msgid "Additional checks "
 #~ msgstr "Comprobaciones adicionales"
 
-#~ msgid "Enable performance messages"
-#~ msgstr "Habilitar mensaxes de rindimientu"
-
-#~ msgid "Enable portability messages"
-#~ msgstr "Habilitar mensaxes de portabilidá"
-
-#~ msgid "Enable information messages"
-#~ msgstr "Habilitar mensaxes d'información"
-
 #~ msgid "Check for unused functions"
 #~ msgstr "Comprobar funciones ensin usar"
-
-#~ msgid "Warn if there are missing includes"
-#~ msgstr "Avisar si hai \"includes\" que falten"
 
 #~ msgid "Cppcheck output"
 #~ msgstr "Salida Cppcheck"
