@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-06 02:06+0000\n"
+"POT-Creation-Date: 2016-12-11 01:55+0000\n"
 "PO-Revision-Date: 2015-04-02 01:01+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -59,23 +59,23 @@ msgstr ""
 #. Tag: para
 #: faq.docbook:56
 #, no-c-format
-msgid "Does &krusader; need &kde; to run?"
+msgid "Does &krusader; need &plasma; to run?"
 msgstr ""
 
 #. Tag: para
 #: faq.docbook:60
 #, no-c-format
 msgid ""
-"<emphasis>No, &krusader; does not need the &kde; window manager</emphasis> "
-"to run on your computer but &krusader;'s natural environment is &kde;, "
-"because it relies on services provided by the &kde; base libraries. Only "
-"some shared libraries are needed &eg; &kde; libraries, &Qt; libraries, &etc; "
-"This means that &krusader; runs on <ulink url=\"http://www.gnome.org"
-"\"><application>GNOME</application></ulink>, <ulink url=\"http://www."
-"afterstep.org/\"><application>AfterStep</application></ulink>, <ulink url="
-"\"http://www.xfce.org/\"><application>XFce</application></ulink> and other "
-"window managers provided the appropriate libraries are installed on your "
-"computer. All this is not a problem since the apt-get world can resolve "
+"<emphasis>No, &krusader; does not need the &plasma; window manager</"
+"emphasis> to run on your computer but &krusader;'s natural environment is "
+"&plasma;, because it relies on services provided by the &kf5-full; base "
+"libraries. Only some shared libraries are needed &eg; &kf5; libraries, &Qt; "
+"libraries, &etc; This means that &krusader; runs on <ulink url=\"http://www."
+"gnome.org\"><application>GNOME</application></ulink>, <ulink url=\"http://"
+"www.afterstep.org/\"><application>AfterStep</application></ulink>, <ulink "
+"url=\"http://www.xfce.org/\"><application>XFce</application></ulink> and "
+"other window managers provided the appropriate libraries are installed on "
+"your computer. All this is not a problem since the apt-get world can resolve "
 "these dependencies instantly."
 msgstr ""
 
@@ -83,8 +83,8 @@ msgstr ""
 #: faq.docbook:77
 #, no-c-format
 msgid ""
-"You do not need to switch to the &kde; window manager to use &krusader;; you "
-"can still use <ulink url=\"http://www.gnome.org\"><application>GNOME</"
+"You do not need to switch to the &plasma; window manager to use &krusader;; "
+"you can still use <ulink url=\"http://www.gnome.org\"><application>GNOME</"
 "application></ulink>, <ulink url=\"http://www.afterstep.org/"
 "\"><application>AfterStep</application></ulink>, <ulink url=\"http://www."
 "xfce.org/\"><application>XFce</application></ulink> or another window "
@@ -97,32 +97,31 @@ msgstr ""
 #, no-c-format
 msgid ""
 "A lot depends on what you want to do with &krusader;. You should know that "
-"&krusader; uses the &kde; KIO Slaves to access remote file systems, and "
+"&krusader; uses the &kf5; KIO Slaves to access remote file systems, and "
 "support for only a limited number of file system types are shipped with "
-"&kde; libraries, most of the KIO Slave are bundled with &kde; base "
-"(including fish, sftp and tar). However, if you want the property-dialog to "
-"show EXIF-data for .jpeg's, you need &kde;graphics. If you want ID3-infos, "
-"you need &kde;multimedia, and so on."
+"&kf5; libraries, most of the KIO Slave are bundled with &kf5-full; "
+"(including fish, sftp and tar)."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:101
+#: faq.docbook:97
 #, no-c-format
 msgid ""
-"To summarize, if you want a working &krusader; - install &kde;libs. If you "
-"want a functional &krusader; then you need &kde;libs + &kde;base. For "
-"maximum functionality, &krusader; needs all of the &kde; package libraries, "
-"but the &kde; window manager is optional."
+"To summarize, if you want a working &krusader; - install &kf5-full;. If you "
+"want a functional &krusader; then you need &kf5-full; and some additional "
+"&plasma; packages. For maximum functionality, &krusader; needs some &kde; "
+"Applications (&ark;, &kdiff3;, <application>KRename</application>), but the "
+"&plasma; window manager is optional."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:114
+#: faq.docbook:110
 #, no-c-format
 msgid "Which libraries does &krusader; need to run?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:118
+#: faq.docbook:114
 #, no-c-format
 msgid ""
 "For running &krusader; (&eg; when you have installed &krusader; with a "
@@ -132,7 +131,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:125
+#: faq.docbook:121
 #, no-c-format
 msgid ""
 "Take a look at the <link linkend=\"compilation\">&krusader; dependencies</"
@@ -140,7 +139,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:126
+#: faq.docbook:122
 #, no-c-format
 msgid ""
 "If you need more details please take a look at the <ulink url=\"http://"
@@ -150,7 +149,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:136
+#: faq.docbook:132
 #, no-c-format
 msgid ""
 "I have followed all the steps but <command>make</command> complains about "
@@ -158,13 +157,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:141
+#: faq.docbook:137
 #, no-c-format
 msgid "Install the missing packages."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:142
+#: faq.docbook:138
 #, no-c-format
 msgid ""
 "Take a look at the <link linkend=\"compilation\">Compilation requirements</"
@@ -172,7 +171,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:143
+#: faq.docbook:139
 #, no-c-format
 msgid ""
 "Most RPM-based distributions separate the headers from the libs. The headers "
@@ -183,7 +182,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:152
+#: faq.docbook:148
 #, no-c-format
 msgid ""
 "If you cannot find the needed package, use <ulink url=\"http://rpmfind.net/"
@@ -195,13 +194,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:166
+#: faq.docbook:162
 #, no-c-format
 msgid "How do I compile &krusader; when I am using a 64 bit processor?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:170
+#: faq.docbook:166
 #, no-c-format
 msgid ""
 "As far as we know, there are no issues. &krusader; is also available on "
@@ -210,7 +209,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:180
+#: faq.docbook:176
 #, no-c-format
 msgid ""
 "I have downloaded the Source RPM <filename>krusader-x.xx.dist.src.rpm</"
@@ -218,7 +217,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:188 faq.docbook:458
+#: faq.docbook:184 faq.docbook:454
 #, no-c-format
 msgid ""
 "Check the ownership and the permissions on <filename class=\"directory\"> /"
@@ -227,13 +226,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:195
+#: faq.docbook:191
 #, no-c-format
 msgid "To produce the binary RPM for your computer, do this:"
 msgstr ""
 
 #. Tag: screen
-#: faq.docbook:197
+#: faq.docbook:193
 #, no-c-format
 msgid ""
 "<prompt>$</prompt> <userinput><command>rpm</command> <option>--rebuild</"
@@ -242,7 +241,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:201
+#: faq.docbook:197
 #, no-c-format
 msgid ""
 "If all <link linkend=\"faqi_missing_libs\"> dependencies</link> are OK, a "
@@ -252,7 +251,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:211
+#: faq.docbook:207
 #, no-c-format
 msgid ""
 "Test the binary RPM for errors before installing: <screen><prompt>$</prompt> "
@@ -263,7 +262,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:218
+#: faq.docbook:214
 #, no-c-format
 msgid ""
 "Install the binary RPM as usual, for example: <screen><prompt>$</prompt> "
@@ -273,14 +272,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:224
+#: faq.docbook:220
 #, no-c-format
 msgid ""
 "Now you can <link linkend=\"starting-krusader\"> start</link> &krusader;."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:233
+#: faq.docbook:229
 #, no-c-format
 msgid ""
 "For more information about RPM, visit <ulink url=\"http://www.rpm.org/\">rpm."
@@ -290,7 +289,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:244
+#: faq.docbook:240
 #, no-c-format
 msgid ""
 "I am trying to install binary foo (RPM or DEB package), but it fails. What "
@@ -298,7 +297,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:248
+#: faq.docbook:244
 #, no-c-format
 msgid ""
 "Since we only prepare (and use) the source, we have no way of knowing this. "
@@ -311,7 +310,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:256
+#: faq.docbook:252
 #, no-c-format
 msgid ""
 "If the RPM is not OK, try to find another package at &Linux; software "
@@ -325,7 +324,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:263
+#: faq.docbook:259
 #, no-c-format
 msgid ""
 "In general, a package for an older version of your distribution or even for "
@@ -342,13 +341,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:285
+#: faq.docbook:281
 #, no-c-format
 msgid "I cannot find an RPM or DEB package for &krusader;, what to do?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:289
+#: faq.docbook:285
 #, no-c-format
 msgid ""
 "Check if your distribution provides &krusader;, if it does not then contact "
@@ -356,7 +355,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:293
+#: faq.docbook:289
 #, no-c-format
 msgid ""
 "Did you take a look at the &URL;s on the <link linkend=\"installation"
@@ -371,19 +370,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:311
+#: faq.docbook:307
 #, no-c-format
 msgid ""
 "Some new menu items are missing after updating &krusader;, what is wrong?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:315
+#: faq.docbook:311
 #, no-c-format
 msgid ""
 "The <filename>krusaderui.rc</filename> file is stored in <filename> $KDEDIR/"
 "share/kxmlgui5/krusader/krusaderui.rc</filename>. When you change the "
-"<guilabel>Toolbar</guilabel>, &kde; makes a copy of that file in the home "
+"<guilabel>Toolbar</guilabel>, &plasma; makes a copy of that file in the home "
 "folder at <filename> ~/.local/share/kxmlgui5/krusader/krusaderui.rc</"
 "filename>. If &krusader; was previously installed on your computer, and you "
 "install a newer &krusader; version the <filename> ~/.local/share/kxmlgui5/"
@@ -393,19 +392,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:331
+#: faq.docbook:327
 #, no-c-format
 msgid ""
 "The first line of <filename>krusaderui.rc</filename> contains the version "
-"number. After installing a newer &krusader; version, &kde; will "
+"number. After installing a newer &krusader; version, &plasma; will "
 "automatically replace the old <filename> ~/.local/share/kxmlgui5/krusader/"
 "krusaderui.rc</filename> with the newer version when starting the new "
-"&krusader; for the first time (&kde; will detect the newer version number in "
-"the first line)."
+"&krusader; for the first time (&plasma; will detect the newer version number "
+"in the first line)."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:342
+#: faq.docbook:338
 #, no-c-format
 msgid ""
 "If you install a development or beta version and &krusader; was already "
@@ -416,7 +415,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:353
+#: faq.docbook:349
 #, no-c-format
 msgid ""
 "If the <filename> ~/.local/share/kxmlgui5/krusader/krusaderui.rc</filename> "
@@ -428,7 +427,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:365
+#: faq.docbook:361
 #, no-c-format
 msgid ""
 "The default folder for the local configuration file <filename>kxmlgui5/"
@@ -439,7 +438,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:376
+#: faq.docbook:372
 #, no-c-format
 msgid ""
 "I am having trouble compiling and installing &krusader;, how do I send a "
@@ -447,7 +446,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:381
+#: faq.docbook:377
 #, no-c-format
 msgid ""
 "Please read our detailed <link linkend=\"compilation\">installation "
@@ -460,7 +459,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:392
+#: faq.docbook:388
 #, no-c-format
 msgid ""
 "Use the search function on the <ulink url=\"https://forum.kde.org/viewforum."
@@ -469,7 +468,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:396
+#: faq.docbook:392
 #, no-c-format
 msgid ""
 "If you cannot find a solution, please make a note of the following issues: "
@@ -481,7 +480,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:413
+#: faq.docbook:409
 #, no-c-format
 msgid ""
 "If you give us the error messages (&eg; <command>make</command> error "
@@ -491,25 +490,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:423
+#: faq.docbook:419
 #, no-c-format
 msgid "Send out your help request."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:426 faq.docbook:1070 faq.docbook:1288
+#: faq.docbook:422 faq.docbook:1066 faq.docbook:1284
 #, no-c-format
 msgid "Thank you for your co-operation!"
 msgstr "¡Gracies pola to cooperación!"
 
 #. Tag: para
-#: faq.docbook:433
+#: faq.docbook:429
 #, no-c-format
 msgid "How can I build an RPM package for &krusader;?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:437
+#: faq.docbook:433
 #, no-c-format
 msgid ""
 "If you have experience with compiling from source, you will probably be able "
@@ -521,7 +520,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:446
+#: faq.docbook:442
 #, no-c-format
 msgid ""
 "NEVER build RPMs when logged in as root. Mistakes in building packages (&eg; "
@@ -530,14 +529,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:454
+#: faq.docbook:450
 #, no-c-format
 msgid ""
 "Compile &krusader; from source to check that the compilation works fine."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:465
+#: faq.docbook:461
 #, no-c-format
 msgid ""
 "Copy <filename>krusader-1.xx.tar.gz</filename> to <filename class=\"directory"
@@ -545,7 +544,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:471
+#: faq.docbook:467
 #, no-c-format
 msgid ""
 "Copy <filename>krusader.spec</filename> to <filename class=\"directory\"> /"
@@ -553,7 +552,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:477
+#: faq.docbook:473
 #, no-c-format
 msgid ""
 "Edit <filename>krusader.spec</filename> and add your name, your email "
@@ -562,7 +561,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:484
+#: faq.docbook:480
 #, no-c-format
 msgid ""
 "Build the binary and the source RPM with: <screen><prompt>$</prompt> "
@@ -576,7 +575,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:499
+#: faq.docbook:495
 #, no-c-format
 msgid ""
 "If the build is not OK you will receive an error message during the rpmbuild "
@@ -584,7 +583,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:505
+#: faq.docbook:501
 #, no-c-format
 msgid ""
 "And finally: <link linkend=\"faqi_rpm-source\">test</link> the RPM before "
@@ -592,13 +591,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:517
+#: faq.docbook:513
 #, no-c-format
 msgid "Why does &krusader;-git show an old version number in the about box?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:521
+#: faq.docbook:517
 #, no-c-format
 msgid ""
 "Because we only change the version number just before we do a new release. "
@@ -608,13 +607,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:532
+#: faq.docbook:528
 #, no-c-format
 msgid "Why does &krusader; not start on &MacOS;?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:535
+#: faq.docbook:531
 #, no-c-format
 msgid ""
 "Please read carefully the <ulink url=\"http://www.macports.org/\">macports."
@@ -623,7 +622,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: faq.docbook:537
+#: faq.docbook:533
 #, no-c-format
 msgid ""
 "##########################################################\n"
@@ -641,19 +640,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: faq.docbook:545
+#: faq.docbook:541
 #, no-c-format
 msgid "Usage &FAQ;"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:549
+#: faq.docbook:545
 #, no-c-format
 msgid "Why does &krusader; freeze or hang on a dead mountpoint?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:553
+#: faq.docbook:549
 #, no-c-format
 msgid ""
 "When &krusader; is &eg; browsing an NFS share and the NFS server goes down, "
@@ -667,14 +666,14 @@ msgid ""
 "around this architectural problem is using a multi-threaded design - this "
 "way if we get stuck, we do not hang the entire application event loop, but "
 "we do not think that the time is right for adding threads, we are not sure "
-"that *all* the &kde; systems out there are using &Qt;-mt (the multi threaded "
+"that *all* the &kf5; systems out there are using &Qt;-mt (the multi threaded "
 "version of the &Qt; library), and the &krusader; Krew may not be the right "
 "people to address this major issue in any case; so currently this is just a "
 "bug we have to learn to live with."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:582
+#: faq.docbook:578
 #, no-c-format
 msgid ""
 "When I try to resize &krusader; to make it smaller, I discover that I cannot "
@@ -682,7 +681,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:587
+#: faq.docbook:583
 #, no-c-format
 msgid ""
 "See the <guibutton>F1, F2</guibutton> (&etc;) buttons? They are not allowing "
@@ -696,7 +695,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:609
+#: faq.docbook:605
 #, no-c-format
 msgid ""
 "<application>Samba</application> ISO 8859-x codepage / What to do if "
@@ -705,7 +704,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:616
+#: faq.docbook:612
 #, no-c-format
 msgid ""
 "&krusader; does not handle (yet) <application>Samba</application> ISO 8859-x "
@@ -720,7 +719,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:631
+#: faq.docbook:627
 #, no-c-format
 msgid ""
 "&krusader; reports \"krarc:... protocol not supported\" error at opening an "
@@ -728,13 +727,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:636
+#: faq.docbook:632
 #, no-c-format
 msgid "Install the krarc slave properly:"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:637
+#: faq.docbook:633
 #, no-c-format
 msgid ""
 "Copy the <filename>kio_krarc.so</filename>, <filename>kio_krarc.la</"
@@ -743,7 +742,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:642
+#: faq.docbook:638
 #, no-c-format
 msgid ""
 "Copy the <filename>krarc.protocol</filename> file into <filename class="
@@ -751,7 +750,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:646
+#: faq.docbook:642
 #, no-c-format
 msgid ""
 "or the directory where the KIO slaves are placed in your &Linux; "
@@ -759,7 +758,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:654
+#: faq.docbook:650
 #, no-c-format
 msgid ""
 "I get the error message \"Protocol not supported by Krusader: \"krarc:/path/"
@@ -767,11 +766,11 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:659
+#: faq.docbook:655
 #, no-c-format
 msgid ""
 "The icons, kio_slaves and documentation must be installed in the correct "
-"places in the &kde; directory tree. The <filename>kio_krarc.*</filename> "
+"places in the &kf5; directory tree. The <filename>kio_krarc.*</filename> "
 "files must be in the same directory with the other KIO slaves. Try this: "
 "locate <filename>kio_tar.*</filename> and copy/link the <filename>kio_krarc."
 "*</filename> files to the same location. Do not forget to run <command># "
@@ -779,13 +778,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:676
+#: faq.docbook:672
 #, no-c-format
 msgid "What to do if an external tool does not seem to work?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:679
+#: faq.docbook:675
 #, no-c-format
 msgid ""
 "&krusader; uses several programs as <link linkend=\"konfig-dependencies"
@@ -805,55 +804,56 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:702
+#: faq.docbook:698
 #, no-c-format
 msgid "How to executing jar files (and not enter the jar archive)?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:705
+#: faq.docbook:701
 #, no-c-format
 msgid ""
 "Go to the <link linkend=\"konfig-protocols\">Konfigurator Protocol page</"
 "link> and remove <guilabel>application/x-jar</guilabel> from the krarc node, "
 "&krusader; should no longer enter the archive. Global file associations are "
-"handled by &kde; and not by &krusader;. To associate the jar extension:"
+"handled by &plasma; and not by &krusader;. To associate the jar extension:"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:711
+#: faq.docbook:707
 #, no-c-format
-msgid "Open &kde;s &systemsettings;: <application>systemsettings</application>"
+msgid ""
+"Open &plasma; &systemsettings;: <application>systemsettings</application>"
 msgstr ""
 
 #. Tag: menuchoice
-#: faq.docbook:716
+#: faq.docbook:712
 #, no-c-format
 msgid ""
-"<guimenu>Common Appearance and Behavior</guimenu> <guimenuitem>File "
-"Associations</guimenuitem>"
+"<guimenu>Personalization</guimenu> <guimenuitem>File Associations</"
+"guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:723
+#: faq.docbook:719
 #, no-c-format
 msgid "Enter <filename>jar</filename> as filename pattern"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:727
+#: faq.docbook:723
 #, no-c-format
 msgid "Add <filename>java</filename> as application"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:739
+#: faq.docbook:735
 #, no-c-format
 msgid "Why do I have trouble with my &FTP; connection?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:743
+#: faq.docbook:739
 #, no-c-format
 msgid ""
 "This problem often occurs when you are behind a firewall or proxy. Open "
@@ -868,7 +868,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:764
+#: faq.docbook:760
 #, no-c-format
 msgid ""
 "I get <errorcode>FTP protocol not supported by &krusader;</errorcode> error "
@@ -876,7 +876,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:771
+#: faq.docbook:767
 #, no-c-format
 msgid ""
 "The reason for this error is that '&FTP; via &HTTP; proxy' feature is not "
@@ -886,7 +886,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:785
+#: faq.docbook:781
 #, no-c-format
 msgid ""
 "How do not add <literal role=\"extension\">.part</literal> suffix when "
@@ -894,7 +894,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:788
+#: faq.docbook:784
 #, no-c-format
 msgid ""
 "When uploading files a <literal role=\"extension\">.part</literal> suffix is "
@@ -902,20 +902,19 @@ msgid ""
 "automagically to remove the <literal role=\"extension\">.part</literal> "
 "suffix. This works great but sometimes some &FTP; servers do not allow a "
 "rename operation. You can solve this by unchecking the checkbox "
-"<guilabel>Mark partially uploaded files</guilabel> in &kde;'s System "
-"Settings. The check box is located at <menuchoice> <guimenu>Network "
-"Settings</guimenu> <guimenuitem>Connection Preferences</guimenuitem> </"
-"menuchoice>."
+"<guilabel>Mark partially uploaded files</guilabel> in &plasma; "
+"&systemsettings;. The check box is located at <menuchoice> <guimenu>Network</"
+"guimenu> <guimenuitem>Connection Preferences</guimenuitem> </menuchoice>."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:805
+#: faq.docbook:801
 #, no-c-format
 msgid "How can I close a remote connection (&eg; a &FTP; connection)?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:809
+#: faq.docbook:805
 #, no-c-format
 msgid ""
 "It is explained in the <link linkend=\"remote-connections\">remote "
@@ -923,13 +922,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:818
+#: faq.docbook:814
 #, no-c-format
 msgid "I am experiencing problems with the media:/ protocol, why?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:822
+#: faq.docbook:818
 #, no-c-format
 msgid ""
 "The media:/ protocol was removed since &kde; 4. Please use mtp:/ protocol "
@@ -937,33 +936,32 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:830
+#: faq.docbook:826
 #, no-c-format
 msgid "How can I disable the default sounds, &eg; when I do a delete action?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:834
+#: faq.docbook:830
 #, no-c-format
 msgid ""
-"Those are the default &kde; System sounds, and not related to &krusader;. If "
-"you want to disable them globally open your &kde; &systemsettings; "
+"Those are the default &plasma; System sounds, and not related to &krusader;. "
+"If you want to disable them globally open your &plasma; &systemsettings; "
 "( <application>systemsettings</application>): <menuchoice> "
-"<guimenu>Application Appearance and Behavior</guimenu> "
-"<guisubmenu>Application and System Notifications</guisubmenu> "
+"<guimenu>Personalization</guimenu> <guisubmenu>Notifications</guisubmenu> "
 "<guimenuitem>Manage Notifications</guimenuitem> </menuchoice>, "
-"<guilabel>Event Source: \"KDE Workspace\" </guilabel> and uncheck sound "
+"<guilabel>Event Source: \"Plasma Workspace\" </guilabel> and uncheck sound "
 "items you do not like."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:853
+#: faq.docbook:849
 #, no-c-format
 msgid "Where the remote connection manager?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:856
+#: faq.docbook:852
 #, no-c-format
 msgid ""
 "Use our Bookmark Manager. Use a <link linkend=\"remote-connections\">remote "
@@ -971,13 +969,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:865
+#: faq.docbook:861
 #, no-c-format
 msgid "Why does not MIME type magic sometimes work inside archives?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:869
+#: faq.docbook:865
 #, no-c-format
 msgid ""
 "When you enter an archive and press <keycap>F3</keycap> to view a file that "
@@ -990,22 +988,20 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:890
+#: faq.docbook:886
 #, no-c-format
-msgid ""
-"Where is Konfigurator, do i need to install the &kde; Desktop Environment to "
-"use it?"
+msgid "Where is Konfigurator, do i need to install the &plasma; to use it?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:893
+#: faq.docbook:889
 #, no-c-format
 msgid ""
 "<link linkend=\"konfigurator\">Konfigurator</link> is &krusader;s "
 "configuration module, if you have installed &krusader; then you have also "
-"Konfigurator. For some reason some people think it is an other &kde; "
-"application, but it is not, so you do not need to install the &kde; Desktop "
-"Environment to use Konfigurator. When running &krusader;, use <menuchoice> "
+"Konfigurator. For some reason some people think it is an other &plasma; "
+"application, but it is not, so you do not need to install the full fledged "
+"&plasma; to use Konfigurator. When running &krusader;, use <menuchoice> "
 "<guimenu>Settings</guimenu> <guimenuitem>Configure &krusader;</guimenuitem> "
 "</menuchoice>, and it will start <link linkend=\"konfigurator"
 "\">Konfigurator</link>. Please read the manual, &krusader; has many many "
@@ -1014,13 +1010,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:913
+#: faq.docbook:909
 #, no-c-format
 msgid "How can I set the look &amp; feel of 2 different users to be the same?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:917
+#: faq.docbook:913
 #, no-c-format
 msgid ""
 "Presuming that the current setup is the good configuration, you can copy the "
@@ -1030,7 +1026,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: faq.docbook:922
+#: faq.docbook:918
 #, no-c-format
 msgid ""
 "<prompt>#</prompt> <userinput><command>cp ~/.config/krusaderrc /root/."
@@ -1038,19 +1034,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: faq.docbook:932
+#: faq.docbook:928
 #, no-c-format
 msgid "General &FAQ;"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:936
+#: faq.docbook:932
 #, no-c-format
 msgid "How can I report a wish, a suggestion, or a comment?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:940
+#: faq.docbook:936
 #, no-c-format
 msgid ""
 "An open source project's greatest strength is derived from getting user "
@@ -1062,7 +1058,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:948
+#: faq.docbook:944
 #, no-c-format
 msgid ""
 "The most convenient way to contact us is to use the krusader-users <ulink "
@@ -1073,25 +1069,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:959
+#: faq.docbook:955
 #, no-c-format
 msgid "How can I send a patch?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:962
+#: faq.docbook:958
 #, no-c-format
 msgid "It is not easy to write patch guidelines, but here are some."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:966
+#: faq.docbook:962
 #, no-c-format
 msgid "Patches, new code or new features are always welcome!"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:970
+#: faq.docbook:966
 #, no-c-format
 msgid ""
 "Focus only on one problem at a time, so the developers can easily understand "
@@ -1099,7 +1095,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:975
+#: faq.docbook:971
 #, no-c-format
 msgid ""
 "Preferably, you can start a discussion with the developers on the krusader-"
@@ -1114,7 +1110,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:989
+#: faq.docbook:985
 #, no-c-format
 msgid ""
 "Submit your patch files into the &krusader; group on the <ulink url="
@@ -1128,7 +1124,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:999
+#: faq.docbook:995
 #, no-c-format
 msgid ""
 "Use portable solutions, &krusader; should run on: <itemizedlist> <listitem> "
@@ -1143,7 +1139,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1023
+#: faq.docbook:1019
 #, no-c-format
 msgid ""
 "A final note: always keep in mind a patch might be rejected. Either it has "
@@ -1156,19 +1152,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1040
+#: faq.docbook:1036
 #, no-c-format
 msgid "How can I report a bug?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1043
+#: faq.docbook:1039
 #, no-c-format
 msgid "Bugs?!?!? Well, ok.... We have an online Bug Tracking System."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1045
+#: faq.docbook:1041
 #, no-c-format
 msgid ""
 "Using the online bug-tracker helps us have a clear and orderly way to know "
@@ -1178,13 +1174,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1050
+#: faq.docbook:1046
 #, no-c-format
 msgid "Before reporting a bug, please read the following:"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1053
+#: faq.docbook:1049
 #, no-c-format
 msgid ""
 "<emphasis role=\"bold\">Check</emphasis> if the bug is already posted in the "
@@ -1193,7 +1189,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1059
+#: faq.docbook:1055
 #, no-c-format
 msgid ""
 "If you cannot find this bug mentioned, please <emphasis role=\"bold"
@@ -1205,25 +1201,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1072
+#: faq.docbook:1068
 #, no-c-format
 msgid ""
 "If possible, try to do the same operation with &konqueror; or another &kde; "
 "application. If you encounter the same problem then it is possibly a KIO "
-"Slaves or &kde; (kdelibs) bug, and not a &krusader; bug. &krusader; uses the "
-"&kde; libraries and the KIO Slave for many operations. In some cases you can "
+"Slaves or &kf5-full; bug, and not a &krusader; bug. &krusader; uses the "
+"&kf5; libraries and the KIO Slave for many operations. In some cases you can "
 "encounter problems if your distribution is incorrectly configured, please "
 "test it first as explained above."
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1093
+#: faq.docbook:1089
 #, no-c-format
 msgid "How can i send good debug or crash reports?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1096
+#: faq.docbook:1092
 #, no-c-format
 msgid ""
 "Usually binary packages that are been used by your distribution do not "
@@ -1241,14 +1237,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1114
+#: faq.docbook:1110
 #, no-c-format
 msgid ""
 "What to do if the KDEcrashhandler sends no useful backtrace information?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1117
+#: faq.docbook:1113
 #, no-c-format
 msgid ""
 "Usually binary packages that are been used by your distribution do not "
@@ -1270,13 +1266,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1141
+#: faq.docbook:1137
 #, no-c-format
 msgid "Does &krusader; have a mailing list?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1145
+#: faq.docbook:1141
 #, no-c-format
 msgid ""
 "Yes, currently we have 5 <ulink url=\"https://krusader.org/get-involved/"
@@ -1285,7 +1281,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1149
+#: faq.docbook:1145
 #, no-c-format
 msgid ""
 "Tip. our mailing lists can be browsed online or read with a newsreader, so "
@@ -1294,7 +1290,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1154
+#: faq.docbook:1150
 #, no-c-format
 msgid ""
 "<ulink url=\"http://groups.google.com/group/krusader-news\">&krusader;-news</"
@@ -1303,7 +1299,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1159
+#: faq.docbook:1155
 #, no-c-format
 msgid ""
 "<ulink url=\"http://groups.google.com/group/krusader-devel\">&krusader;-"
@@ -1313,7 +1309,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1165
+#: faq.docbook:1161
 #, no-c-format
 msgid ""
 "<ulink url=\"http://groups.google.com/group/krusader-users\">&krusader;-"
@@ -1322,13 +1318,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1177
+#: faq.docbook:1173
 #, no-c-format
 msgid "Does &krusader; provide news feeds?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1181
+#: faq.docbook:1177
 #, no-c-format
 msgid ""
 "Yes, we do. Several news feeds in various formats are available. <ulink url="
@@ -1339,13 +1335,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1190
+#: faq.docbook:1186
 #, no-c-format
 msgid "Does &krusader; have an IRC channel?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1194
+#: faq.docbook:1190
 #, no-c-format
 msgid ""
 "Yes, we do. Feel free to talk to the &krusader; Krew and fellow-users via "
@@ -1355,13 +1351,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1206
+#: faq.docbook:1202
 #, no-c-format
 msgid "How does the &krusader; forum work?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1210
+#: faq.docbook:1206
 #, no-c-format
 msgid ""
 "In the spirit of freedom of speech, everything that is &krusader; related "
@@ -1375,7 +1371,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1221
+#: faq.docbook:1217
 #, no-c-format
 msgid ""
 "If the <link linkend=\"index\">Documentation</link>, <link linkend=\"faq"
@@ -1386,7 +1382,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1229
+#: faq.docbook:1225
 #, no-c-format
 msgid ""
 "Please use the search function of the <ulink url=\"https://forum.kde.org/"
@@ -1401,13 +1397,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1298
+#: faq.docbook:1294
 #, no-c-format
 msgid "How can I translate &krusader; into my native language?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1302
+#: faq.docbook:1298
 #, no-c-format
 msgid ""
 "If you are interested in translating the &krusader; GUI or documentation, "
@@ -1416,13 +1412,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1310
+#: faq.docbook:1306
 #, no-c-format
 msgid "How can I support &krusader;?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1313
+#: faq.docbook:1309
 #, no-c-format
 msgid ""
 "You can <link linkend=\"help_krusader\"> support</link> &krusader; in many "
@@ -1432,13 +1428,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1327
+#: faq.docbook:1323
 #, no-c-format
 msgid "Is there a &MacOS; X port?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1330
+#: faq.docbook:1326
 #, no-c-format
 msgid ""
 "Yes, there is a <link linkend=\"kde4_mac_install\">&MacOS;-X port</link> "
@@ -1451,13 +1447,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1342
+#: faq.docbook:1338
 #, no-c-format
 msgid "Is there a &Windows; port?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1348
+#: faq.docbook:1344
 #, no-c-format
 msgid ""
 "No, there was a port but it is unmaintained and unavailable now. A "
@@ -1467,7 +1463,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1350
+#: faq.docbook:1346
 #, no-c-format
 msgid ""
 "If you want to help with porting please join <ulink url=\"http://windows.kde."
@@ -1478,7 +1474,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1360
+#: faq.docbook:1356
 #, no-c-format
 msgid ""
 "Why is &konqueror; in \"midnight commander style\" not an <link linkend="
@@ -1486,7 +1482,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1365
+#: faq.docbook:1361
 #, no-c-format
 msgid ""
 "The two panels and a commandline are available, all the other stuff like "
@@ -1495,13 +1491,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1376
+#: faq.docbook:1372
 #, no-c-format
 msgid "Why should I use an <link linkend=\"gloss-ofm\">OFM</link>?"
 msgstr ""
 
 #. Tag: para
-#: faq.docbook:1380
+#: faq.docbook:1376
 #, no-c-format
 msgid ""
 "An <ulink url=\"http://www.softpanorama.org/OFM/index.shtml\">Orthodox File "
