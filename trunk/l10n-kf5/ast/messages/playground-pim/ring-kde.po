@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-16 03:51+0100\n"
+"POT-Creation-Date: 2016-12-17 03:46+0100\n"
 "PO-Revision-Date: 2016-02-10 02:43+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -381,6 +381,64 @@ msgstr ""
 msgctxt "Remove selected account"
 msgid "Remove"
 msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_8)
+#: src/conf/account/accountpages/account.cpp:81
+#: src/conf/account/accountpages/tabs.ui:91
+#: src/conf/account/model/extendedprotocolmodel.cpp:48
+#, kde-format
+msgid "Profile"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, alsaRingtoneDeviceL)
+#. i18n: ectx: property (title), widget (QGroupBox, lrcfg_ringtoneEnabled)
+#: src/conf/account/accountpages/account.cpp:85
+#: src/conf/account/accountpages/ringtone.ui:27 src/conf/dlgaudiobase.ui:130
+#, kde-format
+msgid "Ringtone"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#: src/conf/account/accountpages/account.cpp:86
+#: src/conf/account/accountpages/tabs.ui:71
+#, kde-format
+msgid "Security"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_7)
+#: src/conf/account/accountpages/account.cpp:87
+#: src/conf/account/accountpages/tabs.ui:61
+#, kde-format
+msgid "Credentials"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: src/conf/account/accountpages/account.cpp:88
+#: src/conf/account/accountpages/tabs.ui:51
+#, kde-format
+msgid "Codecs"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: src/conf/account/accountpages/account.cpp:89
+#: src/conf/account/accountpages/tabs.ui:41
+#, kde-format
+msgid "Network"
+msgstr "Rede"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: src/conf/account/accountpages/account.cpp:90
+#: src/conf/account/accountpages/tabs.ui:31
+#, kde-format
+msgid "Advanced"
+msgstr "Avanzao"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/conf/account/accountpages/account.cpp:91
+#: src/conf/account/accountpages/tabs.ui:21
+#, kde-format
+msgid "Basic"
+msgstr "Básico"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/conf/account/accountpages/advanced.ui:17
@@ -811,6 +869,16 @@ msgstr ""
 msgid "Fields marked with \"*\" are compulsory and required"
 msgstr ""
 
+#: src/conf/account/accountpages/dlgprofiles.cpp:159
+#, kde-format
+msgid "Open Image"
+msgstr ""
+
+#: src/conf/account/accountpages/dlgprofiles.cpp:159
+#, kde-format
+msgid "Image Files (*.png *.jpg *.gif)"
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgProfiles)
 #. i18n: ectx: property (windowTitle), widget (QDialog, PersonSelector)
 #. i18n: ectx: property (windowTitle), widget (QDialog, ContactMethodSelector)
@@ -1046,13 +1114,6 @@ msgstr ""
 msgid "Select a new ringtone"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, alsaRingtoneDeviceL)
-#. i18n: ectx: property (title), widget (QGroupBox, lrcfg_ringtoneEnabled)
-#: src/conf/account/accountpages/ringtone.ui:27 src/conf/dlgaudiobase.ui:130
-#, kde-format
-msgid "Ringtone"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QToolButton, m_pPlay)
 #: src/conf/account/accountpages/ringtone.ui:65
 #, kde-format
@@ -1246,63 +1307,85 @@ msgstr ""
 msgid "Known certificates"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: src/conf/account/accountpages/tabs.ui:21
-#, kde-format
-msgid "Basic"
-msgstr "Básico"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: src/conf/account/accountpages/tabs.ui:31
-#, kde-format
-msgid "Advanced"
-msgstr "Avanzao"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: src/conf/account/accountpages/tabs.ui:41
-#, kde-format
-msgid "Network"
-msgstr "Rede"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: src/conf/account/accountpages/tabs.ui:51
-#, kde-format
-msgid "Codecs"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_7)
-#: src/conf/account/accountpages/tabs.ui:61
-#, kde-format
-msgid "Credentials"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
-#: src/conf/account/accountpages/tabs.ui:71
-#, kde-format
-msgid "Security"
-msgstr ""
-
 #. i18n: ectx: attribute (title), widget (QWidget, tab_6)
 #: src/conf/account/accountpages/tabs.ui:81
 #, kde-format
 msgid "Ringtones"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_8)
-#: src/conf/account/accountpages/tabs.ui:91
-#: src/conf/account/model/extendedprotocolmodel.cpp:48
+#: src/conf/account/dlgaccount.cpp:111
+#, fuzzy, kde-format
+#| msgid "Are you sure you wish to remove this call?"
+msgid "Are you sure you want to remove %1?"
+msgstr "¿De xuru que deseyes desaniciar esta grabación?"
+
+#: src/conf/account/dlgaccount.cpp:115
 #, kde-format
-msgid "Profile"
+msgid "Remove profile"
 msgstr ""
+
+#: src/conf/account/dlgaccount.cpp:132
+#, fuzzy, kde-format
+#| msgid "No registered accounts"
+msgid "Remove account"
+msgstr "Nun hai cuentes rexistraes"
+
+#: src/conf/account/dlgaccount.cpp:167
+#, fuzzy, kde-format
+#| msgid "No registered accounts"
+msgid "Import accounts"
+msgstr "Nun hai cuentes rexistraes"
 
 #: src/conf/account/dlgaccount.cpp:171
 #, kde-format
 msgid "Enter the password"
 msgstr ""
 
+#: src/conf/account/dlgaccount.cpp:183
+#, fuzzy, kde-format
+#| msgid "Account"
+msgid "New account"
+msgstr "Cuenta"
+
+#: src/conf/account/dlgaccount.cpp:183
+#, fuzzy, kde-format
+#| msgid "No registered accounts"
+msgid "New account%1"
+msgstr "Nun hai cuentes rexistraes"
+
 #: src/conf/account/model/extendedprotocolmodel.cpp:50
 #, kde-format
 msgid "Import"
+msgstr ""
+
+#: src/conf/account/widgets/securityprogress.cpp:65 src/mainwindow.cpp:333
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: src/conf/account/widgets/securityprogress.cpp:65
+#, kde-format
+msgid "Weak"
+msgstr ""
+
+#: src/conf/account/widgets/securityprogress.cpp:65
+#, kde-format
+msgid "Medium"
+msgstr ""
+
+#: src/conf/account/widgets/securityprogress.cpp:65
+#, kde-format
+msgid "Acceptable"
+msgstr ""
+
+#: src/conf/account/widgets/securityprogress.cpp:65
+#, kde-format
+msgid "Strong"
+msgstr ""
+
+#: src/conf/account/widgets/securityprogress.cpp:65
+#, kde-format
+msgid "Complete"
 msgstr ""
 
 #: src/conf/account/widgets/securityprogress.cpp:275
@@ -1919,6 +2002,21 @@ msgstr ""
 msgid "Device Configuration"
 msgstr ""
 
+#: src/configurator/audiorecordingconfigurator.cpp:39
+#, kde-format
+msgid "Audio recording configurator"
+msgstr ""
+
+#: src/configurator/fallbackpersonconfigurator.cpp:35
+#, kde-format
+msgid "Fallback person configurator"
+msgstr ""
+
+#: src/configurator/localhistoryconfigurator.cpp:39
+#, kde-format
+msgid "Local history configurator"
+msgstr ""
+
 #: src/delegates/historydelegate.cpp:314
 #, kde-format
 msgid "Conference"
@@ -1952,7 +2050,7 @@ msgstr ""
 msgid "Bookmark"
 msgstr ""
 
-#: src/dock.cpp:292
+#: src/dock.cpp:292 src/klib/akonadibackend.cpp:271
 #, kde-format
 msgid "Contact"
 msgstr ""
@@ -2537,6 +2635,11 @@ msgstr ""
 msgid "Preferred"
 msgstr ""
 
+#: src/mainwindow.cpp:183
+#, kde-format
+msgid "System root certificates"
+msgstr ""
+
 #: src/mainwindow.cpp:213
 #, kde-format
 msgid "Ring"
@@ -2557,11 +2660,6 @@ msgstr "En llinia"
 #: src/mainwindow.cpp:326
 #, kde-format
 msgid "Your Ring ID:"
-msgstr ""
-
-#: src/mainwindow.cpp:333
-#, kde-format
-msgid "None"
 msgstr ""
 
 #: src/mainwindow.cpp:346
@@ -2744,7 +2842,7 @@ msgid "Create your account"
 msgstr "Nun hai cuentes rexistraes"
 
 #. i18n: ectx: property (text), widget (QLabel, searchingStateLabel)
-#: src/widgets/ui/accountcreator.ui:167
+#: src/widgets/ui/accountcreator.ui:167 src/widgets/wizard.cpp:155
 #, kde-format
 msgid "Searching..."
 msgstr ""
