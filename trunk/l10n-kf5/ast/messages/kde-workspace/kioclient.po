@@ -1,21 +1,20 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# enolp <enolp@softastur.org>, 2015, 2016.
+# enolp <enolp@softastur.org>, 2016.
 msgid ""
 msgstr ""
-"Project-Id-Version: kioclient\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-11-19 20:20+0100\n"
-"PO-Revision-Date: 2016-12-13 14:20+0100\n"
+"PO-Revision-Date: 2016-12-19 01:15+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
-"Language: ast_ES\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Language: asturian\n"
 "X-Generator: Lokalize 2.0\n"
 
 #, kde-format
@@ -26,7 +25,7 @@ msgstr "Softastur"
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "alministradores@softastur.org"
+msgstr ""
 
 #: kioclient.cpp:62
 #, kde-format
@@ -34,8 +33,6 @@ msgid ""
 "\n"
 "Syntax:\n"
 msgstr ""
-"\n"
-"Sintaxis:\n"
 
 #: kioclient.cpp:63
 #, kde-format
@@ -44,12 +41,9 @@ msgid ""
 "            # Opens a properties menu\n"
 "\n"
 msgstr ""
-"  kioclient openProperties «url»\n"
-"            # Abre un menú de propiedaes\n"
-"\n"
 
 #: kioclient.cpp:65
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "  kioclient exec 'url' ['mimetype']\n"
 "            # Tries to open the document pointed to by 'url', in the "
@@ -60,14 +54,6 @@ msgid ""
 "            #   document, or it may be a *.desktop file.\n"
 "            #   'url' can be an executable, too.\n"
 msgstr ""
-"  kioclient exec «url» [«triba_MIME»]\n"
-"            # Intenta abrir el documentu señaláu por una «url» na "
-"aplicación\n"
-"            #   asociada a él en KDE. Pues omitir «triba_MIME».\n"
-"            #   En tal casu la triba MIME determínase automáticamente,\n"
-"            #   Por supuesto, l'URL puede ser d'un documentu,\n"
-"            #   o puede ser un ficheru *.desktop.\n"
-"            #  «url» tamién puede ser un executable.\n"
 
 #: kioclient.cpp:72
 #, kde-format
@@ -76,9 +62,6 @@ msgid ""
 "            # Moves the URL 'src' to 'dest'.\n"
 "            #   'src' may be a list of URLs.\n"
 msgstr ""
-"  kioclient mueve «orixe» «destín»\n"
-"            # Mueve la URL «orixe» a «destín».\n"
-"            #   «orixe» podría ser un llistáu d'URLs.\n"
 
 #: kioclient.cpp:75
 #, kde-format
@@ -86,8 +69,6 @@ msgid ""
 "            #   'dest' may be \"trash:/\" to move the files\n"
 "            #   to the trash.\n"
 msgstr ""
-"            #   «destín» podría ser «trash:/» pa mover los ficheros\n"
-"            #   a la papelera.\n"
 
 #: kioclient.cpp:77
 #, kde-format
@@ -96,9 +77,6 @@ msgid ""
 "            #   is also available.\n"
 "\n"
 msgstr ""
-"            #   la versión curtia de mv de kioclient\n"
-"            #   tamién ta disponible.\n"
-"\n"
 
 #: kioclient.cpp:79
 #, kde-format
@@ -109,12 +87,6 @@ msgid ""
 "            #   a URL will be requested.\n"
 "\n"
 msgstr ""
-"  kioclient download [«fonte»]\n"
-"            # Copia la URL «fonte» a un allugamientu especificáu pol "
-"usuariu.\n"
-"            #   «fonte» podría ser un llistáu d'URLs; si nun tuviera\n"
-"            #   presente, entós solicitaríase una URL.\n"
-"\n"
 
 #: kioclient.cpp:83
 #, kde-format
@@ -123,9 +95,6 @@ msgid ""
 "            # Copies the URL 'src' to 'dest'.\n"
 "            #   'src' may be a list of URLs.\n"
 msgstr ""
-"  kioclient copy «fonte» «destín»\n"
-"            # Copia la URL «fonte» a «destín».\n"
-"            #   «fonte» podría ser un llistáu d'URLs.\n"
 
 #: kioclient.cpp:86
 #, kde-format
@@ -134,9 +103,6 @@ msgid ""
 "            #   is also available.\n"
 "\n"
 msgstr ""
-"            #   la versión curtia de cp de kioclient\n"
-"            #   tamién ta disponible.\n"
-"\n"
 
 #: kioclient.cpp:88
 #, kde-format
@@ -145,9 +111,6 @@ msgid ""
 "            # Writes out the contents of 'url' to stdout\n"
 "\n"
 msgstr ""
-"  kioclient cat «url»\n"
-"            # Escribe'l conteníu d'«url» a stdout\n"
-"\n"
 
 #: kioclient.cpp:90
 #, kde-format
@@ -156,9 +119,6 @@ msgid ""
 "            # Lists the contents of the directory 'url' to stdout\n"
 "\n"
 msgstr ""
-"  kioclient ls «url»\n"
-"            # Llista los conteníos del direutoriu «url» a stdout\n"
-"\n"
 
 #: kioclient.cpp:92
 #, kde-format
@@ -167,9 +127,6 @@ msgid ""
 "            # Removes the URL\n"
 "            #   'url' may be a list of URLs.\n"
 msgstr ""
-"  kioclient remove «url»\n"
-"            # Desanicia la URL\n"
-"            #   «url» podría ser un llistáu d'URLs.\n"
 
 #: kioclient.cpp:95
 #, kde-format
@@ -178,14 +135,11 @@ msgid ""
 "            #   is also available.\n"
 "\n"
 msgstr ""
-"            #   la versión curtia de rm de kioclient\n"
-"            #   tamién ta disponible.\n"
-"\n"
 
 #: kioclient.cpp:98
 #, kde-format
 msgid "*** Examples:\n"
-msgstr "*** Exemplos:\n"
+msgstr ""
 
 #: kioclient.cpp:99
 #, kde-format
@@ -194,9 +148,6 @@ msgid ""
 "             // Opens the file with default binding\n"
 "\n"
 msgstr ""
-"  kioclient exec file:/home/weis/data/test.html\n"
-"             // Abre'l ficheru col arreyu por defeutu\n"
-"\n"
 
 #: kioclient.cpp:101
 #, kde-format
@@ -205,9 +156,6 @@ msgid ""
 "             // Opens new window with URL\n"
 "\n"
 msgstr ""
-"  kioclient exec ftp://localhost/\n"
-"             // Abre una ventana nueva cola URL\n"
-"\n"
 
 #: kioclient.cpp:103
 #, kde-format
@@ -216,9 +164,6 @@ msgid ""
 "             // Starts emacs\n"
 "\n"
 msgstr ""
-"  kioclient exec file:/root/Escritoriu/emacs.desktop\n"
-"             // Anicia Emacs\n"
-"\n"
 
 #: kioclient.cpp:105
 #, kde-format
@@ -227,19 +172,16 @@ msgid ""
 "             // Opens the current directory. Very convenient.\n"
 "\n"
 msgstr ""
-"  kioclient exec .\n"
-"             // Abre'l direutoriu actual. Percómodo.\n"
-"\n"
 
 #: kioclient.cpp:121
 #, kde-format
 msgid "KIO Client"
-msgstr "Veceru de KIO"
+msgstr ""
 
 #: kioclient.cpp:122
 #, kde-format
 msgid "Command-line tool for network-transparent operations"
-msgstr "Ferramienta en llinia de comandos pa operaciones tresparentes de rede"
+msgstr ""
 
 #: kioclient.cpp:130
 #, kde-format
@@ -247,113 +189,77 @@ msgid ""
 "Non-interactive use: no message boxes. If you don't want a graphical "
 "connection, use --platform offscreen"
 msgstr ""
-"Usu non interactivu: ensin caxes de mensaxes. Si nun quies una conexón "
-"gráfica, usa --platform offscreen"
 
 #: kioclient.cpp:134
 #, kde-format
 msgid "Overwrite destination if it exists (for copy and move)"
-msgstr "Sobrescribe'l destín si yá existe (pa la copia y movición)"
+msgstr ""
 
 #: kioclient.cpp:138
 #, kde-format
 msgid "file or URL"
-msgstr "ficheru o URL"
+msgstr ""
 
 #: kioclient.cpp:138 kioclient.cpp:140 kioclient.cpp:143 kioclient.cpp:148
 #, kde-format
 msgid "urls..."
-msgstr "urls..."
+msgstr ""
 
 #: kioclient.cpp:140 kioclient.cpp:143
 #, kde-format
 msgid "Source URL or URLs"
-msgstr "URL o URLs fonte"
+msgstr ""
 
 #: kioclient.cpp:141 kioclient.cpp:144
 #, kde-format
 msgid "Destination URL"
-msgstr "URL de destín"
+msgstr ""
 
 #: kioclient.cpp:141 kioclient.cpp:144
 #, kde-format
 msgid "url"
-msgstr "url"
+msgstr ""
 
 #: kioclient.cpp:146
 #, kde-format
 msgid "Show available commands"
-msgstr "Amuesa los comandos disponibles"
+msgstr ""
 
 #: kioclient.cpp:147
 #, kde-format
 msgid "Command (see --commands)"
-msgstr "Comandu (ver --commands)"
+msgstr ""
 
 #: kioclient.cpp:147
 #, kde-format
 msgid "command"
-msgstr "comandu"
+msgstr ""
 
 #: kioclient.cpp:148
 #, kde-format
 msgid "Arguments for command"
-msgstr "Argumentos pal comandu"
+msgstr ""
 
 #: kioclient.cpp:186
 #, kde-format
 msgctxt "@info:shell"
 msgid "%1: Syntax error, not enough arguments\n"
-msgstr "%1: Fallu de sintaxis, nun hai argumentos abondos\n"
+msgstr ""
 
 #: kioclient.cpp:191
 #, kde-format
 msgctxt "@info:shell"
 msgid "%1: Syntax error, too many arguments\n"
-msgstr "%1: Fallu de sintaxis, milenta argumentos\n"
+msgstr ""
 
 #: kioclient.cpp:339
 #, kde-format
 msgid "Destination where to download the files"
-msgstr "Destín u baxar los ficheros"
+msgstr ""
 
 #: kioclient.cpp:380
 #, kde-format
 msgctxt "@info:shell"
 msgid "%1: Syntax error, unknown command '%2'\n"
-msgstr "%1: Fallu de sintaxis, comandu desconocíu «%2»\n"
+msgstr ""
 
-#~ msgid ""
-#~ "*** Examples:\n"
-#~ "  kioclient exec file:/root/Desktop/cdrom.desktop \"Mount default\"\n"
-#~ "             // Mounts the CDROM\n"
-#~ "\n"
-#~ msgstr ""
-#~ "*** Exemplos:\n"
-#~ "  kioclient exec file:/root/Escritoriu/cdrom.desktop «Mount default»\n"
-#~ "             // Monta'l CD-ROM\n"
-#~ "\n"
-
-#~ msgid ""
-#~ "  kioclient exec file:/home/weis/data/test.html Netscape\n"
-#~ "             // Opens the file with netscape\n"
-#~ "\n"
-#~ msgstr ""
-#~ "  kioclient exec file:/home/weis/data/test.html Netscape\n"
-#~ "             // Abre'l ficheru con Netscape\n"
-#~ "\n"
-
-#~ msgid ""
-#~ "  kioclient exec file:/root/Desktop/cdrom.desktop\n"
-#~ "             // Opens the CDROM's mount directory\n"
-#~ "\n"
-#~ msgstr ""
-#~ "  kioclient exec file:/root/Escritoriu/cdrom.desktop\n"
-#~ "             // Abre'l direutoriu de montaxe del CD-ROM\n"
-#~ "\n"
-
-#~ msgid "Non-interactive use: no message boxes"
-#~ msgstr "Usu non interactivu: ensin caxes de mensax"
-
-#~ msgid "Unable to download from an invalid URL."
-#~ msgstr "Nun ye dable descargar d'un URL non válidu."
