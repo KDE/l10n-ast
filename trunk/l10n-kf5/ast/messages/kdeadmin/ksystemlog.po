@@ -132,7 +132,8 @@ msgstr ""
 #: src/detailDialogBase.ui:28 src/loggerDialogBase.ui:33
 #: src/modes/acpid/acpidAnalyzer.h:50 src/modes/apache/apacheAnalyzer.h:53
 #: src/modes/base/syslogAnalyzer.cpp:59 src/modes/cups/cupsAnalyzer.cpp:38
-#: src/modes/cups/cupsPdfAnalyzer.h:55 src/modes/journald/journaldAnalyzer.cpp:43
+#: src/modes/cups/cupsPdfAnalyzer.h:55
+#: src/modes/journald/journaldAnalyzer.cpp:43
 #: src/modes/kernel/kernelAnalyzer.h:58 src/modes/samba/sambaAnalyzer.h:56
 #: src/modes/xorg/xorgAnalyzer.cpp:41 src/modes/xsession/xsessionAnalyzer.h:54
 #, kde-format
@@ -301,8 +302,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. i18n: ectx: property (title), widget (QGroupBox, optionsGroupbox)
-#: src/generalConfigurationWidgetBase.ui:112
-#: src/loggerDialogBase.ui:206
+#: src/generalConfigurationWidgetBase.ui:112 src/loggerDialogBase.ui:206
 #, kde-format
 msgid "Options"
 msgstr ""
@@ -504,7 +504,8 @@ msgstr ""
 msgid "Reloading <b>%1</b>...<br /><i>%2</i>"
 msgstr ""
 
-#: src/lib/localLogFileReader.cpp:113 src/lib/processOutputLogFileReader.cpp:109
+#: src/lib/localLogFileReader.cpp:113
+#: src/lib/processOutputLogFileReader.cpp:109
 #, kde-format
 msgid "This file is not valid. Please adjust it in the settings of KSystemLog."
 msgstr ""
@@ -557,9 +558,10 @@ msgid "URL '%1' is not valid, skipping this URL."
 msgstr ""
 
 #: src/lib/logModeItemBuilder.cpp:71 src/lib/logModeItemBuilder.cpp:88
-#: src/modes/acpid/acpidItemBuilder.h:54 src/modes/apache/apacheAccessItemBuilder.h:52
-#: src/modes/apache/apacheItemBuilder.h:52
-#: src/modes/cron/cronItemBuilder.h:52 src/modes/cups/cupsAccessItemBuilder.h:52
+#: src/modes/acpid/acpidItemBuilder.h:54
+#: src/modes/apache/apacheAccessItemBuilder.h:52
+#: src/modes/apache/apacheItemBuilder.h:52 src/modes/cron/cronItemBuilder.h:52
+#: src/modes/cups/cupsAccessItemBuilder.h:52
 #: src/modes/cups/cupsItemBuilder.h:50 src/modes/cups/cupsPageItemBuilder.h:52
 #: src/modes/cups/cupsPdfItemBuilder.h:52
 #: src/modes/journald/journaldItemBuilder.cpp:37
@@ -581,9 +583,10 @@ msgid "Process:"
 msgstr ""
 
 #: src/lib/logModeItemBuilder.cpp:74 src/lib/logModeItemBuilder.cpp:89
-#: src/modes/acpid/acpidItemBuilder.h:55 src/modes/apache/apacheAccessItemBuilder.h:53
-#: src/modes/apache/apacheItemBuilder.h:53
-#: src/modes/cron/cronItemBuilder.h:56 src/modes/cups/cupsAccessItemBuilder.h:53
+#: src/modes/acpid/acpidItemBuilder.h:55
+#: src/modes/apache/apacheAccessItemBuilder.h:53
+#: src/modes/apache/apacheItemBuilder.h:53 src/modes/cron/cronItemBuilder.h:56
+#: src/modes/cups/cupsAccessItemBuilder.h:53
 #: src/modes/cups/cupsItemBuilder.h:51 src/modes/cups/cupsPageItemBuilder.h:53
 #: src/modes/cups/cupsPdfItemBuilder.h:53
 #: src/modes/kernel/kernelItemBuilder.h:55
@@ -749,9 +752,9 @@ msgstr ""
 msgid "Process Crashed"
 msgstr ""
 
-#: src/loggerDialog.cpp:89 src/loggerDialog.cpp:123 src/modes/apache/apacheAccessAnalyzer.h:55
-#: src/modes/cron/cronAnalyzer.h:52 src/modes/cups/cupsAccessAnalyzer.h:56
-#: src/modes/cups/cupsPageAnalyzer.h:54
+#: src/loggerDialog.cpp:89 src/loggerDialog.cpp:123
+#: src/modes/apache/apacheAccessAnalyzer.h:55 src/modes/cron/cronAnalyzer.h:52
+#: src/modes/cups/cupsAccessAnalyzer.h:56 src/modes/cups/cupsPageAnalyzer.h:54
 #, kde-format
 msgid "User"
 msgstr ""
@@ -1375,11 +1378,13 @@ msgstr ""
 msgid "Others"
 msgstr ""
 
-#: src/modes/acpid/acpidAnalyzer.h:48 src/modes/apache/apacheAccessAnalyzer.h:51
+#: src/modes/acpid/acpidAnalyzer.h:48
+#: src/modes/apache/apacheAccessAnalyzer.h:51
 #: src/modes/apache/apacheAnalyzer.h:51 src/modes/base/syslogAnalyzer.cpp:56
 #: src/modes/cron/cronAnalyzer.h:49 src/modes/cups/cupsAccessAnalyzer.h:53
 #: src/modes/cups/cupsAnalyzer.cpp:37 src/modes/cups/cupsPageAnalyzer.h:52
-#: src/modes/cups/cupsPdfAnalyzer.h:54 src/modes/journald/journaldAnalyzer.cpp:41
+#: src/modes/cups/cupsPdfAnalyzer.h:54
+#: src/modes/journald/journaldAnalyzer.cpp:41
 #: src/modes/kernel/kernelAnalyzer.h:56 src/modes/samba/sambaAnalyzer.h:52
 #, kde-format
 msgid "Date"
@@ -1751,13 +1756,15 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeAll)
-#: src/modes/base/fileListBase.ui:109 src/modes/base/multipleFileListBase.ui:108
+#: src/modes/base/fileListBase.ui:109
+#: src/modes/base/multipleFileListBase.ui:108
 #, kde-format
 msgid "Rem&ove All"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, up)
-#: src/modes/base/fileListBase.ui:122 src/modes/base/multipleFileListBase.ui:121
+#: src/modes/base/fileListBase.ui:122
+#: src/modes/base/multipleFileListBase.ui:121
 #, kde-format
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
@@ -1786,13 +1793,15 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, up)
-#: src/modes/base/fileListBase.ui:131 src/modes/base/multipleFileListBase.ui:130
+#: src/modes/base/fileListBase.ui:131
+#: src/modes/base/multipleFileListBase.ui:130
 #, kde-format
 msgid "Move &Up"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, down)
-#: src/modes/base/fileListBase.ui:141 src/modes/base/multipleFileListBase.ui:140
+#: src/modes/base/fileListBase.ui:141
+#: src/modes/base/multipleFileListBase.ui:140
 #, kde-format
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
@@ -1821,7 +1830,8 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, down)
-#: src/modes/base/fileListBase.ui:150 src/modes/base/multipleFileListBase.ui:149
+#: src/modes/base/fileListBase.ui:150
+#: src/modes/base/multipleFileListBase.ui:149
 #, kde-format
 msgid "Move &Down"
 msgstr ""
@@ -2800,7 +2810,8 @@ msgstr ""
 msgid "<p>These files will be analyzed to show the <b>X.org log</b>.</p>"
 msgstr ""
 
-#: src/modes/xorg/xorgItemBuilder.h:71 src/modes/xsession/xsessionItemBuilder.h:71
+#: src/modes/xorg/xorgItemBuilder.h:71
+#: src/modes/xsession/xsessionItemBuilder.h:71
 #, kde-format
 msgid "none"
 msgstr ""
@@ -2925,4 +2936,3 @@ msgstr ""
 #, kde-format
 msgid "No Log"
 msgstr ""
-

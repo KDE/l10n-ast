@@ -1119,14 +1119,14 @@ msgstr ""
 #: kwave/TopWidget.cpp:1048 plugins/codec_audiofile/AudiofileDecoder.cpp:123
 #: plugins/codec_flac/FlacEncoder.cpp:246
 #: plugins/codec_flac/FlacEncoder.cpp:264
-#: plugins/codec_flac/FlacEncoder.cpp:279
-#: plugins/codec_mp3/MP3Decoder.cpp:507 plugins/codec_ogg/OpusCommon.cpp:73
-#: plugins/codec_ogg/OpusDecoder.cpp:388 plugins/codec_ogg/OpusEncoder.cpp:380
-#: plugins/codec_ogg/OpusEncoder.cpp:433 plugins/codec_wav/WavDecoder.cpp:367
-#: plugins/codec_wav/WavEncoder.cpp:444 plugins/playback/PlayBack-OSS.cpp:245
-#: plugins/playback/PlayBack-OSS.cpp:253 plugins/playback/PlayBack-Qt.cpp:172
-#: plugins/playback/PlayBack-Qt.cpp:177 plugins/record/RecordPlugin.cpp:954
-#: plugins/record/RecordPlugin.cpp:970 plugins/record/RecordPlugin.cpp:1040
+#: plugins/codec_flac/FlacEncoder.cpp:279 plugins/codec_mp3/MP3Decoder.cpp:507
+#: plugins/codec_ogg/OpusCommon.cpp:73 plugins/codec_ogg/OpusDecoder.cpp:388
+#: plugins/codec_ogg/OpusEncoder.cpp:380 plugins/codec_ogg/OpusEncoder.cpp:433
+#: plugins/codec_wav/WavDecoder.cpp:367 plugins/codec_wav/WavEncoder.cpp:444
+#: plugins/playback/PlayBack-OSS.cpp:245 plugins/playback/PlayBack-OSS.cpp:253
+#: plugins/playback/PlayBack-Qt.cpp:172 plugins/playback/PlayBack-Qt.cpp:177
+#: plugins/record/RecordPlugin.cpp:954 plugins/record/RecordPlugin.cpp:970
+#: plugins/record/RecordPlugin.cpp:1040
 #, kde-format
 msgid "Out of memory"
 msgstr ""
@@ -3890,8 +3890,7 @@ msgid "ms"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbRecordTrigger)
-#: plugins/amplifyfree/AmplifyFreeDialog.cpp:48
-#: plugins/record/RecordDlg.ui:314
+#: plugins/amplifyfree/AmplifyFreeDialog.cpp:48 plugins/record/RecordDlg.ui:314
 #, no-c-format, kde-format
 msgid "%"
 msgstr ""
@@ -3904,15 +3903,13 @@ msgid "Amplify Free"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLevelFadeIn)
-#: plugins/amplifyfree/AmplifyFreePlugin.cpp:45
-#: plugins/record/RecordDlg.ui:530
+#: plugins/amplifyfree/AmplifyFreePlugin.cpp:45 plugins/record/RecordDlg.ui:530
 #, kde-format
 msgid "Fade In"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLevelFadeOut)
-#: plugins/amplifyfree/AmplifyFreePlugin.cpp:46
-#: plugins/record/RecordDlg.ui:543
+#: plugins/amplifyfree/AmplifyFreePlugin.cpp:46 plugins/record/RecordDlg.ui:543
 #, kde-format
 msgid "Fade Out"
 msgstr ""
@@ -3928,16 +3925,16 @@ msgid "Fade Leadout"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, spinbox_2)
-#: plugins/band_pass/BandPassDialog.cpp:60
-#: plugins/band_pass/BandPassDlg.ui:117 plugins/lowpass/LowPassDialog.cpp:59
+#: plugins/band_pass/BandPassDialog.cpp:60 plugins/band_pass/BandPassDlg.ui:117
+#: plugins/lowpass/LowPassDialog.cpp:59
 #: plugins/notch_filter/NotchFilterDialog.cpp:63
 #: plugins/sonagram/SonagramWindow.cpp:166
 #, kde-format
 msgid "Hz"
 msgstr ""
 
-#: plugins/band_pass/BandPassDialog.cpp:65
-#: plugins/lowpass/LowPassDialog.cpp:64 plugins/noise/NoiseDialog.cpp:276
+#: plugins/band_pass/BandPassDialog.cpp:65 plugins/lowpass/LowPassDialog.cpp:64
+#: plugins/noise/NoiseDialog.cpp:276
 #: plugins/notch_filter/NotchFilterDialog.cpp:68
 #: plugins/volume/VolumeDialog.cpp:262
 #, kde-format
@@ -4006,8 +4003,7 @@ msgid "ASCII encoded audio"
 msgstr ""
 
 #: plugins/codec_ascii/AsciiEncoder.cpp:92
-#: plugins/codec_flac/FlacEncoder.cpp:213
-#: plugins/codec_ogg/OggEncoder.cpp:120
+#: plugins/codec_flac/FlacEncoder.cpp:213 plugins/codec_ogg/OggEncoder.cpp:120
 #, kde-format
 msgid "Unable to open the file for saving."
 msgstr ""
@@ -5110,8 +5106,8 @@ msgid "%1 MB (%2 byte)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblRate)
-#: plugins/fileinfo/FileInfoDialog.cpp:233
-#: plugins/newsignal/NewSigDlg.ui:102 plugins/record/RecordDlg.ui:698
+#: plugins/fileinfo/FileInfoDialog.cpp:233 plugins/newsignal/NewSigDlg.ui:102
+#: plugins/record/RecordDlg.ui:698
 #, kde-format
 msgid "Sample rate:"
 msgstr ""
@@ -5125,8 +5121,8 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblResolution)
-#: plugins/fileinfo/FileInfoDialog.cpp:242
-#: plugins/newsignal/NewSigDlg.ui:206 plugins/record/RecordDlg.ui:912
+#: plugins/fileinfo/FileInfoDialog.cpp:242 plugins/newsignal/NewSigDlg.ui:206
+#: plugins/record/RecordDlg.ui:912
 #, kde-format
 msgid "Resolution:"
 msgstr ""
@@ -5139,8 +5135,8 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannels)
-#: plugins/fileinfo/FileInfoDialog.cpp:250
-#: plugins/newsignal/NewSigDlg.ui:196 plugins/record/RecordDlg.ui:708
+#: plugins/fileinfo/FileInfoDialog.cpp:250 plugins/newsignal/NewSigDlg.ui:196
+#: plugins/record/RecordDlg.ui:708
 #, kde-format
 msgid "Tracks:"
 msgstr ""
@@ -6064,8 +6060,7 @@ msgstr ""
 msgid "Null device"
 msgstr ""
 
-#: plugins/playback/PlayBack-ALSA.cpp:586
-#: plugins/playback/PlayBack-OSS.cpp:138
+#: plugins/playback/PlayBack-ALSA.cpp:586 plugins/playback/PlayBack-OSS.cpp:138
 #, kde-format
 msgid ""
 "I/O error. Maybe the driver\n"
@@ -6073,8 +6068,7 @@ msgid ""
 "properly configured."
 msgstr ""
 
-#: plugins/playback/PlayBack-ALSA.cpp:592
-#: plugins/playback/PlayBack-OSS.cpp:144
+#: plugins/playback/PlayBack-ALSA.cpp:592 plugins/playback/PlayBack-OSS.cpp:144
 #, kde-format
 msgid ""
 "The device is busy. Maybe some other application is\n"
@@ -6090,21 +6084,20 @@ msgid "Opening the device '%1' failed: %2"
 msgstr ""
 
 #: plugins/playback/PlayBack-ALSA.cpp:830
-#: plugins/playback/PlayBack-ALSA.cpp:844
-#: plugins/record/Record-ALSA.cpp:1064 plugins/record/Record-ALSA.cpp:1077
+#: plugins/playback/PlayBack-ALSA.cpp:844 plugins/record/Record-ALSA.cpp:1064
+#: plugins/record/Record-ALSA.cpp:1077
 #, kde-format
 msgid "Card %1: "
 msgstr ""
 
 #: plugins/playback/PlayBack-ALSA.cpp:832
-#: plugins/playback/PlayBack-ALSA.cpp:846
-#: plugins/record/Record-ALSA.cpp:1066 plugins/record/Record-ALSA.cpp:1079
+#: plugins/playback/PlayBack-ALSA.cpp:846 plugins/record/Record-ALSA.cpp:1066
+#: plugins/record/Record-ALSA.cpp:1079
 #, kde-format
 msgid "Device %1: "
 msgstr ""
 
-#: plugins/playback/PlayBack-ALSA.cpp:834
-#: plugins/record/Record-ALSA.cpp:1068
+#: plugins/playback/PlayBack-ALSA.cpp:834 plugins/record/Record-ALSA.cpp:1068
 #, kde-format
 msgid "Subdevice %1: "
 msgstr ""
@@ -6236,8 +6229,7 @@ msgid "(mono)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannels)
-#: plugins/playback/PlayBackDialog.cpp:614
-#: plugins/playback/PlayBackDlg.ui:350
+#: plugins/playback/PlayBackDialog.cpp:614 plugins/playback/PlayBackDlg.ui:350
 #, kde-format
 msgid "(stereo)"
 msgstr ""
@@ -7015,7 +7007,8 @@ msgstr ""
 msgid "Reading from the recording device failed. Error number = %1 (%2)"
 msgstr ""
 
-#: plugins/reverse/ReversePlugin.cpp:77 plugins/reverse/UndoReverseAction.cpp:44
+#: plugins/reverse/ReversePlugin.cpp:77
+#: plugins/reverse/UndoReverseAction.cpp:44
 #, kde-format
 msgid "Reverse"
 msgstr ""
@@ -7465,4 +7458,3 @@ msgstr ""
 #, kde-format
 msgid "Silence"
 msgstr ""
-
