@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-19 02:51+0000\n"
+"POT-Creation-Date: 2016-12-28 03:02+0000\n"
 "PO-Revision-Date: 2015-03-26 03:12+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -23,42 +23,39 @@ msgstr ""
 
 #. Tag: title
 #: menu-mainwindow.docbook:3
+#, fuzzy, no-c-format
+#| msgid "The Help Menu"
+msgid "The Browse Menu"
+msgstr "El menú d'ayuda"
+
+#. Tag: para
+#: menu-mainwindow.docbook:5
+#, no-c-format
+msgid ""
+"The Browse menu provides access to the same views you can see on the Left "
+"Sidebar. Descriptions see under <link linkend=\"using-mainwindow\">The Main "
+"&digikam; Window</link>. In addition there are \"Back\" and \"Forward\" menu "
+"items that will lead you through the history of your &digikam; use in the "
+"same way you are used to from an internet browser for example. And finally "
+"there is the \"Quit\" item to leave &digikam;."
+msgstr ""
+
+#. Tag: title
+#: menu-mainwindow.docbook:13
 #, no-c-format
 msgid "The Album Menu"
 msgstr ""
 
-#. Tag: menuchoice
-#: menu-mainwindow.docbook:9
+#. Tag: para
+#: menu-mainwindow.docbook:15
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Alt;<keycap>Left</keycap></keycombo> </"
-"shortcut> <guimenu>Album</guimenu><guimenuitem>Back</guimenuitem>"
-msgstr ""
-
-#. Tag: action
-#: menu-mainwindow.docbook:13
-#, no-c-format
-msgid "Go back to the previously visited View using history."
+"The first five items of this menu (above the separator) are only active if "
+"you are in the Albums View."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:17
-#, no-c-format
-msgid ""
-"<shortcut><keycombo action=\"simul\">&Alt;<keycap>Right</keycap></keycombo> "
-"</shortcut> <guimenu>Album</guimenu><guimenuitem>Forward</guimenuitem>"
-msgstr ""
-
-#. Tag: action
-#: menu-mainwindow.docbook:21
-#, no-c-format
-msgid ""
-"Go forward to the previously visited View using history. You can only go "
-"forward if you've just gone back."
-msgstr ""
-
-#. Tag: menuchoice
-#: menu-mainwindow.docbook:25
+#: menu-mainwindow.docbook:20
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> </"
@@ -66,92 +63,114 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:28
+#: menu-mainwindow.docbook:23
 #, no-c-format
-msgid "Create a new album folder."
+msgid ""
+"Opens a dialog to create a new album folder similar to the album properties "
+"dialog described <link linkend=\"albumpropsedit.anchor\">here</link>. It "
+"just has an additional drop down field where you can choose whether the new "
+"album is created as a child of the current one or at the root of the current "
+"collection."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:39
+#: menu-mainwindow.docbook:34
 #, no-c-format
 msgid "<guimenu>Album</guimenu><guimenuitem>Properties</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:42
+#: menu-mainwindow.docbook:37
 #, no-c-format
-msgid "Edit the currently selected album title, caption and collection."
+msgid ""
+"Edit the currently selected album title, caption and collection as described "
+"<link linkend=\"albumpropsedit.anchor\">here</link>."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:46
+#: menu-mainwindow.docbook:41
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\"><keycap>F5</keycap></keycombo> </"
-"shortcut> <guimenu>Album</guimenu><guimenuitem>Refresh</guimenuitem>"
+"shortcut> <guimenu>Album</guimenu><guimenuitem>Rename</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:50
+#: menu-mainwindow.docbook:45
 #, no-c-format
-msgid "Refresh the current view in the Main Window."
+msgid "Rename the current album."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:54
-#, no-c-format
-msgid ""
-"<guimenu>Album</guimenu> <guimenuitem>Synchronize Images with Database</"
-"guimenuitem>"
-msgstr ""
-
-#. Tag: action
-#: menu-mainwindow.docbook:58
-#, no-c-format
-msgid ""
-"Synchronize the metadata between database and the file's metadata of all "
-"items of the current Main Window. The images will inherit the database "
-"metadata, not the other way around as in <link linkend=\"update-db-metadata"
-"\">this </link>menu."
-msgstr ""
-
-#. Tag: menuchoice
-#: menu-mainwindow.docbook:62
+#: menu-mainwindow.docbook:49
 #, no-c-format
 msgid ""
 "<guimenu>Album</guimenu> <guimenuitem>Open in File Manager</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:66
+#: menu-mainwindow.docbook:53
 #, no-c-format
 msgid "Open the default file manager with the current Album path."
 msgstr ""
 
 #. Tag: menuchoice
+#: menu-mainwindow.docbook:57
+#, no-c-format
+msgid "<guimenu>Album</guimenu> <guimenuitem>Delete Album</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:61
+#, no-c-format
+msgid "Delete/Move to trash selected Album and all items in it."
+msgstr ""
+
+#. Tag: term
+#: menu-mainwindow.docbook:65 menu-mainwindow.docbook:106
+#: menu-mainwindow.docbook:159 menu-mainwindow.docbook:182
+#: menu-mainwindow.docbook:250 menu-mainwindow.docbook:356
+#: menu-mainwindow.docbook:479 menu-mainwindow.docbook:540
+#: menu-mainwindow.docbook:561 menu-mainwindow.docbook:584
+#: menu-mainwindow.docbook:646 menu-mainwindow.docbook:711
+#: menu-mainwindow.docbook:757 menu-mainwindow.docbook:776
+#: menu-mainwindow.docbook:870 menu-mainwindow.docbook:911
+#: menu-mainwindow.docbook:1114
+#, no-c-format
+msgid "______________________________"
+msgstr ""
+
+#. Tag: menuchoice
 #: menu-mainwindow.docbook:70
 #, no-c-format
-msgid "<guimenu>Album</guimenu> <guimenuitem>Delete</guimenuitem>"
+msgid ""
+"<guimenu>Album</guimenu> <guimenuitem>Write Metadata to Images</guimenuitem>"
 msgstr ""
 
 #. Tag: action
 #: menu-mainwindow.docbook:74
 #, no-c-format
-msgid "Delete/Move to trash selected Album and all items in it."
+msgid ""
+"Write the metadata in the database to the file's metadata of all items in "
+"the current album. The images will inherit the database metadata, not the "
+"other way round as in the next menu item."
 msgstr ""
 
 #. Tag: menuchoice
 #: menu-mainwindow.docbook:78
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
-"shortcut> <guimenu>Album</guimenu><guimenuitem>Quit</guimenuitem>"
+"<guimenu>Album</guimenu> <guimenuitem>Reread Metadata From Images</"
+"guimenuitem>"
 msgstr ""
 
 #. Tag: action
 #: menu-mainwindow.docbook:82
 #, no-c-format
-msgid "Quit &digikam;"
+msgid ""
+"Write the metadata of all items in the current album to the database. The "
+"database will inherit the images metadata, not the other way round as in the "
+"previous menu item."
 msgstr ""
 
 #. Tag: title
@@ -160,51 +179,78 @@ msgstr ""
 msgid "The Tag Menu"
 msgstr ""
 
-#. Tag: menuchoice
-#: menu-mainwindow.docbook:98
+#. Tag: para
+#: menu-mainwindow.docbook:94
 #, no-c-format
-msgid "<guimenu>Tag</guimenu><guimenuitem>New..</guimenuitem>"
+msgid ""
+"The items below the separator are only active if you are in the Tags View."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:99
+#, no-c-format
+msgid "<guimenu>Tag</guimenu><guimenuitem>Tag Manager</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:101
+#: menu-mainwindow.docbook:102
 #, no-c-format
-msgid "Create a new Tag entry in the Albums Database."
+msgid ""
+"Opens the <link linkend=\"using-tagsmngr\">&digikam; Tag Manager</link>."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:105
+#: menu-mainwindow.docbook:111
+#, no-c-format
+msgid "<guimenu>Tag</guimenu><guimenuitem>New...</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:114
+#, no-c-format
+msgid ""
+"A dialog will open where you can type in the tag name (or even a whole "
+"hierarchy branch), assign an icon and/or a shortcut to the tag. The new tag "
+"will be created as a sub-tag of the selected tag."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:118
 #, no-c-format
 msgid "<guimenu>Tag</guimenu><guimenuitem>Properties</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:108
+#: menu-mainwindow.docbook:121
 #, no-c-format
-msgid "Edit the properties of the currently selected Tag."
+msgid ""
+"The Tag Properties allow you to change the name of the tag, the icon used in "
+"the Tags tree and the shortcut."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:112
+#: menu-mainwindow.docbook:125
 #, no-c-format
 msgid "<guimenu>Tag</guimenu><guimenuitem>Delete</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:115
+#: menu-mainwindow.docbook:128
 #, no-c-format
-msgid "Remove the currently selected Tag from the Album's Database."
+msgid ""
+"Remove the currently selected Tag from the Album's Database. This doesn't "
+"delete the images the tag was assigned to."
 msgstr ""
 
 #. Tag: title
-#: menu-mainwindow.docbook:125
+#: menu-mainwindow.docbook:138
 #, fuzzy, no-c-format
 #| msgid "The Help Menu"
 msgid "The Item Menu"
 msgstr "El menú d'ayuda"
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:131
+#: menu-mainwindow.docbook:144
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"press\"><keycap>F4</keycap></keycombo> </"
@@ -212,13 +258,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:135
+#: menu-mainwindow.docbook:148
 #, no-c-format
 msgid "Opens the selected image in the &digikam; image editor."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:139
+#: menu-mainwindow.docbook:152
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"press\"><keycap>Meta</keycap><keycap>F4</"
@@ -227,22 +273,15 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:142
+#: menu-mainwindow.docbook:155
 #, no-c-format
 msgid ""
 "Opens the selected item in the default application according to the "
-"mimetype, &eg; &gwenview;."
-msgstr ""
-
-#. Tag: term
-#: menu-mainwindow.docbook:146 menu-mainwindow.docbook:169
-#: menu-mainwindow.docbook:237 menu-mainwindow.docbook:343
-#, no-c-format
-msgid "______________________________"
+"mimetype, &eg; Gwenview."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:151
+#: menu-mainwindow.docbook:164
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"press\"><keycap>F2</keycap></keycombo> </"
@@ -250,7 +289,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:155
+#: menu-mainwindow.docbook:168
 #, no-c-format
 msgid ""
 "Renames the currently selected item(s). See description <link linkend="
@@ -258,7 +297,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:161
+#: menu-mainwindow.docbook:174
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"press\"><keycap>Del</keycap></keycombo> </"
@@ -266,13 +305,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:165
+#: menu-mainwindow.docbook:178
 #, no-c-format
 msgid "Moves selected item(s) to trash (recoverable delete)."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:174
+#: menu-mainwindow.docbook:187
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"press\">&Ctrl;<keycap>L</keycap></keycombo> </"
@@ -281,7 +320,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:179
+#: menu-mainwindow.docbook:192
 #, no-c-format
 msgid ""
 "Inserts selection into the Light Table thumbbar and puts the Light Table "
@@ -289,7 +328,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:184
+#: menu-mainwindow.docbook:197
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"press\">&Ctrl;&Shift;<keycap>L</keycap></"
@@ -298,7 +337,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:189
+#: menu-mainwindow.docbook:202
 #, no-c-format
 msgid ""
 "Adds selection to the Light Table thumbbar and puts the Light Table into the "
@@ -306,7 +345,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:194
+#: menu-mainwindow.docbook:207
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"press\">&Ctrl;<keycap>B</keycap></keycombo> </"
@@ -315,7 +354,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:198
+#: menu-mainwindow.docbook:211
 #, no-c-format
 msgid ""
 "Opens the &digikam; Batch Queue Manager and adds selection to the current "
@@ -323,7 +362,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:202
+#: menu-mainwindow.docbook:215
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"press\">&Ctrl;&Shift;<keycap>B</keycap></"
@@ -332,20 +371,20 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:206
+#: menu-mainwindow.docbook:219
 #, no-c-format
 msgid ""
 "Opens the &digikam; Batch Queue Manager and puts selection into a new queue."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:210
+#: menu-mainwindow.docbook:223
 #, no-c-format
 msgid "<guimenu>Item</guimenu><guimenuitem>Find Similar...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:213
+#: menu-mainwindow.docbook:226
 #, no-c-format
 msgid ""
 "Puts the selected item into the <guilabel>Image</guilabel> tab in the Fuzzy "
@@ -353,7 +392,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:214
+#: menu-mainwindow.docbook:227
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"find-similar\">Image (Similar items)</"
@@ -361,27 +400,28 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:223
+#: menu-mainwindow.docbook:236
 #, no-c-format
 msgid ""
 "<guimenu>Item</guimenu><guimenuitem>Write Metadata to Image</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:226
+#: menu-mainwindow.docbook:239 menu-mainwindow.docbook:785
+#: menu-mainwindow.docbook:796
 #, no-c-format
 msgid "TODO"
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:230
+#: menu-mainwindow.docbook:243
 #, no-c-format
 msgid ""
 "<guimenu>Item</guimenu><guimenuitem>Reread Metadata from Image</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:233
+#: menu-mainwindow.docbook:246
 #, no-c-format
 msgid ""
 "When editing metadata using the Metadata Editor the data will be written to "
@@ -390,13 +430,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:242
+#: menu-mainwindow.docbook:255
 #, no-c-format
 msgid "<guimenu>Item</guimenu><guimenuitem>Rotate</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:246
+#: menu-mainwindow.docbook:259
 #, no-c-format
 msgid ""
 "Menu entry for rotating the currently selected images lossless <menuchoice> "
@@ -408,13 +448,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:263
+#: menu-mainwindow.docbook:276
 #, no-c-format
 msgid "<guimenu>Item</guimenu><guimenuitem>Flip</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:267
+#: menu-mainwindow.docbook:280
 #, no-c-format
 msgid ""
 "Menu entry for flipping the currently selected images lossless <menuchoice> "
@@ -425,7 +465,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:284
+#: menu-mainwindow.docbook:297
 #, no-c-format
 msgid ""
 "<guimenu>Item</guimenu><guimenuitem>Auto Rotate/Flip using EXIF information</"
@@ -433,7 +473,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:288
+#: menu-mainwindow.docbook:301
 #, no-c-format
 msgid ""
 "Menu entry to manually activate the auto rotate/flip feature for the "
@@ -443,14 +483,14 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:296
+#: menu-mainwindow.docbook:309
 #, no-c-format
 msgid ""
 "<guimenu>Item</guimenu><guimenuitem>Adjust EXIF Orientation Tag</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:299
+#: menu-mainwindow.docbook:312
 #, no-c-format
 msgid ""
 "The EXIF Orientation Tag of the current selection will be changed depending "
@@ -470,13 +510,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:311
+#: menu-mainwindow.docbook:324
 #, no-c-format
 msgid "<guimenu>Item</guimenu><guimenuitem>Edit Metadata...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:315
+#: menu-mainwindow.docbook:328
 #, no-c-format
 msgid ""
 "Opens the &digikam; Metadata Editor to handle meta data of the image (EXIF, "
@@ -484,7 +524,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:318
+#: menu-mainwindow.docbook:331
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"tool-metadataeditor\">Metadata Editor</"
@@ -492,20 +532,20 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:327
+#: menu-mainwindow.docbook:340
 #, no-c-format
 msgid "<guimenu>Item</guimenu><guimenuitem>Edit Geolocation...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:331
+#: menu-mainwindow.docbook:344
 #, no-c-format
 msgid ""
 "Opens the &digikam; Geolocation Editor to handle GPS meta data of the image."
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:334
+#: menu-mainwindow.docbook:347
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"tool-geolocationeditor\">Geolocation Tool</"
@@ -513,31 +553,31 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:348
+#: menu-mainwindow.docbook:361
 #, no-c-format
 msgid "<guimenu>Item</guimenu><guimenuitem>Print</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:352
+#: menu-mainwindow.docbook:365
 #, no-c-format
 msgid "Calls standard print dialog."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:359
+#: menu-mainwindow.docbook:372
 #, no-c-format
 msgid "<guimenu>Item</guimenu><guimenuitem>Print Assistant...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:363
+#: menu-mainwindow.docbook:376
 #, no-c-format
 msgid "Tool to print Album images."
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:366
+#: menu-mainwindow.docbook:379
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"tool-printwizard\">Print Wizard</link> for "
@@ -545,13 +585,21 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: menu-mainwindow.docbook:381
+#: menu-mainwindow.docbook:394
 #, no-c-format
 msgid "The Edit Menu"
 msgstr ""
 
+#. Tag: para
+#: menu-mainwindow.docbook:396
+#, no-c-format
+msgid ""
+"Beside the usual \"Cut\", \"Copy\" and \"Paste\" the Edit Menu contains the "
+"following items:"
+msgstr ""
+
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:387
+#: menu-mainwindow.docbook:401
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo> </"
@@ -559,13 +607,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:391
+#: menu-mainwindow.docbook:405
 #, no-c-format
 msgid "Select all images currently shown"
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:395
+#: menu-mainwindow.docbook:409
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>A</keycap></"
@@ -574,60 +622,113 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:399
+#: menu-mainwindow.docbook:413
 #, no-c-format
-msgid "Unselect all items in the current view"
+msgid "Un-select all items in the current view"
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:403
+#: menu-mainwindow.docbook:417
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>*</keycap></keycombo> </"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>I</keycap></keycombo> </"
 "shortcut> <guimenu>Edit</guimenu><guimenuitem>Invert Selection</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:407
+#: menu-mainwindow.docbook:421
 #, no-c-format
 msgid "Invert the current selection"
 msgstr ""
 
 #. Tag: title
-#: menu-mainwindow.docbook:417
+#: menu-mainwindow.docbook:431
 #, no-c-format
 msgid "The View Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:423
+#: menu-mainwindow.docbook:437
 #, no-c-format
-msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F</keycap></"
-"keycombo> </shortcut> <guimenu>View</guimenu><guimenuitem>Full Screen Mode</"
-"guimenuitem>"
+msgid "<guimenu>View</guimenu><guimenuitem>Thumbnails</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:427
+#: menu-mainwindow.docbook:440
 #, no-c-format
-msgid "Switch to full screen (same as F11)."
+msgid ""
+"Shows thumbnails in the <link linkend=\"using-mainwindow-imageview\">Image "
+"Area</link>"
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:431
+#: menu-mainwindow.docbook:444
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\"><keycap>F3</keycap></keycombo> </"
+"shortcut> <guimenu>View</guimenu><guimenuitem>Preview Image</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:448
+#, no-c-format
+msgid "Shows additionally a preview in the Image Area."
+msgstr ""
+
+#. Tag: para
+#: menu-mainwindow.docbook:449
+#, no-c-format
+msgid ""
+"The preview has \"Back\" and \"Forward\" buttons at the top left corner to "
+"navigate through all the images currently shown."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:456
+#, no-c-format
+msgid "<guimenu>View</guimenu><guimenuitem>Map</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:459
+#, no-c-format
+msgid "Shows images on a map."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:463
+#, no-c-format
+msgid "<guimenu>View</guimenu><guimenuitem>Table</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:468
+#, no-c-format
+msgid ""
+"Shows images in a table where you can choose by right clicking on the title "
+"bar which informations you want to be displayed."
+msgstr ""
+
+#. Tag: para
+#: menu-mainwindow.docbook:472
+#, no-c-format
+msgid "By default you have these four items also on the main toolbar."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:484
 #, no-c-format
 msgid "<guimenu>View</guimenu><guisubmenu>Slideshow</guisubmenu>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:434
+#: menu-mainwindow.docbook:487
 #, no-c-format
 msgid "Slide Show including RAW files."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:438
+#: menu-mainwindow.docbook:491
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"press\"><keycap>F9</keycap></keycombo> </"
@@ -636,13 +737,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:442
+#: menu-mainwindow.docbook:495
 #, no-c-format
 msgid "Start slide show of all images in current window."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:446
+#: menu-mainwindow.docbook:499
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Alt;<keycap>F9</keycap></keycombo> </"
@@ -651,13 +752,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:450
+#: menu-mainwindow.docbook:503
 #, no-c-format
 msgid "Start slide show on selected images."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:454
+#: menu-mainwindow.docbook:507
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Shift;<keycap>F9</keycap></keycombo> </"
@@ -666,28 +767,28 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:458
+#: menu-mainwindow.docbook:511
 #, no-c-format
 msgid "Slide show that recurses through the current album tree."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:462
+#: menu-mainwindow.docbook:515
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Alt;&Shift;<keycap>F9</keycap></"
 "keycombo> </shortcut> <guimenu>View</guimenu><guisubmenu>Slideshow</"
-"guisubmenu><guimenuitem>Advanced Slideshow...</guimenuitem>"
+"guisubmenu><guimenuitem>Presentation...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:467
+#: menu-mainwindow.docbook:520
 #, no-c-format
 msgid "Tool to display an advanced slide show with Album items."
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:470
+#: menu-mainwindow.docbook:523
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"tool-presentation\">Presentation Tool</"
@@ -695,44 +796,58 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:479
+#: menu-mainwindow.docbook:532
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo> </"
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F</keycap></"
+"keycombo> </shortcut> <guimenu>View</guimenu><guimenuitem>Full Screen Mode</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:536
+#, no-c-format
+msgid "Switch to full screen (Return with the same keyboard shortcut)."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:545
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>+,+</keycap></keycombo> </"
 "shortcut> <guimenu>View</guimenu><guimenuitem>Zoom in</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:483
+#: menu-mainwindow.docbook:549
 #, no-c-format
 msgid "Increase preview or the thumbnail size of the currently selected Album."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:487
+#: menu-mainwindow.docbook:553
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo> </"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>-,-</keycap></keycombo> </"
 "shortcut> <guimenu>View</guimenu><guimenuitem>Zoom out</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:491
+#: menu-mainwindow.docbook:557
 #, no-c-format
 msgid "Decrease preview or the thumbnail size of the currently selected Album."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:495
+#: menu-mainwindow.docbook:566
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keycap>0</keycap></"
-"keycombo> </shortcut> <guimenu>View</guimenu><guimenuitem>Zoom to 100%</"
-"guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>,</keycap></keycombo> </"
+"shortcut> <guimenu>View</guimenu><guimenuitem>Zoom to 100%</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:499
+#: menu-mainwindow.docbook:570
 #, no-c-format
 msgid ""
 "Will show the image 1:1 (meaning 1 image pixel is mapped exactly to 1 screen "
@@ -740,54 +855,95 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:503
+#: menu-mainwindow.docbook:574
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\"> &Ctrl;&Shift;<keycap>E</keycap> </"
+"<shortcut><keycombo action=\"simul\"> &Ctrl;&Alt;<keycap>E</keycap> </"
 "keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Fit to Window</"
 "guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:509
+#: menu-mainwindow.docbook:580
 #, no-c-format
 msgid "Will size the image as to fit snug into the window."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:521
+#: menu-mainwindow.docbook:597
 #, no-c-format
 msgid "<guimenu>View</guimenu><guisubmenu>Sort Albums</guisubmenu>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:524
+#: menu-mainwindow.docbook:600
 #, no-c-format
-msgid "Sort all &digikam; Albums by Folder, by Collection, or by Date."
+msgid "Sort all &digikam; Albums by Folder, by Category or by Date."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:528
+#: menu-mainwindow.docbook:604
 #, no-c-format
 msgid "<guimenu>View</guimenu><guisubmenu>Sort Images</guisubmenu>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:531
+#: menu-mainwindow.docbook:607
 #, no-c-format
 msgid ""
-"Sort all images in current Album by Name, Path, Date, File Size or by Rating."
+"Sort all images in current Album by Name, Path, Date, File Size, Rating, "
+"Image Size or by Aspect Ratio."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:535
+#: menu-mainwindow.docbook:611
+#, no-c-format
+msgid "<guimenu>View</guimenu><guisubmenu>Image Sorting Order</guisubmenu>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:614
+#, no-c-format
+msgid ""
+"Select whether images should be sorted in ascending or descending order."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:618
+#, no-c-format
+msgid "<guimenu>View</guimenu><guisubmenu>Group Images</guisubmenu>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:621
+#, no-c-format
+msgid ""
+"Select whether images should be shown un-grouped (Flat List) or grouped by "
+"album or by format."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:625
+#, no-c-format
+msgid "<guimenu>View</guimenu><guisubmenu>Group Sorting Order</guisubmenu>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:628
+#, no-c-format
+msgid ""
+"Select whether groups should be sorted in ascending or descending order."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:632
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu><guimenuitem>Include Album Sub-Tree</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:538
+#: menu-mainwindow.docbook:635
 #, no-c-format
 msgid ""
 "If a hierarchical album structure exists, the currently selected branch will "
@@ -795,56 +951,63 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:542
+#: menu-mainwindow.docbook:639
 #, no-c-format
 msgid "<guimenu>View</guimenu><guimenuitem>Include Tag Sub-Tree</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:545
+#: menu-mainwindow.docbook:642
 #, no-c-format
 msgid ""
 "If a hierarchical tag structure exists, the currently selected branch will "
 "be displayed in full depth."
 msgstr ""
 
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:651
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\"><keycap>F12</keycap></keycombo> </"
+"shortcut> <guimenu>View</guimenu><guimenuitem>Color-Managed View</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:655
+#, no-c-format
+msgid ""
+"Toggles between showing thumbnails and preview in color-managed mode or not."
+msgstr ""
+
+#. Tag: para
+#: menu-mainwindow.docbook:656
+#, no-c-format
+msgid ""
+"For more information about color management see <link linkend=\"editor-cm"
+"\">this</link> lengthy chapter."
+msgstr ""
+
 #. Tag: title
-#: menu-mainwindow.docbook:555
+#: menu-mainwindow.docbook:670
 #, no-c-format
 msgid "The Tools Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:561
+#: menu-mainwindow.docbook:676
 #, no-c-format
-msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> </"
-"shortcut> <guimenu>Tools</guimenu><guimenuitem>Search...</guimenuitem>"
+msgid "<guimenu>Tools</guimenu><guimenuitem>Image Editor</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:566
+#: menu-mainwindow.docbook:680
 #, no-c-format
-msgid "Launch the simple search items dialog."
+msgid "Opens the &digikam; Image Editor."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:573
-#, no-c-format
-msgid ""
-"<shortcut><keycombo action=\"simul\">&Alt;&Ctrl;<keycap>F</keycap></"
-"keycombo> </shortcut> <guimenu>Tools</guimenu><guimenuitem>Advanced Search..."
-"</guimenuitem>"
-msgstr ""
-
-#. Tag: action
-#: menu-mainwindow.docbook:578
-#, no-c-format
-msgid "Launch the advanced search items dialog."
-msgstr ""
-
-#. Tag: menuchoice
-#: menu-mainwindow.docbook:585
+#: menu-mainwindow.docbook:687
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\"><keycap>L</keycap></keycombo> </"
@@ -852,13 +1015,57 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:590
+#: menu-mainwindow.docbook:692
 #, no-c-format
 msgid "Switches to the Light Table window."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:597
+#: menu-mainwindow.docbook:699
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\"><keycap>B</keycap></keycombo> </"
+"shortcut> <guimenu>Tools</guimenu><guimenuitem>Batch Queue Manager</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:704
+#, no-c-format
+msgid "Opens the Batch Queue Manager window."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:716
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> </"
+"shortcut> <guimenu>Tools</guimenu><guimenuitem>Search...</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:721
+#, no-c-format
+msgid "Switches to the Search View with focus on the simple search field."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:728
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keycap>F</keycap></"
+"keycombo> </shortcut> <guimenu>Tools</guimenu><guimenuitem>Advanced Search..."
+"</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:733
+#, no-c-format
+msgid "Switches to the Search View and launches the advanced search dialog."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:740
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>D</keycap></keycombo> </"
@@ -866,189 +1073,249 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:602
+#: menu-mainwindow.docbook:745
 #, no-c-format
-msgid "Tool to find duplicate images in Albums Database."
+msgid "Leads to the \"Duplicates\" tab in the Fuzzy View."
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:605
+#: menu-mainwindow.docbook:748
 #, no-c-format
 msgid ""
-"See the dedicated <link linkend=\"tool-findduplicates\">Find Duplicates "
-"Tool</link> for more information."
+"See <link linkend=\"using-mainwindow-fuzzysearches\">Fuzzy View</link> for "
+"more information."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:614
+#: menu-mainwindow.docbook:762
 #, no-c-format
-msgid ""
-"<guimenu>Tools</guimenu><guimenuitem>Scan for New Images...</guimenuitem>"
+msgid "<guimenu>Tools</guimenu><guimenuitem>Maintenance...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:618
+#: menu-mainwindow.docbook:766
+#, no-c-format
+msgid "Opens the maintenance tool."
+msgstr ""
+
+#. Tag: para
+#: menu-mainwindow.docbook:769
 #, no-c-format
 msgid ""
-"Rescan the library for images not yet in the database (see also <link "
-"linkend=\"rescan-items\">start-up option</link>)."
+"For a detailed description see <link linkend=\"tool-maintenance\">this "
+"Chapter</link>"
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:625
+#: menu-mainwindow.docbook:781
 #, no-c-format
 msgid ""
-"<guimenu>Tools</guimenu><guimenuitem>Rebuild all Thumbnails...</guimenuitem>"
-msgstr ""
-
-#. Tag: action
-#: menu-mainwindow.docbook:629
-#, no-c-format
-msgid ""
-"Launch rebuild of all thumbnails (that can take a long time if you have many "
-"images)."
-msgstr ""
-
-#. Tag: menuchoice
-#: menu-mainwindow.docbook:645
-#, no-c-format
-msgid ""
-"<guimenu>Tools</guimenu><guimenuitem>Synchronize all Images with Database..."
+"<guimenu>Tools</guimenu><guimenuitem>Blend Bracketed or Focus Stack Images..."
 "</guimenuitem>"
 msgstr ""
 
-#. Tag: action
-#: menu-mainwindow.docbook:649
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:792
 #, no-c-format
-msgid ""
-"Launch synchronization of all metadata between database and files for all "
-"files (not just current view as with <link linkend=\"synchronize-metadata"
-"\">this</link> menu). Database metadata will be overwritten with the file's "
-"metadata in case of discrepancy. The opposite you can do from the <link "
-"linkend=\"synchronize-metadata\">Album</link> menu."
+msgid "<guimenu>Tools</guimenu><guimenuitem>Create Panorama...</guimenuitem>"
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:656
+#: menu-mainwindow.docbook:803
 #, no-c-format
 msgid "<guimenu>Tools</guimenu><guimenuitem>Create Calendar...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:660
+#: menu-mainwindow.docbook:807
 #, no-c-format
 msgid "Tool to create a calendar with Album items."
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:663
+#: menu-mainwindow.docbook:810
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"tool-calendar\">Calendar Tool</link> for "
 "more information."
 msgstr ""
 
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:819
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Email Images...</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:823
+#, no-c-format
+msgid "Tool to send images with your favorite email client."
+msgstr ""
+
+#. Tag: para
+#: menu-mainwindow.docbook:826
+#, no-c-format
+msgid ""
+"See the dedicated <link linkend=\"tool-sendimages\">Send Images Tool</link> "
+"for more information."
+msgstr ""
+
 #. Tag: title
-#: menu-mainwindow.docbook:678
+#: menu-mainwindow.docbook:841
 #, no-c-format
 msgid "The Import Menu"
 msgstr ""
 
-#. Tag: para
-#: menu-mainwindow.docbook:681
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:845
+#, no-c-format
+msgid "<guimenu>Import</guimenu><guimenuitem>Cameras</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:848
 #, no-c-format
 msgid ""
 "Any configured digital camera will be listed here. You can use the \"Add "
-"Camera\" menu entry to add a new camera to the list. Please, read the <link "
-"linkend=\"cameraselection.anchor\">Setup Camera Section</link> for more "
-"information."
+"Camera Manually...\" menu entry to add a new camera to the list. Please, "
+"read the <link linkend=\"using-setup-camera\">Camera Settings</link> for "
+"more information."
 msgstr ""
 
-#. Tag: menuchoice
-#: menu-mainwindow.docbook:685
-#, no-c-format
-msgid "<guimenu>Import</guimenu><guimenuitem>Media Browse</guimenuitem>"
-msgstr ""
-
-#. Tag: action
-#: menu-mainwindow.docbook:688
+#. Tag: para
+#: menu-mainwindow.docbook:849
 #, no-c-format
 msgid ""
-"Browsing attached media devices like card readers, DVDs or memory sticks."
+"Once you choose a camera from the list the Camera Interface will open. For a "
+"detailed description see <link linkend=\"using-camera-intro\">Using a "
+"Digital Camera With &digikam;.</link>."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:692
+#: menu-mainwindow.docbook:856
 #, no-c-format
-msgid "<guimenu>Import</guimenu><guimenuitem>Add camera</guimenuitem>"
+msgid "<guimenu>Import</guimenu><guimenuitem>USB Storage Devices</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:695
-#, no-c-format
-msgid "Interactively add a new camera."
-msgstr ""
-
-#. Tag: menuchoice
-#: menu-mainwindow.docbook:699
+#: menu-mainwindow.docbook:859
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>I</keycap></keycombo> </"
-"shortcut> <guimenu>Import</guimenu><guimenuitem>Add Images...</guimenuitem>"
-msgstr ""
-
-#. Tag: action
-#: menu-mainwindow.docbook:703
-#, no-c-format
-msgid "Navigate to a folder and select images"
+"All currently mounted USB storage devices will be listed here. The function "
+"will open the same <link linkend=\"using-camera-intro\">interface</link> as "
+"the Import/Cameras menu item."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:707
+#: menu-mainwindow.docbook:863
+#, no-c-format
+msgid "<guimenu>Import</guimenu><guimenuitem>Card Readers</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:866
+#, no-c-format
+msgid ""
+"All currently mounted card readers will be listed here. The function will "
+"open the same <link linkend=\"using-camera-intro\">interface</link> as the "
+"Import/Cameras menu item."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:875
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keycap>I</keycap></"
+"keycombo> </shortcut> <guimenu>Import</guimenu><guimenuitem>Add Images...</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:879
+#, no-c-format
+msgid ""
+"After asking for the source folder with the standard Open dialog of your OS "
+"the function will display the images in that folder in the same <link "
+"linkend=\"using-camera-intro\">interface</link> as the Import/Cameras menu "
+"item."
+msgstr ""
+
+#. Tag: para
+#: menu-mainwindow.docbook:880 menu-mainwindow.docbook:891
+#, no-c-format
+msgid "This item is only active in the Albums View."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:887
 #, no-c-format
 msgid "<guimenu>Import</guimenu><guimenuitem>Add Folders...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:710
+#: menu-mainwindow.docbook:890
 #, no-c-format
 msgid "Navigate to a folder and import it entirely"
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:714
+#: menu-mainwindow.docbook:898
 #, no-c-format
-msgid "<guimenu>Import</guimenu><guimenuitem>Scan Images...</guimenuitem>"
+msgid ""
+"<guimenu>Import</guimenu><guimenuitem>Import from Scanner...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:717
+#: menu-mainwindow.docbook:901
 #, no-c-format
 msgid "Opens a scanner dialog"
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:718
+#: menu-mainwindow.docbook:902
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"tool-acquireimages\">Acquire Images Tool</"
 "link> for more information."
 msgstr ""
 
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:916
+#, no-c-format
+msgid "<guimenu>Import</guimenu><guimenuitem>Import from ...</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:919
+#, no-c-format
+msgid ""
+"Here are following the import menu items for the webservices you have chosen "
+"in"
+msgstr ""
+
+#. Tag: para
+#: menu-mainwindow.docbook:920
+#, no-c-format
+msgid ""
+"<menuchoice> <guimenu>Settings</guimenu><guisubmenu>Configure &digikam;...</"
+"guisubmenu><guimenuitem>Plugins</guimenuitem> </menuchoice> and which are "
+"labeled <quote>Export</quote> in the <quote>Categories</quote> column."
+msgstr ""
+
 #. Tag: title
-#: menu-mainwindow.docbook:731
+#: menu-mainwindow.docbook:934
 #, no-c-format
 msgid "The Export Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:736
+#: menu-mainwindow.docbook:939
 #, no-c-format
 msgid "<guimenu>Export</guimenu><guimenuitem>KML Export...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:740
+#: menu-mainwindow.docbook:943
 #, no-c-format
 msgid ""
 "Tool to export the images series into a KML structure. KML files can then be "
@@ -1056,7 +1323,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:743
+#: menu-mainwindow.docbook:946
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"tool-flickrexport\">KML Export Tool</link> "
@@ -1064,13 +1331,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:752
+#: menu-mainwindow.docbook:955
 #, no-c-format
 msgid "<guimenu>Tools</guimenu><guimenuitem>Export to Piwigo</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:756
+#: menu-mainwindow.docbook:959
 #, no-c-format
 msgid ""
 "Tool to upload or update images to <ulink url=\"http://www.piwigo.org/"
@@ -1078,7 +1345,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:759
+#: menu-mainwindow.docbook:962
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"tool-piwigoexport\">Piwigo Export Tool</"
@@ -1086,13 +1353,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:768
+#: menu-mainwindow.docbook:971
 #, no-c-format
 msgid "<guimenu>Export</guimenu><guimenuitem>Export to Flickr...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:772
+#: menu-mainwindow.docbook:975
 #, no-c-format
 msgid ""
 "Tool to upload or update images to <ulink url=\"http://www.flickr.com/"
@@ -1100,7 +1367,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:775
+#: menu-mainwindow.docbook:978
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"tool-flickrexport\">Flickr Export Tool</"
@@ -1108,7 +1375,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:800
+#: menu-mainwindow.docbook:1003
 #, no-c-format
 msgid ""
 "<guimenu>Export</guimenu><guimenuitem>Export to Google Photos...</"
@@ -1116,7 +1383,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:804
+#: menu-mainwindow.docbook:1007
 #, no-c-format
 msgid ""
 "Tool upload or update images to <ulink url=\"https://photos.google.com/"
@@ -1124,7 +1391,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:807 menu-mainwindow.docbook:823
+#: menu-mainwindow.docbook:1010 menu-mainwindow.docbook:1026
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"tool-googleexport\">Google Services Tool</"
@@ -1132,14 +1399,14 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:816
+#: menu-mainwindow.docbook:1019
 #, no-c-format
 msgid ""
 "<guimenu>Export</guimenu><guimenuitem>Export to Google Drive...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:820
+#: menu-mainwindow.docbook:1023
 #, no-c-format
 msgid ""
 "Tool upload images to <ulink url=\"https://www.google.com/drive/\">Google "
@@ -1147,19 +1414,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:848
+#: menu-mainwindow.docbook:1051
 #, no-c-format
 msgid "<guimenu>Export</guimenu><guimenuitem>Flash Export</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:852
+#: menu-mainwindow.docbook:1055
 #, no-c-format
 msgid "Tool to create a Flash gallery with Albums."
 msgstr ""
 
 #. Tag: para
-#: menu-mainwindow.docbook:855
+#: menu-mainwindow.docbook:1058
 #, no-c-format
 msgid ""
 "See the dedicated <link linkend=\"tool-flashexport\">Flash Export Tool</"
@@ -1167,94 +1434,227 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: menu-mainwindow.docbook:867
+#: menu-mainwindow.docbook:1070
 #, no-c-format
 msgid "The Settings Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:873
+#: menu-mainwindow.docbook:1076
 #, no-c-format
 msgid "<guimenu>Settings</guimenu><guimenuitem>Show Toolbar</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:876
+#: menu-mainwindow.docbook:1079
 #, no-c-format
 msgid "Enable or disable the main &digikam; toolbar."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:880
+#: menu-mainwindow.docbook:1083
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></keycombo> </"
+"shortcut> <guimenu>Settings</guimenu><guimenuitem>Show Menubar</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:1087
+#, no-c-format
+msgid "Enable or disable the main &digikam; menu bar."
+msgstr ""
+
+#. Tag: para
+#: menu-mainwindow.docbook:1088
+#, no-c-format
+msgid ""
+"Remind the keyboard shortcut in order to be able to get it back! Another way "
+"is the context menu within the Image Area."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:1095
 #, no-c-format
 msgid "<guimenu>Settings</guimenu><guimenuitem>Show Statusbar</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:883
+#: menu-mainwindow.docbook:1098
 #, no-c-format
 msgid "Enable or disable the main &digikam; status bar."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:887
+#: menu-mainwindow.docbook:1102
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></keycombo> </"
+"shortcut> <guimenu>Settings</guimenu><guimenuitem>Show Thumbbar</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:1106
+#, no-c-format
+msgid "Enable or disable the thumbbar in the &digikam; Image Area."
+msgstr ""
+
+#. Tag: para
+#: menu-mainwindow.docbook:1107
+#, no-c-format
+msgid ""
+"This item is only active while a preview is displayed because it is meant to "
+"make more space for the preview in the Image Area."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:1119
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Themes</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:1122
+#, no-c-format
+msgid ""
+"Choose from a list (submenu) of predefined color themes for the appearance "
+"of &digikam;."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:1127
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure Shortcuts...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:890
+#: menu-mainwindow.docbook:1130
 #, no-c-format
-msgid "Configure the &digikam; shortcuts."
+msgid ""
+"Configure the &digikam; shortcuts and manage different schemes of shortcuts."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:894
+#: menu-mainwindow.docbook:1134
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure Toolbars...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:897
+#: menu-mainwindow.docbook:1137
 #, no-c-format
 msgid "Configure the &digikam; toolbars."
 msgstr ""
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:901
+#: menu-mainwindow.docbook:1141
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu><guimenuitem>Configure Notifications...</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:1144
+#, no-c-format
+msgid ""
+"Configure the &digikam; notifications including actions like \"Play a sound"
+"\", \"Log to a file\" or \"Run command\"."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:1148
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu><guimenuitem>Database Migration...</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:1151
+#, no-c-format
+msgid ""
+"Launch tool to migrate the &digikam; databases from SQLite to MySQL or vice "
+"versa."
+msgstr ""
+
+#. Tag: para
+#: menu-mainwindow.docbook:1152
+#, no-c-format
+msgid ""
+"Find more information about the databases and database migration in the "
+"setup section about <link linkend=\"using-setup-database\">&digikam; "
+"databases</link>."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:1159
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure &digikam;...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:904
+#: menu-mainwindow.docbook:1162
 #, no-c-format
 msgid "Launch &digikam; configure dialog."
 msgstr ""
 
+#. Tag: para
+#: menu-mainwindow.docbook:1163
+#, no-c-format
+msgid ""
+"For a detailed description see <link linkend=\"using-setup\">&digikam; "
+"Configuration</link>."
+msgstr ""
+
 #. Tag: title
-#: menu-mainwindow.docbook:912
+#: menu-mainwindow.docbook:1174
 #, no-c-format
 msgid "The Help Menu"
 msgstr "El menú d'ayuda"
 
 #. Tag: menuchoice
-#: menu-mainwindow.docbook:915
+#: menu-mainwindow.docbook:1178
 #, no-c-format
 msgid "<guimenu>Help</guimenu><guimenuitem>Supported RAW Cameras</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: menu-mainwindow.docbook:918
+#: menu-mainwindow.docbook:1181
 #, no-c-format
 msgid "Displays a live filter of all supported RAW format cameras."
 msgstr ""
 
 #. Tag: phrase
-#: menu-mainwindow.docbook:925
+#: menu-mainwindow.docbook:1186 menu-mainwindow.docbook:1201
+#: menu-mainwindow.docbook:1216
 #, no-c-format
 msgid "RAW camera support"
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:1193
+#, no-c-format
+msgid ""
+"<guimenu>Help</guimenu><guimenuitem>Components Information</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:1196
+#, no-c-format
+msgid "Displays an information panel with shared libraries and components."
+msgstr ""
+
+#. Tag: menuchoice
+#: menu-mainwindow.docbook:1208
+#, no-c-format
+msgid "<guimenu>Help</guimenu><guimenuitem>Database Statistics</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: menu-mainwindow.docbook:1211
+#, no-c-format
+msgid "Displays an information panel with a database summary."
 msgstr ""
