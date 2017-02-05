@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# enolp <enolp@softastur.org>, 2016.
+# enolp <enolp@softastur.org>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-01-24 09:39+0100\n"
-"PO-Revision-Date: 2016-12-19 02:23+0100\n"
+"PO-Revision-Date: 2017-02-04 18:32+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
 "Language: ast\n"
@@ -21,11 +21,12 @@ msgstr ""
 #, kde-format
 msgid "Cannot add IMAP folder '%1' for a non-existing parent folder '%2'."
 msgstr ""
+"Nun pue amestase la carpeta IMAP «%1» pa una carpeta pá non esistente «%2»."
 
 #: addcollectiontask.cpp:85
 #, kde-format
 msgid "Failed to create the folder '%1' on the IMAP server. "
-msgstr ""
+msgstr "Fallu al crear la carpeta «%1» nel sirvidor IMAP."
 
 #: addcollectiontask.cpp:105 movecollectiontask.cpp:142
 #, kde-format
@@ -33,6 +34,8 @@ msgid ""
 "Failed to subscribe to the folder '%1' on the IMAP server. It will disappear "
 "on next sync. Use the subscription dialog to overcome that"
 msgstr ""
+"Fallu al soscribise a la carpeta «%1» nel sirvidor IMAP. Desapaecerá na "
+"sincronización siguiente. Usa'l diálogu de soscripción pa evitalo"
 
 #: addcollectiontask.cpp:148 changecollectiontask.cpp:296
 #, kde-format
@@ -77,18 +80,18 @@ msgstr ""
 #: imapresource.cpp:65
 #, kde-format
 msgid "IMAP Account"
-msgstr ""
+msgstr "Cuenta IMAP"
 
 #: imapresource.cpp:77
 #, kde-format
 msgid "IMAP Account Settings"
-msgstr ""
+msgstr "Axustes de cuenta IMAP"
 
 #. i18n: ectx: label, entry (ImapServer), group (network)
 #: imapresource.kcfg:10
 #, kde-format
 msgid "IMAP server"
-msgstr ""
+msgstr "Sirvidor IMAP"
 
 #. i18n: ectx: label, entry (ImapPort), group (network)
 #: imapresource.kcfg:13
@@ -696,19 +699,19 @@ msgstr ""
 #: setupserverview_desktop.ui:33
 #, kde-format
 msgid "General"
-msgstr ""
+msgstr "Xeneral"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: setupserverview_desktop.ui:39
 #, kde-format
 msgid "Account Information"
-msgstr ""
+msgstr "Información de cuenta"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: setupserverview_desktop.ui:45
 #, kde-format
 msgid "Account Name:"
-msgstr ""
+msgstr "Nome de cuenta:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
 #: setupserverview_desktop.ui:59
@@ -723,13 +726,13 @@ msgstr ""
 #: setupserverview_desktop.ui:62
 #, kde-format
 msgid "I&MAP Server:"
-msgstr ""
+msgstr "Sirvidor IMAP"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
 #: setupserverview_desktop.ui:79
 #, kde-format
 msgid "The username."
-msgstr ""
+msgstr "El nome d'usuariu."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: setupserverview_desktop.ui:82
@@ -848,7 +851,7 @@ msgstr ""
 #: setupserverview_desktop.ui:321 setupserverview_desktop.ui:572
 #, kde-format
 msgid "Authentication:"
-msgstr ""
+msgstr "Autenticación:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -856,7 +859,7 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "LOGIN"
-msgstr ""
+msgstr "LOGIN"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -864,7 +867,7 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "PLAIN"
-msgstr ""
+msgstr "PLAIN"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -872,7 +875,7 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "CRAM-MD5"
-msgstr ""
+msgstr "CRAM-MD5"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -880,7 +883,7 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "DIGEST-MD5"
-msgstr ""
+msgstr "DIGEST-MD5"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -888,7 +891,7 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "NTLM"
-msgstr ""
+msgstr "NTLM"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -896,19 +899,19 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "GSSAPI"
-msgstr ""
+msgstr "GSSAPI"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: setupserverview_desktop.ui:391
 #, kde-format
 msgid "Advanced"
-msgstr ""
+msgstr "Avanzao"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: setupserverview_desktop.ui:397
 #, kde-format
 msgid "IMAP Settings"
-msgstr ""
+msgstr "Axustes IMAP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, subscriptionEnabled)
 #: setupserverview_desktop.ui:405
@@ -1019,19 +1022,19 @@ msgstr ""
 #: setupserverview_desktop.ui:530
 #, kde-format
 msgid "SSL/TLS"
-msgstr ""
+msgstr "SSL/TLS"
 
 #. i18n: ectx: property (text), widget (QRadioButton, tlsRadio)
 #: setupserverview_desktop.ui:540
 #, kde-format
 msgid "STARTTLS"
-msgstr ""
+msgstr "STARTTLS"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: setupserverview_desktop.ui:552
 #, kde-format
 msgid "Port:"
-msgstr ""
+msgstr "Puertu:"
 
 #. i18n: ectx: property (text), widget (QLabel, testInfo)
 #: setupserverview_desktop.ui:634
@@ -1043,7 +1046,7 @@ msgstr ""
 #: setupserverview_desktop.ui:654
 #, kde-format
 msgid "Server Info"
-msgstr ""
+msgstr "Información del sirvidor"
 
 #: subscriptiondialog.cpp:71
 #, kde-format
@@ -1068,3 +1071,4 @@ msgstr ""
 msgctxt "@option:check"
 msgid "Subscribed only"
 msgstr ""
+
