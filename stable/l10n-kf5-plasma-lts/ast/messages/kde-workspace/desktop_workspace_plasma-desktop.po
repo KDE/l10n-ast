@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-11 07:19+0000\n"
+"POT-Creation-Date: 2017-02-12 06:52+0000\n"
 "PO-Revision-Date: 2016-03-29 01:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -93,11 +93,6 @@ msgstr "Xestor de xeres"
 msgctxt "Name"
 msgid "Trashcan"
 msgstr "Trashcan"
-
-#: applets/trash/package/metadata.desktop:81
-msgctxt "Comment"
-msgid "Provides access to the files sent to trash"
-msgstr ""
 
 #: applets/window-list/metadata.desktop:3
 msgctxt "Name"
@@ -344,14 +339,6 @@ msgctxt "X-KDE-Keywords"
 msgid "Search, File, Baloo"
 msgstr ""
 
-#: kcms/colors/colorschemes.knsrc:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Application Color Scheme"
-msgctxt "Name"
-msgid "Color Schemes"
-msgstr "Esquema de colores d'aplicaciones"
-
 #: kcms/colors/colors.desktop:14
 msgctxt "Name"
 msgid "Colors"
@@ -359,13 +346,13 @@ msgstr "Colores"
 
 #: kcms/colors/colors.desktop:107
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Application Color Scheme"
+#| msgctxt "Name"
+#| msgid "Application Launcher"
 msgctxt "Comment"
-msgid "Workspace and Application Colors"
-msgstr "Esquema de colores d'aplicaciones"
+msgid "Application Color Scheme"
+msgstr "Llanzador d'aplicaciones"
 
-#: kcms/colors/colors.desktop:109
+#: kcms/colors/colors.desktop:154
 msgctxt "X-KDE-Keywords"
 msgid ""
 "colors,colours,scheme,contrast,Widget colors,Color Scheme,color style,color "
@@ -502,14 +489,6 @@ msgstr ""
 "Mur,Cursor,Tema,Aspeutu de cursor,Color de cursor,Tema de cursor,Tema del "
 "mur, Aspeutu del mur,Colores del punteru,Aspeutu del punteru"
 
-#: kcms/cursortheme/xcursor/xcursor.knsrc:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Cursor Theme"
-msgctxt "Name"
-msgid "Cursors"
-msgstr "Tema del cursor"
-
 #: kcms/dateandtime/clock.desktop:16
 msgctxt "Name"
 msgid "Date & Time"
@@ -578,15 +557,7 @@ msgctxt "X-KDE-Keywords"
 msgid "Desktop Theme"
 msgstr "Tema d'escritoriu"
 
-#: kcms/desktoptheme/plasma-themes.knsrc:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Plasma Search"
-msgctxt "Name"
-msgid "Plasma Themes"
-msgstr "Gueta de Plasma"
-
-#: kcms/emoticons/emoticons.desktop:13 kcms/emoticons/emoticons.knsrc:2
+#: kcms/emoticons/emoticons.desktop:13
 msgctxt "Name"
 msgid "Emoticons"
 msgstr "Fustaxes"
@@ -601,8 +572,7 @@ msgctxt "X-KDE-Keywords"
 msgid "Emoticons"
 msgstr "Fustaxes"
 
-#: kcms/fonts/fonts.desktop:14 kcms/kfontinst/kcmfontinst/kfontinst.knsrc:2
-#: kcms/kfontinst/kio/fonts.desktop:5
+#: kcms/fonts/fonts.desktop:14 kcms/kfontinst/kio/fonts.desktop:5
 msgctxt "Name"
 msgid "Fonts"
 msgstr "Fontes"
@@ -658,7 +628,7 @@ msgctxt "X-KDE-Keywords"
 msgid "joystick,gamepad,controller"
 msgstr ""
 
-#: kcms/icons/icons.desktop:14 kcms/icons/icons.knsrc:2
+#: kcms/icons/icons.desktop:14
 msgctxt "Name"
 msgid "Icons"
 msgstr "Iconos"
@@ -902,14 +872,6 @@ msgstr "Aspeutu y sentir"
 msgctxt "X-KDE-Keywords"
 msgid "theme, look, feel"
 msgstr "tema, aspeutu, sentir"
-
-#: kcms/lookandfeel/lookandfeel.knsrc:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Look And Feel"
-msgctxt "Name"
-msgid "Look and Feel"
-msgstr "Aspeutu y sentir"
 
 #: kcms/lookandfeel/package/metadata.desktop:47
 msgctxt "Comment"
@@ -1232,6 +1194,26 @@ msgstr ""
 "Tecles,Arreyos globales de tecles,Esquema de tecles,Arreyos de tecles, "
 "atayos,atayos d'aplicaciones"
 
+#: kcms/style/kcmstyle.notifyrc:3
+msgctxt "Name"
+msgid "Menubar manager"
+msgstr "Xestor de barres de menús"
+
+#: kcms/style/kcmstyle.notifyrc:52
+msgctxt "Comment"
+msgid "Menubar exporter"
+msgstr "Esportador de barres de menús"
+
+#: kcms/style/kcmstyle.notifyrc:101
+msgctxt "Name"
+msgid "Menubar changed"
+msgstr "Camudóse la barra de menús"
+
+#: kcms/style/kcmstyle.notifyrc:149
+msgctxt "Comment"
+msgid "Settings changes will take effect only on application restart"
+msgstr "Los axustes namái fadrán efeutu nel reaniciu de l'aplicación"
+
 #: kcms/style/style.desktop:16
 msgctxt "Name"
 msgid "Widget Style"
@@ -1319,6 +1301,22 @@ msgctxt "Name"
 msgid "Language"
 msgstr ""
 
+#: kcms/useraccount/kcm_useraccount.desktop:14
+msgctxt "Name"
+msgid "Password and User Account"
+msgstr "Contraseña y cuenta d'usuariu"
+
+#: kcms/useraccount/kcm_useraccount.desktop:55
+msgctxt "X-KDE-Keywords"
+msgid "password,email,name,organization,realname,login image,face,echo mode"
+msgstr ""
+"contraseña,corréu,nome,organización,nome real,imaxe d'aniciu de sesión, cara,"
+
+#: kcms/useraccount/kcm_useraccount.desktop:92
+msgctxt "Comment"
+msgid "User information such as password, name and email"
+msgstr "Información d'usuariu como contraseña, nome y corréu"
+
 #: kcms/workspaceoptions/workspaceoptions.desktop:13
 msgctxt "Name"
 msgid "Workspace"
@@ -1345,19 +1343,6 @@ msgstr "KNetAttach"
 msgctxt "GenericName"
 msgid "Network Folder Wizard"
 msgstr "Encontu pa carpetes de rede"
-
-#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Application Menu"
-msgctxt "Name"
-msgid "Application Menu Bar"
-msgstr "Menú d'aplicaciones"
-
-#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.desktop:4
-msgctxt "Comment"
-msgid "Combines the current application menu into your shell"
-msgstr ""
 
 #: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.desktop:3
 msgctxt "Name"
@@ -1458,35 +1443,47 @@ msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "Caxa de ferramientes del panel"
 
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Application Color Scheme"
 #~ msgctxt "Name"
-#~ msgid "Menubar manager"
-#~ msgstr "Xestor de barres de menús"
+#~ msgid "Color Schemes"
+#~ msgstr "Esquema de colores d'aplicaciones"
 
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Application Color Scheme"
 #~ msgctxt "Comment"
-#~ msgid "Menubar exporter"
-#~ msgstr "Esportador de barres de menús"
+#~ msgid "Workspace and Application Colors"
+#~ msgstr "Esquema de colores d'aplicaciones"
 
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Cursor Theme"
 #~ msgctxt "Name"
-#~ msgid "Menubar changed"
-#~ msgstr "Camudóse la barra de menús"
+#~ msgid "Cursors"
+#~ msgstr "Tema del cursor"
 
-#~ msgctxt "Comment"
-#~ msgid "Settings changes will take effect only on application restart"
-#~ msgstr "Los axustes namái fadrán efeutu nel reaniciu de l'aplicación"
-
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Plasma Search"
 #~ msgctxt "Name"
-#~ msgid "Password and User Account"
-#~ msgstr "Contraseña y cuenta d'usuariu"
+#~ msgid "Plasma Themes"
+#~ msgstr "Gueta de Plasma"
 
-#~ msgctxt "X-KDE-Keywords"
-#~ msgid "password,email,name,organization,realname,login image,face,echo mode"
-#~ msgstr ""
-#~ "contraseña,corréu,nome,organización,nome real,imaxe d'aniciu de sesión, "
-#~ "cara,"
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Look And Feel"
+#~ msgctxt "Name"
+#~ msgid "Look and Feel"
+#~ msgstr "Aspeutu y sentir"
 
-#~ msgctxt "Comment"
-#~ msgid "User information such as password, name and email"
-#~ msgstr "Información d'usuariu como contraseña, nome y corréu"
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Application Menu"
+#~ msgctxt "Name"
+#~ msgid "Application Menu Bar"
+#~ msgstr "Menú d'aplicaciones"
 
 #~ msgctxt "Name"
 #~ msgid "Application Keyboard Shortcuts"

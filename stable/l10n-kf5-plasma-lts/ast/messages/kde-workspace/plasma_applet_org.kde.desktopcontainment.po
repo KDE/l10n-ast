@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-11 08:15+0100\n"
+"POT-Creation-Date: 2017-02-12 07:49+0100\n"
 "PO-Revision-Date: 2016-02-02 13:43+0100\n"
 "Last-Translator: enolp <enolp@sofastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -24,7 +24,7 @@ msgstr "Allugamientu"
 
 #: package/contents/config/config.qml:36
 #: package/contents/ui/ConfigIcons.qml:252
-#: package/contents/ui/FolderViewLayer.qml:342
+#: package/contents/ui/FolderViewLayer.qml:340
 msgid "Icons"
 msgstr "Iconos"
 
@@ -52,10 +52,6 @@ msgstr "Voltiar"
 #: package/contents/ui/AppletHandle.qml:312
 msgid "Remove"
 msgstr "Desniciar"
-
-#: package/contents/ui/BackButtonItem.qml:105
-msgid "Back"
-msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:53
 msgid "Show All Files"
@@ -320,20 +316,26 @@ msgstr "Títulu:"
 msgid "Enter custom title here"
 msgstr "Títulu:"
 
-#: package/contents/ui/ConfigTweaks.qml:42
+#: package/contents/ui/ConfigTweaks.qml:44
+msgid ""
+"Tweaks are experimental options that may become defaults depending on your "
+"feedback."
+msgstr ""
+
+#: package/contents/ui/ConfigTweaks.qml:50
 msgid "Desktop Layout"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:51
+#: package/contents/ui/ConfigTweaks.qml:59
 #, fuzzy
 msgid "Show the desktop toolbox"
 msgstr "Amosar la carpeta del escritoriu"
 
-#: package/contents/ui/ConfigTweaks.qml:59
+#: package/contents/ui/ConfigTweaks.qml:67
 msgid "Widget Handling"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:69
+#: package/contents/ui/ConfigTweaks.qml:77
 msgid "Press and hold widgets to move them and reveal their handles"
 msgstr ""
 
@@ -368,64 +370,160 @@ msgstr "Pescanciélo"
 msgid "Configure Desktop"
 msgstr "&Refrescar escritoriu"
 
+#: package/contents/ui/UpButtonItem.qml:105
+msgid "Up"
+msgstr ""
+
 #: plugins/folder/directorypicker.cpp:45
 #, fuzzy, kde-format
 msgid "Select Folder"
 msgstr "Esbillar Too"
 
-#: plugins/folder/foldermodel.cpp:254
+#: plugins/folder/foldermodel.cpp:250
 #, kde-format
 msgid "&Refresh Desktop"
 msgstr "&Refrescar escritoriu"
 
-#: plugins/folder/foldermodel.cpp:254 plugins/folder/foldermodel.cpp:1239
+#: plugins/folder/foldermodel.cpp:250 plugins/folder/foldermodel.cpp:1195
 #, kde-format
 msgid "&Refresh View"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:1236
+#: plugins/folder/foldermodel.cpp:1192
 #, kde-format
 msgid "&Reload"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:1242
+#: plugins/folder/foldermodel.cpp:1198
 #, kde-format
 msgid "&Rename"
 msgstr "&Renomar"
 
-#: plugins/folder/foldermodel.cpp:1245
+#: plugins/folder/foldermodel.cpp:1201
 #, kde-format
 msgid "&Move to Trash"
 msgstr "&Mover a la papelera"
 
-#: plugins/folder/foldermodel.cpp:1248
+#: plugins/folder/foldermodel.cpp:1204
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:334
 #, kde-format
 msgid "&Empty Trash Bin"
 msgstr "&Balerar papelera"
 
-#: plugins/folder/foldermodel.cpp:1251
-#, fuzzy, kde-format
-#| msgid "&Restore"
-msgctxt "Restore from trash"
-msgid "Restore"
-msgstr "&Restaurar"
-
-#: plugins/folder/foldermodel.cpp:1254
+#: plugins/folder/foldermodel.cpp:1207
 #, kde-format
 msgid "&Delete"
 msgstr "&Desaniciar"
 
-#: plugins/folder/foldermodel.cpp:1257
-#, kde-format
-msgid "&Open"
-msgstr "&Abrir"
-
-#: plugins/folder/foldermodel.cpp:1327
+#: plugins/folder/foldermodel.cpp:1267
 #, kde-format
 msgid "&Paste"
 msgstr "&Apegar"
 
-#: plugins/folder/foldermodel.cpp:1449
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:84
+#, kde-format
+msgctxt "@title:menu"
+msgid "Copy To"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:90
+#, kde-format
+msgctxt "@title:menu"
+msgid "Move To"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:114
+#, fuzzy, kde-format
+msgctxt "@title:menu"
+msgid "Home Folder"
+msgstr "Esbillar Too"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:121
+#, fuzzy, kde-format
+msgctxt "@title:menu"
+msgid "Root Folder"
+msgstr "Esbillar Too"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:156
+#, kde-format
+msgctxt "@title:menu in Copy To or Move To submenu"
+msgid "Browse..."
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:229
+#, kde-format
+msgctxt "@title:menu"
+msgid "Copy Here"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:230
+#, kde-format
+msgctxt "@title:menu"
+msgid "Move Here"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:241
+#, kde-format
+msgid "&Open"
+msgstr "&Abrir"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:264
+#, fuzzy, kde-format
+msgid "Create &Folder..."
+msgstr "Esbillar Too"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:275
+#, fuzzy, kde-format
+#| msgid "&Restore"
+msgid "&Restore"
+msgstr "&Restaurar"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
+#, fuzzy, kde-format
+msgid "Show Original Directory"
+msgstr "Amosar tolos ficheros"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
+#, fuzzy, kde-format
+msgid "Show Original File"
+msgstr "Amosar tolos ficheros"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:346
+#, kde-format
+msgid "&Configure Trash Bin"
+msgstr "&Configurar papelera"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:370
+#, kde-format
+msgid "&Bookmark This Page"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:372
+#, kde-format
+msgid "&Bookmark This Location"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:375
+#, kde-format
+msgid "&Bookmark This Folder"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:377
+#, kde-format
+msgid "&Bookmark This Link"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:379
+#, kde-format
+msgid "&Bookmark This File"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:413
+#, fuzzy, kde-format
+msgid "Preview In"
+msgstr "Amosar previsualizaciones"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:448
 #, kde-format
 msgid "&Properties"
 msgstr "&Propiedaes"
@@ -488,17 +586,6 @@ msgstr ""
 #, kde-format
 msgid "Locked"
 msgstr ""
-
-#, fuzzy
-#~ msgid "Show Original File"
-#~ msgstr "Amosar tolos ficheros"
-
-#~ msgid "&Configure Trash Bin"
-#~ msgstr "&Configurar papelera"
-
-#, fuzzy
-#~ msgid "Preview In"
-#~ msgstr "Amosar previsualizaciones"
 
 #~ msgid "Icon:"
 #~ msgstr "Iconu:"
