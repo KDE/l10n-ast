@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-14 08:43+0100\n"
+"POT-Creation-Date: 2017-02-18 03:49+0100\n"
 "PO-Revision-Date: 2016-12-21 16:20+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -269,7 +269,7 @@ msgstr ""
 msgid "Memory Consumed"
 msgstr ""
 
-#: gui/chartmodel.cpp:74 gui/flamegraph.cpp:359
+#: gui/chartmodel.cpp:74 gui/flamegraph.cpp:361 gui/mainwindow.cpp:314
 #, kde-format
 msgid "Temporary Allocations"
 msgstr ""
@@ -342,76 +342,76 @@ msgid ""
 "deallocation, without other allocations happening in-between.</qt>"
 msgstr ""
 
-#: gui/flamegraph.cpp:178
+#: gui/flamegraph.cpp:179
 #, kde-format
 msgctxt "%1: number of allocations, %2: relative number, %3: function label"
 msgid "%1 (%2%) allocations in %3 and below."
 msgstr ""
 
-#: gui/flamegraph.cpp:183
+#: gui/flamegraph.cpp:184
 #, kde-format
 msgctxt ""
 "%1: number of temporary allocations, %2: relative number, %3 function label"
 msgid "%1 (%2%) temporary allocations in %3 and below."
 msgstr ""
 
-#: gui/flamegraph.cpp:189
+#: gui/flamegraph.cpp:190
 #, kde-format
 msgctxt ""
 "%1: peak consumption in bytes, %2: relative number, %3: function label"
 msgid "%1 (%2%) peak consumption in %3 and below."
 msgstr ""
 
-#: gui/flamegraph.cpp:192
+#: gui/flamegraph.cpp:193
 #, kde-format
 msgctxt "%1: leaked bytes, %2: relative number, %3: function label"
 msgid "%1 (%2%) leaked in %3 and below."
 msgstr ""
 
-#: gui/flamegraph.cpp:197
+#: gui/flamegraph.cpp:198
 #, kde-format
 msgctxt "%1: allocated bytes, %2: relative number, %3: function label"
 msgid "%1 (%2%) allocated in %3 and below."
 msgstr ""
 
-#: gui/flamegraph.cpp:323 gui/histogrammodel.cpp:75
+#: gui/flamegraph.cpp:325 gui/histogrammodel.cpp:75
 #, kde-format
 msgid "%1 allocations in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:326
+#: gui/flamegraph.cpp:328
 #, kde-format
 msgid "%1 temporary allocations in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:329
+#: gui/flamegraph.cpp:331
 #, kde-format
 msgid "%1 peak consumption in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:332
+#: gui/flamegraph.cpp:334
 #, kde-format
 msgid "%1 leaked in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:335
+#: gui/flamegraph.cpp:337
 #, kde-format
 msgid "%1 allocated in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:355 gui/treemodel.cpp:90
+#: gui/flamegraph.cpp:357 gui/mainwindow.cpp:312 gui/treemodel.cpp:90
 #, kde-format
 msgid "Allocations"
 msgstr ""
 
-#: gui/flamegraph.cpp:356
+#: gui/flamegraph.cpp:358
 #, kde-format
 msgid ""
 "Show a flame graph over the number of allocations triggered by functions in "
 "your code."
 msgstr ""
 
-#: gui/flamegraph.cpp:360
+#: gui/flamegraph.cpp:362
 #, kde-format
 msgid ""
 "Show a flame graph over the number of temporary allocations triggered by "
@@ -419,76 +419,76 @@ msgid ""
 "immediately followed by their deallocation."
 msgstr ""
 
-#: gui/flamegraph.cpp:365
+#: gui/flamegraph.cpp:367
 #, kde-format
 msgid "Peak Consumption"
 msgstr ""
 
-#: gui/flamegraph.cpp:366
+#: gui/flamegraph.cpp:368
 #, kde-format
 msgid ""
 "Show a flame graph over the peak heap memory consumption of your application."
 msgstr ""
 
-#: gui/flamegraph.cpp:369 gui/treemodel.cpp:96
+#: gui/flamegraph.cpp:371 gui/treemodel.cpp:96
 #, kde-format
 msgid "Leaked"
 msgstr ""
 
-#: gui/flamegraph.cpp:370
+#: gui/flamegraph.cpp:372
 #, kde-format
 msgid ""
 "Show a flame graph over the leaked heap memory of your application. Memory "
 "is considered to be leaked when it never got deallocated. "
 msgstr ""
 
-#: gui/flamegraph.cpp:373 gui/treemodel.cpp:98
+#: gui/flamegraph.cpp:375 gui/mainwindow.cpp:316 gui/treemodel.cpp:98
 #, kde-format
 msgid "Allocated"
 msgstr ""
 
-#: gui/flamegraph.cpp:374
+#: gui/flamegraph.cpp:376
 #, kde-format
 msgid ""
 "Show a flame graph over the total memory allocated by functions in your "
 "code. This aggregates all memory allocations and ignores deallocations."
 msgstr ""
 
-#: gui/flamegraph.cpp:380
+#: gui/flamegraph.cpp:382
 #, kde-format
 msgid "Select the data source that should be visualized in the flame graph."
 msgstr ""
 
-#: gui/flamegraph.cpp:389
+#: gui/flamegraph.cpp:390
 #, kde-format
 msgid "Bottom-Down View"
 msgstr ""
 
-#: gui/flamegraph.cpp:390
+#: gui/flamegraph.cpp:391
 #, kde-format
 msgid ""
 "Enable the bottom-down flame graph view. When this is unchecked, the top-"
 "down view is enabled by default."
 msgstr ""
 
-#: gui/flamegraph.cpp:397
+#: gui/flamegraph.cpp:398
 #, kde-format
 msgid "Collapse Recursion"
 msgstr ""
 
-#: gui/flamegraph.cpp:399
+#: gui/flamegraph.cpp:400
 #, kde-format
 msgid ""
 "Collapse stack frames for functions calling themselves. When this is "
 "unchecked, recursive frames will be visualized separately."
 msgstr ""
 
-#: gui/flamegraph.cpp:411
+#: gui/flamegraph.cpp:412
 #, kde-format
 msgid "Cost Threshold: "
 msgstr ""
 
-#: gui/flamegraph.cpp:415
+#: gui/flamegraph.cpp:416
 #, kde-format
 msgid ""
 "<qt>The cost threshold defines a fractional cut-off value. Items with a "
@@ -498,7 +498,7 @@ msgid ""
 "or set it to zero.</qt>"
 msgstr ""
 
-#: gui/flamegraph.cpp:560
+#: gui/flamegraph.cpp:556
 #, kde-format
 msgid "generating flame graph..."
 msgstr ""
@@ -563,6 +563,11 @@ msgstr ""
 msgid "Number of Allocations"
 msgstr ""
 
+#: gui/mainwindow.cpp:84
+#, kde-format
+msgid "Open file in editor"
+msgstr ""
+
 #: gui/mainwindow.cpp:245
 #, kde-format
 msgid ""
@@ -620,6 +625,16 @@ msgstr ""
 #: gui/mainwindow.cpp:305
 #, kde-format
 msgid "Failed to parse file %1."
+msgstr ""
+
+#: gui/mainwindow.cpp:310
+#, kde-format
+msgid "Consumed"
+msgstr ""
+
+#: gui/mainwindow.cpp:320
+#, kde-format
+msgid "Sizes"
 msgstr ""
 
 #: gui/mainwindow.cpp:350
