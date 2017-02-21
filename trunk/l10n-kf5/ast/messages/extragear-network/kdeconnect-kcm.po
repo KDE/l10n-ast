@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-14 03:46+0100\n"
+"POT-Creation-Date: 2017-02-21 08:45+0100\n"
 "PO-Revision-Date: 2017-01-05 16:12+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -47,26 +47,37 @@ msgstr "(C) 2015 Albert Vaca Cintora"
 msgid "Albert Vaca Cintora"
 msgstr "Albert Vaca Cintora"
 
-#: kcm.cpp:228
+#: kcm.cpp:249
 #, kde-format
 msgid "Available plugins"
 msgstr "Complementos disponibles"
 
-#: kcm.cpp:263
+#: kcm.cpp:301
 #, kde-format
 msgid "Error trying to pair: %1"
 msgstr "Fallu al tentar d'empareyar: %1"
 
-#: kcm.cpp:280
+#: kcm.cpp:322
 #, kde-format
 msgid "(paired)"
 msgstr "(empareyóse)"
 
-#: kcm.cpp:280
+#: kcm.cpp:325
 #, fuzzy, kde-format
 #| msgid "(unpaired)"
 msgid "(not paired)"
 msgstr "(ensin empareyar)"
+
+#: kcm.cpp:328
+#, kde-format
+msgid "(incoming pair request)"
+msgstr ""
+
+#: kcm.cpp:331
+#, fuzzy, kde-format
+#| msgid "(not trusted)"
+msgid "(pairing requested)"
+msgstr "(nun ye d'enfotu)"
 
 #. i18n: ectx: property (text), widget (QLabel, rename_label)
 #: kcm.ui:47
@@ -92,32 +103,44 @@ msgstr "Preséu"
 msgid "(status)"
 msgstr "(estáu)"
 
+#. i18n: ectx: property (text), widget (QPushButton, accept_button)
+#: kcm.ui:209
+#, kde-format
+msgid "Accept"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, reject_button)
+#: kcm.ui:216
+#, kde-format
+msgid "Reject"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, pair_button)
-#: kcm.ui:215
+#: kcm.ui:229
 #, kde-format
 msgid "Request pair"
 msgstr "Solicitar empareyamientu"
 
 #. i18n: ectx: property (text), widget (QPushButton, unpair_button)
-#: kcm.ui:228
+#: kcm.ui:242
 #, kde-format
 msgid "Unpair"
 msgstr "Desempareyar"
 
 #. i18n: ectx: property (text), widget (QPushButton, ping_button)
-#: kcm.ui:241
+#: kcm.ui:255
 #, kde-format
 msgid "Send ping"
 msgstr "Unviar ping"
 
 #. i18n: ectx: property (text), widget (QLabel, noDeviceLabel)
-#: kcm.ui:286
+#: kcm.ui:300
 #, kde-format
 msgid "No device selected."
 msgstr "Nun s'esbilló preséu dalu."
 
 #. i18n: ectx: property (text), widget (QLabel, noDeviceLinks)
-#: kcm.ui:302
+#: kcm.ui:316
 #, kde-format
 msgid ""
 "<html><head/><body><p>If you own an Android device, make sure to install the "
@@ -137,7 +160,7 @@ msgstr ""
 "body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, noDeviceTroubleshoot)
-#: kcm.ui:333
+#: kcm.ui:347
 #, kde-format
 msgid ""
 "<html><head/><body><p>If you are having problems, visit the <a href="
@@ -151,6 +174,3 @@ msgstr ""
 
 #~ msgid "(trusted)"
 #~ msgstr "(d'enfotu)"
-
-#~ msgid "(not trusted)"
-#~ msgstr "(nun ye d'enfotu)"
