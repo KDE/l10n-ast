@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-24 06:44+0100\n"
+"POT-Creation-Date: 2017-02-27 06:41+0100\n"
 "PO-Revision-Date: 2016-12-21 16:20+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -269,7 +269,7 @@ msgstr ""
 msgid "Memory Consumed"
 msgstr ""
 
-#: gui/chartmodel.cpp:74 gui/flamegraph.cpp:361 gui/mainwindow.cpp:320
+#: gui/chartmodel.cpp:74 gui/flamegraph.cpp:363 gui/mainwindow.cpp:320
 #, kde-format
 msgid "Temporary Allocations"
 msgstr ""
@@ -374,44 +374,44 @@ msgctxt "%1: allocated bytes, %2: relative number, %3: function label"
 msgid "%1 (%2%) allocated in %3 and below."
 msgstr ""
 
-#: gui/flamegraph.cpp:325 gui/histogrammodel.cpp:75
+#: gui/flamegraph.cpp:327 gui/histogrammodel.cpp:75
 #, kde-format
 msgid "%1 allocations in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:328
+#: gui/flamegraph.cpp:330
 #, kde-format
 msgid "%1 temporary allocations in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:331
+#: gui/flamegraph.cpp:333
 #, kde-format
 msgid "%1 peak consumption in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:334
+#: gui/flamegraph.cpp:336
 #, kde-format
 msgid "%1 leaked in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:337
+#: gui/flamegraph.cpp:339
 #, kde-format
 msgid "%1 allocated in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:357 gui/mainwindow.cpp:318 gui/treemodel.cpp:90
+#: gui/flamegraph.cpp:359 gui/mainwindow.cpp:318 gui/treemodel.cpp:90
 #, kde-format
 msgid "Allocations"
 msgstr ""
 
-#: gui/flamegraph.cpp:358
+#: gui/flamegraph.cpp:360
 #, kde-format
 msgid ""
 "Show a flame graph over the number of allocations triggered by functions in "
 "your code."
 msgstr ""
 
-#: gui/flamegraph.cpp:362
+#: gui/flamegraph.cpp:364
 #, kde-format
 msgid ""
 "Show a flame graph over the number of temporary allocations triggered by "
@@ -419,76 +419,76 @@ msgid ""
 "immediately followed by their deallocation."
 msgstr ""
 
-#: gui/flamegraph.cpp:367
+#: gui/flamegraph.cpp:369
 #, kde-format
 msgid "Peak Consumption"
 msgstr ""
 
-#: gui/flamegraph.cpp:368
+#: gui/flamegraph.cpp:370
 #, kde-format
 msgid ""
 "Show a flame graph over the peak heap memory consumption of your application."
 msgstr ""
 
-#: gui/flamegraph.cpp:371 gui/treemodel.cpp:96
+#: gui/flamegraph.cpp:373 gui/treemodel.cpp:96
 #, kde-format
 msgid "Leaked"
 msgstr ""
 
-#: gui/flamegraph.cpp:372
+#: gui/flamegraph.cpp:374
 #, kde-format
 msgid ""
 "Show a flame graph over the leaked heap memory of your application. Memory "
 "is considered to be leaked when it never got deallocated. "
 msgstr ""
 
-#: gui/flamegraph.cpp:375 gui/mainwindow.cpp:322 gui/treemodel.cpp:98
+#: gui/flamegraph.cpp:377 gui/mainwindow.cpp:322 gui/treemodel.cpp:98
 #, kde-format
 msgid "Allocated"
 msgstr ""
 
-#: gui/flamegraph.cpp:376
+#: gui/flamegraph.cpp:378
 #, kde-format
 msgid ""
 "Show a flame graph over the total memory allocated by functions in your "
 "code. This aggregates all memory allocations and ignores deallocations."
 msgstr ""
 
-#: gui/flamegraph.cpp:382
+#: gui/flamegraph.cpp:384
 #, kde-format
 msgid "Select the data source that should be visualized in the flame graph."
 msgstr ""
 
-#: gui/flamegraph.cpp:390
+#: gui/flamegraph.cpp:392
 #, kde-format
 msgid "Bottom-Down View"
 msgstr ""
 
-#: gui/flamegraph.cpp:391
+#: gui/flamegraph.cpp:393
 #, kde-format
 msgid ""
 "Enable the bottom-down flame graph view. When this is unchecked, the top-"
 "down view is enabled by default."
 msgstr ""
 
-#: gui/flamegraph.cpp:398
+#: gui/flamegraph.cpp:400
 #, kde-format
 msgid "Collapse Recursion"
 msgstr ""
 
-#: gui/flamegraph.cpp:400
+#: gui/flamegraph.cpp:402
 #, kde-format
 msgid ""
 "Collapse stack frames for functions calling themselves. When this is "
 "unchecked, recursive frames will be visualized separately."
 msgstr ""
 
-#: gui/flamegraph.cpp:412
+#: gui/flamegraph.cpp:414
 #, kde-format
 msgid "Cost Threshold: "
 msgstr ""
 
-#: gui/flamegraph.cpp:416
+#: gui/flamegraph.cpp:418
 #, kde-format
 msgid ""
 "<qt>The cost threshold defines a fractional cut-off value. Items with a "
@@ -498,7 +498,7 @@ msgid ""
 "or set it to zero.</qt>"
 msgstr ""
 
-#: gui/flamegraph.cpp:556
+#: gui/flamegraph.cpp:558
 #, kde-format
 msgid "generating flame graph..."
 msgstr ""
@@ -561,6 +561,11 @@ msgstr ""
 #: gui/histogramwidget.cpp:119
 #, kde-format
 msgid "Number of Allocations"
+msgstr ""
+
+#: gui/locationdata.h:65
+#, kde-format
+msgid "<unresolved function>"
 msgstr ""
 
 #: gui/mainwindow.cpp:84
@@ -877,78 +882,73 @@ msgstr ""
 msgid "&File"
 msgstr ""
 
-#: gui/parser.cpp:46
-#, kde-format
-msgid "<unresolved function>"
-msgstr ""
-
 #: gui/parser.cpp:149 gui/parser.cpp:150 gui/parser.cpp:151 gui/parser.cpp:152
-#: gui/parser.cpp:456
+#: gui/parser.cpp:465
 #, kde-format
 msgid "total"
 msgstr ""
 
-#: gui/parser.cpp:458
+#: gui/parser.cpp:467
 #, kde-format
 msgid "0B to 8B"
 msgstr ""
 
-#: gui/parser.cpp:459
+#: gui/parser.cpp:468
 #, kde-format
 msgid "9B to 16B"
 msgstr ""
 
-#: gui/parser.cpp:460
+#: gui/parser.cpp:469
 #, kde-format
 msgid "17B to 32B"
 msgstr ""
 
-#: gui/parser.cpp:461
+#: gui/parser.cpp:470
 #, kde-format
 msgid "33B to 64B"
 msgstr ""
 
-#: gui/parser.cpp:462
+#: gui/parser.cpp:471
 #, kde-format
 msgid "65B to 128B"
 msgstr ""
 
-#: gui/parser.cpp:463
+#: gui/parser.cpp:472
 #, kde-format
 msgid "129B to 256B"
 msgstr ""
 
-#: gui/parser.cpp:464
+#: gui/parser.cpp:473
 #, kde-format
 msgid "257B to 512B"
 msgstr ""
 
-#: gui/parser.cpp:465
+#: gui/parser.cpp:474
 #, kde-format
 msgid "512B to 1KB"
 msgstr ""
 
-#: gui/parser.cpp:466
+#: gui/parser.cpp:475
 #, kde-format
 msgid "more than 1KB"
 msgstr ""
 
-#: gui/parser.cpp:525
+#: gui/parser.cpp:534
 #, kde-format
 msgid "parsing data..."
 msgstr ""
 
-#: gui/parser.cpp:552
+#: gui/parser.cpp:561
 #, kde-format
 msgid "merging allocations..."
 msgstr ""
 
-#: gui/parser.cpp:558
+#: gui/parser.cpp:567
 #, kde-format
 msgid "building size histogram..."
 msgstr ""
 
-#: gui/parser.cpp:564
+#: gui/parser.cpp:573
 #, kde-format
 msgid "building charts..."
 msgstr ""
