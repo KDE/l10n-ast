@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-03-17 02:41+0100\n"
+"POT-Creation-Date: 2017-03-18 03:00+0100\n"
 "PO-Revision-Date: 2016-12-21 16:23+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -171,7 +171,10 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, languageStandardsCpp)
 #. i18n: ectx: property (toolTip), widget (QComboBox, languageStandardsC)
-#: kcm_widget/parserwidget.ui:58 kcm_widget/parserwidget.ui:132
+#. i18n: ectx: property (toolTip), widget (QComboBox, languageStandardsOpenCl)
+#. i18n: ectx: property (toolTip), widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:58 kcm_widget/parserwidget.ui:145
+#: kcm_widget/parserwidget.ui:237 kcm_widget/parserwidget.ui:324
 #, kde-format
 msgid ""
 "<html><head/><body><p>Choose language profile. </p><p>Use \"Custom\" profile "
@@ -180,33 +183,48 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCpp)
 #. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
-#: kcm_widget/parserwidget.ui:62 kcm_widget/parserwidget.ui:136
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsOpenCl)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:62 kcm_widget/parserwidget.ui:149
+#: kcm_widget/parserwidget.ui:241 kcm_widget/parserwidget.ui:328
 #, kde-format
 msgid "Custom"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCpp)
-#: kcm_widget/parserwidget.ui:67
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsOpenCl)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:67 kcm_widget/parserwidget.ui:246
+#: kcm_widget/parserwidget.ui:333
 #, kde-format
 msgid "c++03"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCpp)
 #. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
-#: kcm_widget/parserwidget.ui:72 kcm_widget/parserwidget.ui:161
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsOpenCl)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:72 kcm_widget/parserwidget.ui:174
+#: kcm_widget/parserwidget.ui:251 kcm_widget/parserwidget.ui:338
 #, kde-format
 msgid "c++11"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCpp)
-#: kcm_widget/parserwidget.ui:77
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsOpenCl)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:77 kcm_widget/parserwidget.ui:256
+#: kcm_widget/parserwidget.ui:343
 #, kde-format
 msgid "c++14"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCpp)
 #. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
-#: kcm_widget/parserwidget.ui:82 kcm_widget/parserwidget.ui:141
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsOpenCl)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:82 kcm_widget/parserwidget.ui:154
+#: kcm_widget/parserwidget.ui:261 kcm_widget/parserwidget.ui:348
 #, kde-format
 msgid "c99"
 msgstr ""
@@ -218,33 +236,57 @@ msgid "C++ co&mmand-line arguments:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kcm_widget/parserwidget.ui:110
+#: kcm_widget/parserwidget.ui:123
 #, kde-format
 msgid "C Profi&le:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
-#: kcm_widget/parserwidget.ui:146
+#: kcm_widget/parserwidget.ui:159
 #, kde-format
 msgid "gnu99"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
-#: kcm_widget/parserwidget.ui:151
+#: kcm_widget/parserwidget.ui:164
 #, kde-format
 msgid "c11"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
-#: kcm_widget/parserwidget.ui:156
+#: kcm_widget/parserwidget.ui:169
 #, kde-format
 msgid "gnu11"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, argumentsLabel_2)
-#: kcm_widget/parserwidget.ui:169
+#: kcm_widget/parserwidget.ui:182
 #, kde-format
 msgid "C co&mmand-line arguments:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kcm_widget/parserwidget.ui:215
+#, kde-format
+msgid "OpenCL &Profile:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, argumentsLabel_3)
+#: kcm_widget/parserwidget.ui:269
+#, kde-format
+msgid "OpenCL comma&nd-line arguments:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kcm_widget/parserwidget.ui:302
+#, kde-format
+msgid "CUDA C P&rofile:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, argumentsLabel_4)
+#: kcm_widget/parserwidget.ui:356
+#, kde-format
+msgid "CUDA C comman&d-line arguments:"
 msgstr ""
 
 #: kcm_widget/projectpathswidget.cpp:191
