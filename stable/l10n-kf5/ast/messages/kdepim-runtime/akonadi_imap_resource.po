@@ -1,15 +1,15 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# enolp <enolp@softastur.org>, 2015, 2016.
+# enolp <enolp@softastur.org>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-08 07:09+0100\n"
-"PO-Revision-Date: 2016-01-30 16:49+0100\n"
-"Last-Translator: enolp <enolp@sofastur.org>\n"
-"Language-Team: Asturian <>\n"
+"POT-Creation-Date: 2017-01-24 09:39+0100\n"
+"PO-Revision-Date: 2017-02-04 18:32+0100\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,11 +21,12 @@ msgstr ""
 #, kde-format
 msgid "Cannot add IMAP folder '%1' for a non-existing parent folder '%2'."
 msgstr ""
+"Nun pue amestase la carpeta IMAP «%1» pa una carpeta pá non esistente «%2»."
 
 #: addcollectiontask.cpp:85
 #, kde-format
 msgid "Failed to create the folder '%1' on the IMAP server. "
-msgstr ""
+msgstr "Fallu al crear la carpeta «%1» nel sirvidor IMAP."
 
 #: addcollectiontask.cpp:105 movecollectiontask.cpp:142
 #, kde-format
@@ -33,6 +34,8 @@ msgid ""
 "Failed to subscribe to the folder '%1' on the IMAP server. It will disappear "
 "on next sync. Use the subscription dialog to overcome that"
 msgstr ""
+"Fallu al soscribise a la carpeta «%1» nel sirvidor IMAP. Desapaecerá na "
+"sincronización siguiente. Usa'l diálogu de soscripción pa evitalo"
 
 #: addcollectiontask.cpp:148 changecollectiontask.cpp:296
 #, kde-format
@@ -40,7 +43,7 @@ msgid "Failed to write some annotations for '%1' on the IMAP server. %2"
 msgstr ""
 
 #: additemtask.cpp:135 changeitemtask.cpp:201 changeitemtask.cpp:229
-#: moveitemstask.cpp:252
+#: moveitemstask.cpp:254
 #, kde-format
 msgid "Could not determine the UID for the newly created message on the server"
 msgstr ""
@@ -74,21 +77,21 @@ msgstr ""
 msgid "Failed to write some ACLs for '%1' on the IMAP server. %2"
 msgstr ""
 
-#: imapresource.cpp:53
-#, kde-format
-msgid "IMAP Account"
-msgstr ""
-
 #: imapresource.cpp:65
 #, kde-format
+msgid "IMAP Account"
+msgstr "Cuenta IMAP"
+
+#: imapresource.cpp:77
+#, kde-format
 msgid "IMAP Account Settings"
-msgstr ""
+msgstr "Axustes de cuenta IMAP"
 
 #. i18n: ectx: label, entry (ImapServer), group (network)
 #: imapresource.kcfg:10
 #, kde-format
 msgid "IMAP server"
-msgstr ""
+msgstr "Sirvidor IMAP"
 
 #. i18n: ectx: label, entry (ImapPort), group (network)
 #: imapresource.kcfg:13
@@ -245,94 +248,94 @@ msgstr ""
 msgid "Defines the type of identification used by custom sieve server"
 msgstr ""
 
-#: imapresourcebase.cpp:238
+#: imapresourcebase.cpp:237
 #, kde-format
 msgid "No server configured yet."
 msgstr ""
 
-#: imapresourcebase.cpp:274
+#: imapresourcebase.cpp:273
 #, kde-format
 msgctxt "@title:window"
 msgid "Serverside Subscription"
 msgstr ""
 
-#: imapresourcebase.cpp:296
+#: imapresourcebase.cpp:295
 #, kde-format
 msgid "Connection established."
 msgstr ""
 
-#: imapresourcebase.cpp:312
+#: imapresourcebase.cpp:311
 #, kde-format
 msgid "Server is not available."
 msgstr ""
 
-#: imapresourcebase.cpp:366
+#: imapresourcebase.cpp:365
 #, kde-format
 msgctxt "@info:status"
 msgid "Adding item in '%1'"
 msgstr ""
 
-#: imapresourcebase.cpp:373
+#: imapresourcebase.cpp:372
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating item in '%1'"
 msgstr ""
 
-#: imapresourcebase.cpp:381
+#: imapresourcebase.cpp:380
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating items"
 msgstr ""
 
-#: imapresourcebase.cpp:395
+#: imapresourcebase.cpp:394
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing items"
 msgstr ""
 
-#: imapresourcebase.cpp:413
+#: imapresourcebase.cpp:412
 #, kde-format
 msgctxt "@info:status"
 msgid "Moving items from '%1' to '%2'"
 msgstr ""
 
-#: imapresourcebase.cpp:422
+#: imapresourcebase.cpp:421
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving folders"
 msgstr ""
 
-#: imapresourcebase.cpp:429
+#: imapresourcebase.cpp:428
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving extra folder information for '%1'"
 msgstr ""
 
-#: imapresourcebase.cpp:448
+#: imapresourcebase.cpp:447
 #, kde-format
 msgctxt "@info:status"
 msgid "Creating folder '%1'"
 msgstr ""
 
-#: imapresourcebase.cpp:454
+#: imapresourcebase.cpp:453
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating folder '%1'"
 msgstr ""
 
-#: imapresourcebase.cpp:467
+#: imapresourcebase.cpp:466
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing folder '%1'"
 msgstr ""
 
-#: imapresourcebase.cpp:475
+#: imapresourcebase.cpp:474
 #, kde-format
 msgctxt "@info:status"
 msgid "Moving folder '%1' from '%2' to '%3'"
 msgstr ""
 
-#: imapresourcebase.cpp:506
+#: imapresourcebase.cpp:505
 #, kde-format
 msgctxt "@info:status"
 msgid "Searching..."
@@ -370,12 +373,12 @@ msgstr ""
 msgid "Cannot move message to '%1', '%1' does not exist on the server."
 msgstr ""
 
-#: moveitemstask.cpp:128
+#: moveitemstask.cpp:130
 #, kde-format
 msgid "Failed to move item, it has no message payload. Remote id: %1"
 msgstr ""
 
-#: moveitemstask.cpp:205
+#: moveitemstask.cpp:207
 #, kde-format
 msgid ""
 "Failed to mark the message from '%1' for deletion on the IMAP server. It "
@@ -391,6 +394,11 @@ msgstr ""
 #: removecollectionrecursivetask.cpp:166
 #, kde-format
 msgid "Failed to find the folder to be deleted, restoring folder list."
+msgstr ""
+
+#: resourcestate.cpp:294
+#, kde-format
+msgid "Restarting item retrieval."
 msgstr ""
 
 #: resourcetask.cpp:75
@@ -413,29 +421,29 @@ msgstr ""
 msgid "killed"
 msgstr ""
 
-#: retrievecollectionmetadatatask.cpp:201
+#: retrievecollectionmetadatatask.cpp:202
 #, kde-format
 msgid ""
 "<p>Your access rights to folder <b>%1</b> have been restricted, it will no "
 "longer be possible to add messages to this folder.</p>"
 msgstr ""
 
-#: retrievecollectionmetadatatask.cpp:204
+#: retrievecollectionmetadatatask.cpp:205
 #, kde-format
 msgid "Access rights revoked"
 msgstr ""
 
-#: retrievecollectionstask.cpp:171
+#: retrievecollectionstask.cpp:170
 #, kde-format
 msgid "Inbox"
 msgstr ""
 
-#: retrievecollectionstask.cpp:179
+#: retrievecollectionstask.cpp:178
 #, kde-format
 msgid "Shared Folders"
 msgstr ""
 
-#: retrieveitemstask.cpp:555
+#: retrieveitemstask.cpp:556
 #, kde-format
 msgctxt "@info:status"
 msgid "Fetching missing mail bodies in %3: %1/%2"
@@ -456,6 +464,11 @@ msgstr ""
 msgid "No message retrieved, server reply was empty."
 msgstr ""
 
+#: searchtask.cpp:199
+#, kde-format
+msgid "Invalid search"
+msgstr ""
+
 #: serverinfodialog.cpp:36
 #, kde-format
 msgctxt ""
@@ -468,63 +481,63 @@ msgstr ""
 msgid "Resource not synchronized yet."
 msgstr ""
 
-#: sessionpool.cpp:259 sessionpool.cpp:409
+#: sessionpool.cpp:260 sessionpool.cpp:410
 #, kde-format
 msgid ""
 "Could not connect to the IMAP-server %1.\n"
 "%2"
 msgstr ""
 
-#: sessionpool.cpp:263
+#: sessionpool.cpp:264
 #, kde-format
 msgid ""
 "Could not connect to the IMAP server.\n"
 "%1"
 msgstr ""
 
-#: sessionpool.cpp:304
+#: sessionpool.cpp:305
 #, kde-format
 msgid "Could not create another extra connection to the IMAP-server %1."
 msgstr ""
 
-#: sessionpool.cpp:322 sessionpool.cpp:391 sessionpool.cpp:432
+#: sessionpool.cpp:323 sessionpool.cpp:392 sessionpool.cpp:433
 #: sessionpool.cpp:502
 #, kde-format
 msgid "Disconnected from server during login."
 msgstr ""
 
-#: sessionpool.cpp:335
+#: sessionpool.cpp:336
 #, kde-format
 msgid "Could not read the password: user rejected wallet access"
 msgstr ""
 
-#: sessionpool.cpp:343
+#: sessionpool.cpp:344
 #, kde-format
 msgid "Empty password"
 msgstr ""
 
-#: sessionpool.cpp:355
+#: sessionpool.cpp:356
 #, kde-format
 msgid ""
 "You requested TLS/SSL to connect to %1, but your system does not seem to be "
 "set up for that."
 msgstr ""
 
-#: sessionpool.cpp:415
+#: sessionpool.cpp:416
 #, kde-format
 msgid ""
 "Could not connect to the IMAP-server.\n"
 "%1"
 msgstr ""
 
-#: sessionpool.cpp:440
+#: sessionpool.cpp:441
 #, kde-format
 msgid ""
 "Could not test the capabilities supported by the IMAP server %1.\n"
 "%2"
 msgstr ""
 
-#: sessionpool.cpp:447
+#: sessionpool.cpp:448
 #, kde-format
 msgid ""
 "Could not test the capabilities supported by the IMAP server.\n"
@@ -543,12 +556,7 @@ msgstr ""
 msgid "Disconnected during login."
 msgstr ""
 
-#: settings.cpp:148
-#, kde-format
-msgid "Please enter password for user '%1' on IMAP server '%2'."
-msgstr ""
-
-#: settingspasswordrequester.cpp:69
+#: settingspasswordrequester.cpp:70
 #, kde-format
 msgid ""
 "The server for account \"%2\" refused the supplied username and password. Do "
@@ -558,25 +566,30 @@ msgid ""
 "%1"
 msgstr ""
 
-#: settingspasswordrequester.cpp:74
+#: settingspasswordrequester.cpp:75
 #, kde-format
 msgid "Could Not Authenticate"
 msgstr ""
 
-#: settingspasswordrequester.cpp:78
+#: settingspasswordrequester.cpp:79
 #, kde-format
 msgid "Account Settings"
 msgstr ""
 
-#: settingspasswordrequester.cpp:79
+#: settingspasswordrequester.cpp:80
 #, kde-format
 msgctxt "Input username/password manually and not store them"
 msgid "Try Again"
-msgstr "Intentalo de nueves"
+msgstr ""
+
+#: settingspasswordrequester.cpp:169
+#, kde-format
+msgid "Please enter password for user '%1' on IMAP server '%2'."
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserver.cpp:82 setupserverview_desktop.ui:329
+#: setupserver.cpp:83 setupserverview_desktop.ui:329
 #: setupserverview_desktop.ui:580
 #, kde-format
 msgctxt "Authentication method"
@@ -585,26 +598,59 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserver.cpp:84 setupserverview_desktop.ui:364
+#: setupserver.cpp:85 setupserverview_desktop.ui:364
 #: setupserverview_desktop.ui:615
 #, kde-format
 msgctxt "Authentication method"
 msgid "Anonymous"
 msgstr ""
 
-#: setupserver.cpp:138
+#: setupserver.cpp:87
+#, kde-format
+msgctxt "Authentication method"
+msgid "Gmail"
+msgstr ""
+
+#: setupserver.cpp:141
 #, kde-format
 msgid "Archive Folder"
 msgstr ""
 
-#: setupserver.cpp:150
+#: setupserver.cpp:153
 #, kde-format
 msgid " minute"
 msgid_plural " minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: setupserver.cpp:384 setupserver.cpp:441
+#: setupserver.cpp:258
+#, kde-format
+msgid ""
+"You have changed the address of the server. Even if this is the same server "
+"as before we will have to re-download all your emails from this account "
+"again. Are you sure you want to proceed?"
+msgstr ""
+
+#: setupserver.cpp:261
+#, kde-format
+msgid "Server address change"
+msgstr ""
+
+#: setupserver.cpp:268
+#, kde-format
+msgid ""
+"You have changed the user name. Even if this is a user name for the same "
+"account as before we will have to re-download all your emails from this "
+"account again. Are you sure you want to proceed?"
+msgstr ""
+
+#: setupserver.cpp:271
+#, fuzzy, kde-format
+#| msgid "Username"
+msgid "User name change"
+msgstr "Nome d'usuariu"
+
+#: setupserver.cpp:409 setupserver.cpp:465
 #, kde-format
 msgid ""
 "Could not access KWallet. If you want to store the password permanently then "
@@ -612,39 +658,39 @@ msgid ""
 "below, but note that you will be prompted for your password when needed."
 msgstr ""
 
-#: setupserver.cpp:389 setupserver.cpp:446
+#: setupserver.cpp:414 setupserver.cpp:470
 #, kde-format
 msgid "Do not use KWallet"
 msgstr ""
 
-#: setupserver.cpp:510
+#: setupserver.cpp:534
 #, kde-format
 msgid "Unable to connect to the server, please verify the server address."
 msgstr ""
 
-#: setupserver.cpp:522
+#: setupserver.cpp:546
 #, kde-format
 msgid "<qt><b>TLS is supported and recommended.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:525
+#: setupserver.cpp:549
 #, kde-format
 msgid "<qt><b>SSL is supported and recommended.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:528
+#: setupserver.cpp:552
 #, kde-format
 msgid ""
 "<qt><b>No security is supported. It is not recommended to connect to this "
 "server.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:531
+#: setupserver.cpp:555
 #, kde-format
 msgid "<qt><b>It is not possible to use this server.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:631
+#: setupserver.cpp:657
 #, kde-format
 msgid "Serverside Subscription"
 msgstr ""
@@ -659,13 +705,13 @@ msgstr "Xeneral"
 #: setupserverview_desktop.ui:39
 #, kde-format
 msgid "Account Information"
-msgstr ""
+msgstr "Información de cuenta"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: setupserverview_desktop.ui:45
 #, kde-format
 msgid "Account Name:"
-msgstr ""
+msgstr "Nome de cuenta:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
 #: setupserverview_desktop.ui:59
@@ -680,20 +726,19 @@ msgstr ""
 #: setupserverview_desktop.ui:62
 #, kde-format
 msgid "I&MAP Server:"
-msgstr ""
+msgstr "Sirvidor IMAP"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
 #: setupserverview_desktop.ui:79
 #, kde-format
 msgid "The username."
-msgstr ""
+msgstr "El nome d'usuariu."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: setupserverview_desktop.ui:82
-#, fuzzy, kde-format
-#| msgid "Username:"
+#, kde-format
 msgid "Use&rname:"
-msgstr "Nome d'usuariu:"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
 #: setupserverview_desktop.ui:99
@@ -799,14 +844,14 @@ msgstr ""
 #: setupserverview_desktop.ui:312
 #, kde-format
 msgid "Username:"
-msgstr "Nome d'usuariu:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: setupserverview_desktop.ui:321 setupserverview_desktop.ui:572
 #, kde-format
 msgid "Authentication:"
-msgstr ""
+msgstr "Autenticación:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -814,7 +859,7 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "LOGIN"
-msgstr ""
+msgstr "LOGIN"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -822,7 +867,7 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "PLAIN"
-msgstr ""
+msgstr "PLAIN"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -830,7 +875,7 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "CRAM-MD5"
-msgstr ""
+msgstr "CRAM-MD5"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -838,7 +883,7 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "DIGEST-MD5"
-msgstr ""
+msgstr "DIGEST-MD5"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -846,7 +891,7 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "NTLM"
-msgstr ""
+msgstr "NTLM"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
@@ -854,19 +899,19 @@ msgstr ""
 #, kde-format
 msgctxt "Authentication method"
 msgid "GSSAPI"
-msgstr ""
+msgstr "GSSAPI"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: setupserverview_desktop.ui:391
 #, kde-format
 msgid "Advanced"
-msgstr ""
+msgstr "Avanzao"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: setupserverview_desktop.ui:397
 #, kde-format
 msgid "IMAP Settings"
-msgstr ""
+msgstr "Axustes IMAP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, subscriptionEnabled)
 #: setupserverview_desktop.ui:405
@@ -977,19 +1022,19 @@ msgstr ""
 #: setupserverview_desktop.ui:530
 #, kde-format
 msgid "SSL/TLS"
-msgstr ""
+msgstr "SSL/TLS"
 
 #. i18n: ectx: property (text), widget (QRadioButton, tlsRadio)
 #: setupserverview_desktop.ui:540
 #, kde-format
 msgid "STARTTLS"
-msgstr ""
+msgstr "STARTTLS"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: setupserverview_desktop.ui:552
 #, kde-format
 msgid "Port:"
-msgstr ""
+msgstr "Puertu:"
 
 #. i18n: ectx: property (text), widget (QLabel, testInfo)
 #: setupserverview_desktop.ui:634
@@ -1001,7 +1046,7 @@ msgstr ""
 #: setupserverview_desktop.ui:654
 #, kde-format
 msgid "Server Info"
-msgstr ""
+msgstr "Información del sirvidor"
 
 #: subscriptiondialog.cpp:71
 #, kde-format
@@ -1026,6 +1071,3 @@ msgstr ""
 msgctxt "@option:check"
 msgid "Subscribed only"
 msgstr ""
-
-#~ msgid "&Username:"
-#~ msgstr "Nome d'u&suariu:"
