@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-04-23 02:48+0200\n"
+"POT-Creation-Date: 2017-04-24 02:49+0200\n"
 "PO-Revision-Date: 2016-12-21 16:40+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -2411,81 +2411,94 @@ msgid ""
 "(e.g. remix info)"
 msgstr ""
 
-#: libkwave/FileProgress.cpp:90
+#: libkwave/FileProgress.cpp:91
 #, kde-format
-msgid "Source: "
+msgctxt "file progress dialog"
+msgid "File: "
 msgstr ""
 
-#: libkwave/FileProgress.cpp:96
+#: libkwave/FileProgress.cpp:98
 #, kde-format
+msgctxt "file progress dialog"
 msgid "Length: "
 msgstr ""
 
-#: libkwave/FileProgress.cpp:103
+#: libkwave/FileProgress.cpp:106
 #, kde-format
-msgid "Sample rate: "
-msgstr ""
-
-#: libkwave/FileProgress.cpp:104
-#, kde-format
-msgid "%1 Samples per second"
+msgctxt "file progress dialog"
+msgid "Sample Rate: "
 msgstr ""
 
 #: libkwave/FileProgress.cpp:108
 #, kde-format
-msgid "Resolution: "
-msgstr ""
-
-#: libkwave/FileProgress.cpp:109
-#, kde-format
-msgid "%1 Bits per sample"
+msgctxt "file progress dialog, %1=number of samples per second"
+msgid "%1 Samples per second"
 msgstr ""
 
 #: libkwave/FileProgress.cpp:113
 #, kde-format
-msgid "Tracks: "
+msgctxt "file progress dialog"
+msgid "Resolution: "
 msgstr ""
 
 #: libkwave/FileProgress.cpp:116
 #, kde-format
+msgctxt "file progress dialog, %1=number of bits per sample (8, 16, 24...)"
+msgid "%1 Bits per sample"
+msgstr ""
+
+#: libkwave/FileProgress.cpp:121
+#, kde-format
+msgctxt "file progress dialog"
+msgid "Tracks: "
+msgstr ""
+
+#: libkwave/FileProgress.cpp:124
+#, kde-format
+msgctxt "number of tracks"
 msgid "1 (mono)"
 msgstr ""
 
-#: libkwave/FileProgress.cpp:119
+#: libkwave/FileProgress.cpp:127
 #, kde-format
+msgctxt "number of tracks"
 msgid "2 (stereo)"
 msgstr ""
 
-#: libkwave/FileProgress.cpp:122
+#: libkwave/FileProgress.cpp:130
 #, kde-format
+msgctxt "number of tracks"
 msgid "4 (quadro)"
 msgstr ""
 
-#: libkwave/FileProgress.cpp:198
+#: libkwave/FileProgress.cpp:206
 #, kde-format
 msgid "Do you really want to abort the operation?"
 msgstr ""
 
-#: libkwave/FileProgress.cpp:269
+#: libkwave/FileProgress.cpp:279
 #, kde-format
+msgctxt "file progress dialog, %1=transfer rate, %2=remaining duration"
 msgid "%1 kB/s (%2 remaining)"
 msgstr ""
 
-#: libkwave/FileProgress.cpp:275
+#: libkwave/FileProgress.cpp:288
 #, kde-format
+msgctxt ""
+"file progress dialog, %1=number of loaded/saved megabytes, %2=number of "
+"total megabytes to load or save"
 msgid "%1 MB of %2 MB done"
 msgstr ""
 
-#: libkwave/FileProgress.cpp:320
+#: libkwave/FileProgress.cpp:333
 #, kde-format
 msgctxt "%1=Progress in percentage, %2=path to file"
 msgid "(%1%) %2"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, txtSourceBuffer)
-#: libkwave/FileProgress.cpp:352 plugins/fileinfo/FileInfoDialog.cpp:276
-#: plugins/record/RecordDialog.cpp:605 plugins/record/RecordDlg.ui:1133
-#, no-c-format, kde-format
+#: libkwave/FileProgress.cpp:366
+#, kde-format
+msgctxt "file progress dialog, %1=a number of samples"
 msgid "%1 samples"
 msgstr ""
 
@@ -5360,6 +5373,13 @@ msgstr ""
 #: plugins/fileinfo/FileInfoDialog.cpp:272
 #, kde-format
 msgid "%1 (%2 samples)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, txtSourceBuffer)
+#: plugins/fileinfo/FileInfoDialog.cpp:276 plugins/record/RecordDialog.cpp:605
+#: plugins/record/RecordDlg.ui:1133
+#, no-c-format, kde-format
+msgid "%1 samples"
 msgstr ""
 
 #: plugins/fileinfo/FileInfoDialog.cpp:586
