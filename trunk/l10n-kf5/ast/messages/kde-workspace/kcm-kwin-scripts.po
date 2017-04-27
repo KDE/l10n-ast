@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-27 09:10+0100\n"
+"POT-Creation-Date: 2017-04-27 02:56+0200\n"
 "PO-Revision-Date: 2016-12-21 16:27+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -42,21 +42,28 @@ msgstr ""
 msgid "Tamás Krutki"
 msgstr ""
 
-#: module.cpp:83
+#: module.cpp:85
 #, kde-format
 msgid "Import KWin Script"
 msgstr ""
 
-#: module.cpp:84
+#: module.cpp:86
 #, kde-format
 msgid "*.kwinscript|KWin scripts (*.kwinscript)"
 msgstr ""
 
-#: module.cpp:93
+#: module.cpp:105
 #, kde-format
+msgctxt "Placeholder is error message returned from the install service"
 msgid ""
-"Cannot import selected script: maybe a script already exists with the same "
-"name or there is a permission problem."
+"Cannot import selected script.\n"
+"%1"
+msgstr ""
+
+#: module.cpp:119
+#, kde-format
+msgctxt "Placeholder is name of the script that was imported"
+msgid "The script \"%1\" was successfully imported."
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, Module)
@@ -66,13 +73,13 @@ msgid "KWin script configuration"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, importScriptButton)
-#: module.ui:41
+#: module.ui:44
 #, kde-format
 msgid "Import KWin script..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KNS3::Button, ghnsButton)
-#: module.ui:48
+#: module.ui:51
 #, kde-format
 msgid "Get New Script..."
 msgstr ""
