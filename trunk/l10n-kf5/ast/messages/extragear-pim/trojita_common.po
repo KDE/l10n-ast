@@ -688,7 +688,7 @@ msgctxt "Gui::AttachmentView|"
 msgid "Save Attachment"
 msgstr ""
 
-#: ../src/Gui/AttachmentView.cpp:391
+#: ../src/Gui/AttachmentView.cpp:398
 msgctxt "Gui::AttachmentView|"
 msgid "Source of Attached Message"
 msgstr ""
@@ -1374,14 +1374,30 @@ msgctxt "Gui::MessageSourceWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: ../src/Gui/MessageView.cpp:134
+#: ../src/Gui/MessageView.cpp:90
+#, fuzzy
+#| msgctxt "Gui::MessageHeadersWidget|"
+#| msgid "Search..."
+msgctxt "Gui::MessageView|"
+msgid "Search..."
+msgstr "Guetar..."
+
+#: ../src/Gui/MessageView.cpp:91
+#, fuzzy
+#| msgctxt "Gui::MessageHeadersWidget|"
+#| msgid "Ctrl+F"
+msgctxt "Gui::MessageView|"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+#: ../src/Gui/MessageView.cpp:142
 msgctxt "Gui::MessageView|"
 msgid ""
 "Fetching\n"
 "Message"
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:219
+#: ../src/Gui/MessageView.cpp:227
 msgctxt "Gui::MessageView|"
 msgid ""
 "Waiting\n"
@@ -1389,12 +1405,12 @@ msgid ""
 "Message..."
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:355
+#: ../src/Gui/MessageView.cpp:363
 msgctxt "Gui::MessageView|"
 msgid "you"
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:360
+#: ../src/Gui/MessageView.cpp:368
 #, qt-format
 msgctxt "Gui::MessageView|"
 msgid "On %1, %2 wrote:\n"
@@ -1460,23 +1476,23 @@ msgid "Copy text"
 msgstr ""
 
 #. Translators: use something very short, perhaps even "text". Don't describe this as "Clear text". This string is used as a caption of a tab showing the plaintext part of a mail which is e.g. sent in both plaintext and HTML formats.
-#: ../src/Gui/PartWidget.cpp:132
+#: ../src/Gui/PartWidget.cpp:142
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Plaintext"
 msgstr "Testu planu"
 
 #. Translators: caption of the tab which shows a HTML version of the mail. Use some short, compact text here.
-#: ../src/Gui/PartWidget.cpp:135
+#: ../src/Gui/PartWidget.cpp:145
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "HTML"
 msgstr "HTML"
 
-#: ../src/Gui/PartWidget.cpp:175 ../src/Gui/PartWidget.cpp:220
+#: ../src/Gui/PartWidget.cpp:191 ../src/Gui/PartWidget.cpp:236
 msgctxt "Gui::PartStatusWidget|"
 msgid "Show Details"
 msgstr "Amosar detalles"
 
-#: ../src/Gui/PartWidget.cpp:224
+#: ../src/Gui/PartWidget.cpp:240
 msgctxt "Gui::PartStatusWidget|"
 msgid "Hide Details"
 msgstr "Anubrir detalles"
@@ -2452,42 +2468,37 @@ msgctxt "Gui::SimplePartWidget|"
 msgid "Search..."
 msgstr "Guetar..."
 
-#: ../src/Gui/SimplePartWidget.cpp:86
-msgctxt "Gui::SimplePartWidget|"
-msgid "Ctrl+F"
-msgstr "Ctrl+F"
-
-#: ../src/Gui/SimplePartWidget.cpp:90
+#: ../src/Gui/SimplePartWidget.cpp:88
 msgctxt "Gui::SimplePartWidget|"
 msgid "Copy e-mail address"
 msgstr ""
 
-#: ../src/Gui/SimplePartWidget.cpp:132
+#: ../src/Gui/SimplePartWidget.cpp:129
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save Attachment"
 msgstr ""
 
-#: ../src/Gui/SimplePartWidget.cpp:203
+#: ../src/Gui/SimplePartWidget.cpp:206
 msgctxt "Gui::SimplePartWidget|"
 msgid "Color scheme"
 msgstr ""
 
-#: ../src/Gui/SimplePartWidget.cpp:217
+#: ../src/Gui/SimplePartWidget.cpp:220
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom"
 msgstr ""
 
-#: ../src/Gui/SimplePartWidget.cpp:223
+#: ../src/Gui/SimplePartWidget.cpp:226
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom In"
 msgstr ""
 
-#: ../src/Gui/SimplePartWidget.cpp:227
+#: ../src/Gui/SimplePartWidget.cpp:230
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom Out"
 msgstr ""
 
-#: ../src/Gui/SimplePartWidget.cpp:231
+#: ../src/Gui/SimplePartWidget.cpp:234
 msgctxt "Gui::SimplePartWidget|"
 msgid "Original Size"
 msgstr ""
@@ -5304,3 +5315,7 @@ msgstr ""
 msgctxt "XtConnect::XtConnect|"
 msgid "Database Password: "
 msgstr ""
+
+#~ msgctxt "Gui::SimplePartWidget|"
+#~ msgid "Ctrl+F"
+#~ msgstr "Ctrl+F"
