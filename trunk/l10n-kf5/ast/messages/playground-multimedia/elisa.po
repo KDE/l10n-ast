@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-05-31 06:53+0200\n"
+"POT-Creation-Date: 2017-06-02 03:06+0200\n"
 "PO-Revision-Date: 2017-02-07 04:29+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -39,8 +39,8 @@ msgctxt "Enqueue current track"
 msgid "Enqueue"
 msgstr "Poner na cola"
 
-#: ContextView.qml:107 MediaAllAlbumView.qml:164 MediaArtistAlbumView.qml:148
-#: MediaPlayListView.qml:112
+#: ContextView.qml:107 MediaAllAlbumView.qml:192 MediaArtistAlbumView.qml:149
+#: MediaPlayListView.qml:125
 #, kde-format
 msgid "1 track"
 msgid_plural "%1 tracks"
@@ -53,7 +53,7 @@ msgctxt "Copyright text shown for an image"
 msgid "by Edward Betts (Own work) [CC BY-SA 3.0]"
 msgstr "por Edward Betts (trabayu propiu) [CC BY-SA 3.0]"
 
-#: HeaderBar.qml:235
+#: HeaderBar.qml:230
 #, kde-format
 msgid "1 track remaining"
 msgid_plural "%1 tracks remaining"
@@ -78,37 +78,53 @@ msgctxt "Clear play list and add whole album to play list"
 msgid "Play Now and Replace Play List"
 msgstr "Reproducir agora y trocar llistáu de reproducción"
 
-#: MediaAllAlbumView.qml:61 MediaAllArtistView.qml:61
+#: MediaAllAlbumView.qml:65 MediaServer.qml:448
+#, fuzzy, kde-format
+#| msgctxt "Open album view"
+#| msgid "Open Album"
+msgctxt "Title of the view of all albums"
+msgid "Albums"
+msgstr "Abrir álbum"
+
+#: MediaAllAlbumView.qml:85 MediaAllArtistView.qml:85
 #, kde-format
 msgctxt "before the TextField input of the filter"
 msgid "Filter: "
 msgstr "Peñera:"
 
-#: MediaAllAlbumView.qml:69 MediaAllArtistView.qml:69
+#: MediaAllAlbumView.qml:95 MediaAllArtistView.qml:95
 #, kde-format
 msgctxt "Placeholder text in the filter text box"
 msgid "Filter"
 msgstr "Peñerar"
 
-#: MediaAllAlbumView.qml:102
+#: MediaAllAlbumView.qml:128
 #, kde-format
 msgctxt "before the Rating widget input of the filter"
 msgid "Rating: "
 msgstr ""
 
-#: MediaAllAlbumView.qml:166 MediaArtistAlbumView.qml:150
+#: MediaAllAlbumView.qml:194 MediaArtistAlbumView.qml:151
 #, kde-format
 msgctxt "Number of tracks for an album"
 msgid "0 track"
 msgstr "0 pistes"
 
-#: MediaArtistAlbumView.qml:70 MediaArtistDelegate.qml:53
+#: MediaAllArtistView.qml:65 MediaServer.qml:449
+#, fuzzy, kde-format
+#| msgctxt "Open artist view"
+#| msgid "Open Artist"
+msgctxt "Title of the view of all artists"
+msgid "Artists"
+msgstr "Abrir artista"
+
+#: MediaArtistAlbumView.qml:71 MediaArtistDelegate.qml:53
 #, kde-format
 msgctxt "Add all tracks from artist to play list"
 msgid "Enqueue"
 msgstr "Poner na cola"
 
-#: MediaArtistAlbumView.qml:76 MediaArtistDelegate.qml:80
+#: MediaArtistAlbumView.qml:77 MediaArtistDelegate.qml:80
 #, kde-format
 msgctxt "Clear play list and add all tracks from artist to play list"
 msgid "Play Now and Replace Play List"
@@ -132,23 +148,23 @@ msgctxt "Show currently played track inside playlist"
 msgid "Show Current Track"
 msgstr ""
 
-#: MediaPlayListView.qml:70
+#: MediaPlayListView.qml:81 MediaServer.qml:447
 #, kde-format
-msgctxt "text shown at the top of the play list"
-msgid "Playlist"
-msgstr "Llistáu de reproducción"
+msgctxt "Title of the view of the playlist"
+msgid "Now Playing"
+msgstr ""
 
-#: MediaPlayListView.qml:91
+#: MediaPlayListView.qml:104
 #, kde-format
 msgid "Shuffle"
 msgstr "Al debalu"
 
-#: MediaPlayListView.qml:99
+#: MediaPlayListView.qml:112
 #, kde-format
 msgid "Repeat"
 msgstr "Repitir"
 
-#: MediaPlayListView.qml:158
+#: MediaPlayListView.qml:171
 #, kde-format
 msgctxt "Text shown when play list is empty"
 msgid ""
@@ -165,28 +181,6 @@ msgstr ""
 msgctxt "open application menu"
 msgid "Application Menu"
 msgstr ""
-
-#: MediaServer.qml:447
-#, kde-format
-msgctxt "Title of the view of the playlist"
-msgid "Now Playing"
-msgstr ""
-
-#: MediaServer.qml:448
-#, fuzzy, kde-format
-#| msgctxt "Open album view"
-#| msgid "Open Album"
-msgctxt "Title of the view of all albums"
-msgid "Albums"
-msgstr "Abrir álbum"
-
-#: MediaServer.qml:449
-#, fuzzy, kde-format
-#| msgctxt "Open artist view"
-#| msgid "Open Artist"
-msgctxt "Title of the view of all artists"
-msgid "Artists"
-msgstr "Abrir artista"
 
 #: NavigationActionBar.qml:41
 #, kde-format
@@ -231,6 +225,10 @@ msgstr "Matthieu Gallien"
 #, kde-format
 msgid "Author"
 msgstr "Autor"
+
+#~ msgctxt "text shown at the top of the play list"
+#~ msgid "Playlist"
+#~ msgstr "Llistáu de reproducción"
 
 #~ msgctxt ""
 #~ "Artist name for albums with more than one artist (like compilations"
