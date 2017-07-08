@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-03-15 02:46+0000\n"
+"POT-Creation-Date: 2017-07-08 01:19+0000\n"
 "PO-Revision-Date: 2015-03-27 02:12+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -107,11 +107,11 @@ msgid ""
 "bool importBibtex(QString file, QString action)\n"
 "bool importMODS(QString file, QString action)\n"
 "bool importRIS(QString file, QString action)\n"
-"bool exportXML(QString file)\n"
-"bool exportZip(QString file)\n"
-"bool exportBibtex(QString file)\n"
-"bool exportHTML(QString file)\n"
-"bool exportCSV(QString file)\n"
+"bool exportXML(QString file, bool filtered)\n"
+"bool exportZip(QString file, bool filtered)\n"
+"bool exportBibtex(QString file, bool filtered)\n"
+"bool exportHTML(QString file, bool filtered)\n"
+"bool exportCSV(QString file, bool filtered)\n"
 "QList&lt;int&gt; selectedEntries()\n"
 "QList&lt;int&gt; filteredEntries()\n"
 "void openFile(QString file)\n"
@@ -136,7 +136,9 @@ msgstr ""
 msgid ""
 "The current open collection in &appname; may be exported to a file, in "
 "either Tellico &XML; format, Tellico ZIP format, Bibtex, &HTML;, or comma-"
-"separated values (CSV)."
+"separated values (CSV). The export commands take an optional argument to "
+"specify whether the collection should be limited to the current filter or "
+"not."
 msgstr ""
 
 #. Tag: para
@@ -277,6 +279,16 @@ msgstr ""
 #: advanced.docbook:88
 #, no-c-format
 msgid ""
+"<emphasis>Export a Bibtex file using the current filter</emphasis>\n"
+"<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Tellico org.kde.tellico."
+"exportBibtex ~/documents/reference.bib true</userinput>\n"
+"<computeroutput>true</computeroutput>"
+msgstr ""
+
+#. Tag: screen
+#: advanced.docbook:90
+#, no-c-format
+msgid ""
 "<emphasis>Echo the citation key of the current selection</emphasis>\n"
 "<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Collections org.kde."
 "tellico.selectedBibtexKeys</userinput>\n"
@@ -284,7 +296,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: advanced.docbook:90
+#: advanced.docbook:92
 #, no-c-format
 msgid ""
 "<emphasis>Add a new entry and set the title</emphasis>\n"
