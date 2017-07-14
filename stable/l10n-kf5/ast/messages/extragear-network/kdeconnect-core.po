@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-06 06:55+0100\n"
+"POT-Creation-Date: 2017-07-14 05:04+0200\n"
 "PO-Revision-Date: 2015-07-11 12:53+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Spanish <alminsitradores@softastur.org>\n"
@@ -17,6 +17,31 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 2.0\n"
 
+#: backends/bluetooth/bluetoothpairinghandler.cpp:70
+#: backends/lan/lanpairinghandler.cpp:66
+#, kde-format
+msgid "Canceled by other peer"
+msgstr "Encaboxáu pola otra parte"
+
+#: backends/bluetooth/bluetoothpairinghandler.cpp:79
+#: backends/lan/lanpairinghandler.cpp:75
+#, fuzzy, kde-format
+#| msgid "Already paired"
+msgid "%1: Already paired"
+msgstr "Yá ta empareyáu"
+
+#: backends/bluetooth/bluetoothpairinghandler.cpp:82
+#, fuzzy, kde-format
+#| msgid "Pairing already requested for this device"
+msgid "%1: Pairing already requested for this device"
+msgstr "Yá se solicitó l'empareyamientu pa esti preséu"
+
+#: backends/bluetooth/bluetoothpairinghandler.cpp:138
+#: backends/lan/lanpairinghandler.cpp:119
+#, kde-format
+msgid "Timed out"
+msgstr "Tiempu escosao"
+
 #: backends/lan/landevicelink.cpp:127 backends/lan/landevicelink.cpp:141
 #, kde-format
 msgid ""
@@ -24,49 +49,27 @@ msgid ""
 "Connect."
 msgstr ""
 
-#: backends/lan/lanpairinghandler.cpp:69
-#, kde-format
-msgid "Canceled by other peer"
-msgstr "Encaboxáu pola otra parte"
-
-#: backends/lan/lanpairinghandler.cpp:79
-#, fuzzy, kde-format
-#| msgid "Already paired"
-msgid "%1: Already paired"
-msgstr "Yá ta empareyáu"
-
-#: backends/lan/lanpairinghandler.cpp:82
-#, fuzzy, kde-format
-#| msgid "Pairing already requested for this device"
-msgid "%1: Pairing already requested for this device"
-msgstr "Yá se solicitó l'empareyamientu pa esti preséu"
-
-#: backends/lan/lanpairinghandler.cpp:130
-#, kde-format
-msgid "Timed out"
-msgstr "Tiempu escosao"
-
 #: backends/lan/uploadjob.cpp:50
 #, kde-format
 msgid "Couldn't find an available port"
 msgstr ""
 
-#: device.cpp:155
+#: device.cpp:159
 #, kde-format
 msgid "Already paired"
 msgstr "Yá ta empareyáu"
 
-#: device.cpp:160
+#: device.cpp:164
 #, kde-format
 msgid "Device not reachable"
 msgstr "Nun ye algamable'l preséu"
 
-#: device.cpp:413
+#: device.cpp:465
 #, kde-format
 msgid "SHA1 fingerprint of your device certificate is: %1\n"
 msgstr ""
 
-#: device.cpp:421
+#: device.cpp:473
 #, kde-format
 msgid "SHA1 fingerprint of remote device certificate is: %1\n"
 msgstr ""
@@ -115,12 +118,12 @@ msgstr ""
 "distribución apurre paqutes separtaos pa QCA-ossl y QCA-gnupg, asegúrate de "
 "tenelos instalaos ya inténtalo de nueves."
 
-#: kdeconnectconfig.cpp:105
+#: kdeconnectconfig.cpp:96
 #, kde-format
 msgid "Could not store private key file: %1"
 msgstr "Nun pudo atroxase'l ficheru de clave privada: %1"
 
-#: kdeconnectconfig.cpp:139
+#: kdeconnectconfig.cpp:136
 #, fuzzy, kde-format
 #| msgid "Could not store private key file: %1"
 msgid "Could not store certificate file: %1"
