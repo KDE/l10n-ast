@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-07-16 03:09+0200\n"
+"POT-Creation-Date: 2017-07-17 03:15+0200\n"
 "PO-Revision-Date: 2017-06-29 01:18+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -8698,6 +8698,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_16)
+#. i18n: ectx: property (text), widget (QLabel, typeDescLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, axisTypeLabel)
 #: libs/flake/KoConnectionShapeConfigWidget.ui:17
@@ -8711,6 +8712,7 @@ msgstr ""
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:54
 #: plugins/flake/pathshapes/ellipse/EllipseShapeConfigWidget.ui:35
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.ui:20
+#: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:195
 #: plugins/impex/ppm/kis_wdg_options_ppm.ui:17
 #: plugins/tools/basictools/wdgmultihandtool.ui:57
 #, kde-format
@@ -10233,106 +10235,112 @@ msgstr ""
 #: libs/koplugin/KisMimeDatabase.cpp:181
 #, kde-format
 msgctxt "description of a file type"
-msgid "R16 Heightmap"
+msgid "R32 Heightmap"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:186
 #, kde-format
 msgctxt "description of a file type"
-msgid "R8 Heightmap"
+msgid "R16 Heightmap"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:191
 #, kde-format
 msgctxt "description of a file type"
-msgid "Spriter SCML"
+msgid "R8 Heightmap"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:196
 #, kde-format
 msgctxt "description of a file type"
-msgid "Starview Metafile"
+msgid "Spriter SCML"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:201
 #, kde-format
 msgctxt "description of a file type"
-msgid "OpenRaster Image"
+msgid "Starview Metafile"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:206
 #, kde-format
 msgctxt "description of a file type"
-msgid "Photoshop Layer Style Library"
+msgid "OpenRaster Image"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:211
 #, kde-format
 msgctxt "description of a file type"
-msgid "Color Palette"
+msgid "Photoshop Layer Style Library"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:216
 #, kde-format
 msgctxt "description of a file type"
-msgid "OpenColorIO Configuration"
+msgid "Color Palette"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:221
 #, kde-format
 msgctxt "description of a file type"
-msgid "Krita Recorded Action"
+msgid "OpenColorIO Configuration"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:226
 #, kde-format
 msgctxt "description of a file type"
-msgid "GIMP Gradients"
+msgid "Krita Recorded Action"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:231
 #, kde-format
 msgctxt "description of a file type"
-msgid "GIMP Patterns"
+msgid "GIMP Gradients"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:236
 #, kde-format
 msgctxt "description of a file type"
-msgid "Karbon Gradients"
+msgid "GIMP Patterns"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:241
 #, kde-format
 msgctxt "description of a file type"
-msgid "Krita Resource Bundle"
+msgid "Karbon Gradients"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:246
 #, kde-format
 msgctxt "description of a file type"
-msgid "Krita Workspace"
+msgid "Krita Resource Bundle"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:251
 #, kde-format
 msgctxt "description of a file type"
-msgid "Krita Taskset"
+msgid "Krita Workspace"
 msgstr ""
 
-#: libs/koplugin/KisMimeDatabase.cpp:257
+#: libs/koplugin/KisMimeDatabase.cpp:256
 #, kde-format
 msgctxt "description of a file type"
-msgid "Camera Raw Files"
+msgid "Krita Taskset"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:262
 #, kde-format
 msgctxt "description of a file type"
-msgid "OpenEXR (Extended)"
+msgid "Camera Raw Files"
 msgstr ""
 
 #: libs/koplugin/KisMimeDatabase.cpp:267
+#, kde-format
+msgctxt "description of a file type"
+msgid "OpenEXR (Extended)"
+msgstr ""
+
+#: libs/koplugin/KisMimeDatabase.cpp:272
 #, kde-format
 msgctxt "description of a file type"
 msgid "Photoshop Image (Large)"
@@ -11069,7 +11077,7 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_preferences.cc:911 libs/ui/forms/wdgnewimage.ui:375
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:150
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:188
-#: libs/ui/kis_palette_view.cpp:101 libs/ui/kis_palette_view.cpp:272
+#: libs/ui/kis_palette_view.cpp:100 libs/ui/kis_palette_view.cpp:299
 #: libs/ui/layerstyles/WdgColorOverlay.ui:23
 #: libs/ui/layerstyles/WdgStroke.ui:134
 #: plugins/color/lcms2engine/compositeops/RgbCompositeOpColor.h:38
@@ -15956,19 +15964,19 @@ msgctxt "option category"
 msgid "Filter"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:86
+#: libs/ui/kis_palette_view.cpp:85
 #, kde-format
 msgctxt "@title:window"
 msgid "Add a new Colorset Entry"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:90
+#: libs/ui/kis_palette_view.cpp:89
 #, kde-format
 msgctxt "Name for default group"
 msgid "Default"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:97 libs/ui/kis_palette_view.cpp:269
+#: libs/ui/kis_palette_view.cpp:96 libs/ui/kis_palette_view.cpp:296
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -15976,65 +15984,65 @@ msgid ""
 "paints it has available to it. The opposite is called a process color."
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:98
+#: libs/ui/kis_palette_view.cpp:97
 #, kde-format
 msgid "Group"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:99 libs/ui/kis_palette_view.cpp:270
+#: libs/ui/kis_palette_view.cpp:98 libs/ui/kis_palette_view.cpp:297
 #, kde-format
 msgid "ID"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:100 libs/ui/kis_palette_view.cpp:271
+#: libs/ui/kis_palette_view.cpp:99 libs/ui/kis_palette_view.cpp:298
 #, kde-format
 msgid "Name"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: libs/ui/kis_palette_view.cpp:102 libs/ui/kis_palette_view.cpp:273
+#: libs/ui/kis_palette_view.cpp:101 libs/ui/kis_palette_view.cpp:300
 #: plugins/extensions/metadataeditor/editors/exif.ui:422
 #, kde-format
 msgid "Spot"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:104
+#: libs/ui/kis_palette_view.cpp:103
 #, kde-format
 msgctxt "Part of a default name for a color"
 msgid "Color"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:130
+#: libs/ui/kis_palette_view.cpp:129
 #, kde-format
 msgctxt "@title:window"
 msgid "Add a new group"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:134
+#: libs/ui/kis_palette_view.cpp:133
 #, kde-format
 msgctxt "Name for a group"
 msgid "Name"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:135
+#: libs/ui/kis_palette_view.cpp:134
 #, kde-format
 msgctxt "Part of default name for a new group"
 msgid "Color Group"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:150
+#: libs/ui/kis_palette_view.cpp:149
 #, kde-format
 msgctxt "@title:window"
 msgid "Removing Group"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:154
+#: libs/ui/kis_palette_view.cpp:153
 #, kde-format
 msgctxt "Shows up when deleting a group"
 msgid "Keep the Colors"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:258
+#: libs/ui/kis_palette_view.cpp:285
 #, kde-format
 msgctxt "Name for a colorgroup"
 msgid "Name"
@@ -16618,6 +16626,7 @@ msgid "Cancelled by user"
 msgstr ""
 
 #: libs/ui/KisImportExportFilter.cpp:162
+#: plugins/impex/heightmap/kis_heightmap_import.cpp:82
 #, kde-format
 msgid "Unknown file type"
 msgstr ""
@@ -23416,7 +23425,7 @@ msgstr ""
 msgid "Overview"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:99
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:100
 #, kde-format
 msgid "Choose palette"
 msgstr ""
@@ -30806,14 +30815,9 @@ msgstr ""
 msgid "Krita could not create a new image."
 msgstr ""
 
-#: plugins/impex/heightmap/kis_heightmap_import.cpp:92
+#: plugins/impex/heightmap/kis_heightmap_import.cpp:89
 #, kde-format
-msgid "The file is not 8 or 16 bits raw"
-msgstr ""
-
-#: plugins/impex/heightmap/kis_heightmap_import.cpp:99
-#, kde-format
-msgid "R16 HeightMap Import Options"
+msgid "Heightmap Import Options"
 msgstr ""
 
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.cpp:40
