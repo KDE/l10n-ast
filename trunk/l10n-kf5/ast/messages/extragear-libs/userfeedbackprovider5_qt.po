@@ -28,7 +28,7 @@ msgctxt "KUserFeedback::CpuInfoSource|"
 msgid "The amount and type of CPUs in the system."
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:118
+#: core/feedbackconfiguicontroller.cpp:133
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
 "We make this application for you. You can help us improve it by contributing "
@@ -39,14 +39,14 @@ msgid ""
 "application."
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:125
+#: core/feedbackconfiguicontroller.cpp:140
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
 "Share basic system information. No unique identification is included, nor "
 "data processed with the application."
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:130
+#: core/feedbackconfiguicontroller.cpp:145
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
 "Share basic system information and basic statistics on how often you use the "
@@ -54,7 +54,7 @@ msgid ""
 "the application."
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:135
+#: core/feedbackconfiguicontroller.cpp:150
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
 "Share basic statistics on how often you use the application, as well as "
@@ -62,7 +62,7 @@ msgid ""
 "included, nor data processed with the application."
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:140
+#: core/feedbackconfiguicontroller.cpp:155
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
 "Share detailed system information and statistics on how often individual "
@@ -70,7 +70,52 @@ msgid ""
 "nor data processed with the application."
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:186
+#: core/feedbackconfiguicontroller.cpp:163
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"We make %1 for you. You can help us improve it by contributing information "
+"on how you use it. This allows us to make sure we focus on things that "
+"matter to you.\n"
+"Contributing statistics is of course entirely anonymous, will not use any "
+"kind of unique identifier and will not cover any data you process with %1."
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:170
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic system information. No unique identification is included, nor "
+"data processed with %1."
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:175
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic system information and basic statistics on how often you use %1. "
+"No unique identification is included, nor data processed with %1."
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:180
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic statistics on how often you use %1, as well as detailed "
+"information about your system. No unique identification is included, nor "
+"data processed with %1."
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:185
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share detailed system information and statistics on how often individual "
+"features of %1 are used. No unique identification is included, nor data "
+"processed with %1."
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:239
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
 "We make this application for you. In order to ensure it actually does what "
@@ -78,18 +123,43 @@ msgid ""
 "feedback, in the form of a web survey."
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:191
+#: core/feedbackconfiguicontroller.cpp:244
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
 "I will occasionally participate in web surveys about the application, not "
 "more than four times a year though."
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:195
+#: core/feedbackconfiguicontroller.cpp:248
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
 "I will participate in web surveys whenever one is available. Surveys can of "
 "course be deferred or skipped."
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:255
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"We make %1 for you. In order to ensure it actually does what you need it to "
+"do we would like to ask you about your use cases and your feedback, in the "
+"form of a web survey."
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:260
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"I will occasionally participate in web surveys about %1, not more than four "
+"times a year though."
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:264
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"I will participate in web surveys about %1 whenever one is available. "
+"Surveys can of course be deferred or skipped."
 msgstr ""
 
 #: core/localeinfosource.cpp:32
@@ -105,6 +175,11 @@ msgstr ""
 #: core/platforminfosource.cpp:32
 msgctxt "KUserFeedback::PlatformInfoSource|"
 msgid "Type and version of the operating system."
+msgstr ""
+
+#: core/qpainfosource.cpp:34
+msgctxt "KUserFeedback::QPAInfoSource|"
+msgid "The Qt platform abstraction plugin."
 msgstr ""
 
 #: core/qtversionsource.cpp:31
@@ -162,36 +237,58 @@ msgctxt "KUserFeedback::FeedbackConfigWidget|"
 msgid "Participate in Surveys"
 msgstr ""
 
-#: widgets/notificationpopup.cpp:73
+#: widgets/notificationpopup.cpp:77
 msgctxt "KUserFeedback::NotificationPopup|"
 msgid "Help us make this application better!"
 msgstr ""
 
-#: widgets/notificationpopup.cpp:74
+#: widgets/notificationpopup.cpp:78
 msgctxt "KUserFeedback::NotificationPopup|"
 msgid ""
 "You can help us improving this application by sharing statistics and "
 "participate in surveys."
 msgstr ""
 
-#: widgets/notificationpopup.cpp:75
+#: widgets/notificationpopup.cpp:80
+#, qt-format
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid "Help us make %1 better!"
+msgstr ""
+
+#: widgets/notificationpopup.cpp:81
+#, qt-format
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid ""
+"You can help us improving %1 by sharing statistics and participate in "
+"surveys."
+msgstr ""
+
+#: widgets/notificationpopup.cpp:83
 msgctxt "KUserFeedback::NotificationPopup|"
 msgid "Contribute..."
 msgstr ""
 
-#: widgets/notificationpopup.cpp:85
+#: widgets/notificationpopup.cpp:94
 msgctxt "KUserFeedback::NotificationPopup|"
 msgid "We are looking for your feedback!"
 msgstr ""
 
-#: widgets/notificationpopup.cpp:86
+#: widgets/notificationpopup.cpp:96
 msgctxt "KUserFeedback::NotificationPopup|"
 msgid ""
 "We would like a few minutes of your time to provide feedback about this "
 "application in a survey."
 msgstr ""
 
-#: widgets/notificationpopup.cpp:87
+#: widgets/notificationpopup.cpp:98
+#, qt-format
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid ""
+"We would like a few minutes of your time to provide feedback about %1 in a "
+"survey."
+msgstr ""
+
+#: widgets/notificationpopup.cpp:99
 msgctxt "KUserFeedback::NotificationPopup|"
 msgid "Participate"
 msgstr ""
