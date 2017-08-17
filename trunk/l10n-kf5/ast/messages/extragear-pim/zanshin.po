@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-08-05 03:17+0200\n"
+"POT-Creation-Date: 2017-08-17 03:19+0200\n"
 "PO-Revision-Date: 2017-07-01 05:08+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -674,7 +674,7 @@ msgstr ""
 msgid "Could not associate '%1', it is an ancestor of '%2'"
 msgstr ""
 
-#: src/presentation/artifacteditormodel.cpp:278
+#: src/presentation/artifacteditormodel.cpp:454
 #, kde-format
 msgid "Cannot modify task %1"
 msgstr ""
@@ -971,7 +971,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, EditorView)
 #. i18n: ectx: property (text), widget (QCheckBox, doneButton)
 #: src/renku/app/main.cpp:81 src/widgets/editorview.ui:14
-#: src/widgets/editorview.ui:136 src/zanshin/app/main.cpp:84
+#: src/widgets/editorview.ui:217 src/zanshin/app/main.cpp:84
 #, kde-format
 msgid "Editor"
 msgstr ""
@@ -1099,7 +1099,32 @@ msgstr ""
 msgid "Configure %1..."
 msgstr "Configurar recursu..."
 
-#: src/widgets/editorview.cpp:208
+#: src/widgets/editorview.cpp:52
+#, kde-format
+msgid "Add Attachment"
+msgstr ""
+
+#: src/widgets/editorview.cpp:72
+#, kde-format
+msgid "Never"
+msgstr ""
+
+#: src/widgets/editorview.cpp:73
+#, kde-format
+msgid "Daily"
+msgstr ""
+
+#: src/widgets/editorview.cpp:74
+#, kde-format
+msgid "Weekly"
+msgstr ""
+
+#: src/widgets/editorview.cpp:75
+#, kde-format
+msgid "Monthly"
+msgstr ""
+
+#: src/widgets/editorview.cpp:257
 #, kde-format
 msgid "Delegated to: <b>%1</b>"
 msgstr ""
@@ -1110,32 +1135,50 @@ msgstr ""
 msgid "Delegate To: "
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QToolButton, addAttachmentButton)
+#: src/widgets/editorview.ui:85
+#, kde-format
+msgid "Add Attachment..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeAttachmentButton)
+#: src/widgets/editorview.ui:98
+#, kde-format
+msgid "Remove Attachment"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, startDateLabel)
-#: src/widgets/editorview.ui:48
+#: src/widgets/editorview.ui:113
 #, kde-format
 msgid "St&art Date"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, startTodayButton)
-#: src/widgets/editorview.ui:66
+#: src/widgets/editorview.ui:131
 #, kde-format
 msgid "Select for &Today"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, dueDateLabel)
-#: src/widgets/editorview.ui:75
+#: src/widgets/editorview.ui:140
 #, kde-format
 msgid "D&ue Date "
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, recurrenceLabel)
+#: src/widgets/editorview.ui:156
+#, kde-format
+msgid "&Recurrence"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, delegateToLabel)
-#: src/widgets/editorview.ui:91
+#: src/widgets/editorview.ui:172
 #, kde-format
 msgid "De&legate to"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, doneButton)
-#: src/widgets/editorview.ui:124 src/widgets/runningtaskwidget.cpp:67
+#: src/widgets/editorview.ui:205 src/widgets/runningtaskwidget.cpp:67
 #, kde-format
 msgid "Done"
 msgstr ""
