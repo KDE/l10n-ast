@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-06-27 03:16+0200\n"
+"POT-Creation-Date: 2017-09-05 03:09+0200\n"
 "PO-Revision-Date: 2017-06-30 06:03+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -81,67 +81,67 @@ msgstr ""
 msgid "Correct version found"
 msgstr ""
 
-#: kded/engine/vault.cpp:173
+#: kded/engine/vault.cpp:175
 #, kde-format
 msgid "Unknown device"
 msgstr ""
 
-#: kded/engine/vault.cpp:198
+#: kded/engine/vault.cpp:200
 #, kde-format
 msgid "Configured backend does not exist: %1"
 msgstr ""
 
-#: kded/engine/vault.cpp:203
+#: kded/engine/vault.cpp:205
 #, kde-format
 msgid "Mount point is not specified"
 msgstr ""
 
-#: kded/engine/vault.cpp:208
+#: kded/engine/vault.cpp:210
 #, kde-format
 msgid "Can not create the mount point"
 msgstr ""
 
-#: kded/engine/vault.cpp:213
+#: kded/engine/vault.cpp:215
 #, kde-format
 msgid "Configured backend can not be instantiated: %1"
 msgstr ""
 
-#: kded/engine/vault.cpp:287
+#: kded/engine/vault.cpp:313
 #, kde-format
 msgid "This device is already registered. Can not recreate it."
 msgstr ""
 
-#: kded/engine/vault.cpp:292
+#: kded/engine/vault.cpp:318
 #, kde-format
 msgid "Unknown error, unable to create the backend."
 msgstr ""
 
-#: kded/engine/vault.cpp:316
+#: kded/engine/vault.cpp:342
 #, kde-format
 msgid "Can not open an unknown vault."
 msgstr ""
 
-#: kded/engine/vault.cpp:333
+#: kded/engine/vault.cpp:359
 #, kde-format
 msgid "The vault is unknown, can not close it."
 msgstr ""
 
-#: kded/engine/vault.cpp:348 kded/engine/vault.cpp:359
+#: kded/engine/vault.cpp:374 kded/engine/vault.cpp:385
 #, kde-format
 msgid "Unable to close the vault, an application is using it"
 msgstr ""
 
-#: kded/engine/vault.cpp:382
+#: kded/engine/vault.cpp:408
 #, kde-format
 msgid "Unable to close the vault, it is used by %1"
 msgstr ""
 
-#: kded/engine/vault.cpp:406
+#: kded/engine/vault.cpp:432
 #, kde-format
 msgid "Failed to fetch the list of applications using this vault"
 msgstr ""
 
-#: kded/engine/vault.cpp:439
+#: kded/engine/vault.cpp:465
 #, kde-format
 msgid "The vault is unknown, can not destroy it."
 msgstr ""
@@ -168,7 +168,7 @@ msgid "The specified backend is not available"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelVaultName)
-#: kded/ui/backendchooserwidget.ui:17
+#: kded/ui/backendchooserwidget.ui:17 kded/ui/namechooserwidget.ui:17
 #, kde-format
 msgid "Vaul&t name:"
 msgstr ""
@@ -188,6 +188,12 @@ msgstr ""
 #: kded/ui/cryfscypherchooserwidget.ui:17
 #, kde-format
 msgid "Choose the used cypher:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelDevice)
+#: kded/ui/directorychooserwidget.ui:17
+#, kde-format
+msgid "Mount point:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelDevice)
@@ -232,9 +238,62 @@ msgid ""
 "password, your data is as good as gone."
 msgstr ""
 
-#: kded/ui/vaultcreationwizard.cpp:63
+#: kded/ui/vaultconfigurationwizard.cpp:58
+#, kde-format
+msgid "General"
+msgstr ""
+
+#: kded/ui/vaultconfigurationwizard.cpp:63
+#, kde-format
+msgid "Activities"
+msgstr ""
+
+#: kded/ui/vaultconfigurationwizard.cpp:67
+#, kde-format
+msgid "Dismantle"
+msgstr ""
+
+#: kded/ui/vaultconfigurationwizard.cpp:70
+#, kde-format
+msgid ""
+"Note that Plasma Vault will not delete any of the files,\n"
+"                     the dismantling process only removes the vault from "
+"Plasma.\n"
+"                     You will need to remove the files manually."
+msgstr ""
+
+#: kded/ui/vaultconfigurationwizard.cpp:79 kded/ui/vaultcreationwizard.cpp:63
 #, kde-format
 msgid "EncFS"
+msgstr ""
+
+#: kded/ui/vaultconfigurationwizard.cpp:83 kded/ui/vaultcreationwizard.cpp:88
+#, kde-format
+msgid "CryFS"
+msgstr ""
+
+#: kded/ui/vaultconfigurationwizard.cpp:154
+#, kde-format
+msgid "Configure"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, VaultCreationWizard)
+#. i18n: ectx: property (windowTitle), widget (QDialog, VaultConfigurationWizard)
+#: kded/ui/vaultconfigurationwizard.ui:14 kded/ui/vaultcreationwizard.ui:14
+#, kde-format
+msgid "Dialog"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/vaultconfigurationwizard.ui:29
+#, kde-format
+msgid "The vault configuration can only be changed while it is closed."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonCloseVault)
+#: kded/ui/vaultconfigurationwizard.ui:49
+#, kde-format
+msgid "Close the vault"
 msgstr ""
 
 #: kded/ui/vaultcreationwizard.cpp:66
@@ -263,11 +322,6 @@ msgid ""
 "                             <br /><br />\n"
 "                             See <a href='http://defuse.ca/audits/encfs."
 "htm'>defuse.ca/audits/encfs.htm</a> for more information."
-msgstr ""
-
-#: kded/ui/vaultcreationwizard.cpp:88
-#, kde-format
-msgid "CryFS"
 msgstr ""
 
 #: kded/ui/vaultcreationwizard.cpp:91
@@ -306,13 +360,7 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, VaultCreationWizard)
-#: kded/ui/vaultcreationwizard.ui:14
-#, kde-format
-msgid "Dialog"
-msgstr ""
-
-#: plasma/package/contents/ui/main.qml:98
+#: kded/ui/vaultcreationwizard.cpp:291 plasma/package/contents/ui/main.qml:98
 #, kde-format
 msgid "Create a New Vault"
 msgstr ""
@@ -325,4 +373,9 @@ msgstr ""
 #: plasma/package/contents/ui/VaultItem.qml:214
 #, kde-format
 msgid "Forcefully close "
+msgstr ""
+
+#: plasma/package/contents/ui/VaultItem.qml:221
+#, kde-format
+msgid "Configure Vault..."
 msgstr ""
