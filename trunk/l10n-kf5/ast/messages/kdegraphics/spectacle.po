@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-11 06:41+0200\n"
+"POT-Creation-Date: 2017-11-07 03:08+0100\n"
 "PO-Revision-Date: 2017-09-03 17:25+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -115,7 +115,7 @@ msgstr "Guardar y colar"
 msgid "Save screenshot in your Pictures directory and exit"
 msgstr "Guarda la captura nel to direutoriu de Semeyes y cola"
 
-#: src/Gui/KSMainWindow.cpp:225 src/Gui/SettingsDialog/SettingsDialog.cpp:36
+#: src/Gui/KSMainWindow.cpp:225
 #, kde-format
 msgid "Preferences"
 msgstr "Preferencies"
@@ -171,7 +171,7 @@ msgstr ""
 msgid "Window Under Cursor"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:63
+#: src/Gui/KSWidget.cpp:63 src/Gui/SettingsDialog/GeneralOptionsPage.cpp:55
 #, kde-format
 msgid "Rectangular Region"
 msgstr ""
@@ -245,141 +245,71 @@ msgstr ""
 msgid "Take a New Screenshot"
 msgstr ""
 
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:40
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:41
 #, kde-format
-msgid "Dynamic Save Button"
+msgid "Remember last used Save mode"
 msgstr ""
 
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:47
-#, kde-format
-msgid ""
-"The default behavior of the save button is to <b>Save & Exit</b>. Enable "
-"this option to change the save button to either <b>Save</b>, <b>Save As</b> "
-"or <b>Save & Exit</b>, according to the save action you perform, every time "
-"you save an image."
-msgstr ""
-
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:54
-#, kde-format
-msgid "Set save button action to last used save method"
-msgstr ""
-
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:65
-#, kde-format
-msgid "Copy Save Location to Clipboard"
-msgstr ""
-
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:72
-#, kde-format
-msgid ""
-"When a screenshot is saved, copy the location at which the file was saved to "
-"the clipboard. You can then paste it anywhere that accepts text input. Note "
-"that you must be running a clipboard manager in order to keep the path in "
-"the clipboard after Spectacle quits."
-msgstr ""
-
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:79
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:48
 #, kde-format
 msgid "Copy save location to the clipboard"
 msgstr ""
 
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:90
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:62
 #, kde-format
-msgid "Light Background For Rectangular Region"
+msgid "Use light background"
 msgstr ""
 
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:97
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:69
 #, kde-format
-msgid ""
-"Use a light background color to mask the cropped-out area in the rectangular "
-"region selector. This may make dark cursors easier to see."
-msgstr ""
-
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:102
-#, kde-format
-msgid "Use light background color"
-msgstr ""
-
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:113
-#, kde-format
-msgid "Remember Rectangular Region"
-msgstr ""
-
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:120
-#, kde-format
-msgid ""
-"By default, Spectacle does not show an initial selection when you take a "
-"screenshot of a rectangular region. Enable this option to remember the last "
-"selected region of the screen, and set it as the initial selection when you "
-"use the rectangular region selector the next time."
-msgstr ""
-
-#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:127
-#, kde-format
-msgid "Remember rectangular region"
+msgid "Remember selected area"
 msgstr ""
 
 #: src/Gui/SettingsDialog/SaveOptionsPage.cpp:41
 #, kde-format
-msgid "Default Save Directory"
+msgid "Default Save Location"
 msgstr ""
 
-#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:48
-#, kde-format
-msgid ""
-"Set the directory where you'd like to save your screenshots when you press "
-"<b>Save</b> or <b>Save & Exit</b>."
-msgstr ""
-
-#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:53
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:46
 #, kde-format
 msgid "Location:"
 msgstr ""
 
-#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:64
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:57
 #, kde-format
 msgid "Default Save Filename"
 msgstr ""
 
-#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:70
-#, kde-format
-msgid ""
-"<p>Set a default filename for saved screenshots.</p><p>You can use the "
-"following placeholders in the filename, which will be replaced with actual "
-"text when the file is saved:</p><blockquote><b>%Y</b>: Year (4 digit)<br /"
-"><b>%y</b>: Year (2 digit)<br /><b>%M</b>: Month<br /><b>%D</b>: Day<br /><b>"
-"%H</b>: Hour<br /><b>%m</b>: Minute<br /><b>%S</b>: Second</blockquote><p>If "
-"a file with this name already exists, a serial number will be appended to "
-"the filename. For example, if the filename is \"Screenshot\", and "
-"\"Screenshot.png\" already exists, the image will be saved as \"Screenshot-1."
-"png\".</p><p>Typing an extension into the filename will automatically set "
-"the image format correctly and remove the extension from the filename field."
-"</p>"
-msgstr ""
-
-#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:100
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:62
 #, kde-format
 msgid "Filename:"
 msgstr ""
 
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:96
+#, kde-format
+msgid ""
+"<p>You can use the following placeholders in the filename, which will be "
+"replaced with actual text when the file is saved:</p><blockquote><b>%Y</b>: "
+"Year (4 digit)<br /><b>%y</b>: Year (2 digit)<br /><b>%M</b>: Month<br /><b>"
+"%D</b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /><b>%S</b>: "
+"Second</blockquote>"
+msgstr ""
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:36
+#, kde-format
+msgid "Configure"
+msgstr ""
+
 #: src/Gui/SettingsDialog/SettingsDialog.cpp:46
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:47
 #, kde-format
 msgid "General"
 msgstr ""
 
-#: src/Gui/SettingsDialog/SettingsDialog.cpp:47
-#, kde-format
-msgid "Application Preferences"
-msgstr ""
-
 #: src/Gui/SettingsDialog/SettingsDialog.cpp:52
-#, kde-format
-msgid "Save Options"
-msgstr ""
-
 #: src/Gui/SettingsDialog/SettingsDialog.cpp:53
 #, kde-format
-msgid "Default Save Settings"
+msgid "Save"
 msgstr ""
 
 #: src/Gui/SettingsDialog/SettingsDialog.cpp:79
