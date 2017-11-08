@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-11-07 03:03+0100\n"
+"POT-Creation-Date: 2017-11-08 05:42+0100\n"
 "PO-Revision-Date: 2017-06-29 01:18+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -9299,7 +9299,6 @@ msgstr ""
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:45
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:53
 #: plugins/filters/blur/wdgblur.ui:42 plugins/filters/blur/wdgblur.ui:78
-#: plugins/paintops/chalk/kis_chalkop_option.cpp:43
 #: plugins/paintops/curvebrush/kis_curve_line_option.cpp:33
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:79
 #: plugins/paintops/deform/kis_brush_size_option.cpp:50
@@ -9353,7 +9352,6 @@ msgstr ""
 #: libs/image/kis_keyframe_channel.cpp:30 libs/image/kis_layer.cc:227
 #: libs/widgets/KoColorPopupAction.cpp:89
 #: plugins/dockers/defaultdockers/kis_layer_box.cpp:197
-#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:37
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:58
@@ -16423,7 +16421,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, bnZoom100)
 #: libs/ui/kis_popup_palette.cpp:226
 #: plugins/dockers/imagedocker/forms/wdgImageViewPopup.ui:48
-#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:39
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:65
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:36
@@ -27720,7 +27717,6 @@ msgid "&Oilpaint..."
 msgstr ""
 
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:206
-#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:36
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:40
 #: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:34
 #: plugins/paintops/gridbrush/kis_grid_paintop_settings_widget.cpp:38
@@ -33525,12 +33521,30 @@ msgid ""
 "or newer."
 msgstr ""
 
-#: plugins/paintops/chalk/chalk_paintop_plugin.cpp:41
+#: plugins/paintops/colorsmudge/colorsmudge_paintop_plugin.cpp:42
 #, kde-format
-msgid "Chalk"
+msgid "Color Smudge"
 msgstr ""
 
-#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:37
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxSmudgeMode)
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:54
+#: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:43
+#, kde-format
+msgid "Smudge Mode"
+msgstr ""
+
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:58
+#: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:38
+#, kde-format
+msgid "Smearing"
+msgstr ""
+
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:59
+#: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:77
+#, kde-format
+msgid "Dulling"
+msgstr ""
+
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:49
@@ -33547,7 +33561,6 @@ msgid "Opaque"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnTransparent)
-#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:37
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:49
@@ -33564,19 +33577,6 @@ msgstr ""
 msgid "Transparent"
 msgstr ""
 
-#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:38
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:78
-#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:46
-#: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:36
-#: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:39
-#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:53
-#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:53
-#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:67
-#, kde-format
-msgid "Airbrush"
-msgstr ""
-
-#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:39
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:65
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:36
@@ -33607,85 +33607,6 @@ msgstr ""
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:68
 #, kde-format
 msgid "0%"
-msgstr ""
-
-#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:39
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:79
-#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:47
-#: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:38
-#: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:41
-#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:54
-#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:54
-#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:68
-#, kde-format
-msgid "Rate"
-msgstr ""
-
-#: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:40
-#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:39
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:80
-#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:53
-#: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:39
-#: plugins/paintops/gridbrush/kis_grid_paintop_settings_widget.cpp:42
-#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:42
-#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:62
-#: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:42
-#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:61
-#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:55
-#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:69
-#, kde-format
-msgid "Painting Mode"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, radiusLabel)
-#: plugins/paintops/chalk/wdgchalkoptions.ui:46
-#, kde-format
-msgid "Brush Radius:"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, inkTab)
-#. i18n: ectx: property (text), widget (QCheckBox, inkDepletionCHBox)
-#: plugins/paintops/chalk/wdgchalkoptions.ui:61
-#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:37
-#: plugins/paintops/hairy/wdghairyeoptions.ui:259
-#, kde-format
-msgid "Ink depletion"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, opacity)
-#: plugins/paintops/chalk/wdgchalkoptions.ui:73
-#, kde-format
-msgid "Opacity decrease"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, saturation)
-#: plugins/paintops/chalk/wdgchalkoptions.ui:83
-#, kde-format
-msgid "Saturation decrease"
-msgstr ""
-
-#: plugins/paintops/colorsmudge/colorsmudge_paintop_plugin.cpp:42
-#, kde-format
-msgid "Color Smudge"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBoxSmudgeMode)
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:54
-#: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:43
-#, kde-format
-msgid "Smudge Mode"
-msgstr ""
-
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:58
-#: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:38
-#, kde-format
-msgid "Smearing"
-msgstr ""
-
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:59
-#: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:77
-#, kde-format
-msgid "Dulling"
 msgstr ""
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:54
@@ -33863,6 +33784,21 @@ msgstr ""
 msgid "Curves opacity"
 msgstr ""
 
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:39
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:80
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:53
+#: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:39
+#: plugins/paintops/gridbrush/kis_grid_paintop_settings_widget.cpp:42
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:42
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:62
+#: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:42
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:61
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:55
+#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:69
+#, kde-format
+msgid "Painting Mode"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, lineWidthLbl)
 #: plugins/paintops/curvebrush/wdgcurveoptions.ui:9
@@ -33918,6 +33854,28 @@ msgstr ""
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:74
 #, kde-format
 msgid "Foreground"
+msgstr ""
+
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:78
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:46
+#: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:36
+#: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:39
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:53
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:53
+#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:67
+#, kde-format
+msgid "Airbrush"
+msgstr ""
+
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:79
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:47
+#: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:38
+#: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:41
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:54
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:54
+#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:68
+#, kde-format
+msgid "Rate"
 msgstr ""
 
 #: plugins/paintops/defaultpaintops/defaultpaintops_plugin.cc:47
@@ -34458,6 +34416,13 @@ msgstr ""
 #: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:36
 #, kde-format
 msgid "Bristle options"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, inkTab)
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:37
+#: plugins/paintops/hairy/wdghairyeoptions.ui:259
+#, kde-format
+msgid "Ink depletion"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
