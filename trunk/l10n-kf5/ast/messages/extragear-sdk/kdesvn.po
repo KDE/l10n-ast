@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-04 02:59+0200\n"
+"POT-Creation-Date: 2017-11-24 02:57+0100\n"
 "PO-Revision-Date: 2016-12-21 16:20+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -463,6 +463,7 @@ msgstr ""
 
 #: src/kdesvnview.cpp:334
 #, kde-format
+msgctxt "@title:window"
 msgid "Load Dump"
 msgstr ""
 
@@ -483,6 +484,7 @@ msgstr ""
 
 #: src/kdesvnview.cpp:386
 #, kde-format
+msgctxt "@title:window"
 msgid "Dump"
 msgstr ""
 
@@ -2341,7 +2343,7 @@ msgstr ""
 msgid "Restore missing"
 msgstr ""
 
-#: src/svnfrontend/ccontextlistener.cpp:67 src/svnfrontend/svnactions.cpp:1775
+#: src/svnfrontend/ccontextlistener.cpp:67
 #, kde-format
 msgid "Revert"
 msgstr ""
@@ -2525,8 +2527,7 @@ msgid "Switch only on working copies"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, CopyMoveView)
-#: src/svnfrontend/copymoveview.ui:14 src/svnfrontend/svnactions.cpp:2248
-#: src/svnfrontend/svnactions.cpp:2263
+#: src/svnfrontend/copymoveview.ui:14
 #, kde-format
 msgid "Copy / Move"
 msgstr ""
@@ -3386,6 +3387,7 @@ msgstr ""
 #: src/svnfrontend/graphtree/revisiontree.cpp:92
 #: src/svnfrontend/svnactions.cpp:291
 #, kde-format
+msgctxt "@title:window"
 msgid "Logs"
 msgstr ""
 
@@ -3643,7 +3645,7 @@ msgstr ""
 msgid "Display last changes as difference to previous commit."
 msgstr ""
 
-#: src/svnfrontend/maintreewidget.cpp:515 src/svnfrontend/svnactions.cpp:698
+#: src/svnfrontend/maintreewidget.cpp:515
 #, kde-format
 msgid "Details"
 msgstr ""
@@ -3653,8 +3655,7 @@ msgstr ""
 msgid "Show details about selected item"
 msgstr ""
 
-#: src/svnfrontend/maintreewidget.cpp:517 src/svnfrontend/svnactions.cpp:2210
-#: src/svnfrontend/svnactions.cpp:2228
+#: src/svnfrontend/maintreewidget.cpp:517
 #, kde-format
 msgid "Move"
 msgstr ""
@@ -3798,7 +3799,7 @@ msgstr ""
 msgid "Opens the repository the current working copy was checked out from"
 msgstr ""
 
-#: src/svnfrontend/maintreewidget.cpp:568 src/svnfrontend/svnactions.cpp:1896
+#: src/svnfrontend/maintreewidget.cpp:568
 #, kde-format
 msgid "Cleanup"
 msgstr ""
@@ -3913,7 +3914,6 @@ msgstr ""
 #: src/svnfrontend/maintreewidget.cpp:603
 #: src/svnfrontend/maintreewidget.cpp:604
 #: src/svnfrontend/maintreewidget.cpp:662 src/svnfrontend/svnactions.cpp:1022
-#: src/svnfrontend/svnactions.cpp:1058
 #, kde-format
 msgid "Commit"
 msgstr ""
@@ -3962,7 +3962,7 @@ msgid "Merge two revisions"
 msgstr ""
 
 #: src/svnfrontend/maintreewidget.cpp:625
-#: src/svnfrontend/maintreewidget.cpp:1942 src/svnfrontend/svnactions.cpp:2183
+#: src/svnfrontend/maintreewidget.cpp:1942
 #, kde-format
 msgid "Merge"
 msgstr ""
@@ -3997,7 +3997,7 @@ msgid "Checkout current repository path"
 msgstr ""
 
 #: src/svnfrontend/maintreewidget.cpp:636
-#: src/svnfrontend/maintreewidget.cpp:644 src/svnfrontend/svnactions.cpp:1707
+#: src/svnfrontend/maintreewidget.cpp:644
 #, kde-format
 msgid "Checkout"
 msgstr ""
@@ -4023,7 +4023,7 @@ msgstr ""
 msgid "Export a repository"
 msgstr ""
 
-#: src/svnfrontend/maintreewidget.cpp:646 src/svnfrontend/svnactions.cpp:1707
+#: src/svnfrontend/maintreewidget.cpp:646
 #, kde-format
 msgid "Export"
 msgstr ""
@@ -4488,10 +4488,9 @@ msgstr ""
 msgid "History of %1"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, buttonBlame)
-#: src/svnfrontend/svnactions.cpp:538 src/svnfrontend/svnlogdlg.ui:249
-#: src/svnfrontend/svnlogdlgimp.cpp:505
+#: src/svnfrontend/svnactions.cpp:538
 #, kde-format
+msgctxt "@title:window"
 msgid "Annotate"
 msgstr ""
 
@@ -4507,7 +4506,8 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:565
 #, kde-format
-msgid "Content get"
+msgctxt "@title:window"
+msgid "Content Get"
 msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:565
@@ -4538,6 +4538,12 @@ msgstr ""
 #: src/svnfrontend/svnactions.cpp:659
 #, kde-format
 msgid "Enter folder name:"
+msgstr ""
+
+#: src/svnfrontend/svnactions.cpp:698
+#, kde-format
+msgctxt "@title:window"
+msgid "Details"
 msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:698
@@ -4677,7 +4683,8 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:922
 #, kde-format
-msgid "Applying properties"
+msgctxt "@title:window"
+msgid "Applying Properties"
 msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:922
@@ -4697,6 +4704,7 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:1002 src/svnfrontend/svnactions.cpp:2339
 #, kde-format
+msgctxt "@title:window"
 msgid "Status / List"
 msgstr ""
 
@@ -4717,11 +4725,18 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:1058
 #, kde-format
+msgctxt "@title:window"
+msgid "Commit"
+msgstr ""
+
+#: src/svnfrontend/svnactions.cpp:1058
+#, kde-format
 msgid "Commit - hit Cancel for abort"
 msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:1084
 #, kde-format
+msgctxt "@title:window"
 msgid "Downloading"
 msgstr ""
 
@@ -4747,6 +4762,7 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:1268 src/svnfrontend/svnactions.cpp:1321
 #, kde-format
+msgctxt "@title:window"
 msgid "Diffing"
 msgstr ""
 
@@ -4777,6 +4793,7 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:1441
 #, kde-format
+msgctxt "@title:window"
 msgid "Making update"
 msgstr ""
 
@@ -4817,6 +4834,18 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:1707
 #, kde-format
+msgctxt "@title:window"
+msgid "Export"
+msgstr ""
+
+#: src/svnfrontend/svnactions.cpp:1707
+#, kde-format
+msgctxt "@title:window"
+msgid "Checkout"
+msgstr ""
+
+#: src/svnfrontend/svnactions.cpp:1707
+#, kde-format
 msgid "Exporting"
 msgstr ""
 
@@ -4832,12 +4861,18 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:1775
 #, kde-format
+msgctxt "@title:window"
+msgid "Revert"
+msgstr ""
+
+#: src/svnfrontend/svnactions.cpp:1775
+#, kde-format
 msgid "Reverting items"
 msgstr ""
 
-#: src/svnfrontend/svnactions.cpp:1805 src/svnfrontend/svnactions.cpp:1867
-#: src/svnfrontend/svnactions.cpp:1878
+#: src/svnfrontend/svnactions.cpp:1805
 #, kde-format
+msgctxt "@title:window"
 msgid "Switch URL"
 msgstr ""
 
@@ -4848,6 +4883,7 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:1825
 #, kde-format
+msgctxt "@title:window"
 msgid "Relocate Repository"
 msgstr ""
 
@@ -4866,6 +4902,17 @@ msgstr ""
 msgid "Error getting entry to switch"
 msgstr ""
 
+#: src/svnfrontend/svnactions.cpp:1867 src/svnfrontend/svnactions.cpp:1878
+#, kde-format
+msgid "Switch URL"
+msgstr ""
+
+#: src/svnfrontend/svnactions.cpp:1896
+#, kde-format
+msgctxt "@title:window"
+msgid "Cleanup"
+msgstr ""
+
 #: src/svnfrontend/svnactions.cpp:1896
 #, kde-format
 msgid "Cleaning up folder"
@@ -4873,6 +4920,7 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:1913
 #, kde-format
+msgctxt "@title:window"
 msgid "Resolve"
 msgstr ""
 
@@ -4893,6 +4941,7 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:1983
 #, kde-format
+msgctxt "@title:window"
 msgid "Import"
 msgstr ""
 
@@ -4933,7 +4982,19 @@ msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:2183
 #, kde-format
+msgctxt "@title:window"
+msgid "Merge"
+msgstr ""
+
+#: src/svnfrontend/svnactions.cpp:2183
+#, kde-format
 msgid "Merging items"
+msgstr ""
+
+#: src/svnfrontend/svnactions.cpp:2210 src/svnfrontend/svnactions.cpp:2228
+#, kde-format
+msgctxt "@title:window"
+msgid "Move"
 msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:2210
@@ -4944,6 +5005,12 @@ msgstr ""
 #: src/svnfrontend/svnactions.cpp:2228
 #, kde-format
 msgid "Moving entries"
+msgstr ""
+
+#: src/svnfrontend/svnactions.cpp:2248 src/svnfrontend/svnactions.cpp:2263
+#, kde-format
+msgctxt "@title:window"
+msgid "Copy / Move"
 msgstr ""
 
 #: src/svnfrontend/svnactions.cpp:2248 src/svnfrontend/svnactions.cpp:2263
@@ -5132,6 +5199,12 @@ msgstr ""
 #: src/svnfrontend/svnlogdlg.ui:230
 #, kde-format
 msgid "List entries"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonBlame)
+#: src/svnfrontend/svnlogdlg.ui:249 src/svnfrontend/svnlogdlgimp.cpp:505
+#, kde-format
+msgid "Annotate"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pbHelp)
