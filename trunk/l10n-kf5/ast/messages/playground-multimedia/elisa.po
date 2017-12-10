@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-09 03:05+0100\n"
+"POT-Creation-Date: 2017-12-10 03:04+0100\n"
 "PO-Revision-Date: 2017-08-28 13:11+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -58,7 +58,7 @@ msgid "Disable Baloo support"
 msgstr "Desactivar el sofitu de Baloo"
 
 #: ContextView.qml:109 MediaAllAlbumView.qml:119 MediaArtistAlbumView.qml:134
-#: MediaPlayListView.qml:134
+#: MediaPlayListView.qml:180
 #, kde-format
 msgid "1 track"
 msgid_plural "%1 tracks"
@@ -164,35 +164,65 @@ msgctxt "Open artist view"
 msgid "Open Artist"
 msgstr "Abrir artista"
 
-#: MediaPlayListView.qml:45
+#: MediaPlayListView.qml:47
 #, kde-format
 msgctxt "Remove all tracks from play list"
 msgid "Clear Play List"
 msgstr "Llimpiar llistáu de reproducción"
 
-#: MediaPlayListView.qml:62
+#: MediaPlayListView.qml:64
 #, kde-format
 msgctxt "Show currently played track inside playlist"
 msgid "Show Current Track"
 msgstr "Amosar pista actual"
 
-#: MediaPlayListView.qml:92 ViewSelector.qml:171
+#: MediaPlayListView.qml:72
+#, fuzzy, kde-format
+#| msgctxt "text shown at the top of the play list"
+#| msgid "Playlist"
+msgctxt "Load a playlist file"
+msgid "Load a Playlist"
+msgstr "Llistáu de reproducción"
+
+#: MediaPlayListView.qml:84
+#, fuzzy, kde-format
+#| msgctxt "text shown at the top of the play list"
+#| msgid "Playlist"
+msgctxt "Save a playlist file"
+msgid "Save a Playlist"
+msgstr "Llistáu de reproducción"
+
+#: MediaPlayListView.qml:100
+#, fuzzy, kde-format
+#| msgctxt "text shown at the top of the play list"
+#| msgid "Playlist"
+msgctxt "file type (mime type) for m3u playlist"
+msgid "Playlist (*.m3u)"
+msgstr "Llistáu de reproducción"
+
+#: MediaPlayListView.qml:106
+#, kde-format
+msgctxt "message of passive notification when playlist load failed"
+msgid "Save of playlist failed"
+msgstr ""
+
+#: MediaPlayListView.qml:138 ViewSelector.qml:171
 #, kde-format
 msgctxt "Title of the view of the playlist"
 msgid "Now Playing"
 msgstr "Reproduciendo"
 
-#: MediaPlayListView.qml:115
+#: MediaPlayListView.qml:161
 #, kde-format
 msgid "Shuffle"
 msgstr "Al debalu"
 
-#: MediaPlayListView.qml:121
+#: MediaPlayListView.qml:167
 #, kde-format
 msgid "Repeat"
 msgstr "Repitir"
 
-#: MediaPlayListView.qml:167
+#: MediaPlayListView.qml:213
 #, kde-format
 msgctxt "Text shown when play list is empty"
 msgid ""
@@ -205,18 +235,24 @@ msgstr ""
 "Pa entamar, pues esplorar la to fonoteca coles vistes de la esquierda.\n"
 "Usa los botones disponibles p'amestar la to esbilla."
 
-#: MediaServer.qml:231
+#: MediaServer.qml:189
+#, kde-format
+msgctxt "message of passive notification when playlist load failed"
+msgid "Load of playlist failed"
+msgstr ""
+
+#: MediaServer.qml:237
 #, kde-format
 msgid "Error when playing %1"
 msgstr ""
 
-#: MediaServer.qml:314 MediaServer.qml:380
+#: MediaServer.qml:320 MediaServer.qml:386
 #, kde-format
 msgctxt "open application menu"
 msgid "Application Menu"
 msgstr "Menú d'aplicación"
 
-#: musiclistenersmanager.cpp:403
+#: musiclistenersmanager.cpp:404
 #, kde-format
 msgctxt "No track found message"
 msgid "No track have been found"
@@ -309,10 +345,6 @@ msgstr ""
 
 #~ msgid "Choose a Folder"
 #~ msgstr "Escoyer una carpeta"
-
-#~ msgctxt "text shown at the top of the play list"
-#~ msgid "Playlist"
-#~ msgstr "Llistáu de reproducción"
 
 #~ msgctxt ""
 #~ "Artist name for albums with more than one artist (like compilations"
