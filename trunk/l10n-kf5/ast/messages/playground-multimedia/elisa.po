@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-10 03:04+0100\n"
+"POT-Creation-Date: 2017-12-13 05:18+0100\n"
 "PO-Revision-Date: 2017-08-28 13:11+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -57,8 +57,8 @@ msgctxt "Text of button to disable Baloo indexer"
 msgid "Disable Baloo support"
 msgstr "Desactivar el sofitu de Baloo"
 
-#: ContextView.qml:109 MediaAllAlbumView.qml:119 MediaArtistAlbumView.qml:134
-#: MediaPlayListView.qml:180
+#: ContextView.qml:109 MediaAllAlbumView.qml:119 MediaArtistAlbumView.qml:135
+#: MediaPlayListView.qml:184
 #, kde-format
 msgid "1 track"
 msgid_plural "%1 tracks"
@@ -108,13 +108,25 @@ msgctxt "Open album view"
 msgid "Open Album"
 msgstr "Abrir álbum"
 
-#: MediaAlbumDelegate.qml:67 MediaAlbumView.qml:115
+#: MediaAlbumDelegate.qml:67
 #, kde-format
 msgctxt "Clear play list and add whole album to play list"
 msgid "Play Now and Replace Play List"
 msgstr "Reproducir agora y trocar llistáu de reproducción"
 
-#: MediaAlbumView.qml:124
+#: MediaAlbumView.qml:115 MediaArtistAlbumView.qml:79
+#, kde-format
+msgctxt "Clear play list and play"
+msgid "Replace and Play"
+msgstr ""
+
+#: MediaAlbumView.qml:116
+#, kde-format
+msgctxt "Clear play list and add whole album to play list"
+msgid "Replace Play List and Play Now"
+msgstr ""
+
+#: MediaAlbumView.qml:125
 #, fuzzy, kde-format
 #| msgctxt "Open artist view"
 #| msgid "Open Artist"
@@ -128,7 +140,7 @@ msgctxt "Title of the view of all albums"
 msgid "Albums"
 msgstr "Álbumes"
 
-#: MediaAllAlbumView.qml:121 MediaArtistAlbumView.qml:136
+#: MediaAllAlbumView.qml:121 MediaArtistAlbumView.qml:137
 #, kde-format
 msgctxt "Number of tracks for an album"
 msgid "0 track"
@@ -152,17 +164,23 @@ msgctxt "Add all tracks from artist to play list"
 msgid "Enqueue"
 msgstr "Poner na cola"
 
-#: MediaArtistAlbumView.qml:79 MediaArtistDelegate.qml:72
+#: MediaArtistAlbumView.qml:80
 #, kde-format
 msgctxt "Clear play list and add all tracks from artist to play list"
-msgid "Play Now and Replace Play List"
-msgstr "Reproducir agora y trocar llistáu de reproducción"
+msgid "Replace Play List and Play Now"
+msgstr ""
 
 #: MediaArtistDelegate.qml:64
 #, kde-format
 msgctxt "Open artist view"
 msgid "Open Artist"
 msgstr "Abrir artista"
+
+#: MediaArtistDelegate.qml:72
+#, kde-format
+msgctxt "Clear play list and add all tracks from artist to play list"
+msgid "Play Now and Replace Play List"
+msgstr "Reproducir agora y trocar llistáu de reproducción"
 
 #: MediaPlayListView.qml:47
 #, kde-format
@@ -176,7 +194,7 @@ msgctxt "Show currently played track inside playlist"
 msgid "Show Current Track"
 msgstr "Amosar pista actual"
 
-#: MediaPlayListView.qml:72
+#: MediaPlayListView.qml:76
 #, fuzzy, kde-format
 #| msgctxt "text shown at the top of the play list"
 #| msgid "Playlist"
@@ -184,7 +202,7 @@ msgctxt "Load a playlist file"
 msgid "Load a Playlist"
 msgstr "Llistáu de reproducción"
 
-#: MediaPlayListView.qml:84
+#: MediaPlayListView.qml:88
 #, fuzzy, kde-format
 #| msgctxt "text shown at the top of the play list"
 #| msgid "Playlist"
@@ -192,7 +210,7 @@ msgctxt "Save a playlist file"
 msgid "Save a Playlist"
 msgstr "Llistáu de reproducción"
 
-#: MediaPlayListView.qml:100
+#: MediaPlayListView.qml:104
 #, fuzzy, kde-format
 #| msgctxt "text shown at the top of the play list"
 #| msgid "Playlist"
@@ -200,29 +218,29 @@ msgctxt "file type (mime type) for m3u playlist"
 msgid "Playlist (*.m3u)"
 msgstr "Llistáu de reproducción"
 
-#: MediaPlayListView.qml:106
+#: MediaPlayListView.qml:110
 #, kde-format
 msgctxt "message of passive notification when playlist load failed"
 msgid "Save of playlist failed"
 msgstr ""
 
-#: MediaPlayListView.qml:138 ViewSelector.qml:171
+#: MediaPlayListView.qml:142 ViewSelector.qml:171
 #, kde-format
 msgctxt "Title of the view of the playlist"
 msgid "Now Playing"
 msgstr "Reproduciendo"
 
-#: MediaPlayListView.qml:161
+#: MediaPlayListView.qml:165
 #, kde-format
 msgid "Shuffle"
 msgstr "Al debalu"
 
-#: MediaPlayListView.qml:167
+#: MediaPlayListView.qml:171
 #, kde-format
 msgid "Repeat"
 msgstr "Repitir"
 
-#: MediaPlayListView.qml:213
+#: MediaPlayListView.qml:217
 #, kde-format
 msgctxt "Text shown when play list is empty"
 msgid ""
@@ -252,7 +270,7 @@ msgctxt "open application menu"
 msgid "Application Menu"
 msgstr "Menú d'aplicación"
 
-#: musiclistenersmanager.cpp:404
+#: musiclistenersmanager.cpp:389
 #, kde-format
 msgctxt "No track found message"
 msgid "No track have been found"
@@ -264,19 +282,19 @@ msgctxt "navigate back in the views stack"
 msgid "Back"
 msgstr "Atrás"
 
-#: PlayListEntry.qml:55
+#: PlayListEntry.qml:57
 #, kde-format
 msgctxt "Remove current track from play list"
 msgid "Remove"
 msgstr "Desaniciar"
 
-#: PlayListEntry.qml:64
+#: PlayListEntry.qml:66
 #, kde-format
 msgctxt "Play now current track from play list"
 msgid "Play Now"
 msgstr "Reproducir agora"
 
-#: PlayListEntry.qml:75
+#: PlayListEntry.qml:77
 #, kde-format
 msgctxt "Pause current track from play list"
 msgid "Pause"
@@ -290,43 +308,43 @@ msgid_plural "Import %1 tracks"
 msgstr[0] "Importar una pista"
 msgstr[1] "Importar %1 pistes"
 
-#: upnpControl.cpp:186
+#: upnpControl.cpp:180
 #, kde-format
 msgid "Elisa"
 msgstr "Elisa"
 
-#: upnpControl.cpp:188
+#: upnpControl.cpp:182
 #, kde-format
 msgid "A Simple Music Player written with KDE Frameworks"
 msgstr "Un reproductor cenciellu de música escritu con KDE Frameworks"
 
-#: upnpControl.cpp:190
+#: upnpControl.cpp:184
 #, fuzzy, kde-format
 #| msgid "(c) 2015-2017, Matthieu Gallien <mgallien@mgallien.fr>"
 msgid "(c) 2015-2017, Matthieu Gallien &lt;mgallien@mgallien.fr&gt;"
 msgstr "(c) 2015-2017, Matthieu Gallien <mgallien@mgallien.fr>"
 
-#: upnpControl.cpp:192
+#: upnpControl.cpp:186
 #, kde-format
 msgid "Author"
 msgstr "Autor"
 
-#: upnpControl.cpp:194
+#: upnpControl.cpp:188
 #, kde-format
 msgid "Concept and design work"
 msgstr ""
 
-#: upnpControl.cpp:195
+#: upnpControl.cpp:189
 #, kde-format
 msgid "Localization support"
 msgstr ""
 
-#: upnpControl.cpp:196
+#: upnpControl.cpp:190
 #, kde-format
 msgid "Right to left support in interface"
 msgstr ""
 
-#: upnpControl.cpp:197
+#: upnpControl.cpp:191
 #, kde-format
 msgid "Various improvements to the interface"
 msgstr ""
