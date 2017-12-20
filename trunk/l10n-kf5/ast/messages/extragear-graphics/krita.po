@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-15 03:07+0100\n"
+"POT-Creation-Date: 2017-12-20 04:49+0100\n"
 "PO-Revision-Date: 2017-06-29 01:18+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -9351,6 +9351,8 @@ msgstr ""
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:138
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:246
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:271
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:79
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:89
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:130
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:108
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:109
@@ -9459,25 +9461,25 @@ msgctxt "(qtundo-format)"
 msgid "Property Changes"
 msgstr ""
 
-#: libs/image/commands/kis_node_property_list_command.cpp:135
+#: libs/image/commands/kis_node_property_list_command.cpp:148
 #: libs/image/kis_layer_properties_icons.cpp:33
 #, kde-format
 msgid "Visible"
 msgstr ""
 
-#: libs/image/commands/kis_node_property_list_command.cpp:136
+#: libs/image/commands/kis_node_property_list_command.cpp:149
 #: libs/image/kis_layer_properties_icons.cpp:32
 #, kde-format
 msgid "Locked"
 msgstr ""
 
-#: libs/image/commands/kis_node_property_list_command.cpp:137
+#: libs/image/commands/kis_node_property_list_command.cpp:150
 #: libs/image/kis_layer_properties_icons.cpp:39
 #, kde-format
 msgid "Active"
 msgstr ""
 
-#: libs/image/commands/kis_node_property_list_command.cpp:144
+#: libs/image/commands/kis_node_property_list_command.cpp:157
 #: libs/image/kis_layer_properties_icons.cpp:36
 #: libs/image/kis_paint_layer.cc:211
 #, kde-format
@@ -10070,14 +10072,24 @@ msgstr ""
 msgid "Satin (style)"
 msgstr ""
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:762
+#: libs/image/lazybrush/kis_colorize_mask.cpp:929
 msgctxt "(qtundo-format)"
 msgid "Change Key Stroke Color"
 msgstr ""
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:789
+#: libs/image/lazybrush/kis_colorize_mask.cpp:956
 msgctxt "(qtundo-format)"
 msgid "Remove Key Stroke"
+msgstr ""
+
+#: libs/image/lazybrush/kis_colorize_stroke_strategy.cpp:86
+msgctxt "(qtundo-format)"
+msgid "Colorize"
+msgstr ""
+
+#: libs/image/lazybrush/kis_colorize_stroke_strategy.cpp:86
+msgctxt "(qtundo-format)"
+msgid "Prefilter Colorize Mask"
 msgstr ""
 
 #: libs/image/metadata/kis_meta_data_filter_p.cc:51
@@ -12241,6 +12253,7 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_preferences.cc:670 libs/ui/kis_autogradient.cc:76
 #: libs/ui/kis_autogradient.cc:80
 #: plugins/flake/textshape/dialogs/ParagraphIndentSpacing.ui:134
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:97
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:912
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:928
 #, no-c-format, kde-format
@@ -14145,7 +14158,7 @@ msgstr ""
 #: libs/ui/input/config/kis_edit_profiles_dialog.ui:40
 #: libs/widgets/KoEditColorSet.ui:55
 #: libs/widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:419
-#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:123
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:155
 #, kde-format
 msgid "Remove"
 msgstr ""
@@ -15463,22 +15476,27 @@ msgstr ""
 msgid "Secondary Mode"
 msgstr ""
 
-#: libs/ui/input/kis_alternate_invocation_action.cpp:46
+#: libs/ui/input/kis_alternate_invocation_action.cpp:44
 #, kde-format
-msgid "Pick Foreground Color from Current Layer"
+msgid "Tertiary Mode"
 msgstr ""
 
 #: libs/ui/input/kis_alternate_invocation_action.cpp:47
 #, kde-format
+msgid "Pick Foreground Color from Current Layer"
+msgstr ""
+
+#: libs/ui/input/kis_alternate_invocation_action.cpp:48
+#, kde-format
 msgid "Pick Background Color from Current Layer"
 msgstr ""
 
-#: libs/ui/input/kis_alternate_invocation_action.cpp:49
+#: libs/ui/input/kis_alternate_invocation_action.cpp:50
 #, kde-format
 msgid "Pick Foreground Color from Merged Image"
 msgstr ""
 
-#: libs/ui/input/kis_alternate_invocation_action.cpp:50
+#: libs/ui/input/kis_alternate_invocation_action.cpp:51
 #, kde-format
 msgid "Pick Background Color from Merged Image"
 msgstr ""
@@ -18734,27 +18752,32 @@ msgstr ""
 msgid "No options"
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:668
+#: libs/ui/tool/kis_tool.cc:681
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:670
+#: libs/ui/tool/kis_tool.cc:683
 #, kde-format
 msgid "Layer is locked."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:672
+#: libs/ui/tool/kis_tool.cc:685
 #, kde-format
 msgid "Layer is invisible."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:674
+#: libs/ui/tool/kis_tool.cc:687
+#, kde-format
+msgid "Layer can be painted in Wash Mode only."
+msgstr ""
+
+#: libs/ui/tool/kis_tool.cc:689
 #, kde-format
 msgid "Group not editable."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:689
+#: libs/ui/tool/kis_tool.cc:704
 #, kde-format
 msgid "Local selection is locked."
 msgstr ""
@@ -19764,7 +19787,7 @@ msgstr ""
 msgid "No configuration options."
 msgstr ""
 
-#: libs/ui/widgets/KoDualColorButton.cpp:99
+#: libs/ui/widgets/KoDualColorButton.cpp:101
 #, kde-format
 msgid "Select a color"
 msgstr ""
@@ -32176,64 +32199,64 @@ msgstr ""
 msgid "Could not create transform mask params"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:454
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:455
 #, kde-format
 msgid "Could not find keyframe pixel data for frame %1 in %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:462
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:463
 #, kde-format
 msgid "Could not load keyframe pixel data for frame %1 in %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:476
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:477
 #, kde-format
 msgid "Could not read pixel data: %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:483
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:484
 #, kde-format
 msgid "Could not load pixel data: %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:516
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:517
 #, kde-format
 msgid "Could not load profile: %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:540
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:541
 #, kde-format
 msgid "Could not filter configuration %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:570
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:571
 #, kde-format
 msgid "Could not load metadata for layer %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:585
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:586
 #, kde-format
 msgid "Could not load raster selection %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:603
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:604
 #, kde-format
 msgid "Could not load vector selection %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:630
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:631
 #, kde-format
 msgid "Could not load keyframes from %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:644
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:645
 #, kde-format
 msgid ""
 "parsing error in the keyframe file %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:657
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:658
 #, kde-format
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr ""
@@ -32299,13 +32322,13 @@ msgid ""
 msgstr ""
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:805
-#: plugins/impex/libkra/kis_kra_loader.cpp:1151
+#: plugins/impex/libkra/kis_kra_loader.cpp:1164
 #, kde-format
 msgctxt "@title:window"
 msgid "File not found"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1146
+#: plugins/impex/libkra/kis_kra_loader.cpp:1159
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -33460,7 +33483,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonUpdate)
 #. i18n: ectx: property (text), widget (QPushButton, btnUpdate)
 #: plugins/impex/raw/wdgrawimport.ui:29
-#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:41
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:26
 #, kde-format
 msgid "Update"
 msgstr ""
@@ -33977,7 +34000,7 @@ msgstr ""
 #: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:47
 #: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:45
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:54
-#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:113
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:145
 #, kde-format
 msgid "Transparent"
 msgstr ""
@@ -38207,36 +38230,66 @@ msgstr ""
 msgid "Dynamic Brush Tool"
 msgstr ""
 
-#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.cpp:49
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.cpp:61
 msgctxt "(qtundo-format)"
 msgid "Colorize Mask Key Stroke"
 msgstr ""
 
-#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.h:80
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.h:96
 #, kde-format
 msgid "Colorize Mask Editing Tool"
 msgstr ""
 
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:83
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Activate for images with vast solid areas. Set the value to the width of the "
+"thinnest lines on the image"
+msgstr ""
+
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:93
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The mask will try to close non-closed contours if the gas is smaller than "
+"\"Gap close hint\" value"
+msgstr ""
+
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:101
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The mask will try to remove parts of the key strokes that are places outside "
+"the closed contours. 0% - no effect, 100% - max effect"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoUpdates)
-#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:34
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:19
 #, kde-format
 msgid "Auto updates"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowKeyStrokes)
-#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:53
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:35
 #, kde-format
 msgid "Edit key strokes"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowOutput)
-#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:60
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:42
 #, kde-format
 msgid "Show output"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, chkLimitToDevice)
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:49
+#, kde-format
+msgid "Limit to layer bounds"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:83
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:115
 #, kde-format
 msgid "Key Strokes"
 msgstr ""
