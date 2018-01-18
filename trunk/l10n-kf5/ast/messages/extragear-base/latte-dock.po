@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-17 03:13+0100\n"
+"POT-Creation-Date: 2018-01-18 03:08+0100\n"
 "PO-Revision-Date: 2018-01-17 19:40+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -871,7 +871,13 @@ msgstr ""
 msgid "Switch to another layout"
 msgstr ""
 
-#: dockview.cpp:2089
+#: dockview.cpp:2076
+#, kde-format
+msgctxt "current layout"
+msgid "(Current)"
+msgstr ""
+
+#: dockview.cpp:2098
 #, kde-format
 msgid "Configure..."
 msgstr ""
@@ -906,7 +912,7 @@ msgstr ""
 msgid "My Layout"
 msgstr ""
 
-#: importer.cpp:61 layoutmanager.cpp:592 layoutmanager.cpp:593
+#: importer.cpp:61 layoutmanager.cpp:629 layoutmanager.cpp:630
 #, kde-format
 msgid "Alternative"
 msgstr ""
@@ -929,77 +935,99 @@ msgctxt "import/export config"
 msgid "The temp directory could not be created!!!"
 msgstr ""
 
-#: layoutconfigdialog.cpp:63
+#: layoutconfigdialog.cpp:64
 #, kde-format
 msgid "Layouts Editor"
 msgstr ""
 
-#: layoutconfigdialog.cpp:107
+#: layoutconfigdialog.cpp:109
 #, kde-format
 msgctxt "new button"
 msgid "New"
 msgstr ""
 
-#: layoutconfigdialog.cpp:108
+#: layoutconfigdialog.cpp:110
 #, kde-format
 msgctxt "copy button"
 msgid "Copy"
 msgstr ""
 
-#: layoutconfigdialog.cpp:109
+#: layoutconfigdialog.cpp:111
 #, kde-format
 msgctxt "remove button"
 msgid "Remove"
 msgstr ""
 
-#: layoutconfigdialog.cpp:110
+#: layoutconfigdialog.cpp:112
 #, kde-format
 msgctxt "switch button"
 msgid "Switch"
 msgstr ""
 
-#: layoutconfigdialog.cpp:111
+#: layoutconfigdialog.cpp:113
 #, kde-format
 msgctxt "import button"
 msgid "Import"
 msgstr ""
 
-#: layoutconfigdialog.cpp:112
+#: layoutconfigdialog.cpp:114
 #, kde-format
 msgctxt "export button"
 msgid "Export"
 msgstr ""
 
-#: layoutconfigdialog.cpp:113
+#: layoutconfigdialog.cpp:115
 #, kde-format
 msgctxt "download button"
 msgid "Download"
 msgstr ""
 
-#: layoutconfigdialog.cpp:272
+#: layoutconfigdialog.cpp:117
+#, kde-format
+msgctxt "single layout in memory"
+msgid "Single"
+msgstr ""
+
+#: layoutconfigdialog.cpp:118
+#, kde-format
+msgid "Only one layout can be present in memory at all cases"
+msgstr ""
+
+#: layoutconfigdialog.cpp:119
+#, kde-format
+msgctxt "multiple layouts in memory"
+msgid "Multiple"
+msgstr ""
+
+#: layoutconfigdialog.cpp:120
+#, kde-format
+msgid "Multiple layouts can be present in memory."
+msgstr ""
+
+#: layoutconfigdialog.cpp:294
 #, kde-format
 msgctxt "import layout/configuration"
 msgid "Import Layout/Configuration"
 msgstr ""
 
-#: layoutconfigdialog.cpp:281
+#: layoutconfigdialog.cpp:303
 #, kde-format
 msgctxt "import latte layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr ""
 
-#: layoutconfigdialog.cpp:282
+#: layoutconfigdialog.cpp:304
 #, kde-format
 msgctxt "import latte layouts/configuration"
 msgid "Latte Dock Full Configuration file (v0.1, v0.2)"
 msgstr ""
 
-#: layoutconfigdialog.cpp:298
+#: layoutconfigdialog.cpp:320
 #, kde-format
 msgid "Import: Configuration file version v0.1"
 msgstr ""
 
-#: layoutconfigdialog.cpp:300
+#: layoutconfigdialog.cpp:322
 #, kde-format
 msgid ""
 "You are going to import an old version <b>v0.1</b> configuration file."
@@ -1008,24 +1036,24 @@ msgid ""
 "safely</b> from this file<br><b>only the contained layouts...</b></i>"
 msgstr ""
 
-#: layoutconfigdialog.cpp:305
+#: layoutconfigdialog.cpp:327
 #, kde-format
 msgctxt "import full configuration"
 msgid "Full Configuration"
 msgstr ""
 
-#: layoutconfigdialog.cpp:307
+#: layoutconfigdialog.cpp:329
 #, kde-format
 msgctxt "import only the layouts"
 msgid "Only Layouts"
 msgstr ""
 
-#: layoutconfigdialog.cpp:333
+#: layoutconfigdialog.cpp:355
 #, kde-format
 msgid "Import: Configuration file version v0.2"
 msgstr ""
 
-#: layoutconfigdialog.cpp:335
+#: layoutconfigdialog.cpp:357
 #, kde-format
 msgid ""
 "You are going to import a <b>v0.2</b> configuration file.<br><b>Be careful</"
@@ -1033,105 +1061,105 @@ msgid ""
 "<br><br><i>Would you like to proceed?</i>"
 msgstr ""
 
-#: layoutconfigdialog.cpp:380
+#: layoutconfigdialog.cpp:402
 #, kde-format
 msgctxt "layout"
 msgid "Alternative"
 msgstr ""
 
-#: layoutconfigdialog.cpp:410
+#: layoutconfigdialog.cpp:432
 #, kde-format
 msgctxt "export layout/configuration"
 msgid "Export Layout/Configuration"
 msgstr ""
 
-#: layoutconfigdialog.cpp:418
+#: layoutconfigdialog.cpp:440
 #, kde-format
 msgctxt "export layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr ""
 
-#: layoutconfigdialog.cpp:419
+#: layoutconfigdialog.cpp:441
 #, kde-format
 msgctxt "export full configuraion"
 msgid "Latte Dock Full Configuration file v0.2"
 msgstr ""
 
-#: layoutconfigdialog.cpp:433
+#: layoutconfigdialog.cpp:455
 #, kde-format
 msgctxt "export layout"
 msgid "Failed to export layout"
 msgstr ""
 
-#: layoutconfigdialog.cpp:453
+#: layoutconfigdialog.cpp:475
 #, kde-format
 msgctxt "export layout"
 msgid "Open location"
 msgstr ""
 
-#: layoutconfigdialog.cpp:454
+#: layoutconfigdialog.cpp:476
 #, kde-format
 msgctxt "export layout"
 msgid "Layout exported successfully"
 msgstr ""
 
-#: layoutconfigdialog.cpp:465
+#: layoutconfigdialog.cpp:487
 #, kde-format
 msgctxt "import/export config"
 msgid "Failed to export configuration"
 msgstr ""
 
-#: layoutconfigdialog.cpp:472
+#: layoutconfigdialog.cpp:494
 #, kde-format
 msgctxt "import/export config"
 msgid "Open location"
 msgstr ""
 
-#: layoutconfigdialog.cpp:473
+#: layoutconfigdialog.cpp:495
 #, kde-format
 msgctxt "import/export config"
 msgid "Full Configuration exported successfully"
 msgstr ""
 
-#: layoutconfigdialog.cpp:564
+#: layoutconfigdialog.cpp:586
 #, kde-format
 msgctxt "import-done"
 msgid "Layout: <b>%0</b> imported successfully<br>"
 msgstr ""
 
-#: layoutconfigdialog.cpp:607
+#: layoutconfigdialog.cpp:631
 #, kde-format
 msgid "Color"
 msgstr ""
 
-#: layoutconfigdialog.cpp:608
+#: layoutconfigdialog.cpp:632
 #, kde-format
 msgid "Name"
 msgstr ""
 
-#: layoutconfigdialog.cpp:609
+#: layoutconfigdialog.cpp:633
 #, kde-format
 msgid "In Menu"
 msgstr ""
 
-#: layoutconfigdialog.cpp:610
+#: layoutconfigdialog.cpp:634
 #, kde-format
 msgid "Activities"
 msgstr "Actividaes"
 
-#: layoutconfigdialog.cpp:621 layoutconfigdialog.cpp:793
+#: layoutconfigdialog.cpp:651 layoutconfigdialog.cpp:829
 #, kde-format
 msgid "Layout Warning"
 msgstr ""
 
-#: layoutconfigdialog.cpp:622
+#: layoutconfigdialog.cpp:652
 #, kde-format
 msgid ""
 "The layout(s) <b>%0</b> have <i>broken configuration</i>!!! Please <b>remove "
 "them</b> to improve the system stability..."
 msgstr ""
 
-#: layoutconfigdialog.cpp:794
+#: layoutconfigdialog.cpp:830
 #, kde-format
 msgid ""
 "There are layouts with the same name, that is not permitted!!! Please update "
@@ -1148,44 +1176,44 @@ msgstr "Amestar widgets..."
 msgid "Show Plasma Widget Explorer"
 msgstr ""
 
-#: layoutmanager.cpp:454
+#: layoutmanager.cpp:480
 #, kde-format
 msgid "Switching to layout <b>%0</b> ..."
 msgstr ""
 
-#: layoutmanager.cpp:514
+#: layoutmanager.cpp:540
 #, kde-format
 msgid "Multiple Layouts Warning"
 msgstr ""
 
-#: layoutmanager.cpp:515
+#: layoutmanager.cpp:541
 #, kde-format
 msgid ""
 "Latte did not close properly in the previous session. The following "
 "layout(s) <b>[%0]</b> were updated for consistency!!!"
 msgstr ""
 
-#: layoutmanager.cpp:593 layoutmanager.cpp:823 layoutmanager.cpp:995
+#: layoutmanager.cpp:630 layoutmanager.cpp:887 layoutmanager.cpp:1059
 #, kde-format
 msgid "Default"
 msgstr ""
 
-#: layoutmanager.cpp:759
+#: layoutmanager.cpp:823
 #, kde-format
 msgid "Adding layout: <b>%0</b> ..."
 msgstr ""
 
-#: layoutmanager.cpp:996
+#: layoutmanager.cpp:1060
 #, kde-format
 msgid "Plasma"
 msgstr ""
 
-#: layoutmanager.cpp:997
+#: layoutmanager.cpp:1061
 #, kde-format
 msgid "Unity"
 msgstr ""
 
-#: layoutmanager.cpp:998
+#: layoutmanager.cpp:1062
 #, kde-format
 msgid "Extended"
 msgstr ""
@@ -1400,5 +1428,3 @@ msgstr ""
 #, kde-format
 msgid "multiple layouts hidden file"
 msgstr ""
-
-
