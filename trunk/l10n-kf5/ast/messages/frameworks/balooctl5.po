@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-19 03:18+0100\n"
+"POT-Creation-Date: 2018-01-24 03:25+0100\n"
 "PO-Revision-Date: 2017-09-06 12:24+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -351,12 +351,69 @@ msgstr "Monitoriza l'indizador de ficheros"
 msgid "Display the disk space used by index"
 msgstr ""
 
+#: main.cpp:93
+#, kde-format
+msgid ""
+"Output format <%1|%2|%3>.\n"
+"Only applies to \"%4\""
+msgstr ""
+
+#: main.cpp:99
+#, kde-format
+msgid "format"
+msgstr ""
+
 #: statuscommand.cpp:45
 #, kde-format
 msgid "Print the status of the Indexer"
 msgstr ""
 
-#: statuscommand.cpp:55
+#: statuscommand.cpp:55 statuscommand.cpp:93 statuscommand.cpp:135
+#, kde-format
+msgid "Ignoring non-existent file %1"
+msgstr ""
+
+#: statuscommand.cpp:60
+#, kde-format
+msgid "File: %1"
+msgstr ""
+
+#: statuscommand.cpp:62
+#, kde-format
+msgid "Basic Indexing: Done"
+msgstr ""
+
+#: statuscommand.cpp:64
+#, kde-format
+msgid "Basic Indexing: Scheduled"
+msgstr ""
+
+#: statuscommand.cpp:68
+#, kde-format
+msgid "Basic Indexing: Disabled"
+msgstr ""
+
+#: statuscommand.cpp:77
+#, kde-format
+msgid "Content Indexing: Scheduled"
+msgstr ""
+
+#: statuscommand.cpp:79
+#, kde-format
+msgid "Content Indexing: Failed"
+msgstr ""
+
+#: statuscommand.cpp:81
+#, kde-format
+msgid "Content Indexing: Done"
+msgstr ""
+
+#: statuscommand.cpp:181
+#, kde-format
+msgid "Output format \"%1\" is invalid"
+msgstr ""
+
+#: statuscommand.cpp:187
 #, fuzzy, kde-format
 #| msgid ""
 #| "Baloo is currently disabled. To enable, please run \"balooctl enable\""
@@ -365,73 +422,38 @@ msgstr ""
 "Aguaño Baloo ta deshabilitáu. P'habilitalu, executa «balooctl enable» por "
 "favor"
 
-#: statuscommand.cpp:61
+#: statuscommand.cpp:193
 #, kde-format
 msgid "Baloo Index could not be opened"
 msgstr "Nun pudo abrise l'indizador de ficheros Baloo"
 
-#: statuscommand.cpp:82
+#: statuscommand.cpp:214
 #, kde-format
 msgid "Baloo File Indexer is running"
 msgstr "L'indizador de ficheros Baloo nun n'execución"
 
-#: statuscommand.cpp:83
+#: statuscommand.cpp:215
 #, kde-format
 msgid "Indexer state: %1"
 msgstr ""
 
-#: statuscommand.cpp:86
+#: statuscommand.cpp:218
 #, kde-format
 msgid "Baloo File Indexer is not running"
 msgstr "L'indizador de ficheros Baloo nun ta n'execución"
 
-#: statuscommand.cpp:92
+#: statuscommand.cpp:224
 #, kde-format
 msgid "Indexed %1 / %2 files"
 msgstr ""
 
-#: statuscommand.cpp:100
+#: statuscommand.cpp:232
 #, kde-format
 msgid "Current size of index is %1"
 msgstr ""
 
-#: statuscommand.cpp:102
+#: statuscommand.cpp:234
 #, fuzzy, kde-format
 #| msgid "Path does not exist"
 msgid "Index does not exist yet"
 msgstr "Nun esiste'l camín"
-
-#: statuscommand.cpp:109
-#, kde-format
-msgid "File: %1"
-msgstr ""
-
-#: statuscommand.cpp:111
-#, kde-format
-msgid "Basic Indexing: Done"
-msgstr ""
-
-#: statuscommand.cpp:113
-#, kde-format
-msgid "Basic Indexing: Scheduled"
-msgstr ""
-
-#: statuscommand.cpp:117
-#, kde-format
-msgid "Basic Indexing: Disabled"
-msgstr ""
-
-#: statuscommand.cpp:126
-#, kde-format
-msgid "Content Indexing: Scheduled"
-msgstr ""
-
-#: statuscommand.cpp:128
-#, kde-format
-msgid "Content Indexing: Failed"
-msgstr ""
-
-#: statuscommand.cpp:130
-#, kde-format
-msgid "Content Indexing: Done"
-msgstr ""
