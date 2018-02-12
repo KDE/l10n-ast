@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-28 02:14+0000\n"
+"POT-Creation-Date: 2018-02-12 02:33+0000\n"
 "PO-Revision-Date: 2015-04-02 00:46+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -33,20 +33,20 @@ msgid ""
 "Pipes can receive text in one of three forms: <variablelist> <varlistentry> "
 "<term>Plain text body</term> <listitem><para>The body of the message, in "
 "plain &ascii; text</para></listitem> </varlistentry> <varlistentry> "
-"<term>&html; text body</term> <listitem><para>The body of the message, in "
-"&html;, as it would be if your chat peer had sent HTML to you, which will be "
+"<term>&HTML; text body</term> <listitem><para>The body of the message, in "
+"&HTML;, as it would be if your chat peer had sent HTML to you, which will be "
 "rendered in the chat window</para></listitem> </varlistentry> <varlistentry> "
-"<term>&xml; full message</term> <listitem><para>An &xml; document that "
-"describes all the characteristics of the message, including the &html; body."
+"<term>&XML; full message</term> <listitem><para>An &XML; document that "
+"describes all the characteristics of the message, including the &HTML; body."
 "</para></listitem> </varlistentry> </variablelist> This document describes "
-"the specifics of the &xml; format, and how to write a program that can "
+"the specifics of the &XML; format, and how to write a program that can "
 "handle it."
 msgstr ""
 
 #. Tag: title
 #: pipes.docbook:26
 #, no-c-format
-msgid "&xml; Output"
+msgid "&XML; Output"
 msgstr ""
 
 #. Tag: para
@@ -92,7 +92,7 @@ msgid ""
 "                &amp;lt;span style=\" color:#000000;\">hey&amp;lt;/span>&lt;/"
 "body>\n"
 "&lt;/message>\n"
-"</literallayout> This &xml; is loosely based on the XSD used for chatstyles "
+"</literallayout> This &XML; is loosely based on the XSD used for chatstyles "
 "found at <ulink url=\"http://kopete.kde.org/files/kopetemessage.xsd\">the "
 "Kopete website</ulink>. This code represents one message. There are a few "
 "things to note:"
@@ -141,21 +141,21 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The content inside the \"body\" element has \"&lt;\" escaped, so it is not "
-"confused with the actual &xml; structure. Obviously, to correctly interpret "
+"confused with the actual &XML; structure. Obviously, to correctly interpret "
 "the body as HTML, one would have to convert the \"&amp;lt;\"s to \"&lt;\"s."
 msgstr ""
 
 #. Tag: title
 #: pipes.docbook:48
 #, no-c-format
-msgid "&xml; Input"
+msgid "&XML; Input"
 msgstr ""
 
 #. Tag: para
 #: pipes.docbook:49
 #, no-c-format
 msgid ""
-"Your program will receive &xml; in its standard input stream, it will have "
+"Your program will receive &XML; in its standard input stream, it will have "
 "the opportunity to modify it, and then it must hand it back to &kopete; by "
 "way of its standard output stream. If your program modifies the following "
 "elements, the internal knowledge that &kopete; has of the message will be "

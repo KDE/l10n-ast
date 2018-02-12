@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-10 03:16+0100\n"
+"POT-Creation-Date: 2018-02-12 03:18+0100\n"
 "PO-Revision-Date: 2017-09-03 17:25+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -51,7 +51,7 @@ msgstr "Nun pue guardase la captura. Nun ye válidu'l nome'l ficheru."
 msgid "Cannot save an empty screenshot image."
 msgstr "Nun pue guardase una captura balera de pantalla."
 
-#: src/ExportManager.cpp:374
+#: src/ExportManager.cpp:379
 #, kde-format
 msgid "Printing failed. The printer failed to initialize."
 msgstr "Falló la imprentación. La imprentadorá falló al aniciase."
@@ -121,38 +121,28 @@ msgstr "Copiar al cartafueyu"
 msgid "Copy the current screenshot image to the clipboard."
 msgstr "Copia la captura actual de pantalla al cartafueyu."
 
-#: src/Gui/KSMainWindow.cpp:223
-#, kde-format
-msgid "Save &&& Exit"
-msgstr "Guardar y colar"
-
-#: src/Gui/KSMainWindow.cpp:224
-#, kde-format
-msgid "Save screenshot in your Pictures directory and exit"
-msgstr "Guarda la captura nel to direutoriu de Semeyes y cola"
-
-#: src/Gui/KSMainWindow.cpp:279
+#: src/Gui/KSMainWindow.cpp:272
 #, kde-format
 msgctxt "Unsaved Screenshot"
 msgid "Unsaved[*]"
 msgstr "Ensin guardar[*]"
 
-#: src/Gui/KSMainWindow.cpp:302
+#: src/Gui/KSMainWindow.cpp:295
 #, kde-format
 msgid "There was a problem sharing the image: %1"
 msgstr "Hebo un problema compartiendo la imaxe: %1"
 
-#: src/Gui/KSMainWindow.cpp:307
+#: src/Gui/KSMainWindow.cpp:300
 #, kde-format
 msgid "Image shared"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:309
+#: src/Gui/KSMainWindow.cpp:302
 #, kde-format
 msgid "You can find the shared image at: <a href=\"%1\">%1</a>"
 msgstr "Pues alcontrar la imaxe compartida en: <a href=\"%1\">%1</a>"
 
-#: src/Gui/KSMainWindow.cpp:322
+#: src/Gui/KSMainWindow.cpp:321
 #, kde-format
 msgid "The screenshot has been copied to the clipboard."
 msgstr ""
@@ -214,7 +204,7 @@ msgstr ""
 
 #: src/Gui/KSWidget.cpp:93
 #, kde-format
-msgid "<b>Content Options</b>"
+msgid "<b>Options</b>"
 msgstr ""
 
 #: src/Gui/KSWidget.cpp:95
@@ -251,7 +241,17 @@ msgid ""
 "If disabled, the pop-up is captured along with the parent window"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:119
+#: src/Gui/KSWidget.cpp:110
+#, kde-format
+msgid "Quit after Save or Copy"
+msgstr ""
+
+#: src/Gui/KSWidget.cpp:111
+#, kde-format
+msgid "Quit Spectacle after saving or copying the image"
+msgstr ""
+
+#: src/Gui/KSWidget.cpp:123
 #, kde-format
 msgid "Take a New Screenshot"
 msgstr ""
@@ -520,6 +520,12 @@ msgstr ""
 msgctxt "Open the screenshot we just saved"
 msgid "Open"
 msgstr ""
+
+#~ msgid "Save &&& Exit"
+#~ msgstr "Guardar y colar"
+
+#~ msgid "Save screenshot in your Pictures directory and exit"
+#~ msgstr "Guarda la captura nel to direutoriu de Semeyes y cola"
 
 #~ msgid "Export Image..."
 #~ msgstr "Esportar imaxe..."
