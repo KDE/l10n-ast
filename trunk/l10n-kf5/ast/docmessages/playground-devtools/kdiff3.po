@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-28 02:13+0000\n"
+"POT-Creation-Date: 2018-02-15 02:33+0000\n"
 "PO-Revision-Date: 2015-04-02 00:56+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -385,7 +385,7 @@ msgstr ""
 #: index.docbook:165
 #, no-c-format
 msgid ""
-"By using the possibilities of a graphical color display &kdiff3; shows "
+"By using the possiblities of a graphical color display &kdiff3; shows "
 "exactly what the difference is. When you have to do many code-reviews, you "
 "will like this."
 msgstr ""
@@ -559,7 +559,7 @@ msgid "Support for right to left languages."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:227 index.docbook:1239
+#: index.docbook:227 index.docbook:1246
 #, no-c-format
 msgid "<para>...</para>"
 msgstr ""
@@ -828,11 +828,11 @@ msgstr ""
 #: index.docbook:307
 #, no-c-format
 msgid ""
-"The open dialog allows to edit the filenames by hand, selecting a file via "
-"the file-browser (\"File...\") or allows to choose recent files from the "
-"drop-down lists. If you open the dialog again, then the current names still "
-"remain there. The third input file is not required. If the entry for \"C\" "
-"remains empty, then only a two file diff analysis will be done."
+"The open dialog allows you to edit the filenames by hand, selecting a file "
+"via the file-browser (\"File...\") or allows you to choose recent files from "
+"the drop-down lists. If you open the dialog again, then the current names "
+"still remain there. The third input file is not required. If the entry for "
+"\"C\" remains empty, then only a two file diff analysis will be done."
 msgstr ""
 
 #. Tag: para
@@ -1041,7 +1041,7 @@ msgid ""
 "menu (keyboard shortcut \"Ctrl-Y\") . An orange bar will appear in the "
 "summary column next to the chosen text. Repeat this for the second and (if "
 "available) third diff view. &kdiff3; will immediately recalculate the "
-"differences everytime you do this, and will align the chosen lines. Of "
+"differences everytime you do this. and will align the chosen lines. Of "
 "course some of the previously matching lines in between might not match "
 "anymore."
 msgstr ""
@@ -1356,7 +1356,7 @@ msgstr ""
 #: index.docbook:551
 #, no-c-format
 msgid ""
-"Note that &kdiff3; will remove duplicate history entries. If a history entry "
+"Note that &kdiff3; will remove duplicate history entrys. If a history entry "
 "appeared several times in the history of a input file, only one entry will "
 "remain in the output."
 msgstr ""
@@ -1741,7 +1741,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Print a page starting at the first visible line in the window. (On systems "
-"without this option this can be achieved by specifying page number 10000 for "
+"without this option this can be achived by specifying page number 10000 for "
 "printing.)"
 msgstr ""
 
@@ -1977,7 +1977,7 @@ msgstr ""
 #. Tag: emphasis
 #: index.docbook:781
 #, no-c-format
-msgid "Color for manually aligned difference ranges:"
+msgid "Color for manually selected diff ranges:"
 msgstr ""
 
 #. Tag: para
@@ -2125,11 +2125,30 @@ msgstr ""
 #. Tag: emphasis
 #: index.docbook:820
 #, no-c-format
-msgid "Ignore numbers:"
+msgid "Preserve Carriage Return:"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:820
+#, no-c-format
+msgid ""
+"Some editors (on some systems) save carriage return '\\r' and linefeed '\\n'-"
+"characters at the end of line, while others will only save the linefeed "
+"'\\n'. Usually &kdiff3; ignores the carriage return, but then files that "
+"don't have equal sizes, look equal in side by side comparison. When this "
+"option is on, then the carriage return characters are made visible but are "
+"treated as white space. This option must be off during a merge. Default is "
+"off."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:827
+#, no-c-format
+msgid "Ignore numbers:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:827
 #, no-c-format
 msgid ""
 "Default is off. Number characters ('0'-'9', '.', '-') will be ignored in the "
@@ -2139,13 +2158,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:825
+#: index.docbook:832
 #, no-c-format
 msgid "Ignore C/C++ comments:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:825
+#: index.docbook:832
 #, no-c-format
 msgid ""
 "Default is off. Changes in comments will be treated like changes in white "
@@ -2153,13 +2172,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:828
+#: index.docbook:835
 #, no-c-format
 msgid "Ignore case:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:828
+#: index.docbook:835
 #, no-c-format
 msgid ""
 "Default is off. Case-differences of characters (like 'A' vs. 'a') will be "
@@ -2167,31 +2186,31 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:831 index.docbook:998
+#: index.docbook:838 index.docbook:1005
 #, no-c-format
 msgid "Preprocessor-Command:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:831 index.docbook:834
+#: index.docbook:838 index.docbook:841
 #, no-c-format
 msgid "See <link linkend=\"preprocessors\">next section</link>."
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:834 index.docbook:1005
+#: index.docbook:841 index.docbook:1012
 #, no-c-format
 msgid "Line-Matching Preprocessor-Command:"
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:837
+#: index.docbook:844
 #, no-c-format
 msgid "Try Hard:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:837
+#: index.docbook:844
 #, no-c-format
 msgid ""
 "Try hard to find an even smaller delta. (Default is on.) This will probably "
@@ -2199,19 +2218,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:844
+#: index.docbook:851
 #, no-c-format
 msgid "Merge Settings"
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:846
+#: index.docbook:853
 #, no-c-format
 msgid "Auto Advance Delay (ms):"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:846
+#: index.docbook:853
 #, no-c-format
 msgid ""
 "When in auto-advance-mode this setting specifies how long to show the result "
@@ -2219,13 +2238,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:850
+#: index.docbook:857
 #, no-c-format
 msgid "White space 2/3-file merge default:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:850
+#: index.docbook:857
 #, no-c-format
 msgid ""
 "Automatically solve all white-space conflict by choosing the specified file. "
@@ -2237,13 +2256,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:857
+#: index.docbook:864
 #, no-c-format
 msgid "Auto merge regular expression:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:857
+#: index.docbook:864
 #, no-c-format
 msgid ""
 "Regular expression for lines where &kdiff3; should automatically choose one "
@@ -2252,13 +2271,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:860
+#: index.docbook:867
 #, no-c-format
 msgid "Run regular expression auto merge on merge start:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:860
+#: index.docbook:867
 #, no-c-format
 msgid ""
 "If activated &kdiff3; runs the automatic merge using the \"Auto merge "
@@ -2266,13 +2285,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:863
+#: index.docbook:870
 #, no-c-format
 msgid "History start regular expression:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:863
+#: index.docbook:870
 #, no-c-format
 msgid ""
 "Regular expression for the start of the merge history entry. Usually this "
@@ -2281,13 +2300,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:868
+#: index.docbook:875
 #, no-c-format
 msgid "History entry start regular expression:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:868
+#: index.docbook:875
 #, no-c-format
 msgid ""
 "A merge history entry consists of several lines. Specify the regular "
@@ -2298,25 +2317,25 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:875
+#: index.docbook:882
 #, no-c-format
 msgid "History merge sorting:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:875
+#: index.docbook:882
 #, no-c-format
 msgid "Enable version control history sorting."
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:878
+#: index.docbook:885
 #, no-c-format
 msgid "History entry start sort key order:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:878
+#: index.docbook:885
 #, no-c-format
 msgid ""
 "Each parentheses used in the regular expression for the history start entry "
@@ -2327,13 +2346,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:886
+#: index.docbook:893
 #, no-c-format
 msgid "Merge version control history on merge start:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:886
+#: index.docbook:893
 #, no-c-format
 msgid ""
 "If activated &kdiff3; runs the automatic history merging using "
@@ -2341,13 +2360,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:889
+#: index.docbook:896
 #, no-c-format
 msgid "Max number of history entries:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:889
+#: index.docbook:896
 #, no-c-format
 msgid ""
 "&kdiff3; truncates the history list after the specified number of entries. "
@@ -2355,13 +2374,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:892
+#: index.docbook:899
 #, no-c-format
 msgid "Test your regular expressions"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:892
+#: index.docbook:899
 #, no-c-format
 msgid ""
 "This button shows a dialog that allows you to improve and test the regular "
@@ -2372,13 +2391,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:898
+#: index.docbook:905
 #, no-c-format
 msgid "Irrelevant merge command:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:898
+#: index.docbook:905
 #, no-c-format
 msgid ""
 "Specify a command of your own that should be called when &kdiff3; detects "
@@ -2389,13 +2408,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:910
+#: index.docbook:917
 #, no-c-format
 msgid "Directory Merge"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:911
+#: index.docbook:918
 #, no-c-format
 msgid ""
 "These options are concerned with scanning the directory and handling the "
@@ -2404,20 +2423,20 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:915
+#: index.docbook:922
 #, no-c-format
 msgid ""
 "Yet there is one option here that is also relevant for saving single files:"
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:919 index.docbook:1621
+#: index.docbook:926 index.docbook:1628
 #, no-c-format
 msgid "Backup files:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:919
+#: index.docbook:926
 #, no-c-format
 msgid ""
 "When a file is saved and an older version already exists, then the original "
@@ -2427,19 +2446,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:927
+#: index.docbook:934
 #, no-c-format
 msgid "Regional and Language Options"
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:929
+#: index.docbook:936
 #, no-c-format
 msgid "Language:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:929
+#: index.docbook:936
 #, no-c-format
 msgid ""
 "Adjust the language of the user interface. Changing this option doesn't "
@@ -2449,13 +2468,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:931
+#: index.docbook:938
 #, no-c-format
 msgid "Use the same encoding for everything:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:931
+#: index.docbook:938
 #, no-c-format
 msgid ""
 "The following encoding options can be adjusted separately for each item or "
@@ -2463,13 +2482,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:933
+#: index.docbook:940
 #, no-c-format
 msgid "Local Encoding:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:933
+#: index.docbook:940
 #, no-c-format
 msgid ""
 "Above the codec-selectors appears a note that tells you what the local "
@@ -2478,13 +2497,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:935
+#: index.docbook:942
 #, no-c-format
 msgid "File Encoding for A/B/C:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:935
+#: index.docbook:942
 #, no-c-format
 msgid ""
 "Adjust the file encoding for input files. This has an effect on how the "
@@ -2494,13 +2513,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:937
+#: index.docbook:944
 #, no-c-format
 msgid "File Encoding for Merge Output and Saving:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:937
+#: index.docbook:944
 #, no-c-format
 msgid ""
 "When you have edited a file, then you can adjust which encoding will be used "
@@ -2508,13 +2527,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:939
+#: index.docbook:946
 #, no-c-format
 msgid "File Encoding for Preprocessor Files:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:939
+#: index.docbook:946
 #, no-c-format
 msgid ""
 "When you define preprocessors then they might not be able to operate on your "
@@ -2524,13 +2543,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:941
+#: index.docbook:948
 #, no-c-format
 msgid "Right To Left Language:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:941
+#: index.docbook:948
 #, no-c-format
 msgid ""
 "Some languages are written right to left. When this option is enabled, "
@@ -2544,50 +2563,50 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:947
+#: index.docbook:954
 #, no-c-format
 msgid "Miscellaneous"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:948
+#: index.docbook:955
 #, no-c-format
 msgid "(These options and actions are available in menus or the buttonbar.)"
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:950
+#: index.docbook:957
 #, no-c-format
 msgid "Show line numbers:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:950
+#: index.docbook:957
 #, no-c-format
 msgid "You can select if line numbers should be shown for the input files."
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:952
+#: index.docbook:959
 #, no-c-format
 msgid "Show space and tabulator characters for differences:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:952
+#: index.docbook:959
 #, no-c-format
 msgid ""
 "Sometimes the visible spaces and tabs are disturbing. You can turn this off."
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:954
+#: index.docbook:961
 #, no-c-format
 msgid "Show white space:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:954
+#: index.docbook:961
 #, no-c-format
 msgid ""
 "Turn this off to suppress any highlighting of white-space-only changes in "
@@ -2597,13 +2616,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:958
+#: index.docbook:965
 #, no-c-format
 msgid "Overview options:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:958
+#: index.docbook:965
 #, no-c-format
 msgid ""
 "These choices are only available when you compare three files. In normal "
@@ -2615,25 +2634,25 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:965
+#: index.docbook:972
 #, no-c-format
 msgid "Word wrap diff windows:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:965
+#: index.docbook:972
 #, no-c-format
 msgid "Wrap lines when their length would exceed the width of a window."
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:968
+#: index.docbook:975
 #, no-c-format
 msgid "Show Window A/B/C:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:968
+#: index.docbook:975
 #, no-c-format
 msgid ""
 "Sometimes you want to use the space on the screen better for long lines. "
@@ -2641,13 +2660,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:971
+#: index.docbook:978
 #, no-c-format
 msgid "Toggle Split Orientation:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:971
+#: index.docbook:978
 #, no-c-format
 msgid ""
 "Switch between diff windows shown next to each other (A left of B left of C) "
@@ -2656,13 +2675,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:975
+#: index.docbook:982
 #, no-c-format
 msgid "Start a merge quickly:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:975
+#: index.docbook:982
 #, no-c-format
 msgid ""
 "Sometimes you are viewing the deltas and decide to merge. "
@@ -2675,13 +2694,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:985
+#: index.docbook:992
 #, no-c-format
 msgid "Configuring Keyboard-Shortcuts"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:986
+#: index.docbook:993
 #, no-c-format
 msgid ""
 "Currently only the KDE-version supports user-configurable keyboard-"
@@ -2689,19 +2708,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:993
+#: index.docbook:1000
 #, no-c-format
 msgid "Preprocessor Commands"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:994
+#: index.docbook:1001
 #, no-c-format
 msgid "&kdiff3; supports two preprocessor options."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:998
+#: index.docbook:1005
 #, no-c-format
 msgid ""
 "When any file is read, it will be piped through this external command. The "
@@ -2712,7 +2731,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1005
+#: index.docbook:1012
 #, no-c-format
 msgid ""
 "When any file is read, it will be piped through this external command. If a "
@@ -2724,7 +2743,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1015
+#: index.docbook:1022
 #, no-c-format
 msgid ""
 "The idea is to allow the user greater flexibility while configuring the diff-"
@@ -2734,7 +2753,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1021
+#: index.docbook:1028
 #, no-c-format
 msgid ""
 "Example: Simple testcase: Consider file a.txt (6 lines): <screen>\n"
@@ -2774,13 +2793,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1038
+#: index.docbook:1045
 #, no-c-format
 msgid "<command>sed</command> Basics"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1039
+#: index.docbook:1046
 #, no-c-format
 msgid ""
 "This section only introduces some very basic features of <command>sed</"
@@ -2795,7 +2814,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1050
+#: index.docbook:1057
 #, no-c-format
 msgid ""
 "Also note that the following examples use the single quotation mark (') "
@@ -2804,7 +2823,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1052
+#: index.docbook:1059
 #, no-c-format
 msgid ""
 "In this context only the <command>sed</command>-substitute-command is used: "
@@ -2829,7 +2848,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: index.docbook:1065
+#: index.docbook:1072
 #, no-c-format
 msgid ""
 "<command>cat</command> <replaceable>filename</replaceable> | <command>sed</"
@@ -2837,19 +2856,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1068
+#: index.docbook:1075
 #, no-c-format
 msgid "Examples For <command>sed</command>-Use In &kdiff3;"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1069
+#: index.docbook:1076
 #, no-c-format
 msgid "Ignoring Other Types Of Comments"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1070
+#: index.docbook:1077
 #, no-c-format
 msgid ""
 "Currently &kdiff3; understands only C/C++ comments. Using the Line-Matching-"
@@ -2872,13 +2891,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1089
+#: index.docbook:1096
 #, no-c-format
 msgid "Caseinsensitive Diff"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1090
+#: index.docbook:1097
 #, no-c-format
 msgid ""
 "Use the following Line-Matching-Preprocessor-Command to convert all input to "
@@ -2891,13 +2910,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1100
+#: index.docbook:1107
 #, no-c-format
 msgid "Ignoring Version Control Keywords"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1101
+#: index.docbook:1108
 #, no-c-format
 msgid ""
 "CVS and other version control systems use several keywords to insert "
@@ -2913,7 +2932,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1111
+#: index.docbook:1118
 #, no-c-format
 msgid ""
 "While experimenting with <command>sed</command> you might come to understand "
@@ -2922,13 +2941,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1118
+#: index.docbook:1125
 #, no-c-format
 msgid "Ignoring Numbers"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1119
+#: index.docbook:1126
 #, no-c-format
 msgid ""
 "Ignoring numbers actually is a built-in option. But as another example, this "
@@ -2939,13 +2958,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1127
+#: index.docbook:1134
 #, no-c-format
 msgid "Ignoring Certain Columns"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1128
+#: index.docbook:1135
 #, no-c-format
 msgid ""
 "Sometimes a text is very strictly formatted, and contains columns that you "
@@ -2960,13 +2979,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1138
+#: index.docbook:1145
 #, no-c-format
 msgid "Combining Several Substitutions"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1139
+#: index.docbook:1146
 #, no-c-format
 msgid ""
 "Sometimes you want to apply several substitutions at once. You can then use "
@@ -2974,7 +2993,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: index.docbook:1142
+#: index.docbook:1149
 #, no-c-format
 msgid ""
 "<command>echo</command> abrakadabra | <command>sed</command> 's/a/o/g;s/\\(.*"
@@ -2983,13 +3002,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1146
+#: index.docbook:1153
 #, no-c-format
 msgid "Using <command>perl</command> instead of <command>sed</command>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1147
+#: index.docbook:1154
 #, no-c-format
 msgid ""
 "Instead of <command>sed</command> you might want to use something else like "
@@ -3003,7 +3022,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: index.docbook:1154
+#: index.docbook:1161
 #, no-c-format
 msgid ""
 "<command>sed</command> 's/\\(.*\\)/\\U\\1/'\n"
@@ -3011,13 +3030,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1159
+#: index.docbook:1166
 #, no-c-format
 msgid "Order Of Preprocessor Execution"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1160
+#: index.docbook:1167
 #, no-c-format
 msgid ""
 "The data is piped through all internal and external preprocessors in the "
@@ -3025,43 +3044,43 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1165
+#: index.docbook:1172
 #, no-c-format
 msgid "Normal preprocessor,"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1166
+#: index.docbook:1173
 #, no-c-format
 msgid "Line-Matching-Preprocessor,"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1167
+#: index.docbook:1174
 #, no-c-format
 msgid "Ignore case (conversion to uppercase),"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1168
+#: index.docbook:1175
 #, no-c-format
 msgid "Detection of C/C++ comments,"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1169
+#: index.docbook:1176
 #, no-c-format
 msgid "Ignore numbers,"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1170
+#: index.docbook:1177
 #, no-c-format
 msgid "Ignore white space"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1172
+#: index.docbook:1179
 #, no-c-format
 msgid ""
 "The data after the normal preprocessor will be preserved for display and "
@@ -3070,7 +3089,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1175
+#: index.docbook:1182
 #, no-c-format
 msgid ""
 "In the rare cases where you use a normal preprocessor note that the line-"
@@ -3078,13 +3097,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1181
+#: index.docbook:1188
 #, no-c-format
 msgid "Warning"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1182
+#: index.docbook:1189
 #, no-c-format
 msgid ""
 "The preprocessor-commands are often very useful, but as with any option that "
@@ -3094,7 +3113,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1186
+#: index.docbook:1193
 #, no-c-format
 msgid ""
 "For this reason during a merge if a normal preprocessor-command is being "
@@ -3104,25 +3123,25 @@ msgid ""
 "\"Show White Space\" then the differences that were removed with the Line-"
 "Matching-Preprocessor-command will also be invisible. If the Save-button "
 "remains disabled during a merge (because of remaining conflicts), make sure "
-"to enable \"Show White Space\". If you don't want to merge these less "
+"to enable \"Show White Space\". If you don't wan't to merge these less "
 "important differences manually you can select \"Choose [A|B|C] For All "
 "Unsolved White space Conflicts\" in the Merge-menu."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1201
+#: index.docbook:1208
 #, no-c-format
 msgid "Directory Comparison and Merge with &kdiff3;"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1202
+#: index.docbook:1209
 #, no-c-format
 msgid "Introduction into Directory Comparison and Merge"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1203
+#: index.docbook:1210
 #, no-c-format
 msgid ""
 "Often programmers must modify many files in a directory to achieve their "
@@ -3131,7 +3150,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1207
+#: index.docbook:1214
 #, no-c-format
 msgid ""
 "Even though comparing and merging directories seems to be quite obvious, "
@@ -3148,37 +3167,37 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1221
+#: index.docbook:1228
 #, no-c-format
 msgid "To err is human, but to really mess things up you need a computer."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1223
+#: index.docbook:1230
 #, no-c-format
 msgid "So this is what this program can do for you: &kdiff3; ..."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1227
+#: index.docbook:1234
 #, no-c-format
 msgid "... reads and compares two or three directories recursively,"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1228
+#: index.docbook:1235
 #, no-c-format
 msgid "... takes special care of symbolic links,"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1229
+#: index.docbook:1236
 #, no-c-format
 msgid "... lets you browse files on mouse double click,"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1230
+#: index.docbook:1237
 #, no-c-format
 msgid ""
 "... for each item proposes a merge operation, which you can change before "
@@ -3186,7 +3205,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1232
+#: index.docbook:1239
 #, no-c-format
 msgid ""
 "... lets you simulate the merge and lists the actions that would take place, "
@@ -3194,7 +3213,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1234
+#: index.docbook:1241
 #, no-c-format
 msgid ""
 "... lets you really do the merge, and lets you interact whenever manual "
@@ -3202,7 +3221,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1236
+#: index.docbook:1243
 #, no-c-format
 msgid ""
 "... lets you run the selected operation for all items (key F7) or the "
@@ -3210,25 +3229,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1237
+#: index.docbook:1244
 #, no-c-format
 msgid "... lets you continue the merge after manual interaction with key F7,"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1238
+#: index.docbook:1245
 #, no-c-format
 msgid "... optionally creates backups, with the \".orig\" extension,"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1243
+#: index.docbook:1250
 #, no-c-format
 msgid "Starting Directory Comparison Or Merge"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1244
+#: index.docbook:1251
 #, no-c-format
 msgid ""
 "This is very similar to the single file merge and comparison. You just have "
@@ -3236,13 +3255,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1249
+#: index.docbook:1256
 #, no-c-format
 msgid "Compare/Merge two directories:"
 msgstr ""
 
 #. Tag: screen
-#: index.docbook:1250
+#: index.docbook:1257
 #, no-c-format
 msgid ""
 "<command>kdiff3</command> <replaceable>dir1 dir2</replaceable>\n"
@@ -3251,7 +3270,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1251
+#: index.docbook:1258
 #, no-c-format
 msgid ""
 "If no destination directory is specified, then &kdiff3; will use "
@@ -3259,13 +3278,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1256
+#: index.docbook:1263
 #, no-c-format
 msgid "Compare/Merge three directories:"
 msgstr ""
 
 #. Tag: screen
-#: index.docbook:1257
+#: index.docbook:1264
 #, no-c-format
 msgid ""
 "<command>kdiff3</command> <replaceable>dir1 dir2 dir3</replaceable>\n"
@@ -3274,7 +3293,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1258
+#: index.docbook:1265
 #, no-c-format
 msgid ""
 "When three directories are merged then <replaceable>dir1</replaceable> is "
@@ -3284,7 +3303,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1265
+#: index.docbook:1272
 #, no-c-format
 msgid ""
 "Note that only the comparison starts automatically, not the merge. For this "
@@ -3292,13 +3311,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1272
+#: index.docbook:1279
 #, no-c-format
 msgid "Directory Merge Visible Information"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1273
+#: index.docbook:1280
 #, no-c-format
 msgid ""
 "While reading the directories a message-box appears that informs you of the "
@@ -3307,7 +3326,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1277
+#: index.docbook:1284
 #, no-c-format
 msgid ""
 "When the directory scan is complete then &kdiff3; will show a listbox with "
@@ -3315,19 +3334,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1284
+#: index.docbook:1291
 #, no-c-format
 msgid "... and details about the currently selected item on the right:"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1292
+#: index.docbook:1299
 #, no-c-format
 msgid "The Name Column"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1293
+#: index.docbook:1300
 #, no-c-format
 msgid ""
 "Each file and directory that was found during the scan is shown here in a "
@@ -3335,7 +3354,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1296
+#: index.docbook:1303
 #, no-c-format
 msgid ""
 "The directories are collapsed by default. You can expand and collapse them "
@@ -3346,7 +3365,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1302
+#: index.docbook:1309
 #, no-c-format
 msgid ""
 "If you double-click a file item then the file comparison starts and the file-"
@@ -3354,7 +3373,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1306
+#: index.docbook:1313
 #, no-c-format
 msgid ""
 "The image in the name column reflects the file type in the first directory "
@@ -3362,31 +3381,31 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1311
+#: index.docbook:1318
 #, no-c-format
 msgid "Normal file"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1312
+#: index.docbook:1319
 #, no-c-format
 msgid "Normal directory (directory-image)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1313
+#: index.docbook:1320
 #, no-c-format
 msgid "Link to a file (file-image with a link arrow)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1314
+#: index.docbook:1321
 #, no-c-format
 msgid "Link to a directory (directory-image with a link arrow)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1316
+#: index.docbook:1323
 #, no-c-format
 msgid ""
 "If the file type is different in the other directories, then this is visible "
@@ -3397,13 +3416,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1325
+#: index.docbook:1332
 #, no-c-format
 msgid "The Columns A/B/C and the Coloring Scheme"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1326
+#: index.docbook:1333
 #, no-c-format
 msgid ""
 "As can be seen in the image above the colors red, green, yellow and black "
@@ -3411,31 +3430,31 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1331
+#: index.docbook:1338
 #, no-c-format
 msgid "Black: This item doesn't exist in this directory."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1332
+#: index.docbook:1339
 #, no-c-format
 msgid "Green: Newest item."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1333
+#: index.docbook:1340
 #, no-c-format
 msgid "Yellow: Older than green, newer than red."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1334
+#: index.docbook:1341
 #, no-c-format
 msgid "Red: Oldest item."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1336
+#: index.docbook:1343
 #, no-c-format
 msgid ""
 "But for items that were identical in the comparison their color also is "
@@ -3443,7 +3462,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1339
+#: index.docbook:1346
 #, no-c-format
 msgid ""
 "Directories are considered equal if all items they contain are identical. "
@@ -3452,7 +3471,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1343
+#: index.docbook:1350
 #, no-c-format
 msgid ""
 "The idea for this coloring scheme I came upon in <ulink url=\"http://samba."
@@ -3461,13 +3480,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1350
+#: index.docbook:1357
 #, no-c-format
 msgid "The Operation Column"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1351
+#: index.docbook:1358
 #, no-c-format
 msgid ""
 "After comparing the directories &kdiff3; also evaluates a proposal for a "
@@ -3481,39 +3500,39 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1362
+#: index.docbook:1369
 #, no-c-format
 msgid "Three directory-merge (\"A\" is treated as older base of both)."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1363
+#: index.docbook:1370
 #, no-c-format
 msgid "Two directory-merge."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1364
+#: index.docbook:1371
 #, no-c-format
 msgid ""
 "Two directory-sync-mode (activate via option \"Synchronize Directories\")."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1366
+#: index.docbook:1373
 #, no-c-format
 msgid ""
 "In three directory merge the operation proposal will be: If for an item ..."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1370
+#: index.docbook:1377
 #, no-c-format
 msgid "... all three directories are equal: Copy from C"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1371
+#: index.docbook:1378
 #, no-c-format
 msgid ""
 "... A and C are equal but B is not: Copy from B (or if B does not exist, "
@@ -3521,7 +3540,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1373
+#: index.docbook:1380
 #, no-c-format
 msgid ""
 "... A and B are equal but C is not: Copy from C (or if C does not exist, "
@@ -3529,7 +3548,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1375
+#: index.docbook:1382
 #, no-c-format
 msgid ""
 "... B and C are equal but A is not: Copy from C (or if C does not exist, "
@@ -3537,31 +3556,31 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1377
+#: index.docbook:1384
 #, no-c-format
 msgid "... only A exists: Delete the destination (if exists)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1378
+#: index.docbook:1385
 #, no-c-format
 msgid "... only B exists: Copy from B"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1379
+#: index.docbook:1386
 #, no-c-format
 msgid "... only C exists: Copy from C"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1380
+#: index.docbook:1387
 #, no-c-format
 msgid "... A, B and C are not equal: Merge"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1381
+#: index.docbook:1388
 #, no-c-format
 msgid ""
 "... A, B and C don't have the same file type (e.g. A is a directory, B is a "
@@ -3570,38 +3589,38 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1385
+#: index.docbook:1392
 #, no-c-format
 msgid ""
 "In two directory merge the operation proposal will be: If for an item ..."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1389
+#: index.docbook:1396
 #, no-c-format
 msgid "... both directories are equal: Copy from B"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1390
+#: index.docbook:1397
 #, no-c-format
 msgid "... A exists, but not B: Copy from A"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1391
+#: index.docbook:1398
 #, no-c-format
 msgid "... B exists, but not A: Copy from B"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1392
+#: index.docbook:1399
 #, no-c-format
 msgid "... A and B exist but are not equal: Merge"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1393 index.docbook:1410
+#: index.docbook:1400 index.docbook:1417
 #, no-c-format
 msgid ""
 "... A and B don't have the same file type (e.g. A is a directory, B is a "
@@ -3610,7 +3629,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1397
+#: index.docbook:1404
 #, no-c-format
 msgid ""
 "Sync-mode is active if only two directories and no explicit destination were "
@@ -3620,25 +3639,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1404
+#: index.docbook:1411
 #, no-c-format
 msgid "... both directories are equal: Nothing will be done."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1405
+#: index.docbook:1412
 #, no-c-format
 msgid "... A exists, but not B: Copy A to B"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1406
+#: index.docbook:1413
 #, no-c-format
 msgid "... B exists, but not A: Copy B to A"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1407
+#: index.docbook:1414
 #, no-c-format
 msgid ""
 "... A and B exist, but are not equal: Merge and store the result in both "
@@ -3647,7 +3666,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1414
+#: index.docbook:1421
 #, no-c-format
 msgid ""
 "When two directories are merged and the option \"Copy newer instead of "
@@ -3658,13 +3677,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1423
+#: index.docbook:1430
 #, no-c-format
 msgid "The Status Column"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1424
+#: index.docbook:1431
 #, no-c-format
 msgid ""
 "During the merge one file after the other will be processed. The status "
@@ -3675,13 +3694,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1433
+#: index.docbook:1440
 #, no-c-format
 msgid "Statistics Columns"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1434
+#: index.docbook:1441
 #, no-c-format
 msgid ""
 "When the file comparison mode \"Full Analysis\" is enabled in the options, "
@@ -3691,13 +3710,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1441
+#: index.docbook:1448
 #, no-c-format
 msgid "Selecting Listed Files"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1442
+#: index.docbook:1449
 #, no-c-format
 msgid ""
 "Several options influence which files are listed here. Some are accessible "
@@ -3706,7 +3725,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1446
+#: index.docbook:1453
 #, no-c-format
 msgid ""
 "\"Show Identical Files\": Files that have been detected equal in all input "
@@ -3714,7 +3733,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1447
+#: index.docbook:1454
 #, no-c-format
 msgid ""
 "\"Show Different Files\": Files that exist in two or more directories but "
@@ -3722,28 +3741,28 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1448
+#: index.docbook:1455
 #, no-c-format
 msgid ""
 "\"Show Files only in A\": Files that exist only in A, but not in B or C."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1449
+#: index.docbook:1456
 #, no-c-format
 msgid ""
-"\"Show Files only in B\": Files that exist only in B, but not in A or C."
+"\"Show Files only in B\": Files that exist only in B, but not in A or B."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1450
+#: index.docbook:1457
 #, no-c-format
 msgid ""
 "\"Show Files only in C\": Files that exist only in C, but not in A or B."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1452
+#: index.docbook:1459
 #, no-c-format
 msgid ""
 "Activate only the \"Show\"-options for the items you want listed. If for "
@@ -3755,7 +3774,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1457
+#: index.docbook:1464
 #, no-c-format
 msgid ""
 "These options also apply for directories with one exception: Disabling "
@@ -3764,7 +3783,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1460
+#: index.docbook:1467
 #, no-c-format
 msgid ""
 "Note that of these only the \"Show Identical Files\"-option is persistant. "
@@ -3772,13 +3791,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1468
+#: index.docbook:1475
 #, no-c-format
 msgid "Doing A Directory Merge"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1469
+#: index.docbook:1476
 #, no-c-format
 msgid ""
 "You can either merge the currently selected item (file or directory), or all "
@@ -3787,7 +3806,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1473
+#: index.docbook:1480
 #, no-c-format
 msgid ""
 "Be aware that if you didn't specify a destination directory explicitly, then "
@@ -3796,7 +3815,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1477
+#: index.docbook:1484
 #, no-c-format
 msgid ""
 "If you have specified a destination directory also check that all items that "
@@ -3806,7 +3825,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1484
+#: index.docbook:1491
 #, no-c-format
 msgid ""
 "\"Recursive Directories\": If this is off, then items in subdirectories will "
@@ -3814,19 +3833,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1486
+#: index.docbook:1493
 #, no-c-format
 msgid "\"Pattern\"/\"Anti-Pattern\": Include/exclude items that match"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1487
+#: index.docbook:1494
 #, no-c-format
-msgid "\"Find hidden files and directories\""
+msgid "\"Exclude Hidden Files\""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1488
+#: index.docbook:1495
 #, no-c-format
 msgid ""
 "<link linkend=\"selectingvisiblefiles\">\"Show\"-options</link> (Show "
@@ -3834,7 +3853,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1490
+#: index.docbook:1497
 #, no-c-format
 msgid ""
 "If you change the settings in order to list more files, you must do a rescan "
@@ -3846,7 +3865,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1495
+#: index.docbook:1502
 #, no-c-format
 msgid ""
 "Note that when you write to a completely new directory then you usually also "
@@ -3856,13 +3875,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1499
+#: index.docbook:1506
 #, no-c-format
 msgid "If you are satisfied so far, the rest is easy."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1501
+#: index.docbook:1508
 #, no-c-format
 msgid ""
 "To merge all items: Select \"Start/Continue directory merge\" in the "
@@ -3871,7 +3890,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1506
+#: index.docbook:1513
 #, no-c-format
 msgid ""
 "If due to conflicting filetypes still some items with invalid operations "
@@ -3880,7 +3899,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1510
+#: index.docbook:1517
 #, no-c-format
 msgid ""
 "If you merge all items a dialog will appear giving you the options \"Do it"
@@ -3888,7 +3907,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1515
+#: index.docbook:1522
 #, no-c-format
 msgid ""
 "Select \"Simulate it\" if you want to see what would be done without "
@@ -3896,13 +3915,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1517
+#: index.docbook:1524
 #, no-c-format
 msgid "Otherwise select \"Do it\" to really start merging."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1519
+#: index.docbook:1526
 #, no-c-format
 msgid ""
 "Then &kdiff3; will run the specified operation for all items. If manual "
@@ -3911,7 +3930,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1523
+#: index.docbook:1530
 #, no-c-format
 msgid ""
 "When you have finished with manually merging a file, again select \"Start/"
@@ -3920,7 +3939,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1527
+#: index.docbook:1534
 #, no-c-format
 msgid ""
 "When &kdiff3; encounters an error, it will tell you so and will show the "
@@ -3933,14 +3952,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1534
+#: index.docbook:1541
 #, no-c-format
 msgid ""
 "When the merge is complete, then &kdiff3; will inform you via a message box."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1537
+#: index.docbook:1544
 #, no-c-format
 msgid ""
 "If some items were merged individually before running the directorymerge "
@@ -3952,13 +3971,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1547
+#: index.docbook:1554
 #, no-c-format
 msgid "Options for Comparing and Merging Directories"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1548
+#: index.docbook:1555
 #, no-c-format
 msgid ""
 "The &kdiff3;-preferences (menu \"Settings\"-&gt;\"Configure &kdiff3;\") has "
@@ -3966,25 +3985,25 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1554
+#: index.docbook:1561
 #, no-c-format
 msgid "Recursive Directories:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1554
+#: index.docbook:1561
 #, no-c-format
 msgid "Select whether to search directories recursively."
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1556
+#: index.docbook:1563
 #, no-c-format
 msgid "File Pattern(s):"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1556
+#: index.docbook:1563
 #, no-c-format
 msgid ""
 "Only files that match any pattern here will be put in the tree. More than "
@@ -3994,13 +4013,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1560
+#: index.docbook:1567
 #, no-c-format
 msgid "File Anti-Pattern(s):"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1560
+#: index.docbook:1567
 #, no-c-format
 msgid ""
 "Files that match this pattern will be excluded from the tree. More than one "
@@ -4009,13 +4028,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1564
+#: index.docbook:1571
 #, no-c-format
 msgid "Directory Anti-Pattern(s):"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1564
+#: index.docbook:1571
 #, no-c-format
 msgid ""
 "Directories that match this pattern will be excluded from the tree. More "
@@ -4024,13 +4043,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1568
+#: index.docbook:1575
 #, no-c-format
 msgid "Use CVS-Ignore:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1568
+#: index.docbook:1575
 #, no-c-format
 msgid ""
 "Ignore files and directories that would also be ignored by CVS. Many "
@@ -4040,13 +4059,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1573
+#: index.docbook:1580
 #, no-c-format
 msgid "Find Hidden Files and Directories:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1573
+#: index.docbook:1580
 #, no-c-format
 msgid ""
 "On some file systems files have an \"Hidden\"-attribute. On other systems a "
@@ -4056,13 +4075,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1577
+#: index.docbook:1584
 #, no-c-format
 msgid "Follow File Links:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1577
+#: index.docbook:1584
 #, no-c-format
 msgid ""
 "For links to files: When disabled, then the symbolic links are compared. "
@@ -4070,13 +4089,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1580
+#: index.docbook:1587
 #, no-c-format
 msgid "Follow Directory Links:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1580
+#: index.docbook:1587
 #, no-c-format
 msgid ""
 "For links to directories: When disabled, then the symbolic links will be "
@@ -4088,43 +4107,43 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1587
+#: index.docbook:1594
 #, no-c-format
 msgid "Case Sensitive Filename Comparison:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1587
+#: index.docbook:1594
 #, no-c-format
 msgid "Default is false on Windows, true for other operating systems."
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1589
+#: index.docbook:1596
 #, no-c-format
 msgid "File Comparison Mode:"
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1591
+#: index.docbook:1598
 #, no-c-format
 msgid "Binary Comparison:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1591
+#: index.docbook:1598
 #, no-c-format
 msgid "This is the default file comparison mode."
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1594
+#: index.docbook:1601
 #, no-c-format
 msgid "Full Analysis:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1594
+#: index.docbook:1601
 #, no-c-format
 msgid ""
 "Do a full analysis of each file and show the statistics information columns. "
@@ -4135,13 +4154,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1601
+#: index.docbook:1608
 #, no-c-format
 msgid "Trust the modification date:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1601
+#: index.docbook:1608
 #, no-c-format
 msgid ""
 "If you compare big directories over a slow network, it might be faster to "
@@ -4151,13 +4170,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1605
+#: index.docbook:1612
 #, no-c-format
 msgid "Trust the size:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1605
+#: index.docbook:1612
 #, no-c-format
 msgid ""
 "Similar to trusting the modification date. No real comparison happens. Two "
@@ -4167,13 +4186,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1612
+#: index.docbook:1619
 #, no-c-format
 msgid "Synchronize Directories:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1612
+#: index.docbook:1619
 #, no-c-format
 msgid ""
 "Activates \"Sync-Mode\" when two directories are compared and no explicit "
@@ -4183,13 +4202,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: index.docbook:1617
+#: index.docbook:1624
 #, no-c-format
 msgid "Copy newer instead of merging:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1617
+#: index.docbook:1624
 #, no-c-format
 msgid ""
 "Instead of merging the proposed operation will copy the newer source if "
@@ -4199,7 +4218,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1621
+#: index.docbook:1628
 #, no-c-format
 msgid ""
 "If a file or complete directory is replaced by another or is deleted then "
@@ -4210,23 +4229,23 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1629
+#: index.docbook:1636
 #, no-c-format
 msgid "Other Functions in Directory Merge Window"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1630
+#: index.docbook:1637
 #, no-c-format
 msgid "Split/Full Screen Mode"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1631
+#: index.docbook:1638
 #, no-c-format
 msgid ""
 "Usually the directory merge list view remains visible while a single file is "
-"compared or merged. With the mouse you can move the splitter bar that "
+"compared or merged. With the mouse you can move the the splitter bar that "
 "separates the file list from the text-diff windows. If you don't want this, "
 "you can disable \"Split Screen View\" in the \"Directory\"-menu. Then you "
 "can use \"Toggle View\" in the \"Directory\"-menu to switch between the file "
@@ -4234,13 +4253,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1640
+#: index.docbook:1647
 #, no-c-format
 msgid "Comparing or Merging a Single File"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1641
+#: index.docbook:1648
 #, no-c-format
 msgid ""
 "Probably you will prefer a simple double mouse click on a file in order to "
@@ -4252,7 +4271,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1648
+#: index.docbook:1655
 #, no-c-format
 msgid ""
 "But note that this status information will be lost when you rerun a "
@@ -4260,13 +4279,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1653
+#: index.docbook:1660
 #, no-c-format
 msgid "Comparing or Merging Files with Different Names"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1654
+#: index.docbook:1661
 #, no-c-format
 msgid ""
 "Sometimes you need to compare or merge files with different names (e.g. the "
@@ -4274,7 +4293,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1657
+#: index.docbook:1664
 #, no-c-format
 msgid ""
 "Select the exact file by clicking onto the icon in the column A, B or C. The "
@@ -4284,17 +4303,17 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1661
+#: index.docbook:1668
 #, no-c-format
 msgid ""
-"Proceed by choosing \"Compare Explicitly Selected Files\" or \"Merge "
-"Explicitly Selected Files\" from the \"Directory\"-menu. For your "
+"Proceed by choosing \"Compare Explicitely Selected Files\" or \"Merge "
+"Explicitely Selected Files\" from the \"Directory\"-menu. For your "
 "convenience these menu entries also appear as context menu when you right-"
 "click the last selected file."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1665
+#: index.docbook:1672
 #, no-c-format
 msgid ""
 "The comparison or merge of a file will happen in the same window. If this "
@@ -4302,25 +4321,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1673
+#: index.docbook:1680
 #, no-c-format
 msgid "Miscellaneous Topics"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1675
+#: index.docbook:1682
 #, no-c-format
 msgid "Networktransparency via KIO"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1676
+#: index.docbook:1683
 #, no-c-format
 msgid "KIO-Slaves"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1677
+#: index.docbook:1684
 #, no-c-format
 msgid ""
 "KDE supports networktransparency via KIO-slaves. &kdiff3; uses this for "
@@ -4329,13 +4348,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1682
+#: index.docbook:1689
 #, no-c-format
 msgid "Example:"
 msgstr ""
 
 #. Tag: screen
-#: index.docbook:1685
+#: index.docbook:1692
 #, no-c-format
 msgid ""
 "<command>kdiff3</command> test.cpp  ftp://ftp.faraway.org/test.cpp\n"
@@ -4343,7 +4362,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1687
+#: index.docbook:1694
 #, no-c-format
 msgid ""
 "The first line compares a local file with a file on an FTP-server. The "
@@ -4352,67 +4371,67 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1689
+#: index.docbook:1696
 #, no-c-format
 msgid "Other KIO-slaves that are interesting are:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1693
+#: index.docbook:1700
 #, no-c-format
 msgid "Files from the WWW (http:),"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1694
+#: index.docbook:1701
 #, no-c-format
 msgid "Files from the FTP (ftp:),"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1695
+#: index.docbook:1702
 #, no-c-format
 msgid "Encrypted file transfer (fish:, sftp:),"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1696
-#, no-c-format
-msgid "Windows-resources (smb:),"
-msgstr ""
-
-#. Tag: para
-#: index.docbook:1697
-#, no-c-format
-msgid "Local files (file:),"
-msgstr ""
-
-#. Tag: para
-#: index.docbook:1699
-#, no-c-format
-msgid "Other things that are possible, but probably less useful are:"
-msgstr ""
-
-#. Tag: para
 #: index.docbook:1703
 #, no-c-format
-msgid "Man-pages (man:),"
+msgid "Windows-ressources (smb:),"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:1704
 #, no-c-format
+msgid "Local files (file:),"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1706
+#, no-c-format
+msgid "Other things that are possible, but probably less useful are:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1710
+#, no-c-format
+msgid "Man-pages (man:),"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1711
+#, no-c-format
 msgid "Info-pages (info:),"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1708
+#: index.docbook:1715
 #, no-c-format
 msgid "How To Write URLs"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1709
+#: index.docbook:1716
 #, no-c-format
 msgid ""
 "An URL has a different syntax compared with paths for local files and "
@@ -4420,7 +4439,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1714
+#: index.docbook:1721
 #, no-c-format
 msgid ""
 "A path can be relative and can contain \".\" or \"..\". This is not possible "
@@ -4428,7 +4447,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1717
+#: index.docbook:1724
 #, no-c-format
 msgid ""
 "Special characters must be written with \"escaping\". (\"#\"->\"%23\", space-"
@@ -4437,27 +4456,27 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1720
+#: index.docbook:1727
 #, no-c-format
 msgid "When URLs don't work as expected, try to open them in Konqueror first."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1727
+#: index.docbook:1734
 #, no-c-format
 msgid "Capabilities of KIO-Slaves"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1728
+#: index.docbook:1735
 #, no-c-format
 msgid ""
-"Networktransparency has one drawback: Not all resources have the same "
-"capabilities."
+"Networktransparency has one drawback: Not all ressources have the same "
+"cababilities."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1730
+#: index.docbook:1737
 #, no-c-format
 msgid ""
 "Sometimes this is due to the file system of the server, sometimes due to the "
@@ -4465,13 +4484,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1735
+#: index.docbook:1742
 #, no-c-format
 msgid "Sometimes there is no support for links."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1737
+#: index.docbook:1744
 #, no-c-format
 msgid ""
 "Or there is no way to distinguish if a link points to a file or a directory; "
@@ -4479,19 +4498,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1740
+#: index.docbook:1747
 #, no-c-format
 msgid "Can't always determine the filesize."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1742
+#: index.docbook:1749
 #, no-c-format
 msgid "Limited support for permissions."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1744
+#: index.docbook:1751
 #, no-c-format
 msgid ""
 "No possibility to modify permissions or modification time, so permissions or "
@@ -4501,25 +4520,78 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1781
+#: index.docbook:1761
+#, no-c-format
+msgid "Using &kdiff3; as a KPart"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1762
+#, no-c-format
+msgid ""
+"&kdiff3; is a KPart. Currently it implements the KParts::ReadOnlyPart-"
+"interface."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1764
+#, no-c-format
+msgid ""
+"It's main use is as difference-viewer in KDevelop. KDevelop always starts "
+"the internal difference viewer first. To invoke &kdiff3; press the right "
+"mouse button on the difference viewer window and select \"Show in KDiff3Part"
+"\" from the contextmenu."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1768
+#, no-c-format
+msgid ""
+"&kdiff3; normally requires two complete files as input. When used as part "
+"&kdiff3; will assume that the inputfile is a patch-file in the unified "
+"format. &kdiff3; then retrieves the original filenames from the patch-file. "
+"At least one of the two files must be available. &kdiff3; will then invoke "
+"<command>patch</command> to recreate the second file."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1774
+#, no-c-format
+msgid ""
+"In Konqueror you can select a patch-file and select \"Preview in\"-"
+"\"KDiff3Part\" from the contextmenu. Be aware that this won't work if none "
+"of the original files are available, and it is not reliable if the original "
+"file(s) have changed since the patch-file was generated."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1779
+#, no-c-format
+msgid ""
+"When run as a part &kdiff3; only provides the a two-file-diff, a very small "
+"toolbar and menu. Merging or directory-comparison are not supported then."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1787
 #, no-c-format
 msgid "Questions and Answers"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:1781
+#: index.docbook:1787
 #, no-c-format
 msgid "&reporting.bugs; &updating.documentation;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1788
+#: index.docbook:1794
 #, no-c-format
 msgid "Why is it called \"&kdiff3;\"?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1790
+#: index.docbook:1796
 #, no-c-format
 msgid ""
 "Tools named \"KDiff\" and \"KDiff2\" (now called \"Kompare\") already exist. "
@@ -4528,13 +4600,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1795
+#: index.docbook:1801
 #, no-c-format
 msgid "Why did I release it under GPL?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1797
+#: index.docbook:1803
 #, no-c-format
 msgid ""
 "I'm using GPL programs for a very long time now and learned very much by "
@@ -4543,23 +4615,23 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1803
+#: index.docbook:1809
 #, no-c-format
 msgid "Some buttons and functions are missing. What's wrong?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1805
+#: index.docbook:1811
 #, no-c-format
 msgid ""
 "You compiled from source but you probably didn't specify the correct KDE-"
-"prefix. By default &kdiff3; is installed in /usr/local but then KDE can't "
-"find the user-interface resource file (i.e. kdiff3ui.rc). The README-file "
-"contains more information about the correct prefix."
+"prefix with configure. By default configure wants to install in /usr/local "
+"but then KDE can't find the user-interface ressource file (i.e. kdiff3ui."
+"rc). The README-file contains more information about the correct prefix."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1812
+#: index.docbook:1818
 #, no-c-format
 msgid ""
 "Often lines that are similar but not identical appear next to each other but "
@@ -4567,7 +4639,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1815
+#: index.docbook:1821
 #, no-c-format
 msgid ""
 "Lines where only the amount of white space characters is different are "
@@ -4578,13 +4650,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1823
+#: index.docbook:1829
 #, no-c-format
 msgid "Why must all conflicts be solved before the merge result can be saved?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1825
+#: index.docbook:1831
 #, no-c-format
 msgid ""
 "For each equal or different section the editor in the merge result window "
@@ -4596,7 +4668,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1834
+#: index.docbook:1840
 #, no-c-format
 msgid ""
 "How can I synchronise the diff and merge views, so that all views show the "
@@ -4604,7 +4676,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1836
+#: index.docbook:1842
 #, no-c-format
 msgid ""
 "Click into the summary column left of the text. (<link linkend="
@@ -4612,14 +4684,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1840
+#: index.docbook:1846
 #, no-c-format
 msgid ""
 "Why does the editor in the merge result window not have an \"undo\"-function?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1842
+#: index.docbook:1848
 #, no-c-format
 msgid ""
 "This was too much effort until now. You can always restore a version from "
@@ -4628,7 +4700,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1848
+#: index.docbook:1854
 #, no-c-format
 msgid ""
 "When I removed some text, then suddenly \"&lt;No src line&gt;\" appeared and "
@@ -4636,26 +4708,26 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1851
+#: index.docbook:1857
 #, no-c-format
 msgid ""
 "For each equal or different section the editor in the merge result window "
 "remembers where it begins or ends. \"&lt;No src line&gt;\" means that there "
 "is nothing left in a section, not even a new line character. This can happen "
 "either while merging automatically or by editing. This is no problem, since "
-"this hint won't appear in the saved file. If you want the original source "
+"this hint won't appear in the saved file. If you want the orignal source "
 "back just select the section (click on the left summary column) and then "
 "click the source button with the needed contents (A/B or C)."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1862
+#: index.docbook:1868
 #, no-c-format
 msgid "Why doesn't &kdiff3; support syntax-highlighting?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1864
+#: index.docbook:1870
 #, no-c-format
 msgid ""
 "&kdiff3; already uses many colors for difference highlighting. More "
@@ -4663,14 +4735,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1869
+#: index.docbook:1875
 #, no-c-format
 msgid ""
 "Can I use &kdiff3; to compare OpenOffice.Org, Word, Excel, PDF-, &etc; files?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1871
+#: index.docbook:1877
 #, no-c-format
 msgid ""
 "Although &kdiff3; will analyse any kind of file the result will probably not "
@@ -4678,7 +4750,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1874
+#: index.docbook:1880
 #, no-c-format
 msgid ""
 "&kdiff3; was made to compare pure text files. OpenOffice, Word, Excel etc. "
@@ -4689,7 +4761,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1880
+#: index.docbook:1886
 #, no-c-format
 msgid ""
 "Since most programs nowadays store their contents in XML-format, you might "
@@ -4698,24 +4770,24 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1884
+#: index.docbook:1890
 #, no-c-format
 msgid ""
 "The best solution if you only want to compare the text (without embedded "
 "objects like pictures) is to use \"Select All\" and \"Copy\" in your program "
-"to copy the interesting text to the clipboard and then in &kdiff3; paste the "
+"to copy the interesting text to the clipoard and then in &kdiff3; paste the "
 "text into either diff input window. (See also <link linkend=\"selections"
 "\">Select, Copy And Paste</link>.)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1892
+#: index.docbook:1898
 #, no-c-format
-msgid "Where has the directory option \"List only deltas\" gone?"
+msgid "Where has the the directory option \"List only deltas\" gone?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1894
+#: index.docbook:1900
 #, no-c-format
 msgid ""
 "There are now several <link linkend=\"selectingvisiblefiles\">\"Show\"-"
@@ -4724,7 +4796,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1899
+#: index.docbook:1905
 #, no-c-format
 msgid ""
 "How can I make a big selection in the diff input window because scrolling "
@@ -4732,7 +4804,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1902
+#: index.docbook:1908
 #, no-c-format
 msgid ""
 "Start the selection as usual (click and hold the left mouse button). Then "
@@ -4742,32 +4814,32 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1908
+#: index.docbook:1914
 #, no-c-format
 msgid ""
 "There is so much information here, but your question is still not answered?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1910
+#: index.docbook:1916
 #, no-c-format
 msgid "Please send me your question. I appreciate every comment."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1919
+#: index.docbook:1925
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1921
+#: index.docbook:1927
 #, no-c-format
 msgid "&kdiff3; - File and Directory Comparison and Merge Tool"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1924
+#: index.docbook:1930
 #, no-c-format
 msgid ""
 "Program copyright 2002-2007 Joachim Eibl <email>joachim.eibl at gmx.de</"
@@ -4775,7 +4847,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1927
+#: index.docbook:1933
 #, no-c-format
 msgid ""
 "Several cool ideas and bugreports came from colleagues and many people out "
@@ -4783,7 +4855,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1931
+#: index.docbook:1937
 #, no-c-format
 msgid ""
 "Documentation Copyright &copy; 2002-2007 Joachim Eibl <email>joachim.eibl at "
@@ -4791,31 +4863,31 @@ msgid ""
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:1935
+#: index.docbook:1941
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:1935
+#: index.docbook:1941
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1945
+#: index.docbook:1951
 #, no-c-format
 msgid "Installation"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1948
+#: index.docbook:1954
 #, no-c-format
 msgid "How to obtain &kdiff3;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1950
+#: index.docbook:1956
 #, no-c-format
 msgid ""
 "You can download the latest version of &kdiff3; from its homepage <ulink url="
@@ -4823,27 +4895,27 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1952
+#: index.docbook:1958
 #, no-c-format
 msgid ""
 "&kdiff3; is also available for other platforms. See the homepage for details."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1960
+#: index.docbook:1966
 #, no-c-format
 msgid "Requirements"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1962
+#: index.docbook:1968
 #, no-c-format
 msgid ""
-"In order to successfully use all features of &kdiff3;, you need &kde; > 4.4."
+"In order to successfully use all features of &kdiff3;, you need &kde; >4.4."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1964
+#: index.docbook:1970
 #, no-c-format
 msgid ""
 "For information about how to run &kdiff3; on other platforms without KDE "
@@ -4851,7 +4923,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1967
+#: index.docbook:1973
 #, no-c-format
 msgid ""
 "You can find a list of changes at <ulink url=\"http://kdiff3.sourceforge.net/"
@@ -4860,32 +4932,50 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1975
+#: index.docbook:1981
 #, no-c-format
 msgid "Compilation and Installation"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1977
+#: index.docbook:1983
 #, no-c-format
 msgid ""
-"Information how to compile and install &kdiff3; on a system with &kde; you "
-"find in the README file in the base directory of the &kdiff3; distribution"
+"In order to compile and install &kdiff3; on a system with KDE, type the "
+"following in the base directory of the &kdiff3; distribution:"
+msgstr ""
+
+#. Tag: screen
+#: index.docbook:1986
+#, no-c-format
+msgid ""
+"<prompt>%</prompt> <userinput><command>./configure --prefix=<replaceable>kde-"
+"dir</replaceable></command></userinput>\n"
+"<prompt>%</prompt> <userinput><command>make</command></userinput>\n"
+"<prompt>%</prompt> <userinput><command>make</command> install</userinput>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1980
+#: index.docbook:1987
 #, no-c-format
 msgid ""
-"Since &kdiff3; uses <command>cmake</command> you should have no trouble "
-"compiling it. Should you run into problems please report them to the &kde; "
-"mailing lists."
+"<replaceable>kde-dir</replaceable> specifies the directory containing KDE on "
+"your system. If you are not sure, read the README-file for details."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1984
+#: index.docbook:1991
 #, no-c-format
 msgid ""
-"If you don't use KDE follow the instructions for Qt-only systems in the "
-"README file."
+"If you don't use KDE don't use <command>configure</command> but follow the "
+"instructions for Qt-only systems in the README file."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1992
+#, no-c-format
+msgid ""
+"Since &kdiff3; uses <command>autoconf</command> and <command>automake</"
+"command> you should have no trouble compiling it. Should you run into "
+"problems please report them to the &kde; mailing lists."
 msgstr ""
