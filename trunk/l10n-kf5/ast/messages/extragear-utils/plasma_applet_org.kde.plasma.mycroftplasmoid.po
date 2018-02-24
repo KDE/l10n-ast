@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-21 03:19+0100\n"
+"POT-Creation-Date: 2018-02-24 03:17+0100\n"
 "PO-Revision-Date: 2018-01-17 17:54+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -17,17 +17,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: contents/ui/DashNewsDelegate.qml:169
+#: contents/ui/DashNewsDelegate.qml:186
 #, kde-format
 msgid "<i>Powered By: NewsAPI</i>"
 msgstr ""
 
-#: contents/ui/DashWeatherDelegate.qml:54
+#: contents/ui/DashWeatherDelegate.qml:52
 #, kde-format
-msgid "Current Weather: "
+msgid " | "
 msgstr ""
 
-#: contents/ui/Disclaimer.qml:39 contents/ui/DisclaimerCardDelegate.qml:55
+#: contents/ui/DashWeatherDelegate.qml:72
+#, kde-format
+msgid "Wind | "
+msgstr ""
+
+#: contents/ui/Disclaimer.qml:39 contents/ui/DisclaimerCardDelegate.qml:53
 #, kde-format
 msgid "Let's Continue ?"
 msgstr ""
@@ -48,7 +53,7 @@ msgstr ""
 msgid "To start using Mycroft toggle the switch in the upper right corner!"
 msgstr ""
 
-#: contents/ui/DisclaimerCardDelegate.qml:108
+#: contents/ui/DisclaimerCardDelegate.qml:124
 #, kde-format
 msgid ""
 "Mycroft by default is powered by a cloud-based speech to text service. "
@@ -56,149 +61,164 @@ msgid ""
 "locally configured one within their settings at home.mycroft.ai."
 msgstr ""
 
-#: contents/ui/main.qml:38
+#: contents/ui/main.qml:39
 #, kde-format
 msgid "Mycroft"
 msgstr "Mycroft"
 
-#: contents/ui/main.qml:518
+#: contents/ui/main.qml:537 contents/ui/main.qml:706 contents/ui/main.qml:795
 #, kde-format
-msgid "Mycroft is disabled"
+msgid "<b>Mycroft is disabled</b>"
 msgstr ""
 
-#: contents/ui/main.qml:593
+#: contents/ui/main.qml:551
+#, kde-format
+msgid "Reconnect"
+msgstr ""
+
+#: contents/ui/main.qml:619 contents/ui/main.qml:800
+#, kde-format
+msgid "<b>Starting up..please wait</b>"
+msgstr ""
+
+#: contents/ui/main.qml:633
 #, kde-format
 msgid "Toggle Mic"
 msgstr ""
 
-#: contents/ui/main.qml:660
+#: contents/ui/main.qml:699 contents/ui/main.qml:783
 #, kde-format
-msgid "Mycroft is Ready"
+msgid "<b>Mycroft is ready</b>"
 msgstr ""
 
-#: contents/ui/main.qml:667
+#: contents/ui/main.qml:771
 #, kde-format
-msgid "Mycroft is Disabled"
+msgid "<b>Connection error</b>"
 msgstr ""
 
-#: contents/ui/main.qml:788
+#: contents/ui/main.qml:805
+#, kde-format
+msgid "<b>Shutting down</b>"
+msgstr ""
+
+#: contents/ui/main.qml:829
 #, kde-format
 msgid "Home Tab"
 msgstr ""
 
-#: contents/ui/main.qml:802
+#: contents/ui/main.qml:843
 #, kde-format
 msgid "Skills Tab"
 msgstr ""
 
-#: contents/ui/main.qml:816
+#: contents/ui/main.qml:857
 #, kde-format
 msgid "Settings Tab"
 msgstr ""
 
-#: contents/ui/main.qml:831
+#: contents/ui/main.qml:872
 #, kde-format
 msgid "Skill Installs Tab"
 msgstr ""
 
-#: contents/ui/main.qml:1049
+#: contents/ui/main.qml:1090
 #, kde-format
 msgid "<i>Your Mycroft Core Installation Path</i>"
 msgstr ""
 
-#: contents/ui/main.qml:1060
+#: contents/ui/main.qml:1101
 #, kde-format
 msgid "Default Path"
 msgstr ""
 
-#: contents/ui/main.qml:1085
+#: contents/ui/main.qml:1126
 #, kde-format
 msgid "Installed Using Mycroft Package"
 msgstr ""
 
-#: contents/ui/main.qml:1110
+#: contents/ui/main.qml:1151
 #, kde-format
 msgid "Location of Mycroft-Core Directory"
 msgstr ""
 
-#: contents/ui/main.qml:1139
+#: contents/ui/main.qml:1180
 #, kde-format
 msgid "<custom location>/mycroft-core/"
 msgstr ""
 
-#: contents/ui/main.qml:1169 contents/ui/main.qml:1170
+#: contents/ui/main.qml:1210 contents/ui/main.qml:1211
 #, kde-format
 msgid "ws://0.0.0.0:8181/core"
 msgstr ""
 
-#: contents/ui/main.qml:1191
+#: contents/ui/main.qml:1232
 #, kde-format
 msgid "Your Custom Image Recognition Skill Voc Keywords"
 msgstr ""
 
-#: contents/ui/main.qml:1192
+#: contents/ui/main.qml:1233
 #, kde-format
 msgid "search image url"
 msgstr ""
 
-#: contents/ui/main.qml:1208
+#: contents/ui/main.qml:1249
 #, kde-format
 msgid "Enable Notifications"
 msgstr ""
 
-#: contents/ui/main.qml:1217
+#: contents/ui/main.qml:1258
 #, kde-format
 msgid ""
 "<i>Please Note: Default path is set to /home/$USER/mycroft-core/. Change the "
 "above settings to match your installation</i>"
 msgstr ""
 
-#: contents/ui/main.qml:1255
+#: contents/ui/main.qml:1296
 #, kde-format
 msgid "Enable / Disable Dashboard"
 msgstr ""
 
-#: contents/ui/main.qml:1272
+#: contents/ui/main.qml:1313
 #, kde-format
 msgid "Card Settings:"
 msgstr ""
 
-#: contents/ui/main.qml:1278
+#: contents/ui/main.qml:1319
 #, kde-format
 msgid "Enable / Disable Disclaimer Card"
 msgstr ""
 
-#: contents/ui/main.qml:1284
+#: contents/ui/main.qml:1325
 #, kde-format
 msgid "Enable / Disable News Card"
 msgstr ""
 
-#: contents/ui/main.qml:1303
+#: contents/ui/main.qml:1344
 #, kde-format
 msgid "Enable / Disable Weather Card"
 msgstr ""
 
-#: contents/ui/main.qml:1326
+#: contents/ui/main.qml:1367
 #, kde-format
 msgid "Celcius"
 msgstr ""
 
-#: contents/ui/main.qml:1334
+#: contents/ui/main.qml:1375
 #, kde-format
 msgid "Fahrenheit"
 msgstr ""
 
-#: contents/ui/main.qml:1369
+#: contents/ui/main.qml:1410
 #, kde-format
 msgid "Search Skills"
 msgstr ""
 
-#: contents/ui/main.qml:1387
+#: contents/ui/main.qml:1428
 #, kde-format
 msgid "Refresh List"
 msgstr ""
 
-#: contents/ui/main.qml:1561
+#: contents/ui/main.qml:1602
 #, kde-format
 msgid "Enter Query or Say 'Hey Mycroft'"
 msgstr ""
