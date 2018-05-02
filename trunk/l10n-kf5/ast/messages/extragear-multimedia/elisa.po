@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-24 03:28+0200\n"
+"POT-Creation-Date: 2018-05-02 03:26+0200\n"
 "PO-Revision-Date: 2017-08-28 13:11+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -45,53 +45,53 @@ msgctxt "Text of button to disable Baloo indexer"
 msgid "Disable Baloo support"
 msgstr "Desactivar el sofitu de Baloo"
 
-#: main.cpp:190 qml/ElisaMainWindow.qml:44
+#: main.cpp:88 qml/ElisaMainWindow.qml:44
 #, kde-format
 msgid "Elisa"
 msgstr "Elisa"
 
-#: main.cpp:192
+#: main.cpp:90
 #, kde-format
 msgid "A Simple Music Player written with KDE Frameworks"
 msgstr "Un reproductor cenciellu de música escritu con KDE Frameworks"
 
-#: main.cpp:194
+#: main.cpp:92
 #, fuzzy, kde-format
 #| msgid "(c) 2015-2017, Matthieu Gallien <mgallien@mgallien.fr>"
 msgid "(c) 2015-2017, Matthieu Gallien &lt;mgallien@mgallien.fr&gt;"
 msgstr "(c) 2015-2017, Matthieu Gallien <mgallien@mgallien.fr>"
 
-#: main.cpp:196
+#: main.cpp:94
 #, kde-format
 msgid "Creator"
 msgstr ""
 
-#: main.cpp:197
+#: main.cpp:95
 #, kde-format
 msgid "Author"
 msgstr "Autor"
 
-#: main.cpp:199
+#: main.cpp:97
 #, kde-format
 msgid "Concept and design work"
 msgstr ""
 
-#: main.cpp:200
+#: main.cpp:98
 #, kde-format
 msgid "Localization support"
 msgstr ""
 
-#: main.cpp:201
+#: main.cpp:99
 #, kde-format
 msgid "Right to left support in interface"
 msgstr ""
 
-#: main.cpp:202
+#: main.cpp:100
 #, kde-format
 msgid "Various improvements to the interface"
 msgstr ""
 
-#: musiclistenersmanager.cpp:482
+#: musiclistenersmanager.cpp:480
 #, kde-format
 msgctxt "No track found message"
 msgid "No track have been found"
@@ -109,11 +109,17 @@ msgctxt "Title of the view of all albums"
 msgid "Albums"
 msgstr "Álbumes"
 
-#: qml/ContentView.qml:192 qml/ViewSelector.qml:171
+#: qml/ContentView.qml:193 qml/ViewSelector.qml:171
 #, kde-format
 msgctxt "Title of the view of all artists"
 msgid "Artists"
 msgstr "Artistes"
+
+#: qml/ContentView.qml:259 qml/ViewSelector.qml:172
+#, kde-format
+msgctxt "Title of the view of all tracks"
+msgid "Tracks"
+msgstr "Pistes"
 
 #: qml/ContextView.qml:108 qml/MediaPlayListView.qml:144
 #, fuzzy, kde-format
@@ -163,12 +169,6 @@ msgid "1 track remaining"
 msgid_plural "%1 tracks remaining"
 msgstr[0] "1 pista restante"
 msgstr[1] "%1 pistes restantes"
-
-#: qml/MediaAllTracksView.qml:54 qml/ViewSelector.qml:172
-#, kde-format
-msgctxt "Title of the view of all tracks"
-msgid "Tracks"
-msgstr "Pistes"
 
 #: qml/MediaPlayerControl.qml:231
 #, kde-format
@@ -425,25 +425,31 @@ msgctxt "Rating label for information panel"
 msgid "Rating:"
 msgstr "Valoración:"
 
-#: qml/NavigationActionBar.qml:49
+#: qml/NavigationActionBar.qml:52
 #, kde-format
 msgctxt "navigate back in the views stack"
 msgid "Back"
 msgstr "Atrás"
 
-#: qml/NavigationActionBar.qml:56
+#: qml/NavigationActionBar.qml:59
 #, kde-format
 msgctxt "Show filters in the navigation bar"
 msgid "Show Search Options"
 msgstr ""
 
-#: qml/NavigationActionBar.qml:56
+#: qml/NavigationActionBar.qml:59
 #, kde-format
 msgctxt "Hide filters in the navigation bar"
 msgid "Hide Search Options"
 msgstr ""
 
-#: qml/NavigationActionBar.qml:179
+#: qml/NavigationActionBar.qml:66
+#, kde-format
+msgctxt "Toggle between ascending and descending order"
+msgid "Toggle sort order"
+msgstr ""
+
+#: qml/NavigationActionBar.qml:189
 #, fuzzy, kde-format
 #| msgctxt "Add whole album to play list"
 #| msgid "Enqueue"
@@ -451,19 +457,19 @@ msgctxt "Add current list to playlist"
 msgid "Enqueue"
 msgstr "Poner na cola"
 
-#: qml/NavigationActionBar.qml:190
+#: qml/NavigationActionBar.qml:200
 #, kde-format
 msgctxt "Clear playlist and play"
 msgid "Replace and Play"
 msgstr ""
 
-#: qml/NavigationActionBar.qml:191
+#: qml/NavigationActionBar.qml:201
 #, kde-format
 msgctxt "Clear playlist and add current list to it"
 msgid "Replace PlayList and Play Now"
 msgstr ""
 
-#: qml/NavigationActionBar.qml:205
+#: qml/NavigationActionBar.qml:215
 #, fuzzy, kde-format
 #| msgctxt "Open artist view"
 #| msgid "Open Artist"
@@ -471,19 +477,19 @@ msgctxt "Button to navigate to the artist of the album"
 msgid "Display Artist"
 msgstr "Abrir artista"
 
-#: qml/NavigationActionBar.qml:246
+#: qml/NavigationActionBar.qml:256
 #, kde-format
 msgctxt "before the TextField input of the filter"
 msgid "Search: "
 msgstr ""
 
-#: qml/NavigationActionBar.qml:261
+#: qml/NavigationActionBar.qml:271
 #, kde-format
 msgctxt "Placeholder text in the filter text box"
 msgid "Album name, artist, etc."
 msgstr ""
 
-#: qml/NavigationActionBar.qml:296
+#: qml/NavigationActionBar.qml:306
 #, kde-format
 msgctxt "before the Rating widget input of the filter"
 msgid "Rating: "
