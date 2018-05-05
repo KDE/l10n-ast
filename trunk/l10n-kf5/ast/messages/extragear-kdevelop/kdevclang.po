@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-28 03:36+0200\n"
+"POT-Creation-Date: 2018-05-05 03:25+0200\n"
 "PO-Revision-Date: 2016-12-19 01:37+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -66,12 +66,22 @@ msgstr ""
 msgid "Forward declare assistant"
 msgstr ""
 
-#: clangsupport.cpp:278
+#: clangsupport.cpp:182
+#, kde-format
+msgid ""
+"The clang builtin include path \"%1\" is invalid (missing varargs.h "
+"header).\n"
+"Try setting the KDEV_CLANG_BUILTIN_DIR environment variable manually to fix "
+"this.\n"
+"See also: https://bugs.kde.org/show_bug.cgi?id=393779"
+msgstr ""
+
+#: clangsupport.cpp:288
 #, kde-format
 msgid "Rename Declaration"
 msgstr ""
 
-#: clangsupport.cpp:285
+#: clangsupport.cpp:295
 #, kde-format
 msgid "Move into Source"
 msgstr ""
@@ -311,12 +321,12 @@ msgstr ""
 msgid "Open Project"
 msgstr ""
 
-#: duchain/parsesession.cpp:480
+#: duchain/parsesession.cpp:481
 #, kde-format
 msgid "Header is not guarded against multiple inclusions"
 msgstr ""
 
-#: duchain/parsesession.cpp:481
+#: duchain/parsesession.cpp:482
 #, kde-format
 msgid ""
 "The given header is not guarded against multiple inclusions, either with the "
