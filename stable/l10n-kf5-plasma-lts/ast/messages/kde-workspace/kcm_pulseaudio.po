@@ -1,16 +1,16 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# enolp <enolp@softastur.org>, 2015.
+# enolp <enolp@softastur.org>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-04-28 05:31+0200\n"
-"PO-Revision-Date: 2015-12-06 14:05+0100\n"
+"POT-Creation-Date: 2017-05-03 03:00+0200\n"
+"PO-Revision-Date: 2017-06-30 16:55+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
-"Language-Team: Asturian <>\n"
-"Language: ast_ES\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
+"Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,103 +51,145 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
 
+#: kcm/package/contents/ui/Advanced.qml:41
+#, kde-format
+msgid "Device Profiles"
+msgstr "Perfiles de preseos"
+
+#: kcm/package/contents/ui/Advanced.qml:42
+#, kde-format
+msgctxt "@label"
+msgid "No Device Profiles Available"
+msgstr "Nun hai perfiles disponibles de preseos"
+
+#: kcm/package/contents/ui/Advanced.qml:58
+#, kde-format
+msgid "Advanced Output Configuration"
+msgstr "Configuración avanzada de salida"
+
+#: kcm/package/contents/ui/Advanced.qml:70
+#, kde-format
+msgid ""
+"Add virtual output device for simultaneous output on all local sound cards"
+msgstr ""
+
+#: kcm/package/contents/ui/Advanced.qml:80
+#, kde-format
+msgid ""
+"Automatically switch all running streams when a new output becomes available"
+msgstr ""
+"Camudar automáticamente tolos fluxos n'execución al tar disponible una "
+"salida nueva"
+
+#: kcm/package/contents/ui/Advanced.qml:90
+#, kde-format
+msgid "Requires 'module-gconf' PulseAudio module"
+msgstr "Rique'l módulu de PulseAudio «module-gconf»"
+
+#: kcm/package/contents/ui/Applications.qml:43
+#, kde-format
+msgid "Playback"
+msgstr "Reproducción"
+
+#: kcm/package/contents/ui/Applications.qml:44
+#, kde-format
+msgctxt "@label"
+msgid "No Applications Playing Audio"
+msgstr "Nun hai aplicaciones reproduciendo audiu"
+
+#: kcm/package/contents/ui/Applications.qml:82
+#, kde-format
+msgid "Capture"
+msgstr "Captura"
+
+#: kcm/package/contents/ui/Applications.qml:83
+#, kde-format
+msgctxt "@label"
+msgid "No Applications Recording Audio"
+msgstr "Nun hai aplicaciones grabando audiu"
+
 #: kcm/package/contents/ui/CardListItem.qml:51
 #, kde-format
 msgctxt "@label"
 msgid "Profile:"
 msgstr "Perfil:"
 
-#: kcm/package/contents/ui/CardView.qml:40
-#, kde-format
-msgid ""
-"Add virtual output device for simultaneous output on all local sound cards"
-msgstr ""
-
-#: kcm/package/contents/ui/CardView.qml:45
-#, kde-format
-msgid ""
-"Automatically switch all running streams when a new output becomes available"
-msgstr ""
-
 #: kcm/package/contents/ui/DefaultDeviceButton.qml:28
 #, kde-format
 msgid "Default"
-msgstr ""
+msgstr "Por defeutu"
 
-#: kcm/package/contents/ui/main.qml:36
+#: kcm/package/contents/ui/DeviceListItem.qml:73
 #, kde-format
-msgid "This module allows to set up the Pulseaudio sound subsystem."
-msgstr "Esti módulu permite configurar el sosistema d'audiu Pulseaudio."
+msgid "Port"
+msgstr "Puertu"
 
-#: kcm/package/contents/ui/main.qml:39
+#: kcm/package/contents/ui/DeviceListItem.qml:91
 #, kde-format
-msgctxt "@title:tab"
-msgid "Applications"
-msgstr "Aplicaciones"
+msgctxt "Port is unavailable"
+msgid " (unavailable)"
+msgstr "(non disponible)"
 
-#: kcm/package/contents/ui/main.qml:45
+#: kcm/package/contents/ui/DeviceListItem.qml:93
 #, kde-format
-msgctxt "@label"
-msgid "No Applications Playing Audio"
-msgstr "Dal aplicación ta reproduciendo audiu"
+msgctxt "Port is unplugged"
+msgid " (unplugged)"
+msgstr "(desenchufóse)"
 
-#: kcm/package/contents/ui/main.qml:49
+#: kcm/package/contents/ui/Devices.qml:39
 #, kde-format
-msgctxt "@title:tab"
-msgid "Recording"
-msgstr "Grabación"
+msgid "Outputs"
+msgstr "Salíes"
 
-#: kcm/package/contents/ui/main.qml:55
-#, kde-format
-msgctxt "@label"
-msgid "No Applications Recording Audio"
-msgstr "Dal aplicación ta grabando audiu"
-
-#: kcm/package/contents/ui/main.qml:59
-#, kde-format
-msgctxt "@title:tab"
-msgid "Output Devices"
-msgstr "Preseos de salida"
-
-#: kcm/package/contents/ui/main.qml:62
+#: kcm/package/contents/ui/Devices.qml:40
 #, kde-format
 msgctxt "@label"
 msgid "No Output Devices Available"
 msgstr "Nun hai disponibles preseos de salida"
 
-#: kcm/package/contents/ui/main.qml:66
+#: kcm/package/contents/ui/Devices.qml:57
 #, kde-format
-msgctxt "@title:tab"
-msgid "Input Devices"
-msgstr "Preseos d'entrada"
+msgid "Inputs"
+msgstr "Entraes"
 
-#: kcm/package/contents/ui/main.qml:69
+#: kcm/package/contents/ui/Devices.qml:58
 #, kde-format
 msgctxt "@label"
 msgid "No Input Devices Available"
 msgstr "Nun hai disponibles preseos d'entrada"
 
-#: kcm/package/contents/ui/main.qml:73
+#: kcm/package/contents/ui/main.qml:38
+#, kde-format
+msgid "This module allows to set up the Pulseaudio sound subsystem."
+msgstr "Esti módulu permítete configurar el sosistema de soníu de PulseAudio."
+
+#: kcm/package/contents/ui/main.qml:64
 #, kde-format
 msgctxt "@title:tab"
-msgid "Configuration"
-msgstr "Configuración"
+msgid "Devices"
+msgstr "Preseos"
 
-#: kcm/package/contents/ui/main.qml:76
+#: kcm/package/contents/ui/main.qml:68
 #, kde-format
-msgctxt "@label"
-msgid "No Additional Configuration Available"
-msgstr "Nun hai disponible una configuración adicional"
+msgctxt "@title:tab"
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#: kcm/package/contents/ui/main.qml:72
+#, kde-format
+msgctxt "@title:tab"
+msgid "Advanced"
+msgstr "Avanzao"
 
 #: kcm/package/contents/ui/MuteButton.qml:28
 #, kde-format
 msgid "Mute audio"
-msgstr ""
+msgstr "Silencia audiu"
 
 #: kcm/package/contents/ui/StreamListItem.qml:59
 #, kde-format
 msgid "Notification Sounds"
-msgstr ""
+msgstr "Soníos d'avisu"
 
 #: kcm/package/contents/ui/StreamListItem.qml:61
 #, kde-format
@@ -156,9 +198,7 @@ msgid "%1: %2"
 msgstr "%1: %2"
 
 #: kcm/package/contents/ui/VolumeSlider.qml:88
-#, fuzzy, kde-format
-#| msgctxt "only used for sizing, should be widest possible string"
-#| msgid "100%"
+#, kde-format
 msgid "100%"
 msgstr "100%"
 
