@@ -148,17 +148,30 @@ msgctxt "KGAPI2::AccountInfoFetchJob|"
 msgid "Invalid response content type"
 msgstr "Rempuesta non válida de la triba de conteníu"
 
-#: src/core/authjob.cpp:181
+#: src/core/accountmanager.cpp:108
+msgctxt "KGAPI2::AccountManager|"
+msgid "Failed to authenticate additional scopes"
+msgstr ""
+
+#: src/core/accountmanager.cpp:199 src/core/accountmanager.cpp:231
+#, fuzzy
+#| msgctxt "AuthWidget::Private|"
+#| msgid "Failed to obtain token."
+msgctxt "KGAPI2::AccountManager|"
+msgid "Failed to open account store"
+msgstr "Fallu al consiguir el pase."
+
+#: src/core/authjob.cpp:182
 msgctxt "KGAPI2::AuthJob|"
 msgid "Failed to parse newly fetched tokens"
 msgstr ""
 
-#: src/core/authjob.cpp:228
+#: src/core/authjob.cpp:229
 msgctxt "KGAPI2::AuthJob|"
 msgid "Account name is empty"
 msgstr "El nome de cuenta ta baleru"
 
-#: src/core/authjob.cpp:250
+#: src/core/authjob.cpp:251
 msgctxt "KGAPI2::AuthJob|"
 msgid "Authentication canceled"
 msgstr ""
@@ -262,17 +275,17 @@ msgctxt "KGAPI2::NewTokensFetchJob|"
 msgid "Failed to parse server response."
 msgstr "Fallu al analizar la rempuesta del sirvidor"
 
-#: src/core/ui/authwidget.cpp:91
+#: src/core/ui/authwidget.cpp:99
 msgctxt "KGAPI2::AuthWidget|"
 msgid "Invalid account"
 msgstr "Cuenta non válida"
 
-#: src/core/ui/authwidget.cpp:95
+#: src/core/ui/authwidget.cpp:103
 msgctxt "KGAPI2::AuthWidget|"
 msgid "No scopes to authenticate for"
 msgstr ""
 
-#: src/core/ui/authwidget.cpp:107
+#: src/core/ui/authwidget.cpp:115
 msgctxt "KGAPI2::AuthWidget|"
 msgid "Could not start oauth http server"
 msgstr ""
@@ -285,18 +298,18 @@ msgctxt "KGAPI2::AuthWidgetPrivate|"
 msgid "Authorizing token. This should take just a moment..."
 msgstr "Autorizando pase. Esto namái debería entardar un momentu..."
 
-#: src/core/ui/authwidget_p.cpp:267
+#: src/core/ui/authwidget_p.cpp:287
 #, qt-format
 msgctxt "KGAPI2::AuthWidgetPrivate|"
 msgid "Error receiving response: %1"
 msgstr ""
 
-#: src/core/ui/authwidget_p.cpp:287
+#: src/core/ui/authwidget_p.cpp:307
 msgctxt "KGAPI2::AuthWidgetPrivate|"
 msgid "Token response invalid"
 msgstr ""
 
-#: src/core/ui/authwidget_p.cpp:302
+#: src/core/ui/authwidget_p.cpp:322
 msgctxt "KGAPI2::AuthWidgetPrivate|"
 msgid "Could not extract token from HTTP answer"
 msgstr ""
@@ -331,7 +344,7 @@ msgctxt "KGAPI2::Drive::FileAbstractModifyJob|"
 msgid "Invalid response content type"
 msgstr "Rempuesta non válida de la triba de conteníu"
 
-#: src/drive/fileabstractuploadjob.cpp:328
+#: src/drive/fileabstractuploadjob.cpp:335
 msgctxt "KGAPI2::Drive::FileAbstractUploadJob|"
 msgid "Invalid response content type"
 msgstr "Rempuesta non válida de la triba de conteníu"
@@ -436,10 +449,3 @@ msgstr "Rempuesta non válida de la triba de conteníu"
 #~ msgctxt "KGAPI2::AuthWidgetPrivate|"
 #~ msgid "Parsing token page failed."
 #~ msgstr "Falló l'analís del pase de la páxina."
-
-#, fuzzy
-#~| msgctxt "AuthWidget::Private|"
-#~| msgid "Failed to obtain token."
-#~ msgctxt "KGAPI2::AuthWidgetPrivate|"
-#~ msgid "Failed to obtain token."
-#~ msgstr "Fallu al consiguir el pase."
