@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-02 03:39+0200\n"
+"POT-Creation-Date: 2018-06-04 03:30+0200\n"
 "PO-Revision-Date: 2017-09-04 18:05+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -4278,14 +4278,14 @@ msgstr "Nun tienes permisu p'acceder al protocolu %1."
 msgid " days"
 msgstr " días"
 
-#: ioslaves/trash/kcmtrash.cpp:221
+#: ioslaves/trash/kcmtrash.cpp:222
 #, kde-format
 msgid ""
 "<para>KDE's wastebin is configured to use the <b>Finder</b>'s Trash.<br></"
 "para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:223
+#: ioslaves/trash/kcmtrash.cpp:224
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4295,12 +4295,12 @@ msgid ""
 "the Trash can.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:258
+#: ioslaves/trash/kcmtrash.cpp:261
 #, kde-format
-msgid "Delete files older than:"
+msgid "Delete files older than"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:260
+#: ioslaves/trash/kcmtrash.cpp:263
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4310,14 +4310,14 @@ msgid ""
 "items after a certain timespan</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:267
+#: ioslaves/trash/kcmtrash.cpp:270
 #, kde-format
 msgid " day"
 msgid_plural " days"
 msgstr[0] " día"
 msgstr[1] " díes"
 
-#: ioslaves/trash/kcmtrash.cpp:269
+#: ioslaves/trash/kcmtrash.cpp:272
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4325,12 +4325,17 @@ msgid ""
 "older than this will be automatically deleted.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:277
+#: ioslaves/trash/kcmtrash.cpp:276
 #, kde-format
-msgid "Limit to maximum size"
+msgid "Cleanup:"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:279
+#: ioslaves/trash/kcmtrash.cpp:280
+#, kde-format
+msgid "Limit to"
+msgstr ""
+
+#: ioslaves/trash/kcmtrash.cpp:282
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4338,7 +4343,12 @@ msgid ""
 "that you specify below. Otherwise, it will be unlimited.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:297
+#: ioslaves/trash/kcmtrash.cpp:285 widgets/kpropertiesdialog.cpp:1084
+#, kde-format
+msgid "Size:"
+msgstr "Tamañu:"
+
+#: ioslaves/trash/kcmtrash.cpp:294
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4348,7 +4358,7 @@ msgstr ""
 "<para>Esti ye'l porcentaxe máximu d'espaciu en discu que s'usará pa la "
 "papelera.</para>"
 
-#: ioslaves/trash/kcmtrash.cpp:302
+#: ioslaves/trash/kcmtrash.cpp:299
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4358,32 +4368,24 @@ msgstr ""
 "<para>Esta ye la cantidá calculada d'espaciu que s'almitirá pa la papelera, "
 "el máximu.</para>"
 
+#: ioslaves/trash/kcmtrash.cpp:304
+#, fuzzy, kde-format
+#| msgctxt "Warning about executing unknown .desktop file"
+#| msgid "Warning"
+msgid "Show a Warning"
+msgstr "Alvertencia"
+
 #: ioslaves/trash/kcmtrash.cpp:305
-#, kde-format
-msgid "Maximum size:"
-msgstr "Tamañu máximu:"
-
-#: ioslaves/trash/kcmtrash.cpp:307
-#, kde-format
-msgid "When limit reached:"
-msgstr "Al algamar la llende:"
-
-#: ioslaves/trash/kcmtrash.cpp:311
-#, kde-format
-msgid "Warn Me"
-msgstr "Alvertime"
-
-#: ioslaves/trash/kcmtrash.cpp:312
 #, kde-format
 msgid "Delete Oldest Files From Trash"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:313
+#: ioslaves/trash/kcmtrash.cpp:306
 #, kde-format
 msgid "Delete Biggest Files From Trash"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:315
+#: ioslaves/trash/kcmtrash.cpp:308
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4391,6 +4393,13 @@ msgid ""
 "files that you specify, first. If this is set to warn you, it will do so "
 "instead of automatically deleting files.</para>"
 msgstr ""
+
+#: ioslaves/trash/kcmtrash.cpp:310
+#, fuzzy, kde-format
+#| msgctxt "KFile System Bookmarks"
+#| msgid "Trash"
+msgid "Full Trash:"
+msgstr "Papelera"
 
 #: ioslaves/trash/kio_trash.cpp:110 ioslaves/trash/kio_trash.cpp:153
 #: ioslaves/trash/kio_trash.cpp:203 ioslaves/trash/kio_trash.cpp:359
@@ -7429,11 +7438,6 @@ msgstr "Conteníos:"
 msgid "Location:"
 msgstr "Allugamientu:"
 
-#: widgets/kpropertiesdialog.cpp:1084
-#, kde-format
-msgid "Size:"
-msgstr "Tamañu:"
-
 #: widgets/kpropertiesdialog.cpp:1101
 #, kde-format
 msgid "Stop"
@@ -8500,6 +8504,15 @@ msgid ""
 msgstr ""
 "L'agospiu remotu nun unvió dengún certificáu SSL.\n"
 "Albortando porque nun pue afitase la identidá l'agospiu."
+
+#~ msgid "Maximum size:"
+#~ msgstr "Tamañu máximu:"
+
+#~ msgid "When limit reached:"
+#~ msgstr "Al algamar la llende:"
+
+#~ msgid "Warn Me"
+#~ msgstr "Alvertime"
 
 #~ msgid "Do you really want to delete this item?"
 #~ msgid_plural "Do you really want to delete these %1 items?"
