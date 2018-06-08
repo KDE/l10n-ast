@@ -29,7 +29,7 @@ msgctxt "AtCore|"
 msgid "No plugin found for %1."
 msgstr ""
 
-#: src/core/atcore.cpp:224
+#: src/core/atcore.cpp:225
 msgctxt "AtCore|"
 msgid "Failed to open device in read/write mode."
 msgstr ""
@@ -1173,12 +1173,36 @@ msgctxt "CommandWidget|"
 msgid "Show Message"
 msgstr ""
 
-#: src/widgets/logwidget.cpp:34
+#: src/widgets/logwidget.cpp:45
+msgctxt "LogWidget|"
+msgid ""
+"                        <h4>Special Log Entries</h4>                         "
+"<p><strong>Failed to open device in read/write mode.</strong></"
+"p>                         <p>&nbsp;&nbsp;&nbsp; The Device was not able to "
+"be opened.</p>                         <p>&nbsp; &nbsp; &nbsp;&nbsp; Check "
+"the device is not opened by another program.</p>                         "
+"<p>&nbsp; &nbsp; &nbsp;&nbsp; Check you have the correct permissions to open "
+"the device.</p>                         <p><strong>No plugin found for &lt;"
+"Detected Firmware&gt;</strong></p>                         <p>&nbsp;&nbsp;"
+"&nbsp; Firmware plugins are missing or your firmware is not currently "
+"supported.</p>                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "
+"Manually select the Marlin or Repetier plugin.</p>                         "
+"<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If your firmware does not have a plugin "
+"please let us know.</p>                         <p><strong>Lots of &ldquo;"
+"Waiting for firmware detect&rdquo;</strong></p>                         "
+"<p>&nbsp;&nbsp;&nbsp; Unable to send the firmware detect waiting for printer "
+"to restart</p>                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "
+"Push the restart button on your printer or turn it on and off. </"
+"p>                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select a "
+"firmware plugin in place of auto detect.</p>"
+msgstr ""
+
+#: src/widgets/logwidget.cpp:64
 msgctxt "LogWidget|"
 msgid "Save Session Log"
 msgstr ""
 
-#: src/widgets/logwidget.cpp:94
+#: src/widgets/logwidget.cpp:151
 msgctxt "LogWidget|"
 msgid "Save Log to file"
 msgstr ""
@@ -1228,29 +1252,9 @@ msgctxt "MovementWidget|"
 msgid "Go"
 msgstr ""
 
-#: src/widgets/plotwidget.cpp:38
+#: src/widgets/plotwidget.cpp:36
 msgctxt "PlotWidget|"
 msgid "Temp."
-msgstr ""
-
-#: src/widgets/plotwidget.cpp:49
-msgctxt "PlotWidget|"
-msgid "Actual Bed"
-msgstr ""
-
-#: src/widgets/plotwidget.cpp:50
-msgctxt "PlotWidget|"
-msgid "Target Bed"
-msgstr ""
-
-#: src/widgets/plotwidget.cpp:52
-msgctxt "PlotWidget|"
-msgid "Actual Ext.1"
-msgstr ""
-
-#: src/widgets/plotwidget.cpp:53
-msgctxt "PlotWidget|"
-msgid "Target Ext.1"
 msgstr ""
 
 #: src/widgets/printwidget.cpp:32
@@ -1358,132 +1362,132 @@ msgstr ""
 
 #: testclient/mainwindow.cpp:60
 msgctxt "MainWindow|"
-msgid "Actual Bed"
-msgstr ""
-
-#: testclient/mainwindow.cpp:65
-msgctxt "MainWindow|"
-msgid "Target Bed"
-msgstr ""
-
-#: testclient/mainwindow.cpp:70
-msgctxt "MainWindow|"
-msgid "Actual Ext.1"
-msgstr ""
-
-#: testclient/mainwindow.cpp:75
-msgctxt "MainWindow|"
-msgid "Target Ext.1"
-msgstr ""
-
-#: testclient/mainwindow.cpp:82
-msgctxt "MainWindow|"
 msgid "File"
 msgstr ""
 
-#: testclient/mainwindow.cpp:83
+#: testclient/mainwindow.cpp:61
 msgctxt "MainWindow|"
 msgid "Quit"
 msgstr ""
 
-#: testclient/mainwindow.cpp:87
+#: testclient/mainwindow.cpp:65
 msgctxt "MainWindow|"
 msgid "View"
 msgstr ""
 
-#: testclient/mainwindow.cpp:88
+#: testclient/mainwindow.cpp:66
 msgctxt "MainWindow|"
 msgid "Show Dock Titles"
 msgstr ""
 
-#: testclient/mainwindow.cpp:94
+#: testclient/mainwindow.cpp:72
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr ""
 
-#: testclient/mainwindow.cpp:95
+#: testclient/mainwindow.cpp:73
 msgctxt "MainWindow|"
 msgid "About"
 msgstr ""
 
-#: testclient/mainwindow.cpp:159
+#: testclient/mainwindow.cpp:137
 msgctxt "MainWindow|"
 msgid "Commands"
 msgstr ""
 
-#: testclient/mainwindow.cpp:185
+#: testclient/mainwindow.cpp:163
 msgctxt "MainWindow|"
 msgid "Print"
 msgstr ""
 
-#: testclient/mainwindow.cpp:195
+#: testclient/mainwindow.cpp:174 testclient/mainwindow.cpp:177
+msgctxt "MainWindow|"
+msgid "Actual Bed"
+msgstr ""
+
+#: testclient/mainwindow.cpp:180 testclient/mainwindow.cpp:183
+msgctxt "MainWindow|"
+msgid "Target Bed"
+msgstr ""
+
+#: testclient/mainwindow.cpp:186 testclient/mainwindow.cpp:189
+msgctxt "MainWindow|"
+msgid "Actual Ext.1"
+msgstr ""
+
+#: testclient/mainwindow.cpp:192 testclient/mainwindow.cpp:195
+msgctxt "MainWindow|"
+msgid "Target Ext.1"
+msgstr ""
+
+#: testclient/mainwindow.cpp:198
 msgctxt "MainWindow|"
 msgid "Temperature Timeline"
 msgstr ""
 
-#: testclient/mainwindow.cpp:204
+#: testclient/mainwindow.cpp:207
 msgctxt "MainWindow|"
 msgid "Session Log"
 msgstr ""
 
-#: testclient/mainwindow.cpp:214
+#: testclient/mainwindow.cpp:217
 msgctxt "MainWindow|"
 msgid "Port:"
 msgstr ""
 
-#: testclient/mainwindow.cpp:224
+#: testclient/mainwindow.cpp:227
 msgctxt "MainWindow|"
 msgid "Baud Rate:"
 msgstr ""
 
-#: testclient/mainwindow.cpp:234
+#: testclient/mainwindow.cpp:237
 msgctxt "MainWindow|"
 msgid "Use Plugin:"
 msgstr ""
 
-#: testclient/mainwindow.cpp:236 testclient/mainwindow.cpp:418
-#: testclient/mainwindow.cpp:472
+#: testclient/mainwindow.cpp:239 testclient/mainwindow.cpp:421
+#: testclient/mainwindow.cpp:475
 msgctxt "MainWindow|"
 msgid "Autodetect"
 msgstr ""
 
-#: testclient/mainwindow.cpp:245 testclient/mainwindow.cpp:252
-#: testclient/mainwindow.cpp:428
+#: testclient/mainwindow.cpp:248 testclient/mainwindow.cpp:255
+#: testclient/mainwindow.cpp:431
 msgctxt "MainWindow|"
 msgid "Connect"
 msgstr ""
 
-#: testclient/mainwindow.cpp:264
+#: testclient/mainwindow.cpp:267
 msgctxt "MainWindow|"
 msgid "Home All"
 msgstr ""
 
-#: testclient/mainwindow.cpp:269
+#: testclient/mainwindow.cpp:272
 msgctxt "MainWindow|"
 msgid "Home X"
 msgstr ""
 
-#: testclient/mainwindow.cpp:274
+#: testclient/mainwindow.cpp:277
 msgctxt "MainWindow|"
 msgid "Home Y"
 msgstr ""
 
-#: testclient/mainwindow.cpp:279
+#: testclient/mainwindow.cpp:282
 msgctxt "MainWindow|"
 msgid "Home Z"
 msgstr ""
 
-#: testclient/mainwindow.cpp:298
+#: testclient/mainwindow.cpp:301
 msgctxt "MainWindow|"
 msgid "Movement"
 msgstr ""
 
-#: testclient/mainwindow.cpp:311
+#: testclient/mainwindow.cpp:314
 msgctxt "MainWindow|"
 msgid "Temperatures"
 msgstr ""
 
-#: testclient/mainwindow.cpp:325
+#: testclient/mainwindow.cpp:328
 #, fuzzy
 #| msgctxt "MainWindow|"
 #| msgid "Error"
@@ -1491,58 +1495,58 @@ msgctxt "MainWindow|"
 msgid "Print Error"
 msgstr "Fallu"
 
-#: testclient/mainwindow.cpp:325 testclient/mainwindow.cpp:333
+#: testclient/mainwindow.cpp:328 testclient/mainwindow.cpp:336
 msgctxt "MainWindow|"
 msgid "You must Select a file from the list"
 msgstr ""
 
-#: testclient/mainwindow.cpp:333
+#: testclient/mainwindow.cpp:336
 msgctxt "MainWindow|"
 msgid "Delete Error"
 msgstr ""
 
-#: testclient/mainwindow.cpp:339
+#: testclient/mainwindow.cpp:342
 msgctxt "MainWindow|"
 msgid "Sd Card"
 msgstr ""
 
-#: testclient/mainwindow.cpp:401
+#: testclient/mainwindow.cpp:404
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Found %1 Ports"
 msgstr ""
 
-#: testclient/mainwindow.cpp:403
+#: testclient/mainwindow.cpp:406
 msgctxt "MainWindow|"
 msgid "No available ports! Please connect a serial device to continue!"
 msgstr ""
 
-#: testclient/mainwindow.cpp:416
+#: testclient/mainwindow.cpp:419
 msgctxt "MainWindow|"
 msgid "Disconnect"
 msgstr ""
 
-#: testclient/mainwindow.cpp:417
+#: testclient/mainwindow.cpp:420
 msgctxt "MainWindow|"
 msgid "Serial connected"
 msgstr ""
 
-#: testclient/mainwindow.cpp:427
+#: testclient/mainwindow.cpp:430
 msgctxt "MainWindow|"
 msgid "Disconnected"
 msgstr ""
 
-#: testclient/mainwindow.cpp:438 testclient/mainwindow.cpp:442
+#: testclient/mainwindow.cpp:441 testclient/mainwindow.cpp:445
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Fallu"
 
-#: testclient/mainwindow.cpp:438
+#: testclient/mainwindow.cpp:441
 msgctxt "MainWindow|"
 msgid "Not Connected To a Printer"
 msgstr ""
 
-#: testclient/mainwindow.cpp:442
+#: testclient/mainwindow.cpp:445
 msgctxt "MainWindow|"
 msgid ""
 " A Firmware Plugin was not loaded!\n"
@@ -1551,73 +1555,73 @@ msgid ""
 "plugin \"repetier\" for you. You may try to print again after this message"
 msgstr ""
 
-#: testclient/mainwindow.cpp:447
+#: testclient/mainwindow.cpp:450
 msgctxt "MainWindow|"
 msgid "Select a file to print"
 msgstr ""
 
-#: testclient/mainwindow.cpp:447
+#: testclient/mainwindow.cpp:450
 msgctxt "MainWindow|"
 msgid "*.gcode"
 msgstr ""
 
-#: testclient/mainwindow.cpp:449
+#: testclient/mainwindow.cpp:452
 msgctxt "MainWindow|"
 msgid "No File Selected"
 msgstr ""
 
-#: testclient/mainwindow.cpp:451
+#: testclient/mainwindow.cpp:454
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Print: %1"
 msgstr ""
 
-#: testclient/mainwindow.cpp:483 testclient/mainwindow.cpp:495
+#: testclient/mainwindow.cpp:486 testclient/mainwindow.cpp:498
 msgctxt "MainWindow|"
 msgid "Print File"
 msgstr ""
 
-#: testclient/mainwindow.cpp:484
+#: testclient/mainwindow.cpp:487
 msgctxt "MainWindow|"
 msgid "Connected to "
 msgstr ""
 
-#: testclient/mainwindow.cpp:488
+#: testclient/mainwindow.cpp:491
 msgctxt "MainWindow|"
 msgid "START PRINT"
 msgstr ""
 
-#: testclient/mainwindow.cpp:489 testclient/mainwindow.cpp:506
+#: testclient/mainwindow.cpp:492 testclient/mainwindow.cpp:509
 msgctxt "MainWindow|"
 msgid "Pause Print"
 msgstr ""
 
-#: testclient/mainwindow.cpp:494
+#: testclient/mainwindow.cpp:497
 msgctxt "MainWindow|"
 msgid "Finished Print"
 msgstr ""
 
-#: testclient/mainwindow.cpp:500
+#: testclient/mainwindow.cpp:503
 msgctxt "MainWindow|"
 msgid "Paused"
 msgstr ""
 
-#: testclient/mainwindow.cpp:501
+#: testclient/mainwindow.cpp:504
 msgctxt "MainWindow|"
 msgid "Resume Print"
 msgstr ""
 
-#: testclient/mainwindow.cpp:505
+#: testclient/mainwindow.cpp:508
 msgctxt "MainWindow|"
 msgid "Printing"
 msgstr ""
 
-#: testclient/mainwindow.cpp:520
+#: testclient/mainwindow.cpp:523
 msgctxt "MainWindow|"
 msgid "Stopping Print"
 msgstr ""
 
-#: testclient/mainwindow.cpp:524
+#: testclient/mainwindow.cpp:527
 msgctxt "MainWindow|"
 msgid "Command ERROR"
 msgstr ""
