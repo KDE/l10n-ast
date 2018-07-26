@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-12 03:32+0200\n"
+"POT-Creation-Date: 2018-07-26 03:40+0200\n"
 "PO-Revision-Date: 2017-09-03 17:25+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -27,16 +27,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
-#: core/device.cpp:38
+#: core/device.cpp:42
 #, kde-format
 msgid "Unknown Device"
 msgstr "Preséu desconocíu"
 
-#: core/device.cpp:87
+#: core/device.cpp:91
 #, kde-kuit-format
 msgctxt "@item:inlistbox Device name – Capacity (device node)"
 msgid "%1 – %2 (%3)"
 msgstr "%1 – %2 (%3)"
+
+#: core/lvmdevice.cpp:369
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "An error occurred while running lvdisplay."
+msgstr ""
 
 #: core/operationstack.cpp:110
 #, kde-kuit-format
@@ -336,10 +342,28 @@ msgctxt "@item partition flag"
 msgid "esp"
 msgstr "esp"
 
-#: core/partitiontable.cpp:485
+#: core/partitiontable.cpp:493
 #, kde-kuit-format
 msgctxt "@item partition table name"
 msgid "unknown"
+msgstr ""
+
+#: core/raid/softwareraid.cpp:101
+#, kde-kuit-format
+msgctxt "@item:inlistbox [RAID level]"
+msgid " [RAID %1]"
+msgstr ""
+
+#: core/raid/softwareraid.cpp:103
+#, kde-kuit-format
+msgctxt "@item:inlistbox [RAID level - Recovering]"
+msgid " [RAID %1 - Recovering]"
+msgstr ""
+
+#: core/raid/softwareraid.cpp:105
+#, kde-kuit-format
+msgctxt "@item:inlistbox [RAID level - Resyncing]"
+msgid " [RAID %1 - Resyncing]"
 msgstr ""
 
 #: core/smartattribute.cpp:54
@@ -1308,103 +1332,103 @@ msgctxt "SMART attr description"
 msgid "Number of &quot;Free Fall Events&quot; detected"
 msgstr ""
 
-#: core/smartstatus.cpp:198
+#: core/smartstatus.cpp:84
 #, kde-kuit-format
 msgctxt "@item:intable degrees in Celsius and Fahrenheit"
 msgid "%1° C / %2° F"
 msgstr "%1° C / %2° F"
 
-#: core/smartstatus.cpp:205
+#: core/smartstatus.cpp:92
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Aborted"
 msgstr ""
 
-#: core/smartstatus.cpp:208
+#: core/smartstatus.cpp:95
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Interrupted"
 msgstr ""
 
-#: core/smartstatus.cpp:211
+#: core/smartstatus.cpp:98
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Fatal error"
 msgstr "Fallu fatal"
 
-#: core/smartstatus.cpp:214
+#: core/smartstatus.cpp:101
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Unknown error"
 msgstr "Fallu desconocíu"
 
-#: core/smartstatus.cpp:217
+#: core/smartstatus.cpp:104
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Electrical error"
 msgstr "Fallu llétricu"
 
-#: core/smartstatus.cpp:220
+#: core/smartstatus.cpp:107
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Servo error"
 msgstr ""
 
-#: core/smartstatus.cpp:223
+#: core/smartstatus.cpp:110
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Read error"
 msgstr "Fallu de llectura"
 
-#: core/smartstatus.cpp:226
+#: core/smartstatus.cpp:113
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Handling error"
 msgstr ""
 
-#: core/smartstatus.cpp:229
+#: core/smartstatus.cpp:116
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Self test in progress"
 msgstr ""
 
-#: core/smartstatus.cpp:233
+#: core/smartstatus.cpp:120
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Success"
 msgstr ""
 
-#: core/smartstatus.cpp:242
+#: core/smartstatus.cpp:129
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Healthy"
 msgstr ""
 
-#: core/smartstatus.cpp:245
+#: core/smartstatus.cpp:132
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has been used outside of its design parameters in the past."
 msgstr ""
 
-#: core/smartstatus.cpp:248
+#: core/smartstatus.cpp:135
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has some bad sectors."
 msgstr "Tien dellos seutores malos."
 
-#: core/smartstatus.cpp:251
+#: core/smartstatus.cpp:138
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Is being used outside of its design parameters right now."
 msgstr "Nesti momentu ta usándose fuera los sos parámetros de diseñu."
 
-#: core/smartstatus.cpp:254
+#: core/smartstatus.cpp:141
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has many bad sectors."
 msgstr "Tien munchos seutores malos."
 
-#: core/smartstatus.cpp:258
+#: core/smartstatus.cpp:145
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Disk failure is imminent. Backup all data!"
@@ -1448,163 +1472,163 @@ msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr ""
 
-#: fs/filesystem.cpp:397
+#: fs/filesystem.cpp:419
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr ""
 
-#: fs/filesystem.cpp:398
+#: fs/filesystem.cpp:420
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
 msgstr ""
 
-#: fs/filesystem.cpp:400
+#: fs/filesystem.cpp:422
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:401
+#: fs/filesystem.cpp:423
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:402
+#: fs/filesystem.cpp:424
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:403
+#: fs/filesystem.cpp:425
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr ""
 
-#: fs/filesystem.cpp:404
+#: fs/filesystem.cpp:426
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:405
+#: fs/filesystem.cpp:427
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:406
+#: fs/filesystem.cpp:428
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:407
+#: fs/filesystem.cpp:429
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:408
+#: fs/filesystem.cpp:430
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:409
+#: fs/filesystem.cpp:431
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:410
+#: fs/filesystem.cpp:432
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:411
+#: fs/filesystem.cpp:433
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:412
+#: fs/filesystem.cpp:434
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr " "
 
-#: fs/filesystem.cpp:413
+#: fs/filesystem.cpp:435
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:414
+#: fs/filesystem.cpp:436
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "ensin formatiar"
 
-#: fs/filesystem.cpp:415
+#: fs/filesystem.cpp:437
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:416
+#: fs/filesystem.cpp:438
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:417
+#: fs/filesystem.cpp:439
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:418
+#: fs/filesystem.cpp:440
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:419
+#: fs/filesystem.cpp:441
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:420
+#: fs/filesystem.cpp:442
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr "exfat"
 
-#: fs/filesystem.cpp:421
+#: fs/filesystem.cpp:443
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr "nilfs2"
 
-#: fs/filesystem.cpp:422
+#: fs/filesystem.cpp:444
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr "lvm2 pv"
 
-#: fs/filesystem.cpp:423
+#: fs/filesystem.cpp:445
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr "f2fs"
 
-#: fs/filesystem.cpp:424
+#: fs/filesystem.cpp:446
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item filesystem name"
 #| msgid "ufs"
@@ -1612,13 +1636,13 @@ msgctxt "@item filesystem name"
 msgid "udf"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:425
+#: fs/filesystem.cpp:447
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
 msgstr ""
 
-#: fs/filesystem.cpp:426
+#: fs/filesystem.cpp:448
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item filesystem name"
 #| msgid "luks"
@@ -1626,7 +1650,7 @@ msgctxt "@item filesystem name"
 msgid "luks2"
 msgstr "luks"
 
-#: fs/filesystem.cpp:427
+#: fs/filesystem.cpp:449
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item filesystem name"
 #| msgid "fat16"
@@ -1634,13 +1658,19 @@ msgctxt "@item filesystem name"
 msgid "fat12"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:471 fs/luks.cpp:161
+#: fs/filesystem.cpp:450
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "linux_raid_member"
+msgstr ""
+
+#: fs/filesystem.cpp:493 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr ""
 
-#: fs/filesystem.cpp:477 fs/luks.cpp:166
+#: fs/filesystem.cpp:499 fs/luks.cpp:166
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
@@ -1693,13 +1723,13 @@ msgstr ""
 #: fs/luks.cpp:171
 #, kde-kuit-format
 msgctxt "@title:menu"
-msgid "Decrypt"
+msgid "Unlock"
 msgstr ""
 
 #: fs/luks.cpp:176
 #, kde-kuit-format
 msgctxt "@title:menu"
-msgid "Deactivate"
+msgid "Lock"
 msgstr ""
 
 #: fs/luks.cpp:257
@@ -1707,13 +1737,13 @@ msgstr ""
 msgid "Enter passphrase for %1:"
 msgstr ""
 
-#: fs/luks.cpp:499 fs/luks.cpp:509 fs/luks2.cpp:96 fs/luks2.cpp:113
+#: fs/luks.cpp:498 fs/luks.cpp:508 fs/luks2.cpp:95 fs/luks2.cpp:112
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resizing LUKS crypt on partition <filename>%1</filename>."
 msgstr ""
 
-#: fs/luks.cpp:513 fs/luks2.cpp:124
+#: fs/luks.cpp:512 fs/luks2.cpp:123
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1752,7 +1782,7 @@ msgid ""
 "Initial mount failed."
 msgstr ""
 
-#: fs/ntfs.cpp:182
+#: fs/ntfs.cpp:181
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1761,7 +1791,7 @@ msgid ""
 msgstr ""
 "Anovando'l seutor d'arranque pa NTFS na partición <filename>%1</filename>."
 
-#: fs/ntfs.cpp:195 fs/ntfs.cpp:207
+#: fs/ntfs.cpp:195 fs/ntfs.cpp:206
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1769,7 +1799,7 @@ msgid ""
 "trying to update the NTFS boot sector."
 msgstr ""
 
-#: fs/ntfs.cpp:213
+#: fs/ntfs.cpp:210
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1832,7 +1862,7 @@ msgid ""
 "filename>"
 msgstr ""
 
-#: jobs/checkfilesystemjob.cpp:67
+#: jobs/checkfilesystemjob.cpp:57
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Check file system on partition <filename>%1</filename>"
@@ -1889,7 +1919,7 @@ msgid ""
 "filename>."
 msgstr ""
 
-#: jobs/createfilesystemjob.cpp:77
+#: jobs/createfilesystemjob.cpp:75
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1897,7 +1927,7 @@ msgid ""
 "system type for partition <filename>%2</filename>."
 msgstr ""
 
-#: jobs/createfilesystemjob.cpp:81
+#: jobs/createfilesystemjob.cpp:77
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1905,7 +1935,7 @@ msgid ""
 "partition <filename>%2</filename>."
 msgstr ""
 
-#: jobs/createfilesystemjob.cpp:95
+#: jobs/createfilesystemjob.cpp:91
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1921,7 +1951,7 @@ msgid ""
 "filename>."
 msgstr ""
 
-#: jobs/createpartitionjob.cpp:72
+#: jobs/createpartitionjob.cpp:70
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1929,7 +1959,7 @@ msgid ""
 "new partition <filename>%2</filename>."
 msgstr ""
 
-#: jobs/createpartitionjob.cpp:76
+#: jobs/createpartitionjob.cpp:72
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1937,19 +1967,19 @@ msgid ""
 "<filename>%2</filename>."
 msgstr ""
 
-#: jobs/createpartitionjob.cpp:94
+#: jobs/createpartitionjob.cpp:90
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition <filename>%1</filename>"
 msgstr ""
 
-#: jobs/createpartitionjob.cpp:96
+#: jobs/createpartitionjob.cpp:92
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition on device <filename>%1</filename>"
 msgstr ""
 
-#: jobs/createpartitiontablejob.cpp:57
+#: jobs/createpartitiontablejob.cpp:55
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1957,7 +1987,7 @@ msgid ""
 "filename>."
 msgstr ""
 
-#: jobs/createpartitiontablejob.cpp:69
+#: jobs/createpartitiontablejob.cpp:67
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition table on device <filename>%1</filename>"
@@ -1995,7 +2025,7 @@ msgctxt "@info:progress"
 msgid "Could not delete file system on <filename>%1</filename>."
 msgstr ""
 
-#: jobs/deletefilesystemjob.cpp:93
+#: jobs/deletefilesystemjob.cpp:90
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2003,7 +2033,7 @@ msgid ""
 "file system on <filename>%2</filename>."
 msgstr ""
 
-#: jobs/deletefilesystemjob.cpp:97
+#: jobs/deletefilesystemjob.cpp:93
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2011,21 +2041,19 @@ msgid ""
 "filename>: Failed to open device <filename>%2</filename>."
 msgstr ""
 
-#: jobs/deletefilesystemjob.cpp:107
+#: jobs/deletefilesystemjob.cpp:103
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete file system on <filename>%1</filename>"
 msgstr ""
 
-#: jobs/deletepartitionjob.cpp:70
-#: plugins/libparted/libpartedpartitiontable.cpp:186
-#: plugins/sfdisk/sfdiskpartitiontable.cpp:97
+#: jobs/deletepartitionjob.cpp:70 plugins/sfdisk/sfdiskpartitiontable.cpp:107
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete partition <filename>%1</filename>."
 msgstr ""
 
-#: jobs/deletepartitionjob.cpp:77
+#: jobs/deletepartitionjob.cpp:74
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2033,120 +2061,74 @@ msgid ""
 "partition <filename>%2</filename>."
 msgstr ""
 
-#: jobs/deletepartitionjob.cpp:81
+#: jobs/deletepartitionjob.cpp:76
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Deleting partition failed: Could not open device <filename>%1</filename>."
 msgstr ""
 
-#: jobs/deletepartitionjob.cpp:94
+#: jobs/deletepartitionjob.cpp:89
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete the partition <filename>%1</filename>"
 msgstr ""
 
-#: jobs/job.cpp:55
-#, kde-format
-msgctxt "direction: left"
-msgid "left"
-msgstr ""
-
-#: jobs/job.cpp:55
-#, kde-format
-msgctxt "direction: right"
-msgid "right"
-msgstr ""
-
-#: jobs/job.cpp:55
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
-msgstr ""
-
-#: jobs/job.cpp:76
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid "Copying %1 MiB/second, estimated time left: %2"
-msgstr ""
-
-#: jobs/job.cpp:90
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid "Copying remainder of block size %1 from %2 to %3."
-msgstr ""
-
-#: jobs/job.cpp:102
-#, kde-format
-msgid "1 byte"
-msgid_plural "%1 bytes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: jobs/job.cpp:102
-#, kde-kuit-format
-msgctxt ""
-"@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
-msgid "Copying 1 block (%2) finished."
-msgid_plural "Copying %1 blocks (%2) finished."
-msgstr[0] ""
-msgstr[1] ""
-
-#: jobs/job.cpp:110
+#: jobs/job.cpp:58
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Source and target for copying do not overlap: Rollback is not required."
 msgstr ""
 
-#: jobs/job.cpp:134
+#: jobs/job.cpp:82
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback from: First byte: %1, last byte: %2."
 msgstr ""
 
-#: jobs/job.cpp:135
+#: jobs/job.cpp:83
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback to: First byte: %1, last byte: %2."
 msgstr ""
 
-#: jobs/job.cpp:139 jobs/job.cpp:145
+#: jobs/job.cpp:87 jobs/job.cpp:93
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open device <filename>%1</filename> to rollback copying."
 msgstr ""
 
-#: jobs/job.cpp:151
+#: jobs/job.cpp:99
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback failed: Source or target are not devices."
 msgstr ""
 
-#: jobs/job.cpp:166
+#: jobs/job.cpp:119
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Job: %1"
 msgstr "Trabayu: %1"
 
-#: jobs/job.cpp:175
+#: jobs/job.cpp:128
 #, kde-kuit-format
 msgctxt "@info:progress job status (error, warning, ...)"
 msgid "%1: %2"
 msgstr "%1: %2"
 
-#: jobs/job.cpp:199
+#: jobs/job.cpp:147
 #, kde-kuit-format
 msgctxt "@info:progress job"
 msgid "Pending"
 msgstr ""
 
-#: jobs/job.cpp:200
+#: jobs/job.cpp:148
 #, kde-kuit-format
 msgctxt "@info:progress job"
 msgid "Success"
 msgstr ""
 
-#: jobs/job.cpp:201
+#: jobs/job.cpp:149
 #, kde-kuit-format
 msgctxt "@info:progress job"
 msgid "Error"
@@ -2198,7 +2180,7 @@ msgctxt "@info/plain"
 msgid "Remove Volume Group: <filename>%1</filename>"
 msgstr ""
 
-#: jobs/resizefilesystemjob.cpp:73
+#: jobs/resizefilesystemjob.cpp:75
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2210,19 +2192,19 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: jobs/resizefilesystemjob.cpp:76
+#: jobs/resizefilesystemjob.cpp:78
 #, kde-format
 msgctxt "@info:progress"
 msgid "Resizing file system from %1 to %2 sectors."
 msgstr ""
 
-#: jobs/resizefilesystemjob.cpp:83
+#: jobs/resizefilesystemjob.cpp:85
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resizing a %1 file system using internal backend functions."
 msgstr ""
 
-#: jobs/resizefilesystemjob.cpp:98
+#: jobs/resizefilesystemjob.cpp:100
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2230,14 +2212,13 @@ msgid ""
 "because there is no support for it."
 msgstr ""
 
-#: jobs/resizefilesystemjob.cpp:126
+#: jobs/resizefilesystemjob.cpp:128
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Successfully resized file system using internal backend functions."
 msgstr ""
 
 #: jobs/resizefilesystemjob.cpp:132
-#: plugins/libparted/libpartedpartitiontable.cpp:279
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2245,8 +2226,7 @@ msgid ""
 "file system."
 msgstr ""
 
-#: jobs/resizefilesystemjob.cpp:136
-#: plugins/libparted/libpartedpartitiontable.cpp:282
+#: jobs/resizefilesystemjob.cpp:135
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2254,13 +2234,13 @@ msgid ""
 "to resize the file system."
 msgstr ""
 
-#: jobs/resizefilesystemjob.cpp:144
+#: jobs/resizefilesystemjob.cpp:143
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Maximize file system on <filename>%1</filename> to fill the partition"
 msgstr ""
 
-#: jobs/resizefilesystemjob.cpp:146
+#: jobs/resizefilesystemjob.cpp:145
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resize file system on partition <filename>%2</filename> to 1 sector"
@@ -2311,7 +2291,7 @@ msgid ""
 "<filename>%2</filename>"
 msgstr ""
 
-#: jobs/setfilesystemlabeljob.cpp:50
+#: jobs/setfilesystemlabeljob.cpp:59
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2319,7 +2299,7 @@ msgid ""
 "labels. Job ignored."
 msgstr ""
 
-#: jobs/setfilesystemlabeljob.cpp:71
+#: jobs/setfilesystemlabeljob.cpp:92
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2346,7 +2326,7 @@ msgid ""
 "state %3."
 msgstr ""
 
-#: jobs/setpartflagsjob.cpp:87
+#: jobs/setpartflagsjob.cpp:85
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2354,7 +2334,7 @@ msgid ""
 "partition flags for partition <filename>%2</filename>."
 msgstr ""
 
-#: jobs/setpartflagsjob.cpp:91
+#: jobs/setpartflagsjob.cpp:87
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2362,19 +2342,19 @@ msgid ""
 "partition <filename>%2</filename>."
 msgstr ""
 
-#: jobs/setpartflagsjob.cpp:104
+#: jobs/setpartflagsjob.cpp:100
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Clear flags for partition <filename>%1</filename>"
 msgstr ""
 
-#: jobs/setpartflagsjob.cpp:106
+#: jobs/setpartflagsjob.cpp:102
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the flags for partition <filename>%1</filename> to \"%2\""
 msgstr ""
 
-#: jobs/setpartgeometryjob.cpp:78
+#: jobs/setpartgeometryjob.cpp:74
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2382,7 +2362,7 @@ msgid ""
 "partition <filename>%2</filename>."
 msgstr ""
 
-#: jobs/setpartgeometryjob.cpp:94
+#: jobs/setpartgeometryjob.cpp:90
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2447,7 +2427,7 @@ msgctxt "@info:status"
 msgid "Checking source partition <filename>%1</filename> failed."
 msgstr ""
 
-#: ops/copyoperation.cpp:180 ops/operation.cpp:171 ops/resizeoperation.cpp:181
+#: ops/copyoperation.cpp:180 ops/operation.cpp:171 ops/resizeoperation.cpp:183
 #: ops/restoreoperation.cpp:157
 #, kde-kuit-format
 msgctxt "@info:status (success, error, warning...) of operation"
@@ -2492,16 +2472,16 @@ msgctxt "@info:status"
 msgid "Create filesystem %1 on partition <filename>%2</filename>"
 msgstr ""
 
-#: ops/createpartitiontableoperation.cpp:101
+#: ops/createpartitiontableoperation.cpp:113
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition table (type: %1) on <filename>%2</filename>"
 msgstr ""
 
-#: ops/createvolumegroupoperation.cpp:45
+#: ops/createvolumegroupoperation.cpp:46
 #, kde-kuit-format
 msgctxt "@info/plain"
-msgid "Create a new LVM volume group."
+msgid "Create a new LVM volume group named '%1'."
 msgstr ""
 
 #: ops/deactivatevolumegroupoperation.cpp:45
@@ -2510,13 +2490,13 @@ msgctxt "@info/plain"
 msgid "Deactivate volume group."
 msgstr ""
 
-#: ops/deleteoperation.cpp:93
+#: ops/deleteoperation.cpp:95
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Shred partition <filename>%1</filename> (%2, %3)"
 msgstr ""
 
-#: ops/deleteoperation.cpp:95
+#: ops/deleteoperation.cpp:97
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
@@ -2564,61 +2544,61 @@ msgctxt "@info:progress operation"
 msgid "Error"
 msgstr "Fallu"
 
-#: ops/removevolumegroupoperation.cpp:42
+#: ops/removevolumegroupoperation.cpp:43
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Remove a LVM volume group."
 msgstr ""
 
-#: ops/resizeoperation.cpp:162
+#: ops/resizeoperation.cpp:164
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Moving extended partition <filename>%1</filename> failed."
 msgstr ""
 
-#: ops/resizeoperation.cpp:171
+#: ops/resizeoperation.cpp:173
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking partition <filename>%1</filename> after resize/move failed."
 msgstr ""
 
-#: ops/resizeoperation.cpp:174
+#: ops/resizeoperation.cpp:176
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resizing/moving partition <filename>%1</filename> failed."
 msgstr ""
 
-#: ops/resizeoperation.cpp:177
+#: ops/resizeoperation.cpp:179
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking partition <filename>%1</filename> before resize/move failed."
 msgstr ""
 
-#: ops/resizeoperation.cpp:207
+#: ops/resizeoperation.cpp:209
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Move partition <filename>%1</filename> to the left by %2"
 msgstr ""
 
-#: ops/resizeoperation.cpp:210
+#: ops/resizeoperation.cpp:212
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Move partition <filename>%1</filename> to the right by %2"
 msgstr ""
 
-#: ops/resizeoperation.cpp:213
+#: ops/resizeoperation.cpp:215
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Grow partition <filename>%1</filename> from %2 to %3"
 msgstr ""
 
-#: ops/resizeoperation.cpp:216
+#: ops/resizeoperation.cpp:218
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Shrink partition <filename>%1</filename> from %2 to %3"
 msgstr ""
 
-#: ops/resizeoperation.cpp:219
+#: ops/resizeoperation.cpp:221
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid ""
@@ -2626,7 +2606,7 @@ msgid ""
 "to %4"
 msgstr ""
 
-#: ops/resizeoperation.cpp:222
+#: ops/resizeoperation.cpp:224
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid ""
@@ -2634,7 +2614,7 @@ msgid ""
 "%3 to %4"
 msgstr ""
 
-#: ops/resizeoperation.cpp:225
+#: ops/resizeoperation.cpp:227
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid ""
@@ -2642,7 +2622,7 @@ msgid ""
 "%3 to %4"
 msgstr ""
 
-#: ops/resizeoperation.cpp:228
+#: ops/resizeoperation.cpp:230
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid ""
@@ -2650,13 +2630,13 @@ msgid ""
 "%3 to %4"
 msgstr ""
 
-#: ops/resizeoperation.cpp:235
+#: ops/resizeoperation.cpp:237
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Unknown resize/move action."
 msgstr ""
 
-#: ops/resizeoperation.cpp:264
+#: ops/resizeoperation.cpp:266
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
@@ -2664,19 +2644,19 @@ msgid ""
 "<filename>%1</filename>."
 msgstr ""
 
-#: ops/resizeoperation.cpp:269
+#: ops/resizeoperation.cpp:271
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resize/move failed: Could not shrink partition <filename>%1</filename>."
 msgstr ""
 
-#: ops/resizeoperation.cpp:288
+#: ops/resizeoperation.cpp:290
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Moving partition <filename>%1</filename> failed."
 msgstr ""
 
-#: ops/resizeoperation.cpp:293
+#: ops/resizeoperation.cpp:295
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
@@ -2684,7 +2664,7 @@ msgid ""
 "back."
 msgstr ""
 
-#: ops/resizeoperation.cpp:297
+#: ops/resizeoperation.cpp:299
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
@@ -2692,13 +2672,13 @@ msgid ""
 "failed."
 msgstr ""
 
-#: ops/resizeoperation.cpp:310
+#: ops/resizeoperation.cpp:312
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resize/move failed: Could not grow partition <filename>%1</filename>."
 msgstr ""
 
-#: ops/resizeoperation.cpp:315
+#: ops/resizeoperation.cpp:317
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
@@ -2706,7 +2686,7 @@ msgid ""
 "%1</filename>"
 msgstr ""
 
-#: ops/resizeoperation.cpp:318
+#: ops/resizeoperation.cpp:320
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
@@ -2778,78 +2758,26 @@ msgctxt "@info:status"
 msgid "Set flags for partition <filename>%1</filename> to \"%2\""
 msgstr ""
 
-#: plugins/libparted/libpartedbackend.cpp:70
+#: plugins/sfdisk/sfdiskbackend.cpp:158
 #, kde-kuit-format
 msgctxt "@info:status"
-msgid "LibParted Exception: %1"
+msgid "Software RAID Device found: %1"
 msgstr ""
 
-#: plugins/libparted/libpartedbackend.cpp:392
+#: plugins/sfdisk/sfdiskbackend.cpp:173
 #, kde-kuit-format
 msgctxt "@info:status"
-msgid "Could not access device <filename>%1</filename>"
+msgid "Disk Device found: %1"
 msgstr ""
 
-#: plugins/libparted/libpartedbackend.cpp:393
-#, kde-kuit-format
-msgctxt "@info:status"
-msgid "Checking if this device is LVM VG"
-msgstr ""
-
-#: plugins/libparted/libpartedbackend.cpp:412
-#: plugins/sfdisk/sfdiskbackend.cpp:138
-#, kde-kuit-format
-msgctxt "@info:status"
-msgid "Device found: %1"
-msgstr ""
-
-#: plugins/libparted/libparteddevice.cpp:93
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid ""
-"Creating partition table failed: Could not retrieve partition table type "
-"\"%1\" for <filename>%2</filename>."
-msgstr ""
-
-#: plugins/libparted/libparteddevice.cpp:100
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid ""
-"Creating partition table failed: Could not open backend device <filename>%1</"
-"filename>."
-msgstr ""
-
-#: plugins/libparted/libparteddevice.cpp:107
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid ""
-"Creating partition table failed: Could not create a new partition table in "
-"the backend for device <filename>%1</filename>."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:132
-#: plugins/sfdisk/sfdiskpartitiontable.cpp:67
+#: plugins/sfdisk/sfdiskpartitiontable.cpp:72
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Unknown partition role for new partition <filename>%1</filename> (roles: %2)"
 msgstr ""
 
-#: plugins/libparted/libpartedpartitiontable.cpp:141
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid "Failed to create new partition <filename>%1</filename>."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:153
-#, kde-format
-msgctxt "@info:progress"
-msgid ""
-"Failed to create a new partition: could not get geometry for constraint."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:163
-#: plugins/sfdisk/sfdiskpartitiontable.cpp:86
+#: plugins/sfdisk/sfdiskpartitiontable.cpp:96
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2857,16 +2785,7 @@ msgid ""
 "filename>."
 msgstr ""
 
-#: plugins/libparted/libpartedpartitiontable.cpp:188
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid ""
-"Deleting partition failed: Partition to delete (<filename>%1</filename>) not "
-"found on disk."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:209
-#: plugins/sfdisk/sfdiskpartitiontable.cpp:111
+#: plugins/sfdisk/sfdiskpartitiontable.cpp:121
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2874,100 +2793,19 @@ msgid ""
 "resize/move it."
 msgstr ""
 
-#: plugins/libparted/libpartedpartitiontable.cpp:212
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid ""
-"Could not get constraint for partition <filename>%1</filename> while trying "
-"to resize/move it."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:215
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid ""
-"Could not get geometry for partition <filename>%1</filename> while trying to "
-"resize/move it."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:217
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid ""
-"Could not open partition <filename>%1</filename> while trying to resize/move "
-"it."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:240
-#: plugins/sfdisk/sfdiskpartitiontable.cpp:121
+#: plugins/sfdisk/sfdiskpartitiontable.cpp:131
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Failed to erase filesystem signature on partition <filename>%1</filename>."
 msgstr ""
 
-#: plugins/libparted/libpartedpartitiontable.cpp:247
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid ""
-"Could not delete file system on partition <filename>%1</filename>: Failed to "
-"get partition."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:272
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid "Could not resize file system on partition <filename>%1</filename>."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:275
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid ""
-"Could not get geometry for resized partition <filename>%1</filename> while "
-"trying to resize the file system."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:301
-#: plugins/sfdisk/sfdiskpartitiontable.cpp:154
+#: plugins/sfdisk/sfdiskpartitiontable.cpp:164
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not determine file system of partition at sector %1 on device "
 "<filename>%2</filename>."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:311
-#: plugins/libparted/libpartedpartitiontable.cpp:318
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid "Could not update the system type for partition <filename>%1</filename>."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:312
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid "No file system defined."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:319
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid "No partition found at sector %1."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:335
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid ""
-"Could not find partition <filename>%1</filename> on device <filename>%2</"
-"filename> to set partition flags."
-msgstr ""
-
-#: plugins/libparted/libpartedpartitiontable.cpp:343
-#, kde-kuit-format
-msgctxt "@info:progress"
-msgid "The flag \"%1\" is not available on the partition's partition table."
 msgstr ""
 
 #: util/capacity.cpp:111
@@ -3032,29 +2870,139 @@ msgctxt "@item:intext unit"
 msgid "(unknown unit)"
 msgstr ""
 
-#: util/externalcommand.cpp:78
+#: util/externalcommand.cpp:82
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Could not obtain administrator privileges."
+msgstr ""
+
+#: util/externalcommand.cpp:123
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
 msgstr "Comandu: %1 %2"
 
-#: util/externalcommand.cpp:84
+#: util/externalcommand.cpp:346
 #, kde-kuit-format
-msgctxt "@info:status"
-msgid "(Command timeout while starting)"
+msgid "QCA does not support RSA."
 msgstr ""
 
-#: util/externalcommand.cpp:101
+#: util/externalcommand.cpp:353
 #, kde-kuit-format
-msgctxt "@info:status"
-msgid "(Command timeout while running)"
+msgid "Failed to make private RSA key."
 msgstr ""
 
-#: util/externalcommand.cpp:124
+#: util/externalcommand.cpp:358
 #, kde-kuit-format
-msgctxt "@info:status"
-msgid "(Command is printing too much output)"
+msgid "Generated key cannot be used for signatures."
 msgstr ""
+
+#: util/externalcommandhelper.cpp:114
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:progress"
+#| msgid ""
+#| "Could not open file system on source partition <filename>%1</filename> "
+#| "for copying."
+msgid "Could not open device <filename>%1</filename> for reading."
+msgstr ""
+"Nun pudo abrise'l sistema de ficheros na partición fonte <filename>%1</"
+"filename> pa copiar."
+
+#: util/externalcommandhelper.cpp:119 util/externalcommandhelper.cpp:148
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:progress"
+#| msgid ""
+#| "Could not open file system on source partition <filename>%1</filename> "
+#| "for backup."
+msgid "Could not seek position %1 on device <filename>%1</filename>."
+msgstr ""
+"Nun pudo abrise'l sistema de ficheros na partición fonte <filename>%1</"
+"filename> pa respaldar."
+
+#: util/externalcommandhelper.cpp:126
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:progress"
+#| msgid ""
+#| "Could not open file system on source partition <filename>%1</filename> "
+#| "for backup."
+msgid "Could not read from device <filename>%1</filename>."
+msgstr ""
+"Nun pudo abrise'l sistema de ficheros na partición fonte <filename>%1</"
+"filename> pa respaldar."
+
+#: util/externalcommandhelper.cpp:143
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:progress"
+#| msgid ""
+#| "Could not open file system on source partition <filename>%1</filename> "
+#| "for copying."
+msgid "Could not open device <filename>%1</filename> for writing."
+msgstr ""
+"Nun pudo abrise'l sistema de ficheros na partición fonte <filename>%1</"
+"filename> pa copiar."
+
+#: util/externalcommandhelper.cpp:153
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:progress"
+#| msgid ""
+#| "Could not open file system on source partition <filename>%1</filename> "
+#| "for backup."
+msgid "Could not write to device <filename>%1</filename>."
+msgstr ""
+"Nun pudo abrise'l sistema de ficheros na partición fonte <filename>%1</"
+"filename> pa respaldar."
+
+#: util/externalcommandhelper.cpp:178 util/externalcommandhelper.cpp:283
+#: util/externalcommandhelper.cpp:312
+#, kde-kuit-format
+msgid "Invalid cryptographic signature"
+msgstr ""
+
+#: util/externalcommandhelper.cpp:206
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
+msgstr ""
+
+#: util/externalcommandhelper.cpp:207
+#, kde-format
+msgctxt "direction: left"
+msgid "left"
+msgstr ""
+
+#: util/externalcommandhelper.cpp:208
+#, kde-format
+msgctxt "direction: right"
+msgid "right"
+msgstr ""
+
+#: util/externalcommandhelper.cpp:229
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Copying %1 MiB/second, estimated time left: %2"
+msgstr ""
+
+#: util/externalcommandhelper.cpp:242
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Copying remainder of block size %1 from %2 to %3."
+msgstr ""
+
+#: util/externalcommandhelper.cpp:255
+#, kde-format
+msgid "1 byte"
+msgid_plural "%1 bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: util/externalcommandhelper.cpp:255
+#, kde-kuit-format
+msgctxt ""
+"@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
+msgid "Copying 1 block (%2) finished."
+msgid_plural "Copying %1 blocks (%2) finished."
+msgstr[0] ""
+msgstr[1] ""
 
 #: util/helpers.cpp:57
 #, kde-kuit-format
@@ -3069,9 +3017,11 @@ msgid "Library for managing partitions"
 msgstr ""
 
 #: util/helpers.cpp:59
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:credit"
+#| msgid "&copy; 2008-2017 KPMcore developers"
 msgctxt "@info:credit"
-msgid "&copy; 2008-2017 KPMcore developers"
+msgid "&copy; 2008-2018 KPMcore developers"
 msgstr "&copy; 2008-2017 Desendolcadores de KPMcore"
 
 #: util/helpers.cpp:64
@@ -3151,6 +3101,18 @@ msgstr ""
 msgctxt "@info:credit"
 msgid "Calamares maintainer"
 msgstr "Caltenedor de Calamares"
+
+#: util/helpers.cpp:70
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Caio Carvalho"
+msgstr ""
+
+#: util/helpers.cpp:70
+#, kde-format
+msgctxt "@info:credit"
+msgid "Improved SMART support"
+msgstr ""
 
 #: util/htmlreport.cpp:62 util/htmlreport.cpp:69
 #, kde-format
