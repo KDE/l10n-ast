@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-14 03:18+0100\n"
+"POT-Creation-Date: 2018-08-01 03:47+0200\n"
 "PO-Revision-Date: 2018-01-17 17:50+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #: src/config/clangtidypreferences.cpp:50
-#: src/config/perprojectconfigpage.cpp:67 src/plugin.cpp:93 src/plugin.cpp:274
-#: src/plugin.cpp:295
+#: src/config/perprojectconfigpage.cpp:68 src/plugin.cpp:98 src/plugin.cpp:310
+#: src/plugin.cpp:331
 #, kde-format
 msgid "Clang-Tidy"
 msgstr ""
@@ -29,20 +29,14 @@ msgstr ""
 msgid "Configure Clang-Tidy Settings"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, ClangTidyPreferences)
-#: src/config/clangtidypreferences.ui:14
-#, kde-format
-msgid "Clang-Tidy Settings"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, pathsGroupBox)
-#: src/config/clangtidypreferences.ui:32
+#: src/config/clangtidypreferences.ui:29
 #, kde-format
 msgid "Paths"
 msgstr "Caminos"
 
 #. i18n: ectx: property (text), widget (QLabel, clangtidyLabel)
-#: src/config/clangtidypreferences.ui:40
+#: src/config/clangtidypreferences.ui:37
 #, kde-format
 msgid "Clang-&tidy executable:"
 msgstr ""
@@ -65,13 +59,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/config/perprojectconfig.ui:33
+#: src/config/perprojectconfig.ui:36
 #, kde-format
 msgid "E&xtra parameters:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, clangtidyParameters)
-#: src/config/perprojectconfig.ui:43
+#: src/config/perprojectconfig.ui:46
 #, kde-format
 msgid ""
 "<html><head/><body><p>Additional command line options to pass to clang-tidy."
@@ -79,31 +73,31 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, sysHeadersCheckBox)
-#: src/config/perprojectconfig.ui:50
+#: src/config/perprojectconfig.ui:56
 #, kde-format
 msgid "Check system headers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, overrideConfigFileCheckBox)
-#: src/config/perprojectconfig.ui:57
+#: src/config/perprojectconfig.ui:63
 #, kde-format
 msgid "Override .clang-tidy file options"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, checkListGroupBox)
-#: src/config/perprojectconfig.ui:66
+#: src/config/perprojectconfig.ui:72
 #, kde-format
 msgid "Enable additional checks"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, checkListGroupBox)
-#: src/config/perprojectconfig.ui:69
+#: src/config/perprojectconfig.ui:75
 #, kde-format
-msgid "Available checks "
+msgid "Available Checks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, dumpCheckBox)
-#: src/config/perprojectconfig.ui:88
+#: src/config/perprojectconfig.ui:94
 #, kde-format
 msgid "Dump active configuration to .clang-tidy file"
 msgstr ""
@@ -148,37 +142,32 @@ msgstr ""
 msgid "Clang-tidy Error"
 msgstr ""
 
-#: src/plugin.cpp:72
+#: src/plugin.cpp:78
 #, kde-format
-msgid "Launches clang-tidy for current file"
+msgid "Analyze Current File with Clang-Tidy"
 msgstr ""
 
-#: src/plugin.cpp:73
-#, kde-format
-msgid "Clang-Tidy (Current File)"
-msgstr ""
-
-#: src/plugin.cpp:158 src/plugin.cpp:170 src/plugin.cpp:176
+#: src/plugin.cpp:195 src/plugin.cpp:207 src/plugin.cpp:213
 #, kde-format
 msgid "Error starting clang-tidy"
 msgstr ""
 
-#: src/plugin.cpp:159
+#: src/plugin.cpp:196
 #, kde-format
 msgid "No suitable active file, unable to deduce project."
 msgstr ""
 
-#: src/plugin.cpp:170
+#: src/plugin.cpp:207
 #, kde-format
 msgid "Active file isn't in a project"
 msgstr ""
 
-#: src/plugin.cpp:177
+#: src/plugin.cpp:214
 #, kde-format
 msgid "Can't load parameters. They must be set in the project settings."
 msgstr ""
 
-#: src/plugin.cpp:261
+#: src/plugin.cpp:296
 #, kde-format
 msgid "Problems"
 msgstr ""
