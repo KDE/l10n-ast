@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-08 03:50+0200\n"
+"POT-Creation-Date: 2018-08-11 03:41+0200\n"
 "PO-Revision-Date: 2018-01-17 17:54+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -200,62 +200,72 @@ msgstr ""
 msgid "Copyright 2017 Martin Koller"
 msgstr ""
 
-#: DesktopApplet.cxx:42
+#: DesktopApplet.cxx:43 Launcher.cxx:78
+#, kde-format
+msgid "Configure..."
+msgstr ""
+
+#: DesktopApplet.cxx:51
 #, kde-format
 msgid "Change Size && Position"
 msgstr ""
 
-#: DesktopApplet.cxx:48
+#: DesktopApplet.cxx:57
 #, kde-format
 msgid "Remove this Applet"
 msgstr ""
 
-#: DesktopApplet.cxx:96
+#: DesktopApplet.cxx:105
 #, kde-format
 msgid "%1: Change Size & Position"
 msgstr ""
 
-#: DesktopApplet.cxx:136
+#: DesktopApplet.cxx:145
 #, kde-format
 msgid "Remove Applet"
 msgstr ""
 
-#: DesktopApplet.cxx:137
+#: DesktopApplet.cxx:146
 #, kde-format
 msgid "Really remove this applet?"
 msgstr ""
 
-#: DesktopWidget.cxx:68
+#: DesktopWidget.cxx:69
 #, kde-format
 msgid "Configure Wallpaper..."
 msgstr ""
 
-#: DesktopWidget.cxx:72
+#: DesktopWidget.cxx:73
 #, kde-format
 msgid "Add Applet"
 msgstr ""
 
-#: DesktopWidget.cxx:76
+#: DesktopWidget.cxx:77
 #, kde-format
 msgid "Weather"
 msgstr ""
 
-#: DesktopWidget.cxx:78
+#: DesktopWidget.cxx:80
 #, kde-format
 msgid "Disk Usage"
 msgstr ""
 
-#: DesktopWidget.cxx:81
+#: DesktopWidget.cxx:83
+#, kde-format
+msgid "Picture Frame"
+msgstr ""
+
+#: DesktopWidget.cxx:86
 #, kde-format
 msgid "Configure Display..."
 msgstr ""
 
-#: DesktopWidget.cxx:85
+#: DesktopWidget.cxx:90
 #, kde-format
 msgid "Help"
 msgstr ""
 
-#: DesktopWidget.cxx:226
+#: DesktopWidget.cxx:233
 #, kde-format
 msgid "Configure Display"
 msgstr ""
@@ -339,24 +349,21 @@ msgstr ""
 msgid "Device List"
 msgstr ""
 
-#: DiskUsageApplet.cxx:52 Launcher.cxx:78 WeatherApplet.cxx:102
-#, kde-format
-msgid "Configure..."
-msgstr ""
-
-#: DiskUsageApplet.cxx:114
+#: DiskUsageApplet.cxx:108
 #, kde-format
 msgid "%1 free / %2"
 msgstr ""
 
-#: DiskUsageApplet.cxx:147
+#: DiskUsageApplet.cxx:141
 #, kde-format
 msgid "Configure DiskUsage Applet"
 msgstr ""
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, PictureFrameAppletConfigureDialog)
 #. i18n: ectx: property (windowTitle), widget (QDialog, WeatherAppletConfigureDialog)
 #. i18n: ectx: property (windowTitle), widget (QDialog, DiskUsageAppletConfigureDialog)
-#: DiskUsageAppletConfigureDialog.ui:14 WeatherAppletConfigureDialog.ui:14
+#: DiskUsageAppletConfigureDialog.ui:14 PictureFrameAppletConfigureDialog.ui:14
+#: WeatherAppletConfigureDialog.ui:14
 #, kde-format
 msgid "Dialog"
 msgstr ""
@@ -368,7 +375,8 @@ msgid "Text"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: DiskUsageAppletConfigureDialog.ui:44 WeatherAppletConfigureDialog.ui:119
+#: DiskUsageAppletConfigureDialog.ui:44 PictureFrameAppletConfigureDialog.ui:44
+#: WeatherAppletConfigureDialog.ui:119
 #, kde-format
 msgid "Background"
 msgstr ""
@@ -440,6 +448,23 @@ msgstr ""
 #: Pager.cxx:70
 #, kde-format
 msgid "Configure Virtual Desktops"
+msgstr ""
+
+#: PictureFrameApplet.cxx:106
+#, kde-format
+msgid "Configure PictureFrame Applet"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: PictureFrameAppletConfigureDialog.ui:37
+#, kde-format
+msgid "Frame"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: PictureFrameAppletConfigureDialog.ui:61
+#, kde-format
+msgid "Path"
 msgstr ""
 
 #: PkUpdateList.cxx:129
@@ -749,48 +774,48 @@ msgstr ""
 msgid "Wind Direction:"
 msgstr ""
 
-#: WeatherApplet.cxx:136 WeatherApplet.cxx:401
+#: WeatherApplet.cxx:130 WeatherApplet.cxx:395
 #, kde-format
 msgid "Not configured"
 msgstr ""
 
-#: WeatherApplet.cxx:185
+#: WeatherApplet.cxx:179
 #, kde-format
 msgid "°K"
 msgstr "°K"
 
-#: WeatherApplet.cxx:186
+#: WeatherApplet.cxx:180
 #, kde-format
 msgid "°C"
 msgstr "°C"
 
-#: WeatherApplet.cxx:187
+#: WeatherApplet.cxx:181
 #, kde-format
 msgid "°F"
 msgstr "°F"
 
-#: WeatherApplet.cxx:200 WeatherApplet.cxx:217 WeatherApplet.cxx:280
-#: WeatherApplet.cxx:281
+#: WeatherApplet.cxx:194 WeatherApplet.cxx:211 WeatherApplet.cxx:274
+#: WeatherApplet.cxx:275
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: WeatherApplet.cxx:203
+#: WeatherApplet.cxx:197
 #, kde-format
 msgid "%1 hPa"
 msgstr ""
 
-#: WeatherApplet.cxx:206
+#: WeatherApplet.cxx:200
 #, kde-format
 msgid "%1 %"
 msgstr ""
 
-#: WeatherApplet.cxx:220
+#: WeatherApplet.cxx:214
 #, kde-format
 msgid "%1 °"
 msgstr ""
 
-#: WeatherApplet.cxx:377
+#: WeatherApplet.cxx:371
 #, kde-format
 msgid "Configure Weather Applet"
 msgstr ""
