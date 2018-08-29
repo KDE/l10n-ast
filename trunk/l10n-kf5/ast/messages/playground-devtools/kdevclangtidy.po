@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-28 03:49+0200\n"
+"POT-Creation-Date: 2018-08-29 03:52+0200\n"
 "PO-Revision-Date: 2018-01-17 17:50+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -28,7 +28,8 @@ msgid "All checks"
 msgstr ""
 
 #: config/clangtidypreferences.cpp:50 config/clangtidyprojectconfigpage.cpp:59
-#: plugin.cpp:95 plugin.cpp:259 plugin.cpp:263 plugin.cpp:289
+#: plugin.cpp:96 plugin.cpp:270 plugin.cpp:274 plugin.cpp:300
+#: problemmodel.cpp:80
 #, kde-format
 msgid "Clang-Tidy"
 msgstr ""
@@ -116,88 +117,110 @@ msgid ""
 "</p></body></html>"
 msgstr ""
 
-#: job.cpp:83
+#: job.cpp:82
 #, kde-format
 msgid "Clang-Tidy Analysis"
 msgstr ""
 
-#: job.cpp:208
+#: job.cpp:229
 #, kde-format
 msgid "Failed to start Clang-Tidy process."
 msgstr ""
 
-#: job.cpp:213
+#: job.cpp:234
 #, kde-format
 msgid "Clang-tidy crashed."
 msgstr ""
 
-#: job.cpp:217
+#: job.cpp:238
 #, kde-format
 msgid "Clang-tidy process timed out."
 msgstr ""
 
-#: job.cpp:221
+#: job.cpp:242
 #, kde-format
 msgid "Write to Clang-tidy process failed."
 msgstr ""
 
-#: job.cpp:225
+#: job.cpp:246
 #, kde-format
 msgid "Read from Clang-tidy process failed."
 msgstr ""
 
-#: job.cpp:235
+#: job.cpp:256
 #, kde-format
 msgid "Clang-tidy Error"
 msgstr ""
 
-#: plugin.cpp:85
+#: plugin.cpp:86
 #, kde-format
 msgid "Analyze Current File with Clang-Tidy"
 msgstr ""
 
-#: plugin.cpp:90
+#: plugin.cpp:91
 #, kde-format
 msgid "Analyze Current Project with Clang-Tidy"
 msgstr ""
 
-#: plugin.cpp:156 plugin.cpp:168
+#: plugin.cpp:157 plugin.cpp:169
 #, kde-format
 msgid "Error starting clang-tidy"
 msgstr ""
 
-#: plugin.cpp:157
+#: plugin.cpp:158
 #, kde-format
 msgid "No suitable active file, unable to deduce project."
 msgstr ""
 
-#: plugin.cpp:168
+#: plugin.cpp:169
 #, kde-format
 msgid "Active file isn't in a project"
 msgstr ""
 
-#: plugin.cpp:245
+#: plugin.cpp:256
 #, kde-format
 msgctxt "@title:window"
 msgid "Test"
 msgstr ""
 
-#: utils.cpp:58
+#: problemmodel.cpp:67
 #, kde-format
-msgid "Compilation database file not found: '%1'"
+msgid "Analysis started..."
+msgstr ""
+
+#: problemmodel.cpp:68
+#, kde-format
+msgctxt "@info:tooltip %1 is the path of the file"
+msgid "Re-run last Clang-Tidy analysis (%1)"
+msgstr ""
+
+#: problemmodel.cpp:70
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Re-run last Clang-Tidy analysis"
+msgstr ""
+
+#: problemmodel.cpp:127
+#, kde-format
+msgid "Analysis completed, no problems detected."
 msgstr ""
 
 #: utils.cpp:69
 #, kde-format
+msgid "Compilation database file not found: '%1'"
+msgstr ""
+
+#: utils.cpp:80
+#, kde-format
 msgid "Could not open compilation database file for reading: '%1'"
 msgstr ""
 
-#: utils.cpp:77
+#: utils.cpp:88
 #, kde-format
 msgid "JSON error during parsing compilation database file '%1': %2"
 msgstr ""
 
-#: utils.cpp:82
+#: utils.cpp:93
 #, kde-format
 msgid ""
 "JSON error during parsing compilation database file '%1': document is not an "
