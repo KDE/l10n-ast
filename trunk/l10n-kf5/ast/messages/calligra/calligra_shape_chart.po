@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-02 03:39+0200\n"
+"POT-Creation-Date: 2018-09-05 03:42+0200\n"
 "PO-Revision-Date: 2016-12-21 16:16+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -469,7 +469,7 @@ msgstr ""
 #: ChartShapeFactory.cpp:551 ChartShapeFactory.cpp:552
 #: ChartShapeFactory.cpp:553 ChartShapeFactory.cpp:554
 #: ChartShapeFactory.cpp:634 ChartShapeFactory.cpp:635
-#: dialogs/ScatterDataEditor.cpp:85
+#: dialogs/BubbleDataEditor.cpp:79 dialogs/ScatterDataEditor.cpp:83
 #, kde-format
 msgid "Column %1"
 msgstr ""
@@ -1065,34 +1065,34 @@ msgstr ""
 msgid "Substep Width:"
 msgstr ""
 
-#: dialogs/BubbleDataEditor.cpp:112
+#: dialogs/BubbleDataEditor.cpp:117
 #, kde-format
 msgid "Bubble Data Editor"
 msgstr ""
 
-#: dialogs/BubbleDataEditor.cpp:118 dialogs/ScatterDataEditor.cpp:130
+#: dialogs/BubbleDataEditor.cpp:123 dialogs/ScatterDataEditor.cpp:129
 #, kde-format
 msgid "Insert Column Before"
 msgstr ""
 
-#: dialogs/BubbleDataEditor.cpp:119 dialogs/ScatterDataEditor.cpp:131
+#: dialogs/BubbleDataEditor.cpp:124 dialogs/ScatterDataEditor.cpp:130
 #, kde-format
 msgid "Insert Column After"
 msgstr ""
 
-#: dialogs/BubbleDataEditor.cpp:120 dialogs/ScatterDataEditor.cpp:132
+#: dialogs/BubbleDataEditor.cpp:125 dialogs/ScatterDataEditor.cpp:131
 #, kde-format
 msgid "Insert Row Above"
 msgstr ""
 
-#: dialogs/BubbleDataEditor.cpp:121 dialogs/ScatterDataEditor.cpp:133
+#: dialogs/BubbleDataEditor.cpp:126 dialogs/ScatterDataEditor.cpp:132
 #, kde-format
 msgid "Insert Row Below"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteSelection)
-#: dialogs/BubbleDataEditor.cpp:122 dialogs/PieDataEditor.cpp:75
-#: dialogs/PieDataEditor.ui:46 dialogs/ScatterDataEditor.cpp:134
+#: dialogs/BubbleDataEditor.cpp:127 dialogs/PieDataEditor.cpp:75
+#: dialogs/PieDataEditor.ui:46 dialogs/ScatterDataEditor.cpp:133
 #, kde-format
 msgid "Delete"
 msgstr ""
@@ -1177,6 +1177,73 @@ msgstr ""
 msgid "Add data set after selected data set"
 msgstr ""
 
+#: dialogs/BubbleDataSetTableModel.cpp:116
+#: dialogs/ScatterDataSetTableModel.cpp:116
+#, kde-format
+msgid "Dataset Name"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:117
+#: dialogs/ScatterDataSetTableModel.cpp:117
+#, kde-format
+msgid "X-Values"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:118
+#: dialogs/ScatterDataSetTableModel.cpp:118
+#, kde-format
+msgid "Y-Values"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:119
+#, kde-format
+msgid "Bubble Size"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:159
+#: dialogs/ScatterDataSetTableModel.cpp:155
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Label: %1"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:161
+#: dialogs/ScatterDataSetTableModel.cpp:157
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Default label: %1"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:166
+#: dialogs/ScatterDataSetTableModel.cpp:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "X-Values cell region: %1"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:168
+#: dialogs/BubbleDataSetTableModel.cpp:175
+#: dialogs/BubbleDataSetTableModel.cpp:182
+#: dialogs/ScatterDataSetTableModel.cpp:164
+#: dialogs/ScatterDataSetTableModel.cpp:171
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Default values used"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:173
+#: dialogs/ScatterDataSetTableModel.cpp:169
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Y-Values cell region: %1"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:180
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Bubble size cell region: %1"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/CellRegionDialog.ui:49
 #, kde-format
@@ -1233,26 +1300,6 @@ msgstr ""
 #: dialogs/ChartTableEditor.ui:36
 #, kde-format
 msgid "Data sets in &columns"
-msgstr ""
-
-#: dialogs/DataSetTableModel.cpp:114 dialogs/ScatterDataSetTableModel.cpp:171
-#, kde-format
-msgid "Dataset Name"
-msgstr ""
-
-#: dialogs/DataSetTableModel.cpp:115 dialogs/ScatterDataSetTableModel.cpp:172
-#, kde-format
-msgid "X-Values"
-msgstr ""
-
-#: dialogs/DataSetTableModel.cpp:116 dialogs/ScatterDataSetTableModel.cpp:173
-#, kde-format
-msgid "Y-Values"
-msgstr ""
-
-#: dialogs/DataSetTableModel.cpp:117
-#, kde-format
-msgid "Bubble Size"
 msgstr ""
 
 #: dialogs/FontEditorDialog.cpp:33
@@ -1417,12 +1464,12 @@ msgstr ""
 msgid "Del"
 msgstr ""
 
-#: dialogs/ScatterDataEditor.cpp:107
+#: dialogs/ScatterDataEditor.cpp:106
 #, kde-format
 msgid "Row %1"
 msgstr ""
 
-#: dialogs/ScatterDataEditor.cpp:124
+#: dialogs/ScatterDataEditor.cpp:123
 #, kde-format
 msgid "Scatter Data Editor"
 msgstr ""
