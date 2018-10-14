@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-13 06:35+0200\n"
+"POT-Creation-Date: 2018-10-14 07:04+0200\n"
 "PO-Revision-Date: 2016-12-21 16:20+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -578,6 +578,8 @@ msgid "Load from Addressbook"
 msgstr ""
 
 #: kmymoney/dialogs/investactivities.cpp:272
+#: kmymoney/plugins/xml/mymoneystorageanon.cpp:168
+#: kmymoney/plugins/xml/mymoneystorageanon.cpp:169
 #, kde-format
 msgid "%1 (Brokerage)"
 msgstr ""
@@ -2740,7 +2742,7 @@ msgid ""
 msgstr ""
 
 #: kmymoney/dialogs/kmymoneysplittable.cpp:717
-#: kmymoney/dialogs/ksplittransactiondlg.cpp:401 kmymoney/main.cpp:81
+#: kmymoney/dialogs/ksplittransactiondlg.cpp:401 kmymoney/main.cpp:83
 #, kde-format
 msgid "KMyMoney"
 msgstr ""
@@ -5823,7 +5825,7 @@ msgstr ""
 
 #: kmymoney/kmymoney.cpp:2029 kmymoney/kmymoney.cpp:2031
 #: kmymoney/plugins/gnc/import/mymoneygncreader.cpp:1343
-#: kmymoney/plugins/xml/xmlstorage.cpp:378
+#: kmymoney/plugins/xml/xmlstorage.cpp:377
 #, kde-format
 msgctxt "Application is ready to use"
 msgid "Ready."
@@ -6039,7 +6041,7 @@ msgid ""
 "error: %3"
 msgstr ""
 
-#: kmymoney/kmymoney.cpp:3183 kmymoney/plugins/ofx/import/ofximporter.cpp:811
+#: kmymoney/kmymoney.cpp:3183 kmymoney/plugins/ofx/import/ofximporter.cpp:809
 #, kde-format
 msgid "Importing error"
 msgstr ""
@@ -6543,37 +6545,37 @@ msgstr ""
 #. i18n("language to be used"));
 #. parser.addOption(langOption);
 #. no file
-#: kmymoney/main.cpp:105
+#: kmymoney/main.cpp:107
 #, kde-format
 msgid "do not open last used file"
 msgstr ""
 
-#: kmymoney/main.cpp:109
+#: kmymoney/main.cpp:111
 #, kde-format
 msgid "enable performance timers"
 msgstr ""
 
-#: kmymoney/main.cpp:113
+#: kmymoney/main.cpp:115
 #, kde-format
 msgid "do not globally catch uncaught exceptions"
 msgstr ""
 
-#: kmymoney/main.cpp:119
+#: kmymoney/main.cpp:121
 #, kde-format
 msgid "turn on program traces"
 msgstr ""
 
-#: kmymoney/main.cpp:123
+#: kmymoney/main.cpp:125
 #, kde-format
 msgid "dump the names of all defined QAction objects to stdout and quit"
 msgstr ""
 
-#: kmymoney/main.cpp:129
+#: kmymoney/main.cpp:131
 #, kde-format
 msgid "file to open"
 msgstr ""
 
-#: kmymoney/main.cpp:233
+#: kmymoney/main.cpp:245
 #, kde-format
 msgid "Uncaught error. Please report the details to the developers"
 msgstr ""
@@ -11117,7 +11119,7 @@ msgid "Pick &date"
 msgstr ""
 
 #: kmymoney/plugins/kbanking/kbanking.cpp:276
-#: kmymoney/plugins/ofx/import/ofximporter.cpp:678
+#: kmymoney/plugins/ofx/import/ofximporter.cpp:676
 #, kde-format
 msgid "Online settings"
 msgstr ""
@@ -12030,34 +12032,34 @@ msgstr ""
 msgid "Incorrect format"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/ofximporter.cpp:197
+#: kmymoney/plugins/ofx/import/ofximporter.cpp:195
 #, kde-format
 msgid "Unable to parse file"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/ofximporter.cpp:625
+#: kmymoney/plugins/ofx/import/ofximporter.cpp:623
 #, kde-format
 msgid "No accounts found."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/ofximporter.cpp:801
+#: kmymoney/plugins/ofx/import/ofximporter.cpp:799
 #, kde-format
 msgid "Error connecting to bank: %1"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/ofximporter.cpp:811
+#: kmymoney/plugins/ofx/import/ofximporter.cpp:809
 #, kde-format
 msgid ""
 "<p>Unable to import <b>'%1'</b> using the OFX importer plugin.  The plugin "
 "returned the following error:</p><p>%2</p>"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/ofximporter.cpp:845
+#: kmymoney/plugins/ofx/import/ofximporter.cpp:843
 #, kde-format
 msgid "Importing process terminated unexpectedly."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/ofximporter.cpp:845
+#: kmymoney/plugins/ofx/import/ofximporter.cpp:843
 #, kde-format
 msgid "Failed to import all statements."
 msgstr ""
@@ -12931,16 +12933,6 @@ msgstr ""
 #: kmymoney/plugins/qif/import/qifimporter.cpp:45
 #, kde-format
 msgid "QIF importer"
-msgstr ""
-
-#: kmymoney/plugins/qif/import/qifimporter.cpp:104
-#, kde-format
-msgid "The statement has been processed with the following results:"
-msgstr ""
-
-#: kmymoney/plugins/qif/import/qifimporter.cpp:104
-#, kde-format
-msgid "Statement stats"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, KReconciliationReportDlgDecl)
@@ -16361,6 +16353,12 @@ msgstr ""
 msgid "Keys for all of the above user ids found"
 msgstr ""
 
+#: kmymoney/plugins/xml/mymoneystorageanon.cpp:160
+#: kmymoney/views/kaccountsview.cpp:443
+#, kde-format
+msgid " (Brokerage)"
+msgstr ""
+
 #: kmymoney/plugins/xml/mymoneystoragexml.cpp:267
 #, kde-format
 msgid "Loading securities..."
@@ -16449,14 +16447,14 @@ msgstr ""
 
 #: kmymoney/plugins/xml/xmlstorage.cpp:338
 #, kde-format
-msgctxt "XML (Filefilter)"
-msgid "XML files"
+msgctxt "Anonymous (Filefilter)"
+msgid "Anonymous files"
 msgstr ""
 
 #: kmymoney/plugins/xml/xmlstorage.cpp:339
 #, kde-format
-msgctxt "Anonymous (Filefilter)"
-msgid "Anonymous files"
+msgctxt "XML (Filefilter)"
+msgid "XML files"
 msgstr ""
 
 #: kmymoney/plugins/xml/xmlstorage.cpp:340
@@ -16465,12 +16463,12 @@ msgctxt "All files (Filefilter)"
 msgid "All files"
 msgstr ""
 
-#: kmymoney/plugins/xml/xmlstorage.cpp:390
+#: kmymoney/plugins/xml/xmlstorage.cpp:389
 #, kde-format
 msgid "KMyMoney files (*.kmy *.xml)"
 msgstr ""
 
-#: kmymoney/plugins/xml/xmlstorage.cpp:408
+#: kmymoney/plugins/xml/xmlstorage.cpp:407
 #, kde-format
 msgid ""
 "GPG does not seem to be installed on your system. Please make sure that GPG "
@@ -16478,12 +16476,12 @@ msgid ""
 "disabled."
 msgstr ""
 
-#: kmymoney/plugins/xml/xmlstorage.cpp:408
+#: kmymoney/plugins/xml/xmlstorage.cpp:407
 #, kde-format
 msgid "GPG not found"
 msgstr ""
 
-#: kmymoney/plugins/xml/xmlstorage.cpp:414
+#: kmymoney/plugins/xml/xmlstorage.cpp:413
 #, kde-format
 msgid ""
 "<p>You have selected to encrypt your data also with the KMyMoney recover "
@@ -16494,13 +16492,13 @@ msgid ""
 "KMyMoney recover key.</p>"
 msgstr ""
 
-#: kmymoney/plugins/xml/xmlstorage.cpp:414
-#: kmymoney/plugins/xml/xmlstorage.cpp:421
+#: kmymoney/plugins/xml/xmlstorage.cpp:413
+#: kmymoney/plugins/xml/xmlstorage.cpp:420
 #, kde-format
 msgid "GPG Key not found"
 msgstr ""
 
-#: kmymoney/plugins/xml/xmlstorage.cpp:421
+#: kmymoney/plugins/xml/xmlstorage.cpp:420
 #, kde-format
 msgid ""
 "<p>You have specified to encrypt your data for the user-id</p><p><center><b>"
@@ -16509,7 +16507,7 @@ msgid ""
 "id. This time, encryption is disabled.</p>"
 msgstr ""
 
-#: kmymoney/plugins/xml/xmlstorage.cpp:428
+#: kmymoney/plugins/xml/xmlstorage.cpp:427
 #, kde-format
 msgid ""
 "<p>You have configured to save your data in encrypted form using GPG. Make "
@@ -16517,12 +16515,12 @@ msgid ""
 "cannot decrypt it later on. If unsure, answer <b>No</b>.</p>"
 msgstr ""
 
-#: kmymoney/plugins/xml/xmlstorage.cpp:429
+#: kmymoney/plugins/xml/xmlstorage.cpp:428
 #, kde-format
 msgid "Store GPG encrypted"
 msgstr ""
 
-#: kmymoney/plugins/xml/xmlstorage.cpp:544
+#: kmymoney/plugins/xml/xmlstorage.cpp:543
 #, kde-format
 msgid ""
 "You have configured KMyMoney to use GPG to protect your data and to encrypt "
@@ -16537,7 +16535,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: kmymoney/plugins/xml/xmlstorage.cpp:544
+#: kmymoney/plugins/xml/xmlstorage.cpp:543
 #, kde-format
 msgid "Recover key expires soon"
 msgstr ""
@@ -17105,11 +17103,6 @@ msgstr ""
 #: kmymoney/views/kaccountsview.cpp:425
 #, kde-format
 msgid "Unable to unmap account from online account: %1"
-msgstr ""
-
-#: kmymoney/views/kaccountsview.cpp:443
-#, kde-format
-msgid " (Brokerage)"
 msgstr ""
 
 #: kmymoney/views/kaccountsview.cpp:444
