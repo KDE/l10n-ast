@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-08-16 08:58+0200\n"
-"PO-Revision-Date: 2018-10-09 16:31+0100\n"
+"PO-Revision-Date: 2018-10-16 21:10+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
 "Language: ast\n"
@@ -43,9 +43,9 @@ msgid "Non interactive use: no message boxes"
 msgstr "Usu non iteractivu: ensin caxes de diálogu"
 
 #: kfmclient.cpp:85
-#, fuzzy, kde-format
+#, kde-format
 msgid "Show available commands"
-msgstr "Amuesa la comandos disponibles"
+msgstr "Amuesa los comandos disponibles"
 
 #: kfmclient.cpp:87
 #, kde-format
@@ -53,7 +53,7 @@ msgid "Command (see --commands)"
 msgstr "Comandu (mira --commands)"
 
 #: kfmclient.cpp:89
-#, fuzzy, kde-format
+#, kde-format
 msgid "Arguments for command"
 msgstr "Argumentos pal comandu"
 
@@ -72,7 +72,7 @@ msgstr ""
 "Sintaxis:\n"
 
 #: kfmclient.cpp:100
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "  kfmclient openURL 'url' ['mimetype']\n"
 "            # Opens a window showing 'url'.\n"
@@ -81,9 +81,9 @@ msgid ""
 "            #   If 'url' is omitted, $HOME is used instead.\n"
 "\n"
 msgstr ""
-"  kfmclient openURL 'url' ['mimetype']\n"
+"  kfmclient openURL «url» [«triba_MIME»]\n"
 "            # Abre una ventana qu'amuesa «url».\n"
-"            #  'url' podría ser un camín rellativu\n"
+"            #  «url» podría ser un camín rellativu\n"
 "            #   o'l nome d'un ficheru, como . o subdir/\n"
 "            #   Si s'omite «url», va usase $HOME.\n"
 "\n"
@@ -97,6 +97,12 @@ msgid ""
 "            #   text/html for a web page, to make it appear faster\n"
 "\n"
 msgstr ""
+"            # Si s'especifica «triba_MIME», esto va usase pa determinar\n"
+"            #   el componente que Konqueror debería usar. Por exemplu, "
+"afitalu\n"
+"            #   a text/html pa una páxina web, va facer qu'esta apaeza más "
+"rápido\n"
+"\n"
 
 #: kfmclient.cpp:109
 #, kde-format
@@ -107,6 +113,13 @@ msgid ""
 "            #   window on the current active desktop if possible.\n"
 "\n"
 msgstr ""
+"  kfmclient newTab «url» [«triba_MIME»]\n"
+"            # Igual que lo d'enriba pero esto abre una llingüeta nueva con"
+" «url»"
+"nuna ventana\n"
+"            #   esistente de Konqueror dientro del escritoriu activu si ye"
+"posible.\n"
+"\n"
 
 #: kfmclient.cpp:223
 #, kde-format
@@ -122,3 +135,4 @@ msgstr "Fallu de sintaxis, milenta argumentos\n"
 #, kde-format
 msgid "Syntax error, unknown command '%1'\n"
 msgstr "Fallu de sintaxis, desconozse'l comandu «%1»\n"
+
