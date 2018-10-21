@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-20 02:09+0000\n"
+"POT-Creation-Date: 2018-10-21 02:08+0000\n"
 "PO-Revision-Date: 2015-04-02 00:55+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -177,11 +177,27 @@ msgstr ""
 #. Tag: option
 #: man-kdesrc-build.1.docbook:122
 #, no-c-format
-msgid "-p, --pretend"
+msgid "--initial-setup"
 msgstr ""
 
 #. Tag: para
 #: man-kdesrc-build.1.docbook:126
+#, no-c-format
+msgid ""
+"Performs one-time setup for users running &kdesrc-build; on common "
+"distributions. This includes installation of known system dependencies, a "
+"default configuration file setup, and changes to your ~/.bashrc to make the "
+"software installed by &kdesrc-build; accessible."
+msgstr ""
+
+#. Tag: option
+#: man-kdesrc-build.1.docbook:137
+#, no-c-format
+msgid "-p, --pretend"
+msgstr ""
+
+#. Tag: para
+#: man-kdesrc-build.1.docbook:141
 #, no-c-format
 msgid ""
 "Operate in a \"dry run\" mode. No network accesses are made, no log files "
@@ -193,13 +209,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:140
+#: man-kdesrc-build.1.docbook:155
 #, no-c-format
 msgid "--install"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:144
+#: man-kdesrc-build.1.docbook:159
 #, no-c-format
 msgid ""
 "Skips the update and build phase and immediately attempts to install the "
@@ -207,13 +223,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:153
+#: man-kdesrc-build.1.docbook:168
 #, no-c-format
 msgid "--uninstall"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:157
+#: man-kdesrc-build.1.docbook:172
 #, no-c-format
 msgid ""
 "Skips the update and build phase and immediately attempts to uninstall the "
@@ -223,13 +239,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:168
+#: man-kdesrc-build.1.docbook:183
 #, no-c-format
 msgid "--no-src"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:172
+#: man-kdesrc-build.1.docbook:187
 #, no-c-format
 msgid ""
 "Skips the source update phase. Other phases are included as normal. "
@@ -238,13 +254,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:182
+#: man-kdesrc-build.1.docbook:197
 #, no-c-format
 msgid "--no-metadata"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:186
+#: man-kdesrc-build.1.docbook:201
 #, no-c-format
 msgid ""
 "Skips the metadata update phase for KDE modules. Other phases (including the "
@@ -253,7 +269,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:192
+#: man-kdesrc-build.1.docbook:207
 #, no-c-format
 msgid ""
 "This option can be useful if you are frequently running <command>kdesrc-"
@@ -261,26 +277,26 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:202
+#: man-kdesrc-build.1.docbook:217
 #, no-c-format
 msgid "--no-install"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:206
+#: man-kdesrc-build.1.docbook:221
 #, no-c-format
 msgid ""
 "Skips the install phase from the build. Other phases are included as normal."
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:215
+#: man-kdesrc-build.1.docbook:230
 #, no-c-format
 msgid "--no-build"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:219
+#: man-kdesrc-build.1.docbook:234
 #, no-c-format
 msgid ""
 "Skips the build phase for the build. Internally the install phase depends on "
@@ -290,13 +306,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:230
+#: man-kdesrc-build.1.docbook:245
 #, no-c-format
 msgid "--no-tests"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:234
+#: man-kdesrc-build.1.docbook:249
 #, no-c-format
 msgid ""
 "Disables running the test suite for CMake-based modules. To be fully "
@@ -305,13 +321,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:244
+#: man-kdesrc-build.1.docbook:259
 #, no-c-format
 msgid "--src-only"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:248
+#: man-kdesrc-build.1.docbook:263
 #, no-c-format
 msgid ""
 "Only performs the source update phase, does not build or install. <option>--"
@@ -320,13 +336,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:258
+#: man-kdesrc-build.1.docbook:273
 #, no-c-format
 msgid "--build-only"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:262
+#: man-kdesrc-build.1.docbook:277
 #, no-c-format
 msgid ""
 "Forces the build process to be performed without updating source code first. "
@@ -335,13 +351,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:272
+#: man-kdesrc-build.1.docbook:287
 #, no-c-format
 msgid "--metadata-only"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:276
+#: man-kdesrc-build.1.docbook:291
 #, no-c-format
 msgid ""
 "Only updates the build metadata needed for KDE modules, then exits. This is "
@@ -350,13 +366,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:286
+#: man-kdesrc-build.1.docbook:301
 #, no-c-format
 msgid "--refresh-build"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:290
+#: man-kdesrc-build.1.docbook:305
 #, no-c-format
 msgid ""
 "Removes the build directory for a module before the build phase starts. This "
@@ -369,13 +385,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:304
+#: man-kdesrc-build.1.docbook:319
 #, no-c-format
 msgid "--reconfigure"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:308
+#: man-kdesrc-build.1.docbook:323
 #, no-c-format
 msgid ""
 "Force CMake to be re-run, but without deleting the build directory. Usually "
@@ -385,13 +401,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:319
+#: man-kdesrc-build.1.docbook:334
 #, no-c-format
 msgid "--build-system-only"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:323
+#: man-kdesrc-build.1.docbook:338
 #, no-c-format
 msgid ""
 "Interrupts the build process for each module built: The build process "
@@ -404,13 +420,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:338
+#: man-kdesrc-build.1.docbook:353
 #, no-c-format
 msgid "--resume-from=<replaceable>foo</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:342
+#: man-kdesrc-build.1.docbook:357
 #, no-c-format
 msgid ""
 "Use this option to skip module processing until the module <replaceable>foo</"
@@ -422,13 +438,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:356
+#: man-kdesrc-build.1.docbook:371
 #, no-c-format
 msgid "--resume-after=<replaceable>foo</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:360
+#: man-kdesrc-build.1.docbook:375
 #, no-c-format
 msgid ""
 "This is just like <option>--resume-from</option>, except that the module "
@@ -438,13 +454,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:372
+#: man-kdesrc-build.1.docbook:387
 #, no-c-format
 msgid "--resume"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:376
+#: man-kdesrc-build.1.docbook:391
 #, no-c-format
 msgid ""
 "This option can be used to run <command>kdesrc-build</command> after it has "
@@ -452,7 +468,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:381
+#: man-kdesrc-build.1.docbook:396
 #, no-c-format
 msgid ""
 "It resumes the build from the module that failed, using the list of modules "
@@ -464,7 +480,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:391
+#: man-kdesrc-build.1.docbook:406
 #, no-c-format
 msgid ""
 "This is even handier with the <option>--stop-on-failure</option> option, "
@@ -472,13 +488,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:400
+#: man-kdesrc-build.1.docbook:415
 #, no-c-format
 msgid "--stop-before=<replaceable>foo</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:404
+#: man-kdesrc-build.1.docbook:419
 #, no-c-format
 msgid ""
 "This is similar to the <option>--resume-from</option> flag. This option "
@@ -489,7 +505,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:412 man-kdesrc-build.1.docbook:430
+#: man-kdesrc-build.1.docbook:427 man-kdesrc-build.1.docbook:445
 #, no-c-format
 msgid ""
 "This flag may be used with <option>--resume-from</option> or <option>--"
@@ -497,13 +513,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:421
+#: man-kdesrc-build.1.docbook:436
 #, no-c-format
 msgid "--stop-after=<replaceable>foo</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:425
+#: man-kdesrc-build.1.docbook:440
 #, no-c-format
 msgid ""
 "This is just like <option>--stop-before</option>, except that the given "
@@ -511,13 +527,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:439
+#: man-kdesrc-build.1.docbook:454
 #, no-c-format
 msgid "--include-dependencies"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:443
+#: man-kdesrc-build.1.docbook:458
 #, no-c-format
 msgid ""
 "This causes <command>kdesrc-build</command> to include not only the modules "
@@ -527,7 +543,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:450
+#: man-kdesrc-build.1.docbook:465
 #, no-c-format
 msgid ""
 "Dependencies are <quote>known</quote> to <command>kdesrc-build</command> "
@@ -540,7 +556,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:460
+#: man-kdesrc-build.1.docbook:475
 #, no-c-format
 msgid ""
 "All known dependencies will be included, which may be more than you need. "
@@ -549,7 +565,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:466
+#: man-kdesrc-build.1.docbook:481
 #, no-c-format
 msgid ""
 "To see just the list of modules that would be built, use <option>--print-"
@@ -557,13 +573,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:475
+#: man-kdesrc-build.1.docbook:490
 #, no-c-format
 msgid "--rebuild-failures"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:479
+#: man-kdesrc-build.1.docbook:494
 #, no-c-format
 msgid ""
 "Use this option to build only those modules which failed to build on a "
@@ -574,7 +590,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:486
+#: man-kdesrc-build.1.docbook:501
 #, no-c-format
 msgid ""
 "Note that the list of <quote>previously-failed modules</quote> is reset "
@@ -584,19 +600,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:492
+#: man-kdesrc-build.1.docbook:507
 #, no-c-format
 msgid "This option was added for kdesrc-build 15.09."
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:498
+#: man-kdesrc-build.1.docbook:513
 #, no-c-format
 msgid "--stop-on-failure"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:502
+#: man-kdesrc-build.1.docbook:517
 #, no-c-format
 msgid ""
 "This option causes the build to abort as soon as a failure occurs. Useful "
@@ -607,13 +623,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:513
+#: man-kdesrc-build.1.docbook:528
 #, no-c-format
 msgid "--ignore-modules"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:517
+#: man-kdesrc-build.1.docbook:532
 #, no-c-format
 msgid ""
 "Forces <emphasis role=\"strong\">ALL</emphasis> modules that follow this "
@@ -623,13 +639,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:528
+#: man-kdesrc-build.1.docbook:543
 #, no-c-format
 msgid "--rc-file=<replaceable>foo</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:532
+#: man-kdesrc-build.1.docbook:547
 #, no-c-format
 msgid ""
 "Use the given file, <replaceable>foo</replaceable>, for the configuration "
@@ -638,13 +654,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:543
+#: man-kdesrc-build.1.docbook:558
 #, no-c-format
 msgid "--prefix=<replaceable>foo</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:547
+#: man-kdesrc-build.1.docbook:562
 #, no-c-format
 msgid ""
 "Overrides the <option>kdedir</option> setting to be <replaceable>foo</"
@@ -656,13 +672,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:561
+#: man-kdesrc-build.1.docbook:576
 #, no-c-format
 msgid "--nice=<replaceable>foo</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:565
+#: man-kdesrc-build.1.docbook:580
 #, no-c-format
 msgid ""
 "Changes the CPU priority given to <command>kdesrc-build</command> (and all "
@@ -673,7 +689,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:573
+#: man-kdesrc-build.1.docbook:588
 #, no-c-format
 msgid ""
 "Note that the possible priorities available on your system may be different "
@@ -687,13 +703,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:588
+#: man-kdesrc-build.1.docbook:603
 #, no-c-format
 msgid "--run=<replaceable>foo</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:592
+#: man-kdesrc-build.1.docbook:607
 #, no-c-format
 msgid ""
 "Runs the program named by <replaceable>foo</replaceable> using "
@@ -703,13 +719,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:603
+#: man-kdesrc-build.1.docbook:618
 #, no-c-format
 msgid "--query=<replaceable>mode</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:607
+#: man-kdesrc-build.1.docbook:622
 #, no-c-format
 msgid ""
 "This command causes <command>kdesrc-build</command> to query a parameter of "
@@ -719,7 +735,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:613
+#: man-kdesrc-build.1.docbook:628
 #, no-c-format
 msgid ""
 "This option must be provided with a <quote>query mode</quote>, which should "
@@ -727,7 +743,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:617
+#: man-kdesrc-build.1.docbook:632
 #, no-c-format
 msgid ""
 "<option>source-dir</option>, which causes <command>kdesrc-build</command> to "
@@ -735,7 +751,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:621
+#: man-kdesrc-build.1.docbook:636
 #, no-c-format
 msgid ""
 "<option>build-dir</option>, which causes <command>kdesrc-build</command> to "
@@ -743,7 +759,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:625
+#: man-kdesrc-build.1.docbook:640
 #, no-c-format
 msgid ""
 "<option>install-dir</option>, which causes <command>kdesrc-build</command> "
@@ -751,7 +767,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:629
+#: man-kdesrc-build.1.docbook:644
 #, no-c-format
 msgid ""
 "<option>project-path</option>, which causes <command>kdesrc-build</command> "
@@ -760,7 +776,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:633
+#: man-kdesrc-build.1.docbook:648
 #, no-c-format
 msgid ""
 "<option>branch</option>, which causes <command>kdesrc-build</command> to "
@@ -770,7 +786,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:639
+#: man-kdesrc-build.1.docbook:654
 #, no-c-format
 msgid ""
 "Otherwise, option names that are valid for modules in the configuration file "
@@ -778,7 +794,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:645
+#: man-kdesrc-build.1.docbook:660
 #, no-c-format
 msgid ""
 "If a single module is passed on the command line, then the output is simply "
@@ -789,13 +805,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:652
+#: man-kdesrc-build.1.docbook:667
 #, no-c-format
 msgid "This option was added with <command>kdesrc-build</command> 16.05."
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:655
+#: man-kdesrc-build.1.docbook:670
 #, no-c-format
 msgid ""
 "For example, the command <quote><command>kdesrc-build</command> <parameter>--"
@@ -806,7 +822,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: man-kdesrc-build.1.docbook:661
+#: man-kdesrc-build.1.docbook:676
 #, no-c-format
 msgid ""
 "kactivities: master\n"
@@ -814,13 +830,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:668
+#: man-kdesrc-build.1.docbook:683
 #, no-c-format
 msgid "--print-modules"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:672
+#: man-kdesrc-build.1.docbook:687
 #, no-c-format
 msgid ""
 "Takes all actions up to and including dependency reordering of the modules "
@@ -829,7 +845,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:678
+#: man-kdesrc-build.1.docbook:693
 #, no-c-format
 msgid ""
 "The <literal>kde-project</literal> metadata is downloaded first (though, see "
@@ -837,7 +853,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:683
+#: man-kdesrc-build.1.docbook:698
 #, no-c-format
 msgid ""
 "The output is not fully compatible with usage by scripts as other output "
@@ -845,7 +861,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:688
+#: man-kdesrc-build.1.docbook:703
 #, no-c-format
 msgid ""
 "This is mostly just useful for quickly determining what <command>kdesrc-"
@@ -856,25 +872,25 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:701
+#: man-kdesrc-build.1.docbook:716
 #, no-c-format
 msgid "--color"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:705
+#: man-kdesrc-build.1.docbook:720
 #, no-c-format
 msgid "Enables \"colorful output\". (Enabled by default)."
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:713
+#: man-kdesrc-build.1.docbook:728
 #, no-c-format
 msgid "--no-color"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:717
+#: man-kdesrc-build.1.docbook:732
 #, no-c-format
 msgid ""
 "Disables \"colorful output\". This can be made permanent by setting the "
@@ -883,13 +899,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:727
+#: man-kdesrc-build.1.docbook:742
 #, no-c-format
 msgid "--async"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:731
+#: man-kdesrc-build.1.docbook:746
 #, no-c-format
 msgid ""
 "Have <command>kdesrc-build</command> start the build process for a module as "
@@ -899,13 +915,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:742
+#: man-kdesrc-build.1.docbook:757
 #, no-c-format
 msgid "--no-async"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:746
+#: man-kdesrc-build.1.docbook:761
 #, no-c-format
 msgid ""
 "Disables asynchronous building of modules. See <option>--async</option> for "
@@ -914,13 +930,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:756
+#: man-kdesrc-build.1.docbook:771
 #, no-c-format
 msgid "-v, --verbose"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:760
+#: man-kdesrc-build.1.docbook:775
 #, no-c-format
 msgid ""
 "Increases the level of verbosity of <command>kdesrc-build</command> output "
@@ -928,13 +944,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:769
+#: man-kdesrc-build.1.docbook:784
 #, no-c-format
 msgid "-q, --quiet"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:773
+#: man-kdesrc-build.1.docbook:788
 #, no-c-format
 msgid ""
 "Makes <command>kdesrc-build</command> less noisy. Only important messages "
@@ -942,13 +958,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:782
+#: man-kdesrc-build.1.docbook:797
 #, no-c-format
 msgid "--really-quiet"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:786
+#: man-kdesrc-build.1.docbook:801
 #, no-c-format
 msgid ""
 "Makes <command>kdesrc-build</command> even less noisy. Only warnings/errors "
@@ -956,13 +972,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:795
+#: man-kdesrc-build.1.docbook:810
 #, no-c-format
 msgid "--debug"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:799
+#: man-kdesrc-build.1.docbook:814
 #, no-c-format
 msgid ""
 "This will fill your terminal with descriptions and debugging output, usually "
@@ -972,13 +988,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:810
+#: man-kdesrc-build.1.docbook:825
 #, no-c-format
 msgid "--force-build"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:814
+#: man-kdesrc-build.1.docbook:829
 #, no-c-format
 msgid ""
 "Normally when <command>kdesrc-build</command> notices that there is no "
@@ -988,13 +1004,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:825
+#: man-kdesrc-build.1.docbook:840
 #, no-c-format
 msgid "--no-snapshots"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:829
+#: man-kdesrc-build.1.docbook:844
 #, no-c-format
 msgid ""
 "Normally <command>kdesrc-build</command> supports using source repository "
@@ -1003,13 +1019,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:839
+#: man-kdesrc-build.1.docbook:854
 #, no-c-format
 msgid "--delete-my-patches"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:843
+#: man-kdesrc-build.1.docbook:858
 #, no-c-format
 msgid ""
 "This option must be passed to allow <command>kdesrc-build</command> to "
@@ -1021,13 +1037,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:856
+#: man-kdesrc-build.1.docbook:871
 #, no-c-format
 msgid "--<replaceable>foo</replaceable>=<replaceable>bar</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:860
+#: man-kdesrc-build.1.docbook:875
 #, no-c-format
 msgid ""
 "Any option not listed above is checked to see if it matches the list of "
@@ -1037,7 +1053,7 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: man-kdesrc-build.1.docbook:871
+#: man-kdesrc-build.1.docbook:886
 #, no-c-format
 msgid ""
 "--set-module-option-value=<replaceable>module</replaceable>,"
@@ -1045,7 +1061,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:875
+#: man-kdesrc-build.1.docbook:890
 #, no-c-format
 msgid ""
 "Like above, but option <option>foo</option> is only set to <option>bar</"
@@ -1056,31 +1072,31 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: man-kdesrc-build.1.docbook:890
+#: man-kdesrc-build.1.docbook:905
 #, no-c-format
 msgid "EXIT STATUS"
 msgstr ""
 
 #. Tag: emphasis
-#: man-kdesrc-build.1.docbook:896
+#: man-kdesrc-build.1.docbook:911
 #, no-c-format
 msgid "<emphasis>0</emphasis>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:900
+#: man-kdesrc-build.1.docbook:915
 #, no-c-format
 msgid "Success"
 msgstr ""
 
 #. Tag: emphasis
-#: man-kdesrc-build.1.docbook:908
+#: man-kdesrc-build.1.docbook:923
 #, no-c-format
 msgid "<emphasis>1</emphasis>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:912
+#: man-kdesrc-build.1.docbook:927
 #, no-c-format
 msgid ""
 "Normally this means some part of the update, build or install process "
@@ -1089,13 +1105,13 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: man-kdesrc-build.1.docbook:922
+#: man-kdesrc-build.1.docbook:937
 #, no-c-format
 msgid "<emphasis>5</emphasis>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:926
+#: man-kdesrc-build.1.docbook:941
 #, no-c-format
 msgid ""
 "A signal was received that killed <command>kdesrc-build</command>, but it "
@@ -1103,25 +1119,25 @@ msgid ""
 msgstr ""
 
 #. Tag: emphasis
-#: man-kdesrc-build.1.docbook:935
+#: man-kdesrc-build.1.docbook:950
 #, no-c-format
 msgid "<emphasis>8</emphasis>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:939
+#: man-kdesrc-build.1.docbook:954
 #, no-c-format
 msgid "Unknown option was passed on the command line."
 msgstr ""
 
 #. Tag: emphasis
-#: man-kdesrc-build.1.docbook:947
+#: man-kdesrc-build.1.docbook:962
 #, no-c-format
 msgid "<emphasis>99</emphasis>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:951
+#: man-kdesrc-build.1.docbook:966
 #, no-c-format
 msgid ""
 "An exception was raised that forced <command>kdesrc-build</command> to abort "
@@ -1129,19 +1145,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: man-kdesrc-build.1.docbook:962
+#: man-kdesrc-build.1.docbook:977
 #, no-c-format
 msgid "ENVIRONMENT"
 msgstr ""
 
 #. Tag: envar
-#: man-kdesrc-build.1.docbook:968
+#: man-kdesrc-build.1.docbook:983
 #, no-c-format
 msgid "HOME"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:972
+#: man-kdesrc-build.1.docbook:987
 #, no-c-format
 msgid ""
 "Used for tilde-expansion of file names, and is the default base for the "
@@ -1149,13 +1165,13 @@ msgid ""
 msgstr ""
 
 #. Tag: envar
-#: man-kdesrc-build.1.docbook:981
+#: man-kdesrc-build.1.docbook:996
 #, no-c-format
 msgid "PATH"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:985
+#: man-kdesrc-build.1.docbook:1000
 #, no-c-format
 msgid ""
 "This environment variable controls the default search path for executables. "
@@ -1164,13 +1180,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: man-kdesrc-build.1.docbook:994
+#: man-kdesrc-build.1.docbook:1009
 #, no-c-format
 msgid "<envar>LC_</envar>*"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:999
+#: man-kdesrc-build.1.docbook:1014
 #, no-c-format
 msgid ""
 "Environment variables starting with LC_ control the locale used by "
@@ -1183,13 +1199,13 @@ msgid ""
 msgstr ""
 
 #. Tag: envar
-#: man-kdesrc-build.1.docbook:1013
+#: man-kdesrc-build.1.docbook:1028
 #, no-c-format
 msgid "SSH_AGENT_PID"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1017
+#: man-kdesrc-build.1.docbook:1032
 #, no-c-format
 msgid ""
 "This environment variable is checked to see if <command>ssh-agent</"
@@ -1199,13 +1215,13 @@ msgid ""
 msgstr ""
 
 #. Tag: envar
-#: man-kdesrc-build.1.docbook:1029
+#: man-kdesrc-build.1.docbook:1044
 #, no-c-format
 msgid "KDESRC_BUILD_USE_TTY"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1033
+#: man-kdesrc-build.1.docbook:1048
 #, no-c-format
 msgid ""
 "If set, this variable forces <command>kdesrc-build</command> not to close "
@@ -1216,13 +1232,13 @@ msgid ""
 msgstr ""
 
 #. Tag: envar
-#: man-kdesrc-build.1.docbook:1046
+#: man-kdesrc-build.1.docbook:1061
 #, no-c-format
 msgid "KDESRC_BUILD_DUMP_CONTEXT"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1050
+#: man-kdesrc-build.1.docbook:1065
 #, no-c-format
 msgid ""
 "If set, this variable prints out a description of its \"build context\" just "
@@ -1231,13 +1247,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: man-kdesrc-build.1.docbook:1059
+#: man-kdesrc-build.1.docbook:1074
 #, no-c-format
 msgid "others"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1064
+#: man-kdesrc-build.1.docbook:1079
 #, no-c-format
 msgid ""
 "Many programs are used by <command>kdesrc-build</command> in the course of "
@@ -1251,20 +1267,20 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: man-kdesrc-build.1.docbook:1082
+#: man-kdesrc-build.1.docbook:1097
 #, no-c-format
 msgid "FILES"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1084
+#: man-kdesrc-build.1.docbook:1099
 #, no-c-format
 msgid ""
 "<filename>~/.kdesrc-buildrc</filename> - Default global configuration file."
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1087
+#: man-kdesrc-build.1.docbook:1102
 #, no-c-format
 msgid ""
 "<filename>./kdesrc-buildrc</filename> - If this file (note there is no "
@@ -1274,7 +1290,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1092
+#: man-kdesrc-build.1.docbook:1107
 #, no-c-format
 msgid ""
 "<filename>~/.kdesrc-build-data</filename> - <command>kdesrc-build</command> "
@@ -1283,13 +1299,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: man-kdesrc-build.1.docbook:1100
+#: man-kdesrc-build.1.docbook:1115
 #, no-c-format
 msgid "BUGS"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1102
+#: man-kdesrc-build.1.docbook:1117
 #, no-c-format
 msgid ""
 "See <ulink url=\"https://bugs.kde.org/\">https://bugs.kde.org/</ulink>. Be "
@@ -1297,19 +1313,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: man-kdesrc-build.1.docbook:1108
+#: man-kdesrc-build.1.docbook:1123
 #, no-c-format
 msgid "EXAMPLE"
 msgstr ""
 
 #. Tag: term
-#: man-kdesrc-build.1.docbook:1113
+#: man-kdesrc-build.1.docbook:1128
 #, no-c-format
 msgid "$ <userinput><command>kdesrc-build</command></userinput>"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1118
+#: man-kdesrc-build.1.docbook:1133
 #, no-c-format
 msgid ""
 "Downloads, builds and installs all modules listed in the configuration file, "
@@ -1317,7 +1333,7 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: man-kdesrc-build.1.docbook:1126
+#: man-kdesrc-build.1.docbook:1141
 #, no-c-format
 msgid ""
 "$ <userinput><command>kdesrc-build</command> <option>--pretend</option></"
@@ -1325,7 +1341,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1131
+#: man-kdesrc-build.1.docbook:1146
 #, no-c-format
 msgid ""
 "Same as above, except no permanent actions are taken (specifically no log "
@@ -1337,7 +1353,7 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: man-kdesrc-build.1.docbook:1143
+#: man-kdesrc-build.1.docbook:1158
 #, no-c-format
 msgid ""
 "$ <userinput><command>kdesrc-build</command> <option>--no-src</option> "
@@ -1345,7 +1361,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1148
+#: man-kdesrc-build.1.docbook:1163
 #, no-c-format
 msgid ""
 "Deletes the build directory for the <emphasis>kdebase</emphasis> module set "
@@ -1354,7 +1370,7 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: man-kdesrc-build.1.docbook:1157
+#: man-kdesrc-build.1.docbook:1172
 #, no-c-format
 msgid ""
 "$ <userinput><command>kdesrc-build</command> <option>--rc-file</option> "
@@ -1362,7 +1378,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1162
+#: man-kdesrc-build.1.docbook:1177
 #, no-c-format
 msgid ""
 "Forces <command>kdesrc-build</command> to read an empty configuration file "
@@ -1372,7 +1388,7 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: man-kdesrc-build.1.docbook:1172
+#: man-kdesrc-build.1.docbook:1187
 #, no-c-format
 msgid ""
 "$ <userinput><command>kdesrc-build</command> <symbol>+kdebase/kde-baseapps</"
@@ -1380,7 +1396,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1177
+#: man-kdesrc-build.1.docbook:1192
 #, no-c-format
 msgid ""
 "Downloads, builds and installs the <symbol>kde-baseapps</symbol> module from "
@@ -1390,7 +1406,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1184
+#: man-kdesrc-build.1.docbook:1199
 #, no-c-format
 msgid ""
 "The <symbol>kdebase/</symbol> portion forces <command>kdesrc-build</command> "
@@ -1400,7 +1416,7 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: man-kdesrc-build.1.docbook:1194
+#: man-kdesrc-build.1.docbook:1209
 #, no-c-format
 msgid ""
 "$ <userinput><command>kdesrc-build</command> <option>--refresh-build</"
@@ -1409,7 +1425,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1199
+#: man-kdesrc-build.1.docbook:1214
 #, no-c-format
 msgid ""
 "Downloads, builds and installs all modules defined in the configuration file "
@@ -1420,13 +1436,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: man-kdesrc-build.1.docbook:1213
+#: man-kdesrc-build.1.docbook:1228
 #, no-c-format
 msgid "SEE ALSO"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1215
+#: man-kdesrc-build.1.docbook:1230
 #, no-c-format
 msgid ""
 "build-tool - A program by Michael Jansen which can build &kde; software "
@@ -1434,13 +1450,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: man-kdesrc-build.1.docbook:1221
+#: man-kdesrc-build.1.docbook:1236
 #, no-c-format
 msgid "RESOURCES"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1223
+#: man-kdesrc-build.1.docbook:1238
 #, no-c-format
 msgid ""
 "Main web site: <ulink url=\"https://kdesrc-build.kde.org/\">https://kdesrc-"
@@ -1448,7 +1464,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1226
+#: man-kdesrc-build.1.docbook:1241
 #, no-c-format
 msgid ""
 "Documentation: <ulink url=\"https://docs.kde.org/index.php?"
@@ -1457,25 +1473,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1229
+#: man-kdesrc-build.1.docbook:1244
 #, no-c-format
 msgid "Setup script: <command>kdesrc-build-setup</command>"
 msgstr ""
 
 #. Tag: title
-#: man-kdesrc-build.1.docbook:1234
+#: man-kdesrc-build.1.docbook:1249
 #, no-c-format
 msgid "COPYING"
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1236
+#: man-kdesrc-build.1.docbook:1251
 #, no-c-format
 msgid "Copyright (C) 2003-2015 Michael Pyne."
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1238
+#: man-kdesrc-build.1.docbook:1253
 #, no-c-format
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
@@ -1485,7 +1501,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1243
+#: man-kdesrc-build.1.docbook:1258
 #, no-c-format
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
@@ -1495,7 +1511,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: man-kdesrc-build.1.docbook:1248
+#: man-kdesrc-build.1.docbook:1263
 #, no-c-format
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
