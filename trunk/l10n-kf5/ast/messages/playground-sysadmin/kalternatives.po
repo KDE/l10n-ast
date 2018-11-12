@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kalternatives\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-08-16 09:14+0200\n"
-"PO-Revision-Date: 2018-10-18 19:16+0100\n"
+"PO-Revision-Date: 2018-11-12 01:44+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
 "Language: ast\n"
@@ -71,12 +71,12 @@ msgstr "Mario Bensi"
 #: src/addalternatives.cpp:42
 #, kde-format
 msgid "Add Alternative"
-msgstr ""
+msgstr "Amiestu d'alternatives"
 
 #: src/addalternatives.cpp:44
 #, kde-format
 msgid "Choose Alternative"
-msgstr ""
+msgstr "Escoyeta d'alternatives"
 
 #: src/addalternatives.cpp:45 src/slavewidget.cpp:22
 #, kde-format
@@ -106,13 +106,13 @@ msgstr "Esclavos:"
 #: src/alternativemodels.cpp:377
 #, kde-format
 msgid "Broken alternative group."
-msgstr ""
+msgstr "Grupu d'alternatives rotu."
 
 #: src/alternativemodels.cpp:434
 #, kde-format
 msgctxt "Groups of alternatives"
 msgid "Groups"
-msgstr ""
+msgstr "Grupos"
 
 #: src/alternativemodels.cpp:747
 #, kde-format
@@ -196,7 +196,7 @@ msgstr ""
 #, kde-format
 msgctxt "Automatic alternative choice"
 msgid "Automatic"
-msgstr ""
+msgstr "Automáticu"
 
 #: src/kalternatives.cpp:88
 #, kde-format
@@ -212,13 +212,13 @@ msgstr "¿De xuru que quies desaniciar l'alternativa «%1»?"
 #: src/kalternatives.cpp:174
 #, kde-format
 msgid "Delete Alternative"
-msgstr ""
+msgstr "Desaniciu de l'alternativa"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PropertiesWindow)
 #: src/kalternatives.cpp:188 src/propertieswindow.ui:14
 #, kde-format
 msgid "Alternative Properties"
-msgstr ""
+msgstr "Propiedaes de l'alternativa"
 
 #: src/kalternatives.cpp:260
 #, kde-format
@@ -235,7 +235,7 @@ msgstr ""
 #: src/mainwindow.ui:42
 #, kde-format
 msgid "This is a list of the available alternative groups."
-msgstr ""
+msgstr "Esto ye una llista de los grupos d'alternatives disponibles."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
 #: src/mainwindow.ui:55
@@ -250,13 +250,15 @@ msgid ""
 "If this option is active, all the alternative groups with only one "
 "alternative available will be hidden from the list."
 msgstr ""
+"Si s'activa esta opción, van anubrise de la llista tolos grupos "
+"d'alterntives con namái una alternativa."
 
 #. i18n: Hide useless alternatives
 #. i18n: ectx: property (text), widget (QCheckBox, m_hideAlt)
 #: src/mainwindow.ui:64
 #, kde-format
 msgid "&Hide useless"
-msgstr ""
+msgstr "&Anubrir lo inútil"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: src/mainwindow.ui:94
@@ -278,12 +280,21 @@ msgid ""
 "</ul>\n"
 "</qt>\n"
 msgstr ""
+"<qt>L'estáu de l'alternativa actual:\n"
+"<ul>\n"
+"<li>Automáticu: el sistema d'alternatives va escoyer siempres l'alternativa "
+"cola prioridá más alta, anovándola (si ye preciso) cuando s'instale o "
+"desanicie otra</li>\n"
+"<li>Manual: la escoyeta faise a mano, el sistema d'alternatives anuévala "
+"namái cuando se desinstala</li>\n"
+"</ul>\n"
+"</qt>\n"
 
 #. i18n: ectx: property (whatsThis), widget (QTreeView, m_optionsList)
 #: src/mainwindow.ui:185
 #, kde-format
 msgid "This shows the alternatives available for the selected group."
-msgstr ""
+msgstr "Esto amuesa les alternatives disponibles pal grupu esbilláu."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_bDelete)
 #: src/mainwindow.ui:236
@@ -318,9 +329,10 @@ msgstr "Camín"
 #: src/slavewidget.cpp:21
 #, kde-format
 msgid "Choose Slave"
-msgstr ""
+msgstr "Escoyeta del esclavu"
 
 #: src/slavewidget.cpp:25
 #, kde-format
 msgid "Slave link for %1:"
-msgstr ""
+msgstr "Enllaz del esclavu pa %1:"
+
