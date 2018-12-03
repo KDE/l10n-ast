@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-03 01:53+0000\n"
+"POT-Creation-Date: 2018-12-03 02:47+0000\n"
 "PO-Revision-Date: 2015-04-02 00:56+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -4544,25 +4544,95 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1777
+#: index.docbook:1776
 #, no-c-format
-msgid "Questions and Answers"
+msgid "Using &kdiff3; as a Git Diff and Merging Tool"
 msgstr ""
 
-#. Tag: chapter
+#. Tag: para
 #: index.docbook:1777
 #, no-c-format
-msgid "&reporting.bugs; &updating.documentation;"
+msgid ""
+"&kdiff3; can be used as a <ulink url=\"https://git-scm.com/\">Git</ulink> "
+"diff and merge tool."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1780
+#, no-c-format
+msgid ""
+"Just add the following lines into your <filename>gitconfig</filename> file."
+msgstr ""
+
+#. Tag: programlisting
+#: index.docbook:1783
+#, no-c-format
+msgid ""
+"[diff]\n"
+"        tool = kdiff3\n"
+"[difftool \"kdiff3\"]\n"
+"        path = &lt;path to kdiff3 binary in your system>\n"
+"[difftool]\n"
+"        prompt = false\n"
+"        keepBackup = false\n"
+"        trustExitCode = false\n"
+"[merge]\n"
+"        tool = kdiff3\n"
+"[mergetool]\n"
+"        prompt = false\n"
+"        keepBackup = false\n"
+"        keepTemporaries = false\n"
+"[mergetool \"kdiff3\"]\n"
+"        path = &lt;path to kdiff3 binary in your system>"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:1784
 #, no-c-format
+msgid ""
+"Then to see the difference between two commits use <userinput>git difftool "
+"<replaceable>first_hash</replaceable> <replaceable>second_hash</replaceable> "
+"--tool=kdiff3 --cc <replaceable>some_file_in_the_git_tree</replaceable></"
+"userinput>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1787
+#, no-c-format
+msgid ""
+"To merge a branch with &kdiff3; use <userinput>git merge "
+"<replaceable>branch_name</replaceable> &amp;&amp; git mergetool --"
+"tool=kdiff3</userinput>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1790
+#, no-c-format
+msgid ""
+"After resolving merging conflicts in the <link linkend=\"synchronise_views"
+"\">usual way</link> it is enough to commit the changes to do the job."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1797
+#, no-c-format
+msgid "Questions and Answers"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:1797
+#, no-c-format
+msgid "&reporting.bugs; &updating.documentation;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1804
+#, no-c-format
 msgid "Why is it called \"&kdiff3;\"?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1786
+#: index.docbook:1806
 #, no-c-format
 msgid ""
 "Tools named \"KDiff\" and \"KDiff2\" (now called \"Kompare\") already exist. "
@@ -4571,13 +4641,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1791
+#: index.docbook:1811
 #, no-c-format
 msgid "Why did I release it under GPL?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1793
+#: index.docbook:1813
 #, no-c-format
 msgid ""
 "I'm using GPL programs for a very long time now and learned very much by "
@@ -4586,13 +4656,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1799
+#: index.docbook:1819
 #, no-c-format
 msgid "Some buttons and functions are missing. What's wrong?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1801
+#: index.docbook:1821
 #, no-c-format
 msgid ""
 "You compiled from source but you probably didn't specify the correct prefix "
@@ -4602,7 +4672,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1808
+#: index.docbook:1828
 #, no-c-format
 msgid ""
 "Often lines that are similar but not identical appear next to each other but "
@@ -4610,7 +4680,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1811
+#: index.docbook:1831
 #, no-c-format
 msgid ""
 "Lines where only the amount of white space characters is different are "
@@ -4621,13 +4691,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1819
+#: index.docbook:1839
 #, no-c-format
 msgid "Why must all conflicts be solved before the merge result can be saved?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1821
+#: index.docbook:1841
 #, no-c-format
 msgid ""
 "For each equal or different section the editor in the merge result window "
@@ -4639,7 +4709,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1830
+#: index.docbook:1850
 #, no-c-format
 msgid ""
 "How can I synchronise the diff and merge views, so that all views show the "
@@ -4647,7 +4717,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1832
+#: index.docbook:1852
 #, no-c-format
 msgid ""
 "Click into the summary column left of the text. (<link linkend="
@@ -4655,14 +4725,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1836
+#: index.docbook:1856
 #, no-c-format
 msgid ""
 "Why does the editor in the merge result window not have an \"undo\"-function?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1838
+#: index.docbook:1858
 #, no-c-format
 msgid ""
 "This was too much effort until now. You can always restore a version from "
@@ -4671,7 +4741,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1844
+#: index.docbook:1864
 #, no-c-format
 msgid ""
 "When I removed some text, then suddenly \"&lt;No src line&gt;\" appeared and "
@@ -4679,7 +4749,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1847
+#: index.docbook:1867
 #, no-c-format
 msgid ""
 "For each equal or different section the editor in the merge result window "
@@ -4692,13 +4762,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1858
+#: index.docbook:1878
 #, no-c-format
 msgid "Why doesn't &kdiff3; support syntax-highlighting?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1860
+#: index.docbook:1880
 #, no-c-format
 msgid ""
 "&kdiff3; already uses many colors for difference highlighting. More "
@@ -4706,14 +4776,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1865
+#: index.docbook:1885
 #, no-c-format
 msgid ""
 "Can I use &kdiff3; to compare OpenOffice.Org, Word, Excel, PDF-, &etc; files?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1867
+#: index.docbook:1887
 #, no-c-format
 msgid ""
 "Although &kdiff3; will analyse any kind of file the result will probably not "
@@ -4721,7 +4791,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1870
+#: index.docbook:1890
 #, no-c-format
 msgid ""
 "&kdiff3; was made to compare pure text files. OpenOffice, Word, Excel etc. "
@@ -4732,7 +4802,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1876
+#: index.docbook:1896
 #, no-c-format
 msgid ""
 "Since most programs nowadays store their contents in XML-format, you might "
@@ -4741,7 +4811,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1880
+#: index.docbook:1900
 #, no-c-format
 msgid ""
 "The best solution if you only want to compare the text (without embedded "
@@ -4752,13 +4822,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1888
+#: index.docbook:1908
 #, no-c-format
 msgid "Where has the directory option \"List only deltas\" gone?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1890
+#: index.docbook:1910
 #, no-c-format
 msgid ""
 "There are now several <link linkend=\"selectingvisiblefiles\">\"Show\"-"
@@ -4767,7 +4837,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1895
+#: index.docbook:1915
 #, no-c-format
 msgid ""
 "How can I make a big selection in the diff input window because scrolling "
@@ -4775,7 +4845,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1898
+#: index.docbook:1918
 #, no-c-format
 msgid ""
 "Start the selection as usual (click and hold the left mouse button). Then "
@@ -4785,32 +4855,32 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1904
+#: index.docbook:1924
 #, no-c-format
 msgid ""
 "There is so much information here, but your question is still not answered?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1906
+#: index.docbook:1926
 #, no-c-format
 msgid "Please send me your question. I appreciate every comment."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1915
+#: index.docbook:1935
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1917
+#: index.docbook:1937
 #, no-c-format
 msgid "&kdiff3; - File and Directory Comparison and Merge Tool"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1920
+#: index.docbook:1940
 #, no-c-format
 msgid ""
 "Program copyright 2002-2007 Joachim Eibl <email>joachim.eibl at gmx.de</"
@@ -4818,7 +4888,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1923
+#: index.docbook:1943
 #, no-c-format
 msgid ""
 "Several cool ideas and bugreports came from colleagues and many people out "
@@ -4826,7 +4896,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1927
+#: index.docbook:1947
 #, no-c-format
 msgid ""
 "Documentation Copyright &copy; 2002-2007 Joachim Eibl <email>joachim.eibl at "
@@ -4834,13 +4904,13 @@ msgid ""
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:1931
+#: index.docbook:1951
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:1931
+#: index.docbook:1951
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
