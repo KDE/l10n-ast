@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-12-10 02:45+0100\n"
-"PO-Revision-Date: 2018-10-18 17:15+0100\n"
+"PO-Revision-Date: 2018-12-18 19:36+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
 "Language: ast\n"
@@ -323,12 +323,12 @@ msgstr "Nome del ficheru"
 #: katefileactions.cpp:106
 #, kde-format
 msgid "File \"%1\" could not be moved to \"%2\""
-msgstr ""
+msgstr "Nun pudo movese'l ficheru «%1» a «%2»"
 
 #: katefileactions.cpp:127
 #, kde-format
 msgid "Do you really want to delete file \"%1\"?"
-msgstr ""
+msgstr "¿De xuru que quies desaniciar el ficheru «%1»?"
 
 #: katefileactions.cpp:128
 #, fuzzy, kde-format
@@ -339,7 +339,7 @@ msgstr "¿Desaniciar el ficheru?"
 #: katefileactions.cpp:143
 #, kde-format
 msgid "File \"%1\" could not be deleted."
-msgstr ""
+msgstr "Nun pudo desaniciase'l ficheru «%1»."
 
 #: katemainwindow.cpp:222
 #, kde-format
@@ -436,16 +436,16 @@ msgid "Reload all open documents."
 msgstr "Recarga tolos documentos abiertos."
 
 #: katemainwindow.cpp:312
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Copy &Path"
 msgid "Copy File &Path"
-msgstr "Copiar &camín"
+msgstr "Copiar el camín del ficheru"
 
 #: katemainwindow.cpp:318 katemainwindow.cpp:328
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Toggles the orientation of the current split view"
 msgid "Copies the file path of the current file to clipboard."
-msgstr "Alterna la orientación de la vista dixebrada actual"
+msgstr "Copia al cartafueyu'l camín del ficheru actual."
 
 #: katemainwindow.cpp:322
 #, kde-format
@@ -453,35 +453,35 @@ msgid "&Open Containing Folder"
 msgstr "&Abrir carpeta contenedora"
 
 #: katemainwindow.cpp:332
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Rename..."
 msgctxt "@action:inmenu"
 msgid "Rename File..."
-msgstr "&Renomar..."
+msgstr "Renomar el ficheru..."
 
 #: katemainwindow.cpp:338
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Close the current document."
 msgid "Renames the file belonging to the current document."
-msgstr "Zarra'l documentu actual."
+msgstr "Renoma'l ficheru al que perteneza'l documentu actual."
 
 #: katemainwindow.cpp:342
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Delete File?"
 msgctxt "@action:inmenu"
 msgid "Delete File"
-msgstr "¿Desaniciar el ficheru?"
+msgstr "Desaniciar el ficheru"
 
 #: katemainwindow.cpp:348 katemainwindow.cpp:358
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Close the current document."
 msgid "Deletes the file belonging to the current document."
-msgstr "Zarra'l documentu actual."
+msgstr "Desanicia'l ficheru al que perteneza'l documentu actual."
 
 #: katemainwindow.cpp:352
 #, kde-format
 msgid "Properties"
-msgstr ""
+msgstr "Propiedaes"
 
 #: katemainwindow.cpp:361 katemainwindow.cpp:364
 #, kde-format
@@ -1138,12 +1138,12 @@ msgstr "Zarra'l documentu actual."
 #: kateviewspace.cpp:657
 #, kde-format
 msgid "Could not start program"
-msgstr ""
+msgstr "Nun pudo aniciase'l programa"
 
 #: kateviewspace.cpp:658
 #, kde-format
 msgid "The selected program could not be started. Maybe it is not installed."
-msgstr ""
+msgstr "Nun pudo aniciase'l programa esbilláu. Quiciabes nun tea instaláu."
 
 #: main.cpp:110
 #, kde-format
@@ -1587,7 +1587,7 @@ msgstr ""
 #: session/katesessionmanagedialog.cpp:354
 #, kde-format
 msgid "Session will be deleted on dialog close"
-msgstr ""
+msgstr "La sesión va desaniciase col zarru del diálogu"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, m_filterBox)
 #: session/katesessionmanagedialog.ui:30
@@ -1605,10 +1605,10 @@ msgstr "Nome de la sesión"
 #. i18n: The number of open documents
 #. i18n: ectx: property (text), widget (QTreeWidget, m_sessionList)
 #: session/katesessionmanagedialog.ui:70
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&File"
 msgid "Files"
-msgstr "&Ficheru"
+msgstr "Ficheros"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_openButton)
 #: session/katesessionmanagedialog.ui:92
@@ -1638,7 +1638,7 @@ msgstr ""
 #: session/katesessionmanagedialog.ui:140
 #, kde-format
 msgid "Duplicate..."
-msgstr ""
+msgstr "Duplicar..."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_renameButton)
 #: session/katesessionmanagedialog.ui:147
@@ -1691,7 +1691,7 @@ msgid "Session name:"
 msgstr "Nome de la sesión:"
 
 #: session/katesessionmanager.cpp:443
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "There is already an existing session with your chosen name.\n"
 #| "Please choose a different one\n"
@@ -1700,8 +1700,8 @@ msgid ""
 "There is already an existing session with your chosen name: %1\n"
 "Please choose a different one."
 msgstr ""
-"Yá hai una sesión col nome escoyíu. Usa otru, por favor\n"
-"Nome de la sesión: "
+"Yá hai una sesión esistente col nome escoyíu: %1\n"
+"Escueyi otro, por favor."
 
 #: session/katesessionmanager.cpp:445
 #, kde-format
@@ -1709,16 +1709,16 @@ msgid "To save a session, you must specify a name."
 msgstr "Pa guardar una sesión has especificar un nome."
 
 #: session/katesessionmanager.cpp:472
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Specify New Name for Session"
 msgid "Specify a name for this session"
-msgstr "Especificación del nome nuevu de la sesión"
+msgstr "Especificación d'un nome pa esta sesión"
 
 #: session/katesessionmanager.cpp:474
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Specify New Name for Session"
 msgid "Specify a new name for session: %1"
-msgstr "Especificación del nome nuevu de la sesión"
+msgstr "Especificación d'un nome pa la sesión %1"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbElements)
 #: ui/sessionconfigwidget.ui:29
