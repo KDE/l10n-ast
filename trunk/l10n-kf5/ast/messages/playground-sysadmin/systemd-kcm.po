@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: systemd-kcm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-08-16 09:14+0200\n"
-"PO-Revision-Date: 2018-12-29 18:19+0100\n"
+"PO-Revision-Date: 2018-12-30 21:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
 "Language: ast\n"
@@ -119,7 +119,7 @@ msgid ""
 "multiple joined hierarchies. Pass an empty string to ensure that systemd "
 "mounts all controllers in separate hierarchies.</p>"
 msgstr ""
-"<p>Controladores que deberíen montase nuna xerarquía individual. Aceuta una "
+"<p>Controladores qu'habrién montase nuna xerarquía individual. Aceuta una "
 "llista serpartada per espacios de nomes de controladores separtaos per comes "
 "pa permitir munches xerarquíes xuníes. Apurri una cadena balera p'asegurar "
 "que systemd monta tolos controladores en xerarquíes separtaes.</p>"
@@ -207,6 +207,7 @@ msgstr ""
 #, kde-format
 msgid "<p>The default time to sleep between automatic restart of units.</p>"
 msgstr ""
+"<p>El tiempu d'espera predetermináu ente'l reaniciu automáticu d'unidaes.</p>"
 
 #: src/confparms.cpp:249
 #, kde-format
@@ -235,18 +236,19 @@ msgstr ""
 #: src/confparms.cpp:279
 #, kde-format
 msgid "<p>Default CPU usage accounting.</p>"
-msgstr "<p>Contabilización predeterminada del usu de la CPU.</p>"
+msgstr "<p>La contabilización predeterminada del usu de la CPU.</p>"
 
 #: src/confparms.cpp:287
 #, kde-format
 msgid "<p>Default block IO accounting.</p>"
-msgstr "<p>Contabilización predeterminada de la E/S de bloques.</p>"
+msgstr "<p>La contabilización predeterminada de la E/S de bloques.</p>"
 
 #: src/confparms.cpp:295
 #, kde-format
 msgid "<p>Default process and kernel memory accounting.</p>"
 msgstr ""
-"<p>Contabilización predeterminada de la memoria de los procesos y el kernel."
+"<p>La contabilización predeterminada de la memoria de los procesos y el"
+" kernel."
 "</p>"
 
 #: src/confparms.cpp:313
@@ -316,7 +318,7 @@ msgid ""
 "<p>Maximum disk space the persistent journal may take up. Defaults to 10% of "
 "file system size.</p>"
 msgstr ""
-"<p>L'espaciu máximu en discu que'l diariu permanente podría coyer. Lo "
+"<p>L'espaciu máximu en discu que'l diariu permanente podría ocupar. Lo "
 "predeterminao ye'l 10% del tamañu del sistema de ficheros.</p>"
 
 #: src/confparms.cpp:398
@@ -343,7 +345,7 @@ msgid ""
 "<p>Maximum disk space the volatile journal may take up. Defaults to 10% of "
 "file system size.</p>"
 msgstr ""
-"<p>L'espaciu máximu en discu que'l diariu volátil podría coyer. Lo "
+"<p>L'espaciu máximu en discu que'l diariu volátil podría ocupar. Lo "
 "predeterminao ye'l 10% del tamañu del sistema de ficheros.</p>"
 
 #: src/confparms.cpp:427
@@ -433,6 +435,9 @@ msgid ""
 "<p>Virtual terminal that shall unconditionally be reserved for autospawning. "
 "Set to 0 to disable.</p>"
 msgstr ""
+"<p>La terminal virtual qu'habría acutase incondicionalmente pa"
+" l'autoaprucida. "
+"Afitar a 0 pa desactivar.</p>"
 
 #: src/confparms.cpp:550
 #, kde-format
@@ -469,6 +474,9 @@ msgid ""
 "<p>Controls whether logind shall handle the system power and sleep keys and "
 "the lid switch to trigger power actions.</p>"
 msgstr ""
+"<p>Controla si logind habría remanar o non los botones de prendíu y"
+" suspensión, "
+"y la tapa del portátil p'activar les aiciones d'enerxía.</p>"
 
 #: src/confparms.cpp:606
 #, kde-format
@@ -516,7 +524,7 @@ msgstr ""
 #: src/confparms.cpp:650
 #, kde-format
 msgid "<p>Configures the action to take when the system is idle.</p>"
-msgstr "Configura l'aición a tomar cuando'l sistema ta inactivu."
+msgstr "<p>Configura l'aición a tomar cuando'l sistema ta inactivu.</p>"
 
 #: src/confparms.cpp:658
 #, kde-format
@@ -541,7 +549,7 @@ msgid ""
 "shall be removed when the user fully logs out.</p>"
 msgstr ""
 "<p>Controla si los oxetos de System V y POSIX IPC que pretenezan al usuariu "
-"deberíen desaniciase o non cuando l'usuariu zarre la sesión dafechu.</p>"
+"habríen desaniciase o non cuando l'usuariu zarre la sesión dafechu.</p>"
 
 #: src/confparms.cpp:693
 #, kde-format
@@ -582,6 +590,9 @@ msgid ""
 "coredumps grows beyond this limit. Defaults to 10% of the total disk size.</"
 "p>"
 msgstr ""
+"<p>Los volquiaos del nucléu vieyos desaníciense namái que l'espaciu total "
+"del discu ocupáu por ellos medre aculla d'esta llende. Lo predeterminao ye'l "
+"10% del espaciu total.</p>"
 
 #: src/confparms.cpp:748
 #, no-c-format, kde-format
@@ -1089,3 +1100,4 @@ msgid "Attempt to contact the systemd daemon through D-Bus system bus failed."
 msgstr ""
 "Falló l'intentu de contautar col degorriu systemd pente'l bus del sistema D-"
 "Bus."
+
