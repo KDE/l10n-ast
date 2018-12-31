@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: systemd-kcm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-08-16 09:14+0200\n"
-"PO-Revision-Date: 2018-12-30 21:17+0100\n"
+"PO-Revision-Date: 2018-12-31 01:41+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
 "Language: ast\n"
@@ -109,7 +109,7 @@ msgstr ""
 #: src/confparms.cpp:115
 #, kde-format
 msgid "<p>The initial CPU affinity for the systemd init process.</p>"
-msgstr ""
+msgstr "<p>L'afinidá inicial de la CPU pal procesu init de systemd.</p>"
 
 #: src/confparms.cpp:123
 #, kde-format
@@ -132,6 +132,11 @@ msgid ""
 "Takes a space-separated list of controller names. Pass the empty string to "
 "ensure that systemd does not touch any hierarchies but its own.</p>"
 msgstr ""
+"<p>Configura en qué xerarquíes del grupu de control crear automáticamente "
+"cgroups per serviciu. amás de la xerarquía col nome name=systemd. "
+"Aceuta una llista separtada per espacios de nomes de controlador. Apurri "
+"una cadena balera p'asegurar que systemd nun toca denguna xerarquía "
+"sinón la d'elli.</p>"
 
 #: src/confparms.cpp:142
 #, kde-format
@@ -142,6 +147,13 @@ msgid ""
 "the specified timeout interval. This feature requires a hardware watchdog "
 "device.</p>"
 msgstr ""
+"<p>El hardware de vixilancia (/dev/watchdog) va programase pa reaniciar "
+"automáticamente'l sistema si nun se contauta con elli dientro de la escosa de "
+"tiempu especificada. El xestor del sistema va asegurase de contautar con elli"
+" polo "
+"menos una vegada na metá de lo especificao. Esta carauterística rique un"
+" preséu "
+"de vixilancia de hardware.</p>"
 
 #: src/confparms.cpp:151
 #, kde-format
@@ -151,6 +163,12 @@ msgid ""
 "reboot takes place even if a clean reboot attempt times out. This feature "
 "requires a hardware watchdog device.</p>"
 msgstr ""
+"<p>Esti axuste podría usase pa configurar la vixilancia del hardware cuando "
+"se-y pida reaniciar al sistema. Funciona como una rede de seguranza"
+" p'asegurar "
+"que'l reaniciu se produza si escosa'l tiempu d'espera d'un reaniciu llimpiu."
+" Esta "
+"carauterística rique un preséu de vixilancia de hardware.</p>"
 
 #: src/confparms.cpp:159
 #, kde-format
@@ -172,6 +190,10 @@ msgid ""
 "processes, unless overridden individually. The timer slack controls the "
 "accuracy of wake-ups triggered by timers.</p>"
 msgstr ""
+"<p>Afita la tolerancia pal PID 1 que dempués herieden tolos procesos "
+"executaos, a nun ser que s'anule individualmente. La tolerancia del "
+"temporizador contola la precisión de los esconsueños aicionaos polos "
+"temporizadores.</p>"
 
 #: src/confparms.cpp:191
 #, kde-format
@@ -179,6 +201,9 @@ msgid ""
 "<p>The default accuracy of timer units. Note that the accuracy of timer "
 "units is also affected by the configured timer slack for PID 1.</p>"
 msgstr ""
+"<p>La precisión predeterminada de les unidaes del temporizador. Decátate "
+"qu'a la precisión de les unidaes del temporizador tamién-y afeuta la "
+"tolerancia configurada del temporizador pal PID 1.</p>"
 
 #: src/confparms.cpp:203
 #, kde-format
@@ -232,6 +257,8 @@ msgid ""
 "<p>Manager environment variables passed to all executed processes. Takes a "
 "space-separated list of variable assignments.</p>"
 msgstr ""
+"<p>Variables d'entornu del xestor apurríes a tolos procesos executaos. Aceuta "
+"una llista separtada per espacios d'asignaciones de variables.</p>"
 
 #: src/confparms.cpp:279
 #, kde-format
@@ -287,6 +314,15 @@ msgid ""
 "system journal. If <i>none</i>, journal files are not split up by user and "
 "all messages are instead stored in the single system journal.</p>"
 msgstr ""
+"<p>Cómo y si deberíen dixebrase los ficheros de rexistru o non. Con"
+"<i>uid</i> tolos usuarios van consiguir los sos ficheros de diariu"
+"independientemente si poseyen una sesión d'aniciu de sesión o non, por"
+"embargu los usuarios del sistema van rexistrase nel diariu del sistema."
+"Con <i>login</i> los usuarios cola sesión iniciada van consiguir los sos"
+"ficheros de diariu, pero los usuarios del sistema y los que nun tengan una"
+"sesión d'aniciu de sesión va rexistrase nel diariu del sistema. Con"
+"<i>none</i> los ficheros de diariu nun los dixebra l'usuariu y tolos"
+"mensaxes atróxense nun diariu individual del sistema.</p>"
 
 #: src/confparms.cpp:362
 #, kde-format
@@ -301,6 +337,8 @@ msgid ""
 "<p>Time interval for rate limiting of log messages. Set to 0 to turn off "
 "rate-limiting.</p>"
 msgstr ""
+"<p>Intervalu de tiempu pa llendar la velocidá de los mensaxes de rexistru. "
+"Afitar a 0 pa desactivar esa llende.</p>"
 
 #: src/confparms.cpp:378
 #, kde-format
@@ -421,6 +459,7 @@ msgstr ""
 #, kde-format
 msgid "<p>Max log level to forward/store to the specified target.</p>"
 msgstr ""
+"<p>Nivel máximu de rexistru p'atroxar/redirixir al destín especificáu.</p>"
 
 #: src/confparms.cpp:533
 #, kde-format
@@ -428,6 +467,8 @@ msgid ""
 "<p>Number of virtual terminals (VTs) to allocate by default and which will "
 "autospawn. Set to 0 to disable.</p>"
 msgstr ""
+"<p>El númberu de terminales virtuales (VTs) a asignar por defeutu y que "
+"van aprucir automáticamente. Afitar a 0 pa desacrivar.</p>"
 
 #: src/confparms.cpp:542
 #, kde-format
@@ -452,6 +493,8 @@ msgid ""
 "<p>Space-separated list of usernames for which only processes will be killed "
 "if KillUserProcesses is enabled.</p>"
 msgstr ""
+"<p>Llista separtada de nomes d'usuariu polos que namái van matase a los "
+"procesos si s'activó KillUserProcesses.</p>"
 
 #: src/confparms.cpp:565
 #, kde-format
@@ -459,6 +502,8 @@ msgid ""
 "<p>Space-separated list of usernames for which processes will be excluded "
 "from being killed if KillUserProcesses is enabled.</p>"
 msgstr ""
+"<p>Llista separtada de nomes d'usuariu polos que van escluyise de la "
+"muerte a los procesos si s'activó KillUserProcesses.</p>"
 
 #: src/confparms.cpp:573
 #, kde-format
@@ -467,6 +512,10 @@ msgid ""
 "due to an inhibitor lock of type delay being active before the inhibitor is "
 "ignored and the operation executes anyway.</p>"
 msgstr ""
+"<p>Especifica'l tiempu máximu que se retrasa una solicitú d'apagáu o"
+" suspensión "
+"del sistema pola mor d'un bloquéu del inhibidor de triba retrasu, activándose "
+"enantes d'inorar l'inhibidor y executar la operación de toes toes.</p>"
 
 #: src/confparms.cpp:597
 #, kde-format
@@ -520,6 +569,9 @@ msgid ""
 "<p>Timeout after system startup or system resume in which systemd will hold "
 "off on reacting to lid events.</p>"
 msgstr ""
+"<p>La escosa del tiempu d'espera tres l'aniciu o reanudación del sistema "
+"nel que systemd va esperar pa reaicionar a los eventos de la tapa del"
+" portátil.</p>"
 
 #: src/confparms.cpp:650
 #, kde-format
@@ -541,6 +593,9 @@ msgid ""
 "<p>Sets the size limit on the $XDG_RUNTIME_DIR runtime directory for each "
 "user who logs in. Percentage of physical RAM.</p>"
 msgstr ""
+"<p>Afita la llende de tamañu del direutoriu en tiempu d'execución "
+"$XDG_RUNTIME_DIR pa cada usuariu qu'anicie sesión. Porcentaxe de la "
+"memoria RAM física.</p>"
 
 #: src/confparms.cpp:680
 #, kde-format
@@ -560,6 +615,13 @@ msgid ""
 "stored in the journal and rotated following normal journal rotation patterns."
 "</p>"
 msgstr ""
+"<p>Controla ónde s'atroxen los nucleos. Con <i>none</i>, los volquiaos del "
+"nucleu van rexistrase pero non atroxase permanentemente. Con <i>external</i>, "
+"los nucleos van atroxase en /var/lib/systemd/coredump. Con <i>journal</i>, "
+"los nucleos van atroxase nel diariu y rotase siguiendo los patrones de"
+" rotación "
+"normales."
+"</p>"
 
 #: src/confparms.cpp:701
 #, kde-format
@@ -1100,4 +1162,5 @@ msgid "Attempt to contact the systemd daemon through D-Bus system bus failed."
 msgstr ""
 "Falló l'intentu de contautar col degorriu systemd pente'l bus del sistema D-"
 "Bus."
+
 
