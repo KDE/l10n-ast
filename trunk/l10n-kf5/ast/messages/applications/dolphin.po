@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-03-28 02:56+0100\n"
+"POT-Creation-Date: 2019-04-10 03:00+0200\n"
 "PO-Revision-Date: 2019-02-18 13:19+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -610,7 +610,7 @@ msgstr "Balerar papelera"
 msgid "Running Dolphin as root can be dangerous. Please be careful."
 msgstr "Executar Dolphin como root pue ser peligroso. Ten curiáu, por favor."
 
-#: dolphinviewcontainer.cpp:401 search/dolphinsearchbox.cpp:311
+#: dolphinviewcontainer.cpp:401 search/dolphinsearchbox.cpp:308
 #, kde-format
 msgid "Search for %1 in %2"
 msgstr "Gueta de %1 en %2"
@@ -1730,47 +1730,63 @@ msgctxt "@option:option"
 msgid "Highest Rating"
 msgstr "La valoración más alta"
 
-#: search/dolphinsearchbox.cpp:100
+#: search/dolphinsearchbox.cpp:104
 #, kde-format
 msgctxt "action:button"
 msgid "From Here (%1)"
 msgstr "Dende equí (%1)"
 
-#: search/dolphinsearchbox.cpp:358
+#: search/dolphinsearchbox.cpp:105
+#, kde-format
+msgctxt "action:button"
+msgid "Limit search to '%1' and its subfolders"
+msgstr ""
+
+#: search/dolphinsearchbox.cpp:355
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Quit searching"
 msgstr "Colar de la gueta"
 
-#: search/dolphinsearchbox.cpp:378
+#: search/dolphinsearchbox.cpp:375
 #, kde-format
 msgctxt "action:button"
 msgid "Save this search to quickly access it again in the future"
 msgstr "Guardar esta gueta p'acceder a ella más rápido nel futuru"
 
-#: search/dolphinsearchbox.cpp:392
+#: search/dolphinsearchbox.cpp:389
 #, kde-format
 msgctxt "action:button"
 msgid "Filename"
 msgstr "Nome de ficheru"
 
-#: search/dolphinsearchbox.cpp:396
+#: search/dolphinsearchbox.cpp:393
 #, kde-format
 msgctxt "action:button"
 msgid "Content"
 msgstr "Conteníu"
 
-#: search/dolphinsearchbox.cpp:407
+#: search/dolphinsearchbox.cpp:404
 #, kde-format
 msgctxt "action:button"
 msgid "From Here"
 msgstr "Dende equí"
 
-#: search/dolphinsearchbox.cpp:411
-#, kde-format
+#: search/dolphinsearchbox.cpp:408
+#, fuzzy, kde-format
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
 msgctxt "action:button"
-msgid "Everywhere"
-msgstr "En tolos llaos"
+msgid "Your files"
+msgstr "alministradores@softastur.org"
+
+#: search/dolphinsearchbox.cpp:409
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Limit to Home Directory"
+msgctxt "action:button"
+msgid "Search in your home directory"
+msgstr "Llendar al direutoriu Aniciu"
 
 #: search/dolphinsearchbox.cpp:423
 #, kde-format
@@ -3300,6 +3316,10 @@ msgstr " # va trocase por númberos ascendentes apenzando pel:"
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Anovando la información de les versiones..."
+
+#~ msgctxt "action:button"
+#~ msgid "Everywhere"
+#~ msgstr "En tolos llaos"
 
 #~ msgctxt "@item:intable Image orientation"
 #~ msgid "Unchanged"
