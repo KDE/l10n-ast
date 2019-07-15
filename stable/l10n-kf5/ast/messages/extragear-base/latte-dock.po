@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-11 02:33+0200\n"
+"POT-Creation-Date: 2019-07-15 07:10+0200\n"
 "PO-Revision-Date: 2018-05-22 15:57+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -365,6 +365,47 @@ msgstr ""
 msgid "Translations"
 msgstr ""
 
+#: app/screenpool.cpp:112
+#, kde-format
+msgctxt "screen id"
+msgid "ID"
+msgstr ""
+
+#: app/screenpool.cpp:113
+#, kde-format
+msgctxt "screen name"
+msgid "Name"
+msgstr ""
+
+#: app/screenpool.cpp:114
+#, kde-format
+msgctxt "screen type"
+msgid "Type"
+msgstr ""
+
+#: app/screenpool.cpp:115
+#, kde-format
+msgid "Docks/Panels"
+msgstr ""
+
+#: app/screenpool.cpp:144
+#, kde-format
+msgctxt "primary screen"
+msgid "Primary"
+msgstr ""
+
+#: app/screenpool.cpp:146
+#, kde-format
+msgctxt "secondary screen"
+msgid "Secondary"
+msgstr ""
+
+#: app/screenpool.cpp:154
+#, kde-format
+msgctxt "it has not latte docks/panels"
+msgid "none"
+msgstr ""
+
 #: app/settings/delegates/colorcmbboxdelegate.cpp:76
 #, kde-format
 msgid "Custom background..."
@@ -375,50 +416,74 @@ msgstr ""
 msgid "Custom text color..."
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:154
+#: app/settings/settingsdialog.cpp:155
 #, kde-format
 msgid "File"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:157
+#: app/settings/settingsdialog.cpp:158
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:64
+#, kde-format
+msgid "Layout"
+msgstr ""
+
+#: app/settings/settingsdialog.cpp:162
 #, kde-format
 msgid "Help"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:161
+#: app/settings/settingsdialog.cpp:166
 #, kde-format
-msgid "Quit Latte"
+msgid "Sc&reens..."
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:165
+#: app/settings/settingsdialog.cpp:170
+#, fuzzy, kde-format
+#| msgid "About Latte"
+msgid "&Quit Latte"
+msgstr "Tocante a Latte"
+
+#: app/settings/settingsdialog.cpp:174
+#, kde-format
+msgctxt "edit layout"
+msgid "&Edit..."
+msgstr ""
+
+#: app/settings/settingsdialog.cpp:179
+#, kde-format
+msgctxt "layout information"
+msgid "&Information..."
+msgstr ""
+
+#: app/settings/settingsdialog.cpp:183
 #, kde-format
 msgid "About Latte"
 msgstr "Tocante a Latte"
 
-#: app/settings/settingsdialog.cpp:528
+#: app/settings/settingsdialog.cpp:556
 #, kde-format
 msgctxt "import layout/configuration"
 msgid "Import Layout/Configuration"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:537
+#: app/settings/settingsdialog.cpp:565
 #, kde-format
 msgctxt "import latte layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:538
+#: app/settings/settingsdialog.cpp:566
 #, kde-format
 msgctxt "import latte layouts/configuration"
 msgid "Latte Dock Full Configuration file (v0.1, v0.2)"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:554
+#: app/settings/settingsdialog.cpp:582
 #, kde-format
 msgid "Import: Configuration file version v0.1"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:556
+#: app/settings/settingsdialog.cpp:584
 #, kde-format
 msgid ""
 "You are going to import an old version <b>v0.1</b> configuration file."
@@ -427,24 +492,24 @@ msgid ""
 "safely</b> from this file<br><b>only the contained layouts...</b></i>"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:561
+#: app/settings/settingsdialog.cpp:589
 #, kde-format
 msgctxt "import full configuration"
 msgid "Full Configuration"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:563
+#: app/settings/settingsdialog.cpp:591
 #, kde-format
 msgctxt "import only the layouts"
 msgid "Only Layouts"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:589
+#: app/settings/settingsdialog.cpp:617
 #, kde-format
 msgid "Import: Configuration file version v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:591
+#: app/settings/settingsdialog.cpp:619
 #, kde-format
 msgid ""
 "You are going to import a <b>v0.2</b> configuration file.<br><b>Be careful</"
@@ -452,125 +517,130 @@ msgid ""
 "<br><br><i>Would you like to proceed?</i>"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:636
+#: app/settings/settingsdialog.cpp:664
 #, kde-format
 msgctxt "layout"
 msgid "Alternative"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:666
+#: app/settings/settingsdialog.cpp:694
 #, kde-format
 msgctxt "export layout/configuration"
 msgid "Export Layout/Configuration"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:674
+#: app/settings/settingsdialog.cpp:702
 #, kde-format
 msgctxt "export layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:675
+#: app/settings/settingsdialog.cpp:703
 #, kde-format
 msgctxt "export full configuration"
 msgid "Latte Dock Full Configuration file v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:689
+#: app/settings/settingsdialog.cpp:717
 #, kde-format
 msgctxt "export layout"
 msgid "Failed to export layout"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:716
+#: app/settings/settingsdialog.cpp:744
 #, kde-format
 msgctxt "export layout"
 msgid "Open location"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:717
+#: app/settings/settingsdialog.cpp:745
 #, kde-format
 msgctxt "export layout"
 msgid "Layout exported successfully"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:728
+#: app/settings/settingsdialog.cpp:756
 #, kde-format
 msgctxt "import/export config"
 msgid "Failed to export configuration"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:735
+#: app/settings/settingsdialog.cpp:763
 #, kde-format
 msgctxt "import/export config"
 msgid "Open location"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:736
+#: app/settings/settingsdialog.cpp:764
 #, kde-format
 msgctxt "import/export config"
 msgid "Full Configuration exported successfully"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:905
+#: app/settings/settingsdialog.cpp:933
 #, kde-format
 msgctxt "import-done"
 msgid "Layout: <b>%0</b> imported successfully<br>"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:997
+#: app/settings/settingsdialog.cpp:1025
 #, kde-format
 msgctxt "column for layout background"
 msgid "Background"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:998
+#: app/settings/settingsdialog.cpp:1026
 #, kde-format
 msgctxt "column for layout name"
 msgid "Name"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:999
+#: app/settings/settingsdialog.cpp:1027
 #, kde-format
 msgctxt "column for layout to show in menu"
 msgid "In Menu"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:1000
+#: app/settings/settingsdialog.cpp:1028
 #, kde-format
 msgctxt "column for layout to hide borders for maximized windows"
 msgid "Borderless"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:1002
+#: app/settings/settingsdialog.cpp:1030
 #, kde-format
 msgctxt "column for layout to show which activities is assigned to"
 msgid "Activities"
 msgstr "Actividaes"
 
-#: app/settings/settingsdialog.cpp:1004
+#: app/settings/settingsdialog.cpp:1032
 #, kde-format
 msgctxt "column for shared layout to show which layouts is assigned to"
 msgid "Shared To"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:1059 app/settings/settingsdialog.cpp:1498
+#: app/settings/settingsdialog.cpp:1087 app/settings/settingsdialog.cpp:1533
 #, kde-format
 msgid "Layout Warning"
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:1060
+#: app/settings/settingsdialog.cpp:1088
 #, kde-format
 msgid ""
 "The layout(s) <b>%0</b> have <i>broken configuration</i>!!! Please <b>remove "
 "them</b> to improve the system stability..."
 msgstr ""
 
-#: app/settings/settingsdialog.cpp:1499
+#: app/settings/settingsdialog.cpp:1534
 #, kde-format
 msgid ""
 "There are layouts with the same name, that is not permitted!!! Please update "
 "these names to re-apply the changes..."
+msgstr ""
+
+#: app/settings/settingsdialog.cpp:1579
+#, kde-format
+msgid "Screens Information"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
@@ -1073,11 +1143,6 @@ msgstr ""
 #: shell/package/contents/configuration/LatteDockConfiguration.qml:683
 #, kde-format
 msgid "Close settings window"
-msgstr ""
-
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:64
-#, kde-format
-msgid "Layout"
 msgstr ""
 
 #: shell/package/contents/configuration/pages/AppearanceConfig.qml:128
