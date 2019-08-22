@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-01 03:05:47.788048\n"
+"POT-Creation-Date: 2019-08-22 03:11:46.162647\n"
 "PO-Revision-Date: 2019-08-10 16:38+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -14,27 +14,53 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.04.3\n"
 
-#: general_error_port_disconnect:0
+#: browseraction_title:0
+#, fuzzy
+#| msgctxt "Title for settings page"
+#| msgid "Plasma Integration Settings"
+msgctxt "Title for toolbar popup"
+msgid "Plasma Browser Integration"
+msgstr "Axustes de la integración con Plasma"
+
+#: general_error_host_disconnected_title:0
+#, fuzzy
+#| msgctxt ""
+#| "When the binary bridge between browser and Plasma quit (usually it "
+#| "crashed or was otherwise killed), placeholder is the reason"
+#| msgid "The native host disconnected unexpectedly: $1"
 msgctxt ""
-"When the binary bridge between browser and Plasma quit (usually it crashed "
-"or was otherwise killed), placeholder is the reason"
-msgid "The native host disconnected unexpectedly: $1"
+"Title for plasma-browser-integration-host binary unexpectedly closing/"
+"crashing"
+msgid "The native host disconnected unexpectedly."
 msgstr "L'agospiu nativu desconeutóse inesperadamente: $1"
 
-#: general_error_port_startupfail:0
-msgctxt ""
-"When the binary bridge between browser and Plasma failed to start (e.g. not "
-"installed)"
-msgid ""
-"Failed to connect to the native host. Make sure the 'plasma-browser-"
-"integration' package is installed."
-msgstr ""
-"Fallu al coneutar col agospiu nativu. Asegúrate que'l paquete «plasma-"
-"browser-integration» tea instaláu."
+#: general_error_not_supported_os:0
+#, fuzzy
+#| msgid "This extension is not supported on this operating system."
+msgid "This extension is only supported on Linux and FreeBSD."
+msgstr "Esta estensión nun ta sofitada nesti sistema operativu."
 
-#: general_error_title:0
-msgctxt "Title message for most error notifications"
-msgid "Plasma Browser Integration Error"
+#: general_error_not_supported_os_title:0
+#, fuzzy
+#| msgid "This extension is not supported on this operating system."
+msgid "Unsupported operating system"
+msgstr "Esta estensión nun ta sofitada nesti sistema operativu."
+
+#: general_error_startup_failed:0
+msgctxt ""
+"Description for failure to start plasma-browser-integration-host binary"
+msgid ""
+"Make sure the 'plasma-browser-integration' package is installed correctly "
+"and that you are running Plasma 5.13 or later."
+msgstr ""
+
+#: general_error_startup_failed_title:0
+msgctxt "Title for failure to start plasma-browser-integration-host binary"
+msgid "Failed to connect to the native host."
+msgstr ""
+
+#: general_error_startup_failed_wiki_link:0
+msgid "Visit project wiki page for more information"
 msgstr ""
 
 #: general_error_unknown:0
@@ -161,9 +187,13 @@ msgstr ""
 "Mandu multimedia."
 
 #: options_plugin_mpris_media_sessions_description:0
+#, fuzzy
+#| msgctxt "Description for MediaSessions API Control plugin"
+#| msgid ""
+#| "Extract metadata and thumbnails of currently playing content. "
+#| "(Experimental)"
 msgctxt "Description for MediaSessions API Control plugin"
-msgid ""
-"Extract metadata and thumbnails of currently playing content. (Experimental)"
+msgid "Extract metadata and thumbnails of currently playing content."
 msgstr ""
 "Estrái los metadatos y miniatures del conteníu que tea reproduciéndose. "
 "(Esperimental)"
@@ -227,3 +257,13 @@ msgid ""
 "\n"
 "NOTE: This extension is not supported on Debian."
 msgstr ""
+
+#~ msgctxt ""
+#~ "When the binary bridge between browser and Plasma failed to start (e.g. "
+#~ "not installed)"
+#~ msgid ""
+#~ "Failed to connect to the native host. Make sure the 'plasma-browser-"
+#~ "integration' package is installed."
+#~ msgstr ""
+#~ "Fallu al coneutar col agospiu nativu. Asegúrate que'l paquete «plasma-"
+#~ "browser-integration» tea instaláu."
