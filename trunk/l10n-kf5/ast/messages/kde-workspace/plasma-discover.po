@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-18 03:31+0200\n"
+"POT-Creation-Date: 2019-10-22 03:10+0200\n"
 "PO-Revision-Date: 2019-10-22 02:06+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian\n"
@@ -174,14 +174,22 @@ msgstr "Amestar"
 msgid "Cancel"
 msgstr "Encaboxar"
 
-#: discover/qml/ApplicationDelegate.qml:96 discover/qml/ApplicationPage.qml:146
+#: discover/qml/ApplicationDelegate.qml:88
+#, kde-format
+msgctxt "Part of a string like this: '<app name> - <category>'"
+msgid "- %1"
+msgstr ""
+
+#: discover/qml/ApplicationDelegate.qml:111
+#: discover/qml/ApplicationPage.qml:146
 #, kde-format
 msgid "%1 rating"
 msgid_plural "%1 ratings"
 msgstr[0] "%1 valoración"
 msgstr[1] "%1 valoraciones"
 
-#: discover/qml/ApplicationDelegate.qml:96 discover/qml/ApplicationPage.qml:146
+#: discover/qml/ApplicationDelegate.qml:111
+#: discover/qml/ApplicationPage.qml:146
 #, kde-format
 msgid "No ratings yet"
 msgstr "Entá nun hai valoraciones"
@@ -416,7 +424,6 @@ msgid "Hide"
 msgstr ""
 
 #: discover/qml/DiscoverWindow.qml:231 discover/qml/SourcesPage.qml:120
-#: discover/qml/UpdatesPage.qml:50
 #, kde-format
 msgid "Proceed"
 msgstr ""
@@ -674,6 +681,11 @@ msgstr "Backends que falten"
 #, kde-format
 msgid "Updates"
 msgstr "Anovamientos"
+
+#: discover/qml/UpdatesPage.qml:50
+#, kde-format
+msgid "OK"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:73
 #, kde-format
