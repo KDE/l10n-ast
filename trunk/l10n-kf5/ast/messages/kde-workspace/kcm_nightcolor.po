@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-25 03:34+0200\n"
+"POT-Creation-Date: 2019-12-14 03:31+0100\n"
 "PO-Revision-Date: 2019-12-06 12:58+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -37,131 +37,176 @@ msgstr "Color nocherniegu"
 msgid "Roman Gilg"
 msgstr "Roman Gilg"
 
-#: package/contents/ui/LocationsAutoView.qml:32
-#: package/contents/ui/LocationsFixedView.qml:37
-#, kde-format
-msgid "Latitude:"
-msgstr "Llatitú:"
-
-#: package/contents/ui/LocationsAutoView.qml:39
-#: package/contents/ui/LocationsFixedView.qml:49
-#, kde-format
-msgid "Longitude:"
-msgstr "Llonxitú:"
-
-#: package/contents/ui/LocationsFixedView.qml:60
+#: package/contents/ui/LocationsFixedView.qml:36
 #, kde-format
 msgid "Detect Location"
 msgstr "Deteutar l'allugamientu"
 
-#: package/contents/ui/main.qml:111
+#: package/contents/ui/LocationsFixedView.qml:50
 #, kde-format
-msgid "Night Color makes the colors on the screen warmer to reduce eye strain."
+msgid "Latitude:"
+msgstr "Llatitú:"
+
+#: package/contents/ui/LocationsFixedView.qml:63
+#, kde-format
+msgid "Longitude:"
+msgstr "Llonxitú:"
+
+#: package/contents/ui/main.qml:112
+#, fuzzy, kde-format
+#| msgid ""
+#| "Night Color makes the colors on the screen warmer to reduce eye strain."
+msgid ""
+"Night Color makes the colors on the screen warmer to reduce eye strain at "
+"the time of your choosing."
 msgstr ""
 "Color nocherniegu fai que los colores de la pantalla seyan más caldios "
 "p'amenorgar el cansanciu de güeyos"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:130
 #, kde-format
 msgid "Activate Night Color"
 msgstr "Activar"
 
-#: package/contents/ui/main.qml:135
-#, kde-format
-msgid "Night Color temperature:"
+#: package/contents/ui/main.qml:145
+#, fuzzy, kde-format
+#| msgid "Night Color temperature:"
+msgid "Night Color Temperature:"
 msgstr "Temperatura:"
 
-#: package/contents/ui/main.qml:158
+#: package/contents/ui/main.qml:169
 #, kde-format
 msgid " K"
 msgstr " K"
 
-#: package/contents/ui/main.qml:162
+#: package/contents/ui/main.qml:173
 #, kde-format
 msgctxt "Night colour red-ish"
 msgid "Warm"
 msgstr "Caldiu"
 
-#: package/contents/ui/main.qml:168
+#: package/contents/ui/main.qml:179
 #, kde-format
 msgctxt "Night colour blue-ish"
 msgid "Cool"
 msgstr "Fríu"
 
-#: package/contents/ui/main.qml:179
+#: package/contents/ui/main.qml:192
 #, kde-format
-msgid "Operation mode:"
-msgstr "Mou d'operación:"
+msgid "Activation time:"
+msgstr ""
 
-#: package/contents/ui/main.qml:182
+#: package/contents/ui/main.qml:195
 #, kde-format
-msgid "Automatic"
-msgstr "Automáticu"
+msgid "Sunset to sunrise at current location"
+msgstr ""
 
-#: package/contents/ui/main.qml:183
+#: package/contents/ui/main.qml:196
 #, kde-format
-msgid "Location"
-msgstr "Allugamientu"
+msgid "Sunset to sunrise at manual location"
+msgstr ""
 
-#: package/contents/ui/main.qml:184
+#: package/contents/ui/main.qml:197
 #, kde-format
-msgid "Times"
-msgstr "Hora"
+msgid "Custom time"
+msgstr ""
 
-#: package/contents/ui/main.qml:185
+#: package/contents/ui/main.qml:198
 #, kde-format
-msgid "Constant"
-msgstr "Constante"
+msgid "Always on"
+msgstr ""
 
-#: package/contents/ui/main.qml:299 package/contents/ui/TimingsView.qml:38
+#: package/contents/ui/main.qml:212
 #, kde-format
-msgid "Sunrise begins:"
-msgstr "Risca a les:"
+msgid "Latitude: %1   Longitude: %2"
+msgstr ""
 
-#: package/contents/ui/main.qml:306
+#: package/contents/ui/main.qml:221
 #, kde-format
-msgid "(Input format: HH:MM)"
-msgstr "(Formatu d'entrada: HH:MM)"
+msgid "Turn on at:"
+msgstr ""
 
-#: package/contents/ui/main.qml:312 package/contents/ui/TimingsView.qml:52
-#, kde-format
-msgid "Sunset begins:"
-msgstr "Escurez a les:"
-
-#: package/contents/ui/main.qml:319
+#: package/contents/ui/main.qml:228 package/contents/ui/main.qml:244
 #, kde-format
 msgid "Input format: HH:MM"
 msgstr "Formatu d'entrada: HH:MM"
 
-#: package/contents/ui/main.qml:327
+#: package/contents/ui/main.qml:237
+#, kde-format
+msgid "Turn off at:"
+msgstr ""
+
+#: package/contents/ui/main.qml:253
 #, kde-format
 msgid "Transition duration:"
 msgstr "Duración de la transición:"
 
-#: package/contents/ui/main.qml:337
+#: package/contents/ui/main.qml:263
 #, kde-format
 msgid "%1 minute"
 msgid_plural "%1 minutes"
 msgstr[0] "%1 minutu"
 msgstr[1] "%1 minutos"
 
-#: package/contents/ui/main.qml:344
+#: package/contents/ui/main.qml:270
 #, kde-format
 msgid "Input minutes - min. 1, max. 600"
 msgstr "Introducción de minutos: mín. 1, máx. 600"
 
-#: package/contents/ui/main.qml:352
+#: package/contents/ui/main.qml:278
 #, kde-format
 msgid "Error: Morning is before evening."
 msgstr "Fallu: La mañana ye anterior a la nueche."
 
-#: package/contents/ui/main.qml:368
+#: package/contents/ui/main.qml:294
 #, kde-format
 msgid "Error: Transition time overlaps."
 msgstr "Fallu: La hora de transición sobreponse"
 
 #: package/contents/ui/TimingsView.qml:45
-#: package/contents/ui/TimingsView.qml:59
+#, fuzzy, kde-format
+#| msgid "Night Color"
+msgid "Night Color begins at %1"
+msgstr "Color nocherniegu"
+
+#: package/contents/ui/TimingsView.qml:49
 #, kde-format
-msgid "...and ends:"
-msgstr "…y termina a les:"
+msgid "Color fully changed at %1"
+msgstr ""
+
+#: package/contents/ui/TimingsView.qml:58
+#, kde-format
+msgid "Night Color begins changing back at %1"
+msgstr ""
+
+#: package/contents/ui/TimingsView.qml:62
+#, kde-format
+msgid "Normal coloration restored by %1"
+msgstr ""
+
+#~ msgid "Operation mode:"
+#~ msgstr "Mou d'operación:"
+
+#~ msgid "Automatic"
+#~ msgstr "Automáticu"
+
+#~ msgid "Location"
+#~ msgstr "Allugamientu"
+
+#~ msgid "Times"
+#~ msgstr "Hora"
+
+#~ msgid "Constant"
+#~ msgstr "Constante"
+
+#~ msgid "Sunrise begins:"
+#~ msgstr "Risca a les:"
+
+#~ msgid "(Input format: HH:MM)"
+#~ msgstr "(Formatu d'entrada: HH:MM)"
+
+#~ msgid "Sunset begins:"
+#~ msgstr "Escurez a les:"
+
+#~ msgid "...and ends:"
+#~ msgstr "…y termina a les:"
