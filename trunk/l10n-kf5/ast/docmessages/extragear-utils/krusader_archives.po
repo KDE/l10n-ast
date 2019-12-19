@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-04 01:51+0000\n"
+"POT-Creation-Date: 2019-12-19 02:49+0000\n"
 "PO-Revision-Date: 2015-04-02 00:58+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -41,26 +41,26 @@ msgid ""
 "browse archives as if it was a directory. Currently &krusader; supports the "
 "following archives types: ace, arj, bzip2, deb, gzip, iso, lha, rar, rpm, "
 "tar, xz, zip, and 7-zip and supports the following passworded archives: arj, "
-"ace, rar and zip. Passwords can be stored in <application>Kwallet</"
+"ace, rar and zip. Passwords can be stored in <application>KWallet</"
 "application>. Please note that the archive support first needs to be "
 "properly <link linkend=\"konfig-archives\">configured</link> in "
-"Konfigurator. To open the archive, use &Enter;, (double-)click or the "
-"<keycap>Right Arrow</keycap>. &krusader; supports also <emphasis role=\"bold"
-"\">hidden archives</emphasis>, these are renamed archives with a *wrong* "
-"extension, &eg; <trademark class=\"registered\">OpenOffice</trademark> uses "
-"zip archives with the following extensions: <literal role=\"extension\">."
-"odt</literal>, <literal role=\"extension\">.sxw</literal> and <literal role="
+"Konfigurator. To open the archive, use &Enter; key, (double-)click or the "
+"&Right; key. &krusader; supports also <emphasis role=\"bold\">hidden "
+"archives</emphasis>, these are renamed archives with a *wrong* extension, "
+"&eg; <trademark class=\"registered\">OpenOffice</trademark> uses zip "
+"archives with the following extensions: <literal role=\"extension\">.odt</"
+"literal>, <literal role=\"extension\">.sxw</literal> and <literal role="
 "\"extension\">.odw</literal>. &Enter; will open the <trademark class="
-"\"registered\">OpenOffice</trademark> document and the <keycap>Right Arrow</"
-"keycap> will open the archive. Another example is J2EE, where the <literal "
-"role=\"extension\">.jar</literal> extension means a zip archive. Since "
-"&krusader; auto-detects the supported archive types, it will open with "
-"<keycap>Right Arrow</keycap> even if it has another MIME type. Please note "
-"that browsing archives has a few limitations:"
+"\"registered\">OpenOffice</trademark> document and the &Right; key will open "
+"the archive. Another example is J2EE, where the <literal role=\"extension\">."
+"jar</literal> extension means a zip archive. Since &krusader; auto-detects "
+"the supported archive types, it will open with &Right; key even if it has "
+"another &MIME; type. Please note that browsing archives has a few "
+"limitations:"
 msgstr ""
 
 #. Tag: para
-#: archives.docbook:53
+#: archives.docbook:52
 #, no-c-format
 msgid ""
 "Not all functions are supported by all archive types. (&ie;: you can not "
@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: archives.docbook:58
+#: archives.docbook:57
 #, no-c-format
 msgid ""
 "The permissions you have inside the archive are the same as the permissions "
@@ -76,7 +76,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: archives.docbook:62
+#: archives.docbook:61
 #, no-c-format
 msgid ""
 "The command line (if visible) will not follow you inside the archive but "
@@ -84,7 +84,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: archives.docbook:67
+#: archives.docbook:66
 #, no-c-format
 msgid ""
 "Before any action is performed on files/directories inside the archive, they "
@@ -93,28 +93,28 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: archives.docbook:74
+#: archives.docbook:73
 #, no-c-format
 msgid ""
-"Packing and un-packing are \"blocking operations\" that display a progress "
-"dialog. However, this might change in the future since we are planning to "
-"create more background operations."
+"Packing and un-packing are <quote>blocking operations</quote> that display a "
+"progress dialog. However, this might change in the future since we are "
+"planning to create more background operations."
 msgstr ""
 
 #. Tag: title
-#: archives.docbook:82
+#: archives.docbook:81
 #, no-c-format
 msgid "Unpack Files"
 msgstr ""
 
 #. Tag: para
-#: archives.docbook:83
+#: archives.docbook:82
 #, no-c-format
 msgid "There are 2 ways to extract files from archives:"
 msgstr ""
 
 #. Tag: para
-#: archives.docbook:84
+#: archives.docbook:83
 #, no-c-format
 msgid ""
 "If you want to unpack a whole archive(s), browse to the archive location, "
@@ -127,55 +127,56 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: archives.docbook:97
+#: archives.docbook:96
 #, no-c-format
 msgid ""
 "If you only want to extract a part of the archive, then <link linkend="
 "\"browsing-archives\">browse</link> the archive and copy the files you want "
-"to extract to their new location just as you would copy \"normal\" files. "
-"Note that unpacking from a browsed archive takes more time (file by file "
-"unpack) compared to unpacking a whole archive with the first method. The "
-"unpack operation can be put in a <link linkend=\"queue\">queue</link>."
+"to extract to their new location just as you would copy <quote>normal</"
+"quote> files. Note that unpacking from a browsed archive takes more time "
+"(file by file unpack) compared to unpacking a whole archive with the first "
+"method. The unpack operation can be put in a <link linkend=\"queue\">queue</"
+"link>."
 msgstr ""
 
 #. Tag: title
-#: archives.docbook:106
+#: archives.docbook:105
 #, no-c-format
 msgid "Packing Files"
 msgstr ""
 
 #. Tag: para
-#: archives.docbook:107
+#: archives.docbook:106
 #, no-c-format
 msgid ""
 "If you want to create a new archive, begin by selecting the elements you "
 "want to pack in the active panel and select <menuchoice> <guimenu>File</"
-"guimenu> <guimenuitem>Pack</guimenuitem> </menuchoice> or <keycombo action="
-"\"simul\">&Alt;&Shift; <keycap>P</keycap></keycombo>. A dialog will pop-up "
-"prompting you to select the archive name and location. Select the packer "
-"from one of the <link linkend=\"konfig-archives\">supported file name "
+"guimenu> <guimenuitem>Pack...</guimenuitem> </menuchoice> or <keycombo "
+"action=\"simul\">&Alt;&Shift; <keycap>P</keycap></keycombo>. A dialog will "
+"pop-up prompting you to select the archive name and location. Select the "
+"packer from one of the <link linkend=\"konfig-archives\">supported file name "
 "extensions</link>."
 msgstr ""
 
 #. Tag: para
-#: archives.docbook:120
+#: archives.docbook:119
 #, no-c-format
 msgid ""
 "To add files to an existing archive(s), open the archive in one panel and "
 "the files to be copied in the other panel, then simply copy the files into "
-"the archive in exactly the same way you copy files into a \"normal\" "
-"directory. The pack operation can be put in a <link linkend=\"queue\">queue</"
-"link>."
+"the archive in exactly the same way you copy files into a <quote>normal</"
+"quote> directory. The pack operation can be put in a <link linkend=\"queue"
+"\">queue</link>."
 msgstr ""
 
 #. Tag: title
-#: archives.docbook:127
+#: archives.docbook:126
 #, no-c-format
 msgid "Testing Archives"
 msgstr ""
 
 #. Tag: para
-#: archives.docbook:128
+#: archives.docbook:127
 #, no-c-format
 msgid ""
 "&krusader; will not handle corrupted archives since it may result in data "
