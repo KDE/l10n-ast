@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-24 03:28+0100\n"
+"POT-Creation-Date: 2020-01-06 03:51+0100\n"
 "PO-Revision-Date: 2019-12-27 01:03+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian\n"
@@ -58,7 +58,7 @@ msgid "Show in do not disturb mode"
 msgstr "Amosar nel mou Nun molestar"
 
 #: package/contents/ui/ApplicationConfiguration.qml:115
-#: package/contents/ui/main.qml:128
+#: package/contents/ui/main.qml:136
 #, kde-format
 msgid "Show in history"
 msgstr "Amosar nel historial"
@@ -105,14 +105,17 @@ msgid "Notifications are currently not provided by Plasma."
 msgstr ""
 
 #: package/contents/ui/main.qml:84
-#, kde-format
-msgid "Do not disturb:"
+#, fuzzy, kde-format
+#| msgid "Do not disturb:"
+msgid "Do Not Disturb mode:"
 msgstr "Nun molestar:"
 
 #: package/contents/ui/main.qml:85
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Do not disturb when screens are mirrored"
+#| msgid "When screens are mirrored"
 msgctxt "Do not disturb when screens are mirrored"
-msgid "When screens are mirrored"
+msgid "Enable when screens are mirrored"
 msgstr "Cuando les pantalles tean espeyaes"
 
 #: package/contents/ui/main.qml:92
@@ -126,87 +129,91 @@ msgctxt "Turn do not disturb mode on/off with keyboard shortcut"
 msgid "Toggle with:"
 msgstr ""
 
-#: package/contents/ui/main.qml:112
+#: package/contents/ui/main.qml:116
 #, kde-format
 msgid "Critical notifications:"
 msgstr "Avisos críticos:"
 
-#: package/contents/ui/main.qml:113
+#: package/contents/ui/main.qml:117
 #, kde-format
 msgid "Always keep on top"
 msgstr "Caltener siempres enriba"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:128
 #, kde-format
 msgid "Low priority notifications:"
 msgstr "Avisos de prioridá baxa:"
 
-#: package/contents/ui/main.qml:121
+#: package/contents/ui/main.qml:129
 #, kde-format
 msgid "Show popup"
 msgstr "Amosar"
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:153
 #, kde-format
-msgid "Popup position:"
-msgstr "Posición de los avisos:"
+msgid "Popup:"
+msgstr ""
 
-#: package/contents/ui/main.qml:142
-#, kde-format
+#: package/contents/ui/main.qml:154
+#, fuzzy, kde-format
+#| msgctxt "Popup position near notification plasmoid"
+#| msgid "Near the notification icon"
 msgctxt "Popup position near notification plasmoid"
-msgid "Near the notification icon"
+msgid "Show near notification icon"
 msgstr "Cierca del iconu d'avisos"
 
-#: package/contents/ui/main.qml:164
+#: package/contents/ui/main.qml:176
 #, kde-format
 msgid "Choose Custom Position..."
 msgstr "Personalizar la posición…"
 
-#: package/contents/ui/main.qml:173 package/contents/ui/main.qml:190
+#: package/contents/ui/main.qml:185 package/contents/ui/main.qml:210
 #, kde-format
 msgid "%1 second"
 msgid_plural "%1 seconds"
 msgstr[0] "%1 segundu"
 msgstr[1] "%1 segundos"
 
-#: package/contents/ui/main.qml:178
-#, kde-format
-msgid "Hide popup after:"
+#: package/contents/ui/main.qml:194
+#, fuzzy, kde-format
+#| msgid "Hide popup after:"
+msgctxt "Part of a sentence like, 'Hide popup after n seconds'"
+msgid "Hide after:"
 msgstr "Anubrir los avisos dempués de:"
 
-#: package/contents/ui/main.qml:200
+#: package/contents/ui/main.qml:221
 #, kde-format
 msgid "Application progress:"
 msgstr "Progresu de les aplicaciones:"
 
-#: package/contents/ui/main.qml:201 package/contents/ui/main.qml:226
+#: package/contents/ui/main.qml:222 package/contents/ui/main.qml:251
 #, kde-format
 msgid "Show in task manager"
 msgstr "Amosar nel xestor de xeres"
 
-#: package/contents/ui/main.qml:208
+#: package/contents/ui/main.qml:229
 #, kde-format
 msgctxt "Show application jobs in notification widget"
 msgid "Show in notifications"
 msgstr "Amosar nos avisos"
 
-#: package/contents/ui/main.qml:217
+#: package/contents/ui/main.qml:238
 #, kde-format
 msgctxt "Keep application job popup open for entire duration of job"
 msgid "Keep popup open during progress"
 msgstr "Caltener l'avisu abiertu"
 
-#: package/contents/ui/main.qml:225
+#: package/contents/ui/main.qml:250
 #, kde-format
 msgid "Notification badges:"
 msgstr "Contador d'avisos:"
 
-#: package/contents/ui/main.qml:236
+#: package/contents/ui/main.qml:261
 #, kde-format
 msgid "Applications:"
 msgstr "Aplicaciones:"
 
-#: package/contents/ui/main.qml:237
+#: package/contents/ui/main.qml:262
 #, kde-format
 msgid "Configure..."
 msgstr "Configurar…"
@@ -249,3 +256,6 @@ msgstr ""
 #, kde-format
 msgid "Other Applications"
 msgstr "Otres aplicaciones"
+
+#~ msgid "Popup position:"
+#~ msgstr "Posición de los avisos:"
