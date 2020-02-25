@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lokalize\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-26 03:19+0100\n"
-"PO-Revision-Date: 2020-02-19 16:11+0100\n"
+"PO-Revision-Date: 2020-02-25 16:26+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
 "Language: ast\n"
@@ -136,6 +136,16 @@ msgid ""
 "translation.</p><p>Drop translation file onto this toolview to use it as a "
 "source for additional alternate translations.</p>"
 msgstr ""
+"A vegaes, si'l testu d'orixe camuda, la so traducción vuélvese anticuada y"
+"<emphasis>precisa&nbsp;una&nbsp;revisión</emphasis> (por exemplu,"
+"pierde la so aprobación), o (namái nel casu de ficheros XLIFF) muévese a la"
+"seición de <emphasis>traducciones&nbsp;alternatives</emphasis> qu'acompaña"
+"a la unidá.</p><p>Esta vista tamién amuesa la diferencia ente la cadena"
+"d'orixe actual y l'anterior pa que pueas ver fácilmente los cambeos que"
+"deberíen aplicase a la traducción esistente pa reflexar l'orixe actual.</p>"
+"<p>Calcar dos vegaes en cualesquier pallabra d'esta vista va insertala na"
+"traducción.</p><p>Soltar un ficheru de traducción nesta vista va facer que"
+"s'use como orixe pa más traducciones alternatives.</p>"
 
 #: src/alttransview.cpp:268
 #, kde-format
@@ -1019,7 +1029,7 @@ msgstr "Glosariu"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Insert alternate translation #%1"
-msgstr ""
+msgstr "Insertar la traducción alternativa #%1"
 
 #: src/editortab.cpp:283
 #, kde-format
@@ -1031,13 +1041,13 @@ msgstr "Amestar una nota"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Insert TM suggestion #%1"
-msgstr ""
+msgstr "Insertar la suxerencia #%1 de la memoria de traducción"
 
 #: src/editortab.cpp:309
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove TM suggestion #%1"
-msgstr ""
+msgstr "Desaniciar la suxerencia #%1 de la memoria de traducción"
 
 #: src/editortab.cpp:359
 #, kde-format
@@ -1055,7 +1065,7 @@ msgstr "Definir un términu nuevu"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Insert WebQuery result #%1"
-msgstr ""
+msgstr "Inxertar el resultáu #%1 de WebQuery"
 
 #: src/editortab.cpp:443
 #, kde-format
@@ -1283,7 +1293,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous different"
-msgstr "Lo diferente anterior"
+msgstr "Lo diferente y anterior"
 
 #: src/editortab.cpp:659 src/editortab.cpp:716
 #, kde-format
@@ -1292,12 +1302,14 @@ msgid ""
 "Previous entry which is translated differently in the file being merged, "
 "including empty translations in merge source"
 msgstr ""
+"La entrada anterior que se traduxo de mou diferente nel ficheru que va "
+"mecese, incluyendo les traducciones baleres de la fonte de mecíu"
 
 #: src/editortab.cpp:668 src/editortab.cpp:723
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next different"
-msgstr "Lo diferente siguiente"
+msgstr "Lo diferente y siguiente"
 
 #: src/editortab.cpp:669 src/editortab.cpp:724
 #, kde-format
@@ -1311,7 +1323,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next different approved"
-msgstr "Lo diferente que s'aprobó"
+msgstr "Lo diferente y siguiente que s'aprobó"
 
 #: src/editortab.cpp:683 src/editortab.cpp:731
 #, kde-format
@@ -3841,7 +3853,7 @@ msgstr "Control de calidá"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add"
-msgstr ""
+msgstr "Amestar"
 
 #: src/tm/qaview.cpp:56
 #, kde-format
@@ -4168,6 +4180,19 @@ msgid ""
 "translation memory with all translation files indexed for this feature to "
 "work.</p></html>"
 msgstr ""
+"<html>\n"
+"<p align=\"justify\">P'acencellar la traducción de Plasma, Lokalize pue "
+"capturar el testu de les interfaces de los programes y guetalu nos ficheros"
+"de traducción.</p>\n"
+"<p align=\"justify\">Cuando s'activa, la captura pue aniciase col botón d'en "
+"mediu del mur en cualesquier elementu non editable de la IGU (widget). "
+"Darréu d'esto, vete a la ventana de Lokalize y escueyi la entrada con esi "
+"testu. Magar que varios ficheros contengan la mesma cadena, na mayoría "
+"de casos namái va escoyese'l correutu.</"
+"p>\n"
+"<p align=\"justify\">Recuerda que precises tener una memoria de traducción"
+"anovada con tolos ficheros de traducción indizaos pa qu'esta carauterística"
+"funcione.</p></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/tools/widgettextcaptureconfig.ui:42
