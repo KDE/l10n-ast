@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-06 03:52+0100\n"
+"POT-Creation-Date: 2020-03-14 03:45+0100\n"
 "PO-Revision-Date: 2020-02-27 19:31+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -37,63 +37,59 @@ msgctxt "Placeholder is battery percentage"
 msgid "%1%"
 msgstr "%1%"
 
-#: package/contents/ui/batterymonitor.qml:53
-#, kde-format
-msgid "No Batteries Available"
-msgstr "Nun hai bateríes disponibles"
-
-#: package/contents/ui/batterymonitor.qml:57
-#, kde-format
-msgid "Battery and Brightness"
-msgstr "Batería y brilléu"
-
-#: package/contents/ui/batterymonitor.qml:59 package/contents/ui/logic.js:26
+#: package/contents/ui/batterymonitor.qml:55 package/contents/ui/logic.js:26
 #, kde-format
 msgid "Fully Charged"
 msgstr "Cargó dafechu"
 
-#: package/contents/ui/batterymonitor.qml:64
+#: package/contents/ui/batterymonitor.qml:59
 #, kde-format
-msgid "%1% Charging"
+msgid "Battery at %1%, not Charging"
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:66
-#, kde-format
-msgid "%1% Plugged in, not Charging"
-msgstr ""
+#: package/contents/ui/batterymonitor.qml:62
+#, fuzzy, kde-format
+#| msgid "Battery Health:"
+msgid "Battery at %1%"
+msgstr "Vida de la batería:"
 
-#: package/contents/ui/batterymonitor.qml:68
-#, kde-format
-msgid "%1% Plugged in"
-msgstr ""
+#: package/contents/ui/batterymonitor.qml:75
+#, fuzzy, kde-format
+#| msgid "Fully Charged"
+msgctxt "time until fully charged - HH:MM"
+msgid "%1 until fully charged"
+msgstr "Cargó dafechu"
 
-#: package/contents/ui/batterymonitor.qml:72
-#, kde-format
-msgctxt "%1 is remaining time, %2 is percentage"
-msgid "%1 Remaining (%2%)"
+#: package/contents/ui/batterymonitor.qml:77
+#, fuzzy, kde-format
+#| msgctxt "%1 is remaining time, %2 is percentage"
+#| msgid "%1 Remaining (%2%)"
+msgctxt "remaining time left of battery usage - HH:MM"
+msgid "%1 remaining"
 msgstr "Tiempu restante: %1 (%2%)"
 
-#: package/contents/ui/batterymonitor.qml:76
-#, kde-format
-msgid "%1% Battery Remaining"
-msgstr "%1% batería restante"
-
 #: package/contents/ui/batterymonitor.qml:80
+#, fuzzy, kde-format
+#| msgid "Not Charging"
+msgid "Not charging"
+msgstr "Nun ta cargando"
+
+#: package/contents/ui/batterymonitor.qml:84
 #, kde-format
 msgid "Power management is disabled"
 msgstr "La xestión enerxética ta desactivada"
 
-#: package/contents/ui/batterymonitor.qml:149
+#: package/contents/ui/batterymonitor.qml:157
 #, kde-format
 msgid "&Show Energy Information..."
 msgstr "&Amosar la información enerxética"
 
-#: package/contents/ui/batterymonitor.qml:152
+#: package/contents/ui/batterymonitor.qml:160
 #, kde-format
 msgid "&Configure Power Saving..."
 msgstr "&Configurar l'aforru enerxéticu…"
 
-#: package/contents/ui/batterymonitor.qml:241
+#: package/contents/ui/batterymonitor.qml:249
 #, kde-format
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr "L'applet de batería activó la inhibición en tol sistema"
@@ -227,3 +223,12 @@ msgstr "%1 ta suspendiendo la xestión enerxética."
 msgctxt "Some Application is suppressing PM: Reason provided by the app"
 msgid "%1 is currently suppressing power management: %2"
 msgstr "%1 ta suspendiendo la xestión enerxética: %2"
+
+#~ msgid "No Batteries Available"
+#~ msgstr "Nun hai bateríes disponibles"
+
+#~ msgid "Battery and Brightness"
+#~ msgstr "Batería y brilléu"
+
+#~ msgid "%1% Battery Remaining"
+#~ msgstr "%1% batería restante"
