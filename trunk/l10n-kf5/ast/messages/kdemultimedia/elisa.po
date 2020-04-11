@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-24 03:13+0100\n"
+"POT-Creation-Date: 2020-04-11 03:02+0200\n"
 "PO-Revision-Date: 2020-03-28 23:24+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -27,13 +27,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
-#: android/AlbumsView.qml:36 models/viewsmodel.cpp:48
+#: android/AlbumsView.qml:36 viewslistdata.cpp:50
 #, kde-format
 msgctxt "Title of the view of all albums"
 msgid "Albums"
 msgstr "Álbumes"
 
-#: android/ArtistsView.qml:36 models/viewsmodel.cpp:49
+#: android/ArtistsView.qml:36 viewslistdata.cpp:58
 #, kde-format
 msgctxt "Title of the view of all artists"
 msgid "Artists"
@@ -51,13 +51,13 @@ msgctxt "message of passive notification when playlist load failed"
 msgid "Load of playlist failed"
 msgstr "Falló la carga de la llista de reproducción"
 
-#: android/GenresView.qml:36 models/viewsmodel.cpp:51
+#: android/GenresView.qml:36 viewslistdata.cpp:76
 #, kde-format
 msgctxt "Title of the view of all genres"
 msgid "Genres"
 msgstr "Xéneros"
 
-#: android/TracksView.qml:36 models/viewsmodel.cpp:50
+#: android/TracksView.qml:36 viewslistdata.cpp:66
 #, kde-format
 msgctxt "Title of the view of all tracks"
 msgid "Tracks"
@@ -257,36 +257,6 @@ msgctxt "Image address for radio metadata view"
 msgid "Image Address"
 msgstr "Direición de la imaxe"
 
-#: models/viewsmodel.cpp:45
-#, kde-format
-msgctxt "Title of the view of the playlist"
-msgid "Now Playing"
-msgstr "En reproducción"
-
-#: models/viewsmodel.cpp:46
-#, kde-format
-msgctxt "Title of the view of recently played tracks"
-msgid "Recently Played"
-msgstr "Reprodúxose apocayá"
-
-#: models/viewsmodel.cpp:47
-#, kde-format
-msgctxt "Title of the view of frequently played tracks"
-msgid "Frequently Played"
-msgstr "Reproduzse davezu"
-
-#: models/viewsmodel.cpp:52 qml/FileBrowserView.qml:67
-#, kde-format
-msgctxt "Title of the file browser view"
-msgid "Files"
-msgstr "Ficheros"
-
-#: models/viewsmodel.cpp:53
-#, kde-format
-msgctxt "Title of the file radios browser view"
-msgid "Radios"
-msgstr "Cadenes de radio"
-
 #: powermanagementinterface.cpp:184 powermanagementinterface.cpp:227
 #, kde-format
 msgctxt "explanation for sleep inhibit during play of music"
@@ -306,25 +276,25 @@ msgctxt "Refresh Music Collection application menu entry"
 msgid "Refresh Music Collection"
 msgstr "Refrescar la coleición de música"
 
-#: qml/ContextView.qml:78
+#: qml/ContextView.qml:77
 #, kde-format
 msgctxt "Title of the context view related to the currently playing track"
 msgid "Now Playing"
 msgstr "En reproducción"
 
-#: qml/ContextView.qml:149
+#: qml/ContextView.qml:148
 #, kde-format
 msgctxt "display of artist and album in context view"
 msgid "<i>by</i> <b>%1</b> <i>from</i> <b>%2</b>"
 msgstr "<i>de</i> <b>%2</b> <i>por</i> <b>%1</b>"
 
-#: qml/ContextView.qml:151
+#: qml/ContextView.qml:150
 #, kde-format
 msgctxt "display of album in context view"
 msgid "<i>from</i> <b>%1</b>"
 msgstr "<i>de</i> <b>%1</b>"
 
-#: qml/ContextView.qml:153
+#: qml/ContextView.qml:152
 #, kde-format
 msgctxt "display of artist in context view"
 msgid "<i>by</i> <b>%1</b>"
@@ -365,6 +335,12 @@ msgstr "Aplicar"
 #, kde-format
 msgid "Cancel"
 msgstr "Encaboxar"
+
+#: qml/FileBrowserView.qml:66 viewslistdata.cpp:84
+#, kde-format
+msgctxt "Title of the file browser view"
+msgid "Files"
+msgstr "Ficheros"
 
 #: qml/FileScanningConfiguration.qml:30
 #, kde-format
@@ -742,3 +718,27 @@ msgstr "Guetando música"
 msgctxt "disc header text when showing an album"
 msgid "Disc %1"
 msgstr "Discu %1"
+
+#: viewslistdata.cpp:27
+#, kde-format
+msgctxt "Title of the view of the playlist"
+msgid "Now Playing"
+msgstr "En reproducción"
+
+#: viewslistdata.cpp:30
+#, kde-format
+msgctxt "Title of the view of recently played tracks"
+msgid "Recently Played"
+msgstr "Reprodúxose apocayá"
+
+#: viewslistdata.cpp:40
+#, kde-format
+msgctxt "Title of the view of frequently played tracks"
+msgid "Frequently Played"
+msgstr "Reproduzse davezu"
+
+#: viewslistdata.cpp:87
+#, kde-format
+msgctxt "Title of the file radios browser view"
+msgid "Radios"
+msgstr "Cadenes de radio"
