@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: print-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-18 03:22+0100\n"
+"POT-Creation-Date: 2020-04-14 03:24+0200\n"
 "PO-Revision-Date: 2020-02-27 20:08+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -42,41 +42,51 @@ msgstr ""
 msgid "No printers have been configured or discovered"
 msgstr "Nun se configuraron o descubrieron imprentadores"
 
-#: plasmoid/package/contents/ui/PrinterItem.qml:132
+#: plasmoid/package/contents/ui/PrinterItem.qml:37
+#, fuzzy
+#| msgid "No active jobs"
+msgid "%1, no active jobs"
+msgstr "Nun hai trabayos activos"
+
+#: plasmoid/package/contents/ui/PrinterItem.qml:39
+#, fuzzy
+#| msgid "No active jobs"
+msgid "%1, %2 active job"
+msgid_plural "%1, %2 active jobs"
+msgstr[0] "Nun hai trabayos activos"
+msgstr[1] "Nun hai trabayos activos"
+
+#: plasmoid/package/contents/ui/PrinterItem.qml:43
+#, fuzzy
+#| msgid "No jobs"
+msgid "%1, no jobs"
+msgstr "Nun hai trabayos"
+
+#: plasmoid/package/contents/ui/PrinterItem.qml:45
+msgid "%1, %2 job"
+msgid_plural "%1, %2 jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plasmoid/package/contents/ui/PrinterItem.qml:52
 msgid "Resume printing"
 msgstr ""
 
-#: plasmoid/package/contents/ui/PrinterItem.qml:132
+#: plasmoid/package/contents/ui/PrinterItem.qml:52
 msgid "Pause printing"
 msgstr ""
 
-#: plasmoid/package/contents/ui/PrinterItem.qml:152
-msgid "Configure printer"
+#: plasmoid/package/contents/ui/PrinterItem.qml:64
+#, fuzzy
+#| msgid "Configure printer"
+msgid "Configure printer..."
 msgstr "Configurar la imprentadora"
 
-#: plasmoid/package/contents/ui/PrinterItem.qml:153
-msgid "Open print queue"
+#: plasmoid/package/contents/ui/PrinterItem.qml:69
+#, fuzzy
+#| msgid "Open print queue"
+msgid "View print queue"
 msgstr "Abrir la cola d'imprentación"
-
-#: plasmoid/package/contents/ui/PrinterItem.qml:272
-msgid "No active jobs"
-msgstr "Nun hai trabayos activos"
-
-#: plasmoid/package/contents/ui/PrinterItem.qml:274
-msgid "One active job"
-msgid_plural "%1 active jobs"
-msgstr[0] "1 trabayu activu"
-msgstr[1] "%1 trabayos activos"
-
-#: plasmoid/package/contents/ui/PrinterItem.qml:278
-msgid "No jobs"
-msgstr "Nun hai trabayos"
-
-#: plasmoid/package/contents/ui/PrinterItem.qml:280
-msgid "One job"
-msgid_plural "%1 jobs"
-msgstr[0] "1 trabayu"
-msgstr[1] "%1 trabayos"
 
 #: plasmoid/package/contents/ui/printmanager.qml:39
 msgid "Printers"
@@ -105,3 +115,13 @@ msgstr "La cola d'imprentación ta balera"
 #: plasmoid/package/contents/ui/printmanager.qml:86
 msgid "&Configure Printers..."
 msgstr ""
+
+#~ msgid "One active job"
+#~ msgid_plural "%1 active jobs"
+#~ msgstr[0] "1 trabayu activu"
+#~ msgstr[1] "%1 trabayos activos"
+
+#~ msgid "One job"
+#~ msgid_plural "%1 jobs"
+#~ msgstr[0] "1 trabayu"
+#~ msgstr[1] "%1 trabayos"
