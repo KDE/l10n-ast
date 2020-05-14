@@ -1,312 +1,239 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the user-manager package.
 #
-# enolp <enolp@softastur.org>, 2016.
+# enolp <enolp@softastur.org>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: user-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 09:39+0200\n"
-"PO-Revision-Date: 2016-12-19 04:07+0100\n"
+"POT-Creation-Date: 2020-02-18 08:54+0100\n"
+"PO-Revision-Date: 2019-10-22 02:06+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
-"Language-Team: Asturian <alministradores@softastur.org>\n"
+"Language-Team: Asturian\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.2\n"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, username)
 #: src/account.ui:78
 #, kde-format
-msgid "John"
-msgstr ""
+msgid "john"
+msgstr "nel"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: src/account.ui:95
 #, kde-format
 msgid "Real Name:"
-msgstr ""
+msgstr "Nome real:"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, realName)
 #: src/account.ui:129
 #, kde-format
 msgid "John Doe"
-msgstr ""
+msgstr "Nel Buelga"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/account.ui:146
 #, kde-format
 msgid "Email Address:"
-msgstr ""
+msgstr "Direición de corréu:"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, email)
 #: src/account.ui:177
 #, kde-format
 msgid "john.doe@example.com"
-msgstr ""
+msgstr "nel.buelga@exemplu.com"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/account.ui:194 src/password.ui:33
 #, kde-format
 msgid "Password:"
-msgstr ""
+msgstr "Contraseña:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/account.ui:208
+#. i18n: ectx: property (text), widget (QCheckBox, administrator)
+#: src/account.ui:201
 #, kde-format
 msgid "Enable administrator privileges for this user"
-msgstr ""
+msgstr "Activar los privilexos d'alministrador pa esti usuariu"
 
-#. i18n: ectx: property (text), widget (QLabel, automaticLoginLabel)
-#: src/account.ui:222
+#. i18n: ectx: property (text), widget (QCheckBox, automaticLogin)
+#: src/account.ui:208
 #, kde-format
 msgid "Log in automatically"
-msgstr ""
+msgstr "Aniciar sesión automáticamente"
 
-#. i18n: ectx: property (text), widget (QLineEdit, passwordEdit)
-#: src/account.ui:235
+#. i18n: ectx: property (text), widget (QPushButton, changePasswordButton)
+#: src/account.ui:215
 #, kde-format
-msgid "MyPassword"
-msgstr ""
+msgid "Change Password..."
+msgstr "Camudar la contraseña…"
 
-#: src/accountinfo.cpp:66
+#: src/accountinfo.cpp:64
 #, kde-format
 msgid "Choose from Gallery..."
-msgstr ""
+msgstr "Escoyer de Galería…"
 
-#: src/accountinfo.cpp:70
+#: src/accountinfo.cpp:68
 #, kde-format
 msgid "Load from file..."
-msgstr ""
+msgstr "Cargar dende un ficeru…"
 
-#: src/accountinfo.cpp:74
+#: src/accountinfo.cpp:72
 #, kde-format
 msgid "Clear Avatar"
-msgstr ""
+msgstr "Reafitar la imaxe"
 
-#: src/accountinfo.cpp:301
+#: src/accountinfo.cpp:121
+#, kde-format
+msgctxt "@label:button"
+msgid "Change Password"
+msgstr "Camudar la contraseña"
+
+#: src/accountinfo.cpp:124
+#, kde-format
+msgctxt "@label:button"
+msgid "Set Password"
+msgstr "Afitar una contraseña"
+
+#: src/accountinfo.cpp:293
 #, kde-format
 msgid "This username is already used"
-msgstr ""
+msgstr "Esti nome d'usuariu yá ta usándose"
 
-#: src/accountinfo.cpp:311
+#: src/accountinfo.cpp:303
 #, kde-format
 msgid "The username must start with a letter"
-msgstr ""
+msgstr "Esti nome d'usuariu ha apenzar per una lletra"
 
-#: src/accountinfo.cpp:329
+#: src/accountinfo.cpp:321
 #, kde-format
 msgid ""
 "The username can contain only letters, numbers, score, underscore and dot"
 msgstr ""
+"Esti nome d'usuariu namái pue contener lletres, númberos, guiones, barres "
+"baxes y puntos"
 
-#: src/accountinfo.cpp:343
+#: src/accountinfo.cpp:335
 #, kde-format
 msgid "The username is too long"
-msgstr ""
+msgstr "Esti nome d'usuariu ye perllargu"
 
-#: src/accountinfo.cpp:381
+#: src/accountinfo.cpp:373
 #, kde-format
 msgid "This e-mail address is incorrect"
-msgstr ""
+msgstr "Esta direición de corréu ye incorreuta"
 
-#: src/accountinfo.cpp:426
+#: src/accountinfo.cpp:419
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Image"
-msgstr ""
+msgstr "Escoyeta d'una imaxe"
 
-#: src/avatargallery.cpp:31
+#: src/avatargallery.cpp:30
 #, kde-format
 msgctxt "@title:window"
 msgid "Change your Face"
-msgstr ""
+msgstr "Cambéu de la imaxe"
 
 #. i18n: ectx: property (text), widget (QLabel, header)
 #: src/avatargallery.ui:25
 #, kde-format
 msgid "Select a new face:"
-msgstr ""
+msgstr "Esbilla una imaxe nueva:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, addBtn)
 #: src/kcm.ui:69
 #, kde-format
 msgid "Add user account"
-msgstr ""
+msgstr "Amestar una cuenta d'usuariu"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, removeBtn)
 #: src/kcm.ui:86
 #, kde-format
 msgid "Remove user account"
-msgstr ""
+msgstr "Desaniciar la cuenta d'usuariu"
 
-#: src/lib/accountmodel.cpp:298
+#: src/lib/accountmodel.cpp:297
 #, kde-format
 msgid "New User"
-msgstr ""
+msgstr "Usuariu nuevu"
 
-#: src/lib/accountmodel.cpp:421
+#: src/lib/accountmodel.cpp:423
 #, kde-format
 msgid "Users"
-msgstr ""
+msgstr "Usuarios"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/password.ui:54
 #, kde-format
 msgid "Verify:"
-msgstr ""
+msgstr "Verificación:"
 
 #: src/passworddialog.cpp:36
 #, kde-format
 msgctxt "Title for change password dialog"
 msgid "New Password"
-msgstr ""
+msgstr "Contreaseña nueva"
 
 #: src/passworddialog.cpp:103
 #, kde-format
 msgid "Passwords do not match"
-msgstr ""
-
-#: src/passworddialog.cpp:127
-#, kde-format
-msgid "This password is weak"
-msgstr ""
+msgstr "Les contraseñes nun concasen"
 
 #: src/passworddialog.cpp:130
 #, kde-format
-msgid "This password is good"
-msgstr ""
+msgid "This password is weak"
+msgstr "Esta contreseña ye feble"
 
 #: src/passworddialog.cpp:133
 #, kde-format
-msgid "This password is very good"
-msgstr ""
+msgid "This password is good"
+msgstr "Esta contraseña ye bona"
 
 #: src/passworddialog.cpp:136
 #, kde-format
+msgid "This password is very good"
+msgstr "Esta contraseña ye perbona"
+
+#: src/passworddialog.cpp:139
+#, kde-format
 msgid "This password is excellent"
-msgstr ""
+msgstr "Esta contraseña ye escelente"
 
-#: src/passworddialog.cpp:152
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid "The password should be at least %1 character"
-msgid_plural "The password should be at least %1 characters"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/passworddialog.cpp:160
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid "The password should contain at least %1 uppercase letter"
-msgid_plural "The password should contain at least %1 uppercase letters"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/passworddialog.cpp:168
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid "The password should contain at least %1 lowercase letter"
-msgid_plural "The password should contain at least %1 lowercase letters"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/passworddialog.cpp:172
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid "Your username should not be part of your password"
-msgstr ""
-
-#: src/passworddialog.cpp:174
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid "Your name should not be part of your password"
-msgstr ""
-
-#: src/passworddialog.cpp:180
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid "The password should contain at least %1 number"
-msgid_plural "The password should contain at least %1 numbers"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/passworddialog.cpp:188
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid ""
-"The password should contain at least %1 special character (like punctuation)"
-msgid_plural ""
-"The password should contain at least %1 special characters (like punctuation)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/passworddialog.cpp:192
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid ""
-"The password should contain a mixture of letters, numbers, spaces and "
-"punctuation"
-msgstr ""
-
-#: src/passworddialog.cpp:194
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid "The password should not contain too many repeated characters"
-msgstr ""
-
-#: src/passworddialog.cpp:196
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid "The password should be more varied in letters, numbers and punctuation"
-msgstr ""
-
-#: src/passworddialog.cpp:198
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid "The password should not contain sequences like 1234 or abcd"
-msgstr ""
-
-#: src/passworddialog.cpp:200
-#, kde-format
-msgctxt "Error returned when the password is invalid"
-msgid "This password can't be used, it is too simple"
-msgstr ""
-
-#: src/passworddialog.cpp:204
+#: src/passworddialog.cpp:164
 #, kde-format
 msgctxt "Returned when a more specific error message has not been found"
 msgid "Please choose another password"
-msgstr ""
+msgstr "Esceuyi otra contraseña"
 
-#: src/usermanager.cpp:121
+#: src/usermanager.cpp:118
 #, kde-format
 msgid "Keep files"
-msgstr ""
+msgstr "Caltener los ficheros"
 
-#: src/usermanager.cpp:123
+#: src/usermanager.cpp:120
 #, kde-format
 msgid "Delete files"
-msgstr ""
+msgstr "Desaniciar los ficheros"
 
-#: src/usermanager.cpp:125
+#: src/usermanager.cpp:122
 #, kde-format
 msgid "What do you want to do after deleting %1 ?"
-msgstr ""
+msgstr "¿Qué quies facer dempués de desaniciar a %1?"
 
-#: src/usermanager.cpp:128
+#: src/usermanager.cpp:125
 #, kde-format
 msgid ""
 "This user is using the system right now, removing it will cause problems"
 msgstr ""
+"Esti usuariu ta usando'l sistema nesti momentu, desanicialu va causar "
+"problemes"
 
-#: src/usermanager.cpp:131
+#: src/usermanager.cpp:128
 #, kde-format
 msgid "Delete User"
-msgstr ""
-
-#~ msgid "Administrator:"
-#~ msgstr "Alministrador:"
+msgstr "Desaniciu del usuariu"

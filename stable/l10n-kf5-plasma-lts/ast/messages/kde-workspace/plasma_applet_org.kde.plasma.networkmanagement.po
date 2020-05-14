@@ -1,75 +1,70 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-nm package.
 #
-# enolp <enolp@softastur.org>, 2016, 2017.
+# enolp <enolp@softastur.org>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 09:39+0200\n"
-"PO-Revision-Date: 2017-02-01 04:11+0100\n"
+"POT-Creation-Date: 2020-01-16 03:42+0100\n"
+"PO-Revision-Date: 2019-10-22 02:06+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
-"Language-Team: Asturian <alministradores@softastur.org>\n"
+"Language-Team: Asturian\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.2\n"
 
-#: contents/config/config.qml:29
-#, kde-format
-msgid "General"
-msgstr ""
-
-#: contents/ui/configGeneral.qml:41
-#, kde-format
-msgid "Ask for PIN on modem detection"
-msgstr ""
-
-#: contents/ui/configGeneral.qml:50
-#, kde-format
-msgid "Show and configure virtual connections"
-msgstr ""
-
-#: contents/ui/ConnectionItem.qml:145
+#: contents/ui/ConnectionItem.qml:116
 #, kde-format
 msgid "Connect"
 msgstr "Coneutar"
 
-#: contents/ui/ConnectionItem.qml:145
+#: contents/ui/ConnectionItem.qml:116
 #, kde-format
 msgid "Disconnect"
 msgstr "Desconeutar"
 
-#: contents/ui/ConnectionItem.qml:192
+#: contents/ui/ConnectionItem.qml:191
+#, kde-format
+msgid "Show network's QR code"
+msgstr "Amosar el códigu QR de la rede"
+
+#: contents/ui/ConnectionItem.qml:202
+#, kde-format
+msgid "Configure..."
+msgstr "Configurar…"
+
+#: contents/ui/ConnectionItem.qml:227
 #, kde-format
 msgid "Speed"
 msgstr "Velocidá"
 
-#: contents/ui/ConnectionItem.qml:197
+#: contents/ui/ConnectionItem.qml:232
 #, kde-format
 msgid "Details"
 msgstr "Detalles"
 
-#: contents/ui/ConnectionItem.qml:356
+#: contents/ui/ConnectionItem.qml:405
 #, kde-format
 msgid ""
 "Connected, <font color='%1'>⬇</font> %2/s, <font color='%3'>⬆</font> %4/s"
 msgstr ""
-"Coneutáu, <font color='%1'>⬇</font> %2/s, <font color='%3'>⬆</font> %4/s"
+"Coneutóse, <font color='%1'>⬇</font> %2/s, <font color='%3'>⬆</font> %4/s"
 
-#: contents/ui/ConnectionItem.qml:362
+#: contents/ui/ConnectionItem.qml:411
 #, kde-format
 msgid "Connected"
-msgstr ""
+msgstr "Coneutóse"
 
 #: contents/ui/DetailsText.qml:45
 #, kde-format
 msgid "Copy"
 msgstr "Copiar"
 
-#: contents/ui/Header.qml:87
+#: contents/ui/Header.qml:47
 #, kde-format
 msgid "Available connections"
 msgstr "Conexones disponibles"
@@ -79,42 +74,88 @@ msgstr "Conexones disponibles"
 msgid "Networks"
 msgstr "Redes"
 
-#: contents/ui/main.qml:54
+#: contents/ui/main.qml:58
 #, kde-format
 msgid "&Configure Network Connections..."
-msgstr "&Configurar conexones de rede..."
+msgstr "&Configurar les conexones a la rede…"
+
+#: contents/ui/main.qml:61
+#, kde-format
+msgid "Open Network Login Page..."
+msgstr "Abrir la páxina d'aniciu de sesión de la rede…"
 
 #: contents/ui/PasswordField.qml:31
 #, kde-format
 msgid "Password..."
-msgstr "Contraseña..."
+msgstr "Contraseña…"
 
-#: contents/ui/Toolbar.qml:69
+#: contents/ui/Toolbar.qml:76
 #, kde-format
 msgid "Enable wireless"
-msgstr ""
+msgstr "Habilitar el Wi-Fi"
 
-#: contents/ui/Toolbar.qml:83
+#: contents/ui/Toolbar.qml:90
 #, kde-format
 msgid "Enable mobile network"
-msgstr ""
+msgstr "Activar la rede móvil"
 
-#: contents/ui/Toolbar.qml:98
+#: contents/ui/Toolbar.qml:106
 #, kde-format
 msgid "Enable airplane mode"
+msgstr "Activar el mou avión"
+
+#: contents/ui/Toolbar.qml:142
+#, kde-format
+msgid "Hotspot"
 msgstr ""
 
-#: contents/ui/Toolbar.qml:124
+#: contents/ui/Toolbar.qml:163 contents/ui/Toolbar.qml:174
+#, kde-format
+msgid "Disable Hotspot"
+msgstr ""
+
+#: contents/ui/Toolbar.qml:168 contents/ui/Toolbar.qml:174
+#, kde-format
+msgid "Create Hotspot"
+msgstr ""
+
+#: contents/ui/Toolbar.qml:188
+#, kde-format
+msgctxt "button tooltip"
+msgid "Search the connections"
+msgstr "Guetar conexones"
+
+#: contents/ui/Toolbar.qml:202
 #, kde-format
 msgid "Configure network connections..."
-msgstr ""
+msgstr "Configurar conexones a la rede…"
 
-#: contents/ui/TrafficMonitor.qml:66
+#: contents/ui/Toolbar.qml:223
+#, kde-format
+msgctxt "text field placeholder text"
+msgid "Search..."
+msgstr "Guetar…"
+
+#: contents/ui/TrafficMonitor.qml:45
+#, kde-format
+msgid "/s"
+msgstr "/s"
+
+#: contents/ui/TrafficMonitor.qml:69
 #, kde-format
 msgid "Download"
 msgstr "Baxada"
 
-#: contents/ui/TrafficMonitor.qml:71
+#: contents/ui/TrafficMonitor.qml:74
 #, kde-format
 msgid "Upload"
 msgstr "Xuba"
+
+#~ msgid "General"
+#~ msgstr "Xeneral"
+
+#~ msgid "Ask for PIN on modem detection"
+#~ msgstr "Pidir el PIN al deteutar dalgún módem"
+
+#~ msgid "Show virtual connections"
+#~ msgstr "Amosar les conexones virtuales"
