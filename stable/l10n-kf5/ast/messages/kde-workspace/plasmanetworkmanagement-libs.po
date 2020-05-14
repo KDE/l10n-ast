@@ -1,21 +1,21 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-nm package.
 #
-# enolp <enolp@softastur.org>, 2019.
+# enolp <enolp@softastur.org>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-22 09:08+0100\n"
-"PO-Revision-Date: 2019-12-10 02:35+0100\n"
+"POT-Creation-Date: 2020-05-10 03:59+0200\n"
+"PO-Revision-Date: 2020-02-25 16:26+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
-"Language-Team: Asturian\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.08.3\n"
+"X-Generator: Lokalize 19.12.2\n"
 
 #: declarative/networkstatus.cpp:120
 #, kde-format
@@ -170,32 +170,32 @@ msgid "PPP"
 msgstr "PPP"
 
 #: editor/connectioneditorbase.cpp:249 editor/settings/teamwidget.cpp:52
-#: models/creatableconnectionsmodel.cpp:144 models/networkmodelitem.cpp:651
+#: models/creatableconnectionsmodel.cpp:144 models/networkmodelitem.cpp:649
 #: uiutils.cpp:230
 #, kde-format
 msgid "Infiniband"
 msgstr "Infiniband"
 
 #: editor/connectioneditorbase.cpp:252 models/creatableconnectionsmodel.cpp:179
-#: models/networkmodelitem.cpp:657 uiutils.cpp:219
+#: models/networkmodelitem.cpp:655 uiutils.cpp:219
 #, kde-format
 msgid "Bond"
 msgstr ""
 
 #: editor/connectioneditorbase.cpp:255 models/creatableconnectionsmodel.cpp:185
-#: models/networkmodelitem.cpp:663 uiutils.cpp:222
+#: models/networkmodelitem.cpp:661 uiutils.cpp:222
 #, kde-format
 msgid "Bridge"
 msgstr "Ponte"
 
 #: editor/connectioneditorbase.cpp:258 models/creatableconnectionsmodel.cpp:197
-#: models/networkmodelitem.cpp:669
+#: models/networkmodelitem.cpp:667
 #, kde-format
 msgid "Vlan"
 msgstr ""
 
 #: editor/connectioneditorbase.cpp:261 models/creatableconnectionsmodel.cpp:191
-#: models/networkmodelitem.cpp:679 uiutils.cpp:251
+#: models/networkmodelitem.cpp:677 uiutils.cpp:251
 #, kde-format
 msgid "Team"
 msgstr ""
@@ -718,21 +718,11 @@ msgstr "CHAP"
 msgid "PEAP version:"
 msgstr "Versión del PEAP:"
 
-#. i18n: automatic band
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, mtu)
-#. i18n: ectx: property (text), item, widget (KComboBox, method)
-#. i18n: ectx: property (text), item, widget (KComboBox, band)
-#. i18n: ectx: property (text), item, widget (KComboBox, metered)
 #. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
-#. i18n: ectx: property (text), item, widget (QComboBox, linkNegotiation)
-#: editor/settings/ui/802-1x.ui:635 editor/settings/ui/connectionwidget.ui:160
-#: editor/settings/ui/infiniband.ui:80 editor/settings/ui/ipv4.ui:49
-#: editor/settings/ui/ipv6.ui:227
-#: editor/settings/ui/wificonnectionwidget.ui:141
-#: editor/settings/ui/wificonnectionwidget.ui:271
-#: editor/settings/ui/wiredconnectionwidget.ui:112
-#: editor/settings/ui/wiredconnectionwidget.ui:197
-#, kde-format
+#: editor/settings/ui/802-1x.ui:635
+#, fuzzy, kde-format
+#| msgid "Automatic"
+msgctxt "PEAP version"
 msgid "Automatic"
 msgstr "Automático"
 
@@ -977,6 +967,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, metered)
+#: editor/settings/ui/connectionwidget.ui:160
+#, fuzzy, kde-format
+#| msgid "Automatic"
+msgctxt "Item in the Metered: list"
+msgid "Automatic"
+msgstr "Automático"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, metered)
 #: editor/settings/ui/connectionwidget.ui:165
 #, kde-format
 msgid "Yes"
@@ -1050,6 +1048,16 @@ msgstr ""
 msgid "MTU:"
 msgstr "MTU:"
 
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, mtu)
+#: editor/settings/ui/infiniband.ui:80
+#: editor/settings/ui/wificonnectionwidget.ui:271
+#: editor/settings/ui/wiredconnectionwidget.ui:112
+#, fuzzy, kde-format
+#| msgid "Automatic"
+msgctxt "MTU:"
+msgid "Automatic"
+msgstr "Automático"
+
 #. i18n: ectx: property (suffix), widget (QSpinBox, mtu)
 #: editor/settings/ui/infiniband.ui:83
 #: editor/settings/ui/wificonnectionwidget.ui:274
@@ -1058,6 +1066,13 @@ msgstr "MTU:"
 msgid " bytes"
 msgstr " bytes"
 
+#. i18n: ectx: property (toolTip), widget (QWidget, IPv6Widget)
+#. i18n: ectx: property (toolTip), widget (QWidget, IPv4Widget)
+#: editor/settings/ui/ipv4.ui:17 editor/settings/ui/ipv6.ui:20
+#, kde-format
+msgid "Advanced IP settings"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: editor/settings/ui/ipv4.ui:29 editor/settings/ui/ipv6.ui:49
 #, kde-format
@@ -1065,10 +1080,18 @@ msgid "Method:"
 msgstr "Métodu:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: editor/settings/ui/ipv4.ui:49 editor/settings/ui/ipv6.ui:227
+#, fuzzy, kde-format
+#| msgid "Automatic"
+msgctxt "Method:"
+msgid "Automatic"
+msgstr "Automático"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv4.ui:54 editor/settings/ui/ipv6.ui:232
 #, kde-format
 msgid "Automatic (Only addresses)"
-msgstr "Automático (namái direiciones)"
+msgstr "Automático (namás direiciones)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv4.ui:59 editor/settings/ui/ipv6.ui:242
@@ -1251,7 +1274,7 @@ msgstr "Activada (preferir una direición temporal)"
 #: editor/settings/ui/ipv6.ui:237
 #, kde-format
 msgid "Automatic (Only DHCP)"
-msgstr "Automático (namái DHCP)"
+msgstr "Automático (namás DHCP)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv6.ui:252
@@ -1461,6 +1484,14 @@ msgid ""
 "specified band. This setting depends\n"
 " on specific driver capability and may not work with all drivers"
 msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, band)
+#: editor/settings/ui/wificonnectionwidget.ui:141
+#, fuzzy, kde-format
+#| msgid "Automatic"
+msgctxt "Band:"
+msgid "Automatic"
+msgstr "Automático"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
 #: editor/settings/ui/wificonnectionwidget.ui:146
@@ -1709,7 +1740,15 @@ msgstr ""
 #: editor/settings/ui/wiredconnectionwidget.ui:192
 #, kde-format
 msgid "Ignore"
-msgstr ""
+msgstr "Inorar"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, linkNegotiation)
+#: editor/settings/ui/wiredconnectionwidget.ui:197
+#, fuzzy, kde-format
+#| msgid "Automatic"
+msgctxt "Link negotiation:"
+msgid "Automatic"
+msgstr "Automático"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, linkNegotiation)
 #: editor/settings/ui/wiredconnectionwidget.ui:202
@@ -1727,25 +1766,25 @@ msgstr ""
 #: editor/settings/ui/wiredconnectionwidget.ui:226
 #, kde-format
 msgid "10 Mb/s"
-msgstr ""
+msgstr "10 Mb/s"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, speed)
 #: editor/settings/ui/wiredconnectionwidget.ui:231
 #, kde-format
 msgid "100 Mb/s"
-msgstr ""
+msgstr "100 Mb/s"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, speed)
 #: editor/settings/ui/wiredconnectionwidget.ui:236
 #, kde-format
 msgid "1 Gb/s"
-msgstr ""
+msgstr "1 Gb/s"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, speed)
 #: editor/settings/ui/wiredconnectionwidget.ui:241
 #, kde-format
 msgid "10 Gb/s"
-msgstr ""
+msgstr "10 Gb/s"
 
 #. i18n: ectx: property (text), widget (QCheckBox, use8021X)
 #: editor/settings/ui/wiredsecurity.ui:17
@@ -2226,12 +2265,12 @@ msgstr ""
 #: editor/widgets/passwordfield.cpp:55
 #, kde-format
 msgid "Store password for this user only (encrypted)"
-msgstr "Atroxar la contraseña namái pa esti usuariu (con cifráu)"
+msgstr "Atroxar la contraseña namás pa esti usuariu (con cifráu)"
 
 #: editor/widgets/passwordfield.cpp:56
 #, kde-format
 msgid "Store password for all users (not encrypted)"
-msgstr "Atroxar la contraseña namái pa esti usuariu (ensin cifráu)"
+msgstr "Atroxar la contraseña namás pa esti usuariu (ensin cifráu)"
 
 #: editor/widgets/passwordfield.cpp:57 editor/widgets/passwordfield.cpp:103
 #, kde-format
@@ -2262,7 +2301,7 @@ msgid ""
 "Frequency: %3 Mhz"
 msgstr ""
 "%1 (%2%)\n"
-"Denguna seguranza\n"
+"Nenguna seguranza\n"
 "Frecuencia: %3 Mhz"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -2355,58 +2394,57 @@ msgctxt "Remove a selected row"
 msgid "R&emove"
 msgstr "D&esaniciar"
 
-#: handler.cpp:142
+#: handler.cpp:135
 #, kde-format
 msgid "Missing VPN plugin"
-msgstr ""
+msgstr "Falta'l plugin de la VPN"
 
-#: handler.cpp:761
+#: handler.cpp:753
 #, kde-format
 msgid "Failed to activate %1"
 msgstr "Fallu al activar %1"
 
-#: handler.cpp:765
+#: handler.cpp:757
 #, kde-format
 msgid "Failed to add %1"
 msgstr "Fallu al amestar %1"
 
-#: handler.cpp:769
+#: handler.cpp:761
 #, kde-format
 msgid "Failed to add connection %1"
 msgstr "Fallu al amestar la conexón %1"
 
-#: handler.cpp:773
+#: handler.cpp:765
 #, kde-format
 msgid "Failed to deactivate %1"
 msgstr "Fallu al desactivar %1"
 
-#: handler.cpp:777
+#: handler.cpp:769
 #, kde-format
 msgid "Failed to remove %1"
 msgstr "Fallu al desaniciar %1"
 
-#: handler.cpp:781
+#: handler.cpp:773
 #, kde-format
 msgid "Failed to update connection %1"
 msgstr "Fallu al anovar la conexón %1"
 
-#: handler.cpp:792
-#, fuzzy, kde-format
-#| msgid "Failed to activate %1"
+#: handler.cpp:784
+#, kde-format
 msgid "Failed to create hotspot %1"
-msgstr "Fallu al activar %1"
+msgstr "Fallu al crear el puntu d'accesu %1"
 
-#: handler.cpp:811
+#: handler.cpp:803
 #, kde-format
 msgid "Connection %1 has been added"
 msgstr "Amestóse la conexón %1"
 
-#: handler.cpp:815
+#: handler.cpp:807
 #, kde-format
 msgid "Connection %1 has been removed"
 msgstr "Desanicióse la conexón %1"
 
-#: handler.cpp:819
+#: handler.cpp:811
 #, kde-format
 msgid "Connection %1 has been updated"
 msgstr "Anovóse la conexón %1"
@@ -2514,16 +2552,6 @@ msgstr ""
 msgid "Import a saved configuration file"
 msgstr "Importa un ficheru de configuración guardáu"
 
-#: models/networkmodelitem.cpp:331
-#, kde-format
-msgid "Active connections"
-msgstr "Conexones actives"
-
-#: models/networkmodelitem.cpp:333
-#, kde-format
-msgid "Available connections"
-msgstr "Conexones disponibles"
-
 #: models/networkmodelitem.cpp:543
 #, kde-format
 msgid "IPv4 Address"
@@ -2549,15 +2577,15 @@ msgstr "Direición IPv6"
 msgid "IPv6 Nameserver"
 msgstr ""
 
-#: models/networkmodelitem.cpp:578 models/networkmodelitem.cpp:593
+#: models/networkmodelitem.cpp:578 models/networkmodelitem.cpp:591
 #, kde-format
 msgid "Connection speed"
 msgstr "Velocidá de la conexón"
 
-#: models/networkmodelitem.cpp:580 models/networkmodelitem.cpp:595
-#: models/networkmodelitem.cpp:646 models/networkmodelitem.cpp:653
-#: models/networkmodelitem.cpp:659 models/networkmodelitem.cpp:665
-#: models/networkmodelitem.cpp:672 models/networkmodelitem.cpp:681
+#: models/networkmodelitem.cpp:580 models/networkmodelitem.cpp:593
+#: models/networkmodelitem.cpp:644 models/networkmodelitem.cpp:651
+#: models/networkmodelitem.cpp:657 models/networkmodelitem.cpp:663
+#: models/networkmodelitem.cpp:670 models/networkmodelitem.cpp:679
 #, kde-format
 msgid "MAC Address"
 msgstr "Direición MAC"
@@ -2572,64 +2600,64 @@ msgstr "Puntu d'accesu (SSID)"
 msgid "Signal strength"
 msgstr "Fuercia de la señal"
 
-#: models/networkmodelitem.cpp:589
+#: models/networkmodelitem.cpp:588
 #, kde-format
 msgid "Security type"
 msgstr ""
 
-#: models/networkmodelitem.cpp:608
+#: models/networkmodelitem.cpp:606
 #, kde-format
 msgid "Operator"
 msgstr ""
 
-#: models/networkmodelitem.cpp:612
+#: models/networkmodelitem.cpp:610
 #, kde-format
 msgid "Network ID"
 msgstr ""
 
-#: models/networkmodelitem.cpp:616
+#: models/networkmodelitem.cpp:614
 #, kde-format
 msgid "Signal Quality"
 msgstr "Calidá de la señal"
 
-#: models/networkmodelitem.cpp:617
+#: models/networkmodelitem.cpp:615
 #, kde-format
 msgid "Access Technology"
 msgstr ""
 
-#: models/networkmodelitem.cpp:623
+#: models/networkmodelitem.cpp:621
 #, kde-format
 msgid "VPN plugin"
 msgstr ""
 
-#: models/networkmodelitem.cpp:634
+#: models/networkmodelitem.cpp:632
 #, kde-format
 msgid "Banner"
 msgstr ""
 
-#: models/networkmodelitem.cpp:640
+#: models/networkmodelitem.cpp:638
 #, kde-format
 msgid "Name"
 msgstr "Nome"
 
-#: models/networkmodelitem.cpp:642 models/networkmodelitem.cpp:644
+#: models/networkmodelitem.cpp:640 models/networkmodelitem.cpp:642
 #, kde-format
 msgid "Capabilities"
 msgstr ""
 
-#: models/networkmodelitem.cpp:651 models/networkmodelitem.cpp:657
-#: models/networkmodelitem.cpp:663 models/networkmodelitem.cpp:669
-#: models/networkmodelitem.cpp:675 models/networkmodelitem.cpp:679
+#: models/networkmodelitem.cpp:649 models/networkmodelitem.cpp:655
+#: models/networkmodelitem.cpp:661 models/networkmodelitem.cpp:667
+#: models/networkmodelitem.cpp:673 models/networkmodelitem.cpp:677
 #, kde-format
 msgid "Type"
 msgstr ""
 
-#: models/networkmodelitem.cpp:671
+#: models/networkmodelitem.cpp:669
 #, kde-format
 msgid "Vlan ID"
 msgstr ""
 
-#: models/networkmodelitem.cpp:675
+#: models/networkmodelitem.cpp:673
 #, kde-format
 msgid "Adsl"
 msgstr "ADSL"
@@ -2718,7 +2746,7 @@ msgstr ""
 #: uiutils.cpp:254
 #, kde-format
 msgid "WireGuard VPN"
-msgstr ""
+msgstr "VPN de WireGuard"
 
 #: uiutils.cpp:258
 #, kde-format
@@ -3290,11 +3318,17 @@ msgstr "WPA2-EAP"
 
 #: uiutils.cpp:619
 #, kde-format
+msgctxt "@label WPA3-SAE security"
+msgid "WPA3-SAE"
+msgstr ""
+
+#: uiutils.cpp:622
+#, kde-format
 msgctxt "@label unknown security"
 msgid "Unknown security type"
 msgstr ""
 
-#: uiutils.cpp:636
+#: uiutils.cpp:639
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used in the last hour, as "
@@ -3304,7 +3338,7 @@ msgid_plural "%1 minutes ago"
 msgstr[0] "Hai un minutu"
 msgstr[1] "Hai %1 minutos"
 
-#: uiutils.cpp:643
+#: uiutils.cpp:646
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used in the last day, as "
@@ -3314,21 +3348,21 @@ msgid_plural "%1 hours ago"
 msgstr[0] "Hai una hora"
 msgstr[1] "Hai %1 hores"
 
-#: uiutils.cpp:648
+#: uiutils.cpp:651
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used the previous day"
 msgid "Yesterday"
 msgstr "Ayeri"
 
-#: uiutils.cpp:654
+#: uiutils.cpp:657
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection that has never been used"
 msgid "Never"
 msgstr "Enxamás"
 
-#: uiutils.cpp:670
+#: uiutils.cpp:673
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used in the last hour, as "
@@ -3338,7 +3372,7 @@ msgid_plural "Last used %1 minutes ago"
 msgstr[0] "Usóse hai un minutu"
 msgstr[1] "Usóse hai %1 minutos"
 
-#: uiutils.cpp:677
+#: uiutils.cpp:680
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used in the last day, as "
@@ -3348,24 +3382,30 @@ msgid_plural "Last used %1 hours ago"
 msgstr[0] "Usóse hai una hora"
 msgstr[1] "Usóse hai %1 hores"
 
-#: uiutils.cpp:682
+#: uiutils.cpp:685
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used the previous day"
 msgid "Last used yesterday"
 msgstr "Usóse ayeri"
 
-#: uiutils.cpp:684
+#: uiutils.cpp:687
 #, kde-format
 msgid "Last used on %1"
 msgstr "Usóse'l %1"
 
-#: uiutils.cpp:688
+#: uiutils.cpp:691
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection that has never been used"
 msgid "Never used"
 msgstr "Enxamás s'usó"
+
+#~ msgid "Active connections"
+#~ msgstr "Conexones actives"
+
+#~ msgid "Available connections"
+#~ msgstr "Conexones disponibles"
 
 #~ msgid " Mbit/s"
 #~ msgstr " Mbit/s"
