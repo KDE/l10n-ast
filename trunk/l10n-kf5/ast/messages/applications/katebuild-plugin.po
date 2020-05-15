@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-08 02:38+0200\n"
+"POT-Creation-Date: 2020-05-15 02:44+0200\n"
 "PO-Revision-Date: 2020-02-25 16:27+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -115,18 +115,18 @@ msgctxt "Tab label"
 msgid "Target Settings"
 msgstr "Axustes d'oxetivos"
 
-#: plugin_katebuild.cpp:247 plugin_katebuild.cpp:1120
+#: plugin_katebuild.cpp:247 plugin_katebuild.cpp:1116
 #, kde-format
 msgid "Target Set"
 msgstr "Conxuntu d'oxetivos"
 
 #: plugin_katebuild.cpp:248 plugin_katebuild.cpp:268 plugin_katebuild.cpp:273
-#: plugin_katebuild.cpp:1277
+#: plugin_katebuild.cpp:1273
 #, kde-format
 msgid "build"
 msgstr "build"
 
-#: plugin_katebuild.cpp:249 plugin_katebuild.cpp:269 plugin_katebuild.cpp:1280
+#: plugin_katebuild.cpp:249 plugin_katebuild.cpp:269 plugin_katebuild.cpp:1276
 #, kde-format
 msgid "clean"
 msgstr "clean"
@@ -136,24 +136,24 @@ msgstr "clean"
 msgid "config"
 msgstr "config"
 
-#: plugin_katebuild.cpp:254 plugin_katebuild.cpp:271 plugin_katebuild.cpp:1283
+#: plugin_katebuild.cpp:254 plugin_katebuild.cpp:271 plugin_katebuild.cpp:1279
 #, kde-format
 msgid "quick"
 msgstr "quick"
 
-#: plugin_katebuild.cpp:306 plugin_katebuild.cpp:1216 plugin_katebuild.cpp:1227
-#: plugin_katebuild.cpp:1248 plugin_katebuild.cpp:1256
+#: plugin_katebuild.cpp:306 plugin_katebuild.cpp:1212 plugin_katebuild.cpp:1223
+#: plugin_katebuild.cpp:1244 plugin_katebuild.cpp:1252
 #, kde-format
 msgid "Project Plugin Targets"
 msgstr "Oxetivos del complementu de proyeutos"
 
 #: plugin_katebuild.cpp:467
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid "<title>Make Results:</title><nl/>%1"
+#, kde-format
 msgctxt "@info"
-msgid "<title>Could not open file:</title><nl/>%1"
-msgstr "<title>Resultaos de make:</title><nl/>%1"
+msgid ""
+"<title>Could not open file:</title><nl/>%1<br>Try adding a search path to "
+"the working directory in the Target Settings"
+msgstr ""
 
 #: plugin_katebuild.cpp:485
 #, kde-format
@@ -225,7 +225,7 @@ msgstr "Yá ta compilándose…"
 msgid "No target available for building."
 msgstr "Nun hai oxetivos disponibles pa la compilación."
 
-#: plugin_katebuild.cpp:868
+#: plugin_katebuild.cpp:869
 #, kde-format
 msgid "There is no local file or directory specified for building."
 msgstr "Nun s'especificó nengún ficheru o direutoriu llocal pa la compilación."
@@ -280,42 +280,42 @@ msgstr "Falló la compilación."
 msgid "Build completed without problems."
 msgstr "La compilación completóse ensin problemes."
 
-#: plugin_katebuild.cpp:1121
+#: plugin_katebuild.cpp:1117
 #, kde-format
 msgid "Build"
 msgstr "Build"
 
-#: plugin_katebuild.cpp:1122
+#: plugin_katebuild.cpp:1118
 #, kde-format
 msgid "Clean"
 msgstr "Clean"
 
-#: plugin_katebuild.cpp:1123
+#: plugin_katebuild.cpp:1119
 #, kde-format
 msgid "Config"
 msgstr "Config"
 
-#: plugin_katebuild.cpp:1124
+#: plugin_katebuild.cpp:1120
 #, kde-format
 msgid "ConfigClean"
 msgstr "ConfigClean"
 
-#: plugin_katebuild.cpp:1160
+#: plugin_katebuild.cpp:1156
 #, kde-format
 msgid "Only Errors"
 msgstr "Namás fallos"
 
-#: plugin_katebuild.cpp:1163
+#: plugin_katebuild.cpp:1159
 #, kde-format
 msgid "Errors and Warnings"
 msgstr "Fallos y alvertencies"
 
-#: plugin_katebuild.cpp:1166
+#: plugin_katebuild.cpp:1162
 #, kde-format
 msgid "Parsed Output"
 msgstr "Salida analizada"
 
-#: plugin_katebuild.cpp:1169
+#: plugin_katebuild.cpp:1165
 #, kde-format
 msgid "Full Output"
 msgstr "Salida completa"
@@ -345,8 +345,11 @@ msgid "<B>Dir:</B> %1"
 msgstr "<B>Dir:</B> %1"
 
 #: TargetHtmlDelegate.cpp:114
-#, kde-format
-msgid "Leave empty to use the directory of the current document."
+#, fuzzy, kde-format
+#| msgid "Leave empty to use the directory of the current document."
+msgid ""
+"Leave empty to use the directory of the current document.\n"
+"Add search directories by adding paths separated by ';'"
 msgstr "Dexar balero pa usar el direutoriu del documentu actual."
 
 #: TargetHtmlDelegate.cpp:118
@@ -427,3 +430,10 @@ msgstr "Inxertar camín"
 #, kde-format
 msgid "Select directory to insert"
 msgstr "Esbilla del direutoriu a inxertar"
+
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid "<title>Make Results:</title><nl/>%1"
+#~ msgctxt "@info"
+#~ msgid "<title>Could not open file:</title><nl/>%1"
+#~ msgstr "<title>Resultaos de make:</title><nl/>%1"
