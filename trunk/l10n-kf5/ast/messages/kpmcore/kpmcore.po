@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpmcore\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-31 18:17+0200\n"
+"POT-Creation-Date: 2020-06-16 02:27+0200\n"
 "PO-Revision-Date: 2020-03-28 23:24+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -2373,6 +2373,50 @@ msgid ""
 "%3"
 msgstr ""
 
+#: jobs/setpartitionattributesjob.cpp:58
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Partition table of partition <filename>%1</filename> does not support "
+"setting attributes. Job ignored."
+msgstr ""
+
+#: jobs/setpartitionattributesjob.cpp:70
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
+msgctxt "@info:progress"
+msgid "Failed to set the attributes for the partition <filename>%1</filename>."
+msgstr "Creación d'una partición (%1, %2) en «%3»"
+
+#: jobs/setpartitionattributesjob.cpp:72
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
+msgctxt "@info:progress"
+msgid ""
+"Could not open partition table on device <filename>%1</filename> to set the "
+"attributes for the partition <filename>%2</filename>."
+msgstr "Creación d'una partición (%1, %2) en «%3»"
+
+#: jobs/setpartitionattributesjob.cpp:74
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
+msgctxt "@info:progress"
+msgid ""
+"Could not open device <filename>%1</filename> to set the attributes for "
+"partition <filename>%2</filename>."
+msgstr "Creación d'una partición (%1, %2) en «%3»"
+
+#: jobs/setpartitionattributesjob.cpp:85
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
+msgctxt "@info:progress"
+msgid "Set the attributes on partition <filename>%1</filename> to \"%2\""
+msgstr "Creación d'una partición (%1, %2) en «%3»"
+
 #: jobs/setpartitionlabeljob.cpp:58
 #, kde-kuit-format
 msgctxt "@info:progress"
@@ -2583,7 +2627,7 @@ msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
 msgstr ""
 
-#: ops/newoperation.cpp:123
+#: ops/newoperation.cpp:130
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
