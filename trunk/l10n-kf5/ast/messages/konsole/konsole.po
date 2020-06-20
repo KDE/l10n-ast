@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-16 02:28+0200\n"
+"POT-Creation-Date: 2020-06-20 02:17+0200\n"
 "PO-Revision-Date: 2020-03-22 16:43+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -1047,16 +1047,26 @@ msgid "Edit Profile \"%1\""
 msgstr "Edición del perfil «%1»"
 
 #: EditProfileDialog.cpp:455
-#, kde-format
-msgctxt "Suffix of the number of columns (N columns)"
+#, fuzzy, kde-format
+#| msgctxt "Suffix of the number of columns (N columns)"
+#| msgid " column"
+#| msgid_plural " columns"
+msgctxt ""
+"Suffix of the number of columns (N columns). The leading space is needed to "
+"separate it from the number value."
 msgid " column"
 msgid_plural " columns"
 msgstr[0] " columna"
 msgstr[1] " columnes"
 
 #: EditProfileDialog.cpp:456
-#, kde-format
-msgctxt "Suffix of the number of rows (N rows)"
+#, fuzzy, kde-format
+#| msgctxt "Suffix of the number of rows (N rows)"
+#| msgid " row"
+#| msgid_plural " rows"
+msgctxt ""
+"Suffix of the number of rows (N rows). The leading space is needed to "
+"separate it from the number value."
 msgid " row"
 msgid_plural " rows"
 msgstr[0] " filera"
@@ -2312,9 +2322,10 @@ msgid "Profile #%1"
 msgstr "Perfil #%1"
 
 #: RenameTabDialog.cpp:38
-#, kde-format
-msgid "Rename Tab"
-msgstr "Renomáu de la llingüeta"
+#, fuzzy, kde-format
+#| msgid "Default Search Settings"
+msgid "Current Tab Settings"
+msgstr "Axustes de gueta predeterminaos"
 
 #: RenameTabWidget.cpp:47
 #, fuzzy, kde-format
@@ -2631,8 +2642,8 @@ msgstr "Namás llectura"
 
 #: SessionController.cpp:719
 #, kde-format
-msgid "&Rename Tab..."
-msgstr "&Renomar la llingüeta…"
+msgid "&Current Tab Settings..."
+msgstr ""
 
 #: SessionController.cpp:725
 #, kde-format
@@ -3687,8 +3698,8 @@ msgstr "&Separtar la llingüeta"
 #: ViewContainer.cpp:122
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "&Rename Tab..."
-msgstr "&Renomar la llingüeta…"
+msgid "&Current Tab Settings..."
+msgstr ""
 
 #: ViewContainer.cpp:129
 #, kde-format
@@ -3829,6 +3840,16 @@ msgid ""
 "presses into characters to send to the terminal is missing."
 msgstr ""
 
+#~ msgid "Rename Tab"
+#~ msgstr "Renomáu de la llingüeta"
+
+#~ msgid "&Rename Tab..."
+#~ msgstr "&Renomar la llingüeta…"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Rename Tab..."
+#~ msgstr "&Renomar la llingüeta…"
+
 #~ msgctxt "@action:button"
 #~ msgid "Confirm &paste"
 #~ msgstr "Confirmar l'a&pegamientu"
@@ -3872,9 +3893,6 @@ msgstr ""
 
 #~ msgid "Konsole Window"
 #~ msgstr "Ventana de Konsole"
-
-#~ msgid "Default Search Settings"
-#~ msgstr "Axustes de gueta predeterminaos"
 
 #~ msgctxt "@info:tooltip"
 #~ msgid "Click to toggle status"
