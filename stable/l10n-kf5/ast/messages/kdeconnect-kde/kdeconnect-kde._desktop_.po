@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-12 06:13+0000\n"
+"POT-Creation-Date: 2020-07-13 05:57+0000\n"
 "PO-Revision-Date: 2019-09-28 19:29+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian\n"
@@ -27,12 +27,12 @@ msgctxt "GenericName"
 msgid "Device Synchronization"
 msgstr "Sincronización de preseos"
 
-#: app/org.kde.kdeconnect.app.desktop:85
+#: app/org.kde.kdeconnect.app.desktop:86
 msgctxt "Comment"
 msgid "Make all your devices one"
 msgstr "Fai que tolos preseos seyan unu"
 
-#: data/kdeconnect-thunar.desktop:7
+#: data/kdeconnect-dde.desktop:7 data/kdeconnect-thunar.desktop:7
 msgctxt "Name"
 msgid "Send via KDE Connect"
 msgstr ""
@@ -57,7 +57,7 @@ msgctxt "Name"
 msgid "KDE Connect Indicator"
 msgstr "Indicador de KDE Connnect"
 
-#: indicator/org.kde.kdeconnect.nonplasma.desktop:38
+#: indicator/org.kde.kdeconnect.nonplasma.desktop:39
 msgctxt "Comment"
 msgid "Display information about your devices"
 msgstr ""
@@ -67,7 +67,7 @@ msgctxt "Comment"
 msgid "Connect and sync your devices"
 msgstr "Coneuta y sincroniza preseos"
 
-#: kcm/kcm_kdeconnect.desktop:98
+#: kcm/kcm_kdeconnect.desktop:99
 msgctxt "X-KDE-Keywords"
 msgid "Network,Android,Devices"
 msgstr "Rede,Android,Preseos"
@@ -87,85 +87,65 @@ msgctxt "Comment"
 msgid "Notifications from your devices"
 msgstr ""
 
-#: plugins/kdeconnect.notifyrc:90
+#: plugins/kdeconnect.notifyrc:91
 msgctxt "Name"
 msgid "Pairing Request"
 msgstr "Solicitú d'empareyamientu"
 
-#: plugins/kdeconnect.notifyrc:131
+#: plugins/kdeconnect.notifyrc:133
 msgctxt "Comment"
 msgid "Pairing request received from a device"
 msgstr "Recibióse una solicitú d'empareyamientu d'un preséu"
 
-#: plugins/kdeconnect.notifyrc:172
+#: plugins/kdeconnect.notifyrc:175
 msgctxt "Name"
 msgid "Incoming Call"
 msgstr "Llamada entrante"
 
-#: plugins/kdeconnect.notifyrc:213
+#: plugins/kdeconnect.notifyrc:217
 msgctxt "Comment"
 msgid "Someone is calling you"
 msgstr "Daquién ta llamándote"
 
-#: plugins/kdeconnect.notifyrc:258
+#: plugins/kdeconnect.notifyrc:263
 msgctxt "Name"
 msgid "Missed Call"
 msgstr "Llamada perdida"
 
-#: plugins/kdeconnect.notifyrc:299
+#: plugins/kdeconnect.notifyrc:304
 msgctxt "Comment"
 msgid "You have a missed call"
 msgstr "Tienes una llamada perdida"
 
-#: plugins/kdeconnect.notifyrc:344
-msgctxt "Name"
-msgid "SMS Received"
-msgstr "SMS recibíu"
-
-#: plugins/kdeconnect.notifyrc:384
-msgctxt "Comment"
-msgid "Someone sent you an SMS"
-msgstr "Daquién unvióte un SMS"
-
-#: plugins/kdeconnect.notifyrc:429
+#: plugins/kdeconnect.notifyrc:350
 msgctxt "Name"
 msgid "Battery Low"
 msgstr ""
 
-#: plugins/kdeconnect.notifyrc:468
+#: plugins/kdeconnect.notifyrc:390
 msgctxt "Comment"
 msgid "Your battery is in low state"
 msgstr "La batería tien poca carga"
 
-#: plugins/kdeconnect.notifyrc:513
+#: plugins/kdeconnect.notifyrc:436
 msgctxt "Name"
 msgid "Ping Received"
 msgstr "Ping recibíu"
 
-#: plugins/kdeconnect.notifyrc:553
+#: plugins/kdeconnect.notifyrc:477
 msgctxt "Comment"
 msgid "Ping received"
 msgstr "Recibióse un ping"
 
-#: plugins/kdeconnect.notifyrc:598
+#: plugins/kdeconnect.notifyrc:523
 msgctxt "Name"
 msgid "Generic Notification"
 msgstr "Avisu xenéricu"
 
-#: plugins/kdeconnect.notifyrc:638
+#: plugins/kdeconnect.notifyrc:564
 msgctxt "Comment"
 msgid "Notification received"
 msgstr "Recibióse un avisu"
-
-#: plugins/kdeconnect.notifyrc:683
-msgctxt "Name"
-msgid "File Transfer"
-msgstr "Tresferencia de ficheros"
-
-#: plugins/kdeconnect.notifyrc:724
-msgctxt "Comment"
-msgid "Incoming file"
-msgstr "Ficheru entrante"
 
 #: plugins/kdeconnect_plugin.desktop:5
 msgctxt "Name"
@@ -197,7 +177,7 @@ msgctxt "Name"
 msgid " Find my device"
 msgstr ""
 
-#: runners/findmyphone/plasma-runner-kdeconnect-findmyphone.desktop:30
+#: runners/findmyphone/plasma-runner-kdeconnect-findmyphone.desktop:31
 msgctxt "Comment"
 msgid "Ring connected devices"
 msgstr ""
@@ -237,21 +217,36 @@ msgctxt "Comment"
 msgid "Text Messaging"
 msgstr "Mensaxería de testu"
 
-#: urlhandler/org.kde.kdeconnect.smshandler.desktop:2
+#: urlhandler/org.kde.kdeconnect.handler.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "KDE Connect Indicator"
 msgctxt "Name"
-msgid "KDE Connect SMS URL Handler"
+msgid "KDE Connect URL Handler"
 msgstr "Indicador de KDE Connnect"
 
-#: urlhandler/org.kde.kdeconnect.telhandler.desktop:2
+#~ msgctxt "Name"
+#~ msgid "SMS Received"
+#~ msgstr "SMS recibíu"
+
+#~ msgctxt "Comment"
+#~ msgid "Someone sent you an SMS"
+#~ msgstr "Daquién unvióte un SMS"
+
+#~ msgctxt "Name"
+#~ msgid "File Transfer"
+#~ msgstr "Tresferencia de ficheros"
+
+#~ msgctxt "Comment"
+#~ msgid "Incoming file"
+#~ msgstr "Ficheru entrante"
+
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "KDE Connect Indicator"
-msgctxt "Name"
-msgid "KDE Connect Phone URL Handler"
-msgstr "Indicador de KDE Connnect"
+#~| msgctxt "Name"
+#~| msgid "KDE Connect Indicator"
+#~ msgctxt "Name"
+#~ msgid "KDE Connect Phone URL Handler"
+#~ msgstr "Indicador de KDE Connnect"
 
 #~ msgctxt "Name"
 #~ msgid "KDEConnect daemon"
