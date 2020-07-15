@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-09 03:42+0100\n"
+"POT-Creation-Date: 2020-07-15 02:23+0200\n"
 "PO-Revision-Date: 2020-02-25 16:25+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -47,56 +47,15 @@ msgstr "Tolos preseos"
 msgid "Open popup when new device is plugged in"
 msgstr "Abrir un ventanu emerxente al coneutar un preséu nuevu"
 
-#: package/contents/ui/DeviceItem.qml:190
-#, kde-format
-msgid ""
-"It is currently <b>not safe</b> to remove this device: applications may be "
-"accessing it. Click the eject button to safely remove this device."
-msgstr ""
-"Anguaño <b>nun ye seguro</b> estrayer esti preséu: dalguna aplicación podría "
-"tar accediendo a elli. Calca nel botón d'espulsar pa estrayer esti preséu de "
-"mou seguru."
-
-#: package/contents/ui/DeviceItem.qml:192
-#, kde-format
-msgid "This device is currently accessible."
-msgstr "Anguaño pue accedese a esti preséu."
-
-#: package/contents/ui/DeviceItem.qml:197
-#, kde-format
-msgid ""
-"It is currently <b>not safe</b> to remove this device: applications may be "
-"accessing other volumes on this device. Click the eject button on these "
-"other volumes to safely remove this device."
-msgstr ""
-"Anguaño <b>nun ye seguro</b> estrayer esti preséu: dalguna aplicación podría "
-"tar accediendo a los volúmenes de so. Calca nel botón d'espulsar de los "
-"otros volúmenes pa estrayer esti preséu de mou seguru."
-
-#: package/contents/ui/DeviceItem.qml:199
-#, kde-format
-msgid "It is currently safe to remove this device."
-msgstr "Anguaño ye seguro estrayer esti preséu."
-
-#: package/contents/ui/DeviceItem.qml:202
-#, kde-format
-msgid "This device is not currently accessible."
-msgstr "Anguaño nun pue accedese a esti preséu."
-
-#: package/contents/ui/DeviceItem.qml:245
-#, kde-format
+#: package/contents/ui/DeviceItem.qml:175
+#, fuzzy, kde-format
+#| msgctxt "@info:status Free disk space"
+#| msgid "%1 free"
 msgctxt "@info:status Free disk space"
-msgid "%1 free"
+msgid "%1 free of %2"
 msgstr "%1 llibres"
 
-#: package/contents/ui/DeviceItem.qml:271
-#, kde-format
-msgid "1 action for this device"
-msgid_plural "%1 actions for this device"
-msgstr[0] "1 aición pa esti preséu"
-msgstr[1] "%1 aiciones pa esti preséu"
-
-#: package/contents/ui/DeviceItem.qml:276
+#: package/contents/ui/DeviceItem.qml:179
 #, kde-format
 msgctxt ""
 "Accessing is a less technical word for Mounting; translation should be short "
@@ -104,7 +63,7 @@ msgctxt ""
 msgid "Accessing..."
 msgstr "Accediendo…"
 
-#: package/contents/ui/DeviceItem.qml:278
+#: package/contents/ui/DeviceItem.qml:181
 #, kde-format
 msgctxt ""
 "Removing is a less technical word for Unmounting; translation should be "
@@ -112,48 +71,93 @@ msgctxt ""
 msgid "Removing..."
 msgstr "Estrayendo…"
 
-#: package/contents/ui/devicenotifier.qml:62
+#: package/contents/ui/DeviceItem.qml:207
+#, kde-format
+msgid "Open in File Manager"
+msgstr ""
+
+#: package/contents/ui/DeviceItem.qml:211
+#, kde-format
+msgid "Mount"
+msgstr ""
+
+#: package/contents/ui/DeviceItem.qml:213
+#, kde-format
+msgid "Eject"
+msgstr ""
+
+#: package/contents/ui/DeviceItem.qml:215
+#, kde-format
+msgid "Safely remove"
+msgstr ""
+
+#: package/contents/ui/devicenotifier.qml:61
 #, kde-format
 msgid "Most Recent Device"
 msgstr "El preséu más recién"
 
-#: package/contents/ui/devicenotifier.qml:62
+#: package/contents/ui/devicenotifier.qml:61
 #, kde-format
 msgid "No Devices Available"
 msgstr "Nun hai preseos disponibles"
 
-#: package/contents/ui/devicenotifier.qml:239
+#: package/contents/ui/devicenotifier.qml:235
 #, kde-format
 msgctxt "Open auto mounter kcm"
 msgid "Configure Removable Devices"
 msgstr "Configurar preseos estrayibles"
 
-#: package/contents/ui/FullRepresentation.qml:46
+#: package/contents/ui/FullRepresentation.qml:47
 #, kde-format
 msgid "No devices available"
 msgstr "Nun hai preseos disponibles"
 
-#: package/contents/ui/FullRepresentation.qml:124
+#: package/contents/ui/FullRepresentation.qml:125
 #, kde-format
 msgid "Click to safely remove all devices"
 msgstr "Calca pa estrayer tolos preseos de mou seguru"
 
-#: package/contents/ui/FullRepresentation.qml:125
+#: package/contents/ui/FullRepresentation.qml:126
 #, kde-format
 msgid "Remove all"
 msgstr "Estrayer too"
 
-#: package/contents/ui/FullRepresentation.qml:202
-#, kde-format
-msgid "Click to access this device from other applications."
-msgstr "Calca p'acceder a esti preséu con otres aplicaciones."
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing it. Click the eject button to safely remove this device."
+#~ msgstr ""
+#~ "Anguaño <b>nun ye seguro</b> estrayer esti preséu: dalguna aplicación "
+#~ "podría tar accediendo a elli. Calca nel botón d'espulsar pa estrayer esti "
+#~ "preséu de mou seguru."
 
-#: package/contents/ui/FullRepresentation.qml:204
-#, kde-format
-msgid "Click to eject this disc."
-msgstr "Calca pa espulsar esti discu."
+#~ msgid "This device is currently accessible."
+#~ msgstr "Anguaño pue accedese a esti preséu."
 
-#: package/contents/ui/FullRepresentation.qml:206
-#, kde-format
-msgid "Click to safely remove this device."
-msgstr "Calca pa estrayer esti preséu de mou seguru."
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing other volumes on this device. Click the eject button on "
+#~ "these other volumes to safely remove this device."
+#~ msgstr ""
+#~ "Anguaño <b>nun ye seguro</b> estrayer esti preséu: dalguna aplicación "
+#~ "podría tar accediendo a los volúmenes de so. Calca nel botón d'espulsar "
+#~ "de los otros volúmenes pa estrayer esti preséu de mou seguru."
+
+#~ msgid "It is currently safe to remove this device."
+#~ msgstr "Anguaño ye seguro estrayer esti preséu."
+
+#~ msgid "This device is not currently accessible."
+#~ msgstr "Anguaño nun pue accedese a esti preséu."
+
+#~ msgid "1 action for this device"
+#~ msgid_plural "%1 actions for this device"
+#~ msgstr[0] "1 aición pa esti preséu"
+#~ msgstr[1] "%1 aiciones pa esti preséu"
+
+#~ msgid "Click to access this device from other applications."
+#~ msgstr "Calca p'acceder a esti preséu con otres aplicaciones."
+
+#~ msgid "Click to eject this disc."
+#~ msgstr "Calca pa espulsar esti discu."
+
+#~ msgid "Click to safely remove this device."
+#~ msgstr "Calca pa estrayer esti preséu de mou seguru."
