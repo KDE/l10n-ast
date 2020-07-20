@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-08 02:09+0200\n"
+"POT-Creation-Date: 2020-07-20 02:09+0200\n"
 "PO-Revision-Date: 2020-03-28 23:24+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -279,29 +279,36 @@ msgctxt "Refresh Music Collection application menu entry"
 msgid "Refresh Music Collection"
 msgstr "Refrescar la coleición de música"
 
-#: qml/ContextView.qml:66
+#: qml/ContextView.qml:71
 #, kde-format
 msgctxt "Title of the context view related to the currently playing track"
 msgid "Now Playing"
 msgstr "En reproducción"
 
-#: qml/ContextView.qml:137
+#: qml/ContextView.qml:146
 #, kde-format
 msgctxt "display of artist and album in context view"
 msgid "<i>by</i> <b>%1</b> <i>from</i> <b>%2</b>"
 msgstr "<i>de</i> <b>%2</b> <i>por</i> <b>%1</b>"
 
-#: qml/ContextView.qml:139
+#: qml/ContextView.qml:148
 #, kde-format
 msgctxt "display of album in context view"
 msgid "<i>from</i> <b>%1</b>"
 msgstr "<i>de</i> <b>%1</b>"
 
-#: qml/ContextView.qml:141
+#: qml/ContextView.qml:150
 #, kde-format
 msgctxt "display of artist in context view"
 msgid "<i>by</i> <b>%1</b>"
 msgstr "<i>por</i> <b>%1</b>"
+
+#: qml/ContextView.qml:224
+#, fuzzy, kde-format
+#| msgctxt "Title of the context view related to the currently playing track"
+#| msgid "Now Playing"
+msgid "Nothing playing"
+msgstr "En reproducción"
 
 #: qml/EditableMetaDataDelegate.qml:22 qml/MetaDataDelegate.qml:22
 #, kde-format
@@ -431,6 +438,12 @@ msgstr "Reproducir agora trocando la llista de reproducción actual"
 msgctxt "Add whole container to play list"
 msgid "Add to playlist"
 msgstr "Amestar a la llista de reproducción"
+
+#: qml/GridBrowserView.qml:187 qml/ListBrowserView.qml:160
+#, kde-format
+msgctxt "e.g. 'no artists found' or 'no albums found'"
+msgid "No %1 found"
+msgstr ""
 
 #: qml/HeaderBar.qml:345
 #, kde-format
