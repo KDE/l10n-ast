@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-04 02:08+0200\n"
+"POT-Creation-Date: 2020-08-06 02:08+0200\n"
 "PO-Revision-Date: 2020-04-28 01:30+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -2635,7 +2635,7 @@ msgctxt "@title:menu"
 msgid "Move Here"
 msgstr ""
 
-#: filewidgets/kfilefiltercombo.cpp:37 filewidgets/kfilewidget.cpp:1892
+#: filewidgets/kfilefiltercombo.cpp:37 filewidgets/kfilewidget.cpp:1863
 #, kde-format
 msgid "*|All Files"
 msgstr "*|Tolos ficheros"
@@ -2772,115 +2772,117 @@ msgstr "Etiquetes"
 msgid "All tags"
 msgstr "Toles etiquetes"
 
-#: filewidgets/kfileplacesmodel.cpp:282
+#. i18nc call is made later, with this context, so the two must match.
+#. createSystemBookmark actually does nothing with its second argument, the context,
+#: filewidgets/kfileplacesmodel.cpp:302
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:290
+#: filewidgets/kfileplacesmodel.cpp:309
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
 msgstr "Escritoriu"
 
-#: filewidgets/kfileplacesmodel.cpp:296 filewidgets/kfileplacesmodel.cpp:369
+#: filewidgets/kfileplacesmodel.cpp:314 filewidgets/kfileplacesmodel.cpp:387
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Documentos"
 
-#: filewidgets/kfileplacesmodel.cpp:302
+#: filewidgets/kfileplacesmodel.cpp:319
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
 msgstr "Descargues"
 
-#: filewidgets/kfileplacesmodel.cpp:307
+#: filewidgets/kfileplacesmodel.cpp:323
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:311
+#: filewidgets/kfileplacesmodel.cpp:326
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:333
+#: filewidgets/kfileplacesmodel.cpp:351
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Recent Files"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:337
+#: filewidgets/kfileplacesmodel.cpp:355
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Recent Locations"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:361
+#: filewidgets/kfileplacesmodel.cpp:379
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Modified Today"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:364
+#: filewidgets/kfileplacesmodel.cpp:382
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Modified Yesterday"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:372
+#: filewidgets/kfileplacesmodel.cpp:390
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "Imáxenes"
 
-#: filewidgets/kfileplacesmodel.cpp:375
+#: filewidgets/kfileplacesmodel.cpp:393
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "Audiu"
 
-#: filewidgets/kfileplacesmodel.cpp:378
+#: filewidgets/kfileplacesmodel.cpp:396
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr "Vídeos"
 
-#: filewidgets/kfileplacesmodel.cpp:1270
+#: filewidgets/kfileplacesmodel.cpp:1288
 #, kde-format
 msgid "&Release '%1'"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1272
+#: filewidgets/kfileplacesmodel.cpp:1290
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1275
+#: filewidgets/kfileplacesmodel.cpp:1293
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1296
+#: filewidgets/kfileplacesmodel.cpp:1314
 #, kde-format
 msgid "&Eject '%1'"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1330
+#: filewidgets/kfileplacesmodel.cpp:1348
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "El preséu «%1» nun ye un discu y nun pue estrayese."
 
-#: filewidgets/kfileplacesmodel.cpp:1366
+#: filewidgets/kfileplacesmodel.cpp:1384
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Asoceció un fallu mentanto s'accedía a «%1», el sistema respondió: %2"
 
-#: filewidgets/kfileplacesmodel.cpp:1370
+#: filewidgets/kfileplacesmodel.cpp:1388
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Asoceció un fallu mentanto s'accedía a «%1»"
@@ -2942,12 +2944,7 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:404
-#, kde-format
-msgid "Drive: %1"
-msgstr "Unidá: %1"
-
-#: filewidgets/kfilewidget.cpp:456
+#: filewidgets/kfilewidget.cpp:426
 #, kde-format
 msgid ""
 "<qt>Click this button to enter the parent folder.<br /><br />For instance, "
@@ -2955,42 +2952,42 @@ msgid ""
 "you to file:/home.</qt>"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:460
+#: filewidgets/kfilewidget.cpp:430
 #, kde-format
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:461
+#: filewidgets/kfilewidget.cpp:431
 #, kde-format
 msgid "Click this button to move forward one step in the browsing history."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:463
+#: filewidgets/kfilewidget.cpp:433
 #, kde-format
 msgid "Click this button to reload the contents of the current location."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:465
+#: filewidgets/kfilewidget.cpp:435
 #, kde-format
 msgid "Click this button to create a new folder."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:471
+#: filewidgets/kfilewidget.cpp:441
 #, kde-format
 msgid "Show Places Panel"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:478
+#: filewidgets/kfilewidget.cpp:448
 #, kde-format
 msgid "Show Bookmarks Button"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:484
+#: filewidgets/kfilewidget.cpp:454
 #, kde-format
 msgid "Options"
 msgstr "Opciones"
 
-#: filewidgets/kfilewidget.cpp:486
+#: filewidgets/kfilewidget.cpp:456
 #, kde-format
 msgid ""
 "<qt>This is the preferences menu for the file dialog. Various options can be "
@@ -3000,43 +2997,43 @@ msgid ""
 "folders from files</li></ul></qt>"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:525
+#: filewidgets/kfilewidget.cpp:495
 #, kde-format
 msgid "Zoom out"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:527
+#: filewidgets/kfilewidget.cpp:497
 #, kde-format
 msgid "Zoom in"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: filewidgets/kfilewidget.cpp:565 widgets/kpropertiesdesktopbase.ui:17
+#: filewidgets/kfilewidget.cpp:536 widgets/kpropertiesdesktopbase.ui:17
 #, kde-format
 msgid "&Name:"
 msgstr "&Nome:"
 
-#: filewidgets/kfilewidget.cpp:843
+#: filewidgets/kfilewidget.cpp:814
 #, kde-format
 msgid "You can only select one file"
 msgstr "Namás pues esbillar un ficheru"
 
-#: filewidgets/kfilewidget.cpp:844
+#: filewidgets/kfilewidget.cpp:815
 #, kde-format
 msgid "More than one file provided"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1011
+#: filewidgets/kfilewidget.cpp:982
 #, kde-format
 msgid "You can only select local files"
 msgstr "Namás pues esbillar ficheros llocales"
 
-#: filewidgets/kfilewidget.cpp:1012
+#: filewidgets/kfilewidget.cpp:983
 #, kde-format
 msgid "Remote files not accepted"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1019
+#: filewidgets/kfilewidget.cpp:990
 #, kde-format
 msgid ""
 "The selected URL uses an unsupported scheme. Please use the following "
@@ -3047,12 +3044,12 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: filewidgets/kfilewidget.cpp:1025
+#: filewidgets/kfilewidget.cpp:996
 #, kde-format
 msgid "Unsupported URL scheme"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1040
+#: filewidgets/kfilewidget.cpp:1011
 #, kde-format
 msgid ""
 "More than one folder has been selected and this dialog does not accept "
@@ -3060,118 +3057,118 @@ msgid ""
 "only one folder to list it."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1040
+#: filewidgets/kfilewidget.cpp:1011
 #, kde-format
 msgid "More than one folder provided"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1048
+#: filewidgets/kfilewidget.cpp:1019
 #, kde-format
 msgid ""
 "At least one folder and one file has been selected. Selected files will be "
 "ignored and the selected folder will be listed"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1048
+#: filewidgets/kfilewidget.cpp:1019
 #, kde-format
 msgid "Files and folders selected"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1066
+#: filewidgets/kfilewidget.cpp:1037
 #, kde-format
 msgid "The file \"%1\" could not be found"
 msgstr "Nun pudo alcontrase'l ficheru «%1»"
 
-#: filewidgets/kfilewidget.cpp:1066
+#: filewidgets/kfilewidget.cpp:1037
 #, kde-format
 msgid "Cannot open file"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1350
+#: filewidgets/kfilewidget.cpp:1321
 #, kde-format
 msgid "This is the name to save the file as."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1353
+#: filewidgets/kfilewidget.cpp:1324
 #, kde-format
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
 "listing several files, separated by spaces."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1358
+#: filewidgets/kfilewidget.cpp:1329
 #, kde-format
 msgid "This is the name of the file to open."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1372
+#: filewidgets/kfilewidget.cpp:1343
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Llugares"
 
-#: filewidgets/kfilewidget.cpp:1584
+#: filewidgets/kfilewidget.cpp:1555
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "El ficheru «%1» yá esiste. ¿Deseyes sobrescribilu?"
 
-#: filewidgets/kfilewidget.cpp:1585
+#: filewidgets/kfilewidget.cpp:1556
 #, kde-format
 msgid "Overwrite File?"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1779
+#: filewidgets/kfilewidget.cpp:1750
 #, kde-format
 msgid "You can only select local files."
 msgstr "Namás pues esbillar ficheros llocales."
 
-#: filewidgets/kfilewidget.cpp:1780
+#: filewidgets/kfilewidget.cpp:1751
 #, kde-format
 msgid "Remote Files Not Accepted"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1890
+#: filewidgets/kfilewidget.cpp:1861
 #, kde-format
 msgid "*|All Folders"
 msgstr "*|Toles carpetes"
 
-#: filewidgets/kfilewidget.cpp:2054 widgets/executablefileopendialog.cpp:42
+#: filewidgets/kfilewidget.cpp:2025 widgets/executablefileopendialog.cpp:42
 #: widgets/kfileitemactions.cpp:641
 #, kde-format
 msgid "&Open"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2149
+#: filewidgets/kfilewidget.cpp:2120
 #, kde-format
 msgid "Icon size: %1 pixels (standard size)"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2152
+#: filewidgets/kfilewidget.cpp:2123
 #, kde-format
 msgid "Icon size: %1 pixels"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2312
+#: filewidgets/kfilewidget.cpp:2283
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2313
+#: filewidgets/kfilewidget.cpp:2284
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "la estensión <b>%1</b>"
 
-#: filewidgets/kfilewidget.cpp:2319
+#: filewidgets/kfilewidget.cpp:2290
 #, kde-format
 msgid "Automatically select filename e&xtension"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2320
+#: filewidgets/kfilewidget.cpp:2291
 #, kde-format
 msgid "a suitable extension"
 msgstr "una estensión afayadiza"
 
-#: filewidgets/kfilewidget.cpp:2329
+#: filewidgets/kfilewidget.cpp:2300
 #, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -3187,12 +3184,12 @@ msgid ""
 "enabled as it makes your files more manageable."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2660
+#: filewidgets/kfilewidget.cpp:2631
 #, kde-format
 msgid "Bookmarks"
 msgstr "Marcadores"
 
-#: filewidgets/kfilewidget.cpp:2664
+#: filewidgets/kfilewidget.cpp:2635
 #, kde-format
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
@@ -3201,24 +3198,24 @@ msgid ""
 "otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2807
+#: filewidgets/kfilewidget.cpp:2778
 #, kde-format
 msgid "&File type:"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2808
+#: filewidgets/kfilewidget.cpp:2779
 #, kde-format
 msgid ""
 "<qt>This is the file type selector. It is used to select the format that the "
 "file will be saved as.</qt>"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2810
+#: filewidgets/kfilewidget.cpp:2781
 #, kde-format
 msgid "&Filter:"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2811
+#: filewidgets/kfilewidget.cpp:2782
 #, kde-format
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
@@ -3445,7 +3442,7 @@ msgstr ""
 msgid "Click to Edit Location"
 msgstr ""
 
-#: gui/applicationlauncherjob.cpp:121 gui/kprocessrunner.cpp:140
+#: gui/applicationlauncherjob.cpp:121 gui/kprocessrunner.cpp:161
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr ""
@@ -3463,7 +3460,7 @@ msgid ""
 "%2."
 msgstr ""
 
-#: gui/applicationlauncherjob.cpp:262 gui/openurljob.cpp:744
+#: gui/applicationlauncherjob.cpp:264 gui/openurljob.cpp:744
 #: widgets/krun.cpp:210
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
@@ -3484,7 +3481,7 @@ msgstr ""
 msgid "Icon file too big, download aborted"
 msgstr ""
 
-#: gui/kprocessrunner.cpp:57
+#: gui/kprocessrunner.cpp:71
 #, kde-format
 msgid ""
 "The desktop entry file\n"
@@ -3492,7 +3489,7 @@ msgid ""
 "is not valid."
 msgstr ""
 
-#: gui/kprocessrunner.cpp:164
+#: gui/kprocessrunner.cpp:185
 #, kde-format
 msgid "Launching %1"
 msgstr ""
@@ -8533,6 +8530,9 @@ msgstr "Esto va aniciar el programa:"
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
+
+#~ msgid "Drive: %1"
+#~ msgstr "Unidá: %1"
 
 #~ msgid "Connection timed out"
 #~ msgstr "Escosó'l tiempu d'espera de la conexón"
