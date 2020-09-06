@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: baloo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-01 02:09+0200\n"
+"POT-Creation-Date: 2020-09-06 02:08+0200\n"
 "PO-Revision-Date: 2020-01-19 13:52+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -397,7 +397,7 @@ msgstr "Primi Ctrl+C pa parar la supervisión\n"
 msgid "File indexer is running\n"
 msgstr "L'indizador de ficheros ta n'execución\n"
 
-#: monitorcommand.cpp:94
+#: monitorcommand.cpp:94 statuscommand.cpp:308
 #, kde-format
 msgctxt "currently indexed file"
 msgid "Indexing: %1"
@@ -413,114 +413,121 @@ msgstr ": Fecho\n"
 msgid "CLI interface for monitoring Baloo"
 msgstr ""
 
-#: statuscommand.cpp:32
+#: statuscommand.cpp:33
 #, kde-format
 msgid "Print the status of the Indexer"
 msgstr "Amuesa l'estáu del indizador"
 
-#: statuscommand.cpp:116
+#: statuscommand.cpp:117
 #, kde-format
 msgid "File ignored"
 msgstr "Inoróse'l ficheru"
 
-#: statuscommand.cpp:117
+#: statuscommand.cpp:118
 #, kde-format
 msgid "Basic Indexing: Disabled"
 msgstr "Indizáu básicu: Desactivóse"
 
-#: statuscommand.cpp:118 statuscommand.cpp:119
+#: statuscommand.cpp:119 statuscommand.cpp:120
 #, kde-format
 msgid "Basic Indexing: Scheduled"
 msgstr "Indizáu básicu: Programóse"
 
-#: statuscommand.cpp:120 statuscommand.cpp:121 statuscommand.cpp:122
-#: statuscommand.cpp:123
+#: statuscommand.cpp:121 statuscommand.cpp:122 statuscommand.cpp:123
+#: statuscommand.cpp:124
 #, kde-format
 msgid "Basic Indexing: Done"
 msgstr "Indizáu básicu: Fízose"
 
-#: statuscommand.cpp:129 statuscommand.cpp:132
+#: statuscommand.cpp:130 statuscommand.cpp:133
 #, kde-format
 msgid "Content Indexing: Scheduled"
 msgstr "Indizáu de conteníu: Planificóse"
 
-#: statuscommand.cpp:133
+#: statuscommand.cpp:134
 #, kde-format
 msgid "Content Indexing: Failed"
 msgstr "Indizáu de conteníu: Falló"
 
-#: statuscommand.cpp:134
+#: statuscommand.cpp:135
 #, kde-format
 msgid "Content Indexing: Done"
 msgstr "Indizáu de conteníu: Fízose"
 
-#: statuscommand.cpp:141 statuscommand.cpp:181 statuscommand.cpp:230
+#: statuscommand.cpp:142 statuscommand.cpp:182 statuscommand.cpp:231
 #, kde-format
 msgid "Ignoring non-existent file %1"
 msgstr "Inorando'l ficheru inesistente %1"
 
-#: statuscommand.cpp:146 statuscommand.cpp:186 statuscommand.cpp:235
+#: statuscommand.cpp:147 statuscommand.cpp:187 statuscommand.cpp:236
 #, kde-format
 msgid "Ignoring symlink/special file %1"
 msgstr "Inorando l'enllaz simbólicu/ficheru especial %1"
 
-#: statuscommand.cpp:150
+#: statuscommand.cpp:151
 #, kde-format
 msgid "File: %1"
 msgstr "Ficheru: %1"
 
-#: statuscommand.cpp:262
-#, kde-format
-msgid "Output format \"%1\" is invalid"
+#: statuscommand.cpp:263
+#, fuzzy, kde-format
+#| msgid "Output format \"%1\" is invalid"
+msgid "Output format \"%1\" is invalid, use one of:\n"
 msgstr "El formatu de salida «%1» nun ye válidu"
 
-#: statuscommand.cpp:268
+#: statuscommand.cpp:265
+#, kde-format
+msgctxt "bullet list item with output format"
+msgid "- %1\n"
+msgstr ""
+
+#: statuscommand.cpp:272
 #, fuzzy, kde-format
 #| msgid "Baloo is currently disabled. To enable, please run %1"
 msgid "Baloo is currently disabled. To enable, please run %1\n"
 msgstr "Anguaño Baloo ta desactiváu. P'activalu, executa %1"
 
-#: statuscommand.cpp:274
+#: statuscommand.cpp:278
 #, kde-format
 msgid "Baloo Index could not be opened\n"
 msgstr "L'índiz de Baloo nun pudo abrise\n"
 
-#: statuscommand.cpp:295
+#: statuscommand.cpp:305
 #, kde-format
 msgid "Baloo File Indexer is running\n"
 msgstr "L'indizador de ficheros de Baloo ta n'execución\n"
 
-#: statuscommand.cpp:296
+#: statuscommand.cpp:307 statuscommand.cpp:310
 #, kde-format
 msgid "Indexer state: %1"
 msgstr "Estáu del indizador: %1"
 
-#: statuscommand.cpp:299
+#: statuscommand.cpp:314
 #, kde-format
 msgid "Baloo File Indexer is not running\n"
 msgstr "L'indizador de ficheros de Baloo nun ta n'execución\n"
 
-#: statuscommand.cpp:306
+#: statuscommand.cpp:321
 #, kde-format
 msgid "Total files indexed: %1"
 msgstr "Ficheros indizaos totales: %1"
 
-#: statuscommand.cpp:307
+#: statuscommand.cpp:322
 #, kde-format
 msgid "Files waiting for content indexing: %1"
 msgstr "Ficheros esperando pol indizáu de conteníu: %1"
 
-#: statuscommand.cpp:308
+#: statuscommand.cpp:323
 #, kde-format
 msgid "Files failed to index: %1"
 msgstr "Ficheros que fallaron al indizar: %1"
 
-#: statuscommand.cpp:316
+#: statuscommand.cpp:331
 #, kde-format
 msgid "Current size of index is %1"
 msgstr "Tamañu actual del índiz: %1"
 
-#: statuscommand.cpp:318
+#: statuscommand.cpp:333
 #, kde-format
 msgid "Index does not exist yet\n"
 msgstr "L'índiz entá nun esiste\n"
