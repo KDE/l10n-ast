@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-03 02:18+0200\n"
+"POT-Creation-Date: 2020-10-04 02:20+0200\n"
 "PO-Revision-Date: 2020-04-14 01:59+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -139,10 +139,10 @@ msgstr ""
 #: data/effects/audiospectrum.xml:29 data/effects/audiowaveform.xml:15
 #: data/effects/movit_rect.xml:6 data/effects/pan_zoom.xml:7
 #: data/effects/pillar_echo.xml:7 data/effects/qtblend.xml:8
-#: data/effects/qtblend.xml:26 data/effects/tracker.xml:8
-#: data/effects/tracker.xml:52 data/transitions/affine.xml:7
-#: data/transitions/composite.xml:7 data/transitions/qtblend.xml:7
-#: data/transitions/region.xml:10
+#: data/effects/qtblend.xml:26 data/effects/qtcrop.xml:7
+#: data/effects/tracker.xml:8 data/effects/tracker.xml:52
+#: data/transitions/affine.xml:7 data/transitions/composite.xml:7
+#: data/transitions/qtblend.xml:7 data/transitions/region.xml:10
 #, kde-format
 msgid "Rectangle"
 msgstr "Rectángulu"
@@ -3658,7 +3658,7 @@ msgstr ""
 
 #: data/effects/movit_blur.xml:6 data/effects/movit_diffusion.xml:6
 #: data/effects/movit_glow.xml:6 data/effects/movit_unsharp_mask.xml:6
-#: data/effects/movit_vignette.xml:6
+#: data/effects/movit_vignette.xml:6 data/effects/qtcrop.xml:13
 #, kde-format
 msgid "Radius"
 msgstr "Radiu"
@@ -3929,6 +3929,28 @@ msgstr ""
 #: data/effects/qtblend.xml:39 data/transitions/qtblend.xml:20
 #, kde-format
 msgid "Rotate from center"
+msgstr ""
+
+#: data/effects/qtcrop.xml:3
+#, kde-format
+msgid "Crop by padding"
+msgstr ""
+
+#: data/effects/qtcrop.xml:4
+#, kde-format
+msgid ""
+"This filter crops the image to a rounded rectangle or circle by padding it "
+"with a color."
+msgstr ""
+
+#: data/effects/qtcrop.xml:10
+#, kde-format
+msgid "Circle"
+msgstr ""
+
+#: data/effects/qtcrop.xml:16
+#, kde-format
+msgid "Padding Color"
 msgstr ""
 
 #: data/effects/region.xml:3 data/transitions/region.xml:3
@@ -5311,8 +5333,8 @@ msgstr ""
 msgid "Update %1"
 msgstr ""
 
-#: src/assets/model/assetparametermodel.cpp:815
-#: src/assets/model/assetparametermodel.cpp:862
+#: src/assets/model/assetparametermodel.cpp:821
+#: src/assets/model/assetparametermodel.cpp:868
 #, kde-format
 msgid "Cannot open preset file %1"
 msgstr ""
@@ -6453,41 +6475,41 @@ msgstr ""
 msgid "Untitled"
 msgstr "Ensin_títulu"
 
-#: src/bin/projectclip.cpp:475
+#: src/bin/projectclip.cpp:477
 #, kde-format
 msgctxt "The first letter of Proxy, used as abbreviation"
 msgid "P"
 msgstr ""
 
-#: src/bin/projectclip.cpp:529
+#: src/bin/projectclip.cpp:531
 #, kde-format
 msgid ""
 "Image dimension smaller than 8 pixels.\n"
 "This is not correctly supported by our video framework."
 msgstr ""
 
-#: src/bin/projectclip.cpp:1453
+#: src/bin/projectclip.cpp:1457
 #, kde-format
 msgid "Clip already contains analysis data %1"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1453
+#: src/bin/projectclip.cpp:1457
 #, kde-format
 msgid "Merge"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1454
+#: src/bin/projectclip.cpp:1458
 #, kde-format
 msgid "Add"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1762
+#: src/bin/projectclip.cpp:1766
 #, fuzzy, kde-format
 #| msgid "Master effects"
 msgid "Add stream effect"
 msgstr "Efeutos maestros"
 
-#: src/bin/projectclip.cpp:1785
+#: src/bin/projectclip.cpp:1789
 #, fuzzy, kde-format
 #| msgid "Show master effects"
 msgid "Remove stream effect"
@@ -6518,32 +6540,32 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: src/bin/projectitemmodel.cpp:563
+#: src/bin/projectitemmodel.cpp:564
 #, kde-format
 msgid "Zone"
 msgstr "Zona"
 
-#: src/bin/projectitemmodel.cpp:738
+#: src/bin/projectitemmodel.cpp:739
 #, kde-format
 msgid "Add bin clip"
 msgstr ""
 
-#: src/bin/projectitemmodel.cpp:809
+#: src/bin/projectitemmodel.cpp:810
 #, kde-format
 msgid "Add a sub clip"
 msgstr ""
 
-#: src/bin/projectitemmodel.cpp:850
+#: src/bin/projectitemmodel.cpp:851
 #, kde-format
 msgid "Rename Folder"
 msgstr ""
 
-#: src/bin/projectitemmodel.cpp:879 src/mainwindow.cpp:1320
+#: src/bin/projectitemmodel.cpp:880 src/mainwindow.cpp:1320
 #, kde-format
 msgid "Clean Project"
 msgstr "Llimpiar el proyeutu"
 
-#: src/bin/projectitemmodel.cpp:1006
+#: src/bin/projectitemmodel.cpp:1007
 #, kde-format
 msgid "Loading project clips..."
 msgstr ""
