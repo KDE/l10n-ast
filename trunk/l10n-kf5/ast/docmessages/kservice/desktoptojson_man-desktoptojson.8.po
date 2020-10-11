@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktoptojson_man-desktoptojson.8\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-28 00:40+0000\n"
+"POT-Creation-Date: 2020-10-11 00:53+0000\n"
 "PO-Revision-Date: 2015-04-05 22:07+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. Tag: title
 #: man-desktoptojson.8.docbook:9
 #, no-c-format
-msgid "&kde; Frameworks: KService"
+msgid "&kde-frameworks;: KService"
 msgstr ""
 
 #. Tag: author
@@ -125,21 +125,21 @@ msgid ""
 "The KService framework uses information contained in <filename class="
 "\"extension\">.desktop</filename> files to locate services, including "
 "plugins for Qt5-based applications and libraries. The Qt5 plugin system, "
-"however, uses JSON data embedded in the plugin itself. "
+"however, uses &JSON; data embedded in the plugin itself. "
 "<command>desktoptojson</command> allows the information contained in a "
 "<filename class=\"extension\">.desktop</filename> file to also be used as "
 "the embedded data for a Qt5 plugin by converting the <filename class="
-"\"extension\">.desktop</filename> file entries into JSON data."
+"\"extension\">.desktop</filename> file entries into &JSON; data."
 msgstr ""
 
 #. Tag: para
 #: man-desktoptojson.8.docbook:70
 #, no-c-format
 msgid ""
-"The generated JSON data is a JSON object that maps the entries from the "
+"The generated &JSON; data is a &JSON; object that maps the entries from the "
 "<literal>[Desktop Entry]</literal> group of the <filename class=\"extension"
 "\">.desktop</filename> file. Any other groups are ignored. Most entries are "
-"just converted to JSON strings, but certain entries (such as "
+"just converted to &JSON; strings, but certain entries (such as "
 "<literal>Hidden</literal> and <literal>X-KDE-PluginInfo-EnabledByDefault</"
 "literal>) are known to be boolean values and converted as such, and "
 "similarly some (such as <literal>X-KDE-ServiceTypes</literal> and <literal>X-"
@@ -173,7 +173,7 @@ msgstr ""
 #. Tag: para
 #: man-desktoptojson.8.docbook:89
 #, no-c-format
-msgid "The file to write the generated JSON data to."
+msgid "The file to write the generated &JSON; data to."
 msgstr ""
 
 #. Tag: option
@@ -210,14 +210,14 @@ msgstr ""
 #: man-desktoptojson.8.docbook:114
 #, no-c-format
 msgid ""
-"Most users of this utility will use the CMake macro "
+"Most users of this utility will use the &cmake; macro "
 "<function>kservice_desktop_to_json</function> as part of the process of "
 "building a plugin. <programlisting language=\"cmake\">\n"
 "<![CDATA[\n"
 "add_library(myplugin MODULE ${myplugin_SRCS})\n"
 "kservice_desktop_to_json(myplugin myplugin.desktop)\n"
 "]]>\n"
-"</programlisting> This will produce the JSON file <filename>myplugin.json</"
+"</programlisting> This will produce the &JSON; file <filename>myplugin.json</"
 "filename>, which can be referenced from the "
 "<function>K_PLUGIN_FACTORY_WITH_JSON</function> or "
 "<function>Q_PLUGIN_METADATA</function> macros."
@@ -233,6 +233,6 @@ msgstr ""
 #: man-desktoptojson.8.docbook:129
 #, no-c-format
 msgid ""
-"Please use <ulink url=\"http://bugs.kde.org\">KDE's bugtracker</ulink> to "
+"Please use <ulink url=\"https://bugs.kde.org\">&kde;'s bugtracker</ulink> to "
 "report bugs."
 msgstr ""
