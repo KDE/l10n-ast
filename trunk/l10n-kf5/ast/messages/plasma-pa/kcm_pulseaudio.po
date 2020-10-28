@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-pa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-08 02:18+0200\n"
+"POT-Creation-Date: 2020-10-28 02:38+0100\n"
 "PO-Revision-Date: 2019-10-20 03:08+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian\n"
@@ -51,23 +51,28 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
 
-#: kcm/package/contents/ui/Advanced.qml:47
+#: kcm/package/contents/ui/Advanced.qml:32
+#, kde-format
+msgid "Configure"
+msgstr ""
+
+#: kcm/package/contents/ui/Advanced.qml:39
 #, kde-format
 msgid "Device Profiles"
 msgstr "Perfiles de preseos"
 
-#: kcm/package/contents/ui/Advanced.qml:48
+#: kcm/package/contents/ui/Advanced.qml:40
 #, kde-format
 msgctxt "@label"
 msgid "No Device Profiles Available"
 msgstr "Nun hai perfiles disponibles de preseos"
 
-#: kcm/package/contents/ui/Advanced.qml:64
+#: kcm/package/contents/ui/Advanced.qml:56
 #, kde-format
 msgid "Advanced Output Configuration"
 msgstr "Configuración avanzada de la salida"
 
-#: kcm/package/contents/ui/Advanced.qml:77
+#: kcm/package/contents/ui/Advanced.qml:69
 #, kde-format
 msgid ""
 "Add virtual output device for simultaneous output on all local sound cards"
@@ -75,7 +80,7 @@ msgstr ""
 "Amestar en toles tarxetes de soníu llocales un preséu de salida pa la salida "
 "simultánea"
 
-#: kcm/package/contents/ui/Advanced.qml:88
+#: kcm/package/contents/ui/Advanced.qml:80
 #, kde-format
 msgid ""
 "Automatically switch all running streams when a new output becomes available"
@@ -83,83 +88,61 @@ msgstr ""
 "Cambiar automáticamente tolos fluxos n'execución cuando tea disponible una "
 "salida nueva"
 
-#: kcm/package/contents/ui/Advanced.qml:99
+#: kcm/package/contents/ui/Advanced.qml:91
 #, kde-format
 msgid "Requires %1 PulseAudio module"
 msgstr "Rique'l módulu %1 de PulseAudio"
 
-#: kcm/package/contents/ui/Advanced.qml:105
+#: kcm/package/contents/ui/Advanced.qml:97
 #, kde-format
 msgid "Speaker Placement and Testing"
 msgstr "Asitiamientu y prueba d'altavoces"
 
-#: kcm/package/contents/ui/Advanced.qml:113
+#: kcm/package/contents/ui/Advanced.qml:105
 #, kde-format
 msgctxt "@label"
 msgid "Output:"
 msgstr "Salida:"
 
-#: kcm/package/contents/ui/Advanced.qml:156
+#: kcm/package/contents/ui/Advanced.qml:148
 #, kde-format
 msgid "Front Left"
 msgstr "Frontal esquierdu"
 
-#: kcm/package/contents/ui/Advanced.qml:167
+#: kcm/package/contents/ui/Advanced.qml:159
 #, kde-format
 msgid "Front Center"
 msgstr "Frontal central"
 
-#: kcm/package/contents/ui/Advanced.qml:178
+#: kcm/package/contents/ui/Advanced.qml:170
 #, kde-format
 msgid "Front Right"
 msgstr "Frontal drechu"
 
-#: kcm/package/contents/ui/Advanced.qml:189
+#: kcm/package/contents/ui/Advanced.qml:181
 #, kde-format
 msgid "Side Left"
 msgstr "Llau esquierdu"
 
-#: kcm/package/contents/ui/Advanced.qml:215
+#: kcm/package/contents/ui/Advanced.qml:207
 #, kde-format
 msgid "Side Right"
 msgstr "Llau drechu"
 
-#: kcm/package/contents/ui/Advanced.qml:225
+#: kcm/package/contents/ui/Advanced.qml:217
 #, kde-format
 msgid "Rear Left"
 msgstr "Traseru esquierdu"
 
-#: kcm/package/contents/ui/Advanced.qml:235
+#: kcm/package/contents/ui/Advanced.qml:227
 #, kde-format
 msgid "Subwoofer"
 msgstr "Subwoofer"
 
-#: kcm/package/contents/ui/Advanced.qml:245
+#: kcm/package/contents/ui/Advanced.qml:237
 #, kde-format
 msgid "Rear Right"
 msgstr "Traseru drechu"
-
-#: kcm/package/contents/ui/Applications.qml:47
-#, kde-format
-msgid "Playback Streams"
-msgstr "Fluxos de reproducción"
-
-#: kcm/package/contents/ui/Applications.qml:48
-#, kde-format
-msgctxt "@label"
-msgid "No Applications Playing Audio"
-msgstr "Nun hai aplicaciones que tean reproduciendo l'audiu"
-
-#: kcm/package/contents/ui/Applications.qml:88
-#, kde-format
-msgid "Recording Streams"
-msgstr "Fluxos de grabación"
-
-#: kcm/package/contents/ui/Applications.qml:89
-#, kde-format
-msgctxt "@label"
-msgid "No Applications Recording Audio"
-msgstr "Nun hai aplicaciones que tean grabando l'audiu"
 
 #: kcm/package/contents/ui/CardListItem.qml:51
 #, kde-format
@@ -204,55 +187,64 @@ msgctxt "Placeholder is channel name"
 msgid "%1:"
 msgstr "%1%"
 
-#: kcm/package/contents/ui/Devices.qml:66
+#: kcm/package/contents/ui/main.qml:35
+#, kde-format
+msgid "This module allows configuring the Pulseaudio sound subsystem."
+msgstr "Esti módulu permite configurar el sosistema de soníu de Pulseaudio."
+
+#: kcm/package/contents/ui/main.qml:87
 #, kde-format
 msgid "Playback Devices"
 msgstr "Preseos de reproducción"
 
-#: kcm/package/contents/ui/Devices.qml:67
+#: kcm/package/contents/ui/main.qml:88
 #, kde-format
 msgctxt "@label"
 msgid "No Playback Devices Available"
 msgstr "Nun hai preseos de reproducción disponibles"
 
-#: kcm/package/contents/ui/Devices.qml:86
+#: kcm/package/contents/ui/main.qml:106
 #, kde-format
 msgid "Recording Devices"
 msgstr "Preseos de grabación"
 
-#: kcm/package/contents/ui/Devices.qml:87
+#: kcm/package/contents/ui/main.qml:107
 #, kde-format
 msgctxt "@label"
 msgid "No Recording Devices Available"
 msgstr "Nun hai preseos de grabación disponibles"
 
-#: kcm/package/contents/ui/Devices.qml:111
+#: kcm/package/contents/ui/main.qml:126
 #, kde-format
 msgid "Show Inactive Devices"
 msgstr ""
 
-#: kcm/package/contents/ui/main.qml:36
+#: kcm/package/contents/ui/main.qml:136
 #, kde-format
-msgid "This module allows configuring the Pulseaudio sound subsystem."
-msgstr "Esti módulu permite configurar el sosistema de soníu de Pulseaudio."
+msgid "Playback Streams"
+msgstr "Fluxos de reproducción"
 
-#: kcm/package/contents/ui/main.qml:56
+#: kcm/package/contents/ui/main.qml:137
 #, kde-format
-msgctxt "@title:tab"
-msgid "Devices"
-msgstr "Preseos"
+msgctxt "@label"
+msgid "No Applications Playing Audio"
+msgstr "Nun hai aplicaciones que tean reproduciendo l'audiu"
 
-#: kcm/package/contents/ui/main.qml:59
+#: kcm/package/contents/ui/main.qml:175
 #, kde-format
-msgctxt "@title:tab"
-msgid "Applications"
-msgstr "Aplicaciones"
+msgid "Recording Streams"
+msgstr "Fluxos de grabación"
 
-#: kcm/package/contents/ui/main.qml:62
+#: kcm/package/contents/ui/main.qml:176
 #, kde-format
-msgctxt "@title:tab"
-msgid "Advanced"
-msgstr "Avanzao"
+msgctxt "@label"
+msgid "No Applications Recording Audio"
+msgstr "Nun hai aplicaciones que tean grabando l'audiu"
+
+#: kcm/package/contents/ui/main.qml:201
+#, kde-format
+msgid "Configure..."
+msgstr ""
 
 #: kcm/package/contents/ui/MuteButton.qml:36
 #, kde-format
@@ -315,6 +307,18 @@ msgstr ", "
 msgctxt "List of apps is using mic"
 msgid "%1 are using the microphone"
 msgstr "%1 tán usando'l micrófonu"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Devices"
+#~ msgstr "Preseos"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Applications"
+#~ msgstr "Aplicaciones"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Advanced"
+#~ msgstr "Avanzao"
 
 #~ msgid "Default Device"
 #~ msgstr "Predeterminar"
