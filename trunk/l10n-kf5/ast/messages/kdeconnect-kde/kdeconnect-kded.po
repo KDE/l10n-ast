@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-12 02:26+0100\n"
+"POT-Creation-Date: 2020-11-27 02:24+0100\n"
 "PO-Revision-Date: 2020-11-07 17:33+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -28,8 +28,11 @@ msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
 #: kdeconnectd.cpp:52
-#, kde-format
-msgid "Pairing request from %1"
+#, fuzzy, kde-format
+#| msgid "Pairing request from %1"
+msgid ""
+"Pairing request from %1\n"
+"<br/>Key: %2..."
 msgstr "Solicitú d'empareyamientu de %1"
 
 #: kdeconnectd.cpp:53
@@ -47,12 +50,17 @@ msgstr "Aceptar"
 msgid "Reject"
 msgstr "Refugar"
 
-#: kdeconnectd.cpp:132 kdeconnectd.cpp:134
+#: kdeconnectd.cpp:54
+#, kde-format
+msgid "View key"
+msgstr ""
+
+#: kdeconnectd.cpp:135 kdeconnectd.cpp:137
 #, kde-format
 msgid "KDE Connect Daemon"
 msgstr "Degorriu de KDE Connect"
 
-#: kdeconnectd.cpp:145
+#: kdeconnectd.cpp:148
 #, kde-format
 msgid "Replace an existing instance"
 msgstr "Troca una instancia esistente"
