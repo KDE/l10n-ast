@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-28 00:39+0000\n"
+"POT-Creation-Date: 2020-12-07 01:55+0000\n"
 "PO-Revision-Date: 2015-03-26 14:42+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -116,14 +116,14 @@ msgstr ""
 #. Tag: para
 #: index.docbook:67
 #, no-c-format
-msgid "<ulink url=\"http://www.kde.org/\">&kf5-full; libraries</ulink>."
+msgid "<ulink url=\"https://www.kde.org/\">&kf5-full; libraries</ulink>."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:72
 #, no-c-format
 msgid ""
-"<ulink url=\"http://www.ctan.org/\">&latex;</ulink>: high-quality document "
+"<ulink url=\"https://www.ctan.org/\">&latex;</ulink>: high-quality document "
 "typesetting program. Most likely you want the &texlive; (or on older systems "
 "the &tetex;) package, if you are on a Unix-like system. It is an optional "
 "dependency, but without it &kbibtex; provides very limited functionality."
@@ -251,7 +251,7 @@ msgid ""
 "        publisher = {Springer},\n"
 "        title = {{The calculation of crack opening area and crack opening "
 "volume from stress intensity factors}},\n"
-"        url = {http://dx.doi.org/10.1007/BF00048294},\n"
+"        url = {https://dx.doi.org/10.1007/BF00048294},\n"
 "        volume = {76},\n"
 "        x-fetchedfrom = {SpringerLink},\n"
 "        year = {1995}\n"
@@ -568,8 +568,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Here, <replaceable>foo</replaceable> is the name of your <filename role="
-"\"extension\">bib</filename> file created with &kbibtex; and <quote>plain</"
-"quote> is the name of bibliography style."
+"\"extension\">bib</filename> file created with &kbibtex; and "
+"<quote><literal>plain</literal></quote> is the name of bibliography style."
 msgstr ""
 
 #. Tag: para
@@ -587,8 +587,8 @@ msgstr ""
 msgid "Below is a list of some generic styles available everywhere:"
 msgstr ""
 
-#. Tag: term
-#: index.docbook:314
+#. Tag: literal
+#: index.docbook:315
 #, no-c-format
 msgid "plain"
 msgstr ""
@@ -599,8 +599,8 @@ msgstr ""
 msgid "normal style, listed in alphabetic order and labeled numerically"
 msgstr ""
 
-#. Tag: term
-#: index.docbook:324
+#. Tag: literal
+#: index.docbook:325
 #, no-c-format
 msgid "unsrt"
 msgstr ""
@@ -608,11 +608,12 @@ msgstr ""
 #. Tag: para
 #: index.docbook:328
 #, no-c-format
-msgid "same as plain except entries appear in order of citation"
+msgid ""
+"same as <literal>plain</literal> except entries appear in order of citation"
 msgstr ""
 
-#. Tag: term
-#: index.docbook:334
+#. Tag: literal
+#: index.docbook:335
 #, no-c-format
 msgid "alpha"
 msgstr ""
@@ -620,11 +621,11 @@ msgstr ""
 #. Tag: para
 #: index.docbook:338
 #, no-c-format
-msgid "same as plain except entry identifiers are used"
+msgid "same as <literal>plain</literal> except entry identifiers are used"
 msgstr ""
 
-#. Tag: term
-#: index.docbook:344
+#. Tag: literal
+#: index.docbook:345
 #, no-c-format
 msgid "abbrv"
 msgstr ""
@@ -633,8 +634,8 @@ msgstr ""
 #: index.docbook:348
 #, no-c-format
 msgid ""
-"same as plain except uses abbreviations for first names, month names, and "
-"journal names"
+"same as <literal>plain</literal> except uses abbreviations for first names, "
+"month names, and journal names"
 msgstr ""
 
 #. Tag: para
@@ -688,13 +689,13 @@ msgstr ""
 #: index.docbook:369
 #, no-c-format
 msgid ""
-"First, you should run <application>latex</application> (to create a foo.aux "
-"file, which <application>bibtex</application> reads). Then run "
-"<application>bibtex</application> once to get some of the citations and "
-"create a <filename role=\"extension\">bbl</filename> file. Then run "
-"<application>latex</application> again so that the cross references between "
-"the text file and the bibliography are correct. You may want to repeat "
-"running <application>bibtex</application> and <application>latex</"
+"First, you should run <application>latex</application> (to create a "
+"<filename>foo.aux</filename> file, which <application>bibtex</application> "
+"reads). Then run <application>bibtex</application> once to get some of the "
+"citations and create a <filename role=\"extension\">bbl</filename> file. "
+"Then run <application>latex</application> again so that the cross references "
+"between the text file and the bibliography are correct. You may want to "
+"repeat running <application>bibtex</application> and <application>latex</"
 "application> on the file to make sure that all cross references are correct. "
 "Be warned that adding/deleting citations and sources will require running "
 "<application>bibtex</application> again."
@@ -1121,7 +1122,7 @@ msgstr ""
 msgid ""
 "Click the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref="
 "\"preferences-web-browser-identification.png\" format=\"PNG\"/> </"
-"imageobject> </inlinemediaobject> Get Credentials</guibutton> button on "
+"imageobject> </inlinemediaobject> Get New Credentials</guibutton> button on "
 "<guilabel>Credentials</guilabel> tab to start the Zotero authorization "
 "wizard. Follow the instructions to allow &kbibtex; access your Zotero "
 "library."
@@ -1345,8 +1346,8 @@ msgstr ""
 #: index.docbook:780
 #, no-c-format
 msgid ""
-"The address drop down box can be used to switch between the pages and "
-"documents."
+"The <guilabel>Address</guilabel> drop down box can be used to switch between "
+"the pages and documents."
 msgstr ""
 
 #. Tag: title
@@ -1368,7 +1369,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "More information on customizing the toolbars can be found in the <ulink url="
-"\"Help:/fundamentals/config.html#toolbars\">corresponding section of &kde; "
+"\"help:/fundamentals/config.html#toolbars\">corresponding section of &kde; "
 "Fundamentals manual</ulink>. Below is the short description of the default "
 "buttons of &kbibtex; toolbars."
 msgstr ""
@@ -1896,7 +1897,7 @@ msgstr ""
 msgid ""
 "Several &kbibtex; parameters can be configured via the "
 "<guilabel>Preferences</guilabel> dialog. This dialog can be opened using the "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kbibtex;</"
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kbibtex;...</"
 "guimenuitem></menuchoice> menu item. Below you can find a description of "
 "&kbibtex; configuration pages."
 msgstr ""
@@ -2235,7 +2236,7 @@ msgstr ""
 msgid ""
 "This configuration page can be used to choose some options for <link linkend="
 "\"element-editor\">previewing of &kbibtex; entries</link>. You can select "
-"<guilabel>Paper Size</guilabel>, language for <ulink url=\"http://www.ctan."
+"<guilabel>Paper Size</guilabel>, language for <ulink url=\"https://www.ctan."
 "org/pkg/babel\">babel</ulink> &latex; package and the <link linkend=\"quick-"
 "using\">bibliography style</link>."
 msgstr ""
@@ -2473,7 +2474,7 @@ msgstr ""
 #: index.docbook:1596
 #, no-c-format
 msgid ""
-"<ulink url=\"http://www.lyx.org/\">&lyx;</ulink> is a document processor "
+"<ulink url=\"https://www.lyx.org/\">&lyx;</ulink> is a document processor "
 "that encourages an approach to writing based on the structure of your "
 "documents (WYSIWYM) and not simply their appearance (WYSIWYG)."
 msgstr ""
