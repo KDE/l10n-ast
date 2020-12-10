@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-09 02:31+0100\n"
+"POT-Creation-Date: 2020-12-10 02:28+0100\n"
 "PO-Revision-Date: 2020-11-28 01:46+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -303,7 +303,7 @@ msgctxt "explanation for sleep inhibit during play of music"
 msgid "Playing Music"
 msgstr "Reproducción de música"
 
-#: qml/ApplicationMenu.qml:15 qml/MediaPlayerControl.qml:358
+#: qml/ApplicationMenu.qml:15 qml/MediaPlayerControl.qml:399
 #: qml/NativeTrayMenu.qml:14
 #, kde-format
 msgctxt "open application menu"
@@ -513,18 +513,6 @@ msgstr "Amestar a la llista de reproducción"
 msgid "Nothing to display"
 msgstr ""
 
-#: qml/HeaderBar.qml:381
-#, kde-format
-msgid "1 track remaining"
-msgid_plural "%1 tracks remaining"
-msgstr[0] "1 pista restante"
-msgstr[1] "%1 pistes restantes"
-
-#: qml/HeaderBar.qml:384
-#, kde-format
-msgid "No remaining tracks"
-msgstr "Nun queden pistes restantes"
-
 #: qml/ListBrowserDelegate.qml:87
 #, kde-format
 msgctxt "%1: track number. %2: track title. %3: artist name"
@@ -561,55 +549,86 @@ msgctxt "Clear play list and enqueue current track"
 msgid "Play Now and Replace Play List"
 msgstr "Reproducir agora y trocar la llista de reproducción"
 
-#: qml/MediaPlayerControl.qml:65
+#: qml/MediaPlayerControl.qml:66
 #, kde-format
 msgctxt "toggle between maximized and minimized ivre"
 msgid "Toggle Maximize"
 msgstr "Maximizar/Minimizar"
 
-#: qml/MediaPlayerControl.qml:73
+#: qml/MediaPlayerControl.qml:74
 #, kde-format
 msgctxt "skip backward in playlists"
 msgid "Skip Backward"
 msgstr "Saltar p'atrás"
 
-#: qml/MediaPlayerControl.qml:81
+#: qml/MediaPlayerControl.qml:82
 #, kde-format
 msgctxt "toggle play and pause for the audio player"
 msgid "Toggle Play and Pause"
 msgstr "Alternar la reproducción y posa"
 
-#: qml/MediaPlayerControl.qml:89
+#: qml/MediaPlayerControl.qml:90
 #, kde-format
 msgctxt "skip forward in playlists"
 msgid "Skip Forward"
 msgstr "Saltar p'alantre"
 
-#: qml/MediaPlayerControl.qml:96
+#: qml/MediaPlayerControl.qml:97
 #, kde-format
 msgctxt "This is used to preserve a fixed width for the duration text."
 msgid "00:00:00"
 msgstr "00:00:00"
 
-#: qml/MediaPlayerControl.qml:238
+#: qml/MediaPlayerControl.qml:239
 #, kde-format
 msgctxt "toggle mute mode for player"
 msgid "Toggle Mute"
 msgstr "Alternar el silenciu"
 
-#: qml/MediaPlayerControl.qml:321
+#: qml/MediaPlayerControl.qml:322
 #, kde-format
 msgctxt "toggle shuffle mode for playlist"
 msgid "Toggle Shuffle"
 msgstr "Alternar el debalar"
 
-#: qml/MediaPlayerControl.qml:328
-#, kde-format
-msgctxt "toggle repeat mode for playlist"
-msgid "Toggle Repeat"
-msgstr "Alternar la repitición"
+#: qml/MediaPlayerControl.qml:331
+#, fuzzy, kde-format
+#| msgid "No remaining tracks"
+msgid "Don't repeat tracks"
+msgstr "Nun queden pistes restantes"
 
-#: qml/MediaPlayerControl.qml:344 qml/NativeGlobalMenu.qml:64
+#: qml/MediaPlayerControl.qml:332
+#, fuzzy, kde-format
+#| msgctxt "Show currently played track inside playlist"
+#| msgid "Show Current Track"
+msgid "Repeat current track"
+msgstr "Amosar la pista siguiente"
+
+#: qml/MediaPlayerControl.qml:333
+#, kde-format
+msgid "Repeat all tracks in playlist"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:360 qml/NativeGlobalMenu.qml:133
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@info Title of the view of the playlist; keep this string as short as "
+#| "possible because horizontal space is quite scarce"
+#| msgid "Playlist"
+msgid "Playlist"
+msgstr "Llista de reproducción"
+
+#: qml/MediaPlayerControl.qml:364 qml/NativeGlobalMenu.qml:137
+#, kde-format
+msgid "One"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:368 qml/NativeGlobalMenu.qml:141
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:385 qml/NativeGlobalMenu.qml:64
 #: qml/NativeTrayMenu.qml:51
 #, kde-format
 msgid "Show Playlist"
@@ -691,7 +710,7 @@ msgid ""
 "browse your music using the views on the left."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:253
+#: qml/MediaPlayListView.qml:249
 #, fuzzy, kde-format
 #| msgid "1 track"
 #| msgid_plural "%1 tracks"
@@ -699,6 +718,23 @@ msgid "%1 track"
 msgid_plural "%1 tracks"
 msgstr[0] "1 pista"
 msgstr[1] "%1 pistes"
+
+#: qml/MediaPlayListView.qml:258
+#, fuzzy, kde-format
+#| msgid "1 track"
+#| msgid_plural "%1 tracks"
+msgid "Last track"
+msgstr "1 pista"
+
+#: qml/MediaPlayListView.qml:258
+#, fuzzy, kde-format
+#| msgid "1 track remaining"
+#| msgid_plural "%1 tracks remaining"
+msgctxt "Number of remaining tracks in a playlist of songs"
+msgid "%1 remaining"
+msgid_plural "%1 remaining"
+msgstr[0] "1 pista restante"
+msgstr[1] "%1 pistes restantes"
 
 #: qml/MediaTrackMetadataView.qml:35
 #, kde-format
@@ -828,12 +864,12 @@ msgstr ""
 msgid "Shuffle"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:111 qml/NativeGlobalMenu.qml:133
+#: qml/NativeGlobalMenu.qml:111
 #, kde-format
 msgid "On"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:117 qml/NativeGlobalMenu.qml:139
+#: qml/NativeGlobalMenu.qml:117
 #, kde-format
 msgid "Off"
 msgstr ""
@@ -1072,6 +1108,10 @@ msgstr ""
 #, kde-format
 msgid "Longest First"
 msgstr ""
+
+#~ msgctxt "toggle repeat mode for playlist"
+#~ msgid "Toggle Repeat"
+#~ msgstr "Alternar la repitición"
 
 #~ msgctxt "%1: track number. %2: track title. %3: artist name"
 #~ msgid "<b>%1 - %2</b> - <i>%3</i>"
