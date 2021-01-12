@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sddm-kcm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-01 02:31+0200\n"
+"POT-Creation-Date: 2021-01-12 02:55+0100\n"
 "PO-Revision-Date: 2020-11-05 23:27+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -67,56 +67,207 @@ msgstr "L'estilu a instalar ha tar nun archivu."
 msgid "Unable to install theme"
 msgstr "Nun pue instalase l'estilu"
 
-#: src/configwidgets/selectimagebutton.cpp:41
+#: src/package/contents/ui/Advanced.qml:29
 #, kde-format
-msgid "Load from file..."
+msgctxt "@title"
+msgid "Behavior"
 msgstr ""
 
-#: src/configwidgets/selectimagebutton.cpp:42
+#: src/package/contents/ui/Advanced.qml:33
+#, fuzzy, kde-format
+#| msgid "Automatically log in:"
+msgctxt "option:check"
+msgid "Automatically log in:"
+msgstr "Aniciar sesión automáticamente:"
+
+#: src/package/contents/ui/Advanced.qml:36
+#, fuzzy, kde-format
+#| msgid "as user:"
+msgctxt ""
+"@label:listbox, the following combobox selects the user to log in "
+"automatically"
+msgid "as user:"
+msgstr "col usuariu:"
+
+#: src/package/contents/ui/Advanced.qml:66
+#, fuzzy, kde-format
+#| msgid "with session:"
+msgctxt ""
+"@label:listbox, the following combobox selects the session that is started "
+"automatically"
+msgid "with session"
+msgstr "y la sesión:"
+
+#: src/package/contents/ui/Advanced.qml:84
+#, fuzzy, kde-format
+#| msgid "Log in again immediately after logging off"
+msgctxt "@option:check"
+msgid "Log in again immediately after logging off"
+msgstr "Volver aniciar la sesión darréu de zarrala"
+
+#: src/package/contents/ui/Advanced.qml:97
+#, fuzzy, kde-format
+#| msgid "Minimum user UID:"
+msgctxt "@label:spinbox"
+msgid "Minimum user UID:"
+msgstr "UID mínima d'usuariu:"
+
+#: src/package/contents/ui/Advanced.qml:109
+#, fuzzy, kde-format
+#| msgid "Maximum user UID:"
+msgctxt "@label:spinbox"
+msgid "Maximum user UID:"
+msgstr "UID máxima d'usuariu:"
+
+#: src/package/contents/ui/Advanced.qml:124
+#, fuzzy, kde-format
+#| msgid "Halt command:"
+msgctxt "@label:textbox"
+msgid "Halt Command:"
+msgstr "Comandu d'apagáu:"
+
+#: src/package/contents/ui/Advanced.qml:157
+#, fuzzy, kde-format
+#| msgid "Reboot command:"
+msgctxt "@label:textbox"
+msgid "Reboot Command:"
+msgstr "Comandu de reaniciu:"
+
+#: src/package/contents/ui/DetailsDialog.qml:39
 #, kde-format
-msgid "Clear Image"
+msgctxt "@title:window, %1 is the theme name, %2 the version"
+msgid "%1 (%2)"
 msgstr ""
 
-#: src/configwidgets/selectimagebutton.cpp:75
-#, kde-format
-msgctxt "@title:window"
-msgid "Select Image"
-msgstr "Esbillar d'una imaxe"
-
-#: src/qml/main.qml:91 src/themesdelegate.cpp:65
+#: src/package/contents/ui/DetailsDialog.qml:71
 #, kde-format
 msgid "No preview available"
 msgstr "Ensin previsualización disponible"
 
-#: src/qml/main.qml:116
+#: src/package/contents/ui/DetailsDialog.qml:74
 #, kde-format
-msgid ", by "
-msgstr ", por "
+msgctxt ""
+"%1 is a description of the theme, %2 are the authors, %3 is the license"
+msgid "%1, by %2 (%3)"
+msgstr ""
 
-#: src/sddmkcm.cpp:43
+#: src/package/contents/ui/main.qml:68
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "View details"
+msgstr ""
+
+#: src/package/contents/ui/main.qml:83
+#, fuzzy, kde-format
+#| msgid "Background:"
+msgctxt "@info:tooltip"
+msgid "Change Background"
+msgstr "Fondu:"
+
+#: src/package/contents/ui/main.qml:92
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Delete"
+msgstr ""
+
+#: src/package/contents/ui/main.qml:100
+#, kde-format
+msgctxt "@action:button"
+msgid "Behavior..."
+msgstr ""
+
+#: src/package/contents/ui/main.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Synchronize Settings..."
+msgstr ""
+
+#: src/package/contents/ui/main.qml:113
+#, kde-format
+msgctxt "@action:button"
+msgid "Install From File..."
+msgstr ""
+
+#: src/package/contents/ui/main.qml:119
+#, fuzzy, kde-format
+#| msgid "SDDM theme installer"
+msgid "SDDM Themes"
+msgstr "Instalador d'estilos pa SDDM"
+
+#: src/package/contents/ui/main.qml:134
+#, fuzzy, kde-format
+#| msgid "Settings synchronization:"
+msgctxt "@title:window"
+msgid "Settings Synchronization"
+msgstr "Sincronización d'axustes:"
+
+#: src/package/contents/ui/main.qml:142
+#, fuzzy, kde-format
+#| msgid ""
+#| "Settings synchronization allows you to transfer the following Plasma "
+#| "settings to SDDM: color scheme, cursor theme, font, font rendering, "
+#| "NumLock preference, Plasma theme, and scaling DPI."
+msgid ""
+"Settings synchronization allows you to transfer the following Plasma "
+"settings to SDDM:"
+msgstr ""
+"La sincronización d'axustes permítete tresferir la configuración de Plasma a "
+"SDDM: l'esquema de colores, l'estilu del cursor, la fonte, el renderizáu de "
+"fontes, la preferencia del Bloq Num, l'estilu de plasma y el DPI del escaláu."
+
+#: src/package/contents/ui/main.qml:152
+#, kde-format
+msgctxt "@action:button"
+msgid "Synchronize"
+msgstr ""
+
+#: src/package/contents/ui/main.qml:157
+#, fuzzy, kde-format
+#| msgid "Reset"
+msgctxt "@action:button"
+msgid "Reset"
+msgstr "Reafitar"
+
+#: src/package/contents/ui/main.qml:168
+#, fuzzy, kde-format
+#| msgid "Background:"
+msgctxt "@title:window"
+msgid "Change Background"
+msgstr "Fondu:"
+
+#: src/package/contents/ui/main.qml:179
+#, kde-format
+msgid "No image selected"
+msgstr ""
+
+#: src/package/contents/ui/main.qml:196
+#, kde-format
+msgctxt "@action:button"
+msgid "Load From File..."
+msgstr ""
+
+#: src/package/contents/ui/main.qml:201
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Select Image"
+msgctxt "@action:button"
+msgid "Clear Image"
+msgstr "Esbillar d'una imaxe"
+
+#: src/sddmkcm.cpp:45
 #, kde-format
 msgid "SDDM KDE Config"
 msgstr "KCM pa la configuración de SDDM"
 
-#: src/sddmkcm.cpp:45
+#: src/sddmkcm.cpp:47
 #, kde-format
 msgid "Login screen using the SDDM"
 msgstr ""
 
-#: src/sddmkcm.cpp:49 src/sddmkcm.cpp:50
+#: src/sddmkcm.cpp:50 src/sddmkcm.cpp:51 src/sddmkcm.cpp:52
 #, kde-format
 msgid "Author"
 msgstr ""
-
-#: src/sddmkcm.cpp:116
-#, kde-format
-msgid "Theme"
-msgstr "Estilu"
-
-#: src/sddmkcm.cpp:121
-#, kde-format
-msgid "Advanced"
-msgstr "Avanzao"
 
 #: src/sessionmodel.cpp:89
 #, kde-format
@@ -124,125 +275,33 @@ msgctxt "%1 is the name of a session"
 msgid "%1 (Wayland)"
 msgstr "%1 (Wayland)"
 
-#: src/themeconfig.cpp:188
-#, kde-format
-msgid "Download New SDDM Themes"
-msgstr "Descarga d'estilos nuevos pa SDDM"
+#~ msgid ", by "
+#~ msgstr ", por "
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/ui/advancedconfig.ui:25
-#, kde-format
-msgid "Automatically log in:"
-msgstr "Aniciar sesión automáticamente:"
+#~ msgid "Theme"
+#~ msgstr "Estilu"
 
-#. i18n: ectx: property (text), widget (QCheckBox, autoLogin)
-#: src/ui/advancedconfig.ui:34
-#, kde-format
-msgid "as user:"
-msgstr "col usuariu:"
+#~ msgid "Advanced"
+#~ msgstr "Avanzao"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/ui/advancedconfig.ui:51
-#, kde-format
-msgid "with session:"
-msgstr "y la sesión:"
+#~ msgid "Download New SDDM Themes"
+#~ msgstr "Descarga d'estilos nuevos pa SDDM"
 
-#. i18n: ectx: property (text), widget (QCheckBox, reloginAfterQuit)
-#: src/ui/advancedconfig.ui:76
-#, kde-format
-msgid "Log in again immediately after logging off"
-msgstr "Volver aniciar la sesión darréu de zarrala"
+#~ msgid "Sync"
+#~ msgstr "Sincronizar"
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: src/ui/advancedconfig.ui:99
-#, kde-format
-msgid "Minimum user UID:"
-msgstr "UID mínima d'usuariu:"
+#~ msgid ""
+#~ "Please note that theme files must be installed globally for settings "
+#~ "synchronization to work."
+#~ msgstr ""
+#~ "Decátate que los ficheros d'estilu han instalase globalmente pa que la "
+#~ "sincronización d'axustes funcione."
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/ui/advancedconfig.ui:119
-#, kde-format
-msgid "Maximum user UID:"
-msgstr "UID máxima d'usuariu:"
+#~ msgid "..."
+#~ msgstr "…"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/advancedconfig.ui:155
-#, kde-format
-msgid "Halt command:"
-msgstr "Comandu d'apagáu:"
+#~ msgid "Remove"
+#~ msgstr "Desaniciar"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/ui/advancedconfig.ui:172
-#, kde-format
-msgid "Reboot command:"
-msgstr "Comandu de reaniciu:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: src/ui/advancedconfig.ui:205
-#, kde-format
-msgid "Settings synchronization:"
-msgstr "Sincronización d'axustes:"
-
-#. i18n: ectx: property (text), widget (QPushButton, syncSettings)
-#: src/ui/advancedconfig.ui:214
-#, kde-format
-msgid "Sync"
-msgstr "Sincronizar"
-
-#. i18n: ectx: property (text), widget (QPushButton, resetSettings)
-#: src/ui/advancedconfig.ui:224
-#, kde-format
-msgid "Reset"
-msgstr "Reafitar"
-
-#. i18n: ectx: property (text), widget (QLabel, syncExplanation)
-#: src/ui/advancedconfig.ui:242
-#, kde-format
-msgid ""
-"Settings synchronization allows you to transfer the following Plasma "
-"settings to SDDM: color scheme, cursor theme, font, font rendering, NumLock "
-"preference, Plasma theme, and scaling DPI."
-msgstr ""
-"La sincronización d'axustes permítete tresferir la configuración de Plasma a "
-"SDDM: l'esquema de colores, l'estilu del cursor, la fonte, el renderizáu de "
-"fontes, la preferencia del Bloq Num, l'estilu de plasma y el DPI del escaláu."
-
-#. i18n: ectx: property (text), widget (QLabel, syncWarning)
-#: src/ui/advancedconfig.ui:255
-#, kde-format
-msgid ""
-"Please note that theme files must be installed globally for settings "
-"synchronization to work."
-msgstr ""
-"Decátate que los ficheros d'estilu han instalase globalmente pa que la "
-"sincronización d'axustes funcione."
-
-#. i18n: ectx: property (text), widget (SelectImageButton, selectBackgroundButton)
-#: src/ui/themeconfig.ui:127
-#, kde-format
-msgid "..."
-msgstr "…"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/themeconfig.ui:134
-#, kde-format
-msgid "Background:"
-msgstr "Fondu:"
-
-#. i18n: ectx: property (text), widget (QPushButton, removeThemeButton)
-#: src/ui/themeconfig.ui:156
-#, kde-format
-msgid "Remove"
-msgstr "Desaniciar"
-
-#. i18n: ectx: property (text), widget (QPushButton, installFromFileButton)
-#: src/ui/themeconfig.ui:180
-#, kde-format
-msgid "Install From File..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
-#: src/ui/themeconfig.ui:191
-#, kde-format
-msgid "Get New Login Screens..."
-msgstr "Consiguir pantalles nueves…"
+#~ msgid "Get New Login Screens..."
+#~ msgstr "Consiguir pantalles nueves…"
