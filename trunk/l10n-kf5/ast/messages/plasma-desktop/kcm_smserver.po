@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-17 02:36+0100\n"
+"POT-Creation-Date: 2021-01-13 03:39+0100\n"
 "PO-Revision-Date: 2020-11-11 14:45+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -63,17 +63,114 @@ msgstr ""
 msgid "Carl Schwan"
 msgstr ""
 
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid "Failed to request restart to firmware setup: %1"
+msgstr "Fallu al soliciar el reaniciu a la configuración del firmware: %1"
+
+#: package/contents/ui/main.qml:39
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the UEFI setup screen."
+msgstr ""
+"La próxima vegada que l'ordeandor se reanicie, va entrar na pantalla de "
+"configuración de la UEFI."
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the firmware setup screen."
+msgstr ""
+"La próxima vegada que l'ordeandor se reanicie, va entrar na pantalla de "
+"configuración del firmware."
+
+#: package/contents/ui/main.qml:45
+#, kde-format
+msgid "Restart Now"
+msgstr "Reaniciar agora"
+
+#: package/contents/ui/main.qml:51
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General:"
+msgstr "Xeneral"
+
 #. i18n: ectx: label, entry (confirmLogout), group (General)
-#: smserversettings.kcfg:9
+#: package/contents/ui/main.qml:52 smserversettings.kcfg:9
 #, kde-format
 msgid "Confirm logout"
 msgstr "Confirmar el zarru de sesión"
 
 #. i18n: ectx: label, entry (offerShutdown), group (General)
-#: smserversettings.kcfg:13
+#: package/contents/ui/main.qml:61 smserversettings.kcfg:13
 #, kde-format
 msgid "Offer shutdown options"
 msgstr "Ufrir les opciones d'apagáu"
+
+#: package/contents/ui/main.qml:78
+#, kde-format
+msgid "Default leave option:"
+msgstr ""
+
+#: package/contents/ui/main.qml:79
+#, fuzzy, kde-format
+#| msgid "&End current session"
+msgid "End current session"
+msgstr "&Finar la sesión actual"
+
+#: package/contents/ui/main.qml:89
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart computer"
+msgstr "&Reaniciar l'ordenador"
+
+#: package/contents/ui/main.qml:99
+#, fuzzy, kde-format
+#| msgid "&Turn off computer"
+msgid "Turn off computer"
+msgstr "&Apagar l'ordenador"
+
+#: package/contents/ui/main.qml:115
+#, kde-format
+msgid "When logging in:"
+msgstr ""
+
+#: package/contents/ui/main.qml:116
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore previous saved session"
+msgstr "Restaurar a &mano la sesión guardada"
+
+#: package/contents/ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore manually saved session"
+msgstr "Restaurar a &mano la sesión guardada"
+
+#: package/contents/ui/main.qml:136
+#, fuzzy, kde-format
+#| msgid "Start with an empty &session"
+msgid "Start with an empty session"
+msgstr "Aniciar una &sesión balera"
+
+#: package/contents/ui/main.qml:149
+#, kde-format
+msgid "Don't restore these applications:"
+msgstr ""
+
+#: package/contents/ui/main.qml:155
+#, kde-format
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""
+
+#: package/contents/ui/main.qml:169
+#, fuzzy, kde-format
+#| msgid "Enter firmware setup on next restart"
+msgid "Enter firmware setup screen on next restart"
+msgstr "Entrar na configuración del firmware nel próximu reaniciu"
 
 #. i18n: ectx: label, entry (shutdownType), group (General)
 #: smserversettings.kcfg:17
@@ -93,33 +190,11 @@ msgstr "Al aniciar sesión"
 msgid "Applications to be excluded from session"
 msgstr "Les aplicaciones que van escluyise de la sesión"
 
-#~ msgid "Restart Now"
-#~ msgstr "Reaniciar agora"
-
-#~ msgid "Failed to request restart to firmware setup: %1"
-#~ msgstr "Fallu al soliciar el reaniciu a la configuración del firmware: %1"
-
-#~ msgid ""
-#~ "Next time the computer is restarted, it will enter the UEFI setup screen."
-#~ msgstr ""
-#~ "La próxima vegada que l'ordeandor se reanicie, va entrar na pantalla de "
-#~ "configuración de la UEFI."
-
-#~ msgid ""
-#~ "Next time the computer is restarted, it will enter the firmware setup "
-#~ "screen."
-#~ msgstr ""
-#~ "La próxima vegada que l'ordeandor se reanicie, va entrar na pantalla de "
-#~ "configuración del firmware."
-
 #~ msgid "UEFI Setup"
 #~ msgstr "Configuración de la UEFI"
 
 #~ msgid "Enter UEFI setup on next restart"
 #~ msgstr "Entrar na configuración de la UEFI nel próximu reaniciu"
-
-#~ msgid "General"
-#~ msgstr "Xeneral"
 
 #~ msgid ""
 #~ "Check this option if you want the session manager to display a logout "
@@ -134,29 +209,11 @@ msgstr "Les aplicaciones que van escluyise de la sesión"
 #~ msgid "O&ffer shutdown options"
 #~ msgstr "U&frir les opciones d'apagáu"
 
-#~ msgid "&End current session"
-#~ msgstr "&Finar la sesión actual"
-
-#~ msgid "&Restart computer"
-#~ msgstr "&Reaniciar l'ordenador"
-
-#~ msgid "&Turn off computer"
-#~ msgstr "&Apagar l'ordenador"
-
 #~ msgid "On Login"
 #~ msgstr "Al aniciar sesión"
-
-#~ msgid "Restore &manually saved session"
-#~ msgstr "Restaurar a &mano la sesión guardada"
-
-#~ msgid "Start with an empty &session"
-#~ msgstr "Aniciar una &sesión balera"
 
 #~ msgid "Applications to be e&xcluded from sessions:"
 #~ msgstr "Les aplicaciones que van e&scluyise de les sesiones:"
 
 #~ msgid "Firmware Setup"
 #~ msgstr "Configuración del firmware"
-
-#~ msgid "Enter firmware setup on next restart"
-#~ msgstr "Entrar na configuración del firmware nel próximu reaniciu"
