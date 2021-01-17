@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sddm-kcm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-13 03:42+0100\n"
+"POT-Creation-Date: 2021-01-17 02:46+0100\n"
 "PO-Revision-Date: 2021-01-12 13:26+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -215,38 +215,55 @@ msgstr ""
 "SDDM: l'esquema de colores, l'estilu del cursor, la fonte, el renderizáu de "
 "fontes, la preferencia del Bloq Num, l'estilu de plasma y el DPI del escaláu."
 
-#: src/package/contents/ui/main.qml:152
+#: src/package/contents/ui/main.qml:143
+#, kde-format
+msgid ""
+"<ul><li>color scheme,</li><li>cursor theme,</li><li>font,</li><li>font "
+"rendering,</li><li>NumLock preference,</li><li>Plasma theme,</li><li>and "
+"scaling DPI</li></ul>"
+msgstr ""
+
+#: src/package/contents/ui/main.qml:144
+#, kde-format
+msgid ""
+"Please note that theme files must be installed globally for settings "
+"synchronization to work."
+msgstr ""
+"Decátate que los ficheros d'estilu han instalase globalmente pa que la "
+"sincronización d'axustes funcione."
+
+#: src/package/contents/ui/main.qml:151
 #, kde-format
 msgctxt "@action:button"
 msgid "Synchronize"
 msgstr "Sincronizar"
 
-#: src/package/contents/ui/main.qml:157
+#: src/package/contents/ui/main.qml:156
 #, fuzzy, kde-format
 #| msgid "Reset"
 msgctxt "@action:button"
 msgid "Reset"
 msgstr "Reafitar"
 
-#: src/package/contents/ui/main.qml:168
+#: src/package/contents/ui/main.qml:167
 #, fuzzy, kde-format
 #| msgid "Background:"
 msgctxt "@title:window"
 msgid "Change Background"
 msgstr "Fondu:"
 
-#: src/package/contents/ui/main.qml:179
+#: src/package/contents/ui/main.qml:178
 #, kde-format
 msgid "No image selected"
 msgstr ""
 
-#: src/package/contents/ui/main.qml:196
+#: src/package/contents/ui/main.qml:195
 #, kde-format
 msgctxt "@action:button"
 msgid "Load From File..."
 msgstr ""
 
-#: src/package/contents/ui/main.qml:201
+#: src/package/contents/ui/main.qml:200
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Select Image"
@@ -292,13 +309,6 @@ msgstr "%1 (Wayland)"
 
 #~ msgid "Sync"
 #~ msgstr "Sincronizar"
-
-#~ msgid ""
-#~ "Please note that theme files must be installed globally for settings "
-#~ "synchronization to work."
-#~ msgstr ""
-#~ "Decátate que los ficheros d'estilu han instalase globalmente pa que la "
-#~ "sincronización d'axustes funcione."
 
 #~ msgid "..."
 #~ msgstr "…"
