@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-10 04:05+0100\n"
+"POT-Creation-Date: 2021-02-11 03:06+0100\n"
 "PO-Revision-Date: 2020-11-12 17:53+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -27,14 +27,49 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
-#: branchesdialog.cpp:255
+#: branchesdialog.cpp:207
+#, kde-format
+msgid "Select branch to checkout. Press 'Esc' to cancel."
+msgstr ""
+
+#: branchesdialog.cpp:214
+#, kde-format
+msgid "Create New Branch"
+msgstr ""
+
+#: branchesdialog.cpp:216
+#, kde-format
+msgid "Create New Branch From..."
+msgstr ""
+
+#: branchesdialog.cpp:270
 #, kde-format
 msgid "Branch %1 checked out"
 msgstr ""
 
-#: branchesdialog.cpp:258
+#: branchesdialog.cpp:273
 #, kde-format
 msgid "Failed to checkout branch: %1"
+msgstr ""
+
+#: branchesdialog.cpp:296 branchesdialog.cpp:308
+#, kde-format
+msgid "Enter new branch name. Press 'Esc' to cancel."
+msgstr ""
+
+#: branchesdialog.cpp:313
+#, kde-format
+msgid "Select branch to checkout from. Press 'Esc' to cancel."
+msgstr ""
+
+#: branchesdialog.cpp:350
+#, kde-format
+msgid "Checked out to new branch: %1"
+msgstr ""
+
+#: branchesdialog.cpp:352
+#, kde-format
+msgid "Failed to create new branch. Error \"%1\""
 msgstr ""
 
 #: kateproject.cpp:374
@@ -88,7 +123,7 @@ msgstr ""
 msgid "Project ctags index settings"
 msgstr ""
 
-#: kateprojectconfigpage.cpp:45
+#: kateprojectconfigpage.cpp:45 kateprojectinfoviewindex.cpp:184
 #, kde-format
 msgid "Enable indexing"
 msgstr ""
@@ -168,12 +203,12 @@ msgstr "Notes"
 msgid "Start Analysis..."
 msgstr "Aniciar analís…"
 
-#: kateprojectinfoviewcodeanalysis.cpp:38 kateprojectinfoviewindex.cpp:30
+#: kateprojectinfoviewcodeanalysis.cpp:38 kateprojectinfoviewindex.cpp:31
 #, kde-format
 msgid "File"
 msgstr "Ficheru"
 
-#: kateprojectinfoviewcodeanalysis.cpp:38 kateprojectinfoviewindex.cpp:30
+#: kateprojectinfoviewcodeanalysis.cpp:38 kateprojectinfoviewindex.cpp:31
 #, kde-format
 msgid "Line"
 msgstr "Llinia"
@@ -209,31 +244,29 @@ msgid_plural "Analysis on %1 files failed with exit code %2."
 msgstr[0] ""
 msgstr[1] ""
 
-#: kateprojectinfoviewindex.cpp:30
+#: kateprojectinfoviewindex.cpp:31
 #, kde-format
 msgid "Name"
 msgstr "Nome"
 
-#: kateprojectinfoviewindex.cpp:30
+#: kateprojectinfoviewindex.cpp:31
 #, kde-format
 msgid "Kind"
 msgstr "Tipu"
 
-#: kateprojectinfoviewindex.cpp:31
+#: kateprojectinfoviewindex.cpp:32
 #, kde-format
 msgid "Search"
 msgstr "Busca"
 
-#: kateprojectinfoviewindex.cpp:172
+#: kateprojectinfoviewindex.cpp:176
 #, kde-format
 msgid "The index could not be created. Please install 'ctags'."
 msgstr "Nun pudo crease l'índiz. Instala «ctags», por favor."
 
-#: kateprojectinfoviewindex.cpp:174
+#: kateprojectinfoviewindex.cpp:183
 #, kde-format
-msgid ""
-"The index is not enabled. Please add '\"index\": true' to your .kateproject "
-"file."
+msgid "Indexing is not enabled"
 msgstr ""
 
 #: kateprojectplugin.cpp:428
