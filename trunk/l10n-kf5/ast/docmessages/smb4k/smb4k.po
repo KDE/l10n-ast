@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-17 04:27+0000\n"
+"POT-Creation-Date: 2021-03-23 01:43+0000\n"
 "PO-Revision-Date: 2015-03-26 03:32+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -3391,7 +3391,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The Web Services Dynamic Discovery (WS-Discovery) is used to browse the "
-"local network and discover workgroups, domains and hosts. This is useful, if "
+"local network and discover workgroups, domains and hosts. This is useful if "
 "your network neighborhood is dominated by servers with modern &Windows; "
 "versions. If you use this option, there should be no need to force &Samba;'s "
 "client library to use the SMB protocol version 1.0 for searching for "
@@ -3421,7 +3421,7 @@ msgid ""
 "correspond to the local DNS domains (&eg; named LOCAL) and most likely not "
 "the ones defined in the network neighborhood. However, this does not "
 "influence the browsing. If you use this option, there is no need to force "
-"&Samba;'s client library to use the SMB protocol version 1.0 for searching "
+"&Samba;'s client library to use the SMB protocol version 1.0 when searching "
 "for workgroups and domains."
 msgstr ""
 
@@ -3435,14 +3435,12 @@ msgstr ""
 #: index.docbook:1668
 #, no-c-format
 msgid ""
-"Force &Samba;'s client library to use the SMB protocol version 1.0 for "
-"browsing workgroups and domains. You should use this option only as last "
-"resort, because the SMB protocol version 1.0 is unsafe and has been disabled "
-"in newer &Samba; and &Windows; versions. However, if you have trouble "
-"discovering workgroups and domains in your network neighborhood, you might "
-"want to consider to switch this setting on. If you are using DNS Service "
-"Discovery (DNS-SD) or Web Services Dynamic Discovery (WS-Discovery), and "
-"those are working for you, you do not need it."
+"For a last resort, because the SMB protocol version 1.0 is unsafe and has "
+"been disabled in newer &Samba; and &Windows; versions. However, if you have "
+"trouble discovering workgroups and domains in your network neighborhood, you "
+"might want to consider switching this setting on. If you are using DNS "
+"Service Discovery (DNS-SD) or Web Services Dynamic Discovery (WS-Discovery), "
+"and those are working for you, you do not need it."
 msgstr ""
 
 #. Tag: para
@@ -3480,7 +3478,7 @@ msgid ""
 "settings in the smb.conf file. Normally, you do not need to use this option, "
 "because the right protocol versions should be negotiated between the client "
 "and the server while establishing a connection. Please note that this "
-"setting might not be appropriate to make the discovering of workgroups and "
+"setting might not be appropriate to make the discovery of workgroups and "
 "domains work while keeping undisturbed connectivity to servers. Use DNS "
 "Service Discovery (DNS-SD) or Web Services Dynamic Discovery (WS-Discovery) "
 "for domain and workgroup lookups instead."
@@ -4561,9 +4559,9 @@ msgid ""
 "these servers, some options are not needed, because the right values are "
 "negotiated during the mount process. For other servers, you might want to "
 "uncheck this option, so that predefined values can be passed to the server. "
-"Please note that if your computer is located in a Windows dominated network "
-"neighborhood with only a few &Samba; servers, you can safely uncheck this "
-"option and define custom options for the &Samba; servers."
+"Please note that if your computer is located in a &Windows; dominated "
+"network neighborhood with only a few &Samba; servers, you can safely uncheck "
+"this option and define custom options for the &Samba; servers."
 msgstr ""
 
 #. Tag: guibutton
@@ -4766,7 +4764,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Translate six of the seven reserved characters (not backslash, but including "
-"the colon, question mark, pipe, asterisk, greater than and less than "
+"the colon, question mark, pipe, asterisk, greater than, and less than "
 "characters) to the remap range (above 0xF000), which also allows the client "
 "side to recognize files created with such characters by &Windows;’s POSIX "
 "emulation. This can also be useful when mounting to most versions of "
@@ -5237,7 +5235,8 @@ msgstr ""
 #: index.docbook:2710
 #, no-c-format
 msgid ""
-"Use this character set for the client side. The following ones are available:"
+"Use this character set for the client side. These character sets are "
+"available:"
 msgstr ""
 
 #. Tag: guibutton
@@ -5250,7 +5249,8 @@ msgstr ""
 #: index.docbook:2905
 #, no-c-format
 msgid ""
-"Use this character set for the server side. The following ones are available:"
+"Use this character set for the server side. These character sets are "
+"available:"
 msgstr ""
 
 #. Tag: para
@@ -5383,9 +5383,9 @@ msgstr ""
 #: index.docbook:2984
 #, no-c-format
 msgid ""
-"Code page 858 is a code page used to write Western European languages. "
-"Similarly to code page 850, Code page 858 supports the entire repertoire of "
-"ISO 8859-1, but in a different arrangement."
+"Code page 858 is a code page used to write Western European languages. Like "
+"code page 850, Code page 858 supports the entire repertoire of ISO 8859-1, "
+"but in a different arrangement."
 msgstr ""
 
 #. Tag: guimenuitem
@@ -5398,7 +5398,7 @@ msgstr ""
 #: index.docbook:2992
 #, no-c-format
 msgid ""
-"Code page 860 is a code page used in Portugal to write Portuguese and it is "
+"Code page 860 is a code page used in Portugal to write Portuguese, and it is "
 "also suitable to write Spanish and Italian."
 msgstr ""
 
@@ -5504,7 +5504,8 @@ msgstr ""
 #: index.docbook:3056
 #, no-c-format
 msgid ""
-"Code page 874, also known as Code page 9066, is used to write Thai language."
+"Code page 874, also known as Code page 9066, is used to write the Thai "
+"language."
 msgstr ""
 
 #. Tag: guimenuitem
@@ -5584,7 +5585,7 @@ msgstr ""
 msgid ""
 "Code page 1251 is a &Microsoft; &Windows; code page designed to cover "
 "languages that use the Cyrillic script such as Russian, Bulgarian, Serbian "
-"Cyrillic and other languages."
+"Cyrillic, and other languages."
 msgstr ""
 
 #. Tag: guimenuitem
@@ -5624,7 +5625,8 @@ msgstr ""
 #. Tag: para
 #: index.docbook:3128
 #, no-c-format
-msgid "Code page 1254 is a &Microsoft; &Windows; code page write Turkish."
+msgid ""
+"Code page 1254 is a &Microsoft; &Windows; code page used to write Turkish."
 msgstr ""
 
 #. Tag: guimenuitem
@@ -5636,7 +5638,8 @@ msgstr ""
 #. Tag: para
 #: index.docbook:3136
 #, no-c-format
-msgid "Code page 1255 is a &Microsoft; &Windows; code page write Hebrew."
+msgid ""
+"Code page 1255 is a &Microsoft; &Windows; code page used to write Hebrew."
 msgstr ""
 
 #. Tag: guimenuitem
@@ -5663,7 +5666,7 @@ msgstr ""
 #: index.docbook:3152
 #, no-c-format
 msgid ""
-"Code page 1257 is a &Microsoft; &Windows; code page to support Estonian, "
+"Code page 1257 is a &Microsoft; &Windows; code page to support the Estonian, "
 "Latvian and Lithuanian languages."
 msgstr ""
 
