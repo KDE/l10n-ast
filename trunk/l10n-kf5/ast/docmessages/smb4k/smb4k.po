@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-30 00:32+0000\n"
+"POT-Creation-Date: 2021-03-31 00:31+0000\n"
 "PO-Revision-Date: 2015-03-26 03:32+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -50,7 +50,7 @@ msgstr "Alexander Reinholdt"
 #. Tag: date
 #: index.docbook:37
 #, no-c-format
-msgid "2021-02-12"
+msgid "2021-03-30"
 msgstr ""
 
 #. Tag: releaseinfo
@@ -788,7 +788,7 @@ msgstr ""
 #: index.docbook:347
 #, no-c-format
 msgid ""
-"For each network item a tooltip is provided that contains various "
+"For each network item, a tooltip is provided that contains various "
 "information like the name of the workgroup and master browser, the name and "
 "IP address of the host, the name of the share, &etc;"
 msgstr ""
@@ -857,17 +857,17 @@ msgstr ""
 #: index.docbook:371
 #, no-c-format
 msgid ""
-"Here you can enter the location of the share either as <ulink url=\"http://"
-"en.wikipedia.org/wiki/Uniform_Naming_Convention#Uniform_Naming_Convention"
+"Here you can enter the location of the share as a <ulink url=\"http://en."
+"wikipedia.org/wiki/Uniform_Naming_Convention#Uniform_Naming_Convention"
 "\">Uniform Naming Convention (UNC)</ulink> address in the form "
 "<programlisting>//[USER@]SERVER/SHARE</programlisting> or <programlisting>\\"
-"\\[USER@]SERVER\\SHARE</programlisting> or as URL in the form "
+"\\[USER@]SERVER\\SHARE</programlisting>, or as a URL in the form "
 "<programlisting>[smb:]//[user@]server:port/share</programlisting> The "
 "<guibutton>OK</guibutton> button will be enabled and you can press it to "
 "mount the share. However, it is advisable to enter the IP address and the "
 "workgroup of the server, too. If you want to add the share to the bookmarks "
 "at the same time, click the <guibutton>Bookmark >></guibutton> button. The "
-"dialog will extend and you can tick the <guibutton>Add this share to the "
+"dialog will extend so you can tick the <guibutton>Add this share to the "
 "bookmarks</guibutton> check box and enter a label and category for the "
 "bookmark."
 msgstr ""
@@ -876,20 +876,20 @@ msgstr ""
 #: index.docbook:374
 #, no-c-format
 msgid ""
-"Often a share is password protected. In this case, an <link linkend="
+"A share is often password protected. In this case, an <link linkend="
 "\"network_neighborhood_browser_authentication\">authentication dialog</link> "
-"will appear and you have to enter the correct user name (if not already "
-"provided) and password. &smb4k; will proceed mounting the share unless a "
-"wrong user name or password was supplied. In that case, the authentication "
-"dialog will reappear. If the mount process was successful, the user will be "
-"shown a notification and the share will appear in the <link linkend="
-"\"shares_view\">Mounted Shares</link> view. If mounting fails, a "
+"will appear and you must enter the correct user name (if not already "
+"provided) and password. &smb4k; will proceed with mounting the share unless "
+"the wrong user name or password was supplied. In that case, the "
+"authentication dialog will reappear. If the mount process was successful, "
+"the user will be shown a notification and the share will appear in the <link "
+"linkend=\"shares_view\">Mounted Shares</link> view. If mounting fails, a "
 "notification with the error message that was returned by <ulink url=\"man:/"
 "mount.cifs\"><citerefentry><refentrytitle>mount.cifs</"
 "refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> (&Linux;) or "
 "<ulink url=\"man:/mount_smbfs\"><citerefentry><refentrytitle>mount_smbfs</"
 "refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> (BSD) will be "
-"shown."
+"displayed."
 msgstr ""
 
 #. Tag: title
@@ -924,9 +924,9 @@ msgstr ""
 #: index.docbook:392
 #, no-c-format
 msgid ""
-"In the <guilabel>Information</guilabel> section various information about "
-"the printer is shown. Under <guilabel>File and Settings</guilabel> you have "
-"to provide the path to the file you want to print and the desired number of "
+"The <guilabel>Information</guilabel> section displays various information "
+"about the printer. Under <guilabel>File and Settings</guilabel> you must "
+"provide the path to the file you want to print and the desired number of "
 "copies. Press <guibutton>Print</guibutton> to start the print process."
 msgstr ""
 
@@ -937,8 +937,7 @@ msgid ""
 "&smb4k; currently supports PDF, Postscript, image, and text files. If you "
 "try to print a file with an unsupported mimetype, a notification with an "
 "error message will appear telling you the mimetype is not supported. In this "
-"case you have to convert the file manually to Postscript or PDF and try "
-"again."
+"case you should convert the file manually to Postscript or PDF and try again."
 msgstr ""
 
 #. Tag: title
@@ -990,7 +989,7 @@ msgid ""
 "By default, the preview dialog only shows folders and files that are not "
 "hidden. You can change this behavior in the <link linkend="
 "\"configuration_page_network_basic_settings_behavior\">configuration dialog</"
-"link>. File transfers or the like are not possible."
+"link>. File transfers and the like are not possible."
 msgstr ""
 
 #. Tag: title
@@ -1003,9 +1002,9 @@ msgstr ""
 #: index.docbook:422
 #, no-c-format
 msgid ""
-"Many servers or remote shares are password protected. In that case, a "
+"Many servers and remote shares are password protected. In that case, a "
 "password dialog appears asking you for the user name and password. The same "
-"happens, if you click the <menuchoice><shortcut><keycombo action=\"simul"
+"thing happens if you click the <menuchoice><shortcut><keycombo action=\"simul"
 "\">&Ctrl; <keycap>T</keycap></keycombo></"
 "shortcut><guimenuitem>Authentication</guimenuitem></menuchoice> menu entry."
 msgstr ""
@@ -1027,7 +1026,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If a user name has already been provided, it will be shown in the respective "
-"field. If it is wrong or no user name was provided, you have to enter one. "
+"field. If it is wrong, or no user name was provided, you have to enter one. "
 "The password, however, may be left blank. Clicking the <guibutton>OK</"
 "guibutton> button commits the data. Depending on your choice in the <link "
 "linkend=\"configuration_page_authentication\">configuration dialog</link>, "
@@ -1053,14 +1052,14 @@ msgstr ""
 #, no-c-format
 msgid ""
 "define custom mount or browse settings for a single server or share that "
-"deviate from the ones defined in the configuration dialog,"
+"deviate from the values defined in the configuration dialog,"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:443
 #, no-c-format
 msgid ""
-"define a server that should be woken up prior to network scans or mount "
+"define a server that should be awakened prior to network scans or mount "
 "attempts (Wake-On-LAN feature, see <link linkend="
 "\"configuration_page_network_wake_on_lan_settings\">here</link>),"
 msgstr ""
@@ -1069,8 +1068,8 @@ msgstr ""
 #: index.docbook:444
 #, no-c-format
 msgid ""
-"always mount a certain share on start-up or when the corresponding profile "
-"is loaded."
+"always mount a particular share on start-up or when the corresponding "
+"profile is loaded."
 msgstr ""
 
 #. Tag: para
@@ -1080,7 +1079,7 @@ msgid ""
 "The dialog is opened by clicking the <menuchoice><shortcut><keycombo action="
 "\"simul\">&Ctrl; <keycap>C</keycap></keycombo></shortcut><guimenuitem>Custom "
 "Options</guimenuitem></menuchoice> menu entry. Depending on your selection, "
-"the settings either apply to all shares of a server or to a single one."
+"the settings either apply to all shares of a server, or to only one."
 msgstr ""
 
 #. Tag: screeninfo
@@ -1103,15 +1102,15 @@ msgid ""
 "dialog deviate from the settings you defined in the configuration dialog. By "
 "clicking it, you can reset the entries in the dialog to their default "
 "values. The <guibutton>OK</guibutton> button is enabled if you changed the "
-"settings in the dialog. Clicking it will commit the custom settings and "
-"close the dialog."
+"settings in the dialog. Clicking it will save the custom settings and close "
+"the dialog."
 msgstr ""
 
 #. Tag: para
 #: index.docbook:461
 #, no-c-format
 msgid ""
-"Under BSD, the dialog contains less entries than if you run a different "
+"Under BSD, the dialog contains fewer entries than if you run a different "
 "operating system, because several of the options are not supported."
 msgstr ""
 
@@ -1128,8 +1127,8 @@ msgid ""
 "In this tab you can define common settings related to mounting. Checking the "
 "<guibutton>Always remount this share</guibutton> button for a selected share "
 "leads to it being remounted on every program start. For information about "
-"all other settings see <link linkend=\"configuration_page_mounting\">here</"
-"link>."
+"all other settings see <link linkend=\"configuration_page_mounting\">this "
+"section</link>."
 msgstr ""
 
 #. Tag: title
@@ -1144,7 +1143,7 @@ msgstr ""
 msgid ""
 "In this tab you can define advanced settings related to mounting. For "
 "information about all other settings see <link linkend="
-"\"configuration_page_mounting\">here</link>."
+"\"configuration_page_mounting\">this section</link>."
 msgstr ""
 
 #. Tag: title
@@ -1159,7 +1158,7 @@ msgstr ""
 msgid ""
 "In this tab you can define settings related to mounting. For information "
 "about all other settings see <link linkend=\"configuration_page_mounting"
-"\">here</link>."
+"\">this page</link>."
 msgstr ""
 
 #. Tag: title
@@ -1173,9 +1172,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can define the minimal and maximal SMB protocol versions as well as the "
-"SMB port to be used. In additions, you can decide if Kerberos should be used "
+"SMB port to be used. In addition, you can decide if Kerberos should be used "
 "for authentication. For detailed information on these settings, please see "
-"<link linkend=\"configuration_page_network\">here</link>."
+"<link linkend=\"configuration_page_network\">the network configuration page</"
+"link>."
 msgstr ""
 
 #. Tag: title
@@ -1188,12 +1188,11 @@ msgstr ""
 #: index.docbook:490
 #, no-c-format
 msgid ""
-"To make the Wake-On-LAN feature work, you need to provide the MAC address of "
+"To make the Wake-On-LAN feature work, you must provide the MAC address of "
 "the server you selected. Currently, &smb4k; has no way to determine the MAC "
-"address, so you need to find it out on your own. Afterwards, you can define "
-"if &smb4k; should send a magic Wake-On-LAN package to the selected host "
-"before the network neighborhood is scanned and/or one of its shares is "
-"mounted."
+"address, so you need to find it on your own. Afterwards, you can define if "
+"&smb4k; should send a magic Wake-On-LAN package to the selected host before "
+"the network neighborhood is scanned and/or one of its shares is mounted."
 msgstr ""
 
 #. Tag: title
@@ -1207,7 +1206,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "A bookmark is added by selecting a remote share (only these can be "
-"bookmarked) and pressing the <keycombo action=\"simul\">&Ctrl; <keycap>B</"
+"bookmarked), and pressing the <keycombo action=\"simul\">&Ctrl; <keycap>B</"
 "keycap></keycombo> keyboard shortcut or selecting the <guimenuitem>Add "
 "Bookmark</guimenuitem> menu item. The bookmark will then be accessible "
 "through the <guimenu>Bookmarks</guimenu> menu. See the section <link linkend="
@@ -1243,8 +1242,8 @@ msgstr ""
 #: index.docbook:522
 #, no-c-format
 msgid ""
-"&smb4k; comes with two alternative views: an icon and a list view. They are "
-"both shown below. The default one is the icon view."
+"&smb4k; comes with two alternative views: an icon view and a list view. They "
+"are both shown below. The icon view is the default."
 msgstr ""
 
 #. Tag: para
@@ -1308,9 +1307,9 @@ msgstr ""
 #: index.docbook:559
 #, no-c-format
 msgid ""
-"For the shares view several actions are defined. They are present in the "
-"menubar under <guimenu>Shares</guimenu>, the toolbar and in its popup menu. "
-"The following ones are available:"
+"In the shares view, several options are defined. They are present in the "
+"menubar under <guimenu>Shares</guimenu>, in the toolbar, and in the popup "
+"menu. The following options are available:"
 msgstr ""
 
 #. Tag: guimenuitem
@@ -1442,7 +1441,8 @@ msgstr ""
 #: index.docbook:659
 #, no-c-format
 msgid ""
-"The popup menu includes all actions that can be performed on a mounted share:"
+"The popup menu includes all the actions that can be performed on a mounted "
+"share:"
 msgstr ""
 
 #. Tag: screeninfo
@@ -1460,7 +1460,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:671
 #, no-c-format
-msgid "It can be opened by clicking the right mouse button."
+msgid "It can be opened by clicking the &RMB;."
 msgstr ""
 
 #. Tag: para
