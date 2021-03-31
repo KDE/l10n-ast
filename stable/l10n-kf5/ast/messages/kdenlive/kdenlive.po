@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-28 13:53+0000\n"
+"POT-Creation-Date: 2021-03-31 01:41+0000\n"
 "PO-Revision-Date: 2021-01-20 23:07+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -5974,12 +5974,11 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: src/assets/assetlist/view/qml/assetList.qml:351 src/bin/bin.cpp:1008
 #: src/bin/projectitemmodel.cpp:263
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:75
-#: src/ui/colorclip_ui.ui:20 src/ui/configtranscode_ui.ui:70
-#: src/ui/qtextclip_ui.ui:111 src/ui/slideshowclip_ui.ui:20
+#: src/ui/colorclip_ui.ui:20 src/ui/qtextclip_ui.ui:111
+#: src/ui/slideshowclip_ui.ui:20
 #, kde-format
 msgid "Name"
 msgstr "Nome"
@@ -6229,11 +6228,13 @@ msgstr ""
 
 #: src/assets/view/assetparameterview.cpp:351
 #: src/assets/view/widgets/animationwidget.cpp:1194
+#: src/dialogs/kdenlivesettingsdialog.cpp:1243
 #, kde-format
 msgid "Enter preset name"
 msgstr ""
 
 #: src/assets/view/assetparameterview.cpp:351
+#: src/dialogs/kdenlivesettingsdialog.cpp:1243
 #, kde-format
 msgid "Enter the name of this preset"
 msgstr ""
@@ -6451,8 +6452,8 @@ msgid "Align bottom"
 msgstr ""
 
 #: src/assets/view/widgets/animationwidget.cpp:1134
-#: src/dialogs/kdenlivesettingsdialog.cpp:687
-#: src/dialogs/kdenlivesettingsdialog.cpp:688 src/mainwindow.cpp:185
+#: src/dialogs/kdenlivesettingsdialog.cpp:685
+#: src/dialogs/kdenlivesettingsdialog.cpp:686 src/mainwindow.cpp:185
 #, kde-format
 msgid "Default"
 msgstr ""
@@ -6776,7 +6777,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_description)
 #: src/bin/bin.cpp:1016 src/bin/projectitemmodel.cpp:269
-#: src/ui/clipproperties_ui.ui:41 src/ui/configtranscode_ui.ui:80
+#: src/ui/clipproperties_ui.ui:41 src/ui/configtranscode_ui.ui:73
 #: src/ui/profiledialog_ui.ui:60
 #, kde-format
 msgid "Description"
@@ -7800,78 +7801,78 @@ msgstr "Reproducción"
 msgid "Transcode"
 msgstr "Trescodificación"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:329
-#: src/dialogs/kdenlivesettingsdialog.cpp:347
-#: src/dialogs/kdenlivesettingsdialog.cpp:360
-#: src/dialogs/kdenlivesettingsdialog.cpp:391
-#: src/dialogs/kdenlivesettingsdialog.cpp:417
+#: src/dialogs/kdenlivesettingsdialog.cpp:327
+#: src/dialogs/kdenlivesettingsdialog.cpp:345
+#: src/dialogs/kdenlivesettingsdialog.cpp:358
+#: src/dialogs/kdenlivesettingsdialog.cpp:389
+#: src/dialogs/kdenlivesettingsdialog.cpp:415
 #, kde-format
 msgid "Configure profiles"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:370
+#: src/dialogs/kdenlivesettingsdialog.cpp:368
 #, kde-format
 msgid "Mono (1 channel)"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:371
+#: src/dialogs/kdenlivesettingsdialog.cpp:369
 #, kde-format
 msgid "Stereo (2 channels)"
 msgstr "Estéreu (2 canales)"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:380
+#: src/dialogs/kdenlivesettingsdialog.cpp:378
 #, kde-format
 msgid "44100 Hz"
 msgstr "44100 Hz"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:381
+#: src/dialogs/kdenlivesettingsdialog.cpp:379
 #, kde-format
 msgid "48000 Hz"
 msgstr "48000 Hz"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:402
+#: src/dialogs/kdenlivesettingsdialog.cpp:400
 #, kde-format
 msgid "Show default timeline preview parameters"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:404
+#: src/dialogs/kdenlivesettingsdialog.cpp:402
 #: src/project/dialogs/projectsettings.cpp:181
 #, kde-format
 msgid "Manage timeline preview profiles"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:405
+#: src/dialogs/kdenlivesettingsdialog.cpp:403
 #, kde-format
 msgid "Select default timeline preview profile"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:409
+#: src/dialogs/kdenlivesettingsdialog.cpp:407
 #: src/project/dialogs/projectsettings.cpp:163
 #: src/project/dialogs/projectsettings.cpp:179
 #, kde-format
 msgid "Show default profile parameters"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:411
+#: src/dialogs/kdenlivesettingsdialog.cpp:409
 #: src/project/dialogs/projectsettings.cpp:165
 #, kde-format
 msgid "Manage proxy profiles"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:412
+#: src/dialogs/kdenlivesettingsdialog.cpp:410
 #: src/project/dialogs/projectsettings.cpp:168
 #, kde-format
 msgid "Select default proxy profile"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:433
+#: src/dialogs/kdenlivesettingsdialog.cpp:431
 #, kde-format
 msgid "GPU processing needs MLT compiled with Movit and Rtaudio modules"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:663
-#: src/dialogs/kdenlivesettingsdialog.cpp:1588
-#: src/dialogs/kdenlivesettingsdialog.cpp:1613
+#: src/dialogs/kdenlivesettingsdialog.cpp:661
+#: src/dialogs/kdenlivesettingsdialog.cpp:1587
+#: src/dialogs/kdenlivesettingsdialog.cpp:1612
 #: src/project/dialogs/projectsettings.cpp:780
 #: src/project/dialogs/projectsettings.cpp:782
 #: src/project/dialogs/projectsettings.cpp:881
@@ -7881,79 +7882,79 @@ msgstr ""
 msgid "Automatic"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:670
+#: src/dialogs/kdenlivesettingsdialog.cpp:668
 #, kde-format
 msgid "ALSA"
 msgstr "ALSA"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:671
-#: src/dialogs/kdenlivesettingsdialog.cpp:723
+#: src/dialogs/kdenlivesettingsdialog.cpp:669
+#: src/dialogs/kdenlivesettingsdialog.cpp:721
 #, kde-format
 msgid "PulseAudio"
 msgstr "PulseAudio"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:672
+#: src/dialogs/kdenlivesettingsdialog.cpp:670
 #, kde-format
 msgid "OSS"
 msgstr "OSS"
 
 #. i18n("OSS with DMA access"), "dma");
-#: src/dialogs/kdenlivesettingsdialog.cpp:674
+#: src/dialogs/kdenlivesettingsdialog.cpp:672
 #, kde-format
 msgid "Esound daemon"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:675
+#: src/dialogs/kdenlivesettingsdialog.cpp:673
 #, kde-format
 msgid "ARTS daemon"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:739
+#: src/dialogs/kdenlivesettingsdialog.cpp:737
 #, kde-format
 msgid "SDL"
 msgstr "SDL"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:740
+#: src/dialogs/kdenlivesettingsdialog.cpp:738
 #, kde-format
 msgid "RtAudio"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:807
+#: src/dialogs/kdenlivesettingsdialog.cpp:805
 #, kde-format
 msgid "Select default audio editor"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:818
+#: src/dialogs/kdenlivesettingsdialog.cpp:816
 #, kde-format
 msgid "Select default image editor"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:903
-#: src/dialogs/kdenlivesettingsdialog.cpp:914
+#: src/dialogs/kdenlivesettingsdialog.cpp:901
+#: src/dialogs/kdenlivesettingsdialog.cpp:912
 #: src/project/dialogs/projectsettings.cpp:432
 #, kde-format
 msgid "Please select a video profile"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1138
+#: src/dialogs/kdenlivesettingsdialog.cpp:1136
 #, kde-format
 msgid "Kdenlive must be restarted to change this setting"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1244
+#: src/dialogs/kdenlivesettingsdialog.cpp:1246
 #, kde-format
 msgid "A profile with that name already exists"
 msgstr "Yá esiste un perfil con esi nome"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1375
+#: src/dialogs/kdenlivesettingsdialog.cpp:1374
 #, kde-format
 msgid "Current settings"
 msgstr "Axustes actuales"
 
 #. i18n: ectx: property (text), widget (QCheckBox, progressive)
-#: src/dialogs/kdenlivesettingsdialog.cpp:1426
-#: src/dialogs/kdenlivesettingsdialog.cpp:1462
-#: src/dialogs/kdenlivesettingsdialog.cpp:1479
+#: src/dialogs/kdenlivesettingsdialog.cpp:1425
+#: src/dialogs/kdenlivesettingsdialog.cpp:1461
+#: src/dialogs/kdenlivesettingsdialog.cpp:1478
 #: src/mltcontroller/clippropertiescontroller.cpp:555
 #: src/mltcontroller/clippropertiescontroller.cpp:1324
 #: src/project/dialogs/profilewidget.cpp:121 src/ui/profiledialog_ui.ui:267
@@ -7961,128 +7962,128 @@ msgstr "Axustes actuales"
 msgid "Progressive"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1771
-#: src/dialogs/kdenlivesettingsdialog.cpp:1891
+#: src/dialogs/kdenlivesettingsdialog.cpp:1770
+#: src/dialogs/kdenlivesettingsdialog.cpp:1890
 #, kde-format
 msgid "Install missing dependencies"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1774
+#: src/dialogs/kdenlivesettingsdialog.cpp:1773
 #, kde-format
 msgid "Check VOSK installation"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1790
+#: src/dialogs/kdenlivesettingsdialog.cpp:1789
 #, kde-format
 msgid "Please install python3 and pip on your system."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1795
-#: src/dialogs/kdenlivesettingsdialog.cpp:1869 src/dialogs/speechdialog.cpp:143
+#: src/dialogs/kdenlivesettingsdialog.cpp:1794
+#: src/dialogs/kdenlivesettingsdialog.cpp:1868 src/dialogs/speechdialog.cpp:143
 #: src/dialogs/textbasededit.cpp:789
 #, kde-format
 msgid "The speech script was not found, check your install."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1801
+#: src/dialogs/kdenlivesettingsdialog.cpp:1800
 #, fuzzy, kde-format
 #| msgid "Download New Wipes..."
 msgid "Installing modules..."
 msgstr "Baxar barríos nuevos…"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1810
+#: src/dialogs/kdenlivesettingsdialog.cpp:1809
 #, fuzzy, kde-format
 #| msgid "Download New Wipes..."
 msgid "Updating modules..."
 msgstr "Baxar barríos nuevos…"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1832
+#: src/dialogs/kdenlivesettingsdialog.cpp:1831
 #, kde-format
 msgid ""
 "Download speech models from: <a href=\"https://alphacephei.com/vosk/models"
 "\">https://alphacephei.com/vosk/models</a>"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1847
+#: src/dialogs/kdenlivesettingsdialog.cpp:1846
 #, kde-format
 msgid "Add a new speech model from an archive file"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1848
+#: src/dialogs/kdenlivesettingsdialog.cpp:1847
 #, fuzzy, kde-format
 #| msgid "Delete Selected Item"
 msgid "Delete the selected speech model"
 msgstr "Desaniciar l'elementu esbilláu"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1863 src/dialogs/speechdialog.cpp:102
+#: src/dialogs/kdenlivesettingsdialog.cpp:1862 src/dialogs/speechdialog.cpp:102
 #: src/dialogs/textbasededit.cpp:773
 #, kde-format
 msgid "Cannot find python3, please install it on your system."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1881
+#: src/dialogs/kdenlivesettingsdialog.cpp:1880
 #, kde-format
 msgid "The VOSK python module is required for speech features. "
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1887
+#: src/dialogs/kdenlivesettingsdialog.cpp:1886
 #, kde-format
 msgid "The SRT python module is required for automated subtitling."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1896
-#: src/dialogs/kdenlivesettingsdialog.cpp:1910
-#: src/dialogs/kdenlivesettingsdialog.cpp:2102
+#: src/dialogs/kdenlivesettingsdialog.cpp:1895
+#: src/dialogs/kdenlivesettingsdialog.cpp:1909
+#: src/dialogs/kdenlivesettingsdialog.cpp:2101
 #, fuzzy, kde-format
 #| msgid "Delete Selected Item"
 msgid "Please add a speech model."
 msgstr "Desaniciar l'elementu esbilláu"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1900
-#: src/dialogs/kdenlivesettingsdialog.cpp:1914
+#: src/dialogs/kdenlivesettingsdialog.cpp:1899
+#: src/dialogs/kdenlivesettingsdialog.cpp:1913
 #, kde-format
 msgid "Check for update"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1924
+#: src/dialogs/kdenlivesettingsdialog.cpp:1923
 #, kde-format
 msgid "Checking configuration..."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1946
+#: src/dialogs/kdenlivesettingsdialog.cpp:1945
 #, kde-format
 msgid "Speech to text is configured. Vosk %1, Srt %2"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1948
+#: src/dialogs/kdenlivesettingsdialog.cpp:1947
 #, kde-format
 msgid "Speech to text is properly configured."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1962
+#: src/dialogs/kdenlivesettingsdialog.cpp:1961
 #, kde-format
 msgid "Enter url for the new dictionary"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1969
+#: src/dialogs/kdenlivesettingsdialog.cpp:1968
 #, fuzzy, kde-format
 #| msgid "Download New Wipes..."
 msgid "Downloading model..."
 msgstr "Baxar barríos nuevos…"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1980
+#: src/dialogs/kdenlivesettingsdialog.cpp:1979
 #, kde-format
 msgid "We do not allow deleting custom folder models, please do it manually."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1986
-#: src/dialogs/kdenlivesettingsdialog.cpp:2044
+#: src/dialogs/kdenlivesettingsdialog.cpp:1985
+#: src/dialogs/kdenlivesettingsdialog.cpp:2043
 #, fuzzy, kde-format
 #| msgid "Cannot apply effects on folders"
 msgid "Cannot access dictionary folder."
 msgstr "Nun puen aplicase los efeutos a les carpetes"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1995
+#: src/dialogs/kdenlivesettingsdialog.cpp:1994
 #, fuzzy, kde-format
 #| msgid "Delete Folder"
 msgid ""
@@ -8090,23 +8091,23 @@ msgid ""
 "%1"
 msgstr "Desaniciar la carpeta"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:2018
+#: src/dialogs/kdenlivesettingsdialog.cpp:2017
 #, kde-format
 msgid "Download error"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:2023
+#: src/dialogs/kdenlivesettingsdialog.cpp:2022
 #, kde-format
 msgid "Download error %1"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:2051
+#: src/dialogs/kdenlivesettingsdialog.cpp:2050
 #, fuzzy, kde-format
 #| msgid "Extracting..."
 msgid "Extracting archive..."
 msgstr "Estrayendo…"
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:2058
+#: src/dialogs/kdenlivesettingsdialog.cpp:2057
 #, kde-format
 msgid "New dictionary installed."
 msgstr ""
@@ -12326,17 +12327,17 @@ msgstr "Ficheru de testu (*.txt)"
 msgid "Open Analysis Data"
 msgstr ""
 
-#: src/monitor/glwidget.cpp:1650
+#: src/monitor/glwidget.cpp:1651
 #, kde-format
 msgid "Select a zone to play"
 msgstr ""
 
-#: src/monitor/glwidget.cpp:1687
+#: src/monitor/glwidget.cpp:1688
 #, kde-format
 msgid "Select a clip to play"
 msgstr ""
 
-#: src/monitor/glwidget.cpp:1744
+#: src/monitor/glwidget.cpp:1745
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -17513,19 +17514,19 @@ msgstr "Desaniciar el perfil"
 
 #. i18n: ectx: property (text), widget (QLabel, extensionLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/ui/configtranscode_ui.ui:90 src/ui/saveprofile_ui.ui:131
+#: src/ui/configtranscode_ui.ui:86 src/ui/saveprofile_ui.ui:131
 #, kde-format
 msgid "Extension"
 msgstr "Estensión"
 
 #. i18n: ectx: property (text), widget (QCheckBox, profile_audioonly)
-#: src/ui/configtranscode_ui.ui:100
+#: src/ui/configtranscode_ui.ui:93
 #, kde-format
 msgid "Audio only"
 msgstr "Namás audiu"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/ui/configtranscode_ui.ui:107
+#: src/ui/configtranscode_ui.ui:100
 #, kde-format
 msgid "Parameters"
 msgstr "Parámetrros"
