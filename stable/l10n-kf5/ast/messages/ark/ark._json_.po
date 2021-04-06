@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-28 14:02+0000\n"
+"POT-Creation-Date: 2021-04-06 01:54+0000\n"
 "PO-Revision-Date: 2021-01-14 18:33+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -14,15 +14,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 20.12.1\n"
 
+#: app/compressfileitemaction.json
+msgctxt "Name"
+msgid "'Compress' service menu"
+msgstr "Menú del serviciu «Comprimir»"
+
 #: app/extractfileitemaction.json
 msgctxt "Name"
 msgid "'Extract' service menu"
 msgstr "Menú del serviciu «Extract»"
 
-#: app/compressfileitemaction.json
+#: plugins/cli7zplugin/kerfuffle_cli7z.json.cmake
 msgctxt "Name"
-msgid "'Compress' service menu"
-msgstr "Menú del serviciu «Comprimir»"
+msgid "P7zip plugin"
+msgstr "Plugin pa p7zip"
 
 #: plugins/clirarplugin/kerfuffle_clirar.json.cmake
 msgctxt "Name"
@@ -39,10 +44,15 @@ msgctxt "Name"
 msgid "Info-zip plugin"
 msgstr "Plugin pa info-zip"
 
-#: plugins/cli7zplugin/kerfuffle_cli7z.json.cmake
+#: plugins/libarchive/kerfuffle_libarchive.json.cmake
 msgctxt "Name"
-msgid "P7zip plugin"
-msgstr "Plugin pa p7zip"
+msgid "Libarchive plugin"
+msgstr "Plugin pa libarchive"
+
+#: plugins/libarchive/kerfuffle_libarchive_readonly.json.cmake
+msgctxt "Name"
+msgid "Libarchive plugin (read-only formats)"
+msgstr "Plugin pa libarchive (formatos de namás llectura)"
 
 #: plugins/libsinglefileplugin/kerfuffle_libbz2.json.cmake
 msgctxt "Name"
@@ -59,15 +69,10 @@ msgctxt "Name"
 msgid "LZMA plugin"
 msgstr "Plugin pa LZMA"
 
-#: plugins/libarchive/kerfuffle_libarchive.json.cmake
-msgctxt "Name"
-msgid "Libarchive plugin"
-msgstr "Plugin pa libarchive"
-
-#: plugins/libarchive/kerfuffle_libarchive_readonly.json.cmake
-msgctxt "Name"
-msgid "Libarchive plugin (read-only formats)"
-msgstr "Plugin pa libarchive (formatos de namás llectura)"
+#: plugins/cli7zplugin/kerfuffle_cli7z.json.cmake
+msgctxt "Description"
+msgid "Full support for the zip and 7z archive formats"
+msgstr "Sofitu completu pa los formatos d'archivos zip y 7z"
 
 #: plugins/clirarplugin/kerfuffle_clirar.json.cmake
 msgctxt "Description"
@@ -87,10 +92,15 @@ msgctxt "Description"
 msgid "Legacy support for the zip archive format"
 msgstr "Sofitu heredáu pal formatu d'archivos zip"
 
-#: plugins/cli7zplugin/kerfuffle_cli7z.json.cmake
+#: plugins/libarchive/kerfuffle_libarchive.json.cmake
 msgctxt "Description"
-msgid "Full support for the zip and 7z archive formats"
-msgstr "Sofitu completu pa los formatos d'archivos zip y 7z"
+msgid "Full support for compressed TAR archives"
+msgstr "Sofitu completu pa los archivos comprimíos en TAR"
+
+#: plugins/libarchive/kerfuffle_libarchive_readonly.json.cmake
+msgctxt "Description"
+msgid "Open and extract DEB, RPM, ISO, AppImage, XAR and CAB files"
+msgstr "Abre y estrái ficheros deb, rpm, iso, AppImage, XAR y CAB"
 
 #: plugins/libsinglefileplugin/kerfuffle_libbz2.json.cmake
 msgctxt "Description"
@@ -106,13 +116,3 @@ msgstr "Abre y estrái ficheros comprimíos individuales col algoritmu de gzip"
 msgctxt "Description"
 msgid "Open and extract single files compressed with the lzma algorithm"
 msgstr "Abre y estrái ficheros comprimíos individuales col algoritmu de LZMA"
-
-#: plugins/libarchive/kerfuffle_libarchive.json.cmake
-msgctxt "Description"
-msgid "Full support for compressed TAR archives"
-msgstr "Sofitu completu pa los archivos comprimíos en TAR"
-
-#: plugins/libarchive/kerfuffle_libarchive_readonly.json.cmake
-msgctxt "Description"
-msgid "Open and extract DEB, RPM, ISO, AppImage, XAR and CAB files"
-msgstr "Abre y estrái ficheros deb, rpm, iso, AppImage, XAR y CAB"
