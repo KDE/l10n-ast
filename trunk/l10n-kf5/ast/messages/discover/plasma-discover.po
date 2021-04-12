@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-09 00:19+0000\n"
+"POT-Creation-Date: 2021-04-12 00:19+0000\n"
 "PO-Revision-Date: 2021-01-20 22:54+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -336,7 +336,7 @@ msgstr "Informar d'un problema"
 msgid "Search: %1"
 msgstr "Busca: %1"
 
-#: discover/qml/ApplicationsListPage.qml:47 discover/qml/DiscoverWindow.qml:63
+#: discover/qml/ApplicationsListPage.qml:47
 #, kde-format
 msgid "Search"
 msgstr ""
@@ -414,39 +414,54 @@ msgid "Running as <em>root</em> is discouraged and unnecessary."
 msgstr "La execución como <em>root</em> ta desaconseyada y ye imprecisa."
 
 #: discover/qml/DiscoverWindow.qml:52
-#, kde-format
-msgid "Home"
+#, fuzzy, kde-format
+#| msgid "Home"
+msgid "&Home"
 msgstr "Páxina d'aniciu"
 
-#: discover/qml/DiscoverWindow.qml:71 discover/qml/InstalledPage.qml:16
-#, kde-format
-msgid "Installed"
+#: discover/qml/DiscoverWindow.qml:63
+#, fuzzy, kde-format
+#| msgid "Search..."
+msgid "&Search"
+msgstr "Buscar…"
+
+#: discover/qml/DiscoverWindow.qml:71
+#, fuzzy, kde-format
+#| msgid "Installed"
+msgid "&Installed"
 msgstr "Instalóse"
 
 #: discover/qml/DiscoverWindow.qml:78
-#, kde-format
-msgid "Fetching updates..."
+#, fuzzy, kde-format
+#| msgid "Fetching updates..."
+msgid "Fetching &updates..."
 msgstr "Diendo en cata de los anovamientos…"
 
 #: discover/qml/DiscoverWindow.qml:78
-#, kde-format
-msgid "Up to date"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Up to Date"
+msgid "&Up to date"
+msgstr "El sistema ta anováu"
 
 #: discover/qml/DiscoverWindow.qml:78
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Update section name"
+#| msgid "Update (%1)"
 msgctxt "Update section name"
-msgid "Update (%1)"
+msgid "&Update (%1)"
 msgstr "Anovar (%1)"
 
 #: discover/qml/DiscoverWindow.qml:85
-#, kde-format
-msgid "About"
+#, fuzzy, kde-format
+#| msgid "About"
+msgid "&About"
 msgstr "Tocante a"
 
-#: discover/qml/DiscoverWindow.qml:92 discover/qml/SourcesPage.qml:12
-#, kde-format
-msgid "Settings"
+#: discover/qml/DiscoverWindow.qml:92
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgid "S&ettings"
 msgstr "Axustes"
 
 #: discover/qml/DiscoverWindow.qml:136
@@ -541,6 +556,11 @@ msgstr "Instalar"
 #, kde-format
 msgid "Remove"
 msgstr "Desaniciar"
+
+#: discover/qml/InstalledPage.qml:16
+#, kde-format
+msgid "Installed"
+msgstr "Instalóse"
 
 #: discover/qml/navigation.js:19
 #, kde-format
@@ -701,6 +721,11 @@ msgstr "Buscar…"
 #, kde-format
 msgid "Search in '%1'..."
 msgstr "Buscar en «%1»…"
+
+#: discover/qml/SourcesPage.qml:12
+#, kde-format
+msgid "Settings"
+msgstr "Axustes"
 
 #: discover/qml/SourcesPage.qml:32
 #, kde-format
@@ -883,10 +908,6 @@ msgstr "Desconozse cuando foi la última comprobación d'anovamientos"
 #~ msgctxt "@info"
 #~ msgid "Fetching Updates..."
 #~ msgstr "Diendo en cata de los anovamientos…"
-
-#~ msgctxt "@info"
-#~ msgid "Up to Date"
-#~ msgstr "El sistema ta anováu"
 
 #~ msgid "<em>Tell us about this review!</em>"
 #~ msgstr "<em>¡Fálanos tocante a esta reseña!</em>"
