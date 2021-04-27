@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-24 00:20+0000\n"
+"POT-Creation-Date: 2021-04-27 00:19+0000\n"
 "PO-Revision-Date: 2021-01-20 22:53+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -36,6 +36,11 @@ msgstr ""
 msgctxt "Placeholder is battery percentage"
 msgid "%1%"
 msgstr "%1%"
+
+#: package/contents/ui/BatteryItem.qml:222
+#, kde-format
+msgid "Your battery is configured to only charge up to %1%."
+msgstr ""
 
 #: package/contents/ui/batterymonitor.qml:55 package/contents/ui/logic.js:26
 #, kde-format
@@ -99,7 +104,7 @@ msgstr "&Amosar la información enerxética"
 msgid "&Configure Power Saving..."
 msgstr "&Configurar l'aforru enerxéticu…"
 
-#: package/contents/ui/batterymonitor.qml:242
+#: package/contents/ui/batterymonitor.qml:227
 #, kde-format
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr "L'applet de batería activó la inhibición en tol sistema"
@@ -176,15 +181,10 @@ msgstr "Brilléu del tecláu"
 #: package/contents/ui/PowerManagementItem.qml:41
 #, kde-format
 msgctxt "Minimize the length of this string as much as possible"
-msgid "Allow automatic sleep and screen locking"
+msgid "Inhibit automatic sleep and screen locking"
 msgstr ""
 
-#: package/contents/ui/PowerManagementItem.qml:56
-#, kde-format
-msgid "Your battery is configured to only charge up to %1%."
-msgstr ""
-
-#: package/contents/ui/PowerManagementItem.qml:63
+#: package/contents/ui/PowerManagementItem.qml:55
 #, kde-format
 msgctxt "Minimize the length of this string as much as possible"
 msgid ""
@@ -194,25 +194,30 @@ msgstr ""
 "El portátil ta configuráu pa nun se suspender al baxar la tapa mentanto tea "
 "conectáu a una pantalla esterna."
 
-#: package/contents/ui/PowerManagementItem.qml:78
+#: package/contents/ui/PowerManagementItem.qml:67
 #, kde-format
-msgid "An application is preventing sleep and screen locking:"
+msgid "%1 is inhibiting sleep and screen locking (%2)"
 msgstr ""
 
-#: package/contents/ui/PowerManagementItem.qml:80
+#: package/contents/ui/PowerManagementItem.qml:68
 #, kde-format
-msgid "%1 application is preventing sleep and screen locking:"
-msgid_plural "%1 applications are preventing sleep and screen locking:"
+msgid "%1 is inhibiting sleep and screen locking (unknown reason)"
+msgstr ""
+
+#: package/contents/ui/PowerManagementItem.qml:83
+#, kde-format
+msgid "%1 application is inhibiting sleep and screen locking:"
+msgid_plural "%1 applications are inhibiting sleep and screen locking:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: package/contents/ui/PowerManagementItem.qml:95
+#: package/contents/ui/PowerManagementItem.qml:96
 #, kde-format
 msgctxt "Application name: reason for preventing sleep and screen locking"
 msgid "%1: %2"
 msgstr "%1: %2"
 
-#: package/contents/ui/PowerManagementItem.qml:96
+#: package/contents/ui/PowerManagementItem.qml:97
 #, kde-format
 msgctxt "Application name: reason for preventing sleep and screen locking"
 msgid "%1: unknown reason"
