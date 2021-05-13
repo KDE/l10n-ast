@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-30 00:15+0000\n"
+"POT-Creation-Date: 2021-05-13 00:15+0000\n"
 "PO-Revision-Date: 2021-04-20 01:49+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -253,28 +253,29 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr ""
 
-#: kabstractaboutdialog_p.cpp:35
-#, kde-format
-msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
-msgstr "<html><font size=\"5\">%1</font><br />Versión %2</html>"
+#: kabstractaboutdialog_p.cpp:36
+#, fuzzy, kde-format
+#| msgid "Version:"
+msgctxt "Version version-number"
+msgid "Version %1"
+msgstr "Versión:"
 
 #: kabstractaboutdialog_p.cpp:79
 #, kde-format
 msgid "License: %1"
 msgstr "Llicencia: %1"
 
-#: kabstractaboutdialog_p.cpp:111
+#: kabstractaboutdialog_p.cpp:112
 #, kde-format
-msgid ""
-"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
-"report bugs.\n"
+msgctxt "Reference to website"
+msgid "Please use %1 to report bugs.\n"
 msgstr ""
-"Usa <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> pa informar de "
-"fallos, por favor.\n"
 
-#: kabstractaboutdialog_p.cpp:117
-#, kde-format
-msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+#: kabstractaboutdialog_p.cpp:120
+#, fuzzy, kde-format
+#| msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+msgctxt "Reference to email address"
+msgid "Please report bugs to %1.\n"
 msgstr "Informa de fallos en <a href=\"%1\">%2</a>, por favor.\n"
 
 #: kactionconflictdetector.cpp:38
@@ -1405,6 +1406,16 @@ msgstr "&Axustes"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Barra de ferramientes principal"
+
+#~ msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
+#~ msgstr "<html><font size=\"5\">%1</font><br />Versión %2</html>"
+
+#~ msgid ""
+#~ "Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
+#~ "report bugs.\n"
+#~ msgstr ""
+#~ "Usa <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> pa informar "
+#~ "de fallos, por favor.\n"
 
 #~ msgctxt "@title:window"
 #~ msgid "Switch Application Language"
