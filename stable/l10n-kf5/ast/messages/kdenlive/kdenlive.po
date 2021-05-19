@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-18 01:48+0000\n"
+"POT-Creation-Date: 2021-05-19 01:43+0000\n"
 "PO-Revision-Date: 2021-01-20 23:07+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -2360,6 +2360,38 @@ msgstr ""
 msgid "Y axis"
 msgstr ""
 
+#: data/effects/frei0r_glitch0r.xml:3
+#, kde-format
+msgid "Glitch0r"
+msgstr ""
+
+#: data/effects/frei0r_glitch0r.xml:4
+#, kde-format
+msgid "Adds glitches and block shifting"
+msgstr ""
+
+#: data/effects/frei0r_glitch0r.xml:7
+#, fuzzy, kde-format
+#| msgid "Audio frequency"
+msgid "Glitch frequency"
+msgstr "Frecuencia d'audiu"
+
+#: data/effects/frei0r_glitch0r.xml:10
+#, kde-format
+msgid "Block height"
+msgstr ""
+
+#: data/effects/frei0r_glitch0r.xml:13
+#, fuzzy, kde-format
+#| msgid "Intensity"
+msgid "Shift intensity"
+msgstr "Intensidá"
+
+#: data/effects/frei0r_glitch0r.xml:16
+#, kde-format
+msgid "Color glitching intensity"
+msgstr ""
+
 #: data/effects/frei0r_glow.xml:3
 #, kde-format
 msgctxt "Glow Effect Name"
@@ -2610,7 +2642,8 @@ msgid "Input white level"
 msgstr ""
 
 #: data/effects/frei0r_levels.xml:19 data/effects/frei0r_levels.xml:51
-#: data/effects/gamma.xml:7 src/assets/view/widgets/lumaliftgainparam.cpp:40
+#: data/effects/gamma.xml:7 data/effects/lumaliftgaingamma.xml:13
+#: src/assets/view/widgets/lumaliftgainparam.cpp:40
 #: src/effects/effectstack/view/qml/LiftGammaGain.qml:59
 #, kde-format
 msgid "Gamma"
@@ -3747,7 +3780,8 @@ msgstr ""
 msgid "Adjust the audio volume without keyframes"
 msgstr ""
 
-#: data/effects/gain.xml:7 data/effects/mute.xml:7 data/effects/normalise.xml:7
+#: data/effects/gain.xml:7 data/effects/lumaliftgaingamma.xml:10
+#: data/effects/mute.xml:7 data/effects/normalise.xml:7
 #: data/effects/sox_bass.xml:7 data/effects/sox_gain.xml:7
 #: data/effects/volume.xml:7 src/assets/view/widgets/lumaliftgainparam.cpp:43
 #: src/effects/effectstack/view/qml/LiftGammaGain.qml:76
@@ -4208,6 +4242,25 @@ msgstr ""
 #: data/effects/loudness.xml:4
 #, kde-format
 msgid "Correct audio loudness as recommended by EBU R128"
+msgstr ""
+
+#: data/effects/lumaliftgaingamma.xml:3
+#, kde-format
+msgid "LumaLiftGainGamma"
+msgstr ""
+
+#: data/effects/lumaliftgaingamma.xml:4
+#, kde-format
+msgid ""
+"Filter can be used to apply lift, gain and gamma correction to luma values "
+"of image."
+msgstr ""
+
+#: data/effects/lumaliftgaingamma.xml:7
+#: src/assets/view/widgets/lumaliftgainparam.cpp:37
+#: src/effects/effectstack/view/qml/LiftGammaGain.qml:42
+#, kde-format
+msgid "Lift"
 msgstr ""
 
 #: data/effects/mirror.xml:3
@@ -6450,12 +6503,6 @@ msgstr ""
 #: src/assets/view/widgets/urllistparamwidget.cpp:129
 #, kde-format
 msgid "None (Dissolve)"
-msgstr ""
-
-#: src/assets/view/widgets/lumaliftgainparam.cpp:37
-#: src/effects/effectstack/view/qml/LiftGammaGain.qml:42
-#, kde-format
-msgid "Lift"
 msgstr ""
 
 #: src/audiomixer/mixermanager.cpp:177
