@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-31 00:18+0000\n"
+"POT-Creation-Date: 2021-06-01 00:19+0000\n"
 "PO-Revision-Date: 2021-01-20 22:53+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -369,15 +369,15 @@ msgctxt "Header text for IPv4 gateway"
 msgid "Gateway"
 msgstr "Pasera"
 
-#: editor/settings/ipv4widget.cpp:270 editor/settings/ipv6widget.cpp:250
+#: editor/settings/ipv4widget.cpp:270 editor/settings/ipv6widget.cpp:262
 #, kde-format
 msgid "Other DNS Servers:"
 msgstr "Otros sirvidores DNS:"
 
 #: editor/settings/ipv4widget.cpp:282 editor/settings/ipv4widget.cpp:294
 #: editor/settings/ipv4widget.cpp:306 editor/settings/ipv4widget.cpp:318
-#: editor/settings/ipv6widget.cpp:262 editor/settings/ipv6widget.cpp:274
-#: editor/settings/ipv6widget.cpp:286 editor/settings/ipv6widget.cpp:298
+#: editor/settings/ipv6widget.cpp:274 editor/settings/ipv6widget.cpp:286
+#: editor/settings/ipv6widget.cpp:298 editor/settings/ipv6widget.cpp:310
 #, kde-format
 msgid "DNS Servers:"
 msgstr "Sirvidores DNS:"
@@ -422,29 +422,29 @@ msgstr " ms"
 msgid "DAD timeout:"
 msgstr ""
 
-#: editor/settings/ipv4widget.cpp:464 editor/settings/ipv6widget.cpp:399
+#: editor/settings/ipv4widget.cpp:464 editor/settings/ipv6widget.cpp:411
 #, kde-format
 msgid "Edit DNS servers"
 msgstr "Edición de los sirvidores DNS"
 
-#: editor/settings/ipv4widget.cpp:495 editor/settings/ipv6widget.cpp:430
+#: editor/settings/ipv4widget.cpp:495 editor/settings/ipv6widget.cpp:442
 #, kde-format
 msgid "Edit DNS search domains"
 msgstr "Edición de los sirvidores DNS de busca"
 
-#: editor/settings/ipv6widget.cpp:39 editor/widgets/ipv6routeswidget.cpp:25
+#: editor/settings/ipv6widget.cpp:41 editor/widgets/ipv6routeswidget.cpp:25
 #, kde-format
 msgctxt "Header text for IPv6 address"
 msgid "Address"
 msgstr "Direición"
 
-#: editor/settings/ipv6widget.cpp:41
+#: editor/settings/ipv6widget.cpp:43
 #, kde-format
 msgctxt "Header text for IPv6 prefix"
 msgid "Prefix"
 msgstr "Prefixu"
 
-#: editor/settings/ipv6widget.cpp:43 editor/widgets/ipv6routeswidget.cpp:29
+#: editor/settings/ipv6widget.cpp:45 editor/widgets/ipv6routeswidget.cpp:29
 #, kde-format
 msgctxt "Header text for IPv6 gateway"
 msgid "Gateway"
@@ -1137,14 +1137,14 @@ msgid "Edit DNS the list of servers"
 msgstr "Editar la llista de sirvidores DNS"
 
 #. i18n: ectx: property (text), widget (QLabel, dnsSearchLabel)
-#: editor/settings/ui/ipv4.ui:144 editor/settings/ui/ipv6.ui:349
+#: editor/settings/ui/ipv4.ui:144 editor/settings/ui/ipv6.ui:354
 #, kde-format
 msgctxt "@info"
 msgid "Search Domains:"
 msgstr "Dominios de busca:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dnsSearch)
-#: editor/settings/ui/ipv4.ui:165 editor/settings/ui/ipv6.ui:268
+#: editor/settings/ui/ipv4.ui:165 editor/settings/ui/ipv6.ui:273
 #, kde-format
 msgid ""
 "Use this field to specify one or more DNS domains to search. Use ',' to "
@@ -1152,7 +1152,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsSearchMorePushButton)
-#: editor/settings/ui/ipv4.ui:172 editor/settings/ui/ipv6.ui:275
+#: editor/settings/ui/ipv4.ui:172 editor/settings/ui/ipv6.ui:280
 #, kde-format
 msgid "Edit the list of DNS domains being searched"
 msgstr "Editar la llista de sirvidores que van buscase"
@@ -1211,7 +1211,7 @@ msgid "IPv4 is required for this connection"
 msgstr "Ríquese IPv4 pa esta conexón"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRoutes)
-#: editor/settings/ui/ipv4.ui:335 editor/settings/ui/ipv6.ui:315
+#: editor/settings/ui/ipv4.ui:335 editor/settings/ui/ipv6.ui:320
 #, fuzzy, kde-format
 #| msgid "Routes..."
 msgid "Routes…"
@@ -1280,8 +1280,16 @@ msgctxt "like in this setting is Disabled"
 msgid "Ignored"
 msgstr "Inórase"
 
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: editor/settings/ui/ipv6.ui:257
+#, fuzzy, kde-format
+#| msgctxt "privacy disabled"
+#| msgid "Disabled"
+msgid "Disabled"
+msgstr "Desactivada"
+
 #. i18n: ectx: property (text), widget (QLabel, labelPrivacy)
-#: editor/settings/ui/ipv6.ui:330
+#: editor/settings/ui/ipv6.ui:335
 #, kde-format
 msgid "Privacy:"
 msgstr "Privacidá:"
@@ -2393,57 +2401,57 @@ msgctxt "Remove a selected row"
 msgid "R&emove"
 msgstr "D&esaniciar"
 
-#: handler.cpp:117
+#: handler.cpp:118
 #, kde-format
 msgid "Missing VPN plugin"
 msgstr "Falta'l plugin de la VPN"
 
-#: handler.cpp:735
+#: handler.cpp:755
 #, kde-format
 msgid "Failed to activate %1"
 msgstr "Fallu al activar %1"
 
-#: handler.cpp:739
+#: handler.cpp:759
 #, kde-format
 msgid "Failed to add %1"
 msgstr "Fallu al amestar %1"
 
-#: handler.cpp:743
+#: handler.cpp:763
 #, kde-format
 msgid "Failed to add connection %1"
 msgstr "Fallu al amestar la conexón %1"
 
-#: handler.cpp:747
+#: handler.cpp:767
 #, kde-format
 msgid "Failed to deactivate %1"
 msgstr "Fallu al desactivar %1"
 
-#: handler.cpp:751
+#: handler.cpp:771
 #, kde-format
 msgid "Failed to remove %1"
 msgstr "Fallu al desaniciar %1"
 
-#: handler.cpp:755
+#: handler.cpp:775
 #, kde-format
 msgid "Failed to update connection %1"
 msgstr "Fallu al anovar la conexón %1"
 
-#: handler.cpp:766
+#: handler.cpp:786
 #, kde-format
 msgid "Failed to create hotspot %1"
 msgstr "Fallu al crear el puntu d'accesu %1"
 
-#: handler.cpp:785
+#: handler.cpp:805
 #, kde-format
 msgid "Connection %1 has been added"
 msgstr "Amestóse la conexón %1"
 
-#: handler.cpp:789
+#: handler.cpp:809
 #, kde-format
 msgid "Connection %1 has been removed"
 msgstr "Desanicióse la conexón %1"
 
-#: handler.cpp:793
+#: handler.cpp:813
 #, kde-format
 msgid "Connection %1 has been updated"
 msgstr "Anovóse la conexón %1"
