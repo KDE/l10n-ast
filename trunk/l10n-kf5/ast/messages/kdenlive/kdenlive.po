@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-02 00:17+0000\n"
+"POT-Creation-Date: 2021-06-03 00:16+0000\n"
 "PO-Revision-Date: 2021-05-06 23:45+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -8022,18 +8022,30 @@ msgid "Test Proxy profiles"
 msgstr "Desaniciar el perfil"
 
 #: src/dialogs/proxytest.cpp:48
+#, fuzzy, kde-format
+#| msgid "Encoding profile"
+msgid "Failing profiles"
+msgstr "Perfil de codificación"
+
+#: src/dialogs/proxytest.cpp:63
 #, kde-format
 msgid "Starting process"
 msgstr ""
 
-#: src/dialogs/proxytest.cpp:95
+#: src/dialogs/proxytest.cpp:128 src/dialogs/proxytest.cpp:150
+#, fuzzy, kde-format
+#| msgid "Cannot create temporary file"
+msgid "Cannot create temporary files"
+msgstr "Nun pue crease'l ficheru temporal"
+
+#: src/dialogs/proxytest.cpp:132
 #, kde-format
-msgid "Processing %1"
+msgid "Generating a 60 seconds test video %1"
 msgstr ""
 
-#: src/dialogs/proxytest.cpp:151
+#: src/dialogs/proxytest.cpp:143
 #, kde-format
-msgid "failed"
+msgid "Processing %1"
 msgstr ""
 
 #: src/dialogs/renderwidget.cpp:127 src/dialogs/renderwidget.cpp:1659
@@ -11847,7 +11859,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTreeWidget, resultList)
 #. i18n: ectx: property (text), widget (QLabel, clip_filesize)
 #: src/mltcontroller/clippropertiescontroller.cpp:1367
-#: src/ui/clipproperties_ui.ui:65 src/ui/testproxy_ui.ui:53
+#: src/ui/clipproperties_ui.ui:65 src/ui/testproxy_ui.ui:59
 #, kde-format
 msgid "File size"
 msgstr ""
@@ -16171,7 +16183,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_profile)
 #: src/ui/cliptranscode_ui.ui:150 src/ui/profiledialog_ui.ui:40
-#: src/ui/testproxy_ui.ui:43
+#: src/ui/testproxy_ui.ui:49
 #, kde-format
 msgid "Profile"
 msgstr "Perfil"
@@ -18123,7 +18135,7 @@ msgid "Template"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, resultList)
-#: src/ui/testproxy_ui.ui:48
+#: src/ui/testproxy_ui.ui:54
 #, fuzzy, kde-format
 #| msgid "Render"
 msgid "Render time"
