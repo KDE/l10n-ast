@@ -1,0 +1,1410 @@
+#
+# enolp <enolp@softastur.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
+"PO-Revision-Date: 2015-03-31 13:04+0100\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
+"Language: ast\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. Tag: title
+#: index.docbook:14
+#, no-c-format
+msgid "The &kappname; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:17
+#, no-c-format
+msgid ""
+"<firstname>Gael</firstname> <othername>Kleag</othername> <surname>de "
+"Chalendar</surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:22
+#, no-c-format
+msgid "Kleag@free.fr"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:25
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:31
+#, no-c-format
+msgid "Gael de Chalendar"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:46
+#, no-c-format
+msgid "2009-05-22"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:56
+#, no-c-format
+msgid "<releaseinfo>4.3</releaseinfo>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:61 index.docbook:100
+#, no-c-format
+msgid ""
+"&ksirk; is a computerized version of a well known strategy game. It is fully "
+"skinable. This manual explains how to create new skins from scratch, using a "
+"file browser, a SVG image editor and &kappname;."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:71
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:72
+#, no-c-format
+msgid "kdegames"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:73
+#, no-c-format
+msgid "game"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:74
+#, no-c-format
+msgid "strategy"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:75
+#, no-c-format
+msgid "Risk"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:76
+#, no-c-format
+msgid "free"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:77
+#, no-c-format
+msgid "<keyword>GPL</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:78
+#, no-c-format
+msgid "skin"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:79
+#, no-c-format
+msgid "editor"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:94
+#, no-c-format
+msgid "Introduction"
+msgstr "Introducción"
+
+#. Tag: screeninfo
+#: index.docbook:105 index.docbook:429
+#, no-c-format
+msgid "Here's a screenshot of &kappname;"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:111 index.docbook:435
+#, no-c-format
+msgid "Screenshot"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:116
+#, no-c-format
+msgid ""
+"There is three main steps to create a new skin: creating the folders "
+"hierarchy; creating the graphics, all pooled inside a SVG file; and then "
+"placing sprites and naming things using &kappname;."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:122
+#, no-c-format
+msgid "Creating a &ksirk; skin"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:123
+#, no-c-format
+msgid ""
+"&ksirk; is fully skinable. For who have graphic capabilities, creating a new "
+"skin is as simple as copying an existing one, editing or changing the "
+"graphics and updating the data in a .desktop configuration file, which is "
+"done using the &kappname;. A last step is to edit the file describing what "
+"to install."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:126
+#, no-c-format
+msgid ""
+"All examples (text and images) are taken from the default skin of &ksirk;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:129
+#, no-c-format
+msgid "Structure of folders and files"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:133
+#, no-c-format
+msgid "Data/ : Data used by the program to handle the images of the skin."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:135 index.docbook:143
+#, no-c-format
+msgid "CMakeLists.txt : Describes what to install."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:136
+#, no-c-format
+msgid ""
+"onu.desktop : Main file for the description of the skin. See its description "
+"below."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:141
+#, no-c-format
+msgid "Images/ : The images of the skin (map, sprites, etc.)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:144
+#, no-c-format
+msgid "pool.svg : the map and all the sprites used in this skin."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:145
+#, no-c-format
+msgid ""
+"map-mask.png : the image allowing the program to find which country the "
+"mouse is over during the game (see below)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:146
+#, no-c-format
+msgid "*.png : the other images here are buttons images."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:150
+#, no-c-format
+msgid "CMakeLists.txt/ : Describes what to install."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:151
+#, no-c-format
+msgid "Sounds/ : sound files for the skin."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:155
+#, no-c-format
+msgid "The Data folder"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:156
+#, no-c-format
+msgid ""
+"This folder contains only one file, world.desktop. This file is a "
+"description of the content of the skin. It is used to describe the "
+"organization of the world and how to display it. You don't have to fill it "
+"manualy as it will be handled by the &kappname;. But, for the sake of "
+"completeness, we will now describe its structure."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:159
+#, no-c-format
+msgid ""
+"An onu group contains a number of country entries, a number of nationality "
+"entries and lastly a number of continent entries. Then various groups "
+"contain the description of the different sprites, the description of the "
+"different countries, continents, nationalities and goals."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:162
+#, no-c-format
+msgid "The following sections describe the content of each group."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:166
+#, no-c-format
+msgid "The onu group"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:169
+#, no-c-format
+msgid "The onu group entries"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:171 index.docbook:218 index.docbook:238 index.docbook:257
+#: index.docbook:277
+#, no-c-format
+msgid "Entry name"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:171 index.docbook:198 index.docbook:218 index.docbook:238
+#: index.docbook:257 index.docbook:277 index.docbook:320 index.docbook:379
+#, no-c-format
+msgid "Signification"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:173 index.docbook:200
+#, no-c-format
+msgid "width"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:173
+#, no-c-format
+msgid "The width of the skin's map"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:174 index.docbook:201
+#, no-c-format
+msgid "height"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:174
+#, no-c-format
+msgid "The height of the skin's map"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:175
+#, no-c-format
+msgid "skinpath"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:175
+#, no-c-format
+msgid ""
+"The path of the skin relative to the application data path (e.g. skins/"
+"default)"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:176
+#, no-c-format
+msgid "nb-countries"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:176
+#, no-c-format
+msgid ""
+"The number of countries (42 in the default skin). There should be the same "
+"number of country groups below"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:177
+#, no-c-format
+msgid "nb-nationalities"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:177
+#, no-c-format
+msgid ""
+"The number of nationalities (6 in the default skin). There should be the "
+"same number of nationality groups below"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:178
+#, no-c-format
+msgid "nb-continents"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:178
+#, no-c-format
+msgid ""
+"The number of continents (6 in the default skin). There should be the same "
+"number of continent groups below"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:179
+#, no-c-format
+msgid "pool"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:179
+#, no-c-format
+msgid ""
+"The path and name of the pool file relative to the skin path (e.g. Images/"
+"pool.svg)"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:180
+#, no-c-format
+msgid "map-mask"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:180
+#, no-c-format
+msgid ""
+"The path and name of the map mask file relative to the skin path (e.g. "
+"Images/map-mask.png)"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:181
+#, no-c-format
+msgid "format-version"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:181
+#, no-c-format
+msgid "The version of the skin file format (2.0)"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:182 index.docbook:221 index.docbook:240 index.docbook:259
+#, no-c-format
+msgid "name"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:182
+#, no-c-format
+msgid "The display name of the skin"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:183 index.docbook:283
+#, no-c-format
+msgid "desc"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:183
+#, no-c-format
+msgid "The long description of the skin"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:184
+#, no-c-format
+msgid "fighters-flag-y-diff"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:184
+#, no-c-format
+msgid "The height difference between flags and cannons sprites"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:185
+#, no-c-format
+msgid "width-between-flag-and-fighter"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:185
+#, no-c-format
+msgid ""
+"The number of pixels between the left most pixel of the flag and the right "
+"most pixel of the simple cannon (when not firing nor exploding)"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:192
+#, no-c-format
+msgid "The sprites description groups"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:193
+#, no-c-format
+msgid ""
+"Each type of sprite (flag, infantry, cavalry, cannon, firing cannon and "
+"exploding cannon) is defined by a group. Only some sprites have a width "
+"entry. This entry is used for relative positioning during animations: the "
+"cannons, firing or exploding should not \"move\" around the country's flag "
+"during fight."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:196
+#, no-c-format
+msgid "Sprite description group entries"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:198
+#, no-c-format
+msgid "Entry"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:200
+#, no-c-format
+msgid "The reference width of the flag sprite frames"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:201
+#, no-c-format
+msgid "The reference height of the flag sprite frames"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:202
+#, no-c-format
+msgid "frames"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:202
+#, no-c-format
+msgid "The number of frames of the sprite"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:203
+#, no-c-format
+msgid "versions"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:203
+#, no-c-format
+msgid "The number of versions of the flag sprites"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:210
+#, no-c-format
+msgid "The countries description groups"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:211
+#, no-c-format
+msgid ""
+"Each country listed in the onu group, countries entry has its own group "
+"whose label is the country name. The table below lists the entries of these "
+"groups."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:216
+#, no-c-format
+msgid "Country entries"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:220 index.docbook:260
+#, no-c-format
+msgid "<entry>id</entry>"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:220
+#, no-c-format
+msgid ""
+"The integer unique identification number of the country, must start at zero "
+"(0)"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:221
+#, no-c-format
+msgid "The displayed name of the country"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:222
+#, no-c-format
+msgid "&lt;sprite&gt;-point"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:222
+#, no-c-format
+msgid ""
+"Each type of sprite (flag, infantry, etc.) in the country is displayed at a "
+"certain position defined by this entry made of two integers separated by a "
+"comma"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:223
+#, no-c-format
+msgid "neighbours"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:223
+#, no-c-format
+msgid "The list of the ids of the neighbors of the current country"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:230
+#, no-c-format
+msgid "The nationalities description groups"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:231
+#, no-c-format
+msgid ""
+"Each nationality listed in the onu group, nationalities entry has its own "
+"group whose label is the nationality name. The table below lists the entries "
+"of these groups."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:236
+#, no-c-format
+msgid "Nationality entries"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:240
+#, no-c-format
+msgid "The name of the nationality (e.g. Japan)"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:241
+#, no-c-format
+msgid "leader"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:241
+#, no-c-format
+msgid "The name that will be proposed to the player choosing this nationality"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:242
+#, no-c-format
+msgid "flag"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:242
+#, no-c-format
+msgid "The name of the country's flag sprite element in the onu SVG file"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:249
+#, no-c-format
+msgid "The continents description groups"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:250
+#, no-c-format
+msgid ""
+"Each continent listed in the onu group, continents entry has its own group "
+"whose label is the continent name. The table below lists the entries of "
+"these groups."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:255
+#, no-c-format
+msgid "Continent entries"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:259
+#, no-c-format
+msgid "The name of the continent (e.g. Africa)"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:260
+#, no-c-format
+msgid "The integer unique identification number of the continent"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:261
+#, no-c-format
+msgid "bonus"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:261
+#, no-c-format
+msgid ""
+"The number of armies obtained at the end of the turn by the player owning "
+"all the countries of the continent"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:262
+#, no-c-format
+msgid "continent-countries"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:262
+#, no-c-format
+msgid "The list of the ids of the countries inside the current continent"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:269
+#, no-c-format
+msgid "The goals description groups"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:270
+#, no-c-format
+msgid ""
+"Each goal listed in the onu group, goals entry has its own group whose label "
+"is the goal name. The table below lists the entries of these groups."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:275
+#, no-c-format
+msgid "Goal entries"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:279
+#, no-c-format
+msgid "type"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:279
+#, no-c-format
+msgid "The type of goal. Can be continents, countries or player"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:280
+#, no-c-format
+msgid "nbArmiesByCountry"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:280
+#, no-c-format
+msgid ""
+"set the minimal number of armies the player will have to put on each country"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:281
+#, no-c-format
+msgid "nbCountries"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:281
+#, no-c-format
+msgid "set the number of countries the player must possess"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:282
+#, no-c-format
+msgid "nbCountriesFallback"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:282
+#, no-c-format
+msgid ""
+"For a player goal type, if the target player is killed by another one, this "
+"sets the number of countries the player will have to conquer instead"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:283
+#, no-c-format
+msgid ""
+"A full text description of the goal with appropriate placeholders (needs "
+"more doc here)"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:284
+#, no-c-format
+msgid "continents"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:284
+#, no-c-format
+msgid "The list of continents ids the player will have to conquer"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:292
+#, no-c-format
+msgid "The Images folder"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:293
+#, no-c-format
+msgid ""
+"This folder contains the buttons specific to &ksirk; and the pool SVG file "
+"that contains the map and all sprites."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:297
+#, no-c-format
+msgid "The pool.svg file"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:298
+#, no-c-format
+msgid ""
+"This SVG file contains the map and all the sprites of the game. Each element "
+"is named such that the game can select and render separately each of them."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:301
+#, no-c-format
+msgid ""
+"In the default skin, the sprites are flags, infantry, cavalry and cannon. "
+"Infantry represents one army, five for cavalry and ten for cannons. Cannons "
+"are also used to display fighting armies. That's why there is three kinds of "
+"cannon sprites: normal static or moving cannon, firing one and exploding one."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:304
+#, no-c-format
+msgid ""
+"Each sprite image is the concatenation of the various views of the object "
+"and for each view, its frames. Views are organized vertically and frames "
+"horizontally. Where to cut the image in individual frames is found by "
+"dividing the height of the image by the number of views and the width by the "
+"number of frames. These data are found in the onu.desktop file."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:306
+#, no-c-format
+msgid "An example of a sprite image: cannon.png"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:308
+#, no-c-format
+msgid "For armies sprites, there is three different views, from top to bottom:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:310
+#, no-c-format
+msgid "looking right"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:311
+#, no-c-format
+msgid "looking left and"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:312
+#, no-c-format
+msgid "facer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:313
+#, no-c-format
+msgid ""
+"For flags, there is only one view. All sprites backgrounds should be set to "
+"transparent."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:314
+#, no-c-format
+msgid "An example of a flag sprite image: italy.png"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:318
+#, no-c-format
+msgid "The elements of the pool"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:320
+#, no-c-format
+msgid "Element name"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:320
+#, no-c-format
+msgid "Sample Image"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:323
+#, no-c-format
+msgid "<entry>map</entry>"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:323
+#, no-c-format
+msgid ""
+"Map of the skins's world. Countries can have arbitrary shapes, but should be "
+"grouped in eye-recognizable continents, by location only or by color"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:326
+#, no-c-format
+msgid "italy"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:326
+#, no-c-format
+msgid "The flag of the Italy nation. There is one such entry for each nation"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:329
+#, no-c-format
+msgid "infantry"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:329
+#, no-c-format
+msgid "Icon representing one army"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:332
+#, no-c-format
+msgid "cavalry"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:332
+#, no-c-format
+msgid "Icon representing five armies"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:335
+#, no-c-format
+msgid "cannon"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:335
+#, no-c-format
+msgid "Icon representing ten armies"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:338
+#, no-c-format
+msgid "firing"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:338
+#, no-c-format
+msgid "Icon representing armies during a fight"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:341
+#, no-c-format
+msgid "exploding"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:341
+#, no-c-format
+msgid "Icon representing armies when losing a fight"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:344
+#, no-c-format
+msgid "Alaska"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:344
+#, no-c-format
+msgid ""
+"The shape of the Alaska country. This is used to highligth the country. "
+"There is one such shape for each country. Its color is not used. As such, "
+"the color is free."
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:347
+#, no-c-format
+msgid "reddices"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:347
+#, no-c-format
+msgid "The red dices used to show battles results"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:350
+#, no-c-format
+msgid "bluedices"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:350
+#, no-c-format
+msgid "The blue dices used to show battles results"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:353
+#, no-c-format
+msgid "mark1"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:353
+#, no-c-format
+msgid ""
+"This mark is added to fighting sprites to show the number of armies they "
+"represent, here 1. There is also a mark2 and a mark3 elements."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:361
+#, no-c-format
+msgid "The map-mask.png file"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:362
+#, no-c-format
+msgid ""
+"This is a png file representing also the map of the skins's world, but with "
+"coded colors that allows one to identify uniquely each country. Countries "
+"must have at least the same shapes as the corresponding countries on the map."
+"png file so that users can click anywhere in a viewable country and select "
+"the good one. Countries, like little islands as Indonesia in the default map "
+"can be greater than the equivalent in the map.png file to facilitate the "
+"selection of the country."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:366
+#, no-c-format
+msgid "A sample map-mask"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:369
+#, no-c-format
+msgid ""
+"The blue component (in RGB model) of a country's color identifies the "
+"country: index 0 is country 0 in the onu.xml file, index 1 is country 1, "
+"&etc; White (0xFFFFFF in RGB) identifies the absence of country (sees or, "
+"why not, no man's lands)."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:374
+#, no-c-format
+msgid "The buttons images"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:375
+#, no-c-format
+msgid ""
+"The filenames are hard-coded in the code, so they should not be modified. "
+"The table below shows all the buttons that should be provided."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:377
+#, no-c-format
+msgid "The buttons of the &GUI;"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:379
+#, no-c-format
+msgid "Image"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:379
+#, no-c-format
+msgid "Filename"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:382
+#, no-c-format
+msgid "newNetGame.png"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:382
+#, no-c-format
+msgid "Tries to join a network game"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:385
+#, no-c-format
+msgid "recycling.png"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:385
+#, no-c-format
+msgid ""
+"After all players have put their armies, it is possible to modify the "
+"distributions (named recycling). This button asks to do such a redistribution"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:388
+#, no-c-format
+msgid "recyclingFinished.png"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:388
+#, no-c-format
+msgid ""
+"Chooses not to redistribute. All clients windows must have this button "
+"clicked to really end the distribution"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:391
+#, no-c-format
+msgid "nextPlayer.png"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:391
+#, no-c-format
+msgid ""
+"Ends the current player's turn and switch to the next one or to the next "
+"turn if the current player was the last one"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:394
+#, no-c-format
+msgid "attackOne.png"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:394
+#, no-c-format
+msgid "Chooses to start an attack with one army"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:397
+#, no-c-format
+msgid "attackTwo.png"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:397
+#, no-c-format
+msgid "Chooses to start an attack with two armies"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:400
+#, no-c-format
+msgid "attackThree.png"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:400
+#, no-c-format
+msgid "Chooses to start an attack with three armies"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:403
+#, no-c-format
+msgid "defendOne.png"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:403
+#, no-c-format
+msgid "Chooses to defend an attacked country with one army"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:406
+#, no-c-format
+msgid "defendTwo.png"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:406
+#, no-c-format
+msgid "Chooses to defend an attacked country with two armies"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:409
+#, no-c-format
+msgid "moveArmies.png"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:409
+#, no-c-format
+msgid ""
+"Chooses to start the moving of armies between two countries (last action in "
+"the turn)"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:417
+#, no-c-format
+msgid "The Sounds folder"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:418
+#, no-c-format
+msgid "This folder contains three sound files:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:419
+#, no-c-format
+msgid "roll.wav played when armies are moving"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:420
+#, no-c-format
+msgid "cannon.wav played when firing and"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:421
+#, no-c-format
+msgid "crash.wav played when a cannon explodes"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:425
+#, no-c-format
+msgid "Using the &kappname;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:426
+#, no-c-format
+msgid ""
+"After creating the graphics in the right folder and SVG file, you just have "
+"to create countries, players, etc. and associate them with the right SVG "
+"element in the pool. This can be done with the &kappname;. Note that each "
+"part of this application is auto-described by tooltips and contextual help "
+"usualy reachable through the Ctrl+F1 shortcut."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:446
+#, no-c-format
+msgid "Command Reference"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:449
+#, no-c-format
+msgid "The main &kappname; window"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:451
+#, no-c-format
+msgid "The buttons"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:461
+#, no-c-format
+msgid "<phrase>Load</phrase>"
+msgstr ""
+
+#. Tag: guibutton
+#: index.docbook:464
+#, no-c-format
+msgid "<guibutton>Load</guibutton>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:466
+#, no-c-format
+msgid "Causes the program to load an existing skin."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:476
+#, no-c-format
+msgid "<phrase>Save</phrase>"
+msgstr ""
+
+#. Tag: guibutton
+#: index.docbook:479
+#, no-c-format
+msgid "<guibutton>Save</guibutton>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:482
+#, no-c-format
+msgid "Saves the currently edited skin"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:494
+#, no-c-format
+msgid "Developer's Guide to &kappname;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:496
+#, no-c-format
+msgid ""
+"Please refer to <ulink url=\"http://api.kde.org/\">http://api.kde.org/</"
+"ulink> for the documentation of the API."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:502
+#, no-c-format
+msgid "Questions and Answers"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:502
+#, no-c-format
+msgid "&updating.documentation;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:515
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:517
+#, no-c-format
+msgid "&kappname;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:520
+#, no-c-format
+msgid "Program copyright 2009 Gael de Chalendar <email>kleag@free.fr</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:524
+#, no-c-format
+msgid ""
+"Documentation copyright 2009 Gael de Chalendar <email>kleag@free.fr</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:528
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:528
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""
