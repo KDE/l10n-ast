@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-07 00:20+0000\n"
+"POT-Creation-Date: 2021-07-12 00:19+0000\n"
 "PO-Revision-Date: 2021-04-20 02:31+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -64,29 +64,29 @@ msgid "Sess&ions"
 msgstr "Ses&iones"
 
 #. i18n: ectx: Menu (settings)
-#: data/kateui.rc:108
+#: data/kateui.rc:109
 #, kde-format
 msgid "&Settings"
 msgstr "&Axustes"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: data/kateui.rc:115
+#: data/kateui.rc:116
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Barra de ferramientes principal"
 
 #. i18n: ectx: Menu (viewspace_popup_statusbar)
-#: data/kateui.rc:148
+#: data/kateui.rc:149
 #, kde-format
 msgid "&Status Bar Items"
 msgstr "Elementos de la barra d'&estáu"
 
-#: kateapp.cpp:215
+#: kateapp.cpp:235
 #, kde-format
 msgid "Folders can only be opened when the projects plugin is enabled"
 msgstr ""
 
-#: kateapp.cpp:324
+#: kateapp.cpp:344
 #, kde-format
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
@@ -103,7 +103,7 @@ msgstr "Esquema de &colores"
 msgid "Configure"
 msgstr "Configuración"
 
-#: kateconfigdialog.cpp:72 katemdi.cpp:510
+#: kateconfigdialog.cpp:72 katemdi.cpp:588
 #, kde-format
 msgid "Behavior"
 msgstr "Comportamientu"
@@ -302,7 +302,7 @@ msgstr ""
 "<p>Modificóse'l documentu «%1» pero nun se guardó.</p><p>¿Quies guardar los "
 "cambeos que fixesti o escartalos?</p>"
 
-#: katedocmanager.cpp:337
+#: katedocmanager.cpp:337 session/katesessionmanager.cpp:450
 #, kde-format
 msgid "Close Document"
 msgstr "Zarrar documentu"
@@ -312,12 +312,12 @@ msgstr "Zarrar documentu"
 msgid "Save As"
 msgstr "Guardar como"
 
-#: katedocmanager.cpp:364 katemainwindow.cpp:564
+#: katedocmanager.cpp:364 katemainwindow.cpp:568
 #, kde-format
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr "Abrióse un ficheru nuevu mentanto se zarraba Kate, zarru albortáu."
 
-#: katedocmanager.cpp:364 katemainwindow.cpp:564
+#: katedocmanager.cpp:364 katemainwindow.cpp:568
 #, kde-format
 msgid "Closing Aborted"
 msgstr "Albortóse'l zarru"
@@ -629,45 +629,50 @@ msgstr "Sesión &nueva"
 
 #: katemainwindow.cpp:453
 #, kde-format
+msgid "&Save as defaults"
+msgstr ""
+
+#: katemainwindow.cpp:457
+#, kde-format
 msgid "&Save Session"
 msgstr "&Guardar la sesión"
 
-#: katemainwindow.cpp:457
+#: katemainwindow.cpp:461
 #, kde-format
 msgid "Save Session &As..."
 msgstr "Guardar la sesión &como…"
 
-#: katemainwindow.cpp:461
+#: katemainwindow.cpp:465
 #, kde-format
 msgid "&Manage Sessions..."
 msgstr "&Xestionar sesiones…"
 
-#: katemainwindow.cpp:466
+#: katemainwindow.cpp:470
 #, kde-format
 msgid "&Quick Open Session"
 msgstr "Apertura &rápida de sesión"
 
-#: katemainwindow.cpp:472
+#: katemainwindow.cpp:476
 #, kde-format
 msgid "Go back"
 msgstr ""
 
-#: katemainwindow.cpp:480
+#: katemainwindow.cpp:484
 #, kde-format
 msgid "Go forward"
 msgstr ""
 
-#: katemainwindow.cpp:491
+#: katemainwindow.cpp:495
 #, kde-format
 msgid "This will close all open documents. Are you sure you want to continue?"
 msgstr "Esto va zarar tolos documentos abiertos. ¿De xuru que quies siguir?"
 
-#: katemainwindow.cpp:492
+#: katemainwindow.cpp:496
 #, kde-format
 msgid "Close all documents"
 msgstr "Zarru de tolos documentos"
 
-#: katemainwindow.cpp:507
+#: katemainwindow.cpp:511
 #, kde-format
 msgid ""
 "This will close all open documents beside the current one. Are you sure you "
@@ -676,24 +681,24 @@ msgstr ""
 "Esto va zarrar tolos documentos abiertos quitante l'actual. ¿De xuru que "
 "quies siguir?"
 
-#: katemainwindow.cpp:508
+#: katemainwindow.cpp:512
 #, kde-format
 msgid "Close all documents beside current one"
 msgstr "Zarru de tolos documentos quitante l'actual"
 
-#: katemainwindow.cpp:700
+#: katemainwindow.cpp:704
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 "Esto va anubrir dafechu la barra de menú. Pues amosala de nueves con %1."
 
-#: katemainwindow.cpp:703
+#: katemainwindow.cpp:707
 #, kde-format
 msgid "Hide menu bar"
 msgstr "Anubrición de la barra de menú"
 
-#: katemainwindow.cpp:815
+#: katemainwindow.cpp:819
 #, kde-format
 msgid ""
 "You dropped the directory %1 into Kate. Do you want to load all files "
@@ -701,17 +706,17 @@ msgid ""
 msgstr ""
 "Soltesti'l direutoriu %1 en Kate. ¿Quies cargar tolos ficheros que contenga?"
 
-#: katemainwindow.cpp:818
+#: katemainwindow.cpp:822
 #, kde-format
 msgid "Load files recursively?"
 msgstr "¿Cargar recursivamente los ficheros?"
 
-#: katemainwindow.cpp:946
+#: katemainwindow.cpp:950
 #, kde-format
 msgid "&Other..."
 msgstr "&Otru…"
 
-#: katemainwindow.cpp:1058
+#: katemainwindow.cpp:1062
 #, kde-format
 msgid " [read only]"
 msgstr " [namás llectura]"
@@ -731,47 +736,47 @@ msgstr "Amosar &barres llaterales"
 msgid "Show %1"
 msgstr "Amosar %1"
 
-#: katemdi.cpp:506
+#: katemdi.cpp:584
 #, kde-format
 msgid "Configure ..."
 msgstr "Configurar…"
 
-#: katemdi.cpp:513
+#: katemdi.cpp:591
 #, kde-format
 msgid "Make Non-Persistent"
 msgstr "Facer non persistente"
 
-#: katemdi.cpp:513
+#: katemdi.cpp:591
 #, kde-format
 msgid "Make Persistent"
 msgstr "Facer persistente"
 
-#: katemdi.cpp:516
+#: katemdi.cpp:594
 #, kde-format
 msgid "Move To"
 msgstr "Mover a"
 
-#: katemdi.cpp:519
+#: katemdi.cpp:597
 #, kde-format
 msgid "Left Sidebar"
 msgstr "Barra llateral esquierda"
 
-#: katemdi.cpp:523
+#: katemdi.cpp:601
 #, kde-format
 msgid "Right Sidebar"
 msgstr "Barra llateral derecha"
 
-#: katemdi.cpp:527
+#: katemdi.cpp:605
 #, kde-format
 msgid "Top Sidebar"
 msgstr "Barra llateral cimera"
 
-#: katemdi.cpp:531
+#: katemdi.cpp:609
 #, kde-format
 msgid "Bottom Sidebar"
 msgstr "Barra llateral baxera"
 
-#: katemdi.cpp:862
+#: katemdi.cpp:940
 #, kde-format
 msgid ""
 "<qt>You are about to hide the sidebars. With hidden sidebars it is not "
@@ -1166,27 +1171,27 @@ msgstr[1] ""
 "Anguaño hai %1 documentos abiertos más. Pa velos toos, camuda calcando equí "
 "a la vista d'Apertura rápida."
 
-#: kateviewspace.cpp:559
+#: kateviewspace.cpp:569
 #, kde-format
 msgid "&Close Document"
 msgstr "&Zarrar documentu"
 
-#: kateviewspace.cpp:560
+#: kateviewspace.cpp:570
 #, kde-format
 msgid "Close Other &Documents"
 msgstr "Zarrar los otros &documentos"
 
-#: kateviewspace.cpp:569
+#: kateviewspace.cpp:579
 #, kde-format
 msgid "Compare with active document"
 msgstr ""
 
-#: kateviewspace.cpp:625
+#: kateviewspace.cpp:635
 #, kde-format
 msgid "Could not start program"
 msgstr "Nun pudo aniciase'l programa"
 
-#: kateviewspace.cpp:626
+#: kateviewspace.cpp:636
 #, kde-format
 msgid "The selected program could not be started. Maybe it is not installed."
 msgstr "Nun pudo aniciase'l programa esbilláu. Quiciabes nun tea instaláu."
@@ -1527,11 +1532,18 @@ msgid "session"
 msgstr "sesión"
 
 #: main.cpp:229
-#, kde-format
-msgid "Start Kate with a new anonymous session, implies '-n'."
+#, fuzzy, kde-format
+#| msgid "Start Kate with a new anonymous session, implies '-n'."
+msgid "Start Kate with a new session, implies '-n' (deprecated)."
 msgstr "Anicia Kate con una sesión anónima nueva, implica «-n»."
 
-#: main.cpp:234
+#: main.cpp:233
+#, fuzzy, kde-format
+#| msgid "Start Kate with a new anonymous session, implies '-n'."
+msgid "Start Kate with a new session, implies '-n'."
+msgstr "Anicia Kate con una sesión anónima nueva, implica «-n»."
+
+#: main.cpp:238
 #, kde-format
 msgid ""
 "Force start of a new kate instance (is ignored if start is used and another "
@@ -1542,7 +1554,7 @@ msgstr ""
 "instancia de Kate yá tien abierta la sesión dada), faise si nun s'apurren "
 "nin parámetros nin URLs."
 
-#: main.cpp:240
+#: main.cpp:244
 #, kde-format
 msgid ""
 "If using an already running kate instance, block until it exits, if URLs "
@@ -1551,7 +1563,7 @@ msgstr ""
 "Si yá ta usándose una instancia de Kate n'execución, blóquiala hasta que "
 "cole, nel casu de que se-y apurrieren URLs pa que les abriere."
 
-#: main.cpp:246
+#: main.cpp:250
 #, kde-format
 msgid ""
 "Only try to reuse kate instance with this pid (is ignored if start is used "
@@ -1560,58 +1572,58 @@ msgstr ""
 "Namás tenta d'usar de nueves la instancia de Kate con esti PID (inórase si "
 "s'usa start y otra instacia de Kate yá tien abierta la sesión dada)."
 
-#: main.cpp:247
+#: main.cpp:251
 #, kde-format
 msgid "pid"
 msgstr "PID"
 
-#: main.cpp:252
+#: main.cpp:256
 #, kde-format
 msgid "Set encoding for the file to open."
 msgstr "Afita la codificación del ficheru a abrir."
 
-#: main.cpp:253
+#: main.cpp:257
 #, kde-format
 msgid "encoding"
 msgstr "codificación"
 
-#: main.cpp:257
+#: main.cpp:261
 #, kde-format
 msgid "Navigate to this line."
 msgstr "Navega hasta esta llinia."
 
-#: main.cpp:257
+#: main.cpp:261
 #, kde-format
 msgid "line"
 msgstr "llinia"
 
-#: main.cpp:262
+#: main.cpp:266
 #, kde-format
 msgid "Navigate to this column."
 msgstr "Navega hasta esta columna."
 
-#: main.cpp:263
+#: main.cpp:267
 #, kde-format
 msgid "column"
 msgstr "columna"
 
-#: main.cpp:267
+#: main.cpp:271
 #, kde-format
 msgid "Read the contents of stdin."
 msgstr "Llee'l conteníu de la entrada estándar."
 
-#: main.cpp:272
+#: main.cpp:276
 #, kde-format
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr ""
 "Van desaniciase los ficheros/URLs abiertos pola aplicación dempués d'usalos"
 
-#: main.cpp:276
+#: main.cpp:280
 #, kde-format
 msgid "Documents to open."
 msgstr "Documentos a abrir."
 
-#: main.cpp:276
+#: main.cpp:280
 #, kde-format
 msgid "[urls...]"
 msgstr "[urls…]"
@@ -1646,7 +1658,7 @@ msgstr "Seleutor de sesiones"
 msgid "Restore"
 msgstr ""
 
-#: session/katesessionmanagedialog.cpp:305
+#: session/katesessionmanagedialog.cpp:303
 #, kde-format
 msgid "Session will be deleted on dialog close"
 msgstr "La sesión va desaniciase col zarru del diálogu"
@@ -1724,13 +1736,13 @@ msgstr "Desaniciar"
 msgid "Close"
 msgstr "Zarrar"
 
-#: session/katesessionmanager.cpp:107
+#: session/katesessionmanager.cpp:127
 #, kde-format
 msgid ""
 "Internal error: there is more than one instance open for a given session."
 msgstr "Fallu internu: hai más d'una instancia abierta pa la sesión dada."
 
-#: session/katesessionmanager.cpp:113
+#: session/katesessionmanager.cpp:133
 #, kde-format
 msgid ""
 "Session '%1' is already opened in another kate instance, change there "
@@ -1739,22 +1751,31 @@ msgstr ""
 "La sesión «%1» yá ta abierta n'otra instancia de Kate, ¿dir p'allá en "
 "cuantes d'abrila de nueves?"
 
-#: session/katesessionmanager.cpp:306
-#, kde-format
-msgid "The session could not be renamed to \"%1\". Failed to write to \"%2\""
+#: session/katesessionmanager.cpp:349
+#, fuzzy, kde-format
+#| msgid ""
+#| "The session could not be renamed to \"%1\". Failed to write to \"%2\""
+msgid ""
+"The session could not be renamed to \"%1\". Failed to write to \"%2\"\n"
+"%3"
 msgstr "La sesión nun pudo renomase a «%1». Fallu al escribir en «%2»"
 
-#: session/katesessionmanager.cpp:307
+#: session/katesessionmanager.cpp:350
 #, kde-format
 msgid "Session Renaming"
 msgstr "Renomáu de sesiones"
 
-#: session/katesessionmanager.cpp:450
+#: session/katesessionmanager.cpp:449
+#, kde-format
+msgid "Do you want to save current anonymous session?"
+msgstr ""
+
+#: session/katesessionmanager.cpp:492
 #, kde-format
 msgid "Session name:"
 msgstr "Nome de la sesión:"
 
-#: session/katesessionmanager.cpp:452
+#: session/katesessionmanager.cpp:494
 #, kde-format
 msgid ""
 "There is already an existing session with your chosen name: %1\n"
@@ -1763,17 +1784,17 @@ msgstr ""
 "Yá hai una sesión esistente col nome escoyíu: %1\n"
 "Escueyi otro, por favor."
 
-#: session/katesessionmanager.cpp:454
+#: session/katesessionmanager.cpp:496
 #, kde-format
 msgid "To save a session, you must specify a name."
 msgstr "Pa guardar una sesión has especificar un nome."
 
-#: session/katesessionmanager.cpp:481
+#: session/katesessionmanager.cpp:523
 #, kde-format
 msgid "Specify a name for this session"
 msgstr "Especificación d'un nome pa esta sesión"
 
-#: session/katesessionmanager.cpp:483
+#: session/katesessionmanager.cpp:525
 #, kde-format
 msgid "Specify a new name for session: %1"
 msgstr "Especificación d'un nome pa la sesión %1"
