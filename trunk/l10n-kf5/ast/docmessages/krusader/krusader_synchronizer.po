@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-25 00:32+0000\n"
+"POT-Creation-Date: 2021-09-20 00:33+0000\n"
 "PO-Revision-Date: 2015-04-02 01:07+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -73,8 +73,8 @@ msgstr "Procedimientu:"
 #: synchronizer.docbook:52
 #, no-c-format
 msgid ""
-"Set the <guilabel>Left directory</guilabel> and the <guilabel>Right "
-"directory</guilabel> that you want to compare."
+"Set the <guilabel>Left folder</guilabel> and the <guilabel>Right folder</"
+"guilabel> that you want to compare."
 msgstr ""
 
 #. Tag: para
@@ -163,13 +163,13 @@ msgstr ""
 #. Tag: para
 #: synchronizer.docbook:125
 #, no-c-format
-msgid "<guilabel>Left Directory</guilabel>: The left side base directory."
+msgid "<guilabel>Left Directory</guilabel>: The left side base folder."
 msgstr ""
 
 #. Tag: para
 #: synchronizer.docbook:130
 #, no-c-format
-msgid "<guilabel>Right Directory</guilabel>: The right side base directory."
+msgid "<guilabel>Right Directory</guilabel>: The right side base folder."
 msgstr ""
 
 #. Tag: para
@@ -179,8 +179,8 @@ msgid ""
 "<guilabel>File Filter</guilabel>: Filters the filenames at synchronizing. "
 "&eg; <literal role=\"extension\">*.png</literal> selects only files the "
 "names of which end with <literal role=\"extension\">.png</literal>. Folders "
-"are listed if the directory name ends with <literal role=\"extension\">.png</"
-"literal> or if the directory contains files which end with <literal role="
+"are listed if the folder name ends with <literal role=\"extension\">.png</"
+"literal> or if the folder contains files which end with <literal role="
 "\"extension\">.png</literal>. Multiple include/exclude example: <literal "
 "role=\"extension\">'*.cpp *.h | *.moc.cpp'</literal> includes <literal role="
 "\"extension\">*.cpp *.h</literal> and exclude <literal role=\"extension\">*."
@@ -321,20 +321,20 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Asymmetric</guilabel>: The <guilabel>Left Directory</guilabel> is "
-"the target directory, the <guilabel>Right Directory</guilabel> is the source "
-"directory. This function synchronizes the content of the left directory to "
-"the right directory. <itemizedlist> <listitem> <para>The files that exist "
-"only on the left side will be deleted.</para> </listitem> <listitem> "
-"<para>The files that exist only on the right side will be copied to left.</"
-"para> </listitem> <listitem> <para>The files considered to be equal will be "
-"untouched.</para> </listitem> <listitem> <para>Those files considered to be "
-"different will be copied to left. Use this feature with care!</para> </"
-"listitem> </itemizedlist>This function is useful if the date information is "
-"unusable, or to synchronize the left directory to the content of a file "
-"server (like a download). Alternatively, it is useful to make a backup from "
-"the right directory to the left directory. NOTE: Do NOT use this option to "
-"synchronize a desktop and a notebook (&eg; files that exist only on the left "
-"side will be deleted!)."
+"the target folder, the <guilabel>Right Directory</guilabel> is the source "
+"folder. This function synchronizes the content of the left folder to the "
+"right folder. <itemizedlist> <listitem> <para>The files that exist only on "
+"the left side will be deleted.</para> </listitem> <listitem> <para>The files "
+"that exist only on the right side will be copied to left.</para> </listitem> "
+"<listitem> <para>The files considered to be equal will be untouched.</para> "
+"</listitem> <listitem> <para>Those files considered to be different will be "
+"copied to left. Use this feature with care!</para> </listitem> </"
+"itemizedlist>This function is useful if the date information is unusable, or "
+"to synchronize the left folder to the content of a file server (like a "
+"download). Alternatively, it is useful to make a backup from the right "
+"folder to the left folder. NOTE: Do NOT use this option to synchronize a "
+"desktop and a notebook (&eg; files that exist only on the left side will be "
+"deleted!)."
 msgstr ""
 
 #. Tag: para
@@ -345,7 +345,7 @@ msgid ""
 "When the Synchronizer has finished comparing a file, it puts the file into "
 "the end of the list at once and scrolls the window, if necessary. It is "
 "important, if you want to know what the Synchronizer is doing. If the &FTP; "
-"server is slow, the comparison of a directory may take a lot of time. By "
+"server is slow, the comparison of a folder may take a lot of time. By "
 "turning this option on, you can see that the comparator is <quote>alive</"
 "quote>, but slow. For fast file systems, it can reduce the speed of "
 "comparing slightly."
@@ -599,7 +599,7 @@ msgid ""
 "1. change the <guilabel>Task</guilabel> operations determined by the "
 "Comparator. Select one or multiple files. The change will be applied on the "
 "selection and not only on the right clicked item. If the selected item is a "
-"directory, the change will be applied on its files/subfolders as well."
+"folder, the change will be applied on its files/subfolders as well."
 msgstr ""
 
 #. Tag: para
@@ -744,7 +744,7 @@ msgstr ""
 #: synchronizer.docbook:599
 #, no-c-format
 msgid ""
-"If you want to synchronize a local directory with an unstable &FTP; server, "
+"If you want to synchronize a local folder with an unstable &FTP; server, "
 "<application>kget</application> is a much better solution than simple file "
 "copying. After comparing you may right click on the result list and select "
 "<guimenuitem>Synchronize with KGet</guimenuitem> to execute the "
@@ -887,8 +887,8 @@ msgstr ""
 #: synchronizer.docbook:713
 #, no-c-format
 msgid ""
-"Remote <quote>compare by content</quote> and <quote>directory compare</"
-"quote> is done in parallel."
+"Remote <quote>compare by content</quote> and <quote>folder compare</quote> "
+"is done in parallel."
 msgstr ""
 
 #. Tag: para
