@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-21 00:18+0000\n"
+"POT-Creation-Date: 2021-10-17 00:18+0000\n"
 "PO-Revision-Date: 2021-01-20 22:53+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -27,69 +27,73 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
 
-#: DeviceAutomounterKCM.cpp:36
+#: DeviceAutomounterKCM.cpp:37
 #, kde-format
 msgid "Device Automounter"
 msgstr "Automontador de preseos"
 
-#: DeviceAutomounterKCM.cpp:40
+#: DeviceAutomounterKCM.cpp:41
 #, kde-format
 msgid "(c) 2009 Trever Fischer, (c) 2015 Kai Uwe Broulik"
 msgstr "(c) 2009 Trever Fischer, (c) 2015 Kai Uwe Broulik"
 
-#: DeviceAutomounterKCM.cpp:41
+#: DeviceAutomounterKCM.cpp:42
 #, kde-format
 msgid "Trever Fischer"
 msgstr "Trever Fischer"
 
-#: DeviceAutomounterKCM.cpp:41
+#: DeviceAutomounterKCM.cpp:42
 #, kde-format
 msgid "Original Author"
 msgstr "Autor orixinal"
 
-#: DeviceAutomounterKCM.cpp:42
+#: DeviceAutomounterKCM.cpp:43
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr "Kai Uwe Broulik"
 
-#: DeviceAutomounterKCM.cpp:42
+#: DeviceAutomounterKCM.cpp:43
 #, kde-format
 msgid "Plasma 5 Port"
 msgstr "Puertu a Plasma 5"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutomountOnLogin)
-#: DeviceAutomounterKCM.ui:19
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceView)
+#: DeviceAutomounterKCM.ui:17
+#, fuzzy, kde-format
+#| msgid ""
+#| "This list contains the storage devices known to the system. If "
+#| "\"Automount on Login\" is checked, the device will be automatically "
+#| "mounted even though \"Mount all removable media at login\" is unchecked. "
+#| "The same applies for \"Automount on Attach\".\n"
+#| "\n"
+#| "If \"Enable automatic mounting of removable media\" is unchecked, the "
+#| "overrides do not apply and no devices will be automatically mounted."
+msgid ""
+"This list contains the storage devices known to the system. If \"Automount "
+"on Login\" is checked, the device will be automatically mounted even though "
+"\"Mount all removable media at login\" is unchecked. The same applies for "
+"\"Automount on Attach\"."
+msgstr "Esta llista contién los preseos d'almacenamientu conocíos pol sistem."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:54
 #, kde-format
 msgid ""
-"If any removable storage devices are connected to your system when you login "
-"to your desktop, their contents will automatically be made available to your "
-"system for other programs to read."
+"Clicking this button causes the selected devices to be 'forgotten'. This is "
+"only useful if \"Only automatically mount removable media that has been "
+"manually mounted before\" is checked. Once a device is forgotten and the "
+"system is set to only automatically mount familiar devices, the device will "
+"not be automatically mounted."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomountOnLogin)
-#: DeviceAutomounterKCM.ui:22
-#, fuzzy, kde-format
-#| msgid "Automatically mount all removable media at login"
-msgid "Automatically mount removable medias at login"
-msgstr "Montar automáticamente tolos medios estrayibles al aniciar sesión"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutomountOnPlugin)
-#: DeviceAutomounterKCM.ui:29
+#. i18n: ectx: property (text), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:57
 #, kde-format
-msgid ""
-"When this is checked, the contents of any storage device will automatically "
-"be made available to the system when it is plugged in or attached."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomountOnPlugin)
-#: DeviceAutomounterKCM.ui:32
-#, fuzzy, kde-format
-#| msgid "Automatically mount all removable media when attached"
-msgid "Automatically mount removable medias when attached"
-msgstr "Montar automáticamente tolos medios estrayibles al espatalos"
+msgid "Forget Device"
+msgstr "Escaecer el preséu"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutomountUnknownDevices)
-#: DeviceAutomounterKCM.ui:39
+#: DeviceAutomounterKCM.ui:67
 #, kde-format
 msgid ""
 "When this is not checked, only remembered devices will be automatically "
@@ -101,7 +105,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomountUnknownDevices)
-#: DeviceAutomounterKCM.ui:42
+#: DeviceAutomounterKCM.ui:70
 #, fuzzy, kde-format
 #| msgid ""
 #| "Only automatically mount removable media that has been manually mounted "
@@ -110,46 +114,11 @@ msgid "Automatically mount removable media that have never been mounted before"
 msgstr ""
 "Automontar namás los preseos estrayibles que se montaren a mano enantes"
 
-#. i18n: ectx: property (title), widget (QGroupBox, deviceGroupBox)
-#: DeviceAutomounterKCM.ui:80
-#, kde-format
-msgid "Automatic mount"
-msgstr "Montaxe automáticu"
-
-#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceView)
-#: DeviceAutomounterKCM.ui:88
-#, kde-format
-msgid ""
-"This list contains the storage devices known to the system. If \"Automount "
-"on Login\" is checked, the device will be automatically mounted even though "
-"\"Mount all removable media at login\" is unchecked. The same applies for "
-"\"Automount on Attach\".\n"
-"\n"
-"If \"Enable automatic mounting of removable media\" is unchecked, the "
-"overrides do not apply and no devices will be automatically mounted."
-msgstr "Esta llista contién los preseos d'almacenamientu conocíos pol sistem."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, forgetDevice)
-#: DeviceAutomounterKCM.ui:130
-#, kde-format
-msgid ""
-"Clicking this button causes the selected devices to be 'forgotten'. This is "
-"only useful if \"Only automatically mount removable media that has been "
-"manually mounted before\" is checked. Once a device is forgotten and the "
-"system is set to only automatically mount familiar devices, the device will "
-"not be automatically mounted."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, forgetDevice)
-#: DeviceAutomounterKCM.ui:133
-#, kde-format
-msgid "Forget Device"
-msgstr "Escaecer el preséu"
-
 #: DeviceModel.cpp:52
-#, kde-format
-msgid "Device"
-msgstr "Preseos"
+#, fuzzy, kde-format
+#| msgid "Automount on Login"
+msgid "Automount Device"
+msgstr "Automontaxe al aniciar sesión"
 
 #: DeviceModel.cpp:54
 #, kde-format
@@ -165,40 +134,64 @@ msgctxt "As in automount on attach"
 msgid "On Attach"
 msgstr "Al espatar"
 
-#: DeviceModel.cpp:268 DeviceModel.cpp:307
-#, kde-format
-msgid "UDI: %1"
-msgstr "UDI: %1"
+#: DeviceModel.cpp:258
+#, fuzzy, kde-format
+#| msgid "Device"
+msgid "All Devices"
+msgstr "Preseos"
 
-#: DeviceModel.cpp:278 DeviceModel.cpp:317
+#: DeviceModel.cpp:258
 #, kde-format
-msgid "This device will be automatically mounted at login."
-msgstr "Esti preséu va montase automáticamente nel aniciu de sesión."
+msgid "All Known Devices"
+msgstr ""
 
-#: DeviceModel.cpp:279 DeviceModel.cpp:318
-#, kde-format
-msgid "This device will not be automatically mounted at login."
-msgstr "Esti preséu nun va montase automáticamente nel aniciu de sesión."
-
-#: DeviceModel.cpp:287 DeviceModel.cpp:326
-#, kde-format
-msgid "This device will be automatically mounted when attached."
-msgstr "Esti preséu va montase automáticamente al conectalu."
-
-#: DeviceModel.cpp:288 DeviceModel.cpp:327
-#, kde-format
-msgid "This device will not be automatically mounted when attached."
-msgstr "Esti preséu nun va montase automáticamente al conectalu."
-
-#: DeviceModel.cpp:334
+#: DeviceModel.cpp:260
 #, kde-format
 msgid "Attached Devices"
 msgstr "Coneutaos"
 
-#: DeviceModel.cpp:336
+#: DeviceModel.cpp:262
 #, kde-format
 msgid "Disconnected Devices"
 msgstr "Desconectaos"
+
+#: DeviceModel.cpp:298 DeviceModel.cpp:307
+#, kde-format
+msgid "UDI: %1"
+msgstr "UDI: %1"
+
+#: DeviceModel.cpp:318
+#, kde-format
+msgid "This device will be automatically mounted at login."
+msgstr "Esti preséu va montase automáticamente nel aniciu de sesión."
+
+#: DeviceModel.cpp:318
+#, kde-format
+msgid "This device will not be automatically mounted at login."
+msgstr "Esti preséu nun va montase automáticamente nel aniciu de sesión."
+
+#: DeviceModel.cpp:326
+#, kde-format
+msgid "This device will be automatically mounted when attached."
+msgstr "Esti preséu va montase automáticamente al conectalu."
+
+#: DeviceModel.cpp:327
+#, kde-format
+msgid "This device will not be automatically mounted when attached."
+msgstr "Esti preséu nun va montase automáticamente al conectalu."
+
+#, fuzzy
+#~| msgid "Automatically mount all removable media at login"
+#~ msgid "Automatically mount removable medias at login"
+#~ msgstr "Montar automáticamente tolos medios estrayibles al aniciar sesión"
+
+#, fuzzy
+#~| msgid "Automatically mount all removable media when attached"
+#~ msgid "Automatically mount removable medias when attached"
+#~ msgstr "Montar automáticamente tolos medios estrayibles al espatalos"
+
+#~ msgid "Automatic mount"
+#~ msgstr "Montaxe automáticu"
 
 #~ msgid ""
 #~ "When this is unchecked, no device automounting of any kind will happen, "
@@ -212,9 +205,6 @@ msgstr "Desconectaos"
 
 #~ msgid "Device Overrides"
 #~ msgstr "Anulaciones de preseos"
-
-#~ msgid "Automount on Login"
-#~ msgstr "Automontaxe al aniciar sesión"
 
 #~ msgid "Automount on Attach"
 #~ msgstr "Automontaxe al enchufar"
