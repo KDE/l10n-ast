@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-10 01:46+0000\n"
+"POT-Creation-Date: 2021-11-11 01:42+0000\n"
 "PO-Revision-Date: 2021-05-06 23:45+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -3358,7 +3358,7 @@ msgstr "Centru vertical"
 
 #: src/assets/view/widgets/keyframeimport.cpp:194
 #: src/assets/view/widgets/keyframeimport.cpp:204
-#: src/transitions/view/mixstackview.cpp:51
+#: src/transitions/view/mixstackview.cpp:47
 #, fuzzy, kde-format
 #| msgid "Counter"
 msgid "Center"
@@ -3438,8 +3438,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, position_label)
 #. i18n: ectx: property (text), widget (QLabel, clip_filesize_2)
 #: src/assets/view/widgets/keyframeimport.cpp:353
-#: src/ui/clipdurationdialog_ui.ui:20 src/ui/editsub_ui.ui:127
-#: src/ui/keyframedialog_ui.ui:20 src/ui/markerdialog_ui.ui:20
+#: src/transitions/view/mixstackview.cpp:26 src/ui/clipdurationdialog_ui.ui:20
+#: src/ui/editsub_ui.ui:127 src/ui/keyframedialog_ui.ui:20
+#: src/ui/markerdialog_ui.ui:20
 #, kde-format
 msgid "Position"
 msgstr "Posición"
@@ -12288,7 +12289,7 @@ msgstr ""
 #: src/timeline2/model/timelinemodel.cpp:5647
 #: src/timeline2/model/timelinemodel.cpp:5683
 #: src/timeline2/model/timelinemodel.cpp:5715
-#: src/timeline2/model/timelinemodel.cpp:5792
+#: src/timeline2/model/timelinemodel.cpp:5791
 #, fuzzy, kde-format
 #| msgid "Cannot open file"
 msgid "Cannot resize mix to less than 1 frame"
@@ -12296,20 +12297,14 @@ msgstr "Nun pue abrise'l ficheru"
 
 #: src/timeline2/model/timelinemodel.cpp:5658
 #: src/timeline2/model/timelinemodel.cpp:5691
-#: src/timeline2/model/timelinemodel.cpp:5730
-#: src/timeline2/model/timelinemodel.cpp:5807
+#: src/timeline2/model/timelinemodel.cpp:5729
+#: src/timeline2/model/timelinemodel.cpp:5806
 #, fuzzy, kde-format
 #| msgid "Cannot open file"
 msgid "Cannot resize mix"
 msgstr "Nun pue abrise'l ficheru"
 
-#: src/timeline2/model/timelinemodel.cpp:5722
-#, fuzzy, kde-format
-#| msgid "Cannot open file"
-msgid "Cannot align mix"
-msgstr "Nun pue abrise'l ficheru"
-
-#: src/timeline2/model/timelinemodel.cpp:5821
+#: src/timeline2/model/timelinemodel.cpp:5820
 #, kde-format
 msgid "Resize mix"
 msgstr ""
@@ -13481,27 +13476,21 @@ msgstr ""
 msgid "Some of your favorite compositions are invalid and were removed: %1"
 msgstr ""
 
-#: src/transitions/view/mixstackview.cpp:28
-#, fuzzy, kde-format
-#| msgid "Position"
-msgid "Position (left):"
-msgstr "Posición"
-
 #. i18n: ectx: property (text), widget (QLabel, clip_filesize_2)
-#: src/transitions/view/mixstackview.cpp:35 src/ui/spacerdialog_ui.ui:43
+#: src/transitions/view/mixstackview.cpp:31 src/ui/spacerdialog_ui.ui:43
 #, kde-format
 msgid "Duration:"
 msgstr "Duración:"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonAlignLeft)
-#: src/transitions/view/mixstackview.cpp:39 src/ui/titlewidget_ui.ui:1166
+#: src/transitions/view/mixstackview.cpp:35 src/ui/titlewidget_ui.ui:1166
 #: src/widgets/geometrywidget.cpp:97
 #, kde-format
 msgid "Align left"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonAlignRight)
-#: src/transitions/view/mixstackview.cpp:45 src/ui/titlewidget_ui.ui:1143
+#: src/transitions/view/mixstackview.cpp:41 src/ui/titlewidget_ui.ui:1143
 #: src/widgets/geometrywidget.cpp:101
 #, kde-format
 msgid "Align right"
@@ -16836,6 +16825,16 @@ msgstr "%1m"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1h"
+
+#, fuzzy
+#~| msgid "Cannot open file"
+#~ msgid "Cannot align mix"
+#~ msgstr "Nun pue abrise'l ficheru"
+
+#, fuzzy
+#~| msgid "Position"
+#~ msgid "Position (left):"
+#~ msgstr "Posición"
 
 #~ msgid "Equalizer"
 #~ msgstr "Ecualizador"
