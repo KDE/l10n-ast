@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-23 01:55+0000\n"
+"POT-Creation-Date: 2021-11-30 02:15+0000\n"
 "PO-Revision-Date: 2021-05-06 23:46+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -669,7 +669,7 @@ msgstr ""
 msgid "Undo"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:498 qml/MediaPlayListView.qml:501
+#: qml/MediaPlayListView.qml:498 qml/MediaPlayListView.qml:503
 #, fuzzy, kde-format
 #| msgid "%1 track"
 #| msgid_plural "%1 tracks"
@@ -678,15 +678,31 @@ msgid_plural "%1 tracks"
 msgstr[0] "1 pista"
 msgstr[1] "%1 pistes"
 
-#: qml/MediaPlayListView.qml:503
+#: qml/MediaPlayListView.qml:501
+#, fuzzy, kde-format
+#| msgid "%1 track"
+#| msgid_plural "%1 tracks"
+msgid "1 track"
+msgstr "1 pista"
+
+#: qml/MediaPlayListView.qml:504
 #, fuzzy, kde-format
 #| msgctxt "Number of remaining tracks in a playlist of songs"
 #| msgid "%1 remaining"
 #| msgid_plural "%1 remaining"
-msgid "%1 tracks (%2 remaining)"
-msgstr "1 pista restante"
+msgctxt "number of tracks remaining"
+msgid "%1 remaining"
+msgid_plural "%1 remaining"
+msgstr[0] "1 pista restante"
+msgstr[1] "1 pista restante"
 
-#: qml/MediaPlayListView.qml:517
+#: qml/MediaPlayListView.qml:505
+#, kde-format
+msgctxt "%1 is the translation of track[s], %2 is the translation of remaining"
+msgid "%1 (%2)"
+msgstr ""
+
+#: qml/MediaPlayListView.qml:519
 #, fuzzy, kde-format
 #| msgctxt "Show currently played track inside playlist"
 #| msgid "Show Current Track"
@@ -694,7 +710,7 @@ msgctxt "Show currently played track inside playlist"
 msgid "Show Current"
 msgstr "Amosar la pista siguiente"
 
-#: qml/MediaPlayListView.qml:528
+#: qml/MediaPlayListView.qml:530
 #, fuzzy, kde-format
 #| msgctxt "Remove all tracks from play list"
 #| msgid "Clear Playlist"
@@ -702,13 +718,13 @@ msgctxt "Remove all tracks from play list"
 msgid "Clear All"
 msgstr "Lllimpiar la llista de reproducción"
 
-#: qml/MediaPlayListView.qml:544
+#: qml/MediaPlayListView.qml:546
 #, kde-format
 msgctxt "file type (mime type) for m3u and m3u8 playlist file formats"
 msgid "Playlist (*.m3u*)"
 msgstr "Llista de reproducción (*.m3u)"
 
-#: qml/MediaPlayListView.qml:550
+#: qml/MediaPlayListView.qml:552
 #, kde-format
 msgctxt "Message when saving a playlist failed"
 msgid "Saving failed"
