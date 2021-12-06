@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-04 00:46+0000\n"
+"POT-Creation-Date: 2021-12-06 00:46+0000\n"
 "PO-Revision-Date: 2021-04-20 01:56+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -484,11 +484,11 @@ msgctxt "@title Folder name"
 msgid "System Tables"
 msgstr "Tables del sistema"
 
-#: schemawidget.cpp:267
+#: schemawidget.cpp:272
 #, kde-format
 msgctxt "@action:inmenu Context menu"
-msgid "Refresh"
-msgstr "Refrescar"
+msgid "Select Data"
+msgstr ""
 
 #: schemawidget.cpp:275
 #, kde-format
@@ -516,13 +516,19 @@ msgstr "INSERT"
 msgid "DELETE"
 msgstr "DELETE"
 
-#: sqlmanager.cpp:350
+#: schemawidget.cpp:284
+#, kde-format
+msgctxt "@action:inmenu Context menu"
+msgid "Refresh"
+msgstr "Refrescar"
+
+#: sqlmanager.cpp:348
 #, kde-format
 msgctxt "@info"
 msgid "Query completed successfully"
 msgstr "La consulta completóse con ésitu"
 
-#: sqlmanager.cpp:353
+#: sqlmanager.cpp:351
 #, kde-format
 msgctxt "@info"
 msgid "%1 record selected"
@@ -530,7 +536,7 @@ msgid_plural "%1 records selected"
 msgstr[0] ""
 msgstr[1] ""
 
-#: sqlmanager.cpp:357
+#: sqlmanager.cpp:355
 #, kde-format
 msgctxt "@info"
 msgid "%1 row affected"
