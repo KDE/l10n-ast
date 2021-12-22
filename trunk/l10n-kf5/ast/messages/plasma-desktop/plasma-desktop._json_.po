@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-18 00:56+0000\n"
+"POT-Creation-Date: 2021-12-22 00:56+0000\n"
 "PO-Revision-Date: 2021-04-20 02:30+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -130,10 +130,18 @@ msgctxt "Name"
 msgid "Background Services"
 msgstr "Servicios en segundu planu"
 
-#: kcms/keyboard/keyboard.json
+#: kcms/keyboard/kcm_keyboard.json
 msgctxt "Name"
 msgid "Keyboard"
 msgstr "Tecláu"
+
+#: kcms/keyboard/kded_keyboard.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Layout"
+msgctxt "Name"
+msgid "Keyboard Daemon"
+msgstr "Distribución del tecláu"
 
 #: kcms/keys/kcm_keys.json
 msgctxt "Name"
@@ -421,13 +429,23 @@ msgctxt "Description"
 msgid "Configure background services"
 msgstr "Configura los servicios en segundu planu"
 
-#: kcms/keyboard/keyboard.json
+#: kcms/keyboard/kcm_keyboard.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Keyboard Hardware and Layout"
 msgctxt "Description"
 msgid "Keyboard Hardware and Layout"
 msgstr "Hardware y distribución del tecláu"
+
+#: kcms/keyboard/kded_keyboard.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Enables switching keyboard layout through shortcuts or system tray"
+msgctxt "Description"
+msgid "Enables switching keyboard layout through shortcuts or system tray"
+msgstr ""
+"Permite'l cambéu de la distribución del tecláu pente atayos o bandexa de "
+"sistema"
 
 #: kcms/keys/kcm_keys.json
 #, fuzzy
@@ -769,12 +787,6 @@ msgstr "Busca de ficheros"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "KDED,daemon,services,background,ram"
 #~ msgstr "KDED,Degorriu,Servicios"
-
-#~ msgctxt "Comment"
-#~ msgid "Enables switching keyboard layout through shortcuts or system tray"
-#~ msgstr ""
-#~ "Permite'l cambéu de la distribución del tecláu pente atayos o bandexa de "
-#~ "sistema"
 
 #~ msgctxt "Name"
 #~ msgid "Splash Screens"
