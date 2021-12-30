@@ -62,7 +62,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-29 00:46+0000\n"
+"POT-Creation-Date: 2021-12-30 00:42+0000\n"
 "PO-Revision-Date: 2016-03-29 00:49+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <>\n"
@@ -24369,10 +24369,8 @@ msgstr "&Ver"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPopupPaletteSettings)
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisAutoLevelsWidget)
-#. i18n: ectx: property (windowTitle), widget (QWidget, photobashWidget)
 #: libs/ui/forms/WdgPopupPaletteSettings.ui:14
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:14
-#: plugins/python/photobash_images/photobash_images_docker.ui:14
 #, fuzzy, kde-format
 msgid "Form"
 msgstr "Formatos:"
@@ -50460,6 +50458,45 @@ msgstr "&Imaxe"
 msgid "{input} has been exported to {output}."
 msgstr ""
 
+#: plugins/python/photobash_images/photobash_images_docker.py:73
+#, fuzzy
+msgctxt "@title:window"
+msgid "Photobash Images"
+msgstr "&Imaxe"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:141
+#: plugins/python/photobash_images/photobash_images_docker.py:471
+#, fuzzy
+#| msgid "References"
+msgid "Change References Folder"
+msgstr "Referencies"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:147
+#: plugins/python/photobash_images/photobash_images_docker.py:219
+#, fuzzy, python-brace-format
+msgid "Image Scale: {0}%"
+msgstr "&Seleicionar"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:321
+#, python-brace-format
+msgid "Page: {0}/{1}"
+msgstr ""
+
+#: plugins/python/photobash_images/photobash_images_docker.py:460
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change Vector Data"
+msgid "Change Directory for Images"
+msgstr "Camudar Vector Data"
+
+#. i18n: ectx: property (text), widget (QPushButton, changePathButton)
+#: plugins/python/photobash_images/photobash_images_docker.py:469
+#: plugins/python/photobash_images/photobash_images_docker.ui:96
+#, fuzzy, kde-format
+#| msgid "References"
+msgid "Set References Folder"
+msgstr "Referencies"
+
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, filterTextEdit)
 #: plugins/python/photobash_images/photobash_images_docker.ui:71
 #, fuzzy, kde-format
@@ -50467,29 +50504,10 @@ msgstr ""
 msgid "Filter images by words..."
 msgstr "&Capa"
 
-#. i18n: ectx: property (text), widget (QPushButton, changePathButton)
-#: plugins/python/photobash_images/photobash_images_docker.ui:96
-#, fuzzy, kde-format
-#| msgid "References"
-msgid "Set References Folder"
-msgstr "Referencies"
-
-#. i18n: ectx: property (text), widget (QLabel, scaleSliderLabel)
-#: plugins/python/photobash_images/photobash_images_docker.ui:328
-#, fuzzy, kde-format
-msgid "Image Scale :"
-msgstr "&Seleicionar"
-
 #. i18n: ectx: property (text), widget (QCheckBox, fitCanvasCheckBox)
 #: plugins/python/photobash_images/photobash_images_docker.ui:388
 #, kde-format
 msgid "Scale To Canvas"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, paginationLabel)
-#: plugins/python/photobash_images/photobash_images_docker.ui:413
-#, kde-format
-msgid "0/0"
 msgstr ""
 
 #: plugins/python/plugin_importer/plugin_downloader.py:70
@@ -55614,10 +55632,6 @@ msgstr "Referencies"
 
 #~ msgid "Links and Bookmarks"
 #~ msgstr "Enllaces y marcadores"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Vector Data"
-#~ msgstr "Camudar Vector Data"
 
 #~ msgid "Open Vector Image (EMF/WMF/SVM)"
 #~ msgstr "Abrir Vector Imaxe (EMF/WMF/SVM)"
