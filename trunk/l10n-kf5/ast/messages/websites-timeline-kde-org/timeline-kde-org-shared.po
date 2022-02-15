@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: timeline-kde-org VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-11 00:48+0000\n"
+"POT-Creation-Date: 2022-02-15 00:49+0000\n"
 "PO-Revision-Date: 2021-01-21 15:17+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -29,8 +29,9 @@ msgstr "Traducción de"
 msgid "KDE Timeline"
 msgstr "Llinia temporal de KDE"
 
+#. %1 number of years
 #: i18n/en.yaml:0
-msgid "A {{ .Scratch.Get \"years\" }} year timeline of KDE events"
+msgid "A %1 year timeline of KDE events"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -41,16 +42,24 @@ msgstr "Llingües"
 msgid "Select your language"
 msgstr "Esbilla la to llingua"
 
+#. %1 number of years
 #: i18n/en.yaml:0
-msgid "{{ .Scratch.Get \"years\" }} Years of KDE"
-msgstr "Los {{ .Scratch.Get \"years\" }} años de KDE"
+msgid "%1 Years of KDE"
+msgstr ""
 
+#. %1 number of years
 #: i18n/en.yaml:0
+#, fuzzy
+#| msgid ""
+#| "A tour through the moments that marked the {{ .Scratch.Get \"years\" }} "
+#| "years of community history, starting with the technologies that made "
+#| "possible its existence. See our KDE 20 years <a style=\"text-decoration:"
+#| "underline;\" href=\"https://20years.kde.org/book/index.html\">book</a>."
 msgid ""
-"A tour through the moments that marked the {{ .Scratch.Get \"years\" }} "
-"years of community history, starting with the technologies that made "
-"possible its existence. See our KDE 20 years <a style=\"text-decoration:"
-"underline;\" href=\"https://20years.kde.org/book/index.html\">book</a>."
+"A tour through the moments that marked the %1 years of community history, "
+"starting with the technologies that made possible its existence. See our KDE "
+"20 years <a style=\"text-decoration:underline;\" href=\"https://20years.kde."
+"org/book/index.html\">book</a>."
 msgstr ""
 "Un percorríu polos momentos que marcaron los {{ .Scratch.Get \"years\" }} "
 "años de la historia de la comunidá, comenzando peles teunoloxíes que "
@@ -89,6 +98,9 @@ msgstr ""
 #: i18n/en.yaml:0
 msgid "Available in:"
 msgstr ""
+
+#~ msgid "{{ .Scratch.Get \"years\" }} Years of KDE"
+#~ msgstr "Los {{ .Scratch.Get \"years\" }} años de KDE"
 
 #~ msgid "LANGUAGE_NAME"
 #~ msgstr "Asturianu"
