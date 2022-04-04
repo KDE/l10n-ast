@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-15 00:41+0000\n"
+"POT-Creation-Date: 2022-04-04 00:41+0000\n"
 "PO-Revision-Date: 2021-04-20 01:49+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -393,48 +393,72 @@ msgstr ""
 msgid "OS:"
 msgstr "SO:"
 
-#: kbugreport.cpp:219
+#: kbugreport.cpp:214
+#, kde-format
+msgctxt ""
+"%1 is the operating system name, e.g. 'Windows 10', %2 is the CPU "
+"architecture, e.g. 'x86_64'"
+msgid "%1 (%2)"
+msgstr ""
+
+#: kbugreport.cpp:221
+#, kde-format
+msgctxt ""
+"%1 is the operating system name, e.g. 'Fedora Linux', %2 is the operating "
+"system version, e.g. '35', %3 is the CPU architecture, e.g. 'x86_64'"
+msgid "%1 %2 (%3)"
+msgstr ""
+
+#: kbugreport.cpp:227
+#, kde-format
+msgctxt ""
+"%1 is the operating system name, e.g. 'Fedora Linux', %2 is the CPU "
+"architecture, e.g. 'x86_64'"
+msgid "%1 (%2)"
+msgstr ""
+
+#: kbugreport.cpp:239
 #, kde-format
 msgctxt "@title:group"
 msgid "Se&verity"
 msgstr "Se&veridá"
 
-#: kbugreport.cpp:226
+#: kbugreport.cpp:246
 #, kde-format
 msgctxt "bug severity"
 msgid "Critical"
 msgstr "Crítica"
 
-#: kbugreport.cpp:227
+#: kbugreport.cpp:247
 #, kde-format
 msgctxt "bug severity"
 msgid "Grave"
 msgstr "Grave"
 
-#: kbugreport.cpp:228
+#: kbugreport.cpp:248
 #, kde-format
 msgctxt "bug severity"
 msgid "Normal"
 msgstr "Normal"
 
-#: kbugreport.cpp:229
+#: kbugreport.cpp:249
 #, kde-format
 msgctxt "bug severity"
 msgid "Wishlist"
 msgstr "Deséu"
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:250
 #, kde-format
 msgctxt "bug severity"
 msgid "Translation"
 msgstr "Traducción"
 
-#: kbugreport.cpp:248
+#: kbugreport.cpp:268
 #, kde-format
 msgid "S&ubject: "
 msgstr ""
 
-#: kbugreport.cpp:257
+#: kbugreport.cpp:277
 #, kde-format
 msgid ""
 "Enter the text (in English if possible) that you wish to submit for the bug "
@@ -443,7 +467,7 @@ msgid ""
 "program.\n"
 msgstr ""
 
-#: kbugreport.cpp:280
+#: kbugreport.cpp:300
 #, kde-format
 msgid ""
 "<qt>To submit a bug report, click on the button below. This will open a web "
@@ -452,39 +476,39 @@ msgid ""
 "be transferred to that server.</qt>"
 msgstr ""
 
-#: kbugreport.cpp:286
+#: kbugreport.cpp:306
 #, kde-format
 msgid ""
 "<qt>To submit a bug report, click on the button below. This will open a web "
 "browser window on <a href=\"%1\">%2</a>.</qt>"
 msgstr ""
 
-#: kbugreport.cpp:303
+#: kbugreport.cpp:323
 #, kde-format
 msgctxt "@action:button"
 msgid "&Launch Bug Report Wizard"
 msgstr ""
 
-#: kbugreport.cpp:305
+#: kbugreport.cpp:325
 #, kde-format
 msgctxt "@action:button"
 msgid "&Submit Bug Report"
 msgstr ""
 
-#: kbugreport.cpp:360
+#: kbugreport.cpp:380
 #, kde-format
 msgctxt "The arg is the command kcmshell5"
 msgid "Could not find '%1' executable in PATH."
 msgstr ""
 
-#: kbugreport.cpp:410
+#: kbugreport.cpp:430
 #, kde-format
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
 msgstr ""
 
-#: kbugreport.cpp:419
+#: kbugreport.cpp:439
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
@@ -496,7 +520,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:435
+#: kbugreport.cpp:455
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
@@ -508,7 +532,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:454
+#: kbugreport.cpp:474
 #, kde-format
 msgid ""
 "Unable to send the bug report.\n"
@@ -516,19 +540,19 @@ msgid ""
 "See https://bugs.kde.org/ for instructions."
 msgstr ""
 
-#: kbugreport.cpp:461
+#: kbugreport.cpp:481
 #, kde-format
 msgid "Bug report sent, thank you for your input."
 msgstr ""
 
-#: kbugreport.cpp:469
+#: kbugreport.cpp:489
 #, kde-format
 msgid ""
 "Close and discard\n"
 "edited message?"
 msgstr ""
 
-#: kbugreport.cpp:470
+#: kbugreport.cpp:490
 #, kde-format
 msgctxt "@title:window"
 msgid "Close Message"
