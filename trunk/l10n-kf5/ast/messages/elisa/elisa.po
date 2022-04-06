@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-05 00:44+0000\n"
+"POT-Creation-Date: 2022-04-06 00:44+0000\n"
 "PO-Revision-Date: 2021-05-06 23:46+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -299,6 +299,16 @@ msgctxt "explanation for sleep inhibit during play of music"
 msgid "Playing music"
 msgstr "Reproducción de música"
 
+#: qml/AbstractDataView.qml:217
+#, kde-format
+msgid "No matches"
+msgstr ""
+
+#: qml/AbstractDataView.qml:217
+#, kde-format
+msgid "Nothing to display"
+msgstr ""
+
 #: qml/ApplicationMenu.qml:15 qml/MediaPlayerControl.qml:189
 #: qml/NativeTrayMenu.qml:14
 #, kde-format
@@ -330,19 +340,19 @@ msgctxt "open the sidebar"
 msgid "Open sidebar"
 msgstr ""
 
-#: qml/ContextView.qml:111
+#: qml/ContextView.qml:104
 #, kde-format
 msgctxt "One of the 'now playing' views"
 msgid "Metadata"
 msgstr ""
 
-#: qml/ContextView.qml:124
+#: qml/ContextView.qml:117
 #, kde-format
 msgctxt "One of the 'now playing' views"
 msgid "Lyrics"
 msgstr "Lletra"
 
-#: qml/ContextView.qml:131 qml/mobile/MobileTrackPlayer.qml:364
+#: qml/ContextView.qml:124 qml/mobile/MobileTrackPlayer.qml:364
 #: qml/NavigationActionBar.qml:165
 #, kde-format
 msgctxt "show the playlist"
@@ -354,12 +364,12 @@ msgstr ""
 msgid "No lyrics found"
 msgstr ""
 
-#: qml/ContextView.qml:317
+#: qml/ContextView.qml:322
 #, kde-format
 msgid "Nothing playing"
 msgstr ""
 
-#: qml/ContextView.qml:350
+#: qml/ContextView.qml:356
 #, kde-format
 msgid "Show In Folder"
 msgstr ""
@@ -395,7 +405,7 @@ msgstr "Encaboxar"
 msgid "Warning"
 msgstr ""
 
-#: qml/ElisaMainWindow.qml:26 qml/MediaPlayListView.qml:445
+#: qml/ElisaMainWindow.qml:26 qml/MediaPlayListView.qml:455
 #, fuzzy, kde-format
 #| msgctxt "Retry"
 #| msgid "Retry"
@@ -409,7 +419,7 @@ msgstr "Retentar"
 msgid "Loading failed"
 msgstr "Falló la carga"
 
-#: qml/ElisaMainWindow.qml:30 qml/MediaPlayListView.qml:372
+#: qml/ElisaMainWindow.qml:30 qml/MediaPlayListView.qml:382
 #, kde-format
 msgid "Undo"
 msgstr ""
@@ -479,11 +489,6 @@ msgstr ""
 #, kde-format
 msgctxt "Add whole container to play list"
 msgid "Add to queue"
-msgstr ""
-
-#: qml/GridBrowserView.qml:208 qml/ListBrowserView.qml:178
-#, kde-format
-msgid "Nothing to display"
 msgstr ""
 
 #: qml/ListBrowserDelegate.qml:172 qml/ListBrowserDelegate.qml:188
@@ -656,32 +661,32 @@ msgctxt "Load a playlist file"
 msgid "Load…"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:234
+#: qml/MediaPlayListView.qml:241
 #, fuzzy, kde-format
 #| msgid "Playlist"
 msgid "Playlist is empty"
 msgstr "Llista de reproducción"
 
-#: qml/MediaPlayListView.qml:235
+#: qml/MediaPlayListView.qml:242
 #, kde-format
 msgid ""
 "Add some songs to get started. You can browse your music using the views on "
 "the left."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:307
+#: qml/MediaPlayListView.qml:316
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Your playlist is empty."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:368
+#: qml/MediaPlayListView.qml:378
 #, kde-format
 msgctxt "Playlist cleared"
 msgid "Playlist cleared"
 msgstr "Llimpióse la llista de reproducción"
 
-#: qml/MediaPlayListView.qml:391 qml/MediaPlayListView.qml:396
+#: qml/MediaPlayListView.qml:401 qml/MediaPlayListView.qml:406
 #, fuzzy, kde-format
 #| msgid "%1 track"
 #| msgid_plural "%1 tracks"
@@ -690,14 +695,14 @@ msgid_plural "%1 tracks"
 msgstr[0] "1 pista"
 msgstr[1] "%1 pistes"
 
-#: qml/MediaPlayListView.qml:394
+#: qml/MediaPlayListView.qml:404
 #, fuzzy, kde-format
 #| msgid "%1 track"
 #| msgid_plural "%1 tracks"
 msgid "1 track"
 msgstr "1 pista"
 
-#: qml/MediaPlayListView.qml:397
+#: qml/MediaPlayListView.qml:407
 #, fuzzy, kde-format
 #| msgctxt "Number of remaining tracks in a playlist of songs"
 #| msgid "%1 remaining"
@@ -708,13 +713,13 @@ msgid_plural "%1 remaining"
 msgstr[0] "1 pista restante"
 msgstr[1] "1 pista restante"
 
-#: qml/MediaPlayListView.qml:398
+#: qml/MediaPlayListView.qml:408
 #, kde-format
 msgctxt "%1 is the translation of track[s], %2 is the translation of remaining"
 msgid "%1 (%2)"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:412
+#: qml/MediaPlayListView.qml:422
 #, fuzzy, kde-format
 #| msgctxt "Show currently played track inside playlist"
 #| msgid "Show Current Track"
@@ -722,7 +727,7 @@ msgctxt "Show currently played track inside playlist"
 msgid "Show Current"
 msgstr "Amosar la pista siguiente"
 
-#: qml/MediaPlayListView.qml:423
+#: qml/MediaPlayListView.qml:433
 #, fuzzy, kde-format
 #| msgctxt "Remove all tracks from play list"
 #| msgid "Clear Playlist"
@@ -730,13 +735,13 @@ msgctxt "Remove all tracks from play list"
 msgid "Clear All"
 msgstr "Lllimpiar la llista de reproducción"
 
-#: qml/MediaPlayListView.qml:439
+#: qml/MediaPlayListView.qml:449
 #, kde-format
 msgctxt "file type (mime type) for m3u and m3u8 playlist file formats"
 msgid "Playlist (*.m3u*)"
 msgstr "Llista de reproducción (*.m3u)"
 
-#: qml/MediaPlayListView.qml:445
+#: qml/MediaPlayListView.qml:455
 #, fuzzy, kde-format
 #| msgctxt "Message when saving a playlist failed"
 #| msgid "Saving failed"
@@ -973,13 +978,13 @@ msgctxt "navigate back in the views stack"
 msgid "Back"
 msgstr "Atrás"
 
-#: qml/NavigationActionBar.qml:282
+#: qml/NavigationActionBar.qml:285
 #, kde-format
 msgctxt "Show filters in the navigation bar"
 msgid "Search and Filter"
 msgstr ""
 
-#: qml/NavigationActionBar.qml:282
+#: qml/NavigationActionBar.qml:285
 #, fuzzy, kde-format
 #| msgctxt "Hide filters in the navigation bar"
 #| msgid "Hide Search Options"
@@ -987,17 +992,17 @@ msgctxt "Hide filters in the navigation bar"
 msgid "Hide Search and Filter"
 msgstr "Anubrir les opciones de busca"
 
-#: qml/NavigationActionBar.qml:384
+#: qml/NavigationActionBar.qml:387
 #, kde-format
 msgid "Search for album name, artist, etc."
 msgstr "Buscar el nome d'un álbum, artista, etc."
 
-#: qml/NavigationActionBar.qml:393
+#: qml/NavigationActionBar.qml:396
 #, kde-format
 msgid "Filter by rating: "
 msgstr "Peñerar pola valoración: "
 
-#: qml/NavigationActionBar.qml:409
+#: qml/NavigationActionBar.qml:412
 #, kde-format
 msgid "Only Show Favorites"
 msgstr ""
