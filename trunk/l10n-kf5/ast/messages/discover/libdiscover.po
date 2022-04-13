@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-05 00:46+0000\n"
+"POT-Creation-Date: 2022-04-13 00:47+0000\n"
 "PO-Revision-Date: 2021-05-06 23:48+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -487,23 +487,29 @@ msgctxt "Category"
 msgid "System Settings"
 msgstr "Axustes del sistema"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:619
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:638
 #, kde-format
 msgid "Local bundle"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1522
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1559
 #: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:610
 #, kde-format
 msgid "Malformed appstream url '%1'"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1661
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1652
+#, fuzzy, kde-format
+#| msgid "Could not add the source %1"
+msgid "Failed to add source '%1': %2"
+msgstr "Nun pudo amestase l'orixe %1"
+
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1768
 #, kde-format
 msgid "There are no Flatpak sources."
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1665
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1772
 #, kde-format
 msgid "Failed to load \"%1\" source"
 msgstr ""
@@ -570,17 +576,17 @@ msgid ""
 "flathub.org"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:136
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:131
 #, kde-format
 msgid "Could not add the source %1"
 msgstr "Nun pudo amestase l'orixe %1"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:252
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:247
 #, kde-format
 msgid "Removing '%1'"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:253
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:248
 #, kde-format
 msgid ""
 "To remove this repository, the following applications must be uninstalled:"
@@ -589,22 +595,22 @@ msgstr ""
 "Pa desanciar esti depósitu, han desinstalase les aplicaciones de darréu:"
 "<ul><li>%1</li></ul>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:270
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:265
 #, kde-format
 msgid "Failed to remove %1 remote repository: %2"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:274
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:269
 #, kde-format
 msgid "Could not find %1"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:376
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:301
 #, kde-format
 msgid "%1 (user)"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:424
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:357
 #, kde-format
 msgid "Enter a Flatpak repository URI (*.flatpakrepo):"
 msgstr ""
