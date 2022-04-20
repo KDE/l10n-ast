@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filelight\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-06 00:48+0000\n"
+"POT-Creation-Date: 2022-04-20 00:47+0000\n"
 "PO-Revision-Date: 2021-04-20 01:54+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -312,95 +312,95 @@ msgstr "El camín o URL a escaniar"
 msgid "[url]"
 msgstr "[URL]"
 
-#: src/mainWindow.cpp:139
+#: src/mainWindow.cpp:140
 #, kde-format
 msgid "Scan &Home Folder"
 msgstr "Escaniar la carpeta d'&aniciu"
 
-#: src/mainWindow.cpp:144
+#: src/mainWindow.cpp:145
 #, kde-format
 msgid "Scan &Root Folder"
 msgstr "Escaniar la carpeta &raigañu"
 
-#: src/mainWindow.cpp:148
+#: src/mainWindow.cpp:149
 #, kde-format
 msgid "Rescan"
 msgstr "Rescaniar"
 
-#: src/mainWindow.cpp:154
+#: src/mainWindow.cpp:155
 #, kde-format
 msgid "Stop"
 msgstr "Parar"
 
-#: src/mainWindow.cpp:161
+#: src/mainWindow.cpp:162
 #, kde-format
 msgid "Go"
 msgstr "Dir"
 
-#: src/mainWindow.cpp:168
+#: src/mainWindow.cpp:169
 #, kde-format
 msgctxt "@action go to overview page, listing browsable mount points"
 msgid "Overview"
 msgstr ""
 
-#: src/mainWindow.cpp:172
+#: src/mainWindow.cpp:173
 #, kde-format
 msgid "Scan Folder"
 msgstr "Escaniar una carpeta"
 
-#: src/mainWindow.cpp:176
+#: src/mainWindow.cpp:177
 #, kde-format
 msgid "Location Bar"
 msgstr "Barra d'allugamientos"
 
-#: src/mainWindow.cpp:180
+#: src/mainWindow.cpp:181
 #, kde-format
 msgid "Save as SVG..."
 msgstr "Guardar como SVG…"
 
-#: src/mainWindow.cpp:181
+#: src/mainWindow.cpp:182
 #, kde-format
 msgid "Save the current view as an SVG file"
 msgstr "Guarda la vista actual como un ficheru SVG"
 
-#: src/mainWindow.cpp:183
+#: src/mainWindow.cpp:184
 #, kde-format
 msgid "&Recent Scans"
 msgstr "Escaneos d'&apocayá"
 
-#: src/mainWindow.cpp:224
+#: src/mainWindow.cpp:225
 #, kde-format
 msgid "Select Folder to Scan"
 msgstr "Esbilla d'una carpeta a escaniar"
 
-#: src/mainWindow.cpp:235
+#: src/mainWindow.cpp:236
 #, kde-format
 msgctxt "@title:window"
 msgid "Save as SVG"
 msgstr "Guardar como SVG"
 
-#: src/mainWindow.cpp:236
+#: src/mainWindow.cpp:237
 #, kde-format
 msgctxt "filedialog type filter"
 msgid "SVG Files (*.svg);;All Files(*)"
 msgstr "Ficheros SVG (*.svg);;Tolos ficheros(*)"
 
-#: src/mainWindow.cpp:388
+#: src/mainWindow.cpp:389
 #, kde-format
 msgid "The entered URL cannot be parsed; it is invalid."
 msgstr "La URL introducida nun pue analizase, nun ye válida."
 
-#: src/mainWindow.cpp:392
+#: src/mainWindow.cpp:393
 #, kde-format
 msgid "Filelight only accepts absolute paths, eg. /%1"
 msgstr "Filelight namás acepta caminos absolutos, por exemplu: /%1"
 
-#: src/mainWindow.cpp:396
+#: src/mainWindow.cpp:397
 #, kde-format
 msgid "Folder not found: %1"
 msgstr "Nun s'atopó la carpeta %1"
 
-#: src/mainWindow.cpp:400
+#: src/mainWindow.cpp:401
 #, kde-format
 msgid ""
 "Unable to enter: %1\n"
@@ -409,37 +409,44 @@ msgstr ""
 "Nun ye posible acceder a %1\n"
 "Nun tienes permisu p'acceder a esti allugamientu."
 
-#: src/mainWindow.cpp:423
+#: src/mainWindow.cpp:424
 #, kde-format
 msgid "Aborting Scan..."
 msgstr "Albortando l'escanéu…"
 
-#: src/mainWindow.cpp:500
+#: src/mainWindow.cpp:497
 #, kde-format
 msgid "Scanning: %1"
 msgstr "Escaniando %1"
 
-#: src/mainWindow.cpp:533
+#: src/mainWindow.cpp:530
 #, kde-format
 msgid "Scan completed, generating map..."
 msgstr "Completóse l'escanéu, xenerando'l mapa…"
 
-#: src/mainWindow.cpp:543
+#: src/mainWindow.cpp:540
 #, kde-format
 msgid "Scan failed: %1"
 msgstr "Falló l'escanéu %1"
 
-#: src/mainWindow.cpp:565
+#: src/mainWindow.cpp:562
 #, kde-format
 msgid "No files."
 msgstr "Nun hai ficheros."
 
-#: src/mainWindow.cpp:566
+#: src/mainWindow.cpp:563
 #, kde-format
 msgid "1 file"
 msgid_plural "%1 files"
 msgstr[0] "1 ficheru"
 msgstr[1] "%1 ficheros"
+
+#: src/overviewWidget.cpp:30
+#, fuzzy, kde-format
+#| msgid "Settings - Filelight"
+msgctxt "@title"
+msgid "Welcome to Filelight"
+msgstr "Axustes - Filelight"
 
 #: src/progressBox.cpp:82
 #, kde-format
@@ -449,19 +456,7 @@ msgid_plural "%1 Files, %2"
 msgstr[0] "%1 ficheru, %2"
 msgstr[1] "%1 ficheros, %2"
 
-#: src/radialMap/labels.cpp:301
-#, kde-format
-msgctxt "Free as in part of the disk that is free"
-msgid "free"
-msgstr ""
-
-#: src/radialMap/labels.cpp:302
-#, kde-format
-msgctxt "Used as in part of the disk that is used"
-msgid "used"
-msgstr ""
-
-#: src/radialMap/map.cpp:195
+#: src/radialMap/map.cpp:194
 #, kde-format
 msgid "1 file, with an average size of %2"
 msgid_plural "%1 files, with an average size of %2"
@@ -476,27 +471,7 @@ msgid ""
 "please rescan."
 msgstr "La representación interna nun ye válida, volvi escaniar."
 
-#: src/radialMap/widgetEvents.cpp:166
-#, kde-format
-msgctxt "Tooltip of used space on the partition, %1 is path, %2 is size"
-msgid ""
-"%1\n"
-"Used: %2"
-msgstr ""
-"%1\n"
-"N'usu: %2"
-
-#: src/radialMap/widgetEvents.cpp:171
-#, kde-format
-msgctxt "Tooltip of free space on the partition, %1 is path, %2 is size"
-msgid ""
-"%1\n"
-"Free: %2"
-msgstr ""
-"%1\n"
-"Llibre: %2"
-
-#: src/radialMap/widgetEvents.cpp:176 src/radialMap/widgetEvents.cpp:182
+#: src/radialMap/widgetEvents.cpp:162
 #, kde-format
 msgctxt "Tooltip of file/folder, %1 is path, %2 is size"
 msgid ""
@@ -506,7 +481,7 @@ msgstr ""
 "%1\n"
 "%2"
 
-#: src/radialMap/widgetEvents.cpp:193
+#: src/radialMap/widgetEvents.cpp:173
 #, kde-format
 msgctxt "Tooltip of folder, %1 is number of files"
 msgid "%1 File (%2%)"
@@ -514,7 +489,7 @@ msgid_plural "%1 Files (%2%)"
 msgstr[0] "%1 ficheru (%2%)"
 msgstr[1] "%1 ficheros (%2%)"
 
-#: src/radialMap/widgetEvents.cpp:197
+#: src/radialMap/widgetEvents.cpp:177
 #, kde-format
 msgctxt "Tooltip of folder, %1 is number of files"
 msgid "%1 File"
@@ -522,7 +497,7 @@ msgid_plural "%1 Files"
 msgstr[0] "%1 ficheru"
 msgstr[1] "%1 ficheros"
 
-#: src/radialMap/widgetEvents.cpp:204
+#: src/radialMap/widgetEvents.cpp:184
 #, kde-format
 msgid ""
 "\n"
@@ -531,49 +506,49 @@ msgstr ""
 "\n"
 "Calca pa dir al direutoriu pá"
 
-#: src/radialMap/widgetEvents.cpp:307
+#: src/radialMap/widgetEvents.cpp:286
 #, kde-format
 msgid "Open &File Manager Here"
 msgstr "Abrir el xestor de &ficheros equí"
 
-#: src/radialMap/widgetEvents.cpp:310
+#: src/radialMap/widgetEvents.cpp:289
 #, kde-format
 msgid "Open &Terminal Here"
 msgstr "Abrir la &terminal equí"
 
-#: src/radialMap/widgetEvents.cpp:315
+#: src/radialMap/widgetEvents.cpp:294
 #, kde-format
 msgid "&Center Map Here"
 msgstr "&Centrar el mapa equí"
 
-#: src/radialMap/widgetEvents.cpp:319
+#: src/radialMap/widgetEvents.cpp:298
 #, kde-format
 msgid "Add to Do &Not Scan List"
 msgstr "Amestar la llista de &nun escaniar"
 
-#: src/radialMap/widgetEvents.cpp:320
+#: src/radialMap/widgetEvents.cpp:299
 #, fuzzy, kde-format
 #| msgid "Rescan"
 msgid "&Rescan"
 msgstr "Rescaniar"
 
-#: src/radialMap/widgetEvents.cpp:322
+#: src/radialMap/widgetEvents.cpp:301
 #, kde-format
 msgctxt "Scan/open the path of the selected element"
 msgid "&Open"
 msgstr "&Abrir"
 
-#: src/radialMap/widgetEvents.cpp:326
+#: src/radialMap/widgetEvents.cpp:305
 #, kde-format
 msgid "&Copy to clipboard"
 msgstr "&Copiar al cartafueyu"
 
-#: src/radialMap/widgetEvents.cpp:330 src/radialMap/widgetEvents.cpp:370
+#: src/radialMap/widgetEvents.cpp:309 src/radialMap/widgetEvents.cpp:349
 #, kde-format
 msgid "&Delete"
 msgstr "&Desaniciar"
 
-#: src/radialMap/widgetEvents.cpp:366
+#: src/radialMap/widgetEvents.cpp:345
 #, kde-format
 msgid ""
 "<qt>The folder at <i>'%1'</i> will be <b>recursively</b> and <b>permanently</"
@@ -582,12 +557,12 @@ msgstr ""
 "<qt>La carpeta de <i>«%1»</i> va desaniciase <b>dafechu</b> y "
 "<b>recursivamente</b>.</qt>"
 
-#: src/radialMap/widgetEvents.cpp:367
+#: src/radialMap/widgetEvents.cpp:346
 #, kde-format
 msgid "<qt><i>'%1'</i> will be <b>permanently</b> deleted.</qt>"
 msgstr "<qt><i>«%1»</i> va desaniciase <b>dafechu</b>.</qt>"
 
-#: src/radialMap/widgetEvents.cpp:395
+#: src/radialMap/widgetEvents.cpp:374
 #, kde-format
 msgid "Error while deleting"
 msgstr "Fallu mentanto se desaniciaba"
@@ -622,17 +597,29 @@ msgstr "Esa carpeta yá se configuró pa escluyila de los escaneos."
 msgid "Folder already ignored"
 msgstr "La carpeta yá s'inora"
 
-#: src/summaryWidget.cpp:118
-#, kde-format
-msgctxt "Percent used disk space on the partition"
-msgid "<b>%1</b><br/>%2% Used"
-msgstr "<b>%1</b><br/>%2% n'usu"
+#~ msgctxt "Tooltip of used space on the partition, %1 is path, %2 is size"
+#~ msgid ""
+#~ "%1\n"
+#~ "Used: %2"
+#~ msgstr ""
+#~ "%1\n"
+#~ "N'usu: %2"
 
-#: src/summaryWidget.cpp:120
-#, kde-format
-msgctxt "Percent used disk space on the partition"
-msgid "<b>%1: %2</b><br/>%3% Used"
-msgstr "<b>%1: %2</b><br/>%3% n'usu"
+#~ msgctxt "Tooltip of free space on the partition, %1 is path, %2 is size"
+#~ msgid ""
+#~ "%1\n"
+#~ "Free: %2"
+#~ msgstr ""
+#~ "%1\n"
+#~ "Llibre: %2"
+
+#~ msgctxt "Percent used disk space on the partition"
+#~ msgid "<b>%1</b><br/>%2% Used"
+#~ msgstr "<b>%1</b><br/>%2% n'usu"
+
+#~ msgctxt "Percent used disk space on the partition"
+#~ msgid "<b>%1: %2</b><br/>%3% Used"
+#~ msgstr "<b>%1: %2</b><br/>%3% n'usu"
 
 #~ msgid "Prevents Filelight from scanning removable media (eg. CD-ROMs)."
 #~ msgstr ""
