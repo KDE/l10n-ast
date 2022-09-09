@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-06 00:49+0000\n"
+"POT-Creation-Date: 2022-09-09 00:50+0000\n"
 "PO-Revision-Date: 2021-05-06 23:50+0200\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -445,31 +445,31 @@ msgctxt "@item"
 msgid "Un-named Color Scheme"
 msgstr "Esquema de colores ensin nome"
 
-#: colorscheme/ColorSchemeEditor.cpp:107
+#: colorscheme/ColorSchemeEditor.cpp:109
 #, kde-format
 msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "Nome"
 
-#: colorscheme/ColorSchemeEditor.cpp:107
+#: colorscheme/ColorSchemeEditor.cpp:109
 #, kde-format
 msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "Color"
 
-#: colorscheme/ColorSchemeEditor.cpp:108
+#: colorscheme/ColorSchemeEditor.cpp:110
 #, kde-format
 msgctxt "@label:listbox Column header text for the actual intense colors"
 msgid "Intense color"
 msgstr "Color intensu"
 
-#: colorscheme/ColorSchemeEditor.cpp:109
+#: colorscheme/ColorSchemeEditor.cpp:111
 #, kde-format
 msgctxt "@label:listbox Column header text for the actual faint colors"
 msgid "Faint color"
 msgstr "Color tenue"
 
-#: colorscheme/ColorSchemeEditor.cpp:134
+#: colorscheme/ColorSchemeEditor.cpp:136
 #, kde-format
 msgctxt "@info:status"
 msgid ""
@@ -479,43 +479,43 @@ msgstr ""
 "Nun pudo usase l'axuste de la tresparencia del fondu porque l'escritoriu nun "
 "paez sofitar les ventanes tresparentes."
 
-#: colorscheme/ColorSchemeEditor.cpp:185
+#: colorscheme/ColorSchemeEditor.cpp:187
 #, kde-format
 msgctxt "@title:window"
 msgid "Select wallpaper image file"
 msgstr "Esbilla d'un ficheru d'imaxe de fondu"
 
-#: colorscheme/ColorSchemeEditor.cpp:187
+#: colorscheme/ColorSchemeEditor.cpp:189
 #, kde-format
 msgctxt "@label:textbox Filter in file open dialog"
 msgid "Supported Images"
 msgstr "Imáxenes sofitaes"
 
-#: colorscheme/ColorSchemeEditor.cpp:295
+#: colorscheme/ColorSchemeEditor.cpp:333
 #, kde-format
 msgctxt "@title:window"
 msgid "New Color Scheme"
 msgstr "Esquema de colores nuevu"
 
-#: colorscheme/ColorSchemeEditor.cpp:298
+#: colorscheme/ColorSchemeEditor.cpp:336
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Color Scheme"
 msgstr "Edición del esquema de colores"
 
-#: colorscheme/ColorSchemeEditor.cpp:343
+#: colorscheme/ColorSchemeEditor.cpp:382
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to choose color"
 msgstr "Fai clic pa escoyer un color"
 
-#: colorscheme/ColorSchemeEditor.cpp:348
+#: colorscheme/ColorSchemeEditor.cpp:387
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to choose intense color"
 msgstr "Fai clic pa escoyer un color intensu"
 
-#: colorscheme/ColorSchemeEditor.cpp:353
+#: colorscheme/ColorSchemeEditor.cpp:392
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to choose Faint color"
@@ -635,14 +635,45 @@ msgstr ""
 msgid "NoScaling"
 msgstr "Desplazamientu"
 
-#. i18n: ectx: property (text), widget (QLabel, wallpaperHorizontalAnchorLabel)
+#. i18n: ectx: property (text), widget (QLabel, wallpaperFlipLabel)
 #: colorscheme/ColorSchemeEditor.ui:205
+#, fuzzy, kde-format
+#| msgid "Background transparency:"
+msgid "Wallpaper flip:"
+msgstr "Tresparencia del fondu:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, wallpaperFlipType)
+#: colorscheme/ColorSchemeEditor.ui:213
+#, kde-format
+msgid "NoFlip"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, wallpaperFlipType)
+#: colorscheme/ColorSchemeEditor.ui:218
+#, kde-format
+msgid "Horizontal"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, wallpaperFlipType)
+#: colorscheme/ColorSchemeEditor.ui:223
+#, kde-format
+msgid "Vertical"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, wallpaperFlipType)
+#: colorscheme/ColorSchemeEditor.ui:228
+#, kde-format
+msgid "Both"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, wallpaperHorizontalAnchorLabel)
+#: colorscheme/ColorSchemeEditor.ui:240
 #, kde-format
 msgid "Horizontal Anchor:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, wallpaperHorizontalAnchorPosition)
-#: colorscheme/ColorSchemeEditor.ui:231
+#: colorscheme/ColorSchemeEditor.ui:266
 #, fuzzy, kde-format
 #| msgctxt "@option:radio Show scrollbar on the left side"
 #| msgid "Left side"
@@ -650,13 +681,13 @@ msgid "Left"
 msgstr "Llau esquierdu"
 
 #. i18n: ectx: property (text), widget (QLabel, wallpaperVerticalAnchorLabel)
-#: colorscheme/ColorSchemeEditor.ui:242
+#: colorscheme/ColorSchemeEditor.ui:277
 #, kde-format
 msgid "Vertical Anchor:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, wallpaperVerticalAnchorPosition)
-#: colorscheme/ColorSchemeEditor.ui:268
+#: colorscheme/ColorSchemeEditor.ui:303
 #, kde-format
 msgid "Top"
 msgstr ""
