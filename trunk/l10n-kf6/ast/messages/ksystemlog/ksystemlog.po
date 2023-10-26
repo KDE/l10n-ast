@@ -131,12 +131,12 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KTextEdit, message)
 #: src/detailDialogBase.ui:41 src/lib/logViewWidget.cpp:34
 #: src/loggerDialogBase.ui:33 src/modes/acpid/acpidAnalyzer.cpp:19
-#: src/modes/apache/apacheAnalyzer.cpp:20
-#: src/modes/audit/auditAnalyzer.cpp:23 src/modes/base/syslogAnalyzer.cpp:44
-#: src/modes/cups/cupsAnalyzer.cpp:24 src/modes/cups/cupsPdfAnalyzer.cpp:20
+#: src/modes/apache/apacheAnalyzer.cpp:20 src/modes/audit/auditAnalyzer.cpp:23
+#: src/modes/base/syslogAnalyzer.cpp:44 src/modes/cups/cupsAnalyzer.cpp:24
+#: src/modes/cups/cupsPdfAnalyzer.cpp:20
 #: src/modes/journald/journaldAnalyzer.cpp:23
-#: src/modes/kernel/kernelAnalyzer.cpp:22
-#: src/modes/samba/sambaAnalyzer.cpp:23 src/modes/xorg/xorgAnalyzer.cpp:27
+#: src/modes/kernel/kernelAnalyzer.cpp:22 src/modes/samba/sambaAnalyzer.cpp:23
+#: src/modes/xorg/xorgAnalyzer.cpp:27
 #: src/modes/xsession/xsessionAnalyzer.cpp:21
 #, kde-format
 msgid "Message"
@@ -304,8 +304,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. i18n: ectx: property (title), widget (QGroupBox, optionsGroupbox)
-#: src/generalConfigurationWidgetBase.ui:112
-#: src/loggerDialogBase.ui:206
+#: src/generalConfigurationWidgetBase.ui:112 src/loggerDialogBase.ui:206
 #, kde-format
 msgid "Options"
 msgstr ""
@@ -564,8 +563,10 @@ msgstr ""
 #: src/modes/apache/apacheAccessItemBuilder.cpp:17
 #: src/modes/apache/apacheItemBuilder.cpp:17
 #: src/modes/audit/auditItemBuilder.cpp:14
-#: src/modes/cron/cronItemBuilder.cpp:17 src/modes/cups/cupsAccessItemBuilder.cpp:17
-#: src/modes/cups/cupsItemBuilder.cpp:15 src/modes/cups/cupsPageItemBuilder.cpp:17
+#: src/modes/cron/cronItemBuilder.cpp:17
+#: src/modes/cups/cupsAccessItemBuilder.cpp:17
+#: src/modes/cups/cupsItemBuilder.cpp:15
+#: src/modes/cups/cupsPageItemBuilder.cpp:17
 #: src/modes/cups/cupsPdfItemBuilder.cpp:17
 #: src/modes/journald/journaldItemBuilder.cpp:22
 #: src/modes/kernel/kernelItemBuilder.cpp:17
@@ -590,8 +591,10 @@ msgstr ""
 #: src/modes/apache/apacheAccessItemBuilder.cpp:18
 #: src/modes/apache/apacheItemBuilder.cpp:18
 #: src/modes/audit/auditItemBuilder.cpp:15
-#: src/modes/cron/cronItemBuilder.cpp:21 src/modes/cups/cupsAccessItemBuilder.cpp:18
-#: src/modes/cups/cupsItemBuilder.cpp:16 src/modes/cups/cupsPageItemBuilder.cpp:18
+#: src/modes/cron/cronItemBuilder.cpp:21
+#: src/modes/cups/cupsAccessItemBuilder.cpp:18
+#: src/modes/cups/cupsItemBuilder.cpp:16
+#: src/modes/cups/cupsPageItemBuilder.cpp:18
 #: src/modes/cups/cupsPdfItemBuilder.cpp:18
 #: src/modes/kernel/kernelItemBuilder.cpp:18
 #: src/modes/samba/sambaItemBuilder.cpp:18
@@ -746,13 +749,12 @@ msgstr ""
 #. lines in <b>bold</b> are the last added to the list.</p>"));
 #: src/lib/logViewWidget.cpp:34 src/modes/acpid/acpidAnalyzer.cpp:17
 #: src/modes/apache/apacheAccessAnalyzer.cpp:18
-#: src/modes/apache/apacheAnalyzer.cpp:18
-#: src/modes/audit/auditAnalyzer.cpp:22 src/modes/base/syslogAnalyzer.cpp:41
-#: src/modes/cron/cronAnalyzer.cpp:12 src/modes/cups/cupsAccessAnalyzer.cpp:19
-#: src/modes/cups/cupsAnalyzer.cpp:23 src/modes/cups/cupsPageAnalyzer.cpp:19
-#: src/modes/cups/cupsPdfAnalyzer.cpp:19 src/modes/journald/journaldAnalyzer.cpp:21
-#: src/modes/kernel/kernelAnalyzer.cpp:20
-#: src/modes/samba/sambaAnalyzer.cpp:19
+#: src/modes/apache/apacheAnalyzer.cpp:18 src/modes/audit/auditAnalyzer.cpp:22
+#: src/modes/base/syslogAnalyzer.cpp:41 src/modes/cron/cronAnalyzer.cpp:12
+#: src/modes/cups/cupsAccessAnalyzer.cpp:19 src/modes/cups/cupsAnalyzer.cpp:23
+#: src/modes/cups/cupsPageAnalyzer.cpp:19 src/modes/cups/cupsPdfAnalyzer.cpp:19
+#: src/modes/journald/journaldAnalyzer.cpp:21
+#: src/modes/kernel/kernelAnalyzer.cpp:20 src/modes/samba/sambaAnalyzer.cpp:19
 #, kde-format
 msgid "Date"
 msgstr ""
@@ -772,7 +774,8 @@ msgstr ""
 msgid "Process Crashed"
 msgstr ""
 
-#: src/loggerDialog.cpp:65 src/loggerDialog.cpp:103 src/modes/apache/apacheAccessAnalyzer.cpp:21
+#: src/loggerDialog.cpp:65 src/loggerDialog.cpp:103
+#: src/modes/apache/apacheAccessAnalyzer.cpp:21
 #: src/modes/cron/cronAnalyzer.cpp:15 src/modes/cups/cupsAccessAnalyzer.cpp:22
 #: src/modes/cups/cupsPageAnalyzer.cpp:21
 #, kde-format
@@ -1813,13 +1816,15 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeAll)
-#: src/modes/base/fileListBase.ui:109 src/modes/base/multipleFileListBase.ui:108
+#: src/modes/base/fileListBase.ui:109
+#: src/modes/base/multipleFileListBase.ui:108
 #, kde-format
 msgid "Rem&ove All"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, up)
-#: src/modes/base/fileListBase.ui:122 src/modes/base/multipleFileListBase.ui:121
+#: src/modes/base/fileListBase.ui:122
+#: src/modes/base/multipleFileListBase.ui:121
 #, kde-format
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
@@ -1848,13 +1853,15 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, up)
-#: src/modes/base/fileListBase.ui:131 src/modes/base/multipleFileListBase.ui:130
+#: src/modes/base/fileListBase.ui:131
+#: src/modes/base/multipleFileListBase.ui:130
 #, kde-format
 msgid "Move &Up"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, down)
-#: src/modes/base/fileListBase.ui:141 src/modes/base/multipleFileListBase.ui:140
+#: src/modes/base/fileListBase.ui:141
+#: src/modes/base/multipleFileListBase.ui:140
 #, kde-format
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
@@ -1883,7 +1890,8 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, down)
-#: src/modes/base/fileListBase.ui:150 src/modes/base/multipleFileListBase.ui:149
+#: src/modes/base/fileListBase.ui:150
+#: src/modes/base/multipleFileListBase.ui:149
 #, kde-format
 msgid "Move &Down"
 msgstr ""
@@ -2859,7 +2867,8 @@ msgstr ""
 msgid "<p>These files will be analyzed to show the <b>X.org log</b>.</p>"
 msgstr ""
 
-#: src/modes/xorg/xorgItemBuilder.cpp:35 src/modes/xsession/xsessionItemBuilder.cpp:35
+#: src/modes/xorg/xorgItemBuilder.cpp:35
+#: src/modes/xsession/xsessionItemBuilder.cpp:35
 #, kde-format
 msgid "none"
 msgstr ""
@@ -2987,4 +2996,3 @@ msgstr ""
 #, kde-format
 msgid "No Log"
 msgstr ""
-
