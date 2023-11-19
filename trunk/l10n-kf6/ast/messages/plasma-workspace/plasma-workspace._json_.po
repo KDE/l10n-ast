@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-14 01:45+0000\n"
+"POT-Creation-Date: 2023-11-19 01:59+0000\n"
 "PO-Revision-Date: 2023-11-07 15:12+0100\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
@@ -30,9 +30,17 @@ msgid "Global Menu"
 msgstr "Menú global"
 
 #: applets/batterymonitor/package/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Power Management"
 msgctxt "Name"
-msgid "Battery and Brightness"
-msgstr "Batería ya brillu"
+msgid "Power and Battery"
+msgstr "Xestión d'enerxía"
+
+#: applets/brightness/package/metadata.json
+msgctxt "Name"
+msgid "Brightness and Color"
+msgstr ""
 
 #: applets/calendar/package/metadata.json
 msgctxt "Name"
@@ -545,7 +553,13 @@ msgstr ""
 
 #: applets/batterymonitor/package/metadata.json
 msgctxt "Description"
-msgid "See the power status of your battery"
+msgid ""
+"Control power management settings and see the power status of your battery"
+msgstr ""
+
+#: applets/brightness/package/metadata.json
+msgctxt "Description"
+msgid "Control brightness and color of your screens and keyboards"
 msgstr ""
 
 #: applets/calendar/package/metadata.json
@@ -1062,6 +1076,7 @@ msgstr "Marco Martin"
 
 #: applets/appmenu/package/metadata.json
 #: applets/batterymonitor/package/metadata.json
+#: applets/brightness/package/metadata.json
 #: applets/notifications/package/metadata.json
 #: applets/systemmonitor/coreusage/metadata.json
 #: applets/systemmonitor/cpu/metadata.json
@@ -1071,12 +1086,18 @@ msgid "Kai Uwe Broulik"
 msgstr "Kai Uwe Broulik"
 
 #: applets/batterymonitor/package/metadata.json
+#: applets/brightness/package/metadata.json
 #: applets/calendar/package/metadata.json
 #: applets/mediacontroller/package/metadata.json
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
 msgctxt "Authors Name"
 msgid "Sebastian Kügler"
 msgstr "Sebastian Kügler"
+
+#: applets/brightness/package/metadata.json
+msgctxt "Authors Name"
+msgid "Natalie Clarius"
+msgstr ""
 
 #: applets/cameraindicator/metadata.json
 msgctxt "Authors Name"
@@ -1219,6 +1240,10 @@ msgstr "Teemu Rytilahti"
 msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr "Julius Zint"
+
+#~ msgctxt "Name"
+#~ msgid "Battery and Brightness"
+#~ msgstr "Batería ya brillu"
 
 #~ msgctxt "Name"
 #~ msgid "System Monitor"
