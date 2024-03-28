@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-27 09:14+0000\n"
+"POT-Creation-Date: 2024-03-28 00:39+0000\n"
 "PO-Revision-Date: 2024-03-27 23:08+0100\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: Asturian <alministradores@softastur.org>\n"
@@ -549,25 +549,25 @@ msgid "%1 and %2"
 msgstr ""
 
 #: core/model/admincustomemojimodel.cpp:34
-#: core/model/admincustomsoundmodel.cpp:30
-#: core/model/adminoauthmodel.cpp:32 core/model/adminrolesmodel.cpp:32
-#: core/model/adminroomsmodel.cpp:30 core/model/adminusersmodel.cpp:106
-#: core/model/directoryroomsmodel.cpp:116
+#: core/model/admincustomsoundmodel.cpp:30 core/model/adminoauthmodel.cpp:32
+#: core/model/adminrolesmodel.cpp:32 core/model/adminroomsmodel.cpp:30
+#: core/model/adminusersmodel.cpp:106 core/model/directoryroomsmodel.cpp:116
 #: core/model/directoryteamsmodel.cpp:90 core/model/directoryusersmodel.cpp:100
 #: core/model/moderationreportedmessagemodel.cpp:30
 #: core/model/moderationreportedusermodel.cpp:39
-#: core/model/permissionsmodel.cpp:30 core/model/personalaccesstokeninfosmodel.cpp:78
-#: core/model/usersinrolemodel.cpp:86 widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:39
+#: core/model/permissionsmodel.cpp:30
+#: core/model/personalaccesstokeninfosmodel.cpp:78
+#: core/model/usersinrolemodel.cpp:86
+#: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:39
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:47
 #, kde-format
 msgid "Name"
 msgstr ""
 
 #: core/model/admincustomemojimodel.cpp:36
-#: core/model/admincustomsoundmodel.cpp:32
-#: core/model/adminoauthmodel.cpp:30 core/model/adminrolesmodel.cpp:30
-#: core/model/adminroomsmodel.cpp:38 core/model/directoryroomsmodel.cpp:122
-#: core/model/directoryteamsmodel.cpp:94
+#: core/model/admincustomsoundmodel.cpp:32 core/model/adminoauthmodel.cpp:30
+#: core/model/adminrolesmodel.cpp:30 core/model/adminroomsmodel.cpp:38
+#: core/model/directoryroomsmodel.cpp:122 core/model/directoryteamsmodel.cpp:94
 #, kde-format
 msgid "Identifier"
 msgstr ""
@@ -660,7 +660,8 @@ msgstr ""
 msgid "Two Factors Authentication"
 msgstr ""
 
-#: core/model/adminrolesmodel.cpp:40 widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:50
+#: core/model/adminrolesmodel.cpp:40
+#: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:50
 #, kde-format
 msgid "Description"
 msgstr ""
@@ -700,7 +701,8 @@ msgstr ""
 msgid "UserName"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:110 widgets/administratorsettingsdialog/administratorsettingswidget.cpp:123
+#: core/model/adminusersmodel.cpp:110
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:123
 #: widgets/dialogs/configurenotificationwidget.cpp:102
 #, kde-format
 msgid "Email"
@@ -717,7 +719,8 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:116 widgets/administratorsettingsdialog/enterprise/enterprisesettingswidget.cpp:24
+#: core/model/adminusersmodel.cpp:116
+#: widgets/administratorsettingsdialog/enterprise/enterprisesettingswidget.cpp:24
 #, kde-format
 msgid "Status"
 msgstr ""
@@ -727,7 +730,8 @@ msgstr ""
 msgid "link"
 msgstr ""
 
-#: core/model/deviceinfomodel.cpp:32 widgets/administratorsettingsdialog/email/emailsettingswidget.cpp:56
+#: core/model/deviceinfomodel.cpp:32
+#: widgets/administratorsettingsdialog/email/emailsettingswidget.cpp:56
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:39
 #: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:41
 #, kde-format
@@ -769,8 +773,7 @@ msgstr ""
 msgid "Last Message"
 msgstr ""
 
-#: core/model/directoryroomsmodel.cpp:130
-#: core/model/directoryteamsmodel.cpp:96
+#: core/model/directoryroomsmodel.cpp:130 core/model/directoryteamsmodel.cpp:96
 #, kde-format
 msgid "Created"
 msgstr ""
@@ -785,7 +788,7 @@ msgstr ""
 msgid "Belongs To"
 msgstr ""
 
-#: core/model/directoryteamsmodel.cpp:92 core/model/roommodel.cpp:565
+#: core/model/directoryteamsmodel.cpp:92 core/model/roommodel.cpp:567
 #: widgets/administratordialog/administratorwidget.cpp:53
 #: widgets/administratordialog/roles/rolescopecombobox.cpp:13
 #: widgets/administratorsettingsdialog/analytics/analyticswidget.cpp:18
@@ -794,8 +797,7 @@ msgstr ""
 msgid "Rooms"
 msgstr ""
 
-#: core/model/directoryusersmodel.cpp:102
-#: core/model/usersinrolemodel.cpp:88
+#: core/model/directoryusersmodel.cpp:102 core/model/usersinrolemodel.cpp:88
 #, kde-format
 msgid "Emails"
 msgstr ""
@@ -998,81 +1000,83 @@ msgstr ""
 msgid "Last token part"
 msgstr ""
 
-#: core/model/roommodel.cpp:449
+#: core/model/roommodel.cpp:451
 #, kde-format
 msgid "%1 Mention"
 msgid_plural "%1 Mentions"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/model/roommodel.cpp:453
+#: core/model/roommodel.cpp:455
 #, kde-format
 msgid "%1 Group Mention"
 msgid_plural "%1 Group Mentions"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/model/roommodel.cpp:457
+#: core/model/roommodel.cpp:459
 #, kde-format
 msgid "%1 Unread Threaded Message"
 msgid_plural "%1 Unread Threaded Messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/model/roommodel.cpp:461
+#: core/model/roommodel.cpp:463
 #, kde-format
 msgid "%1 Unread Message"
 msgid_plural "%1 Unread Messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/model/roommodel.cpp:487
+#: core/model/roommodel.cpp:489
 #, kde-format
 msgid "Teams Room"
 msgstr ""
 
-#: core/model/roommodel.cpp:493
+#: core/model/roommodel.cpp:495
 #, kde-format
 msgid "Private Room"
 msgstr ""
 
-#: core/model/roommodel.cpp:495
+#: core/model/roommodel.cpp:497
 #, kde-format
 msgid "Discussion Room"
 msgstr ""
 
-#: core/model/roommodel.cpp:499
+#: core/model/roommodel.cpp:501
 #, kde-format
 msgid "Channel Room"
 msgstr ""
 
-#: core/model/roommodel.cpp:559
+#: core/model/roommodel.cpp:561
 #, kde-format
 msgid "Unread"
 msgstr ""
 
-#: core/model/roommodel.cpp:561
+#: core/model/roommodel.cpp:563
 #, kde-format
 msgid "Favorites"
 msgstr ""
 
-#: core/model/roommodel.cpp:563 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:18
+#: core/model/roommodel.cpp:565
+#: widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:18
 #: widgets/directory/directorytabwidget.cpp:22
 #, kde-format
 msgid "Teams"
 msgstr ""
 
-#: core/model/roommodel.cpp:567 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:17
+#: core/model/roommodel.cpp:569
+#: widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:17
 #, kde-format
 msgid "Discussions"
 msgstr ""
 
-#: core/model/roommodel.cpp:569
+#: core/model/roommodel.cpp:571
 #, kde-format
 msgid "Private Messages"
 msgstr ""
 
-#: core/model/roommodel.cpp:571
+#: core/model/roommodel.cpp:573
 #, kde-format
 msgid "Unknown"
 msgstr ""
@@ -1082,12 +1086,14 @@ msgstr ""
 msgid "Online"
 msgstr ""
 
-#: core/model/statusmodel.cpp:63 core/utils.cpp:351 widgets/room/usersinroomcombobox.cpp:24
+#: core/model/statusmodel.cpp:63 core/utils.cpp:351
+#: widgets/room/usersinroomcombobox.cpp:24
 #, kde-format
 msgid "Busy"
 msgstr ""
 
-#: core/model/statusmodel.cpp:65 core/utils.cpp:353 widgets/room/usersinroomcombobox.cpp:23
+#: core/model/statusmodel.cpp:65 core/utils.cpp:353
+#: widgets/room/usersinroomcombobox.cpp:23
 #, kde-format
 msgid "Away"
 msgstr ""
@@ -1305,12 +1311,14 @@ msgid "Reply..."
 msgstr ""
 
 #: core/otr/otrnotificationjob.cpp:45 core/otr/otrnotificationjob.cpp:55
-#: core/otr/otrnotificationjob.cpp:70 widgets/room/channelactionpopupmenu.cpp:119
+#: core/otr/otrnotificationjob.cpp:70
+#: widgets/room/channelactionpopupmenu.cpp:119
 #, kde-format
 msgid "OTR"
 msgstr ""
 
-#: core/otr/otrnotificationjob.cpp:59 core/videoconference/videoconferencenotificationjob.cpp:61
+#: core/otr/otrnotificationjob.cpp:59
+#: core/videoconference/videoconferencenotificationjob.cpp:61
 #, kde-format
 msgid "Reject"
 msgstr ""
@@ -1365,32 +1373,32 @@ msgstr ""
 msgid "A new account was added."
 msgstr ""
 
-#: core/room.cpp:1147
+#: core/room.cpp:1161
 #, kde-format
 msgid "Owner"
 msgstr ""
 
-#: core/room.cpp:1150
+#: core/room.cpp:1164
 #, kde-format
 msgid "Leader"
 msgstr ""
 
-#: core/room.cpp:1153
+#: core/room.cpp:1167
 #, kde-format
 msgid "Moderator"
 msgstr ""
 
-#: core/room.cpp:1485
+#: core/room.cpp:1499
 #, kde-format
 msgid "Channel is read only."
 msgstr ""
 
-#: core/room.cpp:1488
+#: core/room.cpp:1502
 #, kde-format
 msgid "You have blocked this channel."
 msgstr ""
 
-#: core/room.cpp:1491
+#: core/room.cpp:1505
 #, kde-format
 msgid "Channel was blocked."
 msgstr ""
@@ -1416,12 +1424,14 @@ msgstr ""
 msgid "Channel"
 msgstr ""
 
-#: core/roominfo/roominfo.cpp:120 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:14
+#: core/roominfo/roominfo.cpp:120
+#: widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:14
 #, kde-format
 msgid "Direct"
 msgstr ""
 
-#: core/roominfo/roominfo.cpp:122 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:19
+#: core/roominfo/roominfo.cpp:122
+#: widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:19
 #: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:112
 #, kde-format
 msgid "Omnichannel"
@@ -2553,8 +2563,7 @@ msgstr ""
 #: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:28
 #: widgets/conferencecalldialog/conferenceinfowidget.cpp:49
 #: widgets/dialogs/directchannelinfowidget.cpp:100
-#: widgets/dialogs/modifystatuswidget.cpp:32
-#: widgets/ruqolamainwindow.cpp:537
+#: widgets/dialogs/modifystatuswidget.cpp:32 widgets/ruqolamainwindow.cpp:537
 #, kde-format
 msgid "Status:"
 msgstr ""
@@ -2772,7 +2781,8 @@ msgstr ""
 
 #: widgets/administratordialog/moderationconsole/moderationreportinfolistview.cpp:76
 #: widgets/notificationhistory/notificationhistorylistview.cpp:83
-#: widgets/room/messagelistview.cpp:272 widgets/servererrorinfohistory/servererrorinfomessagehistorylistview.cpp:47
+#: widgets/room/messagelistview.cpp:272
+#: widgets/servererrorinfohistory/servererrorinfomessagehistorylistview.cpp:47
 #, kde-format
 msgid "Copy Message"
 msgstr ""
@@ -2780,7 +2790,8 @@ msgstr ""
 #: widgets/administratordialog/moderationconsole/moderationreportinfolistview.cpp:87
 #: widgets/discussions/discussionlistview.cpp:68
 #: widgets/notificationhistory/notificationhistorylistview.cpp:94
-#: widgets/room/messagelistview.cpp:601 widgets/servererrorinfohistory/servererrorinfomessagehistorylistview.cpp:59
+#: widgets/room/messagelistview.cpp:601
+#: widgets/servererrorinfohistory/servererrorinfomessagehistorylistview.cpp:59
 #, kde-format
 msgid "Speak Text"
 msgstr ""
@@ -2789,7 +2800,8 @@ msgstr ""
 #: widgets/bannerinfodialog/bannerinfolistview.cpp:51
 #: widgets/discussions/discussionlistview.cpp:74
 #: widgets/notificationhistory/notificationhistorylistview.cpp:100
-#: widgets/room/messagelistview.cpp:302 widgets/servererrorinfohistory/servererrorinfomessagehistorylistview.cpp:66
+#: widgets/room/messagelistview.cpp:302
+#: widgets/servererrorinfohistory/servererrorinfomessagehistorylistview.cpp:66
 #, kde-format
 msgid "Select All"
 msgstr ""
@@ -8328,12 +8340,14 @@ msgstr ""
 msgid "Forward Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:345 widgets/threadwidget/threadmessagewidget.cpp:116
+#: widgets/room/messagelistview.cpp:345
+#: widgets/threadwidget/threadmessagewidget.cpp:116
 #, kde-format
 msgid "Unfollow Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:345 widgets/threadwidget/threadmessagewidget.cpp:116
+#: widgets/room/messagelistview.cpp:345
+#: widgets/threadwidget/threadmessagewidget.cpp:116
 #, kde-format
 msgid "Follow Message"
 msgstr ""
@@ -8439,19 +8453,19 @@ msgstr ""
 msgid "%1 seconds before reconnecting. %2"
 msgstr ""
 
-#: widgets/room/roomcounterinfowidget.cpp:36
+#: widgets/room/roomcounterinfowidget.cpp:46
 #, kde-format
 msgid "%4 %1 new message since %2. %3"
 msgid_plural "%4 %1 new messages since %2. %3"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/roomcounterinfowidget.cpp:40
+#: widgets/room/roomcounterinfowidget.cpp:50
 #, kde-format
 msgid "(Mark As Read)"
 msgstr ""
 
-#: widgets/room/roomcounterinfowidget.cpp:41
+#: widgets/room/roomcounterinfowidget.cpp:51
 #, kde-format
 msgid "(Jump to first Unread)"
 msgstr ""
@@ -9267,4 +9281,3 @@ msgstr ""
 #: widgets/whatsnew/whatsnewwidgettranslation.h:83
 msgid "Use RESTAPI for logging."
 msgstr ""
-
