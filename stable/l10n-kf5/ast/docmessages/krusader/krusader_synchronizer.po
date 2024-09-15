@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-20 04:16+0000\n"
+"POT-Creation-Date: 2024-09-15 03:27+0000\n"
 "PO-Revision-Date: 2015-04-02 01:07+0100\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian <kde-i18n-doc@kde.org>\n"
@@ -328,17 +328,22 @@ msgid ""
 "that exist only on the right side will be copied to left.</para> </listitem> "
 "<listitem> <para>The files considered to be equal will be untouched.</para> "
 "</listitem> <listitem> <para>Those files considered to be different will be "
-"copied to left. Use this feature with care!</para> </listitem> </"
-"itemizedlist>This function is useful if the date information is unusable, or "
-"to synchronize the left folder to the content of a file server (like a "
-"download). Alternatively, it is useful to make a backup from the right "
-"folder to the left folder. NOTE: Do NOT use this option to synchronize a "
-"desktop and a notebook (&eg; files that exist only on the left side will be "
-"deleted!)."
+"copied to left. Use this feature with care!</para> <itemizedlist> <listitem> "
+"<para>Note that there is a measure to avoid data losses: if dates are taken "
+"into account (because <guilabel>Ignore Date</guilabel> is disabled), then "
+"the default action is <emphasis>not to overwrite a file by an old version of "
+"it</emphasis>. The user is still able to overwrite (by right-clicking and "
+"selecting <guilabel>Copy from right to left</guilabel>).</para> </listitem> "
+"</itemizedlist> </listitem> </itemizedlist>This function is useful if the "
+"date information is unusable, or to synchronize the left folder to the "
+"content of a file server (like a download). Alternatively, it is useful to "
+"make a backup from the right folder to the left folder. NOTE: Do NOT use "
+"this option to synchronize a desktop and a notebook (&eg; files that exist "
+"only on the left side will be deleted!)."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:292
+#: synchronizer.docbook:297
 #, no-c-format
 msgid ""
 "<guilabel>Scroll Results</guilabel>: This is for slow &FTP; servers, ... "
@@ -352,7 +357,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:306
+#: synchronizer.docbook:311
 #, no-c-format
 msgid ""
 "<guilabel>Ignore Case</guilabel>: Case insensitive filename compare, this is "
@@ -360,7 +365,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:311
+#: synchronizer.docbook:316
 #, no-c-format
 msgid ""
 "<guilabel>Ignore hidden files</guilabel>: Ignores files that start with a "
@@ -368,7 +373,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:318
+#: synchronizer.docbook:323
 #, no-c-format
 msgid ""
 "When everything mentioned above is done, click on the <guibutton>Compare</"
@@ -377,13 +382,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: synchronizer.docbook:323
+#: synchronizer.docbook:328
 #, no-c-format
 msgid "File List"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:325
+#: synchronizer.docbook:330
 #, no-c-format
 msgid ""
 "The <guilabel>File List</guilabel> has the following columns: <quote>Left "
@@ -406,13 +411,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: synchronizer.docbook:353
+#: synchronizer.docbook:358
 #, no-c-format
 msgid "<guilabel>File List</guilabel>: Tasks (&lt;=&gt;) column"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:355
+#: synchronizer.docbook:360
 #, no-c-format
 msgid ""
 "This column displays the task that is planned for the Synchronizer, this "
@@ -421,7 +426,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:360
+#: synchronizer.docbook:365
 #, no-c-format
 msgid ""
 "<guibutton>-&gt;</guibutton>: Copy from the left side to the right side. For "
@@ -429,13 +434,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:366
+#: synchronizer.docbook:371
 #, no-c-format
 msgid "<guibutton>=</guibutton>: The files are the same, do not do anything."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:371
+#: synchronizer.docbook:376
 #, no-c-format
 msgid ""
 "<guibutton>!=</guibutton>: The file is excluded, or the Synchronizer does "
@@ -443,7 +448,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:376
+#: synchronizer.docbook:381
 #, no-c-format
 msgid ""
 "<guibutton>&lt;-</guibutton>: copy from the right side to the left side. For "
@@ -451,19 +456,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:382
+#: synchronizer.docbook:387
 #, no-c-format
 msgid "<guibutton>DEL</guibutton>: delete files from the right side."
 msgstr ""
 
 #. Tag: term
-#: synchronizer.docbook:390
+#: synchronizer.docbook:395
 #, no-c-format
 msgid "Show options"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:392
+#: synchronizer.docbook:397
 #, no-c-format
 msgid ""
 "Here you can include/exclude particular file types. Those files, that are "
@@ -471,7 +476,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:397
+#: synchronizer.docbook:402
 #, no-c-format
 msgid ""
 "<guibutton>-&gt;</guibutton>: Enable/Disable the copy task from left to "
@@ -479,13 +484,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:402
+#: synchronizer.docbook:407
 #, no-c-format
 msgid "<guibutton>=</guibutton>: Enable/Disable listing the equal files."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:407
+#: synchronizer.docbook:412
 #, no-c-format
 msgid ""
 "<guibutton>!=</guibutton>: Enable/Disable listing the excluded / <quote>do "
@@ -493,7 +498,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:412
+#: synchronizer.docbook:417
 #, no-c-format
 msgid ""
 "<guibutton>&lt;-</guibutton>: Enable/Disable the copy task from right to "
@@ -501,7 +506,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:417
+#: synchronizer.docbook:422
 #, no-c-format
 msgid ""
 "<guibutton>Trash</guibutton>: Enable/Disable the file deleting from the left "
@@ -509,7 +514,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:422
+#: synchronizer.docbook:427
 #, no-c-format
 msgid ""
 "<guibutton>Duplicates</guibutton>: Enable/Disable those files that exist on "
@@ -517,7 +522,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:427
+#: synchronizer.docbook:432
 #, no-c-format
 msgid ""
 "<guibutton>Singles</guibutton>: Enable/Disable those files that exist only "
@@ -525,13 +530,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: synchronizer.docbook:435 synchronizer.docbook:674
+#: synchronizer.docbook:440 synchronizer.docbook:679
 #, no-c-format
 msgid "Action buttons"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:439
+#: synchronizer.docbook:444
 #, no-c-format
 msgid ""
 "<guibutton>Compare</guibutton>: Compares the folders, the results are "
@@ -539,61 +544,61 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:445
+#: synchronizer.docbook:450
 #, no-c-format
 msgid "<guibutton>Stop</guibutton>: Stops comparing."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:449
+#: synchronizer.docbook:454
 #, no-c-format
 msgid "<guibutton>Synchronize</guibutton>: Shows the synchronize dialog."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:454
+#: synchronizer.docbook:459
 #, no-c-format
 msgid "<guibutton>Close</guibutton>: Closes the Synchronizer window."
 msgstr ""
 
 #. Tag: term
-#: synchronizer.docbook:462
+#: synchronizer.docbook:467
 #, no-c-format
 msgid "The Status line may contain"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:466
+#: synchronizer.docbook:471
 #, no-c-format
 msgid "The number of scanned folders while comparing."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:470
+#: synchronizer.docbook:475
 #, no-c-format
 msgid "The filename when comparing by content (for big files)."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:474
+#: synchronizer.docbook:479
 #, no-c-format
 msgid "The number of files on the list."
 msgstr ""
 
 #. Tag: term
-#: synchronizer.docbook:480
+#: synchronizer.docbook:485
 #, no-c-format
 msgid "Right click menu on the <guilabel>File List</guilabel>"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:483
+#: synchronizer.docbook:488
 #, no-c-format
 msgid "The right click menu is split up in three sections:"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:485
+#: synchronizer.docbook:490
 #, no-c-format
 msgid ""
 "1. change the <guilabel>Task</guilabel> operations determined by the "
@@ -603,13 +608,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:494
+#: synchronizer.docbook:499
 #, no-c-format
 msgid "<guibutton>Synchronize Folders...</guibutton>: Starts synchronization."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:499
+#: synchronizer.docbook:504
 #, no-c-format
 msgid ""
 "<guibutton>Exclude</guibutton>: Excludes a file/dir from synchronization "
@@ -617,7 +622,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:504
+#: synchronizer.docbook:509
 #, no-c-format
 msgid ""
 "<guibutton>Restore original operation</guibutton>: Task change to the "
@@ -625,7 +630,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:509
+#: synchronizer.docbook:514
 #, no-c-format
 msgid ""
 "<guibutton>Reverse direction</guibutton>: Task change ( -&gt; to &lt;-, and "
@@ -633,31 +638,31 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:515
+#: synchronizer.docbook:520
 #, no-c-format
 msgid "<guibutton>Copy from right to left</guibutton>: Task change to &lt;-."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:520
+#: synchronizer.docbook:525
 #, no-c-format
 msgid "<guibutton>Copy from left to right</guibutton>: Task change to -&gt;."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:525
+#: synchronizer.docbook:530
 #, no-c-format
 msgid "<guibutton>Delete ( left single )</guibutton>: Task change to DEL."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:530
+#: synchronizer.docbook:535
 #, no-c-format
 msgid "2. change the selections"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:533
+#: synchronizer.docbook:538
 #, no-c-format
 msgid ""
 "<guibutton>Select items</guibutton>: Opens a dialog which allows you to "
@@ -666,7 +671,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:540
+#: synchronizer.docbook:545
 #, no-c-format
 msgid ""
 "<guibutton>Unselect items</guibutton>: Opens a dialog which allows you to "
@@ -675,7 +680,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:547
+#: synchronizer.docbook:552
 #, no-c-format
 msgid ""
 "<guibutton>Invert selection</guibutton>: Invert the selection status of all "
@@ -683,7 +688,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:552
+#: synchronizer.docbook:557
 #, no-c-format
 msgid ""
 "3. others (note that the following operations work on the right-clicked file "
@@ -691,20 +696,20 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:556
+#: synchronizer.docbook:561
 #, no-c-format
 msgid "<guibutton>View left file</guibutton>: Starts viewer on the left file."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:561
+#: synchronizer.docbook:566
 #, no-c-format
 msgid ""
 "<guibutton>View right file</guibutton>: Starts viewer on the right file."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:566
+#: synchronizer.docbook:571
 #, no-c-format
 msgid ""
 "<guibutton>Compare Files</guibutton>: Starts the diff utility (&eg; "
@@ -712,13 +717,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: synchronizer.docbook:575
+#: synchronizer.docbook:580
 #, no-c-format
 msgid "Other buttons"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:579
+#: synchronizer.docbook:584
 #, no-c-format
 msgid ""
 "<guibutton>Profiles</guibutton>: If you have to synchronize the same folders "
@@ -728,20 +733,20 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:589
+#: synchronizer.docbook:594
 #, no-c-format
 msgid ""
 "<guibutton>Swap sides</guibutton>: Swaps the <guilabel>File List</guilabel>."
 msgstr ""
 
 #. Tag: term
-#: synchronizer.docbook:597
+#: synchronizer.docbook:602
 #, no-c-format
 msgid "Synchronize with <application>kget</application>"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:599
+#: synchronizer.docbook:604
 #, no-c-format
 msgid ""
 "If you want to synchronize a local folder with an unstable &FTP; server, "
@@ -755,13 +760,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: synchronizer.docbook:614
+#: synchronizer.docbook:619
 #, no-c-format
 msgid "Synchronization"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:616
+#: synchronizer.docbook:621
 #, no-c-format
 msgid ""
 "After pressing the <guibutton>Synchronize</guibutton> button the "
@@ -769,19 +774,19 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: synchronizer.docbook:621
+#: synchronizer.docbook:626
 #, no-c-format
 msgid "Check boxes"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:623
+#: synchronizer.docbook:628
 #, no-c-format
 msgid "Here you confirm the copy and delete operations of the Synchronizer"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:627
+#: synchronizer.docbook:632
 #, no-c-format
 msgid ""
 "<guilabel>Right to left</guilabel>: copy X1 files ( Y1 bytes ) enable / "
@@ -789,7 +794,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:633
+#: synchronizer.docbook:638
 #, no-c-format
 msgid ""
 "<guilabel>Left to right</guilabel>: copy X2 files ( Y2 bytes ) enable / "
@@ -797,7 +802,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:639
+#: synchronizer.docbook:644
 #, no-c-format
 msgid ""
 "<guilabel>Left</guilabel>: delete X3 files ( Y3 bytes ) enable / disable the "
@@ -805,7 +810,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:644
+#: synchronizer.docbook:649
 #, no-c-format
 msgid ""
 "<guilabel>Confirm overwrites</guilabel>: By switching this option on, "
@@ -814,13 +819,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: synchronizer.docbook:655
+#: synchronizer.docbook:660
 #, no-c-format
 msgid "Status labels"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:659
+#: synchronizer.docbook:664
 #, no-c-format
 msgid ""
 "<guilabel>Ready</guilabel>: A1/A2 files, B1/B2. This line is changed at "
@@ -829,7 +834,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:666
+#: synchronizer.docbook:671
 #, no-c-format
 msgid ""
 "<guilabel>Progress bar</guilabel>: Shows the progress on the synchronization "
@@ -837,13 +842,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:678
+#: synchronizer.docbook:683
 #, no-c-format
 msgid "<guibutton>Start</guibutton>: Starts synchronization."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:683
+#: synchronizer.docbook:688
 #, no-c-format
 msgid ""
 "<guibutton>Pause / Resume</guibutton>: Pauses/resumes the synchronization "
@@ -851,7 +856,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:688
+#: synchronizer.docbook:693
 #, no-c-format
 msgid ""
 "<guibutton>Close</guibutton>: Closes the synchronization dialog (and stops "
@@ -859,32 +864,32 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: synchronizer.docbook:697
+#: synchronizer.docbook:702
 #, no-c-format
 msgid "Parallel synchronization"
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:701
+#: synchronizer.docbook:706
 #, no-c-format
 msgid "One can give the number of the 'quasi' threads."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:705
+#: synchronizer.docbook:710
 #, no-c-format
 msgid ""
 "Can drastically increase the speed when synchronized with slow &FTP; servers."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:709
+#: synchronizer.docbook:714
 #, no-c-format
 msgid "Does not affect the speed of local synchronization."
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:713
+#: synchronizer.docbook:718
 #, no-c-format
 msgid ""
 "Remote <quote>compare by content</quote> and <quote>folder compare</quote> "
@@ -892,7 +897,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: synchronizer.docbook:717
+#: synchronizer.docbook:722
 #, no-c-format
 msgid ""
 "Remote synchronization is also done in parallel, except the <command>mkdir</"
