@@ -69,7 +69,27 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/libparser/node/dicerollernode.cpp:25
+#: src/libparser/node/allsamenode.cpp:11
+msgctxt "AllSameNode|"
+msgid "No valid previous node"
+msgstr ""
+
+#: src/libparser/node/allsamenode.cpp:15
+msgctxt "AllSameNode|"
+msgid "No dice result"
+msgstr ""
+
+#: src/libparser/node/dicerollernode.cpp:17
+msgctxt "QObject|"
+msgid "No Previous node"
+msgstr ""
+
+#: src/libparser/node/dicerollernode.cpp:22
+msgctxt "QObject|"
+msgid "No result from previous node"
+msgstr ""
+
+#: src/libparser/node/dicerollernode.cpp:27
 msgctxt "QObject|"
 msgid "No dice to roll"
 msgstr ""
@@ -79,14 +99,44 @@ msgctxt "QObject|"
 msgid "More unique values asked than possible values (D operator)"
 msgstr ""
 
-#: src/libparser/node/explodedicenode.cpp:49
-#: src/libparser/node/rerolldicenode.cpp:49
+#: src/libparser/node/explodedicenode.cpp:82
 #, qt-format
 msgctxt "QObject|"
 msgid "Condition (%1) cause an endless loop with this dice: %2"
 msgstr ""
 
-#: src/libparser/node/helpnode.cpp:34
+#: src/libparser/node/explodedicenode.cpp:89
+#, qt-format
+msgctxt "QObject|"
+msgid "Condition (%1) cause an endless loop with dice: %2"
+msgstr ""
+
+#: src/libparser/node/filternode.cpp:22
+msgctxt "FilterNode|"
+msgid "No Previous node"
+msgstr ""
+
+#: src/libparser/node/filternode.cpp:29
+msgctxt "FilterNode|"
+msgid "No Valid result"
+msgstr ""
+
+#: src/libparser/node/groupnode.cpp:77
+msgctxt "GroupNode|"
+msgid "No Previous node"
+msgstr ""
+
+#: src/libparser/node/groupnode.cpp:83
+msgctxt "GroupNode|"
+msgid "No Valid result"
+msgstr ""
+
+#: src/libparser/node/groupnode.cpp:88
+msgctxt "GroupNode|"
+msgid "No Valid Dice result"
+msgstr ""
+
+#: src/libparser/node/helpnode.cpp:35
 #, qt-format
 msgctxt "QObject|"
 msgid ""
@@ -100,92 +150,249 @@ msgid ""
 "Full documentation at: %1"
 msgstr ""
 
-#: src/libparser/node/helpnode.cpp:61
+#: src/libparser/node/helpnode.cpp:56
 msgctxt "HelpNode|"
 msgid ""
 "Rolisteam Dice Parser:\n"
 "Full documentation at"
 msgstr ""
 
-#: src/libparser/node/jumpbackwardnode.cpp:123
-msgctxt "QObject|"
+#: src/libparser/node/ifnode.cpp:97
+msgctxt "IfNode|"
+msgid "No Previous node"
+msgstr ""
+
+#: src/libparser/node/ifnode.cpp:103
+msgctxt "IfNode|"
+msgid "No Valid result"
+msgstr ""
+
+#: src/libparser/node/ifnode.cpp:108
+msgctxt "IfNode|"
+msgid "No Valid copy of result"
+msgstr ""
+
+#: src/libparser/node/ifnode.cpp:112
+msgctxt "IfNode|"
+msgid "No validator list"
+msgstr ""
+
+#: src/libparser/node/jumpbackwardnode.cpp:125
+msgctxt "JumpBackwardNode|"
 msgid ""
 " The @ operator expects dice result. Please check the documentation to fix "
 "your command."
 msgstr ""
 
-#: src/libparser/node/keepdiceexecnode.cpp:75
+#: src/libparser/node/keepdiceexecnode.cpp:34
+#: src/libparser/node/keepdiceexecnode.cpp:52
+msgctxt "KeepDiceExecNode|"
+msgid "No Valid result"
+msgstr ""
+
+#: src/libparser/node/keepdiceexecnode.cpp:77
 #, qt-format
 msgctxt "QObject|"
 msgid " You ask to keep %1 dice but the result only has %2"
 msgstr ""
 
-#: src/libparser/node/listaliasnode.cpp:48
+#: src/libparser/node/listaliasnode.cpp:41
 msgctxt "QObject|"
 msgid "List of Alias:\n"
 msgstr ""
 
-#: src/libparser/node/listsetrollnode.cpp:71
+#: src/libparser/node/listsetrollnode.cpp:62
+msgctxt "ListSetRollNode|"
+msgid "No Previous node"
+msgstr ""
+
+#: src/libparser/node/listsetrollnode.cpp:66
+msgctxt "ListSetRollNode|"
+msgid "No Valid result"
+msgstr ""
+
+#: src/libparser/node/listsetrollnode.cpp:72
 msgctxt "ListSetRollNode|"
 msgid "More unique values asked than possible values (L operator)"
 msgstr ""
 
-#: src/libparser/node/mergenode.cpp:34
-msgctxt "QObject|"
+#: src/libparser/node/mergenode.cpp:49
+msgctxt "MergeNode|"
 msgid "No previous node before Merge operator"
 msgstr ""
 
-#: src/libparser/node/occurencecountnode.cpp:149
+#: src/libparser/node/mergenode.cpp:55
+msgctxt "MergeNode|"
+msgid "No several instruction"
+msgstr ""
+
+#: src/libparser/node/occurencecountnode.cpp:30
+msgctxt "OccurenceCountNode|"
+msgid "No Previous node"
+msgstr ""
+
+#: src/libparser/node/occurencecountnode.cpp:37
+msgctxt "OccurenceCountNode|"
+msgid "No Valid result"
+msgstr ""
+
+#: src/libparser/node/occurencecountnode.cpp:146
 msgctxt "QObject|"
 msgid "No matching result"
 msgstr ""
 
-#: src/libparser/node/paintnode.cpp:63
-msgctxt "QObject|"
-msgid "No previous node before Paint operator"
+#: src/libparser/node/paintnode.cpp:60
+msgctxt "PainterNode|"
+msgid "No Previous node"
 msgstr ""
 
-#: src/libparser/node/rerolldicenode.cpp:98
-msgctxt "QObject|"
+#: src/libparser/node/paintnode.cpp:65
+msgctxt "PainterNode|"
+msgid "No Valid result"
+msgstr ""
+
+#: src/libparser/node/paintnode.cpp:69
+msgctxt "PainterNode|"
+msgid "No Valid Dice result"
+msgstr ""
+
+#: src/libparser/node/replacevaluenode.cpp:38
+msgctxt "ReplaceValueNode|"
+msgid "No previous node before Switch/Case operator"
+msgstr ""
+
+#: src/libparser/node/replacevaluenode.cpp:48
+msgctxt "ReplaceValueNode|"
+msgid "No scalar or dice result before Switch/Case operator"
+msgstr ""
+
+#: src/libparser/node/rerolldicenode.cpp:25
+msgctxt "RerollDiceNode|"
+msgid "No Previous node"
+msgstr ""
+
+#: src/libparser/node/rerolldicenode.cpp:31
+msgctxt "RerollDiceNode|"
+msgid "No Valid result"
+msgstr ""
+
+#: src/libparser/node/rerolldicenode.cpp:36
+msgctxt "RerollDiceNode|"
 msgid ""
 " The a operator expects dice result. Please check the documentation and fix "
 "your command."
 msgstr ""
 
-#: src/libparser/node/scalaroperatornode.cpp:72
+#: src/libparser/node/scalaroperatornode.cpp:43
+#: src/libparser/node/scalaroperatornode.cpp:48
+msgctxt "ScalarOperatorNode|"
+msgid "No Previous node"
+msgstr ""
+
+#: src/libparser/node/scalaroperatornode.cpp:51
+msgctxt "ScalarOperatorNode|"
+msgid "No internal node to run"
+msgstr ""
+
+#: src/libparser/node/scalaroperatornode.cpp:57
+msgctxt "ScalarOperatorNode|"
+msgid "No valid result"
+msgstr ""
+
+#: src/libparser/node/scalaroperatornode.cpp:75
 #, qt-format
-msgctxt "QObject|"
+msgctxt "ScalarOperatorNode|"
 msgid "No Valid result in arithmetic operation: %1"
 msgstr ""
 
-#: src/libparser/node/scalaroperatornode.cpp:139
+#: src/libparser/node/scalaroperatornode.cpp:133
 msgctxt "QObject|"
 msgid "Division by zero"
 msgstr ""
 
-#: src/libparser/node/variablenode.cpp:39
+#: src/libparser/node/sortresult.cpp:33
+msgctxt "SortResultNode|"
+msgid "No Previous node"
+msgstr ""
+
+#: src/libparser/node/sortresult.cpp:39
+msgctxt "SortResultNode|"
+msgid "No Valid dice result"
+msgstr ""
+
+#: src/libparser/node/splitnode.cpp:30
+msgctxt "SplitNode|"
+msgid "No Previous node"
+msgstr ""
+
+#: src/libparser/node/splitnode.cpp:37
+msgctxt "SplitNode|"
+msgid "No Valid result"
+msgstr ""
+
+#: src/libparser/node/splitnode.cpp:41
+msgctxt "SplitNode|"
+msgid "No Valid dice result"
+msgstr ""
+
+#: src/libparser/node/switchcasenode.cpp:39
+msgctxt "SwitchCaseNode|"
+msgid "No previous node before Switch/Case operator"
+msgstr ""
+
+#: src/libparser/node/switchcasenode.cpp:50
+msgctxt "SwitchCaseNode|"
+msgid "No scalar or dice result before Switch/Case operator"
+msgstr ""
+
+#: src/libparser/node/switchcasenode.cpp:130
+msgctxt "SwitchCaseNode|"
+msgid "No value fits the Switch/Case operator"
+msgstr ""
+
+#: src/libparser/node/uniquenode.cpp:30
+msgctxt "UniqueNode|"
+msgid "No Previous node"
+msgstr ""
+
+#: src/libparser/node/uniquenode.cpp:36
+msgctxt "UniqueNode|"
+msgid "No Valid result"
+msgstr ""
+
+#: src/libparser/node/uniquenode.cpp:40
+msgctxt "UniqueNode|"
+msgid "No Valid dice result"
+msgstr ""
+
+#: src/libparser/node/variablenode.cpp:12
 #, qt-format
-msgctxt "QObject|"
+msgctxt "VariableNode|"
 msgid "No variable at index:%1"
 msgstr ""
 
-#: src/libparser/parsingtoolbox.cpp:1446
+#: src/libparser/node/variablenode.cpp:26
+msgctxt "VariableNode|"
+msgid "No Valid dice result"
+msgstr ""
+
+#: src/libparser/parsingtoolbox.cpp:1497
 msgctxt "QObject|"
 msgid "Expected closing parenthesis - can't validate the inside."
 msgstr ""
 
-#: src/libparser/parsingtoolbox.cpp:1683
+#: src/libparser/parsingtoolbox.cpp:1737
 msgctxt "QObject|"
 msgid "Validator is missing after the c operator. Please, change it"
 msgstr ""
 
-#: src/libparser/parsingtoolbox.cpp:1703
+#: src/libparser/parsingtoolbox.cpp:1757
 #, qt-format
 msgctxt "QObject|"
 msgid "Validator is always true for the %1 operator. Please, change it"
 msgstr ""
 
-#: src/libparser/parsingtoolbox.cpp:1712
+#: src/libparser/parsingtoolbox.cpp:1766
 #, qt-format
 msgctxt "QObject|"
 msgid ""
@@ -193,35 +400,35 @@ msgid ""
 "option condition"
 msgstr ""
 
-#: src/libparser/parsingtoolbox.cpp:1738
+#: src/libparser/parsingtoolbox.cpp:1792
 #, qt-format
 msgctxt "QObject|"
 msgid "Validator is missing after the %1 operator. Please, change it"
 msgstr ""
 
-#: src/libparser/parsingtoolbox.cpp:1753
+#: src/libparser/parsingtoolbox.cpp:1807
 #, qt-format
 msgctxt "QObject|"
 msgid "This condition %1 introduces an endless loop. Please, change it"
 msgstr ""
 
-#: src/libparser/parsingtoolbox.cpp:1769
+#: src/libparser/parsingtoolbox.cpp:1823
 msgctxt "QObject|"
 msgid "Validator is missing after the e operator. Please, change it"
 msgstr ""
 
-#: src/libparser/parsingtoolbox.cpp:1847
+#: src/libparser/parsingtoolbox.cpp:1902
 msgctxt "QObject|"
 msgid "Missing parameter for Painter node (p)"
 msgstr ""
 
-#: src/libparser/parsingtoolbox.cpp:2065
+#: src/libparser/parsingtoolbox.cpp:2120
 #, qt-format
 msgctxt "QObject|"
 msgid "Dice with %1 face(s) does not exist. Please, put a value higher than 0"
 msgstr ""
 
-#: src/libparser/parsingtoolbox.cpp:2124
+#: src/libparser/parsingtoolbox.cpp:2179
 msgctxt "QObject|"
 msgid ""
 "List is missing after the L operator. Please, add it (e.g : 1L[sword,spear,"
