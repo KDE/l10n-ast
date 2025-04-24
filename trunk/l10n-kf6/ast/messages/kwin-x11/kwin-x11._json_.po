@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-14 00:52+0000\n"
+"POT-Creation-Date: 2025-04-24 00:50+0000\n"
 "PO-Revision-Date: 2023-11-12 00:38+0100\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
@@ -13,6 +13,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 23.08.2\n"
+
+#: src/kcms/animations/kcm_animations_x11.json
+msgctxt "X-KDE-Keywords"
+msgid ""
+"animations,animation speed,transitions,effects,window open close,window open/"
+"close,window maximize,window minimize,window full screen,peek at desktop,"
+"peek desktop,virtual desktop switching,fade effect,glide effect,scale effect,"
+"stretch effect,magic lamp effect,squash effect,eye on screen effect,window "
+"aperture effect,slide effect,fading popups effect,sliding popups effect,"
+"login effect,logout effect"
+msgstr ""
 
 #: src/kcms/compositing/kwincompositing.json
 msgctxt "X-KDE-Keywords"
@@ -41,22 +52,18 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,3D effects,2D effects,graphical effects,desktop "
-"effects,animations,various animations,window management effects,window "
-"switching effect,desktop switching effect,animations,desktop animations,"
-"drivers,driver settings,rendering,render,invert effect,looking glass effect,"
+"effects,animations,various animations,window management effects,animations,"
+"desktop animations,rendering,render,invert effect,looking glass effect,"
 "magnifier effect,snap helper effect,track mouse effect,zoom effect,blur "
-"effect,fade effect,fade desktop effect,fall apart effect,glide effect,"
-"highlight window effect,login effect,logout effect,magic lamp effect,"
-"minimize animation effect,mouse mark effect,scale effect,screenshot effect,"
-"sheet effect,slide effect,sliding popups effect,thumbnail aside effect,"
-"translucency,translucency effect,transparency,window geometry effect,wobbly "
-"windows effect,startup feedback effect,dialog parent effect,dim inactive "
-"effect,dim screen effect,slide back effect,eye candy,candy,show FPS effect,"
-"show paint effect,cover switch effect,desktop cube effect,desktop cube "
-"animation effect,desktop grid effect,flip switch effect,background contrast "
-"effect,bling,fading,movement,motion,overview windows effect,accessibility,"
-"cursor,pointer,mouse,hide cursor,hide cursor effect,hide pointer,hide "
-"pointer effect,hide mouse,hide mouse effect"
+"effect,fall apart effect,highlight window effect,mouse mark effect,"
+"screenshot effect,sheet effect,thumbnail aside effect,translucency,"
+"translucency effect,transparency,window geometry effect,wobbly windows "
+"effect,startup feedback effect,dialog parent effect,dim inactive effect,dim "
+"screen effect,slide back effect,eye candy,candy,show FPS effect,show paint "
+"effect,cover switch effect,desktop cube effect,desktop cube animation effect,"
+"desktop grid effect,background contrast effect,bling,fading,movement,motion,"
+"overview windows effect,accessibility,cursor,pointer,mouse,hide cursor,hide "
+"cursor effect,hide pointer,hide pointer effect,hide mouse,hide mouse effect"
 msgstr ""
 
 #: src/kcms/options/kcm_kwinoptions_x11.json
@@ -102,6 +109,11 @@ msgid ""
 "window,windows,switcher,window switcher,switching,window switching,alttab,"
 "alt-tab,alt+tab,alt tab,apps changer,application changer,app,task,switch,"
 "task switcher"
+msgstr ""
+
+#: src/kcms/animations/kcm_animations_x11.json
+msgctxt "Name"
+msgid "Animations"
 msgstr ""
 
 #: src/kcms/compositing/kwincompositing.json
@@ -205,10 +217,6 @@ msgid "Eye on Screen"
 msgstr ""
 
 #: src/plugins/fadedesktop/package/metadata.json
-msgctxt "Name"
-msgid "Fade Desktop"
-msgstr ""
-
 #: src/plugins/fade/package/metadata.json
 msgctxt "Name"
 msgid "Fade"
@@ -216,7 +224,7 @@ msgstr ""
 
 #: src/plugins/fadingpopups/package/metadata.json
 msgctxt "Name"
-msgid "Fading Popups"
+msgid "Fading popups"
 msgstr ""
 
 #: src/plugins/fallapart/metadata.json
@@ -230,8 +238,9 @@ msgid "Desaturate Unresponsive Applications"
 msgstr ""
 
 #: src/plugins/fullscreen/package/metadata.json
+#: src/plugins/maximize/package/metadata.json
 msgctxt "Name"
-msgid "Full Screen"
+msgid "Stretch"
 msgstr ""
 
 #: src/plugins/glide/metadata.json
@@ -272,11 +281,6 @@ msgstr ""
 #: src/plugins/magnifier/metadata.json
 msgctxt "Name"
 msgid "Magnifier"
-msgstr ""
-
-#: src/plugins/maximize/package/metadata.json
-msgctxt "Name"
-msgid "Maximize"
 msgstr ""
 
 #: src/plugins/minimizeall/package/metadata.json
@@ -351,7 +355,7 @@ msgstr ""
 
 #: src/plugins/slidingpopups/metadata.json
 msgctxt "Name"
-msgid "Sliding Popups"
+msgid "Sliding popups"
 msgstr ""
 
 #: src/plugins/snaphelper/metadata.json
@@ -427,6 +431,11 @@ msgstr "Zoom"
 #: src/tabbox/switchers/thumbnail_grid/metadata.json
 msgctxt "Name"
 msgid "Thumbnail Grid"
+msgstr ""
+
+#: src/kcms/animations/kcm_animations_x11.json
+msgctxt "Description"
+msgid "Configure animation speed and style"
 msgstr ""
 
 #: src/kcms/compositing/kwincompositing.json
@@ -531,17 +540,17 @@ msgstr ""
 
 #: src/plugins/fadedesktop/package/metadata.json
 msgctxt "Description"
-msgid "Fade between virtual desktops when switching between them"
+msgid "Fade between virtual desktops when switching"
 msgstr ""
 
 #: src/plugins/fade/package/metadata.json
 msgctxt "Description"
-msgid "Make windows smoothly fade in and out when they are shown or hidden"
+msgid "Make windows fade in and out when they are shown or hidden"
 msgstr ""
 
 #: src/plugins/fadingpopups/package/metadata.json
 msgctxt "Description"
-msgid "Make popups smoothly fade in and out when they are shown or hidden"
+msgid "Fade popups in and out"
 msgstr ""
 
 #: src/plugins/fallapart/metadata.json
@@ -556,7 +565,7 @@ msgstr ""
 
 #: src/plugins/fullscreen/package/metadata.json
 msgctxt "Description"
-msgid "Animation for a window going to and leaving full screen mode"
+msgid "Stretch windows going to and leaving full screen mode"
 msgstr ""
 
 #: src/plugins/glide/metadata.json
@@ -583,12 +592,12 @@ msgstr ""
 
 #: src/plugins/login/package/metadata.json
 msgctxt "Description"
-msgid "Smoothly fade to the desktop when logging in"
+msgid "Fade to the desktop when logging in"
 msgstr ""
 
 #: src/plugins/logout/package/metadata.json
 msgctxt "Description"
-msgid "Smoothly fade to the logout screen"
+msgid "Fade to the logout screen"
 msgstr ""
 
 #: src/plugins/magiclamp/metadata.json
@@ -605,7 +614,7 @@ msgstr ""
 
 #: src/plugins/maximize/package/metadata.json
 msgctxt "Description"
-msgid "Animation for a window going to maximize/restore from maximize"
+msgid "Stretch windows when they are maximized or restored"
 msgstr ""
 
 #: src/plugins/minimizeall/package/metadata.json
@@ -640,7 +649,7 @@ msgstr ""
 
 #: src/plugins/scale/package/metadata.json
 msgctxt "Description"
-msgid "Make windows smoothly scale in and out when they are shown or hidden"
+msgid "Make windows scale in and out when they are shown or hidden"
 msgstr ""
 
 #: src/plugins/screenedge/metadata.json
@@ -685,12 +694,12 @@ msgstr ""
 
 #: src/plugins/slide/metadata.json
 msgctxt "Description"
-msgid "Slide desktops when switching virtual desktops"
+msgid "Slide between virtual desktops when switching"
 msgstr ""
 
 #: src/plugins/slidingpopups/metadata.json
 msgctxt "Description"
-msgid "Sliding animation for Plasma popups"
+msgid "Slide Plasma popups in and out"
 msgstr ""
 
 #: src/plugins/snaphelper/metadata.json
